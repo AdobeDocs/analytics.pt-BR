@@ -5,7 +5,7 @@ seo-title: Visão geral da Análise de contribuição
 title: Visão geral da Análise de contribuição
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: 1b8cfad731646523844aa420b38137a929383462
+source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
 
 ---
 
@@ -50,7 +50,7 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como restringir o acesso à Análise de contribuição?</b> </p> </td> 
-   <td colname="col2"> <p>Por padrão, somente administradores têm acesso para executar análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no [Admin Console] (https://helpx.adobe.com/enterprise/using/user-groups.html). É importante dar permissão de uso para a Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e encontra-se em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Você deve conceder permissão para usar a Análise de contribuição somente para usuários que têm um motivo legítimo para usá-la e são confiáveis para não abusarem de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e encontra-se em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como posso saber a quantos tokens minha empresa tem direito por mês e quantos já usamos no mês atual?</b> </p> </td> 
