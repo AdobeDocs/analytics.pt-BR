@@ -4,7 +4,7 @@ seo-title: Laboratórios para o Adobe Analytics
 description: Visualizar projetos de protótipo para o Adobe Analytics
 seo-description: Visualizar protótipos para o Adobe Analytics
 translation-type: tm+mt
-source-git-commit: a4965f985a40521757e58c6be5988f831461a50a
+source-git-commit: 38e2011175d70189197af1cabe48ad767c312f37
 
 ---
 
@@ -69,4 +69,4 @@ Para iniciar e avaliar um protótipo:
 
 * Alguns protótipos em Laboratórios se tornam recursos do Analytics, outros não. Seu feedback conduz a decisão. Portanto, revise os protótipos e informe a Adobe sobre o quão valiosa você os encontra.
 
-* As Visualizações de tecnologia estão disponíveis para todos os direitos de SKU.
+* Os laboratórios estão disponíveis para todos os direitos de SKU.
