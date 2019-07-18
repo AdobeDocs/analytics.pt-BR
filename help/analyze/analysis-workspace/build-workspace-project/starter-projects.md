@@ -5,7 +5,7 @@ seo-title: Modelos
 title: Modelos
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às su
 [Modelos padrão na Analysis Workspace no youtube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder:
-
-### Propaganda
-
-* **Mecanismos de seach**: Este modelo divide tendências de publicidade, totais da plataforma de anúncios, palavras-chave e muito mais. **Observação:** Seu conjunto de relatórios escolhido deve estar habilitado para a Publicidade Cloud exibir esse projeto de modelo.
-
-## Comércio
-
-* **Magento: Marketing e Comércio**: Este modelo divide a conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer insight por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais.
 
 ### Mídia
 
