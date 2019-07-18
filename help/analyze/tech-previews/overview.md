@@ -4,13 +4,15 @@ seo-title: Laboratórios para o Adobe Analytics
 description: Visualizar projetos de protótipo para o Adobe Analytics
 seo-description: Visualizar protótipos para o Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
+source-git-commit: a5f1527d899b65d9c2e0c05a72bd4b4e6614ad75
 
 ---
 
 
 
 # Guia do usuário Labs
+
+Observação: No momento, os laboratórios são lançados como acesso antecipado a um número limitado de clientes, mas serão lançados mais tarde.
 
 Os laboratórios permitem um protótipo mais rápido de ideias antecipadas. É uma combinação de ferramentas e processos que acelera o desenvolvimento de forma transparente, com foco do cliente. Isso permite que os usuários interajam com tecnologias emergentes, para descobrir informações valiosas e influenciar o desenvolvimento e as prioridades futuras de recursos. Você pode usar Laboratórios para obter acesso antecipado às inovações do Analytics e avaliar os recursos futuros dentro do contexto de seus próprios casos de uso comercial e dados.
 
@@ -66,8 +68,6 @@ Para iniciar e avaliar um protótipo:
 1. Click **Submit** to return to the main Previews portal.
 
 ## Informações adicionais
-
-* No momento, os laboratórios são lançados como acesso antecipado a um número limitado de clientes, mas serão lançados mais tarde.
 
 * Alguns protótipos em Laboratórios se tornam recursos do Analytics, outros não. Seu feedback conduz a decisão. Portanto, revise os protótipos e informe a Adobe sobre o quão valiosa você os encontra.
 
