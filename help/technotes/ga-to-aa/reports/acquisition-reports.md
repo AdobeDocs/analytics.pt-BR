@@ -23,7 +23,7 @@ Esta página considera que o usuário tem um conhecimento básico sobre como usa
 
 Mostra uma exibição agregada de todos os canais que os visitantes usam para chegar ao site.
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Todo o tráfego - Mapas de árvore
@@ -31,12 +31,12 @@ Mostra uma exibição agregada de todos os canais que os visitantes usam para ch
 Mostra um mapa de árvore do tráfego de canal. Este relatório é semelhante a Todo o tráfego - Canais, mas é mostrado de maneira diferente.
 
 1. Clique no ícone Visualizações à esquerda e arraste a visualização de Treemap para a área de trabalho acima da tabela vazia de forma livre.
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 4. Observe que as métricas adicionais criam mapas de árvore adicionais. Se apenas um mapa de árvore for desejado:
    1. Clique na célula superior da métrica desejada para representar o mapa de árvore.
    2. Clique com a tecla Shift pressionada na última célula da mesma coluna de métrica para realçar a coluna azul. Se feito corretamente, um mapa de árvore estará presente na visualização.
-   3. Clique no ponto colorido no canto superior direito da visualização de treemap e clique na caixa de seleção&#39;Bloquear seleção &#39;.
+   3. Clique no ponto colorido no canto superior direito da visualização de treemap e clique na caixa de seleção'Bloquear seleção '.
 
 Os mapas de árvore podem ser aplicados a qualquer dimensão, não apenas os Canais de marketing.
 
@@ -48,7 +48,7 @@ Os relatórios de origem e mídia mostram os domínios que direcionam o tráfego
 * The **Medium** primary dimension is available in Analysis Workspace as the  **Referrer Type** dimension.
 * The **Keyword** primary dimension is available in Analysis Workspace as the **Search Keyword** dimension.
 
-1. No menu de componentes, localize a dimensão desejada acima e arraste-a para a grande área de tabela de forma livre denominada &quot;Soltar uma dimensão aqui&quot;.
+1. No menu de componentes, localize a dimensão desejada acima e arraste-a para a grande área de tabela de forma livre denominada "Soltar uma dimensão aqui".
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre sua respectiva dimensão:
@@ -62,7 +62,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 * The **Source** primary dimension is available in Analysis Workspace as the **Referring Domain** dimension.
 * The **Landing Page** primary dimension is available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
@@ -83,16 +83,16 @@ Os relatórios do Social fornecem informações semelhantes como seu respectivo 
 
 O relatório de Referenciadores de rede mostra quais domínios de rede social direcionam o tráfego para o site. This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social - Páginas de aterrissagem
 
 O relatório de Páginas de aterrissagem mostra quais páginas chegaram após clicar em um link por uma rede social. This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social - Conversões
@@ -108,9 +108,9 @@ O relatório de plug-ins mostra como os visitantes interagem com plug-plugins de
 O relatório de fluxo de usuários mostra os dados de definição de caminho no contexto de visitantes que chegam por meio de uma rede social.
 
 1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Fluxo até a área de trabalho acima da tabela de forma livre
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled &#39;Drop a Segment here&#39;.
+2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
 3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Os valores de dimensão são coloridos amarelos.
-4. Localize o valor da página desejada para começar e arraste-o para o espaço denominado &quot;Dimensão ou item&quot; no centro
+4. Localize o valor da página desejada para começar e arraste-o para o espaço denominado "Dimensão ou item" no centro
 5. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito para expandir ou recolher colunas. Diferentes dimensões também podem ser usadas no mesmo relatório de fluxo.
 
 ## Campanhas - Todas
@@ -119,21 +119,21 @@ The campaigns report is available in Analysis Workspace using the **Tracking Cod
 
 É possível coletar parâmetros UTM no Adobe Analytics usando variáveis personalizadas (evars). A Adobe recomenda trabalhar com um consultor de implementação para garantir que os valores de código de rastreamento sejam coletados precisamente no Adobe Analytics.
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Campanhas - Palavras-chave pagas
 
 O relatório de palavras-chave pagas mostra como cada palavra-chave ocorre depois que um visitante clica em um link de pesquisa pago de um mecanismo de pesquisa. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Campanhas - Palavras-chave orgânicas
 
 O relatório de palavras-chave orgânicas mostra como cada palavra-chave ocorre depois que um visitante clica em um link de pesquisa orgânico de um mecanismo de pesquisa. The **Search Keywords - Natural** dimension is available in Analysis Workspace. Observe que, se a detecção de pesquisa paga não estiver configurada, essa dimensão coleta palavras-chave pagas e naturais.
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Análise de custo
