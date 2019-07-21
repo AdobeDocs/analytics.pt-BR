@@ -38,7 +38,7 @@ Para adicionar várias métricas a uma tabela de forma livre de espaço de traba
 
 1. Se você já criou essa métrica calculada, localize-a em Métricas e arraste-a até a área de trabalho.
 2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. Atribua um título de &quot;Visualizações de página por visita&quot; e uma descrição, se desejar.
+3. Atribua um título de "Visualizações de página por visita" e uma descrição, se desejar.
 4. Defina o formato como Decimal e defina o número de casas decimais como 2.
 5. Drag the **Page views** metric and **Visits** metric into the definition area.
 6. Arrange the definition so the formula is **Page Views divided by Visits**.
