@@ -14,7 +14,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 # Construir segmentos sequenciais
 
-Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro &quot;Incluir todos&quot;. Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções “Apenas antes da sequência” e &quot;Apenas após a sequência&quot;.
+Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções “Apenas antes da sequência” e "Apenas após a sequência".
 
 ![](assets/before-after-sequence.png)
 
@@ -73,7 +73,7 @@ Definir uma cláusula “dentro da dimensão” entre regras permite que o segme
 | Se resultado… | Sequência |
 |--- |--- |
 | Corresponde | A depois B |
-| Não corresponde | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, &quot;A then B&quot; and &quot;A then C then B&quot; would both match. |
+| Não corresponde | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 ## Sequência de exibição de página simples
 
@@ -157,7 +157,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 ![](assets/aggregate_checkpoints2.png)
 
-## &quot; Aninhamento &quot;nos segmentos sequenciais
+## " Aninhamento "nos segmentos sequenciais
 
 Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e [!UICONTROL Ocorrência], é possível restringir o segmento para que atenda aos requisitos em uma visita específica, bem como em uma ocorrência específica.
 
@@ -175,11 +175,11 @@ Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e 
 
 ## Excluir ocorrências
 
-As regras do segmento incluem todos os dados, a menos que você exclua especificamente os dados de [!UICONTROL Visitante], [!UICONTROL Visita] ou [!UICONTROL Ocorrência] usando a regra [!UICONTROL Excluir]. Isso permite recusar dados comuns e criar segmentos com um foco maior. Ou permite criar segmentos excluindo grupos encontrados para identificar o conjunto de dados restante, como ao criar uma regra que inclui visitantes bem sucedidos que fizeram pedidos e depois os excluíram para identificar os &quot;não compradores&quot;. Contudo, na maioria dos casos, é melhor criar regras que excluam valores abrangentes do que tentar usar a regra [!UICONTROL Excluir] para direcionar valores de inclusão específicos.
+As regras do segmento incluem todos os dados, a menos que você exclua especificamente os dados de [!UICONTROL Visitante], [!UICONTROL Visita] ou [!UICONTROL Ocorrência] usando a regra [!UICONTROL Excluir]. Isso permite recusar dados comuns e criar segmentos com um foco maior. Ou permite criar segmentos excluindo grupos encontrados para identificar o conjunto de dados restante, como ao criar uma regra que inclui visitantes bem sucedidos que fizeram pedidos e depois os excluíram para identificar os "não compradores". Contudo, na maioria dos casos, é melhor criar regras que excluam valores abrangentes do que tentar usar a regra [!UICONTROL Excluir] para direcionar valores de inclusão específicos.
 
 Por exemplo:
 
-* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à &quot;Página inicial&quot; e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
+* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à "Página inicial" e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
 * **Excluir os domínios de referência**. Use uma regra que inclua somente os domínios de referência do Google.com e exclua todos os outros.
 * **Identificar não compradores**. Identifique quando os pedidos são maiores que zero e, então, exclua o [!UICONTROL Visitante].
 
@@ -364,7 +364,7 @@ A duração é especificada por uma única letra maiúscula representando a gran
 
 **Corresponde**
 
-Ao determinar &quot;Após 2 semanas&quot;, se houver uma ocorrência na página A em 1° de junho de 2019 às 00:01, a próxima ocorrência na página B corresponderá contanto que seja realizada antes de 00:01 de 15 de junho de 2019 (14 dias depois).
+Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° de junho de 2019 às 00:01, a próxima ocorrência na página B corresponderá contanto que seja realizada antes de 00:01 de 15 de junho de 2019 (14 dias depois).
 
 | Ocorrência A | Ocorrência B | Correspondência |
 |--- |--- |--- |
