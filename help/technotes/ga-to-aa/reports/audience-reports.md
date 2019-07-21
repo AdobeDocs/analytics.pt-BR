@@ -20,7 +20,7 @@ Os usuários ativos mostram o número cumulativo de usuários para o site nos ú
 Para obter um gráfico de linha de visitantes únicos:
 
 1. Clique no ícone Visualizações à esquerda e arraste a visualização Linha até a área de trabalho acima da tabela vazia de forma livre.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled &#39;Drop a Metric here&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
 3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) sobre o cabeçalho da dimensão de datas existente.
 
 See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
@@ -66,7 +66,7 @@ O relatório de idioma geográfico mostra o tráfego do site pela configuração
 
 Para criar um relatório de idioma:
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
@@ -78,12 +78,12 @@ O relatório de localização geográfica fornece uma exibição do mapa global,
 Para criar um relatório de localização geográfica:
 
 1. Clique no ícone Visualizações à esquerda e arraste a visualização de Mapa para a área de trabalho acima da tabela vazia de forma livre.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled &#39;Add Metric&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
 3. Clique em Construir.
 
 Se a tabela também for desejada, além do mapa:
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
@@ -94,7 +94,7 @@ O novo relatório vs recorrente fornece uma visualização simplificada das prim
 
 Para criar um relatório de visitas novo e recorrente:
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
+1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
 2. Locate the **Return Visits** segment and drag it on top of the Segments row header. Isso adiciona o segmento como uma dimensão abaixo de Visitas pela primeira vez, permitindo uma comparação fácil.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
@@ -108,7 +108,7 @@ Se um gráfico de linha também for desejado:
 
 The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
@@ -117,7 +117,7 @@ See the [Visit Number](../../../components/c-variables/dimensionslist/reports-vi
 
 The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
@@ -132,7 +132,7 @@ Há várias dimensões primárias disponíveis no relatório Navegador e SO.
 * The **Screen Colors** primary dimension is available in Analysis Workspace as the **Color Depth** dimension.
 * The **Flash Version** primary dimension is not available in Adobe Analytics, however this data can be collected by an eVar if wanted.
 
-1. No menu de componentes, localize a dimensão desejada acima e arraste-a para a grande área de tabela de forma livre denominada &quot;Soltar uma dimensão aqui&quot;.
+1. No menu de componentes, localize a dimensão desejada acima e arraste-a para a grande área de tabela de forma livre denominada "Soltar uma dimensão aqui".
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre sua respectiva dimensão:
@@ -146,7 +146,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 
 The network report is approximately equal to the **Domain** dimension.
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
@@ -155,7 +155,7 @@ See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.
 
 The mobile overview report is approximately equal to the **Mobile Device Type** dimension. Observe que o valor «Outros» equivale ao tráfego da área de trabalho.
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
@@ -164,7 +164,7 @@ See the [Mobile Device Type](../../../components/c-variables/dimensionslist/repo
 
 The mobile devices report is approximately equal to the **Mobile Device** dimension.
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
@@ -183,5 +183,5 @@ O relatório de fluxo está disponível em ambas as plataformas. Para criar um r
 
 1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Fluxo até a área de trabalho acima da tabela de forma livre
 2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Os valores de dimensão são coloridos amarelos.
-3. Localize o valor da página desejada para começar e arraste-o para o espaço denominado &quot;Dimensão ou item&quot; no centro
+3. Localize o valor da página desejada para começar e arraste-o para o espaço denominado "Dimensão ou item" no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito para expandir ou recolher colunas. Diferentes dimensões também podem ser usadas no mesmo relatório de fluxo.
