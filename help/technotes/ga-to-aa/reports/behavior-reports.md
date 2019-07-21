@@ -19,7 +19,7 @@ O relatório de fluxo de comportamento pode ser recriado usando a visualização
 
 1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Fluxo até a área de trabalho acima da tabela de forma livre
 2. Locate the **Page** dimension, then click the Arrow icon to reveal page values. Os valores de dimensão são coloridos amarelos.
-3. Localize o valor da página desejada para começar e arraste-o para o espaço denominado &quot;Dimensão ou item&quot; no centro
+3. Localize o valor da página desejada para começar e arraste-o para o espaço denominado "Dimensão ou item" no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito para expandir ou recolher colunas. Diferentes dimensões também podem ser usadas no mesmo relatório de fluxo.
 
 ![Relatório de fluxo](../assets/flow.png)
@@ -28,12 +28,12 @@ O relatório de fluxo de comportamento pode ser recriado usando a visualização
 
 O relatório de páginas mostra o desempenho de páginas individuais no site.
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Como alternativa, a Adobe fornece várias áreas de trabalho pré-criadas chamadas modelos. O modelo de Consumo de conteúdo (Web) fornece valor semelhante ao relatório de todas as páginas.
 
-1. Click *[!UICONTROL Project] &gt; [!UICONTROL New]*, which opens a modal window with project options.
+1. Click *[!UICONTROL Project]&gt;[!UICONTROL New]*, which opens a modal window with project options.
 2. Clique no modelo de Consumo de conteúdo (Web) e clique em Criar.
 
 ## Conteúdo do site - Detalhamento do conteúdo
@@ -44,7 +44,7 @@ O relatório de detalhamento de conteúdo permite analisar o tráfego da página
 
 O relatório de páginas iniciais mostra as principais páginas de aterrissagem do site. Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
@@ -53,7 +53,7 @@ Adobe recommends using the **Visits** metric for this dimension.
 
 O relatório de páginas de saída mostra as páginas principais que se tornaram a última página da visita de um indivíduo. Ele está disponível na Analysis Workspace com o mesmo nome.
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
@@ -76,9 +76,9 @@ Os eventos têm algumas diferenças estruturais importantes entre o Google e o A
 
 * No Google Analytics, os eventos são definidos na implementação como texto. Os eventos têm categorias, ações e rótulos.
 * No Adobe Analytics, os eventos são configurados primeiro no Admin Console, onde ele recebe um identificador. Esse identificador é usado no código de implementação. Por exemplo:
-   1. Você pode definir event 1 no Console de administração como &quot;Registros&quot;.
+   1. Você pode definir event 1 no Console de administração como "Registros".
    2. Na implementação, você deve incluir event 1 na variável de eventos na página de confirmação de registro. Cada vez que a página de confirmação de registro é exibida, event 1 aumenta.
-   3. Na Analysis Workspace, &quot;Registros&quot; são exibidos como uma métrica para uso em qualquer relatório.
+   3. Na Analysis Workspace, "Registros" são exibidos como uma métrica para uso em qualquer relatório.
 
 Como esse recurso requer alterações de implementação, a Adobe recomenda trabalhar com um consultor de implementação para garantir que os dados sejam corretamente configurados para a Analysis Workspace.
 
