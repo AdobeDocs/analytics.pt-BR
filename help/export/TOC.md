@@ -1,0 +1,89 @@
+---
+product: analytics
+audience: usuário final
+user-guide-title: Guia de exportação do Analytics
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+
+---
+
+
+# Analytics Export Guide {#export}
+
++ [Ajuda para exportação do Analytics](home.md)
++ Feed de dados do Analytics {#analytics-data-feed}
+   + Get started {#get-started}
+      + [Visão geral do Feed de dados do Analytics](analytics-data-feed/c-getstarted/data-feed-overview.md)
+      + [Terminologia](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
+      + [Práticas recomendadas e informações gerais](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
+   + Data Feed interface {#data-feed-ui}
+      + [Abrir a interface do Feed de dados](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
+      + [Classificar colunas](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
+      + [Pesquisar e filtrar](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
+      + [Status do feed de dados](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
+   + Data Feed actions {#data-feed-actions}
+      + [Painel Feed de dados](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
+      + [Adicionar um feed](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
+      + [Informações do feed](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
+      + [Destino do feed](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
+      + [Exibir um histórico de Feed de Serviço](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
+      + [Excluir um feed](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
+      + [Pausar um feed](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
+      + [Ativar um feed](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
+      + [Editar um feed](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
+   + Data Feed jobs {#data-feed-jobs}
+      + [Tarefas do feed de dados - visão geral](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
+      + [Filtrar lista de tarefas](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
+      + [Configurações de tarefas](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
+      + [Status da tarefa](analytics-data-feed/c-df-jobs/r-job-status.md)
+      + [Executar novamente uma tarefa](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + Data Feed contents {#data-feed-contents}
+      + [Conteúdo do feed de dados: visão geral](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
+      + [Identificar visitantes](analytics-data-feed/c-df-contents/datafeeds-visid.md)
+      + [Definições da coluna de dados](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
+      + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+      + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Pesquisa de fonte de hit](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
+      + [Colunas anteriores e posteriores](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
+      + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
+      + [Atraso de chegada de ocorrências](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [Perguntas frequentes de Serviços](analytics-data-feed/c-df-contents/jobs-faq.md)
+   + [Solução de problemas de feeds de dados](analytics-data-feed/feed-troubleshooting.md)
+   + [Solução de problemas de tarefas](analytics-data-feed/jobs-troubleshooting.md)
+   + [Notas de versão do feed de dados](analytics-data-feed/datafeeds-history.md)
++ Data Warehouse {#data-warehouse}
+   + [Visão geral do Data Warehouse](data-warehouse/data-warehouse.md)
+   + [Adicionar grupo de usuários do Data Warehouse](data-warehouse/t-dw-group.md)
+   + [Criar uma solicitação do Data Warehouse](data-warehouse/t-dw-create-request.md)
+   + [Arquivo de dados Tableau](data-warehouse/t-tableau.md)
+   + [Classificar por métrica](data-warehouse/sorting-by-metric.md)
+   + [Agendar uma solicitação recorrente](data-warehouse/dw-schedule-recurring.md)
+   + [Gerenciar solicitações do Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
+   + [Dimensões incompatíveis com segmentos do Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
+   + [Práticas recomendadas do Data Warehouse](data-warehouse/data-warehouse-bp.md)
++ FTP and SFTP {#ftp-and-sftp}
+   + [Usar FTP e SFTP com a Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + Set up Adobe-hosted FTP accounts {#set-up-ftp-accounts}
+      + [Configurar contas FTP: visão geral](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
+      + [Classificações](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
+      + [Fontes de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
+      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
+      + [Feeds de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
+      + [Relatórios entregues da Análise ad hoc](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
+      + [Relatórios entregues do Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
+      + [Relatórios entregues do Construtor de relatórios](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
+      + [Envolvimentos de serviços de engenharia com FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
+   + [Limites FTP e retenção de dados](ftp-and-sftp/ftp-limits.md)
+   + [Excluir dados FTP e contas FTP](ftp-and-sftp/ftp-delete.md)
+   + [Restaurar dados FTP e contas FTP excluídos](ftp-and-sftp/ftp-restore.md)
+   + [Atualize servidores FTP da Adobe](ftp-and-sftp/ftp-upgrade.md)
+   + [Usar o modo FTP passivo](ftp-and-sftp/ftp-passive.md)
+   + [Tempo de processamento do FTP](ftp-and-sftp/ftp-processing.md)
+   + Protocolo de transferência segura de arquivo {#secure-file-transfer-protocol}
+      + [Protocolo de transferência segura de arquivo - Visão geral](ftp-and-sftp/c-sftp/ftp-sftp.md)
+      + [Conecte-se a uma conta FTP da Adobe com SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
+      + [Enviar dados da Adobe para uma conta FTP externa com SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
+      + [Enviar solicitações do Data Warehouse para servidores SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
+      + [Conexão com a Adobe via SFTP sem senha](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
