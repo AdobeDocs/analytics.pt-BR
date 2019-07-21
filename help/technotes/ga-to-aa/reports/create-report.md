@@ -34,8 +34,8 @@ Crie um relatório de Todas as páginas (similar ao do Google Analytics), arrast
 2. Clique no ícone de 9-quadrado na parte superior direita e clique no logotipo colorido do Analytics.
 3. Na barra de navegação superior, clique em Espaço de trabalho.
 4. Clique no botão «Criar novo projeto».
-5. No pop-up modal, verifique se &quot;Projeto em branco&quot; está selecionado e clique em Criar.
-6. À esquerda, é mostrada uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela denominada &quot;Soltar uma dimensão aqui&quot;.
+5. No pop-up modal, verifique se "Projeto em branco" está selecionado e clique em Criar.
+6. À esquerda, é mostrada uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela denominada "Soltar uma dimensão aqui".
 7. Um relatório que mostra as principais páginas deste mês pode ser visualizado. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
 8. Uma tabela no Google Analytics geralmente contém 7-8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
 9. Muitas métricas podem ser colocadas lado a lado arrastando métricas ao lado dos cabeçalhos de métricas existentes. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
@@ -56,7 +56,7 @@ Crie o modelo de Consumo de conteúdo (similar ao relatório Todas as páginas n
 
 Como a Analysis Workspace é uma ferramenta de relatórios, ela não afeta a coleta de dados. Não há repercussões para arrastar os componentes indiscriminadamente para um projeto para ver o que funciona. Arraste combinações diferentes de dimensões e métricas para o projeto do espaço de trabalho para ver o que está disponível para você.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do espaço de trabalho ou voltar uma etapa, pressione ctrl + Z (Windows) ou cmd + Z (Mac) para desfazer a última ação realizada. You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+Se você arrastar acidentalmente um componente inválido para o projeto do espaço de trabalho ou voltar uma etapa, pressione ctrl + Z (Windows) ou cmd + Z (Mac) para desfazer a última ação realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 A Adobe colocou uma grande funcionalidade na Analysis Workspace no menu de contexto com clique direito. A maioria das visualizações e componentes pode ser clicada com o botão direito do mouse para uma análise e interação mais detalhadas. Considere clicar com o botão direito do mouse nos componentes na área de trabalho para ver quais opções estão disponíveis.
 
