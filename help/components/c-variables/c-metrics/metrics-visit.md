@@ -1,0 +1,52 @@
+---
+description: A sequência de exibições de página em uma sessão. A métrica de visitas normalmente é usada em relatórios que exibem o número de sessões de usuário no intervalo selecionado.
+keywords: visita
+seo-description: A sequência de exibições de página em uma sessão. A métrica de visitas normalmente é usada em relatórios que exibem o número de sessões de usuário no intervalo selecionado.
+seo-title: Visita
+solution: Analytics
+title: Visita
+topic: Métricas
+uuid: 91317487-f 116-4546-8 cd 2-421418 c 49 a 7 a
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# Visita
+
+A sequência de exibições de página em uma sessão. A métrica de visitas normalmente é usada em relatórios que exibem o número de sessões de usuário no intervalo selecionado.
+
+>[!NOTE]
+>
+>For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+
+A métrica de visita é sempre associada com um período de tempo, para que você saiba quando contar uma nova visita caso o mesmo visitante retorne ao site. Uma sessão é iniciada quando o usuário chega ao site pela primeira vez e é encerrada com umas das três possíveis situações:
+
+* **30 minutos de inatividade:** Quase todas as seções encerram desta maneira. Se passarem mais de 30 minutos entre as solicitações de imagem, uma nova visita é iniciada.
+* **12 horas de atividade consistente:** Se um usuário dispara solicitações de imagem sem um intervalo de 30 ou mais minutos por 12 horas, uma nova visita inicia automaticamente.
+* **2500 hits:** se um usuário gera um número grande de hits sem iniciar uma nova sessão, uma nova visita é contabilizada após 2500 solicitações de imagem.
+* **100 hits em 100 segundos**: se uma visita consiste em mais de 100 hits que ocorrem em menos de 100 segundos, a visita se encerra automaticamente. Geralmente, esse comportamento indica atividade bot, e essa limitação é imposta para impedir que essas visitas de processamento intenso aumentem a latência e o tempo que leva para que o relatórios sejam gerados.
+
+>[!NOTE]
+>
+>A definição de uma visita pode ser abreviada por um conjunto de relatórios se solicitado especificamente, mas não pode ser ampliada. Faça com que um dos usuários suportados de sua organização entre em contato com o atendimento ao cliente para solicitar essa alteração.
+
+As situações a seguir não iniciam uma nova visita:
+
+* O usuário fechando a guia, a reabrindo e navegando de volta ao site dentro de 30 minutos. Os usuários também podem fechar seus navegadores ou reiniciar o computador e ainda serem contados como uma visita única (dado que o visitante retorna ao site dentro de um período de 30 minutos).
+* Usuários navegando do site em diversas guias. Navegar com várias guias não aumenta o número de visitas ou visitantes, mas usar um navegador separado, sim. Isso acontece porque as guias diferentes fazem referência aos mesmos cookies, mas não navegadores separados.
+
+Uma visita não precisa necessariamente coincidir com uma sessão de navegador. Por exemplo, se um visitante fecha e reabre o navegador e visita site cinco minutos depois, a visita é considerada a mesma. Isso também significa que, se um visitante permanecer em uma página por 35 minutos, a visita terá sido fechada e processada e uma nova visita será iniciada se ele clicar em outra página.
+
+Quando uma visita termina, todas as variáveis com uma expiração de visita expiram e não continuam. A métrica de número de visitas sofrerá aumento na próxima visita do visitante.
+
+>[!NOTE]
+>
+>If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+
+Para obter mais informações, consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) No Guia de implementação do Adobe Analytics.
+
+**Períodos de tempo**
+
+Uma visita relatada em qualquer período de tempo no qual uma atividade ocorreu. Por exemplo, suponha que uma visita começa às 23h45 no dia 01 de dezembro, e continua até às 12h30 do dia 02 de dezembro. A visita é contada em 1º de dezembro e 2 de dezembro. Esse relato se aplica a outros períodos de tempo, inclusive semanal, mensal, trimestral e anual.
