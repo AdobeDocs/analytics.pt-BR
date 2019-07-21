@@ -30,11 +30,11 @@ Se necessário, esses tipos de links podem ser acompanhados manualmente usando c
 
 **this**
 
-O primeiro argumento deve ser sempre definido como this (padrão) ou true. O argumento se refere ao objeto que está sendo clicado. Quando definido como &quot;this&quot;, ele se refere à propriedade HREF do link.
+O primeiro argumento deve ser sempre definido como this (padrão) ou true. O argumento se refere ao objeto que está sendo clicado. Quando definido como "this", ele se refere à propriedade HREF do link.
 
-Se você estiver implementando o rastreamento de links em um objeto sem propriedade HREF, você deve sempre definir este argumento como &quot;this&quot;.
+Se você estiver implementando o rastreamento de links em um objeto sem propriedade HREF, você deve sempre definir este argumento como "this".
 
-Como clicar em um link muitas vezes leva um visitante para fora da página atual, um atraso de 500 ms é usado para assegurar que uma solicitação de imagem seja enviada para a Adobe antes de o usuário deixar a página. Esse atraso só será necessário na saída da página, mas geralmente ocorre quando a função s.t() é chamada. Se você desejar desativar o atraso, passe a palavra-chave &quot;true&quot; como o primeiro parâmetro ao chamar a função s.t().
+Como clicar em um link muitas vezes leva um visitante para fora da página atual, um atraso de 500 ms é usado para assegurar que uma solicitação de imagem seja enviada para a Adobe antes de o usuário deixar a página. Esse atraso só será necessário na saída da página, mas geralmente ocorre quando a função s.t() é chamada. Se você desejar desativar o atraso, passe a palavra-chave "true" como o primeiro parâmetro ao chamar a função s.t().
 
 **linkType**
 
@@ -44,9 +44,9 @@ linkType tem três valores positivos, dependendo do tipo de link que você queir
 
 | Tipo | valor linkType |
 |--- |--- |
-| Downloads de arquivos | &#39;d&#39; |
-| Links de saída | &#39;e&#39; |
-| Links personalizados | &#39;o&#39; |
+| Downloads de arquivos | 'd' |
+| Links de saída | 'e' |
+| Links personalizados | 'o' |
 
 **linkName**
 
@@ -88,7 +88,7 @@ A variável doneAction pode ser a navegação da string, o que resulta na defini
 
 Se você fornecer um valor para doneAction em um evento onClick de âncora, deverá retornar false depois da chamada de `s.tl` para impedir a navegação padrão do navegador.
 
-Para refletir o comportamento padrão e seguir a URL especificada pelo atributo href, forneça uma string de &quot;navegação&quot; como doneAction.
+Para refletir o comportamento padrão e seguir a URL especificada pelo atributo href, forneça uma string de "navegação" como doneAction.
 
 Como opção, você pode fornecer sua própria função para lidar com o evento de navegação ao passar essa função como doneAction .
 
@@ -141,7 +141,7 @@ O código básico para monitorar um link usando o código de link personalizado 
 
 >[!NOTE]
 >
->Se o parâmetro do nome do link não estiver definido, a URL do link (determinada pelo objeto &quot;this&quot;) será usada como o nome do link.
+>Se o parâmetro do nome do link não estiver definido, a URL do link (determinada pelo objeto "this") será usada como o nome do link.
 
 As variáveis do [!DNL Analytics] podem ser definidas como parte de um código de link personalizado.
 
@@ -244,13 +244,13 @@ Para usar esse novo método, atualize as chamadas para [!DNL s.tl] com um parâm
 onclick="s.tl(this,'e','AnotherSite',null,'navigate');return false">
 ```
 
-A transmissão de &#39;navigate&#39; como [!UICONTROL doneAction] reflete o comportamento padrão do navegador e abre a URL especificada pelo atributo href quando a chamada de rastreamento é concluída.
+A transmissão de 'navigate' como [!UICONTROL doneAction] reflete o comportamento padrão do navegador e abre a URL especificada pelo atributo href quando a chamada de rastreamento é concluída.
 
 No JavaScript H.25.4 (lançado em fevereiro de 2013), as limitações de escopo a seguir foram adicionadas aos links acompanhados quando `useForcedLinkTracking` estava ativada. O rastreamento de link forçado automático se aplica apenas a:
 
 * `<A>` e `<AREA>` tags.
 * A tag deve ter um atributo `HREF`
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Acompanhamento de link com o uso de uma solicitação de imagem {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -263,7 +263,7 @@ link_img.xml
 
  -->
 
-As solicitações de imagem são codificadas com a adição do parâmetro &quot;pe&quot; ao seu parâmetro src de solicitação de imagem, como a seguir:
+As solicitações de imagem são codificadas com a adição do parâmetro "pe" ao seu parâmetro src de solicitação de imagem, como a seguir:
 
 ```
 pe=[type]
