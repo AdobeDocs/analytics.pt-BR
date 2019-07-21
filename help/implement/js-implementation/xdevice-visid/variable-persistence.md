@@ -38,7 +38,7 @@ O exemplo abaixo mostra como os dados são enviados para o Adobe Analytics quand
 
 * `cust_visid` representa um valor definido `s.visitorID`.
 
-* Cada fileira corresponde a uma &quot;ocorrência&quot;, uma solicitação enviada para os servidores do Adobe Analytics responsáveis pela coleta de dados.
+* Cada fileira corresponde a uma "ocorrência", uma solicitação enviada para os servidores do Adobe Analytics responsáveis pela coleta de dados.
 
 ![](assets/xdevice_first.jpg)
 
@@ -54,7 +54,7 @@ O exemplo abaixo mostra os dados são enviados para o Adobe Analytics quando o u
 
 ![](assets/xdevice-subsequent.jpg)
 
-Quando o cliente autentica a sua ID e ela corresponde ao perfil já &quot;autenticado&quot; - `2947539300`. O perfil usado no início da visita (`5477766334477`) não é mais usado e nenhum dado seu é persistente.
+Quando o cliente autentica a sua ID e ela corresponde ao perfil já "autenticado" - `2947539300`. O perfil usado no início da visita (`5477766334477`) não é mais usado e nenhum dado seu é persistente.
 
 * Os dados de segmentação geográfica são registrados com base na primeira ocorrência da visita e não são alterados para uma visita única, independentemente do dispositivo usado. Isso significa que os dados de segmentação geográfica não costumam ser incluídos na conexão subsequente de dados em um novo dispositivo.
 * Colunas de tecnologia como navegador, sistema operacional e intensidade de cor são gravadas na primeira ocorrência de uma visita. Assim como os valores de segmentação geográfica, eles não serão copiados para o perfil costurado.
