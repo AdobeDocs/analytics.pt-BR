@@ -25,7 +25,7 @@ Lista de reprodução completa do YouTube disponível [aqui](https://www.youtube
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ Consulte [Criar um projeto da Analysis Workspace](../../analyze/analysis-workspa
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. É possível compartilhar essas vinculações da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico em um projeto. Adição de novas opções do menu de clique com o botão direito do mouse chamadas “Obter link do painel” e “Obter link da visualização”. Para adicionar intravinculação ao seu projeto:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. É possível compartilhar essas vinculações da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico em um projeto. Adição de novas opções do menu de clique com o botão direito do mouse chamadas “Obter link do painel” e “Obter link da visualização”. Para adicionar intravinculação ao seu projeto:
 
 1. Arraste uma visualização de texto ao projeto, talvez próximo a uma visualização ou tabela que precise de contexto.
 1. Preencha a caixa de texto com, por exemplo, uma tabela de conteúdo. Em seguida, destaque um item que deseja vincular ao painel ou à visualização, como Métricas de sucesso, por exemplo.
