@@ -5,7 +5,7 @@ seo-title: Modelos
 title: Modelos
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às su
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder:
 
+### Propaganda
+
+>[!IMPORTANT]
+>
+>Os modelos de publicidade estão disponíveis somente se o conjunto de relatórios estiver habilitado para a Advertising Cloud.
+
+* **Mecanismos de Pesquisa**: Este modelo divide tendências de publicidade, plataformas de anúncios, palavras-chave, contas, campanhas e muito mais.
+
+### Comércio
+
+* **Magento: Marketing e Comércio**: Este modelo divide a conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer insight por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### Mídia
 
-* **Consumo de conteúdo**: Qual conteúdo está sendo mais consumido e envolvendo os usuários?
+* **Consumo de áudio**: Qual conteúdo está sendo mais consumido e envolvendo os usuários?
 * **Recenticidade - Frequência - Fidelidade**: Quem são meus leitores leais?
 
 ### Dispositivo móvel
