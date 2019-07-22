@@ -5,12 +5,32 @@ seo-title: Visão geral da Análise de contribuição
 title: Visão geral da Análise de contribuição
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
+source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
 
 ---
 
 
 # Visão geral da Análise de contribuição
+
+A Análise de contribuição revela padrões ocultos nos dados para explicar anomalias estatísticas e identificar correlações por trás das ações inesperadas do cliente, valores fora do limite e picos ou declínios repentinos para as métricas selecionadas nos segmentos convergentes do público-alvo.
+
+Algo aconteceu. Por quê? Seu relatório de Detecção de anomalias mostra um pico incomum em pedidos e você quer saber por quê. O que aconteceu fora do comum? Quem é responsável por qual campanha ou indicação? Algo se tornou viral? Quais são os fatores específicos que contribuíram para essa anomalia? E talvez o mais importante: como posso obter informações importantes sobre meu cliente e repetir esse desempenho? (Ou, se um declínio em uma métrica ou um aumento em uma métrica negativa ocorrer, como posso evitar isso no futuro?)
+
+A Análise de contribuição ajuda a avaliar seus dados imediatamente para responder por que uma anomalia aconteceu. Ela analisa o que contribuiu para uma anomalia em segundos, o que antes levaria semanas, fornecendo padrões para os segmentos do público-alvo e ajudando a desenvolver uma narrativa para interações com os clientes. Você pode empregar a Análise de contribuição de forma estratégica para identificar e obter associações significativas com o objetivo de desenvolver novos segmentos do público-alvo, ou usá-la taticamente para identificar atividade fora do comum ou fraudulenta que aciona um alerta.
+
+A [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifica picos de dados e declínios estatísticos extremos com base em métricas selecionadas e segmentos selecionados do público-alvo. Ela define uma norma histórica com base em um período de treinamento e, em seguida, representa deslocamentos extremos relacionados a eventos específicos. Ela pode relatar um aumento acentuado em uma métrica positiva de Pedidos ou um aumento em uma métrica negativa de Rejeições, ou declínios em ambos, capturando pontos de dados estatisticamente relevantes para serem avaliados pela Análise de contribuição. Quando a anomalia estatística é identificada, a Análise de contribuição permite detalhar e avaliar variáveis relevantes de marketing e da campanha em todos os pontos de dados anômalos. Ela executa processos de aprendizado automático e de algoritmos avançados para avaliar associações que contribuíram para um pico ou declínio significativo. Esses os cálculos são exibidos em visualizações interativas projetadas para fornecer perspectivas variadas para ajudar a responder por que algo aconteceu e o que fazer sobre ele.
+
+A Análise de contribuição ajuda a elaborar uma narrativa para descrever por que uma anomalia aconteceu e como reagir, obtendo métricas relevantes e identificando pontos ocultos que apresentam uma razão geral para as interações do público-alvo e as tendências dos interesses dos clientes. Às vezes, é fácil visualizar e corrigir uma anomalia, como um pedido equivocado de 2000 caiaques. Outras vezes é complexo, como identificar uma tendência crescente ao longo de um período em uma região que reage apenas a uma campanha direcionada específica. Reunir os itens de contribuição nas métricas para várias dimensões e suas associações dá uma ideia geral das interações do público-alvo e ajuda a contextualizar os pontos de dados anômalos.
+
+Veja algumas ideias:
+
+* Identifique o potencial de recomercialização, monitorando as alterações na demanda do produto.
+* Melhore a experiência do cliente, respondendo aos interesses específicos do público-alvo.
+* Identifique pedidos fraudulentos precocemente como um relatório fora do comum.
+* Proteja-se de espionagem corporativa, identificando os usos e downloads mais comuns.
+* Monitore operações como reportar tags de javascript ausentes.
+
+Após uma análise abrangente de uma anomalia, um Resumo das contribuições será gerado para os Principais itens pedidos pelo total de ocorrências e a porcentagem de itens dos valores de contribuição. Uma Pontuação de contribuição permite realizar com facilidade comparações, contrastes e associações com outros itens de dimensão importantes.
 
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
