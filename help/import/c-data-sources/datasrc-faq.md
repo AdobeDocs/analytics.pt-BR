@@ -88,7 +88,7 @@ Como o processo da Fonte de Dados ("para FD Genérica, não Tráfego") cria ocor
 
 Se as extensões do arquivo de upload das Fontes de dados ou de um arquivo classificação estiverem em letra maiúscula, os arquivos não serão processados. As extensões do arquivo de upload da Fonte de dados devem estar em letra minúscula. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. However, [!DNL .txt] and [!DNL .fin] are processed.
 
-##  Posso acrescentar mais eventos no modelo gerado ou estou limitado a três?{#section_F184913926DD43B1872956CED308ADB5}
+## Posso acrescentar mais eventos no modelo gerado ou estou limitado a três?{#section_F184913926DD43B1872956CED308ADB5}
 
 É possível adicionar quantos eventos você desejar. Contudo, o assistente permite apenas três eventos. Após criar o arquivo modelo, você pode adicionar mais eventos, conforme necessário.
 

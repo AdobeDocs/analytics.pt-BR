@@ -119,7 +119,7 @@ Por exemplo, um usuário com uma ID de visitante"user@example.com" visita seu si
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, ou seja &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>	Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Sports Section </span>). </p> </td> 
+   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Sports Section </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 

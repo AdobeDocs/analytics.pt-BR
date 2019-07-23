@@ -17,7 +17,7 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
 Etapas para adicionar métricas e dimensões a uma solicitação.
 
 1. [Crie a solicitação de dados](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) no [!UICONTROL Assistente de solicitações: etapa 1], e então clique em **[!UICONTROL Próximo]**.
-1.  No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
+1. No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
 
    ![Informações da etapa](assets/adding_metrics.png)
 

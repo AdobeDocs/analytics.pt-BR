@@ -167,7 +167,7 @@ t_dashboard_delivery.xml
 
    See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
 
-##  Arquivar um painel{#task_3B6AB949F0EC4063A08F80F254992117}
+## Arquivar um painel{#task_3B6AB949F0EC4063A08F80F254992117}
 
 Etapas que descrevem como arquivar qualquer painel enviado como um arquivo PDF. O sistema armazena o arquivo armazenado por dois anos, ou até atingir o limite máximo de 4 GB de relatórios arquivados.
 
