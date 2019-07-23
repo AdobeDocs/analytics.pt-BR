@@ -268,7 +268,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [Adobe Analytics - principais conceitos](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Sobre a coleta de dados](reports-analytics/overview/overview-data-collection.md)
-      + Menu de [relatórios](reports-analytics/overview/reports-menu.md)
+      + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
