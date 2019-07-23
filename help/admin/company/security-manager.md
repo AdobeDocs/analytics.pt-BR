@@ -44,23 +44,23 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de logon de IP</span> </td> 
-   <td colname="col2"> <p>Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Log de uso e acesso</a>. </p> </td> 
+   <td colname="col2"> <p>Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo,
+      <code>
+        192.168.10.[20-240]
+      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+      <code>
+        192.168.[10-14].*
+      </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Log de uso e acesso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de domínio de email</span> </td> 
-   <td colname="col2"> <p>Filtra os domínios e endereços de email em que o Analytics envia marcadores, relatórios para download e alertas. </p> <p>A lista de filtro de email oferece suporte a até 100 entradas e cada entrada pode ser um endereço de email ou todo um domínio de email. </p> <p>Se um relatório programado tiver um destino de email não aprovado, o Analytics envia uma notificação por email sobre o problema e um link para desprogramar o relatório. </p> <p> <span class="wintitle"> Impor restrições de domínio de email</span> não é empregado até que exista pelo menos uma entrada na lista de <span class="wintitle">Filtro de domínio de email aceito</span>. </p> <p> <span class="uicontrol"> Domínios e endereços de email aceitos</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> </td> 
+   <td colname="col2"> <p>Filtra os domínios e endereços de email em que o Analytics envia marcadores, relatórios para download e alertas. </p> <p>A lista de filtro de email oferece suporte a até 100 entradas e cada entrada pode ser um endereço de email ou todo um domínio de email. </p> <p>Se um relatório programado tiver um destino de email não aprovado, o Analytics envia uma notificação por email sobre o problema e um link para desprogramar o relatório. </p> <p> <span class="wintitle"> Impor restrições de domínio de email</span> não é empregado até que exista pelo menos uma entrada na lista de <span class="wintitle">Filtro de domínio de email aceito</span>. </p> <p> <span class="uicontrol"> Domínios e endereços de email aceitos</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo,
+    <code>
+      192.168.10.[20-240]
+    </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+    <code>
+      192.168.[10-14].*
+    </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Notificação de recuperação de senha</span> </td> 

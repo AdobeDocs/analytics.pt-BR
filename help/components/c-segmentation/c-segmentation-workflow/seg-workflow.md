@@ -29,7 +29,7 @@ seg_workflow.xml
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png)[ Planejar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-plan.md#concept_D8BE6AB8D8E540E58C3462F9E02F4847)
+![](assets/step1_icon.png) [Planejar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-plan.md#concept_D8BE6AB8D8E540E58C3462F9E02F4847)
 
 Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento com a finalidade pretendida e uso distinto em mente?
 
@@ -41,27 +41,27 @@ Construa e edite segmentos para uso em todos os recursos do Analytics.
 
 Consulte [Construa segmentos sequenciais](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) para criar segmentos com o operador ENTÃO.
 
-![](assets/step3_icon.png)[ Marcar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50)
+![](assets/step3_icon.png) [Marcar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50)
 
 Marque segmentos para facilitar a organização e o compartilhamento. A marcação substitui as hierarquias da pasta na análise ad hoc. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada.
 
-![](assets/step4_icon.png)[ Aprovar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953)
+![](assets/step4_icon.png) [Aprovar segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953)
 
 Aprove segmentos para transformá-los em canônicos.
 
-![](assets/step5_icon.png)[ Aplicar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-apply.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)
+![](assets/step5_icon.png) [Aplicar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-apply.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)
 
 Você pode aplicar segmentos diretamente de um relatório, de um trilho de segmentos (Mostrar segmentos).
 
-![](assets/step6_icon.png) [ Compartilhar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5)
+![](assets/step6_icon.png) [Compartilhar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5)
 
 Compartilhe seus segmentos com o público-alvo pretendido em outras ferramentas do Analytics e no Adobe Target e na Adobe Experience Cloud.
 
-![](assets/step7_icon.png)[ Filtrar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-filter.md#task_B59946C6D38945629C1FEACF80A85746)
+![](assets/step7_icon.png) [Filtrar segmentos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-filter.md#task_B59946C6D38945629C1FEACF80A85746)
 
 Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado).
 
-![](assets/step8_icon.png)[ Marcar segmento como favoritos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5)
+![](assets/step8_icon.png) [Marcar segmento como favoritos](../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5)
 
 Outra maneira de organizá-los para facilitar o uso é marcar os segmentos como favoritos.
 

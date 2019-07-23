@@ -52,13 +52,13 @@ Se você não estiver familiarizado com o Adobe Analytics, poderá criar rapidam
  visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // da mesma forma que s. trackingserver 
  visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same como s. trackingserversecure 
  /* 
- = = = = = = = = = = = = = = NÃO ALTERE NADA ABAIXO DESTA LINHA! = = = = = = = = = = = = = </code>
-  
-     <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
+ = = = = = = = = = = = = = = NÃO ALTERE NADA ABAIXO DESTA LINHA! = = = = = = = = = = = = = 
+      </code>
+    <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (obrigatório) Essa ID de empresa da Adobe Experience Cloud é enviada para o administrador quando sua empresa for provisionada para a Adobe Experience Cloud. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code>: (Obrigatório) Seu servidor de rastreamento do Analytics. </li> 
       <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> - (obrigatório se ssl estiver habilitado) Seu servidor de rastreamento seguro do Analytics. </li> 
-     </ul> 
+    </ul> 
     </draft-comment> </td> 
   </tr> 
   <tr> 

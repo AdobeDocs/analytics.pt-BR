@@ -27,8 +27,8 @@ Há várias maneiras de acessar o Construtor de segmentos:
 * **Navegação superior do Analytics:** Clique **[!UICONTROL em Análises]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]:** Clique **[!UICONTROL em Analytics]** &gt; **[!UICONTROL Espaço de trabalho]**, abra um projeto e clique **[!UICONTROL em + Novo]** &gt; **[!UICONTROL Criar segmento]**.
 * **[!UICONTROL Relatórios e análises]:** Clique **[!UICONTROL em Analytics]** &gt; **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda e clique **[!UICONTROL em Adicionar]**.
-* **[!UICONTROL Análise ad hoc]:**[Criar segmentos na análise ad hoc](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6).
-* **[!UICONTROL Construtor de relatórios]:**[Adicionar ou editar segmentos no Construtor de relatórios](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **[!UICONTROL Análise ad hoc]:** [Criar segmentos na análise ad hoc](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6).
+* **[!UICONTROL Construtor de relatórios]:** [Adicionar ou editar segmentos no Construtor de relatórios](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -40,7 +40,7 @@ O [!UICONTROL Construtor de segmentos] permite que você construa e edite segmen
 
 Acesse o Construtor de segmentos por
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![ na navegação à esquerda. ](assets/segment_icon.png) No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]**.
+* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]**.
 
 * No Gerenciador de segmentos, ao clicar em **[!UICONTROL + Adicionar]**.
 * Ao clicar em um título de segmento existente no Gerenciador de segmentos para editar o segmento no Construtor de segmentos.
@@ -49,7 +49,7 @@ Acesse o Construtor de segmentos por
 
 1. **[!UICONTROL Título:]** Permite nomear ou renomear o segmento.
 1. **[!UICONTROL Descrição:]** Forneça uma descrição para o segmento. Você deve fornecer uma descrição se deseja compartilhar o segmento.
-1. **[!UICONTROL Tags:]**[Marque o segmento](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) que você está criando escolhendo de uma lista de tags existentes ou criando uma nova tag.
+1. **[!UICONTROL Tags:]** [Marque o segmento](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) que você está criando escolhendo de uma lista de tags existentes ou criando uma nova tag.
 1. **[!UICONTROL Definições:]** Este é o local onde você [constrói e configura segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), adiciona regras e aninha e sequencia contêineres. Permite que você forneça uma descrição para o novo segmento ao selecionar o contêiner, e arrastar e soltar dimensões, segmentos ou métricas na definição.
 1. **[!UICONTROL Mostrar:]** (Seletor de contêiner superior.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). O contêiner de nível superior padrão no contêiner Ocorrência.
 1. **[!UICONTROL Opções:]** ícone (engrenagem)
