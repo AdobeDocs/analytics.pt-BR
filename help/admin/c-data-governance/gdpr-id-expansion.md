@@ -5,12 +5,12 @@ seo-title: Expansão de ID
 title: Expansão de ID
 uuid: 2672 d 17 d-c 957-4 e 08-8 dd 9-16 d 54 bf 2 be 18
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
 
 ---
 
 
-# Expansão de ID #
+# Expansão de ID
 
 As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics pode associar ao titular dos dados. O Analytics pode criar um conjunto expandido de IDs para incluir esses dados associados nas solicitações do GDPR. Essa opção pode ser solicitada com um parâmetro opcional referente a solicitação do GDPR enviada adicionado à solicitação JSON:
 
@@ -45,7 +45,7 @@ Para uma solicitação de exclusão, onde a expansão de ID não é usada, se vo
 
 Quando a Adobe executa a expansão de ID, pode exigir uma análise de dados completa, que aumentará o tempo que a Adobe leva para concluir a solicitação. Esse tempo de processamento adicional pode chegar a até uma semana. 
 
-## Outros sinalizadores de solicitação RGPD ##
+## Outros sinalizadores de solicitação RGPD
 
 Além do sinalizador “expandIDs”, o Analytics suporta dois outros sinalizadores que podem ser transmitidos como parte de uma solicitação do GDPR. Esses sinalizadores e seus valores padrão são:
 
