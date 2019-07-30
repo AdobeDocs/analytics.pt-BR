@@ -9,22 +9,17 @@ title: Visão geral das variáveis
 topic: Desenvolvedor e implementação
 uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # Visão geral das variáveis
 
-O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
+O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o appmeasurement.
 
-Para obter uma lista sobre como cada variável aparece nos relatórios do Analytics, consulte [Variáveis: como são usadas em relatórios](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Como definir variáveis {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
