@@ -7,18 +7,26 @@ title: Agendar uma solicitação de dados
 topic: Construtor de relatórios
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# Agendar uma solicitação de dados
+# Agendar uma pasta de trabalho
 
-Você pode agendar relatórios para envio de acordo com a hora e o formato de arquivo definidos.
+Você pode agendar pastas de trabalho, especificar opções avançadas de entrega, especificar destinatários e visualizar o histórico da programação. As opções avançadas de entrega permitem que você configure pastas de trabalho que deseja enviar em um horário específico ou em intervalos. Você também pode especificar o formato de arquivo para enviar a pasta de trabalho.
 
-**Para agendar uma solicitação de dados**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. O limite de tamanho do arquivo de um relatório a ser carregado é de 5 MB.
 
-1. Gere e salve um relatório.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Consulte [Agendamento e distribuição de relatórios](/help/analyze/reports-analytics/scheduling.md) na ajuda do Relatórios e análises).
+
+>[!NOTE]
+>
+>Você deve ter o Excel 2007 ou o pacote de compatibilidade instalado para programar uma pasta de trabalho. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Construtor de relatórios. No entanto, é possível aumentar esse número ao subtrair de outras licenças. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Uma pasta de trabalho programada (ou enviada para a Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses será excluída.
+
+**Para agendar uma pasta de trabalho**
+
+1. Gere e salve uma pasta de trabalho.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    A guia [!UICONTROL Relatórios agendados] resume todas as tarefas que você tiver criado, bem como o número de tarefas restantes.
@@ -29,7 +37,7 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
 
 1. No [!UICONTROL Assistente básico de agendamento], configure as seguintes opções:
 
-* **Selecionar Relatório**: O nome do relatório. Para novos relatórios agendados, este campo é preenchido com o nome da pasta de trabalho ativa.
+* **Selecionar Relatório**: O nome da pasta de trabalho. Para novas pastas de trabalho agendadas, este campo é preenchido com o nome da pasta de trabalho ativa.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enviar para: Email </p> </td> 
-   <td colname="col2"> <p>O destinatário do email do relatório. </p> </td> 
+   <td colname="col2"> <p>O destinatário do email da pasta de trabalho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enviar para: Lista de publicação </p> </td> 
@@ -73,7 +81,7 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agendamento </p> </td> 
-   <td colname="col2"> <p> Permite especificar quando enviar o relatório. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) </p> </td> 
+   <td colname="col2"> <p> Permite especificar quando enviar a pasta de trabalho. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hora de entrega </p> </td> 
-   <td colname="col2"> <p>Permite agendar o relatório imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado no computador. </p> </td> 
+   <td colname="col2"> <p>Permite agendar a pasta de trabalho imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado no computador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Padrão de recorrência </p> </td> 
-   <td colname="col2"> <p>Envia o relatório com base em suas seleções. </p> </td> 
+   <td colname="col2"> <p>Envia a pasta de trabalho com base em suas seleções. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervalo de recorrência </p> </td> 
-   <td colname="col2"> <p>Permite especificar quando começar e parar de receber o relatório. </p> <p> <p>Observação: agendar um relatório no primeiro dia de qualquer período corrente (semana, mês, trimestre ou ano) retorna dados somente para o primeiro dia. </p> </p> </td> 
+   <td colname="col2"> <p>Permite especificar quando começar e parar de receber a pasta de trabalho. </p> <p> <p>Observação: Agendar uma pasta de trabalho no primeiro dia de qualquer período atual (semana, mês, trimestre ou ano) retorna dados apenas para o primeiro dia. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Guia <b>Opções de arquivo</b> </p> </td> 
@@ -118,7 +126,7 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lista de Publicação </p> </td> 
-   <td colname="col2"> <p> Se você enviar o relatório agendado para várias listas de publicação, o relatório será executado uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. </p> </td> 
+   <td colname="col2"> <p> Se você enviar a pasta de trabalho agendada para várias listas de publicação, a pasta de trabalho será executada uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Idioma do conteúdo do arquivo </p> </td> 
@@ -146,4 +154,5 @@ Você pode agendar relatórios para envio de acordo com a hora e o formato de ar
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   O Construtor de relatórios exibe o relatório agendado no [Gerenciador de tarefas agendadas](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
