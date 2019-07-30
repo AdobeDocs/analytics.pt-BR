@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
 
 ---
 
@@ -55,66 +55,65 @@ Para implementar o plug-in hitGovernor:
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
-   Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.
+   Abaixo da seção doPlugins do arquivo AppMeasurement, inclua o código do plug-in contido em [Código fonte do plug-in](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0) abaixo.
 
-   The hit limit threshold, hit timing threshold, and traffic exclusion time frames can all be overridden by setting these variables, outside of the plugin itself and preferably with your other configuration variables:
+   O limite de hit, o limite de tempo de hit e os intervalos de tempo de exclusão de tráfego podem ser substituídos, definindo as seguintes variáveis fora do próprio plug-in e, de preferência, com suas outras variáveis de configuração:
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntax </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> Variável </th> 
+   <th colname="col2" class="entry"> Sintaxe </th> 
+   <th colname="col3" class="entry"> Descrição </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
+   <td colname="col1"> <p>Limite de hit </p> </td> 
    <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
+   <td colname="col3"> <p>O número total de hits que não deve ser excedido durante um determinado período de tempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hit Time Threshold </p> </td> 
+   <td colname="col1"> <p>Limite de hora do hit </p> </td> 
    <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
+   <td colname="col3"> <p>A janela, em segundos, para quando os hits são registrados. Esse número é dividido por seis para determinar as janelas de tempo contínuas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclusion Threshold </p> </td> 
+   <td colname="col1"> <p>Limite de exclusão </p> </td> 
    <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
+   <td colname="col3"> <p>Número de dias que o cookie de exclusão foi definido para esse visitante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-   >[!NOTE]
-   >
-   >Your implementation might use a different object name than the default analytics "s" object. If so, please update the object name accordingly.
+>[!NOTE]
+>
+>Sua implementação pode usar um nome de objeto diferente do objeto "s" de análise padrão. Em caso afirmativo, atualize o nome do objeto de acordo.
 
-1. Configure processing rules.
+1. Configurar regras de processamento.
 
-   This plugin records flagged exceptions as context data in a link tracking image request. As such, processing rules must be configured to assign track those flagged exceptions into appropriate variables like those below.
+   Este plug-in registra as exceções sinalizadas como dados de contexto em uma solicitação de imagem de rastreamento de link. Como tal, as regras de processamento devem ser configuradas para atribuir o rastreamento dessas exceções sinalizadas às variáveis &#x200B;&#x200B;apropriadas, como as abaixo.
 
    ![](assets/hitgov-config.png)
 
-1. (Optional) Include the traffic-blocking code in doPlugins.
+1. (Opcional) Incluir o código de bloqueio de tráfego em doPlugins.
 
-   After traffic has been identified as an exception, any subsequent hits from that visitor can be blocked entirely by including this code within the `doPlugins` function:
+   Depois que o tráfego tiver sido identificado como uma exceção, todos os hits subsequentes do visitante poderão ser completamente bloqueados, incluindo o seguinte código na função `doPlugins`:
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   Se o código não for incluído, o tráfego do visitante será sinalizado, mas não bloqueado.
 
-## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## Código fonte do plug-in {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-This code should be added below the doPlugins section of your AppMeasurement library.
+Esse código deve ser adicionado abaixo da seção doPlugins da biblioteca AppMeasurement.
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
@@ -133,6 +132,5 @@ s.governor=new Function("",""
 +"',contextData.exceptionFlag';s.contextData['exceptionFlag']='true';" 
 +"s.tl(this,'o','exceptionFlag');}ha[0]++;s.Util.cookieWrite('s_hc',h" 
 +"a.join('|'));"); 
-
 ```
 
