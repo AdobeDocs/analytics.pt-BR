@@ -4,7 +4,7 @@ seo-title: Ajuda do Analytics Analyze
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 Este guia apresenta todas as ferramentas de análise que você pode usar no Adobe Analytics. Primeiramente, ele fornece uma documentação completa sobre a Analysis Workspace, a análise principal e a ferramenta de visualização para o Analytics.
 
-## Principais artigos de análise
+## Artigos principais das ferramentas do Analytics
 
 * [Introdução à Analysis Workspace](analysis-workspace/home.md)
 * [Introdução ao Construtor de relatórios](report-builder/home.md)
