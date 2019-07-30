@@ -8,7 +8,7 @@ title: Relatórios e conjuntos de relatórios
 topic: Desenvolvedor e implementação
 uuid: 288203 f 6-cd 13-4 e 01-9950-2 c 7 e 5 cfb 8 a 17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ Você pode usar a [Analysis Workspace](https://marketing.adobe.com/resources/hel
 
 <p class="head"> <b>Consulte também</b> </p>
 
-* [Ajuda da Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Ajuda do Reports and Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)
+* [Ajuda da Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Relatórios e análises](/help/analyze/reports-analytics/overview/report-overview.md)
 * [Relatórios em tempo real](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Ajuda do Report Builder da Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
 * [Extrações de dados](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ Você pode usar a [Analysis Workspace](https://marketing.adobe.com/resources/hel
 * [Comparação e requisitos de produto do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [Descrições de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [Painéis e reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [Marcadores](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [Conjuntos de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [Detecção de anomalias](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [Análise de contribuição](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [Marcadores](/help/analyze/reports-analytics/bookmarks.md)
+* [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md)
+* [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
