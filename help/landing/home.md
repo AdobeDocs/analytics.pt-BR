@@ -4,14 +4,14 @@ seo-title: Lista completa da documentação técnica do Adobe Analytics e guias 
 description: Guias e recursos do usuário do Analytics
 seo-description: Lista completa de documentos técnicos do Adobe Analytics, notas de versão e guias de usuário de ajuda automática.
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Documentação do Adobe Analytics
 
-[![Análise](assets/analyze_50px.png)](/help/analyze/home.md)de  [ferramentas do Analytics](/help/analyze/home.md) - apresenta todas as ferramentas de análise que você pode usar no Adobe Analytics. Primeiramente, ele fornece uma documentação completa sobre a Analysis Workspace, a análise principal e a ferramenta de visualização para o Analytics.
+[![Guia das ferramentas](assets/analyze_50px.png)](/help/analyze/home.md)do[Analytics   Analytics](/help/analyze/home.md) - apresenta todas as ferramentas de análise que você pode usar no Adobe Analytics. Primeiramente, ele fornece uma documentação completa sobre a Analysis Workspace, a análise principal e a ferramenta de visualização para o Analytics.
 
 [![Guia de administração admin](assets/admin_50px.png)](/help/admin/home.md) [](/help/admin/home.md) - Tarefas administrativas para configurar conjuntos de relatórios, gerenciamento de dados, uso de chamadas de servidor e muito mais.
 
