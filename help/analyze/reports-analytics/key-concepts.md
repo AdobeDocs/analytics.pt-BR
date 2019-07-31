@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - principais conceitos
 title: Adobe Analytics - principais conceitos
 uuid: ef 5701 c 5-2 d 3 e -4847-851 f -9312 d 55 db 1 a 8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 ---
 
@@ -14,119 +14,42 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 
-## Adobe Analytics - key concepts {#concept_AC30B00A424E4A8492A4CA7B4E7D998C}
+## Analytics tools {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
-
-## Analytics products {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
-
-<!-- 
-
-analytics_products.xml
-
- -->
-
-<table id="table_5F47895B01CE42E98C2C89508377E1E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Produto </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-   <th colname="col3" class="entry"> Link da documentação </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Relatórios e análises (antigo SiteCatalyst) </td> 
-   <td colname="col2"> <p>Uma solução hospedada e baseada em assinaturas para relatórios e análises de sites em tempo real. Ferramenta inicial no pacote do Analytics. </p> <p>Pode ser acessado em: <a href="https://sc.omniture.com/login/" format="https" scope="external">https://sc.omniture.com/login/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/sc/user/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Conectores de dados (antigo Genesis) </td> 
-   <td colname="col2"> Permite importar dados de rastreamento de aplicativos de terceiros para o Analytics, oferecendo visibilidade completa ao desempenho em um local central. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works" format="https" scope="external"> https://marketing.adobe.com/developer/pt/documentation/genesis/c-overview-how-it-works</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data warehouse </td> 
-   <td colname="col2"> Dados brutos e não processados para armazenamento e relatórios personalizados, que podem ser executados por meio da filtragem de dados. Sem nível de ocorrências. </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/reference/data_warehouse.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Construtor de relatórios </td> 
-   <td colname="col2"> Complemento para o Microsoft Excel, que oferece a funcionalidade necessária para criar solicitações personalizadas nos dados dos Relatórios e análises presentes em planilhas do Excel. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/arb/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Análise ad hoc (antigo Discover) </td> 
-   <td colname="col2"> Oferece mais flexibilidade de relatórios que os Relatórios e análises. Ajuda a identificar segmentos de alto valor do cliente com informações ilimitadas e em tempo real do visitante, o que permite o detalhamento de dados para obter análises profundas, precisas e abrangentes de seus clientes. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/dsc/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Gerenciamento dinâmico de tags (DTM) </td> 
-   <td colname="col2"> Ajuda a gerenciar suas tags do Analytics, do Target e de outras soluções em todos os seus sites, independentemente do número de domínios. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dtm/dtm_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/dtm/dtm_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p>Reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com seus aplicativos. </p> <p>Pode ser acessado em: <a href="https://mobilemarketing.adobe.com/" format="https" scope="external">https://mobilemarketing.adobe.com/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/mobile/</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Análise de big data (antigo Insight) </td> 
-   <td colname="col2">Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais. <p><i>Exclusivo do Analytics Premium.</i> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/insight/client/" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/insight/client/</a> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Produto | Descrição | Link da documentação |
+|--- |--- |--- |
+| Analysis Workspace | Solução de navegador para criar projetos de análise avançados e personalizados e democratizar informações. Oferece mais flexibilidade de relatórios que os Relatórios e análises | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Relatórios e análises (antigo SiteCatalyst) | Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | O complemento do Excel que permite criar solicitações personalizadas a partir de dados do Adobe Analytics e visualizá-las usando o Microsoft Excel. | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Análise ad hoc (antigo Discover) | Ferramenta baseada em Java para análise digital avançada. Deslizando para o fim da vida em Q 3 2019. | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Análise de big data (antigo Insight) | Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais. | [https://marketing.adobe.com/resources/help/en_US/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data warehouse | Dados brutos e não processados para armazenamento e relatórios personalizados, que podem ser executados por meio da filtragem de dados. Sem nível de ocorrências. | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | Reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com seus aplicativos.  Pode ser acessado em: https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Conectores de dados do Adobe Exchange (antigo Genesis) | Importe dados de rastreamento de aplicativos de terceiros para o Analytics, para proporcionar visibilidade completa ao desempenho em um local central. | [https://marketing.adobe.com/developer/pt/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| Gerenciamento dinâmico de tags (DTM) | Ajuda a gerenciar suas tags do Analytics, do Target e de outras soluções em todos os seus sites, independentemente do número de domínios. | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | A próxima geração de recursos de gerenciamento de SDK e SDK móvel da Adobe. | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
-<!-- 
+Clique [aqui](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html) para obter um glossário expandido com os termos do Adobe Analytics.
 
-key_terminology.xml
+| Termo | Descrição | Link da documentação |
+|--- |--- |--- |
+| Props (tráfego personalizado) | Dimensões usadas para rastrear atividade de tráfego de site página por página. As props não persistem entre páginas. Principais aplicações das variáveis de tráfego: <ul><li>Contagem simples para encontrar "mais popular" de um valor específico</li><li>Visibilidade sobre como os usuários são caminhos por meio do seu site </li></ul><br>Exemplos de variáveis de tráfego: Nome da página, Seções do site, Navegadores</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Evar (Conversão personalizada) | Dimensões que persistem por um período personalizado personalizado por você. As opções de expiração incluem expiração de evento, expiração de visita ou expiração do dia X, e devem ser orientadas pelo tipo de análise que será realizada nessa variável.<br>Principais diferenças entre evars e props:</br><ul><li>As props são frequentemente usadas para análise de definição de caminho porque a persistência é removida.</li><li>As evars são frequentemente usadas para análises de conversão.</li></ul><br>Exemplos de variáveis de conversão: Termos de pesquisa interna, Promoções internas, Campanhas externas (s.campaign)</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| Eventos/métricas (s. events) | Métricas que avaliam as principais ações que queremos que os visitantes sigam no site. Há três tipos de eventos: Contador, Numérico e Moeda. Os eventos são mais úteis quando adicionados aos relatórios da variável de conversão (eVar). A eVar oferece as informações qualitativas sobre o que aconteceu, e o Evento oferece informações quantitativas sobre o que aconteceu. <br>Principais diferenças entre evars e eventos:</br><ul><li>As evars informam quem, o que ou o que afetou a conversão</li><li>Os eventos medem quantas conversões ocorreram</li></ul><br>Exemplos de eventos de conversão: Pedidos, Inícios de aplicação, Clientes potenciais, Receita.</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| Componentes | Dimensões, métricas, segmentos e granularidades de tempo (intervalos de datas) que você pode arrastar e soltar em um projeto. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| Dimensões | Coleção de evars, props, classificações e valores padrão coletados pela Adobe. | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| Métricas | Coleção de eventos implementados e métricas calculadas. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| Métricas calculadas | Capacidade de derivar métricas personalizadas de métricas existentes capturadas pela implementação. | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| Segmentos | Capacidade de criar, gerenciar, compartilhar e aplicar segmentos de público-alvo focados nos relatórios do Analytics. Os segmentos são compartilhados nos produtos do Analytics e podem ser compartilhados na Experience Cloud. | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| Tempo (intervalos de datas) | Capacidade de filtrar a data a qualquer período e criar intervalos de datas personalizados que podem ser reutilizados na sua análise. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| Visualizações | Visuais avançados que podem ajudar a dar vida aos dados em seus projetos. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| Preparação | Capacidade de limitar os componentes acessíveis em um projeto ou Conjunto de relatórios virtuais. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
- -->
 
-Clique [aqui](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html) para obter um glossário expandido com os termos do Adobe Analytics.
 
-<table id="table_84ACDB415EE74A13B1BAD5D03626C7B1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Termo </th> 
-   <th colname="col2" class="entry"> Definição </th> 
-   <th colname="col3" class="entry"> Link da documentação </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Conjunto de relatórios </td> 
-   <td colname="col2">O nível mais simples de segmentação nos relatórios do Analytics: cada conjunto de relatórios consulta um conjunto de dados, considerado como um único site para fins de relatórios. Os conjuntos de relatórios costumam ser divididos em desenvolvimento/QA (site de testes interno) e produção (site público). <p> O <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external">conjunto de relatórios virtuais</a> permite que você restrinja o acesso dos usuários aos dados com base em segmentos específicos, aplicando um segmento a um conjunto de relatórios e criando uma nova exibição (conjunto de relatórios virtuais) com base nessa combinação. Os conjuntos de relatórios virtuais podem ser acessados exatamente da mesma maneira que um conjunto de relatórios básicos. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suite_gloss.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/reference/report_suite_gloss.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Conjunto de relatórios global </td> 
-   <td colname="col2"> Uma visualização de todas as propriedades em um conjunto de relatórios. Para criar um conjunto global, a marcação de vários relatórios é implementada. Ela envia solicitações de imagem em um conjunto de relatórios "global", além de conjuntos de relatórios individuais. </td> 
-   <td colname="col3">Conjunto de relatórios global: <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/rollup_report_suite.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/reference/rollup_report_suite.html</a> </p> <p>Marcação de vários relatórios: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/multisuite_tagging.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/reference/multisuite_tagging.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Segmentação </td> 
-   <td colname="col2"> Capacidade de criar, gerenciar, compartilhar e aplicar segmentos de público-alvo focados nos relatórios do Analytics. Os segmentos são compartilhados nos produtos do Analytics e podem ser compartilhados na Experience Cloud. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ferramentas administrativas </td> 
-   <td colname="col2"> Uma área do Analytics na qual os Administradores podem gerenciar as configurações da ferramenta e das variáveis, bem como acessar recursos avançados da ferramenta. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/pt_BR/reference/admin.html</a> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
-
-<!-- 
-
-key_reports.xml
-
- -->
+## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
 <table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
  <thead> 
