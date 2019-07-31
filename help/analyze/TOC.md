@@ -20,7 +20,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + Build a Workspace project {#build-workspace-project}
       + [Criar projeto - visão geral](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Criar um projeto da Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md) de projeto
+      + [Modelos de projeto](analysis-workspace/build-workspace-project/starter-projects.md)
       + Column and row settings {#column-row-settings}
          + [Configurações de coluna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Configurações de linha](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -268,7 +268,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Adobe Analytics - principais conceitos](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Sobre a coleta de dados](reports-analytics/overview/overview-data-collection.md)
-      + Menu de [relatórios](reports-analytics/overview/reports-menu.md)
+      + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
