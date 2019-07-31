@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Guia do Analytics Analyze
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + Build a Workspace project {#build-workspace-project}
       + [Criar projeto - visão geral](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Criar um projeto da Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md) de projeto
       + Column and row settings {#column-row-settings}
          + [Configurações de coluna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Configurações de linha](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [Modo offline para criar e editar solicitações](report-builder/manage-requests/offline-mode.md)
    + [Opções do Construtor de relatórios](report-builder/options.md)
    + [Agendar solicitações de relatório](report-builder/schedule-report-requests.md)
-   + [Agendar uma solicitação de dados](report-builder/t-schedule-a-data-request.md)
+   + [Agendar uma pasta de trabalho](report-builder/t-schedule-a-data-request.md)
    + [Gerenciador de tarefa agendada](report-builder/r-arb-scheduled-reports.md)
    + Biblioteca de pastas de trabalho {#workbook-library}
       + [Carregar uma pasta de trabalho](report-builder/workbook-library/t-upload-a-workbook.md)
@@ -268,7 +268,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [Adobe Analytics - principais conceitos](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Sobre a coleta de dados](reports-analytics/overview/overview-data-collection.md)
-      + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
+      + Menu de [relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
