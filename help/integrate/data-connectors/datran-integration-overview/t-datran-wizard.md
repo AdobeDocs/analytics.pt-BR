@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: d55b23a5baf5be1d7afb708cc6ef94851eac3e77
 
 ---
 
@@ -107,7 +107,7 @@ Para configurar a integração:
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Coleta de dados: Plug-in javascript </p> </td> 
-   <td colname="col3"> <p>Select <b>JavaScript Plug-in</b> if you want to use the plug-in as the collection model for this integration, then click <b>Next</b> to proceed to Step 7 of the Wizard. </p> <p> <p>Observação: A Solução automatizada é a seleção padrão. </p> </p> <p>Entre em contato com seu consultor Adobe para obter uma cópia do plug-in javascript usado para essa integração. You can also copy and paste the plug-in contained in <a href="datran-plug-in-code.md#concept_28E7C834A6804A949AA9306F8896B36E" type="concept" format="dita" scope="local"> Analytics Plug-In Code</a>. </p> </td> 
+   <td colname="col3"> <p>Select <b>JavaScript Plug-in</b> if you want to use the plug-in as the collection model for this integration, then click <b>Next</b> to proceed to Step 7 of the Wizard. </p> <p> <p>Observação: A Solução automatizada é a seleção padrão. </p> </p> <p>Entre em contato com seu consultor Adobe para obter uma cópia do plug-in javascript usado para essa integração. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
