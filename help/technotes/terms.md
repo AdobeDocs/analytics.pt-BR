@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Feed de dados da sequência de cliques:** Consulte Feed de dados.
 * **Coorte:** Um grupo de pessoas que compartilham características comuns em um determinado período. See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) no guia do usuário Analisar.
 * **Servidor da coleção:** Consulte Servidor de coleção de dados.
+* **Variáveis de dados de contexto:** Variáveis temporárias usadas exclusivamente nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou tráfego. Consulte [Variáveis de dados de contexto](../implement/js-implementation/c-variables/context-data-variables.md) no Guia de usuário Implementar.
 * **Variável de conversão:** Colloqucialmente conhecido como evars. Armazena um valor personalizado e preserva o valor da variável até que expire. See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **Correlação:** Não é mais usado como um termo; substituído por detalhamentos de dimensão. Nas versões anteriores do Adobe Analytics, as correlações concediam a capacidade de detalhar as variáveis de tráfego. Consulte [Analisar dimensões](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **Dados atuais:** Uma opção em alguns relatórios que permite a inclusão dos dados coletados recentemente que ainda não foram totalmente processados. Consulte [Dados atuais](../analyze/reports-analytics/current-data.md) no guia do usuário Analisar.
@@ -97,6 +98,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Chamada do servidor:** Nome alternativo para uma solicitação de imagem ou ocorrência, usada principalmente no contexto do faturamento.
 * **Acesso único:** Uma visita em que uma dimensão tinha apenas um único valor exclusivo. A visita pode ter várias ocorrências, desde que não haja vários valores únicos. Consulte [Acesso único](../components/c-variables/c-metrics/metrics-single-access.md) no guia do usuário Componentes. Consulte também Rejeição.
 * **Sitecatalyst:** Não é mais usado como um termo. O nome do produto anterior para o Adobe Analytics.
+* **Documento de design da solução:** Também conhecido como uma referência de design de solução ou SDR. Um documento interno mantido por uma organização que descreve como as variáveis personalizadas são usadas e a lógica usada para preenchê-las. Consulte [Criar um documento de design de solução](../implement/prepare/solution-design.md) no Guia de usuário Implementar.
 * **Sub-relação:** Não é mais usado como um termo; substituído por detalhamentos de dimensão. Nas versões anteriores do Adobe Analytics, as sub-relações concediam a capacidade de detalhar as variáveis de conversão. Consulte [Analisar dimensões](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **Evento bem-sucedido:** Uma ação rastreada que o usuário tomou. A organização determina quais eventos devem ser rastreados e quais variáveis de evento de sucesso você usa para acompanhá-la. Consulte [Eventos personalizados](../components/c-variables/c-metrics/metrics-custom.md) no guia do usuário de Componentes.
 * **Usuário suportado:** Consulte Delegado de suporte ao cliente.
