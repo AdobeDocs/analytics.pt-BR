@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
 
 ---
 
@@ -118,7 +118,7 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_418476105FE341229CE146E730AAB33D">Seus grupos de permissão existentes no Analytics serão replicados automaticamente no Admin Console como Perfis de produtos, incluindo suas descrições e permissões granulares em conjuntos de relatórios, métricas, dimensões, Analytics e ferramentas do conjunto de relatórios. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se um usuário atual do Analytics tiver sido criado no Admin Console (o que significará que tem uma Adobe/Enterprise ID vinculada), ele será adicionado ao Perfil de produto apropriado no Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Google Analytics será definida como <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Admin Console. Consulte <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Recursos do Analytics não suportados no Admin Console</a> para obter mais informações. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você terá acesso à ferramenta <a href="../c-migration-tool/t-migrate-users.md" format="xml" scope="peer">Migração de ID do usuário</a>. Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você receberá acesso à [Ferramenta de migração de ID de usuário] (https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html). Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Você terá acesso à guia Permissões no Admin Console, que permite criar Perfis de produtos com todas as opções granulares com as quais você está familiarizado no Analytics. </li> 
     </ul> </td> 
   </tr> 
