@@ -4,12 +4,12 @@ audience: usuário final
 user-guide-title: Guia do Analytics Analyze
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
 
-# Analytics Tools Guide {#analyze}
+# Guia de ferramentas do Analytics {#analyze}
 
 + [Guia de ferramentas do Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
@@ -17,10 +17,10 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Recursos de Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
    + [Casos de uso da Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Novidades na Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)  
-   + Build a Workspace project {#build-workspace-project}
+   + Criar um projeto da Workspace {#build-workspace-project}
       + [Criar projeto - visão geral](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Criar um projeto da Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelos de projeto](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md) de projeto
       + Column and row settings {#column-row-settings}
          + [Configurações de coluna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Configurações de linha](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -78,7 +78,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Atribuição](analysis-workspace/attribution-iq/attribution.md)
       + [Painel Forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison (IQ) {#segment-comparison}
+      + Comparação de segmentos (IQ) {#segment-comparison}
          + [Visão geral do IQ do segmento](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Comparar segmentos](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Casos de uso do IQ do segmento](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -268,7 +268,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Adobe Analytics - principais conceitos](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Sobre a coleta de dados](reports-analytics/overview/overview-data-collection.md)
-      + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
+      + Menu de [relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Gerenciador de programação](ad-hoc-analysis/c-schedule.md)
    + [Criador de tabela](ad-hoc-analysis/c-tablebuilder.md)
    + [Hora](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [Visão geral da visualização de tecnologia](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [Visão geral dos laboratórios](tech-previews/overview.md)
 + API em relatórios do Analytics {#analytics-reporting-api}
    + [Visão geral da API de relatórios do Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparação de APIs em relatórios do Analytics](c-reporting-api/api-comparison.md)
