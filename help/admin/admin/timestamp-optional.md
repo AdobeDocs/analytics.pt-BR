@@ -7,7 +7,7 @@ title: Carimbos opcionais de data e hora
 topic: Ferramentas administrativas
 uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
@@ -22,7 +22,7 @@ Os Carimbos opcionais de data e hora permitem que você:
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar o rastreamento offline sem precisar criar um novo conjunto de relatórios.
 
-Consulte [Utilização de Carimbos opcionais de data e hora](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) para mais informações sobre as práticas recomendadas para o uso de carimbos de data e hora em seu conjunto de relatórios.
+Consulte [Utilização de Carimbos opcionais de data e hora](/help/implement/js-implementation/timestamps-overview.md) para mais informações sobre as práticas recomendadas para o uso de carimbos de data e hora em seu conjunto de relatórios.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Consulte [Utilização de Carimbos opcionais de data e hora](https://marketing.a
 
 >[!NOTE]
 >
->Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias.
+>Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. Isso significa que uma visita/sessão será «aberta» por 92 dias enquanto qualquer ocorrência adicional - que não é 30 minutos após a ocorrência anterior (na hora da ocorrência) - ainda poderá ser incluída na mesma visita/sessão. Quaisquer ocorrências "antigas" recebidas fora do pedido produzirão resultados "desconhecidos", já que vários fatores (segmentação, alocação, expiração etc.) influência se essas ocorrências serão incluídas nos relatórios ou não.
 
 ## Novos conjuntos de relatórios {#section_095A7CFBD280494593B9BEC1592B73A6}
 
