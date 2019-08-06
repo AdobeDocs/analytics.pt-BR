@@ -7,12 +7,12 @@ title: Visão geral da análise ad hoc
 topic: Ad Hoc Analysis
 uuid: 49836551-9162-4 dc 4-b 1 d 4-5 c 3 d 0 f 549 dcd
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 4f79b86172219d8f28299eeb1c444045bed2c931
 
 ---
 
 
-# Ad Hoc Analysis overview{#ad-hoc-analysis-overview}
+# Visão geral da análise ad hoc{#ad-hoc-analysis-overview}
 
 A Ad Hoc Analysis ajuda a identificar segmentos de alto valor do cliente com informações do visitante ilimitadas e em tempo real, o que permite o detalhamento de dados para obter análises profundas, precisas e abrangentes de seus clientes.
 
@@ -21,6 +21,6 @@ A Ad Hoc Analysis ajuda a identificar segmentos de alto valor do cliente com inf
 
 ## Tópicos novos e populares
 
-* Agora você pode converter seus projetos da Análise ad hoc em projetos da Analysis Workspace. Clique <a href="https://marketing.adobe.com/resources/help/en_US/analytics/aha2aw/" format="https" scope="external">aqui</a> para descobrir como.
-* Consulte a sessão sobre <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="https" scope="external">Ad Hoc Analysis vs. Analysis Workspace</a>: a Analysis Workspace traz os recursos da Ad Hoc Analysis para a janela do navegador. Enquanto a terminologia e os recursos continuam os mesmos dentre os produtos, há alguns termos e abordagens novos na Analysis Workspace.
-* <a href="../../analyze/ad-hoc-analysis/c-administration.md#concept_C607CDE3472F431F8BFBA894DA6FA1FE" format="dita" scope="local"> Administração</a>: Configure usuários e saiba mais sobre a amostragem de dados.
+* Agora você pode converter seus projetos da Análise ad hoc em projetos da Analysis Workspace. Vá para a visão geral [do projeto de análise ad hoc](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) para descobrir como!
+* Consulte a sessão sobre [Ad Hoc Analysis vs. Analysis Workspace](/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md): a Analysis Workspace traz os recursos da Ad Hoc Analysis para a janela do navegador. Enquanto a terminologia e os recursos continuam os mesmos dentre os produtos, há alguns termos e abordagens novos na Analysis Workspace.
+* [Administração](/help/analyze/ad-hoc-analysis/c-administration.md): Saiba como configurar usuários e dados de amostra.
