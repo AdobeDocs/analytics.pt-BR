@@ -5,7 +5,7 @@ seo-title: Linhas estáticas vs. dinâmicas
 title: Linhas estáticas vs. dinâmicas
 uuid: caf 033 ef-d 252-4 f 8 a -802 e -7 edbbac 5 c 8 c 0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ Além disso, (somente) quando você está em um modo de linha estática, agora �
 
 | Opção | Descrição |
 |---|---|
-| Calcule as somas resumindo os valores que estão atualmente em cada coluna. | Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) |
+| (Padrão) Calcule os totais resumindo os valores atualmente em cada coluna. | Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) |
 | Calcule as somas com base em todas as linhas para cada métrica. | Esta opção inclui todos os itens de dimensão para esta dimensão, até mesmo aqueles que não estão listados no gráfico. (Cálculo do lado do servidor) |
 
