@@ -5,7 +5,7 @@ seo-title: Expansão de ID
 title: Expansão de ID
 uuid: 2672 d 17 d-c 957-4 e 08-8 dd 9-16 d 54 bf 2 be 18
 translation-type: tm+mt
-source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
@@ -18,7 +18,7 @@ As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics
 "expandIds": true
 ```
 
-Consulte o [Exemplo de solicitação de JSON](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) para saber como incluir essa opção com a solicitação. Para obter mais detalhes, consulte a [Documentação da API do GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md).
+Consulte o [Exemplo de solicitação de JSON](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) para saber como incluir essa opção com a solicitação. Para obter mais detalhes, consulte a [Documentação da API do GDPR](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -59,7 +59,7 @@ Futuramente, o “analyticsDeleteMethod” poderá suportar um valor “purge”
 Além do valor padrão, o campo de prioridade também suporta o valor “low”. Especifique esse valor para solicitações que não são o resultado de uma solicitação do titular dos dados e não possui um requisito legal a ser concluído em 30 dias. Observe que a Adobe não incentiva o uso da API do GDPR para propósitos diferentes de solicitações iniciadas por titulares dos dados. A API do GDPR não é uma ferramenta adequada para a limpeza ou reparo de dados, e terá consequências não intencionais.
 
 >[!NOTE]
->A API do RGPD foi fornecida para ajudá-lo a atender solicitações do RGPD, que são sensíveis a tempo. O uso dessa API para &gt; outros fins não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer imediatamente uma opção de alta prioridade de alta prioridade, solicitações do RGD iniciado pelo usuário para outros clientes da Adobe. Pedimos que você não use a API GI para &gt; outros fins, como apagar dados que foram enviados acidentalmente em grandes grupos de visitantes.
+>The [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) has been provided to help you fulfill GDPR requests, which are time sensitive. O uso dessa API para &gt; outros fins não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer imediatamente uma opção de alta prioridade de alta prioridade, solicitações do RGD iniciado pelo usuário para outros clientes da Adobe. Pedimos que você não use a API GI para &gt; outros fins, como apagar dados que foram enviados acidentalmente em grandes grupos de visitantes.
 >
 >Você também deve estar ciente de que qualquer visitante que tenha uma ocorrência excluída (atualizada ou anônima) como resultado de uma solicitação de exclusão RGPD terá suas informações de estado redefinidas. Na próxima vez que o visitante retornar ao seu site, será um novo visitante. Toda a atribuição de evar iniciará novamente, assim como informações como números de visitas, &gt; referenciadores, primeira página visitada etc. Esse efeito colateral é indesejável para situações em que você deseja limpar &gt; campos de dados e destaca um motivo para a API do RGPD ser inadequada para esse uso.
 >
