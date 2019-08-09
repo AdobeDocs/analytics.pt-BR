@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Versão 2.16.0
+
+Data de lançamento: **8 de agosto de 2019**
+
+| Recurso | Descrição |
+| -----------| ---------- |
+| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. `SendBeacon` não é executado no contexto de uma página, mas no contexto do navegador. Ou seja, se uma página for descarregada `sendBeacon`, a solicitação ainda será concluída. Isso é muito útil para links de saída, pois tornará muito mais provável que a solicitação de link de saída seja concluída. |
+| Valores de ECID/fid | Os valores de ECID/fid são agora armazenados em cache na primeira ocorrência, mesmo se as configurações OptIn forem alteradas. |
+| DIL 9.3 | Atualização do módulo Gerenciamento de Público-Alvo para DIL 9.3 |
+| Rastreamento de alcance de rolagem | Exibição do botão no s.ActivityMap.trackScrollReach para ativar ou desativar o rastreamento de alcance de rolagem. |
+| Serviço de ID de Visitante 4.4.0 | Atualização do AppMeasurement para usar o Serviço de ID de Visitante 4.4.0. |
 
 ## Versão 2.15.0
 
@@ -207,7 +219,7 @@ Atualizado: **20/10/2016**
 
 Atualizado: **15/09/2016**
 
-* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module with DIL 6.5 and Additional Configurations (AN-129411)
+* Módulo de atualização [!DNL AppMeasurement][!DNL Audience Manager] com DIL 6.5 e Configurações adicionais (AN -129411)
 
 * Inclusão da API de Visitante 1.8.0 (AN-129887)
 
@@ -346,7 +358,7 @@ Data de lançamento: **21 de maio de 2015**
 
 **Problema conhecido**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
+Nas integrações de API/ [!DNL AppMeasurement][!DNL Audience Manager] Módulo de visitante, haverá duas solicitações de iframe de publicação de destino feitas no IE 6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versão 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
