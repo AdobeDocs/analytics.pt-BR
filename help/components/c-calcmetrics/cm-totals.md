@@ -4,20 +4,20 @@ seo-title: Totais de métricas calculadas
 description: Saiba como os totais das métricas calculadas diferem nas ferramentas do Analytics
 seo-description: Como os totais das métricas calculadas são calculados
 translation-type: tm+mt
-source-git-commit: 396a4b8e4e1e03fa958286097721be2c40230de1
+source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 ---
 
 
 # Totais de métricas calculadas
 
-Como os totais da métrica calculada são exibidos entre os Relatórios e análises [DNL] e [o DNL Analysis Workspace]. Esta seção explica as diferenças.
+Como os totais da métrica calculada são exibidos entre [!DNL Reports & Analytics] e [!DNL Analysis Workspace]. Esta seção explica as diferenças.
 
 ## Totais de métricas calculadas em [!DNL Reports & Analytics]
 
 Ao visualizar relatórios em [!DNL Reports & Analytics], as métricas calculadas sempre são exibidas `n/a` sob o total. Como todas as métricas calculadas são definidas pelo usuário, há muitas circunstâncias em que esse total não faz sentido. Considere o exemplo a seguir:
 
-Sua organização criou [os pedidos] / [visitas de métricas calculadas] para determinar a porcentagem de visitas que compraram algo em seu site. Se você trouxe essa métrica para um relatório de produtos, vários produtos são atribuídos a um único pedido. Além disso, vários produtos são atribuídos a uma única visita. Se um total da métrica calculada foi incluído nesse relatório, as seguintes perguntas surgem:
+Sua organização criou a métrica `orders` calculada/ `visits` para determinar a porcentagem de visitas que compraram algo em seu site. Se você trouxe essa métrica para um relatório de produtos, vários produtos são atribuídos a um único pedido. Além disso, vários produtos são atribuídos a uma única visita. Se um total da métrica calculada foi incluído nesse relatório, as seguintes perguntas surgem:
 
 | Pergunta | Resposta |
 |---|---|
