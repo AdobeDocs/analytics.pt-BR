@@ -2,8 +2,8 @@
 product: analytics
 audience: usuário final
 user-guide-title: Guia de componentes do Analytics
-user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/pt-BR/analytics/components/home.html
+translation-type: ht
 source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 + [Ajuda dos componentes do Analytics](home.md)
 + Segmentação {#segmentation}
    + [Segmentação do Analytics](c-segmentation/seg-home.md)
-   + [Sobre segmentos e contêineres](c-segmentation/seg-overview.md)
+   + [Sobre os segmentos e contêineres](c-segmentation/seg-overview.md)
    + [Recursos de segmentação na Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentation workflow {#segmentation-workflow}
+   + Fluxo de trabalho de segmentação {#segmentation-workflow}
       + [Visão geral do fluxo de trabalho de segmentação](c-segmentation/c-segmentation-workflow/seg-workflow.md)
       + [Planejar segmentos](c-segmentation/c-segmentation-workflow/seg-plan.md)
       + [Construir segmentos](c-segmentation/c-segmentation-workflow/seg-build.md)
@@ -32,33 +32,33 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Gerenciar segmentos](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + Referência do segmento {#segment-reference}
       + [Operadores de comparação para segmentos](c-segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidade de segmentos de Data warehouse](c-segmentation/seg-reference/seg-compatibility.md)
+      + [Compatibilidade de segmentos de Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
       + [Direitos do segmento por função](c-segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](c-segmentation/seg-reference/c-troubleshooting.md)
    + [Perguntas frequentes](c-segmentation/seg-transition.md)
    + [Novidades na Segmentação do Analytics](c-segmentation/whats-new-segmentation.md)
-   + [Guia de transição para a Análise ad hoc](c-segmentation/seg-transition-ad-hoc.md)
+   + [Guia de transição para a Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas e calculadas avançadas (derivadas)](c-calcmetrics/cm-overview.md)
    + [Perguntas frequentes](c-calcmetrics/cm-transition.md)
-   + [Vídeos passo a passo](c-calcmetrics/cm-videos.md)
+   + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
    + Fluxo de trabalho das métricas calculadas {#calcmetric-workflow}
-      + [Fluxo de trabalho de métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Criar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Atribuição e tipo de métrica](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Criar uma métrica simples de «Exibições de página por visita»](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Criar uma métrica simples de "Exibições de página por visita"](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilhar e substituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas e ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Métrica de auxílio de pedidos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Usar funções](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Métrica de participação](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Adicionar tags a métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Marcar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Aprovar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartilhar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Gerenciador de métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Metrics reference {#calcmetrics-reference}
+   + Referência de métricas {#calcmetrics-reference}
       + [Referência: funções básicas](c-calcmetrics/cm-reference/cm-functions.md)
       + [Referência: funções avançadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilidade de métrica](c-calcmetrics/cm-compatibility.md)
@@ -71,41 +71,41 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
    + [Sessões sensíveis ao contexto](vrs/vrs-mobile-visit-processing.md)
    + [Processamento de tempo do relatório](vrs/vrs-report-time-processing.md)
    + [Perguntas frequentes sobre VRS](vrs/vrs-faq.md)
-   + [Considerações de marcação de vrss e global/multiconjunto](vrs/vrs-considerations.md)
-   + Fluxo de trabalho VRS {#vrs-workflow}
-      + [Fluxo de trabalho do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-workflow.md)
+   + [Considerações de marcação global/multiconjunto de VRSs](vrs/vrs-considerations.md)
+   + Fluxo de trabalho do VRS {#vrs-workflow}
+      + [Fluxo de trabalho do Conjunto de relatórios virtuais](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Criar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-create.md)
       + [Gerenciar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-manage.md)
-      + [Exibir informações do conjunto de relatórios virtuais](vrs/c-workflow-vrs/vrs-view.md)
+      + [Exibir informações do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-view.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
    + [Criador de alertas](c-alerts/alert-builder.md)
    + [Gerenciador de Alerta](c-alerts/alert-manager.md)
-   + [Alertas inteligentes - casos de uso](c-alerts/alerts-use-cases.md)
+   + [Alertas inteligentes - Casos de uso](c-alerts/alerts-use-cases.md)
 + Classificações {#classifications}
-   + [Sobre classificações](c-classifications2/c-classifications.md)
-   + [Sobre subclassificações](c-classifications2/c-sub-classifications.md)
+   + [Sobre as classificações](c-classifications2/c-classifications.md)
+   + [Sobre as subclassificações](c-classifications2/c-sub-classifications.md)
    + [Classificações de conversão](c-classifications2/conversion-classifications.md)
    + [Classificações de tráfego](c-classifications2/traffic-classifications.md)
    + [Hierarquias de classificação](c-classifications2/classification-hierarchies.md)
-   + Classifications importer (upload) {#classifications-importer}
+   + Importador de classificações (upload) {#classifications-importer}
       + [Importador de classificações - visão geral](c-classifications2/c-classifications-importer/c-working-with-saint.md)
       + [Arquivos de dados de classificação](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [Excluir dados de classificação](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
       + [Evitar os dados de classificação](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [Teclas não classificadas](c-classifications2/c-classifications-importer/nonclassified-keys.md)
+      + [Chaves não classificadas](c-classifications2/c-classifications-importer/nonclassified-keys.md)
       + [Modelo de classificação](c-classifications2/c-classifications-importer/c-download-saint-data.md)
       + [Importação de navegador e FTP](c-classifications2/c-classifications-importer/import-file.md)
       + [Importação de navegador](c-classifications2/c-classifications-importer/browser-import.md)
       + [Importação de FTP](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + Criador de regras de classificação {#classifications-rulebuilder}
-      + [Fluxo de trabalho do Construtor de regras de classificação](c-classifications2/crb/classification-rule-builder.md)
+      + [Fluxo de trabalho do criador de regras de classificação](c-classifications2/crb/classification-rule-builder.md)
       + [Conjuntos de regras de classificação](c-classifications2/crb/classification-rule-set.md)
       + [Regras de classificação](c-classifications2/crb/classification-quickstart-rules.md)
       + [Regras de classificação - definições](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclassificações e o Construtor de regras - caso de uso](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numeric 2 classifications {#numeric2-classification}
-      + [Visão geral de classificações numéricas 2](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
+      + [Subclassificações e o construtor de regras - caso de uso](c-classifications2/crb/sub-classification-rule-builder.md)
+   + Classificações numéricas 2 {#numeric2-classification}
+      + [Visão geral das classificações numéricas 2](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Criar classificações numéricas 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
       + [Importar classificações numéricas 2](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [Exemplos](c-classifications2/c-numeric-2/c-examples.md)
@@ -113,7 +113,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 + [Eventos de calendário](t-calendar-event.md)
 + Variáveis {#variables}
    + [Visão geral das variáveis](c-variables/c-variables.md)
-   + Dimensões/relatórios {#dimensions-reports}
+   + Dimensões/Relatórios {#dimensions-reports}
       + [Descrições de dimensão](c-variables/dimensionslist/reports-descriptions.md)
       + [Compatibilidade de dimensão](c-variables/dimensionslist/dimension-compatibility.md)
       + [Práticas recomendadas e solução de problemas](c-variables/dimensionslist/report-troubleshooting.md)
@@ -264,7 +264,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Perfil do visitante](c-variables/dimensionslist/reports-visitor-profile.md)
       + [Retenção de visitante](c-variables/dimensionslist/reports-visitor-retention.md)
       + [Visitantes](c-variables/dimensionslist/reports-visitors.md)
-      + [CEP](c-variables/dimensionslist/reports-zip.md)
+      + [Zip](c-variables/dimensionslist/reports-zip.md)
    + Métricas {#metrics}
       + [Visão geral das métricas](c-variables/c-metrics/metricslist.md)
       + [Referência rápida das métricas](c-variables/c-metrics/metrics-overview.md)
@@ -274,7 +274,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Devoluções](c-variables/c-metrics/metrics-bounces.md)
       + [Taxa de rejeição ](c-variables/c-metrics/metrics-bounce-rate.md)
       + [Métricas calculadas](c-variables/c-metrics/calculated-metric.md)
-      + [Métricas específicas da campanha](c-variables/c-metrics/campaign-specific-metrics.md)
+      + [Métricas específicas de campanha](c-variables/c-metrics/campaign-specific-metrics.md)
       + [Adições ao carrinho](c-variables/c-metrics/metrics-cart-additions.md)
       + [Abertura do Carrinho](c-variables/c-metrics/metrics-cart-open.md)
       + [Remoções do carrinho](c-variables/c-metrics/metrics-cart-removals.md)
@@ -295,7 +295,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Eventos de página](c-variables/c-metrics/metrics-page-event.md)
       + [Exibição da Página](c-variables/c-metrics/metrics-page-view.md)
       + [Participação](c-variables/c-metrics/metrics-participation.md)
-      + [Adicionar métricas de participação](c-variables/c-metrics/t-add-participation-metrics.md)
+      + [Adicionar Métricas de participação](c-variables/c-metrics/t-add-participation-metrics.md)
       + [Exibições de caminho](c-variables/c-metrics/metrics-path-views.md)
       + [Pessoas](c-variables/c-metrics/metric-people.md)
       + [Exibições do produto](c-variables/c-metrics/metrics-prod-views.md)
@@ -314,29 +314,29 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Visitantes únicos semanais](c-variables/c-metrics/metrics-weekly-unique-visitors.md)
       + [Visitantes únicos anuais](c-variables/c-metrics/metrics-yearly-unique-visitors.md)
       + [Participação do visitante - Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
-   + Merchandising variables {#merchandising-variables}
-      + [Visão geral das variáveis de comercialização](c-variables/c-merch-variables/var-merchandising.md)
-      + [Implementar uma variável de comercialização](c-variables/c-merch-variables/var-merchandising-impl.md)
-      + [Instâncias em variáveis de comercialização](c-variables/c-merch-variables/var-merchandising-instances.md)
+   + Variáveis de merchandising {#merchandising-variables}
+      + [Visão geral das variáveis de merchandising](c-variables/c-merch-variables/var-merchandising.md)
+      + [Implementar uma variável de merchandising](c-variables/c-merch-variables/var-merchandising-impl.md)
+      + [Instâncias em variáveis de merchandising](c-variables/c-merch-variables/var-merchandising-instances.md)
 + Relatório em tempo real {#real-time-reporting}
-   + [Visão geral dos relatórios em tempo real](c-real-time-reporting/realtime.md)
+   + [Visão geral do relatório em tempo real](c-real-time-reporting/realtime.md)
    + [Configurar relatórios em tempo real](c-real-time-reporting/t-realtime-admin.md)
-   + [Métricas e dimensões em tempo real suportadas](c-real-time-reporting/realtime-metrics.md)
+   + [Métricas e dimensões em tempo real compatíveis](c-real-time-reporting/realtime-metrics.md)
 + Canais de marketing {#marketing-channels}
    + [Introdução aos Canais de marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Sobre os relatórios de Canal de marketing](c-marketing-channels/c-overview.md)
+   + [Sobre os Relatórios de Canal de marketing](c-marketing-channels/c-overview.md)
    + [Sobre canais e regras](c-marketing-channels/c-channels-rules.md)
    + [Configuração automática](c-marketing-channels/c-channel-autosetup.md)
    + [Gerenciar canais de marketing](c-marketing-channels/c-channels.md)
    + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
    + [Criar regras de processamento de Canal de marketing](c-marketing-channels/t-rules.md)
-   + [Regras de processamento do Canal de marketing - Definições](c-marketing-channels/r-channel-rule-definitions.md)
+   + [Regras de processamento de canal de marketing - Definições](c-marketing-channels/r-channel-rule-definitions.md)
    + [Perguntas frequentes e exemplos](c-marketing-channels/c-faq.md)
    + [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](c-marketing-channels/t-template.md)
    + [Classificações em Canais de marketing](c-marketing-channels/classifictions-mchannel.md)
-   + [Expiração do envolvimento do visitante](c-marketing-channels/visitor-engagement.md)
-   + [Métricas usadas nos relatórios do Canal de marketing](c-marketing-channels/c-overview-metrics.md)
-   + [Métricas calculadas usadas nos relatórios de Canal de marketing](c-marketing-channels/c-channel-calc-metrics.md)
+   + [Expiração de envolvimento do visitante](c-marketing-channels/visitor-engagement.md)
+   + [Métricas usadas nos relatórios de canal de marketing](c-marketing-channels/c-overview-metrics.md)
+   + [Métricas calculadas usadas nos relatórios de canal de marketing](c-marketing-channels/c-channel-calc-metrics.md)
    + [Custos e orçamentos](c-marketing-channels/c-overview-budget.md)
    + [Adicionar dados offline](c-marketing-channels/t-offline-data.md)
    + [Acesso ao Relatório](c-marketing-channels/c-channel-report-access.md)
