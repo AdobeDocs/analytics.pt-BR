@@ -5,37 +5,13 @@ seo-title: Dimensões incompatíveis com segmentos do Data Warehouse
 title: Dimensões incompatíveis com segmentos do Data Warehouse
 uuid: ce 772 b 7 a -6 a 30-454 a-a 38 f-d 2 bb 2521 f 0 fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
 
 ---
 
 
-# Dimensões incompatíveis com segmentos do Data Warehouse
+# Página temporária
 
-As seguintes dimensões não podem ser usadas em segmentos do Data Warehouse:
+<!-- This page is a duplicate of dimension-support.md. Once internal redirects are in place, we can remove this page and point it to dimension-support.md. -->
 
-* Toda a classificação da página de pesquisa
-* AM/PM
-* Dia do mês
-* Dias da semana
-* Dia do ano
-* Unidade corporativa de entrada
-* Entrada (Todas as dimensões com Entrada, exceto Página de entrada)
-* Saída (Todas as dimensões com Saída, exceto Link de saída e Página de saída)
-* Hierarquia (Todas as dimensões com Hierarquia)
-* Profundidade de ocorrência
-* Tipo de ocorrência
-* Hora e Dia
-* Mês do ano
-* Páginas não encontradas
-* Pesquisa paga
-* Trimestre do ano
-* Frequência de retorno
-* Visitas únicas à página
-* Tempo antes do evento
-* Tempo gasto na página - No intervalo
-* Tempo gasto por visita - Em bucket
-* Motivo da desativação do rastreamento
-* Estados dos Estados Unidos
-* Dia da semana/Fim de semana
-
+Esta é uma página temporária. Consulte [Suporte a componentes](component-support.md).
