@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Guia de administração do Analytics
 user-guide-url: /content/help/pt-BR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
    + Regras de bot {#bot-rules}
-      + [Visão geral das regras de bot](admin/bot-rules/bot-rules.md)
+      + [Visão geral das regras do robô](admin/bot-rules/bot-rules.md)
       + [Fazer upload de regras de bot](admin/bot-rules/t-upload-bot-rules.md)
       + [Criar uma regra de bot personalizada](admin/bot-rules/t-create-bot-rules.md)
    + [Gerenciador de código](admin/code-manager-admin.md)
-   + Variáveis de conversão {#conversion-variables}
-      + [Variáveis de conversão (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+   + Conversion variables {#conversion-variables}
+      + [Variáveis de conversão (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variáveis de conversão](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
    + [Códigos monetários](admin/currency.md)
@@ -41,9 +41,9 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Logs](admin/logs.md)
    + [Canais de marketing](admin/marketing-channels-admin.md)
    + [Personalização do menu](admin/customize-menus.md)
-   + [Visibilidade da métrica](admin/metric-visibility.md)
+   + [Cisibilidade de métrica](admin/metric-visibility.md)
    + [Gerenciamento móvel](admin/mobile-management.md)
-   + Detecção de pesquisa paga {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [Visão geral da detecção de pesquisa paga](admin/paid-search-detection/paid-search-detection.md)
       + [Configurar a detecção de pesquisa paga](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listas de publicação](admin/publishing-list.md)
@@ -85,7 +85,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Como verificar a implementação do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-verify.md)
       + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu Relatórios simplificado](admin/t-simplified-menu.md)
-   + [Gerenciamento Social](admin/social-management.md)
+   + [Gerenciamento social](admin/social-management.md)
    + Eventos bem-sucedidos {#success-events}
       + [Visão geral dos eventos bem-sucedidos](admin/c-success-events/success-event.md)
       + [Configurar os eventos bem-sucedidos](admin/c-success-events/t-success-events.md)
@@ -97,12 +97,12 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Classificações de tráfego](admin/c-traffic-variables/traffic-classifications.md)
    + Variável de visitante único {#unique-visitor-variable}
       + [Especificar a Variável de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso de uso - Extraindo IDs de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso de uso - extrair IDs de visitante](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
 + Admin Console da Experience Cloud {#admin-console}
-   + [Ajuda do Admin Console da Experience Cloud](admin-console/home.md)
+   + [Ajuda do Console de administração da Experience Cloud](admin-console/home.md)
    + Permissões {#permissions}
-      + [Ajuda do Perfil do produto](admin-console/permissions/product-profile.md)
+      + [Ajuda do perfil do produto](admin-console/permissions/product-profile.md)
       + [Itens de permissão das Ferramentas do Conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
       + [Itens de permissão das Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
