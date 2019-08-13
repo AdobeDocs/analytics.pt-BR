@@ -5,7 +5,7 @@ seo-title: Ferramentas administrativas
 title: Ferramentas administrativas
 uuid: 6961 e 956-14 ea -4367-bdbd-eb 0 bcc 456 aae
 translation-type: tm+mt
-source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 >Não abra várias guias Admin no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, caso seja necessário comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou faça uma captura de tela para comparar os conjuntos de regras.
 
 + [Faturamento](billing-admin.md)
-+ [Visão geral das regras do robô](bot-rules/bot-rules.md)
++ [Visão geral das regras de bot](bot-removal/bot-rules.md)
 + [Gerenciador de código](code-manager-admin.md)
 + [Variáveis de conversão (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Códigos monetários](currency.md)
@@ -34,7 +34,7 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 + [Filtros internos do URL](internal-url-filter-admin.md)
 + [Logs](logs.md)
 + [Canais de marketing](marketing-channels-admin.md)
-+ [Personalização de menu](customize-menus.md)
++ [Personalização do menu](customize-menus.md)
 + [Visibilidade da métrica](metric-visibility.md)
 + [Gerenciamento móvel](mobile-management.md)
 + [Visão geral da detecção de pesquisa paga](paid-search-detection/paid-search-detection.md)
@@ -43,10 +43,10 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 + [Gerenciador de preferências](preferences-manager.md)
 + [Configurações de privacidade](privacy-settings.md)
 + [Visão geral das regras de processamento](c-processing-rules/processing-rules.md)
-+ [Visão geral dos relatórios em tempo real](realtime/realtime.md)
-+ [Fila de relatórios agendados](scheduled-reports-admin.md)
++ [Visão geral dos Relatórios em tempo real](realtime/realtime.md)
++ [Relação de relatórios agendados](scheduled-reports-admin.md)
 + [Visão geral do encaminhamento pelo lado do servidor](c-server-side-forwarding/ssf.md)
-+ [Menu de relatórios simplificados](t-simplified-menu.md)
++ [Menu Relatórios simplificado](t-simplified-menu.md)
 + [Gerenciamento Social](social-management.md)
 + [Visão geral dos eventos bem-sucedidos](c-success-events/success-event.md)
 + [Carimbos opcionais de data e hora](timestamp-optional.md)
