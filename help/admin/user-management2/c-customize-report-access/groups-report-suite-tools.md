@@ -2,19 +2,19 @@
 description: Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
 keywords: grupos; permissões
 seo-description: Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
-seo-title: Personalizar ferramentas do Conjunto de relatórios permissões
+seo-title: Personalizar ferramentas do Conjunto de relatórios
 solution: Analytics
 subtopic: Usuários e grupos
-title: Personalizar permissões de ferramentas do Conjunto de relatórios
+title: Personalizar ferramentas do Conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: 3 c 95 d 296-ffd 0-4971-9 c 5 f -110 ddbe 042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
 
-# Personalizar permissões de ferramentas do Conjunto de relatórios
+# Personalizar ferramentas do Conjunto de relatórios
 
 >[!IMPORTANT]
 >
@@ -68,8 +68,8 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Detecção de anomalias](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Concede permissão para Detecção de anomalias, que oferece um método estatístico para determinar como determinada métrica foi alterada em relação a dados anteriores. |
 | [Relatório de Canal](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Concede permissão para relatórios de Canal de marketing, encontrados em Relatórios &gt; Relatórios do canal de marketing. |
 | [Relatório em tempo real](../../../admin/admin/realtime/t-realtime-admin.md) | Concede acesso ao Relatório em tempo real. |
-| [Páginas de bot](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
-| [Bots](../../../admin/admin/bot-rules/bot-rules.md) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Páginas de bot](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Bots](../../../admin/admin/bot-removal/bot-rules.md) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Relatório de Data Warehouse Personalizado](../../..//export/data-warehouse/data-warehouse.md) | O Data warehouse refere-se à cópia de dados brutos não processados para armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas exclusivas. |
 | [Visitas de Retorno Diário](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Herdado) Relatório que exibe o número de visitantes no seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. |
 | [Gerenciador das fontes de dados](../../../admin/admin/data-sources.md) | O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. |
@@ -82,6 +82,6 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | Classificações | Combina as seguintes permissões: «Classificações de tráfego», «Classificações de vídeo», «Classificações de conversão», «Hierarquias de classificação», «Gerenciador de classificações» e «Importador de classificações/Exportador e Construtor de regras». Observação: com essa permissão, usuários editam classificações para todos os conjuntos de relatórios, não somente os selecionados. |
 | [Análise de contribuição](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede direitos de uso à Análise de contribuição na Analysis Workspace. |
 | **Itens do painel** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| As configurações em Itens do painel permitem acesso a [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) em Relatórios e análises: , Meus relatórios recomendados, reportlet de resumo da empresa, imagem, reportlet de medição/medição, totais do conjunto de relatórios, texto, reportlet, reportlet de resumo de uso e recursos da Web |  |
 | **Outro** |  |
 | Social | Controla o acesso ao menu Gerenciamento social no Gerenciador de conjunto de relatórios. |
