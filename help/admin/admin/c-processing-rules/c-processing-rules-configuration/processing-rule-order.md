@@ -1,14 +1,14 @@
 ---
 description: Para usar regras de processamento com eficácia, é essencial compreender quando elas são aplicadas durante a coleta dos dados.
 seo-description: 'Para usar regras de processamento com eficácia, é essencial compreender quando elas são aplicadas durante a coleta dos dados. '
-seo-title: Processando Ordem
+seo-title: Ordem de processamento
 solution: Analytics
 subtopic: Regras de processamento
 title: Ordem de processamento
 topic: Ferramentas administrativas
 uuid: cea 01 d 13-dfd 5-40 f 7-8 b 2 f-b 6 e 2 fe 8354 df
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ As tabelas a seguir apresentam os dados que normalmente estão disponíveis ante
 | Pesquisa de variável dinâmica | As variáveis são preenchidas de maneira dinâmica, puxando informações de cabeçalhos HTTP ou outras variáveis. For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | Funções e plug-ins usados no AppMeasurement são executados no navegador ou no aplicativo do cliente. |
 | Dynamic Tag Management | As regras definidas no Dynamic Tag Management são executadas conforme definido. |
-| Regras de bot | [As regras](../../../../admin/admin/bot-rules/bot-rules.md) do robô permitem remover o tráfego que é gerado pelos spiders e bots conhecidos do conjunto de relatórios. |
+| Regras de bot | [As regras](../../../../admin/admin/bot-removal/bot-rules.md) do robô permitem remover o tráfego que é gerado pelos spiders e bots conhecidos do conjunto de relatórios. |
 
 ## Após as regras de processamento
 
