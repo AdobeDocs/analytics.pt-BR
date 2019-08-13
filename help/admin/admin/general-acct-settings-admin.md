@@ -1,13 +1,13 @@
 ---
 description: Descrições de campo das Configurações gerais da conta em Administração do conjunto de relatórios.
 seo-description: Descrições de campo das Configurações gerais de conta em Administração do conjunto de relatórios.
-seo-title: Configurações gerais de conta
+seo-title: Configurações gerais da conta
 solution: Analytics
 title: Configurações gerais da conta
 topic: Ferramentas administrativas
 uuid: c 1 ab 5 c 34-2 c 41-4 d 12-a 706-0 e 760 dff 8 a 95
 translation-type: tm+mt
-source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -54,7 +54,7 @@ Essas configurações contêm opções de edição para a funcionalidade básica
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ofuscação de IP</span> </td> 
-   <td colname="col2"> <p>Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente. </p> <p>Observação: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target. </p> <p>Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP. </p> <p>Marcar <span class="uicontrol">Desativado</span> deixa o endereço IP nos dados. </p> <p>Marcar <span class="uicontrol">Ofuscar endereço IP</span> altera o IP para um valor com hash (por exemplo, 234abc6493872038). </p> <p>Marcar <span class="uicontrol">Remover endereço IP</span> substitui o endereço IP por x.x.x.x nos dados após a pesquisa geográfica. </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente. </p> <p>Observação: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target. </p> <p>Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP. </p> <p>Marcar <span class="uicontrol">Desativado</span> deixa o endereço IP nos dados. </p> <p>Marcar <span class="uicontrol">Ofuscar endereço IP</span> altera o IP para um valor com hash (por exemplo, 234abc6493872038). </p> <p>Marcar <span class="uicontrol">Remover endereço IP</span> substitui o endereço IP por x.x.x.x nos dados após a pesquisa geográfica. </p> <p>Observação: Essa configuração pode exigir alterações em regras <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> de bot personalizadas</a> ou<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> exclusões de IP</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Armazenamento de ID de transação</span> </td> 
