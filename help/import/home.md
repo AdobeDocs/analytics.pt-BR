@@ -1,10 +1,10 @@
 ---
-title: Ajuda de importação do Analytics
-seo-title: Ajuda de importação do Analytics
+title: Ada de importação do Analytics
+seo-title: Ada de importação do Analytics
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,11 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_import.png)
 
-Este guia explica como obter dados no Analytics por meio das fontes de dados, da API de inserção ou pelos conectores de dados.
+Este guia explica como obter dados no Analytics. O serviço inclui:
+
+* **Fontes de dados:** Carregue um arquivo em um site de FTP designado da Adobe. A Adobe recupera o arquivo e inclui os dados em seu conjunto de relatórios.
+* **API de inserção de dados:** Envie dados diretamente para a coleta de dados da Adobe por meio de uma API.
+* **Conectores de dados:** Trabalhar com uma terceiros com suporte para trazer seus dados para o Adobe Analytics para aprimorar seu conjunto de relatórios.
 
 ## Artigos-chave de importação do Analytics
 
@@ -25,11 +29,7 @@ Este guia explica como obter dados no Analytics por meio das fontes de dados, da
 
 ## Recursos principais do Analytics
 
-* [Introdução](https://helpx.adobe.com/analytics/get-started.html)
-* [Vídeos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Desenvolvedor](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contate o suporte](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
