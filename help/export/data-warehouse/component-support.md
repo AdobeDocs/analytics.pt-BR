@@ -2,7 +2,7 @@
 title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
 translation-type: tm+mt
-source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -31,7 +31,7 @@ Algumas dimensões e métricas podem ser usadas no Data Warehouse, e elas não e
 
 Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
-> [!IMPORTANT] Se uma dimensão ou métrica não for suportada no Data Warehouse, os segmentos que usam esses componentes também não são suportados. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
+> [!NOTE] Se uma dimensão ou métrica não for suportada no Data Warehouse, os segmentos que usam esses componentes também não são suportados. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
 
 ### Dimensões não suportadas
 
