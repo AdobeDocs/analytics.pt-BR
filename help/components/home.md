@@ -4,7 +4,7 @@ seo-title: Ajuda dos componentes do Analytics
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,15 +13,21 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_components.png)
 
-Os componentes do Analytics ajudam você a ajustar e capacitar a análise da jornada do cliente. Exemplos de componentes incluem segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
+Os componentes do Analytics ajudam você a ajustar e capacitar a análise de dados. Os componentes incluem:
+
+* **Segmentação:** Concentre-se em um subconjunto de seus dados.
+* **Métricas calculadas:** Use fórmulas simples para combinar métricas ou funções avançadas para análises estatísticas.
+* **Conjuntos de relatórios virtuais:** Crie um silo virtual de dados com base em um conjunto de relatórios. Permite a limpeza ou o segmento de dados para uma melhor experiência do usuário. Alguns recursos só podem ser usados em conjuntos de relatórios virtuais.
+* **Alertas:** Receba notificações sempre que os dados passarem acima ou abaixo de um limite.
+* **Classificações:** Reorganizar e agrupar dimensões para obter informações adicionais.
+* **Variáveis:** Um guia de referência para todas as dimensões e métricas disponíveis nos relatórios.
+* **Relatório em tempo real:** Obtenha relatórios e tendências no minuto que eles estão disponíveis.
+* **Canais de marketing:** Entenda como os visitantes chegam ao site e determinam quais canais são mais bem sucedidos.
 
 ## Artigos principais de componentes do Analytics
 
 * [Referência de dimensão](c-variables/dimensionslist/reports-descriptions.md)
 * [Referência de métricas](c-variables/c-metrics/metricslist.md)
-* [Métricas calculadas](c-calcmetrics/cm-overview.md)
-* [Segmentação](c-segmentation/seg-home.md)
-* [Canais de marketing](c-marketing-channels/c-overview.md)
 
 ## Mais guias do usuário do Analytics
 
@@ -29,11 +35,7 @@ Os componentes do Analytics ajudam você a ajustar e capacitar a análise da jor
 
 ## Recursos principais do Analytics
 
-* [Introdução](https://helpx.adobe.com/analytics/get-started.html)
-* [Vídeos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Desenvolvedor](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contate o suporte](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
