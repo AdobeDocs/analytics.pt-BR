@@ -4,7 +4,7 @@ seo-title: Ajuda para exportação do Analytics
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,10 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Banner](../../assets/doc_banner_export.png)
 
-Este guia discute vários métodos de exportação de dados, como feeds de dados e Data Warehouse.
+Este guia descreve maneiras de retirar dados do Adobe Analytics. O serviço inclui:
+
+* **Feeds de dados:** Receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Os feeds de dados são geralmente enviados para sites FTP.
+* **Data Warehouse:** Use um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e qualquer número de valores únicos.
 
 ## Artigos principais de exportação do Analytics
 
@@ -27,11 +30,7 @@ Este guia discute vários métodos de exportação de dados, como feeds de dados
 
 ## Recursos principais do Analytics
 
-* [Introdução](https://helpx.adobe.com/analytics/get-started.html)
-* [Vídeos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Desenvolvedor](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contate o suporte](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
