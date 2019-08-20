@@ -17,8 +17,8 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + Fluxo de trabalho do Audience Analytics {#audience-analytics-workflow}
       + [Visão geral do fluxo de trabalho](c-audience-analytics/c-workflow/audiences-workflow.md)
       + [Visão geral do encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf.md)
-      + [Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Requisitos para encaminhamento pelo lado do servidor - guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
+      + [Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [Requisitos para encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [Verificar a implementação de encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [Criar destinos de análise](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
@@ -42,5 +42,5 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 + [Analytics para Target - A4T](https://marketing.adobe.com/resources/help/pt_BR/target/a4t/a4t.html)
 + [Relatórios do Adobe Campaign](adobe-campaign.md)
 + [Relatórios do AEM Assets](aem-assets-reporting.md)
-+ [Relatórios do Mapa de atividade](activitmap-reporting.md)
++ [Relatórios do Activity Map](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
