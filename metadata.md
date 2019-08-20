@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon -24. png
+solution-hub-url: https://helpx.adobe.com/br/support/analytics.html
+solution-image: assets/analytics-icon-24.png
 getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+getting-started-url: https://helpx.adobe.com/br/analytics/get-started.html
 tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
+tutorials-url: https://helpx.adobe.com/br/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
@@ -28,4 +28,4 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo mestre para uso interno |
+| git-repo | Especifica o local da repo mestre para uso interno |
