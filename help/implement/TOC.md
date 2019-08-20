@@ -48,7 +48,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Relatórios e conjuntos de relatórios](analytics-terminology-basics/ref-reports-report-suites.md)
    + [Segmentos](analytics-terminology-basics/ref-segments.md)
    + Props de tráfego e eVars de conversão {#traffic-props-evars}
-      + [Visão geral de props e evars](analytics-terminology-basics/c-props-evars/props-evars.md)
+      + [Visão geral de props e eVars](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [Comparação de Props e eVars](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
       + [Uso de props como contadores](analytics-terminology-basics/c-props-evars/props-counter.md)
       + [Contagem de hierarquias de conteúdo](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
@@ -62,12 +62,12 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Criar uma camada de dados](prepare/data-layer.md)
    + [Escolha um método de implementação](c-implementation-methods/choose-implementation-method.md)
 + [Introdução à implantação do Analytics](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ Implementar o Analytics com a inicialização da Adobe Experience Platform {#implement-with-launch}
-   + [Criar uma propriedade do Analytics na Inicialização da Experience Platform](implement-with-launch/create-analytics-property.md)
++ Implementar o Analytics com a Adobe Experience Platform Launch {#implement-with-launch}
+   + [Criar uma propriedade do Analytics na Experience Platform Launch](implement-with-launch/create-analytics-property.md)
    + [Implantar uma implementação em um ambiente de desenvolvimento](implement-with-launch/deploy-dev.md)
    + [Validar uma implementação de desenvolvimento e publicar na produção](implement-with-launch/validate-publish-prod.md)
 + Implementar o Analytics com o DTM {#implement-analytics-with-dtm}
-   + [Visão geral da implementação do Gerenciamento dinâmico de tags](c-implement-with-dtm/dtm-implementation-overview.md)
+   + [Visão geral da implementação do Dynamic Tag Management](c-implement-with-dtm/dtm-implementation-overview.md)
    + [Criar propriedade da Web](c-implement-with-dtm/t-create-web-property.md)
    + [Configurar opções de hospedagem](c-implement-with-dtm/t-configure-hosting.md)
    + Cabeçalhos e rodapés {#headers-footers}
@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [ID de visitante do Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Métodos de ID de Fallback](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificar dispositivos móveis](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Serviços principais da Experience Cloud Core](https://marketing.adobe.com/resources/help/pt_BR/mcloud/?f=core_services)
+   + [Serviços principais da Experience Cloud Core](https://marketing.adobe.com/resources/help/pt_BR/mcloud/core_services.html)
    + Identificação de visitantes em vários dispositivos {#cross-device-visitor-id}
       + [Usuários do Connect em vários dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Impacto de dados da identificação de visitantes em vários dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
