@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Guia de administração do Analytics
 user-guide-url: /content/help/pt-BR/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -20,30 +20,30 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
    + Remoção de bot {#bot-removal}
-      + [Visão geral das regras do robô](admin/bot-removal/bot-rules.md)
+      + [Visão geral das regras de bot](admin/bot-removal/bot-rules.md)
       + [Fazer upload de regras de bot](admin/bot-removal/t-upload-bot-rules.md)
       + [Criar uma regra de bot personalizada](admin/bot-removal/t-create-bot-rules.md)
    + [Gerenciador de código](admin/code-manager-admin.md)
-   + Conversion variables {#conversion-variables}
+   + Variáveis de conversão {#conversion-variables}
       + [Variáveis de conversão (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variáveis de conversão](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
    + [Códigos monetários](admin/currency.md)
-   + [Descrições do relatório personalizado](admin/custom-desc-admin.md)
+   + [Descrições personalizadas de relatórios](admin/custom-desc-admin.md)
    + [Personalizar calendário](admin/custom-calendar.md)
    + [Fontes de dados](admin/data-sources.md)
    + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Métodos de descoberta](admin/finding-methods.md)
-   + [Configurações gerais da conta](admin/general-acct-settings-admin.md)
+   + [Configurações gerais de conta](admin/general-acct-settings-admin.md)
    + [Gerenciamento de grupos](admin/group.md)
    + [Filtros internos do URL](admin/internal-url-filter-admin.md)
    + [Logs](admin/logs.md)
    + [Canais de marketing](admin/marketing-channels-admin.md)
-   + [Personalização do menu](admin/customize-menus.md)
-   + [Cisibilidade de métrica](admin/metric-visibility.md)
+   + [Personalização de menu](admin/customize-menus.md)
+   + [Visibilidade de métrica](admin/metric-visibility.md)
    + [Gerenciamento móvel](admin/mobile-management.md)
-   + Paid search detection {#paid-search-detection}
+   + Detecção de pesquisa paga {#paid-search-detection}
       + [Visão geral da detecção de pesquisa paga](admin/paid-search-detection/paid-search-detection.md)
       + [Configurar a detecção de pesquisa paga](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listas de publicação](admin/publishing-list.md)
@@ -54,7 +54,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Visão geral das regras de processamento](admin/c-processing-rules/processing-rules.md)
       + Configuração das regras de processamento {#processing-rules-configuration}
          + [Como as regras de processamento funcionam](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Ordem de processamento](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+         + [Processamento do pedido](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Criar regras de processamento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Exibir as regras de processamento ativas](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Exibir o histórico das regras de processamento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
@@ -97,12 +97,12 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Classificações de tráfego](admin/c-traffic-variables/traffic-classifications.md)
    + Variável de visitante único {#unique-visitor-variable}
       + [Especificar a Variável de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso de uso - extrair IDs de visitante](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso de uso - Extração de IDs de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
 + Admin Console da Experience Cloud {#admin-console}
-   + [Ajuda do Console de administração da Experience Cloud](admin-console/home.md)
+   + [Ajuda do Admin Console da Experience Cloud](admin-console/home.md)
    + Permissões {#permissions}
-      + [Ajuda do perfil do produto](admin-console/permissions/product-profile.md)
+      + [Ajuda do Perfil do produto](admin-console/permissions/product-profile.md)
       + [Itens de permissão das Ferramentas do Conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
       + [Itens de permissão das Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
@@ -111,7 +111,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Visão geral das Configurações da empresa](company/c-company-settings.md)
    + [Níveis de acesso a recursos](company/feature-access-levels.md)
    + [Serviços Web](company/web-services-admin.md)
-   + [Relatórios do Construtor de relatórios](company/report-builder-reports-admin.md)
+   + [Relatórios do Report Builder](company/report-builder-reports-admin.md)
    + [Logon único](company/single-signon-admin.md)
    + [Ações pendentes](company/pending-actions-admin.md)
    + [Compartilhamento de marcas](company/co-branding-admin.md)
@@ -172,7 +172,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Práticas recomendadas de rotulagem](c-data-governance/gdpr-analytics-ids.md)
    + [Exemplo de rotulagem](c-data-governance/gdpr-labeling-example.md)
    + [GDPR e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologia do RGPD](c-data-governance/gdpr-terminology.md)
+   + [Terminologia do GDPR](c-data-governance/gdpr-terminology.md)
 + Uso de chamadas do servidor {#server-call-usage}
    + [Visão geral do uso de chamadas do servidor](c-server-call-usage/overage-overview.md)
    + [Visualizar uso de chamadas do servidor atual](c-server-call-usage/server-call-usage-dashboard.md)
