@@ -118,16 +118,16 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Limitações da Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
    + [Ajuda do Report Builder da Adobe](report-builder/home.md)
-   + [Novidades no Construtor de relatórios](report-builder/whats-new-arb.md)
-   + Configuração do Construtor de relatórios {#report-builder-setup}
+   + [Novidades no Report Builder](report-builder/whats-new-arb.md)
+   + Configuração do Report Builder {#report-builder-setup}
       + [Requisitos do sistema](report-builder/setup/system-requirements.md)
-      + [Instalar o Construtor de relatórios](report-builder/setup/t-install-arb.md)
-      + [Atualizar o Construtor de relatórios](report-builder/setup/upgrade-arb.md)
-      + [Logon no construtor de relatórios](report-builder/setup/login.md)
-      + [Fazer logon no Construtor de relatórios](report-builder/setup/t-loggin-in-to-reportbuilder.md)
-      + [Desinstalar o Construtor de relatórios](report-builder/setup/t-uninstall-arb.md)
-      + [Invocar a funcionalidade do construtor de relatórios a partir de funções do Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
-   + [Barra de ferramentas do Construtor de relatórios](report-builder/reportbuilder-toolbar.md)
+      + [Instalar o Report Builder](report-builder/setup/t-install-arb.md)
+      + [Atualizar o Report Builder](report-builder/setup/upgrade-arb.md)
+      + [Logon no Report Builder](report-builder/setup/login.md)
+      + [Fazer logon no Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
+      + [Desinstalar o Report Builder](report-builder/setup/t-uninstall-arb.md)
+      + [Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
+   + [Barra de ferramentas do Report Builder](report-builder/reportbuilder-toolbar.md)
    + Solicitações de dados {#data-requests}
       + [Solicitação de dados - Etapa 1 do assistente de solicitações](report-builder/data-requests/data-requests.md)
       + [Criar uma solicitação de dados](report-builder/data-requests/t-create-a-data-request.md)
@@ -139,7 +139,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Permitir substituições na lista de publicação](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Tipos de relatórios {#report-types}
          + [Visão geral dos tipos de relatórios](report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Relatórios de caminho e fallout de caminho no Construtor de relatórios](report-builder/data-requests/c-report-types/report-path-fallout.md)
+         + [Relatórios de caminho e fallout de caminho no Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrar relatório de caminho com o Assistente de solicitação](report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrar um relatório de fallout com o assistente de solicitação](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrar relatórios de caminho ao adicionar solicitações dependentes](report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -211,7 +211,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Salvar uma pasta de trabalho com solicitações](report-builder/manage-requests/save-a-workbook-with-requests.md)
       + [Especificar formatação condicional](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Modo offline para criação e edição de solicitações](report-builder/manage-requests/offline-mode.md)
-   + [Opções do Construtor de relatórios](report-builder/options.md)
+   + [Opções do Report Builder](report-builder/options.md)
    + [Agendar solicitações de relatório](report-builder/schedule-report-requests.md)
    + [Agendar uma pasta de trabalho](report-builder/t-schedule-a-data-request.md)
    + [Gerenciador de tarefa agendada](report-builder/r-arb-scheduled-reports.md)
@@ -220,7 +220,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Baixar uma pasta de trabalho](report-builder/workbook-library/t-download-a-workbook.md)
       + [Bloquear/desbloquear pastas de trabalho](report-builder/workbook-library/protect-wb.md)
       + [Agendar pastas de trabalho com macros habilitados](report-builder/workbook-library/schedule-macro-wb.md)
-   + Publicar no Power BI com Construtor de relatórios 5.5 {#publish-powerbi}
+   + Publicar no Power BI com Report Builder 5.5 {#publish-powerbi}
       + [Publicar no Power BI - Visão geral](report-builder/c-publish-power-bi/power-bi.md)
       + [Limitações e especificações](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importação manual de dados para o Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -228,9 +228,9 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Práticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Solução de problemas de integração do Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Pacotes de conteúdo do Adobe Analytics para o Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Resolução de problemas e práticas recomendadas do Construtor de relatórios](report-builder/troubleshoot.md)
-+ Mapa de atividade {#activity-map}
-   + [Visão geral do Mapa de atividade](activity-map/activity-map.md)
+   + [Resolução de problemas e práticas recomendadas do Report Builder](report-builder/troubleshoot.md)
++ Activity Map {#activity-map}
+   + [Visão geral do Activity Map](activity-map/activity-map.md)
    + [Rastreamento de links avançado](activity-map/lnk-tracking-overview.md)
    + [Modo Padrão vs. modo Online](activity-map/activitymap-standard-live.md)
    + [Relatório de links](activity-map/activitymap-links-report.md)
@@ -245,10 +245,10 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Perguntas frequentes sobre o Activity Map](activity-map/activitymap-faq.md)
    + Comece já {#getting-started}
       + Comece já para administradores {#get-started-admins}
-         + [Habilitar o Mapa de atividade](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [Habilitar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [Código de implementação de exemplo](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Comece já para usuários {#get-started-users}
-         + [Instalar os plug-ins do navegador do Mapa de atividade](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Instalar os plug-ins do navegador do Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Inicializar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + Rastreamento de link {#link-tracking}
       + [Metodologia de Rastreamento de links](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
@@ -257,10 +257,10 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Iniciar o rastreamento de links](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
       + [Interromper o rastreamento de links](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [Usar a função s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [Definir configurações do Mapa de atividade](activity-map/activitymap-overlay-settings.md)
-   + [Interface do usuário do Mapa de atividade](activity-map/activitymap-user-interface.md)
-   + [Relatórios do Mapa de atividade no Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Integração entre o AEM Sites e o Mapa de atividade](activity-map/aem-sites-integration.md)
+   + [Definir configurações do Activity Map](activity-map/activitymap-overlay-settings.md)
+   + [Interface do usuário do Activity Map](activity-map/activitymap-user-interface.md)
+   + [Relatórios do Activity Map no Analytics](activity-map/activitymap-reporting-analytics.md)
+   + [Integração entre o AEM Sites e o Activity Map](activity-map/aem-sites-integration.md)
    + [Solução de problemas nas extensões do navegador](activity-map/troubleshooting-browser-extensions.md)
    + [Recursos de conhecimento](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
