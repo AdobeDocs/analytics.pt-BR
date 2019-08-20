@@ -3,7 +3,7 @@ product: analytics
 audience: usuário final
 user-guide-title: Guia de exportação do Analytics
 user-guide-url: /content/help/pt-BR/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
@@ -74,7 +74,7 @@ source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
       + [Feeds de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Relatórios entregues de Ad Hoc Analysis](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Relatórios entregues do Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
-      + [Relatórios entregues do construtor de relatórios](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
+      + [Relatórios entregues do Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Envolvimentos de serviços de engenharia com FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [Limites FTP e retenção de dados](ftp-and-sftp/ftp-limits.md)
    + [Excluir dados e contas FTP](ftp-and-sftp/ftp-delete.md)
