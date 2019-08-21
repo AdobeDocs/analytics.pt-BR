@@ -7,7 +7,7 @@ title: Agendar uma solicitação de dados
 topic: Construtor de relatórios
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 Você pode agendar pastas de trabalho, especificar opções avançadas de entrega, especificar destinatários e visualizar o histórico da programação. As opções avançadas de entrega permitem que você configure pastas de trabalho que deseja enviar em um horário específico ou em intervalos. Você também pode especificar o formato de arquivo para enviar a pasta de trabalho.
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. O limite de tamanho do arquivo de um relatório a ser carregado é de 5 MB.
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. O limite de tamanho do arquivo é de 5 MB para um upload de pasta de trabalho.
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Consulte [Agendamento e distribuição de relatórios](/help/analyze/reports-analytics/scheduling.md) na ajuda do Relatórios e análises).
 
 >[!NOTE]
 >
 >Você deve ter o Excel 2007 ou o pacote de compatibilidade instalado para programar uma pasta de trabalho. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Construtor de relatórios. No entanto, é possível aumentar esse número ao subtrair de outras licenças. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Uma pasta de trabalho programada (ou enviada para a Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses será excluída.
+
+>[!NOTE]
+>
+>A "Hora de entrega"/"Hora do dia" inserida pelo usuário especifica o tempo em que a pasta de trabalho deve começar o processamento, não o tempo que será realmente entregue. A hora real em que a pasta de trabalho será entregue baseia-se principalmente no tempo que leva para processar (pastas de trabalho complexas e grandes levam mais tempo para processar do que pastas de trabalho simples). Por exemplo, se uma pasta de trabalho levar 15 minutos para processar, o tempo de entrega real terá pelo menos 15 minutos após o "Tempo de entrega" especificado originalmente/"Hora do dia".
+>Além disso, há vários outros fatores que podem aumentar ainda mais o atraso antes da entrega da pasta de trabalho:
+>
+> * **Executar muitos horários diferentes do mesmo tipo ao mesmo tempo** pode sobrecarregar o sistema. O sistema de programação permite somente algumas (5-10) pastas de trabalho de qualquer tipo para serem executadas simultaneamente. Portanto, quando mais de 5-10 todos estão programados de uma vez, alguns precisam aguardar que outras pastas de trabalho terminem antes que possam começar a processar. Esse problema pode ser reduzido ao agendar as pastas de trabalho de uma empresa em momentos quebrados durante o dia ou hora, em vez de simultaneamente.
+> * Além do tipo de pasta de trabalho específico, as pastas de trabalho também serão aguardadas se a empresa tiver **mais de 15-20 de qualquer tipo de pasta de trabalho programada de uma vez (em todos os tipos de pasta de trabalho diferentes)**. Isso pode ser reduzido ao detalhar os tempos de programação em vez de ter muitas executado ao mesmo tempo.
+> * **Os problemas nos serviços** a jusante com os quais o Agendador depende também podem afetar a entrega de pastas de trabalho. Por exemplo, se você estiver usando as apis de forma independente para executar pastas de trabalho e preencher a fila de solicitação da API, suas pastas de trabalho programadas podem ser entregues lentamente enquanto você compete por esse recurso.
+> * **A latência do conjunto de relatórios** (um atraso na coleção de dados) também pode atrasar algumas pastas de trabalho programadas.
+
 
 **Para agendar uma pasta de trabalho**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Selecionar </p> </td> 
-   <td colname="col2"> <p>Exibe a página <span class="wintitle">Selecionar relatório</span>. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato <span class="filepath">.xls</span>, o sistema converterá o arquivo em <span class="filepath">.xlsx</span>. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1, e o relatório agendado recém-criado usará a pasta de trabalho copiada. </p> </td> 
+   <td colname="col2"> <p>Exibe a página <span class="wintitle">Selecionar relatório</span>. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato <span class="filepath">.xls</span>, o sistema converterá o arquivo em <span class="filepath">.xlsx</span>. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1. O relatório programado recém-criado usa a pasta de trabalho copiada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Personalizar </p> </td> 
