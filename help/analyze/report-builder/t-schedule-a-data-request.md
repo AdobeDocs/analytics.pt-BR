@@ -7,12 +7,12 @@ title: Agendar uma solicitação de dados
 topic: Construtor de relatórios
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
+source-git-commit: ed8cfa41a2495c884f1096ea54624820bf3a9e07
 
 ---
 
 
-# Agendar uma pasta de trabalho
+# Programar pastas de trabalho
 
 Você pode agendar pastas de trabalho, especificar opções avançadas de entrega, especificar destinatários e visualizar o histórico da programação. As opções avançadas de entrega permitem que você configure pastas de trabalho que deseja enviar em um horário específico ou em intervalos. Você também pode especificar o formato de arquivo para enviar a pasta de trabalho.
 
@@ -35,7 +35,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 > * **A latência do conjunto de relatórios** (um atraso na coleção de dados) também pode atrasar algumas pastas de trabalho programadas.
 
 
-**Para agendar uma pasta de trabalho**
+## Agendar uma pasta de trabalho
 
 1. Gere e salve uma pasta de trabalho.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
@@ -48,120 +48,36 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 1. No [!UICONTROL Assistente básico de agendamento], configure as seguintes opções:
 
-* **Selecionar Relatório**: O nome da pasta de trabalho. Para novas pastas de trabalho agendadas, este campo é preenchido com o nome da pasta de trabalho ativa.
+| Campo | Descrição |
+|--- |--- |
+| Selecionar relatório | O nome da pasta de trabalho. Para novos relatórios agendados, este campo é preenchido com o nome da pasta de trabalho ativa. |
+| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1. O relatório programado recém-criado usa a pasta de trabalho copiada. |
+| Personalizar | Permite a personalização do formato de data. |
+| Para | Exibe seu Catálogo de endereços do Outlook, se aplicável. |
+| Enviar para: Email | O destinatário do email da pasta de trabalho. |
+| Enviar para: Lista de publicação | Exibe uma lista de listas de distribuição disponíveis para essa empresa. |
+| Power BI | Consulte [Publicação de pasta de trabalho no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para mais informações. |
+| Assunto | Uma descrição definida pelo usuário. |
+| Agendamento | Permite especificar quando enviar a pasta de trabalho. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) |
 
-<table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Selecionar relatório </p> </td> 
-   <td colname="col2"> <p>O nome do relatório. Para novos relatórios agendados, este campo é preenchido com o nome da pasta de trabalho ativa. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Selecionar </p> </td> 
-   <td colname="col2"> <p>Exibe a página <span class="wintitle">Selecionar relatório</span>. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato <span class="filepath">.xls</span>, o sistema converterá o arquivo em <span class="filepath">.xlsx</span>. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1. O relatório programado recém-criado usa a pasta de trabalho copiada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Personalizar </p> </td> 
-   <td colname="col2"> <p>Permite a personalização do formato de data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Para </p> </td> 
-   <td colname="col2"> <p>Exibe seu Catálogo de endereços do Outlook, se aplicável. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enviar para: Email </p> </td> 
-   <td colname="col2"> <p>O destinatário do email da pasta de trabalho. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enviar para: Lista de publicação </p> </td> 
-   <td colname="col2"> <p>Exibe uma lista de listas de distribuição disponíveis para essa empresa. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Power BI </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local">Publicação de pasta de trabalho no Microsoft Power BI</a> para mais informações. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Assunto </p> </td> 
-   <td colname="col2"> <p>Uma descrição definida pelo usuário. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Agendamento </p> </td> 
-   <td colname="col2"> <p> Permite especificar quando enviar a pasta de trabalho. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Opções avançadas de entrega
 
 1. Click **[!UICONTROL Advanced Delivery Options]** to configure file and publishing options:
 
-<table id="table_1BA8A5600DE94A33B83B096E69CE15F3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Guia <b>Agendamento</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hora de entrega </p> </td> 
-   <td colname="col2"> <p>Permite agendar a pasta de trabalho imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado no computador. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Padrão de recorrência </p> </td> 
-   <td colname="col2"> <p>Envia a pasta de trabalho com base em suas seleções. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Intervalo de recorrência </p> </td> 
-   <td colname="col2"> <p>Permite especificar quando começar e parar de receber a pasta de trabalho. </p> <p> <p>Observação: Agendar uma pasta de trabalho no primeiro dia de qualquer período atual (semana, mês, trimestre ou ano) retorna dados apenas para o primeiro dia. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Guia <b>Opções de arquivo</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Formato do arquivo </p> </td> 
-   <td colname="col2"> <p>Permite selecionar um formato de entrega do Excel 2007 (<span class="filepath">.xlsx</span>) ou 2003 (<span class="filepath">.xls</span>), <span class="filepath">.pdf</span>, <span class="filepath">.csv</span>, <span class="filepath">.mht</span>, <span class="filepath">.txt</span> e <span class="filepath">.xml</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Destino do arquivo </p> </td> 
-   <td colname="col2"> <p> Especifica Email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você precisa garantir que o host esteja disponível externamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Lista de Publicação </p> </td> 
-   <td colname="col2"> <p> Se você enviar a pasta de trabalho agendada para várias listas de publicação, a pasta de trabalho será executada uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Idioma do conteúdo do arquivo </p> </td> 
-   <td colname="col2"> <p>Especifica o idioma a ser usado na carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Guia <b>Opções de publicação</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Publicação no Power BI </p> </td> 
-   <td colname="col2"> 
-    <ul id="ul_40697E4FB2CE4F34B857FBF153D6D6D5"> 
-     <li id="li_023E4750814D415EBC899269C9EA5D46"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local"> Publicar pasta de trabalho no Power BI</a> </li> 
-     <li id="li_9B684BE22AF94ABC903405EE83951A80"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_E48148793E794169B766C73995897B9F" format="dita" scope="local"> Publicar todas as solicitações do Construtor de relatórios como conjuntos de dados do Power BI</a> </li> 
-     <li id="li_7B0BD285BC1749D1B2C65759CA97877B"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_6F8422B90D3F4F7EB5D4C97BFFA807AD" format="dita" scope="local"> Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</a> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rotule esse relatório do Power BI como </p> </td> 
-   <td colname="col2"> <p>Detalhes da rotulação </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Campo | Descrição |
+|--- |--- |
+| Guia **Agendamento** |  |
+| Hora de entrega | Permite agendar a pasta de trabalho imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado no computador. |
+| Padrão de recorrência | Envia a pasta de trabalho com base em suas seleções. |
+| Intervalo de recorrência | Permite especificar quando começar e parar de receber a pasta de trabalho. Observação: Agendar uma pasta de trabalho no primeiro dia de qualquer período atual (semana, mês, trimestre ou ano) retorna dados apenas para o primeiro dia. |
+| Guia **Opções de arquivo** |  |
+| Formato do arquivo | Permite selecionar um formato de entrega do Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt e .xml. |
+| Destino do arquivo | Especifica Email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você precisa garantir que o host esteja disponível externamente. |
+| Lista de Publicação | Se você enviar a pasta de trabalho agendada para várias listas de publicação, a pasta de trabalho será executada uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. |
+| Idioma do conteúdo do arquivo | Especifica o idioma a ser usado na carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. |
+| Guia **Opções de publicação** |  |
+| Publicação no Power BI | <ul><li>Publicar pasta de trabalho no Power BI</li><li>Publicar todas as solicitações do Construtor de relatórios como conjuntos de dados do Power BI</li><li>Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</li></ul> |
+| Rotule esse relatório do Power BI como | Detalhes da rotulação |
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
