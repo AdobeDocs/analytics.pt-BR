@@ -4,7 +4,7 @@ seo-title: Totais de métricas calculadas
 description: Saiba como os totais das métricas calculadas diferem nas ferramentas do Analytics
 seo-description: Como os totais das métricas calculadas são calculados
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ Como não há um método lógico e concreto para determinar se uma métrica calc
 
 Na Analysis Workspace, em determinadas circunstâncias, as métricas calculadas são somadas para exibir um total:
 
-* Quando há linhas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) e **[!UICONTROL Calcular os totais, resumindo os valores atualmente em cada opção de coluna]** (padrão) é selecionada.
+* Quando há linhas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) nas tabelas de forma livre e *[!UICONTROL Calcular os totais, resumindo os valores atualmente em cada opção de coluna]* (padrão) é selecionada.
 * Na visualização [de Rosca](/help/analyze/analysis-workspace/visualizations/donut.md).
 * Na visualização Alteração [de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
