@@ -8,7 +8,7 @@ title: Fazer upload de regras de bot
 topic: Ferramentas administrativas
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ Para as regras de bot de importação em massa, é possível fazer upload do arq
 Crie um arquivo CSV com as seguintes colunas, na ordem apresentada:
 
 | Coluna 1 | Coluna 2 | Coluna 3 | Coluna 4 | Coluna 5 |
-|---|---|---|---|---|
-|  Nome do bot |  IP Início  |  IP Fim  | Regra de correspondência do agente<br>(`contains` ou `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+|  Nome do bot |  IP Início  |  IP Fim  | Agent Match Rule<br>(contains or starts with)</br> | Excluir agente<br>(limite de 255 caracteres)</br> |
 
 É possível definir três tipos de regras de bot:
 
