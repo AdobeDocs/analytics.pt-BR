@@ -5,7 +5,7 @@ seo-title: Otimizar o desempenho da Analysis Workspace
 title: Otimizar o desempenho da Analysis Workspace
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 Certos fatores podem influenciar o desempenho de um projeto na Analysis Workspace. É importante saber quais são os contribuidores antes de iniciar a criação de um projeto, para que possa planejar e criar o projeto da melhor forma. Abaixo segue uma lista de fatores que impactarão o desempenho e as práticas recomendadas para a otimização do seu projeto. O desempenho da Analysis Workspace é uma das prioridades da Adobe e algo que aprimoramos a cada dia.
 
-## Complexidade da lógica de segmentos
+## Complexidade da lógica do segmento
 
 Segmentos intricados podem ter um impacto significativo no desempenho do projeto. Fatores que adicionam complexidade a um segmento (em ordem decrescente de impacto) incluem:
 
@@ -25,7 +25,7 @@ Segmentos intricados podem ter um impacto significativo no desempenho do projeto
 * Muitos operadores OR (em vez de AND)
 * Contêineres aninhados que variam no escopo (por exemplo, "Ocorrência" dentro de "Visita" dentro de "Visitante")
 
-**Prática recomendada para a complexidade da lógica**
+**Práticas recomendadas para a complexidade da lógica**
 
 Embora alguns dos fatores de complexidade não possam ser evitados, pense em oportunidades para reduzir a complexidade de seus segmentos. Em geral, quanto mais específico você puder ser com os critérios do seu segmento, melhor. Por exemplo:
 
@@ -39,7 +39,7 @@ Além disso, [classificações](/help/components/c-classifications2/c-classifica
 
 O intervalo de dados solicitado no decorrer do projeto influenciará o desempenho da Analysis Workspace.
 
-**Prática recomendada para o intervalo de dados**
+**Práticas recomendadas para o intervalo de dados**
 
 Quando possível, não inserir mais dados que o necessário.
 
@@ -95,7 +95,9 @@ O tamanho do conjunto de relatórios pode parecer um fator determinante, na real
 
 O número de usuários acessando a Analysis Workspace ou projetos específicos ao mesmo tempo não tem um efeito significativo no desempenho da Analysis Workspace, se os usuários estiverem acessando conjuntos de relatórios diferentes. Se os usuários simultâneos estiverem acessando o mesmo conjunto de relatórios, o desempenho será afetado.
 
-## Corrigir erros comuns
+## Mensagens de erro comuns na Analysis Workspace
+
+Você pode encontrar erros ao interagir com a Analysis Workspace. Podem ocorrer erros por vários motivos e listados abaixo são os mais comuns.
 
 | Mensagem de erro | Por que isso ocorre? |
 |---|---|
