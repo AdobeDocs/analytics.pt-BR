@@ -4,7 +4,7 @@ seo-title: Remoção de bot no Adobe Analytics
 description: 3 maneiras de remover bots no Adobe Analytics
 seo-description: 3 maneiras de remover bots no Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Lembre-se de usar a ID de visitante da Experience Cloud como dimensão e aplicar
 
 ## Etapa 4: Enviar esta lista de volta para a Adobe como um atributo do cliente
 
-Depois que o relatório Data Warehouse chegar, você terá uma lista de ecids que precisam ser filtradas de dados históricos. Copie e cole esses ecids em um arquivo CSV em branco com apenas duas colunas, ECID e sinalizador de robô:
+Depois que o relatório Data Warehouse chegar, você terá uma lista de ecids que precisam ser filtradas de dados históricos. Copie e cole esses ecids em um arquivo. CSV em branco com apenas duas colunas, ECID e sinalizador de robô:
 
-
+![](assets/bot-csv-4.png)
 
 Verifique se o cabeçalho da primeira coluna corresponde ao nome atribuído à nova ID declarada acima. Use este arquivo. CSV como arquivo de importação de atributo do cliente e, em seguida, assine seu (s) conjunto (s) de relatórios ao atributo do cliente conforme descrito nesta publicação [do blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Etapa 5: Criar um segmento que aproveita o novo atributo do cliente
 
 Depois que seu conjunto de dados tiver sido processado e integrado à Analysis Workspace, crie mais um segmento que aproveite a nova dimensão de atributo do cliente «Sinalizador de Bot»:
+
