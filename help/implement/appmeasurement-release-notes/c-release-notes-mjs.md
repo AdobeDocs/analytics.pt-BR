@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -24,6 +24,15 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Versões 2.17.0
+
+Data de lançamento: **23 de agosto de 201**
+
+| Recurso/Correção | Descrição |
+| -----------| ---------- |
+| Suporte adicionado Baidu | Suporte adicionado para reordenação da sequência de consulta Baidu. |
+| Correção | Correção de um problema que causava valores de visitante obsoletos nas ocorrências em fila ao aguardar a aceitação. |
 
 ## Versão 2.16.0
 
