@@ -3,7 +3,7 @@ title: Ajuda dos componentes do Analytics
 seo-title: Ajuda dos componentes do Analytics
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,18 +13,18 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![Banner](../../assets/doc_banner_components.png)
 
-Os componentes do Analytics ajudam você a ajustar e capacitar a análise de dados. Os componentes incluem:
+Os componentes do Analytics ajudam você a ajustar e potencializar a análise da jornada do cliente. Os componentes incluem:
 
-* **Segmentação:** Concentre-se em um subconjunto de seus dados.
-* **Métricas calculadas:** Use fórmulas simples para combinar métricas ou funções avançadas para análises estatísticas.
-* **Conjuntos de relatórios virtuais:** Crie um silo virtual de dados com base em um conjunto de relatórios. Permite a limpeza ou o segmento de dados para uma melhor experiência do usuário. Alguns recursos só podem ser usados em conjuntos de relatórios virtuais.
-* **Alertas:** Receba notificações sempre que os dados passarem acima ou abaixo de um limite.
-* **Classificações:** Reorganizar e agrupar dimensões para obter informações adicionais.
-* **Variáveis:** Um guia de referência para todas as dimensões e métricas disponíveis nos relatórios.
-* **Relatório em tempo real:** Obtenha relatórios e tendências no minuto que eles estão disponíveis.
-* **Canais de marketing:** Entenda como os visitantes chegam ao site e determinam quais canais são mais bem sucedidos.
+* **Segmentação:** concentre-se em um subconjunto de seus dados.
+* **Métricas calculadas:** use fórmulas simples para combinar métricas ou funções avançadas para análises estatísticas.
+* **Conjuntos de relatórios virtuais:** crie um silo virtual de dados com base em um conjunto de relatórios. Permite a limpeza ou a segmentação de dados para uma melhor experiência de usuário. Alguns recursos só podem ser usados em conjuntos de relatórios virtuais.
+* **Alertas:** receba notificações sempre que os dados excederem ou estiverem abaixo de um limite.
+* **Classificações:** reorganize e agrupe dimensões para obter informações adicionais.
+* **Variáveis:** um guia de referência para todas as dimensões e métricas disponíveis nos relatórios.
+* **Relatório em tempo real:** obtenha relatórios e tendências no minuto que estiverem disponíveis.
+* **Canais de marketing:** entenda como os visitantes chegam ao site e determinam quais canais são mais bem sucedidos.
 
-## Artigos principais de componentes do Analytics
+## Artigos principais dos componentes do Analytics
 
 * [Referência de dimensão](c-variables/dimensionslist/reports-descriptions.md)
 * [Referência de métricas](c-variables/c-metrics/metricslist.md)
@@ -33,9 +33,9 @@ Os componentes do Analytics ajudam você a ajustar e capacitar a análise de dad
 
 [Guias do usuário do Analytics](/help/landing/home.md)
 
-## Recursos principais do Analytics
+## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
+* [Fórum da comunidade do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=br#recommended/solutions/analytics)
