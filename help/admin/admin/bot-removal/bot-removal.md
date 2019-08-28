@@ -4,14 +4,14 @@ seo-title: Remoção de bot no Adobe Analytics
 description: 3 maneiras de remover bots no Adobe Analytics
 seo-description: 3 maneiras de remover bots no Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # Remoção de bot no Adobe Analytics
 
-No Adobe Analytics, há duas opções principais para remover o tráfego de robô do relatório:
+No Adobe Analytics, há várias opções para remover o tráfego de robô do relatório:
 
 1. O método de filtragem de bot padrão no Adobe Analytics é [criar regras](/help/admin/admin/bot-removal/bot-rules.md) de bot baseadas na lista de bots IAB. Essa lista é atualizada mensalmente e compila sua lista de muitas fontes, incluindo cdns e propriedades importantes da Internet. Inclui milhares de bots conhecidos incluindo todos os favoritos: Google, Bing, Mozilla etc. Essa lista aborda a maioria dos casos de uso e necessidades na incorporação de robô.
 
@@ -25,7 +25,7 @@ Para começar, você desejará criar uma nova ID declarada no serviço principal
 
 captura de tela aqui
 
-Aqui está uma captura de tela de como essa ID pode ser capturada por meio do Elemento de dados. Certifique-se de preencher corretamente sua ID da Adobe mcorg no Elemento de dados.
+Esta é a forma como essa ID pode ser capturada por meio do Elemento de dados. Certifique-se de preencher corretamente sua Adobe ecorg ID no Elemento de dados.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
