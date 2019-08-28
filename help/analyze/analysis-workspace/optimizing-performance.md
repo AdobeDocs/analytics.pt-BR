@@ -5,7 +5,7 @@ seo-title: Otimizar o desempenho da Analysis Workspace
 title: Otimizar o desempenho da Analysis Workspace
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
@@ -104,3 +104,6 @@ Você pode encontrar erros ao interagir com a Analysis Workspace. Podem ocorrer 
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Contribuidores para esse erro são solicitações de API, projetos agendados, relatórios programados, alertas programados e usuários simultâneos que fazem solicitações de relatório. Recomendamos que suas solicitações e agendamentos para o conjunto de relatórios sejam distribuídos de forma mais uniforme durante o dia. |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | A Adobe está passando por um problema que precisa ser resolvido. Recomendamos que você envie o código de erro por meio de uma solicitação de Atendimento ao cliente. |
 | `The request is too complex.` | Sua solicitação de relatório é grande demais e não pode ser executada. Os contribuidores para esse erro são tempos limite devido ao tamanho da solicitação, muitos itens correspondentes em um segmento ou filtro de pesquisa, muitas métricas incluídas, dimensões incompatíveis e combinações de métricas, etc. Recomendamos que você simplifique sua solicitação. |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Recomendamos limitar seus critérios de texto de pesquisa e testar a solicitação novamente. |
+| `This dimension does not currently support non-default attribution models.` | Recomendamos substituir a dimensão na tabela por um que é compatível com o IQ [da atribuição](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html). |
+| `Your request failed as a result of too many columns or pre-configured rows.` | Recomendamos remover algumas colunas ou linhas, ou considere dividi-las em visualizações separadas. |
