@@ -4,7 +4,7 @@ seo-title: Remoção de bot no Adobe Analytics
 description: 3 maneiras de remover bots no Adobe Analytics
 seo-description: 3 maneiras de remover bots no Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
+source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ---
 
@@ -13,13 +13,19 @@ source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 No Adobe Analytics, há várias opções para remover o tráfego de robô do relatório:
 
-1. O método de filtragem de bot padrão no Adobe Analytics é [criar regras](/help/admin/admin/bot-removal/bot-rules.md) de bot baseadas na lista de bots IAB. Essa lista é atualizada mensalmente e compila sua lista de muitas fontes, incluindo cdns e propriedades importantes da Internet. Inclui milhares de bots conhecidos incluindo todos os favoritos: Google, Bing, Mozilla etc. Essa lista aborda a maioria dos casos de uso e necessidades na incorporação de robô.
+## Usar regras do robô
 
-1. Use o plug-in de implementação [s. hitmanager](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html), que remove os visitantes que se comportam como bots enviando dezenas ou centenas de ocorrências por minuto.
+O método de filtragem de bot padrão no Adobe Analytics é [criar regras](/help/admin/admin/bot-removal/bot-rules.md) de bot baseadas na lista de bots IAB. Essa lista é atualizada mensalmente e compila sua lista de muitas fontes, incluindo cdns e propriedades importantes da Internet. Inclui milhares de bots conhecidos incluindo todos os favoritos: Google, Bing, Mozilla etc. Essa lista aborda a maioria dos casos de uso e necessidades na incorporação de robô.
 
-1. Além disso, como os bots avançam rapidamente, a Adobe oferece vários outros recursos poderosos que, quando combinados corretamente e regularmente, podem ajudar a promover a remoção desses inimigos da qualidade dos dados. Esses recursos são: Serviço da Experience Cloud ID, Segmentação, Data warehouse, Atributos do cliente e Conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode aproveitar essas ferramentas:
+## Usar o plug-in `hitGovernor` de implementação
 
-## Etapa 1: Enviar a Experience Cloud ID de seus visitantes para uma nova ID declarada
+Use o plug-in de implementação [s. hitmanager](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html), que remove os visitantes que se comportam como bots enviando dezenas ou centenas de ocorrências por minuto.
+
+## Usar uma combinação de ferramentas da Adobe
+
+Além disso, como os bots avançam rapidamente, a Adobe oferece vários outros recursos poderosos que, quando combinados corretamente e regularmente, podem ajudar a promover a remoção desses inimigos da qualidade dos dados. Esses recursos são: Serviço da Experience Cloud ID, Segmentação, Data warehouse, Atributos do cliente e Conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode aproveitar essas ferramentas.
+
+### Etapa 1: Enviar a Experience Cloud ID de seus visitantes para uma nova ID declarada
 
 Para começar, você desejará criar uma nova ID declarada no serviço principal [de públicos-alvo](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Você precisará passar a Experience Cloud ID do visitante para esta nova ID declarada, que pode ser feita de forma rápida e fácil com [o Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Vamos usar o nome «ECID» para a ID declarada.
 
@@ -31,21 +37,21 @@ Esta é a forma como essa ID pode ser capturada por meio do Elemento de dados. C
 
 Depois que este Elemento de dados estiver configurado, siga [estas instruções](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) para passar a ID declarada para a ferramenta ECID no Launch.
 
-## Etapa 2: Usar segmentação para identificar bots
+### Etapa 2: Usar segmentação para identificar bots
 
-Agora que o ECID do seu visitante foi passado para uma ID declarada, é hora de usar a segmentação na Analysis Workspace para identificar os visitantes que estão agindo como bots. Os bots geralmente são definidos pelo comportamento: visitas de acesso único, agentes incomuns do usuário, informações desconhecidas do dispositivo/navegador, sem referenciadores, novos visitantes, páginas iniciais incomuns etc. Use os poderes de detalhamentos e segmentação do Workspace para identificar os bots que foram filtrados por IAB e as regras do robô do conjunto de relatórios. Por exemplo, esta é uma captura de tela de um segmento que você pode usar:
+Agora que o ECID do seu visitante foi passado para uma ID declarada, você pode usar [a segmentação na Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) para identificar os visitantes que estão agindo como bots. Os bots geralmente são definidos pelo comportamento: visitas de acesso único, agentes incomuns do usuário, informações desconhecidas do dispositivo/navegador, sem referenciadores, novos visitantes, páginas iniciais incomuns etc. Use os poderes de detalhamento e segmentação do Workspace para identificar os bots que foram filtrados por IAB e as regras do robô do conjunto de relatórios. Por exemplo, esta é uma captura de tela de um segmento que você pode usar:
 
 ![](assets/bot-filter-seg1.png)
 
-## Etapa 3: Exportar todas as ecids do segmento via Data Warehouse
+### Etapa 3: Exportar todas as ecids do segmento via Data Warehouse
 
-Agora que você identificou os bots usando segmentos, a próxima etapa é aproveitar o Data Warehouse para extrair todas as IDs da Experience Cloud associadas a este segmento. É dessa forma que você deve configurar o [relatório do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) :
+Agora que você identificou os bots usando segmentos, a próxima etapa é aproveitar o Data Warehouse para extrair todas as IDs da Experience Cloud associadas a este segmento. É dessa forma que você deve configurar a [solicitação do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) :
 
 ![](assets/bot-dwh-3.png)
 
 Lembre-se de usar a ID de visitante da Experience Cloud como dimensão e aplicar o segmento Bots.
 
-## Etapa 4: Enviar esta lista de volta para a Adobe como um atributo do cliente
+### Etapa 4: Enviar esta lista de volta para a Adobe como um atributo do cliente
 
 Depois que o relatório Data Warehouse chegar, você terá uma lista de ecids que precisam ser filtradas de dados históricos. Copie e cole esses ecids em um arquivo. CSV em branco com apenas duas colunas, ECID e sinalizador de robô:
 
@@ -53,21 +59,21 @@ Depois que o relatório Data Warehouse chegar, você terá uma lista de ecids qu
 
 Verifique se o cabeçalho da primeira coluna corresponde ao nome atribuído à nova ID declarada acima. Use este arquivo. CSV como arquivo de importação de atributo do cliente e, em seguida, assine seu (s) conjunto (s) de relatórios ao atributo do cliente conforme descrito nesta publicação [do blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
-## Etapa 5: Criar um segmento que aproveita o novo atributo do cliente
+### Etapa 5: Criar um segmento que aproveita o novo atributo do cliente
 
 Depois que seu conjunto de dados tiver sido processado e integrado à Analysis Workspace, crie mais um segmento que aproveite a nova dimensão de atributo do cliente «Sinalizador de Bot»:
 
 ![](assets/bot-filter-seg2.png)
 
-## Etapa 6: Usar esse segmento como o filtro Conjunto de relatórios virtuais
+### Etapa 6: Usar esse segmento como o filtro Conjunto de relatórios virtuais
 
-Finalmente, você deve criar um Conjunto de relatórios virtuais que aproveita esse segmento para filtrar os bots identificados:
+Finalmente, você deve criar um [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md) que aproveita esse segmento para filtrar os bots identificados:
 
 ![](assets/bot-vrs.png)
 
-Esse conjunto de relatórios virtuais recém-segmentado agora resultará em um conjunto significativamente mais limpo de dados com os bots identificados completamente removidos.
+Esse conjunto de relatórios virtuais recém-segmentado agora resultará em um conjunto significativamente mais limpo de dados, com os bots identificados completamente removidos.
 
-## Etapa 7: Repita as etapas 2, 3 e 4 regularmente
+### Etapa 7: Repita as etapas 2, 3 e 4 regularmente
 
 Defina pelo menos um lembrete mensal para identificar e filtrar novos bots, talvez antes da análise regularmente programada.
 
