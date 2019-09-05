@@ -4,7 +4,7 @@ description: O plug-plugin de Tráfego interno identifica dinamicamente os visit
 seo-description: Plug-plugin de tráfego interno
 seo-title: Plug-plugin de tráfego interno
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ O plug-in tenta carregar um arquivo que só estaria disponível em sua rede inte
 1. Adicionar seu Pixel de intranet: Você pode adicionar qualquer tipo de arquivo na intranet que o plug-in tentaria acessar. Recomenda-se um pixel transparente de 1 x 1. Ela deve ser colocada em um local na intranet amplamente acessível em suas redes internas.
 1. Configurar uma evar: Uma evar precisará ser adicionada dentro do conjunto de relatórios de destino. Deve ter uma expiração de «Visita» e alocação de «Valor original (primeiro)».
 1. Defina o URL interno: Nas variáveis de configuração do appmeasurement e antes de doplugins ser instanciado, defina a variável interna de URL (s. inturl) para o pixel ou outro arquivo para a verificação de tráfego. Por exemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. Modifique doplugins e defina a evar: O plug-plugin pode ser inicializado, incluindo esta linha de código na seção doplugins do código da biblioteca do appmeasurement, usando a evar definida na etapa um: `s.eVarXX = s.intCheck();`
+O valor da variável será definido como «interno» ou «externo».
 1. Adicione o Código Fonte do plug-in: Inclua o código de plug-plugin abaixo da seção doplugins do arquivo appmeasurement.
 
 ## Código fonte do plug-in
 
 Adicione este código abaixo da seção doplugins da biblioteca do appmeasurement.
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## Outras observações
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* Sempre teste as instalações de plug-ins para garantir que a coleta de dados ocorra conforme esperado antes de implantá-los em um ambiente de produção.
+* Sua implementação pode estar usando um nome de objeto diferente do objeto padrão do Adobe Analytics ". Em caso afirmativo, atualize o nome do objeto de acordo.
+* Se você utilizar um Sistema de gerenciamento de tags, siga as etapas para atualizar doplugins e outros plug-plugins personalizados.
