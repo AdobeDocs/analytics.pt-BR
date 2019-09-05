@@ -5,7 +5,7 @@ seo-title: Namespaces
 title: Namespaces
 uuid: cab 61844-3209-4980-b 14 c -6859 de 777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ Cookie herdado de rastreamento do Analytics, também conhecido como a Adobe Anal
 
 O valor deve ser especificado como dois números hexadecimais separados por um traço. Todos os dígitos hexadecimais que são caracteres alfabéticos devem ser especificados usando letras maiúsculas. Os valores hexadecimais não devem ter zeros à esquerda (observe a diferença em relação ao mesmo valor especificado na forma obsoleta, onde zeros à esquerda eram obrigatórios).
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+Também é aceitável usar `“namespaceId”: 10` em vez de ou além de `“namespace”: “AAID”` e, além disso, você pode ver alguns outros produtos da Adobe que usam esse formulário.
 
 ## Cookie herdado de rastreamento do Analytics: forma obsoleta
 
@@ -66,7 +66,7 @@ O valor deve ser especificado como dois números hexadecimais de 16 dígitos ou 
 
 O valor deve ser especificado como um número decimal de 38 dígitos. Se você estiver puxando este número das duas colunas mcvisid\_ high/low ou post\_ msvisid\_ high/low a partir de um feed de dados ou relatório do Data Warehouse, você deve colocar um zero em 19 dígitos e concatená-los com o valor alto primeiro.
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+Também é aceitável usar: `“namespaceId”: 4` em vez de, ou além disso `“namespace”: “ECID”` , e você pode ver que alguns outros produtos da Adobe usam esse formulário.
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ O namespace também é predefinido para a ID de visitante personalizada.
 }
 ```
 
-Para IDs em variáveis de conversão ou de tráfego personalizadas (props ou eVars), é necessário rotular a variável com ID-DEVICE ou ID-PERSON e atribuir seu próprio nome de namespace a esse tipo de ID. Consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
+Para IDs em variáveis de tráfego ou conversão personalizadas (props ou evars), rotule a variável com um rótulo de ID ou ID-PESSOA e atribua seu próprio nome de namespace a esse tipo de ID. Consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON](gdpr-labels.md).
 
 Também é possível ver os namespaces definidos anteriormente para outras variáveis ou conjuntos de relatórios e reutilizá-los, para que um mesmo namespace possa ser facilmente usado em todos os conjuntos de relatórios que armazenam esse tipo de ID. Também é possível atribuir o mesmo namespace a várias variáveis em um conjunto de relatórios. Por exemplo, alguns clientes armazenam uma ID do CRM em uma variável de tráfego e em uma variável de conversão (dependendo da página, às vezes, somente em uma delas ou em ambas) e podem atribuir o namespace “ID do CRM” às duas variáveis.
 
->[!NOTE]
->
->Não é possível usar o nome amigável de uma variável (o nome exibido na interface do usuário do relatório) ou o número da variável (como evar 12) ao especificar o namespace para a API do RGPD, a menos que também seja o namespace especificado ao aplicar o rótulo ID-DEVICE ou ID-USER a essa variável. Nesses casos, usar um namespace, em vez de um nome amigável, permite que o mesmo bloco de identidade do usuário especifique a variável correta para vários conjuntos de relatórios:
+> [!TIP] Evite usar o nome amigável de uma variável (o nome exibido na interface do usuário do relatório) ou o número da variável (como evar 12) ao especificar o namespace para a API do RGPD, a menos que seja o namespace especificado ao aplicar o rótulo ID-DEVICE ou ID-USER. Usar um namespace em vez de um nome amigável permite que o mesmo bloco de identidade do usuário especifique a variável correta para vários conjuntos de relatórios. Por exemplo, se a ID estiver em diferentes evars em alguns conjuntos de relatórios, ou se os nomes amigáveis não corresponderem (como quando o nome amigável foi localizado para um conjunto de relatórios específico).
 
-* A ID está em diferentes eVars em alguns dos conjuntos de relatórios ou
-* Os nomes amigáveis não têm correspondência (por exemplo, quando o nome amigável foi localizado para um conjunto de relatórios específico)
+> [!CAUTION] Os namespaces "visitorid" e "customvisitorid" estão reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para variáveis de tráfego personalizadas ou de conversão.
 
 Para obter mais informações, consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
