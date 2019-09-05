@@ -5,7 +5,7 @@ seo-title: Rótulos do GDPR para variáveis do Analytics
 title: Rótulos do GDPR para variáveis do Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas 
 
 Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela eVar1 e outras pela prop7. Em seguida, você tem uma regra de processamento que copia o valor da eVar1, se existir, para a eVar3. Caso contrário, ela copia o valor da prop7 para a eVar3. Nesse cenário, a eVar3 sempre conterá a ID do CRM, se for conhecida. Portanto, somente a eVar3 exigirá um rótulo de ID-PERSON.
 
-> [!WARNING] Os namespaces "visitorid" e "customvisitorid" estão reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para variáveis de tráfego personalizadas ou de conversão.
+> [!CAUTION] Os namespaces "visitorid" e "customvisitorid" estão reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para variáveis de tráfego personalizadas ou de conversão.
 
 ## Tipos de variáveis e rótulos GDPR/DULE suportados por eles {#section_CE7C3EDE1344466A98BC45E394B40762}
 
