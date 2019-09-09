@@ -5,16 +5,12 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
 # hitGovernor
-
-O plug-in s.hitGovernor rastreia o número total de solicitações de imagem do Analytics enviadas durante um intervalo de tempo predefinido e pode executar lógica adicional, se necessário, caso esse total exceda um determinado limite.
-
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
 
 O plug-in s.hitGovernor rastreia o número total de solicitações de imagem do Analytics enviadas durante um intervalo de tempo predefinido e pode executar lógica adicional, se necessário, caso esse total exceda um determinado limite.
 
@@ -32,7 +28,7 @@ Se desejado, a partir desse ponto, o tráfego pode ser impedido de ser coletado 
 
 Nenhuma variável ou evento padrão precisa ser definido. No entanto, recomendamos que você configure a lógica das regras de processamento para definir variáveis e eventos de acordo. Essas variáveis e eventos personalizados podem incluir:
 
-* [!DNL Experience Cloud] ID de visitante
+* [!DNL Experience Cloud] Visitor ID
 * Endereço IP
 * Agente do usuário
 * Evento de exceção sinalizado
