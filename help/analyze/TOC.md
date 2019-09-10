@@ -3,8 +3,8 @@ product: analytics
 audience: usuário final
 user-guide-title: Guia de análise do Analytics
 user-guide-url: /content/help/pt-BR/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+translation-type: tm+mt
+source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
 
@@ -326,6 +326,8 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
    + [Hora](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
++ Aplicativos da Web progressivos {#pwa}
+   + [Aplicativos da Web progressivos](pwa/pwa.md)
 + API em relatórios do Analytics {#analytics-reporting-api}
    + [Visão geral da Comparação de APIs em relatórios do Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparação de APIs em relatórios do Analytics](c-reporting-api/api-comparison.md)
