@@ -4,7 +4,7 @@ seo-title: Totais de métricas calculadas
 description: Saiba como os totais das métricas calculadas diferem nas ferramentas do Analytics
 seo-description: Como os totais das métricas calculadas são calculados
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
@@ -28,13 +28,14 @@ Como não há um método lógico e concreto para determinar se uma métrica calc
 
 * Crie uma métrica calculada que inclua as versões totais das métricas que você deseja incluir.
 * Crie um relatório de Extração de dados, que pode ser agendado.
-* Crie uma solicitação de dados no reportbuilder.
-* Use a Analysis Workspace (veja abaixo).
+* Create a data request within [!DNL ReportBuilder].
+* Use [!DNL Analysis Workspace] (veja abaixo).
 
 ## Total de métricas calculadas em [!DNL Analysis Workspace]
 
-Na Analysis Workspace, em determinadas circunstâncias, as métricas calculadas são somadas para exibir um total:
+Quando você exibe dados na Analysis Workspace, os totais da métrica calculada são exibidos na maioria dos casos. Em alguns casos, não é possível fornecer um total, como quando as linhas do relatório são de formato misto (por exemplo, decimal e moeda).
 
-* Quando há linhas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) nas tabelas de forma livre e *[!UICONTROL Calcular os totais, resumindo os valores atualmente em cada opção de coluna]* (padrão) é selecionada.
-* Na visualização [de Rosca](/help/analyze/analysis-workspace/visualizations/donut.md).
-* Na visualização Alteração [de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
+Quando os totais são exibidos, geralmente são calculados no lado do servidor, o que significa que o total de métricas duplicadas como visitas ou visitantes. Em determinadas circunstâncias, as métricas calculadas são geradas pelo lado do cliente resumindo entre linhas da tabela, o que significa que o total não remove métricas como visitas ou visitantes. Isso ocorre:
+
+* Quando [linhas estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) são usadas em tabelas de forma livre e **[!UICONTROL a opção Mostrar como soma das linhas]** atuais (padrão) é selecionada.
+* Na visualização [de Rosca](/help/analyze/analysis-workspace/visualizations/donut.md), para que os números sejam adicionados a 100%.
