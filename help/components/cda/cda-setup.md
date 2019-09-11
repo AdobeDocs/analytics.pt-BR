@@ -2,16 +2,18 @@
 title: Configuração do análise entre dispositivos
 description: Saiba como configurar Análises entre dispositivos depois de atender aos pré-requisitos.
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Configuração do análise entre dispositivos
 
-> [!IMPORTANT] Todos os pré-requisitos devem ser cumpridos antes de seguir essas etapas. Se todos os pré-requisitos não forem cumpridos, o recurso não estará disponível ou não funcionará. Consulte [Análise entre dispositivos](cda-home.md) para pré-requisitos e limitações.
+> [!NOTE] A documentação do Análise entre dispositivos está sujeita a alterações à medida que o recurso é desenvolvido. Consulte regularmente para atualizações.
 
 Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas para ativar a Análise entre dispositivos. Você deve pertencer a um grupo de Administrador de perfil de produto ou ter privilégios de administrador no Adobe Analytics para seguir essas etapas.
+
+> [!IMPORTANT] Todos os pré-requisitos devem ser cumpridos antes de seguir essas etapas. Se todos os pré-requisitos não forem cumpridos, o recurso não estará disponível ou não funcionará. Consulte [Análise entre dispositivos](cda-home.md) para pré-requisitos e limitações.
 
 ## Escolha o conjunto de relatórios entre dispositivos que será habilitado para CDA
 
