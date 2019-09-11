@@ -5,7 +5,7 @@ seo-title: Compatibilidade de métrica
 title: Compatibilidade de métrica
 uuid: f 2706 e 2 b-c 0 cc -4 af 2-bcb 4-1318796 e 9845
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
 
 ---
 
@@ -26,7 +26,7 @@ Ao criar métricas calculadas ou avançadas no Criador de métricas calculadas, 
  <tbody> 
   <tr> 
    <td colname="col1"> Dados atuais </td> 
-   <td colname="col2"> <p>A opção Incluir dados atuais em [! O DNL Analytics permite exibir as mais recentes [! Dados do DNL Analytics, geralmente antes dos dados serem totalmente processados e finalizados.  Os <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">dados atuais</a> exibem a maioria das métricas comuns em minutos, fornecendo dados acionáveis para proporcionar uma tomada de decisão rápida. </p> <p>Os Dados atuais suportam apenas métricas calculadas (que incluem multiplicação, divisão, adição e subtração). Os Dados atuais não suportam métricas calculadas avançadas (que contêm segmentos ou funções). </p> </td> 
+   <td colname="col2"> <p>A opção Incluir dados atuais no Analytics permite exibir os dados mais recentes do Analytics, geralmente antes que sejam totalmente processados e finalizados.  Os <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">dados atuais</a> exibem a maioria das métricas comuns em minutos, fornecendo dados acionáveis para proporcionar uma tomada de decisão rápida. </p> <p>Os Dados atuais suportam apenas métricas calculadas (que incluem multiplicação, divisão, adição e subtração). Os Dados atuais não suportam métricas calculadas avançadas (que contêm segmentos ou funções). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dados totalmente processados </td> 
