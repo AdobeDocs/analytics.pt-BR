@@ -2,12 +2,14 @@
 title: Perguntas frequentes sobre o análise entre dispositivos
 description: Perguntas frequentes sobre a Análise entre dispositivos
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Perguntas frequentes
+
+> [!NOTE] A documentação do Análise entre dispositivos está sujeita a alterações à medida que o recurso é desenvolvido. Consulte regularmente para atualizações.
 
 **Como posso usar o CDA para ver como as pessoas se movimentam de um tipo de dispositivo para outro?**
 
