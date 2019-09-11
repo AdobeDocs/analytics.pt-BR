@@ -2,19 +2,21 @@
 title: Análise entre dispositivos
 description: O Analytics de dispositivos cruzados altera seus dados de estar centrado no dispositivo para focalizar os dados do dispositivo em conjunto.
 translation-type: tm+mt
-source-git-commit: 47cde7b12b78e9394aac531d068634688c635ec1
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Análise entre dispositivos
 
-O Analytics entre dispositivos é um recurso que transforma o Analytics de uma exibição centrada no dispositivo para uma visualização centrada em dispositivo. Esse recurso usa o Gráfico de identidade do Adobe Experience Platform Identity Service Co-op ou o Gráfico privado para identificar quais dispositivos pertencem a indivíduos e agrupam eles juntos. Como resultado, os analistas podem entender o comportamento do usuário que cruza navegadores, dispositivos ou aplicativos. Usando a CDA, você pode responder perguntas como:
+> [!NOTE] A documentação do Análise entre dispositivos está sujeita a alterações à medida que o recurso é desenvolvido. Consulte regularmente para atualizações.
 
-* Quantas pessoas interagem com minha marca? Quantos tipos de dispositivos eles usam? Como eles se sobrepõem?
-* Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois se movem para um PC de desktop para concluir a tarefa? Os click-throughs da campanha que chegam em um dispositivo levam a conversão em outro lugar?
-* Qual é a minha compreensão da eficácia da campanha se eu levar em conta os trajetos entre dispositivos? Como a minha análise de funil muda?
-* Quais são os caminhos mais comuns que os usuários levam de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?
+O Analytics entre dispositivos é um recurso que transforma o Analytics de uma exibição centrada no dispositivo para uma visualização centrada em dispositivo. Esse recurso usa o Gráfico de identidade do Adobe Experience Platform Identity Service Co-op ou o Gráfico privado para identificar quais dispositivos pertencem a indivíduos e agrupam eles juntos. Como resultado, os analistas podem entender o comportamento do usuário que cruza navegadores, dispositivos ou aplicativos. Usando a CDA, você pode responder a perguntas como:
+
+* Quantas pessoas interagem com minha marca? Quantos e quais tipos de dispositivos eles usam? Como eles se sobrepõem?
+* Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois movem para um PC de desktop para concluí-la? Os click-throughs da campanha direcionados a um dispositivo levam para a conversão em outro lugar?
+* O quanto muda minha compreensão da eficácia da campanha se eu levar em conta as jornadas entre dispositivos? Como a minha análise de funil muda?
+* Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?
 * Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?
 
 Quando os dispositivos são empilhados, a persistência da variável é transmitida em todos os dispositivos. Por exemplo, um usuário visita site pela primeira vez através de um anúncio em seu computador desktop. Esse usuário encontra seu aplicativo móvel, o instala e, eventualmente, efetua uma compra em seu dispositivo móvel. Com o Analytics entre dispositivos, a receita pode ser atribuída ao anúncio que ele clicou em seu computador desktop.
