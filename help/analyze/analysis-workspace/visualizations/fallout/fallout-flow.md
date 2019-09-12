@@ -5,7 +5,7 @@ seo-title: Visão geral de fallout
 title: Visão geral de fallout
 uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
@@ -44,7 +44,7 @@ Veja um exemplo de fallout de duas etapas:
 
 Se você aplicar um segmento no nível do painel da Workspace, o segmento é combinado ao fallout da seguinte forma:
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 Por contraste, quando o Reports &amp; Analytics e a Ad Hoc Analysis calculam o segmento, ele é combinado da seguinte forma:
 
