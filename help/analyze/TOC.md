@@ -3,7 +3,7 @@ product: analytics
 audience: usuário final
 user-guide-title: Guia de análise do Analytics
 user-guide-url: /content/help/pt-BR/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
