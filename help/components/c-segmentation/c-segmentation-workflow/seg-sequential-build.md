@@ -7,7 +7,7 @@ title: Construir segmentos sequenciais
 topic: Segmentos
 uuid: 7 fb 9 f 1 c 7-a 738-416 a-aaa 2-d 77 e 40 fa 7 e 61
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
@@ -28,7 +28,7 @@ Ao criar o segmento usando a definição “Incluir todos”, o segmento identif
 
 | Se resultado… | Sequência |
 |--- |--- |
-| Corresponde | A then B<br>A then (in a different visit) B<br>A then D then B |
+| Corresponde | A depois BA<br>(em uma visita diferente) BA<br>depois D depois B |
 | Não corresponde | B depois A |
 
 ## Apenas antes da sequência ou apenas após a sequência {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -73,7 +73,7 @@ Definir uma cláusula “dentro da dimensão” entre regras permite que o segme
 | Se resultado… | Sequência |
 |--- |--- |
 | Corresponde | A depois B |
-| Não corresponde | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| Não corresponde | A depois C depois B (porque B não estava dentro de uma página de A)<br>**Observação:** Se a restrição de dimensão for removida, "A depois B" e "A depois C depois B" corresponderão. |
 
 ## Sequência de exibição de página simples
 
@@ -157,7 +157,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 ![](assets/aggregate_checkpoints2.png)
 
-## "Aninhamento" nos segmentos sequenciais
+## " Aninhamento "nos segmentos sequenciais
 
 Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e [!UICONTROL Ocorrência], é possível restringir o segmento para que atenda aos requisitos em uma visita específica, bem como em uma ocorrência específica.
 
@@ -185,7 +185,7 @@ Por exemplo:
 
 O operador [!UICONTROL Excluir] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um [Grupo lógico](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## Excluir entre pontos de verificação
+### Excluir entre pontos de verificação
 
 Assegure lógica aos visitantes do segmento em que um ponto de verificação não tenha ocorrido explicitamente entre dois outros pontos de verificação.
 
@@ -204,7 +204,7 @@ Crie um segmento como você faria para um  segmento sequencial simples, de níve
 
 ![](assets/exclude_between_checkpoints.png)
 
-## Excluir no início da sequência
+### Excluir no início da sequência
 
 Se o ponto de verificação excluído estiver no início de um segmento sequencial, isso assegura que uma exibição de página excluída não ocorreu antes da primeira ocorrência não excluída.
 
@@ -223,7 +223,7 @@ Crie dois contêineres de Ocorrência separados em um contêiner de Visitante de
 
 ![](assets/exclude_beginning_sequence.png)
 
-## Excluir no final da sequência
+### Excluir no final da sequência
 
 Se o ponto de verificação excluído estiver no final de uma sequência, isso garante que o ponto de verificação não ocorreu a partir do último ponto de verificação não excluído até o final da sequência do visitante.
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Contêineres do Grupo lógico
 
-Na segmentação sequencial, é necessário que os contêineres sejam ordenados rigorosamente dentro da [hierarquia do contêiner](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). O contêiner do [!UICONTROL Grupo lógico] foi designado para ser usado quando os contêineres de nível superior são necessários em segmentos sequenciais para filtrar ainda mais os visitantes e fornecer restrições complexas, aninhadas e no nível do visitante para refinar o segmento.
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). O contêiner [!UICONTROL do Grupo] lógico foi projetado para tratar *vários pontos de verificação como um grupo*, *sem nenhuma ordem* entre os pontos de verificação agrupados. Em outras palavras, não se importa a ordem dos pontos de verificação dentro desse grupo. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | Hierarquia do contêiner padrão |
 |---|
@@ -253,16 +253,14 @@ Na segmentação sequencial, é necessário que os contêineres sejam ordenados 
 
 >[!NOTE]
 >
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
-
-Um contêiner do [!UICONTROL Grupo lógico] trata vários pontos de verificação como um grupo sem ordem. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. Mas, em vez disso, você pode aninhar um contêiner do [!UICONTROL Grupo lógico] em um contêiner de [!UICONTROL Visitante] com pontos de verificação de nível de [!UICONTROL Visita] e [!UICONTROL Ocorrência].
+>Um [!UICONTROL Grupo lógico] só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL ENTÃO] é usado na expressão.
 
 | Hierarquia não padrão do contêiner lógico |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
 | A hierarquia do contêiner padrão também é necessária fora do contêiner do [!UICONTROL Grupo lógico]. Mas dentro do contêiner do [!UICONTROL Grupo lógico], os pontos de verificação não requerem uma ordem estabelecida nem uma hierarquia. Esses pontos de verificação precisam simplesmente ser cumpridos pelo visitante em qualquer ordem. |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
 Assim como outros contêineres, os contêineres do [!UICONTROL Grupo lógico] podem ser construídos de  várias maneiras no [!UICONTROL Construtor de segmentos]. Veja a seguir uma forma preferida de aninhar contêineres do [!UICONTROL Grupo lógico]:
 
@@ -273,7 +271,7 @@ Assim como outros contêineres, os contêineres do [!UICONTROL Grupo lógico] po
 1. Clique no ícone do contêiner e selecione **[!UICONTROL Grupo lógico]**.  ![](assets/logic_group_checkpoints.png)
 1. Agora, você pode definir a [!UICONTROL Ocorrência] no contêiner do [!UICONTROL Grupo lógico] independentemente da hierarquia.
 
-## Pontos de verificação do Grupo lógico em qualquer ordem
+### Pontos de verificação do Grupo lógico em qualquer ordem
 
 Usar o [!UICONTROL Grupo lógico] permite satisfazer as condições nesse grupo que está fora da sequência. Isso permite construir segmentos em que há um contêiner de [!UICONTROL Visita] ou de [!UICONTROL Ocorrência] independentemente da hierarquia normal.****
 
@@ -285,7 +283,7 @@ As páginas B e C são aninhadas em um contêiner de [!UICONTROL Grupo lógico] 
 
 ![](assets/logic_group_any_order2.png)
 
-## Primeira correspondência do Grupo lógico
+### Primeira correspondência do Grupo lógico
 
 Usar o [!UICONTROL Grupo lógico] permite satisfazer as condições nesse grupo que está fora da sequência. Neste segmento de primeira correspondência não ordenado, as regras do [!UICONTROL Grupo lógico] são identificadas primeiro para serem uma exibição de página da página B ou da página C, depois a visualização necessária da página A.
 
@@ -297,7 +295,7 @@ As dimensões das páginas B e C são agrupadas em um contêiner do [!UICONTROL 
 
 ![](assets/logic_group_1st_match.png)
 
-## Excluir E do Grupo lógico
+### Excluir E do Grupo lógico
 
 Construa segmentos usando o [!UICONTROL Grupo lógico] em que várias exibições de página são agregadas para definir que páginas precisaram ser acessadas, ao passo que outras foram evitadas especificamente. ****
 
@@ -311,7 +309,7 @@ Depois de aninhar os valores com o [!UICONTROL Grupo lógico], clique no botão 
 
 ![](assets/logic_exclude_and.png)
 
-## Excluir OU do Grupo lógico
+### Excluir OU do Grupo lógico
 
 Construa segmentos usando o [!UICONTROL Grupo lógico] em que várias exibições de página são agregadas para definir que páginas precisaram ser acessadas, ao passo que outras foram evitadas especificamente.
 
@@ -335,7 +333,7 @@ Use os operadores [!UICONTROL Dentro] e [!UICONTROL Depois] integrados no cabeç
 
 É possível limitar a correspondência para uma duração de tempo específica por meio dos contêineres [!UICONTROL Dentro] e [!UICONTROL Depois] e especificando uma granularidade e contagem. O operador [!UICONTROL Dentro] é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. O operador [!UICONTROL Depois] é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação.
 
-## Operadores Depois e Dentro {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Operadores Depois e Dentro {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 A duração é especificada por uma única letra maiúscula representando a granularidade seguida por um número representando a contagem de repetição da granularidade.
 
@@ -349,7 +347,7 @@ A duração é especificada por uma única letra maiúscula representando a gran
 | WITHIN | O operador Dentro é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. Por exemplo, se o operador Dentro estiver definido em um contêiner para identificar os visitantes que visitam a página A e depois retornarem a página B dentro de um dia, esse dia começará quando o visitante sair da página A. Para ser incluído no segmento, o visitante terá um tempo máximo de um dia antes de abrir a página B. Para que o visitante seja incluído no segmento, a visita à página B deve ocorrer dentro de um máximo de 1440 minutos (um dia) após sair da página A para visualizar a página B. |
 | DEPOIS/DENTRO | Ao usar ambos os operadores Depois e Dentro, é importante compreender que ambos os operadores começarão e terminarão simultaneamente, não em sequência.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. As duas condições são aplicadas a partir da primeira ocorrência da página. |
 
-## Use o operador Depois
+### Use o operador Depois
 
 * A definição de tempo Depois permite rastrear por ano, mês, dia, hora e minuto para corresponder às visitas.
 * A definição de tempo Depois pode ser aplicada somente a um contêiner de [!UICONTROL Ocorrência], visto que essa granularidade fina é definida somente nesse nível.
@@ -371,7 +369,7 @@ Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° d
 | Ocorrência **A**: 1 de junho de 2019 00:01 | **Ocorrência B**: 15 de junho de 2019 00:01 | **Corresponde:** Essa restrição de tempo corresponde porque é Após 1 ° de junho de 2019 (duas semanas). |
 | Ocorrência **A**: 1 de junho de 2019 00:01 | **** Ocorrência B: Ocorrência de june de junho de 2019: hit de junho de:0:0: 15 de junho de 25 19 00001 | **Não corresponde:** A primeira ocorrência na página B não corresponde porque está em conflito com a restrição que exigia a ocorrência após duas semanas. |
 
-## Use o operador Dentro
+### Use o operador Dentro
 
 * [!UICONTROL Dentro] permite rastrear por ano, mês, dia, hora e minuto para corresponder visitas.
 * [!UICONTROL Dentro] pode ser aplicado somente a um contêiner de [!UICONTROL Ocorrência], visto que essa granularidade fina é definida somente nesse nível.
@@ -392,7 +390,7 @@ Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° d
 
 As correspondências devem ocorrer dentro do limite de tempo. Para a expressão, se um visitante faz a ocorrência da página A às 00:01, uma ocorrência a seguir à página B corresponderá contanto que ocorra em ou antes de 00:06 (cinco minutos depois, incluindo o mesmo minuto). As ocorrências dentro do mesmo minuto também corresponderão.
 
-## Os operadores Dentro e Depois
+### Os operadores Dentro e Depois
 
 Use o [!UICONTROL Dentro] e o [!UICONTROL Depois] para fornecer um terminal mínimo e máximo em ambas as extremidades de um segmento.
 
