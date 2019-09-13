@@ -157,7 +157,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 ![](assets/aggregate_checkpoints2.png)
 
-## " Aninhamento "nos segmentos sequenciais
+## "Aninhamento" nos segmentos sequenciais
 
 Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e [!UICONTROL Ocorrência], é possível restringir o segmento para que atenda aos requisitos em uma visita específica, bem como em uma ocorrência específica.
 
