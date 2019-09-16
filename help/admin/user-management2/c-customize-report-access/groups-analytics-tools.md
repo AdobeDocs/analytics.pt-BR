@@ -9,7 +9,7 @@ title: Personalizar permissões de ferramentas do Analytics
 topic: Ferramentas administrativas
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 5a6016fa1c79bd7ae858537b0073dbd27ce3c862
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -33,8 +33,6 @@ Habilite permissões do usuário para obter integração a itens Gerais (faturas
 ![](assets/report-access-analytics-tools.png)
 
 Clique em **[!UICONTROL Personalizar]para selecionar itens aos quais este grupo terá acesso.**
-
-![](assets/customize-analytics-tools.png)
 
 ## Descrições de campo
 
