@@ -5,9 +5,9 @@ seo-title: Excluir por endereço IP
 solution: Analytics
 title: Excluir por endereço IP
 topic: Ferramentas administrativas
-uuid: 1 ed 6105 f-e 7 c 5-4 c 4 f-b 8 f 4-e 5 f 66 d 0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>As ocorrências excluídas pelo endereço IP são faturadas como chamadas [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)do servidor.
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ Esse recurso permite que você e seus colegas visitem seu site sem distorcer seu
 
 >[!NOTE]
 >
->A exclusão por computador funciona somente se:
+>A exclusão por computador só funciona se:
 >
 >* Você acessar seu site da mesma estação de trabalho.
 >* Seus cookies estiverem ativados no navegador que estiver utilizando.
