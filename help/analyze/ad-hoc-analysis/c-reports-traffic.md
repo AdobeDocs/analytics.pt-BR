@@ -5,9 +5,9 @@ seo-title: Relatórios de fontes de tráfego
 solution: Analytics
 title: Relatórios de fontes de tráfego
 topic: Ad Hoc Analysis
-uuid: 246 afbdc -9 f 7 b -4956-a 44 a-b 7 aad 948 f 392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Os relatórios de fontes de tráfego fornecem um insight detalhado sobre como os visitantes interagem com o site da Web.
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## Relatórios de fontes de tráfego {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 Os relatórios de fontes de tráfego fornecem um insight detalhado sobre como os visitantes interagem com o site da Web.
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Todas]**: mostra o detalhamento de cada palavra-chave de pesquisa usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Pagas]**: mostra o detalhamento de cada palavra-chave de pesquisa paga usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Naturais]**: mostra o detalhamento de cada palavra-chave de pesquisa usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
 ## Mecanismos de pesquisa {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Todos]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Pagos]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Naturais]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
 ## Domínios de referência {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
 **No seu site**: Estes itens são URLs marcadas pelos filtros internos do URL. Esses itens não são contados como   mas podem ser visualizados quando relatados em outras métricas.
 
-** Nenhum Java Script**: Não havia javascript para que o tipo não fosse identificado (desconhecido). Isso significa que não haviam informações do referenciador fornecidas por um cliente em um navegador, o qual não informa ser compatível com JavaScript. Isso não é contado como "instâncias do referenciador", mas pode ser visualizado quando relatado em outras medidas.
+** Sem Java Script**: Não havia JavaScript, portanto, o tipo não era identificável (desconhecido). Isso significa que não haviam informações do referenciador fornecidas por um cliente em um navegador, o qual não informa ser compatível com JavaScript. Isso não é contado como "instâncias do referenciador", mas pode ser visualizado quando relatado em outras medidas.
 
-**USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com [!DNL news://]. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
+**USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com `news://`. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
 
 >[!NOTE]
 >
