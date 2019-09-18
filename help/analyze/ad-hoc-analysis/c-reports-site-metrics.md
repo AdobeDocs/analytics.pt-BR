@@ -5,9 +5,9 @@ seo-title: Relatórios de métricas do site
 solution: Analytics
 title: Relatórios de métricas do site
 topic: Ad Hoc Analysis
-uuid: 0730747 a -216 f -4 a 58-b 62 b-a 9812968 cde 5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Relatórios de métricas do site {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
@@ -92,7 +92,7 @@ Use esse relatório para:
 
 ## Relatório de compras {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Exibe dados de resumo da receita, dos pedidos e das unidades. You can also view the [!DNL Purchase Conversion Funnel] report.
+Exibe dados de resumo da receita, dos pedidos e das unidades. Você também pode exibir o [!DNL Purchase Conversion Funnel] relatório.
 
 <!-- 
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. Nesses relatórios, é possível decompor canais e mostrar os detalhes de cada um. Se o AdLens estiver ativado, você verá classificações em seus relatórios de canal de relatórios e análises de marketing.
+**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe as métricas que mostram dados sobre um canal específico de primeiro ou de último contato. Nesses relatórios, é possível decompor canais e mostrar os detalhes de cada um. Se o AdLens estiver ativado, você verá classificações em seus relatórios de canal de relatórios e análises de marketing.
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
+**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe detalhes como nomes de páginas e referenciadores, que são coletados dos valores do canal que você configurou na opção "[!UICONTROL Definir o valor do canal para]" ao configurar as regras. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
 
 Para obter informações mais detalhadas sobre a configuração de canais de marketing em relatórios e análises de marketing, consulte o sistema de [Ajuda de canais de marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
