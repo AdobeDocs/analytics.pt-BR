@@ -6,9 +6,9 @@ seo-title: Visão geral de curadoria/compartilhamento
 solution: Analytics
 title: Visão geral de curadoria/compartilhamento
 topic: Reports and Analytics
-uuid: 267 e 9678-95 a 1-4195-8 ba 4-e 8 a 53 c 28 ea 0 d
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -27,16 +27,16 @@ A preparação permite limitar os componentes antes de compartilhar um projeto. 
 
 1. Especifique a permissão para criar e preparar os projetos.
 
-   Antes de criar ou preparar um projeto da Analysis Workspace, os administradores devem adicionar você a um [grupo](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) com a permissão ativada para **[!UICONTROL Criar/preparar projetos na Analysis Workspace]** ou ao grupo de usuários **Acesso a todos os relatórios[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Crie e salve](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) um projeto e clique **[!UICONTROL em Compartilhar]** &gt; **[!UICONTROL Preparar dados do projeto]**.
+1. [Crie e salve](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) um projeto, em seguida, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados]** do projeto.
 1. Arraste os componentes que você deseja compartilhar da pilha de componentes arrastáveis à esquerda do campo **[!UICONTROL Componentes preparados].**
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >Não é necessário preparar componentes para compartilhar um projeto. Você pode compartilhar um projeto com todos os componentes padrão disponíveis ou com os componentes selecionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Depois de preparar os componentes em um projeto, os outros componentes não estarão mais disponíveis para esse projeto.
+   >A preparação de componentes não é necessária para compartilhar um projeto. Você pode compartilhar um projeto com todos os componentes padrão disponíveis ou com os componentes selecionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Depois de preparar os componentes em um projeto, os outros componentes não estarão mais disponíveis para esse projeto.
 
 1. Clique em **[!UICONTROL Concluído]**.
 
@@ -55,13 +55,13 @@ O compartilhamento disponibiliza esse projeto para outros usuários da Analysis 
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação única no momento do compartilhamento.
+   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
 
 1. Opcionalmente, é possível definir essa página como a página inicial para os destinatários.
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação única no momento do compartilhamento.
+   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
 
 1. Clique em **[!UICONTROL Compartilhar]**.
 
