@@ -4,10 +4,10 @@ seo-description: Mostra o número de visitantes únicos que acessaram site. Cada
 seo-title: Visitantes únicos
 solution: Analytics
 title: Visitantes únicos
-topic: 'Relatórios  '
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+topic: Relatórios
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -129,7 +129,7 @@ Além disso, cada data recebe crédito por ter esse visitante naquela data.
  </tbody> 
 </table>
 
-** [!UICONTROL Relatório de Visitantes únicos] dividido por *`Page`*.**
+**[!UICONTROL Relatório de Visitantes únicos]dividido por *`Page`*.**
 
 Você pode selecionar uma página para o [!UICONTROL Relatório de Visitantes únicos]. No relatório a seguir, o visitante visita a página A nessas datas:
 
@@ -420,7 +420,7 @@ Uma métrica de Visitantes únicos por dia em um [!UICONTROL Relatório de Pági
  </tbody> 
 </table>
 
-Para dividir um atributo por outro (como *`page`* por *`eVar`*), o Analytics aloca um Visitante único baseado em período para cada instância única do período e da página (ou o atributo sendo correlacionado).
+Para dividir um atributo por outro (como *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 Se você dividir a Página A por eVars T, U, o dia 2 de janeiro será excluído, pois a página A foi visualizada no dia 1 de janeiro. Os resultados a seguir mostrariam os Visitantes únicos semanais:
 
