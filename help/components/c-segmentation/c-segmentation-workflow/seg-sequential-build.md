@@ -7,7 +7,7 @@ title: Construir segmentos sequenciais
 topic: Segmentos
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Contêineres do Grupo lógico
 
-Os contêineres do Grupo lógico são necessários para agrupar as condições em um único ponto de verificação de segmento sequencial. Os contêineres não sequenciais (ocorrência, visita, visitante) não exigem que suas condições sejam atendidas na sequência geral, produzindo resultados não intuitivos se usados ao lado de um operador ENTÃO. O contêiner especial do Grupo lógico está disponível somente na segmentação sequencial, para garantir que suas condições sejam atendidas após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial seguinte. As condições no próprio ponto de verificação do Grupo lógico podem ser cumpridas em qualquer ordem.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Por outro lado, o contêiner do Grupo  lógico foi projetado para tratar *vários pontos de verificação como um grupo*, *sem qualquer ordem* entre os pontos de verificação agrupados. Em outras palavras, não nos importamos com a ordem dos pontos de controle dentro desse grupo. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Os contêineres do Grupo lógico são necessários para agrupar as condições em um único ponto de verificação de segmento sequencial. O contêiner especial do Grupo lógico está disponível somente na segmentação sequencial, para garantir que suas condições sejam atendidas após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial seguinte. As condições no próprio ponto de verificação do Grupo lógico podem ser cumpridas em qualquer ordem. Por outro lado, os contêineres não sequenciais (ocorrência, visita, visitante) não exigem que suas condições sejam atendidas na sequência geral, produzindo resultados inintuitivos se usados com um operador ENTÃO.
+O contêiner do Grupo  lógico foi projetado para tratar *vários pontos de verificação como um grupo*, *sem qualquer ordem* entre os pontos de verificação agrupados. Em outras palavras, não nos importamos com a ordem dos pontos de controle dentro desse grupo. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,20 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | Hierarquia do contêiner padrão | ![](assets/nesting_container.png) | No contêiner [!UICONTROL Visitante], os contêineres [!UICONTROL Visita] e [!UICONTROL Ocorrência] são aninhados em sequência para extrair os segmentos com base nas ocorrências, no número de visitas e no visitante. |
 | Hierarquia do contêiner lógico | ![](assets/logic_group_hierarchy.png) | A hierarquia do contêiner padrão também é necessária fora do contêiner do [!UICONTROL Grupo lógico]. Mas dentro do contêiner do [!UICONTROL Grupo lógico], os pontos de verificação não requerem uma ordem estabelecida nem uma hierarquia. Esses pontos de verificação precisam simplesmente ser cumpridos pelo visitante em qualquer ordem. |
+
+Os grupos lógicos podem parecer intimidantes - veja algumas práticas recomendadas sobre como usá-los:
+
+**Grupo lógico ou contêiner de Ocorrência/Visita?**
+Se você quiser agrupar pontos de verificação sequenciais, seu "contêiner" será Grupo lógico. No entanto, se esses pontos de verificação sequenciais precisarem ocorrer em um único escopo de ocorrência ou visita, um contêiner de "ocorrência" ou "visita" será necessário. (É claro, "ocorrência" não faz sentido para um grupo de pontos de verificação sequenciais, quando uma ocorrência não pode creditar mais de um ponto de verificação).
+
+**Os grupos lógicos simplificam a criação de segmentos sequenciais?**
+Sim, eles podem. Suponhamos que você esteja tentando responder esta pergunta: Um visitante viu as páginas B, C ou D após a página A? Você pode criar esse segmento sem um contêiner do Grupo lógico, mas ele é complexo e trabalhoso:
+Página A [do contêiner do visitante ENTÃO Página B ENTÃO Página C ENTÃO Página D] ou [Página A do contêiner do visitante ENTÃO Página B ENTÃO Página D ENTÃO Página C] ou Página A do contêiner do visitante [Página A ENTÃO Página C ENTÃO Página B ENTÃO Página D] ou Contêiner do visitante [Página A ENTÃO Página C ENTÃO Página D] ou Contêiner do visitante [Página A ENTÃO Página D ENTÃO Página B ENTÃO Página C] [ou Contêiner de Visitante  A ENTÃO Página D ENTÃO Página C ENTÃO Página B]
+
+Um contêiner do Grupo lógico simplifica muito o segmento, como mostrado aqui:
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +289,15 @@ Usar o [!UICONTROL Grupo lógico] permite satisfazer as condições nesse grupo 
 
 **Criar este segmento**
 
-As páginas B e C são aninhadas em um contêiner de [!UICONTROL Grupo lógico] no contêiner de [!UICONTROL Visitante] exterior. O contêiner [!UICONTROL Ocorrência] de A é seguido pelo contêiner de [!UICONTROL Grupo lógico] com B e C identificados por meio do operador [!UICONTROL E]. Como está no [!UICONTROL Grupo lógico], a sequência não é definida e fazer uma ocorrência na página B ou C torna o argumento verdadeiro.
+As páginas B e C são aninhadas em um contêiner de [!UICONTROL Grupo lógico] no contêiner de [!UICONTROL Visitante] exterior. O contêiner [!UICONTROL Ocorrência] de A é seguido pelo contêiner de [!UICONTROL Grupo lógico] com B e C identificados por meio do operador [!UICONTROL E]. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**Outro exemplo**: Visitantes que visitaram a página B ou C e, em seguida, visitaram a página A:
+
+![](assets/logic_group_any_order3.png)
+
+O segmento deve corresponder pelo menos a um dos pontos de verificação do grupo lógico (B ou C). Além disso, as condições do grupo lógico podem ser cumpridas na mesma ocorrência ou em várias ocorrências. &#x200B;
 
 ### Primeira correspondência do Grupo lógico
 
