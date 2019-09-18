@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classificações
 title: Regras de classificação
 topic: Ferramentas administrativas
-uuid: 08685919-216 d -448 b-b 886-3 adf 5 ff 5405 e
+uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
+## Regras de classificação {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
 
 As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Construtor de regras de classificação]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Construtor de regras **[!UICONTROL de classificação]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
+O Construtor de regras permite criar um *`classification rule set`*, que é uma lista de *`classification rules`*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
 
 As regras de classificação são úteis para:
 
 * **Email** e **Anúncios de exibição**: Crie regras de classificação para agrupar campanhas de anúncio de exibição individuais para que seja possível aprender como as campanhas de exibição são realizadas em relação às campanhas de email.
 
 * **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes das sequências nos códigos de rastreamento, e corresponda as regras aos critérios específicos definidos por você.
-* **Termos de pesquisa**: use [expressões regulares](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) e curingas para simplificar a classificação de termos de pesquisa. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **Termos de pesquisa**: use [expressões regulares](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma *`Sports League`* classificação como *`MLB`*.
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
 
-* **Expressões regulares**: A Ajuda está disponível em [Expressões regulares em Regras de classificação](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+* **Expressões** regulares: A ajuda está disponível em Expressões [regulares nas Regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de classificação.
 
 * **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
    As regras ativas processam a cada quatro horas, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações utilizando o importador.
 
-* **Substituição de classificações existentes**: consulte [Quando as regras não classificam as teclas?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Se necessário, você pode excluir ou remover classificações existentes usando o importador.
+* **Substituição de classificações existentes**: consulte [Quando as regras não classificam as teclas?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Se necessário, é possível excluir ou remover classificações existentes usando o importador.
 
 ## Quando as regras não classificam as teclas? {#section_4481E88CA28246B6B19EA16E2D83A3A8}
 
@@ -146,20 +146,20 @@ Como a expressão regular correlaciona-se à ID da campanha:
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Construtor de regras] **
+**[!UICONTROL Construtor de regras]**
 
 No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar o tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &amp; amp; Hat; (.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 
 | Expressão regular | Sequência ou resultado da correspondência | Correlação dos grupos de correspondência |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em: Junesale: 20130601 `$1`: em `$2`: Junesale `$3`: 20130601 |
-| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair caracteres correspondentes nos parênteses. `(.+)` = captura um ( . ) caractere e (+) mais\ = início de uma string. `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601 `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes entre parênteses.  `(.+)` = captura um ( . ) e ( + ) qualquer caractere \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
 
 Consulte [Expressões regulares - Tabela de referência](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
 
@@ -174,7 +174,7 @@ Uma maneira de usar uma expressão regular é para classificar um caractere espe
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Construtor de regras] **
+**[!UICONTROL Construtor de regras]**
 
 No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
@@ -199,18 +199,18 @@ Teclas de amostra:
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Construtor de regras] **
+**[!UICONTROL Construtor de regras]**
 
 No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar o tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |--- |--- |--- |--- |
 | Expressão regular  Para corresponder a sequência a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular para corresponder a: b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para corresponder a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular para corresponder a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para corresponder a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expressão regular para corresponder a: b: c: d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expressão regular Para correspondência da string a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular Para correspondência da string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular Para correspondência da string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular Para correspondência da string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expressão regular Para correspondência da string a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressões regulares - Exemplo "Não contém"{#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -292,7 +292,7 @@ O que vem depois de um exemplo de regra de termo de pesquisa que classifica os t
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
 | 3 | Contém | Romo | Tipo de pesquisa | Jogador |
 
-Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, pois corresponde à última classificação fornecida mostrada na coluna Definir classificação.
+Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 
@@ -317,9 +317,9 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
->Neste procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
-1. [Criar um conjunto de regras de classificação](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -329,12 +329,12 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    A página **[!UICONTROL Selecionar Conjuntos de relatórios]é exibida.**
 
    >[!NOTE]
-   Report suites display on this page *`only`* when the following conditions are met:        &gt;
+   Os conjuntos de relatórios são exibidos nesta página *`only`* quando as seguintes condições são atendidas:        &gt;
 
    * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   (Consulte *`Variable`* em [Conjuntos de regras de classificação](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) para obter uma explicação sobre esse pré-requisito.)
+   (Consulte *`Variable`* em Conjuntos [de regras de](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) classificação para obter uma explicação sobre esse pré-requisito.)
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Você selecionou o conjunto de relatórios na página Conjuntos **[!UICONTROL de relatórios]** disponíveis, que é exibida após clicar em [Adicionar conjunto](/help/components/c-classifications2/crb/classification-rule-set.md) de regras para criar o conjunto de regras.
 
 
 1. Especifique se deseja substituir os valores existentes:
@@ -347,7 +347,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
    ![Resultado da etapa](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   Para obter exemplos de regras de criação, consulte Construtor [de regras de](/help/components/c-classifications2/crb/classification-rule-builder.md) classificações e Expressões [regulares nas regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de classificação.
 
    >[!NOTE]
    >
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 Etapas que descrevem como testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
 
-1. [Criar um conjunto de regras de classificação](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
 1. No [!UICONTROL Construtor de regra de classificação], clique no nome do conjunto de regras.
 1. Assegure que o conjunto de regras esteja associado a um conjunto de relatórios.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -401,7 +401,7 @@ t_validate_rules.xml
 
 Etapas que descrevem como validar e ativar regras de classificação.
 
-1. [Criar um conjunto de regras de classificação](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) e [adicionar regras de classificação](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) ao conjunto.
+1. [Crie um Conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação e [adicione regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) de classificação ao conjunto.
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
