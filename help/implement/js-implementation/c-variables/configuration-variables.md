@@ -9,7 +9,7 @@ title: Variáveis de configuração
 topic: Desenvolvedor e implementação
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ O Adobe [!DNL Customer Care] pode alterar a configuração padrão de moeda de s
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * Os eventos de moeda não devem ser usados para fins não relacionados a moeda. Se você precisar contar valores arbitrários ou dinâmicos que não são moeda, use o tipo de evento [!UICONTROL numérico].
 * Quando a variável *`currencyCode`* estiver em branco, nenhuma conversão será aplicada.
+
+Para obter mais informações, consulte Códigos [de moeda](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
