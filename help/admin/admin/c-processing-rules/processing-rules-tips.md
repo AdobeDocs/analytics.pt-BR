@@ -1,23 +1,23 @@
 ---
 description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
 seo-description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
-seo-title: Dicas e truques de regras de processamento
+seo-title: Dicas e truques para regras de processamento
 solution: Analytics
 subtopic: Regras de processamento
-title: Dicas e truques de regras de processamento
+title: Dicas e truques para regras de processamento
 topic: Ferramentas administrativas
-uuid: e 3 a 9 ff 8 a-b 81 a -41 c 9-9 f 61-e 40 cb 4 bf 7 d 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
 
-# Dicas e truques de regras de processamento
+# Dicas e truques para regras de processamento
 
-Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns a evitar.
+Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
 
-## Teste das regras de processamento {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Testar regras de processamento {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Esta seção contém algumas orientações que ajudam a testar as regras de processamento antes de serem implantadas na produção.
 
@@ -39,7 +39,7 @@ Ao criar uma regra, considere o caso de um valor vazio. Se você não adicionar 
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-Também é importante considerar a ordem de processamento. No exemplo a seguir, parece que o eVar personalizado do Pagename Anterior será definido para o URL se o nome da página não estiver presente. No entanto, o URL é colocado no nome da página após a aplicação das regras de processamento, então, nesse caso, o Nome da página fica vazio se não for definido na página.
+Também é importante considerar a ordem de processamento. No exemplo a seguir, parece que a eVar personalizada do Pagename Anterior será definida como o URL se o Nome da página não estiver presente. No entanto, o URL é colocado no nome da página após a aplicação das regras de processamento, então, nesse caso, o Nome da página fica vazio se não for definido na página.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
