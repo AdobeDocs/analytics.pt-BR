@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de versão
 title: Código H JavaScript - herdado
 topic: Desenvolvedor e implementação
-uuid: 4586 b 250-0 f 1 b -45 b 8-829 c -18 dc 1201956 f
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ Data de lançamento: **11 de junho de 2014**
 
 Data de lançamento: **22 de maio de 2014**
 
-* Suporte para [Serviço de ID do visitante da Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Suporte para [Analytics para integração com Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -273,25 +273,22 @@ A seguinte tabela resume as variáveis de configuração e atualizações efetua
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>Esse sinalizador é usado para desativar o rastreamento de link forçado para navegadores WebKit. O rastreamento de link forçado é ativado por padrão para navegadores WebKit e é ignorada por outros navegadores. </p> <p> <b>Valor padrão</b> </p> <p> <code> true </code> </p> <p> <b>Exemplo</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp; nbsp; = &amp; amp; nbsp; false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;falso </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>O número máximo de milissegundos a fim de aguardar a conclusão do rastreamento antes de executar <code>doneAction</code> que foi passado para <code>s.tl</code>. Esse valor especifica o tempo máximo de espera. Se a chamada de link de rastreamento for completada antes do tempo limite, <code>doneAction</code> é executado imediatamente. Se as chamadas de link de rastreamento não estiverem sendo completadas, pode ser necessário aumentar esse tempo limite. </p> <p> <b>Valor padrão</b> </p> <p>250 </p> <p> <b>Exemplo</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp; nbsp; = &amp; amp; nbsp; 500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>Rastreia links de saída, download e personalizados. Fornece um parâmetro opcional para especificar uma ação de navegação que será executada depois que a chamada de link de rastreamento for completada em navegadores WebKit. </p> <p> <b>Sintaxe</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>doneAction</b>: (opcional) especifica a ação que deve ser tomada depois que a chamada de rastreamento de link é enviada ou atinge o tempo limite (com base no valor especificado por <code>s.forcedLinkTrackingTimeout </code>). A <code>doneAction</code> pode ser a sequência "navegar", que resulta na definição do método <code>document.location</code> no atributo <code>href</code> de <code>linkObject </code>. A <code>doneAction</code> também pode ser uma função que permite a personalização avançada. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Exemplos</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp; nbsp; href = "…" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null,' navigate '); return &amp; amp; nbsp; false " &gt; Click &amp; amp; nbsp; Aqui &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp; nbsp; href = " #" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null, function () {if (confirm (' Continue? ')))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (opcional) especifica a ação que deve ser tomada depois que a chamada de rastreamento de link é enviada ou atinge o tempo limite (com base no valor especificado por <code>s.forcedLinkTrackingTimeout </code>). A <code>doneAction</code> pode ser a sequência "navegar", que resulta na definição do método <code>document.location</code> no atributo <code>href</code> de <code>linkObject </code>. A <code>doneAction</code> também pode ser uma função que permite a personalização avançada. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Exemplos</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Aqui&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp sp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=..});return&amp;nbsp;false"&gt;Click&amp;nbsp;Aqui&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
