@@ -1,21 +1,21 @@
 ---
-description: As classificações Numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Marketing Cloud por meio do importador.
-seo-description: As classificações Numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Marketing Cloud por meio do importador.
-seo-title: Visão geral de classificações numéricas 2
+description: As classificações numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Experience Cloud por meio do importador.
+seo-description: As classificações numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Experience Cloud por meio do importador.
+seo-title: Visão geral das classificações numéricas 2
 solution: Analytics
 subtopic: Classificações
-title: Visão geral de classificações numéricas 2
+title: Visão geral das classificações numéricas 2
 topic: Ferramentas administrativas
-uuid: cbea 7 cd 1-3 a 92-4 e 9 d-b 671-646 e 9 add 1 ee 6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Visão geral de classificações numéricas 2
+# Visão geral das classificações numéricas 2
 
-As classificações Numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Marketing Cloud por meio do importador.
+As classificações numéricas 2 oferecem métricas personalizadas e flexíveis que podem ser importadas para a Adobe Experience Cloud por meio do importador.
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ As classificações Numéricas 2 oferecem métricas personalizadas e flexíveis 
 
 >[!NOTE]
 >
->Em 10 de maio de 20 18, a versão de manutenção do Analytics começou a limitar a funcionalidade de classificações ativadas por data e numéricas. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
+>Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas e ativadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
 
 Uma maneira comum de usar as classificações numéricas 2 é para variáveis numéricas que mudam ao longo do tempo para itens diferentes, como o custo dos bens vendidos. Na administração, você pode criar classificações na página [!UICONTROL Classificação da conversão] e usar o importador para exportar um arquivo, efetuar auditorias e importar o arquivo de volta para a Adobe. Após importar os dados, é possível usar a classificação numérica ao criar métricas calculadas.
 
 >[!IMPORTANT]
 >
->A Analysis Workspace e a Análise ad hoc não oferecem suporte para classificações numéricas 2.
+>A Analysis Workspace e a Análise ad hoc não suportam classificações numéricas 2.
 
 A tabela a seguir ilustra a diferença entre os tipos de classificação:
 
