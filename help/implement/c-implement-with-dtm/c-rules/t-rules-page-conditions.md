@@ -1,13 +1,13 @@
 ---
 description: Crie regras que determinam em quais página uma regra será acionada.
-keywords: Gerenciamento dinâmico de tags; regra; criar regra; nova regra; regra de carregamento de página
+keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra de carregamento de página
 seo-description: Crie regras que determinam em quais página uma regra será acionada.
 seo-title: Criar condições para as regras de carregamento da página
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
 title: Criar condições para as regras de carregamento da página
-uuid: 30 a 6 c 69 f -56 e 7-414 e -9636-64 c 262 e 7 ccd 4
+uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
