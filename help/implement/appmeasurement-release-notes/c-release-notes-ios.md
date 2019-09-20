@@ -2,13 +2,13 @@
 description: Notas de versão cumulativas para iOS.
 seo-description: Notas de versão cumulativas para iOS.
 seo-title: iOS
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de versão
 title: iOS
 topic: Desenvolvedor e implementação
-uuid: cc 98 f 8 f 2-f 619-4 b 31-abf 9-e 43 f 4 deac 64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Notas de versão cumulativas para iOS.
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Para localizar a versão atual da biblioteca, ative o registro de depuração.
 
 Os downloads da biblioteca móvel estão disponíveis no [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e no [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Serviço de ID de visitante </p> </td> 
-   <td colname="2"> <p> Adicionados carimbo de data e hora e ID de empresa da Marketing Cloud ao parâmetro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuração </p> </td> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Novos métodos de serviço de ID do visitante da Marketing Cloud </td> 
+   <td colname="1"> Novos métodos do Serviço de ID de visitante da Experience Cloud </td> 
    <td colname="2"> <p>Os novos métodos abaixo foram adicionados: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 Data de lançamento: **24 de novembro de 2014**
 
-* Novo - Integração da Adobe Marketing Cloud ID
+* Novo - Integração da Adobe Experience Cloud ID
 * Registros de depuração aprimorados para maior transparência
 
 ## Versão 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ Data de lançamento: **30 de janeiro de 2014**
 
 Data de lançamento: **27 de setembro de 2013**
 
-[!DNL iOS]O SDK 4.x para Soluções da Marketing Cloud agora está disponível e oferece estes novos recursos:
+[!DNL iOS] O SDK 4.x para Soluções da Experience Cloud está disponível agora, fornecendo os seguintes novos recursos:
 
 * Melhorias significativas no desempenho. Todo o processo é realizado nas ameaças em segundo plano e o SDK é totalmente à prova de ameaças.
 * Localização geográfica e pontos de interesse
@@ -600,7 +600,7 @@ Data de lançamento: **18 de abril de 2013**
 
 Data de lançamento: **21 março de 2013**
 
-* `ADMS_Measurement.visitorID` agora são preenchidas automaticamente com o valor padrão.
+* `ADMS_Measurement.visitorID` agora é pré-preenchido com o valor padrão.
 
 ## Versão 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
