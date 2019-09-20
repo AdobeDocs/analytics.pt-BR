@@ -1,50 +1,50 @@
 ---
-description: Para ativar a integração, você deve concluir o assistente de integração Selligent na interface dos Conectores de dados.
-seo-description: Para ativar a integração, você deve concluir o assistente de integração Selligent na interface dos Conectores de dados.
-seo-title: Conclusão do Assistente de integração
+description: Para ativar a integração, você deve concluir o assistente de integração inteligente na interface dos Conectores de dados.
+seo-description: Para ativar a integração, você deve concluir o assistente de integração inteligente na interface dos Conectores de dados.
+seo-title: Concluindo o Assistente de integração
 solution: Analytics
-title: Conclusão do Assistente de integração
-uuid: cb 588162-18 c 6-4259-b 802-50 bc 3816 cc 95
+title: Concluindo o Assistente de integração
+uuid: cb588162-18c6-4259-b802-50bc3816cc95
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Conclusão do Assistente de integração{#completing-the-integration-wizard}
+# Concluindo o Assistente de integração{#completing-the-integration-wizard}
 
-Para ativar a integração, você deve concluir o assistente de integração Selligent na interface dos Conectores de dados.
+Para ativar a integração, você deve concluir o assistente de integração inteligente na interface dos Conectores de dados.
 
-1. Navegue até a área Conectores de dados na Adobe Marketing Cloud.
+1. Navegue até a área Conectores de dados na Adobe Experience Cloud.
 
    ![](assets/selligent-data_connectors.png)
 
-1. Em **[!UICONTROL Adicionar integrações]**, arraste e solte o plug-plugin Selligent na Adobe Marketing Cloud.
+1. Em **[!UICONTROL Adicionar integrações]**, arraste e solte o plug-in Inteligente na Adobe Experience Cloud.
 
    ![](assets/selligent-add_integration.png)
 
-   Isso abrirá a Integração do conector de dados de seletor.
+   Isso abrirá a integração do SelIntelligent Data Connector.
 
-1. **Configurações de integração**: Escolha o Conjunto de relatórios desejado e forneça um nome para a integração em **[!UICONTROL Configurações de integração]**.
+1. **Configurações** de integração: Escolha o Conjunto de relatórios desejado e forneça um nome para a integração em Configurações **** de integração.
 
-1. Em **[!UICONTROL Valores]** personalizados, preencha todas [as suas informações](../../selligent-overview/selligent-activation/selligent-prereqs-seligent.md#concept-071c594b1bcc465cbce7a6fda3f1d829)relacionadas à conta.
+1. Em Valores **** personalizados, preencha todas as informações [relacionadas à conta](../../selligent-overview/selligent-activation/selligent-prereqs-seligent.md#concept-071c594b1bcc465cbce7a6fda3f1d829)inteligente.
 
    ![](assets/selligent-general_settings.png)
 
-1. **Mapeamento da variável**: Escolha as evars [e os eventos reservados apropriados](../../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238) dos menus suspensos:
+1. **Mapeamento** da variável: Escolha as eVars e os eventos [](../../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238) reservados apropriados nos menus suspensos:
 
    ![](assets/selligent-variables.png)
 
-1. **Configurações de dados**: Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]** diferentes dos segmentos de **[!UICONTROL parceiros]** automatizados 3.
+1. **Configurações** de dados: Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]** , exceto os três segmentos automatizados de **[!UICONTROL Parceiro]** .
 
-1. Essa integração pode exigir download de alguns dados para a sua conta Selecionada. Você pode optar por conceder acesso da mesma em **[!UICONTROL Solicitação de acesso]**.
-1. Em **[!UICONTROL Coleção de dados]**, escolha uma solução automatizada ou manual (Plug-in javascript) para coletar parâmetros da string de consulta a partir do URL da página de aterrissagem. Se você escolher uma solução automatizada, insira o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário, que é MID e RID, respectivamente. Para o plug-in javascript, entre em contato com seu consultor Adobe.
-1. **Configurações de relatório**: Em **[!UICONTROL Geração de painel]**, marque a caixa para que o painel Selligent seja gerado automaticamente.
+1. Essa integração pode exigir o download de alguns pontos de dados para sua conta Inteligente. Você pode optar por conceder acesso para o mesmo em Solicitação **[!UICONTROL de]** acesso.
+1. Em Coleção **[!UICONTROL de]** dados, escolha uma solução automática ou manual (Plug-in JavaScript) para coletar parâmetros de sequência de consulta do URL da página inicial. Se você escolher uma solução automatizada, digite o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário que é MID e RID respectivamente. Para o plug-in JavaScript, entre em contato com seu consultor da Adobe.
+1. **Configurações** do relatório: Em Geração **[!UICONTROL de]** painel, marque a caixa para que o painel Inteligente seja gerado automaticamente para você.
 
    ![](assets/selligent-report_settings.png)
 
-1. Revise o resumo da integração e clique **[!UICONTROL em Ativar]**.
+1. Revise o resumo da integração e clique em **[!UICONTROL Ativar]**.
 
