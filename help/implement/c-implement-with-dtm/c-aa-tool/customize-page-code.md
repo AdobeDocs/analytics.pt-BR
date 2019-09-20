@@ -1,13 +1,13 @@
 ---
 description: Use descrições de campo no Dynamic Tag Management para personalizar o código da página ao implantar o Analytics.
-keywords: Gerenciamento dinâmico de tags; personalizar código de página; abrir editor; execute
+keywords: Gerenciamento dinâmico de tags;personalizar código de página;abrir editor;executar
 seo-description: Use descrições de campo no Dynamic Tag Management para personalizar o código da página ao implantar o Analytics.
 seo-title: Personalizar código de página
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
 title: Personalizar código de página
-uuid: b 7 cad 069-3 eb 8-4388-b 0 b 0-34 f 54001 e 05 f
+uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,7 +18,7 @@ Use descrições de campo no Dynamic Tag Management para personalizar o código 
 
 Adicione plug-ins para assegurar-se de que o código e a ferramenta Analytics sejam executados ao mesmo tempo. Para obter mais informações sobre os plug-ins do Analytics, consulte [Plug-ins de implementação](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt;** [! UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
 
