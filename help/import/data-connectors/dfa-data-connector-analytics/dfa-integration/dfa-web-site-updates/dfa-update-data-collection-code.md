@@ -6,12 +6,12 @@ seo-title: Atualize o código de coleta de dados de seu site
 solution: Analytics
 title: Atualize o código de coleta de dados de seu site
 topic: Conectores de dados
-uuid: a 97 d 1 b 62-f 883-48 b 1-9f 16-4 f 889 e 701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ A integração Genesis para o DFA aproveita a ID de configuração do DFA Floodl
 
 >[!NOTE]
 >
->O termo Spotlight foi alterado para Floodlight em uma versão recente do DFA do Google. O parâmetro JavaScript `dfa_SPOTID` foi nomeado com base na terminologia do Spotlight, mas é usado para ambas as versões.
+>O termo Destaque foi alterado para Floodlight em uma versão recente do Google DFA. O parâmetro JavaScript `dfa_SPOTID` foi nomeado com base na terminologia do Spotlight, mas é usado para ambas as versões.
 
 Para habilitar a integração do DFA em seu site, atualize o código de coleta de dados do JavaScript adicionando o seguinte:
 
@@ -31,7 +31,7 @@ Para habilitar a integração do DFA em seu site, atualize o código de coleta d
 
 ## Módulo Integrate para DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-A integração do DFA aproveita o módulo Integrate da Adobe Marketing Cloud, que adiciona funcionalidade a seu código central de coleta de dados do JavaScript ( `s_code.js`). O Módulo de integração é inserido como parte do arquivo.zip quando o appmeasurement for Javascript é baixado no Gerenciador [de código](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Entre em contato com o consultor Adobe caso precise de ajuda adicional para encontrá-lo.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). O Módulo de integração é parte do arquivo .zip quando você baixa o código AppMeasurement para Javascript do Gerenciador [de](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)código. Entre em contato com seu consultor da Adobe somente se precisar de ajuda adicional para encontrá-lo.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
