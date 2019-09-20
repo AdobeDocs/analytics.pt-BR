@@ -3,8 +3,8 @@ product: analytics
 audience: usuário final
 user-guide-title: Guia de implementação do Analytics
 user-guide-url: /content/help/pt-BR/analytics/implementation/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [ID de visitante do Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Métodos de ID de Fallback](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificar dispositivos móveis](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Serviços principais da Experience Cloud Core](https://marketing.adobe.com/resources/help/pt_BR/mcloud/core_services.html)
+   + [Serviços principais da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
    + Identificação de visitantes em vários dispositivos {#cross-device-visitor-id}
       + [Usuários do Connect em vários dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Impacto de dados da identificação de visitantes em vários dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
