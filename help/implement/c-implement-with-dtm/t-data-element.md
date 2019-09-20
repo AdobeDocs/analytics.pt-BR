@@ -1,13 +1,13 @@
 ---
 description: Crie um elemento de dados no Dynamic Tag Management.
-keywords: Gerenciamento dinâmico de tags; elemento de dados; criar novo elemento de dados; name; type; valor padrão; forçar valor em minúsculas; lembrar este valor para
+keywords: Gerenciamento dinâmico de tags;elemento de dados;criar novo elemento de dados;nome;tipo;valor padrão;forçar valor em minúsculas;lembrar esse valor para
 seo-description: Crie um elemento de dados no Dynamic Tag Management.
 seo-title: Criar um elemento de dados
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
 title: Criar um elemento de dados
-uuid: eacd 5 c 60-6197-4129-a 9 e 1-a 39 e 9 a 58 b 38 a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
