@@ -1,50 +1,50 @@
 ---
 description: Etapas para usar o assistente de integração.
 seo-description: Etapas para usar o assistente de integração.
-seo-title: Conclusão do Assistente de integração
+seo-title: Concluindo o Assistente de integração
 solution: Analytics
-title: Conclusão do Assistente de integração
-uuid: 7 d 82 b 7 fa -0 d 14-4 b 30-b 96 d -7 e 2 e 7 d 8 a 5 eb 0
+title: Concluindo o Assistente de integração
+uuid: 7d82b7fa-0d14-4b30-b96d-7e2e7d8a5eb0
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Conclusão do Assistente de integração{#completing-the-integration-wizard}
+# Concluindo o Assistente de integração{#completing-the-integration-wizard}
 
 Etapas para usar o assistente de integração.
 
-Para ativar a integração, você deve concluir o assistente de integração Lyris na interface dos Conectores de dados.
+Para ativar a integração, você deve concluir o assistente de integração do Lyris na interface dos Conectores de dados.
 
-1. Navegue até a área Conectores de dados (antigo Genesis) na Adobe Marketing Cloud.
+1. Navegue até a área Conectores de dados (anteriormente Genesis) na Adobe Experience Cloud.
 
    ![](assets/data_connectors.png)
 
-1. Em **[!UICONTROL Adicionar integração]**, arraste e solte o plug-plugin Lyris na Adobe Marketing Cloud. Isso abre a Integração do Conector de dados Lyris.
+1. Em **[!UICONTROL Adicionar integração]**, arraste e solte o plug-in do Lyris na Adobe Experience Cloud. Isso abre a Integração do Lyris Data Connector.
 
    ![](assets/add_integration.png)
 
-1. Em **[!UICONTROL Configurações]** gerais, escolha o Report Suite desejado e forneça um nome para a integração.
-1. Preencha todas as informações relacionadas à conta do Lyris em Valores **[!UICONTROL personalizados]**.
+1. Em Configurações **** gerais, escolha o Conjunto de relatórios desejado e forneça um nome para a integração.
+1. Preencha todas as informações relacionadas à conta do Lyris em Valores **** personalizados.
 
    ![](assets/general_settings.png)
 
-1. Escolha as evars e os eventos reservados apropriados nos menus suspensos.
+1. Escolha as eVars e os eventos reservados apropriados nos menus suspensos.
 
    ![](assets/variable_mapping.png)
 
-1. Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]** - além dos segmentos de parceiros automatizados 3.
-1. Essa integração pode exigir download de alguns dados para a conta Lyris. Você pode optar por conceder acesso por isso em **[!UICONTROL Solicitação de acesso]**.
-1. Em **[!UICONTROL Coleção de dados]**, é possível optar por ter uma solução automatizada ou manual (Plug-in javascript) para coletar parâmetros da string de consulta a partir do URL da página de aterrissagem. Se optar por ter uma solução automatizada, insira o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário. Para um plug-in javascript, entre em contato com seu consultor Adobe.
+1. Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]** - exceto os três segmentos de parceiro automatizados.
+1. Essa integração pode exigir o download de alguns pontos de dados para sua conta do Lyris. Você pode optar por conceder acesso para isso em Solicitação **[!UICONTROL de]** acesso.
+1. Em Coleta **[!UICONTROL de]** dados, você pode optar por ter uma solução automática ou manual (Plug-in JavaScript) para coletar parâmetros de sequência de consulta do URL da página inicial. Se você optar por ter uma solução automatizada, digite o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário. Para obter um plug-in JavaScript, entre em contato com seu consultor da Adobe.
 
    ![](assets/data_collection.png)
 
-1. Você pode optar por ter o Painel Lyris e os marcadores gerados automaticamente para você.
+1. Você pode optar por gerar automaticamente o painel Lyris e marcadores para você.
 
    ![](assets/dashboard_generation.png)
 
-1. Revise o resumo da integração e clique **[!UICONTROL em Ativar]**.
+1. Revise o resumo da integração e clique em **[!UICONTROL Ativar]**.
