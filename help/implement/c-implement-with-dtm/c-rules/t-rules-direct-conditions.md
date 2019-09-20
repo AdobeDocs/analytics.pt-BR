@@ -1,18 +1,18 @@
 ---
 description: Crie condições para as regras de chamada direta.
-keywords: Gerenciamento dinâmico de tags; regra; criar regra; nova regra; regra de chamada direta
+keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra de chamada direta
 seo-description: Crie condições para as regras de chamada direta.
-seo-title: Criar condições para as regras de chamada direta
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
-title: Criar condições para as regras de chamada direta
-uuid: bab 0 e 058-a 5 b 8-4039-8333-5 e 8 f 3 d 06 ade 4
+seo-title: Crie condições para as regras de chamada direta
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+title: Crie condições para as regras de chamada direta
+uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Criar condições para as regras de chamada direta
+# Crie condições para as regras de chamada direta
 
 Crie condições para as regras de chamada direta.
 
