@@ -1,32 +1,32 @@
 ---
-description: Após a implantação, você deve validar se a integração está transferindo dados com êxito pelas seguintes verificações.
-seo-description: Após a implantação, você deve validar se a integração está transferindo dados com êxito pelas seguintes verificações.
+description: Após a implantação, você deve validar se a integração está transferindo dados com êxito por meio das seguintes verificações.
+seo-description: Após a implantação, você deve validar se a integração está transferindo dados com êxito por meio das seguintes verificações.
 seo-title: Verificação da integração
 solution: Analytics
 title: Verificação da integração
-uuid: 5 f 0 f 9 f 69-e 932-4472-8578-dd 3 af 1315 c 0 c
+uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Verificação da integração{#verifying-the-integration}
 
-Após a implantação, você deve validar se a integração está transferindo dados com êxito pelas seguintes verificações.
+Após a implantação, você deve validar se a integração está transferindo dados com êxito por meio das seguintes verificações.
 
-1. Visualize o log de atividades de integração.
-   1. Na Adobe Marketing Cloud, navegue até **[!UICONTROL Suporte]** &gt; **[!UICONTROL Registro de atividade de integração]**.
+1. Exibir o log de atividades de integração.
+   1. Na Adobe Experience Cloud, navegue até **[!UICONTROL Suporte]** &gt; Log **[!UICONTROL de atividades de]** integração.
 
       ![](assets/integration_activity_log.png)
 
-   1. Procure entradas como **[!UICONTROL Dados de classificação importados com sucesso]**, **[!UICONTROL Dados de métricas importados com sucesso]** e Dados **[!UICONTROL de métrica exportados com sucesso]**. Essas entradas devem aparecer dentro de um dia de implantação bem-sucedida.
+   1. Procure entradas como Dados de **[!UICONTROL classificação importados com êxito]**, Dados de **[!UICONTROL métricas importados com êxito]** e Dados de **[!UICONTROL métricas exportados com êxito]**. Essas entradas devem aparecer dentro de 1 dia após a implantação bem-sucedida.
 1. Visualize seus dados de relatório no Adobe Analytics.
-   1. Navegue até **[!UICONTROL Conversão personalizada]** &gt; **[!UICONTROL Conversão personalizada 1-10]** &gt; **[!UICONTROL Relatórios de ID de mensagem]**.
+   1. Navegue até Conversão **** personalizada &gt; Conversão **[!UICONTROL personalizada 1-10]** &gt; Relatórios **[!UICONTROL de ID da]** mensagem.
 
       ![](assets/reporting.png)
 
-   1. Procure por relatórios do Responsys. Esses dados devem aparecer dentro de 24a 48 horas de implantação bem-sucedida.
+   1. Procure o relatório do Responsys.  Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
