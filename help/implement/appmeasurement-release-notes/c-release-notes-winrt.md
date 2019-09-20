@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: WinRT para Windows 8
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de versão
 title: WinRT para Windows 8
 topic: Desenvolvedor e implementação
-uuid: cec 19 d 63-114 c -4 ef 6-a 55 e-db 6 aad 4 e 948 b
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Para localizar a versão atual da biblioteca, ative o registro de depuração.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -41,7 +41,7 @@ Correções de bug e melhorias de desempenho.
 
 Data de lançamento: **17 de outubro de 2013**
 
-* [!DNL Windows] Compatibilidade com 8.1
+* [!DNL Windows] Compatibilidade 8.1
 
 ## Versão 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -53,7 +53,7 @@ Data de lançamento: **18 de abril de 2013**
 
 Data de lançamento: **21 de março de 2013**
 
-* `ADMS_Measurement.visitorID` agora são preenchidas automaticamente com o valor padrão.
+* `ADMS_Measurement.visitorID` agora é pré-preenchido com o valor padrão.
 * Solucionado o problema com a recuperação de informações do dispositivo.
 
 ## Versão 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,7 +69,7 @@ Data de lançamento: **21 de fevereiro de 2013**
 Data de lançamento: **novembro de 2012**
 
 * A resolução da tela agora está sendo coletada de maneira precisa para as plataformas C#, C++ e HTML5/WinJS.
-* `ADMS_Churn` agora é interna. Para usar as práticas recomendadas para o monitoramento do ciclo de vida do aplicativo, use as chamadas a seguir:
+* `ADMS_Churn` classe agora é interna. Para usar as práticas recomendadas para o monitoramento do ciclo de vida do aplicativo, use as chamadas a seguir:
 
    ```
    public void ADMS_Measurement.StartSession(); 
