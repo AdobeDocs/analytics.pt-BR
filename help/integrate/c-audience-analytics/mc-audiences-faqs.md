@@ -2,11 +2,11 @@
 description: Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
 seo-description: Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
 seo-title: Perguntas frequentes
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Perguntas frequentes
-uuid: 9 dfc 8 f 19-f 9 b 2-4 c 2 e-bff 9-3 d 91 cfe 01 bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: Como faço para criar um destino do Analytics no Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configurar um destino do Analytics no AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Depois de criar e salvar um destino do Analytics, quanto leva até que os dados apareçam em meus conjuntos de relatórios selecionados?</b> </p> </td> 
@@ -67,7 +67,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>P: como isso difere do destino de cookies herdados no Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Os segmentos são qualificados e retornados em tempo real, na mesma ocorrência. </p> <p>Nomes amigáveis são exibidos automaticamente. </p> </td> 
+   <td colname="col2"> <p>Os segmentos são qualificados e retornados em tempo real - na mesma ocorrência. </p> <p>Nomes amigáveis são exibidos automaticamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: E se alguns de meus conjuntos de relatórios apresentarem dados pessoais, e outros não?</b> </p> </td> 
@@ -101,7 +101,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Por que vejo "Limite de público-alvo atingido" no meu relatório do Analytics? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>P: Por que vejo "Limite de público-alvo atingido" no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e "::max_audiences_aded::" no Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>Por padrão, a integração do Audience Analytics para AAM envia para o Analytics todos os segmentos para os quais um usuário é classificado, em uma base “por ocorrência”. Se um visitante pertencer a mais de 150 segmentos do AAM em uma única ocorrência, os <b>150 segmentos qualificados mais recentemente</b> serão enviados ao Analytics, e a lista restante ficará truncada. </p> <p>Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo. </p> <p>Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opção 1</b>: deixe a integração trabalhar em seu estado padrão, enviando os 150 segmentos qualificados mais recentemente para um certo visitante. </li> 
@@ -125,12 +125,12 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Por que não consigo ativar certos conjuntos de relatórios para SSF no Analytics Admin?</b> </p> </td> 
-   <td colname="col2"> <p>Somente conjuntos mapeados para a sua Organização da Experience Cloud podem ser ativados. </p> </td> 
+   <td colname="col2"> <p>Somente conjuntos mapeados para sua organização da Experience Cloud podem ser habilitados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Para obter mais perguntas frequentes sobre esse tópico, consulte Perguntas frequentes sobre o encaminhamento pelo lado do [servidor](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## Perguntas frequentes gerais {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre “públicos-alvo” no AAM e “segmentos” no Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Entenda os segmentos no Analytics e no Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre Atributos de clientes e os dados de cliente integrados do AAM?</b> </p> </td> 
