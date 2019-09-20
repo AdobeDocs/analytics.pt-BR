@@ -4,12 +4,12 @@ seo-description: Pré-requisitos a serem considerados antes de ativar o conector
 seo-title: Pré-requisitos de integração
 solution: Analytics
 title: Pré-requisitos de integração
-uuid: 7 c 7 ac 22 b -9 f 54-497 d-af 60-3 b 0 b 1 cc 7 c 1 c
+uuid: 7c7ac22b-9f54-497d-af60-3b0b1cc7dc2c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,14 +22,14 @@ Pré-requisitos a serem considerados antes de ativar o conector de dados.
 
 * Você deve ser um cliente atual do Adobe Analytics.
 * Você deve ser um usuário administrador.
-* Você deve ter uma variável evar disponível e ativada em seu conjunto de relatórios.
-* Você deve ter 3 eventos personalizados disponíveis e ativados em seu conjunto de relatórios (tipo: contador).
+* Você deve ter 1 variável eVar disponível e ativada em seu conjunto de relatórios.
+* Você deve ter 3 eventos personalizados disponíveis e ativados em seu conjunto de relatórios (digite: contador).
 
 ## Pré-requisitos para clientes Kampyle: {#section-4bbbca50e74d4f218414ae0cc535b8e9}
 
-* Você deve ser um cliente atual do Kampyle para sites.
-* Você deve ser um usuário administrativo da Adobe Marketing Cloud com permissões para ativar os conectores de dados.
-* Você deve ser capaz de recuperar a Chave privada Kampyle da interface do usuário do gerenciamento de formulário de feedback Kampyle.
+* Você deve ser um cliente atual da Kampyle para sites.
+* Você deve ser um usuário administrador da Adobe Experience Cloud com permissões para ativar os conectores de dados.
+* Você deve ser capaz de recuperar a chave privada Kampyle da interface do usuário do gerenciamento de formulário de feedback Kampyle.
 
    [Recuperar a chave privada Kampyle](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
 
