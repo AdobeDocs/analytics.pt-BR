@@ -1,30 +1,30 @@
 ---
-description: Essa integração combina o poder do sistema de feedback integrado de marketing por email e o relatório comportamental do Adobe Analytics para criar oportunidades eficientes de análise e otimização para a sua organização.
-seo-description: Essa integração combina o poder do sistema de feedback integrado de marketing por email e o relatório comportamental do Adobe Analytics para criar oportunidades eficientes de análise e otimização para a sua organização.
-seo-title: adtivo® broadmail Data Connector for Adobe Analytics
-title: adtivo® broadmail Data Connector for Adobe Analytics
-uuid: bd 713080-9 d 1 a -49 ee-aad 0-86 dd 5 c 37 c 34 a
+description: Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
+seo-description: Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
+seo-title: optivo® Broadmail Data Connector para Adobe Analytics
+title: optivo® Broadmail Data Connector para Adobe Analytics
+uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# adtivo® broadmail Data Connector for Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
+# optivo® Broadmail Data Connector para Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
 
-Essa integração combina o poder do sistema de feedback integrado de marketing por email e o relatório comportamental do Adobe Analytics para criar oportunidades eficientes de análise e otimização para a sua organização.
+Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
 
-[!DNL ~O parceiro~] é um software profissional de marketing por email. A função principal é criar, enviar e avaliar campanhas de email e de email. [!DNL ~O parceiro~] está disponível como um serviço em nuvem (software como um serviço).
+[!DNL ~O parceiro~] é um software profissional de marketing por email. Sua principal função é criar, enviar e avaliar campanhas por e-mail e boletins informativos. [!DNL ~O parceiro~] está disponível como um serviço em nuvem (software como um serviço).
 
-A integração [!DNL ~de Parceiro~] oferece sincronização automatizada de recomercialização e dados, resultando em maior conversão e receita. A integração permite que os profissionais de marketing sincronizem segmentos automaticamente para seus clientes, com base em sua interação de email e comportamento do site. O intercâmbio de dados automatizado de segmentos personalizáveis ajuda você a criar campanhas de email altamente direcionadas que aumentam as vendas, como abandono de carrinho de compras e recomercialização de compras de postagem para produtos cruzados, para cima e para revenda.
+A integração do [!DNL ~Parceiro~] oferece remarketing automatizado e sincronização de dados, resultando em conversões e receita maiores. A integração permite que os profissionais de marketing sincronizem segmentos automaticamente para seus clientes, com base em sua interação de email e comportamento do site. A troca automatizada de dados de segmentos personalizáveis ajuda a criar campanhas de email altamente direcionadas que impulsionam as vendas, como abandono de carrinhos de compras e remarketing pós-compra para produtos cruzados, atualizados e revendidos.
 
-Essa integração também troca métricas de campanhas de email bem-sucedidas de [!DNL ~Parceiro~] para o Adobe Analytics. Os dados cruciais são exibidos centralmente em sua visão geral da campanha por email.
+Essa integração também troca métricas de campanhas de email de sucesso do [!DNL ~Partner~] para o Adobe Analytics. Os dados cruciais são exibidos centralmente na visão geral de sua campanha por email.
 
-## Programa de laboratórios dos conectores de dados {#section-51f9864851b64d96873127b9ac9c9a2b}
+## Programa Laboratório de Conectores de Dados {#section-51f9864851b64d96873127b9ac9c9a2b}
 
-Este programa é um método de rastreamento rápido para parceiros da plataforma de terceiros da Adobe para criar integrações e fornecê-las em nosso mercado combinado. As integrações são completamente desenvolvidas por nossos parceiros e disponibilizadas na Adobe Marketing Cloud seguindo as metodologias da comunidade. Elas são disponibilizadas sem custos adicionais para clientes da Adobe do Adobe Analytics e outras Soluções e são fornecidas como base sem garantias implícitas da Adobe devido à natureza de terceiros das integrações.
+Este programa é um método rápido para parceiros de plataformas de terceiros da Adobe criarem integrações e fornecê-las ao nosso mercado conjunto. As integrações são totalmente desenvolvidas pelos nossos parceiros e disponibilizadas na Adobe Experience Cloud, seguindo as metodologias da comunidade. Eles são disponibilizados sem custos adicionais para os clientes Adobe do Adobe Analytics e de outras soluções e são fornecidos no estado em que se encontram, sem garantias implícitas da Adobe devido à natureza de terceiros das integrações.
 
-Se tiver dúvidas sobre o serviço atual, garantia ou licenciamento, entre em contato com seu Gerente de contas da Adobe.
+Em caso de dúvidas relacionadas ao serviço, garantia ou licenciamento atual, entre em contato com seu Gerente de contas da Adobe.
