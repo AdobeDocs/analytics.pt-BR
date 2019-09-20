@@ -1,50 +1,50 @@
 ---
 description: Etapas para concluir o assistente de integração na interface dos Conectores de dados.
 seo-description: Etapas para concluir o assistente de integração na interface dos Conectores de dados.
-seo-title: Conclusão do Assistente de integração da Adobe
+seo-title: Concluindo o Assistente de integração da Adobe
 solution: Analytics
-title: Conclusão do Assistente de integração da Adobe
-uuid: fb 106251-78 cf -4 a 2 a -8 ba 2-2 a 39188 ba 910
+title: Concluindo o Assistente de integração da Adobe
+uuid: fb106251-78cf-4a2a-8ba2-2a39188ba910
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Conclusão do Assistente de integração da Adobe{#completing-the-adobe-integration-wizard}
+# Concluindo o Assistente de integração da Adobe{#completing-the-adobe-integration-wizard}
 
 Etapas para concluir o assistente de integração na interface dos Conectores de dados.
 
-1. Navegue até a área Conectores de dados (antigo Genesis) na Adobe Marketing Cloud.
-1. Inicie o assistente de integração de Responsys.
+1. Navegue até a área Conectores de dados (anteriormente Genesis) na Adobe Experience Cloud.
+1. Inicie o assistente de integração do Responsys.
 1. Escolha o Conjunto de relatórios desejado e forneça um nome para a integração.
 1. Configure os seguintes itens:
 
    | Item | Descrição |
    |---|---|
    | Endereço de email | O endereço de email do contato principal |
-   | Descrição | (Opcional) Descrição para essa configuração de integração |
-   | ID da Conta | Obtido entrando em contato com a Equipe de suporte da Responsys em support@responsys.com |
+   | Descrição | (Opcional) Descrição para esta configuração de integração |
+   | ID da Conta | Obtido ao entrar em contato com a equipe de suporte da Responsys em support@responsys.com |
 
-1. Configure os seguintes itens **[!UICONTROL de Mapeamentos]** de variáveis:
+1. Configure os seguintes itens de Mapeamentos **[!UICONTROL de]** variável:
 
    | Item | Descrição |
    |---|---|
-   | ID da mensagem | Selecione uma evar para coletar a ID da mensagem em tempo real. |
-   | Recipient ID | Selecione uma evar para coletar a ID do destinatário em tempo real. |
-   | Total de rejeições | Selecione um evento numérico para receber devoluções diárias de Responsys. |
-   | Email enviado | Selecione um evento numérico para receber envios diários de Responsys. |
+   | ID da mensagem | Selecione uma eVar para coletar IDs de mensagem em tempo real. |
+   | Recipient ID | Selecione uma eVar para coletar IDs de destinatários em tempo real. |
+   | Total de rejeições | Selecione um evento numérico para receber rejeições diárias de Responsys. |
+   | Email enviado | Selecione um evento numérico para receber envios diários do Responsys. |
    | Clicado | Selecione um evento numérico para receber o total diário de cliques de Responsys. |
-   | Abertos | Selecione um evento numérico para receber o total diário de Responsys. |
-   | Cancelar inscrição | Selecione um evento numérico para receber o cancelamento diário de Responsys. |
+   | Aberto | Selecione um evento numérico para receber o total diário de aberturas do Responsys. |
+   | Inscrito | Selecione um evento numérico para receber cancelamentos diários de assinaturas do Responsys. |
    | Entregue | Selecione um evento numérico para receber entregas diárias de Responsys. |
 
 1. Habilite o acesso aos dados e configure a coleta de dados.
-   1. Renomeie classificações conforme necessário.
-   1. **[!UICONTROL Segmentos de parceiros]** são segmentos padrão de recomercialização incluídos na integração.
-   1. Em **[!UICONTROL Solicitação de acesso]**, marque a caixa para permitir que as informações do produto sejam exportadas para Responsys em segmentos de recomercialização diários.
-   1. Configure se você coletará a ID manualmente para atualizar o código de coleta do Analytics ou usando a solução automatizada. Se você selecionar **[!UICONTROL Solução automatizada]**, deverá incluir os parâmetros usados em links de email para enviar a ID.
-1. Revise todos os itens de configuração e clique **[!UICONTROL em Ativar agora]**.
+   1. Renomeie as classificações conforme necessário.
+   1. **[!UICONTROL Segmentos]** de parceiros são segmentos padrão de remarketing que estão incluídos na sua integração.
+   1. Em Solicitações **[!UICONTROL de]** acesso, marque a caixa para permitir que as informações do produto sejam exportadas para a Responsys em segmentos diários de recomercialização.
+   1. Configure se você coletará IDs atualizando manualmente seu código de coleta do Analytics ou usando a solução automatizada. Se você selecionar Solução **** automatizada, deverá incluir os parâmetros usados em links de email para passar IDs.
+1. Revise todos os itens de configuração e clique em **[!UICONTROL Ativar agora]**.
