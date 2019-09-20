@@ -2,13 +2,13 @@
 description: Notas de versão cumulativas para a biblioteca móvel do Android.
 seo-description: Notas de versão cumulativas para a biblioteca móvel do Android.
 seo-title: Android
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de versão
 title: Android
 topic: Desenvolvedor e implementação
-uuid: 32232 d 28-3459-4 f 78-bb 00-ca 3163 c 63461
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Notas de versão cumulativas para a biblioteca móvel do Android.
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Para localizar a versão atual da biblioteca, ative o registro de depuração.
 
 Os downloads da biblioteca móvel estão disponíveis no [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e no [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1).
 
@@ -91,7 +91,7 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Serviço de ID de visitante </p> </td> 
-   <td colname="2"> <p>Adicionados carimbo de data e hora e ID de empresa da Marketing Cloud ao parâmetro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
@@ -272,7 +272,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Novos métodos de serviço de ID do visitante da Marketing Cloud </td> 
+   <td colname="1"> Novos métodos do Serviço de ID de visitante da Experience Cloud </td> 
    <td colname="2"> <p>Os métodos abaixo foram adicionados: </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -418,7 +418,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 Data de lançamento: **24 de novembro de 2014**
 
-* Novo - Integração da Adobe Marketing Cloud ID
+* Novo - Integração da Adobe Experience Cloud ID
 * Registros de depuração aprimorados para maior transparência
 * Solucionado o problema que geralmente ocorria durante a verificação de mensagens no aplicativo
 
@@ -503,7 +503,7 @@ Data de lançamento: **14 de novembro de 2013**
 
 Data de lançamento: **27 de setembro de 2013**
 
-[!DNL Android]O SDK 4.x para Soluções da Marketing Cloud agora está disponível e oferece estes novos recursos:
+[!DNL Android] O SDK 4.x para Soluções da Experience Cloud está disponível agora, fornecendo os seguintes novos recursos:
 
 * Melhorias significativas no desempenho. Todo o processo é realizado nas ameaças em segundo plano e o SDK é totalmente à prova de ameaças.
 * Localização geográfica e pontos de interesse
