@@ -1,13 +1,13 @@
 ---
 description: Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. O método de configuração automática gerencia o código do AppMeasurement para você.
-keywords: Gerenciamento dinâmico de tags; plug-plugins; armazenamento temporário; efeito nas configurações atuais; histórico de revisão; armadilhas potenciais; id do conjunto de relatórios; código de moeda; servidor de rastreamento; servidor de rastreamento de ssl; código personalizado; gerenciamento de biblioteca
+keywords: Gerenciamento dinâmico de tags;plugins;preparo;efeito nas configurações atuais;histórico de revisão;potenciais armadilhas;id do conjunto de relatórios;código monetário;servidor de rastreamento;servidor de rastreamento ssl;código personalizado;gerenciamento de biblioteca
 seo-description: Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. O método de configuração automática gerencia o código do AppMeasurement para você.
 seo-title: Perguntas frequentes sobre a ferramenta Adobe Analytics
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
 title: Perguntas frequentes sobre a ferramenta Adobe Analytics
-uuid: 8 fcef 893-e 305-4 a 95-a 033-9066 a 56 b 09
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -26,7 +26,7 @@ Perguntas frequentes sobre a configuração automática da implantação do Adob
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Onde coloco meus plug-ins durante a implementação do Adobe Analytics por meio do DTM? </p> </td> 
-   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code>s_code</code>, é possível adicionar plug-ins no mesmo editor como <code>s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
+   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code>s_code</code>, é possível adicionar plug-ins no mesmo editor como <code>s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>No entanto, também é uma opção colocar os plug-ins no editor na seção <span class="term"> Personalizar código</span> da página das configurações da ferramenta. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se eu realizar alterações na configuração da nova versão da ferramenta, é possível testá-la durante o armazenamento temporário antes de publicar para produção? </p> </td> 
@@ -58,5 +58,5 @@ Para evitar esses problemas, verifique se:
 * As IDs do conjunto de relatório foram inseridas corretamente na ferramenta.
 * As IDs dos conjuntos de relatórios na ferramenta correspondem às IDs no código do [!DNL AppMeasurement].
 * Os campos código da moeda, conjunto de caracteres, servidor de rastreamento e configuração do servidor de rastreamento do SSL estão configurados corretamente com valores suportados.
-* Custom code is defined in [!DNL Library Management].
+* O código personalizado é definido em [!DNL Library Management].
 
