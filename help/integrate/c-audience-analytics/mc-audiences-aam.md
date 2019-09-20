@@ -1,12 +1,12 @@
 ---
 description: O Adobe Audience Manager (AAM) é uma plataforma avançada de gerenciamento de dados que ajuda você a construir perfis de público-alvo exclusivos a partir da integração de dados primários, secundários/parceiros e de terceiros. Para anunciantes, esses perfis de público-alvo ajudam a definir os segmentos mais valiosos para uso em qualquer canal digital.
 seo-description: O Adobe Audience Manager (AAM) é uma plataforma avançada de gerenciamento de dados que ajuda você a construir perfis de público-alvo exclusivos a partir da integração de dados primários, secundários/parceiros e de terceiros. Para anunciantes, esses perfis de público-alvo ajudam a definir os segmentos mais valiosos para uso em qualquer canal digital.
-seo-title: Audience Analytics visão geral
-solution: Marketing Cloud
+seo-title: Visão geral do Audience Analytics
+solution: Experience Cloud
 title: Visão geral do Audience Analytics
-uuid: 86 ef 9391-dd 6 a -495 f-a 10 e-e 98 bc 069 dde 4
+uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -45,8 +45,8 @@ Verifique se você atende a estes pré-requisitos:
 
 * Você é um cliente do Audience Manager e do Adobe Analytics.
 * Você é um administrador do Audience Manager.
-* Você está usando o serviço Identity Service v 1.5 ou posterior.
+* Você está usando o Serviço de identidade v1.5 ou posterior.
 * Conjuntos de relatórios do AAM e do Adobe Analytics são [mapeados para a mesma organização IMS da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-These prerequisites are described in the [Audience Analytics Workflow](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+Esses pré-requisitos estão descritos no Fluxo de trabalho [do](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)Audience Analytics.
