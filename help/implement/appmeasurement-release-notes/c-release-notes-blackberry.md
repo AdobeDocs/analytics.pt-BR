@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de versão
 title: BlackBerry
 topic: Desenvolvedor e implementação
-uuid: 1 e 4 e 037 f -2 a 8 b -4051-9327-c 9949 efff 7 b 7
+uuid: 1e4e037f-2a8b-4051-9327-c9949efff7b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ Os downloads da biblioteca móvel estão disponíveis no [GitHub](https://github
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Para localizar a versão atual da biblioteca, ative o registro de depuração.
 
 ## Versão 4.0.0 {#section_5E6C3CEF56FB4A95B2F43DBEC956A784}
 
 Data de lançamento: **4 de novembro de 2013**
 
-Lançamento da versão inicial 4.x para BlackBerry 10. Consulte [Marketing Cloud para Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
+Lançamento da versão inicial 4.x para BlackBerry 10. See [Experience Cloud for Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
 
 ## Versão 1.3 {#section_990A8910DE304E29BAD9EC770B72BB97}
 
