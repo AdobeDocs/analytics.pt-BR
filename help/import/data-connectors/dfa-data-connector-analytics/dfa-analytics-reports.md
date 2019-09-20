@@ -6,12 +6,12 @@ seo-title: Relatórios do Analytics com dados do DFA
 solution: Analytics
 title: Relatórios do Analytics com dados do DFA
 topic: Conectores de dados
-uuid: a 4 fe 4 a 6 c-f 4 a 4-431 d-bce 9-9 eedbcafedd 6
+uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,7 +36,7 @@ Os relatórios predefinidos do DFA incluem o seguinte:
 
 Para gerar um relatório do DFA:
 
-1. Faça logon na Adobe Marketing Cloud.
+1. Faça logon na Adobe Experience Cloud.
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. Selecione o conjunto de relatórios no qual você instalou a integração do DFA.
 
 1. Na navegação à esquerda, selecione a variável de conversão que captura os dados de click-through do DFA e, em seguida, selecione o relatório do DFA desejado.
