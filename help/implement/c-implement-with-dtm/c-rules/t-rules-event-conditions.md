@@ -1,13 +1,13 @@
 ---
 description: As condições determinam quando uma regra baseada em eventos é acionada.
-keywords: Gerenciamento dinâmico de tags; regra; criar regra; nova regra; regra baseada em eventos; atrasar a ativação do link; aplicar o manipulador de eventos diretamente ao elemento; bolhas; bolhas de evento
+keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra baseada em eventos;ativação de link de atraso;aplicar o manipulador de eventos diretamente ao elemento;borbulhamento;borbulhamento de eventos
 seo-description: As condições determinam quando uma regra baseada em eventos é acionada.
 seo-title: Criar condições para regras baseadas em eventos
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
 title: Criar condições para regras baseadas em eventos
-uuid: a 847391 c -5 igu-4 d 64-8 a 35-388587731598
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
