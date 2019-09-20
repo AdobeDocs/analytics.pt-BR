@@ -1,18 +1,18 @@
 ---
 description: Se você usar o download da biblioteca ou a entrega FTP, ou se não tiver um ambiente de testes, poderá usar uma ferramenta de regravação, como Charles, para testar regras não publicadas. Essa necessidade varia com base na implementação específica.
-keywords: Gerenciamento dinâmico de tags; regra; plug-plugin alternador; download da biblioteca; ftp; ferramenta de regravação; testar regras não publicadas; regras de teste; regra de depuração; charles
+keywords: Gerenciamento dinâmico de tags;regra;plugin alternador;download da biblioteca;ftp;ferramenta rewrite;test unpublished rules;test rules;debug rule;charles
 seo-description: Se você usar o download da biblioteca ou a entrega FTP, ou se não tiver um ambiente de testes, poderá usar uma ferramenta de regravação, como Charles, para testar regras não publicadas. Essa necessidade varia com base na implementação específica.
-seo-title: Testar regras para download da biblioteca ou FTP
-solution: Marketing Cloud, Analytics, Target, Gerenciamento dinâmico de tags
-title: Testar regras para download da biblioteca ou FTP
-uuid: b 6 ac 09 c 7-f 590-4710-bcb 0-eb 2 bab 9 e 6296
+seo-title: Testar regras para o download da biblioteca ou do FTP
+solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+title: Testar regras para o download da biblioteca ou do FTP
+uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Testar regras para download da biblioteca ou FTP
+# Testar regras para o download da biblioteca ou do FTP
 
 Se você usar o download da biblioteca ou a entrega FTP, ou se não tiver um ambiente de testes, poderá usar uma ferramenta de regravação, como Charles, para testar regras não publicadas. Essa necessidade varia com base na implementação específica.
 
