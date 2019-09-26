@@ -1,25 +1,25 @@
 ---
-description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags ao criar a ferramenta Adobe Analytics e configurar o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
-keywords: Implementação do Analytics; método de implementação; gerenciamento dinâmico de tags; dtm; ferramenta de análise; propriedade; tipo de ferramenta; nome da ferramenta; método de configuração; analytics premium; evars; events
-seo-description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags ao criar a ferramenta Adobe Analytics e configurar o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
+description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
+keywords: Implementação do Analytics;método de implementação;gerenciamento dinâmico de tags;dtm;ferramenta analítica;propriedade;tipo de ferramenta;nome da ferramenta;método de configuração;analytics premium;evars;events;Implementação do Analytics;método de implementação;gerenciamento dinâmico de tags;dtm;ferramenta analytics;propriedade;tipo de ferramenta;nome da ferramenta;método de configuração;analytics premium;evars;events;events
+seo-description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
 seo-title: Adicionar a ferramenta Adobe Analytics
 solution: Analytics
 title: Adicionar a ferramenta Adobe Analytics
 topic: Desenvolvedor e implementação
-uuid: 1 c 54331 e-de 03-4 f 44-8002-a 19723 c 585 b 0
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
 
 # Adicionar a ferramenta Adobe Analytics
 
-Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags ao criar a ferramenta Adobe Analytics e configurar o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
+Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>Para melhorar o rastreamento de visitantes, recomendamos que você ative o Serviço [de identidade](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Adicionar uma ferramenta Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -50,11 +50,11 @@ Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags ao criar a f
    <td colname="col2"> <p> <b>Automático</b> (recomendado): use o Dynamic Tag Management para gerenciar a configuração. This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>Uma vez que as contas são conectadas, o Dynamic Tag Management insere as IDs e os nomes dos conjuntos de relatórios do <span class="keyword">Adobe Analytics</span> na interface da ferramenta de configuração, o que permite uma velocidade maior na implementação da ferramenta e um número menor de erros por parte do usuário. </p> <p> <p>Observação: escolha a opção <span class="wintitle">Automático</span> se você for cliente do <span class="keyword">Adobe Analytics Premium</span>. Consulte <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Ativação do Adobe Analytics Premium</a>, abaixo. </p> </p> <p>Preencha os campos específicos da configuração automática: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (Padrão) Usa o logon único da <span class="keyword">Experience Cloud</span>. Especifique sua Experience Cloud ID e senha. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Serviços da Web</b>: especifique seu nome de usuário e o segredo compartilhado para os Serviços da Web. </p> <p>As credenciais do segredo compartilhado localizam-se em <span class="uicontrol">Ferramentas administrativas</span> &gt; <span class="uicontrol">Configurações da empresa</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">Serviços da Web</a>. </p> <p>Desenvolvedores, consultem <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Obter acesso ao serviço da Web para a Enterprise API</a> a fim de obter ajuda para obter credenciais dos serviços da Web. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Serviços da Web</b>: especifique seu nome de usuário e o segredo compartilhado para os Serviços da Web. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>Desenvolvedores, consultem <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Obter acesso ao serviço da Web para a Enterprise API</a> a fim de obter ajuda para obter credenciais dos serviços da Web. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manual</b>: Gerenciar manualmente o [! Código DNL appmeasurement]. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
+   <td colname="col2"> <p> <b>Manual</b>: Gerencie manualmente o código [!DNL AppMeasurement]. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID da conta de produção:</b> (obrigatório) sua conta de produção para a coleta de dados. No Analytics, é a sua ID do conjunto de relatórios. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparação. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID da conta de armazenamento temporário:</b> (obrigatório) usada no ambiente de desenvolvimento e teste. No Analytics, é a sua ID do conjunto de relatórios. Uma conta de armazenamento temporário mantém os dados dos testes separados da produção. </p> </li> 
@@ -92,7 +92,7 @@ Você pode editar uma ferramenta Adobe Analytics existente para mudar suas confi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Habilitar configuração automática </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Essa opção permite que o Dynamic Tag Management recupere automaticamente as configurações da sua conta do <span class="keyword">Adobe Analytics</span>. </p> <p>A mais recente [! O código DNL appmeasurement] é usado e as notificações de atualização são exibidas para seleção à medida que novas versões se tornam disponíveis. Você também pode reverter para o anterior [! Versões DNL appmeasurement, conforme necessário, como por motivos de compatibilidade. Até cinco versões anteriores são exibidas. </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Essa opção permite que o Dynamic Tag Management recupere automaticamente as configurações da sua conta do <span class="keyword">Adobe Analytics</span>. </p> <p>The latest available [!DNL AppMeasurement] code is used and upgrade notifications are displayed for selection as new versions become available. Você também pode reverter para versões anteriores do [!DNL AppMeasurement], conforme necessário, por exemplo, por motivos de compatibilidade. Até cinco versões anteriores são exibidas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar credenciais </p> </td> 
