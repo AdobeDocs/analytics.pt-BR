@@ -4,10 +4,10 @@ seo-description: Fornece análises completas, precisas e detalhadas das atividad
 seo-title: Conversão
 solution: Analytics
 title: Conversão
-topic: 'Relatórios  '
-uuid: 457 d 3033-6562-4 fba -8 c 2 e -0 e 7 a 9 be 44 bfd
+topic: Relatórios
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,13 +24,13 @@ Alguns relatórios existentes contém métricas de tráfego e conversão (ex: re
 
 * Relatórios de [!UICONTROL Conversão personalizada] são baseados em eVars (variáveis de conversão).
 * Variáveis de conversão podem persistir além da exibição de página e ser associadas a métricas dentro da expiração especificada.
-* As métricas padrão dos relatórios são receita. Para alterar as métricas padrão, consulte [Seleção de métricas padrão de relatório](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default).
+* As métricas padrão dos relatórios são receita. Para alterar as métricas padrão, consulte [Seleção de métricas padrão de relatório](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
 * Exibir esses relatórios nos formatos de tendência e classificados.
 * É possível usar Classificações nesses relatórios, para renomear e consolidar os itens de linha.
 * Esses relatórios podem ser analisados pelo seguinte se as sub-relações básicas estiverem ativadas:
 
    * Campanhas e Produtos, com todas as classificações relacionadas
-   * Fidelidade do cliente
+   * Fidelidade do Cliente
    * Todas eVars completamente subrrelacionadas
 
 * Relatórios adicionais estão disponíveis para analisar quando as sub-relações completas estiverem ativadas:
@@ -39,7 +39,7 @@ Alguns relatórios existentes contém métricas de tráfego e conversão (ex: re
    * Páginas e Seções do site, com todas as classificações relacionadas
    * Páginas de entrada
    * Quase todos os relatórios de fontes de tráfego
-   * Número de visitas
+   * Número da visita
    * Muitos relatórios de perfil e tecnologia do visitante
    * Todas as outras eVars
    * Primeiro e último contato de canais de marketing
