@@ -7,7 +7,7 @@ title: Relatórios de fontes de tráfego
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ Por exemplo, se um visitante clica em um link do Site A e chega do site, Site A 
 
 Os domínios ou URLs que não façam parte desses domínios e URLs definidos são considerados referenciadores. Por exemplo, se a página da Web A e a página da Web B são adicionadas ao filtro interno de URL, mas a página da Web C não é. Nesse caso, a página da Web C é considerada um referenciador.
 
-Consulte [Filtros internos de URL](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) na ajuda do [!DNL Admin Console] para obter mais informações.
+Consulte [Filtros internos de URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
 >[!NOTE]
 >
