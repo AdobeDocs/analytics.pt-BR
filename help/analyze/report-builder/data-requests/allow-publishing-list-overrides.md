@@ -5,9 +5,9 @@ seo-title: Permitir substituições da lista de publicação
 solution: Analytics
 title: Permitir substituições da lista de publicação
 topic: Construtor de relatórios
-uuid: f 2 cc 9878-ab 54-4 c 6 f -8 a 88-3 f 3 b 579955 e 3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Quando você agenda um relatório, pode escolher uma lista de publicação para 
 
 A publicação de listas é configurada nas ferramentas administrativas do Analytics.
 
-Consulte [Publicação do gerenciador de lista](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list) na referência do Analytics.
+Consulte [Publicação do gerenciador de lista](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html) na referência do Analytics.
 
 Para ativar esse recurso, navegue até a janela [!UICONTROL Assistente de solicitações: etapa 1].
 
