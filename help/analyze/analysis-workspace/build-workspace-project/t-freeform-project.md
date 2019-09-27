@@ -6,9 +6,9 @@ seo-title: Criar um projeto da Workspace
 solution: Analytics
 title: Criar um projeto da Workspace
 topic: Reports and Analytics
-uuid: c 1 def 77 a-a 76 e -4699-9 feb -1 ede 5 b 70 b 7 ba
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -23,7 +23,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
 1. Especifique a permissão de usuário para criar e preparar os projetos.
 
-   Antes de criar ou preparar um projeto de Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos na Analysis Workspace]** ativada ou ao grupo de usuários **Todo acesso a relatório[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   Antes de criar ou preparar um projeto de Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos na Analysis Workspace]** ativada ou ao grupo de usuários **Todo acesso a relatório[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >Às vezes, uma mensagem «Conjunto de relatórios incompatível» aparece ao carregar um projeto (ou alternar para um conjunto de relatórios) onde nem todos os componentes (métricas/dimensões) incluídos no projeto são incluídos no conjunto de relatórios. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
+   >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components (metrics/dimensions) included in the project are included in the report suite. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,11 +88,11 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >Depois de copiar/salvar como, os intralinks agora são relativos ao projeto em que vivem, e não ao projeto original do qual foram copiados.
+   >Depois de copiar/salvar como, os links internos agora são relativos ao projeto em que vivem, não ao projeto original do qual foram copiados.
 
 ## Adicionar Componentes e Visualizações {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. Crie seu projeto arrastando *`components`* e *`visualizations`* para o projeto.
 
    **Componentes**
 
@@ -112,11 +112,11 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão da tabela de dados. </p> </td> 
+   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão para a tabela de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Casos de uso da Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Casos de uso para a Analysis Workspace</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
