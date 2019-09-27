@@ -1,20 +1,20 @@
 ---
-description: Etapas sobre como executar os diferentes tipos de relatório.
-seo-description: Etapas sobre como executar os diferentes tipos de relatório.
+description: Etapas para executar os diferentes tipos de relatório.
+seo-description: Steps on running the different report types.
 seo-title: Executar tipos de relatórios diferentes
 solution: Analytics
 title: Executar tipos de relatórios diferentes
 topic: Relatórios, Reports and Analytics
-uuid: f 59 ab 2 a 1-e 916-46 e 8-bb 5 b-e 6361 ba 00 dda
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # Executar tipos de relatórios diferentes
 
-Etapas sobre como executar os diferentes tipos de relatório.
+Etapas para executar os diferentes tipos de relatório.
 
 
 ## Executar um relatório classificado {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-Consulte [Relatórios de conversão](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion) para uma descrição.
+Consulte [Relatórios de conversão](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) para uma descrição.
 
 ## Executar um relatório de fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Dê uma olhada no novo painel [Análise de fallout](https://marketing.adobe.com/
 
 >[!MORE_LIKE_THIS]
 >
->* [Descrição do relatório de fallout](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [Descrição do relatório de fallout](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## Executar um relatório de fluxo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 Dê uma olhada na nova [Visualização de fluxo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) da Analysis Workspace!
 
-Execute um relatório [Caminhos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths).
+Execute um relatório [Caminhos](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,11 +155,11 @@ t_anomaly_view.xml
 
 Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) na Analysis Workspace!
 
-**[!UICONTROL Relatórios]** &gt; **[!UICONTROL Métricas do site]** &gt; **[!UICONTROL Detecção]** de anomalias.
+**[!UICONTROL Relatórios]** &gt; Métricas **[!UICONTROL do]** site &gt; Detecção **[!UICONTROL de anomalias]** .
 
 >[!NOTE]
 >
->Também é possível executar a Detecção de anomalias a partir de projetos da Analysis Workspace. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>You can also run Anomaly Detection from within Analysis Workspace projects. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Para obter informações sobre como configurar uma Detecção de anomalias, consulte o [Guia de referência](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -184,9 +184,9 @@ A Detecção de anomalias mostra dois tipos de gráficos: um gráficos resumidos
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Os valores percentuais de desvio (à esquerda do gráfico) são calculados da seguinte forma: 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Se os limites superiores e o valor esperado são os mesmos, o % de desvio é de 100%. </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Do contrário, o % de desvio é is ((valor real - valor limite superior)/(valor limite superior - valor esperado)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Se os limites inferiores e o valor esperado forem os mesmos, o % de desvio será -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Do contrário, o % de desvio é ((valor limite inferior - valor real)/(valor esperado - valor limite inferior)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">Otherwise the deviation % is ((actual value - upper bound value) / (upper bound value - expected value)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Mais</a> sobre a segmentação. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicar em <span class="uicontrol">Editar métricas</span> permite selecionar e desmarcar as métricas nas quais deseja detectar anomalias. </li> 
@@ -243,7 +243,7 @@ Você configura uma Detecção de anomalias independentemente para cada conjunto
 
    Consulte o [Guia de Segmentação do Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) para obter mais informações sobre a criação e o gerenciamento de segmentos. 1. (Opcional) Marque como favorito ou insira um marcador no relatório.
 1. (Opcional) Altere a data final do Período de visualização. O padrão é ontem.
-1. Você pode começar a interpretar o relatório. [Exibindo gráficos de Detecção de anomalias](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. Você pode começar a interpretar o relatório. [Exibindo gráficos](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de Detecção de anomalias.
 
 ## Executar um relatório em tempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -270,7 +270,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Selecione o Conjunto de relatórios</strong></td> 
-   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">Configuração dos relatórios em tempo real </a>. </td> 
+   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuração dos relatórios em tempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Alternar entre relatórios</strong></td> 
