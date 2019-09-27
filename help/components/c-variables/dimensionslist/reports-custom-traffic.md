@@ -4,10 +4,10 @@ seo-description: Os relatórios de tráfego personalizados permitem que cada org
 seo-title: Tráfego personalizado
 solution: Analytics
 title: Tráfego personalizado
-topic: 'Relatórios  '
-uuid: 627 e 8 f 34-e 8 f 7-4 f 79-919 b-f 6237 f 85685 d
+topic: Relatórios
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,8 +18,8 @@ Os relatórios de tráfego personalizados permitem que cada organização relate
 
 ## Propriedades dos relatórios de tráfego personalizados {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* Os relatórios de tráfego personalizados baseiam-se em [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn) (variáveis de tráfego).
-* A métrica padrão dos relatórios são as exibições de página (ou instâncias na versão 15). As exibições de página da versão 14 e as instâncias da versão 15 são idênticas, nas quais contam o número total de vezes em que a variável foi definida. As exibições de página da versão 15 contam somente o número de *`s.t()`* solicitações de imagem (excluindo *`s.tl()`* solicitações).
+* Os relatórios de tráfego personalizados baseiam-se em [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (variáveis de tráfego).
+* A métrica padrão dos relatórios são as exibições de página (ou instâncias na versão 15). As exibições de página da versão 14 e as instâncias da versão 15 são idênticas, nas quais contam o número total de vezes em que a variável foi definida. As exibições de página da versão 15 contam somente o número de  image requests (excluding  requests).*`s.t()`**`s.tl()`*
 
 * A definição de caminho pode ser ativada se estiver incluída no contrato de sua organização e se for solicitada por um usuário suportado. Quando a definição de caminho estiver ativada por uma variável de tráfego, as seguintes métricas estarão disponíveis:
 * 
@@ -29,7 +29,7 @@ Os relatórios de tráfego personalizados permitem que cada organização relate
    * Entradas
    * Saídas
    * Recargas
-   * Acesso único
+   * Único Acesso
    * Visitas
 
 * Você pode usar as métricas de participação nos relatórios de tráfego. Esse uso deve ser solicitado e incluído no contrato de sua organização.
