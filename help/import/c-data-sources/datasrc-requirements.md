@@ -3,12 +3,12 @@ description: Informações sobre os requisitos do conjunto de relatórios antes 
 seo-description: Informações sobre os requisitos do conjunto de relatórios antes de usar as Fontes de dados.
 seo-title: Requisitos e limites de upload
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Requisitos e limites de upload
 topic: Desenvolvedor e implementação
-uuid: d 79 fca 77-fa 0 e -4171-b 978-cdee 5 c 67 d 9 df
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -35,9 +35,9 @@ As seções a seguir apresentam as limitações aplicáveis às Fontes de dados 
 * É possível importar apenas dados com datas atuais ou passadas. Não tente usar datas futuras nos dados de Fontes de dados.
 * Todas as linhas devem ter uma data especificada para habilitar os recursos gráficos do relatório. Se uma linha não tiver data, as Fontes de Dados gerarão um erro e rejeitarão o arquivo. O formato da data/hora varia de acordo com o tipo de fonte de dados:
 
-   * **Fontes de dados de processamento completos**: Use o formato de data ISO 8601 ( `YYYY-MM-DDThh:mm:ss±UTC_offset` por exemplo `2013-09-01T12:00:00-07:00`,) ou o Formato de hora Unix (o número de segundos decorridos desde 1 ° de janeiro de 1970).
+   * **Full Processing Data Sources: Use the ISO 8601 date format of  (for example, ), or Unix Time Format (the number of seconds elapsed since January 1, 1970).**`YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`
 
-   * **Fontes de dados padrão e de integração**: Use o seguinte formato de data: `MM/DD/YYYY/HH/mm/SS` (por exemplo `01/01/2013/06/00/00`,)
+   * **Fontes** de dados padrão e de integração: Use o seguinte formato de data: `MM/DD/YYYY/HH/mm/SS` (por exemplo, `01/01/2013/06/00/00`)
 
 ## Geral {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -60,7 +60,7 @@ As Fontes de Dados oferecem suporte para codificação de múltiplos bytes. As F
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">Novo conjunto de relatórios</a> em Ajuda </p> </td> 
+   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Novo conjunto de relatórios</a> em Ajuda </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 com Byte Order Mark (EF BB BF) </td> 
