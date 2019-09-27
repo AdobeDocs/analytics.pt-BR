@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de versão
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Desenvolvedor e implementação
-uuid: 15 c 20 bca -4886-4 d 57-9957-fe 99743851 EA
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Esses sdks foram interrompidos e não são mais suportados ou distribuídos pela Adobe.
+>These SDKs have been sunset and are no longer supported or distributed by Adobe.
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Para localizar a versão atual da biblioteca, ative o registro de depuração.
 
 ## Versão 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Data de lançamento: **agosto de 2014**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Removed support for the . [!DNL Microsoft Silverlight Analytics Framework] Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * Alterações internas para suportar recursos futuros.
 
@@ -43,7 +43,7 @@ Data de lançamento: **fevereiro de 2013**
 
 * Adicionado suporte para enviar URLs maiores que 255 bytes para suportar a expansão do campo URL da página nos servidores de coleta de dados da Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Isso ajuda a evitar que URLs longos tenham precedência em relação a outros dados no caso de truncagem, mas ainda permite a captura de URLs longos.
 
-* Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
 
    ```js
