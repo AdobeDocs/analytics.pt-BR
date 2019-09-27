@@ -3,9 +3,9 @@ description: Configure usuários e saiba mais sobre amostra de dados.
 seo-description: Configure usuários e aprenda sobre amostra de dados.
 seo-title: Administração
 title: Administração
-uuid: 12 f 90223-139 f -4 a 8 d-bfd 3-5 cd 9 af 7489 d 2
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
+1. Faça logon no [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**, then click **[!UICONTROL Manage Users]**.
+1. Clique em **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gerenciamento **** do usuário e clique em **[!UICONTROL Gerenciar usuários]**.
 1. Localize o usuário e clique em **[!UICONTROL Encerrar.]**
 
    Na página [!UICONTROL Sessões ativas da Ad Hoc Analysis], o usuário que estiver inativo por mais tempo aparece no topo da lista.
@@ -154,6 +154,6 @@ Então, para manter o número de ocorrências para essa fatia de 365 dias abaixo
 
 >[!MORE_LIKE_THIS]
 >
->* [Usuários](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [Usuários](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
