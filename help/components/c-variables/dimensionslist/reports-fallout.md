@@ -4,15 +4,15 @@ seo-description: Mostra onde os visitantes saem (fallout) e continuam a navegar 
 seo-title: Fallout
 solution: Analytics
 title: Fallout
-topic: 'Relatórios  '
-uuid: 2385834 e-a 1 b 1-4 ac 5-9530-3 afde 6 d 02 d 3 d
+topic: Relatórios
+uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Saída
+# Fallout
 
 Mostra onde os visitantes saem (fallout) e continuam a navegar (fallthrough) em uma sequência pré-especificada de páginas. Ele também mostra as taxas de conversão e saída entre cada etapa. Por exemplo, você pode acompanhar os pontos de saída de um visitante durante um processo de compra. Selecione um ponto de partida e um ponto de conclusão e adicione pontos intermediários para criar um caminho de navegação no site.
 
@@ -28,10 +28,10 @@ Consulte [Jornada do cliente - Fallout](https://marketing.adobe.com/resources/he
 
 ** Reports and Analytics **
 
-Consulte [Executar um relatório de fallout](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_reports_fallout) na Ajuda para obter informações de configuração.
+Consulte [Executar um relatório de fallout](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html) na Ajuda para obter informações de configuração.
 
 ** Ad Hoc Analysis **
 
 Analise os dados de fallout no nível da visita ou do visitante. Também é possível ver um caminho de tendência que mostra um gráfico do seu saída durante determinado período. É possível definir páginas individuais ou grupos de páginas como pontos de verificação do relatório ou adicionar qualquer dimensão ou métrica em qualquer combinação ou sequência. Também é possível usar categorias configuradas em relatórios de marketing como pontos de verificação desse relatório.
 
-Consulte o [Relatório de fallout](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_reports_fallout) na Ajuda para obter informações de configurações.
+Consulte o [Relatório de fallout](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) na Ajuda para obter informações de configurações.
