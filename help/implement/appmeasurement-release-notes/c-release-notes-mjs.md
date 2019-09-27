@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -40,7 +40,7 @@ Data de lançamento: **15 de agosto de 2019**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. `SendBeacon` não é executado no contexto de uma página, mas no contexto do navegador. Ou seja, se uma página for descarregada com `sendBeacon`, a solicitação ainda será concluída. Isso é muito útil para links de saída, pois aumentará a probabilidade de a solicitação de link de saída ser concluída. |
+| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. That is if a page unloads with , the request will still be completed. `sendBeacon` This is very useful for exit links because it will make it much more likely that the exit link request will be completed. |
 | Valores de ECID/fid | Os valores de ECID/fid são agora armazenados em cache na primeira ocorrência, mesmo se as configurações OptIn forem alteradas. |
 | DIL 9.3 | Atualização do módulo Gerenciamento de Público-Alvo para DIL 9.3 |
 | Rastreamento de alcance de rolagem | Exibição do botão no s.ActivityMap.trackScrollReach para ativar ou desativar o rastreamento de alcance de rolagem. |
@@ -64,7 +64,7 @@ Data de lançamento: **21 de maio de 2019**
 
 Data de lançamento:**10 de abril de 2019**
 
-Correção de muitos problemas relatados com clearVars. O problema ocorre quando as ocorrências são enviadas antes que o rastreador esteja pronto. Quando o rastreador estiver pronto, a biblioteca poderá definir variáveis que já foram limpas ou alteradas. (AN-176931, AN-176629, DTM-12758).
+Fix for many reported problems with clearVars. O problema ocorre quando as ocorrências são enviadas antes que o rastreador esteja pronto. When the tracker becomes ready, the library can set variables that have already been cleared or changed. (AN-176931, AN-176629, DTM-12758).
 
 ## Versão 2.12.0
 
@@ -353,11 +353,11 @@ Data de lançamento: **21 de maio de 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensão para iOS</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">Implementação da extensão para iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Implementação da extensão para iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensão portátil para Android</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Extensão portátil para Android </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extensão portátil para Android </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Data de lançamento: **18 de setembro de 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## Versão 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,11 +441,11 @@ Data de lançamento: **21 de agosto de 2014**
 * O rastreamento de plug-ins de navegadores foi removido (parâmetro de consultas `p`), já que os plug-ins não são mais relatados na versão 15.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Adicionado suporte para [eVars adicionais](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) (76 - 250) e eventos (101-1000).
+Adicionado suporte para [eVars adicionais](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) e eventos (101-1000).
 
 >[!NOTE]
 >
->O código H não suporta eVars e eventos adicionais.
+>H-Code does not support the additional eVars and events.
 
 [!DNL JavaScript]
 
@@ -460,7 +460,7 @@ Data de lançamento: **19 de junho de 2014**
 
 Data de lançamento: **22 de maio de 2014**
 
-* [!DNL AppMeasurement] para [!DNL JavaScript] função não `s_gi` encontrava corretamente instâncias criadas usando o código H `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] for [!DNL JavaScript] `s_gi` function was not correctly finding instances created using H code `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## Versão 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
@@ -497,7 +497,7 @@ Data de lançamento: **15 de novembro de 2013**
 Data de lançamento: **14 de novembro de 2013**
 
 * Suporte adicionado para [medição de vídeo de heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* [!DNL VisitorAPI.js] foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 
 ## Versão 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * Suporte nativo para obter parâmetros de consulta, cookies de leitura e gravação e executar rastreamento de links avançado.
 * Pequeno e rápido o suficiente para ser usado em sites móveis e robusto o suficiente para ser usado na Web completa para desktop, permitindo que você utilize uma única biblioteca em todos os ambientes da Web.
 
-Veja [AppMeasurement para Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) no Guia de implementação do [!DNL Analytics]
+Veja [AppMeasurement para Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) no Guia de implementação do [!DNL Analytics]
 
 >[!NOTE]
 >
->Alguns plug-ins não são suportados nesta nova versão. Consulte [Suporte de plug-ins](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) para obter detalhes.
+>Some plug-ins are not supported in this new version. Consulte [Suporte de plug-ins](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) para obter detalhes.
