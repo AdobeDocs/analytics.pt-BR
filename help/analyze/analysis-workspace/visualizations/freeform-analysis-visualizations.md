@@ -6,9 +6,9 @@ seo-title: Visão geral das visualizações
 solution: Analytics
 title: Visão geral das visualizações
 topic: Reports and Analytics
-uuid: 318 dea 64-6277-4 ec 3-ad 48-4 dfcb 7 a 54555
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 Saiba mais sobre visualizações e configurações de exibição na Analysis Workspace.
 
-[Tipos de visualização na Analysis Workspace no youtube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Tipos de visualização na Analysis Workspace no YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -33,7 +33,7 @@ Para acessar as [!UICONTROL Configurações de visualização], arraste uma visu
 
 >[!IMPORTANT]
 >
->As configurações de visualização visíveis dependem da visualização. Nem todas as configurações se aplicam a todas as visualizações. Além disso, algumas configurações avançadas aparecem **apenas** para visualizações específicas, como as [Configurações de histograma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>As configurações de visualização que estão visíveis dependem da visualização. Nem todas as configurações se aplicam a todas as visualizações. Além disso, algumas configurações avançadas aparecem **apenas** para visualizações específicas, como as [Configurações de histograma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ Para acessar as [!UICONTROL Configurações de visualização], arraste uma visu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalização </p> </td> 
-   <td colname="col2"> <p>Força as métricas para proporções iguais. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>Força as métricas para proporções iguais. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalização</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exibir eixo duplo </p> </td> 
-   <td colname="col2"> <p>Somente se aplica se você tiver duas métricas - você pode ter um eixo Y à esquerda (para uma métrica) e à direita (para a outra métrica). </p> </td> 
+   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar anomalias </p> </td> 
