@@ -5,9 +5,9 @@ seo-title: Visão geral dos relatórios
 solution: Analytics
 title: Visão geral dos relatórios
 topic: Ad Hoc Analysis
-uuid: 36722 dcd -5 dc 9-4047-8 a 17-16 de 876193 bf
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## Visão geral dos relatórios {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte o [Gerente de campanha](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) na ajuda do [!DNL Admin Console] para obter mais informações.
+Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte o [Gerente de campanha](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
 ## Cálculos estatísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -105,7 +105,7 @@ A função de média é calculada de forma similar às colunas de dados no Micro
    <th colname="col1" align="center" class="entry"> Data </th> 
    <th colname="col2" align="center" class="entry"> Visitas únicas </th> 
    <th colname="col3" align="center" class="entry"> Entradas </th> 
-   <th colname="col4" align="center" class="entry"> Taxa de rejeição </th> 
+   <th colname="col4" align="center" class="entry"> Taxa de rejeição  </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
  </thead>
