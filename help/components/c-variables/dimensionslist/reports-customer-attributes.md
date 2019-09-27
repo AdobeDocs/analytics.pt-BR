@@ -2,11 +2,11 @@
 description: Perguntas frequentes do Analytics para os atributos do cliente, e como executar o relatório de atributos do cliente.
 seo-description: Perguntas frequentes do Analytics para os atributos do cliente, e como executar o relatório de atributos do cliente.
 seo-title: Atributos do cliente
-solution: Experience Cloud,Analytics
+solution: Experience Cloud, Analytics
 title: Atributos do cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,11 +22,11 @@ Se você capturar os dados de clientes de empresas em um banco de dados de geren
 * [Atributos do cliente e métricas de relatórios no Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Perguntas frequentes: atributos do cliente no Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Consulte [Atributos do cliente](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes) na ajuda da Experience Cloud para obter informações sobre o upload de dados de atributo do cliente.
+Consulte [Atributos do cliente](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) na ajuda da Experience Cloud para obter informações sobre o upload de dados de atributo do cliente.
 
 ## Atributos do cliente e métricas de relatórios no Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
-Depois de fazer upload dos atributos do cliente e validar o esquema (na Experience Cloud), o sistema cria métricas com base nos nomes amigáveis (como *`age`* ou *`gender`*) que você mapeia para as sequências de caracteres e números inteiros do atributo. These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+After you upload customer attributes and validate the schema (in the Experience Cloud), the system creates metrics based on the friendly names (like  or ) that you map to the attribute strings and integers. *`age`**`gender`* These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
 
 Por exemplo:
 
@@ -42,7 +42,7 @@ Se você especificar uma sequência como *`age`*, o sistema cria as seguintes m�
 * Métrica de idade: uma métrica que pode ser adicionada a um relatório, como um relatório de Visitantes únicos.
 * Contagem da métrica Idade: permite saber, por exemplo, se os visitantes especificaram um valor de *`age`* em um formulário.
 
-Como as métricas são os totais na tabela de um relatório, [crie uma métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) que informa a idade média. A fórmula para essa métrica é `Age / Count of Age`.
+Como as métricas são os totais na tabela de um relatório, [crie uma métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) que informa a idade média. The formula for this metric is .`Age / Count of Age`
 
 ## Perguntas frequentes: atributos do cliente no Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 
