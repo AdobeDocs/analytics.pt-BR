@@ -1,14 +1,14 @@
 ---
 description: 'null'
-keywords: Feed de dados; tarefa; visitantes; Experience Cloud ID; ID do visitante do Analytics; identify
+keywords: Feed de dados;tarefa;visitantes;Experience Cloud ID;id do visitante do Analytics;identificar
 seo-description: 'null'
 seo-title: Identificar visitantes
 solution: Analytics
 title: Identificar visitantes
 topic: Reports and Analytics
-uuid: 2490 b 67 e-a 333-422 d -82 fa-cb 0670 ef 2 e 0 c
+uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,7 +21,7 @@ O Analytics oferece diversos mecanismos para identificar visitantes (listados em
 
 1. Exclude all rows where `exclude_hit > 0`.
 1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8 e 9 são linhas de resumo carregadas por meio de fontes de dados. 7 representa os carregamentos de fonte de dados da ID de transação que não devem ser incluídos nas contagens de visita e de visitante. Consulte [Pesquisa de fonte de hit](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
-1. Combine `post_visid_high` with `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
+1. Combine `post_visid_high` com `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
 Caso queira determinar qual mecanismo foi usado para definir o valor da ID de visitante (por exemplo, para calcular a aceitação de cookies), o `post_visid_type` possui uma chave de pesquisa que indica qual método de ID foi usado. As chaves de pesquisa estão listadas juntamente com os mecanismos de ID de visitante na [tabela abaixo](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
 
@@ -41,11 +41,11 @@ Existem várias maneiras de identificar um visitante no Analytics (listadas na t
 
 | Pedido usado | Parâmetro de consulta (método de coleta) | Valor da coluna post_visid_type | Presente quando |
 |---|---|---|---|
-| ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) | 0 | s.visitorID está configurada. |
-| ![](assets/step2_icon.png) | [aid (s_vi cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics) | 3 | O visitante possuía um cookie s_vi antes da implantação do serviço de ID de visitante ou seu [período de carência](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_grace_period) da ID de visitante está configurado. |
-| ![](assets/step3_icon.png) | [mid (cookie AMCV_ cookie definido pelo Serviço de identidade)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | O navegador do visitante aceita cookies (originais) e o Serviço de identidade é implantado. |
-| ![](assets/step4_icon.png) | [fid (cookie de fallback em H.25.3 ou mais recente, ou AppMeasurement para JavaScript)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback) | 4 | O navegador do visitante aceita cookies (originais). |
-| ![](assets/step5_icon.png) | [Cabeçalho de inscrição em dispositivos móveis HTTP](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_mobile) | 2 | O dispositivo é reconhecido como um dispositivo móvel. |
-| ![](assets/step6_icon.png) | [Endereço IP, Agente do usuário, Endereço IP de gateway](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback) | 1 | O navegador do visitante não aceita cookies. |
+| ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | s.visitorID está configurada. |
+| ![](assets/step2_icon.png) | [aid (s_vi cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | O visitante possuía um cookie s_vi antes da implantação do serviço de ID de visitante ou seu [período de carência](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html) da ID de visitante está configurado. |
+| ![](assets/step3_icon.png) | [mid (cookie AMCV_ definido pelo Serviço de identidade)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | Visitor's browser accepts cookies (first-party), and the Identity Service is deployed. |
+| ![](assets/step4_icon.png) | [fid (cookie de fallback em H.25.3 ou mais recente, ou AppMeasurement para JavaScript)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | O navegador do visitante aceita cookies (originais). |
+| ![](assets/step5_icon.png) | [Cabeçalho de inscrição em dispositivos móveis HTTP](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | O dispositivo é reconhecido como um dispositivo móvel. |
+| ![](assets/step6_icon.png) | [Endereço IP, Agente do usuário, Endereço IP de gateway](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | O navegador do visitante não aceita cookies. |
 
 Em diversos cenários você poderá ver 2 ou 3 IDs distintas em uma chamada, mas o Analytics usará a primeira ID da lista como a ID de visitante oficial e separará o valor entre as colunas `post_visid_high` e `post_visid_low`. Por exemplo, se você estiver enviando uma ID de visitante personalizada (incluída no parâmetro de consulta "vid"), essa ID será usada antes de outras IDs que possam estar presentes nessa mesma ocorrência.
