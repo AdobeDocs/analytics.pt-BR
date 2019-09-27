@@ -1,19 +1,19 @@
 ---
 description: Etapas que você pode adotar como preparação para usar as fontes de dados
 seo-description: Etapas que você pode adotar como preparação para usar as fontes de dados
-seo-title: Preparação para usar fontes de dados
+seo-title: Preparação para usar as Fontes de dados
 solution: Analytics
-subtopic: Fontes de dados
-title: Preparação para usar fontes de dados
+subtopic: Data sources
+title: Preparação para usar as Fontes de dados
 topic: Desenvolvedor e implementação
-uuid: 876 ea 069-574 b -4 e 23-93 b 7-e 3828 bfd 90 f 5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Preparar-se para usar as Fontes de Dados
+# Preparar para usar as Fontes de Dados
 
 Etapas que você pode adotar como preparação para usar as fontes de dados
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 Depois de determinar os mapeamentos adequados de métrica para eventos para os dados da Fonte de dados, renomeie os eventos com os nomes descritivos adequados à métrica das Fontes de dados associada.
 
-Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) na Ajuda das Ferramentas administrativas.
+Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) na Ajuda das Ferramentas administrativas.
 
 >[!NOTE]
 >
->A Adobe recomenda usar eventos novos e vazios com dados de Fontes de Dados, mas em casos raros pode fazer sentido usar um evento pré-existente.
+>Adobe strongly recommends using new, empty events with Data Sources data, but in rare cases it might make sense to use a pre-existing event.
 
 ## Identificação das Dimensões de Dados {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,7 +41,7 @@ Identifique e colete os dados (relatórios) que deseja usar para analisar as mé
 
 Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a dimensão de dados provavelmente será um código de acompanhamento da campanha. Se você estiver medindo vendas off-line, convém usar o código do produto (ou SKU) como sua dimensão de dados.
 
-É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados  *`Product`* e *`Partner`* dimensões de dados, a métrica de vendas offline deve ser relevante para cada combinação de produto e parceiro (por exemplo, Receita total).
+É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados  *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Após definir as dimensões dos dados para usar com uma fonte de dados, integre 
 
 No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Após selecionar uma eVar para receber uma dimensão de dados das Fontes de dados, não deixe de nomeá-la adequadamente.
 
-Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) na Ajuda do Analytics.
+Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) na Ajuda do Analytics.
 
 ## Código de rastreamento de campanha {#section_468222796FF449ABAA90D88EB3264CB1}
 
