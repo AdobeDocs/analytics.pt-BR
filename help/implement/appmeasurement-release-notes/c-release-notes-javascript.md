@@ -8,7 +8,7 @@ title: Código H JavaScript - herdado
 topic: Desenvolvedor e implementação
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Notas de versão acumuladas para o código herdado JavaScript H.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ Agora, o hash/fragmento é omitido para que o link seja rastreado somente quando
 
 Data de lançamento: **29 de abril de 2013**
 
-* A opção `useForcedLinkTracking` descrita em [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) aplica-se agora ao Firefox 20+ (antes se aplicava somente aos navegadores WebKit).
+* A opção `useForcedLinkTracking` descrita em [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) aplica-se agora ao Firefox 20+ (antes se aplicava somente aos navegadores WebKit).
 
 * A geração da ID do objeto da imagem agora é exclusiva entre instâncias. Isso evita colisões quando há mais de uma instância na mesma página.
 
@@ -187,7 +187,7 @@ Data de lançamento: **janeiro de 2013**
 * Corrigido o tratamento de decodificação de URL em sequências que estão codificadas com um uso misturado entre `escape` e `encodeURIComponent`.
 
 * Corrigido um problema nos navegadores WebKit em que o rastreamento de link falha se a primeira chamada do servidor na página expirar.
-* Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
 
 ```js
