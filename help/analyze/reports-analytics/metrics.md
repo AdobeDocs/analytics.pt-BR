@@ -5,9 +5,9 @@ seo-title: Métricas
 solution: Analytics
 title: Métricas
 topic: Reports and Analytics
-uuid: ae 2021 eb -8 b 26-4 a 98-b 7 a 0-ce 36 bca 46753
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ As métricas e dados associados são exibidos nas colunas dos relatórios. Métr
 
 [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) são criadas pela combinação de métricas.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## Selecionar métricas de relatório padrão {#task_9537A607288A4450AE07EC7C070B47C6}
 
