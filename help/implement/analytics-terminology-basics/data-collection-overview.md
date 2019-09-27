@@ -1,19 +1,19 @@
 ---
 description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
-keywords: Implementação do Analytics; coleta de dados
+keywords: Implementação do Analytics;coleta de dados
 seo-description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
-seo-title: Coleção de dados
+seo-title: Coleta de dados
 solution: Analytics
-title: Coleção de dados
+title: Coleta de dados
 topic: Desenvolvedor e implementação
-uuid: d 0 d 6098 d -113 e -4 cf 5-bb 89-e 435 f 7 b 6 b 1 af
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Coleção de dados
+# Coleta de dados
 
 Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
 
@@ -61,7 +61,7 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
    >[!NOTE]
    >
-   >Cada solicitação de imagem contém uma sequência de caracteres aleatória para impedir o armazenamento em cache do navegador e garantir que as solicitações de imagem subsequentes sejam feitas pelo navegador.
+   >Cada solicitação de imagem contém uma string de número aleatório para impedir o armazenamento em cache do navegador e garantir que as solicitações de imagem subsequentes sejam feitas pelo navegador.
 
 1. A Adobe retorna uma imagem pixelada transparente.
 
@@ -69,11 +69,11 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
    O código coleta detalhes adicionais automaticamente (como sistema operacional, tipo de navegador, altura e largura do navegador, endereço IP e idioma do navegador).
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Os servidores da Adobe armazenam dados de análise da Web em *`report suites`* (seu repositório de dados).
 
    ![](assets/how-data-is-collected-5.png)
 
-   Um [conjunto de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin) define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web.
+   Um [conjunto de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web.
 
 1. Os dados do conjunto de relatórios preenchem os relatórios que você pode acessar por um navegador.
 
@@ -87,7 +87,7 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
 Para obter mais detalhes, consulte:
 
-* [Coleção de dados](../../implement/js-implementation/data-collection/query-parameters.md)
+* [Coleta de dados](../../implement/js-implementation/data-collection/query-parameters.md)
 * [Criar um elemento de dados](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
