@@ -1,14 +1,14 @@
 ---
 description: O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
-keywords: práticas recomendadas; falha; tempo limite; solução de problemas; slow
+keywords: práticas recomendadas;falha;tempo limite;solução de problemas;lento
 seo-description: O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
 seo-title: Relatando práticas recomendadas e solucionando problemas
 solution: Analytics
 title: Relatando práticas recomendadas e solucionando problemas
-topic: 'Relatórios  '
-uuid: d 4 eef 0 a 3-1 d 26-4460-8 a 2 b -962001 c 9 f 846
+topic: Relatórios
+uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 0d4e5bfc0f45b7b3ed9b89df25bcef0730a011d9
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: 0d4e5bfc0f45b7b3ed9b89df25bcef0730a011d9
 
 O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
 
->[!Note]
+>[!Nnota]
 >Essas recomendações se aplicam ao Relatórios e análises, Análise ad hoc e Construtor de relatórios.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse_bp). Um conjunto adicional de
->[as práticas recomendadas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) estão disponíveis para a API de relatórios do Adobe Analytics.
+>Eles não se aplicam à Analysis Workspace, que tem seu próprio conjunto de práticas [](/help/analyze/analysis-workspace/optimizing-performance.md)recomendadas. They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Um conjunto adicional de
+>[as práticas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) recomendadas estão disponíveis para a API de relatórios do Adobe Analytics.
 
 ## Relatar limites de tempo e relação de solicitações {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
