@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Regras de processamento
 title: Visão geral das regras de processamento
 topic: Ferramentas administrativas
-uuid: 6 b 4 ee 7 c 9-2 b 86-47 a 6-b 64 c-c 8 d 644 fff 67 d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -43,7 +43,7 @@ Agora, os administradores têm direito de usar as regras de processamento **por 
 
 >[!IMPORTANT]
 >
->Como as regras de processamento afetam permanentemente os dados do Analytics, recomendamos que os usuários recebam treinamentos de certificação no Adobe Analytics e familiarizem-se com todas as fontes de dados dos conjuntos de relatórios (sites padrão, sites móveis, aplicativos móveis, API de inserção de dados etc). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
+>Because processing rules permanently affect Analytics data, we strongly recommend that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
 
 ## Usar dados de contexto para simplificar a coleção de dados {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ As variáveis de dados de contexto configuram um novo tipo de variável, dispon�
 
 ![](assets/evar-context-map.png)
 
-Consulte [Variáveis de dados de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) na Ajuda de implementação.
+Consulte [Variáveis de dados de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) na Ajuda de implementação.
 
 ## Usar regras de processamento para transformar dados de ocorrência e eventos de acionador {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ Regras de processamento podem monitorar valores recebidos para transformar erros
 
 Após definir os dados de contexto na implementação, é necessário copiá-los para variáveis, como eVars para uso em relatórios.
 
-Para obter mais informações, acesse [aqui](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) e [](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)aqui.
+Para obter mais informações, acesse [here](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) and [here](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
