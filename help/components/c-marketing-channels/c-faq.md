@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Perguntas frequentes e exemplos
 topic: Reports and Analytics
-uuid: 1 c 63 a 1 b 5-a 191-4855-aa 65-fac 19 ab 1037 a
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -28,7 +28,7 @@ Leia sobre as práticas recomendadas e exemplos de como popular diversas regras 
 * [Email](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [Direta](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-Consulte [Criar Regras de Processamento de Canal de Marketing](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) para definições de campos exibidos na página [!UICONTROL Regras] de processamento de Canal de marketing.
+Consulte [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## Perguntas frequentes {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
@@ -37,7 +37,7 @@ Cada implementação das regras de canal de marketing pode ser diferente, depend
 **Pergunta:** Meus códigos de acompanhamento não seguem um padrão, e existem milhares deles a serem especificados para meu canal Afiliados.
 
 * Use o processo de eliminação. Se os seus canais Email e Afiliados usam o mesmo parâmetro de sequência de consulta, mas você dispõe de apenas alguns códigos de acompanhamento de email, especifique os códigos de acompanhamento de email em um conjunto de regras que definam email. Em seguida, classifique todos os outros códigos de acompanhamento com *`affiliates.`*
-* Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página inicial, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página inicial, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
 
 **Pergunta**: Os domínios de referência contêm mais dados que eu esperava.
 
@@ -83,7 +83,7 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 >[!NOTE]
 >
->Ainda pode haver um pouco de tráfego de canal que pode cair na categoria Nenhum canal identificado. Por exemplo: um visitante entra no site, marca uma página e, na mesma visita, retorna à página por meio do marcador. Como não é a primeira página da visita, o tráfego não irá para o canal Direto nem para o canal Outro, pois não há um domínio de referência.
+>There might be still some channel traffic that can fall into the No Channel Identified category. Por exemplo: um visitante entra no site, marca uma página e, na mesma visita, retorna à página por meio do marcador. Como não é a primeira página da visita, o tráfego não irá para o canal Direto nem para o canal Outro, pois não há um domínio de referência.
 
 ## Pesquisa paga {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ Para a regra de canal de marketing, as configurações de [!UICONTROL Pesquisa P
 
 ![](assets/example_paid_search.png)
 
-Consulte [Detecção de pesquisa paga](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) em Admin para obter mais informações.
+Consulte [Detecção de pesquisa paga](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) em Admin para obter mais informações.
 
 ## Pesquisa natural {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ Para a regra de canal de marketing, as configurações de Pesquisa natural são 
 
 ![](assets/example_natural_search.png)
 
-Consulte [Detecção de pesquisa paga](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) em Admin para obter mais informações.
+Consulte [Detecção de pesquisa paga](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) em Admin para obter mais informações.
 
 ## Afiliados {#section_8D142C7074CD4DEC87DF55B691107622}
 
