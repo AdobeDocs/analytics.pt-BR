@@ -3,9 +3,9 @@ description: As métricas são informações quantitativas sobre a atividade do 
 seo-description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, datas, unidades, ordens, receita, e assim por diante. As métricas e dados associados são exibidos nas colunas dos relatórios.
 seo-title: Métricas
 title: Métricas
-uuid: ab 9 d 8 a 45-0297-4757-b 0 f 0-d 8 b 0 e 0 db 8 d 67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ As métricas padrão incluem:
 * **Conversão**: Exibe dados sobre os eventos bem-sucedidos no seu site. Os eventos bem-sucedidos podem incluir compras, downloads ou qualquer outra ação que você deseja que os usuários executem em seu Web site.
 * **Calculadas**: Métricas personalizadas criadas com base na combinação de outras métricas. Por exemplo, é possível criar uma métrica que subtraia da receita o custo da palavra-chave e o custo dos bens para obter a receita líquida. Esse valor pode então ser dividido pelo número total de pedidos para obter a média da receita líquida por pedido.
 
-Consulte [Definições de métrica](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics) nas *Referências analíticas* para obter mais informações sobre como as métricas são usadas na [!DNL Experience Cloud].
+Consulte [Definições de métrica](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) nas *Referências analíticas* para obter mais informações sobre como as métricas são usadas na [!DNL Experience Cloud].
 
 Você pode utilizar a ferramenta [!UICONTROL Organizar métricas] para criar novas pastas para suas métricas. Agrupe suas métricas da forma que desejar. O organizador permite que você copie as métricas existentes para suas pastas personalizadas usando o arrastar e soltar.
 
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >Ao excluir uma pasta, todas as métricas na pasta são excluídas do projeto atualmente selecionado.
+   >Quando você exclui uma pasta, todas as métricas da pasta são excluídas do projeto selecionado no momento.
 
 ## Adicionar métricas a um relatório {#task_747DD1718B3F4776B83A115D0BE8754C}
 
