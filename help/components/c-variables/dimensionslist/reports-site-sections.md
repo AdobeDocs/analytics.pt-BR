@@ -4,10 +4,10 @@ seo-description: Mostra as áreas de site que foram mais acessadas pelos seus vi
 seo-title: Seções do site
 solution: Analytics
 title: Seções do site
-topic: 'Relatórios  '
-uuid: 6839 c 566-f 88 f -4979-9 cf 5-52 a 77 c 0 b 0416
+topic: Relatórios
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,21 +16,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
 
-* Este relatório faz referência aos dados diretamente a partir da variável [s.canal](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) implementada no site.
+* Este relatório faz referência aos dados diretamente a partir da variável [s.canal](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementada no site.
 * Este relatório pode ser visualizado nos formatos de tendência e classificado.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
 * As Classificações podem ser usadas neste relatório, permitindo que você renomeie e consolide os itens de linha.
 * Correlações podem ser criadas com qualquer outra variável de tráfego através das Ferramentas administrativas.
 * Este relatório pode utilizar as seguintes métricas:
 
-   * **Exibições de página**: o número de vezes que a variável [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) ou o URL foi definido (configurado como a métrica padrão)
+   * **Exibições de página**: o número de vezes que a variável [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) ou o URL foi definido (configurado como a métrica padrão)
 
    * **Todas as métricas de definição de caminho**: visitas, profundidade média da página, tempo médio gasto na página, entradas, saídas, recargas e único acesso
    * Dependendo das configurações de sua organização e do conjunto de relatórios: visitantes únicos por dia, por semana, por mês e por trimestre podem ser habilitados neste relatório.
    * **Todas as métricas padrão de e-comércio**: receita, pedidos, unidades, carrinhos, visualizações do carrinho, finalizações, adições ao carrinho e remoções do carrinho.
    * **Todos os eventos personalizados**: Eventos 1-80 e Eventos 81-100 no código H22 ou superior.
 
-Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. This is different than the [Pages Report](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), which uses linear allocation.
+Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. This is different than the Pages Report, which uses linear allocation.[](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)
 
 **Informações específicas do produto**
 
@@ -59,7 +59,7 @@ Todos os eventos de conversão no [!UICONTROL relatório das seções do site] u
        <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">Seções do site </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">Páginas de entrada </li> 
        <li id="li_1201EE0EBF13476C9A9525E0700F30F3">Maioria dos relatórios de fontes de tráfego </li> 
-       <li id="li_563E07858FB1473BB22C2B191E8BE620">Número de visitas </li> 
+       <li id="li_563E07858FB1473BB22C2B191E8BE620">Número da visita </li> 
        <li id="li_1CAD77ABA6A2454282A4DA7E88C047E8">Diversos Relatórios de Perfil do Visitante </li> 
        <li id="li_D3A04E4CD8EC4646AAB90BF19F0AFA8A">Todas as variáveis de conversão e as variáveis de lista </li> 
        <li id="li_01C194CE0F3E4C0694A34B4C6697F385">Visitas, assim como Visitantes únicos por dia, por semana, por mês, por trimestre e Arbitrários estão disponíveis. </li> 
