@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Configurar o acesso do grupo de usuários
 topic: Reports and Analytics
-uuid: b 85661 af -5 e 33-4 a 92-a 756-3589 afb 2 f 457
+uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,7 +20,7 @@ Configure o acesso do grupo de usuários para os Canais de marketing.
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   Consulte [Gerenciamento do usuário](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) na *Ajuda de administração*.
+   Consulte [Gerenciamento do usuário](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) na *Ajuda de administração*.
 
 1. Clique em um nome de grupo personalizado ou clique em **Adicionar novo grupo de usuários** para criar um grupo de usuários.
 1. Em Acesso ao relatorio, habilite **Todos os acessos** ou **[!UICONTROL Sem acesso]**.
