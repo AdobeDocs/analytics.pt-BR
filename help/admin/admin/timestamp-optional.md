@@ -5,9 +5,9 @@ seo-title: Carimbos opcionais de data e hora
 solution: Analytics
 title: Carimbos opcionais de data e hora
 topic: Ferramentas administrativas
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ Consulte [Utilização de Carimbos opcionais de data e hora](/help/implement/js-
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
 
 >[!NOTE]
 >
->Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. Isso significa que uma visita/sessão será «aberta» por 92 dias enquanto qualquer ocorrência adicional - que não é 30 minutos após a ocorrência anterior (na hora da ocorrência) - ainda poderá ser incluída na mesma visita/sessão. Quaisquer ocorrências "antigas" recebidas fora do pedido produzirão resultados "desconhecidos", já que vários fatores (segmentação, alocação, expiração etc.) influência se essas ocorrências serão incluídas nos relatórios ou não.
+>Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. This means that a visit/session will be “held open” for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not.
 
 ## Novos conjuntos de relatórios {#section_095A7CFBD280494593B9BEC1592B73A6}
 
