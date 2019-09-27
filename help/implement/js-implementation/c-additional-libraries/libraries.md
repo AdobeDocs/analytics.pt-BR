@@ -1,14 +1,14 @@
 ---
 description: Lista as bibliotecas de medição disponíveis
-keywords: Implementação do Analytics; coletar; dados; coleção
+keywords: Implementação do Analytics;coletar;dados;coleta
 seo-description: Lista as bibliotecas de medição disponíveis
 seo-title: Visão geral de bibliotecas adicionais
 solution: Analytics
 title: Visão geral de bibliotecas adicionais
 topic: Desenvolvedor e implementação
-uuid: 1 ec 291 f 6-073 f -49 d 1-b 6 ab -044 b 1069 db 4 e
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Lista as bibliotecas de medição disponíveis
 
-A seguinte tabela descreve as bibliotecas disponíveis para coletar dados do Analytics de todas as plataformas disponíveis. Para obter mais informações, consulte [Coleção de dados no Analytics](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc).
+A seguinte tabela descreve as bibliotecas disponíveis para coletar dados do Analytics de todas as plataformas disponíveis. Para obter mais informações, consulte [Coleção de dados no Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
