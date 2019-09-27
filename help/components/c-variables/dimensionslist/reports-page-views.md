@@ -4,10 +4,10 @@ seo-description: Um relatório de tendências que exibe o número de vezes em qu
 seo-title: Exibições de página
 solution: Analytics
 title: Exibições de página
-topic: 'Relatórios  '
-uuid: c 78260 c 6-9 ad 4-4 b 85-84 fd -763627392 e 44
+topic: Relatórios
+uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 
 **Propriedades de relatório**
 
-* Este relatório faz referência ao número de vezes que a função [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) foi utilizada no site.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* Este relatório faz referência ao número de vezes que a função [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) foi utilizada no site.
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * Por que as solicitações de imagens são enviadas quando o usuário atualiza a página ou clica no botão voltar, este relatório também inclui essas ações.
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
