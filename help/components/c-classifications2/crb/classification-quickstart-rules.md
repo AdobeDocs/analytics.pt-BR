@@ -8,7 +8,7 @@ title: Regras de classificação
 topic: Ferramentas administrativas
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 ## Informações importantes sobre as Regras {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Expressões** regulares: A ajuda está disponível em Expressões [regulares nas Regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de classificação.
 
@@ -131,7 +131,7 @@ Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 As partes do código de rastreamento que deseja classificar são:
 
 * `em` = email
-* `JuneSale` = nome da campanha
+* `JuneSale` = campaign name
 * `20130601` = data
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
@@ -319,7 +319,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 >
 >Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
-1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
+1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -351,7 +351,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
    >[!NOTE]
    >
-   >Se uma tecla corresponder a várias regras que definem a mesma classificação (na coluna Definir classificação), a última regra que corresponde à classificação será usada. See **About Rule Priority** above for more information about sorting rules.
+   >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See **About Rule Priority** above for more information about sorting rules.
 
 1. [Teste seu conjunto de regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 Etapas que descrevem como testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
 
-1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
+1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
 1. No [!UICONTROL Construtor de regra de classificação], clique no nome do conjunto de regras.
 1. Assegure que o conjunto de regras esteja associado a um conjunto de relatórios.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
