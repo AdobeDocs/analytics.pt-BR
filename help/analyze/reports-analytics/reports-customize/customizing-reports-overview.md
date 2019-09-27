@@ -1,18 +1,18 @@
 ---
 description: Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
 seo-description: Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
-seo-title: Personalizar visão geral dos relatórios
+seo-title: Visão geral de Personalizar relatórios
 solution: Analytics
-title: Personalizar visão geral dos relatórios
+title: Visão geral de Personalizar relatórios
 topic: Reports and Analytics
-uuid: 37 d 221 b 7-50 fd -4425-b 2 ba-f 40911 b 72 a 2 f
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Personalizar visão geral dos relatórios
+# Visão geral de Personalizar relatórios
 
 Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
 
@@ -38,7 +38,7 @@ Somente administradores podem criar um relatório personalizado. Ao criar um rel
 
 >[!MORE_LIKE_THIS]
 >
->* [Personalização de menu](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Personalização do menu](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -158,16 +158,16 @@ t_reports_compare_suites.xml
 
 Além da exibição gráfica, a tabela do relatório fornece uma comparação em termos percentuais. Os relatórios a seguir podem ser executados com as comparações:
 
-* Conteúdo do Site
-* Dispositivo móvel
-* Fontes de tráfego
+* Conteúdo do site
+* Mobile
+* Fontes de Tráfego
 * Campanhas
 * Produtos
 * Retenção de visitante
 * Perfil do visitante
 * Conversão personalizada
 * Tráfego personalizado
-* Meta
+* Target
 * Survey
 
 **Para comparar conjuntos de relatórios**
