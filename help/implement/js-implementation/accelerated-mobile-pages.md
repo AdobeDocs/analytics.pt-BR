@@ -1,14 +1,14 @@
 ---
 description: Implemente o projeto Accelerated Mobile Pages (AMP) no Adobe Analytics.
-keywords: Implementação do Analytics; amp; amp-analytics; adobeanalytics modelo; adobeanalytics_ nativeconfig modelo; rastreamento de cliques; inflação do visitante; serviço de id
+keywords: Implementação do Analytics;amp;amp-analytics;modelo adobeanalytics;modelo adobeanalytics_nativeConfig;rastreamento de cliques;inflação de visitantes;serviço id
 seo-description: Implemente o projeto Accelerated Mobile Pages (AMP) no Adobe Analytics.
 seo-title: Accelerated Mobile Pages
 solution: Analytics
 title: Accelerated Mobile Pages
 topic: Desenvolvedor e implementação
-uuid: c 86 e 4 a 80-7191-4 ee 7-ab 20-787730026 c 4 b
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ Além disso, para reduzir o volume de conteúdo e acelerar o tempo de peso da p�
 
 Para solucionar esses problemas, a Adobe trabalhou juntamente a parceiros e editores de AMPs em duas opções que podem ser escolhidas de acordo com as necessidades empresariais dos editores, usando a tag `amp-analytics`. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. A tabela a seguir apresenta os prós e contras de cada abordagem.
 
-|  | **modelo "adobeanalytics"** | ** "adobeanalytics_ nativeconfig" modelo** |
+|  | **modelo "adobeanalytics"** | ** "adobeanalytics_nativeConfig" template** |
 |---|---|---|
 | Contagem de visitante/visitas (no conjunto de relatórios atual) | Inflação alta | Inflação mínima |
 | Uso de um conjunto de relatórios diferente | Recomendado | Não é necessário |
@@ -89,7 +89,7 @@ No disparador `click`, você pode especificar um seletor para garantir que, ao c
 
 Além disso, o `amp-analytics` suporta uma quantidade de substituições para as variáveis, para que o AMP possa fornecer valores de dados conhecidos. Para obter mais informações, visite [a documentação da variável amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md).
 
-Se desejar incorporar uma tecnologia ou variável DOM (como browser, screen size, device, referrer etc.), terá que adicioná-las a qualquer solicitação, já que não são geradas automaticamente. A documentação de cada parâmetro de cadeia de caracteres de consulta disponível usada para o rastreamento pode ser encontrada [aqui](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters).
+Se desejar incorporar uma tecnologia ou variável DOM (como browser, screen size, device, referrer etc.), terá que adicioná-las a qualquer solicitação, já que não são geradas automaticamente. A documentação de cada parâmetro de cadeia de caracteres de consulta disponível usada para o rastreamento pode ser encontrada [aqui](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html).
 
 Ao analisar as ocorrências criadas por amp-analytics, percebe-se que em cada solicitação, a Adobe incluiu o parâmetro de consulta `vid`. Configuramos o `vid` com base em uma função AMP integrada para definir uma ID de cookie personalizada do Analytics chamada `adobe_amp_id`. A ID não depende de nenhuma outra ID sendo definida pelo [!DNL Adobe Analytics] em qualquer outro lugar (por exemplo, `s_vi cookie`) e cria novos visitantes em qualquer conjunto de relatórios que esteja recebendo as ocorrências.
 
@@ -211,7 +211,7 @@ Se tiver perguntas ou encontrar problemas, entre em contato com o Atendimento ao
   </tr> 
   <tr> 
    <td colname="col1"> <p>O que é o serviço da <span class="keyword">Experience Cloud</span> ID? É necessário? </p> </td> 
-   <td colname="col2"> <p>The <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service </a> (formerly <span class="term"> visitor ID service </span>) enables <span class="keyword"> Experience Cloud </span> core services and allows integrations between different Adobe <span class="keyword"> Experience Cloud </span> solutions. Se você tiver integrações com o <span class="keyword">Adobe Audience Manager</span> ou o <span class="keyword">Adobe Target</span>, você já deve estar usando esse serviço. Além disso, o serviço é a base de vários recursos do <span class="keyword">Adobe Analytics</span> que estão por vir. Se precisar de suporte ao serviço de ID, recomendamos o uso da solução <code>iframeMessage</code>. </p> </td> 
+   <td colname="col2"> <p>O <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Serviço de identidade </a> (antigo serviço de ID de <span class="term"> visitante </span>) habilita os principais serviços da <span class="keyword"> Experience Cloud </span> e permite integrações entre diferentes <span class="keyword"> soluções da Adobe </span> Experience Cloud. Se você tiver integrações com o <span class="keyword">Adobe Audience Manager</span> ou o <span class="keyword">Adobe Target</span>, você já deve estar usando esse serviço. Além disso, o serviço é a base de vários recursos do <span class="keyword">Adobe Analytics</span> que estão por vir. Se precisar de suporte ao serviço de ID, recomendamos o uso da solução <code>iframeMessage</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Para o modelo <code>"adobeanalytics_nativeConfig"</code>, onde eu devo hospedar a minha página de utilitários? </p> </td> 
