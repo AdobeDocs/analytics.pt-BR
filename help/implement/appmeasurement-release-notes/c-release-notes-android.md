@@ -8,7 +8,7 @@ title: Android
 topic: Desenvolvedor e implementação
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -597,7 +597,7 @@ Data de lançamento: **novembro de 2012**
 
 Data de lançamento: **outubro de 2012**
 
-* Adição de suporte para [Rastreamento de campanha do Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer).
+* Adição de suporte para [Rastreamento de campanha do Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html).
 
 ## Versão 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
