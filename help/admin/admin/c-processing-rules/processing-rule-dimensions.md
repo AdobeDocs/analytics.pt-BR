@@ -1,19 +1,19 @@
 ---
 description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
 seo-description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
-seo-title: Dimensões disponíveis para regras de processamento
+seo-title: Dimensões disponíveis para as regras de processamento
 solution: Analytics
 subtopic: Regras de processamento
-title: Dimensões disponíveis para regras de processamento
+title: Dimensões disponíveis para as regras de processamento
 topic: Ferramentas administrativas
-uuid: ba 73 ab 59-a 8 cf -491 c -8757-5 fb 03 d 6 b 0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Dimensões disponíveis para regras de processamento
+# Dimensões disponíveis para as regras de processamento
 
 As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
 
@@ -41,7 +41,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de dados de contexto </p> </td> 
-   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> Variáveis de dados de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variáveis de dados de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
