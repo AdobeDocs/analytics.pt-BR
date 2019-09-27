@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Classificações em Canais de marketing
 topic: Reports and Analytics
-uuid: 8 b 31 cff 5-36 a 6-4072-b 0 f 9-f 932 dc 890 a 87
+uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,11 +25,11 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference help.
+>Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >
->Os relatórios de classificação Canais de marketing se comportam um pouco do que classificações padrão: quando você cria classificações para os relatórios de primeiro toque ou de último toque, elas são automaticamente aplicadas a ambos. Não é possível classificar uma sem classificar a outra.
+>The Marketing Channels classification reports behave a little differently than standard classifications: when you create classifications for either first touch or last touch reports, they are automatically applied to both. You cannot classify one without classifying the other.
 
 ## Classificações de Canal de marketing - Definições {#section_38D2F8BBA47D444780B65BD84156532D}
 
