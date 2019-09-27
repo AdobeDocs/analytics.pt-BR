@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe analytics
-solution-title: Analytics
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/analytics.html
 solution-image: assets/analytics-icon-24.png
 getting-started-title: Introdução
@@ -10,8 +10,8 @@ tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: ht
-source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
+translation-type: tm+mt
+source-git-commit: dac6b19bef475d9e61142babc893a4c9e9ffc37a
 
 ---
 
@@ -23,7 +23,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | metadata | o que faz |
 |--- |--- |
 | solution-title | Usado no cabeçalho do artigo como link |
-| solução-hub-url | Abre a página helpx hub |
+| solution-hub-url | Abre a página helpx hub |
 | solution-icon | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
