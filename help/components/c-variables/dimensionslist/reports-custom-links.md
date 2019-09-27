@@ -1,22 +1,22 @@
 ---
 description: Exibe os links preferidos dos visitantes de seu site. Por exemplo, a página inicial de seu site provavelmente terá diversos links que exibem a mesma página. Talvez haja tanto um link gráfico quanto um link de texto para a mesma página. Este relatório mostra qual porcentagem de visitantes usou o link gráfico e o link de texto.
 seo-description: Exibe os links preferidos dos visitantes de seu site. Por exemplo, a página inicial de seu site provavelmente terá diversos links que exibem a mesma página. Talvez haja tanto um link gráfico quanto um link de texto para a mesma página. Este relatório mostra qual porcentagem de visitantes usou o link gráfico e o link de texto.
-seo-title: Link personalizado
+seo-title: Link Personalizado
 solution: Analytics
-title: Link personalizado
-topic: 'Relatórios  '
-uuid: 2 e 0 d 0175-d 5 e 4-4919-b 601-3 f 488 ef 3 e 090
+title: Link Personalizado
+topic: Relatórios
+uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Link personalizado
+# Link Personalizado
 
 Exibe os links preferidos dos visitantes de seu site. Por exemplo, a página inicial de seu site provavelmente terá diversos links que exibem a mesma página. Talvez haja tanto um link gráfico quanto um link de texto para a mesma página. Este relatório mostra qual porcentagem de visitantes usou o link gráfico e o link de texto.
 
-Os links específicos que você gostaria que fossem rastreados devem ser modificados com tags especiais. Veja [Rastreamento de link](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_linktracking).
+Os links específicos que você gostaria que fossem rastreados devem ser modificados com tags especiais. Veja [Rastreamento de link](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html).
 
 Você pode utilizar o [!UICONTROL Relatório de links personalizados] para:
 
