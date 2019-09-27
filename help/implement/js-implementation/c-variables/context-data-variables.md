@@ -1,15 +1,15 @@
 ---
 description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
-keywords: Implementação do Analytics; contextdata; s. contextdata
+keywords: Implementação do Analytics;contextdata;s.contextdata
 seo-description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
 seo-title: Variáveis de dados de contexto
 solution: Analytics
 subtopic: Variáveis
 title: Variáveis de dados de contexto
 topic: Desenvolvedor e implementação
-uuid: 4 b 215803-99 d 4-46 f 2-b 3 c 1-e 78558987764
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,14 +22,16 @@ Você pode enviar dados nas variáveis de dados de contexto que estão mapeados 
 
 >[!NOTE]
 >
->As variáveis de dados de contexto não diferenciam maiúsculas de minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas: &gt;
+>As variáveis de dados de contexto não distinguem maiúsculas de minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas: &gt;
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
@@ -37,7 +39,7 @@ Você pode enviar dados nas variáveis de dados de contexto que estão mapeados 
 
 O uso do contexto de dados ajuda a evitar as atualizações de código para suportar configurações de conjunto de relatórios diferentes.
 
-Por exemplo, você pode definir a seguinte variável *`s.contextData`* variável:
+Por exemplo, você pode definir a seguinte variável *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -90,7 +92,7 @@ s.tl(true,"o","Link Name");
 
 ## Exemplos {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the *`s.pageName`* variable, assuming that processing rules are set up correctly for each:
+Possíveis maneiras de substituir a implementação da *`s.pageName`* variável, supondo que as regras de processamento estejam configuradas corretamente para cada:
 
 ```
 s.contextData['page'] = "Home Page" 
@@ -106,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-Para obter um exemplo, consulte [Copiar uma variável de dados de contexto para uma eVar](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data) na Referência do Analytics.
+Para obter um exemplo, consulte [Copiar uma variável de dados de contexto para uma eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) na Referência do Analytics.
