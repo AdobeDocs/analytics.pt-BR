@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Adicionar dados offline
 topic: Reports and Analytics
-uuid: bbf 4661 a-b 6 b 1-4 a 89-a 3 cf-ae 8 dd 785 d 37 d
+uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,11 +19,11 @@ Adicione dados offline aos relatórios do Canal de marketing.
 
 Canais online permitem classificar dados de visitantes que chegam por meio de fontes como mecanismo de pesquisa, anúncio na Internet, domínio de referência ou campanha de email. Canais offline se aplicam a visitantes que encontram seu site por meio de anúncios de TV, jornais ou revistas.
 
-**Integrar fontes de dados nos relatórios do Canal de marketing**
+**Integrar fontes de dados nos relatórios de Canal de marketing**
 
-Se você deseja integrar [dados de dados fornecidos](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_faq) nos relatórios de Canal de marketing, tenha em mente o seguinte:
+Se você deseja integrar [dados de dados fornecidos](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) nos relatórios de Canal de marketing, tenha em mente o seguinte:
 
-* Toda ocorrência padrão transmitida a relatórios de análise com uma [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID) é processada pelas regras de processamento de canal de marketing como normal.
+* Toda ocorrência padrão transmitida a relatórios de análise com uma [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) é processada pelas regras de processamento de canal de marketing como normal.
 * Todas as origens de dados de `transactionID` transmitidas na análise são associadas automaticamente ao mesmo canal de marketing em que a ocorrência foi processada.
 * Todos os outros dados de origem de dados não passam pelas regras de processamento de canal de marketing.
 
