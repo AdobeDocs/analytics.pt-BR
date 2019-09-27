@@ -6,9 +6,9 @@ seo-title: Implementar opções de não participação da Adobe
 solution: Analytics
 title: Implementar opções de não participação da Adobe
 topic: Desenvolvedor e implementação
-uuid: fc 3 a 411 c -8476-409 d -99 de -05 b 34 ace 5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Os visitantes podem obter mais informações sobre como a Adobe usa as informaç
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Se você implementar produtos do Adobe Analytics com seu próprio cookie primário, será necessário [desenvolver seu próprio link personalizado de não participação](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) para os visitantes do seu site.
-* Seus clientes têm a opção de ativar o cancelamento usando as configurações de cookies do navegador. Consulte [Ativação das configurações de privacidade de cookies do navegador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings).
+* Se você implementar produtos do Adobe Analytics com seu próprio cookie primário, precisará [desenvolver seu próprio link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) personalizado de opção de não participação para os visitantes do seu site.
+* Seus clientes têm a opção de ativar o cancelamento usando as configurações de cookies do navegador. Consulte [Ativação das configurações de privacidade de cookies do navegador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Independentemente do mecanismo de opção escolhido, a Adobe recomenda que você descreva claramente a disponibilidade do mecanismo de opção na sua política de privacidade ou, do contrário, como exigido por lei ou recomendado de acordo com as práticas recomendadas.
