@@ -1,16 +1,16 @@
 ---
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
 seo-description: Uma visão geral do menu Relatórios em Reports & Analytics.
-seo-title: Menu Relatórios
-title: Menu Relatórios
-uuid: 562 cb 6 bf -9396-42 a 3-adf 4-9651 af 8341 cb
+seo-title: Menu de relatórios
+title: Menu de relatórios
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Menu Relatórios{#reports-menu}
+# Menu de relatórios{#reports-menu}
 
 Uma visão geral do menu Relatórios em Reports &amp; Analytics.
 
@@ -27,9 +27,9 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 É possível navegar pelos relatórios através de uma exibição de coluna hierárquica. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Pressione a tecla Escape para fechar o menu sem alterar o relatório atual ou pressione Enter para carregar o relatório selecionado.
 
-![](assets/reports-landing.png){width = "672 px"}
+![](assets/reports-landing.png){width="672px"}
 
-Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
+Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
 
 ## Pesquisar relatórios {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
 
 >[!NOTE]
 >
->Você também pode pesquisar a lista de relatórios por prop, evar e número do evento. Na barra de pesquisa, insira a propriedade, eVar ou o número de eventos.
+>Você também pode pesquisar a lista de relatórios por propriedade, eVar e número do evento. Na barra de pesquisa, insira a propriedade, eVar ou o número de eventos.
 
 ## Visão geral da navegação {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
  <tbody> 
   <tr> 
    <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Clicar neste ícone expande o menu da Experience Cloud para permitir que você acesse outras soluções de Marketing poderia. </td> 
+   <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,14 +99,14 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Marcador...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Painel</span>... </td> 
    <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Mais...</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Mais...</span> </td> 
    <td colname="col2"> Permite realizar todas ou algumas das seguintes ações: imprimir, extrair dados, adicionar um alerta, criar um relatório personalizado, copiar um gráfico, criar um link para o relatório e abrir uma nova janela. </td> 
   </tr> 
   <tr> 
@@ -122,4 +122,4 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
 
 ## Personalização do menu de todos os relatórios {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus) na Ajuda do administrador.
+Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) na Ajuda do administrador.
