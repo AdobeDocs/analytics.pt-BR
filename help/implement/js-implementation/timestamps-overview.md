@@ -6,9 +6,9 @@ seo-title: Usar Carimbos opcionais de data e hora
 solution: Analytics
 title: Usar Carimbos opcionais de data e hora
 topic: Desenvolvedor e implementação
-uuid: 956 aaa 16-6 ffa -4 b 63-b 022-a 659 f 5143 e 00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -74,7 +74,7 @@ A seguir podemos ver práticas recomendadas e alguns requisitos e restrições q
 
    ![](assets/timestamp_v_non8.png)
 
-* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom). Eles podem fazer com que os dados fiquem fora de ordem.
+* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html). Eles podem fazer com que os dados fiquem fora de ordem.
 
 * Aplicativos híbridos compostos de um aplicativo (com carimbos de data e hora, dados offline) que abrem um navegador da Web (dados ativos, sem carimbos de data e hora) não devem usar carimbos de data e hora. Eles resultam em relatórios imprecisos da sessão.
 
