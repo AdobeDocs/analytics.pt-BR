@@ -1,21 +1,21 @@
 ---
 keywords: Analysis Workspace
-seo-title: O que é uma análise de coorte?
+seo-title: O que é a Análise de coorte?
 solution: Analytics
-title: O que é uma análise de coorte?
+title: O que é a Análise de coorte?
 topic: Reports and Analytics
-uuid: 39 a 83 f 3 a -15 d 1-41 d 7-bcdd -50 c 22 aed 8 f 1 c
+uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
 
 ---
 
 
 # O que é a Análise de coorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. A Análise de coorte é útil, por exemplo, quando você quer saber como um coorte é interativo com uma marca. Você pode detectar facilmente as mudanças nas tendências, em seguida, responder em conformidade. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. Você pode detectar facilmente as mudanças nas tendências, em seguida, responder em conformidade. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte [Preparar e compartilhar](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
 Exemplos do que você pode fazer com a Análise de coorte:
 
@@ -29,21 +29,25 @@ Exemplos do que você pode fazer com a Análise de coorte:
 
 A Análise de coorte está disponível a todos os clientes do Analytics com direitos de acesso à Analysis Workspace.
 
-[Análise de coorte no youtube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Análise de coorte no YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
-## Recursos de análise de coorte
+>[!IMPORTANT]
+>
+>A Análise de coorte não suporta métricas calculadas.
+
+## Recursos da Análise de coorte
 
 Em janeiro de 2019, a Adobe lançou uma versão nova e significativamente aprimorada da Análise de coorte. Permite um controle mais refinado sobre os coortes que você cria. Estes são os recursos aprimorados:
 
 ### Tabela de retenção
 
-Um relatório de coorte de retenção retorna os visitantes: cada célula de dados mostra o número bruto e a porcentagem de visitantes no coorte que fizeram a ação durante esse período. É possível incluir até 3 métricas e 10 segmentos.
+Um relatório de coorte de retenção retorna os visitantes: cada célula de dados mostra o número bruto e a porcentagem de visitantes no coorte que executaram a ação durante esse período. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/retention-report.png)
 
 ### Tabela de churn
 
-Um coorte Churn é o inverso de uma tabela de retenção e mostra os visitantes que desistiram ou nunca cumpriram os critérios de retorno de seu coorte ao longo do tempo. É possível incluir até 3 métricas e 10 segmentos.
+Um coorte Churn é o inverso de uma tabela de retenção e mostra os visitantes que desistiram ou nunca atenderam aos critérios de retorno do coorte ao longo do tempo. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/churn-report.png)
 
