@@ -6,12 +6,9 @@ seo-title: Recursos da integração
 solution: Analytics
 title: Recursos da integração
 topic: Conectores de dados
-uuid: 4 ad 8 e 6 e 8-3449-498 a -87 c 6-37 c 0 ac 1657 cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ Depois de ativada, a integração do DFA dos Conectores de dados oferece as segu
 
 >[!NOTE]
 >
->Essa integração não oferece suporte para rastreadores de cliques (anteriormente comandos de cliques). Os rastreadores de cliques são usados para registrar o número de cliques em links de texto, links em mensagens de email ou outros elementos de código fixo em um site.
+>Essa integração não oferece suporte para rastreadores de cliques (anteriormente comandos click). Os rastreadores de cliques são usados para registrar o número de cliques em links de texto, links em mensagens de email ou outros elementos de código fixo em um site.
 
 A integração do DFA dos Conectores de dados automaticamente constrói códigos de rastreamento do DFA com os dados apresentados pelo DFA. Esses códigos de rastreamento são construídos para identificar exclusivamente um anúncio juntamente com o posicionamento e a criação associados. A seguir temos a descrição da estrutura do código de rastreamento, dependendo da versão da integração. A versão 1.5 é desta forma:
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->Se searchcenter &gt; Deduplicação do DFA estiver ativada e o parâmetro da sequência de consulta do searchcenter estiver definido, a visita não será considerada para processamento do DFA. Isso significa que o parâmetro de sequência de consulta do SearchCenter deve ser diferente do parâmetro de click-through do DFA, e nenhum anúncio de exibição deve definir o parâmetro de sequência de consulta do SearchCenter.
+>Se SearchCenter &gt; Eliminação de duplicação do DFA estiver ativado e o parâmetro da string de consulta do SearchCenter estiver definido, a visita não será considerada para processamento do DFA. Isso significa que o parâmetro de sequência de consulta do SearchCenter deve ser diferente do parâmetro de click-through do DFA, e nenhum anúncio de exibição deve definir o parâmetro de sequência de consulta do SearchCenter.
 
