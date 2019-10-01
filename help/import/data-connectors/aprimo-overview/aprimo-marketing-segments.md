@@ -1,24 +1,13 @@
 ---
-description: 'Essa integração apresenta os seguintes segmentos de marketing dinâmicos '
-seo-description: 'Essa integração apresenta os seguintes segmentos de marketing dinâmicos '
-seo-title: Segmentos de marketing dinâmico
-title: Segmentos de marketing dinâmico
-uuid: 0090 b 356-aced -423 e-aefe -61 ce 23 d 5 a 86 f
-index: y
-internal: n
-snippet: y
+description: 'Essa integração apresenta os seguintes segmentos dinâmicos de marketing '
+seo-description: 'Essa integração apresenta os seguintes segmentos dinâmicos de marketing '
+seo-title: Segmentos dinâmicos de marketing
+title: Segmentos dinâmicos de marketing
+uuid: 0090b356-aced-423e-aefe-61ce23d5a86f
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Segmentos de marketing dinâmico{#dynamic-marketing-segments}
-
-Esta integração apresenta os seguintes segmentos de marketing dinâmicos:
-
-* **Perfis de compra:** Aumente os pedidos repetitivos e o valor médio de pedido por meio de campanhas direcionadas aos padrões de compra do visitante.
-* **Perfil comportamental do produto/exibição de conteúdo:** Alcance os clientes potenciais por meio de segmentos de marketing com base em exibições de produtos e na identificação de perfis de acesso ao conteúdo.
-* **Perfil de abandono do carrinho:** Ajuda os visitantes a converter para clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que hesitam em concluir carrinhos.
-* Os clientes também podem criar e programar segmentos de recomercialização personalizados específicos para as necessidades dos usuários.
 
