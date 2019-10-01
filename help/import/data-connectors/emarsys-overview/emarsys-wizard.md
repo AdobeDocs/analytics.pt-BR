@@ -4,11 +4,8 @@ seo-description: O Assistente de integração dos Conectores de dados o orientar
 seo-title: Execução do Assistente de integração dos conectores de dados
 title: Execução do Assistente de integração dos conectores de dados
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ O Assistente de integração dos Conectores de dados o orientará pelo processo 
 1. Na página Integração **[!UICONTROL do]** emarsys xpress Data Connectors, reveja o texto e marque a caixa de seleção para aceitar as taxas associadas à integração e, em seguida, clique em **[!UICONTROL Avançar]**.
 
    Essa página contém uma visão geral da integração, além de links úteis para mais informações. Há taxas da Adobe e do emarsys associadas a essa integração. Entre em contato com os representantes de vendas apropriados para ambas as organizações e certifique-se de entender a estrutura de taxas.
-1. Conclua o assistente [de integração dos Conectores de]dados (https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html).
+1. Conclua o assistente de integração dos Conectores de dados.
