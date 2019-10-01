@@ -6,12 +6,9 @@ seo-title: Perguntas frequentes
 solution: Analytics
 title: Perguntas frequentes
 topic: Conectores de dados
-uuid: 59 d 187 e 9-1 ec 1-4 cf 3-8831-b 981 f 87 c 9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ Por exemplo, suponhamos que há uma integração no conjunto de relatórios A co
 
 >[!NOTE]
 >
->As csids não são usadas na versão 2.0 da integração e, portanto, o processo de negociação da CSID não se aplica.
+>As CSIDs não são usadas na versão 2.0 da integração e, portanto, o processo de negociação de CSID não se aplica.
 
 ## Estou usando a versão 2.0 da integração, e as métricas de custo não estão aparecendo para meus anúncios do DFA. O que pode estar acontecendo? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,7 +45,8 @@ Pode haver muitas respostas para essa pergunta.
 
 Primeiro, verifique se o anúncio em questão tem um URL de página de aterrissagem que (a) está marcado com o código da Adobe para o mesmo conjunto de relatórios no qual você está vendo a discrepância e (b) contém o parâmetro de sequência de consulta *`clickThroughParam`*.
 
-Segundo, verifique se você tem uma integração de trabalho seguindo as etapas em [Confirmação de uma integração do DFA bem-sucedida](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6). Se aparecer um código de rastreamento do DFA com o hit da Adobe na página de aterrissagem, esse click-through deverá aparecer no relatório de campanhas do DFA. Se ele não aparecer, verifique se os conjuntos de relatórios coincidem entre a variável *`s.account`* da página de aterrissagem e o conjunto de relatórios em exibição no Relatórios e análises. Se eles coincidirem, busque por códigos de rastreamento no relatório da eVar de View Through no formato DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
+Em segundo lugar, verifique se você tem uma integração funcional seguindo as etapas em [Confirmando uma integração](../dfa-data-connector-analytics/dfa-integration.md)do DFA bem-sucedida. Se aparecer um código de rastreamento do DFA com o hit da Adobe na página de aterrissagem, esse click-through deverá aparecer no relatório de campanhas do DFA. Se ele não aparecer, verifique se os conjuntos de relatórios coincidem entre a variável *`s.account`* da página de aterrissagem e o conjunto de relatórios em exibição no Relatórios e análises. Se eles coincidirem, busque por códigos de rastreamento no relatório da eVar de View Through no formato DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
 Eles indicam falhas da regra do VISTA do DFA em processar os dados brutos do DFA. É possível solucionar esse problema abrindo um ticket de suporte com o representante de sua conta da Adobe.
-Se nenhuma das soluções acima explicar o problema, consulte [Comparação de discrepâncias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) para explorar outras possibilidades
+
+Se nenhuma das soluções acima explicar o problema, consulte [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.
