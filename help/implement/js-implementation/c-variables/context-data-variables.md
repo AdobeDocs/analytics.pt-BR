@@ -22,20 +22,14 @@ Você pode enviar dados nas variáveis de dados de contexto que estão mapeados 
 
 >[!NOTE]
 >
->As variáveis de dados de contexto não distinguem maiúsculas de minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas: &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>As variáveis de dados de contexto não distinguem maiúsculas de minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 O uso do contexto de dados ajuda a evitar as atualizações de código para suportar configurações de conjunto de relatórios diferentes.
 
