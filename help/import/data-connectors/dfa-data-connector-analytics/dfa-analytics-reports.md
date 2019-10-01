@@ -7,11 +7,8 @@ solution: Analytics
 title: Relatórios do Analytics com dados do DFA
 topic: Conectores de dados
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ Esse relatório contém estes recursos importantes:
 * Selecione um nome de relatório do DFA específico para abrir um menu de opções para obter mais informações sobre esse anúncio específico do DFA.
 * Cada coluna de métrica inclui uma chave de cor que corresponde à cor atribuída à métrica no gráfico.
 * O relatório é ordenado pela métrica de receita com o anúncio de receita mais alta no topo. Você pode alterar a apresentação do relatório clicando em outro rótulo de coluna (métrica).
-
