@@ -1,27 +1,23 @@
 ---
-description: Uma integração com appfigures é usada frequentemente para coletar dados de diversos aplicativos em várias lojas de aplicativos. Você pode criar segmentos para isolar dados de relatório de um aplicativo específico ou app store.
-seo-description: Uma integração com appfigures é usada frequentemente para coletar dados de diversos aplicativos em várias lojas de aplicativos. Você pode criar segmentos para isolar dados de relatório de um aplicativo específico ou app store.
+description: Geralmente, uma integração do appFigures é usada para coletar dados para vários aplicativos em várias app stores. Você pode criar segmentos para isolar dados de relatório para um aplicativo ou loja de aplicativos específicos.
+seo-description: Geralmente, uma integração do appFigures é usada para coletar dados para vários aplicativos em várias app stores. Você pode criar segmentos para isolar dados de relatório para um aplicativo ou loja de aplicativos específicos.
 seo-title: Segmentação de dados do aplicativo
 title: Segmentação de dados do aplicativo
-uuid: 9 c 2 aaf 0 d -088 f -4178-8 ed 1-a 8124087 a 683
-index: y
-internal: n
-snippet: y
+uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Segmentação de dados do aplicativo{#segmenting-app-data}
 
-Uma integração com appfigures é usada frequentemente para coletar dados de diversos aplicativos em várias lojas de aplicativos. Você pode criar segmentos para isolar dados de relatório de um aplicativo específico ou app store.
+Geralmente, uma integração do appFigures é usada para coletar dados para vários aplicativos em várias app stores. Você pode criar segmentos para isolar dados de relatório para um aplicativo ou loja de aplicativos específicos.
 
-Diretrizes de segmentação para dados appfigures:
+Diretrizes de segmentação para dados do appFigures:
 
-* Necessário usar somente contêineres de exibição de página.
-* Necessário usar apenas [dimensões do appfigures](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) nas regras de filtragem.
-* Pode usar várias regras de segmento, desde que apenas [as dimensões](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) do appfigures sejam referenciadas.
-* Pode usar a tela Incluir e excluir.
-* Os segmentos se aplicam somente ao Adobe Analytics v 15.
-
+* Deve usar somente contêineres de exibição de página.
+* Deve usar somente as dimensões [](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) AppFigures nas regras de filtragem.
+* É possível usar várias regras de segmento, contanto que somente as dimensões [](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) do AppFigures sejam referenciadas.
+* Pode usar as telas Incluir e Excluir.
+* Os segmentos se aplicam somente ao Adobe Analytics v15.
