@@ -1,29 +1,26 @@
 ---
-description: Tarefas e informações que você deve ter antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
-seo-description: Tarefas e informações que você deve ter antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
-seo-title: Preparação para a integração de email dos Conectores de dados
-title: Preparação para a integração de email dos Conectores de dados
-uuid: 01 e 1 f 269-54 c 9-4175-aff 8-16 c 39 ac 4 ee 9 d
-index: y
-internal: n
-snippet: y
+description: Tarefas e informações necessárias antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
+seo-description: Tarefas e informações necessárias antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
+seo-title: Preparação para a integração de email dos conectores de dados
+title: Preparação para a integração de email dos conectores de dados
+uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Preparação para a integração de email dos Conectores de dados{#preparing-for-the-data-connectors-email-integration}
+# Preparação para a integração de email dos conectores de dados{#preparing-for-the-data-connectors-email-integration}
 
-Tarefas e informações que você deve ter antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
+Tarefas e informações necessárias antes de executar o assistente de integração dos Conectores de dados para implementar a integração dos Conectores de dados.
 
-O Adobe Analytics® fornece às organizações inteligência acionável em tempo real com relação às estratégias online e iniciativas de marketing. Combinado com emarsys, o Analytics fornece recomercialização com base na definição de metas comportamentais. Melhore o marketing direcionado e entenda a eficácia da campanha por meio da integração perfeita de dados emaranizados e analíticos da Web do Analytics.
+O Adobe Analytics® fornece às organizações inteligência acionável em tempo real em relação às suas estratégias online e iniciativas de marketing. Combinado ao emarsys, o Analytics fornece remarketing com base na definição de metas comportamentais. Melhore o marketing direcionado e entenda a eficácia da campanha por meio da integração perfeita entre os dados do emarsys e do Analytics.
 
-Antes de configurar a integração de sua conta de email, você precisará ter o seguinte em vigor:
+Antes de configurar a integração para sua conta de email, você precisará ter o seguinte em vigor:
 
-* Conheça o emarcode, pois ele será inserido no assistente Conectores de dados.
-* Saiba qual endereço de email você deseja usar para receber notificações sobre as operações integradas.
-* Identifique ou crie a variável personalizada que você usará para capturar a ID do destinatário.
-* Identifique ou crie a variável personalizada que você usará para capturar a ID da mensagem (muitas vezes é a variável de campanha).
-* Identifique ou crie os eventos personalizados que você usará para coletar as rejeições, cliques, aberturas, envia e cancela a assinatura.
+* Conheça seu AccountCode do emarsys porque ele será inserido no assistente de Conectores de dados.
+* Saiba qual endereço de email você deseja usar para receber uma notificação sobre as operações integradas.
+* Identifique ou crie a variável personalizada que será usada para capturar a ID do destinatário.
+* Identifique ou crie a variável personalizada que você usará para capturar a ID da mensagem (geralmente essa é a variável da campanha).
+* Identifique ou crie os eventos personalizados que serão usados para coletar as rejeições, cliques, aberturas, envios e cancelamentos de assinaturas.
 
