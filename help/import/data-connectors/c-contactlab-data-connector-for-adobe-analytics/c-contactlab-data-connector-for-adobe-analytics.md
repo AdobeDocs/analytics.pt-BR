@@ -1,18 +1,34 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Conector de dados contactlab para Adobe Analytics
+seo-title: Conector de dados ContactLab para Adobe Analytics
 solution: Analytics
-title: Conector de dados contactlab para Adobe Analytics
-uuid: 9 e 6 ed 7 cd-dce 1-4 c 00-9090-d 4306202 e 3 ea
-index: y
-internal: n
-snippet: y
+title: Conector de dados ContactLab para Adobe Analytics
+uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # ContactLab Data Connector for Adobe Analytics{#contactlab-data-connector-for-adobe-analytics}
 
+A integração do ContactLab e do Adobe Analytics permite que os clientes atuais do ContactLab aumentem o retorno do marketing por email. Ele permite que você entenda a eficácia da campanha de praticamente qualquer ângulo e, em seguida, recomercialize para os clientes com base no abandono do carrinho, nas compras de produtos, nas visualizações de produtos e muito mais.
+
+Essa integração sincroniza automaticamente as métricas de e-mail com o Adobe Analytics para marketing em ciclo fechado para o público certo com a máxima eficácia.
+
+## Principais benefícios e recursos{#key-benefits-and-features}
+
+Lista os principais benefícios da integração entre o Adobe Analytics e o ContactLab.
+
+* Consolide os dados de marketing e análise de email em uma única interface de relatório.
+* Forneça relatórios de tráfego e conversão com base em detalhes de pesquisa, pergunta e resposta.
+* Otimize campanhas de email por conversão e contribuição para receita e sucesso do site.
+* Recomercialize os principais visitantes e segmentos de mercado com base no abandono do carrinho, compras de produtos, visualizações de produtos (e muito mais), abrangendo dados atuais e históricos (até 90 dias antes da ativação).
+
+## Pré-requisitos para clientes da Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
+
+* Deve ser um cliente atual do Adobe Analytics.
+* Deve ter privilégios de administrador.
+* Deve ter 2 eVars disponíveis e ativadas no conjunto de relatórios.
+* É necessário ter cinco eventos disponíveis ativados em seu conjunto de relatórios.
