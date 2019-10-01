@@ -1,35 +1,32 @@
 ---
-description: A ID da empresa é necessária para concluir o assistente de integração. Para encontrar essa ID, você deve fazer o seguinte.
-seo-description: A ID da empresa é necessária para concluir o assistente de integração. Para encontrar essa ID, você deve fazer o seguinte.
-seo-title: Pesquisar a ID da organização Qualtrics
+description: 'A ID da organização é necessária para concluir o assistente de integração. Para localizar essa ID, faça o seguinte:'
+seo-description: 'A ID da organização é necessária para concluir o assistente de integração. Para localizar essa ID, faça o seguinte:'
+seo-title: Procurando a ID da empresa Qualtrics
 solution: Analytics
 subtopic: Qualtrics
-title: Pesquisar a ID da organização Qualtrics
+title: Procurando a ID da empresa Qualtrics
 topic: Conectores de dados
-uuid: ed 27 becd -7364-423 b -8 a 49-35 bf 7217 f 4 b 3
-index: y
-internal: n
-snippet: y
+uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Pesquisar a ID da organização Qualtrics{#looking-up-your-qualtrics-organization-id}
+# Procurando a ID da empresa Qualtrics{#looking-up-your-qualtrics-organization-id}
 
-A ID da empresa é necessária para concluir o assistente de integração. Para encontrar essa ID, você deve fazer o seguinte.
+A ID da organização é necessária para concluir o assistente de integração. Para localizar essa ID, faça o seguinte:
 
 1. Faça logon no Qualtrics Research Suite.
-1. Clique **[!UICONTROL em Configurações da conta]** no menu do usuário.
+1. Clique em Configurações **[!UICONTROL da]** conta no menu do usuário.
 
    ![](assets/qualtrics-org-id-1.png)
 
-1. Clique em IDs **[!UICONTROL Qualtrics]**.
+1. Clique em **[!UICONTROL IDs]** Qualtrics.
 
    ![](assets/qualtrics-org-id-2.png)
 
-1. Localize e salve a ID **[!UICONTROL da organização]** na seção **[!UICONTROL Usuário]** .
+1. Localize e salve a ID **[!UICONTROL da]** organização na seção **[!UICONTROL Usuário]** .
 
    ![](assets/qualtrics-org-id-3.png)
 
