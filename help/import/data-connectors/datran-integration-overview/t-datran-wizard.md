@@ -1,23 +1,20 @@
 ---
-description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
-seo-description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
+description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
+seo-description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 seo-title: Execução do Assistente de integração dos conectores de dados
 title: Execução do Assistente de integração dos conectores de dados
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Execução do Assistente de integração dos conectores de dados{#running-the-data-connectors-integration-wizard}
 
-O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
+The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 
-Para configurar a integração:
+To configure the integration:
 
 1. Fazer Logon na Experience Cloud.
 1. Na página inicial do Adobe Analytics, clique no ícone Conectores de dados™ no cata-vento ou na barra de ferramentas.
@@ -32,7 +29,7 @@ Para configurar a integração:
 
 1. Na página de introdução da Integração do Datran, reveja o texto e marque a caixa de seleção para aceitar as taxas associadas à integração, em seguida, clique em **Avançar**.
 
-   Essa página contém uma visão geral da integração, além de links úteis para mais informações. Há taxas da Adobe e do Datran associadas a essa integração. Entre em contato com os representantes de vendas apropriados para ambas as organizações e certifique-se de entender a estrutura de taxas.
+   Essa página contém uma visão geral da integração, além de links úteis para mais informações. There are both Adobe and Datran fees associated with this integration. Entre em contato com os representantes de vendas apropriados para ambas as organizações e certifique-se de entender a estrutura de taxas.
 1. Em cada página do Assistente de integração dos conectores de dados, forneça as informações necessárias, conforme descrito na tabela a seguir:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
@@ -72,7 +69,7 @@ Para configurar a integração:
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Caixa de seleção Aceitação </p> </td> 
-   <td colname="col3"> <p>Revise as informações exibidas ao lado da caixa de seleção Aceitação: </p> <p><i>Entendo que ao ativar o rastreamento de "ID do destinatário", esse recurso pode rastrear informações de identificação pessoal dos visitantes do site. Isso tem implicações de privacidade que exigem a implementação de procedimentos apropriados por parte da minha organização, como informar os visitantes do site e o consentimento dos mesmos. </i> </p> <p>Se você concordar com a declaração de aceitação, marque a caixa de seleção e clique em <b>Avançar</b> para prosseguir para a Etapa 4 do Assistente. </p> </td> 
+   <td colname="col3"> <p>Revise as informações exibidas ao lado da caixa de seleção Aceitação: </p> <p><i>I understand that by enabling "Recipient ID" tracking, this feature may track personally identifiable information of our site visitors. Isso tem implicações de privacidade que exigem a implementação de procedimentos apropriados por parte da minha organização, como informar os visitantes do site e o consentimento dos mesmos. </i> </p> <p>Se você concordar com a declaração de aceitação, marque a caixa de seleção e clique em <b>Avançar</b> para prosseguir para a Etapa 4 do Assistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -126,4 +123,3 @@ Para configurar a integração:
   </tr> 
  </tbody> 
 </table>
-
