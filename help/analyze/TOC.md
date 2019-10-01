@@ -3,8 +3,8 @@ product: analytics
 audience: usuário final
 user-guide-title: Guia de análise do Analytics
 user-guide-url: /content/help/pt-BR/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
+translation-type: tm+mt
+source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 
 ---
 
@@ -30,6 +30,7 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
       + [Paginação, filtragem e classificação de tabelas](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [Paletas de cores](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Exibir densidade](analysis-workspace/build-workspace-project/view-density.md)
+      + [Totais da área de trabalho](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Componentes {#components}
       + [Visão geral dos componentes](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensões {#dimensions}
