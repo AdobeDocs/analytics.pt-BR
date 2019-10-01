@@ -1,24 +1,21 @@
 ---
-description: Reserve as evars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
-seo-description: Reserve as evars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
-seo-title: Código de plug-in do param da sequência de consulta
+description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
+seo-description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
+seo-title: Código do Plug-in do Param da String de Consulta
 solution: Analytics
-title: Código de plug-in do param da sequência de consulta
-uuid: a 71 e 7774-bc 7 a -414 e-a 116-739770 b 900 bf
-index: y
-internal: n
-snippet: y
+title: Código do Plug-in do Param da String de Consulta
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Código de plug-in do param da sequência de consulta{#query-string-param-plug-in-code}
+# Código do Plug-in do Param da String de Consulta{#query-string-param-plug-in-code}
 
-Reserve as evars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
+Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
 
-Depois de conhecer [as evars reservadas](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238), substitua evarn pelo evar relevante, por exemplo evar 10.
+Depois de saber as eVars reservadas, substitua a eVarN pela eVar relevante, por exemplo, eVar10.
 
 ```
 /* 
