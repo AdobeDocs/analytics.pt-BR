@@ -1,23 +1,20 @@
 ---
-description: A integração dos Conectores de dados para emarsys usa variáveis do Analytics para rastrear várias métricas emarsys.
-seo-description: A integração dos Conectores de dados para emarsys usa variáveis do Analytics para rastrear várias métricas emarsys.
+description: A integração dos Conectores de dados para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
+seo-description: A integração dos Conectores de dados para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
 seo-title: Variáveis do Analytics
 title: Variáveis do Analytics
-uuid: 4 d 5 e 087 c-f 495-4 aab -9 ad 1-9 b 901 d 34 a 254
-index: y
-internal: n
-snippet: y
+uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Variáveis do Analytics{#analytics-variables}
 
-A integração dos Conectores de dados para emarsys usa variáveis do Analytics para rastrear várias métricas emarsys.
+A integração dos Conectores de dados para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
 
-Depois de identificar o evento e evars para usar com a integração emarsys, ative-os no [Admin Console](https://microsite.omniture.com/t2/help/en_US/reference/index.html?f=conversion_var_admin).
+Depois de identificar o Evento e as eVars para usar com a integração emarsys, ative-as no [Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html).
 
 **Variáveis obrigatórias**
 
@@ -34,44 +31,44 @@ Depois de identificar o evento e evars para usar com a integração emarsys, ati
   <tr> 
    <td colname="col1"> event (numérico) </td> 
    <td colname="col2"> Total de rejeições </td> 
-   <td colname="col3"> <p>Importado automaticamente de emarsys </p> </td> 
-   <td colname="col4"> <p>O evento Total de rejeições permite ver o número de mensagens de email que não foram entregues aos destinatários devido a um problema de entrega. </p> </td> 
+   <td colname="col3"> <p>Importado automaticamente do emarsys </p> </td> 
+   <td colname="col4"> <p>O evento Total de Rejeições permite que você veja o número de mensagens de email que não foram entregues aos destinatários devido a um problema de entrega. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> event (numérico) </td> 
    <td colname="col2"> Clicado </td> 
-   <td colname="col3"> <p>Importado automaticamente de emarsys </p> </td> 
-   <td colname="col4"> <p>O evento Clicado permite ver o número de visitantes que clicaram na mensagem de e-mail. </p> </td> 
+   <td colname="col3"> <p>Importado automaticamente do emarsys </p> </td> 
+   <td colname="col4"> <p>O evento Clicado permite que você veja o número de visitantes que clicaram na mensagem de email. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> event (numérico) </td> 
-   <td colname="col2"> Abertos </td> 
-   <td colname="col3"> <p>Importado automaticamente de emarsys </p> </td> 
-   <td colname="col4"> <p>O evento Aberto permite que você veja o número de visitantes que abriram a mensagem de e-mail. </p> </td> 
+   <td colname="col2"> Aberto </td> 
+   <td colname="col3"> <p>Importado automaticamente do emarsys </p> </td> 
+   <td colname="col4"> <p>O evento Aberto permite que você veja o número de visitantes que abriram a mensagem de email. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> event (numérico) </td> 
-   <td colname="col2"> Enviado </td> 
-   <td colname="col3"> <p>Importado automaticamente de emarsys </p> </td> 
-   <td colname="col4"> <p>O evento Envia permite visualizar o número de mensagens de email enviadas. </p> </td> 
+   <td colname="col2"> Enviados </td> 
+   <td colname="col3"> <p>Importado automaticamente do emarsys </p> </td> 
+   <td colname="col4"> <p>O evento Envia permite que você veja o número de mensagens de email enviadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> event (numérico) </td> 
-   <td colname="col2"> Cancelar inscrição </td> 
-   <td colname="col3"> <p>Importado automaticamente de emarsys </p> </td> 
-   <td colname="col4"> <p>O evento Cancelar inscrição permite ver o número de visitantes que abriram o email, mas clicaram no link Cancelar inscrição para recusar futuras mensagens de email de sua organização. </p> </td> 
+   <td colname="col2"> Inscrito </td> 
+   <td colname="col3"> <p>Importado automaticamente do emarsys </p> </td> 
+   <td colname="col4"> <p>O evento Cancelamento de inscrição permite que você veja o número de visitantes que abriram o email, mas clicaram no link Cancelar inscrição para recusar futuras mensagens de email da sua organização. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
-   <td colname="col3"> <p>Coletado de parâmetros de consulta em links de email por meio do método de coleta automatizada ou de um plug-in javascript. </p> </td> 
+   <td colname="col3"> <p>Coletado de parâmetros de consulta em links de email pelo método de coleta automatizada ou por um plug-in JavaScript. </p> </td> 
    <td colname="col4"> Recipient ID </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> eVar  ou s. campaign </td> 
+   <td colname="col1"> eVar  ou s.campaign </td> 
    <td colname="col2"> ID da mensagem </td> 
-   <td colname="col3"> <p>Coletado de parâmetros de consulta em links de email por meio do método de coleta automatizada ou de um plug-in javascript. </p> </td> 
-   <td colname="col4"> Esse valor é armazenado na variável campanha com frequência. </td> 
+   <td colname="col3"> <p>Coletado de parâmetros de consulta em links de email pelo método de coleta automatizada ou por um plug-in JavaScript. </p> </td> 
+   <td colname="col4"> Esse valor é frequentemente armazenado na variável da campanha. </td> 
   </tr> 
  </tbody> 
 </table>
