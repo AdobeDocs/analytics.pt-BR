@@ -1,21 +1,18 @@
 ---
-description: 'Se você selecionou o método de coleta de dados do Plug-in javascript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas '
-seo-description: 'Se você selecionou o método de coleta de dados do Plug-in javascript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas '
+description: 'Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas '
+seo-description: 'Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas '
 seo-title: Código de plug-in do Analytics
 title: Código de plug-in do Analytics
-uuid: 534874 bd -49 d 9-4 b 15-8019-b 503 dfcf 3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Código de plug-in do Analytics{#analytics-plug-in-code}
 
-Se você selecionou o método de coleta de dados do Plug-in javascript, copie as seguintes linhas de código e adicione-as ao código do Analytics nas suas páginas:
+Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas:
 
 `/*`
 
@@ -29,5 +26,4 @@ Se você selecionou o método de coleta de dados do Plug-in javascript, copie as
 
 >[!NOTE]
 >
->O plug-plugin acima presume que determinadas Variáveis de comércio personalizadas (evars) estejam disponíveis. Se as variáveis especificadas no plug-plugin acima não estiverem disponíveis na implantação do Analytics, substitua-as por aquelas disponíveis.
-
+>O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Analytics, basta substituí-las pelas disponíveis.
