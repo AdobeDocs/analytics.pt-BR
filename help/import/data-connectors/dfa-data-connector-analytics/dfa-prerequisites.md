@@ -6,12 +6,9 @@ seo-title: Pré-requisitos
 solution: Analytics
 title: Pré-requisitos
 topic: Conectores de dados
-uuid: b 5 f 5 e 30 c-e 269-41 a 4-9236-5 ddc 404 bfd 94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 Antes de iniciar a integração dos Conectores de dados da Adobe para o DFA, faça o seguinte:
 
-* Decida se fará a integração com a versão 1.5 da integração ou se aguardará a versão 2.0. Essa decisão depende de quais recursos serão utilizados em sua conta do DFA e do período no qual você deseja fazer a integração. Consulte [Sobre a versão 2.0](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664) para obter mais informações.
+* Decida se fará a integração com a versão 1.5 da integração ou se aguardará a versão 2.0. Essa decisão depende de quais recursos serão utilizados em sua conta do DFA e do período no qual você deseja fazer a integração.
 * Decida como os anunciantes do DFA serão mapeados para os conjuntos de relatórios do Adobe Analytics. Por exemplo, se você tiver vários anunciantes do DFA e vários conjuntos de relatórios, deverá decidir quais anunciantes associar a quais conjuntos de relatórios.
 * Implemente o código de coleta de dados da Adobe em todas as páginas que você deseja rastrear usando a versão H.22 ou uma versão posterior do código de coleta de dados.
 * Saiba a ID de anunciante de uma conta do DFA que faz parte da configuração do Floodlight que você deseja integrar. A integração importa automaticamente todos os anunciantes dentro da configuração do Floodlight.
