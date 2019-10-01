@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Visão geral IQ da atribuição
-title: Visão geral IQ da atribuição
-uuid: bb 345642-4 f 45-4 fb 8-82 d 0-803248 dd 52 ea
+seo-title: Visão geral do Attribution IQ
+title: Visão geral do Attribution IQ
+uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 54f85d1e9a94f137666864158869b6cccf02cc13
 
 ---
 
 
-# Visão geral IQ da atribuição
+# Visão geral do Attribution IQ
 
 >[!IMPORTANT]
 >
->O IQ da atribuição está disponível para todos os clientes nas skus Ultimate, Prime, Select e Foundation do Adobe Analytics.
+>O IQ de atribuição está disponível para todos os clientes nos SKUs do Adobe Analytics Ultimate, Prime, Select e Foundation.
 
 ## Valor comercial do Attribution IQ {#section_E82B97114E1641A8AE911F57AEB3240A}
 
@@ -68,15 +68,15 @@ Para ilustrar o efeito das janelas de lookback de atribuição, aplicaremos um m
 
 Ao usar a **janela de lookback de atribuição de visita**, cada visita tem sua conversão distribuída de maneira independente:
 
-* Os/$ 10 da primeira visita seriam divididos igualmente entre Pesquisar, Exibir, Social e Email, cada um recebendo/$ 2.50.
-* Na segunda visita, a Pesquisa e o Email receberiam metade da conversão/$ 5, portanto, e-mail e pesquisa receberiam cada outro/$ 2.50.
-* Por fim, na visita final, o email receberia todo o crédito pela conversão/$ 2.
+* O /$10 da primeira visita seria dividido igualmente entre Pesquisa, Exibição, Social e Email, cada um recebendo /$2.50.
+* Na segunda visita, o Search e o Email receberiam cada um metade da conversão /$5, de modo que o Email e o Search receberiam outro /$2.50.
+* Finalmente, na visita final, o Email receberia todo o crédito pela conversão de /$2.
 
 Na **janela de lookback de visitante**, todas as conversões são consideradas juntas, entretanto, o cálculo é um pouco mais complexo devido ao fato de haver várias conversões.
 
-* A primeira conversão/$ 10 seria dividida igualmente entre Pesquisar, Exibir, Social e Email.
-* A segunda conversão/$ 5 seria então dividida entre os canais presentes nessa visita e os canais anteriores da visita anterior: Search = (2/6) */$ 5 =/$ 1.67, Display = (1/6) */$ 5 =/$ 0.83, Social = (1/6) */$ 5 =/$ 0.83, Email = (2/6) */$ 5 =/$ 1.67.
-* Finalmente, a última conversão seria dividida em todos os canais do visitante: Search = (2/7) */$ 2 =/$ 0.57, Display = (1/7) */$ 2 =/$ 0.29, Social = (1/7) */$ 2 =/$ 0.29, Email = (3/7) */$ 2 =/$ 0.86.
+* A primeira conversão /$10 seria dividida igualmente entre Pesquisa, Exibição, Social e Email.
+* A segunda conversão /$5 seria dividida entre os canais presentes nessa visita, bem como os canais anteriores da visita anterior: Pesquisa = (2/6) * /$5 = /$1.67, Exibição = (1/6) * /$5 = /$0.83, Social = (1/6) * /$5 = /$0.83, Email = (2/6) * /$5 = /$1.67.
+* Finalmente, a última conversão seria dividida em todos os canais para o visitante: Pesquisa = (2/7) * /$2 = /$0.57, Exibição = (1/7) * /$2 = /$0.29, Social = (1/7) * /$2 = /$0.29, Email = (3/7) * /$2 = /$0.86.
 
 Veja um resumo dos resultados em uma tabela:
 
@@ -205,7 +205,7 @@ Neste caso, A, B e C foram definidas ao mesmo tempo na ocorrência 1, D foi defi
 
 O Attribution IQ distribui todo o crédito percentual da ocorrência a quaisquer valores presentes na ocorrência. Em nosso exemplo anterior, A, B e C receberão 40% ou .4 conversões, D receberá 20% ou .2 conversões e E e F cada receberá 40% das conversões ou .4. Um relatório usando a atribuição de Forma de U nas ocorrências acima produziria o seguinte relatório:
 
-| Variável com valores múltiplos | Conversões (em formato U/Visita) |
+| Variável com valores múltiplos | Conversões (em forma de U/Visita) |
 |--- |---|
 | A | .4 |
 | B | .4 |
@@ -216,4 +216,12 @@ O Attribution IQ distribui todo o crédito percentual da ocorrência a quaisquer
 | Total | 1 |
 
 >[!NOTE]
->Devido à alocação em nível de ocorrência dos modelos de atribuição, a soma de cada item de linha de seu relatório pode não ser igual ao total, devido a cada valor que recebe o crédito percentual total que pertence à ocorrência em que foi contido.
+>Devido à alocação de nível de ocorrência dos modelos de atribuição, a soma de cada item de linha do seu relatório pode não ser igual ao total devido a cada valor que recebe o crédito percentual total pertencente à ocorrência na qual ele foi contido.
+
+## Atribuição com segmentação
+
+A atribuição sempre é executada antes da segmentação e a segmentação é executada antes da aplicação dos filtros do relatório. Esses princípios também se aplicam aos conjuntos de relatórios virtuais (VRS) que têm segmentos aplicados.
+
+Por exemplo, se você criar um VRS com um segmento "Exibir ocorrências" aplicado, poderá ver outros canais de marketing retornados em uma tabela quando a atribuição estiver ativada. Isso ocorre porque a atribuição é executada em um conjunto de dados não segmentado.
+
+![](assets/vrs-aiq-example.png)
