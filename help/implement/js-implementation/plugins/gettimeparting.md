@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting
 topic: Desenvolvedor e implementação
-uuid: 74 f 696 a 3-7169-4560-89 b 2-49 8 b 3 d 8385 e 1
+uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
@@ -30,7 +30,7 @@ Esse plug-in captura as informações de data e hora disponíveis no navegador W
 
 Coloque o seguinte código na área do arquivo [!DNL s_code.js] rotulada como [!UICONTROL SEÇÃO DE CONFIGURAÇÃO] e faça as atualizações necessárias como descrito abaixo.
 
-`s._tpDST` - uma matriz de valores DST. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - uma gama de valores DST. A matriz está estruturada no seguinte formato: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,7 +69,9 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
 Observação para clientes do Hemisfério norte: na matriz de valores DST são DST de início, DST de fim.
