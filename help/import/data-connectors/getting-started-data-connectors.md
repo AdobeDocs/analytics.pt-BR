@@ -4,7 +4,7 @@ seo-description: Fazer logon nos conectores de dados; importe dados de rastreame
 seo-title: Conectores de dados do Analytics
 title: Introdução aos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -105,6 +105,5 @@ s.events="purchase";
 | Nenhuma informação de ID de produto é exibida no arquivo Segmento de recomercialização. | Ocorre quando o evento correto é acionado, mas nenhuma variável de produto está presente na mesma solicitação de imagem. Para corrigir o problema, certifique-se de que a variável do produto e o evento correspondente sejam lançados na mesma página, como exemplificado nas implementações acima. |
 | Os arquivos de segmento de recomercialização não foram recebidos. | Caso não esteja recebendo os arquivos, um dos usuários com suporte da empresa deve entrar em contato com o ClientCare para investigar a causa da falha no recebimento. |
 
-> [!IMPORTANT]
->
-> É comum que os consultores também configurem uma solicitação de data warehouse como um relatório diário agendado, além do arquivo de segmento de remarketing de integração de conectores de dados padrão. Essa solicitação de data warehouse deve incluir as variáveis de conectores de dados e as variáveis de não conectores. Além disso, ela pode ser agendada apenas com base na solicitação específica da sua empresa. Para evitar confusões ao solucionar problemas, defina se o arquivo em questão é o arquivo do segmento de recomercialização ou uma solicitação de data warehouse com variáveis que não são de origem.
+
+> [!IMPORTANT] É comum que os consultores também configurem uma solicitação de data warehouse como um relatório diário agendado, além do arquivo de segmento de remarketing de integração de conectores de dados padrão. Essa solicitação de data warehouse deve incluir as variáveis de conectores de dados e as variáveis de não conectores. Além disso, ela pode ser agendada apenas com base na solicitação específica da sua empresa. Para evitar confusões ao solucionar problemas, defina se o arquivo em questão é o arquivo do segmento de recomercialização ou uma solicitação de data warehouse com variáveis que não são de origem.
