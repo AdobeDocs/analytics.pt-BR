@@ -3,12 +3,9 @@ description: Saiba como desabilitar os logins herdados para usuários do Analyti
 seo-description: Saiba como desabilitar os logins herdados para usuários do Analytics.
 seo-title: Desabilitar logons herdados
 title: Desabilitar logons herdados
-uuid: 085874 b 2-10 bf -4 a 56-a 337-f 3104428 d 71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ Depois que seus usuários migrarem do antigo sistema de gerenciamento de usuári
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. Não será possível desabilitar o logon antigo de um usuário até que ele tenha sido migrado.
+   Os usuários elegíveis terão um status de *`Migrated`* na coluna Status da migração. Não será possível desabilitar o logon antigo de um usuário até que ele tenha sido migrado.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    Desativar o login herdado indica quais dos seus usuários podem continuar usando o nome de usuário e a senha herdada de [!DNL my.omniture.com].
