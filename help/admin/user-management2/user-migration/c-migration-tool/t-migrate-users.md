@@ -3,12 +3,9 @@ description: Migre usuários do sistema de gerenciamento de usuário herdado do 
 seo-description: Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 seo-title: Migrar contas de usuário do Analytics para Adobe IDs
 title: Migrar contas de usuário do Analytics para Adobe IDs
-uuid: 734 e 9 f 14-ef 8 d -44 de -8 ff 3-3 ee 6 dfe 0 a 214
-index: y
-internal: n
-snippet: y
+uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -23,7 +20,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
 >[!NOTE]
 >
->Se um administrador não conectado através da Experience Cloud tentar acessar a ferramenta de Migração de ID de usuário, ele será redirecionado para a página de logon da Experience Cloud.
+>Se um administrador que não esteja conectado por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
 
 **Para migrar usuários do Analytics**
 
@@ -49,7 +46,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logon herdado desabilitado </p> </td> 
-   <td colname="col2"> <p>O logon antigo que usa uma ID da empresa está desativado. Os usuários passarão a acessar a Experience Cloud usando uma Adobe ID ou uma Enterprise ID. Quando todos os usuários atingirem essa fase, você terá concluído a migração. </p> <p>Na migração, o logon antigo está desativado. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>O logon antigo que usa uma ID da empresa está desativado. Os usuários passarão a acessar a Experience Cloud usando uma Adobe ID ou uma Enterprise ID. Quando todos os usuários atingirem essa fase, você terá concluído a migração. </p> <p>Na migração, o logon antigo é desativado. Os usuários são redirecionados para <span class="filepath"> experience.adobe.com</span> e devem fazer logon usando a Adobe ID ou Enterprise ID. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
