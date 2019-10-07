@@ -8,7 +8,7 @@ title: Introdução ao Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Requisitos do navegador e do sistema necessários para fazer logon na interface 
 
 ## Fazer logon no Relatórios e análises
 
-Antes de acessar a interface, verifique com seu Gerente de contas ou com o Atendimento ao cliente a configuração da conta da sua empresa.
+Antes de acessar a interface, entre em contato com seu Gerente de conta ou com o Atendimento ao cliente da Adobe para configurar a conta da sua empresa.
 
 ## Faça logon usando a Experience Cloud
 
