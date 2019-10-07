@@ -1,23 +1,23 @@
 ---
 description: Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 seo-description: Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
-seo-title: Introdução ao Relatórios e análises
+seo-title: Introdução ao Reports and Analytics
 solution: Analytics
-subtopic: Introdução
-title: Introdução ao Relatórios e análises
+subtopic: Comece já
+title: Introdução ao Reports and Analytics
 topic: Reports and Analytics
-uuid: ea 76 ec 40-6025-4 ee 5-8 f 75-855 b 5 b 823737
+uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ---
 
 
 # Introdução ao Relatórios e análises
 
-Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
+Antes de usar o Relatórios e análises, entenda essas tarefas básicas de logon e configuração e como acessar as informações da conta.
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## Introdução ao Relatórios e análises
 
 Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 
@@ -33,15 +33,9 @@ Os relatórios fornecem informações de seus canais com base na Web tradicionai
 * Quanto tempo foi utilizado ao assistir a um vídeo
 * Quais navegadores e dispositivos eles utilizaram para visitar seu site
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## Requisitos do navegador e do sistema
 
 Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports &amp; Analytics.
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * Navegadores:
 
@@ -55,22 +49,16 @@ requirements.xml
 * É necessário habilitar os cookies e o JavaScript.
 * Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## Fazer logon no Relatórios e análises
 
 Antes de acessar a interface, verifique com seu Gerente de contas ou com o Atendimento ao cliente a configuração da conta da sua empresa.
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## Faça logon usando a Experience Cloud
 
 Etapas que descrevem como fazer logon pela Adobe Experience Cloud.
 
-<!-- 
-
-t_login_sso.xml
-
- -->
-
 1. Em um computador com acesso à Internet, inicie o Navegador.
-1. Go to [!DNL https://login.experiencecloud.adobe.com/].
+1. Vá para [!DNL https://login.experiencecloud.adobe.com/].
 1. Na página [!UICONTROL Conectar]**, clique em[!UICONTROL Logon único]**.
 1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
@@ -79,23 +67,17 @@ t_login_sso.xml
    **[!UICONTROL Nome do Usuário]**: especifique a ID da conta 
 
    **[!UICONTROL Senha]**: especifique a senha da conta 
-1. From the Experience Cloud home page, go to **Analytics &gt; Reports**.
+1. Na página inicial da Experience Cloud, vá para **Analytics &gt; Relatórios**.
 
    A Experience Cloud encerra a sessão automaticamente após 30 minutos de inatividade.
 
-## Executar um relatório {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## Executar um relatório
 
 Etapas que descrevem como gerar um relatório.
 
-<!-- 
-
-t_running_report.xml
-
- -->
-
 1. Faça logon em [!UICONTROL Reports &amp; Analytics].
 
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up.
+   O menu Relatórios é exibido ou um [painel](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) é exibido, se você tiver configurado um.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
@@ -103,19 +85,13 @@ t_running_report.xml
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
 
-## Editar as configurações de conta do usuário {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
+## Editar as configurações de conta do usuário
 
 Informações sobre edição de contas de usuários, redefinição de senhas e edição de informações de contato.
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 Você pode visualizar e editar informações de contato, especificar uma senha, visualizar informações de serviços da Web e excluir este computador da coleta de dados.
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 Todos os utilizadores têm acesso à página de [!UICONTROL Informações da conta]. As informações a seguir estão disponíveis para visualização ou edição:
 
@@ -153,27 +129,11 @@ Todos os utilizadores têm acesso à página de [!UICONTROL Informações da con
  </tbody> 
 </table>
 
-## Alterar o idioma da interface {#task_E20F9C7713C444998C883CFF93DC848A}
+## Alterar o idioma da interface
 
 Etapas que descrevem como alterar o idioma da interface. Você pode exibir a interface do Reports and Analytics no idioma escolhido.
 
-<!-- 
+1. Faça logon no Analytics e selecione a guia **[!UICONTROL Relatórios]** .
+1. No rodapé da página, clique no idioma ativo no menu **[!UICONTROL Idioma]** e selecione o idioma desejado.
 
-t_changing_language.xml
-
- -->
-
-1. Fazer Logon.
-1. Clique no menu **Visualizar em** e, em seguida, clique em um idioma:
-
-* Inglês
-* Francês
-* Chinês tradicional
-* Chinês simplificado
-* Alemão
-* Japonês
-* Coreano
-* Espanhol
-* Português
-
-   Normalmente, a documentação mais atualizada é a versão em inglês. Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
