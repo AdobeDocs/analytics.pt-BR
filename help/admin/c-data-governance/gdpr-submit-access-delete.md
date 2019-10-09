@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Enviar solicitações de acesso e de exclusão
 title: Enviar solicitações de acesso e de exclusão
-uuid: d 006 cd 5 c-e 3 cd -4385-8683-acaf 73 cb 681 b
+uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
@@ -27,21 +27,21 @@ Você, como o controlador de dados, é responsável por obter consentimento expl
 
 Você, como controlador de dados, é responsável por verificar se o titular dos dados é quem diz ser e se tem direito aos dados que está solicitando. Além disso, é sua responsabilidade garantir que os dados corretos sejam devolvidos ao titular dos dados e que ele não receba, inadvertidamente, dados sobre outros titulares de dados.
 
-Isso inclui revisar os dados retornados pelo Adobe Analytics como parte de uma solicitação de acesso do GDPR antes de enviá-los ao titular dos dados. Cuidado especial deve ser tomado se estiver usando IDs de pessoa e retornando não somente os dados nos quais essa ID está presente, como também os dados de outras ocorrências em um dispositivo compartilhado no qual essa ID estava ocasionalmente presente ([Expansão de ID](../../admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Isso inclui a revisão dos dados retornados pelo Adobe Analytics como parte de uma solicitação de acesso de Privacidade de dados antes de enviá-los para a pessoa em questão. Cuidado especial deve ser tomado se estiver usando IDs de pessoa e retornando não somente os dados nos quais essa ID está presente, como também os dados de outras ocorrências em um dispositivo compartilhado no qual essa ID estava ocasionalmente presente ([Expansão de ID](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
 
 ## Enviar solicitações {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-Você pode enviar as solicitações de acesso e exclusão do GDPR por meio de nosso [portal de interface do usuário do GDPR](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou de nossa [API do GDPR](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Você pode enviar acesso à privacidade de dados e excluir solicitações por meio do portal [da interface de privacidade de](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) dados ou por meio da nossa API [de privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 >[!NOTE]
 >
->A API GI suporta envios em lote para vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
+>A API de privacidade de dados suporta envios em lote para vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
 ## Solicitação JSON de exemplo {#section_DB9DE6492FE740918F91D413E7BAB88F}
 
-Este é o JSON que pode ser enviado por meio da API do GDPR ou da interface do usuário, solicitando o processamento do GDPR para três usuários.
+Este é o JSON que pode ser enviado por meio da API de privacidade de dados ou da interface do usuário, solicitando o processamento de privacidade de dados para três usuários.
 
 ```
 { 
@@ -53,7 +53,7 @@ Este é o JSON que pode ser enviado por meio da API do GDPR ou da interface do u
     ], 
     "users": [ 
         { 
-            "key": "GDPR-1234", 
+            "key": "Data Privacy-1234", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -66,7 +66,7 @@ Este é o JSON que pode ser enviado por meio da API do GDPR ou da interface do u
             ] 
         }, 
         { 
-            "key": "GDPR-1235", 
+            "key": "Data Privacy-1235", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -79,7 +79,7 @@ Este é o JSON que pode ser enviado por meio da API do GDPR ou da interface do u
             ] 
         }, 
         { 
-            "key": "GDPR-1236", 
+            "key": "Data Privacy-1236", 
             "action": ["access","delete"], 
             "userIDs": [ 
                 { 
@@ -110,9 +110,9 @@ Observe que há três blocos na seção do usuário, representando três solicit
 Lembre-se
 
 * O valor “5D7236525AA6D9580A495C6C@AdobeOrg” na seção “companyContexts” deve ser atualizado com o valor da própria organização da Experience Cloud.
-* Os campos “type” e “namespace” são descritos em mais detalhes na seção [Namespaces](../../admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
+* Os campos “type” e “namespace” são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
 * Os campos “description” são ignorados.
-* Os campos “key” podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações do GDPR, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
+* Os campos “key” podem conter qualquer valor desejado. Se você tiver uma ID interna que esteja usando para rastrear solicitações de Privacidade de dados, poderá colocar esse valor aqui, para facilitar a correspondência de solicitações no sistema da Adobe com as solicitações em seus próprios sistemas.
 
 ## Detalhes de resposta {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -122,12 +122,12 @@ Esta seção apresenta detalhes sobre respostas de acesso e de exclusão.
 
 Os dados retornados em uma solicitação de acesso fornecem a você, o controlador de dados, um URL que pode ser usado para baixar um arquivo ZIP que contenha um diretório para cada produto da Adobe que possui. Na pasta do Analytics, pode haver:
 
-* Arquivos de pessoa - Derivados de ocorrências que contêm um rótulo ID-PERSON correspondente
+* Arquivos da pessoa - derivados de ocorrências que contêm um rótulo ID-PESSOA correspondente
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL ou ACC-PERSON, classificado por carimbo de data e hora.
    * Um arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL ou ACC-PERSON. Cada entrada lista todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
 
-* Arquivos de dispositivo - derivados de ocorrências em que um dos campos correspondeu a uma ID especificada, mas nenhum correspondeu a uma ID especificada
+* Arquivos de dispositivo - derivado de ocorrências em que um dos campos correspondia a um ID-DEVICE especificado, mas nenhum correspondia a um ID-PESSOA especificado
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL, classificado por carimbo de data e hora.
    * Arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL. Cada entrada listará todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
@@ -138,17 +138,17 @@ Você pode decidir qual deles retornar ao titular dos dados. Ou você pode extra
 
 **Detalhes de resposta da exclusão**
 
-Nenhum dado é retornado nas solicitações de exclusão; apenas um status para a API do GDPR de que a solicitação foi concluída com êxito.
+Nenhum dado é retornado para solicitações de exclusão - somente um status para a API de privacidade de dados em que a solicitação foi concluída com êxito.
 
-## Teste do processamento de GDPR em seus dados {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## Testando o processamento da privacidade de dados em seus dados {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 Normalmente, os clientes do Analytics configurarão alguns conjuntos de relatórios de teste para verificar a funcionalidade antes que ela seja disponibulizada para o público em geral. Sites da web ou aplicativos em pré-produção enviarão dados para esses conjuntos de relatórios de teste/desenvolvimento/QA para avaliar como as coisas funcionarão quando o código for lançado antes que o tráfego real seja enviado para os conjuntos de relatórios de produção.
 
-No entanto, com uma configuração normal, o processamento de solicitação de GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. O motivo é que uma solicitação de GDPR é aplicada automaticamente a todos os conjuntos de relatórios na Organização da Experience Cloud, que geralmente engloba todos os conjuntos de relatórios da sua empresa.
+No entanto, com uma configuração normal, o processamento de solicitação de GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. Isso ocorre porque uma solicitação de Privacidade de dados é automaticamente aplicada a todos os conjuntos de relatórios na organização da Experience Cloud, que é geralmente todos os conjuntos de relatórios da sua empresa.
 
-Há algumas maneiras de testar o processamento do GDPR antes de aplicá-lo a todos os seus conjuntos de relatórios:
+Existem algumas maneiras de testar o processamento da privacidade de dados antes de aplicá-lo a todos os conjuntos de relatórios:
 
-* Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de GDPR e sua organização normal da Experience Cloud para processamentos de GDPR.
+* Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Em seguida, use essa organização da Experience Cloud para o teste de Privacidade de dados e sua organização normal da Experience Cloud para o processamento de Privacidade de dados real.
 * Outra opção é atribuir namespaces diferentes à IDs nos conjuntos de relatórios de teste, em comparação com aqueles em seus conjuntos de relatórios de produção.
 
-   Por exemplo, você pode adicionar prefixos "qa-" a cada namespace nos conjuntos de relatórios de teste. Quando você enviar solicitações do GDPR com apenas namespaces com o prefixo "qa", essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo "qa", elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntosde relatórios de teste**.
+   Por exemplo, você pode adicionar prefixos "qa-" a cada namespace nos conjuntos de relatórios de teste. Quando você envia solicitações de Privacidade de dados somente com namespaces com o prefixo qa, essas solicitações só serão executadas em seus conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo "qa", elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntosde relatórios de teste**.
