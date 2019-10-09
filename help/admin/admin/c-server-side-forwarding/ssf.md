@@ -4,9 +4,9 @@ seo-description: O encaminhamento pelo lado do servidor foi projetado para clien
 seo-title: Visão geral do encaminhamento pelo lado do servidor
 solution: Audience Manager
 title: Visão geral do encaminhamento pelo lado do servidor
-uuid: 22 ddbde 5-6805-4 eba -8 f 82-62772644 dcaa
+uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
@@ -17,7 +17,7 @@ O encaminhamento pelo lado do servidor foi projetado para clientes que desejam c
 
 O encaminhamento pelo lado do servidor é aprimorado no momento da coleta de dados porque:
 
-* Reduz as chamadas da página. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Menos chamadas ajudam a melhorar os tempos de carregamento de página, o que cria uma melhor experiência do cliente em seu site.
+* Reduz as chamadas da página. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Remover o DIL significa eliminar uma `"/event"` chamada. Menos chamadas ajudam a melhorar os tempos de carregamento de página, o que cria uma melhor experiência do cliente em seu site.
 * Permite aproveitar o compartilhamento de dados entre as soluções da Experience Cloud.
 * Está em conformidade com nossas práticas recomendadas do Audience Manager para a implementação e implantação de códigos.
 
@@ -30,18 +30,18 @@ O encaminhamento pelo lado do servidor é aprimorado no momento da coleta de dad
 
 Para entender onde sua organização está em termos de implementação do encaminhamento pelo lado do servidor, passe por essas etapas de validação:
 
-## ![etapa 1_ ícone imagem. png](assets/step1_icon.png) Verificação da implementação do serviço MID
+## ![step1_icon.png imagem](assets/step1_icon.png) Verificar implementação do serviço MID
 
 Verifique se o serviço da Experience Cloud ID (MID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
 
-Na guia Solicitação, verifique se um valor de MID está definido. Isso indica que o Serviço de identidade é implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
+Na guia Solicitação, verifique se um valor de MID está definido. Isso informa que o Serviço de identidade foi implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
 
 * Se você encontrar um valor MID, avance para a etapa 2.
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![Etapa 2_ ícone imagem. png](assets/step2_icon.png) Verificação da versão de implementação do encaminhamento pelo lado do servidor
+## ![step2_icon.png imagem](assets/step2_icon.png) Verificar a versão de implementação do encaminhamento pelo lado do servidor
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](../../../admin/admin/c-server-side-forwarding/ssf-verify.md).
+Verifique se você já tem uma versão do encaminhamento pelo lado do servidor implementada, [inspecionando a solicitação](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)de rastreamento do Analytics.
 
 Na guia “Resposta”, verifique se a resposta contém dados do Audience Manager. Se você encontrar:
 
@@ -56,7 +56,7 @@ Na guia “Resposta”, verifique se a resposta contém dados do Audience Manage
    * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 
-## ![etapa 3_ ícone. imagem png](assets/step3_icon.png) Verificação da implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
+## ![step3_icon.png imagem](assets/step3_icon.png) Verificar implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
 
 Verifique se o encaminhamento pelo lado do servidor foi implementado em nível de conjunto de relatórios, em vez da abordagem do servidor de rastreamento herdado.
 
