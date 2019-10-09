@@ -3,9 +3,9 @@ description: A caixa de diálogo Governança de dados nas Ferramentas administra
 seo-description: A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece uma visão geral de quais conjuntos de relatórios foram configurados para a governança de dados, se foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 seo-title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
-uuid: f 3 b 83 e 8 e -00 af -4 a 60-a 5 de -29 b 5 c 43 f 6788
+uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -19,7 +19,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
 
    Você verá todos os conjuntos de relatórios que fazem parte da empresa de logon:
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -38,17 +38,17 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapeado</b>: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a organização da Experience Cloud - Mapeamento do conjunto de relatórios, onde é necessário encontrar o conjunto de relatórios e atribuí-lo à organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administrador de mapeamento de conjuntos de relatórios, na qual é necessário localizar o conjunto de relatórios e atribuí-lo à organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapeado para outra organização</b>: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Política de retenção de dados </p> </td> 
-   <td colname="col2"> <p>A implementação do GDPR do Analytics exige que você tenha uma política de retenção de dados em vigor. </p> <p>Esta configuração mostra se </p> 
+   <td colname="col2"> <p>A implementação da Privacidade de dados do Analytics exige que você tenha uma política de retenção de dados em vigor. </p> <p>Esta configuração mostra se </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">uma política de retenção de dados está em vigor para este conjunto de relatórios e </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">por quanto tempo os dados ficam retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses. </li> 
-    </ul> <p>Observação: o Adobe Analytics não pode ajudá-lo com o processamento de solicitações da API do GDPR (ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais), se um período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. </p> </td> 
+    </ul> <p>Observação:  O Adobe Analytics não pode ajudá-lo com solicitações de processamento para a API de privacidade de dados, isto é, solicitações de acesso ou exclusão de processamento que você recebe de seus usuários finais, se o período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos </p> </td> 
