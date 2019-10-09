@@ -1,26 +1,26 @@
 ---
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 seo-description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
-seo-title: GDPR e Data Connectors (Genesis)
-title: GDPR e Data Connectors (Genesis)
-uuid: d 3 a 32 c 09-d 3 c 5-452 c -8302-8 da 28 e 62 ead 3
+seo-title: Privacidade de dados e conectores de dados (Genesis)
+title: Privacidade de dados e conectores de dados (Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# GDPR e Data Connectors (Genesis)
+# Privacidade de dados e conectores de dados (Genesis)
 
 Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 
-Essas informações permitem identificar quaisquer dados direta ou indiretamente identificáveis importados por meio de nossos conectores, ao receberem uma solicitação do GDPR.
+Essas informações permitem identificar quaisquer dados diretamente identificáveis ou indiretamente identificáveis importados por nossos conectores, quando eles recebem uma solicitação de Privacidade de dados.
 
 Se estiver usando uma integração de qualquer um dos conectores abaixo, você pode simplesmente verificar quais variáveis/classificações de parceiros na integração podem, possivelmente, conter dados direta ou indiretamente identificáveis.
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>Essas informações são fornecidas para ajudá-lo a identificar variáveis que devem ser [rotuladas](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), mas sua responsabilidade como controlador de dados é aplicar os rótulos apropriados ou executar outras ações para a prontidão [da Privacidade de](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) dados (atualização de classificações etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
