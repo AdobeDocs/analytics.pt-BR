@@ -1,18 +1,18 @@
 ---
 description: O processo de instalação varia de acordo com o navegador usado.
 seo-description: O processo de instalação varia de acordo com o navegador usado.
-seo-title: Instalar plug-ins do navegador do Mapa de atividade
+seo-title: Instalar os plug-ins do navegador do Activity Map
 solution: Analytics
-title: Instalar plug-ins do navegador do Mapa de atividade
+title: Instalar os plug-ins do navegador do Activity Map
 topic: Activity Map
-uuid: b 5 c 07718-e 25 c -4 ba 9-885 d -3 a 2 a 47 dd 9 f 60
+uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
 
 ---
 
 
-# Install Activity Map browser plug-ins{#install-activity-map-browser-plug-ins}
+# Instalar os plug-ins do navegador do Activity Map{#install-activity-map-browser-plug-ins}
 
 O processo de instalação varia de acordo com o navegador usado.
 
@@ -36,7 +36,7 @@ Plug-ins de navegador do Activity Map:
 1. Return to Chrome's address bar and enter `chrome://extensions`.
 1. Marque a caixa de diálogo do modo Desenvolvedor.
 1. Clique em Carregar extensões descompactadas e selecione a pasta descompactada no pop-up.
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Agora, é possível [inicializar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) na página.
 
 ## Install Activity Map plug-in on Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,10 +47,10 @@ Plug-ins de navegador do Activity Map:
 1. Clique em **[!UICONTROL Permitir]** quando esta mensagem for exibida: ![](assets/firefox_install2.png)
 
 1. Clique em **[!UICONTROL Instalar agora]**.
-1. Clique no ícone **[!UICONTROL Abrir menu]** na parte superior direita e selecione **[!UICONTROL Complementos]**. ![](assets/firefox_install3.png){width = "250 px"}
+1. Clique no ícone **[!UICONTROL Abrir menu]** na parte superior direita e selecione **[!UICONTROL Complementos]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. O Activity Map deve ser listado como um dos complementos do Firefox.
-1. Se você visualizar um ícone do Adobe Analytics ![ adicionado à sua barra de ferramentas, o download foi bem sucedido.](assets/an_icon.png) You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. Se você visualizar um ícone do Adobe Analytics ![ adicionado à sua barra de ferramentas, o download foi bem sucedido.](assets/an_icon.png) Agora você pode [iniciar o Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) na sua página.
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
@@ -61,12 +61,12 @@ Plug-ins de navegador do Activity Map:
 1. Clique em **[!UICONTROL Executar]para inicializar a instalação do Activity Map.**
 1. Clique em **[!UICONTROL Sim]no pop-up para permitir que o programa faça alterações no computador.**
 1. Siga as instruções do assistente de instalação.
-1. Se o Activity Map foi instalado com sucesso, você verá uma notificação no Internet Explorer informando que a barra de tarefas do Activity Map está pronta para uso. Habilite-a para começar a usar o aplicativo. You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. Se o Activity Map foi instalado com sucesso, você verá uma notificação no Internet Explorer informando que a barra de tarefas do Activity Map está pronta para uso. Habilite-a para começar a usar o aplicativo. Agora você pode [iniciar o Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) na sua página.
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
 
-1. Navigate to <https://safari-extensions.apple.com/>.
+1. Navegue até <https://safari-extensions.apple.com/>.
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Agora você pode [iniciar o Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) na sua página.
