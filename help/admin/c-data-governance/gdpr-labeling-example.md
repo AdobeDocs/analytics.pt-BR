@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Exemplo de rotulagem
 title: Exemplo de rotulagem
-uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
+uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -20,9 +20,9 @@ Suponha que você tenha os seguintes dados de ocorrência:
 * A segunda linha é o nome da variável. Se tiver um rótulo de ID, ele conterá o namespace atribuído entre parênteses.
 * Os dados de ocorrência começam na terceira linha.
 
-| Rótulos | I2<br>ID-CUSTOMDEL<br>-CUSTOMACC<br>-PERSON | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL | I 2<br>DEL-CUSTOMACC<br>-PERSON | I 2<br>DEL-DEVICEDEL<br>-CUSTOMACC<br>-ALL | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL |
+| Rótulos | I2<br>ID-<br>PESSOAL-<br>PESSOA-PESSOA-PESSOA | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PESSOA | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
 |---|---|---|---|---|---|
-| **Nome da variável**<br>**(Namespace)** | **Myprop 1**<br>**(usuário)** | **ID do visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome**<br>**da variável (Namespace)** | **MyProp1**<br>**(usuário)** | **ID**<br>**do visitante (AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dados de ocorrência | Mary | 77 | Um | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
@@ -58,39 +58,39 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | Um | GDPR-7398 | GDPR-9152 |
+| Mary | 42 | Um | Privacidade-7398 | Privacidade-9152 |
 | Mary | 88 | B | N | S |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | GDPR-1866 | GDPR-8216 |
+| John | 42 | D | Privacidade-1866 | Privacidade-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Somente células em linhas contendo AAID = 77 e uma etiqueta DEL-DEVICE são afetadas.
+>[!NOTE] Somente as células em linhas contendo AAID = 77 e um rótulo DEL-DEVICE são afetadas.
 
-| user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false |
+| user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
-| GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | S |
-| GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
+| Privacidade-0523 | 77 | Privacidade-1866 | Privacidade-3681 | X |
+| Privacidade-0523 | 88 | Privacidade-2178 | Privacidade-1975 | S |
+| Privacidade-0523 | 99 | Privacidade-9045 | Privacidade-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Somente células em linhas contendo usuário = Mary e uma etiqueta DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com “GDPR-”, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
+>[!NOTE] Somente as células em linhas que contêm user=Mary e uma etiqueta DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma string que começava com "Privacidade-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico diferente e aleatório.
 
-| user=Mary<br>expandIDs=true | user = maryexpandids<br>= true | user = maryexpandids<br>= true | user = maryexpandids<br>= true | user = maryexpandids<br>= true |
+| user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
-| GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
-| GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
-| John | 09 | D | GDPR-8454 | GDPR-8216 |
-| John | 16 | E | GDPR-2911 | GDPR-2930 |
+| Privacidade-5782 | 09 | Privacidade-0859 | Privacidade-8183 | Privacidade-9152 |
+| Privacidade-5782 | 16 | Privacidade-6104 | Privacidade-2911 | Privacidade-6821 |
+| Privacidade-5782 | 83 | Privacidade-2714 | Privacidade-0219 | Privacidade-4395 |
+| John | 09 | D | Privacidade-8454 | Privacidade-8216 |
+| John | 16 | E | Privacidade-2911 | Privacidade-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
