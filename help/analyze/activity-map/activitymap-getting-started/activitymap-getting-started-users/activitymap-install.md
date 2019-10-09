@@ -7,7 +7,7 @@ title: Instalar os plug-ins do navegador do Activity Map
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Plug-ins de navegador do Activity Map:
 * São inicializados por um botão ou item de menu na barra de ferramentas do navegador.
 * São compatíveis apenas com as versões mais recentes desses navegadores de desktop: Internet Explorer, Firefox, Chrome e Safari.
 * São compatíveis com o recurso **[!UICONTROL Lembrar meu logon].**
-* **Podem** inserir a barra de ferramentas do Activity Map em páginas da Web que não contêm o código de página do Analytics. Vão mostrar uma mensagem de erro se a página não tiver o código de página do Analytics.
+* **** Podem inserir a barra de ferramentas do Activity Map em páginas da Web que não contêm o código de página do Analytics. Vão mostrar uma mensagem de erro se a página não tiver o código de página do Analytics.
 * Exigem que você passe por um processo de instalação do plug-in no navegador.
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
