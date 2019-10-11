@@ -5,7 +5,7 @@ seo-title: Enviar solicitações de acesso e de exclusão
 title: Enviar solicitações de acesso e de exclusão
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ Isso inclui a revisão dos dados retornados pelo Adobe Analytics como parte de u
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
 
-## Enviar solicitações {#section_F70F4D91B7FF4242876338A66D2125C3}
+## Enviar solicitações {#submit-requests}
 
 Você pode enviar acesso à privacidade de dados e excluir solicitações por meio do portal [da interface de privacidade de](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) dados ou por meio da nossa API [de privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -122,12 +122,12 @@ Esta seção apresenta detalhes sobre respostas de acesso e de exclusão.
 
 Os dados retornados em uma solicitação de acesso fornecem a você, o controlador de dados, um URL que pode ser usado para baixar um arquivo ZIP que contenha um diretório para cada produto da Adobe que possui. Na pasta do Analytics, pode haver:
 
-* Arquivos da pessoa - derivados de ocorrências que contêm um rótulo ID-PESSOA correspondente
+* Arquivos de pessoas - derivados de ocorrências que contêm um rótulo ID-PERSON correspondente
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL ou ACC-PERSON, classificado por carimbo de data e hora.
    * Um arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL ou ACC-PERSON. Cada entrada lista todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
 
-* Arquivos de dispositivo - derivado de ocorrências em que um dos campos correspondia a um ID-DEVICE especificado, mas nenhum correspondia a um ID-PESSOA especificado
+* Arquivos de dispositivo - derivados de ocorrências em que um dos campos correspondia a um ID-DEVICE especificado, mas nenhum correspondia a um ID-PERSON especificado
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL, classificado por carimbo de data e hora.
    * Arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL. Cada entrada listará todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
