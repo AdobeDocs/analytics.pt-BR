@@ -5,7 +5,7 @@ seo-title: Rótulos de privacidade de dados para variáveis do Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ Muitos clientes da Adobe têm equipes legais que revisaram as leis de privacidad
 
 O Adobe Analytics fornece ferramentas para rotulação de dados de acordo com sua sensibilidade e restrições contratuais. Os rótulos são importantes e úteis para ajudar a: (1) identificar os titulares dos dados, (2) determinar quais dados retornar como parte de uma solicitação de acesso; e (3) identificar campos de dados que devem ser excluídos como parte de uma solicitação de exclusão.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 A implementação da Privacidade de dados do Adobe Analytics suporta os seguintes rótulos para dados de identidade, dados confidenciais e controle de dados.
 
@@ -26,7 +26,7 @@ A implementação da Privacidade de dados do Adobe Analytics suporta os seguinte
 
 >[!NOTE]
 >
->A Estrutura DULE (Data Usage Labeling &amp; Implementation) foi projetada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está expondo somente os rótulos DULE relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
+>A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está expondo somente os rótulos DULE relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
 
 ## Rótulos de dados de identidade (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,7 +85,7 @@ Os rótulos “S” de dados sensíveis são usados para classificar dados sens�
  </tbody> 
 </table>
 
-## Rótulos de controle de dados (Privacidade de dados) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Rótulos de controle de dados (Privacidade de dados) {#data-governance-labels}
 
 Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas.
 
@@ -212,7 +212,7 @@ Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solici
 
 Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer um dos conjuntos de relatórios na empresa de logon, será possível selecionar um desses namespaces existentes. Reutilize o namespace se essa variável contiver o mesmo tipo de IDs que outras variáveis já rotuladas com esse namespace e você desejar pesquisar todos eles ao enviar uma solicitação.
 
-1. Clique em **[!UICONTROL Selecionar namespace]e selecione um dos namespace existentes.**
+1. Clique em **[!UICONTROL Selecionar namespace]** e selecione um dos namespace existentes.
 1. Clique em **[!UICONTROL Aplicar]**.
 
 ![](assets/namespace.png)
@@ -221,11 +221,11 @@ Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer
 
 Você também pode definir um novo namespace. Recomendamos que as sequências de caracteres do namespace sejam limitadas a caracteres alfanuméricos, além de caracteres com sublinhado, traço e espaço. Elas serão inteiramente convertidas para letras minúsculas.
 
-1. Clique em **[!UICONTROL Selecionar namespace]e digite o título do namespace.**
+1. Clique em **[!UICONTROL Selecionar namespace]** e digite o título do namespace.
 
    ![](assets/namespace2.png)
 
-1. Pressione **[!UICONTROL Enter]para adicionar este namespace.** O botão Aplicar será ativado somente agora.
+1. Pressione **[!UICONTROL Enter]** para adicionar este namespace. O botão Aplicar será ativado somente agora.
 1. Clique em **[!UICONTROL Aplicar]**.
 
 A string especificada como namespace é a mesma string que você deve usar ao enviar solicitações por meio da API de privacidade de dados como o valor do parâmetro "namespace". A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
@@ -335,7 +335,7 @@ A rotulagem Privacidade dos dados/DULE afeta quatro classes amplas de variáveis
    <td colname="col1"> <p>Dimensões de processamento de dados </p> </td> 
    <td colname="col2"> <p>ID de visitante personalizada </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Não é possível remover as etiquetas de ID ou DEL (definidas como Nenhuma), mas é possível alterá-las para serem as variantes DEVICE ou PERSON, dependendo da implementação de ID personalizada. </p> <p>Se você não usar a ID de visitante personalizada, a configuração não terá importância. </p> </td> 
+   <td colname="col4"> <p>Não é possível remover os rótulos de ID ou DEL (definidos como Nenhum), mas você pode alterá-los para as variantes DEVICE ou PERSON, dependendo da implementação da ID personalizada. </p> <p>Se você não usar a ID de visitante personalizada, a configuração não terá importância. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -434,11 +434,11 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Elas têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você especificar <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> Expansão de ID</a> com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON. </p> <p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes exclusivos mudarão em um relatório histórico. </p> </td> 
+   <td colname="col2"> <p> Elas têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você especificar <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Expansão de ID</a> com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON. </p> <p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes exclusivos mudarão em um relatório histórico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do AMO </p> </td> 
-   <td colname="col2"> <p> A Adobe Advertising Cloud ID é uma variável de solução que tem uma etiqueta DEL-DEVICE não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. </p> </td> 
+   <td colname="col2"> <p> A Adobe Advertising Cloud ID é uma variável de solução que tem um rótulo DEL-DEVICE não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
