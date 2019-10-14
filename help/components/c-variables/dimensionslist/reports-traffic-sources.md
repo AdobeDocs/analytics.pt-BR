@@ -7,7 +7,7 @@ title: Fontes de Tráfego
 topic: Relatórios
 uuid: 34ab8797-7a3e-43fd-afb2-433586961b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ Os relatórios neste menu se dividem em três categorias básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Referenciadores </td> 
-   <td colname="col2"> <p> Mostra o domínio ou URL de onde os visitantes vieram antes de chegarem ao site, os métodos utilizados para encontrar site e o número de visitas ao site que vieram desses locais de referência. </p> <p>Por exemplo, se um visitante clica em um link do Site A e chega do site, Site A é o referenciador se não for definido como parte de seu domínio. Durante a implementação, seu consultor de implementação pode ajudá-lo a definir os domínios e URLs que fazem parte do seu site (isso também pode ser feito após a implementação.) Quaisquer domínios ou URLs que não sejam parte desses domínios e URLs definidos são considerados referenciadores. </p> <p>Por exemplo, se as páginas da Web A e B são adicionadas ao filtro de URL interno, mas a página da Web C não é, a página da Web C é considerada uma referência. </p> <p>See <a href="/help/admin/admin/internal-URL-filter-admin.md">Internal URL Filters</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Emails do Outlook são indicados na linha <span class="wintitle">Digitado/Marcado</span>. Qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido é indicado na linha <span class="wintitle">Mecanismo de pesquisa</span>. </p> </td> 
+   <td colname="col2"> <p> Mostra o domínio ou URL de onde os visitantes vieram antes de chegarem ao site, os métodos utilizados para encontrar site e o número de visitas ao site que vieram desses locais de referência. </p> <p>Por exemplo, se um visitante clica em um link do Site A e chega do site, Site A é o referenciador se não for definido como parte de seu domínio. Durante a implementação, seu consultor de implementação pode ajudá-lo a definir os domínios e URLs que fazem parte do seu site (isso também pode ser feito após a implementação.) Quaisquer domínios ou URLs que não sejam parte desses domínios e URLs definidos são considerados referenciadores. </p> <p>Por exemplo, se as páginas da Web A e B são adicionadas ao filtro de URL interno, mas a página da Web C não é, a página da Web C é considerada uma referência. </p> <p>Consulte <a href="/help/admin/admin/internal-URL-filter-admin.md"> Filtros internos do URL</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Emails do Outlook são indicados na linha <span class="wintitle">Digitado/Marcado</span>. Qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido é indicado na linha <span class="wintitle">Mecanismo de pesquisa</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de Referenciador </td> 
@@ -86,4 +86,3 @@ Os relatórios neste menu se dividem em três categorias básicas:
   </tr> 
  </tbody> 
 </table>
-
