@@ -7,7 +7,7 @@ title: Relatórios de métricas do site
 topic: Ad Hoc Analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Receita**: permite visualizar o lucro bruto por períodos selecionados. Os exemplos podem incluir receitas durante o mês de março, as compras feitas na semana passada, ou a receita de hoje.
 * **Pedidos**: esse relatório mostra o número de pedidos feitos no site durante o intervalo selecionado. Os pedidos podem conter diversos produtos.
 * **Unidades**: mostra todas as unidades pedidas para o intervalo selecionado.
-* ** Funil de conversão de compra**: Ideal para mostrar eventos de conversão no site se eles ocorrem em uma ordem específica, como em uma configuração de varejo. Um relatório de funil mostra as métricas de conversão para cada etapa do processo de conversão, assim como os pedidos, a receita e as unidades. 
+* **Funil de conversão de compra**: ideal para mostrar eventos de conversão no site se eles ocorrem em uma ordem específica, como em um ambiente de varejo. Um relatório de funil mostra as métricas de conversão para cada etapa do processo de conversão, assim como os pedidos, a receita e as unidades. 
 
 ## Relatório de carrinho de compras {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
