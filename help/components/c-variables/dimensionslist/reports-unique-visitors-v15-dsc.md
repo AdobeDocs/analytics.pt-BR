@@ -7,7 +7,7 @@ title: Visitantes únicos
 topic: Relatórios
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -263,7 +263,7 @@ Os totais da métrica podem alterar com base no intervalo de datas do relatório
 
 Você pode utilizar segmentação para alterar o intervalo de datas pra incluir datas posteriores em vez de datas anteriores. Por exemplo, suponhamos que o intervalo de datas seja de 2 de janeiro a 3 de janeiro (conforme mostrado na tabela anterior). Se você aplicar um segmento onde Página = C, 2 de janeiro passaria para o segmento, e a primeira ocorrência do Visitante Único por semana seria no dia 3 de janeiro. Se, ao invés disso, você aplicar um segmento onde Página = D, então tanto o dia 2 de janeiro quanto o dia 3 de janeiro serão excluídos. Nenhum resultado seria mostrado para o Visitante Único por semana e seria excluído do total.
 
-**Relatórios de Visitantes únicos Baseados em Período **
+**Relatórios de Visitantes únicos Baseados em Período**
 
 Estes relatórios utilizam uma página particular, prop e atributos (exemplo: onde Página = A).
 
