@@ -5,9 +5,9 @@ seo-title: Planejar segmentos
 solution: Analytics
 title: Planejar segmentos
 topic: Segmentos
-uuid: bc 522834-123 c -457 d-bde 7-db 7 c 5 c 97077 f
+uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,5 +28,5 @@ Ao dedicar algum tempo para planejar segmentos melhora a probabilidade de que se
 1. Decida quais **elementos** devem ser incluídos na definição do segmento e quais destes valores. Considere [a persistência variável](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB) nessa decisão.
 
 1. Considera como você deseja que o **processo de aprovação** se desenvolva. Uma única pessoa analisará e aprovará segmentos ou será uma decisão de comitê?
-1. Define your segments with view to a** segment library** that gives business users the ability to [stack](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) and reuse segment pieces or components in a modular fashion. Quais "módulos" você precisa definir para transformar essa biblioteca em uma realidade?
+1. Defina seus segmentos com uma visualização para uma **biblioteca de segmentos** que confere aos usuários de negócios a capacidade de empilhar e reutilizar partes de segmentos ou componentes de forma modular. [](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) Quais "módulos" você precisa definir para transformar essa biblioteca em uma realidade?
 
