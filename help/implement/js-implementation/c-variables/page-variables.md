@@ -9,7 +9,7 @@ title: Variáveis de página
 topic: Desenvolvedor e implementação
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -323,7 +323,7 @@ Existem duas formas de determinar a expiração de uma eVar:
 * É possível definir a eVar para expirar depois de um período ou evento especificado.
 * É possível forçar a expiração de uma eVar, o que é útil quando se estabelece um novo objetivo para uma variável.
 
-If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
+Se uma eVar for usada em maio para refletir promoções internas e expirar após 21 dias, e em junho for usada para capturar palavras-chave de pesquisa interna, em seguida, em 1º de junho, você deverá forçar a expiração ou redefinir a variável. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
 
 **Uso de maiúsculas e minúsculas** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **Sintaxe e valores possíveis** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** Método autoTrack: **
+**Método autoTrack:**
 
 Se você estiver usando o [!UICONTROL s.Media.autoTrack], a variável [!UICONTROL mediaLength] não precisará ser implementada explicitamente. Ela é determinada automaticamente pelo código do AppMeasurement para JavaScript.
 
@@ -1549,7 +1549,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Essa variável só deve ser lida e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -1807,7 +1807,7 @@ Normalmente, os redirecionamentos do lado do servidor e de JavaScript são usado
 |---|---|---|---|
 | 255 bytes | R | Tráfego &gt; Localização de métodos de conversão &gt; Localização de métodos | document.referrer |
 
-Muitas empresas usam redirecionamentos em muitos locais em seus sites. Por exemplo, um visitante pode ser enviado por meio de um redirecionamento de um resultado de pesquisa pago de mecanismo de pesquisa. Quando um navegador é redirecionado, normalmente a referrer fica perdida. A variável  variable may be used to restore the original  value on the first page after a redirect. *`referrer`**`referrer`* The *`referrer`* may be populated server-side, or via JavaScript from the query string.
+Muitas empresas usam redirecionamentos em muitos locais em seus sites. Por exemplo, um visitante pode ser enviado por meio de um redirecionamento de um resultado de pesquisa pago de mecanismo de pesquisa. Quando um navegador é redirecionado, normalmente a referrer fica perdida. A variável *`referrer`* pode ser usada para restaurar o *`referrer`* valor original na primeira página após um redirecionamento. The *`referrer`* may be populated server-side, or via JavaScript from the query string.
 
 Para o Analytics registrar um referenciador, ele deve ser "bem formado", ou seja, deve seguir o formato padrão de URL, com protocolo e localização apropriada.
 
@@ -1850,7 +1850,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Essa variável só deve ser lida e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -1886,13 +1886,13 @@ Há três motivos comuns para usar *`s_objectID`*:
 
 **Agregar cliques em links altamente dinâmicos** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-If your site is highly dynamic, and links on some pages change throughout the day,  may used to identify the location of a link on the page. *`s_objectID`* If  is set to "top left 1" or "top left 2," which represents the first link in the top left of the page for example, then all links that appear in that location (or that have  set to the same value) are reported together with visitor click map. *`s_objectID`**`s_objectID`* If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+Se o site for altamente dinâmico e os links em algumas páginas forem alterados durante o dia, *`s_objectID`* poderá ser usado para identificar o local de um link na página. Se *`s_objectID`* estiver definido como "esquerda superior 1" ou "esquerda superior 2", que representa o primeiro link na parte superior esquerda da página, por exemplo, todos os links que aparecem nesse local (ou que estão *`s_objectID`* definidos para o mesmo valor) são reportados juntamente com o mapa de cliques do visitante. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
 
 **Clique separados combinados** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
 Se a *`pageName`* variável do site for usada para mostrar a seção ou o modelo que um visitante está visualizando, em vez da página específica que o visitante está visualizando, você pode usar *`s_objectID`* para separar os links que aparecem em várias versões desse modelo de página. Por exemplo, se você tiver um modelo de página para todos os produtos do seu site, provavelmente há um link para sua homepage e para a caixa de pesquisa desse modelo em todas as páginas. Se você quiser ver como esses links são usados em uma base de produtos individuais (em vez de uma base de modelo), poderá preencher *`s_objectID`* com valor do produto específico, como "prod 123789 página inicial" ou "prod 123789 pesquisa". Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-**Improve[!UICONTROL Activity Map]Accuracy** {#section_08B3406821294DCCABEEB99C90CF5C52}
+**Melhore a precisão[!UICONTROL do Activity Map]**{#section_08B3406821294DCCABEEB99C90CF5C52}
 
 Em alguns casos, os navegadores diferentes do Internet Explorer, Firefox, Netscape, Opera e Safari não são suportados. Embora seja um percentual pequeno, ele conta para alguns cliques e outras métricas. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. Este é um exemplo de como atualizar seus links para usar a *`s_objectID`*:
 
@@ -2057,7 +2057,7 @@ As marcas de data e hora devem estar em formato UNIX (segundos desde 1 de janeir
 
 * A data e a hora devem ser fornecidas, separadas por "T"
 * A data deve ser uma data de calendário com total precisão (dia, mês e ano). . Não há suporte para datas semanais e datas ordinais.
-* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Seconds are optional ( , , , or ). `HH:MM``HH:MM:SS``HHMM``HHMMSS` Os minutos e os segundos fracionais podem ser mencionados, mas a parte fracional será omitida.
+* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Os segundos são opcionais ( `HH:MM`, `HH:MM:SS`, `HHMM`ou `HHMMSS`). Os minutos e os segundos fracionais podem ser mencionados, mas a parte fracional será omitida.
 
 * An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
 
@@ -2155,7 +2155,7 @@ Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-To see whether  is enabled for a report suite, go to *`transactionID Storage`*
+Para ver se *`transactionID Storage`* está habilitado para um conjunto de relatórios, acesse
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2185,11 +2185,11 @@ s.transactionID=s.purchaseID
 
 **Armadilhas, dúvidas e dicas** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* If  recording is not enabled,  values will be discarded and unavailable for use with Integration Data Sources. *`transactionID`**`transactionID`* Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Do contrário, nenhum dado será gravado para *`transactionID`*.
+* Se a *`transactionID`* gravação não estiver ativada, *`transactionID`* os valores serão descartados e não estarão disponíveis para uso com as Fontes [!UICONTROL de Dados de]Integração. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Do contrário, nenhum dado será gravado para *`transactionID`*.
 
 * If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. Isso pode ser feito se você adicionar um prefixo à ID, como lead_1234 e purchase_1234. [!UICONTROL As Fontes] de Dados de Integração não funcionam como esperado (os dados da Fonte [!UICONTROL de] Dados se conectam aos dados errados) se um único *`transactionID`* for visto duas vezes.
 
-* By default,  values are remembered for 90 days. *`transactionID`* Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar o limite.
+* Por padrão, *`transactionID`* os valores são lembrados por 90 dias. Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar o limite.
 
 >[!NOTE]
 >
@@ -2283,7 +2283,7 @@ Nenhum
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-The  and  variables are conversion variables.
+As variáveis e são variáveis de conversão.
 
 <!-- 
 
