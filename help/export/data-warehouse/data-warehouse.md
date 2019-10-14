@@ -5,9 +5,9 @@ seo-title: Visão geral do Data Warehouse
 solution: Analytics
 title: Visão geral do Data Warehouse
 topic: Data Warehouse
-uuid: 768557 dd -1644-4 ce 6-bfc 2-8 c 46 dd 6 e 1 cd 1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,7 +28,7 @@ O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única
 
 >[!IMPORTANT]
 >
->Ao segmentar em valores classificados, a Analysis Workspace e o Data Warehouse tratam valores "não especificados" de forma diferente. “Não especificado” na Analysis Workspace refere-se a valores que não estão classificados, enquanto “Não especificado” no Data Warehouse refere-se a valores que você classificou como “Não especificado”.
+>Ao segmentar em valores classificados, a Analysis Workspace e o Data Warehouse tratam os valores "não especificados" de forma diferente. “Não especificado” na Analysis Workspace refere-se a valores que não estão classificados, enquanto “Não especificado” no Data Warehouse refere-se a valores que você classificou como “Não especificado”.
 
 ## Descrições de solicitações de Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ Essa tabela descreve os campos e opções da guia [!UICONTROL Solicitação do D
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segmentos disponíveis</span> </td> 
-   <td colname="col2"> <p>Permite selecionar a parte da população de visitantes que deseja examinar e gerar segmentos complexos. Você pode fazer upload de segmentos pré-configurados, criar novos segmentos e armazenar componentes de segmento em uma biblioteca para uso na construção de segmentos adicionais. </p> <p>Agora, é possível empilhar segmentos. Ao selecionar vários segmentos, a área de visualização, o Gerenciador de solicitação e o pop-up Detalhes da solicitação mostram uma lista de nomes separada por vírgulas (ex: Segmento1, Segmento2). </p> <p>Consulte o [Guia de segmentação] (/help/components/c-segmentation/seg-home. md) para obter mais informações. </p> <p>Observação: não é possível incluir um filtro de segmentos e um detalhamento no mesmo segmento, no mesmo relatório de Data Warehouse. Essa ação resultará em um erro. </p> </td> 
+   <td colname="col2"> <p>Permite selecionar a parte da população de visitantes que deseja examinar e gerar segmentos complexos. Você pode fazer upload de segmentos pré-configurados, criar novos segmentos e armazenar componentes de segmento em uma biblioteca para uso na construção de segmentos adicionais. </p> <p>Agora, é possível empilhar segmentos. Ao selecionar vários segmentos, a área de visualização, o Gerenciador de solicitação e o pop-up Detalhes da solicitação mostram uma lista de nomes separada por vírgulas (ex: Segmento1, Segmento2). </p> <p>Consulte o <a href="/help/components/c-segmentation/seg-home.md">Guia de segmentação do </a> para obter mais informações. </p> <p>Observação: não é possível incluir um filtro de segmentos e um detalhamento no mesmo segmento, no mesmo relatório de Data Warehouse. Essa ação resultará em um erro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Detalhamentos</span> </td> 
@@ -65,11 +65,11 @@ Essa tabela descreve os campos e opções da guia [!UICONTROL Solicitação do D
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Métricas</span> </td> 
-   <td colname="col2">Permite adicionar métricas que você deseja relatar. </td> 
+   <td colname="col2">Permite adicionar métricas sobre as quais você deseja criar relatórios. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Classificação de métricas</span> </td> 
-   <td colname="col2">Oferece relatórios classificados e detalhados, organizados pelo valor de métrica decrescente, similares ao conteúdo exibido na interface do usuário do Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local">Mais...</a> </td> 
+   <td colname="col2">Oferece relatórios classificados e detalhados, organizados pelo valor de métrica decrescente, similares ao conteúdo exibido na interface do usuário do Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Mais...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Agendar entrega</span> </td> 
