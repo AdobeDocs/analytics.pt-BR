@@ -3,9 +3,9 @@ description: Saiba sobre as várias ações que podem ser realizadas em um relat
 seo-description: Saiba sobre as várias ações que podem ser realizadas em um relatório, como configuração de gráficos, análise e extração de dados.
 seo-title: Configurar relatórios existentes
 title: Configurar relatórios existentes
-uuid: 5 c 7 bb 66 a-a 9 a 2-49 fe-ba 98-1 a 99 a 922 f 6 b 1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções de entrega </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Opções</a>de entrega. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimir </p> </td> 
@@ -64,7 +64,7 @@ Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fontes de dados </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> Aba de configurações gerais - Definições</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exibir </p> </td> 
@@ -162,7 +162,7 @@ Determinados relatórios lhe permitem analisar os dados da tabela para poder ver
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. Após abrir um relatório salvo ou programado com análises, será necessário clicar em **[!UICONTROL Substituir tabelas]para atualizar a análise do relatório de dados dinâmico.** Por exemplo, pode ser necessário atualizar um relatório contendo análises dos itens de linha que podem mudar com base no intervalo de datas ou na atividade do visitante.
+   >Para obter mais flexibilidade, use o Criador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabela para configurar um relatório com detalhamentos. Após abrir um relatório salvo ou programado com análises, será necessário clicar em **[!UICONTROL Substituir tabelas]para atualizar a análise do relatório de dados dinâmico.** Por exemplo, pode ser necessário atualizar um relatório contendo análises dos itens de linha que podem mudar com base no intervalo de datas ou na atividade do visitante.
 
 >[!MORE_LIKE_THIS]
 >
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-Em Relatórios e análises, é possível definir um campo para conter os dados da ID do usuário. Se essa opção for configurada, a opção [!UICONTROL Extrair IDs de visitantes] ficará disponível. Se essa opção não tiver sido ativada, mas você decidir ativá-la posteriormente, não será possível voltar e extrair as IDs dos visitantes do histórico.
+Em Relatórios e análises, é possível definir um campo para conter dados de ID de usuário. Se essa opção for configurada, a opção [!UICONTROL Extrair IDs de visitantes] ficará disponível. Se essa opção não tiver sido ativada, mas você decidir ativá-la posteriormente, não será possível voltar e extrair as IDs dos visitantes do histórico.
 
 **Para extrair IDs de visitantes:**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 Ao exibir um relatório classificado, como um relatório de produtos, você pode ver os dados de tendência de um valor. Por exemplo, é possível ver que um produto obteve $ 10.000 de receita bruta no período selecionado. Se quiser ver quanto de receita esse produto gerou em cada dia do período, é possível mostrar um gráfico de tendência do produto ou abrir um relatório de tendência separado.
 
-** Para analisar a tendência de uma linha**
+**Para analisar a tendência de uma linha**
 
 1. Execute um relatório classificado.
 1. Clique no ícone de [!UICONTROL tendência] ![. ](assets/TrendInspector_Buttcon.png)
