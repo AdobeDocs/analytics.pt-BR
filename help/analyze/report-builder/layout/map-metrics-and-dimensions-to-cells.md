@@ -5,9 +5,9 @@ seo-title: Mapear métricas e dimensões para células
 solution: Analytics
 title: Mapear métricas e dimensões para células
 topic: Construtor de relatórios
-uuid: 50893 e 1 c -5 f 2 c -4558-8001-41 e 70 d 74 d 6 e 7
+uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,15 +30,13 @@ As seguintes seções contêm mais informações:
 
 No [!UICONTROL Assistente de solicitações: etapa 2], quando você ativa o [!UICONTROL Layout personalizado] para uma solicitação com detecção de tendência, pode mapear a solicitação para um intervalo de células.
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
+Clique no Seletor **[!UICONTROL de intervalo]** para ![selecionar_cell_icon.png](assets/select_cell_icon.png)
 
 ao lado do item que você deseja mapear.
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use esta opção para que o Construtor de relatórios selecione as células para você.
-
-* ** Orientação do intervalo: ** Permite orientar os intervalos de células como colunas ou linhas.
+* **Todas as células em um intervalo:** Exige que você selecione um grupo de células para uma solicitação com estilo de [!UICONTROL Layout personalizado].
+* **Primeira célula do intervalo:** Permite selecionar a célula de cima à esquerda do intervalo, e exibe a Orientação do [!UICONTROL Intervalo] para especificar a orientação horizontal ou vertical das células de entrada e saída (coluna ou linha). Use esta opção para que o Construtor de relatórios selecione as células para você.
+* **Orientação do intervalo:** Permite orientar os intervalos de células como colunas ou linhas.
 * **Selecionar o canto superior da célula do intervalo:** Exibe as referências da célula.
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -74,6 +72,4 @@ Para testar as áreas com solicitações incorporadas, você pode:
 
 * Iniciar o [!UICONTROL Gerenciador de solicitações] e clicar em solicitações individuais listadas na tabela. Ao clicar na solicitação, você realça as células da planilha onde a solicitação está mapeada.
 * Selecione células na planilha que você deseja usar para um novo mapeamento e clicar em [!UICONTROL Da planilha]. O [!UICONTROL Gerenciador de solicitações] seleciona a solicitação na lista que tem um item de saída que faz interseção com a célula selecionada. Se nenhuma solicitação for selecionada, a célula estará disponível.
-
 * Selecione células na planilha, clique com o botão direito do mouse no menu de contexto e verifique se [!UICONTROL Editar solicitação] está disponível. Se estiver, há uma solicitação associada a essas células.
-
