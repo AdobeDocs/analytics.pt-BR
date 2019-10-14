@@ -5,7 +5,7 @@ seo-title: Implantação da integração
 title: Implantação da integração
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,8 +192,7 @@ Use a ferramenta DigitalPulse Debugger para verificar se os dados de dimensão D
 
 ![](assets/debugger1.png)
 
-**A mbox do Target inclui os parâmetros do perfil Demandbase: **
-
+****A mbox de destino inclui os parâmetros de perfil Demandbase:
 Você verá isso somente se tiver o Target implementado na página E essa integração estiver configurada para o Adobe Target - consulte a Etapa 4 do assistente de integração da Adobe.
 
 ![](assets/debugger2.png)
