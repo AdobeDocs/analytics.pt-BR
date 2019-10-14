@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Publicar no Power BI - Visão geral
 title: Publicar no Power BI - Visão geral
-uuid: ad 688817-6 e 3 c -45 da -983 d -48 c 123465309
+uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,7 +28,7 @@ A integração com o Construtor de relatórios da Adobe permite
 
 ## Requisitos do sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installed](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [instalado](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
 * Ative a conta da Microsoft que permite fazer logon no Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -65,7 +65,7 @@ Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados
 
 >[!NOTE]
 >
->Se a pasta de trabalho contiver uma macro, a opção «Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI» será desativada.
+>Se a pasta de trabalho contiver uma macro, a opção "Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI" será desativada.
 
 Ao invés de importar toda a pasta de trabalho, é possível importar apenas o conteúdo de todas as tabelas formatadas dentro dela.
 
@@ -79,7 +79,7 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. No Assistente básico de agendamento, clique em **[!UICONTROL Opções de agendamento avançadas]**.
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -111,17 +111,17 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 
 >[!IMPORTANT]
 >
->Se a pasta de trabalho contiver mais de 100 solicitações, apenas as primeiras 100 serão publicadas no Power BI. Mais, para cada solicitação que é publicada no Power BI, apenas as 10.000 primeiras linhas de dados serão publicadas. Então enquanto essas solicitações forem enviadas com sucesso pelo agendamento, o escopo de publicação para o Power BI é limitado.
+>Se a pasta de trabalho contiver mais de 100 solicitações, somente as primeiras 100 serão publicadas no Power BI. Mais, para cada solicitação que é publicada no Power BI, apenas as 10.000 primeiras linhas de dados serão publicadas. Então enquanto essas solicitações forem enviadas com sucesso pelo agendamento, o escopo de publicação para o Power BI é limitado.
 
 1. No Construtor de relatórios, abra ou crie uma pasta de trabalho com solicitações do Construtor de relatórios.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. No Assistente básico de agendamento, clique em **[!UICONTROL Opções de agendamento avançadas]**.
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
+1. No [!UICONTROL Assistente de agendamento - Avançado], na guia **[!UICONTROL Opções de publicação]**, marque a caixa próxima a **[!UICONTROL Publicar todas as solicitações do Construtor de relatórios como tabelas de conjunto de dados do Power BI]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Clique em **[!UICONTROL OK]**.
 
-**Exibir os dados de solicitação no Power BI**
+**Exibir os dados da solicitação no Power BI**
 
 Cada solicitação agendada do Construtor de relatórios será publicada como uma tabela no conjunto de dados. Cada tabela de solicitações é nomeada segundo a dimensão principal na solicitação e possui uma coluna [!UICONTROL Conjunto de relatórios] e uma coluna [!UICONTROL Segmentos].
 
@@ -135,7 +135,7 @@ Cada solicitação agendada do Construtor de relatórios será publicada como um
 
    >[!NOTE]
    >
-   >Não importa como você configurou sua solicitação do Construtor de relatórios para ser exibida na planilha (layout dinâmico, layout personalizado, algumas colunas invisíveis), o Construtor de relatórios sempre publicará sua solicitação no mesmo formato bidimensional e único de linha de cabeçalho: Data, Dimensões, Métricas, Conjuntos de relatórios, Segmentos.
+   >Não importa como você configurou sua solicitação do Construtor de relatórios para ser apresentada na planilha (layout pivô, layout personalizado, algumas colunas invisíveis), o Construtor de relatórios sempre publicará sua solicitação no mesmo formato de linha de cabeçalho bidimensional e única: Data, Dimensões, Métricas, Report Suites, Segmentos.
 
 1. Também note que existe uma tabela adicional chamada **[!UICONTROL Legenda]**. Caso retire uma solicitação do contexto do Construtor de relatórios, pode ser difícil se lembrar o que cada solicitação significa. O propósito da tabela Legenda é, por exemplo, mostrar o nome de cada solicitação na ID da tabela. Também é possível adicionar as outras colunas da Legenda para obter uma perspectiva completa da solicitação.
 
