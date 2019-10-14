@@ -3,9 +3,9 @@ description: O novo sistema de Alertas inteligentes permite um controle mais det
 seo-description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 seo-title: Alertas inteligentes
 title: Alertas inteligentes
-uuid: ac 8 c 9710-d 245-46 e 9-b 906-32 d 3 bb 0013 c 0
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -20,7 +20,7 @@ O novo sistema de Alertas inteligentes permite um controle mais detalhado dos al
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Os Alertas inteligentes permitem
+O novo Criador de alertas e Gerenciador de alertas substituem a funcionalidade de alertas existente na Adobe [!DNL Analytics]. Os Alertas inteligentes permitem
 
 * Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo).
 * Visualizar a frequência de disparo de um alerta.
@@ -57,7 +57,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: Até que ponto a detecção de anomalias dos alertas vai para determinar anomalias de dados?</b> </p> </td> 
-   <td colname="col2"> <p>O período de treinamento varia com base na granularidade selecionada. Consulte [Técnicas estatísticas usadas na Detecção de anomalias] (/help/analyze/analysis-workspace/virtual-analyst/c-anomalias-detecção/estatísticas-anomalias-detection. md) para obter mais detalhes. Aqui está um resumo: </p> 
+   <td colname="col2"> <p>O período de treinamento varia com base na granularidade selecionada. Consulte Técnicas estatísticas usadas na Detecção <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">de</a> anomalias para obter mais detalhes. Aqui está um resumo: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensalmente = 15 meses + mesmo intervalo do ano passado </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Semanalmente = 15 semanas + mesmo intervalo do ano passado </li> 
@@ -75,7 +75,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Posso obter uma tabela dos “valores esperados” que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
-   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95% e é semelhante à <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Detecção de anomalias do Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
