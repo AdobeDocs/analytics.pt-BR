@@ -5,9 +5,9 @@ seo-title: Gerenciar segmentos
 solution: Analytics
 title: Gerenciar segmentos
 topic: Construtor de relatórios
-uuid: 4 e 4 edc 39-ed 93-498 f -913 d -7 b 231 b 10 e 7 a 0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -24,7 +24,7 @@ O Construtor de relatórios tem um novo painel de segmentação na Etapa 1 do As
 
 >[!NOTE]
 >
->Para adicionar ou editar segmentos, a interface de segmentos do Construtor de relatórios inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do construtor de relatórios continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
+> Para adicionar ou editar segmentos, a interface de segmento do Construtor de relatórios inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do construtor de relatórios continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
 
 1. No painel de segmentos da Etapa 1 do Assistente de solicitação, clique em **[!UICONTROL Adicionar]**.
 1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para mais informações sobre como construir segmentos, consulte [https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)
@@ -33,7 +33,7 @@ O Construtor de relatórios tem um novo painel de segmentação na Etapa 1 do As
 
 >[!IMPORTANT]
 >
->Essa lista é armazenada em cache e o segmento recém criado não será exibido, a menos que você faça uma atualização.
+>Essa lista é armazenada em cache e seu segmento recém-criado não será exibido, a menos que você faça uma atualização.
 
 ## Criar segmentos em contexto {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Qualquer segmento criado em Relatórios e análises, Análise ad hoc, Construtor
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. Vá até a lista suspensa **[!UICONTROL Segmento]** e clique na seta pequena para baixo na caixa **Escolher segmento]para exibir todos os segmentos.[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 >[!NOTE]
 >
->Se você for um administrador ou não, no Construtor de relatórios será possível visualizar somente os segmentos que você possui e aqueles que foram compartilhados com você. (na interface do usuário dos Relatórios e análises de marketing, o Administrador pode visualizar todos os segmentos da organização).
+>Quer você seja um Administrador ou um não Administrador, no Construtor de relatórios você pode ver somente os segmentos que possui e os compartilhados com você. (na interface do usuário dos Relatórios e análises de marketing, o Administrador pode visualizar todos os segmentos da organização).
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
