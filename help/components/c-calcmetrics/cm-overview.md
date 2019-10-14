@@ -1,12 +1,12 @@
 ---
 description: Métricas calculadas e calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas existentes.
-keywords: Métricas calculadas; Métricas derivadas; Métricas calculadas avançadas
+keywords: Métricas calculadas;Métricas derivadas;Métricas calculadas avançadas
 seo-description: Métricas calculadas e calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas existentes.
 seo-title: Métricas calculadas e calculadas avançadas (derivadas)
 title: Métricas calculadas e calculadas avançadas (derivadas)
-uuid: 2553 c 115-b 15 a -4109-8 de 2-733 dbc 1 ucl9 e
+uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,14 +19,14 @@ Métricas calculadas e calculadas avançadas (ou derivadas) são métricas perso
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Os modelos de alocação «Último contato do canal de marketing» e «Canal de marketing primeiro toque» foram migrados para os novos modelos de atribuição «Último contato» e «Primeiro toque» respectivamente (Observação: «Canais de marketing» não foram desaprovados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
+>* Os modelos de alocação "Último contato do canal de marketing" e "Primeiro contato do canal de marketing" foram migrados para os novos modelos de atribuição "Último contato" e "Primeiro contato" respectivamente (Nota: "Canais de marketing" não foi descontinuado - somente os dois modelos de alocação exibidos nas métricas calculadas foram descontinuados).
 >* Além disso, corrigimos a forma como a alocação Linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação “linear”, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
-* [!DNL Analytics] Adobe Foundation: Calculado
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + Calculadas avançadas
+* Adobe [!DNL Analytics] Foundation: Calculated
+* [Seleção](https://www.adobe.com/data-analytics-cloud/analytics/select.html)do Adobe Analytics: Calculadas + calculadas avançadas
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
@@ -110,11 +110,11 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> Painel Seletor de métricas </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports &amp; Analytics]. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span><span class="uicontrol"> no Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> API para métricas calculadas</a> </td> 
-   <td colname="col2"> <p>Parte do conjunto de Api 2.0 do Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>Parte do conjunto de APIs do Adobe Analytics 2.0. </p> </td> 
   </tr> 
  </tbody> 
 </table>
