@@ -3,16 +3,16 @@ description: Introdução à Análise ad hoc.
 seo-description: Introdução à Análise ad hoc.
 seo-title: Introdução
 title: Introdução
-uuid: 6 a 698 e 18-4 e 62-405 e-b 020-b 973 c 9 c 4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Introdução à análise ad hoc{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!Iimportante]
 >Em 6 de agosto de 2018, a Adobe anunciou a intenção de encerrar a vida útil da Ad Hoc Analysis. Uma data para o fim da vida útil será compartilhada assim que estiver disponível. Para obter mais informações, incluindo quais versões do Java serão compatíveis durante esse período, visite [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 É possível executar análises avançadas e instantâneas sobre a atividade do site. É possível visualizar vários relatórios simultaneamente e aplicar segmentos em diversas dimensões. Você pode analisar os dados das perspectivas micro e macro para visualizar seu impacto nas suas métricas de negócios importantes.
@@ -49,7 +49,7 @@ Esses recursos lhe permitem responder a perguntas sobre o tráfego do site, demo
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Criar segmentos para pesquisar mais a fundo nos dados </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Adição de métricas, dimensões e segmentos à <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Criador de tabela</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuração de intervalos de <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> datas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Programação</a> de entrega de relatório </li> 
     </ul> <p>Busque no sistema de ajuda para localizar a assistência que necessita. </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Análise ad hoc no Java 7 após a versão de manutenção de julho de 2018, a Adobe deixará de oferecer suporte à implementação da Análise ad hoc.
+>A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Análise ad hoc no Java 7 após a versão de manutenção de julho de 2018, a Adobe não oferecerá mais suporte à implementação da Análise ad hoc.
 
 * Cartão de vídeo compatível com o OpenGL 2.0.
 * Cookies: obrigatório
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Instruções de atualização do Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Análise ad hoc no Java 7 após a versão de manutenção de julho de 2018, a Adobe deixará de oferecer suporte à implementação da Análise ad hoc.
+A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Análise ad hoc no Java 7 após a versão de manutenção de julho de 2018, a Adobe não oferecerá mais suporte à implementação da Análise ad hoc.
 
 Nossos arquivos .jar são assinados com uma criptografia de segurança de 256 bits que não é compatível com versões Java anteriores à 1.7.0_76. Esse certificado de 256 bits nos permite proporcionar segurança avançada.
 
@@ -91,7 +91,7 @@ Se você ainda possuir o Java 7 instalado, faça a atualização antes da versã
 
 * Se você possuir permissão para instalar programas na máquina:
 
-   1. Acesse https://www.java.com.
+   1. Vá para https://www.java.com.
    1. Clique em **[!UICONTROL Baixar o Java gratuitamente]**.
    1. Clique em **[!UICONTROL Concordar e iniciar o download gratuito]**.
    1. Instale a versão mais recente do Java, compatível com o seu sistema operacional.
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    Se você não visualizar o botão **Iniciar Ad Hoc Analysis** nessa página, verifique se o administrador adicionou você ao grupo de *Usuário da licença de Ad Hoc Analysis* nas Ferramentas administrativas.
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. Salve o [!DNL discover.jnlp] arquivo localmente.
 
    Você pode executar esse arquivo salvo quando quiser iniciar a Ad Hoc Analysis.
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. **[!UICONTROL Selecione Projetos]****[!UICONTROL compartilhados em]** Salvar em: menu suspenso.
 
    ![](assets/shared_projects.png)
 
