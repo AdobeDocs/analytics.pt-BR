@@ -1,24 +1,24 @@
 ---
-description: Configurações que definem como todos os relatórios são exibidos e as informações que contornam as opções de menu padrão na localização no menu simplificado.
-seo-description: Configurações que definem como todos os relatórios são exibidos e as informações que contornam as opções de menu padrão na localização no menu simplificado.
-seo-title: Configuração de configurações de exibição e navegação
+description: Configurações que definem como todos os relatórios são exibidos e informações que aplicam as opções de menu padrão ao seu local no menu simplificado.
+seo-description: Configurações que definem como todos os relatórios são exibidos e informações que aplicam as opções de menu padrão ao seu local no menu simplificado.
+seo-title: Configurações e navegação da exibição de relatórios
 solution: Analytics
-title: Configuração de configurações de exibição e navegação
+title: Configurações e navegação da exibição de relatórios
 topic: Relatórios, Reports and Analytics
-uuid: e 7 e 571 ce-a 1 cf -4714-b 400-9571805 ceeac
+uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 612cbb694f16b5b4fcbf2d9cae55bc52103cc0b9
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Configuração de configurações de exibição e navegação
+# Configurações e navegação da exibição de relatórios
 
-Configurações que definem como todos os relatórios são exibidos e as informações que mapeiam as opções de menu padrão para sua localização no menu simplificado.
+Configurações que definem como todos os relatórios são exibidos e informações que mapeiam as opções de menu padrão para seu local no menu simplificado.
 
-## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
+## Configurações e navegação da exibição de relatórios {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Análises]** &gt; **[!UICONTROL Componentes]** &gt; Configurações **[!UICONTROL do relatório]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Configurações **[!UICONTROL do relatório]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -38,7 +38,7 @@ Configurações que definem como todos os relatórios são exibidos e as informa
 | Exibir os dados "Nenhum", "Não especificado" e "Digitado/Marcado" nos gráficos dos relatórios | Exibe métricas nas quais não existe crédito recebido para o valor da métrica especificada. |
 | Mostrar minigráfico nos relatórios classificados | Exibe um minigráfico no campo de totais dos relatórios classificados. Isto fornece uma visão rápida da tendência geral, sem gerar um relatório separado. |
 | **Aceleração** |  |
-| Ativa o Acelerador de relatório para exibir os relatórios mais rapidamente | Permite que o acelerador de relatório, que usa um algoritmo baseado em tempo para colocar em cache relatórios solicitados recentemente e examina apenas os itens únicos que ocorrem frequentemente, resultando na entrega ainda mais rápida dos relatórios. Ao fazer o cache dos relatórios solicitados por 15 minutos, o acelerador de relatório pode recuperar esses relatórios para solicitações subsequentes quase que instantaneamente. Esta configuração é útil quando se navega para frente e para trás, para a impressão de relatórios ou para o acesso frequente aos mesmos relatórios. Quando desativado, o sistema gera novamente os relatórios cada vez que eles são solicitados. |
+| Ativa o Acelerador de relatório para exibir os relatórios mais rapidamente | Habilita o acelerador de relatórios, que usa um algoritmo com base em tempo para armazenar relatórios solicitados recentemente e examina apenas os itens únicos mais frequentes, resultando em entrega de relatórios ainda mais rápida. Ao fazer o cache dos relatórios solicitados por 15 minutos, o acelerador de relatório pode recuperar esses relatórios para solicitações subsequentes quase que instantaneamente. Esta configuração é útil quando se navega para frente e para trás, para a impressão de relatórios ou para o acesso frequente aos mesmos relatórios. Quando desativado, o sistema gera novamente os relatórios cada vez que eles são solicitados. |
 | Ativa o Painel do acelerador e exibe as versões em cache disponíveis | Habilita o acelerador de painel, que armazena uma versão em cache de seu painel para exibição posterior. Ao fazer o cache da exibição de seu painel por 24 horas, o acelerador de painel é capaz de recuperar essa exibição quase que instantaneamente, pois a consulta ao banco de dados e o processamento intensivo é feito com antecedência. Se a versão disponível em cache ultrapassar o limite de 24 horas, um novo painel é gerado e uma nova versão é criada em cache. Da mesma forma, uma nova versão em cache é criada sempre que você atualizar o painel (ou qualquer reportlet exibido no painel). O cache tem base no usuário. Outros usuários visualizando um painel comum verão uma versão com base em sua própria utilização do acelerador e da atualização do painel. |
 | Ative a aceleração de rede para melhorar o desempenho dos relatórios | Aumenta a velocidade de entrega de dados para a sua localização, otimizando o caminho entre a infraestrutura Adobe e seu ambiente. |
 | Habilite a aceleração regional para ter uma experiência do usuário mais rápida na China | O Acelerador regional usa domínios acelerados específicos de região para fornecer uma experiência de usuário mais rápida em uma região em particular. No momento, a aceleração regional é compatível somente na China. Habilitar esse recurso para usuários que não estão localizados na China resultará em uma experiência de usuário mais lenta. Depois de habilitar a aceleração regional, é necessário fazer logon novamente para que a configuração seja aplicada. Se você deseja desabilitar o Acelerador regional, desmarque esta caixa de seleção. |
@@ -71,7 +71,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Tempo antes do evento | Conversão &gt; Tempo antes do evento |
 |  | Compras | Métricas &gt; Compras |
 |  | Carrinho de Compras | Métricas &gt; Carrinho de compras |
-|  | Eventos personalizados | Métricas &gt; Eventos personalizados |
+|  | Eventos Personalizados | Métricas &gt; Eventos personalizados |
 |  | Bots | Público-alvo &gt; Bots |
 |  | Detecção de anomalias | Métricas &gt; Detecção de anomalias |
 |  | Tempo real | Métricas &gt; Tempo real |
@@ -81,7 +81,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Servidores | Conteúdo &gt; Servidores |
 |  | Links | Navegação &gt; Links personalizados; Navegação &gt; Links de saída; Navegação &gt; ClickMap; Navegação &gt; Downloads de arquivos |
 |  | Páginas não encontradas | Navegação &gt; Páginas não encontradas |
-| **Dispositivo móvel** |  |  |
+| **Mobile** |  |  |
 |  | Dispositivos | Público-alvo &gt; Dispositivo móvel &gt; Dispositivos |
 |  | Tipo de dispositivo | Público-alvo &gt; Dispositivo móvel &gt; Tipo de dispositivo |
 |  | Fabricante | Público-alvo &gt; Dispositivo móvel &gt; Fabricante |
@@ -90,14 +90,14 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Largura de tela | Público-alvo &gt; Dispositivo móvel &gt; Largura da tela |
 |  | Suporte a cookies | Público-alvo &gt; Dispositivo móvel &gt; Suporte a cookies |
 |  | Suporte de imagem | Público-alvo &gt; Dispositivo móvel &gt; Suporte da imagem |
-|  | Profundidade de cor | Público-alvo &gt; Dispositivo móvel &gt; Intensidade de cor |
+|  | Intensidade de cor | Público-alvo &gt; Dispositivo móvel &gt; Intensidade de cor |
 |  | Suporte de áudio | Público-alvo &gt; Dispositivo móvel &gt; Suporte de áudio  |
 |  | Suporte de vídeo | Público-alvo &gt; Dispositivo móvel &gt; Suporte de vídeo  |
 |  | Sistema operacional | Público-alvo &gt; Dispositivo móvel &gt; Sistema operacional |
 | **Caminhos** |  |  |
 |  | Páginas | Navegação &gt; Caminhos &gt; Páginas |
 |  | Termos de pesquisa interna | Navegação &gt; Caminhos &gt; Termos de pesquisa interna |
-| **Fontes de tráfego** |  |  |
+| **Fontes de Tráfego** |  |  |
 |  | Palavra-chave de pesquisa - Tudo | Fontes de tráfego &gt; Palavra-chave de pesquisa - Tudo |
 |  | Palavra-chave de pesquisa - Paga | Fontes de tráfego &gt; Palavra-chave de pesquisa - Paga |
 |  | Palavra-chave de pesquisa - Natural | Fontes de tráfego &gt; Palavra-chave de pesquisa - Natural |
@@ -118,15 +118,15 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Venda cruzada | Conversão &gt; Produtos &gt; Venda cruzada |
 |  | Categorias | Conversão &gt; Produtos &gt; Categorias |
 | **Retenção de visitante** |  |  |
-|  | Frequência de retorno | Público-alvo &gt; Retenção de visitantes &gt; Frequência de retorno |
+|  | Frequência de Retorno | Público-alvo &gt; Retenção de visitantes &gt; Frequência de retorno |
 |  | Visitas de Retorno | Público-alvo &gt; Retenção de visitantes &gt; Visitantes de retorno |
 |  | Visitas de Retorno Diário | Público-alvo &gt; Retenção de visitantes &gt; Visitantes de retorno diários |
 |  | Número da visita | Público-alvo &gt; Retenção de visitantes &gt; Número de visitas |
 |  | Ciclo de Vendas | Público-alvo &gt; Retenção de visitantes &gt; Ciclo de vendas |
-| **Perfil do Visitante** |  |  |
-|  | Segmentação geográfica | Público-alvo &gt; Perfil do visitante &gt; Segmentação geográfica |
+| **Perfil do visitante** |  |  |
+|  | GeoSegmentation | Público-alvo &gt; Perfil do visitante &gt; Segmentação geográfica |
 |  | Idiomas | Público-alvo &gt; Perfil do visitante &gt; Idiomas |
-|  | Fusos Horários | Público-alvo &gt; Perfil do visitante &gt; Fusos horários |
+|  | Fusos horários | Público-alvo &gt; Perfil do visitante &gt; Fusos horários |
 |  | Domínios | Público-alvo &gt; Perfil do visitante &gt; Domínios |
 |  | Domínios de nível superior | Público-alvo &gt; Perfil do visitante &gt; Domínios de nível superior |
 |  | Tecnologia | Público-alvo &gt; Perfil do visitante &gt; Tecnologia |
@@ -135,9 +135,9 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 | **Conversão personalizada** |  |  |
 |  | Conversão personalizada 1-10 | Conversão &gt; Conversão personalizada &gt; Conversão personalizada 1-10 |
 |  | Conversão personalizada 11-20 | Conversão &gt; Conversão personalizada &gt; Conversão personalizada 11-20 |
-| **Tráfego personalizado ** |  |  |
+| **Tráfego personalizado** |  |  |
 |  | Tráfego personalizado 1-10 | Conteúdo &gt; Tráfego personalizado &gt; Tráfego personalizado 1-10 |
-| **Test&amp;Target ** |  | Conversão &gt; Test&amp;Target |
+| **Test&amp;Target** |  | Conversão &gt; Test&amp;Target |
 | **Survey** |  | Público-alvo &gt; Survey |
 | **Canais de marketing** |  |  |
 |  | Relatório de Visão Geral de Canal | Fontes de tráfego &gt; Canais de marketing &gt; Relatório de visão geral do canal |
@@ -148,7 +148,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 | **Aplicativo remoto** |  |  |
 |  | Visão geral dos aplicativos móveis | Conteúdo &gt; Aplicativo móvel &gt; Visão geral do aplicativo móvel |
 |  | Relatórios de ciclo de vida | Conteúdo &gt; Aplicativo móvel &gt; Relatórios de ciclo de vida |
-| **Relatórios personalizados ** |  |  |
+| **Relatórios personalizados** |  |  |
 |  | Os relatórios personalizados aparecem somente se você tem qualquer configuração. | Relatórios personalizados |
 |  |  |  |
 
