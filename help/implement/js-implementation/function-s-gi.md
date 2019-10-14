@@ -6,9 +6,9 @@ seo-title: A função s_gi()
 solution: Analytics
 title: A função s_gi()
 topic: Desenvolvedor e implementação
-uuid: a 77 de 90 e-c 60 e -4946-90 cf-sursursurdeaf aa 3 d 755
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,10 +29,9 @@ var s=s_gi('rsid1,rsid2')
 
 A tabela a seguir descreve o que é retornado por chamadas subsequentes:
 
-| ** Chamada subsequente para s_gi** | ** Descrição do objeto retornado** |
+| **Chamada subsequente para s_gi** | **Descrição do objeto retornado** |
 |---|---|
 | `s=s_gi('rsid1,rsid2')` | O mesmo objeto mencionado anteriormente. |
 | `s=s_gi('rsid1')` | Uma cópia do objeto criado anteriormente, mas não o original. |
 | `s=s_gi('rsid1,rsid3')` | Uma cópia do objeto criado anteriormente, mas não o original. |
 | `s=s_gi('rsid3')` | Um novo objeto vazio, sem variáveis de configuração definidas (ou seja, linkTrackVars está vazio, como linkDownloadFileTypes). |
-
