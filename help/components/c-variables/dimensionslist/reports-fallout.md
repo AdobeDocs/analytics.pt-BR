@@ -7,7 +7,7 @@ title: Fallout
 topic: Relatórios
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -26,11 +26,11 @@ Esse relatório é útil para analisar:
 
 Consulte [Jornada do cliente - Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
 
-** Reports and Analytics **
+**Reports and Analytics**
 
 Consulte [Executar um relatório de fallout](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html) na Ajuda para obter informações de configuração.
 
-** Ad Hoc Analysis **
+**Ad Hoc Analysis**
 
 Analise os dados de fallout no nível da visita ou do visitante. Também é possível ver um caminho de tendência que mostra um gráfico do seu saída durante determinado período. É possível definir páginas individuais ou grupos de páginas como pontos de verificação do relatório ou adicionar qualquer dimensão ou métrica em qualquer combinação ou sequência. Também é possível usar categorias configuradas em relatórios de marketing como pontos de verificação desse relatório.
 
