@@ -6,9 +6,9 @@ seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: Desenvolvedor e implementação
-uuid: 3891 e 2 aa-d 5 c 1-4 a 2 b -8522-eb 2 bae 39 ea 2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ Registra por quantos segundos a página foi a guia ativa no navegador e passa o 
 
 >[!NOTE]
 >
->Esta é uma versão beta do plug-in e pode haver atualizações adicionais.
+>Esta é uma versão beta do plug-in, e outras atualizações podem estar disponíveis.
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Este plug-in requer [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 Este plug-in também registra o total de segundos em que a página esteve no navegador (tempo de exibição ativo e passivo). É necessário utilizar o plug-in getPreviousValue para rastrear o nome da página anterior associado aos eventos de visibilidade da página. O rastreamento desses valores ajuda você a entender melhor a participação do visitante e a rastrear com mais precisão o comportamento do visitante nos sites.
 
@@ -108,11 +108,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * Um percentual muito pequeno de usuários não enviará o percentual dos dados exibidos na página devido às limitações do navegador, e a lógica é contida no plug-in para garantir que os dados não sejam desviados como resultado. No entanto, esse plug-in foi testado com êxito no IE, Firefox, Chrome e Safari.
 * Devido à forma como o plug-in avalia o total de segundos e associa esse valor ao nome da página anterior, existirão diferenças entre o tempo padrão gasto em métricas de página e as métricas de total de segundos.
-* [!UICONTROL As métricas calculadas] podem ser criadas para auxiliar no resumo e compreensão do comportamento do visitante associado a essas métricas:
+* [!UICONTROL Métricas] calculadas podem ser criadas para ajudar a resumir e entender o comportamento do visitante associado a essas métricas:
 
-   * ** Proporção de visibilidade da página** (Total de segundos de visibilidade da página/Total de segundos da página)
-   * ** Total de segundos oculto** (Total de segundos da página - Total de segundos de visibilidade da página)
-   * ** Média de segundos de visibilidade da página** (Total de segundos de visibilidade da página/Total de instâncias de visibilidade da página)
+   * **Proporção de visibilidade da página**(Segundos do total de visibilidade da página/Total de segundos da página)
+   * **Total de segundos** ocultos (Total de segundos da página - Total de segundos de visibilidade da página)
+   * **Média de segundos de visibilidade da página**(Total de segundos de visibilidade da página/Total de instâncias de visibilidade da página)
    * **Média de segundos de página oculta** ((Total de segundos da página - Total de segundos de visibilidade da página)/Total de instâncias de visibilidade da página)
 
 * Devido à forma como o plug-in soma os segundos, pode existir uma diferença de 1 a 2 segundos entre o total de segundos de visibilidade da página e o total de segundos, como o total de segundos sendo o maior. (Será solucionado em uma atualização futura)
@@ -120,15 +120,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Perguntas frequentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**Este plug-in faz chamadas de servidor adicionais? **
+**Este plug-in faz chamadas de servidor adicionais?**
 
 O plug-in registrará somente os valores de visibilidade da página em chamadas de servidor da exibição de página subsequente. Nenhuma chamada de servidor adicional será utilizada com isso.
 
-**Se eu não desejar captar as instâncias de total de segundos da página ou visibilidade total da página, é possível omiti-las da lista de eventos? **
+**Se eu não desejar captar as instâncias de total de segundos da página ou visibilidade total da página, é possível omiti-las da lista de eventos?**
 
 Sim, as instâncias de total de segundos da página e visibilidade total da página são eventos opcionais e podem ser omitidos da lista, se desejado.
 
-**Os eventos captados fazem sentido se eu utilizá-los em relatórios diferentes do Nome da página anterior? **
+**Os eventos captados fazem sentido se eu utilizá-los em relatórios diferentes do Nome da página anterior?**
 
 Como o plug-in registra valores na solicitação de imagem subsequente, é possível aplicar somente outras eVars captadas em um contexto de "página anterior", isto é, "URL da página anterior".
 
