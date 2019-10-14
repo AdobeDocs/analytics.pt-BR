@@ -7,7 +7,7 @@ title: Relatórios de fontes de tráfego
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
 **No seu site**: Estes itens são URLs marcadas pelos filtros internos do URL. Esses itens não são contados como   mas podem ser visualizados quando relatados em outras métricas.
 
-** Sem Java Script**: Não havia JavaScript, portanto, o tipo não era identificável (desconhecido). Isso significa que não haviam informações do referenciador fornecidas por um cliente em um navegador, o qual não informa ser compatível com JavaScript. Isso não é contado como "instâncias do referenciador", mas pode ser visualizado quando relatado em outras medidas.
+**Sem Java Script**: Não havia nenhum JavaScript, então o tipo não pôde ser identificado (desconhecido). Isso significa que não haviam informações do referenciador fornecidas por um cliente em um navegador, o qual não informa ser compatível com JavaScript. Isso não é contado como "instâncias do referenciador", mas pode ser visualizado quando relatado em outras medidas.
 
 **USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com `news://`. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
 
