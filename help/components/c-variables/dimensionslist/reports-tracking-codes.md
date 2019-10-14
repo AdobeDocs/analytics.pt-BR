@@ -7,7 +7,7 @@ title: Códigos de rastreamento
 topic: Relatórios
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Mede como vários códigos de rastreamento de anúncio afetam eventos de convers
 * Visualizações de Página, Visitas e Visitantes únicos estão disponíveis como métricas.
 * Este relatório pode utilizar segmentos.
 
-** Propriedades da Ad Hoc Analysis**
+**Propriedades da Ad Hoc Analysis**
 
 * Além das variáveis de conversão mais inovadoras, você pode analisar o relatório de código de rastreamento por todos os outros relatórios dentro da interface do relatório.
 * Além dos eventos de e-comércio e personalizados, você pode utilizar todas as métricas de conversão e de tráfego, assim como também utilizar alocação diferente para todas as métricas de conversão.
