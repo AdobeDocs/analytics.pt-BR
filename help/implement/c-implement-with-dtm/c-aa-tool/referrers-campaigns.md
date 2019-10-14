@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Gerenciamento dinâmico de tags
 title: Referenciadores e campanhas
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> Substituição do referenciador </td> 
-   <td colname="col2"> <p>Substitui o valor definido na variável <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>Consulte [Variáveis de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Substitui o valor definido na variável <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>Consulte Variáveis <a href="/help/implement/js-implementation/c-variables/page-variables.md">de página</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campanha </td> 
-   <td colname="col2"> <p>Uma variável que identifica campanhas de marketing usadas para trazer visitantes para o site. Normalmente, o valor da campanha é retirado de um parâmetro da sequência de consulta. </p> <p>Consulte [Variáveis de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Uma variável que identifica campanhas de marketing usadas para trazer visitantes para o site. Normalmente, o valor da campanha é retirado de um parâmetro da sequência de consulta. </p> <p>Consulte [Variáveis<a href="/help/implement/js-implementation/c-variables/page-variables.md">da</a>página. </p> </td> 
   </tr> 
  </tbody> 
 </table>
