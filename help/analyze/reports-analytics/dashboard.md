@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Painéis
 title: Painéis e reportlets
 topic: Reports and Analytics
-uuid: 7 a 7 b 3 bc 9-0 a 3 c -49 b 0-9168-e 2878 ae 67 b 97
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Um painel é uma coleção de relatórios miniatura chamados de reportlets. Um painel é mais útil quando contém reportlets relacionados que completam as visões gerais de aspectos específicos de seu site como, por exemplo, localizar métodos, perfis de visitantes, etc. 
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## Painéis e reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 Um painel é uma coleção de relatórios miniatura chamados de *`reportlets`*. Um painel é mais útil quando contém reportlets relacionados que completam as visões gerais de aspectos específicos de seu site como, por exemplo, localizar métodos, perfis de visitantes, etc. 
 
@@ -31,12 +31,12 @@ Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel
 * Relatórios de análise de contribuição
 * Relatórios de fallout
 * Relatórios do pathfinder
-* Relatórios em tempo real
+* Relatórios em Tempo real
 * Outros painéis
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
 
 * Por exemplo, se você tem apenas três relatórios exibidos frequentemente, os Reports &amp; Analytics utilizam dois relatórios do painel de Visão geral do site para preencher o painel **[!UICONTROL Meus relatórios recomendados].**
 * Inicialmente, os novos conjuntos de relatórios ainda contarão com os reportlets de Visão geral do site até serem substituídos pelos relatórios exibidos frequentemente. Mesmo assim, o painel será chamado de **[!UICONTROL Meus relatórios recomendados]**.
@@ -52,8 +52,8 @@ Esse painel personalizável oferece uma maneira de colocar reportlets no modelo 
 Esse painel fornece uma visão geral de métricas principais relacionadas às operações de seu site. Os relatórios nesse painel incluem:
 
 * Páginas de saída
-* Páginas Mais Populares
-* Seções do Site Mais Populares
+* Páginas mais populares
+* Seções do site mais populares
 * Reportlet de medição/KPI
 * Reportlet de Texto
 * Reportlet de Resumo da Empresa
@@ -86,10 +86,10 @@ Antes de adicionar um relatório (como um reportlet) a um painel, defina o layou
 
 1. Adiciona o conteúdo disponível ao painel, arrastando os itens para a tela do reportlet.
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Consulte [Criar um reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) e [editar configurações](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)do painel.
 1. Clique em **[!UICONTROL Salvar.]**
 
-   Salvar um painel o torna disponível no menu **[!UICONTROL painel].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Salvar um painel o torna disponível no menu **[!UICONTROL painel].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Gerenciamento de painéis](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
@@ -214,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Configurações da empresa]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa.
 1. Na página [!UICONTROL Configurações da empresa]**, clique em[!UICONTROL Co-Brand da Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Localize a imagem que será carregada e clique em **[!UICONTROL Salvar.]**
@@ -233,5 +233,5 @@ segments_dashboards.xml
 
 Os segmentos podem ser aplicados em dois níveis: em um painel inteiro ou em um reportlet específico.
 
-* **Nível do reportlet**: Clique **[!UICONTROL em Layout]**, em seguida, o conjunto de relatórios do reportlet que você deseja segmentar. Uma janela modal é exibida e permite adicionar ou alterar os segmentos que o reportlet usa.
+* **Nível** do reportlet: Clique em **[!UICONTROL Layout]** e, em seguida, no conjunto de relatórios do reportlet que deseja segmentar. Uma janela modal é exibida e permite adicionar ou alterar os segmentos que o reportlet usa.
 * **Nível de painel**: clique no ícone Segmento na navegação esquerda, verifique os segmentos que deseja usar e clique em Aplicar. Os segmentos selecionados substituem segmentos de nível de reportlet.
