@@ -1,24 +1,24 @@
 ---
 description: Adicione ou gerencie todos os alertas de uso de chamadas do servidor. Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em todas as empresas de logon de uma empresa de Faturamento.
 seo-description: Adicione ou gerencie todos os alertas de uso de chamadas do servidor. Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em todas as empresas de logon de uma empresa de Faturamento.
-seo-title: Alertas de uso de chamada de servidor
-title: Alertas de uso de chamada de servidor
-uuid: 701 fd 542-5 b 24-42 df -97 a 0-08 e 10929 fa 48
+seo-title: Alertas de uso de chamada do servidor
+title: Alertas de uso de chamada do servidor
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Alertas de uso de chamada de servidor
+# Alertas de uso de chamada do servidor
 
 Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em todas as empresas de logon de uma empresa de Faturamento.
 
 ## Visão geral
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esses alertas acionam uma notificação enviada a todos os administradores da empresa de logon se um dos seguintes critérios for satisfeito:
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esse alerta aciona uma notificação endereçada a todos os administradores da empresa de logon se um dos seguintes critérios for atendido:
 
 * “Qualquer” uso de chamada do servidor que “esteja acima ou seja igual” a 100% para qualquer tipo de chamada do servidor à qual você tem direito, OU
 * “Qualquer” uso de chamada do servidor que “esteja acima ou seja igual” a 90% para qualquer tipo de chamada do servidor à qual você tem direito, OU
@@ -44,17 +44,15 @@ Para criar alertas adicionais,
    ![](assets/sc_alert.png)
 
    * **Título**: Especifique um nome descritivo. Não é possível salvar o alerta sem um nome.
-   * **Granularidade de tempo**: Refere-se à frequência com que o alerta será verificado. *No momento, oferecemos suporte somente à granularidade Semanal.* Isso significa que o alerta será verificado semanalmente e vai considerar os dados do período de uso atual.
-   * **Destinatários**: Especifique qualquer pessoa na organização que deve receber um email quando o alerta aciona o limite especificado.
-   * **Data de expiração**: Por padrão, a data de expiração é de um ano a partir da data de criação do alerta.
+   * **Granularidade** de tempo: Refere-se à frequência com que o alerta será verificado. *No momento, oferecemos suporte somente à granularidade Semanal.* Isso significa que o alerta será verificado semanalmente e vai considerar os dados do período de uso atual.
+   * **Destinatários**: Especifique qualquer pessoa na organização que deve receber um email quando o alerta acionar o limite especificado.
+   * **Data** de expiração: Por padrão, a data de expiração é um ano a partir da data de criação do alerta.
    * **Enviar um Alerta quando**:
 
-      * Qualquer um desses Acionamentos
-de métricas Adicionar o tipo de chamada do servidor ou s como uma métrica e especificar o limite de alerta selecionando o modificador e o limite:
+      * Qualquer um desses acionadores de métricasAdicione o tipo de chamada de servidor como uma métrica e especifique o limite de alerta selecionando o modificador e o limite:
          * é igual ou maior que
          * é igual ou menor que
-      * Com
-Especificar o limite e a condição (é acima ou igual ou é inferior ou igual a) para o Período gasto gasto.
+      * ComEspecifique o limite e a condição (acima ou igual ou abaixo ou igual a) para o Período de Uso Gasto.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
