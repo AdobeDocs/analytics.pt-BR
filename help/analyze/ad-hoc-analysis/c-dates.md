@@ -3,9 +3,9 @@ description: No calendário, você pode especificar datas e intervalos de datas 
 seo-description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
 seo-title: Datas e intervalos de datas
 title: Datas e intervalos de datas
-uuid: 8 f 099 db 7-e 74 b -4384-ac 46-61 a 545 f 1 dd 62
+uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
 
-## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
+## Datas e intervalos de datas {#concept_AB32765013F449908B5964AB622C75FF}
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
 
@@ -28,7 +28,7 @@ Ao selecionar um intervalo de datas durante a criação de um projeto, usar a op
 
 >[!NOTE]
 >
->Se precisar de ajuda para executar relatórios herdados, entre em contato com seu Gerente de contas.
+>Se precisar de ajuda para executar relatórios herdados, entre em contato com seu Gerente de conta.
 
 ## Frações de data herdadas {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -40,12 +40,12 @@ c_legacy_data.xml
 
  -->
 
-** Para acessar as frações de data antigas**
+**Para acessar as frações de data herdadas**
 
 1. [Criar ou abrir um projeto](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. Abra o [calendário](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)e selecione **[!UICONTROL Trimestre]** ou **[!UICONTROL Ano]**.
 
 >[!NOTE]
 >
->As frações de datas históricas permanecem dentro das restrições de trimestre e ano. Não é possível visualizar dados que ultrapassam os limites entre as frações herdadas e a nova plataforma de processamento. As variações de datas podem deixar os dois resultados com erro. Além disso, as variações de data são aplicáveis apenas ao calendário Gregoriano e não ao calendário personalizado.
+>As fatias de data históricas estão dentro das restrições de trimestre e ano. Não é possível visualizar dados que ultrapassam os limites entre as frações herdadas e a nova plataforma de processamento. As variações de datas podem deixar os dois resultados com erro. Além disso, as variações de data são aplicáveis apenas ao calendário Gregoriano e não ao calendário personalizado.
 
