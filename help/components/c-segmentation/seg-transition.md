@@ -1,14 +1,14 @@
 ---
 description: 'null'
-keywords: segmentação; segmentos
+keywords: segmentação;segmentos
 seo-description: 'null'
 seo-title: Perguntas frequentes
 solution: Analytics
 title: Perguntas frequentes
 topic: Segmentos
-uuid: f 49 dc 829-1 d 53-4183-9 add -1 aeaa 5219 d 89
+uuid: f49dc829-1d53-4183-9add-1ea5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -37,7 +37,7 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 
 Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) no Blog de marketing digital para obter mais detalhes.
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Acesse as ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Como obtenho o Construtor de segmentos?**
 
@@ -63,9 +63,9 @@ Para acessar o Gerenciador de segmentos:
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone Segmentos ![](assets/segment_icon.png)
 
-na navegação à esquerda e o trilho de segmentos é exibido.
+no painel de navegação esquerdo e no painel de segmentos.
 
 **Para onde foi o menu suspenso de conjunto de relatórios herdados?**
 
@@ -145,7 +145,7 @@ Você tem um marcador que faz referência ao segmento para o conjunto de relató
 
 **O que acontece com os segmentos de Data warehouse?**
 
-Todos os segmentos existentes no Data warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionará em outros componentes, como Analysis Workspace, Análise ad hoc e Relatórios e análises.
+Todos os segmentos existentes no Data warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como Analysis Workspace, Análise ad hoc e Relatórios e análises.
 
 Você pode criar ou editar novos segmentos de Data warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data warehouse.
 
@@ -167,7 +167,7 @@ Esses segmentos serão transferidos como  modelos de segmento no Construtor de s
 
 Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
-** O que acontece com os segmentos da Experience Cloud (Suite): **
+**O que acontece com os segmentos da Experience Cloud (Suite):**
 
 * Não compradores
 * Compradores
@@ -201,13 +201,13 @@ Os segmentos existentes que usam lógica que foi alterada como descrito nesse do
 
 As seguintes dicas ajudarão você a migrar dimensões comuns:
 
-* Cidade/região/país geográfico - pesquise e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
+* Cidade/região/país geográfico - procure e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
 * Navegadores - use a dimensão Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
-* Sistemas operacionais - use as dimensões de Tipos de sistema operacional para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
+* Sistemas operacionais - use as dimensões Tipos de SO para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
 
 * [Dimensões novas e renomeadas](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Alterações para Contém](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Alterações em Menor que e Maior que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Alterações em Contém](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Alterações em menor que e maior que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensões novas e renomeadas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
