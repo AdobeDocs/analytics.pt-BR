@@ -1,13 +1,13 @@
 ---
 description: Etapas para executar os diferentes tipos de relatório.
-seo-description: Steps on running the different report types.
+seo-description: Etapas para executar os diferentes tipos de relatório.
 seo-title: Executar tipos de relatórios diferentes
 solution: Analytics
 title: Executar tipos de relatórios diferentes
 topic: Relatórios, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -159,7 +159,7 @@ Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contrib
 
 >[!NOTE]
 >
->You can also run Anomaly Detection from within Analysis Workspace projects. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>Você também pode executar a Detecção de anomalias em projetos da Analysis Workspace. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Para obter informações sobre como configurar uma Detecção de anomalias, consulte o [Guia de referência](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -184,9 +184,9 @@ A Detecção de anomalias mostra dois tipos de gráficos: um gráficos resumidos
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Os valores percentuais de desvio (à esquerda do gráfico) são calculados da seguinte forma: 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Se os limites superiores e o valor esperado são os mesmos, o % de desvio é de 100%. </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Otherwise the deviation % is ((actual value - upper bound value) / (upper bound value - expected value)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">Caso contrário, o % de desvio é ((valor real - valor limite superior) / (valor limite superior - valor esperado)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">Se os limites inferiores e o valor esperado forem os mesmos, o % de desvio será -100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Caso contrário, o % de desvio é ((valor limite inferior - valor real) / (valor esperado - valor limite inferior)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Mais</a> sobre a segmentação. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicar em <span class="uicontrol">Editar métricas</span> permite selecionar e desmarcar as métricas nas quais deseja detectar anomalias. </li> 
@@ -224,9 +224,9 @@ Você configura uma Detecção de anomalias independentemente para cada conjunto
 
 1. Navegue até **[!UICONTROL Análises &gt; Relatórios &gt; Métricas do site &gt; Detecção de anomalias]** .
 1. Selecione o conjunto de relatórios para o qual você deseja rastrear a detecção diária de anomalias. Para exibir uma lista de conjuntos de relatórios, clique no menu suspenso do seletor do Conjunto de relatórios.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   Você pode coletar métricas da lista (incluindo métricas calculadas) de todas as métricas, ou a partir de uma lista de métricas rastreadas. Também é possível filtrar por termos específicos para limitar a lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (pense no período de treinamento como "período de aprendizado" do algoritmo). 
+   Você pode coletar métricas da lista (incluindo métricas calculadas) de todas as métricas, ou a partir de uma lista de métricas rastreadas. Também é possível filtrar por termos específicos para limitar a lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (pense no período de treinamento como "período de aprendizado" do algoritmo). 
 
    ![](assets/view_training_periods.png)
 
