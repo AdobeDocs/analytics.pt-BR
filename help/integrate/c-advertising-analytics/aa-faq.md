@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Perguntas frequentes
 title: Perguntas frequentes
-uuid: 05724 f 56-cf 98-4 ad 8-ad 0 d -83 a 5 a 4 b 1944 a
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Há métricas do Advertising Analytics reportáveis no relatório dos <b>Canais de marketing</b>? </p> </td> 
-   <td colname="col2"> <p>R: Não, elas não são incluídas no relatório dos Canais de marketing. </p> </td> 
+   <td colname="col2"> <p>A: Não, eles não estão incluídos no relatório Canais de marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: <b>Quando</b> os dados de pesquisa são transferidos para o Analytics? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Capturamos apenas o google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também? </p> </td> 
-   <td colname="col2"> <p>A: A classificação da Plataforma de publicidade captura estes valores: «Google Adwords» e «Bing Ads». </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
+   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: A métrica “Custo do AMO” é o custo pago para cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? </p> </td> 
