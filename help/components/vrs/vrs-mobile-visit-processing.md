@@ -1,18 +1,18 @@
 ---
-description: As sessões sensíveis ao contexto nos conjuntos de relatórios virtuais mudam como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
-seo-description: As sessões sensíveis ao contexto nos conjuntos de relatórios virtuais mudam como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
+description: As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
+seo-description: As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 seo-title: Sessões sensíveis ao contexto
 title: Sessões sensíveis ao contexto
-uuid: d 354864 a -9163-4970-a 3 a 0-f 2 e 9729 bdbe 3
+uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Sessões sensíveis ao contexto
 
-As sessões sensíveis ao contexto nos conjuntos de relatórios virtuais mudam como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
+As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 
 Você pode definir uma visita da maneira que quiser sem alterar os dados subjacentes, para corresponder a como seus visitantes interagem com seus aplicativos móveis.
 
@@ -29,7 +29,7 @@ Uma ocorrência em segundo plano é um tipo de ocorrência enviada para o Analyt
 
 Os exemplos a seguir descrevem a lógica usada para determinar quando uma visita começa e termina para um visitante quando a configuração “Impedir ocorrências em segundo plano de iniciar uma nova visita” está ou não habilitada para um conjunto de relatórios virtual.
 
-** Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” não estiver ativado:**
+**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” não estiver ativado:**
 
 Se esse recurso não estiver habilitado para um conjunto de relatórios virtual, as ocorrência em segundo plano serão tratadas como qualquer outro tipo, o que significa que iniciarão novas visitas e agirão exatamente como ocorrências em primeiro plano. Por exemplo, se uma ocorrência em segundo plano ocorrer menos de 30 minutos (o tempo limite padrão de sessão para um conjunto de relatórios) antes de um conjunto de ocorrências em primeiro plano, a ocorrência em segundo plano fará parte da sessão.
 
@@ -39,7 +39,7 @@ Se a ocorrência em segundo plano ocorrer mais de 30 minutos antes de qualquer o
 
 ![](assets/nogood2.jpg)
 
-** Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” estiver ativado:**
+**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” estiver ativado:**
 
 Os exemplos a seguir ilustram o comportamento das ocorrências em segundo plano quando esse recurso está habilitado.
 
