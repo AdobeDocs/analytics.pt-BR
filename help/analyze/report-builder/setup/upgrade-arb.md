@@ -1,18 +1,18 @@
 ---
 description: Etapas e considerações relacionadas à atualização do Construtor de relatórios.
 seo-description: Etapas e considerações relacionadas à atualização do Construtor de relatórios.
-seo-title: Atualizar o Construtor de relatórios
+seo-title: Atualizar o Report Builder
 solution: Analytics
-title: Atualizar o Construtor de relatórios
+title: Atualizar o Report Builder
 topic: Construtor de relatórios
-uuid: 19 cfae 11-0 b 40-498 b -89 ca -5 e 854 e 7 b 164 f
+uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Atualizar o Construtor de relatórios
+# Atualizar o Report Builder
 
 Etapas e considerações relacionadas à atualização do Construtor de relatórios.
 
@@ -43,7 +43,7 @@ R: Não, todas as configurações, inclusive as configurações de autenticaçã
    >
    >Se esse botão estiver acinzentado, nenhuma nova versão do Construtor de relatórios estará disponível.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. Futuramente, isso iniciará o processo de atualização automaticamente quando uma nova versão estiver disponível.
+1. Como opção, marque a caixa de seleção **[!UICONTROL Atualizar quando uma nova versão estiver disponível].** Futuramente, isso iniciará o processo de atualização automaticamente quando uma nova versão estiver disponível.
 1. Quando a tela de configuração aparecer, clique em **[!UICONTROL Avançar &gt;]**.
 
    ![](assets/setup.png)
