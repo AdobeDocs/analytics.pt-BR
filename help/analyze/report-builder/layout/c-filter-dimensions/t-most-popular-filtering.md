@@ -5,9 +5,9 @@ seo-title: Filtragem mais popular
 solution: Analytics
 title: Filtragem mais popular
 topic: Construtor de relatórios
-uuid: 558 fa 592-41 be -4 e 66-8705-81262 afe 1 fc 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
 
 Filtros de classificação e condicionais que você configura usando lógica booleana com expressões de pesquisa E/OU.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. [Você pode salvar](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) essas expressões para outra solicitação nessa pasta de trabalho ou em outras pastas de trabalho.
+Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) these expressions for other request in this workbook, or in other workbooks.
 
 **Para criar um filtro mais popular**
 
@@ -35,7 +35,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >Aplicar filtros a solicitações existentes causa alterações nos dados apresentados. Suponha que você mapeou as dez principais [!UICONTROL Páginas] para as células $A$1 a $A$10, com 1 para a [!UICONTROL Classificação inicial] e 10 para o [!UICONTROL Número de entradas]. Se você alterar esses valores para mostrar 1 para [!UICONTROL Classificação inicial] e somente 3 para [!UICONTROL Número de entradas], os dados que anteriormente preenchiam as células $A$4 a $A$10 não serão mais exibidos.
+   >Aplicar filtros a solicitações existentes resulta em alterações nos dados apresentados. Suponha que você mapeou as dez principais [!UICONTROL Páginas] para as células $A$1 a $A$10, com 1 para a [!UICONTROL Classificação inicial] e 10 para o [!UICONTROL Número de entradas]. Se você alterar esses valores para mostrar 1 para [!UICONTROL Classificação inicial] e somente 3 para [!UICONTROL Número de entradas], os dados que anteriormente preenchiam as células $A$4 a $A$10 não serão mais exibidos.
 
 1. Para criar uma expressão de pesquisa, clique em **[!UICONTROL Adicionar]**.
 
@@ -45,7 +45,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): Permite localizar uma condição definida no valor de uma célula.
 
-   ** Adicionar condição: ** Adiciona uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
+   **Adicionar condição:** Adiciona uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
 
 1. Clique em **[!UICONTROL OK]**.
 
