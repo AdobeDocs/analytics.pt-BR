@@ -1,17 +1,17 @@
 ---
 title: Configuração da Análise entre dispositivos
-description: Learn how to set up Cross-Device Analytics after you meet the prerequisites.
+description: Saiba como configurar o Cross-Device Analytics após atender aos pré-requisitos.
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
 
 ---
 
 
 # Configuração da Análise entre dispositivos
 
-> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
+> [!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
 
-Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. Você deve pertencer a um grupo Administrador do perfil do produto ou ter privilégios de administrador no Adobe Analytics para seguir essas etapas.
+Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas para ativar o Cross-Device Analytics. Você deve pertencer a um grupo Administrador do perfil do produto ou ter privilégios de administrador no Adobe Analytics para seguir essas etapas.
 
 > [!IMPORTANT] Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte Análises [](cda-home.md) entre dispositivos para obter os pré-requisitos e as limitações.
 
@@ -24,21 +24,22 @@ Quando sua organização está provisionada para usar o CDA, você escolhe qual 
 Os administradores com acesso para criar conjuntos de relatórios virtuais podem criar conjuntos de relatórios virtuais CDA da seguinte maneira:
 
 1. Navegue até [experience.adobe.com](https://experiencecloud.adobe.com) e faça logon usando suas credenciais da AdobeID.
-2. Click the 9-grid icon at the top, then click Analytics.
-3. Hover over Components at the top, then click Virtual Report Suites.
+2. Clique no ícone de grade de 9 na parte superior e clique em Analytics.
+3. Passe o mouse sobre Componentes na parte superior e clique em Conjuntos de relatórios virtuais.
 4. Clique em Adicionar.
-5. Enter a name for your virtual report suite, and ensure that the CDA-enabled report suite is selected.
-6. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
-7. Click the checkbox 'Stitch User Visits Across Devices'.
-8. Click Continue, finish configuring the virtual report suite, then click Save.
+5. Insira um nome para o conjunto de relatórios virtual e verifique se o conjunto de relatórios habilitado para CDA está selecionado.
+6. (Opcional) Aplique um segmento ao conjunto de relatórios virtual. Por exemplo, você pode aplicar um segmento que limita o conjunto de relatórios virtual a datas depois que o CDA foi ativado e a sutura começou. Esse segmento permite que os usuários vejam apenas intervalos de datas marcados no VRS.
+7. Clique na caixa de seleção 'Ativar processamento de tempo do relatório', que permite várias outras opções, incluindo a Análise entre dispositivos.
+8. Clique na caixa de seleção 'Stitch User Visits Across Devices'.
+9. Clique em Continuar, conclua a configuração do conjunto de relatórios virtual e clique em Salvar.
 
-![CDA checkbox](assets/cda-checkbox.png)
+![Caixa de seleção CDA](assets/cda-checkbox.png)
 
 ## Adições e alterações em conjuntos de relatórios virtuais entre dispositivos
 
 Quando a Análise entre dispositivos estiver ativada em um conjunto de relatórios virtual, observe as seguintes alterações:
 
-* A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
+* Um novo ícone entre dispositivos é exibido ao lado do nome do conjunto de relatórios virtual. Esse ícone é exclusivo para conjuntos de relatórios virtuais entre dispositivos.
 * Novas métricas chamadas "Pessoas" e "Dispositivos exclusivos" estão disponíveis.
 * A métrica "Visitantes únicos" não está disponível, pois é substituída por Pessoas e Dispositivos únicos.
 * Ao criar segmentos, o contêiner de segmento "Visitante" é substituído por um contêiner "Pessoa".
@@ -55,15 +56,15 @@ A capacidade do Cross-Device Analytics de unir dispositivos depende de uma grand
 
 Para ver a compactação de sua organização para um determinado período:
 
-1. Click Workspace at the top, then click 'Create New Project'.
-2. Start with a Blank Project, then click Create.
-3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
+1. Clique em Espaço de trabalho na parte superior e em 'Criar novo projeto'.
+2. Comece com um projeto em branco e clique em Criar.
+3. Arraste a métrica Dispositivos únicos para a área de tela chamada 'Solte uma métrica aqui'.
 4. Arraste a métrica de Pessoas para a tela diretamente à direita do cabeçalho da métrica de Dispositivos únicos, para que as duas métricas fiquem lado a lado.
-5. Click the '' symbol next to available metrics on the left to open the Calculated Metric builder.`+`
-6. Give this calculated metric the following settings:
-   * Nome: Cross-Device Compression
+5. Clique no símbolo '`+`' ao lado das métricas disponíveis à esquerda para abrir o Criador de métricas calculadas.
+6. Atribua a esta métrica calculada as seguintes configurações:
+   * Nome: Compactação entre dispositivos
    * Formato: Porcentagem
-   * Decimal Places: 2
+   * Casas decimais: 2
    * Definição: `[Static Number: 1] minus [People] divided by [Unique Devices]`
       > [!TIP] Clique em "Adicionar" no canto superior direito da área de definição para adicionar um número estático. Arraste Pessoas e Dispositivos únicos da lista de métricas disponíveis à esquerda.
 7. Clique em Salvar.
