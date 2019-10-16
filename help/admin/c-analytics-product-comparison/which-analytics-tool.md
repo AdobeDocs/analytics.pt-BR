@@ -3,9 +3,9 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 seo-description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 seo-title: Qual ferramenta do Adobe Analytics devo usar?
 title: Qual ferramenta do Adobe Analytics devo usar?
-uuid: 1179 e 49 d -3 cfc -4 abd-a 8 eb -35 c 5 ae 380 c 16
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,8 +14,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 
 Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 
-Para mais comparações entre produtos do Adobe Analytics, clique [aqui](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D).
-
+Para mais comparações entre produtos do Adobe Analytics, clique [aqui](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 ## Interfaces do usuário de relatórios do Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** deve ser a interface principal do usuário para todas as suas necessidades de relatórios e análises. A Adobe continua a investir e lançar atualizações mensais para este produto. Caso haja uma tarefa que não possa ser executada na Analysis Workspace, considere as outras interfaces abaixo.**
@@ -113,7 +112,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Se o cliente quiser inserir dados da Adobe em uma ferramenta de dados de visualização de terceiros (ligeiramente resumida e não a nível de ocorrência)
 * Para acessar todos os valores de dimensões únicas se estiver executando de forma “Baixo tráfego” no Adobe Analytics
 
-**[O Feed de dados do Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** deve ser usado:
+**[Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de dados do Analytics deve ser usado:
 
 * Para utilizar o feed de dados mais granular que podemos fornecer (ID do visitante, ocorrência).
 * Se o cliente quiser os dados da Adobe armazenados no seu banco de dados no nível mais granular, eles poderão ser enviados.
