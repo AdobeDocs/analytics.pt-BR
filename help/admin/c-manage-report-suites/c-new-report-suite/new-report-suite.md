@@ -1,22 +1,22 @@
 ---
 description: Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
 seo-description: Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
-seo-title: Novo conjunto de relatórios - configurações
+seo-title: Configurações do novo conjunto de relatórios
 solution: Analytics
-title: Novo conjunto de relatórios - configurações
+title: Configurações do novo conjunto de relatórios
 topic: Ferramentas administrativas
-uuid: 3508 f 684-11 a 3-4 c 8 f-a 233-bea 6 bafd 57 c 0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Novo conjunto de relatórios - configurações
+# Configurações do novo conjunto de relatórios
 
 Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
 
-Descrições dos elementos usados ao [Criar um conjunto de relatórios](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](../../..
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data de ativação </p> </td> 
-   <td colname="col2">Informa a Adobe quanto à data em que você espera que este conjunto de relatórios fique ativo. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informa a Adobe quanto à data em que você espera que este conjunto de relatórios fique ativo. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Exibições de página estimadas por dia</span> </td> 
@@ -60,11 +60,11 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](../../..
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Moeda de base</span> </td> 
-   <td colname="col2"> <p>Especifica a moeda padrão usada para armazenar todos os dados monetários. O Analytics converte as transações em outras moedas para a moeda de base usando a taxa de conversão atual no momento em que recebe os dados. </p> <p> O relatório de Analytics utiliza o <span class="varname"> variável currencycode</span> javascript para identificar a moeda de uma determinada transação. </p> </td> 
+   <td colname="col2"> <p>Especifica a moeda padrão usada para armazenar todos os dados monetários. O Analytics converte as transações em outras moedas para a moeda de base usando a taxa de conversão atual no momento em que recebe os dados. </p> <p> O relatório de Analytics utiliza o <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Desativar suporte de caractere multibyte </span> </td> 
-   <td colname="col2"> <p>Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte a caracteres com vários bytes, o sistema partirá do princípio de que os dados estão no formato ISO-8859-1. As páginas da Web precisam especificar seu conjunto de caracteres na <span class="varname"> Variável charset</span> javascript. </p> <p>O suporte a caracteres com vários bytes armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. </p> <p>Entre em contato com seu Gerente de Conta ou com o atendimento ao cliente para alterar o suporte a caracteres com vários bytes de um conjunto de relatórios existente. </p> </td> 
+   <td colname="col2"> <p>Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte a caracteres com vários bytes, o sistema partirá do princípio de que os dados estão no formato ISO-8859-1. As páginas da Web precisam especificar seu conjunto de caracteres na variável <span class="varname"> charSet</span> JavaScript. </p> <p>O suporte a caracteres com vários bytes armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. </p> <p>Entre em contato com seu Gerente de Conta ou com o atendimento ao cliente para alterar o suporte a caracteres com vários bytes de um conjunto de relatórios existente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ativar a Ad Hoc Analysis para esse suite</span> </td> 
