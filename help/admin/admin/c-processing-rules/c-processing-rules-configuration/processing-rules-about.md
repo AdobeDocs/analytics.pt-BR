@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Regras de processamento
 title: Como as regras de processamento funcionam
 topic: Ferramentas administrativas
-uuid: 19 c 31 f 94-c 8 d 8-47 b 1-97 fa -29 ed 98 c 94 e 87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
  <tbody> 
   <tr> 
    <td colname="col1"> <p>As regras se aplicam a um único conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> Cópia das regras de processamento para outro conjunto de relatórios </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Cópia das regras de processamento para outro conjunto de relatórios </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são aplicadas na ordem em que estão relacionadas. </p> </td> 
@@ -41,15 +41,15 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Depois de salvas, as regras de processamento são aplicadas imediatamente ao conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> relatórios em tempo real</a> no conjunto de relatórios de teste para que você possa ver rapidamente os resultados de uma regra de processamento. </p> </td> 
+   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são o único modo de acessar variáveis de dados de contexto. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são aplicadas antes das regras VISTA e das regras de Canal de marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> Ordem de processamento </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Ordem de processamento </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ocorrências não podem ser excluídas. </p> </td> 
@@ -64,7 +64,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
    <td colname="col2"> <p>A pesquisa de dispositivos móveis ocorre antes das regras de processamento, mas os atributos não ficam disponíveis nas regras de processamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Não é possível ler os parâmetros da sequência de consulta após os primeiros 255 caracteres de um URL se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior. O javascript appmeasurement H .25 .3 e posterior fornece o URL completo, incluindo todos os parâmetros da sequência de caracteres de consulta para regras de processamento. </p> </td> 
+   <td colname="col1"> <p>Não é possível ler os parâmetros da sequência de consulta após os primeiros 255 caracteres de um URL se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior. O JavaScript AppMeasurement H.25.3 e posterior fornecem o URL completo, incluindo todos os parâmetros da string de consulta às regras de processamento. </p> </td> 
    <td colname="col2"> <p>Atualização para H.25.3 ou versão posterior, ou leitura dos parâmetros da sequência de consulta de URLs longos do lado do cliente e valores de armazenamento nas variáveis de Dados de contexto. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>As comparações de valores na interface do usuário não distinguem letras maiúsculas de minúsculas. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local"> Limpando valores em um relatório </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Limpando valores em um relatório </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Os nomes da variável de dados de contexto podem conter somente caracteres alfanuméricos, sublinhados e pontos. Quaisquer caracteres adicionais são excluídos. </p> </td> 
-   <td colname="col2"> <p>Por exemplo, a variável dos dados de contexto <code>login_page-home</code> torna-se automaticamente <code>login_pagehome</code>. Todos os dados enviados para a variável <code>login_page-home</code> são alocados em <code>login_pagehome</code>. </p> <p>Não é possível adicionar variáveis de dados de contexto que contenham caracteres não suportados à interface das Regras de processamento. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Não é possível adicionar variáveis de dados de contexto que contenham caracteres não suportados à interface das Regras de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caret (^) é um caractere especial no sistema de processamento de regras. </p> </td> 
