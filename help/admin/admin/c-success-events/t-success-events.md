@@ -5,9 +5,9 @@ seo-title: Configurar os eventos bem-sucedidos
 solution: Analytics
 title: Configurar os eventos bem-sucedidos
 topic: Ferramentas administrativas
-uuid: ca 3 d 3 f 46-5 fad -4481-aef 6-04 cad 6 bc 6 e 2 d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,20 +27,21 @@ Etapas que descrevem como configurar eventos bem-sucedidos.
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >Antes de alterar um tipo de evento, consulte [Alterar tipo](/help/admin/admin/c-success-events/event-type.md)de evento.
 
-   Consulte [Página de eventos bem-sucedidos - Descrições](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447) para obter mais informações sobre esses elementos.
+   Consulte [Página de eventos bem-sucedidos - Descrições](/help/admin/admin/c-success-events/success-event.md) para obter mais informações sobre esses elementos.
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. [Mais...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. Forneça uma descrição.
+   Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. [Mais...](/help/admin/admin/metric-visibility.md)
+1. Forneça uma descrição.
 1. Verifique se o evento sempre deve ser gravado.
-1. Enable or disable [participation metrics](/help/components/c-variables/c-metrics/metrics-participation.md).
+1. Ative ou desative as métricas [de](/help/components/c-variables/c-metrics/metrics-participation.md)participação.
 
    >[!NOTE]
    >
-   >Você pode habilitar a participação para até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+   >Você pode ativar a participação para até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
 
 1. Clique em **[!UICONTROL Salvar]**.
 
