@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuários e grupos
 title: Atribuir grupos de usuários a um conjunto de relatórios
 topic: Ferramentas administrativas
-uuid: 67173113-2 fca -483 e -9038-8423 e 6 d 4 de 6 e
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Etapas que descrevem como atribuir grupos de usuários a um conjunto de relatórios.
 
-A página [!UICONTROL conjunto de relatórios] permite exibir e configurar conjunto de relatórios da empresa. O Analytics gerencia o acesso ao conjunto de relatórios por meio da associação aos grupos. Ao fazer a primeira configuração, crie os grupos necessários (atribuindo conjunto de relatórios a cada grupo) e, em seguida, atribua contas de usuários aos grupos apropriados [os grupos](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
+A página [!UICONTROL conjunto de relatórios] permite exibir e configurar conjunto de relatórios da empresa. O Analytics gerencia o acesso ao conjunto de relatórios por meio da associação aos grupos. Ao fazer a primeira configuração, crie os grupos necessários (atribuindo conjunto de relatórios a cada grupo) e, em seguida, atribua contas de usuários aos grupos apropriados [os grupos](/help/admin/user-management2/c-user-groups/groups.md).
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Report Suites]**.
