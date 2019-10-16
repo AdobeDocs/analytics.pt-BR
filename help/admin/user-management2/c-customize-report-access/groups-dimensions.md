@@ -1,20 +1,20 @@
 ---
 description: Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
-keywords: grupos; permissões
+keywords: grupos;permissões
 seo-description: Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
-seo-title: Personalizar permissões de dimensão
+seo-title: Personalizar permissões de dimensões
 solution: Analytics
 subtopic: Usuários e grupos
-title: Personalizar permissões de dimensão
+title: Personalizar permissões de dimensões
 topic: Ferramentas administrativas
-uuid: aaf 164 ad -3863-4129-864 e -39 ec 71 c 6 a 8 eb
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Personalizar permissões de dimensão
+# Personalizar permissões de dimensões
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 
-**[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acesso ao Relatório]** &gt; **[!UICONTROL Dimensões]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Gerenciamento]** de usuários &gt; **[!UICONTROL Grupos]** &gt; Acesso **[!UICONTROL a]** relatórios &gt; **[!UICONTROL Dimensões]** &gt; **[!UICONTROL Personalizar]**
 
 >[!IMPORTANT]
 >
->Neste momento, algumas dimensões não são permissões. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
+>Algumas dimensões não são permitidas no momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
 >
 >Essas dimensões estão disponíveis para todos os usuários, independentemente de outras permissões.
 
@@ -38,7 +38,7 @@ Entenda as informações a seguir sobre a categoria Dimensão para permissões.
 
 * eVars 1-250 autorizados individualmente.
 * Todos os relatórios de tráfego são dimensões.
-* Os relatórios de vídeo e móveis são dimensões, bem como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e fazer isso).
+* Os relatórios de Vídeo e Mobile são dimensões, bem como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e assim por diante).
 * Há relatórios de definição de caminho disponíveis, se o usuário tiver acesso à dimensão principal.
 * Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis.
 * Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) em que se baseia a classificação.
@@ -58,7 +58,7 @@ Os itens a seguir são dimensões que você pode permitir.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVars </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVars </a> </p> </td> 
    <td colname="col2"> <p>eVars 1-250 autorizados individualmente. As eVars são variáveis de conversão personalizadas, usadas para segmentar métricas de sucesso em relatórios personalizados. </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Os itens a seguir são dimensões que você pode permitir.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Padrão </p> </td> 
-   <td colname="col2"> <p>Faz referência a dimensões (out-of-the-box) no Analytics. </p> </td> 
+   <td colname="col2"> <p>Faz referência a dimensões (pronto para uso) dimensões no Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
