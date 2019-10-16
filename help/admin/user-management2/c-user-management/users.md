@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuários e grupos
 title: Visão geral do gerenciamento de usuários
 topic: Ferramentas administrativas
-uuid: 6 f 1 d 67 cd-e 169-461 b -9 f 08-eec 2 c 6 b 4 e 6 df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Editar usuários]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Gerenciamento **** do usuário &gt; **[!UICONTROL Editar usuários]**
 
 ## Descrições da conta do usuário {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -82,7 +82,7 @@ Criar um painel padrão para um conjunto de relatórios especificado.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Usuário</span> </td> 
-   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
