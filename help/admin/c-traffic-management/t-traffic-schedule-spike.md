@@ -5,9 +5,9 @@ seo-title: Programar um pico de tráfego
 solution: Analytics
 title: Programar um pico de tráfego
 topic: Ferramentas administrativas
-uuid: 350 bebc 0-0593-4 ee 7-b 7 e 2-7848 d 9 f 5726 b
+uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A seção Programar pico permite alertar a Adobe quanto a picos temporários no tráfego, de modo que os recursos apropriados possam ser alocados para lidar com eles.
 
-Leia as informações sobre [Lead Time necessário para aumentos de tráfego](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) antes de programar um pico de tráfego.
+Leia as informações sobre [Lead Time necessário para aumentos de tráfego](/help/admin/c-traffic-management/traffic-lead-time.md) antes de programar um pico de tráfego.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Selecione um conjunto de relatórios.
@@ -29,5 +29,5 @@ Leia as informações sobre [Lead Time necessário para aumentos de tráfego](..
 
    >[!NOTE]
    >
-   >Para programar um pico de tráfego, inclua um número de telefone nas informações de contato do usuário para que a Adobe possa contatá-lo com perguntas, se necessário.
+   >Para agendar um pico de tráfego, inclua um número de telefone nas informações de contato do usuário para que a Adobe possa contatá-lo com perguntas, se necessário.
 
