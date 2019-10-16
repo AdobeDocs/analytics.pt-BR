@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuários e grupos
 title: Gerenciamento de usuários e produtos
 topic: Ferramentas administrativas
-uuid: 891 a 8 cb 3-b 77 d -46 f 6-ab 23-cbed 49 f 215 b 5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Adicionar novo usuário</span> </td> 
-   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Baixar relatório</span> </td> 
@@ -76,7 +76,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Logon</span> </td> 
-   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nome</span> </td> 
@@ -112,7 +112,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar</span> </td> 
-   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Excluir</span> </td> 
@@ -120,7 +120,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transferir</span> </td> 
-   <td colname="col2">Atribua os privilégios (permissões e acesso a recursos) de uma conta de usuário a outra. <p>Consulte <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> Transferir privilégios de conta de usuário</a>. </p> </td> 
+   <td colname="col2">Atribua os privilégios (permissões e acesso a recursos) de uma conta de usuário a outra. <p>Consulte <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Transferir privilégios de conta de usuário</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Efetuar logon como este usuário</span> </td> 
