@@ -1,30 +1,30 @@
 ---
 description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 seo-description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
-seo-title: Serviços da Web
+seo-title: Serviços Web
 solution: Analytics
-title: Serviços da Web
+title: Serviços Web
 topic: Ferramentas administrativas
-uuid: ccae 04 cf-f 58 c -490 e-baaa-ee 04 c 534 b 28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Serviços da Web
+# Serviços Web
 
 As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Serviços da Web]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa &gt; Serviços **[!UICONTROL da Web]**
 
 ## Gerenciar serviços da Web
 
-Em Gerenciamento de usuários &gt; [Grupos](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) é possível atualizar o grupo de Acesso ao serviço da Web para incluir os usuários que precisam de acesso às APIs de serviços da Web.
+Em Gerenciamento de usuários &gt; [Grupos](/help/admin/user-management2/c-user-groups/groups.md) é possível atualizar o grupo de Acesso ao serviço da Web para incluir os usuários que precisam de acesso às APIs de serviços da Web.
 
 ## WSDL: Fazer o download do WSDL da API de serviços da Web para desenvolvedores de serviços da Web.
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
+Visite o I/O [da](https://www.adobe.io/apis/experiencecloud/analytics.html)Adobe, que fornece documentação, exemplos de código e fóruns relacionados às APIs de serviços da Web. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
 
 ## Opções de filtragem
 
