@@ -5,7 +5,7 @@ seo-title: Exibir/gerenciar as configurações de governança de dados do conjun
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece uma visão geral de quais conjuntos de relatórios foram configurados para a governança de dados, se foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** .
+1. Navegue até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Governança de dados.]**
 
    Você verá todos os conjuntos de relatórios que fazem parte da empresa de logon:
 
@@ -38,7 +38,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapeado</b>: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administrador de mapeamento de conjuntos de relatórios, na qual é necessário localizar o conjunto de relatórios e atribuí-lo à organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administração de mapeamento do conjunto de relatórios, na qual terá que encontrar o conjunto de relatórios e atribuí-lo à ID da organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapeado para outra organização</b>: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização. </li> 
     </ul> </td> 
   </tr> 
