@@ -8,7 +8,7 @@ title: Visão geral das regras de processamento
 topic: Ferramentas administrativas
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,16 +34,16 @@ Antes de 20 de abril de 2017, todos os usuários (incluindo administradores) tin
 
 Agora, os administradores têm direito de usar as regras de processamento **por padrão**. A prova não é mais necessária. Os administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Veja como:
 
-1. Caso ainda não tenha feito, [crie um grupo](../../../admin/user-management2/c-user-groups/groups.md) que inclua apenas aqueles não administradores que devem ter autorização para usar as regras de processamento.
-1. [Adicione os não administradores a esse grupo](../../../admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
+1. Caso ainda não tenha feito, [crie um grupo](/help/admin/user-management2/c-user-groups/groups.md) que inclua apenas aqueles não administradores que devem ter autorização para usar as regras de processamento.
+1. [Adicione os não administradores a esse grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
+1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
 1. Marque a caixa ao lado de [!UICONTROL Regras de processamento] e clique em **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Because processing rules permanently affect Analytics data, we strongly recommend that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
+>Como as regras de processamento afetam permanentemente os dados do Analytics, recomendamos que os administradores de regras de processamento recebam treinamento de certificação no Adobe Analytics e se familiarizem com todas as fontes de dados dos conjuntos de relatórios (sites padrão, sites móveis, aplicativos móveis, API de inserção de dados etc). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
 
 ## Usar dados de contexto para simplificar a coleção de dados {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -61,4 +61,4 @@ Regras de processamento podem monitorar valores recebidos para transformar erros
 
 Após definir os dados de contexto na implementação, é necessário copiá-los para variáveis, como eVars para uso em relatórios.
 
-Para obter mais informações, acesse [here](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) and [here](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
+Para obter mais informações, acesse [aqui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) e [aqui](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
