@@ -1,22 +1,22 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Exibir o uso da chamada atual do servidor
-title: Exibir o uso da chamada atual do servidor
-uuid: 1 a 42 a 45 f -4 bbc -4 b 5 a -9706-c 8937265 de 2 b
+seo-title: Visualizar uso de chamadas do servidor atual
+title: Visualizar uso de chamadas do servidor atual
+uuid: 1a42a45f-4bc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Exibir o uso da chamada atual do servidor
+# Visualizar uso de chamadas do servidor atual
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Uso de chamada de servidor]** &gt; **[!UICONTROL Uso atual]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Uso **[!UICONTROL de chamada]** do servidor &gt; Uso **[!UICONTROL atual]**
 
 >[!IMPORTANT]
 >
->Todos os números de uso e de compromisso que você vê são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
+>Todos os números de utilização e compromisso que você vê são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
 
 O painel de Uso atual
 
@@ -29,7 +29,7 @@ O painel de Uso atual
 
    >[!NOTE]
    >
-   >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](../../admin/c-server-call-usage/report-suite-usage.md#concept_E50FA5BD93404EB8B2FE954F658FDAFD) tab and download the usage data for a previous period.
+   >Se quiser exibir o uso de um período anterior, vá para a guia Uso [do conjunto de](/help/admin/c-server-call-usage/report-suite-usage.md) relatórios e baixe os dados de uso de um período anterior.
 
 * Lista a porcentagem de chamadas usadas (em porcentagens e dados brutos), e a porcentagem gasta do período de uso (em porcentagens e dados brutos).
 * Por padrão, é atualizado diariamente, com uma latência de processamento de cinco dias.
@@ -39,7 +39,7 @@ O painel de Uso atual
 
 | Termo da interface do usuário | Definição |
 |---|---|
-| Período de uso atual (verde) | O período atual é baseado no [período de uso](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D). |
+| Período de uso atual (verde) | O período atual é baseado no [período de uso](/help/admin/c-server-call-usage/overage-overview.md). |
 | Período de uso anterior (azul) | O período anterior é definido como o período de uso atual menos 1 ano. |
 | Limite de uso (vermelho) | Seu limite de uso contratual para este período de uso. |
 
