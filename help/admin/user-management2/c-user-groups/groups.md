@@ -6,14 +6,14 @@ solution: Analytics
 subtopic: Usuários e grupos
 title: Configurações do grupo de usuários
 topic: Ferramentas administrativas
-uuid: b 411032 a -7 d 56-44 fd-b 676-abee 4 af 756 f 9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Configurações de grupo de usuários (herdadas)
+# Configurações de grupo de usuários (Herdado)
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 Descrições de elementos na página Definir grupo de usuários.
 
-**[!UICONTROL Administrador]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Adicionar novo grupo de usuários]**
+**[!UICONTROL Admin]** &gt; Gerenciamento **** do usuário &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Adicionar novo grupo de usuários]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ Descrições de elementos na página Definir grupo de usuários.
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios de tráfego</b>: Concede acesso a todos os relatórios com base em tráfego, como exibições de página, visitas e visitantes únicos. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios</b>de tráfego: Concede acesso a todos os relatórios com base no tráfego, como exibições de página, visitas e visitantes únicos. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Ferramentas</b> (concede acesso às ferramentas usadas nos Relatórios e análises, como Excluir por IP, Classificações e Clickmap herdado.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Relatórios de vídeo e dispositivos móveis</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Relatórios de caminhos</b> (concede acesso a relatórios de caminhos como Próxima página, Fallout e Tempo gasto na página). </li> 
@@ -95,10 +95,10 @@ Descrições de elementos na página Definir grupo de usuários.
      </ul> </p> </td> 
    <td colname="col2"> <p>Os membros do grupo podem acessar um subconjunto dos relatórios no grupo de relatórios. Clique em <span class="uicontrol">Personalizar</span> para abrir uma página onde você pode selecionar os relatórios específicos no grupo de relatórios que os membros do grupo podem acessar. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Ferramentas do Analytics</a>: ative as permissões do usuário para obter integração a itens Gerais (faturamento, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> Ferramentas do Conjunto de relatórios</a>: ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local"> Métricas</a>: ative permissões para eventos de tráfego, conversão, personalizados, de soluções e sensíveis a conteúdo, entre outros. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Dimensões</a>: personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Ferramentas do Analytics</a>: ative as permissões do usuário para obter integração a itens Gerais (faturamento, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Ferramentas do Conjunto de relatórios</a>: ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Métricas</a>: ative permissões para eventos de tráfego, conversão, personalizados, de soluções e sensíveis a conteúdo, entre outros. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensões</a>: personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
