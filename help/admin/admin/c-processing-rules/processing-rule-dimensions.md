@@ -8,7 +8,7 @@ title: Dimensões disponíveis para as regras de processamento
 topic: Ferramentas administrativas
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de dados de contexto </p> </td> 
-   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variáveis de dados de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variáveis de dados de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL da página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code>s.pageURL</code> não for especificado. </td> 
+   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
@@ -164,7 +164,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de rastreamento de campanha </p> </td> 
@@ -176,7 +176,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de lista 1 - 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de compra </p> </td> 
@@ -211,7 +211,7 @@ As regras de processamento podem definir eventos mas não podem lê-los como con
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes do SiteCatalyst 15, Evento 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>compra, scView, scAdd e outros eventos do carrinho </p> </td> 
