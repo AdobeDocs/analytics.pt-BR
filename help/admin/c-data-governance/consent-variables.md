@@ -1,20 +1,20 @@
 ---
-description: Variáveis para gerenciamento de consentimento na Privacidade de dados.
-seo-description: Variáveis para gerenciamento de consentimento na Privacidade de dados.
-seo-title: Variáveis do gerenciamento de consentimento
+description: Variáveis para relatórios de privacidade na Privacidade de dados.
+seo-description: Variáveis para relatórios de privacidade na Privacidade de dados.
+seo-title: Variáveis de relatórios de privacidade
 solution: Analytics
-title: Variáveis do gerenciamento de consentimento
+title: Variáveis de relatórios de privacidade
 topic: Ferramentas administrativas
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# Variáveis do gerenciamento de consentimento
+# Variáveis de relatórios de privacidade
 
 Para fornecer assistência adicional no gerenciamento de dados de privacidade, um conjunto de variáveis reservadas está disponível para ser usado junto com variáveis de dados de contexto específicas.
-Essas variáveis de gerenciamento de consentimento fornecem uma estrutura fácil de usar para capturar o status de consentimento em cada ocorrência de análise.
+Essas variáveis de relatórios de privacidade fornecem uma estrutura fácil de usar para capturar o status de privacidade em cada ocorrência de análise.
 
 ## Variáveis
 
@@ -35,7 +35,7 @@ Essas variáveis de gerenciamento de consentimento fornecem uma estrutura fácil
 
 ## Relatórios
 
-Você pode ativar as Variáveis de gerenciamento de consentimento por meio de uma nova configuração de Privacidade disponível no Admin Console do Analytics.
+Você pode ativar as Variáveis de relatórios de privacidade por meio de uma nova configuração de Privacidade disponível no Admin Console do Analytics.
 
 Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
 ## Implementação
 
-Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de consentimento.  Cabe a cada engenheiro de implementação determinar como gerenciar e persistir na configuração dessas variáveis.
+Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de relatórios de privacidade.  Cabe a cada engenheiro de implementação determinar como gerenciar e persistir na configuração dessas variáveis.
 
 Consulte Variáveis [de dados de](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) contexto para obter orientação geral sobre como implementar variáveis de dados de contexto.
 
