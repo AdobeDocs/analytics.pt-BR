@@ -1,20 +1,20 @@
 ---
-description: Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
-seo-description: Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
+description: Etapas para iniciar o rastreamento de links no [!DNL Activity Map] ou ClickMap herdado.
+seo-description: Etapas para iniciar o rastreamento de links no [!DNL Activity Map] ou ClickMap herdado.
 seo-title: Iniciar o rastreamento de links
 solution: Analytics
 title: Iniciar o rastreamento de links
 topic: Activity Map
-uuid: 425 cb 287-f 76 e -4430-802 f -288499711 ba 9
+uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Iniciar o rastreamento de links
 
-Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
+Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,20 +25,25 @@ Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
+   <td colname="col1"> [!DNL Activity Map] </td> 
    <td colname="col2"> Adicionar o conteúdo a seguir do arquivo Appmeasurement.js: 
-    <code>/* START Activity Map MODULE O seguinte módulo habilita o rastreamento do Activity Map no Adobe Analytics.O Activity Map permite exibir sobreposições de dados em links e conteúdos para compreender como os usuários interagem com seu site.Se não pretende usar o Activity Map, você pode remover o seguinte bloco de código do arquivo appmeasurement. js.
-  Additional documentation on how to configure Activity Map is available at:
-      https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+    <code>
+     /*
+     &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
+     &nbsp;allows&nbsp;you&nbsp;to&nbsp;view&nbsp;data&nbsp;overlays&nbsp;on&nbsp;your&nbsp;links&nbsp;and&nbsp;content&nbsp;to&nbsp;understand&nbsp;how
+     &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
+     &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
+     &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
+     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
      */
-     function AppMeasurement_Module_Activity Map(g){func
+     function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
-     /* END Activity Map MODULE */
+     /*&nbsp;END&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;*/
     </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente conhecido como ClickMap do visitante) </td> 
-   <td colname="col2"> <p>Defina a variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> para verdadeiro. The syntax reads as follows: 
+   <td colname="col2"> <p>Defina a variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> para verdadeiro. A leitura da sintaxe é realizada da seguinte maneira: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
