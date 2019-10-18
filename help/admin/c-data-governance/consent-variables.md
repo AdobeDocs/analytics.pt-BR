@@ -6,7 +6,7 @@ solution: Analytics
 title: Variáveis de relatórios de privacidade
 topic: Ferramentas administrativas
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Consulte Variáveis [de dados de](https://docs.adobe.com/help/en/analytics/imple
 
 ### SSF
 
-* Dados de contexto: contextData.['cm.ssf']
+* Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
    * 1 - Ao enviar o valor "1", isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor "1" emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte Conformidade com [privacidade eletrônica do AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * Nenhum outro valor é aceito para este parâmetro.
 
 ### DMP
 
-* Dados de contexto: contextData.['opt.dmp']
+* Dados de contexto: `contextData.['opt.dmp']`
 * Valores aceitos:
    * N - Ao enviar o valor "N", isso indica que o consumidor está optando por não compartilhar nas plataformas de gerenciamento de dados. **** Observação: No momento, a configuração dessa variável como "N" não bloqueia o compartilhamento com o AAM; no entanto, o bloqueio de chamadas para a funcionalidade do AAM será adicionado no início de 2020. Por enquanto, a Adobe recomenda configurar `c.cm.ssf=1` e `c.opt.dmp=N` bloquear o envio de ocorrências para o AAM.
    * Y - Ao enviar o valor "Y", isso indica que o consumidor está optando por compartilhar com plataformas de gerenciamento de dados.
 
 ### VENDER
 
-* Dados de contexto: contextData.['opt.sell']
+* Dados de contexto: `contextData.['opt.sell']`
 * Valores aceitos:
    * N - Ao enviar o valor "N", isto indica que o consumidor está a optar por não partilhar ou vender os dados a terceiros.
    * Y - Ao enviar o valor "Y", isso indica que o consumidor está optando por compartilhar ou vender os dados para terceiros.
