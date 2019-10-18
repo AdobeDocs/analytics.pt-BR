@@ -1,26 +1,26 @@
 ---
-description: No modo Padrão, exporte os dados do Analytics do Activity Map para um arquivo com valores separados por vírgula (CSV).
-seo-description: No modo Padrão, exporte os dados do Analytics do Mapa de atividade para um arquivo com valores separados por vírgula (CSV).
-seo-title: Exportar para um arquivo CSV
+description: No modo Padrão, exporte os dados do Analytics de [!DNL Activity Map] para um arquivo CSV (Comma Separated Values).
+seo-description: No modo Padrão, exporte os dados do Analytics de [!DNL Activity Map] para um arquivo CSV (Comma Separated Values).
+seo-title: Exportar para arquivo CSV
 solution: Analytics
-title: Exportar para um arquivo CSV
+title: Exportar para arquivo CSV
 topic: Activity Map
-uuid: dc 6 c 50 c 0-57 f 7-45 b 8-a 4 cb -2092 a 21 da 529
+uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Exportar para um arquivo CSV
+# Exportar para arquivo CSV
 
-No modo Padrão, exporte os dados do Analytics do Activity Map para um arquivo com valores separados por vírgula (CSV).
+In Standard Mode, export Analytics data from [!DNL Activity Map] to a Comma Separated Values (CSV) file.
 
-Como usuário, talvez seja necessário mesclar os dados de cliques em links com outras fontes de dados ou executar outra análise (por exemplo, no Excel). A exportação de CSV permite obter todos os dados do Activity Map de uma determinada página em um formato fácil de usar. Ela permite salvar os dados analíticos gerados de uma página para um arquivo CSV simples, o que permite exportar os dados de Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. Você pode, então, exibi-los como uma planilha ou um arquivo de texto, ou importar os dados para outro sistema.
+Como usuário, talvez seja necessário mesclar os dados de cliques em links com outras fontes de dados ou executar outra análise (por exemplo, no Excel). CSV export allows you to obtain all of your [!DNL Activity Map] data for a given page in an easy-to-consume format. Ele permite que você salve os dados analíticos gerados para uma página em um arquivo CSV simples, permitindo exportar os dados de Relatório de página, Relatório [de fluxo de](/help/analyze/activity-map/activitymap-page-flow.md)página) e [Links na página](/help/analyze/activity-map/activitymap-links-report.md) . Você pode, então, exibi-los como uma planilha ou um arquivo de texto, ou importar os dados para outro sistema.
 
-Clique no ícone Exportar na barra de ferramentas do Activity Map.
+Click the Export icon on the [!DNL Activity Map] toolbar.
 
-O Activity Map gera o nome do arquivo com base no nome da página do Adobe Analytics e acrescenta uma data e um carimbo de data e hora a ele: Pagename_DateTime.csv. Esse arquivo será salvo no diretório padrão de Download do navegador correspondente.
+[!DNL Activity Map]O gera o nome do arquivo com base no nome da página do Adobe Analytics e acrescenta uma data e um carimbo de data e hora a ele: Pagename_DateTime.csv. Esse arquivo será salvo no diretório padrão de Download do navegador correspondente.
 
 | Exportar informações | Descrição |
 |---|---|
