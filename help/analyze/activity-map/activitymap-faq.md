@@ -1,30 +1,30 @@
 ---
-description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
-seo-description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Mapa de atividade.
-seo-title: Perguntas frequentes sobre o Mapa de atividade
+description: Perguntas frequentes sobre a configuração, configuração e utilização de recursos no [!DNL Activity Map].
+seo-description: Perguntas frequentes sobre a configuração, configuração e utilização de recursos no [!DNL Activity Map].
+seo-title: Perguntas frequentes sobre o [!DNL Activity Map]
 solution: Analytics
-title: Perguntas frequentes sobre o Activity Map
+title: Perguntas frequentes sobre o [!DNL Activity Map]
 topic: Activity Map
-uuid: e 4 f 6 d 4 e 2-55 d 1-4 e 32-bf 70-a 334178 af 370
+uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 8f72f8cf086be0eade5616b074123a9f22e33347
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Perguntas frequentes sobre o Activity Map
+# [!DNL Activity Map] Perguntas frequentes
 
-Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
+Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no [!DNL Activity Map].
 
 ## Implementação e AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
-**P: Quais são as etapas de implementação para habilitar o novo Activity Map?**
+**P: Quais são as etapas de implementação para habilitar o novo[!DNL Activity Map]?**
 
-A: Please review [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+A: Revise [Ativar [!DNL Activity Map]](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **P: Todos os clientes do Analytics têm acesso à página de Ativação das Ferramentas administrativas no Activity Map?**
 
-R: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação do Admin Console no Activity Map. Apenas as empresas com contratos do Adobe Analytics Standard e Adobe Analytics Premium têm acesso a essa página de configuração.
+A: Adobe SiteCatalyst customers do not have access to the Admin Console’s [!DNL Activity Map] Enablement page. Apenas as empresas com contratos do Adobe Analytics Standard e Adobe Analytics Premium têm acesso a essa página de configuração.
 
 **P: O novo código AppMeasurement pode ser configurado por meio do Dynamic Tag Management (DTM)?**
 
@@ -32,29 +32,29 @@ R: Sim, é possível [implementar manualmente](https://marketing.adobe.com/resou
 
 **P: Quais são as grandes mudanças na biblioteca do AppMeasurement v1.6?**
 
-R: A única alteração no AppMeasurement v1.6 está na metodologia do processo de rastreamento de links no Activity Map, que exige a coleta de Nome da página, ID do link e ID da região.
+A: The only change in AppMeasurement v1.6 is in the [!DNL Activity Map] link tracking process methodology that requires the collection of Page name, Link ID and RegionID.
 
 **P: O AppMeasurement será implementado no nível de domínio, em vez de em páginas específicas?**
 
 R: O AppMeasurement é implementado no nível de conjunto de relatórios. O nível de conjunto de relatórios é normalmente associado a um nível de domínio, mas isso difere com cada implementação.
 
-**P: O DTM carrega automaticamente uma versão mais antiga (1.3.4) da API do visitante, em vez da versão desejada pelo Activity Map (1.5.1). Isso é um problema?**
+**[!DNL Activity Map]P: O DTM carrega automaticamente uma versão mais antiga (1.3.4) da API do visitante, em vez da versão desejada pelo  (1.5.1). Isso é um problema?**
 
-R: Não. A funcionalidade do Activity Map não depende da API do visitante.
+R: Não. [!DNL Activity Map] não depende da VisitorAPI.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## [!DNL Activity Map] aplicação {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
-**P: Posso usar o Activity Map se não tiver usado anteriormente o ClickMap do visitante no meu site?**
+**[!DNL Activity Map]P: Posso usar o se não tiver usado anteriormente o ClickMap do visitante no meu site?**
 
 R: Ter a versão herdada, agora chamada simplesmente de ClickMap, instalada não é um pré-requisito para a implementação da nova versão. A Adobe vai continuar a oferecer suporte para a versão herdada por um período limitado.
 
-**P: Quais navegadores e versões são compatíveis com o Activity Map?**
+**P: Quais navegadores e versões são compatíveis com o[!DNL Activity Map]?**
 
 P: Oferecemos suporte somente para a versão mais recente dos quatro navegadores principais (Chrome, Firefox, Safari e IE).
 
 **P: Quais são as Configurações de sobreposição padrão?**
 
-R: Por padrão, o Activity Map mostra TODOS os links com dados coletados.
+A: By default, [!DNL Activity Map] shows ALL links that have collected data.
 
 Quando os painéis pop-up são mostrados na parte superior das páginas da Web do cliente, as sobreposições pertencentes aos links, localizados abaixo desse painel, também podem ser exibidas na parte superior.
 
@@ -67,37 +67,37 @@ R: Alguns links classificados podem estar ocultos na página (links de submenu, 
 * No modo **Gradiente** e em **Bolha**: a classificação é determinada pela coluna de métricas.  Para os links com o mesmo valor métrico, a classificação é ainda baseada na ordem alfabética da ID do link.
 * No modo **Ganhador e perdedor**, a classificação é determinada principalmente pela coluna de porcentagem de Ganho. Para os links com o mesmo Ganho, a classificação é ainda baseada na ordem alfabética da ID do link.
 
-**P: Por que os dados de cliques em links não são coletados quando o Activity Map está em execução?**
+**[!DNL Activity Map]P: Por que os dados de cliques em links não são coletados quando o está em execução?**
 
-R: Enquanto o Activity Map estiver em uso, os dados do cliques em links não são coletados pela tag do Analytics. Esse comportamento segue o comportamento do plug-in ClickMap.
+A: While [!DNL Activity Map] is in use, link click data is not collected by the Analytics tag. Esse comportamento segue o comportamento do plug-in ClickMap.
 
 **P: Por que o menu suspenso de métrica lista as mesmas métricas várias vezes?**
 
-R: O Activity Map lista as métricas para todos os conjuntos de relatórios.  Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
+A: [!DNL Activity Map] lists metrics for all report suites. Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
 
 A lista suspensa de Métricas permite que você limite a lista de métricas calculadas para as métricas atribuídas ao conjunto de relatórios da página visitada.
 
-**P: Como o Relatório de todos os links pode ser comparado aos Reports &amp; Analytics do Activity Map?**
+**P: Como o Relatório de todos os links[!DNL Activity Map]se compara aos relatórios do Relatórios e análises[!DNL Activity Map]?**
 
-A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = “visitedpage”, broken down by Activity Map Link&amp;Region in `<list of link&regions present in the page at rendering time>`.
+A: Para obter o Relatório de todos os links, [!DNL Activity Map]criamos uma solicitação de detalhamento da seguinte maneira: [!DNL Activity Map] Página = "visitedpage", detalhada por [!DNL Activity Map] Link&amp;Region em `<list of link&regions present in the page at rendering time>`.
 
-Para obter um relatório equivalente em Reports &amp; Analytics, você precisa primeiro navegar até o relatório de página do Activity Map. Lá, é possível filtrar pelo nome da página visitada no Activity Map. O nome da página visitada é mostrado na coluna esquerda do painel inferior Detalhes da página, no Activity Map. Após encontrar a página, é possível separar-se dessa página e escolher Links e regiões do Activity Map como uma dimensão secundária.
+To get an equivalent report in Reports &amp; Analytics, you would need to first navigate to the [!DNL Activity Map] Page report. Lá, é possível filtrar pelo nome da página visitada no [!DNL Activity Map]. The visited Pagename is shown in the left column in the [!DNL Activity Map] Page Details Bottom Panel. Once the page has been found, you can break down from that page and choose [!DNL Activity Map] Links &amp; Regions as a secondary dimension.
 
-No entanto, é importante observar que o relatório obtido em Relatórios e análises vai listar todos os links e regiões que foram coletados nessa página. Porém, o Activity Map apenas informa aos Links e regiões que estão presentes na página da Web. Por isso, se você tiver um site de notícias, ele só mostrará os dados da notícia presentes neste momento, e não as notícias que estavam presentes no início do dia.
+No entanto, é importante observar que o relatório obtido em Relatórios e análises vai listar todos os links e regiões que foram coletados nessa página. But [!DNL Activity Map] only reports on Links&amp;Regions that are currently present in the webpage. Por isso, se você tiver um site de notícias, ele só mostrará os dados da notícia presentes neste momento, e não as notícias que estavam presentes no início do dia.
 
-**P: Como o Activity Map funciona com as páginas que contêm várias tags, listando vários conjuntos de relatórios?**
+**[!DNL Activity Map]P: Como o funciona com as páginas que contêm várias tags, listando vários conjuntos de relatórios?**
 
-R: Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag enviada pela página.
+A: By default, [!DNL Activity Map] uses the report suite that is associated with the first tag that is sent by the page.
 
-É possível selecionar um conjunto de relatórios com tags diferentes na guia Configurações do Activity Map &gt; Outros.
+É possível selecionar um conjunto de relatórios com tags diferentes na guia [!DNL Activity Map]Configurações do  &gt;  &gt; Outros.
 
-**P: Por quanto tempo o Activity Map verifica a tag do Analytics?**
+**[!DNL Activity Map]P: Por quanto tempo o verifica a tag do Analytics?**
 
 R: Verificamos a tag do Analytics em até 20 segundos após a conclusão de um evento na página.
 
-**P: Como o Activity Map lida com o conteúdo dinâmico?**
+**P: Como[!DNL Activity Map]lidar com conteúdo dinâmico?**
 
-O Activity Map verifica se ocorreram alterações no estado da página da Web a cada 2 segundos, como:
+A: [!DNL Activity Map] checks every 2 seconds to see if it has found changes in the state of the web page such as:
 
 * Conteúdo HTML que se tornou visível
 * Conteúdo HTML que está oculto
@@ -111,7 +111,7 @@ Se o novo conteúdo for inserido, o aplicativo vai recuperar os links associados
 
 R: Todos os dados mostrados são baseados nas exibições de página. 
 
-**P: É possível explicar o comportamento do Activity Map com vários tipos de páginas?**
+**[!DNL Activity Map]P: É possível explicar o comportamento do com vários tipos de páginas?**
 
 *Página da Web sem a tag do Analytics*
 
@@ -119,28 +119,28 @@ Uma mensagem de aviso é mostrada abaixo da barra de ferramentas, indicando que 
 
 *Página da Web com a tag do Analytics incompatível (AppMeasurement v1.5 ou anterior)*
 
-Uma mensagem de aviso é mostrada indicando que você precisa (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable. md) atualizar o código da página para v 1.6.
+Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) atualizar o código da página para v1.6.
 
-*Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do Activity Map não foi ativado nas Ferramentas administrativas*
+*[!DNL Activity Map]Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do não foi ativado nas Ferramentas administrativas*
 
-Uma mensagem de aviso é mostrada, indicando que você precisa perguntar ao administrador\ [Ativar o relatório do Activity Map\] (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable. md ").
+Uma mensagem de aviso é exibida, indicando que você precisa solicitar ao administrador que \[Habilite o [!DNL Activity Map] relatório\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
 
-**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
+**P: É possível exportar[!DNL Activity Map]dados (contextData) por meio do Feed[de dados do](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)Analytics?**
 
 R: Não.
 
-## Segmentação no Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentação em [!DNL Activity Map]{#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
-**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Ou são segmentos de nível de administrador compartilhados, disponíveis no Activity Map?**
+**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Or are shared Admin-level segments available in[!DNL Activity Map]?**
 
-A: O Activity Map herda seus segmentos de nível de administrador (segmentos de relatórios) do Analytics.
+A: [!DNL Activity Map] inherits your Admin-level segments (reporting segments) from Analytics.
 
 **P: Os segmentos funcionam no modo Online?**
 
 R: Não, os segmentos não funcionam no modo Online. A funcionalidade é equivalente ao dos relatórios em tempo real nos Reports &amp; Analytics.
 
-## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Conjuntos de relatórios virtuais {#section_BDB0CA9E732F478EAC349A79753A78DB}
 
-**P: O Activity Map é compatível com os conjuntos de relatórios virtuais?**
+**P: É[!DNL Activity Map]compatível com conjuntos de relatórios virtuais?**
 
-R: Sim. No entanto, devido às limitações do conjunto de relatórios virtuais, não há compatibilidade com o modo Online do Activity Map.
+R: Sim. However, due to virtual report suite limitations, [!DNL Activity Map]'s Live Mode is not compatible with virtual report suites.
