@@ -5,9 +5,9 @@ seo-title: Relatório de links
 solution: Analytics
 title: Relatório de links
 topic: Activity Map
-uuid: 1 e 7 ca 5 d 8-d 144-4 a 21-a 2 f 9-e 05 bd 3232 c 59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 O Relatório de links informa sobre os links que foram encontrados na página atual. Ele não informa sobre todos os links que foram coletados para essa página.
 
-O Relatório de links na página oferece uma exibição tabular dos links. Às vezes, você pode querer ver os cliques em links (ou outras métricas) classificados em uma única exibição. Isso permite comparar melhor um link com outro. Crie o Relatório de links na página, incluindo uma lista de classificação de todos os links (pela ID do link), as informações de cliques (número e porcentagem) e a região da página. Clique no Relatório de links na página, na barra de ferramentas do Activity Map.
+O Relatório de links na página oferece uma exibição tabular dos links. Às vezes, você pode querer ver os cliques em links (ou outras métricas) classificados em uma única exibição. Isso permite comparar melhor um link com outro. Crie o Relatório de links na página, incluindo uma lista de classificação de todos os links (pela ID do link), as informações de cliques (número e porcentagem) e a região da página. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-No painel Activity Map, o **[!UICONTROL Relatório de links na página]é aberto abaixo da estrutura do navegador.**
+No painel , o **[!UICONTROL Relatório de links na página]é aberto abaixo da estrutura do navegador.**[!DNL Activity Map]
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ No modo Padrão, o “Relatório de links na página” mostra os dados do link,
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">A ID primária do link (para obter mais informações sobre como a ID primária é definida pela [Nova metodologia de rastreamento de links] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-process. md) </td> 
+   <td colname="col2">A ID primária do link (para obter mais informações sobre como a ID primária é definida pela [Nova metodologia de rastreamento de links] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliques </td> 
@@ -63,11 +63,11 @@ No modo Padrão, o “Relatório de links na página” mostra os dados do link,
 
 **Filtragem de dados**
 
-Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados].** Apenas os links que correspondem à pesquisa terão sobreposições. Sem um filtro, as sobreposições especificadas nas [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) serão exibidas.
+Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados].** Apenas os links que correspondem à pesquisa terão sobreposições. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-No modo Online, o relatório de Links na página mostra os dados de tendência que abrangem vários minutos.
+No modo Online, o Relatório de links na página mostra dados de tendência que abrangem vários minutos.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ No modo Online, o relatório de Links na página mostra os dados de tendência q
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Ink [Link Rastreamento de link] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)-tracking-tracking-process. md). </td> 
+   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova [Metodologia de rastreamento de link] (/help/analyze/activity-map/ativitymap-link-tracking/ativitymap-)ink-tracking-method.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliques em links </td> 
