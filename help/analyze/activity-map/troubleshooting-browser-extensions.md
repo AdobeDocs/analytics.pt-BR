@@ -1,20 +1,20 @@
 ---
-description: Lista os parâmetros do navegador que não são compatíveis com a utilização do Activity Map. Você deve desativar essas configurações.
-seo-description: Lista os parâmetros do navegador que não são compatíveis com a utilização do Activity Map. Você deve desativar essas configurações.
-seo-title: Solução de problemas das extensões do navegador
+description: Lista os parâmetros do navegador que não são compatíveis com o uso do [!DNL Activity Map]. Você deve desativar essas configurações.
+seo-description: Lista os parâmetros do navegador que não são compatíveis com o uso do [!DNL Activity Map]. Você deve desativar essas configurações.
+seo-title: Solução de problemas nas extensões do navegador
 solution: Analytics
-title: Solução de problemas das extensões do navegador
+title: Solução de problemas nas extensões do navegador
 topic: Activity Map
-uuid: ae 7 acb 98-4728-45 af -8 cb 4-62 a 1 e 9622543
+uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Solucionar problemas de extensões do navegador
+# Solução de problemas de extensões de navegador
 
-Mostra os parâmetros do navegador que não são compatíveis com o uso do Activity Map. Você deve desativar essas configurações.
+Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. Você deve desativar essas configurações.
 
 ## Google Chrome
 
