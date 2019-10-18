@@ -5,9 +5,9 @@ seo-title: Sobreposições personalizáveis
 solution: Analytics
 title: Sobreposições personalizáveis
 topic: Activity Map
-uuid: c 1 e 56480-c 1 df -4 a 81-8 a 2 a -42 ea 1362175 c
+uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 As sobreposições fornecem várias formas de configurar a visualização de dados, para que seja possível ver e compreender com facilidade a popularidade dos links em uma página.
 
-As sobreposições permitem visualizar os dados de cliques diretamente na página. Isso é o que separa uma ferramenta de análise visual, como o Activity Map, das principais ferramentas gráficas e tabulares, como os Reports &amp; Analytics.
+As sobreposições permitem visualizar os dados de cliques diretamente na página. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
 
-O Activity Map oferece três tipos de sobreposições:
+[!DNL Activity Map] oferece três tipos de sobreposições:
 
 * Sobreposição de gradiente (mapa de dados)
 * Sobreposição em bolha
@@ -46,19 +46,19 @@ Essas métricas são sobrepostas sobre os links da página como um tipo de "mapa
 
 A sobreposição em bolha mostra o conteúdo da sobreposição (métrica, porcentagem, ou classificação) em um pequeno texto explicativo no formato de bolha.
 
-Sobreposições de bolha são mostradas quando você seleciona essa sobreposição no Tipo de sobreposição na barra de ferramentas. As sobreposições em bolha são exibidas para todos os links que correspondem à seleção em [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 melhores, 50 melhores, todos...). As sobreposições de gradiente serão exibidas se essa opção não estiver selecionada.
+Sobreposições de bolha são mostradas quando você seleciona essa sobreposição no Tipo de sobreposição na barra de ferramentas. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). As sobreposições de gradiente serão exibidas se essa opção não estiver selecionada.
 
 ![](assets/bubble_overlay.png)
 
 >[!NOTE]
 >
->Sobreposições de bolha para submenus são exibidas apenas quando você exibe o submenu:
+>As sobreposições de bolha para submenus são exibidas somente quando você exibe o submenu:
 >
 >![](assets/bubbles_submenu.png)&gt;
 
 ## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Sobreposições de ganhadores e perdedores]** estão disponíveis somente no modo Online. Elas informam as alterações em tempo real na atividade do link, ao comparar as métricas do período atual com as do último período. Elas disponibilizam uma forma visualmente atraente para exibir as tendências em tempo real.
+**[!UICONTROL Sobreposições]** de ganhadores e perdedores estão disponíveis somente no modo Online. Elas informam as alterações em tempo real na atividade do link, ao comparar as métricas do período atual com as do último período. Elas disponibilizam uma forma visualmente atraente para exibir as tendências em tempo real.
 
 Essa sobreposição em tempo real classifica os cliques com base nas alterações do valor métrico entre os períodos anteriores e atuais.
 
