@@ -1,25 +1,25 @@
 ---
-description: Acesse os recursos adicionais de informação do Activity Map da Adobe.
-seo-description: Acesse os recursos adicionais de informação do Activity Map da Adobe.
+description: Acesse recursos adicionais de informações para o Adobe [!DNL Activity Map].
+seo-description: Acesse recursos adicionais de informações para o Adobe [!DNL Activity Map].
 seo-title: Recursos de conhecimento
 solution: Analytics
 title: Recursos de conhecimento
 topic: Activity Map
-uuid: 7 ac 780 f 6-b 37 f -4 c 96-93 c 0-67988798 e 318
+uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Recursos de conhecimento
 
-Acesse os recursos adicionais de informação do Activity Map da Adobe.
+Access additional information resources for Adobe [!DNL Activity Map].
 
 | Recurso de conhecimento | Detalhes |
 |---|---|
 | [Ajuda da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html) | Portal de conhecimento para toda a documentação da Adobe Experience Cloud |
-| Documentação do Activity Map  | (This) Online help for Adobe [!DNL Activity Map] |
+| [!DNL Activity Map] documentação | (This) Online help for Adobe [!DNL [!DNL Activity Map]] |
 | [Documentação do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/) | Ajuda online para o Adobe Analytics |
 | [Base de dados de conhecimento](https://helpx.adobe.com/support/analytics.html) | Base de dados de conhecimento do ClientCare |
 | [Fóruns](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) | Fóruns de usuários e Comunidade do ClientCare |
