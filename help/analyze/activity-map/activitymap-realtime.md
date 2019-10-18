@@ -1,22 +1,22 @@
 ---
 description: A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
 seo-description: A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
-seo-title: Análise de página em tempo real (Live)
+seo-title: Análise de página em tempo real (Online)
 solution: Analytics
-title: Análise de página em tempo real (Live)
+title: Análise de página em tempo real (Online)
 topic: Activity Map
-uuid: a 3 faa 9 bd -73 d 8-48 b 3-be 2 b-f 818 ed 7456 fb
+uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Análise de página em tempo real (Live)
+# Análise de página em tempo real (Online)
 
 A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
 
-O Activity Map agora exibe dados analíticos em incrementos de 1 a 15 minutos para monitorar a popularidade do link com base nas microtendências das páginas selecionadas. Isso é muito importante para a publicação de empresas, para rastrear e responder ao aumento ou diminuição do interesse em histórias e para monitorar o fluxo de tráfego em tempo real.
+[!DNL Activity Map]O agora exibe dados analíticos em incrementos de 1 a 15 minutos para monitorar a popularidade do link com base nas microtendências das páginas selecionadas. Isso é muito importante para a publicação de empresas, para rastrear e responder ao aumento ou diminuição do interesse em histórias e para monitorar o fluxo de tráfego em tempo real.
 
 Como proprietário de conteúdo em um site, parte de seu trabalho é compreender quando promover e remover o conteúdo e manter a experiência constantemente relevante. Os dados em tempo real são fundamentais para essa responsabilidade. Se você compreender quais as tendências dos links e conteúdo, é possível agir rapidamente e decisivamente para manter os leitores e clientes envolvidos com a sua marca.
 
