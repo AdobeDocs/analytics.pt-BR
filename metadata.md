@@ -7,18 +7,18 @@ solution-image: assets/analytics-icon-24.png
 getting-started-title: Introdução
 getting-started-url: https://helpx.adobe.com/br/analytics/get-started.html
 tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/br/analytics/kt/index/analytics-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: dac6b19bef475d9e61142babc893a4c9e9ffc37a
+source-git-commit: e483f984cbd80ada0713c0e30a60f22280665d36
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição transmitidos para os arquivos TOC. md do guia do usuário na reposição. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
 | metadata | o que faz |
 |--- |--- |
