@@ -1,12 +1,12 @@
 ---
 description: Você pode criar segmentos a partir de um ponto de contato, adicionar segmentos como ponto de contato e comparar fluxos de trabalho principais em vários segmentos na Analysis Workspace.
-keywords: fallout e segmentação; segmentos na análise de fallout; comparar segmentos no fallout
+keywords: fallout e segmentação;segmentos na análise de fallout;comparar segmentos no fallout
 seo-description: Você pode criar segmentos a partir de um ponto de contato, adicionar segmentos como ponto de contato e comparar fluxos de trabalho principais em vários segmentos na Analysis Workspace.
 seo-title: Aplicar segmentos na análise de fallout
 title: Aplicar segmentos na análise de fallout
-uuid: e 87 a 33 df -160 e -4943-8 d 02-4 d 6609 ae 3 bb 1
+uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
@@ -15,17 +15,15 @@ source-git-commit: 769d076549484c6939157ef217225493ddbe130e
 
 Você pode criar segmentos a partir de um ponto de contato, adicionar segmentos como ponto de contato e comparar fluxos de trabalho principais em vários segmentos na Analysis Workspace.
 
->[!IMPORTANT]
->Os segmentos usados como pontos de verificação no Fallout devem usar um contêiner em um nível inferior do contexto geral da visualização de Fallout. Com um Fallout de contexto de visitante, os segmentos usados como pontos de verificação devem ser segmentos baseados em visitas ou em ocorrências. Com um Fallout de contexto de visita, os segmentos usados como ponto de verificação devem ser segmentos baseados em ocorrências. Se você usar uma combinação inválida, o fallout será 100%. Adicionamos um aviso à visualização de Fallout que será exibida quando você adicionar um segmento incompatível como um ponto de contato. Algumas combinações de contêiner de segmento inválidas resultarão em diagramas de fallout inválidos, como
+> [!IMPORTANT] Os segmentos usados como pontos de verificação no Fallout devem usar um contêiner que esteja em um nível inferior ao contexto geral da visualização do Fallout. Com um Fallout de contexto de visitante, os segmentos usados como pontos de verificação devem ser segmentos baseados em visita ou ocorrência. Com um Fallout de contexto de visita, os segmentos usados como ponto de verificação devem ser segmentos baseados em ocorrências. Se você usar uma combinação inválida, o fallout será de 100%. Adicionamos um aviso à visualização de Fallout que será exibida quando você adicionar um segmento incompatível como ponto de contato. Determinadas combinações inválidas de contêineres de segmento resultarão em diagramas de Fallout inválidos, como:
 
->* Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto do visitante
->* Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas
->* Usar um segmento com base em visita como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas
-
+* Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto do visitante
+* Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas
+* Usar um segmento com base em visita como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Primeiro, crie um segmento a partir de um ponto de contato específico no qual esteja interessado e que possa ser útil para aplicar a outros relatórios. Você faz isso clicando com o botão direito do mouse no ponto de contato e selecionando **[!UICONTROL Criar segmentos a partir do ponto de contato]**.
+1. Crie um segmento a partir de um ponto de contato específico em que você esteja especialmente interessado e que possa ser útil para aplicar a outros relatórios. Você faz isso clicando com o botão direito do mouse no ponto de contato e selecionando **[!UICONTROL Criar segmentos a partir do ponto de contato]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ Ou, você pode criar um ponto de contato AND, arrastando o segmento de usuários
    ![](assets/seg-compare.png)
 
 1. Agora você pode comparar o fallout nos dois segmentos, como onde um segmento supera outro, ou outros insights.
-
