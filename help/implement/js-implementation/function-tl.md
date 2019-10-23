@@ -9,14 +9,14 @@ title: A função s.tl() - Rastreamento de link
 topic: Desenvolvedor e implementação
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # A função s.tl() - Rastreamento de link
 
-Se sua organização preferir ter mais controle sobre os links para rastrear e seu comportamento, o rastreamento manual de links é recomendado. Use a função s.tl() para enviar manualmente solicitações de imagem de rastreamento de link com o conteúdo exato desejado. Se o rastreamento de link básico for tudo o que for necessário, consulte `s.trackDownloadLinks` e `s.trackExitLinks` em Variáveis [](c-variables/configuration-variables.md)de configuração. Links personalizados não podem ser rastreados automaticamente.
+Se sua organização preferir ter mais controle sobre os links para rastrear e seu comportamento, o rastreamento manual de links é recomendado. Use a função s.tl() para enviar manualmente solicitações de imagem de rastreamento de link com o conteúdo exato desejado. Se o rastreamento de link básico for tudo o que for necessário, consulte `s.trackDownloadLinks` e `s.trackExternalLinks` em Variáveis [](c-variables/configuration-variables.md)de configuração. Links personalizados não podem ser rastreados automaticamente.
 
 > [!NOTE] O código de rastreamento de link geralmente é muito específico para suas necessidades de site e relatórios. A Adobe recomenda experiência de implementação prévia ou um consultor de implementação para entender como usar esse recurso com base nas suas necessidades comerciais.
 
