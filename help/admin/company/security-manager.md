@@ -5,9 +5,9 @@ seo-title: Gerenciador de segurança
 solution: Analytics
 title: Gerenciador de segurança
 topic: Ferramentas administrativas
-uuid: b 3 fbdba 0-e 2 bf -4 d 67-92 e 3-ef 05711141 d 4
+uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Permite que você controle o acesso aos dados de relatório. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Segurança]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa &gt; **[!UICONTROL Segurança]**
 
 <table id="table_F1AD9DE5094A4FC2B9DA8D01198F944B"> 
  <thead> 
@@ -44,23 +44,23 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de logon de IP</span> </td> 
-   <td colname="col2"> <p>Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo,
-      <code>
-        192.168.10.[20-240]
-      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-      <code>
-        192.168.[10-14].*
-      </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Log de uso e acesso</a>. </p> </td> 
+   <td colname="col2"> <p>(Observe que essa funcionalidade não estará mais disponível em janeiro de 2020.) Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
+     <code>
+       192.168.10.[20-240]
+     </code>). Também é possível usar curingas (*) para especificar qualquer número de 0 a 255 (por exemplo, 
+     <code>
+       192.168.[10-14].*
+     </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Log de uso e acesso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de domínio de email</span> </td> 
-   <td colname="col2"> <p>Filtra os domínios e endereços de email em que o Analytics envia marcadores, relatórios para download e alertas. </p> <p>A lista de filtro de email oferece suporte a até 100 entradas e cada entrada pode ser um endereço de email ou todo um domínio de email. </p> <p>Se um relatório programado tiver um destino de email não aprovado, o Analytics envia uma notificação por email sobre o problema e um link para desprogramar o relatório. </p> <p> <span class="wintitle"> Impor restrições de domínio de email</span> não é empregado até que exista pelo menos uma entrada na lista de <span class="wintitle">Filtro de domínio de email aceito</span>. </p> <p> <span class="uicontrol"> Domínios e endereços de email aceitos</span>: Para especificar um intervalo de endereços IP, coloque o intervalo entre parênteses (por exemplo,
-    <code>
-      192.168.10.[20-240]
-    </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-    <code>
-      192.168.[10-14].*
-    </code>) </p> </td> 
+   <td colname="col2"> <p>Filtra os domínios e endereços de email em que o Analytics envia marcadores, relatórios para download e alertas. </p> <p>A lista de filtro de email oferece suporte a até 100 entradas e cada entrada pode ser um endereço de email ou todo um domínio de email. </p> <p>Se um relatório programado tiver um destino de email não aprovado, o Analytics envia uma notificação por email sobre o problema e um link para desprogramar o relatório. </p> <p> <span class="wintitle"> Impor restrições de domínio de email</span> não é empregado até que exista pelo menos uma entrada na lista de <span class="wintitle">Filtro de domínio de email aceito</span>. </p> <p> <span class="uicontrol"> Domínios e endereços de email aceitos</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
+     <code>
+       192.168.10.[20-240]
+     </code>). Também é possível usar curingas (*) para especificar qualquer número de 0 a 255 (por exemplo, 
+     <code>
+       192.168.[10-14].*
+     </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Notificação de recuperação de senha</span> </td> 
