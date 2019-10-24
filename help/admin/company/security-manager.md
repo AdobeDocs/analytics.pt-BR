@@ -7,7 +7,7 @@ title: Gerenciador de segurança
 topic: Ferramentas administrativas
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de logon de IP</span> </td> 
-   <td colname="col2"> <p>(Observe que essa funcionalidade não estará mais disponível em janeiro de 2020.) Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
+   <td colname="col2"> <p>(Essa funcionalidade não pode ser usada juntamente com o logon da Experience Cloud. Observe que essa funcionalidade não estará mais disponível a partir de janeiro de 2020.) Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
      <code>
        192.168.10.[20-240]
      </code>). Também é possível usar curingas (*) para especificar qualquer número de 0 a 255 (por exemplo, 
