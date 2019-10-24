@@ -7,7 +7,7 @@ title: Referência rápida das métricas
 topic: Métricas
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -18,11 +18,11 @@ Relaciona as métricas padrão no Adobe Analytics.
 
 >[!NOTE]
 >
->Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (custom event).
+>Qualquer métrica (evento) não listada abaixo é uma métrica [](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) personalizada (evento personalizado).
 
 >[!IMPORTANT]
 >
->Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Hence, the metric type is only relevant to tolls such as Reports &amp; Analytics, Web Services 1.4, and Report Builder.)
+>A Analysis Workspace não diferencia mais as métricas de Tráfego e Conversão. Portanto, o tipo de métrica é relevante somente para ferramentas como Relatórios e análises, Serviços da Web 1.4 e Construtor de relatórios.)
 
 | Nome da métrica | Descrição | Tipo |
 |--- |--- |---|
@@ -46,7 +46,7 @@ Relaciona as métricas padrão no Adobe Analytics.
 | Instâncias | O número de vezes que um valor foi definido para uma variável. As instâncias são contabilizadas por todos os tipos de ocorrência, mas não são contabilizadas quando um valor é gravado para uma variável ou uma ocorrência subsequente por motivos de persistência. | Conversão |
 | Exibições para dispositivos móveis | O número de vezes que uma página é visualizada ou que uma dimensão é definida quando acessada através de um dispositivo móvel. Somente Ad Hoc Analysis. Em vez de usar a métrica de visualizações móveis, recomendamos aplicar o segmento "Visitas de dispositivos móveis". | Conversão |
 | Novas participações | Novas Participações é uma métrica de relatório do canal de marketing que contabiliza os novos visitantes que chegam através de um canal. Essa métrica também conta os visitantes que não visitaram o seu site nos últimos 30 dias. Uma Nova participação é uma eVar configurada no início de cada visita (alocação original). Canais de primeiro toque também podem ser Novas participações, dependendo das configurações de expiração da participação do visitante. | Conversão |
-| Ocorrências | O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. Ocorrências disponíveis somente em Ad Hoc Analysis. | Not available in Reports &amp; Analytics, Web Services 1.4, or Report Builder |
+| Ocorrências | O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. Ocorrências disponíveis somente em Ad Hoc Analysis. | Não disponível no Relatórios e análises, nos Serviços da Web 1.4 ou no Construtor de relatórios |
 | Pedidos | O número de pedidos feitos no site durante o intervalo selecionado. É possível analisar períodos individuais usando outras métricas para mostrar os itens (como produtos ou campanhas) que contribuíram para a maioria das ordens durante esse intervalo de tempo. | Conversão |
 | Profundidade da página | O número médio de cliques necessários para os usuários chegarem a uma página específica do site. | Tráfego |
 | Eventos de página | Os eventos de página consistem em dados de solicitação de imagem de solicitações de imagem não padrão. As fontes de solicitações de imagem não padrão são links de downloads, links de saída e rastreamento de link personalizado. | Tráfego |
@@ -59,7 +59,7 @@ Relaciona as métricas padrão no Adobe Analytics.
 | Pesquisas | Pesquisas não é uma métrica padrão, sempre é uma métrica personalizada.  É a métrica padrão recomendada para mecanismos de pesquisa e palavras-chave. Essa métrica representa instâncias de um click-through, e mostra a página associada a um mecanismo ou palavra-chave específico. Dados de métrica de pesquisas podem ser relatados retroativamente para o início do conjunto de dados. | Conversão |
 | Único Acesso | O Acesso único é definido pelo número de visitas ao site que continham um único valor de Nome de Página. Se um usuário chega ao site e clica em um link rastreado, dispara um evento (como uma exibição de vídeo) ou recarrega uma página, a visita ainda é considerada uma visita de Acesso único. Enquanto o valor para a variável pageName não muda, qualquer número de solicitações pode ser enviado e a visita ainda é considerada um Acesso Único. | Tráfego |
 | Tempo gasto | Métricas que relatam o tempo que cada visitante passou em uma página, em um site ou durante cada visita. | Tráfego |
-| Total | As métricas totais relatam o valor de todos os itens de linha de relatório de um período de relatório. Se o filtro estiver selecionado, o total pode representar o total filtrado no lugar do total do conjunto de relatórios. Se nenhum filtro estiver selecionado, o total representa o total do conjunto de relatórios. | The Total version of a metric follows the type of the base metric. E.g., `totalpageviews` would be Traffic because `pageviews` is Traffic. |
+| Total | As métricas totais relatam o valor de todos os itens de linha de relatório de um período de relatório. Se o filtro estiver selecionado, o total pode representar o total filtrado no lugar do total do conjunto de relatórios. Se nenhum filtro estiver selecionado, o total representa o total do conjunto de relatórios. | A versão Total de uma métrica segue o tipo da métrica base. Por exemplo, `totalpageviews` seria Tráfego porque `pageviews` é Tráfego. |
 | Cliente único | (Por hora, Diariamente, Semanalmente, Mensalmente, Trimestralmente, Anualmente)  Um cliente único é contado uma vez neste intervalo de tempo, mas não pode ser contado novamente, independentemente de quantas vezes o visitante retorna para realizar uma compra. Um visitante único é contado uma vez pela primeira visita em um período especificado e não é contado novamente até que o período expire. Depois que o período expira, o visitante único é contado novamente. Clientes únicos são sempre contados como visitantes únicos pois devem visitar o site para realizar a compra. | Conversão |
 | Visitantes únicos | Mostra o número total de visitantes únicos para o período dos relatórios (pode ser configurado para diariamente, semanalmente, mensalmente, trimestralmente, anualmente). | Conversão |
 | Unidades | Todas as unidades pedidas para o intervalo selecionado. Como é possível adquirir várias unidades por pedido, a métrica Unidades é vital, pois exibe a movimentação geral de inventário. | Conversão |
