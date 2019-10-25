@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## Versões 2.17.0
 
-Data de lançamento: **23 de agosto de 201**
+Data de lançamento: **23 de agosto de 2019**
 
 | Recurso/Correção | Descrição |
 | -----------| ---------- |
@@ -40,7 +40,7 @@ Data de lançamento: **15 de agosto de 2019**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. That is if a page unloads with , the request will still be completed. `sendBeacon` This is very useful for exit links because it will make it much more likely that the exit link request will be completed. |
+| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. `SendBeacon` não é executado no contexto de uma página, mas no contexto do navegador. Ou seja, se uma página for descarregada com `sendBeacon`, a solicitação ainda será concluída. Isso é muito útil para links de saída, pois aumentará a probabilidade de a solicitação de link de saída ser concluída. |
 | Valores de ECID/fid | Os valores de ECID/fid são agora armazenados em cache na primeira ocorrência, mesmo se as configurações OptIn forem alteradas. |
 | DIL 9.3 | Atualização do módulo Gerenciamento de Público-Alvo para DIL 9.3 |
 | Rastreamento de alcance de rolagem | Exibição do botão no s.ActivityMap.trackScrollReach para ativar ou desativar o rastreamento de alcance de rolagem. |
@@ -64,7 +64,7 @@ Data de lançamento: **21 de maio de 2019**
 
 Data de lançamento:**10 de abril de 2019**
 
-Fix for many reported problems with clearVars. O problema ocorre quando as ocorrências são enviadas antes que o rastreador esteja pronto. When the tracker becomes ready, the library can set variables that have already been cleared or changed. (AN-176931, AN-176629, DTM-12758).
+Correção de muitos problemas relatados com clearVars. O problema ocorre quando as ocorrências são enviadas antes que o rastreador esteja pronto. Quando o rastreador estiver pronto, a biblioteca poderá definir variáveis que já foram limpas ou alteradas. (AN-176931, AN-176629, DTM-12758).
 
 ## Versão 2.12.0
 
@@ -387,7 +387,7 @@ Data de lançamento: **16 de abril de 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>As chamadas <code>trackBeacon</code> e <code>clearCurrentBeacon</code><span class="keyword"> agora estão disponíveis no PhoneGap </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -445,7 +445,7 @@ Adicionado suporte para [eVars adicionais](https://marketing.adobe.com/resources
 
 >[!NOTE]
 >
->H-Code does not support the additional eVars and events.
+>O código H não suporta eVars e eventos adicionais.
 
 [!DNL JavaScript]
 
@@ -460,7 +460,7 @@ Data de lançamento: **19 de junho de 2014**
 
 Data de lançamento: **22 de maio de 2014**
 
-* [!DNL AppMeasurement] for [!DNL JavaScript] `s_gi` function was not correctly finding instances created using H code `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] para [!DNL JavaScript] função não `s_gi` encontrava corretamente instâncias criadas usando o código H `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## Versão 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
@@ -545,4 +545,4 @@ Veja [AppMeasurement para Javascript](https://marketing.adobe.com/resources/help
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. Consulte [Suporte de plug-ins](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) para obter detalhes.
+>Alguns plug-ins não são suportados nesta nova versão. Consulte [Suporte de plug-ins](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) para obter detalhes.
