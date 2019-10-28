@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Funções
 title: A função s.sa()
 topic: Desenvolvedor e implementação
-uuid: a 6 aacd 10-2 a 5 b -448 b-b 3 b 7-bed 5590 b 71 d 4
-translation-type: tm+mt
+uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
