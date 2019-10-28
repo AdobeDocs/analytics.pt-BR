@@ -1,13 +1,13 @@
 ---
 description: Os eventos controlam quando um visitante executou uma determinada ação.
-keywords: Implementação do Analytics; evento; evento bem-sucedido; evento de moeda; Evento personalizado
+keywords: Implementação do Analytics, evento, evento bem-sucedido, evento de moeda, evento personalizado
 seo-description: Os eventos controlam quando um visitante executou uma determinada ação.
-seo-title: 'Eventos '
+seo-title: Eventos
 solution: Analytics
-title: 'Eventos '
+title: Eventos
 topic: Desenvolvedor e implementação
-uuid: d 2 edd 432-60 bc -4426-9967-153 b 713147 a 1
-translation-type: tm+mt
+uuid: d2edd432-60bc-4426-9967-153b713147a1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,4 +27,4 @@ Os tipos comuns de eventos incluem:
 
 Para obter informações detalhadas, consulte [Configurar eventos bem-sucedidos](/help/admin/admin/c-success-events/t-success-events.md).
 
-Os componentes são descritos em detalhe em [Ajuda e referência do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
+Os eventos bem-sucedidos são descritos detalhadamente na [Ajuda e referência do Analytics](https://marketing.adobe.com/resources/help/pt_BR/reference/success_event.html).
