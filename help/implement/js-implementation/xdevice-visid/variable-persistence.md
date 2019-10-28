@@ -6,8 +6,8 @@ seo-title: Atribuição e persistência
 solution: Analytics
 title: Atribuição e persistência
 topic: Desenvolvedor e implementação
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Não é mais recomendado este método de identificação de visitantes em dispositivos. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte a [Documentação de cooperação do dispositivo da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcdc/).
 
 Quando os perfis do visitante forem combinados depois de serem associados com a mesma variável de ID do visitante, a atribuição não será alterada no conjunto de dados histórico.
 
@@ -31,12 +31,12 @@ Quando um visitante não-autenticado acessar seu site pela primeira vez, o Adobe
 
 O exemplo abaixo mostra como os dados são enviados para o Adobe Analytics quando um cliente é autenticado pela primeira vez, em um dispositivo inédito:
 
-* `eVar16` tem uma expiração de 1 dia e `evar17` expira na visita.
+* `eVar16` expira em 1 dia e `evar17` expira ao final da visita.
 
-* `post_visitor_id` A coluna representa o perfil mantido pelo Adobe Analytics.
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* A coluna `post_visitor_id` representa o perfil gerenciado pelo Adobe Analytics.
+* As colunas `post_evar16` e `post_evar17` exibem a persistência de eVars.
 
-* `cust_visid` representa um valor definido `s.visitorID`.
+* `cust_visid` representa um valor definido em `s.visitorID`.
 
 * Cada fileira corresponde a uma "ocorrência", uma solicitação enviada para os servidores do Adobe Analytics responsáveis pela coleta de dados.
 
