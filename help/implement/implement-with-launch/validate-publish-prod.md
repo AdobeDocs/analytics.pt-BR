@@ -1,9 +1,9 @@
 ---
-title: Implantar o Adobe Analytics em um ambiente dev
-seo-title: Implantar o Adobe Analytics em um ambiente dev
-description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics em seu ambiente de desenvolvimento.
-seo-description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics em seu ambiente de desenvolvimento.
-translation-type: tm+mt
+title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
+seo-title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
+description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de desenvolvimento.
+seo-description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de desenvolvimento.
+translation-type: ht
 source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 ---
@@ -11,59 +11,59 @@ source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 # Validar uma implementação de desenvolvimento e publicar na produção
 
-Quando a biblioteca de lançamento da Adobe Experience Platform for enviada para produção, sua organização poderá começar a usar o Adobe Analytics para obter relatórios básicos.
+Assim que a biblioteca do Adobe Experience Platform Launch for enviada para produção, a empresa poderá começar a usar o Adobe Analytics para receber relatórios básicos.
 
 ## Pré-requisitos
 
-[Implante sua implementação do Analytics no ambiente dev](deploy-dev.md): Uma implementação do Analytics deve ser publicada no ambiente de desenvolvimento para seguir esta página.
+[Implante a implementação do Analytics no ambiente de desenvolvimento](deploy-dev.md): uma implementação do Analytics deve ser publicada no ambiente de desenvolvimento para que esta página possa ser seguida.
 
-## Validar sua implementação dev usando o depurador da Experience Cloud
+## Valide a implementação de desenvolvimento usando o Experience Cloud Debugger
 
-O depurador da Experience Cloud é um plug-plugin do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
+O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
-2. Navegue até o site de desenvolvimento que você implementou em Iniciar.
-3. Clique no ícone de depurador da Adobe Experience Cloud na parte superior direita do Chrome
-4. Se tudo estiver corretamente implementado, você deverá ver o conteúdo dentro do Adobe Analytics, Adobe Experience Platform Launch e o serviço de ID de visitante da Adobe Experience Cloud:
+1. Abra o navegador [da Web Chrome](https://www.google.com/chrome/) e vá para o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
+2. Navegue até o site de desenvolvimento em que você implementou o Launch.
+3. Clique no ícone do Adobe Experience Cloud Debugger na parte superior direita do Chrome
+4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, no Adobe Experience Platform Launch e no serviço de ID de visitante da Adobe Experience Cloud:
 
 ![depurador][assets/debugger.png]
 
-## Implantar sua implementação dev em preparo/prod
+## Implante a implementação de desenvolvimento para preparo/produção
 
-Depois de validar os dados, você pode encaminhar sua implementação para a versão ativa do site.
+Após a validação dos dados, você pode enviar a implementação para a versão ao vivo do site.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. Clique na propriedade Launch que pretende implementar em seu site.
-3. Clique na guia Publicação e localize sua biblioteca na coluna de desenvolvimento.
-4. Clique na lista suspensa na biblioteca e selecione Enviar para aprovação. Clique em Enviar na janela modal.
-5. Clique novamente na lista suspensa da biblioteca (agora na coluna Enviado) e selecione Criar para armazenamento temporário.
-6. Após alguns minutos, a luz amarela amarela na biblioteca fica verde, indicando uma criação bem-sucedida.
-7. Clique novamente na lista suspensa da biblioteca e selecione Aprovar para publicação.
-8. Clique novamente na lista suspensa da biblioteca (agora na coluna Aprovado) e selecione Criar e publicar na produção.
-9. Vá até a guia Ambientes, o clique em Ambiente de produção.
-10. Copie o código de cabeçalho + rodapé de produção e forneça-o para os proprietários do seu site. Solicite que implemente esse código no ambiente de produção do site.
+1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
+2. Clique na propriedade do Launch que pretende implementar no site.
+3. Clique na guia Publicação e localize a biblioteca na coluna de desenvolvimento.
+4. Clique na lista suspensa da biblioteca e selecione Enviar para aprovação. Clique em Enviar na janela modal.
+5. Clique na lista suspensa da biblioteca novamente (agora na coluna Enviado) e selecione Criar para preparo.
+6. Após alguns instantes, a luz amarela na biblioteca fica verde, indicando uma criação bem-sucedida.
+7. Clique na lista suspensa da biblioteca novamente e selecione Aprovar para publicação.
+8. Clique na lista suspensa da biblioteca novamente (agora na coluna Aprovado) e selecione Criar e publicar na produção.
+9. Vá para a guia Ambientes e clique em Ambiente de produção.
+10. Copie o cabeçalho de produção + código do rodapé e forneça aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
 
-## Validar a implementação da produção
+## Valide a implementação de produção
 
-Confirme que você está vendo dados na versão ativa do site e iniciando a coleta de dados oficial do Adobe Analytics.
+Confirme se você está vendo os dados na versão ao vivo do site e comece a coleta de dados oficial do Adobe Analytics.
 
-1. Após confirmar que os proprietários de seu site enviaram o código de Lançamento para produção, navegue até a página inicial do seu site no Chrome e abra o depurador da Adobe Experience Cloud.
-2. Se tudo estiver funcionando, você verá dados similares aos seus testes em seu ambiente de desenvolvimento. Nesse momento, você está coletando dados em seu site e agora pode começar a usar o Adobe Analytics para relatórios.
+1. Depois de confirmar com os proprietários do site que eles enviaram o código do Launch para a produção, navegue até a página inicial do site no Chrome e abra o Adobe Experience Cloud Debugger.
+2. Se tudo estiver funcionando, você verá dados semelhantes aos seus testes no ambiente de desenvolvimento. Neste ponto, você está coletando dados no site e agora pode começar a usar o Adobe Analytics para relatórios.
 
 ## Solução de problemas
 
-**Nenhum dado aparece no depurador.**
+**Nenhum dado é exibido no depurador**.
 
-Enquanto estiver no seu site, abra o console do desenvolvedor do navegador (geralmente F 12). Olhe o código fonte da página e certifique-se de que os seguintes itens sejam cumpridos:
+Enquanto estiver no site, abra o console de desenvolvedor do navegador (normalmente F12). Examine o código-fonte da página e verifique se os seguintes itens foram atendidos:
 
-* Não há erros de javascript no console. Trabalhe com os proprietários de site da sua organização para verificar se todos os erros JS foram resolvidos.
-* Header code is properly implemented: Make sure the header code is inside the `<head>` tag, and that the file exists.
-* A biblioteca appmeasurement existe: Navegue diretamente para a origem JS para verificar se o arquivo JS contém código. Caso contrário, verifique se cada ambiente foi criado e se a biblioteca foi publicada em seu respectivo ambiente.
-* Plug-ins de interferência: Alguns plug-plugins do Chrome podem impedir que solicitações de imagens sejam acionadas. Desative qualquer plug-in que possa impedir que os dados sejam enviados para os servidores da Adobe.
+* Não há erros de JavaScript no console. Trabalhe com os proprietários do site da empresa para garantir que todos os erros de JS sejam resolvidos.
+* O código do cabeçalho está implementado corretamente: verifique se o código do cabeçalho está dentro da tag `<head>` e se o arquivo existe.
+* A biblioteca do AppMeasurement existe: navegue diretamente para a origem de JS para verificar se o arquivo de JS contém o código. Caso contrário, verifique se cada ambiente foi criado e se a biblioteca foi publicada no respectivo ambiente.
+* Plug-ins de interferência: alguns plug-ins do Chrome podem impedir o acionamento das solicitações de imagem. Desative todos os plug-ins que possam impedir o envio de dados para os servidores da Adobe.
 
 ## Próximas etapas
 
-Agora que uma implementação básica foi configurada, sua função em sua organização pode influenciar qual caminho você deseja saber mais sobre:
+Agora que uma implementação básica foi configurada, sua função na empresa pode influenciar o caminho sobre o qual você deseja saber mais:
 
-* [Crie um documento de design de solução](../prepare/solution-design.md): Faça um plano para usar variáveis personalizadas e, em seguida, inclua-as na implementação
-* [Comece a usar a Analysis Workspace](../../analyze/analysis-workspace/home.md): Mergulhe diretamente no Adobe Analytics usando o recurso principal da ferramenta.
+* [Criar um documento de design da solução](../prepare/solution-design.md): elabore um plano sobre como você deseja usar as variáveis personalizadas e, em seguida, inclua na implementação
+* [Introdução ao uso do Analysis Workspace](../../analyze/analysis-workspace/home.md): mergulhe diretamente no Adobe Analytics usando o recurso principal da ferramenta.
