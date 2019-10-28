@@ -1,13 +1,13 @@
 ---
 description: As classificações são criadas por meio do agrupamento (classificação) de dados granulares de um relatório de origem.
-keywords: Implementação do Analytics; classificação
+keywords: Implementação do Analytics, classificação
 seo-description: As classificações são criadas por meio do agrupamento (classificação) de dados granulares de um relatório de origem.
 seo-title: Classificações
 solution: Analytics
 title: Classificações
 topic: Desenvolvedor e implementação
-uuid: 6 bbb 1113-9 fc 9-4 e 9 d -90 dd-d 2 d 9 d 6 b 67 b 73
-translation-type: tm+mt
+uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -21,5 +21,5 @@ Por exemplo, suponha que você queira analisar anúncios de exibição, mas que 
 
 Para obter mais detalhes, consulte:
 
-* [Classificações](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) no guia de Ajuda e referência do Analytics
+* [Classificações](https://marketing.adobe.com/resources/help/pt_BR/reference/classifications.html) no guia Ajuda e referência do Analytics
 
