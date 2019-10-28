@@ -1,13 +1,13 @@
 ---
 description: Como implementar o Analytics no Instant Articles do Facebook.
-keywords: Implementação do Analytics; incorporar; variável personalizada; evento personalizado; rastreamento de visitantes; tracking; limitações
+keywords: Implementação do Analytics, incorporar, variável personalizada, evento personalizado, rastreamento de visitantes, rastreamento, limitações
 seo-description: Como implementar o Analytics no Instant Articles do Facebook.
 seo-title: Instant Articles do Facebook
 solution: Analytics
 title: Instant Articles do Facebook
 topic: Desenvolvedor e implementação
-uuid: 04 b 6366 b -7 c 52-4 dae-b 2 dd-bb 6 b 78 fd 409 c
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -29,7 +29,7 @@ Ao criar o conteúdo dos Instant Articles do Facebook, você pode incorporar o c
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html" height="0"></iframe>
 ```
 
-## Etapa 2: Modifique o seu HTML do Analytics {#section_76707B51D63A47FF833C2D3FFF8412B4}
+## Etapa 2. Modifique o seu HTML do Analytics {#section_76707B51D63A47FF833C2D3FFF8412B4}
 
 O HTML de exemplo abaixo pode ser usado para capturar dados de estatística dos artigos instantâneos. Normalmente, este artigo seria hospedado em um dos servidores da sua empresa. Cada vez que um Instant Article é carregado, o arquivo é carregado em um iframe, como apresentado na primeira etapa, o que aciona o envio de dados analíticos para a Adobe.
 
@@ -99,7 +99,7 @@ Você também pode enviar variáveis de maneira dinâmica ao iframe, aproveitand
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
 ```
 
-Esses parâmetros de cadeias de caracteres podem, mais adiante, ser definidos na seção de variáveis personalizadas do seu JavaScript HTML de análise, usando a função `Util.getQueryParam`[!DNL AppMeasurement] na biblioteca padrão, como a seguir:
+Esses parâmetros de cadeias de caracteres podem, mais adiante, ser definidos na seção de variáveis personalizadas do seu JavaScript HTML de análise, usando a `Util.getQueryParam` função [!DNL AppMeasurement] na biblioteca padrão, como a seguir:
 
 ```
 s.pageName = s.Util.getQueryParam("pageName"); 
@@ -110,7 +110,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## Rastreamento de visitante {#section_60F0C77659534949831E85B5FD9AE81E}
 
-Enquanto a página de HTML do Analytics estiver sendo hospedada no seu servidor da Web, a Adobe pode oferecer suporte à sua política de privacidade nos Instant Articles do Facebook. Ou seja, se um usuário final optar por não ser rastreado no seu site primário, ele também deixará de ser rastreado em todos os seus Instant Articles do Facebook, sem etapas adicionais. Usar essa página de utilitários também significa que o Serviço de identidade (ID de visitante) é suportado para que você possa integrar as métricas e variáveis capturadas nos seus Instant Articles do Facebook com o resto da Experience Cloud. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+Enquanto a página de HTML do Analytics estiver sendo hospedada no seu servidor da Web, a Adobe pode oferecer suporte à sua política de privacidade nos Instant Articles do Facebook. Ou seja, se um usuário final optar por não ser rastreado no seu site primário, ele também deixará de ser rastreado em todos os seus Instant Articles do Facebook, sem etapas adicionais. Usar essa página de utilitário também significa que o Serviço de identidade (ID de visitante) é suportado, para que você possa integrar as métricas e variáveis capturadas nos Instant Articles do Facebook com o restante da Experience Cloud. (Um exemplo é o uso de anúncios direcionados com o [!DNL Adobe Audience Manager]).
 
 ## Limitações do rastreamento {#section_1EE1BB069A3148DB9446371AFE196567}
 
@@ -118,7 +118,7 @@ Há algumas questões que devem ser observadas com essa abordagem. Valores DOM q
 
 ## O que está por vir? {#section_A170A10E2A3642A784DF720195DA8B38}
 
-O [!DNL Adobe Analytics] tem orgulho da parceria com o Facebook e nossos editores para fornecer recursos de análise líderes do mercado a editores na Web móvel em uma experiência do usuário ultramente rápida. Estamos trabalhando para construir a melhor solução a longo prazo para atender às necessidades de análises dos nossos clientes.
+O[!DNL Adobe Analytics] tem orgulho da parceria com o Facebook e nossos editores para fornecer recursos de análise líderes do mercado a editores na Web móvel em uma experiência do usuário ultramente rápida. Estamos trabalhando para construir a melhor solução a longo prazo para atender às necessidades de análises dos nossos clientes.
 
 O Projeto de Instant Articles do Facebook está em rápido desenvolvimento, passando por mudanças regularmente, portanto consulte nossas páginas com frequência para obter atualizações. Aguarde mudanças conforme aprimoramos ainda mais nossas integrações e mais editores adotam os Instant Articles do Facebook no futuro.
 
