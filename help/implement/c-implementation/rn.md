@@ -3,8 +3,8 @@ description: 'As notas de versão podem ser encontradas nos seguintes locais '
 seo-description: 'As notas de versão podem ser encontradas nos seguintes locais '
 seo-title: Notas de versão
 title: Notas de versão
-uuid: 07 f 8 a 612-e 1 ba -4 bcc-a 547-8 c 34 eb 1 a 7 c 88
-translation-type: tm+mt
+uuid: 07f8a612-e1ba-4bcc-a547-8c34eb1a7c88
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -14,6 +14,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 As notas de versão podem ser encontradas nos seguintes locais:
 
-* [Experience Cloud - Todas as soluções](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Bibliotecas AppMeasurement - Todas as plataformas](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/)
+* [Experience Cloud - todas as soluções](https://marketing.adobe.com/resources/help/pt_BR/whatsnew/)
+* [Bibliotecas do AppMeasurement - todas as plataformas](https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/release/)
 
