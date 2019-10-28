@@ -2,24 +2,24 @@
 description: A segmentação de caminhos por tipo de usuário é uma solicitação comum para tentar compreender como tipos específicos de usuários transitam em seu site.
 keywords: Implementação do Analytics
 seo-description: A segmentação de caminhos por tipo de usuário é uma solicitação comum para tentar compreender como tipos específicos de usuários transitam em seu site.
-seo-title: Caminhos de segmento por tipo de usuário
+seo-title: Segmentar caminhos por tipo de usuário
 solution: Analytics
-title: Caminhos de segmento por tipo de usuário
+title: Segmentar caminhos por tipo de usuário
 topic: Desenvolvedor e implementação
-uuid: 5 c 298 f 39-381 d -453 b-a 608-109 e 3276 b 361
-translation-type: tm+mt
+uuid: 5c298f39-381d-453b-a608-109e3276b361
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Caminhos de segmento por tipo de usuário
+# Segmentar caminhos por tipo de usuário
 
 A segmentação de caminhos por tipo de usuário é uma solicitação comum para tentar compreender como tipos específicos de usuários transitam em seu site.
 
 É possível concatenar o tipo de usuário e o nome da página em uma [!UICONTROL sprop] e ativar a definição de caminho na [!UICONTROL sprop].
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. Você deverá diferenciar esses dois tipos de usuário em cada página e colocar esses valores na sua [!UICONTROL sprop] designada. Quando você preenche a prop, ela deve ser exibida como abaixo:
+Por exemplo, digamos que você tenha dois tipos de usuário: _Registrados_ e _Não registrados_. Você deverá diferenciar esses dois tipos de usuário em cada página e colocar esses valores na sua [!UICONTROL sprop] designada. Quando você preenche a prop, ela deve ser exibida como abaixo:
 
 ```js
  s.prop1=”Registered : “ + s.pageName;
