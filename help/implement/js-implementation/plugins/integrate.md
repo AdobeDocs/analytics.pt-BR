@@ -1,9 +1,9 @@
 ---
 title: Módulo de integração
-seo-title: Módulo de integração para o Adobe Analytics
-description: O Módulo Integrate permite aos parceiros da Adobe integrar seus esforços de coleta de dados à organização.
-seo-description: O Módulo Integrate permite aos parceiros da Adobe integrar seus esforços de coleta de dados à organização.
-translation-type: tm+mt
+seo-title: Módulo de integração do Adobe Analytics
+description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
+seo-description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
+translation-type: ht
 source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
 
 ---
@@ -11,90 +11,90 @@ source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
 
 # Módulo de integração
 
-O Módulo Integrate permite aos parceiros da Adobe integrar seus esforços de coleta de dados à organização. Essa integração fornece a oportunidade de uma conexão de dados bidirecional. Normalmente, o uso do Módulo de integração é direcionado por um parceiro da Adobe.
+O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa. Essa integração oferece a oportunidade de uma conexão de dados bidirecional. Normalmente, o uso do Módulo de integração é conduzido por um parceiro da Adobe.
 
-> [!NOTE] Solicitar dados de parceiro na implementação pode aumentar os atrasos entre o carregamento da página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes dos dados serem enviados, essa página não será gravada.
+> [!NOTE] A solicitação de dados do parceiro na implementação pode aumentar os atrasos entre o carregamento de página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes que os dados sejam enviados, essa página não será registrada.
 
 ## Fluxo de trabalho do Módulo de integração
 
-1. A visitor to your site loads a page that initiates a `get` request for partner data.
-2. The Adobe partner receives the `get` request and packages the appropriate variables in a JSON object. O objeto JSON é retornado.
-3. Your site receives the JSON object and calls `setVars` to assign the information contained in the JSON object to Adobe Analytics variables
+1. Um visitante do site carrega uma página que inicia uma `get` solicitação de dados do parceiro.
+2. O parceiro da Adobe recebe a solicitação `get` e compacta as variáveis apropriadas em um objeto JSON. O objeto JSON é retornado.
+3. O site recebe o objeto JSON e chama `setVars` para atribuir as informações contidas no objeto JSON às variáveis do Adobe Analytics
 4. Uma solicitação de imagem é enviada para os servidores de coleção de dados da Adobe.
 
-## Implementação do módulo de integração
+## Implementação do Módulo de integração
 
-Uma organização que trabalha com um parceiro da Adobe pode usar essas etapas para começar a usar o Módulo de integração.
+Uma empresa que trabalha com um parceiro da Adobe pode usar essas etapas para começar a usar o Módulo de integração com êxito.
 
-### Obter o código do Módulo de integração
+### Obter código do Módulo de integração
 
-Obter o código do módulo requer um usuário com acesso ao Administrador de produto ou pertencente a um perfil de produto com acesso ao Gerenciador de código. O método para obter o código do módulo é o mesmo para todos os métodos de implementação, incluindo o Adobe Experience Platform Launch.
+A obtenção do código do módulo requer um usuário com acesso de Administrador de produto ou que pertença a um perfil de produto com acesso ao Gerenciador de código. O método para obter o código do módulo é o mesmo para todos os métodos de implementação, incluindo o Adobe Experience Platform Launch.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-1. Clique no ícone de 9-quadrado na parte superior direita e clique no logotipo colorido do Analytics.
-1. In the top navigation, click [!UICONTROL Admin] &gt; [!UICONTROL Code Manager].
-1. Baixe a biblioteca mais recente do appmeasurement do javascript.
-1. Once downloaded, unzip the file and locate `AppMeasurement_Module_Integrate.js`.
+1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
+1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
+1. Na navegação da parte superior, clique em [!UICONTROL Admin] &gt; Gerenciador [!UICONTROL de código].
+1. Baixe a biblioteca JavaScript AppMeasurement mais recente.
+1. Após o download, descompacte o arquivo e localize `AppMeasurement_Module_Integrate.js`.
 
-### Colocar o módulo de integração na sua implementação
+### Coloque o Módulo de integração na implementação
 
-Implementar o módulo de integração no site requer acesso à Adobe Experience Platform Launch. Se você usar uma implementação de javascript herdada, é necessário acessar o código fonte do site da sua organização.
+A implementação do Módulo de integração no site requer acesso ao Adobe Experience Platform Launch. Se você usar uma implementação antiga do JavaScript, será necessário acessar o código-fonte do site da empresa.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your Adobe ID credentials.
-2. Clique na propriedade Launch que pretende editar.
-3. Clique na guia Extensões e clique em Configurar sob o Adobe Analytics.
-4. Abra o menu «Configurar rastreador usando o esquema personalizado» e clique em «&lt;/&gt; Abrir editor».
-5. Cole o código do Módulo de integração na janela modal do código. Clique em Salvar uma vez concluída.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+2. Clique na propriedade do Launch que deseja editar.
+3. Clique na guia Extensões e, em seguida, clique em Configurar no Adobe Analytics.
+4. Abra a opção "Configurar rastreador usando código personalizado" e clique em "&lt;/&gt; Abrir editor".
+5. Cole o código do Módulo de integração na janela modal do código. Clique em Salvar após a conclusão.
 
-## Métodos do módulo Integrar
+## Métodos do Módulo de integração
 
-Depois que o Módulo de integração for implementado, use esses métodos para configurá-lo para enviar e receber dados do parceiro da Adobe desejado.
+Depois que o Módulo de integração tiver sido implementado, use esses métodos para configurá-lo para enviar e receber dados do parceiro desejado da Adobe.
 
-### add
+### adicionar
 
-The `add` method instantiates a partner object, which serves as an intermediate store of variable data when sharing data between partner systems and your implementation. Esse método é necessário para todas as integrações. Um objeto de parceiro separado deve ser usado para cada parceiro único se vários parceiros forem usados em uma única implementação.
+O método `add` instancia um objeto do parceiro, que serve como um armazenamento intermediário de dados variáveis ao compartilhar dados entre sistemas do parceiro e a implementação. Esse método é necessário para todas as integrações. Um objeto do parceiro separado deve ser usado para cada parceiro exclusivo, se vários parceiros forem usados em uma única implementação.
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
 ```
 
-Sua organização geralmente trabalha com um parceiro da Adobe para determinar o valor do nome do parceiro.
+A empresa geralmente trabalha com um parceiro da Adobe para determinar o valor do nome do parceiro.
 
 ### beacon
 
-`beacon` O método cria uma solicitação de imagem e o aponta para o URL especificado. Essas solicitações de imagem são diferentes das solicitações de imagem padrão. O método beacon normalmente envia dados para o parceiro da Adobe em vez dos servidores de coleta de dados da Adobe.
+O método `beacon` cria uma solicitação de imagem e a aponta para o URL especificado. Essas solicitações de imagem são diferentes das solicitações de imagem padrão. O método de beacon normalmente envia dados para o parceiro da Adobe, em vez dos servidores de coleta de dados da Adobe.
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-Em geral, sua organização trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro. As sequências de consulta incluídas no URL são opcionais e dependem do parceiro. O Módulo Integrate inclui automaticamente uma sequência de consulta contendo um número aleatório para impedir o armazenamento em cache do navegador.
+A empresa geralmente trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro. As sequências de consulta incluídas no URL são opcionais e dependem do parceiro. O Módulo de integração inclui automaticamente uma sequência de consulta que contém um número aleatório para impedir o armazenamento em cache do navegador.
 
-### delay
+### atraso
 
-A Adobe está trabalhando com equipes internamente para obter este método documentado.
+A Adobe está trabalhando com equipes internamente para documentar esse método.
 
 ### get
 
-`get` O método permite que um cliente importe variáveis de parceiro de importação e as armazene no objeto parceiro. Quando os dados estão no objeto parceiro, eles podem ser atribuídos a variáveis do Analytics e enviados em uma solicitação de imagem. Este método chama um URL, que aponta para um objeto JSON que contém dados desejados.
+O método `get` permite que um cliente importe variáveis do parceiro e armazene no objeto do parceiro. Quando os dados estiverem no objeto do parceiro, poderão ser atribuídos às variáveis do Analytics e enviados em uma solicitação de imagem. Esse método chama um URL, que aponta para um objeto JSON que contém os dados desejados.
 
 ```JavaScript
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **Nome do parceiro:** Em geral, sua organização trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro.
-* **URL para objeto JSON:** O URL para um objeto JSON que contém as variáveis de parceiro para incorporar em uma solicitação de imagem.
-* **Parâmetros da string de consulta:** Informações de conta do parceiro que identificam sua organização no sistema do parceiro. O parceiro da Adobe usa essas informações para identificar seu conjunto de dados.
+* **Nome do parceiro:** a empresa geralmente trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro.
+* **URL para o objeto JSON:** o URL para um objeto JSON que contém as variáveis do parceiro a serem incorporadas em uma solicitação de imagem.
+* **Parâmetros da sequência de consulta:** informações da conta do parceiro que identificam a empresa no sistema do parceiro. O parceiro da Adobe usa essas informações para identificar o conjunto de dados.
 
-O módulo Integrate adiciona automaticamente mais strings de consulta ao URL. Uma sequência de consulta var especifica o nome do objeto JSON que o módulo espera de volta do parceiro. Um número aleatório também é adicionado para impedir o armazenamento em cache do navegador.
+O módulo de Integração adiciona automaticamente mais sequências de consulta ao URL. Uma sequência de consulta var especifica o nome do objeto JSON que o módulo espera do parceiro. Um número aleatório também é adicionado para impedir o cache do navegador.
 
-### ready
+### pronto
 
-A Adobe está trabalhando com equipes internamente para obter este método documentado.
+A Adobe está trabalhando com equipes internamente para documentar esse método.
 
-### Usevars
+### useVars
 
-`useVars` O método permite que o cliente compartilhe valores de variáveis com um parceiro da Adobe.
+O `useVars` método permite que o cliente compartilhe valores variáveis com um parceiro da Adobe.
 
 ```JavaScript
 s.Integrate.<partner_name>.useVars = function (s,p) {
@@ -103,11 +103,11 @@ s.Integrate.<partner_name>.useVars = function (s,p) {
 }
 ```
 
-A sua organização normalmente trabalha com um parceiro da Adobe para determinar os valores para o nome do parceiro e as variáveis que o parceiro usa.
+A empresa geralmente trabalha com um parceiro da Adobe para determinar os valores do nome do parceiro e as variáveis que o parceiro usa.
 
-### Setvars
+### setVars
 
-The `setVars` method lets the client populate Analytics variables using partner data retrieved. Partner data can be the result of a `get` method, a static assignment, or any other mechanism that populates the partner object with data.
+O método `setVars` permite que o cliente preencha as variáveis do Analytics usando os dados de parceiros recuperados. Os dados do parceiro podem ser o resultado de um método `get`, uma atribuição estática ou qualquer outro mecanismo que preencha o objeto do parceiro com dados.
 
 ```JavaScript
 s.Integrate.<partner_name>.setVars = function (s,p) {
@@ -116,14 +116,14 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 }
 ```
 
-A sua organização normalmente trabalha com um parceiro da Adobe para determinar os valores para o nome do parceiro e as variáveis que o parceiro usa.
+A empresa geralmente trabalha com um parceiro da Adobe para determinar os valores do nome do parceiro e as variáveis que o parceiro usa.
 
 ### script
 
-The `script` method lets an Adobe partner to call additional JavaScript from the partner site if certain conditions are met (for example, if the campaign variable is set).
+O método `script` permite que um parceiro da Adobe chame o JavaScript adicional do site parceiro, se determinadas condições forem atendidas (por exemplo, se a variável de campanha estiver definida).
 
 ```JavaScript
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-Em geral, sua organização trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro. As sequências de consulta incluídas no URL são opcionais e dependem do parceiro. O Módulo Integrate inclui automaticamente uma sequência de consulta contendo um número aleatório para impedir o armazenamento em cache do navegador.
+A empresa geralmente trabalha com o parceiro da Adobe para determinar o valor do nome do parceiro. As sequências de consulta incluídas no URL são opcionais e dependem do parceiro. O Módulo de integração inclui automaticamente uma sequência de consulta que contém um número aleatório para impedir o armazenamento em cache do navegador.
