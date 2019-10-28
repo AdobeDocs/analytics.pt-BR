@@ -1,13 +1,13 @@
 ---
 description: É possível implantar o Dynamic Tag Management usando uma ou mais das opções de hospedagem disponíveis.
-keywords: Implementação do Analytics; método de implementação; gerenciamento dinâmico de tags; dtm; hospedagem; opções de hospedagem; akamai; auto-hospedagem; auto-hospedagem; entrega ftp; hospedagem ftp; download da biblioteca
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, hospedagem, opções de hospedagem, akamai, auto-hospedagem, auto-hospedagem, entrega de ftp, hospedagem de ftp, download de biblioteca
 seo-description: É possível implantar o Dynamic Tag Management usando uma ou mais das opções de hospedagem disponíveis.
 seo-title: Configurar opções de hospedagem
 solution: Analytics
 title: Configurar opções de hospedagem
 topic: Desenvolvedor e implementação
-uuid: 04268 f 2 d-e 76 f -4 fe 4-8 fcc-f 0 db 3 a 016502
-translation-type: tm+mt
+uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 # Configurar opções de hospedagem
 
-You can deploy [!UICONTROL Dynamic Tag Management] using one or more of the available hosting options.
+É possível implantar o [!UICONTROL Dynamic Tag Management] usando uma ou mais das opções de hospedagem disponíveis.
 
-[!UICONTROL O Dynamic Tag Management fornece várias opções para hospedar os arquivos JavaScript necessários.]
+[!UICONTROL O Dynamic Tag Management ] fornece várias opções para hospedar os arquivos JavaScript necessários.
 
-Para obter informações mais detalhadas sobre hospedagem, consulte [Opções de codificação e hospedagem incorporadas](https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html) na Documentação do produto de Dynamic Tag Management.
+Para obter informações detalhadas sobre hospedagem, consulte [Incorporar código e opções de hospedagem](https://marketing.adobe.com/resources/help/pt_BR/dtm/deployment.html) na Documentação do produto [!UICONTROL Dynamic Tag Management].
 
 Na guia Incorporar, selecione uma opção de hospedagem.
 
@@ -34,7 +34,7 @@ Na guia Incorporar, selecione uma opção de hospedagem.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> A opção de hospedagem mais simples para implementar. </p> <p>Rede de entrega distribuída globalmente. </p> <p>Adiciona outras dependências de infraestrutura de terceiros (pesquisa de DNS, disponibilidade do Akamai). </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html" format="html" scope="external">Akamai</a> na documentação do produto do Dynamic Tag Management </p> </td> 
+   <td colname="col2"> <p> A opção de hospedagem mais simples para implementar. </p> <p>Rede de entrega distribuída globalmente. </p> <p>Adiciona outras dependências de infraestrutura de terceiros (pesquisa de DNS, disponibilidade do Akamai). </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/dtm/akamai.html" format="html" scope="external">Akamai</a> na documentação do produto do Dynamic Tag Management. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">O Dynamic Tag Management gera bibliotecas JavaScript personalizadas. </li> 
@@ -44,7 +44,7 @@ Na guia Incorporar, selecione uma opção de hospedagem.
   </tr> 
   <tr> 
    <td colname="col1"> Auto-hospedagem: Entrega FTP </td> 
-   <td colname="col2"> <p>A <span class="term"> push</span> approach, whereby Dynamic Tag Management exports custom JavaScript libraries directly to the web content server host via the FTP protocol. </p> <p>Essa solução exige que um servidor FTP e credenciais estejam disponíveis no servidor de conteúdo da Web para publicar as alterações nas bibliotecas personalizadas do Dynamic Tag Management. </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html" format="html" scope="external">FTP</a> na documentação do produto do Dynamic Tag Management. </p> </td> 
+   <td colname="col2"> <p>Uma abordagem de <span class="term">push</span>, na qual o Dynamic Tag Management exporta bibliotecas JavaScript personalizadas diretamente para o host do servidor de conteúdo da Web, utilizando o protocolo FTP. </p> <p>Essa solução exige que um servidor FTP e credenciais estejam disponíveis no servidor de conteúdo da Web para publicar as alterações nas bibliotecas personalizadas do Dynamic Tag Management. </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/dtm/deployment_ftp.html" format="html" scope="external">FTP</a> na documentação do produto do Dynamic Tag Management. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_60348F9C991D4F2B9457006B0F98C834"> 
      <li id="li_24A141C3C7074BF9897C022A22CAE78C">O Dynamic Tag Management gera bibliotecas JavaScript personalizadas. </li> 
@@ -54,8 +54,8 @@ Na guia Incorporar, selecione uma opção de hospedagem.
   </tr> 
   <tr> 
    <td colname="col1"> Auto-hospedagem: Download da biblioteca </td> 
-   <td colname="col2"> <p>A <span class="term"> pull</span> approach, whereby the application exports custom JavaScript libraries
-     <!-- to Amazon S3-->. Nele, as bibliotecas podem ser acessadas por um processo do lado do servidor hospedado. </p> <p>Além disso, as bibliotecas estão disponíveis por download da Web diretamente da interface do Dynamic Tag Management. </p> <p>Essa solução exige recuperação e publicação manual das bibliotecas do Dynamic Tag Management ou a criação de um processo automatizado que extraia as bibliotecas do Akamai para o servidor de conteúdo da Web. </p> <p>Embora esse método seja o mais demorado, também é a opção mais segura e flexível. </p> <p>Para verificar se a versão mais recente do seu arquivo de biblioteca está sendo referenciada, use o comando </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html" format="html" scope="external">Download de biblioteca</a> na documentação do produto do Dynamic Tag Management. </p> </td> 
+   <td colname="col2"> <p>Uma abordagem <span class="term">pull</span>, na qual o aplicativo exporta bibliotecas JavaScript personalizadas
+     <!-- to Amazon S3-->. Nele, as bibliotecas podem ser acessadas por um processo do lado do servidor hospedado. </p> <p>Além disso, as bibliotecas estão disponíveis por download da Web diretamente da interface do Dynamic Tag Management. </p> <p>Essa solução exige recuperação e publicação manual das bibliotecas do Dynamic Tag Management ou a criação de um processo automatizado que extraia as bibliotecas do Akamai para o servidor de conteúdo da Web. </p> <p>Embora esse método seja o mais demorado, também é a opção mais segura e flexível. </p> <p>Para verificar se a versão mais recente do seu arquivo de biblioteca está sendo referenciada, use o comando </p> <p>Para obter informações mais detalhadas, consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/dtm/deployment_download.html" format="html" scope="external">Download de biblioteca</a> na documentação do produto do Dynamic Tag Management. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">O Dynamic Tag Management gera bibliotecas JavaScript personalizadas. </li> 
