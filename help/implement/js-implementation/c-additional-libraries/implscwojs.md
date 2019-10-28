@@ -1,13 +1,13 @@
 ---
 description: Como implementar o Analytics usando uma tag de imagem HTML (solicitação de imagem codificada).
-keywords: Implementação do Analytics; tag de imagem html; solicitação de imagem codificada
+keywords: Implementação do Analytics, tag de imagem html, solicitação de imagem codificada
 seo-description: Como implementar o Analytics usando uma tag de imagem HTML (solicitação de imagem codificada).
 seo-title: Implementar o Analytics usando tags de imagem HTML
 solution: Analytics
 title: Implementar o Analytics usando tags de imagem HTML
 topic: Desenvolvedor e implementação
-uuid: 0 c 098 a 57-7 c 71-4362-812 c -36 e 37848 a 5 ae
-translation-type: tm+mt
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -44,9 +44,9 @@ O JavaScript pode detectar configurações do navegador que não estão disponí
 
 * O JavaScript é muito preciso (98-100%). Algumas vezes, a precisão máxima é desejada, mesmo em situações em que um usuário clica rapidamente em outra página antes da execução do JavaScript. A criação tag de imagem no lado do servidor aumenta o nível de precisão em vários pontos percentuais.
 * Para eventos de conversão de rastreamento, como compras, nos quais a precisão é muito importante.
-* Essa estratégia também pode ser usada para preencher totalmente a solicitação de imagem dentro do <noscript> para rastrear usuários sem javascript ou com javascript desativado.
+* Essa estratégia também pode ser usada para preencher totalmente a solicitação de imagem na tag <noscript> para rastrear usuários sem JavaScript ou com JavaScript desativado.
 
 >[!NOTE]
 >
->O uso de tags de imagem geradas pelo servidor requer mais tempo para implementar, e é mais difícil depurar, implantar e manter. A Adobe incentiva fortemente que os clientes usem a coleta de dados baseada em JavaScript em todas as páginas em que isso for possível. Diversos relatórios e recursos, incluindo mapa de cliques de visitantes, links para download, links de saída e variáveis baseadas em navegadores (largura/altura do navegador etc) não podem ser coletados ou suportados com o uso desse método de implementação.
+>O uso de tags de imagem geradas no servidor requer mais tempo para implementação e é mais difícil de depurar, implantar e manter. A Adobe incentiva fortemente que os clientes usem a coleta de dados baseada em JavaScript em todas as páginas em que isso for possível. Diversos relatórios e recursos, incluindo mapa de cliques de visitantes, links para download, links de saída e variáveis baseadas em navegadores (largura/altura do navegador etc) não podem ser coletados ou suportados com o uso desse método de implementação.
 
