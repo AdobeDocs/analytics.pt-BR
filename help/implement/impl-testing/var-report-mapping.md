@@ -2,18 +2,18 @@
 description: A tabela a seguir exibe o mapeamento de variável para relatório das variáveis usadas para preencher relatórios do Analytics.
 keywords: Implementação do Analytics
 seo-description: A tabela a seguir exibe o mapeamento de variável para relatório das variáveis usadas para preencher relatórios do Analytics.
-seo-title: Variável para relatório de mapeamento
+seo-title: Mapeamento de variável para relatório
 solution: Analytics
-title: Variável para relatório de mapeamento
+title: Mapeamento de variável para relatório
 topic: Desenvolvedor e implementação
-uuid: fd 81 f 97 d-dd 1 a -47 d 5-9157-b 7932 fe 13490
-translation-type: tm+mt
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Variável para relatório de mapeamento
+# Mapeamento de variável para relatório
 
 A tabela a seguir exibe o mapeamento de variável para relatório das variáveis usadas para preencher relatórios do Analytics.
 
