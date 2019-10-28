@@ -2,19 +2,19 @@
 description: Muitos clientes têm variáveis declaradas, mas nenhum valor é atribuído à variável.
 keywords: Implementação do Analytics
 seo-description: Muitos clientes têm variáveis declaradas, mas nenhum valor é atribuído à variável.
-seo-title: snippet de código HTML
+seo-title: Snippet do código HTML
 solution: Analytics
 subtopic: Solução de problemas
-title: snippet de código HTML
+title: Snippet do código HTML
 topic: Desenvolvedor e implementação
-uuid: 3 f 57 da 82-4 d 41-47 a 2-9 fcb -74 b 9 b 08068 ba
-translation-type: tm+mt
+uuid: 3f57da82-4d41-47a2-9fcb-74b9b08068ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# snippet de código HTML
+# Snippet do código HTML
 
 Muitos clientes têm variáveis declaradas, mas nenhum valor é atribuído à variável.
 
