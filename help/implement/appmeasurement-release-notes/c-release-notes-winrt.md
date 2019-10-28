@@ -2,12 +2,12 @@
 description: 'null'
 seo-description: 'null'
 seo-title: WinRT para Windows 8
-solution: Analytics,Experience Cloud
+solution: Analytics, Experience Cloud
 subtopic: Notas de versão
 title: WinRT para Windows 8
 topic: Desenvolvedor e implementação
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Para localizar a versão atual da biblioteca, ative o registro de depuração.
+>Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Os [downloads da biblioteca móvel](https://marketing.adobe.com/developer/pt-BR/get-started/mobile/c-measuring-mobile-applications) estão disponíveis em [!DNL Developer Connection].
 
 >[!NOTE]
 >
->The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. Não haverá mais nenhum desenvolvimento neste SDK.
+>O [!DNL WinRT] para [!DNL Windows] 8 SDK foi substituído pelo [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. Não haverá mais nenhum desenvolvimento neste SDK.
 
 ## Versão 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
@@ -41,7 +41,7 @@ Correções de bug e melhorias de desempenho.
 
 Data de lançamento: **17 de outubro de 2013**
 
-* [!DNL Windows] Compatibilidade 8.1
+* [!DNL Windows]Compatibilidade com 8.1
 
 ## Versão 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -53,7 +53,7 @@ Data de lançamento: **18 de abril de 2013**
 
 Data de lançamento: **21 de março de 2013**
 
-* `ADMS_Measurement.visitorID` agora é pré-preenchido com o valor padrão.
+* O`ADMS_Measurement.visitorID` agora fica pré-preenchido com o valor padrão.
 * Solucionado o problema com a recuperação de informações do dispositivo.
 
 ## Versão 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,14 +69,14 @@ Data de lançamento: **21 de fevereiro de 2013**
 Data de lançamento: **novembro de 2012**
 
 * A resolução da tela agora está sendo coletada de maneira precisa para as plataformas C#, C++ e HTML5/WinJS.
-* `ADMS_Churn` classe agora é interna. Para usar as práticas recomendadas para o monitoramento do ciclo de vida do aplicativo, use as chamadas a seguir:
+* A classe`ADMS_Churn` agora é interna. Para usar as práticas recomendadas para o monitoramento do ciclo de vida do aplicativo, use as chamadas a seguir:
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. Se a duração da sessão registrada exceder o valor máximo, a duração máxima da sua sessão será enviada. Default `maxSessionLength` is 3600 (seconds).
+* Adicionada a variável `public double maxSessionLength` ao `ADMS_Measurement` para permitir que você defina uma duração máxima da sessão para a sessão do usuário anterior. Se a duração da sessão registrada exceder o valor máximo, a duração máxima da sua sessão será enviada. O padrão para `maxSessionLength` é 3600 (segundos).
 * Adição de uma variável de configuração `lifecycleSessionTimeout` a qual permite que você especifique a duração, em segundos, entre a inicialização do aplicativo antes que possa ser considerada uma nova sessão.
 * Nova métrica de tamanho de sessão anterior adicionada às medições de ciclo de vida.
 * O TrackingHelper foi atualizado para fins de clareza.
