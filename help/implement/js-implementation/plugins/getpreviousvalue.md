@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue
 topic: Desenvolvedor e implementação
-uuid: 20 da 7 b 4 a -9820-4690-a 1 cc-d 10 b 6 dd 627 a 7
-translation-type: tm+mt
+uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ Captura o valor de uma variável do Analytics na próxima exibição de página.
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código e implementação do plug-in {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,15 +28,15 @@ Captura o valor de uma variável do Analytics na próxima exibição de página.
 
 **Configuração do plug-in**
 
-Coloque o seguinte código na função *`s_doPlugins()`* , que está localizada na área do *`s_code.js`* arquivo chamada Configuração *de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para uso na captura de dados de valor persistidos. Essa deve ser uma variável que foi ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
+Coloque o seguinte código na função A função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`* identificada *Configuração de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para uso na captura de dados de valor persistidos. Essa deve ser uma variável que foi ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
 *`s.getPreviousValue`* tem três argumentos:
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above).
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
-1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). Quando deixado em branco ou omitido, o plug-in captura o valor anterior em todas as exibições de página.
+1. A variável a ser capturada na página anterior (*`s.pageName`* acima).
+1. O nome do cookie a ser usado no armazenamento do valor para recuperação (*`gpv_pn`* acima).
+1. Os eventos que devem ser definidos na exibição de página para acionar a recuperação do valor anterior (*`event1`* acima). Quando deixado em branco ou omitido, o plug-in captura o valor anterior em todas as exibições de página.
 
 **SEÇÃO DE PLUG-INS**: adicione o seguinte código à área do arquivo [!DNL s_code.js] rotulada como SEÇÃO DE PLUG-INS. Não faça alterações nessa parte do código do plug-in.
 
@@ -64,7 +64,7 @@ s.split=new Function("l","d",""
 * Sempre teste a instalação do plug-in para verificar se a coleta de dados ocorre como esperado antes da implantação no ambiente de produção.
 * Se nenhum valor estiver presente para a variável selecionada em qualquer página, o texto *sem valor* será definido no cookie.
 * A expiração fixa de 30 minutos está definida para cada cookie e é atualizada com cada carregamento de página. O plug-in funcionar pela duração de uma visita.
-* Como essa função deve ser chamada como parte da seção de plug-ins do código, este funciona cada vez *`s.t()`* ou *`s.tl()`* é chamada.
+* Como essa função deve ser chamada como parte da seção de plug-ins do código, este funciona cada vez *`s.t()`* ou *`s.tl()`* é chamado.
 
-* A variável escolhida deve ser preenchida com um valor antes da chamada para *`s.getPreviousValue`*. Because the *`s_doPlugins()`* function is executed after the variables on the page are populated, this issue rarely occurs. It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
+* A variável escolhida deve ser preenchida com um valor antes da chamada para *`s.getPreviousValue`*. Como a função *`s_doPlugins()`* é executada após o preenchimento das variáveis na página, esse problema ocorre raramente. Isso só deve ser motivo de preocupação se a variável usada com esse plug-in for preenchida dentro da função *`s_doPlugins()`* e depois da chamada para *`s.getPreviousValue`*.
 
