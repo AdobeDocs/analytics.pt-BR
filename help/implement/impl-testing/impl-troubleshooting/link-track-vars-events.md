@@ -2,12 +2,12 @@
 description: A chave para uma implementação de rastreamento de link bem-sucedida é compreender as variáveis s.linkTrackVars e s.linkTrackEvents. Essa compreensão permite a você transmitir os valores personalizados da variável nas ações do usuário.
 keywords: Implementação do Analytics
 seo-description: A chave para uma implementação de rastreamento de link bem-sucedida é compreender as variáveis s.linkTrackVars e s.linkTrackEvents. Essa compreensão permite a você transmitir os valores personalizados da variável nas ações do usuário.
-seo-title: 'Uso de s.linkTrackVars e s.linkTrackEvents '
+seo-title: Uso de s.linkTrackVars e s.linkTrackEvents
 solution: Analytics
 title: Uso de s.linkTrackVars e s.linkTrackEvents
 topic: Desenvolvedor e implementação
-uuid: f 6 b 7019 b -987 b -4 b 7 d-a 446-80205 f 7 cc 36 c
-translation-type: tm+mt
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A chave para uma implementação de rastreamento de link bem-sucedida é compreender as variáveis s.linkTrackVars e s.linkTrackEvents. Essa compreensão permite a você transmitir os valores personalizados da variável nas ações do usuário.
 
-Se você estiver implementando o rastreamento de link personalizado e estiver definindo variáveis e eventos [!UICONTROL personalizadas], *`events`*, verifique se a variável [!UICONTROL s. linktrackvars] contém uma lista separada por vírgulas de variáveis que você está transmitindo, incluindo *`events`* a variável. Verifique se [!UICONTROL s.linkTrackEvents] inclui uma lista separada por vírgulas de todos os eventos que você está transmitindo.
+Se você estiver implementando o rastreamento de link personalizado e estiver definindo variáveis e eventos [!UICONTROL personalizadas], *`events`*, verifique se sua variável [!UICONTROL s.linkTrackVars] contém uma lista separada por vírgulas de todas as variáveis que você está transmitindo, incluindo a variável *`events`*. Verifique se [!UICONTROL s.linkTrackEvents] inclui uma lista separada por vírgulas de todos os eventos que você está transmitindo.
 
 A configuração de [!UICONTROL s.linkTrackVars] e [!UICONTROL s.linkTrackEvents] não define realmente essas variáveis/eventos, ela apenas prepara o código do [!DNL Analytics] para fazer isso. Você ainda deverá definir as variáveis manualmente, como mostrado no exemplo abaixo:
 
