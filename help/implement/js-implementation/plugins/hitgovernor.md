@@ -3,8 +3,8 @@ description: O plug-in s.hitGovernor rastreia o número total de solicitações 
 seo-description: O plug-in s.hitGovernor rastreia o número total de solicitações de imagem do Analytics enviadas durante um intervalo de tempo predefinido e pode executar lógica adicional, se necessário, caso esse total exceda um determinado limite.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ A utilização desse plug-in permite o bloqueio automático desse tráfego para 
 
 ## Como funciona o plug-in HitGovernor {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-O plug-in incrementa um valor de cookie cada vez que uma solicitação de imagem é enviada para os servidores de rastreamento e rastreia ao longo de um intervalo de tempo contínuo. O intervalo de tempo padrão é de um minuto, embora possa ser substituído. (Consulte [Implementação](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) abaixo). If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. O limite de hit padrão também pode ser substituído.
+O plug-in incrementa um valor de cookie cada vez que uma solicitação de imagem é enviada para os servidores de rastreamento e rastreia ao longo de um intervalo de tempo contínuo. O intervalo de tempo padrão é de um minuto, embora possa ser substituído. (Consulte [Implementação](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) abaixo). Se o número total de hits durante esse intervalo de tempo exceder o limite de hits padrão (60), uma solicitação de imagem do link personalizado final será enviada para definir a variável de dados de contexto *`exceptionFlag`*. O limite de hit padrão também pode ser substituído.
 
-Se desejado, a partir desse ponto, o tráfego pode ser impedido de ser coletado para esse visitante específico por um período padrão de sessenta dias. Bloquear o tráfego exige uma linha adicional de código na função doPlugins, conforme descrito abaixo. O intervalo de tempo também pode ser ajustado. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. Se esse tráfego for identificado como fraudulento pelo plug-in após sessenta dias, ele será sinalizado novamente como uma exceção e não será coletado por mais sessenta dias.
+Se desejado, a partir desse ponto, o tráfego pode ser impedido de ser coletado para esse visitante específico por um período padrão de sessenta dias. Bloquear o tráfego exige uma linha adicional de código na função doPlugins, conforme descrito abaixo. O intervalo de tempo também pode ser ajustado. A lógica permite que o tempo inclua o endereço IP desse visitante, o Agente do usuário ou a ID de visitante da [!DNL Experience Cloud] na lógica de exceção permanente adequada ou para redefinir o período de tempo limite após o decurso de sessenta dias. Se esse tráfego for identificado como fraudulento pelo plug-in após sessenta dias, ele será sinalizado novamente como uma exceção e não será coletado por mais sessenta dias.
 
 ## Relatório {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ Para implementar o plug-in hitGovernor:
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. Ela é incluída após e *fora da* função doPlugins.
+   >Embora a funcionalidade `registerPostTrackCallback` esteja incluída nas bibliotecas do AppMeasurement 1.8.0+, ela não está incluída em nenhuma configuração de código personalizado por padrão. Ela é incluída após e *fora da* função doPlugins.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ Para implementar o plug-in hitGovernor:
 
 >[!NOTE]
 >
->Sua implementação pode usar um nome de objeto diferente do objeto "s" de análise padrão. Em caso afirmativo, atualize o nome do objeto de acordo.
+>A implementação pode usar um nome de objeto diferente do objeto "s" padrão do Analytics. Em caso afirmativo, atualize o nome do objeto de acordo.
 
 1. Configurar regras de processamento.
 
