@@ -1,23 +1,23 @@
 ---
 description: A variável products é usada para rastrear produtos e categorias de produto (assim como quantidade e preço da compra).
-keywords: Implementação do Analytics; variável products; exibição do produto; evento bem-sucedido
+keywords: Implementação do Analytics, variável de produtos, visualização do produto, evento bem-sucesso
 seo-description: A variável products é usada para rastrear produtos e categorias de produto (assim como quantidade e preço da compra).
-seo-title: Página detalhada de visualização do produto
+seo-title: Página de exibição detalhada do produto
 solution: Analytics
-title: Página detalhada de visualização do produto
+title: Página de exibição detalhada do produto
 topic: Desenvolvedor e implementação
-uuid: 464 c 9 daf-b 042-4 fb 8-8 ca 6-e 104 c 0 bcef 45
-translation-type: tm+mt
+uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Página detalhada de visualização do produto
+# Página de exibição detalhada do produto
 
 A variável products é usada para rastrear produtos e categorias de produto (assim como quantidade e preço da compra).
 
-A success event should always be set in conjunction with the *`products`* variable.
+Um evento bem-sucedido deve sempre ser definido juntamente com a variável *`products`*.
 
 ```js
 s.events="prodView"
@@ -25,7 +25,7 @@ s.events="prodView"
 
 >[!NOTE]
 >
->While *`prodView`* is treated in implementation like an event, it does not have the same flexibility in the interface. The *`prodView`*event is an instance of the product and is only available in the *`products`* report. Adobe recommends you use a *`custom`* event in addition to the *`prodView`* event. Dessa forma, você poderá ver as métricas de exibição do produto juntamente com outras métricas em outros relatórios de conversão.
+>Embora, *`prodView`* seja tratado na implementação como um evento, ele não tem a mesma flexibilidade na interface. O evento *`prodView`* é uma instância do produto e só fica disponível no relatório de *`products`*. A Adobe recomenda usar um evento *`custom`*, além do evento *`prodView`*. Dessa forma, você poderá ver as métricas de exibição do produto juntamente com outras métricas em outros relatórios de conversão.
 
 ```js
 s.products=";diamond earrings (54321)"
@@ -33,7 +33,7 @@ s.products=";diamond earrings (54321)"
 
 >[!NOTE]
 >
->A sintaxe de string products deve começar com um ponto-e-vírgula. Esse é um requisito legado da sintaxe. Ele era usado previamente para delimitar a categoria e o produto, mas isso cria uma limitação dentro da interface, caso você queira alterar a forma de classificação dos produtos. Para ter flexibilidade máxima na criação de relatórios, é melhor deixar em branco e usar Classificações para configurar categorias.
+>A sintaxe da string de produtos deve começar com um ponto e vírgula. Esse é um requisito legado da sintaxe. Ele era usado previamente para delimitar a categoria e o produto, mas isso cria uma limitação dentro da interface, caso você queira alterar a forma de classificação dos produtos. Para ter flexibilidade máxima na criação de relatórios, é melhor deixar em branco e usar Classificações para configurar categorias.
 
 ## Shopping Cart Page (scOpen, scAdd, scRemove ) {#section_469B64F4150149DFB6B2C731279C0BC7}
 
@@ -58,6 +58,6 @@ s.products=";SKU"
 
 >[!NOTE]
 >
->While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. Você pode criar categorias do SKU que indicam finalização, fabricante, categoria e subcategoria.
+>Embora o uso do SKU na string do produto possa tornar o *`products`* relatório menos legível, ele fornece a flexibilidade máxima posteriormente quando você deseja classificar os produtos. Você pode criar categorias do SKU que indicam finalização, fabricante, categoria e subcategoria.
 
-Quando a variável *`products`* for definida juntamente com o evento *`purchase`, a quantidade de compra e o preço total da compra serão incluídos no valor dos produtos, como mostrado acima.*
+Quando a variável *`products`* for definida juntamente com o evento *`purchase`*, a quantidade de compra e o preço total da compra serão incluídos no valor dos produtos, como mostrado acima.
