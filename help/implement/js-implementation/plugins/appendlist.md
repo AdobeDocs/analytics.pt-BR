@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Desenvolvedor e implementação
-uuid: e 923 c 86 c-eaa 6-4 e 17-a 3 a 4-0 e 08 af 886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -31,7 +31,7 @@ Esse plug-in é útil para:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cenário </p> </td> 
-   <td colname="col2"> <p>Adicionar <span class="term"> event 1 </span> à variável de eventos atual, garantindo que o evento não seja duplicado. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Adicionar <span class="term"> event1 </span> à variável de eventos atual, garantindo que o evento não seja duplicado. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código </p> </td> 
@@ -50,7 +50,7 @@ Esse plug-in é útil para:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cenário </p> </td> 
-   <td colname="col2"> <p>Adicione o valor <span class="term"> histórico </span> para prop de lista <span class="varname"> prop 1 </span>, com <span class="term"> histórico </span> e <span class="term"> Histórico </span> considerados o mesmo valor. </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>Adicione o valor O <span class="term"> histórico </span> para a variável de lista <span class="varname"> prop1 </span>, onde o <span class="term"> histórico </span> e <span class="term"> Histórico </span> são considerados o mesmo valor. </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código </p> </td> 
@@ -58,21 +58,21 @@ Esse plug-in é útil para:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Resultados </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> o histórico </span> não é adicionado porque <span class="term"> o Histórico </span> já está na lista. </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> O <span class="term"> histórico </span> não é adicionado porque o <span class="term"> Histórico </span> já está na lista. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Implementação {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 Siga estas etapas para implementar o plug-in APL.
 
 1. Solicite o código do plug-in no Atendimento ao cliente ou com o consultor da Adobe atribuído.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. Adicione chamadas à função API, conforme a necessidade, na função *`s_doPlugins`*
 
 O código deverá ter esta aparência no site:
 
