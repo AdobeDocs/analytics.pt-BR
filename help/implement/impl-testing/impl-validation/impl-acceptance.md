@@ -1,21 +1,21 @@
 ---
-description: 'Etapas do processo de implementação '
+description: Etapas do processo de implementação.
 keywords: Implementação do Analytics
-seo-description: 'Etapas do processo de implementação '
-seo-title: Aceitação de implementação
+seo-description: Etapas do processo de implementação.
+seo-title: Aceitação da implementação
 solution: Analytics
-title: Aceitação de implementação
+title: Aceitação da implementação
 topic: Desenvolvedor e implementação
-uuid: 6 f 7 ec 56 e -9 e 4 f -4 dc 8-b 534-92 b 1580 b 5 b 47
-translation-type: tm+mt
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Aceitação de implementação
+# Aceitação da implementação
 
-Etapas do processo de implementação 
+Etapas do processo de implementação.
 
 As etapas a seguir realçam o processo de implementação.
 
@@ -26,7 +26,7 @@ As etapas a seguir realçam o processo de implementação.
 1. O consultor Adobe lida com os problemas técnicos durante a implementação e auxiliam nas descobertas de solução, conforme necessário.
 1. Os recursos técnicos do lado do cliente testam a implementação.
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   Os testadores fazem logon em [!DNL Analytics] e verificam todas as variáveis ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, variáveis de conversão, variáveis de tráfego personalizadas, *`products`* e todas as outras variáveis).
 1. O cliente notifica a Adobe que a implementação foi concluída.
 
    O cliente fornece uma amostra de validação (amostra de dados) para o consultor Adobe validar a precisão dos dados. (Conjuntos de relatórios gerados por VISTA são validados com a comparação das métricas apropriadas. É necessário firmar um acordo do cliente com a Adobe antecipadamente, no momento da criação da regra VISTA, sobre as métricas que serão validadas.)
