@@ -1,14 +1,14 @@
 ---
 description: A função s.t() é a que compila todas as variáveis definidas nessa página em uma solicitação de imagem e a envia a todos os nossos servidores.
-keywords: track; Implementação do Analytics; rastreamento de página; página de rastreamento
+keywords: rastrear, implementação do Analytics, rastreamento de páginas, rastrear página
 seo-description: A função s.t() é a que compila todas as variáveis definidas nessa página em uma solicitação de imagem e a envia a todos os nossos servidores.
 seo-title: A função s.t() - Rastreamento de página
 solution: Analytics
 subtopic: Funções
 title: A função s.t() - Rastreamento de página
 topic: Desenvolvedor e implementação
-uuid: 67696 e 46-1 e 0 d -4200-bfad -4217 d 1023948
-translation-type: tm+mt
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
