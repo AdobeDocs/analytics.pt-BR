@@ -1,22 +1,22 @@
 ---
 description: O suporte a plug-in foi alterado na nova versão do AppMeasurement para JavaScript.
-keywords: Implementação do Analytics; appmeasurement; javascript; plug-plugin; plug-in
+keywords: Implementação do Analytics, appmeasurement, javascript, plugin, plug-in
 seo-description: O suporte a plug-in foi alterado na nova versão do AppMeasurement para JavaScript.
-seo-title: Suporte a plug-ins do appmeasurement
+seo-title: Suporte ao plug-in do AppMeasurement
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: Suporte a plug-ins do appmeasurement
+title: Suporte ao plug-in do AppMeasurement
 topic: Desenvolvedor e implementação
-uuid: e 048 e 16 b -994 a -4079-bde 4-3 faa 3 df 8 c 96 d
-translation-type: tm+mt
+uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# Suporte a plug-ins do appmeasurement
+# Suporte ao plug-in do AppMeasurement
 
-Suporte de plug-in na versão atual do appmeasurement para javascript.
+Suporte de plug-in na versão atual do JavaScript AppMeasurement.
 
 ## Plug-ins testados {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 
@@ -24,7 +24,7 @@ Os plug-ins a seguir foram testados e verificados como compatíveis:
 
 * [s.abort flag](/help/implement/js-implementation/plugins/abort.md)
 * [appendList](/help/implement/js-implementation/plugins/appendlist.md)
-* [função doplugins](/help/implement/js-implementation/plugins/function-doplugins.md)
+* [Função doPlugins](/help/implement/js-implementation/plugins/function-doplugins.md)
 * [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
 * [getDaysSinceLastVisit](../../../implement/js-implementation/plugins/getdayssincelastvisit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
 * [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
