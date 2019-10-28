@@ -1,13 +1,13 @@
 ---
 description: O exemplo ilustra o uso de uma tag de imagem gerada no servidor dentro de uma página HTML de amostra.
-keywords: Implementação do Analytics; variáveis
+keywords: Implementação do Analytics, variáveis
 seo-description: O exemplo ilustra o uso de uma tag de imagem gerada no servidor dentro de uma página HTML de amostra.
 seo-title: Código de exemplo
 solution: Analytics
 title: Código de exemplo
 topic: Desenvolvedor e implementação
-uuid: 47 e 5 e 82 c-cfb 2-4912-919 b -720 b 2 ee 852 ba
-translation-type: tm+mt
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
