@@ -5,10 +5,10 @@ seo-description: Retorna o valor de um parâmetro especificado da string de cons
 seo-title: getQueryParam
 solution: Analytics
 subtopic: Plug-ins
-title: ' getQueryParam'
+title: getQueryParam
 topic: Desenvolvedor e implementação
-uuid: ba 202756-c 728-4 ebc -8 fd 9-5 bc 29 a 9 f 673 b
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,23 +20,23 @@ Retorna o valor de um parâmetro especificado da string de consulta, se for enco
 
 >[!IMPORTANT]
 >
->Esse plug-in é usado somente pelo código H. [O appmeasurement para javascript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fornece essa funcionalidade nativa usando [Util. getqueryparam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Este plugin é usado somente pelo código H. O [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) oferece essa funcionalidade nativamente ao usar o [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. O plug-in detecta a string de consulta especificada, se houver, e preenche a variável escolhida com seu valor. Se nenhum parâmetro de string de consulta for encontrado com esse valor, uma string vazia é retornada. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Depois de instalado no [!DNL AppMeasurement] para código JavaScript, o plug-in é configurado ao selecionar uma variável do [!DNL Analytics] para preencher, usando os dados encontrados na sequência de consulta e especificando os valores da sequência de consulta que devem ser capturados. O plug-in detecta a string de consulta especificada, se houver, e preenche a variável escolhida com seu valor. Se nenhum parâmetro de string de consulta for encontrado com esse valor, uma string vazia é retornada. Se um parâmetro da sequência de consulte existe, mas não tem um valor (como param1 em `?param1&param2=value`), a palavra *`true`* é retornada.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>O código base do plug-in deve ser instalado no [!DNL AppMeasurement] para código JavaScript, antes que os exemplos abaixo funcionem.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+Se você quiser usar *`s.campaign`* para capturar os códigos de rastreamento de campanha disponíveis como valores do parâmetro de consulta *`cid`*, insira o seguinte na função *`doPlugins()`* em seu [!DNL AppMeasurement] para o código JavaScript:
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. Isso pode ser visto usando o Depurador [!DNL DigitalPulse], que deve mostrar *v0=123456* como parte da solicitação de imagem.
+Nesse exemplo, se o usuário chegou a uma página de aterrissagem no site, onde o URL era [!DNL https://www.yoursite.com/index.html?cid=123456], então *`s.campaign`* receberia um valor de *123456*. Isso pode ser visto usando o [!DNL DigitalPulse] [!UICONTROL Depurador ], que deve mostrar *v0=123456* como parte da solicitação de imagem.
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. É possível substituí-los por qualquer parâmetro da string de consulta que existe no site.
+>O parâmetro *`cid`* e outros são usados aqui como exemplos. É possível substituí-los por qualquer parâmetro da string de consulta que existe no site.
 
 O plug-in *`getQueryParam`* tem dois argumentos adicionais (opções) que podem ser usados para capturar dados nas variáveis do Analytics:
 
@@ -76,7 +76,7 @@ Quando você usar quadros e o parâmetro *f*, é recomendável usar o plug-in *`
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 **Código do plug-in**
 
