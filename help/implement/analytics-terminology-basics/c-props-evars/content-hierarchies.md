@@ -1,13 +1,13 @@
 ---
 description: Uma utilização comum de hierarquias de conteúdo é mostrar os caminhos diferentes que os visitantes adotaram em determinada página, nível e assim por diante.
-keywords: Implementação do Analytics; hierarquias de conteúdo; hier
+keywords: Implementação do Analytics, hierarquias de conteúdo, hier
 seo-description: Uma utilização comum de hierarquias de conteúdo é mostrar os caminhos diferentes que os visitantes adotaram em determinada página, nível e assim por diante.
 seo-title: Contagem de hierarquias de conteúdo
 solution: Analytics
 title: Contagem de hierarquias de conteúdo
 topic: Desenvolvedor e implementação
-uuid: d 41 df 92 d -65 fb -44 de-bf 46-8 fac 24303 pai
-translation-type: tm+mt
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
@@ -51,7 +51,7 @@ Há ocasiões em que o uso de props e das variáveis *`hier`* faz sentido. A seg
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Exibição da página </td> 
+   <td> Exibição da Página </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_5BB82776D41642E78C2ECFD71DD33164" /> </p> </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_18F34EE8957946AF9D6C2C9B492CEDB7" /> </p> </td> 
   </tr> 
