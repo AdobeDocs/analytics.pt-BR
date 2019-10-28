@@ -6,8 +6,8 @@ seo-title: Estratégias de nomenclatura de página
 solution: Analytics
 title: Estratégias de nomenclatura de página
 topic: Desenvolvedor e implementação
-uuid: a 829 d 0 c 7-6 ebf -459 a-b 403-5 e 9 c 05161 e 5 c
-translation-type: tm+mt
+uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,12 +17,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A variável pageName deve ser preenchida com um identificador de página intuitivo, de fácil leitura.
 
-You can determine the best way of populating the *`pageName`* variable by looking at the structure of your website. The methods listed below outline various ways of populating the *`pageName`* variable.
+É possível determinar a melhor maneira de preencher a variável *`pageName`*, observando a estrutura do site. Os métodos listados abaixo destacam várias formas de preencher a variável *`pageName`*.
 
-While the *`pageName`* variable is central to identifying user behavior, Adobe recommends using multiple variables to indicate page information. As melhores estratégias de nomenclatura utilizam uma variável diferente para cada nível de hierarquia dento do site, como mostrado abaixo:
+Embora a variável *`pageName`* seja central para identificar o comportamento do usuário, a Adobe recomenda utilizar múltiplas variáveis para indicar informações de página. As melhores estratégias de nomenclatura utilizam uma variável diferente para cada nível de hierarquia dento do site, como mostrado abaixo:
 
 * A variável *`channel`* pode ser usada para indicar a seção do site.
-* *`pageName`* A variável pode ser usada para mostrar o tipo de conteúdo.
+* A variável *`pageName`* pode ser usada para mostrar o tipo de conteúdo.
 * Uma variável [!UICONTROL custom insight] (prop1) pode ser usada para conteúdo detalhado.
 
 Os níveis de detalhes variam, dependendo da propriedade, como mostrado abaixo:
@@ -36,7 +36,7 @@ Os níveis de detalhes variam, dependendo da propriedade, como mostrado abaixo:
 
 Quanto mais em camada o site estiver dividido, mais as variáveis devem ser usadas para identificar o conteúdo da página. As empresas também encontram valor na permissão de sobreposição entre as variáveis. Por exemplo, uma variável mais detalhada pode conter informações não somente sobre o produto sendo visualizado, mas também sobre a seção e a subseção. Esta estratégia pode ser especialmente útil quando um produto ou artigo aparecer em mais de uma seção do site.
 
-As estratégias de nomenclatura de página a seguir descrevem como preencher a *`pageName`* variável. Enquanto tenta escolher a estratégia de nomeação da página mais fácil de implementar, a estratégia de nomeação da página determina a usabilidade de todos os Relatórios de [!UICONTROL Caminho] e de [!UICONTROL Página]. Tenha cuidado ao decidir como as páginas serão nomeadas.
+As estratégias de nomenclatura de página a seguir descrevem como preencher a *`pageName`*. Enquanto tenta escolher a estratégia de nomeação da página mais fácil de implementar, a estratégia de nomeação da página determina a usabilidade de todos os Relatórios de [!UICONTROL Caminho] e de [!UICONTROL Página]. Tenha cuidado ao decidir como as páginas serão nomeadas.
 
 ## Nome exclusivo para cada página {#section_24704CA39E2F4C00ACEAFF39CA0A921B}
 
@@ -59,7 +59,7 @@ Para alguns sites, o caminho do arquivo é claro e, portanto, lido facilmente. U
 s.pageName="<%= file_path %>"
 ```
 
-Adobe does not recommend leaving the *`pageName`* blank, (which results in using the full URL of the page) even though you may be tempted to do so. The following side-effects are caused by leaving the *`pageName`* variable blank and using the *`pageURL`* as the page identifier.
+A Adobe não recomenda deixar o *`pageName`* em branco (o que resulta no uso do URL completo da página), mesmo que você seja tentado a fazê-lo. Os seguintes efeitos colaterais são causados por deixar a variável *`pageName`* em branco e usar o *`pageURL`* como o identificador da página.
 
 * O domínio e o caminho de uma página podem nem sempre ser exibidos de forma idêntica. Por exemplo, a seguir as quatro URLs retornam uma única página:
 
@@ -67,13 +67,13 @@ Adobe does not recommend leaving the *`pageName`* blank, (which results in using
    * `https://www.mysite.com`
    * `https://mysite.com/index.jsp`
    * `https://mysite.com/`
-   If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports.
+   Se o *`pageName`* for deixada em branco, cada um desses nomes de páginas ocupará uma entrada separada nos relatórios.
 
 * Algumas páginas (p. ex. formulários) publicam para elas mesmas, desse modo apagando qualquer distinção entre o formulário original e a saída de resultado.
 * Quando a sua página é traduzida para outro idioma por mecanismos de pesquisa e outras ferramentas online, a URL da página é a URL do mecanismo de pesquisa (não a URL de seu site).
 
 ## HTML (document.title) {#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
 
-If you have invested time into making your HTML titles readable and intuitive, you might consider using the same title as the value in the *`pageName`* variable. Adobe recommends using a server-side variable to populate the *`pageName`* rather than using JavaScript's [!DNL document.title]. Alguns navegadores interpretam o título HTML de forma diferente que outros, o que pode fazer com que o [!DNL Analytics] receba nomes de página diferentes de navegadores diferentes.
+Se você tiver investido tempo tornando os seus títulos HTML legíveis e intuitivos, poderá considerar utilizar o mesmo título como o valor na variável *`pageName`*. A Adobe recomenda usar uma variável do lado do servidor para preencher o *`pageName`*, em vez de usar o [!DNL document.title] do JavaScript. Alguns navegadores interpretam o título HTML de forma diferente que outros, o que pode fazer com que o [!DNL Analytics] receba nomes de página diferentes de navegadores diferentes.
 
 A prática recomendada para utilizar o título HTML é copiar os títulos existentes de cada página para uma variável separada ou elemento de gerenciamento de conteúdo. Quando você decidir fazer alterações no título de HTML para otimização do mecanismo de pesquisa ou outros fins, os nomes de página do [!DNL Analytics] não serão afetados. Se um nome de página for alterado no [!DNL Analytics], ela se tornará uma nova página e não estará conectada com o nome de página antigo, independentemente do URL associada.
