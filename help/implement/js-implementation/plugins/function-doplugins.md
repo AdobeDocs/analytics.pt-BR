@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: Função doPlugins
 topic: Desenvolvedor e implementação
-uuid: 367 d 5550-f 8 e 2-477 d -8681-18 ae 9665 d 699
-translation-type: tm+mt
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Normalmente, os plug-ins JavaScript são chamados pela função doPlugins, que é executada quando a função t() é chamada em Código para colar.
 
-Consequentemente, se você definir uma variável na função `doPlugins`, é possível substituir uma variável definida na página HTML. The only time the `doPlugins` function is not called is when the *`usePlugins`* variable is set to `false`.
+Consequentemente, se você definir uma variável na função `doPlugins`, é possível substituir uma variável definida na página HTML. A única vez que a função `doPlugins` não é chamada é quando a variável *`usePlugins`* é definida como `false`.
 
 **Exemplo de código**
 
-The `doPlugins` function is typically called `s_doPlugins`. No entanto, em determinadas circunstâncias (normalmente quando mais de uma versão do código do [!DNL Analytics] pode aparecer em uma única página), é possível alterar o nome da função `doPlugins`. Se for necessário renomear a função padrão `doPlugins` para evitar conflitos, atribua o nome de função correto a `doPlugins`, como mostrado no exemplo abaixo.
+Normalmente, a função `doPlugins` é chamada de `s_doPlugins`. No entanto, em determinadas circunstâncias (normalmente quando mais de uma versão do código do [!DNL Analytics] pode aparecer em uma única página), é possível alterar o nome da função `doPlugins`. Se for necessário renomear a função padrão `doPlugins` para evitar conflitos, atribua o nome de função correto a `doPlugins`, como mostrado no exemplo abaixo.
 
 ```js
 /* Plugin Config */ 
