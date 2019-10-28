@@ -1,12 +1,12 @@
 ---
 description: As condições determinam quando uma regra baseada em eventos é acionada.
-keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra baseada em eventos;ativação de link de atraso;aplicar o manipulador de eventos diretamente ao elemento;borbulhamento;borbulhamento de eventos
+keywords: Dynamic Tag Management, regra, criar regra, nova regra, regra baseada em evento, atrasar ativação de link, aplicar manipulador de eventos diretamente ao elemento, propagação, propagação de eventos
 seo-description: As condições determinam quando uma regra baseada em eventos é acionada.
 seo-title: Criar condições para regras baseadas em eventos
-solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Criar condições para regras baseadas em eventos
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -20,7 +20,7 @@ As condições determinam quando uma regra baseada em eventos é acionada.
 
    ![](assets/condition-event-based.png)
 
-   Para obter mais informações, consulte [Tipos de eventos](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) na documentação do produto do Tag Management da Adobe.
+   Para obter mais informações, consulte [Tipos de evento](https://marketing.adobe.com/resources/help/pt_BR/dtm/event_types.html) na Documentação do produto Dynamic Tag Management.
 
 1. Ative as opções a seguir se necessário:
 
@@ -29,7 +29,7 @@ As condições determinam quando uma regra baseada em eventos é acionada.
    | Atrasar ativação de link | Ative se o evento ativar um link e você desejar que o link seja atrasado até que o evento tenha tempo de ser acionado. |
    | Aplicar o manipulador de evento diretamente no elemento | Aplica o manipulador de evento no elemento específico que está marcado. Essa configuração está vinculada ao conceito do efeito de bolhas e camadas em um navegador. |
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. Um evento como um clique pode gerar bolhas para `<body>`. É importante entender onde o evento está realmente vinculado, e direcioná-lo especificamente para garantir que a regra seja acionada corretamente.
+   Por exemplo, ao clicar em uma imagem dentro de uma tag de âncora como `<a href="abc.html"><img src="xyz.png"/></a>`, é de se esperar que o clique esteja associado à tag de âncora, visto que a tag está no fluxo de propagação. Contudo, quando você inspeciona o clique nas ferramentas do desenvolvedor, o clique pode na verdade afetar somente a tag `<img>`. Para garantir que o evento seja manipulado corretamente, associe o clique à tag `<img>` e não dependa do navegador para propagar o clique para um elemento principal. Um evento como um clique pode gerar bolhas para `<body>`. É importante entender onde o evento está realmente vinculado, e direcioná-lo especificamente para garantir que a regra seja acionada corretamente.
 
    *Efeito de bolha* significa que o evento é capturado primeiro e manipulado pelo elemento mais interno e propagado para os elementos externos.
 
@@ -37,7 +37,7 @@ As condições determinam quando uma regra baseada em eventos é acionada.
 
    ![](assets/condition-event-based2.png)
 
-   Consulte [Usar o seletor de CSS](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) na documentação do produto do Dynamic Tag Management para obter informações sobre como descobrir a tag de elemento correta.
+   Consulte [Uso do seletor de CSS](https://marketing.adobe.com/resources/help/pt_BR/dtm/css-selector.html) na Documentação do produto Dynamic Tag Management, para obter informações sobre a localização da tag de elemento correta.
 
 1. Selecione e configure outros critérios ou tipos de condição que deseja vincular à regra.
 
