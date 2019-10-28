@@ -1,13 +1,13 @@
 ---
 description: Existem diversos tipos de variáveis disponíveis na Experience Cloud. Os dois tipos mais populares, Props e eVars, permitem que sua organização informe sobre dimensões personalizadas para site que os relatórios padrão prontos não oferecem.
-keywords: Implementação do Analytics; prop; evar; props x evars; convenção de nomenclatura; variáveis de tráfego; persistence; evento bem-sucedido; caminho
+keywords: Implementação do Analytics, prop, evar, props vs evars, convenção de nomenclatura, variáveis de tráfego, persistência, evento bem-sucedido, definição de caminho
 seo-description: Existem diversos tipos de variáveis disponíveis na Experience Cloud. Os dois tipos mais populares, Props e eVars, permitem que sua organização informe sobre dimensões personalizadas para site que os relatórios padrão prontos não oferecem.
 seo-title: Comparação de Props e eVars
 solution: Analytics
 title: Comparação de Props e eVars
 topic: Desenvolvedor e implementação
-uuid: 0 f 02760 f-ff 69-481 c-a 817-799 f 02 dafe 8 e
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -49,7 +49,7 @@ As seguintes são as principais diferenças entre props e eVars:
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Taxa de rejeição </p> </td> 
+   <td colname="col1"> <p>Taxa de rejeição  </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_A268EAF747EA45F8A6A93A1B66667A06" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ As seguintes são as principais diferenças entre props e eVars:
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_123993465D734EABB311730ED03263F6" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Acesso único </p> </td> 
+   <td colname="col1"> <p>Único Acesso </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_038C6991E3F341B18E7A355D17C88895" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Com o lançamento da versão 15, os recursos entre props e eVars são muito meno
 As props têm certas vantagens em relação às eVars, e podem ser evitadas:
 
 * Os dados da prop são coletados e disponibilizados nos relatórios quase instantaneamente. As eVars podem levar mais de 30 minutos para serem exibidas nos dados do conjunto de relatórios.
-* Todas as props podem ter relatórios do tipo fluxograma ativados, o que permite ver o percurso dos visitantes no seu site. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* Todas as props podem ter relatórios do tipo fluxograma ativados, o que permite ver o percurso dos visitantes no seu site. Esses relatórios do fluxo de definição do caminho estão disponíveis para Props e eVars na [!UICONTROL Ad Hoc Analysis].
 * As props podem ser corresponder a vários níveis, enquanto as eVars podem ser sub-relacionadas apenas uma vez. Tal limitação pode ser eliminada por meio da segmentação, fornecendo dados idênticos como correlações.
 * As métricas de participação permitem ver quais valores de prop já participaram de um evento bem-sucedido.
 
@@ -159,5 +159,5 @@ As métricas de definição de caminho, como Tempo total gasto, Entradas e Saíd
 
 >[!TIP]
 >
->Se não quiser que uma evar persista, você pode alterar sua expiração para'ocorrência'para que ela não mantenha dados além da ocorrência.
+>Se não quiser que uma eVar persista, poderá alterar sua expiração para “hit”, de modo que ela não mantenha dados após o hit.
 
