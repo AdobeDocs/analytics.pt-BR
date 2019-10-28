@@ -6,8 +6,8 @@ seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
 topic: Desenvolvedor e implementação
-uuid: 5 d 26 a 69 b-cbde -4 be 1-bac 1-5 ee 8 a 4 e 55 ca 3
-translation-type: tm+mt
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Para usar este plugin, você insere o código da função, em seguida, chama a f
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código e implementação do plug-in {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **Efetuar a chamada de função inicial**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+Adicione uma chamada a `s_getLoadTime()` próximo do início de [!DNL s_code.js], fora de qualquer função.
 
 **Efetuar a chamada de função final**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+Adicione outra chamada a `s_getLoadTime()` na função `s_doPlugins()`, salvando o valor retornado em uma prop, eVar e/ou um evento numérico.
 
 Exemplo de utilização 1 - Salve o tempo de carregamento de página em prop10 e eVar20:
 
@@ -55,7 +55,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Opcional) Adicionar suporte a navegadores antigos**
 
-Para suportar navegadores antigos que não oferecem a propriedade [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/), inclua a seguinte linha na seção CABEÇALHO do HTML da página próximo ao início e antes de invocar .js, .css ou outros arquivos:
+Para suportar navegadores mais antigos que não oferecem a propriedade [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/), inclua a seguinte linha na seção CABEÇALHO do HTML da página próximo ao início e antes de invocar .js, .css ou outros arquivos:
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
