@@ -6,8 +6,8 @@ seo-title: s.abort flag
 solution: Analytics
 title: s.abort flag
 topic: Desenvolvedor e implementação
-uuid: 0 c 6 ec 8 c 7-d 136-4851-8 cb 6-6 cb 1 b 7 f 6 f 0 dc
-translation-type: tm+mt
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 O sinalizador de anulação pode ser configurado dentro de doPlugins, fazendo com que a chamada de rastreamento atual não seja enviada.
 
-O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de doPlugins
+O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de doPlugins.
 
 ```js
 s.doPlugins = function(s) { 
