@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: Desenvolvedor e implementação
-uuid: ab 2 a 6 c 51-8791-41 e 7-9 bea-c 1 ce 8 d 312 de 8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Este plug-in usa a Navigation Timing JavaScript API para medir com precisão o d
 
 >[!IMPORTANT]
 >
->Esta é uma versão beta do plug-in e pode haver atualizações adicionais.
+>Observação: está é uma versão beta do plug-in e pode haver mais atualizações no futuro.
 
 Este plug-in usa os seguintes eventos detalhados para rastrear os componentes de tempo individuais de um carregamento de página:
 
@@ -57,7 +57,7 @@ Além disso, o plug-in pode usar, opcionalmente, o objeto performanceEntries par
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados do seu site, e deve ser feito somente por um desenvolvedor com experiência de uso e implementação do Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados do seu site, e deve ser feito somente por um desenvolvedor com experiência de uso e implementação do Adobe Analytics. Este plug-in é compatível somente com as bibliotecas de rastreamento do [!DNL AppMeasurement].
 
 **Sessão Config (antes de doPlugins):**
 
@@ -79,7 +79,7 @@ Para iniciar o plug-in, é preciso ter uma linha de código na sessão `doPlugin
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. Recomendamos que você compare as entradas de desempenho com o nome da página anterior ou o valor anterior do URL da página.
+>Para correlacionar as entradas de tempo de desempenho com as páginas do site, você deve inicializar o plug-in `getPreviousValue`. Recomendamos que você compare as entradas de desempenho com o nome da página anterior ou o valor anterior do URL da página.
 
 *Solicitações de exemplo*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * Sempre teste as instalações de plug-ins para garantir que a coleta de dados ocorra como esperado antes de ser implantada em um ambiente de produção.
 * Os dados não são coletados para a visualização final de página da visita porque o plug-in passa os dados de desempenho conforme são associados à página anterior.
 * Se você estiver rastreando o tempo do ativo, o plug-in dependerá na capacidade de definir valores de armazenamento de DOM no navegador da Web do usuário. Se o usuário não aceita cookies e tiver o armazenamento de DOM ativado, o plug-in não passará os dados ao Analytics. 
-* Uma pequena porcentagem de usuários não passará dados de tempo de navegação devido a limitações do navegador, e a lógica está contida no plug-in para garantir que os dados não sejam distorcidos como resultado - especialmente com uma pequena porção de navegadores móveis. No entanto, esse plug-in foi testado com êxito no IE, Firefox, Chrome e Safari.
-* [!UICONTROL As métricas calculadas] devem ser criadas para auxiliar no resumo e compreensão do comportamento do visitante associado a essas métricas:
+* Uma pequena porcentagem de usuários não passa dados de tempo de navegação devido a limitações do navegador. A lógica é mantida dentro do plug-in para garantir que, como resultado, os dados não sejam distorcidos. Em especial, isso ocorre com uma porção pequena de navegadores móveis. No entanto, esse plug-in foi testado com êxito no IE, Firefox, Chrome e Safari.
+* [!UICONTROL Métricas calculadas] devem ser criadas para auxiliar no resumo e na compreensão do comportamento do visitante associado às seguintes métricas:
 
    * Tempo de redirecionamento médio (Tempo de redirecionamento/Instâncias de tempo de desempenho)
    * Tempo do cache de aplicativos médio (Tempo do cache de aplicativos/Instâncias de tempo de desempenho)
