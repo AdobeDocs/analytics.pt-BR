@@ -1,13 +1,13 @@
 ---
 description: Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
-keywords: Implementação do Analytics; código de análise; código do cabeçalho; código do rodapé; cabeçalho; rodapé; gerenciamento dinâmico de tags; dtm; javascript
+keywords: Implementação do Analytics, código de análise, código de cabeçalho, código de rodapé, cabeçalho, rodapé, Dynamic Tag Management, dtm, javascript
 seo-description: Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
 seo-title: Código do Analytics
 solution: Analytics
-title: Analytics code
+title: Código do Analytics
 topic: Desenvolvedor e implementação
-uuid: 2615429 c -63 a 3-4 a 11-8 a 16-7 b 933 ed 462 f 5
-translation-type: tm+mt
+uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
 
-For information about using [!UICONTROL Dynamic Tag Management] to create the header and footer code for you, see [Add Header and Footer Code](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
+Para obter informações sobre como usar o [!UICONTROL Dynamic Tag Management] para criar o código de cabeçalho e rodapé para você, consulte [Adicionar código de cabeçalho e rodapé](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
 
-Here is an example of [!DNL AppMeasurement] JavaScript file, showing the code parts:
+Este é um exemplo do arquivo JavaScript [!DNL AppMeasurement] mostrando as partes do código:
 
 ![](assets/appmeasurement-js.png)
 
