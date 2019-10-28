@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: Notas de versão
 title: PHP
 topic: Desenvolvedor e implementação
-uuid: 65 a 644 ef -8 e 50-406 b -8 b 12-0582495 d 130 a
-translation-type: tm+mt
+uuid: 65a644ef-8e50-406b-8b12-0582495d130a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Para encontrar a versão atual da biblioteca, ative o registro de depuração.
+>Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
 ## Versão 1.2.2 {#section_0D547871DC684417B6CE1370E5C6AAC2}
 
@@ -29,7 +29,7 @@ Data de lançamento: **agosto de 2014**
 
 Data de lançamento: **julho de 2012**
 
-* Added a check for the "off" returned for the $_SERVER['HTTPS'] in IIS. Without this check, typecasting to boolean ((bool)$_SERVER['HTTPS']) returned true in IE whether the request was made through HTTP or HTTPS. Isso resultou em páginas não seguras tentando fazer uma solicitação de imagem segura.
+* Adição de uma verificação para o "off" retornado para o $_SERVER['HTTPS'] no IIS. Sem essa verificação, a conversão para booleano ((bool)$_SERVER['HTTPS']) retornou true no IE, independentemente se a solicitação foi feita por HTTP ou HTTPS. Isso resultou em páginas não seguras tentando fazer uma solicitação de imagem segura.
 
 ## Versão 1.1 {#section_8F4479681ED642FCB9233459E04FF702}
 
@@ -42,9 +42,9 @@ A Biblioteca de avaliações do PHP 1.1 inclui as seguintes atualizações da ve
 * Lista refinada de detecção de bots.
 * Adição de informações de depuração (cabeçalhos HTTP, resposta, erros e assim por diante) quando `debugTracking` e `sendFromServer` eram ativados.
 
-* `debugFilename` Adicionada a variável (quando `sendFromServer` está ativada).
+* Adição da variável `debugFilename` (quando `sendFromServer` é ativado).
 
-* The pagename variable defaults to `$_SERVER['SCRIPT_NAME']` when neither `pagename` nor `pageURL` are set.
+* A variável de pageName é padronizada como `$_SERVER['SCRIPT_NAME']` quando `pagename` e `pageURL` não estão definidos.
 
 * Suporte total para implementações CGI de PHP.
 * Aprimoramentos de desempenho.
