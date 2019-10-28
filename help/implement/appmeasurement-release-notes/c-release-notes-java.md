@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: Notas de versão
 title: Java
 topic: Desenvolvedor e implementação
-uuid: 14 d 13 bc 6-984 e -4 ef 4-a 1 d 5-51326 e 652868
-translation-type: tm+mt
+uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
