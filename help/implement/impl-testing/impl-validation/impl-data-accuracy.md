@@ -6,8 +6,8 @@ seo-title: Validação da precisão de dados
 solution: Analytics
 title: Validação da precisão de dados
 topic: Desenvolvedor e implementação
-uuid: 267 f 6 c 61-705 a -41 cf -9 e 09-4 e 2 ce 2331 f 32
-translation-type: tm+mt
+uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ Os pontos de dados preferidos para essa validação, em ordem de preferência, s
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. Essas páginas representam uma diferença maior à coleta de dados baseada em navegador que outras páginas visitadas.
+>Páginas padrão, como [!DNL index.html], recebem tráfego automatizado ou monitorado com frequência. Essas páginas representam uma diferença maior à coleta de dados baseada em navegador que outras páginas visitadas.
 
 Os três tipos de validação exigem um log de depuração ou feed de dados para o período em questão. Esse tempo geralmente é de um dia ou menos.
 
