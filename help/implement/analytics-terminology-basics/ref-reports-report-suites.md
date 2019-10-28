@@ -1,13 +1,13 @@
 ---
 description: 'Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em relatórios de marketing, na Ad Hoc Analysis e no Report Builder, você selecionará um conjunto de relatórios para usar (exceto quando utilizar roll-ups que combinam conjuntos de relatórios). '
-keywords: Implementação do Analytics; relatórios; conjunto de relatórios; relatório de análises; segmento global; roll-ups; rollups; combinar conjuntos de relatórios; tráfego; conversão; path
+keywords: Implementação do Analytics, relatórios, conjunto de relatórios, relatório do analytics, segmento global, roll-ups, rollups, combinar conjuntos de relatórios, tráfego, conversão, caminho
 seo-description: 'Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em relatórios de marketing, na Ad Hoc Analysis e no Report Builder, você selecionará um conjunto de relatórios para usar (exceto quando utilizar roll-ups que combinam conjuntos de relatórios). '
 seo-title: Relatórios e conjuntos de relatórios
 solution: Analytics
 title: Relatórios e conjuntos de relatórios
 topic: Desenvolvedor e implementação
-uuid: 288203 f 6-cd 13-4 e 01-9950-2 c 7 e 5 cfb 8 a 17
-translation-type: tm+mt
+uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
+translation-type: ht
 source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
@@ -35,24 +35,24 @@ Os relatórios fornecem informações sobre os dados coletados pelo Analytics, c
 
 Os tipos de relatório de alto nível incluem:
 
-* [Tráfego](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html): oferece informações detalhadas sobre como os visitantes interagem com seu site e suas estatísticas de tráfego personalizadas.
-* [Conversão](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html): exibe informações sobre indicadores de sucesso definidos.
-* [Caminhos](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html): permite rastrear e registrar os caminhos de navegação dos visitantes.
+* [Tráfego](https://marketing.adobe.com/resources/help/pt_BR/reference/reports_traffic.html): fornece informações detalhadas sobre como os visitantes interagem com o site e sobre as estatísticas de tráfego personalizadas.
+* [Conversão](https://marketing.adobe.com/resources/help/pt_BR/reference/reports_conversion.html): exibe informações sobre os indicadores de sucesso definidos por você.
+* [Caminhos](https://marketing.adobe.com/resources/help/pt_BR/reference/reports_paths.html): permitem rastrear e registrar todos os caminhos de navegação dos visitantes.
 
-Você pode usar a [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) para remover as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, crie segmentos e gerencie relatórios para compartilhamento com qualquer pessoa na sua empresa.
+Você pode usar o [Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/) para remover as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, crie segmentos e gerencie relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
 <p class="head"> <b>Consulte também</b> </p>
 
 * [Ajuda da Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
-* [Relatórios e análises](/help/analyze/reports-analytics/overview/report-overview.md)
-* [Relatórios em tempo real](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
-* [Ajuda do Report Builder da Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
-* [Extrações de dados](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
-* [Gerenciador do Conjunto de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
-* [Comparação e requisitos de produto do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
-* [Descrições de relatórios](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
-* [Painéis e reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
+* [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
+* [Relatórios em tempo real](https://marketing.adobe.com/resources/help/pt_BR/reference/realtime.html)
+* Ajuda do [Adobe Report Builder](https://marketing.adobe.com/resources/help/pt_BR/arb/)
+* [Extrações de dados](https://marketing.adobe.com/resources/help/pt_BR/sc/user/data_extract.html)
+* [Activity Map](https://marketing.adobe.com/resources/help/pt_BR/analytics/activitymap/)
+* [Gerenciador do conjunto de relatórios](https://marketing.adobe.com/resources/help/pt_BR/reference/report_suites_admin.html)
+* [Comparação de produtos e requisitos do Analytics](https://marketing.adobe.com/resources/help/pt_BR/reference/analytics-product-comparison.html)
+* [Descrições de relatório](https://marketing.adobe.com/resources/help/pt_BR/reference/reports_descriptions.html)
+* [Painéis e reportlets](https://marketing.adobe.com/resources/help/pt_BR/sc/user/dashboard.html)
 * [Marcadores](/help/analyze/reports-analytics/bookmarks.md)
 * [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md)
 * [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
