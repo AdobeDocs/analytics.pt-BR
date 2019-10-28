@@ -6,8 +6,8 @@ seo-title: Variáveis e valores
 solution: Analytics
 title: Variáveis e valores
 topic: Desenvolvedor e implementação
-uuid: 2 ff 4857 a -9451-4794-9146-f 417 abd 1 d 1 ba
-translation-type: tm+mt
+uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,7 +28,7 @@ Verifique se os valores das variáveis não excedem os limites máximos, especif
 
 Não use $, ™, ®, © ou vírgulas (,) na variável products. Geralmente, esses caracteres não são úteis em nenhuma variável do [!DNL Analytics] e podem interferir com a capacidade de interpretar ou exportar campos. A prática recomendada é limitar os caracteres aos primeiros 127 caracteres ASCII.
 
-Ensure that the events variable is populated with an appropriate value ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen], or event1-event5) whenever *`products`* is populated. Verifique se o uso de letras maiúsculas e minúsculas de todas as variáveis e funções do [!DNL Analytics] foi mantido, como mostrado abaixo.
+Verifique se a variável de eventos está preenchida com um valor apropriado ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen] ou event1-event5) sempre que *`products`* estiver preenchido. Verifique se o uso de letras maiúsculas e minúsculas de todas as variáveis e funções do [!DNL Analytics] foi mantido, como mostrado abaixo.
 
 ```js
 s.pageName 
@@ -50,6 +50,6 @@ Os nomes de página fazem distinção de letras maiúsculas e minúsculas e as d
 
 >[!NOTE]
 >
->Vários registros de página não podem ser combinados nos relatórios.
+>Não é possível combinar vários registros de página nos relatórios.
 
 Valide os links reportados no relatório [!UICONTROL Links personalizados]. Verifique se os parâmetros corretos foram transmitidos para a função [!UICONTROL tl]. Para obter mais informações sobre [!UICONTROL links personalizados], consulte [Rastreamento de link](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
