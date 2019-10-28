@@ -1,19 +1,19 @@
 ---
 description: 'null'
-keywords: Implementação do Analytics; referência do link; redir
+keywords: Implementação do Analytics, referência de link, redirecionamento
 seo-description: 'null'
-seo-title: Medição de link personalizada em protocolos móveis
+seo-title: Medição de link padrão em protocolos móveis
 solution: Analytics
-title: Medição de link personalizada em protocolos móveis
+title: Medição de link padrão em protocolos móveis
 topic: Desenvolvedor e implementação
-uuid: eb 82 de 26-da 2 e -41 c 2-8924-59 b 6 b 5 ccef 28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Medição de link personalizada em protocolos móveis
+# Medição de link padrão em protocolos móveis
 
 Vários usuários de dispositivos móveis baixam os arquivos para seus dispositivos, como podcasts, toques de telefone e arquivos semelhantes. Como vários dispositivos móveis não são compatíveis com JavaScript, a medição de link deve ser implementada através de direcionamentos. Para usar redirecionamentos, você deve modificar os links href no html para incluir o elemento REDIR. O formato geral para um link personalizado é o seguinte:
 
@@ -38,4 +38,4 @@ O URL de medição de link personalizado é semelhante ao seguinte:
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Para obter mais informações, consulte o [white paper Redirecionamentos por rastreamento de link de saída](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
+Para obter mais informações, consulte o whitepaper [Redirecionamentos do rastreamento de link de saída](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/redirects/).
