@@ -2,12 +2,12 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics,Experience Cloud
+solution: Analytics, Experience Cloud
 subtopic: Notas de versão
 title: Windows Phone 8
 topic: Desenvolvedor e implementação
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Para localizar a versão atual da biblioteca, ative o registro de depuração.
+>Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Os [downloads da biblioteca móvel](https://marketing.adobe.com/developer/pt-BR/get-started/mobile/c-measuring-mobile-applications) estão disponíveis em [!DNL Developer Connection].
 
 >[!NOTE]
 >
->The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. Não haverá mais nenhum desenvolvimento neste SDK.
+>O [!DNL Windows] Phone 8 SDK foi substituído pelo [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. Não haverá mais nenhum desenvolvimento neste SDK.
 
 ## Versão 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Data de lançamento: **21 de março de 2013**
 
 Data de lançamento: **26 de fevereiro de 2013**
 
-* `ADMS_Measurement.visitorID` agora é pré-preenchido com o valor padrão.
+* O`ADMS_Measurement.visitorID` agora fica pré-preenchido com o valor padrão.
 * Solucionado um problema que às vezes gerava respostas automáticas do cache.
 
 ## Versão 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
