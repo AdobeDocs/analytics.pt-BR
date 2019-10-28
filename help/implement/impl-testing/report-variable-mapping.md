@@ -6,8 +6,8 @@ seo-title: Relatório para mapeamento de variável
 solution: Analytics
 title: Relatório para mapeamento de variável
 topic: Desenvolvedor e implementação
-uuid: 4707660 c -4 be 5-425 c-a 690-7 bc 6 df 4 cc 0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,16 +26,16 @@ As tabelas abaixo exibem o relatório para mapeamento de variável ou os relató
 | Pedidos | s.events, s.products, s.purchaseID | Defina s.events para compra, detalhes do produto, número do produto |
 | Unidades | s.events, s.products, s.purchaseID | Defina s.events para compra, detalhes do produto, número do produto |
 
-| Carrinho de compras |
+| Carrinho de Compras |
 |---|
 | Conversões e médias | s.events, s.products, s.purchaseID |  |
 | Carrinho | s.events | Defina s.events como scOpen |
 | Exibições do carrinho | s.events | Defina s.events como scView |
 | Adições ao carrinho | s.events | Defina s.events como scAdd |
 | Remoções do carrinho | s.events | Defina s.events como scRemove |
-| Checkouts | s.events | Defina s.events como scCheckout |
+| Finalizações | s.events | Defina s.events como scCheckout |
 
-| Eventos personalizados |
+| Eventos Personalizados |
 |---|
 | Evento personalizado 1 | s.events | Preencha com event1 - event100 |
 | … | … | Preencha com event1 - event100 |
@@ -44,7 +44,7 @@ As tabelas abaixo exibem o relatório para mapeamento de variável ou os relató
 | Produtos |
 |---|
 | Conversões e médias | s.events, s.products, s.purchaseID |  |
-| Products | s.products, s.events | Pode variar, dependendo das métricas de coluna adequadas |
+| Produtos | s.products, s.events | Pode variar, dependendo das métricas de coluna adequadas |
 | Venda cruzada | s.products, s.events, s.purchaseID | Pode variar, dependendo das métricas de coluna adequadas |
 | Categorias | s.products | Pode variar, dependendo das métricas de coluna adequadas |
 
@@ -52,17 +52,17 @@ As tabelas abaixo exibem o relatório para mapeamento de variável ou os relató
 |---|
 | Conversões e médias | s.products, s.events, s.campaign |  |
 | Código de rastreamento | s.campaign |  |
-| Elementos criativos | N/A | Defined in [!DNL Analytics] |
-| Campanhas | N/A | Defined in [!DNL Analytics] |
+| Elementos criativos | N/A | Definido em [!DNL Analytics] |
+| Campanhas | N/A | Definido em [!DNL Analytics] |
 
-| Fidelidade do cliente |
+| Fidelidade do Cliente |
 |---|
-| Fidelidade do cliente | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
+| Fidelidade do Cliente | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
 
 | Ciclo de vendas |
 |---|
-| Dias antes da primeira compra | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
-| Dias desde a última compra | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
+| Dias Antes da Primeira Compra | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
+| Dias Desde a Última Compra | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
 | Número da visita | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
 | Clientes únicos diários | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
 | Clientes únicos mensais | s.products, s.events, s.purchaseID | Variáveis definidas na confirmação do pedido (Obrigado!) página |
@@ -117,23 +117,23 @@ A tabela a seguir lista as variáveis de [!UICONTROL tráfego] usadas para preen
 
 | Tráfego do site |
 |---|
-| Exibições da página | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Exibições de página | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Visitantes únicos por hora | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Visitantes únicos por dia | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Visitantes únicos mensais | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Visitantes únicos anuais | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Visitas | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Downloads de arquivos | N/A | Acompanhado automaticamente pelo arquivo .JS (depende das configurações da variável .JS) |
+| Downloads de Arquivos | N/A | Acompanhado automaticamente pelo arquivo .JS (depende das configurações da variável .JS) |
 
 | Métodos de descoberta |
 |---|
 | Domínios de referência | N/A | Definido automaticamente pelo arquivo .JS |
-| Referrers | N/A | Definido automaticamente pelo arquivo .JS |
+| Referenciadores | N/A | Definido automaticamente pelo arquivo .JS |
 | Mecanismos de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
 | Palavras-chave de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
-| Frequência de retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitas de retorno diário | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitas de retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Frequência de Retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitas de Retorno Diário | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitas de Retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Números de visitas | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 
 | Perfil do visitante |
@@ -145,7 +145,7 @@ A tabela a seguir lista as variáveis de [!UICONTROL tráfego] usadas para preen
 | Detalhes do visitante | N/A | Definido automaticamente pelo arquivo .JS |
 | Últimos 100 visitantes | N/A | Calculado por regra de negócio no [!DNL Analytics] |
 | Página inicial do usuário | N/A | Definido automaticamente pelo arquivo .JS |
-| Visitantes-chave | N/A | Baseado no endereço IP do visitante |
+| Visitantes principais | N/A | Baseado no endereço IP do visitante |
 | Páginas visualizadas por visitantes-chave | N/A | Baseado no endereço IP do visitante |
 
 | Segmentação geográfica |
@@ -164,7 +164,7 @@ A tabela a seguir lista as variáveis de [!UICONTROL tráfego] usadas para preen
 | Largura da janela do navegador | N/A | Definido automaticamente pelo arquivo .JS |
 | Altura da janela do navegador | N/A | Definido automaticamente pelo arquivo .JS |
 | Sistemas operacionais | N/A | Definido automaticamente pelo arquivo .JS |
-| Profundidade de cor do monitor | N/A | Definido automaticamente pelo arquivo .JS |
+| Intensidade de cor do monitor | N/A | Definido automaticamente pelo arquivo .JS |
 | Resoluções do monitor | N/A | Definido automaticamente pelo arquivo .JS |
 | Netscape plug-ins | N/A | Definido automaticamente pelo arquivo .JS |
 | Java | N/A | Definido automaticamente pelo arquivo .JS |
@@ -207,11 +207,11 @@ A tabela a seguir lista as variáveis de definição de caminho usadas para pree
 | Tempo gasto na página | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
 | Páginas não encontradas | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
 
-| Entradas e saídas |
+| Entradas e Saídas |
 |---|
 | Páginas de entrada | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
 | Páginas de saída | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
-| Links de saída | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
+| Links de saída  | s.pageName (ou outra variável com caminho) | Depende também de regras de negócios internas |
 
 | Caminhos completos |
 |---|
