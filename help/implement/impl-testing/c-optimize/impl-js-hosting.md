@@ -2,19 +2,19 @@
 description: A colocação da chamada para o arquivo da biblioteca de JavaScript na parte superior da página garante que a imagem fique entre os primeiros elementos a serem baixados.
 keywords: Implementação do Analytics
 seo-description: A colocação da chamada para o arquivo da biblioteca de JavaScript na parte superior da página garante que a imagem fique entre os primeiros elementos a serem baixados.
-seo-title: Localização e concurrência do arquivo javascript
+seo-title: Localização e simultaneidade do arquivo JavaScript
 solution: Analytics
 subtopic: Solução de problemas
-title: Localização e concurrência do arquivo javascript
+title: Localização e simultaneidade do arquivo JavaScript
 topic: Desenvolvedor e implementação
-uuid: ed 5118 a 8-b 142-4 fab -8 aa 1-92 d 931 cc 1439
-translation-type: tm+mt
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Localização e concurrência do arquivo javascript
+# Localização e simultaneidade do arquivo JavaScript
 
 A colocação da chamada para o arquivo da biblioteca de JavaScript na parte superior da página garante que a imagem fique entre os primeiros elementos a serem baixados.
 
@@ -24,5 +24,5 @@ Como a maioria dos navegadores da Web baixa elementos ao mesmo tempo, a barra de
 
 >[!NOTE]
 >
->Como provedores de Auditoria de desempenho de Internet de terceiros (como Sistemas Keynote) fazem download de elementos da imagem da página sequencialmente, e não simultaneamente, não simulam a experiência típica do usuário.
+>Como provedores de Auditoria de desempenho de internet de terceiros (como sistemas Keynote) baixam elementos de imagem da página sequencialmente e não simultaneamente, eles não simulam a experiência típica do usuário.
 
