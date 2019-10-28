@@ -1,12 +1,12 @@
 ---
 description: Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. O método de configuração automática gerencia o código do AppMeasurement para você.
-keywords: Gerenciamento dinâmico de tags;plugins;preparo;efeito nas configurações atuais;histórico de revisão;potenciais armadilhas;id do conjunto de relatórios;código monetário;servidor de rastreamento;servidor de rastreamento ssl;código personalizado;gerenciamento de biblioteca
+keywords: Dynamic Tag Management, plug-ins, teste, efeito nas configurações atuais, histórico de revisão, potenciais armadilhas, id do conjunto de relatórios, código de moeda, servidor de rastreamento, servidor de rastreamento ssl, código personalizado, gerenciamento de biblioteca
 seo-description: Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. O método de configuração automática gerencia o código do AppMeasurement para você.
 seo-title: Perguntas frequentes sobre a ferramenta Adobe Analytics
-solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Perguntas frequentes sobre a ferramenta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Perguntas frequentes sobre a ferramenta Adobe Analytics
 
-Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+Perguntas frequentes sobre a configuração automática da implantação do Adobe Analytics. O método de configuração automática gerencia o código do [!DNL AppMeasurement] para você.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,7 +26,7 @@ Perguntas frequentes sobre a configuração automática da implantação do Adob
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Onde coloco meus plug-ins durante a implementação do Adobe Analytics por meio do DTM? </p> </td> 
-   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code>s_code</code>, é possível adicionar plug-ins no mesmo editor como <code>s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>No entanto, também é uma opção colocar os plug-ins no editor na seção <span class="term"> Personalizar código</span> da página das configurações da ferramenta. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
+   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code>s_code</code>, é possível adicionar plug-ins no mesmo editor como <code>s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>No entanto, também é uma opção colocar os plug-ins no editor na seção <span class="term"> Personalizar código de página</span> das configurações da ferramenta. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se eu realizar alterações na configuração da nova versão da ferramenta, é possível testá-la durante o armazenamento temporário antes de publicar para produção? </p> </td> 
@@ -47,7 +47,7 @@ Perguntas frequentes sobre a configuração automática da implantação do Adob
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+Consulte [Adicionar ferramenta Adobe Analytics](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) para obter informações sobre configuração.
 
 ## Possíveis armadilhas {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
