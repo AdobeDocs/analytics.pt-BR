@@ -1,13 +1,13 @@
 ---
 description: Lista de eventos predefinidos.
-keywords: Implementação do Analytics; evento
+keywords: Implementação do Analytics, evento
 seo-description: Lista de eventos predefinidos.
 seo-title: O que é um evento predefinido?
 solution: Analytics
 title: O que é um evento predefinido?
 topic: Desenvolvedor e implementação
-uuid: 4 d 0799 ba -0 f 97-42 c 3-a 620-36 c 03 f 9995 da
-translation-type: tm+mt
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
