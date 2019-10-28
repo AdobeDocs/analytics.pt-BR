@@ -1,12 +1,12 @@
 ---
 description: Crie condições para as regras de chamada direta.
-keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra de chamada direta
+keywords: Dynamic Tag Management, regra, criar regra, nova regra, regra de chamada direta
 seo-description: Crie condições para as regras de chamada direta.
 seo-title: Crie condições para as regras de chamada direta
-solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Crie condições para as regras de chamada direta
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Crie condições para as regras de chamada direta.
 
-1. In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
+1. Na caixa de diálogo **[!UICONTROL Condições]**, especifique a sequência a ser transmitida para `_satellite.track()` na sua chamada direta, sem aspas.
 
    ![](assets/conditions-direct-call.png)
 
    >[!NOTE]
    >
-   >If you specify the string that will be passed to `_satellite.track()` in your direct call using the UI, as described above, do not use quotation marks. If you insert [customized page code](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) using the editor, you must use quotation marks.
+   >Se você especificar a sequência a ser transmitida para `_satellite.track()` na sua chamada direta usando a interface do usuário, como descrito acima, não use aspas. Se você inserir o [código de página personalizado](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) usando o editor, deverá usar aspas.
 
