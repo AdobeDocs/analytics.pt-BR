@@ -6,8 +6,8 @@ seo-title: Variáveis personalizadas
 solution: Analytics
 title: Variáveis personalizadas
 topic: Desenvolvedor e implementação
-uuid: 54 adf 622-7 f 05-49 c 0-b 7 e 6-702 bb 2 f 17 b 1 c
-translation-type: tm+mt
+uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -44,7 +44,7 @@ Lista de variáveis personalizadas usadas no Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> Eventos personalizados </td> 
+   <td> Eventos Personalizados </td> 
    <td> Os eventos incluem valores padrão (<span class="wintitle">prodView</span>, <span class="wintitle">scOpen</span>, <span class="wintitle">scAdd</span>, <span class="wintitle">scCheckout</span>, <span class="wintitle">purchase</span>), e eventos personalizados, de event1 a event100. Todos os eventos são enviados na variável dos eventos. Diversos eventos na mesma página devem ser delimitados por vírgulas (sem espaços em branco). 
     <ul id="ul_2213CC9DE892433FAF6FC1F5A2B841B4"> 
      <li id="li_15E31A9FF1654DFA93C158F422B9EAE3">Para todos os eventos de conversão padrão, os produtos devem ser preenchidos também com os produtos aplicáveis. Para todos os eventos, exceto compra, os elementos quantidade e preço são opcionais. </li> 
