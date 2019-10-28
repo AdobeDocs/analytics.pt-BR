@@ -1,14 +1,14 @@
 ---
 description: O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
-keywords: Implementação do Analytics; variáveis de appmeasurement
+keywords: Implementação do Analytics, variáveis appmeasurement
 seo-description: O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
 seo-title: Visão geral das variáveis
 solution: Analytics
 subtopic: Variáveis
 title: Visão geral das variáveis
 topic: Desenvolvedor e implementação
-uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
-translation-type: tm+mt
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 # Visão geral das variáveis
 
-O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o appmeasurement.
+O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+Para obter mais informações sobre as Variáveis de página, clique [aqui](/help/implement/js-implementation/c-variables/page-variables.md).
+Para obter mais informações sobre as Variáveis de configuração, clique [aqui](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Como definir variáveis {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requer que todas as variáveis de configuração sejam definidas antes da chamada inicial à função de rastreamento, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement requer que todas as variáveis de configuração sejam definidas antes da chamada inicial à função de rastreamento, *`t()`*. Se as variáveis de configuração forem definidas após a chamada para *`t()`*, podem ocorrer resultados inesperados.
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. Isso deixa o módulo ClickMap em um estado indeterminado, que resulta na primeira chamada de rastreamento e anexa a cadeia de caracteres "undefined" ao beacon do Adobe Analytics, e afeta o código de moeda.
+As variáveis de configuração são definidas na função *`doPlugins`*, que é chamada durante a execução da função de rastreamento. A variável de configuração específica que está causando esse problema é *`trackInlineStats`*, que permite a coleta de dados do ClickMap. Isso deixa o módulo ClickMap em um estado indeterminado, que resulta na primeira chamada de rastreamento e anexa a cadeia de caracteres "undefined" ao beacon do Adobe Analytics, e afeta o código de moeda.
 
 Para resolver este problema, mova todas as variáveis de configuração para acima da função doPlugins.
 
