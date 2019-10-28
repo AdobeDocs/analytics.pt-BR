@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Visitantes
 title: Impacto de dados da identificação de visitantes em vários dispositivos
 topic: Desenvolvedor e implementação
-uuid: 1 db 4 d 149-cd 50-4 b 41-a 850-988901 f 25051
-translation-type: tm+mt
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Não é mais recomendado este método de identificação de visitantes em dispositivos. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte a [Documentação de cooperação do dispositivo da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcdc/).
 
 Visão geral de como a ativação de visitante por vários dispositivos afeta os dados que você vê nos relatórios.
 
