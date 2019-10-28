@@ -1,12 +1,12 @@
 ---
 description: Configure as ações que serão acionadas pela condição.
-keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;javascript/tags de terceiros;configurar ações para condição;adicionar novo script;javascript não sequencial;javascript sequencial;html não sequencial
+keywords: Dynamic Tag Management, regra, criar regra, nova regra, tags de terceiros/javascript, configurar ações para condição, adicionar novo script, javascript não sequencial, javascript sequencial, html não sequencial
 seo-description: Configure as ações que serão acionadas pela condição.
 seo-title: Configurar as ações que serão acionadas pela condição
-solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Configurar as ações que serão acionadas pela condição
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,11 +24,11 @@ Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
+>Como o DTM permite inserir código personalizado em sua página, tenha cautela para não criar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
 
 **Para configurar ações para a condição do disparador**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. Clique em **[!UICONTROL JavaScript / tags de terceiros]** para adicionar um novo script à regra.
 
    ![](assets/scripts-actions.png)
 
@@ -39,5 +39,5 @@ Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 1. Nomeie o script.
 1. Determine como deseja que o script seja acionado e cole o conteúdo desejado na área do texto. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Clique em **[!UICONTROL Salvar código]** e o script será adicionado à fila da regra. ![](assets/scripts-actions4.png)
 
