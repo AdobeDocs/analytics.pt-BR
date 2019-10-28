@@ -2,18 +2,18 @@
 description: A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
 keywords: Implementação do Analytics
 seo-description: A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
-seo-title: Cabeçalhos HTTP da coleção de dados
+seo-title: Cabeçalhos HTTP para coleta de dados
 solution: Analytics
-title: Cabeçalhos HTTP da coleção de dados
+title: Cabeçalhos HTTP para coleta de dados
 topic: Desenvolvedor e implementação
-uuid: 3325 e 13 c-b 300-46 e 4-a 592-3 a 83 ed 59718 b
-translation-type: tm+mt
+uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Cabeçalhos HTTP da coleção de dados
+# Cabeçalhos HTTP para coleta de dados
 
 A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
 
@@ -27,7 +27,7 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
+   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/whitepapers/cookies/" format="https" scope="external">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -112,4 +112,4 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
 
 >[!NOTE]
 >
->Outros cabeçalhos HTTP podem ser definidos em resposta ao monitoramento de status interno. Alguns desses cabeçalhos podem ser retornados para o navegador, mas eles não precisam recebê-los.
+>Outros cabeçalhos HTTP podem ser definidos na resposta para monitoramento do status interno. Alguns desses cabeçalhos podem ser retornados para o navegador, mas eles não precisam recebê-los.
