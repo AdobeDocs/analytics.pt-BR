@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Solução de problemas
 title: Visão geral da otimização
 topic: Desenvolvedor e implementação
-uuid: 8 e 8 ecc 5 b-d 4 b 1-4 d 13-8525-39 e 4924 df 247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
