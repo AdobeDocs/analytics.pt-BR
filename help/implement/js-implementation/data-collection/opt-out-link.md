@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Solução de problemas
 title: Adicionar um link para opção de não participação
 topic: Desenvolvedor e implementação
-uuid: c 12092 be -3 be 7-4621-b 838-d 6 b 78 d 074 f 84
-translation-type: tm+mt
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,9 +26,9 @@ Os visitantes optam ao clicar no link na página de opção. Como resultado, o c
 
 A Adobe oferece opções para todos os tipos de implementação. Você é responsável pela sua própria política de privacidade e por seguir os termos assinados. Observe que o link para a página de opção muda com base no tipo de implementação, como definido aqui.
 
-Se você implementar produtos e serviços do Adobe Analytics com cookies definidos em domínios da Adobe (ou seja, 207.net ou omtrdc.net), você pode direcionar os visitantes do seu site para o mecanismo de opção fornecido no [Centro de privacidade da Adobe](https://www.adobe.com/privacy/opt-out.html) para todos os sites que usam cookies da Adobe para produtos e serviços do Adobe Analytics. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+Se você implementar produtos e serviços do Adobe Analytics com cookies definidos em domínios da Adobe (ou seja, 207.net ou omtrdc.net), você pode direcionar os visitantes do seu site para o mecanismo de opção de não participação fornecido no [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy/opt-out.html) para todos os sites que usam cookies da Adobe para produtos e serviços do Adobe Analytics. O link direto para o mecanismo de opção da Adobe é `https:// *collection_domain* /optout.html`.
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+Mais informações sobre as práticas de privacidade do Adobe Analytics podem ser encontradas em [https://www.adobe.com/br/privacy/advertising-services.html](https://www.adobe.com/br/privacy/advertising-services.html).
 
 * [Estrutura do URL da página de cancelamento](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [Exemplo de URLs de cancelamento](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,9 +42,9 @@ Sua página de opção está no seguinte URL:
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-The `optional_parameters` include:
+Os `optional_parameters` incluem:
 
-`locale=[code]`: Fornece uma versão traduzida da página de opção de não participação. As seguintes localidades são suportadas:
+`locale=[code]`: oferece uma versão traduzida da página de opção. As seguintes localidades são suportadas:
 
 * en_US (padrão)
 * de_DE
@@ -86,6 +86,6 @@ https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 Click Here to Opt Out! </a>
 ```
 
-Em que *`stats.adobe.com`* é substituído pela *`s.trackingServer`* variável definida.
+Em que *`stats.adobe.com`* é substituída por qualquer que seja variável *`s.trackingServer`* definida.
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+Além disso, caso queria fornecer um link de participação, use o mesmo URL, mas substitua `?optout=1` por `?optin=1` e mantenha `confirm_change=1`.
