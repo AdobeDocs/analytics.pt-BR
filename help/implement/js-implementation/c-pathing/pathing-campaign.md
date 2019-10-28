@@ -6,8 +6,8 @@ seo-title: Definição de caminho por campanha ou código de rastreamento
 solution: Analytics
 title: Definição de caminho por campanha ou código de rastreamento
 topic: Desenvolvedor e implementação
-uuid: eb 6 e 3484-1 b 40-4 ec 6-8017-ac 1003 cdf 636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
