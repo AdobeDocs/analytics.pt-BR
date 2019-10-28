@@ -1,9 +1,9 @@
 ---
 title: Criar um documento de design de solução
 seo-title: Criar um documento de design de solução
-description: Saiba o que é um documento de design da solução e como você pode usá-lo em sua organização.
-seo-description: Saiba o que é um documento de design da solução e como você pode usá-lo em sua organização.
-translation-type: tm+mt
+description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
+seo-description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
+translation-type: ht
 source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 ---
@@ -11,50 +11,50 @@ source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 # Criar um documento de design de solução
 
-Um documento de design de solução (também conhecido como referência de design de solução ou documento de requisitos de negócios) é basicamente o blueprint da sua implementação de análise. Ele define critérios identificados pelas partes interessadas em toda a organização e os traduz para variáveis dentro do Adobe Analytics. Sem um, as organizações têm um tempo difícil de coordenar as necessidades de relatórios e tendem a falhar na coleta de dados importantes.
+Um documento de design da solução (também conhecido como referência de design da solução ou documento de requisitos comerciais) é, basicamente, o projeto da implementação do Analytics. Ele define os critérios identificados pelas partes interessadas em toda a empresa e traduz em variáveis no Adobe Analytics. Sem ele, as empresas têm dificuldades em coordenar as necessidades de relatórios e tendem a perder a coleta de dados importantes.
 
 ## Pré-requisitos
 
-[Validar sua implementação do Analytics e publicar na produção](../implement-with-launch/validate-publish-prod.md) - embora não seja necessário, a Adobe recomenda ter uma implementação básica em vigor para que dados críticos sejam coletados e implementados e implementados.
+[Validar a implementação do Analytics e publicar na produção](../implement-with-launch/validate-publish-prod.md) - embora não seja diretamente necessária, a Adobe recomenda implantar uma implementação básica para que os dados críticos sejam coletados, enquanto os requisitos comerciais adicionais são estabelecidos e implementados.
 
-## Propriedade e localização do documento de design
+## Propriedade e localização do documento de projeto
 
-* **Determine quem em sua organização será responsável por manter o documento de design da solução.** Esta função pode ser uma pessoa individual ou uma equipe. Assegure-se de que manter o design da solução seja preservado mesmo por alterações de função ou reestruturas de organização. É um documento ao vivo e deve ser mantido corretamente.
-* **Determine onde o documento da solução ficará.** Não há um local melhor para que os documentos de design da solução residam, mas geralmente vivem em um local interno amplamente acessível. Exemplos incluem uma planilha compartilhada ou uma área de trabalho colaborativa como sharepoint ou uma wiki interna. Ele não precisa ser editável a todos, mas é vantajoso para aqueles que podem acessar o relatório para que seja possível visualizá-lo.
+* **Determine quem na empresa será responsável pela manutenção do documento de design da solução.** Essa função pode ser de um funcionário ou uma equipe. Preserve a manutenção de design da solução independentemente das alterações de função ou reestruturações da empresa. Este é um documento dinâmico e deve ser devidamente mantido.
+* **Determine onde ficará o documento da solução.** Não existe o melhor lugar para colocar os documentos de design da solução, mas normalmente eles ficam em um local interno amplamente acessível. Os exemplos incluem uma planilha compartilhada ou um espaço de trabalho colaborativo como o SharePoint ou um wiki interno. Não precisa ser editável para todos, mas é útil para quem podem acessar os relatórios para, pelo menos, poder visualizá-los.
 
-## Definir requisitos de negócios
+## Definir requisitos comerciais
 
-Ao determinar quais dados coletar, é fácil dizer "tudo", no entanto, que pode tornar-se rapidamente impossível de administrar e fornecer menos valor do que coletar quantidades mais concisas de dados.
+Ao determinar quais dados coletar, é fácil dizer "tudo", no entanto, isso pode se tornar rapidamente difícil de gerenciar e pode até fornecer menos valor do que coletar quantidades mais concisas de dados.
 
-1. **Determine seus indicadores-chave de desempenho.** O que você deseja que os visitantes façam? A resposta a essa pergunta varia de acordo com a indústria e a vertical, e pode ser várias coisas. Exemplos incluem compras, registros ou cliques em anúncios.
-1. **Descobrir os dados mais importantes para coletar.** Faça perguntas empresariais para as quais deseja obter respostas específicas. Respostas a essas perguntas fornecem informações sobre como melhorar o seu KPI.
-1. **Faça essas perguntas e determine suas necessidades de rastreamento.** Agrupe-os em dimensões e métricas.
-   * Dimensões são variáveis que contêm texto. Os exemplos incluiriam termo interno de pesquisa, categoria de produto ou o nome de uma área que um visitante clicou.
-   * As métricas são eventos específicos que você deseja que um visitante faça - quando executam uma ação desejada, o número aumentará uma. Os exemplos incluem envio de um pedido, assinatura de um boletim informativo ou envio de uma resposta da pesquisa.
-1. **Mapeie dimensões e métricas em uma página ou planilha.** Esta página ou tabela se torna o documento de design da solução. Algumas colunas ou pontos de marcador úteis para incluir:
-   * Status da implementação: Planejado, ativo, inativo, problemas etc. Isso informa aos visualizadores do documento o status da variável, se ela foi implementada, ou se há problemas com a coleta de dados.
-   * Nome da variável: Por exemplo, "Termos de pesquisa internos". Esse valor seria o que analistas veem ao trabalhar no Analytics.
-   * A variável do Analytics mapeada para: A variável padrão ou personalizada do Analytics escolhida para atribuir valores. Normalmente, as dimensões caem em evars, enquanto as métricas se enquadram em eventos.
-   * Lógica: Uma descrição de como a variável é definida e o que determina seu valor. Por exemplo, "Somente definido em páginas de pesquisa internas. Assume o valor do parâmetro da string de consulta q ".
-   * Quaisquer outras observações que você deseja incluir pertencem à variável
+1. **Determine os indicadores-chave de desempenho.** O que você deseja que os visitantes façam? A resposta dessa pergunta varia de acordo com o setor e a vertical, podendo ser várias. Os exemplos incluem compras, registros ou cliques em anúncios.
+1. **Descubra os dados mais importantes a coletar.** Faça perguntas comerciais para as quais você deseja obter respostas específicas. As respostas dessas perguntas fornecem informações sobre como melhorar os KPIs.
+1. **Faça essas perguntas e determine quais são as necessidades de rastreamento.** Agrupe-as em dimensões e métricas.
+   * Dimensões são variáveis que contêm texto. Os exemplos incluem o termo de pesquisa interna, a categoria do produto ou o nome de uma área em que um visitante clicou.
+   * As métricas são eventos específicos que você deseja que um visitante faça - quando eles realizam uma ação desejada, o número aumenta em um. Os exemplos incluem enviar um pedido, assinar um boletim informativo ou enviar uma resposta de pesquisa.
+1. **Mapeie dimensões e métricas em uma página ou planilha.** Esta página ou tabela torna-se, em última análise, o documento de design da solução. Algumas colunas ou marcadores úteis a incluir:
+   * Status da implementação: planejado, ativo, inativo, problemas, etc. Isso informará os visualizadores do documento sobre o status da variável, se ela foi implementada ou se há problemas na coleta de dados.
+   * Nome da variável: por exemplo, "Termos de pesquisa interna". Esse valor seria o que os analistas veem ao trabalhar no Analytics.
+   * Variável do Analytics mapeada para: a qual variável padrão ou personalizada do Analytics você escolhe para atribuir valores. As dimensões normalmente se enquadram em eVars, enquanto as métricas se enquadram nos eventos.
+   * Lógica: uma descrição de como a variável é definida e o que determina seu valor. Por exemplo, "Definido somente nas páginas de pesquisa internas. Obtém o valor do parâmetro da sequência de consulta q."
+   * Quaisquer outras observações que você deseja incluir referentes à variável
 
 ## Recursos adicionais
 
-Definir um documento de design de solução é um projeto bastante complexo, especialmente para organizações que não criaram um antes. Se for necessária mais assistência, a Adobe fornecerá consultoria especializada para ajudar a tornar sua organização compatível com o Adobe Analytics. Entre em contato com seu Gerente de contas se desejar codificar os serviços profissionais da Adobe. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
+A definição de um documento de design da solução é um projeto bastante complexo, especialmente para empresas que não criaram um antes. Se desejar assistência adicional, a Adobe fornece consultoria especializada para ajudar a colocar sua empresa em funcionamento com o Adobe Analytics. Entre em contato com o Gerente de contas, se desejar se inscrever nos serviços profissionais da Adobe. Um [questionário técnico de pré-implementação](assets/technical-pre-implementation-questionnaire.pdf) pode ser preenchido para que a Adobe saiba exatamente como ajudar, com base nas necessidades da empresa.
 
-Também há vários parceiros da Adobe que se especializada em ajudar com a criação de um documento de design de solução, bem como a implementação do Adobe Analytics em seu site.
+Também existem vários parceiros da Adobe especializados em ajudar na criação de um documento de design da solução, bem como na implementação do Adobe Analytics no site.
 
-> [!NOTE] Embora os membros da comunidade do Analytics tenham localizado os seguintes links, eles não são da parte da Adobe. Considere essa observação ao visualizar seu conteúdo.
+> [!NOTE] Embora os membros da comunidade do Analytics tenham considerado os seguintes links úteis, eles não são de propriedade da Adobe. Leve isso em consideração ao exibir o conteúdo.
 
-* [7 Etapas para configurar o Design de soluções da Web Analytics](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) por seguvepoint
-* [Uma estrutura para processo de análise digital](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) pelo Analytics Demystified
-* [A Referência de design da solução é, na verdade, a BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) do Analytics
-* [Como fazer o mapeamento de tags do Adobe Analytics por](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) Antti Koski
-* [A importância do documento de design da solução](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) por Ebiquity
+* [7 Etapas para configurar o Design da solução de análise da Web](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) de ObservePoint
+* [Uma estrutura para o Processo de análise digital](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) de Analytics Demystified
+* [Na verdade, a Referência de design da solução é a sua BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) de Numeric Analytics
+* [Como elaborar o mapa de marcação do Adobe Analytics](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) de Antti Koski
+* [A importância do Documento de design da solução](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) de Ebiquity
 
 ## Próximas etapas
 
 Implemente as variáveis no documento de design da solução.
 
-* Introdução a evars: Saiba o que é uma evar, como funciona e como usá-la em sua implementação
-* Introdução aos eventos: Saiba como é um evento bem-sucedido, como funciona e como usá-lo em sua implementação
+* Introdução às eVars: saiba o que é uma eVar, como ela funciona e como usá-la na implementação
+* Introdução aos eventos: saiba o que é um evento bem-sucedido, como ele funciona e como usá-lo na implementação
