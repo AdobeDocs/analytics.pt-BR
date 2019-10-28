@@ -6,8 +6,8 @@ seo-title: Acompanhamento de email externo
 solution: Analytics
 title: Acompanhamento de email externo
 topic: Desenvolvedor e implementação
-uuid: fa 450 f 45-14 cf -4 d 0 d-a 87 c -14 a 94a 946512 a 9 b
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 As empresas usam o Analytics para determinar o sucesso de uma campanha por email.
 
-O [!DNL Analytics] pode informar os dados de análise da campanha por email usando diversas métricas principais, incluindo as seguintes:
+O[!DNL Analytics] pode informar os dados de análise da campanha por email usando diversas métricas principais, incluindo as seguintes:
 
 | Métrica | Descrição |
 |---|---|
@@ -60,9 +60,9 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
    A alteração do código no arquivo JavaScript, [!DNL s_code.js], permite capturar a quantidade de usuários (e quais usuários) que efetuaram click-through pelo email e participaram dos eventos bem-sucedidos subsequentes. Existem duas etapas para atualizar a biblioteca JavaScript.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. Personalize [!DNL s_code.js] chamando o parâmetro [!UICONTROL getQueryParam].
 
-      O arquivo [!DNL s_code.js]   deve ser colocado em um local no servidor da Web em que cada página da Web possa acessá-lo. The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. Por exemplo:
+      O arquivo [!DNL s_code.js]   deve ser colocado em um local no servidor da Web em que cada página da Web possa acessá-lo. A função *`doPlugins`* nesse arquivo deve ser alterada para que capture os parâmetros da sequência de consulta nos links de email. Por exemplo:
 
       ```js
       /* Plugin Config */ 
@@ -77,7 +77,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
       Cada parâmetro da string de consulta que deve ser copiada em uma variável deve ter uma chamada de [!UICONTROL getQueryParam]. No exemplo acima, o parâmetro da string de consulta [!UICONTROL sc_cid] é copiado em  *`campaign`*.
 
-      Somente a primeira chamada para [!UICONTROL getQueryParam] é necessária para capturar click-throughs. Entre em contato com o Adobe [!DNL Customer Care] para implementar esta função e garantir que sua versão do arquivo JavaScript contenha o plug-in [!UICONTROL getQueryParam] 
+      Somente a primeira chamada para [!UICONTROL getQueryParam] é necessária para capturar click-throughs. Entre em contato com o Adobe [!DNL Customer Care] para implementar esta função e garantir que sua versão do arquivo JavaScript contenha o plug-in [!UICONTROL getQueryParam].
 
    1. Verifique se o código para colar as tags do JavaScript estão em todas as páginas iniciais. Este código para colar deve mencionar a versão do [!DNL s_code.js] alterada na Parte A.
 
