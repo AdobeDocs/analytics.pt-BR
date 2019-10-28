@@ -2,12 +2,12 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics,Experience Cloud
+solution: Analytics, Experience Cloud
 subtopic: Notas de versão
 title: Mac OS X
 topic: Desenvolvedor e implementação
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Para localizar a versão atual da biblioteca, ative o registro de depuração.
+>Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Os [downloads da biblioteca móvel](https://marketing.adobe.com/developer/pt-BR/get-started/mobile/c-measuring-mobile-applications) estão disponíveis em [!DNL Developer Connection].
 
 ## Versão 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Data de lançamento: **16 agosto de 2013**
 Dara de lançamento: **5 de agosto de 2013**
 
 * Suporte adicionado para o Adobe Audience Manager.
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* Agora os dados do ciclo de vida serão enviados com solicitações de Mbox [!DNL Target].
 
 ## Versão 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -61,10 +61,10 @@ Data de lançamento: **18 de abril de 2013**
 
 Data de lançamento: **21 março de 2013**
 
-* `ADMS_Measurement.visitorID` agora é pré-preenchido com o valor padrão.
+* O`ADMS_Measurement.visitorID` agora fica pré-preenchido com o valor padrão.
 
 ## Versão 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 Data de lançamento: **fevereiro de 2013**
 
-Versão inicial. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+Versão inicial. Esta versão é fundamentada na base de código [!DNL iOS] 3.1.4, portanto, o número da versão inicial foi definido para corresponder a [!DNL iOS].
