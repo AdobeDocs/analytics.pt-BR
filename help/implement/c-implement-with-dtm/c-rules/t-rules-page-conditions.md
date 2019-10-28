@@ -1,12 +1,12 @@
 ---
 description: Crie regras que determinam em quais página uma regra será acionada.
-keywords: Gerenciamento dinâmico de tags;regra;criar regra;nova regra;regra de carregamento de página
+keywords: Dynamic Tag Management, regra, criar regra, nova regra, regra de carregamento de página
 seo-description: Crie regras que determinam em quais página uma regra será acionada.
 seo-title: Criar condições para as regras de carregamento da página
-solution: Experience Cloud,Analytics,Target,Gerenciamento dinâmico de tags
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Criar condições para as regras de carregamento da página
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,7 +24,7 @@ Crie regras que determinam em quais página uma regra será acionada.
 
 1. Especifique a condição que faz com que a regra seja disparada.
 
-   Por exemplo, você pode selecionar **[!UICONTROL Caminho]para identificar as páginas específicas em que deseja que a regra seja ativada.**
+   Por exemplo, você pode selecionar **[!UICONTROL Caminho]** para identificar as páginas específicas em que deseja que a regra seja ativada.
 
    ![](assets/conditions-page-load-rules2.png)
 
