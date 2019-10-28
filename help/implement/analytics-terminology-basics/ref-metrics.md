@@ -1,13 +1,13 @@
 ---
 description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recargas, tempo médio gasto, unidades, ordens e receita.
-keywords: Implementação do Analytics; métricas; métrica de tráfego; métrica de conversão; métrica de vídeo; métrica social; métrica calculada; exibição de página; visita; visitante único
+keywords: Implementação do Analytics, métricas, métrica de tráfego, métrica de conversão, métrica de vídeo, métrica social, métrica calculada, exibição de página, visita, cliente único
 seo-description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recargas, tempo médio gasto, unidades, ordens e receita.
 seo-title: Métricas
 solution: Analytics
 title: Métricas
 topic: Desenvolvedor e implementação
-uuid: d 2 addb 55-cae 6-470 d-b 482-303 ef 365809 c
-translation-type: tm+mt
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -29,7 +29,7 @@ As métricas são a base dos relatórios e ajudam você a visualizar e compreend
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Métricas de tráfego </p> </td> 
-   <td colname="col2"> <p> <b>Exibição da página:</b> o carregamento de uma página da Web no navegador de um usuário (uma execução do código do Reports &amp; Analytics) </p> <p> <b>Visita:</b> número de exibições da página quando um visitante acessa o site. A visita é encerrada após 30 minutos de inatividade. </p> <p> <b>Visitante único:</b> uma pessoa visitando o site pela primeira vez dentro de um intervalo de tempo, como Hora, Dia, Semana, Mês, Trimestre ou Ano. (Visitantes únicos também estão incluídos.) </p> </td> 
+   <td colname="col2"> <p> <b>Exibição da página:</b> o carregamento de uma página da Web no navegador de um usuário (uma execução do código do Reports &amp; Analytics). </p> <p> <b>Visita:</b> número de exibições da página quando um visitante acessa o site. A visita é encerrada após 30 minutos de inatividade. </p> <p> <b>Visitante único:</b> uma pessoa visitando o site pela primeira vez dentro de um intervalo de tempo, como Hora, Dia, Semana, Mês, Trimestre ou Ano. (Visitantes únicos também estão incluídos.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas de conversão </p> </td> 
@@ -45,9 +45,9 @@ As métricas são a base dos relatórios e ajudam você a visualizar e compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas calculadas </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">Métricas calculadas</a> permitem que você combine métricas para criar operações matemáticas utilizadas como novas métricas. Essas métricas pode ser criadas para um relatório ao qual você adiciona métricas. Os administradores podem criar métricas calculadas para todos os usuários de um conjunto de relatórios. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/pt_BR/reference/calculated_metric.html" format="html" scope="external">Métricas calculadas</a> permitem que você combine métricas para criar operações matemáticas utilizadas como novas métricas. Essas métricas pode ser criadas para um relatório ao qual você adiciona métricas. Os administradores podem criar métricas calculadas para todos os usuários de um conjunto de relatórios. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) no guia de Ajuda e referência do Analytics para obter as definições das métricas.
+Consulte [Métricas](https://marketing.adobe.com/resources/help/pt_BR/reference/metrics.html) na Ajuda e referência do Analytics para obter as definições de métricas.
