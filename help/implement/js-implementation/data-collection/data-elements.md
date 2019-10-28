@@ -6,8 +6,8 @@ seo-title: Coletar dados de elementos de formulário
 solution: Analytics
 title: Coletar dados de elementos de formulário
 topic: Desenvolvedor e implementação
-uuid: e 0 c 13 b 96-e 1 ca -4744-a 912-60 ca 2 b 8 f 25 c 3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -35,7 +35,7 @@ Se o seu formulário usa um método [!UICONTROL POST] para enviar dados (que é 
 <input type="radio" name="music_genre" value="rock">
 ```
 
-Este botão de opção pertence ao elemento de formulário "music_genre". You then have access to the user's selected value by using $_POST['music_genre']. Ele pode ser gravado em uma variável na página seguinte ao envio do formulário:
+Este botão de opção pertence ao elemento de formulário "music_genre". Você tem acesso ao valor selecionado pelo usuário usando $_POST['music_genre']. Ele pode ser gravado em uma variável na página seguinte ao envio do formulário:
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
