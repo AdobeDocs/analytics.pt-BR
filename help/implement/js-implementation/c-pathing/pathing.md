@@ -6,8 +6,8 @@ seo-title: Visão geral da definição de caminho
 solution: Analytics
 title: Visão geral da definição de caminho
 topic: Desenvolvedor e implementação
-uuid: 18 acfd 9 f -4 e 5 f -4 c 2 d -8 be 8-743 be 135 e 7 d 6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
@@ -23,6 +23,6 @@ O inovador Analytics oferece a definição de caminho no nível da página. A id
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
+>Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Tráfego &gt; Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+Explore opções mais avançadas de definição de caminho (fluxo) no [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
