@@ -6,8 +6,8 @@ seo-title: Visão geral da serialização de eventos
 solution: Analytics
 title: Visão geral da serialização de eventos
 topic: Desenvolvedor e implementação
-uuid: 8 c 7883 bb -5 ba 4-4440-af 80-c 0 d 15867570 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -24,9 +24,9 @@ A [!UICONTROL serialização de eventos] é útil nas seguintes circunstâncias:
 
 >[!NOTE]
 >
->As Fontes de dados não suportam serialização ou cancelamento de duplicação de eventos.
+>As fontes de dados não são compatíveis com a serialização de eventos ou a eliminação da duplicação.
 
-Este documento descreve o processo de implementação da [!UICONTROL serialização de eventos] para eventos de [!UICONTROL conversão] e [!UICONTROL personalização]. To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Em seguida, selecione quais eventos você deseja registrar na coluna [!UICONTROL Registro exclusivo de evento].
+Este documento descreve o processo de implementação da [!UICONTROL serialização de eventos] para eventos de [!UICONTROL conversão] e [!UICONTROL personalização]. Para usar a [!UICONTROL Serialização de eventos], primeiro você precisa ativá-la em **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjunto de relatórios]** &gt; **[!UICONTROL [[selecione o conjunto de relatórios]]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Eventos bem-sucedidos]** . Em seguida, selecione quais eventos você deseja registrar na coluna [!UICONTROL Registro exclusivo de evento].
 
 ## Comportamento padrão {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Em seguida, selecione quais eventos você deseja registrar na coluna [!UICONTROL Registro exclusivo de evento]. Há três configurações diferentes possíveis para um evento.
+Para usar a [!UICONTROL Serialização de eventos], primeiro você precisa ativá-la em **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjunto de relatórios]** &gt; **[!UICONTROL [[selecione o conjunto de relatórios]]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Eventos bem-sucedidos]** . Em seguida, selecione quais eventos você deseja registrar na coluna [!UICONTROL Registro exclusivo de evento]. Há três configurações diferentes possíveis para um evento.
 
 **Sempre registrar evento**: esse é o comportamento padrão de todos os eventos quando estão ativados inicialmente. Todos os eventos incluídos em solicitações de imagem são enviados diretamente para o Analytics, incluindo os recarregamentos de página.
 
@@ -79,6 +79,6 @@ Observe o seguinte ao selecionar IDs de serialização:
 
 ## Serialização de eventos - Uma vez por visita {#section_C919D44F321A47FBBF043D0C57A2A050}
 
-O [!DNL Analytics] oferece um recurso para permitir o acionamento de um evento apenas uma vez a cada visita.
+O[!DNL Analytics] oferece um recurso para permitir o acionamento de um evento apenas uma vez a cada visita.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+Isso pode ser ativado na interface do usuário: **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjunto de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Eventos bem-sucedidos]**.
