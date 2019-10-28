@@ -6,8 +6,8 @@ seo-title: Identificar dispositivos móveis
 solution: Analytics
 title: Identificar dispositivos móveis
 topic: Desenvolvedor e implementação
-uuid: 22587 dd 1-cead -485 b-a 4 d 8-94 dfb 7 cd 9662
-translation-type: tm+mt
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ A maioria dos dispositivos móveis aceita os cookies do navegador. Porém, em ca
 
 A Adobe identificou diversos cabeçalhos HTTP de [assinantes de ID](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) que identificam exclusivamente a maioria dos dispositivos móveis. Esses cabeçalhos com frequência incluem o número do telefone (ou uma versão com hash do número) ou outros identificadores. A maioria dos dispositivos tem um ou mais cabeçalhos que identificam exclusivamente o dispositivo, e todos os centros de dados da Adobe usam esses cabeçalhos no lugar de uma ID do visitante.
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Porém, caso o dispositivo seja reconhecido como móvel com base nos cabeçalhos HTTP, um "5" será aprovado em lugar do "1" - o que indica que um formato de imagem wbmp deverá ser devolvido e que a lista de cabeçalhos sem fio reconhecidos (ou seja, que não são cookies) deverá ser usado para identificar o dispositivo.
+Em uma solicitação de imagem típica, um "1" no caminho (`/b/ss/rsid/1`) faz com que os servidores da Adobe retornem uma imagem gif e tentem definir um cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` ou `s_vi`). Porém, caso o dispositivo seja reconhecido como móvel com base nos cabeçalhos HTTP, um "5" será aprovado em lugar do "1" - o que indica que um formato de imagem wbmp deverá ser devolvido e que a lista de cabeçalhos sem fio reconhecidos (ou seja, que não são cookies) deverá ser usado para identificar o dispositivo.
 
 A tabela a seguir exibe a ordem que os métodos de ID são utilizados, com base no valor do tipo da imagem devolvida ("1" ou "5") no caminho:
 
