@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: getVisitNum
 topic: Desenvolvedor e implementação
-uuid: 27 d 57 f 92-fffb -44 d 0-b 9 ca -9 da 93323 f 64 c
-translation-type: tm+mt
+uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -24,13 +24,13 @@ O plug-in getVisitNum determina o número de visitas que um usuário fez ao site
 
 **Configuração do plug-in**
 
-Coloque o seguinte código na função *`s_doPlugins()`* , que está localizada na área do *`s_code.js`* arquivo chamada Configuração *de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para usar na captura dos dados do número de visitas. Essa deve ser uma variável que tenha sido ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
+Coloque o seguinte código na função A função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`* identificada *Configuração de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para usar na captura dos dados do número de visitas. Essa deve ser uma variável que tenha sido ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
 
 `s.prop1=s.getVisitNum();`
 
 >[!NOTE]
 >
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+>Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 **SEÇÃO DE PLUG-INS**: adicione o seguinte código à área do arquivo [!DNL s_code.js] rotulada como SEÇÃO DE PLUG-INS. Não faça alterações nessa parte do código do plug-in.
 
@@ -67,7 +67,7 @@ s.endof=new Function("x",""
    * Se nenhum valor for definido, então "m" será usado.
 
 * c = (sequência, opcional) Especifique o nome do cookie persistente. O padrão é "s_vnum".
-* c2 = (sequência, opcional) Especifique o nome do cookie de sessão O padrão é "s_invisit".
+* c2 = (sequência, opcional) Especifique o nome do cookie de sessão. O padrão é "s_invisit".
 
 **Devoluções**
 
