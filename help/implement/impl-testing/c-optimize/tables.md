@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Solução de problemas
 title: Tabela
 topic: Desenvolvedor e implementação
-uuid: f 72 d 7894-38 bd -4926-bce 4-0 c 6 af 7278 c 63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ A inserção da chamada para o arquivo da biblioteca de JavaScript fora das tags
 
 >[!NOTE]
 >
->O arquivo deve ser colocado em uma posição legal para imagens e deve ser exibido entre a abertura <body> tag e o fechamento </body> tag.
+>O arquivo deve ser colocado em uma posição legal para imagens e deve ser exibido entre a tag de abertura <body> e o fechamento </body> TAG.
 
