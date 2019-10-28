@@ -1,13 +1,13 @@
 ---
 description: WAP e I-Mode são os dois principais protocolos ou padrões usados hoje. O WAP costuma ser mais usado nos EUA e o I-Mode é mais comum no Japão e na Europa.
-keywords: Implementação do Analytics; wap; i-mode
+keywords: Implementação do Analytics, wap, i-mode
 seo-description: WAP e I-Mode são os dois principais protocolos ou padrões usados hoje. O WAP costuma ser mais usado nos EUA e o I-Mode é mais comum no Japão e na Europa.
 seo-title: Protocolos de rede móvel
 solution: Analytics
 title: Protocolos de rede móvel
 topic: Desenvolvedor e implementação
-uuid: b 453677 c -7449-4174-a 243-a 0 eb 024 b 319 d
-translation-type: tm+mt
+uuid: b453677c-7449-4174-a243-a0eb024b319d
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ Os sites devem ser sempre projetados para protocolos diferentes. A tag de imagem
   </tr> 
   <tr> 
    <td colname="col1"> WAP 2.0 </td> 
-   <td colname="col2"> A maioria dos telefones é compatível com WAP 2.0, ou seja, há suporte para XHTML MP (uma versão móvel de HTML). </td> 
+   <td colname="col2"> A maioria dos telefones é compatível com WAP 2.0, ou seja, há suporte para XHTML MP (uma versão móvel de XHTML). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> I-Mode </td> 
