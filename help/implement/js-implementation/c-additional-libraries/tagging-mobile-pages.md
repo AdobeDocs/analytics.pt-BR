@@ -1,19 +1,19 @@
 ---
 description: O código de rastreamento remoto é inserido na página, no formulário de uma tag de imagem gerada por servidor.
-keywords: Implementação do Analytics; rastreamento móvel; protocolos móveis; impedir o armazenamento em cache; alt tag; tipo de imagem padrão
+keywords: Implementação do Analytics, rastreamento de dispositivos móveis, protocolos móveis, prevenção de armazenamento em cache, tag alt, tipo de imagem padrão
 seo-description: O código de rastreamento remoto é inserido na página, no formulário de uma tag de imagem gerada por servidor.
-seo-title: Marcar páginas para protocolos móveis
+seo-title: Como marcar páginas para protocolos móveis
 solution: Analytics
-title: Marcar páginas para protocolos móveis
+title: Como marcar páginas para protocolos móveis
 topic: Desenvolvedor e implementação
-uuid: 5788 beaf-f 309-4918-a 99 c-a 3 e 591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Marcar páginas para protocolos móveis
+# Como marcar páginas para protocolos móveis
 
 O código de rastreamento remoto é inserido na página, no formulário de uma tag de imagem gerada por servidor.
 
@@ -48,8 +48,8 @@ Alguns navegadores móveis exigem que todas as imagens tenham o texto alt inclu�
 Se o tipo de imagem padrão não é suportado em um dispositivo específico, nenhum dado é retornado. Para evitar isso, você pode forçar o servidor de coleção de dados da Adobe a retornar um tipo de gráfico específico compatível com o dispositivo móvel. O código após o nome do conjunto de relatórios especifica o tipo de imagem:
 
 * `/5/` retorna o tipo de imagem padrão.
-* `/5.1/` ou `/1/` sempre retorna uma imagem GIF.
+* `/5.1/` ou `/1/` sempre retornam uma imagem GIF.
 
 * `/5.5/` sempre retorna uma imagem WBMP.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+Consulte [Identificação de visitantes usando protocolos móveis](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
