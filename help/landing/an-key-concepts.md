@@ -4,7 +4,7 @@ seo-description: Esta seção contém os principais conceitos do Adobe Analytics
 seo-title: Adobe Analytics - Principais conceitos
 title: Adobe Analytics - Principais conceitos
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ Esta seção contém os principais conceitos do Adobe Analytics, uma breve descr
 | Analysis Workspace | Solução de navegador para criar projetos de análise robustos e personalizados e democratizar insights. Oferece mais flexibilidade de relatórios que os Relatórios e análises | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Relatórios e análises (antigo SiteCatalyst) | Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. | [Página inicial do Relatórios e análises](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | O suplemento do Excel que permite criar solicitações personalizadas a partir de dados do Adobe Analytics e visualizá-las usando o Microsoft Excel. | [Página inicial do Construtor de relatórios](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Análise ad hoc (antigo Discover) | Ferramenta baseada em Java para análise digital avançada. Descida para fim de vida no terceiro trimestre de 2019. | [Página inicial da análise ad hoc](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Análise ad hoc (antigo Discover) | Ferramenta baseada em Java para análise digital avançada. | [Página inicial da análise ad hoc](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Análise de big data (antigo Insight) | Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais. | [Cliente da análise de big data](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | Dados brutos e não processados para armazenamento e relatórios personalizados, que podem ser executados por meio da filtragem de dados. Sem nível de ocorrências. | [Página inicial do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com seus aplicativos. | [Página inicial do Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
