@@ -1,16 +1,16 @@
 ---
 description: Lista as versões atuais e anteriores e seus recursos.
 seo-description: Lista as versões atuais e anteriores e seus recursos.
-seo-title: Novidades do Construtor de relatórios
-title: Novidades do Construtor de relatórios
-uuid: 20 f 4 a 839-0667-45 a 7-b 037-0357 d 0 e 23010
+seo-title: Novidades no Report Builder
+title: Novidades no Report Builder
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Novidades do Construtor de relatórios
+# Novidades no Report Builder
 
 Lista as versões atuais e anteriores e seus recursos.
 
@@ -24,7 +24,7 @@ Para obter mais informações, consulte [Editar métricas em várias solicitaç�
 
 ## Construtor de relatórios 5.5
 
-**Publicar no Power BI com o Construtor de relatórios 5.5**
+**Publicar no Power BI com Report Builder 5.5**
 
 O Microsoft Power BI é um conjunto de painéis de análise comercial usado para analisar dados e compartilhar insights. A integração do Adobe Analytics com o Power BI permite a visualização dos dados analíticos do Construtor de relatórios dentro do Microsoft Power BI e o seu fácil compartilhamento em toda a organização.
 
@@ -42,7 +42,7 @@ Combinar a capacidade de geração de relatórios do Construtor de relatórios c
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **Segurança de logon aprimorada** além de uma [nova tela de logon](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), o logon padrão do Construtor de relatórios apresenta um processo de autenticação mais seguro, com base na estrutura de autorização oauth.
+* **Segurança** de logon aprimorada Além de uma [nova tela](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)de logon, o logon do Construtor de relatórios padrão apresenta um processo de autenticação mais seguro, com base na estrutura de autorização OAuth.
 
 ## Construtor de relatórios 5.3
 
@@ -52,9 +52,9 @@ Combinar a capacidade de geração de relatórios do Construtor de relatórios c
 
 ## Construtor de relatórios 5.2
 
-* **O Construtor** de relatórios de métricas calculadas 5.2 é compatível com as Métricas calculadas [unificadas do Adobe Analytics](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
+* **O Construtor de relatórios de métricas** calculadas 5.2 é compatível com as métricas [calculadas](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
-* **Pesquisa avançada de relatórios e métricas** Com mais [eVars e eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) adicionados ao Adobe Analytics, o número de relatórios e métricas oferecidos no Construtor de relatórios da Adobe está aumentando consideravelmente. In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **Pesquisa avançada de relatórios e métricas** Com mais [eVars e eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) adicionados ao Adobe Analytics, o número de relatórios e métricas oferecidos no Construtor de relatórios da Adobe está aumentando consideravelmente. Para simplificar a pesquisa, algumas novas barras de pesquisa foram adicionadas ao Assistente de solicitações: um para pesquisa [de](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) relatório e outro para procurar [métricas](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
 
-* **Atributos do cliente Atributos** do cliente são armazenados em novo tipo de elemento chamado visattr, que pode ser configurado como uma dimensão ou uma métrica. Para obter informações detalhadas sobre como fazer upload dos atributos do cliente, consulte a ajuda da [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+* **Atributos** do cliente Os atributos do cliente são armazenados em um novo tipo de elemento chamado VisAttr, que pode ser configurado como uma dimensão ou métrica. Para obter informações detalhadas sobre como fazer upload dos atributos do cliente, consulte a ajuda da [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
 
