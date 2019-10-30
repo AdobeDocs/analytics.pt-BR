@@ -5,9 +5,9 @@ seo-title: Copiar solicitações adjacentes
 solution: Analytics
 title: Copiar solicitações adjacentes
 topic: Construtor de relatórios
-uuid: c 8 abec 0 d -6 fbd -4 a 98-8672-ede 81317487 b
+uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Da mesma maneira que você copia e cola solicitações, também pode reposiciona
 
 Recortar uma solicitação a remove de seu local original e a coloca no novo local depois que você seleciona [!UICONTROL Colar solicitação]. Se você mudar de ideia depois de recortar uma determinada solicitação e decidir copiar ou recortar uma solicitação diferente de outra célula, o Construtor de relatórios deixará a primeira solicitação em sua célula original e atuará somente na segunda (copiando ou recortando).
 
->[!NOTE]
->
->O Construtor de relatórios não oferece suporte ao comando Desfazer do Excel para solicitações recortadas ou coladas. Portanto, tome cuidado ao recortar solicitações.
+> [!NOTE] O Construtor de relatórios não oferece suporte ao comando Desfazer do Excel para solicitações recortadas ou coladas. Portanto, tome cuidado ao recortar solicitações.
 
 Você não está limitado a copiar e colar na mesma planilha da pasta de trabalho. É possível copiar uma solicitação em uma planilha e colá-la em um local em outra planilha da mesma pasta de trabalho.
 
