@@ -1,18 +1,18 @@
 ---
 description: Descreve as etapas envolvidas na aplicação de filtros para um relatório de fallout.
 seo-description: Descreve as etapas envolvidas na aplicação de filtros para um relatório de fallout.
-seo-title: Filtrar um relatório de fallout usando o Assistente de solicitação
+seo-title: Filtrar um relatório de fallout com o assistente de solicitação
 solution: Analytics
-title: Filtrar um relatório de fallout usando o Assistente de solicitação
+title: Filtrar um relatório de fallout com o assistente de solicitação
 topic: Construtor de relatórios
-uuid: 269 e 900 e -23 bd -48 d 8-9 bac -69 e 3167 a 9 c 18
+uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrar um relatório de fallout usando o Assistente de solicitação
+# Filtrar um relatório de fallout com o assistente de solicitação
 
 Descreve as etapas envolvidas na aplicação de filtros para um relatório de fallout.
 
@@ -24,8 +24,8 @@ Esse exemplo mostra o relatório Fallout de página.
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. Configure os intervalos de [datas](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)apropriados.
+1. Clique em **[!UICONTROL Próximo]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (Em um relatório de fallout, é sempre necessário definir os elementos de caminho, diferente de um relatório de caminho, no qual o padrão é pré-aplicado). 
 
    ![](assets/define_checkpoints.png)
