@@ -1,19 +1,19 @@
 ---
 description: Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
 seo-description: Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
-seo-title: Regras de processamento do Canal de marketing - Definições
+seo-title: Regras de processamento de canal de marketing - Definições
 solution: Analytics
 subtopic: Canais de marketing
-title: Regras de processamento do Canal de marketing - Definições
+title: Regras de processamento de canal de marketing - Definições
 topic: Reports and Analytics
-uuid: 4 e 71 ff 5 b -912 a -4 dc 0-9 c 22-4 be 74 c 5 e 3 cc 0
+uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Regras de processamento do Canal de marketing - Definições
+# Regras de processamento de canal de marketing - Definições
 
 Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
 
@@ -35,11 +35,11 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr>
   <tr> 
    <td colname="col1"> <p>ID do AMO </p> </td> 
-   <td colname="col2"> <p>O código de rastreamento principal usado pelas integrações da Advertising Cloud e do Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento pode ser usado para identificar canais específicos da Publicidade Cloud. Use "AMO ID" começa com "AL" para Pesquisa, "AC" para Exibição ou "AO" para o Social. Quando a ID do AMO é usada nos canais de marketing, as métricas de cliques/custo/impressão podem ser atribuídas ao canal correto (quando não configurado, essas métricas vão para Direto ou Nenhum). </p> </td> 
+   <td colname="col2"> <p>O código de rastreamento principal usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar "ID AMO" começa com "AL" para Pesquisa, "AC" para Exibição ou "AO" para Social. Quando a ID da AMO é usada em canais de marketing, as métricas de clique/custo/impressão podem ser atribuídas ao canal correto (quando não estiver configurado, essas métricas irão para Direto ou Nenhum). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID ED ED </p> </td> 
-   <td colname="col2"> <p>O código de rastreamento secundário usado pela Advertising Cloud. A finalidade principal deste código de rastreamento é servir como a chave para enviar dados de volta à Ad Cloud. No entanto, também pode ser usado para identificar clickthroughs vs. display viewthroughs caso deseje visualizá-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing para "AMO EF ID" termina com ": d "for Display clickthroughs or" AMO EF ID "termina com": i "for Display viewthroughs. Se você não quiser dividir a Exibição em dois canais, use a dimensão ID do AMO em vez disso. </p> </td> 
+   <td colname="col1"> <p>ID DA AMO </p> </td> 
+   <td colname="col2"> <p>O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é servir como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar clickthroughs de exibição vs. viewThroughs de exibição se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing para "AMO EF ID" termina com ":d" para ClickThroughs de exibição ou "AMO EF ID" termina com ":i" para DisplayThroughs. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID da AMO. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de conversão </p> </td> 
@@ -51,7 +51,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">Não existe</span>: especifica que o atributo da ocorrência não existe no pedido. Por exemplo, em um domínio de referência, se o usuário digitar um URL ou clicar em um marcador, o atributo de domínio de referência não existe. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Está vazio</span>: especifica que existe um atributo de ocorrência, geralmente um eVar ou parâmetro de sequência de consulta, mas não há valor associado ao atributo de ocorrência. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Não contém </span>: Permite especificar, por exemplo, que um domínio de referência não contém um valor específico (em vez de usar a seleção <span class="term"> Contém </span>. </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Não contém </span>: Permite especificar, por exemplo, que um domínio de referência não contém um valor específico (em vez de usar a seleção <span class="term"> Contém </span>). </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referenciador não corresponde a filtros internos de URL </p> </td> 
-   <td colname="col2"> <p>O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode utilizar essas configurações com <span class="term"> URL da página </span> e <span class="term"> Existe </span> para configurar uma regra catch-all, para que nenhuma visita chegue à seção <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> Nenhum canal identificado </a> do relatório. </p> </td> 
+   <td colname="col2"> <p>O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode utilizar essas configurações com <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignorar ocorrências correspondentes a filtros de URL internos </p> </td> 
@@ -84,7 +84,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Página </p> </td> 
-   <td colname="col2"> <p>O nome de uma página da Web no seu site que foi marcada usando o Web beacon. Este valor é equivalente a  <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col2"> <p>O nome da página de uma página da Web do site que está marcada usando o Web beacon da Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Os exemplos incluem <span class="varname"> Página inicial </span> e <span class="varname"> Sobre nós </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio de página </p> </td> 
@@ -137,12 +137,13 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   <tr> 
    <td colname="col1"> <p>Mecanismo de pesquisa + Palavras-chave </p> </td> 
    <td colname="col2"> <p>Uma concatenação de palavra-chave de pesquisa e mecanismo de pesquisa para identificar de forma exclusiva o mecanismo de pesquisa. Por exemplo, se você pesquisar a palavra computador, o mecanismo de pesquisa e a palavra-chave serão identificados assim: </p> 
-    <code>Código de rastreamento de pesquisa = " &lt; search_ type &gt;: &lt; mecanismo de pesquisa &gt;: &lt; palavra-chave de pesquisa &gt; "onde search_ type =" n "ou" p ", search_ engine =" Google "e search_ keyword =" computador " </code>
-  <p><b>Observação:</b> n = natural; p = pago </p> </td> 
+    <code>
+      Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
+    </code> <p><b></b> Observação: n = natural; p = pago </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Defina o valor do canal como </p> </td> 
-   <td colname="col2"> <p>Além de saber qual canal de marketing traz um visitante ao seu site, talvez você também queira saber que anúncio de banner, palavra-chave de pesquisa ou campanha por email dentro do canal está obtendo crédito pela atividade de um visitante do site. Esse ID é um valor de canal armazenado juntamente com o canal. Muitas vezes esse valor é um ID de campanha integrado à página inicial ou ao URL referenciador, em outros casos, é a combinação do mecanismo de pesquisa com a palavra-chave de pesquisa ou o URL referenciador que identifica melhor o visitante de determinado canal. </p> </td> 
+   <td colname="col2"> <p>Além de saber qual canal de marketing traz um visitante ao seu site, você pode saber qual anúncio de banner, palavra-chave de pesquisa ou campanha por email dentro do canal está obtendo crédito pela atividade do site de um visitante. Esse ID é um valor de canal armazenado juntamente com o canal. Muitas vezes esse valor é um ID de campanha integrado à página inicial ou ao URL referenciador, em outros casos, é a combinação do mecanismo de pesquisa com a palavra-chave de pesquisa ou o URL referenciador que identifica melhor o visitante de determinado canal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
