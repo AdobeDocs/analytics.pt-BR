@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Configurar uma visualização de fallout
 title: Configurar uma visualização de fallout
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Você também pode adicionar segmentos em um ponto de contato. Por exemplo, voc�
 
 Não há limite de número de etapas que você pode adicionar ou do número de dimensões usadas.
 
-Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja olhando os sapatos,camisetas em uma página e camisetas,meias em outra. O próximo relatório de fluxo do produto dos sapatos será camisetas e meias, e NÃO camisetas.
+Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja olhando os sapatos, camisetas em uma página, e na próxima página eles estão olhando para camisetas, meias. O próximo relatório de fluxo do produto dos sapatos será camisetas e meias, e NÃO camisetas.
 
 1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Tabela de forma livre].
 
@@ -38,7 +38,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
 
    >[!NOTE]
    >
-   >Vários segmentos são unidos com E, mas vários itens como itens de dimensão e métricas são unidos com OR.
+   >Vários segmentos são unidos a E, mas vários itens, como itens de dimensão e métricas, são unidos a OU.
 
    ![](assets/multiple_obj_touchpoint.png)
 
