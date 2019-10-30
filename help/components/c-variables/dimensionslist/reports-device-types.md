@@ -4,10 +4,10 @@ seo-description: Agrupa dispositivos móveis em celulares, tablets, e-readers, c
 seo-title: Tipos de dispositivo
 solution: Analytics
 title: Tipos de dispositivo
-topic: 'Relatórios  '
-uuid: e 1224769-9 a 94-4 cad-a 1 ed-e 285 d 60 d 23 f 3
+topic: Relatórios
+uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Agrupa dispositivos móveis em celulares, tablets, e-readers, consoles de vídeo game, televisões, decodificadores, reprodutores de mídia e outras categorias avançadas para permitir a visualização da distribuição entre os tipos de dispositivos móveis.
 
-Essa dimensão também é útil para definir segmentos para usuários de telefone e tablet, segmentando onde o Tipo de dispositivo móvel equivale a "tipo de dispositivo".
+Essa dimensão também é útil para definir segmentos para usuários de telefones e tablets, segmentando onde o Tipo de dispositivo móvel equivale a "tipo de dispositivo".
 
 **Dados dinâmicos do dispositivo**
 
@@ -24,5 +24,5 @@ Esta dimensão utiliza dados dinâmicos do dispositivo, que são atualizados con
 
 Os dados desse relatório são preenchidos usando a sequência de caracteres do agente do usuário do visitante.
 
->[!Note]
->Somente as alterações feitas em uma ID móvel existente são retroativas. Se o dispositivo for novo e ainda não tiver uma ID móvel, os únicos dados que serão vinculados a esse dispositivo serão iniciados na data em que uma ID é adicionada ao banco de dados do dispositivo.
+>[!Nnota]
+>Somente as alterações feitas em uma ID móvel existente são retroativas. Se o dispositivo for novo e ainda não tiver uma ID móvel, os únicos dados que serão vinculados a esse dispositivo serão iniciados na data em que uma ID for adicionada ao banco de dados do dispositivo.
