@@ -1,18 +1,18 @@
 ---
 description: Essa seção apresenta informações sobre problemas comuns.
-keywords: Feed de dados; solução de problemas
+keywords: Feed de dados;solução de problemas
 seo-description: Essa seção apresenta informações sobre problemas comuns.
-seo-title: Solução de problemas de feeds de dados
+seo-title: Solução de problemas dos feeds de dados
 solution: Analytics
-title: Solução de problemas de feeds de dados
-uuid: 4 be 981 ab -3 a 61-4099-9 b 0 d -785 d 2 ac 2492 a
+title: Solução de problemas dos feeds de dados
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Solução de problemas de feeds de dados
+# Solução de problemas dos feeds de dados
 
 Essa seção apresenta informações sobre problemas comuns.
 
@@ -44,15 +44,15 @@ No caso de falha na transferência, você pode [executar uma tarefa novamente](.
 
 ## Opções de reenvio {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+Depois de verificar/corrigir o problema de entrega, basta [executar novamente o serviço](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) para obter os arquivos.
 
 ## Impacto do horário de verão nos feeds de dados por hora {#section_70E867D942054DD09048E027A9474FFD}
 
 Em alguns fusos horários, o tempo será alterado duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 02h00).
 
-Ao fazer as transições de horário padrão -&gt; horário de verão (“Spring Forward”, primavera em diante), o cliente obterá somente 23 arquivos. O horário saltado na transição do horário de verão é simplesmente omitido. Por exemplo, se a transição ocorrer às 02h00, os clientes obterão um arquivo às 01h00 e outro às 03h00. Não haverá arquivo às 02h00, visto que o horário padrão de 02h00 torna-se o horário de verão de 03h00.
+Ao fazer transições de horário padrão -&gt; horário de verão ("Spring Forward", primavera em diante), o cliente obterá apenas 23 arquivos. O horário saltado na transição do horário de verão é simplesmente omitido. Por exemplo, se a transição ocorrer às 02h00, eles terão um arquivo às 01h00 e um arquivo às 03h00. Não haverá arquivo às 02h00, visto que o horário padrão de 02h00 torna-se o horário de verão de 03h00.
 
-Ao fazer as transições de horário de verão -&gt; horário padrão, (“Fall Back”, outono para trás), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a 2 horas de dados. Por exemplo, se a transição ocorrer às 02h00, o arquivo para 01h00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 01h00 as 02h00 do horário padrão (que teria sido 03h00 do horário de verão). O arquivo a seguir começará às 02h00 do horário padrão.
+Ao fazer transições de horário padrão -&gt; horário padrão, ("Fall Back"), o cliente receberá 24 arquivos. No entanto, a hora de transição incluirá dados com o valor de 2 horas. Por exemplo, se a transição ocorrer às 02h00, o arquivo para 01h00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 01h00 as 02h00 do horário padrão (que teria sido 03h00 do horário de verão). O arquivo a seguir começará às 02h00 do horário padrão.
 
 ## Sem dados por um período de tempo {#section_72510794694D42A9A75C966B812AEB0F}
 
