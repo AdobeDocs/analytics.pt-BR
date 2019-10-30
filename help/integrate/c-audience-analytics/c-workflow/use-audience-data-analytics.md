@@ -1,19 +1,19 @@
 ---
-description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas '
-seo-description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas '
+description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Nos Feeds de dados, as IDs de público-alvo são armazenadas na coluna "mc_audiences". Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas '
+seo-description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Nos Feeds de dados, as IDs de público-alvo são armazenadas na coluna "mc_audiences". Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas '
 seo-title: Usar os dados de público-alvo no Analytics
 solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Usar os dados de público-alvo no Analytics
 
-Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas:
+Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Nos Feeds de dados, as IDs de público-alvo são armazenadas na coluna "mc_audiences". Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas:
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -26,7 +26,7 @@ Na Analysis Workspace, os segmentos do AAM aparecem como duas dimensões.
 
 ## Comparação de segmentos {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-A [Comparação de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) encontra as diferenças estatísticas mais relevantes entre dois segmentos. Dados de Públicos-alvo podem ser usados na Comparação de segmentos de duas maneiras: 1) como os 2 segmentos sendo comparados, e 2) como itens na tabela “Itens de dimensão principais”.
+A [Comparação de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) encontra as diferenças estatísticas mais relevantes entre dois segmentos. Os dados de públicos-alvo podem ser usados na Comparação de segmentos de duas formas: 1) como os 2 segmentos que estão sendo comparados e 2) como itens na tabela "Itens de Dimensão Principais".
 
 1. Acesse **[!UICONTROL Espaço de trabalho]** e selecione a visualização **Comparação de segmentos]no painel esquerdo.[!UICONTROL **
 
@@ -37,13 +37,13 @@ A [Comparação de segmentos](https://marketing.adobe.com/resources/help/en_US/a
 1. (Opcional): é possível arrastar também outros itens de dimensão ou segmentos; até 2 podem ser comparados.
 1. Clique em **[!UICONTROL Construir]**.
 
-   As dimensões IDs e Nomes de públicos-alvo serão exibidas automaticamente na tabela “Itens de dimensão principais”, por serem dados adicionais do perfil referentes aos dois segmentos sendo comparados.
+   As dimensões IDs de públicos-alvo e Nome serão exibidas automaticamente na tabela "Itens de dimensão principais", já que são dados de perfil adicionais para os dois segmentos sendo comparados.
 
    ![](assets/aud-segcompare.png)
 
 ## Jornada do cliente (Fluxo) na Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Dados de segmento do AAM são passados para o Analytics em uma base ocorrência-por-ocorrência, e representam a associação de público-alvo de um visitante naquele período específico. Ou seja, um visitante pode se encaixar em um segmento (ex. “Percepção”) e depois se classificar para um segmento mais qualificado (ex. “Consideração”). Use [Fluxo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) na Analysis Workspace para visualizar a jornada feita por um cliente entre públicos-alvo.
+Dados de segmento do AAM são passados para o Analytics em uma base ocorrência-por-ocorrência, e representam a associação de público-alvo de um visitante naquele período específico. Isso significa que um visitante pode cair em um segmento (por exemplo, "Consciência"), qualificando-se posteriormente para um segmento mais qualificado (por exemplo, "Consideração"). Use [Fluxo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) na Analysis Workspace para visualizar a jornada feita por um cliente entre públicos-alvo.
 
 1. Acesse **[!UICONTROL Espaço de trabalho]** e selecione a visualização **Fluxo]no painel esquerdo.[!UICONTROL **
 
