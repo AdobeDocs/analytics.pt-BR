@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Sobre canais e regras
 topic: Reports and Analytics
-uuid: 7 d 574790-4 d 0 d -419 d -8 fb 5-c 16 ec 5 a 4 87
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,16 +23,14 @@ Imagine um canal como um recipiente para as visitas. As regras atribuem as visit
 
 A Adobe fornece diversos canais predefinidos durante uma [configuração automática](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) que pode ser editada conforme seus requisitos.
 
->[!NOTE]
->
->A Adobe recomenda configurar seu relatório em um conjunto de relatórios que pode ser usado como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
+> [!NOTE] A Adobe recomenda configurar seu relatório em um conjunto de relatórios que você pode usar como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
 >
 >Consulte [Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 Leia os seguintes tópicos:
 
 * [Pré-requisitos](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Observações importantes de processamento](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Notas importantes de processamento](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
 
 ## Pré-requisitos {#section_9913D2932E3140C099B7978CA95378B2}
 
