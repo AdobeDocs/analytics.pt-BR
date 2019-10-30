@@ -6,9 +6,9 @@ seo-title: Analisar dimensões
 solution: Analytics
 title: Analisar dimensões
 topic: Reports and Analytics
-uuid: 0 b 888 e 26-f 201-4405-99 f 9-755 b 3 ee 6 cd 18
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,8 +28,8 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
 
    >[!NOTE]
    >
-   >O número de detalhamentos a mostrar na tabela é limitado a 200. Este limite vai aumentar para a exportação de detalhamentos.
+   >O número de detalhamentos a mostrar no quadro está limitado a 200. Este limite vai aumentar para a exportação de detalhamentos.
 
-[Dimensões na Analysis Workspace no youtube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+[Dimensões na Analysis Workspace no YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[Detalhamentos de dimensão no youtube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
+[Detalhamentos de dimensão no YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
