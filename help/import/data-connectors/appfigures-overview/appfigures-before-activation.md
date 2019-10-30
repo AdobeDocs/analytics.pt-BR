@@ -5,7 +5,7 @@ seo-title: Antes de ativar esta integração
 title: Antes de ativar esta integração
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ A tabela a seguir descreve as variáveis do Analytics ativadas automaticamente p
 
 ### Variáveis obrigatórias {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->Essa integração usa variáveis dedicadas para os dados da app store, de modo que não é necessário atribuir variáveis e eventos de comércio personalizados.
+> [!NOTE] Essa integração usa variáveis dedicadas para os dados da app store, de modo que não é necessário atribuir variáveis e eventos de comércio personalizados.
 
 | Tipo de variável | Nome | Método de preenchimento | Descrição |
 |---|---|---|---|
