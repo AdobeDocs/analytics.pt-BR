@@ -7,7 +7,7 @@ title: Detalhes do canal de marketing - Primeiro e último contato
 topic: Relatórios
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ Esses relatórios fornecem um insight sobre as campanhas específicas ou palavra
    * Visitas e Visitantes: a disponibilidade depende da organização e do conjunto de relatórios. Entre em contato com seu Gerente de conta para obter mais informações.
    Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) na Ajuda do [!UICONTROL Canal de marketing].
 
->[!NOTE]
->
->[!UICONTROL Marketing Channel reporting is not available in version 13.5.]
+> [!NOTE] Os relatórios de Canal [!UICONTROL de] marketing não estão disponíveis na versão 13.5.
 
