@@ -5,9 +5,9 @@ seo-title: Adicionar métricas e dimensões
 solution: Analytics
 title: Adicionar métricas e dimensões
 topic: Construtor de relatórios
-uuid: 588 ce 96 b -3 a 2 d -42 b 7-8 a 8 e -7 e 6 f 448 a 0115
+uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
 Etapas para adicionar métricas e dimensões a uma solicitação.
 
 1. [Crie a solicitação de dados](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) no [!UICONTROL Assistente de solicitações: etapa 1], e então clique em **[!UICONTROL Próximo]**.
-1. No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
+1.  No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
 
    ![Informações da etapa](assets/adding_metrics.png)
 
@@ -64,7 +64,7 @@ A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de da
     * Ano
     * Intervalo de datas (quando nenhuma granularidade é especificada)
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
+1. Modifique métricas e dimensões configurando opções [e filtros de](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) formato.
 1. Clique em **[!UICONTROL Concluir]**.
 No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. Aqui, a dimensão [!UICONTROL Domínio de referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
 
