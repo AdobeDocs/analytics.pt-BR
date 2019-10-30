@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Ativar o conjunto de relatórios para Advertising Analytics
-title: Ativar o conjunto de relatórios para Advertising Analytics
-uuid: 934 f 0 e 02-b 5 d 7-4 eca -93 d 8-92 f 95 bd 7014 a
+seo-title: Habilitar conjunto de relatórios para o Advertising Analytics
+title: Habilitar conjunto de relatórios para o Advertising Analytics
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ativar o conjunto de relatórios para Advertising Analytics
+# Habilitar conjunto de relatórios para o Advertising Analytics
 
-Para visualizar quaisquer dados de pesquisa de Análise de publicidade no Analytics, você precisa configurar cada conjunto de relatórios mapeados da Experience Cloud para os relatórios de Advertising Analytics.
+Para visualizar quaisquer dados de pesquisa do Analytics de publicidade no Analytics, é necessário configurar cada conjunto de relatórios mapeado pela Experience Cloud para relatórios do Analytics de publicidade.
 
 1. [Mapear seu conjunto de relatórios para uma organização](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
@@ -24,7 +24,7 @@ Para visualizar quaisquer dados de pesquisa de Análise de publicidade no Analyt
 
    >[!IMPORTANT]
    >
-   >A ID do AMO se refere à variável da Adobe Advertising Cloud no qual os dados de pesquisa serão inseridos.
+   >A ID AMO se refere à variável da Adobe Advertising Cloud na qual os dados de pesquisa serão inseridos.
 
 1. Defina a alocação e expiração da variável que deseja que a variável da ID do AMO ID utilize. As variáveis de conversão (eVars) permitem que o Adobe Analytics atribua eventos bem-sucedidos a valores de variáveis específicas. Às vezes, as variáveis encontram mais de um valor antes da ocorrência de um evento bem-sucedido. Nesses casos, a alocação determina qual valor de variável deve receber o crédito pelo evento.
 
