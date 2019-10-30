@@ -5,7 +5,7 @@ seo-title: Rótulos de privacidade de dados para variáveis do Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,19 +14,17 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ## Por que rotular os dados? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-Muitos clientes da Adobe têm equipes legais que revisaram as leis de privacidade de dados (RGPD, CCPA etc.) e que tiraram suas próprias conclusões sobre como os dados devem ser tratados para se conformarem com as leis de privacidade de dados. As interpretações legais podem diferir entre as empresas e as configurações de manuseio de dados desejadas também podem diferir entre os clientes. Como os clientes têm preferências diferentes para o processamento de dados de Privacidade de dados e conjuntos de dados diferentes, a Adobe está permitindo que os clientes da Adobe, como o controlador de dados, personalizem suas configurações desejadas para o processamento de dados de Privacidade de dados para seus dados exclusivos. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira que faz mais sentido para sua marca e seu conjunto de dados exclusivo.
+Muitos clientes da Adobe têm equipes legais que revisaram as leis de Privacidade de dados (RGPD, CCPA etc) e que tiraram suas próprias conclusões sobre como os dados devem ser tratados para estarem em conformidade com as leis de Privacidade de dados. As interpretações legais podem diferir entre as empresas e as configurações de manuseio de dados desejadas também podem diferir entre os clientes. Como os clientes têm preferências diferentes para o processamento de dados da Privacidade de dados e diferentes conjuntos de dados, a Adobe está permitindo que seus clientes, como controladores de dados, personalizem as configurações desejadas para o processamento de dados da Privacidade de dados em seus dados exclusivos. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
 
 O Adobe Analytics fornece ferramentas para rotulação de dados de acordo com sua sensibilidade e restrições contratuais. Os rótulos são importantes e úteis para ajudar a: (1) identificar os titulares dos dados, (2) determinar quais dados retornar como parte de uma solicitação de acesso; e (3) identificar campos de dados que devem ser excluídos como parte de uma solicitação de exclusão.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Antes de descobrir quais rótulos devem ser aplicados a quais campos/variáveis, é necessário [compreender as IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) que você está capturando nos dados do Analytics e decidir quais serão usadas nas solicitações de Privacidade de dados.
 
-A implementação da Privacidade de dados do Adobe Analytics suporta os seguintes rótulos para dados de identidade, dados confidenciais e controle de dados.
+A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos seguintes rótulos para dados de identidade, dados sensíveis e governança de dados.
 
 ## Rótulos de DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE]
->
->A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está expondo somente os rótulos DULE relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
+> [!NOTE]A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
 
 ## Rótulos de dados de identidade (DULE) {#identity-data-labels}
 
@@ -85,11 +83,11 @@ Os rótulos “S” de dados sensíveis são usados para classificar dados sens�
  </tbody> 
 </table>
 
-## Rótulos de controle de dados (Privacidade de dados) {#data-governance-labels}
+## Rótulos de governança de dados (Privacidade de dados) {#data-governance-labels}
 
 Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas.
 
-**Etiquetas de acesso de privacidade de dados**
+**Rótulos de acesso à privacidade de dados**
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -102,17 +100,17 @@ Os rótulos de Governança de dados oferecem aos usuários a capacidade de class
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nenhum </p> </td> 
-   <td colname="col2"> <p>Selecione essa opção se essa variável não contiver dados que devem ser incluídos nos dados retornados ao indivíduo como parte de uma solicitação de acesso de Privacidade de dados. </p> </td> 
+   <td colname="col2"> <p>Selecione esta opção se essa variável não contiver dados que devem ser incluídos nos dados retornados ao titular de dados, como parte de uma solicitação de acesso da Privacidade de dados. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Values in this field should be included in <u>all</u> Data Privacy access requests. </p> <p>Se essa ocorrência vier de um dispositivo compartilhado por vários indivíduos, ao aplicar esse rótulo, você, como controlador de dados, estará indicando que é aceitável compartilhar os dados desse campo com qualquer pessoa que tenha acesso ao dispositivo compartilhado. </p> </td> 
-   <td colname="col3"> <p>Os campos com essa etiqueta serão retornados para todas as solicitações de Privacidade de dados. </p> </td> 
+   <td colname="col2"> <p>Os valores neste campo devem ser incluídos em <u>todas</u> as solicitações de acesso da Privacidade de dados. </p> <p>Se essa ocorrência vier de um dispositivo compartilhado por vários indivíduos, ao aplicar esse rótulo, você, como controlador de dados, estará indicando que é aceitável compartilhar os dados desse campo com qualquer pessoa que tenha acesso ao dispositivo compartilhado. </p> </td> 
+   <td colname="col3"> <p>Os campos com este rótulo serão retornados para todas as solicitações de Privacidade de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Os valores neste campo devem ser incluídos apenas para solicitações de acesso de Privacidade de Dados quando houver certeza razoável de que a ocorrência foi da pessoa de dados, conforme determinado por uma ID de solicitação de Privacidade de Dados correspondente ao valor do campo ID-PESSOA. </p> </td> 
+   <td colname="col2"> <p> Os valores neste campo devem ser incluídos somente para solicitações de acesso da Privacidade de dados quando tivermos certeza de que a ocorrência originou-se de um titular de dados, como determinado pela ID de solicitação de Privacidade de dados corresponente a um valor do campo ID-PERSON. </p> </td> 
    <td colname="col3"> <p>Você também deve ter um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,7 +118,7 @@ Os rótulos de Governança de dados oferecem aos usuários a capacidade de class
 
 Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que os rótulos de acesso sejam aplicados em muitas de suas variáveis. No entanto, cabe a você, em consulta com a sua equipe jurídica, decidir quais dados coletados devem ser compartilhados com os titulares de dados.
 
-**Rótulos de exclusão de privacidade de dados**
+**Rótulos de exclusão da privacidade de dados**
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -138,7 +136,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>Para solicitações de exclusão de privacidade de dados, os valores neste campo devem ser anônimos somente para solicitações nas quais um ID-DEVICE especificado esteja presente na ocorrência. </p> <p>Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, essas outras instâncias não serão alteradas. Isso resultará na alteração das contagens nos relatórios que processam contagens exclusivas neste campo. Em dispositivos compartilhados, isso pode remover identificadores de outros indivíduos, além do titular dos dados. </p> <p>As contagens não são alteradas se esse campo também tiver um rótulo ID-DISPOSITIVO e o valor nesse campo tiver sido usado como uma ID para a solicitação de Privacidade de dados. </p> </td> 
+   <td colname="col2"> <p>Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-DEVICE especificada esteja presente na ocorrência. </p> <p>Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, essas outras instâncias não serão alteradas. Isso resultará na alteração das contagens nos relatórios que processam contagens exclusivas neste campo. Em dispositivos compartilhados, isso pode remover identificadores de outros indivíduos, além do titular dos dados. </p> <p>As contagens não são alteradas se esse campo também tiver um rótulo ID-DEVICE e o valor nele for usado como uma ID na solicitação de Privacidade de dados. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
      <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Também exige o rótulo I1 ou I2 ou S1 </li> 
@@ -150,7 +148,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>Para solicitações de exclusão de privacidade de dados, os valores neste campo devem ser anônimos somente para solicitações nas quais uma ID-PESSOA especificada esteja presente na ocorrência. </p> <p>Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens exclusivas neste campo. As contagens não serão alteradas se esse campo também tiver um rótulo ID-PESSOA e o valor nesse campo tiver sido usado como uma ID para a solicitação de Privacidade de dados. </p> </td> 
+   <td colname="col2"> <p>Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-PERSON especificada esteja presente na ocorrência. </p> <p>Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens exclusivas neste campo. As contagens não são alteradas se esse campo também tiver um rótulo ID-PERSON e o valor nele for usado como uma ID na solicitação de Privacidade de dados. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
      <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Também exige o rótulo I1 ou I2 ou S1 </li> 
@@ -163,7 +161,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
  </tbody> 
 </table>
 
-**Rótulos de identidade de privacidade de dados**
+**Rótulos de identidade da privacidade de dados**
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -176,12 +174,12 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nenhum </p> </td> 
-   <td colname="col2"> <p>Essa variável não contém uma ID que será usada para solicitações de Privacidade de dados. </p> </td> 
-   <td colname="col3"> <p>É necessário definir um desses outros rótulos somente se esse campo contiver uma ID que você usará ao enviar solicitações de acesso ou exclusão por meio da API de privacidade de dados ou da interface do usuário. </p> </td> 
+   <td colname="col2"> <p>Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. </p> </td> 
+   <td colname="col3"> <p>Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da API da Privacidade de dados ou da interface do usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>Este campo contém uma ID que pode ser usada para identificar um dispositivo para uma solicitação de privacidade de dados, mas não pode distinguir entre usuários diferentes de um dispositivo compartilhado. </p> <p>Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se você enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisar essa variável pela ID especificada. </p> </td> 
+   <td colname="col2"> <p>Este campo contém uma ID que pode ser usada para identificar um dispositivo para uma solicitação de Privacidade de dados, mas não pode distinguir entre usuários diferentes de um dispositivo compartilhado. </p> <p>Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
      <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">Também exige o rótulo I1 ou I2 </li> 
@@ -192,7 +190,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>Este campo contém uma ID que pode ser usada para identificar um usuário autenticado (uma pessoa específica) para uma solicitação de Privacidade de dados. </p> <p>Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se você enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisar essa variável pela ID especificada. </p> </td> 
+   <td colname="col2"> <p>Este campo contém uma ID que pode ser usada para identificar um usuário autenticado (uma pessoa específica) em uma solicitação de Privacidade de dados. </p> <p>Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
      <li id="li_2E781AE8D7A046A7996C7300CA854B86">Também exige o rótulo I1 ou I2 </li> 
@@ -228,9 +226,9 @@ Você também pode definir um novo namespace. Recomendamos que as sequências de
 1. Pressione **[!UICONTROL Enter]** para adicionar este namespace. O botão Aplicar será ativado somente agora.
 1. Clique em **[!UICONTROL Aplicar]**.
 
-A string especificada como namespace é a mesma string que você deve usar ao enviar solicitações por meio da API de privacidade de dados como o valor do parâmetro "namespace". A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
+A sequência de caracteres especificada como namespace é a mesma que deve ser usada ao enviar solicitações por meio da API da Privacidade de dados como o valor do parâmetro “namespace”. A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
 
-Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se você enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisar essa variável pela ID especificada. Por exemplo, se a eVar1 pode conter um endereço de email e a eVar2 pode conter um nome de usuário de logon, mas você só enviará solicitações usando o nome de usuário, você poderá rotular eVar1 como I1, ACC-PERSON, DEL-PERSON, mas eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON com o nome "nome de usuário" ... Em seguida, você pode enviar uma solicitação com um bloco JSON da seção do usuário, como:
+Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. Por exemplo, se eVar1 puder conter um endereço de email e eVar2 um nome de usuário de logon, mas as solicitações serão enviadas usando somente o nome de usuário, será possível rotular eVar1 como I1, ACC-PERSON, DEL-PERSON, mas eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON com o namespace "nome de usuário". Em seguida, você pode enviar uma solicitação com um bloco JSON da seção do usuário, como:
 
 ```
 {
@@ -240,15 +238,15 @@ Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas 
 }
 ```
 
-É aceitável usar o mesmo namespace para variáveis diferentes no mesmo conjunto de relatórios. Por exemplo, algumas implementações personalizadas armazenam uma ID do CRM em uma prop e uma eVar. Se a ID do CRM sempre ocorrer em uma delas (como o eVar) e, ocasionalmente, na outra (o prop), nunca nas duas ao mesmo tempo, então apenas a eVar exigirá um rótulo de ID e um namespace, já que a Adobe poderá pesquisar a ID apenas nessa eVar. No entanto, se o CRM-ID às vezes ocorrer em uma variável e às vezes na outra, ambos devem ter o mesmo namespace e a Adobe pesquisará ambas as variáveis para localizar ocorrências da ID especificada como parte de uma solicitação de Privacidade de dados com esse namespace. Você ainda deve ter os rótulos DEL em todas essas variáveis, para que o valor torne-se anônimo independentemente de onde ocorrer.
+É aceitável usar o mesmo namespace para variáveis diferentes no mesmo conjunto de relatórios. Por exemplo, algumas implementações personalizadas armazenam uma ID do CRM em uma prop e uma eVar. Se a ID do CRM sempre ocorrer em uma delas (como o eVar) e, ocasionalmente, na outra (o prop), nunca nas duas ao mesmo tempo, então apenas a eVar exigirá um rótulo de ID e um namespace, já que a Adobe poderá pesquisar a ID apenas nessa eVar. No entanto, se a ID do CRM ocorrer às vezes em uma variável e, ocasionalmente, na outra, as duas deverão ter o mesmo namespace e a Adobe pesquisará em ambas por ocorrências da ID especificada, como parte de uma solicitação de Privacidade de dados com esse namespace. Você ainda deve ter os rótulos DEL em todas essas variáveis, para que o valor torne-se anônimo independentemente de onde ocorrer.
 
 Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela eVar1 e outras pela prop7. Em seguida, você tem uma regra de processamento que copia o valor da eVar1, se existir, para a eVar3. Caso contrário, ela copia o valor da prop7 para a eVar3. Nesse cenário, a eVar3 sempre conterá a ID do CRM, se for conhecida. Portanto, somente a eVar3 exigirá um rótulo de ID-PERSON.
 
 > [!CAUTION] Os namespaces "visitorId" e "customVisitorId" são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
-## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Tipos de variáveis e rótulos Privacidade de dados/DULE compatíveis {#section_CE7C3EDE1344466A98BC45E394B40762}
 
-A rotulagem Privacidade dos dados/DULE afeta quatro classes amplas de variáveis do Analytics. Nem todas as variáveis suportam todos os rótulos. Esta tabela mostra quais variáveis suportam ou não quais rótulos.
+O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis do Analytics. Nem todas as variáveis suportam todos os rótulos. Esta tabela mostra quais variáveis suportam ou não quais rótulos.
 
 <table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
  <thead> 
@@ -329,13 +327,13 @@ A rotulagem Privacidade dos dados/DULE afeta quatro classes amplas de variáveis
    <td colname="col1"> <p>Dimensões e eventos da solução </p> </td> 
    <td colname="col2"> <p>Link para o Activity Map, </p> <p>Página do Activity Map </p> </td> 
    <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se sua implementação não coletar dados identificáveis direta ou indiretamente nessas variáveis, então eles não precisam de rótulos de identidade ou exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
+   <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se a sua implementação não coletar dados direta ou indiretamente identificáveis nessas variáveis, elas não precisarão de rótulos de identidade ou de exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensões de processamento de dados </p> </td> 
    <td colname="col2"> <p>ID de visitante personalizada </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Não é possível remover os rótulos de ID ou DEL (definidos como Nenhum), mas você pode alterá-los para as variantes DEVICE ou PERSON, dependendo da implementação da ID personalizada. </p> <p>Se você não usar a ID de visitante personalizada, a configuração não terá importância. </p> </td> 
+   <td colname="col4"> <p>Não é possível remover os rótulos de ID ou DEL (definidos como Nenhum), mas você pode alterá-los para as variantes DEVICE ou PERSON, dependendo da implementação da ID personalizada. </p> <p>Se você não usar a ID de visitante personalizada, a configuração não será importante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -350,16 +348,16 @@ A rotulagem Privacidade dos dados/DULE afeta quatro classes amplas de variáveis
   <tr> 
    <td colname="col2"> <p>Ação ClickMap (herdado), </p> <p>Contexto do ClickMap (herdado), </p> <p>Página, </p> <p>URL da página, </p> <p>URL da página de entrada original, </p> <p>Referenciador, </p> <p>URL da página de início da visita </p> </td> 
    <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se sua implementação não coletar dados identificáveis direta ou indiretamente nessas variáveis, então eles não precisam de rótulos de identidade ou exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
+   <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se a sua implementação não coletar dados direta ou indiretamente identificáveis nessas variáveis, elas não precisarão de rótulos de identidade ou de exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Lidar com exclusões {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
-O suporte do Adobe Analytics para solicitações de exclusão de Privacidade de dados foi projetado para minimizar os impactos nos relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes da exclusão da Privacidade de dados corresponderá à mesma execução do relatório após a exclusão ter sido executada. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não-identicáveis no lugar, de forma que os valores relatados permaneçam consistentes.
+O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não-identicáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
-A tabela a seguir descreve como várias variáveis são "excluídas". Esta não é uma lista completa.
+A tabela a seguir descreve como as variáveis são "excluídas". Esta não é uma lista completa.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -371,11 +369,11 @@ A tabela a seguir descreve como várias variáveis são "excluídas". Esta não 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>• Variáveis de tráfego (props) </p> <p>• Variáveis de comércio (eVars) </p> </td> 
-   <td colname="col2"> <p>O valor existente é substituído por um novo valor do formato "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482", no qual o valor hexadecimal de 32 dígitos após o prefixo "Data Privacy-" é um número pseudônimo criptografado de 128 bits ... Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  </p> <p>Para uma determinada variável, se o valor idêntico ao que está sendo substituído ocorrer dentro de outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo novo valor. </p> <p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original.  </p> </td> 
+   <td colname="col2"> <p>O valor existente é substituído por um novo valor com a forma "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482", onde o valor hexadecimal de 32 dígitos que procede o prefixo "Data Privacy-" é um número aleatório de 128 bits criptograficamente forte. Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  </p> <p>Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo. </p> <p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de compra </p> </td> 
-   <td colname="col2"> <p>O valor existente é substituído por um novo valor do formato "G-7588FCD8642718EC50", onde os 18 dígitos hexadecimais após o prefixo "G-" são os primeiros 18 dígitos de um número pseudônimo criptograficamente forte de 128 bits. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação. </p> <p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão. Se você ainda conseguir vincular a compra a um usuário após a solicitação de exclusão da Privacidade de dados dos seus próprios dados, talvez seja necessário excluir esse campo para que os dados do Analytics para esse visitante não possam ser vinculados de volta ao comprador. </p> </td> 
+   <td colname="col2"> <p>O valor existente é substituído por um novo valor de forma "G-7588FCD8642718EC50", onde os 18 dígitos hexadecimais que procedem o prefixo "G-" são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação. </p> <p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão. Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> </td> 
@@ -383,7 +381,7 @@ A tabela a seguir descreve como várias variáveis são "excluídas". Esta não 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• MCID </p> <p>• ID de visitante personalizada </p> <p>• Endereço IP </p> <p>• Endereço IP 2 </p> </td> 
-   <td colname="col2"> <p>O valor é apagado (definido como a sequência vazia ou 0, dependendo do tipo da variável). </p> </td> 
+   <td colname="col2"> <p>O valor é limpo (definido como a cadeia de caracteres vazia ou 0, dependendo do tipo da variável). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• Ação ClickMap (herdado) </p> <p>• Contexto do ClickMap (herdado) </p> <p>• Página </p> <p>• URL da página </p> <p>• URL da página de entrada original </p> <p>• Referenciador </p> <p>• URL da página de início da visita </p> </td> 
@@ -396,9 +394,9 @@ A tabela a seguir descreve como várias variáveis são "excluídas". Esta não 
  </tbody> 
 </table>
 
-## Variables that Don't Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variáveis não compatíveis com os rótulos de exclusão esperados {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
-Esta seção pretende esclarecer informações sobre as variáveis do Analytics que não suportam exclusão. Às vezes, essas variáveis são excluídas por usuários que não usam o Analytics (como a equipe jurídica) que não compreendem o tipo de dados contidos na variável e fazem suposições incorretas com base no nome da variável. Esta é uma lista de algumas dessas variáveis e por que elas não exigem exclusão ou por que não exigem uma etiqueta de exclusão específica.
+Esta seção pretende esclarecer informações sobre as variáveis do Analytics que não oferecem suporte à exclusão. Às vezes, essas variáveis são excluídas por usuários que não usam o Analytics (como a equipe jurídica) que não compreendem o tipo de dados contidos na variável e fazem suposições incorretas com base no nome da variável. Veja a seguir uma lista de algumas dessas variáveis e por que elas não exigem exclusão ou por que elas não exigem um rótulo de exclusão específico.
 
 <table id="table_6FECF3D654514862912D371E6BE4143B"> 
  <thead> 
@@ -478,6 +476,6 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
  </tbody> 
 </table>
 
-O código para gerar os arquivos retornados para as solicitações de acesso de Privacidade de dados exige que pelo menos uma das três primeiras variáveis de carimbo de data e hora seja incluída na solicitação de acesso (tenha um rótulo ACC que se aplique ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL. 
+O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL. 
 
-O arquivo CSV de nível de ocorrência retornado para solicitações de acesso de Privacidade de dados converterá os valores nesses campos de carimbos de data e hora únicos para campos de data/hora do formato AAAA-MM-DD HH:MM:SS (por exemplo, 2018-05-01 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos. 
+O arquivo CSV a nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores nesses campos de carimbos de data e hora unix em campos de data e hora no formato AAAA-MM-DD HH:MM:SS (por exemplo, 2018-05-01 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos. 
