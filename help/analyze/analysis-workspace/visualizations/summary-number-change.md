@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Número do resumo e Resumo de alterações
-title: Número do resumo e Resumo de alterações
-uuid: 177 c 1 b 89-6 d 98-473 d -8447-6 b 4 cdc 479565
+seo-title: Número do resumo e Alteração do resumo
+title: Número do resumo e Alteração do resumo
+uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Número do resumo e Resumo de alterações
+# Número do resumo e Alteração do resumo
 
 ## Visualização do Número de resumo
 
@@ -21,7 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/summary-number.png)
 
-## Visualização de alteração de resumo
+## Visualização de Alteração de resumo
 
 * Se nenhuma célula estiver selecionada, compara os dois primeiros valores de célula na coluna.
 * Se uma célula estiver selecionada, exibe 0, pois compara o valor da célula a ele mesmo.
