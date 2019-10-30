@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: Desenvolvedor e implementação
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Esse utilitário substitui [o plug-in getQueryParam](../../implement/js-implemen
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->A sintaxe do utilitário é diferente da sintaxe do plug-in.
+> [!NOTE] A sintaxe do utilitário é diferente da sintaxe do plug-in.
 
 **Parâmetros:**
 
@@ -40,7 +38,7 @@ s.Util.getQueryParam(key, [url], [delim])
 | url | (opcional) A URL padrão é `s.pageURL` ou `window.location`. A especificação de um valor para esse parâmetro substitui a URL de onde o parâmetro de consulta é recuperado para aquele especificado. |
 | delim | (opcional) Delimitador de parâmetro no URL. O delimitador padrão é "&amp;". Ele permite especificar um delimitador alternativo para a string de consulta, como ";". |
 
-**Retorna:**
+**Devoluções:**
 
 A função retornará uma string vazia "" se nenhuma chave for fornecida, se nenhuma das opções de URL existir ou se a chave não for encontrada no URL. Se um delimitador de fragmento # for encontrado no URL, tudo o que segue o delimitador de fragmento não será considerado. Se a chave existir e for atribuída a um valor, o valor será o URL decodificado e retornado.
 
