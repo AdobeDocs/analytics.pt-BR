@@ -7,7 +7,7 @@ title: Fontes de Tráfego
 topic: Relatórios
 uuid: 34ab8797-7a3e-43fd-afb2-433586961b8
 translation-type: tm+mt
-source-git-commit: 0cb6b29e46518eec9f88718b4990aefa3393490c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -60,7 +60,7 @@ Os relatórios neste menu se dividem em três categorias básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Todas as classificações da página de pesquisa </td> 
-   <td colname="col2"> <p> Exibe a classificação do seu site dentre todas as listas para buscas dos seus visitantes, incluindo dados de classificação de página de busca natural e paga. </p> <p>Por exemplo, um usuário que chega ao seu site por um mecanismo de busca pode ter visto você em um terço de cem páginas de resultados. Isso pode ajudá-lo a rapidamente ver e otimizar os esforços do mecanismo de busca. Os dados para este relatório podem ser visto por todos, exceto os de <span class="wintitle">Hora em hora</span>. </p> </td> 
+   <td colname="col2"> <p> Exibe a classificação do site entre todas as listagens das pesquisas do visitante, incluindo dados de classificação de página de pesquisa natural e paga. </p> <p>Por exemplo, um usuário que chega ao seu site por um mecanismo de busca pode ter visto você em um terço de cem páginas de resultados. Isso pode ajudá-lo a rapidamente ver e otimizar os esforços do mecanismo de busca. Os dados para este relatório podem ser visto por todos, exceto os de <span class="wintitle">Hora em hora</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domínios de referência </td> 
@@ -76,12 +76,12 @@ Os relatórios neste menu se dividem em três categorias básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de Referenciador </td> 
-   <td colname="col2"> <p> Ao rastrear e registrar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita. A lista abaixo define os diversos tipos de referenciadores. </p> 
+   <td colname="col2"> <p> Ao rastrear e gravar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita. A lista abaixo define os diversos tipos de referenciadores. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Referenciadores de disco rígido são registrados quando os visitantes clicam em um link em um documento HTML localizado em seu próprio disco rígido e, assim, chegam ao site. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Referenciadores de outros sites são registrados quando os visitantes clicam em um link localizado em uma página em outro site (não definida como parte do site) e chegam ao site. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Referenciadores de Mecanismo de pesquisa são registrados quando os visitantes usam um mecanismo de pesquisa para acessar site. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Referenciadores Digitados/Marcados são registrados quando os visitantes digitam o URL do seu site diretamente no navegador, ou se acessam seu site selecionando marcadores. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Referenciadores Digitados/Marcados são registrados quando os visitantes digitam o URL do site diretamente no navegador, ou se acessam o site selecionando marcadores. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
