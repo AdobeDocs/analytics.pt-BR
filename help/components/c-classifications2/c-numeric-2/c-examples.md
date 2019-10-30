@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classificações
 title: Exemplos
 topic: Ferramentas administrativas
-uuid: 0553 d 07 f -87 c 1-4372-90 ce -7118 a 6393 a 01
+uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | receita | receita |
 | 2010/02/01 - 2010/02/28 | receita | receita |
 
-Em fevereiro, o custo do usuário para o Produto 1 reduziu para 15% da receita, e o Produto 2 reduziu para 25% de sua receita.
+Em fevereiro, o custo do usuário para o Produto 1 caiu para 15% da receita e o Produto 2 caiu para 25% da receita.
 
 ## Resultado {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ Relatório: produtos
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE]
->
->Esse recurso é para usuários avançados a fim de aproximar valores. As informações resultantes não devem ser tratadas como valores exatos.
+> [!NOTE] Esse recurso é destinado aos usuários avançados a aproximar valores. As informações resultantes não devem ser tratadas como valores exatos.
 
 <!-- 
 
