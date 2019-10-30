@@ -7,7 +7,7 @@ title: Segmentação de cliente
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
->[!NOTE]
->
->O controle Segmento está disponível somente no modo Padrão, pois a plataforma do Adobe Analytics não suporta a segmentação de dados em tempo real.
+> [!NOTE] O controle Segmento está disponível somente no modo Padrão, pois a plataforma do Adobe Analytics não suporta a segmentação de dados em tempo real.
 
 Você pode selecionar um ou vários segmentos do menu suspenso **[!UICONTROL Segmentos]mostrado abaixo.** Os segmentos listados são idênticos aos seus ou aos que foram compartilhados com você, por meio dos Reports &amp; Analytics, para o conjunto de relatórios selecionado.
 
