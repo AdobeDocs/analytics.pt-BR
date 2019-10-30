@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Alertas
 title: Alertas
 topic: Reports and Analytics
-uuid: e 1333 a 9 b-eba 0-45 b 7-b 7 e 6-46 e 06190 db 64
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Alertas {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Como novo sistema de alertas para todo o Adobe Analytics, os Alertas inteligentes permitem que você crie e gerencie alertas, completo com visualização de alertas e contribuição de regras. É possível 
+Como o novo sistema de alertas para todo o Adobe Analytics, os Alertas inteligentes permitem criar e gerenciar alertas, completos com visualização de alertas e contribuição de regras. É possível 
 
 * Criar alertas com base em anomalias (limite de 90%, 95% ou 99%; % de mudança; acima/abaixo).
 * Visualizar a frequência de disparo de um alerta.
-* Enviar alertas por email ou SMS com links para projetos da Analysis Workspace gerados automaticamente.
+* Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta.
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+É possível acessar esse novo sistema de Alertas em **[!UICONTROL Mais]** &gt; **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
 
 Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) na documentação da Analysis Workspace.
 
@@ -38,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** menu. No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
+Navegue até o novo Criador de alertas no menu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** . No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
 
 1. Em Reports &amp; Analytics, abra o relatório no qual deseja definir um alerta.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
@@ -80,7 +80,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>Não estão mais disponíveis no novo Gerenciador de Alertas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Alertas de visitantes únicos com base em tempo (Visitantes únicos diários, semanais, mensais etc. ) </p> <p> </p> </td> 
+   <td colname="col1"> <p>Alertas de visitantes únicos com base em tempo (Visitantes únicos diários, semanais, mensais etc. Visitantes únicos) </p> <p> </p> </td> 
    <td colname="col2"> <p>Crie alertas para relatórios de visitantes únicos diários, semanais, mensais e por hora. </p> </td> 
    <td colname="col3"> <p>No novo Gerenciador de alertas, não haverá mais suporte para alguns alertas de visitantes únicos com base em tempo. Por exemplo, onde você definiu um alerta semanal para visitantes únicos diários, pode definir um alerta diário, mensal etc. na métrica Visitantes únicos mais adiante. (A Analysis Workspace é compatível com uma métrica Visitantes exclusivos, mas é incompatível com métricas de Visitantes únicos diários/semanais/mensais/etc.) </p> <p> </p> </td> 
   </tr> 
