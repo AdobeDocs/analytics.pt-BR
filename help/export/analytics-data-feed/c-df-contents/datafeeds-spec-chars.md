@@ -1,15 +1,15 @@
 ---
 description: Informações sobre caracteres especiais usados no feed de dados.
-keywords: Feed de dados; tarefa; caracteres especiais; hit_ data; variáveis de vários valores; events_ list; products_ list; mvvars
+keywords: Feed de dados;tarefa;caracteres especiais;hit_data;variáveis de vários valores;events_list;products_list;mvvars
 seo-description: Informações sobre caracteres especiais usados no feed de dados.
 seo-title: Caracteres especiais
 solution: Analytics
 subtopic: feed de dados
 title: Caracteres especiais
 topic: Reports and Analytics
-uuid: 5 efe 019 b -39 e 6-4226-a 936-88202 a 02 f 5 e 6
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,12 +61,12 @@ Os caracteres a seguir têm um significado especial em variáveis de vários val
   <tr> 
    <td colname="col1"> <code> ; </code> (caractere de ponto e vírgula) </td> 
    <td colname="col02"> Fim de subvalor em um valor de produto individual </td> 
-   <td colname="col2"> <p>Separa valores associados a um produto individual na <code>product_list </code>. </p> </td> 
+   <td colname="col2"> <p>Separa valores associados a um produto individual na <code> product_list </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> = </code> (caractere de igual) </td> 
    <td colname="col02"> Atribuição de valor </td> 
-   <td colname="col2"> <p>Atribui um valor a um evento na <code>event_list </code>. </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
