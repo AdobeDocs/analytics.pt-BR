@@ -1,20 +1,20 @@
 ---
 description: Ao pesquisar e filtrar na ajuda você localiza um feed na lista.
-keywords: Feed de dados; pesquisar; filtro; conjunto de relatórios; proprietário; status
+keywords: Feed de dados;pesquisa;filtro;conjunto de relatórios;proprietário;status
 seo-description: Ao pesquisar e filtrar na ajuda você localiza um feed na lista.
 seo-title: Pesquisar e filtrar
 solution: Analytics
 title: Pesquisar e filtrar
-uuid: 0 d 9 e 38 ea-e 681-4 aa 3-843 a-d 0221 e 88 c 177
+uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Pesquisar e filtrar
 
-A pesquisa e a filtragem ajudam você a localizar um feed na lista.
+Pesquisar e filtrar ajuda a localizar um feed na lista.
 
 1. Clique ou passe o mouse sobre o ícone Filtrar para visualizar as opções de filtragem.
 
