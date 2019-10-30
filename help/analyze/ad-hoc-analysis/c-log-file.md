@@ -7,7 +7,7 @@ title: Arquivo de log
 topic: Ad Hoc Analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Uma maneira rápida de salvar e exibir um arquivo de log é:
 1. Clicar no logotipo da **[!UICONTROL Ad Hoc Analysis].**
 1. Clicar em **[!UICONTROL Salvar arquivo de log]**.
 
->[!NOTE]
->
->O log salvo usando este procedimento é para a sessão atual.
+> [!NOTE] O log salvo usando este procedimento é para a sessão atual.
 
