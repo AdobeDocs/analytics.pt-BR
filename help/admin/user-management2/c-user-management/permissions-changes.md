@@ -9,7 +9,7 @@ title: Mudanças de permissões de usuários e grupos
 topic: Ferramentas administrativas
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL Admin]** &gt; Gerenciamento **** do usuário &gt; **[!UICONTROL Grupos]**
 
->[!NOTE]
->
->Devido ao alto número de combinações de permissões possíveis disponíveis, não podemos fornecer documentação descrevendo todos os métodos de API que podem ser usados em cada combinação de permissões. Normalmente, não administradores que permitiram acesso de serviços da Web terão apenas acesso de Leitura aos métodos de API. Eles não terão acesso de Gravação aos métodos.
+> [!NOTE] Devido ao alto número de combinações de permissões possíveis disponíveis, não podemos fornecer documentação descrevendo todos os métodos de API que podem ser usados em cada combinação de permissões. Normalmente, não administradores que permitiram acesso de serviços da Web terão apenas acesso de Leitura aos métodos de API. Eles não terão acesso de Gravação aos métodos.
 
 Porque a API e a interface usam o mesmo sistema de permissão, quaisquer permissões garantidas por um administrador a um não administrador específico na interface (Adobe Admin Console) serão as mesmas permissões que o usuário possui na API.
 
@@ -128,9 +126,7 @@ Aqui estão informações novas e importantes sobre atualizações novas e plane
 
 A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status da empresa).
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. Se o convite por email não for aceito, os usuários ainda serão usuários do Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
+> [!NOTE] Um *`migrated user`* e *`Experience Cloud user`* referem-se aos usuários que aceitaram um convite por email para ingressar na Experience Cloud. Se o convite por email não for aceito, os usuários ainda serão usuários do Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
