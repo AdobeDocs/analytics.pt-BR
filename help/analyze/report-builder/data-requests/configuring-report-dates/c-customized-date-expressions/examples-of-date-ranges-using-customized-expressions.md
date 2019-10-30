@@ -5,9 +5,9 @@ seo-title: Exemplos de intervalos de datas usando expressões personalizadas
 solution: Analytics
 title: Exemplos de intervalos de datas usando expressões personalizadas
 topic: Construtor de relatórios
-uuid: 3 f 46816 d -9 eee -4 b 2 d -83 be-bf 1 c 9 fb 97 fcf
+uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
