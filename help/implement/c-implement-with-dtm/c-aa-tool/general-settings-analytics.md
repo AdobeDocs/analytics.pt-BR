@@ -7,8 +7,8 @@ solution: Analytics
 title: Geral
 topic: Desenvolvedor e implementação
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Descrições de campo das Configurações gerais no DTM para implantar o Adobe A
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Se o cookie existe, mas está configurado como <span class="term"> true </span>, a ferramenta será carregada normalmente. </li> 
     </ul> <p>Você é responsável por definir o cookie <span class="filepath"> sat\_track </span> (ou com nome personalizado) como <span class="term"> false </span> se um visitante optar por não participar. Você pode fazer isso usando o código personalizado: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> Você também deve ter um mecanismo para definir esse cookie como <span class="term"> true </span>, se quiser que um visitante possa aceitar a participação posteriormente: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
