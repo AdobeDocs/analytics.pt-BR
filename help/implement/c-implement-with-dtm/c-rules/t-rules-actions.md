@@ -6,8 +6,8 @@ seo-title: Configurar as ações que serão acionadas pela condição
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Configurar as ações que serão acionadas pela condição
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Além das ferramentas integradas como o [!DNL Adobe Analytics] e o Google Analyt
 
 Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 
->[!NOTE]
->
->Como o DTM permite inserir código personalizado em sua página, tenha cautela para não criar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
+> [!NOTE] Como o DTM permite que você insira código personalizado em sua página, tenha cuidado para não criar vulnerabilidades de cross-site scripting (XSS) (consulte o guia [da](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
 
 **Para configurar ações para a condição do disparador**
 
