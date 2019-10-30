@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Mapa
 title: Mapa
-uuid: 6038 f 336-62 a 3-4 efa -8316-4 d 7792468 db 3
+uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -86,4 +86,4 @@ Se você clicar no **ícone de engrenagem**, aparecerão as configurações de v
 | Estilos: Tema de cores | Mostra o esquema de cor do mapa de calor e das propagações. Você pode optar por Coral, Vermelho, Verde ou Azul. O padrão é Coral. |
 | Estilos: Estilo do mapa | É possível optar por Básico, Ruas, Brilho, Claro, Escuro e Satélite. |
 | Raio do cluster | Agrupa os pontos de dados que estão dentro do número especificado de pixels. O padrão é 50. |
-| Valor máximo personalizado | Permite alterar o limite para o valor máximo do mapa; ajustar esse valor ajusta a escala para os valores de propagações/mapa de calor (cor e tamanho) relativos ao valor máximo personalizado definido. |
+| Valor máximo personalizado | Permite alterar o limite do valor máximo do mapa - ajustar esse valor ajusta a escala dos valores de bolhas/mapa de calor (cor e tamanho) em relação ao valor máximo personalizado definido. |
