@@ -1,22 +1,22 @@
 ---
 description: Define configurações comuns para um portal de empregos ou site de busca de carreira.
 seo-description: Define configurações comuns para um portal de empregos ou site de busca de carreira.
-seo-title: Portal de tarefas
+seo-title: Portal de trabalho
 solution: Analytics
-title: Portal de tarefas
+title: Portal de trabalho
 topic: Ferramentas administrativas
-uuid: c 33 a 8 e 30-eea 6-45 f 5-9568-d 64 c 6753855 e
+uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Portal de tarefas
+# Portal de trabalho
 
 Define configurações comuns para um portal de empregos ou site de busca de carreira.
 
-| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variável |
+| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variable |
 |---|---|---|---|---|---|
 | Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
 | Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
@@ -24,14 +24,14 @@ Define configurações comuns para um portal de empregos ou site de busca de car
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
-| Variáveis de insight personalizado | `s_code` variável |
+| Variáveis de insight personalizado | `s_code` variable |
 |---|---|
 | Seguro/não seguro | `prop1` |
 | Propriedade de tráfego 2 - 5 | `prop2, prop3, prop4, prop5` |
 
 A seguinte tabela contém uma lista de eventos padrão de comércio. A configuração inicial desses eventos é idêntica em todos os modelos de conjunto de relatórios. Os eventos com uma variável s_code de N/A não precisam ser definidos, eles serão fornecidos automaticamente.
 
-| Eventos padrão de comércio | Tipo | `s_code` variável |
+| Eventos padrão de comércio | Tipo | `s_code` variable |
 |---|---|---|
 | Receita | Contador | `purchase` |
 | Pedidos | Contador | `purchase` |
