@@ -5,7 +5,7 @@ seo-title: Conector de dados do DreamMail para Adobe Analytics
 title: Conector de dados do DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Essa integração apresenta os seguintes segmentos de marketing dinâmicos:
 * **** Perfis de compra: Aumente os pedidos repetidos e o valor médio do pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **** Perfil comportamental de exibição de produto/conteúdo: Alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
-* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
 
 ## Antes de ativar{#before-you-activate}
 
