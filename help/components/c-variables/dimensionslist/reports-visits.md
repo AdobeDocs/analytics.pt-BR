@@ -4,10 +4,10 @@ seo-description: Exibe o número de visitas realizadas em todo o site durante um
 seo-title: Visitas
 solution: Analytics
 title: Visitas
-topic: 'Relatórios  '
-uuid: ff 65 bddf-fb 65-4 cf 0-8 aae -4 ab 59 c 2 bb 0 a 7 bb
+topic: Relatórios
+uuid: ff65bdf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
