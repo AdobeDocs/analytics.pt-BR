@@ -3,9 +3,9 @@ description: Explica como criar uma métrica que exibe quais Canais de marketing
 seo-description: Explica como criar uma métrica que exibe quais Canais de marketing fornecem assistência em impulsionar pedidos. Isso pode ser adaptado a qualquer dimensão ou evento de sucesso de seu interesse.
 seo-title: Métrica de auxílio de pedidos
 title: Métrica de auxílio de pedidos
-uuid: 7 c 82227 a -7 fcc -486 f-bef 8-164 ea 84 af 77 c
+uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
