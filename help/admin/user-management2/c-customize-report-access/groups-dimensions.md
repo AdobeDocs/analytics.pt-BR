@@ -9,24 +9,20 @@ title: Personalizar permissões de dimensões
 topic: Ferramentas administrativas
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # Personalizar permissões de dimensões
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] O gerenciamento de usuários e produtos está migrando para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 
 **[!UICONTROL Gerenciamento]** de usuários &gt; **[!UICONTROL Grupos]** &gt; Acesso **[!UICONTROL a]** relatórios &gt; **[!UICONTROL Dimensões]** &gt; **[!UICONTROL Personalizar]**
 
->[!IMPORTANT]
->
->Algumas dimensões não são permitidas no momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
+> [!IMPORTANT] Algumas dimensões não são permitidas no momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
 >
 >Essas dimensões estão disponíveis para todos os usuários, independentemente de outras permissões.
 
@@ -107,4 +103,3 @@ Os itens a seguir são dimensões que você pode permitir.
   </tr> 
  </tbody> 
 </table>
-
