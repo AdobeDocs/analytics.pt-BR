@@ -7,8 +7,8 @@ solution: Analytics
 title: Alertas
 topic: Desenvolvedor e implementação
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ Os Alertas inteligentes permitem criar e gerenciar alertas no [!UICONTROL Analys
 
 É possível acessar esse novo sistema de Alertas em **[!UICONTROL Mais]** &gt; **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
 
-Consulte [Alertas inteligentes](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/intellligent_alerts.html) na Ajuda do [!UICONTROL Analysis Workspace].
+Consulte Alertas [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) inteligentes na Ajuda da [!UICONTROL Analysis Workspace] .
