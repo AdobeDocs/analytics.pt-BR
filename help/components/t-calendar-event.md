@@ -7,7 +7,7 @@ title: Eventos de calendário
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
 
->[!NOTE]
->
->Para garantir o melhor desempenho do relatório, os 20 eventos mais recentes do calendário serão exibidos em gráficos de tendências e de horas extras.
+> [!NOTE] Para garantir o melhor desempenho do relatório, os 20 eventos mais recentes do calendário serão exibidos em gráficos de tendências e de horas extras.
 
 Para relatórios de tendências ao longo de um período, você pode exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita, ou qualquer outra métrica. O processo de criação de um calendário de eventos envolve atribuir um nome ao evento, definir as datas, adicionar notas e definir um ícone. Por exemplo, se você usar o Social, é possível criar um evento de calendário para mostrar que havia uma correlação entre o aumento do tráfego do site e a menção de um produto por uma celebridade usando o Twitter.
 
