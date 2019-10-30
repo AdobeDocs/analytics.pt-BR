@@ -2,7 +2,7 @@
 title: Attribution IQ
 description: O QI de atribuição é um conjunto de recursos no Adobe Analytics que fornece insight adicional sobre como os esforços de marketing contribuem para uma conversão.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
