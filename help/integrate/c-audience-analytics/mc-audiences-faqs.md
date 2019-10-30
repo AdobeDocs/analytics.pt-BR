@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Perguntas frequentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -89,20 +89,20 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
    <td colname="col2"> <p>Quase em todos os lugares; elas são tratadas como qualquer outra dimensão coletada no Analytics. Há duas exceções: no momento, os dados não serão disponibilizados no Data Workbench ou na Transmissão em tempo real. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Por que não vejo dados sendo inseridos no Analytics?</b> </p> </td> 
+   <td colname="col1"> <p><b>P: Por que os dados não são exibidos no Analytics?</b> </p> </td> 
    <td colname="col2"> <p>Pode ser que você tenha controles de privacidade do AAM em conflito entre a fonte de dados e o destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Por que alguns de meus segmentos estão ausentes no Analytics, apesar de eu ter selecionado para enviar todos os segmentos?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Seus controles de exportação de dados do AAM no destino e nas fontes de dados dos segmentos podem estar em conflito, o que evita que certos segmentos sejam enviados. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Seus controles de exportação de dados do AAM no destino e nas fontes de dados dos segmentos podem estar em conflito, impedindo que certos segmentos sejam enviados. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Se você estiver usando características de dados de terceiros em seus segmentos, tais segmentos não poderão ser compartilhados a destinos (um conjunto de conjuntos de relatórios) que contêm dados pessoais. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Por que vejo "Limite de público-alvo atingido" no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e "::max_audiences_aded::" no Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>Por padrão, a integração do Audience Analytics para AAM envia para o Analytics todos os segmentos para os quais um usuário é classificado, em uma base “por ocorrência”. Se um visitante pertencer a mais de 150 segmentos do AAM em uma única ocorrência, os <b>150 segmentos qualificados mais recentemente</b> serão enviados ao Analytics, e a lista restante ficará truncada. </p> <p>Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo. </p> <p>Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções: </p> 
+   <td colname="col2"> <p>Por padrão, a integração do Audience Analytics para AAM envia para o Analytics todos os segmentos para os quais um usuário é classificado, em uma base “por ocorrência”. Se um visitante pertencer a mais de 150 segmentos do AAM em uma única ocorrência, os <b>150 segmentos qualificados mais recentemente</b> serão enviados ao Analytics, e a lista restante ficará truncada. </p> <p>Um sinalizador adicional é enviado ao Analytics, o que significa que a lista de segmentos foi truncada e é exibido como "Limite de público-alvo atingido" na dimensão Nome de público-alvo e "-1" na dimensão ID de público-alvo. </p> <p>Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar "Limite de público-alvo atingido" em seu relatório, você terá duas opções: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opção 1</b>: deixe a integração trabalhar em seu estado padrão, enviando os 150 segmentos qualificados mais recentemente para um certo visitante. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opção 2:</b> no AAM, escolha os 150 segmentos que a sua empresa considera mais importantes para a integração. Em seguida, o AAM verificará os visitantes em relação a esses 150 segmentos. A desvantagem dessa abordagem é que você receberá somente esses 150 segmentos por todos os visitantes. Por outro lado, a abordagem da Opção 1 pode fornecer segmentos ilimitados devido à natureza “por ocorrência” da integração. </li> 
@@ -124,7 +124,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
    <td colname="col2"> <p>Sim. Na configuração de destino do AAM, você verá somente conjuntos de relatórios com SSF ativado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Por que não consigo ativar certos conjuntos de relatórios para SSF no Analytics Admin?</b> </p> </td> 
+   <td colname="col1"> <p><b>P: Por que não consigo ativar determinados conjuntos de relatórios para SSF no Analytics Admin?</b> </p> </td> 
    <td colname="col2"> <p>Somente conjuntos mapeados para sua organização da Experience Cloud podem ser habilitados. </p> </td> 
   </tr> 
  </tbody> 
