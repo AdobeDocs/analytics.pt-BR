@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Desenvolvedor e implementação
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Registra por quantos segundos a página foi a guia ativa no navegador e passa o valor para uma métrica na próxima exibição de página.
 
->[!NOTE]
->
->Esta é uma versão beta do plug-in, e outras atualizações podem estar disponíveis.
+> [!NOTE] Observação: está é uma versão beta do plug-in e pode haver mais atualizações no futuro.
 
 Este plug-in requer [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
@@ -27,9 +25,7 @@ Este plug-in também registra o total de segundos em que a página esteve no nav
 
 É necessário utilizar o plug-in getPreviousValue para rastrear o nome da página anterior associado aos eventos de visibilidade da página. O rastreamento desses valores ajuda você a entender melhor a participação do visitante e a rastrear com mais precisão o comportamento do visitante nos sites.
 
->[!NOTE]
->
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do Analytics. Este plug-in é compatível somente com as bibliotecas de rastreamento do [!DNL AppMeasurement].
 
 ## Plug-ins de suporte obrigatórios {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -104,11 +100,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 * Sempre teste as instalações de plug-ins para garantir que a coleta de dados ocorra como esperado antes de ser implantada em um ambiente de produção.
 * Como o plug-in envia os segundos de visibilidade da página e o total de segundos à medida que são associados à página anterior, os dados são coletados para a exibição de página final da visita.
 * Esse plug-in depende da capacidade de definir cookies no navegador da Web do usuário. Se o usuário não aceitar cookies primários, então o plug-in não passará dados para o Analytics.
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
+* O plug-in cria seus cookies primários chamados de `s_tps` e `s_pvs`.
 
 * Um percentual muito pequeno de usuários não enviará o percentual dos dados exibidos na página devido às limitações do navegador, e a lógica é contida no plug-in para garantir que os dados não sejam desviados como resultado. No entanto, esse plug-in foi testado com êxito no IE, Firefox, Chrome e Safari.
 * Devido à forma como o plug-in avalia o total de segundos e associa esse valor ao nome da página anterior, existirão diferenças entre o tempo padrão gasto em métricas de página e as métricas de total de segundos.
-* [!UICONTROL Métricas] calculadas podem ser criadas para ajudar a resumir e entender o comportamento do visitante associado a essas métricas:
+* [!UICONTROL Métricas calculadas] podem ser criadas para auxiliar no resumo e na compreensão do comportamento do visitante associado às seguintes métricas:
 
    * **Proporção de visibilidade da página**(Segundos do total de visibilidade da página/Total de segundos da página)
    * **Total de segundos** ocultos (Total de segundos da página - Total de segundos de visibilidade da página)
@@ -116,7 +112,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
    * **Média de segundos de página oculta** ((Total de segundos da página - Total de segundos de visibilidade da página)/Total de instâncias de visibilidade da página)
 
 * Devido à forma como o plug-in soma os segundos, pode existir uma diferença de 1 a 2 segundos entre o total de segundos de visibilidade da página e o total de segundos, como o total de segundos sendo o maior. (Será solucionado em uma atualização futura)
-* O uso do plug-in getVisitStart deve contabilizar os visitantes que têm um novo início de visita após um período de mais de 30 minutos de inatividade. Isto não está funcionando como programado; no entanto, provavelmente haverá uma solução ao incorporar o "total de segundos ativos" em uma iteração futura do plug-in.
+* O uso do plug-in getVisitStart deve contabilizar os visitantes que têm um novo início de visita após um período de mais de 30 minutos de inatividade. Isto não está a funcionar como previsto; entretanto, provavelmente haverá uma solução ao incorporar o "total de segundos ativos" em uma iteração futura do plug-in.
 
 ## Perguntas frequentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -130,7 +126,7 @@ Sim, as instâncias de total de segundos da página e visibilidade total da pág
 
 **Os eventos captados fazem sentido se eu utilizá-los em relatórios diferentes do Nome da página anterior?**
 
-Como o plug-in registra valores na solicitação de imagem subsequente, é possível aplicar somente outras eVars captadas em um contexto de "página anterior", isto é, "URL da página anterior".
+Como o plug-in registra valores na solicitação de imagem subsequente, somente outras eVars que foram capturadas em um contexto de 'página anterior' poderiam ser aplicadas, isto é, 'URL da página anterior'.
 
 **O plug-in enviará o tempo de visibilidade em uma solicitação de s.tl() ou somente em uma solicitação de s.t()?**
 
