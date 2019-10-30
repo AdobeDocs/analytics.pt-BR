@@ -7,8 +7,8 @@ solution: Analytics
 title: Validação da precisão de dados
 topic: Desenvolvedor e implementação
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Os pontos de dados preferidos para essa validação, em ordem de preferência, s
 * A comparação de eventos bem-sucedidos conhecidos, especialmente dados registrados onde os endereços IP e outras informações de navegador geralmente armazenadas nos logs de servidor da Web podem ser comparados com os dados coletados.
 * Comparação de exibições da página.
 
->[!NOTE]
->
->Páginas padrão, como [!DNL index.html], recebem tráfego automatizado ou monitorado com frequência. Essas páginas representam uma diferença maior à coleta de dados baseada em navegador que outras páginas visitadas.
+> [!NOTE] Páginas padrão, como [!DNL index.html], recebem tráfego automatizado ou monitorado com frequência. Essas páginas representam uma diferença maior à coleta de dados baseada em navegador que outras páginas visitadas.
 
 Os três tipos de validação exigem um log de depuração ou feed de dados para o período em questão. Esse tempo geralmente é de um dia ou menos.
 
