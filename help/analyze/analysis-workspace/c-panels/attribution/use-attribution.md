@@ -5,7 +5,7 @@ seo-title: Usar o Attribution IQ na Analysis Workspace
 title: Usar o Attribution IQ na Analysis Workspace
 uuid: 99fc91b6-ebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Tabelas de forma livre da Analysis Workspace suportam modelos de atribuição qu
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-Qualquer detalhamento em uma Tabela de forma livre também pode ter qualquer modelo de atribuição aplicado a ele, podendo ser o mesmo ou um diferente da coluna principal. Por exemplo, se você desejar analisar Pedidos lineares em sua dimensão de Canais de marketing mas deseja aplicar Pedidos de forma de U aos códigos de rastreamento específicos em um Canal. Para editar o modelo de atribuição aplicado a um detalhamento, passe o mouse sobre o modelo de detalhamento e clique em “Editar”:
+Qualquer detalhamento em uma Tabela de forma livre também pode ter qualquer modelo de atribuição aplicado a ele, podendo ser o mesmo ou um diferente da coluna principal. Por exemplo, se você desejar analisar Pedidos lineares em sua dimensão de Canais de marketing mas deseja aplicar Pedidos de forma de U aos códigos de rastreamento específicos em um Canal. Para editar o modelo de atribuição aplicado a um detalhamento, passe o mouse sobre o modelo de detalhamento e clique em "Editar":
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Se você deseja comparar um modelo a outro rapidamente e com facilidade, clique com o botão direito do mouse em uma métrica e selecione **[!UICONTROL Adicionar modelo de atribuição comparativo]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ O painel de atribuição é uma maneira fácil para criar uma análise comparand
 | Gráfico de sobreposição de dimensões | Um diagrama de Venn exibindo os três itens de dimensão principais (por exemplo, Canais) e a frequência com a qual participam juntos em uma conversão. Por exemplo, o tamanho da sobreposição entre as bolhas indica com que frequência as conversões ocorreram quando um visitante foi exposto a ambos os itens de dimensão (ex: Canais). Selecionar outras linhas na tabela de Forma livre atualizará a visualização para refletir sua seleção. |
 | Pontos de contato de marketing por jornada | Um Histograma que indica o número de pontos de contato de marketing (ou qualquer outra dimensão) de um visitante no intervalo de datas de relatório. Isso é útil para descobrir o impacto da atribuição de multi toque em seu conjunto de dados. Se quase todos os visitantes tiverem somente um ponto de contato, diferentes modelos de atribuição não terão resultados muito diferentes. |
 | Detalhes de desempenho de canal de marketing | Permite comparar até três modelos de atribuição visualmente usando um gráfico de dispersão. |
-| Fluxo de canal de marketing | Permite ver com quais canais há mais interação, e em que ordem, em uma jornada do cliente. |
+| Fluxo de canal de marketing | Permite que você veja quais canais são interagidos com mais frequência e em que ordem na jornada do visitante. |
