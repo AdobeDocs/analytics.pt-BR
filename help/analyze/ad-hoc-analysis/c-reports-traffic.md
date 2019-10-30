@@ -7,7 +7,7 @@ title: Relatórios de fontes de tráfego
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -99,13 +99,11 @@ Os domínios ou URLs que não façam parte desses domínios e URLs definidos sã
 
 Consulte [Filtros internos de URL](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
+> [!NOTE] Os relatórios e análises de marketing registram um domínio de referência como um email quando os visitantes clicam em um link de mensagem por email contendo o protocolo [!DNL imap://] ou [!DNL mail://] e chegam ao site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
 
 ## Tipo de referenciador {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Ao monitorar e registrar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
+Ao rastrear e gravar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
 
 <!-- 
 
@@ -134,7 +132,5 @@ Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
 **USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com `news://`. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). Isso deve reduzir ou eliminar as ocorrências dos itens de linha Dentro do seu site e Sem JavaScript no relatório de [!UICONTROL Tipo do Referenciador].
+> [!NOTE] A lógica do Tipo de referenciador corresponde a outros relatórios de fontes de tráfego (como [!UICONTROL Referenciadores] e Domínios [!UICONTROL de]referência). Isso deve reduzir ou eliminar as ocorrências dos itens de linha Dentro do seu site e Sem JavaScript no relatório de [!UICONTROL Tipo do Referenciador].
 
