@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getVisitNum
 topic: Desenvolvedor e implementação
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,13 +24,11 @@ O plug-in getVisitNum determina o número de visitas que um usuário fez ao site
 
 **Configuração do plug-in**
 
-Coloque o seguinte código na função A função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`* identificada *Configuração de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para usar na captura dos dados do número de visitas. Essa deve ser uma variável que tenha sido ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
+Coloque o seguinte código na função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`chamada de* Configuração de plug-in *.* Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para usar na captura dos dados do número de visitas. Essa deve ser uma variável que tenha sido ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
 
 `s.prop1=s.getVisitNum();`
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 **SEÇÃO DE PLUG-INS**: adicione o seguinte código à área do arquivo [!DNL s_code.js] rotulada como SEÇÃO DE PLUG-INS. Não faça alterações nessa parte do código do plug-in.
 
@@ -83,7 +81,7 @@ s.prop1=s.getVisitNum('m','s_vmonthnum','s_monthinvisit'); //resets montly, cust
 s.prop1=s.getVisitNum('d'); //resets daily
 ```
 
-**Observações**
+**Notas**
 
 * Sempre teste a instalação do plug-in para verificar se a coleta de dados ocorre como esperado antes da implantação no ambiente de produção.
 * Esse plug-in depende da capacidade de definir cookies no navegador da Web do usuário. Se o usuário não aceitar cookies, todas as visitas aparecerão como primeiras visitas.
