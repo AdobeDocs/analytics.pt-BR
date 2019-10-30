@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getValOnce
 topic: Desenvolvedor e implementação
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * Se um usuário fechar sua página, abrir uma guia diferente e navegar de volta para o site em 30 minutos, o plug-in criará uma nova sessão enquanto mantém a visita do [!DNL Analytics] aberta.
    * Se um usuário mantém a janela do navegador aberta sem clicar em um link por mais de 30 minutos, a visita do [!DNL Analytics] expira enquanto mantém a sessão do navegador aberta.
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Implementação {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->Se sua organização usa Canais de marketing e tem regras configuradas com base em `s.campaign`, é recomendável não usar o plug-in getValOnce ao definir o valor de `s.campaign`. Isso poderia levar à atribuição incorreta de um canal a um click-through de campanha secundária.
+> [!NOTE]Se sua organização usa Canais de marketing e tem regras configuradas com base em `s.campaign`, é recomendável não usar o plug-in getValOnce ao definir o valor de `s.campaign`. Isso poderia levar à atribuição incorreta de um canal a um click-through de campanha secundária.
 
 Para implementar esse plug-in, coloque o seguinte código no arquivo [!DNL s_code.js]
 
