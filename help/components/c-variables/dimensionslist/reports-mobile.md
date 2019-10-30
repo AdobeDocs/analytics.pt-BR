@@ -1,28 +1,26 @@
 ---
 description: Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 seo-description: Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Report Suites.
-seo-title: Dispositivo móvel
+seo-title: Mobile
 solution: Analytics
-title: Dispositivo móvel
-topic: 'Relatórios  '
-uuid: ec 8 f 6977-da 92-478 e-a 934-c 32 cf 5889526
+title: Mobile
+topic: Relatórios
+uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dispositivo móvel
+# Mobile
 
 Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 
-## Celular {#topic_D306EA4558194488AC47A45B9C570150}
+## Mobile {#topic_D306EA4558194488AC47A45B9C570150}
 
 Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 
->[!NOTE]
->
->Os Relatórios móveis exibem somente o tráfego da Web móvel. Dados de aplicativos móveis recolhidos com iOS, Android e outros SDKs nativos são incluídos no Relatório de dispositivos móveis, sendo exibidos apenas quando habilitados nas Ferramentas administrativas.
+> [!NOTE] Os Relatórios móveis exibem apenas o tráfego da Web móvel. Dados de aplicativos móveis recolhidos com iOS, Android e outros SDKs nativos são incluídos no Relatório de dispositivos móveis, sendo exibidos apenas quando habilitados nas Ferramentas administrativas.
 
 Os relatórios móveis a seguir estão disponíveis:
 
@@ -61,19 +59,19 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> Suporte a cookies </td> 
-   <td colname="col2"> <p>Agrupa acessos de dispositivos móveis que possuem ou não suporte a cookies. Os visitantes são divididos em grupos que possuem ou não possuem suporte a cookies. O tipo de dispositivo móvel é identificado na sequência de agente do usuário. A Adobe mantém uma lista de dispositivos móveis conhecidos por terem suporte a cookies. Se o dispositivo móvel listado no sequência do agente do usuário também está listado na lista de dispositivos móveis da Adobe, então o <span class="term"> O item</span> de linha suportado no <span class="wintitle"> relatório de Suporte</span> a cookies é incrementado. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>Agrupa acessos de dispositivos móveis que possuem ou não suporte a cookies. Os visitantes são divididos em grupos que possuem ou não possuem suporte a cookies. O tipo de dispositivo móvel é identificado na sequência de agente do usuário. A Adobe mantém uma lista de dispositivos móveis conhecidos por terem suporte a cookies. If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suporte de imagem </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base nos tipos de imagens que eles suportam. </p> <p>Por exemplo, se o telefone de um visitante que suporta imagens <span class="filepath">.jpeg</span>, acessa um site, o relatório <span class="wintitle">Suporte de imagem</span> é incrementado pelo menos uma vez. Se o telefone tiver suporte a mais do que um formato de imagem, a visita a um site pode resultar em múltiplos incrementos para aquela visita. Em outras palavras, se o seu telefone tem suporte aos formatos <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> e <span class="filepath">.gif</span>, então cada um desses grupos no relatório é incrementado. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base nos tipos de imagens que eles suportam. </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. Se o telefone tiver suporte a mais do que um formato de imagem, a visita a um site pode resultar em múltiplos incrementos para aquela visita. Em outras palavras, se o seu telefone tem suporte aos formatos <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> e <span class="filepath">.gif</span>, então cada um desses grupos no relatório é incrementado. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Profundidade de cor </td> 
-   <td colname="col2"> <p> Agrupa acessos de dispositivos móveis pelo número de cores suportadas. O relatório mostra o número total de visitantes de site que usaram um dispositivo móvel, e divide-os em grupos com base no número de cores configuradas em seus dispositivos móveis. </p> <p>Por exemplo, se o celular do visitante suportar 24 cores, o relatório incrementa o item de linha que corresponde a 24 cores. </p> </td> 
+   <td colname="col1"> Intensidade de cor </td> 
+   <td colname="col2"> <p> Agrupa acessos de dispositivos móveis pelo número de cores suportadas. O relatório mostra o número total de visitantes de site que usaram um dispositivo móvel, e divide-os em grupos com base no número de cores configuradas em seus dispositivos móveis. </p> <p>Por exemplo, se o celular do visitante suportar 24 cores, o relatório incrementa o item de linha correspondente a 24 cores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suporte de áudio </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base nos tipos de formatos de áudio suportados por eles. </p> <p>Por exemplo, se o telefone de um visitante suportar o <span class="filepath">.mp3</span>, o relatório de Suporte de vídeo será incrementado em um. Se o telefone suporta mais de um formato de áudio, uma visita a um site pode resultar em incrementos para cada tipo de áudio suportados. Em outras palavras, se um telefone suportar os formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> e <span class="filepath">.amr</span>, cada um desses grupos é incrementado no relatório. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base nos tipos de formatos de áudio suportados por eles. </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. Se o telefone suporta mais de um formato de áudio, uma visita a um site pode resultar em incrementos para cada tipo de áudio suportados. Em outras palavras, se um telefone suportar os formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> e <span class="filepath">.amr</span>, cada um desses grupos é incrementado no relatório. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suporte de vídeo </td> 
@@ -81,7 +79,7 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no tipo de suporte a Digital Rights Management (DRM). Grupos DRM incluem <span class="term"> Bloqueio de encaminhamento</span>, <span class="term"> Entrega combinada</span>, <span class="term"> Entrega separada</span>e <span class="term"> Desconhecido.</span> </p> </td> 
+   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no tipo de suporte a Digital Rights Management (DRM). Grupos DRM incluem <span class="term"> Bloqueio</span>de encaminhamento, entrega <span class="term"> combinada</span>, entrega <span class="term"> separada</span>e <span class="term"> desconhecido.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Protocolos de rede </td> 
@@ -89,7 +87,7 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> Sistema operacional (substituído) </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base no sistema operacional móvel em execução no dispositivo. Sistemas operacionais móveis incluem Windows, RIM, iOS, Symbian, etc. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Note: This report was deprecated when the Technology &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Operating Systems</a> report was updated to include all operating systems, including mobile. É possível criar um segmento no qual "dispositivo móvel" existe e aplicá-lo ao relatório Tecnologia &gt; Sistemas operacionais para exibir somente os sistemas operacionais de dispositivos móveis. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base no sistema operacional móvel em execução no dispositivo. Sistemas operacionais móveis incluem Windows, RIM, iOS, Symbian, etc. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Observação: Este relatório foi descontinuado quando o relatório Tecnologia &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Sistemas</a> operacionais foi atualizado para incluir todos os sistemas operacionais, incluindo os portáteis. É possível criar um segmento no qual "dispositivo móvel" existe e aplicá-lo ao relatório Tecnologia &gt; Sistemas operacionais para exibir somente os sistemas operacionais de dispositivos móveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Versão do Java </td> 
@@ -113,11 +111,11 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo <span class="term"> Grupo desconhecido</span> para dispositivos em que o suporte a PTT não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo Grupo <span class="term"> desconhecido</span> para os dispositivos cujo suporte a PTT não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suporte a email de decoração </td> 
-   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo <span class="term"> Grupo desconhecido</span> para os dispositivos cujo suporte por email de decoração não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo Grupo <span class="term"> desconhecido</span> para os dispositivos cujo suporte a Email de decoração não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Serviços de Informações </td> 
