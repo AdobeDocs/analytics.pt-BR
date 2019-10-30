@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Exibir projetos convertidos na Analysis Workspace
-title: Exibir projetos convertidos na Analysis Workspace
-uuid: 5 f 8 b 6 d 0 a -1 a 2 c -42 da-b 51 d-bce 355 f 470 af
+seo-title: Visualizar projetos convertidos na Analysis Workspace
+title: Visualizar projetos convertidos na Analysis Workspace
+uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Exibir projetos convertidos na Analysis Workspace
+# Visualizar projetos convertidos na Analysis Workspace
 
 Antes de exibir seus projetos na Workspace, consulte as [Perguntas frequentes](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) e revise as [diferenças na terminologia](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) entre a Ad Hoc Analysis e a Workspace.
 
