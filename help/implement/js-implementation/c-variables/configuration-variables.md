@@ -1,5 +1,5 @@
 ---
-description: Configuration variables set in AppMeasurement.js.
+description: Variáveis de configuração definidas no AppMeasurement.js.
 keywords: Implementação do Analytics
 seo-description: Variáveis de configuração definidas no AppMeasurement.js para o Adobe Analytics
 seo-title: Variáveis de configuração
@@ -9,16 +9,16 @@ title: Variáveis de configuração
 topic: Desenvolvedor e implementação
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a340bb50ec437db64dafaddc0b20aec740aee299
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visão geral das variáveis de configuração
+# Variáveis de configuração visão geral
 
-As variáveis de configuração controlam como os dados são capturados e processados nos relatórios. The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). These variables can be set within the Analytics page-level code and links when appropriate.
+As variáveis de configuração controlam como os dados são capturados e processados nos relatórios. As variáveis de configuração mais comuns tipicamente definidas no JavaScript global principal (AppMeasurement.js). Essas variáveis podem ser definidas no código de página e nos links do Analytics, quando apropriado.
 
-Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Algumas dessas variáveis de configuração podem não se aplicar às necessidades de implementação do seu site.
+Nem todas essas variáveis aparecem no código por padrão ao gerar o código por meio da **[!UICONTROL Ferramenta de administração]** &gt; **[!UICONTROL Gerenciador de código]**. Algumas dessas variáveis de configuração podem não se aplicar às necessidades de implementação do seu site.
 
 Alguns dos objetivos ao usar essas variáveis de configuração são:
 
@@ -28,9 +28,7 @@ Alguns dos objetivos ao usar essas variáveis de configuração são:
 * Rastreamento de sites (número de arquivos baixados, links para arquivos externos.
 * Rastrear links personalizados por razões particulares.
 
->[!NOTE]
->
->[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. Se as variáveis de configuração forem definidas após a chamada para `t()`, podem ocorrer resultados inesperados. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+> [!NOTE] [!DNL AppMeasurement] requer que todas as variáveis de configuração sejam definidas antes da chamada inicial para a função de rastreamento, `t()`. Se as variáveis de configuração forem definidas após a chamada para `t()`, podem ocorrer resultados inesperados. Para garantir a coleta de dados adequada, todas as variáveis de configuração devem estar acima da função `doPlugins`.
 
 Para obter ajuda com variáveis de configuração específicas, clique em qualquer um dos links a seguir:
 
@@ -68,7 +66,7 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 
 * [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html): Determine se os dados do ClickMap são coletados.
 
-* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Include a comma-separated list of file extensions.
+* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Inclua uma lista separada por vírgulas de extensões de arquivo.
 
 * [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Inclui uma lista separada por vírgulas de filtros que representam os links que fazem parte do site.
 
@@ -78,5 +76,5 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Use para relatar um subconjunto específico de links de saída.
 
-* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Call the `s_doPlugins` function prior to each image request.
+* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Chame a `s_doPlugins` função antes de cada solicitação de imagem.
 
