@@ -5,7 +5,7 @@ seo-title: Visualizar uso de chamadas do servidor atual
 title: Visualizar uso de chamadas do servidor atual
 uuid: 1a42a45f-4bc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Uso **[!UICONTROL de chamada]** do servidor &gt; Uso **[!UICONTROL atual]**
 
->[!IMPORTANT]
->
->Todos os números de utilização e compromisso que você vê são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
+> [!IMPORTANT] Todos os números de utilização e compromisso que você vê são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
 
 O painel de Uso atual
 
@@ -27,9 +25,7 @@ O painel de Uso atual
 
 * Compara seu período de uso atual ao uso do ano anterior (lina azul). Obviamente, a linha azul será exibida somente se sua empresa apresentar dados de uso de chamadas do servidor do ano anterior.
 
-   >[!NOTE]
-   >
-   >Se quiser exibir o uso de um período anterior, vá para a guia Uso [do conjunto de](/help/admin/c-server-call-usage/report-suite-usage.md) relatórios e baixe os dados de uso de um período anterior.
+   > [!NOTE] Se quiser exibir o uso de um período anterior, vá para a guia Uso [do conjunto de](/help/admin/c-server-call-usage/report-suite-usage.md) relatórios e baixe os dados de uso de um período anterior.
 
 * Lista a porcentagem de chamadas usadas (em porcentagens e dados brutos), e a porcentagem gasta do período de uso (em porcentagens e dados brutos).
 * Por padrão, é atualizado diariamente, com uma latência de processamento de cinco dias.
@@ -42,4 +38,3 @@ O painel de Uso atual
 | Período de uso atual (verde) | O período atual é baseado no [período de uso](/help/admin/c-server-call-usage/overage-overview.md). |
 | Período de uso anterior (azul) | O período anterior é definido como o período de uso atual menos 1 ano. |
 | Limite de uso (vermelho) | Seu limite de uso contratual para este período de uso. |
-
