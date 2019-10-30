@@ -1,18 +1,18 @@
 ---
 description: Exibe o número de carrinhos de compra abertos durante o período especificado. Você pode executar relatórios para analisar exibições do carrinho, adições, remoções e finalizações. Um carrinho de compras é aberto geralmente quando um cliente seleciona um item para compra, mas também pode ocorrer sem um item.
 seo-description: Exibe o número de carrinhos de compra abertos durante o período especificado. Você pode executar relatórios para analisar exibições do carrinho, adições, remoções e finalizações. Um carrinho de compras é aberto geralmente quando um cliente seleciona um item para compra, mas também pode ocorrer sem um item.
-seo-title: Carrinho de compras
+seo-title: Carrinho de Compras
 solution: Analytics
-title: Carrinho de compras
-topic: 'Relatórios  '
-uuid: ce 97 e 7 f 0-b 455-438 c-a 064-d 4856 a 1279 e 7
+title: Carrinho de Compras
+topic: Relatórios
+uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Carrinho de compras
+# Carrinho de Compras
 
 Exibe o número de carrinhos de compra abertos durante o período especificado. Você pode executar relatórios para analisar exibições do carrinho, adições, remoções e finalizações. Um carrinho de compras é aberto geralmente quando um cliente seleciona um item para compra, mas também pode ocorrer sem um item.
 
