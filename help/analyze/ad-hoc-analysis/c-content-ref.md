@@ -7,7 +7,7 @@ title: Construir segmentos
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -134,7 +134,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
   </tr> 
   <tr> 
    <td colname="col1">Segmentos do administrador <p>(também conhecidos como segmentos "Globais") </p> </td> 
-   <td colname="col2"> <p> Os segmentos do <b>administrador</b> serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos. </p> <p>O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os Administradores podem excluir, editar e compartilhar esses segmentos. </p> <p>A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Agora, os administradores devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os indivíduos ou grupos apropriados ou com todo mundo. </p> </td> 
+   <td colname="col2"> <p> Os segmentos do <b>administrador</b> serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos. </p> <p>O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os administradores podem excluir, editar e compartilhar esses segmentos. </p> <p>A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Agora, os administradores devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os indivíduos ou grupos apropriados ou com todo mundo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
