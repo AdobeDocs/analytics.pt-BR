@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 A variável é usada pelo JavaScript e servidores de coleta de dados na determinação do tempo de vida de um cookie.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | cl | Tráfego &gt; Tecnologia &gt; Cookies Todos os relatórios relacionados ao visitante | "" |
 
-Se *`cookieLifetime`* for definido, substituirá todas as outras expirações de cookie para JavaScript e servidores de coleta de dados, com uma exceção, descrita abaixo. The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. A variável *`cookieLifetime`* pode ter um destes três valores:
 
 * [!DNL Analytics] Cookies
 * Cookies
@@ -49,8 +49,8 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## Configurações
 
-Nenhuma
+Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
-*`cookieLifetime`* affects  tracking. [!DNL Analytics] If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Tenha cuidado ao definir *`cookieLifetime`*.
+O *`cookieLifetime`* afeta o rastreamento de [!DNL Analytics]. Se, por exemplo, *`cookieLifetime`* for dois dias, os relatórios mensais, trimestrais e anuais exclusivos do visitante estarão incorretos. Tenha cuidado ao definir *`cookieLifetime`*.
