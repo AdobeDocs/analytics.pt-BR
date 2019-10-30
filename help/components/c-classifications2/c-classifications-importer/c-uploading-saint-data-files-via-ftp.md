@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classificações
 title: Importação de FTP
 topic: Ferramentas administrativas
-uuid: a 914970 d-ba 02-4111-9 dcf -06448 f 71 b 9 f 3
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## Importação de FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**.
+**[!UICONTROL Admin]** &gt; Importador **[!UICONTROL de classificação]**.
 
 Os seguintes limites recomendados são importantes:
 
@@ -36,9 +36,7 @@ Cada novo valor de chave que você carrega é descontado do total de únicos que
 
 Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. É possível visualizar essas classificações tanto no data warehouse como na Ad Hoc Analysis.
 
->[!NOTE]
->
->O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos processados pelos servidores da Adobe. O processamento dos arquivos de dados geralmente não levam mais de 72 horas.
+> [!NOTE] O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos que já estão sendo processados pelos servidores da Adobe. O processamento dos arquivos de dados geralmente não levam mais de 72 horas.
 
 Antes de fazer upload dos dados por FTP, crie uma conta FTP. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
