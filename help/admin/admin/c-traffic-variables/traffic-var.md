@@ -5,9 +5,9 @@ seo-title: Visão geral da variável de tráfego (prop)
 solution: Analytics
 title: Visão geral da variável de tráfego (prop)
 topic: Ferramentas administrativas
-uuid: 5 d 62 b 19 e -9 fea -4489-8 a 80-1 ebb 317 f 5 a 78
+uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ As Variáveis de tráfego de insight personalizado (ou props) permitem correlaci
 
 Use a página [!UICONTROL Variáveis de tráfego] para ativar, desativar ou renomear os relatórios de variável de tráfego. Quando estiver desativado, o relatório de uma variável de tráfego não aparecerá na interface do usuário.
 
-See also [Traffic Props and Conversion eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)
+Consulte também Props [de tráfego e eVars de conversão](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)
