@@ -1,19 +1,19 @@
 ---
 description: Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
-keywords: Feed de dados; página; evento; page_ event; post_ page_ event
+keywords: Feed de dados;página;evento;page_event;post_page_event
 seo-description: Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
-seo-title: Pesquisa do evento da página
+seo-title: Pesquisa de evento da página
 solution: Analytics
-title: Pesquisa do evento da página
+title: Pesquisa de evento da página
 topic: Reports and Analytics
-uuid: 73 af 597 c -5560-466 e -94 b 2-ddd 1 d 64797 c 8
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Pesquisa do evento da página
+# Pesquisa de evento da página
 
 Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
 
@@ -29,17 +29,17 @@ Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_ev
   <tr> 
    <td colname="col1"> Exibições de página </td> 
    <td colname="col02"> Igual ao posterior </td> 
-   <td colname="col2"> <p>0 para todas as exibições de página (chamadas <code>s.t()</code>) </p> <p>0 para chamadas <code>trackState</code> dos SDKs móveis. </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 para chamadas <code> trackState </code> dos SDKs móveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rastreamento de link </td> 
-   <td colname="col02"> <p>10 para "outro link" </p> <p>10 para <code>trackAction</code> e chamadas do ciclo de vida dos SDKs móveis. </p> <p>11 para "link de download" </p> <p>12 para "link externo ou de saída" </p> </td> 
-   <td colname="col2"> <p>100 para "outro link" </p> <p>100 para <code>trackAction</code> e chamadas do ciclo de vida dos SDKs móveis. </p> <p>101 para "link de download" </p> <p>102 para "link externo ou de saída" </p> </td> 
+   <td colname="col02"> <p>10 para "outro link" </p> <p>10 para <code> trackAction </code> e chamadas do ciclo de vida dos SDKs móveis. </p> <p>11 para "link de download" </p> <p>12 para "link externo ou de saída" </p> </td> 
+   <td colname="col2"> <p>100 para "outro link" </p> <p>100 para <code> trackAction </code> e chamadas do ciclo de vida dos SDKs móveis. </p> <p>101 para "link de download" </p> <p>102 para "link externo ou de saída" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Vídeo Milestone </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Evento de início de mídia </p> <p>32 - Evento somente de atualização de mídia (não executa nenhum evar ou outra variável) </p> <p>33 – Evento de atualização de mídia + outra variável (inclui o processamento da eVar e de outra variável) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Evento de início de mídia </p> <p>32 – Evento somente de atualização de mídia (não processa qualquer eVar ou outra variável) </p> <p>33 – Evento de atualização de mídia + outra variável (inclui o processamento da eVar e de outra variável) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – Evento de início de mídia </p> <p>77 – Evento somente de atualização de mídia (não processa qualquer eVar ou outra variável) </p> <p>78 – Evento de atualização de mídia + outra variável (inclui o processamento da eVar e de outra variável) </p> </td> 
   </tr> 
