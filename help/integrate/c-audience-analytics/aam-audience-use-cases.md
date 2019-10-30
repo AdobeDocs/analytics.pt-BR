@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Casos de uso do Audience Analytics
 title: Casos de uso do Audience Analytics
-uuid: 51 c 0576 c-ce 8 a -4 a 87-9 c 8 f-be 193 e 50279 d
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Vendas de anúncios e decisões de conteúdo {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-Como um Editor de mídia, você pode fornecer tamanho e métricas eficazes de públicos-alvo à sua equipe de vendas de anúncios. Além disso, pode determinar que conteúdo corresponde melhor a certos segmentos demográficos, como “Mulheres de 30 anos que estão sendo mães pela primeira vez”.
+Como um Editor de mídia, você pode fornecer tamanho e métricas eficazes de públicos-alvo à sua equipe de vendas de anúncios. Você também pode determinar qual conteúdo tem melhor repercussão em segmentos demográficos específicos, como "Mulheres com 30 anos que são mães pela primeira vez".
 
 ## Oportunidades de re-direcionamento {#section_29C46BA00B3D43CE8A433EA64072D952}
 
