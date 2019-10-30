@@ -4,10 +4,10 @@ seo-description: Identifica como os produtos individuais e grupos de produtos (c
 seo-title: Produtos
 solution: Analytics
 title: Produtos
-topic: 'Relatórios  '
-uuid: a 081352 b -601 a -43 be -83 ad-fa 7 f 69890 b 49
+topic: Relatórios
+uuid: a081352b-601a-43be-83ad-fa7f69890b49
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Identifica como os produtos individuais e grupos de produtos (categorias) contri
  <tbody> 
   <tr> 
    <td colname="col1"> Funil de conversão de produtos </td> 
-   <td colname="col2"> <p> Mostra as médias das métricas Exibições de produto, Adições ao carrinho, Pedidos, Unidades e Receita. O Funil de conversão de produtos também mostra as principais conversões entre dados importantes em cada grupo de relatórios e métricas de conversão padrão (por exemplo, receita e ordens). O topo (visão geral) do funil fornece um resumo visual dos dados de conversão. A seção funil exibe as estatísticas de todos os eventos na área superior, com base em Pedidos e até duas outras métricas, Receita e Unidades. </p> <p>Para adicionar métricas e eventos personalizados a partir de outros grupos de relatórios, clique em um link de <span class="uicontrol">Eventos selecionados</span> no cabeçalho do relatório. </p> <p>Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Essa tendência indicaria que há menos visitas hoje do que ontem, mas só porque o restante das estatísticas do período ainda não ocorreu. </p> </td> 
+   <td colname="col2"> <p> Mostra as médias das métricas Exibições de produto, Adições ao carrinho, Pedidos, Unidades e Receita. O Funil de conversão de produtos também mostra as principais conversões entre dados importantes em cada grupo de relatórios e métricas de conversão padrão (por exemplo, receita e ordens). O topo (visão geral) do funil fornece um resumo visual dos dados de conversão. A seção funil exibe as estatísticas de todos os eventos na área superior, com base em Pedidos e até duas outras métricas, Receita e Unidades. </p> <p>Para adicionar métricas e eventos personalizados a partir de outros grupos de relatórios, clique em um link de <span class="uicontrol">Eventos selecionados</span> no cabeçalho do relatório. </p> <p>Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Por exemplo, pode haver menos visitas hoje do que ontem, mas apenas porque o restante das estatísticas do período ainda não ocorreu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produtos </td> 
