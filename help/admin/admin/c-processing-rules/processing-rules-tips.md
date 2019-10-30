@@ -8,7 +8,7 @@ title: Dicas e truques para regras de processamento
 topic: Ferramentas administrativas
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ Esta seção contém algumas orientações que ajudam a testar as regras de proc
 
 **Teste das regras que leem os termos de pesquisa**
 
-Para todos os critérios baseados em uma pesquisa, por exemplo, se prop1 contém "notícias", vá para o relatório prop 1, pesquise "notícias" e veja se há correspondências que você não esperava.
+Para obter qualquer critério baseado em uma pesquisa, como se prop1 contém "notícias", vá para o relatório prop 1 e pesquise por "notícias" e veja se há correspondências que você não esperava.
 
 **Teste das regras que leem variáveis**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Uso de um conjunto de relatórios dev**
 
-Recomendamos a configuração das regras de processamento em um conjunto de relatórios dev para ter certeza de que estão funcionando corretamente. Se possível, recomendamos copiar as regras em um conjunto de relatórios de produção pequeno antes de uma implantação mais abrangente.
+Recomendamos configurar regras de processamento em um conjunto de relatórios dev para garantir que elas estejam funcionando corretamente. Se possível, recomendamos copiar as regras em um conjunto de relatórios de produção pequeno antes de uma implantação mais abrangente.
 
 ## Verificar a existência de valores vazios {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Os termos de pesquisa extraídos de uma sequência de consulta devem ser correta
 Selecione a condição de correspondência certa para encontrar a condição mais restritiva que corresponda corretamente. É possível pesquisar valores em um relatório antes de criar uma regra, para ter certeza de que não há correspondências indesejadas. Por exemplo, você deve pesquisar o relatório Prop2 para encontrar todos os locais em que há correspondência com essa condição antes de habilitar essa regra.
 
 ![](assets/tips-startswith.png)
-
