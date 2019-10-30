@@ -4,9 +4,9 @@ seo-description: Uma tabela comparativa de APIs em relatórios do Analytics. Sã
 seo-title: Comparação de APIs em relatórios do Analytics
 solution: Analytics
 title: Comparação de APIs em relatórios do Analytics
-uuid: fa 533 a 8 e -33 c 0-42 f 4-a 294-cabee 0258 c 8 f
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 
->[!NOTE]
->
->Quanto à latência, o Analytics for Target (A 4 T) combina os dados do Analytics e do Target na mesma ocorrência para relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
+> [!NOTE] Em relação à latência, o Analytics for Target (A4T) combina os dados do Analytics e do Target na mesma ocorrência para relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
