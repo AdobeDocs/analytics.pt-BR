@@ -1,13 +1,13 @@
 ---
-description: Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores se dividem em duas categorias principais e urls. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
-seo-description: Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores se dividem em duas categorias principais e urls. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
+description: Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores se dividem em duas categorias principais Domínios e URLs. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
+seo-description: Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores se dividem em duas categorias principais Domínios e URLs. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
 seo-title: Domínios de referência
 solution: Analytics
 title: Domínios de referência
-topic: 'Relatórios  '
-uuid: ab 310 bb 8-51 b 1-4428-a 42 e -2377 d 36 ca 986
+topic: Relatórios
+uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
