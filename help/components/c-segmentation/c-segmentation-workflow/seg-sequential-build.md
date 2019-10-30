@@ -1,28 +1,28 @@
 ---
-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções “Apenas antes da sequência” e "Apenas após a sequência".
-seo-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções “Apenas antes da sequência” e "Apenas após a sequência".
+description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrando o filtro "Incluir todos". Os segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes usando as opções "Somente antes da sequência" e "Somente depois da sequência".
+seo-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrando o filtro "Incluir todos". Os segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes usando as opções "Somente antes da sequência" e "Somente depois da sequência".
 seo-title: Construir segmentos sequenciais
 solution: Analytics
 title: Construir segmentos sequenciais
 topic: Segmentos
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Construir segmentos sequenciais
 
-Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções “Apenas antes da sequência” e "Apenas após a sequência".
+Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrando o filtro "Incluir todos". Os segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes usando as opções "Somente antes da sequência" e "Somente depois da sequência".
 
 ![](assets/before-after-sequence.png)
 
-Além disso, é possível restringir os segmentos sequenciais a uma duração de tempo, granularidade e contagens específicas entre pontos de verificação ao usar o [Operadores Depois e Dentro](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## Incluir todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Ao criar o segmento usando a definição “Incluir todos”, o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
+Ao criar um segmento onde "Incluir todos" está definido, o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ Ao criar o segmento usando a definição “Incluir todos”, o segmento identif
 
 As opções **[!UICONTROL Apenas antes da sequência]** e **Apenas após a sequência]filtram o segmento em um subconjunto de dados antes e depois da sequência especificada.[!UICONTROL **
 
-* **Apenas antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, “Apenas antes da sequência” inclui a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
-* **Apenas após a sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, “Apenas após” inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências posteriores (consulte o exemplo 2).
+* **Apenas antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparecer várias vezes em um caminho, "Somente antes da sequência" incluirá a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
+* **Apenas após a sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparecer várias vezes em um caminho, "Somente depois" inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências subsequentes (consulte o exemplo 2).
 
 Por exemplo,  uma sequência de B -&gt; D. Os três filtros identificariam as ocorrências como se segue:considere 
 
@@ -56,7 +56,7 @@ Por exemplo,  uma sequência de B -&gt; D. Os três filtros identificariam as oc
 | Somente antes da sequência | Uma | B | C | D | B |  |  |  |
 | Somente após sequência |  |  |  | D | B | C | D | E |
 
-Também vamos modelar este conceito com a dimensão Profundidade da ocorrência.
+Vamos também enquadrar este conceito com a dimensão Profundidade da ocorrência.
 
 **Exemplo 3: profundidade da ocorrência 3 então 5**
 
@@ -64,9 +64,9 @@ Também vamos modelar este conceito com a dimensão Profundidade da ocorrência.
 
 ## Restrições de dimensão {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-Em uma cláusula “dentro”, entre instruções ENTÃO, é possível adicionar, por exemplo, “dentro de uma instância de palavra-chave de pesquisa”, “dentro de uma instância eVar 47”. Isso restringe o segmento a uma instância de uma dimensão.
+Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão.
 
-Definir uma cláusula “dentro da dimensão” entre regras permite que o segmento restrinja dados a sequências que satisfazem a essa cláusula. Observe o exemplo abaixo, onde a restrição está definida como “Dentro de uma página”:
+A definição de uma cláusula "Dentro da Dimensão" entre as regras permite que um segmento restrinja dados a sequências em que essa cláusula é cumprida. Observe o exemplo abaixo, onde a restrição está definida como “Dentro de uma página”:
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Os contêineres do Grupo lógico são necessários para agrupar as condições em um único ponto de verificação de segmento sequencial. O contêiner especial do Grupo lógico está disponível somente na segmentação sequencial, para garantir que suas condições sejam atendidas após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial seguinte. As condições no próprio ponto de verificação do Grupo lógico podem ser cumpridas em qualquer ordem. Por outro lado, os contêineres não sequenciais (ocorrência, visita, visitante) não exigem que suas condições sejam atendidas na sequência geral, produzindo resultados inintuitivos se usados com um operador ENTÃO.
 O contêiner do Grupo  lógico foi projetado para tratar *vários pontos de verificação como um grupo*, *sem qualquer ordem* entre os pontos de verificação agrupados. Em outras palavras, não nos importamos com a ordem dos pontos de controle dentro desse grupo. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->Um Grupo  lógico só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL THEN] é usado na expressão.
+> [!NOTE] Um Grupo  lógico só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL THEN] é usado na expressão.
 
 | Hierarquia do contêiner | Ilustração | Definição |
 |---|---|---|
@@ -399,7 +397,7 @@ Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° d
 
 >[!IMPORTANT]
 >
->Em uma cláusula “dentro”, entre instruções ENTÃO, é possível adicionar, por exemplo, “dentro de uma instância de palavra-chave de pesquisa”, “dentro de uma instância eVar 47”. Isso restringe o segmento a uma instância de uma dimensão.
+>Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão.
 
 **Exemplo**: Os visitantes que visitaram a página A e, em seguida, visitaram a página B dentro de 5 minutos.
 
