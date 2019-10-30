@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,15 +16,15 @@ A variável é uma lista separada por vírgula de extensões de arquivo.
 
 Se o site contém links para arquivos com qualquer uma dessas extensões, as URLs desses links aparecem no relatório de [!UICONTROL Downloads de arquivo].
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |--- |--- |--- |--- |
 | N/A | N/A | Tráfego &gt; Tráfego do site &gt; Downloads de arquivos | "exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls" |
 
-A variável  variable is only relevant when  is set to 'True.'*`linkDownloadFileTypes`**`trackDownloadLinks`*
+A variável A variável *`linkDownloadFileTypes`* só é relevante quando *`trackDownloadLinks`* está definida como 'True'.
 
 Somente os cliques feitos com o botão esquerdo do mouse no relatório [!UICONTROL Downloads de arquivo] são contados. Os downloads de arquivos que começam automaticamente quando uma página é carregada ou que só são realizados depois de um redirecionamento não são contados no relatório [!UICONTROL Downloads de arquivo]. Quando você clicar com o botão direito do mouse em um arquivo e selecionar a opção "Salvar alvo como...", ele não será contado no relatório [!UICONTROL Downloads de arquivo].
 
-A variável *`linkDownloadFileTypes`* pode ser utilizada para rastrear links para os feeds de RSS. If you have links to RSS feeds with a .xml or other extension, appending ",xml" to the  list allows you to see how often each RSS link is clicked.*`linkDownloadFileTypes`*
+A variável *`linkDownloadFileTypes`* pode ser utilizada para rastrear links para os feeds de RSS. Se você tiver links para feeds RSS com uma extensão .xml ou outra extensão, anexar ",xml" à lista *`linkDownloadFileTypes`* permite que você veja com que frequência cada link RSS é clicado.
 
 ## Sintaxe e valores possíveis
 
@@ -48,7 +48,7 @@ s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls,xml"
 
 ## Configurações*
 
-Nenhuma
+Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
