@@ -1,24 +1,24 @@
 ---
 description: A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
 seo-description: A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
-seo-title: Lead time necessário para aumentos de tráfego
+seo-title: Tempo de lead necessário para aumentos de tráfego
 solution: Analytics
-title: Lead time necessário para aumentos de tráfego
+title: Tempo de lead necessário para aumentos de tráfego
 topic: Ferramentas administrativas
-uuid: aa 3 fb 882-51 b 0-458 f -917 b -7 c 54 d 5659623
+uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: e373297bcf1c9ae0f421ed246125204f31c39cc3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Lead time necessário para aumentos de tráfego
+# Tempo de lead necessário para aumentos de tráfego
 
 A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
 
 A alocação de hardware é realizada por alertas emitidos pela interface do usuário dos Reports &amp; Analytics.
 
-> [!IMPORTANT] A Adobe não pode acomodar solicitações de alteração de tráfego de «espaço reservado». Salvo indicação contrária, acesse o lead time sugerido o mais próximo possível, incluindo não enviar um alerta muito cedo. See [Schedule a traffic spike](../../admin/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](../../admin/c-traffic-management/t-traffic-permanent.md).
+> [!IMPORTANT] A Adobe não pode acomodar solicitações de alteração de tráfego de "espaço reservado". Salvo indicação em contrário, siga o lead time sugerido o mais próximo possível, incluindo não enviar um alerta muito cedo. Consulte [Agendar um pico](../../admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfego ou [Especificar aumento](../../admin/c-traffic-management/t-traffic-permanent.md)permanente de tráfego.
 
 Use as diretrizes a seguir para determinar com quanta antecedência você deve enviar um alerta de tráfego:
 
@@ -28,7 +28,7 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
  <thead>
   <tr>
    <th colname="col1" class="entry"> Estimativas DIÁRIAS de tráfego (ocorrências) </th>
-   <th colname="col2" class="entry"> <p>Lead time necessário (janeiro - outubro) </p> </th>
+   <th colname="col2" class="entry"> <p>Lead time necessário (janeiro a outubro) </p> </th>
    <th colname="col3" class="entry"> <p>Lead time necessário (novembro - dezembro) </p> </th>
   </tr>
  </thead>
@@ -41,7 +41,7 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
   <tr>
    <td colname="col1"> 1,000,000 - 5,000,000 </td>
    <td colname="col2"> Dois dias ÚTEIS </td>
-   <td colname="col3" morerows="3"> Todos os aumentos de tráfego direcionados para novembro de December… devem ser enviados até 1 de setembro. Isto proporciona o tempo necessário para que a capacidade adicional para acomodar o tráfego do feriado seja adquirida. </td>
+   <td colname="col3" morerows="3"> Todos os aumentos de tráfego direcionados para novembro e dezembro devem ser enviados até 1º de setembro. Isto proporciona o tempo necessário para que a capacidade adicional para acomodar o tráfego do feriado seja adquirida. </td>
   </tr>
   <tr>
    <td colname="col1"> 5,000,000 - 10,000,000 </td>
@@ -71,4 +71,4 @@ Outros itens que devem ser considerados:
 
 ## Cancelamento da alocação de hardware devido ao tráfego não realizado
 
-O hardware para novas contas, picos de tráfego e aumentos de tráfego terá o alocamento cancelado se o tráfego projetado no alerta do cliente não ocorrer em 4 semanas a partir da "data de ativação". Se o tráfego ainda for antecipado, é necessário gerar um novo alerta do cliente conforme o tráfego aumentar.
+O hardware para novas contas, picos de tráfego e aumentos de tráfego será desalocado se o tráfego projetado no alerta do cliente não ocorrer dentro de 4 semanas da "data de ativação". Se o tráfego ainda for antecipado, é necessário gerar um novo alerta do cliente conforme o tráfego aumentar.
