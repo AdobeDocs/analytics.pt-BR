@@ -5,16 +5,16 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.charSet
 
-A propriedade charSet, que normalmente é definida no arquivo JavaScript, é usada pelo Analytics para converter os dados recebidos em UTF-8 para armazenamento e relatório pelo Analytics.
+A propriedade charSet, que normalmente é definida no arquivo JavaScript, é usada pelo Analytics para converter os dados recebidos em UTF-8 para armazenamento e relatórios no Analytics.
 
->[!N] Observação: A propriedade charSet é necessária ao enviar dados para um conjunto de relatórios multibyte e nunca deve ser usada com um conjunto de relatórios padrão. A definição de uma propriedade charSet em um report suite padrão ISO pode resultar em truncamento variável ou em conversão inesperada de caracteres.
+>[!NObservação:] a propriedade charSet é necessária ao enviar dados para um conjunto de relatórios multibyte e nunca deve ser usada em um conjunto de relatórios padrão. A definição de uma propriedade charSet em um report suite padrão ISO pode resultar em truncamento variável ou em conversão inesperada de caracteres.
 
 O valor da propriedade charSet deve corresponder à codificação da página da web na tag META ou no cabeçalho http, mesmo que a sintaxe seja ligeiramente diferente. Embora a tag META possa usar um alias para a codificação, o valor do charSet deve usar o nome preferencial (ou oficial) da codificação.
 
@@ -28,19 +28,19 @@ Algumas das codificações mais comuns com seu nome preferencial e aliases estã
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-Como existem várias codificações e aliases, entre em contato com seu Consultor de Implementação ou com o Atendimento ao cliente da Adobe para confirmar o valor correto do charSet se ele não aparecer na tabela acima.
+Como existem várias codificações e aliases, entre em contato com o Consultor de implementação ou com o Atendimento ao cliente da Adobe para confirmar o valor correto do charSet, caso ele não conste na tabela acima.
 
-If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
+Se um site tiver diferentes codificações da Web em diferentes páginas ou se um único arquivo JavaScript for usado para vários sites, a propriedade charSet pode ser definida como um valor padrão no arquivo JavaScript e então redefinida em páginas específicas, conforme necessário, para substituir o padrão; por exemplo, `s.charSet="UTF-8"` ou `s.charSet="SJIS"`.
 
 Qualquer valor não vazio do parâmetro charSet fará com que os dados sejam convertidos em UTF-8 para o armazenamento. Todos os caracteres no intervalo de 128-255 serão convertidos para a sequência UTF-8 de dois bytes correta e armazenados. Esses caracteres não serão exibidos corretamente em um report suite padrão. Portanto, a propriedade charSet nunca deve ser usada com um report suite padrão.
 
 Da mesma forma, um valor em branco do parâmetro charSet ignorará o processo de conversão de dados, e todos os caracteres no intervalo de 128-255 serão armazenados como um único byte. Esses caracteres não serão exibidos corretamente em um report suite multibyte visto que os códigos de byte único para esses caracteres não são UTF-8 válidos. Portanto, o parâmetro charSet deve ser sempre usado com um report suite multibyte. Além disso, o valor correto deve ser usado com relação à codificação da página web.
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. However, if the variables on your pages contain non-ASCII characters, the  variable must be populated.*`charSet`*
+Se a variável *`charSet`* contiver um valor incorreto, os dados em todas as outras variáveis serão convertidos incorretamente. Se as variáveis JavaScript nas páginas (por exemplo, *`pageName`*, [!UICONTROL prop1] ou *`channel`*) contiverem apenas caracteres ASCII, *`charSet`* não precisa ser definido. No entanto, se as variáveis nas páginas contiverem caracteres não ASCII, a variável *`charSet`* deverá ser preenchida.
 
 ## Parâmetros
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |--- |--- |--- |--- |
 | N/A | CE | N/A | "" |
 
