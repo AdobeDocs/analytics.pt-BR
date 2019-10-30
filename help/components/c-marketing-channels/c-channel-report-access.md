@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Acesso ao Relatório
 topic: Reports and Analytics
-uuid: 5 da 9 f 2 e 7-582 b -40 e 4-a 027-b 5248065 b 89 c
+uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Este procedimento descreve como executar o Relatório de canal de marketing, fornecer direitos de administrador e permissões de grupo de usuário ao relatório.
 
-Para visualizar o relatório de Canal de marketing, forneça as permissões corretas ao grupo de usuários. O sistema de permissões da Experience Cloud da Adobe baseia-se em grupos, o que significa que o grupo de um usuário determina o acesso a relatórios.
+Para visualizar o relatório de Canal de marketing, forneça as permissões corretas ao grupo de usuários. O sistema de permissões da Experience Cloud da Adobe é baseado em grupos, o que significa que o grupo de um usuário determina o acesso aos relatórios.
