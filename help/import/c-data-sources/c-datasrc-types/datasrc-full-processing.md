@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: Processamento completo
 topic: Desenvolvedor e implementação
-uuid: 590 ae 89 c -6 e 17-453 b-b 701-ce 1 adbea 6 fa 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ As fontes de dados de processamento completa são processadas como se fossem rec
 * [Perfil do visitante](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [Referência da coluna](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
-## Perfil do visitante{#section_6065627D0C144506965F562C80AE67F8}  
+## Perfil do visitante {#section_6065627D0C144506965F562C80AE67F8}
 
 Como os dados das fontes de dados de processamento completo são processados por meio de perfis do visitante diferentes, mesmo que a ID do visitante nos dados carregados corresponda aos dados coletados com o JavaScript ou outra biblioteca de AppMeasurement, os perfis de visitantes não serão conectados em uma perspectiva de alocação de eVar.
 
@@ -40,36 +40,37 @@ Por exemplo, um usuário com uma ID de visitante"user@example.com" visita seu si
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campanha </p> </td> 
-   <td colname="col2"> <p>campanha </p> </td> 
+   <td colname="col1"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Código de rastreamento de campanha de conversão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>canal </p> </td> 
-   <td colname="col2"> <p>canal </p> </td> 
+   <td colname="col1"> <p>marketing </p> </td> 
+   <td colname="col2"> <p>marketing </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres de canal (por exemplo, seção de esportes). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Observação: esta variável também tem suporte das fontes de dados padrão como <code>código de moeda </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Código de moeda da receita (por exemplo, US$). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use o formato de data ISO 8601, <code>AAAA-MM-DDThh:mm:ss±UTC_offset</code> (por exemplo, <code>2013-09-01T12:00:00-07:00</code>), ou o formato de hora Unix (o total de segundos decorridos desde 1° de janeiro de 1970). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, ou seja &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars ( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
+   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Por exemplo: </p> 
-    <code>Scadd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,17 +110,17 @@ Por exemplo, um usuário com uma ID de visitante"user@example.com" visita seu si
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>URL da página (por exemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Lista de produtos (por exemplo, <code>"Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, ou seja &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Sports Section </span>). </p> </td> 
+   <td colname="col3"> <p>	Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Sports Section </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -132,18 +133,18 @@ Por exemplo, um usuário com uma ID de visitante"user@example.com" visita seu si
    <td colname="col3"> <p>ID(s) do report suite para o qual deve ser atribuída a ocorrência. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>servidor </p> </td> 
-   <td colname="col2"> <p>servidor </p> </td> 
+   <td colname="col1"> <p>server </p> </td> 
+   <td colname="col2"> <p>server </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres do servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>estado </p> </td> 
-   <td colname="col2"> <p>estado </p> </td> 
+   <td colname="col1"> <p>state </p> </td> 
+   <td colname="col2"> <p>state </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres do estado de conversão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>cep </p> </td> 
-   <td colname="col2"> <p>cep </p> </td> 
+   <td colname="col1"> <p>zip </p> </td> 
+   <td colname="col2"> <p>zip </p> </td> 
    <td colname="col3"> <p>CEP de conversão. </p> </td> 
   </tr> 
  </tbody> 
@@ -201,7 +202,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Tipo de conexão do visitante ( <span class="term"> lan </span> ou <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
@@ -224,7 +225,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
    <td colname="col2"> <p>Versão do JavaScript (por exemplo, 1.3) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Plug-ins </p> </td> 
+   <td colname="col1"> <p>plugins </p> </td> 
    <td colname="col2"> <p>Lista de nomes de plug-in para navegador separados por ponto e vírgula. </p> </td> 
   </tr> 
   <tr> 
@@ -232,11 +233,11 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
    <td colname="col2"> <p>Valores da propriedade para suas propriedades. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referenciador </p> </td> 
+   <td colname="col1"> <p>referrer </p> </td> 
    <td colname="col2"> <p>URL para o referenciador da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>resolução </p> </td> 
+   <td colname="col1"> <p>resolution </p> </td> 
    <td colname="col2"> <p>Resolução do monitor (por exemplo, 1024x768). </p> </td> 
   </tr> 
   <tr> 
