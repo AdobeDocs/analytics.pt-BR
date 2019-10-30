@@ -5,9 +5,9 @@ seo-title: Bloquear/desbloquear pastas de trabalho
 solution: Analytics
 title: Bloquear/desbloquear pastas de trabalho
 topic: Construtor de relatórios
-uuid: ef 5 c 276 c -5 f 74-4741-b 6 fa -4 c 79 eda 29 f 62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Para desbloquear uma pasta de trabalho, clique em **[!UICONTROL Desbloqueado]** 
 * Você é um administrador ou
 * Você é a pessoa que inicialmente bloqueou a pasta de trabalho. Nesse caso, você não precisa ser um administrador.
 
->[!NOTE]
->
->Não é possível adicionar uma solicitação a uma pasta de trabalho protegida a menos que você tenha as permissões para desbloquear a pasta de trabalho.
+> [!NOTE] Não é possível adicionar uma solicitação a uma pasta de trabalho protegida, a menos que você tenha permissões para desbloquear a pasta de trabalho.
 
 Quando uma pasta de trabalho é bloqueada contra edição de solicitação.
 
@@ -56,15 +54,15 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 Considere que a pasta de trabalho A tem uma solicitação que está em um estado bloqueado e foi criada pelo usuário A.
 
-**Exemplo 1: Usuário administrador (ou usuário A)**
+**Exemplo 1: Usuário administrador (ou Usuário A)**
 
 1. O usuário entra no Construtor de relatórios e abre uma pasta de trabalho 
-1. A pasta de trabalho A está bloqueada no momento, portanto, o botão "Criar solicitação" está desativado na barra de ferramentas, juntamente com o resto dos botões cuja funcionalidade está desabilitada por bloqueio.
+1. A pasta de trabalho A está bloqueada no momento, portanto, o botão "Criar solicitação" é desativado na barra de ferramentas, juntamente com todos os outros botões cuja funcionalidade é desativada pelo bloqueio.
 1. Se o usuário tentar usar um dos botões desativados, uma mensagem aparece informando que a pasta de trabalho está bloqueada no momento.
 1. O usuário pode desbloquear a pasta de trabalho, o que habilita a função de edição completa.
 1. Depois de desbloquear, a pasta de trabalho permanece desbloqueada até ser explicitamente bloqueada novamente.
 
-**Exemplo 2: Usuário não administrador (usuário B)**
+**Exemplo 2: Usuário não administrativo (Usuário B)**
 
 1. O usuário entra no Construtor de relatórios e abre uma pasta de trabalho 
 1. O usuário não pode adicionar/editar a solicitação.
