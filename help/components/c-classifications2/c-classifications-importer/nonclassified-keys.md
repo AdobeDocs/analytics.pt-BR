@@ -1,23 +1,23 @@
 ---
 description: As teclas não classificadas são reunidas nos relatórios de classificação como um único item de linha identificado como Nenhum. Pode ser útil para renomear Nenhum para algo mais descritivo.
 seo-description: As teclas não classificadas são reunidas nos relatórios de classificação como um único item de linha identificado como Nenhum. Pode ser útil para renomear Nenhum para algo mais descritivo.
-seo-title: Teclas não classificadas
+seo-title: Chaves não classificadas
 solution: Analytics
 subtopic: Classificações
-title: Teclas não classificadas
+title: Chaves não classificadas
 topic: Ferramentas administrativas
-uuid: b 73 a 9161-0 c 6 f -4 c 8 d -900 b -54 ab 2 c 36147 c
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Teclas não classificadas
+# Chaves não classificadas
 
 As teclas não classificadas são reunidas nos relatórios de classificação como um único item de linha identificado como Nenhum. Pode ser útil para renomear Nenhum para algo mais descritivo.
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## Chaves não classificadas {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
 Teclas não classificadas são reunidas nos relatórios de classificação como um único item de linha identificado *`None`*. It can be useful to rename *`None`* to something more descriptive.
 
@@ -39,5 +39,5 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
 
    Para seguir o exemplo deste documento, você poderá digitar "campanha não móvel" em uma coluna nomeada [!UICONTROL Nome da campanha móvel].
 
-   Essa entrada renomeia *`None`* ao *`non-mobile campaign`* relatório [!UICONTROL de Tipo] de campanha móvel.
+   Essa entrada renomeia *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
 1. [Importar os dados](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) de volta para o sistema.
