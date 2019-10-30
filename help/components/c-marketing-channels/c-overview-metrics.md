@@ -1,25 +1,25 @@
 ---
-description: Como usar métricas nos relatórios do Canal de marketing.
-seo-description: Como usar métricas nos relatórios do Canal de marketing.
-seo-title: Métricas usadas nos relatórios do Canal de marketing
+description: Como usar métricas nos relatórios de Canal de marketing.
+seo-description: Como usar métricas nos relatórios de Canal de marketing.
+seo-title: Métricas usadas nos relatórios de canal de marketing
 solution: Analytics
 subtopic: Canais de marketing
-title: Métricas usadas nos relatórios do Canal de marketing
+title: Métricas usadas nos relatórios de canal de marketing
 topic: Reports and Analytics
-uuid: be 5 bcb 94-927 e -4 b 5 f-b 201-3 d 54 eb 51 e 740
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Métricas usadas nos relatórios do Canal de marketing
+# Métricas usadas nos relatórios de canal de marketing
 
-Como usar métricas nos relatórios do Canal de marketing.
+Como usar métricas nos relatórios de Canal de marketing.
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## Métricas usadas nos relatórios de canal de marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
-Como usar métricas nos relatórios do Canal de marketing.
+Como usar métricas nos relatórios de Canal de marketing.
 
 ![](assets/metric_edit_icon.png)
 
@@ -29,16 +29,16 @@ Adicione (ou edite) as métricas.
 
 Adicionar uma coluna ao relatório.
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## Métricas de primeiro e último toque {#concept_68D9A50204304BA58C1F8013451E7853}
 
-O primeiro toque e o último toque são atributos de canal que permitem ver quantos novos envolvimentos (ou dados de métricas, como visualizações de produtos, receita e pedidos) resultam da atividade de um visitante no canal.
+O primeiro toque e o último toque são atributos de canal que permitem ver quantos novos envolvimentos (ou dados de métrica como exibições de produtos, receita e pedidos) resultam da atividade de um visitante no canal.
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Nota o primeiro canal pelo qual o usuário chegou, bem como o canal mais recente. Em seguida, dá o crédito do evento de sucesso a cada canal apropriado.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -63,15 +63,13 @@ O Canal de pesquisa paga recebe US$ 100,00 de crédito como canal de primeiro to
 
 Toda instância de evento de sucesso terá exatamente um canal de Primeiro toque e exatamente um canal de Último toque. Isso significa que se você adicionar uma determinada coluna de métrica em algum evento de sucesso, ela sempre será exatamente igual ao total no mesmo período de tempo. Esse total também será exatamente igual ao número total de eventos no relatório adequado de [!UICONTROL Métricas do site] &gt; [!UICONTROL Eventos personalizados]. As métricas de evento de não sucesso, como visitas e visitantes, não corresponderão 1 a 1, visto que vários canais podem ser acionados na mesma visita.
 
->[!NOTE]
->
->Este relatório usa a versão de primeiro ou último toque de cada métrica. Portanto, os dados exibidos em um relatório de [!UICONTROL Canal de marketing] podem não corresponder aos dados exibidos em outros relatórios.
+> [!NOTE] Este relatório usa a versão de primeiro ou último toque de cada métrica. Portanto, os dados exibidos em um relatório de [!UICONTROL Canal de marketing] podem não corresponder aos dados exibidos em outros relatórios.
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
 | Métrica | Definição |
 |--- |--- |
-| Canal de primeiro toque | O primeiro canal de marketing que interagiu com um visitante. Tecnicamente, o canal de primeiro toque é uma evar com alocação original. |
+| Canal de primeiro toque | O primeiro canal de marketing que interagiu com um visitante. Tecnicamente, o canal de primeiro toque é uma eVar com alocação original. |
 | Visitante de primeiro toque | No relatório do canal, um visitante de primeiro toque é um Visitante único diário, originário de um canal. O envolvimento do visitante é armazenado pela duração do período de envolvimento com o site, que pode se estender por diversas visitas. |
 | Canal de último toque | O canal de conversão, ou seja, o último canal de marketing que interagiu com o visitante e resultou em uma conversão. Apenas um canal é definido como canal de primeiro toque. O canal de último toque pode mudar com cada visita de retorno ao site. Cada visita tem um canal de primeiro e último toque, mas o valor do canal de primeiro toque nunca muda com visitas subsequentes. |
 
