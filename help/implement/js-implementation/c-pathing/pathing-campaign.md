@@ -7,8 +7,8 @@ solution: Analytics
 title: Definição de caminho por campanha ou código de rastreamento
 topic: Desenvolvedor e implementação
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 Você deverá fazer isso em todas as páginas, a menos que a pessoa tenha clicado de uma campanha. Se isso tiver acontecido e a pessoa estiver na página inicial da campanha, você poderá preencher a prop com uma concatenação da campanha e da [!UICONTROL pagename]. Consulte abaixo:
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 Se a campanha em que ela clicou se chamava "banner1234" e a página a que ela chegou se chamava "Homepage", o valor da prop seria "banner1234 : Home Page". Em todas as páginas subsequentes, você coloca [!UICONTROL pagename] na prop, como mostrado acima.
@@ -36,7 +36,7 @@ Se a campanha em que ela clicou se chamava "banner1234" e a página a que ela ch
 Quando um usuário clica nesta campanha e exibe quatro páginas no total na visita, você obtém os valores a seguir na sprop, nesta ordem:
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 Com nossos dados capturados na [!UICONTROL prop1] dessa forma e com a definição de caminho realizada nesta prop, você agora pode observar um dos vários relatórios de definição de caminho para compreender os caminhos adotados no site depois do clique por uma campanha.
