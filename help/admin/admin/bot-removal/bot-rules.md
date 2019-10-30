@@ -8,7 +8,7 @@ title: Visão geral das regras de bot
 topic: Ferramentas administrativas
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ O Adobe não é capaz de fornecer a lista detalhada de bots da IAB para os clien
 
 ## Regras de bot personalizadas
 
->[!Nnota]
->A interface de usuário permite a definição manual de 500 regras. Quando esse limite é alcançado, as regras precisam ser gerenciadas em massa por meio das opções Importar arquivo e Exportar regras de bot.
+>[!NObservação] A interface do usuário permite que 500 regras sejam definidas manualmente. Quando esse limite é alcançado, as regras precisam ser gerenciadas em massa por meio das opções Importar arquivo e Exportar regras de bot.
 
 As regras de bot personalizadas permitem que você filtre o tráfego com base nas condições que definiu.
 
@@ -125,9 +124,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **Processamento de visita de alta ocorrência:** se houver mais de 100 ocorrências em uma visita, o relatório determinará se o tempo da visita em segundos é menor que ou igual ao número de ocorrências na visita. Nessa situação, devido ao custo de processar visitas longas e intensas, o relatório recomeçará com uma nova visita. Visitas de alta ocorrência são normalmente causadas por ataques de bot e não são consideradas como uma navegação do visitante normal.
 
->[!NOTE]
->
->Ocorrências marcadas como *`bots`* são faturadas como chamadas [do servidor.](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] Ocorrências marcadas como *`bots`* são faturadas como chamadas [do servidor.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
