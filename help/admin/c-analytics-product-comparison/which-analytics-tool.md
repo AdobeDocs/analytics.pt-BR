@@ -5,7 +5,7 @@ seo-title: Qual ferramenta do Adobe Analytics devo usar?
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,7 +66,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Opções:
 
    * Construtor de regras: usar quando tiver valores formatados previsíveis sendo coletados para uma variável, por exemplo, valores delimitados. Esta abordagem permite configurar regras uma vez e “defini-las e esquecê-las” de forma global.
-   * Importador de navegador: usar quando não houver valores previsíveis ou quando tiver uma lista finita de valores que exigem uma atualização única. Esta abordagem requer um monitoramento contínuo das classificações para novos valores.
+   * Importador de navegador: use quando não tiver valores previsíveis ou quando tiver uma lista finita de valores que exija uma atualização única. Esta abordagem requer um monitoramento contínuo das classificações para novos valores.
 
 **[Fontes de dados](/help/import/c-data-sources/datasrc-home.md)** devem ser usadas:
 
@@ -111,7 +111,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Para acessar dados mais granulares do que a interface do usuário (exibição de tabela desnormalizada)
 * Para baixar dados em um formato adequado para uma entrada de Tabela dinâmica
 * Se o cliente quiser inserir dados da Adobe em uma ferramenta de dados de visualização de terceiros (ligeiramente resumida e não a nível de ocorrência)
-* Para acessar todos os valores de dimensões únicas se estiver executando de forma “Baixo tráfego” no Adobe Analytics
+* Para acessar todos os valores de dimensão exclusivos se você estiver executando o "Baixo tráfego" no Adobe Analytics
 
 **[Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de dados do Analytics deve ser usado:
 
@@ -129,7 +129,7 @@ As **[APIs de relatórios](https://marketing.adobe.com/developer/get-started/int
 
 Os Serviços de engenharia devem ser usados quando:
 
-* As outras ferramentas da Adobe não atenderem às suas necessidades.
+* As outras ferramentas da Adobe não atendem às suas necessidades.
 * Você quiser uma experiência personalizada.
 * Você quiser uma solução totalmente automatizada.
 * Você quiser alcançar vários dispositivos.
