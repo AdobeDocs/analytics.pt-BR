@@ -4,20 +4,20 @@ seo-title: Características do ambiente RDC do Adobe Analytics
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Características do ambiente RDC
 
-O ambiente de Coleta de dados regionais (RDC) inclui características como descrito abaixo.
+O ambiente RDC (Coleta de dados regionais) inclui características como descrito abaixo.
 
 ## Melhorias de desempenho
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+Para obter os tempos de resposta atuais ao usar a RDC, consulte Solicitar desempenho [do](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)Adobe Analytics.
 
-Geralmente, os usuários têm melhorias no tempo de resposta com a RDC da seguinte maneira:
+Geralmente, os usuários experimentaram melhorias no tempo de resposta com a RDC da seguinte maneira:
 
 | Regiões | Tempo de resposta removido pela RDC |
 | --- | --- |
@@ -37,13 +37,13 @@ Geralmente, os usuários têm melhorias no tempo de resposta com a RDC da seguin
 | Região Oeste dos EUA | 20% |
 | Global | 50% |
 
-## Cookies originais ou de terceiros
+## Cookies próprios ou de terceiros
 
 Dependendo da sua implementação, é possível que você esteja usando cookies originais ou de terceiros. Você pode encontrar mais informações sobre cookies originais [aqui](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 
 ## Páginas seguras
 
-Se o site contém páginas que usam o protocolo https, você tem páginas seguras. A maioria das exibições de página rastreadas pelo Adobe Analytics são seguras usando o protocolo https. Páginas seguras exigem um certificado SSL para rastreamento. Se a propriedade da Web estiver usando cookies de terceiros, suas páginas seguras usam um certificado SSL da Adobe, o que permite que os dados sejam enviados aos servidores de coleta de dados sem uma implementação de FPSSL.
+Se o site contém páginas que usam o protocolo https, você tem páginas seguras. A maioria das exibições de página rastreadas pelo Adobe Analytics são protegidas usando o protocolo https. Páginas seguras exigem um certificado SSL para rastreamento. Se sua propriedade da Web estiver usando cookies de terceiros, suas páginas seguras usarão um certificado SSL da Adobe, que permite que os dados sejam enviados para nossos servidores de coleta de dados com segurança sem uma implementação de FPSSL.
 
 ## Alterações de DNS (atualização de CNAME)
 
