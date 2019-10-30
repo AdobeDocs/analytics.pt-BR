@@ -1,16 +1,16 @@
 ---
 description: Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
 seo-description: Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
-seo-title: Fluxos interdimensionais
-title: Fluxos interdimensionais
-uuid: 51 d 08531-1 c 56-46 c 7-b 505-bd 8 d 5 e 6 aa 6 c 1
+seo-title: Fluxos inter dimensionais
+title: Fluxos inter dimensionais
+uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fluxos interdimensionais
+# Fluxos inter dimensionais
 
 Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
 
@@ -20,7 +20,7 @@ Um rótulo de dimensão na parte superior de cada coluna de Fluxo torna mais int
 
 Vamos analisar dois casos de uso: um de aplicativo e um da web.
 
-## Use case one: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Caso de uso 1: aplicativo {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 A dimensão de [!UICONTROL Nome da ação] foi adicionada ao fluxo, com os principais itens retornados sendo [!UICONTROL ItemAdded]:
 
@@ -50,7 +50,7 @@ Agora você pode ver como os clientes se movem pelas ações e páginas. Você p
 
 Isso permitirá insights aprofundados e possíveis alterações ao aplicativo que você está analisando.
 
-## Use case two: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso de uso 2: web {#section_8D55983FA0C84926995270052AE01CD8}
 
 Este caso de uso mostra como você pode analisar quais campanhas impulsionam a maioria das entradas em um site.
 
