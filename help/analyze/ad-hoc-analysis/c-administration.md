@@ -5,7 +5,7 @@ seo-title: Administração
 title: Administração
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ Como outro exemplo, se você tem 10 milhões de ocorrências em um dia, com uma 
 * (10.000.000 x 365) / 750.000.000 = 4.8
 
 Então, para manter o número de ocorrências para essa fatia de 365 dias abaixo de 750.000.000, os dados poderiam ser coletados em 4,8:1. Utilizando números inteiros, a taxa de amostragem é 5:1.
-
->[!MORE_LIKE_THIS]
->
->* [Usuários](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
