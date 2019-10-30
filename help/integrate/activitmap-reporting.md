@@ -4,10 +4,10 @@ seo-description: Etapas administrativas para ativar os relatórios do Activity M
 seo-title: Relatórios do Activity Map
 solution: Analytics
 title: Relatórios do Activity Map
-topic: 'Relatórios  '
-uuid: 7636 c 670-bb 6 c -4 a 25-823 a -7 bbbba 0 b 747 b
+topic: Relatórios
+uuid: 7636c670-bb6c-4a25-823a-7bbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Etapas administrativas para ativar os relatórios do Activity Map no Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Mapa de atividade]** &gt; **[!UICONTROL Relatórios do Mapa de atividade]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; Mapa **[!UICONTROL de]** **[!UICONTROL atividade &gt; Relatório do mapa de atividade de atividade]**
 
 Permite que o Analytics colete a atividade do usuário obtida do Activity Map (antigo ClickMap). Essa integração
 
