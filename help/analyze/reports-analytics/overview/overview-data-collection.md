@@ -3,12 +3,12 @@ description: Saiba mais sobre como os dados são coletados no Adobe Analytics.
 seo-description: Saiba mais sobre como os dados são coletados no Adobe Analytics.
 seo-title: Sobre a coleta de dados
 solution: Analytics
-subtopic: Introdução
+subtopic: Comece já
 title: Sobre a coleta de dados
 topic: Reports and Analytics
-uuid: 4 dd 9 a 23 d-ad 49-4841-8 f 4 c -32 c 3993851 f 2
+uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
