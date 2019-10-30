@@ -8,7 +8,7 @@ title: Usar Carimbos opcionais de data e hora
 topic: Desenvolvedor e implementação
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Carimbos opcionais de data e hora é uma configuração padrão para todos os co
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar carimbos sem precisar criar um novo conjunto de relatórios.
 
->[!NOTE]
->
->Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
+> [!NOTE] Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
 
 Consulte [Carimbos opcionais de data e hora](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) para mais informações sobre a configuração.
 
@@ -33,7 +31,7 @@ Consulte [Carimbos opcionais de data e hora](https://marketing.adobe.com/resourc
 
 Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados com e sem informações de data e hora, sem perda de dados. Dados offline com carimbos de data e hora gerados em um dispositivo móvel podem ser combinados com dados ativos de uma página da Web que não tenha essas informações ou integrados com dados de qualquer plataforma usando uma chamada de carimbo de data e hora do lado do cliente.
 
-* **Dados com carimbo de data e hora**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **Dados com carimbo de data e hora**. O carimbo de data e hora do lado do cliente é capturado e enviado diretamente com os dados do dispositivo, usando as variáveis do carimbo de data e hora do lado do cliente: Javascript em uma página da Web ou usando uma chamada de SDK móvel ([!DNL offlineEnabled=true]) em um aplicativo móvel.
 * **Dados sem carimbo de data e hora**. A Adobe insere um carimbo de data e hora em dados que não tinham essa informação em um conjunto de relatórios assim que os dados de ocorrências chegam aos servidores de coleta.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,7 +60,7 @@ A combinação de dados em um conjunto de relatórios global pode ser feita de v
 
 >[!IMPORTANT]
 >
->Planeje cuidadosamente o design de cada conjunto de dados de componente para que a combinação faça sentido em um conjunto de relatórios global.
+>Planeje cuidadosamente o design de cada conjunto de dados do componente para que a combinação faça sentido no conjunto de relatórios global.
 
 ## Práticas recomendadas para uso de carimbos de data e hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
