@@ -5,9 +5,9 @@ seo-title: Permissões de acesso do usuário para dimensões e métricas
 solution: Analytics
 title: Permissões de acesso do usuário para dimensões e métricas
 topic: Construtor de relatórios
-uuid: b 561407 d-c 4 fa -4 f 1 e -8 b 16-5 ca 46 fcbf 36 f
+uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Siga estas instruções para **cada** pasta de trabalho do Construtor de relató
 1. Abra a pasta de trabalho.
 1. Atualizar todas as solicitações.
 1. Se você receber um erro de Permissão de acesso do usuário, clique em **[!UICONTROL Abrir arquivo CSV]para obter acesso à lista de erros de permissões restritas.**
-1. Crie um arquivo "AllRestrictedPermissionErrors.xlsx" e copie/cole a lista de erros de permissões restritas do arquivo CSV nesse arquivo.
+1. Crie um arquivo "AllRestrictedPermissionErrors.xlsx" e copie/cole a lista de erros de permissão restritos do arquivo CSV nesse arquivo.
 1. Feche a pasta de trabalho do Construtor de relatórios.
 
 Depois de processar todas as pastas de trabalho, você deve ter uma lista abrangente de erros de permissão restritos em "AllRestrictedPermissionErrors.xlsx". Envie essa lista para o administrador de acesso do usuário do Adobe Analytics, solicitando que conceda acesso às métricas e dimensões.
