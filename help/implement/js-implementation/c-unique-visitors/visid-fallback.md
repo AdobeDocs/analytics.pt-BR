@@ -7,8 +7,8 @@ solution: Analytics
 title: Métodos de ID de Fallback
 topic: Desenvolvedor e implementação
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Se os demais métodos de ID de visitante falharem, a Adobe definirá um cookie d
 
 ## Método de identificação do visitante de fallback {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
-O AppMeasurement para o JavaScript 1.x e JavaScript H.25.3, lançado em janeiro de 2013, contém um novo método de identificação de visitante de fallback para os visitantes cujo navegador bloqueia o cookie definido pelos servidores de coleta de dados da Adobe (chamado de `s_vi`). Anteriormente, se não fosse possível definir um cookie, os visitantes eram identificados com o uso de uma combinação do endereço IP e a sequência do agente de usuário durante a coleta de dados.
+AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe's data collection servers (called `s_vi`). Anteriormente, se não fosse possível definir um cookie, os visitantes eram identificados com o uso de uma combinação do endereço IP e a sequência do agente de usuário durante a coleta de dados.
 
 Com esta atualização, se o cookie padrão `s_vi` estiver indisponível, um cookie de fallback será criado com uma ID exclusiva gerado aleatoriamente. Este cookie, chamado de `s_fid`, é definido com uma expiração de 2 anos e usado como método de identificação de fallback que está avançando. Esta alteração deve resultar em maior precisão nas contagens de visitas e visitantes, nas situações em que o cookie primário (`AMCV_` ou `s_vi`) não pode ser definido.
 
