@@ -1,18 +1,18 @@
 ---
 description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar site e as tendências dos clientes recorrentes.
 seo-description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar o site e as tendências dos clientes recorrentes.
-seo-title: Frequência de retorno
+seo-title: Frequência de Retorno
 solution: Analytics
-title: Frequência de retorno
-topic: 'Relatórios  '
-uuid: 7069205 d -8 fab -4 ff 7-9 d 01-be 9705142 e 27
+title: Frequência de Retorno
+topic: Relatórios
+uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Frequência de retorno
+# Frequência de Retorno
 
 Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar site e as tendências dos clientes recorrentes.
 
@@ -37,5 +37,5 @@ Por padrão, esse relatório tem as seguintes durações de tempo:
 ## Notas {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Este relatório não registra nenhum visitante novo, pois não há visita posterior que sirva de comparação.
-* O intervalo de datas deste relatório utiliza a data na qual a visita ocorreu. Por exemplo, um visitante acessa seu site em abril, e retorna duas vezes em um mesmo dia de outubro. Um relatório de Frequência de retorno para o mês de outubro exibiria uma visita em "maior que um mês", e uma visita para "menos de um dia".
+* O intervalo de datas deste relatório utiliza a data na qual a visita ocorreu. Por exemplo, um visitante acessa seu site em abril, e retorna duas vezes em um mesmo dia de outubro. O envio de um relatório de Frequência de retorno para o mês de outubro mostraria uma visita em "mais de 1 mês" e uma visita em "menos de 1 dia".
 
