@@ -6,7 +6,7 @@ solution: Analytics
 title: Implantação da integração
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Etapas para exibir a configuração da integração do Dynamic Signal VoiceStorm
    1. Procure entradas como Dados de **[!UICONTROL classificação importados com êxito]**. Essas entradas devem aparecer dentro de 24 horas após a implantação bem-sucedida.
 1. Revise seus relatórios de Sinal dinâmico no Adobe Analytics usando o Painel que foi criado automaticamente para você usando o assistente de integração da Adobe (Etapa 7). Como alternativa, você pode navegar até o relatório de Sinal dinâmico na estrutura de menu do Adobe Analytics - consulte as seguintes capturas de tela.
 
-   **Observação**: Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
+   **Observação**:Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
 
    ![](assets/reporting.png)
 
