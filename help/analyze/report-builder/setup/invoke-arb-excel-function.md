@@ -1,26 +1,24 @@
 ---
 description: Essa capacidade integra ainda mais o uso do Construtor de relatórios no fluxo de trabalho natural do Excel, sem exigir acesso à interface do usuário do Construtor de relatórios.
 seo-description: Essa capacidade integra ainda mais o uso do Construtor de relatórios no fluxo de trabalho natural do Excel, sem exigir acesso à interface do usuário do Construtor de relatórios.
-seo-title: Invocar a funcionalidade do Construtor de relatórios a partir das funções do Microsoft Excel
+seo-title: Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 solution: Analytics
-title: Invocar a funcionalidade do Construtor de relatórios a partir das funções do Microsoft Excel
+title: Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 topic: Construtor de relatórios
-uuid: 5342 cc 4 f -085 d -4 a 2 d-a 498-38 b 00 a 3 ef 4 d 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Invocar a funcionalidade do Construtor de relatórios a partir das funções do Microsoft Excel
+# Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 
 Essa capacidade integra ainda mais o uso do Construtor de relatórios no fluxo de trabalho natural do Excel, sem exigir acesso à interface do usuário do Construtor de relatórios.
 
 Por exemplo, você pode querer atualizar automaticamente as solicitações do Construtor de relatórios cujo filtro de entrada tem por base dados obtidos no Excel de outras fontes. Agora você pode fazer isso com função da sequência de caracteres RefreshRequestsInCellsRange(..) . Todas as chamadas são assíncronas. Elas retornam imediatamente e não aguardam para que a chamada seja totalmente executada.
 
->[!NOTE]
->
->Você deve ter o Construtor de relatórios 5.0 (ou posterior) instalado para que essa funcionalidade funcione.
+> [!NOTE] É necessário ter o Construtor de relatórios 5.0 (ou posterior) instalado para que essa funcionalidade funcione.
 
 Esta é uma tabela com a lista de funções expostas:
 
