@@ -1,6 +1,6 @@
 ---
 description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
-keywords: Implementação do Analytics;coleta de dados
+keywords: Implementação do Analytics, coleta de dados
 seo-description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
 seo-title: Coleta de dados
 solution: Analytics
@@ -8,7 +8,7 @@ title: Coleta de dados
 topic: Desenvolvedor e implementação
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
    >[!NOTE]
    >
-   >Cada solicitação de imagem contém uma string de número aleatório para impedir o armazenamento em cache do navegador e garantir que as solicitações de imagem subsequentes sejam feitas pelo navegador.
+   >Cada solicitação de imagem contém uma cadeia de caracteres de número aleatória para evitar que o navegador seja armazenado em cache e garantir que as solicitações de imagem subsequentes sejam feitas pelo navegador.
 
 1. A Adobe retorna uma imagem pixelada transparente.
 
@@ -69,7 +69,7 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
    O código coleta detalhes adicionais automaticamente (como sistema operacional, tipo de navegador, altura e largura do navegador, endereço IP e idioma do navegador).
 
-1. Os servidores da Adobe armazenam dados de análise da Web em *`report suites`* (seu repositório de dados).
+1. Os servidores da Adobe armazenam os dados de análise da Web em *`report suites`* (o repositório de dados).
 
    ![](assets/how-data-is-collected-5.png)
 
@@ -83,7 +83,7 @@ A Adobe criou várias maneiras de enviar dados para o Analytics. Esses métodos 
 
    ![](assets/two-months-summary-project.png)
 
-   A execução do código JavaScript ocorre rapidamente e a maneira que os tempos de carregamento de uma página são afetados não é visível. Essa abordagem permite que você conte as páginas que foram exibidas quando um visitante clicou em **[!UICONTROL Recarregar]** ou **Voltar]para acessar uma página, já que o JavaScript é executado mesmo quando a página é recuperada do cache.[!UICONTROL **
+   A execução do código JavaScript ocorre rapidamente e a maneira que os tempos de carregamento de uma página são afetados não é visível. Essa abordagem permite que você conte as páginas que foram exibidas quando um visitante clicou em **[!UICONTROL Recarregar]** ou **[!UICONTROL Voltar]** para acessar uma página, já que o JavaScript é executado mesmo quando a página é recuperada do cache.
 
 Para obter mais detalhes, consulte:
 
