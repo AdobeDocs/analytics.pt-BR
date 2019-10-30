@@ -1,22 +1,22 @@
 ---
 description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
 seo-description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
-seo-title: 'Conteúdo do Site  '
+seo-title: Conteúdo do site
 solution: Analytics
-title: 'Conteúdo do Site  '
-topic: 'Relatórios  '
-uuid: a 14080 b 7-be 8 d -4513-8 f 17-39926 c 7 b 70 cb
+title: Conteúdo do site
+topic: Relatórios
+uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conteúdo do Site
+# Conteúdo do site
 
 Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
 
-## Conteúdo do Site   {#topic_FD13C8F186514D16A52275BC68084F41}
+## Conteúdo do site {#topic_FD13C8F186514D16A52275BC68084F41}
 
 Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
 
