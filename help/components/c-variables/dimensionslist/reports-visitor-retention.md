@@ -4,10 +4,10 @@ seo-description: Exibe informações sobre a fidelidade do cliente. Você pode v
 seo-title: Retenção de visitante
 solution: Analytics
 title: Retenção de visitante
-topic: 'Relatórios  '
-uuid: e 2 d 477 d 0-f 704-489 b-b 4 b 3-941 bc 352 cd 7 a
+topic: Relatórios
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,32 +29,32 @@ Exibe informações sobre a fidelidade do cliente. Você pode ver quantos de seu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Frequência de retorno </td> 
+   <td colname="col1"> Frequência de Retorno </td> 
    <td colname="col2"> <p>Mostra o número de visitantes que retornaram ao seu site dentro de uma das seguintes categorias (representando o lapso de tempo entre visitas): menos de um dia, 1 a 3 dias, 3 a 7 dias, 8 a 14 dias, 14 dias a um mês e mais de um mês. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visitas de retorno </td> 
+   <td colname="col1"> Visitas de Retorno </td> 
    <td colname="col2"> <p>Exibe quantos indivíduos visitaram mais de uma vez após o Analytics ter começado a rastrear seu site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visitas de retorno diário </td> 
+   <td colname="col1"> Visitas de Retorno Diário </td> 
    <td colname="col2"> <p>Exibe o número de visitantes que visitaram seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Número de visitas </td> 
+   <td colname="col1"> Número da visita </td> 
    <td colname="col2"> <p>Exibe o número de visita para cada visitante que chega ao seu site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Fidelidade do cliente </td> 
+   <td colname="col1"> Fidelidade do Cliente </td> 
    <td colname="col2"> <p>Exibe os padrões de compra dos clientes dentro de três categorias de fidelidade (novo, retorno e fiel). O relatório de <span class="wintitle">Fidelidade do cliente</span> mostra quantos clientes novos, de retorno e fiéis contribuem para as métricas de sucesso padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Dias antes da primeira compra </td> 
+   <td colname="col1"> Dias Antes da Primeira Compra </td> 
    <td colname="col2"> <p>Exibe o número de dias que se passam entre a primeira vez que os clientes visitam o seu site e quando fazem uma compra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Dias desde a última compra </td> 
-   <td colname="col2"> <p>Exibe o número mais comum de dias transcorridos entre compras repetidas dos clientes e permite visualizar os períodos de tempo que mais contribuíram para as métricas principais de sucesso do site, como Receita e Pedidos. </p> </td> 
+   <td colname="col1"> Dias Desde a Última Compra </td> 
+   <td colname="col2"> <p>Exibe o número mais comum de dias transcorridos entre as compras repetidas de clientes e permite que você visualize os períodos de tempo que mais contribuíram com as principais métricas de sucesso do site, como Receita e Pedidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente único diário </td> 
