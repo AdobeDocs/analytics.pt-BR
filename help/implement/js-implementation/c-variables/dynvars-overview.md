@@ -8,8 +8,8 @@ subtopic: Variáveis
 title: Variáveis dinâmicas
 topic: Desenvolvedor e implementação
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ As variáveis dinâmicas são usadas ao capturar os mesmos dados (por exemplo, c
 
 As variáveis dinâmicas também são úteis para exibir dados sob diversas condições de relatório. Um código de rastreamento de campanha pode ser capturado de várias eVars com diversas configurações de alocação e expiração de cookie. Isso permite que os usuário escolha a maneira como desejam atribuir métricas de conversão a essas campanhas.
 
->[!NOTE]
->
->Observação: variáveis dinâmicas em conjunção com cookies não são compatíveis em (s_cc, s_sq, s_fid, s_vi e qualquer cookie definido por um plug-in). Você não pode usar `D=<cookie value>`.
+> [!NOTE] Observação: variáveis dinâmicas em conjunção com cookies não são compatíveis em (s_cc, s_sq, s_fid, s_vi e qualquer cookie definido por um plug-in). Você não pode usar `D=<cookie value>`.
 
 Um benefício relevante das variáveis dinâmicas é a capacidade de capturar sequências de caracteres de dados longas sem passar pela sequência longa repetidamente. Alguns navegadores limitam o tamanho máximo de solicitações GET de HTTP (incluindo a solicitação de imagem da Adobe). O uso de variáveis dinâmicas garante que todos os dados serão capturados reduzindo o tamanho das solicitações para os servidores da Adobe nos casos em que os dados são duplicados em diversas variáveis.
 
@@ -67,13 +65,9 @@ Na solicitação de imagem da Adobe que ocorre na exibição de página, se esti
 
 Observe que o valor `D=[variable]` deve estar entre aspas. O código do Analytics trata isso como uma string. A sequência de caracteres será o URL codificado ao ser passado para o Analytics (como você verá se estiver exibindo a solicitação no DigitalPulse Debugger ou em um utilitário semelhante). Isso é normal. Os servidores da Adobe reconhecem a construção de `D=[variable]` e copiarão o valor apropriado ao encontrarem essa string.
 
->[!NOTE]
->
->Ao usar a solicitação de imagem para rastrear links, o tipo de link (download=lnk_d, exit=lnk_e ou custom link=lnk_o) deve ser definido, assim como o Link URL/Name (pev2). Os links exigem implementação manual, inserindo código na tag `<a href>`.
+> [!NOTE] Ao usar a solicitação de imagem para rastrear links, o tipo de link (download=lnk_d, exit=lnk_e ou custom link=lnk_o) deve ser definido, assim como o Link URL/Name (pev2). Os links exigem implementação manual, inserindo código na tag `<a href>`.
 
->[!NOTE]
->
->Observação: variáveis dinâmicas em conjunção com cookies não são compatíveis em (s_cc, s_sq, s_fid, s_vi e qualquer cookie definido por um plug-in). Você não pode usar `D=<cookie value>`.
+> [!NOTE] Observação: variáveis dinâmicas em conjunção com cookies não são compatíveis em (s_cc, s_sq, s_fid, s_vi e qualquer cookie definido por um plug-in). Você não pode usar `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ Observe que o valor `D=[variable]` deve estar entre aspas. O código do Analytic
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>Quatro maneiras de definir prop1 para uma campanha </p> </td> 
   </tr> 
