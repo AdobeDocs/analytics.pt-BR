@@ -1,5 +1,5 @@
 ---
-description: Create a cohort and run a cohort analysis report in Analysis Workspace.
+description: Crie um coorte e execute um relatório de análise de coorte na Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Crie um coorte e execute um relatório de análise de coorte na Analysis Workspace.
 seo-title: Executar um relatório de análise de coorte
@@ -8,7 +8,7 @@ title: Executar um relatório de análise de coorte
 topic: Reports and Analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,5 +54,5 @@ Crie um coorte e execute um relatório de análise de coorte na Analysis Workspa
 
    >[!NOTE]
    >
-   >You must save your project before curation is available.
+   >É necessário salvar o projeto antes que a preparação esteja disponível.
 
