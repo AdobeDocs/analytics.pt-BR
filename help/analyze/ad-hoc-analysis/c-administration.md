@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Faça logon no [!DNL Experience Cloud].
+1. Log in to the [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 A Ad Hoc Analysis usa o HTTP para se comunicar com o servidor. Ele está sujeito às mesmas políticas de proxy que o outro tráfego HTTP.
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
+1. No [!DNL Windows Control Panel], inicie o Painel [!UICONTROL de controle]Java.
 1. Na aba **Geral**, clique em **[!UICONTROL Configurações de Rede]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
