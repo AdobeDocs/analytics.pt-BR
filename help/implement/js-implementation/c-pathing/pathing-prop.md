@@ -7,8 +7,8 @@ solution: Analytics
 title: Ativar a definição de caminho em uma prop
 topic: Desenvolvedor e implementação
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,11 +23,9 @@ A ativação da definição do caminho em uma prop pode ser feita na Admin Conso
 * Quais são as seções do site que meus usuários costumam acessar em suas visitas?
 * Como vejo a definição do caminho da página por tipo de usuário?
 
-O caminho avançado está disponível na [!DNL Ad hoc analysis]. A ad hoc analysis oferece segmentação em qualquer relatório de maneira rápida, sem a necessidade de ativar essa configuração ou dados estruturais na prop de determinadas maneiras. Essa é a forma mais fácil e ideal de segmentar seus relatórios de caminho também. Para obter mais informações, consulte a [Documentação de Ad Hoc Analysis](https://marketing.adobe.com/resources/help/pt_BR/dsc/).
+O caminho avançado está disponível na [!DNL Ad hoc analysis]. A ad hoc analysis oferece segmentação em qualquer relatório de maneira rápida, sem a necessidade de ativar essa configuração ou dados estruturais na prop de determinadas maneiras. Essa é a forma mais fácil e ideal de segmentar seus relatórios de caminho também. Para obter mais informações, consulte a documentação [da ad hoc analysis](https://marketing.adobe.com/resources/help/en_US/dsc/).
 
 Quando a definição de caminho está ativada para uma prop, você obtém um novo conjunto de relatórios de definição de caminho que são encontrados abaixo dos relatórios padrão de definição de caminho. Os relatórios de definição de caminho informam a ordem que eles viram as páginas serem exibidas para o visitante. Quando você ativa a definição de caminho em uma prop, ela faz o mesmo: informa a você a ordem de exibição dos valores da prop para o usuário. Essa ordem dos valores é exibida de maneira diferente, dependendo do relatório de caminho que você está vendo.
 
->[!NOTE]
->
->Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Tráfego &gt; Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
+> [!NOTE] Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Tráfego &gt; Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
 
