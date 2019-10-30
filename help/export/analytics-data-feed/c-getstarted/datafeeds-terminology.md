@@ -1,13 +1,13 @@
 ---
 description: É importante entender os termos principais ao usar a interface do Feed de dados do Analytics.
-keywords: Feed de dados; termos; terminologia; tarefa
+keywords: Feed de dados;termos;terminologia;tarefa
 seo-description: É importante entender os termos principais ao usar a interface do Feed de dados do Analytics.
 seo-title: Terminologia
 solution: Analytics
 title: Terminologia
-uuid: 87368708-aaac -40 a 5-bd 00-b 0964 bcf 3507
+uuid: 87368708-aaac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
