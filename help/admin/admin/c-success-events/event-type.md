@@ -1,17 +1,17 @@
 ---
 description: Descreve as consequências da alteração de um tipo de evento depois de os dados terem sido coletados.
 seo-description: Descreve as consequências da alteração de um tipo de evento depois de os dados terem sido coletados.
-seo-title: Sobre a alteração do tipo de evento
+seo-title: Sobre como alterar o Tipo de evento
 solution: Analytics
-title: Sobre a alteração do tipo de evento
+title: Sobre como alterar o Tipo de evento
 topic: Ferramentas administrativas
-uuid: c 184 dd 8 e -7818-42 ff-a 960-dd 91215383 d 8
+uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Sobre a alteração do tipo de evento
+# Sobre como alterar o Tipo de evento
 
-É possível alterar um evento de contador, numérico ou moeda para outro tipo sem perder acesso aos dados capturados anteriormente.
+Você pode alterar um evento de contador, numérico ou moeda para outro tipo sem perder o acesso aos dados capturados anteriormente.
