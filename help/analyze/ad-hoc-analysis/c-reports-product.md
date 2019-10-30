@@ -7,7 +7,7 @@ title: Relatórios de produtos
 topic: Ad Hoc Analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ c_reports_products_conv_funnel.xml
 
 Para adicionar métricas e eventos personalizados a partir de outros grupos de relatórios, clique em um link de **[!UICONTROL Eventos selecionados]no cabeçalho do relatório.**
 
-Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Essa tendência indicaria que há menos visitas hoje do que ontem, mas só porque o restante das estatísticas do período ainda não ocorreu.
+Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Por exemplo, pode haver menos visitas hoje do que ontem, mas apenas porque o restante das estatísticas do período ainda não ocorreu.
 
 ## Categorias {#concept_3260EE45B2164E478E8A90E046D078AB}
 
