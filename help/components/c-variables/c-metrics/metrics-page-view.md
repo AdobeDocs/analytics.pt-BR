@@ -3,16 +3,16 @@ description: Uma Visualização de Página é contada para cada chamada de servi
 seo-description: Uma Visualização de Página é contada para cada chamada de servidor que é enviada. Esta métrica representa instâncias totais de visualização de página. Chamadas TrackLink não são contadas como exibições de página e não incrementam a métrica Exibições de página.
 seo-title: Exibição da Página
 solution: Analytics
-title: Exibição da página
+title: Exibição da Página
 topic: Métricas
-uuid: 85004 c 72-2369-44 a 9-a 97 f-f 2 e 144 a 54 c 90
+uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Exibição da página
+# Exibição da Página
 
 Uma Visualização de Página é contada para cada chamada de servidor que é enviada. Esta métrica representa instâncias totais de visualização de página. Chamadas TrackLink não são contadas como exibições de página e não incrementam a métrica Exibições de página.
 
