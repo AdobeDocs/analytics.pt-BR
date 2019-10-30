@@ -1,18 +1,18 @@
 ---
 description: As Configurações individuais de conjunto de relatórios permitem alterar as configurações padrão de seus conjunto de relatórios. As ferramentas incluem um modo de remover registros de páginas indesejadas ou obsoletas, definir métricas padrão e configurar segmentos de conjunto de relatórios.
 seo-description: As Configurações individuais de conjunto de relatórios permitem alterar as configurações padrão de seus conjunto de relatórios. As ferramentas incluem um modo de remover registros de páginas indesejadas ou obsoletas, definir métricas padrão e configurar segmentos de conjunto de relatórios.
-seo-title: Configurações individuais do conjunto de relatórios
+seo-title: Configurações de Conjunto de relatórios individual
 solution: Analytics
-title: Configurações individuais do conjunto de relatórios
+title: Configurações de Conjunto de relatórios individual
 topic: Ferramentas administrativas
-uuid: a 61164 ef-fc 96-44 ef -95 d 3-49 e 88 d 5 fd 94 a
+uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurações individuais do conjunto de relatórios
+# Configurações de Conjunto de relatórios individual
 
 As Configurações individuais de conjunto de relatórios permitem alterar as configurações padrão de seus conjunto de relatórios. As ferramentas incluem um modo de remover registros de páginas indesejadas ou obsoletas, definir métricas padrão e configurar segmentos de conjunto de relatórios.
 
