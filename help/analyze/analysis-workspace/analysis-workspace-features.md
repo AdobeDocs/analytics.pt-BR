@@ -2,11 +2,11 @@
 keywords: Analysis Workspace
 seo-title: Visão geral da Analysis Workspace
 solution: Analytics
-title: Visão geral da Analysis Workspace
+title: Analysis Workspace visão geral
 topic: Reports and Analytics
-uuid: 4 df 6 be 48-2 c 88-4 b 9 d -9536-ed 64 ffbb 6 ee 4
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
 
 A Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espaço de trabalho]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ A Analysis Workspace remove todas as limitações típicas de um único relatór
 
 Lista de reprodução completa do YouTube disponível [aqui](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] Consulte [Novidades na Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) para obter atualizações sobre recursos.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ Consulte [Criar um projeto da Analysis Workspace](../../analyze/analysis-workspa
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. É possível compartilhar essas vinculações da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico em um projeto. Adição de novas opções do menu de clique com o botão direito do mouse chamadas “Obter link do painel” e “Obter link da visualização”. Para adicionar intravinculação ao seu projeto:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. É possível compartilhar essas vinculações da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico em um projeto. Novas opções de clique com o botão direito do mouse chamadas "Obter link do painel" e "Obter link de visualização" foram adicionadas. Para adicionar intravinculação ao seu projeto:
 
 1. Arraste uma visualização de texto ao projeto, talvez próximo a uma visualização ou tabela que precise de contexto.
 1. Preencha a caixa de texto com, por exemplo, uma tabela de conteúdo. Em seguida, destaque um item que deseja vincular ao painel ou à visualização, como Métricas de sucesso, por exemplo.
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 Caso tenha painéis ou visualizações recolhidos no projeto, clique no link para expandir o painel/visualização, para que os usuários possam visualizá-lo.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] Você também pode usar esse recurso na opção de clique com o botão direito **[!UICONTROL Editar descrição]** .
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
