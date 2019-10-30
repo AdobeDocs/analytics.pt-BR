@@ -1,20 +1,20 @@
 ---
-description: O Data Warehouse pode enviar relatórios no formato de arquivo Tableau Data Extract (TDE) que permite visualizar dados e camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
-seo-description: O Data Warehouse pode enviar relatórios no formato de arquivo Tableau Data Extract (TDE) que permite visualizar dados e camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
+description: O Data Warehouse pode fornecer relatórios no formato de arquivo Tableau Data Extract (TDE) que permitem visualizar dados e inserir camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
+seo-description: O Data Warehouse pode fornecer relatórios no formato de arquivo Tableau Data Extract (TDE) que permitem visualizar dados e inserir camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
 seo-title: Arquivo de dados Tableau
 solution: Analytics
 title: Arquivo de dados Tableau
 topic: Data Warehouse
-uuid: 84566 ba 8-87 d 8-4 c 5 e -8 c 31-f 659 a 577848 c
+uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Arquivo de dados Tableau
 
-O Data Warehouse pode enviar relatórios no formato de arquivo Tableau Data Extract (TDE) que permite visualizar dados e camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
+O Data Warehouse pode fornecer relatórios no formato de arquivo Tableau Data Extract (TDE) que permitem visualizar dados e inserir camadas em dados adicionais fora do Adobe Analytics. É possível enviar essa informação por email ou por FTP para um site FTP.
 
 Consulte [Tableau e Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491) para obter mais informações.
 
