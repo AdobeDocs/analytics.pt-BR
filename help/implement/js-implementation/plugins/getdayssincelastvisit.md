@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getDaysSinceLastVisit
 topic: Desenvolvedor e implementação
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Determina o número de dias desde que um usuário visitou site pela última vez 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/) agora inclui uma dimensão de **[!UICONTROL Dias desde a última visita]** pronta para uso, eliminando a necessidade desse plug-in.
+>[A Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) agora inclui uma dimensão de **[!UICONTROL Dias desde a última visita]** pronta para uso, anulando a necessidade deste plug-in.
 
 Esses dados de frequência de retorno podem ser usados para responder às seguintes dúvidas:
 
@@ -30,9 +30,7 @@ Esses dados de frequência de retorno podem ser usados para responder às seguin
 
 O plug-in também pode gerar valores usados para segmentação. Por exemplo, é possível criar um segmento para exibir todos os dados para apenas essas visitas precedidas por 30 ou mais dias sem visitas do usuário.
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código e implementação do plug-in {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -71,7 +69,7 @@ s.getDaysSinceLastVisit=new Function("c",""
 +"!=f5) return '';else return cval_s;");
 ```
 
-**Observações**
+**Notas**
 
 * Sempre teste a instalação do plug-in para verificar se a coleta de dados ocorre como esperado antes da implantação no ambiente de produção.
 * O plug-in categoria os usuário por frequência de retorno nos seguintes grupos:
