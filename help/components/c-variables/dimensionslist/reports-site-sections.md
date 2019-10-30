@@ -7,7 +7,7 @@ title: Seções do site
 topic: Relatórios
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seç
    * **Todas as métricas padrão de e-comércio**: receita, pedidos, unidades, carrinhos, visualizações do carrinho, finalizações, adições ao carrinho e remoções do carrinho.
    * **Todos os eventos personalizados**: Eventos 1-80 e Eventos 81-100 no código H22 ou superior.
 
-Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. This is different than the Pages Report, which uses linear allocation.[](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)
+Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. Isso é diferente do Relatório [de](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)páginas, que usa alocação linear.
 
 **Informações específicas do produto**
 
