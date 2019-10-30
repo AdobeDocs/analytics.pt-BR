@@ -3,9 +3,9 @@ description: A interface do usuário do Adobe Mobile Services combina dados de a
 seo-description: A interface do usuário do Adobe Mobile Services combina dados de aplicativos móveis dos seus conjuntos de relatórios do Adobe Analytics com recursos para enviar notificações por mensagens de push e gerar mensagens no aplicativo.
 seo-title: Suporte a VRS no Mobile Services
 title: Suporte a VRS no Mobile Services
-uuid: 1 b 11279 e-d 0 d 8-48 c 5-a 5 b 5-8020 d 5 ed 39 da
+uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A interface do usuário do Adobe Mobile Services combina dados de aplicativos móveis dos seus conjuntos de relatórios do Adobe Analytics com recursos para enviar notificações por mensagens de push e gerar mensagens no aplicativo.
 
-## VRS support in Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
+## Suporte a VRS no Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
 
 A interface do usuário do Adobe Mobile Services combina dados de aplicativos móveis dos seus conjuntos de relatórios do Adobe Analytics com recursos para enviar notificações por mensagens de push e gerar mensagens no aplicativo.
 
