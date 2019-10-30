@@ -5,7 +5,7 @@ seo-title: Configurações
 title: Configurações
 uuid: 3444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,7 +84,7 @@ r_dsc_site_analysis_tab.xml
 
 | Campo | Definição |
 |--- |--- |
-| Métricas | Seleciona a métrica representada pela largura e altura do cilindro. Determina quais métricas serão exibidas usando cores e as cores que representam um valor baixo ou alto para essas métricas. Também é possível estabelecer as métricas para os eixos X e Y e adicionar qualquer outra métrica que quiser que apareça no texto pop-up do relatório. Também é possível inverter qualquer uma das métricas selecionadas para a exibição. |
+| Métricas | Seleciona a métrica representada pela largura e altura do cilindro. Determina quais métricas serão exibidas usando cores e as cores que representam um valor baixo ou alto para essas métricas. É possível estabelecer as métricas para os eixos X e Y e adicionar qualquer outra métrica que desejar que apareça no texto pop-up do relatório. Também é possível inverter qualquer uma das métricas selecionadas para a exibição. |
 | Geral e alertas | Ativa e desativa alguns elementos gráficos do relatório. Você pode configurar alertas que são exibidos no relatório quando as métricas associadas com as páginas representadas por cilindros passam um valor específico. |
 
 ## Guia Fonte e Local - Definições {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
