@@ -1,33 +1,33 @@
 ---
-title: Pwas para Analytics
-seo-title: Pwas para Analytics
+title: PWAs para o Analytics
+seo-title: PWAs para o Analytics
 description: Aplicativos da Web progressivos para o Adobe Analytics
-seo-description: Usar pdid com o Analytics
+seo-description: Usar PWAs com o Analytics
 translation-type: tm+mt
-source-git-commit: f64e5d9977bebd0e9db4af0f7118e9e64978c1c7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Pwas para Analytics
+# PWAs para o Analytics
 
-Este guia descreve como usar o Adobe Analytics com aplicativos da Web progressivos (pwas).
+Este guia descreve como usar o Adobe Analytics com aplicativos da Web progressivos (PWAs).
 
 ## Introdução
 
-O pdid pode fornecer uma experiência de aplicativo nativa, bem como recursos offline para um site. Em geral, pwas inclui um worker de serviços, regras de armazenamento em cache e um arquivo manifest, que pode ajudar com tempos de carregamento mais rápidos, navegação mais fácil e comportamento responsivo.
+Os PWAs podem fornecer uma experiência de aplicativo nativa, bem como recursos offline, para um site. Geralmente, os PWAs incluem um empregado de serviço, disposições de cache e um arquivo manifest, que podem ajudar com tempos de carregamento mais rápidos, navegação mais fácil e comportamento responsivo.
 
-O Adobe Analytics funciona de forma perfeita com o pdid, assim como com sites tradicionais. Embora o PPT tenha mais requisitos para se comportar progressivamente e de si mesmo, eles não criam barreiras ou limitações de como o Analytics reúne ou relata dados de forma diferente do que sites tradicionais. Na verdade, como o Analytics já inclui recursos de rastreamento offline, o pdid pode ajudá-lo a aproveitar esse recurso com mais facilidade do que com sites tradicionais.
+O Adobe Analytics trabalha de forma tão perfeita com PWAs quanto com sites tradicionais. Embora os PWAs tenham mais alguns requisitos para se comportarem progressivamente em si mesmos, eles não criam barreiras ou limitações sobre como o Analytics coleta ou informa dados deles de forma diferente dos sites tradicionais. Na verdade, como o Analytics já inclui recursos de rastreamento offline, os PWAs podem ajudá-lo a aproveitar esse recurso integrado mais facilmente do que com sites tradicionais.
 
-## Obtenção dos dados do Analytics PWA
+## Obtenção dos dados do PWA Analytics
 
-Para coletar e analisar seus dados PWA com o Analytics, não é necessário fazer alterações na configuração. O Analytics fornece automaticamente todas as mesmas funcionalidades e recursos que faria com um site tradicional.
+Para coletar e analisar os dados do PWA com o Analytics, não é necessário fazer alterações na configuração. O Analytics fornece automaticamente todos os recursos e funcionalidades iguais aos de um site tradicional.
 
-## Adicionar rastreamento offline para aumentar a eficácia PWA
+## Adicionar rastreamento offline para aumentar a eficácia do PWA
 
-Você pode aumentar a eficácia de sua PWA usando recursos de rastreamento [offline do Analytics](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) com ele. Por padrão, esse recurso está desativado, mas você pode adicionar a seguinte propriedade ao arquivo appmeasurement. js para ativá-lo: `s.trackOffline=true;`.
+Você pode aumentar a eficácia do seu PWA usando os recursos [de rastreamento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) offline do Analytics com ele. Por padrão, esse recurso está desativado, mas é possível adicionar a seguinte propriedade ao arquivo AppMeasurement.js para ativá-lo: `s.trackOffline=true;`.
 
-Por exemplo, no arquivo appmeasurement. js a seguir, a propriedade é adicionada ao final `CONFIG SECTION`do:
+Por exemplo, no seguinte arquivo AppMeasurement.js, a propriedade é adicionada ao final do `CONFIG SECTION`:
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -47,8 +47,8 @@ s.trackOffline=true
 ```
 
 
-Para obter mais informações sobre como editar o arquivo appmeasurement. js, consulte [Inserir código no arquivo appmeasurement. js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
+Para obter mais informações sobre como editar o arquivo AppMeasurement.js, consulte [Inserir código no arquivo](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js.
 
-Para obter exemplos de configurações no arquivo appmeasurement. js, consulte [Configurar o arquivo appmeasurement. js](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7).
+Para obter exemplos de configurações no arquivo AppMeasurement.js, consulte [Configuração do arquivo](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)AppMeasurement.js.
 
-Para obter mais informações sobre as características do arquivo appmeasurement. js, consulte a visão geral da implementação [do Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Para obter mais informações sobre as características do arquivo AppMeasurement.js, consulte a visão geral [da implementação do](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)Javascript.
