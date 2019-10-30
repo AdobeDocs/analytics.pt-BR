@@ -5,7 +5,7 @@ seo-title: Código de plug-in do Adobe Analytics
 title: Código de plug-in do Adobe Analytics
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,5 @@ Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
->[!NOTE]
->
->O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
+> [!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
 
