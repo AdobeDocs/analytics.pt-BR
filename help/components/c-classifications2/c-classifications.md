@@ -1,5 +1,5 @@
 ---
-description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
+description: Uma classificação é uma forma de classificar os dados variáveis do Analytics e, em seguida, exibir os dados de maneiras diferentes ao gerar relatórios.
 seo-description: Uma classificação é uma forma de classificar os dados variáveis do Analytics e, em seguida, exibir os dados de maneiras diferentes ao gerar relatórios.
 seo-title: Sobre as classificações
 solution: Analytics
@@ -8,7 +8,7 @@ title: Sobre as classificações
 topic: Ferramentas administrativas
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Visão geral em vídeo de [Classificações do Analytics](https://video.tv.adobe
 
 Ao classificar, você estabelece uma relação entre a variável e os metadados relacionados a ela. Na maioria das vezes, as classificações são usadas em campanhas. Os dados coletados por meio das informações de variáveis (eVars, props e eventos) podem ser centralizados aplicando os metadados aos valores coletados nas variáveis.
 
-![Step Info](assets/sub_class_create.png)
+![Informações da etapa](assets/sub_class_create.png)
 
 Depois de classificado, qualquer relatório que você puder gerar usando a variável-chave também poderá ser gerado com os atributos associados. Por exemplo, é possível classificar [!UICONTROL IDs de produto] com outros atributos de produto, como nome do produto, cor, tamanho, descrição e SKU. O aumento dos dados de relatórios e análises com outros atributos oferece oportunidades de relatórios mais profundos e complexos.
 
@@ -31,9 +31,7 @@ Depois de classificado, qualquer relatório que você puder gerar usando a vari�
 >
 >A capacidade de importar classificações Numérico 2 e Ativadas por data foi removida da base de código. Essa alteração será aplicada na Versão de manutenção de junho de 2019. Se você tiver colunas Numéricas ou Ativadas por data no arquivo de importação, essas células serão ignoradas silenciosamente e todos os outros dados nesse arquivo serão importados normalmente. As classificações existentes ainda podem ser exportadas por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
 
->[!NOTE]
->
->Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas e ativadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
+> [!NOTE] Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas e ativadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
 
 Depois de criar as classificações, você pode aproveitar os novos atributos de dados no Adobe Analytics.
 
@@ -45,7 +43,7 @@ Os relatórios e análises contêm classificações pré-definidas para a variá
 
 Consulte [Classificações de tráfego](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificações de conversão](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
 
-A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em General File Structure before uploading data files.[](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE)
+A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em Estrutura [de arquivo](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) geral antes de carregar os arquivos de dados.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -67,7 +65,7 @@ A tabela a seguir descreve os diferentes tipos de classificação disponíveis e
    <td colname="col3"> <p>Uma classificação de texto ativada por data permite que você atribua intervalos de datas a uma classificação de texto. Isso é comumente utilizado em classificações de campanha, de modo que você pode aproveitar a exibição do gráfico de Gantt no relatório <span class="wintitle">Campanhas</span>. </p> <p>É possível incluir as datas da campanha atual no arquivo de dados que preenche os dados de classificação. </p> <p>O Relatórios e análises coleta códigos de rastreamento de campanha mesmo se a data final da campanha já tiver passado, mas os dados da campanha coletados após a data final da campanha não estiverem associados à campanha. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Numérico</span> <p>Observação:  Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. No new numeric classifications can be added. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Numérico</span> <p>Observação:  Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Não é possível adicionar novas classificações numéricas. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios. </p> </p> </td> 
    <td colname="col2"> <p>Variáveis de conversão </p> </td> 
    <td colname="col3"> <p>As classificações numéricas permitem que você aplique valores numéricos fixos para os relatórios de <span class="wintitle">Conversão</span>. Essas classificações aparecem como métricas nos relatórios. </p> <p>Ao estudar a possibilidade de adicionar uma classificação <span class="wintitle">numérica</span>, o valor numérico deve ser fixo e imutável ao longo do tempo. </p> </td> 
   </tr> 
