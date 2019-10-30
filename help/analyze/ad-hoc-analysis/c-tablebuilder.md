@@ -3,7 +3,7 @@ description: Use o Construtor de tabela para criar um relatório com qualquer co
 seo-description: Use o Construtor de tabela para criar um relatório com qualquer configuração de métricas, dimensões e segmentos. Por exemplo, você pode adicionar várias métricas ao Construtor de tabela e aplicar o segmento a todos ao mesmo tempo. Você pode aplicar itens pelos painéis de ferramentas como linhas e detalhamentos ou como colunas e facilmente girar a tabela para obter uma visualização diferente. Depois de criar a tabela, você pode interagir diretamente com a tabela de dados resultante para realizar análises mais detalhadas. Lembre-se de que gerar uma tabela de dados pelo Construtor de tabela executa uma consulta e cria uma nova tabela de dados.
 seo-title: Criador de tabela
 title: Criador de tabela
-uuid: d 5 dbd 05 e -9 ebd -4571-b 3 a 5-3856 c 28 b 65 f 3
+uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
