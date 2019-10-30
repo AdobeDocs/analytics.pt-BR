@@ -5,9 +5,9 @@ seo-title: Descrições do relatório personalizado
 solution: Analytics
 title: Descrições do relatório personalizado
 topic: Ferramentas administrativas
-uuid: df 7 b 57 ab -4 bd 9-4465-bcd 1-d 47647 eed 3 ff
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Você pode fornecer descrições personalizadas de relatórios para eVars, props, classificações e eventos. As descrições ficam visíveis para todos os usuários finais.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL *Variável*]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL *variável*]**
 
->[!NOTE]
->
->A adição de descrições está disponível para a maioria das classificações tradicionais, mas não para classificações móveis.
+> [!NOTE] A adição de descrições está disponível para a maioria das classificações tradicionais, mas não atualmente para classificações móveis.
 
 ![](assets/report_descriptions.png)
 
