@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Visão geral do uso de chamadas do servidor
 title: Visão geral do uso de chamadas do servidor
-uuid: 6 e 014364-efc 1-4769-a 0 b 5-cf 105 c 0 ed 9 b 1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 O Uso de chamadas do servidor do Adobe Analytics reconhece suas solicitações de transparência em dados de uso de chamada do servidor do navegador e de dispositivos móveis. Permite acessar:
 
 * Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao seu limite contratual. (**[!UICONTROL Analytics &gt; Administrador &gt; Uso de chamadas do servidor]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* Um tipo de alerta de Uso de Chamada de Servidor no Criador de Alertas que permite configurar alertas para evitar sobreposições (**[!UICONTROL Analytics &gt; Componentes &gt; Alertas]**)
 
 Dentre as principais vantagens do Uso de chamadas do servidor, encontram-se:
 
@@ -45,7 +45,7 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Chamada do servidor </p> </td> 
-   <td colname="col2"> <p>Uma chamada de servidor, também conhecida como "ocorrência" ou uma "solicitação de imagem", é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. O tipo de chamada mais comum do servidor é uma exibição de página. Uma exibição de página ocorre onde um visitante visualiza uma página do site e uma chamada de servidor é gerada para a Adobe, onde as informações são coletadas, processadas e incluídas nas métricas de relatório. </p> <p>Há outros tipos de chamadas do servidor, incluindo links de saída e downloads de arquivo, nos quais os dados são enviados até a Adobe para processamento, mas não são registrados como uma nova visualização de página. Mesmo exibições de página "excluídas" (excluídas de seus relatórios pelo intervalo de endereço IP configurado por você, por exemplo) são chamadas de servidor porque são recebidas e processadas pela Adobe, mas nunca mostradas em seus relatórios. </p> <p><b>Chamada do servidor primária</b>: solicitações recebidas diretamente de navegadores dos visitantes ao site ou da API de inserção de dados. Inclui Ocorrências primárias (Visualizações de página), Eventos personalizados primários, Eventos de download primários e Eventos de saída primários. </p> <p><b>Chamada do servidor secundária</b>: cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são substraídas das chamadas de servidor primárias. </p> <p><b>Chamada do servidor primária móvel</b> </p> <p>Solicitações recebidas diretamente de um dos sdks móveis. Inclua trackaction, trackstate, trackapp Crashes, trackactionfrombackground, tracklocation, trackbeacon, trackpushmessageclickthrough, tracktimedactionbacklog, tracklifetimevalueincrease.</p> <p><b>Chamada do servidor secundária móvel</b> </p> <p>Cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são substraídas das chamadas de servidor primárias. </p> <p>Observação: se sua empresa tiver direitos por contrato a ter somente Chamadas do servidor móveis (Primárias ou Secundárias), seu uso específico da web e de dispositivos móveis contará em relação a seu compromisso específico de dispositivos móveis.  </p> </td> 
+   <td colname="col2"> <p>Uma chamada de servidor, também conhecida como "ocorrência" ou uma "solicitação de imagem", é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. O tipo de chamada mais comum do servidor é uma exibição de página. Uma exibição de página ocorre quando um visitante exibe uma página em seu site e uma chamada de servidor é gerada para a Adobe, onde as informações são coletadas, processadas e incluídas nas métricas do relatório. </p> <p>Há outros tipos de chamadas do servidor, incluindo links de saída e downloads de arquivo, nos quais os dados são enviados até a Adobe para processamento, mas não são registrados como uma nova visualização de página. Mesmo exibições de página "excluídas" (excluídas de seus relatórios pelo intervalo de endereço IP configurado por você, por exemplo) são chamadas de servidor porque são recebidas e processadas pela Adobe, mas nunca mostradas em seus relatórios. </p> <p><b>Chamada do servidor primária</b>: solicitações recebidas diretamente de navegadores dos visitantes ao site ou da API de inserção de dados. Inclui Ocorrências primárias (Visualizações de página), Eventos personalizados primários, Eventos de download primários e Eventos de saída primários. </p> <p><b>Chamada do servidor secundária</b>: cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são substraídas das chamadas de servidor primárias. </p> <p><b>Chamada do servidor primária móvel</b> </p> <p>Solicitações recebidas diretamente de um dos SDKs móveis. Inclua trackAction, trackState, falhas de trackApp, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Chamada do servidor secundária móvel</b> </p> <p>Cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são substraídas das chamadas de servidor primárias. </p> <p>Observação: se sua empresa tiver direitos por contrato a ter somente Chamadas do servidor móveis (Primárias ou Secundárias), seu uso específico da web e de dispositivos móveis contará em relação a seu compromisso específico de dispositivos móveis.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de faturamento (ID de faturamento) </p> </td> 
@@ -75,7 +75,7 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Período do contrato </p> </td> 
-   <td colname="col2"> <p>Períodos contratuais podem durar vários anos. Suponhamos que sua empresa tenha um compromisso de chamadas do servidor de 6 milhões de chamadas para um período de contrato de 3 anos. Para fins de monitoramento de uso de chamadas do servidor, esse período de 3 anos pode ser dividido em períodos de uso menores para facilitar comparações ano por ano. </p> </td> 
+   <td colname="col2"> <p>Períodos contratuais podem durar vários anos. Suponhamos que sua empresa tenha um compromisso de chamadas do servidor de 6 milhões de chamadas para um período de contrato de 3 anos. Para fins de monitoramento do uso de chamadas do servidor, esse período de 3 anos pode ser dividido em períodos de uso menores para facilitar comparações ano a ano. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
 
 A permissão de Uso de chamadas do servidor é concedida automaticamente a Administradores do Analytics. Ela permite que usuários visualizem o painel e criem alertas de chamada do servidor. Adminstradores podem optar por conceder essa permissão a não administradores.
 
->[!NOTE]
->
->Sua empresa pode escolher quais empresas de logon têm acesso ao uso da chamada de servidor.
+> [!NOTE] Sua empresa pode escolher quais empresas de logon têm acesso ao Uso da chamada do servidor.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ A permissão de Uso de chamadas do servidor é concedida automaticamente a Admin
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Faça logon em login. experiencecloud. adobe. com.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Faça logon em login.experience.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Clique em <span class="uicontrol">Analytics </span>. </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navegue até <span class="ignoretag"><span class="uicontrol">Produtos</span> &gt; <span class="uicontrol">Perfil de produto</span> &gt; <span class="uicontrol">Permissões</span> &gt; <span class="uicontrol">Ferramentas do Analytics</span> &gt; <span class="uicontrol">Uso de chamadas do servidor </span> </span> </li> 
     </ol> </td> 
