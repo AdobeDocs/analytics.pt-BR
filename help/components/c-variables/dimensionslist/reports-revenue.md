@@ -4,10 +4,10 @@ seo-description: Mede a quantia de receita gerada por todos os seus produtos dur
 seo-title: Receita
 solution: Analytics
 title: Receita
-topic: 'Relatórios  '
-uuid: e 5 b 72798-f 5 c 7-440 d-a 62 d -376 bfd 115 ac 8
+topic: Relatórios
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,9 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 * Existem requisitos que devem ser atendidos para que esse relatório colete dados de forma bem sucedida. Deve ocorrer o seguinte dentro da mesma solicitação de imagem:
 
-   * Um evento de [!UICONTROL compra] deve ser disparado no `s.events`.
+   * Um evento de [!UICONTROL compra] deve ser disparado no `s.events`. 
 
-   * `products` A variável deve ser definida com um número no campo de preço.
+   * The `products` variable must be defined with a number in the price field.
    * Por exemplo, isso passaria US$35.99 para o relatório da receita:
 
       ```js
