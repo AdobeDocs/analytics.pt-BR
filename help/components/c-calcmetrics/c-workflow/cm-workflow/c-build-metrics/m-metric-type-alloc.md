@@ -3,9 +3,9 @@ description: Selecionar o ícone de engrenagem ao lado de uma métrica permite e
 seo-description: Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o tipo e o modelo de atribuição.
 seo-title: Atribuição e tipo de métrica
 title: Atribuição e tipo de métrica
-uuid: 64649698-df 2 a -42 c 3-bb 31-938 f 766 e 1 d 1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
 >* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html).
->* Os modelos de alocação “Último contato do canal de marketing” e “Primeiro contato do canal de marketing” serão migrados para os novos modelos de atribuição “Último contato” e “Primeiro contato”, respectivamente (Observe que “Canais de marketing” não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
->* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação “linear”, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funciona (desde 19 de julho de 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Os modelos de alocação "Último contato do canal de marketing" e "Primeiro contato do canal de marketing" serão migrados para os novos modelos de atribuição "Último contato" e "Primeiro contato", respectivamente (Nota: Os "Canais de marketing" não serão descontinuados - somente os dois modelos de alocação exibidos nas métricas calculadas serão descontinuados).
+>* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação "Linear", os relatórios podem mudar levemente para refletir o novo modelo de atribuição corrigido. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funciona (desde 19 de julho de 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
 ## Como a alocação linear funciona (desde 19 de julho de 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Em julho de 2018, a Adobe alterou como a alocação linear é relatada para Métricas calculadas. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. A alteração afetará principalmente as eVars e outras dimensões que sejam persistentes. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
+Em julho de 2018, a Adobe alterou o modo como a alocação linear é reportada para Métricas calculadas. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. A alteração afetará principalmente as eVars e outras dimensões que sejam persistentes. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
 
 O seguinte exemplo ilustra como as métricas calculadas com alocação linear serão alteradas nos relatórios:
 
