@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Agendar
 title: Agendamento e distribuição de relatórios
 topic: Reports and Analytics
-uuid: 1230 b 0 f 3-e 026-4 b 83-b 231-14 d 6 f 75 a 3836
+uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: cca2896eaaf3786e79e7bd389bcb5a409e3d357e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,17 +25,15 @@ Devido às diferenças entre os mecanismos e plataformas de processamento, os di
 * Extrações de dados: 50.000 linhas
 * Data Warehouse: ilimitado
 
-Essas limitações são para relatórios agendados e baixados; os painéis são limitados à quantidade de espaço disponível em um reportlet.
+Essas limitações são para relatórios individuais programados e baixados; os painéis são limitados à quantidade de espaço disponível em um reportlet.
 
->[!NOTE]
+> [!NOTE] O "Tempo de entrega"/"Hora do dia" inserido pelo usuário especifica a hora em que o relatório deve começar a ser processado, não a hora em que será realmente entregue. O tempo real em que o relatório será entregue baseia-se principalmente no tempo necessário para o processamento (relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples). Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do "Tempo de entrega"/"Hora do dia" especificado originalmente.
+>Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes de o relatório ser efetivamente entregue:
 >
->A "Hora de entrega"/"Hora do dia" inserida pelo usuário especifica o tempo em que o relatório deve iniciar o processamento, não o tempo que será realmente entregue. A hora em que o relatório será entregue baseia-se principalmente no tempo que leva para processar (relatórios complexos e grandes levam mais tempo para processar do que relatórios simples). Por exemplo, se um relatório levar 15 minutos para processar, o tempo de entrega real terá pelo menos 15 minutos após o "Tempo de entrega" especificado originalmente/"Hora do dia".
->Além disso, há uma série de outros fatores que podem aumentar ainda mais o atraso antes do relatório ser realmente entregue:
->
-> * **Executar muitos horários diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos Painéis, etc.) pode sobrecarregar o sistema. O sistema de programação permite que alguns relatórios (5-10) de qualquer tipo sejam executados simultaneamente. Portanto, quando mais de 5-10 estão todos programados de uma vez, alguns precisam aguardar a linha para que outros relatórios terminem antes que possam começar a processar. Esse problema pode ser reduzido ao agendar os relatórios de uma empresa em momentos longos durante o dia ou hora, em vez de simultaneamente.
-> * Além do tipo de relatório específico (Painéis, etc.), os relatórios também serão aguardados se a empresa tiver **mais de 15-20 de qualquer tipo de relatório agendado de uma vez (em todos os tipos de relatórios diferentes)**. Isso pode ser reduzido ao detalhar os tempos de programação em vez de ter muitas executado ao mesmo tempo.
-> * **Os problemas nos serviços** a jusante com os quais o Agendador depende também podem afetar a entrega dos relatórios. Por exemplo, se você estiver usando as apis de forma independente para executar relatórios e preencher a fila de solicitação da API, os relatórios agendados podem ser entregues lentamente enquanto você compete por esse recurso.
-> * **A latência do conjunto de relatórios** (um atraso na coleção de dados) também pode atrasar alguns relatórios programados.
+> * **Execução de várias programações diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis etc.) pode sobrecarregar o sistema. O sistema de agendamento permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Portanto, quando mais de 5-10 forem todos agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos escalonados ao longo do dia ou da hora, em vez de simultaneamente.
+> * Além do tipo de relatório específico (Painéis, etc.), os relatórios também aguardam em linha se a empresa tiver **mais de 15 a 20 de qualquer tipo de relatório programado de uma só vez (em todos os tipos de relatório diferentes)**. Isso pode ser atenuado por horários de programação impressionantes, em vez de muitos serem executados ao mesmo tempo.
+> * **Problemas em serviços** downstream nos quais o Agendador depende também podem afetar a entrega de relatórios. Por exemplo, se você estiver usando independentemente as APIs para executar relatórios e preencher a fila de solicitações de API, seus relatórios agendados podem ser entregues lentamente enquanto você compete por esse recurso.
+> * **A latência** do conjunto de relatórios (um atraso na coleta de dados) também pode atrasar alguns relatórios programados.
 
 
 
@@ -57,10 +55,10 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 
 | Opção | Descrição |
 |--- |--- |
-| Nome do arquivo de relatório | Digite o nome do relatório. O formato padrão é `<report name> for <suite> - <report date range>`. Para especificar um nome personalizado, selecione [!UICONTROL Personalizado]. |
-| Formato do Relatório | Permite que você especifique PDF, CSV, Excel, HTML, Word, ou formatos móveis para a entrega. Se você selecionar CSV, você também pode especificar a codificação para CSV:<ul><li>Shift-JIS: codificação de caracteres japoneses.</li><li>EUC-JP: Código Unix estendido, principalmente para japonês, coreano e chinês simplificado.</li></ul> |
+| Nome do arquivo de relatório | Digite o nome do relatório. The default format is `<report name> for <suite> - <report date range>`. Para especificar um nome personalizado, selecione [!UICONTROL Personalizado]. |
+| Formato do Relatório | Permite que você especifique PDF, CSV, Excel, HTML, Word, ou formatos móveis para a entrega. Se você selecionar CSV, você também pode especificar a codificação para CSV:<ul><li>Shift-JIS: codificação de caracteres japoneses.</li><li>EUC-JP: Código Unix Extended, principalmente para japonês, coreano e chinês simplificado.</li></ul> |
 | Conteúdos do relatório | <ul><li>Número de linhas na tabela: especifique o número de linhas que devem ficar visíveis na tabela do relatório que você está enviando.</li><li>Idioma para cabeçalho e rodapé: especifique o idioma para o cabeçalho e rodapé.</li><li>comentários: especifique o texto a ser exibido no começo do relatório.</li></ul> |
-| Enviar arquivo de assinatura digital | Ao solicitar um relatório, como um relatório marcado ou solicitações de Data Warehouse, você pode solicitar uma assinatura de dados. A assinatura digital da Adobe não restringe quem tem acesso aos dados, mas a finalidade do Arquivo de assinatura digital (.sig) é verificar a validade do arquivo de relatório fornecido. Usando a assinatura digital, os destinatários do relatório podem se certificar de que o arquivo veio da Adobe e que não foi alterado. |
+| Enviar arquivo de assinatura digital | Ao solicitar um relatório, como um relatório marcado ou solicitações do Data Warehouse, é possível solicitar uma assinatura de dados. A assinatura digital da Adobe não restringe quem tem acesso aos dados, mas a finalidade do Arquivo de assinatura digital (.sig) é verificar a validade do arquivo de relatório entregue. Usando a assinatura digital, os destinatários do relatório podem se certificar de que o arquivo veio da Adobe e que não foi alterado. |
 | Destino do Relatório | <ul><li>Email: permite definir as configurações de endereço de email, o assunto e notas.</li><li>FTP: permite configurar as definições de FTP, incluindo o host, porta, diretório, nome de usuário e senha.</li></ul> |
 
 1. Click **[!UICONTROL Scheduling Options]**.
@@ -69,7 +67,7 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 |--- |--- |
 | Enviar relatório agora | Envia o relatório imediatamente. |
 | Agendar para mais tarde | Exibe opções para especificar um período de tempo e opções de entrega. |
-| Intervalo de tempo dos relatórios | **Fixo**: impede que a data avance com o passar do tempo. **Em andamento**: permite que a data avance com o passar do tempo. Algumas considerações:<ul><li>Se você selecionar Em andamento para as datas de início e fim, e selecionar um relatório diário para o dia anterior, você receberá um email diariamente com um relatório do dia anterior.</li><li>Se você selecionar Fixo para o dia de início e acumular para o dia final, você receberá no primeiro dia um relatório do dia anterior. O segundo dia você receberá um relatório dos dois dias anteriores, no terceiro dia você receberá um relatório dos últimos três dias, e assim por diante.</li><li>Se você selecionar Fixo como datas de início e término, cada dia você receberá um relatório idêntico dos dias especificados.</li><li>Não é possível selecionar uma data de início em andamento e uma data de término fixa.</li></ul> |
+| Intervalo de tempo dos relatórios | **Fixo**: impede que a data avance com o passar do tempo. **Em andamento**: permite que a data avance com o passar do tempo. Algumas considerações:<ul><li>Se você selecionar Em andamento para as datas de início e fim, e selecionar um relatório diário para o dia anterior, você receberá um email diariamente com um relatório do dia anterior.</li><li>Se você selecionar Fixo para o dia inicial e em andamento para o dia final, você receberá no primeiro dia um relatório do dia anterior. O segundo dia você receberá um relatório dos dois dias anteriores, no terceiro dia você receberá um relatório dos últimos três dias, e assim por diante.</li><li>Se você selecionar Fixo como datas de início e término, cada dia você receberá um relatório idêntico dos dias especificados.</li><li>Não é possível selecionar uma data inicial contínua e uma data de término fixa.</li></ul> |
 | Frequência de entrega | <ul><li>**Por hora**: envia um email a cada hora, ou qualquer outro intervalo de horas.</li><li>**Diariamente**: envia um email todos os dias, em dias alternados, a cada três dias, ou qualquer outro intervalo de dias. Você também pode enviá-lo a cada dia da semana.</li><li>**Semanalmente**: envia o email toda semana, a cada duas semanas, a cada três semanas, ou qualquer outro intervalo de semanas. Você também pode especificar em qual dia da semana ele é enviado.</li><li>**Mensalmente**: especifica o intervalo em número de meses, e você também pode selecionar o dia do mês em que será enviado, ou o dia da semana em uma semana específica do mês.</li><li>**Anualmente**: especifica o dia do ano em que o relatório é enviado, ou você pode enviar em um dia específico da semana em qualquer semana do ano.</li><li>**Hora do dia**: aplica-se ao fuso horário anexado ao conjunto de relatórios selecionado.</li></ul> |
 | Opções de finalização de entrega | <ul><li>**Nunca finalizar**: sem prazo final.</li><li>**Terminar após`value`ocorrências**: Especifica o número de ocorrências antes de terminar a entrega.</li><li>**Finalizar em**: permite especificar uma data específica. Se você desejar processar os dados na mesma data dos dados do relatório, o relatório conterá somente os dados que foram inseridos no banco de dados do no momento em que o relatório for enviado. Como o processamento completo para um dia pode demorar até 24 horas, os dados completos podem não estar disponíveis no momento em que o relatório é enviado. Para obter os dados completos, sempre defina o tempo de processamento durante 24 horas após o término do período do relatório.</li></ul> |
 
@@ -92,12 +90,12 @@ Baixe informações detalhadas sobre um relatório específico nos formatos PDF,
 1. Selecionar o formato desejado para o relatório:
 
    * **[!UICONTROL PDF]**: especifica que o relatório será baixado no formato Adobe PDF e permite compartilhar o relatório com outras pessoas, independentemente do sistema de computador usado.
-   * **[!UICONTROL CSV]**: Especifica que o relatório será descarregado em [!DNL .csv] (formato de valores separados por vírgula).
+   * **[!UICONTROL CSV]**: Especifica que o relatório será baixado em [!DNL .csv] (formato de valores separados por vírgulas).
    * **[!UICONTROL Excel]**: especifica que o relatório será baixado no formato do Microsoft Excel e permite compartilhar o relatório com outras pessoas que podem abri-lo em um programa de planilhas.
    * **[!UICONTROL Word]**: especifica que o relatório será baixado no formato do Microsoft Word.
    >[!NOTE]
    >
-   >Se você usar um dos formatos de exportação brutos para baixar um relatório e o nome da página estiver em branco, o Adobe Analytics provavelmente não terá tempo suficiente para processar os dados. Baixe o relatório posteriormente.
+   >Se você usar um dos formatos de exportação brutos para baixar um relatório e o nome da página estiver em branco, o Adobe Analytics provavelmente não teve tempo suficiente para processar os dados. Baixe o relatório posteriormente.
 
 ## Gerenciar relatórios programados {#task_C17677C543454FF2B06D10EA5652DFBC}
 
@@ -126,7 +124,7 @@ Quando o destinatário clica no link, o sistema solicita ao as credenciais de lo
 
 >[!IMPORTANT]
 >
->Para que você possa receber novamente o relatório, é necessário criar um novo agendamento.
+>Para que você receba o relatório novamente, é necessário criar um novo agendamento.
 
 Para cancelar a inscrição de um relatório agendado:
 
@@ -140,7 +138,7 @@ Para cancelar a inscrição de um relatório agendado:
 
    >[!NOTE]
    >
-   >Esse fluxo de trabalho é o mesmo se você for o agendador do relatório ou o destinatário do relatório.
+   >Esse fluxo de trabalho é o mesmo quer você seja o agendador do relatório ou o destinatário do relatório.
 
 Cancelar a inscrição no relatório não cancela o relatório agendado.
 
