@@ -3,9 +3,9 @@ description: 'O Construtor de relatórios 5.2 é compatível com as métricas ca
 seo-description: 'O Construtor de relatórios 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.'
 seo-title: Métricas calculadas
 title: Métricas calculadas
-uuid: c 9814894-cda 6-40 ff -8 ec 4-3 ab 2 c 1908 ebc
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 O Construtor de relatórios 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
->[!NOTE]
->
->Pastas de trabalho existentes podem apontar para solicitações com IDs de métricas herdadas. Ao usar o Construtor de relatórios 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Construtor de relatórios v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
+> [!NOTE] Pastas de trabalho existentes podem apontar para solicitações com IDs de métrica herdadas. Ao usar o Construtor de relatórios 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Construtor de relatórios v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
 Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics).
 
