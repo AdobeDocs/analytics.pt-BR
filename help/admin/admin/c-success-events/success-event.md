@@ -6,9 +6,9 @@ seo-title: Visão geral dos eventos bem-sucedidos
 solution: Analytics
 title: Visão geral dos eventos bem-sucedidos
 topic: Ferramentas administrativas
-uuid: 410 eee 44-8960-462 c-a 9 c 3-07 b 44 d 0 b 1 df 0
+uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ A variável [s.events](https://marketing.adobe.com/resources/help/en_US/sc/imple
 
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Eventos bem-sucedidos]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; Eventos **[!UICONTROL bem-sucedidos]**
 
 A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1000 funcionam somente no código H22 ou superior.
 
@@ -43,6 +43,6 @@ A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas n
 | Polaridade | A polaridade da métrica permite indicar se o Adobe Analytics deve considerá-la boa ou ruim se um determinado evento personalizado (métrica) aumentar. Isso permitirá que o Adobe Analytics exiba indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se "Bugs enviados" aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa. |
 | Descrição | Uma breve descrição do objetivo e utilização do evento. |
 | Registro exclusivo de evento | Consulte [Serialização do evento](/help/implement/js-implementation/event-serialization.md). |
-| Participação | See [Metrics Participation](/help/components/c-variables/c-metrics/metrics-participation.md). |
+| Participação | Consulte Participação [de métricas](/help/components/c-variables/c-metrics/metrics-participation.md). |
 | Aviso (evento de moeda) | Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem será exibida declarando que os dados históricos não estarão disponíveis no relatório.  Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados ao mesmo tempo. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. Contudo, todos os dados coletados após a alteração inicial não estarão disponíveis. Tome cuidado ao alterar um tipo de evento. |
 
