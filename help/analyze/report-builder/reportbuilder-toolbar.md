@@ -1,18 +1,18 @@
 ---
 description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Construtor de relatórios.
 seo-description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Construtor de relatórios.
-seo-title: Barra de ferramentas do Construtor de relatórios
+seo-title: Barra de ferramentas do Report Builder
 solution: Analytics
-title: Barra de ferramentas do Construtor de relatórios
+title: Barra de ferramentas do Report Builder
 topic: Construtor de relatórios
-uuid: 9 f 340 fb 0-f 99 a -4 dd 4-bcca -19 c 54 e 5499 e 6
+uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Barra de ferramentas do Construtor de relatórios
+# Barra de ferramentas do Report Builder
 
 Informações de ajuda para entender a função dos botões na barra de ferramentas do Construtor de relatórios.
 
@@ -34,7 +34,7 @@ Após instalar o Construtor de relatórios e iniciar o Excel, clique em **[!UICO
 
 **Biblioteca:** Inicia a [!UICONTROL Biblioteca de pastas de trabalho], para que você possa fazer upload de uma pasta de trabalho do Excel do construtor de relatórios que deseja compartilhar. Também é possível baixar e editar pastas de trabalho compartilhadas. See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**Opções:** Permite que você especifique se deseja ser solicitado para a data **[!UICONTROL de início]** (Agora) ao atualizar solicitações e permite ativar o registro para fins de solução de problemas. Consulte [Opções](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
+**** Opções: Permite que você especifique se deseja ser solicitado a fornecer a data **[!UICONTROL de início]** (Agora) ao atualizar solicitações e permite ativar o registro para fins de solução de problemas. Consulte [Opções](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
 
 **Bloqueado/Desbloqueado:** você pode proteger todas as solicitações em uma pasta de trabalho relacionadas à adição e edição de solicitações ao bloquear a pasta de trabalho. Isso permite editar pastas de trabalho offline, pausando todas as solicitações de relatório para obter uma edição mais eficiente. Consulte [Bloquear/Desbloquear pastas de trabalho](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
