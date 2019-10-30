@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 A variável permite a seleção dinâmica de conjunto de relatórios com base no URL de cada página.
 
->[!NOTE]
->
->`dynamicAccountSelection` não funciona com o rastreamento personalizado de link.
+> [!NOTE] `dynamicAccountSelection` não funciona com o rastreamento personalizado de link.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | Falso. |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]`dynamicAccountList` e `dynamicAccountMatch` são ignorados se a variável `dynamicAccountSelection` não for declarada ou se estiver definida como 'false'.
 
 ## Sintaxe e valores possíveis
 
@@ -46,10 +42,10 @@ s.dynamicAccountSelection=false
 
 ## Configurações
 
-Nenhuma
+Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
-* A seleção de conta dinâmica não é suportada pelo [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* A seleção de conta dinâmica não é compatível com [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Sempre use o [!DNL DigitalPulse Debugger] para determinar qual conjunto de relatórios está recebendo dados de cada página.
