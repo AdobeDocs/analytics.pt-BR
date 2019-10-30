@@ -5,7 +5,7 @@ seo-title: Perguntas frequentes do Conversor de projetos
 title: Perguntas frequentes do Conversor de projetos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>P: Como os intervalos de data são convertidos?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Os intervalos de data do tipo “Último dia X” na Ad Hoc Analysis <i>excluem</i> hoje, enquanto na Analysis Workspace <i>incluem</i> hoje. Dessa forma, os intervalos de data como “últimos 90 dias” podem não corresponder exatamente entre as ferramentas. Use intervalos de data personalizados para recuperar o mesmo período de tempo na Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. Assim, intervalos de datas como "últimos 90 dias" podem não corresponder exatamente entre as ferramentas. Use intervalos de data personalizados para recuperar o mesmo período de tempo na Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">O intervalo de datas no nível do espaço de trabalho da Ad Hoc Analysis é aplicado no nível do projeto/espaço de trabalho na Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">O intervalo de datas no nível de relatório da Ad Hoc Analysis é aplicado no nível de coluna de tabela na Workspace. </li> 
     </ul> <p>É possível editar os intervalos de data personalizados em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de data</span>. </p> </td> 
