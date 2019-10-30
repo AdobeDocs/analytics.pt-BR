@@ -7,8 +7,8 @@ subtopic: Notas de versão
 title: iOS
 topic: Desenvolvedor e implementação
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Notas de versão cumulativas para iOS.
 
->[!NOTE]
->
->Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
+> [!NOTE] Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
-Os downloads da biblioteca móvel estão disponíveis em [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e na [Developer Connection](https://marketing.adobe.com/developer/pt-BR/gallery/app-measurement-for-ios).
+Os downloads da biblioteca móvel estão disponíveis no [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) e no [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
-[Documentação 4.x](https://marketing.adobe.com/resources/help/pt_BR/mobile/ios/)
+[Documentação 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[Documentação 3.x](https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/ios/)
+[Documentação 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
 ## Versão 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,15 +89,15 @@ O SDK versão 4.13.2 (10 de novembro de 2016) inclui as seguintes alterações:[
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Serviço de ID de visitante </p> </td> 
-   <td colname="2"> <p> Adicionados carimbo de data e hora e ID de empresa da Experience Cloud ao parâmetro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p> Adicionados carimbo de data e hora e ID de empresa da Experience Cloud ao parâmetro <code> adobe_mc</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuração </p> </td> 
-   <td colname="2"> <p> Os IDFAs inválidos (00000000-0000-0000-0000-000000000000) passados ao SDK por meio de <code>setAdvertisingIdentifier:</code> serão ignorados. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
-   <td colname="2"> <p>Ao chamar <code>trackAdobeDeepLink</code>, as variáveis com prefixos "<code>adb</code>" e "<code>ctx</code>" agora são manipuladas corretamente. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Aquisição </p> </td> 
@@ -122,11 +120,11 @@ O SDK versão 4.13.1 (20 de outubro de 2016) inclui as seguintes alterações:[!
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Aquisição </p> </td> 
-   <td colname="2"> <p> O SDK agora oferece suporte para que a aquisição de dados personalizada seja retornada adequadamente por invocações <code>AdobeDataCallback</code>. </p> </td> 
+   <td colname="2"> <p> O SDK agora oferece suporte para que a aquisição de dados personalizada seja retornada adequadamente por invocações <code> AdobeDataCallback</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p> Os parâmetros de <span class="keyword">Serviço de ID de visitante</span> agora são passados em solicitações do <span class="keyword">Target</span> via <code>mboxParams</code>. </p> </td> 
+   <td colname="2"> <p><span class="keyword"></span>Os parâmetros de Serviço de ID de visitante agora são passados em solicitações do <span class="keyword">Target</span> via <code> mboxParams</code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -235,11 +233,11 @@ O SDK versão 4.10.0 (20 de maio de 2016) inclui as seguintes alterações:[!DNL
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target para TVML/TVJS </p> </td> 
-   <td colname="2"> <p>Agora você pode usar os seguintes nomes de propriedade ao configurar seu elemento <code>ADBTarget</code>: </p> <p> 
+   <td colname="2"> <p>Agora você pode usar os seguintes nomes de propriedade ao configurar seu elemento <code> ADBTarget</code>: </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
-      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code>purchasedProductIds</code> </li> 
+      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code> purchasedProductIds</code> </li> 
       <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <code> mboxParameters</code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -298,7 +296,7 @@ O [!DNL iOS] SDK versão 4.8.5 (18 de fevereiro de 2016) inclui as seguintes alt
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Configurações de saída e privacidade </p> </td> 
-   <td colname="2"> <p>A partir do <span class="keyword">iOS</span> SDK 4.8.5, as configurações de privacidade definidas por meio do método <code>setPrivacyStatus</code> afetam a atividade do <span class="keyword">Analytics</span>, do <span class="keyword">Target</span> e do <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>A partir do <span class="keyword">iOS</span> SDK 4.8.5, as configurações de privacidade definidas por meio do método <code> setPrivacyStatus</code> afetam a atividade do <span class="keyword">Analytics</span>, do <span class="keyword">Target</span> e do <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,7 +320,7 @@ O SDK versão 4.8.0 (2 de novembro de 2015) inclui as seguintes alterações:[!D
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Alteramos o método <code>visitorSyncIdentifiers:identifiers</code> para <code>visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>Alteração do <code> visitorSyncIdentifiers:identifiers</code> método para <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Novos métodos TVJS </td> 
@@ -432,7 +430,7 @@ O SDK versão 4.6 (17 de setembro de 2015) inclui as seguintes alterações:[!DN
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">O <code>trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">A <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -456,7 +454,7 @@ O SDK versão 4.5 inclui as seguintes alterações:[!DNL iOS]
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Extensão para iOS</span> </p> </td> 
-   <td colname="2"> <p>A partir do <span class="keyword"> iOS</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> iOS</span> permite coletar dados de uso no Apple Watch Apps, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão do <span class="keyword"> iOS</span>. </p> <p>Recomendamos o uso do <span class="keyword"> iOS</span> SDK em vez do seu próprio kit. </p> <p>A Apple oferece um conjunto de APIs que permitem a comunicação do aplicativo Watch com o aplicativo que contém a API (enviando solicitações para o aplicativo que contém a API e depois recebendo respostas). </p> <p>Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e depois chamar qualquer método de rastreamento no aplicativo que contém a API para enviar dados, essa solução possui algumas limitações. </p> <p>Na maioria dos casos quando um usuário está usando o aplicativo Watch, o aplicativo que contém a API está sendo executado no plano de fundo e só é seguro chamar <code>TrackActionInBackground</code>, <code>TrackLocation</code> e <code>TrackBeacon</code>. O uso de outros métodos de rastreamento interfere nos dados do ciclo de vida, por isso você deve usar apenas esses três métodos para enviar os dados do aplicativo Watch. </p> <p>Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, recomendamos usar o <span class="keyword"> iOS</span> SDK, pois o SDK para o aplicativo Watch inclui todos os recursos <span class="keyword"> Móveis</span>, exceto mensagens no aplicativo. </p> </td> 
+   <td colname="2"> <p>A partir do <span class="keyword"> iOS</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> iOS</span> permite coletar dados de uso no Apple Watch Apps, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão do <span class="keyword"> iOS</span>. </p> <p>Recomendamos o uso do <span class="keyword"> iOS</span> SDK em vez do seu próprio kit. </p> <p>A Apple oferece um conjunto de APIs que permitem a comunicação do aplicativo Watch com o aplicativo que contém a API (enviando solicitações para o aplicativo que contém a API e depois recebendo respostas). </p> <p>Embora você possa enviar dados de rastreamento como um dicionário do aplicativo Watch para o aplicativo que contém a API e depois chamar qualquer método de rastreamento no aplicativo que contém a API para enviar dados, essa solução possui algumas limitações. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. O uso de outros métodos de rastreamento interfere nos dados do ciclo de vida, por isso você deve usar apenas esses três métodos para enviar os dados do aplicativo Watch. </p> <p>Mesmo que esses três métodos de rastreamento atendam aos seus requisitos, recomendamos usar o <span class="keyword"> iOS</span> SDK, pois o SDK para o aplicativo Watch inclui todos os recursos <span class="keyword"> Móveis</span>, exceto mensagens no aplicativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,7 +475,7 @@ O SDK versão 4.5 inclui as seguintes alterações:[!DNL iOS]
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">Suporte para monitoramento de beacon no PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>As chamadas <code>trackBeacon</code> e <code>clearCurrentBeacon</code> agora estão disponíveis no <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
