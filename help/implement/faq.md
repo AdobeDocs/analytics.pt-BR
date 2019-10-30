@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre a implementação do Analytics
 topic: Desenvolvedor e implementação
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Perguntas frequentes sobre a implantação e links para mais informações.
    <td colname="col3"> <p>Para obter informações sobre como gerenciar usuários e grupos, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">Gerenciamento de usuários e produtos</a> na ajuda da Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Expiração de eVar - Por que as eVars estão sendo categorizadas como "Nenhum" nos relatórios? </p> </td> 
+   <td colname="col2"> <p>Expiração da eVar - Por que as eVars estão sendo atribuídas a "Nenhum" nos relatórios? </p> </td> 
    <td colname="col3"> <p> <span class="uicontrol"> Expira após</span> especifica um intervalo de tempo, ou evento, relacionado à expiração do valor de eVar (não recebe mais crédito para eventos de sucesso). Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). Se você selecionar um evento como valor de expiração, a variável expirará somente se o evento ocorrer. Se o evento não ocorrer, a variável nunca expirará. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Perguntas frequentes sobre a implantação e links para mais informações.
 | Pergunta | Resposta |
 |---|---|
 | Como gerencio usuários e grupos do Analytics? | Para obter informações sobre como gerenciar usuários e grupos, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) da Experience Cloud na ajuda dos principais serviços da Adobe Experience Cloud. |
-| Expiração de eVar - Por que as eVars estão sendo categorizadas como "Nenhum" nos relatórios? | `Expire After` especifica o período ou evento após o qual o valor do eVar expira (não recebe mais crédito por eventos bem-sucedidos). Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). Se você selecionar um evento como valor de expiração, a variável expirará somente se o evento ocorrer. Se o evento não ocorrer, a variável nunca expirará. [[Mais...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| Expiração da eVar - Por que as eVars estão sendo atribuídas a "Nenhum" nos relatórios? | `Expire After` especifica o período ou evento após o qual o valor do eVar expira (não recebe mais crédito por eventos bem-sucedidos). Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). Se você selecionar um evento como valor de expiração, a variável expirará somente se o evento ocorrer. Se o evento não ocorrer, a variável nunca expirará. [[Mais...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | Visibilidade de evento personalizado - Por que os Eventos personalizados não aparecem no menu de relatórios? | Na coluna Visibilidade, você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos. Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. [[Mais...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | Carimbos de data e hora - O que é preciso ser considerado antes de alterar as configurações de carimbo de data e hora? | Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados com e sem informações de data e hora, sem perda de dados. Dados offline com carimbos de data e hora gerados em um dispositivo móvel podem ser combinados com dados ativos de uma página da Web que não tenha essas informações ou integrados com dados de qualquer plataforma usando uma chamada de carimbo de data e hora do lado do cliente. [[Mais...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | ID do visitante - Como o período de carência da ID do visitante funciona e como ele é ativado? | Caso tenha vários arquivos JavaScript que enviam dados para o mesmo conjunto de relatórios, ou se estiver usando outras tecnologias no seu site, como a medição de vídeo Flash, recomendamos configurar um período de carência.  [Mais...](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
