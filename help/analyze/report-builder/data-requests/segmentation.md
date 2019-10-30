@@ -7,7 +7,7 @@ title: Gerenciar segmentos
 topic: Construtor de relatórios
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ O Construtor de relatórios tem um novo painel de segmentação na Etapa 1 do As
 
 ## Adicionar ou editar segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
-> Para adicionar ou editar segmentos, a interface de segmento do Construtor de relatórios inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do construtor de relatórios continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
+> [!NOTE] Para adicionar ou editar segmentos, a interface de segmento do Construtor de relatórios inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do construtor de relatórios continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
 
 1. No painel de segmentos da Etapa 1 do Assistente de solicitação, clique em **[!UICONTROL Adicionar]**.
 1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para mais informações sobre como construir segmentos, consulte [https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)
@@ -63,9 +61,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 1. Marque quais segmentos você deseja aplicar.
 
->[!NOTE]
->
->Quer você seja um Administrador ou um não Administrador, no Construtor de relatórios você pode ver somente os segmentos que possui e os compartilhados com você. (na interface do usuário dos Relatórios e análises de marketing, o Administrador pode visualizar todos os segmentos da organização).
+> [!NOTE] Quer você seja um Administrador ou um não Administrador, no Construtor de relatórios você pode ver somente os segmentos que possui e os compartilhados com você. (na interface do usuário dos Relatórios e análises de marketing, o Administrador pode visualizar todos os segmentos da organização).
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
