@@ -4,10 +4,10 @@ seo-description: Coleta e organiza informações específicas da página sobre u
 seo-title: Resumo da página
 solution: Analytics
 title: Resumo da página
-topic: 'Relatórios  '
-uuid: 00 ae 130 a -8 c 07-409 f -930 a-d 79 a 8631992 b
+topic: Relatórios
+uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
