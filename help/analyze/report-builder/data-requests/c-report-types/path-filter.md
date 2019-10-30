@@ -1,18 +1,18 @@
 ---
 description: Descreve as etapas envolvidas na aplicação de filtros para um relatório de definição de caminho.
 seo-description: Descreve as etapas envolvidas na aplicação de filtros para um relatório de definição de caminho.
-seo-title: Filtrar um relatório de caminho usando o Assistente de solicitação
+seo-title: Filtrar relatório de caminho com o Assistente de solicitação
 solution: Analytics
-title: Filtrar um relatório de caminho usando o Assistente de solicitação
+title: Filtrar relatório de caminho com o Assistente de solicitação
 topic: Construtor de relatórios
-uuid: 9 b 22 d 5 b 5-7 ae 8-49 a 2-90 ae -0 c 1075562 bbe
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrar um relatório de caminho usando o Assistente de solicitação
+# Filtrar relatório de caminho com o Assistente de solicitação
 
 Descreve as etapas envolvidas na aplicação de filtros para um relatório de definição de caminho.
 
@@ -25,7 +25,7 @@ Esse exemplo usa Caminhos de seção do site.
    ![](assets/site_section_path_1.png)
 
 1. Especifique as datas apropriadas.
-1. Click **[!UICONTROL Next]**.
+1. Clique em **[!UICONTROL Próximo]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. Em um relatório de caminho, um padrão é aplicado por padrão.
 
    ![](assets/site_section_path_2.png)
