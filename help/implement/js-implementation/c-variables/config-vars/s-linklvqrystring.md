@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,13 +24,11 @@ O nome do arquivo de download pode ser definido na string de consulta e, consequ
 
 A variável *`linkLeaveQueryString`* determina se a string de consulta deve ou não ser incluída nos relatórios de [!UICONTROL Links de saída ]e [!UICONTROL Downloads de arquivo].
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |--- |--- |--- |--- |
-| N/A | N/A | Exit Links File Downloads | false |
+| N/A | N/A | Downloads de arquivos de links de saída | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE] Configurar `linkLeaveQueryString=true` = inclui todos os parâmetros de string de consulta para todos os Links de Saída e Links de Download.
 
 ## Sintaxe
 
@@ -60,5 +58,5 @@ Nenhuma configuração é necessária para essa variável.
 
 ## Armadilhas, dúvidas e dicas
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* Configurar `s.linkLeaveQueryString=true` = inclui todos os parâmetros de string de consulta para todos os Links de Saída e Links de Download.
+* A variável `linkLeaveQueryString` não afeta os URLs da página gravada, o mapa de cliques do visitante ou os relatórios de [!UICONTROL Caminho].
