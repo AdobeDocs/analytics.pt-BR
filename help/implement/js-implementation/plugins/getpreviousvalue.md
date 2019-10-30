@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getPreviousValue
 topic: Desenvolvedor e implementação
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Captura o valor de uma variável do Analytics na próxima exibição de página. Por exemplo, é possível usar o plug-in para capturar o valor s.pageName da exibição de página anterior em uma variável de Tráfego personalizado. Também há a opção de capturar um valor anterior somente quando eventos bem-sucedidos atribuídos estão definidos.
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código e implementação do plug-in {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,7 +26,7 @@ Captura o valor de uma variável do Analytics na próxima exibição de página.
 
 **Configuração do plug-in**
 
-Coloque o seguinte código na função A função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`* identificada *Configuração de plug-in*. Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para uso na captura de dados de valor persistidos. Essa deve ser uma variável que foi ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
+Coloque o seguinte código na função *`s_doPlugins()`*, que está localizada na área do arquivo *`s_code.js`chamada de* Configuração de plug-in *.* Escolha uma variável de Tráfego personalizado (s.prop) ou uma variável de Conversão personalizada (s.eVar) para uso na captura de dados de valor persistidos. Essa deve ser uma variável que foi ativada usando o Admin Console, mas que não está em uso no momento para qualquer outra finalidade. É possível usar o seguinte exemplo e atualizá-lo com base em seus requisitos.
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
@@ -59,7 +57,7 @@ s.split=new Function("l","d",""
 +"++]=l.substring(0,i);l=l.substring(i+d.length);}return a"); 
 ```
 
-**Observações**
+**Notas**
 
 * Sempre teste a instalação do plug-in para verificar se a coleta de dados ocorre como esperado antes da implantação no ambiente de produção.
 * Se nenhum valor estiver presente para a variável selecionada em qualquer página, o texto *sem valor* será definido no cookie.
