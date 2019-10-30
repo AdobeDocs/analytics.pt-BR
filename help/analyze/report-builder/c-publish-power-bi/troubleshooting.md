@@ -3,9 +3,9 @@ description: Essas são algumas armadilhas comuns do uso do Construtor de relat�
 seo-description: Essas são algumas armadilhas comuns do uso do Construtor de relatórios com o Power BI.
 seo-title: Solução de problemas de integração do Power BI
 title: Solução de problemas de integração do Power BI
-uuid: c 1 e 7 e 164-4 bc 6-4513-9332-92 c 53 be 021 cc
+uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Cada tarefa agendada do Construtor de relatórios tem três tentativas por execu
 * Após a segunda tentativa mal sucedida, não aparecerá nenhuma mensagem.
 * Após a terceira tentativa mal sucedida, aparecerá a mensagem: “Não foi possível publicar essa pasta de trabalho no Power BI.”
 
-## Etapa 2: Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## Etapa 2. Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
 
 Essas são as principais razões pelas quais visualizações quebradas podem ocorrer após a publicação de solicitações do Construtor de relatórios no Power BI:
 
