@@ -5,9 +5,9 @@ seo-title: Tempo gasto
 solution: Analytics
 title: Tempo gasto
 topic: Métricas
-uuid: a 9 f 63 da 3-7 e 79-49 c 3-9 b 0 b -6 dcd 2 ae 6 aadc
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ Esta tabela lista as diferentes métricas de Tempo gasto, suas definições e on
   <tr> 
    <td colname="col1"> <p>Total de segundos gastos </p> </td> 
    <td colname="col2"> <p>Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico. </p> <p>Inclui a instância de um valor e persiste em todas as ocorrências subsequentes. No caso de props, o tempo gasto também é contado em relação a eventos de link subsequentes. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (chamado de “tempo total gasto”) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Construtor de relatórios (chamado de "tempo total gasto") </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tempo gasto por visita (segundos) </p> </td> 
@@ -47,17 +47,17 @@ Esta tabela lista as diferentes métricas de Tempo gasto, suas definições e on
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tempo gasto por visitante (segundos) </p> </td> 
-   <td colname="col2"> <p><i>Total de segundos gastos / (visitante único - rejeição de visitantes únicos)</i> </p> <p>Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). </p> </td> 
+   <td colname="col2"> <p><i>Total de segundos gastos / (visitante único - rejeição de visitantes únicos)</i> </p> <p>Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante a vida do visitante (duração do cookie). </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tempo médio gasto no site (segundos) </p> </td> 
-   <td colname="col2"> <p>Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não está limitado a médias de “site” como o nome sugere. Veja como a seção Tempo gasto é calculada para obter mais informações sobre as sequências. </p> <p>Observação: esta métrica muito provavelmente será diferente do Tempo gasto por visita em nível de item de dimensão devido às diferenças no denominador do cálculo. </p> </td> 
+   <td colname="col2"> <p>Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas às médias do "site", como o nome sugere. Veja como a seção Tempo gasto é calculada para obter mais informações sobre as sequências. </p> <p>Observação: esta métrica muito provavelmente será diferente do Tempo gasto por visita em nível de item de dimensão devido às diferenças no denominador do cálculo. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (mostrado em minutos) </p> <p>Report Builder (mostrado em minutos) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tempo médio gasto na página </p> </td> 
-   <td colname="col2"> <p><b>Métrica descontinuada. </b> </p> <p>É recomendado usar “Tempo médio gasto no site” se o tempo médio para um item de dimensão for necessário. </p> </td> 
+   <td colname="col2"> <p><b>Métrica descontinuada. </b> </p> <p>Recomendamos que você use 'Tempo médio gasto no site' se o tempo médio de um item de dimensão for necessário. </p> </td> 
    <td colname="col3"> <p>Report Builder (quando uma dimensão está na solicitação) </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Esta tabela lista as diferentes métricas de Tempo gasto, suas definições e on
   </tr> 
   <tr> 
    <td colname="col1"> <p>Duração média da sessão (dispositivos móveis) </p> </td> 
-   <td colname="col2"> <p>Duração total da sessão/(Inicializações - Primeiras inicializações) </p> <p>Somente SDK do aplicativo para dispositivo móvel. Esta é uma métrica em nível de sessão. </p> </td> 
+   <td colname="col2"> <p>Duração total da sessão / (Inicializações - Primeiras inicializações) </p> <p>Somente SDK do aplicativo para dispositivo móvel. Esta é uma métrica em nível de sessão. </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Interface do usuário do Mobile Services </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ Esta tabela lista as diferentes dimensões de Tempo gasto, suas definições e o
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tempo gasto na página - granular </p> </td> 
-   <td colname="col2"> <p>O tempo total gasto em cada ocorrência, truncado no segundo mais próximo. É uma dimensão em nível de ocorrência e inclui exibições de página e eventos de link. Não está limitado à dimensão de “página”, como o nome sugere. </p> </td> 
+   <td colname="col2"> <p>O tempo total gasto em cada ocorrência, truncado no segundo mais próximo. É uma dimensão em nível de ocorrência e inclui exibições de página e eventos de link. Não se limita apenas à dimensão "página", como o nome sugere. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -137,9 +137,7 @@ Esta tabela lista as diferentes dimensões de Tempo gasto, suas definições e o
 
 O Adobe Analytics usa valores explícitos (incluindo eventos de link e exibições de vídeo) para calcular o [!UICONTROL Tempo gasto].
 
->[!NOTE]
->
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. Adicionalmente, por motivos similares, as [!UICONTROL Visitas rejeitadas] (ou seja [!UICONTROL Visitas] com uma única ocorrência) não terão um [!UICONTROL Tempo gasto] associado.
+> [!NOTE] Sem eventos de link como Exibições [!UICONTROL de] vídeo ou Links [!UICONTROL de]saída, o tempo gasto na última ocorrência de uma visita não pode ser conhecido. Adicionalmente, por motivos similares, as [!UICONTROL Visitas rejeitadas] (ou seja [!UICONTROL Visitas] com uma única ocorrência) não terão um [!UICONTROL Tempo gasto] associado.
 
 O **numerador** em todos os cálculos de tempo gasto é “Total de segundos gastos”.
 
@@ -171,10 +169,10 @@ O **denominador** não está disponível como uma métrica separada no Analytics
   </tr> 
   <tr> 
    <td colname="col1"> <p>Qual dimensão de tempo gasto é mais adequada para detalhar com outras dimensões? </p> </td> 
-   <td colname="col2"> <p>A dimensão «Tempo gasto na página - granular» é uma dimensão em nível de ocorrência. Detalhar por outra dimensão fornecerá os segundos que uma ocorrência durou, em que a dimensão detalhada também estava presente. </p> <p>No exemplo abaixo, o termo de pesquisa “classificados” está associado a tempos de ocorrência de 54 segundos, 59 segundos etc., talvez para indicar que os visitantes estão gastando tempo lendo o conteúdo retornado para o termo de pesquisa. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>A dimensão "Tempo gasto na página - granular" é uma dimensão em nível de ocorrência. Detalhar por outra dimensão fornecerá os segundos que uma ocorrência durou, em que a dimensão detalhada também estava presente. </p> <p>No exemplo abaixo, o termo de pesquisa "classificados" está associado a tempos de ocorrência de 54 segundos, 59 segundos etc., talvez indicando que os visitantes estão gastando tempo lendo o conteúdo retornado para esse termo de pesquisa. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Qual métrica é apropriada para a dimensão de «Tempo gasto na página - granular»? </p> </td> 
+   <td colname="col1"> <p>Qual métrica é apropriada em relação à dimensão de "Tempo gasto na página - granular"? </p> </td> 
    <td colname="col2"> <p>Qualquer métrica. A dimensão mostra o tempo gasto na ocorrência exata em que o evento ocorreu. Um tempo gasto maior significa que um visitante permaneceu mais tempo na página (ocorrência) em que o evento ocorreu. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -350,8 +348,8 @@ Para dimensões de Tempo gasto, as seguintes linhas serão exibidas nos relatór
 Algumas observações adicionais em apoio ao exemplo:
 
 * Todos os cálculos de Tempo gasto se baseiam no tempo decorrido da visita, que começa em zero na primeira ocorrência da visita.
-* “Segundos gastos” é a diferença entre o registro de data e hora da ocorrência atual e o registro de data e hora da próxima ocorrência. Como resultado, a última ocorrência da visita (e rejeições) não tem tempo gasto.
-* Uma “sequência” é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 “A” tem duas sequencias: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tinha tempo gasto. Tempo médio gasto no site usa as sequências no denominador.
+* "Segundos gastos" é a diferença entre o carimbo de data e hora da ocorrência atual e o carimbo de data e hora da próxima ocorrência. Como resultado, a última ocorrência da visita (e rejeições) não tem tempo gasto.
+* Uma "sequência" é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para frente ou persistente). Por exemplo, prop1 "A" tem duas sequências: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tinha tempo gasto. Tempo médio gasto no site usa as sequências no denominador.
 
-   * Para calcular apenas o Tempo gasto, os props são “expandidos para a frente” a partir das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 (“A”) acumule o tempo gasto na ocorrência 2.
+   * Somente para fins de Tempo gasto, os props são "expandidos para frente" das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 ("A") acumule o tempo gasto na ocorrência 2.
    * eVars acumulam o Tempo gasto em qualquer ocorrência em que a eVar estiver definida ou persistida. A persistência de eVar é definida pelas configurações de eVar no Analytics Admin.
