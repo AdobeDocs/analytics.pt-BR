@@ -7,7 +7,7 @@ title: Carimbos opcionais de data e hora
 topic: Ferramentas administrativas
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Consulte [Utilização de Carimbos opcionais de data e hora](/help/implement/js-
 >
 >If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
 
->[!NOTE]
->
->Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. This means that a visit/session will be “held open” for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not.
+> [!NOTE] Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. Isso significa que uma visita/sessão será "aberta" por 92 dias, enquanto qualquer ocorrência adicional - que não seja 30 minutos após a ocorrência anterior (em tempo de ocorrência) - ainda pode ser incluída na mesma visita/sessão. Quaisquer ocorrências "antigas" recebidas fora de ordem produzirão resultados "desconhecidos", uma vez que vários fatores (segmentação, alocação, expiração etc.) influenciar se essas ocorrências serão incluídas no relatório ou não.
 
 ## Novos conjuntos de relatórios {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -50,7 +48,5 @@ Consulte [Utilização de Carimbos opcionais de data e hora](/help/implement/js-
 
    Isso alterará seu conjunto de relatórios para Carimbos opcionais de data e hora.
 
->[!NOTE]
->
->If a report suite was set to **Timestamps Optional**, to change this to any other setting, please contact Adobe Client Care.
+> [!NOTE] Se um conjunto de relatórios tiver sido definido como **Carimbos opcionais** de data e hora, para alterar essa configuração para qualquer outra, entre em contato com o Atendimento ao cliente da Adobe.
 
