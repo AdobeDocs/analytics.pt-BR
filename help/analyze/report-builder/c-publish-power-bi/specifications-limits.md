@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Limitações e especificações
 title: Limitações e especificações
-uuid: 6717 b 6 ea -7 e 01-49 b 8-8 f 6 e-fb 733 a 03 b 687
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->Essas restrições se aplicam somente à opção "Publicar solicitações do Construtor de relatórios como tabelas de conjuntos de dados do Power BI".
+> [!NOTE] Essas restrições se aplicam apenas à opção "Publicar solicitações do Construtor de relatórios como tabelas de conjuntos de dados do Power BI".
 
 * Um máximo de 100 solicitações pode ser exportado para o Power BI por pasta de trabalho.
 * O processo de agendamento interromperá a exportação das solicitações quando a 101a solicitação for atingida.
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->Essa especificação se aplica à opção «Publicar todas as solicitações do Construtor de relatórios como tabelas de conjunto de dados do Power BI» e «Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI».
+> [!NOTE] Esta especificação se aplica às opções "Publicar todas as solicitações do Construtor de relatórios como tabelas de conjuntos de dados do Power BI" e "Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI".
 
 Editar uma solicitação do Construtor de relatórios após a sua publicação no Power BI pode causar problemas.
 
