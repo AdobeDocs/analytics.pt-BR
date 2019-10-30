@@ -7,8 +7,8 @@ solution: Analytics
 title: Verificar o código do cabeçalho e do rodapé
 topic: Desenvolvedor e implementação
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,6 +29,6 @@ Verifique se sua biblioteca de Dynamic Tag Management é carregada corretamente 
 
    Se receber essa mensagem de erro, verifique se:
 
-* Você incluiu o código do cabeçalho completo em cada página do site na seção [!DNL HEAD], o mais próximo possível da tag [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]
+* Você incluiu o código do cabeçalho completo em cada página do site na seção [!DNL HEAD], o mais próximo possível da tag [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag o mais possível.
 * Você não previu o surgimento de caracteres no trecho do código, possivelmente em resultado da ação de copiar e colar um documento formatado.
 
