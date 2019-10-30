@@ -5,7 +5,7 @@ seo-title: Publicar no Power BI - Visão geral
 title: Publicar no Power BI - Visão geral
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->Se a pasta de trabalho contiver uma macro, a opção "Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI" será desativada.
+> [!NOTE] Se a pasta de trabalho contiver uma macro, a opção "Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI" será desativada.
 
 Ao invés de importar toda a pasta de trabalho, é possível importar apenas o conteúdo de todas as tabelas formatadas dentro dela.
 
