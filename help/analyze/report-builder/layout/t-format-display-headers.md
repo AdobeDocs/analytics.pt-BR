@@ -5,9 +5,9 @@ seo-title: Formatar cabeçalhos de exibição
 solution: Analytics
 title: Formatar cabeçalhos de exibição
 topic: Construtor de relatórios
-uuid: cd 0 e 167 b -9463-43 fd -87 b 2-724 d 1 c 79 de 68
+uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
 
 1. Crie uma solicitação no [!UICONTROL Assistente de solicitações: etapa 1].
-1. Click **[!UICONTROL Next]**.
+1. Clique em **[!UICONTROL Próximo]**.
 1. No formulário [!UICONTROL Assistente de solicitações: etapa 2], adicione dimensões e métricas à solicitação, conforme desejado.
 1. Click **[!UICONTROL Format Options]**.
 1. Configure as opções de [!UICONTROL Exibição]:
@@ -27,7 +27,7 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
    | Nome do Relatório | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parâmetros de filtros | Exibe os filtros de dimensão, como um filtro de pesquisa. |
    | Segmento | Exibe o parâmetro do segmento. |
-   | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](../../../analyze/report-builder/options.md) for information about current data processing. |
+   | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Idade dos dados: Exibições de página (há 1,5 h), Saídas (há 30 minutos) Consulte [Opções](../../../analyze/report-builder/options.md) para obter informações sobre o processamento de dados atual. |
 
    Quanto à ordem de exibição, se a grade [!UICONTROL Rótulo de linha] (na Etapa 2) contiver um item, ela será exibida primeiro na solicitação. Caso contrário, o sistema usará o primeiro item presente na grade [!UICONTROL Rótulo da coluna]. Se não existir nenhum item de linha ou coluna, o primeiro item na grade [!UICONTROL Métricas] será exibido.
 
