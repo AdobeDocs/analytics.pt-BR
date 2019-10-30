@@ -5,14 +5,14 @@ seo-title: Filtro de dados de relatório
 solution: Analytics
 title: Filtro de dados de relatório
 topic: Reports and Analytics
-uuid: b 6 dcaaf 7-61 f 0-4793-870 d-e 1 d 156575 d 5 a
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filtrar dados de relatório {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Os filtros permitem restringir o relatório para incluir ou excluir itens de linha correspondentes a um filtro.
 
@@ -48,9 +48,7 @@ Os filtros avançados permitem que você controle o escopo da pesquisa com uma c
 
 Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso opera a mesma ação que o filtro simples.
 
->[!NOTE]
->
->Espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
+> [!NOTE] Os espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
 
 **Não contém**
 
@@ -131,11 +129,11 @@ Avançado permite que você execute um curinga e outras pesquisas complexas.
 | Avançado (Caractere especial) | Descrição |
 |--- |--- |
 | `" "` | Corresponder à frase exata. |
-| `*` | Curinga, correspondência voraz. <br>Por exemplo, `r*p` corresponde a "Inscrição de registro". |
+| `*` | Curinga, correspondência voraz. <br>Por exemplo, `r*p` corresponde a "Inscrição de inscrição". |
 | `^` | Começa com. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
 | `$` | Termina com. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
 | `-` | Não. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | <br>OuNota:  você deve incluir um espaço em cada lado do caractere de barra vertical, `" | "`. |
 
 ## Criar filtros específicos de relatório {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -178,4 +176,4 @@ Você pode filtrar os dados mostrados em um relatório de correlação usando qu
 1. Execute um relatório com suporte a correlações. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Em [!UICONTROL Criador da regra do filtro], selecione uma categoria para correlacionar com um item.
-1. Click **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK.]**
