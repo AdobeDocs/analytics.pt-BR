@@ -6,9 +6,9 @@ seo-title: Criar conjuntos de relatórios virtuais
 solution: Analytics
 title: Criar conjuntos de relatórios virtuais
 topic: Reports and Analytics
-uuid: 022 a 6656-808 e -4 c 92-b 7 ec -4 d 2 a 42 e 84 fa 8
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,10 +19,10 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
 
 * Usuários não administradores não podem visualizar o Gerenciador de conjunto de relatórios virtuais.
 * Os conjuntos de relatórios virtuais não podem ser compartilhados. O “Compartilhamento” é efetuado por grupos/permissões.
-* No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em “mostrar tudo” para exibir o restante.
+* No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. Você precisa clicar em "mostrar tudo" para ver o de todos os outros.
 
 1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Click **[!UICONTROL Add +]**.
+1. Clique em **[!UICONTROL Adicionar +]**.
 
    ![](assets/new_vrs.png)
 
