@@ -1,19 +1,19 @@
 ---
 description: As fontes de dados do Adobe Analytics permitem importar manualmente outros dados online e offline para os relatórios.
 seo-description: As fontes de dados do Adobe Analytics permitem importar manualmente outros dados online e offline para os relatórios.
-seo-title: Visão geral das Fontes de Dados
+seo-title: Visão geral das fontes de dados
 solution: Analytics
 subtopic: Fontes de dados
-title: Visão geral das Fontes de Dados
+title: Visão geral das fontes de dados
 topic: Desenvolvedor e implementação
-uuid: 8014 e 97 d -2 f 1 b -4 cc 6-ad 8 f -885 f 85 bec 8 b 8
+uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visão geral das Fontes de Dados
+# Visão geral das fontes de dados
 
 As fontes de dados do Adobe Analytics permitem importar manualmente outros dados online e offline para os relatórios.
 
@@ -31,9 +31,9 @@ A integração de dados o ajuda a entender as transações como um todo. Pense n
 1. Eles chegam ao site, navegam e fazem compras
 1. Alguns visitantes podem devolver o produto por telefone ou na loja
 
-Tanto os dados pré-clique (pesquisas anteriores àquela que o levou até seu site, impressões, custos etc.) como as informações de "pós-venda" (devoluções, dados da central de atendimento) podem ser integrados.
+Os dados pré-clique (pesquisas anteriores à última que levaram ao site, impressões, custo etc.) e as informações "pós-venda" (devoluções, dados da central de atendimento) podem ser integrados.
 
-As Fontes de dados podem ser usadas para ajudá-lo a entender os dados pré-clique, importando dados por meio de mecanismo de pesquisa ou rede de anúncios. Isso possibilita calcular o ROAS (Retorno da despesa de publicidade), trazendo os dados de custo e dividindo a receita pelo custo (Receita/custo). Também é possível utilizá-la para ajudá-lo a entender os dados de "pós-venda", a fim de obter uma imagem mais precisa do ROAS, trazendo informações como Receita de devolução e Unidades de devolução.
+As Fontes de dados podem ser usadas para ajudá-lo a entender os dados pré-clique, importando dados por meio de mecanismo de pesquisa ou rede de anúncios. Isso possibilita calcular o ROAS (Retorno da despesa de publicidade), trazendo os dados de custo e dividindo a receita pelo custo (Receita/custo). Você também pode usá-lo para ajudar a entender os dados "pós-venda" para obter uma imagem mais precisa do ROAS, trazendo informações como Receita de Devolução ou Unidades de Devolução.
 
 >[!IMPORTANT]
 >
