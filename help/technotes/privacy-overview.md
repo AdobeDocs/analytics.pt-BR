@@ -5,9 +5,9 @@ seo-description: Visão geral de quais dados o Adobe Analytics coleta e outras c
 seo-title: Visão geral de privacidade
 solution: Analytics
 title: Visão geral de privacidade
-uuid: f 19 a 8 b 35-3 e 10-47 ae -93 c 1-6 a 9924 b 11313
+uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -74,7 +74,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Análises primárias não se encontram dentro do escopo do Programa auto regulatório para o Anúncio comportamental online ("AdChoices"). </td> 
+   <td colname="col2"> As análises primárias não estão dentro do escopo do Programa de autorregulação para publicidade comportamental online ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -94,15 +94,15 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Um cliente pode definir a variável do tempo de vida do cookie no código de medição para um valor como "nenhum", "sessão" ou outro valor especificado que possa ser medido em segundos. </td> 
+   <td colname="col2"> Um cliente pode definir a variável de tempo de vida do cookie no código de medição JavaScript com um valor de "none", "session" ou outro valor especificado medido em segundos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe desenvolveu uma nova configuração de "privacidade por design", que pode ser ativada pelo Adobe ClientCare para as versões de lançamento 14.9 e 15.4 do Adobe Analytics (conhecido como SiteCatalyst). Quando esta nova configuração for ativada, o último octeto (ou seja, a última porção) do endereço de IP será automaticamente substituída pelo valor 0 após o endereço de IP ter sido coletado pela Adobe. A ação de tornar anônimo é realizada antes de qualquer processamento do endereço de IP, incluindo tanto a pesquisa geográfica opcional como a pesquisa ISP para o endereço de IP. </td> 
+   <td colname="col2"> A Adobe desenvolveu uma nova configuração de "privacidade por design" que agora pode ser ativada pelo Adobe ClientCare para as versões 14.9 e 15.4 do Adobe Analytics (antigo SiteCatalyst). Quando essa nova configuração é ativada, o último octeto (a última parte) do endereço IP é imediatamente substituído pelo valor 0, uma vez que o endereço IP é coletado pela Adobe. A ação de tornar anônimo é realizada antes de qualquer processamento do endereço de IP, incluindo tanto a pesquisa geográfica opcional como a pesquisa ISP para o endereço de IP. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alemanha </td> 
-   <td colname="col2"> <p>Caso os clientes ainda não possuam Contrato de processamento de dados para o Adobe Analytics em ordem com a Adobe, eles devem entrar em contato com o Gerente de Contas da Adobe ou com o Gerente de Sucesso do Cliente, que trabalharão com o Departamento jurídico da Adobe para deixar o Contrato de processamento de dados em ordem. </p> <p>A Adobe preparou um Contrato de processamento de dados (Vertrag fuer Auftragsdatenverarbeitung - ADV) para o Analytics que foi revisto e aprovado pela Autoridade de proteção de dados da Alemanha (Bayerisches Landesamt fuer Datenschutzaufsicht - baylda). O ADV está disponível em alemão e em inglês. </p> </td> 
+   <td colname="col2"> <p>Caso os clientes ainda não possuam Contrato de processamento de dados para o Adobe Analytics em ordem com a Adobe, eles devem entrar em contato com o Gerente de Contas da Adobe ou com o Gerente de Sucesso do Cliente, que trabalharão com o Departamento jurídico da Adobe para deixar o Contrato de processamento de dados em ordem. </p> <p>A Adobe preparou um Contrato de processamento de dados (Vertrag fuer Auftragsdatenverarbeitung - ADV) para o Analytics, que foi revisto e aprovado pela Autoridade de Proteção de Dados da Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). O ADV está disponível em alemão e em inglês. </p> </td> 
   </tr> 
  </tbody> 
 </table>
