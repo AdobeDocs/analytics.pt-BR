@@ -3,12 +3,12 @@ description: Etapas que você pode adotar como preparação para usar as fontes 
 seo-description: Etapas que você pode adotar como preparação para usar as fontes de dados
 seo-title: Preparação para usar as Fontes de dados
 solution: Analytics
-subtopic: Data sources
+subtopic: Fontes de dados
 title: Preparação para usar as Fontes de dados
 topic: Desenvolvedor e implementação
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Depois de determinar os mapeamentos adequados de métrica para eventos para os d
 
 Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) na Ajuda das Ferramentas administrativas.
 
->[!NOTE]
->
->Adobe strongly recommends using new, empty events with Data Sources data, but in rare cases it might make sense to use a pre-existing event.
+> [!NOTE] A Adobe recomenda usar eventos novos e vazios com dados de Fontes de Dados, mas em casos raros pode fazer sentido usar um evento preexistente.
 
 ## Identificação das Dimensões de Dados {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -43,9 +41,7 @@ Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a 
 
 É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados  *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->É possível importar métricas totais que não podem ser analisadas por qualquer dimensão de dados.
+> [!NOTE] É possível importar métricas totais que não podem ser analisadas por qualquer dimensão de dados.
 
 Após definir as dimensões dos dados para usar com uma fonte de dados, integre os dados de dimensões aos relatórios de marketing por mapeá-los na variável. Use os relatórios padrão (por exemplo, Produto, Código de Acompanhamento, Palavra-chave de Pesquisa) ou as variáveis de Tráfego e Conversão (eVars).
 
