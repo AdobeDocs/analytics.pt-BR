@@ -1,21 +1,21 @@
 ---
 description: O relatório de Página de entrada mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante.
 seo-description: O relatório de Página de entrada mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante.
-seo-title: Entradas e saídas
+seo-title: Entradas e Saídas
 solution: Analytics
-title: Entradas e saídas
-topic: 'Relatórios  '
-uuid: 756 de 55 b -136 b -427 b-a 80 c-f 822260131 b 1
+title: Entradas e Saídas
+topic: Relatórios
+uuid: 756de55b-136b-427b-a80c-f82260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Entradas e saídas
+# Entradas e Saídas
 
 >[!NOTE]
->Para ocorrências com vários valores na variável produtos, Entradas e Saídas se aplicam a todos os valores do produto em uma ocorrência em vez de somente a primeira.
+>Para ocorrências com vários valores na variável products, Entradas e Saídas se aplicam a todos os valores de produto em uma ocorrência em vez de somente ao primeiro.
 
 O relatório de Página de entrada mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante.
 
