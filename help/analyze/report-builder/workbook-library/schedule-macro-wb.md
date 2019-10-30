@@ -1,18 +1,18 @@
 ---
 description: O Construtor de relatórios da Adobe suporta o formato .xlsm que permite agendar pastas de trabalho com macros habilitadas.
 seo-description: O Construtor de relatórios da Adobe suporta o formato .xlsm que permite agendar pastas de trabalho com macros habilitadas.
-seo-title: Programar pastas de trabalho com macros habilitadas
+seo-title: Agendar pastas de trabalho com macros habilitados
 solution: Analytics
-title: Programar pastas de trabalho com macros habilitadas
+title: Agendar pastas de trabalho com macros habilitados
 topic: Construtor de relatórios
-uuid: 874 cfac 8-ca 63-4 dec-b 2 aa-a 3 dcd 037 c 5 c 5
+uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Programar pastas de trabalho com macros habilitadas
+# Agendar pastas de trabalho com macros habilitados
 
 O Construtor de relatórios da Adobe suporta o formato .xlsm que permite agendar pastas de trabalho com macros habilitadas.
 
