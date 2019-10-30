@@ -1,21 +1,21 @@
 ---
 description: As fontes de dados fornecem duas outras formas de integrar os eventos que ocorrem offline a seus dados online.
 seo-description: As fontes de dados fornecem duas outras formas de integrar os eventos que ocorrem offline a seus dados online.
-seo-title: Integração de transação e de clientes
+seo-title: Integração de transição e de clientes
 solution: Analytics
 subtopic: Fontes de dados
-title: Integração de transação e de clientes
+title: Integração de transição e de clientes
 topic: Desenvolvedor e implementação
-uuid: 71 f 73 a 47-3436-4314-a 182-36 de 4 bd 935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Integração de transação e de clientes
+# Integração de transição e de clientes
 
-As Fontes de Dados fornecem duas formas adicionais de integrar eventos que ocorrem offline aos dados online.
+As Fontes de dados fornecem duas formas adicionais de integrar eventos que ocorrem offline aos seus dados online.
 
 * [Ativação do registro de IDs de transação](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Integração de transações](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Essas integrações associam dados offline a uma transação online específica 
 
 A ID de transação pode ser habilitada/desabilitada na IU, sem participação do ClientCare:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,7 +49,7 @@ A guia [!UICONTROL Gerenciar] exibe o status da Gravação da ID de transação.
 
 As IDs de cliente são usadas para especificar uma atividade offline do cliente e vinculá-la a uma atividade online. Elas devem ser usadas nas seguintes situações:
 
-* Uma ID de cliente é preenchida na variável *`visitorID`* variável.
+* Uma ID de cliente é preenchida na variável *`visitorID`*. 
 * Não há ponto designado para o momento em que atividade do cliente muda para offline, como uma compra ou envio de formulário de um cliente em potencial.
 
 Para configurar esse tipo de fonte de dados, consulte [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
