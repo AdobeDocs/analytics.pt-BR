@@ -3,9 +3,9 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 seo-description: Para acessar essas funções, selecione Mostrar avançadas na lista suspensa Funções.
 seo-title: Funções avançadas de referência
 title: Funções avançadas de referência
-uuid: 7 d 1071 b 9-1737-4 b 7 c-b 318-87907 dae 5619
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Por outro lado, se você possuir duas métricas de interesse, pode não ser corr
 
 Retorna o valor do seu argumento. Use NÃO para garantir que um valor não seja igual a um determinado valor.
 
->[!NOTE]
->
->0 (zero) significa Falso, e qualquer outro valor é Verdadeiro.
+> [!NOTE] 0 (zero) significa Falso e qualquer outro valor é Verdadeiro.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
-Definição de uma nova métrica calculada “Número aproximado de clientes”:
+Definição de uma nova métrica calculada "Clientes aproximados":
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ Retorna a média das últimas N linhas.
 
 Se N &lt;= 0, usa todas as linhas anteriores. Já que é ordenado pela dimensão, é útil somente em dimensões com ordem natural como datas ou comprimento do caminho.
 
->[!NOTE]
->
->Isso não funciona como esperado com métricas de taxa como receita/visitante: Calcula as taxas em vez de resumir a receita dos últimos N e somar visitantes nos últimos N e depois dividi-los. Em vez disso, use
+> [!NOTE] Isso não funciona como você esperava com métricas de taxa como receita/visitante: calcula a média das taxas em vez de somar a receita ao longo dos últimos N e resumir os visitantes ao longo dos últimos N e dividi-los. Em vez disso, use
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ Retorna todos os itens que não contêm a correspondência exata do valor inseri
 
 Retorna TRUE se qualquer argumento for VERDADEIRO, ou FALSE se todos os argumentos forem FALSOS.
 
->[!NOTE]
->
->0 (zero) significa Falso, e qualquer outro valor é Verdadeiro.
+> [!NOTE] 0 (zero) significa Falso e qualquer outro valor é Verdadeiro.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Alias da pontuação Z; mais especificamente, é o desvio da média dividido pel
 
 Realiza um teste t m-caudal com pontuação T de col e n graus de liberdade.
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+A assinatura é `t_test( x, n, m )`. Por baixo, simplesmente chama `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 Aqui, `m` é o número de caudas, e `n` corresponde aos graus de liberdade. Estes devem ser os números (constantes para todo o relatório, isto é, sem alteração em uma base de linha por linha).
 
@@ -702,9 +696,7 @@ A equação da pontuação Z é:
 
 onde [!DNL x] é a pontuação bruta, [!DNL μ] é a média da população e [!DNL σ] é o desvio padrão da população.
 
->[!NOTE]
->
->[!DNL μ] (mu) e[!DNL σ] (sigma) são automaticamente calculados a partir da métrica.
+> [!NOTE] [!DNL μ] (mu) e (sigma[!DNL σ] ) são automaticamente calculados a partir da métrica.
 
 Pontuação Z (métrica)
 
@@ -729,7 +721,5 @@ Realiza teste z n-caudal com pontuação Z de A.
 
 Retorna a probabilidade de a linha atual ser vista por acaso na coluna.
 
->[!NOTE]
->
->Assume que os valores normalmente são distribuídos.
+> [!NOTE] Pressupõe que os valores sejam distribuídos normalmente.
 
