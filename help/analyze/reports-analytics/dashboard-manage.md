@@ -8,7 +8,7 @@ title: Gerenciador do painel
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Etapas que descrevem como usar as opções de gerenciamento de painel compartilh
 
 Os painéis legados existentes continuarão em execução, e você ainda poderá editar, baixar e agendar os painéis; entretanto, você não poderá mais criar novos painéis legados. É altamente recomendável atualizar os painéis legados existentes para o formato de painel mais recente.
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] Além disso, considere usar projetos [da](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analysis Workspace e sua capacidade de serem baixados e programados.
 
 Ao copiar o painel legado, o sistema abre o painel para edição, onde você pode adicionar conteúdo legado ou novo conteúdo. Ao copiar um painel legado, o original é preservado em uma lista de painéis legados.
 
->[!NOTE]
->
->Adicionar conteúdo legado a um painel cria um painel com base na funcionalidade mais recente do painel. No entanto, o reportlet legado pode conter dados com base na plataforma de dados anterior.
+> [!NOTE] Adicionar conteúdo legado a um painel cria um painel com base na funcionalidade mais recente do painel. No entanto, o reportlet legado pode conter dados com base na plataforma de dados anterior.
 
 **Para migrar de uma versão de painel legado 14.x**
 
@@ -115,9 +111,7 @@ No [!UICONTROL Gerenciador de painéis], você pode verificar se um painel está
 
 ## Arquivar um painel
 
->[!NOTE]
->
->Essa funcionalidade não estará mais disponível em janeiro de 2020.
+> [!NOTE] Essa funcionalidade não estará mais disponível em janeiro de 2020.
 
 Etapas que descrevem como arquivar qualquer painel enviado como um arquivo PDF. O sistema armazena o arquivo armazenado por dois anos, ou até atingir o limite máximo de 4 GB de relatórios arquivados.
 
