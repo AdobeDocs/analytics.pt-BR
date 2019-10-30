@@ -5,9 +5,9 @@ seo-title: Faturamento
 solution: Analytics
 title: Faturamento
 topic: Ferramentas administrativas
-uuid: ad 6 ee 1 c 4-d 317-4320-a 36 e-ee 966 c 8 f 145 e
+uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A página Faturamento permite acessar informações de faturamento, inclusive detalhes de tráfego de cada conjunto de relatórios. Somente um administrador autorizado tem acesso a essa página.
 
->[!NOTE]
->
->Se o acesso à guia de faturamento estiver desativado para sua empresa, entre em contato com seu Gerente de contas.
+> [!NOTE] Se o acesso à guia de cobrança estiver desativado para sua empresa, entre em contato com seu Gerente de conta.
 
 Os dados de visão geral do tráfego da página de faturamento permite correlacionar os dados de exibição da página nos relatórios com chamadas cobráveis do servidor em sua fatura. A página [!UICONTROL Faturamento] permite fazer o seguinte:
 
@@ -42,11 +40,9 @@ O relatório [!UICONTROL Faturamento mensal] resultante inclui as seguintes info
 | Exibições de página | Totais de exibição de página para cada conjunto de relatórios. É possível confirmar os valores de visualização de página em Métricas do site &gt; Visualizações de página. |
 | Downloads | Fazer download dos totais de cada conjunto de relatórios. É possível confirmar os valores de download em Conteúdo do site &gt; Links &gt; Downloads de arquivo. |
 | Links personalizados | Totais de link personalizado para cada conjunto de relatórios. É possível confirmar os valores do link personalizado em Conteúdo do site &gt; Links &gt; Links personalizados. |
-| Links de saída | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site &gt; Links &gt; Links de saída. |
+| Links de saída  | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site &gt; Links &gt; Links de saída. |
 
->[!NOTE]
->
->To obtain a working copy of the [!UICONTROL Monthly Invoice] report, copy it onto your clipboard, then paste it into a spreadsheet program such as Microsoft Excel*.
+> [!NOTE] Para obter uma cópia funcional do relatório de Fatura  mensal, copie-o na área de transferência e cole-o em um programa de planilha como o Microsoft Excel*.
 
 ## Data do relatório x data de processamento {#section_51A48C2F223F4904BE1407C13333C457}
 
