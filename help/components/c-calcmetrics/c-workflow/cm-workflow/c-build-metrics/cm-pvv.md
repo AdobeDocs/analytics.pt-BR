@@ -1,16 +1,16 @@
 ---
 description: Mostra como criar uma métrica simples de "Exibições de página por visita".
 seo-description: Mostra como criar uma métrica simples de "Exibições de página por visita".
-seo-title: Criar uma métrica simples de «Exibições de página por visita»
-title: Criar uma métrica simples de «Exibições de página por visita»
-uuid: 0730 e 51 c -1 f 8 f -473 b -8825-d 72911 f 2944 c
+seo-title: Criar uma métrica simples de "Exibições de página por visita"
+title: Criar uma métrica simples de "Exibições de página por visita"
+uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Criar uma métrica simples de «Exibições de página por visita»
+# Criar uma métrica simples de "Exibições de página por visita"
 
 Mostra como criar uma métrica simples de "Exibições de página por visita".
 
@@ -31,5 +31,5 @@ Veja como criar uma métrica simples de "Exibições de página por visita".
 1. A compatibilidade do produto mostra se a métrica é compatível com os [Dados atuais](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) ou somente com os Dados totalmente processados.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Observe que a fórmula **[!UICONTROL Resumo]é atualizada sempre que você faz uma alteração na definição da métrica.**
-1. You are now automatically taken to the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), which is similar to the Segment Manager. Permite compartilhar, aprovar, adicionar ou remover tags, renomear e excluir métricas.
+1. Agora você é levado automaticamente para o Gerenciador [de métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calculadas, que é semelhante ao Gerenciador de segmentos. Permite compartilhar, aprovar, adicionar ou remover tags, renomear e excluir métricas.
 
