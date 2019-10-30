@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: Conversão
 topic: Desenvolvedor e implementação
-uuid: 5 e 7907 b 1-6 c 9 c -4073-876 b -410 f 3 a 29767 d
+uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,10 +29,10 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Data | Use o seguinte formato de data: MM/DD/AAAA/HH/mm/SS (por exemplo, 01/01/2015/06/00/00) |
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
 | Canal | Nome do canal. |
-| Evarn | Nome do evarn. Valores válidos para n são inteiros entre 1 - 75. |
+| eVarn | Nome do eVarn. Valores válidos para n são inteiros entre 1 - 75. |
 | Produto | Nome do produto. |
 | Estado | Nome do estado. |
-| CEP | Nome do CEP. |
+| Zip | Nome do CEP. |
 
 <p class="head"> <b>Métricas de Conversão</b> </p>
 
@@ -42,11 +42,11 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Adições ao Carrinho | Total de adições ao carrinho. |
 | Aberturas do Carrinho | Total de aberturas do carrinho. |
 | Remoções do Carrinho | Total de remoções do carrinho. |
-| Exibições do Carrinho | Total de exibições do carrinho. |
+| Exibições do carrinho | Total de exibições do carrinho. |
 | Finalizações | Total de finalizações. |
 | Evento n | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 100.  Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
-| Exibições do evarn | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 75. |
+| Exibições do eVarn | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 75. |
 | Preço | Preço do produto. |
-| Ordens | Total de pedidos feitos. |
-| Exibições do Produto | Total de exibições do produto. |
+| Pedidos | Total de pedidos feitos. |
+| Exibições do produto | Total de exibições do produto. |
 | Quantidade | Total de unidades vendidas. |
