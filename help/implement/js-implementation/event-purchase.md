@@ -8,7 +8,7 @@ title: Eventos de compra
 topic: Desenvolvedor e implementação
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
+source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
 
 Para o evento compra, as variáveis do Analytics são usadas para capturar informações específicas de compra. A variável `s.purchaseID` é usada para serializar (cancelar a duplicação) um evento.
 
-Se um evento de compra é chamado sem uma `purchaseID`, uma única destas é gerada automaticamente com base nas variáveis `s.products` e `s.events`. Essa ID de compra gerada automaticamente é armazenada localmente como um valor de cookie no navegador do visitante e não é enviada para a Adobe. Por outro lado, as IDs de compra definidas manualmente são enviadas para a Adobe. As cinco últimas compras feitas por um visitante (com ou sem ID de compra) são armazenadas no cookie local.
+Se uma ocorrência com um evento de compra for transmitida sem uma ID de compra, o Adobe Analytics usará as informações da ocorrência (s.purchase e s.events) para criar uma "ID de compra temporária". Essa ID de compra temporária se aplica somente ao visitante da ocorrência. As 5 IDs de compra temporárias anteriores são armazenadas para cada ID de visitante (por conjunto de relatórios).
 
 As seguintes verificações são feitas quando um visitante realiza uma compra:
 
-* O a ID de compra corresponde a qualquer um dos cinco valores de cookie? Neste caso, a solicitação de imagem é considerada como compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
+* O a ID de compra temporária corresponde a qualquer uma das cinco últimas IDs de compra temporárias armazenadas? Neste caso, a solicitação de imagem é considerada como compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
 * Se `s.purchaseID` estiver definido, ele corresponde a algum valor já coletado no conjunto de relatórios? Neste caso, a solicitação de imagem é considerada como compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
 
 O código específico do lado do servidor pode ser usado para gerar o número exclusivo (valor alfanumérico) incorporado na fonte HTML. Em geral, a ID do pedido ou valor alfanumérico semelhante é usado para essa finalidade. Esse valor não deve ser alterado se o usuário atualizar a página.
