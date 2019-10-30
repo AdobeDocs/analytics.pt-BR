@@ -7,8 +7,8 @@ solution: Analytics
 title: Medição de link padrão em protocolos móveis
 topic: Desenvolvedor e implementação
 uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,4 +38,4 @@ O URL de medição de link personalizado é semelhante ao seguinte:
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Para obter mais informações, consulte o whitepaper [Redirecionamentos do rastreamento de link de saída](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/redirects/).
+Para obter mais informações, consulte o [white paper Redirecionamentos por rastreamento de link de saída](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
