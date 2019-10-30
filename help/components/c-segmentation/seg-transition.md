@@ -8,7 +8,7 @@ title: Perguntas frequentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1ea5219d89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,7 +47,7 @@ Para acessar o Construtor de segmentos, basta:
 
 * Clique em **[!UICONTROL Adicionar mais, na parte superior do Gerenciador de segmentos]**.  ![](assets/add_button.png)
 
-   ou
+   or
 
 * Clique em um título de segmento existente no Gerenciador de segmentos para editar o segmento no Construtor de segmentos.
 
@@ -141,7 +141,7 @@ Os relatórios agendados não são atualizados quando você edita um segmento co
 
 ![](assets/duplicate_seg_names.png)
 
-Você tem um marcador que faz referência ao segmento para o conjunto de relatórios da produção principal. Em seguida, você exclui esse segmento, pois é uma duplicata. O marcador continuará a funcionar, com referência à definição do segmento excluído. Se você alterar a definição de segmento para o segmento de desenvolvimento principal a fim de incluir a Ilha de Catalina e Tijuana no México, o segmento aplicado ao marcador não mudará. Usará a definição antiga. Para corrigir isso, atualize o marcador para fazer referência à nova definição. Se você não tiver certeza se um marcador, painel ou relatório agendado está usando um segmento excluído, é possível alterar o nome do segmento restante para que fique mais clara se o marcador usa o segmento restante.
+Você tem um marcador que faz referência ao segmento para o conjunto de relatórios da produção principal. Em seguida, você exclui esse segmento porque ele é uma duplicata. O marcador continuará a funcionar, com referência à definição do segmento excluído. Se você alterar a definição de segmento para o segmento de desenvolvimento principal a fim de incluir a Ilha de Catalina e Tijuana no México, o segmento aplicado ao marcador não mudará. Usará a definição antiga. Para corrigir isso, atualize o marcador para fazer referência à nova definição. Se você não tiver certeza se um marcador, painel ou relatório programado está usando um segmento excluído, é possível alterar o nome do segmento restante para que fique mais claro se o marcador está usando o segmento restante.
 
 **O que acontece com os segmentos de Data warehouse?**
 
@@ -185,7 +185,7 @@ Os relatórios com esses segmentos aplicados continuarão funcionando da forma c
 
 Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
 
-O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os Administradores podem excluir, editar e compartilhar esses segmentos.
+O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os administradores podem excluir, editar e compartilhar esses segmentos.
 
 A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Os administradores agora devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os grupos ou indivíduos apropriados, ou com todos.
 
@@ -343,7 +343,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | suporte a cookie móvel | decoração de correio móvel | sistema operacional |
 | suporte à imagem remota | serviços de informações remotos | tipo de referenciador |
 | intensidade de cor remota | tipo de dispositivo móvel | mecanismo de pesquisa |
-| suporte a áudio remoto | tipo de navegador | estado |
+| suporte a áudio remoto | tipo de navegador | state |
 | suporte a vídeo remoto | navegador | país geográfico |
 | drm remoto | tipo de conexão | região geográfica |
 | protocolos de rede remota | operadora de celular | cidade geográfica |
