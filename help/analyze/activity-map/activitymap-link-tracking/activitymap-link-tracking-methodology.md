@@ -3,7 +3,7 @@ description: Essa seção destina-se aos Administradores do Adobe Analytics. Tem
 seo-description: Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os novos parâmetros de rastreamento de links e como eles garantem a singularidade do link e a consistência entre navegadores e dispositivos, além de melhorar a manipulação do reposicionamento do link em uma página.
 seo-title: Metodologia de Rastreamento de links
 solution: Analytics
-title: Metodologia de Rastreamento de links
+title: Rastreamento de link metodologia
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
