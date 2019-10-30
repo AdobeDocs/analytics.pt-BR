@@ -3,7 +3,7 @@ description: Definir configurações de comportamento global. Por exemplo, é po
 seo-description: Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
 seo-title: Configurações
 title: Configurações
-uuid: 34444052-479 b -4923-b 379-a 03 ca 614 bf 3 e
+uuid: 3444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
