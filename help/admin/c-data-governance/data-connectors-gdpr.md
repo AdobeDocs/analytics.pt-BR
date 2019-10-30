@@ -5,7 +5,7 @@ seo-title: Privacidade de dados e conectores de dados (Genesis)
 title: Privacidade de dados e conectores de dados (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,11 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 
-Essas informações permitem identificar quaisquer dados diretamente identificáveis ou indiretamente identificáveis importados por nossos conectores, quando eles recebem uma solicitação de Privacidade de dados.
+Essas informações permitem identificar quaisquer dados direta ou indiretamente identificáveis importados por meio de nossos conectores, ao receberem uma solicitação de Privacidade de dados.
 
 Se estiver usando uma integração de qualquer um dos conectores abaixo, você pode simplesmente verificar quais variáveis/classificações de parceiros na integração podem, possivelmente, conter dados direta ou indiretamente identificáveis.
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE] Essas informações são fornecidas para ajudar a identificar as variáveis que devem ser [rotuladas](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mas você, como o controlador de dados, é responsável por aplicar os rótulos apropriados ou executar outras ações para [prontidão da Privacidade de dados](/help/admin/c-data-governance/an-gdpr-overview.md) (atualização das classificações etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
