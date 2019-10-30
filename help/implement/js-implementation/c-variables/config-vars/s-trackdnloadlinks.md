@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,17 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 Defina como 'true' se você deseja rastrear links para arquivos do site que podem ser obtidos por download.
 
-If  is 'true,'  is used to determine which links are downloadable files.*`trackDownloadLinks`**`linkDownloadFileTypes`*
+Se *`trackDownloadLinks`* for 'true' *`linkDownloadFileTypes`* será usado para determinar os links que são arquivos baixáveis.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | Verdadeiro |
 
-The *`trackDownloadLinks`* variable should only be set to 'false' if there are no links to downloadable files on your site, or you don't care to track the number of clicks on downloadable files. If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. Os dados enviados com um link de download incluem a URL de download do link e os dados do mapa de cliques do visitante para esse link. Se *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
+A variável *`trackDownloadLinks`* só deve ser definida como 'false' se não houver links para arquivos baixáveis no site ou se você não fizer questão de rastrear o número de cliques nos arquivos baixáveis. Se *`trackDownloadLinks`* for 'true', quando um link de download de arquivo for clicado, os dados serão enviados para o [!DNL Analytics]. Os dados enviados com um link de download incluem a URL de download do link e os dados do mapa de cliques do visitante para esse link. Se *`trackDownloadLinks`* é 'false', portanto, os dados do mapa de cliques do visitante para os arquivos baixáveis no site provavelmente serão reportados incorretamente.
 
 ## Sintaxe e valores possíveis
 
-A variável *`trackDownloadLinks`pode ser 'true' ou 'false'.*
+A variável *`trackDownloadLinks`* pode ser 'true' ou 'false'.
 
 ## Exemplos
 
@@ -40,10 +40,10 @@ s.trackDownloadLinks=false
 
 ## Configurações
 
-Nenhuma
+Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
-* When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map.
+* Quando *`trackDownloadLinks`* é 'false', os links usados pelas pessoas para baixar arquivos no site provavelmente são reportados incorretamente no mapa de cliques do visitante.
 
-* When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.
+* Quando *`trackDownloadLinks`* é 'true', os dados são enviados sempre que um visitante clicar em um link de download de arquivo.
