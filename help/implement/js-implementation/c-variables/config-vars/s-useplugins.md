@@ -5,18 +5,18 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+Se a função estiver disponível e contiver código útil, [!UICONTROL s_doPlugins] deverá ser definido como 'true'.
 
-When usePlugins is 'true,' the  function is called prior to each image request.*`s_doPlugins`*
+Quando [!UICONTROL usePlugins] for 'true', a função *`s_doPlugins`* será chamada antes de cada solicitação de imagem.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | Verdadeiro |
 
@@ -38,8 +38,8 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-A variável [!UICONTROL usePlugins] só deve ser false (ou não declarada) se *`s_doPlugins`* function is not declared in your JavaScript file.
+A variável [!UICONTROL usePlugins] só deve ser false (ou não declarada) se a função *`s_doPlugins`* não for declarada no arquivo JavaScript.
 
 ## Configurações
 
-Nenhuma
+Nenhum
