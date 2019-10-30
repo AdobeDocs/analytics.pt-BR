@@ -7,7 +7,7 @@ title: Gerenciador do Conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Um conjunto de relatórios define o relatório completo e independente de um sit
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de relatórios]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulte a documentação [do Conjunto de relatórios](/help/components/vrs/vrs-about.md)virtuais.
+> [!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Conjuntos **[!UICONTROL de relatórios]** virtuais. Consulte a documentação [do Conjunto de relatórios](/help/components/vrs/vrs-about.md)virtuais.
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -39,7 +37,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
    <td colname="col2"> <p>O <span class="wintitle">Gerenciador do Conjunto de relatórios</span> destaca o conjunto de relatórios selecionado. Você pode selecionar vários conjuntos de relatórios com <span class="uicontrol">Ctrl+clique</span> ou <span class="uicontrol">Shift+clique</span>. </p> <p>Um conjunto de relatórios selecionado permanece selecionado até que você selecione outro conjunto de relatórios. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Download</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Baixar</span> </td> 
    <td colname="col2"> Gera uma planilha do Excel com todas as configurações dos conjunto de relatórios selecionados atualmente. </td> 
   </tr> 
   <tr> 
