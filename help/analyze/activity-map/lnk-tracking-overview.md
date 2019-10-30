@@ -7,7 +7,7 @@ title: Rastreamento de links avançado
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,17 +23,11 @@ For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activi
 
 ## How [!DNL Activity Map] link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, you may be collecting personally identifiable information (PII) data. Esses dados podem ser usados isoladamente ou com outras informações para identificar, contatar ou localizar uma única pessoa ou para identificar um indivíduo no contexto.
->
->Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
->
->* `Mailto` links. Um link mailto é um tipo de link HTML que ativa o cliente de email padrão no computador para enviar um email.
->* `User ID` links que podem aparecer no cabeçalho/rodapé de um site depois que o usuário fizer logon.
->* Para instituições financeiras, o número da conta pode ser mostrado como um link. Clicar nele coletará o texto do link.
->* Sites de instituições de saúde também podem ter dados de PII mostrados como links. Clicar nesses links coletará o texto do link e, portanto, coletará dados de PII.
->
+> [!CAUTION] Ao ativar o [!DNL Activity Map] rastreamento, você pode coletar dados de informações de identificação pessoal (PII). Esses dados podem ser usados isoladamente ou com outras informações para identificar, contatar ou localizar uma única pessoa ou para identificar um indivíduo no contexto.
 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
-
+* `Mailto` links. Um link mailto é um tipo de link HTML que ativa o cliente de email padrão no computador para enviar um email.
+* `User ID` links que podem aparecer no cabeçalho/rodapé de um site depois que o usuário fizer logon.
+* Para instituições financeiras, o número da conta pode ser mostrado como um link. Clicar nele coletará o texto do link.
+* Sites de instituições de saúde também podem ter dados de PII mostrados como links. Clicar nesses links coletará o texto do link e, portanto, coletará dados de PII.
