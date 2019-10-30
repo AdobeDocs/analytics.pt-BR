@@ -5,9 +5,9 @@ seo-title: Recursos do relatório
 solution: Analytics
 title: Recursos do relatório
 topic: Reports and Analytics
-uuid: 32 f 72961-cb 94-4 e 50-ae 18-03326 e 02 bc 8 b
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,31 +22,31 @@ Este exemplo mostra um [!UICONTROL Relatório de páginas]. As opções de confi
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width = "672 px"}
+![](assets/pages_report.png){width="672px"}
 
 ## Barra de ferramentas de relatório {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Compartilhe os dados do relatório com os tomadores de decisão que podem mudar o seu site ou as estratégias de marketing com base nos dados.
 
-![](assets/toolbar.png){width = "672 px"}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte também [Personalizar um relatório](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Cabeçalho e configurações do relatório {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Exibe as configurações de relatório e permite que você configure o tipo de relatório, selecione métricas e muito mais. As opções disponíveis nesse grupo variam de acordo com o relatório que você está executando. 
 
-![](assets/settings_header.png){width = "672 px"}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+Consulte [Personalizar um relatório](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obter mais informações.
 
 ## Calendário {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Especifique a data clicando no botão de calendário e selecionando um intervalo de datas. Você também pode selecionar dois intervalos de tempo para comparar o desempenho. 
 
-![](assets/calendar_large.png){width = "672 px"}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Consulte [Seleção de um intervalo](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de datas ou de datas e [Comparação de datas](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
 
 ## Tipo de gráfico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
