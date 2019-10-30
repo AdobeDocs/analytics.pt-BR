@@ -1,26 +1,24 @@
 ---
 description: Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
 seo-description: Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
-seo-title: Visão geral dos relatórios em tempo real
+seo-title: Visão geral do relatório em tempo real
 solution: Analytics
-title: Visão geral dos relatórios em tempo real
-topic: 'Relatórios  '
-uuid: ff 832952-c 507-4 c 63-9437-25 d 9 c 44 c 44 d 1
+title: Visão geral do relatório em tempo real
+topic: Relatórios
+uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 5c13b8d8fa2fca85d89d0c22f6142a83a87d9975
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visão geral dos relatórios em tempo real
+# Visão geral do relatório em tempo real
 
-O relatório em tempo real exibe o tráfego da página da Web e classifica as visualizações de página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
+O relatório em tempo real exibe o tráfego da página da Web e classifica as exibições da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
 
->[!NOTE]
->
->O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+> [!NOTE] O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
 
-**[!UICONTROL Métricas do site]** &gt; **[!UICONTROL Tempo real]**
+**[!UICONTROL Métricas]** do site &gt; Tempo **[!UICONTROL real]**
 
 O Tempo real responde as seguintes questões: Quais são os assuntos mais falados do meu site, e por quê? Permite que você, enquanto profissional de marketing, possa responder de maneira rápida e gerenciar ativamente o desempenho de seu conteúdo de marketing e de suas campanhas. Os dados em tempo real relatados possui menos de dois minutos de latência e é atualizado automaticamente em um intervalo de um em um minuto.
 
@@ -44,7 +42,7 @@ Como Administrador, você pode
 
 * Por exemplo, compare os valores da semana anterior aos do último ano (bem como o total do dia).
 
-Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração dos Relatórios em tempo real](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)em tempo real.
 
 A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos "Todos os acessos de relatório" e "Relatórios avançados" . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 
@@ -57,4 +55,4 @@ Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics
 * Para a transmissão ao vivo, relatórios em tempo real, solicitações de API e dados atualizados para as variáveis de tráfego, somente hits com uma ID de dados adicional são atrasadas.
 * Para os dados atuais sobre as métricas de conversão, dados finalizados e feeds de dados, todos os hits são atrasados de 5 a 7 minutos.
 
-Observe que o aumento da latência começa depois de implementar o Serviço de identidade, mesmo que você não tenha implementado essa integração totalmente.
+Esteja ciente de que o aumento de latência começa após a implementação do Serviço de identidade, mesmo que você não tenha implementado essa integração totalmente.
