@@ -1,22 +1,22 @@
 ---
-description: A comparação de datas na Analysis Workspace permite pegar qualquer coluna contendo um intervalo de datas e criar uma comparação de datas comum, como ano sobre ano, trimestres sobre trimestres, mês sobre mês, etc.
-seo-description: A comparação de datas na Analysis Workspace permite pegar qualquer coluna contendo um intervalo de datas e criar uma comparação de datas comum, como ano sobre ano, trimestres sobre trimestres, mês sobre mês, etc.
-seo-title: Comparação de datas
-title: Comparação de datas
-uuid: ef 18 f 9 d 9-b 6 ad -4859-b 7 c 9-9750 ca 0 df 519
+description: A comparação de datas na Analysis Workspace permite que você pegue qualquer coluna que contenha um intervalo de datas e crie uma comparação de datas comum, como ano por ano, trimestre por trimestre, mês por mês etc.
+seo-description: A comparação de datas na Analysis Workspace permite que você pegue qualquer coluna que contenha um intervalo de datas e crie uma comparação de datas comum, como ano por ano, trimestre por trimestre, mês por mês etc.
+seo-title: Comparação de data
+title: Comparação de data
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Comparação de datas
+# Comparação de data
 
 A comparação de datas na Analysis Workspace permite pegar qualquer coluna contendo um intervalo de data e criar uma comparação de data comum, como: ano sobre ano, trimestres sobre trimestres, mês sobre mês, etc.
 
 ## Comparar períodos de tempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta "Estamos melhor ou pior que nesse mesmo período de tempo no ano passado?" é fundamental para entender seus negócios. A comparação de data inclui automaticamente uma coluna "diferença", que mostra a porcentagem de mudança comparada a um período de tempo específico.
+A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta "Estamos melhor ou pior que nesse mesmo período de tempo no ano passado?" é fundamental para entender seus negócios. A Comparação de datas inclui automaticamente uma coluna de "diferença", que mostra a alteração percentual em relação a um período de tempo especificado.
 
 1. Crie uma tabela de forma livre, com qualquer dimensão e métrica que desejar comparar em um período de tempo.
 1. Clique com o botão direito na linha da tabela e selecione **[!UICONTROL Comparar períodos de tempo]**.
@@ -25,7 +25,7 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    >[!IMPORTANT]
    >
-   >Essa opção de clique com o botão direito do mouse é desativada para linhas de métricas, linhas de intervalo de datas e linhas de dimensão de tempo.
+   >Essa opção de clique com o botão direito está desativada para linhas de métricas, linhas de intervalo de datas e linhas de dimensão de tempo.
 
 1. Dependendo de como configurou o intervalo de data da tabela, você tem as opções a seguir para comparação:
 
