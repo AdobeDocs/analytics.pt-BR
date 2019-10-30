@@ -9,7 +9,7 @@ title: Variáveis de página
 topic: Desenvolvedor e implementação
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ A variável exibe a altura da janela do navegador.
 browserheight.xml
 -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -65,11 +63,9 @@ browserwidth.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -107,7 +103,7 @@ campaign.xml
 <table id="table_A35175678B6C4D3D86287199AFBE6803"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -125,13 +121,13 @@ campaign.xml
 
 Todos os elementos de uma campanha de marketing devem ter um código de rastreamento exclusivo. Por exemplo, uma palavra-chave do mecanismo de pesquisa pago pode ter um código de rastreamento 112233. Quando alguém clicar na palavra-chave com código de rastreamento 112233 e for roteado para o site correspondente, a variável *`campaign`* registrará o código de rastreamento.
 
-There are two main ways to populate the *`campaign`* variable:
+Existem duas formas principais de preencher a variável *`campaign`*:
 
 * O plug-in [!UICONTROL getQueryParam], usado no arquivo JavaScript, recupera um parâmetro da string de consulta do URL. Para obter mais informações sobre o plug-in [!UICONTROL getQueryParam], consulte [Plug-ins de implementação](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Atribua um valor à *`campaign`* variável no HTML da página da Web.
+* Atribua um valor à variável *`campaign`* no HTML da página da Web.
 
-Com qualquer método de preenchimento da *`campaign`* variável, o tráfego do botão Voltar pode aumentar o número real de click-throughs de um elemento de campanha.
+Com qualquer método de preenchimento da variável *`campaign`*, o tráfego do botão Voltar pode aumentar o número real de click-throughs de um elemento de campanha.
 
 Por exemplo, um visitante entra em seu site clicando em uma palavra-chave de pesquisa paga. Quando o visitante chega à página inicial, o URL contém um parâmetro da string de consulta identificando o código de rastreamento da palavra-chave. O visitante então clica em um link para outra página, mas imediatamente clica no botão Voltar para retornar à página inicial. Quando o visitante chega à página inicial uma segunda vez, o URL com o parâmetro da string de consulta identifica novamente o código de rastreamento. E um segundo click-through é registrado, aumentando o número de click-throughs de forma falsa.
 
@@ -143,7 +139,7 @@ Para evitar esse aumento de click-throughs, a Adobe recomenda usar o plug-in [!U
 s.campaign="112233"
 ```
 
-The *`campaign`* variable has the same limitations as all other variables.  A Adobe recomenda limitar o valor ao padrão de caracteres ASCII.
+A variável *`campaign`* tem as mesmas limitações que todas as outras variáveis.  A Adobe recomenda limitar o valor ao padrão de caracteres ASCII.
 
 **Uso de maiúsculas e minúsculas** {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
 
@@ -172,7 +168,7 @@ Cada valor campaign permanece ativo para um usuário e recebe crédito pelas ati
 
 ## marketing {#concept_C7770B8C15724A99B10F8F468AF82D0D}
 
-A variável é usada com mais frequência para identificar uma seção do site.
+A variável usada com mais frequência para identificar uma seção do site.
 
 <!-- 
 
@@ -182,13 +178,13 @@ channel.xml
 
 Por exemplo, um vendedor pode ter seções como Eletrônicos, Brinquedos ou Vestuário. Um site de mídia pode ter seções como Notícias, Esportes ou Negócios.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 100 bytes | CH | Conteúdo do site &gt; Seções do site | "" |
 
 A Adobe recomenda preencher a variável de canal em todas as páginas. Você também pode ativar uma correlação entre as variáveis *`channel`* e [!UICONTROL page name].
 
-When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
+Quando as seções têm um ou mais níveis de subseções, é possível exibir essas seções na variável *`channel`* ou usar variáveis separadas para identificar esses níveis.
 
 **Sintaxe e valores possíveis** {#section_ED90592730B64242A737F4090F1DCEE4}
 
@@ -196,7 +192,7 @@ When sections have one or more levels of subsections, you can show those section
 s.channel="value"
 ```
 
-The *`channel`* variable has no extra limitations on its values.
+A variável *`channel`* não tem limitações extras em seus valores.
 
 **Exemplos** {#section_2527B2BB1CFD46CB952178ABF7A9028A}
 
@@ -210,7 +206,7 @@ s.channel="Media"
 
 **Armadilhas, dúvidas e dicas** {#section_61941D5E4E644B59A267A4F44FD5DE8C}
 
-If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value.
+Se o site contiver vários níveis, é possível usar *`hierarchy`* ou outra variável para designar esses níveis. O valor *`channel`* não persiste, mas os eventos bem-sucedidos acionados na mesma página são atribuídos ao valor *`channel`*.
 
 ## colorDepth {#concept_756516E181F449B996DA9CC5A53FFA3D}
 
@@ -222,11 +218,9 @@ colordepth.xml
 
  -->
 
-Por exemplo, 32 representa 32 bits de cor na tela. Esta variável é preenchida depois do código de página e antes de *`doPlugins`* ser executado.
+Por exemplo, 32 representa 32 bits de cor na tela. Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em `props/eVars`, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -236,7 +230,7 @@ Você pode ler esses valores e copiá-los em `props/eVars`, mas nunca deve alter
 
 ## connectionType {#concept_2F98ECB8BB3D490F834F274EFF02860E}
 
-A variável , no Internet Explorer, indica se o navegador está configurado em uma conexão LAN ou moderna. 
+A variável, no Internet Explorer, indica se o navegador está configurado em uma conexão LAN ou moderna.
 
 <!-- 
 
@@ -244,11 +238,9 @@ conntype.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em `props/eVars`, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -266,17 +258,15 @@ cookiesenabled.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em `props/eVars`, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
 | Parâmetro de consulta | Valor | Exemplo |
 |---|---|---|
-| k | Y ou N | Y |
+| k | Y ou N | S |
 
 ## dc {#concept_ECE6C83376704B3C84A920EFDD338A31}
 
@@ -288,11 +278,9 @@ dc.xml
 
  -->
 
->[!NOTE]
->
->A variável dc está obsoleta. Você deve definir *`trackingServer`para todas as implementações com o valor gerado pelo Gerenciador de Códigos no s_code.js.*
+> [!NOTE] A variável dc está obsoleta. Você deve definir *`trackingServer`* para todas as implementações com o valor gerado pelo [!UICONTROL Gerenciador de Códigos] no s_code.js.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | 112 |
 
@@ -310,7 +298,7 @@ eVarN.xml
 
 Quando uma eVar é definida com um valor para um visitante, o valor é lembrado até ser expirado. Todos os eventos bem-sucedidos que um visitante encontra enquanto o valor eVar está ativo são contabilizados para o valor eVar.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 255 Bytes | V1-v75 ( [ou v100 ou v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | Conversão personalizada | "" |
 
@@ -323,23 +311,23 @@ Existem duas formas de determinar a expiração de uma eVar:
 * É possível definir a eVar para expirar depois de um período ou evento especificado.
 * É possível forçar a expiração de uma eVar, o que é útil quando se estabelece um novo objetivo para uma variável.
 
-Se uma eVar for usada em maio para refletir promoções internas e expirar após 21 dias, e em junho for usada para capturar palavras-chave de pesquisa interna, em seguida, em 1º de junho, você deverá forçar a expiração ou redefinir a variável. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
+Se uma eVar for usada em maio para refletir promoções internas e expirar depois de 21 dias, e em junho ela for usada para capturar as palavras-chaves da pesquisa interna, no dia 1º de junho você deverá forçar a expiração da variável ou redefini-la. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
 
 **Uso de maiúsculas e minúsculas** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
 As eVars não fazem distinção de letras maiúsculas e minúsculas, mas são exibidas com essa diferenciação na primeira ocorrência. Por exemplo, se a primeira instância da eVar1 for definida como "Conectado" mas todas as instâncias subsequentes forem transmitidas como "conectado", os relatórios sempre mostrarão "Conectado" como valor da eVar.
 
-**Contadores**{#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**Contadores** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
 
 Embora as eVars sejam usadas com mais frequência para reter valores da string, elas também podem ser configuradas para atuar como contadores. As eVars são úteis como contadores quando você está tentando contar o número de ações adotadas por um usuário antes de um evento. Por exemplo, você pode usar uma eVar para capturar o número de pesquisas internas antes da compra. Sempre que um visitante pesquisar, a eVar deverá conter um valor de "+1". Se um visitante pesquisar quatro vezes antes de uma compra, você verá uma instância para cada contagem total: 1,00, 2,00, 3,00 e 4,00. No entanto, somente a 4,00 receberá crédito pelo evento da compra (Pedidos e métricas de receita).  Somente números positivos são permitidos como valores de um contador eVar.
 
 **Sub-relações** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
 
-Um requisito comum de um relatório [!UICONTROL eVar personalizado ] é a capacidade de desmembrar um relatório [!UICONTROL eVar personalizado ]em outro. Por exemplo, se uma eVar contiver gênero e outra contiver salário, você poderá fazer a seguinte pergunta: entre as visitantes do sexo feminino de meu site, quanta receita foi gerada por mulheres que ganham mais de US$ 50,000 por ano? Todas as eVar que forem totalmente sub-relacionadas permitem esse tipo de desmembramento nos relatórios. Por exemplo, se a eVar gênero tiver sub-relações totais ativadas, todos os outros relatórios eVar personalizados poderão ser desmembrados por gênero e o gênero poderá ser desmembrado por todos os outros. Para ver a relação entre dois relatórios, somente um deles precisa ter as sub-relações totais ativadas. Por padrão, os relatórios [!UICONTROL Campanhas], [!UICONTROL Produtos ]e [!UICONTROL Categoria] são totalmente sub-relacionados (todas as eVar podem ser desmembradas por campanhas ou produtos).
+Um requisito comum de um relatório [!UICONTROL eVar personalizado] é a capacidade de desmembrar um relatório [!UICONTROL eVar personalizado ]em outro. Por exemplo, se uma eVar contiver gênero e outra contiver salário, você poderá fazer a seguinte pergunta: entre as visitantes do sexo feminino de meu site, quanta receita foi gerada por mulheres que ganham mais de US$ 50,000 por ano. Todas as eVar que forem totalmente sub-relacionadas permitem esse tipo de desmembramento nos relatórios. Por exemplo, se a eVar gênero tiver sub-relações totais ativadas, todos os outros relatórios eVar personalizados poderão ser desmembrados por gênero e o gênero poderá ser desmembrado por todos os outros. Para ver a relação entre dois relatórios, somente um deles precisa ter as sub-relações totais ativadas. Por padrão, os relatórios [!UICONTROL Campanhas], [!UICONTROL Produtos ]e [!UICONTROL Categoria] são totalmente sub-relacionados (todas as eVar podem ser desmembradas por campanhas ou produtos).
 
 **Sintaxe e valores possíveis** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
+Embora seja possível renomear a eVars, ela deve ser sempre mencionada no arquivo JavaScript pela eVarX, onde X é um número entre 1 e 75 ([ou 100 ou 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
 
 ```js
 s.eVarX="value"
@@ -359,7 +347,7 @@ s.eVar23="internal spring promo 4"
 
 **Configurações** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-As eVars podem ser configuradas em [!UICONTROL Analytics &gt; Administrador &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Conversão &gt; Variáveis]de conversão. Todas as eVars podem ser configuradas com [!UICONTROL Nome], [!UICONTROL Tipo], [!UICONTROL Alocação],[!UICONTROL  Expirar após] ou [!UICONTROL Redefinir]. Cada configuração é tratada separadamente.
+As eVars podem ser configuradas em [!UICONTROL Analytics &gt; Admin &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Conversão &gt; Variáveis de conversão]. Todas as eVars podem ser configuradas com [!UICONTROL Nome], [!UICONTROL Tipo], [!UICONTROL Alocação],[!UICONTROL  Expirar após] ou [!UICONTROL Redefinir]. Cada configuração é tratada separadamente.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -410,7 +398,7 @@ events.xml
 <table id="table_9EB9D08C80544CD68C4B1A2012440472"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -430,11 +418,11 @@ Um [!UICONTROL evento] deve ser considerado um marco em um site. Eventos bem-suc
 
 Por padrão, os eventos bem-sucedidos são configurados como eventos *contadores*. Eventos contadores contam o número de vezes que um evento bem-sucedido foi definido (x + 1). Os eventos também podem ser configurados como *numéricos*. Os eventos numéricos permitem especificar o número de incremento (como pode ser necessário na contagem de valores dinâmicos ou arbitrários, como o número de resultados retornados por uma pesquisa interna).
 
-Um tipo de evento final, *moeda*, permite definir o valor a ser adicionado (semelhante a eventos numéricos), mas é exibido como moeda em relatórios e está sujeito a conversões de moeda com base no valor s. *`currencyCode`* e na configuração padrão de moeda do seu conjunto de relatórios. For additional information on using numeric and currency events, see [Products](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
+Um tipo de evento final, *moeda*, permite definir o valor a ser adicionado (semelhante a eventos numéricos), mas é exibido como moeda em relatórios e está sujeito a conversões de moeda com base no valor s. *`currencyCode`* e na configuração padrão de moeda do seu conjunto de relatórios. Para obter informações adicionais sobre o uso de eventos numéricos e de moedas, consulte [Produtos](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
 
 **Configuração da variável** {#section_9195286C34C54B02B2598E2B856492C3}
 
-A variável [!UICONTROL s.events] é ativada por padrão para todas as implementações. Os sete eventos de conversão pré-configurados são ativados automaticamente para todos os novos conjuntos de relatórios. New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the Admin Console.
+A variável [!UICONTROL s.events] é ativada por padrão para todas as implementações. Os sete eventos de conversão pré-configurados são ativados automaticamente para todos os novos conjuntos de relatórios. Qualquer usuário com nível administrativo pode ativar novos eventos personalizados (event1- [event100 ou event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) usando o Admin Console.
 
 **Valores possíveis** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -518,7 +506,7 @@ hierN.xml
 
 Essa variável é útil para sites com mais de três níveis na estrutura do site. Por exemplo, um site jornalístico pode ter quatro níveis na seção de Esporte: Esportes, Esportes locais, Beisebol e Red Sox. Se alguém visitar a página Beisebol, as páginas Esportes, Esportes locais e Beisebol refletirão essa visita.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 255 Bytes | H1-H5 | Hierarquia | "" |
 
@@ -561,9 +549,7 @@ Nenhum
 * O delimitador não pode ser alterado depois que a hierarquia é configurada. Se for necessário alterar o delimitador da sua hierarquia, entre em contato com o Atendimento ao cliente da Adobe.
 * Não é possível alterar o número de níveis depois que a hierarquia é configurada.
 
->[!NOTE]
->
->Alterações nas hierarquias podem resultar em uma taxa de serviço.
+> [!NOTE] As alterações nas hierarquias pode resultar em encargos de serviço.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -575,17 +561,15 @@ homepage.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
 | Parâmetro de consulta | Valor | Exemplo | Relatórios afetados |
 |---|---|---|---|
-| hp | Y ou N | Y | Tráfego &gt; Tecnologia &gt; Página inicial |
+| hp | Y ou N | S | Tráfego &gt; Tecnologia &gt; Página inicial |
 
 ## javaEnabled {#concept_F24A3536F1F0453DA214B16BAA5A6F67}
 
@@ -599,15 +583,13 @@ javaEnabled.xml
 
 Esta variável é preenchida depois do código de página e antes da execução de doPlugins.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
 | Parâmetro de consulta | Valor | Exemplo | Relatórios afetados |
 |---|---|---|---|
-| v | Y ou N | Y | Tráfego &gt; Tecnologia &gt; Java |
+| v | Y ou N | S | Tráfego &gt; Tecnologia &gt; Java |
 
 ## javascriptVersion {#concept_19E2C9F87BB24E69B911C0F5873CAA90}
 
@@ -619,11 +601,9 @@ javascriptVersion.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -635,7 +615,7 @@ A Versão H.10 e superior do arquivo JavaScript detecta precisamente o arquivo a
 
 ## linkName {#concept_1B2A3F56C9AD4C23A8A4331730EC2B8F}
 
-The  variable is an optional variable used in [!UICONTROL Link Tracking] that determines the name of a custom, download, or exit link.
+A variável é uma variável opcional usada no [!UICONTROL Rastreamento de link] que determina o nome de um link personalizado, de download ou de saída.
 
 <!-- 
 
@@ -643,12 +623,12 @@ linkName.xml
 
  -->
 
-The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
+A variável *`linkName`* normalmente não é necessária porque o terceiro parâmetro na função *`tl()`* a substitui.
 
 <table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -664,7 +644,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
  </tbody> 
 </table>
 
-[!UICONTROL Os links personalizados ] se referem a links que enviam dados de rastreamento. A variável *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
+[!UICONTROL Os links personalizados] se referem a links que enviam dados de rastreamento. The *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. Se *`linkName`* não estiver preenchida, o URL do link aparecerá no relatório.
 
 **Sintaxe e valores possíveis** {#section_C8D89834C98B4C7A858C947293C4148E}
 
@@ -672,7 +652,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
 s.linkName="Link Name"
 ```
 
-There are no limitations on *`linkName`* outside of the standard variable limitations.
+Não há limitações nas variáveis *`linkName`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_5F68766210184E82A23D2A6ECD80BA0B}
 
@@ -690,9 +670,9 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_170A78452A7340B5B229713AC1FB71FA}
 
-* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function.
+* A variável *`linkName`* é substituída pelo terceiro parâmetro na função *`tl()`*.
 
-* If the *`linkName`* variable and the third parameter in the *`tl()`* function are blank, the full URL of the link (with the exception of the query string) appears in the report (even if the link is relative).
+* Se a variável *`linkName`* e o terceiro parâmetro na função *`tl()`* estiverem em branco, o URL completo do link (com exceção da sequência de consulta) aparecerá no relatório (mesmo se o link for relativo).
 
 ## linkType {#concept_7695692AF5D843E3B370F6D345E32964}
 
@@ -704,12 +684,12 @@ linkType.xml
 
  -->
 
-The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it.
+A variável *`linkType`* normalmente não é necessária porque o segundo parâmetro na função *`tl()`* a substitui.
 
 <table id="table_3D1A2FC1CECD4709BE2F9E32AC2DC730"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -725,21 +705,21 @@ The *`linkType`* variable is not normally needed because the second parameter in
  </tbody> 
 </table>
 
-Os links personalizados enviam dados ao Analytics. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
+Os links personalizados enviam dados ao Analytics. A variável *`linkType`* (ou o segundo parâmetro na função *`tl()`*) é usada para identificar o relatório em que o nome do link ou o URL aparece (relatório de Link [!UICONTROL Personalizado], de [!UICONTROL Download] ou [!UICONTROL Saída]).
 
-Para links de saída e download, a *`linkType`* variável é preenchida automaticamente dependendo se o link clicado é um link de saída ou download. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. Ao configurar *`linkType`* para 'o', 'e' ou 'd', o URL *`linkName`* ou link é enviado para o relatório Links personalizados, Links [!UICONTROL de]saída ou Downloads [!UICONTROL de] arquivo, respectivamente.
+Para links de saída e de download, a variável *`linkType`* é preenchida automaticamente, dependendo se o link clicado é um link de saída ou de download. É possível configurar um link personalizado para enviar dados a qualquer um dos três relatórios com essa variável ou com o segundo parâmetro na função *`tl()`*. Ao configurar *`linkType`* para 'o', 'e' ou 'd', o URL *`linkName`* ou link é enviado para o relatório [!UICONTROL Links personalizados], [!UICONTROL Links de saída] ou [!UICONTROL Downloads de arquivo], respectivamente.
 
 **Sintaxe e valores possíveis** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
-The *`linkType`* variable syntax depends on whether you use XML or a query string.
+A sintaxe da variável *`linkType`* depende se você usa XML ou uma sequência de consulta.
 
 Se estiver usando XML, a variável somente poderá conter um único caractere, ou seja, “o”, “e” ou “d”.
 
 ```js
-s.tl(this,’o’,’Link Name’);
+s.tl(this,'o','Link Name');
 ```
 
-If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
+Se estiver usando a sequência de consulta `pe`, será necessário usar `lnk_d`, `lnk_e` ou `lnk_o`.
 
 **Exemplos** {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
 
@@ -756,7 +736,7 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
-* Se não *`linkType`* for especificado, serão assumidos os links personalizados ('o').
+* Se *`linkType`* não for especificado, serão assumidos os links personalizados ('o').
 
 ## Propriedades de lista {#concept_83ED74232225431F83A796E22FFC75B4}
 
@@ -774,7 +754,7 @@ list_props.xml
 * Não é possível ativar definição de caminho e correlações para as props de lista.
 * O Analytics oferece visitas e visitantes exclusivos em quase todos os relatórios, incluindo todos os relatórios de prop de lista.
 * Classificações são suportadas para propriedades de lista.
-* Qualquer variável de tráfego personalizado pode se tornar um pro de lista. (Exceções: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)e [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2).)
+* Qualquer variável de tráfego personalizado pode se tornar um pro de lista. (Exceções: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [canal](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) e [servidor](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2).)
 
 * Na definição de valores duplicados na mesma solicitação de imagem, não ocorre cancelamento de duplicatas nas instâncias.
 
@@ -832,16 +812,16 @@ listN.xml
 
 É possível acessar a configuração no Admin Console e atualizá-la sem precisar envolver o Atendimento ao cliente da Adobe:
 
-1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+1. Vá para **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]**
 1. Selecione o conjunto de relatórios.
-1. Click  **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Listar variáveis]**.
 
 * **Nome**: cada valor delimitado pode conter um máximo de 255 caracteres (ou menos se estiver usando caracteres multibyte). Esse é o comprimento máximo para cada elemento.
 * **Delimitador de valor**: O caractere usado para separar valores na List Var. Com maior frequência, são caracteres como vírgulas, dois pontos, barras verticais, ou algo parecido.
 
    >[!NOTE]
    >
-   >Caracteres multibyte não são suportados como delimitadores nas List Vars. O delimitador deve ser de byte único.
+   >Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
 
 * **Expiração**: Parecida com a expiração de eVar, determina a quantidade de tempo que pode ocorrer entre a List Var e o evento de conversão para que sejam relacionados.
 
@@ -853,7 +833,7 @@ listN.xml
 * **Alocação**: Essa configuração determina como os eventos de sucesso dividem crédito entre os valores:
 
    * **Total**: todos os valores de variável anteriores à expiração da variável obtêm crédito total por eventos bem-sucedidos.
-   * **Linear**: todos os valores de variável anteriores à expiração da variável obtêm crédito dividido para eventos bem-sucedidos
+   * **Linear**: todos os valores de variável anteriores à expiração da variável obtêm crédito dividido para eventos bem-sucedidos.
    * Os valores da variável nunca são sobrescritos, mas sim adicionados aos valores que obtêm crédito para eventos bem-sucedidos.
 
 * **Valores máx.**: designa o número de valores ativos permitidos para essa variável de lista. Por exemplo, se for definido como 3, somente os últimos 3 valores capturados são salvos e qualquer valor anterior capturado é descartado. Observe que se diversos valores da mesma var de lista são enviados na mesma ocorrência que você restringiu o uso de valores de máximo, cada valor terá o mesmo carimbo de data e hora e não há garantia de qual valor é salvo.
@@ -862,7 +842,7 @@ listN.xml
 
    A configuração Valores máx. é útil para limitar a atribuição para um número específico de valores. Por exemplo, se uma var de lista está definida como "A,B,C" na primeira página de uma visita, em seguida, definida como "X,Y,Z" na próxima página, a atribuição é distribuída para esses seis valores com base na alocação. Se você deseja limitar a atribuição somente a "X,Y,Z", você pode definir os valores máximos como três.
 
-To set up or edit List Vars, go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+Para configurar ou editar Vars de lista, acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Variáveis de lista]**.
 
 **Exemplos de implementação** {#section_564AFE6A2F524BFEB372EC0F7FEBA656}
 
@@ -911,13 +891,13 @@ Este resultado mostraria três itens de linha com R$ 50 de receita em cada. (Ban
  <tbody> 
   <tr> 
    <td colname="col1"> Página 1 </td> 
-   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
+   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
    <td colname="col3"> (não definido) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Página 2 </td> 
-   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
-   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
+   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
+   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -926,7 +906,7 @@ Este resultado mostraria três itens de linha com R$ 50 de receita em cada. (Ban
 
 ## maxDelay {#concept_B355038C3B094BB68C0DC6C80F9FE5B0}
 
-A variável s.maxDelay é usada principalmente nas integrações do Genesis DFA para determinar o período de tempo limite no contato com o host de DFA. Se a Adobe não receber uma resposta dos servidores DFA dentro do período especificado definido na variável , a conexão será interrompida e os dados serão processados normalmente. Implemente esta variável se você estiver preocupado com o tempo de resposta de DFA em cada página. É recomendável experimentar este valor para determinar o período ideal do tempo limite.
+A variável s.maxDelay é usada principalmente nas integrações do Genesis DFA para determinar o período de tempo limite no contato com o host de DFA. Se a Adobe não receber uma resposta dos servidores DFA dentro do período especificado definido na variável, a conexão será interrompida e os dados serão processados normalmente. Implemente esta variável se você estiver preocupado com o tempo de resposta de DFA em cada página. É recomendável experimentar este valor para determinar o período ideal do tempo limite.
 
 <!-- 
 
@@ -948,19 +928,17 @@ s.maxDelay="750";
 * O tempo especificado é medido em milissegundos.
 * O aumento do tempo de espera coleta mais dados de DFA, mas também aumenta o risco de perder dados de ocorrência do Analytics.
 
-   Losing Analytics hit data would occur when the user navigates away from the page during the *`s.maxDelay`* period.
+   A perda dos dados de hit do Analytics acontece quando o usuário sai da página durante o período de *`s.maxDelay`*.
 
 * A redução do tempo de espera reduzirá o risco de perda de dados de ocorrência do Analytics, mas pode reduzir a quantidade de dados de DFA enviados com os dados de ocorrência.
 
-   A perda de dados de integração do DFA ocorreria quando o *`s.maxDelay`* período não acomodasse tempo suficiente para o host do DFA responder.
+   A perda de dados de integração do DFA ocorreria quando o período *`s.maxDelay`* não acomodasse tempo suficiente para o host do DFA responder.
 
->[!NOTE]
->
->A Adobe não tem controle sobre o tempo de resposta do DFA. Se você estiver observando problemas consistentes depois de elevar o período máximo de atraso a um prazo razoável, consulte o administrador da conta do DFA de sua organização.
+> [!NOTE] A Adobe não tem controle sobre o tempo de resposta do DFA. Se você estiver observando problemas consistentes depois de elevar o período máximo de atraso a um prazo razoável, consulte o administrador da conta do DFA de sua organização.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
-A variável especifica a duração total da mídia que está sendo reproduzida.
+A variável especifica o tamanho total da mídia reproduzida.
 
 <!-- 
 
@@ -971,7 +949,7 @@ mediaLength.xml
 <table id="table_B1AE8A9DF9D545C2965CDB2DB6C2969B"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -982,7 +960,7 @@ mediaLength.xml
    <td> Não existe tamanho máximo para a solicitação de pev3 inteira. O tamanho é limitado ao limite de comprimento do URL do navegador. </td> 
    <td> pev3 </td> 
    <td> Tempo gasto com o vídeo; <p>Segmentos de vídeo visualizados </p> </td> 
-   <td> Nenhuma </td> 
+   <td> Nenhum </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1039,15 +1017,15 @@ mediaName.xml
 
 Ela só está disponível pela [!UICONTROL API de inserção de dados] e [!UICONTROL fonte de dados de processamento completo].
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| 64 KB | pev3 | Vídeos; Próximo fluxo de vídeo; Fluxo de vídeo anterior, Segmentos de vídeo exibidos, Tempo usado no vídeo | Nenhuma |
+| 64 KB | pev3 | Vídeos; Próximo fluxo de vídeo; Fluxo de vídeo anterior, Segmentos de vídeo exibidos, Tempo usado no vídeo | Nenhum |
 
 **Sintaxe e valores possíveis** {#section_F97A2253BBD24FEBBC225F233A319F5D}
 
 **Método autoTrack:**
 
-Se você estiver usando o [!UICONTROL s.Media.autoTrack], a variável *`mediaName`* não precisará ser implementada explicitamente. Ela é determinada automaticamente pelo código do AppMeasurement para JavaScript.
+Se você estiver usando o [!UICONTROL s.Media.autoTrack], a variável *`mediaName`não precisará ser implementada explicitamente.* Ela é determinada automaticamente pelo código do AppMeasurement para JavaScript.
 
 **Método de rastreamento manual**
 
@@ -1132,9 +1110,9 @@ mediaPlayer.xml
 
  -->
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| 100 bytes | pev3 | Reprodutores de vídeo | Nenhuma |
+| 100 bytes | pev3 | Reprodutores de vídeo | Nenhum |
 
 **Sintaxe e valores possíveis** {#section_EAA55A3A45B5405F903E3BE6ACAB143F}
 
@@ -1187,7 +1165,7 @@ mediaSession.xml
 <table id="table_8681473270FE44DFBBCCC0FBA6737104"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -1198,7 +1176,7 @@ mediaSession.xml
    <td> 255 Bytes </td> 
    <td> pev3 </td> 
    <td> Tempo gasto com o vídeo <p>Segmentos de vídeo visualizados </p> </td> 
-   <td> Nenhuma </td> 
+   <td> Nenhum </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1207,7 +1185,7 @@ mediaSession.xml
 
 **Método autoTrack:**
 
-Se você estiver usando o [!UICONTROL s.Media.autoTrack], a variável *`mediaName`* não precisará ser implementada explicitamente. Ela será determinada automaticamente pelo código do AppMeasurement para JavaScript.
+If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* does not need to be implemented explicitly. Ela será determinada automaticamente pelo código do AppMeasurement para JavaScript.
 
 **Método de rastreamento manual**
 
@@ -1277,7 +1255,7 @@ media_trackEvents.xml
 
 Ela só é aplicável com JavaScript e [!UICONTROL ActionSource].
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | s.Media.trackEvents="None" |
 
@@ -1288,7 +1266,7 @@ Nomes de eventos como event1 ou purchase.
 **Exemplos** {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
-s.Media.trackEvents=”event1,purchase”
+s.Media.trackEvents="event1,purchase"
 ```
 
 **Armadilhas, dúvidas e dicas** {#section_030B11C64EE84D46A85CA550DB732D28}
@@ -1307,7 +1285,7 @@ media_trackVars.xml
 
 Ela só é aplicável com JavaScript e [!UICONTROL ActionSource].
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | s.Media.trackVars="None" |
 
@@ -1318,14 +1296,14 @@ Nomes de variáveis, como [!UICONTROL propN], *`eVarN`*, *`events`*, *`channel`*
 **Exemplos** {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
-s.Media.trackVars=”prop2,events,eVar3”
+s.Media.trackVars="prop2,events,eVar3"
 ```
 
 **Armadilhas, dúvidas e dicas** {#section_615AE1B696124B00B78F651B03813EAB}
 
 * Mesmo se eVar3 for especificada no [!UICONTROL trackVars], ela será enviada com a ocorrência de mídia.
 
-## mobile {#concept_0CEE045F57B444138C0EAA015FC7EA70}
+## dispositivo móvel {#concept_0CEE045F57B444138C0EAA015FC7EA70}
 
 A variável controla a ordem em que os cookies e as IDs do assinante são usados para identificar visitantes.
 
@@ -1335,11 +1313,11 @@ mobile.xml
 
  -->
 
-See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
+Consulte [Protocolos de rede móvel](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | /5/ ou /1/ no caminho do url da imagem | N/A | Nenhuma |
+| N/A | /5/ ou /1/ no caminho do url da imagem | N/A | Nenhum |
 
 **Sintaxe e valores possíveis** {#section_7F1C58090C454882BA9D3D66C9263A76}
 
@@ -1350,7 +1328,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 **Armadilhas, dúvidas e dicas** {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
-Use a identificação entre visitantes para atenuar possíveis picos no tráfego do visitante ao usar a *`s.mobile`* variável com a implementação do cookie JavaScript.
+Use a identificação entre visitantes para atenuar possíveis picos no tráfego de visitantes, ao usar a variável *`s.mobile`* com a implementação do cookie JavaScript.
 
 ## pageName {#concept_5827B499DAC34B5D8445F9D9140CC328}
 
@@ -1365,7 +1343,7 @@ pageName.xml
 <table id="table_0D09BAEC2FFD43F7905ED3649B3F8E05"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -1381,21 +1359,21 @@ pageName.xml
  </tbody> 
 </table>
 
-A variável *`pageName`* deve ser preenchida com um valor que os usuários da empresa reconheçam. Na maioria dos casos, o *`pageName`* valor não é o URL ou o caminho para o arquivo. Common *`pageName`* values include names such as "Home Page," "Checkout," "Purchase Thank you," or "Registration."
+A variável *`pageName`* deve ser preenchida com um valor que os usuários da empresa reconheçam. Na maioria dos casos, o valor *`pageName`* não é o URL ou o caminho para o arquivo. Os valores comuns *`pageName`* incluem nomes como "Página inicial", "Check-out", "Compra Obrigado" ou "Registro".
 
 Tenha cuidado para não permitir que caracteres de nova linha, travessões com -em ou -en ou qualquer caractere HTML sejam exibidos no nome da página e outras variáveis. Alguns navegadores enviam caracteres de linha nova, outros não, o que faz com que os dados no Analytics sejam divididos entre dois nomes de página aparentemente idênticos. Muitos processadores de texto e clientes de email convertem automaticamente um hífen em um travessão -en ou -em durante a digitação. Como os travessões -en e -em são caracteres inválidos nas variáveis do Analytics (caracteres ASCII com códigos acima de 127), o Analytics não registrará o nome de página contendo o caractere inválido e mostrará a URL em vez disso.
 
-If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page `www.mysite.com` and `mysite.com` are the same page with different URLs).
+Se *`pageName`* for deixado em branco, o URL será usado para representar o nome da página. Deixar *`pageName`* em branco geralmente é problemático porque o URL nem sempre pode ser o mesmo para uma página `www.mysite.com` e `mysite.com` são a mesma página com URLs diferentes).
 
 **Sintaxe e valores possíveis** {#section_7A61EE70F1A84D26B414404998C84BA8}
 
-The *`pageName`* variable should contain a useful identifier for business users of Analytics.
+A variável *`pageName`* deve conter um identificador útil para os usuários corporativos do Analytics.
 
 ```js
 s.pageName="page_name"
 ```
 
-There are no limitations on *`pageName`* outside of the standard variable limitations.
+Não há limitações nas variáveis *`pageName`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_8BB4F86F84E246A08B72DEC47FFC0765}
 
@@ -1413,7 +1391,7 @@ Os administradores têm a capacidade de alterar o nome de página visível no An
 
 **Armadilhas, dúvidas e dicas** {#section_BB41DC9682C34385B9CAA80D5257C113}
 
-Certifique-se de que *`pageName`* não contenha caracteres ilegais.
+O *`pageName`* não deve conter caracteres ilegais.
 
 ## pageType {#concept_F67870238EF74491B5D3909A33CDB985}
 
@@ -1428,7 +1406,7 @@ pageType.xml
 <table id="table_0492B136E9D14070A6CA49ED534BCA4C"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -1444,7 +1422,7 @@ pageType.xml
  </tbody> 
 </table>
 
-A variável *`pageType`* captura a URL incorreta quando uma página de Erro 404 é exibida, o que permite localizar rapidamente os links e caminhos corrompidos que não são mais válidos no site personalizado. Configure a variável na página de erro exatamente como mostrado abaixo. *`pageType`*
+The *`pageType`* variable captures the errant URL when a 404 Error page is displayed, which allows you to quickly find broken links and paths that are no longer valid on the custom site. Configure a variável *`pageType`* na página de erro exatamente como mostrado abaixo.
 
 Não use a variável de nome de página em páginas de erro 404. A variável *`pageType`* é usada apenas para a de erro 404.
 
@@ -1470,11 +1448,11 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. Seguindo esta orientação, você poderá usar os relatórios de [!UICONTROL Definição de caminho] para ver quais caminhos fizeram com que usuários gerassem os erros 500. A prop explica qual mensagem de erro é fornecida pelo servidor.
+Para capturar outros erros do lado do servidor (como erros 500), use uma prop para obter a mensagem de erro e insira "`500 Error: <URL>`", onde `<URL>` é o o URL solicitado na variável *`pageName`*. Seguindo esta orientação, você poderá usar os relatórios de [!UICONTROL Definição de caminho] para ver quais caminhos fizeram com que usuários gerassem os erros 500. A prop explica qual mensagem de erro é fornecida pelo servidor.
 
 ## pageURL {#concept_A15F710CD0174297A2286BF3E7452113}
 
-A variável substitui a URL real da página
+A variável substitui a URL real da página.
 
 <!-- 
 
@@ -1487,7 +1465,7 @@ Em casos raros, a URL da página não é a URL que você deseja reportar no Anal
 <table id="table_D4DC6B476FFD4BEEB36A5C6B2D026255"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -1503,13 +1481,11 @@ Em casos raros, a URL da página não é a URL que você deseja reportar no Anal
  </tbody> 
 </table>
 
->[!NOTE]
->
->Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
+> [!NOTE]Embora a Adobe permita valores *`pageURL`* de até 64k, alguns navegadores impõem um limite de tamanho no URL das solicitações de imagem. Para impedir o truncamento de outros dados, os URLs de página com mais de 255 bytes são divididos. Os primeiros 255 bytes aparecem no parâmetro `g=` e os bytes restantes aparecem posteriormente em uma sequência de consulta no parâmetro de consulta `-g=`.
 
 **Sintaxe e valores possíveis** {#section_22AF3BF7C2F743549967B0C760A095C0}
 
-The *`pageURL`* variable must be a valid URL, with a valid protocol. O domínio é forçado a ser exibido em letras minúsculas antes de ser preenchido em relatórios, e a string de consulta pode ser eliminada, dependendo das configurações do Analytics.
+A variável *`pageURL`* deve ser um URL válido, com um protocolo válido. O domínio é forçado a ser exibido em letras minúsculas antes de ser preenchido em relatórios, e a string de consulta pode ser eliminada, dependendo das configurações do Analytics.
 
 ```js
 s.pageURL="proto://domain/path?query_string"
@@ -1517,9 +1493,7 @@ s.pageURL="proto://domain/path?query_string"
 
 São permitidos somente caracteres compatíveis com URL como a URL da página.
 
->[!NOTE]
->
->É altamente recomendável entrar em contato com seu consultor da Adobe ou com o Atendimento ao cliente antes de usar a *`pageURL`* variável para fins personalizados.
+> [!NOTE] É extremamente recomendável entrar em contato com o consultor da Adobe ou o Atendimento ao cliente, antes de usar a variável *`pageURL`* para fins personalizados.
 
 **Exemplos** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1545,11 +1519,9 @@ plugins.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -1559,7 +1531,7 @@ Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá
 
 ## products {#concept_A4007F6307E4419DAA65E1668A8FEBA2}
 
-A variável é usada para rastrear produtos e categorias de produto, assim como quantidade e preço da compra. Ela geralmente é definida em conjunto com um evento de carrinho ou um evento 
+A variável é usada para rastrear produtos e categorias de produto, assim como quantidade e preço da compra. Ela geralmente é definida em conjunto com um evento de carrinho ou um evento.
 
 <!-- 
 
@@ -1569,24 +1541,24 @@ products.xml
 
 >[!IMPORTANT]
 >
->In January of 2016, we updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. Esta atualização pode causar um aumento nos eventos no *`prodView`.* *`prodViews`* só aumentarão quando:
+>Em janeiro de 2016, atualizamos a lógica que define o evento *`prodView`* automaticamente, o que acontece quando há *`product`*, mas não há *`event`*. Esta atualização pode causar um aumento nos eventos no *`prodView`*. *`prodViews`* só aumentarão quando:
 >
->1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events.
+>1. A variável de eventos não contém nada além de um evento não reconhecido, como *`shoppingCart`* ou *`cart`*, que não são eventos válidos.
    >
    >
-1. A variável *`products`não está vazia.*
+1. A variável *`products`* não está vazia.
 >
 >
-A possible side effect is that merchandising eVars triggered by *`prodView`* events could be associated with an empty *`product`*, but only if the *`product list`* contains only an invalid product (such as a semicolon with no product listed).
+Um possível efeito colateral é que eVars de merchandising acionadas por eventos *`prodView`* podem ser associadas a um *`product`* vazio, mas somente se *`product list`* contiver apenas um produto inválido (como um ponto e vírgula sem produto listado).
 
-The *`products`* variable tracks how users interact with products on your site. Por exemplo, a variável products pode rastrear quantas vezes um produto é exibido, adicionado ao carrinho, passado pelo checkout e adquirido. Ela também pode rastrear a eficácia relativa de categorias de comercialização de seu site. Os cenários abaixo são comuns para uso da variável products.
+A variável *`products`* rastreia a forma como os usuários interagem com os produtos do site. Por exemplo, a variável products pode rastrear quantas vezes um produto é exibido, adicionado ao carrinho, passado pelo checkout e adquirido. Ela também pode rastrear a eficácia relativa de categorias de comercialização de seu site. Os cenários abaixo são comuns para uso da variável products.
 
 A variável *`products`* deve ser sempre definida juntamente com um evento bem-sucedido. 
 
 <table id="table_D5A11AFDDD364D0993D387906343DDF3"> 
  <thead> 
   <tr> 
-   <th class="entry"> Tamanho máx. </th> 
+   <th class="entry"> Tamanho máximo </th> 
    <th class="entry"> Parâmetro de depuração </th> 
    <th class="entry"> Relatórios preenchidos </th> 
    <th class="entry"> Valor padrão </th> 
@@ -1621,15 +1593,15 @@ As valores inclusos na *`products`* variável são baseados no tipo de evento qu
 
 **Configuração de products com eventos que não são de compra** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
-The *`products`* variable must be set in conjunction with a success event.
+A variável *`products`* deve ser definida juntamente com um evento bem-sucedido.
 
 **Configuração de products com um evento de compra** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
 
-The *`purchase`* event should be set on the final confirmation ("Thank You!") página do processo do pedido. O nome do produto, a categoria, quantidade e o preço são capturados na variável *`products`* variable. Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
+O evento *`purchase`* deve ser definido na confirmação final ("Obrigado.") página do processo do pedido. O nome do produto, a categoria, quantidade e o preço são capturados na variável *`products`*. Embora a variável *`purchaseID`* não seja obrigatória, ela é extremamente recomendável para evitar pedidos duplicados.
 
 **Evento de moeda do produto em questão** {#section_F814DF053C0D463A97DA039E6323720C}
 
-Se um evento currency receber um valor na *`products`* variável em vez da variável events, ele se aplica somente a esse valor. Isso é útil para rastrear descontos em produtos, envio de produtos e outros valores similares. Por exemplo, se você configurou o evento 1 para rastrear o envio do produto, um produto com uma carga de envio de "4,50" deverá ser exibido da seguinte maneira:
+Se um evento de moeda receber um valor na variável *`products`*, em vez da variável de eventos, ele se aplica somente a esse valor. Isso é útil para rastrear descontos em produtos, envio de produtos e outros valores similares. Por exemplo, se você configurou o evento 1 para rastrear o envio do produto, um produto com uma carga de envio de "4,50" deverá ser exibido da seguinte maneira:
 
 ```js
 s.events="event1" 
@@ -1640,7 +1612,7 @@ Neste exemplo, o valor 4,50 está associado diretamente ao produto "Tênis de co
 
 **eventos de moeda do pedido** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
 
-Se um evento de moeda receber um valor na lista de eventos em vez da *`products`* variável, ele se aplica a todos os produtos na *`products`* variável. Isso serve para rastrear descontos, frete e valores similares de todo o pedido sem alterar o preço do produto ou rastreando na lista de produtos separadamente.
+Se um evento de moeda receber um valor na lista de eventos, em vez da variável *`products`*, ele se aplica a todos os produtos na variável *`products`*. Isso serve para rastrear descontos, frete e valores similares de todo o pedido sem alterar o preço do produto ou rastreando na lista de produtos separadamente.
 
 evento 10 para incluir os descontos de todos os produtos, poderá aparecer uma compra com um desconto de 10% semelhante à compra a seguir:
 
@@ -1652,13 +1624,11 @@ s.purchaseID="1234567890"
 
 Nos relatórios de moeda, o total do relatório representa o total do evento com duplicação eliminada (neste exemplo, a quantidade total de descontos durante o período do relatório) e não a soma dos valores do evento para cada produto. Por exemplo, você verá "9,95" listado tanto para "Tênis de corrida" como para "Meias de corrida", e o total ainda será de "9,95".
 
->[!NOTE]
->
->se um valor para o mesmo Evento numérico/de moeda for especificado na *`products`* variável e na *`events`* variável, o valor do evento *`events`* será usado.
+> [!NOTE] se um valor para o mesmo Evento numérico/de moeda for especificado na variável *`products`* e na variável *`events`*, o valor do evento *`events`* será usado.
 
 **Armadilhas, dúvidas e dicas** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
-* The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). Se nenhum evento [!UICONTROL bem-sucedido] for especificado, o evento padrão será [!UICONTROL prodView].
+* A variável *`products`* deve ser sempre definida juntamente com um evento [!UICONTROL bem-sucedido] (eventos). Se nenhum evento [!UICONTROL bem-sucedido] for especificado, o evento padrão será [!UICONTROL prodView].
 
 * Retire todas as vírgulas e pontos-e-vírgulas dos nomes de produto e categoria antes de preencher os produtos.
 * Retire todos os caracteres HTML (símbolos registrados, marcas comerciais e assim por diante).
@@ -1669,43 +1639,43 @@ Nos relatórios de moeda, o total do relatório representa o total do evento com
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
+   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
+   <td colname="col1"> <code> s.products="Category3;ABC123;1;10" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1722,7 +1692,7 @@ propN.xml
 
 A variável props pode ser usada como contadores (para contar o número de vezes que uma exibição de página é enviada), para relatório de definição de caminho ou em relatórios de correlação.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 100 bytes | c1-c75 | Tráfego personalizado | "" |
 
@@ -1758,13 +1728,13 @@ purchaseID.xml
 
  -->
 
-Whenever the [!UICONTROL purchase] event is used on your site, you should use the *`purchaseID`* variable.
+Sempre que o evento de [!UICONTROL compra] for usado em seu site, você deve usar a variável *`purchaseID`*.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 20 bytes | purchaseID | Conversão &gt; Compras &gt; Conversão de Receita | "" |
 
-Quando um visitante compra um item no seu site,  *`purchaseID`* é preenchida na página "Obrigado" no mesmo local que o evento [!UICONTROL purchase] é acionado. If the *`purchaseID`* is populated, the products on the "Thank You" page are counted only once per *`purchaseID`*. Isso é crítico porque muitos visitantes do seu site salvarão a página "Obrigado" ou de "Confirmação" para seus objetivos próprios. A variável *`purchaseID`* impede a contagem das compras sempre que a página é exibida.
+Quando um visitante compra um item no seu site,  *`purchaseID`* é preenchida na página "Obrigado" no mesmo local que o evento [!UICONTROL purchase] é acionado. Se a *`purchaseID`* for preenchida, os produtos da página "Obrigado" serão contados apenas uma vez de acordo com *`purchaseID`*. Isso é crítico porque muitos visitantes do seu site salvarão a página "Obrigado" ou de "Confirmação" para seus objetivos próprios. A variável *`purchaseID`* impede a contagem das compras sempre que a página é exibida.
 
 Além de impedir que os dados de compra sejam contados duas vezes, o *`purchaseID`*, quando usado, impede que todos os dados de conversão sejam contados duas vezes nos relatórios.
 
@@ -1774,7 +1744,7 @@ Além de impedir que os dados de compra sejam contados duas vezes, o *`purchaseI
 s.purchaseID="unique_id"
 ```
 
-The *`purchaseID`* must be 20 characters or fewer, and be standard ASCII.
+O *`purchaseID`* deve ter até 20 caracteres e ser ASCII por padrão.
 
 **Exemplos** {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
 
@@ -1789,7 +1759,7 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
-The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports.
+A variável *`purchaseID`* permite que todas as variáveis de conversão da página sejam contadas apenas uma vez nos relatórios.
 
 ## referrer {#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B}
 
@@ -1803,11 +1773,11 @@ referrer.xml
 
 Normalmente, os redirecionamentos do lado do servidor e de JavaScript são usados para rotear visitantes até os locais apropriados. No entanto, quando um navegador é redirecionado, a URL original de referência fica perdida.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 255 bytes | R | Tráfego &gt; Localização de métodos de conversão &gt; Localização de métodos | document.referrer |
 
-Muitas empresas usam redirecionamentos em muitos locais em seus sites. Por exemplo, um visitante pode ser enviado por meio de um redirecionamento de um resultado de pesquisa pago de mecanismo de pesquisa. Quando um navegador é redirecionado, normalmente a referrer fica perdida. A variável *`referrer`* pode ser usada para restaurar o *`referrer`* valor original na primeira página após um redirecionamento. The *`referrer`* may be populated server-side, or via JavaScript from the query string.
+Muitas empresas usam redirecionamentos em muitos locais em seus sites. Por exemplo, um visitante pode ser enviado por meio de um redirecionamento de um resultado de pesquisa pago de mecanismo de pesquisa. Quando um navegador é redirecionado, normalmente a referrer fica perdida. A variável A variável *`referrer`* pode ser usada para restaurar o valor original *`referrer`* na primeira página após um redirecionamento. A *`referrer`* pode ser preenchida no lado do servidor ou por meio de JavaScript na sequência de consulta.
 
 Para o Analytics registrar um referenciador, ele deve ser "bem formado", ou seja, deve seguir o formato padrão de URL, com protocolo e localização apropriada.
 
@@ -1834,7 +1804,7 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_B42BF7FBA1094FF9805707FEA810CFE1}
 
-The *`referrer`* must look like a standard URL and include a protocol.
+A *`referrer`* deve ter a aparência de um URL padrão e incluir um protocolo.
 
 ## resolution {#concept_8CBDDBE710744A3AA09E6B1E1519BF30}
 
@@ -1846,11 +1816,9 @@ resolution.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+Esta variável é preenchida depois do código de página e antes da execução de *`doPlugins`*.
 
->[!NOTE]
->
->Essa variável só deve ser lida e nunca definida.
+> [!NOTE] Observação: esta variável só deve ser lida, e nunca definida.
 
 Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá-los. Essa variável é introduzida com a versão H.11 do arquivo JavaScript.
 
@@ -1860,7 +1828,7 @@ Você pode ler esses valores e copiá-los em props/eVars, mas nunca deve alterá
 
 ## s_objectID {#concept_48B50DE6B7E546EBB4D187033F1CAF2B}
 
-The  variable is a global variable that should be set in the [!UICONTROL onClick] event of a link.
+A variável é uma variável global e deve ser definida no evento [!UICONTROL onClick] de um link.
 
 <!-- 
 
@@ -1868,33 +1836,31 @@ s_objectID.xml
 
  -->
 
-By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
+Ao criar uma única ID de objeto para um link ou localização de link em uma página, é possível melhorar o rastreamento de atividade do usuário ou usar o [!UICONTROL Activity Map] para fazer um relatório sobre o tipo ou a localização de link, em vez do URL do link.
 
->[!NOTE]
->
->A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+> [!NOTE] É necessário um ponto e vírgula (;) ao usar s_objectID com o [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 100 bytes | OID | [!UICONTROL Activity Map], [!UICONTROL ClickMap] | A URL absoluta de um link clicado |
 
 Há três motivos comuns para usar *`s_objectID`*:
 
 * Para agregar a atividade do visitante que é alterada durante o dia.
-* To separate link activity that [!UICONTROL Activity Map] combines.
-* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
+* Para separar a atividade do link combinada pelo [!UICONTROL Activity Map].
+* Para aprimorar a precisão dos relatórios de dados do [!UICONTROL Activity Map].
 
 **Agregar cliques em links altamente dinâmicos** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-Se o site for altamente dinâmico e os links em algumas páginas forem alterados durante o dia, *`s_objectID`* poderá ser usado para identificar o local de um link na página. Se *`s_objectID`* estiver definido como "esquerda superior 1" ou "esquerda superior 2", que representa o primeiro link na parte superior esquerda da página, por exemplo, todos os links que aparecem nesse local (ou que estão *`s_objectID`* definidos para o mesmo valor) são reportados juntamente com o mapa de cliques do visitante. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+Se o site for extremamente dinâmico e os links em algumas páginas forem alterados durante o dia, *`s_objectID`* poderá ser usado para identificar o local de um link na página. Se *`s_objectID`* estiver definido como "parte superior esquerda 1" ou "parte superior esquerda 2", que representa o primeiro link na parte superior esquerda da página, por exemplo, todos os links que aparecem nesse local (ou onde *`s_objectID`* estão definidos como o mesmo valor) são reportados juntamente com o mapa de cliques de visitante. Se vocÊ não usar *`s_objectID`*, verá o número de vezes que um link foi clicado, mas perderá o insight sobre como todos os outros links desse local foram usados pelos visitantes do site.
 
 **Clique separados combinados** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-Se a *`pageName`* variável do site for usada para mostrar a seção ou o modelo que um visitante está visualizando, em vez da página específica que o visitante está visualizando, você pode usar *`s_objectID`* para separar os links que aparecem em várias versões desse modelo de página. Por exemplo, se você tiver um modelo de página para todos os produtos do seu site, provavelmente há um link para sua homepage e para a caixa de pesquisa desse modelo em todas as páginas. Se você quiser ver como esses links são usados em uma base de produtos individuais (em vez de uma base de modelo), poderá preencher *`s_objectID`* com valor do produto específico, como "prod 123789 página inicial" ou "prod 123789 pesquisa". Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+Se a variável *`pageName`* do site for usada para mostrar a seção ou o modelo que um visitante está visualizando, em vez da página específica que o visitante está visualizando, você pode usar *`s_objectID`* para separar os links que aparecem em várias versões desse modelo de página. Por exemplo, se você tiver um modelo de página para todos os produtos do seu site, provavelmente há um link para sua homepage e para a caixa de pesquisa desse modelo em todas as páginas. Se você quiser ver como esses links são usados em uma base de produtos individuais (em vez de uma base de modelo), poderá preencher *`s_objectID`* com valor do produto específico, como "prod 123789 página inicial" ou "prod 123789 pesquisa". Após a conclusão, o [!UICONTROL Activity Map] emite relatórios sobre os links em relação a cada produto.
 
-**Melhore a precisão[!UICONTROL do Activity Map]**{#section_08B3406821294DCCABEEB99C90CF5C52}
+**Melhore a[!UICONTROL Precisão do Activity Map]** {#section_08B3406821294DCCABEEB99C90CF5C52}
 
-Em alguns casos, os navegadores diferentes do Internet Explorer, Firefox, Netscape, Opera e Safari não são suportados. Embora seja um percentual pequeno, ele conta para alguns cliques e outras métricas. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. Este é um exemplo de como atualizar seus links para usar a *`s_objectID`*:
+Em alguns casos, os navegadores diferentes do Internet Explorer, Firefox, Netscape, Opera e Safari não são suportados. Embora seja um percentual pequeno, ele conta para alguns cliques e outras métricas. Use *`s_objectID`* nos links para identificar unicamente os endereços do navegador que relata o problema. Este é um exemplo de como atualizar seus links para usar a *`s_objectID`*:
 
 ```js
 <a href="/art.jsp?id=559" onClick="s_objectID='top left 1';">Article 559</a> 
@@ -1909,7 +1875,7 @@ s_objectID pode conter qualquer identificador de texto.
 s_objectID="unique_id" 
 ```
 
-Não há limitações em *`s_objectID`* fora das limitações de variável padrão.
+Não há limitações nas variáveis *`s_objectID`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_33F119D532CA4ACAA3426253C42030BB}
 
@@ -1927,7 +1893,7 @@ Nenhum
 
 ## server {#concept_BF77952603BA454BAFC9A0A81D06A7D2}
 
-A variável é usada para mostrar o domínio de uma página da Web (para mostrar para quais domínios as pessoas vão) ou o servidor que serve a página (para uma referência rápida de balanceamento de carga).
+A variável é usada para mostrar o domínio de uma página da Web (para mostrar a quais domínios as pessoas vão) ou o servidor que atende a página (para uma referência rápida de balanceamento de carga).
 
 <!-- 
 
@@ -1935,7 +1901,7 @@ server.xml
 
  -->
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 100 bytes | server | Servidores | "" |
 
@@ -1959,7 +1925,7 @@ Embora o relatório [!UICONTROL Servidores Mais Populares] possam ser usados com
 s.server="server_name"
 ```
 
-There are no limitations on the *`server`* variable outside of the standard variable limitations.
+Não há limitações na variável *`server`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_78B9EE3C27FB491384869E3D0BD503D6}
 
@@ -1974,7 +1940,7 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_42A28F9B01574F38891D9D54B411D8FE}
 
-The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages.
+A variável *`server`* pode ser usada para mostrar quais domínios são mais populares ou quais servidores estão promovendo mais páginas.
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
@@ -1986,13 +1952,13 @@ state.xml
 
  -->
 
-Elas são semelhantes a eVars, pois capturam eventos capture, mas diferente das eVars, não persistem. A variável *`zip`* and *`state`* variables are like eVars that expire immediately.
+Elas são semelhantes a eVars, pois capturam eventos capture, mas diferente das eVars, não persistem. A variável *`zip`* são semelhantes a *`state`* eVars, pois expiram imediatamente.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 50 bytes | state | Conversão &gt; Perfil do visitante &gt; Estado do visitante | "" |
 
-Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. Para sites de conversão, a Adobe recomenda usar o endereço de cobrança como fonte do código, mas você pode optar por usar o endereço de entrega (supondo que exista apenas um endereço de entrega para o pedido). Um site de mídia pode ser escolhido para usar *`zip`* and *`state`* for registration or ad click-through tracking.
+Como as variáveis *`state`* e *`zip`* expiram imediatamente, os únicos eventos associados a elas são eventos que são acionados na mesma página em que são preenchidos. Por exemplo, se estiver usando *`state`* para comparar as taxas de conversão por estado, você de preencher a variável *`state`* em cada página do processo de finalização. Para sites de conversão, a Adobe recomenda usar o endereço de cobrança como fonte do código, mas você pode optar por usar o endereço de entrega (supondo que exista apenas um endereço de entrega para o pedido). Um site de mídia pode ser escolhido para usar *`zip`* para registro ou *`state`* rastreamento de click-throughs no anúncio.
 
 **Sintaxe e valores possíveis** {#section_EDD1F5F9EDBC457898E61695F08C1744}
 
@@ -2000,7 +1966,7 @@ Because the *`state`* and *`zip`* variables expire immediately, the only events 
 s.state="state"
 ```
 
-The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
+A variável *`state`* não impõe restrições especiais de valor ou formato. Não há limitações nas variáveis *`state`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_D181B163F79A41D199CA4C70765E583F}
 
@@ -2018,8 +1984,8 @@ Nenhum
 
 **Armadilhas, dúvidas e dicas** {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
-* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* Preencha *`state`* em todas as páginas em que um evento relevante é acionado (como cada página do processo de finalização).
+* As variáveis cep e estado atuam como eVars que expiram na Exibição da página.*`zip`**`state`*
 
 ## timestamp {#concept_D997A2FF4D134C80A614C0BC7A4D7507}
 
@@ -2031,9 +1997,9 @@ timestamp.xml
 
  -->
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| 4 bytes | Data/Hora | Não informado diretamente. | Definido por servidores de coleta de dados |
+| 4 bytes | Data/Hora | Não informado diretamente. | Definido por servidores de coleta de dados. |
 
 **Sintaxe** {#section_1DF752B1202C4412A301AC7CC10874DF}
 
@@ -2041,11 +2007,11 @@ timestamp.xml
 s.timestamp="UNIX or ISO-8601 format timestamp"
 ```
 
-The *`timestamp`* variable must be in the format explained in the next section.
+A variável *`timestamp`* deve estar no formato explicado na próxima seção.
 
 >[!IMPORTANT]
 >
->Your report suite must be timestamp-enabled by Customer Care before you can use the *`timestamp`* variable. After timestamp support is enabled, all hits sent to this report suite from JavaScript must have a timestamp manually set (using *`s.timestamp`*) or the hits will not be recorded.
+>O Atendimento ao cliente deve ativar o carimbo de data e hora do conjunto de relatórios, antes que você possa usar a variável *`timestamp`*. Após ativar o suporte ao carimbo de data e hora, todos os hits enviados para esse conjunto de relatórios do JavaScript devem ter um carimbo de data e hora definido manualmente (usando *`s.timestamp`*) ou os hits não serão registrados.
 >
 >Além disso, se você ativar o suporte ao carimbo de data e hora em um conjunto de relatório para suporte ao rastreamento offline, todas as ocorrências enviadas para este conjunto de relatórios do JavaScript também devem ter um carimbo de data e hora definido manualmente (usando *`s.timestamp`*). Não é possível enviar ocorrências com e sem carimbo de data e hora para o mesmo conjunto de relatórios.
 >
@@ -2057,9 +2023,9 @@ As marcas de data e hora devem estar em formato UNIX (segundos desde 1 de janeir
 
 * A data e a hora devem ser fornecidas, separadas por "T"
 * A data deve ser uma data de calendário com total precisão (dia, mês e ano). . Não há suporte para datas semanais e datas ordinais.
-* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Os segundos são opcionais ( `HH:MM`, `HH:MM:SS`, `HHMM`ou `HHMMSS`). Os minutos e os segundos fracionais podem ser mencionados, mas a parte fracional será omitida.
+* A data pode estar em formato padrão ou estendido (`YYYY-MM-DD` ou `YYYYMMDD`), mas deve sempre incluir a hora e o minuto. Os segundos são opcionais (`HH:MM`, `HH:MM:SS`, `HHMM` ou `HHMMSS`). Os minutos e os segundos fracionais podem ser mencionados, mas a parte fracional será omitida.
 
-* An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
+* Pode-se especificar um fuso horário opcional no formato padrão ou estendido (`±HH`, `±HH:MM`, `±HH`, `±HHMM` ou Z)
 
 As marcas de data e hora UNIX continuam sendo suportados (segundos desde 1° de janeiro de 1970).
 
@@ -2107,9 +2073,9 @@ trackingServer.xml
 
  -->
 
-Usada para páginas não seguras. Se *`trackingServer`* estiver definido, nada vai para 2o7.net. If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
+Usada para páginas não seguras. Se *`trackingServer`* estiver definido, nada vai para 2o7.net. Se *`trackingServer`* não estiver definido (e dc não estiver definido), os dados vão para 112.2o7.net.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | "" |
 
@@ -2127,7 +2093,7 @@ trackingServerSecure.xml
 
 Usada para páginas seguras. Se *`trackingServerSecure`* não estiver definido, os dados SSL vão para *`trackingServer`*.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | N/A | N/A | "" |
 
@@ -2143,19 +2109,19 @@ transactionID.xml
 
 Cada *`transactionID`* única enviada para a Adobe é registrada em preparação para um upload de [!UICONTROL Fontes de dados ]de informações offline sobre essa transação. Consulte [Origens de Dados](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 100 bytes | xact | n/a | "" |
 
-**Ativar armazenamento** da ID de transação {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+**Ativar armazenamento da ID de transação** {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
-Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. Esta configuração está localizada em
+Antes de registrar os valores *`transactionID`*, o [!UICONTROL Armazenamento da ID de transação] deve estar ativado para o conjunto de relatórios selecionado no Gerenciador de conjuntos de relatórios. Esta configuração está localizada em
 
 ```
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-Para ver se *`transactionID Storage`* está habilitado para um conjunto de relatórios, acesse
+Para ver se *`transactionID Storage`* está ativado para um conjunto de relatórios, acesse
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2167,7 +2133,7 @@ Analytics > Admin > Data Sources > Manage
 s.transactionID="unique_id"
 ```
 
-The *`transactionID`* should contain only alphanumeric characters. Se for necessário registrar várias [!UICONTROL transactionIDs] em uma única ocorrência, é possível usar uma vírgula para delimitar vários valores.
+O *`transactionID`* deve conter somente caracteres alfanuméricos. Se for necessário registrar várias [!UICONTROL transactionIDs] em uma única ocorrência, é possível usar uma vírgula para delimitar vários valores.
 
 **Exemplos** {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
 
@@ -2185,15 +2151,13 @@ s.transactionID=s.purchaseID
 
 **Armadilhas, dúvidas e dicas** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* Se a *`transactionID`* gravação não estiver ativada, *`transactionID`* os valores serão descartados e não estarão disponíveis para uso com as Fontes [!UICONTROL de Dados de]Integração. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Do contrário, nenhum dado será gravado para *`transactionID`*.
+* Se a gravação *`transactionID`* não estiver ativada, os valores *`transactionID`* serão descartados e não estarão disponíveis para uso com as [!UICONTROL Fontes de dados de integração]. Defina uma variável ou um evento de conversão (uma eVar ou a variável de eventos) na página em que *`transactionID`* foi definido. Do contrário, nenhum dado será gravado para *`transactionID`*.
 
-* If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. Isso pode ser feito se você adicionar um prefixo à ID, como lead_1234 e purchase_1234. [!UICONTROL As Fontes] de Dados de Integração não funcionam como esperado (os dados da Fonte [!UICONTROL de] Dados se conectam aos dados errados) se um único *`transactionID`* for visto duas vezes.
+* Se estiver registrando [!UICONTROL transactionIDs] para vários sistemas, como compras e leads, assegure que o valor em *`transactionID`* seja sempre único. Isso pode ser feito se você adicionar um prefixo à ID, como lead_1234 e purchase_1234. As [!UICONTROL Fontes de dados de integração] não funcionarão como esperado (os dados da [!UICONTROL Fonte de dados] se conectam aos dados errados) se um *`transactionID`* único for visualizado duas vezes.
 
-* Por padrão, *`transactionID`* os valores são lembrados por 90 dias. Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar o limite.
+* Por padrão, os valores *`transactionID`* são lembrados por 90 dias. Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar o limite.
 
->[!NOTE]
->
->The *`transactionID`* variable can contain any character other than a comma. Ela deve estar no mesmo local em que o limite de caracteres (100 bytes) é especificado. Se forem usados caracteres multibytes, será necessário ativar suporte a esses caracteres para evitar problemas com caracteres inesperados na *`transactionID`*.
+> [!NOTE]A variável *`transactionID`* pode conter qualquer caractere diferente de vírgula. Ela deve estar no mesmo local em que o limite de caracteres (100 bytes) é especificado. Se forem usados caracteres multibytes, será necessário ativar suporte a esses caracteres para evitar problemas com caracteres inesperados na *`transactionID`*.
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2205,13 +2169,13 @@ visitorID.xml
 
  -->
 
-The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain a hyphen.
+A *`visitorID`* pode conter até 100 caracteres alfanuméricos e não deve conter hífen.
 
 Se você definir explicitamente uma ID personalizada, ela sempre será utilizada antes de outros métodos de ID.
 
 Esta é a ordem de uso: s.visitorID &gt; s_vi &gt; s_fid &gt; IP/UA.
 
-| ** Tamanho Máx.** | ** Parâmetro de depuração** | ** Relatórios preenchidos** | ** Valor padrão** |
+| ** Tamanho máximo** | ** Parâmetro de depuração** | ** Relatórios preenchidos** | ** Valor padrão** |
 |---|---|---|---|
 | 100 bytes | vid | n/a | "" |
 
@@ -2221,9 +2185,7 @@ Esta é a ordem de uso: s.visitorID &gt; s_vi &gt; s_fid &gt; IP/UA.
 s.visitorID="visitor_id"
 ```
 
->[!NOTE]
->
->The *`visitorID`* variable should not contain a hyphen.
+> [!NOTE] A variável *`visitorID`* não deve conter hífen.
 
 **Exemplos** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
@@ -2245,19 +2207,19 @@ visitorNamespace.xml
 
  -->
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. O histórico do visitante se torna desconectado do tráfego atual e futuro. Não altere essa variável sem aprovação de um representante da Adobe.
+*`visitorNamespace`* é usada no seu arquivo JavaScript, não exclua-a ou altere-a. Se *`visitorNamespace`* for alterado, todos os visitantes relatados no Analytics podem se tornar novos visitantes. O histórico do visitante se torna desconectado do tráfego atual e futuro. Não altere essa variável sem aprovação de um representante da Adobe.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | ns | N/A | "" |
 
-O Analytics um cookie para identificar de forma única os visitantes do site. If *`visitorNamespace`* is not used, the cookie is associated 2o7.net. If *`visitorNamespace`* is used, the cookie is associated with a sub-domain of 2o7.net. Todos os visitantes do site devem ter os cookies associados ao mesmo domínio ou subdomínio.
+O Analytics um cookie para identificar de forma única os visitantes do site. Se *`visitorNamespace`* não for usado, o cookie será associado ao 2o7.net. Se *`visitorNamespace`* for usado, o cookie será associado com um subdomínio de 2o7.net. Todos os visitantes do site devem ter os cookies associados ao mesmo domínio ou subdomínio.
 
 O motivo para usar a variável *`visitorNamespace`* é evitar a possibilidade de sobrecarregar um limite de cookie de um navegador. O Internet Explorer impõe um limite de 20 cookies por domínio. Se você usar a variável *`visitorNamespace`*, os cookies do Analytics de outras empresas não entrarão em conflito com os cookies de seus visitantes.
 
 **Sintaxe e valores possíveis** {#section_EE247FE371784CA4B6058182181F3EA1}
 
-The value of *`visitorNamespace`* must be provided by Adobe and is a string of ASCII characters that don't contain commas, periods, spaces, or special characters.
+O valor de *`visitorNamespace`* deve ser fornecido pela Adobe e é uma string de caracteres ASCII que não contêm vírgulas, pontos, espaços ou caracteres especiais.
 
 ```js
 s.visitorNamespace="company_specific_value"
@@ -2265,7 +2227,7 @@ s.visitorNamespace="company_specific_value"
 
 **Identificação do visitante nos conjuntos de relatórios** {#section_7AC5A97FC8C045DD8850245A62BB09F4}
 
-If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. Se você especificar `visitorNamespace`, o mesmo cookie `s_vi` será utilizado para todos os conjuntos de relatórios que enviam dados para o `trackingServer` especificado. Se você implementou a marcação multiconjunto, certifique-se de especificar o namespace do visitante para que o cookie seja utilizado por cada conjunto de relatórios.
+Se você não especificar um `visitorNamespace`, cada conjunto de relatórios na empresa recebe o próprio cookie da ID de visitante gravado como `s_vi_[random string]`. Se você especificar `visitorNamespace`, o mesmo cookie `s_vi` será utilizado para todos os conjuntos de relatórios que enviam dados para o `trackingServer` especificado. Se você implementou a marcação multiconjunto, certifique-se de especificar o namespace do visitante para que o cookie seja utilizado por cada conjunto de relatórios.
 
 **Exemplos** {#section_89A95852AB9446E794AD3283B8800B09}
 
@@ -2291,13 +2253,13 @@ zip.xml
 
  -->
 
-Elas são semelhantes a eVars, pois capturam eventos capture, mas diferente das eVars, não persistem. A variável *`zip`* and *`state`* variables are like eVars that expire immediately.
+Elas são semelhantes a eVars, pois capturam eventos capture, mas diferente das eVars, não persistem. A variável *`zip`* são semelhantes a *`state`* eVars, pois expiram imediatamente.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | 50 bytes | zip | Conversão &gt; Perfil do visitante &gt; CEP/Códigos postais | "" |
 
-Como as variáveis *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. A Adobe recomenda usar o endereço de cobrança como fonte para o CEP. Você pode optar pelo endereço de entrega (supondo que haja apenas um endereço de entrega para o pedido). Um site de mídia pode ser escolhido para usar *`zip`* and *`state`* for registration or ad click-through tracking.
+Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. Por exemplo, se estiver usando o *`zip`* para comparar taxas de conversão por código postal, você deve preencher o *`zip`* em cada página do processo de finalização. A Adobe recomenda usar o endereço de cobrança como fonte para o CEP. Você pode optar pelo endereço de entrega (supondo que haja apenas um endereço de entrega para o pedido). Um site de mídia pode ser escolhido para usar *`zip`* para registro ou *`state`* rastreamento de click-throughs no anúncio.
 
 **Sintaxe e valores possíveis** {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
@@ -2305,7 +2267,7 @@ Como as variáveis *`state`* and *`zip`* variables expire immediately, the only 
 s.zip="zip_code"
 ```
 
-The *`zip`* variable does not impose any value or format restrictions. There are no limitations on *`zip`* outside of the standard variable limitations.
+A variável *`zip`* não impõe restrições de valor ou formato. Não há limitações nas variáveis *`zip`* além das limitações padrão de variáveis.
 
 **Exemplos** {#section_F25C0D0CC3C04B81892A662CD605C593}
 
@@ -2324,5 +2286,5 @@ Nenhum
 **Armadilhas, dúvidas e dicas** {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
 * Preencha [!UICONTROL zip] em cada página em que um evento relevante é acionado (cada página do processo de finalização).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* *`zip`* As *`state`* variáveis cep e estado atuam como eVars que expiram na Exibição da página.
 
