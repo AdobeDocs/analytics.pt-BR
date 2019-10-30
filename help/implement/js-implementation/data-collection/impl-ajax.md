@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementação com AJAX
 topic: Desenvolvedor e implementação
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ A diferença durante o lançamento de [!UICONTROL AJAX] na combinação é prime
 Existem duas funções no código JavaScript que permitem enviar dados. Há algumas diretrizes distintas que devem ser seguidas para saber qual método deve ser usado para enviar dados.
 Se uma solicitação de imagem foi efetuada anteriormente, primeiro você deve apagar os valores das variáveis definidas anteriormente. Use a função `clearVars()` no [!DNL AppMeasurement] para JavaScript ou grave uma simples função JavaScript para apagar as variáveis, se você estiver usando o código H. Defina os valores apropriados para o conteúdo alterado, a saber, a *`pageName`* variável. Depois que as variáveis forem definidas, chame a função *`t()`*.
 
->[!NOTE]
->
->Antes de chamar `s.t()`, é necessário apagar os valores no objeto s que você não deseja que persistam. se você estiver usando [!DNL AppMeasurement] para JavaScript, é possível chamar `s.clearVars()`. Se você está usando o código H, escreva uma rotina simples para definir variáveis em uma string vazia.
+> [!NOTE] Antes de chamar `s.t()`, é necessário apagar os valores no objeto s que você não deseja que persistam. se você estiver usando [!DNL AppMeasurement] para JavaScript, é possível chamar `s.clearVars()`. Se você está usando o código H, escreva uma rotina simples para definir variáveis em uma string vazia.
 
 ```js
 s.clearVars(); 
