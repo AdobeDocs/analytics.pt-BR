@@ -1,22 +1,22 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Modelos
-title: Modelos
-uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
+seo-title: Modelos de projeto
+title: Modelos de projeto
+uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Modelos
+# Modelos de projeto
 
-## Modelos{#topic_40932F09E18A467983AFBB29908E1CB8} de projeto 
+## Modelos de projeto {#topic_40932F09E18A467983AFBB29908E1CB8}
 
 Você pode escolher criar um projeto de:
 
-* um projeto em branco (padrão). For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* um projeto em branco (padrão). Para obter instruções, consulte [Criar um projeto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)da Analysis Workspace.
 * Um modelo padrão. Esses modelos são criados pela Adobe e enviados para o recurso instantâneo.
 * Um modelo personalizado. Esses modelos podem ser criados por usuários com direitos de administrador ou por não administradores, presumindo que tenham a permissão de “Salvar como modelo”. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
@@ -25,7 +25,7 @@ Você pode escolher criar um projeto de:
 * [Criar um modelo personalizado](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [Modelos padrão](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Criar um modelo personalizado {#task_279637F56CFD4B6094D7CBDB82FA4835}
 
 Os usuários com direitos de administrador podem tornar qualquer projeto criado por ele um modelo personalizado. Veja como:
 
@@ -38,7 +38,7 @@ Os usuários com direitos de administrador podem tornar qualquer projeto criado 
 
    >[!NOTE]
    >
-   >Por padrão, os modelos de projeto ficam visíveis para todos na organização. Você pode organizá-los aplicando tags. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >Por padrão, os modelos de projeto estão visíveis para todos em sua organização. Você pode organizá-los aplicando tags. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
 
 ### Ações executáveis nos modelos personalizados
 
@@ -85,11 +85,11 @@ Os usuários com direitos de administrador podem tornar qualquer projeto criado 
 
 ## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-Quando você abre um Espaço de trabalho pela primeira vez, os modelos estão disponíveis no trilho esquerdo. Os modelos da Analysis Workspace abrangem casos usuais. São agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
+Quando você abre um Espaço de trabalho pela primeira vez, os modelos ficam disponíveis no painel esquerdo. Os modelos da Analysis Workspace abrangem casos usuais. São agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
-[Modelos padrão na Analysis Workspace no youtube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Modelos padrão na Analysis Workspace no YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder:
 
@@ -99,49 +99,47 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 >
 >Os modelos de publicidade estão disponíveis somente se o conjunto de relatórios estiver habilitado para a Advertising Cloud.
 
-* **Mecanismos de Pesquisa**: Este modelo divide tendências de publicidade, plataformas de anúncios, palavras-chave, contas, campanhas e muito mais.
+* **Mecanismos** de pesquisa: Este modelo detalha as tendências de publicidade, plataformas de publicidade, palavras-chave, contas, campanhas e muito mais.
 
 ### Comércio
 
-* **Magento: Marketing e Comércio**: Este modelo divide a conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer insight por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing e Comércio**: Este modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para obter uma visão geral em vídeo, consulte &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Mídia
 
-* **Consumo de áudio**: Qual conteúdo está sendo mais consumido e envolvendo os usuários?
-* **Recenticidade - Frequência - Fidelidade**: Quem são meus leitores leais?
+* **Consumo** de áudio: Qual conteúdo está sendo mais consumido e envolvendo os usuários?
+* **Idade - Frequência - Fidelidade**: Quem são meus leitores leais?
 
-### Dispositivo móvel
+### Mobile
 
 >[!IMPORTANT]
 >
->Os modelos móveis estão disponíveis somente se o conjunto de relatórios estiver habilitado para dispositivos móveis.
+>Os modelos móveis estão disponíveis somente se seu conjunto de relatórios estiver habilitado para dispositivos móveis.
 
-* **Mensagens:** Foca no desempenho do envio de mensagens de push e dentro do aplicativo.
-* **Localização:** Inclui um mapa mostrando os dados de localização.
-* **Métricas principais:** Mantenha as métricas principais do seu aplicativo.
-* **Utilização do aplicativo:** Quantos usuários do aplicativo, inicializações e primeiras inicializações fizeram o aplicativo e qual foi a duração média da sessão?
-* **Aquisição:** Veja como os links de aquisição móvel estão sendo executados.
-* **Desempenho:** Como o aplicativo está sendo executado e onde os usuários estão tendo problemas?
-* **Retenção:** Quem são meus usuários leais e o que eles fazem?
-* **Jornadas:** Quais são os padrões de uso proeminentes para meu aplicativo?
+* **** Mensagens: Concentra-se no desempenho de mensagens de push e no aplicativo.
+* **** Localização: Inclui um mapa que mostra os dados de localização.
+* **** Principais métricas: Mantenha o controle das métricas principais do seu aplicativo.
+* **** Uso do aplicativo: Quantos usuários, inicializações e primeiras inicializações do aplicativo tiveram e qual foi a duração média da sessão?
+* **** Aquisição: Veja o desempenho dos links de aquisição móveis.
+* **** Desempenho: Como o aplicativo está funcionando e onde os usuários estão tendo problemas?
+* **** Retenção: Quem são meus usuários leais e o que eles fazem?
+* **** Viagens: Quais são os padrões de uso proeminentes do meu aplicativo?
 
 ### Varejo
 
-* **Desempenho da campanha:** Que campanhas estão gerando mais receita?
-* **Produtos:** Quais produtos estão tendo o melhor desempenho?
+* **** Desempenho da campanha: Quais campanhas estão gerando mais receita?
+* **** Produtos: Quais produtos têm melhor desempenho?
 
 ### Web
 
-* **Aquisição:** Quais são os principais drivers de tráfego do meu site?
-* **Consumo de conteúdo:** Quais são os principais lugares que as pessoas vão no meu site?
-* **Retenção:** Que tipos de usuários são usuários leais do meu site?
-* **Tecnologia:** Que tecnologia as pessoas estão usando para acessar meu site?
+* **** Aquisição: Quais são os principais motoristas de tráfego do meu site?
+* **** Consumo de conteúdo: Quais são os principais lugares que as pessoas vão para o meu site?
+* **** Retenção: Que tipos de usuários provavelmente serão usuários leais do meu site?
+* **** Tecnologia: Que tecnologia as pessoas estão usando para acessar meu site?
 
 ### Pessoas
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] O modelo de Pessoas e sua métrica de Pessoas associada está disponível para uso somente como parte do Device Co-op da [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
 Tem como base a métrica Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
