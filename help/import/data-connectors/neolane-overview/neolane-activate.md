@@ -5,7 +5,7 @@ seo-title: Ativar a integração
 title: Ativar a integração
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,6 +35,6 @@ Use o Assistente de configuração dos conectores de dados da Adobe para configu
 | Aberturas únicas | Número de aberturas distintas. |
 | Inscrito | Número de visitantes que abriram a mensagem de email, mas clicaram no link Cancelar inscrição para recusar futuras mensagens de email de sua organização. |
 | Segmentos | Essa integração cria os segmentos definidos pelo parceiro exibidos na seção Segmentos do parceiro. Além disso, você pode selecionar segmentos existentes no nível do conjunto de relatórios para incluir na integração. |
-| Solicitações de acesso | Ative os privilégios de acesso recomendados. |
+|  Solicitações de acesso | Ative os privilégios de acesso recomendados. |
 | Coleta de dados | Selecione Plug-in **de** JavaScript se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração. Selecione Solução **** automatizada se desejar usar um modelo de coleta automatizada para essa integração e especifique os identificadores exclusivos usados para essa integração. Se você selecionar essa opção, especifique os identificadores exclusivos usados para essa integração: <ul><li>Parâmetro da string de consulta da ID da mensagem: Esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email.</li><li>Parâmetro da string de consulta da ID do destinatário: Esse valor representa a ID do destinatário anexada ao URL da página inicial pelo seu parceiro de email.</li></ul> |
 | Geração de painel e marcador | Gerar automaticamente um painel e marcadores para a integração. |
