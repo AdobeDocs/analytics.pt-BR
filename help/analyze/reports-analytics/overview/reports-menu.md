@@ -5,7 +5,7 @@ seo-title: Menu de relatórios
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ O menu Relatórios apresenta uma experiência de pesquisa aprimorada. Click **[!
 
 Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de relatórios. Pressione a tecla Escape para fechar a pesquisa sem alterar o relatório atual, ou pressione Enter para carregar o relatório selecionado.
 
->[!NOTE]
->
->Você também pode pesquisar a lista de relatórios por propriedade, eVar e número do evento. Na barra de pesquisa, insira a propriedade, eVar ou o número de eventos.
+> [!NOTE] Você também pode pesquisar a lista de relatórios por propriedade, eVar e número do evento. Na barra de pesquisa, insira a propriedade, eVar ou o número de eventos.
 
 ## Visão geral da navegação {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +53,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
  <tbody> 
   <tr> 
    <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
+   <td colname="col2"> Clicar nesse ícone expande o menu da Experience Cloud para permitir que você acesse outras soluções da Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -90,7 +88,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
    <td colname="col2"> Nele, você encontra os dez relatórios ou painéis mais recentes acessados nos últimos 90 dias. Você pode encontrar com facilidade uma maneira de voltar para uma etapa anterior na sua análise ou relatório. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Download</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Baixar</span> </td> 
    <td colname="col2">Permite baixar o relatório nos formatos PDF, CSV, Excel e Word. </td> 
   </tr> 
   <tr> 
@@ -99,7 +97,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Marcador...</span> </td> 
-   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
+   <td colname="col2">Permite <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> marcar</a> o relatório como favorito. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Painel</span>... </td> 
