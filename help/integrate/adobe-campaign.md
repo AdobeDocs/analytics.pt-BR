@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Relatórios do Adobe Campaign
 title: Relatórios do Adobe Campaign
-uuid: 0919 ae 9 f -84 eb -43 a 5-8cd 82-6 cd 6 dec 63 dc 1
+uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Para visualizar os dados do Campaign no Analytics, primeiro você deve habilitar
 
    ![](assets/enable-campaign.png)
 
-## Etapa 2: Exibir os relatórios do Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## Etapa 2. Exibir os relatórios do Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**
 
@@ -54,12 +54,12 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 ## Etapa 3. Usar as classificações do Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos]** de relatórios &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Adobe Campaign]** &gt; **[!UICONTROL Classificações do Adobe Campaign]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Adobe Campaign]** **[!UICONTROL &gt; Classificações do Adobe Campaign]**
 
 Quando seu conjunto de relatórios está habilitado para o Adobe Campaign, as seguintes classificações ficam disponíveis:
 
 * ID de entrega (Nome interno da entrega que você vê no Campaign)
-* Rótulo de entrega (Entrega no Campaign - Entrega individual/Entrega recorrente/Entrega de transações)
+* Rótulo de entrega (Entrega no Campaign - Entrega individual/Entrega recorrente/Entrega de transação)
 * ID da campanha (Nome interno da campanha que você vê no Campaign)
 * Rótulo da campanha (Campanha no Adobe Campaign)
 * Rótulo de entrega realizada (Lista de entregas realizadas individuais)
@@ -87,5 +87,5 @@ As seguintes **dimensões** estão disponíveis no Campaign nos conjuntos de rel
 | Rótulo da campanha | Rótulo das IDs de campanha |
 | ID de entrega | ID de todas as entregas para as quais os KPIs foram enviados na duração. Também inclui IDs de entregas mestres de entregas recorrentes e entregas de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas secundárias da entrega recorrente.  O ID da entrega exibe resultados para todas as entregas, de DM1 a DM5. |
 | Rótulo de entrega | Rótulos de IDs de entrega |
-| ID de entrega realizada | IDs de apenas entregas realizadas. Nenhuma ID de entrega mestre recorrente/de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas secundárias da entrega recorrente. O ID de entrega realizada exibe os resultados para todas as entregas, começando com DM2 a DM5 (as entregas que realmente foram realizadas). |
+| ID de entrega executada | IDs de apenas entregas realizadas. Nenhuma ID de entrega mestre recorrente/de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas secundárias da entrega recorrente. O ID de entrega realizada exibe os resultados para todas as entregas, começando com DM2 a DM5 (as entregas que realmente foram realizadas). |
 | Rótulo de entrega realizada | Rótulos de IDs de entregas realizadas |
