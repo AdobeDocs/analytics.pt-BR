@@ -1,25 +1,25 @@
 ---
 description: Etapas que descrevem como carregar arquivos de fontes de dados.
 seo-description: Etapas que descrevem como carregar arquivos de fontes de dados.
-seo-title: Carregar um arquivo de Fontes de Dados
+seo-title: Carregar um arquivo de fontes de dados
 solution: Analytics
 subtopic: Fontes de dados
-title: Carregar um arquivo de Fontes de Dados
+title: Carregar um arquivo de fontes de dados
 topic: Desenvolvedor e implementação
-uuid: 5 a 9 dde 91-1297-47 e 5-9393-611 b 40413 c 17
+uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Carregar um arquivo de Fontes de Dados
+# Carregar um arquivo de fontes de dados
 
 Etapas que descrevem como carregar arquivos de fontes de dados.
 
 Após preparar um arquivo com dados das Fontes de dados, envie-o para Fontes de dados para processamento. O Adobe mantém diversos servidores FTP de Fontes de Dados, nos quais você pode carregar arquivos de Fontes de Dados. Com relação aos servidores FTP das Fontes de Dados, lembre-se:
 
-* Selecione Informações do FTP, ao lado da entrada da fonte de dados, na guia [!UICONTROL Gerenciador de fontes de dados] para consultar informações do Host FTP, logon e senha da conta FTP da fonte de dados. Qualquer pessoa que tenha acesso a essas informações pode carregar dados no seu conjunto de relatórios.
+* Select FTP Info next to the Data Source entry in the [!UICONTROL Data Sources Manage] tab to see the FTP Host, Login, and Password information for the data source's FTP account. Qualquer pessoa que tenha acesso a essas informações pode carregar dados no seu conjunto de relatórios.
 * Para fins de segurança, as contas FTP são fechadas após 30 dias de inatividade.
 * As contas FTP são específicas às fontes de dados. Não é possível utilizar uma conta FTP para carregar arquivos de fontes de dados para múltiplas fontes de dados.
 
