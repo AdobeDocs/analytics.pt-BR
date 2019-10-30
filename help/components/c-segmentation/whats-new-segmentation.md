@@ -3,9 +3,9 @@ description: Novos recursos da Segmentação do Adobe Analytics.
 seo-description: Novos recursos da Segmentação do Adobe Analytics.
 seo-title: Novidades na Segmentação do Analytics
 title: Novidades na Segmentação do Analytics
-uuid: ac 53 e 984-9 af 5-4536-8105-345 d 78 cc 5653
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Intervalos de datas em segmentos </p> </td> 
-   <td colname="col2"> <p>Permite criar segmentos que contêm intervalos de datas flexíveis para responder questões sobre campanhas ou eventos em andamento. Por exemplo, agora é possível criar um segmento com facilidade que inclua “todos que realizaram uma compra nos últimos 60 dias.” </p> <p> <p>Observação: esse recurso não está disponível na Análise ad hoc. </p> </p> </td> 
+   <td colname="col2"> <p>Permite criar segmentos que contêm intervalos de datas flexíveis para responder questões sobre campanhas ou eventos em andamento. Por exemplo, agora você pode criar facilmente um segmento que inclua "todos que fizeram uma compra nos últimos 60 dias". </p> <p> <p>Observação: esse recurso não está disponível na Análise ad hoc. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Novos recursos da Segmentação do Adobe Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restrições de dimensão com segmentos sequenciais </p> </td> 
-   <td colname="col2"> <p>Em uma cláusula “dentro”, entre instruções ENTÃO, é possível adicionar, por exemplo, “dentro de uma instância de palavra-chave de pesquisa”, “dentro de uma instância eVar 47”. Isso restringe o segmento a uma instância de uma dimensão. </p> </td> 
+   <td colname="col2"> <p>Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">use segmentos na análise de Fallout </a> </p> </td> 
@@ -136,7 +136,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data warehouse: detalhamento por segmento </p> </td> 
-   <td colname="col2"> <p>Adicionamos suporte para o recurso  <span class="wintitle">Detalhamento por segmento</span>. Além do detalhamento Padrão (Itens) e Personalizado (Ideias), agora é possível detalhar os relatórios por segmentos. Ao selecionar a guia <span class="wintitle">Segmentos</span>, a lista será preenchida com o mesmo conjunto de segmentos oferecidos na lista suspensa de <span class="wintitle">segmentos Disponíveis</span>. </p> <p>Os itens da linha com associação no segmento indicarão um valor de “1”, e itens fora do segmento indicarão “0”. </p> </td> 
+   <td colname="col2"> <p>Adicionamos suporte para o recurso  <span class="wintitle">Detalhamento por segmento</span>. Além do detalhamento Padrão (Itens) e Personalizado (Ideias), agora é possível detalhar os relatórios por segmentos. Ao selecionar a guia <span class="wintitle">Segmentos</span>, a lista será preenchida com o mesmo conjunto de segmentos oferecidos na lista suspensa de <span class="wintitle">segmentos Disponíveis</span>. </p> <p>Os itens de linha com associação no segmento relatarão um valor de "1" e os itens fora do segmento relatarão "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alterações de permissão no Criador de segmentos </p> </td> 
-   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Mais...</a> </p> </td> 
+   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Mais...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Suporte para “corresponde” e “não corresponde” em segmentos do Data warehouse </p> </td> 
-   <td colname="col2"> <p>O Data warehouse agora traz suporte para “corresponde” e “não corresponde” nas configurações de segmentos. (Relatórios e análises e a Análise ad hoc já suportam esse recurso). </p> <p>Os segmentos que antes não eram compatíveis com o Data warehouse por falta de suporte a “corresponde” e “não corresponde”, passam a ser compatíveis após essa versão (se esse for o único motivo para a incompatibilidade do segmento). Outros segmentos podem aparecer na lista de segmentos do Data Warehouse após essa versão. </p> </td> 
+   <td colname="col2"> <p>O Data Warehouse agora oferece suporte para "corresponde" e "não corresponde" nas definições de segmento. (Relatórios e análises e a Análise ad hoc já suportam esse recurso). </p> <p>Segmentos anteriormente incompatíveis com o Data Warehouse porque o Data Warehouse não suportava "corresponde" e "não corresponde" se tornarão compatíveis após a versão (presumindo que esse seja o único motivo pelo qual o segmento era incompatível). Outros segmentos podem aparecer na lista de segmentos do Data Warehouse após essa versão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save na API de serviços da Web </p> </td> 
