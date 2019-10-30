@@ -5,7 +5,7 @@ seo-title: Conector de dados Silverpop para Adobe Analytics
 title: Conector de dados Silverpop para Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,4 +47,4 @@ Essa integração apresenta os seguintes segmentos de marketing, prontos para us
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
 * **** Perfil de abandono de formulário (opcional): Incentive os visitantes a preencher um formulário inacabado por meio de campanhas especificamente projetadas para aqueles que iniciaram e não preencheram um formulário online. Esse segmento só será criado se dois eventos forem criados para o início do formulário e a conclusão do formulário.
 * **** Perfil de download de arquivo (opcional): Alcance os clientes em potencial por meio de campanhas projetadas para aqueles que demonstraram interesse baixando um white paper ou outro tipo de download. Esse segmento só será criado se 1 evento for criado para downloads de arquivos bem-sucedidos.
-* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
