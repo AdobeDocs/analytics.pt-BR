@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: Modal de implementação simplificada
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ O[!DNL Dynamic Tag Management] permite administrar a implementação do Adobe An
 
 Esse procedimento permite:
 
-* Criar rapidamente o seu primeiro [conjunto de relatórios](https://marketing.adobe.com/resources/help/pt_BR/analytics/getting-started/report-suites.html).
-* Implantar [!DNL Analytics] e o [Serviço de identidade](Servicehttps://marketing.adobe.com/resources/help/pt_BR/mcvid/).
+* Criar rapidamente o seu primeiro [conjunto de relatórios](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
+* Implantar [!DNL Analytics] e o Serviço [de](https://marketing.adobe.com/resources/help/en_US/mcvid/)identidade.
 
 * Executar relatórios de dados básicos a nível de página.
 
->[!NOTE]
->
->Antes de começar, verifique se o Analytics está [ativado na Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/core_services.html) (o processo de provisionamento da solução). Caso tenha recebido um email convidando para efetuar logon no Analytics com o painel Empresa, você completou o pré-requisito.
+> [!NOTE] Antes de começar, verifique se o Analytics está [ativado na Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (o processo de provisionamento da solução). Caso tenha recebido um email convidando para efetuar logon no Analytics com o painel Empresa, você completou o pré-requisito.
 
 **Para executar a janela restrita da implementação simplificada**
 
-1. Faça logon no [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    Ao acessar o [!DNL Analytics], o sistema identifica se você tem um conjunto de relatórios. Caso não tenha, a página [!UICONTROL Introdução ao Adobe Analytics] é exibida.
 
@@ -73,7 +71,7 @@ Esse procedimento permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Repositório de dados (conjunto de relatórios) </p> </td> 
-       <td colname="col2"> <p> Um <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/getting-started/report-suites.html" format="html" scope="external">conjunto de relatórios</a> é um conjunto discreto de dados que geralmente corresponde a uma única propriedade (site ou aplicativo) ou marca. Cada conjunto de relatórios tem seu próprio aglomerado de relatórios e métricas. </p> </td> 
+       <td colname="col2"> <p> Um <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">conjunto de relatórios</a> é um conjunto discreto de dados que geralmente corresponde a uma única propriedade (site ou aplicativo) ou marca. Cada conjunto de relatórios tem seu próprio aglomerado de relatórios e métricas. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Fuso Horário </p> </td> 
@@ -110,20 +108,20 @@ Esse procedimento permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Baixar </p> </td> 
-       <td colname="col2"> <p> Baixe o arquivo de instalação chamado <span class="filepath">INSTALAR &lt;nome do conjunto de relatórios&gt;.js</span>. Essa opção é adequada para usuário experientes que compreendem a <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/js_implementation.html" format="html" scope="external">implementação do JavaScript</a>. </p> <p> <p>Importante: a ação de baixar o código não equivale a implementar o <span class="keyword">Analytics</span>. Isso é uma implantação manual realizada nas páginas do site ou pelos serviços do Adobe Consulting. </p> </p> </td> 
+       <td colname="col2"> <p> Baixe o arquivo de instalação chamado <span class="filepath">INSTALAR &lt;nome do conjunto de relatórios&gt;.js</span>. Essa opção é adequada para usuário experientes que compreendem a <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">implementação do JavaScript</a>. </p> <p> <p>Importante: a ação de baixar o código não equivale a implementar o <span class="keyword">Analytics</span>. Isso é uma implantação manual realizada nas páginas do site ou pelos serviços do Adobe Consulting. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. Executar um relatório.
 
-   Após implantar a ferramenta Analytics, é possível executar um relatório no Reports &amp; Analytics para confirmar o envio de dados ao seu site. (Consulte [Fazer logon e navegar](https://marketing.adobe.com/resources/help/pt_BR/analytics/getting-started/analytics-navigation.html) para se familiarizar com a interface do Analytics.)
+   Após implantar a ferramenta Analytics, é possível executar um relatório no Reports &amp; Analytics para confirmar o envio de dados ao seu site. (Consulte [Fazer logon e navegar](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) para se familiarizar com a interface do Analytics.)
 
    Por exemplo, as **[!UICONTROL Métricas do site]** &gt; **[!UICONTROL Tempo real]** permitem a visualização dos dados mais recentes.
 
    >[!NOTE]
    >
-   >O relatório em [!UICONTROL Tempo real] exige configuração prévia à execução. Consulte [Configurar relatório em tempo real](https://marketing.adobe.com/resources/help/pt_BR/reference/t_realtime_admin.html).
+   >O relatório em [!UICONTROL Tempo real] exige configuração prévia à execução. Consulte [Configurar relatório em tempo real](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
 **Exemplo de relatório em tempo real**
 
