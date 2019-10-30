@@ -1,19 +1,19 @@
 ---
 description: Informações sobre o modelo das Fontes de dados que fornece uma estrutura de dados adequada para enviar um conjunto específico de dados externos para as Fontes de dados.
 seo-description: Informações sobre o modelo das Fontes de dados que fornece uma estrutura de dados adequada para enviar um conjunto específico de dados externos para as Fontes de dados.
-seo-title: Visão geral do modelo das Fontes de Dados
+seo-title: Visão geral do Modelo das Fontes de dados
 solution: Analytics
 subtopic: Fontes de dados
-title: Visão geral do modelo das Fontes de Dados
+title: Visão geral do Modelo das Fontes de dados
 topic: Desenvolvedor e implementação
-uuid: e 768 bcff-a 996-44 c 7-a 7 f 2-9 a 2 c 651 ecad 9
+uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visão geral do modelo das Fontes de Dados
+# Visão geral do Modelo das Fontes de dados
 
 Informações sobre o modelo das Fontes de dados que fornece uma estrutura de dados adequada para enviar um conjunto específico de dados externos para as Fontes de dados.
 
