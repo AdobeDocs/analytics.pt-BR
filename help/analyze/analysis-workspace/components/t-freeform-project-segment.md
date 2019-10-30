@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Segmentos
 title: Segmentos
-uuid: 677 f 6030-5 b 3 e -4 dfa-bb 79-9 f 27 f 3382 fb 1
+uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ O painel de segmentos do menu de Componentes mostra segmentos e modelos de segme
 
 ![](assets/segment_icons.png)
 
-[Uso de segmentos na Analysis Workspace no youtube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+[Uso de segmentos na Analysis Workspace no YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
 
 ## Criar segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -30,13 +30,11 @@ Lembre-se:
 
 * **Não** é possível soltar os seguintes tipos de componentes na zona de segmentos: métricas calculadas e dimensões/métricas; a partir dos quais não pode-se criar segmentos.
 * Para dimensões e eventos completos, a Analysis Workspace cria segmentos de ocorrência "existe". Exemplos: “Ocorrência em que eVar1 existe” ou “Ocorrência em que event1 existe”.
-* Se "não especificado" ou "nenhum" for solto na área de segmentos, ele será convertido automaticamente em um segmento "não existe" para que seja tratado corretamente na segmentação.
+* Se "não especificado" ou "nenhum" for solto na zona de segmentos, ele será automaticamente convertido em um segmento "não existe" para que seja tratado corretamente na segmentação.
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE]
->
->Os segmentos criados dessa forma são internos ao projeto.
+> [!NOTE] Segmentos criados dessa forma são internos ao projeto.
 
 Você pode escolher se deseja tornar os segmentos públicos (globais) seguindo estas etapas:
 
@@ -51,7 +49,7 @@ Existem vários outros métodos para aplicar os segmentos em um projeto de forma
 
 | Ação | Descrição |
 |--- |--- |
-| Criar segmento a partir da seleção | Criar um segmento em linha. Selecione as linhas, clique com o botão direito do mouse na seleção, em seguida, crie um segmento em linha. Este segmento se aplica somente ao projeto aberto e não é salvo como um segmento de Análise. 1. Selecione linhas. 2. Clique com o botão direito do mouse na seleção. 3. Click *Create segment from selection*. |
+| Criar segmento a partir da seleção | Criar um segmento em linha. Selecione as linhas, clique com o botão direito do mouse na seleção, em seguida, crie um segmento em linha. Este segmento se aplica somente ao projeto aberto e não é salvo como um segmento de Análise. 1. Selecionar linhas.  2. Clique com o botão direito do mouse na seleção.  3. Click *Create segment from selection*. |
 | Componentes &gt; Novo segmento | Exibe o Construtor de segmentos. See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
-| Compartilhar &gt; Compartilhar projeto ou Compartilhar &gt; Preparar dados do projeto | In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
+| Compartilhar &gt; Compartilhar projeto ou compartilhar &gt; Preparar dados do projeto | In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
 | Usar segmentos como Dimensões | Vídeo: [Usar segmentos como Dimensões na Analysis Workspace](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39) |
