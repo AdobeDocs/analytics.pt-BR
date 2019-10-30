@@ -2,18 +2,18 @@
 description: Descreve como as instâncias são contadas em variáveis de comercialização.
 keywords: Implementação do Analytics
 seo-description: Descreve como as instâncias são contadas em variáveis de comercialização.
-seo-title: Instâncias em variáveis de comercialização
+seo-title: Instâncias em variáveis de merchandising
 solution: Analytics
-title: Instâncias em variáveis de comercialização
+title: Instâncias em variáveis de merchandising
 topic: Desenvolvedor e implementação
-uuid: 4 cdfd 53 e -88 aa -48 cf-a 135-98 f 7 fc 8 dcece
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Instâncias em variáveis de comercialização
+# Instâncias em variáveis de merchandising
 
 Descreve como as instâncias são contadas em variáveis de comercialização.
 
@@ -50,7 +50,5 @@ s.products=";Fernie Snow Goggles"
 
 A alocação para "Nenhum" ocorre se você define um valor para uma eVar em uma página na qual nenhum evento de vinculação ocorre, ou se você define o valor da eVar na sequência de produtos sem um evento de vinculação.
 
->[!NOTE]
->
->A funcionalidade atual para contar instâncias em variáveis de comercialização está sendo analisada e está programada para mudar em uma versão futura.
+> [!NOTE] A funcionalidade atual para contar instâncias em variáveis de comercialização está sendo analisada e está programada para alteração em uma versão futura.
 
