@@ -5,9 +5,9 @@ seo-title: Configurar relatórios em tempo real
 solution: Analytics
 title: Configurar relatórios em tempo real
 topic: Ferramentas administrativas
-uuid: a 2 c 3 c 515-55 f 2-4 c 64-ac 92-a 86 d 75 e 78 a 86
+uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Para obter informações sobre métricas e dimensões em tempo real suportadas, consulte Métricas e dimensões [suportadas](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
 
    Caso tenha criado classificações, elas serão exibidas recuadas abaixo da dimensão para a qual foram definidas:
 
@@ -45,13 +45,13 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    >[!NOTE]
    >
-   >No momento, para um relatório em tempo real único, não oferecemos suporte à ativação de dimensões duplicadas, mesmo que uma classificação diferente seja selecionada para cada dimensão.
+   >Para um único relatório em tempo real, não oferecemos suporte à ativação de dimensões duplicadas, mesmo se uma classificação diferente for selecionada para cada dimensão.
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Para obter mais informações sobre classificações, consulte [Sobre classificações](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
 
    >[!NOTE]
    >
-   >Algumas dimensões, como "Palavra-chave de pesquisa" ou "Produto", não persistem em Tempo real como fazem em outro lugar do Adobe Analytics. Quando selecionar uma métrica não persistente, este aviso será exibido:
+   >Algumas dimensões, como "Palavra-chave de pesquisa" ou "Produto", não persistem em tempo real como em qualquer outro lugar no Adobe Analytics. Quando selecionar uma métrica não persistente, este aviso será exibido:
 
    ![](assets/warning_dimensions.png)
 
