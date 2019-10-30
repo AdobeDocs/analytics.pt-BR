@@ -6,9 +6,9 @@ seo-title: Visita
 solution: Analytics
 title: Visita
 topic: Métricas
-uuid: 91317487-f 116-4546-8 cd 2-421418 c 49 a 7 a
+uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A sequência de exibições de página em uma sessão. A métrica de visitas normalmente é usada em relatórios que exibem o número de sessões de usuário no intervalo selecionado.
 
->[!NOTE]
->
->For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+> [!NOTE] Para obter informações sobre como as visitas e as inicializações de aplicativos móveis são calculadas, consulte [Comparar visitas e inicializações](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) de aplicativos móveis na Base de conhecimento.
 
 A métrica de visita é sempre associada com um período de tempo, para que você saiba quando contar uma nova visita caso o mesmo visitante retorne ao site. Uma sessão é iniciada quando o usuário chega ao site pela primeira vez e é encerrada com umas das três possíveis situações:
 
@@ -28,9 +26,7 @@ A métrica de visita é sempre associada com um período de tempo, para que voc�
 * **2500 hits:** se um usuário gera um número grande de hits sem iniciar uma nova sessão, uma nova visita é contabilizada após 2500 solicitações de imagem.
 * **100 hits em 100 segundos**: se uma visita consiste em mais de 100 hits que ocorrem em menos de 100 segundos, a visita se encerra automaticamente. Geralmente, esse comportamento indica atividade bot, e essa limitação é imposta para impedir que essas visitas de processamento intenso aumentem a latência e o tempo que leva para que o relatórios sejam gerados.
 
->[!NOTE]
->
->A definição de uma visita pode ser abreviada por um conjunto de relatórios se solicitado especificamente, mas não pode ser ampliada. Faça com que um dos usuários suportados de sua organização entre em contato com o atendimento ao cliente para solicitar essa alteração.
+> [!NOTE] A definição de uma visita pode ser encurtada para um conjunto de relatórios, se solicitado especificamente, mas não pode ser ampliada. Faça com que um dos usuários suportados de sua organização entre em contato com o atendimento ao cliente para solicitar essa alteração.
 
 As situações a seguir não iniciam uma nova visita:
 
@@ -41,9 +37,7 @@ Uma visita não precisa necessariamente coincidir com uma sessão de navegador. 
 
 Quando uma visita termina, todas as variáveis com uma expiração de visita expiram e não continuam. A métrica de número de visitas sofrerá aumento na próxima visita do visitante.
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] Se você estiver usando o Analytics como fonte de geração de relatórios para o Adobe Target, consulte [Minimizando visitas infladas e contagens de visitantes em A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) na [!DNL Target] documentação.
 
 Para obter mais informações, consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) No Guia de implementação do Adobe Analytics.
 
