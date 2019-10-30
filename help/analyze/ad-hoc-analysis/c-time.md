@@ -3,7 +3,7 @@ description: O Tempo é uma dimensão de relatório que é útil para a tendênc
 seo-description: O Tempo é uma dimensão de relatório que é útil para a tendência em horas, dias, semanas e intervalos de datas. Por exemplo, um Relatório de produtos mostra quanta receita um produto criou durante um intervalo de datas selecionado. Você pode adicionar uma dimensão de Dia para ver a tendência em cada dia do período do relatório. O Tempo oferece configurações de granularidade para Hora, Dia, Semana, Mês, Trimestre e Ano. As predefinições de intervalos de data incluem configurações como Hoje, Ontem e Últimos 7 dias.
 seo-title: Hora
 title: Hora
-uuid: a 6 efbf 80-342 c -4 aeb -80 f 3-91 a 3 dbdbd 33 c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
