@@ -7,8 +7,8 @@ solution: Analytics
 title: Visão geral da implementação do JavaScript
 topic: Desenvolvedor e implementação
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
-translation-type: ht
-source-git-commit: 0a1db598a2b113ad71eb5d05d3f5c97f1af7cd62
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ Para começar a usar o Analytics, os dados devem ser enviados até um conjunto d
 
 A maneira mais fácil e recomendada de enviar dados para [!DNL Analytics] é usar o [Launch](/help/implement/implement-with-launch/create-analytics-property.md). No entanto, em alguns casos, você pode querer implementar o Analytics usando o método JavaScript mais antigo.
 
->[!NOTE]
->
->Esta seção descreve o método antigo de implementação do Analytics. Todos os clientes do Analytics têm acesso ao [Launch](/help/implement/implement-with-launch/create-analytics-property.md), que é o método padrão para implantar as tags da Experience Cloud.
+> [!NOTE]Esta seção descreve o método antigo de implementação do Analytics. Todos os clientes do Analytics têm acesso ao [Launch](/help/implement/implement-with-launch/create-analytics-property.md), que é o método padrão para implantar as tags da Experience Cloud.
 
 ## Etapas da implementação {#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -32,12 +30,12 @@ As etapas a seguir oferecem orientações para a implementação básica do Anal
 | Tarefa | Descrição |
 |--- |--- |
 | 1. Baixe o AppMeasurement para JavaScript e o serviço de ID. | Faça Logon no Analytics por meio da Experience Cloud. O arquivo de download está disponível em Analytics &gt; Admin &gt; Gerenciador de código.  Este zip de download contém vários arquivos.  AppMeasurement.js e VisitorAPI.js são os arquivos relevantes ao implementar o Analytics. |
-| 2. Configure o Serviço de identidade. (antigo Serviço de ID de visitante) | Consulte [Configurar o Serviço de identidade do Analytics](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) |
-| 3. Atualize `AppMeasurement.js`. | Copie o [exemplo de código AppMeasurement.js](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) e cole no início do arquivo `AppMeasurement.js`. No mínimo, atualize as seguintes variáveis:<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>Consulte [Preencher corretamente as variáveis trackingServer e o trackingServerSecure](https://helpx.adobe.com/br/analytics/kb/determining-data-center.html) ou entre em contato com o Atendimento ao cliente se não tiver certeza sobre esses valores. Se não forem definidos corretamente, os dados não serão coletados pela implementação.</br> |
+| 2. Configure o Serviço de identidade. (antigo Serviço de ID de visitante) | See [Set up the Identity Service for Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.html) |
+| 3. Atualize `AppMeasurement.js`. | Copy the [example AppMeasurement.js code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) and paste it at the beginning of your `AppMeasurement.js` file. No mínimo, atualize as seguintes variáveis:<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>Consulte Preencher [corretamente as variáveis](https://helpx.adobe.com/analytics/kb/determining-data-center.html) trackingServer e trackingServerSecure ou entre em contato com o Client Care se não tiver certeza sobre esses valores. Se não forem definidos corretamente, os dados não serão coletados pela implementação.</br> |
 | 4. Host `AppMeasurement.js` e `VisitorAPI.js`. | Esses arquivos JavaScript principais devem ser hospedados em um servidor Web acessível para todas as páginas em seu site. Você precisa do caminho até esses arquivos na próxima etapa. |
 | 5. Mencione `AppMeasurement.js` e `VisitorAPI.js` em todas as páginas do site. | <ul><li>Inclua o Serviço de ID de visitante ao adicionar a seguinte linha de código na tag `head` ou `body` em cada página. (`VisitorAPI.js` deve ser incluído antes de `AppMeasurement.js`).<br>`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</br></li><li>Inclua o AppMeasurement para JavaScript ao adicionar a seguinte linha de código na tag `head` ou `body` em cada página:<br>`script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</br></li></ul> |
-| 6. Atualize e implante o código de página. | Copie o [Exemplo de código de página](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) e cole logo após a tag de abertura `body` em cada página que você deseja rastrear. No mínimo, atualize as seguintes variáveis:<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s.pageName="INSERT-NAME-HERE" (por exemplo, s.pageName=document.title)</li></ul> |
-| 7. Use o Experience Cloud Debugger para verificar se os dados estão sendo enviados. | Instale o [Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). Depois de instalá-lo, carregue uma página onde você implantou o código da página e abra o depurador. O depurador exibe detalhes sobre os dados de coleta enviados. |
+| 6. Atualize e implante o código de página. | Copy the [Example Page Code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) and paste it just after the opening `body` tag on each page you want to track. No mínimo, atualize as seguintes variáveis:<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s.pageName="INSERT-NAME-HERE" (por exemplo, s.pageName=document.title)</li></ul> |
+| 7. Use o Experience Cloud Debugger para verificar se os dados estão sendo enviados. | Instale o [ Experience Cloud Debugger ](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). Depois de instalá-lo, carregue uma página onde você implantou o código da página e abra o depurador. O depurador exibe detalhes sobre os dados de coleta enviados. |
 
 ## Armazenamento em cache {#section_4E2D1D962DF046418134C43CFC49AD4A}
 
@@ -49,6 +47,6 @@ Se você estiver preocupado com o peso da página (tamanho) do Código H (AppMea
 
 O link a seguir explica como usar a funcionalidade GZIP em seu site para lidar com a compactação do código de JavaScript [!DNL s_code.js]:
 
-[Módulo Apache mod_deflate](https://httpd.apache.org/docs/2.0/mod/mod_deflate.html)
+[Apache Module mod_deflate](https://httpd.apache.org/docs/2.0/mod/mod_deflate.html)
 
 [Ativação da compactação gzip com Tomcat e Flex](https://www.cubicleman.com/2007/04/06/enabling-gzip-compression-with-tomcat-and-flex/)
