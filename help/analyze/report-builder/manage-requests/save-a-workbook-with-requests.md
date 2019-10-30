@@ -5,9 +5,9 @@ seo-title: Salvar uma pasta de trabalho com solicitações
 solution: Analytics
 title: Salvar uma pasta de trabalho com solicitações
 topic: Construtor de relatórios
-uuid: 31611031-0982-4124-9 fc 7-7888124 aa 603
+uuid: 31611031-0982-4124-9fc7-788124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Depois de criar relatórios com solicitações incorporadas, você pode salvá-los clicando em Arquivo &gt; Salvar ou Arquivo &gt; Salvar como no Excel. O construtor de relatórios detecta se o relatório contém solicitações. Quando você clica em uma dessas opções de salvar, o formulário Salvar pasta de trabalho como é exibido.
 
 * A prática recomendada pela Adobe para qualquer trabalho extenso com aplicativos do Windows é salvar suas solicitações na planilha com frequência a fim de evitar uma perda inesperada das solicitações na planilha.
-* Ao dar um nome para sua pasta de trabalho, considere usar um número de versão no nome do arquivo, de modo a preservar um histórico de seu trabalho. For example, name your first workbook [!DNL web_forecast_01_01.xlsx].
+* Ao dar um nome para sua pasta de trabalho, considere usar um número de versão no nome do arquivo, de modo a preservar um histórico de seu trabalho. Por exemplo, nomeie sua primeira pasta de trabalho [!DNL web_forecast_01_01.xlsx].
 * Se você já tiver salvo o relatório, o formulário [!UICONTROL Salvar modelo] não será exibido quando o relatório for salvo uma segunda vez. Se o relatório não contiver solicitações, essa caixa de diálogo não será exibida. Em vez dela, o formulário [!UICONTROL Salvar como] padrão do Excel será exibido.
 
 ## Filenames and location {#section_2406629E9B644CE08430826948977D5D}
