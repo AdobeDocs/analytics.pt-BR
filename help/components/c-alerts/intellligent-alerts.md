@@ -5,7 +5,7 @@ seo-title: Alertas inteligentes
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ O novo Criador de alertas e Gerenciador de alertas substituem a funcionalidade d
 
 * Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo).
 * Visualizar a frequência de disparo de um alerta.
-* Enviar alertas por email ou SMS com links para projetos da Analysis Workspace gerados automaticamente.
+* Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta.
 
 Os componentes do novo sistema de alertas incluem: o Criador de alertas, o Gerenciador de alertas, a Visualização de alertas e um melhor acesso ao contexto para criar alertas. A interface do usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos de alerta de legado [não estarão mais disponíveis](https://marketing.adobe.com/resources/help/en_US/sc/user/deprecated_alerts.html).
@@ -45,7 +45,7 @@ Há quatro maneiras de acesso o Criador de alertas:
 
 ## Perguntas frequentes: Como os alertas são calculados e acionados {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular o quão distante (quantos desvios padrão) cada ponto de dados está da norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
+Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular o quão distante (quantos desvios padrão) cada ponto de dados está da norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites de 99,75% e 99,99% foram introduzidos especificamente para a granularidade horária, de modo que não acionasse tantas anomalias.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
    <td colname="col2"> <p>Atualmente, não. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Posso obter uma tabela dos “valores esperados” que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
+   <td colname="col1"> <p><b>P: Posso obter uma tabela dos "valores esperados" que compõem a linha pontilhada, ou algum tipo de saída de quais são esses valores? </b> </p> </td> 
    <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95% e é semelhante à <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Detecção de anomalias do Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
