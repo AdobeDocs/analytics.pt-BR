@@ -7,7 +7,7 @@ title: Rastreamento de link metodologia
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -62,12 +62,12 @@ O uso da Região do link tem os seguintes benefícios:
 * Ajuda a diferenciar os links com a mesma ID primária.
 * As tendências em uma região são menos afetadas pelo aspecto dinâmico da página da Web.
 * Os usuários podem ver os links com melhor desempenho dentro de uma região. Com Região como uma âncora, podemos mostrar as sobreposições de links que não estão visíveis atualmente na página (Ajax, Direcionamento).
-* A Região pode substituir páginas, já que uma determinada região pode ser usada em várias páginas da Web. Ela ajuda a responder a perguntas como: “A região de Ofertas de produtos tem um melhor desempenho na Página de aterrissagem para mulheres ou para homens?”
+* A Região pode substituir páginas, já que uma determinada região pode ser usada em várias páginas da Web. Ajuda a responder perguntas como: "Minha região de "Ofertas de produtos" tem melhor desempenho na Página de aterrissagem para mulheres ou na Página de aterrissagem para homens?
 * A Região é uma dimensão relevante para analisar as páginas da Web altamente dinâmicas. Isso ocorre porque ela remove o ruído, devido aos links em mudança contínua: uma Região de “Notícias recentes” na página de aterrissagem CNN pode conter vários links dinâmicos. Mas a região vai estar sempre lá. Dessa forma, pode ser interessante direcionar a nível de Região durante muitos dias.
 
 **Rastreamento de região personalizada**
 
-É possível personalizar o parâmetro Região para um link (o padrão é uma ID do link): um conjunto de tags definido como “ID” vai usar todos os elementos HTML que tenham um parâmetro “id” como uma Região. Assim, definir a tag de Região para “id” provavelmente retornará várias regiões distintas (assim como existem diferentes “IDs” na página). Como alternativa, se você quiser uma implementação mais personalizada, é possível definir a tag Região para algo mais específico, como “region_id”.
+É possível personalizar o parâmetro Região para um link (o padrão é uma ID do link): um conjunto de tags definido como “ID” vai usar todos os elementos HTML que tenham um parâmetro “id” como uma Região. Portanto, configurar a tag Região como "id" provavelmente retornará muitas regiões distintas (tanto quanto existem "IDs" diferentes na página). Como alternativa, se você quiser uma implementação mais personalizada, é possível definir a tag Região para algo mais específico, como “region_id”.
 
 Abaixo, é possível observar alguns exemplos de HTML que usam o atributo padrão de ID da região, a “id”.
 
