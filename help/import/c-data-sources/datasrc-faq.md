@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: Perguntas frequentes da Fonte de Dados
 topic: Desenvolvedor e implementação
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Todas as linhas que iniciam com um sinal de número (#) em um arquivo das Fontes
 
 Sim. Como muitos relatórios de marketing são marcados pela coluna de datas, as Fontes de dados exigem uma coluna de datas.
 
-## Posso armazenar dados nas variáveis que já estou utilizando? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 A Adobe recomenda que você selecione variáveis novas, sem uso, para importar os dados por meio das Fontes de dados. Se não estiver seguro com relação à configuração de seu arquivo de dados, ou quiser conhecer melhor os riscos da reutilização de variáveis, entre em contato com o Atendimento ao cliente.
 
@@ -53,7 +53,7 @@ Os dados da Fonte de dados nunca substituirão os dados existentes no relatório
 
 Quando carrega os dados das Fontes de dados, você está carregando as métricas que estarão disponíveis na interface do relatório.
 
-Por exemplo, se estiver carregando a Receita da central de atendimento para os produtos que vende no site, você poderá ter essa Receita da central de atendimento no mesmo relatório da Receita online. No entanto, você não conseguirá usá-las junto com Visitas, porque você não carregou o total de visitas com elas. A Adobe só consegue gerar relatórios sobre as métricas e os elementos carregados por meio das Fontes de dados (além das métricas comuns do relatório de marketing).
+Por exemplo, se estiver carregando a Receita da central de atendimento para os produtos que vende no site, você poderá ter essa Receita da central de atendimento no mesmo relatório da Receita online. No entanto, você não poderá usá-lo juntamente com Visitas, pois não carregou o número de Visitas com ele. A Adobe só consegue gerar relatórios sobre as métricas e os elementos carregados por meio das Fontes de dados (além das métricas comuns do relatório de marketing).
 
 ## O que acontece se eu passar valores negativos por meio das Fontes de dados? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -68,7 +68,7 @@ Exemplo de arquivo:
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Data </code> </p> </td> 
+   <td colname="col1"> <p> <code> Date </code> </p> </td> 
    <td colname="col2"> <p> <code> Event15 </code> </p> </td> 
   </tr> 
   <tr> 
@@ -86,9 +86,9 @@ Como o processo da Fonte de Dados ("para FD Genérica, não Tráfego") cria ocor
 
 ## Existe diferenciação entre letras maiúsculas e minúsculas nas extensões dos arquivos durante o upload de um arquivo de classificação ou das Fonte de dados? {#section_710787BA4D8C403D8326D666807832B8}
 
-Se as extensões do arquivo de upload das Fontes de dados ou de um arquivo classificação estiverem em letra maiúscula, os arquivos não serão processados. As extensões do arquivo de upload da Fonte de dados devem estar em letra minúscula. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. However, [!DNL .txt] and [!DNL .fin] are processed.
+Se as extensões do arquivo de upload das Fontes de dados ou de um arquivo classificação estiverem em letra maiúscula, os arquivos não serão processados. As extensões do arquivo de upload da Fonte de dados devem estar em letra minúscula. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. No entanto, [!DNL .txt] e [!DNL .fin] são processados.
 
-## Posso acrescentar mais eventos no modelo gerado ou estou limitado a três?{#section_F184913926DD43B1872956CED308ADB5}
+##  Posso acrescentar mais eventos no modelo gerado ou estou limitado a três?{#section_F184913926DD43B1872956CED308ADB5}
 
 É possível adicionar quantos eventos você desejar. Contudo, o assistente permite apenas três eventos. Após criar o arquivo modelo, você pode adicionar mais eventos, conforme necessário.
 
@@ -130,7 +130,7 @@ O feed de dados contém as métricas de ID de transação que foram recebidas. C
 
 ## As eVars que persistem atualmente no Perfil do visitante são alocadas nas métricas carregadas por meio de fontes de dados? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-Não para o processamento completo, sim para a ID de transação. Como as fontes de dados de processamento completo são processadas usando perfis de visitante diferentes, mesmo que as IDs do visitante correspondam, elas não serão associadas em uma perspectiva de alocação de eVar. Como as fontes de dados de ID de transação são associadas ao perfil do visitante principal, as eVars persistentes são alocadas aos eventos carregados usando a ID de transação.
+Não para o processamento completo, sim para a ID de transação. As fontes de dados de processamento completo são processadas usando perfis de visitantes separados, de modo que, mesmo que as IDs de visitante correspondam, elas não serão vinculadas em conjunto de uma perspectiva de alocação de eVar. Como as fontes de dados de ID de transação são associadas ao perfil do visitante principal, as eVars persistentes são alocadas aos eventos carregados usando a ID de transação.
 
 ## As eVars carregadas com fontes de dados persistem no comportamento online posterior? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
