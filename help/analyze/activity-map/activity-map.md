@@ -1,34 +1,34 @@
 ---
-description: O [!DNL Activity Map] é um aplicativo do Adobe Analytics projetado para classificar a atividade do link usando sobreposições visuais e fornecer um painel de análises em tempo real para monitorar a participação do público-alvo nas suas páginas da Web.
-seo-description: O [!DNL Activity Map] é um aplicativo do Adobe Analytics projetado para classificar a atividade do link usando sobreposições visuais e fornecer um painel de análises em tempo real para monitorar a participação do público-alvo nas suas páginas da Web.
-seo-title: Visão geral do [!DNL Activity Map]
+description: O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.
+seo-description: O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.
+seo-title: Visão geral do Activity Map
 solution: Analytics
-title: Visão geral do [!DNL Activity Map]
+title: Visão geral do Activity Map
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
 
 
-# [!DNL Activity Map] visão geral
+# Visão geral do Activity Map
 
- O [!DNL Activity Map] é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.
+O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.
 
-[!DNL Activity Map]O permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.
+O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.
 
 **Introdução aos administradores**
 
-* [Habilitar [!DNL Activity Map]](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+* [Habilitar o Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Código de implementação de exemplo](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
 **Introdução para usuários**
 
-* [Instalar os plug-ins do navegador [!DNL Activity Map]](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Iniciar [!DNL Activity Map]](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Instalar os plug-ins do navegador do Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Inicializar o Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**[!DNL Activity Map]feições**
+**Recursos do Activity Map**
 
 * [Rastreamento de links avançado](lnk-tracking-overview.md)
 * [Modo Padrão vs. modo Online](activitymap-standard-live.md)
@@ -41,10 +41,10 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 * [Detalhes da sobreposição](activitymap-overlay-details.md)
 * [Exportar para arquivo CSV](activitymap-csv.md)
 * [Sistemas e requisitos compatíveis](activitymap-sysreqs.md)
-* [Perguntas frequentes sobre o [!DNL Activity Map]](activitymap-faq.md)
+* [Perguntas frequentes sobre o Activity Map](activitymap-faq.md)
 * [Metodologia de Rastreamento de links](activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-* [Definir configurações do [!DNL Activity Map]](activitymap-overlay-settings.md)
-* [Interface do usuário do [!DNL Activity Map]](activitymap-user-interface.md)
-* [Relatório do [!DNL Activity Map] no Analytics](activitymap-reporting-analytics.md)
+* [Definir configurações do Activity Map](activitymap-overlay-settings.md)
+* [Interface do usuário do Activity Map](activitymap-user-interface.md)
+* [Relatórios do Activity Map no Analytics](activitymap-reporting-analytics.md)
 * [Solução de problemas nas extensões do navegador](troubleshooting-browser-extensions.md)
 * [Recursos de conhecimento](activitymap-info-resources.md)
