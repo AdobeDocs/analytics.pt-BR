@@ -8,7 +8,7 @@ title: Windows Silverlight, NET, IIS, XBOX
 topic: Desenvolvedor e implementação
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->These SDKs have been sunset and are no longer supported or distributed by Adobe.
+>Esses SDKs foram encerrados e não são mais suportados nem distribuídos pela Adobe.
 
->[!NOTE]
->
->Para localizar a versão atual da biblioteca, ative o registro de depuração.
+> [!NOTE] Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
 ## Versão 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Data de lançamento: **agosto de 2014**
 
-* Removed support for the . [!DNL Microsoft Silverlight Analytics Framework] Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Remoção do suporte para o [!DNL Microsoft Silverlight Analytics Framework]. A Adobe não oferece mais suporte ou distribuição da integração do [!DNL Microsoft Silverlight Analytics Framework] para [!DNL AppMeasurement].
 
 * Alterações internas para suportar recursos futuros.
 
@@ -35,16 +33,16 @@ Data de lançamento: **agosto de 2014**
 
 Data de lançamento: **março de 2013**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* Correção da exceção ao obter o referenciador padrão [!DNL Silverlight] fora de um contexto do navegador e a propriedade SSL exposta corretamente no componente [!DNL Microsoft Silverlight Analytics Framework].
 
 ## Versão 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 Data de lançamento: **fevereiro de 2013**
 
-* Adicionado suporte para enviar URLs maiores que 255 bytes para suportar a expansão do campo URL da página nos servidores de coleta de dados da Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Isso ajuda a evitar que URLs longos tenham precedência em relação a outros dados no caso de truncagem, mas ainda permite a captura de URLs longos.
+* Adicionado suporte para enviar URLs maiores que 255 bytes para suportar a expansão do campo URL da página nos servidores de coleta de dados da Adobe. URLs de páginas mais longas do que 255 bytes são divididos, os primeiros 255 bytes aparecem no parâmetro `g=` = os bytes restantes aparecem posteriormente em uma sequência de consulta no parâmetro de consulta `-g=`. Isso ajuda a evitar que URLs longos tenham precedência em relação a outros dados no caso de truncagem, mas ainda permite a captura de URLs longos.
 
 * Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
-* Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
+* Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Configurar esse sinalizador como true, faz com que a [!DNL AppMeasurement] biblioteca não continue com essa chamada de rastreamento. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
 
    ```js
    s.doPlugins = function(s) { 
@@ -64,7 +62,7 @@ Data de lançamento: **setembro de 2012**
 * Correção de um problema que podia fazer com que o evento de conclusão de vídeo não fosse enviado quando um método `media.monitor` personalizado que controlasse o evento de fechamento da mídia fosse usado:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -90,7 +88,7 @@ Data de lançamento: **janeiro de 2012**
 
 ## Versão 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* Novo suporte e criação para plataforma do Telefone [!DNL iOS], incluindo rastreamento offline.
 * Suporte para a delegação de doRequest a fim de substituir como as solicitações são enviadas para rastrear dados.
 * Suporte para o contextData, que direciona as regras de processamento do lado do servidor (somente v15).
 * Suporte para chamadas de servidor leves (em beta).
