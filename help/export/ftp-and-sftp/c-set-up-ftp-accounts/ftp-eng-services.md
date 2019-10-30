@@ -1,13 +1,13 @@
 ---
 description: Muitos dos envolvimentos dos serviços de engenharia da Adobe estão relacionados à troca de dados, o que geralmente requer um FTP.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Muitos dos envolvimentos dos serviços de engenharia da Adobe estão relacionados à troca de dados, o que geralmente requer um FTP.
 seo-title: Envolvimentos de serviços de engenharia com FTP
 solution: Analytics
 title: Envolvimentos de serviços de engenharia com FTP
-uuid: 38 d 1 fc 13-b 709-4661-805 b -7 efa 82 b 57 a 47
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ Similar ao upload do SAINT via FTP, o [!UICONTROL DB VISTA] recebe dados por mei
 
 ## Envolvimentos personalizados {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Os serviços de engenharia da Adobe oferecem projetos personalizados que usam FTP e SFTP. Consulte os serviços de engenharia da Adobe para obter mais informações sobre projetos personalizados. For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Os serviços de engenharia da Adobe oferecem projetos personalizados que usam FTP e SFTP. Consulte os serviços de engenharia da Adobe para obter mais informações sobre projetos personalizados. Para obter informações sobre SFTP, consulte Protocolo [de transferência de arquivos](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)seguros.
