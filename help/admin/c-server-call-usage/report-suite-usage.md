@@ -1,20 +1,20 @@
 ---
 description: A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
 seo-description: A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
-seo-title: Exibir uso do conjunto de relatórios
-title: Exibir uso do conjunto de relatórios
-uuid: c 609 ed 99-9 acc -4023-905 a -81 a 40 dd 07 a 79
+seo-title: Visualizar uso do conjunto de relatórios
+title: Visualizar uso do conjunto de relatórios
+uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Exibir uso do conjunto de relatórios
+# Visualizar uso do conjunto de relatórios
 
 A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Uso de chamada de servidor]** &gt; **[!UICONTROL Uso do conjunto de relatórios]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Uso **[!UICONTROL de chamada do]** servidor &gt; Uso do conjunto **[!UICONTROL de relatórios]**
 
 >[!IMPORTANT]
 >
@@ -51,13 +51,13 @@ Esta opção permite baixar os dados de uso atuais, e dados de períodos de temp
 
 | Elemento do relatório | Descrição |
 |--- |--- |
-| Nome do arquivo | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| Nome do arquivo | Nome codificado: Relatório de uso `day and time of report creation.csv` |
 | Conjunto de relatórios incluídos | Quaisquer conjuntos de relatórios selecionados na página Uso de servidor de relatório são incluídos nesta lista. |
 | Tipos de chamadas incluídos | Especifique qualquer combinação destes: Todas as chamadas (padrão), Primárias, Secundárias, Primárias móveis, Secundárias móveis. |
-| Intervalo de tempo | É possível escolher o período de uso atual ou especificar um intervalo personalizado.  Para um intervalo personalizado, especifique o Início do intervalo e o Término do intervalo. <br>**Observação:** Não é possível baixar dados de uso antes de janeiro de 2015 </br>. |
+| Intervalo de tempo | É possível escolher o período de uso atual ou especificar um intervalo personalizado.  Para um intervalo personalizado, especifique o Início do intervalo e o Término do intervalo. <br>**** Observação: Não é possível baixar dados de uso anteriores a janeiro de 2015 </br>. |
 
 1. Clique em **[!UICONTROL Baixar]**.
 
-Esta é uma captura de tela da aparência do arquivo. csv baixado. Inclui uma coluna para a ID do conjunto de relatórios. A ID do conjunto de relatórios especifica uma ID exclusiva que pode conter apenas caracteres alfanuméricos. Essa ID não pode ser alterada depois que um conjunto de relatórios é criado.
+Esta é uma captura de tela da aparência do arquivo .csv baixado. Inclui uma coluna para a ID do conjunto de relatórios. A ID do conjunto de relatórios especifica uma ID exclusiva que pode conter apenas caracteres alfanuméricos. Essa ID não pode ser alterada após a criação de um conjunto de relatórios.
 
 ![](assets/download-usage.png)
