@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Perguntas frequentes sobre o uso de chamadas do servidor
 title: Perguntas frequentes sobre o uso de chamadas do servidor
-uuid: 43340481-2 e 49-446 b-bec 7-86 fproj fcadeb 4233
+uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>R: Não. Detalhes de uso e de compromisso são exibidos ao longo de todas as suas empresas de logon gerenciadas pelo seu contrato do Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Na guia Uso do conjunto de relatórios, vejo o consumo em conjuntos de relatórios que não estão disponíveis para relatório na empresa de logon atual. É um erro? </b> </p> </td> 
+   <td colname="col1"> <p><b>P: Na guia Uso do conjunto de relatórios, posso ver o consumo nos conjuntos de relatórios que não estão disponíveis para relatório na empresa de logon atual. É um erro? </b> </p> </td> 
    <td colname="col2"> <p>R: Não. Da mesma maneira que ocorre com seus detalhes de compromisso e de consumo de chamada do servidor, a lista de conjuntos de relatórios abrange todas as empresas de logon que você implementou em seu contrato do Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Meu contrato não inclui uma cláusula sobre chamadas do servidor secundárias mas ainda posso vê-las nas guias Uso atual e Uso de conjuntos de relatórios. Isso significa que começarei a incorrer excedentes?</b> </p> </td> 
-   <td colname="col2"> <p>R: Seu contrato define se você pode incorrer excedentes ao enviar chamadas do servidor secundárias sem ser provisionado para elas. Em alguns casos, o consumo de chamadas do servidor secundárias pode ser contado em relação ao seu compromisso para chamadas do servidor primárias, esgotando-as mais rapidamente do que o esperado. Em outros casos, você pode ser cobrado por chamadas do servidor secundárias mesmo se não tiver consumido todas as suas chamadas do servidor primárias. Consulte seu contrato ou entre em contato com seu Gerente de sucesso do cliente para confirmar. </p> </td> 
+   <td colname="col2"> <p>R: Seu contrato define se você pode incorrer excedentes ao enviar chamadas do servidor secundárias sem ser provisionado para elas. Em alguns casos, o consumo de chamadas do servidor secundárias pode ser contado em relação ao seu compromisso para chamadas do servidor primárias, esgotando-as mais rapidamente do que o esperado. Em outros casos, você pode ser cobrado por chamadas de servidor secundárias mesmo se não tiver consumido todas as chamadas de servidor primárias. Consulte seu contrato ou entre em contato com seu Gerente de sucesso do cliente para confirmar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Meu contrato/período de uso começou recentemente, e já estou recebendo alertas sobre exceder meu compromisso de chamadas do servidor secundárias. Isso é um erro e serei cobrado por excedentes? </b> </p> </td> 
