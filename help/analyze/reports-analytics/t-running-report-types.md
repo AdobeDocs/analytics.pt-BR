@@ -7,7 +7,7 @@ title: Executar tipos de relatórios diferentes
 topic: Relatórios, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contrib
 
 **[!UICONTROL Relatórios]** &gt; Métricas **[!UICONTROL do]** site &gt; Detecção **[!UICONTROL de anomalias]** .
 
->[!NOTE]
->
->Você também pode executar a Detecção de anomalias em projetos da Analysis Workspace. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] Você também pode executar a Detecção de anomalias em projetos da Analysis Workspace. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Para obter informações sobre como configurar uma Detecção de anomalias, consulte o [Guia de referência](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -313,7 +311,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Classificar por... Mais popular/ganhadores/perdedores</strong></td> 
-   <td class="chdesc stentry"> Você pode alternar para classificar por <span class="uicontrol">Mais popular</span> (padrão), <span class="uicontrol">Ganhadores</span> (dimensões que mostram o maior crescimento) e <span class="uicontrol">Perdedores</span> (dimensões em uma trajetória descendente). <p>Esta é a fórmula usada para determinar ganhadores ou perdedores: o tempo real procura a amostra mais anterior e a amostra mais próxima a mais recente, e efetua um cálculo simples de "% de alteração". Portanto, se "Últimos 15 minutos" for selecionado e n representa o minuto atual, n-1 é comparado a n-15. No momento, o Tempo real não efetua ponderação. O minuto atual é ignorado, pois não está completo e provavelmente produz uma % de alteração falsa. </p> <p>Essa fórmula é consistente em todas as métricas usadas no relatório de tempo real. </p> </td> 
+   <td class="chdesc stentry"> Você pode alternar para classificar por <span class="uicontrol">Mais popular</span> (padrão), <span class="uicontrol">Ganhadores</span> (dimensões que mostram o maior crescimento) e <span class="uicontrol">Perdedores</span> (dimensões em uma trajetória descendente). <p>Esta é a fórmula usada para determinar ganhadores ou perdedores: O tempo real procura a amostra mais antiga e a amostra próxima à mais recente e faz um cálculo simples de "% de alteração". Portanto, se "Últimos 15 minutos" for selecionado, e n representa o minuto atual, n-1 é comparado a n-15. No momento, o Tempo real não efetua ponderação. O minuto atual é ignorado, pois não está completo e provavelmente produz uma % de alteração falsa. </p> <p>Essa fórmula é consistente em todas as métricas usadas no relatório de tempo real. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Reportlet 1 secundário</strong></td> 
