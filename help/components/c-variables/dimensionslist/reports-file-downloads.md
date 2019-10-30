@@ -7,7 +7,7 @@ title: Downloads de Arquivos
 topic: Relatórios
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ Use esse relatório para:
 
 Os relatórios de marketing capturam informações sobre arquivos transferidos por download de qualquer página do site que contenha o código JavaScript. No entanto, algumas variáveis devem estar presentes e configuradas corretamente para que as informações de download do arquivo possam ser relatadas. Se o relatório não estiver exibindo os dados, ou não mostra os valores esperados, siga as etapas abaixo para validar sua implementação.
 
-1. No site, localize o arquivo global JavaScript. Geralmente, esse arquivo é nomeado como [!DNL s_code.js], mas pode ter sido renomeado. If it has been renamed, you can search the JavaScript files on your site for the value , which is a part of the JavaScript code.*`s.account`*
+1. No site, localize o arquivo global JavaScript. Geralmente, esse arquivo é nomeado como [!DNL s_code.js], mas pode ter sido renomeado. Se ele tiver sido renomeado, você poderá pesquisar os arquivos JavaScript no seu site quanto ao valor *`s.account`*, que faz parte do código JavaScript.
 
 1. No arquivo, localize a variável [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Certifique-se de configurar como *verdadeiro*
 
