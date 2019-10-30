@@ -5,7 +5,7 @@ seo-title: Criar métricas
 title: Criar métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -112,7 +112,7 @@ Há várias maneiras de acessar o Criador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de dimensões </p> </td> 
-   <td colname="col3"> <p>Em vez de sair do Criador de métricas calculadas para criar um segmento simples (no Construtor de segmentos), por exemplo “Página = Página inicial”, é possível arrastar para a Página e selecionar Página inicial diretamente do Criador de métricas calculadas. </p> <p>Isso resulta em um fluxo de trabalho mais simplificado para a criação de métricas calculadas segmentadas. </p> </td> 
+   <td colname="col3"> <p>Em vez de sair do Criador de métricas calculadas para criar um segmento simples (no Construtor de segmentos), por exemplo, "Página = Página inicial", você pode arrastar na Página e selecionar Página inicial diretamente do Construtor de métricas calculadas. </p> <p>Isso resulta em um fluxo de trabalho mais simplificado para a criação de métricas calculadas segmentadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de métricas </p> </td> 
