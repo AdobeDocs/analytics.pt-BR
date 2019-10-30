@@ -1,23 +1,23 @@
 ---
 description: Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
 seo-description: Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
-seo-title: Métricas calculadas usadas nos relatórios de Canal de marketing
+seo-title: Métricas calculadas usadas nos relatórios de canal de marketing
 solution: Analytics
 subtopic: Canais de marketing
-title: Métricas calculadas usadas nos relatórios de Canal de marketing
+title: Métricas calculadas usadas nos relatórios de canal de marketing
 topic: Reports and Analytics
-uuid: b 33 dd 05 b -4 c 85-436 b -88 da -396 cb 42 ef 01 c
+uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Métricas calculadas usadas nos relatórios de Canal de marketing
+# Métricas calculadas usadas nos relatórios de canal de marketing
 
 Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
 
-## Calculated metrics used Marketing Channel reports {#topic_4521D324A79E43EF99E69FCDE1E92F74}
+## Métricas calculadas usadas nos relatórios de canal de marketing {#topic_4521D324A79E43EF99E69FCDE1E92F74}
 
 Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
 
@@ -33,7 +33,7 @@ Adicione uma métrica calculada do Relatório de resumo dos Canais de marketing.
 
    See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
 
-1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
+1. **[!UICONTROL No relatório, clique em]** Editar. ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
