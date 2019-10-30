@@ -9,7 +9,7 @@ title: Personalizar permissões de ferramentas do Analytics
 topic: Ferramentas administrativas
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Habilite permissões do usuário para obter integração a itens Gerais (faturas
 
 **[!UICONTROL Gerenciamento]** de usuários &gt; **[!UICONTROL Grupos]** &gt; Acesso **[!UICONTROL a]** todos os relatórios &gt; Ferramentas **** do Analytics &gt; **[!UICONTROL Personalizar]**
 
->[!NOTE]
->
->A versão lançada no último trimestre de 2016 (20 de outubro) trouxe mudanças para o gerenciamento de grupos. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] A versão lançada no último trimestre de 2016 (20 de outubro) trouxe mudanças para o gerenciamento de grupos. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## Acesso ao Relatório - Ferramentas do Analytics
 
