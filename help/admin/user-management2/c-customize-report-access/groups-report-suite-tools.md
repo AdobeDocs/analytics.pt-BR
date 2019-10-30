@@ -9,7 +9,7 @@ title: Personalizar ferramentas do Conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: 3c95d296-ffd0-4971-9c5f-110dbe042ce
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -79,7 +79,7 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Visitas de Retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Um relatório que mostra o número de visitas, em que o no número de visitas for maior que 1. O Relatório de visitas de retorno inclui os visitantes sem cookies. |
 | [Importador / exportador de classificações](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) e [Construtor de regras](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Consolidado em classificações (veja abaixo). |
 | Gerenciador de feeds de dados | Concede direitos a Feed de dados do Analytics. |
-| Classifications | Combina as seguintes permissões: 'Classificações de tráfego', 'Classificações de vídeo', 'Classificações de conversão', 'Hierarquias de classificação', 'Gerenciador de classificações' e 'Importador/Exportador de classificações e Construtor de regras'.  Observação: com essa permissão, usuários editam classificações para todos os conjuntos de relatórios, não somente os selecionados. |
+| Classificações | Combina as seguintes permissões: 'Classificações de tráfego', 'Classificações de vídeo', 'Classificações de conversão', 'Hierarquias de classificação', 'Gerenciador de classificações' e 'Importador/Exportador de classificações e Construtor de regras'.  Observação: com essa permissão, usuários editam classificações para todos os conjuntos de relatórios, não somente os selecionados. |
 | [Análise de contribuição](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede direitos de uso à Análise de contribuição na Analysis Workspace. |
 | **Itens do painel** |  |
 | As configurações em Itens do painel permitem o acesso a [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) em Relatórios e análises:, Meus relatórios recomendados, Reportlet de resumo da empresa, Imagem, Reportlet de medição/KPI, Totais do conjunto de relatórios, Texto, Reportlet, Reportlet de resumo de uso e Recursos da Web |  |
