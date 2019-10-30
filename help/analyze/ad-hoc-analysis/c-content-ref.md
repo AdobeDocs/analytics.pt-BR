@@ -47,7 +47,7 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 
 >[!NOTE]
 >
->In Ad Hoc Analysis, you cannot add date ranges to segments. Esse recurso está disponível na Analysis Workspace. Além disso, não é possível usar a sequência Somente Antes/Somente depois na Ad Hoc Analysis.
+>Na Análise ad hoc, não é possível adicionar intervalos de datas a segmentos. Esse recurso está disponível na Analysis Workspace. Além disso, não é possível usar a sequência Somente Antes/Somente depois na Ad Hoc Analysis.
 
 ## O que aconteceu com meus segmentos existentes? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
