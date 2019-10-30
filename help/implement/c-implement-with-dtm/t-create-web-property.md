@@ -7,8 +7,8 @@ solution: Analytics
 title: Criar propriedade da Web
 topic: Desenvolvedor e implementação
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,13 +17,11 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e subdomínios com uma biblioteca de regras incluída em um código de incorporação.
 
->[!NOTE]
->
->Somente um usuário com direitos de Administrador pode criar uma propriedade. Para obter mais informações sobre funções, consulte [Criar e gerenciar grupos no DTM](https://marketing.adobe.com/resources/help/pt_BR/dtm/groups.html) na Documentação do produto Dynamic Tag Management.
+> [!NOTE] Somente um usuário com direitos de Administrador pode criar uma propriedade. Para obter mais informações sobre funções, consulte [Criar e gerenciar grupos no DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) na Documentação de produto do Gerenciamento dinâmico de tags.
 
 É possível gerenciar e rastrear esses ativos da mesma maneira com o DTM. Por exemplo, suponhamos que você tenha vários sites baseados em um só modelo e queira rastrear os mesmos recursos em todos eles. É possível aplicar uma propriedade da Web a vários domínios.
 
-Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte [Propriedades da Web](https://marketing.adobe.com/resources/help/pt_BR/dtm/web_property.html) na Documentação do produto Dynamic Tag Management.
+Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte Propriedades [da](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) Web na Documentação de produto do Gerenciamento dinâmico de tags.
 
 1. Navegue para a página da empresa e clique em **[!UICONTROL Adicionar a propriedade]**.
 
