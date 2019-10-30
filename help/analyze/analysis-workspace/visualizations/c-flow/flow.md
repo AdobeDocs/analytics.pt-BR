@@ -3,16 +3,16 @@ description: 'null'
 seo-description: 'null'
 seo-title: Visão geral do fluxo
 title: Visão geral do fluxo
-uuid: fc 22 b 573-2 d 18-4 c 29-866 c-f 317 c 920 d 27 a
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Visão geral do fluxo
 
-O recurso de fluxo mostra os caminhos do cliente pelos seus sites e aplicativos.
+O recurso de fluxo mostra os caminhos do cliente pelos sites e aplicativos.
 
 Permite:
 
@@ -20,11 +20,9 @@ Permite:
 * Analisar para onde os clientes vão antes e depois de pontos de verificação específicos, como a entrada, uma dimensão específica ou a saída
 * Criar segmentos, designando um ponto específico em um determinado caminho
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] Para obter informações sobre como os resultados da aplicação de segmentos ao Fluxo podem diferir entre a Analysis Workspace e o Relatórios e análises/Análise ad hoc, consulte [Segmentação como base para Fluxo e Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Visualização de fluxo no youtube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Visualização de fluxo no YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## Fluxo interdimensional {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
