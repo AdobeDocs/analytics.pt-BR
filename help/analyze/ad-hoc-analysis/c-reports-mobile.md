@@ -3,7 +3,7 @@ description: Exibe informações sobre acesso a sites a partir de um dispositivo
 seo-description: Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 seo-title: Relatórios móveis
 title: Relatórios móveis
-uuid: feb 1 fc 34-3541-4 b 2 d-b 9 cb -84 d 2 e 91 d 9539
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## Relatórios móveis {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os Conjuntos de relatórios.
 
@@ -22,7 +22,7 @@ Para melhorar a identificação do visitante para dispositivos móveis, você de
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
