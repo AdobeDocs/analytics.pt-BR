@@ -6,9 +6,9 @@ seo-title: Criar intervalos de datas personalizados
 solution: Analytics
 title: Criar intervalos de datas personalizados
 topic: Reports and Analytics
-uuid: c 8873 d 41-454 d -4 f 22-ad 1 f -38 cacec 5 a 3 bc
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Você pode arrastar esse intervalo de datas personalizado para uma coluna ao lad
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Usar um intervalo de datas em andamento de 7 dias {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 Um intervalo de datas é aplicado ao nível de painel. Para adicionar um intervalo de datas para o seu projeto, clique em **Ações** &gt; **Adicionar painel** e especifique um novo intervalo de datas.
 
