@@ -1,14 +1,14 @@
 ---
-seo-title: Configurar uma conta de publicidade
-title: Configurar uma conta de publicidade
-uuid: 4 e 37 caa 3-e 4 a 5-43 ad -97 c 0-12 db 62 ad 5283
+seo-title: Configurar uma conta publicitária
+title: Configurar uma conta publicitária
+uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurar uma conta de publicidade
+# Configurar uma conta publicitária
 
 Os administradores do Adobe Analytics podem criar novas contas publicitárias e mapear diversas contas a vários conjuntos de relatórios (1:1, 1:Vários, Vários:Vários).
 
@@ -35,7 +35,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](.
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> <p>Você tem 2 opções: Google adwords e Microsoft Bing Ads. </p> <p>Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.  </p> </td> 
+      <td colname="col2"> <p>Você tem duas opções: Google AdWords e Microsoft Bing Ads. </p> <p>Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Nome da conta </p> </td> 
@@ -47,7 +47,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](.
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
-        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Após o logon com êxito, o campo do token oauth será exibido 
+        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois que você fizer logon com êxito, o campo Token OAuth será exibido 
         <systemoutput>
           Recuperado
         </systemoutput>. </p> </td> 
@@ -70,12 +70,12 @@ Preencha as **[!UICONTROL Configurações de rastreamento]seguindo as instruçõ
       <td colname="col1"> <p>Tipo </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: permite que o mecanismo da Advertising Cloud decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado. <p>Importante: para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações: 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: Permite que o Advertising Cloud Engine decida como os parâmetros de rastreamento são anexados aos modelos/URLs de destino do Search Engine. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado. <p>Importante: Para configurar uma conta de mecanismo de pesquisa em 'Modo automático', você é responsável pelas seguintes ações: 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">O parâmetro e valor "s_kwcid" será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Como resultado, pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor "s_kwcid". Dessa forma, se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres (um exemplo de um caractere especial é o "+" usado em palavras-chave de “Grande correspondência modificada”). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: permite gerenciar como os parâmetros de rastreamento são adicionados aos URLs de destino/modelos de rastreamento do Mecanismo de pesquisa. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -109,7 +109,5 @@ Preencha as **[!UICONTROL Configurações de rastreamento]seguindo as instruçõ
 
    Agora você é encaminhado para a [interface do usuário de gerenciamento](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) das contas publicitárias, onde sua conta recém-criada deve estar listada.
 
->[!NOTE]
->
->Você deve esperar pelo menos 24 horas antes dos dados do mecanismo de pesquisa começarem a preencher seus relatórios do Analytics.
+> [!NOTE] Você deve esperar pelo menos 24 horas antes que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics.
 
