@@ -5,9 +5,9 @@ seo-title: Copiar solicitações simples
 solution: Analytics
 title: Copiar solicitações simples
 topic: Construtor de relatórios
-uuid: ff 20560 a -01 ee -47 e 7-8 bd 1-b 73 edb 010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ A [referential request](../../../../analyze/report-builder/manage-requests/c-cop
 
    >[!NOTE]
    >
-   >Somente as solicitações são copiadas, e não o conteúdo das células. Se você tiver outras informações que não se baseie em solicitações, mas que sejam relevantes à compreensão dos dados exibidos nas células (como cabeçalhos de colunas de tabelas ou identificadores de linhas), use os comandos padrão Copiar e Colar do Excel.
+   >Somente as solicitações são copiadas, não o conteúdo das células. Se você tiver outras informações que não se baseie em solicitações, mas que sejam relevantes à compreensão dos dados exibidos nas células (como cabeçalhos de colunas de tabelas ou identificadores de linhas), use os comandos padrão Copiar e Colar do Excel.
 
    Visto que o Excel usa diferentes áreas de transferência para copiar conteúdos de células e para copiar solicitações, você pode copiar tanto conteúdos de células que não sejam solicitações quanto solicitações executando comandos Copiar/Colar e Copiar solicitações/Colar solicitações em série. No entanto, se você aplicar formatação a solicitações na planilha e, em seguida, copiar e colar, o construtor de relatórios reproduzirá a formatação original (como bordas, fontes, etc.) na região de colagem.
 
