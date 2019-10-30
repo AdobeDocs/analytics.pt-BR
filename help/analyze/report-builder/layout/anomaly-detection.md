@@ -5,9 +5,9 @@ seo-title: Detecção de anomalias
 solution: Analytics
 title: Detecção de anomalias
 topic: Construtor de relatórios
-uuid: 02 da 21 b 4-3394-471 b -97 b 5-aa 1 bddf 1 f 445
+uuid: 02da21b4-3394-471b-97b5-aa1bdf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Exemplos de anomalias que você pode investigar incluem:
 * Junções em eventos de buffer de vídeo
 * Picos em taxas de vídeo baixas
 
->[!NOTE]
->
->A detecção de anomalias está disponível somente quando você seleciona a granularidade Dia.
+> [!NOTE] A detecção de anomalias está disponível somente quando você seleciona a granularidade Dia.
 
 <p class="head"> <b>Métricas para a detecção de anomalias</b> </p>
 
