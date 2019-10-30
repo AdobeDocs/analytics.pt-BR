@@ -5,7 +5,7 @@ seo-title: Perguntas frequentes
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É possível atribuir um <b>Conjunto de relatórios virtual</b> (VRS) a uma conta do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, então não é possível mapear diretamente uma conta do Advertising Analytics para um VRS. </p> <p>Contudo, é possível mapear a conta do Advertising Analytics para o conjunto de relatórios principal do VRS no qual deseja ver os dados. </p> <p>As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas nos VRS a não ser que você inclua uma condição “ou” na lógica do segmento baseada na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento. </p> </td> 
+   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, então não é possível mapear diretamente uma conta do Advertising Analytics para um VRS. </p> <p>Contudo, é possível mapear a conta do Advertising Analytics para o conjunto de relatórios principal do VRS no qual deseja ver os dados. </p> <p>As métricas de Mecanismo de pesquisa (clique/custo/impressões) podem não aparecer no VRS, a menos que você inclua uma condição "ou" na lógica do segmento com base na ID da AMO (ou em sua classificação). Exemplo: A adição de "todas as ocorrências em que a ID AMO existe" incluiria as métricas do mecanismo de pesquisa no segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Há métricas do Advertising Analytics reportáveis no relatório dos <b>Canais de marketing</b>? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Capturamos apenas o google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também? </p> </td> 
-   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
+   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Você pode filtrar ou segmentar (por exemplo, se todas as campanhas começarem com country code_, então criar um segmento no qual Campanhas (ID AMO) começarão com "UK_" fornecerá apenas dados para o Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: A métrica “Custo do AMO” é o custo pago para cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? </p> </td> 
