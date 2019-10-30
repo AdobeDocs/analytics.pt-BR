@@ -7,8 +7,8 @@ solution: Analytics
 title: Visão geral da serialização de eventos
 topic: Desenvolvedor e implementação
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ A [!UICONTROL serialização de eventos] é útil nas seguintes circunstâncias:
 * Uma página pode ser recarregada ou atualizada e enviar um evento várias vezes. A [!UICONTROL serialização de eventos] impede a recontagem dos eventos com o uso de um número de série para cada evento.
 * O usuário guarda a página em seu computador para uma revisão posterior. Este cenário é muito comum em páginas de confirmação de compra, para a análise dos recibos de compra. A [!UICONTROL serialização de eventos] impede que a página seguinte seja recarregada pela recontagem de eventos.
 
->[!NOTE]
->
->As fontes de dados não são compatíveis com a serialização de eventos ou a eliminação da duplicação.
+> [!NOTE] As fontes de dados não são compatíveis com a serialização de eventos ou a eliminação da duplicação.
 
 Este documento descreve o processo de implementação da [!UICONTROL serialização de eventos] para eventos de [!UICONTROL conversão] e [!UICONTROL personalização]. Para usar a [!UICONTROL Serialização de eventos], primeiro você precisa ativá-la em **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjunto de relatórios]** &gt; **[!UICONTROL [[selecione o conjunto de relatórios]]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Eventos bem-sucedidos]** . Em seguida, selecione quais eventos você deseja registrar na coluna [!UICONTROL Registro exclusivo de evento].
 
