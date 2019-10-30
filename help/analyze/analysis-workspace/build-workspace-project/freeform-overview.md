@@ -6,16 +6,16 @@ seo-title: Criar projeto - visão geral
 solution: Analytics
 title: Criar projeto - visão geral
 topic: Reports and Analytics
-uuid: a 68 be 05 d-f 31 e -4 e 6 d-ad 04-c 784 bce 0 eb 00
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Criar projeto - visão geral
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espaço de trabalho]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 Você pode criar um projeto robusto do Analytics com base em uma combinação de exibições, componentes de relatórios e tabelas de dados. Ele adiciona muitos dos recursos do criador de tabelas da Ad Hoc Analysis ao Analytics.
 
@@ -33,7 +33,7 @@ A página da lista de projeto da Workspace contém as informações a seguir:
 
 | Elemento | Descrição |
 |---|---|
-|    [Modelos](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) de projeto | Você pode usar esses modelos de projeto pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome. |
+|    [Modelos de projeto](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | Você pode usar esses modelos de projeto pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome. |
 | [Criar novo projeto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | Clique nesse link para criar um novo projeto a partir do zero. |
 | Gerenciar projetos | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | Exibir tutoriais | O direciona para os [vídeos no YouTube da Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
@@ -44,7 +44,7 @@ A página da lista de projeto da Workspace contém as informações a seguir:
 
 ## Informações e configurações do projeto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Informações e configurações do projeto]**
+**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Projeto]** &gt; Informações e configurações **[!UICONTROL do projeto]**
 
 ![](assets/projectinfo.png)
 
@@ -59,7 +59,7 @@ A página da lista de projeto da Workspace contém as informações a seguir:
 | Descrição | Uma descrição é útil para esclarecer a finalidade de um projeto. Você pode clicar duas vezes na descrição para editá-la. |
 | Contagem de instâncias repetidas no projeto | Especifica se as instâncias repetidas devem ser contadas nos relatórios. Se você tiver vários valores em sequência para a mesma variável, pode contá-las como uma ou várias instâncias dessa variável. |
 | Esquema de cores da visualização | É possível alterar o esquema de cores utilizado na Workspace, escolhendo em uma paleta de cores diferente ou especificando sua própria paleta. Esse recurso afeta muitas coisas na Workspace, incluindo a maioria das visualizações. |
-| Densidade da exibição | Permite ver mais dados na tela, ao reduzir o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. |
+| Exibir densidade | Permite ver mais dados na tela, ao reduzir o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. |
 
 ## Menu de projetos {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
@@ -69,9 +69,7 @@ O menu superior de Projetos tem a seguinte aparência:
 
 O submenu contém as seguintes opções.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] As opções marcadas por um asterisco (*) são exibidas somente com projetos **salvos** .
 
 | Projeto | Editar | Inserir | Componentes | Compartilhar | Ajuda |
 |---|---|---|---|---|---|
