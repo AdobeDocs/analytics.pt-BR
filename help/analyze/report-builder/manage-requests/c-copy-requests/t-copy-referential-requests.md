@@ -5,9 +5,9 @@ seo-title: Copiar solicitações referenciais
 solution: Analytics
 title: Copiar solicitações referenciais
 topic: Construtor de relatórios
-uuid: b 6 f 64630-868 f -455 b -8682-471 ff 9 fc 596 e
+uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Para propagar ou copiar e colar solicitações referenciais em uma planilha, voc
 
 Também é possível criar solicitações que fazem referência a filtros de entrada a partir de solicitações em diferentes planilhas, mas não em pastas de trabalho diferentes. Por exemplo, uma solicitação na Planilha 2 pode usar um conjunto de relatórios de uma determinada célula na Planilha 1 e um intervalo de datas de uma célula em uma solicitação na Planilha 2. A nova saída pode ser colocada em qualquer uma das duas planilhas ou em uma nova planilha na mesma pasta de trabalho. Quando você cola uma solicitação relativa, se um filtro de entrada residir em uma planilha diferente daquela em que a saída da solicitação copiada está localizada, o filtro será colado como um filtro absoluto.
 
->[!NOTE]
->
->Não é possível inserir uma única solicitação em várias planilhas. Além disso, o sistema não pode colar algumas das solicitações copiadas em novas pastas de trabalho porque as solicitações contêm filtros de entrada de outras planilhas. Os filtros de entrada incluem conjuntos de relatórios de células, intervalos de datas de células, filtros de células e outros parâmetros relacionados.
+> [!NOTE] Não é possível gerar uma única solicitação em várias planilhas. Além disso, o sistema não pode colar algumas das solicitações copiadas em novas pastas de trabalho porque as solicitações contêm filtros de entrada de outras planilhas. Os filtros de entrada incluem conjuntos de relatórios de células, intervalos de datas de células, filtros de células e outros parâmetros relacionados.
 
 **Para copiar solicitações referenciais**
 
