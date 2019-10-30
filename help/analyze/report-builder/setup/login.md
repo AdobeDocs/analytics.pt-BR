@@ -1,18 +1,18 @@
 ---
 description: Informações sobre as três formas de fazer logon no Construtor de relatórios.
 seo-description: Informações sobre as três formas de fazer logon no Construtor de relatórios.
-seo-title: Logon no Construtor de relatórios
+seo-title: Logon no Report Builder
 solution: Analytics
-title: Logon no Construtor de relatórios
+title: Logon no Report Builder
 topic: Construtor de relatórios
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Logon no Construtor de relatórios
+# Logon no Report Builder
 
 Informações sobre as três formas de fazer logon no Construtor de relatórios.
 
@@ -28,7 +28,7 @@ Atualmente, as seguintes opções de logon estão disponíveis quando você clic
 
 Use essa opção se desejar fazer logon no Construtor de relatórios usando as credenciais do Adobe Analytics.
 
-**Logon do Construtor de relatórios - definições de campo**
+**Logon do Construtor de relatórios - definições de campos**
 
 | Campo | Definição |
 |--- |--- |
@@ -50,7 +50,5 @@ O logon da Experience Cloud permite o uso da Enterprise ID (email e senha) para 
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->O logon da Experience Cloud é baseado em sessão e o token expira após 30 dias.
+> [!NOTE] O logon da Experience Cloud é baseado em sessão e o token expira após 30 dias.
 
