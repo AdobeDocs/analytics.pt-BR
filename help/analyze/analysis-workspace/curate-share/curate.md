@@ -8,7 +8,7 @@ title: Visão geral de curadoria/compartilhamento
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,9 +21,9 @@ A preparação permite limitar os componentes antes de compartilhar um projeto. 
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Share]**&gt; **[!UICONTROL Curate Project Data]**
+**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Compartilhar]**&gt; **[!UICONTROL Preparar dados do projeto]**
 
-## Curate project data
+## Preparar dados do projeto
 
 1. Especifique a permissão para criar e preparar os projetos.
 
@@ -51,17 +51,17 @@ O compartilhamento disponibiliza esse projeto para outros usuários da Analysis 
    ![](assets/share_component.png)
 
 1. Adicionar destinatários.
-1. (Opcional) É possível compartilhar componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de data) com todos os destinatários. Após compartilhados, esses componentes aparecerão no menu suspenso de componentes da Workspace do destinatário.
+1. (Opcional) É possível compartilhar componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de data) com todos os destinatários. Depois de compartilhados, esses componentes aparecerão na lista suspensa de componentes do Workspace do destinatário.
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
+   > Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
 
 1. Opcionalmente, é possível definir essa página como a página inicial para os destinatários.
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
+   > Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
 
 1. Clique em **[!UICONTROL Compartilhar]**.
 
