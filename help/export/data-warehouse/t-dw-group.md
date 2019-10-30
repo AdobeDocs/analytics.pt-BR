@@ -5,9 +5,9 @@ seo-title: Adicionar grupo de usuários do Data Warehouse
 solution: Analytics
 title: Adicionar grupo de usuários do Data Warehouse
 topic: Data Warehouse
-uuid: d 89294 db-caa 3-4044-b 70 d -65 b 512 b 0 dc 1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Etapas que descrevem como os administradores podem ativar o acesso aos relatóri
 
    >[!NOTE]
    >
-   >No caso de permissões conflitantes (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
+   >Em caso de permissões conflitantes (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
 
 >[!MORE_LIKE_THIS]
 >
