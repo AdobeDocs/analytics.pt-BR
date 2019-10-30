@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Criador de alertas
 title: Criador de alertas
-uuid: 86 d 00 a 33-dc 99-4 dc 3-a 732-0 b 895 ba 487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,9 +37,7 @@ Especifique um nome para o alerta. O nome do alerta pode conter o nome do relat�
 
 Especifique quando você deseja verificar a métrica: por hora, dia, semana ou mês.
 
->[!NOTE]
->
->Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
+> [!NOTE] Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
 
 **Destinatários**
 
@@ -59,7 +57,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
