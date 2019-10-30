@@ -8,8 +8,8 @@ subtopic: Solução de problemas
 title: Visão geral da otimização
 topic: Desenvolvedor e implementação
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ A implantação do Analytics é organizada em três etapas principais.
 
 1. O arquivo da biblioteca faz uma solicitação de imagem para uma servidor de coleta de dados da Adobe. O servidor coleta os dados que estão sendo enviados e retorna uma imagem transparente de 1 x 1 para o navegador do visitante. Essa terceira etapa adiciona um incremento insignificante ao tempo total de download da página.
 
->[!NOTE]
->
->Os clientes podem adotar etapas adicionais para minimizar a sobrecarga do Analytics.
+> [!NOTE] Os clientes podem adotar etapas adicionais para minimizar a sobrecarga do Analytics.
 
