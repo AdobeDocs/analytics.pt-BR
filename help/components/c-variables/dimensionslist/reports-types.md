@@ -4,10 +4,10 @@ seo-description: Descrições das categorias de relatório usadas na Experience 
 seo-title: Categorias de relatórios
 solution: Analytics
 title: Categorias de relatórios
-topic: 'Relatórios  '
-uuid: 78369121-3854-4 bf 9-9156-c 2369 ec 75 d 73
+topic: Relatórios
+uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ No gráfico, o eixo vertical exibe os itens rastreados. O eixo horizontal exibe 
 Também é possível selecionar diversas células e gerar um relatório de tendências com base em uma granularidade selecionada. Quando você estabelece tendências em diversas células, as colunas do relatório exibem os dados de todo o período do relatório.
 
 Um relatório de produtos é um exemplo de relatório de tendências. Você pode ver a receita foi gerada por um produto durante o intervalo selecionado. Se o seu período de geração de relatório for uma semana, você poderá ver a receita gerada em cada dia desse período, mostrar um gráfico de tendências para um produto específico em um determinado dia ou abrir um relatório de tendências separado para a seleção.
-Um relatório de Totais é um relatório de nível executivo que mostra os números de linha inferior. Ele contém dados de totais de receita, exibições de página e pedidos. É possível segmentar o relatório e adicionar outras métricas para visualizar dados adicionais.
+Um relatório de Totais é um relatório de nível executivo que mostra os números de base. Ele contém dados de totais de receita, exibições de página e pedidos. É possível segmentar o relatório e adicionar outras métricas para visualizar dados adicionais.
 O fluxo mostra os caminhos mais comuns que usuários tomam em páginas, seções de sites e servidores.
 
 Para mais informações sobre como o Fluxo funciona na Analysis Workspace, consulte [Jornada do cliente - Fluxo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
@@ -36,4 +36,4 @@ O grupo de relatórios de próximo fluxo possui três relatórios: fluxo de pró
 **Fluxo anterior**
 
 Os relatórios de fluxo anteriores são semelhantes aos próximos relatórios de fluxo, exceto que, em vez de ver para onde os visitantes foram após uma página selecionada, é possível ver onde eles estavam antes de visitar uma página especificada. Os controles para usar o relatório são idênticos aos dos relatórios de próximo fluxo.
-As visualizações de Fallout oferecem mais opções para criar relatórios de fallout. Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. For more information, see [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace.
+As visualizações de Fallout oferecem mais opções para criar relatórios de fallout. Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. Para obter mais informações, consulte [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) na Analysis Workspace.
