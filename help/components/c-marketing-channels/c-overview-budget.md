@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Custos e orçamentos
 topic: Reports and Analytics
-uuid: 7 ba 0 e 968-e 565-4 d 4 c -8 fc 0-39 bf 25 d 3 e 5 b 1
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Saiba como atribuir valores de custo e orçamento a canais.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## Custos e orçamentos {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
 Saiba como atribuir valores de custo e orçamento a canais.
 
@@ -25,7 +25,7 @@ O custo representa o que é gasto no canal. O orçamento representa a quantia di
 
  Uma forma útil de visualizar seu ROI é criar uma métrica calculada que exibe a receita menos os custos. Ou criar uma regra que exibe o custo total e a análise de custo por envolvimento. Por exemplo, execute um relatório de  [!UICONTROL Canal de primeiro toque] mostrando novos envolvimentos, depois acrescente uma métrica de Custo de Primeiro Toque que mostre o custo por novo envolvimento através da criação de uma métrica calculada.
 
-Consulte [Métricas calculadas usadas nos relatórios do Canal de marketing](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Consulte [Métricas calculadas usadas nos relatórios de canal de marketing](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 É possível designar custos e orçamento a canais. Todos os custos recebem um intervalo de tempo durante o qual se aplicam ao relatório. Quando os custos são associados diretamente a um canal, uma métrica de distribuição é escolhida para mostrar a análise de custos entre campanhas dentro de um canal.
 
