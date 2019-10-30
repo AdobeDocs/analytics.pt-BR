@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: Referência do arquivo de importação
 topic: Desenvolvedor e implementação
-uuid: cc 58 f 8 d 8-cb 6 e -4908-846 f -0 a 41 c 6 da 805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,6 +63,6 @@ Use o modelo da Fonte de dados para criar um arquivo de Fontes de dados que cont
 
 **Arquivo .FIN**
 
-Quando terminar de preencher seu arquivo de Fonte de Dados, você pode fazer o FTP no Analytics. No entanto, outro arquivo é necessário para que seus dados sejam processados. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Quando terminar de preencher o arquivo da Fonte de dados, você poderá fazer o FTP do arquivo no Analytics. No entanto, outro arquivo é necessário para que seus dados sejam processados. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
