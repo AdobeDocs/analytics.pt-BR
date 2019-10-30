@@ -1,13 +1,13 @@
 ---
 description: Use essa seção para selecionar em quais colunas de dados o feed será incluído e como o feed de dados deve ser processado e compilado antes da entrega.
-keywords: Feed de dados; dados; coluna; definições; selecionar modelos de coluna; sequência de cliques; colunas disponíveis; colunas incluídas; formato de compactação; tipo de pacote; incluir manifesto de dados; remover caracteres de escape; baixar csv
+keywords: Feed de dados;dados;coluna;definições;selecionar modelos de coluna;sequência de cliques;colunas disponíveis;colunas incluídas;formato de compactação;tipo de empacotamento;incluir manifesto de dados;remover caracteres de escape;baixar csv
 seo-description: Use essa seção para selecionar em quais colunas de dados o feed será incluído e como o feed de dados deve ser processado e compilado antes da entrega.
 seo-title: Definições da coluna de dados
 solution: Analytics
 title: Definições da coluna de dados
-uuid: 43370933-5 dd 9-48 f 0-a 1 be -3 d 10 d 38 a 0 edb
+uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,11 +39,9 @@ A seção Definições da coluna de dados contém os seguintes elementos:
 | Lista de Colunas disponíveis | Escolha na lista de todas as IDs de dimensão e métrica possíveis que podem ser incluídas em um feed de dados. |
 | Colunas incluídas | Escolha na lista de colunas incluídas no feed de dados.  O ícone Excluir aparece ao passar o mouse sobre uma coluna incluída.  Arraste e solte para mover colunas para cima e para baixo na lista de Colunas incluídas. |
 
-## Baixar em CSV {#section_10F5B6A05D15469394FAEA68BF14BA0D}
+## Baixar CSV {#section_10F5B6A05D15469394FAEA68BF14BA0D}
 
 A opção Baixar em CSV permite fazer o download da Definição da coluna atual.
 
->[!NOTE]
->
->Essa opção está disponível somente depois que pelo menos uma coluna é adicionada à lista Coluna incluída.
+> [!NOTE] Essa opção está disponível somente depois que pelo menos uma coluna é adicionada à lista Coluna incluída.
 
