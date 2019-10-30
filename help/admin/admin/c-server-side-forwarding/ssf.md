@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visão geral do encaminhamento pelo lado do servidor
 uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ Na guia Solicitação, verifique se um valor de MID está definido. Isso informa
 
 Verifique se você já tem uma versão do encaminhamento pelo lado do servidor implementada, [inspecionando a solicitação](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)de rastreamento do Analytics.
 
-Na guia “Resposta”, verifique se a resposta contém dados do Audience Manager. Se você encontrar:
+Na guia "Resposta", verifique se a resposta contém dados do Audience Manager. Se você encontrar:
 
-* Uma resposta **JSON do Audience Manager que inclui itens como "postbacks" ou "dcs_region"**: você já possui alguma forma de encaminhamento pelo lado do servidor habilitado. Prossiga para a etapa 3.
-* O **"status":"SUCCESS"**: você possui o módulo de Gerenciamento de público-alvo implementado, mas o encaminhamento pelo lado do servidor não foi configurado corretamente. Prossiga para a etapa 3.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Prossiga para a etapa 3.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Prossiga para a etapa 3.
 * Uma **imagem 2 x 2**: você não possui o encaminhamento pelo lado do servidor ou o módulo de Gerenciamento de público-alvo implementado. Para corrigir isso:
 
    * **Clientes AAM com DIL**: coordene os seguintes 2 itens em uma conjunção próxima:
@@ -70,7 +70,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
+> [!NOTE] Os dados não aparecerão em outras soluções da Experience Cloud, como o [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) ou o [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) , até que todas as três etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
 
