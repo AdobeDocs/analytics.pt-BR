@@ -4,10 +4,10 @@ seo-description: Esses relatórios exibem informações sobre os navegadores, si
 seo-title: Tecnologia
 solution: Analytics
 title: Tecnologia
-topic: 'Relatórios  '
-uuid: 8 e 2 f 88 dc-e 1 b 9-428 e-b 0 d 3-faf 4 c 063 bebc
+topic: Relatórios
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,12 +41,12 @@ Esses relatórios exibem informações sobre os navegadores, sistemas operaciona
    <td colname="col2"> <p> Exibe as larguras mais comuns dos navegadores (em pixels) utilizadas pelos seus visitantes para visualizar o seu site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Sistemas Operacionais </td> 
+   <td colname="col1"> Sistemas operacionais </td> 
    <td colname="col2"> <p> Exibe os sistemas operacionais que os visitantes podem utilizar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intensidades de Cor do Monitor </td> 
-   <td colname="col2"> <p> Exibe as configurações mais populares de profundidade de cor que seus visitantes utilizam. A profundidade de cor refere-se ao número de cores que pode ser exibido na tela. </p> </td> 
+   <td colname="col2"> <p> Exibe as configurações mais populares de profundidade de cor de seus visitantes, conforme definidas em seus computadores. A profundidade de cor refere-se ao número de cores que pode ser exibido na tela. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resoluções do Monitor </td> 
@@ -62,7 +62,7 @@ Esses relatórios exibem informações sobre os navegadores, sistemas operaciona
   </tr> 
   <tr> 
    <td colname="col1"> Versão do JavaScript </td> 
-   <td colname="col2"> <p> Exibe a versão do JavaScript que seus visitantes utilizam ao visualizar o site. </p> </td> 
+   <td colname="col2"> <p> Exibe as versões do JavaScript usadas pelos navegadores de seus visitantes ao visualizar seu site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
