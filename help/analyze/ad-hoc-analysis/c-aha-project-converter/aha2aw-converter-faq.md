@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: Perguntas frequentes do Conversor de projetos
 title: Perguntas frequentes do Conversor de projetos
-uuid: 8 e 1 bf 0 e 9-ce 0 f -443 a-bcfe -45 d 3 e 2 c 82 b 1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,18 +14,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Perguntas frequentes do Conversor de projetos {#topic_8231595303AD403E9322645A63632D57}
 
-* [Problemas conhecidos de conversão](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [Perguntas frequentes de conversão](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [Problemas de conversão conhecidos](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [Perguntas frequentes sobre conversão](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## Problemas de conversão conhecidos {#section_39C922A58B2E49C9877B363042801361}
 
 | Problema | Descrição |
 |--- |--- |
-| Granularidade minuto com detalhamentos ou em colunas | Quando a granularidade de minuto tem detalhamentos aplicados a ela ou a uma granularidade de minuto está presente em colunas, o projeto não pode ser convertido em Analysis Workspace. Uma solução alternativa é remover o detalhamento em granularidade de minuto e removê-lo de colunas e, em seguida, converter o projeto. Em seguida, você pode aplicar detalhamentos à granularidade de minuto na Analysis Workspace. |
-| Métrica calculada interna usada junto com um segmento de coluna | Se você estiver usando uma métrica calculada interna junto com um segmento de coluna, o projeto não pode ser convertido em Analysis Workspace. Para contornar esse problema, remova as métricas calculadas internas do projeto antes da conversão e adicione-as novamente na Analysis Workspace. |
+| Granularidade de minuto com detalhamentos ou em colunas | Quando a granularidade de minutos tem detalhamentos aplicados a ela ou se a granularidade de minutos estiver presente em colunas, o projeto não poderá ser convertido para a Analysis Workspace.  Uma solução alternativa é remover o detalhamento em granularidade de minutos e removê-lo das colunas, em seguida, converter o projeto. Em seguida, você pode aplicar detalhamentos em granularidade de minutos na Analysis Workspace. |
+| Métrica calculada interna usada junto com um segmento de coluna | Se você estiver usando uma métrica calculada interna junto com um segmento de coluna, o projeto não poderá ser convertido para a Analysis Workspace. Para contornar esse problema, remova as métricas calculadas internas do projeto antes da conversão e adicione-as novamente na Analysis Workspace. |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## Perguntas frequentes sobre conversão {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: Há algum recurso da Ad Hoc Analysis que não seja suportado pela Analysis Workspace?</b> </p> </td> 
-   <td colname="col2"> <p>R: O Relatório de análise do site não é suportado pela Analysis Workspace. Também há algumas pequenas diferenças entre outras visualizações na Análise ad hoc e na Workspace. Consulte as perguntas abaixo para obter mais detalhes. </p> </td> 
+   <td colname="col2"> <p>R: O Relatório de análise do site não é suportado pela Analysis Workspace. Há também algumas pequenas diferenças entre outras visualizações na Análise ad hoc e na Workspace. Consulte as perguntas abaixo para obter mais detalhes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Como as configurações de tabela são convertidas?</b> </p> </td> 
