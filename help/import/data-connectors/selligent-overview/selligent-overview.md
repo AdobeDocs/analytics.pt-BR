@@ -6,7 +6,7 @@ solution: Analytics
 title: Conector de dados inteligente para o Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,7 @@ Lista as ações necessárias a serem executadas no Adobe Analytics antes de imp
 
 | Pré-requisitos | Notas |
 |---|---|
-| Selecionar o Conjunto de relatórios | Observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração. |
+| Selecionar o Conjunto de relatórios |  Observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração. |
 | Configurar variáveis do Analytics |  Essa integração exige eventos personalizados e eVars personalizadas, além de eventos adicionais e eVars adicionais. Consulte Configuração de variáveis do Analytics para selecionar. |
 | Representante autorizado |  Esteja ciente de que a habilitação dessa integração pode fazer com que sua empresa incorra taxas de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da sua empresa; e, como tal, sua empresa concorda em pagar as taxas, se houver, estabelecidas no contrato de serviço descrito acima. |
 | Ativar o Adobe Data Warehouse™ |  Essa integração exige que o Data Warehouse seja habilitado para gerar segmentos de recomercialização. Se você não tiver ativado o Adobe Data Warehouse, entre em contato com a Adobe para obter detalhes. |
@@ -82,31 +82,31 @@ Além dessas eVars, alguns eventos podem ser reservados, dependendo dos dados da
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Enviados </td> 
    <td colname="col3"> Para armazenar o número de emails enviados da SelIntelligent. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Entregue </td> 
    <td colname="col3"> Para armazenar o número de emails entregues. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Exibições </td> 
    <td colname="col3"> Para armazenar o número de emails exclusivos que foram exibidos. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Cliques </td> 
    <td colname="col3"> Para armazenar o número de vezes que qualquer email foi clicado. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Rejeitado </td> 
    <td colname="col3"> Para armazenar o número de emails que foram enviados. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
  </tbody> 
 </table>
