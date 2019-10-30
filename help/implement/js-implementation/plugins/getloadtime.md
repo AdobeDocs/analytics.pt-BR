@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: Desenvolvedor e implementação
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ Obtém o tempo de carregamento da página em décimos de segundos e permite o ar
 
 Para usar este plugin, você insere o código da função, em seguida, chama a função duas vezes no arquivo [!DNL s_code.js]. Uma vez no início do arquivo e novamente na seção `doPlugins`. Este plugin não é definido intencionalmente como um método do objeto s. Isso apenas aumentaria o tempo de carga de página calculado.
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código e implementação do plug-in {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -55,7 +53,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Opcional) Adicionar suporte a navegadores antigos**
 
-Para suportar navegadores mais antigos que não oferecem a propriedade [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/), inclua a seguinte linha na seção CABEÇALHO do HTML da página próximo ao início e antes de invocar .js, .css ou outros arquivos:
+Para suportar navegadores antigos que não oferecem a propriedade [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/), inclua a seguinte linha na seção CABEÇALHO do HTML da página próximo ao início e antes de invocar .js, .css ou outros arquivos:
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
