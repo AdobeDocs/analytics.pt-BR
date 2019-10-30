@@ -7,8 +7,8 @@ solution: Analytics
 title: Migração de visitante
 topic: Desenvolvedor e implementação
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,11 @@ A migração do visitante é um processo no qual o cookie da ID de visitante é 
 
 A migração do visitante permite que você preserve cookies de identificação do visitante ao alterar domínios de coleção de dados. Os domínios de coleta dos dados podem ser alterados pelos seguintes motivos:
 
-* Mudança de `2o7.net` para `omtrdc.net` ([Coleta de dados regionais](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/rdc/)).
+* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
 
-* Você está implementando o [Serviço de ID de visitante da Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcvid/) e mudando de um CNAME/domínio de coleta de dados próprios para `2o7.net` ou `omtrdc.net` ([Coleta de dados regionais](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/rdc/))
+* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
 
-* Transferência de `2o7.net` ou `omtrdc.net` para CNAME/coleta de dados próprios([Cookies próprios)](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/first_party_cookies/).
+* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
 
 * Transferência de um CNAME para outro (alterando domínios).
 
@@ -42,7 +42,7 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Para começar:</b> <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html" format="http" scope="external">entre em contato com o atendimento ao cliente</a> com os domínios que você deseja migrar e o período de migração que você deseja habilitar (30, 60 ou 90 dias). Certifique-se de incluir domínios protegidos e não protegidos. </p> </td> 
+   <td colname="col1"> <p> <b>Para começar:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">entre em contato com o atendimento ao cliente</a> com os domínios que você deseja migrar e o período de migração que você deseja habilitar (30, 60 ou 90 dias). Certifique-se de incluir domínios protegidos e não protegidos. </p> </td> 
    <td colname="col3"> <p>Crie uma lista com a sintaxe <i>exata</i> para os domínios que você deseja migrar de ou para. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -50,7 +50,7 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
     </ul> <p>Os nomes de host de migração são configurados no servidor de coleção de dados da Adobe. O Atendimento ao cliente informará quando a alteração ocorre para que você possa planejar a próxima etapa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Mais de 6 horas depois da alteração de configuração</b>: atualize as variáveis <code>s.trackingServer</code> e <code>s.trackingServerSecure</code> no código JavaScript do Analytics para usar os novos servidores de coleta de dados. </p> </td> 
+   <td colname="col1"> <p> <b>Mais de 6 horas depois da alteração de configuração</b>: atualize as variáveis <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> no código JavaScript do Analytics para usar os novos servidores de coleta de dados. </p> </td> 
    <td colname="col3"> <p>Depois de fazer essa alteração, use o <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> para verificar se a solicitação de imagem do Analytics vai para o servidor de coleta de dados atualizado. </p> </td> 
   </tr> 
   <tr> 
