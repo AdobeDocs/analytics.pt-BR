@@ -1,18 +1,18 @@
 ---
 description: Instruções para configurar a transferência segura com os servidores FTP da Adobe.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Instruções para configurar a transferência segura com os servidores FTP da Adobe.
-seo-title: Conecte-se a uma conta FTP da Adobe com SFTP
+seo-title: Conexão com uma conta FTP da Adobe com SFTP
 solution: Analytics
-title: Conecte-se a uma conta FTP da Adobe com SFTP
-uuid: 4 faf 27 b 8-7276-4 c 68-87 cb -35802 b 809 e 27
+title: Conexão com uma conta FTP da Adobe com SFTP
+uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conecte-se a uma conta FTP da Adobe com SFTP
+# Conexão com uma conta FTP da Adobe com SFTP
 
 Instruções para configurar a transferência segura com os servidores FTP da Adobe.
 
@@ -33,6 +33,6 @@ Instruções para configurar a transferência segura com os servidores FTP da Ad
    * Create a [!DNL .ssh] directory (if it does not already exist).
    * Upload the [!DNL authorized_keys] file to the [!DNL .ssh] directory.
 
-1. Teste a conexão fazendo logon na conta FTP usando o SFTP.
+1. Teste a conexão fazendo logon na conta FTP usando SFTP.
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846).
+[Para obter informações mais detalhadas, consulte ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)Como se conectar à Adobe via sFTP sem uma senha_....
