@@ -4,8 +4,8 @@ seo-description: O plug-in s.hitGovernor rastreia o número total de solicitaç�
 seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: ht
-source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ O plug-in incrementa um valor de cookie cada vez que uma solicitação de imagem
 
 Se desejado, a partir desse ponto, o tráfego pode ser impedido de ser coletado para esse visitante específico por um período padrão de sessenta dias. Bloquear o tráfego exige uma linha adicional de código na função doPlugins, conforme descrito abaixo. O intervalo de tempo também pode ser ajustado. A lógica permite que o tempo inclua o endereço IP desse visitante, o Agente do usuário ou a ID de visitante da [!DNL Experience Cloud] na lógica de exceção permanente adequada ou para redefinir o período de tempo limite após o decurso de sessenta dias. Se esse tráfego for identificado como fraudulento pelo plug-in após sessenta dias, ele será sinalizado novamente como uma exceção e não será coletado por mais sessenta dias.
 
-## Relatório {#section_E742F19B528041808454744DB2C7007C}
+## Relatórios {#section_E742F19B528041808454744DB2C7007C}
 
 Nenhuma variável ou evento padrão precisa ser definido. No entanto, recomendamos que você configure a lógica das regras de processamento para definir variáveis e eventos de acordo. Essas variáveis e eventos personalizados podem incluir:
 
