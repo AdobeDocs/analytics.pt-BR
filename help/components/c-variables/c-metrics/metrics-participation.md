@@ -5,9 +5,9 @@ seo-title: Participação
 solution: Analytics
 title: Participação
 topic: Métricas
-uuid: a 7 fa 791 d -0 a 77-429 e -808 e -4 f 97 bb 9 ae 5 fc
+uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ As métricas de participação têm duas configurações por evento de conversã
 * **Desativado**: O estado padrão de cada evento de conversão. Os dados de participação não serão coletado para este evento.
 * **Ativado**: os dados participação são coletados para este evento.
 
->[!NOTE]
->
->Você pode habilitar a participação para até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+> [!NOTE] Você pode ativar a participação para até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
 
 Quando estiver ativado, as métricas de participação ficam automaticamente disponíveis em todos os relatórios de conversão. Contudo, métricas de participação também podem ser exibidas em relatórios de tráfego específicos se você solicitar. Outra opção é solicitar que as métricas de participação sejam disponíveis em alguns relatórios de tráfego personalizados.
 
