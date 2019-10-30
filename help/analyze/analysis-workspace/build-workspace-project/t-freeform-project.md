@@ -8,7 +8,7 @@ title: Criar um projeto da Workspace
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components (metrics/dimensions) included in the project are included in the report suite. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
+   > É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,7 +88,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >Depois de copiar/salvar como, os links internos agora são relativos ao projeto em que vivem, não ao projeto original do qual foram copiados.
+   >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
 
 ## Adicionar Componentes e Visualizações {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
@@ -112,7 +112,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão para a tabela de dados. </p> </td> 
+   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
