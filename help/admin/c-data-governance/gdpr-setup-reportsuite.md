@@ -5,7 +5,7 @@ seo-title: Rotular dados do conjunto de relatórios
 title: Rotular dados do conjunto de relatórios
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 
->[!NOTE]
->
->Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+> [!NOTE]Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## Atribuir ou editar rótulos do conjunto de relatórios {#section_39F829F35A274EACA532E2F6FF392996}
 
-**Exemplo**: Você, como o controlador de dados, planeja coletar endereços de email e IDs de cookies das pessoas de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
+**Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. No Analytics, navegue até **[!UICONTROL Admin]** &gt; **[!UICONTROL Governança de dados]** &gt; **[!UICONTROL (selecione o conjunto de relatórios)]** ![](assets/privacy_rs_settings.png)
 
 1. Selecione qual grupo de variáveis você deseja rotular.
 
@@ -57,7 +55,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. Use esta seção para instruir a Adobe a manipular cada variável para acesso de privacidade de dados e solicitações de exclusão, bem como para definir quais variáveis devem ser digitalizadas para localizar IDs de pessoa de dados para essas solicitações. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. Abra a seção Privacidade de dados para definir os rótulos da **Governança de dados**. Use esta seção para instruir a Adobe sobre como lidar com cada variável das solicitações de acesso e exclusão da Privacidade de dados, bem como para definir quais variáveis devem ser verificadas para encontrar as IDs do titular de dados dessas solicitações. Para obter mais informações sobre essas opções, consulte [Rótulos de governança de dados (Privacidade de dados).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
@@ -65,7 +63,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 ## Copiar rótulos para os conjuntos de relatórios{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-Se quiser aplicar as mesmas configurações de Privacidade de DULE/Dados a mais de um conjunto de relatórios, siga estas etapas:
+Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a mais de um conjunto de relatórios, poderá seguir estas etapas:
 
 1. Selecione o grupo de variáveis (Dimensões padrão, Dimensões de conversão etc.) contendo a variável que você deseja copiar. Observe que você pode copiar os rótulos apenas para um grupo de variáveis por vez.
 1. Selecione algumas ou todas as variáveis neste grupo.
