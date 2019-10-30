@@ -4,10 +4,10 @@ seo-description: Etapas administrativas para ativar relatórios do AEM Assets no
 seo-title: Relatórios do AEM Assets
 solution: Analytics
 title: Relatórios do AEM Assets
-topic: 'Relatórios  '
-uuid: 242 f 5 ea 0-146 c -4 edb -928 e -35 b 4 c 084934 d
+topic: Relatórios
+uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Etapas administrativas para ativar relatórios do AEM Assets no Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL AEM]** &gt; **[!UICONTROL Relatórios do AEM Assets]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL AEM]** **[!UICONTROL &gt; Relatório de ativos AEM]**
 
 Permite que o Analytics colete impressões e cliques em ativos no AEM Asset Insights. Essa integração
 
