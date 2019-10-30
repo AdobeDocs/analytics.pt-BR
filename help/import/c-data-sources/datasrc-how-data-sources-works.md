@@ -1,25 +1,23 @@
 ---
 description: Informações sobre a maneira pela qual a Adobe fornece acesso às Fontes de dados.
 seo-description: Informações sobre a maneira pela qual a Adobe fornece acesso às Fontes de dados.
-seo-title: Como as fontes de dados funcionam
+seo-title: Como a Fonte de dados funciona
 solution: Analytics
 subtopic: Fontes de dados
-title: Como as fontes de dados funcionam
+title: Como a Fonte de dados funciona
 topic: Desenvolvedor e implementação
-uuid: ee 9 e 6 e 74-9 b 00-4733-9 a 4 b-d 9 f 2 b 954 cc 7 c
+uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Como as fontes de dados funcionam
+# Como a Fonte de dados funciona
 
 Informações sobre a maneira pela qual a Adobe fornece acesso às Fontes de dados.
 
->[!NOTE]
->
->Depois de enviado por meio das Fontes de dados, os dados importados são indistinguíveis dos dados de relatório obtidos usando outros métodos (javascript beacon, actionsource, API de inserção de dados etc.). Não é possível remover os dados depois que eles foram importados.
+> [!NOTE] Depois de enviados por meio das Fontes de dados, os dados importados são indistinguíveis dos dados de relatório coletados por outros métodos (JavaScript beacon, ActionSource, API de inserção de dados etc.). Não é possível remover os dados depois que eles foram importados.
 
 ![](assets/data_sources_overview.png)
 
