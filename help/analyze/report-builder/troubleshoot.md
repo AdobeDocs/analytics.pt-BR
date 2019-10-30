@@ -1,18 +1,18 @@
 ---
 description: Maneiras de otimizar a entrega do Construtor de relatórios e uma lista de mensagens de erro que podem ocorrer ocasionalmente.
 seo-description: Maneiras de otimizar a entrega do Construtor de relatórios e uma lista de mensagens de erro que podem ocorrer ocasionalmente.
-seo-title: Solução de problemas e práticas recomendadas para o Construtor de relatórios
+seo-title: Resolução de problemas e práticas recomendadas do Report Builder
 solution: Analytics
-title: Solução de problemas e práticas recomendadas para o Construtor de relatórios
+title: Resolução de problemas e práticas recomendadas do Report Builder
 topic: Construtor de relatórios
-uuid: 36 a 08143-dc 78-40 f 5-9 ce 1-7 d 16980 aa 27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Solução de problemas e práticas recomendadas para o Construtor de relatórios
+# Resolução de problemas e práticas recomendadas do Report Builder
 
 Maneiras de otimizar a entrega do Construtor de relatórios e uma lista de mensagens de erro que podem ocorrer ocasionalmente.
 
@@ -24,7 +24,7 @@ Isso causa um problema de compatibilidade futura: depois de convertido em v5.1, 
 
 O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de classificação:
 
-* Ao abrir uma pasta de trabalho, você receberá o seguinte aviso: "Esta pasta de trabalho foi salva pela última vez com o Construtor de relatórios v5.1. Essa versão apresentou alguns recursos incompatíveis com a versão do Construtor de relatórios instalada no computador. É recomendado atualizar para a versão mais recente do Construtor de relatórios antes de atualizar esta pasta de trabalho".
+* Ao abrir a pasta de trabalho, você receberá o seguinte aviso: "Esta pasta de trabalho foi salva pela última vez usando o Construtor de relatórios v5.1. Esta versão introduziu alguns recursos incompatíveis com a versão do Construtor de relatórios instalada neste computador. É altamente recomendável atualizar para a versão mais recente do Construtor de relatórios antes de atualizar esta pasta de trabalho."
 * Se você clicar com o botão direito em uma solicitação de ARB com classificação, os menus de contexto do Construtor de relatórios (editar solicitação, adicionar solicitação dependente...) não aparecerão.
 * Se você executar Atualizar tudo, ao clicar no terceiro botão, ou ao atualizar um conjunto de solicitações do formulário do Gerenciador de solicitação, a solicitação de classificação será executada sem erro. No entanto, os valores de classificação não serão expressos.
 * Você ainda pode editar a solicitação ao abrir o Gerenciador de solicitações, de linha em linha, até atingir a solicitação apropriada.
@@ -71,7 +71,7 @@ Fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que en
 
 Uma apóstrofe ou uma aspa simples no nome da planilha do Excel fará com que o construtor de relatórios não retorne valores. (Esta é uma limitação do Microsoft Excel).
 
-**Desempenho individual da solicitação**
+**Desempenho de solicitação individual**
 
 A velocidade do processo pode ser afetada pelas seguintes configurações:
 
@@ -85,7 +85,7 @@ A velocidade do processo pode ser afetada pelas seguintes configurações:
 | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
 
 
-**Tempo de agendamento**
+**Hora de agendamento**
 
 Programação ordenada durante o período de 24 horas (consulte a tabela abaixo). Favoritos, painéis e pastas de trabalho do Construtor de relatórios já existentes que foram agendados muito próximos podem causar atrasos.
 
@@ -99,7 +99,7 @@ Agende as solicitações maiores e mais complexas no início da manhã para perm
 
 Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Construtor de relatórios:
 
-* [!DNL Analytics]: **[!UICONTROL Favoritos]** &gt; **[!UICONTROL Relatórios agendados]**
+* [!DNL Analytics]: **[!UICONTROL Favoritos]** &gt; Relatórios **[!UICONTROL agendados]**
 
 * Construtor de relatórios: clique em **[!UICONTROL Gerenciamento]** na guia [!UICONTROL Suplementos] no Excel.
 
@@ -107,9 +107,7 @@ Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sis
 
 Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do Construtor de relatórios.
 
->[!NOTE]
->
->Essa é apenas uma seleção de mensagens de erro, e não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
+> [!NOTE] Esta é apenas uma seleção de mensagens de erro, e não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
 
 **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**
 
