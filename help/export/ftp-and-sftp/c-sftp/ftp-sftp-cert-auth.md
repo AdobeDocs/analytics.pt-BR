@@ -1,24 +1,24 @@
 ---
-description: A conexão sem senha a contas FTP só é possível com uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
-keywords: ftp; sftp
-seo-description: A conexão sem senha a contas FTP só é possível com uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
-seo-title: Conexão com a Adobe via SFTP sem senha
+description: A conexão sem senha a contas FTP só é possível usando uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
+keywords: ftp;sftp
+seo-description: A conexão sem senha a contas FTP só é possível usando uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
+seo-title: Conexão com a Adobe via SFTP sem uma senha
 solution: Analytics
-title: Conexão com a Adobe via SFTP sem senha
-uuid: 88728309-50 d 2-450 b-b 0 e 6-7 dcdf 61 b 5 dbc
+title: Conexão com a Adobe via SFTP sem uma senha
+uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conexão com a Adobe via SFTP sem senha
+# Conexão com a Adobe via SFTP sem uma senha
 
-A conexão sem senha a contas FTP só é possível com uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
+A conexão sem senha a contas FTP só é possível usando uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
 
 Este método não é menos seguro do que a autenticação por senha. Ele é apenas uma outra forma de autenticação que não exige que o usuário digite a senha todas as vezes. Quando usando corretamente, esses arquivos permitem que um computador particular faça o logon sem que seja necessário digitar uma senha. Contudo, é necessário realizar esse processo em todos os computadores. Para todas as outras conexões que não usam esses arquivos-chave ainda é necessário digitar uma senha.
 
-Um SFTP (Secure File Transfer Protocol) é exigido por alguns clientes para a transmissão de dados confidenciais. Uma conexão SFTP é mais segura do que uma conexão FTP comum, pois permite uma comunicação de dados criptografada. Por padrão, todas as contas FTP da Adobe estão prontas para SFTP. Uma conexão SFTP pode ser aberta com um nome de usuário e senha válidos usando um cliente SFTP que se conecta na porta 22 (as conexões FTP normais que não são seguras usam a porta 21).
+Alguns clientes exigem um SFTP (Secure File Transfer Protocol) para transmitir dados confidenciais. Uma conexão SFTP é mais segura do que uma conexão FTP comum porque permite a comunicação de dados criptografados. Por padrão, todas as contas FTP da Adobe estão prontas para SFTP. Uma conexão SFTP pode ser aberta com um nome de usuário e senha válidos usando um cliente SFTP que se conecta à porta 22 (conexões FTP normais que não são seguras usam a porta 21).
 
 Ao usar o SFTP, é possível, em condições específicas, usar chaves privadas para se conectar à conta sem uma senha. Este método permite que seu computador use arquivos-chave para autenticação no lugar da autenticação normal por senha. Isto significa que apenas o computador que tem a chave privada pode se conectar sem uma senha. Todos os outros computadores/usuários precisarão usar a autenticação por senha (a menos que chaves privadas também tenham sido configuradas nesses computadores).
 
