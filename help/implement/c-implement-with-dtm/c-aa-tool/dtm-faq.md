@@ -6,8 +6,8 @@ seo-title: Perguntas frequentes sobre a ferramenta Adobe Analytics
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Perguntas frequentes sobre a ferramenta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,11 @@ Perguntas frequentes sobre a configuração automática da implantação do Adob
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Onde coloco meus plug-ins durante a implementação do Adobe Analytics por meio do DTM? </p> </td> 
-   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code>s_code</code>, é possível adicionar plug-ins no mesmo editor como <code>s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>No entanto, também é uma opção colocar os plug-ins no editor na seção <span class="term"> Personalizar código de página</span> das configurações da ferramenta. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
+   <td colname="col2"> <p> Caso esteja utilizando o DTM para hospedar manualmente o <code> s_code</code>, é possível adicionar plug-ins no mesmo editor como <code> s_code</code> hospedado, de forma semelhante à implementação padrão do Adobe Analytics. </p> <p>No entanto, também é uma opção colocar os plug-ins no editor na seção <span class="term"> Personalizar código de página</span> das configurações da ferramenta. Os dois métodos de implementação devem ser igualmente eficazes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se eu realizar alterações na configuração da nova versão da ferramenta, é possível testá-la durante o armazenamento temporário antes de publicar para produção? </p> </td> 
-   <td colname="col2"> <p>Sim.  </p> <p>Todas as alterações pode ser testadas durante armazenamento temporário, da maneira que você normalmente faria antes de implantá-la em um ambiente de produção. Se você optar por não publicar pois notou problemas durante o armazenamento temporário, o código de produção continuará a funcionar como antes do lançamento da nova integração. </p> </td> 
+   <td colname="col2"> <p>Sim. </p> <p>Todas as alterações pode ser testadas durante armazenamento temporário, da maneira que você normalmente faria antes de implantá-la em um ambiente de produção. Se você optar por não publicar pois notou problemas durante o armazenamento temporário, o código de produção continuará a funcionar como antes do lançamento da nova integração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se eu alternar da configuração manual (a configuração padrão para ferramentas existentes) para a configuração automática, as minhas configurações atuais serão afetadas? </p> </td> 
