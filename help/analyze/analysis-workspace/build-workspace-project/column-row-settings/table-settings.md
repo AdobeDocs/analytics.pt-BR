@@ -3,9 +3,9 @@ description: As configurações de linha variam de acordo como qual componente f
 seo-description: As configurações de linha variam de acordo como qual componente foi arrastado para a tabela.
 seo-title: Configurações de linha
 title: Configurações de linha
-uuid: f 30 c 31 d 5-1 fd 4-4 b 93-94 c 3-ca 441099 fe 2 e
+uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,7 @@ Para acessar as configurações das linhas da tabela, clique o ícone de Configu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Detalhamentos </p> </td> 
-   <td colname="col2"> <p><b>Detalhamento por posicionamento:</b> </p> <p>Você pode executar detalhamentos baseados em uma localização fixa em uma tabela de Forma livre. Por exemplo, você pode especificar que as sete primeiras fileiras superiores devam sempre estar detalhadas. </p> <p>(Anteriormente, a lista de valores no detalhamento era “bloqueada”. Esse problema levou a uma situação em que, por exemplo, caso detalhasse <span class="term">Data</span> por <span class="term">Página</span>, você obteria uma lista das 50 páginas principais para o intervalo de datas selecionado. Se salvasse o relatório e o executasse um mês depois, seria provável que as 50 páginas tivessem mudado. Entretanto, a Analysis Workspace usaria os resultados do detalhamento original e retornaria as mesmas páginas, porém com o mês atual como o intervalo de data.) </p> <p>Para executar detalhamentos baseados em um local fixo: </p> 
+   <td colname="col2"> <p><b>Detalhamento por posicionamento:</b> </p> <p>Você pode executar detalhamentos baseados em uma localização fixa em uma tabela de Forma livre. Por exemplo, você pode especificar que as sete primeiras fileiras superiores devam sempre estar detalhadas. </p> <p>(Anteriormente, a lista de valores no detalhamento era "bloqueada". This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Se salvasse o relatório e o executasse um mês depois, seria provável que as 50 páginas tivessem mudado. Entretanto, a Analysis Workspace usaria os resultados do detalhamento original e retornaria as mesmas páginas, porém com o mês atual como o intervalo de data.) </p> <p>Para executar detalhamentos baseados em um local fixo: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Detalhar algumas linhas da tabela. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Clicar o ícone Configurações (engrenagem) próximo à linha da tabela que você deseja em um local fixo. </li> 
