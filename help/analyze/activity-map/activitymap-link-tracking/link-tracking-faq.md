@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre o rastreamento de links no [!DNL Activit
 seo-description: Perguntas frequentes sobre o rastreamento de links no [!DNL Activity Map].
 seo-title: Perguntas frequentes sobre o Rastreamento de links
 solution: Analytics
-title: Perguntas frequentes sobre o Rastreamento de links
+title: Rastreamento de link Perguntas frequentes
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
