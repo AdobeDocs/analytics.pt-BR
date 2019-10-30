@@ -8,8 +8,8 @@ subtopic: Depurador
 title: Analisadores de pacote
 topic: Desenvolvedor e implementação
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,21 +29,17 @@ Em casos muito raros, o depurador cria um relatório de solicitação de imagem,
 
 Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande variedade deles na internet. Os seguintes são alguns monitores de pacotes que outras pessoas acharam úteis.
 
->[!NOTE]
->
->Estas listas não estão completas, mas são informações sobre os monitores usados frequentemente. Se você tiver um monitor de pacote que use e ache útil, sinta-se à vontade para oferecer feedback usando o botão [!UICONTROL Feedback] no lado direito desta janela.
+> [!NOTE] Estas listas não estão completas, mas são informações sobre os monitores usados frequentemente. Se você tiver um monitor de pacote que use e ache útil, sinta-se à vontade para oferecer feedback usando o botão [!UICONTROL Feedback] no lado direito desta janela.
 
 | Firefox | Internet Explorer | Google Chrome | Programas autônomos |
 |---|---|---|---|
-| [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tags) | [HttpWatch](https://www.httpwatch.com/) | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tags) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/pt-BR/firefox/addon/httpfox/) |  | [Ferramentas para desenvolvedores do Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/pt-br/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [HttpWatch](https://www.httpwatch.com/) | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [Charles](https://www.charlesproxy.com/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->A Adobe NÃO oferece suporte ou solução de problemas que você possa ter com esses monitores de pacote. Para obter assistência, consulte o site de origem do monitor de pacote.
+> [!NOTE] A Adobe NÃO oferece suporte ou solução de problemas que você possa ter com esses monitores de pacote. Para obter assistência, consulte o site de origem do monitor de pacote.
 
 <!-- 
 
