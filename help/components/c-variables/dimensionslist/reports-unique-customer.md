@@ -4,10 +4,10 @@ seo-description: Um visitante único que realiza uma compra. Um cliente único �
 seo-title: Clientes únicos
 solution: Analytics
 title: Clientes únicos
-topic: 'Relatórios  '
-uuid: f 4 fb 15 e 8-482 d -4467-81 dc -58 ade 77ade 3822
+topic: Relatórios
+uuid: f4fb15e8-482d-4467-81dc-58ade7743822
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
