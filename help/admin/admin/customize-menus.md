@@ -5,9 +5,9 @@ seo-title: Personalização do menu
 solution: Analytics
 title: Personalização do menu
 topic: Ferramentas administrativas
-uuid: 31 e 335 e 7-c 91 a -4669-a 9 b 7-00 f 9 e 385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Este recurso permite que você personalize os menus de relatório que são exibi
 
 As alterações no menu se aplicam a todos os usuários que acessam o conjunto de relatórios. No entanto, os usuários podem restaurar uma configuração padrão do menu enquanto usam o conjunto de relatórios.
 
->[!NOTE]
->
->Qualquer alteração na estrutura de menus não afeta o Construtor de relatórios e a Análise ad hoc. Entretanto, a renomeação de um relatório se reflete em ambos.
+> [!NOTE] Qualquer alteração na estrutura do menu não afeta o Construtor de relatórios e a Análise ad hoc. Entretanto, a renomeação de um relatório se reflete em ambos.
 
 ## Descrições de personalização de menu {#section_B0D224DACB914A378902A4E0E1234889}
 
