@@ -26,7 +26,7 @@ The [!DNL Activity Map] module is part of the AppMeasurement.js file (located at
 
    Incluímos alguns [códigos de implementação de exemplo](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) para ajudar a visualizar as alterações feitas no código, incluindo o módulo [!DNL Activity Map]
 
-1. Validar a implementação:
+1. Valide a implementação:
 
    1. Ao clicar em um elemento clicável, os dados serão armazenados em um cookie chamado s_sq.
    1. The [!DNL Activity Map] data can be seen in the query-string on the tracking call. Por exemplo:
@@ -37,7 +37,7 @@ The [!DNL Activity Map] module is part of the AppMeasurement.js file (located at
 
 1. Break this report down by **[!UICONTROL [!DNL Activity Map]Link by Region]** to see the link/region for that page:  ![](assets/am_breakdown.png){width="400px"}
 
-## Etapa 2: Ativar [!DNL Activity Map] relatórios {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Etapa 2. Ativar [!DNL Activity Map] relatórios {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 First, you need to enable [!DNL Activity Map] reports at a report-suite level.
 
