@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: Desenvolvedor e implementação
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Notas de versão acumuladas para Flash. Os aplicativos Flash com ActionScript podem ser avaliados no desktop e na Web.
 
->[!NOTE]
->
->Para localizar a versão atual da biblioteca, ative o registro de depuração.
+> [!NOTE] Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
 <!-- 
 
@@ -27,94 +25,92 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
  -->
 
-## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
+## 20 de abril de 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
 **Versão 4.0.3**
 
 * Inclusão da API de Visitante 1.6.1.
 
-## 18 de agosto de 2016 {#section_D72EF20672174249B864997905D7552A}
+## August 18, 2016 {#section_D72EF20672174249B864997905D7552A}
 
-**4.0.2 - Atualização**
+**4.0.2 - atualização**
 
 Inclusão da API de Visitante 1.6.0.
 
-## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
+## 19 de maio de 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-**4.0.1 - Atualização**
+**4.0.1 - atualização**
 
 Inclusão da API de Visitante 1.5.6
 
-## April 21, 2016 {#section_6EFC6DBEB9E1460DB344A8278F9FC696}
+## 21 de abril de 2016 {#section_6EFC6DBEB9E1460DB344A8278F9FC696}
 
 A Adobe lançou uma [atualização de segurança APSB16-13 ](https://helpx.adobe.com/security/products/analytics/apsb16-13.html)para a biblioteca [!DNL AppMeasurement] para Flash. Essa atualização soluciona uma vulnerabilidade importante da biblioteca, aplicável somente quando `debugTracking` está ativado, podendo ser usado para realizar [ataques de XSS com base em DOM](https://www.owasp.org/index.php/DOM_Based_XSS).
 
 >[!IMPORTANT]
 >
->This issue affects [!DNL AppMeasurement] for Flash only when `debugTracking` has been enabled ( `debugTracking` is disabled in the default configuration). **Se for afetada, recomendamos que você desative`debugTracking`imediatamente.** Alguns códigos de exemplo:
+>Esse problema afeta o [!DNL AppMeasurement] para Flash somente quando `debugTracking` foi ativado (`debugTracking` está desativado na configuração padrão). **Se for afetada, recomendamos que você desative`debugTracking`imediatamente.** Alguns códigos de exemplo:
 
 ```
 public var s:AppMeasurement; 
 s = new AppMeasurement(); 
 s.debugTracking = false; // set to false or remove line 
-                         // for default "disabled” behavior 
+                         // for default "disabled" behavior 
 ```
 
 As versões afetadas são [!DNL AppMeasurement] para Flash versão 4.0 e anterior em todas as plataformas.
 
->[!NOTE]
->
->Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. Continuaremos a suportar a coleta de dados de projetos existentes baseados em AS2. Contudo, é fortemente recomendado atualizar as implementações de cliente para AS3 e incorporar os recursos de segurança mais recentes do [!DNL AppMeasurement] para Flash.
+> [!NOTE] Por motivos de segurança, não distribuiremos mais uma versão AS2 do [!DNL AppMeasurement] para Flash. Continuaremos a suportar a coleta de dados de projetos existentes baseados em AS2. Contudo, é fortemente recomendado atualizar as implementações de cliente para AS3 e incorporar os recursos de segurança mais recentes do [!DNL AppMeasurement] para Flash.
 
 [!DNL AppMeasurement] para clientes Flash afetados por esse problema devem recriar projetos com a biblioteca atualizada disponível para download no [!DNL Analytics] Console [Mais...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
-## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
+## 5 de novembro de 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
-Versão 4.0 - Atualização:
+Atualização da versão 4.0:
 
 * Inclusão da API de Visitante 1.5.3.
 
-## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
+## 17 de setembro de 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
-Versão 4.0 - Atualização:
+Atualização da versão 4.0:
 
 * Inclusão da API de Visitante 1.5.2.
 
-## August 20, 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
+## 20 de agosto de 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
-Versão 4.0 - Atualização:
+Atualização da versão 4.0:
 
 * Inclusão da API de Visitante 1.5.1.
 
-## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## 18 de junho de 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
-Versão 4.0 - Atualização
+Versão 4.0 - atualização
 
 * Inclusão da API de Visitante 1.5.
 * Use o método Visitor API 1.5+ getCustomerIDs para reunir IDs de clientes e o estado autenticado e envie-os com as solicitações de coleta de dados (AN-102131)
 
 ## 21 de maio de 2015 {#section_F5EFCC451F13499F9AA53326AE5926F1}
 
-Versão 3.9.2 - Atualização:
+Versão 3.9.2 - atualização:
 
 * Inclusão da API de Visitante 1.4
 
-## February 19, 2015 {#section_95ADF1725CE7415D956944A28182E69B}
+## 19 de fevereiro de 2015 {#section_95ADF1725CE7415D956944A28182E69B}
 
 Versão 3.9.2:
 
 * Inclusão da API de Visitante 1.3.5.
 * Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente, os rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento. (AN-92647)
-* Removal of deprecated [!UICONTROL Heartbeat] video tracking embedded in the Media module. The supported [!UICONTROL Heartbeat] video tracking has been moved to a separate Video [!DNL Analytics] library.
+* Remoção do rastreamento de vídeo de [!UICONTROL Pulsação] descontinuado incorporado no módulo de Mídia. O rastreamento de vídeo de [!UICONTROL Pulsação] compatível foi movido para uma biblioteca de vídeos [!DNL Analytics] separada.
 
-## September 18, 2014 {#section_80939868A2284961BF620851B000294F}
+## 18 de setembro de 2014 {#section_80939868A2284961BF620851B000294F}
 
 Versão 3.9.1:
 
-* Added cookie support testing to Flash (k = Y/N query-string variable) and pf=1 to query-string when cookie support test is possible (browser with [!DNL JavaScript] access).
+* Adição do teste de suporte a cookies no Flash (k = variável da sequência de consulta Y/N) e pf=1 na sequência de consulta quando o teste de suporte a cookies é possível (navegador com acesso [!DNL JavaScript]).
 * Suporte para novos recursos no serviço de ID do visitante 1.3.2.
 
-## 21 de agosto de 2014 {#section_F7CA56E42B6548D3BE5A0D020BCEE97A}
+## August 21, 2014 {#section_F7CA56E42B6548D3BE5A0D020BCEE97A}
 
 Versão 3.9:
 
@@ -125,7 +121,7 @@ Versão 3.9:
 
 Data de lançamento: **19 de junho de 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* Corrigido o uso das bandeiras de conclusão e espera para os campos da API do visitante, como a [!DNL Analytics]ID do visitante do antiga, que gerava erros.
 * Suporte para novos recursos no serviço de ID do visitante 1.3.
 
 ## Versão 3.8 {#section_3F75C4D0C9BE470B95838DDB2CDCA79F}
@@ -138,19 +134,19 @@ Data de lançamento: **17 de abril de 2014**
 
 Data de lançamento: **13 de março de 2014**
 
-* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
+* Várias correções de bugs no monitoramento de vídeo [!UICONTROL Heartbeat].
 
 ## Versão 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 Data de lançamento: **6 de fevereiro de 2014**
 
-* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
+* Várias correções de bugs no monitoramento de vídeo [!UICONTROL Heartbeat].
 
 ## Versão 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 Data de lançamento: **14 de novembro de 2013**
 
-* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
+* Várias correções de bugs no monitoramento de vídeo [!UICONTROL Heartbeat].
 
 ## Versão 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 
@@ -182,10 +178,10 @@ Data de lançamento: **21 de fevereiro de 2013**
 
 Data de lançamento: **31 de janeiro de 2013**
 
-* Adicionado suporte para enviar URLs maiores que 255 bytes para suportar a expansão do campo URL da página nos servidores de coleta de dados da Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Isso ajuda a evitar que URLs longos tenham precedência em relação a outros dados no caso de truncagem, mas ainda permite a captura de URLs longos.
+* Adicionado suporte para enviar URLs maiores que 255 bytes para suportar a expansão do campo URL da página nos servidores de coleta de dados da Adobe. URLs de páginas mais longas do que 255 bytes são divididos, os primeiros 255 bytes aparecem no parâmetro `g=` = os bytes restantes aparecem posteriormente em uma sequência de consulta no parâmetro de consulta `-g=`. Isso ajuda a evitar que URLs longos tenham precedência em relação a outros dados no caso de truncagem, mas ainda permite a captura de URLs longos.
 
 * Adicionado um novo método de identificação de visitante de fallback. Consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
-* Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
+* Adicionado um novo sinalizador `abort` que pode ser definido dentro de `doPlugins`. Configurar esse sinalizador como true, faz com que a [!DNL AppMeasurement] biblioteca não continue com essa chamada de rastreamento. O sinalizador abort é redefinido em cada chamada de rastreamento, portanto, se uma chamada de rastreamento subsequente também precisar ser abortada, o sinalizador precisará ser configurado novamente dentro de `doPlugins`.
 
    ```js
    s.doPlugins = function(s) { 
@@ -202,7 +198,7 @@ Data de lançamento: **31 de janeiro de 2013**
 
 Data de lançamento: **8 de novembro de 2012**
 
-* Internal updates for [!DNL Audience Manager] integration.
+* Atualizações internas para a integração do [!DNL Audience Manager].
 
 ## Versão 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
 
@@ -212,8 +208,8 @@ Data de lançamento: **22 de outubro de 2012**
 
 ## Versão 3.5 {#section_7DC183DD46CF42FE85F42E7AB8915D99}
 
-Release Date: **September 13, 2012**
-**Important change to variable binding**: In version 3.5, an option to disable variable binding was added for customers who need to start and end literal string values with curly braces. A vinculação de variável usando chaves é usada primariamente ao configurar players de vídeo OSMF usando tags XML:
+Data de lançamento: **13 de setembro de 2012**
+**Alteração importante na vinculação de variável**: na versão 3.5, uma opção para desativar a vinculação de variável foi adicionada para clientes que precisam começar e terminar valores de sequência literal com chaves. A vinculação de variável usando chaves é usada primariamente ao configurar players de vídeo OSMF usando tags XML:
 
 ```
 <autoTrackMediaName>{media.player.metadata(https://www.corp1.com/,episodeID)}</autoTrackMediaName>
@@ -225,11 +221,11 @@ Um novo atributo, chamado `autoBind`, está disponível para substituir o compor
 <autoTrackMediaName autoBind=false>{123}</autoTrackMediaName>
 ```
 
-Setting `autoBind` to `false` causes the value to be considered a literal string and variable binding is not used. When this attribute is not set to `false` the behavior in XML tags remains the same.
+Configurar `autoBind` como `false` faz com que o valor seja considerado uma sequência literal e a vinculação de variável não é usada. Quando este atributo não está definido como `false`, o comportamento nas tags XML permanece o mesmo.
 
 **Impacto no código ActionScript**
 
-Though not commonly used, this syntax is also available to bind [!DNL AppMeasurement] variables in your ActionScript code. If you are unsure whether or not you are using variable binding, search your code for [!DNL AppMeasurement] variable values that start and end with curly braces. Por exemplo:
+Embora não seja de uso comum, essa sintaxe também está disponível para vincular variáveis de [!DNL AppMeasurement] no seu código ActionScript. Se você não tiver certeza se está usando ou não a vinculação de variáveis, procure o código para valores de variáveis [!DNL AppMeasurement] que iniciam e terminam com chaves. Por exemplo:
 
 ```
 s.eVar1 = "{source}";
@@ -252,7 +248,7 @@ s.autoBindVariablesByValue = true;
 * Correção de um problema que podia fazer com que o evento de conclusão de vídeo não fosse enviado quando um método `media.monitor` personalizado que controlasse o evento de fechamento da mídia fosse usado:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
