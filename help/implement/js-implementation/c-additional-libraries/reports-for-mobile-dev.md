@@ -7,8 +7,8 @@ solution: Analytics
 title: Relatórios para dispositivos com protocolos móveis
 topic: Desenvolvedor e implementação
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Como os dispositivos móveis são rastreados por um beacon, como os outros visit
 
 Esses relatórios só têm dados se o referenciador for preenchido na solicitação de imagem enviada da página remota. O referenciador é preenchido com o parâmetro da string de consulta "r", como mostrado no documento Implementação sem JavaScript. Você também deve transmitir manualmente as informações do referenciador na solicitação de imagem. 
 
-O parâmetro de cadeia de consulta "r" deve incluir o protocolo do referenciador. Se o protocolo é deixado de fora, o relatório do referenciador não é preenchido. Por exemplo, use `r=https://msn.com` e não `r=msn.com`.
+O parâmetro da string de consulta 'r' deve incluir o protocolo do referenciador. Se o protocolo é deixado de fora, o relatório do referenciador não é preenchido. Por exemplo, use `r=https://msn.com` e não `r=msn.com`.
 
 ## Segmentação geográfica e domínios {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
