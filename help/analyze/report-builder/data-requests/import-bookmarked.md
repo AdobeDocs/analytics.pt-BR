@@ -5,9 +5,9 @@ seo-title: Importar relatórios marcados e reportlets de painel
 solution: Analytics
 title: Importar relatórios marcados e reportlets de painel
 topic: Construtor de relatórios
-uuid: 0 fdbdb 2 e -5 db 7-4 f 64-b 571-23482 ba 3606 d
+uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,13 +24,9 @@ Esta é a forma como a Etapa 1 do Assistente de solicitações mostra um painel 
 
 When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
 
->[!NOTE]
->
->No Construtor de relatórios, a lista de painéis e marcadores disponíveis está limitada ao usuário, mas também aos que se aplicam ao conjunto de relatórios selecionado na Etapa 1 do assistente. Por outro lado, nos relatórios e análises de marketing, você recebe acesso aos marcadores e painéis acessíveis, independentemente dos conjuntos de relatórios que o painel e os marcadores usam.
+> [!NOTE] No Construtor de relatórios, a lista de painéis e marcadores disponíveis está limitada ao usuário, mas também àqueles que se aplicam ao conjunto de relatórios selecionado na Etapa 1 do assistente. Por outro lado, nos relatórios e análises de marketing, você recebe acesso aos marcadores e painéis acessíveis, independentemente dos conjuntos de relatórios que o painel e os marcadores usam.
 
->[!NOTE]
->
->Somente os dados são importados, portanto, se o marcador contiver um gráfico, ou se o reportlet do painel consistir em apenas um gráfico, apenas os dados usados para preencher o gráfico serão importados.
+> [!NOTE] Somente os dados são importados, portanto, se o marcador contiver um gráfico, ou se o reportlet do painel consistir em apenas um gráfico, somente os dados usados para preencher o gráfico serão importados.
 
 Depois de criar uma solicitação ao importar um reportlet de painel (ou um marcador), a solicitação será associada à dimensão principal do reportlet (ou do marcador). Como resultado, se você editar a solicitação, a visualização de árvore não selecionar mais o nó da visualização de árvore do reportlet de painel (ou o nó do marcador): em vez disso, seleciona a dimensão principal.
 
@@ -38,5 +34,5 @@ O miniaplicativo importado definirá apropriadamente o conjunto de relatórios, 
 
 >[!IMPORTANT]
 >
->O intervalo de datas será definido como o mesmo intervalo de datas, mas como um intervalo de datas estático, mesmo se esse intervalo de datas for um intervalo de datas cumulativo no marcador de Relatórios e análises.
+>O intervalo de datas será definido para o mesmo intervalo de datas, mas como um intervalo de datas estático - mesmo se esse intervalo de datas for um intervalo de datas acumulado no marcador de Relatórios e análises.
 
