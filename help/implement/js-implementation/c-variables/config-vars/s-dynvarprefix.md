@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,14 +16,14 @@ A variável permite a implantação de variáveis de sinalização que devem ser
 
 Os cookies, cabeçalhos de solicitação e parâmetros da string de consulta da imagem estão disponíveis para preenchimento dinâmico.
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
 | N/A | D= | Qualquer | D= |
 
 ## Sintaxe e valores possíveis
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OU USE SINALIZAÇÃO PERSONALIZADA PARA VARIÁVEIS DINÂMICAS
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## Exemplos
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OU USE SINALIZAÇÃO PERSONALIZADA PARA VARIÁVEIS DINÂMICAS
