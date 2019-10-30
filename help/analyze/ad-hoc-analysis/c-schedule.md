@@ -1,18 +1,18 @@
 ---
 description: Você pode personalizar o agendamento da entrega de relatórios. É possível interromper a entrega em determinado momento ou especificar o número de vezes que você deseja enviar um relatório. Os novos agendamentos usam o intervalo de datas definido no relatório. Por exemplo, se você criar um relatório para os últimos 90 dias e agendar sua execução diariamente, você recebe um relatório dos últimos 90 dias a cada dia. Se você criar um relatório com um intervalo de datas estático do calendário, você verá o mesmo relatório sempre que ele for enviado.
 seo-description: Você pode personalizar o agendamento da entrega de relatórios. É possível interromper a entrega em determinado momento ou especificar o número de vezes que você deseja enviar um relatório. Os novos agendamentos usam o intervalo de datas definido no relatório. Por exemplo, se você criar um relatório para os últimos 90 dias e agendar sua execução diariamente, você recebe um relatório dos últimos 90 dias a cada dia. Se você criar um relatório com um intervalo de datas estático do calendário, você verá o mesmo relatório sempre que ele for enviado.
-seo-title: Gerenciador de agendamento
+seo-title: Gerenciador de programação
 solution: Analytics
-title: Gerenciador de agendamento
+title: Gerenciador de programação
 topic: Ad Hoc Analysis
-uuid: 82 a 054 ef -109 d -414 d-a 6 e 1-e 09 ee 57 c 163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Gerenciador de agendamento
+# Gerenciador de programação
 
 Você pode personalizar o agendamento da entrega de relatórios. É possível interromper a entrega em determinado momento ou especificar o número de vezes que você deseja enviar um relatório. Os novos agendamentos usam o intervalo de datas definido no relatório. Por exemplo, se você criar um relatório para os últimos 90 dias e agendar sua execução diariamente, você recebe um relatório dos últimos 90 dias a cada dia. Se você criar um relatório com um intervalo de datas estático do calendário, você verá o mesmo relatório sempre que ele for enviado.
 
@@ -24,11 +24,11 @@ Você pode personalizar o agendamento da entrega de relatórios. É possível in
 >
 >quando uma conta de usuário é desativada, qualquer entrega agendada de relatório que tenha sido criada por esse usuário é suspensa.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+Para garantir que os itens de linha em um detalhamento sejam persistentes em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no Criador [de](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tabela para criar listas de dimensão fixas em detalhamentos.
 
 >[!IMPORTANT]
 >
->A Análise ad hoc permite definir e programar rapidamente relatórios para necessidades específicas de relatórios ad hoc e pontuais. Ela não foi criada para exportações completas de dados com um grande número de linhas, colunas, avaliações métricas ou departamento extensivos usando extrações de dados.
+>A Análise ad hoc permite que você defina e programe relatórios rapidamente para necessidades específicas, oportunas e de relatórios ad hoc. Ela não foi criada para exportações completas de dados com um grande número de linhas, colunas, avaliações métricas ou departamento extensivos usando extrações de dados.
 >
 >As limitações práticas para relatórios programados na Ad Hoc Analysis são baseadas no seguinte princípio: Se o seu relatório não foi criado dentro de dez minutos (o limite para Análises ad hoc), significa que ele provavelmente é muito complexo.
 >
