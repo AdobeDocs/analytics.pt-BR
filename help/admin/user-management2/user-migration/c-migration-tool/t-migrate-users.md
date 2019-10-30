@@ -5,7 +5,7 @@ seo-title: Migrar contas de usuário do Analytics para Adobe IDs
 title: Migrar contas de usuário do Analytics para Adobe IDs
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
 Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 
->[!NOTE]
->
->Se um administrador que não esteja conectado por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
+> [!NOTE] Se um administrador que não esteja conectado por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
 
 **Para migrar usuários do Analytics**
 
