@@ -5,9 +5,9 @@ seo-title: Mídia de suporte
 solution: Analytics
 title: Mídia de suporte
 topic: Ferramentas administrativas
-uuid: 6072 f 14 c-a 67 d -470 c-b 977-c 18 e 26 e 901 db
+uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Fornece configurações comuns para um site que oferece artigos e vídeos de suporte a produtos.
 
-| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variável |
+| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variable |
 |---|---|---|---|---|---|
 | Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
 | Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
@@ -24,14 +24,14 @@ Fornece configurações comuns para um site que oferece artigos e vídeos de sup
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
-| Variáveis de insight personalizado | `s_code` variável |
+| Variáveis de insight personalizado | `s_code` variable |
 |---|---|
 | Seguro/não seguro | `prop1` |
 | Propriedade de tráfego 2 - 5 | `prop2, prop3, prop4, prop5` |
 
 A seguinte tabela contém uma lista de eventos padrão de comércio. A configuração inicial desses eventos é idêntica em todos os modelos de conjunto de relatórios. Os eventos com uma variável s_code de N/A não precisam ser definidos, eles serão fornecidos automaticamente.
 
-| Eventos padrão de comércio | Tipo | `s_code` variável |
+| Eventos padrão de comércio | Tipo | `s_code` variable |
 |---|---|---|
 | Receita | Contador | `purchase` |
 | Pedidos | Contador | `purchase` |
