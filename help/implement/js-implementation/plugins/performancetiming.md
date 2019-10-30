@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: Desenvolvedor e implementação
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Obtenha detalhes completos a respeito do objeto Navigation Timing aqui:
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-Além disso, o plug-in pode usar, opcionalmente, o objeto performanceEntries para gravar o nome do ativo, tempo de início de carregamento do ativo e detalhes da duração do tempo de carregamento do ativo para cada ativo individual carregado em uma certa página. Uma grande quantidade de informações é gravada com esse plug-in, que requer que o objeto de armazenamento de DOM esteja ativado para que as informações de carregamento de página sejam armazenados por entre as visualizações da página. Certifique-se de que a política de privacidade da sua empresa permita o uso do objeto de armazenamento DOM antes de habilitar este recurso. Além disso, o uso de uma listVar é exigido para rastrear todos os ativos.
+Além disso, o plug-in pode usar, opcionalmente, o objeto performanceEntries para gravar o nome do ativo, tempo de início de carregamento do ativo e detalhes da duração do tempo de carregamento do ativo para cada ativo individual carregado em uma certa página. Uma grande quantidade de informações é gravada com esse plug-in, que requer que o objeto de armazenamento de DOM esteja ativado para que as informações de carregamento de página sejam armazenados por entre as visualizações da página. Certifique-se de que a política de privacidade da sua empresa permita o uso do objeto de armazenamento DOM antes de habilitar essa funcionalidade. Além disso, o uso de uma listVar é exigido para rastrear todos os ativos.
 
 ## Plug-ins de suporte exigidos {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ Além disso, o plug-in pode usar, opcionalmente, o objeto performanceEntries par
 
 ## Códigos de plug-ins e implementação {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados do seu site, e deve ser feito somente por um desenvolvedor com experiência de uso e implementação do Adobe Analytics. Este plug-in é compatível somente com as bibliotecas de rastreamento do [!DNL AppMeasurement].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados do seu site, e deve ser feito somente por um desenvolvedor com experiência de uso e implementação do Adobe Analytics. Este plug-in é compatível somente com as bibliotecas de rastreamento do [!DNL AppMeasurement].
 
 **Sessão Config (antes de doPlugins):**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 Para iniciar o plug-in, é preciso ter uma linha de código na sessão `doPlugins` do seu s_code, de preferência depois de designar a variável `s.pageName`. Se você desejar usar o recurso de tempo de carregamento do ativo dentro do plug-in, será preciso passar o nome da variável de lista a ser usada. Caso contrário, somente as entradas de tempo do desempenho serão rastreadas nos eventos especificados anteriormente na variável `s.pte`.
 
->[!NOTE]
->
->Para correlacionar as entradas de tempo de desempenho com as páginas do site, você deve inicializar o plug-in `getPreviousValue`. Recomendamos que você compare as entradas de desempenho com o nome da página anterior ou o valor anterior do URL da página.
+> [!NOTE]Para correlacionar as entradas de tempo de desempenho com as páginas do site, você deve inicializar o plug-in `getPreviousValue`. Recomendamos que você compare as entradas de desempenho com o nome da página anterior ou o valor anterior do URL da página.
 
 *Solicitações de exemplo*
 
