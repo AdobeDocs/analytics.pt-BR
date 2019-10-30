@@ -5,9 +5,9 @@ seo-title: Gerenciar solicitações - definições
 solution: Analytics
 title: Gerenciar solicitações - definições
 topic: Construtor de relatórios
-uuid: 01 b 21 d 0 e-c 870-4 df 8-95 b 9-f 4 aef 1 f 4 d 16 b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,9 @@ Descrições dos campos para gerenciar solicitações no Construtor de relatóri
 
 O [!UICONTROL Gerenciador de solicitações] fornece uma visualização detalhada do status de todas as solicitações que você tiver criado para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação (funções normalmente associadas ao [!UICONTROL Assistente de solicitações] e ao [!UICONTROL Gerenciador de solicitações]) clicando com o botão direito do mouse em uma célula disponível na planilha do Excel que contenha solicitações anteriores.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **[!UICONTROL Gerenciar]** ( ![](assets/edit_request.gif) na barra de ferramentas do Construtor de relatórios.
 
->[!NOTE]
->
->O Construtor de relatórios da Adobe aplica as dependências de solicitação somente na mesma planilha, e não em planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
+> [!NOTE] O Construtor de relatórios da Adobe aplica as dependências de solicitação somente na mesma planilha, não em planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
 
 ## Definições {#section_FD29D8614DE74F32A0027FA130F40304}
 
