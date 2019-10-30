@@ -7,7 +7,7 @@ title: Relatórios de visitante
 topic: Ad Hoc Analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Você pode dividir o relatório de acordo com qualquer variável para determinar
 * Quantas visitas normalmente são necessárias para que um usuário que clicou na campanha XYZ realize uma compra.
 * Se os usuários de Tóquio, por exemplo, fazem mais visitas antes de gerar uma perspectiva de venda em comparação aos usuários de Londres.
 
->[!NOTE]
->
->Se o mesmo visitante visitar seu site várias vezes no mesmo período, cada número de visita especificado será incrementado para cada visita.
+> [!NOTE] Se o mesmo visitante visitar seu site várias vezes no mesmo período, cada número de visita especificado será incrementado para cada visita.
 
 Esse relatório é baseado nos dados de ID do visitante passados para a Adobe a cada acesso dos visitantes. Conforme esses dados são recebidos, a Adobe os compara aos dados históricos de ID de visitantes para determinar se o acesso é:
 
@@ -73,9 +71,7 @@ Esse relatório é baseado nos dados de ID do visitante passados para a Adobe a 
 * Um visitante anterior continuando uma visita (o número de visitas não aumenta).
 * Um visitante anterior fazendo uma nova visita (o número de visitas é incrementado em um).
 
->[!NOTE]
->
->Cada ID de visitante do Analytics está associada a um perfil de visitante nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
+> [!NOTE] Cada ID de visitante do Analytics está associada a um perfil de visitante nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
 
 ## Fidelidade do Cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -94,11 +90,9 @@ O relatório de [!UICONTROL Fidelidade do cliente] exibe padrões de compras de 
 * **Cliente antigo** clientes que efetuaram 2 compras
 * **Cliente fiel** clientes que efetuaram 3 ou mais compras
 
->[!NOTE]
->
->Ao usar essas métricas, todas as Visitas do usuário (ou todos os Visitantes) são representados neste relatório, independentemente de a Visita (ou o Visitante) ter incluído uma compra.
+> [!NOTE] Ao usar essas métricas, todas as Visitas do usuário (ou todos os Visitantes) são representados neste relatório, independentemente de a Visita (ou o Visitante) ter incluído uma compra.
 
-O estado da fidelidade muda após a conclusão da visita na qual ocorre um evento de compra. Por exemplo, um novo cliente (1 compra) realiza uma compra e se registra em um boletim informativo na mesma visita após a compra. O evento de registro no boletim informativo ainda é considerado uma interação de cliente novo, pois o estado da fidelidade do cliente não será alterado até a próxima visita.
+O estado da fidelidade muda após a conclusão da visita na qual ocorre um evento de compra. Por exemplo, um novo cliente (1 compra) realiza uma compra e se registra em um boletim informativo na mesma visita após a compra. O evento de registro no boletim informativo ainda é considerado uma interação de cliente novo, pois o estado da Fidelidade do cliente não será alterado até a próxima visita.
 
 ## Perfil do visitante {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
@@ -110,7 +104,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**: apresenta os idiomas preferidos de seus visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com frequência em seu site.
+**[!UICONTROL Idiomas]**: Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
 
 **[!UICONTROL Domínios]**: indica as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de [!UICONTROL Domínios completos] porque o relatório de Domínios completos registra o domínio completo do ISP e este relatório indica o domínio secundário.
 
