@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Visão geral do Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ A integração do Audience Analytics apresenta os seguintes benefícios principa
 
 1. Cada vez que um visitante acessa suas propriedades digitais, ocorrências são coletadas e enviadas ao Analytics.
 1. Com [o encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md), cada ocorrência recebida pelo Analytics é automaticamente enviada ao AAM em tempo real.
-1. Por meio da integração do Audience Analytics, para cada ocorrência, a associação de público-alvo de um visitante é pesquisada no AAM e uma lista de IDs de segmentos é retornada ao Analytics para a execução do processamento em tempo real.
+1. Por meio da integração do Audience Analytics, para cada ocorrência, a associação de público-alvo de um visitante é pesquisada no AAM e uma lista de IDs de segmento é retornada ao Analytics para processamento em tempo real.
 
 Segmentos do AAM são inseridos quando houver ocorrências semelhantes, portanto você pode ter certeza de que os dados disponíveis no AAM sobre um visitante não serão ignorados e estarão sempre atualizados em relação à ocorrência. Isso é melhor do que um plug-in AppMeasurement, pois o plug-in pode disponibilizar esses segmentos somente na próxima ocorrência (em vez da ocorrência atual).
 
-Além disso, classificamos automaticamente as IDs de segmentos do AAM em relação aos nomes amigáveis, para que você não precise pesquisar IDs alfanuméricas em relatórios do Analytics.
+Além disso, classificamos automaticamente as IDs de segmento do AAM com os nomes amigáveis para você, de modo que não seja necessário verificar as IDs alfanuméricas nos relatórios do Analytics.
 
 ## Pré-requisitos {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
