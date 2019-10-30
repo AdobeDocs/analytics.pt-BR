@@ -1,13 +1,13 @@
 ---
 description: A seção de Destino do feed define como o feed é distribuído.
-keywords: Feed de dados; feed; destino; sftp; s 3; ftp; configurações
+keywords: Feed de dados;feed;destino;sftp;s3;ftp;configurações
 seo-description: A seção de Destino do feed define como o feed é distribuído.
 seo-title: Destino do feed
 solution: Analytics
 title: Destino do feed
-uuid: 4 a 59 e 8 de-e 7 a 6-4 f 7 a-bf 42-db 7 d 59 e 61 b 4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ A tabela a seguir mostra opções para todos os canais de distribuição. A opç
   </tr> 
   <tr> 
    <td colname="col1"> <p> Host </p> </td> 
-   <td colname="col2"> <p>Especifique a localização de host FTP ou SFTP. </p> <p>Esse valor deve cumprir com o devido formato ftp/sftp, <code>ftp.domain.com/subdomain</code> ou <code>sftp.domain.com/subdomain</code>. </p> <p> As portas padrão 21 e 22 para FTP e sFTP são necessárias. </p> </td> 
+   <td colname="col2"> <p>Especifique a localização de host FTP ou SFTP. </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> As portas padrão 21 e 22 para FTP e sFTP são necessárias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Senha </p> <p>Confirmar senha </p> </td> 
