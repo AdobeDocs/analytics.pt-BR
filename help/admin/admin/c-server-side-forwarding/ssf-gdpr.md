@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Conformidade com o RGPD e o encaminhamento pelo lado do servidor
-title: Conformidade com o RGPD e o encaminhamento pelo lado do servidor
-uuid: 1 b 90 c 567-3321-4 dbd-a 699-38 c 04 e 809 fa 4
+seo-title: Conformidade com o GDPR/ePrivacy e encaminhamento pelo lado do servidor
+title: Conformidade com o GDPR/ePrivacy e encaminhamento pelo lado do servidor
+uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: 26c3cc9895c27d6abc452e0a4636771fb2415fb3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conformidade com o RGPD e o encaminhamento pelo lado do servidor
+# Conformidade com o GDPR/ePrivacy e encaminhamento pelo lado do servidor
 
 Esta seção explica as melhorias recentes feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entrou em vigor em 30 de setembro de 2017.
 
@@ -28,23 +28,23 @@ Dependendo do seu método de implementação, siga estas etapas.
 
 | Método de implementação | Etapas |
 |--- |--- |
-| Lançamento da Adobe Experience Platform | Assuming you have the Adobe Analytics extension installed, add the following context data variable definition to the custom code editor within the Action configuration of a Rule: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
+| Adobe Experience Platform Launch | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação:  Defina a variável de dados de contexto e defina-a como 1 se um cliente não consentir no marketing direcionado. Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
 | DTM | Adicione a definição da variável contextdata ao editor de Código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 | AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Você pode usar o Adobe Analytics para criar relatórios sobre qual porção de seu tráfego é baseada em consentimento e como resultado foi encaminhada pelo lado do servidor, versus qual porção não é baseada em consentimento e não foi encaminhada para o AAM.
+Você pode usar o Adobe Analytics para relatar quanto do seu tráfego é baseado no consentimento e, como resultado, foi encaminhado pelo lado do servidor em relação ao volume do seu tráfego não é baseado no consentimento e não foi encaminhado para o AAM.
 
 Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável personalizada de tráfego (prop) por meio de regras de processamento. Para fazer isso
 
-1. Implemente a variável “cm.ssf” (conforme mostrado acima.)
+1. Implemente a variável "cm.ssf" (como mostrado acima).
 1. [Habilite a prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. Use regras de processamento para mapear a variável de contexto para a prop.
 
    1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** , then select a report suite.
    1. Click  **[!UICONTROL Edit Report Suite]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]** .
    1. Clique em **[!UICONTROL Adicionar regra.]**
-   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable “cm.ssf(Context Data)”.
+   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)".
    1. Clique em **[!UICONTROL Salvar]**.
 
