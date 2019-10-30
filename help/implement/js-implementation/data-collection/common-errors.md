@@ -8,8 +8,8 @@ subtopic: Solução de problemas
 title: Erros comuns
 topic: Desenvolvedor e implementação
 uuid: 04345355-60cc-4678-81c3-390c86752df1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -56,7 +56,7 @@ s.dynamicAccountList="suiteid1,suiteid2=client.com"
 
 Não coloque as variáveis de [!UICONTROL correspondência da conta dinâmica] entre aspas. As opções são exibidas abaixo.
 
-| Host/Nome de domínio | Nenhuma |
+| Host/Nome de domínio | Nenhum |
 |---|---|
 | String de consulta | s.dynamicAccountMatch=(window.location.search?window.location.search:"?") |
 | Host/domínio e caminho | s.dynamicAccountMatch=window.location.host+window.lcation.pathname |
