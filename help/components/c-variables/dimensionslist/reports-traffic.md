@@ -4,10 +4,10 @@ seo-description: Relatórios de tráfego fornecem um insight detalhado sobre com
 seo-title: Tráfego
 solution: Analytics
 title: Tráfego
-topic: 'Relatórios  '
-uuid: c 32 af 0 c 0-f 0 c 2-47 f 7-a 5 f 6-4 a 2 df 63 e 11 fc
+topic: Relatórios
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ Alguns relatórios existentes contém métricas de tráfego e conversão (ex: re
 
 **Persistência comum**
 
-Em Fontes de tráfego, todos os valores do relatório persistem e recebem crédito até que sejam substituídos ou que a visita termine, o que ocorrer primeiro. Anteriormente, somente Palavras-chave e Domínios de referência persistiam. For example, if a visitor performs a Google search for *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. Essa funcionalidade é inalterável, independentemente das configurações do administrativo.
+Em Fontes de tráfego, todos os valores do relatório persistem e recebem crédito até que sejam substituídos ou que a visita termine, o que ocorrer primeiro. Anteriormente, somente Palavras-chave e Domínios de referência persistiam. Por exemplo, se um visitante realizar uma pesquisa do Google por *`DVD`*, o que os traz para o seu site para uma compra de $100, o relatório aloca um crédito de $100 para a palavra-chave *`DVD`* e também para o mecanismo de pesquisa do Google. Essa funcionalidade é inalterável, independentemente das configurações do administrativo.
