@@ -5,9 +5,9 @@ seo-title: Métodos de descoberta
 solution: Analytics
 title: Métodos de descoberta
 topic: Ferramentas administrativas
-uuid: 1053993 e -7 fc 4-4874-84 fa -367 ecdcd 7 b 45
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos]** de relatórios &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Buscar métodos]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **** Métodos de descoberta.
 
 ## Descrições de métodos de descoberta {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -55,7 +55,5 @@ A página Métodos de descoberta identifica como vários relatórios de métodos
  </tbody> 
 </table>
 
->[!NOTE]
->
->Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando Check-out do carrinho ocorrer durante a visita. Se não ocorrer o Check-out do carrinho durante a visita, o Método de descoberta ainda expirará ao final da visita.
+> [!NOTE] Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando Check-out do carrinho ocorrer durante a visita. Se não ocorrer o Check-out do carrinho durante a visita, o Método de descoberta ainda expirará ao final da visita.
 
