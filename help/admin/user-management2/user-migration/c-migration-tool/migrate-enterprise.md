@@ -5,7 +5,7 @@ seo-title: Migrar contas de usuário do Analytics para Enterprise e Federated ID
 title: Migrar contas de usuário do Analytics para Enterprise e Federated IDs
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -62,11 +62,9 @@ Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Fed
 
       Esteja preparado para copiar os valores *`Email`*, *`First Name`* e *`Last Name`* para um [!DNL sample.csv] arquivo (descrito na próxima etapa).
 
-      >[!IMPORTANT]
-      >
-      >Os valores no arquivo CSV devem ser delimitados por vírgulas.
+      > [!IMPORTANT] Os valores no arquivo CSV devem ser delimitados por vírgulas.
 
-      **Dica**: durante essa etapa, a Adobe recomenda a simplificação de sua lista de usuários para garantir que apenas os usuários com uma ID de email válido sejam incluídos na migração de Enterprise ou Federated ID.
+      > [!TIP] Durante esta etapa, a Adobe recomenda simplificar sua lista de usuários para garantir que somente os usuários com uma ID de email válida sejam incluídos na migração da Enterprise ID ou da Federated ID.
 
 1. No Admin Console, baixe uma lista de usuários do Admin Console:
 
@@ -76,9 +74,7 @@ Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Fed
 
    1. Compare the two files: the existing Admin Console users in the exported [!DNL .csv] file ( [!DNL sample.csv], in this example) with the users in the Analytics [!DNL User Logins List.csv] file.
 
-      >[!IMPORTANT]
-      >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. Essa etapa ajuda a impedir a sobreposição de permissões do usuário da Experience Cloud no Admin Console e fornece uma lista de contas para migração.
+      > [!IMPORTANT] Se encontrar duplicatas, exclua-as do [!DNL User Logins List.csv] arquivo do Analytics. Essa etapa ajuda a impedir a sobreposição de permissões do usuário da Experience Cloud no Admin Console e fornece uma lista de contas para migração.
 
 1. Baixe o modelo CSV no Admin Console:
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.
@@ -136,9 +132,7 @@ Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Fed
 
 For more information about the fields in the [!DNL .csv] file, see [CSV file format](https://helpx.adobe.com/enterprise/using/users.html).
 
->[!NOTE]
->
->Outras colunas, como *`Product Configurations`* e *`Admin Roles`* podem estar em branco.
+> [!NOTE] Outras colunas, como *`Product Configurations`* e *`Admin Roles`* podem estar em branco.
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
 1. No Analytics, execute a ferramenta de migração (conforme descrito em [Migrar contas](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)de usuário do Analytics).
