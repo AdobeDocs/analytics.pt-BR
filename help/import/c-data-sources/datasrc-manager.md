@@ -1,23 +1,23 @@
 ---
 description: Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatórios.
 seo-description: Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatórios.
-seo-title: Gerenciador das Fontes de Dados
+seo-title: Gerenciador das fontes de dados
 solution: Analytics
 subtopic: Fontes de dados
-title: Gerenciador das Fontes de Dados
+title: Gerenciador das fontes de dados
 topic: Desenvolvedor e implementação
-uuid: ccfa 4 a 1 c -7 c 56-421 b -8 ee 6-a 42 b 334659 b 1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gerenciador das Fontes de Dados
+# Gerenciador das fontes de dados
 
 Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatórios.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Fontes de dados]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Fontes **[!UICONTROL de dados]**.
 
 ## Guia Criar {#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -67,7 +67,7 @@ A seleção que você faz na guia Criar determina os campos iniciais do modelo c
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> O status atual do arquivo. Os possíveis valores de status incluem: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">Na fila (etapa 1 de 3): O arquivo existe, mas ainda não começou a ser processado. Se o arquivo não aparecer em 30 minutos, confirme se o arquivo <span class="filepath">.fin</span> associado está presente. </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">Na fila (etapa 1 de 3): O arquivo existe, mas ainda não começou a ser processado. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Preparando (etapa 2 de 3): O arquivo está sendo verificado em busca de erros ou avisos. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Processando (etapa 3 de 3): O arquivo está sendo processado. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Falha: O arquivo não foi processado por causa de erros. </li> 
