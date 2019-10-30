@@ -8,7 +8,7 @@ title: Implementar opções de não participação da Adobe
 topic: Desenvolvedor e implementação
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,11 +30,11 @@ A Adobe recomenda que você forneça aos visitantes do site informações fácei
 
 Os visitantes podem obter mais informações sobre como a Adobe usa as informações coletadas, além de fornecer nossos produtos e serviços para os clientes no [Adobe Privacy Center](https://www.adobe.com/privacy.html). No entanto, como o controle exclusiva do implementação de nossos serviços em seus sites é seu, você decide como descrever para seus visitantes as maneiras específicas com a qual podem usar nossos produtos e serviços. Você é responsável pela criação de sua própria política de privacidade, por seguir sua política de privacidade, por seguir o contrato de serviço com a Adobe e todas as leis aplicáveis.
 
-## Opt-outs for Adobe Analytics (including Reports &amp; Analytics, Data Warehouse, Ad Hoc Analysis) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
+## Opções de não participação do Adobe Analytics (incluindo Reports &amp; Analytics, Data Warehouse, Ad Hoc Analysis) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
 
-Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
+A Adobe oferece três tipos de opções de não participação do Adobe Analytics (incluindo [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Se você implementar produtos do Adobe Analytics com seu próprio cookie primário, precisará [desenvolver seu próprio link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) personalizado de opção de não participação para os visitantes do seu site.
+* Se você implementar os produtos do Adobe Analytics com cookies próprios, será necessário [desenvolver seu próprio link para opção de não participação personalizado](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) para os visitantes do site.
 * Seus clientes têm a opção de ativar o cancelamento usando as configurações de cookies do navegador. Consulte [Ativação das configurações de privacidade de cookies do navegador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Independentemente do mecanismo de opção escolhido, a Adobe recomenda que você descreva claramente a disponibilidade do mecanismo de opção na sua política de privacidade ou, do contrário, como exigido por lei ou recomendado de acordo com as práticas recomendadas.
