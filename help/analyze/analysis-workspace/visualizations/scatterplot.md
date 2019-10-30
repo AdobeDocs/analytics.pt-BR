@@ -3,9 +3,9 @@ description: Mostra impressões emitidas e quantos usuários únicos viram essas
 seo-description: Mostra impressões emitidas e quantos usuários únicos viram essas impressões.
 seo-title: Gráfico de dispersão
 title: Gráfico de dispersão
-uuid: 470 b 3142-3 a 0 a -4 cd 8-8919-7 b 64044188 c 8
+uuid: 470b3142-3a0a-4cd8-8919-7b6404188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ O tamanho de cada ponto de dados oferece uma sugestão visual sobre o número m�
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->Uma tabela associada a um gráfico de dispersão requer pelo menos duas colunas. A primeira coluna define o eixo X e a segunda coluna define o eixo Y. Se houver uma terceira coluna disponível, o Gráfico de dispersão a usa para determinar o raio do ponto. Em outras palavras, as colunas *1*, *2* e *3* mapeiam para *X*, *Y* e *raio do ponto*.
+> [!NOTE] Uma tabela associada a um Gráfico de dispersão requer pelo menos duas colunas. A primeira coluna define o eixo X e a segunda coluna define o eixo Y. Se houver uma terceira coluna disponível, o Gráfico de dispersão a usa para determinar o raio do ponto. Em outras palavras, as colunas *1*, *2* e *3* mapeiam para *X*, *Y* e *raio do ponto*.
 
