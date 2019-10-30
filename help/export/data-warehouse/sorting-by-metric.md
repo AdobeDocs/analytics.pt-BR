@@ -4,9 +4,9 @@ seo-description: Oferece relatórios classificados e detalhados no Data Warehous
 seo-title: Classificar por métrica
 solution: Analytics
 title: Classificar por métrica
-uuid: 07 da 2607-b 3 fd -463 b -90 d 4-6884 a 93 c 7 e 25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
