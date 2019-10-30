@@ -1,18 +1,18 @@
 ---
 description: 'Alterações e aprimoramentos feitas à opção de Desfazer na Analysis Workspace. '
 seo-description: 'Alterações e aprimoramentos feitas à opção de Desfazer na Analysis Workspace. '
-seo-title: Desfazer e refazer configurações
-title: Desfazer e refazer configurações
-uuid: a 4 dbc 169-5 fd 7-4383-aee 0-6 b 5 ba 1 c 235 ab
+seo-title: Configurações Desfazer e Refazer
+title: Configurações Desfazer e Refazer
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Desfazer e refazer configurações
+# Configurações Desfazer e Refazer
 
-**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Desfazer/Refazer]**
+**[!UICONTROL Área de trabalho]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Desfazer/Refazer]**
 
 * A opção **[!UICONTROL Refazer]** (para refazer uma ação desfeita) pode ser encontrada no menu **Editar[!UICONTROL .]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * É possível desfazer/refazer uma alteração no conjunto de relatórios.
 * Uma mensagem de desfazer/refazer próxima ao nome do projeto indica quando uma ação de desfazer ou refazer estiver em andamento.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Você pode usar essas [teclas de atalho](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
    * CTRL(CMD)+Z para Desfazer
    * CTRL(CMD)+SHIFT+Z para Refazer
