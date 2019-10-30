@@ -1,6 +1,6 @@
 ---
 description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
-keywords: Implementação do Analytics;contextdata;s.contextdata
+keywords: Implementação do Analytics, contextdata, s.contextdata
 seo-description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
 seo-title: Variáveis de dados de contexto
 solution: Analytics
@@ -9,7 +9,7 @@ title: Variáveis de dados de contexto
 topic: Desenvolvedor e implementação
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ As variáveis de dados de contexto permitem que você defina variáveis em cada 
 
 Você pode enviar dados nas variáveis de dados de contexto que estão mapeados por meio de Regras de processamento, em vez de atribuir valores explícitos para os props e eVars no seu código. As Regras de processamento fornecem uma interface gráfica eficaz para fazer mudanças nos dados que são recebidos. Com base nos valores enviados nos dados de contexto, você poderá definir eventos, copiar valores para o eVars e props, bem como executar instruções condicionais.
 
->[!NOTE]
->
->As variáveis de dados de contexto não distinguem maiúsculas de minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
+> [!NOTE]As variáveis de dados de contexto não fazem distinção entre maiúsculas e minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -33,13 +31,13 @@ Você pode enviar dados nas variáveis de dados de contexto que estão mapeados 
 
 O uso do contexto de dados ajuda a evitar as atualizações de código para suportar configurações de conjunto de relatórios diferentes.
 
-Por exemplo, você pode definir a seguinte variável *`s.contextData`* variable:
+Por exemplo, você pode definir a seguinte variável Variável *`s.contextData`*:
 
 ```
 s.contextData['myco.rsid'] = 'value'
 ```
 
-Usando Regras de processamento, você pode adicionar uma condição que verifique se existe uma variável de `myco.rsid`Dados de contexto Quando a variável for encontrada, você poderá adicionar uma ação para copiá-la em uma prop ou eVar.
+Usando Regras de processamento, você pode adicionar uma condição que verifique se existe uma variável de `myco.rsid`Dados de contexto. Quando a variável for encontrada, você poderá adicionar uma ação para copiá-la em uma prop ou eVar.
 
 As variáveis de Dados de contexto também podem ser diretamente definidas na interface de regras de processamento para armazenar um valor temporariamente, ou para coletar valores com base em uma variável de dados de contexto que você sabe que será usada no conjunto de relatórios. Por exemplo, se você precisar trocar dois valores, poderá criar uma variável de dados de contexto para armazenar um valor durante a troca.
 
@@ -57,14 +55,14 @@ Como as regras de processamento se aplicam somente quando os dados são coletado
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nomes e caracteres suportados </p> </td> 
-   <td colname="col2"> <p>os nomes de variável de dados só podem conter caracteres alfanuméricos, sublinhados e pontos. Os caracteres adicionais serão eliminados. As variáveis de Dados de contexto não têm uma designação numérica. Em vez disso, elas são nomeadas. </p> <p>Por exemplo, a variável dos dados de contexto <code>login_page-home</code> torna-se automaticamente <code>login_pagehome </code>. Todos os dados enviados para a variável <code>login_page-home</code> são alocados em <code>login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>os nomes de variável de dados só podem conter caracteres alfanuméricos, sublinhados e pontos. Os caracteres adicionais serão eliminados. As variáveis de Dados de contexto não têm uma designação numérica. Em vez disso, elas são nomeadas. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
-   <td colname="col2"> <p>Uma prática recomendada é prefixar suas variáveis com o nome de sua empresa, nome do site ou um valor semelhante para garantir que o nome seja único em todo o conjunto de relatórios. </p> <p>As variáveis de dados de contexto podem ser nomeadas de maneira semelhante a outras variáveis do JavaScript. Esteja ciente de que o espaço de nome <code>a.*</code> é reservado para uso pelos produtos Adobe em nomes de Variáveis de Contexto. Por exemplo, a biblioteca AppMeasurement para iOS usa <code>a.InstallEvent</code> para medir as instalações do aplicativo. </p> </td> 
+   <td colname="col2"> <p>Uma prática recomendada é prefixar suas variáveis com o nome de sua empresa, nome do site ou um valor semelhante para garantir que o nome seja único em todo o conjunto de relatórios. </p> <p>As variáveis de dados de contexto podem ser nomeadas de maneira semelhante a outras variáveis do JavaScript. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. Por exemplo, a biblioteca AppMeasurement para iOS usa <code> a.InstallEvent </code> para medir as instalações do aplicativo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Limites de URL para o Internet Explorer </p> </td> 
+   <td colname="col1"> <p>Limites de URL para Internet Explorer </p> </td> 
    <td colname="col2"> <p>Talvez você encontre uma limitação de URL mais antiga para o Internet Explorer 6 e 7, na qual os URLs são truncados em 2000 bytes. Você pode usar o depurador <span class="keyword">DigitalPulse</span> para determinar o tamanho de uma string de URL. </p> <p>Com as últimas atualizações do AppMeasurement (setembro de 2014), o HTTP POST passou a ser usado com o Internet Explorer 8+, eliminando os problemas de truncamento. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +84,7 @@ s.tl(true,"o","Link Name");
 
 ## Exemplos {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possíveis maneiras de substituir a implementação da *`s.pageName`* variável, supondo que as regras de processamento estejam configuradas corretamente para cada:
+Possíveis maneiras de substituir a implementação da variável *`s.pageName`*, supondo que as regras de processamento estejam configuradas corretamente para cada:
 
 ```
 s.contextData['page'] = "Home Page" 
