@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementar o Analytics usando tags de imagem HTML
 topic: Desenvolvedor e implementação
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,5 @@ O JavaScript pode detectar configurações do navegador que não estão disponí
 * Para eventos de conversão de rastreamento, como compras, nos quais a precisão é muito importante.
 * Essa estratégia também pode ser usada para preencher totalmente a solicitação de imagem na tag <noscript> para rastrear usuários sem JavaScript ou com JavaScript desativado.
 
->[!NOTE]
->
->O uso de tags de imagem geradas no servidor requer mais tempo para implementação e é mais difícil de depurar, implantar e manter. A Adobe incentiva fortemente que os clientes usem a coleta de dados baseada em JavaScript em todas as páginas em que isso for possível. Diversos relatórios e recursos, incluindo mapa de cliques de visitantes, links para download, links de saída e variáveis baseadas em navegadores (largura/altura do navegador etc) não podem ser coletados ou suportados com o uso desse método de implementação.
+> [!NOTE] O uso de tags de imagem geradas no servidor requer mais tempo para implementação e é mais difícil de depurar, implantar e manter. A Adobe incentiva fortemente que os clientes usem a coleta de dados baseada em JavaScript em todas as páginas em que isso for possível. Diversos relatórios e recursos, incluindo mapa de cliques de visitantes, links para download, links de saída e variáveis baseadas em navegadores (largura/altura do navegador etc) não podem ser coletados ou suportados com o uso desse método de implementação.
 
