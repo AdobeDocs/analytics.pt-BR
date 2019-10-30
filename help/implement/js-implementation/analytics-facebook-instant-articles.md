@@ -7,8 +7,8 @@ solution: Analytics
 title: Instant Articles do Facebook
 topic: Desenvolvedor e implementação
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 Como implementar o Analytics no Instant Articles do Facebook.
 
-Os Instant Articles do Facebook são um novo método para editores criarem artigos rápidos e interativos no Facebook. Os Instant Articles podem carregar conteúdo em até 10 vezes mais rápido que a Web móvel.
+Instant Articles do Facebook é um novo método para editores criarem artigos rápidos e interativos no Facebook. Os Instant Articles podem carregar conteúdo em até 10 vezes mais rápido que a Web móvel.
 
 O Adobe Analytics pode ser incorporado nos Instant Articles do Facebook para rastrear o comportamento de visitantes conforme interagem com o conteúdo. Devido ao conteúdo do editor estar no aplicativo do Facebook e não no site dele, a abordagem de aplicação de tags é diferente do que ocorre na implementação padrão do Analytics.
 
