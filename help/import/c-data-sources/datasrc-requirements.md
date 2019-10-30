@@ -3,12 +3,12 @@ description: Informações sobre os requisitos do conjunto de relatórios antes 
 seo-description: Informações sobre os requisitos do conjunto de relatórios antes de usar as Fontes de dados.
 seo-title: Requisitos e limites de upload
 solution: Analytics
-subtopic: Data sources
+subtopic: Fontes de dados
 title: Requisitos e limites de upload
 topic: Desenvolvedor e implementação
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ As seções a seguir apresentam as limitações aplicáveis às Fontes de dados 
 * É possível importar apenas dados com datas atuais ou passadas. Não tente usar datas futuras nos dados de Fontes de dados.
 * Todas as linhas devem ter uma data especificada para habilitar os recursos gráficos do relatório. Se uma linha não tiver data, as Fontes de Dados gerarão um erro e rejeitarão o arquivo. O formato da data/hora varia de acordo com o tipo de fonte de dados:
 
-   * **Full Processing Data Sources: Use the ISO 8601 date format of  (for example, ), or Unix Time Format (the number of seconds elapsed since January 1, 1970).**`YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`
+   * **Fontes** de dados de processamento completo:Use o formato de data ISO 8601 de `YYYY-MM-DDThh:mm:ss±UTC_offset` (por exemplo, `2013-09-01T12:00:00-07:00`) ou Formato de hora Unix (o número de segundos decorridos desde 1° de janeiro de 1970).
 
    * **Fontes** de dados padrão e de integração: Use o seguinte formato de data: `MM/DD/YYYY/HH/mm/SS` (por exemplo, `01/01/2013/06/00/00`)
 
