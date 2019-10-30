@@ -3,9 +3,9 @@ description: Essas alterações no funcionamento das métricas calculadas do Ana
 seo-description: Essas alterações no funcionamento das métricas calculadas do Analytics podem afetar você.
 seo-title: Perguntas frequentes
 title: Perguntas frequentes
-uuid: 9 b 7 f 1 cd 1-b 969-4 b 15-8 af 1-969 d 816 b 65 b 8
+uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,11 +38,11 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [O que acontece com as métricas calculadas de um usuário caso ele seja excluído?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Por que vejo métricas calculadas "desconhecidas" que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Por que vejo métricas calculadas "Desconhecidas" que não são "válidas" para outros conjuntos de relatórios, mesmo que possam ser criadas e aplicadas a esses conjuntos?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Por que as alterações que fiz em minhas métricas calculadas herdadas não foram salvas?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Porque minhas métricas calculadas não são exibidas no Relatório de canais de marketing?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Por que minhas métricas calculadas não aparecem no relatório Canais de marketing?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Por que algumas métricas calculadas mostram fórmulas sem o parênteses que adicionei?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
@@ -77,9 +77,9 @@ You would see a number of calculated metrics with the same name (but created in 
 
 Considere consolidar as métricas calculadas com nomes e definições similares, mas tenha cuidado ao fazer isso. Você pode verificar o conjunto de relatórios para uma métrica calculada no Gerenciador de métricas calculadas, de modo a verificar o conjunto de relatórios original. Você também deve verificar as definições das métricas ao excluir possíveis duplicatas, a fim de garantir que está consolidando as métricas corretamente.
 
-> [!NOTE] Embora as métricas calculadas não estejam mais vinculadas a um conjunto de relatórios específico e possam ser usadas em qualquer conjunto de relatórios visível para a empresa de logon, o conjunto de relatórios no qual a métrica calculada foi criada ou salva pela última vez ainda pode ser visualizado no Gerenciador de métricas calculadas.
+> [!NOTE] Mesmo que as métricas calculadas não estejam mais vinculadas a um conjunto de relatórios específico e possam ser usadas em qualquer conjunto de relatórios visível à empresa de logon, o conjunto de relatórios no qual a métrica calculada foi criada ou salva pela última vez ainda estará visível no Gerenciador de métricas calculadas.
 
-> [!NOTE] Mesmo que uma Métrica calculada seja excluída, qualquer marcador ou relatório de painel que referencie essa métrica ainda funcionará.
+> [!NOTE] Mesmo se uma métrica calculada for excluída, todos os marcadores ou relatórios de painel que fizerem referência a essa métrica ainda funcionarão.
 
 ## O que aconteceu com minhas métricas calculadas globais?{#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -91,7 +91,7 @@ Agora, as métricas calculadas globais são possuídas pelo primeiro usuário ad
 
 Nada. Contudo, o novo proprietário administrador deve tomar cuidado ao modificar ou excluir estas métricas calculadas; é possível que elas sejam usadas por vários relatórios e painéis marcados.
 
-> [!NOTE] Mesmo que uma Métrica calculada seja excluída, qualquer marcador ou relatório de painel que referencie essa métrica ainda funcionará.
+> [!NOTE] Mesmo se uma métrica calculada for excluída, todos os marcadores ou relatórios de painel que fizerem referência a essa métrica ainda funcionarão.
 
 ## O que aconteceu com as métricas calculadas globais que foram compartilhadas com empresas de logon? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -99,13 +99,11 @@ Anteriormente, um administrador podia criar métricas calculadas (conhecidas com
 
 As métricas calculadas globais não podem mais ser compartilhadas com as empresas de logon. Elas não estão mais vinculadas a um conjunto de relatórios específico, e sim a uma empresa de logon específica. As métricas calculadas que foram compartilhadas com empresas de logon
 
-* Foram migradas para todas as empresas de logon com acesso a esse conjunto de relatórios.
-* Padrão "compartilhado com todos".
+* Foram migrados para todas as empresas de logon com acesso ao conjunto de relatórios.
+* Padrão para "compartilhado com todos".
 * Serão cópias independentes de todas as outras empresas de logon.
 
->[!NOTE]
->
->Se a métrica calculada foi usada em um marcador, painel, alerta ou relatório programado, editar a nova cópia NÃO afetará a métrica calculada mantida.
+> [!NOTE] Se a métrica calculada foi usada em um marcador, painel, alerta ou relatório programado, a edição da nova cópia NÃO afetará a métrica calculada persistente antiga.
 
 ## O que aconteceu com a métricas calculadas com uma classificação Numérico ou Numérico2?{#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -137,7 +135,7 @@ Você pode usar uma métrica base de Visitantes únicos em um relatório com um 
 
 Anteriormente, salvar uma métrica calculada com o método da API (1.3 ou 1.4) ReportSuite.SaveCalculatedMetrics era o mesmo que criar ou atualizar uma métrica calculada no Admin Console. O mesmo se aplica a ReportSuite.DeleteCalculatedMetrics. Além disso, a lista de métricas calculadas exibida no Admin Console ou ao chamar ReportSuite.GetCalculatedMetrics era a mesma.
 
-Agora, os métodos da API reportsuite calculatedmetrics (1.3 ou 1.4) continuarão a salvar, excluir e recuperar métricas calculadas usando a loja antiga. As métricas calculadas existentes serão migradas e estarão visíveis no novo Criador de métricas calculadas. **As novas métricas calculadas criadas com os métodos da API estarão visíveis somente na API. Elas ainda poderão ser usadas na API de relatórios.**
+Agora, os métodos da API ReportSuite CalculatedMetrics (1.3 ou 1.4) continuarão a salvar, excluir e recuperar métricas calculadas usando a loja antiga. As métricas calculadas existentes serão migradas e estarão visíveis no novo Criador de métricas calculadas. **As novas métricas calculadas criadas com os métodos da API estarão visíveis somente na API. Elas ainda poderão ser usadas na API de relatórios.**
 
 **O que você precisa fazer**
 
@@ -155,9 +153,9 @@ Os dados atuais não suportam métricas calculadas que contêm segmentos ou fun�
 
 As métricas calculadas criadas por este usuário também serão excluídas. Contudo, as métricas calculadas excluídas ainda funcionarão como parte dos marcadores, painéis ou relatórios programados salvos.
 
-## Por que vejo métricas calculadas "Desconhecidas" que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos? {#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-A interface do usuário exibe "desconhecido" caso a métrica calculada contenha métricas ou dimensões base que não existem para o conjunto de relatórios selecionado.
+A interface do usuário exibirá "desconhecido" se a métrica calculada contiver métricas ou dimensões básicas que não existem para o conjunto de relatórios selecionado.
 
 ## Por que as alterações que fiz em minhas métricas calculadas herdadas não foram salvas? {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -167,15 +165,15 @@ Isso pode ocorrer devido à duração da migração para o novo banco de dados d
 
 Será necessário refazer as alterações feitas nas suas métricas herdadas.
 
-## Porque minhas métricas calculadas não são exibidas no Relatório de canais de marketing? {#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Anteriormente, todas as métricas calculadas eram listadas no seletor de métricas nos relatórios de canais de marketing com as opções Primeiro contato e Último contato.)
 
-Agora, somente as métricas calculadas que apresentarem um tipo de alocação especificamente configurado para Primeiro contato ou Último contato no Criador de métricas calculadas estarão disponíveis no seletor de métricas nos Relatórios de canais de marketing. Observe que qualquer métrica calculada já aplicada aos relatórios de Canal de marketing continuará a ser aplicada e a funcionar como antes. Para criar uma métrica calculada para os Canais de marketing, clique no ícone de configuração no criador de métricas e selecione Primeiro contato ou Último contato como tipo de alocação. Lembre-se de que isso tornará a métrica calculada compatível apenas com os relatórios de Canal de marketing, e ela não poderá ser usada em nenhum outro relatório.
+Agora, somente as métricas calculadas que apresentarem um tipo de alocação especificamente configurado para Primeiro contato ou Último contato no Criador de métricas calculadas estarão disponíveis no seletor de métricas nos Relatórios de canais de marketing. Observe que qualquer métrica calculada já aplicada aos relatórios de Canal de marketing continuará a ser aplicada e a funcionar como antes. Para criar uma métrica calculada para os Canais de marketing, clique no ícone de configuração no criador de métricas e selecione Primeiro contato ou Último contato como tipo de alocação. Lembre-se de que isso tornará a métrica calculada compatível somente com os relatórios de Canal de marketing e não poderá ser usada em nenhum outro relatório.
 
 ## Por que algumas métricas calculadas mostram fórmulas sem o parênteses que adicionei? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-Durante a migração, a Adobe removeu os parênteses desnecessários de algumas fórmulas. Foram removidos apenas os parênteses que não afetam o modo como a métrica é calculada. Isso não modifica os dados; apenas simplifica a fórmula.
+Durante a migração, a Adobe removeu os parênteses desnecessários de algumas fórmulas. Foram removidos apenas os parênteses que não afetam o modo como a métrica é calculada. Isso não alterará os dados - apenas simplificará a fórmula.
 
 ## (Somente Ad Hoc Analysis) As métricas calculadas com definições de segmentos em linha ou integrados ainda são suportadas? {#section_B25C924A282F49388AB604E3D826F44C}
 
@@ -183,11 +181,11 @@ Antes, as métricas calculadas criadas na Ad Hoc Analysis podiam conter definiç
 
 **O que você precisa fazer**
 
-É necessário salvar o segmento explicitamente. As métricas calculadas existentes com definições de segmento em linha continuarão a ser executadas corretamente e poderão ser exibidas na Ad Hoc Analysis, mas não poderão ser salvas sem que você salve explicitamente o segmento.
+É necessário salvar explicitamente o segmento. As métricas calculadas existentes com definições de segmento em linha continuarão a ser executadas corretamente e poderão ser exibidas na Ad Hoc Analysis, mas não poderão ser salvas sem que você salve explicitamente o segmento.
 
 ## (Somente Report Builder) Por que as métricas calculadas desapareceram das minhas solicitações? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
-Se a solicitação foi criada na v 5.2 e contém métricas calculadas, essas métricas não estarão visíveis na v 5.1 (ou versões anteriores). Isso ocorre porque as métricas calculadas agora usam IDs globais (IDs não específicas do conjuntos de relatórios).
+Se a solicitação tiver sido criada na v5.2 e contiver métricas calculadas, essas métricas não estarão visíveis na v5.1 (ou em versões anteriores). Isso ocorre porque as métricas calculadas agora usam IDs globais (IDs não específicas do conjuntos de relatórios).
 
 **O que você precisa fazer**
 
