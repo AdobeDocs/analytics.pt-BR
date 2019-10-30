@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: Visão geral dos tipos de dados e categorias
 topic: Desenvolvedor e implementação
-uuid: b 5004 cdc-b 68 a -4 a 82-a 159-a 7 cd 7 b 8 bfe 21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 As categorias de fonte de dados identificam os diferentes tipos de fonte de dados que oferecem uma funcionalidade semelhante.
 
-As categorias proporcionam um meio de agrupar as fontes de dados com base em uma perspectiva do usuário. Ao criar uma fonte de dados pela interface de usuário das Fontes de dados, selecione primeiro uma categoria de fonte de dados e, depois, um tipo de fonte de dados específico. Cada categoria contém tipos de fontes de dados que oferecem suporte a tipos semelhantes de dados. As Fontes de Dados têm as seguintes categorias de fonte de dados:
+As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do usuário. Ao criar uma fonte de dados pela interface de usuário das Fontes de dados, selecione primeiro uma categoria de fonte de dados e, depois, um tipo de fonte de dados específico. Cada categoria contém tipos de fontes de dados que oferecem suporte a tipos semelhantes de dados. As Fontes de Dados têm as seguintes categorias de fonte de dados:
 
 ## Utilização em site {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ As categorias proporcionam um meio de agrupar as fontes de dados com base em uma
    <td colname="col3"> <p>A maioria dos servidores da Web gera arquivos de log que registram todas as páginas fornecidas. Usando essa fonte de dados, você pode processar os arquivos de log a partir da maioria dos dados do servidor web e adicionar esses dados aos seus relatórios. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Upload em massa da publicidade Cloud </p> </td> 
+   <td colname="col1"> <p>Upload em massa da Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversão </a> </p> </td> 
-   <td colname="col3"> <p>Oferece uploads em massa manuais e automatizados pelo Excel na Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Fornece uploads em massa manuais e automatizados pelo Excel na Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fonte de Dados de Tráfego de Nível de Site </p> </td> 
@@ -214,7 +214,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados com base em uma
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Criação de informação privilegiada </p> </td> 
+   <td colname="col1"> <p>Geração de leads </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversão </a> </p> </td> 
    <td colname="col3"> <p>Permite carregar informações sobre os resultados das vendas de cada cliente potencial geradas em seu site, incluindo a receita real gerada. </p> <p>Depois que a receita for atribuída corretamente às IDs dos clientes potenciais, é possível identificar suas campanhas e promoções mais lucrativas. </p> </td> 
   </tr> 
