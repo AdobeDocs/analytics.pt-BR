@@ -7,7 +7,7 @@ title: Excluir por endereço IP
 topic: Ferramentas administrativas
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Excluir por IP]**
 
->[!NOTE]
->
->As ocorrências excluídas pelo endereço IP são faturadas como chamadas [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)do servidor.
+> [!NOTE] As ocorrências excluídas pelo endereço IP são faturadas como chamadas [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)do servidor.
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -32,13 +30,11 @@ Esse recurso permite que você e seus colegas visitem seu site sem distorcer seu
 |--- |--- |
 | [!UICONTROL Adicionar CNAME] | Gera um link para opção de não participação que poderá usar para excluir seu domínio. Para obter ajuda, entre em contato com os Usuários suportados de sua empresa. <br>Para excluir seu tráfego do relatório nos conjuntos de relatórios, acesse a página de opção de não participação de sua empresa e selecione a exclusão de seu navegador da medição. <br>Se sua implementação utiliza cookies de terceiros, sua página de opção de não participação está [aqui](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
 
->[!NOTE]
+> [!NOTE] A exclusão por computador só funciona se:
 >
->A exclusão por computador só funciona se:
->
->* Você acessar seu site da mesma estação de trabalho.
->* Seus cookies estiverem ativados no navegador que estiver utilizando.
->* Seus cookies não forem excluídos. Se os cookies forem excluídos, você deverá se excluir novamente.
+> * Você acessar seu site da mesma estação de trabalho.
+> * Seus cookies estiverem ativados no navegador que estiver utilizando.
+> * Seus cookies não forem excluídos. Se os cookies forem excluídos, você deverá se excluir novamente.
 
 
 ## Excluir por endereço IP {#section_609FB6461529409D840111A32FEF5C3D}
@@ -57,6 +53,6 @@ Consulte o artigo [Endereços IP usados na Experience Cloud](https://marketing.a
 
 ## Impacto da ofuscação de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
-Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP.
+Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes do endereço IP ser ofuscado, de modo que os clientes não precisam alterar nada quando ativarem a ofuscação de IP.
 
 Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. A correspondência de * deve corresponder a 0.
