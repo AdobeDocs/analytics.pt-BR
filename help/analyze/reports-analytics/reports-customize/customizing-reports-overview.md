@@ -7,7 +7,7 @@ title: Visão geral de Personalizar relatórios
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 Não é possível comparar datas entre relatórios de tendências.
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+> [!NOTE] Se você quiser realizar uma comparação de datas em métricas principais em um painel, é possível inserir os dados no Construtor [de](https://marketing.adobe.com/resources/help/en_US/arb/) relatórios usando duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
@@ -144,7 +142,7 @@ t_reports_select_page.xml
 1. Clique no link **Página selecionada.**
 1. Em [!UICONTROL Selecionar página], selecione as páginas que deseja exibir.
 1. Localize a página.
-1. Click **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK.]**
 
 ## Comparar conjuntos de relatórios {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -175,7 +173,7 @@ Além da exibição gráfica, a tabela do relatório fornece uma comparação em
 1. Crie um relatório que permite que você compare relatórios.
 1.   Clique no link **Comparar com Site**. 
 1. Localize o conjunto de relatórios.
-1. Click **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK.]**
 
 ## Especificar a granularidade do relatório {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
