@@ -2,18 +2,18 @@
 description: Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
 keywords: Conjunto de relatórios virtuais
 seo-description: Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
-seo-title: Exibir informações do conjunto de relatórios virtuais
+seo-title: Exibir informações do conjunto de relatórios virtual
 solution: Analytics
-title: Exibir informações do conjunto de relatórios virtuais
+title: Exibir informações do conjunto de relatórios virtual
 topic: Reports and Analytics
-uuid: 7 aa 9 da 77-604 e -473 d-a 914-6 c 0 bc 558548 a
+uuid: 7aa9da77-604e-473d-a914-6c0bc58548a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Exibir informações do conjunto de relatórios virtuais
+# Exibir informações do conjunto de relatórios virtual
 
 Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
 
