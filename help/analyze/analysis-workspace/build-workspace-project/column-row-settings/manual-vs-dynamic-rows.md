@@ -3,9 +3,9 @@ description: Como interagir com linhas estáticas em tabelas.
 seo-description: Como interagir com linhas estáticas em tabelas.
 seo-title: Linhas estáticas vs. dinâmicas
 title: Linhas estáticas vs. dinâmicas
-uuid: caf 033 ef-d 252-4 f 8 a -802 e -7 edbbac 5 c 8 c 0
+uuid: caf033ef-d252-4f8a-802e-7edbac5c8c0
 translation-type: tm+mt
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,6 +33,6 @@ Além disso, (somente) quando você está em um modo de linha estática, agora �
 
 | Opção | Descrição |
 |---|---|
-| (Padrão) Calcule os totais resumindo os valores atualmente em cada coluna. | Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) |
+| (Padrão) Calcule os totais resumindo os valores atuais em cada coluna. | Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) |
 | Calcule as somas com base em todas as linhas para cada métrica. | Esta opção inclui todos os itens de dimensão para esta dimensão, até mesmo aqueles que não estão listados no gráfico. (Cálculo do lado do servidor) |
 
