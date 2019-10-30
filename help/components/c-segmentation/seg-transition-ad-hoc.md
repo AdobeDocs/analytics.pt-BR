@@ -1,19 +1,19 @@
 ---
 description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
-keywords: segmentação; segmentos
+keywords: segmentação;segmentos
 seo-description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
-seo-title: Guia de transição para a Análise ad hoc
+seo-title: Guia de transição para a Ad Hoc Analysis
 solution: Analytics
-title: Guia de transição para a Análise ad hoc
+title: Guia de transição para a Ad Hoc Analysis
 topic: Segmentos
-uuid: d 409 d 71 a-f 8 d 9-42 a 2-add 2-37 d 426 cd 40 d 1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Guia de transição para a Análise ad hoc
+# Guia de transição para a Ad Hoc Analysis
 
 Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
 
@@ -94,7 +94,7 @@ Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo ne
    <td colname="col2">Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segmentos pré-configurados na Análise ad hoc: 
+   <td colname="col1">Segmentos pré-configurados na análise ad hoc: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Visitas únicas à página </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Visitas de dispositivos móveis </li> 
