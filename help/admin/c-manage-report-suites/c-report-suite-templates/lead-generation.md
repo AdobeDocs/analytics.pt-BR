@@ -1,13 +1,13 @@
 ---
 description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais participação.
 seo-description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais envolvimento.
-seo-title: Geração de clientes potenciais
+seo-title: Geração de leads
 solution: Analytics
 title: Geração de leads
 topic: Ferramentas administrativas
-uuid: e 7 d 3 cc 4 a -1 bee -4722-92 c 1-4454 f 7613 d 39
+uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais participação.
 
-| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variável |
+| Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code` variable |
 |---|---|---|---|---|---|
 | Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
 | Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
@@ -24,14 +24,14 @@ Define configurações comuns para um site que fornece informações sobre servi
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
-| Variáveis de insight personalizado | `s_code` variável |
+| Variáveis de insight personalizado | `s_code` variable |
 |---|---|
 | Seguro/não seguro | `prop1` |
 | Propriedade de tráfego 2 - 5 | `prop2, prop3, prop4, prop5` |
 
 A seguinte tabela contém uma lista de eventos padrão de comércio. A configuração inicial desses eventos é idêntica em todos os modelos de conjunto de relatórios. Os eventos com uma variável s_code de N/A não precisam ser definidos, eles serão fornecidos automaticamente.
 
-| Eventos padrão de comércio | Tipo | `s_code` variável |
+| Eventos padrão de comércio | Tipo | `s_code` variable |
 |---|---|---|
 | Receita | Contador | `purchase` |
 | Pedidos | Contador | `purchase` |
