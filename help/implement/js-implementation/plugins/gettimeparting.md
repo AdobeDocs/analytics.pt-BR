@@ -1,7 +1,7 @@
 ---
-description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, externas à Analysis Workspace.
+description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, fora do Analysis Workspace.
 keywords: Implementação do Analytics
-seo-description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, externas à Analysis Workspace.
+seo-description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, fora do Analysis Workspace.
 seo-title: getTimeParting
 solution: Analytics
 subtopic: Plug-ins
@@ -9,20 +9,18 @@ title: getTimeParting
 topic: Desenvolvedor e implementação
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. [!UICONTROL A Analysis Workspace] oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, fora do [!UICONTROL Analysis Workspace].
 
 Esse plug-in captura as informações de data e hora disponíveis no navegador Web do usuário. Ele obtém a hora do dia e o dia da semana com base nessas informações. Em seguida converte esses dados para o fuso horário de sua escolha. Ele também considera o horário de verão.
 
->[!NOTE]
->
->As instruções a seguir exigem que você altere o código de coleta de dados do site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
+> [!NOTE] Observação: as instruções a seguir exigem que você altere o código da coleta de dados do seu site. Isso pode afetar a coleta de dados no site e só deve ser feito por um desenvolvedor com experiência de uso e implementação do [!DNL Analytics].
 
 ## Código do plug-in {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ Esse plug-in captura as informações de data e hora disponíveis no navegador W
 
 Coloque o seguinte código na área do arquivo [!DNL s_code.js] rotulada como [!UICONTROL SEÇÃO DE CONFIGURAÇÃO] e faça as atualizações necessárias como descrito abaixo.
 
-`s._tpDST` - uma gama de valores DST. A matriz está estruturada no seguinte formato: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - uma matriz de valores DST. A matriz está estruturada no seguinte formato: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -125,7 +123,7 @@ s.getTimeParting=new Function("h","z",""
 +"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
 ```
 
-**Observações**
+**Notas**
 
 * Sempre teste as instalações de plug-ins para garantir que a coleta de dados ocorra como esperado antes de implantar na produção.
 * Para funcionarem corretamente, as variáveis de configuração devem ser definidas para plug-ins.
