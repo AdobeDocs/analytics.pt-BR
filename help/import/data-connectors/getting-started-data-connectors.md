@@ -4,7 +4,7 @@ seo-description: Fazer logon nos conectores de dados; importe dados de rastreame
 seo-title: Conectores de dados do Analytics
 title: Introdução aos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Os conectores de dados devem se integrar apropriadamente com a maioria dos naveg
 * Resolução do monitor: 1024x768 (800x600 funciona)
 * Intensidade de cor: 16 bits ou superior 
 
-Além disso, a coleta de dado melhor quando os navegadores da Web dos usuários habilitam JavaScript.
+Além disso, a coleta de dados melhora quando os navegadores da Web dos usuários têm o JavaScript ativado.
 
 **Pré-requisitos**
 
