@@ -7,8 +7,8 @@ solution: Analytics
 title: Dados de segmentação geográfica
 topic: Desenvolvedor e implementação
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte a [Documentação de cooperação do dispositivo da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcdc/).
+>Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte a Documentação [do Device Co-op da](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud.
 
 Os dados de segmentação geográfica são registrados com base na primeira ocorrência da visita e não são alterados para uma visita única, independentemente do dispositivo usado.
 
