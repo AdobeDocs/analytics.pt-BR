@@ -1,18 +1,18 @@
 ---
 description: Configuração e uso de contas FTP hospedadas pela Adobe.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Configuração e uso de contas FTP hospedadas pela Adobe.
-seo-title: 'Configurar contas FTP: visão geral'
+seo-title: Configurar contas FTP - visão geral
 solution: Analytics
-title: 'Configurar contas FTP: visão geral'
-uuid: e 5524619-248 a -4 aae -9 f 64-cd 7 d 33 f 3 c 407
+title: Configurar contas FTP - visão geral
+uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurar contas FTP: visão geral
+# Configurar contas FTP - visão geral
 
 Configuração e uso de contas FTP hospedadas pela Adobe.
 
