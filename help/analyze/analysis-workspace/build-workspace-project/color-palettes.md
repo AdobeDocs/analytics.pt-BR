@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Paletas de cores
 title: Paletas de cores
-uuid: 18252889-8 dc 0-48 fa -820 f-df 534156 c 22 f
+uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 É possível alterar a paleta de cores da visualização usada na Workspace ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações na Workspace, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
 
->[!NOTE]
->
->O suporte à paleta de cores não está ativado para o Internet Explorer 11.
+> [!NOTE] O suporte à paleta de cores não está habilitado para o Internet Explorer 11.
 
 ![](assets/color_palettes.png)
 
 Lembre-se:
 
-* Há cinco paletas de cores predefinidas para sua escolha. A paleta padrão e aquela abaixo foram otimizadas para o contraste ideal e são mais acessíveis para os indivíduos daltonais.
+* Há cinco paletas de cores predefinidas para sua escolha. A paleta padrão e a abaixo foram otimizadas para obter o melhor contraste e são mais acessíveis para aqueles que não têm cores.
 * A terceira à quinta paleta de cores abaixo das duas primeira foram otimizadas para harmonia de cor.
 
 ## Altere a paleta de cores:
