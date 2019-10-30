@@ -1,13 +1,13 @@
 ---
 description: O FTP ativo vs. FTP passivo controla a maneira como as conexões da porta são estabelecidas, mas essa escolha gera algumas consequências no firewall.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: O FTP ativo vs. FTP passivo controla a maneira como as conexões da porta são estabelecidas, mas essa escolha gera algumas consequências no firewall.
 seo-title: Usar o modo FTP passivo
 solution: Analytics
 title: Usar o modo FTP passivo
-uuid: e 56 e 937 e-ec 42-45 ec-ae 8 e -8 a 8 ea 1 b 76 f 3 f
+uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
