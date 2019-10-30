@@ -1,19 +1,19 @@
 ---
 description: A coluna anterior contém os dados conforme foram enviados para a coleção de dados. A coluna posterior contém o valor após o processamento.
-keywords: Feed de dados; tarefa; coluna anterior; coluna posterior; diferenciação entre maiúsculas e minúsculas
+keywords: Feed de dados;tarefa;pré coluna;pós coluna;distinção entre maiúsculas e minúsculas
 seo-description: A coluna anterior contém os dados conforme foram enviados para a coleção de dados. A coluna posterior contém o valor após o processamento.
-seo-title: Colunas anteriores e posteriores
+seo-title: Colunas anterior e posterior
 solution: Analytics
-title: Colunas anteriores e posteriores
+title: Colunas anterior e posterior
 topic: Reports and Analytics
-uuid: a 415327 b -6151-4 d 08-b 8 b 9-5 aaa 2348 eb 0 c
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Colunas anteriores e posteriores
+# Colunas anterior e posterior
 
 A coluna anterior contém os dados conforme foram enviados para a coleção de dados. A coluna posterior contém o valor após o processamento.
 
@@ -29,8 +29,8 @@ Ao processar o feed de dados, é possível colocar os valores em minúsculas par
 
 Caso veja variações de maiúsculas e minúsculas para um mesmo valor entre as colunas anterior e posterior (por exemplo, "neve" na coluna anterior e "Neve" na coluna posterior), isso significa que ambas as versões do mesmo valor foram transmitidas para o site. A diferenciação entre maiúsculas e minúsculas na coluna posterior foi transmitida e armazenada no cookie virtual ou processada ao mesmo tempo que o conjunto de relatórios. Por exemplo:
 
-Hit 1: s.list1="Tabby,Persian,Siamese”;
+Hit 1: s.list1="Tabby,Persian,Siamese";
 
-Hit 2: s.list1=“tabby,persian,siamese”;
+Ocorrência 2: s.list1="tabby,persian,siamese";
 
 Quando o hit 2 é relatado no feed de dados, a coluna anterior terá a capitalização exata transmitida (tabby,persian,siamese), mas o valor do hit 1 provavelmente será predominante para aquela visita e será relatado na coluna posterior (na qual será Tabby,Persian,Siamese) já que os hits 1 e 2 possuem o mesmo valor em uma comparação entre maiúsculas e minúsculas.
