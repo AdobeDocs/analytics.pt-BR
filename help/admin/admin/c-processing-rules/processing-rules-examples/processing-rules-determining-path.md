@@ -1,19 +1,19 @@
 ---
 description: Você pode copiar o valor de uma eVar em um prop para ativar a definição de caminho.
 seo-description: Você pode copiar o valor de uma eVar em um prop para ativar a definição de caminho.
-seo-title: Determine um caminho copiando um valor de evar para uma prop
+seo-title: Determinar um caminho copiando um valor de eVar em uma propriedade
 solution: Analytics
 subtopic: Regras de processamento
-title: Determine um caminho copiando um valor de evar para uma prop
+title: Determinar um caminho copiando um valor de eVar em uma propriedade
 topic: Ferramentas administrativas
-uuid: 8 d 7647 c 7-aa 91-466 b -8 d 31-fb 4 dce 83 f 04 a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Determine um caminho copiando um valor de evar para uma prop
+# Determinar um caminho copiando um valor de eVar em uma propriedade
 
 Você pode copiar o valor de uma eVar em um prop para ativar a definição de caminho.
 
