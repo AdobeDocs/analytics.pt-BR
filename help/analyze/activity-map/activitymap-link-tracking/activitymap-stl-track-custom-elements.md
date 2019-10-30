@@ -7,7 +7,7 @@ title: Usar a função s.tl()
 topic: Activity Map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ Em outras palavras, se você usar a s.tl para rastrear seus elementos personaliz
 
 ## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-When the s.tl() function is called directly from the HTML element’s on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Exemplo:
+When the s.tl() function is called directly from the HTML element's on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Exemplo:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
@@ -39,7 +39,7 @@ When the s.tl() function is called directly from the HTML element’s on-click e
 
 Sempre que qualquer conteúdo da página da Web for adicionado à página após o carregamento inicial, a função s.tl é chamada indiretamente e não é possível exibir sobreposições para o novo conteúdo, a menos que elas sejam expressamente ativadas/clicadas. Em seguida, um novo processo de coleta de links é acionado no [!DNL Activity Map].
 
-When the s.tl() function is not called directly from the HTML element’s on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. Veja um exemplo onde a função s.tl() é chamada indiretamente:
+When the s.tl() function is not called directly from the HTML element's on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. Veja um exemplo onde a função s.tl() é chamada indiretamente:
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -62,11 +62,11 @@ s.ActivityMap.link = function(element,linkName){
 ```
 
 ```
-<button type=”button” onclick=”s.tl(this,’o’,makeLinkName(this)”>Add To Cart</button>
+<button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
 Aqui, reconfiguramos a função ActivityMap.link para executar uma das seguintes ações quando chamada:
 
 1. Se linkName for passado, a chamada será feita por s.tl(), portanto retorne somente o que s.tl passou como linkName.
-1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the “makeLinkName(element)” call should be the same at the s.tl call’s 3rd argument in the `<button>` tag. Ou seja, quando s.tl é chamado, rastreamos a sequência de caracteres retornada por makeLinkName. When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
+1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the "makeLinkName(element)" call should be the same at the s.tl call's 3rd argument in the `<button>` tag. Ou seja, quando s.tl é chamado, rastreamos a sequência de caracteres retornada por makeLinkName. When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
 1. A solução final é retornar o valor original de retorno da função padrão de link do Activity Map. Recomenda-se que você mantenha esta referência para fazer a chamada no caso padrão, para que seja necessário somente sobrescrever ou escrever um código personalizado para makeLinkName e não ter que criar um valor de retorno de link para todos os links na página.
