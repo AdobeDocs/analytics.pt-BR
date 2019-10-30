@@ -5,9 +5,9 @@ seo-title: Especificar formatação condicional
 solution: Analytics
 title: Especificar formatação condicional
 topic: Construtor de relatórios
-uuid: 13 ac 12 f 1-3498-4 bf 9-a 6 d 0-c 5 d 84 e 0125 dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ A formatação condicional permite identificar células que contêm resultados o
 
 Por motivos de segurança, as macros que você programar para a pasta de trabalho usando a linguagem Visual Basic for Applications (VBA) do Excel serão desativadas.
 
->[!NOTE]
->
->A formatação condicional é um recurso do Excel. Para obter informações sobre como criar regras de formatação, consulte a documentação do Excel.
+> [!NOTE] A formatação condicional é um recurso do Excel. Para obter informações sobre como criar regras de formatação, consulte a documentação do Excel.
 
