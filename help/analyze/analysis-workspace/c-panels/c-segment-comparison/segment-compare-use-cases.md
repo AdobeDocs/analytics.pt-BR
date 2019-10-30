@@ -3,7 +3,7 @@ title: Casos de uso de comparação de segmentos
 description: Saiba mais sobre casos de uso reais sobre como o painel de comparação de segmentos pode ser usado para obter informações sobre a estratégia de marketing.
 keywords: IQ do segmento
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ O painel de comparação de segmentos é um recurso amplamente usado na Analysis
 
 > *"Comparamos o número de ocorrências diárias de um site ao de outro site e rapidamente encontramos um número de inconsistências na marcação. Dessa forma, evitamos problemas de dados antes o lançamento do produto."*
 
-Um gerente de produto responsável por um site de web móvel e desktop foi incumbido de verificar se as tags eram consistentes em dispositivos móveis e desktop. Para certificar-se de que não perdeu nada importante, ele usou o painel de comparação de segmentos para comparar as ocorrências vindas de seu site móvel às ocorrências vindas de seu site de desktop. Ele notou que não havia eventos de checkout no site móvel e colocou as tags corretas antes do site móvel ser lançado. Como resultado, o gerente de produto evitou um desastre nos dados devido ao site móvel não ter registrado qualquer conversão. 
+Um gerente de produto responsável por um site de web móvel e desktop foi incumbido de verificar se as tags eram consistentes em dispositivos móveis e desktop. Para certificar-se de que ele não perdeu nada importante, ele usou o painel de comparação de segmentos para comparar as ocorrências vindas de seu site móvel às ocorrências vindas de seu site de desktop. Ele notou que não havia eventos de checkout no site móvel e colocou as tags corretas antes do site móvel ser lançado. Como resultado, o gerente de produto evitou um desastre nos dados devido ao site móvel não ter registrado qualquer conversão. 
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -54,7 +54,7 @@ Uma importante empresa de serviços Business-to-Business (B2B) queria entender o
 
 ## Caso de uso 5: comparar compradores do Fitbit com todos os outros
 
-> *"Descobrimos que as pessoas que compravam fitbit estavam 6 vezes mais suscetíveis a receber uma mensagem de "fora de estoque" que qualquer outra pessoa, então pedimos rapidamente por mais fitbits e evitamos que acabasse o estoque!"*
+> *"Descobrimos que as pessoas que compravam fitbits estavam 6 vezes mais susceptíveis a receber uma mensagem de 'fora de estoque' do que qualquer outra pessoa, então rapidamente pedimos mais fitbits e evitamos ficar sem estoque!"*
 
 Um grande varejista online estava interessado em saber como um dos melhores produtos de férias, a Fitbit, estava sendo vendido e o que fazia com que os compradores da Fitbit fossem únicos entre outros clientes. Usando a comparação entre segmentos, eles descobriram que os usuários que compravam fitbits tinham uma probabilidade 6 vezes maior de receber uma mensagem de "esgotamento" do que qualquer outro cliente. Após uma análise mais detalhada, a equipe de marketing direcionou esses visitantes para suas lojas de tijolos e argamassas enquanto eles esperavam em seu departamento de compras para solicitar mais Fitbits para serem enviados. Como resultado, o varejista evitou mais mensagens "esgotadas" e satisfez a maior parte de sua demanda de férias.
 
