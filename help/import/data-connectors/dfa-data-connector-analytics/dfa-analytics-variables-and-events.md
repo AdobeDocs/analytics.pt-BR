@@ -8,7 +8,7 @@ title: Variáveis e eventos do Analytics
 topic: Conectores de dados
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Além da variável de campanha, você pode usar eventos e eVars do Analytics que
 | Variável | Nome amigável | Método de preenchimento | Descrição |
 |---|---|---|---|
 | s.campaign ou eVar | Código de rastreamento de anúncio | Automaticamente preenchido pelo conector de dados para campanhas do DFA. | Rastreia conversões de click-through para todas as campanhas. |
-| eVar* | View-through | Automaticamente preenchido pelo VISTA e pelo DFA para as campanhas do DFA. | Rastreia dados de view-through para IDs do DFA. Essa eVar deve ter a mesma expiração da variável *`s.campaign`* variable. Deve ser a mesma variável de conversão identificada na ID do provedor da variável. Verifique se as sub-relações da eVar estão habilitadas. O custo de habilitação desse recurso é parte da taxa de integração dos Conectores de dados. |
+| eVar* | View-through | Automaticamente preenchido pelo VISTA e pelo DFA para as campanhas do DFA. | Rastreia dados de view-through para IDs do DFA. Essa eVar deve ter a mesma expiração da variável *`s.campaign`*. Deve ser a mesma variável de conversão identificada na ID do provedor da variável. Verifique se as sub-relações da eVar estão habilitadas. O custo de habilitação desse recurso é parte da taxa de integração dos Conectores de dados. |
 | eVar* | Erros de consulta do DFA | (Opcional) Preenchido pelo código de coleta do JavaScript. | Contém um dos vários códigos de erro retornados do DFA. |
 | event* | Contagem de view-through | Automaticamente preenchido pelo conector de dados para campanhas do DFA. | Captura o número de vezes que os usuários visualizaram um anúncio, não clicaram nele, mas chegaram ao site. |
 | event* | Impressões | Automaticamente preenchido por um feed de dados do DFA. | Rastreia o número de vezes que um anúncio do DFA específico foi veiculado. |
