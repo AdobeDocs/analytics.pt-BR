@@ -8,14 +8,14 @@ title: Conector de dados do DFA para Adobe Analytics
 topic: Conectores de dados
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Conector de dados do DFA para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
-No mercado online cada vez mais complexo e competitivo dos dias atuais, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em anúncios. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
+No mercado online cada vez mais complexo e competitivo de hoje em dia, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em publicidade. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
 
 A integração do DoubleClick for Advertisers (DFA) soluciona esse problema usando os Conectores de dados™ da Adobe® para permitir que o DoubleClick DFA envie dados automaticamente para o Relatórios e análises.
 
@@ -42,17 +42,17 @@ Essa integração captura dados de diversas maneiras sobre o visitante direciona
 
 ![](assets/Diagram1.png)
 
-O visitante é direcionado para o site de um editor, que hospeda o anúncio. Esse anúncio tem um identificador exclusivo, chamado ID do anúncio. Anúncios incluem um posicionamento e uma criação, que descrevem a localização do anúncio no site do editor e que conteúdo foi exibido ao visitante. Quando o visitante chega ao anúncio, posicionamento ou criação dos servidores de conteúdo do DFA, é enviada uma impressão para os servidores do DFA Floodlight sobre esse visitante (1).
+O visitante chega ao site de um editor, que hospeda o anúncio. Esse anúncio tem um identificador exclusivo, chamado ID do anúncio. Os anúncios incluem um posicionamento e uma criação, que descrevem onde o anúncio está no site do Editor e qual conteúdo foi exibido ao visitante. Quando o visitante chega ao anúncio, posicionamento ou criação dos servidores de conteúdo do DFA, é enviada uma impressão para os servidores do DFA Floodlight sobre esse visitante (1).
 
 Se o visitante clica no anúncio (2), o servidor Floodlight é consultado, o que conta um clique, e o 302 redireciona (3) o visitante para a página de aterrissagem. A chegada do visitante à página de aterrissagem é chamada de click-through. Essa página contém um código de acompanhamento da Adobe que consulta dados do servidor do DFA Floodlight.
 
-Se o visitante não chega realmente à página de aterrissagem depois que o servidor Floodlight rastreia um clique, isso não é chamado de click-through. Alguns anúncios e implementações podem não fazer com que o navegador do visitante realmente obedeça ao redirecionamento 302. Para saber mais sobre esse assunto, consulte [Comparação de discrepâncias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+Se o visitante não chega realmente à página de aterrissagem depois que o servidor Floodlight rastreia um clique, isso não é chamado de click-through. Alguns anúncios e implementações podem não fazer com que o navegador do visitante obedeça ao redirecionamento 302. Para mais discussão sobre este tópico, consulte [Reconciliando discrepâncias](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)de métricas.
 
 A próxima métrica capturada por essa integração ocorre quando o visitante recebe a impressão do anúncio, não clica nele, mas em algum momento no futuro chega à página de aterrissagem por outros meios.
 
 ![](assets/Viewthrough.png)
 
-Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página de aterrissagem no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
+Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página inicial no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
 
 ## Integração da Adobe: coleta de dados em tempo real{#adobe-integration-real-time-data-collection}
 
