@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Criador de alertas
 title: Criador de alertas
-uuid: ebc 2 d 457-4 abd -4 b 1 a -9357-489 b 5 aeb 3 f 64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 >[!IMPORTANT]
 >
->Os Alertas inteligentes estão disponíveis somente para clientes do Adobe Analytics Prime e Adobe Analytics Ultimate.
+>Alertas inteligentes estão disponíveis somente para clientes do Adobe Analytics Prime e do Adobe Analytics Ultimate.
 
-## Acessar o Criador de alertas
+## Criador de alertas de acesso
 
 Acesse o Criador de alertas de uma das seguintes formas:
 
@@ -43,9 +43,7 @@ Especifique um nome para o alerta. O nome do alerta pode conter o nome do relat�
 
 Especifique quando você deseja verificar a métrica: por hora, dia, semana ou mês.
 
->[!NOTE]
->
->Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
+> [!NOTE] Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
 
 **Destinatários**
 
@@ -55,7 +53,7 @@ Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-O email que um usuário receberia depois que um alerta é acionado é semelhante a:
+O e-mail que um usuário receberia depois que um alerta é acionado é semelhante a:
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
    * a anomalia existe
@@ -90,7 +88,7 @@ Defina a data de expiração do alerta.
 
 Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Visualizar alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.
 
