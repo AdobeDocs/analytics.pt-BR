@@ -8,7 +8,7 @@ title: Variáveis de conversão (eVar)
 topic: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ O melhor uso das eVars é para medir causa e efeito, como:
 
 Se desejar a medida de tráfego ou de definição de caminho, é recomendado usar variáveis de tráfego.
 
->[!NOTE]
->
->Somente um único valor pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Variáveis de conversão - descrições {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -48,7 +46,7 @@ Descrições de campos usados ao [editar variáveis](/help/admin/admin/conversio
    <td colname="col2"> <p>O nome amigável da variável de conversão. Este nome é como a eVar é chamada geralmente nos relatórios e será o nome do relatório no menu esquerdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Tipo</span> </p> <p>(somente eVar) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Tipo</span> </p> <p>(somente eVar) </p> </td> 
    <td colname="col2"> <p>O tipo de valor da variável: </p> <p> <b></b> Sequência</span>de texto: Captura valores de texto usados no site. Esse é o tipo mais comum de eVar, e a configuração padrão. Funciona de maneira semelhante a outras variáveis, nas quais o valor é uma sequência de caracteres de texto estático. Se você estiver acompanhando coisas, como campanhas internas ou palavras-chave de pesquisa interna, essa é a configuração recomendada. </p> <p> <b></b> Contador</span>: Conta o número de vezes que uma ação ocorre antes do evento bem-sucedido. Por exemplo, se você usa uma eVar para rastrear pesquisas internas no site, configure esse valor como <span class="uicontrol">sequência de caracteres de texto</span> para rastrear o uso de termos de pesquisa. Configure esse valor como <span class="uicontrol">contador</span> para contar o número de pesquisas efetuadas, independentemente dos temos de pesquisa usados. Por exemplo, você pode usar uma eVar contador para controlar o total de vezes que alguém usou sua pesquisa interna antes de fazer uma compra. </p> </td> 
   </tr> 
   <tr> 
