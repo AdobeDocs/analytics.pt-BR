@@ -8,7 +8,7 @@ title: Regras de classificação
 topic: Ferramentas administrativas
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ about_classification_rules.xml
 * [Quando as regras não classificam as teclas?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Sobre a prioridade das regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
->[!NOTE]
->
->The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
+> [!NOTE] O Construtor [!UICONTROL de] regras não suporta classificações numéricas 2.
 
 ## Informações importantes sobre as Regras {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
@@ -114,15 +112,11 @@ regex_classification_rules.xml
 * [Expressões regulares - Exemplo "Não contém"](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Expressões regulares - Tabela de referência](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]
->
->Como prática recomendada, as expressões regulares são mais adequadas para códigos de rastreamento que usam delimitadores.
+> [!NOTE] Como prática recomendada, as expressões regulares são mais adequadas para códigos de rastreamento que usam delimitadores.
 
 ## Expressão regular - Rastreamento do exemplo de código {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]
->
->If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+> [!NOTE] Se o código de rastreamento for codificado por URL, ele **não** será classificado pelo Construtor de regras.
 
 Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 
@@ -131,7 +125,7 @@ Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 As partes do código de rastreamento que deseja classificar são:
 
 * `em` = email
-* `JuneSale` = campaign name
+* `JuneSale` = nome da campanha
 * `20130601` = data
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
@@ -315,11 +309,9 @@ Etapas que descrevem como adicionar ou aditar uma regra de classificação.
 
 Adicione regras por corresponder uma condição a uma classificação e especificar a ação.
 
->[!NOTE]
->
->Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+> [!NOTE] Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
-1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -329,7 +321,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    A página **[!UICONTROL Selecionar Conjuntos de relatórios]é exibida.**
 
    >[!NOTE]
-   Os conjuntos de relatórios são exibidos nesta página *`only`* quando as seguintes condições são atendidas:        &gt;
+   Os conjuntos de relatórios são exibidos nesta página *`only`* quando as seguintes condições são atendidas:  &gt;
 
    * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
    (Consulte *`Variable`* em Conjuntos [de regras de](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) classificação para obter uma explicação sobre esse pré-requisito.)
@@ -351,7 +343,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
    >[!NOTE]
    >
-   >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See **About Rule Priority** above for more information about sorting rules.
+   >Se uma tecla corresponder a várias regras que definem a mesma classificação (na coluna Definir classificação), a última regra que corresponde à classificação será usada. See **About Rule Priority** above for more information about sorting rules.
 
 1. [Teste seu conjunto de regras](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
@@ -370,7 +362,7 @@ t_classifications_test_rule.xml
 
 Etapas que descrevem como testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
 
-1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Criar um conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de regras de classificação.
 1. No [!UICONTROL Construtor de regra de classificação], clique no nome do conjunto de regras.
 1. Assegure que o conjunto de regras esteja associado a um conjunto de relatórios.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
