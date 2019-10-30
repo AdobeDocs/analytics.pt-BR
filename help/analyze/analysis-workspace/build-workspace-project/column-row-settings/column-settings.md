@@ -3,9 +3,9 @@ description: 'As configurações de coluna permitem que você configure a format
 seo-description: 'As configurações de coluna permitem que você configure a formatação da coluna; alguns elementos podem ser condicionais. '
 seo-title: Configurações de coluna
 title: Configurações de coluna
-uuid: 151 d 66 da -04 f 7-4 d 0 f -985 c -4 fdd 92 bc 1308
+uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 758292a0f68fdb974e506e74df4bacf8bf9c4515
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 758292a0f68fdb974e506e74df4bacf8bf9c4515
 
 As configurações de coluna permitem que você configure a formatação da coluna; alguns elementos podem ser condicionais.
 
-## Column settings {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Configurações de coluna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
 Para acessar [!UICONTROL Configurações de coluna], arraste uma Tabela de forma livre para o projeto e clique no ícone de engrenagem no cabeçalho da coluna.
 
@@ -28,16 +28,16 @@ Para acessar [!UICONTROL Configurações de coluna], arraste uma Tabela de forma
 | Porcentagem | Determina se uma célula exibe ou oculta o valor percentual para a métrica. Por exemplo, se a métrica for Exibições de página, o valor percentual será o número de exibições de página para o item da linha dividido pelo total de exibições de página para a coluna.  Observação: podemos apresentar percentuais maiores que 100%, para maior precisão. Também fixamos o limite superior como 1.000% para garantir que as colunas possam aumentar em largura. |
 | Anomalias | Determina se a detecção de anomalias é executada nos valores desta coluna. |
 | Quebrar linha do texto do cabeçalho | Permite quebrar o texto de cabeçalho em tabelas de forma livre para tornar os cabeçalhos mais legíveis e as tabelas mais compartilháveis. Essa opção é útil para renderização de .pdf e para métricas com nomes compridos. Ativado por padrão. |
-| Interpretar zero como nenhum valor | Para células com um valor 0, determina se exibirá um 0 ou uma célula em branco. Isso é útil quando você observa dados de cada dia de um mês que ainda não tenha terminado.  Em vez de mostrar 0 para as datas futuras, pode-se exibir células em branco. Essa configuração também aplica-se a gráficos (ou seja, eles não exibem uma linha ou uma barra com valores de 0 quando essa configuração estiver selecionada). |
+| Interpretar zero como nenhum valor | Para células com um valor 0, determina se exibirá um 0 ou uma célula em branco. Isso é útil quando você olha os dados de cada dia de um mês, e alguns dias ainda não aconteceram.  Em vez de mostrar 0 para as datas futuras, pode-se exibir células em branco. Essa configuração também aplica-se a gráficos (ou seja, eles não exibem uma linha ou uma barra com valores de 0 quando essa configuração estiver selecionada). |
 | Histórico | Determina se uma célula exibe ou oculta todas as formatações de célula, incluindo o gráfico de barras e a formatação condicional. |
-| Gráfico de barras | Exibe um gráfico de barras horizontal que representa o valor da célula relativo ao total da coluna. |
+| Gráfico de barras | Mostra um gráfico de barras horizontal que representa o valor da célula relativo ao total da coluna. |
 | Formatação condicional | Consulte a seção abaixo. |
 | Visualização de célula de tabela | Mostra uma visualização de como cada célula é exibida com a aplicação das opções de formatação atuais selecionadas. |
 
 
 ## Conditional formatting {#section_3DD847151DA14914888A70FC4FD7BDFB}
 
-A formatação condicional aplica formatação a limites superiores, intermediários e inferiores que você pode definir. A aplicação de formatação condicional (cores, etc.) nas tabelas de forma livre também é ativada automaticamente nos detalhamentos, a menos que limites “Personalizados” sejam selecionados.
+A formatação condicional aplica formatação a limites superiores, intermediários e inferiores que você pode definir. A aplicação de formatação condicional (cores, etc.) em tabelas de forma livre também é ativada automaticamente em detalhamentos, a menos que limites "Personalizados" sejam selecionados.
 
 ![](assets/conditional-formatting.png)
 
