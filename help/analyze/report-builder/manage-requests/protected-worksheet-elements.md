@@ -5,9 +5,9 @@ seo-title: Elementos protegidos da planilha
 solution: Analytics
 title: Elementos protegidos da planilha
 topic: Construtor de relatórios
-uuid: 4 b 632862-4943-4567-a 458-46 a 6548952 fa
+uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
