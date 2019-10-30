@@ -7,8 +7,8 @@ solution: Analytics
 title: Visão geral de props e eVars
 topic: Desenvolvedor e implementação
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ As props permitem correlacionar os dados personalizados com eventos específicos
 
 Por exemplo, se você for um fabricante de automóveis, poderá se interessar em ver "Modelo de carro mais popular" para complementar seu relatório "Páginas". Você poderá fazer isso alocando uma de suas propriedades de tráfego para representar o modelo de carro. Em seguida, implemente o código para passar para o modelo de carro nas páginas apropriadas.
 
->[!NOTE]
->
->[!DNL Analytics] suporta até 75 variáveis [!UICONTROL s.prop].
+> [!NOTE] [!DNL Analytics] suporta até 75 variáveis [!UICONTROL s.prop].
 
 As props são usadas nos relatórios de definição de caminho ou em relatórios de correlação. Por exemplo, as variáveis de [!UICONTROL propriedade] podem ser usadas para mostrar o tipo de conteúdo, a subseção ou o nome do modelo. Os relatórios de [!UICONTROL Tráfego personalizado] resultantes mostram qual tipo de conteúdo, subseção ou modelo é exibido com mais frequência.
 
@@ -40,6 +38,6 @@ As eVars (variáveis de [!UICONTROL Insight de conversão personalizada ]) são 
 
 Em um site de conversão, as eVars podem ser usadas para rastrear como os visitantes conectados se comparam aos não conectados no que diz respeito à conclusão de uma compra. Quando um visitante faz login, uma eVar é definida como "conectada". Quando o visitante chega à página de checkout, o evento de checkout é atribuído ao valor "conectado". Quando um visitante chega à página Obrigado depois da compra, os produtos e valores da compra são atribuídos ao valor "conectado". O relatório da [!UICONTROL eVar personalizada] resultante mostra o número total de checkouts e pedidos de visitantes "conectados" e "não conectados".
 
-Para obter informações adicionais, consulte [Variável de tráfego](https://marketing.adobe.com/resources/help/pt_BR/reference/traffic_var.html) na Ajuda e referência do Analytics.
+Para obter mais informações, consulte [Variável de tráfego](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) no guia de Ajuda e referência do Analytics.
 
 Para obter informações sobre a configuração de propriedades no Digital Tag Management, consulte [Criar propriedade da Web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
