@@ -5,7 +5,7 @@ seo-title: Relatórios móveis
 title: Relatórios móveis
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Cont
 
 Para melhorar a identificação do visitante para dispositivos móveis, você deve estar na lista do transportador (lista branca) para o envio de IDs assinante a um domínio. (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
+> [!NOTE] Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>Relatório de profundidade de cor </p> </td> 
-   <td colname="col2"> <p>Agrupa acessos de dispositivos móveis pelo número de cores suportadas. O relatório mostra o número total de visitantes de site que usaram um dispositivo móvel, e divide-os em grupos com base no número de cores configuradas em seus dispositivos móveis. Por exemplo, se o celular do visitante tiver suporte a 24 cores, os relatórios e análises de marketing aumentam o item de linha que corresponde a 24 cores. </p> </td> 
+   <td colname="col2"> <p>Agrupa acessos de dispositivos móveis pelo número de cores suportadas. O relatório mostra o número total de visitantes de site que usaram um dispositivo móvel, e divide-os em grupos com base no número de cores configuradas em seus dispositivos móveis. Por exemplo, se o celular do visitante suportar 24 cores, os relatórios e análises de marketing incrementarão o item de linha correspondente a 24 cores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Relatório de suporte de áudio </p> </td> 
-   <td colname="col2"> <p>Agrupa dispositivos móveis com base nos tipos de formatos de áudio suportados por eles. Por exemplo, se o telefone de um visitante suportar o <span class="filepath">.mp3</span>, o relatório de <span class="wintitle">Suporte de áudio</span> será incrementado em um. Se o telefone suporta mais de um formato de áudio, uma visita a um site pode resultar em incrementos para cada tipo de áudio suportados. Em outras palavras, se um telefone suportar os formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> e <span class="filepath">.amr</span>, cada um desses grupos é incrementado no relatório. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
+   <td colname="col2"> <p>Agrupa dispositivos móveis com base nos tipos de formatos de áudio suportados por eles. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. Se o telefone suporta mais de um formato de áudio, uma visita a um site pode resultar em incrementos para cada tipo de áudio suportados. Em outras palavras, se um telefone suportar os formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> e <span class="filepath">.amr</span>, cada um desses grupos é incrementado no relatório. Dessa forma, a soma dos grupos pode ser maior do que o total exibido na parte inferior do relatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Relatórios de suporte de vídeo </p> </td> 
