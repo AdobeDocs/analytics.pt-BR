@@ -7,7 +7,7 @@ title: Configurações do novo conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Você pode criar um novo conjunto de relatórios selecionando um modelo predefin
 
 Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
->[!NOTE]
->
->The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+> [!NOTE] A documentação [do Conjunto de relatórios](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuais mostra como criar conjuntos de relatórios virtuais.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
