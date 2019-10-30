@@ -1,25 +1,23 @@
 ---
-description: 'Se você desejar rastrear informações adicionais, mas não tiver variáveis o suficiente, agora é possível acessar eVars adicionais e eventos de sucesso '
+description: 'Se quiser rastrear informações adicionais, mas não tiver variáveis suficientes para fazer isso, agora você tem acesso a eVars adicionais e eventos bem-sucedidos '
 keywords: Implementação do Analytics, evars, eventos, número de evars, quantas evars, quantos eventos
-seo-description: 'Se você desejar rastrear informações adicionais, mas não tiver variáveis o suficiente, agora é possível acessar eVars adicionais e eventos de sucesso '
+seo-description: 'Se quiser rastrear informações adicionais, mas não tiver variáveis suficientes para fazer isso, agora você tem acesso a eVars adicionais e eventos bem-sucedidos '
 seo-title: eVars e eventos adicionais
 solution: Analytics
 title: eVars e eventos adicionais
 topic: Desenvolvedor e implementação
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # eVars e eventos adicionais
 
-Se você desejar rastrear informações adicionais, mas não tiver variáveis o suficiente, agora é possível acessar eVars adicionais e eventos de sucesso:
+Se quiser rastrear informações adicionais, mas não tiver variáveis suficientes para fazer isso, agora você tem acesso a eVars adicionais e eventos bem-sucedidos:
 
->[!NOTE]
->
->O código H JavaScript não é compatível com essas eVars e eventos adicionais.
+> [!NOTE] O código H JavaScript não é compatível com essas eVars e eventos adicionais.
 
 ## Qualificações para dimensões e eventos personalizados {#section_869EC3D8A5614036A9C586F2B74FA7DC}
 
@@ -48,9 +46,9 @@ Se você desejar rastrear informações adicionais, mas não tiver variáveis o 
 
 * **Todas as interfaces do Adobe Analytics têm acesso imediato a estas novas variáveis?** Essas interfaces terão acesso imediato: [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Ad Hoc Analysis], APIs e [!UICONTROL Data Workbench].
 
-* **As eVars e os eventos adicionais aparecem automaticamente nos feeds de dados?** Os feeds de dados terão acesso às novas variáveis e aos eventos depois de ativados. As novas colunas de eVar não aparecerão até você optar por incluí-las. Entretanto, os novos eventos aparecerão na coluna event_list assim que estiverem ativados e a tabela de pesquisa de eventos contém os nomes das IDs de evento. Não ative novos eventos a não ser que você esteja pronto para consumi-los em Feeds de dados.
+* **As eVars e os eventos adicionais aparecem automaticamente nos feeds de dados?** Os feeds de dados terão acesso às novas variáveis e aos eventos depois de ativados. As novas colunas de eVar não aparecerão até você optar por incluí-las. No entanto, novos eventos aparecerão na coluna event_list assim que estiverem ativados e a tabela de pesquisa de eventos conterá os nomes de eventos para essas IDs de eventos. Não ative novos eventos a não ser que você esteja pronto para consumi-los em Feeds de dados.
 
-* **Como faço para solicitar novas colunas do feed de dados?** Para solicitar novas colunas, consulte [Configuração de feeds de dados](https://marketing.adobe.com/resources/help/pt_BR/sc/clickstream/datafeeds_configure.html).
+* **Como faço para solicitar novas colunas do feed de dados?** Para solicitar novas colunas, consulte [Configuração dos feeds de dados](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_configure.html).
 
 * **E se eu for um cliente Analytics Ultimate que deseja voltar para o Analytics Prime e tiver mais de 200 eVars ativadas?** A Adobe não desativará as eVars existentes, mas você não poderá ativar mais. Se você desativar as eVars, não poderá ativá-las novamente até que esteja abaixo do limite do Analytics Prime de 200 eVars ativadas.
 
