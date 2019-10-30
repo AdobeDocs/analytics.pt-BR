@@ -5,7 +5,7 @@ seo-title: Conector de dados Emarsys para Adobe Analytics
 title: Conector de dados Emarsys para Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Essa integração apresenta os seguintes segmentos de marketing, prontos para us
 * **** Perfis de compra: Aumente os pedidos repetidos e o valor médio do pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **** Perfil comportamental de exibição de produto/conteúdo: Alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
-* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
 
 ## Procedimento de integração e pré-requisitos{#integration-procedure-and-prerequisites}
 
