@@ -5,9 +5,9 @@ seo-title: Editar variáveis de conversão
 solution: Analytics
 title: Editar variáveis de conversão
 topic: Ferramentas administrativas
-uuid: 12 a 49 e 74-036 f -4109-b 306-4302 bf 3 b 8 aa 1
+uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
