@@ -4,10 +4,10 @@ seo-description: Mostra as médias das métricas Exibições de produto, Adiçõ
 seo-title: Funil de conversão de produtos
 solution: Analytics
 title: Funil de conversão de produtos
-topic: 'Relatórios  '
-uuid: e 857 aa 20-32 b 6-45 a 2-a 934-6 a 11 deadb 49 d
+topic: Relatórios
+uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ Mostra as médias das métricas Exibições de produto, Adições ao carrinho, R
 
 Para adicionar métricas e eventos personalizados a partir de outros grupos de relatórios, clique em um link de **[!UICONTROL Eventos selecionados]no cabeçalho do relatório.**
 
-Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Essa tendência indicaria que há menos visitas hoje do que ontem, mas só porque o restante das estatísticas do período ainda não ocorreu.
+Como os períodos atuais ainda não estão concluídos quando você exibe os dados, os relatórios podem indicar uma queda da tendência do período anterior até o atual. Por exemplo, pode haver menos visitas hoje do que ontem, mas apenas porque o restante das estatísticas do período ainda não ocorreu.
