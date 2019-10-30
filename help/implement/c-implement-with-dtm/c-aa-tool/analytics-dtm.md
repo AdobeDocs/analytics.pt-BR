@@ -1,29 +1,27 @@
 ---
-description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
-keywords: Implementação do Analytics;método de implementação;gerenciamento dinâmico de tags;dtm;ferramenta analítica;propriedade;tipo de ferramenta;nome da ferramenta;método de configuração;analytics premium;evars;events;Implementação do Analytics;método de implementação;gerenciamento dinâmico de tags;dtm;ferramenta analytics;propriedade;tipo de ferramenta;nome da ferramenta;método de configuração;analytics premium;evars;events;events
-seo-description: Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
+description: Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, ferramenta de análise, propriedade, tipo de ferramenta, nome da ferramenta, método de configuração, analytics premium, evars, eventos
+seo-description: Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
 seo-title: Adicionar a ferramenta Adobe Analytics
 solution: Analytics
 title: Adicionar a ferramenta Adobe Analytics
 topic: Desenvolvedor e implementação
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Adicionar a ferramenta Adobe Analytics
 
-Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a ferramenta Adobe Analytics e configurando o código da página automática ou manualmente. Recomendamos o método automático para a maioria dos usuários.
+Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
 
->[!NOTE]
->
->Para melhorar o rastreamento de visitantes, recomendamos que você ative o Serviço [de identidade](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+> [!NOTE] Para melhorar o rastreamento de visitantes, recomendamos que você ative o Serviço [de identidade](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Adicionar uma ferramenta Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
+1. Clique em **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Visão geral]** &gt; **[!UICONTROL Adicionar uma ferramenta]** &gt; **[!UICONTROL Adobe Analytics]** .
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -54,24 +52,24 @@ Implante o Adobe Analytics usando o Gerenciamento dinâmico de tags criando a fe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manual</b>: gerencie manualmente o código do AppMeasurement. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
+   <td colname="col2"> <p> <b>Manual</b>: gerencie manualmente o código do AppMeasurement. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Clique em <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external">JavaScript (novo)</a> para obter informações sobre como baixar o código localmente para copiar e colar no campo <span class="wintitle">Editar código</span> no <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local">Gerenciamento de biblioteca</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID da conta de produção:</b> (obrigatório) sua conta de produção para a coleta de dados. No Analytics, é a sua ID do conjunto de relatórios. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparação. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID da conta de armazenamento temporário:</b> (obrigatório) usada no ambiente de desenvolvimento e teste. No Analytics, é a sua ID do conjunto de relatórios. Uma conta de armazenamento temporário mantém os dados dos testes separados da produção. </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Servidor de rastreamento:</b> especifique as informações sobre seu servidor de rastreamento.  </p> <p>As variáveis <span class="wintitle">Servidor de rastreamento</span> e <span class="wintitle">Servidor de rastreamento de SSL</span> são usadas para implementação de cookies primários, para especificar o domínio em que a solicitação de imagem e o cookie são gravados. Para obter mais informações, consulte o artigo sobre <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">Preenchimento correto das variáveis trackingServer e trackingServerSecure</a>. </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Servidor de rastreamento de :</b> especifique as informações sobre seu servidor de rastreamento de  </p> <p>As variáveis <span class="wintitle">Servidor de rastreamento</span> e <span class="wintitle">Servidor de rastreamento de SSL</span> são usadas para implementação de cookies primários, para especificar o domínio em que a solicitação de imagem e o cookie são gravados. Para obter mais informações, consulte o artigo sobre <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">Preenchimento correto das variáveis trackingServer e trackingServerSecure</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Servidor de rastreamento de SSL:</b> especifique as informações sobre seu servidor de rastreamento de SSL. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Clique em **[!UICONTROL Criar ferramenta]para criar a ferramenta e exibi-la para edição.**
+1. Clique em **[!UICONTROL Criar ferramenta]** para criar a ferramenta e exibi-la para edição.
 
    As ferramentas são exibidas na guia [!UICONTROL Visão geral], em [!UICONTROL Ferramentas instaladas].
 
 1. (Condicional) Se preciso, configure a ferramenta mais detalhadamente seguindo as orientações fornecidas nos links abaixo ([!UICONTROL Geral], [!UICONTROL Gerenciamento de biblioteca], [!UICONTROL Variáveis globais], [!UICONTROL Visualizações de página e conteúdo], [!UICONTROL Rastreamento de link], [!UICONTROL Referenciadores e campanhas], [!UICONTROL Cookies] e [!UICONTROL Personalizar código de página]).
 
-See [Frequently Asked Questions About the Adobe Analytics Tool](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) for additional information about this tool.
+Consulte [Perguntas frequentes sobre a ferramenta do Adobe Analytics](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) para obter mais informações sobre essa ferramenta.
 
 ## Editar uma ferramenta Adobe Analytics existente {#section_148B16AF429B4949B06238D90635B726}
 
@@ -92,7 +90,7 @@ Você pode editar uma ferramenta Adobe Analytics existente para mudar suas confi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Habilitar configuração automática </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Essa opção permite que o Dynamic Tag Management recupere automaticamente as configurações da sua conta do <span class="keyword">Adobe Analytics</span>. </p> <p>O código do AppMeasurement mais recente é utilizado e as notificações de atualização são exibidas para seleção quando são disponibilizadas novas versões. Você também pode reverter para versões anteriores do AppMeasurement conforme for necessário; por exemplo, devido a motivos de compatibilidade. Até cinco versões anteriores são exibidas. </p> </td> 
+   <td colname="col2"> <p>Observação: a ativação dessa configuração altera a implementação configurada manualmente para o método de configuração automática descrito no <span class="term">Método de configuração</span>. </p> <p>Essa opção permite que o Dynamic Tag Management recupere automaticamente as configurações da sua conta do <span class="keyword">Adobe Analytics</span>. </p> <p>O código do AppMeasurement mais recente é utilizado e as notificações de atualização são exibidas para seleção quando são disponibilizadas novas versões. Você também pode reverter para versões anteriores do AppMeasurement conforme for necessário; por exemplo, devido a motivos de compatibilidade. Até cinco versões anteriores são exibidas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar credenciais </p> </td> 
