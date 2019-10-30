@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classificações
 title: Classificações de tráfego
 topic: Ferramentas administrativas
-uuid: 091 bec 9 b -98 ff -4 d 67-b 789-e 51 c 2712839 f
+uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 As classificações de tráfego permitem que você classifique variáveis de tráfego (props). As classificações de tráfego podem usar somente classificações de texto.
 
-## Traffic classifications {#concept_028079B29A9C412AA68910A87E11176F}
+## Classificações de tráfego {#concept_028079B29A9C412AA68910A87E11176F}
 
 As classificações de tráfego permitem que você classifique variáveis de tráfego (props). As classificações de tráfego podem usar somente classificações de texto.
 
