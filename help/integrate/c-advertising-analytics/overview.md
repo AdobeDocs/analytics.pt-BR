@@ -1,22 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Visão geral de análise de publicidade
-title: Visão geral de análise de publicidade
-uuid: 00 e 461 ff -3 e 17-4071-818 b -93 fd 1 e 4 b 36 f 1
+seo-title: Visão geral do Advertising Analytics
+title: Visão geral do Advertising Analytics
+uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Visão geral de análise de publicidade
+# Visão geral do Advertising Analytics
 
-O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Anteriormente, qualquer dado do Google adwords/DFA ou do Microsoft Bing Ads precisaria ser visualizado na Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você tem os dados a seguir no Adobe Analytics: Impressões, Cliques, Custos, Pontuação de qualidade e Posição média diretamente de todos os mecanismos de pesquisa, assim como Instâncias de ID do AMO (Instâncias de clique).
+O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Anteriormente, qualquer dado do Google AdWords/DFA ou do Microsoft Bing Ads precisaria ser exibido na Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você tem os dados a seguir no Adobe Analytics: Impressões, Cliques, Custos, Pontuação de qualidade e Posição média diretamente de todos os mecanismos de pesquisa, assim como Instâncias de ID do AMO (Instâncias de clique).
 
->[!NOTE]
->
->Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 21 19. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.
+> [!NOTE] Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.
 
 Ao trazer esses dados desses mecanismos de pesquisa juntos para o Adobe Analytics, é possível analisar os mesmos dados usando a Analysis Workspace. Um novo [modelo de Desempenho de pesquisa paga](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) no Workspace facilita essa análise.
 
@@ -77,14 +75,14 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 
 >[!IMPORTANT]
 >
->Essa integração cria um novo conjunto de dimensões por meio das classificações da variável ID do AMO. Essas novas dimensões não afetam ou modificam seus canais de marketing existentes ou as dimensões da variável de rastreamento de campanhas. A ID do AMO está conectada a um perfil de visitante quando um visitante chega no site a partir de uma publicidade de pesquisa paga. Sendo assim, as dimensões do AMO podem ser usadas para detalhar ambas as métricas do AMO fornecidas por esta integração, assim como qualquer downstream de dados capturados pelo visitante (visitas, visitantes, exibições de página, taxa de rejeição, pedidos, receita, eventos personalizados, etc.). Elas também podem ser detalhadas por outras dimensões ao fazer os relatórios de outras métricas no local.
+>Essa integração cria um novo conjunto de dimensões por meio de classificações da variável da ID da AMO. Essas novas dimensões não afetam ou modificam seus canais de marketing existentes ou as dimensões da variável de rastreamento de campanhas. A ID do AMO está conectada a um perfil de visitante quando um visitante chega no site a partir de uma publicidade de pesquisa paga. Sendo assim, as dimensões do AMO podem ser usadas para detalhar ambas as métricas do AMO fornecidas por esta integração, assim como qualquer downstream de dados capturados pelo visitante (visitas, visitantes, exibições de página, taxa de rejeição, pedidos, receita, eventos personalizados, etc.). Elas também podem ser detalhadas por outras dimensões ao fazer os relatórios de outras métricas no local.
 >
 >As classificações dessas métricas são atualizadas diariamente. Dessa forma, se fizer alterações ao metadados em um mecanismo de pesquisa, você pode não ver essas alterações refletidas até o dia seguinte, quando as classificações são atualizadas.
 
 | Nome de classificação (dimensão) | Definição |
 |--- |--- |
 | MatchType da palavra-chave (AMO ID) | O tipo de correspondência da palavra-chave. Os valores geralmente são amplos, frases, exatos ou sem valor, caso o tipo de publicidade não tenha um tipo de correspondência. |
-| Plataforma de publicidade (AMO ID) | O nome do mecanismo de pesquisa. Os valores podem incluir Google adwords ou Microsoft Bing Ads. |
+| Plataforma de publicidade (AMO ID) | O nome do mecanismo de pesquisa. Os valores podem incluir Google AdWords ou Microsoft Bing Ads. |
 | Conta (AMO ID) | O nome da conta de mecanismo de pesquisa está sendo rastreado. |
 | Campanha (AMO ID) | O nome a campanha em sua conta de mecanismo de pesquisa. |
 | Grupo de publicidade (AMO ID) | O nome do grupo de publicidade em suas campanhas do mecanismo de pesquisa. |
@@ -96,7 +94,7 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 | Descrição do anúncio (ID do AMO) | O objeto de Descrição do anúncio usado em seu Anúncio. |
 | URL de exibição do anúncio (ID do AMO) | O objeto de URL de exibição do anúncio usado em seu Anúncio. |
 | URL de destino do anúncio (ID do AMO) | O URL da página de aterrissagem ou URL final atribuído a seu Anúncio. |
-| Rede (ID do AMO) | A rede na qual a publicidade é exibida. No Advertising Analytics, esse valor sempre é “Pesquisa”. |
+| Rede (ID do AMO) | A rede na qual a publicidade é exibida. Para o Advertising Analytics, esse valor é sempre "Pesquisa". |
 | Posição (ID do AMO) | O site de posição gerenciada (para redes de conteúdo). Somente posições gerenciadas usam essa dimensão. |
 | Direcionamento de produtos (ID do AMO) | O nome de direcionamento do produto usado em anúncios PLA (não o produto comprado). |
 | Otimização (ID do AMO) | Não é usado pelo Advertising Analytics. É usado somente por clientes da Advertising Cloud. |
@@ -106,7 +104,7 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 
 >[!IMPORTANT]
 >
->As métricas fornecidas por Advertising Analytics (listadas abaixo) são dados em nível de resumo dos mecanismos de pesquisa. Elas não estão conectadas aos perfis de visitante do Analytics. Elas são conectadas apenas à variável de ID do AMO e suas dimensões de classificação associadas. Sendo assim, elas não devem ser relatadas por outras dimensões/segmentos além daqueles baseados nas dimensões de ID do AMO. Isso fará com que o Analytics exiba zeros para os dados. É possível incluí-las nas métricas calculadas com outras métricas, mas essa métrica calculada também deve ser detalhada apenas pela dimensão de ID do AMO.
+>As métricas fornecidas pelo Advertising Analytics (listadas abaixo) são dados de nível de resumo dos mecanismos de pesquisa. Elas não estão conectadas aos perfis de visitante do Analytics. Elas são conectadas apenas à variável de ID do AMO e suas dimensões de classificação associadas. Sendo assim, elas não devem ser relatadas por outras dimensões/segmentos além daqueles baseados nas dimensões de ID do AMO. Isso fará com que o Analytics exiba zeros para os dados. É possível incluí-las nas métricas calculadas com outras métricas, mas essa métrica calculada também deve ser detalhada apenas pela dimensão de ID do AMO.
 >
 >Essas métricas são ligadas à fonte de dados diariamente, de forma que não terão dados para o dia atual. Além disso, elas não devem ser relatadas em uma granularidade menor que diariamente.
 >
