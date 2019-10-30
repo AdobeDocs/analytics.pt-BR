@@ -8,7 +8,7 @@ title: Visão geral das visualizações
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ Para acessar as [!UICONTROL Configurações de visualização], arraste uma visu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exibir eixo duplo </p> </td> 
-   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
+   <td colname="col2"> <p>Aplica-se somente se você tiver duas métricas - você pode ter um eixo y à esquerda (para uma métrica) e à direita (para a outra métrica). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar anomalias </p> </td> 
