@@ -5,7 +5,7 @@ seo-title: Exibir/gerenciar as configurações de governança de dados do conjun
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">uma política de retenção de dados está em vigor para este conjunto de relatórios e </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">por quanto tempo os dados ficam retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses. </li> 
-    </ul> <p>Observação:  O Adobe Analytics não pode ajudá-lo com solicitações de processamento para a API de privacidade de dados, isto é, solicitações de acesso ou exclusão de processamento que você recebe de seus usuários finais, se o período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. </p> </td> 
+    </ul> <p>Observação: o Adobe Analytics não pode ajudá-lo com o processamento de solicitações da API da Privacidade de dados (ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais), se um período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos </p> </td> 
