@@ -3,9 +3,9 @@ description: O Criador de métricas calculadas permite aplicar funções matemá
 seo-description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 seo-title: Funções básicas de referência
 title: Funções básicas de referência
-uuid: 5 c 2 b 4 a 0 e -613 c -4 b 27-95 b 8-01 d 480 aeab 78
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ O Criador de métricas calculadas permite aplicar funções matemáticas e estat
 
 Veja uma lista em ordem alfabética das funções e suas definições.
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Quando [!DNL metric] é identificado como um argumento em uma função, outras expressões de métricas também são permitidas. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 Operador de potência
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*... (y vezes)
 </pre>
 
 ## Média (Tabela) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabela) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Retorna o milésimo percentil dos valores de uma métrica. É possível usar esta função para estabelecer um limite de aceitação. Por exemplo, é possível examinar os elementos de dimensão que pontuam acima de 90 percentil.
+Retorna o milésimo percentil dos valores de uma métrica. É possível usar esta função para estabelecer um limite de aceitação. Por exemplo, você pode decidir examinar elementos de dimensão com pontuação acima do percentil 90.
 
 ```
 PERCENTILE(metric,k)
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## Contagem de linhas {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Retorna a contagem de linhas referente a uma determinada coluna (o número de elementos exclusivos reportados em uma dimensão). “Excedentes exclusivos” é contada como 1.
+Retorna a contagem de linhas para uma determinada coluna (o número de elementos únicos reportados em uma dimensão). "Únicos excedidos" é contado como 1.
 
 ## Máx. da linha {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -326,7 +324,7 @@ Por exemplo, digamos que você tenha uma coluna de três itens:
 
 3
 
-A média dessa coluna é 2. A variação da coluna será ((1 - 2) ² + (2 - 2) ² + (3 - 2) ²/3 = 2/3. Na Ad Hoc Analysis, isso terá a seguinte aparência:
+A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Na Ad Hoc Analysis, isso terá a seguinte aparência:
 
 1 2/3
 
