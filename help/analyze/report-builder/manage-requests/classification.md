@@ -5,9 +5,9 @@ seo-title: Classificação
 solution: Analytics
 title: Classificação
 topic: Construtor de relatórios
-uuid: c 64 ede 6 e-ce 11-48 c 0-944 d-dc 365809 d 673
+uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,4 +20,4 @@ Por exemplo, um relatório de [!UICONTROL Campanha] pode ter uma classificação
 
 Você acessa as classificações da mesma maneira que acessa os outros relatórios de um conjunto de relatórios, e as dimensões são exibidas como um relatório de nível superior dentro do grupo. Se um relatório tiver classificações, um subgrupo de menus é criado para reunir o relatório e todas as suas classificações em um único local. O relatório é exibido como a última entrada na lista, entre as classificações.
 
-See [Classifications](/help/components/c-classifications2/c-classifications.md).
+Consulte [Classificações](/help/components/c-classifications2/c-classifications.md).
