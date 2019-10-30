@@ -5,7 +5,7 @@ seo-title: Execução do Assistente de integração dos conectores de dados
 title: Execução do Assistente de integração dos conectores de dados
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
 
-1. Faça logon no [!DNL Adobe Experience Cloud].
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. Verifique se o conjunto de relatórios desejado está ativo no [!DNL Report Suite] menu.
 1. Clique em **[!UICONTROL Adobe Experience Cloud]** &gt; Conectores **[!UICONTROL de dados]**.
 
