@@ -5,9 +5,9 @@ seo-title: Canais de marketing
 solution: Analytics
 title: Canais de marketing
 topic: Ferramentas administrativas
-uuid: 05 a 74391-b 694-4 ed 3-9793-5538 d 6373 db 2
+uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,6 +16,6 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 Os Canais de marketing são usados para fornecer informações sobre como os visitantes chegam ao site. É possível criar e personalizar Regras de processamento de canal de marketing com base nos canais que você deseja acompanhar e como deseja acompanhá-los.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Canais de marketing]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conjuntos **[!UICONTROL de]** relatórios &gt; **[!UICONTROL Editar configurações]** &gt; Canais **[!UICONTROL de marketing]**.
 
 Veja [Canais de marketing](/help/components/c-marketing-channels/c-overview.md).
