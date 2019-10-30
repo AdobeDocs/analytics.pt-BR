@@ -2,7 +2,7 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics transforma seus dados em dispositivos focados em pessoas, unindo dados de dispositivos.
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
