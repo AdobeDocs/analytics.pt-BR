@@ -8,7 +8,7 @@ title: Comparação de discrepâncias de métricas
 topic: Conectores de dados
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ Essa discrepância pode resultar em uma grande diferença nos dados coletados pe
 * O DFA envia dados para os servidores de coleta de dados da Adobe em um lote noturno, então os dados de impressões no Analytics podem ter até 2 dias de atraso em relação aos relatórios do DFA.
 * A Adobe usa as classificações SAINT para classificar códigos de rastreamento do DFA importados em vários níveis de agregação (nome da campanha, nome do posicionamento, nome do anúncio etc.). Se a discrepância aparecer durante a execução de um relatório de classificação, realize um teste simples para verificar se as classificações ainda não alcançaram as métricas importadas:
 
-   * No relatório de classificação, localize um item de linha chamado “Nenhum”.
+   * No relatório de classificação, localize um item de linha chamado "Nenhum".
    * Faça um detalhamento desse item de linha pela mesma variável, usando o relatório bruto da ID do DFA (por exemplo, ID da campanha).
    * Nesse relatório, tome nota de todos os códigos de rastreamento do DFA não classificados que estejam no formato `DFA:XXXXX:XXXXX`.
    * Se houver muitos desses códigos de rastreamento, investigue o processo noturno de classificação SAINT.
@@ -56,18 +56,18 @@ Essa discrepância pode resultar em uma grande diferença nos dados coletados pe
 ### Por que os cliques do DFA podem ser maiores do que os click-throughs do Adobe Analytics? {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * O DFA registra um clique antes de o visitante chegar ao site do cliente. O Analytics registra click-throughs depois que a página de aterrissagem é carregada e executa o beacon de JavaScript da Adobe. Normalmente, as discrepâncias ocorrem porque o visitante não está chegando à página de aterrissagem depois que o DFA rastreia um clique ou porque o temporizador `s.maxDelay` termina.
-* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example “`?CID=1`”). Deixar de definir esse parâmetro fará com que o JavaScript do Adobe Analytics ignore todos os click-throughs que ocorrerem depois da primeira visita.
+* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example "`?CID=1`"). Deixar de definir esse parâmetro fará com que o JavaScript do Adobe Analytics ignore todos os click-throughs que ocorrerem depois da primeira visita.
 * Verifique se todos os posicionamentos e criações têm uma página de aterrissagem marcada com o JavaScript e o módulo DFA Integrate, bem como se a ID de configuração do Floodlight nessa página de aterrissagem coincide com a ID de configuração do Floodlight nos anúncios veiculados. As discrepâncias frequentemente ocorrem porque a página de aterrissagem dos anúncios é definida para um site de terceiros ou para os anúncios veiculados.
 * Se você usa anúncios Rich Media ou anúncios Flash (swf), verifique se, quando o rastreador de cliques do DFA é acessado, o navegador do visitante também é redirecionado para a página de aterrissagem com o parâmetro `clickThroughParam` incluído na sequência de consulta. O não redirecionamento do navegador impedirá o registro de um click-through.
 * Os tempos limite representam instâncias nas quais os dados do DFA podem ter sido disponibilizados mas o JavaScript não recebeu uma resposta a tempo. Quando um visitante chega à página de aterrissagem, o JavaScript da Adobe solicita as informações do visitante do serviço fls.doubleclick.net do DFA. O parâmetro `s.maxDelay`determina quanto tempo o JavaScript aguarda pelos dados do Floodlight Service (FLS). If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information.
 * O tráfego de robô pode aumentar o número de cliques do DFA. Os robôs podem ter funcionalidade para clicar em anúncios, mas podem não ter a complexidade para executar um beacon do Analytics ou disparar a tag de script síncrona para carregar os dados de solicitação dos servidores Floodlight. Se esses robôs não são removidos do número de cliques, isso pode ser uma fonte de discrepância.
 * Os visitantes que deixarem a página antes que o `s.maxDelay` expire e que os dados do DFA retornem serão perdidos; nenhum dado do DFA ou de visitante será coletado para eles.
-* O Analytics tenta identificar e remover click-throughs duplicados para que eles sejam contados apenas uma vez por campanha, por visita. O DFA conta os visitantes que clicam em “Voltar” e passam pelo redirecionamento do anúncio várias vezes como cliques de ACM adicionais, enquanto o Analytics não os conta como vários click-throughs.
+* O Analytics tenta identificar e remover click-throughs duplicados para que eles sejam contados apenas uma vez por campanha, por visita. O DFA conta os visitantes que clicam em "Voltar" e passam pelo redirecionamento do anúncio várias vezes como cliques ACM adicionais, enquanto o Analytics não os considera como vários click-throughs.
 * As tags do DFA Floodlight não dependem da habilitação do JavaScript, ao contrário do Analytics. Por esse motivo, pode haver alguns casos em que o DFA registre um hit e o Analytics não registre. Para identificar se isso pode ser um problema, use o relatório JavaScript do Analytics no menu Perfil do visitante.
 
 ### Por que as atividades pós-impressão do DFA podem ser maiores do que os view-throughs do Adobe Analytics? {#section-5daa91039c404df48b6a3447c20406f7}
 
-* O Analytics tenta identificar e remover click-throughs duplicados para que eles sejam contados apenas uma vez por campanha, por visita. O DFA conta os visitantes que clicam em “Voltar” e passam pelo redirecionamento do anúncio várias vezes como cliques de ACM adicionais, enquanto o Analytics não os conta como vários click-throughs.
+* O Analytics tenta identificar e remover click-throughs duplicados para que eles sejam contados apenas uma vez por campanha, por visita. O DFA conta os visitantes que clicam em "Voltar" e passam pelo redirecionamento do anúncio várias vezes como cliques ACM adicionais, enquanto o Analytics não os considera como vários click-throughs.
 * As tags do DFA Floodlight não dependem da desabilitação do JavaScript, ao contrário do Analytics. Por esse motivo, pode haver alguns casos em que o DFA registre um hit e o Analytics não registre. 
 * O DFA conta as atividades pós-impressão ao usar tags do Floodlight, que podem ser colocadas no site do cliente. O Analytics conta os view-throughs após a execução do beacon do JavaScript (solicitação de imagem). O posicionamento do código na página da Web pode determinar se o aborto do carregamento de uma página conta como atividade pós-impressão ou como view-through.
 
