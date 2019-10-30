@@ -7,8 +7,8 @@ solution: Analytics
 title: Rastreamento offline
 topic: Desenvolvedor e implementação
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 As variáveis e funções a seguir permitem que você armazene chamadas de medição quando o aplicativo está offline.
 
->[!NOTE]
->
->Para ativar o rastreamento offline, o conjunto de relatórios deve ser habilitado para o carimbo de data e hora. Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `trackOffline` *deve* ser verdadeira. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `trackOffline` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html#analytics)
+> [!NOTE]Para ativar o rastreamento offline, o conjunto de relatórios deve ser habilitado para o carimbo de data e hora. Se o carimbo de data e hora estiver ativado no conjunto de relatórios, sua propriedade de configuração `trackOffline` *deve* ser verdadeira. Caso o conjunto de relatórios não tenha um carimbo de data e hora, sua propriedade de configuração `trackOffline` *deve* ser false. Se isso não for configurado corretamente, os dados serão perdidos. Se você não tem certeza se um conjunto de relatórios tem um carimbo de data e hora, [entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 Quando ativado, o AppMeasurement offline se comporta da seguinte maneira:
 
@@ -60,13 +58,12 @@ Em cada ocorrência subsequente ou no intervalo definido por `offlineThrottleDel
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Define manualmente o estado online ou offline do objeto de medição. A biblioteca detecta automaticamente quando um dispositivo está online ou offline. Estes métodos serão necessários apenas quando você quiser forçar a medição offline. <code> forceOnline</code> é usado para retornar ao estado online após ter sido alterado manualmente para offline. </p> <p>Quando a medição está offline: </p> 
+   <td colname="col2"> <p> Define manualmente o estado online ou offline do objeto de medição. A biblioteca detecta automaticamente quando um dispositivo está online ou offline. Estes métodos serão necessários apenas quando você quiser forçar a medição offline. <code> forceOnline </code>   é usado para retornar ao estado online após ter sido alterado manualmente para offline. </p> <p>Quando a medição está offline: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Se <code>trackOffline</code> for verdadeiro: as ocorrências são armazenadas até a medição estar online. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> Se <code>trackOffline</code> for falso: as ocorrência são descartadas. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Se <code> trackOffline </code> for verdadeiro: as ocorrências são armazenadas até a medição estar online. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> Se <code> trackOffline </code> for falso: as ocorrência são descartadas. </li> 
     </ul> <p> <b>Exemplos:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
