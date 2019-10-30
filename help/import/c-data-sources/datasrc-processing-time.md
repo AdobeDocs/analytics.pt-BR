@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Tempo de processamento das Fontes de dados
+seo-title: Tempo de processamento das fontes de dados
 solution: Analytics
-title: Tempo de processamento das Fontes de dados
-uuid: d 7 cd 679 a-f 9 e 3-4740-87 cf -6171 f 3 fe 5 cd 9
+title: Tempo de processamento das fontes de dados
+uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Tempo de processamento das Fontes de dados
+# Tempo de processamento das fontes de dados
 
->[!Note]
->Quaisquer períodos de tempo de processamento de dados devem ser considerados aproximados e não constituem um Contrato de nível de serviço (SLA).
+>[!Nnota]
+>Qualquer período de tempo de processamento de dados deve ser considerado aproximado e não constitui um SLA (Service Level Agreement, contrato de nível de serviço).
 
 O tempo de processamento de dados varia de acordo com estas diretrizes:
 
