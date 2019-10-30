@@ -1,22 +1,22 @@
 ---
 description: Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 seo-description: Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
-seo-title: Fila de relatórios agendados
+seo-title: Relação de relatórios agendados
 solution: Analytics
-title: Fila de relatórios agendados
-topic: 'Relatórios  '
-uuid: 3 fcf 92 d 3-a 472-465 f-ad 7 a-c 48 cd 9 a 8238 b
+title: Relação de relatórios agendados
+topic: Relatórios
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fila de relatórios agendados
+# Relação de relatórios agendados
 
 Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 
-**[!UICONTROL Análises]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Relatórios agendados]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Relatórios **[!UICONTROL agendados]**
 
 Os recursos de nível administrativo no Gerenciador de relatórios agendados incluem:
 
@@ -29,9 +29,7 @@ Os recursos de nível administrativo no Gerenciador de relatórios agendados inc
 
 Na guia **[!UICONTROL Lista de relatórios]**, você pode **Mostrar todos os relatórios agendados]na organização, além daqueles que você agendou pessoalmente.[!UICONTROL **
 
->[!NOTE]
->
->The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. Como resultado, se você agendar vários relatórios de um mesmo tipo de relatório e especificar nomes personalizados para cada um, o Gerente de relatórios agendados exibe várias entradas com o mesmo Nome de relatório, mas com nomes de arquivo diferentes. Isso ocorre porque o relatório de back end agendado é o mesmo. Por esse motivo, a coluna Nome do relatório teria os mesmos nomes de relatório para todos os nomes de arquivo personalizados (como definido).
+> [!NOTE] A coluna Nome **[!UICONTROL do]** relatório exibe o nome do relatório que está sendo programado e a coluna Nome **[!UICONTROL do]** arquivo exibe qualquer nome de arquivo personalizado definido por você nas Opções avançadas de entrega. Como resultado, se você agendar vários relatórios de um mesmo tipo de relatório e especificar nomes personalizados para cada um, o Gerente de relatórios agendados exibe várias entradas com o mesmo Nome de relatório, mas com nomes de arquivo diferentes. Isso ocorre porque o relatório de back end agendado é o mesmo. Por esse motivo, a coluna Nome do relatório teria os mesmos nomes de relatório para todos os nomes de arquivo personalizados (como definido).
 
 ![](assets/show_all_scheduled_reports.png)
 
