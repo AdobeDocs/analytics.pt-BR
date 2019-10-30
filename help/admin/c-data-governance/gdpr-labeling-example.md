@@ -5,7 +5,7 @@ seo-title: Exemplo de rotulagem
 title: Exemplo de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,9 @@ Suponha que você tenha os seguintes dados de ocorrência:
 * A segunda linha é o nome da variável. Se tiver um rótulo de ID, ele conterá o namespace atribuído entre parênteses.
 * Os dados de ocorrência começam na terceira linha.
 
-| Rótulos | I2<br>ID-<br>PESSOAL-<br>PESSOA-PESSOA-PESSOA | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PESSOA | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
+| Rótulos | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome**<br>**da variável (Namespace)** | **MyProp1**<br>**(usuário)** | **ID**<br>**do visitante (AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome da variável**<br>**(Namespace)** | **MyProp1**<br>**(usuário)** | **ID de visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dados de ocorrência | Mary | 77 | Um | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
@@ -36,7 +36,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e expandIDs for verdadeiro.
 
-| Valores da API | Valores da API | Tipo de arquivo retornado | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File |
+| Valores da API | Valores da API | Tipo de arquivo retornado | Dados no <br>Arquivo de acesso do resumo | Dados no <br>Arquivo de acesso do resumo | Dados no <br>Arquivo de acesso do resumo | Dados no <br>Arquivo de acesso do resumo | Dados no <br>Arquivo de acesso do resumo |
 |--- |--- |--- |---|---|---|---|---|
 | **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variável não presente | 77 | Variável não presente | M, P | X, W |
@@ -58,46 +58,46 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | Um | Privacidade-7398 | Privacidade-9152 |
+| Mary | 42 | Um | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | S |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | Privacidade-1866 | Privacidade-8216 |
+| John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Somente as células em linhas contendo AAID = 77 e um rótulo DEL-DEVICE são afetadas.
+>[!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo de DEL-DEVICE são afetadas.
 
-| user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false | user=<br>MaryspanIDs=false |
+| user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacidade-0523 | 77 | Privacidade-1866 | Privacidade-3681 | X |
-| Privacidade-0523 | 88 | Privacidade-2178 | Privacidade-1975 | S |
-| Privacidade-0523 | 99 | Privacidade-9045 | Privacidade-2864 | Z |
+| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
+| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | S |
+| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Somente as células em linhas que contêm user=Mary e uma etiqueta DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma string que começava com "Privacidade-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico diferente e aleatório.
+>[!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo de DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com "Privacy-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
-| user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true | user=<br>MaryspanIDs=true |
+| user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacidade-5782 | 09 | Privacidade-0859 | Privacidade-8183 | Privacidade-9152 |
-| Privacidade-5782 | 16 | Privacidade-6104 | Privacidade-2911 | Privacidade-6821 |
-| Privacidade-5782 | 83 | Privacidade-2714 | Privacidade-0219 | Privacidade-4395 |
-| John | 09 | D | Privacidade-8454 | Privacidade-8216 |
-| John | 16 | E | Privacidade-2911 | Privacidade-2930 |
+| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
+| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | Privacy-8216 |
+| John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
 Observe o seguinte:
 
-* Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`.
+* As células nas linhas que contêm `user=Mary` e um rótulo `DEL-DEVICE` ou `DEL-PERSON` são afetadas, bem como as células com um rótulo `DEL-DEVICE` nas linhas que contêm qualquer ID de visitante que ocorreu em uma linha que contém `user=Mary`.
 * `MyEvar2`A na quarta e na quinta linha é atualizada, pois essas linhas contêm os mesmos valores de ID de visitante que os da primeira e da segunda linha, portanto, a expansão de ID inclui esses valores para as exclusões a nível de dispositivo.
-* The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request.
-* `MyEvar3`O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES` Now `AAID` matches on the first five rows.
+* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão, mas após a exclusão, eles não corresponderão mais ao valor N existente na última linha, pois tal linha não foi atualizada como parte da solicitação de exclusão.
+* `MyEvar3`O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES` Agora, `AAID` corresponde nas cinco primeiras linhas.
