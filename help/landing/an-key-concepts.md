@@ -4,7 +4,7 @@ seo-description: Esta seção contém os principais conceitos do Adobe Analytics
 seo-title: Adobe Analytics - Principais conceitos
 title: Adobe Analytics - Principais conceitos
 translation-type: tm+mt
-source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ Clique [aqui](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 
 | Termo | Descrição | Link da documentação |
 |--- |--- |--- |
-| Props (Tráfego personalizado) | Dimensões usadas para rastrear a atividade de tráfego do site página por página. As props não persistem entre páginas. Principais aplicações das variáveis de tráfego: <ul><li>Contagem simples para encontrar o "mais popular" de um valor específico</li><li>Visibilidade de como os usuários estão definindo caminho pelo site </li></ul><br>Exemplos de variáveis de tráfego: Nome da página, Seções do site, Navegadores</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Props (Tráfego personalizado) | Dimensões usadas para rastrear a atividade de tráfego do site página por página. As props não persistem entre páginas. Principais aplicações das variáveis de tráfego: <ul><li>Contagem simples para encontrar o 'mais popular' de um valor específico</li><li>Visibilidade de como os usuários estão definindo caminho pelo site </li></ul><br>Exemplos de variáveis de tráfego: Nome da página, Seções do site, Navegadores</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
 | eVar (conversão personalizada) | Dimensões que persistem por um período personalizado por você. As opções de expiração incluem expiração de evento, expiração de visita ou expiração do dia X, e devem ser orientadas pelo tipo de análise que será realizada nessa variável.<br>Principais diferenças entre eVars e props:</br><ul><li>As props são frequentemente usadas para a análise de definição de caminho porque a persistência é removida.</li><li>Geralmente, as eVars são usadas para análise de conversão.</li></ul><br>Exemplos de variáveis de conversão: Termos de pesquisa interna, Promoções internas, Campanhas externas (s.campaign)</br> | [eVars](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | Eventos/métricas (s.events) | Métricas que medem as principais ações que queremos que nossos visitantes executem em nosso site. Há três tipos de eventos: Contador, Numérico e Moeda. Os eventos são mais úteis quando adicionados aos relatórios da variável de conversão (eVar). A eVar oferece as informações qualitativas sobre o que aconteceu, e o Evento oferece informações quantitativas sobre o que aconteceu. <br>Principais diferenças entre eVars e eventos:</br><ul><li>As eVars informam quem, o que ou qual afetou a conversão</li><li>Os eventos medem quantas conversões ocorreram</li></ul><br>Exemplos de eventos de conversão: Pedidos, Inícios de aplicação, Clientes potenciais, Receita.</br> | [Eventos](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
 | Componentes | Dimensões, métricas, segmentos e granularidades de tempo (intervalos de datas) que você pode arrastar e soltar em um projeto. | [Componentes](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
