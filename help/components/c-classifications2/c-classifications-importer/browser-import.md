@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classificações
 title: Importação de navegador
 topic: Ferramentas administrativas
-uuid: 56 dfbf 4 c -36 e 6-49 f 4-b 5 cb -8 ab 714432825
+uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
 
-## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
+## Importação de navegador {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
 
 É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**
+**[!UICONTROL Admin]** &gt; Importador **[!UICONTROL de classificação]**
 
 ## Importação do navegador de classificações - Descrições do campo {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -66,7 +66,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. Configure the **[!UICONTROL Browser Import]** fields.
+1. Configure os campos Importação **[!UICONTROL do]** navegador.
 1. Click **[!UICONTROL Import File]**.
 1. Observe as mensagens de processamento na janela de status.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
