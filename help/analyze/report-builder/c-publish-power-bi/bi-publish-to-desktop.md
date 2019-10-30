@@ -1,16 +1,16 @@
 ---
 description: Explica como transferir ativos publicados do Construtor de relatórios para o Power BI Desktop
 seo-description: Explica como transferir ativos publicados do Construtor de relatórios para o Power BI Desktop
-seo-title: Puxar ativos publicados para o Power BI Desktop
-title: Puxar ativos publicados para o Power BI Desktop
-uuid: ef 47 d 5 c 7-31 e 0-44 fc-a 792-bc 9 d 12 bb 089 e
+seo-title: Transferir ativos publicados para o Power BI Desktop
+title: Transferir ativos publicados para o Power BI Desktop
+uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Puxar ativos publicados para o Power BI Desktop
+# Transferir ativos publicados para o Power BI Desktop
 
 Explica como transferir ativos publicados do Construtor de relatórios para o Power BI Desktop
 
@@ -27,7 +27,7 @@ Na atualização de abril de 2017 do Power BI Desktop, a Microsoft liberou a hab
 1. Ative **[!UICONTROL Conexão online com o serviço do Power BI]** e clique em **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
 1. Reinicie o Power Bi Desktop.
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. **[!UICONTROL Depois de reiniciar a área de trabalho, vá para]** Início **[!UICONTROL &gt;]** Obter dados **[!UICONTROL &gt;]** Mais....
 1. Procure por e selecione **[!UICONTROL Serviço Power BI]**.
 1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
