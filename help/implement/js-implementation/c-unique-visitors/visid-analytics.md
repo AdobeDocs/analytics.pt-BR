@@ -7,8 +7,8 @@ solution: Analytics
 title: ID de visitante do Analytics
 topic: Desenvolvedor e implementação
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Quando uma solicitação é enviada para o servidor de coleção de dados da Ado
 
 Alguns navegadores, como o Apple Safari, não armazenam cookies configurados no cabeçalho HTTP provenientes de domínios que não correspondem ao domínio do site (como um cookie utilizado em um contexto de terceiro, ou um cookie de terceiro). Por exemplo, se você está em `mysite.com` e o servidor de coleta de dados for `mysite.omtrdc.net`, o cookie retornado no cabeçalho HTTP de `mysite.omtrdc.net` pode ser rejeitado pelo navegador.
 
-Para evitar isso, muitos clientes implementaram registros CNAME nos servidores de coleta de dados como parte de uma [implementação de cookies próprios](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/first_party_cookies/). Se um registro CNAME é configurado para mapear um nome de host no domínio do cliente para o servidor de coleção de dados (por exemplo, mapear `metrics.mysite.com` para `mysite.omtrdc.net`), o cookie da ID de visitante é armazenado, pois o domínio de coleção de dados agora corresponde ao domínio do site. Isso aumenta a probabilidade do cookie da ID de visitante ser armazenado, mas apresenta uma sobrecarga, pois é necessário configurar registros de CNAME e manter certificados SSL para servidores de coleção de dados.
+Para evitar isso, vários clientes implementaram registros de CNAME para seus servidores de coleção de dados como parte de uma [implementação de cookie primária](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Se um registro CNAME é configurado para mapear um nome de host no domínio do cliente para o servidor de coleção de dados (por exemplo, mapear `metrics.mysite.com` para `mysite.omtrdc.net`), o cookie da ID de visitante é armazenado, pois o domínio de coleção de dados agora corresponde ao domínio do site. Isso aumenta a probabilidade do cookie da ID de visitante ser armazenado, mas apresenta uma sobrecarga, pois é necessário configurar registros de CNAME e manter certificados SSL para servidores de coleção de dados.
 
 ## Cookies em dispositivos móveis {#section_7D05AE259E024F73A95C48BD1E419851}
 
