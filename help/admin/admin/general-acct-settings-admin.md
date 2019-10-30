@@ -7,7 +7,7 @@ title: Configurações gerais da conta
 topic: Ferramentas administrativas
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Essas configurações contêm opções de edição para a funcionalidade básica
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ofuscação de IP</span> </td> 
-   <td colname="col2"> <p>Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente. </p> <p>Observação: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target. </p> <p>Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP. </p> <p>Marcar <span class="uicontrol">Desativado</span> deixa o endereço IP nos dados. </p> <p>Marcar <span class="uicontrol">Ofuscar endereço IP</span> altera o IP para um valor com hash (por exemplo, 234abc6493872038). </p> <p>Marcar <span class="uicontrol">Remover endereço IP</span> substitui o endereço IP por x.x.x.x nos dados após a pesquisa geográfica. </p> <p>Observação: Essa configuração pode exigir alterações nas regras <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> do</a> robô personalizado ou<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> exclusões</a>de IP. </p> </td> 
+   <td colname="col2"> <p>Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente. </p> <p>Observação: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target. </p> <p>Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes do endereço IP ser ofuscado, de modo que os clientes não precisam alterar nada quando ativarem a ofuscação de IP. </p> <p>Marcar <span class="uicontrol">Desativado</span> deixa o endereço IP nos dados. </p> <p>Marcar <span class="uicontrol">Ofuscar endereço IP</span> altera o IP para um valor com hash (por exemplo, 234abc6493872038). </p> <p>Marcar <span class="uicontrol">Remover endereço IP</span> substitui o endereço IP por x.x.x.x nos dados após a pesquisa geográfica. </p> <p>Observação: Essa configuração pode exigir alterações nas regras <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> do</a> robô personalizado ou<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> exclusões</a>de IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Armazenamento de ID de transação</span> </td> 
