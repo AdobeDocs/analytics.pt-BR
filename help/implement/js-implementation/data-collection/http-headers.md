@@ -7,8 +7,8 @@ solution: Analytics
 title: Cabeçalhos HTTP para coleta de dados
 topic: Desenvolvedor e implementação
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/whitepapers/cookies/" format="https" scope="external">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
+   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
  </tbody> 
 </table>
 
->[!NOTE]
->
->As implementações que usam variáveis dinâmicas têm a opção de ler em outros cabeçalhos de solicitação HTTP não listados acima.
+> [!NOTE] As implementações que usam variáveis dinâmicas têm a opção de ler em outros cabeçalhos de solicitação HTTP não listados acima.
 
 ## Cabeçalhos de resposta HTTP {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
 | Tipo de conteúdo | Especifica o tipo de conteúdo enviado de volta ao cliente (GIF, texto, JavaScript etc). |
 | Tamanho do conteúdo | Especifica o tamanho do conteúdo enviado de volta ao cliente. |
 
->[!NOTE]
->
->Outros cabeçalhos HTTP podem ser definidos na resposta para monitoramento do status interno. Alguns desses cabeçalhos podem ser retornados para o navegador, mas eles não precisam recebê-los.
+> [!NOTE] Outros cabeçalhos HTTP podem ser definidos na resposta para monitoramento do status interno. Alguns desses cabeçalhos podem ser retornados para o navegador, mas eles não precisam recebê-los.
