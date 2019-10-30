@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canais de marketing
 title: Configuração automática
 topic: Reports and Analytics
-uuid: 737 dd 1 c 8-dc 65-4 d 02-bba 0-1 d 471 f 093593
+uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Execute a configuração única para o relatório de Canal de marketing.
 
-## Automatic setup {#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B}
+## Configuração automática {#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B}
 
 Execute a configuração única para o relatório de Canal de marketing.
 
