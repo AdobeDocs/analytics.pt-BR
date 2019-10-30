@@ -3,9 +3,9 @@ description: Um histograma é um novo tipo de visualização na Analysis Workspa
 seo-description: Um histograma é um novo tipo de visualização na Analysis Workspace.
 seo-title: Histograma
 title: Histograma
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Para criar um histograma:
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->Os histogramas oferecem suporte somente a métricas padrão, e não a métricas calculadas.
+> [!NOTE] Os histogramas suportam apenas métricas padrão, não métricas calculadas.
 
 Aqui, utilizamos a Métrica de exibições de página por visitantes exclusivos. O primeiro grupo (à esquerda) corresponde a uma exibição de página por visitante exclusivo, o segundo grupo, a duas exibições de página, etc.
 
@@ -41,7 +39,7 @@ Para ajustar as configurações do histograma, clique no ícone de Configuraçõ
 | Grupo inicial | Determina o grupo inicial do histograma. O valor padrão é “1”. Você pode definir números iniciais de 0 a infinito (nenhum número negativo). |
 | Grupos de métricas | Permite aumentar/diminuir o número de intervalos de dados (grupos). O número máximo de grupos é 50. |
 | Tamanho do grupo de métricas | Permite definir o tamanho de cada grupo. Por exemplo, você pode alterar o tamanho do grupo de uma exibição de página para duas exibições de página. |
-| Método de contagem | Permite escolher entre [Visitante](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) ou [Ocorrência](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Por exemplo, exibições de página por visita, por visitante ou por ocorrência. Para Ocorrências, "Ocorrências" é usado como a métrica do eixo y na tabela de forma livre. |
+| Método de contagem | Permite escolher entre [Visitante](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) ou [Ocorrência](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Por exemplo, exibições de página por visita, por visitante ou por ocorrência. Para Ocorrências, "Ocorrências" é usado como a métrica do eixo y em uma tabela de forma livre. |
 
 **Exemplos**:
 
