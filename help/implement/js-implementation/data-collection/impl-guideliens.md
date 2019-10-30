@@ -7,8 +7,8 @@ solution: Analytics
 title: Diretrizes de implementação
 topic: Desenvolvedor e implementação
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Seguindo estas diretrizes, você usará os mesmos domínios de cookies, o que pe
 
 * **RSID:** a [!UICONTROL ID do conjunto de relatórios]
 * **VNS (Espaço reservado do visitante):** subdomínio de [!DNL 2o7.net]o ou [!DNL omtrdc.net] usado para armazenar o cookie da [!UICONTROL ID de visitante]
-* **COOKIEDOMAIN:** seu VNS + trackingServer. Dependendo do data center e da configuração de RDC, eles podem variar. [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html#analytics), se não tiver certeza sobre o domínio de coleta de dados.
+* **COOKIEDOMAIN:** seu VNS + trackingServer. Dependendo do data center e da configuração de RDC, eles podem variar. [Entre em contato com o Atendimento](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) ao cliente se não tiver certeza sobre seu domínio de coleta de dados.
 
 ## JavaScript
 
