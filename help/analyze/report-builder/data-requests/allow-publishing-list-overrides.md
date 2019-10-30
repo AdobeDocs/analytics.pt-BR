@@ -7,7 +7,7 @@ title: Permitir substituições da lista de publicação
 topic: Construtor de relatórios
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ Se você ativar [!UICONTROL Permitir substituições da lista de publicação], 
 
 Esta opção não está disponível para conjuntos de relatórios selecionados a partir das células.
 
->[!NOTE]
->
->Se você enviar o relatório agendado para várias listas de publicação, o relatório será executado uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação.
+> [!NOTE]Se você enviar o relatório agendado para várias listas de publicação, o relatório será executado uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação.
 
