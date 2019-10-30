@@ -1,18 +1,18 @@
 ---
 description: Exibe o número de dias que se passaram entre a primeira vez que clientes visitaram o site e quando eles finalmente fizeram uma compra.
 seo-description: Exibe o número de dias que se passaram entre a primeira vez que clientes visitaram o site e quando eles finalmente fizeram uma compra.
-seo-title: Dias antes da primeira compra
+seo-title: Dias Antes da Primeira Compra
 solution: Analytics
-title: Dias antes da primeira compra
-topic: 'Relatórios  '
-uuid: 8 param 9 e 8-2 b 81-44 f 1-b 4 c 0-aa 6542 eeba 2 b
+title: Dias Antes da Primeira Compra
+topic: Relatórios
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dias antes da primeira compra
+# Dias Antes da Primeira Compra
 
 Exibe o número de dias que se passaram entre a primeira vez que clientes visitaram o site e quando eles finalmente fizeram uma compra.
 
