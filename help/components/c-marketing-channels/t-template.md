@@ -1,25 +1,23 @@
 ---
 description: É possível usar um conjunto de relatórios mestre como modelo para testar sua configuração de canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para conjuntos de canais e de regras separadamente.
 seo-description: É possível usar um conjunto de relatórios mestre como modelo para testar sua configuração de canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para conjuntos de canais e de regras separadamente.
-seo-title: Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório
+seo-title: Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
 solution: Analytics
 subtopic: Canais de marketing
-title: Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório
+title: Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
 topic: Reports and Analytics
-uuid: 212 d 16 d 7-fb 0 c -40 c 4-b 8 ff-a 86 c 9 a 511 a 23
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório
+# Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
 
 É possível usar um conjunto de relatórios mestre como modelo para testar sua configuração de canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para conjuntos de canais e de regras separadamente.
 
->[!NOTE]
->
->Aplique canais a partir de um modelo antes de aplicar os conjuntos de regras. Seus canais devem ser os mesmos em todos os conjuntos de ferramentas de relatório ao executar esse procedimento.
+> [!NOTE] Aplique canais de um modelo antes de aplicar conjuntos de regras. Seus canais devem ser os mesmos em todos os conjuntos de ferramentas de relatório ao executar esse procedimento.
 
 **Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório**
 
