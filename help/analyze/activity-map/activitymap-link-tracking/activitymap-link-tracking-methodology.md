@@ -7,7 +7,7 @@ title: Rastreamento de link metodologia
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -18,9 +18,9 @@ Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how [!DNL Activity Map] may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-[!DNL Activity Map] baseia seu rastreamento de link nessas duas IDs:
+O Activity Map baseia seu rastreamento de links nessas duas IDs:
 
 * ID primária: este é o parâmetro reconhecível do link.
 * Região do link: este é um parâmetro secundário, que permite aos usuários especificar uma cadeia de caracteres que representa a área total do link na página ou região. Esse parâmetro pode ser gerado automaticamente se não for fornecido pelo usuário.
@@ -48,7 +48,7 @@ Como resultado, usamos o InnerText com essas vantagens, em vez da Ação do link
 * É uma boa representação da identidade do link. A duplicação da ID primária é significativamente reduzida, pois não é comum ter vários links com o mesmo texto.
 * Isso garante a consistência da ID primária em todos os tipos de dispositivos e navegadores.
 * Ela não é afetada por um reposicionamento de link na página.
-* Melhora a leitura, assim os usuários podem iniciar a análise dos relatórios de Rastreamento do link fora do [!DNL Activity Map].
+* Melhora a leitura, assim os usuários podem iniciar a análise dos relatórios de Rastreamento do link fora do Activity Map.
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -115,7 +115,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 
 ## Variáveis de configuração {#section_634197EACD404AC086DF9A03B813C8C3}
 
-Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de referência. [!DNL Activity Map]O deve ser configurado adequadamente para instalação, mas é possível personalizar a sua implementação usando essas variáveis.
+Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de referência. O Activity Map deve ser configurado adequadamente para instalação, mas é possível personalizar a sua implementação usando essas variáveis.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -153,7 +153,7 @@ Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de
     <code>
       //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>Uma sequência de caracteres que recebe uma lista de sequências de caracteres separadas por vírgula para pesquisa no texto do link. Se for encontrado, o link será excluído do acompanhamento pelo [!DNL Activity Map]. Se não estiver definido, não há tentativa de interromper o rastreamento do link pelo [!DNL Activity Map]. </p> </td> 
+   <td colname="col3"> <p>Uma sequência de caracteres que recebe uma lista de sequências de caracteres separadas por vírgula para pesquisa no texto do link. Caso encontrado, o link deixará de ser rastreado pelo Activity Map. Caso não esteja definido, nenhuma tentativa foi feita para interromper o rastreamento do link no Activity Map.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
@@ -161,7 +161,7 @@ Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de
     <code>
       //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>Uma sequência de caracteres que recebe uma lista de sequências de caracteres separadas por vírgula para pesquisa no texto da região. Se for encontrado, o link será excluído do acompanhamento pelo [!DNL Activity Map]. Se não estiver definido, não há tentativa de interromper o rastreamento do link pelo [!DNL Activity Map]. </p> </td> 
+   <td colname="col3"> <p>Uma sequência de caracteres que recebe uma lista de sequências de caracteres separadas por vírgula para pesquisa no texto da região. Caso encontrado, o link deixará de ser rastreado pelo Activity Map. Caso não esteja definido, nenhuma tentativa foi feita para interromper o rastreamento do link no Activity Map.  </p> </td> 
   </tr> 
  </tbody> 
 </table>
