@@ -7,7 +7,7 @@ title: Relatório de links
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 O Relatório de links informa sobre os links que foram encontrados na página atual. Ele não informa sobre todos os links que foram coletados para essa página.
 
-O Relatório de links na página oferece uma exibição tabular dos links. Às vezes, você pode querer ver os cliques em links (ou outras métricas) classificados em uma única exibição. Isso permite comparar melhor um link com outro. Crie o Relatório de links na página, incluindo uma lista de classificação de todos os links (pela ID do link), as informações de cliques (número e porcentagem) e a região da página. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+O Relatório de links na página oferece uma exibição tabular dos links. Às vezes, você pode querer ver os cliques em links (ou outras métricas) classificados em uma única exibição. Isso permite comparar melhor um link com outro. Crie o Relatório de links na página, incluindo uma lista de classificação de todos os links (pela ID do link), as informações de cliques (número e porcentagem) e a região da página. Clique no Relatório de links na página, na barra de ferramentas do Activity Map.
 
-No painel , o **[!UICONTROL Relatório de links na página]é aberto abaixo da estrutura do navegador.**[!DNL Activity Map]
+No painel Activity Map, o **[!UICONTROL Relatório de links na página]é aberto abaixo da estrutura do navegador.**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ No modo Padrão, o “Relatório de links na página” mostra os dados do link,
 
 **Filtragem de dados**
 
-Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados].** Apenas os links que correspondem à pesquisa terão sobreposições. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados].** Apenas os links que correspondem à pesquisa terão sobreposições. Sem um filtro, as sobreposições especificadas nas [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) serão exibidas.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
