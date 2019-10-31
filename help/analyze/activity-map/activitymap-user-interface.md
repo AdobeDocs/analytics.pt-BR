@@ -1,20 +1,20 @@
 ---
-description: 'A interface do usuário do [!DNL Activity Map] é composta de duas partes '
-seo-description: 'A interface do usuário do [!DNL Activity Map] é composta de duas partes '
-seo-title: Interface do usuário do [!DNL Activity Map]
+description: 'A interface do usuário do Activity Map é composta de duas partes '
+seo-description: 'A interface do usuário do Activity Map é composta de duas partes '
+seo-title: Interface do usuário do Activity Map
 solution: Analytics
-title: Interface do usuário do [!DNL Activity Map]
+title: Interface do usuário do Activity Map
 topic: Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# [!DNL Activity Map] interface do usuário
+# Interface do usuário do Activity Map
 
-The [!DNL Activity Map] UI is comprised of two parts:
+A interface do usuário do Activity Map é composta de duas partes:
 
 * A janela superior com a página da Web e as sobreposições e barra de ferramentas inseridas.
 * Um painel na parte inferior para os relatórios.
