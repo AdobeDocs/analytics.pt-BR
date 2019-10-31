@@ -1,22 +1,22 @@
 ---
-description: O Painel de Configuração do [!DNL Activity Map] permite modificar as configurações e propriedades de todos os tipos de visualizações de sobreposição.
-seo-description: O Painel de Configuração do [!DNL Activity Map] permite modificar as configurações e propriedades de todos os tipos de visualizações de sobreposição.
-seo-title: Definir configurações do [!DNL Activity Map]
+description: O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
+seo-description: O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
+seo-title: Definir configurações do Activity Map
 solution: Analytics
-title: Definir configurações do [!DNL Activity Map]
+title: Definir configurações do Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# Definir configurações do Activity Map
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+Acesse o painel Configurações do Activity Map, clicando no ícone de engrenagem na barra de ferramentas do Activity Map.
 
 O painel Configurações exibe um conteúdo diferente com base no modo de aplicativo selecionado. A guia Outro contém as configurações gerais.
 
@@ -97,7 +97,7 @@ O painel Configurações exibe um conteúdo diferente com base no modo de aplica
  <tbody> 
   <tr> 
    <td colname="col1"> Conjunto de relatórios </td> 
-   <td colname="col2"> <p>A lista de conjuntos de relatórios que você pode acessar não é mais limitada aos conjuntos de relatórios definidos na tag de página da web. Agora você pode substituir o conjunto de relatórios selecionado (correspondente a uma das tags na página) por outro conjunto de relatórios. Não é necessário que o novo conjunto de relatórios corresponda a uma tag na página. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Importante: os Conjuntos de relatórios virtuais não são compatíveis com o modo Online, somente com o modo Padrão. Se você estiver no modo Online para um Conjunto de relatórios padrão, mas selecionar um Conjunto de relatórios virtuais nessa caixa de diálogo, após clicar em <span class="uicontrol">OK</span>, o modo Padrão será exibido. </p> </p> <p>Além disso, o controle Calendário será reinicializado para corresponder ao tipo de calendário do conjunto de relatórios (gregoriano, varejo, personalizado, etc.). </p> </td> 
+   <td colname="col2"> <p>A lista de conjuntos de relatórios que você pode acessar não é mais limitada aos conjuntos de relatórios definidos na tag de página da web. Agora você pode substituir o conjunto de relatórios selecionado (correspondente a uma das tags na página) por outro conjunto de relatórios. Não é necessário que o novo conjunto de relatórios corresponda a uma tag na página. Se você alterar o conjunto de relatórios selecionado nas Configurações do Activity Map, o processo para <span class="uicontrol">Salvar</span> fará com que todos os relatórios do Analytics afetados sejam atualizados. </p> <p> <p>Importante: os Conjuntos de relatórios virtuais não são compatíveis com o modo Online, somente com o modo Padrão. Se você estiver no modo Online para um Conjunto de relatórios padrão, mas selecionar um Conjunto de relatórios virtuais nessa caixa de diálogo, após clicar em <span class="uicontrol">OK</span>, o modo Padrão será exibido. </p> </p> <p>Além disso, o controle Calendário será reinicializado para corresponder ao tipo de calendário do conjunto de relatórios (gregoriano, varejo, personalizado, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Idioma </td> 
