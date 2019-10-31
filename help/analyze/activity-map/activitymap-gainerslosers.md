@@ -7,7 +7,7 @@ title: Sobreposições personalizáveis
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 As sobreposições fornecem várias formas de configurar a visualização de dados, para que seja possível ver e compreender com facilidade a popularidade dos links em uma página.
 
-As sobreposições permitem visualizar os dados de cliques diretamente na página. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+As sobreposições permitem visualizar os dados de cliques diretamente na página. Isso é o que separa uma ferramenta de análise visual, como o Activity Map, das principais ferramentas gráficas e tabulares, como os Reports &amp; Analytics.
 
-[!DNL Activity Map] oferece três tipos de sobreposições:
+O Activity Map oferece três tipos de sobreposições:
 
 * Sobreposição de gradiente (mapa de dados)
 * Sobreposição em bolha
@@ -46,7 +46,7 @@ Essas métricas são sobrepostas sobre os links da página como um tipo de "mapa
 
 A sobreposição em bolha mostra o conteúdo da sobreposição (métrica, porcentagem, ou classificação) em um pequeno texto explicativo no formato de bolha.
 
-Sobreposições de bolha são mostradas quando você seleciona essa sobreposição no Tipo de sobreposição na barra de ferramentas. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). As sobreposições de gradiente serão exibidas se essa opção não estiver selecionada.
+Sobreposições de bolha são mostradas quando você seleciona essa sobreposição no Tipo de sobreposição na barra de ferramentas. As sobreposições em bolha são exibidas para todos os links que correspondem à seleção em [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 melhores, 50 melhores, todos...). As sobreposições de gradiente serão exibidas se essa opção não estiver selecionada.
 
 ![](assets/bubble_overlay.png)
 
