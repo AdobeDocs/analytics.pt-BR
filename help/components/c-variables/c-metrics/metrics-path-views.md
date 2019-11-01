@@ -7,7 +7,7 @@ title: Exibições de caminho
 topic: Métricas
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ O termo [!UICONTROL Exibição de caminho] é usado para indicar o número de ve
 | Conversão | N/A |
 | Ad Hoc Analysis | Não é a duração de visita completa. Geralmente é uma coleção de caminhos, cada qual com 3 ou 4 páginas. Exibe a frequência das visitas no caminho específico. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Relatórios de caminhos](/help/components/c-variables/dimensionslist/reports-paths.md)
 
