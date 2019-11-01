@@ -7,7 +7,7 @@ title: Ocorrências
 topic: Métricas
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ Duas métricas que parecem ser semelhantes estão listadas:
 | Instâncias mais altas do que Ocorrências | Isso não é possível em relatórios, pois todas as instâncias também são registradas como ocorrências. |
 | Instâncias iguais a Ocorrências | Isso é o mais comum para variáveis de tráfego, que por natureza não persistem além da solicitação de imagem. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Instâncias](/help/components/c-variables/c-metrics/metrics-instance.md)
 
