@@ -7,7 +7,7 @@ title: Adicionar grupo de usuários do Data Warehouse
 topic: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -37,7 +37,7 @@ Etapas que descrevem como os administradores podem ativar o acesso aos relatóri
    >
    >Em caso de permissões conflitantes (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Grupos](/help/admin/user-management2/c-user-groups/groups.md)
 
