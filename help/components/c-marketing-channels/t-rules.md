@@ -8,7 +8,7 @@ title: Criar regras de processamento de Canal de marketing
 topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ Este procedimento utiliza uma regra de email como exemplo. O exemplo assume que 
 1. Para criar prioridades de regras, arraste-as e solte-as na posição desejada.
 1. Clique em **[!UICONTROL Salvar.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md)
 
