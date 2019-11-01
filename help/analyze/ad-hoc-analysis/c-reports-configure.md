@@ -5,7 +5,7 @@ seo-title: Configurar relatórios existentes
 title: Configurar relatórios existentes
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ Determinados relatórios lhe permitem analisar os dados da tabela para poder ver
    >
    >Para obter mais flexibilidade, use o Criador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabela para configurar um relatório com detalhamentos. Após abrir um relatório salvo ou programado com análises, será necessário clicar em **[!UICONTROL Substituir tabelas]para atualizar a análise do relatório de dados dinâmico.** Por exemplo, pode ser necessário atualizar um relatório contendo análises dos itens de linha que podem mudar com base no intervalo de datas ou na atividade do visitante.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Criador de tabela](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Essa opção estará desativada se a opção [!UICONTROL Ajustar à tela] estiver ativada. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Criador de tabela](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
