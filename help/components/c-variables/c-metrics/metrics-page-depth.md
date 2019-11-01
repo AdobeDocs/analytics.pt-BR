@@ -1,13 +1,13 @@
 ---
 description: O número médio de cliques necessários para os usuários chegarem a uma página específica do site.
 seo-description: O número médio de cliques necessários para os usuários chegarem a uma página específica do site.
-seo-title: Profundidade da Página
+seo-title: Profundidade da página
 solution: Analytics
 title: Profundidade da página
 topic: Métricas
-uuid: 28 ca 3652-049 e -46 a 8-a 2 a 1-fe 440 d 0 e 38 a 8
+uuid: 28ca3652-049e-46a8-a2a1-fe440d0e38a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 O número médio de cliques necessários para os usuários chegarem a uma página específica do site.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Relatório de Profundidade da página](/help/components/c-variables/dimensionslist/reports-page-depth.md)
 
