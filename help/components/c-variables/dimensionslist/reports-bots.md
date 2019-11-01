@@ -7,7 +7,7 @@ title: Bots
 topic: Relatórios
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,7 +18,7 @@ Exibe quais spiders e bots visitaram site durante um período específico. Tráf
 
 Os bots são filtrados com base no agente ou endereço IP do usuário. Fornecemos a opção de usar a Lista internacional de Spiders e bots da IAB/ABCe para filtrar o tráfego de bots.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Regras de bot](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
