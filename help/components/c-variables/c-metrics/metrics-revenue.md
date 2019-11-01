@@ -5,9 +5,9 @@ seo-title: Receita
 solution: Analytics
 title: Receita
 topic: Métricas
-uuid: d 0 c 2 c 012-42 a 7-4 ff 2-8224-6486 ab 956 d 98
+uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -22,7 +22,7 @@ A receita é capturada no evento de compra e é definida como valor total da moe
 | Conversão | A receita é capturada no evento da [!UICONTROL purchase] e é definida como valor total da moeda para a soma do pedido e de cada produto. |
 | Ad Hoc Analysis | A receita é capturada no evento da [!UICONTROL purchase] e é definida como valor total da moeda para a soma do pedido e de cada produto. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Participação do visitante - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md)
 >* [Participação](/help/components/c-variables/c-metrics/metrics-participation.md)
