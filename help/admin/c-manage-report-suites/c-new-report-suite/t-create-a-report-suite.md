@@ -7,7 +7,7 @@ title: Criar um novo conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: fada5b10-f574-4c3f-8704-679c992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ Etapas que descrevem como criar um conjunto de relatórios e copiar as configura
 1. Preencha os campos descritos em [Novo conjunto de relatórios.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Clique em **[!UICONTROL Criar conjunto de relatórios]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Criação de conjuntos de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
