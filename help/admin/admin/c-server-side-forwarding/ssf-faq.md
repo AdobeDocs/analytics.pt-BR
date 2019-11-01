@@ -5,7 +5,7 @@ seo-title: Perguntas frequentes sobre o encaminhamento pelo lado do servidor
 title: Perguntas frequentes sobre o encaminhamento pelo lado do servidor
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ Perguntas frequentes sobre recursos, funcionalidades e problemas relacionados ao
 | P: E se tivermos duas Organizações da Experience Cloud (ou instâncias do AAM) e desejarmos compartilhar dados entre as Organizações da Experience Cloud? É possível encaminhar pelo lado do servidor uma única ocorrência do Analytics para várias organizações da Experience Cloud? | Não. Se você precisar compartilhar dados coletados em uma organização da Experience Cloud para outra organização da Experience Cloud, recomendamos enviar qualquer público aplicável de uma instância do Audience Manager para outra usando o mercado de público-alvo. |
 | P: O encaminhamento pelo lado do servidor resultará em cobrança adicional no Audience Manager ou no Analytics? | No Analytics, nenhuma cobrança adicional ocorrerá. No Audience Manager, as ocorrências encaminhadas são tratadas como qualquer outra ocorrência e são cobradas.  É por isso que é importante não ter o DIL e encaminhamento pelo lado do servidor habilitados ao mesmo tempo, o que pode causar cobrança duplicada, bem como duplicação de dados. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
