@@ -7,7 +7,7 @@ title: Executar tipos de relatórios diferentes
 topic: Relatórios, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -86,7 +86,7 @@ Dê uma olhada no novo painel [Análise de fallout](https://marketing.adobe.com/
 
    ![Resultado da etapa](assets/fallout_report.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Descrição do relatório de fallout](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
