@@ -4,7 +4,7 @@ seo-description: Fazer logon nos conectores de dados; importe dados de rastreame
 seo-title: Conectores de dados do Analytics
 title: Introdução aos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Para implementar segmentos de recomercialização com sucesso, é preciso atende
    * Compras: `purchase` event
    * Product Views: `prodView` event
 
-**** Observação: Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
+> [!NOTE] Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
 Caso as exigências acima não sejam atendidas, os segmentos de recomercialização correspondentes não serão apresentados corretamente.
 
 [!UICONTROL Abandono do carrinho]: lançado quando o usuário adiciona um produto ao carrinho:
