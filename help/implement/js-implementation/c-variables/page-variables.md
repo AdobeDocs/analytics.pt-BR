@@ -9,7 +9,7 @@ title: Variáveis de página
 topic: Desenvolvedor e implementação
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
 
 ---
 
@@ -2055,13 +2055,11 @@ A lista a seguir contém exemplos de marcas de data e hora válidas no formato I
 **Armadilhas, dúvidas e dicas** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * As marcas de data e hora são usadas principalmente para rastrear os dados offline em plataformas móveis. As marcas de data e hora personalizadas geralmente ficam desativadas, a menos que você colete dados da Web e do aplicativo offline no mesmo conjunto de relatórios.
-* Os dados recebem carimbo de data e hora quando os dados offline são ativados no SDK móvel (configuração padrão) ou sempre que um conjunto de relatórios é configurado para aceitar os dados com carimbo de data e hora. Os dados coletados offline em dispositivos móveis podem ser enviados horas ou semanas após a data na qual ocorreram. Essas ocorrências podem ser consultadas na plataforma do Analytics para minutos ou horas superiores às ocorrências, sem carimbos de data e hora:
+* Os dados têm carimbo de data e hora quando os dados offline são ativados no SDK móvel (configuração padrão) ou sempre que um conjunto de relatórios é configurado para aceitar dados com carimbo de data e hora. Os dados coletados offline podem ser enviados horas ou semanas após a data em que o evento ocorreu originalmente. Essas ocorrências podem ser consultadas na plataforma do Analytics para minutos ou horas superiores às ocorrências, sem carimbos de data e hora:
 
-   * Para dados com carimbos de data e hora enviados próximos do horário atual, o atraso provável é de 10 a 15 minutos.
+   * Para dados com carimbos de data e hora enviados muito próximos à hora atual, o atraso provável é de 10 a 15 minutos.
    * Para dados com carimbo de data e hora enviados ontem, o atraso provável é de aproximadamente 2 horas.
-   * Para dados com carimbo de data e hora anteriores a ontem, cada dia adiciona aproximadamente 1 hora de atraso, a até 15 dias, quando o atraso para de aumentar.
-
-* Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias.
+   * Para dados com carimbos de data e hora enviados mais antigos que ontem, cada dia adiciona cerca de 2 horas de atraso, até um máximo de 48 horas.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 
