@@ -5,7 +5,7 @@ seo-title: Antes de ativar esta integração
 title: Antes de ativar esta integração
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ Isso garantirá que as práticas recomendadas ou pré-requisitos apropriados est
 Examine as seguintes informações sobre a integração dos Conectores de dados, conforme ela se relaciona ao Adobe Analytics:
 
 * **** Conjunto de relatórios específico: Observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração.
-* **** Variáveis disponíveis e configuradas do Analytics: Essa integração exige 5 eventos personalizados e 2 eVars personalizadas, além de 3 eventos adicionais e 3 eVars adicionais. Consulte Variáveis [de integração do](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)Analytics.
+* **** Variáveis disponíveis e configuradas do Analytics: Essa integração exige 5 eventos personalizados e 2 eVars personalizadas, além de 3 eventos adicionais e 3 eVars adicionais. Consulte Variáveis [de integração do](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)Analytics.
 
 * **** Representante autorizado: Esteja ciente de que a habilitação dessa integração pode fazer com que sua empresa incorra taxas de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da sua empresa; e, como tal, sua empresa concorda em pagar as taxas, se houver, estabelecidas no contrato de serviço descrito acima.
 * **** Data Warehouse™: Essa integração exige que o Data Warehouse seja habilitado para gerar segmentos de recomercialização. Se você não tiver ativado o Data Warehouse, entre em contato com a Adobe para obter detalhes.
