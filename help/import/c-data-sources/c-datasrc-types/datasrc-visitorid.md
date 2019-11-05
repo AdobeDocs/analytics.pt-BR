@@ -1,23 +1,23 @@
 ---
 description: As IDs de visitante podem ser integradas selecionando a categoria Genérica (ID de transação).
 seo-description: As IDs de visitante podem ser integradas selecionando a categoria Genérica (ID de transação).
-seo-title: Visitor ID
+seo-title: ID de visitante
 solution: Analytics
 subtopic: Fontes de dados
-title: Visitor ID
+title: ID de visitante
 topic: Desenvolvedor e implementação
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Visitor ID
+# ID de visitante
 
 As IDs de visitante podem ser integradas selecionando a categoria Genérica (ID de transação).
 
-Consulte [Integrar dados](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6)offline.
+Consulte [Integrar dados](/help/import/c-data-sources/datasrc-integrating-offline-data.md)offline.
 
 <p class="head"> <b>Dimensões da ID do visitante</b> </p>
 
