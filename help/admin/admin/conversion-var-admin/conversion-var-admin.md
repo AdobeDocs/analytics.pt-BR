@@ -8,7 +8,7 @@ title: Variáveis de conversão (eVar)
 topic: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ Descrições de campos usados ao [editar variáveis](/help/admin/admin/conversio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b></b> Sintaxe</span>de produtos: Associa o valor da eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b></b> Sintaxe</span>da variável de conversão: Associa a eVar a um produto somente se ocorrer um Evento de vinculação. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">Variáveis de merchandising</a>. </p> </td> 
+   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b></b> Sintaxe</span>de produtos: Associa o valor da eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b></b> Sintaxe</span>da variável de conversão: Associa a eVar a um produto somente se ocorrer um Evento de vinculação. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">Variáveis de merchandising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento compulsório de merchandising</span> </p> <p>(somente eVar) </p> </td> 
