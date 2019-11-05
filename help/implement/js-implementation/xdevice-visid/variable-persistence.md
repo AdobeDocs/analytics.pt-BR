@@ -8,7 +8,7 @@ title: Atribuição e persistência
 topic: Desenvolvedor e implementação
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Quando os perfis do visitante forem combinados depois de serem associados com a 
 * Se existir, o perfil do visitante que já está no sistema é usado a partir desse ponto, e o perfil do visitante anterior não é mais usado.
 * Se nenhuma ID do visitante similar for encontrada, um novo perfil será criado.
 
-Quando um visitante não-autenticado acessar seu site pela primeira vez, o Adobe Analytics atribuirá e a ele um perfil de visitante. Conforme exibido em [Visitante exclusivo e Contagem de visitas](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), um novo perfil é criado durante a autenticação. Quando o novo perfil é criado, uma visita é encerrada e uma nova é iniciada.
+Quando um visitante não-autenticado acessar seu site pela primeira vez, o Adobe Analytics atribuirá e a ele um perfil de visitante. Conforme exibido em [Visitante exclusivo e Contagem de visitas](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), um novo perfil é criado durante a autenticação. Quando o novo perfil é criado, uma visita é encerrada e uma nova é iniciada.
 
 **Durante a primeira conexão de dados**
 
@@ -58,7 +58,7 @@ Quando o cliente autentica a sua ID e ela corresponde ao perfil já "autenticado
 
 * Os dados de segmentação geográfica são registrados com base na primeira ocorrência da visita e não são alterados para uma visita única, independentemente do dispositivo usado. Isso significa que os dados de segmentação geográfica não costumam ser incluídos na conexão subsequente de dados em um novo dispositivo.
 * Colunas de tecnologia como navegador, sistema operacional e intensidade de cor são gravadas na primeira ocorrência de uma visita. Assim como os valores de segmentação geográfica, eles não serão copiados para o perfil costurado.
-* Um Canal de marketing como Direto ou Interno, que geralmente é configurado de modo a não sobrescrever outro canal, fará exatamente isso em uma conexão subsequente de dados que possui uma autenticação para o dispositivo (tal como a autenticação exibida em [Visitante exclusivo e Contagem de visitas](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)).
+* Um Canal de marketing como Direto ou Interno, que geralmente é configurado de modo a não sobrescrever outro canal, fará exatamente isso em uma conexão subsequente de dados que possui uma autenticação para o dispositivo (tal como a autenticação exibida em [Visitante exclusivo e Contagem de visitas](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)).
 
 **Casos especiais**
 
