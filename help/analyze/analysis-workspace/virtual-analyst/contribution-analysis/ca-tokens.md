@@ -5,7 +5,7 @@ seo-title: Visão geral da análise de contribuição
 title: Visão geral da análise de contribuição
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -70,7 +70,7 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como restringir o acesso à Análise de contribuição?</b> </p> </td> 
-   <td colname="col2"> <p>Por padrão, somente os administradores têm acesso para executar Análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Você deve conceder permissão para usar a Análise de contribuição somente para usuários que tenham uma razão legítima para usá-la e que confiem em que não abusem de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e encontra-se em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
+   <td colname="col2"> <p>Por padrão, somente os administradores têm acesso para executar Análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a>. Você deve conceder permissão para usar a Análise de contribuição somente para usuários que tenham uma razão legítima para usá-la e que confiem em que não abusem de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e encontra-se em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como posso saber a quantos tokens minha empresa tem direito por mês e quantos já usamos no mês atual?</b> </p> </td> 
@@ -103,17 +103,17 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3" colsep="1"> <p>Sem tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external">Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>Apenas granularidade diária </p> </td> 
    <td colname="col3"> <p>Sem tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external">Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>10 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>20 tokens por mês </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3"> <p>2 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Completo, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external">Inteligência preditiva</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Completo, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >Inteligência preditiva</a>) </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 
