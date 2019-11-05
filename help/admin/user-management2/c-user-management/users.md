@@ -8,7 +8,7 @@ title: Visão geral do gerenciamento de usuários
 topic: Ferramentas administrativas
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ Criar um painel padrão para um conjunto de relatórios especificado.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Usuário</span> </td> 
-   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
