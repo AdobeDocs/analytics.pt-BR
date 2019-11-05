@@ -7,7 +7,7 @@ title: Considerações de data personalizada
 topic: Construtor de relatórios
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ o dia da semana corrente começando no domingo, 23 de novembro, menos sete dias 
 
 o dia da semana corrente começando no domingo, 23 de novembro, menos um dia = sábado, 22 de novembro
 
-Na Europa e em alguns outros países, a semana começa na segunda-feira, e não no domingo. Nesse caso, você pode personalizar o calendário para alterar a data inicial. (Consulte [Calendário personalizado](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+Na Europa e em alguns outros países, a semana começa na segunda-feira, e não no domingo. Nesse caso, você pode personalizar o calendário para alterar a data inicial. (Consulte [Calendário personalizado](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
