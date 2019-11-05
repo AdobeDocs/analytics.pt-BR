@@ -5,7 +5,7 @@ seo-title: Configurações Desfazer e Refazer
 title: Configurações Desfazer e Refazer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * É possível desfazer/refazer uma alteração no conjunto de relatórios.
 * Uma mensagem de desfazer/refazer próxima ao nome do projeto indica quando uma ação de desfazer ou refazer estiver em andamento.
-* Você pode usar essas [teclas de atalho](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Você pode usar essas [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * CTRL(CMD)+Z para Desfazer
    * CTRL(CMD)+SHIFT+Z para Refazer
