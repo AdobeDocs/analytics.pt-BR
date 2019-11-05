@@ -8,7 +8,7 @@ title: Conjuntos de regras de classificação
 topic: Ferramentas administrativas
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Você aplica uma variável ao conjunto de regras. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios.
 
-## Conjuntos de regras de classificação {#concept_CD3D510F5070486584F3BB535AE41524}
+## Conjuntos de regras de classificação
 
 Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Você aplica uma variável ao conjunto de regras. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios.
 
@@ -36,7 +36,7 @@ Os campos e opções a seguir encontram-se disponíveis no [!UICONTROL Construto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Adicionar conjunto de regras</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Adicionar conjunto de regras</a> </p> </td> 
    <td colname="col2"> <p>Cria um conjunto de regras. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Os campos e opções a seguir encontram-se disponíveis no [!UICONTROL Construto
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## Create a Classification Rule Set {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ Atribua um nome ao conjunto de regras de classificação, aplique a variável e 
 
    A lista de conjunto de relatórios e variáveis é preenchida com todas as variáveis classificadas disponíveis em todos os conjuntos de relatórios em sua empresa de logon. Uma única variável em um conjunto de relatórios pode pertencer a somente um conjunto de regras.
 
-   Consulte *`Variable`* nas definições da página [Construtor de regras de classificação](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) para obter mais informações.
+   Consulte *`Variable`* nas definições da página [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-definitions.md) para obter mais informações.
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the rule set.
+1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
