@@ -5,7 +5,7 @@ seo-title: Visão geral dos painéis
 title: Visão geral dos painéis
 uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ Um painel é uma coleção de tabelas e visualizações. Você pode acessar pain
 
 O Painel em branco e o Painel de forma livre são para análises iniciais, e Attribution IQ e Comparação de segmentos servem para análises mais avançadas. Além disso, adicionamos um botão de painel “+”, para que você possa adicionar painéis em branco a qualquer momento.
 
-O painel inicial padrão é o Painel de forma livre, mas também é possível definir o [Painel em branco](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2) como o padrão.
+O painel inicial padrão é o Painel de forma livre, mas também é possível definir o [Painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) como o padrão.
 
 ## Filtros suspensos em painéis {#section_D2828EEDD52944528E87F470EAB581CF}
 
