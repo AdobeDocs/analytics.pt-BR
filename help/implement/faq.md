@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre a implementação do Analytics
 topic: Desenvolvedor e implementação
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -25,39 +25,39 @@ Perguntas frequentes sobre a implantação e links para mais informações.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Como gerencio usuários e grupos do Analytics? </p> </td> 
-   <td colname="col3"> <p>Para obter informações sobre como gerenciar usuários e grupos, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">Gerenciamento de usuários e produtos</a> na ajuda da Adobe Experience Cloud. </p> </td> 
+   <td colname="col3"> <p>Para obter informações sobre como gerenciar usuários e grupos, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html">Gerenciamento de usuários e produtos</a> na ajuda da Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Expiração da eVar - Por que as eVars estão sendo atribuídas a "Nenhum" nos relatórios? </p> </td> 
-   <td colname="col3"> <p> <span class="uicontrol"> Expira após</span> especifica um intervalo de tempo, ou evento, relacionado à expiração do valor de eVar (não recebe mais crédito para eventos de sucesso). Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). Se você selecionar um evento como valor de expiração, a variável expirará somente se o evento ocorrer. Se o evento não ocorrer, a variável nunca expirará. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p> <span class="uicontrol"> Expira após</span> especifica um intervalo de tempo, ou evento, relacionado à expiração do valor de eVar (não recebe mais crédito para eventos de sucesso). Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). Se você selecionar um evento como valor de expiração, a variável expirará somente se o evento ocorrer. Se o evento não ocorrer, a variável nunca expirará. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visibilidade de evento personalizado - Por que os Eventos personalizados não aparecem no menu de relatórios? </p> </td> 
-   <td colname="col3"> <p>Na coluna Visibilidade, você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos. Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. <a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Na coluna Visibilidade, você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos. Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. <a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Carimbos de data e hora - O que é preciso ser considerado antes de alterar as configurações de carimbo de data e hora? </p> </td> 
-   <td colname="col3"> <p>Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados com e sem informações de data e hora, sem perda de dados. Dados offline com carimbos de data e hora gerados em um dispositivo móvel podem ser combinados com dados ativos de uma página da Web que não tenha essas informações ou integrados com dados de qualquer plataforma usando uma chamada de carimbo de data e hora do lado do cliente. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados com e sem informações de data e hora, sem perda de dados. Dados offline com carimbos de data e hora gerados em um dispositivo móvel podem ser combinados com dados ativos de uma página da Web que não tenha essas informações ou integrados com dados de qualquer plataforma usando uma chamada de carimbo de data e hora do lado do cliente. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>ID do visitante - Como o período de carência da ID do visitante funciona e como ele é ativado? </p> </td> 
-   <td colname="col3"> <p>Caso tenha vários arquivos JavaScript que enviam dados para o mesmo conjunto de relatórios, ou se estiver usando outras tecnologias no seu site, como a medição de vídeo Flash, recomendamos configurar um período de carência. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Caso tenha vários arquivos JavaScript que enviam dados para o mesmo conjunto de relatórios, ou se estiver usando outras tecnologias no seu site, como a medição de vídeo Flash, recomendamos configurar um período de carência. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>ID de visitante - Qual é a diferença entre a ID de visitante da Experience Cloud e a ID de visitante do Analytics? </p> </td> 
-   <td colname="col3"> <p>O serviço de identidade atribui um identificador contínuo e exclusivo para todos os visitantes do site. Com essa ID, os visitantes e seus dados podem ser compartilhados entre outras soluções na Experience Cloud. Além disso, essa ID pode substituir ou trabalhar com IDs específicas à solução, como a ID de visitante do Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>O serviço de identidade atribui um identificador contínuo e exclusivo para todos os visitantes do site. Com essa ID, os visitantes e seus dados podem ser compartilhados entre outras soluções na Experience Cloud. Além disso, essa ID pode substituir ou trabalhar com IDs específicas à solução, como a ID de visitante do Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>ID de visitante - Como a ID do visitante é definida quando os cookies estiverem bloqueados? </p> </td> 
-   <td colname="col3"> <p>Se o cookie padrão s_vi estiver indisponível, um cookie de fallback é criado no domínio do sie com uma ID exclusiva gerada aleatoriamente. Esse cookie, chamado s_fid, é definido com uma validade de 2 anos e é usado como o método de identificação de fallback adiante. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Se o cookie padrão s_vi estiver indisponível, um cookie de fallback é criado no domínio do sie com uma ID exclusiva gerada aleatoriamente. Esse cookie, chamado s_fid, é definido com uma validade de 2 anos e é usado como o método de identificação de fallback adiante. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dynamic Tag Management - por que minha regra de DTM não é acionada? </p> </td> 
-   <td colname="col3"> <p>Se a sua regra baseada em eventos não é ativada, provavelmente há um problema com o seletor ou condição da regra. Localize o elemento em seu site em que a ação do evento desejado ocorre, clique com o botão direito do mouse e selecione Inspecionar elemento. Inspecione o script realçado na caixa que é aberta e verifique se você está direcionando o elemento correto. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Se a sua regra baseada em eventos não é ativada, provavelmente há um problema com o seletor ou condição da regra. Localize o elemento em seu site em que a ação do evento desejado ocorre, clique com o botão direito do mouse e selecione Inspecionar elemento. Inspecione o script realçado na caixa que é aberta e verifique se você está direcionando o elemento correto. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Como implementar o rastreamento de Video Heartbeat? </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="https" scope="external"> Esta seção</a> contém instruções de download dos SDKs do Video Heartbeat e guias do desenvolvedor para a sua plataforma. Ao baixar o SDK, baixe também o guia do desenvolvedor localizado na página de documentos, pois ele contém instruções de implementação específicas para o Vídeo Heartbeat. </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/"> Esta seção</a> contém instruções de download dos SDKs do Video Heartbeat e guias do desenvolvedor para a sua plataforma. Ao baixar o SDK, baixe também o guia do desenvolvedor localizado na página de documentos, pois ele contém instruções de implementação específicas para o Vídeo Heartbeat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Como adicionar cookies ao subdomínio certo? </p> </td> 
@@ -65,11 +65,11 @@ Perguntas frequentes sobre a implantação e links para mais informações.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Servidor de rastreamento - Como preencher corretamente o servidor de rastreamento? </p> </td> 
-   <td colname="col3"> <p>Ao configurar uma implementação para enviar dados aos servidores do Adobe Analytics, é preciso enviá-los ao local correto. Se isso não for feito, haverá uma inflação na contagem de visitantes ou perda de dados. <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> [Mais...] </a> </p> </td> 
+   <td colname="col3"> <p>Ao configurar uma implementação para enviar dados aos servidores do Adobe Analytics, é preciso enviá-los ao local correto. Se isso não for feito, haverá uma inflação na contagem de visitantes ou perda de dados. <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html"> [Mais...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Desempenho: uma falha no carregamento do Adobe JavaScript externo devido a conexão com a Internet, proxy, firewall ou interrupção de serviço na Adobe pode prejudicar o desempenho? </p> </td> 
-   <td colname="col3"> <p>Não. O arquivo JavaScript não fica hospedado nos servidores da Adobe, para que uma interrupção da Adobe não prejudique a execução. Em caso de uso do Dynamic Tag Management, o arquivo JavaScript é hospedado pela Akamai ou em um local de servidor determinado pelos clientes. </p> <p>Consulte <i>O Dynamic Tag Management reduzirá o desempenho do meu site?</i> nas <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external">Perguntas frequentes sobre o Dynamic Tag Management </a>. </p> <p>Além disso, se não quiser depender do CDN da Akamai, é possível hospedar seu próprio arquivo principal de Dynamic Tag Management. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html" format="https" scope="external">Opções de codificação e hospedagem embutidas </a>. </p> </td> 
+   <td colname="col3"> <p>Não. O arquivo JavaScript não fica hospedado nos servidores da Adobe, para que uma interrupção da Adobe não prejudique a execução. Em caso de uso do Dynamic Tag Management, o arquivo JavaScript é hospedado pela Akamai ou em um local de servidor determinado pelos clientes. </p> <p>Consulte <i>O Dynamic Tag Management reduzirá o desempenho do meu site?</i> nas <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html">Perguntas frequentes sobre o Dynamic Tag Management </a>. </p> <p>Além disso, se não quiser depender do CDN da Akamai, é possível hospedar seu próprio arquivo principal de Dynamic Tag Management. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html">Opções de codificação e hospedagem embutidas </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Desempenho: o carregamento de um Adobe JavaScript externo pode gerar uma redução no desempenho? </p> </td> 
@@ -85,55 +85,55 @@ Perguntas frequentes sobre a implantação e links para mais informações.
   </tr> 
   <tr> 
    <td colname="col2"> Como faço para alterar os dados coletados, com base nas condições que eu definir? </td> 
-   <td colname="col3"> Use as regras de processamento para simplificar a coleta de dados e o gerenciamento do conteúdo conforme é enviado para os relatórios. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> [Mais...] </a> </td> 
+   <td colname="col3"> Use as regras de processamento para simplificar a coleta de dados e o gerenciamento do conteúdo conforme é enviado para os relatórios. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Qual é a versão mais recente do arquivo s_code? </td> 
-   <td> Esta seção contém um histórico das versões das bibliotecas do [!DNL AppMeasurement] nas plataformas da Web e dispositivos móveis. A versão mais recente de cada biblioteca pode ser baixada em Reports &amp; Analytics &gt; Ferramentas administrativas &gt; Gerenciador de código. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> Esta seção contém um histórico das versões das bibliotecas do [!DNL AppMeasurement] nas plataformas da Web e dispositivos móveis. A versão mais recente de cada biblioteca pode ser baixada em Reports &amp; Analytics &gt; Ferramentas administrativas &gt; Gerenciador de código. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como depurar o arquivo s_code? </td> 
-   <td> O Adobe Debugger (anteriormente chamado DigitalPulse Debugger) é uma ferramenta gratuita oferecida pela Adobe, que permite a visualização dos dados coletados em seu site em qualquer página específica. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> O Adobe Debugger (anteriormente chamado DigitalPulse Debugger) é uma ferramenta gratuita oferecida pela Adobe, que permite a visualização dos dados coletados em seu site em qualquer página específica. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como rastrear diferentes tipos de links? </td> 
-   <td> É possível rastrear automaticamente os downloads de arquivo e links de saída com base nos parâmetros definidos no arquivo AppMeasurement para JavaScript. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> É possível rastrear automaticamente os downloads de arquivo e links de saída com base nos parâmetros definidos no arquivo AppMeasurement para JavaScript. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como rastrear vídeos? </td> 
-   <td> O JavaScript pode ser utilizado para rastrear vários reprodutores. Para rastrear com o JavaScript, basta adicionar o código à página da Web que contém o reprodutor o rastreá-lo utilizando manipuladores de evento. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> O JavaScript pode ser utilizado para rastrear vários reprodutores. Para rastrear com o JavaScript, basta adicionar o código à página da Web que contém o reprodutor o rastreá-lo utilizando manipuladores de evento. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como rastrear um aplicativo para dispositivos móveis? </td> 
-   <td> É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da Apple App Store depois de clicar em um link gerado, o SDK coleta e envia automaticamente os dados de aquisição para o Adobe Mobile Services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html" format="http" scope="external"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html" format="http" scope="external">Android </a> </td> 
+   <td> É possível gerar links de aquisição com códigos de rastreamento exclusivos no Adobe Mobile Services. Quando um usuário baixa e executa um aplicativo da Apple App Store depois de clicar em um link gerado, o SDK coleta e envia automaticamente os dados de aquisição para o Adobe Mobile Services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html">Android </a> </td> 
   </tr> 
   <tr> 
    <td> Como implementar o rastreamento de vídeo? </td> 
-   <td> É possível rastrear reprodutores de mídia ao criar funções vinculadas aos manipuladores de evento do reprodutor de vídeo. Isso permite chamar Media.open, Media.play, Media.stop e Media.close no momento certo. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> É possível rastrear reprodutores de mídia ao criar funções vinculadas aos manipuladores de evento do reprodutor de vídeo. Isso permite chamar Media.open, Media.play, Media.stop e Media.close no momento certo. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como configurar o cookie primário? </td> 
-   <td> O Analytics usa cookies para fornecer informações sobre variáveis e componentes que não persistem entre as solicitações de imagem e as sessões do navegador. Esses cookies inofensivos são originários de um domínio hospedado pela Adobe, conhecidos como cookies de terceiros. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> O Analytics usa cookies para fornecer informações sobre variáveis e componentes que não persistem entre as solicitações de imagem e as sessões do navegador. Esses cookies inofensivos são originários de um domínio hospedado pela Adobe, conhecidos como cookies de terceiros. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Como posso obter um certificado SSL? </td> 
-   <td> Determine se seu site usa o protocolo https://. Se o fizer, é necessário solicitar um CSR e comprar um certificado SSL. Observação: não é necessário um certificado SSL se você não tem páginas ou conteúdos seguros. Esta etapa pode ser ignorada se você só usar somente o protocolo https:// no site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> Determine se seu site usa o protocolo https://. Se o fizer, é necessário solicitar um CSR e comprar um certificado SSL. Observação: não é necessário um certificado SSL se você não tem páginas ou conteúdos seguros. Esta etapa pode ser ignorada se você só usar somente o protocolo https:// no site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Onde encontro informações sobre o aviso de expiração da certificação? </td> 
-   <td> Os certificados SSL expiram anualmente, o que significa que a Adobe exige uma solicitação de certificado atualizada sempre que isso acontece. O especialista FPC fornece os avisos necessários quando isso ocorre, no entanto, recomenda-se ser proativo no monitoramento da validade e no fornecimento à Adobe deste certificado atualizado. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> Os certificados SSL expiram anualmente, o que significa que a Adobe exige uma solicitação de certificado atualizada sempre que isso acontece. O especialista FPC fornece os avisos necessários quando isso ocorre, no entanto, recomenda-se ser proativo no monitoramento da validade e no fornecimento à Adobe deste certificado atualizado. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> O que são plug-ins? </td> 
-   <td> Os plug-ins do AppMeasurement para JavaScript são programas ou funções que executam várias funções avançadas. Esses plug-ins estendem a capacidade de seu arquivo JavaScript para fornecer a você mais funcionalidade do que a disponível com a implementação básica. A Adobe oferece diversos outros plug-ins como parte das soluções avançadas. Entre em contato com seu gerente de conta se você quiser capturar dados usando o JavaScript, mas se não tiver certeza sobre como proceder. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> Os plug-ins do AppMeasurement para JavaScript são programas ou funções que executam várias funções avançadas. Esses plug-ins estendem a capacidade de seu arquivo JavaScript para fornecer a você mais funcionalidade do que a disponível com a implementação básica. A Adobe oferece diversos outros plug-ins como parte das soluções avançadas. Entre em contato com seu gerente de conta se você quiser capturar dados usando o JavaScript, mas se não tiver certeza sobre como proceder. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> Informações sobre a API de inserção dos dados? </td> 
-   <td> A Adobe criou várias maneiras de enviar dados para o Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html" format="http" scope="external"> [Mais...] </a> </td> 
+   <td> A Adobe criou várias maneiras de enviar dados para o Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html"> [Mais...] </a> </td> 
   </tr> 
   <tr> 
    <td> O que é um erro 500? </td> 
-   <td> Informações sobre o erro do servidor interno que causou um status "Erro de consulta 500". <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external">Consulte a variável pageType</a> </td> 
+   <td> Informações sobre o erro do servidor interno que causou um status "Erro de consulta 500". <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html">Consulte a variável pageType</a> </td> 
   </tr> 
  </tbody> 
 </table>
