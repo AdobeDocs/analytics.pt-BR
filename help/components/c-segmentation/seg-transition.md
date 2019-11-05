@@ -8,7 +8,7 @@ title: Perguntas frequentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1ea5219d89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,12 +25,12 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
    * Use [segmentos como dimensões](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) em uma comparação.
    * Use segmentos na [análise de fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
-* É possível [aplicar vários segmentos a um relatório ou projeto](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F).
+* É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Os segmentos são universais para todos os conjuntos de relatórios.
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* O [Gerenciador de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F) permite que você configure [fluxos de trabalho](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* O [Gerenciador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) permite que você configure [fluxos de trabalho](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
 
-* Você pode [adicionar tags a segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) para organizar e pesquisar depois, em vez de usar pastas. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* Você pode [adicionar tags a segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
 * Você pode criar [Segmentos sequenciais](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) fora da Ad Hoc Analysis.
 * O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
@@ -63,7 +63,7 @@ Para acessar o Gerenciador de segmentos:
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone Segmentos ![](assets/segment_icon.png)
+O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone Segmentos ![](assets/segment_icon.png)
 
 no painel de navegação esquerdo e no painel de segmentos.
 
@@ -79,7 +79,7 @@ O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de 
 
 Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
-Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](../../components/c-segmentation/seg-reference/seg-rights.md)
+Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **É possível exibir todos os segmentos na empresa?**
 
@@ -97,7 +97,7 @@ O Construtor de relatórios e a Análise ad hoc exibem somente os segmentos cria
 
 **Por que não posso excluir esse segmento?**
 
-Se o segmento foi [publicado na Experience Cloud](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01), você não pode excluí-lo ou editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
+Se o segmento foi [publicado na Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), você não pode excluí-lo ou editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
 
 ## Práticas recomendadas {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -113,13 +113,13 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Analise todos os seus segmentos.
 * Quando apropriado, adicione-os à biblioteca de segmentos.
 * Aprovar segmentos canônicos.
-* Marcar segmentos de acordo com as  [práticas recomendadas](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50).
+* Marcar segmentos de acordo com as  [práticas recomendadas](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Gerenciamento de segmentos herdados {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **O que aconteceu com os meus segmentos existentes?**
 
-Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](../../components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)
+Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/c-segmentation/seg-transition.md)
 
 A maioria dos segmentos pré-definidos e de conjunto serão migrados como  modelos de segmento no Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
 
@@ -205,9 +205,9 @@ As seguintes dicas ajudarão você a migrar dimensões comuns:
 * Navegadores - use a dimensão Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
 * Sistemas operacionais - use as dimensões Tipos de SO para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
 
-* [Dimensões novas e renomeadas](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Alterações em Contém](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Alterações em menor que e maior que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Dimensões novas e renomeadas](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
+* [Alterações em Contém](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Alterações em menor que e maior que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensões novas e renomeadas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
