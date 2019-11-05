@@ -7,7 +7,7 @@ title: Habilitar o Activity Map
 topic: Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,7 +24,7 @@ Os dados do Activity Map não podem ser coletados, a menos que você atualize pa
 
 1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   Incluímos alguns [códigos de implementação de exemplo](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) para ajudar a visualizar as alterações feitas no código, incluindo o módulo Activity Map.
+   Incluímos alguns [códigos de implementação de exemplo](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para ajudar a visualizar as alterações feitas no código, incluindo o módulo Activity Map.
 
 1. Valide a implementação:
 
@@ -56,6 +56,6 @@ Primeiro, você precisa ativar os Relatórios do Activity Map a um nível de con
 
 1. [Adicione usuários a esse grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e **[!UICONTROL Salve o grupo]**.
 
-1. This allow your Admin users to download Activity Map from  **Adobe Analytics** &gt; **[!UICONTROL Tools]** &gt; **ActivityMap** .
+1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 > [!NOTE] Se você quiser que usuários não administradores baixem o Activity Map, crie um novo grupo de usuários que forneça permissão para "Ferramentas" e "Instalação herdada do ClickMap". Este nível de permissão combinado com o Acesso ao Activity Map fornece permissões para baixar e usar a ferramenta.
