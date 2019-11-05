@@ -8,7 +8,7 @@ title: Fluxo de trabalho do criador de regras de classificação
 topic: Ferramentas administrativas
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,14 +36,16 @@ Estas são as etapas de alto nível que você segue para implementar regras de c
 | Etapa | Local de execução | Descrição |
 |--- |--- |--- |
 | Step 1 (Prerequisite): [Set up your classification schema](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html). | [!UICONTROL Admin] &gt; Conjuntos [!UICONTROL de] relatórios &gt; [!UICONTROL Editar configurações] &gt; &lt;Classificações de tráfego ou Classificações de conversão&gt; | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
-| Step 2: [Create a rule set](../../../components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Administração] &gt; [!UICONTROL Construtor de regras de classificação] &gt; [!UICONTROL Adicionar conjunto de regras] | Um conjunto de regras é um grupo de regras de classificação para uma variável específica. |
+| Step 2: [Create a rule set](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Administração] &gt; [!UICONTROL Construtor de regras de classificação] &gt; [!UICONTROL Adicionar conjunto de regras] | Um conjunto de regras é um grupo de regras de classificação para uma variável específica. |
 | Etapa 3: Configure conjuntos de relatórios e variáveis. | [!UICONTROL Construtor] de regras de classificação &gt; &lt;seu conjunto de regras&gt; | Aplique o conjunto de regras a conjuntos de relatórios e variáveis. |
-| Step 4: [Add classification rules to the set](../../../components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Construtor] de regras de classificação &gt; &lt;seu conjunto de regras&gt; | Corresponda uma condição a uma classificação e especificar a ação que aplicará à regra.  Familiarize-se com as informações em [Como as regras são processadas](../../../components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Step 5: [Test a Classification Rule Set](../../../components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Você desejará testar a validação das regras editando-as no modo de Rascunho. No modo de Rascunho, não é possível executar regras.<br>Essa etapa é importante ao usar expressões [](../../../components/c-classifications2/crb/classification-quickstart-rules.md)regulares. |
-| Etapa 6: [Ativar regras](../../../components/c-classifications2/crb/classification-rule-definitions.md)válidas. | [!DNL Rules Page] | Depois que as regras estiverem válidas, ative o conjunto de regras.  É possível substituir teclas existentes, se necessário. Consulte [Como as regras são processadas](../../../components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Excluir regras indesejadas de um conjunto.<br>Observação: a exclusão de regras não exclui dados classificados e carregados.  See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
+| Step 4: [Add classification rules to the set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Construtor] de regras de classificação &gt; &lt;seu conjunto de regras&gt; | Corresponda uma condição a uma classificação e especificar a ação que aplicará à regra.  Familiarize-se com as informações em [Como as regras são processadas](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Step 5: [Test a Classification Rule Set](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Você desejará testar a validação das regras editando-as no modo de Rascunho. No modo de Rascunho, não é possível executar regras.<br>Essa etapa é importante ao usar expressões [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)regulares. |
+| Etapa 6: [Ativar regras](/help/components/c-classifications2/crb/classification-rule-definitions.md)válidas. | [!DNL Rules Page] | Depois que as regras estiverem válidas, ative o conjunto de regras.  É possível substituir teclas existentes, se necessário. Consulte [Como as regras são processadas](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Step 7 (Optional): [Delete unwanted rules](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Excluir regras indesejadas de um conjunto.<br>Observação: a exclusão de regras não exclui dados classificados e carregados.  See  [Delete classification data](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
 
-> [!NOTE] Grupos com permissões para usar a ferramenta de importação de classificação podem usar regras de classificação. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>[!NOTE]
+>
+> Grupos com permissões para usar a ferramenta de importação de classificação podem usar regras de classificação. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Recursos adicionais**
 
