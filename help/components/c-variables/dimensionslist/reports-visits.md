@@ -7,7 +7,7 @@ title: Visitas
 topic: Relatórios
 uuid: ff65bdf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,12 +24,12 @@ Exibe o número de visitas realizadas em todo o site durante um período especif
 * O início de uma visita é a primeira solicitação de imagem vinda de um novo visitante, ou depois que uma visita de usuário existente expirar. Isso pode ser identificado como uma Página de Entrada.
 * O final de uma visita é a última solicitação de imagem antes de uma visita expirar. Isso pode ser identificado como uma Página de Saída.
 
-   Consulte [Relatórios de Entradas e Saídas](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+   Consulte [Relatórios de Entradas e Saídas](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
 * Este relatório não contém itens de linha. A visualização só é possível no formato de tendência.
 * A granularidade de hora, dia, semana, mês, trimestre e ano pode ser aplicada. Essas configurações de granularidade estão disponíveis dependendo do intervalo de datas informado.
 
-Consulte [Acesse Métrica](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E) para obter mais informações sobre como a Experience Cloud processa essa métrica.
+Consulte [Acesse Métrica](/help/components/c-variables/c-metrics/metrics-visit.md) para obter mais informações sobre como a Experience Cloud processa essa métrica.
 
 **Informações de Relatório Específico do Produto**
 
