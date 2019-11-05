@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fontes de dados
 title: ID da transação
 topic: Desenvolvedor e implementação
-uuid: f 3370 bb 7-3 f 28-460 b-a 20 d-c 9 e 58 d 7301 d 4
+uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: e9cb3575780db9eb5c9a766ef20d596e504a20d0
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e9cb3575780db9eb5c9a766ef20d596e504a20d0
 
 As IDs de transação podem ser integradas selecionando a categoria Genérica (ID de transação).
 
-Consulte [Integração de dados offline](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+Consulte [Integração de dados](/help/import/c-data-sources/datasrc-integrating-offline-data.md)offline.
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
@@ -30,7 +30,7 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | Código de Acompanhamento | Nome do código de acompanhamento. |
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
 | Canal | Nome do canal. |
-| eVarN | Nome do evarn. Valores válidos para N são números inteiros 1 - 250. |
+| eVarN | Nome da eVarN. Valores válidos para N são números inteiros 1 - 250. |
 | Produto | Nome do produto. |
 | Estado | Nome do estado. |
 | Zip | Nome do CEP. |
@@ -47,8 +47,8 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | Remoções do Carrinho | Total de remoções do carrinho. |
 | Exibições do carrinho | Total de exibições do carrinho. |
 | Finalizações | Total de finalizações. |
-| Eventn | Número de vezes que eventn ocorreu. Valores válidos para N são inteiros entre 1 - 1000. Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
-| Exibições do evarn | Número de vezes que o evarn foi visualizado. Valores válidos para N são números inteiros 1 - 250. |
+| EventN | Número de vezes que eventN ocorreu. Valores válidos para N são inteiros entre 1 - 1000.  Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
+| Exibições de eVarN | Número de vezes que a eVarN foi visualizada. Valores válidos para N são números inteiros 1 - 250. |
 | Preço | Preço do produto. |
 | Pedidos | Total de pedidos feitos. |
 | Exibições do produto | Total de exibições do produto. |
