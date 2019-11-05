@@ -8,7 +8,7 @@ title: Identificar dispositivos móveis
 topic: Desenvolvedor e implementação
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 A maioria dos dispositivos móveis aceita os cookies do navegador. Porém, em casos nos quais os dispositivos não aceitam cookies, um outro método é usado para identificar os dispositivos sem fio.
 
-A Adobe identificou diversos cabeçalhos HTTP de [assinantes de ID](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) que identificam exclusivamente a maioria dos dispositivos móveis. Esses cabeçalhos com frequência incluem o número do telefone (ou uma versão com hash do número) ou outros identificadores. A maioria dos dispositivos tem um ou mais cabeçalhos que identificam exclusivamente o dispositivo, e todos os centros de dados da Adobe usam esses cabeçalhos no lugar de uma ID do visitante.
+A Adobe identificou diversos cabeçalhos HTTP de [assinantes de ID](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) que identificam exclusivamente a maioria dos dispositivos móveis. Esses cabeçalhos com frequência incluem o número do telefone (ou uma versão com hash do número) ou outros identificadores. A maioria dos dispositivos tem um ou mais cabeçalhos que identificam exclusivamente o dispositivo, e todos os centros de dados da Adobe usam esses cabeçalhos no lugar de uma ID do visitante.
 
 Em uma solicitação de imagem típica, um "1" no caminho (`/b/ss/rsid/1`) faz com que os servidores da Adobe retornem uma imagem gif e tentem definir um cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` ou `s_vi`). Porém, caso o dispositivo seja reconhecido como móvel com base nos cabeçalhos HTTP, um "5" será aprovado em lugar do "1" - o que indica que um formato de imagem wbmp deverá ser devolvido e que a lista de cabeçalhos sem fio reconhecidos (ou seja, que não são cookies) deverá ser usado para identificar o dispositivo.
 
@@ -88,4 +88,4 @@ A lista de cabeçalhos a seguir é usada para identificar dispositivos sem fio. 
 
 Por exemplo, "callinglineid" corresponderia a "X-Up-Calling-Line-ID" e "nokia-callinglineid". O tipo de cabeçalho informa o que esperar do cabeçalho. A ordem de prioridade do cabeçalho é listada aqui (se um cabeçalho "callinglineid" estiver presente, ele é usado no lugar de "subno").
 
-Você pode utilizar [Variáveis dinâmicas](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) para extrair valores específicos de um cabeçalho.
+Você pode utilizar [Variáveis dinâmicas](/help/implement/js-implementation/c-variables/dynvars-overview.md) para extrair valores específicos de um cabeçalho.
