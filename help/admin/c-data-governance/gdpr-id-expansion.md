@@ -5,7 +5,7 @@ seo-title: Expansão de ID
 title: Expansão de ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ Consulte o [Exemplo de solicitação de JSON](/help/admin/c-data-governance/gdpr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expansão de ID de cookies </p> </td> 
-   <td colname="col2"> <p>Originalmente, muitos clientes do Analytics usavam o <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">Cookie do Analytics</a> (herdado), mas agora usam o <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Serviço de identidade (ECID) </a>, conhecido anteriormente como Serviço da Marketing Cloud ID (MCID). Somente a ECID existe para os visitantes do site que acessaram pela primeira vez após a transição. No entanto, para aqueles que visitaram anteriormente quando somente o Cookie herdado estava disponível, mas não retornaram: alguns dados terão ambos os cookies, mas os dados mais antigos terão apenas o Cookie do Analytics e, em casos raros, os dados mais recentes terão somente uma ECID. </p> <p>Certifique-se de encontrar todos os dados referentes a um visitante identificado por meio de um Cookie (ID do visitante) do Analytics ou uma ECID. Portanto, se você usa a ECID e anteriormente usava o Cookie do Analytics, quando enviar uma solicitação usando qualquer um dos dois tipos de ID, deverá incluir ambas as IDs na solicitação ou especificar a opção expandIDs. Quando você especifica expandIDs, a Adobe verificará outras ECIDs ou Cookies do Analytics que correspondem a qualquer ID de cookie que você fornecer. A solicitação será expandida automaticamente para incluir essas IDs de cookie recentemente identificadas. </p> </td> 
+   <td colname="col2"> <p>Originalmente, muitos clientes do Analytics usavam o <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html">Cookie do Analytics</a> (herdado), mas agora usam o <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> Serviço de identidade (ECID) </a>, conhecido anteriormente como Serviço da Marketing Cloud ID (MCID). Somente a ECID existe para os visitantes do site que acessaram pela primeira vez após a transição. No entanto, para aqueles que visitaram anteriormente quando somente o Cookie herdado estava disponível, mas não retornaram: alguns dados terão ambos os cookies, mas os dados mais antigos terão apenas o Cookie do Analytics e, em casos raros, os dados mais recentes terão somente uma ECID. </p> <p>Certifique-se de encontrar todos os dados referentes a um visitante identificado por meio de um Cookie (ID do visitante) do Analytics ou uma ECID. Portanto, se você usa a ECID e anteriormente usava o Cookie do Analytics, quando enviar uma solicitação usando qualquer um dos dois tipos de ID, deverá incluir ambas as IDs na solicitação ou especificar a opção expandIDs. Quando você especifica expandIDs, a Adobe verificará outras ECIDs ou Cookies do Analytics que correspondem a qualquer ID de cookie que você fornecer. A solicitação será expandida automaticamente para incluir essas IDs de cookie recentemente identificadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID personalizada para expansão de ID de cookies </p> </td> 
@@ -43,7 +43,7 @@ Depois que a Privacidade de dados entrou em vigor, durante os primeiros meses, a
 
 Para uma solicitação de exclusão, onde a expansão de ID não é usada, se você usar uma ID que não é de cookie (qualquer ID diferente da ECID ou do cookie do Analytics) para identificar ocorrências que devem ser excluídas e essa ID tiver um rótulo ID-DEVICE, a contagem de visitantes únicos em relatórios será alterada, porque somente algumas instâncias das IDs de cookie serão anonimizadas, enquanto outras permanecerão sem alterações. Se você não estiver especificando a expansão de ID, recomenda-se usar uma ID de cookie para solicitações ou IDs com um rótulo ID-PERSON.
 
-Quando a Adobe executa a expansão de ID, pode exigir uma análise de dados completa, que aumentará o tempo que a Adobe leva para concluir a solicitação. Esse tempo de processamento adicional pode chegar a até uma semana. 
+Quando a Adobe executa a expansão de ID, pode exigir uma análise de dados completa, que aumentará o tempo que a Adobe leva para concluir a solicitação. Esse tempo de processamento adicional pode chegar a até uma semana.
 
 ## Outros sinalizadores de solicitação de Privacidade de dados
 
