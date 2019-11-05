@@ -8,7 +8,7 @@ title: Adicionar o código do cabeçalho e do rodapé
 topic: Desenvolvedor e implementação
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ O Dynamic Tag Management cria códigos de incorporação para teste e produção
 
    >[!NOTE]
    >
-   >O código de incorporação da produção reflete somente os itens publicados nessa [propriedade](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). No entanto, o código de incorporação para preparo reflete todos os itens na propriedade associada, independentemente do estado publicado ou não. Para testar itens não publicados no site de produção, habilite localmente o preparo no console seguindo as instruções em [Testar regras não publicadas para a hospedagem do Akamai](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >O código de incorporação da produção reflete somente os itens publicados nessa [propriedade](/help/implement/c-implement-with-dtm/t-create-web-property.md). No entanto, o código de incorporação para preparo reflete todos os itens na propriedade associada, independentemente do estado publicado ou não. Para testar itens não publicados no site de produção, habilite localmente o preparo no console seguindo as instruções em [Testar regras não publicadas para a hospedagem do Akamai](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
 
 1. Copie o código do rodapé de produção e coloque-o na seção [!DNL BODY] do HTML do site.
 
