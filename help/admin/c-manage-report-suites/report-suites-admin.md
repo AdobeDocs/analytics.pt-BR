@@ -7,7 +7,7 @@ title: Gerenciador do Conjunto de relatórios
 topic: Ferramentas administrativas
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Conjuntos de relatórios de rollup</a>. </p> </td> 
+   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Conjuntos de relatórios de rollup</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configurações</span> </td> 
@@ -62,7 +62,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Criar novo</span> </td> 
-   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Novo Conjunto de relatórios</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Novo Conjunto de relatórios</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personalizar colunas</span> </td> 
@@ -70,15 +70,15 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ID do conjunto de relatórios</span> </td> 
-   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Novo Conjunto de relatórios</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Novo Conjunto de relatórios</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Título do Site</span> </td> 
-   <td colname="col2"> <p>Identifica os conjuntos de relatórios nas Ferramentas administrativas e a lista suspensa do conjunto de relatórios no cabeçalho do relatório de marketing. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Novo Conjunto de relatórios</a>. </p> </td> 
+   <td colname="col2"> <p>Identifica os conjuntos de relatórios nas Ferramentas administrativas e a lista suspensa do conjunto de relatórios no cabeçalho do relatório de marketing. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Novo Conjunto de relatórios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL básica</span> </td> 
-   <td colname="col2"> <p>Define o domínio básico do conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Novo Conjunto de relatórios</a>. </p> </td> 
+   <td colname="col2"> <p>Define o domínio básico do conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Novo Conjunto de relatórios</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
