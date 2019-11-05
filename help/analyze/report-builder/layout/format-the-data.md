@@ -5,9 +5,9 @@ seo-title: Formatar a data
 solution: Analytics
 title: Formatar a data
 topic: Construtor de relatórios
-uuid: 5211 db 30-07 b 3-4413-97 c 3-e 40 e 6 ff 223 cd
+uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Além das opções padrão de formatação de células disponíveis através do recurso Formatar &gt; Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com o Construtor de relatórios. Essas opções de formatação dependem da métrica selecionada.
 
-After you [add dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) to the Row Labels grid, click **[!UICONTROL Format]**.
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
 No menu **[!UICONTROL Formatar]**, clique em **Formato personalizado]para aplicar formatos personalizados a datas, semelhantes ao recurso de anexar como prefixo ou sufixo.[!UICONTROL ** Por exemplo, você pode inserir texto que sempre ocorre após a data (como D.C., A.C., A.H. etc.). Você pode adicionar texto antes da data, como [!UICONTROL Data de início] e [!UICONTROL Data de início e fim]. Além disso, você pode construir uma expressão de data personalizada a partir de abreviações de dia, mês e ano e usar um separador personalizado entre as partes da data. Todos os formatos de data devem consistir em somente três abreviações entre colchetes.
 
