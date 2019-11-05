@@ -5,7 +5,7 @@ seo-title: Criar uma métrica simples de "Exibições de página por visita"
 title: Criar uma métrica simples de "Exibições de página por visita"
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Mostra como criar uma métrica simples de "Exibições de página por visita".
 
-Para obter uma descrição detalhada dos componentes da interface do usuário, consulte [Criação de métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+Para obter uma descrição detalhada dos componentes da interface do usuário, consulte [Criação de métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Veja como criar uma métrica simples de "Exibições de página por visita".
 
@@ -31,5 +31,5 @@ Veja como criar uma métrica simples de "Exibições de página por visita".
 1. A compatibilidade do produto mostra se a métrica é compatível com os [Dados atuais](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) ou somente com os Dados totalmente processados.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Observe que a fórmula **[!UICONTROL Resumo]é atualizada sempre que você faz uma alteração na definição da métrica.**
-1. Agora você é levado automaticamente para o Gerenciador [de métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calculadas, que é semelhante ao Gerenciador de segmentos. Permite compartilhar, aprovar, adicionar ou remover tags, renomear e excluir métricas.
+1. Agora você é levado automaticamente para o Gerenciador [de métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calculadas, que é semelhante ao Gerenciador de segmentos. Permite compartilhar, aprovar, adicionar ou remover tags, renomear e excluir métricas.
 
