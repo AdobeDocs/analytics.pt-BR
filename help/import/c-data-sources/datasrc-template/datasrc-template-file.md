@@ -8,7 +8,7 @@ title: Visão geral do Modelo das Fontes de dados
 topic: Desenvolvedor e implementação
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,17 +21,17 @@ O arquivo modelo gerado por esse Assistente foi desenvolvido para você começar
 
 É possível exibir as métricas e dimensões de cada tipo nas seguintes seções:
 
-* [Log da Web](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)
-* [Tráfego](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC) (não há mais suporte)
-* [Conversão](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)
-* [ID da transação](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)
-* [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
-* [Processamento completo](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)
+* [Log da Web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)
+* [Tráfego](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) (não há mais suporte)
+* [Conversão](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
+* [ID da transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
+* [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+* [Processamento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5).
+For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
 
 Após sua criação, é possível baixar o modelo, inserir seus dados nele, e então carregar os dados no local FTP das Fontes de Dados. Depois de serem processados pelo servidor das Fontes de dados, os dados importados são disponibilizados para uso nos relatórios de marketing.
 
 The Data Source template is a [!DNL .txt] file that you can open with any text editor. No entanto, é mais fácil trabalhar com o modelo no Microsoft Excel ou em outro aplicativo de planilha eletrônica. O conteúdo do modelo varia com base em suas seleções no [!UICONTROL Assistente de ativação da fonte de dados].
 
-Consulte [Referência do arquivo de importação](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) para obter mais detalhes.
+Consulte [Referência do arquivo de importação](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obter mais detalhes.
