@@ -8,7 +8,7 @@ title: Analysis Workspace casos de uso
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ Suponha que você é um analista de marketing de um revendedor de equipamentos p
 
    Você já dividiu os dados de uma forma que possa resultar em recomendações e vendas cruzadas, para que as suas equipes de merchandising implementem em outras campanhas e alcancem ainda mais receita para sua empresa. Você pode fazer outros detalhamentos até que consiga obter os resultados que deseja.
 
-   Agora é possível [Compartilhe](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) o relatório com as equipes de merchandising.
+   Agora é possível [Compartilhe](/help/analyze/analysis-workspace/curate-share/curate.md) o relatório com as equipes de merchandising.
 
