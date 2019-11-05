@@ -9,7 +9,7 @@ title: Util.getQueryParam
 topic: Desenvolvedor e implementação
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Retorna o valor de um parâmetros da string de consulta especificada, se for enc
 
 Como os dados importantes (tais como códigos de rastreamento de campanha, palavras-chave de pesquisa interna etc.) estão disponíveis na sequência de caracteres de consulta em uma página, O getQueryParam ajuda a capturar os dados nas variáveis do Analytics.
 
-Esse utilitário substitui [o plug-in getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF).
+Esse utilitário substitui [o plug-in getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md).
 
 **Sintaxe:**
 
