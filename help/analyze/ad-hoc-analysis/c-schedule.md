@@ -7,7 +7,7 @@ title: Gerenciador de programação
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ Você pode personalizar o agendamento da entrega de relatórios. É possível in
 
 > [!NOTE] quando uma conta de usuário é desativada, qualquer entrega agendada de relatório que tenha sido criada por esse usuário é suspensa.
 
-Para garantir que os itens de linha em um detalhamento sejam persistentes em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no Criador [de](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tabela para criar listas de dimensão fixas em detalhamentos.
+Para garantir que os itens de linha em um detalhamento sejam persistentes em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no Criador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabela para criar listas de dimensão fixas em detalhamentos.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Suas informações podem ser enviadas para o formato escolhido do modo que são 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avançado </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destino do arquivo </p> </td> 
