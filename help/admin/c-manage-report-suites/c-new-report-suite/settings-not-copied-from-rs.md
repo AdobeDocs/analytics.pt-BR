@@ -5,9 +5,9 @@ seo-title: Configurações não copiadas do conjunto de relatórios de origem
 solution: Analytics
 title: Configurações não copiadas do conjunto de relatórios de origem
 topic: Ferramentas administrativas
-uuid: 5176 c 561-a 278-43 e 4-837 f-a 17759985 d 52
+uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -28,7 +28,7 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dados de classificação (a estrutura de classificação é copiada) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external">Documentação do Importador de classificações (Upload)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html">Documentação do Importador de classificações (Upload)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ativação do registro de IDs de transação </p> </td> 
@@ -71,7 +71,7 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gerente do ClickMap de visitante </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Atualizar para o Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Atualizar para o Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras VISTA </p> </td> 
