@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ Consulte também [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/e
 |---|---|---|---|
 | N/A | CDP | Afeta vários relatórios, pois controla como a ID do visitante é armazenada e manipulada. | "2" |
 
-> [!NOTE]Alguns serviços de computação em nuvem são considerados domínios de nível superior, que não permitem a gravação de cookies. (Por exemplo, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` e assim por diante.) Se você implementar esses serviços, poderá ser afetado pela configuração de privacidade do Analytics, que remove os usuários que bloquearam todos os cookies caso você não tenha seu próprio domínio configurado (por exemplo, se estiver testando sua implementação). Nesse caso, qualquer hit em que o sistema determinou que os cookies estão desativados, não funcionais ou inacessíveis é cancelado e, portanto, excluído dos relatórios.
+>[!NOTE]
+>
+>Alguns serviços de computação em nuvem são considerados domínios de nível superior, que não permitem a gravação de cookies. (Por exemplo, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` e assim por diante.) Se você implementar esses serviços, poderá ser afetado pela configuração de privacidade do Analytics, que remove os usuários que bloquearam todos os cookies caso você não tenha seu próprio domínio configurado (por exemplo, se estiver testando sua implementação). Nesse caso, qualquer hit em que o sistema determinou que os cookies estão desativados, não funcionais ou inacessíveis é cancelado e, portanto, excluído dos relatórios.
 
 ## Exemplos
 
