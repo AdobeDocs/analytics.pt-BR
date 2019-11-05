@@ -7,7 +7,7 @@ solution: Experience Cloud, Dynamic Tag Management
 title: Gerenciamento de biblioteca
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ Descrições dos campos e opções nas configurações de Gerenciamento de bibli
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>No DTM</b>: você pode hospedar o <span class="filepath">s_code</span> no Dynamic Tag Management. Clique em <span class="uicontrol">Editar código</span> para cortar e colar o arquivo diretamente no editor. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: se você tiver um bom arquivo <span class="filepath">s_code</span> e estiver satisfeito com o processo de atualização dele, poderá fornecer o URL para o arquivo aqui. O Dynamic Tag Management consume o arquivo <span class="filepath">s_code</span> para sua implementação do <span class="keyword">Adobe Analytics</span>. </li> 
-    </ul> <p> <b>Abrir editor: </b>permite <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> inserir o código principal do AppMeasurement </a>. Este código é preenchido automaticamente ao utilizar o método de configuração automático descrito em <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local">Configurações do Adobe Analytics</a>. </p> <p> <b>Nome da variável do rastreador: </b>se você quiser executar duas instâncias do <span class="keyword">Adobe Analytics</span> em paralelo (uma no Dynamic Tag Management e outra de forma nativa), poderá renomear o objeto <span class="term"> s</span> principal. Renomear o objeto evita colisões. </p> </td> 
+    </ul> <p> <b>Abrir editor: </b>permite <a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  > inserir o código principal do AppMeasurement </a>. Este código é preenchido automaticamente ao utilizar o método de configuração automático descrito em <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  >Configurações do Adobe Analytics</a>. </p> <p> <b>Nome da variável do rastreador: </b>se você quiser executar duas instâncias do <span class="keyword">Adobe Analytics</span> em paralelo (uma no Dynamic Tag Management e outra de forma nativa), poderá renomear o objeto <span class="term"> s</span> principal. Renomear o objeto evita colisões. </p> </td> 
   </tr> 
  </tbody> 
 </table>
