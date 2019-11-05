@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: Desenvolvedor e implementação
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ O plug-in getAndPersistValue obtém um valor de sua escolha e o preenche em uma 
 
 >[!IMPORTANT]
 >
->Este plug-in não foi validado para ser compatível com o [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). [Suporte a Plug-in do AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Este plug-in não foi validado para ser compatível com o [AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md). [Suporte a Plug-in do AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 Por exemplo, você pode usar esse plug-in para definir um código de rastreamento de campanha da variável *`campaign`* em uma variável de Tráfego personalizado (*`s.prop`*) na exibição de página de cada visitante nos próximos 30 dias. Esse exemplo permite determinar a quantidade de exibições de página o código de rastreamento gerou como resultado do click-through original.
 
