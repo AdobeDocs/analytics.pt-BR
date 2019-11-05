@@ -8,7 +8,7 @@ title: Sobre canais e regras
 topic: Reports and Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ Imagine um canal como um recipiente para as visitas. As regras atribuem as visit
 
 ![](assets/buckets_2.png)
 
-A Adobe fornece diversos canais predefinidos durante uma [configuração automática](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) que pode ser editada conforme seus requisitos.
+A Adobe fornece diversos canais predefinidos durante uma [configuração automática](/help/components/c-marketing-channels/c-channel-autosetup.md) que pode ser editada conforme seus requisitos.
 
-> [!NOTE] A Adobe recomenda configurar seu relatório em um conjunto de relatórios que você pode usar como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
+>[!NOTE]
 >
->Consulte [Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+> A Adobe recomenda configurar seu relatório em um conjunto de relatórios que você pode usar como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
+>
+>Consulte [Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/t-template.md).
 
 Leia os seguintes tópicos:
 
-* [Pré-requisitos](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Notas importantes de processamento](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Pré-requisitos](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [Notas importantes de processamento](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## Pré-requisitos {#section_9913D2932E3140C099B7978CA95378B2}
+## Pré-requisitos {#prereqs}
 
 Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda com esses pré-requisitos:
 
@@ -42,11 +44,11 @@ Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda c
 
 * Configure o acesso do grupo de usuários ao **[!UICONTROL Relatório de Canal de marketing]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * O sistema processa as regras na ordem especificada e, quando uma regra é atendida, o sistema para de processar as regras restantes.
 * As regras podem acessar variáveis definidas pelo VISTA, mas não podem acessar dados excluídos pelo VISTA.
