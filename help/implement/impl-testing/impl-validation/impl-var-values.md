@@ -8,7 +8,7 @@ title: Variáveis e valores
 topic: Desenvolvedor e implementação
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ Os nomes de página fazem distinção de letras maiúsculas e minúsculas e as d
 
 > [!NOTE] Não é possível combinar vários registros de página nos relatórios.
 
-Valide os links reportados no relatório [!UICONTROL Links personalizados]. Verifique se os parâmetros corretos foram transmitidos para a função [!UICONTROL tl]. Para obter mais informações sobre [!UICONTROL links personalizados], consulte [Rastreamento de link](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+Valide os links reportados no relatório [!UICONTROL Links personalizados]. Verifique se os parâmetros corretos foram transmitidos para a função [!UICONTROL tl]. Para obter mais informações sobre [!UICONTROL links personalizados], consulte [Rastreamento de link](/help/implement/js-implementation/function-tl.md).
