@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ Data de lançamento: **21 de maio de 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensão para iOS</span> </p> </td> 
-   <td colname="col2"> <p> A partir do <span class="keyword"> iOS</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> iOS</span> permite coletar dados de uso no Apple Watch Apps, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão do <span class="keyword"> iOS</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Implementação da extensão para iOS </a>. </p> </td> 
+   <td colname="col2"> <p> A partir do <span class="keyword"> iOS</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> iOS</span> permite coletar dados de uso no Apple Watch Apps, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão do <span class="keyword"> iOS</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">Implementação da extensão para iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensão portátil para Android</span> </p> </td> 
-   <td colname="col2"> <p> A partir do <span class="keyword"> Android</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> Android</span> permite coletar dados no seu aplicativo <span class="keyword"> Android</span> Wearable. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extensão portátil para Android </a>. </p> </td> 
+   <td colname="col2"> <p> A partir do <span class="keyword"> Android</span> SDK versão 4.5, uma nova extensão do <span class="keyword"> Android</span> permite coletar dados no seu aplicativo <span class="keyword"> Android</span> Wearable. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Extensão portátil para Android </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
