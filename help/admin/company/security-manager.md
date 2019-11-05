@@ -7,7 +7,7 @@ title: Gerenciador de segurança
 topic: Ferramentas administrativas
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
      </code>). Também é possível usar curingas (*) para especificar qualquer número de 0 a 255 (por exemplo, 
      <code>
        192.168.[10-14].*
-     </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Log de uso e acesso</a>. </p> </td> 
+     </code>) </p> <p>Falhas no logon são registradas e visualizadas no <a href="/help/admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232">Log de uso e acesso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de domínio de email</span> </td> 
