@@ -5,7 +5,7 @@ seo-title: Datas e intervalos de datas
 title: Datas e intervalos de datas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **Para acessar as frações de data herdadas**
 
-1. [Criar ou abrir um projeto](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Abra o [calendário](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)e selecione **[!UICONTROL Trimestre]** ou **[!UICONTROL Ano]**.
+1. [Criar ou abrir um projeto](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. Abra o [calendário](/help/analyze/ad-hoc-analysis/c-dates.md)e selecione **[!UICONTROL Trimestre]** ou **[!UICONTROL Ano]**.
 
 > [!NOTE] As fatias de data históricas estão dentro das restrições de trimestre e ano. Não é possível visualizar dados que ultrapassam os limites entre as frações herdadas e a nova plataforma de processamento. As variações de datas podem deixar os dois resultados com erro. Além disso, as variações de data são aplicáveis apenas ao calendário Gregoriano e não ao calendário personalizado.
 
