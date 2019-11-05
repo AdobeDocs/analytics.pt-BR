@@ -8,7 +8,7 @@ title: Criar conjuntos de relatórios virtuais
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
+   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
