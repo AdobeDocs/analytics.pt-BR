@@ -7,7 +7,7 @@ title: Visão geral do Data Warehouse
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ Essa tabela descreve os campos e opções da guia [!UICONTROL Solicitação do D
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Classificação de métricas</span> </td> 
-   <td colname="col2">Oferece relatórios classificados e detalhados, organizados pelo valor de métrica decrescente, similares ao conteúdo exibido na interface do usuário do Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Mais...</a> </td> 
+   <td colname="col2">Oferece relatórios classificados e detalhados, organizados pelo valor de métrica decrescente, similares ao conteúdo exibido na interface do usuário do Reports &amp; Analytics, Data Workbench, etc. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Mais...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Agendar entrega</span> </td> 
