@@ -7,7 +7,7 @@ title: Gerenciador de tarefa agendada
 topic: Construtor de relatórios
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ O Gerenciador de tarefas agendadas permite que você visualize uma lista de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções de publicação </p> </td> 
-   <td colname="col2"> <p>Essa coluna listará o Power BI se ums das <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#concept_0C4105AA10F9460A872C2489C9CD7945" format="dita" scope="local"> opções de publicação do Power BI</a> estiver selecionada. </p> </td> 
+   <td colname="col2"> <p>Essa coluna listará o Power BI se ums das <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > opções de publicação do Power BI</a> estiver selecionada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agendar </p> </td> 
