@@ -1,13 +1,13 @@
 ---
 description: Use a seção Informações do feed para nomear o feed, especificar o conjunto de relatórios com o qual o feed será executado, determinar a recorrência do feed e especificar o início e o fim do feed.
-keywords: Feed de dados; informações; name; conjunto de relatórios; e-mail quando concluído; e-mail; intervalo; feed; atrasar o processamento; delay; start; end; date; feed contínuo
+keywords: Feed de dados;informações;nome;conjunto de relatórios;email quando concluído;email;intervalo;feed;atraso no processamento;atraso;início;fim;data;feed contínuo
 seo-description: Use a seção Informações do feed para nomear o feed, especificar o conjunto de relatórios com o qual o feed será executado, determinar a recorrência do feed e especificar o início e o fim do feed.
 seo-title: Informações do feed
 solution: Analytics
 title: Informações do feed
-uuid: adf 92 f 42-a 957-4 de 0-a 5 a 1-683 f 2933 af 04
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
