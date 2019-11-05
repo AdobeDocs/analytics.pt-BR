@@ -6,7 +6,7 @@ solution: Analytics
 title: Variáveis dos relatórios de privacidade
 topic: Ferramentas administrativas
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,13 +51,13 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
    ![](assets/rsm-privacy-config.png)
 
-1. As variáveis reservadas agora estão disponíveis para relatório. Consulte Particiapação e não participação no gerenciamento de consentimento.
+1. As variáveis reservadas agora estão disponíveis para relatório.  Consulte Particiapação e não participação no gerenciamento de consentimento.
 
    ![](assets/rsm-privacy-reports.png)
 
 ## Implementação
 
-Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de relatórios de privacidade. Cabe a cada engenheiro de implementação determinar como gerenciar e manter a configuração dessas variáveis.
+Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de relatórios de privacidade.  Cabe a cada engenheiro de implementação determinar como gerenciar e manter a configuração dessas variáveis.
 
 Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)para obter uma orientação geral sobre como implementar variáveis de dados de contexto.
 
