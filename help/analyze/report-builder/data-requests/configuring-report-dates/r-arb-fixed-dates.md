@@ -5,9 +5,9 @@ seo-title: Definições do Assistente de solicitações - datas fixas
 solution: Analytics
 title: Definições do Assistente de solicitações - datas fixas
 topic: Construtor de relatórios
-uuid: bd 65 a 312-bab 6-46 d 7-ba 30-570777344 cc 9
+uuid: bd65a312-bab6-46d7-ba30-57077344cc9
 translation-type: tm+mt
-source-git-commit: 0b8fa4df8ea6cc6f9a9c103b6aa5e063b510a380
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
