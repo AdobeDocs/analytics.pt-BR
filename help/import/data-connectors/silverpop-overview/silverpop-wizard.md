@@ -5,7 +5,7 @@ seo-title: Integração do Silverpop
 title: Integração do Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ Para configurar a integração:
   <tr valign="top"> 
    <td colname="col2"> <p>Coleta de dados </p> </td> 
    <td colname="col03"> <p>(3) Configurações de dados </p> </td> 
-   <td colname="col3"> <p>Selecione Plug-in <b>de</b> JavaScript se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração (consulte <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> Código</a>de plug-in do Analytics). </p> <p>Selecione Solução <b></b> automatizada se desejar usar um modelo de coleta automatizada para essa integração e especifique os identificadores exclusivos usados para essa integração. </p> <p>Se você selecionar essa opção, especifique os identificadores exclusivos usados para essa integração: </p> <p> <b>Parâmetro da string de consulta da ID da mensagem:</b>esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email. </p> <p> <b></b> Parâmetro da string de consulta da ID do destinatário: Esse valor representa a ID do destinatário anexada ao URL da página inicial pelo seu parceiro de email. </p> </td> 
+   <td colname="col3"> <p>Selecione Plug-in <b>de</b> JavaScript se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração (consulte <a href="../silverpop-overview/silverpop-analytics-code.md"> Código</a>de plug-in do Analytics). </p> <p>Selecione Solução <b></b> automatizada se desejar usar um modelo de coleta automatizada para essa integração e especifique os identificadores exclusivos usados para essa integração. </p> <p>Se você selecionar essa opção, especifique os identificadores exclusivos usados para essa integração: </p> <p> <b>Parâmetro da string de consulta da ID da mensagem:</b>esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email. </p> <p> <b></b> Parâmetro da string de consulta da ID do destinatário: Esse valor representa a ID do destinatário anexada ao URL da página inicial pelo seu parceiro de email. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Geração de painel e marcador </p> </td> 
