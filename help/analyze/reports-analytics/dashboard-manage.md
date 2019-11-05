@@ -8,7 +8,7 @@ title: Gerenciador do painel
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Ao copiar o painel legado, o sistema abre o painel para edição, onde você pod
 
    O painel copiado será aberto no editor de layout de painel. 
 
-   Consulte [Editar um painel de dados de reportlet](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   Consulte [Editar um painel de dados de reportlet](/help/analyze/reports-analytics/dashboard.md).
 
 ## Compartilhar um painel
 
@@ -107,7 +107,7 @@ No [!UICONTROL Gerenciador de painéis], você pode verificar se um painel está
 1. Abra um painel.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## Arquivar um painel
 
