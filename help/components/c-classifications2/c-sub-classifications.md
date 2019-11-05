@@ -8,7 +8,7 @@ title: Sobre as subclassificações
 topic: Ferramentas administrativas
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ Cada classificação neste modelo é independente e corresponde a um novo sub-re
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Para obter mais informações sobre o arquivo de dados, consulte [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Para obter mais informações sobre o arquivo de dados, consulte [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ As classificações de múltiplos níveis são compostas de classificações pri
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classificações principais:** uma classificação principal é qualquer classificação que tem uma classificação secundária associada. Uma classificação pode ser tanto principal como secundária. As classificações principais de nível superior correspondem às classificações de nível único (Consulte [Classificações de nível único](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**Classificações principais:** uma classificação principal é qualquer classificação que tem uma classificação secundária associada. Uma classificação pode ser tanto principal como secundária. As classificações principais de nível superior correspondem às classificações de nível único (Consulte [Classificações de nível único](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **Classificações secundárias:** uma classificação secundária é qualquer classificação que tem outra classificação como principal em vez da variável. As classificações secundárias fornecem informações adicionais sobre sua classificação principal. Por exemplo, uma classificação [!UICONTROL Campanhas] pode ter uma classificação secundária Proprietário da campanha. Classificações [!UICONTROL numéricas] também funcionam como métricas nos relatórios de classificação.
 
@@ -62,7 +62,7 @@ Cada classificação, tanto principal como secundária, constitui uma coluna de 
 
 `<parent_name>^<child_name>`
 
-Para obter mais informações sobre o formato do arquivo de dados, consulte Arquivos [de Dados de](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)Classificação.
+Para obter mais informações sobre o formato do arquivo de dados, consulte Arquivos [de Dados de](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)Classificação.
 
 Por exemplo:
 
