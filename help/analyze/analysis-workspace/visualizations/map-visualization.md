@@ -5,7 +5,7 @@ seo-title: Mapa
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ A visualização de mapa na Analysis Workspace
       * Um esquema de cores verde/vermelho: Positivo/Negativo
    * **Girar** o mapa em 2D ou 3D ao manter pressionada a tecla [!UICONTROL Ctrl] e mover o mapa.
 
-   * **Alternar** para uma exibição diferente, como mapa de calor, usando as [configurações](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas abaixo. Observe que a exibição de propagação é a configuração padrão.
+   * **Alternar** para uma exibição diferente, como mapa de calor, usando as [configurações](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas abaixo. Observe que a exibição de propagação é a configuração padrão.
 
 
 1. **Salve** o projeto para salvar todas as configurações do mapa (coordenadas, zoom, rotação).
