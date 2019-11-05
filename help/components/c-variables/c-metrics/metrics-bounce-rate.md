@@ -7,7 +7,7 @@ title: 'Taxa de rejeição '
 topic: Métricas
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Mostra a porcentagem de visitas que contém uma única ocorrência.
 
-A taxa de rejeição utiliza o [Rejeita a](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) métrica e é calculada como:
+A taxa de rejeição utiliza o [Rejeita a](/help/components/c-variables/c-metrics/metrics-bounces.md) métrica e é calculada como:
 
 `Bounces divided by Entries`
 
