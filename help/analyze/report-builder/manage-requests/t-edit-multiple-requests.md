@@ -7,7 +7,7 @@ title: Editar várias solicitações
 topic: Construtor de relatórios
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **Por segmento**: agrupa as solicitações de acordo com o nome do segmento.
 
       * **Escolher segmento**: exibido se não houver nenhum segmento para as solicitações. Para adicionar segmentos, clique em **[!UICONTROL Editar grupo]** e selecione um segmento no painel [!UICONTROL Editar grupo].
-   * **Por métrica**: Consulte [Editar métricas em várias solicitações](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+   * **** Por métrica: Consulte [Editar métricas em várias solicitações](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de datas e granularidade:** agrupa a exibição de solicitações por intervalo de datas e granularidade de tempo.
    * **Por grupo:** agrupa a exibição de solicitações por conjunto de solicitações agrupadas.
