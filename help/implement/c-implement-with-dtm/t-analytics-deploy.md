@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Implementação manual do Adobe Analytics (herdado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Crie uma ferramenta Adobe Analytics para implantação usando o [!UICONTROL Dynamic Tag Management]. Este procedimento descreve uma implementação manual (herdada).
 
-Para obter informações sobre o gerenciamento da implementação automática, consulte [Adicionar a ferramenta Adobe Analytics](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+Para obter informações sobre o gerenciamento da implementação automática, consulte [Adicionar a ferramenta Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
 
 Se você deseja alterar uma configuração manual para automática, edite uma ferramenta e clique em **[!UICONTROL Habilitar a configuração automática]**.
 
 1. Baixe o código de medição do Analytics:
    1. No Analytics, clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Gerenciador de código]**.
    1. Clique no **[!UICONTROL JavaScript (novo)]** para baixar o código localmente.
-1. No [!UICONTROL Dynamic Tag Management], [crie uma propriedade da Web](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+1. No [!UICONTROL Dynamic Tag Management], [crie uma propriedade da Web](/help/implement/c-implement-with-dtm/t-create-web-property.md).
 
    ![](assets/dtm-property.png)
 
@@ -53,11 +53,11 @@ Se você deseja alterar uma configuração manual para automática, edite uma fe
 
    No mínimo, clique em **[!UICONTROL Cookies]** e configure o seu servidor de rastreamento e o servidor de rastreamento do SSL.
 
-1. Clique em **[!UICONTROL Geral]** e [insira o código principal do AppMeasurement](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658).
-1. Defina uma [regra de carregamento de página](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) para coletar [!DNL Analytics]dados.
+1. Clique em **[!UICONTROL Geral]** e [insira o código principal do AppMeasurement](/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md).
+1. Defina uma [regra de carregamento de página](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) para coletar [!DNL Analytics]dados.
 
    Agora, você está pronto para definir as regras para coletar os dados do Analytics. Talvez você queira definir alguns elementos de dados primeiro. Os elementos de dados permitem extrair os dados da página que pode ser usada para configurar a regra. Para iniciar, você pode definir uma regra de carregamento de página que não tenha condições de coletar dados do [!DNL Analytics] em cada página.
-1. [Adicione o código do cabeçalho e do rodapé](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5) na guia Incorporado.
+1. [Adicione o código do cabeçalho e do rodapé](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md) na guia Incorporado.
 
    Para o armazenamento temporário, você pode deixar a opção de hospedagem padrão da Amazon. É possível alterá-la se necessário antes do lançamento da produção.
 1. (Opcional) Clique em **[!UICONTROL Configurações]** ![](assets/settings_gear.png) na guia Opções e configure o código do Adobe Analytics.
