@@ -8,7 +8,7 @@ title: Inserção do código do Analytics na marca do cabeçalho
 topic: Desenvolvedor e implementação
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 O código do Analytics cria um objeto de imagem, uma imagem não visível que não é mostrada na sua página.
 
-> [!NOTE] Esta seção se aplica apenas à implementação herdada de s_code.js. O [AppMeasurement para JavaScript. 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) oferece suporte à implantação da biblioteca e do código de página na tag `<head>`.
+>[!NOTE]
+>
+>Esta seção se aplica apenas à implementação herdada de s_code.js. O [AppMeasurement para JavaScript. 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) oferece suporte à implantação da biblioteca e do código de página na tag `<head>`.
 
 Anteriormente, uma prática comum de implementação era colocar o código JavaScript do Analytics entre as <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> e </head> específicos. Colocando o código entre essas tags, impede-se que a imagem de pixel de 1 x 1 retornada pela solicitação que enviou dados nos servidores da Adobe afetem o layout da página. Inserir o código no cabeçalho do documento significa que o código aparece é exibido mais cedo no código. Dessa forma, ele é executado antes, permitindo a você contar exibições de página para cargas parciais de página com mais eficiência.
 
