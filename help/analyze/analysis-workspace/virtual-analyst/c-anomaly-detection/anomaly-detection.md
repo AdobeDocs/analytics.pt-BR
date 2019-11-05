@@ -5,7 +5,7 @@ seo-title: Visão geral da Detecção de anomalias
 title: Visão geral da Detecção de anomalias
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ Você pode exibir e analisar anomalias de dados contextualmente na Analysis Work
 
 [Análise de contribuição no YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] A Detecção de anomalias está disponível somente na Analysis Workspace. Os clientes do Adobe Analytics Select e do Foundation só têm acesso à Detecção de anomalias de "granularidade diária" no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](../contribution-analysis/ca-tokens.md).
+>[!IMPORTANT] A Detecção de anomalias foi removida do conjunto de recursos de Relatórios e análises e agora está disponível somente na Analysis Workspace. Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation têm acesso apenas à Detecção de anomalias de "granularidade diária" no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 A Detecção de anomalias oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
 
