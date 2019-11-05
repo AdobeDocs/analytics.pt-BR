@@ -6,9 +6,9 @@ seo-title: Requisitos de administração
 solution: Analytics
 title: Requisitos de administração
 topic: Reports and Analytics
-uuid: 6 c 8 bfeaa -0 cf 8-435 d-a 4 d 1-67 e 2 cb 55 da 4 c
+uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,7 +37,7 @@ Requisitos de sistema para a Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Usuários </td> 
-   <td colname="col2"> <p>Para ativar o acesso à guia Espaço de trabalho no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso à Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Grupos</a>. </p> </td> 
+   <td colname="col2"> <p>Para ativar o acesso à guia Espaço de trabalho no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso à Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferência de projetos </td> 
