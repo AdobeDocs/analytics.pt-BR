@@ -7,7 +7,7 @@ title: 'Links de saída '
 topic: Relatórios
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ Há vários requisitos que devem ser cumpridos para que a página seja preenchid
 * É possível visualizar esse relatório nos formatos de tendência e de classificação.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
 * É possível criar [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [As Instâncias](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) são as únicas métricas disponíveis por padrão neste relatório, contando o número de vezes em que o link de saída foi acionado.
+* [As Instâncias](/help/components/c-variables/c-metrics/metrics-instance.md) são as únicas métricas disponíveis por padrão neste relatório, contando o número de vezes em que o link de saída foi acionado.
 * Os visitantes diários, semanais, mensais e trimestrais podem ser ativados para esse relatório. Contudo, somente um representante da Adobe pode habilitá-los, mediante um custo adicional. Ativar visitantes exclusivos para quaisquer variáveis de rastreamento de link personalizado aumenta em muito a latência do conjunto de relatórios.
 
