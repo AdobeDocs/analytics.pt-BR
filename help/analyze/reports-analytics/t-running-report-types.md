@@ -7,7 +7,7 @@ title: Executar tipos de relatórios diferentes
 topic: Relatórios, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ A Detecção de anomalias mostra dois tipos de gráficos: um gráficos resumidos
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Se os limites inferiores e o valor esperado forem os mesmos, o % de desvio será -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Caso contrário, o % de desvio é ((valor limite inferior - valor real) / (valor esperado - valor limite inferior)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Mais</a> sobre a segmentação. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Mais</a> sobre a segmentação. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicar em <span class="uicontrol">Editar métricas</span> permite selecionar e desmarcar as métricas nas quais deseja detectar anomalias. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ Você configura uma Detecção de anomalias independentemente para cada conjunto
 
    Consulte o [Guia de Segmentação do Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) para obter mais informações sobre a criação e o gerenciamento de segmentos. 1. (Opcional) Marque como favorito ou insira um marcador no relatório.
 1. (Opcional) Altere a data final do Período de visualização. O padrão é ontem.
-1. Você pode começar a interpretar o relatório. [Exibindo gráficos](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de Detecção de anomalias.
+1. Você pode começar a interpretar o relatório. [Exibindo gráficos](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de Detecção de anomalias.
 
 ## Executar um relatório em tempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Selecione o Conjunto de relatórios</strong></td> 
-   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuração dos relatórios em tempo real </a>. </td> 
+   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >Configuração dos relatórios em tempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Alternar entre relatórios</strong></td> 
