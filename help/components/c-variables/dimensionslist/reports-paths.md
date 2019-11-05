@@ -7,7 +7,7 @@ title: Caminhos
 topic: Relatórios
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ Os relatórios incluem caminhos padrão em profundidade e relatórios de anális
 
 ![](assets/fallout_graphic.png)
 
-Consulte [Relatório de fallout](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+Consulte [Relatório de fallout](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Permite ainda dissecar seus caminhos completos em fragmentos, produzindo os padrões precisos que são instrumentais para otimizar site. O assistente do Pathfinder permite especificar critérios de seleção que são usados para gerar o relatório, de forma que possa analisar os fragmentos de caminho e buscar por aqueles que começam com uma certa página, terminam com uma determinada página ou mesmo aqueles que começam com uma página e terminam com outra.
 
