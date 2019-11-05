@@ -1,18 +1,18 @@
 ---
 description: Você pode construir uma expressão personalizada para especificar um intervalo complexo de datas.
 seo-description: Você pode construir uma expressão personalizada para especificar um intervalo complexo de datas.
-seo-title: Expressões de data personalizadas - visão geral
+seo-title: Visão geral das Expressões de datas personalizadas
 solution: Analytics
-title: Expressões de data personalizadas - visão geral
+title: Visão geral das Expressões de datas personalizadas
 topic: Construtor de relatórios
-uuid: 7 d 6 d 7 c 03-a 3 f 4-4 dec -8343-de 2 e 6478 bf 06
+uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Expressões de data personalizadas - visão geral
+# Visão geral das Expressões de datas personalizadas
 
 Você pode construir uma expressão personalizada para especificar um intervalo complexo de datas.
 
