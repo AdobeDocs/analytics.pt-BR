@@ -8,7 +8,7 @@ title: Custos e orçamentos
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Saiba como atribuir valores de custo e orçamento a canais.
 
-## Custos e orçamentos {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-Saiba como atribuir valores de custo e orçamento a canais.
-
 O custo representa o que é gasto no canal. O orçamento representa a quantia disponível destinada.
 
  Uma forma útil de visualizar seu ROI é criar uma métrica calculada que exibe a receita menos os custos. Ou criar uma regra que exibe o custo total e a análise de custo por envolvimento. Por exemplo, execute um relatório de  [!UICONTROL Canal de primeiro toque] mostrando novos envolvimentos, depois acrescente uma métrica de Custo de Primeiro Toque que mostre o custo por novo envolvimento através da criação de uma métrica calculada.
 
-Consulte [Métricas calculadas usadas nos relatórios de canal de marketing](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Consulte [Métricas calculadas usadas nos relatórios de canal de marketing](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 É possível designar custos e orçamento a canais. Todos os custos recebem um intervalo de tempo durante o qual se aplicam ao relatório. Quando os custos são associados diretamente a um canal, uma métrica de distribuição é escolhida para mostrar a análise de custos entre campanhas dentro de um canal.
 
 Após adicionar itens de custos e orçamento, é possível exportar os dados da tabela para um arquivo CSV. Também é possível importar um arquivo CSV para a página Custos do canal de marketing.
 
-## Adicionar itens de custo e orçamento {#task_9238A033994440748960DE21593E6388}
+## Adicionar itens de custo e orçamento {#add-cost-and-budget}
 
 Adicione itens de custo e orçamento aos Canais de marketing.
 
@@ -45,11 +41,9 @@ Adicione itens de custo e orçamento aos Canais de marketing.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 Definições de campo para Custos de canal de marketing ou orçamentos.
-
-
 
 | Campo | Definição |
 |--- |--- |
