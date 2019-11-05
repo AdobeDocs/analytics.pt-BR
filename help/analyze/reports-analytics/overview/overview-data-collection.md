@@ -8,12 +8,12 @@ title: Sobre a coleta de dados
 topic: Reports and Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Sobre a coleta de dados{#about-data-collection}
+# Sobre a coleta de dados
 
 Saiba mais sobre como os dados são coletados no Adobe Analytics.
 
@@ -29,4 +29,4 @@ Em um nível mais alto, o processo de coleta de dados ocorre da seguinte forma:
 
 A coleta de dados é rápida e não afeta o tempo de carga das páginas. Dados coletados incluem visualizações de página que resultam do clique dos botões do navegador **Recarregar** ou **Voltar**. O código JavaScript é executado mesmo quando a página é recuperada do cache.
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+See [Data Collection in Analytics.](/help/import/home.md)
