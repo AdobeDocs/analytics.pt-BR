@@ -7,7 +7,7 @@ title: Rastreamento de link metodologia
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 O Activity Map baseia seu rastreamento de links nessas duas IDs:
 
@@ -113,7 +113,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Variáveis de configuração {#section_634197EACD404AC086DF9A03B813C8C3}
+## Variáveis de configuração {#configuration-vars}
 
 Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de referência. O Activity Map deve ser configurado adequadamente para instalação, mas é possível personalizar a sua implementação usando essas variáveis.
 
