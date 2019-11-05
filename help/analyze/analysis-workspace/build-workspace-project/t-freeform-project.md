@@ -8,7 +8,7 @@ title: Criar um projeto da Workspace
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) no painel de forma livre.
 
-Esse artigo explica os elementos da interface da Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para a Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+Esse artigo explica os elementos da interface da Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para a Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Crie um projeto
 
@@ -38,8 +38,8 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
    Você pode escolher criar um projeto de
 
 * um projeto em branco (padrão). Para obter instruções, consulte abaixo.
-* Um modelo padrão. Esses modelos são criados pela Adobe e enviados para o recurso instantâneo. Para obter instruções, consulte [Modelos](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
-* Um modelo personalizado. Esses modelos são criados por usuários com direitos de administrador. Para obter instruções, consulte [Modelos](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
+* Um modelo padrão. Esses modelos são criados pela Adobe e enviados para o recurso instantâneo. Para obter instruções, consulte [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* Um modelo personalizado. Esses modelos são criados por usuários com direitos de administrador. Para obter instruções, consulte [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
 
@@ -53,7 +53,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   > É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
+   >Às vezes, uma mensagem "Conjunto de relatórios incompatível" aparece ao carregar um projeto (ou ao alternar para um conjunto de relatórios), onde nem todos os componentes (métricas/dimensões) incluídos no projeto são incluídos no conjunto de relatórios. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -64,15 +64,15 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> Componentes</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Componentes</a> </td> 
    <td colname="col2"> <p>Dimensões, métricas, segmentos e intervalos de datas que você pode arrastar para os projetos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizações</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizações</a> </td> 
    <td colname="col2"> <p>Itens que você pode arrastar para as áreas da interface do painel ou projeto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">Painel de forma livre</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Painel de forma livre</a> </td> 
    <td colname="col2"> <p>A tela ou a área de trabalho com a qual você interage na Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -88,7 +88,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
+   >Depois de copiar/salvar como, os links internos agora são relativos ao projeto em que vivem, não ao projeto original do qual foram copiados.
 
 ## Adicionar Componentes e Visualizações {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
@@ -112,11 +112,11 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
+   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão para a tabela de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Casos de uso para a Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso para a Analysis Workspace</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
@@ -125,9 +125,9 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
  </tbody> 
 </table>
 
-**[Visualizações](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
+**[Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-O painel [!UICONTROL Visualizações] oferece gráficos, roscas, tabelas de dados, tabelas de [coorte](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E), diagramas de Venn padrão do Analytics e assim por diante. Você pode arrastar e soltar várias visualizações em seu projeto.
+O painel [!UICONTROL Visualizações] oferece gráficos, roscas, tabelas de dados, tabelas de [coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas de Venn padrão do Analytics e assim por diante. Você pode arrastar e soltar várias visualizações em seu projeto.
 
 ![Resultado da etapa](assets/visualizations.png)
 
@@ -150,11 +150,11 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Adicionar coluna de período de tempo</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Adicionar coluna de período de tempo</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Comparar períodos de tempo</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparar períodos de tempo</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -166,11 +166,11 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Criar alerta a partir da seleção</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > Criar alerta a partir da seleção</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4" format="dita" scope="local"> Detalhamento</a> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Detalhamento</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensões </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Métricas </li> 
@@ -180,23 +180,23 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizar</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizar</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local"> Baixar como CSV</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > Baixar como CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9" format="dita" scope="local"> Seleção de tendências</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Seleção de tendências</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Criar segmento a partir da seleção</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Criar segmento a partir da seleção</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793" format="dita" scope="local"> Executar comparação intra-segmento</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Executar comparação intra-segmento</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -210,4 +210,4 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
  </tbody> 
 </table>
 
-Consulte [Interações de teclado e mouse disponíveis na Analysis Workspace](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) para obter informações sobre a cópia e a seleção de linhas.
+Consulte [Interações de teclado e mouse disponíveis na Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter informações sobre a cópia e a seleção de linhas.
