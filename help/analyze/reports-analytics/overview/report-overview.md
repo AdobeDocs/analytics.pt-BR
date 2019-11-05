@@ -7,12 +7,12 @@ title: Recursos do relatório
 topic: Reports and Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Recursos do relatório{#report-features}
+# Recursos do relatório
 
 Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, o calendários e a tabela de detalhes.
 
@@ -30,7 +30,7 @@ Compartilhe os dados do relatório com os tomadores de decisão que podem mudar 
 
 ![](assets/toolbar.png){width="672px"}
 
-Consulte também [Personalizar um relatório](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte também [Personalizar um relatório](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Cabeçalho e configurações do relatório {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ Exibe as configurações de relatório e permite que você configure o tipo de r
 
 ![](assets/settings_header.png){width="672px"}
 
-Consulte [Personalizar um relatório](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obter mais informações.
+Consulte [Personalizar um relatório](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obter mais informações.
 
 ## Calendário {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ Especifique a data clicando no botão de calendário e selecionando um intervalo
 
 ![](assets/calendar_large.png){width="672px"}
 
-Consulte [Seleção de um intervalo](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de datas ou de datas e [Comparação de datas](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Consulte [Seleção de um intervalo](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) de datas ou de datas e [Comparação de datas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Tipo de gráfico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-Selecione o tipo de gráfico ou tabela que deseja visualizar.
+Selecione o tipo de gráfico ou tabela que deseja visualizar:
 
 ![](assets/graph_type.png)
 
-Consulte [Mudando gráficos do relatório](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Exibição do gráfico {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-Dependendo do tipo de gráfico selecionado, você poderá visualizar os principais itens da lista de detalhes. Se o seu gráfico é um gráfico de tendências de diferentes períodos, todos os períodos de tempo serão exibidos
+Dependendo do tipo de gráfico selecionado, você poderá visualizar os principais itens da lista de detalhes. Se o seu gráfico é um gráfico de tendências de diferentes períodos, todos os períodos de tempo serão exibidos:
 
 ![](assets/graph.png)
 
-Consulte [Personalização de relatórios](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte [Personalização de relatórios.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Métricas {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ Adicione métricas a um relatório: Os administradores podem especificar métric
 
 ![](assets/metrics.png)
 
-Consulte [Métricas](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+Consulte [Métricas.](/help/analyze/reports-analytics/metrics.md)
 
 ## Tabela de detalhes {#section_449A5DC848744F65A10DA12E189B835D}
 
-Os detalhes são a maior parte dos dados do relatório. Neste caso, eles estão indicados em páginas e medidos por visualizações de página, representando quantas vezes eles foram carregados durante o período.
+Os detalhes são a maior parte dos dados do relatório. Neste caso, eles estão indicados em páginas e medidos por visualizações de página, representando quantas vezes eles foram carregados durante o período:
 
 ![](assets/detail.png)
 
 Na tabela de detalhes, você pode filtrar dados, criar análises, adicionar métricas e muito mais.
 
-Consulte [Personalização de relatórios](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte [Personalização de relatórios.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
