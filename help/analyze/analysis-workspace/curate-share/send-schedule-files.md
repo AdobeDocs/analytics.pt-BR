@@ -3,9 +3,9 @@ description: É possível compartilhar e preparar projetos e enviar arquivos de 
 seo-description: É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com uma programação.
 seo-title: Compartilhar e programar arquivos de projeto
 title: Compartilhar e programar arquivos de projeto
-uuid: d 8539 e 0 b-eaa 5-4 a 3 d -8282-a 37 d 47 e 2 fe 96
+uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> Compartilhar projeto </td> 
-   <td colname="col2"><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Mais informações</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Mais informações</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Obter link do projeto </td> 
@@ -38,11 +38,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> Enviar arquivo agendado </td> 
-   <td colname="col2"> <p>Especifique a data de início, o intervalo e a frequência e a data de término. <a href="../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local"> Mais informações</a> </p> </td> 
+   <td colname="col2"> <p>Especifique a data de início, o intervalo e a frequência e a data de término. <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Mais informações</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Preparar dados do projeto </td> 
-   <td colname="col2"> <p><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Mais informações</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Mais informações</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
