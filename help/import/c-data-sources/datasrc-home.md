@@ -8,7 +8,7 @@ title: Visão geral das fontes de dados
 topic: Desenvolvedor e implementação
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ As Fontes de dados podem ser usadas para ajudá-lo a entender os dados pré-cliq
 
 >[!IMPORTANT]
 >
->Para fontes de dados de ID da transação que vinculam dados offline a eventos online, é necessário ativar a Gravação da ID de transação no Atendimento ao cliente. Consulte [Gravação da ID de transação](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obter mais informações.
+>Para fontes de dados de ID da transação que vinculam dados offline a eventos online, é necessário ativar a Gravação da ID de transação no Atendimento ao cliente. Consulte [Gravação da ID de transação](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obter mais informações.
 
 Após a importação, a maioria dos dados das Fontes de dados é disponibilizada no Digital Marketing Suite.
