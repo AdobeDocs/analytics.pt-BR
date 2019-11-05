@@ -3,7 +3,7 @@ seo-title: Configurar uma conta publicitária
 title: Configurar uma conta publicitária
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Os administradores do Adobe Analytics podem criar novas contas publicitárias e mapear diversas contas a vários conjuntos de relatórios (1:1, 1:Vários, Vários:Vários).
 
-Além disso, os administradores podem [conceder acesso a não administradores](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) para configuração de contas publicitárias.
+Além disso, os administradores podem [conceder acesso a não administradores](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) para configuração de contas publicitárias.
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](.
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
-        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois que você fizer logon com êxito, o campo Token OAuth será exibido 
+        </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois que você fizer logon com êxito, o campo Token OAuth será exibido 
         <systemoutput>
           Recuperado
         </systemoutput>. </p> </td> 
@@ -75,7 +75,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]seguindo as instruçõ
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">O parâmetro e valor "s_kwcid" será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Como resultado, pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor "s_kwcid". Dessa forma, se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres (um exemplo de um caractere especial é o "+" usado em palavras-chave de “Grande correspondência modificada”). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -99,7 +99,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]seguindo as instruçõ
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Mapeamento do conjunto de relatórios </p> </td> 
-      <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
+      <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -107,7 +107,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]seguindo as instruçõ
 1. Clique em **[!UICONTROL Salvar]**.
 1. Depois de salvar, um aviso de isenção de responsabilidade exibe uma lista de advertências. É solicitado que confirme que leu e entendeu este contrato. Clique na caixa de seleção, em seguida em **[!UICONTROL OK]**.
 
-   Agora você é encaminhado para a [interface do usuário de gerenciamento](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) das contas publicitárias, onde sua conta recém-criada deve estar listada.
+   Agora você é encaminhado para a [interface do usuário de gerenciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) das contas publicitárias, onde sua conta recém-criada deve estar listada.
 
 > [!NOTE] Você deve esperar pelo menos 24 horas antes que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics.
 
