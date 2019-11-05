@@ -7,7 +7,7 @@ title: Mapear métricas e dimensões para células
 topic: Construtor de relatórios
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,9 +22,9 @@ Se, por engano, você mapear locais incompatíveis na planilha, o Construtor de 
 
 As seguintes seções contêm mais informações:
 
-* [Selecionar um intervalo de células](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Técnicas para selecionar células](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
-* [Problemas ao mapear](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [Selecionar um intervalo de células](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Técnicas para selecionar células](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Problemas ao mapear](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
