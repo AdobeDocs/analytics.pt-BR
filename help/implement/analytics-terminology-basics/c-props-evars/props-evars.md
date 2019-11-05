@@ -8,7 +8,7 @@ title: Visão geral de props e eVars
 topic: Desenvolvedor e implementação
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 As variáveis personalizadas de tráfego, também chamadas de props (s.prop) ou variáveis de propriedade, são contadores que contam o número de vezes que cada valor é enviado ao Analytics.
 
-Ao determinar quais variáveis são atribuídas a que local, é importante compreender as diferenças entre a funcionalidade de Prop e de eVar. Compreender essas diferenças permite que sua organização decida que tipo de variável é melhor para ser usada. Para informações detalhadas, consulte [Comparação de Props e eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Ao determinar quais variáveis são atribuídas a que local, é importante compreender as diferenças entre a funcionalidade de Prop e de eVar. Compreender essas diferenças permite que sua organização decida que tipo de variável é melhor para ser usada. Para informações detalhadas, consulte [Comparação de Props e eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 As props permitem correlacionar os dados personalizados com eventos específicos relacionados ao tráfego. Essas variáveis de prop estão incluídas no código do [!DNL Analytics] em cada página do seu site. Por meio das variáveis [!UICONTROL s.prop], o [!DNL Analytics] permite criar relatórios personalizados, exclusivos para os objetivos de sua organização, setor e empresa.
 
@@ -40,4 +40,4 @@ Em um site de conversão, as eVars podem ser usadas para rastrear como os visita
 
 Para obter mais informações, consulte [Variável de tráfego](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) no guia de Ajuda e referência do Analytics.
 
-Para obter informações sobre a configuração de propriedades no Digital Tag Management, consulte [Criar propriedade da Web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+Para obter informações sobre a configuração de propriedades no Digital Tag Management, consulte [Criar propriedade da Web](/help/implement/c-implement-with-dtm/t-create-web-property.md).
