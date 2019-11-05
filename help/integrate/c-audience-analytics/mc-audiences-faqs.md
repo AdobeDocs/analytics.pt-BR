@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Perguntas frequentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Se você tiver emails/endereços/etc em uma prop ou eVar, considere fazer o hash dos dados durante a coleta. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Se seu país considera endereços IP como PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external">ative a ofuscação de IP </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Se seu país considera endereços IP como PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  >ative a ofuscação de IP </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Entre em contato com o Administrador do Analytics para descobrir o que está sendo coletado. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Entre em contato com o departamento jurídico para descobrir o que é considerado como PII. </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: Como faço para criar um destino do Analytics no Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configurar um destino do Analytics no AAM </a>. </td> 
+   <td colname="col2"> Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Configurar um destino do Analytics no AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Depois de criar e salvar um destino do Analytics, quanto leva até que os dados apareçam em meus conjuntos de relatórios selecionados?</b> </p> </td> 
@@ -138,11 +138,11 @@ Para obter mais perguntas frequentes sobre esse tópico, consulte Perguntas freq
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>P: Por que as contagens de visitantes de segmentos diferem entre o Audience Manager e o Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> Diferenças na contagem de visitantes </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Diferenças na contagem de visitantes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre “públicos-alvo” no AAM e “segmentos” no Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre Atributos de clientes e os dados de cliente integrados do AAM?</b> </p> </td> 
