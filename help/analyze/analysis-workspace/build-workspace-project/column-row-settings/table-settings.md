@@ -5,7 +5,7 @@ seo-title: Configurações de linha
 title: Configurações de linha
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 As configurações de linha variam de acordo como qual componente foi arrastado para a tabela.
 
-É possível, também, usar as [ações de clique com o botão direito](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) para gerenciar a(s) linha(s) selecionada(s).
+É possível, também, usar as [ações de clique com o botão direito](/help/analyze/analysis-workspace/visualizations/freeform-table.md) para gerenciar a(s) linha(s) selecionada(s).
 
 Para acessar as configurações das linhas da tabela, clique o ícone de Configuração próximo a uma dimensão, segmento, métrica, período de tempo ou um detalhamento em cada uma dessas:
 
@@ -29,7 +29,7 @@ Para acessar as configurações das linhas da tabela, clique o ícone de Configu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Comparações de datas</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparações de datas</a> </p> </td> 
    <td colname="col2"> <p><b>Alinhar as datas de cada coluna para que todas iniciem na mesma linha. </b> </p> <p>Ao escolher alinhas das datas, por exemplo, em uma comparação de mês por mês entre outubro e setembro de 2016, a coluna da esquerda iniciará em 1° de outubro e a coluna da direita em 1° de setembro: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Desabilitado por padrão </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Para acessar as configurações das linhas da tabela, clique o ícone de Configu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Totais de colunas </p> </td> 
-   <td colname="col2"> <p>Estas configurações aparecem apenas com <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> linhas manuais (estática)</a> (quando seleciona um conjunto limitado de itens), não com linhas dinâmicas (quando solta em uma dimensão que mostra todos os itens). <p>Observação: para <i>métrica</i> de linhas manuais, a configuração é desativada, uma vez que não faz sentido somar qualquer métrica além das linhas atuais de uma tabela. </p> </p> <p><b>Calcule as somas resumindo os valores que estão atualmente em cada coluna (habilitada por padrão):</b> </p> <p>Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) </p> <p><b>Calcule as somas baseadas em todas as linhas para cada métrica (desabilitada por padrão)</b> </p> <p>Esta opção inclui todos os itens de dimensão para esta dimensão, até mesmo aqueles que não estão listados no gráfico. (Cálculo do lado do servidor) </p> </td> 
+   <td colname="col2"> <p>Estas configurações aparecem apenas com <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > linhas manuais (estática)</a> (quando seleciona um conjunto limitado de itens), não com linhas dinâmicas (quando solta em uma dimensão que mostra todos os itens). <p>Observação: para <i>métrica</i> de linhas manuais, a configuração é desativada, uma vez que não faz sentido somar qualquer métrica além das linhas atuais de uma tabela. </p> </p> <p><b>Calcule as somas resumindo os valores que estão atualmente em cada coluna (habilitada por padrão):</b> </p> <p>Esta opção calcula somente as linhas que estão atualmente no gráfico. (Cálculo do lado do cliente) </p> <p><b>Calcule as somas baseadas em todas as linhas para cada métrica (desabilitada por padrão)</b> </p> <p>Esta opção inclui todos os itens de dimensão para esta dimensão, até mesmo aqueles que não estão listados no gráfico. (Cálculo do lado do servidor) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Detalhamentos </p> </td> 
