@@ -8,7 +8,7 @@ title: Conversão
 topic: Desenvolvedor e implementação
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ As Fontes de dados oferecem suporte às seguintes dimensões e métricas de dado
 
 Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. O total de eventos personalizados e exibições eVar apoiados por um report suite depende de contrato, e varia de acordo com cada empresa.
 
-<p class="head"> <b> Dimensões de conversão</b> </p>
+<p class="head"> <b>Dimensões de conversão</b> </p>
 
 | Nome da coluna | Descrição |
 |--- |--- |
