@@ -5,7 +5,7 @@ seo-title: Visão geral do uso de chamadas do servidor
 title: Visão geral do uso de chamadas do servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## Pré-requisitos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissões**: para acessar o Painel de Uso de chamadas do servidor e o Criador/Gerenciador de alertas, é necessário ser um Administrador do Adobe Analytics.
-* **Permissões**: administradores podem conceder acesso a não administradores: a permissão chama-se **[!UICONTROL Uso de chamadas do servidor]**. Consulte [Permissão de uso de chamadas do servidor](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** Permissões: Para acessar o Painel de uso da chamada do servidor e o Criador/Gerenciador de alertas, você deve ser um administrador do Adobe Analytics.
+* **** Permissões: Os administradores podem conceder acesso a não administradores: a permissão é chamada de Uso **[!UICONTROL de Chamada de]** Servidor. Consulte [Permissão de uso de chamadas do servidor](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Terminologia importante {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de logon </p> </td> 
-   <td colname="col2"> <p>Uma empresa de faturamento pode ter <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">várias empresas de logon </a>. Uma empresa de logon é uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização. Isso é útil para organizações de grande porte, que lidam com várias unidades comerciais nas quais vários conjuntos de relatórios não se aplicam a outros na empresa. </p> <p>Frequentemente, essas são as subsidiárias regionais de uma empresa. O exemplo a seguir apresenta empresas de logon e seus respectivos conjuntos de relatorios associados: </p> 
+   <td colname="col2"> <p>Uma empresa de faturamento pode ter <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">várias empresas de logon </a>. Uma empresa de logon é uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização. Isso é útil para organizações de grande porte, que lidam com várias unidades comerciais nas quais vários conjuntos de relatórios não se aplicam a outros na empresa. </p> <p>Frequentemente, essas são as subsidiárias regionais de uma empresa. O exemplo a seguir apresenta empresas de logon e seus respectivos conjuntos de relatorios associados: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Observação: dados de uso de chamadas do servidor referentes a <u>todos</u> os conjuntos de relatórios em uma empresa de faturamento ficam visíveis para todos os usuários com as <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">permissões</a> apropriadas. </p> </td> 
+    </ul> <p>Observação: dados de uso de chamadas do servidor referentes a <u>todos</u> os conjuntos de relatórios em uma empresa de faturamento ficam visíveis para todos os usuários com as <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">permissões</a> apropriadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organização da Experience Cloud </p> </td> 
