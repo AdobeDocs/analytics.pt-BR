@@ -6,8 +6,8 @@ seo-title: Variáveis globais
 solution: Experience Cloud, Analytics, Dynamic Tag Management
 title: Variáveis globais
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Descrições de campo e informações sobre variáveis ao usar o Dynamic Tag Management para implantar o Adobe Analytics.
 
-Essas variáveis funcionam em todos os beacons de regras de carregamento de página. Pode-se obter o mesmo efeito usando um conjunto de [regra de Carregamento de página](../../../implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706) para acionar todas as páginas. Essas variáveis podem não ser acionadas nas regras [Direct-Call](../../../implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09) e [Event-Based](../../../implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC).
+Essas variáveis funcionam em todos os beacons de regras de carregamento de página. Pode-se obter o mesmo efeito usando um conjunto de [regra de Carregamento de página](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) para acionar todas as páginas. Essas variáveis podem não ser acionadas nas regras [Direct-Call](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md) e [Event-Based](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md).
 
 ## Variáveis globais - Descrições de campos {#section_2917F62FCC8D43F982B2612A702DEF81}
 
