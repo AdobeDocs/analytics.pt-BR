@@ -3,21 +3,21 @@ description: 'null'
 seo-description: 'null'
 seo-title: Solução de problemas do Advertising Analytics
 title: Solução de problemas do Advertising Analytics
-uuid: d 0 abe 7 cc-ed 13-4 d 3 d -87 a 6-f 0 d 649 c 7 ad 2 d
+uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
 
 # Solução de problemas do Advertising Analytics
 
-* [Não vejo meu conjunto de relatórios na seção de Mapeamento](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Recebi um erro ao autenticar para a conta do Google Adwords…](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Não vejo meu conjunto de relatórios na seção de Mapeamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [Ocorre um erro ao autenticar na conta do Google Adwords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Você está tentando [configurar uma nova conta publicitária](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios].** Há dois motivos possíveis:
+Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios].** Há dois motivos possíveis:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,12 +28,12 @@ Você está tentando [configurar uma nova conta publicitária](../../../integrat
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID organizacional da Experience Cloud do usuário de logon. </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">Mapear conjuntos de relatórios para uma organização</a> para obter instruções. </p> </td> 
+   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a Experience Cloud Org ID do usuário de logon. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >Mapear conjuntos de relatórios para uma organização</a> para obter instruções. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. O conjunto de relatórios não está provisionado para os relatórios do Advertising Analytics. </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">Provisionar conjunto de relatórios</a> para obter instruções. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Provisionar conjunto de relatórios</a> para obter instruções. </p> </td> 
   </tr> 
  </tbody> 
 </table>
