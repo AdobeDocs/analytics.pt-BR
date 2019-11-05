@@ -8,7 +8,7 @@ title: Preparação para usar as Fontes de dados
 topic: Desenvolvedor e implementação
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Etapas que você pode adotar como preparação para usar as fontes de dados
 
-* [Identificar e nomear as métricas](../../import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135)
-* [Identificar as dimensões dos dados](../../import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
-* [Código de rastreamento de campanha](../../import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
-* [ID da transação](../../import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [Identificar um intervalo de datas válido para dados da fonte de dados](../../import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identificar e nomear as métricas](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135)
+* [Identificar as dimensões dos dados](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
+* [Código de rastreamento de campanha](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
+* [ID da transação](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
+* [Identificar um intervalo de datas válido para dados da fonte de dados](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identificar e nomear as métricas  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
