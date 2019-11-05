@@ -5,7 +5,7 @@ seo-title: Limitações e especificações
 title: Limitações e especificações
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ Editar uma solicitação do Construtor de relatórios após a sua publicação n
    **Este é um exemplo de como a visualização quebrará:**
 
    1. No Construtor de relatórios, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   1. [Agende essa solicitação](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) para publicação no Power BI.
+   1. [Agende essa solicitação](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para publicação no Power BI.
    1. No Power BI, crie uma visualização para a Página e as Exibições da página.
    1. Agora edite a pasta de trabalho através da remoção das Exibições de página da solicitação.
    1. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
@@ -43,7 +43,7 @@ Editar uma solicitação do Construtor de relatórios após a sua publicação n
    **Este é um exemplo de como a visualização NÃO se quebrará:**
 
    1. No Construtor de relatórios, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   1. [Agende essa solicitação](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) para publicação no Power BI.
+   1. [Agende essa solicitação](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para publicação no Power BI.
    1. No Power BI, crie uma visualização para a Página e as Exibições da página.
    1. Agora edite a pasta de trabalho no Construtor de relatórios, adicionando a métrica Visita enquanto se mantém Página e Exibições de página.
    1. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
