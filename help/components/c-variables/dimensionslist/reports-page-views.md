@@ -7,7 +7,7 @@ title: Exibições de página
 topic: Relatórios
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Este relatório permite que você acompanhe as visualizações de páginas para cada página no site, bem como um agregado de exibições de página do site inteiro.
 
-A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26) is a request for a full page document rather than an element of a page, such as an image or video. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas.
+A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas.
 
 **Propriedades de relatório**
 
