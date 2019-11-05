@@ -8,7 +8,7 @@ title: Excluir dados de classificação
 topic: Ferramentas administrativas
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Etapas que descrevem como excluir ou remover dados da classificação.
 
    Alternatively, use [!DNL ~deletekey~]. Esse comando trata a classificação como se nunca tivesse ocorrido na tecla especificada. Remove completamente a classificação e todos os dados da coluna nas tabelas de pesquisa.
 
-   **Aviso**: Você só precisa de uma coluna contendo [!DNL ~excluirtecla~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Esse comando remove todos os metadados da linha. A Adobe interpreta isso como se a tecla nunca tivesse sido classificada e a exibe na [categoria](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) Nenhum.
+   **Aviso**: Você só precisa de uma coluna contendo [!DNL ~excluirtecla~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Esse comando remove todos os metadados da linha. A Adobe interpreta isso como se a tecla nunca tivesse sido classificada e a exibe na [categoria](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) Nenhum.
 
 1. Salve o arquivo e faça upload utilizando a guia [!UICONTROL Importar arquivo.]
 
