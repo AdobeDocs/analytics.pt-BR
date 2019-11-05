@@ -8,7 +8,7 @@ title: Classificações de conversão
 topic: Ferramentas administrativas
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 
 As classificações de conversão permitem que você classifique as variáveis de conversão. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com as propriedades de dados associadas.
 
-Depois de habilitar as classificações, utilize o [Importador de classificações](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA) para atribuir valores específicos à classificação apropriada.
+Depois de habilitar as classificações, utilize o [Importador de classificações](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 ## Descrições de classificações de conversão {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -74,10 +74,10 @@ Etapas que descrevem como adicionar classificações de conversão na Administra
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. No campo **Selecionar tipo**, selecione o tipo de classificação que deseja adicionar à variável.
 
-   As opções incluem **[!UICONTROL Texto]** e **[!UICONTROL Numérico]**. For more information on classification types, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   As opções incluem **[!UICONTROL Texto]** e **[!UICONTROL Numérico]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
-   Consulte [Descrições de classificações de conversão](../../components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) para obter informações sobre esses elementos.
+   Consulte [Descrições de classificações de conversão](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) para obter informações sobre esses elementos.
 
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
