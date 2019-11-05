@@ -9,7 +9,7 @@ title: Personalizar permissões de ferramentas do Analytics
 topic: Ferramentas administrativas
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | Elemento | Descrição |
 |--- |--- |
 | **Geral** |  |
-| [Gerenciador de código](../../../admin/admin/code-manager-admin.md) | Ativa a permissão para download do código da coleção de dados para plataformas móveis e da Web. |
+| [Gerenciador de código](/help/admin/admin/code-manager-admin.md) | Ativa a permissão para download do código da coleção de dados para plataformas móveis e da Web. |
 | Gerenciador de código - Serviços da Web | Permite que um usuário não administrativo acesse o Gerenciador de código por meio dos Serviços da Web. |
-| [Logs](../../../admin/admin/logs.md) | Ativa a permissão para arquivos de log, que ajudam a identificar quando um usuário faz logon, sua atividade, seu acesso, conjuntos de dados e alterações de Administração. |
+| [Logs](/help/admin/admin/logs.md) | Ativa a permissão para arquivos de log, que ajudam a identificar quando um usuário faz logon, sua atividade, seu acesso, conjuntos de dados e alterações de Administração. |
 | Logs - Serviços da Web | Permite que um usuário não administrativo acesse os logs das Ferramentas administrativas por meio dos Serviços da Web. |
-| [Gerenciamento de tráfego](../../../admin/c-traffic-management/traffic-management.md) | A página Gerenciamento de tráfego permite especificar as alterações no volume de tráfego esperado. |
+| [Gerenciamento de tráfego](/help/admin/c-traffic-management/traffic-management.md) | A página Gerenciamento de tráfego permite especificar as alterações no volume de tráfego esperado. |
 | Gerenciamento de permissões | Concede a usuários não administrativos acesso às páginas de Gerenciamento de usuários nas Ferramentas administrativas. Esses usuários têm permissão de Leitura, mas não de Gravação. |
 | Permissões (Gravação) - Serviços da Web | Concede aos usuários não-administrativos configurações de permissão de leitura e gravação em Gerenciamento de usuários nos Serviços da Web.<br>Essa configuração se refere especificamente às ações de permissões indicadas na API de Administração. |
 | Permissões (Leitura) - Serviços da Web | Permite que usuários não administrativos exibam configurações das permissões no Gerenciamento de usuários nos Serviços da Web.<br>Essa configuração se refere especificamente às ações de permissões indicadas na API de Administração. |
 | **Gerenciamento da Empresa** |  |
-| [Segurança](../../../admin/company/security-manager.md) | Concede permissão para que a página Gerenciador de segurança controle o acesso a dados dos relatórios. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email. |
+| [Segurança](/help/admin/company/security-manager.md) | Concede permissão para que a página Gerenciador de segurança controle o acesso a dados dos relatórios. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email. |
 | Informações de suporte | Concede permissão para as Informações de suporte em Configurações da empresa. |
-| [Serviços Web](../../../admin/company/web-services-admin.md) | Permite o acesso à página Serviços da Web na interface das Ferramentas Administrativas ([!UICONTROL Configurações da empresa] &gt; [!UICONTROL Serviços da Web]).<br>A API de Serviços da Web fornece acesso programático a serviços do Adobe Analytics que permitem duplicar e aumentar a funcionalidade disponível por meio da interface do usuário. |
+| [Serviços Web](/help/admin/company/web-services-admin.md) | Permite o acesso à página Serviços da Web na interface das Ferramentas Administrativas ([!UICONTROL Configurações da empresa] &gt; [!UICONTROL Serviços da Web]).<br>A API de Serviços da Web fornece acesso programático a serviços do Adobe Analytics que permitem duplicar e aumentar a funcionalidade disponível por meio da interface do usuário. |
 | Logon único (Herdado) | Concede acesso à página de logon único nas Ferramentas administrativas.<br>**Observação:** o Logon único na Adobe Experience Cloud é implementado com o uso da [vinculação de contas](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) entre a Experience Cloud e as demais soluções. |
-| [Ações pendentes](../../../admin/company/pending-actions-admin.md) | Concede permissão para o gerenciamento de ações pendentes em [!UICONTROL Configurações da empresa]. |
-| [Compartilhamento de marcas](../../../admin/company/co-branding-admin.md) | Concede permissão para o compartilhamento de marcas no Analytics. |
-| [Preferências](../../../admin/admin/preferences-manager.md) | Concede permissão para o [!UICONTROL Gerenciador de preferências]. |
-| [Ocultar conjunto de relatórios](../../../admin/company/c-hide-report-suites.md) | Concede permissão para ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics. |
+| [Ações pendentes](/help/admin/company/pending-actions-admin.md) | Concede permissão para o gerenciamento de ações pendentes em [!UICONTROL Configurações da empresa]. |
+| [Compartilhamento de marcas](/help/admin/company/co-branding-admin.md) | Concede permissão para o compartilhamento de marcas no Analytics. |
+| [Preferências](/help/admin/admin/preferences-manager.md) | Concede permissão para o [!UICONTROL Gerenciador de preferências]. |
+| [Ocultar conjunto de relatórios](/help/admin/company/c-hide-report-suites.md) | Concede permissão para ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics. |
 | **Ferramentas** | Essas configurações concedem acesso a ferramentas do Analytics (interfaces e aplicativos) e a recursos avançados, como segmentação e métricas calculadas. |
 | [Dados atuais](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Concede permissão para uso do recurso Dados atuais nos relatórios. |
 | Usuários da licença de [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) | Concede permissão para acesso à [!UICONTROL Ad Hoc Analysis]. |
