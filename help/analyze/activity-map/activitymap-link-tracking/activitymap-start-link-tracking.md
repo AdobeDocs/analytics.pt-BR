@@ -7,7 +7,7 @@ title: Iniciar o rastreamento de links
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -43,7 +43,7 @@ Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente conhecido como ClickMap do visitante) </td> 
-   <td colname="col2"> <p>Defina a variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> para verdadeiro. A leitura da sintaxe é realizada da seguinte maneira: 
+   <td colname="col2"> <p>Defina a variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> para verdadeiro. A leitura da sintaxe é realizada da seguinte maneira: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
