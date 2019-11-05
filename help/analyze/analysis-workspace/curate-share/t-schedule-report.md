@@ -2,18 +2,18 @@
 description: Envie um projeto da Analysis Workspace por email ou agende o seu envio.
 keywords: Analysis Workspace
 seo-description: Envie um projeto da Analysis Workspace por email ou agende o seu envio.
-seo-title: Enviar arquivo - agendar um projeto para entrega
+seo-title: Envio de arquivo - Agendamento do envio de um projeto
 solution: Analytics
-title: Enviar arquivo - agendar um projeto para entrega
+title: Envio de arquivo - Agendamento do envio de um projeto
 topic: Reports and Analytics
-uuid: 9244 d 7 b 2-1 b 7 e -4323-98 ef-cf 22 de 3 b 666 a
+uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Enviar arquivo - agendar um projeto para entrega
+# Envio de arquivo - Agendamento do envio de um projeto
 
 Envie um projeto da Analysis Workspace por email ou agende o seu envio.
 
@@ -28,4 +28,4 @@ Envie um projeto da Analysis Workspace por email ou agende o seu envio.
 
 1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
 1. (Optional) Click **[!UICONTROL Show Scheduling Options]** to specify a delivery schedule, then click **[!UICONTROL Send on Schedule]**.
-1. Manage scheduled projects in **[!UICONTROL Components]** &gt; [Scheduled Projects](../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C).
+1. Gerencie projetos agendados em **[!UICONTROL Componentes]** &gt; Projetos [agendados](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
