@@ -9,7 +9,7 @@ title: Sobre o AppMeasurement para JavaScript
 topic: Desenvolvedor e implementação
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 A lista a seguir contém alterações que você deve compreender antes de passar para essa nova versão do [!DNL AppMeasurement]:
 
-* Alguns plug-ins não são mais suportados. [Suporte a Plug-in do AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+* Alguns plug-ins não são mais suportados. [Suporte a Plug-in do AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 * A biblioteca não é compatível com a seleção de conta dinâmica ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) e [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
 
 * O código da biblioteca e da página pode ser implantado dentro da tag `<head>`.
@@ -32,7 +32,7 @@ A lista a seguir contém alterações que você deve compreender antes de passar
 
 ## Perguntas frequentes {#section_9BD41B08F7B54197B230937714B9357A}
 
-Consulte as [Perguntas frequentes](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) para informações sobre desempenho, rastreamento de vídeo, dispositivos móveis e muito mais.
+Consulte as [Perguntas frequentes](/help/implement/faq.md) para informações sobre desempenho, rastreamento de vídeo, dispositivos móveis e muito mais.
 
 ## Processo de inicialização {#section_F6D5680F6D134B6AB1F01C6235860635}
 
@@ -47,15 +47,15 @@ Uma nova`s_gi` [!DNL AppMeasurement] instância é criada quando é solicitado e
 
 ## Recuperar uma instância AppMeasurement {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-Em todo o código, chame a função global [s_gi()](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) para recuperar uma instância [!DNL AppMeasurement] existente.
+Em todo o código, chame a função global [s_gi()](/help/implement/js-implementation/function-s-gi.md) para recuperar uma instância [!DNL AppMeasurement] existente.
 
 ## Utilitários {#section_0F47694DD0214645A24C94AB6A4142A0}
 
 JavaScript [!DNL AppMeasurement] fornece os seguintes utilitários incorporados:
 
-* [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
-* [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
-* [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md)
+* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md)
+* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ## Clear Vars {#section_597C411E7EDB42BC9A6A0508C9D57147}
 
