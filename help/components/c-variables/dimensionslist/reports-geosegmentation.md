@@ -7,7 +7,7 @@ title: GeoSegmentation
 topic: Relatórios
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ Todas as métricas que estão disponíveis em outro lugar no Reports &amp; Analy
   </tr> 
   <tr> 
    <td colname="col1"> Regiões </td> 
-   <td colname="col2"> <p> Uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, ou município. Em outras áreas, é um país constituinte, departamento ou região metropolitana. Ao lado direito de cada região mostrada, o país da região também é exibido entre parênteses. </p> <p>No detalhe da tabela, clique em Executar um relatório de cidades para esta região (lente de aumento) para executar um relatório que exibe como as cidades na região selecionada em comparação com outras cidades na região. </p> <p>Consulte <a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local"> Utilização de regiões de segmentação geográfica e código postal por país</a> para visualizar quais países utilizam regiões. </p> </td> 
+   <td colname="col2"> <p> Uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, ou município. Em outras áreas, é um país constituinte, departamento ou região metropolitana. Ao lado direito de cada região mostrada, o país da região também é exibido entre parênteses. </p> <p>No detalhe da tabela, clique em Executar um relatório de cidades para esta região (lente de aumento) para executar um relatório que exibe como as cidades na região selecionada em comparação com outras cidades na região. </p> <p>Consulte <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > Utilização de regiões de segmentação geográfica e código postal por país</a> para visualizar quais países utilizam regiões. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cidades </td> 
