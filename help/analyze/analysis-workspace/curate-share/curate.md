@@ -8,7 +8,7 @@ title: Visão geral de curadoria/compartilhamento
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,7 +29,7 @@ A preparação permite limitar os componentes antes de compartilhar um projeto. 
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Crie e salve](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) um projeto, em seguida, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados]** do projeto.
+1. [Crie e salve](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) um projeto, em seguida, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados]** do projeto.
 1. Arraste os componentes que você deseja compartilhar da pilha de componentes arrastáveis à esquerda do campo **[!UICONTROL Componentes preparados].**
 
    ![](assets/curated-components.png)
