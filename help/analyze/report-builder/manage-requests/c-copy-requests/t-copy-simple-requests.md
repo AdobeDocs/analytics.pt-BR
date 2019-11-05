@@ -7,7 +7,7 @@ title: Copiar solicitações simples
 topic: Construtor de relatórios
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Copie uma solicitação simples em vez de uma solicitação referencial. Uma solicitação simples não contém referências a outra solicitação nem ao conteúdo de uma célula.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. Estes filtros usam correspondências ou tendências e são baseados em resultados de uma solicitação anterior ou no conteúdo inserido pelo usuário em uma célula, chamada célula de entrada.
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. Estes filtros usam correspondências ou tendências e são baseados em resultados de uma solicitação anterior ou no conteúdo inserido pelo usuário em uma célula, chamada célula de entrada.
 1. Crie uma solicitação válida.
 1. Clique com o botão direito do mouse em uma das células onde a solicitação está mapeada ou selecione uma região de células que contém solicitações.
 
