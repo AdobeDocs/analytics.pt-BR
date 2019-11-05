@@ -8,7 +8,7 @@ title: Perguntas frequentes da Fonte de Dados
 topic: Desenvolvedor e implementação
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ Este tópico oferece as respostas às perguntas mais frequentes.
 
 ## Como vincular dados offline a eventos online? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-Para que fontes de dados de ID de transação vinculem dados offline a eventos online, deve-se habilitar a Gravação de ID de transação. Consulte [Gravação da ID de transação](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obter mais informações.
+Para que fontes de dados de ID de transação vinculem dados offline a eventos online, deve-se habilitar a Gravação de ID de transação. Consulte [Gravação da ID de transação](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obter mais informações.
 
 ## Quanto custa para usar o recurso da Fonte de Dados? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
