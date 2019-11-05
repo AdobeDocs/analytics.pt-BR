@@ -8,7 +8,7 @@ title: Gerenciar canais de marketing
 topic: Reports and Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adicione ou ative canais de marketing no Gerenciador de canal de marketing. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
 
-## Gerenciar canais de marketing {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
-
 A seguir, as orientações para a criação de canais:
 
 * Planeje com antecedência, fazendo uma lista de todos os canais, para que todas ocorrências de visitantes sejam categorizadas para o canal correto.
-* Sempre inclua canais para as categorias de ocorrências [Internas](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) e [Diretas](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A).
+* Sempre inclua canais para as categorias de ocorrências [Internas](/help/components/c-marketing-channels/c-faq.md) e [Diretas](/help/components/c-marketing-channels/c-faq.md).
 
-A inclusão de [!UICONTROL Canais de marketing] é feita de forma independente da criação de regras na página [Regras de Processamento de Canal de marketing](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08). Ao criar regras, associe-as aos canais.
+A inclusão de [!UICONTROL Canais de marketing] é feita de forma independente da criação de regras na página [Regras de Processamento de Canal de marketing](/help/components/c-marketing-channels/t-rules.md). Ao criar regras, associe-as aos canais.
 
-## Adição de canais de marketing {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## Adição de canais de marketing {#add-mktg-channels}
 
 Adicione canais de marketing ao Administrador dos Canais de marketing.
 
@@ -39,11 +35,11 @@ Adicione canais de marketing ao Administrador dos Canais de marketing.
 
    Se você selecionar múltiplos conjuntos de ferramentas de relatório, será necessário selecionar um modelo que copie as configurações do modelo para os conjuntos de ferramentas de relatório selecionados.
 
-   Consulte [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+   Consulte [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. Na página do [!UICONTROL Gerenciador de canal de marketing]**, clique em[!UICONTROL Adicionar canal]**.
 
@@ -52,9 +48,9 @@ Adicione canais de marketing ao Administrador dos Canais de marketing.
 1. Clique em **[!UICONTROL Salvar.]**
 1. Para configurar regras para o canal, clique em **[!UICONTROL Regras de processamento de canal de marketing]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 
 Definições de campo para a página do [!UICONTROL Gerenciador de canal de marketing].
 
@@ -84,7 +80,7 @@ Definições de campo para a página do [!UICONTROL Gerenciador de canal de mark
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipo </p> </td> 
-   <td colname="col2"> <p> Especifica como o usuário chegou ao seu site. É possível selecionar <span class="uicontrol">online </span>ou <span class="uicontrol">offline</span>. É possível usar canais Online para visitantes que chegam por meio de um mecanismo de busca ou campanha por email. Os canais offline são aplicados a visitantes que localizam seu site por meio de cupons em jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">Origens de Dados</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Especifica como o usuário chegou ao seu site. É possível selecionar <span class="uicontrol">online </span>ou <span class="uicontrol">offline</span>. É possível usar canais Online para visitantes que chegam por meio de um mecanismo de busca ou campanha por email. Os canais offline são aplicados a visitantes que localizam seu site por meio de cupons em jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Origens de Dados</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cor do canal </p> </td> 
