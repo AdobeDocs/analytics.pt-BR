@@ -9,7 +9,7 @@ title: Usuários do Connect em vários dispositivos
 topic: Desenvolvedor e implementação
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ Quando você fornece uma [!UICONTROL variável ID] de visitante com uma ocorrên
 
 Normalmente, a [!UICONTROL ID de visitante] é definida após a autenticação ou depois que um visitante executa alguma ação que permite a identificação exclusiva independentemente do dispositivo usado. É recomendável criar um hash do nome do usuário ou uma ID interna que não contém informações pessoais identificáveis.
 
-No [exemplo anterior](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), depois que o cliente entre com cada dispositivo, todos estão associados ao mesmo perfil do usuário. Se o visitante sair de um dispositivo posteriormente, a transição continua a funcionar, pois as [!UICONTROL IDs do visitante] que estão armazenadas em um cookie de cada dispositivo já estão associadas ao mesmo perfil do visitante. É recomendável preencher a variável [!UICONTROL s.visitorID] sempre que possível caso o cookie da [!UICONTROL ID de visitante] seja excluído.
+No [exemplo anterior](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), depois que o cliente entre com cada dispositivo, todos estão associados ao mesmo perfil do usuário. Se o visitante sair de um dispositivo posteriormente, a transição continua a funcionar, pois as [!UICONTROL IDs do visitante] que estão armazenadas em um cookie de cada dispositivo já estão associadas ao mesmo perfil do visitante. É recomendável preencher a variável [!UICONTROL s.visitorID] sempre que possível caso o cookie da [!UICONTROL ID de visitante] seja excluído.
 
 ## Visitante exclusivo e Contagem de visitas {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
