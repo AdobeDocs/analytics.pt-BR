@@ -5,9 +5,9 @@ seo-title: Configurar o layout personalizado
 solution: Analytics
 title: Configurar o layout personalizado
 topic: Construtor de relatórios
-uuid: 4 c 1404 b 1-f 20 e -4343-be 97-0 b 4 c 03500 d 52
+uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
