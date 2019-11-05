@@ -5,7 +5,7 @@ seo-title: Relatórios móveis
 title: Relatórios móveis
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -91,7 +91,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Relatório de versão do Java </td> 
-   <td colname="col2"> <p>Agrupa os dispositivos móveis com base na versão do Java que eles suportam. O relatório Versão do Java identifica a versão do Java pelo Java Specification Request (JSR) suportado pelo dispositivo. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Você pode obter mais informações sobre uma JSR específica no site do <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p>Agrupa os dispositivos móveis com base na versão do Java que eles suportam. O relatório Versão do Java identifica a versão do Java pelo Java Specification Request (JSR) suportado pelo dispositivo. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Você pode obter mais informações sobre uma JSR específica no site do <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Relatório de tamanho do URL do Marcador </td> 
