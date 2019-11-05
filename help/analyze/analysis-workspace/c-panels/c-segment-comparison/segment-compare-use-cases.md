@@ -3,7 +3,7 @@ title: Casos de uso de comparação de segmentos
 description: Saiba mais sobre casos de uso reais sobre como o painel de comparação de segmentos pode ser usado para obter informações sobre a estratégia de marketing.
 keywords: IQ do segmento
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -56,7 +56,7 @@ Uma importante empresa de serviços Business-to-Business (B2B) queria entender o
 
 > *"Descobrimos que as pessoas que compravam fitbits estavam 6 vezes mais susceptíveis a receber uma mensagem de 'fora de estoque' do que qualquer outra pessoa, então rapidamente pedimos mais fitbits e evitamos ficar sem estoque!"*
 
-Um grande varejista online estava interessado em saber como um dos melhores produtos de férias, a Fitbit, estava sendo vendido e o que fazia com que os compradores da Fitbit fossem únicos entre outros clientes. Usando a comparação entre segmentos, eles descobriram que os usuários que compravam fitbits tinham uma probabilidade 6 vezes maior de receber uma mensagem de "esgotamento" do que qualquer outro cliente. Após uma análise mais detalhada, a equipe de marketing direcionou esses visitantes para suas lojas de tijolos e argamassas enquanto eles esperavam em seu departamento de compras para solicitar mais Fitbits para serem enviados. Como resultado, o varejista evitou mais mensagens "esgotadas" e satisfez a maior parte de sua demanda de férias.
+**** Cenário: Um grande varejista online estava interessado em saber como um dos melhores produtos de férias - a Fitbit - estava sendo vendido e o que fazia com que os compradores da Fitbit fossem únicos entre outros clientes. A equipe foi capaz de apenas clicar com o botão direito no item da linha "Fitbit" no relatório de produto e executar uma análise IQ de segmento rapidamente. Eles descobriram que os usuários que compravam fitbit estavam 6 vezes mais suscetíveis a receber uma mensagem de "fora de estoque" que qualquer outro cliente. Após a análise, a equipe de marketing foi capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles aguardavam o departamento de compra pedir mais Fitbits para serem enviados. Como resultado, a varejista evitou mais mensagens de “produto esgotado” e pode satisfazer as demandas de datas festivas.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
