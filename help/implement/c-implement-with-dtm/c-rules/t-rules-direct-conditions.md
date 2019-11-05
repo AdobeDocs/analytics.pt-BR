@@ -6,8 +6,8 @@ seo-title: Crie condições para as regras de chamada direta
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Crie condições para as regras de chamada direta
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ Crie condições para as regras de chamada direta.
 
    >[!NOTE]
    >
-   >Se você especificar a sequência a ser transmitida para `_satellite.track()` na sua chamada direta usando a interface do usuário, como descrito acima, não use aspas. Se você inserir o [código de página personalizado](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) usando o editor, deverá usar aspas.
+   >Se você especificar a sequência a ser transmitida para `_satellite.track()` na sua chamada direta usando a interface do usuário, como descrito acima, não use aspas. Se você inserir o [código de página personalizado](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) usando o editor, deverá usar aspas.
 
