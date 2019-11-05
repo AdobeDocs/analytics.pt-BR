@@ -7,7 +7,7 @@ title: Relação de relatórios agendados
 topic: Relatórios
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ Permite que os usuários de nível administrativo vejam e gerenciem relatórios 
 
 Os recursos de nível administrativo no Gerenciador de relatórios agendados incluem:
 
-* A opção para [Mostrar todos os relatórios agendados](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) na sua organização.
-* [Recursos de filtragem avançada](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) dentro na sua organização.
-* A nova aba [Fila de relatórios](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B), que lista todos os relatórios em fila para execução nos servidores de relatório.
-* Exposição da [ID de agendamento](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) na interface da Fila de relatórios.
+* A opção para [Mostrar todos os relatórios agendados](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) na sua organização.
+* [Recursos de filtragem avançada](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) dentro na sua organização.
+* A nova aba [Fila de relatórios](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B), que lista todos os relatórios em fila para execução nos servidores de relatório.
+* Exposição da [ID de agendamento](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) na interface da Fila de relatórios.
 
 ## Mostrar todos os relatórios agendados {#section_3F167CAAEEC24140B476CF95B7402690}
 
