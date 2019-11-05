@@ -5,7 +5,7 @@ seo-title: Novidades na Segmentação do Analytics
 title: Novidades na Segmentação do Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Novos recursos da Segmentação do Adobe Analytics.
 
-* [Novembro de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [Outubro de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
-* [Setembro de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
-* [Junho de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
-* [Janeiro de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
-* [Novembro de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [Outubro de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
-* [Setembro de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [Outubro de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
-* [Setembro de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
-* [Agosto de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
-* [Julho de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [Maio de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [Novembro de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Outubro de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Setembro de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Junho de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Janeiro de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Novembro de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Outubro de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Setembro de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Outubro de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Setembro de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Agosto de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Julho de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Maio de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -75,7 +75,7 @@ Novos recursos da Segmentação do Adobe Analytics.
    <td colname="col2"> <p>Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">use segmentos na análise de Fallout </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >use segmentos na análise de Fallout </a> </p> </td> 
    <td colname="col2"> <p>Crie segmentos a partir de um ponto de contato, adicione segmentos como pontos de contato e compare fluxos de trabalho importantes em vários segmentos na Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Comparação de segmentos </p> </td> 
-   <td colname="col2"> <p> O painel <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html" format="https" scope="external">Comparação de segmentos</a> (QI de segmento) da Analysis Workspace permite aos clientes comparar dois segmentos do Analytics para encontrar as diferenças mais relevantes entre eles em todos os pontos de dados. </p> </td> 
+   <td colname="col2"> <p> O painel <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >Comparação de segmentos</a> (QI de segmento) da Analysis Workspace permite aos clientes comparar dois segmentos do Analytics para encontrar as diferenças mais relevantes entre eles em todos os pontos de dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Permissão <span class="wintitle">Criar segmento</span> </p> </td> 
-   <td colname="col2"> <p>Caso o usuário não tenha a <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">permissão Criar segmento</a>, não será mais capaz de acessar o Construtor de segmentos. </p> </td> 
+   <td colname="col2"> <p>Caso o usuário não tenha a <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >permissão Criar segmento</a>, não será mais capaz de acessar o Construtor de segmentos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alterações de permissão no Criador de segmentos </p> </td> 
-   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Mais...</a> </p> </td> 
+   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Mais...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
