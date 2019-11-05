@@ -8,7 +8,7 @@ title: Instant Articles do Facebook
 topic: Desenvolvedor e implementação
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ O HTML de exemplo abaixo pode ser usado para capturar dados de estatística dos 
    1. O domínio de servidor de rastreamento da sua empresa.
    1. A variável namespace do seu visitante. **Observação:** muitos desses valores podem ser encontrados na sua implementação padrão do Analytics. Caso necessário, o Adobe Customer Care ou Adobe Consulting podem fornecer assistência no fornecimento dos valores apropriados.
 
-1. [Definir a variável personalizada e o rastreamento de eventos](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [Definir a variável personalizada e o rastreamento de eventos](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Inclua a sintaxe de solicitação de visualização da imagem da página `( s.t())`.
 
 ## Etapa 3. Definir a variável personalizada e o rastreamento de eventos {#section_932C41BD21154C25B99389299BDF3E0B}
