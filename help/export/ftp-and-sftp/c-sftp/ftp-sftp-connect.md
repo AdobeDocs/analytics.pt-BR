@@ -7,7 +7,7 @@ solution: Analytics
 title: Conexão com uma conta FTP da Adobe com SFTP
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,4 +35,4 @@ Instruções para configurar a transferência segura com os servidores FTP da Ad
 
 1. Teste a conexão fazendo logon na conta FTP usando SFTP.
 
-[Para obter informações mais detalhadas, consulte ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)Como se conectar à Adobe via sFTP sem uma senha_....
+[Para obter informações mais detalhadas, consulte ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)Como se conectar à Adobe via sFTP sem uma senha_....
