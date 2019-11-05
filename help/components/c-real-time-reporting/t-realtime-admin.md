@@ -7,7 +7,7 @@ title: Configurar relatórios em tempo real
 topic: Ferramentas administrativas
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   Para obter informações sobre métricas e dimensões em tempo real suportadas, consulte Métricas e dimensões [suportadas](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Para obter informações sobre métricas e dimensões em tempo real suportadas, consulte Métricas e dimensões [suportadas](/help/components/c-real-time-reporting/realtime-metrics.md).
 
    Caso tenha criado classificações, elas serão exibidas recuadas abaixo da dimensão para a qual foram definidas:
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >Para um único relatório em tempo real, não oferecemos suporte à ativação de dimensões duplicadas, mesmo se uma classificação diferente for selecionada para cada dimensão.
 
-   Para obter mais informações sobre classificações, consulte [Sobre classificações](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Para obter mais informações sobre classificações, consulte [Sobre classificações](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
