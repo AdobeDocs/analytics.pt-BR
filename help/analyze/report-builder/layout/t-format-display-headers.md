@@ -7,7 +7,7 @@ title: Formatar cabeçalhos de exibição
 topic: Construtor de relatórios
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
    | Nome do Relatório | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parâmetros de filtros | Exibe os filtros de dimensão, como um filtro de pesquisa. |
    | Segmento | Exibe o parâmetro do segmento. |
-   | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Idade dos dados: Exibições de página (há 1,5 h), Saídas (há 30 minutos) Consulte [Opções](../../../analyze/report-builder/options.md) para obter informações sobre o processamento de dados atual. |
+   | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Idade dos dados: Exibições de página (há 1,5 h), Saídas (há 30 minutos) Consulte [Opções](/help/analyze/report-builder/options.md) para obter informações sobre o processamento de dados atual. |
 
    Quanto à ordem de exibição, se a grade [!UICONTROL Rótulo de linha] (na Etapa 2) contiver um item, ela será exibida primeiro na solicitação. Caso contrário, o sistema usará o primeiro item presente na grade [!UICONTROL Rótulo da coluna]. Se não existir nenhum item de linha ou coluna, o primeiro item na grade [!UICONTROL Métricas] será exibido.
 
@@ -43,6 +43,6 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
 
    **Executar contorno automático:** Transforma a data retornada pelo construtor de relatórios a partir de uma exibição em lista para uma exibição em árvore.
 
-   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma solicitação](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D).
+   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma solicitação](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Clique em **[!UICONTROL OK]**.
