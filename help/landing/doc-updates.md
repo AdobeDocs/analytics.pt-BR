@@ -5,7 +5,7 @@ seo-title: Atualizações de documentação do Adobe Analytics
 seo-description: Atualizações de documentação do Adobe Analytics
 short-title: Atualizações de documentação do Analytics
 translation-type: tm+mt
-source-git-commit: cfb8f6e33da0ffa3cc99abc6066493e3b7dc5e9d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -31,11 +31,11 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 22 de julho de 2019 | Adição do Magento: modelo de marketing e comércio para a documentação dos [modelos da Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 de julho de 2019 | Atualização das [Configurações da tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
 | 10 de junho de 2019 | Novo artigo sobre a coleta de dados [regionais (RDC) para a China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
-| 4 de junho de 2019 | Novo guia criado, chamado [Transição de uma plataforma de análise de terceiros para o Adobe Analytics](../technotes/ga-to-aa/home.md). |
-| 30 de maio de 2019 | Reformulação da [Referência da coluna de Feed de dados](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 11 de abril de 2019 | Atualizações em [Otimizar o desempenho do Workspace](../analyze/analysis-workspace/optimizing-performance.md). |
-| 14 de março de 2019 | Atualização importante em [Coleta de dados regionais](../technotes/rdc/regional-data-collection.md). |
-| 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](../admin/admin/general-acct-settings-admin.md). |
-| 1 de fevereiro de 2019 | Atualização importante no plug-in de implementação [getPercentPageViewed](../implement/js-implementation/plugins/getpercentpageviewed.md). |
-| 17 de janeiro de 2019 | Nova configuração de projeto no Analysis Workspace, [Exibir densidade](../analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| 17 de janeiro de 2019 | Atualização importante da [Análise de coorte](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| 4 de junho de 2019 | Novo guia criado, chamado [Transição de uma plataforma de análise de terceiros para o Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
+| 30 de maio de 2019 | Reformulação da [Referência da coluna de Feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| 11 de abril de 2019 | Atualizações em [Otimizar o desempenho do Workspace](/help/analyze/analysis-workspace/optimizing-performance.md). |
+| 14 de março de 2019 | Atualização importante em [Coleta de dados regionais](/help/technotes/rdc/regional-data-collection.md). |
+| 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md). |
+| 1 de fevereiro de 2019 | Atualização importante no plug-in de implementação [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md). |
+| 17 de janeiro de 2019 | Nova configuração de projeto no Analysis Workspace, [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
+| 17 de janeiro de 2019 | Atualização importante da [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
