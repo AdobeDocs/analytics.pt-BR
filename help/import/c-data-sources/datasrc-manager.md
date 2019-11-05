@@ -8,7 +8,7 @@ title: Gerenciador das fontes de dados
 topic: Desenvolvedor e implementação
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatório
 
 A guia [!UICONTROL Criar] permite a configuração de uma nova fonte de dados para o conjunto de relatórios atualmente selecionado. Quando você ativa uma fonte de dados, o [!UICONTROL Assistente das fontes de dados] o orienta ao longo do processo de criação de um modelo de fontes de dados, e cria um local FTP para carregar os dados.
 
-A seleção que você faz na guia Criar determina os campos iniciais do modelo criado. Consulte [Criação de um modelo de arquivo de importação](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+A seleção que você faz na guia Criar determina os campos iniciais do modelo criado. Consulte [Criação de um modelo de arquivo de importação](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Guia Gerenciar {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ A seleção que você faz na guia Criar determina os campos iniciais do modelo c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Concluir Processamento </p> </td> 
-   <td colname="col2"> <p>Instrui as Fontes de Dados a fechar qualquer visita aberta no arquivo e finalizar o processamento do arquivo das Fontes de Dados como se estivesse completo. Isso é útil quando há visitas que abrangem múltiplos arquivos de Fontes de Dados. Isso se aplica somente ao <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Processamento completo</a>. </p> </td> 
+   <td colname="col2"> <p>Instrui as Fontes de Dados a fechar qualquer visita aberta no arquivo e finalizar o processamento do arquivo das Fontes de Dados como se estivesse completo. Isso é útil quando há visitas que abrangem múltiplos arquivos de Fontes de Dados. Isso se aplica somente ao <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Processamento completo</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Desativar </p> </td> 
@@ -49,7 +49,7 @@ A seleção que você faz na guia Criar determina os campos iniciais do modelo c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parar o processamento em caso de erros / avisos </p> </td> 
-   <td colname="col2"> <p> Instrui o Mecanismo de Processamento das Fontes de Dados a parar o processamento quando encontrar um erro. A fonte de dados não reinicia o processamento até que você selecione Reiniciar o Processamento. A interrupção do processamento no caso de avisos aplica-se apenas ao <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Processamento completo</a>. </p> <p>Quando as Fontes de dados encontram um erro de arquivo, elas o notificam do erro. O sistema move o arquivo das Fontes de dados com o erro para uma pasta chamada <span class="filepath">files_with_errors</span> no servidor FTP. Após solucionar o problema, envie novamente o arquivo das Fontes de dados para processamento. </p> </td> 
+   <td colname="col2"> <p> Instrui o Mecanismo de Processamento das Fontes de Dados a parar o processamento quando encontrar um erro. A fonte de dados não reinicia o processamento até que você selecione Reiniciar o Processamento. A interrupção do processamento no caso de avisos aplica-se apenas ao <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Processamento completo</a>. </p> <p>Quando as Fontes de dados encontram um erro de arquivo, elas o notificam do erro. O sistema move o arquivo das Fontes de dados com o erro para uma pasta chamada <span class="filepath">files_with_errors</span> no servidor FTP. Após solucionar o problema, envie novamente o arquivo das Fontes de dados para processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurar </p> </td> 
