@@ -7,7 +7,7 @@ title: Editar variáveis de conversão
 topic: Ferramentas administrativas
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,5 +26,5 @@ Etapas que descrevem como adicionar ou editar variáveis de conversão.
    Clique em **[!UICONTROL Adicionar novo]para adicionar uma eVar não usada ao conjunto de relatórios.**
 1. Selecione os campos de variável de conversão que você deseja modificar.
 
-   Consulte [Variáveis de conversão - Descrição](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alguns campos permitem digitar diretamente neles. Outros permitem selecionar em uma lista suspensa com os valores compatíveis.
+   Consulte [Variáveis de conversão - Descrição](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alguns campos permitem digitar diretamente neles. Outros permitem selecionar em uma lista suspensa com os valores compatíveis.
 1. Clique em **[!UICONTROL Salvar]**.
