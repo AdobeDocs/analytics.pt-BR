@@ -7,7 +7,7 @@ title: Métricas
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 As métricas são a base dos relatórios e ajudam a visualizar e compreender os relacionamentos de dados e habilitar comparações lado-a-lado de diferentes conjuntos de dados sobre seu site da Web. As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante.
 
-## Métricas {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Métricas
 
 As métricas são a base dos relatórios e ajudam a visualizar e compreender os relacionamentos de dados e habilitar comparações lado-a-lado de diferentes conjuntos de dados sobre seu site da Web. As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante.
 
 As métricas e dados associados são exibidos nas colunas dos relatórios. Métricas de tráfego exibem dados sobre o volume de visitantes. Métricas de conversão exibem dados sobre eventos de sucesso como, por exemplo, compras, downloads ou outras ações que você deseja que usuários tenham em seu site.
 
-[Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) são criadas pela combinação de métricas.
+[Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) são criadas pela combinação de métricas.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Selecionar métricas de relatório padrão {#task_9537A607288A4450AE07EC7C070B47C6}
+## Selecionar métricas de relatório padrão
 
 Etapas que descrevem como selecionar métricas padrão no nível do relatório.
 
