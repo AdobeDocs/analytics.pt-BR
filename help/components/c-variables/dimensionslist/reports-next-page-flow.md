@@ -7,7 +7,7 @@ title: Fluxo da próxima página
 topic: Relatórios
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Use esse relatório para:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Clique em <span class="uicontrol">Gráfico</span> para visualizar os dois níveis das páginas mais populares que os seus visitantes visualizam depois da página selecionada. O relatório também destaca quando os visitantes saem do site. </p> <p>Clique em <b>Tabelas</b> para visualizar as próximas páginas em uma lista semelhante ao <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Relatório da próxima página</a>. Contudo, isso também permite navegar para cada <i>Próxima página</i> para visualizar as próximas páginas em cada fluxo de duas páginas. </p> <p>O Reports &amp; Analytics utiliza visualizações de caminho. </p> </td> 
+   <td colname="col2"> <p> Clique em <span class="uicontrol">Gráfico</span> para visualizar os dois níveis das páginas mais populares que os seus visitantes visualizam depois da página selecionada. O relatório também destaca quando os visitantes saem do site. </p> <p>Clique em <b>Tabelas</b> para visualizar as próximas páginas em uma lista semelhante ao <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Relatório da próxima página</a>. Contudo, isso também permite navegar para cada <i>Próxima página</i> para visualizar as próximas páginas em cada fluxo de duas páginas. </p> <p>O Reports &amp; Analytics utiliza visualizações de caminho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
