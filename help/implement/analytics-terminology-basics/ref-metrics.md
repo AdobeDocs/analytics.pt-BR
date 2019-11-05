@@ -8,7 +8,7 @@ title: Métricas
 topic: Desenvolvedor e implementação
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ As métricas são a base dos relatórios e ajudam você a visualizar e compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas calculadas </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">Métricas calculadas</a> permitem que você combine métricas para criar operações matemáticas utilizadas como novas métricas. Essas métricas pode ser criadas para um relatório ao qual você adiciona métricas. Os administradores podem criar métricas calculadas para todos os usuários de um conjunto de relatórios. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html">Métricas calculadas</a> permitem que você combine métricas para criar operações matemáticas utilizadas como novas métricas. Essas métricas pode ser criadas para um relatório ao qual você adiciona métricas. Os administradores podem criar métricas calculadas para todos os usuários de um conjunto de relatórios. </p> </td> 
   </tr> 
  </tbody> 
 </table>
