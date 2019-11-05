@@ -1,5 +1,5 @@
 ---
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 translation-type: tm+mt
 
 ---
@@ -7,11 +7,11 @@ translation-type: tm+mt
 
 No Adobe Analytics, há dois níveis para manter os silos de dados organizados:
 
-* A **login company** is an overarching organization that contains one or more report suites. A login company is comparatively similar to an *account* in other Analytics tools, such as Google Analytics. Os consultores que trabalham com várias organizações normalmente possuem acesso a várias empresas de logon.
-* A **report suite** is a repository where you send data and where you pull reports. Normalmente, um conjunto de relatórios contém dados de um site, mas isso é considerado como critério de cada implementação da organização. A report suite is comparatively similar to a *View* in other analytics tools.
+* Uma empresa **de** logon é uma organização abrangente que contém um ou mais conjuntos de relatórios. Uma empresa de logon é semelhante a uma *conta* em outras ferramentas do Analytics, como o Google Analytics. Os consultores que trabalham com várias organizações normalmente teriam acesso a várias empresas de logon.
+* Um conjunto **de** relatórios é um repositório onde você envia dados e onde obtém relatórios. Um conjunto de relatórios normalmente contém dados de um site, mas isso depende da implementação de cada organização. Um conjunto de relatórios é semelhante a uma *Visualização* em outras ferramentas de análise.
 
-Organizações maiores geralmente têm vários conjuntos de relatórios, uma para cada site ou aplicativo. Verifique com um administrador em sua organização se você não tem certeza de qual conjunto de relatórios você deve usar para obter dados.
+As organizações maiores geralmente têm vários conjuntos de relatórios, um para cada site ou aplicativo. Consulte um administrador em sua organização se não tiver certeza de qual conjunto de relatórios você deve usar para obter dados.
 
-Uma diferença importante entre o método de coleta de dados da Adobe e muitas outras ferramentas é especificar quais conjuntos de relatórios devem ser enviados para dentro da implementação. Isso é diferente de outras ferramentas que normalmente enviam todos os seus dados para um local de coleção e, em seguida, filtra aquilo para exibições ou perfis.
+Uma diferença importante entre o método de coleta de dados da Adobe e muitas outras ferramentas é que você especifica para quais conjuntos de relatórios enviar dados dentro da implementação. Isso é diferente de outras ferramentas que normalmente enviam todos os seus dados para um local de coleta e filtram para exibições ou perfis.
 
-Os conjuntos de relatórios virtuais também estão disponíveis no Adobe Analytics, que fornece uma visão filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. Por exemplo, você pode usar um conjunto de relatórios virtual para eliminar o tráfego de robô não detectado anteriormente ou excluir receita fraudulenta/indireta. See [Virtual report suites](../../components/vrs/vrs-about.md) in the Components user guide for more information.
+Os conjuntos de relatórios virtuais também estão disponíveis no Adobe Analytics, que fornece uma exibição filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. Por exemplo, você pode usar um conjunto de relatórios virtual para eliminar o tráfego de robô não capturado anteriormente, ou excluir a receita fraudulenta/excepcional. Consulte Conjuntos [](/help/components/vrs/vrs-about.md) de relatórios virtuais no guia do usuário Componentes para obter mais informações.
