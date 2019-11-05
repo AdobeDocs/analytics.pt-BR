@@ -5,7 +5,7 @@ seo-title: Exibir anomalias na Analysis Workspace
 title: Exibir anomalias na Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ Ao clicar em um ponto branco, ele ficará verde e exibirá:
 * A data de ocorrência da anomalia
 * O valor bruto da anomalia
 * O valor percentual superior ou inferior ao valor esperado, que é representado pela linha sólida verde.
-* O link Analisar para iniciar a [Análise de contribuição](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
+* O link Analisar para iniciar a [Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 
