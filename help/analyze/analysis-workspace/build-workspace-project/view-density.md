@@ -1,22 +1,22 @@
 ---
-description: Saiba como ajustar a densidade da visualização.
-seo-description: Saiba como ajustar a densidade da visualização nas tabelas da Analysis Workspace.
-seo-title: Configuração da densidade da exibição na Analysis Workspace
-title: Densidade da exibição
+description: Saiba como ajustar a densidade da exibição.
+seo-description: Saiba como ajustar a densidade de visualização nas tabelas da Analysis Workspace.
+seo-title: Exibir configuração de densidade na Analysis Workspace
+title: Exibir densidade
 translation-type: tm+mt
-source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Densidade da exibição
+# Exibir densidade
 
 Ajustar a densidade da exibição permite ver mais dados na tela, ao reduzir o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte.
 Você tem 3 opções ao alternar a densidade da exibição com os botões de opção:
 
-- **[!UICONTROL Compacto]**: Esta é a versão com a exibição mais condensada.
-- **[!UICONTROL Confortável]**: Isso deixa um pouco mais de preenchimento do que a versão Compacta.
-- **[!UICONTROL Expandido]** (padrão): Essa é a exibição usada no Workspace.
+- **[!UICONTROL Compacto]**: Esta é a versão com a visão mais condensada.
+- **[!UICONTROL Confortável]**: Isso deixa um pouco mais espaçador do que a versão Compact.
+- **[!UICONTROL Expandido]** (padrão): Esta é a exibição usada no Workspace.
 
 ![](assets/view-density.png)
 
