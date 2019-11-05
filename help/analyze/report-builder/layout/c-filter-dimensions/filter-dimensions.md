@@ -5,9 +5,9 @@ seo-title: Filtrar visão geral das dimensões
 solution: Analytics
 title: Filtrar visão geral das dimensões
 topic: Construtor de relatórios
-uuid: c 54 d 5 add-f 278-476 d -8 f 14-73 f 1 c 2 e 37671
+uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -40,13 +40,13 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Contém todos os termos </p> </td> 
    <td colname="col02"> <p>Contém cada valor delimitado por espaços em qualquer ordem. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Corresponde <span class="term"> a b cand</span><span class="term"> b a c</span>, e assim por diante. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> a b</span>pode <span class="term"> b c</span>, e assim por diante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contém qualquer termo </p> </td> 
    <td colname="col02"> <p>Contém pelo menos um dos filtros (delimitado por espaços). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Corresponde <span class="term"> A 1</span>, <span class="term"> B 2</span>, <span class="term"> C 3</span>, mas não <span class="term"> D 4</span>. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mas não <span class="term"> D4</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contém a frase </p> </td> 
@@ -58,43 +58,43 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Não contém nenhum termo </p> </td> 
    <td colname="col02"> <p>Retorna tudo a não ser que contenha um valor que você inserir. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Corresponde <span class="term"> d e f</span> , mas não <span class="term"> c d e f</span>. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> d e f</span> mas não <span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Não contém a frase </p> </td> 
    <td colname="col02"> <p>Retorna tudo que não contém sua frase. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Exclui <span class="term"> abc</span>, <span class="term"> abc def</span> e corresponder <span class="term"> a def</span> </p> </td> 
+   <td colname="col3"> <p>Exclui <span class="term"> abc</span>, <span class="term"> abc def</span> e corresponde a <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Igual </p> </td> 
    <td colname="col02"> <p>Retorna uma correspondência exata. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> é retornado e nada mais. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> é devolvido, e nada mais. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Não é igual </p> </td> 
    <td colname="col02"> <p>Retorno qualquer item que não corresponde exatamente à entrada. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Não corresponde <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Matches <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>Não corresponde <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Corresponde a <span class="term"> abc</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inicia com </p> </td> 
    <td colname="col02"> <p>Retorna os resultados que começam com um valor específico. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Corresponde <span class="term"> abcd</span> , mas não <span class="term"> 1 abc</span> </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> abcd</span> , mas não <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Termina com </p> </td> 
    <td colname="col02"> <p>Retorna os resultados que terminam com um valor específico. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Corresponde <span class="term"> wxyz</span> , mas não <span class="term"> wxyz 0</span> </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> wxyz</span> , mas não <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avançado (caracteres especiais) </p> </td> 
    <td colname="col02"> <p>Fornece caracteres regex: </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Página*Inicial$" | esportes </p> </td> 
-   <td colname="col3"> <p> Isso define um filtro que começa com <span class="term"> Início</span>, e procura por zero ou mais caracteres e termina com <span class="term"> a Página</span>. </p> <p>Also, any page with <span class="term"> sports</span> in it. </p> <p>Alguns exemplos de correspondências: </p> 
+   <td colname="col3"> <p> Isso define um filtro que começa com <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>Além disso, qualquer página com <span class="term"> esportes</span> . </p> <p>Alguns exemplos de correspondências: </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Página inicial e (outros caracteres) </li> 
@@ -119,7 +119,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Igual </td> 
-   <td colname="col3"> <p>Sem espaço a não ser quando emparelhado com outra citação. Por exemplo, <span class="term"> 17 "Exibir</span> não é uma frase. </p> </td> 
+   <td colname="col3"> <p>Sem espaço a não ser quando emparelhado com outra citação. Por exemplo, A exibição <span class="term"> de</span> 17" não é uma frase. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
