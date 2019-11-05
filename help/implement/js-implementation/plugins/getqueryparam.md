@@ -9,7 +9,7 @@ title: getQueryParam
 topic: Desenvolvedor e implementação
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Retorna o valor de um parâmetro especificado da string de consulta, se for enco
 
 >[!IMPORTANT]
 >
->Este plugin é usado somente pelo código H. O [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) oferece essa funcionalidade nativamente ao usar o [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Este plugin é usado somente pelo código H. O [AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) oferece essa funcionalidade nativamente ao usar o [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Depois de instalado no [!DNL AppMeasurement] para código JavaScript, o plug-in é configurado ao selecionar uma variável do [!DNL Analytics] para preencher, usando os dados encontrados na sequência de consulta e especificando os valores da sequência de consulta que devem ser capturados. O plug-in detecta a string de consulta especificada, se houver, e preenche a variável escolhida com seu valor. Se nenhum parâmetro de string de consulta for encontrado com esse valor, uma string vazia é retornada. Se um parâmetro da sequência de consulte existe, mas não tem um valor (como param1 em `?param1&param2=value`), a palavra *`true`* é retornada.
 
