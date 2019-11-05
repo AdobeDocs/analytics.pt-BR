@@ -2,67 +2,67 @@
 title: Criar um relatório básico na Analysis Workspace
 description: Saiba como criar um relatório básico na Analysis Workspace em um formato direcionado para usuários familiarizados com ferramentas de terceiros, como o Google Analytics.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
 # Criar um relatório básico na Analysis Workspace para usuários do Google Analytics
 
-A Analysis Workspace (um dos recursos principais do Adobe Analytics) fornece uma área robusta para o usuário obter qualquer insight sobre os dados coletados. O relatório é muito diferente entre o Google Analytics e o Adobe Analytics:
+A Analysis Workspace (um dos principais recursos do Adobe Analytics) fornece uma área robusta para que o usuário obtenha informações sobre os dados coletados. Os relatórios são muito diferentes entre o Google Analytics e o Adobe Analytics:
 
-* A estrutura de relatórios no Google Analytics permite selecionar um tipo específico de dados, como localização geográfica ou tráfego de referências. A plataforma usa uma exibição de relatório pré-fabricação com base na melhor maneira prevista para exibir esses dados.
-* A estrutura de relatórios na Analysis Workspace fornece uma tela em branco, fornecendo mais flexibilidade nas necessidades exatas de relatórios da reunião.
+* A estrutura de relatórios no Google Analytics permite selecionar um tipo específico de dados, como localização geográfica ou tráfego de referência. A plataforma usa uma exibição de relatório pré-fabricada com base na melhor maneira de visualizar esses dados.
+* A estrutura de relatórios na Analysis Workspace oferece uma tela em branco, proporcionando mais flexibilidade para atender às necessidades exatas de relatórios.
 
-Como a Analysis Workspace funciona mais como uma tela do que os relatórios pré-fabricados, recriar relatórios do Google Analytics é simplesmente uma questão de uso das visualizações e componentes corretos.
+Como a Analysis Workspace funciona mais como uma tela do que relatórios prefabricados, recriar relatórios do Google Analytics é simplesmente uma questão de usar as visualizações e os componentes certos.
 
-## Termos-chave usados na Workspace
+## Termos principais usados no Workspace
 
-* **Os painéis** são os blocos de construção abrangentes do espaço de trabalho. Em quase todos os cenários, um painel de Forma livre é usado.
-* **As visualizações** compõem todos os painéis de forma livre. Sua finalidade é representar dados em diferentes formatos. A maioria das vezes que o formato é uma tabela, mas outras vezes pode ser algo como um gráfico de rosca ou linha. Muitos relatórios do Google Analytics são feitos do equivalente a duas visualizações: um gráfico de linha e uma tabela de forma livre.
-* **Os componentes** são colocados em uma visualização para retornar dados. Os componentes podem ser misturados de várias formas diferentes para atender às necessidades de relatórios.
-   * **As dimensões** são valores variáveis e geralmente contêm texto. Os exemplos incluem nome da página, referenciador ou país geográfico. Eles são listados com mais frequência como linhas em uma tabela.
-   * **Normalmente, as métricas** significam um evento ou conversão de alguma classificação. Exemplos incluem eventos comuns, como uma exibição de página, ou algo mais significativo como uma compra ou registro. Eles são vistos como colunas em tabelas para mostrar o número de vezes que o evento ocorreu por dimensão.
-   * **Os segmentos** são um subconjunto de seus dados e se comportam de forma semelhante aos segmentos no Google Analytics. Eles permitem que você faça filtros personalizados, permitindo que você se concentre em uma parte específica dos seus dados.
-   * **Os intervalos** de datas permitem organizar os dados quando ocorrer um evento. Eles são a dorsal da visualização de tendências ao longo do tempo, e geralmente são pareados com uma métrica.
+* **Os painéis** são os blocos componentes principais do espaço de trabalho. Em quase todos os cenários, um painel de forma livre é usado.
+* **As visualizações** formam todos os painéis de forma livre. O seu objetivo é representar dados em diferentes formatos. Na maioria das vezes esse formato é uma tabela, mas outras vezes pode ser algo como um gráfico de rosca ou de linha. Muitos relatórios no Google Analytics são feitos do equivalente a duas visualizações: um gráfico de linha e uma tabela de forma livre.
+* **Os componentes** são colocados em uma visualização para retornar dados. Os componentes podem ser misturados de várias maneiras diferentes para atender às necessidades de relatórios.
+   * **Dimensões** são valores variáveis e geralmente contêm texto. Os exemplos incluem nome de página, referenciador ou país geográfico. Eles são listados com mais frequência como linhas em uma tabela.
+   * **As métricas** normalmente significam um evento ou conversão de algum tipo. Os exemplos incluem eventos comuns, como uma exibição de página, ou algo mais significativo, como uma compra ou um registro. Normalmente, são vistas como colunas em tabelas para mostrar o número de vezes que o evento ocorreu por dimensão.
+   * **Os segmentos** são um subconjunto de seus dados e se comportam de forma semelhante aos segmentos no Google Analytics. Eles permitem que você crie filtros personalizados, permitindo que você se concentre em uma parte específica dos seus dados.
+   * **Os intervalos** de datas permitem organizar os dados quando um evento ocorreu. Elas são a espinha dorsal da exibição de tendências ao longo do tempo e são normalmente pareadas com uma métrica.
 
 ## Criar um relatório básico no Workspace
 
-Crie um relatório de Todas as páginas (similar ao do Google Analytics), arrastando os componentes certos para uma tela de área de trabalho.
+Crie um relatório Todas as páginas (semelhante ao do Google Analytics) arrastando os componentes certos para uma tela de espaço de trabalho.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Clique no ícone de 9-quadrado na parte superior direita e clique no logotipo colorido do Analytics.
+1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
+2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
 3. Na barra de navegação superior, clique em Espaço de trabalho.
-4. Clique no botão «Criar novo projeto».
+4. Clique no botão 'Criar novo projeto'.
 5. No pop-up modal, verifique se "Projeto em branco" está selecionado e clique em Criar.
-6. À esquerda, é mostrada uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela denominada "Soltar uma dimensão aqui".
-7. Um relatório que mostra as principais páginas deste mês pode ser visualizado. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
-8. Uma tabela no Google Analytics geralmente contém 7-8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
-9. Muitas métricas podem ser colocadas lado a lado arrastando métricas ao lado dos cabeçalhos de métricas existentes. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
+6. À esquerda, uma lista de dimensões, métricas, segmentos e intervalos de datas é exibida. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela chamada 'Soltar uma dimensão aqui'.
+7. Um relatório que mostra as principais páginas deste mês pode ser visto. A Analysis Workspace preenche automaticamente o relatório com a métrica [Ocorrências](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
+8. Uma tabela no Google Analytics geralmente contém 7 a 8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
+9. Muitas métricas podem ser colocadas lado a lado arrastando métricas ao lado dos cabeçalhos de métricas existentes. Veja as métricas [usadas com](common-metrics.md) frequência para obter informações sobre como obter métricas normalmente usadas no Google Analytics.
 
-   ![Nova métrica](../assets/new_metric.png)
+   ![Nova métrica](/help/technotes/ga-to-aa//assets/new_metric.png)
 
-## Comece com um modelo de relatório pré-integrado no Workspace
+## Começar com um modelo de relatório pré-criado no Workspace
 
-Crie o modelo de Consumo de conteúdo (similar ao relatório Todas as páginas no Google Analytics) acessando um modelo de projeto.
+Crie o modelo de Consumo de conteúdo (semelhante ao relatório Todas as páginas no Google Analytics) acessando um modelo de projeto.
 
-1. Clique no botão «Criar novo projeto».
-2. Localize e clique duas vezes no ícone «Consumo de conteúdo (Web)» listado em Todos os modelos.
-3. Navegue por cada uma das visualizações que foram pré-criadas: Fluxo da página de entrada, Tabela de páginas principais, Fluxo da página de saída, Fluxo de seção do site de entrada e Tabela de seções do site superior.
+1. Clique no botão 'Criar novo projeto'.
+2. Localize e clique duas vezes no ícone 'Consumo de conteúdo (Web)' listado em Todos os modelos.
+3. Procure cada uma das visualizações que foram pré-criadas: Fluxo de Página de Entrada, Tabela de Páginas Principais, Fluxo de Página de Saída, Fluxo de Seção do Site de Entrada e Tabela de Seções Principais do Site.
 
-   ![Seleção de modelo](../assets/content_consumption_template.png)
+   ![Seleção do modelo](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
-## Teste com a ferramenta
+## Experimente com a ferramenta
 
-Como a Analysis Workspace é uma ferramenta de relatórios, ela não afeta a coleta de dados. Não há repercussões para arrastar os componentes indiscriminadamente para um projeto para ver o que funciona. Arraste combinações diferentes de dimensões e métricas para o projeto do espaço de trabalho para ver o que está disponível para você.
+Como a Analysis Workspace é uma ferramenta de relatório, ela não tem impacto na coleta de dados. Não há repercussão em arrastar indiscriminadamente componentes para um projeto para ver o que funciona. Arraste diferentes combinações de dimensões e métricas para o projeto da área de trabalho para ver o que está disponível.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do espaço de trabalho ou voltar uma etapa, pressione ctrl + Z (Windows) ou cmd + Z (Mac) para desfazer a última ação realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
+Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto]&gt;[!UICONTROL Novo]* no menu superior esquerdo.
 
-A Adobe colocou uma grande funcionalidade na Analysis Workspace no menu de contexto com clique direito. A maioria das visualizações e componentes pode ser clicada com o botão direito do mouse para uma análise e interação mais detalhadas. Considere clicar com o botão direito do mouse nos componentes na área de trabalho para ver quais opções estão disponíveis.
+A Adobe colocou muita funcionalidade na Analysis Workspace no menu de contexto do clique com o botão direito do mouse. A maioria das visualizações e componentes pode ser clicada com o botão direito do mouse para obter uma análise e interação mais detalhadas. Considere a possibilidade de clicar com o botão direito do mouse nos componentes da sua área de trabalho para ver quais opções estão disponíveis.
 
-## Entender quais dimensões e métricas usar
+## Entenda quais dimensões e métricas usar
 
-Se você estiver confortável com a Analysis Workspace e quiser recriar um relatório específico normalmente visualizado no Google Analytics, localize o relatório em sua respectiva página:
+Se você estiver confortável com a Analysis Workspace e quiser recriar um relatório específico normalmente exibido no Google Analytics, localize o relatório em sua respectiva página:
 
 * [Relatórios em Tempo real](realtime-reports.md)
 * [Relatórios de público-alvo](audience-reports.md)
