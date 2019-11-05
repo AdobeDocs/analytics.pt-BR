@@ -8,7 +8,7 @@ title: Como as regras de processamento funcionam
 topic: Ferramentas administrativas
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
  <tbody> 
   <tr> 
    <td colname="col1"> <p>As regras se aplicam a um único conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Cópia das regras de processamento para outro conjunto de relatórios </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Cópia das regras de processamento para outro conjunto de relatórios </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são aplicadas na ordem em que estão relacionadas. </p> </td> 
@@ -41,15 +41,15 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Depois de salvas, as regras de processamento são aplicadas imediatamente ao conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são o único modo de acessar variáveis de dados de contexto. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar uma variável de dados de contexto para uma eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar uma variável de dados de contexto para uma eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são aplicadas antes das regras VISTA e das regras de Canal de marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Ordem de processamento </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Ordem de processamento </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ocorrências não podem ser excluídas. </p> </td> 
@@ -81,7 +81,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>As comparações de valores na interface do usuário não distinguem letras maiúsculas de minúsculas. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Limpando valores em um relatório </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Limpando valores em um relatório </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Os nomes da variável de dados de contexto podem conter somente caracteres alfanuméricos, sublinhados e pontos. Quaisquer caracteres adicionais são excluídos. </p> </td> 
