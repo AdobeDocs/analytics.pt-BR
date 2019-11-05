@@ -7,7 +7,7 @@ title: Visitantes únicos
 topic: Métricas
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ A versão 15 remove [!UICONTROL Visitas] e [!UICONTROL Visitantes únicos] do re
 | Conversão | Um visitante é uma pessoa que entra no site. É contado quando um evento relacionado à conversão ou ação ocorre. |
 | Ad Hoc Analysis | Um visitante é uma pessoa que entra no site. Não requer um cookie persistente. |
 
-Consulte Relatório de visitantes [únicos - Versão 15 e Análise](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)ad hoc.
+Consulte Relatório de visitantes [únicos - Versão 15 e Análise](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)ad hoc.
 
 >[!MORELIKETHIS]
 >
