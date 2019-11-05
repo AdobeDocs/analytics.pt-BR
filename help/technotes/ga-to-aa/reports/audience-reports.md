@@ -1,8 +1,8 @@
 ---
 title: Relatórios de público-alvo no Adobe Analytics
-description: Saiba como criar relatórios baseados em público-alvo usando a Analysis Workspace.
+description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 Os relatórios de público-alvo mostram informações sobre os tipos de pessoas que visitam seu site.
 
-Esta página considera que o usuário tem um conhecimento básico sobre como usar a Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+Esta página supõe que o usuário tenha um conhecimento básico sobre o uso da Analysis Workspace. Consulte [Criar um relatório básico na Analysis Workspace para usuários](create-report.md) do Google Analytics se você ainda não estiver familiarizado com a ferramenta no Adobe Analytics.
 
 ## Usuários ativos
 
-Os usuários ativos mostram o número cumulativo de usuários para o site nos últimos 1, 7, 14 ou 28 dias. Embora a Adobe não tenha o cálculo exato usado no Google Analytics, você pode usar a métrica Visitantes únicos para ver uma contagem desduplicada de usuários ao site com base no intervalo de datas selecionado.
+Os usuários ativos mostram o número cumulativo de usuários do site nos 1, 7, 14 ou 28 dias anteriores. Embora a Adobe não tenha o cálculo exato usado no Google Analytics, você pode usar a métrica Visitantes únicos para ver uma contagem desduplicada de usuários no site com base no intervalo de datas selecionado.
 
-Para obter um gráfico de linha de visitantes únicos:
+Para obter um gráfico de linhas de visitantes únicos:
 
-1. Clique no ícone Visualizações à esquerda e arraste a visualização Linha até a área de trabalho acima da tabela vazia de forma livre.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
-3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) sobre o cabeçalho da dimensão de datas existente.
+1. Clique no ícone Visualizações à esquerda e arraste a visualização de Linha para a área de trabalho acima da tabela de forma livre vazia.
+2. Clique no ícone Componentes à esquerda e arraste a métrica Visitantes **** únicos para o espaço menor chamado 'Solte uma métrica aqui'.
+3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) na parte superior do cabeçalho da dimensão de data existente.
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
+Consulte Visitantes [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) únicos no guia do usuário Componentes para obter detalhes sobre como a Adobe calcula visitantes únicos.
 
 ## Valor de tempo de vida
 
-O valor histórico é um recurso que requer implementação especializada adicional em ambas as plataformas. A Adobe recomenda trabalhar com um consultor de implementação para obter esses dados.
+O valor da vida útil é um recurso que requer implementação especializada adicional em ambas as plataformas. A Adobe recomenda trabalhar com um consultor de implementação para obter esses dados.
 
 ## Análise de coorte
 
@@ -36,27 +36,27 @@ A Análise de coorte mostra a frequência com que os mesmos usuários retornam a
 Para criar uma tabela de coorte:
 
 1. Clique no ícone Visualização à esquerda e arraste a visualização da Tabela de coorte para a área de trabalho.
-2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
+2. Clique no ícone Componentes à esquerda e arraste a métrica **Visitas** para os Critérios de inclusão e de retorno.
 3. Clique em Construir.
 
-See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
+Consulte Análise [de](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) coorte no guia do usuário da Analysis Workspace para obter detalhes sobre personalizações adicionais para a visualização de coorte.
 
 ## Públicos-alvo
 
 O relatório de Públicos-alvo no Google Analytics requer a configuração de públicos-alvo. Os públicos-alvo também exigem configuração na Adobe por meio do Adobe Audience Manager. Consulte o guia do usuário do Adobe Audience Manager para obter mais informações.
 
-## User Explorer
+## Explorador de usuários
 
-O relatório do Usuário do Explorer permite que um analista visualize visitas individuais por meio de identificadores anônimos. A Adobe não coloca os identificadores de backend fora dos feeds de dados, que são exportações brutas de dados em nível de ocorrência.
+O relatório do Explorador de usuários permite que um analista visualize visitas individuais por meio de identificadores anônimos. A Adobe não exibe os identificadores de backend fora dos feeds de dados, que são exportações brutas de dados no nível de ocorrência.
 
-* Se esses dados forem desejados na Analysis Workspace, será possível trabalhar com um consultor de implementação para passar o valor do cookie exclusivo de identificador anônimo em uma evar. Observe que isso só funciona com implementações menores que consistem de menos de 1 milhão de visitantes únicos por mês.
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](../../../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* Se esses dados forem desejados na Analysis Workspace, é possível trabalhar com um consultor de implementação para passar o valor do cookie identificador único anônimo para uma eVar. Observe que isso só funciona com implementações menores, consistindo em menos de 1 milhão de visitantes únicos por mês.
+* Se esses dados forem desejados nos feeds de dados, as colunas concatenadas `visid_high` e `visid_low` são a maneira mais comum de identificar visitantes únicos. Saiba mais sobre os Feeds [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dados no guia do usuário Exportar.
 
-## Relatórios Demográficos e Interesses
+## Relatórios de demografia e interesses
 
-Os dados demográficos e de interesses fornecem informações sobre idade, gênero e interesses dos usuários do site. Esses dados são coletados pelo Google por meio de suas capacidades de rastreamento entre sites.
+Os dados demográficos e de interesses fornecem informações sobre a idade, o gênero e os interesses dos usuários do site. Esses dados são coletados pelo Google através de suas habilidades de rastreamento entre sites.
 
-Os dados demográficos e de interesses não são coletados automaticamente pela Adobe. No entanto, se a sua organização obtém esses dados, você pode usar Atributos do cliente, um recurso na plataforma Adobe Experience Cloud. Isso permite controlar totalmente a organização de dados por atributos, e não está limitada a apenas demografia ou interesses.
+Dados demográficos e de interesse não são coletados automaticamente pela Adobe. No entanto, se sua organização obtiver esses dados, você poderá usar Atributos do cliente, um recurso na plataforma da Adobe Experience Cloud. Permite o controle total da organização de dados por atributos, e não se limita a apenas demografia ou interesses.
 
 Consulte a Ajuda dos atributos do cliente para obter mais informações.
 
@@ -66,122 +66,122 @@ O relatório de idioma geográfico mostra o tráfego do site pela configuração
 
 Para criar um relatório de idioma:
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu Componentes, localize a dimensão **Idioma** e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
+Consulte a dimensão [Idioma](/help/components/c-variables/dimensionslist/reports-languages.md) no guia do usuário Componentes para obter mais informações.
 
-## Localização geográfica - Local
+## Geo - Localização
 
-O relatório de localização geográfica fornece uma exibição do mapa global, quebrando dados por país.
+O relatório de localização geográfica fornece uma exibição de mapa mundial, dividindo dados por país.
 
 Para criar um relatório de localização geográfica:
 
-1. Clique no ícone Visualizações à esquerda e arraste a visualização de Mapa para a área de trabalho acima da tabela vazia de forma livre.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
+1. Clique no ícone Visualizações à esquerda e arraste a visualização do Mapa para a área de trabalho acima da tabela de forma livre vazia.
+2. Clique no ícone Componentes à esquerda e arraste a métrica Visitantes **** únicos para o espaço chamado 'Adicionar métrica'.
 3. Clique em Construir.
 
-Se a tabela também for desejada, além do mapa:
+Se a tabela também for desejada além do mapa:
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu Componentes, localize a dimensão **Países** e arraste-a até a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
+Consulte Dimensões de [segmentação](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) geográfica no guia do usuário Componentes para obter mais informações.
 
-## Comportamento - Novo vs. recorrente
+## Comportamento - Novo vs Retorno
 
-O novo relatório vs recorrente fornece uma visualização simplificada das primeiras sessões (novas visitas) vs. sessões subsequentes (visitas de retorno).
+O relatório novo vs recorrente oferece uma visualização simplificada das primeiras sessões (novas visitas) vs. sessões subsequentes (visitas de retorno).
 
-Para criar um relatório de visitas novo e recorrente:
+Para criar um novo relatório de visitas vs. retorno:
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
-2. Locate the **Return Visits** segment and drag it on top of the Segments row header. Isso adiciona o segmento como uma dimensão abaixo de Visitas pela primeira vez, permitindo uma comparação fácil.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize o segmento Visitas **pela** primeira vez e arraste-o para a grande área da tabela de forma livre chamada 'Soltar uma dimensão aqui'. Observe que **primeiras visitas** é um segmento, enquanto o Workspace normalmente usa dimensões para representar linhas.
+2. Localize o segmento Visitas **de** retorno e arraste-o para a parte superior do cabeçalho da linha Segmentos. Isso adiciona o segmento como uma dimensão abaixo de Primeiras visitas, permitindo uma comparação fácil.
+3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
 Se um gráfico de linha também for desejado:
 
-1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Linha até a área de trabalho acima da tabela de forma livre
-2. Use ctrl + clique (Windows) ou cmd + clique (Mac) em cada linha na tabela de forma livre para destacá-los. Isso permite que ambas as tendências sejam exibidas na visualização de linha.
-3. Clique no ponto colorido pequeno no canto superior esquerdo da visualização da linha e clique na caixa de seleção «Bloquear seleção».
+1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Linha para o espaço de trabalho acima da tabela de forma livre
+2. Use ctrl+clique (Windows) ou cmd+clique (Mac) em cada linha na tabela de forma livre para realçá-los. Isso permite que ambas as tendências apareçam na visualização de linha.
+3. Clique no pequeno ponto colorido arredondado no canto superior esquerdo da visualização de linha e clique na caixa de seleção 'Bloquear seleção'.
 
-## Comportamento - Frequência e tempo decorrido
+## Comportamento - Frequência e Idade
 
-The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
+O relatório de frequência e recenticidade é aproximadamente igual à dimensão Número **de** visitas na Analysis Workspace.
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão Número **de** visitas e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
+Consulte a dimensão Número [da](/help/components/c-variables/dimensionslist/reports-visitor-number.md) visita no guia do usuário Componentes para obter mais informações.
 
 ## Comportamento - Envolvimento
 
-The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
+O relatório de envolvimento é aproximadamente igual à dimensão **Tempo gasto por visita - Classificado** .
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão **Tempo gasto por visita - Classificado** e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
+Consulte a dimensão [Tempo gasto por visita](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) no guia do usuário Componentes para obter mais informações.
 
 ## Tecnologia - Navegador e SO
 
-Há várias dimensões primárias disponíveis no relatório Navegador e SO.
+Há várias dimensões principais disponíveis no relatório Navegador e SO.
 
-* The **Browser** primary dimension is also available in Analysis Workspace as a dimension.
-* The **Operating System** primary dimension is also available in Analysis Workspace as a dimension.
-* The **Screen Resolution** primary dimension is available in Analysis Workspace as the **Monitor Resolution** dimension.
-* The **Screen Colors** primary dimension is available in Analysis Workspace as the **Color Depth** dimension.
-* The **Flash Version** primary dimension is not available in Adobe Analytics, however this data can be collected by an eVar if wanted.
+* A dimensão principal **do Navegador** também está disponível na Analysis Workspace como uma dimensão.
+* A dimensão principal do Sistema **** Operacional também está disponível na Analysis Workspace como uma dimensão.
+* A dimensão principal de Resolução **de** tela está disponível na Analysis Workspace como a dimensão Resolução **do** monitor.
+* A dimensão principal de Cores **de** tela está disponível na Analysis Workspace como a dimensão Profundidade **de** cor.
+* A dimensão principal da versão **do** Flash não está disponível no Adobe Analytics, no entanto, esses dados podem ser coletados por uma eVar, se desejado.
 
-1. No menu de componentes, localize a dimensão desejada acima e arraste-a para a grande área de tabela de forma livre denominada "Soltar uma dimensão aqui".
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão desejada anotada acima e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre sua respectiva dimensão:
+Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre suas respectivas dimensões:
 
-* [Navegador](../../../components/c-variables/dimensionslist/reports-browsers.md)
-* [Sistema operacional](../../../components/c-variables/dimensionslist/reports-operating-system.md)
-* [Resolução do Monitor](../../../components/c-variables/dimensionslist/reports-technology.md)
-* [Intensidade de cor](../../../components/c-variables/dimensionslist/reports-color-depth.md)
+* [Navegador](/help/components/c-variables/dimensionslist/reports-browsers.md)
+* [Sistema operacional](/help/components/c-variables/dimensionslist/reports-operating-system.md)
+* [Resolução do Monitor](/help/components/c-variables/dimensionslist/reports-technology.md)
+* [Intensidade de cor](/help/components/c-variables/dimensionslist/reports-color-depth.md)
 
 ## Tecnologia - Rede
 
-The network report is approximately equal to the **Domain** dimension.
+O relatório de rede é aproximadamente igual à dimensão **Domínio** .
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão **Domínio** e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
+Consulte a dimensão [Domínio](/help/components/c-variables/dimensionslist/reports-domains.md) no guia do usuário Componentes para obter mais informações.
 
-## Móvel - Visão geral
+## Dispositivo móvel - Visão geral
 
-The mobile overview report is approximately equal to the **Mobile Device Type** dimension. Observe que o valor «Outros» equivale ao tráfego da área de trabalho.
+O relatório de visão geral móvel é aproximadamente igual à dimensão Tipo **de dispositivo** móvel. Observe que o valor "Outros" equivale ao tráfego de desktop.
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão Tipo **de dispositivo** móvel e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
+Consulte a dimensão Tipo [de dispositivo](/help/components/c-variables/dimensionslist/reports-device-types.md) móvel no guia do usuário Componentes para obter mais informações.
 
-## Dispositivos móveis - Dispositivos
+## Dispositivos móveis
 
-The mobile devices report is approximately equal to the **Mobile Device** dimension.
+O relatório de dispositivos móveis é aproximadamente igual à dimensão Dispositivo **** móvel.
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. No menu de componentes, localize a dimensão Dispositivo **** móvel e arraste-a para a grande área da tabela de forma livre chamada 'Solte uma dimensão aqui'.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o guia [de tradução de](common-metrics.md) métricas para obter detalhes sobre como obter cada métrica respectiva.
 
-See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
+Consulte a dimensão Dispositivo [](/help/components/c-variables/dimensionslist/reports-devices.md) móvel no guia do usuário Componentes para obter mais informações.
 
-## Personalizado 
+## Personalizado
 
-Os relatórios personalizados são definidos com base em cada implementação. Entre em contato com o administrador e/ou o consultor de implementação do Analytics para interpretar esses relatórios. Typically an organization maintains a [Solution Design Document](../../../implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
+Os relatórios personalizados são definidos com base em cada implementação. Trabalhe com o administrador do Analytics e/ou consultor de implementação de sua organização para interpretar esses relatórios. Normalmente, uma organização mantém um Documento [de design de](/help/implement/prepare/solution-design.md) solução para rastrear os valores de variáveis personalizadas e como eles são preenchidos.
 
-## Benchmarking
+## Análise comparativa
 
-Os relatórios de comparação permitem que você veja como as facetas de seus dados se comparam às médias do setor. No momento, a Adobe não compartilha dados de benchmarking entre seus clientes.
+Os relatórios de Benchmarking permitem que você veja como as facetas dos seus dados se comparam às médias do setor. A Adobe não compartilha dados de benchmarking entre seus clientes no momento.
 
 ## Fluxo de usuários
 
 O relatório de fluxo está disponível em ambas as plataformas. Para criar um relatório de fluxo:
 
-1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Fluxo até a área de trabalho acima da tabela de forma livre
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Os valores de dimensão são coloridos amarelos.
-3. Localize o valor da página desejada para começar e arraste-o para o espaço denominado "Dimensão ou item" no centro
-4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito para expandir ou recolher colunas. Diferentes dimensões também podem ser usadas no mesmo relatório de fluxo.
+1. Clique no ícone de visualizações à esquerda e arraste uma visualização de Fluxo para o espaço de trabalho acima da tabela de forma livre
+2. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os valores de dimensão têm cor amarela.
+3. Localize o valor da página desejada para começar e arraste-o para o espaço chamado 'Dimensão ou item' no centro
+4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
