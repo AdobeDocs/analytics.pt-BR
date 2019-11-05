@@ -8,7 +8,7 @@ title: Implementar opções de não participação da Adobe
 topic: Desenvolvedor e implementação
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,7 +34,7 @@ Os visitantes podem obter mais informações sobre como a Adobe usa as informaç
 
 A Adobe oferece três tipos de opções de não participação do Adobe Analytics (incluindo [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Se você implementar os produtos do Adobe Analytics com cookies próprios, será necessário [desenvolver seu próprio link para opção de não participação personalizado](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) para os visitantes do site.
+* Se você implementar os produtos do Adobe Analytics com cookies próprios, será necessário [desenvolver seu próprio link para opção de não participação personalizado](/help/implement/js-implementation/data-collection/opt-out-link.md) para os visitantes do site.
 * Seus clientes têm a opção de ativar o cancelamento usando as configurações de cookies do navegador. Consulte [Ativação das configurações de privacidade de cookies do navegador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Independentemente do mecanismo de opção escolhido, a Adobe recomenda que você descreva claramente a disponibilidade do mecanismo de opção na sua política de privacidade ou, do contrário, como exigido por lei ou recomendado de acordo com as práticas recomendadas.
