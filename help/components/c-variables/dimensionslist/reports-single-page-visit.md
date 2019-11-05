@@ -7,7 +7,7 @@ title: Visita única à página
 topic: Relatórios
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Este relatório é geralmente mais usado no contexto do relatório de [!UICONTRO
 
 * Uma visita única à página é considerada uma visita contendo um único valor, não uma única solicitação de imagem.
 
-   * No contexto de um [relatório de páginas](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), somente uma única página pode disparar durante a visita.
-   * No contexto de um relatório [de seções do](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)site, uma única seção exclusiva do site é acionada na visita.
+   * No contexto de um [relatório de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), somente uma única página pode disparar durante a visita.
+   * No contexto de um relatório [de seções do](/help/components/c-variables/dimensionslist/reports-site-sections.md)site, uma única seção exclusiva do site é acionada na visita.
    * No contexto de uma variável [de](/help/admin/admin/c-traffic-variables/traffic-var.md)tráfego, uma visita preenche este relatório se um único valor exclusivo for acionado.
 
 * As visitas únicas à página podem consistir em várias solicitações de imagem, desde que a variável no contexto do relatório contenha um único valor exclusivo. Assim que um segundo valor exclusivo é preenchido, a visita não é mais considerada como uma visita única à página.
