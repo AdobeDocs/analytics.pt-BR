@@ -5,7 +5,7 @@ seo-title: Publicar no Power BI - Visão geral
 title: Publicar no Power BI - Visão geral
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Combinar a capacidade de geração de relatórios do Construtor de relatórios c
 
 A integração com o Construtor de relatórios da Adobe permite
 
-* [Publicar pastas de trabalho agendadas do Construtor de relatórios no Power BI](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [Publicar todas as solicitações do Construtor de relatórios como tabelas de conjuntos de dados do Power BI](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Publicar pastas de trabalho agendadas do Construtor de relatórios no Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publicar todas as solicitações do Construtor de relatórios como tabelas de conjuntos de dados do Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Requisitos do sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [instalado](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [instalado](/help/analyze/report-builder/setup/t-install-arb.md)
 * Ative a conta da Microsoft que permite fazer logon no Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Opcional) É possível personalizar o nome do ativo publicado no Power BI. Isso pode ser útil caso use o controle de versão como parte do nome da pasta de trabalho (como minhapastadetrabalho_v1.1.xlsx) e não queira que o número da versão apareça no nome do ativo publicado no Power BI. Isso possui a vantagem extra de que o ativo publicado não se alterará se a número da versão sofrer alteração. (Consulte as [especificações](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD) aqui.)
+1. (Opcional) É possível personalizar o nome do ativo publicado no Power BI. Isso pode ser útil caso use o controle de versão como parte do nome da pasta de trabalho (como minhapastadetrabalho_v1.1.xlsx) e não queira que o número da versão apareça no nome do ativo publicado no Power BI. Isso possui a vantagem extra de que o ativo publicado não se alterará se a número da versão sofrer alteração. (Consulte as [especificações](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) aqui.)
 
 **Exibir os dados da tabela no Power BI**
 
