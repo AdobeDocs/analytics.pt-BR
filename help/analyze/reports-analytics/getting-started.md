@@ -8,7 +8,7 @@ title: Introdução ao Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ Etapas que descrevem como gerar um relatório.
 
 1. Faça logon em [!UICONTROL Reports &amp; Analytics].
 
-   O menu Relatórios é exibido ou um [painel](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) é exibido, se você tiver configurado um.
+   O menu Relatórios é exibido ou um [painel](/help/analyze/reports-analytics/dashboard.md) é exibido, se você tiver configurado um.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## Editar as configurações de conta do usuário
 
@@ -116,11 +116,11 @@ Todos os utilizadores têm acesso à página de [!UICONTROL Informações da con
   </tr> 
   <tr> 
    <td> <p> Logon </p> </td> 
-   <td> <p>Exibe o nome de usuário, e permite que você altere a senha da conta. </p> <p>Consulte também: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Como redefinir a senha da conta de Reports &amp; Analytics</a>. </p> </td> 
+   <td> <p>Exibe o nome de usuário, e permite que você altere a senha da conta. </p> <p>Consulte também: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Como redefinir a senha da conta de Reports &amp; Analytics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Serviços web </p> </td> 
-   <td> <p>Exibe o nome de usuário dos serviços da web e a senha compartilhada associada a esta conta do Use essas credenciais ao acessar a Experience Cloud por meio das APIs dos serviços da Web. Para obter mais informações, consulte o site <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>. </p> <p> <p>Nota: essas informações são exibidas somente se a conta estiver autorizada como usuário de serviços da Web. </p> </p> </td> 
+   <td> <p>Exibe o nome de usuário dos serviços da web e a senha compartilhada associada a esta conta do Use essas credenciais ao acessar a Experience Cloud por meio das APIs dos serviços da Web. Para obter mais informações, consulte o site <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Nota: essas informações são exibidas somente se a conta estiver autorizada como usuário de serviços da Web. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Excluir este computador </p> </td> 
