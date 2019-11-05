@@ -9,7 +9,7 @@ title: Modal de implementação simplificada
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Esse procedimento permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Camada de dados </p> </td> 
-       <td colname="col2"> <p>(Recomendado) Um baco de dados JavaScript é usado para armazenar informações. Se executar a configuração automática usando o Dynamic Tag Management, estará usando uma camada de dados. </p> <p>Para um blog sobre camadas de dados, consulte <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">Camada de dados: de chavão a práticas recomendadas</a>. </p> </td> 
+       <td colname="col2"> <p>(Recomendado) Um baco de dados JavaScript é usado para armazenar informações. Se executar a configuração automática usando o Dynamic Tag Management, estará usando uma camada de dados. </p> <p>Para um blog sobre camadas de dados, consulte <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">Camada de dados: de chavão a práticas recomendadas</a>. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Repositório de dados (conjunto de relatórios) </p> </td> 
-       <td colname="col2"> <p> Um <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">conjunto de relatórios</a> é um conjunto discreto de dados que geralmente corresponde a uma única propriedade (site ou aplicativo) ou marca. Cada conjunto de relatórios tem seu próprio aglomerado de relatórios e métricas. </p> </td> 
+       <td colname="col2"> <p> Um <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">conjunto de relatórios</a> é um conjunto discreto de dados que geralmente corresponde a uma única propriedade (site ou aplicativo) ou marca. Cada conjunto de relatórios tem seu próprio aglomerado de relatórios e métricas. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Fuso Horário </p> </td> 
@@ -108,7 +108,7 @@ Esse procedimento permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Baixar </p> </td> 
-       <td colname="col2"> <p> Baixe o arquivo de instalação chamado <span class="filepath">INSTALAR &lt;nome do conjunto de relatórios&gt;.js</span>. Essa opção é adequada para usuário experientes que compreendem a <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">implementação do JavaScript</a>. </p> <p> <p>Importante: a ação de baixar o código não equivale a implementar o <span class="keyword">Analytics</span>. Isso é uma implantação manual realizada nas páginas do site ou pelos serviços do Adobe Consulting. </p> </p> </td> 
+       <td colname="col2"> <p> Baixe o arquivo de instalação chamado <span class="filepath">INSTALAR &lt;nome do conjunto de relatórios&gt;.js</span>. Essa opção é adequada para usuário experientes que compreendem a <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">implementação do JavaScript</a>. </p> <p> <p>Importante: a ação de baixar o código não equivale a implementar o <span class="keyword">Analytics</span>. Isso é uma implantação manual realizada nas páginas do site ou pelos serviços do Adobe Consulting. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
