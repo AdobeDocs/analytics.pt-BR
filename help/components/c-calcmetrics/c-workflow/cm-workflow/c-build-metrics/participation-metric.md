@@ -5,7 +5,7 @@ seo-title: Métrica de participação
 title: Métrica de participação
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Veja um caso de uso simples: um proprietário de conteúdo deseja saber quais p�
 
 1. Crie uma nova métrica no Criador de métricas calculadas.
 1. Arraste o evento bem-sucedido "Pedidos" para a tela Definição.
-1. Altere o modelo [de](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) atribuição desse evento para **[!UICONTROL Participação]** na engrenagem **[!UICONTROL Configurações]** . Selecione Pesquisar **[!UICONTROL Visita]** . A definição deve ficar parecida com isto:
+1. Altere o modelo [de](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) atribuição desse evento para **[!UICONTROL Participação]** na engrenagem **[!UICONTROL Configurações]** . Selecione Pesquisar **[!UICONTROL Visita]** . A definição deve ficar parecida com isto:
 
    ![](assets/participation.png)
 
