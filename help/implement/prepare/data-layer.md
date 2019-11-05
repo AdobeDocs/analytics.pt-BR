@@ -3,8 +3,8 @@ title: Criar uma camada de dados
 seo-title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 seo-description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
-translation-type: ht
-source-git-commit: a0158b98089c044091f61796d782604865aa4eba
+translation-type: tm+mt
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
