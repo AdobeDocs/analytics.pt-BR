@@ -5,7 +5,7 @@ seo-title: Perguntas frequentes
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Quais <b>SKUs do Adobe Analytics</b> dão direito ao uso do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> e <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> do Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> e <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É necessário <b>fazer um pagamento adicional</b> para usar o Advertising Analytics? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Estou tentando <b>mapear minhas contas do Advertising Analytics para um conjunto de relatórios específico</b>, mas não essa opção está disponível no modo Conjunto de relatórios. Por quê? </p> </td> 
-   <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">provisionado para os relatórios do Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >provisionado para os relatórios do Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É possível atribuir um <b>Conjunto de relatórios virtual</b> (VRS) a uma conta do Advertising Analytics? </p> </td> 
