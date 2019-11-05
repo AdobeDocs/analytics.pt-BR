@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Gerenciar contas de publicidade
-title: Gerenciar contas de publicidade
-uuid: 0 b 205046-2 eb 5-4 cd 6-be 62-cdf 716 fe 934 e
+seo-title: Gerenciar contas publicitárias
+title: Gerenciar contas publicitárias
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Gerenciar contas de publicidade
+# Gerenciar contas publicitárias
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 
@@ -30,7 +30,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Adicionar </p> </td> 
-   <td colname="col2"> <p>Direciona para a interface do usuário <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">Configurar conta publicitária</a>. </p> </td> 
+   <td colname="col2"> <p>Direciona para a interface do usuário <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurar conta publicitária</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renomear </p> </td> 
