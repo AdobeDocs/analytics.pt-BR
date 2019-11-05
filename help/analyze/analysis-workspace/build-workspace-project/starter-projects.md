@@ -5,7 +5,7 @@ seo-title: Modelos de projeto
 title: Modelos de projeto
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Você pode escolher criar um projeto de:
 
-* um projeto em branco (padrão). Para obter instruções, consulte [Criar um projeto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)da Analysis Workspace.
+* um projeto em branco (padrão). Para obter instruções, consulte [Criar um projeto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)da Analysis Workspace.
 * Um modelo padrão. Esses modelos são criados pela Adobe e enviados para o recurso instantâneo.
 * Um modelo personalizado. Esses modelos podem ser criados por usuários com direitos de administrador ou por não administradores, presumindo que tenham a permissão de “Salvar como modelo”. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Criar um modelo personalizado](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [Modelos padrão](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Criar um modelo personalizado](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [Modelos padrão](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Criar um modelo personalizado {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Criar um modelo personalizado {#create-custom-template}
 
 Os usuários com direitos de administrador podem tornar qualquer projeto criado por ele um modelo personalizado. Veja como:
 
