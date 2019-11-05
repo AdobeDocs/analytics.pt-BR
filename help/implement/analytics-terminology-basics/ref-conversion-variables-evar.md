@@ -8,7 +8,7 @@ title: Variáveis de conversão (eVars)
 topic: Desenvolvedor e implementação
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ Quando uma eVar é definida como um valor para um visitante, a Adobe se lembra a
 
 Para obter mais informações sobre variáveis, consulte:
 
-* [Variáveis para implementação e relatórios do Analytics](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) nesta ajuda
+* [Variáveis para implementação e relatórios do Analytics](/help/implement/js-implementation/c-variables/sc-variables.md) nesta ajuda
 * [Variáveis - Como são usadas em relatórios](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [Variáveis de página](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Variável da campanha](/help/implement/js-implementation/c-variables/page-variables.md)
