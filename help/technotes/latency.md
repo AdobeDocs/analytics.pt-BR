@@ -1,26 +1,26 @@
 ---
-description: The following information can help troubleshoot report suite latency issues in Analytics data.
+description: As seguintes informações podem ajudar a solucionar problemas de latência do conjunto de relatórios nos dados do Analytics.
 keywords: dados ausentes;lento
 seo-description: As seguintes informações podem ajudar a solucionar problemas de latência do conjunto de relatórios nos dados do Analytics.
-seo-title: Data availability and latency
+seo-title: Disponibilidade e latência de dados
 solution: Analytics
 subtopic: Dados atuais
 title: Disponibilidade e latência de dados
 topic: Relatórios
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Data availability and latency in Adobe Analytics
+# Disponibilidade e latência de dados no Adobe Analytics
 
 Geralmente, você pode esperar ver dados completos em relatórios 2 horas após a coleta dos dados. As seguintes informações podem ajudar a solucionar problemas de latência do conjunto de relatórios nos dados do Analytics.
 
 ## Como entender o agrupamento de dados
 
-Cada servidor de coleção de dados captura e processa dados analíticos brutos e, então, carrega os dados em lotes a cada hora para fins de relatório. O processo de transferência normalmente leva 30 minutos, de modo que a latência normal para o tráfego que ocorre logo depois de o processo de upload anterior ser concluído é de cerca de 90 minutos (60 minutos até ocorrer o upload do próximo lote e 30 minutos para a transferência e exibição do arquivo). For traffic that occurs directly before an upload, data latency could be as short as 30 minutes (0 minutes until the next batch upload occurs, then 30 minutes for file transfer and display).
+Cada servidor de coleção de dados captura e processa dados analíticos brutos e, então, carrega os dados em lotes a cada hora para fins de relatório. O processo de transferência normalmente leva 30 minutos, de modo que a latência normal para o tráfego que ocorre logo depois de o processo de upload anterior ser concluído é de cerca de 90 minutos (60 minutos até ocorrer o upload do próximo lote e 30 minutos para a transferência e exibição do arquivo). Para o tráfego que ocorre diretamente antes de um upload, a latência de dados pode ser de até 30 minutos (0 minutos até que o próximo upload em lote ocorra e 30 minutos para a transferência e exibição do arquivo).
 
 Se necessário, o Atendimento ao cliente da Adobe pode ativar carregamentos de dados em lote de 30 minutos (em vez de por hora) para os conjuntos de relatórios mais usados.
 
@@ -30,7 +30,7 @@ A latência é um atraso maior do que as 2 horas normais que os servidores de co
 
 A latência é causada por uma das seguintes categorias gerais:
 
-* **** Unexpected traffic spike: This type of latency occurs when more data is sent to a report suite than was contractually committed or expected. É a causa mais comum de latência.
+* **** Pico de tráfego inesperado: Esse tipo de latência ocorre quando mais dados são enviados para um conjunto de relatórios do que foi contratualmente confirmado ou esperado. É a causa mais comum de latência.
 * **** Problemas normais de hardware: A Adobe emprega as melhores estratégias do setor para gerenciamento e monitoramento de data center, redundância de dados e confiabilidade de hardware. O Hardware é atualizado regularmente e juntamente com janelas de manutenção publicadas. A manutenção de emergência de hardware com falha pode exigir uma interrupção necessária e temporária no processamento de dados (e não na coleta de dados) à medida que o hardware de substituição é colocado on-line. Essa interrupção temporária de processamento pode resultar em latência.
 * **** Dados anormais: Padrões de dados não naturais, como visitas invulgarmente longas causadas por um bot ou crawler, podem aumentar temporariamente determinadas cargas de processamento que resultam em latência.
 
@@ -45,8 +45,8 @@ Alguns recursos na Adobe Experience Cloud vêm com uma latência inata além do 
 
 Há várias estratégias para impedir a latência ou reduzir o tempo de recuperação quando ocorre:
 
-* **** Notificar a Adobe sobre picos de tráfego esperados: Embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de feriado particularmente bem-sucedido ou pouco depois de um grande push de campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico](../admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfego no Guia do usuário de administração para saber como notificar a Adobe sobre aumento de tráfego.
-* **** Consider processing load when activating new features: Some features are more processing intensive than others. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
+* **** Notificar a Adobe sobre picos de tráfego esperados: Embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de feriado particularmente bem-sucedido ou pouco depois de um grande push de campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfego no Guia do usuário de administração para saber como notificar a Adobe sobre aumento de tráfego.
+* **** Considere processar a carga ao ativar novos recursos: Alguns recursos requerem mais processamento do que outros. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
 
    * Implementação de mais de 20 eventos na mesma página
    * Regras VISTA complexas
