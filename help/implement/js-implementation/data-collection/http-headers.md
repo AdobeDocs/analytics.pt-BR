@@ -8,7 +8,7 @@ title: Cabeçalhos HTTP para coleta de dados
 topic: Desenvolvedor e implementação
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
+   <td> <p>Leitura dos cookies criados anteriormente pelos servidores de coleta de dados. </p> <p> A partir de 2014, os servidores da Adobe descartarão todos os cookies que acompanham uma chamada de servidor, exceto os definidos pela Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Cookies usados na Experience Cloud</a> para obter uma lista completa dos cookies da Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
