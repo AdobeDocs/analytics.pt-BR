@@ -8,16 +8,12 @@ title: Expiração de envolvimento do visitante
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Expiração de envolvimento do visitante
-
-Saiba como especificar a expiração do envolvimento do visitante nos Canais de marketing.
-
-## Expiração de envolvimento do visitante {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 Saiba como especificar a expiração do envolvimento do visitante nos Canais de marketing.
 
@@ -31,7 +27,7 @@ Por exemplo, os visitantes muitas vezes clicam em uma campanha de Pesquisa paga 
 | Nunca | O período de envolvimento do visitante não expira. |
 | Redefinição de canal | Expira todos os períodos de envolvimento do visitante.  Se você precisar redefinir todos os dados de canal de marketing, poderá expirar todos os períodos de envolvimento de visitantes. Talvez seja preciso redefinir os dados se suas regras de processamento tiverem sido previamente configuradas de maneira incorreta. Todos os valores de canais de primeiro e último toque expirarão imediatamente e serão redefinidos quando os visitantes retornarem. |
 
-## Especificar a expiração de envolvimento do visitante {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Especificar a expiração de envolvimento do visitante {#specify-visitor-expire}
 
 Especifique a expiração do envolvimento do visitante.
 
