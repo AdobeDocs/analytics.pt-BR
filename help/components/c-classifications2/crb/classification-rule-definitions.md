@@ -8,7 +8,7 @@ title: Regras de classificação - definições
 topic: Ferramentas administrativas
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -35,7 +35,7 @@ Essa página exibe as regras em um conjunto de regras.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecionar Conjuntos de relatórios e variáveis </p> </td> 
-   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios ao quais o conjunto de regras é aplicado. </p> <p><b>Variável</b> </p> <p>É possível aplicar somente uma variável ao criar um conjunto de regras de classificação. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p>Por exemplo, para disponibilizar <span class="term"> Páginas</span> como uma variável para o conjunto de regras, verifique se o conjunto de relatórios tem <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> classificações</a> de tráfego implementadas para a <span class="term"> Página</span>. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">Classificações de tráfego</a> e <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">Classificações de conversão</a> na Ajuda de administração. </p> </td> 
+   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios ao quais o conjunto de regras é aplicado. </p> <p><b>Variável</b> </p> <p>É possível aplicar somente uma variável ao criar um conjunto de regras de classificação. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p>Por exemplo, para disponibilizar <span class="term"> Páginas</span> como uma variável para o conjunto de regras, verifique se o conjunto de relatórios tem <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > classificações</a> de tráfego implementadas para a <span class="term"> Página</span>. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >Classificações de tráfego</a> e <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >Classificações de conversão</a> na Ajuda de administração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ativar</span> </p> </td> 
@@ -47,7 +47,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurar conjuntos de relatórios e variáveis </p> </td> 
-   <td colname="col2"> <p>Exibe a página dos <span class="wintitle">Conjuntos de relatórios disponíveis</span>, onde é possível selecionar um ou mais conjuntos de relatórios disponíveis para serem usados em todos os conjuntos de regras. (Essa página também é exibida quando você executa o <span class="wintitle">Construtor de regras de classificação</span> pela primeira vez). </p> <p>Esse recurso tem o objetivo de ajudar a reduzir o tempo de carregamento do conjunto de relatórios, em um evento que existem centenas de conjuntos de relatórios disponíveis. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Observação: Um conjunto de relatórios fica disponível <span class="term"> somente</span> quando os conjuntos de relatórios têm pelo menos uma classificação definida para a variável nas <span class="wintitle"> Ferramentas</span>administrativas. <p>(Consulte <span class="term"> Variável</span> em Conjuntos <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> de regras de</a> classificação para obter uma explicação sobre esse pré-requisito.) </p> </p> </td> 
+   <td colname="col2"> <p>Exibe a página dos <span class="wintitle">Conjuntos de relatórios disponíveis</span>, onde é possível selecionar um ou mais conjuntos de relatórios disponíveis para serem usados em todos os conjuntos de regras. (Essa página também é exibida quando você executa o <span class="wintitle">Construtor de regras de classificação</span> pela primeira vez). </p> <p>Esse recurso tem o objetivo de ajudar a reduzir o tempo de carregamento do conjunto de relatórios, em um evento que existem centenas de conjuntos de relatórios disponíveis. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Observação: Um conjunto de relatórios fica disponível <span class="term"> somente</span> quando os conjuntos de relatórios têm pelo menos uma classificação definida para a variável nas <span class="wintitle"> Ferramentas</span>administrativas. <p>(Consulte <span class="term"> Variável</span> em Conjuntos <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > de regras de</a> classificação para obter uma explicação sobre esse pré-requisito.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>As regras substituem quaisquer valores existentes </p> </td> 
@@ -59,10 +59,10 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Janela de lookback </p> </td> 
-   <td colname="col2"> <p>Quando você ativa e valida regras, pode especificar se as regras devem substituir classificações existentes por teclas afetadas. (Somente as teclas classificadas que tenham passado no <span class="keyword">Adobe Analytics</span> dentro do período especificado por você são afetadas). </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) As classificações existentes nunca são substituídas, a não se quando você habilita essa opção. </p> <p><b>Dev Center</b>: Os parceiros podem criar regras de classificação no <span class="wintitle">Dev Center</span>. Essas regras são implantadas quando o cliente ativa uma integração. No <span class="wintitle">Dev Center</span>, a opção <span class="uicontrol">Sobrescrever desde</span> permite que o parceiro especifique se o cliente poderá determinar o valor sobrescrito quando ativar ou editar uma integração. </p> <p>See <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>Quando você ativa e valida regras, pode especificar se as regras devem substituir classificações existentes por teclas afetadas. (Somente as teclas classificadas que tenham passado no <span class="keyword">Adobe Analytics</span> dentro do período especificado por você são afetadas). </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) As classificações existentes nunca são substituídas, a não se quando você habilita essa opção. </p> <p><b>Dev Center</b>: Os parceiros podem criar regras de classificação no <span class="wintitle">Dev Center</span>. Essas regras são implantadas quando o cliente ativa uma integração. No <span class="wintitle">Dev Center</span>, a opção <span class="uicontrol">Sobrescrever desde</span> permite que o parceiro especifique se o cliente poderá determinar o valor sobrescrito quando ativar ou editar uma integração. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Adicionar regra </a> </td> 
+   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Adicionar regra </a> </td> 
    <td colname="col2"> <p>Permite adicionar regras ao conjunto de regras. </p> <p>Observação: se um valor corresponder duas ou mais vezes em um conjunto de regras, o sistema usa a última regra para classificar o valor. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Essa página exibe as regras em um conjunto de regras.
    <td colname="col2"> Duplica (copia) um conjunto de regras, de modo que você possa aplicar o conjunto de regras a outra variável, ou à mesma variável em um conjunto de relatório diferente. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158" format="dita" scope="local"> Testar conjunto de regras </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Testar conjunto de regras </a> </p> </td> 
    <td colname="col2"> <p>Permite testar a validade de um conjunto de regras. </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>O número da regra. </p> <p>Consulte <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> Como as regras são processadas</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>O número da regra. </p> <p>Consulte <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Como as regras são processadas</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Selecionar tipo de regra</span> </td> 
@@ -96,7 +96,7 @@ Essa página exibe as regras em um conjunto de regras.
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Começa com </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Termina com </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contém </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D" format="dita" scope="local"> Expressão regular </a> </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Expressão regular </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Essa página exibe as regras em um conjunto de regras.
 | Corresponder grupos | Mostra como a expressão regular corresponde aos caracteres de ID da campanha, tornando possível classificar uma posição na ID da campanha. |
 | Corresponder resultado | Exibe as partes de uma sequência que corresponde com êxito à expressão regular. |
 
-Consulte [Expressões regulares em regras de classificação](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+Consulte [Expressões regulares em regras de classificação](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## Página de testes {#section_EC926F97901C4E65901413F9683AA70A}
 
