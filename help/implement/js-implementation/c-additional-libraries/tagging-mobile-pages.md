@@ -8,7 +8,7 @@ title: Como marcar páginas para protocolos móveis
 topic: Desenvolvedor e implementação
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ Se o tipo de imagem padrão não é suportado em um dispositivo específico, nen
 
 * `/5.5/` sempre retorna uma imagem WBMP.
 
-Consulte [Identificação de visitantes usando protocolos móveis](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+Consulte [Identificação de visitantes usando protocolos móveis](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md).
