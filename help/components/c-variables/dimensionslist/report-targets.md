@@ -5,7 +5,7 @@ seo-title: Metas
 title: Metas
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Os relatórios de metas permitem medir o desempenho do site e acompanhar o progresso em relação às metas. Por exemplo, você pode querer aumentar o número de visitantes que vêm de uma região geográfica, a receita por pedido, ou o número de visitas que vêm de uma referência específica.
 
-> [!NOTE] Esses relatórios não devem ser confundidos com o relatório do Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
+>[!NOTE]
+>
+> Esses relatórios não devem ser confundidos com o relatório do Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
 
 To access your Targets reports, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL [your target name]]**
 
