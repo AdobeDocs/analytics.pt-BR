@@ -7,8 +7,8 @@ solution: Analytics
 title: Código do Analytics
 topic: Desenvolvedor e implementação
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
 
-Para obter informações sobre como usar o [!UICONTROL Dynamic Tag Management] para criar o código de cabeçalho e rodapé para você, consulte [Adicionar código de cabeçalho e rodapé](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
+Para obter informações sobre como usar o [!UICONTROL Dynamic Tag Management] para criar o código de cabeçalho e rodapé para você, consulte [Adicionar código de cabeçalho e rodapé](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md).
 
 Este é um exemplo do arquivo JavaScript [!DNL AppMeasurement] mostrando as partes do código:
 
