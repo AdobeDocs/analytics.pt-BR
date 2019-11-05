@@ -7,7 +7,7 @@ title: Gerenciar solicitações - definições
 topic: Construtor de relatórios
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adicionar </p> </td> 
-   <td colname="col2"> <p>Exibe a caixa de diálogo do Assistente de solicitações. Consulte <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Criar uma solicitação de dados</a>. </p> </td> 
+   <td colname="col2"> <p>Exibe a caixa de diálogo do Assistente de solicitações. Consulte <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Criar uma solicitação de dados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
-   <td colname="col2"> <p> (Ou Editar várias) Edita uma solicitação selecionada. O sistema exibe a caixa de diálogo <span class="wintitle">Assistente de solicitações</span>. See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (Ou Editar várias) Edita uma solicitação selecionada. O sistema exibe a caixa de diálogo <span class="wintitle">Assistente de solicitações</span>. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Excluir </p> </td> 
@@ -80,7 +80,7 @@ O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **
   </tr> 
   <tr> 
    <td colname="col1"> <p> Atualizar </p> </td> 
-   <td colname="col2"> <p>Atualiza uma única solicitação ou uma seleção de solicitações. (Consulte <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> Atualizar uma solicitação</a>.) </p> </td> 
+   <td colname="col2"> <p>Atualiza uma única solicitação ou uma seleção de solicitações. (Consulte <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Atualizar uma solicitação</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar Lista </p> </td> 
