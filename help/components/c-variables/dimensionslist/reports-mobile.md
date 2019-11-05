@@ -7,7 +7,7 @@ title: Mobile
 topic: Relatórios
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> Sistema operacional (substituído) </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base no sistema operacional móvel em execução no dispositivo. Sistemas operacionais móveis incluem Windows, RIM, iOS, Symbian, etc. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Observação: Este relatório foi descontinuado quando o relatório Tecnologia &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Sistemas</a> operacionais foi atualizado para incluir todos os sistemas operacionais, incluindo os portáteis. É possível criar um segmento no qual "dispositivo móvel" existe e aplicá-lo ao relatório Tecnologia &gt; Sistemas operacionais para exibir somente os sistemas operacionais de dispositivos móveis. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base no sistema operacional móvel em execução no dispositivo. Sistemas operacionais móveis incluem Windows, RIM, iOS, Symbian, etc. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Observação: Este relatório foi descontinuado quando o relatório Tecnologia &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Sistemas</a> operacionais foi atualizado para incluir todos os sistemas operacionais, incluindo os portáteis. É possível criar um segmento no qual "dispositivo móvel" existe e aplicá-lo ao relatório Tecnologia &gt; Sistemas operacionais para exibir somente os sistemas operacionais de dispositivos móveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Versão do Java </td> 
-   <td colname="col2"> <p> Agrupa os dispositivos móveis com base na versão do Java que eles suportam. O relatório Versão do Java identifica a versão do Java pelo Java Specification Request (JSR) suportado pelo dispositivo. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Você pode obter mais informações sobre uma JSR específica no site do <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p> Agrupa os dispositivos móveis com base na versão do Java que eles suportam. O relatório Versão do Java identifica a versão do Java pelo Java Specification Request (JSR) suportado pelo dispositivo. O relatório também inclui um grupo desconhecido para sistemas de operacionais móveis não identificados. </p> <p>Você pode obter mais informações sobre uma JSR específica no site do <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tamanho do URL de marcador </td> 
