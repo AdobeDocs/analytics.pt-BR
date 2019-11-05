@@ -7,7 +7,7 @@ title: Largura/altura do navegador
 topic: Métricas
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Métricas que se referem à distância horizontal/vertical dos dados somente na janela do navegador. De maneira mais específica, o navegador
 
 O Adobe Analytics utiliza somente a altura e a largura do navegador da primeira ocorrência de uma visita. O resto das ocorrências não recebem a atribuição da mesma visita.
-The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
 
 Por exemplo, ao analisar a largura ou a altura do navegador em relação à resolução dos dispositivos móveis, será necessário estar ciente destas distinções:
 
