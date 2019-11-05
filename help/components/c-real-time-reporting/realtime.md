@@ -7,7 +7,7 @@ title: Visão geral do relatório em tempo real
 topic: Relatórios
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 O relatório em tempo real exibe o tráfego da página da Web e classifica as exibições da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
 
-> [!NOTE] O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>[!NOTE]
+>
+> O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Métricas]** do site &gt; Tempo **[!UICONTROL real]**
 
@@ -42,7 +44,7 @@ Como Administrador, você pode
 
 * Por exemplo, compare os valores da semana anterior aos do último ano (bem como o total do dia).
 
-Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)em tempo real.
+Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios](/help/components/c-real-time-reporting/t-realtime-admin.md)em tempo real.
 
 A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos "Todos os acessos de relatório" e "Relatórios avançados" . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 
