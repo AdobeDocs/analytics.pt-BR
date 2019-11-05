@@ -3,8 +3,8 @@ title: Criar uma propriedade do Analytics no Launch
 seo-title: Criar uma propriedade do Adobe Analytics no Adobe Experience Platform Launch
 description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
 seo-description: Crie um espaço para personalizar como os dados são coletados no Adobe Analytics, usando o Adobe Experience Platform Launch.
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -15,13 +15,13 @@ O Adobe Experience Platform Launch é a ferramenta que você pode usar para inte
 
 ## Pré-requisitos
 
-[Criar um conjunto de relatórios](../../admin/admin-console/create-report-suite.md): criar um silo para que os dados do Analytics sejam coletados
+[Criar um conjunto de relatórios](/help/admin/admin-console/create-report-suite.md): criar um silo para que os dados do Analytics sejam coletados
 
 ## Criar uma propriedade e instalar extensões essenciais
 
 As propriedades são contêineres abrangentes que você usa para gerenciar tags. As extensões permitem instalar tags específicas do produto e configurá-las.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. Clique em "Nova propriedade".
 1. Dê um nome à Propriedade, como o título do site, e insira o domínio em que você pretende implementar o Analytics. Clique em Salvar.
 1. Clique na propriedade recém-criada para inserir as configurações.
@@ -34,7 +34,7 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 
 Os elementos de dados são referências a partes específicas do site para coletar valores variáveis.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 2. Clique na propriedade do Launch que pretende implementar no site.
 3. Clique na guia Elementos de dados e, em seguida, clique em Criar novo elemento de dados.
 4. Atribua ao elemento de dados as seguintes configurações:
@@ -51,7 +51,7 @@ Os elementos de dados são referências a partes específicas do site para colet
 
 As regras mapeiam os elementos de dados para os valores de variáveis do Analytics e determinam quando esses valores são enviados para os servidores da Adobe.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. Clique na propriedade do Launch que pretende implementar no site.
 1. Clique em Criar nova regra e nomeie-a `Global Rule`.
 1. Clique em Adicionar ao lado dos eventos e insira as seguintes configurações:
@@ -76,9 +76,9 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 ## Documentação e recursos adicionais
 
-* [Documentação de extensão do Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
+* [Documentação](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)da extensão do Adobe Analytics: Documentação completa específica da extensão do Adobe Analytics no Adobe Experience Platform Launch.
 * [Introdução ao Launch](https://docs.adobelaunch.com/getting-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado
-* [Canal do Adobe Experience Platform Launch no YouTube](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): saiba como usar o Launch por meio de vídeos
+* [Adobe Experience Platform Launch Canal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd)do YouTube: Saiba como usar o Launch por meio de vídeos
 
 ## Próximas etapas
 
