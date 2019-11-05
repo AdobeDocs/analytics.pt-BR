@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Desenvolvedor e implementação
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ Registra por quantos segundos a página foi a guia ativa no navegador e passa o 
 
 > [!NOTE] Observação: está é uma versão beta do plug-in e pode haver mais atualizações no futuro.
 
-Este plug-in requer [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Este plug-in requer [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
 
 Este plug-in também registra o total de segundos em que a página esteve no navegador (tempo de exibição ativo e passivo). É necessário utilizar o plug-in getPreviousValue para rastrear o nome da página anterior associado aos eventos de visibilidade da página. O rastreamento desses valores ajuda você a entender melhor a participação do visitante e a rastrear com mais precisão o comportamento do visitante nos sites.
 
