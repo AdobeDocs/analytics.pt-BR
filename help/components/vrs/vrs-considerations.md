@@ -8,7 +8,7 @@ title: Considerações de marcação global/multiconjunto de VRSs
 topic: Reports and Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b42009a64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,7 +51,7 @@ Resumo:
 * Os relatórios em tempo real não são suportados nos conjuntos de relatórios virtuais, pois os dados são segmentados.
 * "Dados atuais" não é compatível com os conjuntos de relatórios virtuais, pois eles não suportam segmentação.
 
-[Relatórios](/help/admin/admin/realtime/t-realtime-admin.md) em tempo real e ["Dados atuais"](../../technotes/latency.md) não estão disponíveis em conjuntos de relatórios virtuais. Esses recursos do Reports &amp; Analytics fornecem acesso a tipos limitados de dados de forma acelerada, dentro de segundos ou minutos. Uma das limitações dessas exibições é que elas não oferecem suporte à segmentação; em outras palavras, os dados em tempo real do Reports &amp; Analytics não podem ser segmentados. Como um conjunto de relatórios virtual é integrado usando a segmentação, é incompatível com os relatórios em tempo real. Isso afeta os usuários que respondem a tendências vistas no Adobe Analytics dentro de segundos ou alguns minutos da coleta de dados, como editores em uma redação que ajustam manchetes com base no consumo de conteúdo em tempo real. Nesse caso, você deve:
+[Relatórios](/help/admin/admin/realtime/t-realtime-admin.md) em tempo real e ["Dados atuais"](/help/technotes/latency.md) não estão disponíveis em conjuntos de relatórios virtuais. Esses recursos do Reports &amp; Analytics fornecem acesso a tipos limitados de dados de forma acelerada, dentro de segundos ou minutos. Uma das limitações dessas exibições é que elas não oferecem suporte à segmentação; em outras palavras, os dados em tempo real do Reports &amp; Analytics não podem ser segmentados. Como um conjunto de relatórios virtual é integrado usando a segmentação, é incompatível com os relatórios em tempo real. Isso afeta os usuários que respondem a tendências vistas no Adobe Analytics dentro de segundos ou alguns minutos da coleta de dados, como editores em uma redação que ajustam manchetes com base no consumo de conteúdo em tempo real. Nesse caso, você deve:
 
 * Considerar usar a marcação de multiconjunto para garantir que cada usuário veja somente os dados em tempo real que eles tenham permissão para ver, ou
 * Conceder a esses usuários acesso a um conjunto de relatórios verdadeiro (global) caso eles devessem ter acesso a todo o seu conjunto de dados.
@@ -63,7 +63,7 @@ Resumo:
 * Os conjuntos de relatórios virtuais não têm seus próprios limites de valor exclusivo para dimensões, e os herdam do conjunto de relatórios principal.
 * Se os usuários do Adobe Analytics precisarem de acesso a cada valor de uma dimensão que recebe com frequência mais de 500.000 valores exclusivos por mês, considere dar continuidade à marcação de multiconjunto.
 
-Em casos de alta cardinalidade (grandes números de valores únicos em uma determinada dimensão, como SKUs de produtos ou páginas), os buckets do Adobe Analytics raramente encontravam valores a cada mês em um item de linha agregado "Baixo tráfego" em qualquer dimensão em um conjunto de relatórios. Os valores incluídos no bucket "Baixo tráfego" não podem ser segmentados. Isso permite que as consultas do Adobe Analytics retornem rapidamente, enquanto foca nos primeiros 500.000 itens de linha vistos com mais frequência para a dimensão nas propriedades digitais. (Por exemplo, isso pode ser os 500.000 principais nomes de página.) Leia mais sobre os limites de valor exclusivo [aqui](../../technotes/low-traffic.md).
+Em casos de alta cardinalidade (grandes números de valores únicos em uma determinada dimensão, como SKUs de produtos ou páginas), os buckets do Adobe Analytics raramente encontravam valores a cada mês em um item de linha agregado "Baixo tráfego" em qualquer dimensão em um conjunto de relatórios. Os valores incluídos no bucket "Baixo tráfego" não podem ser segmentados. Isso permite que as consultas do Adobe Analytics retornem rapidamente, enquanto foca nos primeiros 500.000 itens de linha vistos com mais frequência para a dimensão nas propriedades digitais. (Por exemplo, isso pode ser os 500.000 principais nomes de página.) Leia mais sobre os limites de valor exclusivo [aqui](/help/technotes/low-traffic.md).
 
 Os conjuntos de relatórios virtuais não possuem seu próprio conjunto de 500.000 valores exclusivos por dimensão mensal. Se o conjunto de relatórios no qual um VRS se baseia tiver excedido 500.000 valores únicos para uma determinada dimensão e tiver começado a combinar valores de frequência mais baixa no item de linha "Baixo tráfego" para essa dimensão, você também poderá ver "Baixo tráfego" no conjunto de relatórios virtual.
 
