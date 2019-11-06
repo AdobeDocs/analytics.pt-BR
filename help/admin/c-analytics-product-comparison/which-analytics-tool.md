@@ -5,7 +5,7 @@ seo-title: Qual ferramenta do Adobe Analytics devo usar?
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Se a organização da guia de trabalho do projeto for necessária.
 * Para usar o relatório de Análise do site (relatório de definição de caminho 3D).
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** deve ser usada:
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** deve ser usada:
 
 * Como a opção de ferramenta mais flexível do Analytics (análise de perda a nível de visitantes, a nível de ocorrência).
 * Para criar um conjunto de dados multicanal e interações online e offline de CRM para POS, até a Web.
