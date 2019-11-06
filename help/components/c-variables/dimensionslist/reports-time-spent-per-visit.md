@@ -1,19 +1,43 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Tempo gasto por visita
 solution: Analytics
 title: Tempo gasto por visita
 topic: Relatórios
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
 
 ---
 
 
 # Tempo gasto por visita
 
->[!NOTE]
->
->See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for calculation examples.
+O Adobe Analytics oferece várias maneiras de determinar o tempo gasto nos relatórios do Analytics. Na maioria dos casos, o tempo gasto é calculado usando as seguintes etapas:
+
+1. Para uma determinada visita, verifique o carimbo de data e hora da primeira ocorrência.
+2. Compare essa ocorrência com o carimbo de data e hora da última ocorrência da visita.
+3. A quantidade de tempo decorrido entre essas duas ocorrências determina a quantidade de tempo gasto para essa visita.
+
+Ao exibir dados de dimensão de tempo gasto, lembre-se do seguinte:
+
+* As exibições de página e os tipos de ocorrência de rastreamento de link são considerados ao calcular os dados de tempo gasto.
+* O tempo gasto não é medido durante a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido.
+* Rejeições não podem medir o tempo gasto, pois a visita consiste em uma única ocorrência.
+
+O tempo gasto por visita mede o tempo total decorrido em uma visita. Existem dimensões separadas entre **granulares** e **segmentadas**.
+
+* **** Granular: Cada valor de dimensão é um número diferente de segundos que compõem uma visita.
+* **** Classificado: Cada valor de dimensão é um período predefinido:
+   * Menos de 1 minuto
+   * 1 a 5 minutos
+   * 5 a 10 minutos
+   * 30 a 60 minutos
+   * 1 a 2 horas
+   * 2 a 5 horas
+   * 5 a 10 horas
+   * 10 a 15 horas
+   * 15+ horas
+
+> [!NOTE] As [Visitas](../c-metrics/metrics-visit.md) normalmente terminam após 12 horas de atividade. No entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
+
+Essa dimensão se baseia em visitas. Compare essa dimensão com o [Tempo gasto na página](reports-time-spent-on-page.md), que é uma dimensão baseada em ocorrências.
