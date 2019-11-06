@@ -1,19 +1,43 @@
 ---
 description: Apresenta o tempo que cada visitante passou na página
-seo-description: Apresenta o tempo que cada visitante passou na página
-seo-title: Tempo gasto na página
 solution: Analytics
 title: Tempo gasto na página
 topic: Relatórios
-uuid: 0a875fa4-da31-4370-a44b-955f2273cf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
 
 ---
 
 
 # Tempo gasto na página
 
-Apresenta o tempo que cada visitante passou na página
+O Adobe Analytics oferece várias maneiras de determinar o tempo gasto nos relatórios do Analytics. Na maioria dos casos, o tempo gasto é calculado usando as seguintes etapas:
 
-See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for more information.
+1. Para uma determinada ocorrência, verifique o carimbo de data e hora e o valor da dimensão.
+2. Compare essa ocorrência com o carimbo de data e hora da próxima ocorrência na visita.
+3. O tempo decorrido entre essas duas ocorrências contribui para o tempo gasto para essa página.
+
+Ao exibir dados de dimensão de tempo gasto, lembre-se do seguinte:
+
+* O tempo gasto leva a alocação e a expiração em conta.
+* As exibições de página e os tipos de ocorrência de rastreamento de link são considerados ao calcular os dados de tempo gasto.
+* O tempo gasto não é medido durante a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido.
+* Rejeições não podem medir o tempo gasto, pois a visita consiste em uma única ocorrência.
+
+O tempo gasto na página mede o tempo decorrido entre as ocorrências em uma visita. Existem dimensões separadas entre **granulares** e **segmentadas**.
+
+* **** Granular: Cada valor de dimensão é um número diferente de segundos gastos entre duas ocorrências.
+* **** Classificado: Cada valor de dimensão é um período predefinido:
+   * Menos de 15 segundos
+   * 15 a 29 minutos
+   * 1 a 3 minutos
+   * 3 a 5 minutos
+   * 5 a 10 minutos
+   * 10 a 15 minutos
+   * 15 a 20 minutos
+   * 20 a 30 minutos
+   * Mais de 30 minutos
+
+Essa dimensão é baseada em ocorrências, que se usada como um detalhamento pode fornecer dados mais significativos. Compare essa dimensão com o [Tempo gasto por visita](reports-time-spent-per-visit.md), que é uma dimensão baseada em visita.
+
+![Tempo gasto](assets/time-spent1.png)
