@@ -4,7 +4,7 @@ seo-title: Lista completa da documentação técnica e dos guias de autoajuda do
 description: Guias e recursos do usuário do Analytics
 seo-description: Lista completa de documentos técnicos, notas de versão e guias de autoajuda do Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -29,7 +29,7 @@ Bem-vindo à página inicial da documentação técnica e do produto Adobe Analy
 
 [![Guia](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)do Media Analytics[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) Media Analytics - Implementar o Analytics em fontes de áudio ou vídeo. Inclui o SDK de mídia e a API de coleta de mídia.
 
-[![Guias](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)do DWB[](https://marketing.adobe.com/resources/help/en_US/insight/) Data Workbench - Cliente, instalação, configuração de conjuntos de dados e muito mais
+[![Guias](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)do DWB[](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) Data Workbench - Cliente, instalação, configuração de conjuntos de dados e muito mais
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas do Analytics](/help/technotes/home.md) – Uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou a um componente de análise específico.
 
@@ -47,7 +47,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
