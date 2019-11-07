@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Exemplo de rotulagem
 title: Exemplo de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -67,7 +65,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo de DEL-DEVICE são afetadas.
+> [!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo de DEL-DEVICE são afetadas.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -81,7 +79,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | Um | N | W |
 
->[!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo de DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com "Privacy-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
+> [!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo de DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com "Privacy-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
@@ -100,4 +98,4 @@ Observe o seguinte:
 * As células nas linhas que contêm `user=Mary` e um rótulo `DEL-DEVICE` ou `DEL-PERSON` são afetadas, bem como as células com um rótulo `DEL-DEVICE` nas linhas que contêm qualquer ID de visitante que ocorreu em uma linha que contém `user=Mary`.
 * `MyEvar2`A na quarta e na quinta linha é atualizada, pois essas linhas contêm os mesmos valores de ID de visitante que os da primeira e da segunda linha, portanto, a expansão de ID inclui esses valores para as exclusões a nível de dispositivo.
 * Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão, mas após a exclusão, eles não corresponderão mais ao valor N existente na última linha, pois tal linha não foi atualizada como parte da solicitação de exclusão.
-* `MyEvar3`O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES` Agora, `AAID` corresponde nas cinco primeiras linhas.
+* `MyEvar3`O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES`. Agora, `AAID` corresponde nas cinco primeiras linhas.
