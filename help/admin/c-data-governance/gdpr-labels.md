@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Rótulos de privacidade de dados para variáveis do Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -432,7 +430,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de visitante </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Elas têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. If you specify <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes exclusivos mudarão em um relatório histórico. </p> </td> 
+   <td colname="col2"> <p> Elas têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você especificar <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansão de ID</a> com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON. </p> <p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes exclusivos mudarão em um relatório histórico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do AMO </p> </td> 
