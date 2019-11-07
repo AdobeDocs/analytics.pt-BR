@@ -1,11 +1,9 @@
 ---
 description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
-seo-description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
-seo-title: Rotular dados do conjunto de relatórios
 title: Rotular dados do conjunto de relatórios
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 
-> [!NOTE]Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+> [!NOTE] Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## Atribuir ou editar rótulos do conjunto de relatórios {#section_39F829F35A274EACA532E2F6FF392996}
 
@@ -59,7 +57,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
    ![](assets/privacy_labels.png)
 
-1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem. 
+1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem.
 
 ## Copiar rótulos para os conjuntos de relatórios{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
