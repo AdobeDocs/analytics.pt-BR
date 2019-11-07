@@ -1,11 +1,9 @@
 ---
 description: 'As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics pode associar ao titular dos dados. O Analytics pode criar um conjunto expandido de IDs para incluir esses dados associados nas solicitações de Privacidade de dados. Essa opção pode ser solicitada com um parâmetro opcional referente à solicitação de Privacidade de dados enviada adicionado à solicitação JSON '
-seo-description: 'As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics pode associar ao titular dos dados. O Analytics pode criar um conjunto expandido de IDs para incluir esses dados associados nas solicitações de Privacidade de dados. Essa opção pode ser solicitada com um parâmetro opcional referente à solicitação de Privacidade de dados enviada adicionado à solicitação JSON '
-seo-title: Expansão de ID
 title: Expansão de ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,7 +16,7 @@ As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics
 "expandIds": true
 ```
 
-Consulte o [Exemplo de solicitação de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para saber como incluir essa opção com a solicitação. Para obter mais detalhes, consulte a [Documentação da API da Privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Consulte o [Exemplo de solicitação de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para saber como incluir essa opção com a solicitação. Para obter mais detalhes, consulte a [Documentação da API da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -58,7 +56,7 @@ Futuramente, o "analyticsDeleteMethod" poderá suportar um valor "purge" em adi�
 
 Além do valor padrão, o campo de prioridade também suporta o valor "low". Especifique esse valor para solicitações que não são o resultado de uma solicitação do titular dos dados e não possui um requisito legal a ser concluído em 30 dias. Observe que a Adobe não incentiva o uso da API da Privacidade de dados para propósitos diferentes de solicitações iniciadas por titulares dos dados. A API da Privacidade de dados não é uma ferramenta adequada para a limpeza ou reparo de dados, e terá consequências não intencionais.
 
-[!NOTE]A [API da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr.html) foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioidade para outros clientes da Adobe. Pedimos que você não use a API do Serviço de privacidade para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.
+> [!NOTE]A [API da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr.html) foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioidade para outros clientes da Adobe. Pedimos que você não use a API do Serviço de privacidade para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API do Serviço de privacidade é imprópria para este uso.
 
