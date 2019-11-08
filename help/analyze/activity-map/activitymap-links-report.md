@@ -6,7 +6,7 @@ solution: Analytics
 title: Relatório de links
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ O Relatório de links informa sobre os links que foram encontrados na página at
 
 O Relatório de links na página oferece uma exibição tabular dos links. Às vezes, você pode querer ver os cliques em links (ou outras métricas) classificados em uma única exibição. Isso permite comparar melhor um link com outro. Crie o Relatório de links na página, incluindo uma lista de classificação de todos os links (pela ID do link), as informações de cliques (número e porcentagem) e a região da página. Clique no Relatório de links na página, na barra de ferramentas do Activity Map.
 
-No painel Activity Map, o **[!UICONTROL Relatório de links na página]é aberto abaixo da estrutura do navegador.**
+No painel Activity Map, o **[!UICONTROL Relatório de links na página]** é aberto abaixo da estrutura do navegador.
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## Modo padrão {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -63,11 +63,11 @@ No modo Padrão, o “Relatório de links na página” mostra os dados do link,
 
 **Filtragem de dados**
 
-Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados].** Apenas os links que correspondem à pesquisa terão sobreposições. Sem um filtro, as sobreposições especificadas nas [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) serão exibidas.
+Quando quiser focar em um link específico, é possível procurar por um termo relacionado no campo **[!UICONTROL Filtrar dados]**. Apenas os links que correspondem à pesquisa terão sobreposições. Sem um filtro, as sobreposições especificadas nas [Configurações do Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) serão exibidas.
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## Modo online {#section_AC1967217B5A4532ACB01D33636F6770}
 
-No modo Online, o Relatório de links na página mostra dados de tendência que abrangem vários minutos.
+No modo Online, o Relatório de links na página mostra os dados de tendência que abrangem vários minutos.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ No modo Online, o Relatório de links na página mostra dados de tendência que 
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova [Metodologia de rastreamento de link] (/help/analyze/activity-map/ativitymap-link-tracking/ativitymap-)ink-tracking-method.md). </td> 
+   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova [Metodologia de rastreamento de links] (/help/analyze/activity-map/ativitymap-link-tracking/ativitymap-)ink-tracking-method.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliques em links </td> 
@@ -114,7 +114,7 @@ No modo Online, o Relatório de links na página mostra dados de tendência que 
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## Classificação e filtragem {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 Às vezes, é necessário analisar apenas os resultados de uma região da página específica (por exemplo, painel esquerdo), para decidir como organizar o conteúdo daquela região específica na página da Web.
 
