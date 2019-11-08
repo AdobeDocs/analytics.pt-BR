@@ -6,7 +6,7 @@ solution: Analytics
 title: Detalhes da página
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -18,11 +18,11 @@ A guia Detalhes da página exibe o Relatório de página como uma tabela e o Rel
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## Relatório de página {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 Este painel mostra as métricas de tráfego relacionadas à página da Web que é visitada. O Painel não será exibido se você acessar uma página da Web que não tenha a tag de página Análise implementada.
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## Relatório de fluxo de página {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 O lado esquerdo mostra as Páginas anteriores e os Referenciadores (externos), que podem ser ampliados como alternativa para mostrar as quatro entradas principais para cada categoria.
 
