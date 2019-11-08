@@ -6,7 +6,7 @@ solution: Analytics
 title: Definir configurações do Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -22,10 +22,10 @@ O painel Configurações exibe um conteúdo diferente com base no modo de aplica
 
 | Padrão | **[!UICONTROL Sobreposições de gradiente]** ou **[!UICONTROL em bolha]** |
 |---|---|
-| Ao vivo | **[!UICONTROL Sobreposições de ganhadores e perdedores]**, **[!UICONTROL gradiente]** e **[!UICONTROL bolha]** |
+| Ao vivo | **[!UICONTROL Sobreposições de ganhadores e perdedores]**, **[!UICONTROL de gradiente]** e **[!UICONTROL em bolha]** |
 | Outro | Seleção do Conjunto de relatórios e Idioma |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## Configurações da sobreposição em modo Padrão {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -78,18 +78,18 @@ O painel Configurações exibe um conteúdo diferente com base no modo de aplica
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## Configurações para as sobreposições em modo Online {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | Configurações | Descrição |
 |---|---|
-| **[!UICONTROL Exibir os principais]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL Exibir os principais]** | Selecione o número de links para serem exibidos (ou todos) e os **[!UICONTROL Ganhadores]** ou **[!UICONTROL Perdedores]** (ou ambos) para exibir como sobreposições. |
 | **[!UICONTROL Excluir os inferiores (%)]** | Selecione para eliminar os links de Ganhadores-Perdedores com dados insuficientes. Para mostrar ganhos ou perdas relevantes, filtre a porcentagem inferior das alterações do link para exibir apenas os links com dados suficientes. A porcentagem é calculada com base no número de links na página. Por exemplo, filtrar os últimos 10% de uma lista de 200 links, filtraria os últimos 20 links. |
 | **[!UICONTROL Atualização automática de dados]** | Permite decidir se os dados do Analytics mostrados na interface devem ser atualizados automaticamente quando um novo período é calculado, ou não. |
 | **[!UICONTROL Período de atualização automática]** | Quando selecionado, atualiza a página da Web a cada nova recuperação de dados para que os links na página possam ser sincronizados juntamente com os dados coletados. |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## Outras configurações {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
