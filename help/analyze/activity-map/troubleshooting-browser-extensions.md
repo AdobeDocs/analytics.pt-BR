@@ -6,7 +6,7 @@ solution: Analytics
 title: Solução de problemas nas extensões do navegador
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 # Solução de problemas de extensões de navegador
 
-Mostra os parâmetros do navegador que não são compatíveis com o uso do Activity Map. Você deve desativar essas configurações.
+Exibe os parâmetros do navegador que não são compatíveis com a utilização do Activity Map. Você deve desativar essas configurações.
 
 ## Google Chrome
 
