@@ -6,7 +6,7 @@ solution: Analytics
 title: Visão geral do Activity Map
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
@@ -18,7 +18,7 @@ O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a 
 
 O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.
 
-**Introdução aos administradores**
+**Introdução para administradores**
 
 * [Habilitar o Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Código de implementação de exemplo](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
