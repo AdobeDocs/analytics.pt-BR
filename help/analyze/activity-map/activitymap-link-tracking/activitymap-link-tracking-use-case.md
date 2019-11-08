@@ -6,7 +6,7 @@ solution: Analytics
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -51,11 +51,11 @@ Como é possível personalizar a página da Web e usar tags para diferenciar os 
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Ao criar uma ID de objeto única para um link ou um local de link em uma página, você pode melhorar o rastreamento ou usar o Activity Map para informar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obter mais informações sobre a variável s_objectID.
+Ao criar uma ID de objeto única para um link ou um local de link em uma página, você pode melhorar o rastreamento ou usar o Activity Map para informar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/s_objectID.html) para obter mais informações sobre a variável s_objectID.
 
 >[!IMPORTANT]
 >
->Observe que um ponto-e-vírgula (;) é necessário ao usar s_objectID no Activity Map.
+>Observe que é necessário um ponto e vírgula (;) ao usar s_objectID no Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -90,7 +90,7 @@ Ao criar uma ID de objeto única para um link ou um local de link em uma página
 
 Você pode personalizar a região certificando-se de que cada link “comprar” tenha a sua própria Região definida. Para fazer isso, adicione um parâmetro “id” a um dos pais de cada tag de âncora “Comprar”.
 
-> [!NOTE] Você não está estritamente limitado ao parâmetro "id" como um identificador de região. Você também pode definir seu próprio identificador usando a variável JavaScript "s.ActivityMap.regionIDAttribute".
+> [!NOTE] Você não está estritamente limitado ao parâmetro “id” como um identificador de região. Também é possível definir o seu próprio identificador usando a variável do JavaScript “s.ActivityMap.regionIDAttribute”.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -125,9 +125,9 @@ Você pode personalizar a região certificando-se de que cada link “comprar”
 
 >[!CAUTION]
 >
->Certifique-se de testar o código modificado para garantir que ele funcione corretamente. A Adobe não é responsável pela forma como o código modificado se comporta.
+>Certifique-se de testar o código modificado para garantir seu funcionamento. A Adobe não é responsável pela forma como o código modificado se comporta.
 
-Estes são alguns exemplos de funções de link/região** genéricas* que podem ser incluídas (em forma modificada) no arquivo AppMeasurement.js.
+Veja alguns exemplos de funções de link/região **genéricas** que podem ser incluídas (em forma modificada) no arquivo AppMeasurement.js.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
