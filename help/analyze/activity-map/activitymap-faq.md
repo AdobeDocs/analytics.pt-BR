@@ -1,12 +1,12 @@
 ---
 description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
-seo-description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Mapa de atividade.
+seo-description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
 seo-title: Perguntas frequentes sobre o Activity Map
 solution: Analytics
 title: Perguntas frequentes sobre o Activity Map
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -24,11 +24,11 @@ A: Revise [Ativar o Activity Map](/help/analyze/activity-map/activitymap-getting
 
 **P: Todos os clientes do Analytics têm acesso à página de Ativação das Ferramentas administrativas no Activity Map?**
 
-A: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação do Mapa de atividade do Admin Console. Apenas as empresas com contratos do Adobe Analytics Standard e Adobe Analytics Premium têm acesso a essa página de configuração.
+R: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação do Admin Console no Activity Map. Apenas as empresas com contratos do Adobe Analytics Standard e Adobe Analytics Premium têm acesso a essa página de configuração.
 
 **P: O novo código AppMeasurement pode ser configurado por meio do Dynamic Tag Management (DTM)?**
 
-R: Sim, é possível [implementar manualmente](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) o novo código AppMeasurement.
+R: Sim, é possível [implementar manualmente](https://marketing.adobe.com/resources/help/pt_BR/dtm/analytics_dtm.html) o novo código AppMeasurement.
 
 **P: Quais são as grandes mudanças na biblioteca do AppMeasurement v1.6?**
 
@@ -42,7 +42,7 @@ R: O AppMeasurement é implementado no nível de conjunto de relatórios. O nív
 
 R: Não. A funcionalidade do Activity Map não depende da API do visitante.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Aplicativo do Activity Map {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **P: Posso usar o Activity Map se não tiver usado anteriormente o ClickMap do visitante no meu site?**
 
@@ -64,7 +64,7 @@ R: Alguns links classificados podem estar ocultos na página (links de submenu, 
 
 **P: Como a classificação de links é determinada no Relatório de todos os links?**
 
-* No modo **Gradiente** e em **Bolha**: a classificação é determinada pela coluna de métricas.  Para os links com o mesmo valor métrico, a classificação é ainda baseada na ordem alfabética da ID do link.
+* No modo **Gradiente** e em **Bolha**: a classificação é determinada pela coluna de métricas. Para os links com o mesmo valor métrico, a classificação é ainda baseada na ordem alfabética da ID do link.
 * No modo **Ganhador e perdedor**, a classificação é determinada principalmente pela coluna de porcentagem de Ganho. Para os links com o mesmo Ganho, a classificação é ainda baseada na ordem alfabética da ID do link.
 
 **P: Por que os dados de cliques em links não são coletados quando o Activity Map está em execução?**
@@ -73,13 +73,13 @@ R: Enquanto o Activity Map estiver em uso, os dados do cliques em links não sã
 
 **P: Por que o menu suspenso de métrica lista as mesmas métricas várias vezes?**
 
-R: O Activity Map lista as métricas para todos os conjuntos de relatórios.  Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
+R: O Activity Map lista as métricas para todos os conjuntos de relatórios. Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/cm_transition.html).
 
 A lista suspensa de Métricas permite que você limite a lista de métricas calculadas para as métricas atribuídas ao conjunto de relatórios da página visitada.
 
 **P: Como o Relatório de todos os links pode ser comparado aos Reports &amp; Analytics do Activity Map?**
 
-A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = "visitedpage", broken down by Activity Map Link&amp;Region in `<list of link&regions present in the page at rendering time>`.
+R: Para usar o Relatório de todos os links no Activity Map, criamos uma solicitação de detalhamento, como a seguinte: página do Activity Map = “visitedpage”, detalhado pelo Link e Região do Activity Map em `<list of link&regions present in the page at rendering time>`.
 
 Para obter um relatório equivalente em Reports &amp; Analytics, você precisa primeiro navegar até o relatório de página do Activity Map. Lá, é possível filtrar pelo nome da página visitada no Activity Map. O nome da página visitada é mostrado na coluna esquerda do painel inferior Detalhes da página, no Activity Map. Após encontrar a página, é possível separar-se dessa página e escolher Links e regiões do Activity Map como uma dimensão secundária.
 
@@ -109,7 +109,7 @@ Se o novo conteúdo for inserido, o aplicativo vai recuperar os links associados
 
 **P: Em qual métrica é baseada o Relatório de fluxo de página?**
 
-R: Todos os dados mostrados são baseados nas exibições de página. 
+R: Todos os dados mostrados são baseados nas exibições de página.
 
 **P: É possível explicar o comportamento do Activity Map com vários tipos de páginas?**
 
@@ -119,13 +119,13 @@ Uma mensagem de aviso é mostrada abaixo da barra de ferramentas, indicando que 
 
 *Página da Web com a tag do Analytics incompatível (AppMeasurement v1.5 ou anterior)*
 
-Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) atualizar o código da página para v1.6.
+Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) atualizar o código da página para a v1.6.
 
 *Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do Activity Map não foi ativado nas Ferramentas administrativas*
 
-Uma mensagem de aviso é exibida, indicando que você precisa solicitar ao administrador que \[Habilite o relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
+Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
-**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
+**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/pt_BR/reference/analytics-data-feed.html)?**
 
 R: Não.
 
@@ -133,7 +133,7 @@ R: Não.
 
 **P: Os segmentos estão vinculados aos segmentos de usuários individuais? Ou são segmentos de nível de administrador compartilhados, disponíveis no Activity Map?**
 
-A: O Activity Map herda seus segmentos de nível administrativo (segmentos de relatórios) do Analytics.
+R: O Activity Map herda seus segmentos de nível de administrador (segmentos de relatórios) do Analytics.
 
 **P: Os segmentos funcionam no modo Online?**
 
