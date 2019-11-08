@@ -6,7 +6,7 @@ solution: Analytics
 title: Sistemas e requisitos compatíveis
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -22,7 +22,7 @@ O Activity Map é compatível com os seguintes navegadores da Web.
 | Firefox | Última versão |
 | Chrome | Última versão. Observação: somente dessa vez, o plug-in do Activity Map no Chrome será um plug-in de “modo desenvolvedor”. Ao inicializar esse plug-in, você receberá uma mensagem que incentiva a desativar as extensões do modo desenvolvedor. Essa mensagem será exibida cada vez que o plug-in for inicializado. |
 
-> [!NOTE] Da perspectiva da coleção de links, o Activity Map oferece suporte a uma lista muito maior de navegadores.
+> [!NOTE] de uma perspectiva de coleção de links, o Activity Map é compatível com uma lista muito maior de navegadores.
 
 Outros requisitos:
 
