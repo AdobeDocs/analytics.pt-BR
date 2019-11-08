@@ -1,12 +1,12 @@
 ---
 description: O Activity Map disponibiliza dois modos básicos para fornecer relatórios complementares da atividade principal.
-seo-description: O Mapa de atividade disponibiliza dois modos básicos para fornecer relatórios complementares da atividade principal.
+seo-description: O Activity Map disponibiliza dois modos básicos para fornecer relatórios complementares da atividade principal.
 seo-title: Modo Padrão vs. modo Online
 solution: Analytics
 title: Modo Padrão vs. modo Online
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -27,7 +27,7 @@ No **Modo padrão**, é possível selecionar o intervalo de datas na barra de fe
 
 ![](assets/standard_mode.png)
 
-Nesse modo, métricas de Comércio que não tiverem “Participação” ativada são alocadas linearmente. Suponhamos que um usuário clique em um link “iPod mini” na tela inicial, e em seguida navegue por outras 3 páginas. Na quarta página, ele compra um iPad mini por $200. O link “iPod mini” receberá $200 de receita de participação e $50 ($200/4) de receita (receita alocada linearmente).
+Nesse modo, métricas de Comércio que não tiverem “Participação” ativada são alocadas linearmente. Suponhamos que um usuário clique em um link “iPod mini” na tela inicial, e em seguida navegue por outras 3 páginas. Na quarta página, ele compra um iPod mini por $200. O link “iPod mini” receberá $200 de receita de participação e $50 ($200/4) de receita (receita alocada linearmente).
 
 P: E se uma página tiver links com o mesmo nome em regiões separadas? Os links receberão crédito separadamente por estarem em diferentes regiões, mas terem o mesmo nome de link em uma página?
 
@@ -37,11 +37,11 @@ R: Depende de como os dados do link são agregados. No Activity Map, observamos 
 
 No **Modo online**, os dados do Analytics são mostrado em incrementos de 1 a 15 minutos, em uma forma de tendência. Esse modo destina-se à análise e ao acompanhamento das tendências de curto prazo na página da Web.
 
-O modo Online responde às necessidades das empresas de publicação.  Essas empresas precisam monitorar as microtendências na popularidade do link dentro de algumas páginas principais. A capacidade de discernir com rapidez quais links estão abaixo do desempenho ou estão se tornando populares é fundamental para os negócios de publicação.
+O modo Online responde às necessidades das empresas de publicação. Essas empresas precisam monitorar as microtendências na popularidade do link dentro de algumas páginas principais. A capacidade de discernir com rapidez quais links estão abaixo do desempenho ou estão se tornando populares é fundamental para os negócios de publicação.
 
 >[!IMPORTANT]
 >
->Os Conjuntos de relatórios virtuais não são compatíveis com o modo Online, somente com o modo Padrão.
+>Conjuntos de relatórios virtuais não são compatíveis com o modo Online, somente com o modo Padrão.
 
 ![](assets/live_mode.png)
 
