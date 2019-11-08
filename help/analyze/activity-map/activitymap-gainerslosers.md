@@ -6,7 +6,7 @@ solution: Analytics
 title: Sobreposições personalizáveis
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Para fazer alterações nas sobreposições, abra o [Painel de configurações d
 
 Os [detalhes](/help/analyze/activity-map/activitymap-overlay-details.md) serão exibidos ao passar o mouse sobre uma sobreposição.
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## Sobreposição de gradiente (mapa de dados) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 Com a sobreposição de gradiente, a intensidade da cor é baseada na popularidade do link. Essa intensidade pode ser normalizada para as 30 melhores classificações ou para uma função do valor absoluto da métrica.
 
@@ -42,7 +42,7 @@ Essas métricas são sobrepostas sobre os links da página como um tipo de "mapa
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## Sobreposição em bolha {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 A sobreposição em bolha mostra o conteúdo da sobreposição (métrica, porcentagem, ou classificação) em um pequeno texto explicativo no formato de bolha.
 
@@ -50,13 +50,13 @@ Sobreposições de bolha são mostradas quando você seleciona essa sobreposiç�
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] As sobreposições de bolha para submenus são exibidas somente quando você exibe o submenu:
+> [!NOTE] as sobreposições em bolha de submenus são exibidas somente quando o submenu é exibido:
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## Sobreposições de ganhadores e perdedores {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Sobreposições]** de ganhadores e perdedores estão disponíveis somente no modo Online. Elas informam as alterações em tempo real na atividade do link, ao comparar as métricas do período atual com as do último período. Elas disponibilizam uma forma visualmente atraente para exibir as tendências em tempo real.
+**[!UICONTROL As sobreposições de ganhadores e perdedores]** estão disponíveis apenas no modo Online. Elas informam as alterações em tempo real na atividade do link, ao comparar as métricas do período atual com as do último período. Elas disponibilizam uma forma visualmente atraente para exibir as tendências em tempo real.
 
 Essa sobreposição em tempo real classifica os cliques com base nas alterações do valor métrico entre os períodos anteriores e atuais.
 
