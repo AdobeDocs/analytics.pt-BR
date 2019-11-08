@@ -6,7 +6,7 @@ solution: Analytics
 title: Rastreamento de link Perguntas frequentes
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,12 +18,12 @@ Perguntas frequentes sobre o rastreamento de links no Activity Map.
 
 >[!CAUTION]
 >
->**Ao ativar o rastreamento do Activity Map,** você pode coletar dados de informações de identificação pessoal (PII). Esses dados podem ser usados sozinhos ou com outras informações para identificar, entrar em contato ou localizar uma única pessoa, ou para identificar um indivíduo no contexto.
+>Ao ativar o rastreamento do Activity Map, **você poderá coletar dados de informações pessoalmente identificáveis (PII).** Tais dados podem ser usados isoladamente ou junto a outras informações para identificar, contactar ou localizar uma pessoa, ou para identificar um indivíduo em um contexto.
 
 Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados usando o Rastreamento do Activity Map:
 
 * `Mailto` links. Um link mailto é um tipo de link HTML que ativa o cliente de email padrão no computador para enviar um email.
-* `User ID` links que podem aparecer no cabeçalho/rodapé de um site depois que o usuário fizer logon.
+* `User ID` links que podem ser exibidos no cabeçalho/rodapé de um site depois que o usuário fizer logon.
 * Para instituições financeiras, o número da conta pode ser mostrado como um link. Clicar nele coletará o texto do link.
 * Sites de instituições de saúde também podem ter dados de PII mostrados como links. Clicar nesses links coletará o texto do link e, portanto, coletará dados de PII.
 
@@ -40,19 +40,19 @@ Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados
      <li id="li_49F6DDD9DC124AE5846EC5B7D7BEA20E">Isso é uma tag &lt;A&gt; ou &lt;AREA&gt; com uma propriedade HREF? </li> 
      <li id="li_77828D24D54343E5B9A1FF7345221781">Existe um atributo no clique que define uma variável s_objectID? </li> 
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Isso é uma tag INSERIR ou um botão ENVIAR com um valor ou texto filho? </li> 
-     <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Isso é uma tag INSERIR com uma IMAGEM de tipo e uma propriedade src?  </li> 
+     <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Isso é uma tag INSERIR com uma IMAGEM de tipo e uma propriedade src? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Isso é um &lt;Botão&gt;? </li> 
-    </ul> <p>Se a resposta for <b>Sim</b> para qualquer uma das perguntas acima, então o elemento é tratado como um link e será rastreado. </p> <p>Importante: tags de botão com o atributo type="button" não são consideradas links por AppMeasurement. Considere remover "type='button'" nas tags de botão e, em vez disso, adicione role="button" ou submit="button". </p> <p>Importante: Uma âncora com uma href que começa com "#" é considerada um local de destino interno pelo AppMeasurement, não um link (já que você não sai da página). Por padrão, o Activity Map não rastreia esses locais de destino internos. Rastreia somente links que navegam pelo usuário para uma nova página.</p></td> 
+    </ul> <p>Se a resposta for <b>Sim</b> para qualquer uma das perguntas acima, então o elemento é tratado como um link e será rastreado. </p> <p>Importante: tags de botão com o atributo type="button" não são consideradas links por AppMeasurement. Considere remover "type='button'" nas tags de botão e, em vez disso, adicione role="button" ou submit="button". </p> <p>Importante: uma tag âncora com uma href que começa com "#" é considerada um local de destino interno pelo AppMeasurement, não um link (já que você não sai da página). Por padrão, o Activity Map não rastreia esses locais de destino internos. Ele rastreia somente links que levam o usuário a uma nova página.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>P: Como o Activity Map rastreia outros elementos visuais em HTML?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Através da <code> s.tl() </code> função</b> <p>Se o clique ocorreu com uma invocação s.tl, então o Activity Map também receberá esse evento de clique e determinará se uma variável de cadeia de caracteres linkName foi encontrada. Durante a execução da s.tl, o linkName será definido como a ID do link no Activity Map.  O elemento clicado que originou a chamada s.tl() será utilizado para determinar a região. Exemplo: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Com a função <code> s.tl() </code></b> <p>Se o clique ocorreu com uma invocação s.tl, então o Activity Map também receberá esse evento de clique e determinará se uma variável de cadeia de caracteres linkName foi encontrada. Durante a execução da s.tl, o linkName será definido como a ID do link no Activity Map. O elemento clicado que originou a chamada s.tl() será utilizado para determinar a região. Exemplo: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Pela <code> s_objectID </code> variável</b> <p>Exemplo: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Com a variável <code> s_objectID </code></b> <p>Exemplo: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Importante: observe que é necessário um ponto e vírgula (;) ao usar s_objectID no Activity Map. </p> </li> 
@@ -92,11 +92,11 @@ Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Motivo: a função <code> s_ObjectID </code> e a <code> s.tl() </code> não estão presentes 
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Motivo: a função <code> s_ObjectID </code> e a <code> s.tl() </code> não estão presentes 
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
