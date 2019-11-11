@@ -4,14 +4,14 @@ audience: usuário final
 user-guide-title: Guia de implementação do Analytics
 user-guide-url: /content/help/pt-BR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
 
 # Guia de implementação do Analytics {#implementation}
 
-+ [Ajuda de implementação do Analytics.](home.md)
++ [Ajuda de implementação do Analytics](home.md).
 + Notas de versão do AppMeasurement {#appmeasurement-release-notes}
    + [AppMeasurement para JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [Código H JavaScript - herdado](appmeasurement-release-notes/c-release-notes-javascript.md)
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [Relatório para mapeamento de variável](impl-testing/report-variable-mapping.md)
    + [Mapeamento de variável para relatório](impl-testing/var-report-mapping.md)
 + [Analytics para assistentes digitais](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Implementação do Analytics para dispositivos móveis](mobile-device-sdk.md)
