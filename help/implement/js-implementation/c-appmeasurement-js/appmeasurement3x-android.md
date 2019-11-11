@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x para Android
-seo-description: Documentação antiga do AppMeasurement 3.x para Android
-seo-title: AppMeasurement 3.x para Android
+description: AppMeasurement 3.x para ios
+seo-description: Documentação antiga do AppMeasurement 3.x para ios
+seo-title: AppMeasurement 3.x para ios
 solution: Analytics
 subtopic: Marcadores
-title: AppMeasurement 3.x para Android
+title: AppMeasurement 3.x para ios
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x para Android
+# AppMeasurement 3.x para iOS
 
-*Observação: Este documento contém informações herdadas para versões anteriores do AppMeasurement, especificamente para as versões 3.x para Android.
+*Observação: Este documento contém informações herdadas para versões anteriores do AppMeasurement, especificamente para as versões 3.x para iOS.
 Para obter informações sobre a implementação atual do AppMeasurement, consulte[Sobre o AppMeasurement para Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Última atualização do AppMeasurement 3.x para Android em 15/03/2018*
+*Última atualização do AppMeasurement 3.x para 15/03/2018 para iOS*
 
-O Adobe AppMeasurement para Android permite avaliar aplicativos Android nativos na Adobe Experience Cloud.
+O Adobe AppMeasurement para iOS permite avaliar aplicativos nativos do Apple iPhone e iPad na Adobe Experience Cloud.
 
-Este guia está dividido em duas seções. uma seção para o analista que tem experiência com o Adobe Analytics e uma seção para o desenvolvedor do Android com experiência em desenvolvimento de aplicativo móvel.
+Este guia está dividido em duas seções. uma seção para o analista que tem experiência com o Adobe Analytics e uma seção para o desenvolvedor iOS com experiência em desenvolvimento de aplicativos móveis.
 
-**Versões** suportadas: Android 2.0 ou posterior.
+**Versões** suportadas: iOS 4.3 ou posterior.
 
-**Baixe as instruções e os links de Download da biblioteca** para todas as plataformas móveis do AppMeasurement que estão disponíveis na página Medição e otimização de aplicativos móveis no Developer Connection. É necessário ter uma conta gratuita do Developer Connection ou um logon do SiteCatalyst para fazer o download das bibliotecas. Os links de download não são exibidos até que você se conecte.
+**Baixe as instruções e os links de Download da biblioteca** para todas as plataformas móveis do AppMeasurement que estão disponíveis na página Medição e otimização de aplicativos móveis no Developer Connection. É necessário ter uma conta gratuita do Developer Connection ou um logon dos relatórios e análises para baixar as bibliotecas. Os links de download não são exibidos até que você se conecte.
 
 ## Início rápido de analista
 
-Esta seção aborda a implementação da biblioteca Android e adiciona o código necessário para uma implementação padrão. As etapas são incluídas para mostrar como enviar eventos personalizados e outros dados.
+Esta seção aborda a implementação da biblioteca iOS e adiciona o código necessário para uma implementação padrão. As etapas são incluídas para mostrar como enviar eventos personalizados e outros dados.
 
 Como analista, você precisará habilitar os Relatórios de aplicativo móvel para seu conjunto de relatórios. Você deve fornecer para seu desenvolvedor uma descrição das variáveis de dados de contexto que devem ser enviadas pelo aplicativo, caso tenha métricas adicionar para capturar. Por exemplo, para coletar o nome de usuário após o login, seu desenvolvedor pode colocar o nome de usuário em uma variável de dados de contexto chamada `myco.username`.
 
-### Habilitar Relatórios de aplicativo móvel no SiteCatalyst
+### Habilitação dos Relatórios de aplicativo móvel no Analytics
 
-O SiteCatalyst fornece uma interface para habilitar o Rastreamento do ciclo de vida do aplicativo móvel. O mapa permite que o SiteCatalyst gere automaticamente os Relatórios de aplicativo móvel.
+O Analytics fornece uma interface capaz de habilitar o Rastreamento do ciclo de vida do aplicativo móvel. Esse mapeamento permite que o Analytics gere automaticamente os Relatórios de aplicativo móvel.
 
 1. Abra Console de administração &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Gerenciamento móvel &gt; Relatório de aplicativo móvel.
 1. Clique em Habilitar rastreamento do ciclo de vida do aplicativo móvel.
@@ -57,19 +57,17 @@ Se você planeja armazenar ocorrências quando o dispositivo está offline, é n
 
 Depois de ativar o rastreamento offline, todas as ocorrências devem ter um carimbo de data/hora ou não serão coletadas. Se você está relatando sobre dados do AppMeasurement para um conjunto de relatórios que também coleta dados do JavaScript, pode ser necessário configurar um conjunto de relatórios separado para dados móveis a fim de evitar perda de dados ou incluir um carimbo de data e hora personalizado nas ocorrências de JavaScript utilizando a variável s.timestamp.
 
-Se não tiver certeza se o conjunto de relatórios tem carimbo de data e hora, entre em contato com o Client Care.
+Caso não tenha certeza se o seu conjunto de relatórios possui carimbo de data e hora, entre em contato com o Atendimento ao cliente.
 
 ## Início rápido para desenvolvedores
 
-Esta seção aborda a seleção e configuração de eventos, eVars e props que você usará para coletar dados do Android. As etapas também são incluídas para criar Regras de processamento para copiar os dados de contexto enviados pela biblioteca Android para estas variáveis.
-
-As etapas para implementar a biblioteca do Android e iniciar o envio de dados de medição são as seguintes:
+Esta seção aborda as etapas para implementar a biblioteca do iOS e iniciar o envio de dados de medição, incluindo:
 
 * Obtenha a Biblioteca
 * Adicionar a biblioteca ao seu projeto
-* Adicionar permissões do aplicativo
 * Um resumo sobre o TrackingHelper
 * Implementação
+
 
 ### Obtenha a Biblioteca
 
