@@ -9,24 +9,24 @@ title: Variáveis de configuração
 topic: Desenvolvedor e implementação
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 ---
 
 
 # Variáveis de configuração visão geral
 
-As variáveis de configuração controlam como os dados são capturados e processados nos relatórios. As variáveis de configuração mais comuns tipicamente definidas no JavaScript global principal (AppMeasurement.js). Essas variáveis podem ser definidas no código de página e nos links do Analytics, quando apropriado.
+As variáveis de configuração controlam como os dados são capturados e processados nos relatórios. As variáveis de configuração mais comuns tipicamente definidas no JavaScript global principal (AppMeasurement.js. Essas variáveis podem ser definidas no código de página e nos links do Analytics, quando apropriado.
 
-Nem todas essas variáveis aparecem no código por padrão ao gerar o código por meio da **[!UICONTROL Ferramenta de administração]** &gt; **[!UICONTROL Gerenciador de código]**. Algumas dessas variáveis de configuração podem não se aplicar às necessidades de implementação do seu site.
+Nem todas essas variáveis aparecem no código por padrão ao gerar o código por meio da **[!UICONTROL Ferramenta de administração]** &gt; **[!UICONTROL Gerenciador de código]**. Algumas dessas variáveis de configuração podem não se aplicar às necessidades de implementação do site.
 
 Alguns dos objetivos ao usar essas variáveis de configuração são:
 
-* Rastrear vários sites ou domínios.
-* Fazer compras com qualquer moeda do mundo.
-* Capturar dados em vários idiomas.
-* Rastreamento de sites (número de arquivos baixados, links para arquivos externos.
-* Rastrear links personalizados por razões particulares.
+* Rastrear vários sites ou domínios
+* Fazer compras com qualquer moeda do mundo
+* Capturar dados em vários idiomas
+* Rastreamento de sites (número de arquivos baixados, links para arquivos externos).
+* Rastrear links personalizados por razões particulares
 
 > [!NOTE] [!DNL AppMeasurement] requer que todas as variáveis de configuração sejam definidas antes da chamada inicial para a função de rastreamento, `t()`. Se as variáveis de configuração forem definidas após a chamada para `t()`, podem ocorrer resultados inesperados. Para garantir a coleta de dados adequada, todas as variáveis de configuração devem estar acima da função `doPlugins`.
 
