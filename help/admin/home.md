@@ -1,10 +1,10 @@
 ---
 title: Ajuda de administração do Analytics
 seo-title: Comparação entre produtos do Analytics
-description: 'null'
-seo-description: 'null'
+description: Ajuda administrativa para administradores do Adobe Analytics, incluindo gerenciamento de usuários e produtos no Admin Console, configuração de conjuntos de relatórios, variáveis, classificações e coleta de dados.
+seo-description: Ajuda administrativa para administradores do Adobe Analytics, incluindo gerenciamento de usuários e produtos no Admin Console, configuração de conjuntos de relatórios, variáveis, classificações e coleta de dados.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Guia de administração do Analytics
 
 ![Banner](/assets/doc_banner_admin.png)
+
+Esta ajuda destina-se aos administradores do Adobe Analytics. Inclui ajuda sobre o gerenciamento de usuários e produtos no Admin Console, configurando conjuntos de relatórios, variáveis, classificações e coleta de dados.
 
 No momento, o Adobe Analytics tem duas áreas para administradores:
 
