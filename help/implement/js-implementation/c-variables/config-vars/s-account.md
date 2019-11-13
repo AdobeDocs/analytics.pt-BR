@@ -5,20 +5,21 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
 
-# s.account
+# s.useForcedLinkTracking
+
 
 A variável determina o conjunto de relatórios em que os dados são armazenados e reportados.
 
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. A ID do conjunto de relatórios é determinada pela Adobe.
+Se estiver enviado para vários conjuntos de relatórios (marcação de vários conjuntos), `s.account` pode ser uma lista de valores separados por vírgulas. A ID do conjunto de relatórios é determinada pela Adobe.
 
 ## Parâmetros
 
-| Tamanho máx. | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
+| Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |--- |--- |--- |--- |
 | 40 bytes | No caminho do URL | N/A | N/A |
 
@@ -28,9 +29,9 @@ O conjunto de relatórios é o nível mais fundamental da segmentação nos rela
 
 No [!DNL Analytics], a caixa suspensa do site na parte superior esquerda dos relatórios exibe o conjunto de relatórios atual. Cada conjunto de relatórios tem um identificador exclusivo chamado de ID do conjunto de relatórios. A variável `s_account`contém um ou mais IDs de conjunto de relatórios para os quais os dados são enviados. O valor da ID do conjunto de relatórios, que é invisível para usuários do [!DNL Analytics], deve ser fornecido ou aprovado pela Adobe antes de você usá-lo. Toda ID do conjunto de relatórios tem um "nome amigável" associado que pode ser alterado na seção conjuntos de relatórios do [!DNL Admin Console].
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). Você pode declarar a `s_account` variável na página HTML, que é uma prática comum quando o valor de `s_account` pode mudar de página para página. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+Normalmente, a variável `s_account` é declarada no arquivo JavaScript (s_code.js). Você pode declarar a variável `s_account` na página HTML, que é uma prática comum quando o valor de `s_account` pode mudar de uma página para outra. Como a variável `s_account` tem um escopo global, ela deve ser declarada imediatamente antes da inclusão do arquivo JavaScript da Adobe. Se `s_account` não tiver um valor quando o arquivo JavaScript for carregado, os dados não serão enviados para [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. Em alguns casos, o valor de `s_account` também aparece no domínio, antes de 112.2o7.net. O valor no caminho é o único valor que determina o conjunto de relatórios de destino. O texto em negrito abaixo mostra os conjuntos de relatórios para os quais os dados são enviados, como será exibidos no depurador. Consulte [Depurador DigitalPulse](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+O [!DNL DigitalPulse Debugger] da Adobe exibe o valor de `s_account` no caminho do URL, que aparece logo abaixo da palavra "Image" e logo depois de /b/ss/. Em alguns casos, o valor de `s_account` também aparece no domínio, antes de 112.2o7.net. O valor no caminho é o único valor que determina o conjunto de relatórios de destino. O texto em negrito abaixo mostra os conjuntos de relatórios para os quais os dados são enviados, como será exibidos no depurador. Consulte [Depurador DigitalPulse](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -63,10 +64,10 @@ O nome amigável associado a cada ID de conjunto de relatórios pode ser alterad
 
 ## Armadilhas, dúvidas e dicas
 
-* If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
-* When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. Use o [!DNL DigitalPulse Debugger] para determinar o(s) conjunto de relatórios(s) de destino.
+* Se `s_account` estiver vazio, não for declarado ou contiver um valor inesperado, os dados não serão coletados.
+* Quando a variável `s_account` é uma lista separada por vírgulas (marcação de vários relatórios), não coloque espaços entre as IDs do conjunto de relatórios.
+* Se [!UICONTROL s.dynamicAccountSelection] for definido como *True*, o URL será usado para determinar o conjunto de relatórios de destino. Use o [!DNL DigitalPulse Debugger] para determinar o(s) conjunto de relatórios(s) de destino.
 
 * Em alguns casos, é possível usar o [!DNL VISTA] para alterar o conjunto de relatórios de destino. É recomendado usar o [!DNL VISTA] para rotear novamente ou copiar os dados para outro conjunto de relatórios usando cookies primários ou se o site tiver mais de 20 conjuntos de relatórios ativos.
 
-* Always declare `s_account` inside the JS file or just before it is included.
+* Sempre declare `s_account` no arquivo JS ou antes da inclusão do arquivo JS.
