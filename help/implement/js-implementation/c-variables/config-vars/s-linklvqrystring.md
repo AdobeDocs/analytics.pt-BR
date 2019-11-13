@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -28,7 +28,7 @@ A variável *`linkLeaveQueryString`* determina se a string de consulta deve ou n
 |--- |--- |--- |--- |
 | N/A | N/A | Downloads de arquivos de links de saída | false |
 
-> [!NOTE] Configurar `linkLeaveQueryString=true` = inclui todos os parâmetros de string de consulta para todos os Links de Saída e Links de Download.
+*Observação: A configuração`linkLeaveQueryString=true`inclui todos os parâmetros da string de consulta para todos os links de saída e links de download.*
 
 ## Sintaxe
 
@@ -60,3 +60,55 @@ Nenhuma configuração é necessária para essa variável.
 
 * Configurar `s.linkLeaveQueryString=true` = inclui todos os parâmetros de string de consulta para todos os Links de Saída e Links de Download.
 * A variável `linkLeaveQueryString` não afeta os URLs da página gravada, o mapa de cliques do visitante ou os relatórios de [!UICONTROL Caminho].
+
+## Acompanhamento automático de links de saída e downloads de arquivos
+
+O arquivo JavaScript pode ser configurado para monitorar automaticamente os downloads de arquivos e links de saída com base nos parâmetros que definem os tipos de arquivo de download de arquivos e links de saída.
+
+Os parâmetros que controlam o rastreamento automático são desta forma:
+
+```
+s.trackDownloadLinks=true 
+s.trackExternalLinks=true 
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls" 
+s.linkInternalFilters="javascript:,mysite.com,[more filters here]" 
+s.linkLeaveQueryString=false 
+```
+
+Os parâmetros `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. Quando habilitado, qualquer link com um tipo de arquivo correspondente a um dos valores em `linkDownloadFileTypes` é automaticamente rastreado como um download de arquivo. Qualquer link com um URL que não contenha um dos valores em `linkInternalFilters` é automaticamente rastreado como um link de saída.
+
+In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+
+### Exemplo 1
+
+Os tipos de arquivos `.jpg` e não `.aspx` estão incluídos `linkDownloadFileTypes` acima, portanto, nenhum clique neles é automaticamente rastreado e reportado como downloads de arquivos.
+
+The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+
+### Exemplo 2
+
+Com as configurações a seguir, o exemplo abaixo será computado como um link de saída:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=false 
+ 
+//HTML file 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
+```
+
+### Exemplo 3
+
+Com as configurações a seguir, o link abaixo não será computado como um link de saída:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=true 
+ 
+//HTML  
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
+```
+
+*Observação: um único link só pode ser acompanhado como um download de arquivo ou link de saída, com prioridade para o download de arquivo. Se um link for um link de saída e um download de arquivo com base nos parâmetros`linkDownloadFileTypes`e`linkInternalFilters`, ele será rastreado e reportado como um download de arquivo e não como um link de saída.*
