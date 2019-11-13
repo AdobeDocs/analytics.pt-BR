@@ -9,7 +9,7 @@ title: Variáveis de configuração
 topic: Desenvolvedor e implementação
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Inclua uma lista separada por vírgulas de extensões de arquivo.
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Inclui uma lista separada por vírgulas de filtros que representam os links que fazem parte do site.
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html): Inclui uma lista separada por vírgulas de filtros que representam os links que fazem parte do site.
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html): Determine se a string de consulta deve ou não ser incluída nos relatórios de Links de saída e Downloads de arquivo.
 
@@ -77,4 +77,3 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Use para relatar um subconjunto específico de links de saída.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Chame a `s_doPlugins` função antes de cada solicitação de imagem.
-
