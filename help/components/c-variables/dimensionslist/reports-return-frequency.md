@@ -1,13 +1,11 @@
 ---
-description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar site e as tendências dos clientes recorrentes.
-seo-description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar o site e as tendências dos clientes recorrentes.
-seo-title: Frequência de Retorno
+description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar o site e as tendências dos clientes recorrentes.
 solution: Analytics
 title: Frequência de Retorno
-topic: Relatórios
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
