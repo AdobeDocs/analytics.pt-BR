@@ -1,13 +1,11 @@
 ---
 description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
-seo-description: Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
-seo-title: Perguntas frequentes sobre o Activity Map
 solution: Analytics
 title: Perguntas frequentes sobre o Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ R: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação d
 
 **P: O novo código AppMeasurement pode ser configurado por meio do Dynamic Tag Management (DTM)?**
 
-R: Sim, é possível [implementar manualmente](https://marketing.adobe.com/resources/help/pt_BR/dtm/analytics_dtm.html) o novo código AppMeasurement.
+R: Sim, é possível [implementar manualmente](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) o novo código AppMeasurement.
 
 **P: Quais são as grandes mudanças na biblioteca do AppMeasurement v1.6?**
 
@@ -73,7 +71,7 @@ R: Enquanto o Activity Map estiver em uso, os dados do cliques em links não sã
 
 **P: Por que o menu suspenso de métrica lista as mesmas métricas várias vezes?**
 
-R: O Activity Map lista as métricas para todos os conjuntos de relatórios. Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/cm_transition.html).
+R: O Activity Map lista as métricas para todos os conjuntos de relatórios. Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
 
 A lista suspensa de Métricas permite que você limite a lista de métricas calculadas para as métricas atribuídas ao conjunto de relatórios da página visitada.
 
@@ -125,7 +123,7 @@ Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/act
 
 Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
-**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/pt_BR/reference/analytics-data-feed.html)?**
+**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
 
 R: Não.
 
