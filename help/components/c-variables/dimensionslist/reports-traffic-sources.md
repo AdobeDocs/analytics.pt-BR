@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre os locais na Web que enviaram tráfego para o seu site. Você pode ver quais mecanismos de pesquisa e sites fora do seu próprio domínio enviam visitantes para você.
-seo-description: Exibe informações sobre os locais na Web que enviaram tráfego para o seu site. Você pode ver quais mecanismos de pesquisa e sites fora do seu próprio domínio enviam visitantes para você.
-seo-title: Fontes de Tráfego
 solution: Analytics
 title: Fontes de Tráfego
-topic: Relatórios
-uuid: 34ab8797-7a3e-43fd-afb2-433586961b8
+topic: Reports
+uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
