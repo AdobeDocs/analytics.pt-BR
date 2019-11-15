@@ -1,13 +1,11 @@
 ---
 description: Você pode adicionar métricas e dimensões à Etapa 2 do Assistente de solicitações para definir o layout do Analytics dos dados em sua solicitação. A lista de métricas e dimensões no Construtor de relatórios segue o layout do menu exibido em Relatórios e análises.
-seo-description: Você pode adicionar métricas e dimensões à Etapa 2 do Assistente de solicitações para definir o layout do Analytics dos dados em sua solicitação. A lista de métricas e dimensões no Construtor de relatórios segue o layout do menu exibido em Relatórios e análises.
-seo-title: Visão geral de Métricas e dimensões
 solution: Analytics
 title: Visão geral de Métricas e dimensões
-topic: Construtor de relatórios
+topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
