@@ -1,13 +1,11 @@
 ---
 description: Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
-seo-description: Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
-seo-title: Visão geral do relatório em tempo real
 solution: Analytics
 title: Visão geral do relatório em tempo real
-topic: Relatórios
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as ex
 
 >[!NOTE]
 >
-> O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Métricas]** do site &gt; Tempo **[!UICONTROL real]**
 
@@ -57,4 +55,4 @@ Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics
 * Para a transmissão ao vivo, relatórios em tempo real, solicitações de API e dados atualizados para as variáveis de tráfego, somente hits com uma ID de dados adicional são atrasadas.
 * Para os dados atuais sobre as métricas de conversão, dados finalizados e feeds de dados, todos os hits são atrasados de 5 a 7 minutos.
 
-Esteja ciente de que o aumento de latência começa após a implementação do Serviço de identidade, mesmo que você não tenha implementado essa integração totalmente.
+Esteja ciente de que o aumento da latência começa após a implementação do Identity Service, mesmo que essa integração não tenha sido integralmente implementada.
