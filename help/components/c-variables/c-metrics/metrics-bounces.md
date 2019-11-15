@@ -1,14 +1,12 @@
 ---
 description: Uma visita que consiste em uma chamada única de servidor. Por exemplo, uma visita de página única é uma rejeição se o visitante não interagir com a página de forma a enviar dados para a Adobe como, por exemplo, clicar em um link ou iniciar um vídeo. Se mais uma ocorrência for recebida em uma visita, uma Rejeição não é contabilizada.
-keywords: rejeição
-seo-description: Uma visita que consiste em uma chamada única de servidor. Por exemplo, uma visita de página única é uma rejeição se o visitante não interagir com a página de forma a enviar dados para a Adobe como, por exemplo, clicar em um link ou iniciar um vídeo. Se mais uma ocorrência for recebida em uma visita, uma Rejeição não é contabilizada.
-seo-title: Devoluções
+keywords: bounce
 solution: Analytics
 title: Devoluções
-topic: Métricas
-uuid: 0 a 5 efe 5 f -467 e -4 d 40-951 a -5 b 462149 e 482
+topic: Metrics
+uuid: 0a5efe5f-467e-4d40-951a-5b462149e482
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
