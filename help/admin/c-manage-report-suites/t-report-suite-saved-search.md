@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como definir um conjunto de critérios que determinam os membros de uma pesquisa do conjunto de relatórios.
-seo-description: Etapas que descrevem como definir um conjunto de critérios que determinam os membros de uma pesquisa do conjunto de relatórios.
-seo-title: Salvar uma pesquisa do conjunto de relatórios
 solution: Analytics
 title: Salvar uma pesquisa do conjunto de relatórios
-topic: Ferramentas administrativas
-uuid: dd 83 eed 6-1374-429 c -9 fc 3-709055698 a 44
+topic: Admin tools
+uuid: dd83eed6-1374-429c-9fc3-709055698a44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
