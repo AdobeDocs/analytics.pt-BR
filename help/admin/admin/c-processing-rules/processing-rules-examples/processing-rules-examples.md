@@ -1,14 +1,12 @@
 ---
 description: Casos de usos comuns de regras de processamento.
-seo-description: Casos de usos comuns de regras de processamento.
-seo-title: Exemplos de regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Exemplos de regras de processamento
-topic: Ferramentas administrativas
-uuid: 804190 bd -30 f 0-4001-9569-6352 e 20 bb 00 b
+topic: Admin tools
+uuid: 804190bd-30f0-4001-9569-6352e20bb00b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,12 +15,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Casos de usos comuns de regras de processamento.
 
-+ [Preencher uma ID de campanha a partir de um parâmetro da string de consulta](processing-rules-populate-campaign-id.md)
-+ [Definir o evento de exibição do produto na página de visão geral do produto](setting-the-product-view-event.md)
-+ [Adicione uma subcategoria concatenando a categoria e o nome da página](subcategory-concatenating.md)
-+ [Determine um caminho copiando um valor de evar para uma prop](processing-rules-determining-path.md)
++ [Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta](processing-rules-populate-campaign-id.md)
++ [Definir o evento de exibição de produto na página Visão geral do produto](setting-the-product-view-event.md)
++ [Adicionar uma subcategoria pela concatenação da categoria e do nome da página](subcategory-concatenating.md)
++ [Determinar um caminho copiando um valor de eVar em uma propriedade](processing-rules-determining-path.md)
 + [Limpar valores em um relatório](clean-up-values-in-a-report.md)
-+ [Preencher termos de pesquisa interna usando um parâmetro da string de consulta](processing-rules-populating-internal-search.md)
-+ [Copiar uma variável de dados de contexto para uma evar](processing-rules-copy-context-data.md)
++ [Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta](processing-rules-populating-internal-search.md)
++ [Copiar uma variável de dados de contexto para uma eVar](processing-rules-copy-context-data.md)
 + [Definir um evento usando uma variável de dados de contexto](processing-rules-copy-context-data-event.md)
 + [Remover um evento de uma ocorrência](processing-rules-remove-event.md)
