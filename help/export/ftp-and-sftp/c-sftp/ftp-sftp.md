@@ -1,13 +1,11 @@
 ---
 description: O SFTP é um protocolo seguro para transferência de dados que garante que ninguém possa ver seus dados a não ser você. Os serviços de engenharia da Adobe podem configurar uma conta SFTP para manter seus dados protegidos.
 keywords: ftp;sftp
-seo-description: O SFTP é um protocolo seguro para transferência de dados que garante que ninguém possa ver seus dados a não ser você. Os serviços de engenharia da Adobe podem configurar uma conta SFTP para manter seus dados protegidos.
-seo-title: Protocolo de transferência segura de arquivo - visão geral
 solution: Analytics
 title: Protocolo de transferência segura de arquivo - visão geral
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
