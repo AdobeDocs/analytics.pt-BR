@@ -1,14 +1,12 @@
 ---
 description: Saiba mais sobre visualizações e configurações de exibição na Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Saiba mais sobre visualizações e configurações de exibição na Analysis Workspace.
-seo-title: Visão geral das visualizações
 solution: Analytics
 title: Visão geral das visualizações
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
