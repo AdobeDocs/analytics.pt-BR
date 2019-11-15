@@ -1,14 +1,12 @@
 ---
 description: O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
-keywords: Implementação do Analytics, coleta de dados, gerenciador de códigos
-seo-description: O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
-seo-title: Gerenciador de código
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: Gerenciador de código
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ O Gerenciador de código permite que você baixe o código da coleção de dados
 
 **[!UICONTROL Analytics &gt; Administrador &gt; Gerenciador de código]**.
 
-Após baixar a biblioteca, você deve configurar o código para enviar os dados ao servidor de rastreamento e conjunto de relatórios corretos. Os recursos adicionais de implementação estão disponíveis em [Desenvolvedor e implementação](https://marketing.adobe.com/resources/help/pt_BR/reference/developer.html).
+Após baixar a biblioteca, você deve configurar o código para enviar os dados ao servidor de rastreamento e conjunto de relatórios corretos. Há recursos de implementação adicionais disponíveis em [Desenvolvedor e implementação](https://marketing.adobe.com/resources/help/en_US/reference/developer.html).
 
 ## Descrições de página do gerenciador de código {#section_0C23784E20BD4631841FF24E5075DA12}
 
