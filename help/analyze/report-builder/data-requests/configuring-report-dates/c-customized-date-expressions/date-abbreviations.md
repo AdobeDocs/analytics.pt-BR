@@ -1,13 +1,11 @@
 ---
 description: As abreviações de tempo se referem a uma data determinada que dá início a um período, e não a um intervalo de dias. Um intervalo de dias é expresso pela especificação das datas inicial e final de duas abreviações de tempo (ou termos).
-seo-description: As abreviações de tempo se referem a uma data determinada que dá início a um período, e não a um intervalo de dias. Um intervalo de dias é expresso pela especificação das datas inicial e final de duas abreviações de tempo (ou termos).
-seo-title: Abreviações de datas
 solution: Analytics
 title: Abreviações de datas
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
