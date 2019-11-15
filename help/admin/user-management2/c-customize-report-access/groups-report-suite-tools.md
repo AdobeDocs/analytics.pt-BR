@@ -1,15 +1,13 @@
 ---
 description: Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
-keywords: grupos;permissões
-seo-description: Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
-seo-title: Personalizar ferramentas do Conjunto de relatórios
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Personalizar ferramentas do Conjunto de relatórios
-topic: Ferramentas administrativas
-uuid: 3c95d296-ffd0-4971-9c5f-110dbe042ce
+topic: Admin tools
+uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
