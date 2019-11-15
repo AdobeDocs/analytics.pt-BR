@@ -1,10 +1,8 @@
 ---
 title: Ada de importação do Analytics
-seo-title: Ada de importação do Analytics
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
