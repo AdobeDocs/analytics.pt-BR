@@ -1,14 +1,12 @@
 ---
 description: Dicas e práticas recomendadas para novos usuários dos conjuntos de relatórios virtuais.
-keywords: Conjunto de relatórios virtuais
-seo-description: Dicas e práticas recomendadas para novos usuários dos conjuntos de relatórios virtuais.
-seo-title: Perguntas frequentes sobre VRS
+keywords: Virtual Report Suite
 solution: Analytics
 title: Perguntas frequentes sobre VRS
-topic: Reports and Analytics
-uuid: 91225743-765 a -4145-9 ce 5-4268 e 80 ea 7 e 8
+topic: Reports and analytics
+uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
