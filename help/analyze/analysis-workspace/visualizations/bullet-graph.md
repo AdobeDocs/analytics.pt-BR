@@ -1,11 +1,9 @@
 ---
 description: Permite ver como um valor de seu interesse se compara ou são mensurados em relação a outros intervalos de desempenho (metas).
-seo-description: Permite ver como um valor de seu interesse se compara ou são mensurados em relação a outros intervalos de desempenho (metas).
-seo-title: Gráfico em marcadores
 title: Gráfico em marcadores
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
