@@ -1,13 +1,11 @@
 ---
 description: A interface do usuário do Feed de dados pode ser acessada na guia Admin.
-keywords: Feed de dados;página inicial do feed de dados;lista de feeds
-seo-description: A interface do usuário do Feed de dados pode ser acessada na guia Admin.
-seo-title: Abrir a interface do Feed de dados
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: Abrir a interface do Feed de dados
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
