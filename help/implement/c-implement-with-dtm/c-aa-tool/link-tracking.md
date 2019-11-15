@@ -1,13 +1,11 @@
 ---
 description: Descrições de campo no Dynamic Tag Management para rastreamento de links ao implantar o Analytics.
-keywords: Dynamic Tag Management, rastreamento de links, ativar clickmap, rastrear links de download, extensões de download, rastrear links externos, manter parâmetros de url
-seo-description: Descrições de campo no Dynamic Tag Management para rastreamento de links ao implantar o Analytics.
-seo-title: Rastreamento de link
-solution: Experience Cloud, Analytics, Dynamic Tag Management
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Rastreamento de link
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
