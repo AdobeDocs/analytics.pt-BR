@@ -1,13 +1,11 @@
 ---
 description: A guia Detalhes da página exibe o Relatório de página como uma tabela e o Relatório de fluxo de página é mostrado como um relatório bow-tie (gravata borboleta).
-seo-description: A guia Detalhes da página exibe o Relatório de página como uma tabela e o Relatório de fluxo de página é mostrado como um relatório bow-tie (gravata borboleta).
-seo-title: Detalhes da página
 solution: Analytics
 title: Detalhes da página
-topic: Activity Map
+topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
