@@ -1,14 +1,12 @@
 ---
 description: Lista as bibliotecas de medição disponíveis.
-keywords: Implementação do Analytics, coleta, dados, coleção
-seo-description: Lista as bibliotecas de medição disponíveis.
-seo-title: Visão geral de bibliotecas adicionais
+keywords: Analytics Implementation;collect;data;collection
 solution: Analytics
 title: Visão geral de bibliotecas adicionais
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
