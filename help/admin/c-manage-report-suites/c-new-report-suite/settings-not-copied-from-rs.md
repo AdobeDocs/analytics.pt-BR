@@ -1,13 +1,11 @@
 ---
 description: Se você tiver copiado configurações de um conjunto de relatórios existente, uma mensagem do sistema identificará quaisquer configurações não copiadas no novo conjunto de relatórios.
-seo-description: Se você tiver copiado configurações de um conjunto de relatórios existente, uma mensagem do sistema identificará quaisquer configurações não copiadas no novo conjunto de relatórios.
-seo-title: Configurações não copiadas do conjunto de relatórios de origem
 solution: Analytics
 title: Configurações não copiadas do conjunto de relatórios de origem
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
