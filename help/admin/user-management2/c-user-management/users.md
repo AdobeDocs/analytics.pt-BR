@@ -1,14 +1,12 @@
 ---
 description: O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
-seo-description: O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
-seo-title: Visão geral do gerenciamento de usuários
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Visão geral do gerenciamento de usuários
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
