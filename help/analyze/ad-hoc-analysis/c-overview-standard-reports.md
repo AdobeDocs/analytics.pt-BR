@@ -1,13 +1,11 @@
 ---
 description: Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
-seo-description: Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
-seo-title: Visão geral dos relatórios
 solution: Analytics
 title: Visão geral dos relatórios
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
