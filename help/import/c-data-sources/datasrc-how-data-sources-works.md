@@ -1,14 +1,12 @@
 ---
 description: Informações sobre a maneira pela qual a Adobe fornece acesso às Fontes de dados.
-seo-description: Informações sobre a maneira pela qual a Adobe fornece acesso às Fontes de dados.
-seo-title: Como a Fonte de dados funciona
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Como a Fonte de dados funciona
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
