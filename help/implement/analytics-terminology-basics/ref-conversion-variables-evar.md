@@ -1,14 +1,12 @@
 ---
 description: A variável de conversão do Custom insight (ou eVar) é colocada no código da Adobe em páginas da Web selecionadas do site. Seu propósito principal é segmentar métricas de sucesso de conversão em relatórios de marketing personalizados.
-keywords: Implementação do Analytics, eVar, variável de conversão, valor da eVar, conversão, evento bem-sucedido
-seo-description: A variável de conversão do Custom insight (ou eVar) é colocada no código da Adobe em páginas da Web selecionadas do site. Seu propósito principal é segmentar métricas de sucesso de conversão em relatórios de marketing personalizados.
-seo-title: Variáveis de conversão (eVars)
+keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
 solution: Analytics
 title: Variáveis de conversão (eVars)
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
