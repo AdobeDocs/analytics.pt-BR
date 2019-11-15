@@ -1,13 +1,11 @@
 ---
 description: Exibe um detalhe das palavras-chave de pesquisa.
-seo-description: Exibe um detalhe das palavras-chave de pesquisa.
-seo-title: Palavras-chave de pesquisa
 solution: Analytics
 title: Palavras-chave de pesquisa
-topic: 'Relatórios  '
-uuid: db 9 d 477 b-b 711-4 b 93-9 c 25-3 aebe 5 f 2 ace 6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
