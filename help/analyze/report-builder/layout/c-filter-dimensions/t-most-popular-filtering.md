@@ -1,13 +1,11 @@
 ---
 description: Filtros de classificação e condicionais que você configura usando lógica booleana com expressões de pesquisa E/OU.
-seo-description: Filtros de classificação e condicionais que você configura usando lógica booleana com expressões de pesquisa E/OU.
-seo-title: Filtragem mais popular
 solution: Analytics
 title: Filtragem mais popular
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
