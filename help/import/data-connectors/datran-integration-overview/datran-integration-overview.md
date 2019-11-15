@@ -1,11 +1,9 @@
 ---
 description: Esta integração de email dos Conectores de dados da Adobe® combina informações comportamentais do Adobe Analytics® com o marketing de email da Datran para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar os públicos-alvo a mensagens mais relevantes.
-seo-description: Esta integração de email dos Conectores de dados da Adobe® combina informações comportamentais do Adobe Analytics® com o marketing de email da Datran para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar os públicos-alvo a mensagens mais relevantes.
-seo-title: Conector de dados Dell para Adobe Analytics
 title: Conector de dados Dell para Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Essa integração apresenta os seguintes segmentos de marketing, prontos para us
 * **** Perfis de compra: Aumente os pedidos repetidos e o valor médio do pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **** Perfil comportamental de exibição de produto/conteúdo: Alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
-*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
 
 ## Procedimento de integração e pré-requisitos{#integration-procedure-and-prerequisites}
 
