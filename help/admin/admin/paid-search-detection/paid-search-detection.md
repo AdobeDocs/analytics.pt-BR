@@ -1,13 +1,11 @@
 ---
 description: A Detecção de pesquisa paga diferencia pesquisas pagas das naturais nos Mecanismos de pesquisa e nos relatórios de Palavras-chave de pesquisa. É possível especificar os mecanismos de pesquisa onde você usa anúncios pagos e especifica uma sequência de caracteres encontrada no URL de uma visita de um anúncio pago.
-seo-description: A Detecção de pesquisa paga diferencia pesquisas pagas das naturais nos Mecanismos de pesquisa e nos relatórios de Palavras-chave de pesquisa. É possível especificar os mecanismos de pesquisa onde você usa anúncios pagos e especifica uma sequência de caracteres encontrada no URL de uma visita de um anúncio pago.
-seo-title: Detecção de pesquisa paga
 solution: Analytics
 title: Detecção de pesquisa paga
-topic: Ferramentas administrativas
-uuid: 41aadf17-7b8b-49ce-84ca-dc329360205
+topic: Admin tools
+uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
