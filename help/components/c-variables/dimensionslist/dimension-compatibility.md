@@ -1,17 +1,15 @@
 ---
 title: Compatibilidade de dimensões do Analytics
-seo-title: As dimensões e relatórios do Analytics compatíveis com a Analysis Workspace, Relatórios e análises, ou ambos.
 description: Referência para dimensões e relatórios do Analytics.
-seo-description: Dimensões da Analysis Workspace, dimensões do Relatórios e análises, dimensões, Dimensões R & R, dimensões da Workspace
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Compatibilidade de dimensões do Analytics
 
-Este artigo de referência lista dimensões/relatórios suportados nos Relatórios e análises e na Analysis Workspace, somente na Analysis Workspace e no Relatórios e análises.
+Este artigo de referência lista dimensões/relatórios suportados no Relatórios e análises e na Analysis Workspace, somente na Analysis Workspace e somente no Relatórios e análises.
 
 Lembre-se que
 
@@ -33,12 +31,12 @@ Lembre-se que
 | Tipo de conexão | connectiontype |
 | Suporte a cookies | cookie |
 | Países | geocountry |
-| Fidelidade do cliente | customerloyalty |
-| Vars de conversão personalizada | evar 1, evar 2, etc. |
-| Vars de insight personalizado | prop 1, prop 2, etc. |
-| Link personalizado | customlink |
-| Dias antes da primeira compra | daysbeforefirstpurchase |
-| Dias desde a última compra | dayssincelastpurchase |
+| Fidelidade do Cliente | customerloyalty |
+| Vars de conversão personalizada | evar1, evar2 etc. |
+| Vars de insight personalizado | prop1, prop2 etc. |
+| Link Personalizado | customlink |
+| Dias Antes da Primeira Compra | daysbeforefirstpurchase |
+| Dias Desde a Última Compra | dayssincelastpurchase |
 | Domínio | filtereddomain |
 | Link de download | downloadlink |
 | Página de entrada | entrypage |
@@ -77,7 +75,7 @@ Lembre-se que
 | Tipo de referenciador | referrertype |
 | Domínio de referência | referringdomain |
 | Regiões | georegion |
-| Frequência de retorno | returnfrequency |
+| Frequência de Retorno | returnfrequency |
 | SC-TnT | tntbase |
 | Mecanismo de pesquisa | searchengine |
 | Palavra-chave de pesquisa | searchenginekeyword |
@@ -96,7 +94,7 @@ Lembre-se que
 | Tempo antes do evento | timeprior |
 | Tempo gasto por visita - Em bucket | timespent |
 | Profundidade da Visita | pathlength |
-| Número de visitas | visitnumber |
+| Número da visita | visitnumber |
 | Código Postal | zip |
 
 ## Dimensões compatíveis somente com a Analysis Workspace
@@ -239,7 +237,7 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 * Domínios de nível superior
 * DMA EUA
 * Estados dos EUA
-* Número de visitas
+* Número da visita
 * Página inicial do visitante
 
 ## Dimensões sensíveis ao conteúdo compatíveis com o Reports &amp; Analytics e a Analysis Workspace
