@@ -1,13 +1,11 @@
 ---
 description: Etapas para interromper o rastreamento de links no Activity Map ou ClickMap herdado.
-seo-description: Etapas para interromper o rastreamento de links no Activity Map ou ClickMap herdado.
-seo-title: Interromper o rastreamento de links
 solution: Analytics
 title: Interromper o rastreamento de links
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
