@@ -1,13 +1,11 @@
 ---
-description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais participação.
-seo-description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais envolvimento.
-seo-title: Geração de leads
+description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais envolvimento.
 solution: Analytics
 title: Geração de leads
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
