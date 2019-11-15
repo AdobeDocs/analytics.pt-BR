@@ -1,19 +1,17 @@
 ---
 description: Etapas que descrevem como copiar regras de um conjunto de relatórios e substituir ou anexar essas regras a outro conjunto de relatórios.
-seo-description: Etapas que descrevem como copiar regras de um conjunto de relatórios e substituir ou anexar essas regras a outro conjunto de relatórios.
-seo-title: Copiar regras de processamento para outro conjunto de relatórios
 solution: Analytics
-subtopic: Regras de processamento
-title: Copiar regras de processamento para outro conjunto de relatórios
-topic: Ferramentas administrativas
-uuid: e 6 aa 50 b 9-a 46 b -4332-b 4 e 1-6 df 0 f 828077 d
+subtopic: Processing rules
+title: Cópia das regras de processamento para outro conjunto de relatórios
+topic: Admin tools
+uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Copiar regras de processamento para outro conjunto de relatórios
+# Cópia das regras de processamento para outro conjunto de relatórios
 
 Etapas que descrevem como copiar regras de um conjunto de relatórios e substituir ou anexar essas regras a outro conjunto de relatórios.
 
