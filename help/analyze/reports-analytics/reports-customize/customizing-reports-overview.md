@@ -1,13 +1,11 @@
 ---
 description: Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
-seo-description: Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
-seo-title: Visão geral de Personalizar relatórios
 solution: Analytics
 title: Visão geral de Personalizar relatórios
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
