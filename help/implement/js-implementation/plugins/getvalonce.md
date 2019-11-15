@@ -1,15 +1,13 @@
 ---
 description: O plug-in getValOnce impede que determinada variável seja definida como o valor definido anteriormente. Ele usa um cookie para determinar o último valor da variável. Se o valor atual corresponde ao valor do cookie, a variável é substituída por uma string em branco antes de ser enviada para os servidores de processamento da Adobe. Esse plug-in é útil para evitar o aumento da instância da variável de conversão quando os usuários atualizam a página ou clicam no botão Voltar.
-keywords: Implementação do Analytics
-seo-description: O plug-in getValOnce impede que determinada variável seja definida como o valor definido anteriormente. Ele usa um cookie para determinar o último valor da variável. Se o valor atual corresponde ao valor do cookie, a variável é substituída por uma string em branco antes de ser enviada para os servidores de processamento da Adobe. Esse plug-in é útil para evitar o aumento da instância da variável de conversão quando os usuários atualizam a página ou clicam no botão Voltar.
-seo-title: getValOnce
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getValOnce
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
