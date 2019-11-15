@@ -1,14 +1,12 @@
 ---
 description: Se os demais métodos de ID de visitante falharem, a Adobe definirá um cookie de fallback ou uma combinação de um endereço de IP e agente do usuário para identificar o visitante.
-keywords: Implementação do Analytics
-seo-description: Se os demais métodos de ID de visitante falharem, a Adobe definirá um cookie de fallback ou uma combinação de um endereço de IP e agente do usuário para identificar o visitante.
-seo-title: Métodos de ID de Fallback
+keywords: Analytics Implementation
 solution: Analytics
 title: Métodos de ID de Fallback
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
