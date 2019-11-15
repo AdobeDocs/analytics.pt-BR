@@ -1,14 +1,12 @@
 ---
 description: AJAX é um conceito emergente em web design que usa várias tecnologias para criar e gerenciar conteúdo dinâmico nas páginas da Web.
-keywords: Implementação do Analytics
-seo-description: AJAX é um conceito emergente em web design que usa várias tecnologias para criar e gerenciar conteúdo dinâmico nas páginas da Web.
-seo-title: Aplicativos de mídia avançada AJAX
+keywords: Analytics Implementation
 solution: Analytics
 title: Aplicativos de mídia avançada AJAX
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
