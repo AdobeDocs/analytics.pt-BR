@@ -1,11 +1,9 @@
 ---
 description: Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
-seo-description: Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
-seo-title: optivo® Broadmail Data Connector para Adobe Analytics
 title: optivo® Broadmail Data Connector para Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Essa integração apresenta os seguintes segmentos de marketing dinâmicos:
 * **** Perfis de compra: Aumente os pedidos repetidos e o valor médio do pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **** Perfil comportamental de exibição de produto/conteúdo: Alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
-* **** Recomercialização Efetiva: Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+* **** Recomercialização Efetiva:Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
 
 ## Antes de ativar{#before-you-activate}
 
