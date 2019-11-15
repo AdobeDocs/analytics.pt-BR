@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como criar regras no Dynamic Tag Management.
-keywords: Dynamic Tag Management, regra, criar regra, nova regra, regra baseada em evento, regra de carregamento de página, regra de chamada direta
-seo-description: Etapas que descrevem como criar regras no Dynamic Tag Management.
-seo-title: Criar nova regra
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Criar nova regra
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
