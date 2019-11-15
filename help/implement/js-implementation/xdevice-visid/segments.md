@@ -1,14 +1,12 @@
 ---
 description: Você pode criar um segmento sempre que uma associação ocorrer para um determinado cookie de ID do visitante.
-keywords: Implementação do Analytics
-seo-description: Você pode criar um segmento sempre que uma associação ocorrer para um determinado cookie de ID do visitante.
-seo-title: Criar segmentos
+keywords: Analytics Implementation
 solution: Analytics
 title: Criar segmentos
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
