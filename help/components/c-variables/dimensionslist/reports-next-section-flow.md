@@ -1,13 +1,11 @@
 ---
 description: O Fluxo de próxima seção é similar ao Fluxo de próxima página. Ele exibe os dados das seções do site (grupos de páginas da Web relacionadas). Se uma página estiver contida em mais de uma seção do site, exibirá os dados de todas as seções do site.
-seo-description: O Fluxo de próxima seção é similar ao Fluxo de próxima página. Ele exibe os dados das seções do site (grupos de páginas da Web relacionadas). Se uma página estiver contida em mais de uma seção do site, exibirá os dados de todas as seções do site.
-seo-title: Fluxo de próxima seção
 solution: Analytics
 title: Fluxo de próxima seção
-topic: Relatórios
+topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
