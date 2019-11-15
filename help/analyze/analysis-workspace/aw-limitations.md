@@ -1,10 +1,8 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Limitações do espaço de trabalho, limitações conhecidas na Analysis Workspace
 title: Limitações conhecidas na Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -48,7 +46,7 @@ Esta é uma lista de limitações conhecidas na Analysis Workspace e seus compon
 
 ## Componentes &gt; Conjuntos de relatórios virtuais
 
-* Quando o processamento de tempo do relatório está ativado, determinados componentes não são suportados. Para obter uma lista completa, consulte Processamento [de tempo do](/help/components/vrs/vrs-report-time-processing.md)relatório.
+* Quando o processamento de tempo do relatório é ativado, determinados componentes não são suportados. Para obter uma lista completa, consulte Processamento [de tempo do](/help/components/vrs/vrs-report-time-processing.md)relatório.
 
 ## Componentes &gt; Configurações de relatório
 
