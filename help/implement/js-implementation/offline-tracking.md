@@ -1,14 +1,12 @@
 ---
 description: As variáveis e funções a seguir permitem que você armazene chamadas de medição quando o aplicativo está offline.
-keywords: Implementação do Analytics
-seo-description: As variáveis e funções a seguir permitem que você armazene chamadas de medição quando o aplicativo está offline.
-seo-title: Rastreamento offline
+keywords: Analytics Implementation
 solution: Analytics
 title: Rastreamento offline
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
