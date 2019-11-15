@@ -1,13 +1,11 @@
 ---
 description: Exibe a lista de experiências (fórmulas) que foram configuradas por você no Target. Necessitada que a integração Analytics para Target esteja habilitada.
-seo-description: Exibe a lista de experiências (fórmulas) que foram configuradas por você no Target. Necessitada que a integração Analytics para Target esteja habilitada.
-seo-title: Experiências target
 solution: Analytics
 title: Experiências target
-topic: Relatórios
+topic: Reports
 uuid: 15728f3e-003c-47a0-a47b-12b52a88fb79
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
