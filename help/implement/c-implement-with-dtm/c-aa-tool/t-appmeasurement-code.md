@@ -1,13 +1,11 @@
 ---
 description: Insira o código de AppMeasurement ao implantar manualmente o Dynamic Tag Management no Adobe Analytics.
-keywords: Dynamic Tag Management, contas vinculadas, vinculação de contas, edição de código, appmeasurement, código do appmeasurement
-seo-description: Insira o código de AppMeasurement ao implantar manualmente o Dynamic Tag Management no Adobe Analytics.
-seo-title: Inserir o código principal do AppMeasurement
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Inserir o código principal do AppMeasurement
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
