@@ -1,18 +1,16 @@
 ---
 description: Etapas para ajudar a selecionar um conjunto de relatórios a partir da solicitação existente.
-seo-description: Etapas para ajudar a selecionar um conjunto de relatórios a partir da solicitação existente.
-seo-title: Selecionar um conjunto de relatórios de uma solicitação existente no Excel
 solution: Analytics
-title: Selecionar um conjunto de relatórios de uma solicitação existente no Excel
-topic: Construtor de relatórios
-uuid: 92 fe 4823-6 b 8 a -4178-9 c 94-fb 4 f 5 e 03 e 4 a 5
+title: Seleção de um conjunto de relatórios a partir de uma solicitação existente no Excel
+topic: Report builder
+uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Selecionar um conjunto de relatórios de uma solicitação existente no Excel
+# Seleção de um conjunto de relatórios a partir de uma solicitação existente no Excel
 
 Etapas para ajudar a selecionar um conjunto de relatórios a partir da solicitação existente.
 
