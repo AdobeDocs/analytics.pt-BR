@@ -1,12 +1,10 @@
 ---
 description: A meta do relatório do PathFinder é ajudar você a dissecar seus caminhos completos em fragmentos, produzindo os padrões precisos que contribuem para a otimização do site.
-seo-description: A meta do relatório do PathFinder é ajudar você a dissecar seus caminhos completos em fragmentos, produzindo os padrões precisos que contribuem para a otimização do site.
-seo-title: PathFinder
 solution: Analytics
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
