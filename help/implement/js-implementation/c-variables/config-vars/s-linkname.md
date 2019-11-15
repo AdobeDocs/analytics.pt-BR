@@ -1,11 +1,11 @@
 ---
 description: As variáveis dinâmicas permitem a cópia de valores de uma variável para outra sem precisar digitar os valores completos várias vezes nas solicitações de imagem do site.
-keywords: Implementação do Analytics
+keywords: Analytics Implementation
 seo-description: As variáveis dinâmicas permitem a cópia de valores de uma variável para outra sem precisar digitar os valores completos várias vezes nas solicitações de imagem do site.
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -15,5 +15,5 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 O nome que aparecerá no relatório personalizado, de download ou de saída do link. Truncado em 100 caracteres. Pode ser definido como qualquer string. Este é o parâmetro `pev2` na solicitação de imagem.
 
-Se definido como `linkType`, uma solicitação de imagem será enviada como link de download, personalizado ou de saída.
+If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/linktype.html), an image request will be sent as a download, custom or exit link.
 
