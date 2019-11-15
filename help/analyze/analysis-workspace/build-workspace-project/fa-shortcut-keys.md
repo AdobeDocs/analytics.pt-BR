@@ -1,14 +1,12 @@
 ---
 description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis na Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis na Analysis Workspace.
-seo-title: Teclas de atalho disponíveis na Analysis Workspace
 solution: Analytics
 title: Teclas de atalho disponíveis na Analysis Workspace
-topic: Reports and Analytics
-uuid: 1 ee 93 ce 3-block-44 f 8-abdc -9 a 68 ed 35 d 32
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
