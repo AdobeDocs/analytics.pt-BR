@@ -1,11 +1,9 @@
 ---
 description: É possível baixar projetos salvos ou não salvos em formatos PDF e CSV.
-seo-description: É possível baixar projetos salvos ou não salvos em formatos PDF e CSV.
-seo-title: Baixar arquivos PDF ou CSV
 title: Baixar arquivos PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
