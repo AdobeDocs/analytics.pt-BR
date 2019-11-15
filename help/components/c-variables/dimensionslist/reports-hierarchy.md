@@ -1,13 +1,11 @@
 ---
 description: Mostra o layout hierárquico das páginas do seu site e exibe as páginas em ordem com base em como são configuradas na variável hierN. Este relatório é preenchido usando a configuração adequada da variável que você definiu para cada página que deseja tomar parte na hierarquia. Este relatório permite que você visualize as métricas selecionadas (como visitantes únicos) para a hierarquia.
-seo-description: Mostra o layout hierárquico das páginas do seu site e exibe as páginas em ordem com base em como são configuradas na variável hierN. Este relatório é preenchido usando a configuração adequada da variável que você definiu para cada página que deseja tomar parte na hierarquia. Este relatório permite que você visualize as métricas selecionadas (como visitantes únicos) para a hierarquia.
-seo-title: Hierarquia
 solution: Analytics
 title: Hierarquia
-topic: Relatórios
+topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
