@@ -1,14 +1,12 @@
 ---
 description: A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
-keywords: Implementação do Analytics
-seo-description: A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
-seo-title: Cabeçalhos HTTP para coleta de dados
+keywords: Analytics Implementation
 solution: Analytics
 title: Cabeçalhos HTTP para coleta de dados
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
