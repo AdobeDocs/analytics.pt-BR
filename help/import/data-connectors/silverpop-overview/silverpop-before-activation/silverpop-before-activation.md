@@ -1,11 +1,9 @@
 ---
 description: Antes de ativar essa integração, analise os itens a seguir em relação às implantações do Adobe Analytics® e do software de email.
-seo-description: Antes de ativar essa integração, analise os itens a seguir em relação às implantações do Adobe Analytics® e do software de email.
-seo-title: Antes de ativar esta integração
 title: Antes de ativar esta integração
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
