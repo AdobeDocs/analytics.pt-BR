@@ -1,14 +1,12 @@
 ---
 description: Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatórios.
-seo-description: Crie, gerencie e visualize o uso de fontes de dados em um conjunto de relatórios.
-seo-title: Gerenciador das fontes de dados
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Gerenciador das fontes de dados
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
