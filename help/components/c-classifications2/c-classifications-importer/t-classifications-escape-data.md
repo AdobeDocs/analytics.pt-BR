@@ -1,14 +1,12 @@
 ---
 description: Etapas que podem descrever como evitar os dados de classificação no arquivo de classificação.
-seo-description: Etapas que podem descrever como evitar os dados de classificação no arquivo de classificação.
-seo-title: Evitar os dados de classificação
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Evitar os dados de classificação
-topic: Ferramentas administrativas
-uuid: 724 edcc 5-4990-4 f 24-afbb -9 aef 301791 a 7
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
