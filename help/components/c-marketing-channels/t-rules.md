@@ -1,14 +1,12 @@
 ---
 description: Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorrência de visitante atende aos critérios atribuídos a um canal.
-seo-description: Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorrência de visitante atende aos critérios atribuídos a um canal.
-seo-title: Criar regras de processamento de Canal de marketing
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Criar regras de processamento de Canal de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
