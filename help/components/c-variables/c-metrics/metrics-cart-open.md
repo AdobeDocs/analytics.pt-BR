@@ -1,11 +1,13 @@
 ---
-description: O número de vezes em que um cliente abriu um carrinho de compras adicionando o primeiro item. Ocorre na primeira vez em que um item é adicionado ao carrinho de compras. Este valor provém do evento scOpen.
+description: O número de vezes em que um cliente abriu um carrinho de compras adicionando o primeiro item. Ocorre na primeira vez em que um item é adicionado ao carrinho de compras. Este valor vem do evento scOpen.
+seo-description: O número de vezes em que um cliente abriu um carrinho de compras adicionando o primeiro item. Ocorre na primeira vez em que um item é adicionado ao carrinho de compras. Este valor provém do evento scOpen.
+seo-title: Abertura do Carrinho
 solution: Analytics
 title: Abertura do Carrinho
-topic: Metrics
+topic: Métricas
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 

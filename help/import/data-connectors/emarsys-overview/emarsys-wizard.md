@@ -1,9 +1,11 @@
 ---
 description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
+seo-description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
+seo-title: Execução do Assistente de integração dos conectores de dados
 title: Execução do Assistente de integração dos conectores de dados
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 

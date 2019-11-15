@@ -1,14 +1,16 @@
 ---
 description: 'null'
-title: Área e Área empilhada
-uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
+seo-description: 'null'
+seo-title: Área e área empilhada
+title: Área e área empilhada
+uuid: 27 f 1 bfd 0-bf 64-4424-8827-f 7127 d 239762
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Área e Área empilhada
+# Área e área empilhada
 
 ## Área {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
