@@ -1,20 +1,18 @@
 ---
 description: Variáveis de configuração definidas no AppMeasurement.js.
-keywords: Implementação do Analytics
-seo-description: Variáveis de configuração definidas no AppMeasurement.js para o Adobe Analytics
-seo-title: Variáveis de configuração
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variáveis
+subtopic: Variables
 title: Variáveis de configuração
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
 
-# Variáveis de configuração visão geral
+# Visão geral das variáveis de configuração
 
 As variáveis de configuração controlam como os dados são capturados e processados nos relatórios. As variáveis de configuração mais comuns tipicamente definidas no JavaScript global principal (AppMeasurement.js. Essas variáveis podem ser definidas no código de página e nos links do Analytics, quando apropriado.
 
@@ -58,8 +56,6 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 
 * [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Função para tomar como parâmetros o retorno de chamada (uma função) e os parâmetros para essa função.
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Função para tomar como parâmetros o retorno de chamada (uma função) e os parâmetros para essa função.
-
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html): Rastrear links para arquivos baixáveis do site.
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html): Determine se algum link clicado é um link de saída.
@@ -77,3 +73,17 @@ Para obter ajuda com variáveis de configuração específicas, clique em qualqu
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Use para relatar um subconjunto específico de links de saída.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Chame a `s_doPlugins` função antes de cada solicitação de imagem.
+
+* [s.useForcedlinkTracking](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-usedforcedlinktracking.html): Desativa o rastreamento forçado de links para alguns navegadores.
+
+* [s.linkType](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktype.html): Define o tipo de link para download, saída ou personalizado.
+
+* [s.linkName](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html): Define o nome que aparece no relatório de download, saída ou link personalizado.
+
+* [s.ForcedlinkTrackingTimeout](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-forcedlinktrackingtimeout.html): Define o tempo máximo de espera durante o rastreamento.
+
+* [s.linkTrackEvents](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackingevents.html): Desativa o rastreamento forçado de links para alguns navegadores.
+
+* [s.linkUrl](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkurl.html): Define o URL do link.
+
+* [s.linkObject](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkobject.html): Faz referência a um objeto clicado.
