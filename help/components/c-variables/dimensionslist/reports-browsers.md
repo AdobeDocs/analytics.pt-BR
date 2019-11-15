@@ -1,13 +1,11 @@
 ---
 description: Lista as versões de navegadores usadas para visitar seu site como ele foi identificado pela sequência de agente do usuário.
-seo-description: Lista as versões de navegadores usadas para visitar seu site como ele foi identificado pela sequência de agente do usuário.
-seo-title: Navegador
 solution: Analytics
 title: Navegador
-topic: 'Relatórios  '
-uuid: b 8 c 386 dd -1 ae 2-48 c 3-90 bd-dce 9 f 5698 d 3 f
+topic: Reports
+uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
