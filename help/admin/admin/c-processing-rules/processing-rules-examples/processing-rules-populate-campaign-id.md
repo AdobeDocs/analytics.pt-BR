@@ -1,14 +1,12 @@
 ---
 description: É possível preencher uma variável usando um parâmetro da string de consulta
-seo-description: É possível preencher uma variável usando um parâmetro da string de consulta
-seo-title: Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
