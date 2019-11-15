@@ -1,11 +1,9 @@
 ---
 description: Use o Assistente de configuração dos conectores de dados da Adobe para configurar a integração.
-seo-description: Use o Assistente de configuração dos conectores de dados da Adobe para configurar a integração.
-seo-title: Ativar a integração
 title: Ativar a integração
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ Use o Assistente de configuração dos conectores de dados da Adobe para configu
 | Devoluções | (Obrigatório) Especifique o evento do Adobe Analytics que armazena os dados de Rejeições totais de email importados do sistema de email. O evento Total-Rejeições permite que você veja o número de mensagens de email que não foram entregues aos destinatários devido a um problema de entrega. |
 | Inscrito | (Obrigatório) Especifique o evento do Adobe Analytics que armazena os dados de e-mail Cancelar assinatura importados do sistema de e-mail. O evento Cancelado de inscrição permite que você veja o número de visitantes que abriram a mensagem de email, mas clicaram no link Cancelar inscrição para recusar futuras mensagens de email de sua organização. |
 | Segmentos | Essa integração cria os segmentos definidos pelo parceiro exibidos na seção Segmentos do parceiro. Além disso, você pode selecionar segmentos existentes no nível do conjunto de relatórios para incluir na integração. |
-|  Solicitações de acesso | Ative os privilégios de acesso recomendados. |
+| Solicitações de acesso | Ative os privilégios de acesso recomendados. |
 | Coleta de dados | Selecione Plug-in **de** JavaScript se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração. |
 Selecione Solução **** automatizada se desejar usar um modelo de coleta automatizada para essa integração e especifique os identificadores exclusivos usados para essa integração. Se você selecionar essa opção, especifique os identificadores exclusivos usados para essa integração:
 <ul><li>Parâmetro da string de consulta da ID da mensagem: Esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email.</li>
