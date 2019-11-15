@@ -1,10 +1,8 @@
 ---
 description: Instale o Adobe Experience Cloud Debugger legado. Este depurador inspeciona as tags para o Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-description: Instale o Adobe Experience Cloud Debugger legado. Este depurador inspeciona as tags para o Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-title: Depurador herdado da Adobe Experience Cloud
 title: Depurador herdado da Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,27 +50,27 @@ Se você insistir em não usar a extensão [do](https://docs.adobe.com/content/h
 O Edge não tem a capacidade de criar manualmente um bookmarklet, mas um URL de marcador pode ser editado.
 
 1. Clique no ícone de estrela no lado direito do campo URL para marcar a página atual.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+2. Nomeie o marcador "Adobe Experience Cloud Debugger" e salve-o no local desejado.
+3. Clique no ícone de estrela com linhas para abrir a barra Favoritos.
+4. Clique com o botão direito do mouse no marcador recém-criado e selecione 'Editar URL'.
+5. Cole o trecho de código no campo de texto e pressione Enter.
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+O Safari não tem a capacidade de criar manualmente um bookmarklet, mas um URL de marcador pode ser editado.
 
-1. Click the Share icon in the top right, which opens a bookmark modal window.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+1. Clique no ícone Compartilhar na parte superior direita, que abre uma janela modal de marcadores.
+2. Nomeie o marcador "Adobe Experience Cloud Debugger" e salve-o no local desejado.
+3. Clique em Marcadores &gt; Editar marcadores e localize o marcador recém-criado.
+4. Clique com o botão direito do mouse &gt; Editar endereço e cole o trecho de código no campo de texto.
 
-## Using the legacy debugger
+## Uso do depurador herdado
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+Para usar o depurador, navegue até a página desejada em seu site e clique no bookmarklet. Uma janela pop-up é exibida mostrando os dados enviados para a Adobe.
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] Determinados plug-ins de bloqueio de anúncios e bloqueadores de pop-ups podem interferir no carregamento da janela do depurador. Verifique se há pop-ups bloqueados no seu navegador e permita que o depurador funcione corretamente.
 
-O depurador tem várias opções disponíveis, todas personalizadas como os dados são exibidos. None of these options affect data collection.
+O depurador tem várias opções disponíveis, todas personalizadas como os dados são exibidos. Nenhuma dessas opções afeta a coleta de dados.
 
 * **** Produtos da Experience Cloud exibidos: Mostra ou oculta solicitações de imagem para cada produto da Experience Cloud.
 * **** Decodificação de URL: O URL decodifica a solicitação de imagem para corresponder ao que é exibido no relatório. A Adobe recomenda deixar essa caixa marcada.
