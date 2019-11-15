@@ -1,15 +1,13 @@
 ---
 description: Os clientes podem compactar o arquivo da biblioteca do JavaScript usando codificação baseada em padrões (como gzip).
-keywords: Implementação do Analytics
-seo-description: Os clientes podem compactar o arquivo da biblioteca do JavaScript usando codificação baseada em padrões (como gzip).
-seo-title: Compactação de arquivos
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Solução de problemas
+subtopic: Troubleshooting
 title: Compactação de arquivos
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
