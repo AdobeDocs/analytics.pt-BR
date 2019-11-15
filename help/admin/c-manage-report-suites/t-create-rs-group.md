@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como criar um grupo de conjunto de relatórios.
-seo-description: Etapas que descrevem como criar um grupo de conjunto de relatórios.
-seo-title: Criar um grupo de conjunto de relatórios
 solution: Analytics
 title: Criar um grupo de conjunto de relatórios
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
