@@ -1,16 +1,14 @@
 ---
 description: Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos HTTP e sinais de dados nas chamadas de encaminhamento pelo lado do servidor.
-seo-description: Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos HTTP e sinais de dados nas chamadas de encaminhamento pelo lado do servidor.
-seo-title: Referência de código e dados de encaminhamento pelo lado do servidor
-title: Referência de código e dados de encaminhamento pelo lado do servidor
-uuid: 3 eb 3 ea 0 f-a 530-448 d-bba 5-6408 b 2490 dc 8
+title: Referência de dados e de código do encaminhamento pelo lado do servidor
+uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Referência de código e dados de encaminhamento pelo lado do servidor
+# Referência de dados e de código do encaminhamento pelo lado do servidor
 
 Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos HTTP e sinais de dados nas chamadas de encaminhamento pelo lado do servidor.
 
@@ -20,8 +18,8 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | Parâmetro | Descrição |
 |--- |--- |
-| d_rs | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
-| d_dst_filter | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
+| d_rs | (É definido com encaminhamento pelo lado do servidor baseado em servidor de rastreamento/legado) <br>Defina para os conjuntos de relatórios enviados com a ocorrência para o Analytics. |
+| d_dst_filter | (É definido com o encaminhamento pelo lado do servidor baseado em conjunto de relatórios) <br>Defina para as IDs do conjunto de relatórios enviadas com a ocorrência para o Analytics. |
 | d_dst | Defina d_dst=1<br> se a solicitação ao Analytics estiver esperando que o conteúdo sobre o destino seja retornado para o cliente. |
 | d_mid | A Experience Cloud ID enviada ao Analytics. |
 
@@ -49,10 +47,10 @@ Parameters prefixed with `c_` identify customer-defined variables. Consulte tamb
 | c_browserWidth e c_browserHeight | Largura e altura da janela do navegador. |
 | c_campaign | Definido por s.campaign . |
 | c_channel | Definido por s.channel . |
-| c_clientDateTime | Carimbo de data e hora formatado como dd/mm/aaa hh: mm: ss W TZ. TZ está em minutos e corresponde o retorno do método Date.getTimezoneOffset. |
+| c_clientDateTime | Carimbo de data e hora formatado como dd/mm/aaaa hh:mm:ss W TZ .    TZ está em minutos e corresponde o retorno do método Date.getTimezoneOffset. |
 | c_colorDepth | Especificado como uma cor de 16 ou 32 bits. |
 | c_connectionType | Especifica o tipo de conexão. As opções incluem:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Exemplos:<ul><li>Appmeasurement: s. contextdata</li><li>[" category "] =" news ";</li><li>Sinal: c_contextData.category=news</li></ul> |
+| c_contextData.* | Exemplos:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Sinal: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Especifica se cookies podem ser habilitados. As opções incluem: sim, não, desconhecido |
 | c_currencyCode | Tipo de moeda usada na transação. |
 | c_evar# | eVars personalizadas |
@@ -61,13 +59,13 @@ Parameters prefixed with `c_` identify customer-defined variables. Consulte tamb
 | c_javaEnabled | Especifica se o Java pode ser habilitado. As opções incluem: sim, não, desconhecido |
 | c_javaScriptVersion | Versão do JavaScript suportada por um navegador. |
 | c_latitude | Latitude numérica |
-| c_linkClick | As opções incluem: personalizado, saída de download |
+| c_linkClick | As opções incluem: custom, download exit |
 | c_linkCustomName | O nome personalizado (se houver) fornecido para o link. |
 | c_linkDownloadURL | O URL dos links de download. |
 | c_linkExitURL | O URL do link de saída. |
 | c_list# | Variáveis personalizadas de lista. |
 | c_longitude | Longitude numérica. |
-| c_mediaPlayerType | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:  outro, primetime |
+| c_mediaPlayerType | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:  outros, primetime |
 | c_pageName | O nome da página (se definido). |
 | c_pageURL | O endereço da página na barra de endereço do navegador. |
 | c_products | A string do produto (definido por s.products ). |
