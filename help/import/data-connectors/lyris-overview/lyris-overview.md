@@ -1,12 +1,10 @@
 ---
 description: Descreve as eficiências de marketing obtidas por meio da integração.
-seo-description: Descreve as eficiências de marketing obtidas por meio da integração.
-seo-title: Lyris Data Connector para Adobe Analytics
 solution: Analytics
 title: Lyris Data Connector para Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -101,37 +99,37 @@ Essa integração exige que pelo menos duas eVars sejam reservadas para cada imp
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Emails enviados </td> 
    <td colname="col3"> Não armazenar. de emails enviados de Lyris </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Emails abertos </td> 
    <td colname="col3"> Não armazenar. de emails que foram abertos </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Emails únicos abertos </td> 
    <td colname="col3"> Não armazenar. de emails exclusivos que foram abertos </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Click-throughs por email </td> 
    <td colname="col3"> Não armazenar. de vezes que qualquer email foi clicado </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Rejeições de e-mail </td> 
    <td colname="col3"> Para guardar o não. de e-mails enviados </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Cancelamento de inscrição por email </td> 
    <td colname="col3"> Para guardar o não. de assinaturas de e-mail desativadas </td> 
-   <td colname="col4">Tipo:Numérico <p>Participação: Ativado </p> </td> 
+   <td colname="col4">Tipo: Numérico <p>Participação: Ativado </p> </td> 
   </tr> 
  </tbody> 
 </table>
