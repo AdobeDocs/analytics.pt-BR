@@ -1,13 +1,11 @@
 ---
 description: As solicitações são atualizadas depois que você as modifica com edições ou filtros, ou quando é preciso exibir dados mais recentes. É possível selecionar várias solicitações em uma planilha e atualizá-las todas de uma vez.
-seo-description: As solicitações são atualizadas depois que você as modifica com edições ou filtros, ou quando é preciso exibir dados mais recentes. É possível selecionar várias solicitações em uma planilha e atualizá-las todas de uma vez.
-seo-title: Atualizar uma solicitação
 solution: Analytics
 title: Atualizar uma solicitação
-topic: Construtor de relatórios
+topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
