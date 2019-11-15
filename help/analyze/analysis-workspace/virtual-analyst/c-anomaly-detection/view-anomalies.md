@@ -1,11 +1,9 @@
 ---
 description: É possível exibir anomalias em uma tabela ou em um gráfico de linhas.
-seo-description: É possível exibir anomalias em uma tabela ou em um gráfico de linhas.
-seo-title: Exibir anomalias na Analysis Workspace
 title: Exibir anomalias na Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
