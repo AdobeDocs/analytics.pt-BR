@@ -1,14 +1,12 @@
 ---
 description: Os Canais de marketing são normalmente usados para fornecer informações sobre como os visitantes chegam ao site. É possível personalizar as Regras de processamento de Canal de marketing com base nos canais que você deseja acompanhar e como deseja acompanhá-los.
-seo-description: Os Canais de marketing são normalmente usados para fornecer informações sobre como os visitantes chegam ao site. É possível personalizar as Regras de processamento de Canal de marketing com base nos canais que você deseja acompanhar e como deseja acompanhá-los.
-seo-title: Introdução aos Canais de marketing
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Introdução aos Canais de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ Consulte [Adicionar canais](/help/components/c-marketing-channels/c-channels.md)
 
 >[!NOTE]
 >
-> Se os Canais de marketing não tiverem sido configurados anteriormente, a configuração [](/help/components/c-marketing-channels/c-channel-autosetup.md) automática será exibida. Essa configuração fornece vários canais pré-configurados que podem ser personalizados. A Adobe recomenda que você use essas regras como um modelo. Contudo, se você já tiver definições sólidas de canal, poderá pular a configuração automática.
+>Se os Canais de marketing não tiverem sido configurados anteriormente, a configuração [](/help/components/c-marketing-channels/c-channel-autosetup.md) automática será exibida. Essa configuração fornece vários canais pré-configurados que podem ser personalizados. A Adobe recomenda que você use essas regras como um modelo. Contudo, se você já tiver definições sólidas de canal, poderá pular a configuração automática.
 
 ![](assets/step3_icon.png) Configure e refine todas as regras de canais na página [!UICONTROL Regras de processamento de Canal de marketing].
 
