@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como criar um conjunto de relatórios e copiar as configurações de um conjunto de relatórios para um novo conjunto.
-seo-description: Etapas que descrevem como criar um conjunto de relatórios e copiar as configurações de um conjunto de relatórios para um novo conjunto.
-seo-title: Criar um novo conjunto de relatórios
 solution: Analytics
 title: Criar um novo conjunto de relatórios
-topic: Ferramentas administrativas
-uuid: fada5b10-f574-4c3f-8704-679c992fc88
+topic: Admin tools
+uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
