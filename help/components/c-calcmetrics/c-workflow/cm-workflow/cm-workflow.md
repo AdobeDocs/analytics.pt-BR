@@ -1,11 +1,9 @@
 ---
 description: Saiba mais sobre as etapas a serem tomadas para criar métricas calculadas.
-seo-description: Saiba mais sobre as etapas a serem tomadas para criar métricas calculadas.
-seo-title: Fluxo de trabalho das métricas calculadas
 title: Fluxo de trabalho das métricas calculadas
 uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
