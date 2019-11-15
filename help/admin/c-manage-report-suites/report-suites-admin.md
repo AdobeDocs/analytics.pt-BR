@@ -1,13 +1,11 @@
 ---
 description: Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
-seo-description: Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
-seo-title: Gerenciador do Conjunto de relatórios
 solution: Analytics
 title: Gerenciador do Conjunto de relatórios
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
