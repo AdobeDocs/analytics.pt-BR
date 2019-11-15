@@ -1,20 +1,18 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Exemplo de código de implementação
 solution: Analytics
-title: Exemplo de código de implementação
-topic: Activity Map
+title: Código de implementação de exemplo
+topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Sample implementation code{#sample-implementation-code}
+# Código de implementação de exemplo{#sample-implementation-code}
 
-## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
+## Arquivo AppMeasurement.js de exemplo {#section_CD6E603EB41141E587B71E138FE99F52}
 
 A seguir encontra-se um exemplo de como a biblioteca do AppMeasurement e o módulo do Activity Map são combinados no arquivo [!DNL AppMeasurement.js].
 
