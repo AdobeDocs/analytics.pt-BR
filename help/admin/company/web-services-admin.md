@@ -1,13 +1,11 @@
 ---
 description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
-seo-description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
-seo-title: Serviços Web
 solution: Analytics
 title: Serviços Web
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
