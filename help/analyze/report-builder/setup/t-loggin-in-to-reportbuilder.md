@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como fazer logon no Construtor de relatórios.
-seo-description: Etapas que descrevem como fazer logon no Construtor de relatórios.
-seo-title: Fazer logon no Report Builder
 solution: Analytics
 title: Fazer logon no Report Builder
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
