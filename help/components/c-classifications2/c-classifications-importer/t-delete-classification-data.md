@@ -1,14 +1,12 @@
 ---
 description: Etapas que descrevem como excluir ou remover dados da classificação.
-seo-description: Etapas que descrevem como excluir ou remover dados da classificação.
-seo-title: Excluir dados de classificação
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Excluir dados de classificação
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
