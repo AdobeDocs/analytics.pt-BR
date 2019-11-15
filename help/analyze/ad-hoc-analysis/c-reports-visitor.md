@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre os visitantes, incluindo coisas como contagem de visitantes, fidelidade do cliente e características do visitante.
-seo-description: Exibe informações sobre os visitantes, incluindo coisas como contagem de visitantes, fidelidade do cliente e características do visitante.
-seo-title: Relatórios de visitante
 solution: Analytics
 title: Relatórios de visitante
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -104,7 +102,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**: Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
+**[!UICONTROL Idiomas]**:Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
 
 **[!UICONTROL Domínios]**: indica as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de [!UICONTROL Domínios completos] porque o relatório de Domínios completos registra o domínio completo do ISP e este relatório indica o domínio secundário.
 
