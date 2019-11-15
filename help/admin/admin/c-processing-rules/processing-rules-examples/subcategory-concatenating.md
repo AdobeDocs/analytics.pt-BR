@@ -1,19 +1,17 @@
 ---
 description: Você pode usar a opção de concatenar para preencher valores combinando outros valores.
-seo-description: Você pode usar a opção de concatenar para preencher valores combinando outros valores.
-seo-title: Adicione uma subcategoria concatenando a categoria e o nome da página
 solution: Analytics
-subtopic: Regras de processamento
-title: Adicione uma subcategoria concatenando a categoria e o nome da página
-topic: Ferramentas administrativas
-uuid: 45 e 5 b 004-690 f -4 d 66-98 f 1-29 baf 9 a 954 d 0
+subtopic: Processing rules
+title: Adicionar uma subcategoria pela concatenação da categoria e do nome da página
+topic: Admin tools
+uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Adicione uma subcategoria concatenando a categoria e o nome da página
+# Adicionar uma subcategoria pela concatenação da categoria e do nome da página
 
 Você pode usar a opção de concatenar para preencher valores combinando outros valores.
 
