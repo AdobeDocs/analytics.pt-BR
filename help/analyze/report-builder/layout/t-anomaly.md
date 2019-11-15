@@ -1,13 +1,11 @@
 ---
 description: Essas etapas descrevem como criar uma solicitação de detecção de anomalias no construtor de relatórios.
-seo-description: Essas etapas descrevem como criar uma solicitação de detecção de anomalias no construtor de relatórios.
-seo-title: Configurar uma solicitação de detecção de anomalias
 solution: Analytics
 title: Configurar uma solicitação de detecção de anomalias
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
