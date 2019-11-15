@@ -1,15 +1,13 @@
 ---
 description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
-keywords: Implementação do Analytics, contextdata, s.contextdata
-seo-description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
-seo-title: Variáveis de dados de contexto
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
-subtopic: Variáveis
+subtopic: Variables
 title: Variáveis de dados de contexto
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ As variáveis de dados de contexto permitem que você defina variáveis em cada 
 Você pode enviar dados nas variáveis de dados de contexto que estão mapeados por meio de Regras de processamento, em vez de atribuir valores explícitos para os props e eVars no seu código. As Regras de processamento fornecem uma interface gráfica eficaz para fazer mudanças nos dados que são recebidos. Com base nos valores enviados nos dados de contexto, você poderá definir eventos, copiar valores para o eVars e props, bem como executar instruções condicionais.
 
 > [!NOTE]As variáveis de dados de contexto não fazem distinção entre maiúsculas e minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
