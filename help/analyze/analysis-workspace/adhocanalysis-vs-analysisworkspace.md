@@ -1,11 +1,9 @@
 ---
 description: Compara a terminologia e a as tarefas da Ad Hoc Analysis com a Analysis Workspace.
-seo-description: Compara a terminologia e a as tarefas da Ad Hoc Analysis com a Analysis Workspace.
-seo-title: A Analysis Workspace comparada à Ad Hoc Analysis
 title: A Analysis Workspace comparada à Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
