@@ -1,14 +1,12 @@
 ---
 description: O Adobe Analytics oferece suporte a modelos de classificações de nível único e múltiplo. Uma hierarquia de classificação permite aplicar uma classificação a uma classificação.
-seo-description: O Adobe Analytics oferece suporte a modelos de classificações de nível único e múltiplo. Uma hierarquia de classificação permite aplicar uma classificação a uma classificação.
-seo-title: Sobre as subclassificações
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Sobre as subclassificações
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
