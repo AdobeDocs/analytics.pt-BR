@@ -1,14 +1,12 @@
 ---
 description: As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site.
-seo-description: As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de robô pode proporcionar uma medida mais precisa da atividade do usuário em seu site.
-seo-title: Regras de bot
 solution: Analytics
-subtopic: Regras de bot
+subtopic: Bot rules
 title: Visão geral das regras de bot
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
