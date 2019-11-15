@@ -1,14 +1,12 @@
 ---
 description: As classificações de tráfego permitem que você classifique variáveis de tráfego (props). As classificações de tráfego podem usar somente classificações de texto.
-seo-description: As classificações de tráfego permitem que você classifique variáveis de tráfego (props). As classificações de tráfego podem usar somente classificações de texto.
-seo-title: Classificações de tráfego
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Classificações de tráfego
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
