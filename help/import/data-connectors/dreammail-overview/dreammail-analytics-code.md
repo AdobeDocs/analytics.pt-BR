@@ -1,11 +1,9 @@
 ---
 description: Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas.
-seo-description: Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Analytics em suas páginas.
-seo-title: Código de plug-in do Analytics
 title: Código de plug-in do Analytics
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
