@@ -1,14 +1,12 @@
 ---
 description: Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
-seo-description: Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
-seo-title: Regras de processamento de canal de marketing - Definições
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Regras de processamento de canal de marketing - Definições
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
