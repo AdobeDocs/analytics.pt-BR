@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre a ordem na qual as páginas de site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
-seo-description: Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
-seo-title: Relatórios de caminhos
 solution: Analytics
 title: Relatórios de caminhos
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
