@@ -1,14 +1,12 @@
 ---
 description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
-seo-description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
-seo-title: Dicas e truques para regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Dicas e truques para regras de processamento
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
