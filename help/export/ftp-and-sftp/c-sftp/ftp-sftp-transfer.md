@@ -1,13 +1,11 @@
 ---
 description: O grupo de serviços de engenharia da Adobe pode configurar um projeto personalizado para redirecionar seus dados para uma conta FTP externa usando SFTP.
 keywords: ftp;sftp
-seo-description: O grupo de serviços de engenharia da Adobe pode configurar um projeto personalizado para redirecionar seus dados para uma conta FTP externa usando SFTP.
-seo-title: Enviar dados da Adobe para uma conta FTP externa com SFTP
 solution: Analytics
 title: Enviar dados da Adobe para uma conta FTP externa com SFTP
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
