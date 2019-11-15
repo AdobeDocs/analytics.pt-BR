@@ -1,13 +1,11 @@
 ---
 description: As tarefas podem ser exibidas com qualquer uma das etiquetas de status.
-keywords: Feed de dados;tarefa;status;aguardando dados;falha;pronto;processamento;concluído;sem dados
-seo-description: As tarefas podem ser exibidas com qualquer uma das etiquetas de status.
-seo-title: Status da tarefa
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: Status da tarefa
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
