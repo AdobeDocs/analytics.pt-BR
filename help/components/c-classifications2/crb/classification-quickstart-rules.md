@@ -1,14 +1,12 @@
 ---
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
-seo-description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
-seo-title: Regras de classificação
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Regras de classificação
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
-> Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/c-classifications2/c-sub-classifications.md).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Criar um conjunto](/help/components/c-classifications2/crb/classification-rule-set.md) de regras de classificação.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    A página **[!UICONTROL Selecionar Conjuntos de relatórios]é exibida.**
 
    >[!NOTE]
-   Os conjuntos de relatórios são exibidos nesta página *`only`* quando as seguintes condições são atendidas:  &gt;
+   Os conjuntos de relatórios são exibidos nesta página *`only`* quando as seguintes condições são atendidas:        &gt;
 
    * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
    (Consulte *`Variable`* em Conjuntos [de regras de](/help/components/c-classifications2/crb/classification-rule-set.md) classificação para obter uma explicação sobre esse pré-requisito.)
