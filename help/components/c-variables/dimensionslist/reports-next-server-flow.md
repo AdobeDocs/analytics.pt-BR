@@ -1,13 +1,11 @@
 ---
 description: Exibe os dados de navegação entre os servidores no site. Ao selecionar um nome de servidor do site, o Fluxo do próximo servidor mostra o número de visitantes que navegaram por esse servidor para cada um dos outros servidores do site em uma única visita ou em várias.
-seo-description: Exibe os dados de navegação entre os servidores no site. Ao selecionar um nome de servidor do site, o Fluxo do próximo servidor mostra o número de visitantes que navegaram por esse servidor para cada um dos outros servidores do site em uma única visita ou em várias.
-seo-title: Fluxo de próximo servidor
 solution: Analytics
 title: Fluxo de próximo servidor
-topic: Relatórios
+topic: Reports
 uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
