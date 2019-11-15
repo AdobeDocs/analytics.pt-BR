@@ -1,14 +1,12 @@
 ---
 description: Descreve como as instâncias são contadas em variáveis de comercialização.
-keywords: Implementação do Analytics
-seo-description: Descreve como as instâncias são contadas em variáveis de comercialização.
-seo-title: Instâncias em variáveis de merchandising
+keywords: Analytics Implementation
 solution: Analytics
 title: Instâncias em variáveis de merchandising
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
