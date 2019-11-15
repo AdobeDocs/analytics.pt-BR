@@ -1,13 +1,11 @@
 ---
 description: A habilitação do gerenciamento móvel ativa as variáveis de solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
-seo-description: A habilitação do gerenciamento móvel ativa as variáveis de solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
-seo-title: Gerenciamento móvel
 solution: Analytics
 title: Gerenciamento móvel
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
