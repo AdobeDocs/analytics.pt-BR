@@ -1,13 +1,11 @@
 ---
 description: Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Os segmentos são criados como informações de público-alvo codificadas que você pode criar de acordo com necessidades específicas e, em seguida, verificar, editar e compartilhar com outros membros da equipe, ou usar em outros produtos da Adobe e recursos do Analytics.
-seo-description: Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Os segmentos são criados como informações de público-alvo codificadas que você pode criar de acordo com necessidades específicas e, em seguida, verificar, editar e compartilhar com outros membros da equipe, ou usar em outros produtos da Adobe e recursos do Analytics.
-seo-title: Sobre os segmentos e contêineres
 solution: Analytics
 title: Sobre os segmentos e contêineres
-topic: Segmentos
-uuid: e8b1edd1-5d6c-4213-994b-feed789ad30a4
+topic: Segments
+uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
