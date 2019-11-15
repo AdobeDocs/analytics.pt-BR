@@ -1,13 +1,11 @@
 ---
 description: Descrições de campo para as configurações globais de Cookies usadas para implantar o Dynamic Tag Management no Adobe Analytics.
-keywords: Dynamic Tag Management, cookies, id de visitante, namespace de visitante, períodos de domínio, períodos de domínio fp, id de transação, duração do cookie
-seo-description: Descrições de campo para as configurações globais de Cookies usadas para implantar o Dynamic Tag Management no Adobe Analytics.
-seo-title: Cookies
-solution: Experience Cloud, Analytics, Dynamic Tag Management
+keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
