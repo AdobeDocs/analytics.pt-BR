@@ -1,13 +1,11 @@
 ---
 description: Taxas de conversão normalmente geram conversões entre os eventos de início, término e etapa ou pontos de um processo de conversão. Depois que você codificar os eventos de sucesso do site, o relatório cria as taxas entre esses eventos de sucesso e os exibe em um Relatório de funil de conversão.
-seo-description: Taxas de conversão normalmente geram conversões entre os eventos de início, término e etapa ou pontos de um processo de conversão. Depois que você codificar os eventos de sucesso do site, o relatório cria as taxas entre esses eventos de sucesso e os exibe em um Relatório de funil de conversão.
-seo-title: Funil de conversão
 solution: Analytics
 title: Funil de conversão
-topic: Relatórios
+topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
