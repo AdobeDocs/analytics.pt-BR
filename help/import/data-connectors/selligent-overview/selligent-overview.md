@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Conector de dados inteligente para o Adobe Analytics
 solution: Analytics
 title: Conector de dados inteligente para o Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -82,31 +80,31 @@ Além dessas eVars, alguns eventos podem ser reservados, dependendo dos dados da
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Enviados </td> 
    <td colname="col3"> Para armazenar o número de emails enviados da SelIntelligent. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Entregue </td> 
    <td colname="col3"> Para armazenar o número de emails entregues. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Exibições </td> 
    <td colname="col3"> Para armazenar o número de emails exclusivos que foram exibidos. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Cliques </td> 
    <td colname="col3"> Para armazenar o número de vezes que qualquer email foi clicado. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Rejeitado </td> 
    <td colname="col3"> Para armazenar o número de emails que foram enviados. </td> 
-   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participação</b>: Ativado </p> </td> 
   </tr> 
  </tbody> 
 </table>
