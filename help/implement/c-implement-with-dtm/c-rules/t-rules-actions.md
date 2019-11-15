@@ -1,13 +1,11 @@
 ---
 description: Configure as ações que serão acionadas pela condição.
-keywords: Dynamic Tag Management, regra, criar regra, nova regra, tags de terceiros/javascript, configurar ações para condição, adicionar novo script, javascript não sequencial, javascript sequencial, html não sequencial
-seo-description: Configure as ações que serão acionadas pela condição.
-seo-title: Configurar as ações que serão acionadas pela condição
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar as ações que serão acionadas pela condição
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
