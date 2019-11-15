@@ -1,13 +1,11 @@
 ---
 description: Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
-seo-description: Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
-seo-title: Formatar cabeçalhos de exibição
 solution: Analytics
 title: Formatar cabeçalhos de exibição
-topic: Construtor de relatórios
+topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
