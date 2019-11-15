@@ -1,15 +1,13 @@
 ---
 description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, fora do Analysis Workspace.
-keywords: Implementação do Analytics
-seo-description: O plug-in getTimeParting preenche as variáveis personalizadas com a hora, o dia da semana e os valores de fim de semana e de dias da semana. A Analysis Workspace oferece dimensões de hora do visitante prontas para uso. O plug-in deve ser usado se as dimensões de hora do visitante forem necessárias em outras soluções do Analytics, fora do Analysis Workspace.
-seo-title: getTimeParting
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
