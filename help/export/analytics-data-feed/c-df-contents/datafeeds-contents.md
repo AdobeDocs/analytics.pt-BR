@@ -1,15 +1,13 @@
 ---
 description: Esta seção descreve os arquivos encontrados na entrega do feed de dados.
-keywords: Feed de dados;tarefa;conteúdo;manifesto;arquivo;pesquisa;dados de ocorrência;conteúdo de entrega
-seo-description: Esta seção descreve os arquivos encontrados na entrega do feed de dados.
-seo-title: Conteúdos do feed de dados - visão geral
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: feed de dados
+subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
