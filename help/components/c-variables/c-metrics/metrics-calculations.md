@@ -1,13 +1,11 @@
 ---
 description: As métricas são calculadas usando métodos padrão, de participação, recente e de alocação linear. Cada método calcula valores de forma diferente com base em fórmulas.
-seo-description: As métricas são calculadas usando métodos padrão, de participação, recente e de alocação linear. Cada método calcula valores de forma diferente com base em fórmulas.
-seo-title: Cálculos de métricas
 solution: Analytics
 title: Cálculos de métricas
-topic: Métricas
+topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
