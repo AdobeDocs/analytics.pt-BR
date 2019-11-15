@@ -1,13 +1,11 @@
 ---
 description: Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
-seo-description: Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
-seo-title: Seções do site
 solution: Analytics
 title: Seções do site
-topic: Relatórios
+topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
