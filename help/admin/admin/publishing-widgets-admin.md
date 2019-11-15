@@ -1,13 +1,11 @@
 ---
 description: Um Widget de publicação é um contêiner que permite a incorporação de relatórios de marketing (somente marcadores e painéis) em uma página da Web. As pessoas que não possuem acesso aos relatórios de marketing em sua organização podem visualizar os dados pertinentes.
-seo-description: Um Widget de publicação é um contêiner que permite a incorporação de relatórios de marketing (somente marcadores e painéis) em uma página da Web. As pessoas que não possuem acesso aos relatórios de marketing em sua organização podem visualizar os dados pertinentes.
-seo-title: Widget de publicação
 solution: Analytics
 title: Widget de publicação
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
