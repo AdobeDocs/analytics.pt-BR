@@ -1,15 +1,13 @@
 ---
 description: Os caracteres e strings que nunca são permitidos em variáveis JavaScript.
-keywords: Implementação do Analytics
-seo-description: Os caracteres e strings que nunca são permitidos em variáveis JavaScript.
-seo-title: Caracteres JavaScript inválidos
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variáveis
+subtopic: Variables
 title: Caracteres JavaScript inválidos
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
