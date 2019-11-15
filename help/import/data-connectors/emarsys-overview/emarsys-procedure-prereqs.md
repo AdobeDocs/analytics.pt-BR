@@ -1,11 +1,9 @@
 ---
 description: Usando um assistente "plug and play", os processos intuitivos passo a passo o guiarão pelos pontos de sincronização do sistema e inicializarão a integração.
-seo-description: Usando um assistente "plug and play", os processos intuitivos passo a passo o guiarão pelos pontos de sincronização do sistema e inicializarão a integração.
-seo-title: Procedimento de integração e pré-requisitos
 title: Procedimento de integração e pré-requisitos
-uuid: d0cd9f08-b66e-470a-a5d2-08cbdc18275
+uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
