@@ -1,12 +1,10 @@
 ---
 description: Após a implantação, você deve validar se a integração está transferindo dados com êxito por meio das seguintes verificações.
-seo-description: Após a implantação, você deve validar se a integração está transferindo dados com êxito por meio das seguintes verificações.
-seo-title: Verificação da integração
 solution: Analytics
 title: Verificação da integração
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,4 +25,4 @@ Após a implantação, você deve validar se a integração está transferindo d
 
       ![](assets/reporting.png)
 
-   1. Procure o relatório do Responsys.  Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
+   1. Procure o relatório do Responsys. Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
