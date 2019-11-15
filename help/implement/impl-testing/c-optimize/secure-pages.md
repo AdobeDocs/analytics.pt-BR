@@ -1,15 +1,13 @@
 ---
 description: As páginas seguras (páginas carregadas com https://) criptografam a solicitação de imagem e adicionam ao tempo total de download.
-keywords: Implementação do Analytics
-seo-description: As páginas seguras (páginas carregadas com https://) criptografam a solicitação de imagem e adicionam ao tempo total de download.
-seo-title: Páginas seguras
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Solução de problemas
+subtopic: Troubleshooting
 title: Páginas seguras
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d63e4356-0203-4d10-838a-791d12f9333a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
