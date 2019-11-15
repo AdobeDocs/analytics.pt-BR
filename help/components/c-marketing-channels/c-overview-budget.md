@@ -1,14 +1,12 @@
 ---
 description: Saiba como atribuir valores de custo e orçamento a canais.
-seo-description: Saiba como atribuir valores de custo e orçamento a canais.
-seo-title: Custos e orçamentos
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Custos e orçamentos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
