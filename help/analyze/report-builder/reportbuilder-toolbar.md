@@ -1,13 +1,11 @@
 ---
 description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Construtor de relatórios.
-seo-description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Construtor de relatórios.
-seo-title: Barra de ferramentas do Report Builder
 solution: Analytics
 title: Barra de ferramentas do Report Builder
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
