@@ -1,15 +1,13 @@
 ---
 description: O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
-keywords: Implementação do Analytics, variáveis appmeasurement
-seo-description: O Analytics oferece diversas variáveis para coletar dados do Analytics. Por exemplo, o valor na variável pageName é o nome da página da Web que está sendo reportada. Esta seção lista as variáveis compatíveis com o AppMeasurement.
-seo-title: Visão geral das variáveis
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
-subtopic: Variáveis
+subtopic: Variables
 title: Visão geral das variáveis
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-translation-type: ht
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
