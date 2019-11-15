@@ -1,11 +1,9 @@
 ---
 description: A detecção de anomalias na Analysis Workspace usa uma série de técnicas estatísticas avançadas para determinar se uma observação deve ser considerada anômala ou não.
-seo-description: A detecção de anomalias na Analysis Workspace usa uma série de técnicas estatísticas avançadas para determinar se uma observação deve ser considerada anômala ou não.
-seo-title: Técnicas estatísticas usadas na Detecção de anomalias
 title: Técnicas estatísticas usadas na Detecção de anomalias
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
