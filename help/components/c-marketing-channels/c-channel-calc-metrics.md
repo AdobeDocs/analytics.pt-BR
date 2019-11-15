@@ -1,14 +1,12 @@
 ---
 description: Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
-seo-description: Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
-seo-title: Métricas calculadas usadas nos relatórios de canal de marketing
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Métricas calculadas usadas nos relatórios de canal de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
