@@ -1,11 +1,9 @@
 ---
 description: Mostra como criar uma métrica simples de "Exibições de página por visita".
-seo-description: Mostra como criar uma métrica simples de "Exibições de página por visita".
-seo-title: Criar uma métrica simples de "Exibições de página por visita"
 title: Criar uma métrica simples de "Exibições de página por visita"
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
