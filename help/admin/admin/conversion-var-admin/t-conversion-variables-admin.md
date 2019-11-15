@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como adicionar ou editar variáveis de conversão.
-seo-description: Etapas que descrevem como adicionar ou editar variáveis de conversão.
-seo-title: Editar variáveis de conversão
 solution: Analytics
 title: Editar variáveis de conversão
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
