@@ -1,13 +1,11 @@
 ---
 description: No layout personalizado, é possível transformar uma coluna de métrica em um gráfico de barras com um valor de porcentagem correspondente, ou um valor de porcentagem com um gráfico de barras correspondente. O valor da porcentagem é o valor ou total da métrica para a solicitação geral não filtrada para o período.
-seo-description: No layout personalizado, é possível transformar uma coluna de métrica em um gráfico de barras com um valor de porcentagem correspondente, ou um valor de porcentagem com um gráfico de barras correspondente. O valor da porcentagem é o valor ou total da métrica para a solicitação geral não filtrada para o período.
-seo-title: Criar um micrográfico
 solution: Analytics
 title: Criar um micrográfico
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
