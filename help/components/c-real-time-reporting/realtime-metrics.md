@@ -1,18 +1,16 @@
 ---
 description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
-seo-description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
-seo-title: Métricas e dimensões em tempo real suportadas
 solution: Analytics
-title: Métricas e dimensões em tempo real suportadas
-topic: 'Relatórios  '
-uuid: a 3 a 869 ef -0 f 4 a -44 b 5-a 386-2746 cc 0822 c 4
+title: Métricas e dimensões em tempo real compatíveis
+topic: Reports
+uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Métricas e dimensões em tempo real suportadas
+# Métricas e dimensões em tempo real compatíveis
 
 Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
 
@@ -43,7 +41,7 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Servidor
 * Seção do site
 * Código de rastreamento
-* Link personalizado
+* Link Personalizado
 * Download de arquivo
 * Link de saída
 * Variáveis de Insight Personalizado (props) 1-75 (se habilitado no conjunto de relatórios)
