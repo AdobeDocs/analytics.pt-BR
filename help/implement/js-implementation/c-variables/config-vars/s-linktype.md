@@ -1,10 +1,10 @@
 ---
 description: As variáveis dinâmicas permitem a cópia de valores de uma variável para outra sem precisar digitar os valores completos várias vezes nas solicitações de imagem do site.
-keywords: Implementação do Analytics
+keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -17,7 +17,7 @@ Contém o tipo de link determinado automaticamente, se houver. Pode ser definido
     * "e" (saída)
     * "o" (personalizado/outro)
 
-Este é o parâmetro `pe` na solicitação de imagem. Se definido com `linkURL` ou `linkName`, uma chamada de servidor é enviada como um link de download, personalizado ou de saída.
+Este é o parâmetro `pe` na solicitação de imagem. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *Observação: A variável[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)não pode ser definida para um download de arquivo, link de saída ou link personalizado, pois cada tipo de link não é uma exibição de página e não tem um nome de página associado.*
 
