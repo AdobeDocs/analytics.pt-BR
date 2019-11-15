@@ -1,13 +1,11 @@
 ---
 description: Agrupa dispositivos móveis com base no tamanho máximo suportado, em caracteres, de um URL de email.
-seo-description: Agrupa dispositivos móveis com base no tamanho máximo suportado, em caracteres, de um URL de email.
-seo-title: Tamanho do URL de email
 solution: Analytics
 title: Tamanho do URL de email
-topic: 'Relatórios  '
-uuid: 6999 e 1 e 4-a 586-4 a 81-81 ef-e 5 c 59 f 006 d 49
+topic: Reports
+uuid: 6999e1e4-a586-4a81-81ef-e5c59f006d49
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
