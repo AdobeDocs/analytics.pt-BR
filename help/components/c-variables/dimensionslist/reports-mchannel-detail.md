@@ -1,13 +1,11 @@
 ---
 description: Esses relatórios fornecem um insight sobre as campanhas específicas ou palavras-chave que são mais eficazes em seu site. Esse relatório pode ser usado para alocar métricas de sucesso e receitas em diversos detalhes do canal, independentemente do canal geral em que se encontram. Por exemplo, você pode ver como uma determinada Palavra-chave de pesquisa paga está em comparação com certa campanha de email. Ao contrário do Relatório de visão geral do canal de marketing, esse relatório assemelha-se a um relatório de marketing padrão.
-seo-description: Esses relatórios fornecem um insight sobre as campanhas específicas ou palavras-chave que são mais eficazes em seu site. Esse relatório pode ser usado para alocar métricas de sucesso e receitas em diversos detalhes do canal, independentemente do canal geral em que se encontram. Por exemplo, você pode ver como uma determinada Palavra-chave de pesquisa paga está em comparação com certa campanha de email. Ao contrário do Relatório de visão geral do canal de marketing, esse relatório assemelha-se a um relatório de marketing padrão.
-seo-title: Detalhes do canal de marketing - Primeiro e último contato
 solution: Analytics
 title: Detalhes do canal de marketing - Primeiro e último contato
-topic: Relatórios
+topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
