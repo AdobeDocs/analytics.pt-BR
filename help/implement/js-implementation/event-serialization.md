@@ -1,14 +1,12 @@
 ---
 description: A serialização de eventos é um processo de implementação de medidas, usado para evitar que eventos duplicados sejam inseridos nos relatórios da Adobe. Isso pode ocorrer quando um usuário atualiza uma mesma página várias vezes, navega até uma mesma página várias vezes ou salva a página da Web em seu computador (por exemplo, se um cliente salvar a página de confirmação de uma compra em seu computador, os pedidos e a receita serão contados todas as vezes que ele a acessar; isso, é claro, se a serialização não estiver configurada).
-keywords: Implementação do Analytics
-seo-description: A serialização de eventos é um processo de implementação de medidas, usado para evitar que eventos duplicados sejam inseridos nos relatórios da Adobe. Isso pode ocorrer quando um usuário atualiza uma mesma página várias vezes, navega até uma mesma página várias vezes ou salva a página da Web em seu computador (por exemplo, se um cliente salvar a página de confirmação de uma compra em seu computador, os pedidos e a receita serão contados todas as vezes que ele a acessar; isso, é claro, se a serialização não estiver configurada).
-seo-title: Visão geral da serialização de eventos
+keywords: Analytics Implementation
 solution: Analytics
 title: Visão geral da serialização de eventos
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
