@@ -1,13 +1,11 @@
 ---
 description: Esses relatórios exibem informações sobre os navegadores, sistemas operacionais, resoluções de monitor, etc., utilizados pelos visitantes.
-seo-description: Esses relatórios exibem informações sobre os navegadores, sistemas operacionais, resoluções de monitor, etc., utilizados pelos visitantes.
-seo-title: Tecnologia
 solution: Analytics
 title: Tecnologia
-topic: Relatórios
+topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
