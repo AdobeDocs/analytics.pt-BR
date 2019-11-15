@@ -1,13 +1,11 @@
 ---
 description: Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Este relatório permite que você acompanhe as visualizações de páginas para cada página no site, bem como um agregado de exibições de página do site inteiro.
-seo-description: Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Este relatório permite que você acompanhe as visualizações de páginas para cada página no site, bem como um agregado de exibições de página do site inteiro.
-seo-title: Exibições de página
 solution: Analytics
 title: Exibições de página
-topic: Relatórios
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
