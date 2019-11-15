@@ -1,13 +1,11 @@
 ---
 description: O fluxo mostra os caminhos mais comuns que usuários tomam em páginas, seções de sites e servidores.
-seo-description: O fluxo mostra os caminhos mais comuns que usuários tomam em páginas, seções de sites e servidores.
-seo-title: Fluxo
 solution: Analytics
 title: Fluxo
-topic: Relatórios
+topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
