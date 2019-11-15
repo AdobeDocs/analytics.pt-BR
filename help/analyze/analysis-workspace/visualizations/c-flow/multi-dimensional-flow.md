@@ -1,11 +1,9 @@
 ---
 description: Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
-seo-description: Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
-seo-title: Fluxos inter dimensionais
 title: Fluxos inter dimensionais
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
