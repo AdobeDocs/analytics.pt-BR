@@ -1,20 +1,18 @@
 ---
 description: 'O Activity Map rastreia os links com um algoritmo mais avançado '
-seo-description: 'O Activity Map rastreia os links com um algoritmo mais avançado '
-seo-title: Rastreamento de links avançado
 solution: Analytics
 title: Rastreamento de links avançado
-topic: Activity Map
+topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Rastreamento de links avançado
 
-O Activity Map rastreia os links com um algoritmo mais avançado
+O Activity Map rastreia os links com um algoritmo mais avançado:
 
 * Inclui o rastreamento de regiões da página para evitar casos em que o mesmo link seja confundido em diferentes dispositivos, pois o link é exibido em diferentes posições na página;
 * Garante a singularidade do link, o que significa que links distintos não podem ser confundidos por causa de problemas com a LinkID ou pela diferença entre os navegadores.
