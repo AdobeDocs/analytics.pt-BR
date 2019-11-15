@@ -1,18 +1,16 @@
 ---
 description: Etapas que descrevem como desinstalar o Construtor de relatórios da Adobe.
-seo-description: Etapas que descrevem como desinstalar o Construtor de relatórios da Adobe.
-seo-title: Desinstalar o Construtor de relatórios
 solution: Analytics
-title: Desinstalar o Construtor de relatórios
-topic: Construtor de relatórios
-uuid: 3 fade 973-e 246-4 fcb-abc 1-0 aafddca 0536
+title: Desinstalar o Report Builder
+topic: Report builder
+uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Desinstalar o Construtor de relatórios
+# Desinstalar o Report Builder
 
 Etapas que descrevem como desinstalar o Construtor de relatórios da Adobe.
 
@@ -24,5 +22,5 @@ Etapas que descrevem como desinstalar o Construtor de relatórios da Adobe.
 
    Se desejar remover completamente todas as pastas e arquivos do diretório Arquivos de Programas, siga as etapas abaixo após desinstalar o Construtor de relatórios:
 1. Click **[!UICONTROL Start]** &gt; **[!UICONTROL Computer]**.
-1. Navigate to [!DNL C:\Program Files\Adobe\]or, if on a 64-bit version of Windows, [!DNL C:\Program Files (x86)\Adobe.]
+1. Navegue até [!DNL C:\Program Files\Adobe\] ou, se estiver em uma versão de 64 bits do Windows, [!DNL C:\Program Files (x86)\Adobe.]
 1. Exclua a pasta Construtor de relatórios neste diretório, se ela ainda existir.
