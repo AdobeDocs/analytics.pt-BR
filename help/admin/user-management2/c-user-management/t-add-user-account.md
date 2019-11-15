@@ -1,14 +1,12 @@
 ---
 description: Etapas que descrevem como adicionar uma conta do usuário.
-seo-description: Etapas que descrevem como adicionar uma conta do usuário.
-seo-title: Adicionar uma conta do usuário
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Adicionar uma conta do usuário
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
