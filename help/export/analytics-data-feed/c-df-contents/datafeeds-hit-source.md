@@ -1,19 +1,17 @@
 ---
 description: Tabela de pesquisa para determinar a fonte de um hit com base no valor de page_event.
-keywords: Feed de dados; hit; source
-seo-description: Tabela de pesquisa para determinar a fonte de um hit com base no valor de page_event.
-seo-title: Pesquisar fonte de hit
+keywords: Data Feed;hit;source
 solution: Analytics
-title: Pesquisar fonte de hit
-topic: Reports and Analytics
-uuid: b 4 ef 2366-a 7 c 3-421 b -8 dc 6-279706 fe 277 f
+title: Pesquisa de fonte de hit
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Pesquisar fonte de hit
+# Pesquisa de fonte de hit
 
 Tabela de pesquisa para determinar a fonte de um hit com base no valor de page_event.
 
