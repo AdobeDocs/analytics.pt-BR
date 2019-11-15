@@ -1,14 +1,12 @@
 ---
 description: Este procedimento descreve como executar o Relatório de canal de marketing, fornecer direitos de administrador e permissões de grupo de usuário ao relatório.
-seo-description: Este procedimento descreve como executar o Relatório de canal de marketing, fornecer direitos de administrador e permissões de grupo de usuário ao relatório.
-seo-title: Acesso ao Relatório
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Acesso ao Relatório
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
