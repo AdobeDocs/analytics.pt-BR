@@ -1,13 +1,11 @@
 ---
 description: A seção de Destino do feed define como o feed é distribuído.
-keywords: Feed de dados;feed;destino;sftp;s3;ftp;configurações
-seo-description: A seção de Destino do feed define como o feed é distribuído.
-seo-title: Destino do feed
+keywords: Data Feed;feed;destination;sftp;s3;ftp;settings
 solution: Analytics
 title: Destino do feed
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
