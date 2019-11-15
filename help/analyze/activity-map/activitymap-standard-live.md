@@ -1,13 +1,11 @@
 ---
 description: O Activity Map disponibiliza dois modos básicos para fornecer relatórios complementares da atividade principal.
-seo-description: O Activity Map disponibiliza dois modos básicos para fornecer relatórios complementares da atividade principal.
-seo-title: Modo Padrão vs. modo Online
 solution: Analytics
 title: Modo Padrão vs. modo Online
-topic: Activity Map
+topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
