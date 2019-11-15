@@ -1,13 +1,11 @@
 ---
 description: Descrições dos campos e opções nas configurações de Gerenciamento de biblioteca no Dynamic Tag Management.
-keywords: gerenciamento de biblioteca, código de página, carregar biblioteca em, gerenciado pela adobe, personalizado, código hospedado, s_code hospedado
-seo-description: Descrições dos campos e opções nas configurações de Gerenciamento de biblioteca no Dynamic Tag Management.
-seo-title: Gerenciamento de biblioteca
-solution: Experience Cloud, Dynamic Tag Management
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+solution: Experience Cloud,Dynamic Tag Management
 title: Gerenciamento de biblioteca
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
