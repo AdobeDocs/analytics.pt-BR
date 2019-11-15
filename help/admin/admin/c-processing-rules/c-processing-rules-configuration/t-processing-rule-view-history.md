@@ -1,19 +1,17 @@
 ---
 description: As alterações nas regras de processamento podem ser exibidas no Histórico.
-seo-description: As alterações nas regras de processamento podem ser exibidas no Histórico.
-seo-title: Exibir o histórico de regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
-title: Exibir o histórico de regras de processamento
-topic: Ferramentas administrativas
-uuid: 8020 d 27 b -8 c 9 d -4 caf -92 c 2-03 adba 76 a 94 b
+subtopic: Processing rules
+title: Exibir o histórico das regras de processamento
+topic: Admin tools
+uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Exibir o histórico de regras de processamento
+# Exibir o histórico das regras de processamento
 
 As alterações nas regras de processamento podem ser exibidas no Histórico.
 
