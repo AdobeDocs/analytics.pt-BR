@@ -1,10 +1,8 @@
 ---
 title: Guia do primeiro administrador do Adobe Analytics
-seo-title: Guia do primeiro administrador do Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, tipos de função gerais e fazer logon na interface do usuário.
-seo-description: Saiba como começar a usar o Adobe Analytics, tipos de função gerais e fazer logon na interface do usuário.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
