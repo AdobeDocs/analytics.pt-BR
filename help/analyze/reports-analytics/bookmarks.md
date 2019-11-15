@@ -1,14 +1,12 @@
 ---
 description: Os marcadores concedem acesso aos relatórios que você mais usa. Os marcadores criados são adicionados à Experience Cloud e estão disponíveis em recursos integrados como conectores de dados.
-seo-description: Os marcadores concedem acesso aos relatórios que você mais usa. Os marcadores criados são adicionados à Experience Cloud e estão disponíveis em recursos integrados como conectores de dados.
-seo-title: Gerenciador de marcador
 solution: Analytics
-subtopic: Marcadores
+subtopic: Bookmarks
 title: Gerenciador de marcador
-topic: Reports and Analytics
-uuid: 7 a 1287 da -8 a 39-4 pai -90 b 0-f 311 b 5 e 83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador.]**.
 
-       | Nome | A nome amigável do usuário para este marcador.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |Nome|Um nome amigável para este marcador.
+    |
+ |—|—|     |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.
+|     |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.
+|     |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -45,7 +43,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Análises]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Marcadores]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Marcadores]**.
 
 **Meus marcadores**
 
