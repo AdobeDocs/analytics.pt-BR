@@ -1,11 +1,9 @@
 ---
 description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
-seo-description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
-seo-title: Relatórios de conteúdo do site
 title: Relatórios de conteúdo do site
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
