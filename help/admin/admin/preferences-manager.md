@@ -1,13 +1,11 @@
 ---
 description: A página Gerenciador de preferências permite configurar como renderizar saídas de relatórios do Excel e com valores separados por vírgula (CSV).
-seo-description: A página Gerenciador de preferências permite configurar como renderizar saídas de relatórios do Excel e com valores separados por vírgula (CSV).
-seo-title: Gerenciador de preferências
 solution: Analytics
 title: Gerenciador de preferências
-topic: Ferramentas administrativas
-uuid: 46488 e 24-57 a 5-4 f 99-997 c -0 cfb 61625008
+topic: Admin tools
+uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 A página Gerenciador de preferências permite configurar como renderizar saídas de relatórios do Excel e com valores separados por vírgula (CSV).
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Preferências]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa &gt; **[!UICONTROL Preferências]**
 
 * Usar formato de data preterido para CSV (30 de agosto de 2013)
 * Usar formato de data ISO 8601 para CSV (30-08-2013)
