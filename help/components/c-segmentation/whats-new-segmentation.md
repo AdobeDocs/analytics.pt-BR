@@ -1,11 +1,9 @@
 ---
 description: Novos recursos da Segmentação do Adobe Analytics.
-seo-description: Novos recursos da Segmentação do Adobe Analytics.
-seo-title: Novidades na Segmentação do Analytics
 title: Novidades na Segmentação do Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
