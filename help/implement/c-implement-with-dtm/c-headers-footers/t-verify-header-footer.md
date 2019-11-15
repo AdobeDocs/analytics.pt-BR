@@ -1,14 +1,12 @@
 ---
 description: Verifique se sua biblioteca de Dynamic Tag Management é carregada corretamente no site.
-keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, código, código de página, código de cabeçalho, código de rodapé, código de incorporação, código de verificação, código de cabeçalho de verificação, código de rodapé de verificação, guia incorporar, incorporar
-seo-description: Verifique se sua biblioteca de Dynamic Tag Management é carregada corretamente no site.
-seo-title: Verificar o código do cabeçalho e do rodapé
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
 solution: Analytics
 title: Verificar o código do cabeçalho e do rodapé
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
