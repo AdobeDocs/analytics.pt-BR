@@ -1,13 +1,11 @@
 ---
 description: Relatórios de tráfego fornecem um insight detalhado sobre como os visitantes interagem do site da Web.
-seo-description: Relatórios de tráfego fornecem um insight detalhado sobre como os visitantes interagem do site da Web.
-seo-title: Tráfego
 solution: Analytics
 title: Tráfego
-topic: Relatórios
+topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
