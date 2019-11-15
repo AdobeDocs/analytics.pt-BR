@@ -1,13 +1,11 @@
 ---
 description: As dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um relatório. São valores e datas não numéricos que se correlacionam, sub-relacionam ou são uma classificação da métrica do tipo de relatório original.
-seo-description: As dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um relatório. São valores e datas não numéricos que se correlacionam, sub-relacionam ou são uma classificação da métrica do tipo de relatório original.
-seo-title: Dimensões
 solution: Analytics
 title: Dimensões
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
