@@ -1,18 +1,16 @@
 ---
 description: Disponível se a definição de caminho estiver habilitada. Cliques para a página que indicam o número de exibições de página que precederam a primeira visualização de página do visitante na determinada seção do site.
-seo-description: Disponível se a definição de caminho estiver habilitada. Cliques para a página que indicam o número de exibições de página que precederam a primeira visualização de página do visitante na determinada seção do site.
-seo-title: Profundidade das seções do site
 solution: Analytics
-title: Profundidade das seções do site
-topic: 'Relatórios  '
-uuid: 117 ec 0 ed-ade 0-4382-8756-d 7 d 5 ea 3530 bf
+title: Profundidade de seções do site
+topic: Reports
+uuid: 117ec0ed-ade0-4382-8756-d7d5ea3530bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Profundidade das seções do site
+# Profundidade de seções do site
 
 Disponível se a definição de caminho estiver habilitada. Cliques para a página que indicam o número de exibições de página que precederam a primeira visualização de página do visitante na determinada seção do site.
 
