@@ -1,13 +1,11 @@
 ---
 description: Etapas para implementar o menu de relatórios simplificados em Relatórios e análises.
-seo-description: Etapas para implementar o menu de relatórios simplificados em Relatórios e análises.
-seo-title: Menu Relatórios simplificado
 solution: Analytics
 title: Menu Relatórios simplificado
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
