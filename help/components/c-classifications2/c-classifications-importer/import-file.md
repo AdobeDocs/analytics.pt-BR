@@ -1,14 +1,12 @@
 ---
 description: Depois de copiar os dados adequados para o arquivo modelo de classificações, você pode importar (upload) para os servidores de coleção de dados da Adobe.
-seo-description: Depois de copiar os dados adequados para o arquivo modelo de classificações, você pode importar (upload) para os servidores de coleção de dados da Adobe.
-seo-title: Importação de navegador e FTP
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Importação de navegador e FTP
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
