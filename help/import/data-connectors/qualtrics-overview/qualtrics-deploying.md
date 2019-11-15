@@ -1,14 +1,12 @@
 ---
 description: A implantação dessa integração é um processo simples que requer as seguintes ações.
-seo-description: A implantação dessa integração é um processo simples que requer as seguintes ações.
-seo-title: Implantação da integração
 solution: Analytics
 subtopic: Qualtrics
 title: Implantação da integração
-topic: Conectores de dados
+topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Para ativar a integração, você deve concluir o assistente de integração Qua
    |---|---|
    | Eventos | Selecione até cinco dos eventos personalizados a serem expostos para exportação para o Qualtrics |
    | Props | Selecione até cinco de suas Props para expor para exportação para o Qualtrics |
-   |  Solicitações de acesso | Marque a caixa para verificar se há métricas e dimensões padrão que você deseja exportar para o Qualtrics. A exportação `visitor_id` é necessária para que funcione corretamente. |
+   | Solicitações de acesso | Marque a caixa para verificar se há métricas e dimensões padrão que você deseja exportar para o Qualtrics. A exportação `visitor_id` é necessária para que funcione corretamente. |
 
 1. **Etapa 5** do assistente: Revise a configuração e clique em **[!UICONTROL Ativar agora]**.
 
