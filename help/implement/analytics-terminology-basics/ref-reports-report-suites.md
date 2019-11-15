@@ -1,14 +1,12 @@
 ---
 description: 'Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em relatórios de marketing, na Ad Hoc Analysis e no Report Builder, você selecionará um conjunto de relatórios para usar (exceto quando utilizar roll-ups que combinam conjuntos de relatórios). '
-keywords: Implementação do Analytics, relatórios, conjunto de relatórios, relatório do analytics, segmento global, roll-ups, rollups, combinar conjuntos de relatórios, tráfego, conversão, caminho
-seo-description: 'Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em relatórios de marketing, na Ad Hoc Analysis e no Report Builder, você selecionará um conjunto de relatórios para usar (exceto quando utilizar roll-ups que combinam conjuntos de relatórios). '
-seo-title: Relatórios e conjuntos de relatórios
+keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
 solution: Analytics
 title: Relatórios e conjuntos de relatórios
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
