@@ -1,13 +1,11 @@
 ---
 description: Etapas administrativas para configurar relatórios em tempo real.
-seo-description: Etapas administrativas para configurar relatórios em tempo real.
-seo-title: Configurar relatórios em tempo real
 solution: Analytics
 title: Configurar relatórios em tempo real
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
