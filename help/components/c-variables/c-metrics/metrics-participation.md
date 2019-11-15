@@ -1,13 +1,11 @@
 ---
 description: As métricas de participação atribuem crédito total de eventos bem-sucedidos a todos os valores de uma eVar que foram passados durante uma visita. As métricas de participação são úteis para determinar que páginas, campanhas ou outros valores variáveis personalizados estão contribuindo mais para o sucesso do site. A participação é baseada na visita. Todos os valores de eVar em uma visita que sejam anteriores ao e incluam a ocorrência de um evento recebem crédito de participação, independentemente da configuração de expiração.
-seo-description: As métricas de participação atribuem crédito total de eventos bem-sucedidos a todos os valores de uma eVar que foram passados durante uma visita. As métricas de participação são úteis para determinar que páginas, campanhas ou outros valores variáveis personalizados estão contribuindo mais para o sucesso do site. A participação é baseada na visita. Todos os valores de eVar em uma visita que sejam anteriores ao e incluam a ocorrência de um evento recebem crédito de participação, independentemente da configuração de expiração.
-seo-title: Participação
 solution: Analytics
 title: Participação
-topic: Métricas
+topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
