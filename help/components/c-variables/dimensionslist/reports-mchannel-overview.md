@@ -1,13 +1,11 @@
 ---
 description: O Relatório geral do canal de marketing é designado para proporcionar um alto nível de conhecimento sobre quais métodos que os clientes usam para chegar ao site são mais eficientes. Use este relatório para alocar métricas de sucesso e receita em vários canais. Você também pode ver as campanhas e palavras-chave específicas em cada canal que têm mais sucesso. Ele contém sua própria interface única e intuitiva, que permite que você visualize as métricas de primeiro e último contato ao mesmo tempo.
-seo-description: O Relatório geral do canal de marketing é designado para proporcionar um alto nível de conhecimento sobre quais métodos que os clientes usam para chegar ao site são mais eficientes. Use este relatório para alocar métricas de sucesso e receita em vários canais. Você também pode ver as campanhas e palavras-chave específicas em cada canal que têm mais sucesso. Ele contém sua própria interface única e intuitiva, que permite que você visualize as métricas de primeiro e último contato ao mesmo tempo.
-seo-title: Visão geral do canal de marketing
 solution: Analytics
 title: Visão geral do canal de marketing
-topic: Relatórios
+topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
