@@ -1,14 +1,12 @@
 ---
 description: Os eventos predefinidos permitem definir o tipo de sucesso que você quer rastrear.
-keywords: Implementação do Analytics, evento personalizado
-seo-description: Os eventos predefinidos permitem definir o tipo de sucesso que você quer rastrear.
-seo-title: O que é um evento personalizado?
+keywords: Analytics Implementation;custom event
 solution: Analytics
 title: O que é um evento personalizado?
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
-translation-type: ht
-source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
