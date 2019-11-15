@@ -1,15 +1,13 @@
 ---
 description: Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
-keywords: Implementação do Analytics
-seo-description: Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
-seo-title: Redirecionamentos e aliases
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Redirecionamentos
+subtopic: Redirects
 title: Redirecionamentos e aliases
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
