@@ -1,13 +1,11 @@
 ---
 description: Uma solicitação referencial usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional.
-seo-description: Uma solicitação referencial usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional.
-seo-title: Copiar solicitações referenciais
 solution: Analytics
 title: Copiar solicitações referenciais
-topic: Construtor de relatórios
+topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
