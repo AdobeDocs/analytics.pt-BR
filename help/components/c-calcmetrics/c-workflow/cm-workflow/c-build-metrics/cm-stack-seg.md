@@ -1,11 +1,9 @@
 ---
 description: Mostra como empilhar e substituir segmentos no Criador de métricas calculadas.
-seo-description: Mostra como empilhar e substituir segmentos no Criador de métricas calculadas.
-seo-title: Empilhar e substituir segmentos
 title: Empilhar e substituir segmentos
-uuid: f 6 d 4 db 9 e-d 982-4731-b 342-7 e 49 dee 02035
+uuid: f6d4db9e-d982-4731-b342-7e49dee02035
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
