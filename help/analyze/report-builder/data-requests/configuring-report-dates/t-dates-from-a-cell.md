@@ -1,13 +1,11 @@
 ---
 description: Você pode especificar um intervalo de datas selecionando células de uma pasta de trabalho que contém uma solicitação. O construtor de relatórios usa as informações de intervalo de datas especificado nessas solicitações. Se você selecionar a data de hoje, verá dados parciais baseados na hora do dia em que o relatório é executado.
-seo-description: Você pode especificar um intervalo de datas selecionando células de uma pasta de trabalho que contém uma solicitação. O construtor de relatórios usa as informações de intervalo de datas especificado nessas solicitações. Se você selecionar a data de hoje, verá dados parciais baseados na hora do dia em que o relatório é executado.
-seo-title: Datas de uma célula
 solution: Analytics
 title: Datas de uma célula
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
