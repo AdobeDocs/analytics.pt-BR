@@ -1,11 +1,9 @@
 ---
 description: No Gerenciador de métricas calculadas, é possível definir um fluxo de trabalho que inclua métricas de aprovação para vários níveis de aplicação e para departamentos ou grupos específicos.
-seo-description: No Gerenciador de métricas calculadas, é possível definir um fluxo de trabalho que inclua métricas de aprovação para vários níveis de aplicação e para departamentos ou grupos específicos.
-seo-title: Aprovar métricas calculadas
 title: Aprovar métricas calculadas
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
