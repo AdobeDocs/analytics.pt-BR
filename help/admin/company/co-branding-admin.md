@@ -1,22 +1,20 @@
 ---
 description: A página Gerenciar compartilhamento de marcas permite exibir o logotipo de sua empresa nos relatórios baixados.
-seo-description: A página Gerenciar compartilhamento de marcas permite exibir o logotipo de sua empresa nos relatórios baixados.
-seo-title: Compartilhamento de marcas
 solution: Analytics
 title: Compartilhamento de marcas
-topic: Ferramentas administrativas
-uuid: 918 db 633-44 bb -4502-bd 04-98 a 6337 a 166 c
+topic: Admin tools
+uuid: 918db633-44bb-4502-bd04-98a6337a166c
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Compartilhamento de marcas
 
-A página Gerenciar compartilhamento de marcas permite exibir o logotipo da empresa nos relatórios baixados do Relatórios e análises e painéis legados. A compartilhamento de marcas não é usada na Analysis Workspace.
+A página Gerenciar compartilhamento de marcas permite exibir o logotipo da sua empresa nos relatórios e análises baixados e nos painéis legados. A associação de marcas não é usada na Analysis Workspace.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Configurações]** da empresa &gt; **[!UICONTROL Associação da Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa &gt; **[!UICONTROL Comparar marcas na Adobe Experience Cloud]**
 
 Use as seguintes diretrizes de imagem para obter os melhores resultados possíveis:
 
