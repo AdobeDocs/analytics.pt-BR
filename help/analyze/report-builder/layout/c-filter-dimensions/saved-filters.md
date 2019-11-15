@@ -1,13 +1,11 @@
 ---
 description: Você pode salvar filtros ou outros parâmetros no construtor de relatórios e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics a fim de garantir que fiquem disponíveis para outros usuários do construtor de relatórios em outros computadores.
-seo-description: Você pode salvar filtros ou outros parâmetros no construtor de relatórios e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics a fim de garantir que fiquem disponíveis para outros usuários do construtor de relatórios em outros computadores.
-seo-title: Filtros salvos
 solution: Analytics
 title: Filtros salvos
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
