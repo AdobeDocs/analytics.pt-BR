@@ -1,14 +1,12 @@
 ---
 description: A variável products é usada para rastrear produtos e categorias de produto (assim como quantidade e preço da compra).
-keywords: Implementação do Analytics, variável de produtos, visualização do produto, evento bem-sucesso
-seo-description: A variável products é usada para rastrear produtos e categorias de produto (assim como quantidade e preço da compra).
-seo-title: Página de exibição detalhada do produto
+keywords: Analytics Implementation;products variable;product view;success event
 solution: Analytics
 title: Página de exibição detalhada do produto
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
