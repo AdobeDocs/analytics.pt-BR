@@ -1,14 +1,12 @@
 ---
 description: Se seu site tiver tipos de páginas ou modelos de páginas, você poderá usar a definição de caminho para compreender como eles se movimentam de tipo para tipo.
-keywords: Implementação do Analytics
-seo-description: Se seu site tiver tipos de páginas ou modelos de páginas, você poderá usar a definição de caminho para compreender como eles se movimentam de tipo para tipo.
-seo-title: Mover de modelo de página para modelo de página
+keywords: Analytics Implementation
 solution: Analytics
 title: Mover de modelo de página para modelo de página
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
