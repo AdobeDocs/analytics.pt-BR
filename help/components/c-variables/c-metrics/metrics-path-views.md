@@ -1,13 +1,11 @@
 ---
 description: A métrica de Exibições de caminho é baseada nos dados de definição de caminho, que são rastreados para todos os usuários que aceitam cookies persistentes.
-seo-description: A métrica de Exibições de caminho é baseada nos dados de definição de caminho, que são rastreados para todos os usuários que aceitam cookies persistentes.
-seo-title: Exibições de caminho
 solution: Analytics
 title: Exibições de caminho
-topic: Métricas
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
