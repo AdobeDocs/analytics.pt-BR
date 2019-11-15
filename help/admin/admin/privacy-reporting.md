@@ -1,12 +1,10 @@
 ---
 description: Você pode ativar o relatório de privacidade.
-seo-description: Você pode ativar o relatório de privacidade.
-seo-title: Relatórios de privacidade
 solution: Analytics
 title: Relatórios de privacidade
-topic: Ferramentas administrativas
+topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
