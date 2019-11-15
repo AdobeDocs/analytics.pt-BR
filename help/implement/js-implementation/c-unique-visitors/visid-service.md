@@ -1,14 +1,12 @@
 ---
 description: O serviço da Experience Cloud ID substitui o mecanismo herdado da ID de visitante do Analytics e é exigido pela medição de vídeo de heartbeat, pelo Analytics for Target e pelos futuros serviços e integrações principais da Experience Cloud.
-keywords: Implementação do Analytics
-seo-description: O serviço da Experience Cloud ID substitui o mecanismo herdado da ID de visitante do Analytics e é exigido pela medição de vídeo de heartbeat, pelo Analytics for Target e pelos futuros serviços e integrações principais da Experience Cloud.
-seo-title: Serviço de identidade
+keywords: Analytics Implementation
 solution: Analytics
 title: Serviço de identidade
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
