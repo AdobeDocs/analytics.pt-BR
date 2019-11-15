@@ -1,13 +1,11 @@
 ---
 description: A página Gerenciar ações pendentes permite exibir uma lista das ações pendentes no ambiente do Analytics. Uma ação pendente é qualquer alteração ao sistema que exija a aprovação da Adobe antes da implementação.
-seo-description: A página Gerenciar ações pendentes permite exibir uma lista das ações pendentes no ambiente do Analytics. Uma ação pendente é qualquer alteração ao sistema que exija a aprovação da Adobe antes da implementação.
-seo-title: Ações pendentes
 solution: Analytics
 title: Ações pendentes
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
