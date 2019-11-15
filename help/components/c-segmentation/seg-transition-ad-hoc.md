@@ -1,14 +1,12 @@
 ---
 description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
-keywords: segmentação;segmentos
-seo-description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
-seo-title: Guia de transição para a Ad Hoc Analysis
+keywords: segmentation;segments
 solution: Analytics
 title: Guia de transição para a Ad Hoc Analysis
-topic: Segmentos
+topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
