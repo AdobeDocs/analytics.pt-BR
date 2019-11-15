@@ -1,14 +1,12 @@
 ---
 description: O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
-keywords: práticas recomendadas;falha;tempo limite;solução de problemas;lento
-seo-description: O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
-seo-title: Relatando práticas recomendadas e solucionando problemas
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: Relatando práticas recomendadas e solucionando problemas
-topic: Relatórios
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
