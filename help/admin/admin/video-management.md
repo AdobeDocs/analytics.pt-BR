@@ -1,13 +1,11 @@
 ---
 description: Você pode designar um conjunto de Variáveis de conversão personalizadas (eVars) e Eventos personalizados para usar no rastreamento e nos relatórios em vídeo.
-seo-description: Você pode designar um conjunto de Variáveis de conversão personalizadas (eVars) e Eventos personalizados para usar no rastreamento e nos relatórios em vídeo.
-seo-title: Gerenciamento de vídeo
 solution: Analytics
 title: Gerenciamento de vídeo
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
