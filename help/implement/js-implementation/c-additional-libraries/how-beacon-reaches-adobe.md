@@ -1,14 +1,12 @@
 ---
 description: Quando um dispositivo móvel solicita uma página de um servidor da Web, a solicitação é enviada por meio de um gateway, que converte a solicitação remota (geralmente no protocolo WAP ou I-Mode) em uma solicitação HTTP que é enviada a um servidor da Web.
-keywords: Implementação do Analytics, gateway, wap, i-mode, wbmp
-seo-description: Quando um dispositivo móvel solicita uma página de um servidor da Web, a solicitação é enviada por meio de um gateway, que converte a solicitação remota (geralmente no protocolo WAP ou I-Mode) em uma solicitação HTTP que é enviada a um servidor da Web.
-seo-title: Gateway de rede para protocolo móvel
+keywords: Analytics Implementation;gateway;wap;i-mode;wbmp
 solution: Analytics
 title: Gateway de rede para protocolo móvel
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
