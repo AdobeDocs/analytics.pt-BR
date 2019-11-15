@@ -1,12 +1,10 @@
 ---
 description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
-seo-description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
-seo-title: Código do Plug-in do Param da String de Consulta
 solution: Analytics
 title: Código do Plug-in do Param da String de Consulta
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
