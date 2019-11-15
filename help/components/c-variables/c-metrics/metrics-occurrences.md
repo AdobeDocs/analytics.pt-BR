@@ -1,13 +1,11 @@
 ---
 description: O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. As ocorrências estão disponíveis na Analysis Workspace e na Ad Hoc Analysis.
-seo-description: O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. As ocorrências estão disponíveis na Analysis Workspace e na Ad Hoc Analysis.
-seo-title: Ocorrências
 solution: Analytics
 title: Ocorrências
-topic: Métricas
+topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
