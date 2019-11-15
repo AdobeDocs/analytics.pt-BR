@@ -1,14 +1,12 @@
 ---
 description: Como começar a usar o Adobe Analytics.
 keywords: Analysis Workspace
-seo-description: Como começar a usar o Adobe Analytics.
-seo-title: Guia de introdução
 solution: Analytics
 title: Guia de introdução
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
