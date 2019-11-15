@@ -1,13 +1,11 @@
 ---
 description: Exibe os referenciadores originais que geraram clientes para o seu site. Como os clientes podem visitar o site várias vezes e ter um referenciador diferente para cada visita, os Domínios de referência original mostram como eles foram referenciados na primeira vez que acessaram o site. Essa dimensão remete a referenciadores somente pelo seu domínio base (aol.com, yahoo.com, e assim por diante).
-seo-description: Exibe os referenciadores originais que geraram clientes para o seu site. Como os clientes podem visitar o site várias vezes e ter um referenciador diferente para cada visita, os Domínios de referência original mostram como eles foram referenciados na primeira vez que acessaram o site. Essa dimensão remete a referenciadores somente pelo seu domínio base (aol.com, yahoo.com, e assim por diante).
-seo-title: Domínios de referência originais
 solution: Analytics
 title: Domínios de referência originais
-topic: 'Relatórios  '
-uuid: 4 a 21 c 2 a 2-8507-4 d 25-8 d 75-f 5 a 5 a 20409 b 0
+topic: Reports
+uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
