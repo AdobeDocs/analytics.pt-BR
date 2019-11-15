@@ -1,14 +1,12 @@
 ---
 description: Os relatórios de Canal de marketing permitem que você visualize a receita gerada pelos seus canais de marketing. Esses relatórios fornecem um relatório de visão geral e alocação de canal de última hora, com métricas padrão do como, por exemplo, receita, pedidos e custo.
-seo-description: Os relatórios de Canal de marketing permitem que você visualize a receita gerada pelos seus canais de marketing. Esses relatórios fornecem um relatório de visão geral e alocação de canal de última hora, com métricas padrão do como, por exemplo, receita, pedidos e custo.
-seo-title: Sobre os Relatórios de Canal de marketing
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Sobre os Relatórios de Canal de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
