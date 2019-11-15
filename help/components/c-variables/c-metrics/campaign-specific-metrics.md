@@ -1,18 +1,16 @@
 ---
 description: As métricas específicas de campanha são valores numéricos fixos associados a uma campanha, como o custo bruto de uma campanha.
-seo-description: As métricas específicas de campanha são valores numéricos fixos associados a uma campanha, como o custo bruto de uma campanha.
-seo-title: Métricas específicas da campanha
 solution: Analytics
-title: Métricas específicas da campanha
-topic: Métricas
-uuid: 7 dacebc 7-2 ab 5-4338-8970-2 a 804 ad 8 df 72
+title: Métricas específicas de campanha
+topic: Metrics
+uuid: 7dacebc7-2ab5-4338-8970-2a804ad8df72
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Métricas específicas da campanha
+# Métricas específicas de campanha
 
 As métricas específicas de campanha são valores numéricos fixos associados a uma campanha, como o custo bruto de uma campanha.
 
