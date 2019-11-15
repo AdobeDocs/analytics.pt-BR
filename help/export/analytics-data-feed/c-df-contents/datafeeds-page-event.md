@@ -1,14 +1,12 @@
 ---
 description: Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
-keywords: Feed de dados;página;evento;page_event;post_page_event
-seo-description: Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
-seo-title: Pesquisa de evento da página
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: Pesquisa de evento da página
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
