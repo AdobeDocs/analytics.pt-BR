@@ -1,11 +1,9 @@
 ---
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
-seo-description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
-seo-title: Alertas inteligentes
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
