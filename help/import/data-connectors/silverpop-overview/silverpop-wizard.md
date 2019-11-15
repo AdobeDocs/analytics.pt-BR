@@ -1,11 +1,9 @@
 ---
 description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
-seo-description: O Assistente de integração dos Conectores de dados o orientará pelo processo de integração dos Conectores de dados.
-seo-title: Integração do Silverpop
 title: Integração do Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ Para configurar a integração:
    <td colname="col3"> <p>Essa integração cria os segmentos definidos pelo parceiro exibidos na seção Segmentos do parceiro. </p> <p>Além disso, você pode selecionar segmentos existentes no nível do conjunto de relatórios para incluir na integração. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> Solicitações de acesso </p> </td> 
+   <td colname="col2"> <p>Solicitações de acesso </p> </td> 
    <td colname="col03"> <p>(3) Configurações de dados </p> </td> 
    <td colname="col3"> <p> (Obrigatório) Ative <span class="uicontrol"> Permitir que essa integração baixe dados</span>do produto. </p> <p>Opcional: Permite que essa integração baixe receita, pedidos e unidades. </p> </td> 
   </tr> 
