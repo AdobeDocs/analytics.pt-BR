@@ -1,10 +1,8 @@
 ---
 title: Criar um novo conjunto de relatórios
-seo-title: Criar um conjunto de relatórios no Adobe Analytics
 description: Crie um contêiner básico para a coleta de dados no Adobe Analytics.
-seo-description: Crie um contêiner básico para a coleta de dados no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ Este artigo foi projetado para administradores ou administradores de análises d
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
 1. Você deve ver uma janela modal "Bem-vindo ao Adobe Analytics" aparecer automaticamente. Caso contrário, clique no ícone de ajuda no canto superior direito e selecione 'Bem-vindo ao Adobe Analytics'.
 1. Na janela modal, clique em Start Setup (Iniciar configuração).
-1. Siga cada prompt que descreve as noções básicas, como tipo de propriedade, setores e fuso horário.  Clique em Avançar.
+1. Siga cada prompt que descreve as noções básicas, como tipo de propriedade, setores e fuso horário. Clique em Avançar.
 1. O conjunto de relatórios agora é criado. A Adobe recomenda ter também um conjunto de relatórios de desenvolvimento, portanto, o teste não afeta os dados do cliente. Clique no ícone de ajuda no canto superior direito e selecione 'Bem-vindo ao Adobe Analytics' novamente.
 1. Na janela modal, clique em Iniciar configuração.
 Nomeie este conjunto de relatórios da mesma forma, exceto para anexar "- DEV" no final. Como este conjunto de relatórios receberá apenas tráfego interno, o tamanho estimado pode ser o menor.
