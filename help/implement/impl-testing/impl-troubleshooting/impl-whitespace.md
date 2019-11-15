@@ -1,15 +1,13 @@
 ---
 description: Em HTML, existem vários caracteres que criam espaço em branco.
-keywords: Implementação do Analytics
-seo-description: Em HTML, existem vários caracteres que criam espaço em branco.
-seo-title: Uso do espaço em branco em valores da variável
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Solução de problemas
+subtopic: Troubleshooting
 title: Uso do espaço em branco em valores da variável
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
