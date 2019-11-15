@@ -1,14 +1,12 @@
 ---
 description: Etapas que você pode adotar como preparação para usar as fontes de dados
-seo-description: Etapas que você pode adotar como preparação para usar as fontes de dados
-seo-title: Preparação para usar as Fontes de dados
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Preparação para usar as Fontes de dados
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
