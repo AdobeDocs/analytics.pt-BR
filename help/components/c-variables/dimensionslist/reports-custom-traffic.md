@@ -1,13 +1,11 @@
 ---
 description: Os relatórios de tráfego personalizados permitem que cada organização relate sobre outras dimensões que não estão implementadas por padrão. Os relatórios de tráfego personalizados podem ser usados de diversas maneiras, geralmente para medir o tráfego e a definição de caminho.
-seo-description: Os relatórios de tráfego personalizados permitem que cada organização relate sobre outras dimensões que não estão implementadas por padrão. Os relatórios de tráfego personalizados podem ser usados de diversas maneiras, geralmente para medir o tráfego e a definição de caminho.
-seo-title: Tráfego personalizado
 solution: Analytics
 title: Tráfego personalizado
-topic: Relatórios
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
