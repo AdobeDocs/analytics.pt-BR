@@ -1,14 +1,12 @@
 ---
 description: As categorias de fonte de dados identificam os diferentes tipos de fonte de dados que oferecem uma funcionalidade semelhante.
-seo-description: As categorias de fonte de dados identificam os diferentes tipos de fonte de dados que oferecem uma funcionalidade semelhante.
-seo-title: Visão geral dos tipos de dados e categorias
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Visão geral dos tipos de dados e categorias
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
