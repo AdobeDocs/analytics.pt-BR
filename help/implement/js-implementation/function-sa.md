@@ -1,15 +1,13 @@
 ---
 description: A função s.sa() permite que você altere dinamicamente um conjunto de relatórios a qualquer momento na página, antes ou depois do acionamento de uma solicitação de imagem.
-keywords: Implementação do Analytics
-seo-description: A função s.sa() permite que você altere dinamicamente um conjunto de relatórios a qualquer momento na página, antes ou depois do acionamento de uma solicitação de imagem.
-seo-title: A função s.sa()
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Funções
+subtopic: Functions
 title: A função s.sa()
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
