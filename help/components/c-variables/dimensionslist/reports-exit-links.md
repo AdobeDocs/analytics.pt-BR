@@ -1,13 +1,11 @@
 ---
 description: Mostra os links mais comuns que são clicados pelas pessoas e levam a lugares fora de seu site. Normalmente, esses links indicam sites de parceiros ou afiliados. Contudo, podem ser qualquer local em que você tenha implementado um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
-seo-description: Mostra os links mais comuns que são clicados pelas pessoas e levam a lugares fora de seu site. Normalmente, esses links indicam sites de parceiros ou afiliados. Contudo, podem ser qualquer local em que você tenha implementado um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
-seo-title: 'Links de saída '
 solution: Analytics
 title: 'Links de saída '
-topic: Relatórios
+topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
