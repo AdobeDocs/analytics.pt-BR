@@ -1,14 +1,12 @@
 ---
 description: A Detecção de anomalias oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
-keywords: anomalia
-seo-description: A Detecção de anomalias oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
-seo-title: Detecção de anomalias
+keywords: anomaly
 solution: Analytics
 title: Detecção de anomalias
-topic: Relatórios
+topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
