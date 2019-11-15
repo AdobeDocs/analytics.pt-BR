@@ -1,15 +1,13 @@
 ---
 description: A Adobe oferece algumas práticas recomendadas para atualizar seu código do Analytics.
-keywords: Implementação do Analytics
-seo-description: A Adobe oferece algumas práticas recomendadas para atualizar seu código do Analytics.
-seo-title: Substituição de seu código do Analytics
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Solução de problemas
+subtopic: Troubleshooting
 title: Substituição de seu código do Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
