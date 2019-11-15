@@ -1,14 +1,12 @@
 ---
 description: O código de rastreamento remoto é inserido na página, no formulário de uma tag de imagem gerada por servidor.
-keywords: Implementação do Analytics, rastreamento de dispositivos móveis, protocolos móveis, prevenção de armazenamento em cache, tag alt, tipo de imagem padrão
-seo-description: O código de rastreamento remoto é inserido na página, no formulário de uma tag de imagem gerada por servidor.
-seo-title: Como marcar páginas para protocolos móveis
+keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
 solution: Analytics
 title: Como marcar páginas para protocolos móveis
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
