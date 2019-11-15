@@ -1,13 +1,11 @@
 ---
 description: Perguntas frequentes sobre o rastreamento de links no Activity Map.
-seo-description: Perguntas frequentes sobre o rastreamento de links no Activity Map.
-seo-title: Perguntas frequentes sobre o Rastreamento de links
 solution: Analytics
-title: Rastreamento de link Perguntas frequentes
-topic: Activity Map
+title: Perguntas frequentes sobre o Rastreamento de links
+topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
