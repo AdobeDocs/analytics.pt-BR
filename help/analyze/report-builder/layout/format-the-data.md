@@ -1,13 +1,11 @@
 ---
 description: Além das opções padrão de formatação de células disponíveis através do recurso Formatar > Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com o Construtor de relatórios. Essas opções de formatação dependem da métrica selecionada.
-seo-description: Além das opções padrão de formatação de células disponíveis através do recurso Formatar > Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com o Construtor de relatórios. Essas opções de formatação dependem da métrica selecionada.
-seo-title: Formatar a data
 solution: Analytics
 title: Formatar a data
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
