@@ -1,14 +1,12 @@
 ---
 description: Uma utilização comum de hierarquias de conteúdo é mostrar os caminhos diferentes que os visitantes adotaram em determinada página, nível e assim por diante.
-keywords: Implementação do Analytics, hierarquias de conteúdo, hier
-seo-description: Uma utilização comum de hierarquias de conteúdo é mostrar os caminhos diferentes que os visitantes adotaram em determinada página, nível e assim por diante.
-seo-title: Contagem de hierarquias de conteúdo
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: Contagem de hierarquias de conteúdo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
