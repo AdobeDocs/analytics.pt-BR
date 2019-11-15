@@ -1,14 +1,12 @@
 ---
 description: Ajuda a responder a pergunta "Depois que um usuário clica no meu site por uma campanha, para onde ele vai no meu site?".
-keywords: Implementação do Analytics
-seo-description: Ajuda a responder a pergunta "Depois que um usuário clica no meu site por uma campanha, para onde ele vai no meu site?".
-seo-title: Definição de caminho por campanha ou código de rastreamento
+keywords: Analytics Implementation
 solution: Analytics
 title: Definição de caminho por campanha ou código de rastreamento
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
