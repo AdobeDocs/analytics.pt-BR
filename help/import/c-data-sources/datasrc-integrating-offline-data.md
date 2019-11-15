@@ -1,14 +1,12 @@
 ---
 description: As fontes de dados fornecem duas outras formas de integrar os eventos que ocorrem offline a seus dados online.
-seo-description: As fontes de dados fornecem duas outras formas de integrar os eventos que ocorrem offline a seus dados online.
-seo-title: Integração de transição e de clientes
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Integração de transição e de clientes
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
