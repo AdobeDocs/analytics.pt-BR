@@ -1,11 +1,9 @@
 ---
 description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, datas, unidades, ordens, receita, e assim por diante. As métricas e dados associados são exibidos nas colunas dos relatórios.
-seo-description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, datas, unidades, ordens, receita, e assim por diante. As métricas e dados associados são exibidos nas colunas dos relatórios.
-seo-title: Métricas
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
