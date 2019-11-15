@@ -1,13 +1,11 @@
 ---
 description: Transfere as versões específicas do relatório de Sistemas operacionais no Relatório de sistema operacional para principais tipos de sistemas operacionais para obter um relatório e uma segmentação mais simplificados.
-seo-description: Transfere as versões específicas do relatório de Sistemas operacionais no Relatório de sistema operacional para principais tipos de sistemas operacionais para obter um relatório e uma segmentação mais simplificados.
-seo-title: Tipos de sistema operacional
 solution: Analytics
 title: Tipos de sistema operacional
-topic: Relatórios
+topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
