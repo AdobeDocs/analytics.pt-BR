@@ -1,14 +1,12 @@
 ---
 description: Como implementar o Analytics no Instant Articles do Facebook.
-keywords: Implementação do Analytics, incorporar, variável personalizada, evento personalizado, rastreamento de visitantes, rastreamento, limitações
-seo-description: Como implementar o Analytics no Instant Articles do Facebook.
-seo-title: Instant Articles do Facebook
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Instant Articles do Facebook
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
