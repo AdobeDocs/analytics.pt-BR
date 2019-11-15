@@ -1,13 +1,11 @@
 ---
 description: Use o complemento do Construtor de relatórios da Adobe para Microsoft Excel para criar solicitações personalizadas a partir de dados de análise da Web, que podem ser inseridas em planilhas do Excel.
 keywords: ftp;sftp
-seo-description: Use o complemento do Construtor de relatórios da Adobe para Microsoft Excel para criar solicitações personalizadas a partir de dados de análise da Web, que podem ser inseridas em planilhas do Excel.
-seo-title: Relatórios entregues do Report Builder
 solution: Analytics
 title: Relatórios entregues do Report Builder
-uuid: 94070700-4073-499a-afe2-10a30eab79f
+uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
