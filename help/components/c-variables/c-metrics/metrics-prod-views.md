@@ -1,13 +1,11 @@
 ---
 description: Instância da Exibição de produto que está sendo definida. Ocorre quando a página de detalhes do produto é visualizada. Este valor provém do evento prodView.)
-seo-description: Instância da Exibição de produto que está sendo definida. Ocorre quando a página de detalhes do produto é visualizada. Este valor provém do evento prodView.)
-seo-title: Exibições do produto
 solution: Analytics
 title: Exibições do produto
-topic: Métricas
-uuid: a9f2bcd-e9ba-42d6-90c8-2fd4e6c9775b
+topic: Metrics
+uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
