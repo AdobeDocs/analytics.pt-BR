@@ -1,14 +1,12 @@
 ---
 description: A migração do visitante é um processo no qual o cookie da ID de visitante é transferido de um domínio para outro.
-keywords: Implementação do Analytics
-seo-description: A migração do visitante é um processo no qual o cookie da ID de visitante é transferido de um domínio para outro.
-seo-title: Migração de visitante
+keywords: Analytics Implementation
 solution: Analytics
 title: Migração de visitante
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
