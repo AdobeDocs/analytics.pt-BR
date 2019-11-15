@@ -1,11 +1,9 @@
 ---
 description: Dias desde a última visita é uma dimensão do Analytics incluída pronto para uso na Analysis Workspace.
-seo-description: Dias desde a última visita é uma dimensão do Analytics incluída pronto para uso na Analysis Workspace.
-seo-title: Dias desde a última visita
 title: Dias desde a última visita
-uuid: d 7726 a 7 c -7 c 4 b -45 c 2-ace 9-444 eb 2 d 3 a 4 d 0
+uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
