@@ -1,13 +1,11 @@
 ---
 description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
-seo-description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
-seo-title: Operadores de comparação para segmentos
 solution: Analytics
 title: Operadores de comparação para segmentos
-topic: Segmentos
+topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
