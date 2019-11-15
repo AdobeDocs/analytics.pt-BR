@@ -1,15 +1,13 @@
 ---
 description: Retorna o valor de um parâmetro especificado da string de consulta, se for encontrado no URL da página atual. Como os dados importantes (tais como códigos de rastreamento de campanha, palavras-chave de pesquisa interna etc.) estão disponíveis na sequência de caracteres de consulta em uma página, o getQueryParam ajuda a capturar os dados nas variáveis do Analytics.
-keywords: Implementação do Analytics
-seo-description: Retorna o valor de um parâmetro especificado da string de consulta, se for encontrado no URL da página atual. Como os dados importantes (tais como códigos de rastreamento de campanha, palavras-chave de pesquisa interna etc.) estão disponíveis na sequência de caracteres de consulta em uma página, o getQueryParam ajuda a capturar os dados nas variáveis do Analytics.
-seo-title: getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
