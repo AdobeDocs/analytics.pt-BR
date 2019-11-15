@@ -1,13 +1,11 @@
 ---
 description: Descrições de campo e informações sobre variáveis ao usar o Dynamic Tag Management para implantar o Adobe Analytics.
-keywords: Dynamic Tag Management, variáveis ​​globais, variáveis de servidor, evar, props, prefixo de variável dinâmica, variável dinâmica
-seo-description: Descrições de campo e informações sobre variáveis ao usar o Dynamic Tag Management para implantar o Adobe Analytics.
-seo-title: Variáveis globais
-solution: Experience Cloud, Analytics, Dynamic Tag Management
+keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Variáveis globais
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 Descrições de campo e informações sobre variáveis ao usar o Dynamic Tag Management para implantar o Adobe Analytics.
 
-Essas variáveis funcionam em todos os beacons de regras de carregamento de página. Pode-se obter o mesmo efeito usando um conjunto de [regra de Carregamento de página](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) para acionar todas as páginas. Essas variáveis podem não ser acionadas nas regras [Direct-Call](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md) e [Event-Based](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md).
+Essas variáveis são acionadas em todos os beacons da regra de carregamento de página. Você pode obter o mesmo efeito usando uma [regra de Carregamento de página](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) definida para ser acionada em todas as páginas. Essas variáveis podem não ser acionadas nas regras [Direct-Call](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md) e [Event-Based](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md).
 
 ## Variáveis globais - Descrições de campos {#section_2917F62FCC8D43F982B2612A702DEF81}
 
