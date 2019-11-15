@@ -1,13 +1,11 @@
 ---
-description: Um evento que ocorre quando clientes chegam ao estágio de finalização de uma compra. O estágio de finalização normalmente ocorre pouco antes da compra ser finalizada e geralmente envolve a digitação de informações pessoais por parte do cliente (como informações de transporte e faturamento). Você tem controle sobre quais eventos do site são qualificados como finalizações. Este valor vem do evento scCheckout.
-seo-description: Um evento que ocorre quando clientes chegam ao estágio de finalização de uma compra. O estágio de finalização normalmente ocorre pouco antes da compra ser finalizada e geralmente envolve a digitação de informações pessoais por parte do cliente (como informações de transporte e faturamento). Você tem controle sobre quais eventos do site são qualificados como finalizações. Este valor provém do evento scCheckout.
-seo-title: Finalizações
+description: Um evento que ocorre quando clientes chegam ao estágio de finalização de uma compra. O estágio de finalização normalmente ocorre pouco antes da compra ser finalizada e geralmente envolve a digitação de informações pessoais por parte do cliente (como informações de transporte e faturamento). Você tem controle sobre quais eventos do site são qualificados como finalizações. Este valor provém do evento scCheckout.
 solution: Analytics
 title: Finalizações
-topic: Métricas
-uuid: 5379 b 814-7055-44 d 1-b 080-bc 8 a 27 b 967 d 6
+topic: Metrics
+uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
