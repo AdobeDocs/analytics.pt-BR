@@ -1,13 +1,11 @@
 ---
 description: Os códigos monetários usados na Experience Cloud.
-seo-description: Os códigos monetários usados na Experience Cloud.
-seo-title: Códigos monetários
 solution: Analytics
 title: Códigos monetários
-topic: Ferramentas administrativas
-uuid: 73 c 7476 b-f 09 c -4459-8 e 72-da 6 fa 85 ff 533
+topic: Admin tools
+uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
