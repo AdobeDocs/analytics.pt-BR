@@ -1,12 +1,10 @@
 ---
 description: Por exemplo, é possível obter a média diária de chamadas do servidor realizadas durante um período específico, além de gerar um aumento no volume de chamadas do servidor deste ano. Você pode, então, agendar um pico de tráfego com base nesse fator de multiplicação.
-seo-description: Por exemplo, é possível obter a média diária de chamadas do servidor realizadas durante um período específico, além de gerar um aumento no volume de chamadas do servidor deste ano. Você pode, então, agendar um pico de tráfego com base nesse fator de multiplicação.
-seo-title: Estimar chamadas de servidor antigas e agendar um pico de tráfego
 solution: Analytics
 title: Estimar chamadas de servidor antigas e agendar um pico de tráfego
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
