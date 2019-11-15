@@ -1,13 +1,11 @@
 ---
 description: Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado).
-seo-description: Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado).
-seo-title: Filtrar segmentos
 solution: Analytics
 title: Filtrar segmentos
-topic: Segmentos
+topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
