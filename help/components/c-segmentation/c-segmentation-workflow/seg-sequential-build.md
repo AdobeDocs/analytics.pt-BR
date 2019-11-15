@@ -1,13 +1,11 @@
 ---
 description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrando o filtro "Incluir todos". Os segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes usando as opções "Somente antes da sequência" e "Somente depois da sequência".
-seo-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrando o filtro "Incluir todos". Os segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes usando as opções "Somente antes da sequência" e "Somente depois da sequência".
-seo-title: Construir segmentos sequenciais
 solution: Analytics
 title: Construir segmentos sequenciais
-topic: Segmentos
+topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
