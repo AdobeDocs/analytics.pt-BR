@@ -1,14 +1,12 @@
 ---
 description: Etapas que descrevem como adicionar, editar ou excluir os usuários da Ad Hoc Analysis.
-seo-description: Etapas que descrevem como adicionar, editar ou excluir os usuários da Ad Hoc Analysis.
-seo-title: Gerenciar usuários da Ad Hoc Analysis
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Gerenciar usuários da Ad Hoc Analysis
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
