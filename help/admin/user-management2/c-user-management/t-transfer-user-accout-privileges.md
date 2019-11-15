@@ -1,14 +1,12 @@
 ---
 description: Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
-seo-description: Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
-seo-title: Transferir itens da conta do usuário
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Transferir itens da conta do usuário
-topic: Ferramentas administrativas
-uuid: b 083 c 622-1397-45 ab -8796-f 7 cdc 7043 ec 6
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,5 +30,5 @@ Etapas que descrevem como atribuir itens da conta do usuário (painéis, métric
 
    >[!NOTE]
    >
-   >Os recursos da Análise ad hoc não podem ser transferidos. Se a organização utiliza várias empresas de logon, você não pode transferir itens entre elas.
+   >Não é possível transferir recursos da Análise ad hoc. Se a organização utiliza várias empresas de logon, você não pode transferir itens entre elas.
 
