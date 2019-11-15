@@ -1,14 +1,12 @@
 ---
 description: Ocasionalmente, algumas métricas podem não se encaixar em uma diferença aceitável na comparação de métricas do Adobe Analytics com métricas do DFA. Abaixo está uma lista de definições de métricas e possíveis motivos para variações.
 keywords: DFA
-seo-description: Ocasionalmente, algumas métricas podem não se encaixar em uma diferença aceitável na comparação de métricas do Adobe Analytics com métricas do DFA. Abaixo está uma lista de definições de métricas e possíveis motivos para variações.
-seo-title: Comparação de discrepâncias de métricas
 solution: Analytics
 title: Comparação de discrepâncias de métricas
-topic: Conectores de dados
+topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
