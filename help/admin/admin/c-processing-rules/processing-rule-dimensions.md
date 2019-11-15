@@ -1,14 +1,12 @@
 ---
 description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
-seo-description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
-seo-title: Dimensões disponíveis para as regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
