@@ -1,13 +1,11 @@
 ---
 description: O modo offline retorna dados de espaço reservado para acelerar o processo de criação e edição de solicitações.
-seo-description: O modo offline retorna dados de espaço reservado para acelerar o processo de criação e edição de solicitações.
-seo-title: Modo offline para criação e edição de solicitações
 solution: Analytics
 title: Modo offline para criação e edição de solicitações
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
