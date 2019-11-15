@@ -1,13 +1,11 @@
 ---
 description: No modo Padrão, exporte os dados do Analytics do Activity Map para um arquivo com valores separados por vírgula (CSV).
-seo-description: No modo Padrão, exporte os dados do Analytics do Mapa de atividade para um arquivo com valores separados por vírgula (CSV).
-seo-title: Exportar para arquivo CSV
 solution: Analytics
 title: Exportar para arquivo CSV
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 No modo Padrão, exporte os dados do Analytics do Activity Map para um arquivo com valores separados por vírgula (CSV).
 
-Como usuário, talvez seja necessário mesclar os dados de cliques em links com outras fontes de dados ou executar outra análise (por exemplo, no Excel). A exportação de CSV permite obter todos os dados do Activity Map de uma determinada página em um formato fácil de usar. Ela permite salvar os dados analíticos gerados de uma página para um arquivo CSV simples, o que permite exportar os dados de Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. Você pode, então, exibi-los como uma planilha ou um arquivo de texto, ou importar os dados para outro sistema.
+Como usuário, talvez seja necessário mesclar os dados de cliques em links com outras fontes de dados ou executar outra análise (por exemplo, no Excel). A exportação de CSV permite obter todos os dados do Activity Map de uma determinada página em um formato fácil de usar. Ela permite salvar os dados analíticos gerados de uma página para um arquivo CSV simples, o que permite exportar os dados de Dados do Relatório de página, [Relatório de fluxo de página](/help/analyze/activity-map/activitymap-page-flow.md)) e [Links na página](/help/analyze/activity-map/activitymap-links-report.md). Você pode, então, exibi-los como uma planilha ou um arquivo de texto, ou importar os dados para outro sistema.
 
 Clique no ícone Exportar na barra de ferramentas do Activity Map.
 
