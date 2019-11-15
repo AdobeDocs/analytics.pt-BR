@@ -1,13 +1,11 @@
 ---
 description: A Análise ad hoc é integrada ao ambiente de Segmentação do Analytics, permitindo que você crie, compartilhe, gerencie e aplique segmentos de visitantes nos produtos da Adobe. A Análise ad hoc oferece uma interface de usuário baseada em Java para o Construtor de segmentos e o Gerenciador de segmentos idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, correspondendo às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
-seo-description: A Análise ad hoc é integrada ao ambiente de Segmentação do Analytics, permitindo que você crie, compartilhe, gerencie e aplique segmentos de visitantes nos produtos da Adobe. A Análise ad hoc oferece uma interface de usuário baseada em Java para o Construtor de segmentos e o Gerenciador de segmentos idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, correspondendo às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
-seo-title: Construir segmentos
 solution: Analytics
 title: Construir segmentos
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
