@@ -1,14 +1,12 @@
 ---
 description: Este tópico oferece as respostas às perguntas mais frequentes.
-seo-description: Este tópico oferece as respostas às perguntas mais frequentes.
-seo-title: Perguntas frequentes da Fonte de Dados
 solution: Analytics
-subtopic: Fontes de dados
+subtopic: Data sources
 title: Perguntas frequentes da Fonte de Dados
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
