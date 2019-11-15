@@ -1,11 +1,9 @@
 ---
 description: As métricas a seguir são sincronizadas como parte da integração do appFigures.
-seo-description: As métricas a seguir são sincronizadas como parte da integração do appFigures.
-seo-title: Métricas e dimensões
 title: Métricas e dimensões
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
