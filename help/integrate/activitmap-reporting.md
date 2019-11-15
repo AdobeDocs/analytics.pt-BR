@@ -1,13 +1,11 @@
 ---
 description: Etapas administrativas para ativar os relatórios do Activity Map no Analytics.
-seo-description: Etapas administrativas para ativar os relatórios do Activity Map no Analytics.
-seo-title: Relatórios do Activity Map
 solution: Analytics
 title: Relatórios do Activity Map
-topic: Relatórios
-uuid: 7636c670-bb6c-4a25-823a-7bbba0b747b
+topic: Reports
+uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
