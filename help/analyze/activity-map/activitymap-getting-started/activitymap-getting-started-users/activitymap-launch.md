@@ -1,13 +1,11 @@
 ---
 description: Ao considerar que o plug-in correto do navegador está instalado, é possível iniciar um Activity Map diretamente na sua página da Web.
-seo-description: Ao considerar que o plug-in correto do navegador está instalado, é possível iniciar um Activity Map diretamente na sua página da Web.
-seo-title: Inicializar o Activity Map
 solution: Analytics
 title: Inicializar o Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
