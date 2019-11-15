@@ -1,11 +1,9 @@
 ---
-seo-description: Os dados coletados pelo Adobe Analytics são retidos por um período específico. O tempo em que a Adobe mantém esses dados varia de contrato para contrato e é descrito na política de retenção de dados de uma organização.
-seo-title: Política de retenção de dados para o Adobe Analytics
 title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena seus dados.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
