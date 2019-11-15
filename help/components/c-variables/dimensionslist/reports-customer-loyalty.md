@@ -1,20 +1,18 @@
 ---
 description: A Fidelidade do cliente exibe os padrões de compra dos clientes.
-seo-description: A Fidelidade do cliente exibe os padrões de compra dos clientes.
-seo-title: Fidelidade do Cliente
 solution: Analytics
 title: Fidelidade do Cliente
-topic: Relatórios
+topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Fidelidade do Cliente
 
-Fidelidade do Cliente revela os padrões de compra dos clientes.
+A Fidelidade do cliente exibe os padrões de compra dos clientes.
 
 O relatório exibe os padrões de compra dos clientes com base em quatro categorias de fidelidade:
 
