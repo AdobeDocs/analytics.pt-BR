@@ -1,14 +1,12 @@
 ---
 description: O código do Analytics cria um objeto de imagem, uma imagem não visível que não é mostrada na sua página.
-keywords: Implementação do Analytics
-seo-description: O código do Analytics cria um objeto de imagem, uma imagem não visível que não é mostrada na sua página.
-seo-title: Inserção do código do Analytics na marca do cabeçalho
+keywords: Analytics Implementation
 solution: Analytics
 title: Inserção do código do Analytics na marca do cabeçalho
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
