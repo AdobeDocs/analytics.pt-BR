@@ -1,13 +1,11 @@
 ---
 description: O número de pedidos feitos no site durante o intervalo selecionado. É possível analisar períodos individuais usando outras métricas para mostrar os itens (como produtos ou campanhas) que contribuíram para a maioria das ordens durante esse intervalo de tempo.
-seo-description: O número de pedidos feitos no site durante o intervalo selecionado. É possível analisar períodos individuais usando outras métricas para mostrar os itens (como produtos ou campanhas) que contribuíram para a maioria das ordens durante esse intervalo de tempo.
-seo-title: Pedidos
 solution: Analytics
 title: Pedidos
-topic: Métricas
-uuid: b 20 ad 038-370 b -4343-a 394-434 d 3 c 4 bd 111
+topic: Metrics
+uuid: b20ad038-370b-4343-a394-434d3c4bd111
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
