@@ -1,13 +1,11 @@
 ---
 description: Se ocorrer um erro, ele será relatado na coluna Status da tarefa.
-keywords: Feed de dados;tarefa;solução de problemas;erro;ftp;chdir;connect;login;put
-seo-description: Se ocorrer um erro, ele será relatado na coluna Status da tarefa.
-seo-title: Solução de problemas de tarefas
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: Solução de problemas de tarefas
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
