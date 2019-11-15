@@ -1,14 +1,12 @@
 ---
 description: As regras de processamento são definidas nos conjuntos de relatórios.
-seo-description: As regras de processamento são definidas nos conjuntos de relatórios.
-seo-title: Criar regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Criar regras de processamento
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
