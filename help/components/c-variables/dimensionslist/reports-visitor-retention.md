@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre a fidelidade do cliente. Você pode ver quantos de seus visitantes retornam ao site e com que frequência. Relatórios nesta categoria exibem informações sobre a fidelidade de seus clientes. Você pode ver quantos de seus visitantes retornam ao site e com que frequência.
-seo-description: Exibe informações sobre a fidelidade do cliente. Você pode ver quantos de seus visitantes retornam ao site e com que frequência. Relatórios nesta categoria exibem informações sobre a fidelidade de seus clientes. Você pode ver quantos de seus visitantes retornam ao site e com que frequência.
-seo-title: Retenção de visitante
 solution: Analytics
 title: Retenção de visitante
-topic: Relatórios
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
