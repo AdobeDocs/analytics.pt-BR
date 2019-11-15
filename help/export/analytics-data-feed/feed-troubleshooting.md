@@ -1,13 +1,11 @@
 ---
 description: Essa seção apresenta informações sobre problemas comuns.
-keywords: Feed de dados;solução de problemas
-seo-description: Essa seção apresenta informações sobre problemas comuns.
-seo-title: Solução de problemas dos feeds de dados
+keywords: Data Feed;troubleshooting
 solution: Analytics
 title: Solução de problemas dos feeds de dados
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
