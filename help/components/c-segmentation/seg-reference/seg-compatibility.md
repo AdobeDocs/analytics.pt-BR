@@ -1,18 +1,16 @@
 ---
 description: Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Essa tabela lista as funções suportadas.
-seo-description: Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Essa tabela lista as funções suportadas.
-seo-title: Compatibilidade de segmentos de Data warehouse
 solution: Analytics
-title: Compatibilidade de segmentos de Data warehouse
-topic: Segmentos
-uuid: 370258 c 5-8614-4434-871 c -41753 ed 77 f 5 c
+title: Compatibilidade de segmentos de Data Warehouse
+topic: Segments
+uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Compatibilidade de segmentos de Data warehouse
+# Compatibilidade de segmentos de Data Warehouse
 
 Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o [!DNL Data Warehouse]. Essa tabela lista as funções suportadas.
 
@@ -47,7 +45,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensões</b> </td> 
-   <td colname="col2">Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são compatíveis somente com a Analysis Workspace, Relatórios e análises e Análise ad hoc: 
+   <td colname="col2">Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente na Analysis Workspace, no Relatórios e análises e na Análise ad hoc: 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Servidor de entrada </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Categoria de entrada </li> 
@@ -58,7 +56,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">Endereço IP </li> 
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">URL da página </li> 
-     <li id="li_4C79AE900CF6458780C124143DC6FA5B">ID do visitante </li> 
+     <li id="li_4C79AE900CF6458780C124143DC6FA5B">ID de visitante </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">ID de visitante da Experience Cloud </li> 
     </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
@@ -78,7 +76,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
      <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">Páginas não encontradas </li> 
      <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">Pesquisa paga </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">Trimestre do ano </li> 
-     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">Frequência de retorno </li> 
+     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">Frequência de Retorno </li> 
      <li id="li_39154CD74A534D9AA09C701FE1E2C521">Visitas únicas à página </li> 
      <li id="li_84BDE34DD577488881E8842D2DE72D3C">Tempo antes do evento </li> 
      <li id="li_552BE3414CC949B3B24BE99298945874">Tempo gasto na página - No intervalo </li> 
