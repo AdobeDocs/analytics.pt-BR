@@ -1,13 +1,11 @@
 ---
 description: É possível executar uma variedade de ações em um feed de dados.
-keywords: Feed de dados;ações
-seo-description: É possível executar uma variedade de ações em um feed de dados.
-seo-title: Painel Feed de dados
+keywords: Data Feed;actions
 solution: Analytics
 title: Painel Feed de dados
 uuid: 10527738-13c2-48c0-9bb3-c4c93fbb4d8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
