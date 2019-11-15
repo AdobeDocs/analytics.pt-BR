@@ -1,11 +1,9 @@
 ---
 description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
-seo-description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
-seo-title: Datas e intervalos de datas
 title: Datas e intervalos de datas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
