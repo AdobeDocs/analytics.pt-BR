@@ -1,13 +1,11 @@
 ---
 description: Mede como vários códigos de rastreamento de anúncio afetam eventos de conversão diferentes do site. Este relatório pode ser usado para medir quais campanhas específicas estão se saindo melhor para eventos bem-sucedidos diferentes ou para ver como as campanhas estão ajudando ou atrasando as iniciativas do site, como quais campanhas geram mais receita.
-seo-description: Mede como vários códigos de rastreamento de anúncio afetam eventos de conversão diferentes do site. Este relatório pode ser usado para medir quais campanhas específicas estão se saindo melhor para eventos bem-sucedidos diferentes ou para ver como as campanhas estão ajudando ou atrasando as iniciativas do site, como quais campanhas geram mais receita.
-seo-title: Códigos de rastreamento
 solution: Analytics
 title: Códigos de rastreamento
-topic: Relatórios
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
