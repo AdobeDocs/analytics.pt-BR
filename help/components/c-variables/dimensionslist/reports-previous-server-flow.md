@@ -1,13 +1,11 @@
 ---
 description: Esse relatório mostra dados de navegação entre os servidores do site. Quando você seleciona um nome de servidor do site, o relatório mostra o número de visitantes que navegaram para esse servidor de cada um dos outros servidores do site em uma única visita ou em várias.
-seo-description: Esse relatório mostra dados de navegação entre os servidores do site. Quando você seleciona um nome de servidor do site, o relatório mostra o número de visitantes que navegaram para esse servidor de cada um dos outros servidores do site em uma única visita ou em várias.
-seo-title: Fluxo do servidor anterior
 solution: Analytics
 title: Fluxo do servidor anterior
-topic: 'Relatórios  '
-uuid: 19521 f 5 b -81 fc -41 d 7-9b 8 d -9 b 6 e 5 b 5 a 77 ed
+topic: Reports
+uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
