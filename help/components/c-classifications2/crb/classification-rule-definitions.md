@@ -1,14 +1,12 @@
 ---
 description: Definições de elementos de interface nas páginas no Construtor de regras de classificação.
-seo-description: Definições de elementos de interface nas páginas no Construtor de regras de classificação.
-seo-title: Regras de classificação - definições
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Regras de classificação - definições
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
