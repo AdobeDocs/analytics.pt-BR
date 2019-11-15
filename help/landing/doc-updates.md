@@ -1,11 +1,9 @@
 ---
 title: Atualizações de documentação do Adobe Analytics
 description: Atualizações de documentação técnica do Adobe Analytics
-seo-title: Atualizações de documentação do Adobe Analytics
-seo-description: Atualizações de documentação do Adobe Analytics
-short-title: Atualizações de documentação do Analytics
+short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
