@@ -1,19 +1,17 @@
 ---
 description: 'null'
-keywords: Implementação do Analytics
-seo-description: 'null'
-seo-title: Visão geral das variáveis de comercialização
+keywords: Analytics Implementation
 solution: Analytics
-title: Visão geral das variáveis de comercialização
-topic: Desenvolvedor e implementação
-uuid: 2 ccf 516 a-a 7 ee -48 ab -91aa -414228 a 4102 f
+title: Visão geral das variáveis de merchandising
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Visão geral das variáveis de comercialização
+# Visão geral das variáveis de merchandising
 
 Ao medir o êxito de campanhas externas ou termos de pesquisa externos, normalmente você deseja um único valor para receber crédito por qualquer evento bem-sucedido que possa ocorrer. Por exemplo, se um cliente clica em um link de uma campanha de email para visitar seu site, todas as compras efetuadas como resultado devem ser creditadas à campanha.
 
