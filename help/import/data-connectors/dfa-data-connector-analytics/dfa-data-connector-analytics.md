@@ -1,19 +1,17 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: Conector de dados do DFA para Adobe Analytics
 solution: Analytics
 title: Conector de dados do DFA para Adobe Analytics
-topic: Conectores de dados
+topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Conector de dados do DFA para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+# DFA Conector de dados do para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
 No mercado online cada vez mais complexo e competitivo de hoje em dia, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em publicidade. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
 
