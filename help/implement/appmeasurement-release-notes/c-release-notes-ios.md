@@ -1,14 +1,12 @@
 ---
 description: Notas de versão cumulativas para iOS.
-seo-description: Notas de versão cumulativas para iOS.
-seo-title: iOS
-solution: Analytics, Experience Cloud
-subtopic: Notas de versão
+solution: Analytics,Experience Cloud
+subtopic: Release notes
 title: iOS
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -88,7 +86,7 @@ O SDK versão 4.13.2 (10 de novembro de 2016) inclui as seguintes alterações:[
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> Serviço de ID de visitante </p> </td> 
+   <td colname="1"> <p> Visitor ID Serviço de </p> </td> 
    <td colname="2"> <p> Adicionados carimbo de data e hora e ID de empresa da Experience Cloud ao parâmetro <code> adobe_mc</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -166,7 +164,7 @@ O SDK versão 4.12.0 (18 de agosto de 2016) inclui as seguintes alterações:[!D
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Serviço de ID de visitante </p> </td> 
+   <td colname="1"> <p>Visitor ID Serviço de </p> </td> 
    <td colname="2"> <p> Adicionado um novo método para anexar a identidade do visitante a um URL fornecido, para que a identidade possa ser transferida para uma implementação com base na web. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
