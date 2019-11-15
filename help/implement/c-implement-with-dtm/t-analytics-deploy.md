@@ -1,13 +1,11 @@
 ---
 description: Crie uma ferramenta Adobe Analytics para implantação usando o Dynamic Tag Management. Este procedimento descreve uma implementação manual (herdada).
 keywords: Dynamic Tag Management
-seo-description: Crie uma ferramenta Adobe Analytics para implantação usando o Dynamic Tag Management. Este procedimento descreve uma implementação manual (herdada).
-seo-title: Implementação manual do Adobe Analytics (herdado)
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementação manual do Adobe Analytics (herdado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,8 +40,8 @@ Se você deseja alterar uma configuração manual para automática, edite uma fe
       |---|---|
       | Tipo de ferramenta | A solução da Experience Cloud, como o Analytics, o Target, o Social, etc. |
       | Nome da ferramenta | O nome da ferramenta. Esse nome é exibido na guia [!UICONTROL Visão geral] em [!UICONTROL Ferramentas instaladas]. |
-      | ID da conta de produção | Um número para a conta de produção para a coleção de dados. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparação. |
-      | ID da conta de armazenamento temporário | Um número usado no ambiente de desenvolvimento e de teste. Uma conta de armazenamento temporário mantém os dados dos testes separados da produção. |
+      | ID da conta de produção | Um número para a conta de produção para a coleção de dados. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparo. |
+      | ID da conta de armazenamento temporário | Um número usado no ambiente de desenvolvimento e de teste. Uma conta de preparo mantém os dados de teste separados da produção. |
 
 1. Clique em **[!UICONTROL Criar ferramenta]**.
 
