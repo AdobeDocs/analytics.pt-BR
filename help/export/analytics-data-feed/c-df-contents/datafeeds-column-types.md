@@ -1,14 +1,12 @@
 ---
 description: A coluna anterior contém os dados conforme foram enviados para a coleção de dados. A coluna posterior contém o valor após o processamento.
-keywords: Feed de dados;tarefa;pré coluna;pós coluna;distinção entre maiúsculas e minúsculas
-seo-description: A coluna anterior contém os dados conforme foram enviados para a coleção de dados. A coluna posterior contém o valor após o processamento.
-seo-title: Colunas anterior e posterior
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: Colunas anterior e posterior
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
