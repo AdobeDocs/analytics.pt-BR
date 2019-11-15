@@ -1,13 +1,11 @@
 ---
 description: Mostra exibições de caminho ou o número de vezes e o percentual em que uma página foi visualizada dentro das restrições dos caminhos. Por exemplo, a página Política de privacidade pode ter 10.000 exibições de página no total, mas apenas 500 delas ocorreram imediatamente antes da página inicial. Nesse caso, você veria 500 exibições de caminho. Você pode exibir o relatório no nível da visita ou do visitante. Os percentuais de cada página são exibidos ao lado do nome delas. A largura de uma linha conectada a uma página retrata o percentual relativo das visitas.
-seo-description: Mostra exibições de caminho ou o número de vezes e o percentual em que uma página foi visualizada dentro das restrições dos caminhos. Por exemplo, a página Política de privacidade pode ter 10.000 exibições de página no total, mas apenas 500 delas ocorreram imediatamente antes da página inicial. Nesse caso, você veria 500 exibições de caminho. Você pode exibir o relatório no nível da visita ou do visitante. Os percentuais de cada página são exibidos ao lado do nome delas. A largura de uma linha conectada a uma página retrata o percentual relativo das visitas.
-seo-title: Fluxo da próxima página
 solution: Analytics
 title: Fluxo da próxima página
-topic: Relatórios
+topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
