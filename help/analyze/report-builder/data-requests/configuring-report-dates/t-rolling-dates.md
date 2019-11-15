@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como personalizar uma data do acumulado para sua solicitação.
-seo-description: Etapas que descrevem como personalizar uma data do acumulado para sua solicitação.
-seo-title: Datas do acumulado
 solution: Analytics
 title: Datas do acumulado
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
