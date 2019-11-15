@@ -1,10 +1,8 @@
 ---
-title: Ajuda dos conectores de dados do Analytics
-seo-title: Ajuda dos conectores de dados do Analytics
+title: Ajuda dos Conectores de dados do Analytics
 description: ajuda dos conectores de dados
-seo-description: ajuda dos conectores de dados
 translation-type: tm+mt
-source-git-commit: e9249fb546049e846be55d20604d7820bb4cdbf6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ O serviço inclui:
 
 ## Artigos principais de importação do Analytics
 
-* Lista aqui
+* Listar aqui
 
 ## Mais guias do usuário do Analytics
 
