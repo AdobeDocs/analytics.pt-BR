@@ -1,15 +1,13 @@
 ---
 description: Normalmente, os plug-ins JavaScript são chamados pela função doPlugins, que é executada quando a função t() é chamada em Código para colar.
-keywords: Implementação do Analytics
-seo-description: Normalmente, os plug-ins JavaScript são chamados pela função doPlugins, que é executada quando a função t() é chamada em Código para colar.
-seo-title: Chamar plug-ins com a função doPlugins
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: Chamar plug-ins com a função doPlugins
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
