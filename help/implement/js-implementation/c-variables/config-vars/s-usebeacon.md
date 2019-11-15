@@ -1,10 +1,9 @@
 ---
 title: useBeacon
 description: useBeacon permite forçar o AppMeasurement a usar a API sendBeacon dos navegadores
-keywords: Implementação do Analytics
-seo-description: useBeacon permite forçar o AppMeasurement a usar a API sendBeacon dos navegadores
+keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: f89d909e539cee2b78798c165fcb405773418056
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
