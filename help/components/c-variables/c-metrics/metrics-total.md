@@ -1,13 +1,11 @@
 ---
 description: O valor de todos os itens de linha de relatório de um período de relatório. Se o filtro estiver selecionado, o total pode representar o total filtrado no lugar do total do conjunto de relatórios. Se nenhum filtro estiver selecionado, o total representa o total do conjunto de relatórios.
-seo-description: O valor de todos os itens de linha de relatório de um período de relatório. Se o filtro estiver selecionado, o total pode representar o total filtrado no lugar do total do conjunto de relatórios. Se nenhum filtro estiver selecionado, o total representa o total do conjunto de relatórios.
-seo-title: Total
 solution: Analytics
 title: Total
-topic: Métricas
+topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
