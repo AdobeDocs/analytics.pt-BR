@@ -1,14 +1,12 @@
 ---
 description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
-seo-description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
-seo-title: Classificações em Canais de marketing
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Classificações em Canais de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
