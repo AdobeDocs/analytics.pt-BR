@@ -5,7 +5,7 @@ seo-description: As variáveis dinâmicas permitem a cópia de valores de uma va
 solution: null
 title: Variáveis dinâmicas
 translation-type: tm+mt
-source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
+source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 The URL of the link, which acts as the name if a `linkName` does not exist. Pode ser definido como qualquer string de URL. Este é o parâmetro `pev1` na solicitação de imagem.
 
-If set with `linkType`, an image request will be sent as a download, custom, or exit link.
+
+If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+
 
 **Exemplo**
 
