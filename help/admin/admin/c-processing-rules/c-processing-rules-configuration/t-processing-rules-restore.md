@@ -1,14 +1,12 @@
 ---
 description: As regras de processamento podem ser restauradas a partir do histórico.
-seo-description: As regras de processamento podem ser restauradas a partir do histórico.
-seo-title: Restaurar as regras de processamento
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Restaurar as regras de processamento
-topic: Ferramentas administrativas
-uuid: 4 ee 8 afca -8 bcc -42 b 9-8 f 20-31 db 11 c 71 c 81
+topic: Admin tools
+uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
