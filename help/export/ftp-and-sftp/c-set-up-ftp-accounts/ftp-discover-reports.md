@@ -1,13 +1,11 @@
 ---
 description: Você pode configurar um cronograma de envio e enviar relatórios automaticamente para um endereço de email ou para um servidor FTP.
 keywords: ftp;sftp
-seo-description: Você pode configurar um cronograma de envio e enviar relatórios automaticamente para um endereço de email ou para um servidor FTP.
-seo-title: Relatórios entregues de Ad Hoc Analysis
 solution: Analytics
 title: Relatórios entregues de Ad Hoc Analysis
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
