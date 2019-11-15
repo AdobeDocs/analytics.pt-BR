@@ -1,13 +1,11 @@
 ---
 description: Mostra onde os visitantes saem (fallout) e continuam a navegar (fallthrough) em uma sequência pré-especificada de páginas. Ele também mostra as taxas de conversão e saída entre cada etapa. Por exemplo, você pode acompanhar os pontos de saída de um visitante durante um processo de compra. Selecione um ponto de partida e um ponto de conclusão e adicione pontos intermediários para criar um caminho de navegação no site.
-seo-description: Mostra onde os visitantes saem (fallout) e continuam a navegar (fallthrough) em uma sequência pré-especificada de páginas. Ele também mostra as taxas de conversão e saída entre cada etapa. Por exemplo, você pode acompanhar os pontos de saída de um visitante durante um processo de compra. Selecione um ponto de partida e um ponto de conclusão e adicione pontos intermediários para criar um caminho de navegação no site.
-seo-title: Fallout
 solution: Analytics
 title: Fallout
-topic: Relatórios
+topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
