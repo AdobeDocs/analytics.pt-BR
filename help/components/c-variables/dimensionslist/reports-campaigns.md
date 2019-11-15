@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre a eficácia de seus esforços de publicidade. Você pode ver que tipos de esforços publicitários proporcionam mais tráfego e qual entre seus funcionários é responsável por tais esforços.
-seo-description: Exibe informações sobre a eficácia de seus esforços de publicidade. Você pode ver que tipos de esforços publicitários proporcionam mais tráfego e qual entre seus funcionários é responsável por tais esforços.
-seo-title: Campanhas
 solution: Analytics
 title: Campanhas
-topic: Relatórios
+topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
