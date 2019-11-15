@@ -1,14 +1,12 @@
 ---
 description: Usando adobe.com como exemplo, as implementações descritas aqui fazem referência ao mesmo cookie visid.
-keywords: Implementação do Analytics
-seo-description: Usando adobe.com como exemplo, as implementações descritas aqui fazem referência ao mesmo cookie visid.
-seo-title: Exemplo de implementação
+keywords: Analytics Implementation
 solution: Analytics
 title: Exemplo de implementação
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
