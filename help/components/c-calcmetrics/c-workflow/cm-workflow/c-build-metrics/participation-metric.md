@@ -1,11 +1,9 @@
 ---
 description: Com o Criador de métricas calculadas, qualquer um pode criar uma métrica de participação.
-seo-description: Com o Criador de métricas calculadas, qualquer um pode criar uma métrica de participação.
-seo-title: Métrica de participação
 title: Métrica de participação
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Veja um caso de uso simples: um proprietário de conteúdo deseja saber quais p�
    ![](assets/participation.png)
 
 1. Salve a métrica.
-1. Use a métrica calculada em um relatório de **[!UICONTROL Páginas]** .
+1. Use a métrica calculada em um relatório **[!UICONTROL Páginas]** .
 
    ![](assets/participation-pages.png)
 
