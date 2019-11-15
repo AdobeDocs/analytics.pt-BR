@@ -1,18 +1,16 @@
 ---
 description: Em solicitações de layouts pivô e personalizado, para valores numéricos e de sequência, é possível incluir sequências ou caracteres às células como prefixo ou sufixo.
-seo-description: Em solicitações de layouts pivô e personalizado, para valores numéricos e de sequência, é possível incluir sequências ou caracteres às células como prefixo ou sufixo.
-seo-title: Incluir texto em células como prefixo e sufixo
 solution: Analytics
-title: Incluir texto em células como prefixo e sufixo
-topic: Construtor de relatórios
-uuid: d 31 af 8 a 7-67 fb -435 f -80 d 1-dee 7 acb 3411 e
+title: Incluir texto a células como prefixo e sufixo
+topic: Report builder
+uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Incluir texto em células como prefixo e sufixo
+# Incluir texto a células como prefixo e sufixo
 
 Em solicitações de layouts pivô e personalizado, para valores numéricos e de sequência, é possível incluir sequências ou caracteres às células como prefixo ou sufixo.
 
