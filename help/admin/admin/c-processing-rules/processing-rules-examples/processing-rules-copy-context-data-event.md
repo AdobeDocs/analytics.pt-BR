@@ -1,14 +1,12 @@
 ---
 description: As regras de processamento podem acionar eventos com base em variáveis de Dados de contexto.
-seo-description: As regras de processamento podem acionar eventos com base em variáveis de Dados de contexto.
-seo-title: Definir um evento usando uma variável de dados de contexto
 solution: Analytics
-subtopic: Regras de processamento
+subtopic: Processing rules
 title: Definir um evento usando uma variável de dados de contexto
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
