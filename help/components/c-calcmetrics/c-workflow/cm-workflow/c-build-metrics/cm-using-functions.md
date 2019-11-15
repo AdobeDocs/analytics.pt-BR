@@ -1,11 +1,9 @@
 ---
 description: As funções permitem filtrar/classificar seus dados e realizar análises estatísticas.
-seo-description: As funções permitem filtrar/classificar seus dados e realizar análises estatísticas.
-seo-title: Usar funções
 title: Usar funções
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
