@@ -1,15 +1,13 @@
 ---
 description: Os analisadores de pacote permitem exibir os dados enviados pela sua implementação para os servidores de coleta de dados da Adobe.
-keywords: Implementação do Analytics
-seo-description: Os analisadores de pacote permitem exibir os dados enviados pela sua implementação para os servidores de coleta de dados da Adobe.
-seo-title: Analisadores de pacote
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Depurador
+subtopic: Debugger
 title: Analisadores de pacote
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
