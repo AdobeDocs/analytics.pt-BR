@@ -1,15 +1,13 @@
 ---
 description: O AppMeasurement para JavaScript é uma nova biblioteca que oferece a mesma funcionalidade principal que s_code.js, mas é mais leve e rápida de usar em sites móveis e para desktop.
-keywords: appmeasurement, implementação do Analytics, javascript, appmeasurement para javascript, inicialização, recuperar instância do appmeasurement, limpar vars, clearvars, utilitários do appmeasurement, instância do appmeasurement, benefícios do appmeasurement
-seo-description: O AppMeasurement para JavaScript é uma nova biblioteca que oferece a mesma funcionalidade principal que s_code.js, mas é mais leve e rápida de usar em sites móveis e para desktop.
-seo-title: Sobre o AppMeasurement para JavaScript
+keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Sobre o AppMeasurement para JavaScript
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
