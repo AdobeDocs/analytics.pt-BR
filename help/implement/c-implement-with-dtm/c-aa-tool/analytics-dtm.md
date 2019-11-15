@@ -1,14 +1,12 @@
 ---
 description: Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
-keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, ferramenta de análise, propriedade, tipo de ferramenta, nome da ferramenta, método de configuração, analytics premium, evars, eventos
-seo-description: Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
-seo-title: Adicionar a ferramenta Adobe Analytics
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Adicionar a ferramenta Adobe Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Manageme
   <tr> 
    <td colname="col2"> <p> <b>Manual</b>: gerencie manualmente o código do AppMeasurement. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Clique em <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (novo)</a> para obter informações sobre como baixar o código localmente para copiar e colar no campo <span class="wintitle">Editar código</span> no <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">Gerenciamento de biblioteca</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID da conta de produção:</b> (obrigatório) sua conta de produção para a coleta de dados. No Analytics, é a sua ID do conjunto de relatórios. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparação. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID da conta de armazenamento temporário:</b> (obrigatório) usada no ambiente de desenvolvimento e teste. No Analytics, é a sua ID do conjunto de relatórios. Uma conta de armazenamento temporário mantém os dados dos testes separados da produção. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID da conta de produção:</b> (obrigatório) sua conta de produção para a coleta de dados. Para o Analytics, essa é a ID do conjunto de relatórios. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparo. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID da conta de armazenamento temporário:</b> (obrigatório) usada no ambiente de desenvolvimento e teste. Para o Analytics, essa é a ID do conjunto de relatórios. Uma conta de preparo mantém os dados de teste separados da produção. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Servidor de rastreamento de :</b> especifique as informações sobre seu servidor de rastreamento de  </p> <p>As variáveis <span class="wintitle">Servidor de rastreamento</span> e <span class="wintitle">Servidor de rastreamento de SSL</span> são usadas para implementação de cookies primários, para especificar o domínio em que a solicitação de imagem e o cookie são gravados. Para obter mais informações, consulte o artigo sobre <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">Preenchimento correto das variáveis trackingServer e trackingServerSecure</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Servidor de rastreamento de SSL:</b> especifique as informações sobre seu servidor de rastreamento de SSL. </p> </li> 
     </ul> </td> 
