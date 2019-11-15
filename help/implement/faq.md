@@ -1,14 +1,12 @@
 ---
 description: Perguntas frequentes sobre a implantação e links para mais informações.
-keywords: Implementação do Analytics;faq;perguntas frequentes;expiração de evar;visibilidade de evento personalizado;carimbo de data e hora;período de carência da id de visitante;id de visitante;id de visitante da Experience Cloud;id de visitante do Analytics;dtm;heartbeat;cookies;servidor de rastreamento;desempenho;javascript;coleta de dados;versão de s_code;depuração de s_code;rastrear tipos de link;rastrear vídeo;rastrear aplicativo para dispositivo móvel;cookie primário;certificado ssl;expiração da certificação;expiração do certificado;plug-ins;api de inserção de dados;erro 500;500;Gerenciar usuário;gerenciar grupo;usuários;grupos
-seo-description: Perguntas frequentes sobre a implantação e links para mais informações.
-seo-title: Perguntas frequentes sobre a implementação do Analytics
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: Perguntas frequentes sobre a implementação do Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
