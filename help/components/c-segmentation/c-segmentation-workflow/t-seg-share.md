@@ -1,13 +1,11 @@
 ---
 description: Dependendo das permissões, você pode compartilhar segmentos com organizações, grupos ou usuários individuais.
-seo-description: Dependendo das permissões, você pode compartilhar segmentos com organizações, grupos ou usuários individuais.
-seo-title: Compartilhar segmentos
 solution: Analytics
 title: Compartilhar segmentos
-topic: Segmentos
+topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
