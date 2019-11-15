@@ -1,15 +1,13 @@
 ---
 description: Mede a atividade de rolagem de um visitante para ver quanto de uma página ele visualiza antes de passar para outra página. Esse plug-in permite determinar a quantidade de conteúdo que seus usuário exibem em média, para que você possa otimizar o tamanho e os layouts das páginas com base nos comportamentos do usuário.
-keywords: Implementação do Analytics
-seo-description: Mede a atividade de rolagem de um visitante para ver quanto de uma página ele visualiza antes de passar para outra página. Esse plug-in permite determinar a quantidade de conteúdo que seus usuário exibem em média, para que você possa otimizar o tamanho e os layouts das páginas com base nos comportamentos do usuário.
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
