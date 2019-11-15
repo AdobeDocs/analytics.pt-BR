@@ -1,14 +1,12 @@
 ---
 description: Execute a configuração única para o relatório de Canal de marketing.
-seo-description: Execute a configuração única para o relatório de Canal de marketing.
-seo-title: Configuração automática
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Configuração automática
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
