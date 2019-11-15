@@ -1,15 +1,13 @@
 ---
 description: Ative permissões para métricas de tráfego e de conversão, eventos personalizados, de soluções e sensíveis a conteúdo.
-keywords: grupos;permissões
-seo-description: Ative permissões para métricas de tráfego e de conversão, eventos personalizados, de soluções e sensíveis a conteúdo.
-seo-title: Personalizar permissões de métricas
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Personalizar permissões de métricas
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
