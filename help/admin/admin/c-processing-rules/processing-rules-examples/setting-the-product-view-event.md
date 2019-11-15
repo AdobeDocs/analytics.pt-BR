@@ -1,19 +1,17 @@
 ---
 description: Eventos podem ser definidos com base em valores de página ou baseados em valores específicos em uma variável.
-seo-description: Eventos podem ser definidos com base em valores de página ou baseados em valores específicos em uma variável.
-seo-title: Definir o evento de exibição do produto na página de visão geral do produto
 solution: Analytics
-subtopic: Regras de processamento
-title: Definir o evento de exibição do produto na página de visão geral do produto
-topic: Ferramentas administrativas
-uuid: caa 7 a 077-dd 47-460 e-b 14 d-fe 10 c 4 e 61 f 97
+subtopic: Processing rules
+title: Definir o evento de exibição de produto na página Visão geral do produto
+topic: Admin tools
+uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Definir o evento de exibição do produto na página de visão geral do produto
+# Definir o evento de exibição de produto na página Visão geral do produto
 
 Eventos podem ser definidos com base em valores de página ou baseados em valores específicos em uma variável.
 
