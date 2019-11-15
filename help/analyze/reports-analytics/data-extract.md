@@ -1,14 +1,12 @@
 ---
 description: As extrações de dados permitem que você escolha os parâmetros exibidos nos eixos X e Y do relatório, bem como o item pelo qual o relatório é filtrado.
-seo-description: As extrações de dados permitem que você escolha os parâmetros exibidos nos eixos X e Y do relatório, bem como o item pelo qual o relatório é filtrado.
-seo-title: Extração de dados
 solution: Analytics
-subtopic: Agendar
+subtopic: Schedule
 title: Extração de dados
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
