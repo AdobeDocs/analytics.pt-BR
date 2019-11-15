@@ -1,14 +1,12 @@
 ---
 description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
-keywords: Implementação do Analytics, coleta de dados
-seo-description: Saiba mais sobre como as visitas no seu site se tornam relatórios no Adobe Analytics.
-seo-title: Coleta de dados
+keywords: Analytics Implementation;data collection
 solution: Analytics
 title: Coleta de dados
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
