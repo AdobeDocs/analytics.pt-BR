@@ -1,13 +1,11 @@
 ---
 description: Exibe os links preferidos dos visitantes de seu site. Por exemplo, a página inicial de seu site provavelmente terá diversos links que exibem a mesma página. Talvez haja tanto um link gráfico quanto um link de texto para a mesma página. Este relatório mostra qual porcentagem de visitantes usou o link gráfico e o link de texto.
-seo-description: Exibe os links preferidos dos visitantes de seu site. Por exemplo, a página inicial de seu site provavelmente terá diversos links que exibem a mesma página. Talvez haja tanto um link gráfico quanto um link de texto para a mesma página. Este relatório mostra qual porcentagem de visitantes usou o link gráfico e o link de texto.
-seo-title: Link Personalizado
 solution: Analytics
 title: Link Personalizado
-topic: Relatórios
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
