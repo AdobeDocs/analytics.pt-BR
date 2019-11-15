@@ -1,14 +1,12 @@
 ---
 description: Saiba como especificar a expiração do envolvimento do visitante nos Canais de marketing.
-seo-description: Saiba como especificar a expiração do envolvimento do visitante nos Canais de marketing.
-seo-title: Expiração de envolvimento do visitante
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Expiração de envolvimento do visitante
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
