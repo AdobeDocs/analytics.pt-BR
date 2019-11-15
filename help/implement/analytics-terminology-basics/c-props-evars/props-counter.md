@@ -1,14 +1,12 @@
 ---
 description: Um contador armazena (e às vezes exibe) o número de vezes que um evento ou processo específico ocorreu.
-keywords: Implementação do Analytics, props, s.prop, tráfego personalizado, contadores
-seo-description: Um contador armazena (e às vezes exibe) o número de vezes que um evento ou processo específico ocorreu.
-seo-title: Uso de props como contadores
+keywords: Analytics Implementation;props;s.prop;custom traffic;counters
 solution: Analytics
 title: Uso de props como contadores
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
