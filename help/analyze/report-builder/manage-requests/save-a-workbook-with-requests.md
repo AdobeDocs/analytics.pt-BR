@@ -1,13 +1,11 @@
 ---
 description: Depois de criar relatórios com solicitações incorporadas, você pode salvá-los clicando em Arquivo > Salvar ou Arquivo > Salvar como no Excel. O construtor de relatórios detecta se o relatório contém solicitações. Quando você clica em uma dessas opções de salvar, o formulário Salvar pasta de trabalho como é exibido.
-seo-description: Depois de criar relatórios com solicitações incorporadas, você pode salvá-los clicando em Arquivo > Salvar ou Arquivo > Salvar como no Excel. O construtor de relatórios detecta se o relatório contém solicitações. Quando você clica em uma dessas opções de salvar, o formulário Salvar pasta de trabalho como é exibido.
-seo-title: Salvar uma pasta de trabalho com solicitações
 solution: Analytics
 title: Salvar uma pasta de trabalho com solicitações
-topic: Construtor de relatórios
-uuid: 31611031-0982-4124-9fc7-788124aa603
+topic: Report builder
+uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
