@@ -1,14 +1,12 @@
 ---
 description: A função s_gi() é usada para criar ou encontrar sua instância de AppMeasurement por ID de conjunto de relatórios. Internamente, o AppMeasurement rastreia cada instância criada e s_gi() retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada e retornada.
-keywords: Implementação do Analytics
-seo-description: A função s_gi() é usada para criar ou encontrar sua instância de AppMeasurement por ID de conjunto de relatórios. Internamente, o AppMeasurement rastreia cada instância criada e s_gi() retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada e retornada.
-seo-title: A função s_gi()
+keywords: Analytics Implementation
 solution: Analytics
 title: A função s_gi()
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 A função s_gi() é usada para criar ou encontrar sua instância de AppMeasurement por ID de conjunto de relatórios. Internamente, o AppMeasurement rastreia cada instância criada e s_gi() retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada e retornada.
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. Isso garante que o objeto correto é usado para efetuar a chamada de rastreamento no caso da variável s ser substituída inadvertidamente.
+Recomendamos chamar `s_gi()` antes de definir variáveis e efetuar chamadas de rastreamento no código de página. Isso garante que o objeto correto é usado para efetuar a chamada de rastreamento no caso da variável s ser substituída inadvertidamente.
 
 ## Como usar vários conjuntos de relatórios {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
