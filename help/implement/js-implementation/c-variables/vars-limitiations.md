@@ -1,15 +1,13 @@
 ---
 description: Análise avançada das variáveis e suas limitações.
-keywords: Implementação do Analytics, variável, limitações, limites
-seo-description: Análise avançada das variáveis e suas limitações.
-seo-title: Variáveis e limitações
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: Variáveis
+subtopic: Variables
 title: Variáveis e limitações
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
