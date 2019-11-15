@@ -1,13 +1,12 @@
 ---
 description: A opção Incluir dados atuais do Reports & Analytics permite exibir os dados mais recentes do Analytics, geralmente antes que sejam totalmente processados e finalizados. Os dados atuais exibem a maioria das métricas comuns em minutos, fornecendo dados acionáveis para proporcionar uma tomada de decisão rápida.
-seo-title: Dados atuais
 solution: Analytics
-subtopic: Dados atuais
+subtopic: Current Data
 title: Dados atuais
-topic: Relatórios
+topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
