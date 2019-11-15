@@ -1,13 +1,11 @@
 ---
 description: O tempo de processamento para qualquer arquivo FTP, seja ele de classificações ou fontes de dados, é baseado no número de arquivos que já estão na fila de processamento e no tamanho do seu arquivo.
 keywords: ftp;sftp
-seo-description: O tempo de processamento para qualquer arquivo FTP, seja ele de classificações ou fontes de dados, é baseado no número de arquivos que já estão na fila de processamento e no tamanho do seu arquivo.
-seo-title: Tempos de processamento do FTP
 solution: Analytics
 title: Tempos de processamento do FTP
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
