@@ -1,14 +1,12 @@
 ---
 description: É possível criar um grupo que conceda direitos administrativos limitados para usuários do relatório de Canal de marketing, e então atribuir usuários a esse grupo. Por exemplo, talvez você queira criar um grupo que permita aos usuários não administrativos inserir quantias de custos ou de orçamento.
-seo-description: É possível criar um grupo que conceda direitos administrativos limitados para usuários do relatório de Canal de marketing, e então atribuir usuários a esse grupo. Por exemplo, talvez você queira criar um grupo que permita aos usuários não administrativos inserir quantias de custos ou de orçamento.
-seo-title: Conceder direitos administrativos limitados
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Conceder direitos administrativos limitados
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
