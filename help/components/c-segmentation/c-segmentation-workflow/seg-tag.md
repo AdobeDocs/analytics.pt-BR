@@ -1,13 +1,11 @@
 ---
 description: No Gerenciador de segmentos, a marcação de segmentos permite que você os organize.
-seo-description: No Gerenciador de segmentos, a marcação de segmentos permite que você os organize.
-seo-title: Marcar segmentos
 solution: Analytics
 title: Marcar segmentos
-topic: Segmentos
+topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
