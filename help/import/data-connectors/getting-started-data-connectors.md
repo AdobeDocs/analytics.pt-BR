@@ -1,10 +1,8 @@
 ---
 description: Importe dados de rastreamento de aplicativos de terceiros para o Analytics.
-seo-description: Fazer logon nos conectores de dados; importe dados de rastreamento de aplicativos de terceiros para o Analytics, adicione integrações e console de conectores de dados.
-seo-title: Conectores de dados do Analytics
 title: Introdução aos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
