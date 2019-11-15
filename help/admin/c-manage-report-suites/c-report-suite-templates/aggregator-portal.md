@@ -1,13 +1,11 @@
 ---
 description: Define configurações comuns para um site que agrega conteúdo, como um portal de notícias.
-seo-description: Define configurações comuns para um site que agrega conteúdo, como um portal de notícias.
-seo-title: Portal agregador
 solution: Analytics
 title: Portal agregador
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
