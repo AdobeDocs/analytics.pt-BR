@@ -1,13 +1,11 @@
 ---
 description: Você pode criar mais de uma cópia de uma solicitação original preenchendo uma área selecionada de células com a quantidade de cópias da solicitação que for possível.
-seo-description: Você pode criar mais de uma cópia de uma solicitação original preenchendo uma área selecionada de células com a quantidade de cópias da solicitação que for possível.
-seo-title: Criar mais de uma cópia de uma solicitação
 solution: Analytics
 title: Criar mais de uma cópia de uma solicitação
-topic: Construtor de relatórios
+topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
