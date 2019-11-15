@@ -1,15 +1,13 @@
 ---
 description: Saiba mais sobre a experiência dos novos clientes ao executarem a implementação do Adobe Analytics.
-keywords: Introdução
-seo-description: Saiba mais sobre a experiência dos novos clientes ao executarem a implementação do Adobe Analytics.
-seo-title: Modal de implementação simplificada
+keywords: Getting Started
 solution: Analytics
 subtopic: Analysis Workspace
 title: Modal de implementação simplificada
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
