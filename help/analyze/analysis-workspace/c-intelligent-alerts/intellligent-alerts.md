@@ -1,11 +1,9 @@
 ---
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
-seo-description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
-seo-title: Visão geral de alertas inteligentes
 title: Visão geral de alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ O novo Criador de alertas e Gerenciador de alertas na Analysis Workspace substit
 
 * Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo)
 * Visualizar a frequência de disparo de um alerta
-* Enviar alertas por email ou SMS com links para projetos da Analysis Workspace gerados automaticamente
+* Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta
 
 Há quatro maneiras de acesso o Criador de alertas:
