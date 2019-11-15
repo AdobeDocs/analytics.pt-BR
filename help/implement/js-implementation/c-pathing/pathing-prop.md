@@ -1,14 +1,12 @@
 ---
 description: Embora os relatórios de definição de caminho estejam disponíveis prontamente para as páginas, também é possível definir os caminhos para as variáveis de tráfego personalizadas.
-keywords: Implementação do Analytics
-seo-description: Embora os relatórios de definição de caminho estejam disponíveis prontamente para as páginas, também é possível definir os caminhos para as variáveis de tráfego personalizadas.
-seo-title: Ativar a definição de caminho em uma prop
+keywords: Analytics Implementation
 solution: Analytics
 title: Ativar a definição de caminho em uma prop
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
