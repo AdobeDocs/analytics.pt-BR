@@ -1,13 +1,11 @@
 ---
 description: Classifica as páginas do site com base nas páginas que recebem mais tráfego. Se a sua dúvida de negócios lida com dados quantitativos para as páginas, você pode usar esse relatório para responder a essa dúvida, adicionando as métricas corretas.
-seo-description: Classifica as páginas do site com base nas páginas que recebem mais tráfego. Se a sua dúvida de negócios lida com dados quantitativos para as páginas, você pode usar esse relatório para responder a essa dúvida, adicionando as métricas corretas.
-seo-title: Páginas
 solution: Analytics
 title: Páginas
-topic: Relatórios
+topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
