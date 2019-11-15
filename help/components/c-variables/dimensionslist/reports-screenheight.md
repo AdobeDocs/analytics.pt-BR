@@ -1,13 +1,11 @@
 ---
 description: Exibe a altura da tela de diversos dispositivos móveis e o número de visualizações de cada altura de tela. Você também pode exibir o Tamanho da tela para ver a altura e a largura da tela.
-seo-description: Exibe a altura da tela de diversos dispositivos móveis e o número de visualizações de cada altura de tela. Você também pode exibir o Tamanho da tela para ver a altura e a largura da tela.
-seo-title: Altura de tela
 solution: Analytics
 title: Altura de tela
-topic: 'Relatórios  '
-uuid: d 7 e 50 b 3 a -073 b -42 af -81 b 5-1512 f 169 a 505
+topic: Reports
+uuid: d7e50b3a-073b-42af-81b5-1512f169a505
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
