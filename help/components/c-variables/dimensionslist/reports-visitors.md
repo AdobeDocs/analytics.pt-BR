@@ -1,13 +1,11 @@
 ---
 description: Mostra o número de visitantes únicos do site por uma hora, dia, semana, mês, trimestre ou ano selecionado. Um visitante único é contabilizado apenas uma vez para o intervalo selecionado. Os visitantes que retornam ao site não são contados como usuários únicos novamente até que o período tenha passado.
-seo-description: Mostra o número de visitantes únicos do site por uma hora, dia, semana, mês, trimestre ou ano selecionado. Um visitante único é contabilizado apenas uma vez para o intervalo selecionado. Os visitantes que retornam ao site não são contados como usuários únicos novamente até que o período tenha passado.
-seo-title: Visitantes
 solution: Analytics
 title: Visitantes
-topic: Relatórios
+topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
