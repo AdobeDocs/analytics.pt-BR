@@ -1,13 +1,11 @@
 ---
 description: Etapas que descrevem como gerar uma planilha do Excel contendo todas as configurações do conjunto de relatórios selecionado.
-seo-description: Etapas que descrevem como gerar uma planilha do Excel contendo todas as configurações do conjunto de relatórios selecionado.
-seo-title: Fazer download das configurações do conjunto de relatórios
 solution: Analytics
 title: Fazer download das configurações do conjunto de relatórios
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
