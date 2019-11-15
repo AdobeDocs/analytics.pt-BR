@@ -1,13 +1,11 @@
 ---
 description: O relatório Métricas do site > Visão geral do site é mostrado no logon e permite que você imediatamente visualize e interaja com os dados relevantes. Você pode editar o layout, salvá-lo como um painel e investigar os dados para obter uma análise mais profunda.
-seo-description: O relatório Métricas do site > Visão geral do site é mostrado no logon e permite que você imediatamente visualize e interaja com os dados relevantes. Você pode editar o layout, salvá-lo como um painel e investigar os dados para obter uma análise mais profunda.
-seo-title: Visão geral do site
 solution: Analytics
 title: Visão geral do site
-topic: Relatórios
+topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
