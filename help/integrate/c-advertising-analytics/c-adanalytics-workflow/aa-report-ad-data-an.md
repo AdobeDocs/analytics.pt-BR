@@ -1,11 +1,9 @@
 ---
 description: Detalhes sobre o modelo da Analysis Workspace e relatórios nos Reports & Analytics e no Report Builder.
-seo-description: Detalhes sobre o modelo da Analysis Workspace e relatórios nos Reports & Analytics e no Report Builder.
-seo-title: Relatório sobre dados de publicidade no Adobe Analytics
 title: Relatório sobre dados de publicidade no Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Este modelo permite que qualquer um que implemente esta integração do mecanism
 
 >[!NOTE]
 >
-> A categoria Modelo de anúncio está visível para todos os clientes, mesmo se você não tiver implementado nenhuma Conta de publicidade. Contudo, se tentar abrir o modelo de Mecanismos de pesquisa paga de uma empresa que não foi provisionada, uma mensagem de erro explicará que você ainda não configurou qualquer conta de mecanismo de pesquisa. Neste caso, clique em **[!UICONTROL Configurar agora]**, o que o encaminhará para a tela [Configuração da conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>A categoria Modelo de anúncio está visível para todos os clientes, mesmo se você não tiver implementado nenhuma Conta de publicidade. Contudo, se tentar abrir o modelo de Mecanismos de pesquisa paga de uma empresa que não foi provisionada, uma mensagem de erro explicará que você ainda não configurou qualquer conta de mecanismo de pesquisa. Neste caso, clique em **[!UICONTROL Configurar agora]**, o que o encaminhará para a tela [Configuração da conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
