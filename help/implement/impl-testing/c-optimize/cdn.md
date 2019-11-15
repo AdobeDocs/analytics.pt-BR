@@ -1,15 +1,13 @@
 ---
 description: Os serviços de entrega de conteúdo ou as redes de distribuição de conteúdo (CDNs), como Akamai e Speedera, enviam o conteúdo Web para mais perto da borda da rede, mantendo documentos solicitados com frequência perto do local em que são acessados.
-keywords: Implementação do Analytics
-seo-description: Os serviços de entrega de conteúdo ou as redes de distribuição de conteúdo (CDNs), como Akamai e Speedera, enviam o conteúdo Web para mais perto da borda da rede, mantendo documentos solicitados com frequência perto do local em que são acessados.
-seo-title: Redes/serviços de entrega de conteúdo
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Solução de problemas
+subtopic: Troubleshooting
 title: Redes/serviços de entrega de conteúdo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
