@@ -1,13 +1,11 @@
 ---
 description: A tabela a seguir lista se o país possui regiões ou códigos postais, o que indica se preencheremos o relatório de regiões ou códigos postais.
-seo-description: A tabela a seguir lista se o país possui regiões ou códigos postais, o que indica se preencheremos o relatório de regiões ou códigos postais.
-seo-title: Utilização de regiões de segmentação geográfica e código postal por país
 solution: Analytics
 title: Utilização de regiões de segmentação geográfica e código postal por país
-topic: Relatórios
+topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
