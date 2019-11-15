@@ -1,15 +1,13 @@
 ---
 description: Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
-keywords: grupos;permissões
-seo-description: Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
-seo-title: Personalizar permissões de dimensões
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Personalizar permissões de dimensões
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
