@@ -1,12 +1,10 @@
 ---
 description: Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente.
-seo-description: Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente.
-seo-title: Classificar por métrica
 solution: Analytics
 title: Classificar por métrica
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
