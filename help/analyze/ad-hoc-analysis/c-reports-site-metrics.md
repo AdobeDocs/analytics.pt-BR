@@ -1,13 +1,11 @@
 ---
 description: Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
-seo-description: Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
-seo-title: Relatórios de métricas do site
 solution: Analytics
 title: Relatórios de métricas do site
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
