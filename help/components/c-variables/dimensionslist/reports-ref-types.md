@@ -1,13 +1,11 @@
 ---
 description: Rastreando e registrando os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
-seo-description: Rastreando e registrando os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
-seo-title: Tipo de referenciador
 solution: Analytics
 title: Tipo de referenciador
-topic: Relatórios
+topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
