@@ -1,14 +1,12 @@
 ---
 description: É possível usar um conjunto de relatórios mestre como modelo para testar sua configuração de canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para conjuntos de canais e de regras separadamente.
-seo-description: É possível usar um conjunto de relatórios mestre como modelo para testar sua configuração de canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para conjuntos de canais e de regras separadamente.
-seo-title: Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
