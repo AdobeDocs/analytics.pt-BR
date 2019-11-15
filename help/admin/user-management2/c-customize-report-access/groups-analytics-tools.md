@@ -1,15 +1,13 @@
 ---
 description: Habilite permissões do usuário para obter integração a itens Gerais (faturas, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors.
-keywords: grupos;permissões
-seo-description: Habilite permissões do usuário para obter integração a itens Gerais (faturas, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors.
-seo-title: Personalizar permissões de ferramentas do Analytics
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuários e grupos
+subtopic: Users and groups
 title: Personalizar permissões de ferramentas do Analytics
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
