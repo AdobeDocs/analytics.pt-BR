@@ -1,14 +1,12 @@
 ---
 description: Leia sobre as práticas recomendadas e exemplos de como popular diversas regras que podem ser configuradas para seus canais de marketing.
-seo-description: Leia sobre as práticas recomendadas e exemplos de como popular diversas regras que podem ser configuradas para seus canais de marketing.
-seo-title: Perguntas frequentes e exemplos
 solution: Analytics
-subtopic: Canais de marketing
+subtopic: Marketing channels
 title: Perguntas frequentes e exemplos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
