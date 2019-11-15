@@ -1,11 +1,9 @@
 ---
 description: Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
-seo-description: Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
-seo-title: Configurações
 title: Configurações
-uuid: 3444052-479b-4923-b379-a03ca614bf3e
+uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
