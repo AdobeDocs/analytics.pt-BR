@@ -1,11 +1,9 @@
 ---
 description: Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® com o marketing de email Silverpop para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
-seo-description: Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® com o marketing de email Silverpop para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
-seo-title: Conector de dados Silverpop para Adobe Analytics
 title: Conector de dados Silverpop para Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,4 +45,4 @@ Essa integração apresenta os seguintes segmentos de marketing, prontos para us
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
 * **** Perfil de abandono de formulário (opcional): Incentive os visitantes a preencher um formulário inacabado por meio de campanhas especificamente projetadas para aqueles que iniciaram e não preencheram um formulário online. Esse segmento só será criado se dois eventos forem criados para o início do formulário e a conclusão do formulário.
 * **** Perfil de download de arquivo (opcional): Alcance os clientes em potencial por meio de campanhas projetadas para aqueles que demonstraram interesse baixando um white paper ou outro tipo de download. Esse segmento só será criado se 1 evento for criado para downloads de arquivos bem-sucedidos.
-*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
