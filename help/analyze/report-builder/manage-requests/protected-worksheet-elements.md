@@ -1,13 +1,11 @@
 ---
 description: Se você proteger sua planilha (bloqueando células), não poderá criar, editar nem atualizar solicitações. Remova toda a proteção da planilha antes de usar o Gerenciador de solicitações.
-seo-description: Se você proteger sua planilha (bloqueando células), não poderá criar, editar nem atualizar solicitações. Remova toda a proteção da planilha antes de usar o Gerenciador de solicitações.
-seo-title: Elementos protegidos da planilha
 solution: Analytics
 title: Elementos protegidos da planilha
-topic: Construtor de relatórios
+topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
