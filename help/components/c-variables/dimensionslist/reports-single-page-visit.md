@@ -1,13 +1,11 @@
 ---
 description: Para não ser confundida com a métrica de Visitas únicas à página na Ad Hoc Analysis, o relatório de Visitas únicas à página mostra as páginas em que os visitantes do site entram e saem, sem tomar passos para ver outras páginas.
-seo-description: Para não ser confundida com a métrica de Visitas únicas à página na Ad Hoc Analysis, o relatório de Visitas únicas à página mostra as páginas em que os visitantes do site entram e saem, sem tomar passos para ver outras páginas.
-seo-title: Visita única à página
 solution: Analytics
 title: Visita única à página
-topic: Relatórios
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
