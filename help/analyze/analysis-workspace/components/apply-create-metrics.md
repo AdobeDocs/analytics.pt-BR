@@ -1,11 +1,9 @@
 ---
 description: Há duas formas de utilizar as métricas na Analysis Workspace.
-seo-description: Há duas formas de utilizar as métricas na Analysis Workspace.
-seo-title: Métricas
 title: Métricas
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
