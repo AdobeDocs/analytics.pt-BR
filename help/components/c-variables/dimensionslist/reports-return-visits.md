@@ -1,13 +1,11 @@
 ---
 description: Mostra o número de visitas em que o número de visitas é maior que 1 e inclui visitantes sem cookies.
-seo-description: Mostra o número de visitas em que o número de visitas é maior que 1 e inclui visitantes sem cookies.
-seo-title: Visitas de Retorno
 solution: Analytics
 title: Visitas de Retorno
-topic: 'Relatórios  '
-uuid: 626 ffbea-dab 9-461 c-b 558-7 daadd 76 ff 73
+topic: Reports
+uuid: 626ffbea-dab9-461c-b558-7daadd76ff73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
