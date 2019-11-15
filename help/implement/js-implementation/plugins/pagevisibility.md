@@ -1,14 +1,12 @@
 ---
 description: Registra por quantos segundos a página foi a guia ativa no navegador e passa o valor para uma métrica na próxima exibição de página.
-keywords: Implementação do Analytics
-seo-description: Registra por quantos segundos a página foi a guia ativa no navegador e passa o valor para uma métrica na próxima exibição de página.
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
