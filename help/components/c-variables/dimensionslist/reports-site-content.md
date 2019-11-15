@@ -1,13 +1,11 @@
 ---
 description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
-seo-description: Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
-seo-title: Conteúdo do site
 solution: Analytics
 title: Conteúdo do site
-topic: Relatórios
+topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
