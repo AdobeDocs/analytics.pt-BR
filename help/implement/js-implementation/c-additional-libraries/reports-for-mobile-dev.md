@@ -1,14 +1,12 @@
 ---
 description: Como os dispositivos móveis são rastreados por um beacon, como os outros visitantes, a maioria dos relatórios está disponível e correta.
-keywords: Implementação do Analytics, relatórios, protocolos móveis, mecanismos de pesquisa, pesquisar palavras-chave, domínios referenciados, referenciadores, geosegmentação, domínios, tipo de conexão, fuso horário, cookies, java, javascript, cores do monitor, resolução do monitor, largura do navegador, altura, plug-in do netscape
-seo-description: Como os dispositivos móveis são rastreados por um beacon, como os outros visitantes, a maioria dos relatórios está disponível e correta.
-seo-title: Relatórios para dispositivos com protocolos móveis
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: Relatórios para dispositivos com protocolos móveis
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
