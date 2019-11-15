@@ -1,10 +1,8 @@
 ---
 title: Guias de documentação técnica do Adobe Analytics
-seo-title: Lista completa da documentação técnica e dos guias de autoajuda do usuário do Adobe Analytics
 description: Guias e recursos do usuário do Analytics
-seo-description: Lista completa de documentos técnicos, notas de versão e guias de autoajuda do Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
