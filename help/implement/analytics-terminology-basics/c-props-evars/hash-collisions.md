@@ -1,14 +1,12 @@
 ---
 description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
-keywords: Implementação do Analytics, hash, colisão, prop, evar, hash
-seo-description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
-seo-title: Colisões de hash
+keywords: Analytics Implementation;hash;collision;prop;evar;hash
 solution: Analytics
 title: Colisões de hash
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
