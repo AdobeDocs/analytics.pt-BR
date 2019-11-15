@@ -1,10 +1,8 @@
 ---
 title: PWAs para o Analytics
-seo-title: PWAs para o Analytics
 description: Aplicativos da Web progressivos para o Adobe Analytics
-seo-description: Usar PWAs com o Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Para coletar e analisar os dados do PWA com o Analytics, não é necessário faz
 
 ## Adicionar rastreamento offline para aumentar a eficácia do PWA
 
-Você pode aumentar a eficácia do seu PWA usando os recursos [de rastreamento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) offline do Analytics com ele. Por padrão, esse recurso está desativado, mas é possível adicionar a seguinte propriedade ao arquivo AppMeasurement.js para ativá-lo: `s.trackOffline=true;`.
+Você pode aumentar a eficácia do seu PWA usando os recursos [de rastreamento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) offline do Analytics com ele. Por padrão, esse recurso está desativado, mas é possível adicionar a seguinte propriedade ao arquivo AppMeasurement.js para ativá-lo:  `s.trackOffline=true;`.
 
 Por exemplo, no seguinte arquivo AppMeasurement.js, a propriedade é adicionada ao final do `CONFIG SECTION`:
 
