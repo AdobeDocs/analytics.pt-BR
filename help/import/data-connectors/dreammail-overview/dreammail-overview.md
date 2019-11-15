@@ -1,11 +1,9 @@
 ---
 description: Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® com marketing de email para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
-seo-description: Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® com marketing de email para criar uma ferramenta poderosa para redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
-seo-title: Conector de dados do DreamMail para Adobe Analytics
 title: Conector de dados do DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Essa integração apresenta os seguintes segmentos de marketing dinâmicos:
 * **** Perfis de compra: Aumente os pedidos repetidos e o valor médio do pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **** Perfil comportamental de exibição de produto/conteúdo: Alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **** Perfil de abandono do carrinho: Ajude os visitantes a converterem-se aos clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em preencher carrinhos.
-*  Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
+* Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades de seus usuários.
 
 ## Antes de ativar{#before-you-activate}
 
