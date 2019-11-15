@@ -1,13 +1,11 @@
 ---
 description: Ao configurar um feed, algumas configurações determinam a frequência com que as tarefas são processadas.
-keywords: Feed de dados;tarefa;configurações;diário;por hora;Preenchimentos retroativos de dados para feeds de dados por hora;preenchimento retroativo
-seo-description: Ao configurar um feed, algumas configurações determinam a frequência com que as tarefas são processadas.
-seo-title: Configurações das tarefas
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: Configurações das tarefas
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
