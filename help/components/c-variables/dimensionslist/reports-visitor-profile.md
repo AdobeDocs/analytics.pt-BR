@@ -1,13 +1,11 @@
 ---
 description: Relatórios que ajudam você a visualizar padrões de compras dos clientes de várias categorias de perfil, incluindo países, estados, CEP/códigos postais e domínios.
-seo-description: Relatórios que ajudam você a visualizar padrões de compras dos clientes de várias categorias de perfil, incluindo países, estados, CEP/códigos postais e domínios.
-seo-title: Perfil do visitante
 solution: Analytics
 title: Perfil do visitante
-topic: Relatórios
+topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Relatórios que ajudam você a visualizar padrões de compras dos clientes de v�
  <tbody> 
   <tr> 
    <td colname="col1"> Idiomas </td> 
-   <td colname="col2"> <p>  Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site. </p> </td> 
+   <td colname="col2"> <p> Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domínios </td> 
