@@ -1,12 +1,10 @@
 ---
 description: Requisitos do sistema e comparação da Analysis Workspace, Relatórios e análises, Análise ad hoc, Construtor de relatórios, Data Warehouse e Análise de big data
-seo-description: Requisitos do sistema e comparação da Analysis Workspace, Relatórios e análises, Análise ad hoc, Construtor de relatórios, Data Warehouse e Análise de big data
-seo-title: Comparação e requisitos de produtos do Analytics
 solution: Analytics
 title: Comparação e requisitos de produtos do Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
