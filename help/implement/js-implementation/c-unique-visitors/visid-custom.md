@@ -1,14 +1,12 @@
 ---
 description: Você pode implementar um método personalizado para identificar os visitantes, configurando a variável s.visitorID.
-keywords: Implementação do Analytics
-seo-description: Você pode implementar um método personalizado para identificar os visitantes, configurando a variável s.visitorID.
-seo-title: ID de visitante personalizada
+keywords: Analytics Implementation
 solution: Analytics
 title: ID de visitante personalizada
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
