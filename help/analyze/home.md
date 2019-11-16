@@ -1,8 +1,8 @@
 ---
 title: Ajuda da Analysis Workspace
-description: 'null'
+description: Documentação do produto e autoajuda para a Analysis Workspace, Activity Map, Construtor de relatórios, API de relatórios e Relatórios e análises (anteriormente produtos Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ---
 
@@ -11,14 +11,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Este guia apresenta todas as ferramentas de análises que podem ser usadas no Adobe Analytics.
+Este guia fornece documentação de produto e autoajuda para as seguintes ferramentas de análise e relatório do Adobe Analytics:
 
-* **Analysis Workspace:** o recurso principal do Adobe Analytics. O Workspace fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
-* **Activity Map:** um plug-in do navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
-* **Ad Hoc Analysis:** um aplicativo Java independente com recursos de relatório robustos. Essa ferramenta não é mais atualizada e acabará sendo descontinuada no futuro.
-* **API de relatórios:** faça consultas de relatórios diretamente aos servidores da Adobe e obtenha respostas para uso em suas ferramentas de relatório de clientes.
-* **Report Builder:** um complemento do Excel que permite recuperar os dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
-* **Reports &amp; Analytics:** uma ferramenta com dezenas de relatórios pré-construídos. A Adobe recomenda usar a Analysis Workspace para a maioria das necessidades de relatório.
+* **Analysis Workspace**: O principal recurso do Adobe Analytics. O Workspace fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
+* **Activity Map**: Um plug-in de navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
+* **Análise** ad hoc: Um aplicativo Java independente com recursos avançados de relatório. Essa ferramenta não é mais atualizada e acabará sendo descontinuada no futuro.
+* **API** de relatórios: Faça consultas de relatório diretamente nos servidores da Adobe e obtenha respostas para uso nas suas próprias ferramentas de relatório do cliente.
+* **Construtor** de relatórios: Um suplemento do Excel que permite recuperar dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
+* **Relatórios e análises**: Uma ferramenta com dezenas de relatórios pré-criados. A Adobe recomenda usar a Analysis Workspace para a maioria das necessidades de relatório.
 
 ## Artigos principais das ferramentas do Analytics
 
