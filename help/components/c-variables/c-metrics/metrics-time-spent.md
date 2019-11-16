@@ -2,9 +2,9 @@
 description: O Adobe Analytics oferece várias métricas e dimensões de Tempo gasto. Descubra o que são e como são calculadas.
 solution: Analytics
 title: Tempo gasto
-topic: Métricas
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -38,7 +38,9 @@ A quantidade média de tempo que os visitantes interagem com um valor de dimens�
 
 ## Tempo médio gasto no site (segundos)
 
-O tempo médio gasto no site com o valor de dimensão especificado. Normalmente, essa métrica é emparelhada com uma dimensão de data para mostrar o tempo gasto ao longo do tempo. Seu cálculo aproximado é `Total seconds spent / (Sequences - Bounces)`. Sequências são uma série de ocorrências em que o valor da dimensão não foi alterado. Na maioria dos casos, use Tempo gasto por visita.
+A quantidade média de tempo gasto no site, normalmente emparelhado com uma dimensão de data. Embora essa métrica normalmente mostre a tendência do tempo gasto ao longo do tempo, também pode ser usada com dimensões como um cálculo alternativo ao Tempo gasto por visita. Seu cálculo aproximado é `Total seconds spent / (Sequences - Bounces)`. Sequências são uma série de ocorrências em que o valor da dimensão não foi alterado.
+
+> [!NOTE] O tempo gasto por visita e o tempo médio gasto no site são métricas semelhantes. A diferença entre essas duas métricas é o seu denominador; o tempo gasto por visita usa `visits - bounces`, enquanto o tempo médio gasto no site usa `sequences - bounces`. Em um nível de visita, essas métricas parecem semelhantes, mas podem ter algumas diferenças em um nível de ocorrência.
 
 ## Tempo médio gasto na página
 
