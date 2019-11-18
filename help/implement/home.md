@@ -2,7 +2,7 @@
 title: Implementação do Analytics para dispositivos móveis
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Implementação do Analytics para dispositivos móveis
 
 ![Banner](../../assets/doc_banner_implement.png)
-
-Para implementar o Analytics para dispositivos móveis, consulte a seguinte lista de repositórios e documentação do SDK:
-
-SDKs da plataforma Experience
-
-
-SDKs da plataforma Experience
-
-Documentação do Experience Platform SDK
-
-SDKs 4.x:
-
-Documentação do SDK 4.x
-
-Documentação do SDK 3.x: Embora os SDKs do Analytics 3.x para dispositivos móveis não sejam mais suportados, você pode acessar a seguinte documentação:
-
-
-
-
 
 
 * **Adobe Experience Platform Launch:** o método padronizado e recomendado para implementar o Adobe Analytics. Coloque uma tag de carregamento em cada página e use a interface do Launch para determinar como cada variável é definida.
