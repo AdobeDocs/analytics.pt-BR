@@ -6,38 +6,55 @@ title: Excluir dados de classificação
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
 
 # Excluir dados de classificação
 
-Etapas que descrevem como excluir ou remover dados da classificação.
+Às vezes, é necessário remover os dados de classificação depois que eles são carregados. Use `~empty~` ou `~deletekey~`, dependendo do que deseja remover.
+
+## Etapas para remover dados de classificação
+
+A remoção de dados de classificação envolve o upload de um arquivo de classificação que contém `~empty~` ou está `~deletekey~` nas células apropriadas.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Browser Export]**.
 1. Selecione o conjunto de relatórios e o conjunto de dados dos quais deseja remover os dados de classificação.
 1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
-1. Once the file has been downloaded, open the file and replace any classification values you wish to delete with [!DNL ~empty~].
+1. Após o download do arquivo, abra-o e substitua quaisquer valores de classificação por `~empty~` ou `~deletekey~`.
+1. Salve o arquivo como um arquivo de texto delimitado por tabulação.
+1. Clique em **[!UICONTROL Importar arquivo]** e carregue o arquivo de classificação salvo novamente no Adobe Analytics.
 
-   Alternatively, use [!DNL ~deletekey~]. Esse comando trata a classificação como se nunca tivesse ocorrido na tecla especificada. Remove completamente a classificação e todos os dados da coluna nas tabelas de pesquisa.
+## Excluindo um valor de classificação individual
 
-   **Aviso**: Você só precisa de uma coluna contendo [!DNL ~excluirtecla~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Esse comando remove todos os metadados da linha. A Adobe interpreta isso como se a tecla nunca tivesse sido classificada e a exibe na [categoria](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) Nenhum.
+Várias classificações podem pertencer à mesma variável. Por exemplo, você pode ter duas classificações diferentes de eVar1. Se você deseja remover apenas um único valor classificado, substitua o valor de classificação por `~empty~`. Por exemplo:
 
-1. Salve o arquivo e faça upload utilizando a guia [!UICONTROL Importar arquivo.]
+| SKU de inventário (eVar8) | Nome do inventário | Categoria de inventário |
+| --- | --- | --- |
+| 857467 | Suéter de pescoço V | Vestuário para mulheres |
+| 948203 | Colchete | Joias |
+| 174391 | Calças brancas de corduço | `~empty~` |
 
-   After you upload the file, the system recognizes [!DNL ~empty~] as a command to delete that classification value.
+O uso `~empty~` sob a classificação Categoria de inventário ainda preserva os dados para a classificação Nome de inventário. O `~empty~` valor exclui apenas os dados de classificação dessa célula.
 
-   **Propriedades desse comando**
+## Excluindo uma linha de classificação inteira
 
-* [!DNL ~vazio~] deve estar em minúsculas sem espaços. As entradas a seguir são inválidas:
+Use `~deletekey~` em qualquer coluna para excluir a linha de classificação inteira. Por exemplo:
 
-   * [!DNL ~EMPTY~]
-   * [!DNL ~ empty ~]
-   * [!DNL ~Empty~]
+| SKU de inventário (eVar8) | Nome do inventário | Categoria de inventário |
+| --- | --- | --- |
+| 857467 | Suéter de pescoço V | Vestuário para mulheres |
+| 948203 | Colchete | Joias |
+| 174391 | Calças brancas de corduço | `~deletekey~` |
 
-* Não é possível excluir os valores na coluna principal. Esses dados foram passados diretamente para o relatório e são permanentes.
-* Se você estiver removendo um valor de classificação que possua subclassificações, eles também serão removidos. As classificações não podem existir sem um valor principal, e o pai de uma subclassificação é seu valor principal.
+O uso `~deletekey~` na classificação Categoria do inventário exclui todos os dados de classificação para o valor-chave `174391`. Torna-se como se a linha nunca tivesse sido classificada.
+
+## Armadilhas e dicas
+
+* Se estiver usando `~deletekey~`, você só precisará de um por linha em um arquivo de classificação.
+* `~empty~` e `~deletekey~` devem ser correspondências *exatas* . Não são permitidos espaços nem maiúsculas.
+* Não é possível excluir valores na coluna chave. Esses valores são passados diretamente para a variável e são permanentes.
+* Se você estiver removendo um valor de classificação que tenha subclassificações, essas subclassificações também serão removidas. As classificações não podem existir sem um valor principal, e o pai de uma subclassificação é seu valor principal.
 * É possível remover dados de subclassificação deixando sua classificação pai intacta.
-
