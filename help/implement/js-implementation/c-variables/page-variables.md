@@ -7,14 +7,14 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # Variáveis de página
 
-As variáveis de página populam diretamente um relatório, como pageName, Propriedades de lista, Variáveis de lista, entre outros. Para obter ajuda com variáveis de página específicas, clique em qualquer um dos links a seguir:
+As variáveis de página populam diretamente um relatório, como pageName, Propriedades de lista, Variáveis de lista, entre outros. Para obter ajuda com variáveis de página específicas, clique no nome da variável na seguinte lista:
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
