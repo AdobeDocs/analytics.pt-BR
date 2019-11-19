@@ -7,7 +7,7 @@ title: Variáveis e limitações
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -18,7 +18,7 @@ Análise avançada das variáveis e suas limitações.
 
 >[!NOTE]
 >
->Consulte [Variáveis de configuração](/help/implement/js-implementation/c-variables/configuration-variables.md) e [Variáveis de página](/help/implement/js-implementation/c-variables/page-variables.md) para obter uma análise detalhada das variáveis mais comuns do Analytics.
+>Consulte [Variáveis de configuração](/help/implement/js-implementation/c-variables/configuration-variables.md) e [Variáveis de página](/help/implement/js-implementation/page-variables/page-variables.md) para obter uma análise detalhada das variáveis mais comuns do Analytics.
 
 A tabela a seguir contém informações sobre as variáveis do [!DNL Analytics]:
 
