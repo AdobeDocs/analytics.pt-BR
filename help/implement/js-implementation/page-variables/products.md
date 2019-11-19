@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -57,7 +57,7 @@ A variável *`products`* deve ser sempre definida juntamente com um evento bem-s
  </tbody> 
 </table>
 
-**Sintaxe** {#section_ABA3682985E540E6AA67A510176CCFFC}
+**Sintaxe**
 
 ```js
 "Category;Product;Quantity;Price;eventN=X[|eventN2=X2];eVarN=merch_category[|eVarN2=merch_category2]"
@@ -66,23 +66,23 @@ A variável *`products`* deve ser sempre definida juntamente com um evento bem-s
 | Campo | Definição |
 |---|---|
 | Categoria | Contém a categoria associada do produto. Na versão 15, os produtos podem ser associados à várias categorias. Isso cria a limitação presente na versão 14. Se você não gravava as categorias do produto, recomendamos popular a área com os conjuntos de relatórios presentes na versão 15. |
-| Produto | (obrigatório) O identificador usado para rastrear um produto. O identificador é usado para preencher o relatório [!UICONTROL Produtos]. Não deixe de usar o mesmo identificador por meio do processo de checkout. |
-| Quantidade | O número de unidades compradas. Este campo deve ser definido com um evento de [!UICONTROL compra] a ser gravado. |
-| Preço | Refere-se ao custo total de quantidade adquirida (unidades vs preço unitário), e não o valor individual. Este campo deve ser definido com um evento de [!UICONTROL compra] a ser gravado. |
-| Eventos | eventos de moeda associados ao produto em questão. Consulte [eventos de moeda do produto em questão](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) e [eventos de moeda do pedido](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0). |
+| Produto | (obrigatório) O identificador usado para rastrear um produto. O identificador é usado para preencher o relatório Produtos. Não deixe de usar o mesmo identificador por meio do processo de checkout. |
+| Quantidade | O número de unidades compradas. Este campo deve ser definido com um evento de compra a ser gravado. |
+| Preço | Refere-se ao custo total de quantidade adquirida (unidades vs preço unitário), e não o valor individual. Este campo deve ser definido com um evento de compra a ser gravado. |
+| Eventos | eventos de moeda associados ao produto em questão. Consulte [eventos de moeda do produto em questão](https://helpx.adobe.com/analytics/kb/comparing-event-types.html) e [eventos de moeda do pedido](https://helpx.adobe.com/analytics/kb/comparing-event-types.html). |
 | eVars | Valores eVar de merchandising associados a um produto específico. Consulte [Variáveis de merchandising](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
 
 As valores inclusos na *`products`* variável são baseados no tipo de evento que está sendo gravado. O delimitador (;) de categoria/produto é necessário como espaço reservado na omissão de Categoria. O uso de outros delimitadores só é necessário para diferenciar o parâmetro que está sendo incluído, conforme exibido nos exemplos desta página.
 
-**Configuração de products com eventos que não são de compra** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
+**Configuração de products com eventos que não são de compra**
 
 A variável *`products`* deve ser definida juntamente com um evento bem-sucedido.
 
-**Configuração de products com um evento de compra** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
+**Configuração de products com um evento de compra**
 
 O evento *`purchase`* deve ser definido na confirmação final ("Obrigado.") página do processo do pedido. O nome do produto, a categoria, quantidade e o preço são capturados na variável *`products`*. Embora a variável *`purchaseID`* não seja obrigatória, ela é extremamente recomendável para evitar pedidos duplicados.
 
-**Evento de moeda do produto em questão** {#section_F814DF053C0D463A97DA039E6323720C}
+**Evento de moeda do produto em questão**
 
 Se um evento de moeda receber um valor na variável *`products`*, em vez da variável de eventos, ele se aplica somente a esse valor. Isso é útil para rastrear descontos em produtos, envio de produtos e outros valores similares. Por exemplo, se você configurou o evento 1 para rastrear o envio do produto, um produto com uma carga de envio de "4,50" deverá ser exibido da seguinte maneira:
 
@@ -93,7 +93,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 Neste exemplo, o valor 4,50 está associado diretamente ao produto "Tênis de corrida". Se você adicionar evento 1 ao relatório de produtos, verá "4,50" listado para o item de linha "Tênis de corrida". Assim como o Preço, este valor deve refletir a soma total para a quantidade listada. Caso tenha 2 itens com uma taxa de envio de 4,50 cada, o evento 1 deverá ser "9,00".
 
-**eventos de moeda do pedido** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
+**eventos de moeda do pedido**
 
 Se um evento de moeda receber um valor na lista de eventos, em vez da variável *`products`*, ele se aplica a todos os produtos na variável *`products`*. Isso serve para rastrear descontos, frete e valores similares de todo o pedido sem alterar o preço do produto ou rastreando na lista de produtos separadamente.
 
@@ -109,15 +109,15 @@ Nos relatórios de moeda, o total do relatório representa o total do evento com
 
 > [!NOTE] se um valor para o mesmo Evento numérico/de moeda for especificado na variável *`products`* e na variável *`events`*, o valor do evento *`events`* será usado.
 
-**Armadilhas, dúvidas e dicas** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
+**Armadilhas, dúvidas e dicas**
 
-* A variável *`products`* deve ser sempre definida juntamente com um evento [!UICONTROL bem-sucedido] (eventos). Se nenhum evento [!UICONTROL bem-sucedido] for especificado, o evento padrão será [!UICONTROL prodView].
+* A variável *`products`* deve ser sempre definida juntamente com um evento bem-sucedido (eventos). Se nenhum evento bem-sucedido for especificado, o evento padrão será prodView.
 
 * Retire todas as vírgulas e pontos-e-vírgulas dos nomes de produto e categoria antes de preencher os produtos.
 * Retire todos os caracteres HTML (símbolos registrados, marcas comerciais e assim por diante).
 * Retire símbolos de moedas ($) do preço.
 
-**Exemplos** {#section_FCC6EF43D3534ECB9A95CDB05820F564}
+**Exemplos**
 
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
