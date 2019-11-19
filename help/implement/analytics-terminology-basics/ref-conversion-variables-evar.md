@@ -6,7 +6,7 @@ title: Variáveis de conversão (eVars)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ Uma eVar pode ter por base visitas e funcionar de forma semelhante aos cookies. 
 
 Quando uma eVar é definida como um valor para um visitante, a Adobe se lembra automaticamente desse valor até sua expiração. Quaisquer eventos bem-sucedidos que um visitante encontrar enquanto o valor da eVar está ativo são contados no valor da eVar.
 
-> [!NOTE] Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis](/help/implement/js-implementation/c-variables/page-variables.md) (list vars).
+> [!NOTE] Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis](/help/implement/js-implementation/page-variables/listvariable.md) (list vars).
 
 Para obter mais informações sobre variáveis, consulte:
 
 * [Variáveis para implementação e relatórios do Analytics](/help/implement/js-implementation/c-variables/sc-variables.md) nesta ajuda
 * [Variáveis - Como são usadas em relatórios](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [Variáveis de página](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variável da campanha](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variável products](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Variáveis de página](/help/implement/js-implementation/page-variables/page-variables.md)
+* [Variável da campanha](/help/implement/js-implementation/page-variables/campaign.md)
+* [Variável products](/help/implement/js-implementation/page-variables/products.md)
 * [Variável de produtos](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) na documentação do SDK móvel
 
