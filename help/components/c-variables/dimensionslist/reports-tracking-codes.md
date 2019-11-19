@@ -5,7 +5,7 @@ title: Códigos de rastreamento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ Mede como vários códigos de rastreamento de anúncio afetam eventos de convers
 
 **Propriedades Gerais**
 
-* Este relatório faz referência aos dados diretamente da variável [s.campanha](/help/implement/js-implementation/c-variables/page-variables.md) implementada no site.
+* Este relatório faz referência aos dados diretamente da variável [s.campanha](/help/implement/js-implementation/page-variables/page-variables.md) implementada no site.
 * A variável deste relatório é baseada em [variável de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Ou seja, pode persistir além da visualização de página e se associar com as métricas dentro de sua expiração especificada.
 * A métrica padrão do relatório é a Receita. Você pode alterar esse valor padrão no [!UICONTROL Gerenciador de conjunto de relatórios] nas [!UICONTROL Ferramentas administrativas]. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
