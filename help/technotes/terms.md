@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Rejeição: Uma visita que consiste em uma única ocorrência. Consulte [Rejeições](/help/components/c-variables/c-metrics/metrics-bounces.md) no guia do usuário Componentes. Consulte também Acesso único.
 * **** Métrica calculada: Permite a combinação de métricas, funções estatísticas e fórmulas existentes para uso no relatório. Consulte Métricas [calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes.
 * **** Campanha: Pode consultar:
-   * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte Variáveis [de](/help/implement/js-implementation/c-variables/page-variables.md) página no guia Implementar usuário.
+   * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
    * Uma classificação padrão da dimensão Código de rastreamento; criado automaticamente para todos os conjuntos de relatórios.
    * Adobe Campaign, parte da Adobe Experience Cloud. Mais informações sobre [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal: Pode consultar:
-   * A variável Canal, que preenche a dimensão Seções do site. Consulte Variáveis [de](/help/implement/js-implementation/c-variables/page-variables.md) página no guia Implementar usuário.
+   * A variável Canal, que preenche a dimensão Seções do site. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
    * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte Canais [de marketing](/help/components/c-marketing-channels/c-overview.md) no guia do usuário Componentes.
 * **** Classificação: Um recurso no Adobe Analytics que permite o agrupamento de valores de dimensão. Consulte [Classificações](/help/components/c-classifications2/c-classifications.md) no guia do usuário Componentes.
 * **** Clickmap: Não é mais usado. Um plug-in herdado do navegador que mostra quais áreas do site foram mais clicadas. Esta ferramenta foi removida em favor do Mapa de atividade.
@@ -65,8 +65,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** KPI: Abreviação do indicador chave de desempenho. Métricas que ajudam uma empresa a entender o desempenho de seu site. Cada organização tem KPIs diferentes que medem diferentes aspectos de seus negócios. Consulte [Criar um documento](/help/implement/prepare/solution-design.md) de design de solução no guia Implementar usuário.
 * **** Latência: O atraso entre quando os dados são coletados e quando estão disponíveis nos relatórios. A latência típica em um conjunto de relatórios é de 30 a 90 minutos. Consulte [Latência](/help/technotes/latency.md) no guia do usuário do Technotes.
 * **** Iniciar: Abreviação de Adobe Experience Platform Launch, a solução de implementação atual da Adobe. Consulte [Visão geral](https://docs.adobe.com/content/help/en/launch/using/overview.html) no guia do usuário do Adobe Experience Platform Launch.
-* **** List prop: Uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma list prop se a configuração estiver ativada. Consulte Variáveis [de](/help/implement/js-implementation/c-variables/page-variables.md) página no guia Implementar usuário.
-* **** List var: Uma variável distinta separada para variáveis de conversão. As List Vars suportam vários valores na mesma ocorrência, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três list vars estão disponíveis para uma organização. Consulte Variáveis [de](/help/implement/js-implementation/c-variables/page-variables.md) página no guia Implementar usuário.
+* **** List prop: Uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma list prop se a configuração estiver ativada. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
+* **** List var: Uma variável distinta separada para variáveis de conversão. As List Vars suportam vários valores na mesma ocorrência, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três list vars estão disponíveis para uma organização. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
 * **** Empresa de logon: Uma coleção de conjuntos de relatórios usados por sua organização. Algumas organizações têm várias empresas de logon que se aplicam a diferentes partes de sua organização.
 * **** Canal de marketing: Um recurso no Adobe Analytics que categoriza as ocorrências de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar ocorrências pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de marketing no guia do usuário Componentes.
 * **** Métrica: Um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
