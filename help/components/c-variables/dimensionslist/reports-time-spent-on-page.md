@@ -2,9 +2,9 @@
 description: Apresenta o tempo que cada visitante passou na página
 solution: Analytics
 title: Tempo gasto na página
-topic: Relatórios
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ O tempo gasto na página mede o tempo decorrido entre as ocorrências em uma vis
 
 Essa dimensão é baseada em ocorrências, que se usada como um detalhamento pode fornecer dados mais significativos. Compare essa dimensão com o [Tempo gasto por visita](reports-time-spent-per-visit.md), que é uma dimensão baseada em visita.
 
-![Tempo gasto](assets/time-spent1.png)
+![Tempo gasto](/help/components/c-variables/c-metrics/assets/time-spent1.png)
