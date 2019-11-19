@@ -6,7 +6,7 @@ title: Como a Fonte de dados funciona
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ Há dois métodos disponíveis para enviar dados:
 
 A Adobe oferece uma API de Fontes de dados que permite que você vincule, de maneira programática, seus aplicativos nas Fontes de dados. Isso elimina a necessidade de um servidor FTP intermediário, e transfere os dados via HTTP, SOAP e REST.
 
-Consulte [Documentação da API das Fontes de dados](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api).
+Consulte [Documentação da API das Fontes de dados](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
