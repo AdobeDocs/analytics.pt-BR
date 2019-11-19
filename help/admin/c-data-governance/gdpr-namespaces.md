@@ -3,7 +3,7 @@ description: A cada ID para a qual você deseja poder pesquisar, é atribuído u
 title: Namespaces
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -18,9 +18,7 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) para obter mais detalhes.
-
-<!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
+Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obter mais detalhes.
 
 ## ID de cookies
 
