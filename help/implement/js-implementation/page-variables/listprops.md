@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **Considerações**
 
-* Propriedades de lista são habilitados somente em variáveis de tráfego ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Propriedades de lista são habilitados somente em variáveis de tráfego ( [props](/help/implement/js-implementation/page-variables/propn.md)).
 * Não é possível ativar definição de caminho e correlações para as props de lista.
 * O Analytics oferece visitas e visitantes exclusivos em quase todos os relatórios, incluindo todos os relatórios de prop de lista.
 * Classificações são suportadas para propriedades de lista.
-* Qualquer variável de tráfego personalizado pode se tornar um pro de lista. (Exceções: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [canal](/help/implement/js-implementation/c-variables/page-variables.md) e [servidor](/help/implement/js-implementation/c-variables/page-variables.md).)
+* Qualquer variável de tráfego personalizado pode se tornar um pro de lista. (Exceções: [pageName](/help/implement/js-implementation/page-variables/pagename.md), [canal](/help/implement/js-implementation/page-variables/channel.md) e [servidor](/help/implement/js-implementation/page-variables/server.md).)
 
 * Na definição de valores duplicados na mesma solicitação de imagem, não ocorre cancelamento de duplicatas nas instâncias.
 
 Um prop pode ser alterado na lista de propriedades, em Ferramentas administrativas &gt; Report Suite &gt; página Variáveis de tráfego, habilitando o Suporte à lista e selecionando o delimitador. Os delimitadores populares são dois pontos, ponto e vírgula, vírgulas ou barra vertical. Tecnicamente, pode ser qualquer um dos primeiros 127 caracteres ASCII.
 
-**Exemplos de implementação** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Exemplos de implementação**
 
 Ao solicitar a habilitação de propriedades de lista, indique o delimitador que deseja usar. Depois que o *`s.prop`* de sua escolha estiver habilitado, vários valores podem ser definidos na variável, como é mostrado nos exemplos a seguir:
 
