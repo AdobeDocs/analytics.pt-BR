@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Notas técnicas do Analytics
-user-guide-url: /content/help/pt-BR/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+user-guide-title: Analytics tech notes
+user-guide-url: /content/help/en/analytics/technotes/home.html
+translation-type: tm+mt
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -34,7 +34,6 @@ source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
    + [Ajuda da Coleta de dados regional](rdc/regional-data-collection.md)
    + [Características do ambiente](rdc/rdc-environment-characteristics.md)
    + [Licenciamento de certificação SSL](rdc/ssl-cert-licensing.md)
-   + [RDC na China](rdc/rdc-china.md)
 + [Termos usados (glossário)](terms.md)
 + [Solução de problemas de logon](troubleshoot-login.md)
 + [Solução de problemas de logout](troubleshoot-sessions.md)
