@@ -2,7 +2,7 @@
 title: Coleta de dados regionais
 description: Informação sobre a recolha de dados regionais
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 | Tipo da RDC | Centros de coleta de dados |
 |---------------------|-------------------|
 | Padrão | San Jose, Virginia, Londres, Singapura, Hong Kong, Sydney, Amsterdam |
-| Somente China | Pequim |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
 
