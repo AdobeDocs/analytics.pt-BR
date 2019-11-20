@@ -4,7 +4,7 @@ solution: Analytics
 title: Tempo gasto
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. Para métricas de "tempo gasto" em nível de ocorrência, o denominador é sequências. Uma sequência é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). "Expandir para frente" refere-se à persistência de props entre exibições de página (ou seja, em eventos de link subsequentes), para fins de cálculo do tempo gasto.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * As ocorrências de rejeição e saída também são removidas do denominador porque o 'tempo gasto' não pode ser conhecido.
 
 ## Perguntas frequentes
 
-**T1: Todas as métricas de "tempo gasto" podem ser aplicadas a qualquer dimensão?** A: As métricas de "tempo gasto" que podem ser aplicadas a qualquer dimensão são:
+**T1: Todas as métricas de "tempo gasto" podem ser aplicadas a qualquer dimensão?**
+
+A: As métricas de "tempo gasto" que podem ser aplicadas a qualquer dimensão são:
 
 * [!UICONTROL Total de segundos gastos]
 
@@ -62,16 +64,22 @@ The **denominator** is not available as a separate metric in Adobe Analytics. Pa
 
 * [!UICONTROL Tempo médio gasto no site] (segundos)
 
-**T2: Qual dimensão de tempo gasto é melhor usada em detalhamentos com outras dimensões?** A: A dimensão [!UICONTROL Tempo gasto na página - granular] é uma dimensão em nível de ocorrência. Detalhar por outra dimensão fornecerá os segundos que uma ocorrência durou, em que a dimensão detalhada também estava presente.
+**T2: Qual dimensão de tempo gasto é melhor usada em detalhamentos com outras dimensões?**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. Detalhar por outra dimensão fornecerá os segundos que uma ocorrência durou, em que a dimensão detalhada também estava presente.
 No exemplo abaixo, o termo de pesquisa "classificados" está associado a tempos de ocorrência de 54 segundos, 59 segundos etc., talvez indicando que os visitantes estão gastando tempo lendo o conteúdo retornado para esse termo.
 
 ![](assets/time-spent1.png)
 
-**T3: Qual métrica é apropriada em relação à dimensão de[!UICONTROL Tempo gasto na página - granular]?** A: Qualquer métrica. A dimensão mostrará o tempo gasto na ocorrência exata em que o evento ocorreu. Um tempo gasto maior significa que um visitante permaneceu mais tempo na página (ocorrência) em que o evento ocorreu.
+**T3: Qual métrica é apropriada em relação à dimensão de[!UICONTROL Tempo gasto na página - granular]?**
+
+A: Qualquer métrica. A dimensão mostrará o tempo gasto na ocorrência exata em que o evento ocorreu. Um tempo gasto maior significa que um visitante permaneceu mais tempo na página (ocorrência) em que o evento ocorreu.
 
 ![](assets/time-spent2.png)
 
-**T4: Qual é a diferença entre o Tempo[!UICONTROL médio gasto no site]e o[!UICONTROL Tempo gasto por visita]?** A: A diferença é o denominador na métrica:
+**T4: Qual é a diferença entre o Tempo[!UICONTROL médio gasto no site]e o[!UICONTROL Tempo gasto por visita]?**
+
+A: A diferença é o denominador na métrica:
 
 * [!UICONTROL O tempo médio gasto no site] usa as sequências que incluem um item de dimensão.
 
@@ -88,7 +96,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tempo decorrido da visita (em segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
-| **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação do pedido |
+| **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | Um (definido) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | Um(definido) | C (definido) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
