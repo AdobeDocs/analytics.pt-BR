@@ -2,7 +2,7 @@
 title: Implementação do Analytics para dispositivos móveis
 description: 'null'
 translation-type: tm+mt
-source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
+source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
 
@@ -32,5 +32,5 @@ Para implementar o Analytics para dispositivos móveis, consulte os seguintes re
 
 *Observação: Os SDKs do AppMeasurement 3.x para dispositivos móveis não são mais compatíveis. No entanto, a documentação para os SDKs está disponível, conforme indicado abaixo.*
 
-* [Documentação do iOS](/assets/adobe_mobile_ios_3.x.pdf)
-* [Documentação do Android](/assets/android_3.x.pdf)
+* [Documentação do iOS](../../assets/adobe_mobile_ios_3x.pdf)
+* [Documentação do Android](../../assets/android_3x.pdf)
