@@ -1,7 +1,7 @@
 ---
 title: Redirecionar
-description: Esta página foi movida.
-translation-type: tm+mt
+description: Está página foi movida.
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
@@ -9,4 +9,4 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 # Redirecionar
 
-Esta é uma página temporária. Consulte Visão geral [da comparação de](segment-comparison.md)segmentos.
+Esta página é temporária. Consulte [Visão geral da comparação de segmentos](segment-comparison.md).
