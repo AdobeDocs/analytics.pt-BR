@@ -1,7 +1,7 @@
 ---
 title: Attribution IQ
-description: O QI de atribuição é um conjunto de recursos no Adobe Analytics que fornece insight adicional sobre como os esforços de marketing contribuem para uma conversão.
-translation-type: tm+mt
+description: O Attribution IQ é um conjunto de recursos no Adobe Analytics que fornece insight adicional sobre como os esforços de marketing contribuem para uma conversão.
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 # Attribution IQ
 
-O QI de atribuição é um conjunto de recursos no Adobe Analytics que fornece insight adicional sobre como os esforços de marketing contribuem para uma conversão.
+O Attribution IQ é um conjunto de recursos no Adobe Analytics que fornece insight adicional sobre como os esforços de marketing contribuem para uma conversão.
 
-Uma determinada jornada do cliente não é linear e geralmente imprevisível. Cada cliente continua ao seu próprio ritmo; frequentemente, eles dobram para trás, param, reiniciam ou se envolvem em outros comportamentos não-lineares. Essas ações orgânicas dificultam o conhecimento do impacto dos esforços de marketing na jornada do cliente. Também dificulta os esforços para unir vários canais de dados.
+A jornada do cliente não é linear e é muitas vezes imprevisível. Cada cliente atua no seu ritmo e com frequência voltam, param, reiniciam ou adotam outros comportamentos não lineares. Essas ações orgânicas dificultam a identificação do impacto dos esforços de marketing na jornada do cliente. Também dificultam os esforços para unir vários canais de dados.
 
-O QI de atribuição do Adobe Analytics permite que as equipes de inteligência modernas entendam como um envolvimento significativo ocorre na jornada do cliente, identificando pontos de inflexão que levam os clientes a direcionar os resultados. Compreender esse aspecto da jornada do cliente otimiza efetivamente as iniciativas de marketing.
+O Attribution IQ do Adobe Analytics permite que as equipes de inteligência atuais entendam como ocorre o engajamento ao longo da jornada do cliente, identificando pontos de inflexão que conduzem os clientes em direção aos resultados desejados. Compreender esse aspecto da jornada do cliente otimiza as iniciativas de marketing de maneira eficaz.
 
-![Problema de QI de atribuição](c-panels/attribution/assets/attribution_iq_problem.png)
+![Problema no Attribution IQ](c-panels/attribution/assets/attribution_iq_problem.png)
 
 O Adobe Analytics aprimora a atribuição ao permitir:
 
@@ -24,12 +24,12 @@ O Adobe Analytics aprimora a atribuição ao permitir:
 * Evitar alterações de implementação: com processamento de tempo de relatório e sessões contextuais, o contexto da jornada do cliente pode ser incorporado e aplicado no tempo de execução.
 * Construir a sessão que melhor corresponde ao seu cenário de atribuição.
 * Detalhar atribuições por segmentos: compare facilmente o desempenho de seus canais de marketing entre segmentos importantes (ex: Clientes Novos vs. Repetidos, Produto X vs. Produto Y, Nível de fidelidade ou CLV).
-* Inspecione o cruzamento de canais e a análise multitoque: Use diagramas Venn e histogramas e resultados de atribuição de tendências.
-* Analise visualmente as principais sequências de marketing: explore caminhos que levaram à conversão visualmente com o fluxo de vários nós e visualizações de fallout.
+* Inspecionar canais cruzados e análises de multitoque: usando diagramas e histogramas de Venn e resultados de atribuição de tendência.
+* Analisar visualmente as principais sequências de marketing: explore visualmente caminhos que levaram à conversão usando as visualizações de fluxo de múltiplos nós e de fallout.
 * Criar métricas calculadas: use a quantidade de métodos de alocação de atribuição que desejar.
 
 ## Recursos
 
-O QI de atribuição inclui os seguintes recursos:
+O Attribution IQ inclui os seguintes recursos:
 
-* [Painel Atribuição:](c-panels/attribution/attribution.md)
+* [Painel de atribuição:](c-panels/attribution/attribution.md)
