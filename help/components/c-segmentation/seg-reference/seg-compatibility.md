@@ -5,7 +5,7 @@ title: Compatibilidade de segmentos de Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   <tr> 
    <td colname="col1"> <b>E e OU podem ser combinados sem limites</b> </td> 
    <td colname="col2"> Suportado </td> 
-   <td colname="col3"> Algumas limitações </td> 
+   <td colname="col3"> Algumas limitações. Consulte *nota* abaixo da tabela. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Contêineres aninhados</b> </td> 
@@ -94,3 +94,4 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  </tbody> 
 </table>
 
+*Observação: O Data Warehouse não oferece suporte a todos os casos de uso de um contêiner`exclusion`ou`without`ao usar`AND/OR`. Ao usar essa combinação, somente os segmentos que podem ser regravados como`A AND NOT B`(ou **incluir essa característica**e **excluir essa característica**) são suportados no Data Warehouse.*
