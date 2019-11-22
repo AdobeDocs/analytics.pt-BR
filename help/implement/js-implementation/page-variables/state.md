@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # state
 
 As variáveis e são variáveis de conversão.
+
 
 <!-- 
 
@@ -55,4 +56,4 @@ Nenhum
 **Armadilhas, dúvidas e dicas** {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
 * Preencha *`state`* em todas as páginas em que um evento relevante é acionado (como cada página do processo de finalização).
-* As variáveis cep e estado atuam como eVars que expiram na Exibição da página.*`zip`**`state`
+* As variáveis cep e estado atuam como eVars que expiram na Exibição da página.*`zip`**`state`*
