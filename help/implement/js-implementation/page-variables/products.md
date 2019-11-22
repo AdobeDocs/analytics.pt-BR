@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 # products
 
 A variável é usada para rastrear produtos e categorias de produto, assim como quantidade e preço da compra. Ela geralmente é definida em conjunto com um evento de carrinho ou um evento.
+
 
 <!-- 
 
