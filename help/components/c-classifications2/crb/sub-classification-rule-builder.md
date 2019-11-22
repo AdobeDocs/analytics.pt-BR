@@ -1,14 +1,12 @@
 ---
 description: É possível combinar o Construtor de regras de classificação com subclassificações para simplificar o gerenciamento de classificações e reduzir o número de regras necessário. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
-seo-description: É possível combinar o Construtor de regras de classificação com subclassificações para simplificar o gerenciamento de classificações e reduzir o número de regras necessário. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
-seo-title: Subclassificações e o construtor de regras - caso de uso
 solution: Analytics
-subtopic: Classificações
+subtopic: Classifications
 title: Subclassificações e o construtor de regras - caso de uso
-topic: Ferramentas administrativas
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 É possível combinar o Construtor de regras de classificação com subclassificações para simplificar o gerenciamento de classificações e reduzir o número de regras necessário. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **Exemplo**
 
@@ -33,7 +31,7 @@ Uma hierarquia de classificação permite aplicar uma classificação a uma clas
 
 ![](assets/sub_class_table.png)
 
-Depois de colocar essa estrutura no lugar, é possível utilizar [Construtor de regras de classificação](../../../components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
+Depois de colocar essa estrutura no lugar, é possível utilizar [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
 
 A seguinte tarefa descreve como fazer isso.
 
@@ -47,7 +45,9 @@ t_rule_builder_subclass.xml
 
 Exemplo de etapas que descrevem como você pode fazer upload de subclassificações usando o Construtor de regras.
 
-> [!NOTE] Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o Construtor](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)de regras.
+>[!NOTE]
+>
+>Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o Construtor](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)de regras.
 
 1. Criar classificações e subclassificação no [Gerenciador de classificações](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -55,7 +55,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    ![Informações da etapa](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    Isso é realizado utilizando uma expressão regular. Nesse exemplo, a regra é preencher *`Broad Campaign code`* usaria essa expressão regular:
 
@@ -70,11 +70,11 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
 1. Fazer upload de um arquivo de classificação que inclui somente as subclassificações especificadas.
 
-   Consulte Classificações [](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)de vários níveis.
+   Consulte Classificações [](/help/components/c-classifications2/c-sub-classifications.md)de vários níveis.
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de Campanha &amp;Hat;Tipo de campanha | Código de Campanha Amplo &amp;Chapéu;Diretor de Campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de Campanha &amp;Ampla;Chapéu;Tipo de campanha | Código de Campanha Amplo &amp;Chapéu;Diretor de Campanha | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marca | Suzanne |  |
    | * |  | 222 | Marca | Frank |  |
