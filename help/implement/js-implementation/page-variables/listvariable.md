@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # Variável de lista
 
 Também conhecidas como List Var. Semelhante a como Propriedades de lista funcionam, a List Vars permitem vários valores na mesma solicitação de imagem. Também atuam de forma semelhante a eVars, que persistem além da solicitação de imagem na qual foram definidas. É possível usar essas variáveis para ver a causa e o efeito entre vários elementos em uma única página, como listas de produtos, listas de desejos, listas de refinamentos de pesquisa ou listas de anúncios de exibição.
+
 
 <!-- 
 
