@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # maxDelay
 
 A variável s.maxDelay é usada principalmente nas integrações do Genesis DFA para determinar o período de tempo limite no contato com o host de DFA. Se a Adobe não receber uma resposta dos servidores DFA dentro do período especificado definido na variável, a conexão será interrompida e os dados serão processados normalmente. Implemente esta variável se você estiver preocupado com o tempo de resposta de DFA em cada página. É recomendável experimentar este valor para determinar o período ideal do tempo limite.
+
 
 <!-- 
 
