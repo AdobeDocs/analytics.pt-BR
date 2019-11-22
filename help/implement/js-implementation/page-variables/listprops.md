@@ -7,7 +7,7 @@ title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # Propriedades de lista
 
 As list props são uma lista de valores delimitados que são passados para uma variável e, em seguida, reportados como itens individuais. A list prop é implementada normalmente em páginas que contenham valores selecionáveis pelo usuário, como itens listados com caixas de seleção ou botões de opção. Elas são úteis em qualquer circunstância em que você deseje definir vários valores em uma variável sem enviar várias solicitações de imagem.
+
 
 <!-- 
 
