@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: usuário final
-user-guide-title: Guia de componentes do Analytics
-user-guide-url: /content/help/pt-BR/analytics/components/home.html
-translation-type: ht
-source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
+audience: end-user
+user-guide-title: Analytics Components Guide
+user-guide-url: /content/help/en/analytics/components/home.html
+translation-type: tm+mt
+source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
 
@@ -332,6 +332,7 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
    + [Sobre canais e regras](c-marketing-channels/c-channels-rules.md)
    + [Configuração automática](c-marketing-channels/c-channel-autosetup.md)
    + [Gerenciar canais de marketing](c-marketing-channels/c-channels.md)
+   + [Canal interno (Atualização de sessão)](c-marketing-channels/session-refresh.md)
    + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
    + [Criar regras de processamento de Canal de marketing](c-marketing-channels/t-rules.md)
    + [Regras de processamento de canal de marketing - Definições](c-marketing-channels/r-channel-rule-definitions.md)
