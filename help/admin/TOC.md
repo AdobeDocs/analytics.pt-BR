@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guia de administração do Analytics
-user-guide-url: /content/help/pt-BR/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Compartilhamento de marcas](company/co-branding-admin.md)
    + [Ocultar conjuntos de relatórios](company/c-hide-report-suites.md)
    + [Gerenciador de segurança](company/security-manager.md)
+   + [Fim da vida útil para "Impor restrições de logon de IP"](company/login-restrictions-eol.md)
 + Gerenciar Conjuntos de relatórios {#manage-report-suites}
    + [Gerenciador do Conjunto de relatórios](c-manage-report-suites/report-suites-admin.md)
    + [Conjuntos de relatórios globais e de acumulado](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Usuários de email](user-management2/t-email-users.md)
 + Governança de dados {#data-governance}
    + [Adobe Analytics e o GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics e CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics e a CCPA](c-data-governance/an-ccpa-overview.md)
    + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
-   + [Fluxo de trabalho de privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios](c-data-governance/gdpr-view-settings.md)
    + [Rotular dados do conjunto de relatórios](c-data-governance/gdpr-setup-reportsuite.md)
    + [Enviar solicitações de acesso e de exclusão](c-data-governance/gdpr-submit-access-delete.md)
@@ -172,9 +173,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
    + [Práticas recomendadas de rotulagem](c-data-governance/gdpr-analytics-ids.md)
    + [Exemplo de rotulagem](c-data-governance/gdpr-labeling-example.md)
-   + [Privacidade de dados e conectores de dados (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Privacidade de dados e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologia da privacidade de dados](c-data-governance/gdpr-terminology.md)
-   + [Variáveis de relatórios de privacidade](c-data-governance/consent-variables.md)
+   + [Variáveis dos relatórios de privacidade](c-data-governance/consent-variables.md)
 + Uso de chamadas do servidor {#server-call-usage}
    + [Visão geral do uso de chamadas do servidor](c-server-call-usage/overage-overview.md)
    + [Visualizar uso de chamadas do servidor atual](c-server-call-usage/server-call-usage-dashboard.md)
