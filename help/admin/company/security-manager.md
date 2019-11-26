@@ -5,7 +5,7 @@ title: Gerenciador de segurança
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 229ce50a24bd7b86e3859775bb4fbeba1c6a5668
 
 ---
 
@@ -42,7 +42,7 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Impor restrições de logon de IP</span> </td> 
-   <td colname="col2"> <p>(Essa funcionalidade não pode ser usada juntamente com o logon da Experience Cloud. Observe que essa funcionalidade não estará mais disponível a partir de janeiro de 2020.) Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
+   <td colname="col2"> <p>(Essa funcionalidade não pode ser usada juntamente com o logon da Experience Cloud. Observe que essa funcionalidade não estará mais disponível a partir de outubro de 2020.) Limita o acesso a relatórios de determinados endereços IP ou intervalos de endereço IP. </p> <p>Você pode adicionar até 100 entradas na lista de Filtros de endereço IP, e cada entrada precisa ser um endereço específico ou um intervalo de endereços. </p> <p> <span class="wintitle"> Impor restrições de logon de IP</span> não é aplicado até que haja pelo menos uma entrada na lista de Filtro de endereço IP. </p> <p> <span class="uicontrol"> Endereço IP aceito</span>: Para especificar um intervalo de endereço IP, coloque o intervalo entre parênteses (por exemplo, 
      <code>
        192.168.10.[20-240]
      </code>). Também é possível usar curingas (*) para especificar qualquer número de 0 a 255 (por exemplo, 
@@ -62,8 +62,44 @@ Permite que você controle o acesso aos dados de relatório. As opções incluem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Notificação de recuperação de senha</span> </td> 
-   <td colname="col2"> <p>Notifica os administradores especificados sobre quando um usuário tenta redefinir a senha de uma conta de usuário. </p> <p> <span class="uicontrol"> Admins disponíveis</span>: exibe todos os administradores. Você pode clicar e ao mesmo tempo pressionar Ctrl ou Shift para selecionar vários administradores. </p> <p> <span class="uicontrol"> Membros de email</span>: exibe o grupo de email definido no momento.  </p> </td> 
+   <td colname="col2"> <p>Notifica os administradores especificados sobre quando um usuário tenta redefinir a senha de uma conta de usuário. </p> <p> <span class="uicontrol"> Admins disponíveis</span>: exibe todos os administradores. Você pode clicar e ao mesmo tempo pressionar Ctrl ou Shift para selecionar vários administradores. </p> <p> <span class="uicontrol">Membros de email</span>: exibe o grupo de email definido no momento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Fim da vida útil para [!UICONTROL impor restrições de logon de IP]
+
+O recurso **[!UICONTROL Impor restrições]** de logon de IP é um recurso do Brevemente herdado do Analytics que permite a lista de permissões de endereços IP específicos considerados seguros para permitir logons bem-sucedidos e acesso ao ambiente do Adobe Analytics. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
+
+### Por que estamos considerando isso para o fim da vida?
+
+Esse recurso é dividido em algumas circunstâncias pela migração de logon da Experience Cloud e/ou pelo logon da Experience Cloud. Sabe-se que é quebrado para clientes que usam Atributos **[!UICONTROL do]** cliente ou Biblioteca **[!UICONTROL de]** público-alvo.
+
+Além disso, se você tiver várias Soluções da Experience Cloud, poderá circunscrever esse requisito fazendo logon na Experience Cloud com uma das outras soluções, pois esse recurso não existe ou não é suportado fora do Analytics. Os usuários também podem contornar isso via falsificação de IP.
+
+Por fim, a Adobe tem uma solução alternativa funcional e muito superior por meio do logon único e das Federated ID. Este recurso oferece maior controle e segurança sobre a experiência de logon dos usuários.
+
+### Como a remoção deste recurso afeta você?
+
+Para qualquer cliente que tenha **[!UICONTROL restrições]** de logon de IP definidas, esse recurso será removido em outubro de 2020. Nesse momento, quaisquer restrições de logon de IP ainda em vigor não serão mais aplicadas. Se você ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
+
+Além disso, o gerenciador **[!UICONTROL Impor restrições]** de logon de IP será removido do **[!UICONTROLAadministrador &gt; Configurações da empresa &gt; Gerenciador]** de segurança na interface do usuário do Analytics (como mostrado abaixo).
+
+![](assets/sec-manager2.png)
+
+### Quais são suas outras opções?
+
+Como mencionado acima, esse recurso do Analytics será encerrado. Para dar a você tempo para implementar SSO e Federated IDs, adiamos a data EOL para outubro de 2020.
+
+As IDs SSO e Federated são soluções superiores ao recurso Restrição de logon de IP que temos em vigor hoje e fornecerão mais controle, segurança e recursos.
+
+Para obter informações sobre como configurar SSO/Federated IDs, temos a seguinte documentação de ajuda disponível. Recomendamos que você os leia minuciosamente e trabalhe com seu departamento de TI para implementá-los:
+
+* [Logon único e a Experience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
+* [Console admin. - Documentação de configuração de identidade](https://helpx.adobe.com/enterprise/using/set-up-identity.html)
+* [Admin Console - Tutorial de configuração de identidade (vídeo)](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Configurar tutorial da Federated ID (vídeo)](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Logon único - perguntas comuns](https://helpx.adobe.com/enterprise/using/sso-faq.html)
+* [Tipos de identidade suportados pela Adobe](https://helpx.adobe.com/enterprise/using/identity.html)
+
+Se você quiser continuar a expressar seu suporte para Restrições de logon de IP e solicitar que ele seja fornecido pela Experience Cloud, poderá votar nesse recurso na página [do](https://forums.adobe.com/ideas/11648)Fórum. Para mais perguntas ou informações sobre SSO/Federated ID e EXC, contacte Ryan Monger (monger@adobe.com).
