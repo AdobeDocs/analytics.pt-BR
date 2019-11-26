@@ -2,7 +2,7 @@
 title: Canal interno (Atualização de sessão)
 description: Leia sobre o canal Interno (Atualização da sessão).
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ Um visitante move de um domínio que é acionado para o Suite A, para um segundo
 
 ### Cenário 5: Longo tempo de carregamento de entrada de página
 
-Um visitante acessa a página A, que é pesada e está posicionada, e o código do Adobe Analytics está localizado no centro da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o vis-u-nador clica na Página B. A página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
+Um visitante acessa a página A, que é pesada no conteúdo, e o código do Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
 
 ### Cenário 6: Limpar cookies no meio do site
 
