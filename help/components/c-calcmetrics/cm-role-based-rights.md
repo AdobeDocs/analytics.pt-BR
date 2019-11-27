@@ -3,7 +3,7 @@ description: Os direitos das métricas calculadas são diferentes para usuários
 title: Direitos baseados em funções de métricas calculadas
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -16,7 +16,7 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col02" class="entry"> Criar  </th> 
+   <th colname="col02" class="entry"> Criar </th> 
    <th colname="col2" class="entry"> Compartilhar </th> 
    <th colname="col3" class="entry"> Exibir/Gerenciar </th> 
    <th colname="col4" class="entry"> Aprovar </th> 
@@ -28,7 +28,7 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
    <td colname="col02"> Os administradores podem criar métricas calculadas e <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >grupos</a> para limitar os direitos do usuário de criar métricas calculadas. </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
-   <td colname="col3"> <span class="keyword"> [!Relatórios e análises UICONTROL] </span>: Pode exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e aquelas compartilhadas com eles. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e aquelas compartilhadas com eles. </p> </td> 
    <td colname="col4"> Podem aprovar métricas calculadas como canônicas. </td> 
    <td colname="col5"> Podem aplicar métricas calculadas em toda a organização. </td> 
   </tr> 
