@@ -1,11 +1,9 @@
 ---
 description: O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
-seo-description: O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
-seo-title: Editar métricas em várias solicitações
 title: Editar métricas em várias solicitações
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -47,7 +45,7 @@ Lembre-se
 
 Para substituir uma métrica
 
-1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Selecione **[!UICONTROL Substituir métrica]**.
 
@@ -67,7 +65,7 @@ Lembre-se
 
 Para remover métricas:
 
-1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
