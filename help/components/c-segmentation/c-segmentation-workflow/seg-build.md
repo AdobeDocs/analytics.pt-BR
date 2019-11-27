@@ -5,7 +5,7 @@ title: Construir segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ Acesse o Construtor de segmentos por:
    * **[!UICONTROL + Adicionar contêiner da seleção]**: permite que você crie um novo contêiner a partir dos elementos que você (multi-) selecionou no campo Definições.
    * **[!UICONTROL Excluir]**: permite que você defina o segmento ao excluir uma ou mais dimensões, segmentos ou métricas.
 
-**[!UICONTROL Modelos]** de atribuição: Para segmentação de dimensão. Os modelos de dimensão são especialmente úteis na segmentação sequencial, como naqueles que suportam visualizações de Fluxo:
+1. **[!UICONTROL Modelos]** de atribuição: Para segmentação de dimensão. Os modelos de dimensão são especialmente úteis na segmentação sequencial, como naqueles que suportam visualizações de Fluxo:
 
-    * **[!UICONTROL Repetir]** (padrão): Inclui instâncias e valores persistentes para a dimensão.
-    * **[!UICONTROL Instância]**: Inclui instâncias para a dimensão.
-    * **[!UICONTROL Instância]não repetitiva**: Inclui instâncias exclusivas (não repetitivas) para a dimensão.
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL Repetir]** (padrão): Inclui instâncias e valores persistentes para a dimensão.
+   * **[!UICONTROL Instância]**: Inclui instâncias para a dimensão.
+   * **[!UICONTROL Instância]** não repetitiva: Inclui instâncias exclusivas (não repetitivas) para a dimensão.
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensões]**: As dimensões são arrastadas e soltas da lista Dimensões (barra lateral laranja).
 1. **[!UICONTROL Comparação]**: Você pode comparar e restringir valores usando operadores selecionados.
