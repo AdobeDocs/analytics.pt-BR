@@ -2,7 +2,7 @@
 title: Canal interno (Atualização de sessão)
 description: Leia sobre o canal Interno (Atualização da sessão).
 translation-type: tm+mt
-source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -42,7 +42,7 @@ Para entender a interação entre o primeiro e o último toque e confirmar que a
 
 ![](assets/int-channel3.png)
 
-A interseção em que first é igual a last-touch é realçada em laranja. A Atualização direta e a Atualização de sessão recebem crédito de último toque somente se forem canais de primeiro toque, pois não podem receber crédito de outros canais persistentes (linhas destacadas em cinza).
+A interseção em que primeiro é igual ao último toque é realçada em laranja. A Atualização direta e a Atualização de sessão recebem crédito de último toque somente se forem canais de primeiro toque, pois não podem receber crédito de outros canais persistentes (linhas destacadas em cinza).
 
 ## Por que a atualização da sessão ocorre?
 
@@ -58,7 +58,7 @@ Um visitante acessa a Página A, que não está marcada, e então se move para a
 
 ### Cenário 3: Redirecionamentos
 
-Se um redirecionamento não for configurado para passar os dados do referenciador até a nova página de aterrissagem, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
+Se um redirecionamento não for configurado para passar os dados do referenciador até a nova página inicial, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
 
 ### Cenário 4: Tráfego entre domínios
 
