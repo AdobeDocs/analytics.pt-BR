@@ -2,7 +2,7 @@
 description: A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece uma visão geral de quais conjuntos de relatórios foram configurados para a governança de dados, se foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -36,7 +36,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapeado</b>: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administração de mapeamento do conjunto de relatórios, na qual terá que encontrar o conjunto de relatórios e atribuí-lo à ID da organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/report-suite-mapping.html">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administração de mapeamento do conjunto de relatórios, na qual terá que encontrar o conjunto de relatórios e atribuí-lo à ID da organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapeado para outra organização</b>: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização. </li> 
     </ul> </td> 
   </tr> 
@@ -45,7 +45,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
    <td colname="col2"> <p>A implementação da Privacidade de dados do Analytics exige que você tenha uma política de retenção de dados em vigor. </p> <p>Esta configuração mostra se: </p> 
     <ul> 
      <li>Uma política de retenção de dados está em vigor para este conjunto de relatórios e </li> 
-     <li>Por quanto tempo os dados são retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses. </li> 
+     <li>Por quanto tempo os dados ficam retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses. </li> 
     </ul> <p>Observação: o Adobe Analytics não pode ajudá-lo com o processamento de solicitações da API da Privacidade de dados (ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais), se um período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. </p> </td> 
   </tr> 
   <tr> 
