@@ -2,7 +2,7 @@
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -38,7 +38,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
+   <td colname="col1"> <p><b>Aprimo Enterprise Experience Management</b> </p> </td> 
    <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -135,7 +135,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neolane - Enterprise Marketing Platform</b> </p> </td> 
+   <td colname="col1"> <p><b>Neolane - Enterprise Experience Platform</b> </p> </td> 
    <td colname="col2"> <p>Broadlog ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
