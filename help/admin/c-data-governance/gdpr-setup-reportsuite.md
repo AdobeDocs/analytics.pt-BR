@@ -2,7 +2,7 @@
 description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 title: Rotular dados do conjunto de relatórios
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -59,7 +59,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem.
 
-## Copiar rótulos para os conjuntos de relatórios{#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copiar rótulos para os conjuntos de relatórios {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a mais de um conjunto de relatórios, poderá seguir estas etapas:
 
