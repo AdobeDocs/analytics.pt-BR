@@ -2,7 +2,7 @@
 description: 'null'
 title: Exemplo de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -42,8 +42,8 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
 | user=Mary | false | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | dispositivo | não presente | 77, 88 | não presente | N, P | U, W |
-| user=Mary AAID=66 | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary AAID=66 | true | dispositivo | não presente | 66, 77, 88 | não presente | N, P | U, W, Z |
+| user=Mary  AAID=66 | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true | dispositivo | não presente | 66, 77, 88 | não presente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | não presente | 55, 77 | não presente | M, R | X |
 | xyz=X | true | dispositivo | não presente | 55, 77 | não presente | M, P, R | W, X |
 
