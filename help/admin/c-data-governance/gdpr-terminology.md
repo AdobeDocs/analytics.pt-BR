@@ -2,7 +2,7 @@
 description: 'null'
 title: Terminologia do GDPR
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Estabelecimento principal** - o local dentro da União onde são tomadas as principais decisões em relação ao processamento de dados; no que diz respeito ao processador
 
-**Dados** pessoais - quaisquer informações relacionadas com uma pessoa singular ou com uma "pessoa em causa", que possam ser utilizadas para identificar direta ou indiretamente a pessoa
+**Dados Pessoais** - qualquer informação relacionada a uma pessoa física ou "Titular de dados", que possa ser usada para identificar direta ou indiretamente tal pessoa
 
 **Violação de dados pessoais** - uma violação de segurança que leva ao acesso acidental ou ilegal, destruição, uso indevido, entre outros, de dados pessoais
 
