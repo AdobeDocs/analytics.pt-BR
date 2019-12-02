@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: usuário final
-user-guide-title: Guia de exportação do Analytics
-user-guide-url: /content/help/pt-BR/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Guia de exportação do Analytics {#export}
 
-+ [Ajuda para exportação do Analytics](home.md)
++ [Página inicial de exportação do Analytics](home.md)
 + Feed de dados do Analytics {#analytics-data-feed}
-   + Comece já {#get-started}
-      + [Visão geral do feed de dados do Analytics](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [Terminologia](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [Práticas recomendadas e informações gerais](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + Interface do Feed de dados {#data-feed-ui}
-      + [Abrir a interface do Feed de dados](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [Classificar colunas](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [Pesquisar e filtrar](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [Status do feed de dados](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + Ações do feed de dados {#data-feed-actions}
-      + [Painel Feed de dados](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [Adicionar um feed](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [Informações do feed](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [Destino do feed](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [Exibir um histórico de Feed de Serviço](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [Excluir um feed](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [Pausar um feed](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [Ativar um feed](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [Editar um feed](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + Tarefas do feed de dados {#data-feed-jobs}
-      + [Tarefas do feed de dados - visão geral](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [Filtrar lista de tarefas](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [Configurações das tarefas](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [Status da tarefa](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [Reexecutar uma tarefa](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [Visão geral do feed de dados](analytics-data-feed/data-feed-overview.md)
+   + [Criar ou editar um feed de dados](analytics-data-feed/create-feed.md)
+   + [Gerenciar feeds de dados](analytics-data-feed/df-manage-feeds.md)
+   + [Gerenciar trabalhos do feed de dados](analytics-data-feed/df-manage-jobs.md)
    + Conteúdos do feed de dados {#data-feed-contents}
-      + [Conteúdos do feed de dados - visão geral](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Visão geral do conteúdo do feed de dados](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [Identificar visitantes](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [Definições da coluna de dados](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Pesquisa de fonte de hit](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [Colunas anterior e posterior](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
+      + [Pesquisa de evento de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [Perguntas frequentes de Serviços](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [Solução de problemas dos feeds de dados](analytics-data-feed/feed-troubleshooting.md)
+   + [Perguntas frequentes sobre o feed de dados](analytics-data-feed/df-faq.md)
+   + [Práticas recomendadas do feed de dados](analytics-data-feed/data-feeds-best-practices.md)
+   + [Solução de problemas de feeds de dados](analytics-data-feed/feed-troubleshooting.md)
    + [Solução de problemas de tarefas](analytics-data-feed/jobs-troubleshooting.md)
-   + [Notas de versão do Feed de dados](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Visão geral do Data Warehouse](data-warehouse/data-warehouse.md)
    + [Adicionar grupo de usuários do Data Warehouse](data-warehouse/t-dw-group.md)
