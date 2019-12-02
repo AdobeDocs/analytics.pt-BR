@@ -2,7 +2,7 @@
 title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ O relatório de Públicos-alvo no Google Analytics requer a configuração de p�
 O relatório do Explorador de usuários permite que um analista visualize visitas individuais por meio de identificadores anônimos. A Adobe não exibe os identificadores de backend fora dos feeds de dados, que são exportações brutas de dados no nível de ocorrência.
 
 * Se esses dados forem desejados na Analysis Workspace, é possível trabalhar com um consultor de implementação para passar o valor do cookie identificador único anônimo para uma eVar. Observe que isso só funciona com implementações menores, consistindo em menos de 1 milhão de visitantes únicos por mês.
-* Se esses dados forem desejados nos feeds de dados, as colunas concatenadas `visid_high` e `visid_low` são a maneira mais comum de identificar visitantes únicos. Saiba mais sobre os Feeds [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dados no guia do usuário Exportar.
+* Se esses dados forem desejados nos feeds de dados, as colunas concatenadas `visid_high` e `visid_low` são a maneira mais comum de identificar visitantes únicos. Saiba mais sobre os Feeds [de](/help/export/analytics-data-feed/data-feed-overview.md) dados no guia do usuário Exportar.
 
 ## Relatórios de demografia e interesses
 
