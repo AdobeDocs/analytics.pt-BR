@@ -3,7 +3,7 @@ title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena seus dados.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -43,7 +43,7 @@ A política de retenção de dados define uma janela rolante de retenção de da
 
 **Posso solicitar uma cópia dos meus dados antes que sejam excluídos?**
 
-Sim. A Adobe pode fornecer um despejo de dados históricos de dados brutos em nível de ocorrência. Consulte Feeds [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) dados no guia do usuário Exportar para obter mais informações. Se você tiver requisitos de exportação de dados fora do escopo do que a interface pode fornecer, entre em contato com o gerente de conta de sua organização. Podem ser feitos alojamentos especiais; os custos podem variar.
+Sim. A Adobe pode fornecer um despejo de dados históricos de dados brutos em nível de ocorrência. Consulte Feeds [de](/help/export/analytics-data-feed/data-feed-overview.md) dados no guia do usuário Exportar para obter mais informações. Se você tiver requisitos de exportação de dados fora do escopo do que a interface pode fornecer, entre em contato com o gerente de conta de sua organização. Podem ser feitos alojamentos especiais; os custos podem variar.
 
 **Quando a Adobe exclui dados?**
 
