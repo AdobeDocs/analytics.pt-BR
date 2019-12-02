@@ -7,7 +7,7 @@ title: Referência da coluna de dados
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Use esta página para saber quais dados estão contidos em cada coluna. A maioria das implementações não usa cada coluna, portanto, essa página pode ser referenciada ao determinar quais colunas incluir em uma exportação de feed de dados.
 
-> [!IMPORTANT] Para qualquer coluna (por exemplo, uma que esteja definida como 255 caracteres), um feed de dados pode enviar caracteres adicionais devido à adição de caracteres que escapam aos valores em uma string. Lembre-se deste tópico se sua implementação envia regularmente valores que excedem os limites de caracteres.
+> [!IMPORTANT] Para qualquer coluna (por exemplo, uma que esteja definida como 255 caracteres), um feed de dados pode enviar caracteres adicionais devido à adição de caracteres que escapam aos valores em uma string. Lembre-se desses caracteres adicionais em potencial se sua implementação envia regularmente valores que excedem os limites de caracteres.
 
 ## Colunas, descrições e tipos de dados
 
-> [!NOTE] A maioria das colunas contém uma coluna semelhante com um prefixo de `post_`. Colunas de publicação contêm valores posteriores a regras de processamento, lógica do servidor e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos.
+> [!NOTE] A maioria das colunas contém uma coluna semelhante com um prefixo de `post_`. Colunas de publicação contêm valores posteriores a regras de processamento, lógica do servidor e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos. Consulte Perguntas frequentes sobre feeds [de dados](../df-faq.md) para obter mais informações.
 
 | Nome da coluna | Descrição da coluna | Tipo de dados |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | j_jscript | A versão do JavaScript suportada pelo navegador. | char(5) |
 | java_enabled | Sinalizador indicando se o Java está habilitado. <br>Y: Ativado <br>N: Desativado <br>U: Desconhecido | char(1) |
 | javascript | ID de pesquisa da versão de JavaScript, com base em j_jscript. Usa uma tabela de pesquisa. | tinyint unsigned |
-| language | ID numérica da linguagem. Usa a tabela de pesquisa languages.tsv. | small unsigned |
+| idioma | ID numérica da linguagem. Usa a tabela de pesquisa languages.tsv. | small unsigned |
 | last_hit_time_gmt | Carimbo de data e hora (em horário Unix) da ocorrência anterior. Usado para calcular a dimensão Dias desde a última visita. | int |
 | last_purchase_num | Variável usada na dimensão Suporte a cookies. Indica a quantidade de compras que o visitante fez anteriormente. <br>0: Nenhuma compra anterior (não é um cliente) <br>1: 1 compra prévia (novo cliente) <br>2: 2 compras anteriores (cliente recorrente) <br>3: 3 ou mais compras anteriores (cliente fidelizado) | int unsigned |
 | last_purchase_time_gmt | Usado na dimensão Dias desde a última compra. Carimbo de data e hora (em horário Unix) da última compra feita. Para compras feitas pela primeira vez e visitantes que ainda não fizeram uma compra, esse valor é 0. | int |
@@ -168,7 +168,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | quarterly_visitor | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
 | ref_domain | Com base na coluna referrer. O domínio de referência da ocorrência. | varchar(100) |
 | ref_type | Uma ID numérica que representa o tipo de referência para a ocorrência.<br>1: Dentro do site<br>2: Outros sítios web <br>3: Mecanismos de pesquisa <br>4: Disco rígido <br>5: USENET <br>6: Digitado/Marcado (sem referenciador) <br>7: Email <br>8: Sem JavaScript <br>9: Redes sociais | tinyint unsigned |
-| referrer | URL da página anterior. | varchar(255) |
+| referenciador | URL da página anterior. | varchar(255) |
 | resolution | ID numérica que representa a resolução do monitor. Preenche a dimensão Resolução do monitor. Usa a tabela de pesquisa resolution.tsv. | small unsigned |
 | s_kwcid | ID da palavra-chave usada nas integrações da Adobe Advertising Cloud. | varchar(255) |
 | s_resolution | Valor bruto da resolução da tela. Coletado usando a função screen.width x screen.height do JavaScript. | char(20) |
@@ -214,7 +214,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | va_finder_id | ID numérica que identifica a dimensão Canal de primeira contato. A pesquisa desta ID pode ser encontrada no Gerenciador de canais de marketing. | tinyint unsigned |
 | va_instance_event | Sinalizador para identificar instâncias de Canal de marketing. Usado pela métrica Instâncias do último contato do canal de marketing. | tinyint unsigned |
 | va_new_engagement | Sinalizador para identificar novas participações de Canal de marketing. Usado pela métricas Novos envolvimentos. | tinyint unsigned |
-| video | Conteúdo de vídeo | varchar(255) |
+| vídeo | Conteúdo de vídeo | varchar(255) |
 | videoad | Nome do anúncio de vídeo | varchar(255) |
 | videoadinpod | Anúncio de vídeo na posição do pod | varchar(255) |
 | videoadlength | Duração do anúncio de vídeo | varchar(255) |
@@ -270,7 +270,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | visit_referrer | O primeiro referenciador da visita. | varchar(255) |
 | visit_search_engine | ID numérica do primeiro mecanismo de pesquisa da ocorrência. Usa a tabela de pesquisa search_engines.tsv. | small unsigned |
 | visit_start_page_url | O primeiro URL da visita. | varchar(255) |
-| visit_start_pagename | A primeiro Nome da página da visita. | varchar(100) |
+| visit_start_pagename | O primeiro Nome da página da visita. | varchar(100) |
 | visit_start_time_gmt | Carimbo de data e hora (em horário Unix) da primeira ocorrência da visita. | int |
 | weekly_visitor | Sinalizador para determinar se a ocorrência é um novo visitante semanal. | tinyint unsigned |
 | yearly_visitor | Sinalizador para determinar se a ocorrência é um novo visitante anual. | tinyint unsigned |
