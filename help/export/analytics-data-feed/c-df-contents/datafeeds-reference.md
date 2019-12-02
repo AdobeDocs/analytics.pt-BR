@@ -270,7 +270,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | visit_referrer | O primeiro referenciador da visita. | varchar(255) |
 | visit_search_engine | ID numérica do primeiro mecanismo de pesquisa da ocorrência. Usa a tabela de pesquisa search_engines.tsv. | small unsigned |
 | visit_start_page_url | O primeiro URL da visita. | varchar(255) |
-| visit_start_pagename | O primeiro Nome da página da visita. | varchar(100) |
+| visit_start_pagename | A primeiro Nome da página da visita. | varchar(100) |
 | visit_start_time_gmt | Carimbo de data e hora (em horário Unix) da primeira ocorrência da visita. | int |
 | weekly_visitor | Sinalizador para determinar se a ocorrência é um novo visitante semanal. | tinyint unsigned |
 | yearly_visitor | Sinalizador para determinar se a ocorrência é um novo visitante anual. | tinyint unsigned |
