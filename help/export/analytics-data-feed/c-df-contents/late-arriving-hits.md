@@ -1,28 +1,32 @@
 ---
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+title: Ocorrências com atraso de chegada
+description: Saiba como os feeds de dados tratam as ocorrências que chegam tarde.
 translation-type: tm+mt
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
-# Atraso de chegada de ocorrências
 
-Os dados históricos podem chegar depois que um serviço de feed de dados termina o processamento para uma hora ou dia específico, como por meio de ocorrências com carimbo de data e hora ou fontes de dados. Atrasar ocorrências é uma personalização de backend fornecida pela Adobe para ajudar a incluir esses dados em feeds de dados.
 
-## Como o atraso na chegada das ocorrências funciona
+# Ocorrências com atraso de chegada
 
-Quando um feed de dados normalmente processa dados, ele só observa os dados na janela de relatórios (normalmente, a hora ou o dia mais recente). Se os dados chegarem depois que um feed terminar de processar a janela, esses dados nunca serão incluídos em nenhum feed de dados.
+Os dados históricos podem chegar depois que uma tarefa de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados. As ocorrências posteriores são uma configuração de personalização de backend fornecida pela Adobe para ajudar a incluir esses dados nos feeds de dados.
 
-Com o atraso de ocorrências ativadas, o método de processamento muda para incluir esses dados. Toda vez que um feed de dados processa dados, ele observa quaisquer ocorrências atrasadas que chegaram e batem no próximo arquivo de feed de dados enviado para o site FTP.
+## Como as ocorrências de chegada tardias funcionam
 
-## Ativação de ocorrências atrasadas
+Quando um feed de dados normalmente processa dados, ele só procura os dados em sua janela de relatório (normalmente a hora ou o dia mais recente). Se os dados chegarem depois que um feed terminar de processar essa janela de relatório, esses dados nunca serão incluídos em nenhum feed de dados.
 
-A chegada tardia de ocorrências pode ser ativada manualmente pela Adobe em feeds de dados individuais. Antes de fazer isso, considere o seguinte:
+Com as ocorrências de chegada atrasadas ativadas, o método de processamento muda para incluir esses dados. Toda vez que um feed de dados processa dados, ele verifica todas as ocorrências atrasadas que chegaram e as reúne no próximo arquivo de feed de dados enviado para o site FTP.
 
-* Os dados por dias diferentes são exibidos com frequência nos feeds de dados quando os hits chegam ao fim. Certifique-se de que a plataforma usada para assimilar feeds de dados pode acomodar os dados de dias diferentes dentro do mesmo arquivo.
-* A chegada tardia de ocorrências aumenta o tempo de processamento. Normalmente, esse atraso é menor que hora, mas pode ser várias horas ou mais se o conjunto de relatórios receber um grande número de ocorrências atrasadas. A Adobe recomenda ativar essa configuração se a chegada oportuna para feeds de dados for fundamental para o fluxo de trabalho de sua organização.
-* Se um arquivo de feed de dados for reprocessado, o atraso de chegada das ocorrências incluídas no arquivo original não será incluído no arquivo reprocessado.
+## Habilitar ocorrências de chegada atrasadas
 
-Se você quiser ativar a chegada tardia de ocorrências para um feed de dados recorrente existente, entre em contato com o Atendimento ao cliente e inclua o seguinte:
+As ocorrências de chegada tardia podem ser ativadas manualmente pela Adobe em feeds de dados individuais. Antes de fazer isso, considere o seguinte:
 
-* Uma nota que você gostaria de ativar atrasando a chegada de ocorrências para um feed de dados específico
+* Os dados de dias diferentes aparecem frequentemente nos feeds de dados quando as ocorrências de chegada tardia são ativadas. Certifique-se de que a plataforma usada para ingerir feeds de dados possa acomodar dados de dias diferentes dentro do mesmo arquivo.
+* A chegada tardia de ocorrências aumenta o tempo de processamento. Normalmente, esse atraso é menor que a hora, mas pode ser de várias horas ou mais se o conjunto de relatórios receber um grande número de ocorrências em atraso. A Adobe recomenda não ativar essa configuração se a chegada oportuna para feeds de dados for imperativa para o fluxo de trabalho de sua organização.
+* Se um arquivo de feed de dados for reprocessado, as ocorrências de chegada tardia incluídas no arquivo original não serão incluídas no arquivo reprocessado.
+
+Se você quiser ativar ocorrências de chegada tardia para um feed de dados recorrente existente, peça a um usuário suportado para entrar em contato com o Atendimento ao cliente e incluir o seguinte:
+
+* Uma observação que você gostaria de ativar ocorrências de chegada tardia para um feed de dados específico
 * ID do conjunto de relatórios
 * Nome do feed de dados
