@@ -5,7 +5,7 @@ solution: Analytics
 title: Solução de problemas dos feeds de dados
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ O AWS também possibilita que um usuário crie objetos em um bucket que pertence
 
 Se houver uma falha de transferência no FTP (logon negado, conexão perdida, extraquota, etc.), a Adobe tenta automaticamente se conectar e faz até três tentativas de envio de dados. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
 
-No caso de falha na transferência, você pode [executar uma tarefa novamente](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) até que seja concluída com sucesso.
+No caso de falha na transferência, você pode executar uma tarefa novamente até que seja concluída com sucesso.
 
 ## Opções de reenvio {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Depois de verificar/corrigir o problema de entrega, basta [executar novamente o serviço](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) para obter os arquivos.
+Depois de verificar/corrigir o problema de entrega, execute novamente o trabalho para obter os arquivos.
 
 ## Impacto do horário de verão nos feeds de dados por hora {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ Ao fazer transições de horário padrão -&gt; horário padrão, ("Fall Back"),
 
 É possível optar por configurar o feed de dados para entregar um arquivo manifest se não houver dados coletados por um período específico. Se ativar essa opção, você receberá um arquivo manifest semelhante ao seguinte:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
