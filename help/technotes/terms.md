@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Mapa de atividade: Um plug-in de navegador que mostra quais áreas do site foram mais clicadas. Consulte [Activity Map](/help/analyze/activity-map/activity-map.md) no guia do usuário Analisar.
 * **** Admin Console: Pode consultar:
    * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas](/help/admin/admin/c-admin-tools.md) administrativas no Guia do usuário administrativo.
-   * O console de administração da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no Guia do usuário de administração.
+   * O console de administração da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** Alocação: Se uma variável de conversão encontrar mais de um valor durante uma visita, a configuração de alocação da variável determinará qual valor será mantido. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** Anomalia: Detectado usando modelagem estatística para localizar automaticamente tendências inesperadas nos dados. O modelo analisa métricas e determina um limite inferior, um limite superior e o intervalo esperado de valores. Consulte Detecção de [anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) no guia do usuário Analisar.
 * **** AppMeasurement: A biblioteca de códigos usada para coletar dados e enviá-los para a Adobe. Consulte a [Página inicial](/help/implement/home.md) do guia do usuário Implementar.
@@ -43,7 +43,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Representante de suporte ao cliente: Um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte Delegações [de suporte ao](https://helpx.adobe.com/experience-cloud/supported-users.html) cliente na Base de conhecimento da Experience Cloud.
 * **** Servidor de coleta de dados: Servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
 * **** Conectores de dados: Uma solução completa de desenvolvimento que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. A maioria dos conectores de dados usa um fluxo de trabalho semelhante usado nas Fontes de Dados. Consulte Conectores de dados no guia Importar usuário.
-* **** Feed de dados: Uma exportação de dados brutos que lista cada ocorrência como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte Feeds [de dados](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) no guia do usuário Exportar.
+* **** Feed de dados: Uma exportação de dados brutos que lista cada ocorrência como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte Feeds [de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
 * **** Fontes de dados: Permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte Fontes [de dados](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
 * **** Data Warehouse: Um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
 * **** Dimensão: Um tipo de componente que contém valores variáveis, como texto. Os exemplos incluem Nome da página, Código de rastreamento ou Domínio de referência. Normalmente, uma métrica é sua contrapartida.
