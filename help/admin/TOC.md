@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -80,6 +80,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
    + Encaminhamento pelo lado do servidor {#server-side-forwarding}
       + [Visão geral do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf.md)
+      + [Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Requisitos do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Referência de dados e de código do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-reference.md)
       + [Como verificar a implementação do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-verify.md)
