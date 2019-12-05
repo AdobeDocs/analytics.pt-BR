@@ -2,7 +2,7 @@
 description: Instruções para configurar os scorecards do aplicativo móvel.
 title: Guia do curador do aplicativo móvel do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 13fddb340dd05a24234814f7ca8579e9861335bd
+source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
 
 ---
 
@@ -24,7 +24,7 @@ Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a c
 
 A tabela a seguir descreve os termos para entender o público-alvo, as funções e a operação do aplicativo móvel do Analytics.
 
-|Termo|Definição||—|—|Consumidor| Pessoa executiva visualizando as principais métricas e insights do Analytics em um dispositivo móvel||Curador|Dados alfabetizam a pessoa que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor||Preparação|O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor||Scorecard|Uma exibição de aplicativo móvel contendo um ou mais blocos||Lado a lado|Uma renderização para uma métrica em uma exibição de cartão de pontuação||Detalhamento|Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais.||Intervalo de datas|O intervalo de datas principal para relatórios de aplicativo móvel||Intervalo de Datas de Comparação|O Intervalo de Datas que é comparado com o intervalo de datas principal.|
+|Termo|Definição||—|—|Consumidor| Pessoa executiva visualizando as principais métricas e insights do Analytics em um dispositivo móvel||Curador|Dados alfabetizam a pessoa que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor||Preparação|O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor||Scorecard|Uma exibição de aplicativo móvel contendo um ou mais blocos||Lado a lado|Uma renderização para uma métrica em uma exibição de cartão de pontuação||Detalhamento|Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais.||Intervalo de datas|O intervalo de datas principal para relatórios de aplicativo móvel||Intervalo de Datas de Comparação|O Intervalo de Datas que é comparado com o intervalo de datas principal|
 
  
 ## Criar um Scorecard para usuários executivos
@@ -38,6 +38,9 @@ Para criar o Scorecard, é necessário fazer o seguinte:
 
 1. Acesse o modelo em branco do Mobile Scorecard.
 2. Configure o Scorecard com dados e salve-o.
+
+![Exemplo de scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
 
 
 ### Acessar o modelo em branco do Mobile Scorecard
