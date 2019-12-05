@@ -2,7 +2,7 @@
 description: Instruções para configurar os scorecards do aplicativo móvel.
 title: Guia do curador do aplicativo móvel do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
+source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
 
 ---
 
@@ -32,15 +32,18 @@ A tabela a seguir descreve os termos para entender o público-alvo, as funções
 Um Mobile Scorecard exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
 
 
+![Exemplo de scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
+
 Como curador deste Scorecard, você pode usar o Construtor de Scorecard para configurar quais blocos aparecem no Scorecard para seu consumidor. Você também configura como as exibições detalhadas, ou os Detalhamentos, podem ser ajustados quando os blocos forem tocados. A interface do Construtor de scorecard é mostrada abaixo:
+
+![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+
 
 Para criar o Scorecard, é necessário fazer o seguinte:
 
 1. Acesse o modelo em branco do Mobile Scorecard.
 2. Configure o Scorecard com dados e salve-o.
-
-![Exemplo de scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
-
 
 
 ### Acessar o modelo em branco do Mobile Scorecard
@@ -49,94 +52,97 @@ Você pode acessar o modelo em branco do Mobile Scorecard de uma das seguintes m
 
 **Criar um novo projeto**
 
-1. Abra o Adobe Analytics e clique na guia Espaço de trabalho.
-2. Clique no botão Criar novo projeto e selecione o modelo de projeto em branco do Mobile Scorecard.
+1. Abra o Adobe Analytics e clique na guia **Espaço de trabalho** .
+2. Clique no botão **Criar novo projeto** e selecione o modelo de projeto **em branco do Mobile Scorecard** .
 3. Click the **Create** button.
+
+![Modelo do Scorecard](help/analyze/mobile-app/assets/new_template.png)
+
 
 *Observação: Se você não vir o modelo em branco do Mobile Scorecard, como mostrado abaixo, sua empresa ainda não foi ativada para o Beta. Entre em contato com seu gerente de atendimento ao cliente.*
 
 
 **Adicionar um projeto**
 
-Na tela Projetos, na guia Componentes, clique no botão Adicionar e selecione Mobile Scorecard.
+Na tela **Projetos** , na guia **Componentes** , clique no botão **Adicionar** e selecione **Mobile Scorecard**.
 
-
-
+![Adicionar projetos](help/analyze/mobile-app/assets/add_project.png)
 
 **Usar ferramentas do Analytics**
 
-No Analytics, clique no menu Ferramentas e selecione Aplicativo móvel. Na tela subsequente, clique no botão Criar Scorecard.
+No Analytics, clique no menu **Ferramentas** e selecione Aplicativo **** móvel. Na tela subsequente, clique no botão **Criar Scorecard** .
 
 ### Configurar o Scorecard com dados e salvá-los
 
 Para implementar o modelo do Scorecard:
 
-1. Em Propriedades (no painel direito), especifique um Conjunto de relatórios de projeto a partir do qual deseja usar os dados.
+1. Em **Propriedades** (no painel direito), especifique um Conjunto **de relatórios de** projeto do qual deseja usar os dados.
+
+   ![Seleção do conjunto de relatórios](help/analyze/mobile-app/assets/properties_save.png)
+
+2. Para adicionar um novo bloco ao Scorecard, arraste uma métrica do painel esquerdo e solte-a na Zona **Arrastar e soltar métricas aqui** . Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
+
+   ![Adicionar blocos](help/analyze/mobile-app/assets/build_list.png)
 
 
-
-2. Para adicionar um novo bloco ao Scorecard, arraste uma métrica do painel esquerdo e solte-a na Zona Arrastar e soltar métricas aqui. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
-
-
-   Em cada bloco, você pode acessar uma exibição detalhada que exibe informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.
+   *Em cada bloco, você pode acessar uma exibição detalhada que exibe informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.*
 
 
-3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, é possível adicionar dimensões apropriadas (como Região de DMA, neste exemplo) à métrica Visitantes únicos arrastando-a e soltando-a no bloco; as dimensões adicionadas aparecerão na seção de detalhamento das Propriedades específicas do bloco. É possível adicionar várias dimensões a cada bloco.
+3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, é possível adicionar dimensões apropriadas (como Região **** DMA, neste exemplo) à métrica Visitantes **** únicos arrastando-a e soltando-a no bloco; as dimensões adicionadas aparecerão na seção de detalhamento das **Propriedades** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
+
+   ![Adicionar dimensões](help/analyze/mobile-app/assets/layer_dimensions.png)
+
+   *Observação: Também é possível adicionar uma dimensão a todos os blocos soltando-os na tela do Scorecard.*
+
+   Quando você clica em um bloco no Construtor de scorecard, o painel direito exibe as propriedades e características associadas ao bloco. Neste painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurar o bloco ao especificar componentes em vez de arrastá-los e soltá-los do painel esquerdo.
 
 
-   *Observação: Também é possível adicionar uma dimensão a todos os blocos soltando-os na tela do Scorecard. *
+   Além disso, se você clicar em blocos, um pop-up dinâmico exibirá como a exibição Detalhamento será exibida para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será **hora** ou **dias**, dependendo do intervalo de datas padrão.
 
-   Quando você clica em um bloco no Construtor de scorecard, o painel direito exibe as propriedades e características associadas ao bloco. Neste painel, você pode fornecer um novo Título para o bloco e, como alternativa, configurar o bloco especificando componentes em vez de arrastá-los e soltá-los do painel esquerdo.
+   ![Análise_visualização](help/analyze/mobile-app/assets/break_view.png)
 
-
-
-
-
-
-
-
-   Além disso, se você clicar em blocos, um pop-up dinâmico exibirá como a exibição Detalhamento será exibida para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será hora ou dias, dependendo do intervalo de datas padrão.
-
-
-
-
-   Clicar em um bloco exibe a exibição Detalhamento desse bloco ao lado do Scorecard.
-Observe como cada dimensão adicionada ao bloco será exibida em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções listadas na lista suspensa.
+   *Observe como cada dimensão adicionada ao bloco será exibida em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções listadas na lista suspensa.*
 
 4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se desejar aplicar o segmento a todos os blocos do Scorecard, solte o bloco na parte superior do scorecard.
 
-5. Da mesma forma, para remover um componente que é aplicado a todo o Scorecard, clique em qualquer lugar no Scorecard fora dos blocos e remova-o clicando no x que aparece ao passar o mouse sobre o componente, conforme mostrado abaixo para o segmento Clientes móveis:
+5. Da mesma forma, para remover um componente que é aplicado a todo o Scorecard, clique em qualquer lugar no Scorecard fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, conforme mostrado abaixo para o segmento Clientes **** móveis:
 
-6. Em Propriedades do Scorecard, também é possível especificar o seguinte:
+   ![Remover_componentes](help/analyze/mobile-app/assets/new_remove.png)
 
-   * Um Intervalo De Datas Padrão. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
+6. Em **Propriedades** do Scorecard, também é possível especificar o seguinte:
 
-   * Um intervalo de datas de comparação
+   * Um Intervalo **De Datas** Padrão. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
 
-   * Quaisquer segmentos a serem aplicados a todo o Scorecard
+   * Um intervalo de datas de **comparação**
+
+   * Quaisquer **segmentos** a serem aplicados a todo o Scorecard
 
 7. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
+
+   ![Nomear_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Compartilhar o Scorecard
 
 Para compartilhar o Scorecard com um usuário executivo:
 
-1. Clique no menu Compartilhar e selecione Compartilhar Scorecard.
+1. Clique no menu **Compartilhar** e selecione **Compartilhar Scorecard**.
 
-2. No formulário Compartilhar, preencha os campos ao:
+2. No formulário **Compartilhar** , preencha os campos ao:
 
    * Fornecer o nome do Scorecard
    * Fornecer uma descrição do Scorecard
    * Adição de tags relevantes
    * Especificação dos destinatários do Scorecard
-   * Selecione a opção Compartilhar componentes incorporados com destinatários para garantir que o usuário executivo tenha acesso a todos os componentes no Scorecard.
+   * Selecione a opção para **Compartilhar componentes incorporados com destinatários** para garantir que o usuário executivo tenha acesso a todos os componentes no Scorecard.
 
-3. Clique em Compartilhar.
+3. Clique em **Compartilhar**.
+
+![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+
 
 Depois de compartilhar um Scorecard, os destinatários poderão acessá-lo em seus aplicativos do Analytics Mobile. Se você fizer alterações subsequentes no Scorecard no Construtor de Scorecard, elas serão automaticamente atualizadas no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard em seu aplicativo.
 
-*Observação: Se você atualizar o Scorecard adicionando novos componentes, poderá compartilhar o scorecard novamente (e marcar a opção Compartilhar automaticamente componentes incorporados com destinatários) para garantir que os usuários executivos tenham acesso a essas alterações.*
-
+*Observação: Se você atualizar o Scorecard adicionando novos componentes, poderá compartilhar o scorecard novamente (e marcar a opção Compartilhar componentes incorporados **automaticamente com destinatários**) para garantir que os usuários executivos tenham acesso a essas alterações.*
 
 ## Configurar usuários executivos com o aplicativo
 
@@ -150,23 +156,48 @@ Para ajudar usuários executivos a acessar seus Scorecards no aplicativo, verifi
     * Eles têm um logon válido no Adobe Analytics
     * Você criou corretamente os Mobile Scorecards para eles e os compartilha com eles.
     * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios no qual o Scorecard se baseia
-    * Eles têm acesso aos Componentes incluídos no Scorecard. Observação: Você pode selecionar uma opção ao compartilhar seus Scorecards para Compartilhar automaticamente componentes incorporados com destinatários.
-
+    * Eles têm acesso aos Componentes incluídos no Scorecard. Observação: Você pode selecionar uma opção ao compartilhar seus Scorecards com **Compartilhar automaticamente componentes incorporados com destinatários**.
 
 ### Ajuda os usuários executivos a usar o aplicativo
 
-1. Para ajudar os usuários executivos, verifique se eles podem baixar e instalar o aplicativo de acordo com o sistema operacional do dispositivo móvel.
+Durante a fase beta e antes do aplicativo ser exibido ao público, você pode controlar quem tem acesso ao aplicativo.
 
-   **iOS**
+1. Ajuda os usuários executivos a baixar e instalar o aplicativo. Para fazer isso, forneça as seguintes etapas para estender o acesso aos usuários executivos, dependendo se eles usam um dispositivo iOS ou Android.
+
+   **Para usuários executivos no iOS:**
+
+   1. Clique no seguinte link público (Ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
+
+      [Link](https://testflight.apple.com/join/WtXMQxlI)do iOS: `https://testflight.apple.com/join/WtXMQxlI`
+
+      Depois de clicar no link, a seguinte tela de Testflight é exibida:
+
+      ![Testflight screen](help/analyze/mobile-app/assets/testflight1.png)
+
+   2. Toque no link **Exibir na App Store** na tela para baixar o aplicativo Testflight.
+
+   3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
+   ![Testflight screen](help/analyze/mobile-app/assets/testflight2.png)
+
+   **Para usuários executivos no Android:**
+
+   1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
 
 
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   **Android**
+      Depois de tocar no link, toque no link Testar na seguinte tela:
 
+      ![Tela Reproduzir na loja](help/analyze/mobile-app/assets/play.png)
 
+   2. Toque no **download do link no Google Play** na seguinte tela:
 
+      ![Link de download](help/analyze/mobile-app/assets/playnext.png)
 
+   3. Baixe e instale o aplicativo.
+   Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
 
+   ![Tela de boas-vindas do aplicativo](help/analyze/mobile-app/assets/welcome.png)
 
 2. Ajude-os a acessar seu Scorecard. Depois que os usuários executivos fazem logon no aplicativo, a tela Escolher uma empresa é exibida. Esta tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
 
