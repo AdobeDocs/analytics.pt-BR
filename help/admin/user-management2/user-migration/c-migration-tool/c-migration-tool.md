@@ -3,7 +3,7 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 22fbe95ec5534694187b2015dd4ed39aa6b9398d
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -12,29 +12,9 @@ source-git-commit: 22fbe95ec5534694187b2015dd4ed39aa6b9398d
 
 O que você precisa saber sobre a migração de IDs de usuários do Analytics para o Admin Console na Adobe Experience Cloud.
 
-<!--
-<p>FAQ <a href="https://wiki.corp.adobe.com/display/DMTM/Migration+FAQ"> Source</a> </p>
--->
-
-<!--
-<p>Help publish link: <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/</a> </p>
-<p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
--->
-
-<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
-On this page:
-
-* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
-* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
-* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
-* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
-* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
-* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
--->
-
 Para obter ajuda geral sobre os tópicos do Admin Console (não relacionados à migração do Analytics), consulte o [Guia do usuário do Admin Console](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
-Depois de migrar, você pode [gerenciar usuários e produtos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) no Admin Console.
+Depois de migrar, você pode [gerenciar usuários e produtos da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) no Admin Console.
 
 ## O que é a migração de IDs de usuários do Analytics?  {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -114,14 +94,14 @@ Respostas às perguntas que você pode ter antes da migração.
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">Seus grupos de permissão existentes no Analytics serão replicados automaticamente no Admin Console como Perfis de produtos, incluindo suas descrições e permissões granulares em conjuntos de relatórios, métricas, dimensões, Analytics e ferramentas do conjunto de relatórios. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se um usuário atual do Analytics tiver sido criado no Admin Console (o que significará que tem uma Adobe/Enterprise ID vinculada), ele será adicionado ao Perfil de produto apropriado no Admin Console. </li> 
-     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Google Analytics será definida como  <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Admin Console. Consulte <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Recursos do Analytics não suportados no Admin Console</a> para obter mais informações. </li> 
+     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Google Analytics será definida como  <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Admin Console. Consulte <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Recursos do Analytics não suportados no Admin Console</a> para obter mais informações. </li> 
      <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você receberá acesso à [Ferramenta de migração de ID de usuário] (https://marketing.adobe.com/resources/help/pt_BR/experience-cloud/admin-console/analytics-migration/t_migrate-users.html). Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Você terá acesso à guia Permissões no Admin Console, que permite criar Perfis de produtos com todas as opções granulares com as quais você está familiarizado no Analytics. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Como migrar IDs de usuários? </p> </td> 
-   <td colname="col2"> <p> Clique em <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migrar IDs de usuários</a> na página Admin, em Gerenciamento de usuários. Use a ferramenta para adicionar usuário aos perfis de produto no Admin Console (replicado dos grupos de permissão no Analytics). Você pode migrar IDs de usuários em seu próprio ritmo. </p> <p>Será necessário ter privilégios administrativos. Quando a migração terminar, ela não poderá ser revertida. </p> <p>Na data de término da migração, o acesso a <span class="filepath">my.omniture.com</span> será desativado para os usuários em suas empresas de logon. Os usuários (incluindo aqueles que ainda não foram migrados) serão redirecionados para fazer logon por meio do novo URL da Experience Cloud (<span class="filepath">experiencecloud.adobe.com</span>) </p> <p>Nota: a Adobe recomenda aproveitar a oportunidade para realizar uma auditoria de seus usuários e grupos antes da migração. Exclua contas antigas e não utilizadas ou contas que não devem mais ter acesso ao produto (por exemplo, funcionários que não estão mais na organização). </p> <p>Tópico relacionado: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md"> Migrar contas de usuário do Analytics para Enterprise e Federated IDs</a> </p> </td> 
+   <td colname="col2"> <p> Clique em <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migrar IDs de usuários</a> na página Admin, em Gerenciamento de usuários. Use a ferramenta para adicionar usuário aos perfis de produto no Admin Console (replicado dos grupos de permissão no Analytics). Você pode migrar IDs de usuários em seu próprio ritmo. </p> <p>Será necessário ter privilégios administrativos. Quando a migração terminar, ela não poderá ser revertida. </p> <p>Na data de término da migração, o acesso a <span class="filepath">my.omniture.com</span> será desativado para os usuários em suas empresas de logon. Os usuários (incluindo aqueles que ainda não foram migrados) serão redirecionados para fazer logon por meio do novo URL da Experience Cloud (<span class="filepath">experiencecloud.adobe.com</span>) </p> <p>Nota: a Adobe recomenda aproveitar a oportunidade para realizar uma auditoria de seus usuários e grupos antes da migração. Exclua contas antigas e não utilizadas ou contas que não devem mais ter acesso ao produto (por exemplo, funcionários que não estão mais na organização). </p> <p>Tópico relacionado: <a href="/help/admin/user-management2/user-migration/migrate-enterprise.md"> Migrar contas de usuário do Analytics para Enterprise e Federated IDs</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A migração afetará a minha implementação do Analytics ou a forma como os dados são coletados? </p> </td> 
@@ -342,7 +322,7 @@ Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analyti
 
 Nossa empresa começará a migrar todas as contas do Adobe Analytics de [!DNL https://my.omniture.com/login/] para a Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). Com essa migração, sua conta do Adobe Analytics será atualizada para permitir o acesso ao Analytics por meio da Adobe Experience Cloud. Apesar da alteração do método para acessar o Analytics, todas as permissões existentes para seus conjuntos de relatórios e ferramentas serão preservadas.
 
-**Próximas etapas:** começaremos a migrar os usuários a partir de <INSERT DATE>. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
+**Próximas etapas:** começaremos a migrar os usuários a partir de **INSERIR DATA**. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
 
 **Recursos úteis:**
 
