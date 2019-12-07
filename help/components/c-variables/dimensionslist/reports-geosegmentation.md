@@ -1,11 +1,10 @@
 ---
 description: Exibe dados sobre a localização do visitante. Relatórios de segmentação geográfica incluem Países, Regiões, Estados Unidos, e a DMA (digital marketing area - área de marketing digital) dos EUA. Relatórios de GeoSegmentation estão habilitados para todos os clientes.
-solution: Analytics
 title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,7 +45,7 @@ Todas as métricas que estão disponíveis em outro lugar no Reports &amp; Analy
   </tr> 
   <tr> 
    <td colname="col1"> Precisão do relatório </td> 
-   <td colname="col2"> <p>A Adobe fez parceria com a Digital Envoy, uma fornecedora líder de soluções de inteligência e autenticação de IP, para oferecer GeoSegmentation, uma capacidade de medição geográfica baseada nos endereços de IP de usuários finais. Enquanto a precisão em conjuntos de dados individuais pode variar, a Digital Envoy geralmente oferece 99% de precisão a nível de país, em relação aos 97% de precisão a nível de região, e em relação aos 90% de precisão a nível de cidade. </p> <p>Observação: Esses números presumem que [a configuração] (/help/admin/admin/general-acct-settings-admin.md) para remover o último octeto do endereço IP NÃO está ativada. </p> <p>Os endereços IP são mapeados para códigos postais, e cada cidade é definida pelos códigos postais que a "autoridade local" define como parte dessa cidade. Por exemplo, os subúrbios de Berlim não estão incluídos na definição de Berlim, mas cada cidade é listada separadamente, considerando que os endereços IP podem ser mapeados com precisão para um código postal em uma dessas cidades. </p> <p>Alguns fatores que podem influenciar os dados de GeoSegmentation do incluem: </p> 
+   <td colname="col2"> <p>A Adobe fez parceria com a Digital Envoy, uma fornecedora líder de soluções de inteligência e autenticação de IP, para oferecer GeoSegmentation, uma capacidade de medição geográfica baseada nos endereços de IP de usuários finais. Enquanto a precisão em conjuntos de dados individuais pode variar, a Digital Envoy geralmente oferece 99% de precisão a nível de país, em relação aos 97% de precisão a nível de região, e em relação aos 90% de precisão a nível de cidade. </p> <p>Observação: esses números presumem que [a configuração] (/help/admin/admin/general-acct-settings-admin.md) para remover o último octeto do endereço IP NÃO está ativada. </p> <p>Os endereços IP são mapeados de acordo com o código postal e cada cidade é definida pelos códigos postais que a "autoridade local" definir como parte dela. Por exemplo, o subúrbio de Berlim não está incluso na definição de Berlim, mas cada cidade é listada separadamente, considerando que os endereços IP podem ser mapeados precisamente de acordo com o código postal das cidades. </p> <p>Alguns fatores que podem influenciar os dados de GeoSegmentation do incluem: </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">Endereços de IP que representam procurações corporativas. Esses endereços podem aparecer como tráfego vindo através da rede corporativa do usuário, que pode ser um local realmente diferente se o usuário estiver trabalhando remotamente. </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">Endereços de IP móveis. Trabalhos de segmentação de IP móvel a níveis variáveis dependendo do local e da rede. Um número de transmissores faz a conexão ponto-a-ponto do tráfego de IP através de POPs centralizados ou regionais. </li> 
