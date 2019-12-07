@@ -1,11 +1,10 @@
 ---
 description: As dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um relatório. São valores e datas não numéricos que se correlacionam, sub-relacionam ou são uma classificação da métrica do tipo de relatório original.
-solution: Analytics
 title: Dimensões
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Exemplos de dimensões incluem:
 
 **Painel[!UICONTROL Dimensões]**
 
-O painel [!UICONTROL Dimensão] lista e organiza todas as dimensões de produto da sua implementação de relatórios e análises de marketing. É possível basear os relatórios em qualquer item de dimensão. É possível desdobrar dimensões por outras dimensões para analisar e comparar quase tudo.
+O painel [!UICONTROL Dimensão] lista e organiza todas as dimensões de produto da sua implementação de relatórios e análises de marketing. É possível basear os relatórios em qualquer item de dimensão. Você pode desdobrar dimensões por outras dimensões para analisar e comparar quase tudo.
 
 No painel [!UICONTROL Dimensões], você pode buscar por dimensões e arrastá-las para o [!UICONTROL Construtor de Tabelas] ou para a tabela de detalhes do relatório.
 
