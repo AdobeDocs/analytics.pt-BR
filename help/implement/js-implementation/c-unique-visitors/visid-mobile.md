@@ -1,12 +1,11 @@
 ---
 description: A maioria dos dispositivos móveis aceita os cookies do navegador. Porém, em casos nos quais os dispositivos não aceitam cookies, um outro método é usado para identificar os dispositivos sem fio.
 keywords: Analytics Implementation
-solution: Analytics
 title: Identificar dispositivos móveis
 topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
