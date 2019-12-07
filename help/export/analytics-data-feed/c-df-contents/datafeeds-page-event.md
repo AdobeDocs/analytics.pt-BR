@@ -1,12 +1,11 @@
 ---
 description: Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
 keywords: Data Feed;page;event;page_event;post_page_event
-solution: Analytics
 title: Pesquisa de evento da página
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 Tabela de pesquisa para determinar o tipo de um hit com base no valor de page_event.
 
-| Tipo de ocorrência | `page_event` value | `post_page_event` value |
+| Tipo de ocorrência | `page_event` valor | `post_page_event` valor |
 | --- | --- | --- |
 | Exibições de página | 0: Todas as chamadas de exibição de página e `trackState` chamadas do SDK móvel | Mesmo valor que `post_page_event` |
 | Rastreamento de link | 10: Links e `trackAction` chamadas personalizados no SDKs<br>11 móveis: Links<br>de download 12: Links de saída | 100: Links personalizados e `trackAction` chamadas no SDK<br>101 móvel: Baixar links<br>102: Links de saída |
