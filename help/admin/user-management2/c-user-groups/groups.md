@@ -1,12 +1,11 @@
 ---
 description: Descrições de elementos na página Definir grupo de usuários.
-solution: Analytics
 subtopic: Users and groups
 title: Configurações do grupo de usuários
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Descrições de elementos na página Definir grupo de usuários.
 
-**[!UICONTROL Admin]** &gt; Gerenciamento **** do usuário &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Adicionar novo grupo de usuários]**
+**[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Adicionar novo grupo de usuários]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -61,21 +60,21 @@ Descrições de elementos na página Definir grupo de usuários.
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios</b>de tráfego: Concede acesso a todos os relatórios com base no tráfego, como exibições de página, visitas e visitantes únicos. </li> 
-       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Ferramentas</b> (concede acesso às ferramentas usadas nos Relatórios e análises, como Excluir por IP, Classificações e Clickmap herdado.) </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios de tráfego</b>: concede acesso a todos os relatórios baseados em tráfego, como exibições de página, visitas e visitantes únicos. </li> 
+       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Ferramentas</b> (concede acesso às ferramentas usadas nos Reports &amp; Analytics, como Excluir por IP, Classificações e Clickmap herdado.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Relatórios de vídeo e dispositivos móveis</b> </li> 
-       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Relatórios de caminhos</b> (concede acesso a relatórios de caminhos como Próxima página, Fallout e Tempo gasto na página). </li> 
+       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Relatórios de trajetória</b> (concede acesso a relatórios de rastreamento como Próxima página, Fallout e Tempo gasto na página). </li> 
        <li id="li_D0B1B964C071441EAEC919DD7CC08E3D"><b>Relatórios de caminho personalizados</b> </li> 
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test e Target </b>(concede acesso aos relatórios do Target se a organização usar o Analytics e o Target). </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Serviços da Web </b>(concede acesso aos recursos de API para relatórios e administração). </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Métricas</b> (concede acesso às métricas usadas em Relatórios e análises, incluindo as métricas padrão como exibições de página e outras como eventos personalizados). </li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Métricas</b> (concede acesso às métricas usadas em Reports &amp; Analytics, incluindo as métricas padrão como exibições de página e outras como eventos personalizados). </li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(concede acesso a diversos componentes no Menu de administração, como Logs e configurações de Conjunto de relatórios). </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>Download de relatório</b> (concede a capacidade de baixar relatórios da interface do usuário do Analytics). </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Pesquisa</b> (concede acesso aos relatórios de Pesquisa se a sua organização também usar o recurso descontinuado do Adobe Survey). </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Relatórios avançados</b> (concede acesso aos relatórios avançados, como Canais de marketing, Detecção de anomalias, Segmentos e métricas calculadas). </li> 
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (permite acessar relatórios gerados a partir de dados do Adobe Social.) </li> 
-       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Conectores de dados </b>(permite aos usuários criar, atualizar e excluir conectores de dados). </li> 
+       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>(permite aos usuários criar, atualizar e excluir conectores de dados). </li> 
       </ul> </p> 
     </draft-comment> </td> 
   </tr> 
