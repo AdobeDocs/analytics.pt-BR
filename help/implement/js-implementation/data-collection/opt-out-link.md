@@ -1,13 +1,12 @@
 ---
 description: Especifique um link para opção de não participação e personalize a marca para ele. Os visitantes do site podem optar por não ter a atividade rastreada nos produtos de análise da Adobe visitando a página de opção de não participação do domínio de coleta de dados.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Adicionar um link para opção de não participação
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
