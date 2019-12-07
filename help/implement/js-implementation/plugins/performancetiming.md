@@ -1,12 +1,11 @@
 ---
 description: 'Este plug-in usa a Navigation Timing JavaScript API para medir com precisão o desempenho na Web. Isso fornece um método para obter dados de estatística precisos e detalhados para eventos de carregamento de paginas e tempos de carregamento de ativos. Anteriormente, medidas desse tipo utilizavam o objeto JavaScript Date para métricas de tempo ou uma extrapolação rudimentar das métricas Navigation Timing. Apesar de fornecerem dados de tendência sobre os tempos de carregamento de páginas, ambas as metodologias são incertas. '
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
