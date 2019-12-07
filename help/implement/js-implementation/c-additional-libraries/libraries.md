@@ -1,12 +1,11 @@
 ---
 description: Lista as bibliotecas de medição disponíveis.
 keywords: Analytics Implementation;collect;data;collection
-solution: Analytics
 title: Visão geral de bibliotecas adicionais
 topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ A seguinte tabela descreve as bibliotecas disponíveis para coletar dados do Ana
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Local </th> 
+   <th colname="col1" class="entry"> Localização </th> 
    <th colname="col2" class="entry"> Opções </th> 
   </tr> 
  </thead>
@@ -40,7 +39,7 @@ A seguinte tabela descreve as bibliotecas disponíveis para coletar dados do Ana
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Dispositivo Remoto </td> 
+   <td colname="col1"> Dispositivo móvel </td> 
    <td colname="col2"> <p>As bibliotecas nativas são fornecidas para iOS, Android, Windows Phone 8, Blackberry, Symbian e outros. </p> 
     <ul id="ul_DB6A44A2FF724B5BB36973FDFB8353A5"> 
      <li id="li_2B97BA81591747638D620A23881411F6"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/"> AppMeasurement 4.x para iOS</a> (versão mais recente) </li> 
