@@ -1,11 +1,10 @@
 ---
 description: Relaciona as métricas padrão no Adobe Analytics.
-solution: Analytics
 title: Referência rápida das métricas
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ Relaciona as métricas padrão no Adobe Analytics.
 
 >[!NOTE]
 >
->Qualquer métrica (evento) não listada abaixo é uma métrica [](/help/components/c-variables/c-metrics/metrics-custom.md) personalizada (evento personalizado).
+>Qualquer métrica (evento) não listada abaixo é uma [métrica personalizada](/help/components/c-variables/c-metrics/metrics-custom.md) (evento personalizado).
 
 >[!IMPORTANT]
 >
->A Analysis Workspace não diferencia mais as métricas de Tráfego e Conversão. Portanto, o tipo de métrica é relevante somente para ferramentas como Relatórios e análises, Serviços da Web 1.4 e Construtor de relatórios.)
+>A Analysis Workspace não diferencia mais entre métricas de Tráfego e Conversão. Portanto, o tipo de métrica é relevante somente para ferramentas como Reports &amp; Analytics, Serviços da Web 1.4 e Report Builder.)
 
 | Nome da métrica | Descrição | Tipo |
 |--- |--- |---|
@@ -28,7 +27,7 @@ Relaciona as métricas padrão no Adobe Analytics.
 | Tempo médio gasto na página | Representa o tempo médio gasto em uma página durante uma visita. | Tráfego |
 | Tempo médio gasto no site | Representa o tempo médio gasto em um site durante uma visita. | Tráfego |
 | Taxa de rejeição | Mostra a porcentagem de visitas que contém uma única ocorrência. A taxa de rejeição usa a métrica de rejeições e é calculada como: Rejeições divididas pelas Entradas. | Conversão |
-| Devoluções | Uma visita que consiste em uma chamada única de servidor. Por exemplo, uma visita de página única é uma rejeição se o visitante não interagir com a página de forma a enviar dados para a Adobe como, por exemplo, clicar em um link ou iniciar um vídeo. Se mais uma ocorrência for recebida em uma visita, uma Rejeição não é contabilizada. | Conversão |
+| Devoluções | Uma visita que consiste em uma chamada única de servidor. Por exemplo, uma visita de página única é uma rejeição se o visitante não interagir com a página de forma a enviar dados para a Adobe como, por exemplo, clicar em um link ou iniciar um vídeo. Se mais de uma ocorrência for recebida em uma visita, uma Rejeição não é contabilizada. | Conversão |
 | Click-throughs da campanha | Os Click-throughs representam o número de vezes que um código de rastreamento de uma campanha específica foi passado ao relatório. Quando um visitante clica em um link afiliado que foi marcado com um desses códigos de rastreamento, o visitante é levado a sua página de aterrissagem e o código de rastreamento é capturado na s.campaign. Os dados são enviados para o relatório e um click-through é registrado. | Conversão |
 | Adições ao carrinho | O número de vezes que um item foi adicionado ao carrinho de compras. Este valor vem do evento scAdd. | Conversão |
 | Abertura do Carrinho | O número de vezes em que um cliente abriu um carrinho de compras adicionando o primeiro item. Ocorre na primeira vez em que um item é adicionado ao carrinho de compras. Este valor vem do evento scOpen. | Conversão |
@@ -44,7 +43,7 @@ Relaciona as métricas padrão no Adobe Analytics.
 | Instâncias | O número de vezes que um valor foi definido para uma variável. As instâncias são contabilizadas por todos os tipos de ocorrência, mas não são contabilizadas quando um valor é gravado para uma variável ou uma ocorrência subsequente por motivos de persistência. | Conversão |
 | Exibições para dispositivos móveis | O número de vezes que uma página é visualizada ou que uma dimensão é definida quando acessada através de um dispositivo móvel. Somente Ad Hoc Analysis. Em vez de usar a métrica de visualizações móveis, recomendamos aplicar o segmento "Visitas de dispositivos móveis". | Conversão |
 | Novas participações | Novas Participações é uma métrica de relatório do canal de marketing que contabiliza os novos visitantes que chegam através de um canal. Essa métrica também conta os visitantes que não visitaram o seu site nos últimos 30 dias. Uma Nova participação é uma eVar configurada no início de cada visita (alocação original). Canais de primeiro toque também podem ser Novas participações, dependendo das configurações de expiração da participação do visitante. | Conversão |
-| Ocorrências | O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. Ocorrências disponíveis somente em Ad Hoc Analysis. | Não disponível no Relatórios e análises, nos Serviços da Web 1.4 ou no Construtor de relatórios |
+| Ocorrências | O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. Ocorrências disponíveis somente em Ad Hoc Analysis. | Não disponível em Reports &amp; Analytics, Serviços da Web 1.4 ou Report Builder |
 | Pedidos | O número de pedidos feitos no site durante o intervalo selecionado. É possível analisar períodos individuais usando outras métricas para mostrar os itens (como produtos ou campanhas) que contribuíram para a maioria das ordens durante esse intervalo de tempo. | Conversão |
 | Profundidade da página | O número médio de cliques necessários para os usuários chegarem a uma página específica do site. | Tráfego |
 | Eventos de página | Os eventos de página consistem em dados de solicitação de imagem de solicitações de imagem não padrão. As fontes de solicitações de imagem não padrão são links de downloads, links de saída e rastreamento de link personalizado. | Tráfego |
