@@ -1,11 +1,10 @@
 ---
 description: Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analytics no Construtor de relatórios.
-solution: Analytics
 title: Gerenciar segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -72,8 +71,8 @@ Os filtros disponíveis incluem:
 | Tags | Permite que você filtre nos segmentos com tags específicas. Observe que os filtros de tags usam o operador E. Se você verificar duas tags, o painel direito mostra segmentos que foram marcados com **ambas** as tags. |
 | Proprietários | Permite que você filtre segmentos por proprietário. Observe que os filtros Proprietários usam o operador OU. Se você marcar dois proprietários, o painel direito mostra segmentos de propriedade de **qualquer** proprietário. |
 | Outros filtros &gt; Somente o *nome do conjunto de relatórios* | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
-| Outros filtros &gt; Meu | Mostra todos os seus segmentos. |
-| Outros filtros &gt; Compartilhado comigo | Mostra todos os segmentos que outros compartilharam com você. |
+| Outros filtros &gt; Meus | Mostra todos os seus segmentos. |
+| Outros filtros &gt; Compartilhados comigo | Mostra todos os segmentos que outros compartilharam com você. |
 | Outros filtros &gt; Favoritos | Mostra todos os segmentos que você marcou como Favoritos. |
 | Outros filtros &gt; Aprovado | Mostra todos os segmentos aprovados oficialmente. |
 
