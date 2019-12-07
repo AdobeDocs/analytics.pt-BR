@@ -1,11 +1,10 @@
 ---
 description: É possível selecionar o tipo de relatório base para sua solicitação de dados, como Métricas do site, Conteúdo do site e Vídeo.
-solution: Analytics
 title: Visão geral dos tipos de relatórios
 topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
