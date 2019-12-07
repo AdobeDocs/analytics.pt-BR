@@ -1,15 +1,12 @@
 ---
 description: A variável s.products pode ser a variável mais sintaticamente complexa usada pela coleta de dados.
-keywords: Implementação do Analytics
-seo-description: A variável s.products pode ser a variável mais sintaticamente complexa usada pela coleta de dados.
-seo-title: Erros comuns na variável Products
-solution: Analytics
-subtopic: Solução de problemas
+keywords: Analytics Implementation
+subtopic: Troubleshooting
 title: Erros comuns na variável Products
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
