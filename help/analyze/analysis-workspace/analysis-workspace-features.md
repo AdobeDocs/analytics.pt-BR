@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: Visão geral da Analysis Workspace
+title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Visão geral da Analysis Workspace
+# Visão geral do Analysis Workspace
 
-A Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
+O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Vídeo de visão geral {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
@@ -24,11 +23,11 @@ Lista de reprodução completa do YouTube disponível [aqui](https://www.youtube
 
 >[!NOTE]
 >
->Consulte [Novidades na Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) para obter atualizações sobre recursos.
+>Consulte [Novidades no Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) para obter atualizações sobre recursos.
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Controle completo dos elementos e dos componentes do projeto {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
-A Analysis Workspace oferece liberdade e flexibilidade para:
+O Analysis Workspace oferece liberdade e flexibilidade para:
 
 * Arrastar e soltar os componentes (dimensões, métricas, segmentos e granularidades de tempo)
 * Arrastar e soltar várias visualizações no projeto
@@ -36,9 +35,9 @@ A Analysis Workspace oferece liberdade e flexibilidade para:
 
 ![](assets/fa_project_new.png)
 
-Consulte [Criar um projeto da Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
+Consulte [Criar um projeto do Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## Várias visualizações em um projeto {#section_B7670740C2D44130B21DAF0873280DA5}
 
 Arraste e solte muitas visualizações no projeto que desejar.
 
@@ -48,11 +47,11 @@ Crie um projeto que mostra a porcentagem de alteração, com várias visualizaç
 
 ![](assets/visualizations-multiple02.png)
 
-Consulte [Criar um projeto da Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
+Consulte [Criar um projeto do Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intravinculação a painéis e visualizações {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. É possível compartilhar essas vinculações da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico em um projeto. Novas opções de clique com o botão direito do mouse chamadas "Obter link do painel" e "Obter link de visualização" foram adicionadas. Para adicionar intravinculação ao seu projeto:
+Juntamente com a [edição de rich text](/help/analyze/analysis-workspace/visualizations/text.md) do Analysis Workspace, é possível criar links internos para painéis e visualizações específicos em um projeto a partir de uma caixa de texto, por exemplo, para criar o índice do projeto. É possível compartilhar esses links da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico de um projeto. Foram adicionadas novas opções ao menu exibido após o clique com o botão direito, chamadas “Obter link do painel” e “Obter link da visualização”. Para adicionar intravinculação ao seu projeto:
 
 1. Arraste uma visualização de texto ao projeto, talvez próximo a uma visualização ou tabela que precise de contexto.
 1. Preencha a caixa de texto com, por exemplo, uma tabela de conteúdo. Em seguida, destaque um item que deseja vincular ao painel ou à visualização, como Métricas de sucesso, por exemplo.
@@ -60,7 +59,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. Role para esse painel ou visualização e clique com o botão direito no cabeçalho do painel.
-1. Role para baixo e selecione **[!UICONTROL Obter link do pinel]** ou **[!UICONTROL Obter link da visualização]**:
+1. Role para baixo e selecione **[!UICONTROL Obter link do painel]** ou **[!UICONTROL Obter link da visualização]**:
 
    ![](assets/intra-linking2.png)
 
@@ -68,19 +67,19 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 Caso tenha painéis ou visualizações recolhidos no projeto, clique no link para expandir o painel/visualização, para que os usuários possam visualizá-lo.
 
-> [!NOTE] Você também pode usar esse recurso na opção de clique com o botão direito **[!UICONTROL Editar descrição]** .
+> [!NOTE] Também é possível usar esse recurso na opção de clique com o botão direito **[!UICONTROL Editar descrição]**.
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Vincular a outros projetos {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+É possível vincular usuários a outros projetos que podem ser de interesse deles. Para fazê-lo, acesse **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Obter link do projeto]** e incorpore esse link às descrições do projeto, por exemplo.
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Visualização dinâmica de células selecionadas {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 Selecione as células individuais e veja as visualizações mudarem dinamicamente. [Sincronize e bloqueie](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) uma visualização com as células selecionadas.
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## Bloquear itens ou posições selecionados {#section_9D66A001586F49CEB0C565581E44957C}
 
 O bloqueio de visualizações permite controlar quais fontes da tabela de dados de forma livre correspondem às visualizações.
 
@@ -88,25 +87,25 @@ O bloqueio de visualizações permite controlar quais fontes da tabela de dados 
 
 Consulte [Gerenciar fontes de dados](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Visualizações de tendências a partir de células selecionadas {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Crie uma visualização de células selecionadas. (Clique com o botão direito do mouse em &gt; **[!UICONTROL Seleção de tendências]**.)
+Crie uma visualização a partir células selecionadas. (Clique com o botão direito em &gt; **[!UICONTROL Colocar seleção em tendência]**.)
 
 ![](assets/trend-selection.png)
 
-As seleções de tendências agora estão **vinculadas** à tabela abaixo; desta forma, se você selecionar uma linha diferente, o gráfico de tendências refletirá essa linha.
+As seleções de tendências agora estão **vinculadas** à tabela abaixo. Dessa forma, se você selecionar uma linha diferente, o gráfico de tendências refletirá essa linha.
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Detalhamentos das dimensões e de itens da dimensão {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 Como revendedor, você pode se aprofundar mais do que nunca em suas campanhas para entender a melhor forma de envolver os seus clientes. Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades específicas; crie consultas usando métricas, dimensões, segmentos, linhas do tempo e outros valores de detalhamento de análise relevantes.
 
 ![Resultado da etapa](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+Consulte [Detalhar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## Segmentos de seleções de tabela {#section_73BC3688089B426D969B3D5B606DA970}
 
 Selecione as células na tabela de dados de forma livre e crie um segmento da seleção.
 
@@ -120,30 +119,30 @@ Solte um segmento no painel de forma livre, no nível do projeto, e o segmento s
 
 Consulte  [Segmentos](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## Marcação de projetos e componentes {#section_F54D688132A541F2982326D5E022B90D}
 
-Você pode aplicar tags aos projetos e componentes na Analysis Workspace:
+Você pode aplicar tags aos projetos e componentes no Analysis Workspace:
 
-* Aplique ou crie tags em nível de projeto no painel Informações. (![)](assets/information_icon.png)
+* Aplique ou crie tags no nível do projeto, no painel Informações. (![](assets/information_icon.png)
 
 * Clique com o botão direito do mouse nos componentes para marcá-los (ou crie tags) no painel Componentes.
 * Use # no campo de Pesquisa para localizar as tags.
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Ações dos componentes {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-Execute ações a nível de componente no menu de Ações na parte superior do trilho de componentes à esquerda. Selecione um componente e clique em **[!UICONTROL Ações]para ver as ações.**
+Execute ações no nível dos componentes no menu Ações, na parte superior do painel de componentes à esquerda. Selecione um componente e clique em **[!UICONTROL Ações]** para ver as ações.
 
 | Ação de componente | Descrição |
 |--- |--- |
-| Adicionar tag | Organize ou gerencie componentes aplicando guias. Em seguida, ele é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos |
-| Marcar como favorito | Adicione o componente à sua lista de favoritos. Em seguida, ele é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos  . |
-| Aprovar | Aprove o componente para torná-lo canônico. Em seguida, ele é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos |
+| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
+| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
+| Aprovar | Aprove o componente para torná-lo canônico. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
 | Compartilhar | Aplica-se somente a segmentos. |
 | Excluir | Aplica-se somente a segmentos. |
 
-Consulte [Exibições](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mais informações.
+Consulte [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mais informações.
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Descrições adicionais destacadas {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **O que você pode arrastar e empilhar**
 
@@ -164,7 +163,7 @@ Não há limite técnico para o número de tabelas de forma livre e visualizaç�
 * Classifique as predefinições do intervalo de datas (não inclui os intervalos de datas personalizados).
 * Pressione CTRL (ou Command) + clique, para arrastar uma coluna e copiá-la, e ao arrastar a cópia, ela é colada na nova posição na tabela.
 
-Consulte [Teclas de atalho disponíveis na Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter mais informações.
+Consulte [Teclas de atalho disponíveis no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter mais informações.
 
 **Seleções e ações**
 
@@ -182,7 +181,7 @@ Projetos já existentes (e não os novos) serão salvos automaticamente apenas q
 
 **Todas as visitas**
 
-Um segmento padrão exclusivo para a Analysis Workspace. *`All Visits`* é um recurso que exibe os totais dos componentes adicionados a tabela.
+Um segmento padrão exclusivo do Analysis Workspace. *`All Visits`* é um recurso que exibe os totais dos componentes adicionados à tabela.
 
 **Métricas calculadas**
 
