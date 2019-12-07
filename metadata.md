@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe analytics
+solution: Analytics
 solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/analytics.html
 solution-image: assets/analytics-icon-24.png
@@ -11,7 +12,7 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: e483f984cbd80ada0713c0e30a60f22280665d36
+source-git-commit: 2a304dd963273b43d23d5f39fbc9d4000d893f32
 
 ---
 
@@ -20,7 +21,7 @@ source-git-commit: e483f984cbd80ada0713c0e30a60f22280665d36
 
 O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
-| metadata | o que faz |
+| metadados | o que faz |
 |--- |--- |
 | solution-title | Usado no cabeçalho do artigo como link |
 | solution-hub-url | Abre a página helpx hub |
@@ -28,4 +29,4 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local da repo mestre para uso interno |
+| git-repo | Especifica o local do reporte mestre para uso interno |
