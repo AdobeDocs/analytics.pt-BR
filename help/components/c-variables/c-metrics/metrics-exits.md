@@ -1,11 +1,10 @@
 ---
 description: O número de vezes que um determinado valor é capturado como o último em uma visita. Saídas podem ocorrer somente uma vez por visita.
-solution: Analytics
 title: Saídas
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
