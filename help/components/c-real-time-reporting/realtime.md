@@ -1,24 +1,23 @@
 ---
 description: Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
-solution: Analytics
 title: Visão geral do relatório em tempo real
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Visão geral do relatório em tempo real
 
-O relatório em tempo real exibe o tráfego da página da Web e classifica as exibições da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
+O relatório em tempo real exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
 
 >[!NOTE]
 >
->O Relatório em tempo real não requer nenhuma implementação ou marcação adicional. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja  [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
-**[!UICONTROL Métricas]** do site &gt; Tempo **[!UICONTROL real]**
+**[!UICONTROL Métricas do site]** &gt; **[!UICONTROL Tempo real]**
 
 O Tempo real responde as seguintes questões: Quais são os assuntos mais falados do meu site, e por quê? Permite que você, enquanto profissional de marketing, possa responder de maneira rápida e gerenciar ativamente o desempenho de seu conteúdo de marketing e de suas campanhas. Os dados em tempo real relatados possui menos de dois minutos de latência e é atualizado automaticamente em um intervalo de um em um minuto.
 
@@ -42,13 +41,13 @@ Como Administrador, você pode
 
 * Por exemplo, compare os valores da semana anterior aos do último ano (bem como o total do dia).
 
-Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios](/help/components/c-real-time-reporting/t-realtime-admin.md)em tempo real.
+Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em  [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos "Todos os acessos de relatório" e "Relatórios avançados" . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 
-## Latência dos dados como resultado da configuração A4T {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latência dos dados como resultado da configuração A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
 
-After the A4T integration is enabled in Adobe [!DNL Target], you will experience an additional 5-10 minutes of latency in Adobe Analytics. This latency increase allows data from Analytics and [!DNL Target] to be stored on the same hit, allowing you to break down tests by page and site section.
+Depois que a integração A4T for habilitada no Adobe [!DNL Target], haverá de 5 a 10 minutos adicionais de latência no Adobe Analytics. O aumento dessa latência permite que os dados do Analytics e do [!DNL Target] sejam armazenados na mesma ocorrência, permitindo dividir os testes por página e seção do site.
 
 Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics, incluindo a transmissão ao vivo e os relatórios em tempo real e aplicam-se nas seguintes situações:
 
