@@ -1,12 +1,11 @@
 ---
 description: Os marcadores concedem acesso aos relatórios que você mais usa. Os marcadores criados são adicionados à Experience Cloud e estão disponíveis em recursos integrados como conectores de dados.
-solution: Analytics
 subtopic: Bookmarks
 title: Gerenciador de marcador
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador.]**.
 
-    |Nome|Um nome amigável para este marcador.|
-    |---|---|     
-    |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.|     
-    |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.|     
-    |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
+       |Nome|Um nome amigável para este marcador.
+    |
+ |—|—|     |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.
+|     |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.
+|     |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
