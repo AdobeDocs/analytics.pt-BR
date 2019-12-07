@@ -1,12 +1,11 @@
 ---
 description: Se você quiser saber como os visitantes se movimentam de seção para seção no seu site, primeiro deve garantir que está marcando suas seções com a variável de canal.
 keywords: Analytics Implementation
-solution: Analytics
 title: Mover de seção a seção
 topic: Developer and implementation
 uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
