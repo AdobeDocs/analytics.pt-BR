@@ -1,11 +1,10 @@
 ---
 description: Coleta e organiza informações específicas da página sobre uma única página e as apresenta em um único relatório. Pode ser utilizado para entender como os visitantes estão chegando até determinada página, e se eles exploram seu site ou simplesmente seguem adiante.
-solution: Analytics
 title: Resumo da página
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
