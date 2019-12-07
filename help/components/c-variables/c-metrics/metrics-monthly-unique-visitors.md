@@ -1,11 +1,10 @@
 ---
 description: O número de visitantes não duplicados (contados apenas uma vez) do site durante um mês.
-solution: Analytics
 title: Visitantes únicos mensais
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 32fac842028e051db2f202cd112c1ce7dc899cfc
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ O número de visitantes não duplicados (isto é, contados apenas uma vez) do si
 | Usos | Descrição |
 |---|---|
 | Tráfego | Visitante único que acessa site em um único mês. Várias visitas em um mês contam como um [!UICONTROL Visitante único mensal]. |
-| Conversão | N/A |
+| Conversão | N/D |
 | Ad Hoc Analysis | Visitante único que acessa site em um único mês. Várias visitas em um mês contam como um [!UICONTROL Visitante único mensal]. |
 
-See [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
+Consulte [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
