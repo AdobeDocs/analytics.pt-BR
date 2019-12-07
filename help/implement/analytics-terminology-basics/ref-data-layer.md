@@ -1,12 +1,11 @@
 ---
 description: Uma "camada de dados" é uma estrutura de objetos JavaScript que os desenvolvedores inserem nas páginas.
 keywords: Analytics Implementation;data layer;digitalData
-solution: Analytics
 title: Camada de dados
 topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
