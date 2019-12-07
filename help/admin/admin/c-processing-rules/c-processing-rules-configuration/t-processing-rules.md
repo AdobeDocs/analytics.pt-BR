@@ -1,12 +1,11 @@
 ---
 description: As regras de processamento são definidas nos conjuntos de relatórios.
-solution: Analytics
 subtopic: Processing rules
 title: Criar regras de processamento
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As regras de processamento são definidas nos conjuntos de relatórios.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecionar um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de processamento]**.
 1. Na página **Regras de processamento**, clique em **[!UICONTROL Adicionar regra]**.
-1. Click **[!UICONTROL Add Condition]** and then select when the rule applies.
+1. Clique em **[!UICONTROL Adicionar condição]** e então selecione quando a regra se aplica.
 
-   Se você adicionar mais de uma condição, clique na caixa suspensa **[!UICONTROL Todas]para selecionar quais condições devem ser atendidas para que a regra se aplique.** Se você não adicionar uma condição, a ação definida será sempre executada.
+   Se você adicionar mais de uma condição, clique na caixa suspensa **[!UICONTROL Todas]** para selecionar quais condições devem ser atendidas para que a regra se aplique. Se você não adicionar uma condição, a ação definida será sempre executada.
 
-1. Click **[!UICONTROL Add Action]** and then select the action you want performed when the conditions match.
+1. Clique em **[!UICONTROL Adicionar ação]** e, em seguida, selecione a ação que deseja executar quando as condições forem satisfeitas.
 1. Adicione uma observação que contenha detalhes sobre a regra e, então, clique em **[!UICONTROL Salvar]**.
 
    Se você tiver várias regras, arraste-as e solte-as na página para alterar a ordem de processamento.
