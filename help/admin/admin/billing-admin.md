@@ -1,11 +1,10 @@
 ---
 description: A página Faturamento permite acessar informações de faturamento, inclusive detalhes de tráfego de cada conjunto de relatórios. Somente um administrador autorizado tem acesso a essa página.
-solution: Analytics
 title: Faturamento
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 A página Faturamento permite acessar informações de faturamento, inclusive detalhes de tráfego de cada conjunto de relatórios. Somente um administrador autorizado tem acesso a essa página.
 
-> [!NOTE] Se o acesso à guia de cobrança estiver desativado para sua empresa, entre em contato com seu Gerente de conta.
+> [!NOTE] Se o acesso à guia de faturamento estiver desativado em sua empresa, entre em contato com o Gerente de conta.
 
 Os dados de visão geral do tráfego da página de faturamento permite correlacionar os dados de exibição da página nos relatórios com chamadas cobráveis do servidor em sua fatura. A página [!UICONTROL Faturamento] permite fazer o seguinte:
 
@@ -40,7 +39,7 @@ O relatório [!UICONTROL Faturamento mensal] resultante inclui as seguintes info
 | Links personalizados | Totais de link personalizado para cada conjunto de relatórios. É possível confirmar os valores do link personalizado em Conteúdo do site &gt; Links &gt; Links personalizados. |
 | Links de saída  | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site &gt; Links &gt; Links de saída. |
 
-> [!NOTE] Para obter uma cópia funcional do relatório de Fatura  mensal, copie-o na área de transferência e cole-o em um programa de planilha como o Microsoft Excel*.
+> [!NOTE] Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel*.
 
 ## Data do relatório x data de processamento {#section_51A48C2F223F4904BE1407C13333C457}
 
