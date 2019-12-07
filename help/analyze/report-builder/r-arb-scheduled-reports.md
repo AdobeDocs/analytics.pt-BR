@@ -1,11 +1,10 @@
 ---
 description: Descrições dos campos para o Gerenciador de tarefas agendadas.
-solution: Analytics
 title: Gerenciador de tarefa agendada
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ O Gerenciador de tarefas agendadas permite que você visualize uma lista de rela
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nome do Relatório </p> </td> 
+   <td colname="col1"> <p>Nome do relatório </p> </td> 
    <td colname="col2"> <p>Indica o nome da tarefa agendada. </p> </td> 
   </tr> 
   <tr> 
