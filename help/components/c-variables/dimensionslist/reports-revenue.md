@@ -1,11 +1,10 @@
 ---
 description: Mede a quantia de receita gerada por todos os seus produtos durante um período específico.
-solution: Analytics
 title: Receita
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
    * Um evento de [!UICONTROL compra] deve ser disparado no `s.events`. 
 
-   * The `products` variable must be defined with a number in the price field.
+   * A variável `products` deve ser definida com um número no campo de preço.
    * Por exemplo, isso passaria US$35.99 para o relatório da receita:
 
       ```js
@@ -33,11 +32,11 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
        s.events="purchase"
       ```
 
-* Quando mais de um produto está presente na variável [!UICONTROL s.products], todos contam no relatório de receita. For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* Quando mais de um produto está presente na variável [!UICONTROL s.products], todos contam no relatório de receita. Por exemplo, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] passaria de USD$ 9 na receita para o relatório.
 
    >[!NOTE]
    >
-   >A receita não é multiplicada se a quantidade for aumentada em um único produto. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >A receita não é multiplicada se a quantidade for aumentada em um único produto. Por exemplo, [!DNL s.products="Womens;Socks;5;4.50"] não passa US$ 22,50 para o relatório, mas sim US$ 4,50. Certifique-se de que a sua implementação passa a receita total para a quantidade listada ([!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Receita] arredonda a quantia total por um período para o valor monetário mais próximo. Não arredonda cada produto individual ou clique.
 * Como o Analytics arredonda cada dia para o valor inteiro mais próximo, a comparação do montante de cada dia ao total mensal está fora por uma quantia bem pequena. Isso se deve ao fato de o total mensal não ser o montante de cada dia arredondado, é o montante absoluto arredondado para o valor inteiro mais próximo.
@@ -65,15 +64,15 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 ## Propriedades específicas do produto {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Conversão]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
 
 * Detalhamentos das [!UICONTROL Fontes de tráfego] podem ser encontradas nos [!UICONTROL Métodos de descoberta].
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Métricas do Site]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
 
 * Além de todos os detalhamentos listados anteriormente, os detalhamentos do [!UICONTROL Canal de Marketing de First e Last Touch] estão disponíveis.
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Métrica do Site]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
 
 * Além dos detalhamentos mencionados previamente, as variáveis da [!UICONTROL Lista] e as variáveis atuais de [!UICONTROL Vídeo] podem ser usadas.
 
