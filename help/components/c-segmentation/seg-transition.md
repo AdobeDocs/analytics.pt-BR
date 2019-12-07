@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: Perguntas frequentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,23 +24,23 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 
 * É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Os segmentos são universais para todos os conjuntos de relatórios.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* O [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifica a criação de segmentos.
 * O [Gerenciador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) permite que você configure [fluxos de trabalho](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
 
-* Você pode [adicionar tags a segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* Você pode [adicionar tags a segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL Ad Hoc Analysis]) para organizar os segmentos.
 
 * Você pode criar [Segmentos sequenciais](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) fora da Ad Hoc Analysis.
 * O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
 
 Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) no Blog de marketing digital para obter mais detalhes.
 
-## Acesse as ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Acesse as Ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Como obtenho o Construtor de segmentos?**
 
 Para acessar o Construtor de segmentos, basta:
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![ na navegação à esquerda. ](assets/segment_icon.png) In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
 
 * Clique em **[!UICONTROL Adicionar mais, na parte superior do Gerenciador de segmentos]**.  ![](assets/add_button.png)
 
@@ -53,15 +52,15 @@ Para acessar o Construtor de segmentos, basta:
 
 Para acessar o Gerenciador de segmentos:
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* Vá para **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** na navegação superior. Em seguida, clique em **[!UICONTROL Segmentos]** ou
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![ na navegação à esquerda. ](assets/segment_icon.png) Then click **[!UICONTROL Manage]**, or
+* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
 
 * Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone Segmentos ![](assets/segment_icon.png)
+O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![](assets/segment_icon.png)
 
 no painel de navegação esquerdo e no painel de segmentos.
 
@@ -81,7 +80,7 @@ Os administradores podem editar qualquer segmento e compartilhar segmentos com g
 
 **É possível exibir todos os segmentos na empresa?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+Sim, administradores podem visualizar todos os segmentos nas interfaces do usuário do [!DNL Analysis Workspace] e do [!DNL Reports & Analytics].
 
 O Construtor de relatórios e a Análise ad hoc exibem os segmentos que você possui e os segmentos que foram compartilhados com você.
 
@@ -89,7 +88,7 @@ O Construtor de relatórios e a Análise ad hoc exibem os segmentos que você po
 
 Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos do Analysis Workspace, do Relatórios e análises e da Análise ad hoc. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
 
-Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
+Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
 
 O Construtor de relatórios e a Análise ad hoc exibem somente os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
 
@@ -115,7 +114,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 
 ## Gerenciamento de segmentos herdados {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-**O que aconteceu com os meus segmentos existentes?**
+**O que aconteceu com meus segmentos existentes?**
 
 Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/c-segmentation/seg-transition.md)
 
@@ -139,13 +138,13 @@ Os relatórios agendados não são atualizados quando você edita um segmento co
 
 ![](assets/duplicate_seg_names.png)
 
-Você tem um marcador que faz referência ao segmento para o conjunto de relatórios da produção principal. Em seguida, você exclui esse segmento porque ele é uma duplicata. O marcador continuará a funcionar, com referência à definição do segmento excluído. Se você alterar a definição de segmento para o segmento de desenvolvimento principal a fim de incluir a Ilha de Catalina e Tijuana no México, o segmento aplicado ao marcador não mudará. Usará a definição antiga. Para corrigir isso, atualize o marcador para fazer referência à nova definição. Se você não tiver certeza se um marcador, painel ou relatório programado está usando um segmento excluído, é possível alterar o nome do segmento restante para que fique mais claro se o marcador está usando o segmento restante.
+Você tem um marcador que faz referência ao segmento para o conjunto de relatórios da produção principal. Em seguida, você exclui esse segmento, pois é uma duplicata. O marcador continuará a funcionar, com referência à definição do segmento excluído. Se você alterar a definição de segmento para o segmento de desenvolvimento principal a fim de incluir a Ilha de Catalina e Tijuana no México, o segmento aplicado ao marcador não mudará. Usará a definição antiga. Para corrigir isso, atualize o marcador para fazer referência à nova definição. Se você não tiver certeza se um marcador, painel ou relatório agendado está usando um segmento excluído, é possível alterar o nome do segmento restante para que fique mais clara se o marcador usa o segmento restante.
 
-**O que acontece com os segmentos de Data warehouse?**
+**O que acontece com os segmentos de Data Warehouse?**
 
-Todos os segmentos existentes no Data warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como Analysis Workspace, Análise ad hoc e Relatórios e análises.
+Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como a Analysis Workspace, a Ad Hoc Analysis e o Reports &amp; Analytics.
 
-Você pode criar ou editar novos segmentos de Data warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data warehouse.
+Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
 **O que acontece com os segmentos favoritos (análise ad hoc)?**
 
@@ -183,7 +182,7 @@ Os relatórios com esses segmentos aplicados continuarão funcionando da forma c
 
 Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
 
-O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os administradores podem excluir, editar e compartilhar esses segmentos.
+O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os Administradores podem excluir, editar e compartilhar esses segmentos.
 
 A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Os administradores agora devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os grupos ou indivíduos apropriados, ou com todos.
 
@@ -199,13 +198,13 @@ Os segmentos existentes que usam lógica que foi alterada como descrito nesse do
 
 As seguintes dicas ajudarão você a migrar dimensões comuns:
 
-* Cidade/região/país geográfico - procure e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
-* Navegadores - use a dimensão Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
-* Sistemas operacionais - use as dimensões Tipos de SO para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
+* Cidade/regiões/país geográfico - pesquise e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
+* Navegadores - use a dimensão de Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
+* Sistemas operacionais - use as dimensões de Tipos de sistema operacional para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
 
 * [Dimensões novas e renomeadas](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [Alterações em Contém](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Alterações em menor que e maior que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Alterações em Menor que e Maior que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensões novas e renomeadas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -281,7 +280,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Dispositivo remoto </td> 
+   <td colname="col1"> Dispositivo móvel </td> 
    <td colname="col2"> Nome do dispositivo móvel </td> 
    <td colname="col3"> - </td> 
   </tr> 
@@ -296,7 +295,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Sistema operacional móvel (substituído) </td> 
+   <td colname="col1"> Sistema operacional móvel (obsoleto) </td> 
    <td colname="col2"> Sistema operacional móvel </td> 
    <td colname="col3"> Use a dimensão do Sistema operacional e, em vez disso, aplique a visitas de segmentos de dispositivos móveis. </td> 
   </tr> 
@@ -338,8 +337,8 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 |---|---|---|
 | tamanho da tela remota | número do dispositivo remoto | resolução do monitor |
 | altura da tela remota | push móvel para falar | plugin |
-| suporte a cookie móvel | decoração de correio móvel | sistema operacional |
-| suporte à imagem remota | serviços de informações remotos | tipo de referenciador |
+| Suporte a cookie em dispositivo móvel | decoração de correio móvel | sistema operacional |
+| Suporte a imagem em dispositivo móvel | serviços de informações Remotos | tipo de referenciador |
 | intensidade de cor remota | tipo de dispositivo móvel | mecanismo de pesquisa |
 | suporte a áudio remoto | tipo de navegador | state |
 | suporte a vídeo remoto | navegador | país geográfico |
@@ -356,4 +355,4 @@ Dimensões com base em inteiros (como a largura do navegador) com um conjunto co
 
 ![](assets/seg_browser_dimension.png)
 
-Os operadores menor que, maior que e semelhante agora são compatíveis somente com os segmentos do Data warehouse. Os segmentos que devem ser compatíveis com todas as interfaces de relatório devem usar a versão “Classificada” da métrica com o operador igual.
+Os operadores menor que, maior que e semelhante agora são compatíveis somente com os segmentos do Data Warehouse. Os segmentos que devem ser compatíveis com todas as interfaces de relatório devem usar a versão “Classificada” da métrica com o operador igual.
