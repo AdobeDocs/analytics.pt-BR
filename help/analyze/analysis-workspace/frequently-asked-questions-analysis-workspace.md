@@ -1,21 +1,20 @@
 ---
-description: Requisitos de sistema para a Analysis Workspace.
+description: Requisitos de sistema para o Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Requisitos de administração
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Requisitos de administração
 
-Requisitos de sistema para a Analysis Workspace.
+Requisitos de sistema para o Analysis Workspace.
 
-## Administration and access requirements {#section_FD3737DE452F4F6CA181F13FF3DC668F}
+## Requisitos de administração e acesso {#section_FD3737DE452F4F6CA181F13FF3DC668F}
 
 <table id="table_3065772701A64D4EB5F175100A60F284"> 
  <thead> 
@@ -27,7 +26,7 @@ Requisitos de sistema para a Analysis Workspace.
  <tbody> 
   <tr> 
    <td colname="col1"> SKU do produto </td> 
-   <td colname="col2"> <p> Você deve ter o <span class="keyword">Adobe Analytics Standard</span> ou o <span class="keyword">Adobe Analytics</span> Premium. Caso você tenha acesso a Reports &amp; Analytics somente como um produto independente, entre em contato com a sua equipe de conta para comprar a solução <span class="keyword">Adobe Analytics</span>. </p> </td> 
+   <td colname="col2"> <p> Você deve ter o <span class="keyword">Adobe Analytics Standard</span> ou o <span class="keyword">Adobe Analytics</span> Premium. Caso você tenha acesso ao Reports &amp; Analytics como produto independente, entre em contato com a sua equipe de conta para adquirir a solução <span class="keyword">Adobe Analytics</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Administradores </td> 
@@ -35,11 +34,11 @@ Requisitos de sistema para a Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Usuários </td> 
-   <td colname="col2"> <p>Para ativar o acesso à guia Espaço de trabalho no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso à Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
+   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferência de projetos </td> 
-   <td colname="col2"> <p>Os administradores podem transferir os projetos da <span class="wintitle">Analysis Workspace</span> de um usuário para outro. </p> <p>Para fazer isso, navegue até <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuário</span> &gt; <span class="uicontrol">Transferir</span>. </p> </td> 
+   <td colname="col2"> <p>Os administradores podem transferir os projetos do <span class="wintitle">Analysis Workspace</span> de um usuário para outro. </p> <p>Para fazê-lo, acesse <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Transferir</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Navegador </td> 
