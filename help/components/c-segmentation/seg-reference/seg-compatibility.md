@@ -1,11 +1,10 @@
 ---
 description: Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Essa tabela lista as funções suportadas.
-solution: Analytics
 title: Compatibilidade de segmentos de Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,20 +44,20 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensões</b> </td> 
-   <td colname="col2">Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente na Analysis Workspace, no Relatórios e análises e na Análise ad hoc: 
+   <td colname="col2">Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente na Analysis Workspace, no Reports &amp; Analytics e na Ad Hoc Analysis: 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Servidor de entrada </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Categoria de entrada </li> 
      <li id="li_5A43C846E2EA4EFCB892DE9E0607C68C">Data de entrada </li> 
      <li id="li_8E9CABBE04FC4A7A9A5D2BDD34AD3C87">Toda a classificação da página de pesquisa </li> 
     </ul> </td> 
-   <td colname="col3"> Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Data warehouse: 
+   <td colname="col3"> Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Data Warehouse: 
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">Endereço IP </li> 
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">URL da página </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">ID de visitante </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">ID de visitante da Experience Cloud </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>As seguintes dimensões <b>não podem</b> ser usadas em segmentos do Data Warehouse: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">Toda a classificação da página de pesquisa </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">AM/PM </li> 
