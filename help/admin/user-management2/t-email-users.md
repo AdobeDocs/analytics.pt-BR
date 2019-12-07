@@ -1,12 +1,11 @@
 ---
 description: Etapas que descrevem como enviar uma mensagem de email para todos os usuários em sua empresa.
-solution: Analytics
 subtopic: Users and groups
 title: Usuários de email
 topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Etapas que descrevem como enviar uma mensagem de email para todos os usuários em sua empresa.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Email Users]**.
-1.  Selecione a caixa de seleção **Somente administradores** para restringir o email a administradores do 
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Usuários de email]**.
+1.  Selecione a caixa de seleção **[!UICONTROL Somente administradores]** para restringir o email a administradores do 
 
    Por padrão, mensagens são enviadas a todos os usuários em sua empresa.
 1. Preencha os campos a seguir:
@@ -31,4 +30,4 @@ Etapas que descrevem como enviar uma mensagem de email para todos os usuários e
    **[!UICONTROL Assunto:]** especifique o texto a ser exibido na linha de assunto da mensagem de email.
 
    **[!UICONTROL Corpo:]** digite o texto a ser exibido no corpo da mensagem de email.
-1. Click **[!UICONTROL Send Message Now]**.
+1. Clique em **[!UICONTROL Enviar mensagem agora]**.
