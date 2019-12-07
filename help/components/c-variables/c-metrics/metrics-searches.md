@@ -1,11 +1,10 @@
 ---
 description: A métrica padrão recomendada para mecanismos de pesquisa e palavras-chave. Essa métrica representa instâncias de um click-through, e mostra a página associada a um mecanismo ou palavra-chave específico. Dados de métrica de pesquisas podem ser relatados retroativamente para o início do conjunto de dados.
-solution: Analytics
 title: Pesquisas
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
