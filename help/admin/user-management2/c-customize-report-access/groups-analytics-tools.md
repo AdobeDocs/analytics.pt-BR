@@ -1,13 +1,12 @@
 ---
 description: Habilite permissões do usuário para obter integração a itens Gerais (faturas, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizar permissões de ferramentas do Analytics
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,19 +15,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e produtos foi movido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e produtos foi movido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Habilite permissões do usuário para obter integração a itens Gerais (faturas, logs etc.), Gerenciamento da empresa, Ferramentas, Acesso a serviços da Web, Report Builder e Data Connectors.
 
-**[!UICONTROL Gerenciamento]** de usuários &gt; **[!UICONTROL Grupos]** &gt; Acesso **[!UICONTROL a]** todos os relatórios &gt; Ferramentas **** do Analytics &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acesso ao todos os relatórios]** &gt; **[!UICONTROL Ferramentas do Analytics]** &gt; **[!UICONTROL Personalizar]**
 
-> [!NOTE] A versão lançada no último trimestre de 2016 (20 de outubro) trouxe mudanças para o gerenciamento de grupos. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] A versão lançada no último trimestre de 2016 (20 de outubro) trouxe mudanças para o gerenciamento de grupos. Consulte [Mudanças administrativas - Último trimestre de 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) para ver um resumo das mudanças.
 
 ## Acesso ao Relatório - Ferramentas do Analytics
 
 ![](assets/report-access-analytics-tools.png)
 
-Clique em **[!UICONTROL Personalizar]para selecionar itens aos quais este grupo terá acesso.**
+Clique em **[!UICONTROL Personalizar]** para selecionar itens aos quais este grupo terá acesso.
 
 ## Descrições de campo
 
@@ -56,11 +55,11 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Ocultar conjunto de relatórios](/help/admin/company/c-hide-report-suites.md) | Concede permissão para ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics. |
 | **Ferramentas** | Essas configurações concedem acesso a ferramentas do Analytics (interfaces e aplicativos) e a recursos avançados, como segmentação e métricas calculadas. |
 | [Dados atuais](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Concede permissão para uso do recurso Dados atuais nos relatórios. |
-| Usuários da licença de [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) | Concede permissão para acesso à [!UICONTROL Ad Hoc Analysis]. |
+| [Usuários da licença de Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) | Concede permissão para acesso à [!UICONTROL Ad Hoc Analysis]. |
 | Acesso aos serviços da Web | Permite o acesso aos Serviços da Web para usuários não administradores. Gera credenciais de Serviços da Web. |
 | [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html) | Concede aos membros deste grupo acesso a licenças do [!UICONTROL Report Builder]. |
 | [Acesso à Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) | Concede aos usuários acesso à Analysis Workspace, a interface de relatórios recomendada para o [!DNL Adobe Analytics]. |
-| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) | Concede aos usuários acesso a Reports &amp; Analytics. |
+| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) | Concede aos usuários acesso ao Reports &amp; Analytics. |
 | [Criação de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | Concede aos usuários permissão para criar métricas calculadas. |
 | [Criação de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | Concede aos usuários permissão para criar segmentos. |
 | **Data Connectors** |  |
