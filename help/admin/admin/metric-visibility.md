@@ -1,10 +1,9 @@
 ---
 description: Você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, nos Seletores de métricas, no Construtor de métrica calculada e no Construtor de segmentos.
-solution: Analytics
 title: Visibilidade da métrica
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, nos Seletores de métricas, no Construtor de métrica calculada e no Construtor de segmentos.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Mais...](/help/admin/admin/c-success-events/t-success-events.md)
-1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
+1. Navegue até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Eventos de sucesso]**. [Mais...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Defina a coluna Visibilidade como **[!UICONTROL Visível em qualquer lugar]**, **[!UICONTROL Construtores]** ou **[!UICONTROL Oculto em todos os lugares]**.
 
 Esta configuração não afeta a coleta de dados da métrica, afeta somente sua visibilidade na interface do usuário. As configurações afetam a visibilidade das métricas na interface do usuário desta forma:
 
@@ -34,16 +33,16 @@ Esta configuração não afeta a coleta de dados da métrica, afeta somente sua 
      <li id="li_C2889DBECE6D488C94B118FA33CD3988">Reports &amp; Analytics (menu e seletor de métricas) </li> 
      <li id="li_EB7D70B1BAC840A6A32B56A1DD8F8D55">Analysis Workspace </li> 
      <li id="li_0C550B8F99C94620999331BBA1F3659C">Construtor de segmentos </li> 
-     <li id="li_E2663CFA5F8541C39CE9A18173A074AC">Construtor de métrica calculada </li> 
+     <li id="li_E2663CFA5F8541C39CE9A18173A074AC">Criador de métricas calculada </li> 
     </ul> </td> 
-   <td colname="col3"> N/A </td> 
+   <td colname="col3"> N/D </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Construtores</b> </td> 
    <td colname="col2"> 
     <ul id="ul_33E40D88D3B44CCDBA8DE6EA53794C6D"> 
      <li id="li_D72D1EB1A6164657A68AC5BDE4749BA2">Construtor de segmentos </li> 
-     <li id="li_9644DE132891444E8C98C8ADD5B17FBA">Construtor de métrica calculada </li> 
+     <li id="li_9644DE132891444E8C98C8ADD5B17FBA">Criador de métricas calculada </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_C21BB852A6E94BF288DA237772538F96"> 
@@ -53,13 +52,13 @@ Esta configuração não afeta a coleta de dados da métrica, afeta somente sua 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Oculto em qualquer lugar</b> </td> 
-   <td colname="col2"> N/A </td> 
+   <td colname="col2"> N/D </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menu e seletor de métricas) </li> 
      <li id="li_9B41995CA7F3437485BAFF08A422FBFE">Analysis Workspace </li> 
      <li id="li_B4C8C6A35AB44E83B140F2C8073EEE17">Construtor de segmentos </li> 
-     <li id="li_35F3A8DD8F8C4770AEFBD68575DFAE62">Construtor de métrica calculada </li> 
+     <li id="li_35F3A8DD8F8C4770AEFBD68575DFAE62">Criador de métricas calculada </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
