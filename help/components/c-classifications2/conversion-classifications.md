@@ -1,12 +1,11 @@
 ---
 description: Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como termos de música pop e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e a conversão para eventos bem-sucedidos.
-solution: Analytics
 subtopic: Classifications
 title: Classificações de conversão
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 
 As classificações de conversão permitem que você classifique as variáveis de conversão. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com as propriedades de dados associadas.
 
-Depois de habilitar as classificações, utilize o [Importador de classificações](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
+Depois de habilitar as classificações, utilize o  [Importador de classificações](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 ## Descrições de classificações de conversão {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -62,22 +61,22 @@ t_classification_conversion.xml
 
 Etapas que descrevem como adicionar classificações de conversão na Administração.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. Na lista suspensa **Selecionar tipo de classificação**, selecione a variável à qual deseja adicionar uma classificação.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Classificações de conversão]**.
+1. Na lista suspensa **[!UICONTROL Selecionar tipo de classificação]**, selecione a variável à qual deseja adicionar uma classificação.
 
    ![Informações da etapa](assets/sub_class_create.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
-1. No campo **Selecionar tipo**, selecione o tipo de classificação que deseja adicionar à variável.
+1. Passe o mouse sobre o ícone **[!UICONTROL Editar classificação]**, em seguida **[!UICONTROL Adicionar classificação]**.
+1. No campo **[!UICONTROL Selecionar tipo]**, selecione o tipo de classificação que deseja adicionar à variável.
 
-   As opções incluem **[!UICONTROL Texto]** e **[!UICONTROL Numérico]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
-1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
+   As opções incluem **[!UICONTROL Texto]** e **[!UICONTROL Numérico]**. Para obter mais informações sobre tipos de classificação, consulte [Sobre as classificações](/help/components/c-classifications2/c-classifications.md).
+1. Na caixa de diálogo **[!UICONTROL Classificações de texto]**, configure a classificação como desejado.
 
    Consulte [Descrições de classificações de conversão](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) para obter informações sobre esses elementos.
 
-1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
+1. Na caixa de diálogo **[!UICONTROL Lista suspensa]**, adicione ou remova opções.
 
    Adicionar Opções cria uma lista com os valores de classificação disponíveis para essa classificação. Você pode usar esta opção com variáveis de Campanha para fornecer aos usuários uma lista dos valores suportados para a classificação no Gerenciador de campanhas. Utilize isso para dimensões de classificação nas quais há uma pequena quantidade de valores permitidos que mudam raramente ou quase nunca. Por exemplo, você pode executar campanhas diferentes direcionadas para os diferentes níveis de fidelidade do cliente: Silver, Gold e Platinum. É possível utilizar a lista suspensa para garantir que os valores aceitos sejam apenas os que correspondem aos três níveis. Se alguém tentar utilizar um valor diferente, este será descartado.
 1. Clique em **[!UICONTROL Salvar]**.
@@ -92,9 +91,9 @@ t_classification_delete_conversion.xml
 
 Exclua uma classificação de conversão quando ela não for mais necessária.
 
-1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
+1. Abra o Gerenciador de conjunto de relatórios clicando em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]** no cabeçalho do Conjunto.
 1. Selecione um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. Na lista suspensa **Selecionar tipo de classificação**, selecione a variável da qual deseja excluir uma classificação.
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Classificações de conversão]**.
+1. Na lista suspensa **[!UICONTROL Selecionar tipo de classificação]**, selecione a variável da qual deseja excluir uma classificação.
+1. Passe o mouse sobre o ícone **[!UICONTROL Editar classificação]**, em seguida selecione **[!UICONTROL Excluir classificação]**.
 1. Na caixa de diálogo Excluir classificação, clique em **[!UICONTROL Excluir]**.
