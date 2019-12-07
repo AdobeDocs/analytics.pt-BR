@@ -1,12 +1,11 @@
 ---
 description: As regras de processamento ativas são exibidas na administração.
-solution: Analytics
 subtopic: Processing rules
 title: Exibir as regras de processamento ativas
 topic: Admin tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,9 +14,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As regras de processamento ativas são exibidas na administração.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de processamento]**.
 
    Todas as regras de processamento ativas do conjunto de relatórios são listadas.
 
