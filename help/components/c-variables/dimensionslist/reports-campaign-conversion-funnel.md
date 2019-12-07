@@ -1,11 +1,10 @@
 ---
 description: Exibe as médias das métricas no grupo de relatório Campanhas. Métricas padrão são click-throughs, Total de vendas, Pedidos e Receita.
-solution: Analytics
 title: Funil de Conversão de Campanha
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Exibe as médias das métricas no grupo de relatório Campanhas. Métricas padrão são click-throughs, Total de vendas, Pedidos e Receita.
 
-**[!UICONTROL Campanhas]** &gt; Funil de conversão **[!UICONTROL da campanha]**
+**[!UICONTROL Campanhas]** &gt; **[!UICONTROL Funil de conversão de campanha]**
 
 A parte superior do gráfico de funil exibe os dados de conversão. A parte inferior exibe estatísticas de todos os eventos na área superior, com base em Pedidos e até duas outras métricas, Receita e Unidades.
 
