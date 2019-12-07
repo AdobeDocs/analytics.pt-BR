@@ -1,12 +1,11 @@
 ---
 description: Saiba como especificar a expiração do envolvimento do visitante nos Canais de marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Expiração de envolvimento do visitante
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,8 +28,8 @@ Por exemplo, os visitantes muitas vezes clicam em uma campanha de Pesquisa paga 
 
 Especifique a expiração do envolvimento do visitante.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
+1. No [!UICONTROL Gerenciador de report suite], clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Canais de marketing]** &gt; **[!UICONTROL Expiração de canal de marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
