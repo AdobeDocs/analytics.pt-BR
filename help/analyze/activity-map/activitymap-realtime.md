@@ -1,13 +1,10 @@
 ---
 description: A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
-seo-description: A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
-seo-title: Análise de página em tempo real (Online)
-solution: Analytics
 title: Análise de página em tempo real (Online)
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,4 +34,4 @@ Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics
 * Para a transmissão ao vivo, relatórios em tempo real, solicitações de API e dados atualizados para as variáveis de tráfego, somente hits com uma ID de dados adicional são atrasadas.
 * Para os dados atuais sobre as métricas de conversão, dados finalizados e feeds de dados, todos os hits são atrasados de 5 a 7 minutos.
 
-Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://marketing.adobe.com/resources/help/pt_BR/mcvid/), mesmo que essa integração não tenha sido integralmente implementada.
+Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), mesmo que essa integração não tenha sido integralmente implementada.
