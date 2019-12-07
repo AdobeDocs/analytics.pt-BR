@@ -1,10 +1,9 @@
 ---
 description: Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
-solution: Analytics
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -77,10 +76,10 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
   </tr> 
   <tr> 
    <td colname="col1"> <b>SKU do Analytics</b> </td> 
-   <td colname="col2"> Standard+ </td> 
-   <td colname="col3"> Standard+ </td> 
+   <td colname="col2"> Padrão+ </td> 
+   <td colname="col3"> Padrão+ </td> 
    <td colname="col4"> Premium Complete ou Predictive Intelligence </td> 
-   <td colname="col5"> Standard+ </td> 
+   <td colname="col5"> Padrão+ </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Documentação</b> </td> 
