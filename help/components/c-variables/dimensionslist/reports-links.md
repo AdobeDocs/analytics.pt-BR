@@ -1,11 +1,10 @@
 ---
 description: Mostra os links nos quais os visitantes clicam no site, incluindo links clicados para sair do site ou links para download.
-solution: Analytics
 title: Links
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
