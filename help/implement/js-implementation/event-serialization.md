@@ -1,12 +1,11 @@
 ---
 description: A serialização de eventos é um processo de implementação de medidas, usado para evitar que eventos duplicados sejam inseridos nos relatórios da Adobe. Isso pode ocorrer quando um usuário atualiza uma mesma página várias vezes, navega até uma mesma página várias vezes ou salva a página da Web em seu computador (por exemplo, se um cliente salvar a página de confirmação de uma compra em seu computador, os pedidos e a receita serão contados todas as vezes que ele a acessar; isso, é claro, se a serialização não estiver configurada).
 keywords: Analytics Implementation
-solution: Analytics
 title: Visão geral da serialização de eventos
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -60,8 +59,8 @@ Quando a [!UICONTROL serialização de eventos] for implementada e o [!DNL Analy
 | Stacy | O usuário exibe a página pela primeira vez. | event1:1001 | 2 |
 | Stacy | O usuário recarrega a página (pode haver falha no envio de um formulário e causar o recarregamento da página). | event1:1001 | 2 |
 | Jill | O usuário exibe a página pela primeira vez, insere as informações corretamente e passa para a próxima página. | event1:1002 | 3 |
-| Jamie | O usuário exibe a página pela primeira vez | event1 | 4 |
-| Jamie | O usuário esquece de preencher o campo de sobrenome no formulário. O formulário é exibido novamente com as informações ausentes realçadas. | event1 | 5 |
+| Jamie | O usuário exibe a página pela primeira vez | evento 1 | 4 |
+| Jamie | O usuário esquece de preencher o campo de sobrenome no formulário. O formulário é exibido novamente com as informações ausentes realçadas. | evento 1 | 5 |
 
 Observe o seguinte ao selecionar IDs de serialização:
 
