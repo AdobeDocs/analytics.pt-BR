@@ -1,10 +1,9 @@
 ---
 description: Descreve as eficiências de marketing obtidas por meio da integração.
-solution: Analytics
 title: Lyris Data Connector para Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
