@@ -1,11 +1,10 @@
 ---
 description: Esses relatórios exibem informações sobre os navegadores, sistemas operacionais, resoluções de monitor, etc., utilizados pelos visitantes.
-solution: Analytics
 title: Tecnologia
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ Esses relatórios exibem informações sobre os navegadores, sistemas operaciona
   </tr> 
   <tr> 
    <td colname="col1"> Intensidades de Cor do Monitor </td> 
-   <td colname="col2"> <p> Exibe as configurações mais populares de profundidade de cor de seus visitantes, conforme definidas em seus computadores. A profundidade de cor refere-se ao número de cores que pode ser exibido na tela. </p> </td> 
+   <td colname="col2"> <p> Exibe as configurações mais populares de profundidade de cor que seus visitantes utilizam. A profundidade de cor refere-se ao número de cores que pode ser exibido na tela. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resoluções do Monitor </td> 
@@ -60,7 +59,7 @@ Esses relatórios exibem informações sobre os navegadores, sistemas operaciona
   </tr> 
   <tr> 
    <td colname="col1"> Versão do JavaScript </td> 
-   <td colname="col2"> <p> Exibe as versões do JavaScript usadas pelos navegadores de seus visitantes ao visualizar seu site. </p> </td> 
+   <td colname="col2"> <p> Exibe a versão do JavaScript que seus visitantes utilizam ao visualizar o site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
