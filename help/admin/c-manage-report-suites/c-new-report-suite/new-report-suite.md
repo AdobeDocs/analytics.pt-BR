@@ -1,11 +1,10 @@
 ---
 description: Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
-solution: Analytics
 title: Configurações do novo conjunto de relatórios
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
 
-Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
+Descrições dos elementos usados ao  [Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
-> [!NOTE] A documentação [do Conjunto de relatórios](/help/components/vrs/c-workflow-vrs/vrs-create.md) virtuais mostra como criar conjuntos de relatórios virtuais.
+> [!NOTE] A [documentação do Conjunto de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-create.md) mostra como criar conjuntos de relatórios virtuais.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -44,11 +43,11 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/ad
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Página Padrão</span> </td> 
-   <td colname="col2"> <p>(Opcional) elimina dos URLs encontrados as ocorrências do valor <span class="wintitle">Página padrão</span>. Se seu relatório <span class="wintitle">Páginas mais populares</span> contiver URLs em vez de nomes de páginas, esta configuração impedirá que haja vários URLs para a mesma página da Web. </p> <p>For example, the URLs<span class="filepath"> https://mysite.com</span> and <span class="filepath"> https://mysite.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://mysite.com</span> in your reports. </p> <p>Se você não definir esse valor, o Analytics remove automaticamente os seguintes nomes de arquivos dos URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> e <span class="filepath">home.asp</span>. </p> <p>Para desativar a eliminação dos nomes de arquivo, especifique um valor para Página padrão que nunca ocorra em seus URLs. </p> </td> 
+   <td colname="col2"> <p>(Opcional) elimina dos URLs encontrados as ocorrências do valor <span class="wintitle">Página padrão</span>. Se seu relatório <span class="wintitle">Páginas mais populares</span> contiver URLs em vez de nomes de páginas, esta configuração impedirá que haja vários URLs para a mesma página da Web. </p> <p>Por exemplo, os URLs<span class="filepath"> https://mysite.com</span> e <span class="filepath"> https://mysite.com/index.html</span> normalmente são a mesma página. Você pode remover nomes de arquivo irrelevantes, de modo que esses dois URLs sejam exibidos como <span class="filepath">https://meusite.com</span> em seus relatórios. </p> <p>Se você não definir esse valor, o Analytics remove automaticamente os seguintes nomes de arquivos dos URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> e <span class="filepath">home.asp</span>. </p> <p>Para desativar a eliminação dos nomes de arquivo, especifique um valor para Página padrão que nunca ocorra em seus URLs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data de ativação </p> </td> 
-   <td colname="col2">Informa a Adobe quanto à data em que você espera que este conjunto de relatórios fique ativo. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
+   <td colname="col2">Informa a Adobe quanto à data em que você espera que este conjunto de relatórios fique ativo. Se sua programação de implantação for alterada, forneça uma estimativa de tráfego atualizada usando a ferramenta <span class="wintitle">Tráfego esperado permanente</span> em <a href="/help/admin/c-traffic-management/traffic-management.md">Gerenciamento do tráfego</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Exibições de página estimadas por dia</span> </td> 
@@ -56,11 +55,11 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/ad
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Moeda de base</span> </td> 
-   <td colname="col2"> <p>Especifica a moeda padrão usada para armazenar todos os dados monetários. O Analytics converte as transações em outras moedas para a moeda de base usando a taxa de conversão atual no momento em que recebe os dados. </p> <p> O relatório de Analytics utiliza o <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
+   <td colname="col2"> <p>Especifica a moeda padrão usada para armazenar todos os dados monetários. O Analytics converte as transações em outras moedas para a moeda de base usando a taxa de conversão atual no momento em que recebe os dados. </p> <p> O relatório de Analytics utiliza o  Variável<span class="varname"> currencyCode</span> do JavaScript para identificar a moeda de uma transação específica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Desativar suporte de caractere multibyte </span> </td> 
-   <td colname="col2"> <p>Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte a caracteres com vários bytes, o sistema partirá do princípio de que os dados estão no formato ISO-8859-1. As páginas da Web precisam especificar seu conjunto de caracteres na variável <span class="varname"> charSet</span> JavaScript. </p> <p>O suporte a caracteres com vários bytes armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. </p> <p>Entre em contato com seu Gerente de Conta ou com o atendimento ao cliente para alterar o suporte a caracteres com vários bytes de um conjunto de relatórios existente. </p> </td> 
+   <td colname="col2"> <p>Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte a caracteres com vários bytes, o sistema partirá do princípio de que os dados estão no formato ISO-8859-1. As páginas da Web precisam especificar seu conjunto de caracteres na  Variável<span class="varname"> charSet</span> do JavaScript. </p> <p>O suporte a caracteres com vários bytes armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. </p> <p>Entre em contato com seu Gerente de Conta ou com o atendimento ao cliente para alterar o suporte a caracteres com vários bytes de um conjunto de relatórios existente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ativar a Ad Hoc Analysis para esse suite</span> </td> 
