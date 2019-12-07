@@ -1,10 +1,9 @@
 ---
 description: Este tópico oferece detalhes sobre os requisitos de sistema para todas as interfaces de usuário do Adobe Analytics.
-solution: Analytics
 title: Requisitos do sistema
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Este tópico oferece detalhes sobre os requisitos de sistema para todas as inter
 
 A Adobe suporta a versão principal mais recente destes navegadores:
 
-* Microsoft Edge. (A Adobe encerrou o suporte ao Microsoft Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Altere para a versão principal mais recente do Microsoft Edge ou de outro navegador compatível, o mais rápido possível.)
+* Microsoft Edge. (a Adobe encerrou o suporte ao Microsoft Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Altere para a versão principal mais recente do Microsoft Edge ou de outro navegador compatível, o mais rápido possível.)
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
