@@ -1,12 +1,11 @@
 ---
 description: É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
-solution: Analytics
 subtopic: Classifications
 title: Importação de navegador
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
 
-**[!UICONTROL Admin]** &gt; Importador **[!UICONTROL de classificação]**
+**[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**
 
 ## Importação do navegador de classificações - Descrições do campo {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Selecionar o Conjunto de relatórios </td> 
+   <td colname="col1"> Selecione o Conjunto de relatórios </td> 
    <td colname="col2"> <p>O conjunto de relatórios em que deseja importar os dados de classificações. O arquivo de dados de importação deve corresponder ao formato do conjunto de dados no conjunto de relatórios. </p> </td> 
   </tr> 
   <tr> 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. Configure os campos Importação **[!UICONTROL do]** navegador.
-1. Click **[!UICONTROL Import File]**.
+1. Clique em **[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**.
+1. Clique em **[!UICONTROL Exportar arquivo]**.
+1. Configure os campos **[!UICONTROL Importação de navegador]**.
+1. Clique em **[!UICONTROL Exportar arquivo]**.
 1. Observe as mensagens de processamento na janela de status.
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. (Condicional) Se você selecionou **[!UICONTROL Baixar automaticamente o arquivo de classificação quando a importação estiver concluída]**, especifique onde deseja armazenar o arquivo resultante depois que o processamento terminar.
 >Uma importação bem-sucedida exibe imediatamente as alterações apropriadas em uma exportação. No entanto, as alterações de dados nos relatórios levam até quatro horas quando se usa uma importação de navegador e até 24 horas quando se usa uma importação FTP.
 
