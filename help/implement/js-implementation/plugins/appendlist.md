@@ -1,13 +1,12 @@
 ---
 description: O plug-in apl (ou appendList) permite anexar um valor a qualquer lista delimitada, com a opção de verificação de maiúsculas e minúsculas para garantir que o valor não exista na lista. O plug-in APL é mencionado por vários plug-ins padrão, mas pode ser usado diretamente em várias situações.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Esse plug-in é útil para:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cenário </p> </td> 
-   <td colname="col2"> <p>Adicionar <span class="term"> event1 </span> à variável de eventos atual, garantindo que o evento não seja duplicado. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código </p> </td> 
