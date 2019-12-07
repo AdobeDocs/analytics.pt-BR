@@ -1,11 +1,10 @@
 ---
 description: A Análise ad hoc é integrada ao ambiente de Segmentação do Analytics, permitindo que você crie, compartilhe, gerencie e aplique segmentos de visitantes nos produtos da Adobe. A Análise ad hoc oferece uma interface de usuário baseada em Java para o Construtor de segmentos e o Gerenciador de segmentos idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, correspondendo às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
-solution: Analytics
 title: Construir segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 
 * [Novos recursos](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Mudanças na definição dos segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [O que aconteceu com os segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [O que aconteceu com meus segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [O que aconteceu com as pastas de segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Posso gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
 * [O que é um Contêiner de ocorrências? Ele é diferente de um Contêiner de exibições da página?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
@@ -38,7 +37,7 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 * O [Gerenciador de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) permite que você configure [fluxos de trabalho](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
 
 * O [Construtor de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) foi atualizado para simplificar a criação de segmentos.
-* Você pode [adicionar tags a segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) para organizar e pesquisar depois, em vez de usar pastas. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
+* Você pode [adicionar tags a segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL ad hoc analysis]) para organizar os segmentos.
 
 * Você pode criar [Segmentos sequenciais](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) fora da Ad Hoc Analysis.
 * 
@@ -104,7 +103,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
  <tbody> 
   <tr> 
    <td colname="col1"> Segmentos favoritos (Ad Hoc Analysis) </td> 
-   <td colname="col2">Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
+   <td colname="col2">Esses segmentos da análise ad hoc são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos pré-configurados: 
@@ -115,7 +114,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visitantes da pesquisa paga </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visitantes com cookie de ID do visitante </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Esses segmentos serão transferidos como  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >modelos de segmento no construtor de segmentos. </a> </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
+   <td colname="col2"> <p>Esses segmentos serão migrados como <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >modelos de segmentos</a> no construtor de segmentos. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos da Experience Cloud (Suite): 
@@ -132,7 +131,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
   </tr> 
   <tr> 
    <td colname="col1">Segmentos do administrador <p>(também conhecidos como segmentos "Globais") </p> </td> 
-   <td colname="col2"> <p> Os segmentos do <b>administrador</b> serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos. </p> <p>O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os administradores podem excluir, editar e compartilhar esses segmentos. </p> <p>A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Agora, os administradores devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os indivíduos ou grupos apropriados ou com todo mundo. </p> </td> 
+   <td colname="col2"> <p> Os segmentos do <b>administrador</b> serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos. </p> <p>O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os Administradores podem excluir, editar e compartilhar esses segmentos. </p> <p>A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Agora, os administradores devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os indivíduos ou grupos apropriados ou com todo mundo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
