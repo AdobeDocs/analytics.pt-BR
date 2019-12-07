@@ -1,12 +1,11 @@
 ---
 description: As classificações numéricas 2 são criadas da mesma forma que outras classificações. AS classificações numéricas 2 podem ser adicionadas apenas para variáveis de conversão ou canal.
-solution: Analytics
 subtopic: Classifications
 title: Criar classificações numéricas 2
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,17 +14,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As classificações numéricas 2 são criadas da mesma forma que outras classificações. AS classificações numéricas 2 podem ser adicionadas apenas para variáveis de conversão ou canal.
 
-> [!NOTE] Na versão de 10 de maio de 2018 da Analytics Maintenance, a Adobe começou a limitar a funcionalidade de classificações numéricas e ativadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
+> [!NOTE] Na Versão de manutenção do Analytics de 10 de maio de 2018, a Adobe começou a limitar a funcionalidade de classificações numéricas e habilitadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Select the report suite, then click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. Clique no ícone **Adicionar Classificação.**
+1. Clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
+1. Selecione o report suite, e então clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Classificações de Conversão]**.
+1. Clique no ícone **[!UICONTROL Adicionar Classificação]**.
 1. Preencha os campos:
 
    **Selecionar tipo:** Selecione **[!UICONTROL numérico 2]**.
 
    **Nome:** Especifique um nome para a classificação.
 
-   **** Numérico: Selecione se essa classificação é **[!UICONTROL Porcentagem (%)]** ou **[!UICONTROL Moeda ($)]**.
+   **Numérico:** Selecione se a classificação é **[!UICONTROL porcentagem (%)]** ou **[!UICONTROL Moeda ($)]**.
 
 1. Clique em **[!UICONTROL Salvar]**.
