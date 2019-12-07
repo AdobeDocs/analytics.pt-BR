@@ -1,12 +1,11 @@
 ---
 description: 'Depois de ativada, a integração do DFA dos Conectores de dados oferece as seguintes métricas para seus relatórios do Adobe Analytics '
 keywords: DFA
-solution: Analytics
 title: Recursos da integração
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ A versão 2.0 é desta forma:
 
 Essas IDs servem como a chave compartilhada entre o Genesis e o DFA para associar as classificações e métricas corretas.
 
-| ID do Site | O site de terceiros no qual o anúncio foi hospedado. A classificação do nome do site apresenta um nome descritivo desta ID de site. |
+| ID do site | O site de terceiros no qual o anúncio foi hospedado. A classificação do nome do site apresenta um nome descritivo desta ID de site. |
 |---|---|
-| ID da publicidade | Uma ID da mensagem comercial que é exibida para um usuário. A classificação do nome do anúncio contém o nome do anúncio conforme definido por sua organização no sistema do DFA. Por exemplo: `Hybrid Coup Textlink - Build`. |
+| ID do anúncio | Uma ID da mensagem comercial que é exibida para um usuário. A classificação do nome do anúncio contém o nome do anúncio conforme definido por sua organização no sistema do DFA. Por exemplo: `Hybrid Coup Textlink - Build`. |
 | ID de posicionamento | Uma representação em sua conta do DFA de um site, parte de um site ou grupo de sites nos quais você adquiriu espaço para anúncio. |
-| ID da criação | A imagem, Flash SWF ou outro recurso que deva ser exibido para o visitante. A classificação do nome da criação contém o nome que você informou para essa criação na interface do DFA. |
+| ID de criação | A imagem, Flash SWF ou outro recurso que deva ser exibido para o visitante. A classificação do nome da criação contém o nome que você informou para essa criação na interface do DFA. |
 
 As outras duas classificações, Ferramenta de entrega (DoubleClick for Advertisers) e Canal (anúncio de banner), têm os mesmos valores para qualquer campanha do DFA e ajudam a diferenciar os dados importados do DFA.
 
