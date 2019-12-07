@@ -1,12 +1,11 @@
 ---
 description: O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Relatando práticas recomendadas e solucionando problemas
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,10 +14,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 O Adobe Analytics oferece uma interface de relatório flexível que permite gerar uma variedade de relatórios complexos. Enquanto a maioria dos relatórios são gerados muito rapidamente, é possível se deparar com relatórios que possuem um tempo limite curto ou que não são gerados com sucesso. Essa seção explica muitos fatores que influenciam na velocidade da geração de relatórios para ajudar a evitar essas falhas. O entendimento dessa informação pode ajudá-lo a estruturar seus relatórios de maneira que eles sejam gerados com mais facilidade.
 
->[!Nnota]
->Essas recomendações se aplicam ao Relatórios e análises, Análise ad hoc e Construtor de relatórios.
->Eles não se aplicam à Analysis Workspace, que tem seu próprio conjunto de práticas [](/help/analyze/analysis-workspace/optimizing-performance.md)recomendadas. They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Um conjunto adicional de
->[as práticas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) recomendadas estão disponíveis para a API de relatórios do Adobe Analytics.
+>[!Note]
+>Essas recomendações se aplicam ao Reports &amp; Analytics, à Ad Hoc Analysis e ao Report Builder.
+>Eles não se aplicam à Analysis Workspace, que tem seu próprio conjunto de [práticas recomendadas](/help/analyze/analysis-workspace/optimizing-performance.md). Elas também não se aplicam às [práticas recomendadas](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) do Data Warehouse. Um conjunto adicional de
+>[práticas recomendadas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) está disponível para a API de relatórios do Adobe Analytics.
 
 ## Relatar limites de tempo e relação de solicitações {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
