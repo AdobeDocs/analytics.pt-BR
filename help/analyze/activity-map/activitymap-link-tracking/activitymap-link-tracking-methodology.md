@@ -1,11 +1,10 @@
 ---
 description: Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os novos parâmetros de rastreamento de links e como eles garantem a singularidade do link e a consistência entre navegadores e dispositivos, além de melhorar a manipulação do reposicionamento do link em uma página.
-solution: Analytics
 title: Metodologia de Rastreamento de links
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
