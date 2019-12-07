@@ -1,12 +1,11 @@
 ---
 description: As tabelas abaixo exibem o relatório para mapeamento de variável ou os relatórios e variáveis usadas neles.
 keywords: Analytics Implementation
-solution: Analytics
 title: Relatório para mapeamento de variável
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,8 +49,8 @@ As tabelas abaixo exibem o relatório para mapeamento de variável ou os relató
 |---|
 | Conversões e médias | s.products, s.events, s.campaign |  |
 | Código de rastreamento | s.campaign |  |
-| Elementos criativos | N/A | Definido em [!DNL Analytics] |
-| Campanhas | N/A | Definido em [!DNL Analytics] |
+| Elementos criativos | N/D | Definido em [!DNL Analytics] |
+| Campanhas | N/D | Definido em [!DNL Analytics] |
 
 | Fidelidade do Cliente |
 |---|
@@ -68,33 +67,33 @@ As tabelas abaixo exibem o relatório para mapeamento de variável ou os relató
 
 | Métodos de descoberta |
 |---|
-| Domínios de referência | N/A | Definido automaticamente pelo arquivo .JS |
-| Domínios de referência originais | N/A | Definido automaticamente pelo arquivo .JS |
-| Mecanismos de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
-| Palavras-chave de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
+| Domínios de referência | N/D | Definido automaticamente pelo arquivo .JS |
+| Domínios de referência originais | N/D | Definido automaticamente pelo arquivo .JS |
+| Mecanismos de pesquisa | N/D | Definido automaticamente pelo arquivo .JS |
+| Palavras-chave de pesquisa | N/D | Definido automaticamente pelo arquivo .JS |
 
 | Perfil do visitante |
 |---|
-| Domínios de nível superior | N/A | Definido automaticamente pelo arquivo .JS |
-| Idiomas | N/A | Definido automaticamente pelo arquivo .JS |
-| Fusos horários | N/A | Definido automaticamente pelo arquivo .JS |
+| Domínios de nível superior | N/D | Definido automaticamente pelo arquivo .JS |
+| Idiomas | N/D | Definido automaticamente pelo arquivo .JS |
+| Fusos horários | N/D | Definido automaticamente pelo arquivo .JS |
 | Estados | s.state | Variável definida na confirmação do pedido (Obrigado!) página |
 | CEP/Códigos postais | s.zip | Variável definida na confirmação do pedido (Obrigado!) página |
-| Domínios | N/A | Definido automaticamente pelo arquivo .JS |
+| Domínios | N/D | Definido automaticamente pelo arquivo .JS |
 
 | Tecnologia |
 |---|
-| Navegadores | N/A | Definido automaticamente pelo arquivo .JS |
-| Sistemas operacionais | N/A | Definido automaticamente pelo arquivo .JS |
-| Resoluções do monitor | N/A | Definido automaticamente pelo arquivo .JS |
+| Navegadores | N/D | Definido automaticamente pelo arquivo .JS |
+| Sistemas operacionais | N/D | Definido automaticamente pelo arquivo .JS |
+| Resoluções do monitor | N/D | Definido automaticamente pelo arquivo .JS |
 
 | Caminho do site |
 |---|
 | Valor da página | s.pageName, s.products, s.events, s.purchaseID |  |
 | Páginas de entrada | s.pageName |  |
 | Páginas de entrada originais | s.pageName |  |
-| Páginas por visita | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Tempo gasto no site | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Páginas por visita | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Tempo gasto no site | N/D | Calculado por regra de negócio no [!DNL Analytics] |
 | Seções do site | [!UICONTROL s.channel] | Equivalente ao relatório [!UICONTROL Canais] na seção de relatórios [!UICONTROL Tráfego] |
 
 | Variáveis do cliente |
@@ -111,65 +110,65 @@ A tabela a seguir lista as variáveis de [!UICONTROL tráfego] usadas para preen
 
 | Métricas calculadas |
 |---|
-| N/A | N/A | N/A |
+| N/D | N/D | N/D |
 
 | Tráfego do site |
 |---|
-| Exibições de página | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitantes únicos por hora | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitantes únicos por dia | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitantes únicos mensais | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitantes únicos anuais | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitas | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Downloads de Arquivos | N/A | Acompanhado automaticamente pelo arquivo .JS (depende das configurações da variável .JS) |
+| Exibições de página | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitantes únicos por hora | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitantes únicos por dia | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitantes únicos mensais | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitantes únicos anuais | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitas | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Downloads de Arquivos | N/D | Acompanhado automaticamente pelo arquivo .JS (depende das configurações da variável .JS) |
 
 | Métodos de descoberta |
 |---|
-| Domínios de referência | N/A | Definido automaticamente pelo arquivo .JS |
-| Referenciadores | N/A | Definido automaticamente pelo arquivo .JS |
-| Mecanismos de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
-| Palavras-chave de pesquisa | N/A | Definido automaticamente pelo arquivo .JS |
-| Frequência de Retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitas de Retorno Diário | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Visitas de Retorno | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Números de visitas | N/A | Calculado por regra de negócio no [!DNL Analytics] |
+| Domínios de referência | N/D | Definido automaticamente pelo arquivo .JS |
+| Referenciadores | N/D | Definido automaticamente pelo arquivo .JS |
+| Mecanismos de pesquisa | N/D | Definido automaticamente pelo arquivo .JS |
+| Palavras-chave de pesquisa | N/D | Definido automaticamente pelo arquivo .JS |
+| Frequência de Retorno | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitas de Retorno Diário | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Visitas de Retorno | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Números de visitas | N/D | Calculado por regra de negócio no [!DNL Analytics] |
 
 | Perfil do visitante |
 |---|
-| Domínios | N/A | Definido automaticamente pelo arquivo .JS |
-| Domínios de nível superior | N/A | Definido automaticamente pelo arquivo .JS |
-| Idiomas | N/A | Definido automaticamente pelo arquivo .JS |
-| Fusos horários | N/A | Definido automaticamente pelo arquivo .JS |
-| Detalhes do visitante | N/A | Definido automaticamente pelo arquivo .JS |
-| Últimos 100 visitantes | N/A | Calculado por regra de negócio no [!DNL Analytics] |
-| Página inicial do usuário | N/A | Definido automaticamente pelo arquivo .JS |
-| Visitantes principais | N/A | Baseado no endereço IP do visitante |
-| Páginas visualizadas por visitantes-chave | N/A | Baseado no endereço IP do visitante |
+| Domínios | N/D | Definido automaticamente pelo arquivo .JS |
+| Domínios de nível superior | N/D | Definido automaticamente pelo arquivo .JS |
+| Idiomas | N/D | Definido automaticamente pelo arquivo .JS |
+| Fusos horários | N/D | Definido automaticamente pelo arquivo .JS |
+| Detalhes do visitante | N/D | Definido automaticamente pelo arquivo .JS |
+| Últimos 100 visitantes | N/D | Calculado por regra de negócio no [!DNL Analytics] |
+| Página inicial do usuário | N/D | Definido automaticamente pelo arquivo .JS |
+| Visitantes principais | N/D | Baseado no endereço IP do visitante |
+| Páginas visualizadas por visitantes-chave | N/D | Baseado no endereço IP do visitante |
 
 | Segmentação geográfica |
 |---|
-| Países | N/A | Baseado no endereço IP do visitante |
-| Estados dos EUA | N/A | Baseado no endereço IP do visitante |
-| DMA | N/A | Baseado no endereço IP do visitante |
-| Cidades internacionais | N/A | Baseado no endereço IP do visitante |
-| Cidades dos EUA | N/A | Baseado no endereço IP do visitante |
+| Países | N/D | Baseado no endereço IP do visitante |
+| Estados dos EUA | N/D | Baseado no endereço IP do visitante |
+| DMA | N/D | Baseado no endereço IP do visitante |
+| Cidades internacionais | N/D | Baseado no endereço IP do visitante |
+| Cidades dos EUA | N/D | Baseado no endereço IP do visitante |
 
 | Tecnologia |
 |---|
-| Tipos de navegador | N/A | Definido automaticamente pelo arquivo .JS |
-| Navegadores | N/A | Definido automaticamente pelo arquivo .JS |
-| Dispositivos móveis | N/A | Definido automaticamente pelo arquivo .JS |
-| Largura da janela do navegador | N/A | Definido automaticamente pelo arquivo .JS |
-| Altura da janela do navegador | N/A | Definido automaticamente pelo arquivo .JS |
-| Sistemas operacionais | N/A | Definido automaticamente pelo arquivo .JS |
-| Intensidade de cor do monitor | N/A | Definido automaticamente pelo arquivo .JS |
-| Resoluções do monitor | N/A | Definido automaticamente pelo arquivo .JS |
-| Netscape plug-ins | N/A | Definido automaticamente pelo arquivo .JS |
-| Java | N/A | Definido automaticamente pelo arquivo .JS |
-| JavaScript | N/A | Definido automaticamente pelo arquivo .JS |
-| Versão do JavaScript | N/A | Definido automaticamente pelo arquivo .JS |
-| Cookies | N/A | Definido automaticamente pelo arquivo .JS |
-| Tipos de conexão | N/A | Definido automaticamente pelo arquivo .JS |
+| Tipos de navegador | N/D | Definido automaticamente pelo arquivo .JS |
+| Navegadores | N/D | Definido automaticamente pelo arquivo .JS |
+| Dispositivos móveis | N/D | Definido automaticamente pelo arquivo .JS |
+| Largura da janela do navegador | N/D | Definido automaticamente pelo arquivo .JS |
+| Altura da janela do navegador | N/D | Definido automaticamente pelo arquivo .JS |
+| Sistemas operacionais | N/D | Definido automaticamente pelo arquivo .JS |
+| Intensidade de cor do monitor | N/D | Definido automaticamente pelo arquivo .JS |
+| Resoluções do monitor | N/D | Definido automaticamente pelo arquivo .JS |
+| Netscape plug-ins | N/D | Definido automaticamente pelo arquivo .JS |
+| Java | N/D | Definido automaticamente pelo arquivo .JS |
+| JavaScript | N/D | Definido automaticamente pelo arquivo .JS |
+| Versão do JavaScript | N/D | Definido automaticamente pelo arquivo .JS |
+| Cookies | N/D | Definido automaticamente pelo arquivo .JS |
+| Tipos de conexão | N/D | Definido automaticamente pelo arquivo .JS |
 | Segmentação |
 
 | Segmentação |
