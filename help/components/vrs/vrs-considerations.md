@@ -1,12 +1,11 @@
 ---
 description: Os conjuntos de relatórios virtuais e a marcação de vários conjuntos têm vantagens diferentes. Saiba qual é o melhor para sua organização.
 keywords: Virtual Report Suite,VRS
-solution: Analytics
 title: Considerações sobre conjuntos de relatórios virtuais e marcação de vários conjuntos
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
