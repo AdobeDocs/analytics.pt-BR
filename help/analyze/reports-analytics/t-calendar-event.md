@@ -1,11 +1,10 @@
 ---
 description: Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
-solution: Analytics
 title: Eventos de calendário
 topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Para relatórios de tendências ao longo de um período, você pode exibir grafi
 1. (Opcional) Os eventos de calendário são específicos do usuário, exceto quando compartilhados. Para compartilhar esse evento, selecione **[!UICONTROL Compartilhar]**.
 1. (Opcional) Encaminhe o evento de calendário para os usuários. Os Eventos de calendário que foram marcados como Compartilhado podem ser "encaminhados" para outros usuários. Encaminhar um Evento de calendário fará com que ele seja exibido nos gráficos de tendência e de horas extras dos destinatários.
    1. Clique em **[!UICONTROL Encaminhar para usuários]**.
-   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
+   1. Clique em **[!UICONTROL Marcar tudo]** ou marque a caixa ao lado do nome do usuário.
    1. Clique em **[!UICONTROL Salvar]**.
    Isso torna os Eventos de calendário muito mais úteis. Agora, os analistas são capazes de colocar uma sobreposição nos relatórios dos usuários para oferecer mais contexto.
 1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Eventos de calendário]**.
