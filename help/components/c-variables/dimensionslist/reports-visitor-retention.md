@@ -1,11 +1,10 @@
 ---
 description: Exibe informações sobre a fidelidade do cliente. Você pode ver quantos de seus visitantes retornam ao site e com que frequência. Relatórios nesta categoria exibem informações sobre a fidelidade de seus clientes. Você pode ver quantos de seus visitantes retornam ao site e com que frequência.
-solution: Analytics
 title: Retenção de visitante
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ Exibe informações sobre a fidelidade do cliente. Você pode ver quantos de seu
   </tr> 
   <tr> 
    <td colname="col1"> Dias Desde a Última Compra </td> 
-   <td colname="col2"> <p>Exibe o número mais comum de dias transcorridos entre as compras repetidas de clientes e permite que você visualize os períodos de tempo que mais contribuíram com as principais métricas de sucesso do site, como Receita e Pedidos. </p> </td> 
+   <td colname="col2"> <p>Exibe o número mais comum de dias transcorridos entre as compras repetidas de clientes e permite visualizar os períodos de tempo que mais contribuíram com as métricas principais de sucesso do seu site, como Receita e Pedidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente único diário </td> 
