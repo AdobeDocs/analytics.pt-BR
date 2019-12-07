@@ -1,12 +1,11 @@
 ---
 description: Essa integração combina os recursos de pesquisa do cliente do Qualtrics Research Suite com os dados avançados que você está coletando no Adobe Analytics para criar oportunidades poderosas de análise e otimização para sua organização.
-solution: Analytics
 subtopic: Qualtrics
 title: Conector de dados Qualtrics para Adobe Analytics
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
