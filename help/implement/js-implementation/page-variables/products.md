@@ -1,13 +1,12 @@
 ---
 description: As variáveis de página populam diretamente um relatório, como pageName, Propriedades de lista, Variáveis de lista, entre outros.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -71,9 +70,9 @@ A variável *`products`* deve ser sempre definida juntamente com um evento bem-s
 | Quantidade | O número de unidades compradas. Este campo deve ser definido com um evento de compra a ser gravado. |
 | Preço | Refere-se ao custo total de quantidade adquirida (unidades vs preço unitário), e não o valor individual. Este campo deve ser definido com um evento de compra a ser gravado. |
 | Eventos | eventos de moeda associados ao produto em questão. Consulte [eventos de moeda do produto em questão](https://helpx.adobe.com/analytics/kb/comparing-event-types.html) e [eventos de moeda do pedido](https://helpx.adobe.com/analytics/kb/comparing-event-types.html). |
-| eVars | Valores eVar de merchandising associados a um produto específico. Consulte [Variáveis de merchandising](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
+| eVars | Valores eVar de merchandising associados a um produto específico. Ver [Variáveis de merchandising](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
 
-As valores inclusos na *`products`* variável são baseados no tipo de evento que está sendo gravado. O delimitador (;) de categoria/produto é necessário como espaço reservado na omissão de Categoria. O uso de outros delimitadores só é necessário para diferenciar o parâmetro que está sendo incluído, conforme exibido nos exemplos desta página.
+Os valores incluídos na *`products`* variável baseiam-se no tipo de evento que você está gravando. O delimitador (;) de categoria/produto é necessário como espaço reservado na omissão de Categoria. O uso de outros delimitadores só é necessário para diferenciar o parâmetro que está sendo incluído, conforme exibido nos exemplos desta página.
 
 **Configuração de products com eventos que não são de compra**
 
