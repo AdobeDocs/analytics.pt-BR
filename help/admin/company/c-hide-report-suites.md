@@ -1,12 +1,11 @@
 ---
 description: Permite ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics.
 keywords: delete report suite
-solution: Analytics
 title: Ocultar conjuntos de relatórios
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ Ocultar um conjunto de relatórios evita que ele seja exibido no menu suspenso d
 
 >[!IMPORTANT]
 >
->Os dados enviados para um conjunto de relatórios oculto do site continuam a ser coletados, processados e faturados. Em outras palavras, um conjunto de relatórios nunca é completamente excluído.
+>Os dados de um site enviados para um conjunto de relatórios oculto continuam a ser coletados, processados e faturados. Em outras palavras, um conjunto de relatórios nunca é completamente excluído.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Marque a caixa de seleção **[!UICONTROL Oculto]no lado esquerdo do nome do conjunto de relatórios.**
+Para ocultar o conjunto de relatórios, acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
 
 Para tornar o conjunto de relatórios visível, desmarque a caixa de seleção **[!UICONTROL Oculto].**
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+Para exibir apenas os conjuntos de relatórios ocultos, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** &gt; **[!UICONTROL Somente conjuntos de relatórios ocultos]**.
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+Para exibir apenas os conjuntos de relatórios visíveis, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** &gt; **[!UICONTROL Somente conjuntos de relatórios visíveis]**.
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+O padrão é **[!UICONTROL Exibir]** &gt; **[!UICONTROL Todos]**.
