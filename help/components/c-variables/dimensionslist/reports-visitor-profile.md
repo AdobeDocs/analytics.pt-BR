@@ -1,11 +1,10 @@
 ---
 description: Relatórios que ajudam você a visualizar padrões de compras dos clientes de várias categorias de perfil, incluindo países, estados, CEP/códigos postais e domínios.
-solution: Analytics
 title: Perfil do visitante
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,11 +23,11 @@ Relatórios que ajudam você a visualizar padrões de compras dos clientes de v�
  <tbody> 
   <tr> 
    <td colname="col1"> Idiomas </td> 
-   <td colname="col2"> <p> Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site. </p> </td> 
+   <td colname="col2"> <p> Apresenta os idiomas preferidos de seus visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com frequência em seu site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domínios </td> 
-   <td colname="col2"> <p> Lista as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de <span class="wintitle">Domínios completos</span> porque o relatório de <span class="wintitle">Domínios completos</span> registra o domínio completo do ISP e este relatório indica o domínio secundário. </p> <p> <p>Observação: algumas operadoras de dispositivos móveis (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Os dados dessas operadoras não estão disponíveis para relatório de domínio. </p> </p> </td> 
+   <td colname="col2"> <p> Lista as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de <span class="wintitle">Domínios completos</span> porque o relatório de <span class="wintitle">Domínios completos</span> registra o domínio completo do ISP e este relatório indica o domínio secundário. </p> <p> <p>Observação: algumas operadoras de celular (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Os dados dessas operadoras não estão disponíveis para relatório de domínio. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domínios de nível superior </td> 
