@@ -1,13 +1,12 @@
 ---
 description: Análise avançada das variáveis e suas limitações.
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: Variáveis e limitações
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -72,9 +71,9 @@ A tabela a seguir contém informações sobre as variáveis do [!DNL Analytics]:
 | products | Usada para rastrear produtos e categorias de produto, assim como quantidade e preço da compra. A variável *`products`* deve ser sempre definida juntamente com um evento bem-sucedido. Como alternativa, a variável *`products`* pode rastrear eventos numéricos e de moeda personalizados, assim como eVars de [!UICONTROL Merchandising]. |
 | propN | Usada para criar relatórios personalizados dentro do [!DNL Analytics] [!UICONTROL Módulo de tráfego do ]. A [!UICONTROL props] pode ser usada como contadores (para contar o número de vezes que uma exibição de página é enviada), para relatório de definição de caminho ou em relatórios de correlação. |
 | purchaseID | Usada para impedir que um pedido seja contado várias vezes pelo [!DNL Analytics]. Sempre que o evento de compra for usado no site, você deve usar a variável *`purchaseID`*. |
-| referrer | Restaura as informações do referenciador. |
+| referenciador | Restaura as informações do referenciador. |
 | resolution | Exibe a resolução do monitor do visitante que exibe a página da Web. |
-| server | Mostra o domínio de uma página da Web (para mostrar para quais domínios as pessoas vão) ou o servidor que serve a página (para uma referência rápida de balanceamento de carga). |
+| servidor | Mostra o domínio de uma página da Web (para mostrar para quais domínios as pessoas vão) ou o servidor que serve a página (para uma referência rápida de balanceamento de carga). |
 | state | Captura o estado em que um visitante de seu site reside. |
 | trackDownloadLinks | Definir *`trackDownloadLinks`* como 'true' se você deseja rastrear links para arquivos baixáveis no site. Se *`trackDownloadLinks`* for 'true', *`linkDownloadFileTypes`* determinará os links que são arquivos baixáveis. |
 | trackExternalLinks | Se *`trackExternalLinks`* for 'true', *`linkInternalFilters`* e *`linkExternalFilters`* determinam se qualquer link clicado é um link de saída. |
