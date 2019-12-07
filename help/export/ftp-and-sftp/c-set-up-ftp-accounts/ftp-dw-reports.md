@@ -1,11 +1,10 @@
 ---
 description: O Data Warehouse permite solicitar relatórios que exibem relações de dados avançadas a partir de dados brutos contidos em suas perguntas exclusivas.
 keywords: ftp;sftp
-solution: Analytics
 title: Relatórios entregues do Data Warehouse
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
