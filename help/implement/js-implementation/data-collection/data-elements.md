@@ -1,12 +1,11 @@
 ---
 description: É possível capturar os valores de elementos de formulários, como botões de opção e itens de caixa de seleção, em relatórios. Esse recurso ajuda você a analisar as escolhas mais comuns em seus formulários online.
 keywords: Analytics Implementation
-solution: Analytics
 title: Coletar dados de elementos de formulário
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
