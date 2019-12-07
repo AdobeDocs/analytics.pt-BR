@@ -1,11 +1,10 @@
 ---
 description: Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Este relatório permite que você acompanhe as visualizações de páginas para cada página no site, bem como um agregado de exibições de página do site inteiro.
-solution: Analytics
 title: Exibições de página
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,12 +13,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Este relatório permite que você acompanhe as visualizações de páginas para cada página no site, bem como um agregado de exibições de página do site inteiro.
 
-A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas.
+Uma [Exibição de página](/help/components/c-variables/c-metrics/metrics-page-view.md) é uma solicitação de um documento de página inteira, em vez de um elemento de uma página, como uma imagem ou vídeo. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas.
 
 **Propriedades de relatório**
 
 * Este relatório faz referência ao número de vezes que a função [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) foi utilizada no site.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* O [rastreamento de link](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) (como links personalizados, downloads de arquivo e links de saída) necessita do uso da função [!DNL s.tl()] () e não é contado neste relatório.
 
 * Por que as solicitações de imagens são enviadas quando o usuário atualiza a página ou clica no botão voltar, este relatório também inclui essas ações.
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
