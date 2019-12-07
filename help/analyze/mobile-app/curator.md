@@ -2,7 +2,7 @@
 description: Instruções para configurar os scorecards do aplicativo móvel.
 title: Guia do curador do aplicativo móvel do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -24,7 +24,16 @@ Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a c
 
 A tabela a seguir descreve os termos para entender o público-alvo, as funções e a operação do aplicativo móvel do Analytics.
 
-|Termo|Definição||—|—|Consumidor| Pessoa executiva visualizando as principais métricas e insights do Analytics em um dispositivo móvel||Curador|Dados alfabetizam a pessoa que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor||Preparação|O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor||Scorecard|Uma exibição de aplicativo móvel contendo um ou mais blocos||Lado a lado|Uma renderização para uma métrica em uma exibição de cartão de pontuação||Detalhamento|Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais.||Intervalo de datas|O intervalo de datas principal para relatórios de aplicativo móvel||Intervalo de Datas de Comparação|O Intervalo de Datas que é comparado com o intervalo de datas principal|
+| Termo | Definição |
+|--- |--- |
+| Consumidor | Personalidade executiva visualizando métricas e insights principais do Analytics em um dispositivo móvel |
+| Curador | Personalidade da biblioteca de dados que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor |
+| Preparação | O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor |
+| Scorecar | Uma exibição de aplicativo móvel contendo um ou mais blocos |
+| Lado a lado | Uma renderização para uma métrica em uma Exibição de Scorecard |
+| Detalhamento | Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais. |
+| Intervalo de datas | O intervalo de datas principal para relatórios do aplicativo móvel |
+| Intervalo de datas de comparação | O intervalo de datas que é comparado ao intervalo de datas principal |
 
  
 ## Criar um Scorecard para usuários executivos
@@ -32,12 +41,12 @@ A tabela a seguir descreve os termos para entender o público-alvo, as funções
 Um Mobile Scorecard exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
 
 
-![Exemplo de scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+![Exemplo de scorecard](assets/intro_scorecard.png)
 
 
 Como curador deste Scorecard, você pode usar o Construtor de Scorecard para configurar quais blocos aparecem no Scorecard para seu consumidor. Você também configura como as exibições detalhadas, ou os Detalhamentos, podem ser ajustados quando os blocos forem tocados. A interface do Construtor de scorecard é mostrada abaixo:
 
-![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+![Scorecard Builder](assets/scorecard_builder.png)
 
 
 Para criar o Scorecard, é necessário fazer o seguinte:
@@ -56,7 +65,7 @@ Você pode acessar o modelo em branco do Mobile Scorecard de uma das seguintes m
 2. Clique no botão **Criar novo projeto** e selecione o modelo de projeto **em branco do Mobile Scorecard** .
 3. Click the **Create** button.
 
-![Modelo do Scorecard](help/analyze/mobile-app/assets/new_template.png)
+![Modelo do Scorecard](assets/new_template.png)
 
 
 *Observação: Se você não vir o modelo em branco do Mobile Scorecard, como mostrado abaixo, sua empresa ainda não foi ativada para o Beta. Entre em contato com seu gerente de atendimento ao cliente.*
@@ -66,7 +75,7 @@ Você pode acessar o modelo em branco do Mobile Scorecard de uma das seguintes m
 
 Na tela **Projetos** , na guia **Componentes** , clique no botão **Adicionar** e selecione **Mobile Scorecard**.
 
-![Adicionar projetos](help/analyze/mobile-app/assets/add_project.png)
+![Adicionar projetos](assets/add_project.png)
 
 **Usar ferramentas do Analytics**
 
@@ -78,11 +87,11 @@ Para implementar o modelo do Scorecard:
 
 1. Em **Propriedades** (no painel direito), especifique um Conjunto **de relatórios de** projeto do qual deseja usar os dados.
 
-   ![Seleção do conjunto de relatórios](help/analyze/mobile-app/assets/properties_save.png)
+   ![Seleção do conjunto de relatórios](assets/properties_save.png)
 
 2. Para adicionar um novo bloco ao Scorecard, arraste uma métrica do painel esquerdo e solte-a na Zona **Arrastar e soltar métricas aqui** . Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
 
-   ![Adicionar blocos](help/analyze/mobile-app/assets/build_list.png)
+   ![Adicionar blocos](assets/build_list.png)
 
 
    *Em cada bloco, você pode acessar uma exibição detalhada que exibe informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.*
@@ -90,7 +99,7 @@ Para implementar o modelo do Scorecard:
 
 3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, é possível adicionar dimensões apropriadas (como Região **** DMA, neste exemplo) à métrica Visitantes **** únicos arrastando-a e soltando-a no bloco; as dimensões adicionadas aparecerão na seção de detalhamento das **Propriedades** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
 
-   ![Adicionar dimensões](help/analyze/mobile-app/assets/layer_dimensions.png)
+   ![Adicionar dimensões](assets/layer_dimensions.png)
 
    *Observação: Também é possível adicionar uma dimensão a todos os blocos soltando-os na tela do Scorecard.*
 
@@ -99,7 +108,7 @@ Para implementar o modelo do Scorecard:
 
    Além disso, se você clicar em blocos, um pop-up dinâmico exibirá como a exibição Detalhamento será exibida para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será **hora** ou **dias**, dependendo do intervalo de datas padrão.
 
-   ![Análise_visualização](help/analyze/mobile-app/assets/break_view.png)
+   ![Análise_visualização](assets/break_view.png)
 
    *Observe como cada dimensão adicionada ao bloco será exibida em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções listadas na lista suspensa.*
 
@@ -107,7 +116,7 @@ Para implementar o modelo do Scorecard:
 
 5. Da mesma forma, para remover um componente que é aplicado a todo o Scorecard, clique em qualquer lugar no Scorecard fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, conforme mostrado abaixo para o segmento Clientes **** móveis:
 
-   ![Remover_componentes](help/analyze/mobile-app/assets/new_remove.png)
+   ![Remover_componentes](assets/new_remove.png)
 
 6. Em **Propriedades** do Scorecard, também é possível especificar o seguinte:
 
@@ -119,7 +128,7 @@ Para implementar o modelo do Scorecard:
 
 7. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
-   ![Nomear_scorecards](help/analyze/mobile-app/assets/new_name.png)
+   ![Nomear_Scorecards](assets/new_name.png)
 
 ## Compartilhar o Scorecard
 
@@ -137,7 +146,7 @@ Para compartilhar o Scorecard com um usuário executivo:
 
 3. Clique em **Compartilhar**.
 
-![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+![Share_Scorecards](assets/new_share.png)
 
 
 Depois de compartilhar um Scorecard, os destinatários poderão acessá-lo em seus aplicativos do Analytics Mobile. Se você fizer alterações subsequentes no Scorecard no Construtor de Scorecard, elas serão automaticamente atualizadas no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard em seu aplicativo.
@@ -152,11 +161,11 @@ Em alguns casos, os usuários executivos podem precisar de alguma assistência a
 
 Para ajudar usuários executivos a acessar seus Scorecards no aplicativo, verifique se:
 
-    * Os requisitos mínimos de SO móvel em seus dispositivos são iOS versão 10 ou superior, ou Android versão 4.4 (KitKat) ou superior
-    * Eles têm um logon válido no Adobe Analytics
-    * Você criou corretamente os Mobile Scorecards para eles e os compartilha com eles.
-    * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios no qual o Scorecard se baseia
-    * Eles têm acesso aos Componentes incluídos no Scorecard. Observação: Você pode selecionar uma opção ao compartilhar seus Scorecards com **Compartilhar automaticamente componentes incorporados com destinatários**.
+* Os requisitos mínimos de SO móvel em seus dispositivos são iOS versão 10 ou superior, ou Android versão 4.4 (KitKat) ou superior
+* Eles têm um logon válido no Adobe Analytics
+* Você criou corretamente os Scorecards móveis para eles e compartilha esses Scorecards com eles.
+* Eles têm acesso à Analysis Workspace e ao conjunto de relatórios no qual o Scorecard se baseia
+* Eles têm acesso aos Componentes incluídos no Scorecard. Observação: Você pode selecionar uma opção ao compartilhar seus Scorecards com os destinatários **para Compartilhar** automaticamente componentes incorporados.
 
 ### Ajuda os usuários executivos a usar o aplicativo
 
@@ -166,19 +175,19 @@ Durante a fase beta e antes do aplicativo ser exibido ao público, você pode co
 
    **Para usuários executivos no iOS:**
 
-   1. Clique no seguinte link público (Ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
+   1. Clique no seguinte link público (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
 
       [Link](https://testflight.apple.com/join/WtXMQxlI)do iOS: `https://testflight.apple.com/join/WtXMQxlI`
 
       Depois de clicar no link, a seguinte tela de Testflight é exibida:
 
-      ![Testflight screen](help/analyze/mobile-app/assets/testflight1.png)
+      ![Testflight screen](assets/testflight1.png)
 
    2. Toque no link **Exibir na App Store** na tela para baixar o aplicativo Testflight.
 
    3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
-   ![Testflight screen](help/analyze/mobile-app/assets/testflight2.png)
 
+      ![Testflight screen](assets/testflight2.png)
    **Para usuários executivos no Android:**
 
    1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
@@ -188,97 +197,80 @@ Durante a fase beta e antes do aplicativo ser exibido ao público, você pode co
 
       Depois de tocar no link, toque no link Testar na seguinte tela:
 
-      ![Tela Reproduzir na loja](help/analyze/mobile-app/assets/play.png)
+      ![Tela Reproduzir na loja](assets/play.png)
 
    2. Toque no **download do link no Google Play** na seguinte tela:
 
-      ![Link de download](help/analyze/mobile-app/assets/playnext.png)
+      ![Link de download](assets/playnext.png)
 
    3. Baixe e instale o aplicativo.
    Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
 
-   ![Tela de boas-vindas do aplicativo](help/analyze/mobile-app/assets/welcome.png)
+   ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
-2. Ajude-os a acessar seu Scorecard. Depois que os usuários executivos fazem logon no aplicativo, a tela Escolher uma empresa é exibida. Esta tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
+2. Ajude-os a acessar seu Scorecard. Depois que os usuários executivos fazem logon no aplicativo, a tela **Escolher uma empresa** é exibida. Esta tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
 
-* Toque no nome da empresa de logon ou da Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
-* Ajude-os a classificar essa lista pela última vez modificada, se aplicável.
-* Toque no nome do Scorecard para exibi-lo.
-
-
-1. Escolha uma empresa tocando nela.
-2. Toque em um Scorecard na Lista de Scorecard.
+   * Toque no nome da empresa de logon ou da Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
+   * Ajude-os a classificar essa lista pela **última vez modificada**, se aplicável.
+   * Toque no nome do Scorecard para exibi-lo.
+   ![Escolha uma empresa](assets/accesscard.png)
 
    Observação: Se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi compartilhado:
 
    * O usuário executivo pode ter selecionado a instância incorreta do Analytics
-   * O Scorecard não foi compartilhado com o usuário executivo
+   * O Scorecard pode não ter sido compartilhado com o usuário executivo
 
-3. Mostrar como os blocos aparecem no Scorecard que você compartilha.
+      ![Nada compartilhado](assets/nothing.png)
+   Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
+3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha.
+
+   ![Explicar blocos](assets/newexplain.png)
 
 
    Informações adicionais sobre blocos:
 
-       
- * A granularidade dos minigráficos depende da duração do intervalo de datas:       * Um dia mostra uma tendência
- horária     * Mais de um dia e menos de um ano mostra uma tendência
- diária     * Um ano ou mais mostra uma tendência
- semanal     * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
-       * Você pode puxar a tela para baixo para atualizar o Scorecard.
-   
+   * A granularidade dos minigráficos depende do comprimento do intervalo de datas:
+      * Um dia mostra uma tendência por hora
+      * Mais de um dia e menos de um ano mostram uma tendência diária
+      * Um ano ou mais mostra uma tendência semanal
+   * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
+   * Você pode puxar a tela para baixo para atualizar o Scorecard.
 
-4. Toque em um bloco para mostrar como um detalhamento ou relatório de tendências detalhado para o bloco funciona.
+
+4. Toque em um bloco para mostrar como um detalhamento do bloco funciona.
+
+   ![Exibição de análise](assets/sparkline.png)
 
 
 5. Para alterar os intervalos de datas do Scorecard:
 
+   ![Alterar datas](assets/changedate.png)
 
+   *Observação: Você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.*
 
-   *1. Toque no cabeçalho Data. 2. Na tela Intervalo de datas, toque no período de tempo com o qual deseja trabalhar.*
-
-   Dependendo do intervalo que você tocar (Dia, Semana, Mês ou Ano), você verá duas opções para intervalos de datas - seja o período atual ou aquele imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista COMPARAR A, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em Concluído no canto superior direito da tela. Os campos Intervalos de datas e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
-
+   Dependendo do intervalo que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para intervalos de datas - seja o período atual ou aquele imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR PARA** , toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. Os campos Intervalos **de** datas e os blocos do Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
 6. Para deixar feedback sobre este aplicativo:
 
-
    1. Toque no ícone do usuário no canto superior direito da tela do aplicativo.
-   2. Na tela Minha conta, toque na opção Feedback.
+   2. Na tela **Minha conta** , toque na opção **Feedback** .
    3. Toque em para exibir as opções para deixar feedback.
+   ![Deixar feedback](assets/feedback.png)
+   ![Opções de feedback](assets/feedback_option.png)
 
 
+**Para relatar um bug**:
 
-*Toque no ícone Usuário no canto superior direito. 2.Toque no tipo de feedback. 3. Toque na opção de feedback aplicável.*
-
-
-
+Toque na opção e escolha uma subcategoria do erro. No formulário para reportar um bug, forneça seu endereço de email no campo superior e a descrição do bug no campo abaixo dele. Uma captura de tela das informações de sua conta é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar o relatório, toque no ícone de plano de papel na parte superior direita do formulário.
 
 
+![Erro de relatório](assets/newbug.png)
 
+**Para sugerir uma melhoria**:
 
+Toque na opção e escolha uma subcategoria para a sugestão. No formulário de sugestão, forneça seu endereço de email no campo superior e a descrição do bug no campo abaixo dele. Uma captura de tela das informações de sua conta é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a sugestão, toque no ícone de plano de papel na parte superior direita do formulário.
 
-Para relatar um erro:
+**Para fazer uma pergunta**:
 
-Toque na opção e escolha uma subcategoria do erro. No formulário para reportar um bug, forneça seu endereço de email no campo superior e a descrição do bug no campo abaixo dele. Uma captura de tela das informações de sua conta é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no X na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar o relatório, toque no ícone de plano de papel na parte superior direita do formulário.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Para sugerir uma melhoria:
-
-Toque na opção e escolha uma subcategoria para a sugestão. No formulário de sugestão, forneça seu endereço de email no campo superior e a descrição do bug no campo abaixo dele. Uma captura de tela das informações de sua conta é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no X na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a sugestão, toque no ícone de plano de papel na parte superior direita do formulário.
-
-Para fazer uma pergunta:
-
-Toque na opção e forneça seu endereço de email no campo superior e sua pergunta no campo abaixo. Uma captura de tela é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no X na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a pergunta, toque no ícone de plano de papel na parte superior direita do formulário.
+Toque na opção e forneça seu endereço de email no campo superior e sua pergunta no campo abaixo. Uma captura de tela é anexada automaticamente à mensagem, mas você pode excluí-la, se desejar, tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a pergunta, toque no ícone de plano de papel na parte superior direita do formulário.
