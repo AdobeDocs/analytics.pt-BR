@@ -1,11 +1,10 @@
 ---
 description: Descreve as etapas envolvidas na aplicação de filtros para um relatório de definição de caminho.
-solution: Analytics
 title: Filtrar relatório de caminho com o Assistente de solicitação
 topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
