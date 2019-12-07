@@ -1,11 +1,10 @@
 ---
 description: Um relatório de Ad Hoc Analysis. A análise do site mostra como os visitantes se movem entre as páginas e os eventos especificados. Por exemplo, você pode ver o fluxo do tráfego entre as páginas, a afinidade entre os produtos e os canais de marketing e como as campanhas e os canais fluem para pedidos de produtos. Você pode arrastar páginas, itens de dimensão (e listas) e eventos de métrica. Cada cilindro representa um ou mais itens de dimensão (páginas) ou um evento. As setas representam o fluxo entre os valores dos cilindros. As métricas são atribuídas às posições dos cilindros (X e Y), à largura do cilindro, à altura do cilindro e à cor. A posição, o tamanho e a cor muda de acordo com os valores das métricas.
-solution: Analytics
 title: Análise do site
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
