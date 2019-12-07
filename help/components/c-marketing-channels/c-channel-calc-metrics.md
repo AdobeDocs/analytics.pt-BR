@@ -1,12 +1,11 @@
 ---
 description: Adicione métricas calculadas aos relatórios de Canal de marketing no Analytics.
-solution: Analytics
 subtopic: Marketing channels
 title: Métricas calculadas usadas nos relatórios de canal de marketing
 topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,15 +24,15 @@ Adicione uma métrica calculada do Relatório de resumo dos Canais de marketing.
 
 1. Abra um [!UICONTROL Relatório de Visão geral de Canal de marketing].
 
-   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
+   Consulte [Executar relatórios de canal de marketing](/help/components/c-marketing-channels/t-reports-sc.md).
 
-1. **[!UICONTROL No relatório, clique em]** Editar. ![](assets/metric_edit_icon.png)
+1. No relatório, clique em **[!UICONTROL Editar.]** ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
-   >If you are viewing a [!UICONTROL First Touch] or [!UICONTROL Last Touch] detail report, click **[!UICONTROL Add Metrics]** to select a metric.
+   >Se você estiver visualizando um relatório detalhado de [!UICONTROL Primeiro toque] ou [!UICONTROL Último toque], clique em **[!UICONTROL Adicionar métricas]** para selecionar uma métrica.
 
 1. Role para [!UICONTROL Métricas calculadas] e clique duas vezes em uma métrica calculada.
 
-   Se a métrica calculada não existir, clique em **[!UICONTROL Criar]para definir a métrica aqui.** See the [Calculated Metrics Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) for more information.
+   Se a métrica calculada não existir, clique em **[!UICONTROL Criar]** para definir a métrica aqui. Consulte o [Guia de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) para obter mais informações.
 1. Clique em **[!UICONTROL Salvar.]**
