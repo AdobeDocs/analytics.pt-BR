@@ -1,11 +1,10 @@
 ---
 description: Mostra o domínio ou URL de onde os visitantes vieram antes de chegarem ao site, os métodos utilizados para encontrar site e o número de visitas ao site que vieram desses locais de referência.
-solution: Analytics
 title: Referenciadores
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
