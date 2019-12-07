@@ -1,11 +1,10 @@
 ---
 description: O relatório de fluxo de seção anterior é similar ao relatório de fluxo de página anterior. Ele exibe os dados das seções do site (grupos de páginas da Web relacionadas). Se uma página estiver contida em mais de uma seção do site, o relatório exibirá os dados de todas as seções do site.
-solution: Analytics
 title: Fluxo de seção anterior
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
