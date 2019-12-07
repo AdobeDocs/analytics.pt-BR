@@ -1,12 +1,11 @@
 ---
 description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
-solution: Analytics
 subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
 
-## Valores personalizados e dados de contexto {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Valores personalizados e dados de contexto  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -97,11 +96,11 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
-   <td colname="col2"> <p>O valor de um parâmetro da sequência de caracteres de consulta especificado no URL atual, ou nulo se não houver nenhum parâmetro. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
+   <td colname="col2"> <p>O valor de um parâmetro da sequência de caracteres de consulta especificado no URL atual, ou nulo se não houver nenhum parâmetro. Para o URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, o valor do parâmetro da cadeia de caracteres de consulta <span class="syntax codeph">cid</span> é <b>ad1</b>, e o valor de <span class="syntax codeph">node</span> do parâmetro da cadeia de caracteres de consulta é <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caminho da página </p> </td> 
-   <td colname="col2"> <p>O caminho do URL da página. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>O caminho do URL da página. O caminho do URL <b> https://www.example.com/news/a.html?cid=ad1</b> é <span class="syntax codeph">/news/a.html</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio de página </p> </td> 
@@ -121,7 +120,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da string de consulta de referência (somente leitura) </p> </td> 
-   <td colname="col2"> <p>O valor de um parâmetro da string de consulta especificado no URL de referência, ou nulo se não houver nenhum parâmetro. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
+   <td colname="col2"> <p>O valor de um parâmetro da string de consulta especificado no URL de referência, ou nulo se não houver nenhum parâmetro. Para o URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, o valor do parâmetro da cadeia de caracteres de consulta <span class="syntax codeph">cid</span> é <b>ad1</b>, e o valor de <span class="syntax codeph">node</span> do parâmetro da cadeia de caracteres de consulta é <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio de referência (somente leitura) </p> </td> 
