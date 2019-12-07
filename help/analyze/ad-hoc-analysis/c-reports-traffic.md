@@ -1,11 +1,10 @@
 ---
 description: Os relatórios de fontes de tráfego fornecem um insight detalhado sobre como os visitantes interagem com o site da Web.
-solution: Analytics
 title: Relatórios de fontes de tráfego
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -79,7 +78,7 @@ c_reports_original_ref_domains.xml
 
  -->
 
-Exibe os referenciadores originais que geraram clientes para o seu site. Os clientes podem visitar seu site várias vezes e ter um referenciador diferente para cada visita. Este relatório mostra como eles foram encaminhados na primeira vez que chegaram ao seu site. Isso pode ajudá-lo a saber se eles continuaram a usar o mesmo referenciador e visualizar os padrões de como os clientes são referenciados ao seu site. É possível ver o número de visitantes gerados por um referenciador original ou descobrir o valor da receita que cada referenciador original gerou. Os Relatórios de referenciadores podem ser preenchidos a cada vez que um visitante chega ao site, mesmo que o visitante acesse o local diversas vezes durante uma sessão (antes da visita expirar).
+Exibe os referenciadores originais que geraram clientes para o seu site. Os clientes podem visitar seu site várias vezes e ter um referenciador diferente para cada visita. Este relatório mostra como eles foram encaminhados na primeira vez que chegaram ao seu site. Isso pode ajudá-lo a saber se eles continuaram a usar o mesmo referenciador e visualizar os padrões de como os clientes são referenciados ao seu site. É possível ver o número de visitantes gerados por um referenciador original ou descobrir o valor da receita que cada referenciador original gerou. Os Relatórios de referenciadores podem ser preenchidos a cada vez que um visitante chega ao site, mesmo que o visitante acesso o local diversas vezes durante uma sessão (antes da visita expirar.)
 
 ## Referenciadores {#concept_40CF9C2D10B94E82819BC65A232F05C3}
 
@@ -101,7 +100,7 @@ Consulte [Filtros internos de URL](https://marketing.adobe.com/resources/help/en
 
 ## Tipo de referenciador {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Ao rastrear e gravar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
+Ao rastrear e registrar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
 
 <!-- 
 
@@ -124,7 +123,7 @@ A lista abaixo define os diversos tipos de referenciadores:
 
 Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
-**No seu site**: Estes itens são URLs marcadas pelos filtros internos do URL. Esses itens não são contados como   mas podem ser visualizados quando relatados em outras métricas.
+**No seu site**: Estes itens são URLs marcadas pelos filtros internos do URL. Esses itens não são contados como instâncias referenciadoras, mas podem ser vistos ao relatar outras métricas.
 
 **Sem Java Script**: Não havia nenhum JavaScript, então o tipo não pôde ser identificado (desconhecido). Isso significa que não haviam informações do referenciador fornecidas por um cliente em um navegador, o qual não informa ser compatível com JavaScript. Isso não é contado como "instâncias do referenciador", mas pode ser visualizado quando relatado em outras medidas.
 
