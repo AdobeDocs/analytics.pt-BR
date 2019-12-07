@@ -1,11 +1,10 @@
 ---
 description: Um grupo de relatórios com base na análise de caminho. Tecnicamente, definição de caminho significa mover de um nome de página a outro (de um valor a outro).
-solution: Analytics
 title: Definição de caminho
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Use o [Fluxo da Analysis Workspace](https://marketing.adobe.com/resources/help/e
 
 Se você deseja saber a ordem em que os valores são coletados, então é necessário ativar a definição de caminho para a variável que coleta esses dados. A definição de caminho é ativada por padrão para as páginas. A definição de caminho não é ativada para quaisquer props por padrão, pois só é adequada em alguns casos. Entre em contato com o atendimento ao cliente para ativar a definição de caminho em uma prop.
 
-> [!NOTE] Na Análise ad hoc, quando você ativa classificações em uma prop, as métricas de definição de caminho ficam disponíveis para todas as classificações configuradas para a prop ativada.
+> [!NOTE] Na Ad Hoc Analysis, ao ativar classificações em uma prop, as métricas de definição de caminho se tornam disponíveis para todas as classificações definidas para a prop ativada.
 
 **Exemplo - Definição de caminho em seções do site**
 
@@ -34,7 +33,7 @@ A definição de caminho fica então disponível em vários relatórios de camin
 
 **Exemplo - Definição de caminho em pesquisas**
 
-Esse mesmo conceito de ir de um valor a outro valor também se aplica a outras variáveis de tráfego, incluindo *`s.props`*. Por exemplo, se você ativar a definição de caminho para seu Termo de pesquisa interna *`s.prop`*, poderá ver o caminho que os visitantes tomam pelos termos de pesquisa.
+Esse mesmo conceito de ir de um valor a outro valor também se aplica a outras variáveis de tráfego, incluindo *`s.props`*. Por exemplo, se você ativar a definição de caminho do Termo de pesquisa interna *`s.prop`*, poderá ver o caminho que os visitantes seguem pelos termos de pesquisa.
 
 **Exemplo - Definição de caminho por status de logon**
 
@@ -48,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Em seguida, ative a definição de caminho para *`s.prop19`* para ver como os membros caminham pelas páginas.
 
-> [!NOTE] Se você executar a análise ad hoc, poderá segmentar caminhos de página sem a necessidade de concatenar valores de segmento e aplicar qualquer segmento aos relatórios de definição de caminho.
+> [!NOTE] Se você usar a análise ad hoc, você pode segmentar os caminhos de página sem a necessidade de concatenar valores de segmentos e aplicar qualquer segmento aos relatórios de definição de caminho.
 
