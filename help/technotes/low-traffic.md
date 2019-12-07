@@ -1,11 +1,10 @@
 ---
 description: Quando um relatório tem um grande número de valores únicos, a Adobe fornece funcionalidade para garantir que os valores mais importantes apareçam em seu relatório.
-solution: Analytics
 title: Valor de baixo tráfego no Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
