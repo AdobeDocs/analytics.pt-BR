@@ -1,12 +1,11 @@
 ---
 description: Quando os servidores de coleta do DFA e da Adobe® podem se comunicar, você pode gerar relatórios no Relatórios e análises incluindo dados do DFA.
 keywords: DFA
-solution: Analytics
 title: Relatórios do Analytics com dados do DFA
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
