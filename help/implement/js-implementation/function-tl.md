@@ -1,13 +1,12 @@
 ---
 description: É possível rastrear automaticamente os downloads de arquivo e links de saída com base nos parâmetros definidos no arquivo AppMeasurement para JavaScript.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Link tracking
 title: A função s.tl() - Rastreamento de link
 topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
