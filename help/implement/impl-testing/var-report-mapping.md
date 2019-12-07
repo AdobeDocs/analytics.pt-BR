@@ -1,12 +1,11 @@
 ---
 description: A tabela a seguir exibe o mapeamento de variável para relatório das variáveis usadas para preencher relatórios do Analytics.
 keywords: Analytics Implementation
-solution: Analytics
 title: Mapeamento de variável para relatório
 topic: Developer and implementation
 uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
