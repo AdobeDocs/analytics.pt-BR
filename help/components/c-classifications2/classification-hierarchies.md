@@ -1,12 +1,11 @@
 ---
 description: A página Hierarquias de classificação permite definir hierarquias de classificação que você pode usar para criar relatórios de Hierarquia com o mesmo nome.
-solution: Analytics
 subtopic: Classifications
 title: Hierarquias de classificação
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Por exemplo, se uma hierarquia de Produto incluir Vestuário &gt; Vestuário mas
 
 Crie as classificações antes de adicioná-las à hierarquia.
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## Criar uma hierarquia de classificação {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,13 +34,13 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
-1. Na lista suspensa **Criar hierarquia para**, selecione uma variável na qual deseje criar uma hierarquia de classificação.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Hierarquias de classificação]**.
+1. Na lista suspensa **[!UICONTROL Criar hierarquia para]**, selecione uma variável na qual deseje criar uma hierarquia de classificação.
 
    A lista de classificações exibe automaticamente as classificações disponíveis para a variável selecionada.
-1. Arraste uma classificação para o campo **Arraste a nova raiz de hierarquia aqui** para incluí-la na hierarquia de classificação.
+1. Arraste uma classificação para o campo **[!UICONTROL Arraste a nova raiz de hierarquia aqui]** para incluí-la na hierarquia de classificação.
 
    Arraste as classificações para a hierarquia na ordem em que deseja que sejam exibidas na hierarquia. A primeira classificação é a raiz da hierarquia, a segunda é a primeira subclassificação e assim por diante.
 1. Clique em **[!UICONTROL Salvar]**.
