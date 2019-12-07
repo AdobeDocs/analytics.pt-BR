@@ -1,11 +1,10 @@
 ---
 description: Exibe um detalhe das palavras-chave de pesquisa.
-solution: Analytics
 title: Palavras-chave de pesquisa
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Exibe um detalhe das palavras-chave de pesquisa.
 
 >[!IMPORTANT]
 >
->Para pesquisa paga e natural, os mecanismos de pesquisa pararam de fornecer (na maioria dos casos) as palavras-chave de pesquisa como parte do referenciador. Como resultado, a Adobe classifica sempre o domínio do Google (ou Bing ou Yahoo) como pesquisa. Com base no formato e no conteúdo do referenciador (mesmo sem as palavras-chave), a Adobe geralmente pode determinar que foi o resultado de uma pesquisa, portanto, a pesquisa é contabilizada nas Palavras-chave indisponíveis. [Mais...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Para as pesquisas paga e natural, os mecanismos de busca pararam de fornecer (na maioria dos casos) as palavras-chave da pesquisa como parte do referenciador. Como resultado, a Adobe classifica sempre o domínio do Google (ou Bing ou Yahoo) como pesquisa. Com base no formato e no conteúdo do referenciador (mesmo sem as palavras-chave), a Adobe geralmente pode determinar que foi o resultado de uma pesquisa, portanto, a pesquisa é contabilizada nas Palavras-chave indisponíveis. [Mais...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## Alocação, expiração e valores especiais {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
