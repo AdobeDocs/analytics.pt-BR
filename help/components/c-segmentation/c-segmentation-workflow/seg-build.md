@@ -1,11 +1,10 @@
 ---
 description: O Construtor de segmentos fornece uma tela para arrastar e soltar Dimensões de métricas, Segmentos e Eventos para os visitantes do segmento com base na lógica, nas regras e nos operadores da hierarquia do contêiner. Essa ferramenta de desenvolvimento integrada permite construir e salvar segmentos simples ou complexos que identificam os atributos e as ações do visitante nas visitas e ocorrências da página.
-solution: Analytics
 title: Construir segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
