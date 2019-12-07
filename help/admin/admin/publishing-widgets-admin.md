@@ -1,18 +1,17 @@
 ---
 description: Um Widget de publicação é um contêiner que permite a incorporação de relatórios de marketing (somente marcadores e painéis) em uma página da Web. As pessoas que não possuem acesso aos relatórios de marketing em sua organização podem visualizar os dados pertinentes.
-solution: Analytics
 title: Widget de publicação
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Widget de publicação
 
-Um Widget de publicação é um contêiner que permite a incorporação de relatórios do Analytics (marcadores e painéis) em uma página da Web. As pessoas em sua organização que não têm acesso aos relatórios do Analytics podem exibir dados pertinentes.
+Um Widget de publicação é um contêiner que permite incorporar relatórios do Analytics (marcadores e painéis) a uma página da Web. As pessoas que não possuem acesso aos relatórios do Analytics em sua organização podem visualizar os dados pertinentes.
 
 Por exemplo, você poderia fornecer um painel para que os executivos da empresa pudessem exibir o número de visitantes à página, o número de visitantes únicos à página e assim por diante.
 
@@ -29,10 +28,10 @@ A primeira vez que qualquer usuário visualiza o widget de publicação implanta
 Se você notar diferenças de dados entre o Widget de publicação e a interface de relatório, pode ser necessário apagar o cache do Widget de publicação.
 
 1. Clique no Widget de publicação (para que o widget tenha um foco).
-1. Clique em **[!UICONTROL Salvar]no widget.**
+1. Clique em **[!UICONTROL Salvar]** no widget.
 1. Execute o widget novamente. (O modo de visualização não utiliza o cache do widget).
 
-> [!NOTE] Widgets de publicação mostram apenas a primeira coluna de dados em um relatório.
+> [!NOTE] Os widgets de publicação mostram apenas a primeira coluna dos dados de um relatório.
 
 ## Descrições de widgets de publicação {#section_D67478AECCA946B19A3E4C7071EB4871}
 
@@ -41,4 +40,4 @@ Se você notar diferenças de dados entre o Widget de publicação e a interface
 | Nome | O nome do widget. |
 | Descrição | (Opcional) Especificar uma descrição para o widget. |
 | Relatório | Na lista suspensa superior Relatório, selecione uma pasta ou painel. Na lista suspensa inferior Relatório, selecione um reportlet ou marcador.  Esses relatórios não exigem uma autenticação do visitante. <br>Quando um visitante carrega uma página da Web que inclui um Widget de publicação, o widget exibe automaticamente o relatório associado por meio dos dados atuais do relatório. As alterações feitas em um Widget de publicação, como a alteração do relatório associado, atualizam automaticamente a saída do relatório de todas as páginas da Web que usam esse widget, sem que seja preciso voltar a implantar as páginas da Web.</br> |
-| Destino | Especificar o destino do widget.   Os destinos devem estar em um formato de URL válido, incluindo o prefixo https:// ou https://. Os Destinos de widget de publicação são inclusivos, o que significa que o Widget de publicação funciona em todos os URLs que incluem o Destino especificado. <br>Por exemplo, um Destino https://www.corp1.com/sales/ permite Widgets de publicação em todas as páginas da Web na página de vendas ou abaixo dela no site www.corp1.com da Web.</br> |
+| Destino | Especificar o destino do widget.   Os destinos devem estar em um formato válido de URL, que inclua o prefixo https:// ou https://. Os Destinos de widget de publicação são inclusivos, o que significa que o Widget de publicação funciona em todos os URLs que incluem o Destino especificado. <br>Por exemplo, o Destino https://www.corp1.com/sales/ permite Widgets de publicação em todas as páginas da Web, na página de vendas ou abaixo dela, no site www.corp1.com.</br> |
