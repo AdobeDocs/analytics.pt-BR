@@ -1,12 +1,11 @@
 ---
 description: A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados adicionais, além daqueles coletados pelo AppMeasurement. Esta seção descreve os cabeçalhos usados durante a coleta de dados.
 keywords: Analytics Implementation
-solution: Analytics
 title: Cabeçalhos HTTP para coleta de dados
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -102,7 +101,7 @@ A solicitação HTTP e os cabeçalhos de resposta são usados para coletar dados
 | P3P | Oferece a política P3P padrão ou personalizada para a solicitação da coleta de dados. |
 | Status | Contém status "SUCESSO" ou "FALHA" para uma solicitação sem conteúdo. Usado somente quando a solicitação especifica que nenhum conteúdo deve ser retornado. |
 | Motivo | Contém o motivo para o status de falha de uma solicitação sem conteúdo. Usado somente quando a solicitação especifica que nenhum conteúdo deve ser retornado. |
-| Local | Usado para redirecionar o cliente que faz a solicitação da coleta de dados para uma URL diferente. Um exemplo é nosso handshake de cookie para detectar a capacidade de definir o cookie da ID do visitante. |
+| Localização | Usado para redirecionar o cliente que faz a solicitação da coleta de dados para uma URL diferente. Um exemplo é nosso handshake de cookie para detectar a capacidade de definir o cookie da ID do visitante. |
 | Tipo de conteúdo | Especifica o tipo de conteúdo enviado de volta ao cliente (GIF, texto, JavaScript etc). |
 | Tamanho do conteúdo | Especifica o tamanho do conteúdo enviado de volta ao cliente. |
 
