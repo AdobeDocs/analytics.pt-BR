@@ -1,12 +1,11 @@
 ---
 description: 'Se quiser rastrear informações adicionais, mas não tiver variáveis suficientes para fazer isso, agora você tem acesso a eVars adicionais e eventos bem-sucedidos '
 keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
-solution: Analytics
 title: eVars e eventos adicionais
 topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
