@@ -1,12 +1,11 @@
 ---
 description: A definição de caminho é o caminho que os usuários adotam no seu site.
 keywords: Analytics Implementation
-solution: Analytics
 title: Visão geral da definição de caminho
 topic: Developer and implementation
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
