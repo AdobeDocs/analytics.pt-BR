@@ -1,10 +1,9 @@
 ---
 description: Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente.
-solution: Analytics
 title: Classificar por métrica
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -30,7 +29,7 @@ Consulte a coluna “Layout do relatório” nesta tabela para determinar como �
 |---|---|---|---|---|---|
 | Não | Sim ou Não | Sim ou Não | Sim ou Não | Sim ou Não | 1 |
 | Sim | Não | Sim ou Não | Sim ou Não | Sim ou Não | 1 |
-| Sim | Sim | Não | Não | N/A | 1 |
+| Sim | Sim | Não | Não | N/D | 1 |
 | Sim | Sim | Não | Sim ou Não | Não | 1 |
 | Sim | Sim | Sim | Não | Não | 2 |
 | Sim | Sim | Não | Sim | Sim | 3 |
