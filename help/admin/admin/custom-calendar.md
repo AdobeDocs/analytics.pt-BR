@@ -1,11 +1,10 @@
 ---
 description: As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
-solution: Analytics
 title: Personalizar calendário
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,15 +13,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [selecione o report suite]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Personalizar calendário]**
+**[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL [selecionar o conjunto de relatórios]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Personalizar calendário]**
 
 >[!CAUTION]
 >
->Alterar o calendário altera a maneira como os dados são processados (ou seja, a definição de visitantes únicos semanais e mensais). Quando a definição do calendário de semanas e meses muda, os dados históricos não são alterados.
+>Alterar o calendário resulta em alterações na maneira como os dados são processados (ou seja, a definição semanal e mensal de visitantes únicos). Quando a definição do calendário de semanas e meses muda, os dados históricos não são alterados.
 
 Você pode usar o calendário para definir o primeiro dia da semana e ano, ou usar um estilo de calendário de varejo diferente. Os formatos de calendário são usados para várias finalidades, inclusive comparações de vendas e padronização de previsões, análise de custos com folha de pagamento ou regulamento de contagem de inventário físico. Por exemplo, o setor de varejo usa o calendário contábil 4-5-4 em suporte à temporada de vendas característica do setor de varejo. Cada um dos formatos de calendário é descrito abaixo.
 
-## Personalizar descrições de calendário {#section_B0D224DACB914A378902A4E0E1234889}
+## Personalizar descrições de calendário  {#section_B0D224DACB914A378902A4E0E1234889}
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
@@ -46,7 +45,7 @@ Você pode usar o calendário para definir o primeiro dia da semana e ano, ou us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendário personalizado </p> </td> 
-   <td colname="col2"> <p> Oferece três formatos baseados no número de semanas em cada mês. O número de semanas em cada mês depende do primeiro dia do ano selecionado. </p> <p>Um ano possui 52 semanas. Divida esse valor por 4 trimestres e você terá 13 semanas por trimestre. Mas há 3 meses em um trimestre. 13 não é divisível por três então você acaba colocando a semana extra em um dos meses para que seja sempre consistente. 5-4-4 significa que o primeiro mês do trimestre recebe a semana extra. 4-5-4 significa que o segundo mês do trimestre recebe a semana extra, etc. No calendário 5-4-4, a 53ª semana é adicionada ao último trimestre do ano. </p> 
+   <td colname="col2"> <p> Oferece três formatos baseados no número de semanas em cada mês. O número de semanas em cada mês depende do primeiro dia do ano selecionado. </p> <p>Um ano possui 52 semanas. Divida esse valor por 4 trimestres e você terá 13 semanas por trimestre. Mas há 3 meses em um trimestre. O número 13 não é divisível por três, dessa forma você acaba colocando uma semana extra em um dos meses, de forma que seja sempre consistente. 5-4-4 significa que o primeiro mês do trimestre recebe a semana extra. 4-5-4 significa que o segundo mês do trimestre recebe a semana extra, etc. No calendário 5-4-4, a 53ª semana é adicionada ao último trimestre do ano. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante. </li> 
