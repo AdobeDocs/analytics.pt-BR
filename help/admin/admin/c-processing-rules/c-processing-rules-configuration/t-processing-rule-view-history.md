@@ -1,12 +1,11 @@
 ---
 description: As alterações nas regras de processamento podem ser exibidas no Histórico.
-solution: Analytics
 subtopic: Processing rules
 title: Exibir o histórico das regras de processamento
 topic: Admin tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,8 +14,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As alterações nas regras de processamento podem ser exibidas no Histórico.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
+1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de processamento]**.
 
-1. On the **[!UICONTROL Processing Rules]** page, click the **[!UICONTROL View History]** tab.
+1. Na página **[!UICONTROL Regras de processamento]**, clique na guia **[!UICONTROL Visualizar histórico]**.
