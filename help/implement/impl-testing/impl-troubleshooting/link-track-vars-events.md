@@ -1,12 +1,11 @@
 ---
 description: A chave para uma implementação de rastreamento de link bem-sucedida é compreender as variáveis s.linkTrackVars e s.linkTrackEvents. Essa compreensão permite a você transmitir os valores personalizados da variável nas ações do usuário.
 keywords: Analytics Implementation
-solution: Analytics
 title: Uso de s.linkTrackVars e s.linkTrackEvents
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
