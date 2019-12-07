@@ -1,11 +1,10 @@
 ---
 description: Taxas de conversão normalmente geram conversões entre os eventos de início, término e etapa ou pontos de um processo de conversão. Depois que você codificar os eventos de sucesso do site, o relatório cria as taxas entre esses eventos de sucesso e os exibe em um Relatório de funil de conversão.
-solution: Analytics
 title: Funil de conversão
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,5 +32,5 @@ Este relatório também é personalizável para que você possa adicionar Evento
 
 A tabela mostra as estatísticas de vendas médias por click-through e a média de unidades vendidas por click-through. Você pode adicionar métricas e eventos personalizados de outros grupos de relatórios a estes relatórios. Esses funis têm muitas similaridades, mas são baseados em diferentes variáveis e eventos. Você pode usar esses relatórios para ver quais percentuais e tendências gerais de usuários ativam eventos especificados. Você pode ver onde os usuários não estão gerando eventos, o que oferece um insight sobre o ponto específico no processo de conversão.
 
-> [!NOTE] Instâncias no contexto desses relatórios equivale ao número total de visitas nas quais uma eVar ou evento foi definido.
+> [!NOTE] As instâncias no contexto desses relatórios equivale ao total de visitas, nas quais uma eVar ou um evento foi definido.
 
