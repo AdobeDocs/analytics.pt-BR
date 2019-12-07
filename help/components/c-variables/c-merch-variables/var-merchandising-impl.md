@@ -1,11 +1,10 @@
 ---
 description: Descreve como ativar e implementar uma variável de comercialização.
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-solution: Analytics
 title: Implementar uma variável de merchandising
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ Descreve como ativar e implementar uma variável de comercialização.
 
 ## Ativar uma variável de comercialização
 
-A comercialização pode ser ativada para qualquer eVar personalizada em Ferramentas **** administrativas &gt; Conjuntos **** de relatórios &gt; Variáveis **[!UICONTROL de]** conversão.
+O merchandising pode ser ativado para qualquer eVar personalizada em **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Variáveis de conversão]**.
 
 ![](assets/merch-enable.png)
 
 | Configuração | Descrição |
 |--- |--- |
 | Expirar após | Determina por quanto tempo os valores de comercialização devem persistir. |
-| Comercialização | **** Sintaxe do produto: O valor é definido em `s.products`.<br>**** Sintaxe da variável de conversão: O valor é definido na eVar de comercialização designada. |
-| Evento de vinculação de comercialização (somente sintaxe de variável de conversão) | Indica quando um produto deve ser vinculado à categoria de comercialização atual. Vários eventos podem ser selecionados mantendo a tecla Ctrl pressionada e clicando em vários itens na lista. Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada. |
+| Merchandising | **Sintaxe do produto**: o valor é definido em `s.products`.<br>**Sintaxe de variável de conversão**: o valor é definido na eVar de merchandising designada. |
+| Evento de vinculação de comercialização (somente sintaxe de variável de conversão) | Indica quando um produto deve ser vinculado à categoria de comercialização atual. Vários eventos podem ser selecionados ao pressionar e segurar Ctrl e clicar em vários itens na lista. Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada. |
 
 ## Como implementar usando a sintaxe de produto
 
@@ -53,13 +52,13 @@ Quando o evento de vinculação selecionado durante a configuração ocorre, o v
 
 ### Sintaxe
 
-Coloque na mesma página ou na página anterior antes do evento de vinculação:
+Coloque na mesma página ou na página anterior, antes do evento de vinculação:
 
 ```js
 s.eVar1="merchandising_category";
 ```
 
-Local na página onde o evento de vinculação ocorre:
+Coloque na página em que o evento de vinculação ocorre:
 
 ```js
 s.events="prodView";
@@ -81,11 +80,11 @@ s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-O valor "Externo" para eVar1 é atribuído ao produto "Óculos de neve". Todos os eventos bem-sucedidos subsequentes (anúncios de produto, finalizações, compras e assim por diante) que envolvem este produto são creditados em "Óculos de neve". Além disso, o valor atual da variável de comercialização está vinculado a todos os produtos subsequentes até que uma destas condições seja atendida:
+O valor "Outdoors" para eVar1 é atribuído ao produto "Snow Goggles". Todos os eventos subsequentes bem-sucedidos (anúncios de produtos, check-outs, compras e assim por diante) que envolvem este produto são creditados a "Snow Goggles". Além disso, o valor atual da variável de comercialização está vinculado a todos os produtos subsequentes até que uma destas condições seja atendida:
 
 * eVar expira (com base na configuração "Expirar após")
 * A eVar de comercialização é substituída por um novo valor.
 
 ## Informações adicionais externas
 
-[Comercialização](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) de sintaxe de conversão avançada em [!DNL analyticsdemystified.com]
+[Merchandising da sintaxe de conversão avançada](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) em [!DNL analyticsdemystified.com]
