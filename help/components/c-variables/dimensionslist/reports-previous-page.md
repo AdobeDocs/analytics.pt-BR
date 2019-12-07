@@ -1,11 +1,10 @@
 ---
 description: Um relatório de caminho que fornece a análise detalhada do caminho do site, mostrando as páginas do site que os visitantes visualizaram após verem uma página selecionada.
-solution: Analytics
 title: Página anterior
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
