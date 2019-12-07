@@ -1,12 +1,11 @@
 ---
 description: A integração de Conectores de dados do DFA usa variáveis do Analytics para monitorar os resultados de campanha do DFA.
 keywords: DFA
-solution: Analytics
 title: Variáveis e eventos do Analytics
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,10 +21,10 @@ Além da variável de campanha, você pode usar eventos e eVars do Analytics que
 | s.campaign ou eVar | Código de rastreamento de anúncio | Automaticamente preenchido pelo conector de dados para campanhas do DFA. | Rastreia conversões de click-through para todas as campanhas. |
 | eVar* | View-through | Automaticamente preenchido pelo VISTA e pelo DFA para as campanhas do DFA. | Rastreia dados de view-through para IDs do DFA. Essa eVar deve ter a mesma expiração da variável *`s.campaign`*. Deve ser a mesma variável de conversão identificada na ID do provedor da variável. Verifique se as sub-relações da eVar estão habilitadas. O custo de habilitação desse recurso é parte da taxa de integração dos Conectores de dados. |
 | eVar* | Erros de consulta do DFA | (Opcional) Preenchido pelo código de coleta do JavaScript. | Contém um dos vários códigos de erro retornados do DFA. |
-| event* | Contagem de view-through | Automaticamente preenchido pelo conector de dados para campanhas do DFA. | Captura o número de vezes que os usuários visualizaram um anúncio, não clicaram nele, mas chegaram ao site. |
-| event* | Impressões | Automaticamente preenchido por um feed de dados do DFA. | Rastreia o número de vezes que um anúncio do DFA específico foi veiculado. |
-| event* | Cliques | Automaticamente preenchido por um feed de dados do DFA. | Rastreia o número de vezes que os usuários clicaram em um anúncio de banner específico do DFA. Essa métrica pode produzir números diferentes em comparação com a métrica de click-through nativa do Analytics por um de vários motivos. Consulte [Comparação de discrepâncias de métricas](/help/import/data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) para obter mais informações. |
-| event* | Tempos limite do DFA | (Opcional) Preenchido pelo código de coleta do JavaScript. | Conta o número de vezes que o DFA deixa de responder antes de exceder o tempo limite de *`s.maxDelay`*. Isso pode ajudar a determinar se há um problema de implementação do DFA. |
-| event* | Custo de mídia do DFA | Automaticamente preenchido por um feed de dados do DFA. | Contém as métricas de custo de mídia que foram inseridas na interface do DFA. Esse recurso deve ser habilitado no DFA para que essas métricas sejam exibidas. |
+| evento* | Contagem de view-through | Automaticamente preenchido pelo conector de dados para campanhas do DFA. | Captura o número de vezes que os usuários visualizaram um anúncio, não clicaram nele, mas chegaram ao site. |
+| evento* | Impressões | Automaticamente preenchido por um feed de dados do DFA. | Rastreia o número de vezes que um anúncio do DFA específico foi veiculado. |
+| evento* | Cliques | Automaticamente preenchido por um feed de dados do DFA. | Rastreia o número de vezes que os usuários clicaram em um anúncio de banner específico do DFA. Essa métrica pode produzir números diferentes em comparação com a métrica de click-through nativa do Analytics por um de vários motivos. Consulte [Comparação de discrepâncias de métricas](/help/import/data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) para obter mais informações. |
+| evento* | Tempos limite do DFA | (Opcional) Preenchido pelo código de coleta do JavaScript. | Conta o número de vezes que o DFA deixa de responder antes de exceder o tempo limite de *`s.maxDelay`*. Isso pode ajudar a determinar se há um problema de implementação do DFA. |
+| evento* | Custo de mídia do DFA | Automaticamente preenchido por um feed de dados do DFA. | Contém as métricas de custo de mídia que foram inseridas na interface do DFA. Esse recurso deve ser habilitado no DFA para que essas métricas sejam exibidas. |
 
 *Selecione uma eVar ou um evento personalizado não utilizado.
