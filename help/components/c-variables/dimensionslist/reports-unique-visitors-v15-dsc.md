@@ -1,11 +1,10 @@
 ---
 description: Mostra o número de visitantes únicos que acessaram site. Cada visitante é contado uma vez, independentemente de quantas vezes a pessoa visita site.
-solution: Analytics
 title: Visitantes únicos
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,9 +33,9 @@ Consulte a tabela a seguir para obter exemplos nesta página. O mesmo visitante 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Página </p> </td> 
-   <td colname="col2"> <p>Uma </p> </td> 
+   <td colname="col2"> <p>A </p> </td> 
    <td colname="col3"> <p>C </p> </td> 
-   <td colname="col4"> <p>Uma </p> </td> 
+   <td colname="col4"> <p>A </p> </td> 
    <td colname="col5"> <p>B </p> </td> 
    <td colname="col6"> <p>C </p> </td> 
    <td colname="col7"> <p>D </p> </td> 
@@ -57,7 +56,7 @@ Consulte a tabela a seguir para obter exemplos nesta página. O mesmo visitante 
 
 ## Relatório de Visitantes únicos - Métrica de tendência {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Os relatórios de Visitantes] únicos se comportam de forma semelhante na Análise ad hoc. Para cada ocorrência de visita, o visitante é contado nessa ocorrência. Cada página recebe crédito por ter o visitante nessa página.
+Os relatórios [!UICONTROL Visitantes únicos] se comportam de forma semelhante na Ad Hoc Analysis. Para cada ocorrência de visita, o visitante é contado nessa ocorrência. Cada página recebe crédito por ter o visitante nessa página.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -68,7 +67,7 @@ Consulte a tabela a seguir para obter exemplos nesta página. O mesmo visitante 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Uma </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -105,19 +104,19 @@ Além disso, cada data recebe crédito por ter esse visitante naquela data.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -140,19 +139,19 @@ Você pode selecionar uma página para o [!UICONTROL Relatório de Visitantes ú
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -177,19 +176,19 @@ Os visitantes únicos baseados em período são contados somente na primeira vis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -210,19 +209,19 @@ O relatório a seguir exibiria os Visitantes únicos por dia.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -243,11 +242,11 @@ Os totais da métrica podem alterar com base no intervalo de datas do relatório
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -278,19 +277,19 @@ Para Visitantes únicos por semana onde a Página = A, os relatórios de marketi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -311,19 +310,19 @@ Para visitantes únicos por semana onde a Página = B, a única data em que ocor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 2 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 3 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janeiro 4 </p> </td> 
+   <td colname="col1"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -347,28 +346,28 @@ Você pode adicionar métricas de visitantes únicos baseadas em período a rela
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Uma </p> </td> 
-   <td colname="col02"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col02"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>Janeiro 2 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>Janeiro 3 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>Janeiro 4 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>Janeiro 5 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 5 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -391,23 +390,23 @@ Uma métrica de Visitantes únicos por dia em um [!UICONTROL Relatório de Pági
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Uma </p> </td> 
-   <td colname="col02"> <p>Janeiro 1 </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col02"> <p>Janeiro de 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>Janeiro 2 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 2 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>Janeiro 3 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>Janeiro 4 </p> </td> 
+   <td colname="col02"> <p>Janeiro de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ Uma métrica de Visitantes únicos por dia em um [!UICONTROL Relatório de Pági
  </tbody> 
 </table>
 
-Para dividir um atributo por outro (como *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+Para dividir um atributo por outro (como *`page`* da *`eVar`*), o Analytics aloca um Visitante Único com base em período para cada instância única do período e da página (ou do atributo sendo correlacionado).
 
 Se você dividir a Página A por eVars T, U, o dia 2 de janeiro será excluído, pois a página A foi visualizada no dia 1 de janeiro. Os resultados a seguir mostrariam os Visitantes únicos semanais:
 
@@ -447,6 +446,6 @@ Se você dividir a Página A por eVars T, U, o dia 2 de janeiro será excluído,
 
 ## Cookies persistentes {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Os cookies persistentes continuam no computador do visitante entre visitas para que a Adobe possa identificar os visitantes de visitas subsequentes. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+Os cookies persistentes continuam no computador do visitante entre visitas para que a Adobe possa identificar os visitantes de visitas subsequentes. Para visualizar o percentual de usuários que aceitam ou não os cookies persistentes, selecione **[!UICONTROL Filtro]** &gt; **[!UICONTROL Cookies persistentes]**.
 
 O gráfico e a visualização de detalhes mostram visitantes de cookie persistente e não persistente. Frequentemente, a quantidade de visitantes de cookies não persistentes é insignificante.
