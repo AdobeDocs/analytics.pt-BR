@@ -1,11 +1,10 @@
 ---
 description: Quando você usa os conectores de dados para criar uma integração com um parceiro Adobe, a Adobe pode jogar os dados de re-marketing ou outros dados para uma conta FTP para que você ou seu parceiro possam baixá-los.
 keywords: ftp;sftp
-solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
