@@ -1,12 +1,11 @@
 ---
 description: Uma visão geral das etapas necessárias para planejar e implementar conjuntos de relatórios virtuais.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Fluxo de trabalho do Conjunto de relatórios virtuais
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Uma visão geral das etapas necessárias para planejar e implementar conjuntos d
 
 ![](assets/step1_icon.png) Planeje sua estratégia do conjunto de relatórios virtual.
 
-Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/components/vrs/vrs-considerations.md) and the FAQs as you decide on your strategy.
+Familiarize-se com as [considerações de Marcação global/multiconjunto](/help/components/vrs/vrs-considerations.md) e as perguntas frequentes enquanto decide sobre sua estratégia.
 
 ![](assets/step2_icon.png) [Crie um conjunto de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-create.md) ao aplicar um ou mais segmentos a um conjunto de relatórios pai.
 
@@ -36,7 +35,7 @@ Você pode editar permissões de grupo de duas formas:
 * Edite o conjunto de relatórios no Gerenciador de conjuntos de relatórios virtuais.
 * Acesse Administração &gt; Gerenciamento de usuários &gt; Grupos, selecione o grupo que tem permissões para o conjunto de relatórios virtual e clique em Editar.
 
-![](assets/step4_icon.png) Abra um projeto ou relatório e selecione um conjunto de relatórios virtual para fornecer uma exibição segmentada dos dados.
+![](assets/step4_icon.png) Abra um projeto ou relatório e selecione um conjunto de relatórios virtuais para fornecer uma exibição segmentada dos dados.
 
 ![](assets/step5_icon.png) [Gerencie](/help/components/vrs/c-workflow-vrs/vrs-manage.md) o conjunto de relatórios virtual.
 
