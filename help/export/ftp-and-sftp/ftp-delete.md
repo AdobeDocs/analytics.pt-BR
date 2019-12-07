@@ -1,11 +1,10 @@
 ---
 description: A política de FTP da Adobe desativa o acesso a contas FTP que permaneceram inativas por 90 dias consecutivos.
 keywords: ftp;sftp
-solution: Analytics
 title: Excluir dados e contas FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
