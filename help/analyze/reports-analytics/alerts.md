@@ -1,14 +1,11 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Alertas
-solution: Analytics
-subtopic: Alertas
+subtopic: Alerts
 title: Alertas
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ## Alertas {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Como o novo sistema de alertas para todo o Adobe Analytics, os Alertas inteligentes permitem criar e gerenciar alertas, completos com visualização de alertas e contribuição de regras. É possível 
+Como o novo sistema de alertas para todo o Adobe Analytics, os Alertas inteligentes permitem criar e gerenciar alertas, completos com visualização de alertas e contribuição de regras. É possível
 
 * Criar alertas com base em anomalias (limite de 90%, 95% ou 99%; % de mudança; acima/abaixo).
 * Visualizar a frequência de disparo de um alerta.
