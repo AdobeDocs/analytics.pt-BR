@@ -1,12 +1,11 @@
 ---
 description: Exemplo para fornecer orientação para a importação de classificações numéricas 2.
-solution: Analytics
 subtopic: Classifications
 title: Exemplos
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Neste caso, você criou a classificação no gerenciador [!UICONTROL Conversão 
 | 2010/01/01 - 2010/01/31 | receita | receita |
 | 2010/01/01 - 2010/01/31 | receita | receita |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+Em janeiro, o Produto 1 teve um custo de 20% de sua receita (exibido em `~MyCost^~value~`) e o Produto 2 teve um custo de 30% de sua receita. Como você está importando uma nova linha, `~MyCost^~id~` está em branco.
 
 ## Resultado {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | receita | receita |
 | 2010/02/01 - 2010/02/28 | receita | receita |
 
-Em fevereiro, o custo do usuário para o Produto 1 caiu para 15% da receita e o Produto 2 caiu para 25% da receita.
+Em fevereiro, o custo do usuário para o Produto 1 reduziu para 15% da receita, e o Produto 2 reduziu para 25% de sua receita.
 
 ## Resultado {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -168,7 +167,7 @@ Relatório: produtos
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] Esse recurso é destinado aos usuários avançados a aproximar valores. As informações resultantes não devem ser tratadas como valores exatos.
+> [!NOTE] Este recurso é para usuários avançados, para aproximar valores. As informações resultantes não devem ser tratadas como valores exatos.
 
 <!-- 
 
