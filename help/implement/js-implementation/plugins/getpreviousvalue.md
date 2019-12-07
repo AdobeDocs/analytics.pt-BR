@@ -1,13 +1,12 @@
 ---
 description: Captura o valor de uma variável do Analytics na próxima exibição de página. Por exemplo, é possível usar o plug-in para capturar o valor s.pageName da exibição de página anterior em uma variável de Tráfego personalizado. Também há a opção de capturar um valor anterior somente quando eventos bem-sucedidos atribuídos estão definidos.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue
 topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
