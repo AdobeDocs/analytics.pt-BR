@@ -1,12 +1,11 @@
 ---
 description: O exemplo ilustra o uso de uma tag de imagem gerada no servidor dentro de uma página HTML de amostra.
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: Código de exemplo
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
