@@ -1,13 +1,10 @@
 ---
 description: Instruções para configurar a transferência segura com os servidores FTP da Adobe.
 keywords: ftp;sftp
-seo-description: Instruções para configurar a transferência segura com os servidores FTP da Adobe.
-seo-title: Conexão com uma conta FTP da Adobe com SFTP
-solution: Analytics
 title: Conexão com uma conta FTP da Adobe com SFTP
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
