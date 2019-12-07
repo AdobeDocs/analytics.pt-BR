@@ -1,11 +1,10 @@
 ---
 description: Os feeds de dados são uma exportação dos dados de sequência de cliques recebidos pela Adobe que oferecem os feeds de dados padrão e personalizado.
 keywords: ftp;sftp
-solution: Analytics
 title: Feeds de dados
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a52516c7746db399ff54a1a4880eeb7ee0ca66e1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
