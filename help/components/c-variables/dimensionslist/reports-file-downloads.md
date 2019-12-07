@@ -1,11 +1,10 @@
 ---
 description: Os Downloads de arquivo ajudam você a entender com que frequência seus visitantes baixam arquivos do site. Exemplos de downloads de arquivo podem ser documentos de processador de palavra, planilhas, arquivos de áudio, arquivos de filme, manuais do usuário e assim por diante. Isso inclui ambos arquivos sendo salvos e abertos diretamente do navegador, assim como arquivos salvos no computador do usuário. O relatório mostra o nome do arquivo sendo baixado, inclusive o URL completo necessário para acessar o arquivo.
-solution: Analytics
 title: Downloads de Arquivos
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Os Downloads de arquivo ajudam você a entender com que frequência seus visitan
 
 **Navegação**
 
-**[!UICONTROL Relatórios]** &gt; Conteúdo **** do site &gt; **[!UICONTROL Links]** &gt; Downloads **[!UICONTROL de arquivo]**
+**[!UICONTROL Relatórios]** &gt; **[!UICONTROL Conteúdo do site]** &gt; **[!UICONTROL Links]** &gt; **[!UICONTROL Download de arquivos]**
 
 Se este relatório não estiver disponível no local padrão, verifique com os administradores do seu que podem ter alterado a estrutura do menu padrão para melhor servir as necessidades exclusivas da sua organização.
 
@@ -36,6 +35,6 @@ Os relatórios de marketing capturam informações sobre arquivos transferidos p
 
 1. No arquivo, localize a variável [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Certifique-se de configurar como *verdadeiro*
 
-1. Localize a variável [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Certifique-se de que todas as extensões de arquivo desejadas estão presentes nesta lista. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Localize a variável [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Certifique-se de que todas as extensões de arquivo desejadas estão presentes nesta lista. Se necessário, adicione as extensões que estão faltando, como [!DNL .zip], [!DNL .pdf] e assim por diante.)
 
 Se essas variáveis aparentarem estar configuradas corretamente, mas o [!UICONTROL Relatório de downloads de arquivo] não estiver recebendo dados, os usuários suportados de sua empresa devem entrar em contato com o Atendimento ao cliente.
