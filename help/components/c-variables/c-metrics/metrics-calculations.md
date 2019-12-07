@@ -1,11 +1,10 @@
 ---
 description: As métricas são calculadas usando métodos padrão, de participação, recente e de alocação linear. Cada método calcula valores de forma diferente com base em fórmulas.
-solution: Analytics
 title: Cálculos de métricas
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ As métricas são calculadas usando métodos padrão, de participação, recente
   </tr> 
   <tr> 
    <td colname="col1"> Linear </td> 
-   <td colname="col2"> <p>Quando a alocação linear está selecionada, os eventos bem-sucedidos são divididos igualmente em todos os valores da variável vistos na visita. Em eventos numéricos e de moeda como <span class="term"> Revenue</span>, the monetary amount is divided. Para eventos contadores como <span class="term"> Pedidos</span>, uma fração do evento é concedida a cada valor variável na visita. Essas frações no relatório são somadas e arredondadas para o inteiro mais próximo no relatório. </p> <p>Por exemplo, em uma visita em que quatro páginas são visitadas antes de um evento bem-sucedido, cada página recebe crédito por 25% do evento. If, in the same visit, <span class="varname"> campaign</span> had two values, each campaign value would receive 50% of the credit for the event. </p> </td> 
+   <td colname="col2"> <p>Quando a alocação linear está selecionada, os eventos bem-sucedidos são divididos igualmente em todos os valores da variável vistos na visita. Em eventos numéricos e de moeda como <span class="term"> Receita</span>, a quantidade monetária é dividida. Para eventos de contador como <span class="term"> Pedidos</span>, uma fração do evento é atribuída a cada valor variável na visita. Essas frações no relatório são somadas e arredondadas para o inteiro mais próximo no relatório. </p> <p>Por exemplo, em uma visita em que quatro páginas são visitadas antes de um evento bem-sucedido, cada página recebe crédito por 25% do evento. Se, na mesma visita, a <span class="varname">campanha</span> tivesse dois valores, cada valor de campanha receberia 50% do crédito do evento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Participação </td> 
@@ -45,7 +44,7 @@ As métricas são calculadas usando métodos padrão, de participação, recente
 
 Suponha que seu site tenha uma pesquisa interna que é rastreada por meio de uma variável de conversão (eVar). O visitante realiza diversas pesquisas internas antes de realizar uma compra de US$100:
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; Compra de $100
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; Compra de US$ 100
 
 Nos relatórios, a alocação de crédito acontece da seguinte maneira:
 
