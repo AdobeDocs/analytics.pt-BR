@@ -1,11 +1,10 @@
 ---
 description: O Construtor de relatórios da Adobe agora possui configurações de permissões análogas às das ferramentas administrativas do Analytics.
-solution: Analytics
 title: Permissões de acesso do usuário para dimensões e métricas
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
