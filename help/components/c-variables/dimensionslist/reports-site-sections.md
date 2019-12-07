@@ -1,11 +1,10 @@
 ---
 description: Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
-solution: Analytics
 title: Seções do site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seç
    * **Todas as métricas padrão de e-comércio**: receita, pedidos, unidades, carrinhos, visualizações do carrinho, finalizações, adições ao carrinho e remoções do carrinho.
    * **Todos os eventos personalizados**: Eventos 1-80 e Eventos 81-100 no código H22 ou superior.
 
-Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. Isso é diferente do Relatório [de](/help/components/c-variables/dimensionslist/reports-pages.md)páginas, que usa alocação linear.
+Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. Isso é diferente do [Relatório de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa alocação linear.
 
 **Informações específicas do produto**
 
@@ -54,7 +53,7 @@ Todos os eventos de conversão no [!UICONTROL relatório das seções do site] u
        <li id="li_907DDFCC35AB48EEA5B169B4A2598FB1"> <span class="wintitle"> Primeiro e último contato dos canais de marketing</span> </li> 
        <li id="li_B08A0DCB40154152AF1033B7629A5B5A"> <span class="uicontrol"> Target</span> &gt; relatório de <span class="uicontrol">Campanhas</span> (se estiver habilitado) </li> 
        <li id="li_6D4E65DD6E2B49C9A8C12181D23F185A">Tempo gasto por visita </li> 
-       <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">Seções do site </li> 
+       <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">SiteSections </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">Páginas de entrada </li> 
        <li id="li_1201EE0EBF13476C9A9525E0700F30F3">Maioria dos relatórios de fontes de tráfego </li> 
        <li id="li_563E07858FB1473BB22C2B191E8BE620">Número da visita </li> 
