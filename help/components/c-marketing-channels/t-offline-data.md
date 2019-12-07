@@ -1,12 +1,11 @@
 ---
 description: Adicione dados offline aos relatórios do Canal de marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Adicionar dados offline
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Adicione dados offline aos relatórios do Canal de marketing.
 
 Canais online permitem classificar dados de visitantes que chegam por meio de fontes como mecanismo de pesquisa, anúncio na Internet, domínio de referência ou campanha de email. Canais offline se aplicam a visitantes que encontram seu site por meio de anúncios de TV, jornais ou revistas.
 
-**Integrar fontes de dados nos relatórios de Canal de marketing**
+**Integrar as fontes de dados nos relatórios de Canal de marketing**
 
 Se você deseja integrar [dados de dados fornecidos](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) nos relatórios de Canal de marketing, tenha em mente o seguinte:
 
@@ -33,11 +32,11 @@ Consulte "Trabalhar com fontes de dados" no [Guia do usuário de fontes de dados
 
 **Adicionar dados offline**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. Clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Origens de dados]**.
 1. Na página de Fontes de dados, clique em **[!UICONTROL Criar.]**
-1. Under **[!UICONTROL 1. Selecione Categoria]**, selecione **[!UICONTROL Dados do canal offline]**.
-1. Under **[!UICONTROL 2. Selecione Tipo]**, selecione **[!UICONTROL Dados do canal offline]**.
-1. Click **[!UICONTROL Activate.]**
+1. Em **[!UICONTROL 1. Selecione Categoria]**, selecione **[!UICONTROL Dados do canal offline]**.
+1. Em **[!UICONTROL 2. Selecione Tipo]**, selecione **[!UICONTROL Dados do canal offline]**.
+1. Clique em **[!UICONTROL Ativar.]**
 1. Mapeie as métricas offline para as métricas de relatórios seguindo os avisos do Assistente de ativação da origem de dados.
 1. Faça o download e edite o arquivo de modelo em um editor, como o Excel.
 
