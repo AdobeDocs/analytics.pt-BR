@@ -1,13 +1,10 @@
 ---
 description: Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
-seo-description: Passos para iniciar o rastreamento de links no Activity Map ou ClickMap herdado.
-seo-title: Iniciar o rastreamento de links
-solution: Analytics
 title: Iniciar o rastreamento de links
-topic: Activity Map
+topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
