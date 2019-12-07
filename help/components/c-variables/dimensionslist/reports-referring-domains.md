@@ -1,11 +1,10 @@
 ---
-description: Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores se dividem em duas categorias principais Domínios e URLs. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
-solution: Analytics
+description: 'Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores são divididos em duas categorias principais: Domínios e URLs. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.'
 title: Domínios de referência
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
