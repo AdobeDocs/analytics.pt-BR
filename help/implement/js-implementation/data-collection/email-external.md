@@ -1,14 +1,11 @@
 ---
 description: As empresas usam o Analytics para determinar o sucesso de uma campanha por email.
-keywords: Implementação do Analytics
-seo-description: As empresas usam o Analytics para determinar o sucesso de uma campanha por email.
-seo-title: Acompanhamento de email externo
-solution: Analytics
+keywords: Analytics Implementation
 title: Acompanhamento de email externo
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
