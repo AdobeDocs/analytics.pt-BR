@@ -1,11 +1,10 @@
 ---
 description: Instância da Exibição de produto que está sendo definida. Ocorre quando a página de detalhes do produto é visualizada. Este valor provém do evento prodView.)
-solution: Analytics
 title: Exibições do produto
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Instância da Exibição de produto que está sendo definida. Ocorre quando a p�
 
 | Usos | Descrição |
 |---|---|
-| Tráfego | N/A |
+| Tráfego | N/D |
 | Conversão | Instância da [!UICONTROL exibição de produto] que está sendo definida. Ocorre quando a página de [!UICONTROL Detalhes do produto] é visualizada. |
 | Ad Hoc Analysis | Instância da [!UICONTROL exibição de produto] que está sendo definida. Ocorre quando a página de [!UICONTROL Detalhes do produto] é visualizada. |
 
