@@ -1,11 +1,10 @@
 ---
 description: Configurações que definem como todos os relatórios são exibidos e informações que aplicam as opções de menu padrão ao seu local no menu simplificado.
-solution: Analytics
 title: Configurações e navegação da exibição de relatórios
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
