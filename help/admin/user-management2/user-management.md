@@ -1,12 +1,11 @@
 ---
 description: Gerencie usuários, grupos e produtos do Analytics no Admin Console.
-solution: Analytics
 subtopic: Users and groups
 title: Gerenciamento de usuários e produtos
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Gerencie usuários, grupos e produtos do Analytics no Admin Console.
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## Recursos de ajuda para administradores do Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -35,7 +34,7 @@ Gerencie usuários, grupos e produtos do Analytics no Admin Console.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Iniciar o Admin Console </p> </td> 
-   <td colname="col2"> <p>Depois que suas contas de usuário forem migradas, será possível gerenciar usuários e produtos de todas as soluções no Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obter ajuda, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Gerenciar usuários e produtos da Experience Cloud</a> para obter atualizações sobre o gerenciamento de usuários e de produtos da Experience Cloud no Admin Console. </p> </td> 
+   <td colname="col2"> <p>Depois que suas contas de usuário forem migradas, será possível gerenciar usuários e produtos de todas as soluções no Admin Console </p> <p>Navegue até <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obter ajuda, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Gerenciar usuários e produtos da Experience Cloud</a> para obter atualizações sobre o gerenciamento de usuários e de produtos da Experience Cloud no Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +65,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Adicionar novo usuário</span> </td> 
-   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Baixar relatório</span> </td> 
@@ -74,7 +73,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Logon</span> </td> 
-   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nome</span> </td> 
@@ -110,7 +109,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar</span> </td> 
-   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Excluir</span> </td> 
