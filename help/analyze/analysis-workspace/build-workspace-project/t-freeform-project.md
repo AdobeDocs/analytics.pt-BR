@@ -1,29 +1,28 @@
 ---
-description: Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) no painel de forma livre.
+description: Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) ao painel de forma livre.
 keywords: Analysis Workspace
-solution: Analytics
-title: Criar um projeto da Workspace
+title: Criar um projeto do Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Criar um projeto da Workspace
+# Criar um projeto do Workspace
 
-Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) no painel de forma livre.
+Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) ao painel de forma livre.
 
-Esse artigo explica os elementos da interface da Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para a Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Esse artigo explica os elementos da interface do Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para o Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Crie um projeto
 
 1. Especifique a permissão de usuário para criar e preparar os projetos.
 
-   Antes de criar ou preparar um projeto de Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos na Analysis Workspace]** ativada ou ao grupo de usuários **Todo acesso a relatório[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Antes de criar ou preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos no Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. Na [!DNL Experience Cloud], clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -31,27 +30,27 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. Clique em **[!UICONTROL Criar novo projeto]**.
 
-   Você pode escolher criar um projeto de
+   Você pode criar um projeto a partir de
 
-* um projeto em branco (padrão). Para obter instruções, consulte abaixo.
+* Um projeto em branco (padrão). Para obter instruções, consulte abaixo.
 * Um modelo padrão. Esses modelos são criados pela Adobe e enviados para o recurso instantâneo. Para obter instruções, consulte [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 * Um modelo personalizado. Esses modelos são criados por usuários com direitos de administrador. Para obter instruções, consulte [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. Para criar um projeto a partir de um projeto em branco, clique em **[!UICONTROL Projeto em branco]**.
 
-   * Then click **[!UICONTROL Create]**, or
-   * Apenas clique em **[!UICONTROL Enter]**.
+   * Em seguida, clique em **[!UICONTROL Criar]**.
+   * Ou pressione **[!UICONTROL Enter]**.
    Um projeto em branco é exibido, mostrando um painel de forma livre e uma visualização da tabela de dados.
 
    ![](assets/fa_project_new.png)
 
    >[!NOTE]
    >
-   >Às vezes, uma mensagem "Conjunto de relatórios incompatível" aparece ao carregar um projeto (ou ao alternar para um conjunto de relatórios), onde nem todos os componentes (métricas/dimensões) incluídos no projeto são incluídos no conjunto de relatórios. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
+   >Algumas vezes, a mensagem “Conjunto de relatórios incompatível” é mostrada ao carregar um projeto (ou alternar para um conjunto de relatórios) em que nem todos os componentes (métricas/dimensões) incluídos no projeto estão incluídos no conjunto de relatórios. É possível ver uma lista de componentes incompatíveis para que você saiba por que está recebendo a mensagem.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -71,7 +70,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Painel de forma livre</a> </td> 
-   <td colname="col2"> <p>A tela ou a área de trabalho com a qual você interage na Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>A tela ou a espaço de trabalho com a qual você interage no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +85,7 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
 
    >[!NOTE]
    >
-   >Depois de copiar/salvar como, os links internos agora são relativos ao projeto em que vivem, não ao projeto original do qual foram copiados.
+   >Depois de copiar/salvar como, os intralinks agora são do projeto em que estão, não do projeto original do qual foram copiados.
 
 ## Adicionar Componentes e Visualizações {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
@@ -110,11 +109,11 @@ Esse artigo explica os elementos da interface da Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão para a tabela de dados. </p> </td> 
+   <td colname="col2"> <p>Aplicar no nível de projeto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocorrências</span> é a métrica padrão da tabela de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso para a Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
@@ -148,11 +147,11 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Adicionar coluna de período de tempo</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Adicionar coluna de período</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparar períodos de tempo</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparar períodos</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -186,7 +185,7 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Seleção de tendências</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Colocar seleção em tendência</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -194,7 +193,7 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Executar comparação intra-segmento</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Executar comparação intrassegmento</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -208,4 +207,4 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
  </tbody> 
 </table>
 
-Consulte [Interações de teclado e mouse disponíveis na Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter informações sobre a cópia e a seleção de linhas.
+Consulte [Interações de teclado e mouse disponíveis no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter informações sobre a cópia e a seleção de linhas.
