@@ -1,11 +1,10 @@
 ---
 description: O valor de todos os itens de linha de relatório de um período de relatório. Se o filtro estiver selecionado, o total pode representar o total filtrado no lugar do total do conjunto de relatórios. Se nenhum filtro estiver selecionado, o total representa o total do conjunto de relatórios.
-solution: Analytics
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ O valor de todos os itens de linha de relatório de um período de relatório. S
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
-   <td colname="col2"> <p>N/A </p> </td> 
+   <td colname="col2"> <p>N/D </p> </td> 
   </tr> 
  </tbody> 
 </table>
