@@ -1,12 +1,11 @@
 ---
 description: Como usar métricas nos relatórios de Canal de marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Métricas usadas nos relatórios de canal de marketing
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,11 +22,11 @@ Adicione (ou edite) as métricas.
 
 Adicionar uma coluna ao relatório.
 
-## Métricas de primeiro e último toque {#first-and-last-touch}
+## Métricas de primeiro e último contato {#first-and-last-touch}
 
-O primeiro toque e o último toque são atributos de canal que permitem ver quantos novos envolvimentos (ou dados de métrica como exibições de produtos, receita e pedidos) resultam da atividade de um visitante no canal.
+Primeiro toque e último toque são atributos de canal que permitem ver quantos novos envolvimentos (ou dados de métrica como visualizações de produto, receita e pedidos) resultam de uma atividade do visitante no canal.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). Nota o primeiro canal pelo qual o usuário chegou, bem como o canal mais recente. Em seguida, dá o crédito do evento de sucesso a cada canal apropriado.
+Quando um evento de sucesso ocorre, o Analytics observa toda a atividade e histórico do visitante (de volta à [expiração do envolvimento do visitante](/help/components/c-marketing-channels/visitor-engagement.md)). Nota o primeiro canal pelo qual o usuário chegou, bem como o canal mais recente. Em seguida, dá o crédito do evento de sucesso a cada canal apropriado.
 
 <!-- 
 
@@ -57,9 +56,9 @@ O Canal de pesquisa paga recebe US$ 100,00 de crédito como canal de primeiro to
 
 Toda instância de evento de sucesso terá exatamente um canal de Primeiro toque e exatamente um canal de Último toque. Isso significa que se você adicionar uma determinada coluna de métrica em algum evento de sucesso, ela sempre será exatamente igual ao total no mesmo período de tempo. Esse total também será exatamente igual ao número total de eventos no relatório adequado de [!UICONTROL Métricas do site] &gt; [!UICONTROL Eventos personalizados]. As métricas de evento de não sucesso, como visitas e visitantes, não corresponderão 1 a 1, visto que vários canais podem ser acionados na mesma visita.
 
-> [!NOTE] Este relatório usa a versão de primeiro ou último toque de cada métrica. Portanto, os dados exibidos em um relatório de [!UICONTROL Canal de marketing] podem não corresponder aos dados exibidos em outros relatórios.
+> [!NOTE] Esse relatório utiliza a versão de primeiro e último toque de cada métrica. Portanto, os dados exibidos em um relatório de [!UICONTROL Canal de marketing] podem não corresponder aos dados exibidos em outros relatórios.
 
-## Metric definitions {#metric-defs}
+## Definições de métricas {#metric-defs}
 
 | Métrica | Definição |
 |--- |--- |
@@ -92,7 +91,7 @@ Adicione métricas um relatório de Canal de marketing. É possível adicionar a
 
    ![](assets/metric_edit_icon.png)
 
-1. Em [!UICONTROL Métricas disponíveis], arraste e solte as métricas da seção [!UICONTROL Métricas disponíveis] para a seção [!UICONTROL Métricas selecionadas.]
+1. Em [!UICONTROL Métricas disponíveis], arraste e solte as métricas da seção [!UICONTROL Métricas disponíveis] para a seção [!UICONTROL Métricas selecionadas].
 
    ![Resultado da etapa](assets/metric_create.png)
 
