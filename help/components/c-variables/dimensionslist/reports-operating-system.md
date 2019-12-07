@@ -1,11 +1,10 @@
 ---
 description: Tráfego da Web de grupos causado pelo sistema operacional usado pelo cliente.
-solution: Analytics
 title: Sistemas operacionais
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
