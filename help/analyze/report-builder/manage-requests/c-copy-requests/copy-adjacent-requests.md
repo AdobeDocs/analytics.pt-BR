@@ -1,11 +1,10 @@
 ---
 description: Da mesma maneira que você copia e cola solicitações, também pode reposicionar solicitações em outra parte da planilha selecionando Recortar solicitação no menu de atalho.
-solution: Analytics
 title: Copiar solicitações adjacentes
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
