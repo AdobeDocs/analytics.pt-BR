@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: O que é a Análise de coorte?
+title: O que é a análise de coorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# O que é a Análise de coorte?
+# O que é a análise de coorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. A Análise de coorte é útil, por exemplo, quando você deseja saber como um coorte se envolve com uma marca. Você pode detectar facilmente as mudanças nas tendências, em seguida, responder em conformidade. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A análise de coorte é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a análise de coorte disponíveis na Web, por exemplo, em [Análise de coorte 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte [Preparar e compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md).
 
-Exemplos do que você pode fazer com a Análise de coorte:
+Exemplos do que você pode fazer com a análise de coorte:
 
 * Lançar campanhas projetadas para estimular uma ação desejada.
 * Deslocar o orçamento de marketing no momento certo do ciclo de vida do cliente.
@@ -34,25 +33,25 @@ A Análise de coorte está disponível a todos os clientes do Analytics com dire
 >
 >A Análise de coorte não suporta métricas calculadas.
 
-## Recursos da Análise de coorte
+## Recursos da análise de coorte
 
 Em janeiro de 2019, a Adobe lançou uma versão nova e significativamente aprimorada da Análise de coorte. Permite um controle mais refinado sobre os coortes que você cria. Estes são os recursos aprimorados:
 
 ### Tabela de retenção
 
-Um relatório de coorte de retenção retorna os visitantes: cada célula de dados mostra o número bruto e a porcentagem de visitantes no coorte que executaram a ação durante esse período. É possível incluir até 3 métricas e 10 segmentos.
+Os relatórios de coorte de retenção registram os visitantes: cada célula de dados mostra o número bruto e a porcentagem de visitantes da coorte que realizaram a ação durante esse período. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/retention-report.png)
 
-### Tabela de churn
+### Tabela de abandono
 
-Um coorte Churn é o inverso de uma tabela de retenção e mostra os visitantes que desistiram ou nunca atenderam aos critérios de retorno do coorte ao longo do tempo. É possível incluir até 3 métricas e 10 segmentos.
+A coorte de abandono é o inverso da tabela de retenção e mostra os visitantes que abandonaram ou que nunca atenderam aos critérios de retorno da sua coorte ao longo do tempo. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/churn-report.png)
 
 ### Cálculo contínuo
 
-Permite calcular a retenção ou o churn com base na coluna anterior, em vez da coluna incluída.
+Permite calcular a retenção ou o abandono com base na coluna anterior em vez da coluna incluída.
 
 ![](assets/cohort-rolling-calculation.png)
 
@@ -62,7 +61,7 @@ Mede o tempo decorrido antes e depois da ocorrência do evento de inclusão. Ess
 
 ![](assets/cohort-latency.png)
 
-### Coorte de dimensão personalizado
+### Coorte de dimensão personalizada
 
 Crie coortes com base em uma dimensão selecionada, em vez de coortes com base em tempo, que são o padrão. Use dimensões como canal de marketing, campanha, produto, página, região ou qualquer outra dimensão no Adobe Analytics para exibir como a retenção é alterada com base nos valores diferentes destas dimensões.
 
