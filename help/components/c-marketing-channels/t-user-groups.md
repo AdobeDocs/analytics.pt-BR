@@ -1,12 +1,11 @@
 ---
 description: Configure o acesso do grupo de usuários para os Canais de marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Configurar o acesso do grupo de usuários
 topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configure o acesso do grupo de usuários para os Canais de marketing.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Grupos]** na página inicial de [!UICONTROL Gerenciamento de usuários].
 
    Consulte [Gerenciamento do usuário](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) na *Ajuda de administração*.
 
-1. Clique em um nome de grupo personalizado ou clique em **Adicionar novo grupo de usuários** para criar um grupo de usuários.
-1. Em Acesso ao relatorio, habilite **Todos os acessos** ou **[!UICONTROL Sem acesso]**.
+1. Clique em um nome de grupo personalizado ou clique em **[!UICONTROL Adicionar novo grupo de usuários]** para criar um grupo de usuários.
+1. Em Acesso ao relatorio, habilite **[!UICONTROL Todos os acessos]** ou **[!UICONTROL Sem acesso]**.
 
-No momento, não há nenhum grupo de usuários predefinido para os Canais de marketing. Instead, an Admin-level user must create a custom user group that has access to **[!UICONTROL Advanced Reporting]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Marketing Channel Reports]**.
+No momento, não há nenhum grupo de usuários predefinido para os Canais de marketing. O usuário administrador deve criar um grupo de usuários personalizado que possa acessar **[!UICONTROL Relatórios avançados]** &gt; **[!UICONTROL Personalizar]** &gt; **[!UICONTROL Relatórios dos Canais de marketing]**.
 
 | Campo | Definição |
 |--- |--- |
