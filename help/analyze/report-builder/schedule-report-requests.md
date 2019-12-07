@@ -1,11 +1,10 @@
 ---
 description: Você pode agendar solicitações de relatório, especificar opções avançadas de entrega, especificar destinatários e visualizar o histórico da programação. As opções avançadas de entrega permitem configurar relatórios que você deseja enviar em um horário específico ou em intervalos. Também é possível especificar o formato de arquivo para enviar o relatório.
-solution: Analytics
 title: Agendar solicitações de relatório
 topic: Report builder
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
