@@ -1,13 +1,12 @@
 ---
 description: O plug-in getAndPersistValue obtém um valor de sua escolha e o preenche em uma variável do Analytics por determinado período. Um uso comum é ver a quantidade de exibições de página geradas depois de um click-through, que permite a exibição fácil das páginas mais comuns de cada campanha.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getAndPersistValue
 topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
