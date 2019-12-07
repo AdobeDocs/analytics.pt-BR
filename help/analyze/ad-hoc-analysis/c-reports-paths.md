@@ -1,22 +1,21 @@
 ---
-description: Exibe informações sobre a ordem na qual as páginas de site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
-solution: Analytics
+description: Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
 title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Relatórios de caminhos
 
-Exibe informações sobre a ordem na qual as páginas de site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
+Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
 
 ## Relatórios de caminhos {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
-Exibe informações sobre a ordem na qual as páginas de site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
+Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
 
 Os relatórios incluem caminhos padrão em profundidade e relatórios de análise avançada opcionais que revelam o fluxo de cliques nas páginas vistas. Você pode descobrir caminhos completos, os caminhos mais longos e mais populares; explicar o fluxo de página, desistência e abandono graficamente, mostrar padrões novos e em mudança ao longo do tempo e analisar os caminhos de entrada e saída.
 
@@ -40,19 +39,19 @@ Consulte [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.m
 
 **[!UICONTROL Análise de página]**: contém um subconjunto de relatórios que permite analisar o seguinte:
 
-* **[!UICONTROL Resumo da página/Resumo da categoria do site]**: mostra tudo o que você precisa saber sobre o relatório da página. Coleta e organiza informações específicas da página sobre uma única página e as apresenta em um único relatório.
+* **[!UICONTROL Resumo da página / Resumo da categoria do site]**: mostra tudo o que você precisa saber sobre o relatório da página. Coleta e organiza informações específicas da página sobre uma única página e as apresenta em um único relatório.
 * **[!UICONTROL Recargas]**: mostra o número de vezes que páginas individuais foram recarregadas pelos visitantes da página.
 * **[!UICONTROL Tempo gasto na página]**: mostra o tempo em que os visitantes navegaram em páginas individuais do site. O tempo de permanência é dividido em dez categorias: menos de 15 segundos, 15-30 segundos, 30-60 segundos, 1-3 minutos, 3-5 minutos, 5-10 minutos, 10-15 minutos, 15-20 minutos, 20-30 minutos e mais de 30 minutos.
 * **[!UICONTROL Cliques para a página]**: identifica o número de cliques que os visitantes usaram para acessar cada página do site. A profundidade de uma página é medida pela contagem do número de páginas exibidas antes.
 
-**[!UICONTROL Entradas e saídas]**: o relatório de [!UICONTROL Entradas e saídas] mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode selecionar:
+**[!UICONTROL Entradas e saídas]**: o relatório de Entradas e saídas mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode selecionar:
 
 * **[!UICONTROL Páginas de entrada]** (ou seções): mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode usar este relatório para identificar qual das suas páginas da Web são os pontos mais frequentes de entrada, otimizar os pontos de entrada primária do site e o tráfego de entrada da unidade para suas mensagens-chave.
 * **[!UICONTROL Páginas de entrada originais]**: mostra a primeira página visualizada pela primeira vez pelos visitantes do site. Cada usuário é contado apenas uma vez, a não ser que ele exclua seus cookies do navegador ou não esteja sendo rastreado por cookies.
 * **[!UICONTROL Visitas únicas à página]**: mostra páginas que frequentemente são páginas de entrada e saída para as sessões de navegação do visitante.
 * **[!UICONTROL Páginas de saída]**: mostram, por porcentagem e pelo total de visitas, quais locais no site foram os últimos que os visitantes visualizaram antes de sair do site.
 
-## Relatório de Fallout {#concept_0ED452F3B1D04A19A59DD04D76D20347}
+## Relatório de fallout {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
 O [!UICONTROL relatório de Fallout] mostra onde os visitantes saem (fallout) e continuar a navegar (fallthrough) em uma sequência de páginas pré-especificada. Ele também mostra as taxas de conversão e saída entre cada etapa. Por exemplo, você pode acompanhar os pontos de saída de um visitante durante um processo de compra. Selecione um ponto de partida e um ponto de conclusão e adicione pontos intermediários para criar um caminho de navegação no site.
 
