@@ -1,12 +1,11 @@
 ---
 description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
 keywords: segmentation;segments
-solution: Analytics
 title: Guia de transição para a Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Se você está acostumado a trabalhar com o Construtor de segmentos na Análise 
 
 * Os segmentos são universais para todos os conjuntos de relatórios. Anteriormente, os segmentos eram específicos do conjunto de relatórios.
 * A Análise ad hoc inclui a atualização do Construtor de segmentos e uma atualização completa do Gerenciador de segmentos.
-* Agora você pode marcar segmentos para organizar e pesquisar depois, em vez de usar pastas. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
+* Agora você pode marcar segmentos para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas na [!DNL Ad Hoc Analysis] para organizar os segmentos.
 
 ## O que aconteceu com meus segmentos existentes? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -73,7 +72,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Quando apropriado, adicione-os à biblioteca de segmentos.
 * Aprovar segmentos canônicos.
 
-## Por que não consigo excluir este segmento? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## Por que não posso excluir esse segmento? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo nem editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
 
@@ -89,10 +88,10 @@ Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo ne
  <tbody> 
   <tr> 
    <td colname="col1"> Segmentos favoritos na Análise ad hoc </td> 
-   <td colname="col2">Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
+   <td colname="col2">Esses segmentos da análise ad hoc são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segmentos pré-configurados na análise ad hoc: 
+   <td colname="col1">Segmentos pré-configurados na Ad Hoc Analysis: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Visitas únicas à página </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Visitas de dispositivos móveis </li> 
