@@ -1,11 +1,10 @@
 ---
 description: Exibe em média em que ponto da visita cada valor foi disparado. Esta métrica é importante para determinar em que ponto de uma visita o público-alvo alcança uma página ou valor de prop determinado. Profundidade média da página está disponível em qualquer variável com definição de caminho ativada.
-solution: Analytics
 title: Profundidade média da página
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ A [!UICONTROL profundidade da página] ajuda você a entender onde uma determina
   </tr> 
   <tr> 
    <td colname="col1"> Conversão </td> 
-   <td colname="col2"> N/A </td> 
+   <td colname="col2"> N/D </td> 
   </tr> 
  </tbody> 
 </table>
