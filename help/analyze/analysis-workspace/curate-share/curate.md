@@ -1,12 +1,11 @@
 ---
 description: A preparação permite limitar os componentes antes de compartilhar um projeto. É possível preparar e compartilhar um projeto e seus componentes com profissionais de marketing e outros profissionais não relacionados com as análises na sua empresa. Anote e aplique as tags aos projetos.
 keywords: Analysis Workspace
-solution: Analytics
 title: Visão geral de curadoria/compartilhamento
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,51 +14,51 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 A preparação permite limitar os componentes antes de compartilhar um projeto. É possível preparar e compartilhar um projeto e seus componentes com profissionais de marketing e outros profissionais não relacionados com as análises na sua empresa. Anote e aplique as tags aos projetos.
 
-**Visão geral do vídeo**
+**Vídeo de visão geral**
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Compartilhar]**&gt; **[!UICONTROL Preparar dados do projeto]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Prepara dados do projeto]**
 
 ## Preparar dados do projeto
 
 1. Especifique a permissão para criar e preparar os projetos.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Antes de criar e preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um [grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) que tenha a permissão **[!UICONTROL Acesso ao Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Grupos]**).
 
-1. [Crie e salve](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) um projeto, em seguida, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados]** do projeto.
-1. Arraste os componentes que você deseja compartilhar da pilha de componentes arrastáveis à esquerda do campo **[!UICONTROL Componentes preparados].**
+1. [Crie e salve](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) um projeto e clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados do projeto]**.
+1. Arraste os componentes que você deseja compartilhar da pilha de componentes arrastáveis à esquerda do campo **[!UICONTROL Componentes preparados]**.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >A preparação de componentes não é necessária para compartilhar um projeto. Você pode compartilhar um projeto com todos os componentes padrão disponíveis ou com os componentes selecionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Depois de preparar os componentes em um projeto, os outros componentes não estarão mais disponíveis para esse projeto.
+   >A preparação dos componentes não é necessária para compartilhar um projeto. Você pode compartilhar um projeto com todos os componentes padrão disponíveis ou com os componentes selecionados. Para preservar todos os componentes padrão em um projeto, uma prática recomendada é criar uma cópia de um projeto (usando **[!UICONTROL Salvar como]**) antes de preparar os componentes. Depois de preparar os componentes em um projeto, os outros componentes não estarão mais disponíveis para esse projeto.
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-O projeto resultante se comporta como um projeto típico na Analysis Workspace, mas somente com os componentes especificados para a escolha.
+O projeto resultante se comporta como um projeto típico no Analysis Workspace, mas somente com os componentes especificados para a escolha.
 
 ## Compartilhar um projeto preparado
 
-O compartilhamento disponibiliza esse projeto para outros usuários da Analysis Workspace em sua organização. Qualquer preparação realizada aparecerá quando outras pessoas usarem o projeto.
+O compartilhamento disponibiliza esse projeto para outros usuários do Analysis Workspace em sua organização. Qualquer preparação realizada aparecerá quando outras pessoas usarem o projeto.
 
-1. After you curate the components of a report, click **[!UICONTROL Share]** &gt; **[!UICONTROL Share Project]**.
+1. Após preparar os componentes de um relatório, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Compartilhar projeto]**.
 
    ![](assets/share_component.png)
 
-1. Adicionar destinatários.
-1. (Opcional) É possível compartilhar componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de data) com todos os destinatários. Depois de compartilhados, esses componentes aparecerão na lista suspensa de componentes do Workspace do destinatário.
+1. Adicione destinatários.
+1. (Opcional) É possível compartilhar componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de data) com todos os destinatários. Após compartilhados, esses componentes aparecem no menu suspenso de componentes do Workspace do destinatário.
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
+   >Essa configuração não persiste: é uma ação única no momento do compartilhamento.
 
 1. Opcionalmente, é possível definir essa página como a página inicial para os destinatários.
 
    >[!IMPORTANT]
    >
-   >Essa configuração não persiste - é uma ação singular no momento do compartilhamento.
+   >Essa configuração não persiste: é uma ação única no momento do compartilhamento.
 
 1. Clique em **[!UICONTROL Compartilhar]**.
 
