@@ -1,11 +1,10 @@
 ---
 description: Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
-solution: Analytics
-title: Relatórios de métricas do site
+title: Métricas de site relatórios
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
-## Relatórios de métricas do site {#concept_0639CA16551749A693F49ADED4842CCE}
+## Métricas de site reports {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
@@ -128,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. Um relatório de [!UICONTROL Evento personalizado] pode ser usado como um contador que mostrar o número de vezes que um evento ocorre. Por exemplo, se **[!UICONTROL event1]estiver definido para contar o número de vezes em que um documento é baixado, o relatório de eventos personalizados para o Evento 1 mostra o número total de vezes em que o evento (ou download) ocorreu.** Você pode ter diversos relatórios de eventos personalizados.
+Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. Um relatório de [!UICONTROL Evento personalizado] pode ser usado como um contador que mostrar o número de vezes que um evento ocorre. Por exemplo, se **[!UICONTROL event1]** estiver definido para contar o número de vezes em que um documento é baixado, o relatório de eventos personalizados para o Evento 1 mostra o número total de vezes em que o evento (ou download) ocorreu.  Você pode ter diversos relatórios de eventos personalizados.
 
 ## Relatórios de conversão {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
