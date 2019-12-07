@@ -1,12 +1,11 @@
 ---
 description: 'A ID da organização é necessária para concluir o assistente de integração. Para localizar essa ID, faça o seguinte:'
-solution: Analytics
 subtopic: Qualtrics
 title: Procurando a ID da empresa Qualtrics
 topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
