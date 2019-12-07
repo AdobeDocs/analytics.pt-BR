@@ -1,11 +1,10 @@
 ---
 description: Datas predefinidas permitem selecionar datas comumente usadas ou datas que você tiver salvo. Na Etapa 1 do Assistente de solicitações, escolha Datas predefinidas. Estas são as definições de campo para datas predefinidas no Construtor de relatórios.
-solution: Analytics
 title: Definições do Assistente de solicitações - Datas predefinidas
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
