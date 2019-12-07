@@ -1,11 +1,10 @@
 ---
 description: Exemplos, observações e notas de sintaxe sobre o uso de intervalos de datas em expressões personalizadas.
-solution: Analytics
 title: Exemplos de intervalos de datas usando expressões personalizadas
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
