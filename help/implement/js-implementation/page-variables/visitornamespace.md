@@ -1,13 +1,12 @@
 ---
 description: As variáveis de página populam diretamente um relatório, como pageName, Propriedades de lista, Variáveis de lista, entre outros.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variáveis de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ visitorNamespace.xml
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | ns | N/A | "" |
+| N/D | ns | N/D | "" |
 
 O Analytics um cookie para identificar de forma única os visitantes do site. Se *`visitorNamespace`* não for usado, o cookie será associado ao 2o7.net. Se *`visitorNamespace`* for usado, o cookie será associado com um subdomínio de 2o7.net. Todos os visitantes do site devem ter os cookies associados ao mesmo domínio ou subdomínio.
 
