@@ -1,11 +1,10 @@
 ---
 description: O arquivo de log é um arquivo de texto que o servidor usa para armazenar dados relacionados ao momento em que os arquivos são recuperados de um site. Algumas informações coletadas incluem data e hora, URL servido, endereços IP, status de solicitação, entre outros.
-solution: Analytics
 title: Arquivo de log
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
