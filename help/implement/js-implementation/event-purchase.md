@@ -1,12 +1,11 @@
 ---
 description: Para o evento compra, as variáveis do Analytics são usadas para capturar informações específicas de compra. A variável s.purchaseID é usada para serializar (cancelar a duplicação) um evento.
 keywords: Analytics Implementation
-solution: Analytics
 title: Eventos de compra
 topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
