@@ -1,12 +1,11 @@
 ---
 description: Este tópico oferece as respostas às perguntas mais frequentes.
-solution: Analytics
 subtopic: Data sources
 title: Perguntas frequentes da Fonte de Dados
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
