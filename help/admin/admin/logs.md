@@ -1,18 +1,17 @@
 ---
-description: Os aquivos de log ajudam a identificar quando um usuário faz logon, sua atividade, acesso, conjuntos de dados e alterações de Admin.
-solution: Analytics
+description: Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 title: Logs
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Logs
 
-Os aquivos de log ajudam a identificar quando um usuário faz logon, sua atividade, acesso, conjuntos de dados e alterações de Admin.
+Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Logs]**
 
@@ -20,7 +19,7 @@ Os aquivos de log ajudam a identificar quando um usuário faz logon, sua ativida
 
 O log de administração relata todas as alterações feitas pelos administradores nas ferramentas administrativas. O log fornece um portal para relatórios definidos pelo usuário a partir de qualquer um dos três logs. Você pode pesquisar eventos que correspondam aos critérios selecionados em um intervalo de datas especificado.
 
-## Log de uso e acesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## Log de uso e acesso  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível da conta de usuário. Por exemplo, monitora ações de abrir, criar, atualizar, cancelar compartilhamento e excluir na Analysis Workspace. Isso permite melhor visibilidade de quem está usando a Workspace e com que frequência.
 
@@ -34,7 +33,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Evento | Filtre o log por uma palavra ou frase na descrição do evento. |
 | Baixar relatório | Exporta o conteúdo do [!UICONTROL Log de uso e acesso] para o arquivo com tabulações. |
 
-## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}
+## Log de alterações do conjunto de relatórios  {#section_3864966639414BBEA871F4D0352F56B6}
 
 O log Alterações do conjunto de relatórios exibe as alterações feitas em seus conjuntos de relatório, fora do de administração.
 
