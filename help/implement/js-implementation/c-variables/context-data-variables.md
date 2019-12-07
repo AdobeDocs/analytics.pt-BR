@@ -1,13 +1,12 @@
 ---
 description: 'As variáveis de dados de contexto permitem que você defina variáveis em cada página, que podem ser lidas pelas regras de processamento. '
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: Variáveis de dados de contexto
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ As variáveis de dados de contexto permitem que você defina variáveis em cada 
 Você pode enviar dados nas variáveis de dados de contexto que estão mapeados por meio de Regras de processamento, em vez de atribuir valores explícitos para os props e eVars no seu código. As Regras de processamento fornecem uma interface gráfica eficaz para fazer mudanças nos dados que são recebidos. Com base nos valores enviados nos dados de contexto, você poderá definir eventos, copiar valores para o eVars e props, bem como executar instruções condicionais.
 
 > [!NOTE]As variáveis de dados de contexto não fazem distinção entre maiúsculas e minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ Como as regras de processamento se aplicam somente quando os dados são coletado
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nomes e caracteres suportados </p> </td> 
-   <td colname="col2"> <p>os nomes de variável de dados só podem conter caracteres alfanuméricos, sublinhados e pontos. Os caracteres adicionais serão eliminados. As variáveis de Dados de contexto não têm uma designação numérica. Em vez disso, elas são nomeadas. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>os nomes de variável de dados só podem conter caracteres alfanuméricos, sublinhados e pontos. Os caracteres adicionais serão eliminados. As variáveis de Dados de contexto não têm uma designação numérica. Em vez disso, elas são nomeadas. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. Todos os dados enviados para a variável <code> login_page-home </code> são alocados em <code> login_pagehome </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
