@@ -1,11 +1,10 @@
 ---
 description: Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
-solution: Analytics
 title: Filtros internos do URL
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 
-Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do Relatório [de](/help/components/c-variables/dimensionslist/reports-referrers.md)referenciadores, Relatório [de domínios](/help/components/c-variables/dimensionslist/reports-referring-domains.md)referenciadores e outros relatórios de Métodos de descoberta.
+Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do  [Relatório de referenciadores](/help/components/c-variables/dimensionslist/reports-referrers.md), o [Relatório de domínios referenciadores](/help/components/c-variables/dimensionslist/reports-referring-domains.md) e outros relatórios de Métodos de descoberta.
 
 O motivo mais comum para a falha de cálculo dos relatórios de fontes de tráfego é o Filtro de URL interno não definido. Para verificar quais Filtros de URL interno foram configurados em um conjunto de relatórios, siga essas etapas. Para evitar que isso aconteça, remova a regra que lista um ponto (.) como filtro e adicione seu próprio site.
 
