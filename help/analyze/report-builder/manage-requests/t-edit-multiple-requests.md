@@ -1,11 +1,10 @@
 ---
 description: É possível alterar várias solicitações ao mesmo tempo, com base no conjunto de relatórios da solicitação, granularidade e intervalo de datas.
-solution: Analytics
 title: Editar várias solicitações
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
