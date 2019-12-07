@@ -1,11 +1,10 @@
 ---
 description: Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
-solution: Analytics
 title: Visão geral dos relatórios
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -85,7 +84,7 @@ Os cálculos estatísticos padrão adicionais podem ser adicionados aos relatór
 | Cálculo | Descrição |
 |--- |--- |
 | Máx | Identifica o valor máximo em todas as linhas para um conjunto de dados específico. |
-| Mín | Identifica o valor mínimo em todas as linhas para um conjunto de dados específico. |
+| Versão mín | Identifica o valor mínimo em todas as linhas para um conjunto de dados específico. |
 | Soma | Um cálculo de todos os valores para cada linha no conjunto de dados.  Por exemplo, a soma agrega todas as visitas de uma pessoa em vez de contar essa pessoa somente uma vez (independente do número de visitas). É um total abrangente dos pontos de dados coletados. |
 | Média | A média é a média aritmética dos valores das linhas em um conjunto de dados, calculada pela soma dividida pela contagem (soma/contagem). A média é influenciada pelos dados remotos, diferente da média, que normalmente é usada para distribuições enviesadas. |
 | Desvio padrão | O desvio padrão mostra quantas variações existem a partir da média esperada. Um desvio padrão inferior mostra os pontos de dados próximos à média. Um desvio padrão superior mostra que os pontos de dados estão distribuídos por uma ampla gama de valores. |
