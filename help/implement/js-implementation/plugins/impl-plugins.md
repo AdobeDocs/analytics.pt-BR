@@ -1,13 +1,12 @@
 ---
 description: Os plug-ins do AppMeasurement para JavaScript são programas ou funções que executam várias funções avançadas.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: Usar plug-ins de implementação
 topic: Developer and implementation
 uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
