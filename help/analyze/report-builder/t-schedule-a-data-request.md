@@ -1,11 +1,10 @@
 ---
 description: Você pode agendar relatórios para envio de acordo com a hora e o formato de arquivo definidos.
-solution: Analytics
 title: Agendar uma solicitação de dados
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
