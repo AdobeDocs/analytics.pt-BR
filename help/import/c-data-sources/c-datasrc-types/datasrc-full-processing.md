@@ -1,12 +1,11 @@
 ---
 description: A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
-solution: Analytics
 subtopic: Data sources
 title: Processamento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -54,7 +53,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>data </p> </td> 
    <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
@@ -131,8 +130,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>ID(s) do report suite para o qual deve ser atribuída a ocorrência. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col1"> <p>servidor </p> </td> 
+   <td colname="col2"> <p>servidor </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres do servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +230,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
    <td colname="col2"> <p>Valores da propriedade para suas propriedades. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referrer </p> </td> 
+   <td colname="col1"> <p>referenciador </p> </td> 
    <td colname="col2"> <p>URL para o referenciador da página. </p> </td> 
   </tr> 
   <tr> 
