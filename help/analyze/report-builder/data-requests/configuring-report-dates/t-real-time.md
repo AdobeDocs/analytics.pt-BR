@@ -1,11 +1,10 @@
 ---
 description: Estas etapas descrevem como configurar datas de solicitação em tempo real.
-solution: Analytics
 title: Configurar uma solicitação em tempo real
 topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
