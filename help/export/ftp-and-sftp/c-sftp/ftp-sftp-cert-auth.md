@@ -1,11 +1,10 @@
 ---
 description: A conexão sem senha a contas FTP só é possível usando uma conexão SFTP e um método de autenticação alternativo. Esse processo envolve um conjunto de dois arquivos (um que fica na conta FTP e outro que fica no seu computador) chamado de combinação de chave pública e privada.
 keywords: ftp;sftp
-solution: Analytics
 title: Conexão com a Adobe via SFTP sem uma senha
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
