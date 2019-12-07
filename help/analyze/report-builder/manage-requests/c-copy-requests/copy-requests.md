@@ -1,11 +1,10 @@
 ---
 description: Você pode copiar células mapeadas com mais de uma solicitação e colar o conteúdo em uma área vazia selecionada da planilha.
-solution: Analytics
 title: Visão geral de Copiar solicitações
 topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
