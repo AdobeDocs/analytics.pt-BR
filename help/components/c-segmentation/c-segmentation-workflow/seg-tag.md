@@ -1,11 +1,10 @@
 ---
 description: No Gerenciador de segmentos, a marcação de segmentos permite que você os organize.
-solution: Analytics
 title: Marcar segmentos
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,4 +35,4 @@ Todos os usuários podem criar tags para segmentos e aplicar uma ou mais tags a 
 
 A tag agora deve aparecer na coluna Tags. (Clique no ícone de engrenagem na parte superior direita para gerenciar suas colunas).
 
-You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
+Também é possível filtrar tags em **[!UICONTROL Filtros]** &gt; **[!UICONTROL Tags]**.
