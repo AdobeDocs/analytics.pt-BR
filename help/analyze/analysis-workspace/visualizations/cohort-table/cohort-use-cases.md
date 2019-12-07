@@ -1,12 +1,11 @@
 ---
 description: Exemplos de casos de uso da análise de coorte.
 keywords: Analysis Workspace
-solution: Analytics
 title: Casos de uso da análise de coorte
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Exemplos de casos de uso da análise de coorte.
 
-## App engagement use case {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Caso de uso sobre interação com o aplicativo {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
 
 Suponha que você queira analisar o modo como os usuários usam o aplicativo instalado. Eles instalam e nunca usam o aplicativo? Eles usam por um tempo e depois desistem? Ou eles continuam usando ao longo do tempo?
 
@@ -29,7 +28,7 @@ Você pode criar uma análise de coorte de seis meses
 
 Os visitantes não contam como *`engaged`* nos meses seguintes, a menos que tenham uma sessão ou, pelo menos, inicializem o aplicativo. A análise de coorte mostraria padrões de uso em que *`App Install`* sempre ocorre no Mês 0. Você pode notar que o uso diminui no Mês 2, independentemente de quando os usuários instalaram o aplicativo. (Para os usuários que instalaram o aplicativo em janeiro de 2015, o Mês 2 é março de 2015. Para aqueles que instalaram o aplicativo em fevereiro de 2015, o Mês 2 é abril de 2015 e, assim por diante.) Essa análise permite que você envie um email ou uma mensagem automática para todos os usuários durante o segundo mês após a instalação para lembrá-los de usar o aplicativo.
 
-## Subscription use case {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Caso de uso de assinatura {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
 Você trabalha na Adobe.com e oferece uma assinatura gratuita da Creative Cloud. O objetivo é que os usuários atualizem da versão gratuita para a versão de avaliação de 30 dias ou, em última análise, para a versão paga.
 
@@ -47,20 +46,20 @@ Verifique novamente o seu relatório de análise de coorte alguns meses depois. 
 
 ## Caso de uso de segmentos de coorte complexos
 
-Uma grande cadeia de hotéis tem como alvo vários grupos de clientes para promoções e os monitora em relação ao desempenho. Para identificar os melhores grupos de coortes de usuário para fins de direcionamento, deve-se criar grupos de coorte muito específicos. Usando a Inclusão e o Critério de retorno aumentados em Tabelas de coorte, é possível definir os grupos de coorte ideais com várias métricas e segmentos para identificar grupos de clientes com baixo desempenho, para direcionar a tais grupos promoções e ofertas para aumentar a taxa de reservas. 
+Uma grande cadeia de hotéis tem como alvo vários grupos de clientes para promoções e os monitora em relação ao desempenho. Para identificar os melhores grupos de coortes de usuário para fins de direcionamento, deve-se criar grupos de coorte muito específicos. Usando a Inclusão e o Critério de retorno aumentados em Tabelas de coorte, é possível definir os grupos de coorte ideais com várias métricas e segmentos para identificar grupos de clientes com baixo desempenho, para direcionar a tais grupos promoções e ofertas para aumentar a taxa de reservas.
 
-## Caso de uso da adoção da versão do aplicativo
+## Caso de uso de preferência de versão do aplicativo
 
 Uma grande empresa de seguros impulsiona muito engajamento de cliente por meio de seu aplicativo para dispositivos móveis. Entretanto, conforme novos recursos são adicionados ao aplicativo, é de enorme importância que os clientes atualizem para a versão mais recente. É possível analisar e comparar todas as versões do aplicativo lado a lado usando o Coorte de dimensão personalizado para ver quais clientes e suas respectivas versões do aplicativo para direcionar. Além disso, pode-se monitorar a retenção e o churn para ver se versões específicas do aplicativo estão causando a interrupção do uso do aplicativo ao longo do tempo. Por meio de mensagens em dispositivos móveis, a empresa pode voltar a engajar esses clientes para que atualizem para a versão mais recente e aproveitem os últimos recursos.
 
-## Caso de uso da adesão à campanha
+## Caso de uso de adesão de campanha
 
 Uma empresa de mídia multinacional usa campanhas direcionadas para direcionar usuários a suas várias plataformas para gerar engajamento. O gasto com anúncios por plataforma baseia-se no engajamento e na retenção do cliente. Portanto, campanhas bem-sucedidas são essenciais para o sucesso dos negócios. A empresa usa nosso novo recurso Coorte de dimensão personalizado em Tabelas de coorte para comparar várias campanhas lado a lado, para identificar quais campanhas são mais eficazes para conquistar e reter usuários para aumentar o engajamento. Podem identificar quais aspectos tornam uma campanha bem-sucedida e aplicá-los a outras campanhas para aumentar o engajamento nas várias plataformas..
 
-## Caso de uso do Launch do produto
+## Caso de uso de lançamento de produto
 
-Uma grande varejista de vestuário tem muitos segmentos de clientes específicos que geram grandes parcelas de receita para seus negócios. Cada segmento tem produtos específicos projetados e criados com o segmento em mente. A cada lançamento de produto, a empresa quer saber como o novo produto impulsionou as vendas para vários coortes ao longo do tempo. Usando a nova configuração de Tabela de latência em tabelas de coorte, eles podem analisar o comportamento e a receita de um determinado segmento de cliente antes e depois da inicialização. Usando essas informações, pode-se identificar quais produtos estão gerando novas receitas e quais não estão ganhando força com os clientes.
+Uma grande varejista de vestuário tem muitos segmentos de clientes específicos que geram grandes parcelas de receita para seus negócios. Cada segmento tem produtos específicos projetados e criados com o segmento em mente. A cada lançamento de produto, a empresa quer saber como o novo produto impulsionou as vendas para vários coortes ao longo do tempo. Usando a nova configuração de Tabela de latência em Tabelas de coorte, é possível analisar o comportamento e a receita de pré-lançamento e pós-lançamento de um determinado segmento de cliente. Usando essas informações, pode-se identificar quais produtos estão gerando novas receitas e quais não estão ganhando força com os clientes.
 
-## Adesão individual - Usuários mais fiéis caso de uso
+## Caso de uso de adesão individual: usuários mais fiéis
 
 Uma grande companhia aérea obtém a maior parte de seu sucesso e receita por meio de clientes repetidos e fiéis. Em muitos casos, seus viajantes fiéis compõem a maior parte de sua receita e manter esses clientes é fundamental para o sucesso a longo prazo. Identificar os clientes mais leais e consistentes pode ser difícil. Entretanto, usando a nova configuração Cálculo contínuo em Tabelas de coorte, foi possível analisar segmentos de clientes fiéis e descobrir quais viajantes eram compradores repetidos mês a mês. Então, foi possível direcionar a esses viajantes recompensas e benefícios por sua fidelidade. Além disso, ao alternar o tipo de coorte de retenção para rotatividade (churn), também pode-se identificar quais clientes não eram compradores recorrentes mês a mês e direcionar esses segmentos com promoções, a fim de retomar o engajamento e garantir que permanecessem fiéis no futuro.
