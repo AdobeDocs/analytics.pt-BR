@@ -1,11 +1,10 @@
 ---
 description: O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. Depois de importados, esses dados podem ser tratados e manipulados de forma semelhante aos dados coletados nativamente.
-solution: Analytics
 title: Fontes de dados
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
