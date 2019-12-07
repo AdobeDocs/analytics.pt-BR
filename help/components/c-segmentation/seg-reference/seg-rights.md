@@ -1,11 +1,10 @@
 ---
 description: A funcionalidade do segmento se diferencia entre usuários do nível administrativo e não Administradores.
-solution: Analytics
 title: Direitos do segmento por função
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,14 +27,14 @@ A funcionalidade do segmento se diferencia entre usuários do nível administrat
   <tr> 
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Relatórios e análises </span>: Pode exibir/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. segmentos próprios e os compartilhados. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: pode visualizar/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. segmentos próprios e os compartilhados. </p> </td> 
    <td colname="col4"> Pode aprovar segmentos como canônicos. </td> 
    <td colname="col5"> Pode aplicar qualquer segmento na organização inteira. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Usuários de nível não administrativo</b> </td> 
    <td colname="col2"> Podem compartilhar somente com usuários individuais </td> 
-   <td colname="col3"> Pode visualizar/editar/excluir/etc. seus próprios segmentos. </td> 
+   <td colname="col3"> É possível visualizar/editar/excluir/etc. seus próprios segmentos. </td> 
    <td colname="col4"> Pode consumir somente segmentos aprovados; não é possível marcar como aprovado. </td> 
    <td colname="col5"> Pode aplicar seus próprios segmentos e os compartilhados com eles. </td> 
   </tr> 
