@@ -1,13 +1,10 @@
 ---
 description: Fornece análises completas, precisas e detalhadas das atividades do cliente. Métricas como gerenciamento de campanha, ciclo de vendas, desistências e conversão de cliente permitem medir as transações de comércio eletrônico, fontes de vendas, eficácia dos anúncios, fidelidade do cliente, etc.
-seo-description: Fornece análises completas, precisas e detalhadas das atividades do cliente. Métricas como gerenciamento de campanha, ciclo de vendas, desistências e conversão de cliente permitem medir as transações de comércio eletrônico, fontes de vendas, eficácia dos anúncios, fidelidade do cliente, etc.
-seo-title: Conversão
-solution: Analytics
 title: Conversão
-topic: Relatórios
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +15,7 @@ Fornece análises completas, precisas e detalhadas das atividades do cliente. M�
 
 Por exemplo, se você deseja descobrir que tipo de campanha interna em sua página inicial pode resultar em compras, você primeiro deve capturar o código de rastreamento interno e definir a persistência para o período de uma visita para a *`s.eVar`* que captura campanhas internas. Quando o evento bem-sucedido é concluído (como compra), o crédito do sucesso é dado a quaisquer Variáveis de conversão que sejam persistentes no visitante, como a ID da campanha interna. Ao executar o [!UICONTROL Relatório de campanha interna], você descobrir qual campanha gerou mais conversão no site.
 
-Alguns relatórios existentes contém métricas de tráfego e conversão (ex: relatórios de [!UICONTROL Mecanismo de busca]). No entanto, os relatórios de [!UICONTROL Tráfego] e [!UICONTROL Conversão] são exclusivos de sua organização e são exibidos nos menus **[!UICONTROL Tráfego]** e **Conversão[!UICONTROL .]**
+Alguns relatórios existentes contém métricas de tráfego e conversão (ex: relatórios de [!UICONTROL Mecanismo de busca]). No entanto, os relatórios de [!UICONTROL Tráfego] e [!UICONTROL Conversão] são exclusivos de sua organização e são exibidos nos menus **[!UICONTROL Tráfego]** e **[!UICONTROL Conversão]**.
 
 **Propriedades de relatório**
 
@@ -42,7 +39,7 @@ Alguns relatórios existentes contém métricas de tráfego e conversão (ex: re
    * Número da visita
    * Muitos relatórios de perfil e tecnologia do visitante
    * Todas as outras eVars
-   * Primeiro e último contato de canais de marketing
+   * Primeiro e último contato dos canais de marketing
 
 * Os eventos a seguir podem ser usado como métricas:
 
