@@ -1,19 +1,18 @@
 ---
-description: Requisitos do sistema e comparação da Analysis Workspace, Relatórios e análises, Análise ad hoc, Construtor de relatórios, Data Warehouse e Análise de big data
-solution: Analytics
+description: Requisitos de sistema e comparação da Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder Data Warehouse e Data Workbench
 title: Comparação e requisitos de produtos do Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Comparação e requisitos de produtos do Analytics
 
-Requisitos do sistema e comparação da Analysis Workspace, Relatórios e análises, Análise ad hoc, Construtor de relatórios, Data Warehouse e Análise de big data
+Requisitos de sistema e comparação da Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder Data Warehouse e Data Workbench
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+Para obter informações sobre qual produto Adobe Analytics usar, acesse [aqui](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
@@ -159,7 +158,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Mais... </a> </p> </td> 
    <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Mais... </a> </p> </td> 
    <td colname="col06"> Navegador e programa para abrir arquivos <span class="filepath">.csv</span> como MS Excel. Pode gerar arquivos no formato Tableau. </td> 
-   <td colname="col6"> Windows 64 bits, placa de vídeo ideal para OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Mais... </a></u> ) </td> 
+   <td colname="col6"> Windows 64 bits, placa de vídeo ideal para OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Mais... </a></u>) </td> 
   </tr> 
  </tbody> 
 </table>
