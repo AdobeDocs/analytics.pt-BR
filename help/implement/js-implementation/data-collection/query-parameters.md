@@ -1,12 +1,11 @@
 ---
 description: As tabelas a seguir listam os parâmetros de consulta que contêm o valor para cada variável de análise enviada para a coleção de dados.
 keywords: Analytics Implementation
-solution: Analytics
 title: Parâmetros de consulta para coleta de dados
 topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
