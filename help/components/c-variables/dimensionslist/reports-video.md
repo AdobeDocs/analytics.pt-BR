@@ -1,11 +1,10 @@
 ---
 description: Exibe informações sobre as estatísticas de acesso à mídia online. Exibe dados de tela de vídeo e outros acesso à mídia.
-solution: Analytics
 title: Vídeo
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ Exibe informações sobre as estatísticas de acesso à mídia online. Exibe dad
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Consulte [Avaliação de áudio e vídeo no Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
