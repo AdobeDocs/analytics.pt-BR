@@ -1,11 +1,10 @@
 ---
 description: O Relatório geral do canal de marketing é designado para proporcionar um alto nível de conhecimento sobre quais métodos que os clientes usam para chegar ao site são mais eficientes. Use este relatório para alocar métricas de sucesso e receita em vários canais. Você também pode ver as campanhas e palavras-chave específicas em cada canal que têm mais sucesso. Ele contém sua própria interface única e intuitiva, que permite que você visualize as métricas de primeiro e último contato ao mesmo tempo.
-solution: Analytics
 title: Visão geral do canal de marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ O Relatório geral do canal de marketing é designado para proporcionar um alto 
 * As [Classificações](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html) podem ser usadas, permitindo que você renomeie e consolide os itens de linha.
 * As seguintes medidas podem ser usadas neste relatório (dependendo das configurações de organização e de conjunto de relatórios):
 
-   * **Click-throughs**: o número de vezes que a *`s.campaign`* variável é definida.
+   * **Click-throughs**: o número de vezes que a variável *`s.campaign`* é definida.
 
    * [Novas atividades](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): o número de visitantes que receberam um novo Canal de primeiro contato.
    * Todas as métricas de comércio eletrônico: Receita, Pedidos, Unidades, Carrinhos, Exibição de carrinhos, Adições a carrinhos, Remoções do carrinho.
@@ -38,7 +37,7 @@ O Relatório geral do canal de marketing é designado para proporcionar um alto 
 
 **Versão 14 e 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+Este relatório pode ser acessado indo até **[!UICONTROL Canais de marketing]** &gt; **[!UICONTROL Relatório geral do canal]** (se o menu não estiver personalizado).
 
 A segmentação não está disponível neste relatório. Use os relatórios de [!UICONTROL Canal First ou Last-Touch] ou [!UICONTROL Detalhes do First ou Last-Touch] em vez disso.
 
