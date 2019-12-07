@@ -1,11 +1,10 @@
 ---
 description: Exibe informações sobre os visitantes, incluindo coisas como contagem de visitantes, fidelidade do cliente e características do visitante.
-solution: Analytics
 title: Relatórios de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Exibe informações sobre os visitantes, incluindo coisas como contagem de visit
 
 ## Frequência de Retorno {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
-Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar site e as tendências dos clientes recorrentes.
+Mostra o tempo decorrido entre as visitas de clientes recorrentes e o número de visitas que se encaixa em cada categoria de tempo. Use o relatório para ver o tempo médio que os visitantes passam sem acessar o site e as tendências dos clientes recorrentes.
 
 <!-- 
 
@@ -102,7 +101,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**:Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
+**[!UICONTROL Idiomas]**: Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
 
 **[!UICONTROL Domínios]**: indica as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de [!UICONTROL Domínios completos] porque o relatório de Domínios completos registra o domínio completo do ISP e este relatório indica o domínio secundário.
 
