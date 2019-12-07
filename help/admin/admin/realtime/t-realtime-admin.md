@@ -1,11 +1,10 @@
 ---
 description: Etapas administrativas para configurar relatórios em tempo real.
-solution: Analytics
 title: Configuração de relatórios em tempo real
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
-   Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports &gt; Site Metrics]** &gt; **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
+   Navegue até **[!UICONTROL Analytics]**&gt;**[!UICONTROL Relatórios]** &gt; **[!UICONTROL Exibir todos os relatórios &gt; Métricas do site]** &gt; **[!UICONTROL Tempo real]** e selecione o conjunto de relatórios do menu suspenso no início da página:
 
    ![](assets/report_suite_selector.png)
 
@@ -26,16 +25,16 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
+1. Clique em **[!UICONTROL Configurar]** (ícone de engrenagem) para executar o [!UICONTROL Gerenciador de conjunto de relatórios].
 
-   (Also available under **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Real-Time]**.)
+   (Também disponível em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador &gt; Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Tempo real]**.)
 
-1. Turn on the **[!UICONTROL Enable Real-Time]** setting.
+1. Ative a configuração **[!UICONTROL Ativar tempo real]**.
 1. Configure a coleção de dados em tempo real para até três relatórios, com uma métrica e três dimensões ou classificações por relatório.
 
    ![](assets/real_time_admin.png)
 
-   Para obter informações sobre métricas e dimensões em tempo real suportadas, consulte Métricas e dimensões [suportadas](/help/admin/admin/realtime/realtime-metrics.md).
+   Para obter informações sobre métricas e dimensões em tempo real compatíveis, consulte [Métricas e dimensões compatíveis](/help/admin/admin/realtime/realtime-metrics.md).
 
    Caso tenha criado classificações, elas serão exibidas recuadas abaixo da dimensão para a qual foram definidas:
 
@@ -43,17 +42,17 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
    >[!NOTE]
    >
-   >Para um único relatório em tempo real, não oferecemos suporte à ativação de dimensões duplicadas, mesmo se uma classificação diferente for selecionada para cada dimensão.
+   >No momento, não oferecemos suporte para habilitar dimensões duplicadas para um relatório em tempo real, mesmo que uma classificação diferente seja selecionada para cada dimensão.
 
    Para obter mais informações sobre classificações, consulte [Sobre classificações](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
-   >Algumas dimensões, como "Palavra-chave de pesquisa" ou "Produto", não persistem em tempo real como em qualquer outro lugar no Adobe Analytics. Quando selecionar uma métrica não persistente, este aviso será exibido:
+   >Algumas dimensões, como "Palavra-chave de pesquisa" ou "Produto", não persistem em tempo real como persistiriam em outro ponto do Adobe Analytics. Quando selecionar uma métrica não persistente, este aviso será exibido:
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
 
    Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
 
