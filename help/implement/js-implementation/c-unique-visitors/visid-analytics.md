@@ -1,12 +1,11 @@
 ---
 description: 'Quando um usuário visita seu site, um cookie persistente é configurado pelo servidor da Web da Adobe, que o inclui na resposta HTTP enviada ao navegador. Esse cookie é definido no domínio especificado da coleta de dados. '
 keywords: Analytics Implementation
-solution: Analytics
 title: ID de visitante do Analytics
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
