@@ -1,13 +1,10 @@
 ---
 description: Quando você especifica uma data fixa ou intervalo de datas, o construtor de relatórios exibe o calendário de relatórios, que permite selecionar uma data, um intervalo de datas ou uma data predefinida. Você também pode salvar uma data fixa para usar como modelo e especificar se as datas salvas ficam disponíveis para o atual conjunto de relatórios ou para todos os conjuntos de relatórios.
-seo-description: Quando você especifica uma data fixa ou intervalo de datas, o construtor de relatórios exibe o calendário de relatórios, que permite selecionar uma data, um intervalo de datas ou uma data predefinida. Você também pode salvar uma data fixa para usar como modelo e especificar se as datas salvas ficam disponíveis para o atual conjunto de relatórios ou para todos os conjuntos de relatórios.
-seo-title: Datas fixas e intervalos de datas salvos
-solution: Analytics
 title: Datas fixas e intervalos de datas salvos
-topic: Construtor de relatórios
-uuid: f 00218 c 0-07 f 3-4505-98 b 0-de 05187401 fd
+topic: Report builder
+uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
