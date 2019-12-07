@@ -1,19 +1,18 @@
 ---
-description: Exemplos de como usar as tabelas de dados, os segmentos e as ideias dos casos de uso na Analysis Workspace.
+description: Exemplos de como usar as tabelas de dados, os segmentos e as ideias dos casos de uso no Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
-title: Casos de uso da Analysis Workspace
+title: Casos de uso do Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Casos de uso da Analysis Workspace
+# Casos de uso do Analysis Workspace
 
-Exemplos de como usar as tabelas de dados, os segmentos e as ideias dos casos de uso na Analysis Workspace.
+Exemplos de como usar as tabelas de dados, os segmentos e as ideias dos casos de uso no Analysis Workspace.
 
 Você pode realizar uma pesquisa direta em todos os seus dados para responder a perguntas específicas e reunir as narrativas sobre as interações do cliente e os interesses do público-alvo. Em um ambiente de forma livre você pode aplicar dimensões, métricas e segmentos ao longo de um período para recuperar diretamente os dados direcionados. Elabore a sua análise para ser personalizada para questões específicas e, em seguida, publique as informações em relatórios detalhados e visualizações, para serem compartilhados e facilmente interpretados, até mesmo por um usuário empresarial pioneiro com restrições de tempo.
 
@@ -58,5 +57,5 @@ Suponha que você é um analista de marketing de um revendedor de equipamentos p
 
    Você já dividiu os dados de uma forma que possa resultar em recomendações e vendas cruzadas, para que as suas equipes de merchandising implementem em outras campanhas e alcancem ainda mais receita para sua empresa. Você pode fazer outros detalhamentos até que consiga obter os resultados que deseja.
 
-   Agora é possível [Compartilhe](/help/analyze/analysis-workspace/curate-share/curate.md) o relatório com as equipes de merchandising.
+   Agora é possível [compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md) o relatório com as equipes de merchandising.
 
