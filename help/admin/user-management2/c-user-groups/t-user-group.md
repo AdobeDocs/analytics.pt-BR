@@ -1,12 +1,11 @@
 ---
 description: Etapas que descrevem como adicionar um grupo de usuários.
-solution: Analytics
 subtopic: Users and groups
 title: Adicionar um grupo de usuários
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Etapas que descrevem como adicionar um grupo de usuários.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Add New User Group]**, then complete the fields and options described in [Define User Groups](/help/admin/user-management2/c-user-groups/groups.md).
+1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Adicionar novo grupo de usuários]** e preencha os campos e opções descritos em [Definir grupos de usuários](/help/admin/user-management2/c-user-groups/groups.md).
 
    Links rápidos:
 
@@ -29,4 +28,4 @@ Etapas que descrevem como adicionar um grupo de usuários.
    * [Métricas](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): ative permissões para eventos de tráfego, conversão, personalizados, de soluções e sensíveis a conteúdo, entre outros.
    * [Dimensões](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 
-1. Click **[!UICONTROL Save Group]** to create the group and return to the [!UICONTROL Groups] page.
+1. Clique em **[!UICONTROL Salvar grupo]** para criar o grupo e retornar a página [!UICONTROL Grupos].
