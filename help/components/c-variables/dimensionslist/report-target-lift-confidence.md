@@ -1,28 +1,27 @@
 ---
 description: Você poderá medir o sucesso das campanhas no Adobe Analytics da mesma maneira que fazia no Target Classic antigamente.
-solution: Analytics
 title: Target Lift e Confidence
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Target Lift e Confidence
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
+Você poderá medir o sucesso das campanhas no Adobe Analytics da mesma maneira que fazia no [!DNL Target Classic] antigamente.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Relatórios]** &gt; **[!UICONTROL Exibir todos os relatórios]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; Atividades **** do Target.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Relatórios]** &gt; **[!UICONTROL Exibir todos os relatórios]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; **[!UICONTROL Atividades do Target]**.
 
 Há mais informações sobre [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) e [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html) na documentação do Adobe Target.
 
 Para calcular Lift e Confidence:
 
-1. No relatório **[!UICONTROL Atividades da meta], clique em uma atividade para exibir seus detalhes.**
+1. No relatório **[!UICONTROL Atividades da meta]**, clique em uma atividade para exibir seus detalhes.
 1. Em Tipo de relatório, selecione **[!UICONTROL Lift e Confidence]**.
-1. Clique em **[!UICONTROL Exibir métricas]para adicionar uma métrica.** Não é possível adicionar mais de uma métrica a este tipo de relatório, já que a prática recomendada é avaliar um teste com base em uma única métrica. A adição de métricas causaria desorganização e reduziria o sinal do teste.
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. Na maioria das vezes, Visitantes será o padrão.
+1. Clique em **[!UICONTROL Exibir métricas]** para adicionar uma métrica. Não é possível adicionar mais de uma métrica a este tipo de relatório, já que a prática recomendada é avaliar um teste com base em uma única métrica. A adição de métricas causaria desorganização e reduziria o sinal do teste.
+1. (Optional) Em **[!UICONTROL Métrica de normalização]**, selecione uma das seguintes opções: Visitantes, Visitas ou Impressões. Na maioria das vezes, Visitantes será o padrão.
 
 1. O relatório adicionará essas métricas, incluindo o raio entre a métrica e a métrica de normalização.
 
