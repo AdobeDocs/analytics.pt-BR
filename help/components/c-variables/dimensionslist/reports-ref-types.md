@@ -1,18 +1,17 @@
 ---
-description: Rastreando e registrando os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
-solution: Analytics
+description: Ao rastrear e registrar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
 title: Tipo de referenciador
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Tipo de referenciador
 
-Rastreando e registrando os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
+Ao rastrear e registrar os sites de referência dos visitantes para cada visita, você pode determinar como os visitantes descobriram o site em cada visita.
 
 A lista abaixo define os diversos tipos de referenciadores:
 
@@ -22,11 +21,11 @@ A lista abaixo define os diversos tipos de referenciadores:
 
 **[!UICONTROL Redes sociais]**: o valor de referência deve ser considerado pela Adobe como uma rede social. Ver a [Lista de redes sociais](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
-**Email**: Um domínio de referência é considerado um domínio de referência de email quando os visitantes clicam em um link de mensagem por email contendo o protocolo [!DNL imap://] ou [!DNL mail://] e chegam ao site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
+**Email**: Um domínio de referência é considerado um email quando os visitantes clicam em um link de mensagem por email com o protocolo [!DNL imap://] ou [!DNL mail://] e chegam ao seu site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
 
-**Digitado/Marcado**: referenciadores são registrados quando os visitantes digitam o URL do site diretamente no navegador, ou se acessam o site selecionando marcadores. Dispositivos móveis relatam um tipo de referenciador de *`typed/bookmarked`* se não houver referenciador na primeira ocorrência da visita.
+**Digitados/marcados**: os referenciadores são registrados quando os visitantes digitam o URL do seu site diretamente no navegador, ou se acessam seu site selecionando marcadores. Dispositivos móveis relatam um tipo de referenciador de *`typed/bookmarked`*, se não houver referenciador na primeira ocorrência da visita.
 
-**[!UICONTROL No seu site]**: Estes itens são URLs marcadas pelos filtros internos do URL. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL No seu site]**: Estes itens são URLs marcadas pelos filtros internos do URL. Isso não é contado como *`referrer instances`*, mas pode ser visualizado quando relatado em outras métricas.
 
 ## Tipos de referenciadores por interface {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
