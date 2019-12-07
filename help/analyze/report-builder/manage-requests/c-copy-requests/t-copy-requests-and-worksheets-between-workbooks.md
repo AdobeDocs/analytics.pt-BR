@@ -1,11 +1,10 @@
 ---
 description: Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino.
-solution: Analytics
 title: Copiar solicitações e planilhas entre pastas de trabalho
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
