@@ -1,12 +1,11 @@
 ---
 description: O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
-solution: Analytics
 subtopic: Users and groups
 title: Visão geral do gerenciamento de usuários
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Gerenciamento **** do usuário &gt; **[!UICONTROL Editar usuários]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Editar usuários]**
 
 ## Descrições da conta do usuário {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -80,7 +79,7 @@ Criar um painel padrão para um conjunto de relatórios especificado.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Usuário</span> </td> 
-   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Concede ao usuário somente as permissões do grupo selecionado. Selecione os grupos desejados no campo <span class="uicontrol">Grupos disponíveis</span> (à esquerda) e, em seguida, clique em <span class="uicontrol">Adicionar</span>. Os grupos atribuídos são exibidos no campo <span class="uicontrol">Grupos atribuídos</span> (à direita). Para obter informações sobre como criar e gerenciar grupos, consulte <a href="/help/admin/user-management2/c-user-groups/groups.md">Grupos</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
