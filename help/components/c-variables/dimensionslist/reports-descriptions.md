@@ -1,11 +1,10 @@
 ---
 description: 'Definições dos relatórios predefinidos disponíveis em Reports & Analytics e das dimensões disponíveis em outras ferramentas do Analytics, como a Analysis Workspace. '
-solution: Analytics
 title: Descrições de dimensão
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Definições dos relatórios predefinidos disponíveis em Reports &amp; Analytics e das dimensões disponíveis em outras ferramentas do Analytics, como a Analysis Workspace. 
 
-As dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um relatório. São valores e datas não numéricos que detalham ou são uma classificação da métrica do tipo de relatório original.
+As dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um relatório. São valores e datas não numéricos que se dividem ou são uma classificação da métrica do tipo de relatório original.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
