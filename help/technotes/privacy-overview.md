@@ -1,11 +1,10 @@
 ---
 description: Visão geral de quais dados o Adobe Analytics coleta e outras considerações de privacidade.
 keywords: privacy
-solution: Analytics
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
