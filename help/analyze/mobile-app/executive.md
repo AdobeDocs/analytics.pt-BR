@@ -2,7 +2,7 @@
 description: Instruções para configurar os scorecards do aplicativo móvel.
 title: Guia do curador do aplicativo móvel do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 4d1184f7b7c7f683fc3da2ea42a6e5911c60427b
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -19,7 +19,16 @@ O aplicativo móvel do Adobe Analytics fornece insights a qualquer hora e em qua
 
 ## Glossário de termos
 
-|Termo|Definição||—|—|Consumidor|Executivo visualizando métricas e insights principais do Analytics em um dispositivo móvel||Curador|Dados alfabetizam a pessoa que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor||Preparação|O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor||Scorecard|Uma exibição de aplicativo móvel contendo um ou mais blocos||Lado a lado|Uma renderização para uma métrica em uma exibição de cartão de pontuação||Detalhamento|Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais.||Intervalo de datas|O intervalo de datas principal para relatórios de aplicativo móvel||Intervalo de Datas de Comparação|O Intervalo de Datas que é comparado com o intervalo de datas principal|
+| Termo | Definição |
+|--- |--- |
+| Consumidor | Personalidade executiva visualizando métricas e insights principais do Analytics em um dispositivo móvel |
+| Curador | Personalidade da biblioteca de dados que encontra e distribui insights do Analytics e configura os Scorecards a serem exibidos pelo consumidor |
+| Preparação | O ato de criar ou editar um scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor |
+| Scorecar | Uma exibição de aplicativo móvel contendo um ou mais blocos |
+| Lado a lado | Uma renderização para uma métrica em uma Exibição de Scorecard |
+| Detalhamento | Uma exibição secundária acessível tocando em um bloco no Scorecard. Essa exibição é expandida na métrica exibida no bloco e, opcionalmente, informa sobre dimensões de detalhamento adicionais. |
+| Intervalo de datas | O intervalo de datas principal para relatórios do aplicativo móvel |
+| Intervalo de datas de comparação | O intervalo de datas que é comparado ao intervalo de datas principal |
 
 ## Configurar o aplicativo em seu dispositivo
 
@@ -32,41 +41,40 @@ Para acessar os Scorecards no aplicativo, verifique se:
 * Você tem um logon válido no Adobe Analytics
 * Seu curador criou corretamente os Scorecards móveis e os compartilhou com você
 
-
 ### Baixe e instale o aplicativo
 
 Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema operacional do dispositivo.
 
-    **Para dispositivos iOS:**
-    
-    1. Clique no seguinte link público (Ele também está disponível no Analytics em **Ferramentas** &gt; **Aplicativo móvel**):
-    
-    [link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-    
-    Depois de clicar no link, a seguinte tela de Testflight é exibida:
-    
-    ![Testflight screen](assets/testflight1.png)
-    
-    2. Toque no link **View in App Store** na tela para baixar o aplicativo Testflight.
-    
-    3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
-    
-    ![Testflight screen](assets/testflight2.png)
-    
-    **Para dispositivos Android:**
-    
-    1. Toque no seguinte link da Play Store no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; **Aplicativo móvel**):
-    
-    
-    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-    
-    Depois de tocar no link, toque no link Testar na seguinte tela:
-    
-    ![Tela Play Store](assets/play.png)
-    
-    2. Toque no **download no link Google Play** na seguinte tela:
-    
-    ![Link de download](assets/playnext.png)
+**Para dispositivos iOS:**
+
+1. Clique no seguinte link público (Ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
+
+   [Link](https://testflight.apple.com/join/WtXMQxlI)do iOS: `https://testflight.apple.com/join/WtXMQxlI`
+
+   Depois de clicar no link, a seguinte tela de Testflight é exibida:
+
+   ![Testflight screen](assets/testflight1.png)
+
+2. Toque no link **Exibir na App Store** na tela para baixar o aplicativo Testflight.
+
+3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
+
+   ![Testflight screen](assets/testflight2.png)
+
+**Para dispositivos Android:**
+
+1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
+
+
+   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+
+   Depois de tocar no link, toque no link Testar na seguinte tela:
+
+   ![Tela Reproduzir na loja](assets/play.png)
+
+2. Toque no **download do link no Google Play** na seguinte tela:
+
+   ![Link de download](assets/playnext.png)
 
 ## Usar o aplicativo
 
@@ -86,7 +94,8 @@ Para usar o aplicativo:
 
    * *Você pode fazer logon na instância correta do Analytics*
    * *O Scorecard foi compartilhado com você*
-   ![Nada compartilhado](assets/nothing.png)
+
+      ![Nada compartilhado](assets/nothing.png)
 
 4. Examine como os blocos aparecem no Scorecard.
 
