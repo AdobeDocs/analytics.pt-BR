@@ -1,12 +1,11 @@
 ---
 description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recargas, tempo médio gasto, unidades, ordens e receita.
 keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
-solution: Analytics
 title: Métricas
 topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
