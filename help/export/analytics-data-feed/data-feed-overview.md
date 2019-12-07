@@ -1,11 +1,10 @@
 ---
 description: Os dados coletados em sites, aplicativos móveis ou carregados por meio de APIs de serviço da Web ou fontes de dados são processados e armazenados no Data Warehouse da Adobe. Esses dados de sequência de cliques brutos formam o conjunto de dados usado pelo Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Visão geral do feed de dados do Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ Certifique-se de atender a todos os requisitos a seguir antes de usar os feeds d
 
 Depois de entender o fluxo de trabalho básico de obtenção de feeds de dados, você pode trabalhar com equipes em sua organização para armazenar ou assimilar dados brutos em um banco de dados.
 
-[Criar um feed](create-feed.md)de dados: Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes[Gerenciar feeds](df-manage-feeds.md)de dados: Saiba mais sobre como navegar no conteúdo[do feed de dados da interface](c-df-contents/datafeeds-contents.md)de feed de dados: Entenda o que está nas definições[da coluna Dados do arquivo](c-df-contents/datafeeds-reference.md)compactado: Uma lista abrangente de todas as colunas disponíveis
+* [Criar um feed](create-feed.md)de dados: Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
+* [Gerenciar feeds](df-manage-feeds.md)de dados: Saiba mais sobre como navegar na interface do feed de dados
+* [Conteúdo](c-df-contents/datafeeds-contents.md)do feed de dados: Entenda o que está dentro do arquivo compactado
+* [Definições](c-df-contents/datafeeds-reference.md)da coluna de dados: Uma lista abrangente de todas as colunas disponíveis
 
 ## Recursos adicionais
 
