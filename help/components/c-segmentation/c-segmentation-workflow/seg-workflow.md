@@ -1,11 +1,10 @@
 ---
 description: Descreve um fluxo de trabalho sugerido para segmentos criados com o Construtor de segmentos e gerenciado pelo Gerenciador de segmentos.
-solution: Analytics
 title: Visão geral do fluxo de trabalho de segmentação
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,9 +36,9 @@ Consulte a  Lista de verificação de segmento para obter ajudar no planejamento
 
 Construa e edite segmentos para uso em todos os recursos do Analytics.
 
-Consulte [Build Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) for how to build segments with the THEN operator.
+Consulte [Criar os segmentos sequenciais](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para saber como construir segmentos com o operador THEN.
 
-![](assets/step3_icon.png) Segmentos de [ tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
+![](assets/step3_icon.png) [ Marcar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
 Marque segmentos para facilitar a organização e o compartilhamento. A marcação substitui as hierarquias da pasta na análise ad hoc. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada.
 
