@@ -1,12 +1,11 @@
 ---
 description: Informações sobre agendamento, download e distribuição de relatórios.
-solution: Analytics
 subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -101,7 +100,7 @@ Informações sobre como gerenciar relatórios agendados.
 
 No [!UICONTROL Gerenciador de agendamento de relatório], é possível editar e excluir entregas de relatório recorrentes. Você pode criar prazos de entrega, que enviam seus relatórios via email ou FTP para um endereço especificado. Você pode configurar esses horários para enviar automaticamente relatórios em intervalos especificados por um período de tempo ou indefinidamente, ou interromper a entrega de um relatório periódico.
 
-O [!UICONTROL Gerenciador de agendamento de relatório] mostra os itens criados por um usuários específico. Se a conta de usuário estiver desabilitada na aplicação, todas as entregas programadas são interrompidas.
+O [!UICONTROL Gerenciador de agendamento de relatório] mostra os itens criados por um usuários específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas.
 
 1. To access the manager, click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Reports]**.
 
