@@ -1,12 +1,11 @@
 ---
 description: Apaga os valores a seguir do objeto da instância. Essa função remove os elementos (define-os como "indefinidos").
 keywords: Analytics Implementation
-solution: Analytics
 title: A função s.clearVars()
 topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
