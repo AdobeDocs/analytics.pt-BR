@@ -1,13 +1,12 @@
 ---
 description: Os analisadores de pacote permitem exibir os dados enviados pela sua implementação para os servidores de coleta de dados da Adobe.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Debugger
 title: Analisadores de pacote
 topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande varie
 
 > [!NOTE] Estas listas não estão completas, mas são informações sobre os monitores usados frequentemente. Se você tiver um monitor de pacote que use e ache útil, sinta-se à vontade para oferecer feedback usando o botão [!UICONTROL Feedback] no lado direito desta janela.
 
-| Firefox | Internet Explorer | Google Chrome | Programas autônomos |
+| Firefox | Internet Explorer | Chrome | Programas autônomos |
 |---|---|---|---|
 | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [HttpWatch](https://www.httpwatch.com/) | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
