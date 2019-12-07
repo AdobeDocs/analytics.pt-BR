@@ -1,12 +1,11 @@
 ---
 description: Etapas que descrevem como excluir ou remover dados da classificação.
-solution: Analytics
 subtopic: Classifications
 title: Excluir dados de classificação
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 A remoção de dados de classificação envolve o upload de um arquivo de classificação que contém `~empty~` ou está `~deletekey~` nas células apropriadas.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. Clique em **[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**.
+1. Clique em **[!UICONTROL Exportação de navegador]**.
 1. Selecione o conjunto de relatórios e o conjunto de dados dos quais deseja remover os dados de classificação.
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. Ajuste todas as configurações opcionais para filtrar dados específicos que esteja procurando e clique em **[!UICONTROL Exportar arquivo]**.
 1. Após o download do arquivo, abra-o e substitua quaisquer valores de classificação por `~empty~` ou `~deletekey~`.
 1. Salve o arquivo como um arquivo de texto delimitado por tabulação.
 1. Clique em **[!UICONTROL Importar arquivo]** e carregue o arquivo de classificação salvo novamente no Adobe Analytics.
