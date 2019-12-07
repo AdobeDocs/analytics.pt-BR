@@ -1,26 +1,25 @@
 ---
 description: Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizar permissões de dimensões
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Personalizar permissões de dimensões
 
-> [!IMPORTANT] O gerenciamento de usuários e produtos está migrando para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 
-**[!UICONTROL Gerenciamento]** de usuários &gt; **[!UICONTROL Grupos]** &gt; Acesso **[!UICONTROL a]** relatórios &gt; **[!UICONTROL Dimensões]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acesso ao relatório]** &gt; **[!UICONTROL Dimensões]** &gt; **[!UICONTROL Personalizar]**
 
-> [!IMPORTANT] Algumas dimensões não são permitidas no momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
+> [!IMPORTANT] Não é possível atribuir permissões a algumas dimensões neste momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
 >
 >Essas dimensões estão disponíveis para todos os usuários, independentemente de outras permissões.
 
@@ -32,7 +31,7 @@ Entenda as informações a seguir sobre a categoria Dimensão para permissões.
 
 * eVars 1-250 autorizados individualmente.
 * Todos os relatórios de tráfego são dimensões.
-* Os relatórios de Vídeo e Mobile são dimensões, bem como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e assim por diante).
+* Os relatórios de Vídeo e Mobile são dimensões, como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e outros.)
 * Há relatórios de definição de caminho disponíveis, se o usuário tiver acesso à dimensão principal.
 * Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis.
 * Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) em que se baseia a classificação.
@@ -69,7 +68,7 @@ Os itens a seguir são dimensões que você pode permitir.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Padrão </p> </td> 
-   <td colname="col2"> <p>Faz referência a dimensões (pronto para uso) dimensões no Analytics. </p> </td> 
+   <td colname="col2"> <p>Faz referência a dimensões padrão  (pronto para uso) no Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
