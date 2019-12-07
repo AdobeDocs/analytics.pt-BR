@@ -1,12 +1,11 @@
 ---
 description: Essa tabela de referência define os campos, opções e atributos de acesso que você pode selecionar na página de Regras de processamento de canal de marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Regras de processamento de canal de marketing - Definições
 topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr>
   <tr> 
    <td colname="col1"> <p>ID do AMO </p> </td> 
-   <td colname="col2"> <p>O código de rastreamento principal usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar "ID AMO" começa com "AL" para Pesquisa, "AC" para Exibição ou "AO" para Social. Quando a ID da AMO é usada em canais de marketing, as métricas de clique/custo/impressão podem ser atribuídas ao canal correto (quando não estiver configurado, essas métricas irão para Direto ou Nenhum). </p> </td> 
+   <td colname="col2"> <p>O código de rastreamento primário usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar "ID do AMO" começa com "AL" para Pesquisa, "AC" para Exibição ou "AO" para Social. Quando a ID do AMO é usada em canais de marketing, as métricas de clique/custo/impressão podem ser atribuídas ao canal correto (quando não estiver configurado, essas métricas irão para Direto ou Nenhum). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID DA AMO </p> </td> 
-   <td colname="col2"> <p>O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é servir como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar clickthroughs de exibição vs. viewThroughs de exibição se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing para "AMO EF ID" termina com ":d" para ClickThroughs de exibição ou "AMO EF ID" termina com ":i" para DisplayThroughs. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID da AMO. </p> </td> 
+   <td colname="col1"> <p>ID do AMO ED </p> </td> 
+   <td colname="col2"> <p>O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é atuar como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar ClickThroughs de exibição vs. ViewThroughs de exibição, se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing para "AMO EF ID" termina com ":d" para ClickThroughs de exibição ou "AMO EF ID" termina com ":i" para ViewThroughs de exibição. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID do AMO. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de conversão </p> </td> 
@@ -49,12 +48,12 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">Não existe</span>: especifica que o atributo da ocorrência não existe no pedido. Por exemplo, em um domínio de referência, se o usuário digitar um URL ou clicar em um marcador, o atributo de domínio de referência não existe. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Está vazio</span>: especifica que existe um atributo de ocorrência, geralmente um eVar ou parâmetro de sequência de consulta, mas não há valor associado ao atributo de ocorrência. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Não contém </span>: Permite especificar, por exemplo, que um domínio de referência não contém um valor específico (em vez de usar a seleção <span class="term"> Contém </span>). </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Não Contém:</span> permite especificar, por exemplo, que um domínio de referência não contém um valor específico (em vez de usar a seleção <span class="term">Contém</span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identificar o canal como </p> </td> 
-   <td colname="col2"> <p>Associa a regra a um canal de marketing adicionado à página <span class="wintitle">Gerenciador de canal de marketing</span>. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Associa a regra a um canal de marketing adicionado à página <span class="wintitle">Gerenciador de canal de marketing</span>. </p> <p>Consulte <a href="/help/components/c-marketing-channels/c-channels.md"   >Adicionar canais de marketing </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Corresponde a Regras de Detecção de Pesquisa Paga </p> </td> 
@@ -70,7 +69,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referenciador não corresponde a filtros internos de URL </p> </td> 
-   <td colname="col2"> <p>O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode utilizar essas configurações com <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode utilizar essas configurações com A <span class="term"> URL da página </span> e <span class="term"> existe </span> para configurar uma regra "pega tudo", de forma que nenhuma visita chegue até a seção <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" >Nenhum canal identificado</a> do relatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignorar ocorrências correspondentes a filtros de URL internos </p> </td> 
@@ -82,7 +81,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Página </p> </td> 
-   <td colname="col2"> <p>O nome da página de uma página da Web do site que está marcada usando o Web beacon da Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Os exemplos incluem <span class="varname"> Página inicial </span> e <span class="varname"> Sobre nós </span>. </p> </td> 
+   <td colname="col2"> <p>O nome de uma página da Web no seu site que foi marcada usando o Web beacon. Este valor é equivalente a <span class="varname"> s.pageName </span>. Os exemplos incluem <span class="varname"> Página inicial </span> e <span class="varname"> Quem somos </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio de página </p> </td> 
@@ -106,7 +105,7 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
-   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use <span class="uicontrol">ANY</span> como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. </p> </td> 
+   <td colname="col2"> <p>Se uma URL de página no seu site se parece com <span class="filepath">https://example.com/?page=12345&amp;cat=1</span>, page e cat serão os parâmetros da sequência de consulta. (Consulte <span class="filepath">https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use <span class="uicontrol">ANY</span> como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referenciador </p> </td> 
@@ -137,11 +136,11 @@ Essa tabela de referência define os campos, opções e atributos de acesso que 
    <td colname="col2"> <p>Uma concatenação de palavra-chave de pesquisa e mecanismo de pesquisa para identificar de forma exclusiva o mecanismo de pesquisa. Por exemplo, se você pesquisar a palavra computador, o mecanismo de pesquisa e a palavra-chave serão identificados assim: </p> 
     <code>
       Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
-    </code> <p><b></b> Observação: n = natural; p = pago </p> </td> 
+    </code> <p><b>Nota:</b> n = natural; p = paga </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Defina o valor do canal como </p> </td> 
-   <td colname="col2"> <p>Além de saber qual canal de marketing traz um visitante ao seu site, você pode saber qual anúncio de banner, palavra-chave de pesquisa ou campanha por email dentro do canal está obtendo crédito pela atividade do site de um visitante. Esse ID é um valor de canal armazenado juntamente com o canal. Muitas vezes esse valor é um ID de campanha integrado à página inicial ou ao URL referenciador, em outros casos, é a combinação do mecanismo de pesquisa com a palavra-chave de pesquisa ou o URL referenciador que identifica melhor o visitante de determinado canal. </p> </td> 
+   <td colname="col2"> <p>Além de saber qual canal de marketing traz um visitante ao seu site, talvez você também queira saber que anúncio de banner, palavra-chave de pesquisa ou campanha por email dentro do canal está obtendo crédito pela atividade de um visitante do site. Esse ID é um valor de canal armazenado juntamente com o canal. Muitas vezes esse valor é um ID de campanha integrado à página inicial ou ao URL referenciador, em outros casos, é a combinação do mecanismo de pesquisa com a palavra-chave de pesquisa ou o URL referenciador que identifica melhor o visitante de determinado canal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
