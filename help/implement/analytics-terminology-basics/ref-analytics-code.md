@@ -1,14 +1,11 @@
 ---
 description: Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
-keywords: Implementação do Analytics, código de análise, código de cabeçalho, código de rodapé, cabeçalho, rodapé, Dynamic Tag Management, dtm, javascript
-seo-description: Os dados são enviados a um conjunto de relatórios para serem exibidos no relatório. A maneira mais fácil e comum de enviar dados para o Analytics é usando a implementação DTM. Você também pode inserir o código com a implementação JavaScript.
-seo-title: Código do Analytics
-solution: Analytics
+keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
 title: Código do Analytics
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
