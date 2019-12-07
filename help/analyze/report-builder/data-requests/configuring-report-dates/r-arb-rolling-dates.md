@@ -1,11 +1,10 @@
 ---
 description: Definições de campo para datas do acumulado no Construtor de relatórios.
-solution: Analytics
 title: Definições do Assistente de solicitações - Datas do acumulado
 topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
