@@ -1,11 +1,10 @@
 ---
 description: Essa capacidade integra ainda mais o uso do Construtor de relatórios no fluxo de trabalho natural do Excel, sem exigir acesso à interface do usuário do Construtor de relatórios.
-solution: Analytics
 title: Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
