@@ -1,11 +1,10 @@
 ---
 description: Descrições dos tipos de relatórios usados na Experience Cloud.
-solution: Analytics
 title: Tipos de relatórios
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `https://www.mysite.com` para `https://info.mysite.com`ou `https://sales.mysite.com`.
 
 ## Fluxo de próxima seção {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `www.mysite.com` para `info.mysite.com`ou `sales.mysite.com`.
 
 ## Relatórios de funil de conversão {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
