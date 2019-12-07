@@ -1,13 +1,12 @@
 ---
 description: O tamanho das variáveis do Analytics pode afetar o tamanho do snippet do código HTML, arquivo da biblioteca de dados e solicitação de imagem.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Tamanho da variável
 topic: Developer and implementation
 uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
