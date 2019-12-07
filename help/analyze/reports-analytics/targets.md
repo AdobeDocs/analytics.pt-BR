@@ -1,11 +1,10 @@
 ---
 description: Metas permitem medir o desempenho do site e acompanhar o progresso em relação às metas-alvo. Por exemplo, você pode querer aumentar o número de visitantes que vêm de uma região geográfica, a receita por pedido, ou o número de visitas que vêm de uma referência específica.
-solution: Analytics
 title: Metas
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
