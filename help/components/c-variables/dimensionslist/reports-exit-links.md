@@ -1,11 +1,10 @@
 ---
 description: Mostra os links mais comuns que são clicados pelas pessoas e levam a lugares fora de seu site. Normalmente, esses links indicam sites de parceiros ou afiliados. Contudo, podem ser qualquer local em que você tenha implementado um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
-solution: Analytics
 title: 'Links de saída '
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Há vários requisitos que devem ser cumpridos para que a página seja preenchid
 * Como em todas as ocorrências de rastreamento de link personalizado, a variável [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) é removida da solicitação de imagem para impedir a inflação da exibição de página.
 * É possível visualizar esse relatório nos formatos de tendência e de classificação.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
-* É possível criar [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
+* É possível criar [interrupções](/help/analyze/reports-analytics/reports-customize/breakdowns.md) com qualquer outra variável através das Ferramentas administrativas.
 * [As Instâncias](/help/components/c-variables/c-metrics/metrics-instance.md) são as únicas métricas disponíveis por padrão neste relatório, contando o número de vezes em que o link de saída foi acionado.
 * Os visitantes diários, semanais, mensais e trimestrais podem ser ativados para esse relatório. Contudo, somente um representante da Adobe pode habilitá-los, mediante um custo adicional. Ativar visitantes exclusivos para quaisquer variáveis de rastreamento de link personalizado aumenta em muito a latência do conjunto de relatórios.
 
