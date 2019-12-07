@@ -1,11 +1,10 @@
 ---
 description: Agrupa acessos de dispositivos móveis ao site de acordo com o tamanho da tela do dispositivo. Mostra cada tamanho de tela, o número de visitantes do site que utilizaram cada tamanho de tela e cada tamanho de tela como porcentagem do total de visualizações. O Tamanho de tela mostra a altura e a largura do tamanho da tela, comparado aos relatórios Altura de tela e Largura de tela.
-solution: Analytics
 title: Tamanho de tela
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
