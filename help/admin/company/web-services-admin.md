@@ -1,11 +1,10 @@
 ---
 description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
-solution: Analytics
 title: Serviços Web
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Configurações **** da empresa &gt; Serviços **[!UICONTROL da Web]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Serviços da Web]**
 
 ## Gerenciar serviços da Web
 
@@ -22,7 +21,7 @@ Em Gerenciamento de usuários &gt; [Grupos](/help/admin/user-management2/c-user-
 
 ## WSDL: Fazer o download do WSDL da API de serviços da Web para desenvolvedores de serviços da Web.
 
-Visite o I/O [da](https://www.adobe.io/apis/experiencecloud/analytics.html)Adobe, que fornece documentação, exemplos de código e fóruns relacionados às APIs de serviços da Web. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
+Visite o [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), que fornece documentação, exemplos de código e fóruns relacionados às APIs de serviços da Web. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
 
 ## Opções de filtragem
 
