@@ -1,11 +1,10 @@
 ---
 description: Exibe os fusos horários de onde vêm seus visitantes. O gráfico mostra um mapa-múndi. Se tiver recebido visitantes de um determinado fuso horário, uma coluna em cores é exibida nesse fuso, refletindo o número de visitantes recebidos em determinado período. Todos os fusos horários estão presentes no GMT (Greenwich Mean Time - Horário de Greenwich), que é o padrão de horário internacional.
-solution: Analytics
 title: Fusos horários
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
