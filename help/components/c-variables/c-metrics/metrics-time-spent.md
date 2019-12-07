@@ -1,10 +1,9 @@
 ---
 description: O Adobe Analytics oferece várias métricas e dimensões de Tempo gasto. Descubra o que são e como são calculadas.
-solution: Analytics
 title: Tempo gasto
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -98,7 +97,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
 | **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
-| **prop1** | Um (definido) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | Um(definido) | C (definido) |
+| **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Vermelho (definido) | Vermelho (persistente) | (expirado) | Azul (definido) | Azul (definido) | Azul (persistente) | Vermelho (definido) |
@@ -108,7 +107,7 @@ Com base na tabela acima, as métricas de tempo gasto são calculadas da seguint
 
 | prop1 | Total de segundos gastos | Tempo gasto por visita | Tempo gasto por visitante | Contagem de sequências | Tempo médio gasto no site |
 |---|---|---|---|---|---|
-| Um | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
+| A | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |
 | C | 0 | 0 | 0 | 0 | 0 |
 | Tempo não atribuído | 100 | - | - | - | - |
