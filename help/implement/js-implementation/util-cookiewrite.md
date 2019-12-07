@@ -1,13 +1,12 @@
 ---
 description: Grava um valor em um cookie.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
 topic: Developer and implementation
 uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ s.Util.cookieWrite(key, value [,expire])
 | Parâmetro | Descrição |
 |---|---|
 | key | (obrigatório) chave para gravar valor em cookies. |
-| value | (opcional) valor para gravar os cookies. |
+| valor | (opcional) valor para gravar os cookies. |
 | expire | (opcional) Objeto Data contendo a data de expiração do cookie. O padrão é usar um cookie de sessão. |
 
 **Devoluções:**
