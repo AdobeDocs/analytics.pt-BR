@@ -1,11 +1,10 @@
 ---
 description: Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
-solution: Analytics
 title: Formatar cabeçalhos de exibição
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
 
    | Elemento | Descrição |
    |--- |--- |
-   | Nome do Relatório | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
+   | Nome do relatório | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parâmetros de filtros | Exibe os filtros de dimensão, como um filtro de pesquisa. |
    | Segmento | Exibe o parâmetro do segmento. |
    | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Idade dos dados: Exibições de página (há 1,5 h), Saídas (há 30 minutos) Consulte [Opções](/help/analyze/report-builder/options.md) para obter informações sobre o processamento de dados atual. |
