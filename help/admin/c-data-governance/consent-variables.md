@@ -3,7 +3,7 @@ description: Variáveis dos relatórios de privacidade na Privacidade de dados.
 title: Variáveis dos relatórios de privacidade
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -65,7 +65,7 @@ Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/help/en/analy
 * Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
    * 1 - Ao enviar o valor "1", isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor "1" emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
-   * Nenhum outro valor é aceito para este parâmetro.
+   * 0 - Opcional. Use o valor "0" para clientes que consentiram no marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
 
 ### DMP
 
