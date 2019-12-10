@@ -2,14 +2,14 @@
 title: Guias de documentação técnica do Adobe Analytics
 description: Guias e recursos do usuário do Analytics
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Documentação do Adobe Analytics
 
-Bem-vindo à página inicial da documentação técnica e do produto Adobe Analytics. Aqui você pode encontrar informações de autoajuda e suporte para ferramentas de relatório como [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], API de relatórios, Análise de big data [!UICONTROL e Mapa]de atividade. Você também pode acessar a documentação para administração, implementação e todos os recursos compatíveis com o Adobe Analytics.
+Bem-vindo à página inicial da documentação técnica e do produto Adobe Analytics. Aqui você pode encontrar informações de autoajuda e suporte para ferramentas de relatório como [!UICONTROL Analysis Workspace], Construtor [!UICONTROL de]relatórios, API de relatórios, Análise de big data [!UICONTROL e Mapa]de atividade. Você também pode acessar a documentação para administração, implementação e todos os recursos compatíveis com o Adobe Analytics.
 
 [![Ferramentas](assets/analyze_50px.png)](/help/analyze/home.md)Guia[de ferramentas do](/help/analyze/home.md) Analytics - fornece acesso à [Analysis Workspace](/help/analyze/analysis-workspace/home.md), a principal ferramenta de análise e visualização do Analytics. Também apresenta todas as ferramentas de análise (Construtor de[!UICONTROL relatórios], API de relatórios, Análise de big data [!UICONTROL e Mapa]de atividade) que você pode usar no Adobe Analytics.
 
