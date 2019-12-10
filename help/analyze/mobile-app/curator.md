@@ -175,34 +175,32 @@ Durante a fase beta e antes do aplicativo ser exibido ao público, você pode co
 
    **Para usuários executivos no iOS:**
 
-      1. Clique no seguinte link público (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
+    1. Clique no seguinte link público (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
 
-         [Link](https://testflight.apple.com/join/WtXMQxlI)do iOS: `https://testflight.apple.com/join/WtXMQxlI`
+        [Link](https://testflight.apple.com/join/WtXMQxlI)do iOS: `https://testflight.apple.com/join/WtXMQxlI`
 
-         Depois de clicar no link, a seguinte tela de Testflight é exibida:
+        Depois de clicar no link, a seguinte tela de Testflight é exibida:
+        ![Testflight screen](assets/testflight1.png)
 
-         ![Testflight screen](assets/testflight1.png)
+    2. Toque no link **Exibir na App Store** na tela para baixar o aplicativo Testflight.
 
-      2. Toque no link **Exibir na App Store** na tela para baixar o aplicativo Testflight.
+    3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
 
-      3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
-
-         ![Testflight screen](assets/testflight2.png)
+    ![Testflight screen](assets/testflight2.png)
    **Para usuários executivos no Android:**
 
-      1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo ****móvel):
-         [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+    1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo ****móvel):    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-         Depois de tocar no link, toque no link Testar na seguinte tela:
+        Depois de tocar no link, toque no link Testar na seguinte tela:
 
-         ![Tela Reproduzir na loja](assets/play.png)
+        ![Tela Reproduzir na loja](assets/play.png)
 
-      2. Toque no **download do link no Google Play** na seguinte tela:
-         ![Link de download](assets/playnext.png)
+    2. Toque no **download do link no Google Play** na seguinte tela:
+    ![Link de download](assets/playnext.png)
 
-      3. Baixe e instale o aplicativo.
-   Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
-      ![Tela de boas-vindas do aplicativo](assets/welcome.png)
+    3. Baixe e instale o aplicativo.
+    Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
+    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
 2. Ajude-os a acessar seu Scorecard. Depois que os usuários executivos fazem logon no aplicativo, a tela **Escolher uma empresa** é exibida. Esta tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
 
