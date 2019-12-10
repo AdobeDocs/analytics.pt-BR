@@ -26,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador.]**.
 
-       |Nome|Um nome amigável para este marcador.
-    |
- |—|—|     |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.
-|     |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.
-|     |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
+   |Nome|Um nome amigável para este marcador.    |
+   |---|---|      
+   |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.|     
+   |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.|     
+   |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
