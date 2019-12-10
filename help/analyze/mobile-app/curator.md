@@ -2,7 +2,7 @@
 description: Instruções para configurar os scorecards do aplicativo móvel.
 title: Guia do curador do aplicativo móvel do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -190,9 +190,7 @@ Durante a fase beta e antes do aplicativo ser exibido ao público, você pode co
       ![Testflight screen](assets/testflight2.png)
    **Para usuários executivos no Android:**
 
-   1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo **** móvel):
-
-
+   1. Toque no link Reproduzir na loja a seguir no dispositivo do usuário (ele também está disponível no Analytics em **Ferramentas** &gt; Aplicativo ****móvel):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Depois de tocar no link, toque no link Testar na seguinte tela:
@@ -200,12 +198,10 @@ Durante a fase beta e antes do aplicativo ser exibido ao público, você pode co
       ![Tela Reproduzir na loja](assets/play.png)
 
    2. Toque no **download do link no Google Play** na seguinte tela:
-
       ![Link de download](assets/playnext.png)
 
    3. Baixe e instale o aplicativo.
-   Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
-
+Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics; oferecemos suporte para Adobe e Enterprise/Federated IDs.
    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
 2. Ajude-os a acessar seu Scorecard. Depois que os usuários executivos fazem logon no aplicativo, a tela **Escolher uma empresa** é exibida. Esta tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
