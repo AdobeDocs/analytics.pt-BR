@@ -1,22 +1,16 @@
 ---
 description: Para acessar essas funções, selecione Mostrar avançadas na lista suspensa Funções.
-title: Funções avançadas de referência
+title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referência: funções avançadas
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na lista suspensa **[!UICONTROL Funções]**.
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ Por outro lado, se você possuir duas métricas de interesse, pode não ser corr
 
 Retorna o valor do seu argumento. Use NÃO para garantir que um valor não seja igual a um determinado valor.
 
-> [!NOTE] 0 (zero) significa Falso e qualquer outro valor é Verdadeiro.
+> [!NOTE] 0 (zero) significa Falso, e qualquer outro valor é True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
-Definição de uma nova métrica calculada "Clientes aproximados":
+Definição de uma nova métrica calculada "Número aproximado de clientes":
 
 ![](assets/approx-count-distinct.png)
 
@@ -155,7 +149,7 @@ cdf_z( -3 ) ? 0.0013499
 
 ## Limite máximo (Linha) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
-Retorna o menor número inteiro não inferior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÁXIMO(*Receita*) para arredondar a receita para cima; neste caso, US$570.
+Retorna o menor número inteiro não inferior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÁXIMO( *Receita*) para arredondar a receita para cima; neste caso, US$570.
 
 ```
 CEILING(metric)
@@ -210,7 +204,7 @@ Retorna a média das últimas N linhas.
 
 Se N &lt;= 0, usa todas as linhas anteriores. Já que é ordenado pela dimensão, é útil somente em dimensões com ordem natural como datas ou comprimento do caminho.
 
-> [!NOTE] Isso não funciona como você esperava com métricas de taxa como receita/visitante: calcula a média das taxas em vez de somar a receita ao longo dos últimos N e resumir os visitantes ao longo dos últimos N e dividi-los. Em vez disso, use
+> [!NOTE] Isso não funciona conforme o esperado com métricas de taxa como receita/visitante: calcula a média das taxas em vez de dividir a soma da receita dos últimos N e a soma dos visitantes dos últimos N. Em vez disso, use
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ Retorna itens que possuem o mesmo valor numérico ou de sequência.
 
 ## Regressão exponencial_ Coeficiente de correlação (Tabela) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_A* e *metric_B*) para a equação de regressão .
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Regressão exponencial: intercepto (Tabela) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*) para
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Regressão exponencial: inclinação (Tabela) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para .
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -261,7 +255,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## Limite mínimo (Linha) {#concept_D368150EC3684077B284EE471463FC31}
 
-Retorna o maior número inteiro não superior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÍNIMO(*Receita*) para arredondar a receita para baixo; neste caso, US$569.
+Retorna o maior número inteiro não superior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÍNIMO( *Receita*) para arredondar a receita para baixo; neste caso, US$569.
 
 ```
 FLOOR(metric)
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## Regressão logarítmica: coeficiente de correlação (Tabela) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. É calculada usando a equação de CORREL.
+Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de CORREL.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Regressão logarítmica: valor previsto de Y (Linha) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. É calculada usando a equação de ESTIMATIVA.
+Calcula os valores previstos de [!DNL y] (metric_Y), tendo em conta os valores de [!DNL x] conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste, com base em [!DNL Y = a ln(X) + b]. É calculada usando a equação de ESTIMATIVA.
 
 Em análises de regressão, esta função calcula os valores previstos de [!DNL y] (*metric_Y*), conhecidos os valores de [!DNL x] (*metric_X*) e usando o logaritmo para calcular a linha de melhor ajuste para a equação de regressão [!DNL Y = a ln(X) + b]. O valor de [!DNL a] corresponde a cada valor de x, e [!DNL b] refere-se a um valor constante.
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Regressão logarítmica: inclinação (Tabela) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. É calculada usando a equação de INCLINAÇÃO.
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de INCLINAÇÃO.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -453,7 +447,7 @@ Retorna todos os itens que não contêm a correspondência exata do valor inseri
 
 Retorna TRUE se qualquer argumento for VERDADEIRO, ou FALSE se todos os argumentos forem FALSOS.
 
-> [!NOTE] 0 (zero) significa Falso e qualquer outro valor é Verdadeiro.
+> [!NOTE] 0 (zero) significa Falso, e qualquer outro valor é True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -476,7 +470,7 @@ A função [!DNL PI] não tem argumentos.
 
 ## Regressão de potência: coeficiente de correlação (Tabela) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## Regressão de potência: intercepto (Tabela) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## Regressão de potência: valor previsto de Y (Linha) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os valores de [!DNL x] conhecidos ([!DNL metric_X]) e usando o método dos "quadrados mínimos" para calcular linha de melhor ajuste para [!DNL Y = b*X]a.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## Regressão de potência: inclinação (Tabela) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y = b*X].
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## Regressão quadrática: coeficiente de correlação (Tabela) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y=(a*X+b)]****.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## Regressão quadrática: intercepto (Tabela) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Regressão quadrática: valor previsto de Y (Linha) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+Calcula os valores previstos de [!DNL y] (metric_Y), tendo em conta os valores de [!DNL x] conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste com [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## Regressão quadrática: inclinação (Tabela) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e metric_Y) para [!DNL Y=(a*X+b)]****.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## Regressão recíproca: intercepto (Tabela) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## Regressão recíproca: valor previsto de Y (Linha) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+Calcula os valores previstos de [!DNL y] (metric_Y), tendo em conta os valores de [!DNL x] conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste usando [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Regressão recíproca: inclinação (Tabela) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para [!DNL Y = a/X+b].
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ Alias da pontuação Z; mais especificamente, é o desvio da média dividido pel
 
 Realiza um teste t m-caudal com pontuação T de col e n graus de liberdade.
 
-A assinatura é `t_test( x, n, m )`. Por baixo, simplesmente chama `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+A assinatura é `t_test( x, n, m )`. Por baixo, simplesmente chama `m*cdf_t(-abs(x),n)`. (É semelhante à função z-test que executa `m*cdf_z(-abs(x))`.
 
 Aqui, `m` é o número de caudas, e `n` corresponde aos graus de liberdade. Estes devem ser os números (constantes para todo o relatório, isto é, sem alteração em uma base de linha por linha).
 
@@ -660,7 +654,7 @@ O valor de retorno é a probabilidade de exibição da estatística de teste x, 
 
 **Exemplos:**
 
-1. Use-o para localizar exceções:
+1. Use-o para encontrar valores atípicos:
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
@@ -694,7 +688,7 @@ A equação da pontuação Z é:
 
 onde [!DNL x] é a pontuação bruta, [!DNL μ] é a média da população e [!DNL σ] é o desvio padrão da população.
 
-> [!NOTE] [!DNL μ] (mu) e (sigma[!DNL σ] ) são automaticamente calculados a partir da métrica.
+> [!NOTE] [!DNL μ] (mu) e [!DNL σ] (sigma) são automaticamente calculados a partir da métrica.
 
 Pontuação Z (métrica)
 
@@ -719,5 +713,5 @@ Realiza teste z n-caudal com pontuação Z de A.
 
 Retorna a probabilidade de a linha atual ser vista por acaso na coluna.
 
-> [!NOTE] Pressupõe que os valores sejam distribuídos normalmente.
+> [!NOTE] O teste z assume que os valores são distribuídos normalmente.
 
