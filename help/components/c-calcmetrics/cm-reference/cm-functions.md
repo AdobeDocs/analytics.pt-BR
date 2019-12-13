@@ -1,26 +1,20 @@
 ---
 description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
-title: Funções básicas de referência
+title: 'Referência: funções básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referência: funções básicas
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 
 Veja uma lista em ordem alfabética das funções e suas definições.
 
-> [!NOTE] Quando [!DNL metric] é identificado como um argumento em uma função, outras expressões de métricas também são permitidas. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Sempre que [!DNL metric] for definida como um argumento em uma função, outras expressões de métricas também serão permitidas. Por exemplo, [!DNL MAXV(metrics)] também permite [!DNL MAXV(PageViews + Visits).]
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -103,7 +97,7 @@ EXP(metric)
 Operador de potência
 
 <pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*... (y vezes)
+pow(x,y) = x <sup>y</sup> = x*x*x*... (y vezes)
 </pre>
 
 ## Média (Tabela) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabela) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Retorna o milésimo percentil dos valores de uma métrica. É possível usar esta função para estabelecer um limite de aceitação. Por exemplo, você pode decidir examinar elementos de dimensão com pontuação acima do percentil 90.
+Retorna o milésimo percentil dos valores de uma métrica. É possível usar esta função para estabelecer um limite de aceitação. Por exemplo, é possível analisar elementos de dimensão com pontuação acima do percentil 90.
 
 ```
 PERCENTILE(metric,k)
@@ -208,11 +202,11 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Se *quart* = 0, QUARTIL retorna o valor mínimo. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). Se *quart* = 4, QUARTIL retorna o valor máximo.
+*Se *quart* = 0, QUARTIL retorna o valor mínimo. Se *quart* = 1, QUARTIL retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTIL retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTIL retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTIL retorna o valor máximo.
 
 ## Arredondar {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Arredondar(*Receita*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um produto de US$569,51 será arredondado para o valor inteiro mais próximo, ou seja, US$570.
+Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Arredondar( *Receita*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um produto de US$569,51 será arredondado para o valor inteiro mais próximo, ou seja, US$570.
 
 ```
 ROUND(metric)
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Contagem de linhas {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Retorna a contagem de linhas para uma determinada coluna (o número de elementos únicos reportados em uma dimensão). "Únicos excedidos" é contado como 1.
+Retorna a contagem de linhas de uma determinada coluna (o número de elementos únicos relatados em uma dimensão). Os valores "únicos excedidos" são contados como 1.
 
 ## Máx. da linha {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
