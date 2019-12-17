@@ -3,7 +3,7 @@ description: 'null'
 title: Roteiro de implementação
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -70,12 +70,7 @@ Se você não estiver familiarizado com o Adobe Analytics, poderá criar rapidam
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Valide a implementação. </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Teste e validação</a> fornece informações sobre como validar a implementação. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Use o Adobe Experience Cloud Debugger para verificar se os dados estão sendo enviados. </td> 
    <td colname="col2"> <p>Instale o <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger </a>. Depois de instalá-lo, carregue uma página onde você implantou o código da página e abra o depurador. O depurador exibe detalhes sobre os dados de coleta enviados. </p> </td> 
   </tr> 
