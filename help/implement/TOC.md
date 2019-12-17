@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -184,9 +184,9 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
          + [products](js-implementation/page-variables/products.md)
          + [propN](js-implementation/page-variables/propn.md)
          + [purchaseID](js-implementation/page-variables/purchaseid.md)
-         + [referrer](js-implementation/page-variables/referrer.md)
+         + [referenciador](js-implementation/page-variables/referrer.md)
          + [resolution](js-implementation/page-variables/resolution.md)
-         + [server](js-implementation/page-variables/server.md)
+         + [servidor](js-implementation/page-variables/server.md)
          + [s_objectID](js-implementation/page-variables/sobjectid.md)
          + [state](js-implementation/page-variables/state.md)
          + [timestamp](js-implementation/page-variables/timestamp.md)
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Serviços principais da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Identificação de visitantes em vários dispositivos {#cross-device-visitor-id}
       + [Usuários do Connect em vários dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [Impacto de dados da identificação de visitantes em vários dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
-      + [Exemplo de visita](js-implementation/xdevice-visid/visit-example.md)
-      + [Visitantes](js-implementation/xdevice-visid/visitors.md)
-      + [Visitas](js-implementation/xdevice-visid/visits.md)
-      + [Criar segmentos](js-implementation/xdevice-visid/segments.md)
-      + [Dados de segmentação geográfica](js-implementation/xdevice-visid/geo-data.md)
+      + [Exemplo entre dispositivos](js-implementation/xdevice-visid/visit-example.md)
       + [Atribuição e persistência](js-implementation/xdevice-visid/variable-persistence.md)
+      + [Perguntas frequentes entre dispositivos](js-implementation/xdevice-visid/xdevice-faq.md)
    + [Migração de visitante](js-implementation/visitor-migration.md)
    + [Usar Carimbos opcionais de data e hora](js-implementation/timestamps-overview.md)
    + [Redirecionamentos e aliases](js-implementation/redirects-overview.md)
 + Teste e validação {#testing-and-validation}
-   + Processo de teste e validação {#testing-and-validation-process}
-      + [Visão geral de testes e validação](impl-testing/impl-validation/impl-validation.md)
-      + [Identificação da variável s_account no depurador](impl-testing/impl-validation/impl-testing-account.md)
-      + [Arquivo JS JavaScript](impl-testing/impl-validation/impl-js-file.md)
-      + [Modificações de código](impl-testing/impl-validation/impl-code-updates.md)
-      + [Variáveis e valores](impl-testing/impl-validation/impl-var-values.md)
-      + [Variáveis personalizadas](impl-testing/impl-validation/impl-custom-vars.md)
-      + [Aceitação da implementação](impl-testing/impl-validation/impl-acceptance.md)
-      + [Validação da precisão de dados](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud Debugger](impl-testing/debugger.md)
    + [Analisadores de pacote](impl-testing/packet-monitor.md)
    + Solução de problemas de implementação {#implementation-troubleshooting}
