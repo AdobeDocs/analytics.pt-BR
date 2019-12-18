@@ -2,7 +2,7 @@
 title: Virtual Analyst
 description: Saiba quais recursos do Adobe Analytics contribuem para o Virtual Analyst.
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ O Virtual Analyst é um conjunto de recursos que faz parte do Adobe Analytics e 
 
 ## Recursos {#features}
 
-O Virtual Analyst inclui:
+O Analista virtual inclui os seguintes recursos:
 
 * [Detecção de anomalias:](virtual-analyst/c-anomaly-detection/anomaly-detection.md) oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
 * [Análise de contribuição:](virtual-analyst/contribution-analysis/run-contribution-analysis.md) ajuda a determinar os fatores que mais contribuem para anomalias em seus dados.
