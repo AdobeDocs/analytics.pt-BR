@@ -6,7 +6,7 @@ title: Variáveis de dados de contexto
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 
 ---
 
@@ -19,19 +19,14 @@ Você pode enviar dados nas variáveis de dados de contexto que estão mapeados 
 
 > [!NOTE]As variáveis de dados de contexto não fazem distinção entre maiúsculas e minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
 >
-
 ```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
-```
-
+>```
 >e
 >
-
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->
-```
+>```
 
 O uso do contexto de dados ajuda a evitar as atualizações de código para suportar configurações de conjunto de relatórios diferentes.
 
