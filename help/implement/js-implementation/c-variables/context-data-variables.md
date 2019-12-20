@@ -18,13 +18,11 @@ As variáveis de dados de contexto permitem que você defina variáveis em cada 
 Você pode enviar dados nas variáveis de dados de contexto que estão mapeados por meio de Regras de processamento, em vez de atribuir valores explícitos para os props e eVars no seu código. As Regras de processamento fornecem uma interface gráfica eficaz para fazer mudanças nos dados que são recebidos. Com base nos valores enviados nos dados de contexto, você poderá definir eventos, copiar valores para o eVars e props, bem como executar instruções condicionais.
 
 > [!NOTE]As variáveis de dados de contexto não fazem distinção entre maiúsculas e minúsculas. Por exemplo, as 2 variáveis a seguir são idênticas:
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >e
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
