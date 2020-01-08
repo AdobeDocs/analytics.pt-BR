@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: usuário final
-user-guide-title: Guia de integração do Analytics
-user-guide-url: /content/help/pt-BR/analytics/integration/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+audience: end-user
+user-guide-title: Analytics Integration Guide
+user-guide-url: /content/help/en/analytics/integration/home.html
+translation-type: tm+mt
+source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Requisitos para encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [Verificar a implementação de encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Criar destinos de análise](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+      + [Criar destino do Analytics](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Usar os dados de público-alvo no Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso do Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Perguntas frequentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Gerenciar contas publicitárias](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Solução de problemas do Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Perguntas frequentes](c-advertising-analytics/aa-faq.md)
-+ [Analytics para Target - A4T](https://marketing.adobe.com/resources/help/pt_BR/target/a4t/a4t.html)
++ [Analytics para Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
 + [Relatórios do Adobe Campaign](adobe-campaign.md)
 + [Relatórios do AEM Assets](aem-assets-reporting.md)
 + [Relatórios do Activity Map](activitmap-reporting.md)
