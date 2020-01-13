@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpubli
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Testar regras não publicadas para hospedagem do Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Teste regras não publicadas do console caso utilize a hospedagem do Akamai.
 
-O plug-in Switcher frequentemente é o meio mais fácil para fazer testes. Consulte [Plug-ins Discovery](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) da documentação do produto do Dynamic Tag Management para obter mais informações.
+O plug-in Switcher frequentemente é o meio mais fácil para fazer testes. Consulte [Plug-ins Discovery](https://marketing.adobe.com/resources/help/pt_BR/dtm/search_discovery_plugins.html) da documentação do produto do Dynamic Tag Management para obter mais informações.
 
 As etapas a seguir mostram como criar, aplicar e fazer referência a um plug-in Switcher:
 
