@@ -1,7 +1,7 @@
 ---
 title: Tráfego interno
 description: O plug-in de Tráfego interno identifica dinamicamente os visitantes provenientes de uma rede interna.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,10 +26,10 @@ O plug-in tenta carregar um arquivo que só estaria disponível na rede interna/
 ## Implementação
 
 1. Adicionar o pixel da intranet: você pode adicionar qualquer tipo de arquivo na intranet que o plug-in tentaria acessar. Recomenda-se um pixel transparente 1x1. Ele deve ser colocado em um local na intranet que seja amplamente acessível na rede interna.
-1. Configurar uma eVar: é necessário adicionar uma eVar ao conjunto de relatórios de destino. Ela deve ter uma expiração de "Visita" e alocação de "Valor original (primeiro)".
+1. Configurar uma eVar: é necessário adicionar uma eVar ao conjunto de relatórios de destino. Ela deve ter uma expiração de "Visita" e alocação do "Valor original (primeiro)".
 1. Definir o URL interno: nas variáveis de configuração do AppMeasurement e antes da instanciação de doPlugins, defina a variável de URL interna (s.intURL) para o pixel ou outro arquivo que possa ser usado para a verificação de tráfego. Por exemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to "internal" or "external".
+1. Modificar doPlugins e definir a eVar: o plug-in pode ser inicializado ao incluir essa linha de código na seção doPlugins do código da biblioteca do AppMeasurement, usando a eVar definida na etapa um: `s.eVarXX = s.intCheck();`
+o valor da variável será definido como "interno" ou "externo".
 1. Adicionar o código fonte do plug-in: inclua o código do plug-in abaixo da seção doPlugins do arquivo AppMeasurement.
 
 ## Código fonte do plug-in
