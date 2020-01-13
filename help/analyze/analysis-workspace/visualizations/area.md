@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Área e área empilhada
 title: Área e área empilhada
-uuid: 27 f 1 bfd 0-bf 64-4424-8827-f 7127 d 239762
-translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
+translation-type: ht
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,9 +16,9 @@ Esta visualização se parece com um gráfico de linha, mas apresenta uma área 
 
 ![](assets/area.png)
 
-## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## Área empilhada {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
-Esta visualização se parece com um Gráfico de área, mas cada série se inicia sobre a série anterior.
+Esta visualização se parece com um Gráfico de área, mas cada série se inicia no topo da série anterior.
 
 ![](assets/area-stacked.png)
 
