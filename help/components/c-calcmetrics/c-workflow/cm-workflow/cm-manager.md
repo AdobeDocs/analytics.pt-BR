@@ -2,7 +2,7 @@
 description: O Gerenciador de métricas calculadas permite cuidar de suas métricas de várias maneiras, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
 title: Gerenciador de métricas calculadas
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ O Gerenciador de métricas calculadas permite cuidar de suas métricas de vária
 
 O Gerenciador de métricas calculadas mostra todos os segmentos que você possui e que foram compartilhados com você. Usuários de nível administrativo podem ver todas as métricas personalizadas da organização. Esta visão geral apresenta a interface do usuário e os recursos do Gerenciador de métricas calculadas. Para acessá-la:
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the left navigation. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
+* Vá até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** no painel de navegação esquerdo. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
@@ -30,5 +30,5 @@ O Gerenciador de métricas calculadas mostra todos os segmentos que você possui
 | Tags | Mostra as tags aplicadas à métrica por você e pelas pessoas que compartilharam o segmento com você. |
 | Compartilhado com | Lista indivíduos ou grupos (somente Administrador) ou Todos (somente Administrador) com os quais você compartilhou o segmento. |
 | Seletor de coluna | Permite marcar ou desmarcar colunas no Gerenciador de métricas calculadas de forma a personalizar a exibição. |
-| Ícone Compartilhado (não exibido) | Indica que esta métrica personalizada foi compartilhada por você ou com você. |
-| Ícone Aprovado (não exibido) | Indica que esta métrica personalizada foi aprovada por um administrador. |
+| Ícone Compartilhado  (não exibido) | Indica que esta métrica personalizada foi compartilhada por você ou com você. |
+| Ícone Aprovado  (não exibido) | Indica que esta métrica personalizada foi aprovada por um administrador. |
