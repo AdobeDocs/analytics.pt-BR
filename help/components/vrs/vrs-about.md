@@ -2,7 +2,7 @@
 description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento.
 title: Visão geral dos conjuntos de relatórios virtuais
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ Um conjunto de relatórios virtual herda a maioria dos níveis de serviço do co
 * Nome do conjunto de relatórios
 * Grupos de permissões (os conjuntos de relatórios virtuais podem ser atribuídos aos seus próprios grupos de permissões)
 
-## Benefícios dos Conjuntos de relatórios virtuais {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Benefícios dos Conjuntos de relatórios virtuais  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 Os clientes pagam pelas chamadas secundárias do servidor, de modo que eliminar essas chamadas pode resultar em economias significativas. Um conjunto de relatórios virtual também é completamente retroativo. Se o conjunto de relatórios global já contiver dados, os dados relevantes serão incluídos automaticamente em um novo conjunto de relatórios virtual. Um novo conjunto de relatórios secundário só começa a coletar dados depois de ser criado e, deste modo, não inclui nenhum dado histórico. Quando você implementa o Analytics, basta enviar os dados para um conjunto de relatórios; não é necessário criar implementações para o conjunto de relatórios global e cada conjunto de relatório secundário.
 
@@ -38,7 +38,7 @@ Os conjuntos de relatórios virtuais ajudam a:
 * Uma visão de um único cliente dos dados (no futuro)
 * A capacidade de criar conjuntos de relatórios virtuais ilimitados para segmentar dados
 
-## Limitações dos conjuntos de relatórios virtuais {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitações dos conjuntos de relatórios virtuais  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Os conjuntos de relatórios virtuais têm as seguintes limitações:
 
@@ -59,7 +59,7 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 | Pode ser adicionado individualmente aos Grupos de permissões | Sim | Sim |
 | Pode usar funções de Administrador para modificar configurações individuais neste conjunto de relatórios (Administrador &gt; Conjuntos de relatórios) | Não (configurações herdadas do pai) | Sim |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combine conjuntos de relatórios virtuais e tags de vários conjuntos {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 Em alguns casos, existem benefícios para o uso de conjuntos de relatórios virtuais e tags de vários conjuntos.
 
