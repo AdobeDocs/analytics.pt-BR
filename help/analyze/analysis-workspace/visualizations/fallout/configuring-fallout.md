@@ -2,7 +2,7 @@
 description: 'null'
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,15 +16,15 @@ Você também pode adicionar segmentos em um ponto de contato. Por exemplo, voc�
 
 Não há limite de número de etapas que você pode adicionar ou do número de dimensões usadas.
 
-Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja olhando os sapatos, camisetas em uma página, e na próxima página eles estão olhando para camisetas, meias. O próximo relatório de fluxo do produto dos sapatos será camisetas e meias, e NÃO camisetas.
+Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/listN.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
 1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Tabela de forma livre].
 
-1. Arraste a dimensão de Página à Tabela de forma livre e arraste uma página de lá (neste caso, Início - JJEsquire) para o campo **[!UICONTROL Adicionar ponto de contato]como o primeiro ponto de contato.**
+1. Arraste a dimensão de Página à Tabela de forma livre e arraste uma página de lá (neste caso, Início - JJEsquire) para o campo **[!UICONTROL Adicionar ponto de contato]** como o primeiro ponto de contato.
 
    ![](assets/fallout1.png)
 
-   Passe o mouse sobre um ponto de contato para ver o fallout e outras informações sobre o nível, como o nome do ponto de contato e o número de visitantes no ponto, e ver a taxa de sucesso do ponto de contato (bem como, comparar a taxa de sucesso a outros pontos de contato).
+   Passe o mouse sobre um ponto de contato para ver o fallout e outras informações sobre o nível, como o nome do ponto de contato e o número de visitantes no ponto, e ver a taxa de sucesso do ponto de contato (bem como para comparar a taxa de sucesso com outros pontos de contato).
 
    Os números circulados, na área em cinza da barra, apresentam o fallout entre os pontos de contato (e não o fallout geral daquele ponto). A % de pontos de contato apresenta o fallthrough bem-sucedido da etapa anterior na etapa atual do relatório de fallout.
 
@@ -36,7 +36,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
 
    >[!NOTE]
    >
-   >Vários segmentos são unidos a E, mas vários itens, como itens de dimensão e métricas, são unidos a OU.
+   >Quando são vários segmentos, eles são ligados com AND, mas quando são vários itens (como itens de dimensão e métricas), são ligados com OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -57,14 +57,14 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
  </tbody> 
 </table>
 
-## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Configurações de fallout {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Configuração | Descrição |
 |--- |--- |
-| Contêiner de fallout <ul><li>Visita</li><li>Visitante</li></ul> | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante.  Essas configurações ajudam você a entender o envolvimento a nível de visitantes (ao longo das visitas) ou restringir a análise a uma única visita. |
-| Mostrar “Todos os visitantes” como o primeiro ponto de contato | Você pode desmarcar isso se não quiser ter “Todos os visitantes” como primeiro ponto de contato. |
+| Contêiner de fallout <ul><li>Visita</li><li>Visitante</li></ul> | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante.  Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
+| Mostrar “Todos os visitantes” como primeiro ponto de contato | Você pode desmarcar isso se não quiser ter “Todos os visitantes” como primeiro ponto de contato. |
 
-When you **right-click a touchpoint**, the following options appear:
+Quando você **clicar com o botão direito em um ponto de contato**, as seguintes opções são exibidas:
 
 | Opção | Descrição |
 |--- |--- |
