@@ -2,7 +2,7 @@
 description: 'null'
 title: Criador de alertas
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,16 +12,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Os alertas inteligentes estão disponíveis somente para clientes do Adobe [!DNL Analytics] Prime e do Adobe [!DNL Analytics] Ultimate.
 
 Acesse o Criador de alertas de uma das seguintes formas:
 
-* Usando o seguinte atalho na Analysis Workspace:
+* Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* Acessando **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Novo alerta]**.
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** &gt; **[!UICONTROL Adicionar alerta]**.
 
 A interface do Criador de alertas é semelhante àquela que cria segmentos ou métricas calculadas no [!DNL Analytics]:
 
@@ -39,11 +39,11 @@ Especifique quando você deseja verificar a métrica: por hora, dia, semana ou m
 
 **Destinatários**
 
-Especifique para onde o alerta pode ser enviado. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do [!DNL Analytics], a um grupo do [!DNL Analytics], a um endereço de email bruto ou a um número de telefone.
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>O telefone deve ser precedido por um "+" e um [código de país](https://countrycode.org/).
 
 **Data de validade**
 
@@ -55,7 +55,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Observe que uma mensagem **"componentes incompatíveis"** será exibida se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
 
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
