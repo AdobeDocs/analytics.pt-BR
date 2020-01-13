@@ -28,7 +28,7 @@ Mesmo que sua empresa colete várias IDs diferentes nos dados do Analytics, é p
 * Algumas IDs podem corresponder a várias pessoas e você não deseja correr o risco de retornar informações sobre uma pessoa para outra com a mesma ID. Por exemplo, mesmo se for possível verificar que o nome de alguém é John Smith, talvez você não queira retornar todos os dados sobre todos os John Smiths em seu sistema.
 * Outro exemplo é uma ID de dispositivo, como a ID de cookies do Analytics. Se a ID ocorrer em um aplicativo de telefone celular, será possível decidir se todas as interações que usam essa ID devem estar disponíveis para o proprietário do telefone celular. No entanto, se acontecer em um dispositivo compartilhado, como um computador doméstico ou de uma biblioteca ou cafeteria, você pode decidir que não é possível distinguir os usuários do dispositivo e o risco de retornar dados para um usuário diferente é muito grande para permitir o uso deste tipo de ID.
 
-## Práticas recomendadas para IDs suportadas pelo Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
+## Práticas recomendadas para IDs suportadas pelo Analytics {#section_B6481505FF1949498D4B4B35B780D050}
 
 Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar solicitações de Privacidade de dados para o Analytics. Quando souber essas informações, será mais fácil determinar os outros rótulos que deverão ser usados para as variáveis.
 
