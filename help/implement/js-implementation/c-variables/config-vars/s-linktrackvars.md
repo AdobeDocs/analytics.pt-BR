@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 A variável é uma lista separada por vírgulas de variáveis enviadas com links personalizados, de saída e de download.
 
-The [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) parameter should include each variable that you want to track with every file download, exit link, and custom link.
+O parâmetro [`linkTrackVars`](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) deve incluir todas as variáveis que deseja rastrear com cada download de arquivo, link de saída e personalizado. 
 
-The settings for `linkTrackVars` and `linkTrackEvents` within the JS file affect every file download, exit link, and custom link. É possível aumentar instâncias de cada variável e evento em situações em que a variável (ou evento) se aplica à página atual, mas não ao download de arquivo específico, link de saída, ou link personalizado.
+As configurações para `linkTrackVars` e `linkTrackEvents` no arquivo JS afetam todos os downloads de arquivos, links de saída e links personalizados. É possível aumentar instâncias de cada variável e evento em situações em que a variável (ou evento) se aplica à página atual, mas não ao download de arquivo específico, link de saída, ou link personalizado.
 
-Para garantir que as variáveis adequadas sejam definidas com o código de link personalizado, a Adobe recomenda configurar `linkTrackVars` e `linkTrackEvents` dentro do código de link personalizado, da seguinte forma:
+Para garantir que as variáveis adequadas sejam definidas com o código de link personalizado, a Adobe recomenda configurar `linkTrackVars` e `linkTrackEvents` no código de link personalizado, da seguinte forma:
 
 ```js
 <a href="index.html" onClick=" 
@@ -30,19 +30,19 @@ s.tl(this,'o','Link Name');
 ">My Page 
 ```
 
-No exemplo acima, o valor para prop1 é definido no próprio código de link personalizado. O valor de prop2 vem do valor atual da variável, como definido na página.
+No exemplo acima, o valor de prop1 está definido dentro do próprio código do link personalizado. O valor de prop2 vem do valor atual da variável, como definido na página.
 
-The values of `linkTrackVars` and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link.
+Os valores `linkTrackVars` e `linkTrackEvents` substituem as configurações no arquivo JS e garantem que apenas as variáveis e os eventos especificados no código do link personalizado sejam definidos para o link específico.
 
-*Observação: Se`linkTrackVars`(ou`linkTrackEvents`) for nulo (ou uma sequência vazia, como ""), todas as variáveis (ou eventos) do Analytics definidas para a página atual serão rastreadas. Em outras palavras, todas as variáveis com valores seriam enviadas com dados de link. Provavelmente, isso aumentará as instâncias de cada variável. Para evitar a inflação de instâncias ou exibições de página associadas a outras variáveis, a Adobe recomenda preencher`linkTrackVars`e`linkTrackEvents`no evento[!UICONTROL onClick]de um link usado para o rastreamento de link.*
+*Observação: se`linkTrackVars`(ou`linkTrackEvents`) for nulo (ou uma cadeia de caracteres vazia), todas as variáveis do Analytics (ou eventos) definidas para a página atual serão rastreadas. Em outras palavras, todas as variáveis com valores seriam enviadas com dados de link. Isso provavelmente aumentará as instâncias de cada variável. Para evitar a inflação de instâncias ou exibições de página associadas a outras variáveis, a Adobe recomenda preencher`linkTrackVars`e`linkTrackEvents`no evento[!UICONTROL onClick]de um link usado para o rastreamento de link.*
 
 Todas as variáveis que devem ser enviadas com os dados do link (personalizado, de saída e download) devem ser listadas em `linkTrackVars`. Se `linkTrackEvents` for usado, `linkTrackVars` deverá conter "events".
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | Qualquer | "Nenhum" |
+| N/D | N/D | Qualquer | "Nenhum" |
 
-When populating `linkTrackVars`, do not use the 's.' prefix for variables. Por exemplo, em vez de preencher `linkTrackVars` com "s.prop1", você deve preencher com "prop1". O exemplo a seguir ilustra como `linkTrackVars` deve ser usado.
+Ao preencher o `linkTrackVars`, não use o prefixo 's.' para variáveis. Por exemplo, em vez de preencher `linkTrackVars` com "s.prop1", você deve preencher com "prop1". O exemplo a seguir ilustra como `linkTrackVars` deve ser usado.
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -65,7 +65,7 @@ A variável `linkTrackVars` é uma lista de nomes de variáveis separados por v�
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-A variável `linkTrackVars` variable may contain only variables that are sent to [!DNL Analytics], namely: `events`, `campaign`, `purchaseID`, `products`, `eVar1-75`, `prop1-75`, `hier1-5`, `channel`, `server`, `state`, `zip`, and `pageType`.
+A variável  A variável `linkTrackVars` pode conter somente variáveis enviadas para [!DNL Analytics], a saber: `events`, `campaign`, `purchaseID`, `products`, `eVar1-75`, `prop1-75`, `hier1-5`, `channel`, `server`, `state`, `zip` e `pageType`.
 
 ## Exemplos
 
