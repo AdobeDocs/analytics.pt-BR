@@ -21,14 +21,14 @@ Suponha que você tenha os seguintes dados de ocorrência:
 | Rótulos | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **Nome da variável**<br>**(Namespace)** | **MyProp1**<br>**(usuário)** | **ID de visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
-| Dados de ocorrência | Mary | 77 | Um | M | X |
+| Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | Um | N | Z |
+|  | Alice | 66 | A | N | Z |
 
 ## Exemplo de solicitação de acesso
 
@@ -39,11 +39,11 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
 | **Namespace/ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variável não presente | 77 | Variável não presente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variável não presente | 77 | Variável não presente | M, P | X, W |
-| user=Mary | false | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | dispositivo | não presente | 77, 88 | não presente | N, P | U, W |
-| user=Mary  AAID=66 | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | dispositivo | não presente | 66, 77, 88 | não presente | N, P | U, W, Z |
+| user=Mary  | false | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  | true | dispositivo | não presente | 77, 88 | não presente | N, P | U, W |
+| user=Mary AAID=66 | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | dispositivo | não presente | 66, 77, 88 | não presente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | não presente | 55, 77 | não presente | M, R | X |
 | xyz=X | true | dispositivo | não presente | 55, 77 | não presente | M, P, R | W, X |
 
@@ -56,14 +56,14 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | Um | Privacy-7398 | Privacy-9152 |
+| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | S |
 | Mary | 99 | C | O | Z |
 | John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | Um | N | W |
+| Alice | 66 | A | N | W |
 
 > [!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo de DEL-DEVICE são afetadas.
 
@@ -77,7 +77,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | Um | N | W |
+| Alice | 66 | A | N | W |
 
 > [!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo de DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com "Privacy-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
@@ -91,7 +91,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | Um | N | W |
+| Alice | 66 | A | N | W |
 
 Observe o seguinte:
 
