@@ -2,7 +2,7 @@
 description: 'null'
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Visão geral {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-A visualização de mapa na Analysis Workspace
+A visualização de mapa no Analysis Workspace
 
 * Permite criar um mapa visual de qualquer métrica (incluindo métricas calculadas).
 * É útil para identificar e comparar dados de métrica em diferentes regiões geográficas.
@@ -20,9 +20,9 @@ A visualização de mapa na Analysis Workspace
 * Suporta exportação de PDF.
 * Aproveita WebGL para exibição de gráficos. Se os drivers de gráficos não suportarem a renderização de WebGL, talvez seja necessário atualizá-los.
 
-## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Criar uma visualização de mapa {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. Na lista de visualizações, solte o **[!UICONTROL Mapa]em um painel de Forma livre:**
+1. Na lista de visualizações, solte o **[!UICONTROL Mapa]** em um painel de Forma livre:
 
    ![](assets/map-viz1.png)
 
@@ -33,7 +33,7 @@ A visualização de mapa na Analysis Workspace
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat/long móveis</b> </p> </td> 
-   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatórios</span> &gt; <span class="uicontrol">&lt;selecionar conjunto de relatórios&gt;</span> &gt; <span class="uicontrol">Editar configurações</span> &gt; <span class="uicontrol">Gerenciamento móvel</span> &gt; <span class="uicontrol">Ativar rastreamento de localização </span> </span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
+   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização </span> </span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensão geográfica</b> </p> </td> 
@@ -42,7 +42,7 @@ A visualização de mapa na Analysis Workspace
  </tbody> 
 </table>
 
-1. Clique em **[!UICONTROL Construir]**.
+1. Clique em **[!UICONTROL Criar]**.
 
    A primeira exibição será uma exibição do mundo com um mapa de propagação, semelhante a este.
 
@@ -67,7 +67,7 @@ A visualização de mapa na Analysis Workspace
 
    ![](assets/location-dimensions.png)
 
-## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
+## Configurações de visualização de mapa {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
 Existem 2 conjuntos de configurações para o Mapa:
 
@@ -84,4 +84,4 @@ Se você clicar no **ícone de engrenagem**, aparecerão as configurações de v
 | Estilos: Tema de cores | Mostra o esquema de cor do mapa de calor e das propagações. Você pode optar por Coral, Vermelho, Verde ou Azul. O padrão é Coral. |
 | Estilos: Estilo do mapa | É possível optar por Básico, Ruas, Brilho, Claro, Escuro e Satélite. |
 | Raio do cluster | Agrupa os pontos de dados que estão dentro do número especificado de pixels. O padrão é 50. |
-| Valor máximo personalizado | Permite alterar o limite do valor máximo do mapa - ajustar esse valor ajusta a escala dos valores de bolhas/mapa de calor (cor e tamanho) em relação ao valor máximo personalizado definido. |
+| Valor máximo personalizado | Permite alterar o limite para o valor máximo do mapa; a definição desse valor ajusta a escala para os valores de propagações/mapa de calor (cor e tamanho) relacionados ao valor máximo personalizado que foi definido. |
