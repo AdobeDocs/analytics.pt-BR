@@ -1,14 +1,14 @@
 ---
 description: Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
-title: Migrar contas de usuário do Analytics para Adobe IDs
+title: 'Migrar contas de usuário do Analytics para Adobe IDs '
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Migrar contas de usuário do Analytics para Adobe IDs{#migrate-analytics-user-accounts-for-adobe-ids}
+# Migrar contas de usuário do Analytics para Adobe IDs {#migrate-analytics-user-accounts-for-adobe-ids}
 
 Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 
@@ -16,11 +16,11 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
 Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 
-> [!NOTE] Se um administrador que não esteja conectado por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
+> [!NOTE] Se um Administrador que não tenha feito logon por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
 
 **Para migrar usuários do Analytics**
 
-1. Navegue até **Analytics** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Migração de ID de usuário]**.
+1. Navegue até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Migração de ID de usuário]**.
 
    ![](assets/migration-progress.png)
 
@@ -42,7 +42,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logon herdado desabilitado </p> </td> 
-   <td colname="col2"> <p>O logon antigo que usa uma ID da empresa está desativado. Os usuários passarão a acessar a Experience Cloud usando uma Adobe ID ou uma Enterprise ID. Quando todos os usuários atingirem essa fase, você terá concluído a migração. </p> <p>Na migração, o logon antigo é desativado. Os usuários são redirecionados para <span class="filepath"> experience.adobe.com</span> e devem fazer logon usando a Adobe ID ou Enterprise ID. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>O logon antigo que usa uma ID da empresa está desativado. Os usuários passarão a acessar a Experience Cloud usando uma Adobe ID ou uma Enterprise ID. Quando todos os usuários atingirem essa fase, você terá concluído a migração. </p> <p>Na migração, o logon antigo é desativado. Os usuários são redirecionados para <span class="filepath"> experiencecloud.adobe.com</span> e devem fazer logon usando a Adobe ID ou Enterprise ID. </p> <p>Consulte <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md">Desabilitar logons herdados</a> para obter mais informações. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,24 +61,24 @@ As informações do usuário descrevem os usuários em sua organização, separa
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Domínio </p> </td> 
-   <td colname="col2"> <p>Os domínios são específicos das IDs de email da base de usuários atual do Analytics. Um domínio pode ser reivindicado apenas por uma única organização, e somente os administradores de sistema podem reivindicar um domínio. Para obter mais informações, consulte <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">Solicitar acesso a um domínio reivindicado</a>. </p> </td> 
+   <td colname="col2"> <p>Os domínios são específicos das IDs de email da base de usuários atual do Analytics. Um domínio pode ser reivindicado apenas por uma única organização, e somente os administradores de sistema podem reivindicar um domínio. Para obter mais informações, consulte <a href="https://helpx.adobe.com/br/enterprise/help/request-access-to-claimed-domain.html">Solicitar acesso a um domínio reivindicado</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio reivindicado </p> </td> 
-   <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/enterprise/help/identity.html">aqui</a>. </p> </td> 
+   <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. Localize o domínio que contém as IDs de usuário que você deseja migrar e, em **[!UICONTROL Migração obrigatória]**, clique em **[!UICONTROL Selecionar usuários]**.
+1. Na página [!DNL Users], selecione os usuários que deseja migrar e clique em **[!UICONTROL Migrar]**.
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. Essa ação mova a ID do usuário para Migração concluída. É possível desativar o acesso herdado para [!DNL my.omniture.com].
+   Ao clicar em **[!UICONTROL Migrar]**, os usuários recebem um convite (Migração iniciada) e devem aceitá-lo. Essa ação mova a ID do usuário para Migração concluída. É possível desativar o acesso herdado para [!DNL my.omniture.com].
 
    ![](assets/user-info.png)
 
-1. Especifique o tipo de ID para a qual você deseja migrar a ([Adobe ID ou Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html)) dos usuários. 
+1. Especifique o tipo de ID para a qual você deseja migrar a ([Adobe ID ou Enterprise ID](https://helpx.adobe.com/br/enterprise/help/identity.html)) dos usuários. 
 
-   After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
+   Depois de migrar os usuários, o status na coluna Status da migração muda de *`Not Initiated`* para *`Migrated`*.
 
-   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
+   Se *`Failed`* for exibido, passe o cursor sobre o ícone para obter uma descrição sobre por que a migração falhou.
