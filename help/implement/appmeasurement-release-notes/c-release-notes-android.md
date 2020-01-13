@@ -1,14 +1,12 @@
 ---
 description: Notas de versão cumulativas para a biblioteca móvel do Android.
-seo-description: Notas de versão cumulativas para a biblioteca móvel do Android.
-seo-title: Android
-solution: Analytics, Experience Cloud
-subtopic: Notas de versão
+solution: Analytics,Experience Cloud
+subtopic: Release notes
 title: Android
-topic: Desenvolvedor e implementação
+topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: ht
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -88,12 +86,12 @@ O SDK versão 4.13.2 (10 de novembro de 2016) inclui as seguintes alterações:[
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> Serviço de ID de visitante </p> </td> 
+   <td colname="1"> <p> Visitor ID  Serviço de </p> </td> 
    <td colname="2"> <p>Adicionados carimbo de data e hora e ID de empresa da Experience Cloud ao parâmetro <code> adobe_mc</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>Ao chamar <code> trackAdobeDeepLink</code>, as variáveis com prefixos "<code> adb</code>" e "<code> ctx</code>" agora são manipuladas corretamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +166,7 @@ O SDK versão 4.12.0 (18 de agosto de 2016) inclui as seguintes alterações:[!D
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Serviço de ID de visitante </p> </td> 
+   <td colname="1"> <p>Visitor ID  Serviço de </p> </td> 
    <td colname="2"> <p> Adicionado um novo método para anexar a identidade do visitante a um URL fornecido, para que a identidade possa ser transferida para uma implementação com base na web. </p> </td> 
   </tr> 
  </tbody> 
@@ -407,7 +405,7 @@ O [!DNL Android] SDK versão 4.4 inclui as seguintes alterações:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">Suporte para monitoramento de beacon no PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>As chamadas <code> trackBeacon</code> e <code> clearCurrentBeacon</code> agora estão disponíveis no <span class="keyword">PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -615,7 +613,7 @@ Data de lançamento: **julho de 2012**
 
 Versão inicial.
 
-## Versão anterior do Android (1.x) {#section_F2CC015616184D55AC6D6529DFC9A18B}
+## Versão anterior do Android (1.x)  {#section_F2CC015616184D55AC6D6529DFC9A18B}
 
 As seguintes notas de versão se aplicam à versão 1.x do [!DNL AppMeasurement] para [!DNL Android]. Nós recomendamos que os clientes atualizem para a versão 3.x quando possível.
 
