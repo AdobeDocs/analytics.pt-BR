@@ -1,7 +1,7 @@
 ---
 title: Criar um documento de design de solução
 description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -44,11 +44,11 @@ Também existem vários parceiros da Adobe especializados em ajudar na criação
 
 > [!NOTE] Embora os membros da comunidade do Analytics tenham considerado os seguintes links úteis, eles não são de propriedade da Adobe. Leve isso em consideração ao exibir o conteúdo.
 
-* [7 etapas para configurar o design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) da solução do Web Analytics por ObservePoint
-* [Uma estrutura para o processo](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) de análise digital pelo Analytics desmistificado
-* [A Referência do projeto da solução é na verdade seu BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) pelo Numeric Analytics
-* [Como criar um mapa](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) de marcação do Adobe Analytics por Antti Koski
-* [A importância do documento](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) de design da solução por ebiquidade
+* [ Etapas para configurar o Design da solução de análise da Web](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7- de ObservePoint
+* [Uma estrutura para o Processo de análise digital](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) de Analytics Demystified
+* [Na verdade, a Referência de design da solução é a sua BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) de Numeric Analytics
+* [Como elaborar o mapa de marcação do Adobe Analytics](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) de Antti Koski
+* [A importância do Documento de design da solução](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) de Ebiquity
 
 ## Próximas etapas
 
