@@ -2,7 +2,7 @@
 description: Explica como criar uma métrica que exibe quais Canais de marketing fornecem assistência em impulsionar pedidos. Isso pode ser adaptado a qualquer dimensão ou evento de sucesso de seu interesse.
 title: Métrica de auxílio de pedidos
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Explica como criar uma métrica que exibe quais Canais de marketing fornecem assistência em impulsionar pedidos. Isso pode ser adaptado a qualquer dimensão ou evento de sucesso de seu interesse.
 
 1. No Construtor de métricas calculadas, nomeie a métrica “Pedidos com assistência”.
-1. Na tela de Definição, arraste uma métrica de Pedidos. Em seguida, ajuste o modelo de atribuiçao por meio da engrenagem de configurações, marcando a caixa de seleção **[!UICONTROL Usar modelos de atribuição não padrão].**
+1. Na tela de Definição, arraste uma métrica de Pedidos. Em seguida, ajuste o modelo de atribuiçao por meio da engrenagem de configurações, marcando a caixa de seleção **[!UICONTROL Usar modelos de atribuição não padrão]**.
 
    ![](assets/attr-model.png)
 
-1. Selecione **[!UICONTROL Personalizado]como o modelo de atribuição.** Altere os valores para 0 (início), 100 (reprodução) e 0 (encerramento).
+1. Selecione **[!UICONTROL Personalizado]** como o modelo de atribuição. Altere os valores para 0 (início), 100 (reprodução) e 0 (encerramento).
 
    ![](assets/custom-attr-model.png)
 
