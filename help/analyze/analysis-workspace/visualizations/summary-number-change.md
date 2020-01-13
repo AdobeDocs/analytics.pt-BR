@@ -1,16 +1,16 @@
 ---
 description: 'null'
-title: Número do resumo e Alteração do resumo
+title: Número do resumo e alteração do resumo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Número do resumo e Alteração do resumo
+# Número do resumo e alteração do resumo
 
-## Visualização do Número de resumo
+## Visualização do número de resumo
 
 * Seleciona o total da coluna caso nenhuma célula esteja selecionada.
 * Se alguma célula estiver selecionada, mostra o resumo dessa célula.
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/summary-number.png)
 
-## Visualização de Alteração de resumo
+## Visualização da alteração do resumo
 
 * Se nenhuma célula estiver selecionada, compara os dois primeiros valores de célula na coluna.
 * Se uma célula estiver selecionada, exibe 0, pois compara o valor da célula a ele mesmo.
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
 * As cores verde e vermelho da alteração de resumo podem ser controladas por:
 
-   * [Polaridade de evento personalizado](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
-   * Uma opção [Mostrar tendência ascendente como](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) da métrica calculada.
+   * [Polaridade de evento personalizado](https://marketing.adobe.com/resources/help/pt_BR/reference/success_event.html).
+   * Uma opção [Mostrar tendência ascendente como](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/cm_build_metrics.html) da métrica calculada.
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## Configurações de alteração de resumo {#section_2581AC0107634FB4990AB8347E5897AA}
 
 Clique no ícone de engrenagem próximo à visualização para definir as Configurações de resumo:
 
