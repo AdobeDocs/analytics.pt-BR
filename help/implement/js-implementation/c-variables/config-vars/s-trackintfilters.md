@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -18,15 +18,15 @@ Trata-se de uma lista de filtros separada por vírgulas que representa os links 
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | Caminhos &gt; Entradas e saídas &gt; Links de saída |  |
+| N/D | N/D | Caminhos &gt; Entradas e saídas &gt; Links de saída |  |
 
 > [!NOTE]Anteriormente, sugerimos configurar o linkInternalFilters para javascript: No entanto, isso fez com que todos os domínios fossem considerados externos, incluindo o domínio atual no qual a tag reside. Se você quiser que vários domínios sejam considerados internos, poderá adicioná-los, conforme mostrado nos exemplos abaixo.
 
-A variável *`linkInternalFilters`* é usada para determinar se um link é um link de saída, que é definido como qualquer link que afaste o visitante do site. Se a janela de destino de um link de saída for um pop-up ou a janela existente, isso não afeta o fato de o link aparecer ou não no relatório de links de saída. Os links de saída só são acompanhados se *`trackExternalLinks`* está definida como `"true"`. (Consulte [Rastreamento de links](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) na documentação do Dynamic Tag Management para obter informações sobre como o DTM processa os links de saída.) Os filtros em *`linkInternalFilters`* não fazem distinção entre maiúsculas e minúsculas.
+A variável *`linkInternalFilters`* é usada para determinar se um link é um link de saída, que é definido como qualquer link que afaste o visitante do site. Se a janela de destino de um link de saída for um pop-up ou a janela existente, isso não afeta o fato de o link aparecer ou não no relatório de links de saída. Os links de saída só são acompanhados se  *`trackExternalLinks`* está definida como `"true"`. (Consulte [Rastreamento de links](https://marketing.adobe.com/resources/help/pt_BR/dtm/link_tracking.html) na documentação do Dynamic Tag Management para obter informações sobre como o DTM processa os links de saída.) Os filtros em *`linkInternalFilters`* não fazem distinção entre maiúsculas e minúsculas.
 
 A lista de filtros em *`linkInternalFilters`* se aplica ao domínio e ao caminho de qualquer link por padrão. Se *`linkLeaveQueryString`* for definido como `"true"`, os filtros serão aplicados a todo o URL (domínio, caminho e sequência de consulta). Esses filtros são sempre aplicados ao caminho absoluto do URL, mesmo se um caminho relativo for usado como o valor href.
 
-Tenha cuidado para que todos os domínios de seu site (e quaisquer parceiros que estejam usando seu arquivo JavaScript) estejam incluídos na *`linkInternalFilters`*. Se nem todos os domínios foram incluídos na lista, todos os links de e para esses domínios serão considerados como links de saída, aumentando as chamadas para servidor enviadas. Se desejar que vários domínios ou empresas usem um único [!DNL AppMeasurement] para o arquivo JavaScript, você pode considerar preencher *`linkInternalFilters`* na página, substituindo o valor especificado no arquivo JavaScript. Se você tiver domínios vanity que redirecionam imediatamente para o seu domínio principal, esses domínios vanity não precisam ser incluídos na lista.
+Tenha cuidado para que todos os domínios de seu site (e quaisquer parceiros que estejam usando seu arquivo JavaScript) estejam incluídos na  *`linkInternalFilters`*. Se nem todos os domínios foram incluídos na lista, todos os links de e para esses domínios serão considerados como links de saída, aumentando as chamadas para servidor enviadas. Se desejar que vários domínios ou empresas usem um único [!DNL AppMeasurement] para o arquivo JavaScript, você pode considerar preencher *`linkInternalFilters`* na página, substituindo o valor especificado no arquivo JavaScript. Se você tiver domínios vanity que redirecionam imediatamente para o seu domínio principal, esses domínios vanity não precisam ser incluídos na lista.
 
 O exemplo a seguir ilustra como essa variável é usada. Neste exemplo, o URL da página é `https://www.mysite.com/index.html`.
 
@@ -69,7 +69,7 @@ Nenhum
 * Inclua todos os domínios nos quais o arquivo [!DNL AppMeasurement] para JavaScript possa ser exibido na lista de filtros.
 * Verifique periodicamente o relatório [!UICONTROL Caminhos] &gt; [!UICONTROL Entradas e saídas] &gt; [!UICONTROL Saída] para verificar se nenhuma das entradas desse relatório está incorreta.
 
-* Periodicamente, examine os contratos de parceiros para determinar se eles contêm restrições ao rastreamento de links. Por exemplo, você pode ser proibido de rastrear links exibidos nos anúncios de exibição do parceiro. Filtre os links do parceiro adicionando seu domínio a *`linkInternalFilters`*:
+* Periodicamente, examine os contratos de parceiros para determinar se eles contêm restrições ao rastreamento de links. Por exemplo, você pode ser proibido de rastrear links exibidos nos anúncios de exibição do parceiro. Filtre os links do parceiro adicionando seu domínio a  *`linkInternalFilters`*:
 
 ```js
 s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
@@ -89,15 +89,15 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-Os parâmetros `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. Quando habilitado, qualquer link com um tipo de arquivo correspondente a um dos valores em `linkDownloadFileTypes` é automaticamente rastreado como um download de arquivo. Qualquer link com um URL que não contenha um dos valores em `linkInternalFilters` é automaticamente rastreado como um link de saída.
+Os parâmetros  `trackDownloadLinks` e `trackExternalLinks` determinam se o rastreamento automático de download de arquivo e link de saída está habilitado. Quando habilitado, qualquer link com um tipo de arquivo correspondente a um dos valores em `linkDownloadFileTypes` é automaticamente rastreado como um download de arquivo. Qualquer link com um URL que não contenha um dos valores em `linkInternalFilters` é automaticamente rastreado como um link de saída.
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+No JavaScript H.25.4 (lançado em fevereiro de 2013), o rastreamento automático do link de saída sempre foi atualizado para ignorar links com atributos `HREF` que começam com `#`, `about:` ou `javascript:`.
 
 ### Exemplo 1
 
-Os tipos de arquivos `.jpg` e não `.aspx` estão incluídos `linkDownloadFileTypes` acima, portanto, nenhum clique neles é automaticamente rastreado e reportado como downloads de arquivos.
+Os tipos de arquivos `.jpg` e `.aspx` não estão incluídos no `linkDownloadFileTypes` acima, portanto, nenhum clique neles é rastreado automaticamente e reportado como downloads de arquivos.
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+O parâmetro `linkLeaveQueryString` modifica a lógica usada para determinar os links de saída. Quando `linkLeaveQueryString`=false, os links de saída são determinados utilizando somente o domínio, o caminho e parte do arquivo do URL do link. Quando `linkLeaveQueryString`=true, a parte da cadeia de consulta do URL do link também é usada para determinar um link de saída.
 
 ### Exemplo 2
 
@@ -125,4 +125,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*Observação: um único link só pode ser acompanhado como um download de arquivo ou link de saída, com prioridade para o download de arquivo. Se um link for um link de saída e um download de arquivo com base nos parâmetros`linkDownloadFileTypes`e`linkInternalFilters`, ele será rastreado e reportado como um download de arquivo e não como um link de saída.*
+*Observação: um único link só pode ser acompanhado como um download de arquivo ou link de saída, com prioridade para o download de arquivo. Se um link for um link de saída e um download de arquivo com base nos parâmetros`linkDownloadFileTypes`e`linkInternalFilters`, ele será rastreado e reportado como um download de arquivo, não como um link de saída.*
