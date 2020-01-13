@@ -3,7 +3,7 @@ description: Para verificar se o encaminhamento pelo lado do servidor está corr
 solution: Audience Manager
 title: Como verificar a implementação do encaminhamento pelo lado do servidor
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ Para verificar o status do encaminhamento pelo lado do servidor:
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Certifique-se de que o Serviço de identidade está corretamente implantado, que você implantou o módulo App Measurement, que o conjunto de relatórios aplicável foi mapeado para a Organização IMS correta e que o encaminhamento pelo lado do servidor foi habilitado no console de administração do Analytics.
+>Se a resposta contiver o par de valores `"status":"SUCCESS"` ou uma imagem 2 x 2, o encaminhamento pelo lado do servidor não será configurado corretamente. Certifique-se de que o Serviço de identidade foi devidamente implantado, que você implantou o módulo AppMeasurement, que o conjunto de relatórios aplicável foi mapeado para a Organização IMS correta e que o encaminhamento pelo lado do servidor foi habilitado no Admin Console do Analytics.
 
 >[!MORELIKETHIS]
 >
