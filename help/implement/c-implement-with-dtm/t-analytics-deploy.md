@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementação manual do Adobe Analytics (herdado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Crie uma ferramenta Adobe Analytics para implantação usando o [!UICONTROL Dynamic Tag Management]. Este procedimento descreve uma implementação manual (herdada).
 
-Para obter informações sobre o gerenciamento da implementação automática, consulte [Adicionar a ferramenta Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
+Para obter informações sobre o gerenciamento da implementação automática, consulte  [Adicionar a ferramenta Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
 
 Se você deseja alterar uma configuração manual para automática, edite uma ferramenta e clique em **[!UICONTROL Habilitar a configuração automática]**.
 
