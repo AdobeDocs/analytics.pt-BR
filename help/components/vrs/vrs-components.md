@@ -2,7 +2,7 @@
 description: Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,12 +12,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
 
-> [!NOTE] As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados da Workspace e em conjuntos de relatórios virtuais preparados (VRSs). Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
+> [!NOTE] As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados da Workspace e em conjuntos de relatórios virtuais preparados (VRSs). Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
 
 Para permitir a curadoria de componentes,
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
-1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **Componentes[!UICONTROL .]**
+1. Acesse **[!UICONTROL Análises]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Conjuntos de relatórios virtuais]** &gt; **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
+1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **[!UICONTROL Componentes]**.
 
 1. Marque a caixa de seleção **[!UICONTROL Habilitar personalização de componentes de conjuntos de relatórios virtuais]**:
 
@@ -25,7 +25,7 @@ Para permitir a curadoria de componentes,
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
+   >Se a personalização de componentes estiver ativada, o conjunto de relatórios virtuais poderá ser acessado **somente na Analysis Workspace** e não em:
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
@@ -40,7 +40,7 @@ Para permitir a curadoria de componentes,
    * Intervalos de datas
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Eles sempre estarão visíveis na Analysis Workspace se tiverem curadoria para o conjunto de relatórios virtual, mesmo se não forem compartilhados.
+   >Não há necessidade de *compartilhar* componentes com curadoria (segmentos, métricas calculadas, intervalos de datas). Eles sempre estarão visíveis na Analysis Workspace se tiverem curadoria para o conjunto de relatórios virtual, mesmo se não forem compartilhados.
 
 1. Além disso, você pode filtrar ou pesquisar os componentes e adicionar toda a seleção filtrada à coluna incluída clicando em **[!UICONTROL Adicionar tudo]**.
 
@@ -56,12 +56,12 @@ Na Analysis Workspace, clique no ícone de informações de qualquer componente 
 
 ![](assets/vrs-aw-renamed.png)
 
-## Grupos de componentes {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Grupos de componentes  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Use grupos de componentes para criar adições de componentes em massa ao seu conjunto de relatórios virtual. Por exemplo, se você quiser importar um conjunto padrão de componentes específicos da análise de aplicativos móveis, selecione o grupo de aplicativos móveis. Um conjunto correspondente de dimensões e métricas (já renomeadas) é adicionado automaticamente à lista de Incluídos do conjunto de relatórios virtual.
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamento do espaço de trabalho {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamento do Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Para obter mais informações sobre a preparação na Analysis Workspace, consulte [Preparar e compartilhar um projeto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).
+Para obter mais informações sobre a preparação na Analysis Workspace, consulte [Preparar e compartilhar um projeto](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/curate.html).
