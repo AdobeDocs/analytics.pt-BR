@@ -2,7 +2,7 @@
 description: 'null'
 title: Solução de problemas de segmentação
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,14 +10,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Solução de problemas de segmentação
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Erro: “Elementos incompatíveis neste segmento” {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
-Esse erro ocorre quando você tenta salvar um segmento na pasta Data warehouse, na qual o segmento contém elementos incompatíveis com o Data warehouse. Para solucionar este erro, execute uma destas duas ações:
+Esse erro ocorre quando você tenta salvar um segmento na pasta Data Warehouse, na qual o segmento contém elementos incompatíveis com o Data Warehouse. Para solucionar este erro, execute uma destas duas ações:
 
 * Salve o segmento em uma pasta diferente.
 * Remova ou altere as porções incompatíveis do segmento.
 
-## Por que o meu segmento não retorna dados? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Por que o meu segmento não retorna dados?  {#section_999749CBBE984142AEA49A6E68E6730A}
 
 Possíveis motivos:
 
@@ -25,19 +25,19 @@ Possíveis motivos:
 * O relatório não oferece suporte para a segmentação.
 * Nenhum dado corresponde ao critério de segmentação.
 
-## Por que não consigo ver o segmento que criei no Gerenciador de segmentos? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Por que não consigo ver o segmento que criei no Gerenciador de segmentos?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Possíveis motivos:
 
-* Algumas dimensões estão disponíveis somente no Data warehouse, e não no Gerenciador de segmentos.
-* O segmento não é compatível com o Relatórios e análises.
+* Algumas dimensões estão disponíveis somente no Data Warehouse, e não no Gerenciador de segmentos.
+* O segmento não é compatível com o Reports &amp; Analytics.
 * O segmento é marcado somente para um conjunto de relatórios específico.
 * Um segmento compartilhado pode ter sido excluído por outro usuário.
 * Os segmentos não puderam ser carregados devido a um problema no datacenter ou no cache do navegador.
 * O segmento não foi salvo.
 * O endereço IP pode estar bloqueado na extremidade do usuário.
 
-## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Possíveis motivos:
 
