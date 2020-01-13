@@ -2,7 +2,7 @@
 description: 'null'
 title: Visualizar uso de chamadas do servidor atual
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Visualizar uso de chamadas do servidor atual
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Uso **[!UICONTROL de chamada]** do servidor &gt; Uso **[!UICONTROL atual]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Uso de chamadas do servidor]** &gt; **[!UICONTROL Uso atual]**
 
-> [!IMPORTANT] Todos os números de utilização e compromisso que você vê são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
+> [!IMPORTANT] Quaisquer números de uso e de compromisso exibidos são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
 
 O painel de Uso atual
 
@@ -23,7 +23,7 @@ O painel de Uso atual
 
 * Compara seu período de uso atual ao uso do ano anterior (lina azul). Obviamente, a linha azul será exibida somente se sua empresa apresentar dados de uso de chamadas do servidor do ano anterior.
 
-   > [!NOTE] Se quiser exibir o uso de um período anterior, vá para a guia Uso [do conjunto de](/help/admin/c-server-call-usage/report-suite-usage.md) relatórios e baixe os dados de uso de um período anterior.
+   > [!NOTE] Se quiser exibir o uso de um período anterior, acesse a guia [Uso do conjunto de relatórios](/help/admin/c-server-call-usage/report-suite-usage.md) e baixe os dados de uso de um período anterior.
 
 * Lista a porcentagem de chamadas usadas (em porcentagens e dados brutos), e a porcentagem gasta do período de uso (em porcentagens e dados brutos).
 * Por padrão, é atualizado diariamente, com uma latência de processamento de cinco dias.
