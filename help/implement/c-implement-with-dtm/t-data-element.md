@@ -1,13 +1,11 @@
 ---
 description: Crie um elemento de dados no Dynamic Tag Management.
-keywords: Dynamic Tag Management, elemento de dados, criar novo elemento de dados, nome, tipo, valor padrão, forçar valor em letra minúscula, lembrar esse valor para
-seo-description: Crie um elemento de dados no Dynamic Tag Management.
-seo-title: Criar um elemento de dados
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Criar um elemento de dados
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+translation-type: ht
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ Crie um elemento de dados no Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Tipo</strong></td> 
-      <td class="chdesc stentry"> <p> Especifica de onde os dados são extraídos, como Objeto JS, Seletor de CSS, Cookie, Parâmetro de URL ou Script personalizado. </p> <p>Dependendo do tipo selecionado, serão exibidas diferentes opções. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">Tipos de elementos de dados</a> na documentação do produto do Dynamic Tag Management para obter mais informações e exemplos. </p> </td> 
+      <td class="chdesc stentry"> <p> Especifica de onde os dados são extraídos, como Objeto JS, Seletor de CSS, Cookie, Parâmetro de URL ou Script personalizado. </p> <p>Dependendo do tipo selecionado, serão exibidas diferentes opções. Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/dtm/data_elements.html">Tipos de elementos de dados</a> na documentação do produto do Dynamic Tag Management para obter mais informações e exemplos. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valor padrão</strong></td> 
@@ -56,5 +54,5 @@ Crie um elemento de dados no Dynamic Tag Management.
     </tr> 
    </table>
 
-   Consulte [Elementos de dados](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) na documentação do produto do Tag Management da Adobe para obter mais informações sobre como usar elementos de dados.
+   Consulte [Elementos de dados](https://marketing.adobe.com/resources/help/pt_BR/dtm/data_elements.html) na documentação do produto do Tag Management da Adobe para obter mais informações sobre como usar elementos de dados.
 1. Clique em **[!UICONTROL Salvar o elemento de dados]**.
