@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Exibições e conteúdo de página
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
@@ -34,7 +34,7 @@ Descrições de campo no Dynamic Tag Management para exibições de página e co
   </tr> 
   <tr> 
    <td colname="col1"> Canal (seção do site) </td> 
-   <td colname="col2"> <p>Identifica uma seção do site.  </p> <p>Consulte <a href="/help/implement/js-implementation/page-variables/channel.md">marketing</a>. </p> </td> 
+   <td colname="col2"> <p>Identifica uma seção do site.  </p> <p>Consulte <a href="/help/implement/js-implementation/page-variables/channel.md">canal</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hierarquia </td> 
