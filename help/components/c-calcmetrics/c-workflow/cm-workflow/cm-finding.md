@@ -1,8 +1,8 @@
 ---
-description: Descreve as duas principais maneiras de encontrar suas métricas de classificação e filtragem.
+description: Descreve as duas principais maneiras de encontrar suas métricas por classificação e por filtragem.
 title: Localizar métricas
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,20 +12,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Descreve as duas principais maneiras de encontrar suas métricas: por classificação e por filtragem.
 
-## Classificação {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Classificação  {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Ao abrir um relatório e clicar no ícone Métricas ![](assets/metrics_icon.png) à esquerda de um relatório para exibir o painel Métricas, a lista suspensa **Classificar por]do Seletor de métricas exibirá quatro opções de classificação:[!UICONTROL **
+Ao abrir um relatório e clicar no ícone Métricas ![](assets/metrics_icon.png) à esquerda de um relatório para exibir o painel Métricas, a lista suspensa **[!UICONTROL Classificar por]** do Seletor de métricas exibirá quatro opções de classificação:
 
 ![](assets/cm_sort.png)
 
-| Opções | Quando usar |
+| Opção | Quando usar |
 |---|---|
 | Ordem alfabética | Útil se você souber o nome. |
 | Recomendado | Métricas comuns que as pessoas usam no relatório. São obtidas pelo back end a partir das métricas comumente usadas pelos usuários com este relatório. |
 | Usado com frequência | Útil se você for um usuário novo e precisar ver o que costuma ser usado no relatório. |
 | Usado recentemente | É útil ao trabalhar em um projeto com um mesmo conjunto de métricas repetidamente. |
 
-## Filtragem - Seleção avançada {#section_33818CC048C04F098703AC229693F8CA}
+## Filtragem - Seleção avançada  {#section_33818CC048C04F098703AC229693F8CA}
 
 Ao abrir um relatório, clique no ícone Métricas e em **[!UICONTROL Gerenciar]**. Em seguida, clique no ícone Filtro. É possível filtrar de diversas formas.
 
