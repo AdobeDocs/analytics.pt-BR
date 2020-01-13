@@ -2,7 +2,7 @@
 description: No Gerenciador de métricas calculadas, a marcação de segmentos permite organizá-los.
 title: Marcar métricas calculadas
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,8 +27,8 @@ Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais ta
 
       ![](assets/cm_add_tags.png)
 
-1. Clique em **[!UICONTROL tag]novamente para adicionar uma tag à métrica.**
+1. Clique em **[!UICONTROL tag]** novamente para adicionar uma tag à métrica.
 
 A tag agora deve aparecer na coluna Tags. (Clique no ícone de engrenagem na parte superior direita para gerenciar suas colunas).
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+Também é possível filtrar as tags, acessando **[!UICONTROL Mostrar filtros]** &gt; **[!UICONTROL Tags]**.
