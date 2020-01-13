@@ -5,7 +5,7 @@ subtopic: Release notes
 title: WinRT para Windows 8
 topic: Developer and implementation
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >Observação: para encontrar a versão atual da biblioteca, acione o log de depuração.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Os [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) da biblioteca móvel estão disponíveis na [!DNL Developer Connection].
 
 >[!NOTE]
 >
