@@ -2,7 +2,7 @@
 description: 'null'
 title: Visão geral de fallout
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,17 +30,17 @@ Uma visualização de fallout é útil para analisar:
 * Fluxos gerais de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantas fizeram uma pesquisa e quantas delas eventualmente acessaram um item específico.
 * Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que acessaram sua política de privacidade e que fizeram uma compra.
 
-[Visualização de fallout no YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[Visualização de fallout no YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 
-## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
+## Segmentação como base para fluxo e fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Os segmentos aplicados a painéis da Workspace funcionam de uma forma um pouco diferente que os segmentos aplicados a relatórios de fallout e de fluxo no Reports &amp; Analytics e na Ad Hoc Analysis. Na maior parte do tempo, eles fornecem os mesmos resultados. A principal diferença é que o Reports &amp; Analytics e a Ad Hoc Analysis aplicam o segmento em cada etapa da sequência. Isso pode ter resultados um pouco diferentes.
+Os segmentos aplicados a painéis do Workspace funcionam de uma forma um pouco diferente que os segmentos aplicados a relatórios de fallout e de fluxo no Reports &amp; Analytics e na Ad Hoc Analysis. Na maior parte do tempo, eles fornecem os mesmos resultados. A principal diferença é que o Reports &amp; Analytics e a Ad Hoc Analysis aplicam o segmento em cada etapa da sequência. Isso pode ter resultados um pouco diferentes.
 
 Veja um exemplo de fallout de duas etapas:
 
 ![](assets/fallout_segments1.png)
 
-Se você aplicar um segmento no nível do painel da Workspace, o segmento é combinado ao fallout da seguinte forma:
+Se você aplicar um segmento no nível do painel do Workspace, o segmento é combinado ao fallout da seguinte forma:
 
 ![](assets/fallout_seg.png)
 
@@ -50,9 +50,9 @@ Por contraste, quando o Reports &amp; Analytics e a Ad Hoc Analysis calculam o s
 
 O Reports &amp; Analytics e a Ad Hoc Analysis combinam o segmento a cada etapa. Quando os contêineres estão no mesmo nível que o fallout (nível de visita ou de visitante, por exemplo), isso resultará na correspondência do nome de visitas ou de visitantes.
 
-Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias o número na Analysis Workspace corresponde àqueles no Reports &amp; Analytics e na Ad Hoc Analysis. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
+Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias o número no Analysis Workspace corresponde àqueles no Reports &amp; Analytics e na Ad Hoc Analysis. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
 
 * O segmento não está no mesmo nível do fallout.
 * O segmento possui uma variável na qual o visitante/visita pode ter vários valores durante uma visita/visitante.
 
-No raro caso de precisar ter correspondência entre a Analysis Workspace e o Reports &amp; Analytics em relação à forma de aplicar segmentos para fallout/fluxo, basta colocar o segmento em cada etapa do fallout na Workspace e isso resultará nos mesmos números.
+No raro caso de precisar ter correspondência entre o Analysis Workspace e o Reports &amp; Analytics em relação à forma de aplicar segmentos para fallout/fluxo, basta colocar o segmento em cada etapa do fallout no Workspace e isso resultará nos mesmos números.
