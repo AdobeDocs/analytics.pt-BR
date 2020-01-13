@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -18,15 +18,15 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
    + [Gerenciar feeds de dados](analytics-data-feed/df-manage-feeds.md)
    + [Gerenciar trabalhos do feed de dados](analytics-data-feed/df-manage-jobs.md)
    + Conteúdos do feed de dados {#data-feed-contents}
-      + [Visão geral do conteúdo do feed de dados](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Visão geral dos conteúdos do feed de dados](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Pesquisa de evento de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Perguntas frequentes sobre o feed de dados](analytics-data-feed/df-faq.md)
    + [Práticas recomendadas do feed de dados](analytics-data-feed/data-feeds-best-practices.md)
-   + [Solução de problemas de feeds de dados](analytics-data-feed/feed-troubleshooting.md)
+   + [Solução de problemas dos feeds de dados](analytics-data-feed/feed-troubleshooting.md)
    + [Solução de problemas de tarefas](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Visão geral do Data Warehouse](data-warehouse/data-warehouse.md)
