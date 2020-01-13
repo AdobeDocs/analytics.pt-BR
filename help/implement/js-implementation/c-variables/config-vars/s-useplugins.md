@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ Quando [!UICONTROL usePlugins] for 'true', a função *`s_doPlugins`* será cham
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | N/A | Verdadeiro |
+| N/D | N/D | N/D | Verdadeiro |
 
 ## Sintaxe e valores possíveis
 
