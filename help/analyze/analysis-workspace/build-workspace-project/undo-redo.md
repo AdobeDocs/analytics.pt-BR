@@ -1,8 +1,8 @@
 ---
-description: Alterações e aprimoramentos feitas à opção de Desfazer na Analysis Workspace.
+description: Alterações e aprimoramentos feitas à opção de Desfazer no Analysis Workspace.
 title: Configurações Desfazer e Refazer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Configurações Desfazer e Refazer
 
-**[!UICONTROL Área de trabalho]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Desfazer/Refazer]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL [projeto]]** &gt; **[!UICONTROL Desfazer/Refazer]**
 
-* A opção **[!UICONTROL Refazer]** (para refazer uma ação desfeita) pode ser encontrada no menu **Editar[!UICONTROL .]**
+* A opção **[!UICONTROL Refazer]** (para refazer uma ação desfeita) pode ser encontrada no menu **[!UICONTROL Editar]**.
 
-* Clicar em **[!UICONTROL Salvar]** não limpa a pilha de **Desfazer[!UICONTROL .]**
+* Clicar em **[!UICONTROL Salvar]** não limpa a pilha de **[!UICONTROL Desfazer]**.
 
-* **[!UICONTROL Novo projeto]** ou **[!UICONTROL Abrir projeto existente]** limpa a pilha de **Desfazer**
+* **[!UICONTROL Novo projeto]** ou **[!UICONTROL Abrir projeto existente]** limpa a pilha de **[!UICONTROL Desfazer]**
 
 * É possível desfazer/refazer uma alteração no conjunto de relatórios.
 * Uma mensagem de desfazer/refazer próxima ao nome do projeto indica quando uma ação de desfazer ou refazer estiver em andamento.
-* Você pode usar essas [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* Você pode usar estas [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * CTRL(CMD)+Z para Desfazer
    * CTRL(CMD)+SHIFT+Z para Refazer
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## O que pode ser refeito ou desfeito {#section_1E94152CC206470D84FC11710311DA12}
 
 * Preparação
 * Limpar tudo
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Editar descrição
 * Duplicar visualização
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## O que não pode ser refeito ou desfeito {#section_65BB313E048F4744B692926362873230}
 
 * Informações do projeto e alterações em configurações (Adicionar tags, Alterar descrição, Configuração de contagem de instâncias repetidas)
 * Definir como página de aterrissagem
