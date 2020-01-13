@@ -2,7 +2,7 @@
 description: 'null'
 title: Visualizar dimensões
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Visualizar dimensões
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## Visualização da dimensão {#section_13D5A69AE6194715A721BC87D283F6F2}
 
-Passe o mouse sobre o ícone de informações (i) localizado próximo a uma dimensão. Serão exibidos os 5 principais valores para dimensões que não são de tempo (e 15 para dimensões de tempo). Costumávamos mantes esses valores estáticos (ou seja, os 5 valores escolhidos nunca eram alterados). 
+Passe o mouse sobre o ícone de informações (i) localizado próximo a uma dimensão. Serão exibidos os 5 principais valores para dimensões que não são de tempo (e 15 para dimensões de tempo). Costumávamos mantes esses valores estáticos (ou seja, os 5 valores escolhidos nunca eram alterados).
 
 ![](assets/dimension-preview.png)
 
@@ -24,8 +24,8 @@ A partir de agora, por padrão, mostramos valores dinâmicos em vez de estático
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## Mostrar itens da dimensão {#section_A074B3A984634AC7B1362889088E0A42}
 
-Ao passar o mouse sobre uma dimensão e clicar na seta para a direita cinza próxima a ela, é exibida uma lista de itens de dimensão. Uma lista de itens de dimensão normalmente mostra os itens principais referentes aos últimos 30 dias. 
+Ao passar o mouse sobre uma dimensão e clicar na seta para a direita cinza próxima a ela, é exibida uma lista de itens de dimensão. Uma lista de itens de dimensão normalmente mostra os itens principais referentes aos últimos 30 dias.
 
-Ao rolar para o final da lista, você verá **[!UICONTROL Mostrar itens principais dos últimos 6 meses]**. Clique nessa opção para ver os itens de dimensão principais referentes aos últimos 180 dias.
+Ao rolar para o final da lista, você verá **[!UICONTROL Mostrar itens superiores dos últimos 6 meses]**. Clique nessa opção para ver os itens superiores da dimensão nos últimos 180 dias.
