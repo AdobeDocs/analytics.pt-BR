@@ -2,7 +2,7 @@
 description: 'null'
 title: Alertas inteligentes - Casos de uso
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Isso pré-preenche instantaneamente o Criador de alertas para criar um alerta co
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidar (empilhar) alertas em vez de criar vários alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidar (empilhar) alertas em vez de criar vários alertas  {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 O empilhamento de alertas garante que os alertas sejam combinados e você não receba vários alertas separados.
 
