@@ -2,7 +2,7 @@
 description: Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos HTTP e sinais de dados nas chamadas de encaminhamento pelo lado do servidor.
 title: Referência de dados e de código do encaminhamento pelo lado do servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,11 +14,11 @@ Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos
 
 ## Variáveis de configuração {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). Consulte também [Atributos suportados para chamadas de API DCS](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em nível de sistema usados pelos [servidores de coleta de dados](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/system-components/components-data-collection.translate.html) (DCS). Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parâmetro | Descrição |
 |--- |--- |
-| d_rs | (É definido com encaminhamento pelo lado do servidor baseado em servidor de rastreamento/legado) <br>Defina para os conjuntos de relatórios enviados com a ocorrência para o Analytics. |
+| d_rs | (É definido com encaminhamento pelo lado do servidor baseado em servidor de rastreamento/herdado) <br>Defina para os conjuntos de relatórios enviados com a ocorrência para o Analytics. |
 | d_dst_filter | (É definido com o encaminhamento pelo lado do servidor baseado em conjunto de relatórios) <br>Defina para as IDs do conjunto de relatórios enviadas com a ocorrência para o Analytics. |
 | d_dst | Defina d_dst=1<br> se a solicitação ao Analytics estiver esperando que o conteúdo sobre o destino seja retornado para o cliente. |
 | d_mid | A Experience Cloud ID enviada ao Analytics. |
@@ -40,7 +40,7 @@ Esses cabeçalhos são campos que contêm informações como solicitações de d
 
 ## Sinais definidos pelo cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. Consulte também [Atributos suportados para chamadas de API DCS](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Sinal | Descrição |
 |--- |--- |
@@ -49,14 +49,14 @@ Parameters prefixed with `c_` identify customer-defined variables. Consulte tamb
 | c_channel | Definido por s.channel . |
 | c_clientDateTime | Carimbo de data e hora formatado como dd/mm/aaaa hh:mm:ss W TZ .    TZ está em minutos e corresponde o retorno do método Date.getTimezoneOffset. |
 | c_colorDepth | Especificado como uma cor de 16 ou 32 bits. |
-| c_connectionType | Especifica o tipo de conexão. As opções incluem:<ul><li>modem</li><li>lan</li></ul> |
+| c_connectionType | Especifica o tipo de conexão. As opções incluem: <ul><li>modem</li><li>lan</li></ul> |
 | c_contextData.* | Exemplos:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Sinal: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | Especifica se cookies podem ser habilitados. As opções incluem: sim, não, desconhecido |
+| c_cookiesEnabled | Especifica se cookies podem ser habilitados. As opções incluem:  sim, não, desconhecido |
 | c_currencyCode | Tipo de moeda usada na transação. |
 | c_evar# | eVars personalizadas |
 | c_events | Definido por s.events . |
 | c_hier# | Variáveis personalizadas de hierarquia. |
-| c_javaEnabled | Especifica se o Java pode ser habilitado. As opções incluem: sim, não, desconhecido |
+| c_javaEnabled | Especifica se o Java pode ser habilitado. As opções incluem:  sim, não, desconhecido |
 | c_javaScriptVersion | Versão do JavaScript suportada por um navegador. |
 | c_latitude | Latitude numérica |
 | c_linkClick | As opções incluem: custom, download exit |
@@ -65,7 +65,7 @@ Parameters prefixed with `c_` identify customer-defined variables. Consulte tamb
 | c_linkExitURL | O URL do link de saída. |
 | c_list# | Variáveis personalizadas de lista. |
 | c_longitude | Longitude numérica. |
-| c_mediaPlayerType | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:  outros, primetime |
+| c_mediaPlayerType | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:  other, primetime |
 | c_pageName | O nome da página (se definido). |
 | c_pageURL | O endereço da página na barra de endereço do navegador. |
 | c_products | A string do produto (definido por s.products ). |
