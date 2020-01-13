@@ -2,7 +2,7 @@
 description: Dias desde a última visita é uma dimensão do Analytics incluída pronto para uso na Analysis Workspace.
 title: Dias desde a última visita
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Dias desde a última visita
 
-Dias desde a última visita é uma dimensão do Analytics incluída pronto para uso na Analysis Workspace.
+Dias desde a última visita  é uma dimensão do Analytics incluída pronto para uso na Analysis Workspace.
 
 Determina o número de dias desde que um usuário visitou seu site pela última vez. Se uma ocorrência inicia uma nova visita, o carimbo de data e hora da última ocorrência é verificado (caso haja), e a visita é colocada em bucket com base na quantidade de dias da úntima ocorrência.
 
