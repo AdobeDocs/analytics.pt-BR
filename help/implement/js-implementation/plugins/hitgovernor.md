@@ -2,7 +2,7 @@
 description: O plug-in s.hitGovernor rastreia o número total de solicitações de imagem do Analytics enviadas durante um intervalo de tempo predefinido e pode executar lógica adicional, se necessário, caso esse total exceda um determinado limite.
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,9 +16,9 @@ Embora o tráfego de bots, spiders, agentes de usuário específicos ou de uma l
 
 A utilização desse plug-in permite o bloqueio automático desse tráfego para o restante da vida útil do visitante, e esse tráfego também pode ser identificado dinamicamente nos relatórios.
 
-## Como funciona o plug-in HitGovernor {#section_541BC639E31442D09B1C85A2FFCDC02C}
+## Como funciona o plug-in HitGovernor  {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-O plug-in incrementa um valor de cookie cada vez que uma solicitação de imagem é enviada para os servidores de rastreamento e rastreia ao longo de um intervalo de tempo contínuo. O intervalo de tempo padrão é de um minuto, embora possa ser substituído. (Consulte [Implementação](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) abaixo). Se o número total de hits durante esse intervalo de tempo exceder o limite de hits padrão (60), uma solicitação de imagem do link personalizado final será enviada para definir a variável de dados de contexto *`exceptionFlag`*. O limite de hit padrão também pode ser substituído.
+O plug-in incrementa um valor de cookie cada vez que uma solicitação de imagem é enviada para os servidores de rastreamento e rastreia ao longo de um intervalo de tempo contínuo. O intervalo de tempo padrão é de um minuto, embora possa ser substituído. (Consulte  [Implementação](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) abaixo). Se o número total de hits durante esse intervalo de tempo exceder o limite de hits padrão (60), uma solicitação de imagem do link personalizado final será enviada para definir a variável de dados de contexto *`exceptionFlag`*. O limite de hit padrão também pode ser substituído.
 
 Se desejado, a partir desse ponto, o tráfego pode ser impedido de ser coletado para esse visitante específico por um período padrão de sessenta dias. Bloquear o tráfego exige uma linha adicional de código na função doPlugins, conforme descrito abaixo. O intervalo de tempo também pode ser ajustado. A lógica permite que o tempo inclua o endereço IP desse visitante, o Agente do usuário ou a ID de visitante da [!DNL Experience Cloud] na lógica de exceção permanente adequada ou para redefinir o período de tempo limite após o decurso de sessenta dias. Se esse tráfego for identificado como fraudulento pelo plug-in após sessenta dias, ele será sinalizado novamente como uma exceção e não será coletado por mais sessenta dias.
 
@@ -53,7 +53,7 @@ Para implementar o plug-in hitGovernor:
    }); 
    ```
 
-   Abaixo da seção doPlugins do arquivo AppMeasurement, inclua o código do plug-in contido em [Código fonte do plug-in](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0) abaixo.
+   Abaixo da seção doPlugins do arquivo AppMeasurement, inclua o código do plug-in contido em  [Código fonte do plug-in](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0) abaixo.
 
    O limite de hit, o limite de tempo de hit e os intervalos de tempo de exclusão de tráfego podem ser substituídos, definindo as seguintes variáveis fora do próprio plug-in e, de preferência, com suas outras variáveis de configuração:
 
@@ -105,7 +105,7 @@ Para implementar o plug-in hitGovernor:
 
    Se o código não for incluído, o tráfego do visitante será sinalizado, mas não bloqueado.
 
-## Código fonte do plug-in {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## Código fonte do plug-in  {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
 Esse código deve ser adicionado abaixo da seção doPlugins da biblioteca AppMeasurement.
 
