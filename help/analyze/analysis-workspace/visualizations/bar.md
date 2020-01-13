@@ -1,14 +1,14 @@
 ---
 description: 'null'
-title: Barra e Barra empilhada
+title: Barra e barra empilhada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Barra e Barra empilhada
+# Barra e barra empilhada
 
 ## Barra {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
 
@@ -18,9 +18,9 @@ Esta visualização mostra barras verticais que representam vários valores de u
 
 Uma opção suspensa de granularidade nas configurações de visualização permite alterar uma visualização com tendência (por exemplo, linha, barra) de diária para semanal, mensal etc.
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## Barra empilhada {#section_9EA83779AE964635907EE5031A785A49}
 
-Esta visualização se parece com um gráfico de barra, mas apresenta barras de série empilhadas.
+Esta visualização se parece com um gráfico de barras, mas apresenta barras de série empilhadas.
 
 ![](assets/bar-stacked.png)
 
