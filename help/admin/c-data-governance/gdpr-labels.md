@@ -20,11 +20,11 @@ Antes de descobrir quais rótulos devem ser aplicados a quais campos/variáveis,
 
 A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos seguintes rótulos para dados de identidade, dados sensíveis e governança de dados.
 
-## Rótulos de DULE  {#section_B2E78130957647338495EF37DE21D6BC}
+## Rótulos de DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
 > [!NOTE] A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
 
-## Rótulos de dados de identidade (DULE)  {#identity-data-labels}
+## Rótulos de dados de identidade (DULE) {#identity-data-labels}
 
 Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica.
 
@@ -58,7 +58,7 @@ Os rótulos “I” de dados de identidade são usados para classificar dados qu
  </tbody> 
 </table>
 
-## Rótulos de dados sensíveis (DULE)  {#sensitive-data-labels}
+## Rótulos de dados sensíveis (DULE) {#sensitive-data-labels}
 
 Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais.
 
@@ -200,7 +200,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
  </tbody> 
 </table>
 
-## Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo.
 
@@ -288,7 +288,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
  </tbody> 
 </table>
 
-## Variáveis às quais podem ser atribuídos outros rótulos além de ACC-ALL/ACC-PERSON/modificados  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variáveis às quais podem ser atribuídos outros rótulos além de ACC-ALL/ACC-PERSON/modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -351,7 +351,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
  </tbody> 
 </table>
 
-## Lidar com exclusões  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Lidar com exclusões {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não-identicáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
@@ -439,7 +439,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
  </tbody> 
 </table>
 
-## Campos de data para solicitações de acesso  {#section_6678FB4FF42B481C9B78E64F61782397}
+## Campos de data para solicitações de acesso {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Há cinco variáveis padrão que contêm carimbos de data e hora:
 
