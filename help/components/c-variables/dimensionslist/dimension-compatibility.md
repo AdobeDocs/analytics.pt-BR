@@ -1,7 +1,7 @@
 ---
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Compatibilidade de dimensões do Analytics
 
-Este artigo de referência lista dimensões/relatórios suportados no Relatórios e análises e na Analysis Workspace, somente na Analysis Workspace e somente no Relatórios e análises.
+Este artigo de referência lista as dimensões/relatórios compatíveis com o Reports &amp; Analytics e a Analysis Workspace, somente com a Analysis Workspace e somente com o Reports &amp; Analytics.
 
 Lembre-se que
 
 * Essas não são listas detalhadas. Cada conjunto de relatórios pode ou não ter um conjunto determinado de variáveis de produto ativado. Além disso, qualquer conjunto de relatórios pode ter inúmeras variáveis personalizadas ativadas, desativadas ou mapeadas a variáveis de produto. Também deixamos de lado os atributos de visitante e classificações, por serem exclusivos de cada conjunto de relatórios.
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* Há alguns casos de sobreposição, em que as ferramentas do Analytics usam diferentes termos para basicamente a mesma coisa, por exemplo: `browserwidth` e `browserwidthbucketed`.
 
 ## Dimensões compatíveis com o Reports &amp; Analytics e a Analysis Workspace
 
@@ -25,15 +25,15 @@ Lembre-se que
 | ID de públicos-alvo | mcaudiences |
 | Navegador | navegador |
 | Tipo de navegador | browsertype |
-| Categoria | category |
+| Categoria | categoria |
 | Cidades | geocity |
 | Intensidade de cor | colordepth |
 | Tipo de conexão | connectiontype |
 | Suporte a cookies | cookie |
 | Países | geocountry |
 | Fidelidade do Cliente | customerloyalty |
-| Vars de conversão personalizada | evar1, evar2 etc. |
-| Vars de insight personalizado | prop1, prop2 etc. |
+| Vars de conversão personalizada | evar1, evar2, etc. |
+| Vars de Insight personalizado | prop1, prop2, etc. |
 | Link Personalizado | customlink |
 | Dias Antes da Primeira Compra | daysbeforefirstpurchase |
 | Dias Desde a Última Compra | dayssincelastpurchase |
@@ -45,7 +45,7 @@ Lembre-se que
 | Canal de Primeiro Contato | firsttouchchannel |
 | Detalhe de Canal de Primeiro Contato | firsttouchchanneldetail |
 | Java ativado | javaenabled |
-| Idioma | language |
+| Idioma | idioma |
 | Canal de Último Contato | lasttouchchannel |
 | Detalhe de Canal de Último Contato | lasttouchchanneldetail |
 | Variáveis da Lista | listvariables |
@@ -53,13 +53,13 @@ Lembre-se que
 | Suporte a Áudio Remoto | mobileaudiosupport |
 | Operadora de celular | mobilecarrier |
 | Intensidade de Cor Remota | mobilecolordepth |
-| Suporte a Cookie Remoto | mobilecookiesupport |
+| Suporte a cookie em dispositivo móvel | mobilecookiesupport |
 | Dispositivo móvel | mobiledevicename |
 | Tipo de dispositivo móvel | mobiledevicetype |
 | Extensão máx. de email móvel | mobileemaillength |
-| Suporte a Imagem Remota | mobileimagesupport |
+| Suporte a imagem em dispositivo móvel | mobileimagesupport |
 | Fabricante Remoto | mobilemanufacturer |
-| Sistema operacional remoto (obsoleto) | mobileos |
+| Sistema operacional móvel (obsoleto) | mobileos |
 | Altura da Tela Remota | mobilescreenheight |
 | Tamanho da tela remota | mobilescreensize |
 | Largura da Tela Remota | mobilescreenwidth |
@@ -71,7 +71,7 @@ Lembre-se que
 | Página | página |
 | Páginas não encontradas | pagesnotfound |
 | Produto | produto |
-| Referenciador | referrer |
+| Referenciador | referenciador |
 | Tipo de referenciador | referrertype |
 | Domínio de referência | referringdomain |
 | Regiões | georegion |
@@ -84,7 +84,7 @@ Lembre-se que
 | Palavra-chave de pesquisa - Natural | searchenginenaturalkeyword |
 | Palavra-chave de pesquisa - Paga | searchenginepaidkeyword |
 | Toda a classificação da página de pesquisa | searchenginepagerank |
-| Servidor | server |
+| Servidor | servidor |
 | Visitas únicas à página | singlepagevisits |
 | Seção do site | sitesections |
 | Tempo gasto por visita - Granular | sitetime |
@@ -110,11 +110,11 @@ Lembre-se que
 | Dias da semana | timepartdayofweek |
 | Dia do ano | timepartdayofyear |
 | Dias desde a última visita | dayssincelastvisit |
-| Entrada de insights personalizados | entryprops |
+| Entrada de Insights personalizados | entryprops |
 | Entrada de variáveis de lista | entrylistvariables |
 | Servidor de entrada | entryserver |
 | Entrada de seção do site | entrysitesections |
-| Saída de insights personalizados | exitprops |
+| Saída de Insights personalizados | exitprops |
 | Saída de variáveis de lista | exitlistvariables |
 | Página de Saída | exitpage |
 | Saída do servidor | exitserver |
@@ -164,7 +164,7 @@ Lembre-se que
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
 | Altura da janela do navegador | browserheight |
-| Largura | browserwidth |
+| Largura da janela do navegador | browserwidth |
 | Clientes únicos diários | dailyuniquecustomers |
 | JavaScript | javascriptsupport |
 | Versão do JavaScript | javascriptversion |
@@ -246,10 +246,10 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
-| Conteúdo | video |
+| Conteúdo | vídeo |
 | Segmento de conteúdo | videosegment |
 | Tipo de conteúdo | videocontenttype |
-| Nome do player do anúncio | videoadplayername |
+| Nome do reprodutor do anúncio | videoadplayername |
 | Posição do anúncio no pod | videoadinpod |
 | Queda de quadros | videoqoedroppedframecountevar |
 | Erros | videoqoeerrorcountevar |
@@ -261,7 +261,7 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 | Pod de anúncios | videoadpod |
 | Caminho da mídia | videopath |
 | Publicidade | videoad |
-| Nome do player de conteúdo | videoplayername |
+| Nome do reprodutor de conteúdo | videoplayername |
 | Canal de conteúdo | videochannel |
 | Capítulo | videochapter |
 | Nome do conteúdo (variável) | videoname |
@@ -309,8 +309,8 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 | Propriedade x aplicativo possuídos | socialownedpropertypropertyvsapp |
 | Nome de propriedade possuído | socialownedpropertyname |
 | Propriedade de definição x post possuída | socialowneddefinitionpropertyvspost |
-| Tipos de insight de definição possuído | socialowneddefinitioninsighttype |
-| Valor de insight de definição possuído | socialowneddefinitioninsightvalue |
+| Tipos de Insight de definição possuído | socialowneddefinitioninsighttype |
+| Valor de Insight de definição possuído | socialowneddefinitioninsightvalue |
 | Métrica de definição possuída | socialowneddefinitionmetric |
 | Ativo | socialmediaid |
 
@@ -358,7 +358,7 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 | AMO EF ID | amo_ef_id |
 | ID do AMO | amo_cid |
 
-### Página do 
+### Activity Map
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
@@ -369,7 +369,7 @@ O Reports &amp; Analytics contém vários relatórios pré-configurados que não
 
 ### Integração Nielsen
 
-Para obter mais informações sobre como implementar esta integração, consulte [Parceria Nielsen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+Para obter mais informações sobre como implementar esta integração, consulte [Parceria Nielsen](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
