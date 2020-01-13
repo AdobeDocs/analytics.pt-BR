@@ -17,11 +17,11 @@ Se seus clientes (consumidores/titulares de dados) quiserem saber quais dados vo
 
 Você também pode querer garantir que seus aplicativos e sites para dispositivos móveis tenham avisos pop-up relevantes e materiais de apoio sobre os direitos dos titulares de dados em relação a seus dados direta ou indiretamente identificáveis, além de outros dados que você coletar.
 
-## Gerenciar o consentimento do consumidor  {#section_3012015E7E8942519FB9279CF7057EAB}
+## Gerenciar o consentimento do consumidor {#section_3012015E7E8942519FB9279CF7057EAB}
 
 Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por [implementar um mecanismo de recusa](https://marketing.adobe.com/resources/help/pt_BR/dtm/opt-in.html) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
 
-## Validar usuários e seus dados  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Validar usuários e seus dados {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 Você, como controlador de dados, é responsável por verificar se o titular dos dados é quem diz ser e se tem direito aos dados que está solicitando. Além disso, é sua responsabilidade garantir que os dados corretos sejam retornados ao titular dos dados e que ele não receba, inadvertidamente, dados sobre outros titulares.
 
@@ -29,13 +29,13 @@ Isso inclui revisar os dados retornados pelo Adobe Analytics como parte de uma s
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
 
-## Enviar solicitações  {#submit-requests}
+## Enviar solicitações {#submit-requests}
 
 Você pode enviar acesso à Privacidade de dados e excluir solicitações por meio do portal da [interface do usuário da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou por meio da nossa [API da Privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 > [!NOTE] A API da Privacidade de dados suporta envios em massa de vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
-## Solicitação JSON de exemplo  {#sample-json-request}
+## Solicitação JSON de exemplo {#sample-json-request}
 
 Este é o JSON que pode ser enviado por meio da API da Privacidade de dados ou da interface do usuário, solicitando o processamento da Privacidade de dados para três usuários.
 
