@@ -2,7 +2,7 @@
 description: 'null'
 title: Criador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Alertas inteligentes estão disponíveis somente para clientes do Adobe Analytics Prime e do Adobe Analytics Ultimate.
+>Os Alertas inteligentes estão disponíveis somente para clientes do Adobe Analytics Prime e do Adobe Analytics Ultimate.
 
-## Criador de alertas de acesso
+## Acessar o Criador de alertas
 
 Acesse o Criador de alertas de uma das seguintes formas:
 
-* Usando o seguinte atalho na Analysis Workspace:
+* Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* Acessando **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Novo alerta]**.
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* A partir de um relatório do Reports &amp; Analytics, acessando **[!UICONTROL Mais]** &gt; **[!UICONTROL Adicionar alerta]**.
 
 ## Criar alertas
 
@@ -49,13 +49,13 @@ Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>O telefone deve ser precedido por um “+” e um [código de país](https://countrycode.org/).
 
-O e-mail que um usuário receberia depois que um alerta é acionado é semelhante a:
+O email que um usuário receberia depois que um alerta é acionado é semelhante ao modelo abaixo:
 
 ![](assets/alerts-email.PNG)
 
-**Data de validade**
+**Data de expiração**
 
 Defina a data de expiração do alerta.
 
@@ -65,7 +65,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Será exibida uma mensagem **“componentes incompatíveis”** se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
    * a anomalia existe
