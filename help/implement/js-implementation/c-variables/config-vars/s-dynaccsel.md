@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ A variável permite a seleção dinâmica de conjunto de relatórios com base no
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | N/A | Falso. |
+| N/D | N/D | N/D | Falso. |
 
 > [!NOTE]`dynamicAccountList` e `dynamicAccountMatch` são ignorados se a variável `dynamicAccountSelection` não for declarada ou se estiver definida como 'false'.
 
@@ -45,6 +45,6 @@ Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
-* A seleção de conta dinâmica não é compatível com [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* A seleção de conta dinâmica não é compatível com [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Sempre use o [!DNL DigitalPulse Debugger] para determinar qual conjunto de relatórios está recebendo dados de cada página.
