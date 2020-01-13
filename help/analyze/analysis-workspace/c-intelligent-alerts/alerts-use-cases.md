@@ -1,14 +1,14 @@
 ---
 description: 'null'
-title: Alertas inteligentes - Casos de uso
+title: 'Alertas inteligentes: casos de uso'
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Alertas inteligentes - Casos de uso
+# Alertas inteligentes: casos de uso
 
 ## Criar alertas simples filtrados por dois segmentos {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
@@ -26,13 +26,13 @@ Nas Tabelas de forma livre, agora você pode criar alertas de contexto, clicando
 
 ![](assets/alert_selection.png)
 
-Isso pré-preenche instantaneamente o Criador de alertas para criar um alerta com as métricas e filtros corretos.
+Essa ação preenche o Criador de alertas automaticamente para criar um alerta com as métricas e os filtros corretos.
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidar (empilhar) alertas em vez de criar vários alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
-O empilhamento de alertas garante que os alertas sejam combinados e você não receba vários alertas separados.
+O empilhamento de alertas combina os alertas para que você não receba vários alertas separados.
 
 ![](assets/alerts_example2.png)
 
