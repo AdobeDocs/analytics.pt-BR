@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 A variável usa o objeto do DOM com a finalidade de recuperar a seção do URL a qual todas as regras em se aplicam.
 
-Essa variável é válida somente quando *`dynamicAccountSelection`* está definida como "Verdadeiro". Como o valor padrão é [!DNL window.location.host], essa variável não é necessária para que a [!UICONTROL Seleção de Conta Dinâmica] funcione. Para obter mais informações, consulte [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Essa variável é válida somente quando *`dynamicAccountSelection`* está definida como "Verdadeiro". Como o valor padrão é [!DNL window.location.host], essa variável não é necessária para que a [!UICONTROL Seleção de Conta Dinâmica] funcione. Para obter mais informações, consulte [dynamicAccountList](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 As regras encontradas em `dynamicAccountList` são aplicadas ao valor de `dynamicAccountMatch`. Se `dynamicAccountMatch` contiver apenas [!DNL window.location.host] (padrão), as regras em `dynamicAccountList` serão aplicadas somente ao domínio da página.
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | N/A | window.location.host |
+| N/D | N/D | N/D | window.location.host |
 
 ## Sintaxe e valores possíveis
 
@@ -54,7 +54,7 @@ Nenhum
 
 ## Armadilhas, dúvidas e dicas
 
-* A seleção de conta dinâmica não é compatível com [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* A seleção de conta dinâmica não é compatível com [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Quando as páginas são salvas em um disco rígido, [!DNL window.location.host] fica em branco, fazendo com que as exibições de página sejam enviadas para o conjunto de relatórios padrão (em `s_account`).
 
