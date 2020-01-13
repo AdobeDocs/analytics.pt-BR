@@ -2,7 +2,7 @@
 description: É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com uma programação.
 title: Compartilhar e programar arquivos de projeto
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com uma programação.
 
-**[!UICONTROL Local de trabalho]** &gt; **[!UICONTROL Compartilhar]**
+**[!UICONTROL Espaço de trabalho]** &gt; **[!UICONTROL Compartilhar]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
