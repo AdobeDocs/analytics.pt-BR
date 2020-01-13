@@ -1,7 +1,7 @@
 ---
 title: Guia do usuário do Labs
 description: Visualizar projetos de protótipo do Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,45 +10,45 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Guia do usuário do Labs
 
->[!NOTE] Atualmente, os laboratórios são lançados com acesso antecipado a um número limitado de clientes, mas serão amplamente lançados posteriormente.
+>[!NOTE] Atualmente, o Labs é lançado com acesso antecipado a um número limitado de clientes, mas será lançado amplamente em seguida.
 
-Os laboratórios permitem a prototipagem mais rápida de ideias em fase inicial. É uma combinação de ferramentas e processos que acelera o desenvolvimento de forma transparente, com foco no cliente. Permite que os usuários se envolvam com tecnologias emergentes, descubram informações valiosas e influenciem o desenvolvimento e as prioridades de recursos futuros. Você pode usar os Labs para obter acesso antecipado às inovações do Analytics e avaliar os recursos futuros no contexto de casos de uso e dados de sua empresa.
+O Labs permite a prototipagem mais rápida de ideias em fase inicial. É uma combinação de ferramentas e processos que acelera o desenvolvimento de forma transparente, com foco no cliente. Isso permite que os usuários se envolvam com tecnologias emergentes, descubram informações valiosas e influenciem o desenvolvimento e as prioridades de recursos futuros. Você pode usar o Labs para obter acesso antecipado às inovações do Analytics e avaliar os recursos futuros no contexto de casos de uso e dados de sua empresa.
 
 ## Requisitos
 
-Os laboratórios são ativados automaticamente para todos os administradores. Outros membros da equipe devem entrar em contato com os administradores do produto e solicitar acesso.
+O Labs é ativado automaticamente para todos os administradores. Outros membros da equipe devem entrar em contato com os administradores do produto e solicitar acesso.
 
 Se você ainda não tiver feito isso, leia e assine os formulários do Contrato de não divulgação e dos Termos e condições aplicáveis.
 
-## Acesse o portal de laboratórios
+## Acesse o portal do Labs
 
-Para acessar Labs:
+Para acessar o Labs:
 
-1. Se você ainda não tiver acesso ao Workspace e Labs, peça permissões ao administrador.
+1. Caso ainda não tenha acesso ao Workspace e ao Labs, peça permissões ao administrador.
 
-1. Click the **Labs** tab.
+1. Clique na guia **Labs**.
 
 ## Avaliar um protótipo
 
 Para iniciar e avaliar um protótipo:
 
-1. Na tela Labs, clique no botão **Iniciar** do protótipo que você deseja ver. Quando o protótipo for iniciado, você verá seu nome no canto superior esquerdo do ambiente do protótipo.
+1. Na tela do Labs, clique no botão **Iniciar** do protótipo que deseja ver. Quando o protótipo for iniciado, você verá seu nome no canto superior esquerdo do ambiente do protótipo.
 
    ![nome do protótipo](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Assista a um vídeo que destaca o protótipo clicando em **Assista ao vídeo** no canto superior direito da tela. Clique no botão **Fechar** quando o vídeo for concluído.
+1. Assista ao vídeo que destaca o protótipo clicando em **Assistir ao vídeo** no canto superior direito da tela. Clique no botão **Fechar** quando o vídeo for concluído.
 
    ![opções de visualizações](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Trabalhe com o protótipo. Ao trabalhar no ambiente de protótipo:
+1. Trabalhar com o protótipo. Ao trabalhar no ambiente de protótipo:
 
 * Os projetos criados no ambiente de protótipo não podem ser salvos ou compartilhados.
 
-* Em um protótipo, é possível avaliar os dados com qualquer dimensão, métrica, segmento e visualização que você tenha acesso no Workspace.
+* Em um protótipo, é possível avaliar os dados com qualquer dimensão, métrica, segmento e visualização que você tenha acesso a partir do Workspace.
 
 * Quaisquer alterações feitas em um protótipo não afetarão a coleta ou o processamento de dados.
 
-* As alterações feitas por meio da criação ou modificação de segmentos, métricas calculadas e alertas persistem fora do ambiente de protótipo.
+* As alterações feitas ao criar ou modificar segmentos, métricas calculadas e alertas são mantidas fora do ambiente do protótipo.
 
 ## Deixar feedback
 
@@ -58,7 +58,7 @@ Para iniciar e avaliar um protótipo:
 
 1. Clique em **Enviar** para enviar seu feedback.
 
-1. Para tentar um protótipo diferente ou sair do ambiente de protótipo, clique no botão **Deixar protótipo** no canto superior direito da tela e conclua a breve pesquisa do protótipo. Quaisquer mudanças feitas em um projeto de protótipo são perdidas ao sair do ambiente de protótipo.
+1. Para experimentar um protótipo diferente ou sair do ambiente do protótipo, clique no botão **Sair do protótipo**, no canto superior direito da tela, e conclua a breve pesquisa do protótipo. As mudanças feitas em um projeto de protótipo são perdidas ao sair do ambiente do protótipo.
 
    ![nova caixa de comentários](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
@@ -66,5 +66,5 @@ Para iniciar e avaliar um protótipo:
 
 ## Informações adicionais
 
-* Alguns protótipos nos laboratórios se tornam recursos do Analytics, outros podem não. Seus comentários impulsionam a decisão, portanto, reveja os protótipos e informe à Adobe o quanto você os acha valiosos.
-* Os laboratórios estão disponíveis para todos os direitos de SKU.
+* Alguns protótipos no Labs se tornam recursos do Analytics, outros não. Seus comentários guiam a decisão, portanto, reveja os protótipos e informe à Adobe o quanto você os acha valiosos.
+* O Labs está disponível para todos os direitos de SKU.
