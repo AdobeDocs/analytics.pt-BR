@@ -1,7 +1,7 @@
 ---
 title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
 description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de desenvolvimento.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Assim que a biblioteca do Adobe Experience Platform Launch for enviada para prod
 
 O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. Abra o [navegador da Web Chrome](https://www.google.com/chrome/) e acesse o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
 2. Navegue até o site de desenvolvimento em que você implementou o Launch.
 3. Clique no ícone do Adobe Experience Cloud Debugger na parte superior direita do Chrome
 4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, no Adobe Experience Platform Launch e no serviço de ID de visitante da Adobe Experience Cloud:
