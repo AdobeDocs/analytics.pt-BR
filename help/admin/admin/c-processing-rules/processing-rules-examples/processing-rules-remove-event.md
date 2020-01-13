@@ -2,7 +2,7 @@
 description: Mostra como remover/descartar um evento de uma ocorrência com o uso de uma Regra de processamento, sem implementar uma alteração na página.
 title: Remover um evento de uma ocorrência
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
