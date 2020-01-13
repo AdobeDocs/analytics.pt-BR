@@ -2,7 +2,7 @@
 description: 'null'
 title: Paginação, filtragem e classificação de tabelas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Para ter uma visão geral, assista a este vídeo no YouTube:
 
-[Paginação, filtragem e classificação de tabelas na Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Paginação, filtragem e classificação de tabelas no Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
-## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
+## Opções de filtragem avançadas {#section_36E92E31442B4EBCB052073590C1F025}
 
 Clicar no ícone de filtro e, em seguida, em Mostrar avançadas próximo a uma dimensão em uma tabela de forma livre permite filtrar usando o critério a seguir:
 
