@@ -2,7 +2,7 @@
 description: 'null'
 title: Ferramentas administrativas
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Ferramentas administrativas
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]**
 
->[!IMPORTANT] Não abra várias guias Admin no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, caso seja necessário comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou faça uma captura de tela para comparar os conjuntos de regras.
+>[!IMPORTANT] Não abra várias guias Administração no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, caso seja necessário comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou faça uma captura de tela para comparar os conjuntos de regras.
 
 + [Faturamento](billing-admin.md)
 + [Visão geral das regras de bot](bot-removal/bot-rules.md)
