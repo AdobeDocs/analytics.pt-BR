@@ -1,8 +1,8 @@
 ---
-description: Você pode ver e analisar anomalias de dados de forma contextual na Analysis Workspace.
+description: Você pode ver e analisar anomalias de dados de forma contextual no Analysis Workspace.
 title: Visão geral da Detecção de anomalias
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Visão geral da Detecção de anomalias
 
-Você pode exibir e analisar anomalias de dados contextualmente na Analysis Workspace.
+Você pode ver e analisar anomalias de dados de forma contextual no Analysis Workspace.
 
-[Detecção de anomalias no YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Detecção de anomalias no YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[Análise de contribuição no YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Análise de contribuição no YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT] A Detecção de anomalias foi removida do conjunto de recursos de Relatórios e análises e agora está disponível somente na Analysis Workspace. Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation têm acesso apenas à Detecção de anomalias de "granularidade diária" no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+>[!IMPORTANT] A Detecção de anomalias foi removida do conjunto de recursos do Reports &amp; Analytics e agora está disponível apenas por meio da Analysis Workspace. Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation só têm acesso à Detecção de anomalias de “granularidade diária” no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 A Detecção de anomalias oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
 
@@ -31,9 +31,9 @@ Exemplos de anomalias que você pode investigar incluem:
 * Picos em eventos de buffer de vídeo
 * Picos em taxas de vídeo baixas
 
-A Detecção de anomalias e a [Análise de contribuição](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html) são fluxos de trabalho principais na Analysis Workspace. Você pode executar a Análise de contribuição em relação a qualquer anomalia diária e incorporar o resultado ao projeto da Analysis Workspace.
+A Detecção de anomalias e a [Análise de contribuição](https://marketing.adobe.com/resources/help/pt_BR/analytics/contribution/ca_main.html) são fluxos de trabalho principais no Analysis Workspace. Você pode executar a Análise de contribuição em relação a qualquer anomalia diária e incorporar o resultado ao projeto do Analysis Workspace.
 
-O algoritmo de detecção de anomalias da Analysis Workspace inclui
+O algoritmo de detecção de anomalias do Analysis Workspace inclui
 
 * Oferece suporte para granularidade horária, semanal e mensal, além da granularidade diária existente.
 * Oferece conscientização de sazonalidade (como “Black Friday”) e feriados.
