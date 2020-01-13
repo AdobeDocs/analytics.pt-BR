@@ -1,7 +1,7 @@
 ---
 title: Implementação do Analytics para dispositivos móveis
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 Para implementar o Analytics para dispositivos móveis, consulte os seguintes repositórios e documentação do SDK:
 
-## SDKs móveis da plataforma Experience
+## SDKs móveis da Experience Platform
 
 * [Repositório SDK](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
 
@@ -23,14 +23,14 @@ Para implementar o Analytics para dispositivos móveis, consulte os seguintes re
 
 * [Repositório SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
-* [Documentação do iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Documentação do Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [Documentação do iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html)
+* [Documentação do Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/overview.html)
 
-*Observação: Para obter informações sobre o suporte à versão 4, consulte Perguntas frequentes sobre[o fim do suporte dos SDKs móveis](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)da versão 4.*
+*Observação: para obter informações sobre o suporte à versão 4, consulte[Perguntas frequentes sobre o fim do suporte ao Mobile SDKs da versão 4](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq).*
 
 ## AppMeasurement 3.x
 
-*Observação: Os SDKs do AppMeasurement 3.x para dispositivos móveis não são mais compatíveis. No entanto, a documentação para os SDKs está disponível, conforme indicado abaixo.*
+*Observação: os SDKs do AppMeasurement 3.x para dispositivos móveis não são mais compatíveis. No entanto, a documentação dos SDKs está disponível, conforme indicado abaixo.*
 
 * [Documentação do iOS](../../assets/adobe_mobile_ios_3x.pdf)
 * [Documentação do Android](../../assets/android_3x.pdf)
