@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -77,7 +77,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Criar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-create.md)
       + [Gerenciar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-manage.md)
       + [Exibir informações do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-view.md)
-+ Análise entre dispositivos{#cda}
++ Análise entre dispositivos {#cda}
    + [Visão geral da Análise entre dispositivos](cda/cda-home.md)
    + [Configuração da Análise entre dispositivos](cda/cda-setup.md)
    + [Perguntas frequentes sobre a Análise entre dispositivos](cda/cda-faq.md)
@@ -185,7 +185,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Fabricante](c-variables/dimensionslist/reports-manufacturer.md)
       + [Visão geral do canal de marketing](c-variables/dimensionslist/reports-mchannel-overview.md)
       + [Detalhes do canal de marketing - Primeiro e último contato](c-variables/dimensionslist/reports-mchannel-detail.md)
-      + [Mobile](c-variables/dimensionslist/reports-mobile.md)
+      + [Dispositivo móvel](c-variables/dimensionslist/reports-mobile.md)
       + [Operadora de celular](c-variables/dimensionslist/reports-mobile-carrier.md)
       + [Intensidade de cor do monitor](c-variables/dimensionslist/reports-monitor-color-depth.md)
       + [Páginas mais populares](c-variables/dimensionslist/reports-most-popular-pages.md)
@@ -332,7 +332,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Sobre canais e regras](c-marketing-channels/c-channels-rules.md)
    + [Configuração automática](c-marketing-channels/c-channel-autosetup.md)
    + [Gerenciar canais de marketing](c-marketing-channels/c-channels.md)
-   + [Canal interno (Atualização de sessão)](c-marketing-channels/session-refresh.md)
+   + [Canal interno (atualização de sessão)](c-marketing-channels/session-refresh.md)
    + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
    + [Criar regras de processamento de Canal de marketing](c-marketing-channels/t-rules.md)
    + [Regras de processamento de canal de marketing - Definições](c-marketing-channels/r-channel-rule-definitions.md)
