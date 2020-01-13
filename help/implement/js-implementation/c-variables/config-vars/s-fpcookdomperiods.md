@@ -3,7 +3,7 @@ description: As variáveis dinâmicas permitem a cópia de valores de uma variá
 keywords: Analytics Implementation
 solution: null
 title: Variáveis dinâmicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,11 +17,11 @@ A variável *`fpCookieDomainPeriods`* nunca deve ser definida dinamicamente. Se 
 
 O nome "*`fpCookieDomainPeriods`*" se refere ao número de pontos (".") no domínio quando este começa com www. Por exemplo, `www.mysite.com` contém dois pontos, enquanto `www.mysite.co.jp` contém três pontos. Outra maneira de descrever a variável é o número de seções no domínio principal do site (dois para `mysite.com` e três para `mysite.co.jp`).
 
-O [!DNL AppMeasurement] para arquivo JavaScript usa a variável *`fpCookieDomainPeriods`* para determinar o domínio com o qual você deve definir cookies próprios diferentes do cookie da [!UICONTROL ID de visitante] (s_vi). There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Os cookies usados pelos plug-ins como [!UICONTROL getValOnce] também são afetados.
+O [!DNL AppMeasurement] para arquivo JavaScript usa a variável *`fpCookieDomainPeriods`* para determinar o domínio com o qual você deve definir cookies próprios diferentes do cookie da [!UICONTROL ID de visitante] (s_vi). Há pelo menos dois cookies afetados por essa variável, incluindo `s_sq` e `s_cc` (usado para a verificação do mapa de cliques e verificação de cookie, respectivamente). Os cookies usados pelos plug-ins como [!UICONTROL getValOnce] também são afetados.
 
 | Tamanho máximo | Parâmetro de depuração | Relatórios preenchidos | Valor padrão |
 |---|---|---|---|
-| N/A | N/A | N/A | cookieDomainPeriods |
+| N/D | N/D | N/D | cookieDomainPeriods |
 
 ## Exemplo de código para definir variáveis de domínio do cookie
 
