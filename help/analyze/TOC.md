@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Paginação, filtragem e classificação de tabelas](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [Paletas de cores](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Exibir densidade](analysis-workspace/build-workspace-project/view-density.md)
-      + [Totais da área de trabalho](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [Totais do Workspace](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Componentes {#components}
       + [Visão geral dos componentes](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensões {#dimensions}
@@ -79,11 +79,11 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Visão geral dos painéis](analysis-workspace/c-panels/panels.md)
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + Atribuição {#attribution}
-         + [Visão geral da atribuição](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Uso do painel Atribuição](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [Visão geral da Atribuição](analysis-workspace/c-panels/attribution/attribution.md)
+         + [Usar o painel Atribuição](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Perguntas frequentes sobre Atribuição](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + Comparação de segmentos {#segment-comparison}
          + [Visão geral da IQ de segmento](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso da IQ de segmento](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
