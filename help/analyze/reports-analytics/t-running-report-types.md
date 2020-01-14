@@ -4,7 +4,7 @@ title: Executar tipos de relatórios diferentes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
 
@@ -24,7 +24,7 @@ t_reports_ranked.xml
 
  -->
 
-1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**).
+1. Gere um relatório, como, por exemplo, um [!UICONTROL relatório de Páginas] (**[!UICONTROL Relatórios]**>**[!UICONTROL  Conteúdo do site]** > **[!UICONTROL Páginas]**).
 1. No cabeçalho do relatório, clique em **[!UICONTROL Classificado.]**
 1. Para classificar o relatório, clique em um título de coluna na tabela.
 
@@ -44,8 +44,8 @@ A maioria dos relatórios de Conversão e Tráfego tem uma exibição com Tendê
 
 **Para executar um relatório de tendências**
 
-1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. Execute um relatório de conversão ou tráfego como, por exemplo, **[!UICONTROL Relatórios]**>**[!UICONTROL  Conteúdo do site]** > **[!UICONTROL Páginas]**.
+1. Em **[!UICONTROL Tipo de relatório]**, clique em**[!UICONTROL  Tendência.]**
 
 ## Executar um relatório de funil de conversão {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,7 +57,7 @@ t_reports_conversion_funnel.xml
 
  -->
 
-To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
+Para executar esse relatório, selecione um relatório, como o relatório de Páginas (**[!UICONTROL Relatórios]**>**[!UICONTROL  Campanhas]** > **[!UICONTROL Código de rastreamento]**>**[!UICONTROL  Funil de conversão de campanha]**).
 
 Consulte [Relatórios de conversão](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) para uma descrição.
 
@@ -73,13 +73,13 @@ t_reports_fallout.xml
 
 Dê uma olhada no novo painel [Análise de fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) da Analysis Workspace!
 
-1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
-1. Na página do [!UICONTROL Relatório de desistências]**, clique em[!UICONTROL Executar o Report Builder de Fallout]**.
+1. No [!UICONTROL Adobe Analytics], clique em **[!UICONTROL Relatórios]**>**[!UICONTROL  Caminhos]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Desistências]**.
+1. Na página do [!UICONTROL Relatório de desistências], clique em **[!UICONTROL Executar o Report Builder de Fallout]**.
 
    ![Resultado da etapa](assets/fallout_add_items.png)
 
 1. Na página [!UICONTROL Definir pontos de verificação], especifique os pontos de verificação que deseja utilizar para o relatório.
-1. Click **[!UICONTROL Run Report]**.
+1. Clique em **[!UICONTROL Executar relatório]**.
 
    ![Resultado da etapa](assets/fallout_report.png)
 
@@ -92,17 +92,11 @@ Dê uma olhada no novo painel [Análise de fallout](https://marketing.adobe.com/
 
 Relatórios de fluxo de página exibem a ordem na qual seus visitantes acessam as páginas e navegam pelo seu site. Este relatório ajuda a descobrir essas respostas
 
-<!-- 
-
-t_reports_page_flow.xml
-
- -->
-
 Dê uma olhada na nova [Visualização de fluxo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) da Analysis Workspace!
 
 Execute um relatório [Caminhos](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
 
-For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
+Por exemplo, clique em **[!UICONTROL Relatórios]**>**[!UICONTROL  Caminhos]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Fluxo da próxima página]**.
 
 ![](assets/page_flow.png)
 
@@ -126,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Clique em **[!UICONTROL Relatórios]**>**[!UICONTROL  Produtos]** > [Funil de conversão de produtos](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -152,7 +146,7 @@ t_anomaly_view.xml
 
 Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) na Analysis Workspace!
 
-**[!UICONTROL Relatórios]** &gt; Métricas **[!UICONTROL do]** site &gt; Detecção **[!UICONTROL de anomalias]** .
+**[!UICONTROL Relatórios]**>**[!UICONTROL  Métricas do site]** > **[!UICONTROL Detecção de anomalias]**.
 
 > [!NOTE] Você também pode executar a Detecção de anomalias em projetos da Analysis Workspace. [Mais...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
@@ -217,11 +211,11 @@ t_anomaly_config.xml
 
 Você configura uma Detecção de anomalias independentemente para cada conjunto de relatórios.
 
-1. Navegue até **[!UICONTROL Análises &gt; Relatórios &gt; Métricas do site &gt; Detecção de anomalias]** .
+1. Navegue até **[!UICONTROL Análises > Relatórios > Métricas do site > Detecção de anomalias]**.
 1. Selecione o conjunto de relatórios para o qual você deseja rastrear a detecção diária de anomalias. Para exibir uma lista de conjuntos de relatórios, clique no menu suspenso do seletor do Conjunto de relatórios.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. Para selecionar as métricas e/ou definir as métricas filtradas, clique em **[!UICONTROL Editar métricas]**na parte superior direta da tela:![](assets/metrics_icon.png).
 
-   Você pode coletar métricas da lista (incluindo métricas calculadas) de todas as métricas, ou a partir de uma lista de métricas rastreadas. Também é possível filtrar por termos específicos para limitar a lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (pense no período de treinamento como "período de aprendizado" do algoritmo). 
+   Você pode coletar métricas da lista (incluindo métricas calculadas) de todas as métricas, ou a partir de uma lista de métricas rastreadas. Também é possível filtrar por termos específicos para limitar a lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (pense no período de treinamento como &quot;período de aprendizado&quot; do algoritmo). 
 
    ![](assets/view_training_periods.png)
 
@@ -232,7 +226,7 @@ Você configura uma Detecção de anomalias independentemente para cada conjunto
 * A ampliação do período de treinamento coloca seus dados em um contexto maior e pode reduzir o tamanho de uma anomalia.
 
    O relatório de métricas de Detecção de anomalias é atualizado sempre que você alterar um parâmetro.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. (Opcional) Aplique segmentos ao relatório clicando em **[!UICONTROL Exibir segmentos]**e selecionando um ou mais segmentos atuais, ou criando um novo segmento e aplicando-o.
 
    ![](assets/ad_top_menu.png)
 
@@ -250,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Relatórios &gt; Métricas do site &gt; Tempo real]** .
+**[!UICONTROL Relatórios > Métricas do site > Tempo real]**.
 
 Os relatórios em tempo real oferecem dois relatórios principais - um relatório de visão geral e um relatório detalhado. Cada um consiste em vários reportlets.
 
 Para obter informações sobre como configurar relatórios em tempo real, consulte o [Guia de referência do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration).
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. Consulte o relatório **[!UICONTROL Visão geral]**e seus componentes:![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -320,7 +314,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. Clique um item de lista no Reportlet primário para iniciar a visualização de **[!UICONTROL Detalhes]**para o item de lista:![](assets/rtr_detail_report.png)
 
    | **Reportlet de tendência do item** | Apresenta a linha de tendência do item selecionado no Relatório de visão geral nos últimos N minutos. N é configurável através do seletor de Intervalo de tempo. |
    |---|---|
