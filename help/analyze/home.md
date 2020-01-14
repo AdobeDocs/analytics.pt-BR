@@ -1,8 +1,8 @@
 ---
-title: Ajuda da Analysis Workspace
-description: Documentação do produto e autoajuda para a Analysis Workspace, Activity Map, Construtor de relatórios, API de relatórios e Relatórios e análises (anteriormente produtos Omniture Analytics).
+title: Guia de ferramentas do Analytics
+description: Documentação do produto e autoajuda da Analysis Workspace, Activity Map, Report Builder, API de relatórios e Reports & Analytics (anteriormente produtos Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 Este guia fornece documentação de produto e autoajuda para as seguintes ferramentas de análise e relatório do Adobe Analytics:
 
-* **Analysis Workspace**: O principal recurso do Adobe Analytics. O Workspace fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
-* **Activity Map**: Um plug-in de navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
-* **Análise** ad hoc: Um aplicativo Java independente com recursos avançados de relatório. Essa ferramenta não é mais atualizada e acabará sendo descontinuada no futuro.
-* **API** de relatórios: Faça consultas de relatório diretamente nos servidores da Adobe e obtenha respostas para uso nas suas próprias ferramentas de relatório do cliente.
-* **Construtor** de relatórios: Um suplemento do Excel que permite recuperar dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
-* **Relatórios e análises**: Uma ferramenta com dezenas de relatórios pré-criados. A Adobe recomenda usar a Analysis Workspace para a maioria das necessidades de relatório.
+* **[!UICONTROL Analysis Workspace]:** o recurso principal do Adobe Analytics. O Workspace fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
+* **[!UICONTROL Activity Map]:** um plug-in do navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
+* **[!UICONTROL Ad Hoc Analysis]:** um aplicativo Java independente com recursos de relatório robustos. Essa ferramenta não é mais atualizada e acabará sendo descontinuada no futuro.
+* **[!UICONTROL API de relatórios]:** faça consultas de relatórios diretamente aos servidores da Adobe e obtenha respostas para uso em suas ferramentas de relatório de clientes.
+* **[!UICONTROL Report Builder]:** um complemento do Excel que permite recuperar os dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
+* **[!UICONTROL Reports &amp; Analytics]:** uma ferramenta com dezenas de relatórios pré-construídos. A Adobe recomenda usar a Analysis Workspace para a maioria das necessidades de relatório.
 
 ## Artigos principais das ferramentas do Analytics
 
