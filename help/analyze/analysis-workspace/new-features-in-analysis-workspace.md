@@ -5,7 +5,7 @@ title: Novidades no Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ Novos recursos e melhorias lançados em 17 de janeiro de 2019.
 | Recurso | Descrição |
 |--- |--- |
 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Os aprimoramentos principais feitos à Análise de coorte permitem:<ul><li>Aplicar uma inclusão de segmento e retornar métricas separadamente. </li><li>Exibir alteração (churn) em vez de retenção.</li><li>Exibir tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar dimensão de coorte (para agrupar visitantes com base em uma eVar, não somente no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicionar várias métricas em campos de inclusão e de resultados, além de aplicar segmentos. (As métricas calculadas não são aceitas)</li></ul> |
-| [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Essa nova configuração permite ver mais dados em uma só tela ao reduzir o preenchimento vertical do painel à esquerda em tabelas de forma livre e de coorte. Acessível em Projeto &gt; Informações e configurações do projeto. |
+| [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Essa nova configuração permite ver mais dados em uma só tela ao reduzir o preenchimento vertical do painel à esquerda em tabelas de forma livre e de coorte. Acessível em Projeto > Informações e configurações do projeto. |
 | [Compatível com variáveis de vários valores no Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Algumas dimensões no Analytics podem conter vários valores em uma única ocorrência, como listVars, a variável do produto, propriedades de lista ou eVars de merchandising. O Analysis Workspace permite aplicar o Attribution IQ a qualquer um desses tipos de variáveis no nível de ocorrência. |
 | Melhorias de desempenho | Melhorias de velocidade a visualizações de detalhamento: projetos com mais detalhamentos serão carregados com mais rapidez. |
 
@@ -215,7 +215,7 @@ Novos recursos e melhorias lançados em 10 de maio de 2018.
    <td colname="col2"> <p>Agora você pode rolar a página para cima e para baixo ao arrastar componentes para um novo local. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Informações adicionais sobre <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalias </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Informações adicionais sobre  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalias </a></b> </p> </td> 
    <td colname="col2"> <p>Ao passar o cursor por uma anomalia em um gráfico de linha, as informações agora mostram a data e o valor bruto da anomalia. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +246,7 @@ Novos recursos e melhorias lançados em 12 de abril de 2018.
    <td colname="col2"> <p>Uma nova configuração nas visualizações de área/barras/barras horizontais empilhadas transforma o gráfico em uma visualização 100% empilhada, assim você pode medir as proporções relativas. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > A Detecção de anomalias e a Análise de contribuição</a> agora estão disponíveis no Analysis Workspace </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > A Detecção de anomalias e a Análise de contribuição</a> agora estão disponíveis no Analysis Workspace </p> </td> 
    <td colname="col2"> <p>A Detecção de anomalias e a Análise de contribuição foram removidas do conjunto de recursos do Reports &amp; Analytics e agora estão disponíveis somente no Analysis Workspace. </p> <p>Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation só têm acesso à Detecção de anomalias de “granularidade diária” no Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -735,7 +735,7 @@ Novos recursos lançados em 20 de abril de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Melhorias na opção Desfazer/Refazer </p> </td> 
-   <td colname="col2"> <p>Estas listas exibem o que pode ou não ser <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > desfeito ou refeito no Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Estas listas exibem o que pode ou não ser  <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > desfeito ou refeito no Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -808,7 +808,7 @@ Novo recurso lançado em 10 de novembro de 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparação de datas </a> </p> </td> 
-   <td colname="col2"> <p>O novo recurso de Comparação de datas permite que você use qualquer coluna para criar uma comparação de datas em comum como: ano por ano, trimestre por trimestre, mês por mês etc. </p> <p>As Comparações de data incluem automaticamente uma coluna de diferença, que exibe a alteração de percentual. </p> </td> 
+   <td colname="col2"> <p>O novo recurso de Comparação de datas permite que você use qualquer coluna para criar uma comparação de datas em comum como: ano por ano, trimestre por trimestre, mês por mês etc. </p> <p>As Comparações de data incluem automaticamente uma  coluna de diferença, que exibe a alteração de percentual. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -901,7 +901,7 @@ Novos recursos lançados em 20 de outubro de 2016:
 
 Novos recursos lançados em 16 de junho de 2016:
 
-* [Nova permissão de grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) que permite que os administradores concedam ou neguem aos usuários o acesso à guia **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**. A partir de 16 de junho de 2016, todos os usuários têm permissão para acessar essa aba. Para negar o acesso, basta remover os usuários do grupo Acesso à Analysis Workspace.
+* [Nova permissão de grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) que permite que os administradores concedam ou neguem o acesso à guia **[!UICONTROL Análises]**>**[!UICONTROL  Espaço de trabalho]** para usuários. A partir de 16 de junho de 2016, todos os usuários têm permissão para acessar essa aba. Para negar o acesso, basta remover os usuários do grupo Acesso à Analysis Workspace.
 * O [Painel de comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) mostra as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões às quais você tem acesso.
 * Estrutura do menu [Novos projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza o menu principal e o torna mais expansível. Por exemplo, para criar um novo **Painel de coorte**, agora é necessário criar um painel em branco e arrastar uma visualização de Tabela de coorte.
 * [Novo painel à esquerda](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Painéis, Visualizações, Componentes
@@ -913,7 +913,7 @@ Novos recursos lançados em 16 de junho de 2016:
 * Atualizações secundárias:
 
    * Capacidade de excluir todas as visualizações em um painel e todos os painéis em um projeto. (Anteriormente, era necessário manter pelo menos uma visualização ou um painel.)
-   * Alterações nas [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) que podem facilitar o trabalho no Analysis Workspace.
+   * Alterações nas  [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) que podem facilitar o trabalho no Analysis Workspace.
    * Alterações de estilo: fontes menores nas visualizações; amostras de cores nas linhas; o seletor de data foi movido para baixo (nos painéis).
 
 ## Abril de 2016
@@ -930,7 +930,7 @@ Novos recursos lançados em 21 de abril de 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> Envio de arquivo </td> 
-   <td colname="col2"> <p>Envie um projeto do Analysis Workspace por email ou agende o seu envio. Consulte <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Enviar arquivo: agendar o envio de um projeto </a>. </p> </td> 
+   <td colname="col2"> <p>Envie um projeto do Analysis Workspace por email ou agende o seu envio. Consulte  <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Enviar arquivo: agendar o envio de um projeto </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Baixar o PDF </td> 
@@ -960,17 +960,17 @@ Novos recursos lançados em 21 de janeiro de 2016.
 
 Você agora pode desfazer a maioria das ações realizadas no Analysis Workspace.
 
-Para desfazer, clique em **[!UICONTROL Desfazer]** no menu de ações.
+Para desfazer, clique em **[!UICONTROL Desfazer]**no menu de ações.
 
 ![](assets/undo.png)
 
 Você também pode usar [atalhos de teclado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) padrão do Windows e do Mac (ctrl ou cmd + z) para Desfazer.
 
-*`Undo`* é muito útil para desfazer detalhamentos na tabela.
+*`Undo`*é muito útil para desfazer detalhamentos na tabela.
 
 Ações que não (*`not`*) podem ser desfeitas:
 
-* Alteração da configuração da [!UICONTROL Tabela de coorte] (como arrastar métricas e alterar valores). No entanto, você pode clicar em **[!UICONTROL Desfazer]** após clicar em **[!UICONTROL Executar]**.
+* Alteração da configuração da [!UICONTROL Tabela de coorte] (como arrastar métricas e alterar valores). No entanto, você pode clicar em **[!UICONTROL Desfazer]**após clicar em**[!UICONTROL  Executar]**.
 
 * Redimensionar ou movimentar painéis e subpainéis.
 
@@ -979,9 +979,9 @@ Ações que limpam ou desfazem seu histórico:
 * Salvar o projeto.
 * Alterar o conjunto de relatórios.
 
-## Link para o projeto {#section_453E70F7409F4501B8E976A0D18C9A46}
+## Link para o projeto  {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-Em um projeto, clique em **[!UICONTROL Link para o projeto]** no menu Ações para enviar o URL de um projeto salvo por email para outros usuários. Os destinatários administrativos podem editar e salvar um projeto compartilhado dessa forma. Do contrário, esses projetos serão somente leitura.
+Em um projeto, clique em **[!UICONTROL Link para o projeto]**no menu Ações para enviar o URL de um projeto salvo por email para outros usuários. Os destinatários administrativos podem editar e salvar um projeto compartilhado dessa forma. Do contrário, esses projetos serão somente leitura.
 
 ![](assets/link-to-this-project.png)
 
@@ -1015,25 +1015,25 @@ Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto 
 
 Quando as dimensões de cor e tamanho estão correlacionadas de alguma forma com a estrutura de árvore, é possível, frequentemente, ver padrões que seriam difíceis de enxergar de outras formas, como se determinada cor é particularmente relevante. Uma segunda vantagem dos mapas de árvore é que, por padrão, eles fazem uso eficaz do espaço.
 
-## Salvar como para Segmentos, Métricas e Datas {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## Salvar como para Segmentos, Métricas e Datas  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-Ao editar um segmento existente (salvo) no Criador de segmentos do Analysis Workspace, clique em **[!UICONTROL Salvar como]** para fazer uma cópia.
+Ao editar um segmento existente (salvo) no Criador de segmentos do Analysis Workspace, clique em **[!UICONTROL Salvar como]**para fazer uma cópia.
 
 ![](assets/segment-save-as.png)
 
 O novo segmento é exibido no grupo [!UICONTROL Segmentos] no painel [!UICONTROL Componentes].
 
-*`Save As`* também está disponível para o [!UICONTROL Criador de métricas calculadas] e o [!UICONTROL Criador de intervalo de datas].
+*`Save As`*também está disponível para o[!UICONTROL Criador de métricas calculadas]e o[!UICONTROL Criador de intervalo de datas].
 
 ## Botão Adicionar novo de segmento {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-O botão **[!UICONTROL Adicionar novo segmento]** foi adicionado ao local para onde você arrasta e solta segmentos em um projeto.
+O botão **[!UICONTROL Adicionar novo segmento]**foi adicionado ao local para onde você arrasta e solta segmentos em um projeto.
 
 ![](assets/add-new-segment.png)
 
 Este aprimoramento será útil caso queira criar segmentos ao trabalhar em um projeto, e não por meio do painel [!UICONTROL Segmentos].
 
-## Formatação condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formatação condicional  {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Nas Configurações de coluna, é possível aplicar formatação condicional a dados de célula.
 
@@ -1067,21 +1067,21 @@ Nas Configurações de coluna, é possível aplicar formatação condicional a d
  </tbody> 
 </table>
 
-## Visualização da dimensão {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Visualização da dimensão  {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 No painel do componente [!UICONTROL Dimensões], é possível passar o mouse sobre o ícone de informações perto de uma dimensão e pré-visualizar as cinco principais.
 
 ![](assets/dimension-preview.png)
 
-## Legenda visível {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legenda visível  {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-Nas [!UICONTROL Configurações de visualização], a opção **[!UICONTROL Legenda visível]** mostra ou oculta a legenda da visualização.
+Nas [!UICONTROL Configurações de visualização], a opção **[!UICONTROL Legenda visível]**mostra ou oculta a legenda da visualização.
 
 ![](assets/legend-visible.png)
 
 ## Ancorar eixo Y no zero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Dependendo de quais sejam os números dos gráficos de linhas e de área, a parte inferior do eixo Y pode não ser zero. Ativar **[!UICONTROL Ancorar eixo Y no zero]** em [!UICONTROL Configurações de visualização] força o eixo Y para zero, possibilitando uma exibição mais precisa das tendências. Os exemplos a seguir mostram como um gráfico de Renda é alterado com essa configuração ativada ou desativada:
+Dependendo de quais sejam os números dos gráficos de linhas e de área, a parte inferior do eixo Y pode não ser zero. Ativar **[!UICONTROL Ancorar eixo Y no zero]**em[!UICONTROL Configurações de visualização]força o eixo Y para zero, possibilitando uma exibição mais precisa das tendências. Os exemplos a seguir mostram como um gráfico de Renda é alterado com essa configuração ativada ou desativada:
 
 **Âncora de eixo Y em zero desativada**
 
@@ -1091,12 +1091,12 @@ Dependendo de quais sejam os números dos gráficos de linhas e de área, a part
 
 ![](assets/anchor_Y_axis.png)
 
-## Nome do projeto no título da guia {#section_497C61A030984BCCA2CEA553312C3226}
+## Nome do projeto no título da guia  {#section_497C61A030984BCCA2CEA553312C3226}
 
 Ao salvar um projeto, o título exibido na guia do navegador será “`<Project Name>` - Analysis Workspace”. Este aprimoramento é útil em casos nos quais você precisa abrir vários projetos em várias guias do navegador.
 
-## Transferir propriedade de projeto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transferir propriedade de projeto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Os administradores podem transferir os projetos do [!UICONTROL Analysis Workspace] de um usuário para outro.
 
-Acesse **[!UICONTROL Administrador]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Transferir]** para transferir projetos.
+Acesse **[!UICONTROL Administrador]**>**[!UICONTROL  Gerenciamento de usuários]** > **[!UICONTROL Transferir]**para transferir projetos.
