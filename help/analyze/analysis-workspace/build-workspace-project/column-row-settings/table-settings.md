@@ -2,8 +2,8 @@
 description: As configurações de linha variam de acordo com qual componente foi arrastado para a tabela.
 title: Configurações de linha
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 
 ---
 
@@ -51,3 +51,9 @@ Para acessar as configurações das linhas da tabela, clique o ícone de Configu
  </tbody> 
 </table>
 
+| Configuração da linha | Descrição |
+|--- |--- |
+| Comparações de datas | Alinhar as datas de cada coluna para que todas iniciem na mesma linha.   Ao escolher alinhas das datas, por exemplo, em uma comparação de mês por mês entre outubro e setembro de 2016, a coluna da esquerda iniciará em 1° de outubro e a coluna da direita em 1° de setembro.<br>Desabilitado por padrão. |
+| Porcentagens | Calcular porcentagens por linha Força a tabela de forma livre a calcular as porcentagens de célula na linha em vez de reduzir a coluna. Essa configuração é útil para porcentagens de tendência.<br>Ativado por padrão ao usar o ícone Visualizar. |
+| Totais de colunas | Estas configurações aparecem apenas com  [static) rows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) (when you have selected a finite set of items), not with dynamic rows (i.e., when you drop in a dimension that shows all items).<ul><li>**[!UICONTROL Mostrar a soma das linhas atuais como total]**: mostra uma soma das linhas da tabela do lado do cliente, o que significa que o total** não **removerá a duplicação de métricas como visitas ou visitantes.</li><li>**[!UICONTROL Mostrar total geral]**: mostra uma soma do lado do servidor, o que significa que o total removerá a duplicação de métricas como visitas ou visitantes.</li></ul> |
+| Detalhamentos | **[!UICONTROL Detalhamento por posição]**:  É possível executar detalhamentos com base em um local fixo em uma tabela de forma livre. Por exemplo, você pode especificar que as sete primeiras fileiras superiores devam sempre estar detalhadas.<br>(Anteriormente, a lista de valores no detalhamento era “bloqueada”, o que levava a uma situação em que, por exemplo, se você fizesse um detalhamento de  Data por Página, recebia uma lista das 50 primeiras páginas para o intervalo de data selecionado. Se salvasse o relatório e o executasse um mês depois, seria provável que as 50 páginas tivessem mudado. Entretanto, o Analysis Workspace usaria os resultados do detalhamento original e retornaria as mesmas páginas, porém com o mês atual como o intervalo de data.)<br>Para executar detalhamentos com base em um local fixo:1. Detalhar algumas linhas da tabela. 2. Clique no ícone Configurações (engrenagem) ao lado da linha da tabela que você deseja em uma posição fixa. 3. Marque a caixa de seleção ao lado de Detalhamento por posição. 4. Altere a ordem de classificação ou o intervalo de datas e observe que os detalhamentos agora estão vinculados à posição da linha, não às linhas codificadas.<br>Desabilitado por padrão. |
