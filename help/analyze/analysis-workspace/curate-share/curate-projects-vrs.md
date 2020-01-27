@@ -2,7 +2,7 @@
 title: Preparação de projetos e conjuntos de relatórios virtuais (VRS)
 description: Saiba como preparar componentes e projetos de conjuntos de relatórios virtuais (VRS)
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 Ao preparar projetos ou conjuntos de relatórios virtuais (VRSs), você filtra componentes para que seu público-alvo veja somente os componentes (dimensões, métricas, segmentos, intervalos de data) de projeto/VRS que você deseja que eles usem.
 
->[!Note]
+>[!NOTE]
 >
 >Os perfis de produto são o principal mecanismo que rege quais componentes um usuário pode ver. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). A Preparação é um filtro secundário.
 
