@@ -2,7 +2,7 @@
 title: Preparação de projetos e conjuntos de relatórios virtuais (VRS)
 description: Saiba como preparar componentes e projetos de conjuntos de relatórios virtuais (VRS)
 translation-type: tm+mt
-source-git-commit: 8a662d03873d4699bf4166e825251f0f3e131537
+source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 ---
 
@@ -11,7 +11,8 @@ source-git-commit: 8a662d03873d4699bf4166e825251f0f3e131537
 
 Ao preparar projetos ou conjuntos de relatórios virtuais (VRSs), você filtra componentes para que seu público-alvo veja somente os componentes (dimensões, métricas, segmentos, intervalos de data) de projeto/VRS que você deseja que eles usem.
 
-[!Note]
+>[!Note]
+>
 >Os perfis de produto são o principal mecanismo que rege quais componentes um usuário pode ver. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). A Preparação é um filtro secundário.
 
 Aprimoramos recentemente a experiência de preparação. Veja a seguir uma visão geral do que é revelado pelo botão **[!UICONTROL Mostrar tudo]**, além dos componentes preparados já disponibilizados, em diferentes experiências de preparação e por nível de permissão:
@@ -22,5 +23,6 @@ Aprimoramos recentemente a experiência de preparação. Veja a seguir uma visã
 | Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
 | Projeto preparado em um conjunto de relatórios virtual preparado | Todos os componentes não preparados, exibidos em  **[!UICONTROL Non-Curated Project Components]**and**[!UICONTROL  Non-Curated VRS Components]** | Todos os componentes de projeto não preparados e os componentes de VRS não preparados dessa função ou que foram compartilhados com ela | Componentes de projeto e de VRS não preparados de propriedade dessa função ou compartilhados com ela |
 
-[!IMPORTANT]
+>[!IMPORTANT]
+>
 >A curadoria do VRS é sempre aplicada antes da curadoria do projeto. Isso significa que, mesmo se o projeto com curadoria incluir determinados componentes, eles serão filtrados se o VRS com curadoria não os incluir.
