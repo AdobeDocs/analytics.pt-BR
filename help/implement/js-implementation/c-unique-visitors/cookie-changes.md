@@ -3,7 +3,7 @@ description: Cookies do Analytics
 title: Perguntas frequentes sobre cookies do navegador e do Analytics
 uuid: null
 translation-type: tm+mt
-source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
+source-git-commit: b25c052dee5ee22ca009cbe43356007210a06d19
 
 ---
 
@@ -34,7 +34,7 @@ Os cookies primários são criados por sites do cliente (específicos do domíni
 
 Cookies de terceiros não são criados por sites visitados pelos usuários. Embora os navegadores atualmente tratem todos os cookies de terceiros da mesma forma e os armazenem de acordo, os cookies de terceiros podem se comportar de maneiras diferentes e importantes. Com a implementação de cookies de terceiros do Analytics, o cliente faz chamadas somente para a Adobe e não para domínios desconhecidos ou suspeitos de terceiros. Esse é o método atual para implementar o Analytics para rastreamento seguro (HTTPS) e confiável com identificadores persistentes. Esse método é implementado pela configuração do arquivo AppMeasurement.js. Para obter mais informações, consulte [Cookies e o Serviço](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)de identificação da plataforma Experience.
 
-![Diferenças de cookie](assets/cookieimage.PNG)
+![](assets/cookies2.png)
 
 ## Como os navegadores atualmente armazenam e gerenciam os cookies do Analytics?
 
@@ -70,9 +70,7 @@ Para navegadores que o Google identificou como cookies que estão sendo manipula
 
 A tabela a seguir resume os cookies do Analytics:
 
-
-![Tabela de cookies do Analytics](assets/cookietable.png)
-
+![](assets/cookies1.png)
 
 ## Qual é a melhor maneira de preparar meu site para alterações no Chrome, Firefox e Edge?
 
