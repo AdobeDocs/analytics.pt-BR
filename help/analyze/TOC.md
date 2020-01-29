@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Resolução de problemas e práticas recomendadas do Report Builder](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Visão geral do Activity Map](activity-map/activity-map.md)
+   + Comece já {#getting-started}
+      + Comece já para administradores {#get-started-admins}
+         + [Habilitar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [Código de implementação de exemplo](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + Comece já para usuários {#get-started-users}
+         + [Instalar os plug-ins do navegador do Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Inicializar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [Rastreamento de links avançado](activity-map/lnk-tracking-overview.md)
+   + Rastreamento de link {#link-tracking}
+      + [Metodologia de Rastreamento de links](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [Perguntas frequentes sobre o Rastreamento de links](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [Diferenciar links que fazem referência à mesma ID e Região do link](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [Interromper o rastreamento de links](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [Usar a função s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Modo Padrão vs. modo Online](activity-map/activitymap-standard-live.md)
    + [Relatório de links](activity-map/activitymap-links-report.md)
    + [Detalhes da página](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Exportar para arquivo CSV](activity-map/activitymap-csv.md)
    + [Sistemas e requisitos compatíveis](activity-map/activitymap-sysreqs.md)
    + [Perguntas frequentes sobre o Activity Map](activity-map/activitymap-faq.md)
-   + Comece já {#getting-started}
-      + Comece já para administradores {#get-started-admins}
-         + [Habilitar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Código de implementação de exemplo](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Comece já para usuários {#get-started-users}
-         + [Instalar os plug-ins do navegador do Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Inicializar o Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + Rastreamento de link {#link-tracking}
-      + [Metodologia de Rastreamento de links](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Perguntas frequentes sobre o Rastreamento de links](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [Diferenciar links que fazem referência à mesma ID e Região do link](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [Iniciar o rastreamento de links](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [Interromper o rastreamento de links](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [Usar a função s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Definir configurações do Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interface do usuário do Activity Map](activity-map/activitymap-user-interface.md)
    + [Relatórios do Activity Map no Analytics](activity-map/activitymap-reporting-analytics.md)
