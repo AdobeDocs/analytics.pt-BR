@@ -2,7 +2,7 @@
 title: getVisitDuration
 description: Rastrear quanto tempo um visitante esteve no site até agora.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -21,10 +21,13 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
 1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
-1. Para qualquer Regra de inicialização em que você deseja usar o plug-in, adicione uma ação com a seguinte configuração:
+1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
+   * Condição: Nenhum
+   * Evento: Principal - Biblioteca carregada (início da página)
+1. Adicione uma ação à regra acima com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Inicializar addProductEvar
-1. Salvar e publicar as alterações na regra
+   * Tipo de ação: Inicializar getVisitDuration
+1. Salve e publique as alterações na regra.
 
 ## Instale o plug-in usando o editor de código personalizado Iniciar
 
