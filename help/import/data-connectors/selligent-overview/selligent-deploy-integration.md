@@ -1,14 +1,14 @@
 ---
 description: A implantação dessa integração é um processo simples de 3 etapas.
-title: Implantação da integração
+title: Implantar a integração
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Implantação da integração{#deploying-the-integration}
+# Implantar a integração{#deploying-the-integration}
 
 A implantação dessa integração é um processo simples de 3 etapas.
 
@@ -26,9 +26,9 @@ Para ativar a integração, você deve concluir o assistente de integração int
 
    Isso abrirá a integração do SelIntelligent Data Connector.
 
-1. **Configurações** de integração: Escolha o Conjunto de relatórios desejado e forneça um nome para a integração em Configurações **** de integração.
+1. **Configurações** de integração: Escolha o Conjunto de relatórios desejado e forneça um nome para a integração em Configurações ****de integração.
 
-1. Em Valores **** personalizados, preencha todas as informações relacionadas à conta inteligente.
+1. Em Valores ****personalizados, preencha todas as informações relacionadas à conta inteligente.
 
    ![](assets/selligent-general_settings.png)
 
@@ -36,11 +36,11 @@ Para ativar a integração, você deve concluir o assistente de integração int
 
    ![](assets/selligent-variables.png)
 
-1. **Configurações** de dados: Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]** , exceto os três segmentos automatizados de **[!UICONTROL Parceiro]** .
+1. **Configurações** de dados: Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]**, exceto os três segmentos automatizados de**[!UICONTROL  Parceiro]** .
 
-1. Essa integração pode exigir o download de alguns pontos de dados para sua conta Inteligente. Você pode optar por conceder acesso para o mesmo em Solicitação **[!UICONTROL de]** acesso.
-1. Em Coleção **[!UICONTROL de]** dados, escolha uma solução automática ou manual (Plug-in JavaScript) para coletar parâmetros de sequência de consulta do URL da página inicial. Se você escolher uma solução automatizada, digite o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário que é MID e RID respectivamente. Para o plug-in JavaScript, entre em contato com seu consultor da Adobe.
-1. **Configurações** do relatório: Em Geração **[!UICONTROL de]** painel, marque a caixa para que o painel Inteligente seja gerado automaticamente para você.
+1. Essa integração pode exigir o download de alguns pontos de dados para sua conta Inteligente. Você pode optar por conceder acesso para o mesmo em Solicitação **[!UICONTROL de]**acesso.
+1. Em Coleção **[!UICONTROL de]**dados, escolha uma solução automática ou manual (Plug-in JavaScript) para coletar parâmetros de sequência de consulta do URL da página inicial. Se você escolher uma solução automatizada, digite o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário que é MID e RID respectivamente. Para o plug-in JavaScript, entre em contato com seu consultor da Adobe.
+1. **Configurações** do relatório: Em Geração **[!UICONTROL de]**painel, marque a caixa para que o painel Inteligente seja gerado automaticamente para você.
 
    ![](assets/selligent-report_settings.png)
 
@@ -56,7 +56,7 @@ Recomendamos que você mova o parâmetro de rastreamento do Adobe Analytics no U
 
 ![](assets/selligent-tracker.png)
 
-## Verificação da integração{#verifying-the-integration}
+## Verificar a integração{#verifying-the-integration}
 
 Depois que todas as etapas de implantação forem concluídas, você poderá validar se a integração está transferindo dados com êxito.
 
@@ -64,7 +64,7 @@ A troca de dados levará alguns dias para começar. Certifique-se de entrar em c
 
 ### Log de atividade de integração {#section-927e270495db479fba9578915d9ae9c9}
 
-Navegue até sua integração inteligente nos Conectores de dados. Na guia **[!UICONTROL Suporte]** , você deve ver eventos como Dados de métrica importados e/ou Dados de classificação importados com êxito:
+Navegue até sua integração inteligente nos Conectores de dados. Na guia **[!UICONTROL Suporte]**, você deve ver eventos como Dados de métrica importados e/ou Dados de classificação importados com êxito:
 
 ![](assets/selligent-verifying.png)
 
@@ -74,4 +74,4 @@ Visualize seus relatórios de Mensagem inteligente com as métricas apropriadas.
 
 1. Vá para Relatórios e análises na Adobe Experience Cloud.
 1. Selecione o conjunto de relatórios adequados.
-1. Em Conversão **** personalizada, selecione os Relatórios **[!UICONTROL de ID da]** mensagem e escolha ID da **[!UICONTROL mensagem/Nome]** da mensagem.
+1. Em Conversão ****personalizada, selecione os Relatórios**[!UICONTROL  de ID da]** mensagem e escolha ID da **[!UICONTROL mensagem/Nome]**da mensagem.
