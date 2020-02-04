@@ -5,7 +5,7 @@ title: Variáveis de conversão (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -44,7 +44,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Tipo</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>O tipo de valor da variável: </p> <p> <b>Cadeia de caracteres de texto:</b></span> captura os valores de texto usados do site. Esse é o tipo mais comum de eVar, e a configuração padrão. Funciona de maneira semelhante a outras variáveis, nas quais o valor é uma sequência de caracteres de texto estático. Se você estiver acompanhando coisas, como campanhas internas ou palavras-chave de pesquisa interna, essa é a configuração recomendada. </p> <p> <b>Contador</b>:</span> conta o número de vezes que uma ação ocorre antes do evento bem-sucedido. Por exemplo, se você usa uma eVar para rastrear pesquisas internas no site, configure esse valor como <span class="uicontrol">sequência de caracteres de texto</span> para rastrear o uso de termos de pesquisa. Configure esse valor como <span class="uicontrol">contador</span> para contar o número de pesquisas efetuadas, independentemente dos temos de pesquisa usados. Por exemplo, você pode usar uma eVar contador para controlar o total de vezes que alguém usou sua pesquisa interna antes de fazer uma compra. </p> </td> 
+   <td colname="col2"> <p>O tipo de valor da variável: </p> <p> <b>Cadeia de caracteres de texto</b>:</span> captura os valores de texto usados do site. Esse é o tipo mais comum de eVar, e a configuração padrão. Funciona de maneira semelhante a outras variáveis, nas quais o valor é uma sequência de caracteres de texto estático. Se você estiver acompanhando coisas, como campanhas internas ou palavras-chave de pesquisa interna, essa é a configuração recomendada. </p> <p> <b>Contador</b>:</span> conta o número de vezes que uma ação ocorre antes do evento bem-sucedido. Por exemplo, se você usa uma eVar para rastrear pesquisas internas no site, configure esse valor como <span class="uicontrol">sequência de caracteres de texto</span> para rastrear o uso de termos de pesquisa. Configure esse valor como <span class="uicontrol">contador</span> para contar o número de pesquisas efetuadas, independentemente dos temos de pesquisa usados. Por exemplo, você pode usar uma eVar contador para controlar o total de vezes que alguém usou sua pesquisa interna antes de fazer uma compra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Alocação </span> </p> </td> 
@@ -71,7 +71,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Expiração mensal: eVar expira 31 dias após a segunda-feira, às 7h15. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Eventos de conversão específicos.</b> Quaisquer eventos de conversão ativados depois de um evento específico designado estão associados à eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nunca.</b> Contanto que o cookie  Se o cookie <span class="varname"> visitorID</span> estiver intacto, a passagem do tempo será indiferente entre o eVar e o evento. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nunca.</b> Contanto que o cookie Se o cookie <span class="varname"> visitorID</span>estiver intacto, a passagem do tempo será indiferente entre o eVar e o evento. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -92,3 +92,22 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
  </tbody> 
 </table>
+
+**Expiração**
+
+As `eVars` expiram depois de um período definido por você. Depois que a eVar expira, ela não recebe mais crédito por eventos bem-sucedidos. As eVars também podem ser configuradas para expirar em eventos bem-sucedidos. Por exemplo, se você tiver uma promoção interna que expira no fim de uma visita, a promoção interna recebe crédito apenas pelas compras ou registros ocorridos durante a visita em que foi ativada.
+
+Existem duas formas de determinar a expiração de uma eVar:
+
+* É possível definir a eVar para expirar depois de um período ou evento especificado.
+* É possível forçar a expiração de uma eVar, o que é útil quando se estabelece um novo objetivo para uma variável.
+
+Se uma eVar for usada em maio para refletir promoções internas e expirar depois de 21 dias, e em junho ela for usada para capturar as palavras-chaves da pesquisa interna, no dia 1º de junho você deverá forçar a expiração da variável ou redefini-la. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
+
+**Uso de maiúsculas e minúsculas**
+
+As eVars não fazem distinção de letras maiúsculas e minúsculas, mas são exibidas com essa diferenciação na primeira ocorrência. Por exemplo, se a primeira instância da eVar1 for definida como &quot;Conectado&quot; mas todas as instâncias subsequentes forem transmitidas como &quot;conectado&quot;, os relatórios sempre mostrarão &quot;Conectado&quot; como valor da eVar.
+
+**Contadores**
+
+Embora as eVars sejam usadas com mais frequência para reter valores da string, elas também podem ser configuradas para atuar como contadores. As eVars são úteis como contadores quando você está tentando contar o número de ações adotadas por um usuário antes de um evento. Por exemplo, você pode usar uma eVar para capturar o número de pesquisas internas antes da compra. Sempre que um visitante pesquisar, a eVar deverá conter um valor de &quot;+1&quot;. Se um visitante pesquisar quatro vezes antes de uma compra, você verá uma instância para cada contagem total: 1,00, 2,00, 3,00 e 4,00. No entanto, somente a 4,00 receberá crédito pelo evento da compra (Pedidos e métricas de receita). Somente números positivos são permitidos como valores de um contador eVar.
