@@ -1,8 +1,8 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -17,12 +17,12 @@ Você pode usar uma visualização de Fluxo com a dimensão Tipo de dispositivo 
 
 1. Faça logon no Adobe Analytics e crie um novo projeto em branco da Workspace.
 2. Clique na guia Visualizações à esquerda e arraste uma visualização de Fluxo para a tela à direita.
-3. Clique na guia Componentes à esquerda e arraste a dimensão "Tipo de dispositivo móvel" para o local central chamado "Dimensão ou item".
+3. Clique na guia Componentes à esquerda e arraste a dimensão &quot;Tipo de dispositivo móvel&quot; para o local central chamado &quot;Dimensão ou item&quot;.
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
 **Posso ver como as pessoas se movem entre diferentes experiências de usuário (por exemplo, navegador de desktop vs. navegador móvel vs. aplicativo móvel)?**
 
-Usar o Tipo de dispositivo móvel como ilustrado acima permite ver como as pessoas se movem entre tipos de dispositivo móvel e tipos de dispositivo de desktop. Entretanto, talvez você queira distinguir os navegadores de desktop dos navegadores móveis. Uma maneira de fazer isso é criar uma eVar que registre se a experiência ocorreu em um navegador de desktop, navegador móvel ou aplicativo móvel. Em seguida, crie um Fluxograma conforme descrito acima, usando sua eVar "experiência", em vez da dimensão Tipo de dispositivo móvel. Isso fornece uma visão um pouco diferente sobre o comportamento entre dispositivos.
+Usar o Tipo de dispositivo móvel como ilustrado acima permite ver como as pessoas se movem entre tipos de dispositivo móvel e tipos de dispositivo de desktop. Entretanto, talvez você queira distinguir os navegadores de desktop dos navegadores móveis. Uma maneira de fazer isso é criar uma eVar que registre se a experiência ocorreu em um navegador de desktop, navegador móvel ou aplicativo móvel. Em seguida, crie um Fluxograma conforme descrito acima, usando sua eVar &quot;experiência&quot;, em vez da dimensão Tipo de dispositivo móvel. Isso fornece uma visão um pouco diferente sobre o comportamento entre dispositivos.
 
 **Até que ponto o CDA compila os visitantes?**
 
@@ -35,7 +35,7 @@ A Adobe trata as ocorrências com carimbos de data e hora como se fossem recebid
 
 **Como o CDA se compara à ID de visitante personalizada?**
 
-A [ID de visitante personalizada](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) é um método herdado para [conectar os usuários aos dispositivos](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Com uma ID de visitante personalizada, você usa a variável `s.visitorID` para definir explicitamente a ID usada para a lógica do visitante. A variável `s.visitorID` substitui todas as IDs baseadas em cookies presentes. Consulte [Identificar visitantes únicos](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) na guia Implementar usuário para obter mais informações.
+A [ID de visitante personalizada](/help/implement/vars/config-vars/visitorid.md) é um método herdado para [conectar os usuários aos dispositivos](/help/implement/js/xdevice-visid/xdevice-connecting.md). Com uma ID de visitante personalizada, você usa a variável `s.visitorID` para definir explicitamente a ID usada para a lógica do visitante. A variável `s.visitorID` substitui todas as IDs baseadas em cookies presentes.
 
 As IDs de visitante personalizadas têm vários efeitos colaterais indesejados que o CDA foi projetado para superar ou minimizar. Por exemplo, a metodologia de ID de visitante personalizada não tem recursos de lookback. Se um usuário for autenticado no meio de uma visita, a primeira parte da visita será associada a uma ID de visitante diferente da última parte da visita. As IDs de visitante separadas resultam no aumento de visitas e visitantes. A janela de lookback de 30 dias do CDA permite retroceder no tempo para reafirmar o comportamento anterior como pertencente à mesma pessoa, aproximando o comportamento não autenticado de vários dispositivos do comportamento autenticado de vários dispositivos com aumento mínimo ou nenhum aumento.
 
@@ -45,7 +45,7 @@ Os clientes que já usam a ID de visitante personalizada podem atualizar para o 
 
 **Como o gráfico de dispositivos trata os dispositivos compartilhados?**
 
-Em algumas situações, é possível que várias pessoas façam logon no mesmo dispositivo. Os exemplos incluem um dispositivo compartilhado em casa, PCs compartilhados em uma biblioteca ou um quiosque em uma loja de varejo. Nesses casos, a ID é sincronizada com o gráfico desses dispositivos compartilhados, indicando que vários usuários foram associados a esse dispositivo ao longo do tempo. O gráfico de dispositivos (seja gráfico Cooperativo ou Privado) não vincula a ECID nesse dispositivo a nenhum desses usuários. Em vez disso, o gráfico vincula o ECID a um "cluster" que inclui todos os usuários associados. O gráfico tenta manter esse cluster o mais estável possível, em vez de alternar continuamente a ECID entre clusters ao longo do tempo. Como resultado, o CDA não pode distinguir entre usuários individuais em um dispositivo compartilhado. Todos os usuários do dispositivo compartilhado são considerados uma única "pessoa" no CDA.
+Em algumas situações, é possível que várias pessoas façam logon no mesmo dispositivo. Os exemplos incluem um dispositivo compartilhado em casa, PCs compartilhados em uma biblioteca ou um quiosque em uma loja de varejo. Nesses casos, a ID é sincronizada com o gráfico desses dispositivos compartilhados, indicando que vários usuários foram associados a esse dispositivo ao longo do tempo. O gráfico de dispositivos (seja gráfico Cooperativo ou Privado) não vincula a ECID nesse dispositivo a nenhum desses usuários. Em vez disso, o gráfico vincula o ECID a um &quot;cluster&quot; que inclui todos os usuários associados. O gráfico tenta manter esse cluster o mais estável possível, em vez de alternar continuamente a ECID entre clusters ao longo do tempo. Como resultado, o CDA não pode distinguir entre usuários individuais em um dispositivo compartilhado. Todos os usuários do dispositivo compartilhado são considerados uma única &quot;pessoa&quot; no CDA.
 
 **Como o gráfico de dispositivos lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?**
 
