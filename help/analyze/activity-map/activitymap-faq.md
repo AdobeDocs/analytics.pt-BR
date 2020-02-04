@@ -4,7 +4,7 @@ title: Perguntas frequentes sobre o Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -19,7 +19,7 @@ Perguntas frequentes sobre a instalação, configuração e utilização dos rec
 
 A: Revise [Ativar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
-**P: Todos os clientes do Analytics têm acesso à página de Ativação das Ferramentas administrativas no Activity Map?**
+**P: Todos os clientes do Analytics têm acesso à página de Ativação das Ferramentas administrativas no ActivityMap?**
 
 R: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação do Admin Console no Activity Map. Apenas as empresas com contratos do Adobe Analytics Standard e Adobe Analytics Premium têm acesso a essa página de configuração.
 
@@ -86,7 +86,7 @@ No entanto, é importante observar que o relatório obtido em Relatórios e aná
 
 R: Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag enviada pela página.
 
-É possível selecionar um conjunto de relatórios com tags diferentes na guia Configurações do Activity Map &gt; Outros.
+É possível selecionar um conjunto de relatórios com tags diferentes na guia Configurações do Activity Map > Outros.
 
 **P: Por quanto tempo o Activity Map verifica a tag do Analytics?**
 
@@ -120,7 +120,7 @@ Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/act
 
 *Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do Activity Map não foi ativado nas Ferramentas administrativas*
 
-Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
+Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do ActivityMap\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
 **P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
 
