@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Variáveis de conversão (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variáveis de conversão](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
+      + [Variáveis de lista](admin/conversion-var-admin/list-var-admin.md)
    + [Códigos monetários](admin/currency.md)
    + [Descrições personalizadas de relatórios](admin/custom-desc-admin.md)
    + [Personalizar calendário](admin/custom-calendar.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Compartilhamento de marcas](company/co-branding-admin.md)
    + [Ocultar conjuntos de relatórios](company/c-hide-report-suites.md)
    + [Gerenciador de segurança](company/security-manager.md)
-   + [Fim da vida útil para "Impor restrições de logon de IP"](company/login-restrictions-eol.md)
+   + [Fim da vida útil para &quot;Impor restrições de logon de IP&quot;](company/login-restrictions-eol.md)
 + Gerenciar Conjuntos de relatórios {#manage-report-suites}
    + [Gerenciador do Conjunto de relatórios](c-manage-report-suites/report-suites-admin.md)
    + [Conjuntos de relatórios globais e de acumulado](c-manage-report-suites/rollup-report-suite.md)
