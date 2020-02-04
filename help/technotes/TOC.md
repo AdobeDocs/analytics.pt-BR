@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
+source-git-commit: b0db12744bba2765b0e4816b57daec044f7e4ef2
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
       + [Conversões](ga-to-aa/reports/conversions-reports.md)
    + [Perguntas frequentes](ga-to-aa/faq.md)
    + [Diferenças de processamento entre plataformas](ga-to-aa/processing-differences.md)
++ [Cookies do navegador](cookies.md)
 + [Retenção de dados](data-retention.md)
 + [Latência](latency.md)
 + [Valor de tráfego baixo](low-traffic.md)
