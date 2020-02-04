@@ -4,14 +4,16 @@ keywords: privacy
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # Visão geral de privacidade
 
-Visão geral de quais dados o Adobe Analytics coleta e outras considerações de privacidade.
+A Adobe recomenda que você forneça aos visitantes do site informações fáceis de encontrar e entender com relação à capacidade de optar pela coleta de informações de navegação por produtos e serviços da Adobe.
+
+Os visitantes podem saber mais sobre como a Adobe geralmente usa as informações coletadas no Centro [de privacidade da](https://www.adobe.com/privacy.html)Adobe. Cabe à sua organização revelar como você usa os produtos e serviços da Adobe, pois sua organização controla exclusivamente como implementar os serviços da Adobe. Você é responsável pela criação de sua própria política de privacidade, por seguir sua política de privacidade, por seguir o contrato de serviço com a Adobe e todas as leis aplicáveis.
 
 ## Detalhamento da coleção de dados {#section_F59D958D7AE44747846993E643CD4BF2}
 
