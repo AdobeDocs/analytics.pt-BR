@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -23,22 +23,22 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Rejeição: Uma visita que consiste em uma única ocorrência. Consulte [Rejeições](/help/components/c-variables/c-metrics/metrics-bounces.md) no guia do usuário Componentes. Consulte também Acesso único.
 * **** Métrica calculada: Permite a combinação de métricas, funções estatísticas e fórmulas existentes para uso no relatório. Consulte Métricas [calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes.
 * **** Campanha: Pode consultar:
-   * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
+   * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte [campanha](../implement/vars/page-vars/campaign.md) no guia Implementar usuário.
    * Uma classificação padrão da dimensão Código de rastreamento; criado automaticamente para todos os conjuntos de relatórios.
    * Adobe Campaign, parte da Adobe Experience Cloud. Mais informações sobre [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal: Pode consultar:
-   * A variável Canal, que preenche a dimensão Seções do site. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
+   * A variável Canal, que preenche a dimensão Seções do site. Consulte [canal](../implement/vars/page-vars/channel.md) no guia Implementar usuário.
    * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte Canais [de marketing](/help/components/c-marketing-channels/c-overview.md) no guia do usuário Componentes.
 * **** Classificação: Um recurso no Adobe Analytics que permite o agrupamento de valores de dimensão. Consulte [Classificações](/help/components/c-classifications2/c-classifications.md) no guia do usuário Componentes.
 * **** Clickmap: Não é mais usado. Um plug-in herdado do navegador que mostra quais áreas do site foram mais clicadas. Esta ferramenta foi removida em favor do Mapa de atividade.
 * **** Feed de dados de sequência de cliques: Consulte Feed de dados.
 * **** Coorte: Um grupo de pessoas compartilhando características comuns em um determinado período. See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) no guia do usuário Analisar.
 * **** Servidor de coleção: Consulte Servidor de coleta de dados.
-* **** Variáveis de dados de contexto: Variáveis temporárias usadas apenas nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou tráfego. Consulte Variáveis [de dados de](/help/implement/js-implementation/c-variables/context-data-variables.md) contexto no guia Implementar usuário.
+* **** Variáveis de dados de contexto: Variáveis temporárias usadas apenas nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou tráfego. Consulte Variáveis [de dados de](../implement/vars/page-vars/contextdata.md) contexto no guia Implementar usuário.
 * **** Variável de conversão: Coloquialmente conhecido como eVars. Armazena um valor personalizado e preserva o valor da variável até que expire. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** Correlação: Não é mais usado como termo; substituído por detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **** Dados atuais: Uma opção em alguns relatórios que permite a inclusão de dados coletados recentemente que ainda não foram totalmente processados. Consulte Dados [](/help/analyze/reports-analytics/current-data.md) atuais no guia Analisar usuário.
-* **** Link personalizado: Um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a função [](/help/implement/js-implementation/function-tl.md) s.tl() no guia Implementar usuário. Consulte também Ocorrência.
+* **** Link personalizado: Um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a função [](../implement/vars/functions/tl.md) s.tl() no guia Implementar usuário. Consulte também Ocorrência.
 * **** Atributos do cliente: Um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte Atributos [do](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) cliente no guia do usuário dos Principais serviços.
 * **** Representante de suporte ao cliente: Um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte Delegações [de suporte ao](https://helpx.adobe.com/experience-cloud/supported-users.html) cliente na Base de conhecimento da Experience Cloud.
 * **** Servidor de coleta de dados: Servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
@@ -47,8 +47,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Fontes de dados: Permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte Fontes [de dados](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
 * **** Data Warehouse: Um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
 * **** Dimensão: Um tipo de componente que contém valores variáveis, como texto. Os exemplos incluem Nome da página, Código de rastreamento ou Domínio de referência. Normalmente, uma métrica é sua contrapartida.
-* **** Gerenciamento dinâmico de tags: A antiga solução de gerenciamento de tags da Adobe. Consulte Visão geral [da implementação do](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md) DTM no guia Implementar usuário. A Adobe recomenda usar o Adobe Experience Platform Launch.
-* **** Serialização de eventos: O processo de implementação de medidas para impedir a recolha de eventos duplicados. Consulte Serialização [de](/help/implement/js-implementation/event-serialization.md) eventos no guia Implementar usuário.
+* **** Gerenciamento dinâmico de tags: A antiga solução de gerenciamento de tags da Adobe. Consulte Visão geral [da implementação do](/help/implement/other/dtm/dtm-implementation-overview.md) DTM no guia Implementar usuário. A Adobe recomenda usar o Adobe Experience Platform Launch.
+* **** Serialização de eventos: O processo de implementação de medidas para impedir a recolha de eventos duplicados. Consulte Serialização [de](../implement/vars/page-vars/events/event-serialization.md) eventos no guia Implementar usuário.
 * **** eVar: Consulte Variável de conversão.
 * **** Evento: Consulte Evento bem-sucedido.
 * **** ExcelClient: Não é mais usado como um termo. O nome do antecessor do Construtor de relatórios.
@@ -56,7 +56,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Fluxo: Um tipo de visualização na Analysis Workspace que mostra os caminhos que os usuários tomaram em seu site. Consulte Visualização [de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no guia do usuário Analisar.
 * **** Genesis: Não é mais usado como um termo. O nome anterior dos Conectores de dados.
 * **** Conjunto de relatórios global: Um termo informal designado para um conjunto de relatórios que coleta ocorrências de vários sites.
-* **** Código H: Um antecessor do AppMeasurement. Em versões anteriores do Adobe Analytics, as versões de código eram medidas pela "versão H", como H.27.5, H.26, etc.
+* **** Código H: Um antecessor do AppMeasurement. Em versões anteriores do Adobe Analytics, as versões de código eram medidas pela &quot;versão H&quot;, como H.27.5, H.26, etc.
 * **** Ocorrência: Uma única solicitação de imagem enviada para os servidores de coleta de dados da Adobe. Exibições de página e links personalizados podem ser chamados de ocorrências.
 * **** Solicitação de imagem: Uma imagem pixel transparente de 1x1 usada para comunicação com os servidores de coleta de dados da Adobe. Um site solicita esta imagem invisível com uma longa string de consulta contendo dados; A Adobe retorna a imagem invisível e analisa a string de consulta recebida.
 * **** Insight: Pode consultar:
@@ -64,9 +64,9 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
    * Insight personalizado, um nome histórico para variável de tráfego personalizada.
 * **** KPI: Abreviação do indicador chave de desempenho. Métricas que ajudam uma empresa a entender o desempenho de seu site. Cada organização tem KPIs diferentes que medem diferentes aspectos de seus negócios. Consulte [Criar um documento](/help/implement/prepare/solution-design.md) de design de solução no guia Implementar usuário.
 * **** Latência: O atraso entre quando os dados são coletados e quando estão disponíveis nos relatórios. A latência típica em um conjunto de relatórios é de 30 a 90 minutos. Consulte [Latência](/help/technotes/latency.md) no guia do usuário do Technotes.
-* **** Iniciar: Abreviação de Adobe Experience Platform Launch, a solução de implementação atual da Adobe. Consulte [Visão geral](https://docs.adobe.com/content/help/en/launch/using/overview.html) no guia do usuário do Adobe Experience Platform Launch.
-* **** List prop: Uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma list prop se a configuração estiver ativada. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
-* **** List var: Uma variável distinta separada para variáveis de conversão. As List Vars suportam vários valores na mesma ocorrência, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três list vars estão disponíveis para uma organização. Consulte Variáveis [de](/help/implement/js-implementation/page-variables/page-variables.md) página no guia Implementar usuário.
+* **** Iniciar: Abreviação de Adobe Experience Platform Launch, a solução de implementação atual da Adobe. See [Overview](https://docs.adobe.com/content/help/en/launch/using/overview.html) in the Adobe Experience Platform Launch user guide.
+* **** List prop: Uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma list prop se a configuração estiver ativada. Consulte [prop](../implement/vars/page-vars/prop.md) no guia Implementar usuário.
+* **** List var: Uma variável distinta separada para variáveis de conversão. As List Vars suportam vários valores na mesma ocorrência, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três list vars estão disponíveis para uma organização. Consulte a [lista](../implement/vars/page-vars/list.md) no guia Implementar usuário.
 * **** Empresa de logon: Uma coleção de conjuntos de relatórios usados por sua organização. Algumas organizações têm várias empresas de logon que se aplicam a diferentes partes de sua organização.
 * **** Canal de marketing: Um recurso no Adobe Analytics que categoriza as ocorrências de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar ocorrências pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de marketing no guia do usuário Componentes.
 * **** Métrica: Um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
@@ -87,8 +87,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Conjunto de relatórios: Um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
 * **** Intervalo de datas em andamento: Um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas acumulado. Consulte também intervalo de datas estático.
 * **** RSID: Abreviação da ID do conjunto de relatórios. Um conjunto de relatórios tem um nome amigável e uma ID de conjunto de relatórios.
-* **** s.t(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()` . Consulte [s.t()](/help/implement/js-implementation/function-t.md) no guia Implementar usuário.
-* **s<span>.</span>** tl(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de rastreamento de link. Algumas bibliotecas do AppMeasurement usam `s.trackLink()` . Consulte [s.tl()](/help/implement/js-implementation/function-tl.md) no guia Implementar usuário.
+* **** s.t(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()` . Consulte [isso](../implement/vars/functions/t.md) no guia Implementar usuário.
+* **s<span>.</span>** tl(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de rastreamento de link. Algumas bibliotecas do AppMeasurement usam `s.trackLink()` . Consulte [tl](../implement/vars/functions/tl.md) no guia Implementar usuário.
 * **** s_code.js: O nome do arquivo JavaScript usado em versões históricas do Adobe Analytics. O nome atual do arquivo JavaScript usado é AppMeasurement.js.
 * **** Satélite: Não é mais usado como um termo. O nome do produto anterior para Gerenciamento dinâmico de tags.
 * **** Chamada secundária do servidor: Nome alternativo para solicitação de imagem ou ocorrência, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando a mesma ocorrência é enviada para vários conjuntos de relatórios, todos os conjuntos de relatórios depois da primeira lista são chamadas de servidor secundárias. Consulte também Chamadas de servidor primário.
