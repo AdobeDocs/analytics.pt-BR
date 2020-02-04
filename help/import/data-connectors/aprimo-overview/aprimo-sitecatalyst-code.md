@@ -3,7 +3,7 @@ description: Se você selecionou o método de coleta de dados do plug-in JavaScr
 title: Código de plug-in do Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
