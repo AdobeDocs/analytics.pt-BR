@@ -1,8 +1,8 @@
 ---
 title: Guia do primeiro administrador do Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, os tipos de função gerais e como fazer logon na interface do usuário.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -28,12 +28,12 @@ Os administradores de nível de sistema não têm acesso direto aos produtos. No
 
 1. Faça logon no [Admin Console](https://adminconsole.adobe.com/) com as credenciais da Adobe ID.
 1. Clique na guia Produtos na parte superior. Todos os produtos comprados pela sua organização estão à esquerda. Clique em Adobe Analytics e, em seguida, clique no botão Novo perfil.
-1. Nomeie esse perfil como 'Acesso completo ao administrador do Analytics' e clique em Concluído.
+1. Nomeie esse perfil como &#39;Acesso completo ao administrador do Analytics&#39; e clique em Concluído.
 1. Na página Perfis de produto, clique no perfil recém-criado e na guia Permissões.
 1. Clique em um dos itens de linha de permissão. Se a Inclusão automática estiver disponível, ative-a. Se a Inclusão automática não estiver disponível, clique em Adicionar tudo. Ambas as opções movem todos os itens de permissão para a coluna direita.
 1. Clique em Salvar. Repita a etapa acima para todas as categorias de permissão.
 1. Quando todas as categorias de permissão forem concedidas ao perfil, volte para a página Visão geral clicando em Visão geral na parte superior.
-1. No bloco Adobe Analytics, clique em "Atribuir usuários".
+1. No bloco Adobe Analytics, clique em &quot;Atribuir usuários&quot;.
 1. Digite o endereço de email ao qual você deseja conceder acesso total ao Analytics e atribua a ele o perfil de acesso completo do administrador recém-criado. Clique em Salvar.
 1. O usuário agora tem acesso total ao Adobe Analytics.
 
@@ -43,12 +43,12 @@ O acesso do administrador de produto para o Experience Platform Launch é quase 
 
 1. Faça logon no Admin Console com as credenciais da Adobe ID.
 1. Clique na guia Produtos na parte superior. Todos os produtos comprados pela sua organização estão à esquerda. Clique em Experience Platform Launch by Adobe e no botão Novo perfil.
-1. Nomeie esse perfil como 'Acesso completo ao administrador do Experience Platform Launch' e clique em Concluído.
+1. Nomeie esse perfil como &#39;Acesso completo ao administrador do Experience Platform Launch&#39; e clique em Concluído.
 1. Na página Perfis de produto, clique no perfil recém-criado e na guia Permissões.
 1. Clique em um dos itens de linha de permissão. Se a Inclusão automática estiver disponível, ative-a. Se a Inclusão automática não estiver disponível, clique em Adicionar tudo. Ambas as opções movem todos os itens de permissão para a coluna direita.
 1. Clique em Salvar. Repita a etapa acima para todas as categorias de permissão.
 1. Quando todas as categorias de permissão forem concedidas ao perfil, volte para a página Visão geral clicando em Visão geral na parte superior.
-1. No bloco Experience Platform Launch by Adobe, clique em 'Atribuir usuários'.
+1. No bloco Experience Platform Launch by Adobe, clique em &#39;Atribuir usuários&#39;.
 1. Digite o endereço de email ao qual você deseja conceder acesso total ao Analytics e atribua a ele o perfil de acesso completo do administrador recém-criado. Clique em Salvar.
 1. O usuário agora tem acesso total ao Experience Platform Launch.
 
@@ -56,4 +56,4 @@ O acesso do administrador de produto para o Experience Platform Launch é quase 
 
 [Criar um conjunto de relatórios](create-report-suite.md): faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleta de dados
 
-[Criar uma propriedade no Experience Platform Launch](/help/implement/implement-with-launch/create-analytics-property.md): faça com que o administrador do Experience Platform Launch faça logon na ferramenta e crie uma propriedade a ser implementada no site
+[Criar uma propriedade no Experience Platform Launch](/help/implement/launch/create-analytics-property.md): faça com que o administrador do Experience Platform Launch faça logon na ferramenta e crie uma propriedade a ser implementada no site
