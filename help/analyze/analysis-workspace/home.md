@@ -5,7 +5,7 @@ title: Guia de Introdução
 topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -16,7 +16,7 @@ O Analysis Workspace é uma das principais ferramentas da Adobe para que a sua o
 
 ## Pré-requisitos
 
-[Enviar dados para o Adobe Analytics usando o Adobe Experience Platform Launch](/help/implement/implement-with-launch/validate-publish-prod.md): o uso do Analysis Workspace requer uma implementação em funcionamento. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como o Gerenciamento dinâmico de tags (DTM) ou implementações manuais herdadas, também podem funcionar.
+[Enviar dados para o Adobe Analytics usando o Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): o uso do Analysis Workspace requer uma implementação em funcionamento. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como o Gerenciamento dinâmico de tags (DTM) ou implementações manuais herdadas, também podem funcionar.
 
 ## Obter um relatório classificado básico no Workspace
 
@@ -30,7 +30,7 @@ O Analysis Workspace é uma das principais ferramentas da Adobe para que a sua o
 6. À esquerda, você deve ver uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Páginas (em laranja) e arraste-a para a tela que diz “Solte uma dimensão aqui”.
 7. Observe que, se o conjunto de relatórios tiver dados, você poderá ver um relatório com as principais páginas deste mês. O Analysis Workspace preenche o relatório automaticamente com a métrica [Ocorrências](/help/components/c-variables/c-metrics/metrics-occurrences.md).
 8. Localize a métrica Visitas (em verde), arraste-a e solte **sobre** ou **ao lado** do cabeçalho da métrica Ocorrências (evite colocá-la acima da métrica). Se você arrastar a métrica Visitas e soltá-la acima de Ocorrências, a métrica será substituída no relatório. Se você arrastar a métrica Visitas e soltá-la ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
-9. Para salvar seu projeto, clique em *[!UICONTROL Projeto] &gt; [!UICONTROL Salvar]* no menu superior esquerdo.
+9. Para salvar seu projeto, clique em *[!UICONTROL Projeto] > [!UICONTROL Salvar]* no menu superior esquerdo.
 
 ## Obter relatório de tendências básico no Workspace
 
@@ -46,13 +46,13 @@ O Analysis Workspace é uma das principais ferramentas da Adobe para que a sua o
 8. Localize o intervalo de datas Semana (em roxo) na lista de componentes do intervalo de datas à esquerda. Clique no título do intervalo de datas para expandir e ver todos os componentes do intervalo de datas, ou use a barra de pesquisa.
 9. Arraste o intervalo de datas Semana e solte-o acima do cabeçalho do intervalo de datas Dia na tela para substituí-lo.
 10. Observe que seu relatório de tendências agora é agregado por semana em vez de por dia.
-11. Para salvar seu projeto, clique em *[!UICONTROL Projeto] &gt; [!UICONTROL Salvar]* no menu superior esquerdo.
+11. Para salvar seu projeto, clique em *[!UICONTROL Projeto] > [!UICONTROL Salvar]* no menu superior esquerdo.
 
 ## Experimentar com a ferramenta
 
 Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impacto na coleta de dados. Se você arrastar componentes indiscriminadamente para um projeto para ver o que acontece, não haverá nenhuma repercussão. Arraste diferentes combinações de dimensões e métricas para o projeto do seu espaço de trabalho para ver o que está disponível.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto] &gt; [!UICONTROL Novo]* no menu superior esquerdo.
+Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto] > [!UICONTROL Novo]* no menu superior esquerdo.
 
 ## Solução de problemas
 
@@ -73,7 +73,7 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 
 * [Notas de versão do Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): leia os recursos mais recentes introduzidos na ferramenta.
 * [Analysis Workspace no YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): saiba mais sobre como usar a maioria dos recursos do Analysis Workspace acessando essa lista de reprodução abrangente.
-* Dicas dentro do produto: dicas do dia, juntamente com vídeos curtos, aparecem ocasionalmente no canto inferior direito do Analysis Workspace. Se essas dicas forem descartadas, elas poderão ser acessadas em *[!UICONTROL Ajuda] &gt; [!UICONTROL Dicas]* a qualquer momento.
+* Dicas dentro do produto: dicas do dia, juntamente com vídeos curtos, aparecem ocasionalmente no canto inferior direito do Analysis Workspace. Se essas dicas forem descartadas, elas poderão ser acessadas em *[!UICONTROL Ajuda] > [!UICONTROL Dicas]* a qualquer momento.
 * [Comunidade do Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): fale sobre o Analysis Workspace com outros usuários e vote nos recursos que você gostaria de ver na ferramenta.
 * Publicações no blog:
    * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
