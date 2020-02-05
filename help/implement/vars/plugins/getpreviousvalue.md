@@ -62,7 +62,7 @@ Quando você chama esse método, ele retorna o valor da string contido no cookie
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -74,7 +74,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 * O código redefinirá o cookie &quot;gpv_Page&quot;, tornando-o igual ao valor atual de s.pageName
 * Se s.pageName não estiver definido no momento em que esse código é executado, o código redefinirá a expiração do valor atual do cookie
 
-### Exemplo nº 2
+### Exemplo #2
 
 O código a seguir define s.prop7 igual ao último valor passado para s.pageName, mas somente se event1 também estiver contido em s.events, conforme determinado pelo plug-in in inList, no momento em que a chamada ocorre.
 
@@ -90,7 +90,7 @@ O código a seguir define s.prop7 igual ao último valor passado para s.pageName
 if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 O código a seguir define s.eVar10 igual ao valor passado para s.eVar1 na solicitação de imagem anterior.   O valor anterior da eVar1 estaria contido no cookie &quot;s_gpv&quot;.  O código definirá o cookie &quot;s_gpv&quot; igual ao valor atual de s.eVar1.
 

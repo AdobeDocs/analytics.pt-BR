@@ -69,7 +69,7 @@ Chamar esse método retorna uma string que contém o número de dias, horas, min
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Use essas chamadas para determinar o tempo entre o momento em que um visitante inicia o processo de checkout e o momento em que realiza uma compra.
 
@@ -87,7 +87,7 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 
 s.prop1 capturará o tempo necessário para concluir o processo de compra
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se quiser ter vários temporizadores em execução ao mesmo tempo (para medir processos diferentes), será necessário definir manualmente o argumento de cookie cn.  Por exemplo, se você quiser medir a quantidade de tempo necessária para que uma compra seja concluída, defina o seguinte código...
 

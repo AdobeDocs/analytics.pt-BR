@@ -64,7 +64,7 @@ Chamar esse método retornará um valor se a função de retorno de chamada (no 
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O código a seguir faz parte do plug-in getQueryParam.  Ela executa a função auxiliar getParameterValue em relação a cada um dos pares de valor chave contidos na sequência de caracteres de consulta do URL (fullQueryString).  Em outro lugar, para extrair cada par de valor chave, fullQueryString deve ser delimitado e dividido por um caractere &quot;&amp;&quot; de E comercial. O parâmetroKey se refere ao parâmetro da string de consulta que o plug-in está tentando extrair especificamente da string de consulta
 

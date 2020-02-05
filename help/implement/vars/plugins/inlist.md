@@ -64,7 +64,7 @@ Chamar esse método retornará `true` se encontrar uma correspondência e `false
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o status...
 
@@ -80,7 +80,7 @@ if(s.inList(s.events,"event22"))
 
 ...a declaração condicional if será verdadeira
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 
@@ -112,7 +112,7 @@ if(!s.inList(s.events,"event23"))
 
 ...a declaração condicional if será verdadeira porque a chamada inList não fez uma correspondência exata entre event23 e qualquer um dos valores delimitados em s.events (observe o operador &quot;NOT&quot; no início da chamada de variável inList).
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o status...
 
@@ -128,7 +128,7 @@ if(s.inList(s.events,"EVenT23","",1))
 
 ...a declaração condicional if será falsa.  Embora esse exemplo não seja prático, demonstra a necessidade de usar cautela ao usar o sinalizador que diferencia maiúsculas de minúsculas.
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o status...
 

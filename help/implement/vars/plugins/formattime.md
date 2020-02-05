@@ -75,7 +75,7 @@ O método retorna o número de segundos formatados usando a unidade especificada
 
 ## Exemplos
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -87,7 +87,7 @@ s.eVar1 = s.formatTime(38242);
 
 O argumento transmitido - 38242 segundos - é igual a 10 horas, 37 minutos e 22 segundos.  Como o argumento tf não está definido nesta chamada e o número de segundos passados está entre uma hora e um dia, o plug-in retornará o número de segundos convertidos para o benchmark de trimestre mais próximo.
 
-### Exemplo nº 2
+### Exemplo #2
 
 O seguinte código...
 
@@ -109,7 +109,7 @@ s.eVar1 = s.formatTime(38242, "m");
 
 Neste caso, o argumento &quot;m&quot; força o plug-in a converter os segundos para o benchmark de ½ minuto mais próximo
 
-### Exemplo nº 4
+### Exemplo #4
 
 O seguinte código...
 
@@ -121,7 +121,7 @@ s.eVar1 = s.formatTime(38242, "m", 20);
 
 O valor do argumento tf (&quot;m&quot;) força o plug-in a converter os segundos em minutos, mas o valor do argumento bml (20) também força o plug-in a arredondar a conversão de minutos para o benchmark de 20 minutos mais próximo.
 
-### Exemplo nº 5
+### Exemplo #5
 
 O seguinte código...
 
@@ -131,7 +131,7 @@ s.eVar1 = s.formatTime(125, "s", 2);
 
 ...definirá s.eVar1 igual a &quot;126 segundos&quot;, que é o benchmark de 2 segundos mais próximo a 125 segundos
 
-### Exemplo nº 6
+### Exemplo #6
 
 O seguinte código...
 
@@ -141,7 +141,7 @@ s.eVar1 = s.formatTime(125, "m", 3);
 
 ...definirá s.eVar1 igual a &quot;3 minutos&quot;, que é o benchmark mais próximo de 3 minutos a 125 segundos
 
-### Exemplo nº 7
+### Exemplo #7
 
 O seguinte código...
 

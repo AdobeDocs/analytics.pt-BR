@@ -63,7 +63,7 @@ Se a variável no `vtp` argumento estiver definida, o plug-in definirá o cookie
 
 ## Exemplos
 
-### Exemplo nº 1
+### Exemplo #1
 
 O código a seguir definirá eVar21 igual ao valor de &quot;hello&quot;.  O código definirá o cookie ev21gapv, que expirará em 28 dias, igual ao valor de eVar21 (ou seja, &quot;olá&quot;).  O código definirá (re)eVar21 igual ao valor do cookie ev21gapv.
 
@@ -72,7 +72,7 @@ s.eVar21 = "hello";
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Suponha que a eVar21 ainda não tenha sido definida na página atual, mas tenha sido definida como &quot;hello&quot; em uma página anterior nos últimos 28 dias.   O código a seguir só definirá eVar21 igual ao valor do cookie ev21gapv (ou seja, &quot;olá&quot;).  Ele não redefine o cookie ev21gapv, pois eVar21 não foi definida na página atual antes da função ser chamada.
 
@@ -88,7 +88,7 @@ Suponha que a eVar21 ainda não tenha sido definida na página atual, mas tenha 
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 O código a seguir definirá eVar21 igual ao valor de &quot;howdy&quot;.  O código definirá (ou redefinirá) o cookie ev21gapv, que expirará em 28 dias, igual ao valor de eVar21 (ou seja, &quot;uau&quot;).  O código definirá prop35 igual ao valor do cookie ev21gapv (ou seja, &quot;uau&quot;).
 
@@ -97,7 +97,7 @@ s.eVar21 = "howdy";
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Suponha que s.eVar21 não tenha sido definido em nenhuma página nos últimos 28 dias.  O código a seguir definirá s.eVar21 igual a nada, pois o cookie ev21gapv expiraria 28 dias após sua última definição.
 
@@ -105,7 +105,7 @@ Suponha que s.eVar21 não tenha sido definido em nenhuma página nos últimos 28
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemplo nº 6
+### Exemplo #6
 
 O código a seguir definirá a eVar30 igual a &quot;compra&quot;.  Em seguida, ele definirá o cookie s_gapv, que expirará no final da sessão do navegador, igual ao valor de s.eVar30 (ou seja, &quot;shopping&quot;).  Em seguida, definirá s.eVar30 igual ao valor do cookie s_gapv (ou seja, a chamada getAndPersistValue retorna o valor do cookie s_gapv, que neste caso é &quot;shopping&quot;).
 

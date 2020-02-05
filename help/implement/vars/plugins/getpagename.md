@@ -64,7 +64,7 @@ O método retorna uma string contendo uma versão formatada amigavelmente do URL
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o URL atual fosse...
 
@@ -84,7 +84,7 @@ s.pageName = getPageName()
 s.pageName = "mail.google.com|mail|u|0";
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o URL atual fosse...
 
@@ -126,7 +126,7 @@ s.pageName = "www.google.com|home"
 
 **Observação**: Quando o código é executado em um URL que não contém um caminho, ele sempre adicionará o valor de &quot;home&quot; ao final do valor de retorno
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o URL atual fosse...
 
@@ -146,7 +146,7 @@ s.pageName = getPageName("google","","","|")
 s.pageName = "google|home"
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o URL atual fosse...
 

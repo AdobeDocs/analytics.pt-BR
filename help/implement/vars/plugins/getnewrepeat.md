@@ -63,7 +63,7 @@ Este plug-in usa um cookie chamado `"s_nr[LENGTH]"` onde `[LENGTH]` é igual ao 
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; para novos visitantes e continuará a definir s.eVar1 igual ao valor de &quot;Novo&quot; (com cada nova chamada) durante o restante da visita do visitante ao site.
 
@@ -71,7 +71,7 @@ O código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; para nov
 s.eVar1=s.getNewRepeat();
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o visitante voltar ao site a qualquer momento, de 31 minutos a 30 dias desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Repetir&quot; e continuará a definir s.eVar1 igual ao valor de &quot;Repetir&quot; (com cada nova chamada) durante o restante da visita do visitante ao site.
 
@@ -87,7 +87,7 @@ Se o visitante não tiver estado no site há pelo menos 30 dias desde a última 
 s.eVar1=s.getNewRepeat();
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o visitante retornar ao site a qualquer momento, 31 minutos a 365 dias (ou seja, 1 ano) desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Repetir&quot; e continuará definindo s.eVar1 igual ao valor de &quot;Repetir&quot; (com cada nova chamada) durante o restante do visita do visitante ao site.
 
@@ -95,7 +95,7 @@ Se o visitante retornar ao site a qualquer momento, 31 minutos a 365 dias (ou se
 s.eVar1=s.getNewRepeat(365);
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o visitante não tiver estado no site há pelo menos 365 dias (ou seja, 1 ano) desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; e continuará a definir s.eVar1 igual ao valor de &quot;Novo&quot; (com cada nova chamada) durante o restante do visitante visita ao site.
 

@@ -71,7 +71,7 @@ O plug-in getPageLoadTime cria dois cookies primários:
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Executando o seguinte código...
 

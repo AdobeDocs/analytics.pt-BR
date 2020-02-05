@@ -74,7 +74,7 @@ O `apl` método retorna o valor do `lv` argumento mais quaisquer valores não du
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o status...
 
@@ -94,7 +94,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 
@@ -136,7 +136,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event23";
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o status...
 
@@ -164,7 +164,7 @@ s.eVar5 = "hello|people|today";
 
 Lembre-se de que o plug-in retorna apenas um valor; ela não &quot;redefine&quot; necessariamente a variável transmitida pelo argumento lv.
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o status...
 
@@ -186,7 +186,7 @@ s.prop4 = "hello|people,today";
 
 Certifique-se de manter o delimitador consistente entre o que está no valor do argumento lv e o que está nos argumentos d1/d2
 
-### Exemplo nº 6
+### Exemplo #6
 
 Se o status...
 
@@ -208,7 +208,7 @@ s.events = "event22,event23,EVentT23";
 
 Embora esse exemplo não seja prático, demonstra a necessidade de usar cautela ao usar o sinalizador que diferencia maiúsculas de minúsculas.
 
-### Exemplo nº 7
+### Exemplo #7
 
 Se o status...
 
@@ -230,7 +230,7 @@ s.events = "event22,event23,event24,event25");
 
 O plug-in não adicionará &quot;event23&quot; a s.events porque ele já existe em s.events.  No entanto, ele adicionará event24 e event25 a s.events porque nenhum deles estava anteriormente contido em s.events.
 
-### Exemplo nº 8
+### Exemplo #8
 
 Se o status...
 
@@ -252,7 +252,7 @@ s.linkTrackVars = "events,eVar1,campaign";
 
 Os três últimos argumentos (ou seja, &quot;,&quot;, &quot;,&quot;, false) no final desta chamada de aplicativo não são necessários, mas também não estão &quot;prejudicando nada&quot; ao serem definidos, pois correspondem aos valores padrão do argumento.
 
-### Exemplo nº 9
+### Exemplo #9
 
 Se o status...
 

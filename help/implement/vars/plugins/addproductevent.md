@@ -73,7 +73,7 @@ O plug-in addProductEvent não cria ou usa cookies
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o status...
 
@@ -100,7 +100,7 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
 s.events="purchase,event35"
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 
@@ -151,7 +151,7 @@ s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;produ
 s.events="purchase,event2,event33,event34,event35"
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o status...
 
@@ -180,7 +180,7 @@ s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=la
 s.events="purchase,event2,event33,event34,event35"
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se s.products não estiver definido e o código a seguir for executado...
 

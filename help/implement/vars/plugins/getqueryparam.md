@@ -69,7 +69,7 @@ Chamar esse método retorna um valor dependendo dos argumentos acima e do URL:
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o URL atual for o seguinte:
 
@@ -83,7 +83,7 @@ O código a seguir definirá s.campaign igual a &quot;trackingcode1&quot;:
 s.campaign=s.getQueryParam('cid');
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o URL atual for o seguinte:
 
@@ -111,7 +111,7 @@ O código a seguir definirá s.campaign igual a &quot;trackingcode1123456&quot;:
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o URL atual for o seguinte:
 
@@ -125,7 +125,7 @@ O código a seguir definirá s.campaign igual a &quot;123456&quot;:
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o URL atual for o seguinte:
 
@@ -141,7 +141,7 @@ s.campaign=s.getQueryParam('ecid');
 
 **** Observação: O plug-in substitui o URL ao caractere hash de Check por um ponto de interrogação se um ponto de interrogação não existir.  Se o URL contiver um ponto de interrogação anterior ao caractere de hash, o plug-in substituirá o URL para o caractere de hash de Check por um E comercial;
 
-### Exemplo nº 6
+### Exemplo #6
 
 Se o URL atual for o seguinte...
 

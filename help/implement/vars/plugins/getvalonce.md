@@ -64,7 +64,7 @@ Se o `vtc` argumento e o valor do cookie corresponderem, esse método retornará
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Use esta chamada para evitar que o mesmo valor seja transmitido para s.campaign mais de uma vez seguidas nos próximos 30 dias:
 
@@ -74,7 +74,7 @@ s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 
 Na chamada acima, o plug-in primeiro comparará o valor já contido no cookie s_campaign com o valor proveniente da variável s.campaign atual.   Se não houver correspondência, o plug-in definirá o cookie s_campaign igual ao novo valor proveniente de s.campaign e retornará o novo valor.   Essa comparação acontecerá nos próximos trinta dias
 
-### Exemplo nº 2
+### Exemplo #2
 
 Use esta chamada para impedir que o mesmo valor seja definido na sessão:
 

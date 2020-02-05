@@ -64,7 +64,7 @@ Este plug-in cria um cookie primário chamado `"s_dur"`, que é o número de mil
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -74,7 +74,7 @@ s.eVar10 = s.getVisitDuration();
 
 ...sempre definirá a eVar10 igual ao número de minutos passados desde que o visitante chegou ao site
 
-### Exemplo nº 2
+### Exemplo #2
 
 O seguinte código...
 

@@ -85,7 +85,7 @@ Chamar esse método retorna um número inteiro que representa a quantidade de te
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -103,7 +103,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * Quando um tempo real entre event1 e event2 for registrado, o plug-in definirá eVar1 igual ao número de segundos entre os dois eventos que estão sendo definidos, arredondado para o benchmark mais próximo de 2 segundos (por exemplo, 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos etc.)
 * Se s.events contiver event2 antes de um timer ser iniciado, a eVar1 não será definida.
 
-### Exemplo nº 2
+### Exemplo #2
 
 O seguinte código...
 

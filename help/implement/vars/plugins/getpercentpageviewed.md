@@ -63,7 +63,7 @@ Este plug-in cria um cookie próprio chamado `s_ppv` que contém os valores acim
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -84,7 +84,7 @@ if(s._ppvPreviousPage)
 
 **Observação**:  Se uma página inteira estiver visível quando for carregada pela primeira vez, tanto a porcentagem mais alta visualizada quanto as dimensões da porcentagem inicial visualizada serão iguais a 100, e ambas as dimensões Folds Seen e Folds Available serão iguais a 1.   Quando uma página inteira NÃO estiver visível quando for carregada pela primeira vez, mas o visitante nunca terminar rolando para baixo antes de ir para a próxima página, então tanto a porcentagem mais alta visualizada quanto a porcentagem inicial visualizada serão iguais ao mesmo valor.
 
-### Exemplo nº 2
+### Exemplo #2
 
 Suponha que s.prop5 tenha sido reservado para capturar um &quot;tipo de página&quot; acumulado, em vez do nome da página inteira.
 

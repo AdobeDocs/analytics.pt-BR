@@ -71,7 +71,7 @@ A segunda parte da string retornada é a largura e a altura do navegador. Por ex
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o status...
 
@@ -85,7 +85,7 @@ Se o status...
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 

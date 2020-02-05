@@ -61,7 +61,7 @@ O método retorna o valor do `str` argumento com todos os caracteres desnecessá
 
 ## Exemplos
 
-### Exemplo nº 1
+### Exemplo #1
 
 Considere o seguinte (em que os pontos representam espaços e as setas representam caracteres de tabulação)
 
@@ -77,7 +77,7 @@ s.eVar1 = cleanStr(s.eVar1)
 
 ...eVar1 será definida como &quot;this is a messystring&quot; (com todos os espaços extras e todos os caracteres de tabulação removidos)
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 

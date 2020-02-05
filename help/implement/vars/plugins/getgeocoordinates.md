@@ -65,7 +65,7 @@ Esse plug-in usa um cookie chamado `"s_ggc"` para armazenar coordenadas entre oc
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -75,7 +75,7 @@ s.eVar1 = s.getGeoCoordinates();
 
 ...define eVar1 igual a um dos valores de retorno acima, dependendo do status do dispositivo do visitante
 
-### Exemplo nº 2
+### Exemplo #2
 
 O código a seguir extrai latitude e longitude em suas próprias variáveis chamadas finalLatitude e finalLongitude para uso em outros códigos/aplicativos
 

@@ -70,7 +70,7 @@ Este plug-in define um cookie primário chamado `"s_vnc[LENGTH]"` onde `[LENGTH]
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Para um visitante que não esteve no site nos últimos 365 dias, o código a seguir definirá s.prop1 igual ao valor de 1:
 
@@ -78,7 +78,7 @@ Para um visitante que não esteve no site nos últimos 365 dias, o código a seg
 s.prop1=s.getVisitNum();
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Para um visitante que retorna ao site dentro de 364 dias após sua primeira visita, o seguinte código definirá s.prop1 igual a 2:
 
@@ -110,7 +110,7 @@ Quando o segundo argumento na chamada for igual a false, a rotina que determina 
 
 Quando o segundo argumento for igual a true (ou não definido), o plug-in redefinirá o número de visita para 1 somente após o número &quot;x&quot; de dias - novamente, neste exemplo, 365 dias - de inatividade do visitante.
 
-### Exemplo nº 4
+### Exemplo #4
 
 Para todos os visitantes que chegam ao site pela primeira vez durante a semana atual - começando no domingo - o seguinte código definirá s.prop1 igual a 1:
 
@@ -118,7 +118,7 @@ Para todos os visitantes que chegam ao site pela primeira vez durante a semana a
 s.prop1=s.getVisitNum("w");
 ```
 
-### Exemplo nº 5
+### Exemplo #5
 
 Para todos os visitantes que chegam ao site pela primeira vez durante o mês atual - começando no primeiro dia de cada mês - o código a seguir definirá s.prop1 igual a 1:
 
@@ -128,7 +128,7 @@ s.prop1=s.getVisitNum("m");
 
 Lembre-se de que o plug-in getVisitNum não considera calendários baseados em varejo (ou seja, 4-5-4, 4-4-5 etc.)
 
-### Exemplo nº 6
+### Exemplo #6
 
 Para todos os visitantes que acessam o site pela primeira vez durante o ano atual - começando em 1° de janeiro - o código a seguir definirá s.prop1 igual a 1:
 
@@ -136,7 +136,7 @@ Para todos os visitantes que acessam o site pela primeira vez durante o ano atua
 s.prop1=s.getVisitNum("y");
 ```
 
-### Exemplo nº 7
+### Exemplo #7
 
 Se você deseja rastrear o número de visita de um visitante para a semana, o número de visita de um visitante para o mês e o número de visita de um visitante para o ano - tudo dentro de diferentes variáveis do Analytics - você deve usar um código semelhante ao seguinte:
 

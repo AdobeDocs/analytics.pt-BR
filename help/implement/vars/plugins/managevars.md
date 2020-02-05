@@ -91,7 +91,7 @@ Chamar esse método não retorna nada. Em vez disso, altera os valores das vari�
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 O seguinte código...
 
@@ -101,7 +101,7 @@ s.manageVars("lowerCaseVars");
 
 ...altera os valores de todas as variáveis descritas acima para versões em minúsculas.  A única exceção para isso é a variável events, como alguns dos eventos (por exemplo, scAdd, scCheckout etc.) fazem distinção entre maiúsculas e minúsculas e não devem ser minúsculas
 
-### Exemplo nº 2
+### Exemplo #2
 
 O seguinte código...
 
@@ -121,7 +121,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 
 ...alterará (por exemplo, minúsculas) somente os valores de eVar1, eVar2, eVar3 e list2
 
-### Exemplo nº 4
+### Exemplo #4
 
 O seguinte código...
 
@@ -131,7 +131,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 
 ...alterará (por exemplo, minúsculas) os valores de todas as variáveis descritas acima, EXCETO para eVar1, eVar2, eVar3 e list2
 
-### Exemplo nº 5
+### Exemplo #5
 
 O seguinte código...
 

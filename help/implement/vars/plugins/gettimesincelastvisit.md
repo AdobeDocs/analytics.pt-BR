@@ -72,7 +72,7 @@ Este plug-in cria um cookie primário chamado `"s_tslv"` de definido como um car
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se um visitante novinho em folha chegar ao site e o código a seguir for executado na primeira página da visita...
 

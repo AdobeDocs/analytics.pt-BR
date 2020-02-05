@@ -70,7 +70,7 @@ Chamar esse método retorna uma string modificada contendo o `lv` argumento, mas
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
 Se o status...
 
@@ -90,7 +90,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25";
 ```
 
-### Exemplo nº 2
+### Exemplo #2
 
 Se o status...
 
@@ -134,7 +134,7 @@ s.events = "";
 
 Se o argumento lv ou vr estiver em branco em uma chamada s.rfl, o plug-in não retornará nada
 
-### Exemplo nº 4
+### Exemplo #4
 
 Se o status...
 
@@ -162,7 +162,7 @@ s.eVar5 = "hello|today";
 
 Lembre-se de que o plug-in retorna apenas um valor; na verdade, ela não &quot;redefine&quot; a variável transmitida pelo argumento lv.
 
-### Exemplo nº 5
+### Exemplo #5
 
 Se o status...
 
@@ -184,7 +184,7 @@ s.prop4 = "hello|people|today";
 
 Certifique-se de definir o argumento d1 nos casos em que o valor do argumento lv contém um delimitador diferente do valor padrão (ou seja, vírgula).
 
-### Exemplo nº 6
+### Exemplo #6
 
 Se o status...
 
@@ -206,7 +206,7 @@ s.events = "event22,event23,event25";
 
 Embora esse exemplo não seja prático, demonstra a necessidade de passar em valores sensíveis a maiúsculas e minúsculas.
 
-### Exemplo nº 7
+### Exemplo #7
 
 Se o status...
 
@@ -226,7 +226,7 @@ s.events = s.rfl(s.events,"event23");
 s.events = "event22,event25";
 ```
 
-### Exemplo nº 8
+### Exemplo #8
 
 Se o status...
 
@@ -248,7 +248,7 @@ s.events = "event22,event23:12345,event25";
 
 Quando for necessário remover um evento que use a serialização e/ou a sintaxe numérica/de moeda, você deverá especificar somente o próprio evento (ou seja, sem os valores serialização/numérico/de moeda) na chamada s.rfl.
 
-### Exemplo nº 9
+### Exemplo #9
 
 Se o status...
 
@@ -308,7 +308,7 @@ s.events = s.rfl(s.events,"event23", "", "|",true);
 s.events = "event22|event23|event24|event25");
 ```
 
-### Exemplo nº 12
+### Exemplo #12
 
 Se o status...
 
@@ -353,7 +353,7 @@ s.events = "event22,event25");
 
 Cada valor a ser removido da lista deve estar contido em sua própria chamada s.rfl.
 
-### Exemplo nº 14
+### Exemplo #14
 
 Se o status...
 
@@ -375,7 +375,7 @@ s.linkTrackVars = "events,eVar1,eVar3";
 
 Os três últimos argumentos (ou seja, &quot;,&quot;,&quot;,&quot;,false) no final desta chamada s.rfl não são necessários, mas também não estão &quot;prejudicando nada&quot; por estarem presentes, pois correspondem às configurações padrão.
 
-### Exemplo nº 15
+### Exemplo #15
 
 Se o status...
 
