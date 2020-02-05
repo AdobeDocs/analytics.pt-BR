@@ -2,7 +2,7 @@
 title: eVar
 description: Variáveis personalizadas que podem ser usadas na implementação.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 Se mais que duas casas decimais forem fornecidas, o contador da eVar é arredondado por duas casas decimais. Um contador eVar não pode conter números negativos.
 
+> [!IMPORTANT] Primeiro, você deve configurar eVars como &quot;Contador&quot; no Admin Console antes de usar eVars de contador. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## Vantagens exclusivas para props ou eVars
 
 Na versão atual do Adobe Analytics, props e eVars são variáveis personalizadas com recursos semelhantes. No entanto, apresentam várias diferenças importantes:
@@ -61,4 +63,4 @@ Na versão atual do Adobe Analytics, props e eVars são variáveis personalizada
 * Os dados em props estão disponíveis em relatórios em minutos. As eVars podem levar mais de 30 minutos para serem exibidas nos relatórios.
 * As props têm um limite de 100 bytes nos relatórios. As eVars têm um limite de 255 bytes.
 * As props podem se tornar propriedades de lista, que aceitam vários valores na mesma ocorrência. List vars são uma variável separada e há apenas três variáveis de lista disponíveis.
-* As props por padrão não persistem além da ocorrência que estão definidas. As eVars têm expiração personalizada, permitindo determinar quando uma eVar não recebe mais crédito por um evento subsequente. Se você usar o processamento [de tempo do](../../../components/vrs/vrs-report-time-processing.md)relatório, props e eVars poderão usar qualquer modelo de atribuição que desejar.
+* As props por padrão não persistem além da ocorrência que estão definidas. As eVars têm expiração personalizada, permitindo determinar quando uma eVar não recebe mais crédito por um evento subsequente. No entanto, se você usar o processamento [de tempo do](../../../components/vrs/vrs-report-time-processing.md)relatório, props e eVars poderão usar um modelo de atribuição personalizado.
