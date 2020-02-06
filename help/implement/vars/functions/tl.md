@@ -2,7 +2,7 @@
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ Se `trackDownloadLinks` ou `trackExternalLinks` estiver ativado, o AppMeasuremen
 A inicialização tem um local dedicado definido uma chamada de rastreamento de link.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique no ícone &#39;+&#39;
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como Enviar beacon.
-6. Click the `s.tl()` radio button.
+1. Clique na propriedade desejada.
+1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+1. Em [!UICONTROL Ações], clique no ícone &#39;+&#39;
+1. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como Enviar beacon.
+1. Click the `s.tl()` radio button.
 
 Não é possível definir argumentos opcionais no Launch.
 
