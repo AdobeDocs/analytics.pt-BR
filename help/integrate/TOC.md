@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
+source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
 
 ---
 
@@ -16,11 +16,6 @@ source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
    + [Visão geral do Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Fluxo de trabalho do Audience Analytics {#audience-analytics-workflow}
       + [Visão geral do fluxo de trabalho](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Visão geral do encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf.md)
-      + [Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Requisitos para encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Verificar a implementação de encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-      + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor - Guia do administrador](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [Criar destino do Analytics - Guia do AAM](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Usar os dados de público-alvo no Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso do Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
