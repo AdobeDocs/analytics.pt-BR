@@ -2,14 +2,14 @@
 title: account
 description: Use a variável de conta para determinar o conjunto de relatórios para o qual os dados são enviados.
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Essa variável é removida. Use a [`s.sa()`](../functions/sa.md) função se sua implementação exigir que você modifique o destino do conjunto de relatórios.
+> [!IMPORTANT] Essa variável é removida. Use a [`s.sa()`](../functions/sa-method.md) função se sua implementação exigir que você modifique o destino do conjunto de relatórios.
 
 Em versões anteriores do Adobe Analytics, a `account` variável determinava o conjunto de relatórios para o qual você deseja enviar dados. Uma ID de conjunto de relatórios é necessária para enviar dados ao Adobe Analytics.
 
