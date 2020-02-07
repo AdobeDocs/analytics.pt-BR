@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Variável de conversão: Coloquialmente conhecido como eVars. Armazena um valor personalizado e preserva o valor da variável até que expire. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** Correlação: Não é mais usado como termo; substituído por detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **** Dados atuais: Uma opção em alguns relatórios que permite a inclusão de dados coletados recentemente que ainda não foram totalmente processados. Consulte Dados [](/help/analyze/reports-analytics/current-data.md) atuais no guia Analisar usuário.
-* **** Link personalizado: Um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a função [](../implement/vars/functions/tl.md) s.tl() no guia Implementar usuário. Consulte também Ocorrência.
+* **** Link personalizado: Um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a função [](../implement/vars/functions/tl-method.md) s.tl() no guia Implementar usuário. Consulte também Ocorrência.
 * **** Atributos do cliente: Um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte Atributos [do](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) cliente no guia do usuário dos Principais serviços.
 * **** Representante de suporte ao cliente: Um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte Delegações [de suporte ao](https://helpx.adobe.com/experience-cloud/supported-users.html) cliente na Base de conhecimento da Experience Cloud.
 * **** Servidor de coleta de dados: Servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
@@ -87,8 +87,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** Conjunto de relatórios: Um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
 * **** Intervalo de datas em andamento: Um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas acumulado. Consulte também intervalo de datas estático.
 * **** RSID: Abreviação da ID do conjunto de relatórios. Um conjunto de relatórios tem um nome amigável e uma ID de conjunto de relatórios.
-* **** s.t(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()` . Consulte [isso](../implement/vars/functions/t.md) no guia Implementar usuário.
-* **s<span>.</span>** tl(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de rastreamento de link. Algumas bibliotecas do AppMeasurement usam `s.trackLink()` . Consulte [tl](../implement/vars/functions/tl.md) no guia Implementar usuário.
+* **** s.t(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()` . Consulte [isso](../implement/vars/functions/t-method.md) no guia Implementar usuário.
+* **s<span>.</span>** tl(): O nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de rastreamento de link. Algumas bibliotecas do AppMeasurement usam `s.trackLink()` . Consulte [tl](../implement/vars/functions/tl-method.md) no guia Implementar usuário.
 * **** s_code.js: O nome do arquivo JavaScript usado em versões históricas do Adobe Analytics. O nome atual do arquivo JavaScript usado é AppMeasurement.js.
 * **** Satélite: Não é mais usado como um termo. O nome do produto anterior para Gerenciamento dinâmico de tags.
 * **** Chamada secundária do servidor: Nome alternativo para solicitação de imagem ou ocorrência, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando a mesma ocorrência é enviada para vários conjuntos de relatórios, todos os conjuntos de relatórios depois da primeira lista são chamadas de servidor secundárias. Consulte também Chamadas de servidor primário.
