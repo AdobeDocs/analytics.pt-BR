@@ -3,7 +3,7 @@ title: Atualizações de documentação do Adobe Analytics
 description: Atualizações de documentação técnica do Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,13 +13,14 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
 
 * Para obter uma lista abrangente dos novos recursos, avisos de administração e correções de erros, consulte [Notas de versão mais recentes da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* Para obter mais detalhes sobre os novos recursos do Analysis Workspace, consulte [este tópico](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
+* Para obter detalhes sobre novos recursos, consulte [Novos recursos na Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) no guia do usuário Analisar.
 * Para obter informações sobre o Adobe Analytics para áudio e vídeo, consulte [Medição de áudio e vídeo no Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Detalhes da atualização
 
 | Data | Descrição |
 |---|---|
+| 7 de fevereiro de 2020 | Atualizações para [configurar análises](../components/cda/cda-setup.md) entre dispositivos e [perguntas frequentes](../components/cda/cda-faq.md) |
 | 4 de fevereiro de 2020 | Substituição completa do guia [do usuário](../implement/home.md)Implementar. |
 | 22 de janeiro de 2020 | Atualização da página Tabela de forma livre que inclui informações sobre o novo Criador [de tabela de forma](/help/analyze/analysis-workspace/visualizations/freeform-table.md)livre. |
 | 13 de janeiro de 2020 | Adicionados [o Adobe Analytics e cookies](../technotes/cookies.md)do navegador. |
