@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -33,11 +33,11 @@ Usar o Tipo de dispositivo móvel como ilustrado acima permite ver como as pesso
 
 A Adobe trata as ocorrências com carimbos de data e hora como se fossem recebidas no momento do carimbo de data e hora, e não quando a Adobe recebeu a ocorrência. Ocorrências com carimbo de data e hora com mais de 1 mês não podem ser compiladas, pois são consideradas fora do intervalo em que a Adobe mantém os dados usados para compilação.
 
-**Como o CDA se compara à ID de visitante personalizada?**
+**Como o CDA se compara às IDs de visitante personalizadas?**
 
 A [ID de visitante personalizada](/help/implement/vars/config-vars/visitorid.md) é um método herdado para [conectar os usuários aos dispositivos](/help/implement/js/xdevice-visid/xdevice-connecting.md). Com uma ID de visitante personalizada, você usa a variável `s.visitorID` para definir explicitamente a ID usada para a lógica do visitante. A variável `s.visitorID` substitui todas as IDs baseadas em cookies presentes.
 
-As IDs de visitante personalizadas têm vários efeitos colaterais indesejados que o CDA foi projetado para superar ou minimizar. Por exemplo, a metodologia de ID de visitante personalizada não tem recursos de lookback. Se um usuário for autenticado no meio de uma visita, a primeira parte da visita será associada a uma ID de visitante diferente da última parte da visita. As IDs de visitante separadas resultam no aumento de visitas e visitantes. A janela de lookback de 30 dias do CDA permite retroceder no tempo para reafirmar o comportamento anterior como pertencente à mesma pessoa, aproximando o comportamento não autenticado de vários dispositivos do comportamento autenticado de vários dispositivos com aumento mínimo ou nenhum aumento.
+As IDs de visitante personalizadas têm vários efeitos colaterais indesejados que o CDA supera ou minimiza. Por exemplo, a metodologia de ID de visitante personalizada não tem recursos de lookback. Se um usuário for autenticado no meio de uma visita, a primeira parte da visita será associada a uma ID de visitante diferente da última parte da visita. As IDs de visitante separadas resultam no aumento de visitas e visitantes. A janela de lookback de 30 dias do CDA permite retroceder no tempo para reafirmar o comportamento anterior como pertencente à mesma pessoa, aproximando o comportamento não autenticado de vários dispositivos do comportamento autenticado de vários dispositivos com aumento mínimo ou nenhum aumento.
 
 **É possível atualizar da ID de visitante personalizada para o CDA?**
 
@@ -50,3 +50,28 @@ Em algumas situações, é possível que várias pessoas façam logon no mesmo d
 **Como o gráfico de dispositivos lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?**
 
 Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se o indivíduo usar muitos navegadores ou aplicativos e pode ser exacerbado se ele limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador. O gráfico de dispositivos limita o número de ECIDs vinculadas a determinada ID de usuário a 200. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é incluída na blacklist para não ser reagrupada no futuro. O resultado no CDA é que o comportamento da ID do usuário não é compilado em todos os dispositivos.
+
+**Qual é a diferença entre a métrica &quot;Pessoas&quot; no CDA e a métrica &quot;Visitantes únicos&quot; fora do CDA?**
+
+A métrica &quot;Pessoas&quot; é semelhante à métrica &quot;Visitantes únicos&quot;, na medida em que relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando são registrados como dois visitantes únicos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-device Analytics está ativado.
+
+**Qual é a diferença entre a métrica &#39;Dispositivos únicos&#39; no CDA e a métrica &#39;Visitantes únicos&#39; fora do CDA?**
+
+Essas duas métricas são aproximadamente equivalentes entre si.
+
+**É possível incluir métricas de CDA usando a API 2.0?**
+
+Sim. A Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da Adobe e você pode exibir chamadas de API que a Adobe usa para criar seus próprios relatórios:
+
+1. Ao fazer logon na Analysis Workspace, abra as ferramentas do desenvolvedor do navegador (F12 para a maioria dos navegadores).
+1. No console do navegador, digite `adobeTools.showDebugger()`. A página é recarregada com ícones de depuração no canto superior direito de cada painel.
+1. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora desejadas da solicitação.
+1. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
+
+**O Cross-Device Analytics pode unir visitantes únicos. Pode juntar as visitas?**
+
+Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
+
+**Qual é a ID de visitante mais avançada que o CDA usa? Posso exportá-lo para fora do Adobe Analytics?**
+
+O Cross-Device Analytics calcula dados agrupados usando uma &quot;ID de cluster&quot;. Esse identificador é calculado pela Adobe no momento em que o relatório é executado, também conhecido como Processamento em tempo de relatório. A natureza do processamento do tempo de relatório significa que isso não é compatível com o Data Warehouse, feeds de dados ou outros recursos de exportação oferecidos pela Adobe.
