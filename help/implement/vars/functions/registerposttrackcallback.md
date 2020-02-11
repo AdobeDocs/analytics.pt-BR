@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ A `registerPostTrackCallback` variável permite que sua organização conecte um
 
 Cada vez que você chama a `registerPostTrackCallback` variável, conecta essa função para ser executada imediatamente depois que uma solicitação de imagem é enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
-> [!NOTE] O tempo e a ordem das funções disparadas entre `registerPostTrackCallback` e não `registerPostTrackCallback` são garantidos. Evite dependências entre essas duas funções.
+> [!NOTE] O tempo e a ordem das funções disparadas entre `registerPreTrackCallback` e não `registerPostTrackCallback` são garantidos. Evite dependências entre essas duas funções.
 
 ## Registrar retorno de chamada de rastreamento de postagem no Adobe Experience Platform Launch
 
