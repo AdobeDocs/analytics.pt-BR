@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: ht
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+translation-type: tm+mt
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Criar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Atribuição e tipo de métrica](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Criar uma métrica simples de "Exibições de página por visita"](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Criar uma métrica simples de &quot;Exibições de página por visita&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilhar e substituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas e ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Configurar relatórios em tempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas e dimensões em tempo real compatíveis](c-real-time-reporting/realtime-metrics.md)
 + Canais de marketing {#marketing-channels}
-   + [Introdução aos Canais de marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Sobre os Relatórios de Canal de marketing](c-marketing-channels/c-overview.md)
-   + [Sobre canais e regras](c-marketing-channels/c-channels-rules.md)
-   + [Configuração automática](c-marketing-channels/c-channel-autosetup.md)
-   + [Gerenciar canais de marketing](c-marketing-channels/c-channels.md)
-   + [Canal interno (atualização de sessão)](c-marketing-channels/session-refresh.md)
-   + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
-   + [Criar regras de processamento de Canal de marketing](c-marketing-channels/t-rules.md)
-   + [Regras de processamento de canal de marketing - Definições](c-marketing-channels/r-channel-rule-definitions.md)
-   + [Perguntas frequentes e exemplos](c-marketing-channels/c-faq.md)
-   + [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](c-marketing-channels/t-template.md)
-   + [Classificações em Canais de marketing](c-marketing-channels/classifictions-mchannel.md)
-   + [Expiração de envolvimento do visitante](c-marketing-channels/visitor-engagement.md)
-   + [Métricas usadas nos relatórios de canal de marketing](c-marketing-channels/c-overview-metrics.md)
-   + [Métricas calculadas usadas nos relatórios de canal de marketing](c-marketing-channels/c-channel-calc-metrics.md)
-   + [Custos e orçamentos](c-marketing-channels/c-overview-budget.md)
-   + [Adicionar dados offline](c-marketing-channels/t-offline-data.md)
-   + [Acesso ao Relatório](c-marketing-channels/c-channel-report-access.md)
-   + [Configurar o acesso do grupo de usuários](c-marketing-channels/t-user-groups.md)
-   + [Conceder direitos administrativos limitados](c-marketing-channels/t-admin-rights.md)
-   + [Executar relatórios de Canal de marketing](c-marketing-channels/t-reports-sc.md)
+   + [Introdução aos Canais] de marketing {#mc-get-started}
+      + [Comece já](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [Configuração automática](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](c-marketing-channels/getting-started/t-template.md)
+   + [Gerente] de Canais de marketing {#mc-manager}
+      + [Gerenciar canais de marketing](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [Sobre canais e regras](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [Regras] de processamento dos Canais de marketing {#mc-proc-rules}
+      + [Regras de processamento para Canais de marketing](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [Criar regras de processamento de Canal de marketing](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [Critérios de regra do Canal de marketing](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [Canal interno (atualização de sessão)](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [Classificações] dos Canais de marketing {#mc-classifications}
+      + [Classificações em Canais de marketing](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [Expiração] dos Canais de marketing {#mc-expire}
+      + [Expiração de envolvimento do visitante](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [Analisar canais] de marketing {#mc-analyze}
+      + [Analisar canais de marketing](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [Acessar canais] de marketing {#mc-access}
+      + [Permissões para Canais de marketing](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [Perguntas frequentes] do Canal de marketing {#mc-faq}
+      + [Perguntas frequentes e exemplos de canais de marketing](c-marketing-channels/mc-faq/c-faq.md)
