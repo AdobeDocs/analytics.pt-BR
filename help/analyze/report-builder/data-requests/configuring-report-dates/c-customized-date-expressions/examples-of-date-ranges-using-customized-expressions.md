@@ -4,7 +4,7 @@ title: Exemplos de intervalos de datas usando expressões personalizadas
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -43,10 +43,8 @@ Expressões personalizadas que abrangem a maioria dos intervalos de datas podem 
 * Use somente estas abreviações: cd cw cm cq cy d w m q y
 * A prática recomendada é usar a mesma referência de data nas datas de início e de fim: cd, cd, ou cw, cw, ou cy, cy. Misturar referências de datas pode levar a datas inválidas em determinadas épocas do ano.
 * Múltiplos válidos das abreviações d w m q y são formados por meio de números inteiros (1 2 3 ...) prefixados à abreviação, como 53d 3w 5q 9m 2y
-
-   * Números que não sejam inteiros não são permitidos.
-   * Não anexe apenas um zero como prefixo da abreviação. Por exemplo, 0w não é permitido.
-
+* Números que não sejam inteiros não são permitidos.
+* Não anexe apenas um zero como prefixo da abreviação. Por exemplo, 0w não é permitido.
 * Os operadores a seguir são usados para concatenar abreviações: + -
 * Visto que os intervalos de datas precisam ser calculados em relação ao período atual, o primeiro termo em uma expressão sempre começa com c.
 
