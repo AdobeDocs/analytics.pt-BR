@@ -2,7 +2,7 @@
 title: Analisar canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ Você provavelmente quer saber qual dos seus canais de marketing é o mais efica
 | Canal de Marketing | Esta é a dimensão Canais de marketing que recomendamos usar. Os modelos de IQ de atribuição podem ser aplicados a ele em tempo de execução. A dimensão Canais de marketing genéricos comporta-se de forma idêntica às dimensões do Canal de último toque, mas é rotulada de forma diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
 | Canal de Último Contato | Dimensão herdada, com modelo de atribuição pré-aplicado e inalterável. |
 | Canal de Primeiro Contato | Dimensão herdada, com modelo de atribuição pré-aplicado e inalterável. |
-| [Instâncias do canal de marketingEsta métrica...] |
+| Instâncias do Canal de Marketing | Esta métrica... |
 | Novos envolvimentos | Esta é uma métrica herdada que é aumentada somente quando um canal tem alocação de &#39;primeiro toque&#39; aplicada a ela. |
 
 ## Análise básica
@@ -57,4 +57,4 @@ Usando o Canal de primeiro toque e o Canal de último toque herdados, você pode
 
 ![](assets/mc-viz6.png)
 
-Saiba mais sobre [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Saiba mais sobre a análise de marketing entre guias [neste vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
