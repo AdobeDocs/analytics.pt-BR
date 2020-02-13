@@ -3,30 +3,31 @@ title: Atualizações de documentação do Adobe Analytics
 description: Atualizações de documentação técnica do Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
 
-# Atualizações de documentação técnica para o Adobe Analytics
+# Atualizações de documentação técnica do Adobe Analytics
 
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
 
-* Para obter uma lista abrangente dos novos recursos, avisos de administração e correções de erros, consulte [Notas de versão mais recentes da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* Para obter detalhes sobre novos recursos, consulte [Novos recursos na Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) no guia do usuário Analisar.
+* Para obter uma lista abrangente dos novos recursos, avisos de administração e correções de erros, consulte [Notas de versão mais recentes da Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* Para obter detalhes sobre novos recursos, consulte [Novos recursos na Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) no guia do usuário Ferramentas.
 * Para obter informações sobre o Adobe Analytics para áudio e vídeo, consulte [Medição de áudio e vídeo no Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Detalhes da atualização
 
 | Data | Descrição |
 |---|---|
+| 12 de fevereiro de 2020 | Atualizações e reorganização da documentação Canais de marketing. |
 | 7 de fevereiro de 2020 | Atualizações para [configurar análises](../components/cda/cda-setup.md) entre dispositivos e [perguntas frequentes](../components/cda/cda-faq.md) |
-| 4 de fevereiro de 2020 | Substituição completa do guia [do usuário](../implement/home.md)Implementar. |
-| 22 de janeiro de 2020 | Atualização da página Tabela de forma livre que inclui informações sobre o novo Criador [de tabela de forma](/help/analyze/analysis-workspace/visualizations/freeform-table.md)livre. |
+| 4 de fevereiro de 2020 | Substituição completa do guia [do usuário da](../implement/home.md)Implementação. |
+| 22 de janeiro de 2020 | Atualização da página Freeform Table que inclui informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 de janeiro de 2020 | Adicionados [o Adobe Analytics e cookies](../technotes/cookies.md)do navegador. |
-| 29 de novembro de 2019 | Revisão para a documentação do feed de [dados](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 25 de novembro de 2019 | Novo tópico sobre o [Fim da vida útil para aplicar restrições de logon de IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 25 de novembro de 2019 | Novo tópico sobre canal de marketing [interno (atualização de sessão)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md) |
+| 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 25 de novembro de 2019 | Novo tópico sobre [canal de marketing Interno (atualização de sessão)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 21 de novembro de 2019 | Nova documentação definida para [Análise de jornada do cliente](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
