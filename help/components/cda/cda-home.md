@@ -2,7 +2,7 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics altera os dados que passam de focados em dispositivos para focados em pessoas, ao compilar os dados do dispositivo.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * O Atendimento ao cliente ainda não oferece suporte total a esse recurso. O [fórum do Cross-Device Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) pode ser usado para oferecer suporte a esse recurso, o que inclui o envolvimento ativo e direto dos Gerentes de produto da Adobe.
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Consulte [Conjuntos de relatórios virtuais](../vrs/vrs-about.md) e [Processamento de tempo de relatório](../vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
 * A API 1.4 não é suportada. Os conectores do Power BI e do Construtor de relatórios dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
-* Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas. A Adobe pretende melhorar o Serviço de identidade da Adobe Experience Platform para compilar novos dispositivos em tempo real no futuro.
+* Se sua organização usar o Gráfico privado, novos dispositivos levarão até 24 horas para serem costurados.
+* Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas. A Adobe pretende melhorar o gráfico de cooperação para um gráfico atualizado diariamente no futuro.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
 
 Assim que sua organização atender a todos os requisitos e entender as limitações, você poderá iniciar a [Configuração do Cross-Device Analytics](cda-setup.md).
