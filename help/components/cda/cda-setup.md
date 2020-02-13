@@ -2,7 +2,7 @@
 title: Configuração da Análise entre dispositivos
 description: Saiba como configurar o Cross-Device Analytics após atender aos pré-requisitos.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ A Adobe oferece um modelo para ver dados vitais de desempenho entre dispositivos
 1. Se solicitado, altere o conjunto de relatórios para um que suporte CDA.
 
 Um projeto da Analysis Workspace é criado com vários painéis. Na parte superior, um índice e uma introdução são mostrados, permitindo o contexto do relatório e a navegação para relatórios individuais. Clique em um link dentro do sumário ou expanda a tabela de um painel para exibir esses relatórios.
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Nota especial para os membros do Gráfico** de Cooperação: Mostra qual parte do conjunto de relatórios contém visitantes em regiões nas quais o gráfico cooperativo é suportado e em regiões nas quais ele não é suportado.
 * **Identificação de usuários**: Mostra a frequência com que os visitantes do site são identificados usando métodos baseados no Cross-Device Analytics.
