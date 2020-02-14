@@ -2,8 +2,8 @@
 description: 'null'
 title: Enviar solicitações de acesso e de exclusão
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
 
 ---
 
@@ -19,7 +19,7 @@ Você também pode querer garantir que seus aplicativos e sites para dispositivo
 
 ## Gerenciar o consentimento do consumidor {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por [implementar um mecanismo de recusa](https://marketing.adobe.com/resources/help/pt_BR/dtm/opt-in.html) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
+Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por [implementar um mecanismo de recusa](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
 
 ## Validar usuários e seus dados {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -33,7 +33,7 @@ Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo 
 
 Você pode enviar acesso à Privacidade de dados e excluir solicitações por meio do portal da [interface do usuário da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou por meio da nossa [API da Privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
-> [!NOTE] A API da Privacidade de dados suporta envios em massa de vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
+> [!NOTE] A API de Privacidade de dados suporta envios em massa para vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
 ## Solicitação JSON de exemplo {#sample-json-request}
 
@@ -82,13 +82,13 @@ Este é o JSON que pode ser enviado por meio da API da Privacidade de dados ou d
                     "namespace": "CRM-ID", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar17 in some report suites", 
-                    "value": "ACME-12345678", 
+                    "value": "ACME-12345678"
                 }, 
                 { 
                     "namespace": "email address", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar23 in some report suites", 
-                    "value": "john@mail.com", 
+                    "value": "john@mail.com" 
                 } 
             ] 
         } 
@@ -105,10 +105,10 @@ Observe que há três blocos na seção do usuário, representando três solicit
 
 Lembre-se
 
-* O valor "5D7236525AA6D9580A495C6C@AdobeOrg" na seção "companyContexts" deve ser atualizado com o valor da própria organização da Experience Cloud.
-* Os campos "type" e "namespace" são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
-* Os campos "description" são ignorados.
-* Os campos "key" podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações de Privacidade de dados, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
+* O valor &quot;5D7236525AA6D9580A495C6C@AdobeOrg&quot; na seção &quot;companyContexts&quot; deve ser atualizado com o valor da própria organização da Experience Cloud.
+* Os campos &quot;type&quot; e &quot;namespace&quot; são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
+* Os campos &quot;description&quot; são ignorados.
+* Os campos &quot;key&quot; podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações de Privacidade de dados, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
 
 ## Detalhes de resposta {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -147,4 +147,4 @@ Há algumas maneiras de testar o processamento da Privacidade de dados antes de 
 * Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de Privacidade de dados e sua organização normal da Experience Cloud para processamentos de Privacidade de dados.
 * Outra opção é atribuir namespaces diferentes à IDs nos conjuntos de relatórios de teste, em comparação com aqueles em seus conjuntos de relatórios de produção.
 
-   Por exemplo, você pode adicionar prefixos "qa-" a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo "qa", essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo "qa", elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntosde relatórios de teste**.
+   Por exemplo, você pode adicionar prefixos &quot;qa-&quot; a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntosde relatórios de teste**.
