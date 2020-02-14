@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
+source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
 
@@ -27,8 +27,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
    * Uma classificação padrão da dimensão Código de rastreamento; criado automaticamente para todos os conjuntos de relatórios.
    * Adobe Campaign, parte da Adobe Experience Cloud. Mais informações sobre [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal: Pode consultar:
-   * A variável Canal, que preenche a dimensão Seções do site. Consulte [canal](../implement/vars/page-vars/channel.md) no guia Implementar usuário.
-   * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte Canais [de marketing](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) no guia do usuário Componentes.
+   * A variável Canal, que preenche a dimensão Seções do site. Consulte Variáveis [de](/help/implement/vars/page-vars/page-variables.md) página no guia Implementar usuário.
+   * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte Canais [de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
 * **** Classificação: Um recurso no Adobe Analytics que permite o agrupamento de valores de dimensão. Consulte [Classificações](/help/components/c-classifications2/c-classifications.md) no guia do usuário Componentes.
 * **** Clickmap: Não é mais usado. Um plug-in herdado do navegador que mostra quais áreas do site foram mais clicadas. Esta ferramenta foi removida em favor do Mapa de atividade.
 * **** Feed de dados de sequência de cliques: Consulte Feed de dados.
@@ -68,7 +68,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **** List prop: Uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma list prop se a configuração estiver ativada. Consulte [prop](../implement/vars/page-vars/prop.md) no guia Implementar usuário.
 * **** List var: Uma variável distinta separada para variáveis de conversão. As List Vars suportam vários valores na mesma ocorrência, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três list vars estão disponíveis para uma organização. Consulte a [lista](../implement/vars/page-vars/list.md) no guia Implementar usuário.
 * **** Empresa de logon: Uma coleção de conjuntos de relatórios usados por sua organização. Algumas organizações têm várias empresas de logon que se aplicam a diferentes partes de sua organização.
-* **** Canal de marketing: Um recurso no Adobe Analytics que categoriza as ocorrências de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar ocorrências pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) de marketing no guia do usuário Componentes.
+* **** Canal de marketing: Um recurso no Adobe Analytics que categoriza as ocorrências de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar ocorrências pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de marketing no guia do usuário Componentes.
 * **** Métrica: Um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
 * **** Marcação de vários relatórios: A prática de enviar a mesma ocorrência para vários conjuntos de relatórios. Com a introdução aos conjuntos de relatórios virtuais, essa prática não é mais necessária. A maioria dos esforços de marcação de vários relatórios ajuda a acomodar um conjunto de relatórios global.
 * **** Normalização: Uma maneira de organizar uma visualização que utiliza todas as métricas e as força a proporções iguais, permitindo uma comparação mais fácil das tendências.
