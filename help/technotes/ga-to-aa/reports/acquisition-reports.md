@@ -2,7 +2,7 @@
 title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
+source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
 
 ---
 
@@ -15,7 +15,7 @@ No Adobe Analytics, esses relatórios são conhecidos como Canais **de marketing
 
 > [!IMPORTANT]
 >
-> Configure suas regras de processamento do Canal de marketing para usar esses relatórios. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) de marketing para obter informações sobre como configurar melhor os Canais de marketing em sua organização.
+> Configure suas regras de processamento do Canal de marketing para usar esses relatórios. Consulte [Introdução aos Canais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de marketing para obter informações sobre como configurar melhor os Canais de marketing em sua organização.
 
 Esta página supõe que o usuário tenha um conhecimento básico sobre o uso da Analysis Workspace. Consulte [Criar um relatório básico na Analysis Workspace para usuários](create-report.md) do Google Analytics se você ainda não estiver familiarizado com a ferramenta no Adobe Analytics.
 
