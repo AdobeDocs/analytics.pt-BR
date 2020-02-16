@@ -3,7 +3,7 @@ description: Variáveis dos relatórios de privacidade na Privacidade de dados.
 title: Variáveis dos relatórios de privacidade
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
+source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
 
@@ -35,12 +35,12 @@ Essas variáveis de relatórios de privacidade fornecem uma estrutura fácil de 
 É possível ativar as Variáveis de relatórios de privacidade por meio de uma nova configuração de Privacidade disponível no Admin Console do Analytics.
 
 Cada conjunto de relatórios pode ser configurado da seguinte maneira:
-1. Em Reports &amp; Analytics, clique em **[!UICONTROL Admin. &gt; Conjuntos de relatórios]**.
-1. Selecione os conjuntos de relatórios dos quais você está coletando dados de mídia e clique em **[!UICONTROL Editar configurações &gt; Gerenciamento de privacidade]**.
+1. Em Relatórios e análises, clique em **[!UICONTROL Admin > Report Suites]**.
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Clique no botão **[!UICONTROL Ativar relatórios]** de privacidade de dados.
+1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
 
    > [!NOTE] Após ativadas, essas variáveis não podem ser desativadas.
 
@@ -50,9 +50,9 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
    ![](assets/rsm-privacy-config.png)
 
-1. As variáveis reservadas agora estão disponíveis para relatório.  Consulte Participação e não participação no gerenciamento de consentimento.
+1. As variáveis reservadas agora estão disponíveis para análise em Relatórios e análises e na Workspace. Consulte Participação e não participação no gerenciamento de consentimento.
 
-   ![](assets/rsm-privacy-reports.png)
+   ![](assets/consent-management.png)
 
 ## Implementação
 
@@ -64,19 +64,19 @@ Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/help/en/analy
 
 * Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
-   * 1 - Ao enviar o valor "1", isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor "1" emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
-   * 0 - Opcional. Use o valor "0" para clientes que consentiram no marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
+   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 0 - Opcional. Use o valor &quot;0&quot; para clientes que consentiram com o marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
 
 ### DMP
 
 * Dados de contexto: `contextData.['opt.dmp']`
 * Valores aceitos:
-   * N - Ao enviar o valor "N", isso indica que o consumidor está optando por não participar do compartilhamento nas plataformas de gerenciamento de dados. **Observação**: no momento, a configuração dessa variável como "N" não bloqueia o compartilhamento com o AAM. No entanto, o bloqueio de chamadas para a funcionalidade do AAM será adicionado no início de 2020. Por enquanto, a Adobe recomenda configurar `c.cm.ssf=1` e `c.opt.dmp=N` para bloquear o envio de ocorrências para o AAM.
-   * Y - Ao enviar o valor "Y", isso indica que o consumidor está optando por participar do compartilhamento nas plataformas de gerenciamento de dados.
+   * N - Ao enviar o valor &quot;N&quot;, isso indica que o consumidor está optando por não participar do compartilhamento nas plataformas de gerenciamento de dados.  **Observação**: A partir de 15 de janeiro de 2020, definir essa variável como &quot;N&quot; bloqueia o compartilhamento dessa ocorrência pelo lado do servidor para o AAM.
+   * Y - Ao enviar o valor &quot;Y&quot;, isso indica que o consumidor está optando por participar do compartilhamento nas plataformas de gerenciamento de dados.
 
 ### SELL
 
 * Dados de contexto: `contextData.['opt.sell']`
 * Valores aceitos:
-   * N - Ao enviar o valor "N", isto indica que o consumidor está a optando por não participar do compartilhamento ou venda dos dados a terceiros.
-   * Y - Ao enviar o valor "Y", isto indica que o consumidor está a optando por participar do compartilhamento ou venda dos dados a terceiros.
+   * N - Ao enviar o valor &quot;N&quot;, isto indica que o consumidor está a optando por não participar do compartilhamento ou venda dos dados a terceiros.
+   * Y - Ao enviar o valor &quot;Y&quot;, isto indica que o consumidor está a optando por participar do compartilhamento ou venda dos dados a terceiros.
