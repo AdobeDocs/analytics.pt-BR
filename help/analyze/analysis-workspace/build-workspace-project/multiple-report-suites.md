@@ -2,7 +2,7 @@
 title: Vários conjuntos de relatórios no Workspace
 description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
 translation-type: tm+mt
-source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
+source-git-commit: 1a08003170ba07a722927e935ecda26e1d189235
 
 ---
 
@@ -22,16 +22,16 @@ Esse recurso é útil se você desejar, por exemplo,
 
 ## Painel ativo
 
-Estamos introduzindo o conceito de &quot;painel ativo&quot; versus &quot;painel inativo&quot; com este recurso. O painel ativo é reconhecível pela borda azul clara ao seu redor. Basta clicar dentro de um painel para tornar esse painel ativo.
+Estamos introduzindo o conceito de &quot;painel ativo&quot; versus &quot;painel inativo&quot; com este recurso. Você pode reconhecer o painel ativo pela borda azul clara ao redor dele. Basta clicar dentro de um painel para transformar esse painel no painel ativo.
 
 >[!IMPORTANT]
->Você pode arrastar e soltar componentes **somente no painel** ativo, mesmo se outros painéis tiverem o mesmo conjunto de relatórios. Se quiser alterar o painel ao arrastar e soltar, use um atalho: pressione `shift` enquanto arrasta para alterar um painel inativo para um painel ativo.
+>Você pode arrastar e soltar em qualquer painel que esteja no mesmo conjunto de relatórios que seu painel ativo. Ao arrastar para um painel inativo do mesmo conjunto de relatórios, o painel ficará ativo.
 
 | Tarefa | Painel ativo | Painel inativo |
 |---|---|---|
 | Alterar conjunto de relatórios | Sim | Não |
-| Arrastar e soltar componentes | Sim | Não |
-| Visualizações de arrastar e soltar | Sim | Não |
+| Arrastar e soltar componentes | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que seu painel ativo. |
+| Visualizações de arrastar e soltar | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que seu painel ativo. |
 
 ## Trabalhar com vários conjuntos de relatórios
 
@@ -43,18 +43,18 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; versus &quot;painel 
 
 
    >[!NOTE]
-   >Às vezes, uma mensagem &quot;Conjunto de relatórios incompatível&quot; aparece ao carregar um projeto (ou ao alternar para um conjunto de relatórios), onde nem todos os componentes incluídos no projeto são incluídos no conjunto de relatórios. Os componentes ausentes serão listados. Siga [estas instruções](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) para definir permissões para as métricas/dimensões necessárias.
+   >Às vezes, um banner é exibido ao carregar um projeto (ou ao alternar para um conjunto de relatórios) onde nem todos os componentes incluídos no projeto são incluídos no conjunto de relatórios. Os componentes ausentes serão listados. Siga [estas instruções](/help/admin/admin-console/permissions/product-profile.md) para definir permissões para as métricas/dimensões necessárias.
 
    ![](assets/incompat-rs.png)
 
    Você tem três opções para lidar com essa incompatibilidade:
-   * Continue com alguns componentes ausentes. Isso resultará em nenhum dado para esses componentes e/ou visualizações em branco.
-   * Recurso Desfazer.
+   * Ativar as dimensões/métricas necessárias
    * Alterar o conjunto de relatórios.
+   * Continue com alguns componentes ausentes. Isso resultará em nenhum dado para esses componentes e/ou visualizações em branco.
 
 1. Altere o painel para um conjunto de relatórios diferente e observe como o rótulo do componente (conjunto de relatórios atualmente ativo) e os componentes listados são atualizados com base no novo conjunto de relatórios.
 
-1. Use o atalho do teclado (`shift` ao arrastar) para transformar um painel inativo em um painel ativo.
+1. Use um atalho de teclado (`shift` ao arrastar) para transformar um painel inativo em um painel ativo.
 
 1. (Opcional) Você também pode ir para outros construtores de componentes do Analytics e garantir que eles agora mostrem uma etiqueta de conjunto de relatórios indicando
 
