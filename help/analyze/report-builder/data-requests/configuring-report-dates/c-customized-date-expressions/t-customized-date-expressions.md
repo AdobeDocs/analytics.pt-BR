@@ -4,7 +4,7 @@ title: Visão geral das Expressões de datas personalizadas
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ Recomenda-se consultar um calendário ao criar expressões, para que o número d
 
    Por exemplo, se você alterar as datas acima para rolar mensalmente do primeiro dia três meses atrás para o primeiro dia deste mês, as datas na parte de opções avançadas se atualizarão para refletir isso:
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
