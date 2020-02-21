@@ -3,7 +3,7 @@ title: Notas de versão do AppMeasurement para JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
+source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
 
 ---
 
@@ -15,6 +15,12 @@ Notas de versão cumulativas do [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Você pode baixar a versão mais recente do AppMeasurement no Gerenciador [de](/help/admin/admin/code-manager-admin.md)código.
+
+## Versão 2.19.0
+
+Data de lançamento: **21 de fevereiro de 2020**
+
+* Atualização do módulo Gerenciamento de público-alvo DIL 9.4. (AN-209341)
 
 ## Versão 2.18.0
 
