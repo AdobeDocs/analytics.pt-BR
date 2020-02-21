@@ -33,7 +33,7 @@ Familiarize-se com a maneira [como o Adobe Analytics lida com o GDPR](https://ww
 A Adobe sabe que você está mais familiarizado com os dados personalizados nos seus conjuntos de relatórios e oferecemos a oportunidade de definir suas preferências e configurações de governança de dados.
 Para isso, o Adobe Analytics fornece uma interface de Governança de dados que permite a você, como controlador de dados, definir [rótulos de privacidade](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) em seus conjuntos de relatórios do Analytics e em todas as dimensões e métricas desses conjuntos de relatórios. É possível identificar as colunas em seu conjunto de dados que contêm os dados direta ou indiretamente identificáveis para que você possa enviar suas solicitações de acesso e de exclusão para tratar esses dados. Para cada solicitação, os rótulos definidos na interface do usuário de Governança de dados do Analytics serão aplicados para o identificador específico que corresponde a essa solicitação.
 
-Consulte  [Rotular dados do conjunto de relatórios](/help//admin/c-data-governance/gdpr-setup-reportsuite.md) para obter mais informações sobre como definir os rótulos.
+Consulte [Rotular dados do conjunto de relatórios](/help//admin/c-data-governance/gdpr-setup-reportsuite.md) para obter mais informações sobre como definir os rótulos.
 
 ## Pré-requisitos
 
