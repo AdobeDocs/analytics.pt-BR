@@ -45,18 +45,18 @@ Quando a Adobe executa a expansão de ID, pode exigir uma análise de dados comp
 
 ## Outros sinalizadores de solicitação de Privacidade de dados
 
-Além do sinalizador "expandIDs", o Analytics suporta dois outros sinalizadores que podem ser transmitidos como parte de uma solicitação de Privacidade de dados. Esses sinalizadores e seus valores padrão são:
+Além do sinalizador &quot;expandIDs&quot;, o Analytics suporta dois outros sinalizadores que podem ser transmitidos como parte de uma solicitação de Privacidade de dados. Esses sinalizadores e seus valores padrão são:
 
 ```
 "analyticsDeleteMethod": "anonymize"
 "priority": "normal"
 ```
 
-Futuramente, o "analyticsDeleteMethod" poderá suportar um valor "purge" em adição ao valor padrão "anonymize". Quando suportado, fará com que toda a ocorrência seja excluída em vez de apenas atualizar os valores de campos de ocorrência com guias DEL.
+Futuramente, o &quot;analyticsDeleteMethod&quot; poderá suportar um valor &quot;purge&quot; em adição ao valor padrão &quot;anonymize&quot;. Quando suportado, fará com que toda a ocorrência seja excluída em vez de apenas atualizar os valores de campos de ocorrência com guias DEL.
 
-Além do valor padrão, o campo de prioridade também suporta o valor "low". Especifique esse valor para solicitações que não são o resultado de uma solicitação do titular dos dados e não possui um requisito legal a ser concluído em 30 dias. Observe que a Adobe não incentiva o uso da API da Privacidade de dados para propósitos diferentes de solicitações iniciadas por titulares dos dados. A API da Privacidade de dados não é uma ferramenta adequada para a limpeza ou reparo de dados, e terá consequências não intencionais.
+Além do valor padrão, o campo de prioridade também suporta o valor &quot;low&quot;. Especifique esse valor para solicitações que não são o resultado de uma solicitação do titular dos dados e não possui um requisito legal a ser concluído em 30 dias. Observe que a Adobe não incentiva o uso da API da Privacidade de dados para propósitos diferentes de solicitações iniciadas por titulares dos dados. A API da Privacidade de dados não é uma ferramenta adequada para a limpeza ou reparo de dados, e terá consequências não intencionais.
 
-> [!NOTE]A [API da Privacidade de dados](https://www.adobe.io/apis/experienceplatform/gdpr.html) foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API do Serviço de privacidade para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.
+> [!NOTE]A [API de Serviço de privacidade](https://www.adobe.io/apis/experienceplatform/gdpr.html) foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API do Serviço de privacidade para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API do Serviço de privacidade é imprópria para este uso.
 
