@@ -3,7 +3,7 @@ description: As sobreposições fornecem várias formas de configurar a visualiz
 title: Sobreposições personalizáveis
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,11 +31,11 @@ Os [detalhes](/help/analyze/activity-map/activitymap-overlay-details.md) serão 
 
 Com a sobreposição de gradiente, a intensidade da cor é baseada na popularidade do link. Essa intensidade pode ser normalizada para as 30 melhores classificações ou para uma função do valor absoluto da métrica.
 
-Essas métricas são sobrepostas sobre os links da página como um tipo de "mapa de calor" para responder a perguntas importantes incluindo:
+Essas métricas são sobrepostas sobre os links da página como um tipo de &quot;mapa de calor&quot; para responder a perguntas importantes incluindo:
 
 * Qual é o valor de uma página individual?
 * Qual é o valor de um elemento individual em uma página?
-* Qual é a "propriedade digital" mais valiosa em uma página?
+* Qual é a &quot;propriedade digital&quot; mais valiosa em uma página?
 
 ![](assets/gradient.png)
 
@@ -49,7 +49,7 @@ Sobreposições de bolha são mostradas quando você seleciona essa sobreposiç�
 
 > [!NOTE] as sobreposições em bolha de submenus são exibidas somente quando o submenu é exibido:
 >
->![](assets/bubbles_submenu.png)&gt;
+>![](assets/bubbles_submenu.png)>
 
 ## Sobreposições de ganhadores e perdedores {#section_EE80278E20C14824869BF5A27A4634C8}
 
