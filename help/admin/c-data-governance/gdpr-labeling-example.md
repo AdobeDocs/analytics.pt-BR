@@ -20,7 +20,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 | Rótulos | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome da variável**<br>**(Namespace)** | **MyProp1**<br>**(usuário)** | **ID de visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome da variável **<br>**(Namespace)** | **MyProp1 **<br>**(usuário)** | **ID de visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
@@ -40,8 +40,8 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
 | AAID=77 | false | dispositivo | Variável não presente | 77 | Variável não presente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variável não presente | 77 | Variável não presente | M, P | X, W |
 | user=Mary  | false | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | dispositivo | não presente | 77, 88 | não presente | N, P | U, W |
+| user=Mary | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | dispositivo | não presente | 77, 88 | não presente | N, P | U, W |
 | user=Mary AAID=66 | true | contêiner de pessoa | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary AAID=66 | true | dispositivo | não presente | 66, 77, 88 | não presente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | não presente | 55, 77 | não presente | M, R | X |
@@ -65,7 +65,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-> [!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo de DEL-DEVICE são afetadas.
+> [!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo DEL-DEVICE são afetadas.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +79,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-> [!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo de DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com "Privacy-", seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
+> [!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
