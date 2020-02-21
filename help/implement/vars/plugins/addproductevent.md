@@ -2,7 +2,7 @@
 title: ' addProductEvent'
 description: Adiciona eventos personalizados à variável products e events.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,8 +35,8 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 O `addProductEvent` método usa os seguintes argumentos:
 
-* **`en`**(obrigatório, string): O evento a ser adicionado à última entrada na`products`variável. Se a`products`variável estiver vazia, uma entrada de produto &quot;em branco&quot; será criada com o evento (e seu valor) anexado.
-* **`ev`**(obrigatório, string): O valor atribuído ao evento numérico ou de moeda no`en`argumento.  O padrão é`1`quando não está definido.
-* **`ap`**(opcional, booleano): Se a variável products contiver mais de uma entrada de produto no momento, um valor de`true`(ou`1`) adicionará o evento a todas as entradas de produto.  O padrão é`false`quando não está definido.
+* **`en`** (obrigatório, string): O evento a ser adicionado à última entrada na `products` variável. Se a `products` variável estiver vazia, uma entrada de produto &quot;em branco&quot; será criada com o evento (e seu valor) anexado.
+* **`ev`** (obrigatório, string): O valor atribuído ao evento numérico ou de moeda no `en` argumento.  O padrão é `1` quando não está definido.
+* **`ap`** (opcional, booleano): Se a variável products contiver mais de uma entrada de produto no momento, um valor de `true` (ou `1`) adicionará o evento a todas as entradas de produto.  O padrão é `false` quando não está definido.
 
 Não `addProductEvent` retorna nada. Em vez disso, adiciona o evento e seu valor à `products` variável. O plug-in também adiciona automaticamente o evento à `events` variável, já que também é necessário.
 
@@ -73,128 +73,68 @@ O plug-in addProductEvent não cria ou usa cookies
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
-Se o status...
+O código a seguir define a `s.products` variável como `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...e o código a seguir é executado...
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-...o valor final de s.products será:
+O código acima também define a `s.events` variável como `"purchase,event35"`
+
+### Exemplo nº 2
+
+O código a seguir define a `s.products` variável como `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...e o valor final de s.events será:
-
-```js
-s.events="purchase,event35"
-```
-
-### Exemplo #2
-
-Se o status...
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...e o código a seguir é executado...
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-...o valor final de s.products será:
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-Quando o terceiro argumento for igual a true (ou 1), cada entrada de produto terá o evento especificado na chamada adicionado ao seu valor
+Quando o terceiro argumento na `addProductEvent` chamada é `true` (ou `1`), cada entrada de produto tem o evento especificado na chamada adicionado ao seu valor.
 
 ### Exemplo 3
 
-Se o status...
+O código a seguir define a `s.products` variável como `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...e o código a seguir é executado...
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-... o valor final de s.products será...
+O código acima também define a `s.events` variável como `"purchase,event2,event33,event34,event35"`
 
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
+### Exemplo nº 4
 
-...e s.events serão definidos da seguinte forma:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
-
-### Exemplo #4
-
-Se o status...
+O código a seguir define a `s.products` variável como `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...e o código a seguir é executado...
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-... o valor final de s.products será...
+O código acima também define a `s.events` variável como `"purchase,event2,event33,event34,event35"`.
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
+> [!NOTE] O segundo argumento na chamada pode ser um número inteiro **ou** uma string que representa um número inteiro
 
-...e s.events serão definidos da seguinte forma:
+### Exemplo nº 5
 
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
-
-### Exemplo #5
-
-Se s.products não estiver definido e o código a seguir for executado...
+Se ainda `s.products` não estiver definido, o código a seguir o define como `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-...o valor final de s.products será:
-
-```js
-s.products=";;;;event35=25"
-```
-
-Nesse caso, event35 também será anexado ao final de s.events
+O código acima também anexa `"event35"` ao final do `s.events` ou **, se** ainda não estiver definido, o código acima define `s.events` `s.events` como `"event35"`
 
 ## Histórico da versão
 
