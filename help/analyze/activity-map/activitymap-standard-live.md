@@ -3,7 +3,7 @@ description: O Activity Map disponibiliza dois modos básicos para fornecer rela
 title: Modo Padrão vs. modo Online
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ Nesse modo, métricas de Comércio que não tiverem “Participação” ativada
 
 P: E se uma página tiver links com o mesmo nome em regiões separadas? Os links receberão crédito separadamente por estarem em diferentes regiões, mas terem o mesmo nome de link em uma página?
 
-R: Depende de como os dados do link são agregados. No Activity Map, observamos a ID|Região do link referentes a uma certa página, para que os dados alocados sejam referentes à combinação "ID|Região do link". Nesse caso em que a região é diferente, link|região seriam distintos, e portanto qualquer receita alocada para o primeiro link|região seria diferente de toda a receita alocada referente ao segundo link. Porém, na interface do usuário do Adobe Analytics, pode-se observar somente o relatório de ID do link (em vez do relatório de Link|Região) referente a uma página específica (página detalhada por Link). Nesse outro caso, a receita seria agregada em ambas as regiões.
+R: Depende de como os dados do link são agregados. No Activity Map, observamos a ID|Região do link referentes a uma certa página, para que os dados alocados sejam referentes à combinação &quot;ID|Região do link&quot;. Nesse caso em que a região é diferente, link|região seriam distintos, e portanto qualquer receita alocada para o primeiro link|região seria diferente de toda a receita alocada referente ao segundo link. Porém, na interface do usuário do Adobe Analytics, pode-se observar somente o relatório de ID do link (em vez do relatório de Link|Região) referente a uma página específica (página detalhada por Link). Nesse outro caso, a receita seria agregada em ambas as regiões.
 
 ## Modo Online {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
