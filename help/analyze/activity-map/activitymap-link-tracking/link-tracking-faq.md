@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre o rastreamento de links no Activity Map.
 title: Perguntas frequentes sobre o Rastreamento de links
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -45,11 +45,11 @@ Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados
    <td colname="col1"> <b>P: Como o Activity Map rastreia outros elementos visuais em HTML?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Com a função <code> s.tl() </code></b> <p>Se o clique ocorreu com uma invocação s.tl, então o Activity Map também receberá esse evento de clique e determinará se uma variável de cadeia de caracteres linkName foi encontrada. Durante a execução da s.tl, o linkName será definido como a ID do link no Activity Map. O elemento clicado que originou a chamada s.tl() será utilizado para determinar a região. Exemplo: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Com a <code> s.tl() </code> função</b> <p>Se o clique ocorreu com uma invocação s.tl, então o Activity Map também receberá esse evento de clique e determinará se uma variável de cadeia de caracteres linkName foi encontrada. Durante a execução da s.tl, o linkName será definido como a ID do link no Activity Map. O elemento clicado que originou a chamada s.tl() será utilizado para determinar a região. Exemplo: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Com a variável <code> s_objectID </code></b> <p>Exemplo: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Com a <code> s_objectID </code> variável</b> <p>Exemplo: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Importante: observe que é necessário um ponto e vírgula (;) ao usar s_objectID no Activity Map. </p> </li> 
@@ -86,6 +86,7 @@ Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Motivo: a tag Âncora não tem um href válido 
+       
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
