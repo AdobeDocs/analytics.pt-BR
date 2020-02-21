@@ -10,7 +10,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 # Práticas recomendadas de rotulagem
 
-> [!NOTE] Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+> [!NOTE] Lembre-se de que a Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## IDs direta ou indiretamente identificáveis {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -50,7 +50,7 @@ Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar soli
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs nas variáveis personalizadas </p> </td> 
-   <td colname="col2"> <p>Alguns clientes adicionam IDs em <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/props_eVars.html">variáveis de tráfego personalizadas (props) ou em variáveis de conversão personalizadas (eVars) </a>. Embora o mais comum seja um ID de CRM, outros incluem endereços de email, nomes de usuário para logon, números de fidelidade do cliente ou hashes desses valores. </p> 
+   <td colname="col2"> <p>Alguns clientes adicionam IDs em <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/props_eVars.html">variáveis de tráfego personalizadas (props) ou em variáveis de conversão personalizadas (eVars)</a>. Embora o mais comum seja um ID de CRM, outros incluem endereços de email, nomes de usuário para logon, números de fidelidade do cliente ou hashes desses valores. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Se quiser usar uma dessas IDs nas solicitações de Privacidade de dados, deverá fornecer um rótulo ID-PERSON ao campo que a contém. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Muito menos comum) Se uma ID em uma dessas variáveis personalizadas identificar apenas um dispositivo que pode ser compartilhado por várias pessoas, será possível usar um rótulo ID-DEVICE. </li> 
@@ -80,7 +80,7 @@ Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderaçã
 * Se você não especificar o uso da Expansão de ID, mas usar uma combinação de IDs de dispositivo e pessoa para solicitações diferentes, talvez seja necessário especificar rótulos de DEL-DEVICE e DEL-PERSON para as variáveis que devem ser excluídas quando esses tipos de ID forem usados.
 * Observe que, se um rótulo de DEL-DEVICE ou DEL-PERSON for especificado em qualquer variável que também não seja usada como uma ID para essa solicitação (incluindo uma ID expandida), os valores exclusivos nessa variável serão anonimizados apenas em ocorrências que tiverem uma ID especificada (ou expandida). Se outras ocorrências contiverem o mesmo valor, elas não serão atualizadas nesses outros locais. Isso pode resultar em alterações de contagens (métricas).
 
-   Por exemplo, se você tiver três ocorrências contendo o valor "foo" na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então "foo" nessa ocorrência será modificado para um valor como "Privacidade de dados-123456789" e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores exclusivos para eVar7, agora, também mostrará mais um valor exclusivo. Um relatório que mostra os principais valores para eVars pode incluir "foo" com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
+   Por exemplo, se você tiver três ocorrências contendo o valor &quot;foo&quot; na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então &quot;foo&quot; nessa ocorrência será modificado para um valor como &quot;Privacidade de dados-123456789&quot; e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores exclusivos para eVar7, agora, também mostrará mais um valor exclusivo. Um relatório que mostra os principais valores para eVars pode incluir &quot;foo&quot; com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
 
 ## Práticas recomendadas para definir rótulos de acesso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
