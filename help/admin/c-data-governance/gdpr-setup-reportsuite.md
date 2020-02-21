@@ -12,13 +12,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 
-> [!NOTE] Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+> [!NOTE] Lembre-se de que a Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## Atribuir ou editar rótulos do conjunto de relatórios {#section_39F829F35A274EACA532E2F6FF392996}
 
 **Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
 
-1. No Analytics, navegue até **[!UICONTROL Admin]** &gt; **[!UICONTROL Governança de dados]** &gt; **[!UICONTROL (selecione o conjunto de relatórios)]** ![](assets/privacy_rs_settings.png)
+1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]**![](assets/privacy_rs_settings.png)
 
 1. Selecione qual grupo de variáveis você deseja rotular.
 
@@ -69,7 +69,7 @@ Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a ma
 
    ![](assets/apply_as_template.png)
 
-1. Marque **[!UICONTROL Selecionar todos]** para copiar rótulos para as variáveis selecionadas para todos os conjuntos de relatórios ou selecione os conjuntos de relatórios individuais para os quais você deseja copiar a configuração.
+1. Marque **[!UICONTROL Selecionar todos]** para copiar rótulos para as variáveis selecionadas para todos os conjuntos de relatórios ou selecione os conjuntos de relatórios individuais para os quais você deseja copiar os rótulos.
 
    >[!IMPORTANT]
    >
