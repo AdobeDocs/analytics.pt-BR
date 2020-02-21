@@ -3,7 +3,7 @@ description: O Relatório de links informa sobre os links que foram encontrados 
 title: Relatório de links
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -82,7 +82,7 @@ No modo Online, o Relatório de links na página mostra os dados de tendência q
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova [Metodologia de rastreamento de links] (/help/analyze/activity-map/ativitymap-link-tracking/ativitymap-)ink-tracking-method.md). </td> 
+   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova [Metodologia de rastreamento de links] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-method.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliques em links </td> 
