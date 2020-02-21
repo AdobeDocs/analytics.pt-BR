@@ -52,11 +52,11 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Serviços de gerenciamento de identidade (IMS)** - a implementação da Federated ID e do OAuth 2.0 pela Adobe para a autenticação de usuários da Adobe ID e a autorização para os recursos da Adobe. É necessário integrar o IMS ao seu aplicativo ou serviço da Adobe para permitir que os usuários façam logon e acessem os serviços da Adobe. Os usuários podem fazer logon diretamente com o Renga (o provedor de serviços de identidade da Adobe) ou por meio de um domínio de autenticação confiável de terceiros (como o Google, o Facebook ou um LDAP corporativo/da organização).
 
-**ID da organização da Experience Cloud** - refere-se a um token de autorização da Adobe para autenticação entre serviços, que não exige logon do usuário. É emitida para um cliente do IMS e não possui um usuário associado. Um cliente do IMS precisa de um token de serviço para autorizar solicitações de canal de retorno entre os serviços. (O termo "token do sistema" é usado ocasionalmente para significar token de serviço).
+**ID da organização da Experience Cloud** - refere-se a um token de autorização da Adobe para autenticação entre serviços, que não exige logon do usuário. É emitida para um cliente do IMS e não possui um usuário associado. Um cliente do IMS precisa de um token de serviço para autorizar solicitações de canal de retorno entre os serviços. (O termo &quot;token do sistema&quot; é usado ocasionalmente para significar token de serviço).
 
 **Estabelecimento principal** - o local dentro da União onde são tomadas as principais decisões em relação ao processamento de dados; no que diz respeito ao processador
 
-**Dados Pessoais** - qualquer informação relacionada a uma pessoa física ou "Titular de dados", que possa ser usada para identificar direta ou indiretamente tal pessoa
+**Dados Pessoais** - qualquer informação relacionada a uma pessoa física ou &quot;Titular de dados&quot;, que possa ser usada para identificar direta ou indiretamente tal pessoa
 
 **Violação de dados pessoais** - uma violação de segurança que leva ao acesso acidental ou ilegal, destruição, uso indevido, entre outros, de dados pessoais
 
