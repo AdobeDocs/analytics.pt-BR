@@ -3,7 +3,7 @@ description: O Activity Map é um aplicativo do Adobe Analytics projetado para c
 title: Visão geral do Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
@@ -12,13 +12,13 @@ source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 # Visão geral do Activity Map
 
 >[!IMPORTANT]
->Em 16 de janeiro de 2020, o Adobe Analytics começará a migrar para um novo domínio - https://experience.adobe.com/analytics. Essa alteração pode fazer com que o Activity Map pare de funcionar para alguns clientes em casos específicos. Como você sabe, o Activity Map é inserido na página do cliente em um iframe (um iframe para a barra de ferramentas do Activity Map e um iframe para o painel inferior do Activity Map). Você pode ter definido uma diretiva de política de segurança de conteúdo na sua página da Web para &quot;frame-src&quot; que não inclui &quot;.adobe.com&quot;. Nesse caso, o Activity Map deixará de funcionar nessa página da Web.
+>Em 16 de janeiro de 2020, o Adobe Analytics iniciará a mudança para um novo domínio - https://experience.adobe.com/analytics. Essa alteração pode fazer com que o Activity Map pare de funcionar para alguns clientes em casos específicos. Como você sabe, o Activity Map está inserido na página do cliente em um iframe (um iframe para a barra de ferramentas do Activity Map e um iframe para o painel inferior do Activity Map). Você pode ter definido uma diretiva de Política de segurança de conteúdo na sua página da Web como “frame-src” que não inclui “.adobe.com”. Nesse caso, o Activity Map deixará de funcionar nessa página da Web.
 
 O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.
 
 O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.
 
-**Introdução aos Administradores**
+**Introdução para administradores**
 
 * [Habilitar o Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Código de implementação de exemplo](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
