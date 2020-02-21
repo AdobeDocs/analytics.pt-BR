@@ -1,9 +1,9 @@
 ---
-description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
+description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Diferenciar links que fazem referência à mesma ID e Região do link
 
-É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
+É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
 
 Como exemplo, digamos que você tenha vários links “Comprar”, que são identificados pelo Activity Map sob a mesma ID de link e Região:
 
@@ -44,11 +44,11 @@ Como exemplo, digamos que você tenha vários links “Comprar”, que são iden
  </tbody> 
 </table>
 
-Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement Activity Map.
+Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement ActivityMap.
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Ao criar uma ID de objeto única para um link ou um local de link em uma página, você pode melhorar o rastreamento ou usar o Activity Map para informar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obter mais informações sobre a variável s_objectID.
+Ao criar uma ID de objeto única para um link ou um local de link em uma página, você pode melhorar o rastreamento ou usar o Activity Map para informar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/s_objectID.html) para obter mais informações sobre a variável s_objectID.
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ Ao criar uma ID de objeto única para um link ou um local de link em uma página
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ Você pode personalizar a região certificando-se de que cada link “comprar”
  </tbody> 
 </table>
 
-## Personalizar o arquivo de módulo AppMeasurement Activity Map {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar o arquivo de módulo AppMeasurement ActivityMap {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
