@@ -3,7 +3,7 @@ description: O painel Configuração do Activity Map permite modificar as config
 title: Definir configurações do Activity Map
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -53,7 +53,7 @@ O painel Configurações exibe um conteúdo diferente com base no modo de aplica
    <td colname="col3">Selecione <span class="uicontrol">Superior</span>, <span class="uicontrol">Inferior</span> ou <span class="uicontrol">Todos os links</span> para exibir na sobreposição. Se você selecionar Superior ou Inferior, também deverá selecionar o número de links para serem exibidos. </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol">Ocultar as sobreposições para links que não receberam visitas</span> </td> 
+   <td colname="col2"> <span class="uicontrol">Ocultar as sobreposições para links que não receberam visitas.</span> </td> 
    <td colname="col3"> Esta caixa de seleção permite ocultar as sobreposições para links que não receberam visitas para reduzir a desordem na interface. </td> 
   </tr> 
   <tr> 
