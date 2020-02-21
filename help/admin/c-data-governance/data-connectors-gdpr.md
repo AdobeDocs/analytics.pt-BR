@@ -16,7 +16,7 @@ Essas informações permitem identificar quaisquer dados direta ou indiretamente
 
 Se estiver usando uma integração de qualquer um dos conectores abaixo, você pode simplesmente verificar quais variáveis/classificações de parceiros na integração podem, possivelmente, conter dados direta ou indiretamente identificáveis.
 
-> [!NOTE] Essas informações são fornecidas para ajudar a identificar as variáveis que devem ser [rotuladas](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mas você, como o controlador de dados, é responsável por aplicar os rótulos apropriados ou executar outras ações para [prontidão da Privacidade de dados](/help/admin/c-data-governance/an-gdpr-overview.md) (atualização das classificações etc.).
+> [!NOTE] Essas informações são fornecidas para ajudar a identificar as variáveis que devem ser [rotuladas](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mas você, como o controlador de dados, é responsável por aplicar os rótulos apropriados ou executar outras ações para [Prontidão da privacidade de dados](/help/admin/c-data-governance/an-gdpr-overview.md) (atualização das classificações etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
