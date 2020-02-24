@@ -73,7 +73,7 @@ O plug-in addProductEvent não cria ou usa cookies
 
 ## Exemplos de chamadas
 
-### Exemplo n&ordm; 1
+### Exemplo n&deg; 1
 
 O código a seguir define a `s.products` variável como `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 O código acima também define a `s.events` variável como `"purchase,event35"`
 
-### Exemplo n&ordm; 2
+### Exemplo n&deg; 2
 
 O código a seguir define a `s.products` variável como `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -96,7 +96,7 @@ s.addProductEvent("event35", 25, 1);
 
 Quando o terceiro argumento na `addProductEvent` chamada é `true` (ou `1`), cada entrada de produto tem o evento especificado na chamada adicionado ao seu valor.
 
-### Exemplo n&ordm; 3
+### Exemplo n&deg; 3
 
 O código a seguir define a `s.products` variável como `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 O código acima também define a `s.events` variável como `"purchase,event2,event33,event34,event35"`
 
-### Exemplo n&ordm; 4
+### Exemplo n&deg; 4
 
 O código a seguir define a `s.products` variável como `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -126,7 +126,7 @@ O código acima também define a `s.events` variável como `"purchase,event2,eve
 
 > [!NOTE] O segundo argumento na chamada pode ser um número inteiro **ou** uma string que representa um número inteiro
 
-### Exemplo n&ordm; 5
+### Exemplo n&deg; 5
 
 Se ainda `s.products` não estiver definido, o código a seguir o define como `";;;;event35=25"`
 
