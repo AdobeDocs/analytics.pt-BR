@@ -20,7 +20,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 | Rótulos | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome da variável **<br>**(Namespace)** | **MyProp1 **<br>**(usuário)** | **ID de visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
+| **Nome da variável**<br>**(Namespace)** | **MyProp1**<br>**(usuário)** | **ID de visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
