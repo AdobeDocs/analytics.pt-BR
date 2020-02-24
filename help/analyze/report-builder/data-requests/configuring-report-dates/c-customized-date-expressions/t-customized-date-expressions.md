@@ -4,7 +4,7 @@ title: Visão geral das Expressões de datas personalizadas
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ Recomenda-se consultar um calendário ao criar expressões, para que o número d
 
 1. Ativar **[!UICONTROL Customize Expression]**. Ao selecionar as opções em **[!UICONTROL Rolling Dates]**, você pode ver facilmente a sintaxe das expressões de data personalizadas.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    Você pode usar Opções avançadas para combinar e combinar expressões de datas personalizadas. Por exemplo, se você quiser ver dados do primeiro ano até o final do último mês completo, eles poderão escrever o seguinte:De: cy To: cm-1d. Você pode ver que no assistente, ele confirma essas datas como sendo 1/1/2020-1/31/2020.
 
    Por exemplo, se você alterar as datas acima para rolar mensalmente do primeiro dia três meses atrás para o primeiro dia deste mês, as datas na parte de opções avançadas se atualizarão para refletir isso:
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
