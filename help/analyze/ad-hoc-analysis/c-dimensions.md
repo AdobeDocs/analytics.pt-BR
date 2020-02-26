@@ -3,7 +3,7 @@ description: As dimensões são descrições ou características de dados de mé
 title: Dimensões
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Exemplos de dimensões incluem:
 * Resolução do monitor
 * Valores de eVars e s.prop personalizados
 
-**Painel[!UICONTROL Dimensões]**
+**[!UICONTROL Painel Dimensões]**
 
 O painel [!UICONTROL Dimensão] lista e organiza todas as dimensões de produto da sua implementação de relatórios e análises de marketing. É possível basear os relatórios em qualquer item de dimensão. Você pode desdobrar dimensões por outras dimensões para analisar e comparar quase tudo.
 
