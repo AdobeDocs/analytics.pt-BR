@@ -3,7 +3,7 @@ description: Permite que os usuários de nível administrativo vejam e gerenciem
 title: Relação de relatórios agendados
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Relatórios agendados]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Relatórios agendados]**
 
 Os recursos de nível administrativo no Gerenciador de relatórios agendados incluem:
 
@@ -22,7 +22,7 @@ Os recursos de nível administrativo no Gerenciador de relatórios agendados inc
 * A nova aba [Fila de relatórios](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B), que lista todos os relatórios em fila para execução nos servidores de relatório.
 * Exposição da [ID de agendamento](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) na interface da Fila de relatórios.
 
-## Mostrar todos os relatórios agendados  {#section_3F167CAAEEC24140B476CF95B7402690}
+## Mostrar todos os relatórios agendados {#section_3F167CAAEEC24140B476CF95B7402690}
 
 Na guia **[!UICONTROL Lista de relatórios]**, você pode **[!UICONTROL Mostrar todos os relatórios agendados]** na organização, além daqueles que você agendou pessoalmente.
 
@@ -30,7 +30,7 @@ Na guia **[!UICONTROL Lista de relatórios]**, você pode **[!UICONTROL Mostrar 
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Recursos de filtragem avançada  {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Recursos de filtragem avançada {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Por exemplo, se você deseja filtrar em todos os relatórios agendados por hora, você deve especificar a **[!UICONTROL Frequência de hora em hora]** no filtro **[!UICONTROL Avançado]** e clicar em **[!UICONTROL Aplicar]**:
 
@@ -38,11 +38,11 @@ Por exemplo, se você deseja filtrar em todos os relatórios agendados por hora,
 
 ## Fila de relatórios {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-Essa relação permite que você gerencie e até exclua qualquer relatório agendado que estiver "obstruindo" a relação. (Geralmente, o relatório expira depois de 4 horas.)
+Essa relação permite que você gerencie e até exclua qualquer relatório agendado que estiver &quot;obstruindo&quot; a relação. (Geralmente, o relatório expira depois de 4 horas.)
 
 ![](assets/scheduled_reports_2.png)
 
-A Relação de relatório também possibilita "Pular um relatório agendado uma vez". Basta clicar no ícone azul na coluna **[!UICONTROL Gerenciar]**.
+A Relação de relatório também possibilita &quot;Pular um relatório agendado uma vez&quot;. Basta clicar no ícone azul na coluna **[!UICONTROL Gerenciar]**.
 
 ## ID de agendamento {#section_568B70F4228C4229977CB85D2DCD53A1}
 
