@@ -27,7 +27,7 @@ Ela é pré-preenchida com **1 alerta padrão** que é exibido em qualquer empre
 Você pode acessar alertas de uso de chamadas do servidor de duas maneiras:
 
 * Clique em **[!UICONTROL Gerenciar alertas]** no canto superior direito da guia Uso atual ou na guia de uso do Conjunto de relatórios, ou
-* Navegue até **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]** no Adobe Analytics.
+* Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** no Adobe Analytics.
 
 ## Criar alertas de uso de chamadas do servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
