@@ -33,13 +33,13 @@ Concede acesso aos conjuntos de relatórios que pertencem a sua organização do
 
 Concede acesso às métricas em seu conjunto de relatórios. As métricas são listadas como seu respectivo componente na Analysis Workspace, ou se a métrica estiver disponível no Reports &amp; Analytics, disponível como um item de menu em Métricas do site.
 
-As métricas personalizadas são rotuladas como "Evento personalizado 1-1000" para mantê-las independentes dos conjuntos de relatórios. Se 'Evento personalizado 1' for um item de permissão ativado, esse usuário terá acesso a event1 em todos os conjuntos de relatórios no perfil do produto.
+As métricas personalizadas são rotuladas como &quot;Evento personalizado 1-1000&quot; para mantê-las independentes dos conjuntos de relatórios. Se &#39;Evento personalizado 1&#39; for um item de permissão ativado, esse usuário terá acesso a event1 em todos os conjuntos de relatórios no perfil do produto.
 
 ### Dimensões
 
 Concede acesso às dimensões em seu conjunto de relatórios. As dimensões são listadas como seu respectivo componente na Analysis Workspace, ou se a dimensão estiver disponível no Reports &amp; Analytics, disponível como um item de menu.
 
-As variáveis personalizadas, como eVars, são rotuladas como "Conversão personalizada 1-250" para mantê-las independentes dos conjuntos de relatórios. Se 'Conversão personalizado 1' for um item de permissão ativado, esse usuário terá acesso a eVar1 em todos os conjuntos de relatórios no perfil do produto.
+As variáveis personalizadas, como eVars, são rotuladas como &quot;Conversão personalizada 1-250&quot; para mantê-las independentes dos conjuntos de relatórios. Se &#39;Conversão personalizado 1&#39; for um item de permissão ativado, esse usuário terá acesso a eVar1 em todos os conjuntos de relatórios no perfil do produto.
 
 ### Ferramentas do conjunto de relatórios
 
