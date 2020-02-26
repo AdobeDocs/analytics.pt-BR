@@ -1,9 +1,9 @@
 ---
-description: Exibe informações sobre os visitantes, incluindo coisas como contagem de visitantes, fidelidade do cliente e características do visitante.
+description: Exibe informações sobre os visitantes, incluindo contagem de visitantes, fidelidade do cliente e características do visitante.
 title: Relatórios de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Relatórios de visitante
 
-Exibe informações sobre os visitantes, incluindo coisas como contagem de visitantes, fidelidade do cliente e características do visitante.
+Exibe informações sobre os visitantes, incluindo contagem de visitantes, fidelidade do cliente e características do visitante.
 
 ## Frequência de Retorno {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -60,7 +60,7 @@ Você pode dividir o relatório de acordo com qualquer variável para determinar
 * Quantas visitas normalmente são necessárias para que um usuário que clicou na campanha XYZ realize uma compra.
 * Se os usuários de Tóquio, por exemplo, fazem mais visitas antes de gerar uma perspectiva de venda em comparação aos usuários de Londres.
 
-> [!NOTE] Se o mesmo visitante visitar seu site várias vezes no mesmo período, cada número de visita especificado será incrementado para cada visita.
+> [!NOTE] Se o mesmo visitante acessar o site várias vezes no mesmo período, cada número de visita especificado é incrementado para cada visita.
 
 Esse relatório é baseado nos dados de ID do visitante passados para a Adobe a cada acesso dos visitantes. Conforme esses dados são recebidos, a Adobe os compara aos dados históricos de ID de visitantes para determinar se o acesso é:
 
@@ -87,7 +87,7 @@ O relatório de [!UICONTROL Fidelidade do cliente] exibe padrões de compras de 
 * **Cliente antigo** clientes que efetuaram 2 compras
 * **Cliente fiel** clientes que efetuaram 3 ou mais compras
 
-> [!NOTE] Ao usar essas métricas, todas as Visitas do usuário (ou todos os Visitantes) são representados neste relatório, independentemente de a Visita (ou o Visitante) ter incluído uma compra.
+> [!NOTE] Ao usar essas métricas, todas as visitas de usuários (ou todos os visitantes) são representados nesse relatório, independentemente da realização de compras.
 
 O estado da fidelidade muda após a conclusão da visita na qual ocorre um evento de compra. Por exemplo, um novo cliente (1 compra) realiza uma compra e se registra em um boletim informativo na mesma visita após a compra. O evento de registro no boletim informativo ainda é considerado uma interação de cliente novo, pois o estado da Fidelidade do cliente não será alterado até a próxima visita.
 
@@ -101,11 +101,11 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**: Exibe os idiomas preferenciais dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com mais frequência no site.
+**[!UICONTROL Idiomas]**: apresenta os idiomas de preferência dos visitantes, captura o idioma padrão do navegador e exibe os idiomas que os visitantes usam com frequência no site.
 
 **[!UICONTROL Domínios]**: indica as organizações e ISPs que seus visitantes utilizam para acessar o seu site. Este relatório é diferente do relatório de [!UICONTROL Domínios completos] porque o relatório de Domínios completos registra o domínio completo do ISP e este relatório indica o domínio secundário.
 
-**[!UICONTROL Domínios de nível superior]**: identifica as regiões do mundo das quais os visitantes vêm com base na sua extensão de domínio de origem, e mostra quantos visitantes vêm desses países. Domínios que terminam em Commercial (.com), Network (.net), Education (.edu), Government (.gov) e Organization (.org) geralmente são estabelecidos nos Estados Unidos e listados separadamente dos outros países.
+**[!UICONTROL Domínios de Nível Superior]**: identifica as regiões do mundo das quais os visitantes vêm com base na sua extensão de domínio de origem, e mostra quantos visitantes vêm desses países. Domínios que terminam em Commercial (.com), Network (.net), Education (.edu), Government (.gov) e Organization (.org) geralmente são estabelecidos nos Estados Unidos e listados separadamente dos outros países.
 
 **[!UICONTROL Código postal/CEP do visitante]**: mostra os códigos postais e o CEP dos clientes de maior efeito nas métricas de sucesso de compras.
 
