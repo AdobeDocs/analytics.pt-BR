@@ -3,7 +3,7 @@ description: Os códigos monetários usados na Experience Cloud.
 title: Códigos monetários
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -159,7 +159,7 @@ Os códigos monetários usados na Experience Cloud.
 | TJS | Somani tadjique |
 | TMM | Manats turcomenos |
 | TND | Dinares tunisianos |
-| TOP | Tonga - Pa'anga |
+| TOP | Tonga - Pa&#39;anga |
 | TRL | Liras turcas |
 | TTD | Dólares de Trinidad e Tobago |
 | TVD | Dólares de Tuvalu |
@@ -198,5 +198,5 @@ Os códigos monetários usados na Experience Cloud.
 | RSD | Sérvia - Dinares |
 | SDG | Sudão – Libra sudanesa |
 | VEF | Venezuela – Bolivares Fuertes |
-| TMT | Turcomenistão – Novo Manat  |
+| TMT | Turcomenistão – Novo Manat |
 
