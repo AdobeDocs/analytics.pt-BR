@@ -3,7 +3,7 @@ description: Exibe o tráfego da página da Web e classifica as visualizações 
 title: Relatórios em Tempo real
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Exibe o tráfego da página da Web e classifica as visualizações da página em tempo real. Oferece dados acionáveis para basear suas decisões comerciais.
 
-> [!NOTE] O Relatório em tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja  [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md).
+> [!NOTE] O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Métricas do site]** &gt; **[!UICONTROL Tempo real]**
+**[!UICONTROL Métricas do site]** > **[!UICONTROL Tempo real]**
 
 O Tempo real responde as seguintes questões: Quais são os assuntos mais falados do meu site, e por quê? Permite que você, enquanto profissional de marketing, possa responder de maneira rápida e gerenciar ativamente o desempenho de seu conteúdo de marketing e de suas campanhas. Os dados em tempo real relatados possui menos de dois minutos de latência e é atualizado automaticamente em um intervalo de um em um minuto.
 
@@ -39,11 +39,11 @@ Como Administrador, você pode
 
 * Por exemplo, compare os valores da semana anterior aos do último ano (bem como o total do dia).
 
-Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em  [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md).
+Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
-A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos "Todos os acessos de relatório" e "Relatórios avançados" . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
+A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos &quot;Todos os acessos de relatório&quot; e &quot;Relatórios avançados&quot; . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 
-## Latência dos dados como resultado da configuração A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latência dos dados como resultado da configuração A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Depois que a integração A4T for habilitada no Adobe Target, haverá de 5 a 10 minutos adicionais de latência no Adobe Analytics. O aumento dessa latência permite que os dados do Analytics e Target sejam armazenados no mesmo hit, permitindo dividir os testes por página e seção do site.
 
