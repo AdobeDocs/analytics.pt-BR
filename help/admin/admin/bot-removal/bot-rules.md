@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: Visão geral das regras de bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ As regras de bot permitem remover o tráfego do conjunto de relatórios gerado p
 
 Após a definição das regras de bot, todo o tráfego de entrada é comparado às regras definidas. O tráfego que corresponde a qualquer uma dessas regras não é coletado no conjunto de relatórios e não está incluído nas métricas de tráfego.
 
-Para atualizar ou enviar regras de bot, navegue até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**. Selecione o Conjunto de relatórios adequado e, em seguida, acesse **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de bot]**.
+Para atualizar ou enviar regras de bot, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**. Selecione o Conjunto de relatórios adequado e, em seguida, vá até **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
 
 Remover o tráfego de bot normalmente reduz o volume do tráfego e as métricas de conversão. Muitos clientes acreditam que a remoção do tráfego de bot resulta em maiores índices de conversão e aumentos em outras métricas de usabilidade. Antes de remover o tráfego de bot, você deve entrar em contato com as partes interessadas para garantir que elas possam fazer os ajustes necessários nos principais indicadores de desempenho, como resultado dessa mudança. Se possível, recomendamos que, antes, seja removido o tráfego de robô de um report suite pequeno, para estimar o potencial impacto.
 
@@ -24,12 +24,12 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 | Tipo de regra | Descrição |
 |--- |--- |
-| Regras de bot IAB padrão | Selecionar [!UICONTROL Ativar regras de filtragem de bots IAB] usa a Lista internacional de spiders e bots (International Advertising Bureau's) da [IAB](https://www.iab.com) para remover o tráfego de bot. A maioria dos clientes seleciona essa opção, no mínimo. |
+| Regras de bot IAB padrão | Selecionar [!UICONTROL Ativar regras de filtragem de bots IAB] usa a Lista internacional de spiders e bots (International Advertising Bureau&#39;s) da [IAB](https://www.iab.com) para remover o tráfego de bot. A maioria dos clientes seleciona essa opção, no mínimo. |
 | Regras de bot personalizadas | Você pode definir e adicionar regras de bot personalizadas com base em agentes de usuário, endereços IP ou intervalos IP. |
 
 ## Regras de bot IAB padrão
 
-As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [!UICONTROL Ativar regras de filtragem de bot IAB]. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau's) da IAB para remover o tráfego de bots. O IAB atualiza essa lista mensalmente.
+As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [!UICONTROL Ativar regras de filtragem de bot IAB]. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bots. O IAB atualiza essa lista mensalmente.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -47,7 +47,7 @@ As regras de bot personalizadas são definidas usando os seguintes tipos de cond
 * Endereço IP
 * Intervalo de IP
 
-Várias condições podem ser definidas para uma única regra. Várias condições são correspondidas usando "ou". Por exemplo, se você fornece um valor para Agente do usuário e Endereço IP, o tráfego é considerado tráfego de bot se uma das condições for atendida.
+Várias condições podem ser definidas para uma única regra. Várias condições são correspondidas usando &quot;ou&quot;. Por exemplo, se você fornece um valor para Agente do usuário e Endereço IP, o tráfego é considerado tráfego de bot se uma das condições for atendida.
 
 ### Agente do usuário
 
@@ -72,7 +72,7 @@ Forneça os valores inicial e final do intervalo de endereços IP que deseja enc
 
 ### Definir uma regra de bot personalizada
 
-1. Acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]**, selecione um ou mais conjuntos de relatórios e clique em **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de bot]**.
+1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administração]**, selecione um ou mais conjuntos de relatórios e clique em **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
 1. Clique em **[!UICONTROL Adicionar regra]** e defina uma ou mais condições de correspondência.
 1. Clique em **[!UICONTROL Salvar]**. A alteração deve ocorrer em 30 minutos.
 
@@ -84,7 +84,7 @@ Crie um arquivo CSV com as seguintes colunas, na ordem apresentada:
 
 | Coluna 1 | Coluna 2 | Coluna 3 | Coluna 4 | Coluna 5 |
 |--- |--- |---|---|---|
-|  Nome do bot |  IP Início  |  IP Fim  | Regra de correspondência do agente<br>(contém ou começa com)</br> | Excluir agente<br>(limite de 255 caracteres)</br> |
+| Nome do bot | IP Início | IP Fim | Regra de correspondência do agente<br>(contém ou começa com)</br> | Excluir agente<br>(limite de 255 caracteres)</br> |
 
 É possível definir três tipos de regras de bot:
 
@@ -125,7 +125,7 @@ As regras VISTA são aplicadas após as Regras de bot (consulte [Ordem de proces
 
 ## Impacto da ofuscação de IP na filtragem de bot {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-A lista de bots IAB é baseada unicamente no agente do usuário; portanto, a filtragem com base na lista não é afetada por configurações de ofuscação de IP. Para a filtragem de bots não IAB (regras personalizadas), o IP pode fazer parte dos critérios de filtragem. Se os bots de filtragem utilizam IP, a filtragem de bots ocorre depois que o último octeto é removido (se a configuração está ativada), mas antes de outras opções de ofuscação de IP, como excluir o IP ou substituí-lo por uma ID exclusiva
+A lista de bots IAB é baseada unicamente no agente do usuário; portanto, a filtragem com base na lista não é afetada por configurações de ofuscação de IP. Para a filtragem de bots não IAB (regras personalizadas), o IP pode fazer parte dos critérios de filtragem. Se os bots de filtragem utilizam IP, a filtragem de bots ocorre depois que o último octeto é removido (se a configuração está ativada), mas antes de outras opções de ofuscação de IP, como excluir o IP ou substituí-lo por uma ID exclusiva.
 
 Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP.
 
