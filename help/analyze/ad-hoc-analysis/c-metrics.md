@@ -2,7 +2,7 @@
 description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, datas, unidades, ordens, receita, e assim por diante. As métricas e dados associados são exibidos nas colunas dos relatórios.
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ As métricas padrão incluem:
 * **Conversão**: Exibe dados sobre os eventos bem-sucedidos no seu site. Os eventos bem-sucedidos podem incluir compras, downloads ou qualquer outra ação que você deseja que os usuários executem em seu Web site.
 * **Calculadas**: Métricas personalizadas criadas com base na combinação de outras métricas. Por exemplo, é possível criar uma métrica que subtraia da receita o custo da palavra-chave e o custo dos bens para obter a receita líquida. Esse valor pode então ser dividido pelo número total de pedidos para obter a média da receita líquida por pedido.
 
-Consulte [Definições de métrica](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) nas *Referências analíticas* para obter mais informações sobre como as métricas são usadas na [!DNL Experience Cloud].
+Consulte [Definições de métrica](https://marketing.adobe.com/resources/help/pt_BR/reference/metrics.html) nas *Referências analíticas* para obter mais informações sobre como as métricas são usadas na [!DNL Experience Cloud].
 
 Você pode utilizar a ferramenta [!UICONTROL Organizar métricas] para criar novas pastas para suas métricas. Agrupe suas métricas da forma que desejar. O organizador permite que você copie as métricas existentes para suas pastas personalizadas usando o arrastar e soltar.
 
@@ -41,14 +41,14 @@ t_organize_metrics.xml
 1. No painel de ferramentas [!UICONTROL Métricas], clique em **[!UICONTROL Mais ações]**. (  ![](assets/tools_icon.png)
 
    )
-1. Click **[!UICONTROL Organize Metrics]**.
-1. Click **[!UICONTROL New]** to create a folder.
+1. Clique em **[!UICONTROL Organizar métricas]**.
+1. Clique em **[!UICONTROL Novo]** para criar uma pasta.
 1. Selecione métricas em outras pastas e arraste a seleção para a nova pasta.
 1. Clique em **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
-   >Quando você exclui uma pasta, todas as métricas da pasta são excluídas do projeto selecionado no momento.
+   >Ao excluir uma pasta, todas as métricas serão excluídas do projeto atual selecionado.
 
 ## Adicionar métricas a um relatório {#task_747DD1718B3F4776B83A115D0BE8754C}
 
@@ -68,7 +68,7 @@ t_add_metrics_dsc.xml
 
    É possível especificar as métricas padrão previamente em [!UICONTROL Configurações], se desejar reduzir a necessidade de adicionar métricas repetidamente no relatório.
 
-   Consulte [Guia Classificado - Definições](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   Consulte  [Guia Classificado - Definições](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Criador de métricas calculada {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
@@ -80,7 +80,7 @@ c_calc_metric_builder.xml
 
  -->
 
-Para obter mais informações sobre como as Métricas calculadas são criadas e gerenciadas, consulte o [Guia de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Para obter mais informações sobre como as Métricas calculadas são criadas e gerenciadas, consulte o [Guia de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/).
 
 Veja como acessar o Construtor de métrica calculada na Ad Hoc Analysis:
 
