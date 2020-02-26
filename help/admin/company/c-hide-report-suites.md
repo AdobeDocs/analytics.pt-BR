@@ -4,7 +4,7 @@ keywords: delete report suite
 title: Ocultar conjuntos de relatórios
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,12 +22,12 @@ Ocultar um conjunto de relatórios evita que ele seja exibido no menu suspenso d
 >
 >Os dados de um site enviados para um conjunto de relatórios oculto continuam a ser coletados, processados e faturados. Em outras palavras, um conjunto de relatórios nunca é completamente excluído.
 
-Para ocultar o conjunto de relatórios, acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Configurações da empresa]** &gt; **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
+Para ocultar o conjunto de relatórios, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
 
-Para tornar o conjunto de relatórios visível, desmarque a caixa de seleção **[!UICONTROL Oculto].**
+Para tornar o conjunto de relatórios visível, desmarque a caixa de seleção **[!UICONTROL Oculto]**.
 
-Para exibir apenas os conjuntos de relatórios ocultos, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** &gt; **[!UICONTROL Somente conjuntos de relatórios ocultos]**.
+Para exibir apenas os conjuntos de relatórios ocultos, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** > **[!UICONTROL Somente conjuntos de relatórios ocultos]**.
 
-Para exibir apenas os conjuntos de relatórios visíveis, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** &gt; **[!UICONTROL Somente conjuntos de relatórios visíveis]**.
+Para exibir apenas os conjuntos de relatórios visíveis, em **[!UICONTROL Configurações da empresa]**, selecione **[!UICONTROL Exibir]** > **[!UICONTROL Somente conjuntos de relatórios visíveis]**.
 
-O padrão é **[!UICONTROL Exibir]** &gt; **[!UICONTROL Todos]**.
+O padrão é **[!UICONTROL Exibir]** > **[!UICONTROL Todos]**.
