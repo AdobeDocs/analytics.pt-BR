@@ -3,7 +3,7 @@ description: Etapas que descrevem como criar um conjunto de relatórios de roll-
 title: Criar um conjunto de relatório de rollup
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas que descrevem como criar um conjunto de relatórios de roll-up.
 
-1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Em [!UICONTROL grupos de conjuntos de relatórios], clique em **[!UICONTROL Adicionar]** ao lado do título **[!UICONTROL Rollups]**.
 1. Na caixa de diálogo **[!UICONTROL Criar um novo rollup]**, forneça as seguintes informações:
 
