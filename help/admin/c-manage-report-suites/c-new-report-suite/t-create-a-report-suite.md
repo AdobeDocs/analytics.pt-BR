@@ -3,7 +3,7 @@ description: Etapas que descrevem como criar um conjunto de relatórios e copiar
 title: Criar um novo conjunto de relatórios
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas que descrevem como criar um conjunto de relatórios e copiar as configurações de um conjunto de relatórios para um novo conjunto.
 
-1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Clique em **[!UICONTROL Criar novo]** &gt; **[!UICONTROL Conjunto de relatórios]**.
+1. Clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Conjunto de relatórios]**.
 1. Para copiar as configurações de um conjunto de relatórios, na lista de modelos, selecione um modelo predefinido ou um conjunto de relatórios existente para usar como um [modelo.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
    >[!NOTE]
