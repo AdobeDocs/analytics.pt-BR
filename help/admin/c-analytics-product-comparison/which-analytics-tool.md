@@ -2,7 +2,7 @@
 description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 
-Para mais comparações entre produtos do Adobe Analytics, clique  [aqui](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+Para mais comparações entre produtos do Adobe Analytics, clique [aqui](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
 ## Interfaces do usuário de relatórios do Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
@@ -30,7 +30,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Para acessar visualizações exclusivas de Vídeo referentes a Visualizadores simultâneos, Período de transmissão de vídeo, e Abandono do visualizador.
 * Para aproveitar Listas de publicação em relatórios agendados.
 
-**[Interface do usuário do Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**deve ser usada:
+**[Interface do usuário do Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html)**deve ser usada:
 
 * Se uma exibição agrupada dos dados do aplicativo para dispositivos móveis for necessária.
 * Para gerenciar a implementação do SDK para aplicativos para dispositivos móveis.
@@ -45,7 +45,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Se a organização da guia de trabalho do projeto for necessária.
 * Para usar o relatório de Análise do site (relatório de definição de caminho 3D).
 
-**[Análise de big data](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**deve ser usada:
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**deve ser usada:
 
 * Como a opção de ferramenta mais flexível do Analytics (análise de perda a nível de visitantes, a nível de ocorrência).
 * Para criar um conjunto de dados multicanal e interações online e offline de CRM para POS, até a Web.
@@ -54,7 +54,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Para análise de Latência (tempo antes / depois de um evento).
 * Para identificação e exportação de segmentos complexos em toda a Adobe Experience Cloud.
 
-## Importação de dados para o Adobe Analytics  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importação de dados para o Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[Classificações](/help/components/c-classifications2/c-classifications.md)**devem ser usadas:
 
@@ -73,7 +73,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
    * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline)
    * Processamento completo: fontes de dados com data e hora, processadas como se fossem uma ocorrência coletada pelos servidores da Adobe. Isto é, os dados são inseridos diretamente na jornada do visitante.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(conhecidos formalmente como Genesis)** devem ser usados:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(conhecidos formalmente como Genesis)**devem ser usados:
 
 * Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os Data Connectors incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, em uma base recorrente.
 
@@ -91,7 +91,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Se você deseja incorporar os dados de público-alvo do Adobe Audience Manager (AAM), como informações demográficas (por exemplo, sexo ou faixa salarial), informações psicográficas (por exemplo, interesses e hobbies), dados de CRM ou dados de impressões do anúncio, em qualquer fluxo de trabalho do Analytics.
 * Se você deseja que os dados de CRM carregados sejam com base no tempo, pois essa integração envia novas informações ao Analytics a cada ocorrência.
 
-## Exportação de dados do Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
+## Exportação de dados do Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**deve ser usado:
 
