@@ -1,8 +1,8 @@
 ---
-description: Configure usuários e aprenda sobre amostra de dados.
+description: Configure usuários e saiba mais sobre amostra de dados.
 title: Administração
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configure usuários e saiba mais sobre amostra de dados.
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+Para obter a ajuda do [!DNL Admin Console], consulte a [Referência do Analytics](https://marketing.adobe.com/resources/help/pt_BR/reference/index.html).
 
 ## Licenças de usuário {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. Faça logon no [!DNL Experience Cloud].
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Gerenciamento de Usuário]**.
+1. Clique em **[!UICONTROL Editar grupos]**.
 
    Se a sua empresa adquiriu licenças do usuário, o grupo de [!UICONTROL Usuários da licença da Ad Hoc Analysis] aparece na coluna [!UICONTROL Nome do grupo]. O número de licenças disponíveis para logon de usuários também é mostrado.
 
-1. Click **[!UICONTROL Edit]**.
-1. Em [!UICONTROL Atribuir logons de usuários]**, selecione os usuários que deseja adicionar ao grupo e clique em[!UICONTROL Adicionar.]**
-1. Click **[!UICONTROL Save Group]**.
+1. Clique em **[!UICONTROL Editar]**.
+1. Em [!UICONTROL Atribuir logons de usuários], selecione os usuários que deseja adicionar ao grupo e clique em **[!UICONTROL Adicionar.]**
+1. Clique em **[!UICONTROL Salvar grupo]**.
 
    O sistema de licenças não limita o número de usuários que são adicionados a um grupo. Há uma utilização limitada simultânea do número de licenças de usuário adquiridas.
 
@@ -58,7 +58,7 @@ t_managing_users.xml
 
  -->
 
-1. Clique em **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gerenciamento **** do usuário e clique em **[!UICONTROL Gerenciar usuários]**.
+1. Clique em **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento do usuário]** e clique em **[!UICONTROL Gerenciar usuários]**.
 1. Localize o usuário e clique em **[!UICONTROL Encerrar.]**
 
    Na página [!UICONTROL Sessões ativas da Ad Hoc Analysis], o usuário que estiver inativo por mais tempo aparece no topo da lista.
@@ -71,7 +71,7 @@ c_permissions.xml
 
  -->
 
-You set up access to report suites in the [!DNL Administration Console]. É possível configurar permissões no nível do conjunto de relatórios. Por exemplo, se houver diversos conjuntos de relatórios ativados, mas você não quiser conceder a todos os usuários o acesso a todos eles é possível criar grupos com conjuntos de relatórios específicos e depois designar esses usuários ao grupo aplicável.
+O acesso aos conjuntos de ferramentas de relatório do é configurado no [!DNL Administration Console]. É possível configurar permissões no nível do conjunto de relatórios. Por exemplo, se houver diversos conjuntos de relatórios ativados, mas você não quiser conceder a todos os usuários o acesso a todos eles é possível criar grupos com conjuntos de relatórios específicos e depois designar esses usuários ao grupo aplicável.
 
 ## Adicionar um usuário ao grupo Acesso a todos os relatórios {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. Em [!UICONTROL Usuários Disponíveis]**, selecione o usuário e clique em[!UICONTROL Adicionar.]**
-1. Click **[!UICONTROL Save Group]**.
+1. Faça logon pela **[!UICONTROL Experience Cloud]**.
+1. Clique em **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Gerenciamento de usuário]** > **[!UICONTROL Editar grupos]**.
+1. Clique em **[!UICONTROL Acesso a Todos os Relatórios]**.
+1. Em [!UICONTROL Usuários Disponíveis], selecione o usuário e clique em **[!UICONTROL Adicionar.]**
+1. Clique em **[!UICONTROL Salvar grupo]**.
 
 ## Criar grupos de permissão {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. Faça logon pela **[!UICONTROL Experience Cloud]**.
+1. Clique em **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Gerenciamento de usuário]** > **[!UICONTROL Editar grupos]**.
 1. Criar um grupo de permissões para usuários não administradores que inclua conjuntos de relatórios ativados por Ad Hoc Analysis os quais você deseja disponibilizar para os usuários.
 
    Os conjuntos de relatórios disponíveis para o usuário são exibidos no menu [!UICONTROL Report Cloud] ao criar um novo projeto.
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 A Ad Hoc Analysis usa o HTTP para se comunicar com o servidor. Ele está sujeito às mesmas políticas de proxy que o outro tráfego HTTP.
 
-1. No [!DNL Windows Control Panel], inicie o Painel [!UICONTROL de controle]Java.
-1. Na aba **Geral**, clique em **[!UICONTROL Configurações de Rede]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. No [!DNL Windows Control Panel], inicie o [!UICONTROL Painel de controle Java].
+1. Na aba **[!UICONTROL Geral]**, clique em **[!UICONTROL Configurações de Rede]**.
+1. Selecione **[!UICONTROL Usar Configurações do Navegador]** ou configure manualmente as configurações de proxy.
+1. Clique em **[!UICONTROL OK]** e em **[!UICONTROL OK]** novamente no [!UICONTROL Painel de Controle de Java].
 
 ## Como é feita a amostragem de dados {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
