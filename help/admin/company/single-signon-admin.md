@@ -3,7 +3,7 @@ description: Na Adobe Experience Cloud, o logon único é implementado por meio 
 title: Logon único
 topic: Admin tools
 uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Na Adobe Experience Cloud, o logon único é implementado por meio do Admin Console.
 
-Consulte [Guia do Usuário de administração](https://helpx.adobe.com/enterprise/managing/user-guide.html) para obter ajuda.
+Consulte [Guia do Usuário de administração](https://helpx.adobe.com/br/enterprise/managing/user-guide.html) para obter ajuda.
