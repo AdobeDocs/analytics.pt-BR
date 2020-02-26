@@ -1,8 +1,8 @@
 ---
 description: Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
-title: 'Migrar contas de usuário do Analytics para Adobe IDs '
+title: Migrar contas de usuário do Analytics para Adobe IDs
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -20,7 +20,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
 **Para migrar usuários do Analytics**
 
-1. Navegue até **Analytics** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Migração de ID de usuário]**.
+1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migração de ID de usuário]**.
 
    ![](assets/migration-progress.png)
 
@@ -61,11 +61,11 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Domínio </p> </td> 
-      <td colname="col2"> <p>Os domínios são específicos das IDs de email da base de usuários atual do Analytics. Um domínio pode ser reivindicado apenas por uma única organização, e somente os administradores de sistema podem reivindicar um domínio. Para obter mais informações, consulte <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">Solicitar acesso a um domínio reivindicado</a>. </p> </td> 
+      <td colname="col2"> <p>Os domínios são específicos das IDs de email da base de usuários atual do Analytics. Um domínio pode ser reivindicado apenas por uma única organização, e somente os administradores de sistema podem reivindicar um domínio. Para obter mais informações, consulte <a href="https://helpx.adobe.com/br/enterprise/help/request-access-to-claimed-domain.html">Solicitar acesso a um domínio reivindicado</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domínio reivindicado </p> </td> 
-      <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/enterprise/help/identity.html">aqui</a>. </p> </td> 
+      <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -77,7 +77,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
    ![](assets/user-info.png)
 
-1. Especifique o tipo de ID que deseja migrar para os usuários (Adobe ID ou Enterprise ID)
+1. Especifique o tipo de ID para a qual você deseja migrar a (Adobe ID ou Enterprise ID) dos usuários
 
    Depois de migrar os usuários, o status na coluna Status da migração muda de *`Not Initiated`* para *`Migrated`*.
 
