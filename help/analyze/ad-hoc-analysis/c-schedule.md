@@ -3,7 +3,7 @@ description: Você pode personalizar o agendamento da entrega de relatórios. É
 title: Gerenciador de programação
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ Você pode personalizar o agendamento da entrega de relatórios. É possível in
 
 > [!NOTE] quando uma conta de usuário é desativada, qualquer entrega agendada de relatório que tenha sido criada por esse usuário é suspensa.
 
-Para garantir que os itens de linha em um detalhamento sejam persistentes em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no Criador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabela para criar listas de dimensão fixas em detalhamentos.
+Para garantir que os itens de linha em um detalhamento sejam mantidos em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no [Construtor de tabela](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para criar listas de dimensão fixas em detalhamentos.
 
 >[!IMPORTANT]
 >
->A Análise ad hoc permite que você defina e programe relatórios rapidamente para necessidades específicas, oportunas e de relatórios ad hoc. Ela não foi criada para exportações completas de dados com um grande número de linhas, colunas, avaliações métricas ou departamento extensivos usando extrações de dados.
+>A Ad Hoc Analysis permite definir e programar relatórios para necessidades de relatórios ad hoc, pontuais e específicas rapidamente. Ela não foi criada para exportações completas de dados com um grande número de linhas, colunas, avaliações métricas ou departamento extensivos usando extrações de dados.
 >
 >As limitações práticas para relatórios programados na Ad Hoc Analysis são baseadas no seguinte princípio: Se o seu relatório não foi criado dentro de dez minutos (o limite para Análises ad hoc), significa que ele provavelmente é muito complexo.
 >
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. No [!UICONTROL Gerenciador de programação]**, clique em[!UICONTROL Novo.]**
+1. Clique em **[!UICONTROL Ferramentas]** e depois clique em **[!UICONTROL Gerenciador de programação]**.
+1. No [!UICONTROL Gerenciador de programação], clique em **[!UICONTROL Novo]**.
 
 ## Opções de Entrega - Definições {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ Suas informações podem ser enviadas para o formato escolhido do modo que são 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avançado </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >Configurações avançadas de formatação</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destino do arquivo </p> </td> 
