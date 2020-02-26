@@ -3,7 +3,7 @@ description: A publicação de listas fornece uma maneira fácil de enviar vári
 title: Listas de publicação
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ A publicação de listas fornece uma maneira fácil de enviar vários relatório
 
 Várias listas de publicação podem ser especificadas ao agendar um relatório.
 
-## Descrições do Gerenciador de lista de publicação  {#section_099DF8AC5691495F9B22C71266DD6004}
+## Descrições do Gerenciador de lista de publicação {#section_099DF8AC5691495F9B22C71266DD6004}
 
 | Elemento | Descrição |
 |--- |--- |
