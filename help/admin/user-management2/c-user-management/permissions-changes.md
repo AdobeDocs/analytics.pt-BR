@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: Mudanças de permissões de usuários e grupos
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## O que mudou? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos]**
+**[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento do usuário]** > **[!UICONTROL Grupos]**
 
 > [!NOTE] Devido ao alto número de combinações de permissões possíveis disponíveis, não podemos oferecer uma documentação que descreva todos os métodos de API que podem ser usados em todas as combinações de permissões. Normalmente, não administradores que permitiram acesso de serviços da Web terão apenas acesso de Leitura aos métodos de API. Eles não terão acesso de Gravação aos métodos.
 
@@ -45,12 +45,12 @@ Porque a API e a interface usam o mesmo sistema de permissão, quaisquer permiss
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mudanças nos grupos predefinidos </p> </td> 
-   <td colname="col2"> <p> <b>Acesso de administradores:</b> os grupos predefinidos não são mais exigidos para os administradores. Agora, os administradores têm acesso a todos os itens (ferramentas, métricas e dimensões), e também aos Serviços da Web, ao Report Builder, Activity Map e Ad Hoc Analysis. </p> <p>A finalidade dos grupos é conceder ou restringir o acesso a usuários não administrativos. </p> <p> <b>Grupos personalizados:</b> os grupos personalizados substituíram os predefinidos. Os grupos predefinidos atuais serão migrados para grupos personalizados, usando o mesmo nome. Todos os grupos personalizados criados por você serão preservados, inclusive com suas configurações. No entanto, você observará que a localização das configurações mudou. Por exemplo, as Configurações da empresa (em Personalizar Admin Console) agora estão em  <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar ferramentas do Analytics</a>. </p> <p> Os usuários que pertencem a <span class="term"> Acesso a todos os relatórios</span> foram migrados para um grupo personalizado com acesso a: </p> 
+   <td colname="col2"> <p> <b>Acesso de administradores:</b> os grupos predefinidos não são mais exigidos para os administradores. Agora, os administradores têm acesso a todos os itens (ferramentas, métricas e dimensões), e também aos Serviços da Web, ao Report Builder, Activity Map e Ad Hoc Analysis. </p> <p>A finalidade dos grupos é conceder ou restringir o acesso a usuários não administrativos. </p> <p> <b>Grupos personalizados:</b> os grupos personalizados substituíram os predefinidos. Os grupos predefinidos atuais serão migrados para grupos personalizados, usando o mesmo nome. Todos os grupos personalizados criados por você serão preservados, inclusive com suas configurações. No entanto, você observará que a localização das configurações mudou. Por exemplo, as Configurações da empresa (em Personalizar Admin Console) agora estão em <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar ferramentas do Analytics</a>. </p> <p> Os usuários que pertencem a <span class="term"> Acesso a todos os relatórios</span> foram migrados para um grupo personalizado com acesso a: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Todas as dimensões </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Todas as métricas </li> 
      <li id="li_65ABE5C95D43444D88E63EE95C9AED05">Todos os Conjuntos de relatórios </li> 
-     <li id="li_7ED1505590144B38B3B9851BAA6BBB49">Permissão para relatórios de canal </li> 
+     <li id="li_7ED1505590144B38B3B9851BAA6BBB49">Relatório de Canal Permissão </li> 
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Permissão para relatórios de detecção de anomalias </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Permissão para relatórios em tempo real </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Permissão de acesso à Analysis Workspace </li> 
@@ -61,12 +61,12 @@ Porque a API e a interface usam o mesmo sistema de permissão, quaisquer permiss
    <td colname="col2"> <p>Personalize permissões para que incluam ou excluam o acesso a dimensões (além das métricas). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variável</a> em que se baseia a classificação. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/c_classifications.html">variável</a> em que se baseia a classificação. </li> 
     </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Personalizar permissões de dimensão</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> Gerenciar permissões de produto no Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/core_services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://helpx.adobe.com/br/enterprise/using/manage-permissions-and-roles.html"> Gerenciar permissões de produto no Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,11 +119,11 @@ Aqui estão informações novas e importantes sobre atualizações novas e plane
  </tbody> 
 </table>
 
-## Referência rápida de permissões  {#section_A3FDD8259F524B21A5489833533D1B28}
+## Referência rápida de permissões {#section_A3FDD8259F524B21A5489833533D1B28}
 
 A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status da empresa).
 
-> [!NOTE] Um *`migrated user`* e *`Experience Cloud user`* se referem a usuários que aceitaram um convite feito por email para se associar à Experience Cloud. Se esse convite não for aceito, os usuários permanecerão no Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
+> [!NOTE] Um *`migrated user`* e *`Experience Cloud user`* se referem a usuários que aceitaram um convite feito por email para se associar à Experience Cloud. Se esse convite não for aceito, os usuários permanecerão no Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
@@ -137,7 +137,7 @@ A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status 
  <tbody> 
   <tr> 
    <td colname="col1"> Criar um usuário </td> 
-   <td colname="col2"> <p>Admin Console (a criação e a adição de um usuário a uma <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">configuração de produto</a> no Analytics também criam a conta do usuário no Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Ferramentas administrativas</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (a criação e a adição de um usuário a uma <a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/admin_getting_started.html">configuração de produto</a> no Analytics também criam a conta do usuário no Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Ferramentas administrativas</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a> </p> </td> 
   </tr> 
@@ -162,8 +162,8 @@ A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status 
   <tr> 
    <td colname="col1"> Criar um grupo </td> 
    <td colname="col2"> <p>Admin Console - Quando um grupo é criado no Admin Console, as Ferramentas administrativas exibem um grupo mapeado no Analytics, mas esse grupo não pode ter seu nome alterado nas Ferramentas administrativas nem ser excluído dali. </p> <p>Ferramentas administrativas. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">criar configuração de produto</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">criar configuração de produto</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/admin_getting_started.html">criar configuração de produto</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/admin_getting_started.html">criar configuração de produto</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar usuários em um grupo </td> 
