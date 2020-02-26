@@ -3,7 +3,7 @@ description: As opções de calendário diferentes do modelo gregoriano. As opç
 title: Personalizar calendário
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL [selecionar o conjunto de relatórios]]** &gt; **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Personalizar calendário]**
+**[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL [selecione o conjunto de relatórios]]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Personalizar calendário]**
 
 >[!CAUTION]
 >
@@ -21,7 +21,7 @@ As opções de calendário diferentes do modelo gregoriano. As opções incluem 
 
 Você pode usar o calendário para definir o primeiro dia da semana e ano, ou usar um estilo de calendário de varejo diferente. Os formatos de calendário são usados para várias finalidades, inclusive comparações de vendas e padronização de previsões, análise de custos com folha de pagamento ou regulamento de contagem de inventário físico. Por exemplo, o setor de varejo usa o calendário contábil 4-5-4 em suporte à temporada de vendas característica do setor de varejo. Cada um dos formatos de calendário é descrito abaixo.
 
-## Personalizar descrições de calendário  {#section_B0D224DACB914A378902A4E0E1234889}
+## Personalizar descrições de calendário {#section_B0D224DACB914A378902A4E0E1234889}
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
