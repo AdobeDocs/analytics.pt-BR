@@ -2,7 +2,7 @@
 description: O Tempo é uma dimensão de relatório que é útil para a tendência em horas, dias, semanas e intervalos de datas. Por exemplo, um Relatório de produtos mostra quanta receita um produto criou durante um intervalo de datas selecionado. Você pode adicionar uma dimensão de Dia para ver a tendência em cada dia do período do relatório. O Tempo oferece configurações de granularidade para Hora, Dia, Semana, Mês, Trimestre e Ano. As predefinições de intervalos de data incluem configurações como Hoje, Ontem e Últimos 7 dias.
 title: Hora
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
