@@ -49,14 +49,14 @@ Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Co
 | c_channel | Definido por s.channel . |
 | c_clientDateTime | Carimbo de data e hora formatado como dd/mm/aaaa hh:mm:ss W TZ .    TZ está em minutos e corresponde o retorno do método Date.getTimezoneOffset. |
 | c_colorDepth | Especificado como uma cor de 16 ou 32 bits. |
-| c_connectionType | Especifica o tipo de conexão. As opções incluem: <ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Exemplos:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Sinal: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | Especifica se cookies podem ser habilitados. As opções incluem:  sim, não, desconhecido |
+| c_connectionType | Especifica o tipo de conexão. As opções incluem:<ul><li>modem</li><li>lan</li></ul> |
+| c_contextData.* | Exemplos:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Sinal: c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | Especifica se cookies podem ser habilitados. As opções incluem: sim, não, desconhecido |
 | c_currencyCode | Tipo de moeda usada na transação. |
 | c_evar# | eVars personalizadas |
 | c_events | Definido por s.events . |
 | c_hier# | Variáveis personalizadas de hierarquia. |
-| c_javaEnabled | Especifica se o Java pode ser habilitado. As opções incluem:  sim, não, desconhecido |
+| c_javaEnabled | Especifica se o Java pode ser habilitado. As opções incluem: sim, não, desconhecido |
 | c_javaScriptVersion | Versão do JavaScript suportada por um navegador. |
 | c_latitude | Latitude numérica |
 | c_linkClick | As opções incluem: custom, download exit |
