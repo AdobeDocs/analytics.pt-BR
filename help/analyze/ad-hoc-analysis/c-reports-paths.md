@@ -3,7 +3,7 @@ description: Exibe informações sobre a ordem na qual as páginas de seu site s
 title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Os relatórios incluem caminhos padrão em profundidade e relatórios de anális
 
 **[!UICONTROL FallOut]**: esse relatório mostra o desgaste da visita e as taxas de conversão entre cada ponto de verificação definido. As etapas são organizadas de cima para baixo, com números brutos e porcentagens exibidas à esquerda, e porcentagens de conversão e fall-out à direita.
 
-Consulte [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obter mais informações.
+Consulte  [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obter mais informações.
 
 **[!UICONTROL Extensão do caminho]**: mostra o quão profundo os visitantes navegaram do site (tanto por percentagem e por contagem total). Em outras palavras, o relatório indica quantas páginas o visitante médio do site visualiza antes de sair.
 
@@ -44,7 +44,7 @@ Consulte [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.m
 * **[!UICONTROL Tempo gasto na página]**: mostra o tempo em que os visitantes navegaram em páginas individuais do site. O tempo de permanência é dividido em dez categorias: menos de 15 segundos, 15-30 segundos, 30-60 segundos, 1-3 minutos, 3-5 minutos, 5-10 minutos, 10-15 minutos, 15-20 minutos, 20-30 minutos e mais de 30 minutos.
 * **[!UICONTROL Cliques para a página]**: identifica o número de cliques que os visitantes usaram para acessar cada página do site. A profundidade de uma página é medida pela contagem do número de páginas exibidas antes.
 
-**[!UICONTROL Entradas e saídas]**: o relatório de Entradas e saídas mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode selecionar:
+**[!UICONTROL Entradas e saídas]**: o [!UICONTROL relatório de Entradas] e saídas mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode selecionar:
 
 * **[!UICONTROL Páginas de entrada]** (ou seções): mostra, por porcentagem e por total de visitas, quais páginas no site são as primeiras páginas vistas por um novo visitante. Você pode usar este relatório para identificar qual das suas páginas da Web são os pontos mais frequentes de entrada, otimizar os pontos de entrada primária do site e o tráfego de entrada da unidade para suas mensagens-chave.
 * **[!UICONTROL Páginas de entrada originais]**: mostra a primeira página visualizada pela primeira vez pelos visitantes do site. Cada usuário é contado apenas uma vez, a não ser que ele exclua seus cookies do navegador ou não esteja sendo rastreado por cookies.
@@ -79,13 +79,13 @@ t_fallout.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL New Report]** &gt; **[!UICONTROL Fallout.]**
+1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Novo relatório]** > **[!UICONTROL Fallout]**. 
 
-   Other Fallout reports are found in **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]**.
+   Outros relatórios Fallout podem ser encontrados em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]**.
 
 1. (Opcional) Arraste um segmento para o campo [!UICONTROL Soltar segmento aqui] se desejar filtrar os dados por um segmento específico.
 1. Arraste qualquer item de dimensão até o campo [!UICONTROL Soltar evento ou itens de dimensão aqui.]
-1. Click **[!UICONTROL Show Fallout At]**Visit or Visitor level, depending on whether you want to view fallout at the visit level, or across visitor sessions.
+1. Clique em **[!UICONTROL Mostrar Fallout em]** nível de Visita ou de Visitante, dependente se você deseja exibir o fallout no nível de visita ou em várias sessões de visitante.
 1. Adicionar itens de dimensão, como páginas, ao relatório.
 
 ## Atribuir páginas a um Relatório de fallout {#task_B386289703494FA7B5A40FF9F97CB537}
@@ -98,7 +98,7 @@ t_fallout_assign_pages.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Fallout]**.
+1. Clicar em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fallout de páginas]**.
 1. Do painel de [!UICONTROL dimensões], localize as páginas para adicionar e arraste-as para o campo [!UICONTROL Solte evento ou dimensão aqui.]
 
 ## Relatório de fallout - Descrições de campo {#reference_74255CC8D6134F349FEBFEC72934C866}
