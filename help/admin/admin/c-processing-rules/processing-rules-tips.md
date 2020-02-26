@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Dicas e truques para regras de processamento
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Esta seção contém algumas orientações que ajudam a testar as regras de proc
 
 **Teste das regras que leem os termos de pesquisa**
 
-Para todos os critérios baseados em uma pesquisa, por exemplo, se prop1 contém "notícias", acesse o relatório prop 1, pesquise "notícias" e veja se há correspondências que você não esperava.
+Para todos os critérios baseados em uma pesquisa, por exemplo, se prop1 contém &quot;notícias&quot;, acesse o relatório prop 1, pesquise &quot;notícias&quot; e veja se há correspondências que você não esperava.
 
 **Teste das regras que leem variáveis**
 
@@ -30,7 +30,7 @@ Crie uma página HTML em branco no desktop, inclua o s_code de seu site e defina
 
 Recomendamos a configuração das regras de processamento em um conjunto de relatórios dev para ter certeza de que estão funcionando corretamente. Se possível, recomendamos copiar as regras em um conjunto de relatórios de produção pequeno antes de uma implantação mais abrangente.
 
-## Verificar a existência de valores vazios  {#section_EE84A5525E26415787930723B0CAAE0F}
+## Verificar a existência de valores vazios {#section_EE84A5525E26415787930723B0CAAE0F}
 
 Ao criar uma regra, considere o caso de um valor vazio. Se você não adicionar uma condição que verifica a existência de valores vazios, você pode, inadvertidamente, substituir variáveis com valores vazios.
 
@@ -40,7 +40,7 @@ Também é importante considerar a ordem de processamento. No exemplo a seguir, 
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Evitar a substituição de valores  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Evitar a substituição de valores {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 No exemplo a seguir, duas variáveis de dados de contexto são usadas no site para capturar termos de pesquisa: search_keyword e search_term. No entanto, com base na configuração, o valor de search_keyword é sempre substituído, mesmo se o search_term estiver vazio.
 
@@ -48,13 +48,13 @@ Essa regra deve ser reconfigurada para testar cada variável dos dados de contex
 
 ![](assets/tips-search-keyword.png)
 
-## Codificar os termos de pesquisa em UTF-8 ou Unicode  {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Codificar os termos de pesquisa em UTF-8 ou Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 Os termos de pesquisa extraídos de uma sequência de consulta devem ser corretamente codificados, caso contrário, as regras de processamento não encontrarão correspondência neles.
 
 ![](assets/tips-multibyte.png)
 
-## Começa com, Contém e Termina com  {#section_80CE853244FC435B844A09EA51868D8D}
+## Começa com, Contém e Termina com {#section_80CE853244FC435B844A09EA51868D8D}
 
 Selecione a condição de correspondência certa para encontrar a condição mais restritiva que corresponda corretamente. É possível pesquisar valores em um relatório antes de criar uma regra, para ter certeza de que não há correspondências indesejadas. Por exemplo, você deve pesquisar o relatório Prop2 para encontrar todos os locais em que há correspondência com essa condição antes de habilitar essa regra.
 
