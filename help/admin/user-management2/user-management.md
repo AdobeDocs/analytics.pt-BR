@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Gerenciamento de usuários e produtos
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
@@ -16,7 +16,7 @@ Gerencie usuários, grupos e produtos do Analytics no Admin Console.
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## Recursos de ajuda para administradores do Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -30,11 +30,11 @@ Gerencie usuários, grupos e produtos do Analytics no Admin Console.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Migrar IDs de usuário do Analytics para o Admin Console </p> </td> 
-   <td colname="col2"> <p> A Adobe está auxiliando os administradores do Analytics a migrar as IDs de usuário para o Adobe Admin Console. Esse esforço ocorrerá em ondas. Quando for sua vez de migrar os usuários, a Adobe notificará os administradores do Analytics por email com instruções. Naquele momento, uma <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">ferramenta de migração</a> estará disponível no Analytics User Management para simplificar esta tarefa. </p> <p>Importante: no dia da migração dos usuários, os antigos grupos de permissão serão copiados automaticamente para o Admin Console. Não será mais possível convidar novos usuários ou criar novos grupos nas Ferramentas administrativas do Analytics. Revise as Perguntas frequentes e a ajuda da <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Migração de usuários do Analytics para o Admin Console</a> para obter informações sobre como se preparar para a migração e sobre os recursos administrativos afetados. </p> </td> 
+   <td colname="col2"> <p> A Adobe está auxiliando os administradores do Analytics a migrar as IDs de usuário para o Adobe Admin Console. Esse esforço ocorrerá em ondas. Quando for sua vez de migrar os usuários, a Adobe notificará os administradores do Analytics por email com instruções. Naquele momento, uma <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">ferramenta de migração</a> estará disponível no Analytics User Management para simplificar esta tarefa. </p> <p>Importante: no dia da migração dos usuários, os antigos grupos de permissão serão copiados automaticamente para o Admin Console. Não será mais possível convidar novos usuários ou criar novos grupos nas Ferramentas administrativas do Analytics. Revise as Perguntas frequentes e a ajuda da <a href="https://marketing.adobe.com/resources/help/pt_BR/experience-cloud/admin-console/analytics-migration/">Migração de usuários do Analytics para o Admin Console</a> para obter informações sobre como se preparar para a migração e sobre os recursos administrativos afetados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Iniciar o Admin Console </p> </td> 
-   <td colname="col2"> <p>Depois que suas contas de usuário forem migradas, será possível gerenciar usuários e produtos de todas as soluções no Admin Console </p> <p>Navegue até <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obter ajuda, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Gerenciar usuários e produtos da Experience Cloud</a> para obter atualizações sobre o gerenciamento de usuários e de produtos da Experience Cloud no Admin Console. </p> </td> 
+   <td colname="col2"> <p>Depois que suas contas de usuário forem migradas, será possível gerenciar usuários e produtos de todas as soluções no Admin Console </p> <p>Navegue até <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obter ajuda, consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/admin_getting_started.html">Gerenciar usuários e produtos da Experience Cloud</a> para obter atualizações sobre o gerenciamento de usuários e de produtos da Experience Cloud no Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Adicionar novo usuário</span> </td> 
-   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Permite que você adicione uma conta do usuário à empresa. Este link fica disponível somente se o Número de logons de usuário restantes for maior que 0. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Baixar relatório</span> </td> 
@@ -73,7 +73,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Logon</span> </td> 
-   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>O nome de usuário. Você pode clicar no nome do usuário para editar as propriedades da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nome</span> </td> 
@@ -109,7 +109,7 @@ A seguinte tabela descreve elementos na guia [!UICONTROL Usuários] em [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar</span> </td> 
-   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte  <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
+   <td colname="col2"> <p>Editar configurações da conta de usuário. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md"> Usuários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Excluir</span> </td> 
