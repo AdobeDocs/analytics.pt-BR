@@ -2,7 +2,7 @@
 description: Saiba sobre as várias ações que podem ser realizadas em um relatório, como configuração de gráficos, análise e extração de dados.
 title: Configurar relatórios existentes
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ c_report_actions.xml
 
  -->
 
-Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]** ![. ](assets/tools_icon.png)
+Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]** ![](assets/tools_icon.png). 
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -50,7 +50,7 @@ Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções de entrega </p> </td> 
-   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Opções</a>de entrega. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >Opções de entrega</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimir </p> </td> 
@@ -62,7 +62,7 @@ Em um relatório, clique no menu suspenso **[!UICONTROL Ações de Relatório]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fontes de dados </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >Aba de configurações gerais - Definições</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exibir </p> </td> 
@@ -84,7 +84,7 @@ c_chart_options.xml
 <table id="table_99EBE6BB52B84611A3E8CD94540F59A4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Opções </p> </th> 
+   <th colname="col1" class="entry"> <p>Opção </p> </th> 
    <th colname="col2" class="entry"> <p>Descrição </p> </th> 
   </tr> 
  </thead>
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar regressão linear </p> </td> 
-   <td colname="col2"> <p>Para <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráfico de bolhas</a>. Exibe uma aproximação estatística dos seus dados. </p> </td> 
+   <td colname="col2"> <p>Para  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráfico de bolhas</a>. Exibe uma aproximação estatística dos seus dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,11 +156,11 @@ Determinados relatórios lhe permitem analisar os dados da tabela para poder ver
 **Para analisar os dados da tabela**
 
 1. Executar um relatório.
-1. Clique com o botão da direita em um item de linha e clique em **Analisar** &gt; *item.*
+1. Clique com o botão direito do mouse em um item de linha e clique em **[!UICONTROL Analisar]** > *item*. 
 
    >[!NOTE]
    >
-   >Para obter mais flexibilidade, use o Criador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tabela para configurar um relatório com detalhamentos. Após abrir um relatório salvo ou programado com análises, será necessário clicar em **[!UICONTROL Substituir tabelas]para atualizar a análise do relatório de dados dinâmico.** Por exemplo, pode ser necessário atualizar um relatório contendo análises dos itens de linha que podem mudar com base no intervalo de datas ou na atividade do visitante.
+   >Para obter mais flexibilidade, use o [Construtor de tabela](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para configurar um relatório com detalhamentos. Após abrir um relatório salvo ou programado com análises, será necessário clicar em **[!UICONTROL Substituir tabelas]** para atualizar a análise do relatório de dados dinâmico. Por exemplo, pode ser necessário atualizar um relatório contendo análises dos itens de linha que podem mudar com base no intervalo de datas ou na atividade do visitante.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ No caso dos relatórios classificados, é possível alterar o relatório para um
 **Alterar o tipo de relatório na tabela**
 
 1. Abra e configure um relatório classificado.
-1. Clique com o botão da direita no cabeçalho da coluna do nome do relatório na tabela, clique em **Selecionar relatório** e navegue par ao relatório.
+1. Clique com o botão da direita no cabeçalho da coluna do nome do relatório na tabela, clique em **[!UICONTROL Selecionar relatório]** e navegue par ao relatório.
 
 ## Copiar dados para a área de transferência {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    Recomendamos que você abra o Excel antes de copiar os dados, porque o Excel limpa o buffer de memória quando inicia.
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. No nível do relatório, clique em **[!UICONTROL Configurações]** ![](assets/settings_icon.png) e, em seguida, em **[!UICONTROL Copiar dados de relatório]**.
 1. No Excel, selecione uma célula e cole os dados.
 
 ## Extrair IDs de visitante {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,12 +205,12 @@ t_reports_extract_ID.xml
 
  -->
 
-Em Relatórios e análises, é possível definir um campo para conter dados de ID de usuário. Se essa opção for configurada, a opção [!UICONTROL Extrair IDs de visitantes] ficará disponível. Se essa opção não tiver sido ativada, mas você decidir ativá-la posteriormente, não será possível voltar e extrair as IDs dos visitantes do histórico.
+No Reports &amp; Analytics de você pode configurar um campo para conter os dados da ID do usuário. Se essa opção for configurada, a opção [!UICONTROL Extrair IDs de visitantes] ficará disponível. Se essa opção não tiver sido ativada, mas você decidir ativá-la posteriormente, não será possível voltar e extrair as IDs dos visitantes do histórico.
 
 **Para extrair IDs de visitantes:**
 
 1. Adicione um segmento Data Warehouse ao relatório.
-1. Clique com o botão direito do mouse no segmento e selecione **[!UICONTROL Extrair IDs de Visitantes]**.
+1. Clique com o botão direito do mouse no segmento e selecione **[!UICONTROL Extrair IDs de visitantes]**.
 
    O aplicativo do Data Warehouse é iniciado.
 1. Na aba [!UICONTROL Solicitação de Data Warehouse], insira o nome do filtro.
@@ -229,7 +229,7 @@ Ao exibir um relatório classificado, como um relatório de produtos, você pode
 **Para analisar a tendência de uma linha**
 
 1. Execute um relatório classificado.
-1. Clique no ícone de [!UICONTROL tendência] ![. ](assets/TrendInspector_Buttcon.png)
+1. Clique no ícone de [!UICONTROL tendência] ![](assets/TrendInspector_Buttcon.png). 
 
    Você pode selecionar várias células para aplicar a um único relatório de tendência.
 
@@ -245,7 +245,7 @@ t_column_width.xml
 
 1. Na tabela, clique com o botão direito do mouse no cabeçalho da coluna e clique em **[!UICONTROL Largura da coluna]**.
 
-   Essa opção estará desativada se a opção [!UICONTROL Ajustar à tela] estiver ativada. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   Essa opção estará desativada se a opção [!UICONTROL Ajustar à tela] estiver ativada. 1. Especifique a largura em pixels e clique em **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
