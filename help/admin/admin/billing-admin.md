@@ -3,7 +3,7 @@ description: A página Faturamento permite acessar informações de faturamento,
 title: Faturamento
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,10 +34,10 @@ O relatório [!UICONTROL Faturamento mensal] resultante inclui as seguintes info
 | Chamadas de servidor primário | Solicitações recebidas diretamente de navegadores dos visitantes ao site ou da API de inserção de dados. Inclui Ocorrências primárias (Visualizações de página), Eventos personalizados primários, Eventos de download primários e Eventos de saída primários. |
 | Chamadas de servidor secundário | Cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA.  Se uma chamada ao servidor secundário tiver sido movida (não copiada) para um report suite diferente por uma regra VISTA, a página Faturamento identificará essa transferência com um número negativo. Nesse caso, as chamadas secundárias acumuladas são deduzidas das Chamadas do servidor principal. |
 | Total de chamadas ao servidor | O total combinado de chamadas aos servidores primário e secundário deste conjunto de relatórios no local determinado. |
-| Exibições de página | Totais de exibição de página para cada conjunto de relatórios. É possível confirmar os valores de visualização de página em Métricas do site &gt; Visualizações de página. |
-| Downloads | Fazer download dos totais de cada conjunto de relatórios. É possível confirmar os valores de download em Conteúdo do site &gt; Links &gt; Downloads de arquivo. |
-| Links personalizados | Totais de link personalizado para cada conjunto de relatórios. É possível confirmar os valores do link personalizado em Conteúdo do site &gt; Links &gt; Links personalizados. |
-| Links de saída  | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site &gt; Links &gt; Links de saída. |
+| Exibições de página | Totais de exibição de página para cada conjunto de relatórios. É possível confirmar os valores de visualização de página em Métricas do site > Visualizações de página. |
+| Downloads | Fazer download dos totais de cada conjunto de relatórios. É possível confirmar os valores de download em Conteúdo do site > Links > Downloads de arquivo. |
+| Links personalizados | Totais de link personalizado para cada conjunto de relatórios. É possível confirmar os valores do link personalizado em Conteúdo do site > Links > Links personalizados. |
+| Links de saída | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site > Links > Links de saída. |
 
 > [!NOTE] Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel*.
 
