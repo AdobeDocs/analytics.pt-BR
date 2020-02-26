@@ -3,7 +3,7 @@ description: A Adobe exige um aviso prévio para novas configurações da conta,
 title: Tempo de lead necessário para aumentos de tráfego
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ A Adobe exige um aviso prévio para novas configurações da conta, picos e aume
 
 A alocação de hardware é realizada por alertas emitidos pela interface do usuário do Relatórios e análises.
 
-> [!IMPORTANT] A Adobe não pode acomodar solicitações de alteração de tráfego de "espaço reservado". Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo. Consulte [Agendar um pico de tráfego](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Especificar aumento permanente de tráfego](/help/admin/c-traffic-management/t-traffic-permanent.md).
+> [!IMPORTANT] A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo. Consulte [Agendar um pico de tráfego](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Especificar aumento permanente de tráfego](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Use as diretrizes a seguir para determinar com quanta antecedência você deve enviar um alerta de tráfego:
 
@@ -68,4 +68,4 @@ Outros itens que devem ser considerados:
 
 ## Cancelamento da alocação de hardware devido ao tráfego não realizado
 
-O hardware para novas contas, picos de tráfego e aumentos de tráfego terá o alocamento cancelado se o tráfego projetado no alerta do cliente não ocorrer em 4 semanas a partir da "data de ativação". Se o tráfego ainda for antecipado, é necessário gerar um novo alerta do cliente conforme o tráfego aumentar.
+O hardware para novas contas, picos de tráfego e aumentos de tráfego terá o alocamento cancelado se o tráfego projetado no alerta do cliente não ocorrer em 4 semanas a partir da &quot;data de ativação&quot;. Se o tráfego ainda for antecipado, é necessário gerar um novo alerta do cliente conforme o tráfego aumentar.
