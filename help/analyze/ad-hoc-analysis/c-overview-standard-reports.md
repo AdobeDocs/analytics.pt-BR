@@ -3,7 +3,7 @@ description: Os relatórios padrão exibem dados de atividades do site e de visi
 title: Visão geral dos relatórios
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte o [Gerente de campanha](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
+Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte o [Gerente de campanha](https://marketing.adobe.com/resources/help/pt_BR/reference/campaign_manager_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
 ## Cálculos estatísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,7 +74,7 @@ Os cálculos estatísticos padrão adicionais podem ser adicionados aos relatór
 
 **Para abrir os cálculos estatísticos para Relatórios classificados:**
 
-1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
+1. Selecione **[!UICONTROL Ferramentas]** > **[!UICONTROL Classificadas]** no menu.
 
 1. Selecione **[!UICONTROL Configurações]**.
 1. Selecione **[!UICONTROL Estatísticas padrão]**.
@@ -92,7 +92,7 @@ Os cálculos estatísticos padrão adicionais podem ser adicionados aos relatór
 | Quartil | Um quartil é o conjunto de valores no conjunto de dados identificado por três pontos que dividem o conjunto de dados em quatro grupos iguais, cada um incluindo um quarto do conjunto de dados. O primeiro quartil é 25% e o terceiro quartil é 75%. (O segundo quartil é a Média e o quarto quartil é a Soma.) |
 | Contagem | Retorna o número de linhas em um conjunto de dados. |
 
-## Exemplo de cálculos totais de média vs. métrica {#section_7C49196503964FB0A429FA347BC92D09}
+## Exemplo de cálculos totais de média vs. métrica  {#section_7C49196503964FB0A429FA347BC92D09}
 
 A função de média é calculada de forma similar às colunas de dados no Microsoft Excel. Em particular, isso significa que a **Média** de uma proporção (como determinar a taxa média de rejeição) seria a média de proporções, não a proporção de médias. A proporção das médias inclui o **Total** da taxa média de rejeição.
 
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-Em um relatório que identifica dados durante um período de tempo, o botão **[!UICONTROL Estatísticas]permite que você selecione os cálculos que serão exibidos como sobreposições na linha de tempo do relatório.**
+Em um relatório que identifica dados durante um período de tempo, o botão **[!UICONTROL Estatísticas]** permite que você selecione os cálculos que serão exibidos como sobreposições na linha de tempo do relatório.
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+Além do padrão  [Nos Cálculos estatísticos](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), você pode selecionar o primeiro, segundo e terceiro desvios padrão nas sobreposições.
 
 ## Gerenciador do grupo {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. É possível editar grupos pelo menu principal ou de dentro do relatório. Categorias criadas em relatórios e análises de marketing também aparecem na lista [!UICONTROL Seletor de ponto de verificação].
+Em vez de utilizar uma única página em um relatório, é possível agrupar diversas páginas e usá-las como categorias para local de início, intermediário ou de destino nos relatórios [!UICONTROL Fallout] e de [!UICONTROL Análise do Site]. É possível editar grupos pelo menu principal ou de dentro do relatório. Categorias criadas em relatórios e análises de marketing também aparecem na lista [!UICONTROL Seletor de ponto de verificação].
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Gerenciador de grupos]**.
