@@ -9,7 +9,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 # Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 
-O recurso **[Impor restrições de logon de IP](/help/admin/company/security-manager.md)** no Adobe Analytics permite incluir endereços IP específicos (considerados seguros) para permitir logons bem-sucedidos e acesso ao ambiente do Adobe Analytics. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
+O recurso **[Impor restrições de logon de IP](/help/admin/company/security-manager.md)**no Adobe Analytics permite incluir endereços IP específicos (considerados seguros) para permitir logons bem-sucedidos e acesso ao ambiente do Adobe Analytics. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
 
 Estamos planejando o fim da vida útil desse recurso em outubro de 2020.
 
@@ -25,7 +25,7 @@ Por fim, a Adobe tem uma solução alternativa funcional e superior por meio do 
 
 Para qualquer cliente que tenha **[!UICONTROL Impor restrições de logon de IP]** definido, esse recurso será removido em outubro de 2020. Nesse momento, as restrições de logon de IP ainda em vigor não serão mais impostas. Se ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
 
-Além disso, a configuração **[!UICONTROL Impor restrições de logon de IP]** será removida de **[!UICONTROLAAdministração &gt; Configurações da empresa &gt; Gerenciador de segurança]** na interface do usuário do Analytics (como mostrado abaixo).
+Além disso, a configuração **[!UICONTROL Impor restrições de logon de IP]** será removida de **[!UICONTROLAAdministração > Configurações da empresa > Gerenciador de segurança]** na interface do usuário do Analytics (como mostrado abaixo).
 
 ![](assets/sec-manager2.png)
 
