@@ -26,9 +26,9 @@ Dependendo do seu método de implementação, siga estas etapas.
 
 | Método de implementação | Etapas |
 |--- |--- |
-| Adobe Experience Platform Launch | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
-| DTM | Adicione a definição da variável contextdata ao editor de Código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
-| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| Adobe Experience Platform Launch | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
+| DTM | Adicione a definição da variável contextdata ao editor de Código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
@@ -36,13 +36,13 @@ Use o Adobe Analytics para criar relatórios sobre qual porção de seu tráfego
 
 Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável personalizada de tráfego (prop) por meio de regras de processamento. Para fazer isso
 
-1. Implemente a variável "cm.ssf" (conforme mostrado acima.)
+1. Implemente a variável &quot;cm.ssf&quot; (conforme mostrado acima.)
 1. [Habilite a prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. Use regras de processamento para mapear a variável de contexto para a prop.
 
-   1. Acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
-   1. Clique em **[!UICONTROL Editar conjunto de relatórios]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Regras de processamento]** .
+   1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
+   1. Clique em **[!UICONTROL Editar conjunto de relatório]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]** .
    1. Clique em **[!UICONTROL Adicionar regra.]**
-   1. Em **[!UICONTROL Sempre executar]**, substitua o valor da prop habilitada anteriormente pela variável de contexto "cm.ssf(Context Data)".
+   1. Em **[!UICONTROL Sempre executar]**, substitua o valor da prop habilitada anteriormente pela variável de contexto &quot;cm.ssf(Context Data)&quot;.
    1. Clique em **[!UICONTROL Salvar]**.
 
