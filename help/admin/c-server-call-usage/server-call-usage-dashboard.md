@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Visualizar uso de chamadas do servidor atual
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Uso de chamadas do servidor]** &gt; **[!UICONTROL Uso atual]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Uso de chamadas do servidor]** > **[!UICONTROL Uso atual]**
 
 > [!IMPORTANT] Quaisquer números de uso e de compromisso exibidos são cumulativos em todas as suas empresas de logon e conjuntos de relatórios.
 
