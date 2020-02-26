@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Ferramentas administrativas
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]**
 
 >[!IMPORTANT] Não abra várias guias Administração no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, caso seja necessário comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou faça uma captura de tela para comparar os conjuntos de regras.
 
