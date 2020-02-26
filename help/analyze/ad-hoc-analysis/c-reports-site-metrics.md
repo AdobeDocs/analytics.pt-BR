@@ -1,9 +1,9 @@
 ---
 description: Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
-title: Métricas de site relatórios
+title: Métricas de site  relatórios
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
-## Métricas de site reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Métricas de site  relatórios {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
-A tendência dos relatórios de métrica é avaliada conforme o tempo. Você pode aplicar granularidade de tempo e dia da semana nesses relatórios. Como alternativa, você pode analisar o tempo gasto no seu site, as compras, a receita e métricas similares.
+Relatórios de métrica são   tendência ao longo do tempo. Você pode aplicar granularidade de tempo e dia da semana nesses relatórios. Como alternativa, você pode analisar o tempo gasto no seu site, as compras, a receita e métricas similares.
 
 Os relatórios de métricas do site a seguir estão disponíveis no menu [!UICONTROL Métricas do site].
 
@@ -33,7 +33,7 @@ Um relatório de tendências que exibe o número de vezes em que as páginas do 
 
 ## Relatório de visitas {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
-Exibe o número de visitas realizadas em todo o seu site durante um período especificado. Uma *visita* é uma sequência de exibições de página. Uma visita começa quando um visitante carrega uma página e termina após 30 minutos de inatividade. Ela pode durar várias horas, desde que o visitante carregue pelo menos uma página antes do tempo limite. Uma visita não precisa necessariamente coincidir com uma sessão de navegador. Por exemplo, se um visitante fecha e reabre o navegador e visita site cinco minutos depois, a visita é considerada a mesma. Isso também significa que se um visitante permanecer em uma página por 35 minutos, a visita terá sido fechada e processada e uma nova visita será iniciada se o visitante clicar em outra página. As visitas são acompanhadas por cookies. Uma visita é encerrada após 12 horas de atividade contínua.
+Exibe o número de visitas realizadas em todo o site durante um período especificado. Uma *visita* é uma sequência de exibições de página. Uma visita começa quando um visitante carrega uma página e termina após 30 minutos de inatividade. Ela pode durar várias horas, desde que o visitante carregue pelo menos uma página antes do tempo limite. Uma visita não precisa necessariamente coincidir com uma sessão de navegador. Por exemplo, se um visitante fecha e reabre o navegador e visita site cinco minutos depois, a visita é considerada a mesma. Isso também significa que se um visitante permanecer em uma página por 35 minutos, a visita terá sido fechada e processada e uma nova visita será iniciada se o visitante clicar em outra página. As visitas são acompanhadas por cookies. Uma visita é encerrada após 12 horas de atividade contínua.
 
 <!-- 
 
@@ -89,7 +89,7 @@ Use esse relatório para:
 
 ## Relatório de compras {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Exibe dados de resumo da receita, dos pedidos e das unidades. Você também pode exibir o [!DNL Purchase Conversion Funnel] relatório.
+Exibe dados de resumo da receita, dos pedidos e das unidades. Você também pode exibir o relatório [!DNL Purchase Conversion Funnel].
 
 <!-- 
 
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. Um relatório de [!UICONTROL Evento personalizado] pode ser usado como um contador que mostrar o número de vezes que um evento ocorre. Por exemplo, se **[!UICONTROL event1]** estiver definido para contar o número de vezes em que um documento é baixado, o relatório de eventos personalizados para o Evento 1 mostra o número total de vezes em que o evento (ou download) ocorreu.  Você pode ter diversos relatórios de eventos personalizados.
+Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. Um relatório de [!UICONTROL Evento personalizado] pode ser usado como um contador que mostrar o número de vezes que um evento ocorre. Por exemplo, se **[!UICONTROL event1]** estiver definido para contar o número de vezes em que um documento é baixado, o relatório de [!UICONTROL eventos personalizados] para o Evento 1 mostra o número total de vezes em que o evento (ou download) ocorreu. Você pode ter diversos relatórios de eventos personalizados.
 
 ## Relatórios de conversão {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -161,6 +161,6 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL Relatório de primeiro ou de último contato]**: exibe as métricas que mostram dados sobre um canal específico de primeiro ou de último contato. Nesses relatórios, é possível decompor canais e mostrar os detalhes de cada um. Se o AdLens estiver ativado, você verá classificações em seus relatórios de canal de relatórios e análises de marketing.
 
-**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe detalhes como nomes de páginas e referenciadores, que são coletados dos valores do canal que você configurou na opção "[!UICONTROL Definir o valor do canal para]" ao configurar as regras. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
+**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe detalhes como nomes de páginas e referenciadores, que são coletados dos valores do canal que você configurou na opção &quot;[!UICONTROL Definir o valor do canal para]&quot; ao configurar as regras. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
 
-Para obter informações mais detalhadas sobre a configuração de canais de marketing em relatórios e análises de marketing, consulte o sistema de [Ajuda de canais de marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
+Para obter informações mais detalhadas sobre a configuração de canais de marketing em relatórios e análises de marketing, consulte o sistema de [Ajuda de canais de marketing](https://marketing.adobe.com/resources/help/pt_BR/mchannel/index.html).
