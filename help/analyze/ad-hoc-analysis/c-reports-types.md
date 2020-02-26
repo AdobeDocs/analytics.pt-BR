@@ -3,7 +3,7 @@ description: Descrições dos tipos de relatórios usados na Experience Cloud.
 title: Tipos de relatórios
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,7 +54,7 @@ t_trend_row.xml
 **Tendência de células**
 
 1. Abra um relatório classificado.
-1. Na tabela, localize a célula e clique em **[!UICONTROL Tendência]**.
+1. Na tabela, localize a célula e clique em **[!UICONTROL Tendência]**. 
 
    ![](assets/TrendInspector_Buttcon.png)
 
@@ -218,7 +218,7 @@ Clique nos cilindros com o botão direito do mouse para editá-los ou removê-lo
 
 | Opção | Descrição |
 |--- |--- |
-| Editar | Permite adicionar ou remover páginas de um cilindro. |
+| Editar  | Permite adicionar ou remover páginas de um cilindro. |
 | Remover | Permite remover um cilindro. |
 | Relatórios | Permite inicializar outro relatório pelo cilindro. |
 | Salvar gráfico como | Permite salvar o gráfico como um arquivo .png ou .jpg. Se você alterar os controles do gráfico (ângulo, tamanho) antes de salvar, as alterações são preservadas na saída. |
