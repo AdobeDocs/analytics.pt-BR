@@ -2,7 +2,7 @@
 description: 'null'
 title: APIs afetadas pela migração
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -33,7 +33,7 @@ Os métodos de API a seguir na v1.3 e v1.4 da API de administrador não serão m
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## Ações possíveis  {#section-8b0b89a862614f729ebdbe092ce99027}
+## Ações possíveis {#section-8b0b89a862614f729ebdbe092ce99027}
 
 Se a empresa usa esses métodos, procure uma notificação pré-migração a partir de 31 de março de 2018. A notificação será enviada pelo menos 30 dias antes da empresa iniciar a migração para a autenticação pela Experience Cloud e, durante esse período, esses métodos não serão mais suportados.
 
@@ -41,8 +41,8 @@ Se a empresa não usar esses métodos, nenhuma ação é necessária, exceto gar
 
 Para obter mais informações:
 
-* [Informações gerais de gerenciamento de usuário](https://helpx.adobe.com/enterprise/help/users.html)
+* [Informações gerais de gerenciamento de usuário](https://helpx.adobe.com/br/enterprise/help/users.html)
 * [APIs de gerenciamento de usuário pelo adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Fórum de API de gerenciamento de usuário](https://forums.adobe.com/community/umapi/overview)
-* [Migração do acesso do usuário do Analytics e gerenciamento para a Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [Migração do acesso do usuário do Analytics e gerenciamento para a Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/experience-cloud/admin-console/analytics-migration/)
 
