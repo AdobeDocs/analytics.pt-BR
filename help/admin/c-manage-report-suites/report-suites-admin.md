@@ -1,9 +1,9 @@
 ---
-description: Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
+description: Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
 title: Gerenciador do Conjunto de relatórios
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Gerenciador do Conjunto de relatórios
 
-Um conjunto de relatórios define o relatório completo e independente de um site da Web específico ou de subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
+Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**
 
-> [!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
+> [!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
