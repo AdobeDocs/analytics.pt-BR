@@ -1,9 +1,9 @@
 ---
-description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais envolvimento.
+description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais engajamento.
 title: Geração de leads
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Geração de leads
 
-Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais participação.
+Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais engajamento.
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
