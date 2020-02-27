@@ -26,9 +26,9 @@ Há várias maneiras de gerenciar componentes (individualmente ou ao selecionar 
 
 | Ação de componente | Descrição |
 |--- |--- |
-| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos |
-| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
-| Aprovar | Aprove o componente para torná-lo canônico. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos |
+| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos |
+| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Aprovar | Aprove o componente para torná-lo canônico. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos |
 | Compartilhar | Aplica-se somente a segmentos. |
 | Excluir | Aplica-se somente a segmentos. |
 
