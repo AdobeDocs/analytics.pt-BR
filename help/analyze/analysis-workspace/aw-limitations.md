@@ -1,7 +1,7 @@
 ---
-description: Lista de limitações conhecidas na Adobe Analysis Workspace e seus componentes relacionados
+description: Lista de limitações conhecidas do Adobe Analysis Workspace e dos componentes relacionados a ele
 title: Limitações conhecidas do Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,26 +29,26 @@ Veja a seguir uma lista de limitações conhecidas do Analysis Workspace e seus 
 
 * Comparação de segmentos: o segmento [!UICONTROL Todos os outros] não será criado se um modelo de segmento for usado na zona de soltar inicial.
 
-## Componentes &gt; Segmentos
+## Componentes > Segmentos
 
 * Determinadas métricas e dimensões não são segmentáveis, como [!UICONTROL Ocorrências], [!UICONTROL Visitantes únicos], etc.
-* Determinados componentes e operadores não estarão disponíveis se um segmento for criado do Workspace (em vez de ser criado a partir de [!UICONTROL Componentes &gt; Segmentos]). Por exemplo, Endereço IP.
+* Determinados componentes e operadores não estarão disponíveis se um segmento for criado do Workspace (em vez de ser criado a partir de [!UICONTROL Componentes > Segmentos]). Por exemplo, Endereço IP.
 
-## Componentes &gt; Métricas calculadas
+## Componentes > Métricas calculadas
 
 * As Métricas calculadas não podem ser usadas em determinadas visualizações. Consulte o tópico “Visualizações” acima.
 * Métricas calculadas não podem ser usadas no painel [!UICONTROL Atribuição], já que podem incluir modelos de atribuição separados.
-* Determinados componentes e operadores não estarão disponíveis se uma métrica calculada for criada do Workspace (em vez de ser criada a partir de [!UICONTROL Componentes &gt; Segmentos]). Por exemplo, [!UICONTROL Endereço IP].
+* Determinados componentes e operadores não estarão disponíveis se uma métrica calculada for criada do Workspace (em vez de ser criada a partir de [!UICONTROL Componentes > Segmentos]). Por exemplo, [!UICONTROL Endereço IP].
 
-## Componentes &gt; Intervalos de datas
+## Componentes > Intervalos de datas
 
 * Os intervalos de datas personalizados não são compatíveis com [!UICONTROL Este dia no ano passado], [!UICONTROL Este dia no mês passado], etc.
 
-## Componentes &gt; Conjuntos de relatórios virtuais
+## Componentes > Conjuntos de relatórios virtuais
 
 * Quando o processamento de tempo do relatório está ativado, determinados componentes não são compatíveis. Para obter uma lista completa, consulte [Processamento de tempo do relatório](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componentes &gt; Configurações de relatório
+## Componentes > Configurações de relatório
 
 * Algumas das configurações na página [!UICONTROL Configurações do relatório] não se aplicam. O Analysis Workspace usa somente as configurações [!UICONTROL Idioma/Moeda/Codificação] na parte inferior: [!UICONTROL Separador de milhares], [!UICONTROL Codificação do relatório agendado] e [!UICONTROL Caractere separador CSV].
 
