@@ -28,7 +28,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
 
    Os números circulados, na área em cinza da barra, apresentam o fallout entre os pontos de contato (e não o fallout geral daquele ponto). A % de pontos de contato apresenta o fallthrough bem-sucedido da etapa anterior na etapa atual do relatório de fallout.
 
-   É possível adicionar uma única página ao relatório de fallout, ao invés de uma dimensão inteira. Clique a seta da direita "&gt;" na dimensão da página para selecionar a página específica a ser adicionada no relatório de fallout.
+   É possível adicionar uma única página ao relatório de fallout, ao invés de uma dimensão inteira. Clique a seta da direita &quot;>&quot; na dimensão da página para selecionar a página específica a ser adicionada no relatório de fallout.
 
 1. Continue a adicionar pontos de contato até concluir a sequência.
 
