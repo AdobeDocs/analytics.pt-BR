@@ -68,7 +68,7 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como restringir o acesso à Análise de contribuição?</b> </p> </td> 
-   <td colname="col2"> <p>Por padrão, somente os administradores têm acesso para executar Análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a>. É importante dar permissão de uso para a Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e está em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
+   <td colname="col2"> <p>Por padrão, somente os administradores têm acesso para executar Análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a>. É importante dar permissão de uso para a Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e está em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como posso saber a quantos tokens minha empresa tem direito por mês e quantos já usamos no mês atual?</b> </p> </td> 
@@ -116,12 +116,12 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3"> <p>20 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+Worbench preditivo </p> </td> 
+   <td colname="col1"> <p>+Predictive Workbench </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Padrão </p> 
+   <td colname="col1"> <p>Standard </p> 
     <ul id="ul_73D52020793B44868C9CE0F90893075D"> 
      <li id="li_21EE0871C87E43C8B781219B2BA0FA74">Adobe Analytics Core </li> 
      <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
@@ -131,12 +131,12 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3"> <p>2 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (360, Atribuição) </p> </td> 
+   <td colname="col1"> <p>Premium (360, Attribution) </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>2 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Completo, <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/predictive-intelligence.html"  >Inteligência preditiva</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 
