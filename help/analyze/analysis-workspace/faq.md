@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Quais são os requisitos de administração e acesso para o Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Consulte  <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Requisitos de administração</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte   <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Requisitos de administração</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quantos conjuntos de relatórios podem ser exibidos em um projeto do Analysis Workspace? </p> </td> 
