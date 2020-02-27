@@ -21,9 +21,9 @@ Acesse o Criador de alertas de uma das seguintes formas:
 * Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Acessando **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Novo alerta]**.
+* Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]**.
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
-* A partir de um relatório do Reports &amp; Analytics, acessando **[!UICONTROL Mais]** &gt; **[!UICONTROL Adicionar alerta]**.
+* A partir de um relatório do Reports &amp; Analytics, acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
 
 ## Criar alertas
 
