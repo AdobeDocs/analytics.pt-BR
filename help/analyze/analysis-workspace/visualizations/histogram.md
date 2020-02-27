@@ -46,7 +46,7 @@ Para ajustar as configurações do histograma, clique no ícone de Configuraçõ
 
 ## Exibir e editar os dados do histograma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Para exibir ou alterar a fonte de dados do gráfico de histograma, clique no ponto ao lado do cabeçalho do Histograma para acessar **[!UICONTROL Configurações da fonte de dados]** &gt; **[!UICONTROL Mostrar fonte de dados]**.
+Para exibir ou alterar a fonte de dados do gráfico de histograma, clique no ponto ao lado do cabeçalho do Histograma para acessar **[!UICONTROL Configurações de fonte de dados]** > **[!UICONTROL Mostrar fonte de dados]**.
 
 ![](assets/manage-data-source.png)
 
