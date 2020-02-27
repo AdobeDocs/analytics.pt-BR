@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Visão geral de curadoria/compartilhamento
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,17 +16,17 @@ A preparação permite limitar os componentes antes de compartilhar um projeto. 
 
 **Vídeo de visão geral**
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+>[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Prepara dados do projeto]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**
 
 ## Preparar dados do projeto
 
 1. Especifique a permissão para criar e preparar os projetos.
 
-   Antes de criar e preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um [grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) que tenha a permissão **[!UICONTROL Acesso ao Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Grupos]**).
+   Antes de criar e preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um [grupo](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html) que tenha a permissão **[!UICONTROL Acesso ao Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento do usuário]** > **[!UICONTROL Grupos]**).
 
-1. [Crie e salve](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) um projeto e clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Preparar dados do projeto]**.
+1. [Crie e salve](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) um projeto, em seguida, clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
 1. Arraste os componentes que você deseja compartilhar da pilha de componentes arrastáveis à esquerda do campo **[!UICONTROL Componentes preparados]**.
 
    ![](assets/curated-components.png)
@@ -43,7 +43,7 @@ O projeto resultante se comporta como um projeto típico no Analysis Workspace, 
 
 O compartilhamento disponibiliza esse projeto para outros usuários do Analysis Workspace em sua organização. Qualquer preparação realizada aparecerá quando outras pessoas usarem o projeto.
 
-1. Após preparar os componentes de um relatório, clique em **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Compartilhar projeto]**.
+1. Após preparar os componentes de um relatório, clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar projeto]**.
 
    ![](assets/share_component.png)
 
