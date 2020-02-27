@@ -16,7 +16,7 @@ Esta visualização mostra barras horizontais que representam vários valores de
 
 ![](assets/horizontal_bar.png)
 
-## Barra horizontal empilhada  {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barra horizontal empilhada   {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Esta visualização se parece com o [!UICONTROL Gráfico de barra horizontal], mas as barras de série aparecem empilhadas.
 
