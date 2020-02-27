@@ -16,7 +16,7 @@ O Painel em branco e o Painel de forma livre são para análises iniciais, e Att
 
 O painel inicial padrão é o Painel de forma livre, mas também é possível definir o [Painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) como o padrão.
 
-## Filtros suspensos em painéis  {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtros suspensos em painéis   {#section_D2828EEDD52944528E87F470EAB581CF}
 
 A área de soltar do painel agora tem recursos suspensos de filtragem. Esses filtros permitem interagir com os dados do projeto de forma controlada para fazer análises mais detalhadas, simplificar seus projetos e/ou compartilhar insights com outras pessoas.
 
