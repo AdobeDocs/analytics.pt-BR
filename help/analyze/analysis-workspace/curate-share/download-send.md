@@ -19,10 +19,10 @@ O nome do arquivo PDF ou CSV corresponde ao nome atual do projeto. Para projetos
 > [!NOTE] Quando renderizamos um projeto para PDF, somente incluímos o que está na página. Se um projeto tiver visualizações e painéis com tamanhos personalizados, é necessário alterá-los para terem tamanhos automáticos (botão no canto superior direito) para que não haja truncamento de conteúdo.
 
 1. Criar ou abrir um projeto.
-1. Clique em **[!UICONTROL Projeto]** &gt; **[!UICONTROL Baixar CSV (ou Baixar PDF).]**
+1. Clique em **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV (ou PDF).]**
 
 Em 11 de abril de 2019, foram feitas várias alterações nos **[!CSV downloads]** (e em **[!CCopiar para área de transferência]**) do Analysis Workspace para remover a formatação dos dados exportados.
-* O separador de milhares já não está incluído. (Além disso, o separador decimal continuará a ser incluído, e vai aderir ao formato definido em **[!UICONTROL Componentes &gt; Configurações de relatórios &gt; Separador de milhar]**).
+* O separador de milhares já não está incluído. (Além disso, o separador decimal continuará a ser incluído, e vai aderir ao formato definido em **[!UICONTROL Componentes > Configurações de relatórios > Separador de milhar]**).
 * Nenhum símbolo de moeda é exibido.
 * Nenhum símbolo de porcentagem é exibido.
 * As porcentagens estão em formato decimal. Por exemplo, 75% é representado como 0,75.
