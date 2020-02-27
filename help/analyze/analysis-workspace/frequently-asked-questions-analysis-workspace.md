@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Requisitos de administração
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ Requisitos de sistema para o Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Usuários </td> 
-   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
+   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html"  >Grupos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferência de projetos </td> 
