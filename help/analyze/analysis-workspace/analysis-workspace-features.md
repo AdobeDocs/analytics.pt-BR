@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Visão geral do Analysis Workspace
+title: Analysis Workspace   visão geral
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Vídeo de visão geral {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -71,7 +71,7 @@ Caso tenha painéis ou visualizações recolhidos no projeto, clique no link par
 
 ## Vincular a outros projetos {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-É possível vincular usuários a outros projetos que podem ser de interesse deles. Para fazê-lo, acesse **[!UICONTROL Compartilhar]** &gt; **[!UICONTROL Obter link do projeto]** e incorpore esse link às descrições do projeto, por exemplo.
+É possível vincular usuários a outros projetos que podem ser de interesse deles. Para isso, acesse **[!UICONTROL Compartilhar]** > **[!UICONTROL Obter link do projeto]** e incorpore esse link às descrições do projeto, por exemplo.
 
 ## Visualização dinâmica de células selecionadas {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -85,11 +85,11 @@ O bloqueio de visualizações permite controlar quais fontes da tabela de dados 
 
 ![](assets/manage-data-source.png)
 
-Consulte [Gerenciar fontes de dados](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+Consulte  [Gerenciar fontes de dados](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Visualizações de tendências a partir de células selecionadas {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Crie uma visualização a partir células selecionadas. (Clique com o botão direito em &gt; **[!UICONTROL Colocar seleção em tendência]**.)
+Crie uma visualização a partir células selecionadas. (Clique com o botão direito em > **[!UICONTROL Colocar seleção em tendência]**.)
 
 ![](assets/trend-selection.png)
 
@@ -123,7 +123,7 @@ Consulte  [Segmentos](/help/analyze/analysis-workspace/components/t-freeform-pro
 
 Você pode aplicar tags aos projetos e componentes no Analysis Workspace:
 
-* Aplique ou crie tags no nível do projeto, no painel Informações. (![](assets/information_icon.png)
+* Aplique ou crie tags no nível do projeto, no painel Informações ![](assets/information_icon.png).
 
 * Clique com o botão direito do mouse nos componentes para marcá-los (ou crie tags) no painel Componentes.
 * Use # no campo de Pesquisa para localizar as tags.
@@ -134,13 +134,13 @@ Execute ações no nível dos componentes no menu Ações, na parte superior do 
 
 | Ação de componente | Descrição |
 |--- |--- |
-| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
-| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
-| Aprovar | Aprove o componente para torná-lo canônico. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics &gt; Componentes &gt; Segmentos, ou Analytics &gt; Componentes &gt; Projetos. |
+| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Aprovar | Aprove o componente para torná-lo canônico. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
 | Compartilhar | Aplica-se somente a segmentos. |
 | Excluir | Aplica-se somente a segmentos. |
 
-Consulte [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mais informações.
+Consulte  [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mais informações.
 
 ## Descrições adicionais destacadas {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -163,7 +163,7 @@ Não há limite técnico para o número de tabelas de forma livre e visualizaç�
 * Classifique as predefinições do intervalo de datas (não inclui os intervalos de datas personalizados).
 * Pressione CTRL (ou Command) + clique, para arrastar uma coluna e copiá-la, e ao arrastar a cópia, ela é colada na nova posição na tabela.
 
-Consulte [Teclas de atalho disponíveis no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter mais informações.
+Consulte  [Teclas de atalho disponíveis no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter mais informações.
 
 **Seleções e ações**
 
@@ -187,4 +187,4 @@ Um segmento padrão exclusivo do Analysis Workspace. *`All Visits`* é um recurs
 
 Use os cálculos da mesma forma que você usa as métricas padrão.
 
-Consulte [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Consulte [Métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/).
