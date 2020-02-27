@@ -14,7 +14,7 @@ As visualizações de Fallout oferecem mais opções para criar relatórios de f
 
 As visualizações de fallout permitem
 
-* Fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório.
+* Fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório
 * Arrastar, soltar e reorganizar as etapas do funil (pontos de contato)
 * Combinar valores de diferentes dimensões e métricas
 * Criar um relatório de fallout multidimensional
