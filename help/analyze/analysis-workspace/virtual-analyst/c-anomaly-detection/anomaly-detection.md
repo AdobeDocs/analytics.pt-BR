@@ -20,7 +20,7 @@ Você pode ver e analisar anomalias de dados de forma contextual no Analysis Wor
 
 A Detecção de anomalias oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
 
-A Detecção de anomalias permite separar os "sinais verdadeiros" do "barulho" e identificar possíveis fatores que contribuem para os sinais ou as anomalias. Em outras palavras, ele permite identificar quais flutuações estatísticas importam ou não. Assim, você pode identificar a causa raiz de uma verdadeira anomalia. Além disso, é possível obter previsões de métrica confiáveis (KPI).
+A Detecção de anomalias permite separar os &quot;sinais verdadeiros&quot; do &quot;barulho&quot; e identificar possíveis fatores que contribuem para os sinais ou as anomalias. Em outras palavras, ele permite identificar quais flutuações estatísticas importam ou não. Assim, você pode identificar a causa raiz de uma verdadeira anomalia. Além disso, é possível obter previsões de métrica confiáveis (KPI).
 
 Exemplos de anomalias que você pode investigar incluem:
 
