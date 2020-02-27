@@ -40,4 +40,4 @@ Por padrão, o diagrama mostra os cinco fluxos principais. Se clicar no nó **[!
 
 Não há limites para explorar o diagrama de Fluxo.
 
-Além disso, é possível exportar e analisar mais profundamente o diagrama de Fluxo como parte de um arquivo .CSV de um projeto. Basta acessar **[!UICONTROL Projeto]** &gt; **[!UICONTROL Baixar CSV]**.
+Além disso, é possível exportar e analisar posteriormente o diagrama de Fluxo como parte de um arquivo .CSV de um projeto. Basta ir até **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**.
