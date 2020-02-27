@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Configurações Desfazer e Refazer
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL [projeto]]** &gt; **[!UICONTROL Desfazer/Refazer]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Desfazer/Refazer]**
 
 * A opção **[!UICONTROL Refazer]** (para refazer uma ação desfeita) pode ser encontrada no menu **[!UICONTROL Editar]**.
 
