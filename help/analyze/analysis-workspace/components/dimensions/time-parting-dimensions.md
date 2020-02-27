@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Dimensões de separação de tempo
 
-A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como "Horas do dia" ou "Dias de semana".
+A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como &quot;Horas do dia&quot; ou &quot;Dias de semana&quot;.
 
 As dimensões de separação de tempo são baseadas no fuso horário do conjunto de relatórios ou do conjunto de relatórios virtual. Essas dimensões estão disponíveis no Analysis Workspace e podem ajudar nas seguintes questões:
 
