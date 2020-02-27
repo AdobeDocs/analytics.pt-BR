@@ -20,6 +20,6 @@ Você tem 3 opções ao alternar a densidade da exibição com os botões de op�
 
 Para definir a densidade da exibição:
 
-1. No Workspace, vá para **[!UICONTROL Projetos]** &gt; **[!UICONTROL Informações e configurações do projeto]**.
+1. No Workspace, navegue até **[!UICONTROL Projetos]** > **[!UICONTROL Informações e configurações do projeto]**.
 
 1. Selecione entre as 3 opções descritas acima e clique em **[!UICONTROL Salvar]**.
