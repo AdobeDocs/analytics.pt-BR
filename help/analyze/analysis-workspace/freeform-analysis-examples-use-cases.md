@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casos de uso do Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Você pode realizar uma pesquisa direta em todos os seus dados para responder a 
 * Analise o dia com o dia seguinte para comparar as colunas ou linhas e analisar o crescimento através de várias métricas.
 * Faça uma consulta simples, como rejeições por dimensão.
 
-## Exemplo de varejo {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
+## Exemplo de varejo   {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
 
 Suponha que você é um analista de marketing de um revendedor de equipamentos para atividades externas e está encarregado de examinar o desempenho de uma promoção recente de Ação de Graças e fazer recomendações sobre como melhorar as campanhas no local. Este exemplo mostra como você pode comparar os dados de receita da campanha para diferentes segmentos e adicionar detalhamentos na campanha ainda mais específicos.
 
@@ -57,5 +57,5 @@ Suponha que você é um analista de marketing de um revendedor de equipamentos p
 
    Você já dividiu os dados de uma forma que possa resultar em recomendações e vendas cruzadas, para que as suas equipes de merchandising implementem em outras campanhas e alcancem ainda mais receita para sua empresa. Você pode fazer outros detalhamentos até que consiga obter os resultados que deseja.
 
-   Agora é possível [compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md) o relatório com as equipes de merchandising.
+   Agora é possível   [compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md) o relatório com as equipes de merchandising.
 
