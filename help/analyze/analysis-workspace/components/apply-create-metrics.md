@@ -18,7 +18,7 @@ Há duas formas de utilizar as métricas no Analysis Workspace.
 
 > [!NOTE] Embora seja aparentemente simples, o uso das métricas é potente. É possível adicionar métricas a um relatório arrastando a métrica apropriada para a seção de métricas de uma tabela. Também é possível detalhar dimensões por métricas, fornecendo controle detalhado sobre a exibição da tabela. Além disso, você pode inserir uma métrica como uma dimensão e uma dimensão como uma métrica para criar um relatório de horas extras. Teste os vários componentes e veja o que você pode fazer. As possibilidades são infinitas.
 
-Ou clique em **[!UICONTROL Componentes]** &gt; **[!UICONTROL Nova métrica]**. Você será redirecionado para o [Criador de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/), que permite criar métricas personalizadas a partir das existentes.
+Ou clique em **[!UICONTROL Componentes]** > **[!UICONTROL Nova métrica]**. Você será redirecionado para o [Criador de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/), que permite criar métricas personalizadas a partir das existentes.
 
 Para facilitar a criação rápida de métricas calculadas, a opção **[!UICONTROL Criar métrica a partir da seleção]** foi adicionada ao menu da coluna exibida quando clicamos com o botão direito do mouse nas Tabelas de forma livre. Essa opção é exibida quando uma ou mais células de coluna de cabeçalho são selecionadas.
 
