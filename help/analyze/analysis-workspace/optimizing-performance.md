@@ -18,8 +18,8 @@ Segmentos intricados podem ter um impacto significativo no desempenho do projeto
 
 * Operadores de “contém”, “contém qualquer um de”, “corresponde”, “começa com” ou “termina com”
 * Segmentação sequencial, especialmente quando restrições de dimensão (Dentro/Depois de) são usadas
-* Número de itens de dimensão exclusivos em dimensões usadas no segmento (por exemplo, Página = 'A' quando a Página tem 10 itens exclusivos será mais rápida que a Página = 'A' quando a Página tiver 100000 itens exclusivos)
-* O número de diferentes dimensões usadas (por exemplo, Página = 'Página inicial' e Página = 'Resultados da pesquisa') será mais rápido que eVar 1 = 'vermelho' e eVar 2 = 'azul')
+* Número de itens de dimensão exclusivos em dimensões usadas no segmento (por exemplo, Página = &#39;A&#39; quando a Página tem 10 itens exclusivos será mais rápida que a Página = &#39;A&#39; quando a Página tiver 100000 itens exclusivos)
+* O número de diferentes dimensões usadas (por exemplo, Página = &#39;Página inicial&#39; e Página = &#39;Resultados da pesquisa&#39;) será mais rápido que eVar 1 = &#39;vermelho&#39; e eVar 2 = &#39;azul&#39;)
 * Muitos operadores OR (em vez de AND)
 * Contêineres aninhados que variam no escopo (por exemplo, “Ocorrência” dentro de “Visita” dentro de “Visitante”)
 
@@ -28,8 +28,8 @@ Segmentos intricados podem ter um impacto significativo no desempenho do projeto
 Embora alguns dos fatores de complexidade não possam ser evitados, pense em oportunidades para reduzir a complexidade de seus segmentos. Em geral, quanto mais específico você puder ser com os critérios do seu segmento, melhor. Por exemplo:
 
 * Com contêineres, usar um só contêiner na parte superior do segmento será mais rápido que uma série de contêineres aninhados.
-* Com operadores, "igual" será mais rápido que "contém" e "igual a qualquer um" será mais rápido que "contém qualquer um".
-* Com muitos critérios, operadores AND serão mais rápidos que uma série de operadores OR. Além disso, procure oportunidades para reduzir muitas declarações OR em uma única declaração "igual a qualquer uma".
+* Com operadores, &quot;igual&quot; será mais rápido que &quot;contém&quot; e &quot;igual a qualquer um&quot; será mais rápido que &quot;contém qualquer um&quot;.
+* Com muitos critérios, operadores AND serão mais rápidos que uma série de operadores OR. Além disso, procure oportunidades para reduzir muitas declarações OR em uma única declaração &quot;igual a qualquer uma&quot;.
 
 Além disso, as [classificações](/help/components/c-classifications2/c-classifications.md) podem ajudar a consolidar muitos valores em grupos concisos a partir dos quais você pode criar segmentos. A segmentação nos grupos de classificação oferece benefícios de desempenho em segmentos com muitas instruções OR ou com o critério “contém”.
 
