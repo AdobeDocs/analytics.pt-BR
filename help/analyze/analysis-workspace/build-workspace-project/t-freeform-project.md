@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar um projeto do Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) ao painel de forma livre.
 
-Esse artigo explica os elementos da interface do Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para o Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Esse artigo explica os elementos da interface do Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os   [Casos de uso para o Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Crie um projeto
 
 1. Especifique a permissão de usuário para criar e preparar os projetos.
 
-   Antes de criar ou preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos no Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Antes de criar ou preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos no Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento do usuário]** > [Grupos](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html)).
 
-1. Na [!DNL Experience Cloud], clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. Na [!DNL Experience Cloud], clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -70,7 +70,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Painel de forma livre</a> </td> 
-   <td colname="col2"> <p>A tela ou a espaço de trabalho com a qual você interage no Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>A tela ou a Workspace com a qual você interage no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte  <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
