@@ -18,7 +18,7 @@ Você pode passar o mouse sobre os segmentos para visualizar as porcentagens, et
 
 ![](assets/venn_hover.png)
 
-Para transformar o diagrama de Venn em uma Tabela de forma livre, clique no ponto colorido ao lado do título **[!UICONTROL Venn]** e selecione **[!UICONTROL Gerenciar fontes de dados]** &gt; **[!UICONTROL Fontes de dados disponíveis]** &gt; **[!UICONTROL Tabela de forma livre]**.
+Para transformar o diagrama Venn em uma tabela de forma livre, clique no ponto colorido ao lado do cabeçalho **[!UICONTROL Venn]** e selecione **[!UICONTROL Gerenciar fontes de dados]** > **[!UICONTROL Fontes de dados disponíveis]** > **[!UICONTROL Tabela de forma livre]**.
 
 Para normalizar o diagrama de Venn (extrair o tamanho), vá até o ícone Configurações de visualização e selecione **[!UICONTROL Normalização]**.
 
