@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gerenciar fontes de dados
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,10 +38,10 @@ Essa arquitetura difere da anterior no sentido de que o Analysis Workspace já n
 
 * É possível criar uma visualização de resumo e bloqueá-la a uma célula na tabela a partir da qual você a criou. Ao ativar a opção “Exibir fonte de dados”, ela mostra exatamente de onde vem a informação na tabela. Os dados de origem aparecerão em cinza:
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png)>
 * É possível adicionar várias visualizações e extraí-las de diferentes células na mesma tabela, como mostrado abaixo. A tabela é igual à mostrada no exemplo acima, mas a célula extraída e a métrica são diferentes:
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png)>
 * Você pode ver se há visualizações conectadas a uma tabela de forma livre ou tabela coorte ao clicar no ponto esquerdo superior (Configurações da fonte de dados). Passar o mouse destacará a visualização vinculada e clicar nela levará você para o link especificado.
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png)>
