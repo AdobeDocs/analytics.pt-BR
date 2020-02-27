@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar projeto - visão geral
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Criar projeto - visão geral
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 Você pode criar um projeto robusto do Analytics com base em uma combinação de exibições, componentes de relatórios e tabelas de dados. Ele adiciona muitos dos recursos do criador de tabelas da Ad Hoc Analysis ao Analytics.
 
@@ -20,9 +20,9 @@ No Analysis Workspace, você pode comparar e examinar os dados de maneiras que n
 
 A consulta vai diretamente para o mecanismo de relatórios. É possível fazer alterações em linha com outros relatórios para criar a sua análise. Os resultados retornam imediatamente, sem nenhuma atualização do navegador.
 
-## Página da lista de projetos da Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Página da lista de projetos da Workspace   {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Na primeira vez que você acessa **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, a página lista todos os projetos que você possui ou aos quais tem acesso. Para definir essa página como a página de aterrissagem do Adobe Analytics, clique em **[!UICONTROL Definir como página de aterrissagem]**. (Se você não encontrar essa opção, como na captura de tela abaixo, ela já é sua página inicial).
+Na primeira vez que for até **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, a página listará todos os projetos que você possuir ou aos quais tiver acesso. Para definir essa página como a página de aterrissagem do Adobe Analytics, clique em **[!UICONTROL Definir como página de aterrissagem]**. (Se você não encontrar essa opção, como na captura de tela abaixo, ela já é sua página inicial).
 
 ![](assets/sample-project.png)
 
@@ -30,18 +30,18 @@ A página da lista de projeto do Workspace contém as informações a seguir:
 
 | Elemento | Descrição |
 |---|---|
-| Projeto [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Você pode usar esses modelos de projeto pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome. |
+| Projeto   [Modelos](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Você pode usar esses modelos de projeto pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome. |
 | [Criar novo projeto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Clique nesse link para criar um novo projeto a partir do zero. |
-| Gerenciar projetos | Clicar nesse link o direciona para o Gerenciador de componentes de projetos (**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes**] &gt; **[!UICONTROL Projetos]**), que lista todos os projetos e permite marcar, compartilhar, excluir, renomear, aprovar e exportar projetos em formato CSV. |
+| Gerenciar projetos | Clicar nesse link o direciona para o Gerenciador de componentes de projetos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Projetos]**), que lista todos os projetos e permite marcar, compartilhar, excluir, renomear, aprovar e exportar projetos para CSV. |
 | Exibir tutoriais | O direciona para os [vídeos no YouTube do Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nome | Nome do projeto do Workspace. |
 | Criado por | A pessoa que criou o projeto (você ou alguém que compartilhou o projeto com você.) |
-| Tags | As tags aplicadas ao projeto, no Gerenciador de componentes de projetos, ou em **[!UICONTROL Workspace]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Informações e configurações do projeto]**. |
+| Tags | As tags aplicadas ao projeto, no Gerenciador de componentes de projetos, ou em **[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**. |
 | Última modificação | Data e hora em que o projeto foi modificado pela última vez. |
 
 ## Informações e configurações do projeto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Informações e configurações do projeto]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**
 
 ![](assets/projectinfo.png)
 
@@ -49,7 +49,7 @@ A página da lista de projeto do Workspace contém as informações a seguir:
 
 | Configuração | Descrição |
 |---|---|
-| Nome do projeto | O nome fornecido ao projeto. Você pode clicar duas vezes no nome para editá-lo. |
+| Projeto   Nome | O nome fornecido ao projeto. Você pode clicar duas vezes no nome para editá-lo. |
 | Criado por | Nome do proprietário do projeto |
 | Última modificação | Data da última modificação do projeto. |
 | Tags | Lista qualquer tag aplicada a um projeto para classificar com mais facilidade. Além disso, também é possível adicionar tags a projetos ao salvá-los. Exiba as tags de um projeto na Página inicial do Workspace na coluna [!UICONTROL Tags]. |
@@ -80,7 +80,7 @@ O submenu contém as seguintes opções.
 | Baixar o PDF* |  |  |  |  |  |
 | Informações e configurações do projeto |  |  |  |  |  |
 
-## Trilho da esquerda {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## Trilho da esquerda   {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 O painel da esquerda tem 3 ícones, que permitem acessar os Painéis, as [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e os [Componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (Dimensões, Métricas, Segmentos, Intervalos de data) com um clique:
 
