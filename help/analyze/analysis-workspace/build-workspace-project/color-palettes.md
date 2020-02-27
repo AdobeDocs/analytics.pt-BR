@@ -23,7 +23,7 @@ Lembre-se:
 
 ## Para alterar a paleta de cores:
 
-1. Acesse **[!UICONTROL Workspace]** &gt; **[!UICONTROL Projeto]** &gt; **[!UICONTROL Informações e configurações do projeto]**.
+1. Navegue até **[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**.
 1. No menu suspenso **[!UICONTROL Paleta de cores do projeto]** você pode escolher um dos cinco esquemas de cores predefinidos.
 
    ![](assets/custom_palette.png)
