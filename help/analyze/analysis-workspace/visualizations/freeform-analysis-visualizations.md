@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Visão geral das visualizações
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Saiba mais sobre visualizações e configurações de exibição no Analysis Workspace.
 
-[Tipos de visualização do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Tipos de visualização do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Painel Visualizações {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Para acessar as [!UICONTROL Configurações de visualização], arraste uma visu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalização </p> </td> 
-   <td colname="col2"> <p>Força as métricas para proporções iguais. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalização</a>. </p> </td> 
+   <td colname="col2"> <p>Força as métricas para proporções iguais. Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/normalization.html"  > Normalização</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exibir eixo duplo </p> </td> 
@@ -77,13 +77,13 @@ Para acessar as [!UICONTROL Configurações de visualização], arraste uma visu
  </tbody> 
 </table>
 
-## Ícone “Criar visual”{#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Ícone “Criar visual” {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
 Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[!UICONTROL Criar visual]** em qualquer linha da tabela. Este ícone será exibido quando você passar o mouse sobre a linha do gráfico. Ao clicar no ícone, o Analysis Workspace é exibido e recomenda uma visualização que se adequaria ao seus dados. Por exemplo, se você tem até três segmentos selecionados, criará um diagrama Venn. Para mais de três segmentos, criará um gráfico de barras. Para outros tipos de dados, ele pode criar um gráfico de linhas, etc.
 
 ![](assets/create-visual.png)
 
-## Menu de visualização/painel após clicar com o botão direito{#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Menu de visualização/painel após clicar com o botão direito {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Configurações contextuais a um gráfico podem ser acessadas ao clicar com o botão direito próximo ao cabeçalho de uma visualização ou painel. Algumas ou todas as seguintes configurações estarão disponíveis:
 
@@ -98,7 +98,7 @@ Configurações contextuais a um gráfico podem ser acessadas ao clicar com o bo
 | Recolher todas as visualizações no Painel | Recolhe todas as visualizações nesse painel do projeto. |
 | Expandir todos os painéis | Expande todos os painéis do projeto. |
 | Expandir todas as visualizações no Painel | Expande todas as visualizações nesse painel do projeto. |
-| Editar descrição | Adicione (ou edite) uma descrição de texto para a visualização/painel. Esta descrição é exibida em Projeto &gt; Informações e configurações do projeto. |
+| Editar descrição | Adicione (ou edite) uma descrição de texto para a visualização/painel. Esta descrição é exibida em Projeto > Informações e configurações do projeto. |
 | Obter link do painel | Permite direcionar alguém a um painel específico em um projeto. |
 | Obter link da visualização | Permite copiar e compartilhar este link para direcionar outros usuários para esta visualização. Os usuários serão solicitados a fazer logon. |
 | Recomeçar | (Funciona para Fluxo, Venn, Histograma) Exclui a configuração para a visualização atual e abre um novo painel, no qual você pode reconfigurá-la. |
@@ -119,4 +119,4 @@ Para editar uma etiqueta de legenda em um gráfico de Linha, por exemplo,
 1. Digite o texto do novo rótulo.
 1. Pressione **[!UICONTROL Enter]** para salvar.
 
-Temos um [vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre esse tópico.
+Temos um [vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre esse tópico.
