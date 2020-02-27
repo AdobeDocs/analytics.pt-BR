@@ -16,7 +16,7 @@ O Analysis Workspace traz muito da funcionalidade da Ad Hoc Analysis para o flux
 
 Para uma comparação técnica dos principais recursos e requisitos de sistema entre estes dois produtos, clique [aqui](https://marketing.adobe.com/resources/help/pt_BR/reference/analytics-product-comparison.html).
 
-## Comparação da terminologia principal  {#section_6109406B83B043A18E46D38F130B1D2E}
+## Comparação da terminologia principal   {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -24,17 +24,17 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
 | Workspace | Painel |
 | Relatório | Tabela de forma livre |
 | Gráficos | Visualização |
-| Hierarquia: Projeto &gt; Workspace &gt; Relatórios | Hierarquia: Projeto &gt; Painéis &gt; Tabelas |
+| Hierarquia: Projeto > Workspace > Relatórios | Hierarquia: Projeto > Painéis > Tabelas |
 | Modelos classificados, com tendência e de relatórios de totais | Visualização de tabela de forma livre |
 | Modelo de fluxo | Visualização de fluxo |
 | Fallout | Visualização da fallout |
 
-## Comparação de tarefas principais  {#section_F31446F1DFA742D794A30D713E223440}
+## Comparação de tarefas principais   {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis  Tarefa </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis   Tarefa </th> 
    <th colname="col2" class="entry"> Tarefa de análise do Analysis Workspace </th> 
   </tr>
  </thead>
@@ -72,7 +72,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">O fallout pode abranger uma visita ou um visitante, e “Todas as visitas” pode ser incluído opcionalmente. O fallout pode rapidamente ser colocado em tendência por meio do menu que é aberto ao clicar com o botão direito do mouse. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Os itens dimensionais podem ser conectados por um operador OR (similar aos grupos) e os eventos podem ser utilizados no funil. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">As próxima etapas de fallthrough e fallout também podem ser renderizadas por meio do menu do botão direito do mouse. </li> 
-    </ol> <p>Além disso, o fallout no Analysis Workspace permite  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensões variadas</a> nas etapas, um aprimoramento na Ad Hoc Analysis. As dimensões variadas das etapas são tratadas por um operador AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: fallout e funis</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: utilizar dimensões de fallout múltiplas</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: comparar segmentos no fallout</a> </p> </td> 
+    </ol> <p>Além disso, o fallout no Analysis Workspace permite   <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensões variadas</a> nas etapas, um aprimoramento na Ad Hoc Analysis. As dimensões variadas das etapas são tratadas por um operador AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: fallout e funis</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: utilizar dimensões de fallout múltiplas</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: comparar segmentos no fallout</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examinar fluxo (caminhos) </p> </td> 
@@ -80,7 +80,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">O fluxo pode abranger uma visita ou visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">As principais estatísticas são apresentadas em termos de % de visualizações de caminho. </li> 
-    </ul> <p>Além disso, o fluxo permite  <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensões variadas</a> e a capacidade de clicar com o botão direito do mouse e criar um segmento, uma melhoria em relação à Ad Hoc Analysis. </p> <p>Atualmente, o fluxo no Analysis Workspace <b>não pode</b>: </p> 
+    </ul> <p>Além disso, o fluxo permite   <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensões variadas</a> e a capacidade de clicar com o botão direito do mouse e criar um segmento, uma melhoria em relação à Ad Hoc Analysis. </p> <p>Atualmente, o fluxo no Analysis Workspace <b>não pode</b>: </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Desligar instâncias repetidas. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Permitir que os usuários escolham um evento bem-sucedido. </li> 
