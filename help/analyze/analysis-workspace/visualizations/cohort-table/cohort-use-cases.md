@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casos de uso da análise de coorte
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Você pode criar uma análise de coorte de seis meses
 
 **Métrica de retorno**: sessões ou inicializações
 
-Os visitantes não contam como *`engaged`* nos meses seguintes, a menos que tenham uma sessão ou, pelo menos, inicializem o aplicativo. A análise de coorte mostraria padrões de uso em que *`App Install`* sempre ocorre no Mês 0. Você pode notar que o uso diminui no Mês 2, independentemente de quando os usuários instalaram o aplicativo. (Para os usuários que instalaram o aplicativo em janeiro de 2015, o Mês 2 é março de 2015. Para aqueles que instalaram o aplicativo em fevereiro de 2015, o Mês 2 é abril de 2015 e, assim por diante.) Essa análise permite que você envie um email ou uma mensagem automática para todos os usuários durante o segundo mês após a instalação para lembrá-los de usar o aplicativo.
+Os visitantes não contam como   *`engaged`* nos meses seguintes, a menos que tenham uma sessão ou, pelo menos, inicializem o aplicativo. A análise de coorte mostraria padrões de uso em que *`App Install`* sempre ocorre no Mês 0. Você pode notar que o uso diminui no Mês 2, independentemente de quando os usuários instalaram o aplicativo. (Para os usuários que instalaram o aplicativo em janeiro de 2015, o Mês 2 é março de 2015. Para aqueles que instalaram o aplicativo em fevereiro de 2015, o Mês 2 é abril de 2015 e, assim por diante.) Essa análise permite que você envie um email ou uma mensagem automática para todos os usuários durante o segundo mês após a instalação para lembrá-los de usar o aplicativo.
 
 ## Caso de uso de assinatura {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
