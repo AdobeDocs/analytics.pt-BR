@@ -28,6 +28,6 @@ Ele permite:
 
 Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte em uma área para adicioná-la ao diagrama.
 
-## Exportar diagramas de fluxo como parte dos arquivos .CSV do projeto  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exportar diagramas de fluxo como parte dos arquivos .CSV do projeto   {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Os diagramas de fluxo são parte de um arquivo .CSV do projeto que podem ser criados em **[!UICONTROL Projeto]** &gt; **[!UICONTROL Baixar CSV]**. Essa ação permite analisar os resultados de Fluxo no Microsoft Excel (exibidos como uma tabela) ou em outro lugar.
+Os diagramas de fluxo são parte de um arquivo .CSV do projeto que podem ser criados ao acessar **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**. Essa ação permite analisar os resultados de Fluxo no Microsoft Excel (exibidos como uma tabela) ou em outro lugar.
