@@ -5,7 +5,7 @@ title: Gerenciador do painel
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 92eaaeafdd587febcfe7fe60f696baca0691b4bc
 
 ---
 
@@ -22,13 +22,13 @@ Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar 
 
 Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar a entrega de painéis.
 
-Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]**.
+Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | Elemento | Descrição |
 |--- |--- |
 | Compartilhado | Mostra se o painel é compartilhado. |
 | Programado | Permite programar a entrega do painel. |
-| Visualizar Arquivo | Permite a exibição do arquivo do painel. Essa funcionalidade não estará mais disponível em janeiro de 2020. |
+| Visualizar Arquivo | Essa funcionalidade não está mais disponível. |
 | Encaminhar para Usuários | Permite que você compartilhe um painel. |
 | Gerenciar | Permite que você edite, copie e exclua um painel. |
 
@@ -36,8 +36,8 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 Etapas que descrevem como usar as opções de gerenciamento de painel compartilhadas.
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]**.
-1. Em [!UICONTROL Painéis compartilhados], encontre o painel compartilhado (ou painel herdado) você deseja gerenciar e escolher um ou mais das seguintes opções:
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -46,7 +46,7 @@ Etapas que descrevem como usar as opções de gerenciamento de painel compartilh
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Visualizar Arquivo</strong></td> 
-  <td class="chdesc stentry"> Permite exibir o arquivo de relatórios para o painel compartilhado, se um arquivo existe. </td> 
+  <td class="chdesc stentry"> Essa funcionalidade não está mais disponível. </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Reprodutor do painel</strong></td> 
@@ -78,8 +78,8 @@ Ao copiar o painel legado, o sistema abre o painel para edição, onde você pod
 
 **Para migrar de uma versão de painel legado 14.x**
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
-1. Na coluna [!UICONTROL Gerenciar], em [!UICONTROL Painéis legados]**, clique em[!UICONTROL Copiar para novo painel]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
+1. Na [!UICONTROL Manage] coluna, em [!UICONTROL Legacy Dashboards], clique em **[!UICONTROL Copy to New Dashboard]**.
 
    O painel copiado será aberto no editor de layout de painel. 
 
@@ -87,22 +87,22 @@ Ao copiar o painel legado, o sistema abre o painel para edição, onde você pod
 
 ## Compartilhar um painel
 
-Etapas que descrevem como um administrador pode compartilhar (ou promover) um painel para vários usuários. Ao fazer o push de painéis para os usuários, os painéis ficam disponíveis no menu [!UICONTROL Painéis compartilhados] do usuário.
+Etapas que descrevem como um administrador pode compartilhar (ou promover) um painel para vários usuários. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
-1. No [!UICONTROL Gerenciador de painel]**, localize o painel e, em seguida, habilite a opção[!UICONTROL Compartilhado]**.
-1. Clique em **[!UICONTROL Encaminhar para usuários]**.  ![](assets/push.png)
+1. No [!UICONTROL Dashboard Manager], localize o painel e ative **[!UICONTROL Shared]**.
+1. Clique em **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
-1. Na página [!UICONTROL Encaminhar painel], selecione os usuários de destino ou clique em **[!UICONTROL Marcar tudo]**.
-1. Clique em **[!UICONTROL Salvar]**.
+1. Na [!UICONTROL Push Dashboard] página, selecione os usuários de destino ou clique em **[!UICONTROL Check All]**.
+1. Clique em **[!UICONTROL Save]**.
 
-Se alterado, os usuários do seu painel não poderão visualizar as alterações realizadas. Verifique seu Gerenciador de painel para ver se os usuários selecionaram a opção **[!UICONTROL Copiar-me].** Em caso afirmativo, eles não poderão visualizar as atualizações/alterações realizadas por você. Para visualizar todas as alterações/atualizações, os usuários compartilhados precisam selecionar a opção **[!UICONTROL No Menu]no Gerenciador de painel.**
+If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. Em caso afirmativo, eles não poderão visualizar as atualizações/alterações realizadas por você. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
 
 ## Programar um painel para entrega
 
-No [!UICONTROL Gerenciador de painéis], você pode verificar se um painel está agendado para entrega e editar o agendamento. As opções de entrega do painel são idênticas às opções de entrega do relatório.
+In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. As opções de entrega do painel são idênticas às opções de entrega do relatório.
 
 1. Abra um painel.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
+1. Clique em **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
@@ -113,8 +113,8 @@ No [!UICONTROL Gerenciador de painéis], você pode verificar se um painel está
 Etapas que descrevem como arquivar qualquer painel enviado como um arquivo PDF. O sistema armazena o arquivo armazenado por dois anos, ou até atingir o limite máximo de 4 GB de relatórios arquivados.
 
 1. Abra um painel.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
-1. No grupo [!UICONTROL Relatório de email]**, habilite a opção[!UICONTROL Arquivar]**.
-1. Especifique as opções de entrega e, em seguida, clique em **[!UICONTROL Enviar]**.
+1. Clique em **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. No [!UICONTROL Email Report] grupo, ative **[!UICONTROL Archive]**.
+1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   Você pode visualizar painéis arquivados no Gerenciador de painel. Alternatively, open a dashboard and click **[!UICONTROL More]** &gt; **[!UICONTROL View Archive]**.
+   Você pode visualizar painéis arquivados no Gerenciador de painel. Como alternativa, abra um painel e clique em **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
