@@ -1,8 +1,8 @@
 ---
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ O item de linha “Nenhum” é um item “catch-all” (global) que representa 
 
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
-Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
+Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
 
 **Posso usar uma janela de retrospectiva personalizada com meus modelos de atribuição?**
 
@@ -56,13 +56,9 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 * Visitas únicas à página
 * Acesso único
 
-**Em que a atribuição no Analysis Workspace difere da atribuição no Data Workbench?**
+**Posso usar uma janela de retrospectiva personalizada com meus modelos de atribuição?**
 
-O Data Workbench oferece de maneira crescente:
-
-* A habilidade de atribuir em mais fontes de dados ao nível do visitante, como impressões de anúncios e pontos de venda.
-* Modelagem algorítmica. A atribuição no Analysis Workspace inclui apenas modelos baseados em regras. Consulte [Modelagem de melhor ajuste](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) no guia do usuário do Data Workbench.
-* Visualizações adicionais, como tabelas de latência. Consulte [Tabelas de latência](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) no guia do usuário do Data Workbench.
+Sim, usando a opção da janela de pesquisa personalizada, as janelas de pesquisa podem ser configuradas para qualquer intervalo de datas até 90 dias antes da janela de relatório. Consulte [Processamento de tempo do relatório](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obter mais informações.
 
 **A atribuição funciona com classificações?**
 
