@@ -3,7 +3,7 @@ description: Etapas que descrevem como os administradores podem ativar o acesso 
 title: Adicionar grupo de usuários do Data Warehouse
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para um grupo de usuários.
 
-1. Clique em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; **[!UICONTROL Gerenciamento de usuários]**.
-1. Click **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL Add New User Group]**.
-1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. Fornecer as seguintes informações do grupo:
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Editar grupos]**.
+1. Clique em **[!UICONTROL Adicionar novo grupo de usuários]**.
+1. Na seção **[!UICONTROL Definir grupo de usuários]**, digite um nome no campo Nome do grupo. Fornecer as seguintes informações do grupo:
 
    Por exemplo, `Data Warehouse Access`.
-1. Type a description in the **[!UICONTROL Group Description]** field.
-1. Na seção **Acesso ao report suite**, selecione os report suites aos quais você deseja que os membros do grupo tenham acesso.
-1. Em [!UICONTROL Ferramentas]**, ative[!UICONTROL Todas as ferramentas]**.
+1. Digite uma descrição no campo **[!UICONTROL Descrição do grupo.]**
+1. Na seção **[!UICONTROL Acesso ao conjunto de relatórios]**, selecione os conjuntos de relatórios aos quais você deseja que os membros do grupo tenham acesso.
+1. Em [!UICONTROL Ferramentas], ative **[!UICONTROL Todas as ferramentas]**.
 
    Como opção, clique em **[!UICONTROL Personalizar]** e ative **[!UICONTROL Personalizar o relatório do Data Warehouse]**.
 
@@ -32,7 +32,7 @@ Etapas que descrevem como os administradores podem ativar o acesso aos relatóri
 
    >[!NOTE]
    >
-   >Em caso de permissões conflitantes (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
+   >No caso de permissões em conflito (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
 
 >[!MORELIKETHIS]
 >
