@@ -15,7 +15,7 @@ Acesse o gerenciamento de trabalhos do feed de dados seguindo estas etapas:
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Clique no menu de 9 linhas na parte superior direita e em [!UICONTROL Analytics].
-3. No menu superior, clique em [!UICONTROL Administração] &gt; [!UICONTROL Feeds de dados].
+3. No menu superior, clique em [!UICONTROL Administração] > [!UICONTROL Feeds de dados].
 4. Clique na guia Trabalhos perto da parte superior.
 
 ![Menu do feed de dados](assets/AdminMenu.png)
