@@ -3,7 +3,7 @@ description: Essa seção apresenta informações sobre problemas comuns.
 keywords: Data Feed;troubleshooting
 title: Solução de problemas dos feeds de dados
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ O AWS também possibilita que um usuário crie objetos em um bucket que pertence
 
 ## Falhas de transferência {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Se houver uma falha de transferência no FTP (logon negado, conexão perdida, extraquota, etc.), a Adobe tenta automaticamente se conectar e faz até três tentativas de envio de dados. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
+Se houver uma falha de transferência no FTP (logon negado, conexão perdida, fora da cota, etc.), a Adobe tenta automaticamente se conectar e faz até três tentativas de envio de dados. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
 
 No caso de falha na transferência, você pode executar uma tarefa novamente até que seja concluída com sucesso.
 
@@ -45,15 +45,15 @@ Depois de verificar/corrigir o problema de entrega, execute novamente o trabalho
 
 ## Impacto do horário de verão nos feeds de dados por hora {#section_70E867D942054DD09048E027A9474FFD}
 
-Em alguns fusos horários, o tempo será alterado duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 02h00).
+Em alguns fusos horários, o tempo será alterado duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 02:00).
 
-Ao fazer transições de horário padrão -&gt; horário de verão ("Spring Forward", primavera em diante), o cliente obterá apenas 23 arquivos. O horário saltado na transição do horário de verão é simplesmente omitido. Por exemplo, se a transição ocorrer às 02h00, eles terão um arquivo às 01h00 e um arquivo às 03h00. Não haverá arquivo às 02h00, visto que o horário padrão de 02h00 torna-se o horário de verão de 03h00.
+Ao fazer as transições de horário padrão -> horário de verão (“Spring Forward”, primavera em diante), o cliente obterá somente 23 arquivos. O horário saltado na transição do horário de verão é simplesmente omitido. Por exemplo, se a transição ocorrer às 2:00, os clientes obterão um arquivo a 1:00 e outro às 3:00. Não haverá arquivo às 2:00, visto que o horário padrão de 2:00 torna-se o horário de verão de 3:00.
 
-Ao fazer transições de horário padrão -&gt; horário padrão, ("Fall Back"), o cliente receberá 24 arquivos. No entanto, a hora de transição incluirá dados com o valor de 2 horas. Por exemplo, se a transição ocorrer às 02h00, o arquivo para 01h00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 01h00 as 02h00 do horário padrão (que teria sido 03h00 do horário de verão). O arquivo a seguir começará às 02h00 do horário padrão.
+Ao fazer as transições de horário de verão -> horário padrão, (“Fall Back”, outono para trás), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a 2 horas de dados. Por exemplo, se a transição ocorrer às 2:00, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 1:00 às 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O arquivo a seguir começará às 2:00 do horário padrão.
 
 ## Sem dados por um período de tempo {#section_72510794694D42A9A75C966B812AEB0F}
 
-É possível optar por configurar o feed de dados para entregar um arquivo manifest se não houver dados coletados por um período específico. Se ativar essa opção, você receberá um arquivo manifest semelhante ao seguinte:
+É possível optar por configurar o feed de dados para entregar um arquivo de manifesto se não houver dados coletados por um período específico. Se ativar essa opção, você receberá um arquivo de manifesto semelhante ao seguinte:
 
 ```text
 Datafeed-Manifest-Version: 1.0
@@ -64,7 +64,7 @@ Datafeed-Manifest-Version: 1.0
 
 ## Não há informações de domínio para relatório de domínio {#section_B7508D65370442C7A314EAED711A2C75}
 
-Algumas operadoras de dispositivos móveis (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Sendo assim, os dados não estão disponíveis para relatório de domínio.
+Algumas operadoras de celular (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Sendo assim, os dados não estão disponíveis para relatório de domínio.
 
 ## Visão geral do processamento de dados {#section_6346328F8D8848A7B81474229481D404}
 
