@@ -3,7 +3,7 @@ description: O FTP ativo vs. FTP passivo controla a maneira como as conexões da
 keywords: ftp;sftp
 title: Usar o modo FTP passivo
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
