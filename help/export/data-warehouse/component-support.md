@@ -1,7 +1,7 @@
 ---
 title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
 
 ---
@@ -27,7 +27,7 @@ Algumas dimensões e métricas podem ser usadas no Data Warehouse, enquanto não
 * Visitas: Essa métrica no contexto do Data Warehouse exclui visitas de cookies não persistentes.
 * Visitas - Todos os visitantes: Essa métrica no contexto do Data Warehouse tem mais paridade com a métrica de visitas em outras ferramentas do Adobe Analytics.
 
-## Componentes não suportados no Data Warehouse
+## Componentes não compatíveis com o Data Warehouse
 
 Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
@@ -58,7 +58,7 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 * Toda a classificação da página de pesquisa
 * Variáveis de hierarquia
 * Tipo de ocorrência
-* Páginas não encontradas (disponível como uma dimensão); não suportado para segmentação)
+* Páginas não encontradas (disponível como uma dimensão; não suportado para segmentação)
 * Pesquisa paga
 * Visitas únicas à página
 * Motivo da desativação do rastreamento
@@ -72,4 +72,4 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Saídas
    * Recargas
    * Único Acesso
-   * Métricas de 'Tempo gasto'
+   * Métricas de ‘tempo gasto’
