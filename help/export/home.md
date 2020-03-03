@@ -11,7 +11,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![Banner](../../assets/doc_banner_export.png)
 
-Este guia descreve maeiras de retirar dados do Adobe Analytics. O serviço inclui:
+Este guia descreve maneiras de retirar dados do Adobe Analytics. O serviço inclui:
 
 * **Feeds de dados:** receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Os feeds de dados geralmente são enviados para sites FTP.
 * **Data Warehouse:** ese um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e de valores únicos.
