@@ -3,7 +3,7 @@ description: Configuração e uso de contas FTP hospedadas pela Adobe.
 keywords: ftp;sftp
 title: Configurar contas FTP - visão geral
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,6 +21,6 @@ Os clientes da Adobe recebem notificações de manutenção por meio do processo
 * Os usuários devem remover da conta FTP os dados entregues pela Adobe assim que eles forem transferidos com sucesso para seus sistemas.
 * Informe à Adobe quando as contas FTP não forem mais necessárias para que elas possam ser desativadas.
 
-The Adobe FTP host name is [!DNL ftp.omniture.com] or [!DNL ftp2.omniture.com].
+O nome de hospedagem da Adobe é [!DNL ftp.omniture.com] ou [!DNL ftp2.omniture.com]ftp.
 
-This information, along with a username and password, should be provided either within the [!UICONTROL Experience Cloud] (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. Se você não sabe qual endereço FTP deve usar, entre em contato com seu Gerente de contas da Adobe e ele fornecerá o endereço correto. Além disso, para contas de classificações e fontes de dados, não há um horário específico para o processamento dos arquivos FTP. A Adobe usa um script que pesquisa constantemente as contas FTP atrás de um novo processamento de arquivos. Os arquivos enviados para estas contas são processados o mais rápido possível.
+Esta informação, assim como o nome de usuário e a senha, deve ser fornecida dentro da [!UICONTROL Experience Cloud] (para classificações e fontes de dados) ou pelo representante da Adobe responsável pela configuração da conta, conforme sua solicitação. Se você não sabe qual endereço FTP deve usar, entre em contato com seu Gerente de contas da Adobe e ele fornecerá o endereço correto. Além disso, para contas de classificações e fontes de dados, não há um horário específico para o processamento dos arquivos FTP. A Adobe usa um script que pesquisa constantemente as contas FTP atrás de um novo processamento de arquivos. Os arquivos enviados para estas contas são processados o mais rápido possível.
