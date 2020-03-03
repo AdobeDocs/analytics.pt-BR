@@ -3,7 +3,7 @@ description: Instruções para configurar a transferência segura com os servido
 keywords: ftp;sftp
 title: Conexão com uma conta FTP da Adobe com SFTP
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,14 +22,14 @@ Instruções para configurar a transferência segura com os servidores FTP da Ad
 
    Se você está em um ambiente Windows, use puttyGen para criar as chaves.
 
-1. Create a file named [!DNL authorized_keys] (no extension).
-1. Copy the contents of the Public key into [!DNL authorized_keys].
-1. Upload [!DNL authorized_keys] to an FTP account:
+1. Crie um arquivo com o nome [!DNL authorized_keys] (sem extensão).
+1. Copie o conteúdo da chave pública para [!DNL authorized_keys].
+1. Faça upload de [!DNL authorized_keys] para uma conta FTP:
 
    * Conecte-se a uma conta FTP da Adobe.
-   * Create a [!DNL .ssh] directory (if it does not already exist).
-   * Upload the [!DNL authorized_keys] file to the [!DNL .ssh] directory.
+   * Crie um diretório [!DNL .ssh] (caso ele ainda não exista).
+   * Faça upload do arquivo [!DNL authorized_keys] para o diretório [!DNL .ssh].
 
-1. Teste a conexão fazendo logon na conta FTP usando SFTP.
+1. Faça logon em uma conta FTP com o SFTP para testar a conexão.
 
-[Para obter informações mais detalhadas, consulte ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)Como se conectar à Adobe via sFTP sem uma senha_....
+Para informações mais detalhadas, consulte [Como conectar aà Adobe por SFTP sem senha_...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
