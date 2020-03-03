@@ -3,7 +3,7 @@ description: A política de FTP da Adobe desativa o acesso a contas FTP que perm
 keywords: ftp;sftp
 title: Excluir dados e contas FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 A política de FTP da Adobe desativa o acesso a contas FTP que permaneceram inativas por 90 dias consecutivos.
 
-Em seguida, a Adobe remove as contas FTP desativadas (e remove permanentemente todos os dados armazenados nessas contas) após um período de carência de 90 dias. Por exemplo, uma conta FTP que permanece inativa por 90 dias (de 5 de julho de 2012 a 2 de outubro de 2012) será desativada no dia 3 de outubro de 2012 e completamente removida no dia 2 de janeiro de 2013.
+Em seguida, a Adobe remove as contas FTP desativadas (e remove permanentemente todos os dados armazenados nessas contas) após um período de carência de 90 dias. Por exemplo, uma conta FTP que permanece inativa por 90 dias (de 5 de julho de 2012 a 2 de outubro de 2012) será desativada no dia 3 de outubro de 2012. e completamente removida no dia 2 de janeiro de 2013.
 
 Nenhuma conta é desativada antes do dia 5 de outubro de 2012 e nenhuma conta é removida antes do dia 2 de janeiro de 2013.
 
