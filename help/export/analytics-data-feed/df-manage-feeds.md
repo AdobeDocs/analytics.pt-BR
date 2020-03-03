@@ -15,7 +15,7 @@ Acesse o gerenciamento do feed de dados seguindo estas etapas:
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Clique no menu de 9 linhas na parte superior direita e em [!UICONTROL Analytics].
-3. No menu superior, clique em [!UICONTROL Administração] &gt; [!UICONTROL Feeds de dados].
+3. No menu superior, clique em [!UICONTROL Administração] > [!UICONTROL Feeds de dados].
 
 ![Menu do feed de dados](assets/AdminMenu.png)
 
@@ -68,7 +68,7 @@ Cada feed criado mostra várias colunas fornecendo informações sobre ele. Cliq
    * Excluído: o feed é excluído.
    * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
    * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
-   * Inativo: equivalente a um estado "pausado" ou "em espera". Quando o feed é reativado, ele reinicia a entrega de trabalhos a partir de onde parou.
+   * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Quando o feed é reativado, ele reinicia a entrega de trabalhos a partir de onde parou.
 * **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
 * **Data de início**: a data do primeiro trabalho para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
 * **Data final**: a data do último trabalho para este feed. Os feeds de dados em andamento não têm uma data de término.
