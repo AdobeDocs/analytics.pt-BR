@@ -3,7 +3,7 @@ description: Os dados coletados em sites, aplicativos móveis ou carregados por 
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Visão geral do feed de dados do Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -56,10 +56,10 @@ Certifique-se de atender a todos os requisitos a seguir antes de usar os feeds d
 
 Depois de entender o fluxo de trabalho básico de obtenção dos feeds de dados, você pode trabalhar com as equipes na organização para armazenar ou assimilar dados brutos em um banco de dados.
 
-* [Criar um feed](create-feed.md)de dados: Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
+* [Criar um feed de dados](create-feed.md): Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
 * [Gerenciar feeds](df-manage-feeds.md)de dados: Saiba mais sobre como navegar na interface do feed de dados
-* [Conteúdo](c-df-contents/datafeeds-contents.md)do feed de dados: Entenda o que está dentro do arquivo compactado
-* [Definições](c-df-contents/datafeeds-reference.md)da coluna de dados: Uma lista abrangente de todas as colunas disponíveis
+* [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): Entenda o que está dentro do arquivo compactado
+* [Definições de coluna de dados](c-df-contents/datafeeds-reference.md): Uma lista abrangente de todas as colunas disponíveis
 
 ## Recursos adicionais
 
