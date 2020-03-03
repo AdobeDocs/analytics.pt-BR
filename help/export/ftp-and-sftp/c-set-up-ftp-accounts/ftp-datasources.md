@@ -3,7 +3,7 @@ description: É possível usar o Analytics para criar e gerenciar fontes de dado
 keywords: ftp;sftp
 title: Fontes de dados
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,11 +23,11 @@ Para mais informações sobre os limites FTP e retenção de dados, consulte [Li
 
 ## Informações sobre o arquivo .fin para uploads de classificações e fontes de dados {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. Ele tem o objetivo de informar ao sistema que o arquivo de dados foi enviado com sucesso para a conta FTP. The [!DNL .fin] file lets Adobe recognize that you are done with your import. Após enviá-lo, a Adobe remove ambos os arquivos do FTP e começa a processar a importação.
+Ao fazer upload de um arquivo de classificação ou [!UICONTROL Fonte de dados] ( [!DNL .tab] ou [!DNL .txt]) o upload também exige que você faça um upload de um arquivo vazio com o mesmo nome do arquivo de dados a ser importado, mas com extensão [!DNL .fin]. Este arquivo [!DNL .fin] é um arquivo de finalização. Ele tem o objetivo de informar ao sistema que o arquivo de dados foi enviado com sucesso para a conta FTP. O arquivo [!DNL .fin] permite que a Adobe reconheça que a importação foi finalizada. Após enviá-lo, a Adobe remove ambos os arquivos do FTP e começa a processar a importação.
 Importar arquivo: [!DNL Classifications.tab]
 
 Arquivo de finalização: [!DNL Classifications.fin]
 
-If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. Você será notificado sobre isso caso tenha inserido seu endereço de email como o [!UICONTROL destinatário de notificações] na janela [!UICONTROL Criar conta FTP] do relatório. Se nenhum endereço de email for inserido neste campo, nenhuma notificação será enviada.
+Se você fizer upload de suas fontes de dados ou do arquivo SAINT sem um arquivo de acompanhamento [!DNL .fin], a Adobe não colocará o arquivo ou as fontes de dados na fila para processamento. O arquivo permanece no FTP e não é aplicado aos seus dados na [!UICONTROL Experience Cloud]. Você será notificado sobre isso caso tenha inserido seu endereço de email como o [!UICONTROL destinatário de notificações] na janela [!UICONTROL Criar conta FTP] do relatório. Se nenhum endereço de e-mail for inserido neste campo, nenhuma notificação será enviada.
 
-If you do upload your file with a [!DNL .fin] file, but there is an error in the file, it is submitted for processing, but the error causes the processing to cease and the file to be sent to an error folder. Se isto acontecer, uma notificação será enviada para o endereço de email listado no campo [!UICONTROL destinatário de notificações] na janela [!UICONTROL Criar conta FTP]. Se nenhum endereço de email for inserido, as notificações não serão enviadas.
+Caso tenha realizado o upload do seu arquivo com um arquivo [!DNL .fin], mas ele tenha alertado sobre um erro, ele será enviado para o processamento; contudo, esse erro fará com que o processo seja interrompido e o arquivo será enviado para uma pasta de erros. Se isto acontecer, uma notificação será enviada para o endereço de e-mail listado no campo [!UICONTROL destinatário de notificações] na janela [!UICONTROL Criar conta FTP]. Se nenhum endereço de email for inserido, as notificações não serão enviadas.
