@@ -3,7 +3,7 @@ description: Data Warehouse refere-se à cópia dos dados do Analytics para fins
 title: Visão geral do Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única
 
 >[!IMPORTANT]
 >
->Ao segmentar em valores classificados, a Analysis Workspace e o Data Warehouse tratam os valores "não especificados" de forma diferente. “Não especificado” na Analysis Workspace refere-se a valores que não estão classificados, enquanto “Não especificado” no Data Warehouse refere-se a valores que você classificou como “Não especificado”.
+>Ao segmentar em valores classificados, a Analysis Workspace e o Data Warehouse tratam valores “não especificados” de maneira diferente. “Não especificado” na Analysis Workspace refere-se a valores que não estão classificados, enquanto “Não especificado” no Data Warehouse refere-se a valores que você classificou como “Não especificado”.
 
 ## Descrições de solicitações de Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
