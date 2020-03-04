@@ -41,7 +41,7 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 
 * **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
 
-* **** Janela de pesquisa personalizada: Permite expandir a janela de atribuição além do intervalo de datas do relatório até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período de relatório. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
+* **Janela de pesquisa personalizada:** Permite expandir a janela de atribuição além do intervalo de datas do relatório até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período de relatório. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
 ## Exemplo
 
