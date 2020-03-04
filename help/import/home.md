@@ -1,8 +1,8 @@
 ---
 title: Ada de importação do Analytics
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Ada de importação do Analytics
+translation-type: tm+mt
+source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 
 ---
 
@@ -23,7 +23,7 @@ Este guia explica como inserir dados no Analytics. O serviço inclui:
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
+* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
