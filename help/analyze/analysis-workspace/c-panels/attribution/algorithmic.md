@@ -22,4 +22,4 @@ Em um nível alto, o cálculo de atribuição do crédito de conversão para cad
 
 * Harsanyi, John C. &quot;Um modelo de negociação simplificado para o jogo cooperativo n-pessoalmente.&quot; International Economic Review 4.2 (1963): 194-220.
 
-*Observação: O resultado da atribuição algorítmica só difere de outros modelos quando existem vários pontos de contato dentro da janela de pesquisa. Por exemplo, com apenas um ponto de contato, 100% do crédito será alocado para esse valor independentemente do modelo de atribuição selecionado.*
+*Observação: O resultado da atribuição algorítmica só difere de outros modelos quando existem vários pontos de contato dentro da janela de pesquisa. Por exemplo, com apenas um único ponto de contato, 100% do crédito será alocado para esse valor independentemente do modelo de atribuição selecionado.*
