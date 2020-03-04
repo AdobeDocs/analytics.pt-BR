@@ -45,7 +45,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [Configurar contas FTP - visão geral](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificações](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Fontes de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
+      + [Conectores de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Feeds de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Relatórios entregues de Ad Hoc Analysis](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Relatórios entregues do Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
