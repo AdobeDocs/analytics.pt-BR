@@ -16,7 +16,7 @@ Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar 
 
 >[!IMPORTANT]
 >
->A prática recomendada ao usar o Gerenciador de painel é ter no máximo 300 painéis para qualquer usuário. Além disso, observe que o gerente carrega todos os painéis compartilhados abaixo, portanto, seja criterioso em compartilhar painéis.
+>A prática recomendada ao usar o Gerenciador de painel é ter no máximo 300 painéis para qualquer usuário. Além disso, observe que o gerente carrega todos os painéis compartilhados abaixo, portanto, seja criterioso com o compartilhamento de painéis.
 
 ## Gerenciador do painel
 
