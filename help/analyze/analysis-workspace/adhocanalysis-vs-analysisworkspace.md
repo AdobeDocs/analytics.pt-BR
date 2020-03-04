@@ -2,8 +2,8 @@
 description: Compara a terminologia e a as tarefas da Ad Hoc Analysis com o Analysis Workspace.
 title: Comparação entre Analysis Workspace e Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Compara a terminologia e a as tarefas da Ad Hoc Analysis com o Analysis Workspac
 
 O Analysis Workspace traz muito da funcionalidade da Ad Hoc Analysis para o fluxo de trabalho do navegador. Enquanto a terminologia e os recursos continuam os mesmos dentre os produtos, há alguns termos e abordagens novas no Analysis Workspace.
 
-Para uma comparação técnica dos principais recursos e requisitos de sistema entre estes dois produtos, clique [aqui](https://marketing.adobe.com/resources/help/pt_BR/reference/analytics-product-comparison.html).
+Para uma comparação técnica dos principais recursos e requisitos de sistema entre estes dois produtos, clique [aqui](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
 
 ## Comparação da terminologia principal   {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +100,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >Attribution IQ</a> no Analysis Workspace permite que você adicione vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. </p> </td> 
+   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >Attribution IQ</a> no Analysis Workspace permite que você adicione vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Não incluído </p> </td> 
