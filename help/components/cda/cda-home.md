@@ -2,7 +2,7 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics altera os dados que passam de focados em dispositivos para focados em pessoas, ao compilar os dados do dispositivo.
 translation-type: tm+mt
-source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
+source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
 
 ---
 
@@ -33,9 +33,9 @@ A partir de setembro de 2019, o Cross-Device Analytics exige o seguinte. Trabalh
 * Entre em contato com o Gerente de conta de sua organização para estabelecer estes pontos-chave:
    * Um contrato deve ser assinado com a Adobe incluindo o Adobe Analytics Ultimate.
    * Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) no guia do usuário do cooperativo do dispositivo.
-   * Sua organização deve concordar em permitir que a Adobe processe e armazene os dados do Analytics nos servidores do Microsoft Azure. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação de dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e a presença da Adobe no Microsoft Azure.
+   * De um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Cross-Device Analytics. A Adobe usa o Azure para armazenar dados de gráficos de dispositivos e executar a identificação entre dispositivos. Dessa forma, os dados do Adobe Analytics são passados para frente e para trás entre o data center da Adobe e as instâncias provisionadas pela Adobe do Microsoft Azure.
 * O Cross-Device Analytics é ativada com base no conjunto de relatórios. Os conjuntos de relatórios que foram habilitados para CDA exigem o seguinte:
-   * O conjunto de relatórios não pode ter mais de 100 milhões de ocorrências por dia. Esse limiar aumentará nos próximos meses.
+   * O conjunto de relatórios não pode ter mais de 500 milhões de ocorrências por dia.
    * A Adobe recomenda que um conjunto de relatórios contenha dados entre dispositivos, ou seja, dados de vários tipos de dispositivos (Web, aplicativo, etc). Algumas organizações se referem a esse conceito como um conjunto de relatórios &quot;global&quot;, embora o CDA não precise ser rigorosamente global de uma perspectiva geográfica. O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
 * Sua implementação deve atender os seguintes requisitos:
    * A versão mais recente do Serviço da Experience Cloud ID deve ser implantada. Consulte a [Página inicial](https://docs.adobe.com/content/help/en/id-service/using/home.html) no guia do usuário do Serviço de identidade da Experience Cloud. Provavelmente, a maioria das implementações que usam o Adobe Experience Platform Launch já implantou a ECID.
