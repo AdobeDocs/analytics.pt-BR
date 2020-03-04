@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
@@ -85,8 +85,8 @@ source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
          + [Atribuição algorítmica](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
       + Comparação de segmentos {#segment-comparison}
-         + [Visão geral da IQ de segmento](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Casos de uso da IQ de segmento](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Prepare ou compartilhe projetos {#curate-share}
       + [Visão geral de curadoria/compartilhamento](analysis-workspace/curate-share/curate.md)
