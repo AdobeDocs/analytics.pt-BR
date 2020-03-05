@@ -2,7 +2,7 @@
 description: 'null'
 title: Solução de problemas do Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Solução de problemas do Advertising Analytics
 
 * [Não vejo meu conjunto de relatórios na seção de Mapeamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Ocorre um erro ao autenticar na conta do Google Adwords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Ocorre um erro ao autenticar para a conta do Google AdWords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios].** Há dois motivos possíveis:
+Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios]**. Há dois motivos possíveis:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -26,7 +26,7 @@ Você está tentando [configurar uma nova conta publicitária](/help/integrate/c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a Experience Cloud Org ID do usuário de logon. </p> </td> 
+   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon de usuário. </p> </td> 
    <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >Mapear conjuntos de relatórios para uma organização</a> para obter instruções. </p> </td> 
   </tr> 
   <tr> 
