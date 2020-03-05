@@ -2,7 +2,7 @@
 description: Algumas métricas de visitante do Adobe Analytics e do Adobe Audience Manager apresentam definições semelhantes, mas não são 100% alinhadas por vários motivos.
 title: Diferenças na contagem de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,11 +23,11 @@ As métricas de visitante são:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: preenchimento total de segmentos</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento total de segmentos</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento e acessaram suas propriedades durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -65,9 +65,9 @@ Preenchimento de segmentos do AAM em tempo real e Visitantes do Analytics com Ex
   <tr> 
    <td colname="col1"> <p>Limite de 150 segmentos </p> </td> 
    <td colname="col2"> <p>Não </p> </td> 
-   <td colname="col3"> <p>Sim - as contagens do Analytics podem ser afetadas em até 5% pelo limite de integração de 150 segmentos. O "Limite de público-alvo atingido" aparecerá na dimensão Nome de público-alvo se houver truncamento. </p> </td> 
+   <td colname="col3"> <p>Sim - as contagens do Analytics podem ser afetadas em até 5% pelo limite de integração de 150 segmentos. Caso haja truncamento, a mensagem “Limite de público-alvo atingido” será exibida na dimensão Nome de público-alvo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+Consulte [Entendendo os segmentos no Analytics e no Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) para explicações adicionais sobre as nuances entre os dados e a segmentação do Analytics e do Audience Manager.
