@@ -2,7 +2,7 @@
 description: 'null'
 title: Gerenciar contas publicitárias
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Gerenciar contas publicitárias
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+É possível acessar a interface do usuário de gerenciamento navegando até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Ações</b> </p> </td> 
-   <td colname="col2"> <p><b>Observação: As ações são exibidas somente se você tiver selecionado pelo menos uma conta de publicidade. </b> </p> </td> 
+   <td colname="col2"> <p><b>Observação: as ações são exibidas somente se tiver selecionado pelo menos uma conta publicitária. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Adicionar </p> </td> 
