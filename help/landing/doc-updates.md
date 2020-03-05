@@ -1,9 +1,9 @@
 ---
-title: Atualizações de documentação do Adobe Analytics
-description: Atualizações de documentação técnica do Adobe Analytics
+title: Atualizações de documentação técnica do Adobe Analytics
+description: Atualizações notáveis no repositório de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -20,6 +20,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 |---|---|
+| 25 de fevereiro de 2020 | Variável adicionada. [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) |
+| 18 de fevereiro de 2020 | Variável adicionada. [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação Canais de [marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 7 de fevereiro de 2020 | Atualizações para [configurar análises](../components/cda/cda-setup.md) entre dispositivos e [perguntas frequentes](../components/cda/cda-faq.md) |
 | 4 de fevereiro de 2020 | Substituição completa do guia [do usuário da](../implement/home.md)Implementação. |
