@@ -2,7 +2,7 @@
 description: 'null'
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
-   <td colname="col2"> <p>R: Não, esta funcionalidade está disponível para aqueles que não são clientes do Advertising Cloud e AMO. </p> <p>Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Adversiting Analytics. </p> </td> 
+   <td colname="col1"> <p>P: Preciso ser um <b>cliente do Adobe Advertising Cloud ou do Adobe Media Optimizer (AMO)</b> para acessar esta funcionalidade? </p> </td> 
+   <td colname="col2"> <p>R: Não, esta funcionalidade está disponível para aqueles que não são clientes do Advertising Cloud e AMO. </p> <p>Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Advertising Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Quais <b>SKUs do Adobe Analytics</b> dão direito ao uso do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> e <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html"  >Select</a>, <a href="https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html"  >Prime</a> e <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É necessário <b>fazer um pagamento adicional</b> para usar o Advertising Analytics? </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Usar o Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Usar o Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Estou tentando <b>mapear minhas contas do Advertising Analytics para um conjunto de relatórios específico</b>, mas não essa opção está disponível no modo Conjunto de relatórios. Por quê? </p> </td> 
-   <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >provisionado para os relatórios do Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >provisionado para os relatórios do Advertising Analytics </a>. </p> <p>Isso é feito por meio de uma página de Admin separada, acessível em: <span class="ignoretag"> <span class="uicontrol"> Administração </span>  &gt; <span class="uicontrol"> Conjunto de relatórios </span>  &gt; <span class="uicontrol"> [selecione o conjunto de relatórios habilitado para Experience Cloud] </span>  &gt; <span class="uicontrol"> Editar configurações </span>  &gt; <span class="uicontrol"> Configurações do Advertising Analytics  </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É possível atribuir um <b>Conjunto de relatórios virtual</b> (VRS) a uma conta do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, então não é possível mapear diretamente uma conta do Advertising Analytics para um VRS. </p> <p>Contudo, é possível mapear a conta do Advertising Analytics para o conjunto de relatórios principal do VRS no qual deseja ver os dados. </p> <p>As métricas de Mecanismo de pesquisa (clique/custo/impressões) podem não aparecer no VRS, a menos que você inclua uma condição "ou" na lógica do segmento com base na ID da AMO (ou em sua classificação). Exemplo: A adição de "todas as ocorrências em que a ID AMO existe" incluiria as métricas do mecanismo de pesquisa no segmento. </p> </td> 
+   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, então não é possível mapear diretamente uma conta do Advertising Analytics para um VRS. </p> <p>Contudo, é possível mapear a conta do Advertising Analytics para o conjunto de relatórios principal do VRS no qual deseja ver os dados. </p> <p>As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas nos VRS a não ser que você inclua uma condição “ou” na lógica do segmento baseada na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Há métricas do Advertising Analytics reportáveis no relatório dos <b>Canais de marketing</b>? </p> </td> 
-   <td colname="col2"> <p>A: Não, eles não estão incluídos no relatório Canais de marketing. </p> </td> 
+   <td colname="col2"> <p>R: Não, elas não são incluídas no relatório dos Canais de marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: <b>Quando</b> os dados de pesquisa são transferidos para o Analytics? </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Capturamos apenas o google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também? </p> </td> 
-   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Você pode filtrar ou segmentar (por exemplo, se todas as campanhas começarem com country code_, então criar um segmento no qual Campanhas (ID AMO) começarão com "UK_" fornecerá apenas dados para o Reino Unido). </p> </td> 
+   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: A métrica “Custo do AMO” é o custo pago para cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? </p> </td> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
+## Rastreamento automático vs. manual  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -138,7 +138,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>P: Ao configurar a conta publicitária, aparece que o <b>Rastreamento automático</b> pode levar a consequências não intencionais. Que tipos de consequências pode ocorrer? </p> </td> 
-   <td colname="col2"> <p>R: 
+   <td colname="col2"> <p>A: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">O modo automático tentará anexar os parâmetros de URL ao final dos URLs de modelo/destino de rastreamento no formato adequado. <b>Contudo, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais. </li> 
