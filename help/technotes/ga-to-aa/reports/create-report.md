@@ -2,7 +2,7 @@
 title: Criar um relatório básico na Analysis Workspace
 description: Saiba como criar um relatório básico na Analysis Workspace em um formato direcionado para usuários familiarizados com ferramentas de terceiros, como o Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
 
 ---
 
@@ -31,32 +31,32 @@ Como a Analysis Workspace funciona mais como uma tela do que relatórios prefabr
 Crie um relatório Todas as páginas (semelhante ao do Google Analytics) arrastando os componentes certos para uma tela de espaço de trabalho.
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-3. Na barra de navegação superior, clique em Espaço de trabalho.
-4. Clique no botão 'Criar novo projeto'.
-5. No pop-up modal, verifique se "Projeto em branco" está selecionado e clique em Criar.
-6. À esquerda, uma lista de dimensões, métricas, segmentos e intervalos de datas é exibida. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela chamada 'Soltar uma dimensão aqui'.
-7. Um relatório que mostra as principais páginas deste mês pode ser visto. A Analysis Workspace preenche automaticamente o relatório com a métrica [Ocorrências](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
-8. Uma tabela no Google Analytics geralmente contém 7 a 8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
-9. Muitas métricas podem ser colocadas lado a lado arrastando métricas ao lado dos cabeçalhos de métricas existentes. Veja as métricas [usadas com](common-metrics.md) frequência para obter informações sobre como obter métricas normalmente usadas no Google Analytics.
+1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
+1. Na barra de navegação superior, clique em Workspace.
+1. Clique no botão “Criar novo projeto”.
+1. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
+1. À esquerda, uma lista de dimensões, métricas, segmentos e intervalos de datas é exibida. Localize a dimensão Páginas (laranja colorido) e arraste-a para a tela chamada &#39;Soltar uma dimensão aqui&#39;.
+1. Um relatório que mostra as principais páginas deste mês pode ser visto. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
+1. Uma tabela no Google Analytics geralmente contém 7 a 8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
+1. Muitas métricas podem ser colocadas lado a lado arrastando métricas ao lado dos cabeçalhos de métricas existentes. Veja as métricas [usadas com](common-metrics.md) frequência para obter informações sobre como obter métricas normalmente usadas no Google Analytics.
 
-   ![Nova métrica](/help/technotes/ga-to-aa//assets/new_metric.png)
+   ![Nova métrica](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Começar com um modelo de relatório pré-criado no Workspace
 
 Crie o modelo de Consumo de conteúdo (semelhante ao relatório Todas as páginas no Google Analytics) acessando um modelo de projeto.
 
-1. Clique no botão 'Criar novo projeto'.
-2. Localize e clique duas vezes no ícone 'Consumo de conteúdo (Web)' listado em Todos os modelos.
-3. Procure cada uma das visualizações que foram pré-criadas: Fluxo de Página de Entrada, Tabela de Páginas Principais, Fluxo de Página de Saída, Fluxo de Seção do Site de Entrada e Tabela de Seções Principais do Site.
+1. Clique no botão “Criar novo projeto”.
+1. Localize e clique duas vezes no ícone &#39;Consumo de conteúdo (Web)&#39; listado em Todos os modelos.
+1. Procure cada uma das visualizações que foram pré-criadas: Fluxo de Página de Entrada, Tabela de Páginas Principais, Fluxo de Página de Saída, Fluxo de Seção do Site de Entrada e Tabela de Seções Principais do Site.
 
    ![Seleção do modelo](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
-## Experimente com a ferramenta
+## Experimentar com a ferramenta
 
-Como a Analysis Workspace é uma ferramenta de relatório, ela não tem impacto na coleta de dados. Não há repercussão em arrastar indiscriminadamente componentes para um projeto para ver o que funciona. Arraste diferentes combinações de dimensões e métricas para o projeto da área de trabalho para ver o que está disponível.
+Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impacto na coleta de dados. Se você arrastar componentes indiscriminadamente para um projeto para ver o que acontece, não haverá nenhuma repercussão. Arraste diferentes combinações de dimensões e métricas para o projeto do seu espaço de trabalho para ver o que está disponível.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto]&gt;[!UICONTROL Novo]* no menu superior esquerdo.
+Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
 
 A Adobe colocou muita funcionalidade na Analysis Workspace no menu de contexto do clique com o botão direito do mouse. A maioria das visualizações e componentes pode ser clicada com o botão direito do mouse para obter uma análise e interação mais detalhadas. Considere a possibilidade de clicar com o botão direito do mouse nos componentes da sua área de trabalho para ver quais opções estão disponíveis.
 
