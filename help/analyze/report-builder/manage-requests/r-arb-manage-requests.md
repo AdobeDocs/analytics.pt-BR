@@ -1,9 +1,9 @@
 ---
-description: Descrições dos campos para gerenciar solicitações no Construtor de relatórios.
+description: Descrições dos campos para gerenciar solicitações no Report Builder.
 title: Gerenciar solicitações - definições
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,15 +11,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Gerenciar solicitações - definições
 
-Descrições dos campos para gerenciar solicitações no Construtor de relatórios.
+Descrições dos campos para gerenciar solicitações no Report Builder.
 
 ## Visão geral {#section_75C288C945FA4781A4EDF806711A5660}
 
 O [!UICONTROL Gerenciador de solicitações] fornece uma visualização detalhada do status de todas as solicitações que você tiver criado para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação (funções normalmente associadas ao [!UICONTROL Assistente de solicitações] e ao [!UICONTROL Gerenciador de solicitações]) clicando com o botão direito do mouse em uma célula disponível na planilha do Excel que contenha solicitações anteriores.
 
-O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **[!UICONTROL Gerenciar]** ( ![](assets/edit_request.gif) na barra de ferramentas do Construtor de relatórios.
+O [!UICONTROL Gerenciador de solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]** ( ![](assets/edit_request.gif) na barra de ferramentas do Report Builder.
 
-> [!NOTE] O Construtor de relatórios da Adobe aplica as dependências de solicitação somente na mesma planilha, não em planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
+> [!NOTE] O Adobe Report Builder aplica as dependências de solicitação somente na mesma planilha, não entre planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
 
 ## Definições {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -53,7 +53,7 @@ O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **
   </tr> 
   <tr> 
    <td colname="col1"> <p> Última execução </p> </td> 
-   <td colname="col2"> <p>Especifica a data em que a solicitação foi processada pela última vez no Construtor de relatórios. Uma mensagem de diagnóstico também é exibida nesta tabela na coluna <span class="wintitle">Última execução</span>, se aplicável. </p> </td> 
+   <td colname="col2"> <p>Especifica a data em que a solicitação foi processada pela última vez no Report Builder. Uma mensagem de diagnóstico também é exibida nesta tabela na coluna <span class="wintitle">Última execução</span>, se aplicável. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adicionar </p> </td> 
@@ -61,7 +61,7 @@ O Gerenciador [!UICONTROL de] solicitações é exibido quando você clica em **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
-   <td colname="col2"> <p> (Ou Editar várias) Edita uma solicitação selecionada. O sistema exibe a caixa de diálogo <span class="wintitle">Assistente de solicitações</span>. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (Ou Editar várias) Edita uma solicitação selecionada. O sistema exibe a caixa de diálogo <span class="wintitle">Assistente de solicitações</span>. Consulte <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Editar várias solicitações</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Excluir </p> </td> 
