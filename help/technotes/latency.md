@@ -6,7 +6,7 @@ title: Disponibilidade e latência de dados
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 ---
 
@@ -27,9 +27,9 @@ A latência é um atraso maior do que as 2 horas normais que os servidores de co
 
 A latência é causada por uma das seguintes categorias gerais:
 
-* **** Pico de tráfego inesperado: Esse tipo de latência ocorre quando mais dados são enviados para um conjunto de relatórios do que foi contratualmente confirmado ou esperado. É a causa mais comum de latência.
-* **** Problemas normais de hardware: A Adobe emprega as melhores estratégias do setor para gerenciamento e monitoramento de data center, redundância de dados e confiabilidade de hardware. O Hardware é atualizado regularmente e juntamente com janelas de manutenção publicadas. A manutenção de emergência de hardware com falha pode exigir uma interrupção necessária e temporária no processamento de dados (e não na coleta de dados) à medida que o hardware de substituição é colocado on-line. Essa interrupção temporária de processamento pode resultar em latência.
-* **** Dados anormais: Padrões de dados não naturais, como visitas invulgarmente longas causadas por um bot ou crawler, podem aumentar temporariamente determinadas cargas de processamento que resultam em latência.
+* **Pico de tráfego inesperado:** Esse tipo de latência ocorre quando mais dados são enviados para um conjunto de relatórios do que foi contratualmente confirmado ou esperado. É a causa mais comum de latência.
+* **Problemas normais de hardware:** A Adobe emprega as melhores estratégias do setor para gerenciamento e monitoramento de data center, redundância de dados e confiabilidade de hardware. O Hardware é atualizado regularmente e juntamente com janelas de manutenção publicadas. A manutenção de emergência de hardware com falha pode exigir uma interrupção necessária e temporária no processamento de dados (e não na coleta de dados) à medida que o hardware de substituição é colocado on-line. Essa interrupção temporária de processamento pode resultar em latência.
+* **Dados anormais:** Padrões de dados não naturais, como visitas invulgarmente longas causadas por um bot ou crawler, podem aumentar temporariamente determinadas cargas de processamento que resultam em latência.
 
 ## Recursos que dependem da latência
 
@@ -42,15 +42,15 @@ Alguns recursos na Adobe Experience Cloud vêm com uma latência inata além do 
 
 Há várias estratégias para impedir a latência ou reduzir o tempo de recuperação quando ocorre:
 
-* **** Notificar a Adobe sobre picos de tráfego esperados: Embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de feriado particularmente bem-sucedido ou pouco depois de um grande push de campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfego no Guia do usuário de administração para saber como notificar a Adobe sobre aumento de tráfego.
-* **** Considere processar a carga ao ativar novos recursos: Alguns recursos requerem mais processamento do que outros. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
+* **Notificar a Adobe sobre picos de tráfego esperados:** Embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de feriado particularmente bem-sucedido ou pouco depois de um grande push de campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfego no Guia do usuário de administração para saber como notificar a Adobe sobre aumento de tráfego.
+* **Considere processar a carga ao ativar novos recursos:** Alguns recursos requerem mais processamento do que outros. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
 
    * Implementação de mais de 20 eventos na mesma página
    * Regras VISTA complexas
    * Mais de 20 valores nos produtos disponíveis
    * Serialização de eventos
 
-* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html) can greatly reduce latency if your report suite is frequented by bots or crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
+* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
 
 ## Como lidar com a latência
 
