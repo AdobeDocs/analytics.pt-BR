@@ -3,7 +3,7 @@ description: Uma solicitação referencial usa valores de células como entrada 
 title: Copiar solicitações referenciais
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,12 +17,12 @@ Para propagar ou copiar e colar solicitações referenciais em uma planilha, voc
 
 Também é possível criar solicitações que fazem referência a filtros de entrada a partir de solicitações em diferentes planilhas, mas não em pastas de trabalho diferentes. Por exemplo, uma solicitação na Planilha 2 pode usar um conjunto de relatórios de uma determinada célula na Planilha 1 e um intervalo de datas de uma célula em uma solicitação na Planilha 2. A nova saída pode ser colocada em qualquer uma das duas planilhas ou em uma nova planilha na mesma pasta de trabalho. Quando você cola uma solicitação relativa, se um filtro de entrada residir em uma planilha diferente daquela em que a saída da solicitação copiada está localizada, o filtro será colado como um filtro absoluto.
 
-> [!NOTE] Não é possível gerar uma única solicitação em várias planilhas. Além disso, o sistema não pode colar algumas das solicitações copiadas em novas pastas de trabalho porque as solicitações contêm filtros de entrada de outras planilhas. Os filtros de entrada incluem conjuntos de relatórios de células, intervalos de datas de células, filtros de células e outros parâmetros relacionados.
+> [!NOTE] Não é possível fazer a saída de uma única solicitação em várias planilhas. Além disso, o sistema não pode colar algumas das solicitações copiadas em novas pastas de trabalho porque as solicitações contêm filtros de entrada de outras planilhas. Os filtros de entrada incluem conjuntos de relatórios de células, intervalos de datas de células, filtros de células e outros parâmetros relacionados.
 
 **Para copiar solicitações referenciais**
 
 1. Selecione as células que contêm solicitações que você deseja copiar, inclusive a célula de entrada ou a célula alvo da referência.
-1. Clique com o botão direito do mouse nas células realçadas e selecione **Copiar solicitações** no menu de atalho.
+1. Clique com o botão direito do mouse nas células realçadas e selecione **[!UICONTROL Copiar solicitações]** no menu de atalho.
 
    Após selecionar a área onde as solicitações e células de entrada estão localizadas, o sistema realça as células com esses elementos.
 1. Selecione uma célula ou um intervalo de células contíguas para preencher com as solicitações coladas.
