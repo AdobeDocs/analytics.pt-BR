@@ -3,13 +3,13 @@ description: A Detecção de anomalias utiliza um modelo estatístico para encon
 title: Detecção de anomalias
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Detecção de anomalias{#anomaly-detection}
+# Detecção de anomalias {#anomaly-detection}
 
 A Detecção de anomalias utiliza um modelo estatístico para encontrar automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina o intervalo de valores de limite inferior, limite superior e intervalo de valores. Quando ocorrer um pico ou uma queda inesperada, o sistema irá alertá-lo no relatório.
 
@@ -22,7 +22,7 @@ Exemplos de anomalias que você pode investigar incluem:
 * Junções em eventos de buffer de vídeo
 * Picos em taxas de vídeo baixas
 
-> [!NOTE] A detecção de anomalias está disponível somente quando você seleciona a granularidade Dia.
+> [!NOTE] A detecção de anomalias só estará disponível depois da seleção da granularidade do dia.
 
 <p class="head"> <b>Métricas para a detecção de anomalias</b> </p>
 
@@ -51,19 +51,19 @@ A detecção de anomalias adiciona novos valores de métrica a cada métrica sel
  </tbody> 
 </table>
 
-O Construtor de relatórios aplica esses valores às métricas selecionadas. Por exemplo, se você selecionar uma métrica de Exibições de página e aplicar a detecção de anomalias, uma métrica de *`Page Views Lower Bound`* será utilizada.
+O Report Builder aplica esses valores às métricas selecionadas. Por exemplo, se você selecionar uma métrica de Exibições de página e aplicar a detecção de anomalias, uma métrica de *`Page Views Lower Bound`* será utilizada.
 
 **Como a detecção de anomalias é calculada**
 
-A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. O construtor de relatórios possui o período de 30 dias.
+A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. O Report Builder possui o período de 30 dias.
 
 O período de treinamento não é necessariamente o mesmo que o período do relatório selecionado. Um gráfico do relatório exibe o intervalo de datas especificado no calendário.
 
 Para calcular os dados, compara-se o total diário de cada métrica ao seu período de treinamento, usando cada um dos seguintes algoritmos:
 
-* Holt Winters Multiplicative (Triple Exponential Smoothing)
-* Holt Winters Additive (Triple Exponential Smoothing)
-* Holts Trend Corrected (Double Exponential Smoothing)
+* Multiplicativo de Holt Winters (Suavização exponencial tripla)
+* Aditivo de Holt Winters (Suavização exponencial tripla)
+* Tendência de Holts corrigida (Suavização exponencial dupla)
 
 Cada algoritmo é aplicado para determinar aquele com a menor Soma de erros ao quadrado (ou SSE em inglês). O Erro de porcentagem da média absoluta (MAPE, em inglês) e o Erro padrão atual são calculados para garantir que o modelo seja estatisticamente válido.
 
