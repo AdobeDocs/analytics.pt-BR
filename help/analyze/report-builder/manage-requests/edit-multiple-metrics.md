@@ -2,7 +2,7 @@
 description: O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
 title: Editar métricas em várias solicitações
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
@@ -12,25 +12,25 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
 
-## Add metrics {#section_3FBDA9668039404895059618D70FCBCD}
+## Adicionar métricas {#section_3FBDA9668039404895059618D70FCBCD}
 
 Lembre-se
 
-* Métricas podem ser adicionadas somente a solicitações de Layout dinâmico. Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não serão adicionadas. Isso ocorre porque o Construtor de relatórios não sabe onde colocar a nova métrica na planilha, uma vez que o layout é personalizado.
-* Então, se você selecionar apenas solicitações de Layout personalizado, a opção **[!UICONTROL Adicionar métricas]não estará disponível.**
+* Métricas podem ser adicionadas somente a solicitações de Layout dinâmico. Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não serão adicionadas. Isso ocorre porque o Report Builder não sabe onde colocar a nova métrica na planilha, uma vez que o layout é personalizado.
+* Então, se você selecionar apenas solicitações de Layout personalizado, a opção **[!UICONTROL Adicionar métricas]** não estará disponível.
 * A adição de métricas aumentará o tamanho de uma solicitação e poderá fazer com que seja sobreposta a outra solicitação. Verifique se a solicitação tem espaço suficiente para adicionar métricas.
 * Se a métrica adicionada já estiver presente em uma das solicitações selecionadas, ela será adicionada a essa solicitação.
 
 Para adicionar uma ou mais métricas:
 
-1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; `<choose metric>` &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
-1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
+1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Ou clique em **[!UICONTROL Gerenciar]** > **[!UICONTROL Editar várias]** > `<choose metric>` > **[!UICONTROL Editar grupo]** para selecionar o grupo de solicitações a serem modificadas.)
+1. Selecione **[!UICONTROL Adicionar métricas]** e selecione as métricas a serem adicionadas.
 
    ![](assets/add_metric.png)
 
 1. Atualize a solicitação para ver os dados reais. Serão exibidos dados offline até que você atualize.
 
-## Replace metric {#section_D773AAC7B30C4FBEBDB66B203C217818}
+## Substituir métrica {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
 Lembre-se
 
@@ -45,7 +45,7 @@ Lembre-se
 
 Para substituir uma métrica
 
-1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
+1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Ou clique em **[!UICONTROL Gerenciar]** > **[!UICONTROL Editar várias]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para selecionar o grupo de solicitações a serem modificadas.)
 
 1. Selecione **[!UICONTROL Substituir métrica]**.
 
@@ -54,7 +54,7 @@ Para substituir uma métrica
 1. Selecione a métrica que será substituída e a métrica que a substituirá.
 1. Atualize a solicitação. Serão exibidos dados offline até que você atualize.
 
-## Remove metrics {#section_D3CD5BAC7670416593B633B2B8423C60}
+## Remover métricas {#section_D3CD5BAC7670416593B633B2B8423C60}
 
 Lembre-se
 
@@ -65,9 +65,9 @@ Lembre-se
 
 Para remover métricas:
 
-1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
+1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Ou clique em **[!UICONTROL Gerenciar]** > **[!UICONTROL Editar várias]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para selecionar o grupo de solicitações a serem modificadas.)
 
-1. Select **[!UICONTROL Remove Metric(s)]**.
+1. Selecione **[!UICONTROL Remover métricas]**.
 
    ![](assets/remove_metric.png)
 
