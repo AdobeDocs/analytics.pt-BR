@@ -1,8 +1,8 @@
 ---
-description: 'O Construtor de relatórios 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.'
+description: 'O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.'
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,11 +10,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Métricas calculadas
 
-O Construtor de relatórios 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
+O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
-> [!NOTE] Pastas de trabalho existentes podem apontar para solicitações com IDs de métrica herdadas. Ao usar o Construtor de relatórios 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Construtor de relatórios v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
+> [!NOTE] As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
-Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics).
+Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics).
 
 Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métricas calculadas.
 
@@ -31,16 +31,16 @@ Os filtros disponíveis incluem:
 | Nome do filtro | Descrição |
 |---|---|
 | Tags | Permite aplicar os filtros nas métricas calculadas com tags específicas. Observe que os filtros de tags usam o operador E. Caso você verifique as duas tags, o painel direito mostrará as métricas que foram marcadas com **ambas** as tags. |
-| Conjuntos de relatórios | If you apply the "Only *report suite name*" filter in the Calculated Metric Builder in [!DNL Reports & Analytics], and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the calculated metrics for the selected report suite only. |
+| Conjuntos de relatórios | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de métricas calculadas em [!DNL Reports & Analytics] e, em seguida, exibir o filtro Avançado no [!DNL Report Builder], o filtro Avançado exibirá as métricas calculadas somente para o conjunto de relatórios selecionados. |
 | Proprietários | Permite que filtrar métricas por proprietário. Observe que os filtros Proprietários usam o operador OU. Se você marcar dois proprietários, o painel direito exibe as métricas de propriedade de **qualquer** proprietário. |
-| Outros filtros &gt; Aprovado | Mostra todos os segmentos métricas aprovadas. |
-| Outros filtros &gt; Favoritos | Mostra todas as métricas que você marcou como Favoritos. |
-| Outros filtros &gt; Meu | Mostra todas as suas métricas. |
-| Outros filtros &gt; Compartilhado comigo | Mostra todas as métricas que outras pessoas compartilharam com você. |
+| Outros filtros > Aprovado | Mostra todos os segmentos métricas aprovadas. |
+| Outros filtros > Favoritos | Mostra todas as métricas que você marcou como Favoritos. |
+| Outros filtros > Meus | Mostra todas as suas métricas. |
+| Outros filtros > Compartilhados comigo | Mostra todas as métricas que outras pessoas compartilharam com você. |
 
 ## Aplicação de métricas calculadas {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-Após selecionar os filtros, clique em **[!UICONTROL Aplicar]para aplicá-las à solicitação.** As métricas selecionadas serão adicionadas ao layout do relatório.
+Após selecionar os filtros, clique em **[!UICONTROL Aplicar]** para aplicá-las à solicitação. As métricas selecionadas serão adicionadas ao layout do relatório.
 
 ![](assets/filtering_for_metric.png)
 
