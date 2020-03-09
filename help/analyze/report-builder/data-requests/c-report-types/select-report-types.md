@@ -3,7 +3,7 @@ description: É possível selecionar o tipo de relatório base para sua solicita
 title: Visão geral dos tipos de relatórios
 topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
