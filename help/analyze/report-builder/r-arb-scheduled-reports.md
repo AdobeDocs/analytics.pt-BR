@@ -3,7 +3,7 @@ description: Descrições dos campos para o Gerenciador de tarefas agendadas.
 title: Gerenciador de tarefa agendada
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,7 +37,7 @@ O Gerenciador de tarefas agendadas permite que você visualize uma lista de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções de publicação </p> </td> 
-   <td colname="col2"> <p>Essa coluna listará o Power BI se ums das <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > opções de publicação do Power BI</a> estiver selecionada. </p> </td> 
+   <td colname="col2"> <p>Essa coluna listará o Power BI se uma das <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > opções de publicação do Power BI</a> estiver selecionada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agendar </p> </td> 
@@ -49,7 +49,7 @@ O Gerenciador de tarefas agendadas permite que você visualize uma lista de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reativar </p> </td> 
-   <td colname="col2"> <p>Quando ocorre falha de execução de uma pasta de trabalho agendada, o Construtor de relatórios tenta executá-la mais duas vezes a cada quinze minutos. Depois de três tentativas mal sucedidas, o Construtor de relatórios desativa o agendamento e exibe o botão <span class="wintitle">Reativar</span>. Quando você reativa uma pasta de trabalho, a entrega agendada é reiniciada a partir do momento em que foi desativada. </p> <p>Por exemplo, se uma pasta de trabalho agendada foi desativada há 14 dias e você a reativar hoje, ela será executada para todos os dias que estiverem faltando e será entregue 14 vezes. Se não quiser que a pasta de trabalho seja entregue para os dias que estiverem faltando, você poderá excluir a pasta de trabalho agendada e, em seguida, criar uma nova pasta de trabalho agendada usando os mesmos parâmetros de agendamento. </p> <p> <p>Observação: você não deve reativar uma pasta de trabalho, a menos que saiba o motivo de o sistema tê-la desativado. Uma solução para o problema é baixar uma pasta de trabalho desativada e atualizá-la no lado do cliente. Se não encontrar nenhum erro, você deve conseguir reativá-la. </p> </p> </td> 
+   <td colname="col2"> <p>Quando ocorre falha de execução de uma pasta de trabalho agendada, o Report Builder tenta executá-la mais duas vezes a cada quinze minutos. Depois de três tentativas mal sucedidas, o Report Builder desativa o agendamento e exibe o botão <span class="wintitle">Reativar</span>. Quando você reativa uma pasta de trabalho, a entrega agendada é reiniciada a partir do momento em que foi desativada. </p> <p>Por exemplo, se uma pasta de trabalho agendada foi desativada há 14 dias e você a reativar hoje, ela será executada para todos os dias que estiverem faltando e será entregue 14 vezes. Se não quiser que a pasta de trabalho seja entregue para os dias que estiverem faltando, você poderá excluir a pasta de trabalho agendada e, em seguida, criar uma nova pasta de trabalho agendada usando os mesmos parâmetros de agendamento. </p> <p> <p>Observação: você não deve reativar uma pasta de trabalho, a menos que saiba o motivo de o sistema tê-la desativado. Uma solução para o problema é baixar uma pasta de trabalho desativada e atualizá-la no lado do cliente. Se não encontrar nenhum erro, você deve conseguir reativá-la. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Último envio </p> </td> 
