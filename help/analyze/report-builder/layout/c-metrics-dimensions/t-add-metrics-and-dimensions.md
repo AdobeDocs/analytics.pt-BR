@@ -3,7 +3,7 @@ description: Etapas para adicionar métricas e dimensões a uma solicitação.
 title: Adicionar métricas e dimensões
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Etapas para adicionar métricas e dimensões a uma solicitação.
 
 1. [Crie a solicitação de dados](/help/analyze/report-builder/data-requests/data-requests.md) no [!UICONTROL Assistente de solicitações: etapa 1], e então clique em **[!UICONTROL Próximo]**.
-1.  No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
+1. No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
 
    ![Informações da etapa](assets/adding_metrics.png)
 
@@ -29,7 +29,7 @@ Etapas para adicionar métricas e dimensões a uma solicitação.
    Lembre-se:
 
    * À medida que você insere um termo de pesquisa, a lista será atualizada automaticamente para exibir somente as métricas cujos rótulos correspondem ao termo de pesquisa.
-   * A correspondência faz a distinção entre maiúsculas e minúsculas, e é equivalente a uma pesquisa com "contém".
+   * A correspondência não diferencia maiúsculas de minúsculas, e é equivalente a uma pesquisa com &quot;contém&quot;.
    * Pesquisas por palavras completas ou outro sinalizador de pesquisa especial (começa com, termina com, E, OU etc.) não são suportados.
 
       O termo de pesquisa será apagado se você sair do Assistente de pesquisa (isto é, clicar em Concluir ou Cancelar), voltar para a Etapa 1 do Assistente de pesquisa ou alterar a categoria Métrica.
@@ -50,7 +50,7 @@ Etapas para adicionar métricas e dimensões a uma solicitação.
 1. (Opcional) Para classificar uma solicitação por métrica, apenas clique na etiqueta da métrica.
 1. Adicionar dimensões da mesma maneira que adiciona métricas.
 
-Na guia [!UICONTROL Dimensões], o sistema exibe dimensões que se quebram ou que sejam uma classificação de qualquer relatório básico selecionado na Etapa 1 e na configuração do conjunto de relatórios. Quando você solta uma dimensão nas grades do layout, ela é removida da visualização em árvore e recalcula a lista de dimensões disponíveis restantes. 
+Na guia [!UICONTROL Dimensões], o sistema exibe dimensões que se quebram ou que sejam uma classificação de qualquer relatório básico selecionado na Etapa 1 e na configuração do conjunto de relatórios. Quando você solta uma dimensão nas grades do layout, ela é removida da visualização em árvore e recalcula a lista de dimensões disponíveis restantes.
 
 A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de data disponíveis mudam, dependendo da granularidade selecionada no [!UICONTROL Assistente de solicitações: etapa 1]. (Os valores válidos são:
 
@@ -61,8 +61,8 @@ A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de da
     * Ano
     * Intervalo de datas (quando nenhuma granularidade é especificada)
 
-1. Modifique métricas e dimensões configurando opções [e filtros de](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
-1. Clique em **[!UICONTROL Concluir]**.
+1. Modifique métricas e dimensões configurando opções e filtros de [formato](/help/analyze/report-builder/layout/t-format-display-headers.md).
+1. Clique em **[!UICONTROL Concluir]**. 
 No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. Aqui, a dimensão [!UICONTROL Domínio de referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
 
 ![](assets/page_pageview_02.png)
