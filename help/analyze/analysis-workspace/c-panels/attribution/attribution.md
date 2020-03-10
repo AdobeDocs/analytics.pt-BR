@@ -3,7 +3,7 @@ description: 'null'
 title: Visão geral do painel Atribuição
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 71e154b0a453675113550b9f21bc50e187587d63
+source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
 
 ---
 
@@ -31,6 +31,11 @@ O painel de atribuição é um recurso do [Attribution IQ](../../attribution-iq.
 | ![Personalizado](assets/custom.png) | Personalizado | Permite que você especifique os pesos que deseja atribuir ao primeiro, ao último e ao resto de pontos de contato. Os valores especificados são regularizados para 100% mesmo se os números inseridos, quando somados, não resultarem em 100. Para conversões com um só ponto de contato, o crédito é de 100%. Para interações com dois pontos de contato, o parâmetro intermediário é ignorado. O primeiro e o último ponto de contato são normalizados para 100% e o crédito é atribuído em conformidade. | Esse modelo é perfeito para quem quer controle total sobre seu modelo de atribuição e tem necessidades específicas que outros modelos de atribuição não atendem. |
 | ![Declínio de tempo](assets/time_decay.png) | Declínio de tempo | Segue um declínio exponencial com um parâmetro personalizado de meia-vida e padrão de 7 dias. O peso de cada canal depende da quantidade de tempo decorrido entre a iniciação do ponto de contato e a conversão final. A fórmula usada para determinar o crédito é `2^(-t/halflife)`, em que `t` é o tempo entre um ponto de contato e uma conversão. Todos os pontos de contato são normalizados para 100%. | Ideal para equipes que fazem publicidade em vídeos ou marketing para eventos com data predeterminada. Quanto mais tarde ocorrer uma conversão após um evento de marketing, menos crédito será dado. |
 | ![Participação](assets/participation.png) | Participação | Dá 100% de crédito a todos os pontos de contato exclusivos. O número total de conversões aumenta em comparação com outros modelos de atribuição. A participação remove a duplicação de canais que são vistos várias vezes. | Excelente para identificar a quem os clientes são expostos com frequência em uma determinada interação. As organizações de mídia usam esse modelo frequentemente para calcular a velocidade do conteúdo. As varejistas geralmente usam esse modelo para identificar as partes do site que são essenciais para a conversão. |
+
+> [!NOTE] O seguinte modelo de atribuição algorítmica está disponível atualmente nos laboratórios [do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) e fará parte de uma versão geral em 2020.
+
+| Ícone da interface do usuário | Modelos de atribuição | Definição | Quando usar |
+| --- | --- | --- | --- |
 | ![Algorítmico](assets/algorithmic.png) | [Algorítmico](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. | Útil para ajudar a evitar adivinhações ou heurística ao escolher o modelo de atribuição correto para sua empresa. |
 
 ## Janelas de retrospectiva
@@ -40,8 +45,6 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 * **Janela de retrospectiva de visita:** retroage até o início de uma visita em que ocorreu uma conversão. As janelas de retrospectiva de visita são pequenas, pois não consideram nada além da visita. As janelas de retrospectiva de visita respeitam a definição de visita modificada em conjuntos de relatórios virtuais.
 
 * **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
-
-* **Janela de pesquisa personalizada:** Permite expandir a janela de atribuição além do intervalo de datas do relatório até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período de relatório. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
 ## Exemplo
 
@@ -55,10 +58,8 @@ Dependendo da janela de retrospectiva e do modelo de atribuição, os canais rec
 
 * Usando o modelo **primeiro contato** e uma **janela de retrospectiva de visita**, a atribuição considera somente a terceira visita. Entre email e exibição, o email foi o primeiro, então o email recebe 100% de crédito pela compra de US$ 50.
 * Usando o modelo **primeiro contato** e uma **janela de retrospectiva de visitante**, a atribuição considera todas as três visitas. A pesquisa paga foi a primeira, então ela recebe 100% de crédito pela compra de US$ 50.
-* Usando o **primeiro toque** e uma janela **de pesquisa** personalizada, de sete dias, a atribuição analisa apenas as duas visitas mais recentes. Nesta janela de relatórios, o link de mídia social foi o primeiro, então ele recebe 100% de crédito pela compra de $50.
 * Usando o modelo **linear** e uma **janela de retrospectiva de visita**, o crédito é dividido entre email e exibição. Ambos os canais recebem um crédito de US$ 25 dólares.
 * Usando o modelo **linear** e uma **janela de retrospectiva de visitante**, o crédito é dividido entre pesquisa paga, redes sociais, email e exibição. Cada canal recebe um crédito de US$ 12,50 por esta compra.
-* Usando uma janela **de pesquisa** linear **e** personalizada de sete dias, o crédito é dividido entre social, email e exibição. Cada um desses canais recebe um crédito de US$ 12,50 por esta compra. A pesquisa paga é excluída porque não ocorre na janela de pesquisa especificada.
 * Usando o modelo em **Forma de J** e uma **janela de retrospectiva de visitante**, o crédito é dividido entre pesquisa paga, redes sociais, email e exibição.
    * O crédito será de 60% para a exibição (US$ 30).
    * De 20% para a pesquisa paga (US$ 10).
