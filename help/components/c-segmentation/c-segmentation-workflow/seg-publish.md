@@ -4,7 +4,7 @@ title: Publicar segmentos na Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -43,7 +43,7 @@ Agora o processamento pode levar até 8 horas, mas dependendo de outro tráfego 
 
 ## Publicar segmentos em [!UICONTROL Segment Builder]
 
-1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
+1. Navegue até **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
 1. Crie um segmento no [!UICONTROL Segment Builder].
 1. Forneça um título e uma descrição para o segmento - caso contrário, você não poderá salvá-lo.
 1. Verificar conjunto **[!UICONTROL Publish this segment to the Experience Cloud (for *de *relatórios)]**.
@@ -118,6 +118,7 @@ No AAM, a lista de visitantes com ECIDs para um segmento específico é avaliada
 ![](assets/aam-traits.png)
 
 * Um segmento com uma única característica é criado. Ele usa a fonte de dados associada ao conjunto de relatórios em que você publicou o segmento.
+* A expiração da característica agora está definida para 16 dias (antes eram 2 dias).
 
 ## Exibir o segmento em [!DNL Adobe Target]
 
