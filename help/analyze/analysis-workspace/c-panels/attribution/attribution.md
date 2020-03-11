@@ -3,7 +3,7 @@ description: 'null'
 title: Visão geral do painel Atribuição
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ O painel de atribuição é um recurso do [Attribution IQ](../../attribution-iq.
 | ![Declínio de tempo](assets/time_decay.png) | Declínio de tempo | Segue um declínio exponencial com um parâmetro personalizado de meia-vida e padrão de 7 dias. O peso de cada canal depende da quantidade de tempo decorrido entre a iniciação do ponto de contato e a conversão final. A fórmula usada para determinar o crédito é `2^(-t/halflife)`, em que `t` é o tempo entre um ponto de contato e uma conversão. Todos os pontos de contato são normalizados para 100%. | Ideal para equipes que fazem publicidade em vídeos ou marketing para eventos com data predeterminada. Quanto mais tarde ocorrer uma conversão após um evento de marketing, menos crédito será dado. |
 | ![Participação](assets/participation.png) | Participação | Dá 100% de crédito a todos os pontos de contato exclusivos. O número total de conversões aumenta em comparação com outros modelos de atribuição. A participação remove a duplicação de canais que são vistos várias vezes. | Excelente para identificar a quem os clientes são expostos com frequência em uma determinada interação. As organizações de mídia usam esse modelo frequentemente para calcular a velocidade do conteúdo. As varejistas geralmente usam esse modelo para identificar as partes do site que são essenciais para a conversão. |
 
-> [!NOTE] O seguinte modelo de atribuição algorítmica está disponível atualmente nos laboratórios [do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) e fará parte de uma versão geral em 2020.
+> [!NOTE] O seguinte modelo de atribuição algorítmica está disponível atualmente nos laboratórios [do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) e eventualmente fará parte de uma versão geral.
 
 | Ícone da interface do usuário | Modelos de atribuição | Definição | Quando usar |
 | --- | --- | --- | --- |
