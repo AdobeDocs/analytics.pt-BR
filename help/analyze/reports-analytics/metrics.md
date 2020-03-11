@@ -3,7 +3,7 @@ description: As métricas são a base dos relatórios e ajudam a visualizar e co
 title: Métricas
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ As métricas e dados associados são exibidos nas colunas dos relatórios. Métr
 
 [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) são criadas pela combinação de métricas.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+Para obter as definições, consulte [Visão geral das métricas](/help/components/c-variables/c-metrics/metricslist.md)
 
 ## Selecionar métricas de relatório padrão
 
@@ -35,7 +35,7 @@ t_metrics_set_default.xml
 
 1. Executar um relatório.
 1. Adicione as métricas que você gostaria de salvar como as métricas padrão.
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. Clique na lista suspensa **[!UICONTROL Adicionar métricas]**, em seguida, selecione **[!UICONTROL Definir como padrão]**.
 
    As métricas selecionadas são salvas como padrão para este relatório. As seguintes informações se aplicam às métricas padrão:
 
