@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: Painéis e reportlets
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Um painel é uma coleção de relatórios miniatura chamados de *`reportlets`*. 
 
 Você pode adicionar a maioria dos relatórios de marketing ao painel, incluindo relatórios com muitos gráficos como [!UICONTROL Relatório de desistências], [!UICONTROL Relatório de funil de conversão] e [!UICONTROL Relatório de descoberta da caminho].
 
-Você também pode configurar um painel como página inicial, compartilhar painéis com outros usuários e agendar a entrega deles. Se você não definir um painel (ou um marcador) como página de aterrissagem, o painel [!UICONTROL Meus relatórios recomendados] é exibido. **[!UICONTROL Meus relatórios recomendados]** mostra o relatório **[!UICONTROL Métricas principais]além dos cinco relatórios vistos com mais frequência.** É dinâmico e baseia-se nos relatórios reais que são mais visualizados.
+Você também pode configurar um painel como página inicial, compartilhar painéis com outros usuários e agendar a entrega deles. Se você não definir um painel (ou um marcador) como página de aterrissagem, o painel [!UICONTROL Meus relatórios recomendados] é exibido. **[!UICONTROL Meus relatórios recomendados]** mostra o relatório **[!UICONTROL Métricas principais]** além dos cinco relatórios vistos com mais frequência. É dinâmico e baseia-se nos relatórios reais que são mais visualizados.
 
 Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel, e portanto não estarão disponíveis para visualização. Dentre eles:
 
@@ -31,18 +31,18 @@ Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel
 * Relatórios em Tempo real
 * Outros painéis
 
-> [!NOTE] O painel Visão geral **[!UICONTROL do]** site não está mais listado em Relatórios e análises. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
+> [!NOTE] O painel **[!UICONTROL Visão geral do site]** não é mais listado em Reports &amp; Analytics. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
 
-* Por exemplo, se você tem apenas três relatórios exibidos frequentemente, os Reports &amp; Analytics utilizam dois relatórios do painel de Visão geral do site para preencher o painel **[!UICONTROL Meus relatórios recomendados].**
+* Por exemplo, se você tem apenas três relatórios exibidos frequentemente, os Reports &amp; Analytics utilizam dois relatórios do painel de Visão geral do site para preencher o painel **[!UICONTROL Meus relatórios recomendados]**.
 * Inicialmente, os novos conjuntos de relatórios ainda contarão com os reportlets de Visão geral do site até serem substituídos pelos relatórios exibidos frequentemente. Mesmo assim, o painel será chamado de **[!UICONTROL Meus relatórios recomendados]**.
 
 Além dos painéis criados, os seguintes painéis pré-integrados são incluídos para cada usuário:
 
-**[!UICONTROL Componentes]&gt;[!UICONTROL Painéis]&gt;[!UICONTROL Painéis compartilhados]&gt;[!UICONTROL Sites locais]**
+**[!UICONTROL Componentes]>[!UICONTROL Painéis]>[!UICONTROL Painéis compartilhados]>[!UICONTROL Sites locais]**
 
 Esse painel personalizável oferece uma maneira de colocar reportlets no modelo fornecido.
 
-**[!UICONTROL Componentes]&gt;[!UICONTROL Painéis]&gt;[!UICONTROL Painéis compartilhados]&gt;[!UICONTROL Painel de operações do site]**
+**[!UICONTROL Componentes]>[!UICONTROL Painéis]>[!UICONTROL Painéis compartilhados]>[!UICONTROL Painel de operações do site]**
 
 Esse painel fornece uma visão geral de métricas principais relacionadas às operações de seu site. Os relatórios nesse painel incluem:
 
@@ -69,10 +69,10 @@ t_dashboard_add.xml
 
 Antes de adicionar um relatório (como um reportlet) a um painel, defina o layout do painel.
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
-1. Click **[!UICONTROL Add Dashboard]**.
+1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Gerenciar painéis]**.
+1. Clique em **[!UICONTROL Adicionar painel]**.
 1. Digite um nome para o painel.
-1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
+1. Clique em **[!UICONTROL 3 x 2]** ou **[!UICONTROL 2 x 2]** para especificar quantos reportlets você deseja incluir na página do painel.
 1. Configure o layout da página do painel:
 
    * **[!UICONTROL Adicionar Página]**: adiciona uma página em branco ao painel, na qual você pode arrastar o conteúdo para criar reportlets.
@@ -81,12 +81,12 @@ Antes de adicionar um relatório (como um reportlet) a um painel, defina o layou
 
 1. Adiciona o conteúdo disponível ao painel, arrastando os itens para a tela do reportlet.
 
-   Consulte [Criar um reportlet](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) e [editar configurações](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)do painel.
-1. Clique em **[!UICONTROL Salvar.]**
+   Consulte [Criação de um reportlet](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) e [Edição das configurações do painel](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+1. Clique em **[!UICONTROL Salvar]**.
 
-   Salvar um painel o torna disponível no menu **[!UICONTROL painel].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Gerenciamento de painéis](/help/analyze/reports-analytics/dashboard-manage.md).)
+   Salvar um painel o torna disponível no menu **[!UICONTROL painel]**. O novo painel também está disponível em [!UICONTROL Gerenciador do painel] (**[!UICONTROL Favoritos]** > **[!UICONTROL Painéis]** > **[!UICONTROL Gerenciador]**), onde você pode editar, organizar, compartilhar, arquivar painéis e muito mais. (Consulte [Gerenciamento de painéis](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
+1. (Opcional) Para configurar o painel como página inicial, clique em **[!UICONTROL Mais opções]** > **[!UICONTROL Definir Como Página Inicial]**.
 
 ## Criar um reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -99,11 +99,11 @@ t_dashboard_add_report.xml
  -->
 
 1. Executar um relatório.
-1. Click **[!UICONTROL Dashboard.]**
-1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
+1. Clique em **[!UICONTROL Painel]**.
+1. Na página [!UICONTROL Adicionar reportlet], dê um nome ao relatório e, em seguida, selecione um painel em **[!UICONTROL Local no painel:]**. 
 1. (Opcional) Configure o intervalo de datas.
 
-   * **[!UICONTROL Em andamento]**: altera a data conforme o tempo passa, de acordo com o intervalo de tempo (diário, mensal, etc.). Por exemplo, se hoje é 17 de janeiro, você pode definir as datas para 15-16 de janeiro. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
+   * **[!UICONTROL Em andamento]**: altera a data conforme o tempo passa, de acordo com o intervalo de tempo (diário, mensal, etc.). Por exemplo, se hoje é 17 de janeiro, você pode definir as datas para 15-16 de janeiro. Logo, se você selecionar **[!UICONTROL Em andamento]** na data 27 de janeiro, a reportlet exibirá os dados de 25-26 de janeiro.
    * **[!UICONTROL Fixo]**: impede que a data avance com o passar do tempo.
 
 1. (Opcional) Substitua a lista de distribuição de publicação.
@@ -112,7 +112,7 @@ t_dashboard_add_report.xml
 
 1. Clique em **[!UICONTROL Criar novo]**.
 
-   O reportlet é adicionado ao menu **[!UICONTROL Conteúdo do painel]no editor de painel.**
+   O reportlet é adicionado ao menu **[!UICONTROL Conteúdo do painel]** no editor de painel.
 
 ## Adicionar conteúdo a um painel {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -124,8 +124,8 @@ t_dashboard_content.xml
 
  -->
 
-1. Abra um painel e, em seguida, clique em **[!UICONTROL Layout]**.
-1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
+1. Abra um painel e, em seguida, clique em **[!UICONTROL Layout]**. 
+1. Clique em **[!UICONTROL Adicionar conteúdo]** e, em seguida, arraste os itens para o painel.
 
    O menu [!UICONTROL Adicionar conteúdo] exibe o conteúdo do reportlet de outros painéis, painéis de legado e painéis compartilhados.
 
@@ -147,9 +147,9 @@ Você pode criar os seguintes reportlets de Conteúdo do usuário fornecendo URL
    *Conteúdo do usuário*
 
    * Relatório externo: permite adicionar um relatório externo nos formatos .xml e .csv.
-   * HTML: permite adicionar um reportlet HTML personalizado. O URL deve usar HTTP ou HTTPS. Otherwise, you see a `Specified URL could not be retrieved` error. No conteúdo do documento, todas as marcas com atributos usando os protocolos dados: e javascript: serão removidos. Scripts, frames, applets, manipuladores de eventos, flash e outros objetos incorporados serão removidos. Se os recursos não forem especificados usando HTTPS, os usuários do IE receberão um aviso sobre conteúdo misto.
-   * Imagem: permite criar um painel a partir de um URL da imagem. Se o URL usa o protocolo HTTP, o Internet Explorer emite um aviso de conteúdo misto. Usar um URL com HTTPS remove o aviso. All other protocols issue a `Specified URL could not be retrieved` error.
-   * RSS: permite adicionar um feed RSS. Deve utilizar HTTP ou HTTPS. Otherwise, you see a `Specified URL could not be retrieved` error.
+   * HTML: permite adicionar um reportlet HTML personalizado. O URL deve usar HTTP ou HTTPS. Caso contrário, você verá um erro `Specified URL could not be retrieved`. No conteúdo do documento, todas as marcas com atributos usando os protocolos dados: e javascript: serão removidos. Scripts, frames, applets, manipuladores de eventos, flash e outros objetos incorporados serão removidos. Se os recursos não forem especificados usando HTTPS, os usuários do IE receberão um aviso sobre conteúdo misto.
+   * Imagem: permite criar um painel a partir de um URL da imagem. Se o URL usa o protocolo HTTP, o Internet Explorer emite um aviso de conteúdo misto. Usar um URL com HTTPS remove o aviso. Todos os outros protocolos emitem um erro `Specified URL could not be retrieved`.
+   * RSS: permite adicionar um feed RSS. Deve utilizar HTTP ou HTTPS. Caso contrário, você verá um erro `Specified URL could not be retrieved`.
    * Texto: permite que você use o código XHTML para criar seus próprios dados. Use HTTP ou HTTPS para um URL. Imagens usadas no conteúdo do reportlet de texto que têm o protocolo HTTP farão com que os usuários do IE recebam um aviso sobre conteúdo misto. Imagens incluídas usando outros protocolos não serão exibidos no reportlet.
    **Meus painéis**
 
@@ -167,7 +167,7 @@ Você pode criar os seguintes reportlets de Conteúdo do usuário fornecendo URL
 
    Exibe itens que você já adicionou ao painel.
 
-1. Clique em **[!UICONTROL Salvar.]**
+1. Clique em **[!UICONTROL Salvar]**.
 
 ## Editar um painel de dados de reportlet {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -181,8 +181,8 @@ t_dashboard_edit.xml
 
 **Para editar um painel de dados de reportlet**
 
-1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
-1. Click **[!UICONTROL Layout]**.
+1. Clique em **[!UICONTROL Componentes]** > **[!UICONTROL Painéis]** > *nome do painel* para abrir um painel.
+1. Clique em **[!UICONTROL Layout]**.
 
 | Para | Fazer isso |
 |--- |--- |
@@ -192,11 +192,11 @@ t_dashboard_edit.xml
 | Aplicar um segmento a um reportlet | No painel, clique em Layout para editar um painel.   No reportlet, clique no nome do conjunto de relatórios, selecione um valor no campo Segmento e clique em Atualizar. |
 | Bloquear um conjunto de relatórios (evita alterar o conjunto de relatórios em um reportlet) | No reportlet, clique no nome do conjunto de relatórios e ative [!UICONTROL Bloquear o conjunto de relatórios]. Clique Atualizar. |
 | Mudar uma data de relatório | Para um painel, clique no calendário. (todos os reportlets no painel refletem a alteração de data.)<br>Para uma reportlet, clique no link da data e, em seguida, configure o calendário. |
-| Dar um nome a um painel | Abra um painel e clique em [!UICONTROL Mais] &gt; [!UICONTROL Renomear]. |
-| Visualizar um arquivo de painel | Clique em [!UICONTROL Mais] &gt; [!UICONTROL Visualizar arquivo]. |
-| Definir o painel como uma página de aterrissagem | Em um painel, clique em [!UICONTROL Mais] &gt; [!UICONTROL Definir como página de aterrissagem]. |
-| Fazer o download de um painel | No painel, clique em [!UICONTROL Mais] &gt; Baixar. |
-| Imprimir um painel | No painel, clique em [!UICONTROL Mais] &gt; Imprimir. |
+| Dar um nome a um painel | Abra um painel e clique em [!UICONTROL Mais] > [!UICONTROL Renomear]. |
+| Visualizar um arquivo de painel | Clique em [!UICONTROL Mais] > [!UICONTROL Visualizar arquivo]. |
+| Definir o painel como uma página de aterrissagem | Em um painel, clique em [!UICONTROL Mais] > [!UICONTROL Definir como página de aterrissagem]. |
+| Fazer o download de um painel | No painel, clique em [!UICONTROL Mais] > Baixar. |
+| Imprimir um painel | No painel, clique em [!UICONTROL Mais] > Imprimir. |
 | Salvar um painel | Em um painel, clique em Salvar como e, em seguida, especifique um nome. |
 
 ## Co-brand do painel {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -209,10 +209,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administração]** &gt; **[!UICONTROL Configurações da empresa]**.
-1. Na página [!UICONTROL Configurações da empresa]**, clique em[!UICONTROL Co-Brand da Adobe Experience Cloud]**.
-1. Click **[!UICONTROL Enable Co-Branding]**.
-1. Localize a imagem que será carregada e clique em **[!UICONTROL Salvar.]**
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Configurações da empresa]**.
+1. Na página [!UICONTROL Configurações da empresa], clique em **[!UICONTROL Co-Brand da Adobe Experience Cloud]**.
+1. Clique em **[!UICONTROL Ativar compartilhamento de marcas]**.
+1. Localize a imagem que será carregada e clique em **[!UICONTROL Salvar]**.
 
    Para obter resultados melhores ao visualizar a imagem em um navegador, carregue uma imagem de 100px por 30px. Para obter resultados melhores na saída PDF, carregue uma imagem de 417px por 125px (300 dpi). Imagens de grandes dimensões serão reduzidas, mantendo a relação de aspecto.
 
@@ -228,5 +228,5 @@ segments_dashboards.xml
 
 Os segmentos podem ser aplicados em dois níveis: em um painel inteiro ou em um reportlet específico.
 
-* **Nível** do reportlet: Clique em **[!UICONTROL Layout]** e, em seguida, no conjunto de relatórios do reportlet que deseja segmentar. Uma janela modal é exibida e permite adicionar ou alterar os segmentos que o reportlet usa.
+* **Nível de reportlet**: clique em **[!UICONTROL Layout]** e no conjunto de relatórios do reportlet que você deseja segmentar. Uma janela modal é exibida e permite adicionar ou alterar os segmentos que o reportlet usa.
 * **Nível de painel**: clique no ícone Segmento na navegação esquerda, verifique os segmentos que deseja usar e clique em Aplicar. Os segmentos selecionados substituem segmentos de nível de reportlet.
