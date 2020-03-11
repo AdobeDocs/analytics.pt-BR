@@ -3,7 +3,7 @@ description: As sub-relações completas são ativadas em todos os relatórios d
 title: Sub-relações
 topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,10 +20,10 @@ As sub-relações completas são ativadas em todos os relatórios de conversão,
 Para ajudar a ilustrar como as sub-relações funcionam, considere este exemplo:
 
 1. Um usuário visita seu site via Campaign_A e chega à página inicial.
-1. O usuário pesquisa por "gatos" e recebe os resultados da pesquisa. eVar1 mantém um registro dos termos das pesquisas internas. 
+1. O usuário pesquisa por &quot;gatos&quot; e recebe os resultados da pesquisa. eVar1 mantém um registro dos termos das pesquisas internas. 
 1. O usuário se inscreve em uma lista de endereçamento, que é acompanhada usando event1.
 1. Um usuário diferente visita seu site, também via Campaign_A, e chega à página inicial.
-1. Esse usuário pesquisa por "gatinhos", recebe os resultados da pesquisa (eVar1) e também se inscreve em uma lista de endereçamento (event1). 
+1. Esse usuário pesquisa por &quot;gatinhos&quot;, recebe os resultados da pesquisa (eVar1) e também se inscreve em uma lista de endereçamento (event1). 
 
 Se exibir um relatório de Código de rastreamento, você verá o seguinte:
 
@@ -51,5 +51,5 @@ Essencialmente, as sub-relações seguem estas etapas para preencher o relatóri
 
 * Isolam as solicitações de imagens contendo os eventos bem-sucedidos exibidos no relatório.
 * Retornam os valores persistentes de cada variável de conversão usada na sub-relação.
-* Organizam os valores com base na ordem da sub-relação. Se uma variável não tiver um valor persistente (por exemplo, se uma eVar não tiver sido definido nem tiver expirado), ela será categorizada como "Nenhum".
+* Organizam os valores com base na ordem da sub-relação. Se uma variável não tiver um valor persistente (por exemplo, se uma eVar não tiver sido definido nem tiver expirado), ela será categorizada como &quot;Nenhum&quot;.
 
