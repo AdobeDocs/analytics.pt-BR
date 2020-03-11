@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Alertas
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,16 +14,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Alertas {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Como o novo sistema de alertas para todo o Adobe Analytics, os Alertas inteligentes permitem criar e gerenciar alertas, completos com visualização de alertas e contribuição de regras. É possível
+O Alertas inteligentes é o novo sistema de alertas do Adobe Analytics, e permite criar e gerenciar alertas, completos com a visualização de alertas e a contribuição de regras. É possível
 
 * Criar alertas com base em anomalias (limite de 90%, 95% ou 99%; % de mudança; acima/abaixo).
 * Visualizar a frequência de disparo de um alerta.
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta.
 
-É possível acessar esse novo sistema de Alertas em **[!UICONTROL Mais]** &gt; **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
+É possível acessar esse novo sistema de Alertas por meio de **[!UICONTROL Mais]** > **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
 
-Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) na documentação da Analysis Workspace.
+Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/intellligent_alerts.html) na documentação da Analysis Workspace.
 
 ## Adicionar um alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-Navegue até o novo Criador de alertas no menu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** . No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
+Navegue até o novo Construtor de alertas no menu **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]**. No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
 
 1. Em Reports &amp; Analytics, abra o relatório no qual deseja definir um alerta.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
-1. Isso levará você ao [novo Construtor de alertas](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html).
+1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
+1. Isso levará você ao [novo Construtor de alertas](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/alert-builder.html).
 
 ## Visualizar ou editar alertas existentes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contexto da tarefa
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**. Isso leva você ao novo [Gerenciador de alertas](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
+1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Isso leva você ao novo [Gerenciador de alertas](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/alert-manager.html).
 
 ## Migração de alertas herdados {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas com um slot ASI como o conjunto de relatórios </p> </td> 
-   <td colname="col2"> <p>Não é possível <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >criar ou editar slots ASI</a> e não estão disponíveis para uso no Analysis Workspace. Portanto, não são compatíveis com os novos alertas. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Não é possível <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/ASI_slots_admin.html"  >criar ou editar slots ASI</a> e não estão disponíveis para uso no Analysis Workspace. Portanto, não são compatíveis com os novos alertas. </p> <p> </p> </td> 
    <td colname="col3"> <p>Não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas que usam métricas de participação </p> </td> 
-   <td colname="col2"> <p>  As <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >Métricas de participação</a> estão disponíveis em Reports &amp; Analytics e indisponíveis no novo sistema de alertas na Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p>  As <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/metrics_participation.html"  >Métricas de participação</a> estão disponíveis em Reports &amp; Analytics e indisponíveis no novo sistema de alertas na Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas mensais para conjuntos de relatórios de calendário personalizado </p> </td> 
-   <td colname="col2"> <p>Isso afeta apenas os clientes com alertas configurados para conjuntos de relatórios que têm <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >datas personalizadas de início de mês</a> (Federação Nacional de Varejo/NRF e tipos de calendários personalizados). </p> <p>Não afeta alertas em conjuntos de relatórios do calendário gregoriano ou gregoriano modificado. Anteriormente, esses alertas eram enviados no primeiro dia do mês gregoriano (por exemplo, 1º de janeiro, 1º de fevereiro etc). Isso não funcionará com o novo recurso de alertas Detecção de anomalias, que considera dados de meses anteriores ao detectar anomalias. No futuro, adicionaremos suporte ao sistema de programação para calendários personalizados de modo que os Alertas e os Projetos programados possam ser programados para envio no primeiro dia do mês do calendário personalizado em vez do primeiro dia do mês gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Isso afeta apenas os clientes com alertas configurados para conjuntos de relatórios que têm <a href="https://marketing.adobe.com/resources/help/pt_BR/arb/custom_calendar.html"  >datas personalizadas de início de mês</a> (Federação Nacional de Varejo/NRF e tipos de calendários personalizados). </p> <p>Não afeta alertas em conjuntos de relatórios do calendário gregoriano ou gregoriano modificado. Anteriormente, esses alertas eram enviados no primeiro dia do mês gregoriano (por exemplo, 1º de janeiro, 1º de fevereiro etc). Isso não funcionará com o novo recurso de alertas Detecção de anomalias, que considera dados de meses anteriores ao detectar anomalias. No futuro, adicionaremos suporte ao sistema de programação para calendários personalizados de modo que os Alertas e os Projetos programados possam ser programados para envio no primeiro dia do mês do calendário personalizado em vez do primeiro dia do mês gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Ainda não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
