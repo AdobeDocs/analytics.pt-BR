@@ -3,7 +3,7 @@ description: Após executar um relatório, você pode personalizá-lo para visua
 title: Visão geral de Personalizar relatórios
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,14 +28,14 @@ Somente administradores podem criar um relatório personalizado. Ao criar um rel
 **Para criar um relatório personalizado**
 
 1. Execute um relatório e configure-o conforme necessário.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
-1. Dê um nome ao relatório e, em seguida, clique em **[!UICONTROL Salvar.]**
+1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Criar relatório personalizado]**.
+1. Dê um nome ao relatório e, em seguida, clique em **[!UICONTROL Salvar]**.
 
    Certifique-se de que você não tenha duplicado o nome de um relatório existente.
 
 >[!MORELIKETHIS]
 >
->* [Personalização do menu](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
+>* [Personalização do menu](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/customize-menus.translate.html)
 
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -64,10 +64,10 @@ Quando você abre um painel com reportlets que têm intervalos de datas diferent
    * Arrastar o cursor em datas para selecionar um intervalo.
    * Inserir datas manualmente.
    * Clicar em um nome de mês para selecionar um mês.
-   * Clique em **[!UICONTROL Selecionar predefinido]para selecionar uma data predefinida.**
+   * Clique em **[!UICONTROL Selecionar predefinido]** para selecionar uma data predefinida.
    * Comparar datas.
 
-1. Click **[!UICONTROL Run Report]**.
+1. Clique em **[!UICONTROL Executar relatório]**.
 
 ## Comparar datas {#task_95155C3700774B709F5FB81AE96B0824}
 
@@ -81,15 +81,15 @@ t_reports_comparing_dates.xml
 
 Não é possível comparar datas entre relatórios de tendências.
 
-> [!NOTE] Se você quiser realizar uma comparação de datas em métricas principais em um painel, é possível inserir os dados no Construtor [de](https://marketing.adobe.com/resources/help/en_US/arb/) relatórios usando duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+> [!NOTE] Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Construtor de relatórios](https://marketing.adobe.com/resources/help/pt_BR/arb/) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
 1. Executar um relatório.
 1. Clique no calendário, no canto superior direito.
-1. Click **[!UICONTROL Compare Dates]**.
+1. Clique em **[!UICONTROL Comparar datas]**.
 1. Selecione as datas que deseja utilizar.
-1. Click **[!UICONTROL Run Report]**.
+1. Clique em **[!UICONTROL Executar relatório]**.
 
 ## Exibir uma porcentagem como gráfico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -104,7 +104,7 @@ t_reports_graph_percent.xml
 A visualização também está disponível nos reportlets do painel.
 
 1. Execute um relatório que tenha suporte a porcentagens como, por exemplo, o [!UICONTROL Relatório de páginas].
-1. Click **[!UICONTROL Percent Shown As: Graph]**.
+1. Clique em **[!UICONTROL Porcentagem exibida como: gráfico]**.
 
 ## Normalizar dados do relatório {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -121,9 +121,9 @@ Após executar um relatório com as datas comparadas, ou comparações A/B, voc�
 **Para normalizar os dados de relatório**
 
 1. Execute um relatório que suporta comparações de data.
-1. Click **[!UICONTROL Compare Dates]**, then specify your date comparison.
-1. Click **[!UICONTROL Run Report]**.
-1. Click **[!UICONTROL Normalize Data: Yes]**.
+1. Clique em **[!UICONTROL Comparar datas]** e, em seguida, especifique a sua comparação de datas.
+1. Clique em **[!UICONTROL Executar relatório]**.
+1. Clique em **[!UICONTROL Normalizar dados: sim]**.
 
 ## Selecionar um página para um relatório {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
@@ -135,11 +135,11 @@ t_reports_select_page.xml
 
  -->
 
-1. Generate a report, such as a [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Page Views]**).
-1. Clique no link **Página selecionada.**
+1. Crie um relatório como, por exemplo, um [!UICONTROL relatório de Exibições de página] (**[!UICONTROL Relatórios]** > **[!UICONTROL Métricas do site]** > **[!UICONTROL Exibições da página]**).
+1. Clique no link **[!UICONTROL Página selecionada]**.
 1. Em [!UICONTROL Selecionar página], selecione as páginas que deseja exibir.
 1. Localize a página.
-1. Clique em **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK]**.
 
 ## Comparar conjuntos de relatórios {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -154,7 +154,7 @@ t_reports_compare_suites.xml
 Além da exibição gráfica, a tabela do relatório fornece uma comparação em termos percentuais. Os relatórios a seguir podem ser executados com as comparações:
 
 * Conteúdo do site
-* Mobile
+* Dispositivo móvel
 * Fontes de Tráfego
 * Campanhas
 * Produtos
@@ -168,9 +168,9 @@ Além da exibição gráfica, a tabela do relatório fornece uma comparação em
 **Para comparar conjuntos de relatórios**
 
 1. Crie um relatório que permite que você compare relatórios.
-1.   Clique no link **Comparar com Site**. 
+1. Clique no link **[!UICONTROL Comparar com Site]**.
 1. Localize o conjunto de relatórios.
-1. Clique em **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK]**.
 
 ## Especificar a granularidade do relatório {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
@@ -182,12 +182,12 @@ t_reports_granularity.xml
 
  -->
 
-O período de tempo do relatório determina quais opções de granularidade estão disponíveis. Por exemplo, você somente pode selecionar **[!UICONTROL Por hora]se tiver um período de um ou mais dias selecionado.** Você somente pode selecionar a granularidade **[!UICONTROL Anualmente]se tiver mais do que um ano selecionado.**
+O período de tempo do relatório determina quais opções de granularidade estão disponíveis. Por exemplo, você somente pode selecionar **[!UICONTROL Por hora]** se tiver um período de um ou mais dias selecionado. Você somente pode selecionar a granularidade **[!UICONTROL Anualmente]** se tiver mais do que um ano selecionado.
 
 **Para especificar a granularidade de um relatório**
 
-1. Generate a trended report, such as **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages.]**
-1. Clique no link **Exibir por** e, em seguida, clique em granularidade.
+1.  Crie um relatório de tendências como, por exemplo, **[!UICONTROL Conteúdo do Site]** > **[!UICONTROL Páginas]**. 
+1. Clique no link **[!UICONTROL Exibir por]** e, em seguida, clique em granularidade.
 
 ## Executar um relatório de dia da semana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -202,11 +202,11 @@ t_reports_day_of_week.xml
 Este recurso aplica-se somente a relatórios de tendências filtrados com um intervalo de datas Por semana ou Por dia.
 
 1. Execute um relatório de tendência em um intervalo de datas especificado.
-1. Clique no link **Dias da semana** e, em seguida, clique no dia.
+1. Clique no link **[!UICONTROL Dias da semana]** e, em seguida, clique no dia.
 
-## Botão “Testar na Workspace”{#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Botão “Testar na Workspace” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Se você clicar no botão **[!UICONTROL Testar na Workspace]na parte superior de um relatório, isso carregará o mesmo relatório na Analysis Workspace.**
+Se você clicar no botão **[!UICONTROL Testar na Workspace]** na parte superior de um relatório, isso carregará o mesmo relatório na Analysis Workspace.
 
 <!-- 
 
@@ -218,4 +218,4 @@ A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar 
 
 No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
 
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/).
+Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/).
