@@ -3,7 +3,7 @@ description: Metas permitem medir o desempenho do site e acompanhar o progresso 
 title: Metas
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ Por exemplo, você pode medir o número de visitantes únicos para o seu site, e
 
 ## Descrições do campo de destino {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Metas]**.
+**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
 
 As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar destino].
 
@@ -72,14 +72,14 @@ t_add_a_target.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. Na página [!UICONTROL Gerenciador de metas]**, clique em[!UICONTROL Adicionar novo]**.
+1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
+1. Na página [!UICONTROL Gerenciador de metas], clique em **[!UICONTROL Adicionar novo]**.
 1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
 ## Editar uma meta {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. Na coluna **Gerenciar**, clique no ícone **[!UICONTROL Editar.]**
+1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
+1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
 1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
