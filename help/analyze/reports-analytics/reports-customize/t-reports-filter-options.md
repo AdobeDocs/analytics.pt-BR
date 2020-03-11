@@ -3,7 +3,7 @@ description: Os filtros permitem restringir o relatório para incluir ou excluir
 title: Filtro de dados de relatório
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Os filtros permitem restringir o relatório para incluir ou excluir itens de lin
 
 ![](assets/filter.png)
 
-O filtro simples aparece na maioria dos relatórios para permitir que você encontre rapidamente itens de linha específicos. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. Você pode encontrar itens de linha que contêm vários termos com um espaço.
+O filtro simples aparece na maioria dos relatórios para permitir que você encontre rapidamente itens de linha específicos. Filtros simples não usam qualquer caractere especial, portanto, `-, ", ', +` e outros caracteres especiais correspondem ao valor literal no relatório. Você pode encontrar itens de linha que contêm vários termos com um espaço.
 
 Por exemplo:
 
@@ -49,7 +49,7 @@ Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso op
 
 **Não contém**
 
-Corresponde se o termo não é encontrado em qualquer ponto no item de linha. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://marketing.adobe.com/resources/help/pt_BR/reference/none-unspecified-unknown-other.html) de relatórios que usam &quot;não contém&quot;.
 
 Não contém: `none`
 
@@ -58,7 +58,7 @@ Para um filtro mais preciso, é possível usar um filtro Avançado (caracteres e
 * Avançado (Caractere especial): `-^none$`
 * Avançado (Caractere especial): `-"keyword unavailable"`
 
-Por exemplo, o seguinte item de linha é filtrado pelo critério "Não contém", mais não é filtrado pelo critério "Avançado (caractere especial)":
+Por exemplo, o seguinte item de linha é filtrado pelo critério &quot;Não contém&quot;, mais não é filtrado pelo critério &quot;Avançado (caractere especial)&quot;:
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **Contém um de**
 
-Corresponde se qualquer termo, separado por espaços, são encontrados no item de linha. O seguinte filtro mostra todas as páginas que contêm "masculino" ou "oferta":
+Corresponde se qualquer termo, separado por espaços, são encontrados no item de linha. O seguinte filtro mostra todas as páginas que contêm &quot;masculino&quot; ou &quot;oferta&quot;:
 
 Contém um de: `mens sale`
 
@@ -126,11 +126,11 @@ Avançado permite que você execute um curinga e outras pesquisas complexas.
 | Avançado (Caractere especial) | Descrição |
 |--- |--- |
 | `" "` | Corresponder à frase exata. |
-| `*` | Curinga, correspondência voraz. <br>Por exemplo, `r*p` corresponde a "Inscrição de inscrição". |
+| `*` | Curinga, correspondência voraz. <br>Por exemplo, `r*p` corresponde a &quot;Inscrição para registro&quot;. |
 | `^` | Começa com. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
 | `$` | Termina com. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
 | `-` | Não. <br>Não inclua um espaço entre o caractere especial e a frase de pesquisa. |
-| `|` | <br>OuNota:  você deve incluir um espaço em cada lado do caractere de barra vertical, `" | "`. |
+| `|` | Ou <br>Observação: você deve incluir um espaço em cada lado do caracteres de barra vertical, `" | "`. |
 
 ## Criar filtros específicos de relatório {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -148,10 +148,10 @@ Quando você acessa esses filtros, você pode visualizar as métricas de relató
 
 **Para criar filtros específicos de relatório**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1. No cabeçalho do relatório, clique no link **Filtro.**
-1. Na página [!UICONTROL Seletor de filtro]**, clique em[!UICONTROL Aplicar um filtro]** e, em seguida, selecione um tipo de filtro.
-1. Para procurar um item, digite uma sequência de caracteres no campo **Procurar**. 
+1. Gere um relatório, como um [!UICONTROL Relatório de compras] (**[!UICONTROL Métricas do site]** > **[!UICONTROL Compras]** > **[!UICONTROL Funil de conversão de compra]**).
+1. No cabeçalho do relatório, clique no link **[!UICONTROL Filtro]**.
+1. Na página [!UICONTROL Seletor de filtro], clique em **[!UICONTROL Aplicar um filtro]** e, em seguida, selecione um tipo de filtro.
+1. Para procurar um item, digite uma sequência de caracteres no campo **[!UICONTROL Procurar]**.
 1. Clique em **[!UICONTROL OK]**.
 
 ## Adicionar um filtro de correlação {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -170,7 +170,7 @@ Você pode filtrar os dados mostrados em um relatório de correlação usando qu
 
 **Para adicionar um filtro de correlação**
 
-1. Execute um relatório com suporte a correlações. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
+1. Execute um relatório com suporte a correlações. (Consulte [Executar um relatório de detalhamento](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. No cabeçalho do relatório, clique em links **[!UICONTROL Filtro de correlação]**.
 1. Em [!UICONTROL Criador da regra do filtro], selecione uma categoria para correlacionar com um item.
-1. Clique em **[!UICONTROL OK.]**
+1. Clique em **[!UICONTROL OK]**.
