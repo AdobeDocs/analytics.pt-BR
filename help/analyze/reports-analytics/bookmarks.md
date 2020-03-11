@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Gerenciador de marcador
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,13 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador.]**.
+1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador]**.
 
-   |Nome|Um nome amigável para este marcador.    |
-   |---|---|      
-   |Adicionar a|Especifica a pasta na qual você deseja colocar o marcador.|     
-   |Tornar público| Torna este marcador disponível para usuários com acesso ao conjunto de relatórios.|     
-   |Exibir relatório ao efetuar login| Exibe o relatório ao efetuar logon.|
+       |Nome|Um nome amigável para este marcador.|
+       |---|---|
+       |Adicionar a|Especifica a pasta em que deseja colocar o marcador.|
+       |Tornar público| Disponibiliza este marcador para usuários com acesso ao conjunto de relatórios.|
+       |Exibir relatório ao efetuar o logon| Exibe o relatório quando você faz logon.|
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Marcadores]**.
+**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Marcadores]**.
 
 **Meus marcadores**
 
