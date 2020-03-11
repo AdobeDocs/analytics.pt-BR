@@ -4,7 +4,7 @@ subtopic: Get started
 title: Sobre a coleta de dados
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ Em um nível mais alto, o processo de coleta de dados ocorre da seguinte forma:
 
 A coleta de dados é rápida e não afeta o tempo de carga das páginas. Dados coletados incluem visualizações de página que resultam do clique dos botões do navegador **Recarregar** ou **Voltar**. O código JavaScript é executado mesmo quando a página é recuperada do cache.
 
-See [Data Collection in Analytics.](/help/import/home.md)
+Consulte [Coleta de dados no Analytics](/help/import/home.md).
