@@ -3,7 +3,7 @@ description: Uma introdução a termos de análise Web comuns usados em relatór
 title: Termos comuns
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Termos comuns
 
-Uma introdução aos termos usados com frequência no Adobe Analytics.
+Uma introdução aos termos comuns usados no Adobe Analytics.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -35,7 +35,7 @@ Uma introdução aos termos usados com frequência no Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p> Relatório </p> </td> 
-   <td> <p>A base da funcionalidades do relatório de marketing. Você pode executar relatórios online em todos os dados coletados. </p> <p>Para obter mais informações, consulte  <a href="/help/analyze/reports-analytics/reports.md"> Tipos de relatórios</a>. </p> </td> 
+   <td> <p>A base da funcionalidades do relatório de marketing. Você pode executar relatórios online em todos os dados coletados. </p> <p>Para obter mais informações, consulte <a href="/help/analyze/reports-analytics/reports.md">Tipos de relatório</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Exibição da Página </p> </td> 
@@ -43,7 +43,7 @@ Uma introdução aos termos usados com frequência no Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>A sequência de exibições de página em uma sessão. A visita termina somente após 30 minutos de inatividade ou após 12 horas de atividade contínua. (Essa medida de tempo é o padrão do setor de análises web.) As visitas são acompanhadas por cookies. Uma visita é iniciada quando o visualizador acessa uma página. Por vezes, uma visita também é conhecida por <span class="term"> session</span>, but it is not a browser session. Acessar um site diferente, fechar um navegador ou até mesmo reiniciar o computador não encerra uma visita. </p> <p> Se o tempo limite de inatividade ocorrer enquanto o visitante está lendo uma página, a visita é encerrada e é processada, Uma nova visita é iniciada quando o visitante navega até outra página. </p> <p>Se a data mudar durante uma vista como, por exemplo, ao visitar um site à meia-noite, a visita é atribuída ao dia no qual a visita foi iniciada. </p> </td> 
+   <td> <p>A sequência de exibições de página em uma sessão. A visita termina somente após 30 minutos de inatividade ou após 12 horas de atividade contínua. (Essa medida de tempo é o padrão do setor de análises web.) As visitas são acompanhadas por cookies. Uma visita é iniciada quando o visualizador acessa uma página. Por vezes, uma visita também é conhecida por <span class="term"> sessão</span>, mas não é uma sessão do navegador. Acessar um site diferente, fechar um navegador ou até mesmo reiniciar o computador não encerra uma visita. </p> <p> Se o tempo limite de inatividade ocorrer enquanto o visitante está lendo uma página, a visita é encerrada e é processada, Uma nova visita é iniciada quando o visitante navega até outra página. </p> <p>Se a data mudar durante uma vista como, por exemplo, ao visitar um site à meia-noite, a visita é atribuída ao dia no qual a visita foi iniciada. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
