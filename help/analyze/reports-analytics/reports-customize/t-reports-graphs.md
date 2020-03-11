@@ -3,7 +3,7 @@ description: Etapas que descrevem como personalizar o gráfico a fim de que seja
 title: Alterar gráficos de relatórios
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Os tipos de gráfico disponíveis dependem do tipo de relatório que você está
 **Para alterar um gráfico de relatório**
 
 1. Executar um relatório.
-1. Click **[!UICONTROL Configure Graph]**.
+1. Clique em **[!UICONTROL Configurar gráfico]**.
 1. Selecione um tipo gráfico.
 
    **[!UICONTROL Linha de Tendência]**: as linhas de tendência mostram as tendências diárias das métricas de relatório e são úteis para análise de tendência de uma métrica por linha ao longo do tempo.
