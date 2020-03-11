@@ -4,7 +4,7 @@ subtopic: Schedule
 title: Extração de dados
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ As Extrações de dados podem processar um número máximo de 50.000 linhas em u
 
 Etapas que descrevem como extrair dados de um relatório e enviá-lo por email.
 
-1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Extract Data]**.
+1. Execute um relatório e clique em **[!UICONTROL Mais]** > **[!UICONTROL Extrair dados]**.
 1. Siga as etapas no assistente de Extração de dados.
