@@ -2,7 +2,7 @@
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -160,10 +160,14 @@ digitalData = {
 }
 ```
 
-Use o relatório Camada [de dados digitais da experiência do](https://www.w3.org/2013/12/ceddl-201312.pdf) cliente para obter detalhes sobre cada objeto e subobjeto. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que tenha sido usado para o `digitalData.product` objeto.
+Use o relatório de Camada [de Dados Digitais da Experiência do](https://www.w3.org/2013/12/ceddl-201312.pdf) Cliente para obter detalhes sobre cada objeto e subobjeto. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que tenha sido usado para o `digitalData.product` objeto.
 
 As camadas de dados são extensíveis; se você tiver requisitos específicos da sua organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
 
 ## Configuração de valores da camada de dados
 
 As camadas de dados normalmente geram no lado do servidor, referenciando os mesmos objetos usados para criar o conteúdo do site. Estabeleça a camada de dados do site com base nos requisitos de rastreamento definidos no documento [de design de](solution-design.md)solução da sua organização.
+
+## Próximas etapas
+
+[Mapear objetos de camada de dados para elementos](../launch/layer-to-elements.md)de dados: Use a camada de dados do site no Adobe Experience Platform Launch.
