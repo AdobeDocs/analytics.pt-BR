@@ -2,7 +2,7 @@
 title: Atribuição algorítmica
 description: Detalhes sobre o modelo de atribuição algorítmica no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: c3f81b6bca97dafaf328d09534e55d4d77bd87b4
+source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
 
 ---
 
@@ -17,7 +17,7 @@ O algoritmo usado para atribuição é baseado no Harsanyi Dividend da teoria do
 
 Em um nível alto, o cálculo de atribuição do crédito de conversão para cada ponto de contato considera cada um dos pontos de contato de marketing dentro de uma janela de pesquisa como uma coligação de jogadores para os quais um excedente deve ser distribuído de forma equitativa. A distribuição excedente de cada coalizão é determinada de acordo com o excedente anteriormente criado por cada subcoalizão (ou valores de dimensão anteriormente participantes) de forma recursiva. Para obter mais detalhes, consulte os documentos originais de John Harsanyi e Lloyd Shapley:
 
-* Shapley, Lloyd S. &quot;Um valor para jogos pessoais.&quot; *Contribuições para a Teoria dos Jogos 2.28*, 1953, pp. 307-317.
-* Harsanyi, John C. &quot;Um modelo de negociação simplificado para o jogo cooperativo n-pessoalmente.&quot; *International Economic Review 4.2*, 1963, pp. 194-220.
+* Shapley, Lloyd S. (1953). Um valor para jogos em pessoa. *Contribuições para a Teoria dos Jogos, 2(28)*, 307-317.
+* Harsanyi, John C. (1963). Um modelo de negociação simplificado para o jogo cooperativo n-pessoalmente. *International Economic Review 4(2)*, 194-220.
 
 > [!NOTE] O resultado da atribuição algorítmica só difere de outros modelos quando existem vários pontos de contato dentro da janela de pesquisa. As conversões com um único ponto de contato recebem 100% de crédito independentemente do modelo de atribuição.
