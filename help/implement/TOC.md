@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -143,13 +143,15 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
       + [Visão geral da conexão de usuários em dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistência da variável](js/xdevice-visid/variable-persistence.md)
       + [Exemplo de visita](js/xdevice-visid/visit-example.md)
-      + [Perguntas frequentes sobre dispositivos cruzados](js/xdevice-visid/xdevice-faq.md)
+      + [Perguntas frequentes sobre dispositivos cruzados herdados](js/xdevice-visid/xdevice-faq.md)
    + [Solução de problemas do AppMeasurement](js/troubleshooting.md)
 + Implement Analytics using Adobe Experience Platform Launch {#launch}
    + [Resumo do Launch](launch/overview.md)
    + [Criar uma propriedade do Analytics](launch/create-analytics-property.md)
    + [Implantar em um ambiente dev](launch/deploy-dev.md)
    + [Validar e publicar no prod](launch/validate-publish-prod.md)
+   + [Mapear objetos de camada de dados para elementos de dados](launch/layer-to-elements.md)
+   + [Mapear elementos de dados do Launch para variáveis do Analytics](launch/elements-to-variable.md)
 + Implementação do Analytics em outras plataformas {#other}
    + [Implementar o Analytics usando solicitações de imagem codificadas](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
