@@ -3,7 +3,7 @@ description: 'null'
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
@@ -41,7 +41,7 @@ Os usuários com direitos de administrador podem tornar qualquer projeto criado 
 
 | Ação | Descrição |
 |--- |--- |
-| Editar  modelo | Permite que um administrador edite o modelo ao alterar a fonte de dados, modificar componentes, exibições, intervalos de data etc.  Para editar um modelo personalizado,<ul><li>abra a lista de modelos personalizados do Analysis Workspace, selecione um e clique em Editar modelo, ou</li><li>no Analytics, clique em Componentes > Projetos e filtre por Modelos. Clique no nome do modelo que deseja editar.</li></ul>**Observação:** após editar um modelo, dependendo da situação, você terá duas opções: Salvar, Salvar como. Elas se diferem da seguinte forma:<ul><li>**** Salvar: Atualiza o modelo personalizado para todos os usuários. Quando outra pessoa cria um projeto a partir deste modelo personalizado, ela verá suas alterações.</li><li>**** Salvar como: Cria uma cópia do modelo personalizado com suas alterações. (Você saberá que está no modo de edição quando o item de menu Compartilhar > Compartilhar projeto estiver desativado.)</li></ul> |
+| Editar   modelo | Permite que um administrador edite o modelo ao alterar a fonte de dados, modificar componentes, exibições, intervalos de data etc.  Para editar um modelo personalizado,<ul><li>abra a lista de modelos personalizados do Analysis Workspace, selecione um e clique em Editar modelo, ou</li><li>no Analytics, clique em Componentes > Projetos e filtre por Modelos. Clique no nome do modelo que deseja editar.</li></ul>**Observação:** após editar um modelo, dependendo da situação, você terá duas opções: Salvar, Salvar como. Elas se diferem da seguinte forma:<ul><li>**Salvar:** Atualiza o modelo personalizado para todos os usuários. Quando outra pessoa cria um projeto a partir deste modelo personalizado, ela verá suas alterações.</li><li>**Salvar como:** Cria uma cópia do modelo personalizado com suas alterações. (Você saberá que está no modo de edição quando o item de menu Compartilhar > Compartilhar projeto estiver desativado.)</li></ul> |
 | Pesquisar nos modelos | Na caixa de diálogo Modelos personalizados, clique em Pesquisar modelos. |
 | Classificar modelos | É possível classificar modelos por ordem alfabética, relevância e data de criação.  Na caixa de diálogo Modelos personalizados, clique em Classificar:. |
 | Aplicar tags ao modelo | Abra o modelo e vá até Projeto > Informações e configurações do projeto. Clique em Adicionar tags. |
@@ -56,7 +56,9 @@ Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às su
 
 [Modelos padrão do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder:
+Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder.
+
+* **Tutorial** de treinamento: Este modelo padrão orienta você pela terminologia e etapas comuns para criar sua primeira análise no Workspace. Está disponível como modelo padrão no modal Novo projeto e substitui o projeto de amostra atual para novos usuários que não têm outros projetos na lista.
 
 ### Publicidade
 
@@ -64,7 +66,7 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 >
 >Os modelos de publicidade estão disponíveis somente se o seu conjunto de relatórios estiver habilitado para a Advertising Cloud.
 
-* **Mecanismos de pesquisa**: esse modelo detalha tendências de publicidade, plataformas de publicidade, palavras-chave, contas, campanhas e muito mais.
+* **Mecanismos** de pesquisa pagos: Este modelo detalha as tendências de publicidade, plataformas de publicidade, palavras-chave, contas, campanhas e muito mais.
 
 ### Comércio
 
@@ -106,7 +108,7 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 
 > [!NOTE] O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
-Tem como base a métrica Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
+Este modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica de Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
 * Segmentar seus dados por EUA/Canadá vs. o resto do mundo. No momento, o Device Co-op está disponível somente para a América do Norte.
 * Comparar as métricas de Pessoas e de Visitantes únicos lado a lado.
@@ -125,12 +127,12 @@ Este modelo permite que você veja dados vitais de desempenho entre dispositivos
 * **Nota especial para os membros do Gráfico** de Cooperação: Mostra qual parte do conjunto de relatórios contém visitantes em regiões nas quais o gráfico cooperativo é suportado e em regiões nas quais ele não é suportado.
 * **Identificação de usuários**: Mostra a frequência com que os visitantes do site são identificados usando métodos baseados no Cross-Device Analytics.
 * **Medir o tamanho** do público-alvo: Mostra uma comparação entre &quot;Dispositivos únicos&quot; e &quot;Pessoas&quot;. A proporção desses dois números é conhecida como &quot;compactação entre dispositivos&quot;, uma métrica calculada visível neste painel. Essa métrica de compactação depende de uma ampla variedade de fatores:
-   * **Usando o gráfico** Co-op ou Privado: Geralmente, as organizações que usam a cooperativa de dispositivos tendem a ver taxas de compactação melhores do que as organizações que usam o gráfico privado.
+   * **Usando o gráfico** Co-op ou Privado: De modo geral, as organizações que usam a cooperativa de dispositivos tendem a ver taxas de compactação melhores do que as organizações que usam o gráfico privado.
    * **Taxa** de logon: Quanto mais usuários fizerem logon em seu site, mais a Adobe poderá identificar e unir visitantes em dispositivos. Os sites com uma taxa de logon baixa também têm taxas de compactação baixas.
    * **Cobertura** da Experience Cloud ID: Somente os visitantes com uma ECID podem ser agrupados. Uma porcentagem menor de visitantes do site que usam uma ECID está correlacionada a taxas de compactação mais baixas.
    * **Uso** de vários dispositivos: Se os visitantes do seu site não usarem vários dispositivos, você poderá ver taxas de compactação mais baixas.
    * **Granularidade** do relatório: A compactação por dia geralmente é menor do que a compactação por mês ou ano. As chances de um indivíduo usar vários dispositivos se tornam menores em um único dia do que em mais de um mês inteiro. A segmentação, a filtragem ou o uso de dimensões de detalhamento também podem mostrar uma taxa de compactação menor.
-* **Segmentos** baseados em pessoas: Contém uma lista suspensa de segmentos que permite exibir dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como incluir ou excluir tipos de dispositivos afetam os relatórios.
+* **Segmentos** baseados em pessoas: Contém uma lista suspensa de segmentos que permite exibir dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
 * **Analisando a jornada** entre dispositivos: Fornece relatórios de fluxo e fallout com base no tipo de dispositivo.
 * **Atribuição** entre dispositivos: Combine os recursos de QI de viagem e QI de atribuição.
 * **Outras dicas e truques**: Tópicos úteis sobre o CDA que permitem que você aproveite ao máximo o uso.
