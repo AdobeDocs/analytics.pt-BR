@@ -5,7 +5,7 @@ subtopic: Redirects
 title: Redirecionamentos e aliases
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -25,13 +25,13 @@ Embora existam apenas dois tipos de redirecionamentos, eles podem ser implementa
 
 ## Analytics e redirecionamentos {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
-O[!DNL Analytics] reúne alguns de seus dados por meio do navegador e depende de determinadas propriedades dele. Duas dessas propriedades, a &quot;URL de referência&quot; (ou &quot;referenciador&quot;) e a &quot;URL atual&quot; podem ser alteradas por um redirecionamento do lado do servidor. Como o navegador sabe que uma URL foi solicitada, mas uma URL diferente foi devolvida, ele limpa a URL de referência. O resultado é que a URL de referência fica em branco, e o [!DNL Analytics] pode relatar que não existia referenciador para a página.
+O [!DNL Analytics] reúne alguns de seus dados por meio do navegador e depende de determinadas propriedades dele. Duas dessas propriedades, a &quot;URL de referência&quot; (ou &quot;referenciador&quot;) e a &quot;URL atual&quot; podem ser alteradas por um redirecionamento do lado do servidor. Como o navegador sabe que uma URL foi solicitada, mas uma URL diferente foi devolvida, ele limpa a URL de referência. O resultado é que a URL de referência fica em branco, e o [!DNL Analytics] pode relatar que não existia referenciador para a página.
 
-## Exemplo: navegação sem redirecionamentos  {#section_5C835A4D665A4625A23333C2C21F152D}
+## Exemplo: navegação sem redirecionamentos {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Considere a seguinte situação hipotética na qual o usuário não encontra um redirecionamento:
 
-1. O usuário aponta seu navegador para `www.google.com`, digita &quot;discount airline tickets&quot; no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
+1. O usuário aponta seu navegador para `www.google.com`, digita &quot;passagens aéreas com desconto&quot; no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
 1. O navegador exibe os resultados da pesquisa, incluindo um link para seu site, [!DNL https://www.example.com/]. Após exibir os resultados da pesquisa, barra de endereços do navegador exibe os termos de pesquisa que o usuário inseriu no campo de pesquisa ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`.
 1. O usuário clica no link de seu site hipotético [!DNL https://www.example.com/]. Quando o usuário clica nesse link e chega ao site [!DNL example.com], o [!DNL Analytics] usa o JavaScript para coletar o URL de referência (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) e o URL atual (`https://www.example.com/`).
 1. O [!DNL Analytics] relata as informações coletadas durante essa interação em diversos relatórios, como [!UICONTROL Domínios de referência], [!UICONTROL Mecanismos de pesquisa] e [!DNL Search Keywords].
@@ -40,7 +40,7 @@ Considere a seguinte situação hipotética na qual o usuário não encontra um 
 
 Redirecionamentos podem fazer com que o navegador apague a URL de referência verdadeira. Considere a seguinte situação
 
-1. O usuário aponta seu navegador para `https://www.google.com`, digita *discount airline tickets* no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
+1. O usuário aponta seu navegador para `https://www.google.com`, digita *passagens aéreas com desconto* no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
 1. A barra de endereços da janela do navegador exibe os termos de pesquisa que o usuário digitou no campo de pesquisa `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`. O navegador também exibe uma página que contém os resultados da pesquisa, incluindo um link para um de seus nomes de domínio, [!DNL https://www.flytohawaiiforfree.com/]. Esse domínio *personalizado* é configurado para direcionar o usuário para `https://www.example.com/`.
 1. O usuário clica no link `https://www.flytohawaiiforfree.com/` e é redirecionado pelo servidor para o site principal, `https://www.example.com`. Quando o redirecionamento acontece, os dados que são importantes para a coleta de dados do [!DNL Analytics] são perdidos, porque o navegador apaga a URL de referência. Assim, as informações da pesquisa original usadas nos relatórios do [!DNL Analytics] (por exemplo, [!UICONTROL Domínios de Referência], [!UICONTROL Mecanismos de Busca] e [!UICONTROL Palavras-chave de Pesquisa]) são perdidas.
 
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-O trecho de código abaixo mostra duas variáveis do JavaScript, *`s_referrer`*e*`s_pageURL`*. Este código está localizado na página de aterrissagem final do redirecionamento.
+O trecho de código abaixo mostra duas variáveis do JavaScript, *`s_referrer`* e *`s_pageURL`*. Este código está localizado na página de aterrissagem final do redirecionamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Definir *`s.referrer`*somente uma vez na página. Definir mais de uma vez com cada chamada de rastreamento ou com cada clique de link rastreado causa a contagem dupla do referenciador e dimensões relacionadas, como ferramentas de pesquisa e palavras-chave.
+>Definir *`s.referrer`* somente uma vez na página. Definir mais de uma vez com cada chamada de rastreamento ou com cada clique no link rastreado causa a contagem dupla do referenciador e dimensões relacionadas, como ferramentas de pesquisa e palavras-chave.
 
 ## Redireciona usando getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página de aterrissagem final. Use a variável *`s_pageURL`*para substituir a URL atual.
+Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página de aterrissagem final. Use a variável *`s_pageURL`* para substituir a URL atual.
 
 Como há muitas maneiras de implementar um redirecionamento, você precisará verificar com seu grupo de operações Web ou parceiro de publicidade on-line para identificar os mecanismos específicos que executam redirecionamentos em seu site.
 
@@ -120,9 +120,9 @@ redirects_referrer.xml
 
  -->
 
-Normalmente, o [!DNL Analytics] obtém o URL de referência pela propriedade [!UICONTROL document.referrer] do navegador, e o URL atual da propriedade [!UICONTROL document.location]. Ao transmitir os valores para as variáveis *`referrer`*e*`pageURL`*, é possível substituir o processamento padrão. Passando um valor para a variável do referenciador, você diz ao [!DNL Analytics] para ignorar as informações do referenciador na propriedade [!UICONTROL document.referrer] e usar um valor alternativo que você definir.
+Normalmente, o [!DNL Analytics] obtém o URL de referência pela propriedade [!UICONTROL document.referrer] do navegador, e o URL atual da propriedade [!UICONTROL document.location]. Ao transmitir os valores para as variáveis *`referrer`* e *`pageURL`*, é possível substituir o processamento padrão. Passando um valor para a variável do referenciador, você diz ao [!DNL Analytics] para ignorar as informações do referenciador na propriedade [!UICONTROL document.referrer] e usar um valor alternativo que você definir.
 
-Portanto, a versão final da página inicial precisaria conter o seguinte código para corrigir os problemas apresentados na situação de &quot;discount airline tickets&quot;.
+Portanto, a versão final da página inicial precisaria conter o seguinte código para corrigir os problemas apresentados na situação de &quot;passagens aéreas com desconto&quot;.
 
 ```js
 <script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Faça um teste para verificar se o referenciador, o URL de origem (*`s_server`*) e as variáveis de campanha estão sendo capturados.
 
-Essas variáveis serão representadas como os parâmetros a seguir no [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Essas variáveis serão representadas como os parâmetros a seguir no [Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -170,7 +170,7 @@ Essas variáveis serão representadas como os parâmetros a seguir no [Experienc
   </tr> 
   <tr> 
    <td> <p>URL da página de aterrissagem final </p> </td> 
-   <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Esse valor NÃO será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 
  </tbody> 
