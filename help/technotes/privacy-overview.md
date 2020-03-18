@@ -3,7 +3,7 @@ description: Visão geral de quais dados o Adobe Analytics coleta e outras consi
 keywords: privacy
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 A Adobe recomenda que você forneça aos visitantes do site informações fáceis de encontrar e entender com relação à capacidade de optar pela coleta de informações de navegação por produtos e serviços da Adobe.
 
-Os visitantes podem saber mais sobre como a Adobe geralmente usa as informações coletadas no Centro [de privacidade da](https://www.adobe.com/privacy.html)Adobe. Cabe à sua organização revelar como você usa os produtos e serviços da Adobe, pois sua organização controla exclusivamente como implementar os serviços da Adobe. Você é responsável pela criação de sua própria política de privacidade, por seguir sua política de privacidade, por seguir o contrato de serviço com a Adobe e todas as leis aplicáveis.
+Os visitantes podem saber mais sobre como a Adobe geralmente usa as informações coletadas no [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy.html). Cabe à sua organização revelar como você usa os produtos e serviços da Adobe, pois sua organização controla exclusivamente como implementar os serviços da Adobe. Você é responsável pela criação de sua própria política de privacidade, por seguir sua política de privacidade, por seguir o contrato de serviço com a Adobe e todas as leis aplicáveis.
 
 ## Detalhamento da coleção de dados {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -47,7 +47,7 @@ O Adobe Analytics coleta os seguintes dados:
 | Taxas de sucesso da campanha publicitária | Sim |
 | Informações do produto, como cores, preços, estilos e fotos | Sim |
 
-* A menos que o cliente da Adobe opte por remover o IP.
+*A menos que o cliente da Adobe opte por remover o IP.
 
 ## Outras considerações de privacidade {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -73,7 +73,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> As análises primárias não estão dentro do escopo do Programa de autorregulação para publicidade comportamental online ("AdChoices"). </td> 
+   <td colname="col2"> Análises primárias não se encontram dentro do escopo do Programa autorregulatório para o Anúncio comportamental online ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -89,19 +89,19 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/pt_BR/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/pt_BR/reference/index.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Um cliente pode definir a variável de tempo de vida do cookie no código de medição JavaScript com um valor de "none", "session" ou outro valor especificado medido em segundos. </td> 
+   <td colname="col2"> Um cliente pode definir a variável do tempo de vida do cookie no código de medição para um valor como "nenhum", "sessão" ou outro valor especificado que possa ser medido em segundos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe desenvolveu uma nova configuração de "privacidade por design" que agora pode ser ativada pelo Adobe ClientCare para as versões 14.9 e 15.4 do Adobe Analytics (antigo SiteCatalyst). Quando essa nova configuração é ativada, o último octeto (a última parte) do endereço IP é imediatamente substituído pelo valor 0, uma vez que o endereço IP é coletado pela Adobe. A ação de tornar anônimo é realizada antes de qualquer processamento do endereço de IP, incluindo tanto a pesquisa geográfica opcional como a pesquisa ISP para o endereço de IP. </td> 
+   <td colname="col2"> A Adobe desenvolveu uma nova configuração de "privacidade por design", que pode ser ativada pelo Adobe ClientCare para as versões de lançamento 14.9 e 15.4 do Adobe Analytics (conhecido como SiteCatalyst). Quando esta nova configuração for ativada, o último octeto (ou seja, a última porção) do endereço de IP será automaticamente substituída pelo valor 0 após o endereço de IP ter sido coletado pela Adobe. A ação de tornar anônimo é realizada antes de qualquer processamento do endereço de IP, incluindo tanto a pesquisa geográfica opcional como a pesquisa ISP para o endereço de IP. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alemanha </td> 
-   <td colname="col2"> <p>Caso os clientes ainda não possuam Contrato de processamento de dados para o Adobe Analytics em ordem com a Adobe, eles devem entrar em contato com o Gerente de Contas da Adobe ou com o Gerente de Sucesso do Cliente, que trabalharão com o Departamento jurídico da Adobe para deixar o Contrato de processamento de dados em ordem. </p> <p>A Adobe preparou um Contrato de processamento de dados (Vertrag fuer Auftragsdatenverarbeitung - ADV) para o Analytics, que foi revisto e aprovado pela Autoridade de Proteção de Dados da Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). O ADV está disponível em alemão e em inglês. </p> </td> 
+   <td colname="col2"> <p>Caso os clientes ainda não possuam Contrato de processamento de dados para o Adobe Analytics em ordem com a Adobe, eles devem entrar em contato com o Gerente de Contas da Adobe ou com o Gerente de Sucesso do Cliente, que trabalharão com o Departamento jurídico da Adobe para deixar o Contrato de processamento de dados em ordem. </p> <p>A Adobe preparou um Contrato de processamento de dados (Vertrag fuer Auftragsdatenverarbeitung – ADV) para o Analytics, que foi revisto e aprovado pela Autoridade de proteção de dados da Alemanha (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). O ADV está disponível em alemão e em inglês. </p> </td> 
   </tr> 
  </tbody> 
 </table>
