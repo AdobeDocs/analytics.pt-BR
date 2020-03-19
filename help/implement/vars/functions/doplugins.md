@@ -2,17 +2,17 @@
 title: doPlugins
 description: Configure a lógica antes de uma ocorrência ser compilada e enviada para a Adobe.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # doPlugins
 
-A `doPlugins` variável atua como uma &quot;última chamada&quot; para definir valores na sua implementação. Se `usePlugins` estiver `true`, ele será executado automaticamente antes que qualquer tipo de solicitação de imagem seja compilada e enviada para a Adobe, incluindo:
+A `doPlugins` variável atua como uma &quot;última chamada&quot; para definir valores na sua implementação. Se [`usePlugins`](../config-vars/useplugins.md) estiver ativado, ele será executado automaticamente antes que qualquer tipo de solicitação de imagem seja compilada e enviada para a Adobe, incluindo:
 
-* Todas as chamadas de exibição de página (`t`)
-* Todas as chamadas de rastreamento de link (`tl`), incluindo links de download automáticos e links de saída
+* Todas as chamadas de exibição de página ([`t()`](t-method.md))
+* Todas as chamadas de rastreamento de link ([`tl()`](tl-method.md)), incluindo links de download automáticos e links de saída
 
 Use a `doPlugins` variável para chamar o código do plug-in e definir os valores finais da variável antes que uma solicitação de imagem seja compilada e enviada para a Adobe.
 
