@@ -2,14 +2,14 @@
 title: Evento de compra
 description: Use o evento purchase para coletar dados das métricas "Pedidos", "Unidades" e "Receita".
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Evento de compra
 
-O evento purchase é um valor na `events` variável. Esse valor é útil para organizações que desejam coletar dados sobre a receita gerada pelo site. É altamente dependente das variáveis `products` e `purchaseID` .
+O evento purchase é um valor na `events` variável. Esse valor é útil para organizações que desejam coletar dados sobre a receita gerada pelo site. É altamente dependente das variáveis [`products`](../products.md) e [`purchaseID`](../purchaseid.md) .
 
 Quando você define um evento de compra, ele afeta as seguintes métricas:
 
@@ -21,14 +21,14 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone &#39;+&#39;.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como [!UICONTROL Definir variáveis].
-6. Localize a seção [!UICONTROL Eventos] e defina os eventos como [!UICONTROL compra].
+3. Vá para a [!UICONTROL Rules] guia e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Actions], clique em uma [!UICONTROL Adobe Analytics - Set Variables] ação existente ou no ícone &#39;+&#39;.
+5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e [!UICONTROL Action Type] como [!UICONTROL Set Variables].
+6. Localize a [!UICONTROL Events] seção e defina a lista suspensa de eventos como [!UICONTROL purchase].
 
 Outras variáveis dependentes, como `products` e `purchaseID` , não têm campos dedicados no Launch. Use o editor de código personalizado após a sintaxe do AppMeasurement para essas variáveis.
 
-## Definir o evento de compra no editor de código personalizado AppMeasurement e Launch
+## Definir o evento de compra no editor de código personalizado do AppMeasurement e do Launch
 
 O evento purchase é uma string definida como parte da variável events.
 
