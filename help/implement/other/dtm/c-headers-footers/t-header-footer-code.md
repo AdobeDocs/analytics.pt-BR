@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adicionar o código do cabeçalho e do rodapé
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -16,11 +16,11 @@ Use o Dynamic Tag Management para adicionar o código de cabeçalho e rodapé qu
 
 Como o Dynamic Tag Management inclui um trecho de código no cabeçalho e no rodapé, você pode executar regras no início ou no final de uma página. Essa capacidade permite implementar ferramentas de teste e outras tecnologias, além de manter o controle sobre o rastreamento das páginas.
 
-O Dynamic Tag Management cria códigos de incorporação para teste e produção, de modo que você possa testar as alterações em seu ambiente de testes antes de aplicá-las ao ambiente de produção.
+O Dynamic Tag Management cria códigos de incorporação para preparo e produção, de modo que você possa testar as alterações em seu ambiente de preparo antes de aplicá-las ao ambiente de produção.
 
 >[!IMPORTANT]
 >
->Para uma implementação bem-sucedida, é importante seguir as instruções à medida que elas são exibidas na seção de Ajuda. Você deve colocar o código do cabeçalho na seção `<head>` dos modelos do documento. Além disso, você deve colocar o código do rodapé antes de fechar a tag `</body>`. Colocar esses códigos de incorporação em qualquer outro lugar na marcação, usar métodos assíncronos para adicionar os códigos de incorporação ou quebrar os códigos de incorporação de qualquer maneira *não* são implementações compatíveis com o Dynamic Tag Management. Os códigos incorporados devem ser implementados exatamente como são fornecidos.
+>Para uma implementação bem-sucedida, é importante seguir as instruções à medida que elas são exibidas na seção de Ajuda da Adobe. Você deve colocar o código do cabeçalho na seção `<head>` dos modelos do documento. Além disso, você deve colocar o código do rodapé antes de fechar a tag `</body>`. Colocar esses códigos de incorporação em qualquer outro lugar na marcação, usar métodos assíncronos para adicionar os códigos de incorporação ou quebrar os códigos de incorporação de qualquer maneira *não* são implementações compatíveis com o Dynamic Tag Management. Os códigos incorporados devem ser implementados exatamente como são fornecidos.
 >
 >Uma implementação não suportada criará resultados inesperados e impedirá que o Atendimento ao cliente e a Engenharia auxiliem durante a sua implementação.
 
@@ -30,15 +30,15 @@ O Dynamic Tag Management cria códigos de incorporação para teste e produção
 
    ![](assets/dtm-embed.png)
 
-   Coloque o código o mais próximo possível do [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag o mais possível. Esse trecho de código deve ser colocado em cada página do site de produção ativo.
+   Coloque o código o mais próximo da [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag possível. Esse trecho de código deve ser colocado em cada página do site de produção ativo.
 
    >[!NOTE]
    >
-   >O código de incorporação da produção reflete somente os itens publicados nessa [propriedade](/help/implement/other/dtm/t-create-web-property.md). No entanto, o código de incorporação para preparo reflete todos os itens na propriedade associada, independentemente do estado publicado ou não. Para testar itens não publicados no site de produção, habilite localmente o preparo no console seguindo as instruções em  [Testar regras não publicadas para a hospedagem do Akamai](/help/implement/other/dtm/c-rules/t-test-rules-akamai.md).
+   >O código de incorporação da produção reflete somente os itens publicados nessa [propriedade](/help/implement/other/dtm/t-create-web-property.md). No entanto, o código de incorporação para preparo reflete todos os itens na propriedade associada, independentemente do estado publicado ou não. Para testar itens não publicados no site de produção, habilite localmente o preparo no console seguindo as instruções em [Testar regras não publicadas para a hospedagem do Akamai](/help/implement/other/dtm/c-rules/t-test-rules-akamai.md).
 
 1. Copie o código do rodapé de produção e coloque-o na seção [!DNL BODY] do HTML do site.
 
-   Coloque o código o mais próximo possível do [!DNL </body>] tag o mais possível.
+   Coloque o código o mais próximo possível da [!DNL </body>] tag possível.
 1. Copie o código do cabeçalho e do rodapé de armazenamento temporário e repita as etapas acima no site de armazenamento temporário.
 
    >[!NOTE]
