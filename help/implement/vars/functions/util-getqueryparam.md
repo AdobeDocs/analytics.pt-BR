@@ -2,14 +2,14 @@
 title: Util.getQueryParam
 description: Retorna o valor de um parâmetro da string de consulta.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.getQueryParam
 
-Parâmetros de string de consulta em um URL do navegador frequentemente contêm dados importantes para o Analytics. Use o `Util.getQueryParam` método para recuperar dados da string de consulta.
+Parâmetros de string de consulta em um URL do navegador frequentemente contêm dados importantes para o Analytics. Use o `Util.getQueryParam()` método para recuperar dados da string de consulta.
 
 ## Obter dados de parâmetro da string de consulta no Adobe Experience Platform Launch
 
@@ -17,8 +17,8 @@ Parâmetros de string de consulta em um URL do navegador frequentemente contêm 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia Elementos [!UICONTROL de] dados e clique no elemento de dados desejado (ou crie um elemento de dados).
-4. Defina a lista suspensa [!UICONTROL Extensão] como [!UICONTROL Principal]e o Tipo [!UICONTROL de elemento de] dados como Parâmetro [!UICONTROL de string de]consulta.
+3. Vá para a [!UICONTROL Data Elements] guia e clique no elemento de dados desejado (ou crie um elemento de dados).
+4. Defina a [!UICONTROL Extension] lista suspensa como [!UICONTROL Core], e a opção [!UICONTROL Data Element Type] como [!UICONTROL Query String Parameter].
 5. Insira o parâmetro da string de consulta no campo de texto.
 
 O valor do parâmetro da string de consulta é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir variáveis do Analytics.
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
-> [!NOTE] As versões anteriores do AppMeasurement tinham um plug-in chamado `s.getQueryParam` disponível. Esse plug-in não é mais necessário, pois agora está incluído no AppMeasurement por padrão.
+> [!TIP] Um plug-in semelhante nomeado [`s.getQueryParam`](../plugins/getqueryparam.md) está disponível. Esse plug-in contém recursos mais avançados, mas também é mais complexo e não está incluído no AppMeasurement por padrão.
