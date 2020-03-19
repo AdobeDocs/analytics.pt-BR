@@ -1,7 +1,7 @@
 ---
 title: Implementação do Analytics para dispositivos móveis
 description: Determine qual biblioteca do AppMeasurement para dispositivos móveis deve ser usada.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
@@ -18,11 +18,11 @@ Para implementar o Analytics para dispositivos móveis, consulte os seguintes re
 
 ## SDKs móveis da versão 4
 
-> [!CAUTION] O suporte para SDKs móveis da versão 4 termina em 30 de setembro de 2020. Consulte Perguntas frequentes sobre [o suporte aos SDKs móveis da](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) versão 4 para obter mais informações.
+> [!CAUTION] O suporte à versão 4 dos SDKs móveis termina em 30 de setembro de 2020. Consulte [Perguntas frequentes sobre o fim de suporte aos SDKs móveis da versão 4](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) para obter mais informações.
 
 * [Repositório SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-* [Documentação do iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Documentação do Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [Documentação do iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html)
+* [Documentação do Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/overview.html)
 
 ## AppMeasurement 3.x
 
