@@ -1,7 +1,7 @@
 ---
 title: pageURL
 description: Substitua o URL da página coletado automaticamente em seu site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -11,26 +11,26 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 O AppMeasurement coleta automaticamente o URL da página em cada ocorrência. Se você quiser substituir o URL da página coletado automaticamente pelo AppMeasurement, use essa variável. Não é necessário definir essa variável na maioria dos casos.
 
-> [!NOTE] Essa variável não é uma dimensão disponível na Analysis Workspace. Ela só está disponível no Data Warehouse e nos Feeds de dados. Se você deseja usar o URL da página como uma dimensão na Analysis Workspace, considere passar a `pageURL` variável para uma eVar em cada ocorrência.
+> [!NOTE] Essa variável não é uma dimensão disponível no Analysis Workspace. Ela só está disponível no Data Warehouse e nos Feeds de dados. Se você deseja usar o URL da página como uma dimensão no Analysis Workspace, considere transmitir a variável `pageURL` para uma eVar em cada ocorrência.
 
-Às vezes, os URLs têm mais de 255 bytes. O AppMeasurement usa o parâmetro da string de `g` consulta para os primeiros 255 bytes do URL em solicitações de imagem. Se um URL tiver mais de 255 bytes, o restante do URL será armazenado no parâmetro da string de `-g` consulta. As strings de protocolo e consulta no URL são incluídas nesta variável.
+Às vezes, os URLs têm mais de 255 bytes. O AppMeasurement usa o parâmetro da string de consulta `g` para os primeiros 255 bytes do URL em solicitações de imagem. Se um URL tiver mais de 255 bytes, o restante do URL será armazenado no parâmetro da string de consulta `-g`. As strings de protocolo e de consulta no URL são incluídas nesta variável.
 
 ## URL da página no Adobe Experience Platform Launch
 
-O Launch preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em regras.
+O Launch preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone &#39;+&#39;.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como [!UICONTROL Definir variáveis].
-6. Localize a seção URL [!UICONTROL da] página.
+4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+6. Localize a seção [!UICONTROL URL da página].
 
 Você pode definir o URL da página como qualquer valor de string.
 
-## s.pageURL no AppMeasurement e Iniciar editor de código personalizado
+## s.pageURL no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.pageURL` variável é uma string que contém o URL da página. O AppMeasurement coleta essa variável automaticamente, no entanto, você pode substituir seu valor, se desejar.
+A variável `s.pageURL` é uma string que contém o URL da página. O AppMeasurement coleta essa variável automaticamente, no entanto, você pode substituir o valor dela, se desejar.
 
 ```js
 s.pageURL = "https://example.com";
