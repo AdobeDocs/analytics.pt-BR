@@ -2,16 +2,16 @@
 title: linkTrackEvents
 description: Determine quais eventos devem ser incluídos nas solicitações de imagem de rastreamento de link.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackEvents
 
-Algumas implementações não querem incluir todas as variáveis em todas as solicitações de imagem de rastreamento de link. Use as variáveis `linkTrackVars` e `linkTrackEvents` para incluir seletivamente dimensões e métricas em `tl()` chamadas.
+Algumas implementações não querem incluir todas as variáveis em todas as solicitações de imagem de rastreamento de link. Use as variáveis [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` para incluir seletivamente dimensões e métricas em [`tl()`](../functions/tl-method.md) chamadas.
 
-Essa variável não é usada para chamadas de exibição de página (`t()` função).
+Essa variável não é usada para chamadas de exibição de página ([`t()`](../functions/t-method.md) método).
 
 ## Eventos em chamadas de rastreamento de link usando o Adobe Experience Platform Launch
 
@@ -21,9 +21,9 @@ O Launch detecta automaticamente os eventos definidos na interface e os inclui n
 
 ## s.linkTrackEvents no AppMeasurement e Iniciar editor de código personalizado
 
-A `s.linkTrackEvents` variável é uma string contendo uma lista de eventos delimitada por vírgulas que você deseja incluir nas solicitações de imagem de rastreamento de link (`tl()` função). Os três critérios a seguir devem ser atendidos para incluir métricas nas ocorrências de rastreamento de link:
+A `s.linkTrackEvents` variável é uma string que contém uma lista de eventos delimitada por vírgulas que você deseja incluir nas solicitações de imagem de rastreamento de link (`tl()` método). Os três critérios a seguir devem ser atendidos para incluir métricas nas ocorrências de rastreamento de link:
 
-* Defina o evento desejado na `events` variável. Por exemplo, `s.events = "event1";`.
+* Defina o evento desejado na [`events`](../page-vars/events/events-overview.md) variável. Por exemplo, `s.events = "event1";`.
 * Set the `events` variable in `linkTrackVars`. Por exemplo, `s.linkTrackVars = "events";`.
 * Defina o evento desejado na `linkTrackEvents` variável. Por exemplo, `s.linkTrackEvents = "event1";`.
 
