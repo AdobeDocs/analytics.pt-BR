@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar as ações que serão acionadas pela condição
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -24,7 +24,7 @@ Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 
 **Para configurar ações para a condição do disparador**
 
-1. Clique em **[!UICONTROL JavaScript / tags de terceiros]**para adicionar um novo script à regra.
+1. Clique em **[!UICONTROL JavaScript / tags de terceiros]** para adicionar um novo script à regra.
 
    ![](assets/scripts-actions.png)
 
@@ -35,5 +35,5 @@ Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 1. Nomeie o script.
 1. Determine como deseja que o script seja acionado e cole o conteúdo desejado na área do texto. ![](assets/scripts-actions3.png)
 
-1. Clique em **[!UICONTROL Salvar código]**e o script será adicionado à fila da regra.![](assets/scripts-actions4.png)
+1. Clique em **[!UICONTROL Salvar código]** e o script será adicionado à fila da regra. ![](assets/scripts-actions4.png)
 
