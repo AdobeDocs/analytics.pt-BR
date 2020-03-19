@@ -2,7 +2,7 @@
 title: getTimeToComplete
 description: Meça o tempo gasto para concluir uma tarefa.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,15 +61,15 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 O `getTimeToComplete` método usa os seguintes argumentos:
 
-* **`sos`**(opcional, string): Defina para`"start"`quando quiser iniciar o timer. Defina para`"stop"`quando quiser parar o timer. O padrão é`"start"`.
-* **`cn`**(opcional, string): O nome do cookie para armazenar a hora de início. O padrão é`"s_gttc"`.
-* **`exp`**(opcional, número inteiro): O número de dias em que o cookie (e o timer) expira. O padrão é`0`, que representa o fim da sessão do navegador.
+* **`sos`** (opcional, string): Defina para `"start"` quando quiser iniciar o timer. Defina para `"stop"` quando quiser parar o timer. O padrão é `"start"`.
+* **`cn`** (opcional, string): O nome do cookie para armazenar a hora de início. O padrão é `"s_gttc"`.
+* **`exp`** (opcional, número inteiro): O número de dias em que o cookie (e o timer) expira. O padrão é `0`, que representa o fim da sessão do navegador.
 
 Chamar esse método retorna uma string que contém o número de dias, horas, minutos e/ou segundos que levou entre a ação `"start"` e a ação `"stop"` .
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Use essas chamadas para determinar o tempo entre o momento em que um visitante inicia o processo de checkout e o momento em que realiza uma compra.
 
@@ -87,7 +87,7 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 
 s.prop1 capturará o tempo necessário para concluir o processo de compra
 
-### Exemplo #2
+### Exemplo nº 2
 
 Se quiser ter vários temporizadores em execução ao mesmo tempo (para medir processos diferentes), será necessário definir manualmente o argumento de cookie cn.  Por exemplo, se você quiser medir a quantidade de tempo necessária para que uma compra seja concluída, defina o seguinte código...
 
@@ -124,5 +124,5 @@ No segundo exemplo, event1 deve capturar o início de um processo de registro qu
 ### 2.0 de junho de 2016)
 
 * Eliminação da dependência do `p_fo` plug-in.
-* Compatibilidade adicionada com o código H e o AppMeasurement.
+* Adicionada compatibilidade com o código H e o AppMeasurement.
 * Adicionado o registro do console.
