@@ -1,9 +1,9 @@
 ---
 title: Visão geral de variáveis, funções, métodos e plug-ins
-description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
+description: Saiba quais variáveis podem ser incluídas nos dados enviados para a Adobe para melhorar os relatórios.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -25,8 +25,8 @@ A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página 
 As bibliotecas do AppMeasurement publicadas pelo Adobe Analytics seguem uma ordem específica ao enviar dados para a Adobe. Se você executar essas tarefas fora de ordem, os dados poderão estar incompletos.
 
 1. Se o site usar uma camada de dados, verifique se todas as variáveis aplicáveis foram preenchidas primeiro. See [Data layer](../prepare/data-layer.md) for more information.
-2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar o Launch, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. Consulte Elementos [de dados](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) no guia do usuário Iniciar.
-3. Chame a função de rastreamento. A maioria das bibliotecas do AppMeasurement usam a `t()` função, no entanto, alguns SDKs móveis usam `track()`. Quando a função de rastreamento é chamada, todas as variáveis compatíveis definidas no objeto do Analytics são enviadas para a Adobe na forma de uma solicitação de imagem.
+2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar o Launch, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. See [Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) in the Launch user guide.
+3. Chame a função de rastreamento. A maioria das bibliotecas do AppMeasurement usam o `t()` método, no entanto, alguns SDKs móveis usam `track()`. Quando a função de rastreamento é chamada, todas as variáveis compatíveis definidas no objeto do Analytics são enviadas para a Adobe na forma de uma solicitação de imagem.
 
 ## Caracteres ilegais
 
