@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: Recupere a porcentagem da página que o visitante visualizou.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,14 +19,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,12 +45,12 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 O `getPercentPageViewed` método usa os seguintes argumentos:
 
-* **`pid`**(opcional, string):  Um identificador baseado em página que você pode correlacionar com as porcentagens fornecidas pelas medidas do plug-in.  O padrão é a`pageName`variável.
-* **`ch`**(opcional, booleano):  Defina como`false`(ou`0`) se você não quiser que o plug-in considere quaisquer alterações feitas no tamanho de uma página após o carregamento inicial. Se omitido, esse argumento assumirá`true`como padrão. A Adobe recomenda omitir esse argumento na maioria dos casos.
+* **`pid`** (opcional, string):  Um identificador baseado em página que você pode correlacionar com as porcentagens fornecidas pelas medidas do plug-in.  O padrão é a `pageName` variável.
+* **`ch`** (opcional, booleano):  Defina como `false` (ou `0`) se você não quiser que o plug-in considere quaisquer alterações feitas no tamanho de uma página após o carregamento inicial. Se omitido, esse argumento assumirá `true`como padrão. A Adobe recomenda omitir esse argumento na maioria dos casos.
 
 Chamar esse método não retorna nada; em vez disso, ele define as seguintes variáveis:
 
-* `s._ppvPreviousPage`: O nome da página anterior exibida. As medidas de rolagem finais da página atual não estarão disponíveis até que uma nova página seja carregada.
+* `s._ppvPreviousPage`: O nome da página anterior exibida. As medidas de rolagem finais para a página atual não estão disponíveis até que uma nova página seja carregada.
 * `s._ppvHighestPercentViewed`: a porcentagem mais alta da página anterior que o visitante visualizou (em termos de altura). O ponto mais distante para o qual o visitante rolou para baixo na página anterior.
 * `s._ppvInitialPercentViewed`: a porcentagem da página anterior que estava visível quando a página anterior foi carregada pela primeira vez.
 * `s._ppvHighestPixelsSeen`: o maior número dos pixels totais vistos (em relação à altura) quando o visitante rolou pela página anterior.
@@ -63,7 +63,7 @@ Este plug-in cria um cookie próprio chamado `s_ppv` que contém os valores acim
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 O seguinte código...
 
@@ -84,7 +84,7 @@ if(s._ppvPreviousPage)
 
 **Observação**:  Se uma página inteira estiver visível quando for carregada pela primeira vez, tanto a porcentagem mais alta visualizada quanto as dimensões da porcentagem inicial visualizada serão iguais a 100, e ambas as dimensões Folds Seen e Folds Available serão iguais a 1.   Quando uma página inteira NÃO estiver visível quando for carregada pela primeira vez, mas o visitante nunca terminar rolando para baixo antes de ir para a próxima página, então tanto a porcentagem mais alta visualizada quanto a porcentagem inicial visualizada serão iguais ao mesmo valor.
 
-### Exemplo #2
+### Exemplo nº 2
 
 Suponha que s.prop5 tenha sido reservado para capturar um &quot;tipo de página&quot; acumulado, em vez do nome da página inteira.
 
