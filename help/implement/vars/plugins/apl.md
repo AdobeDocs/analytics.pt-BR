@@ -1,8 +1,8 @@
 ---
-title: ' apl (appendToList)'
+title: apl (appendToList)
 description: Anexar valores a variáveis que suportam vários valores.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
 
-O plug- `apl` -in permite adicionar com segurança novos valores a variáveis delimitadas por lista, como `events`, `linkTrackVars`, list vars e outras.
+O plug- `apl` -in permite que você adicione com segurança novos valores a variáveis delimitadas por lista, como [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)entre outras.
 
 * Se o valor que você deseja adicionar não existir na variável, então o código adiciona o valor ao final da string.
 * Se o valor que você deseja adicionar já existir na variável, esse plug-in não altera o valor. Esses recursos permitem que sua implementação evite valores duplicados.
 * Se a variável que você deseja adicionar estiver vazia, o plug-in definirá a variável para o novo valor.
 
-A Adobe recomenda usar esse plug-in se desejar adicionar novos valores às variáveis existentes que contenham uma sequência de valores delimitados. Esse plug-in não é necessário se você preferir concatenar strings para variáveis que contêm valores delimitados.
+A Adobe recomenda usar esse plug-in se você quiser adicionar novos valores às variáveis existentes que contenham uma sequência de valores delimitados. Esse plug-in não é necessário se você preferir concatenar strings para variáveis que contêm valores delimitados.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
@@ -25,8 +25,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -41,14 +41,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,17 +64,17 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 O `apl` método usa os seguintes argumentos:
 
-* **`lv`**(obrigatório, string): A variável que contém uma lista delimitada de itens para adicionar um novo valor a
-* **`vta`**(obrigatório, string): Uma lista delimitada por vírgulas dos novos valores a serem adicionados ao valor do`lv`argumento.
-* **`d1`**(opcional, string): O delimitador usado para separar os valores individuais já contidos no`lv`argumento.  O padrão é uma vírgula (`,`) quando não está definida.
-* **`d2`**(opcional, string): O delimitador de saída. O padrão é o mesmo valor que`d1`quando não está definido.
-* **`cc`**(opcional, booleano): Um sinalizador que indica se uma verificação que diferencia maiúsculas e minúsculas é usada. Se`true`, a verificação de duplicação faz distinção entre maiúsculas e minúsculas. Se definida`false`ou não, a verificação de duplicação não diferencia maiúsculas de minúsculas. O padrão é`false`.
+* **`lv`** (obrigatório, string): A variável que contém uma lista delimitada de itens para adicionar um novo valor a
+* **`vta`** (obrigatório, string): Uma lista delimitada por vírgulas dos novos valores a serem adicionados ao valor do `lv` argumento.
+* **`d1`** (opcional, string): O delimitador usado para separar os valores individuais já contidos no `lv` argumento.  O padrão é uma vírgula (`,`) quando não está definida.
+* **`d2`** (opcional, string): O delimitador de saída. O padrão é o mesmo valor que `d1` quando não está definido.
+* **`cc`** (opcional, booleano): Um sinalizador que indica se uma verificação que diferencia maiúsculas e minúsculas é usada. Se `true`, a verificação de duplicação faz distinção entre maiúsculas e minúsculas. Se definida `false` ou não, a verificação de duplicação não diferencia maiúsculas de minúsculas. O padrão é `false`.
 
 O `apl` método retorna o valor do `lv` argumento mais quaisquer valores não duplicados no `vta` argumento.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Se o status...
 
@@ -94,7 +94,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-### Exemplo #2
+### Exemplo nº 2
 
 Se o status...
 
@@ -136,7 +136,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event23";
 ```
 
-### Exemplo #4
+### Exemplo nº 4
 
 Se o status...
 
@@ -164,7 +164,7 @@ s.eVar5 = "hello|people|today";
 
 Lembre-se de que o plug-in retorna apenas um valor; ela não &quot;redefine&quot; necessariamente a variável transmitida pelo argumento lv.
 
-### Exemplo #5
+### Exemplo nº 5
 
 Se o status...
 
@@ -186,7 +186,7 @@ s.prop4 = "hello|people,today";
 
 Certifique-se de manter o delimitador consistente entre o que está no valor do argumento lv e o que está nos argumentos d1/d2
 
-### Exemplo #6
+### Exemplo nº 6
 
 Se o status...
 
@@ -208,7 +208,7 @@ s.events = "event22,event23,EVentT23";
 
 Embora esse exemplo não seja prático, demonstra a necessidade de usar cautela ao usar o sinalizador que diferencia maiúsculas de minúsculas.
 
-### Exemplo #7
+### Exemplo nº 7
 
 Se o status...
 
@@ -230,7 +230,7 @@ s.events = "event22,event23,event24,event25");
 
 O plug-in não adicionará &quot;event23&quot; a s.events porque ele já existe em s.events.  No entanto, ele adicionará event24 e event25 a s.events porque nenhum deles estava anteriormente contido em s.events.
 
-### Exemplo #8
+### Exemplo nº 8
 
 Se o status...
 
@@ -252,7 +252,7 @@ s.linkTrackVars = "events,eVar1,campaign";
 
 Os três últimos argumentos (ou seja, &quot;,&quot;, &quot;,&quot;, false) no final desta chamada de aplicativo não são necessários, mas também não estão &quot;prejudicando nada&quot; ao serem definidos, pois correspondem aos valores padrão do argumento.
 
-### Exemplo #9
+### Exemplo nº 9
 
 Se o status...
 
@@ -300,7 +300,7 @@ Como os dois argumentos delimitadores são diferentes, o valor passado será del
 
 ### 3.2 (25 de setembro de 2019)
 
-* Correção de problemas de compatibilidade com `apl` chamadas que usavam versões anteriores do plug-in
+* Correção de problemas de compatibilidade com `apl` chamadas que usavam versões mais antigas do plug-in
 * Remoção de avisos do console para reduzir o tamanho
 * Adição de `inList 2.1`
 
