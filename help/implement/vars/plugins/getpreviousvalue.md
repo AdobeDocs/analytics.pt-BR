@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: Obtenha o último valor passado para uma variável.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,14 +55,14 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 O `getPreviousValue` método usa os seguintes argumentos:
 
-* **`v`**(string, obrigatório): A variável que tem o valor que você deseja passar para a próxima solicitação de imagem. Uma variável comum usada é recuperar`s.pageName`o valor da página anterior.
-* **`c`**(string, opcional): O nome do cookie que armazena o valor.  Se esse argumento não estiver definido, ele assumirá`"s_gpv"`como padrão.
+* **`v`** (string, obrigatório): A variável que tem o valor que você deseja passar para a próxima solicitação de imagem. Uma variável comum usada é recuperar `s.pageName` o valor da página anterior.
+* **`c`** (string, opcional): O nome do cookie que armazena o valor.  Se esse argumento não estiver definido, ele assumirá `"s_gpv"`como padrão.
 
-Quando você chama esse método, ele retorna o valor da string contido no cookie. Em seguida, o plug-in redefine a expiração do cookie e atribui o valor da variável do `v` argumento. O cookie expira após 30 minutos de inatividade.
+Quando você chama esse método, ele retorna o valor da string contido no cookie. O plug-in então redefine a expiração do cookie e atribui o valor da variável do `v` argumento. O cookie expira após 30 minutos de inatividade.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 O seguinte código...
 
@@ -74,7 +74,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 * O código redefinirá o cookie &quot;gpv_Page&quot;, tornando-o igual ao valor atual de s.pageName
 * Se s.pageName não estiver definido no momento em que esse código é executado, o código redefinirá a expiração do valor atual do cookie
 
-### Exemplo #2
+### Exemplo nº 2
 
 O código a seguir define s.prop7 igual ao último valor passado para s.pageName, mas somente se event1 também estiver contido em s.events, conforme determinado pelo plug-in in inList, no momento em que a chamada ocorre.
 
@@ -90,7 +90,7 @@ O código a seguir define s.prop7 igual ao último valor passado para s.pageName
 if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Exemplo #4
+### Exemplo nº 4
 
 O código a seguir define s.eVar10 igual ao valor passado para s.eVar1 na solicitação de imagem anterior.   O valor anterior da eVar1 estaria contido no cookie &quot;s_gpv&quot;.  O código definirá o cookie &quot;s_gpv&quot; igual ao valor atual de s.eVar1.
 
@@ -126,7 +126,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-Quando a função de chamada s.t() é executada, ela criará uma solicitação de imagem onde s.pageName=&quot;page 2&quot; e s.prop7 é igual a &quot;Happy value&quot;, que era o valor de s.pageName quando a última chamada para getPreviousValue ocorreu.   O valor s.prop7 de &quot;home&quot; nunca foi contido em nenhuma solicitação de imagem real, embora &quot;home&quot; tenha sido o primeiro valor passado para s.pageName.
+Quando a função de chamada s.t() é executada, ela criará uma solicitação de imagem onde s.pageName=&quot;page 2&quot; e s.prop7 é igual a &quot;Happy value&quot;, que era o valor de s.pageName quando a última chamada para getPreviousValue ocorreu.   O valor s.prop7 de &quot;home&quot; nunca foi contido em nenhuma solicitação de imagem real, mesmo que &quot;home&quot; tenha sido o primeiro valor passado para s.pageName.
 
 ## Histórico da versão
 
