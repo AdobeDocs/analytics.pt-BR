@@ -1,8 +1,8 @@
 ---
 title: Visão geral dos plug-ins
-description: Cole o código no site para introduzir uma nova funcionalidade.
+description: Cole o código em seu site para introduzir uma nova funcionalidade.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,7 +21,7 @@ A Adobe oferece várias maneiras de instalar um determinado plug-in:
 
 Cada organização tem necessidades de implementação diferentes, de modo que você pode decidir como deseja incluí-las na implementação. Certifique-se de atender aos seguintes critérios ao incluir o código em seu site:
 
-1. Instancie o objeto de rastreamento do Analytics (usando `s_gi`) primeiro.
+1. Instancie o objeto de rastreamento do Analytics (usando [`s_gi`](../functions/s-gi.md)) primeiro.
    * O Launch instancia automaticamente o objeto de rastreamento quando o Adobe Analytics é carregado.
    * Implementações que usam `AppMeasurement.js` normalmente inicializar o objeto de rastreamento na parte superior do arquivo JavaScript.
 2. Inclua o código do plug-in em segundo lugar.
@@ -29,7 +29,7 @@ Cada organização tem necessidades de implementação diferentes, de modo que v
    * Se você não quiser usar o plug-in, é possível colar o código do plug-in no editor de código personalizado ao configurar a extensão do Analytics.
    * Se sua implementação não usar o Launch, você poderá colar o código do plug-in em `AppMeasurement.js` qualquer lugar depois de instanciar o objeto de rastreamento.
 3. Chame o plug-in terceiro.
-   * Todas as implementações, dentro e fora do Launch, usam JavaScript para chamar plug-ins. Chame o plug-in usando o formato documentado na página desse plug-in.
+   * Todas as implementações, dentro e fora do Launch, usam o JavaScript para chamar plug-ins. Chame o plug-in usando o formato documentado na página desse plug-in.
 4. Valide sua implementação e publique.
 
 Muitas organizações chamam plug-ins usando a [`doPlugins`](../functions/doplugins.md) função. Embora essa função não seja necessária, a Adobe considera a prática recomendada para usar. O AppMeasurement chama essa função antes de compilar e enviar uma solicitação de imagem, o que é ideal, pois vários plug-ins dependem de outras variáveis do Analytics.
