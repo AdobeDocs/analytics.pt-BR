@@ -2,7 +2,7 @@
 title: getValOnce
 description: Impedir que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,16 +55,16 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 
 O `getValOnce` método usa os seguintes argumentos:
 
-* **`vtc`**(obrigatório, string): A variável para verificar se foi definida anteriormente como um valor idêntico
-* **`cn`**(opcional, string): O nome do cookie que contém o valor a ser verificado. O padrão é`"s_gvo"`
-* **`et`**(opcional, número inteiro): A expiração do cookie em dias (ou minutos, dependendo do`ep`argumento). O padrão é`0`, que expira no final da sessão do navegador
-* **`ep`**(opcional, string): Somente defina esse argumento se o`et`argumento também estiver definido. Configure esse argumento para`"m"`se desejar que o`et`argumento expire em minutos em vez de dias. O padrão é`"d"`, que define o`et`argumento em dias.
+* **`vtc`** (obrigatório, string): A variável para verificar se foi definida anteriormente como um valor idêntico
+* **`cn`** (opcional, string): O nome do cookie que contém o valor a ser verificado. O padrão é `"s_gvo"`
+* **`et`** (opcional, número inteiro): A expiração do cookie em dias (ou minutos, dependendo do `ep` argumento). O padrão é `0`, que expira no final da sessão do navegador
+* **`ep`** (opcional, string): Somente defina esse argumento se o `et` argumento também estiver definido. Configure esse argumento para `"m"` se desejar que o `et` argumento expire em minutos em vez de dias. O padrão é `"d"`, que define o `et` argumento em dias.
 
 Se o `vtc` argumento e o valor do cookie corresponderem, esse método retornará uma string vazia. Se o `vtc` argumento e o valor do cookie não corresponderem, o método retornará o `vtc` argumento como uma string.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Use esta chamada para evitar que o mesmo valor seja transmitido para s.campaign mais de uma vez seguidas nos próximos 30 dias:
 
@@ -74,7 +74,7 @@ s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 
 Na chamada acima, o plug-in primeiro comparará o valor já contido no cookie s_campaign com o valor proveniente da variável s.campaign atual.   Se não houver correspondência, o plug-in definirá o cookie s_campaign igual ao novo valor proveniente de s.campaign e retornará o novo valor.   Essa comparação acontecerá nos próximos trinta dias
 
-### Exemplo #2
+### Exemplo nº 2
 
 Use esta chamada para impedir que o mesmo valor seja definido na sessão:
 
