@@ -1,7 +1,7 @@
 ---
 title: Acompanhamento de email externo
 description: Use o Adobe Analytics para rastrear conteúdo de email.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 As empresas usam o Analytics para determinar o sucesso de uma campanha por email.
 
-O[!DNL Analytics] pode informar os dados de análise da campanha por email usando diversas métricas principais, incluindo as seguintes:
+O [!DNL Analytics] pode informar os dados de análise da campanha por email usando diversas métricas principais, incluindo as seguintes:
 
 | Métrica | Descrição |
 |---|---|
@@ -36,15 +36,15 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
    * sc_cid=GG987123 > &quot;GG&quot; significa Google e é uma campanha de pesquisa paga
    Entre em contato com o Adobe [!DNL Customer Care] para obter detalhes sobre a configuração e o uso de códigos de rastreamento.
 
-1. Adicione parâmetros da string de consulta aos links de email HTML.
+1. Adicione parâmetros da cadeia de caracteres de consulta aos links de email HTML.
 
-   Para rastrear um click-through do usuário e os eventos bem-sucedidos subsequentes, um parâmetro da string de consulta deve ser adicionado a cada link dentro do email HTML. É possível rastrear cada link separadamente ou todos eles juntos. Cada link pode ter um código de rastreamento exclusivo ou todos os links podem ter o mesmo código de rastreamento. Considere o link hipotético a seguir dentro do email de um site:
+   Para rastrear um click-through do usuário e os eventos bem-sucedidos subsequentes, um parâmetro da cadeia de caracteres de consulta deve ser adicionado a cada link dentro do email HTML. É possível rastrear cada link separadamente ou todos eles juntos. Cada link pode ter um código de rastreamento exclusivo ou todos os links podem ter o mesmo código de rastreamento. Considere o link hipotético a seguir dentro do email de um site:
 
    ```js
    <a href="https://www.example.com/index.asp">Visit our home page</a>
    ```
 
-   Os parâmetros da string de consulta a seguir ?sc_cid=112233B devem ser adicionados ao link acima:
+   Os parâmetros da cadeia de caracteres de consulta a seguir ?sc_cid=112233B devem ser adicionados ao link acima:
 
    ```js
    <a href= "https://www.example.com/index.asp?sc_cid=112233B">Visit our home page</a>
@@ -56,7 +56,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
    1. Personalize [!DNL s_code.js] chamando o parâmetro [!UICONTROL getQueryParam].
 
-      O arquivo [!DNL s_code.js] deve ser colocado em um local no servidor da Web em que cada página da Web possa acessá-lo. A função *`doPlugins`*nesse arquivo deve ser alterada para que capture os parâmetros da sequência de consulta nos links de email. Por exemplo:
+      O arquivo [!DNL s_code.js] deve ser colocado em um local no servidor da Web em que cada página da Web possa acessá-lo. A função *`doPlugins`* nesse arquivo deve ser alterada para que capture os parâmetros da cadeia de caracteres de consulta nos links de email. Por exemplo:
 
       ```js
       /* Plugin Config */ 
@@ -69,7 +69,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
       s.doPlugins=s_doPlugins 
       ```
 
-      Cada parâmetro da string de consulta que deve ser copiada em uma variável deve ter uma chamada de [!UICONTROL getQueryParam]. No exemplo acima, o parâmetro da string de consulta [!UICONTROL sc_cid] é copiado em *`campaign`*.
+      Cada parâmetro da cadeia de caracteres de consulta que deve ser copiada em uma variável deve ter uma chamada de [!UICONTROL getQueryParam]. No exemplo acima, o parâmetro da cadeia de caracteres de consulta [!UICONTROL sc_cid] é copiado em *`campaign`*.
 
       Somente a primeira chamada para [!UICONTROL getQueryParam] é necessária para capturar click-throughs. Entre em contato com o Adobe [!DNL Customer Care] para implementar esta função e garantir que sua versão do arquivo JavaScript contenha o plug-in [!UICONTROL getQueryParam].
 
@@ -77,12 +77,12 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
       É importante ter em mente os pontos a seguir ao atualizar a biblioteca de JavaScript. Esses pontos são listados abaixo.
 
-      * O parâmetro da string de consulta [!UICONTROL _cid] deve estar visível no URL da página inicial final, caso contrário não haverá registros de conversão de click-throughs.
-      * O parâmetro [!UICONTROL sc_cid] é um exemplo de parâmetro da string de consulta. É possível usar e capturar qualquer parâmetro de string de consulta por meio do plug-in [!UICONTROL getQueryParam]. Verifique se os parâmetros da string de consulta são usados apenas para o rastreamento da campanha. Sempre que os parâmetros forem exibidos em uma string de consulta, seus valores serão copiados em  *`campaign`*.
+      * O parâmetro da cadeia de caracteres de consulta [!UICONTROL _cid] deve estar visível no URL da página inicial final, caso contrário não haverá registros de conversão de click-throughs.
+      * O parâmetro [!UICONTROL sc_cid] é um exemplo de parâmetro da cadeia de caracteres de consulta. É possível usar e capturar qualquer parâmetro de cadeia de caracteres de consulta por meio do plug-in [!UICONTROL getQueryParam]. Verifique se os parâmetros da cadeia de caracteres de consulta são usados apenas para o rastreamento da campanha. Sempre que os parâmetros forem exibidos em uma cadeia de caracteres de consulta, seus valores serão copiados em *`campaign`*.
 
 1. Use [!UICONTROL SAINT] para classificar os códigos de rastreamento de campanha.
 
-   A [!UICONTROL ferramenta de gerenciamento de campanha, SAINT,] pode ser usada para converter códigos de rastreamento em nomes amigáveis. Ela pode ser usada para resumir o sucesso de cada campanha por email. A etapa 5 abaixo destaca o processo necessário para configurar uma campanha por email.
+   A [!UICONTROL ferramenta de gerenciamento de campanha, SAINT], pode ser usada para converter códigos de rastreamento em nomes amigáveis. Ela pode ser usada para resumir o sucesso de cada campanha por email. A etapa 5 abaixo destaca o processo necessário para configurar uma campanha por email.
 
 1. Consulte a definição de caminho por campanha por email (opcional).
 
@@ -90,12 +90,12 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
    1. Consulte o Adobe [!DNL Customer Care] para saber como ativar a definição de caminho para uma variável [!UICONTROL Custom Insight] (prop)
 
-   1. Em todas as páginas, copie o nome da página na [!DNL s.prop] designada. 
+   1. Em todas as páginas, copie o nome da página na [!DNL s.prop] designada.
    1. Na página inicial do email, anexe o nome da campanha de email à prop. O resultado exibido será mostrado abaixo:
 
       ```js
       s.prop1="Home Page : 123456"
       ```
 
-      Quando a definição do caminho é ativada para a variável [!UICONTROL Custom Insight], você pode usar os relatórios [!UICONTROL Caminho] (como [!UICONTROL Fluxo da próxima página] ou [!UICONTROL Fallout]) para ver a navegação do visitante a partir da página de aterrissagem. 
+      Quando a definição do caminho é ativada para a variável [!UICONTROL Custom Insight], você pode usar os relatórios [!UICONTROL Caminho] (como [!UICONTROL Fluxo da próxima página] ou [!UICONTROL Fallout]) para ver a navegação do visitante a partir da página de aterrissagem.
 
