@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Exibições e conteúdo de página
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descrições de campo no Dynamic Tag Management para exibições de página e configurações de conteúdo ao implantar o Analytics.
 
-**[!UICONTROL *`Property`*]**> Ícone![](assets/settings_gear.png)de engrenagem**[!UICONTROL Editar ferramenta]**> Exibições e conteúdo **[!UICONTROL da página]**
+**[!UICONTROL *`Property`*]** > ![Ícone de engrenagem](assets/settings_gear.png)**[!UICONTROL  Editar ferramenta ]** > **[!UICONTROL  Exibições e conteúdo da página ]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -34,11 +34,11 @@ Descrições de campo no Dynamic Tag Management para exibições de página e co
   </tr>
   <tr>
    <td colname="col1"> Canal (seção do site) </td>
-   <td colname="col2"> <p>Identifica uma seção do site.  </p> <p>Consulte [channel](../../../vars/page-vars/channel.md). </p> </td>
+   <td colname="col2"> <p>Identifica uma seção do site. </p> <p>Consulte [channel](../../../vars/page-vars/channel.md). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Hierarquia </td>
-   <td colname="col2"> <p>Determina a localização de uma página da hierarquia do site.  </p> <p>Consulte [hier](../../../vars/page-vars/hier.md). </p> </td>
+   <td colname="col2"> <p>Determina a localização de uma página da hierarquia do site. </p> <p>Consulte [hier](../../../vars/page-vars/hier.md). </p> </td>
   </tr>
  </tbody>
 </table>
