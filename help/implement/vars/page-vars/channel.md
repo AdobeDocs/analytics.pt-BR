@@ -1,7 +1,7 @@
 ---
 title: marketing
-description: Preencha a dimensão 'Seções do site'.
-translation-type: tm+mt
+description: Preencha a dimensão “Seções do site”.
+translation-type: ht
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 ---
@@ -9,24 +9,24 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 # marketing
 
-A `channel` variável geralmente armazena a seção do site em que uma determinada página está. É útil determinar quais grupos do site são mais populares. Essa variável preenche a dimensão &quot;Seções do site&quot;.
+A variável `channel` geralmente armazena a seção do site em que uma determinada página está. É útil determinar quais grupos do site são mais populares. Essa variável preenche a dimensão &quot;Seções do site&quot;.
 
 ## Canal no Adobe Experience Platform Launch
 
-É possível definir o canal ao configurar a extensão do Analytics (variáveis globais) ou as regras.
+É possível definir um canal ao configurar a extensão do Analytics (variáveis globais) ou sob Regras.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone &#39;+&#39;.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como [!UICONTROL Definir variáveis].
-6. Localize a seção [!UICONTROL Canal] .
+4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+6. Localize a seção [!UICONTROL Canal].
 
-Você pode definir o canal para qualquer valor de sequência de caracteres ou elemento de dados.
+Você pode definir um canal como qualquer valor de string ou elemento de dados.
 
-## s.channel no AppMeasurement e Iniciar editor de código personalizado
+## s.channel no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.channel` variável é uma string que normalmente contém a seção do site da página. Tem um valor máximo de 100 bytes; valores mais longos são truncados.
+A variável `s.channel` é uma string que normalmente contém a seção do site da página. A variável tem um valor máximo de 100 bytes; valores mais longos são truncados.
 
 ```js
 s.channel = "Example site section";
