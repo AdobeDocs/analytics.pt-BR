@@ -2,7 +2,7 @@
 title: getNewRepeat
 description: Acompanhar a atividade de visitantes novos e repetidos.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,7 +55,7 @@ s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),
 
 O `getNewRepeat` método usa os seguintes argumentos:
 
-* **`d`**(número inteiro, opcional): O número mínimo de dias necessários entre visitas que redefine os visitantes para`"New"`. Se esse argumento não for definido, o padrão será 30 dias.
+* **`d`** (número inteiro, opcional): O número mínimo de dias necessários entre visitas que redefine os visitantes para `"New"`. Se esse argumento não for definido, o padrão será 30 dias.
 
 Este método retorna o valor de `"New"` se o cookie definido pelo plug-in não existir ou tiver expirado. Ele retorna o valor de `"Repeat"` se o cookie definido pelo plug-in existe e o tempo desde a ocorrência atual e o tempo definido no cookie é maior que 30 minutos. Este método retorna o mesmo valor para uma visita inteira.
 
@@ -63,7 +63,7 @@ Este plug-in usa um cookie chamado `"s_nr[LENGTH]"` onde `[LENGTH]` é igual ao 
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 O código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; para novos visitantes e continuará a definir s.eVar1 igual ao valor de &quot;Novo&quot; (com cada nova chamada) durante o restante da visita do visitante ao site.
 
@@ -71,7 +71,7 @@ O código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; para nov
 s.eVar1=s.getNewRepeat();
 ```
 
-### Exemplo #2
+### Exemplo nº 2
 
 Se o visitante voltar ao site a qualquer momento, de 31 minutos a 30 dias desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Repetir&quot; e continuará a definir s.eVar1 igual ao valor de &quot;Repetir&quot; (com cada nova chamada) durante o restante da visita do visitante ao site.
 
@@ -87,7 +87,7 @@ Se o visitante não tiver estado no site há pelo menos 30 dias desde a última 
 s.eVar1=s.getNewRepeat();
 ```
 
-### Exemplo #4
+### Exemplo nº 4
 
 Se o visitante retornar ao site a qualquer momento, 31 minutos a 365 dias (ou seja, 1 ano) desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Repetir&quot; e continuará definindo s.eVar1 igual ao valor de &quot;Repetir&quot; (com cada nova chamada) durante o restante do visita do visitante ao site.
 
@@ -95,7 +95,7 @@ Se o visitante retornar ao site a qualquer momento, 31 minutos a 365 dias (ou se
 s.eVar1=s.getNewRepeat(365);
 ```
 
-### Exemplo #5
+### Exemplo nº 5
 
 Se o visitante não tiver estado no site há pelo menos 365 dias (ou seja, 1 ano) desde a última vez que s.getNewRepeat() foi chamado, o código a seguir definirá s.eVar1 igual ao valor de &quot;Novo&quot; e continuará a definir s.eVar1 igual ao valor de &quot;Novo&quot; (com cada nova chamada) durante o restante do visitante visita ao site.
 
