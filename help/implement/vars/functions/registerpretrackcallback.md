@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: Crie funções de retorno de chamada antes de enviar uma ocorrência para a Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 A `registerPreTrackCallback` variável permite que sua organização conecte uma função JavaScript depois que um URL de solicitação de imagem é compilado, mas antes de ser enviado. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement para um parceiro ou infraestrutura interna.
 
-> [!IMPORTANT] Não chame nenhuma função de rastreamento como `t` ou `tl` dentro da `registerPostTrackCallback` variável. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+> [!IMPORTANT] Não chame nenhuma chamada de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da [`registerPostTrackCallback`](registerposttrackcallback.md) variável. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que você chama a `registerPreTrackCallback` variável, conecta essa função para ser executada sempre que um URL de solicitação de imagem for compilado. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
@@ -21,7 +21,7 @@ Cada vez que você chama a `registerPreTrackCallback` variável, conecta essa fu
 
 Não há um campo dedicado no Launch para usar essa variável. Use o editor de código personalizado, após a sintaxe do AppMeasurement.
 
-## s.registerPreTrackCallback no editor de código personalizado do AppMeasurement e Launch
+## s.registerPreTrackCallback no editor de código personalizado do AppMeasurement e do Launch
 
 A função `s.registerPreTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada antes do envio de uma solicitação de imagem.
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-Argumentos adicionais podem ser incluídos na `s.registerPreTrackCallback` função, que pode ser usada na função aninhada:
+É possível incluir argumentos adicionais na `s.registerPreTrackCallback` função, que podem ser usados na função aninhada:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] Definir variáveis de página ou alterar a `requestUrl` string dentro dessa função *não* afeta a solicitação de imagem enviada logo após essa chamada de função.
+> [!NOTE] Definir variáveis de página ou alterar a `requestUrl` string dentro dessa função **não** afeta a solicitação de imagem enviada logo após essa chamada de função. Em vez disso, use a [`doPlugins()`](doplugins.md) variável.
