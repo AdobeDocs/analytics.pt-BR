@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appm
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Inserir o código principal do AppMeasurement
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Insira o código de AppMeasurement ao implantar manualmente o Dynamic Tag Management no Adobe Analytics.
 
-1. Na página da ferramenta do [!DNL Adobe Analytics], amplie a seção **[!UICONTROL Geral]**e clique em**[!UICONTROL  Abrir editor]**.
+1. Na página da ferramenta do [!DNL Adobe Analytics], amplie a seção **[!UICONTROL Geral]** e clique em **[!UICONTROL Abrir editor]**.
 1. Descompacte o arquivo [!DNL AppMeasurement_JavaScript*.zip] que você baixou ao [implantar o Adobe Analytics](/help/implement/other/dtm/t-analytics-deploy.md).
 
    Se optar pela biblioteca personalizada, ao abrir a janela, já terá presente a versão mais recente do código. Não é preciso baixar o arquivo compactado do Admin Console.
@@ -32,7 +32,7 @@ Insira o código de AppMeasurement ao implantar manualmente o Dynamic Tag Manage
 
    >[!IMPORTANT]
    >
-   >Se você adicionar esse código, é recomendável marcar também a caixa de seleção **[!UICONTROL Definir conjuntos de relatórios usando o código personalizado abaixo]**nas configurações gerais da biblioteca.
+   >Se você adicionar esse código, é recomendável marcar também a caixa de seleção **[!UICONTROL Definir conjuntos de relatórios usando o código personalizado abaixo]** nas configurações gerais da biblioteca.
 
 1. Clique em **[!UICONTROL Salvar e fechar]**.
 
