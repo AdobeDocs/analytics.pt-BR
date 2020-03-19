@@ -1,7 +1,7 @@
 ---
 title: Criar uma propriedade do Analytics no Launch
 description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -13,7 +13,7 @@ O Adobe Experience Platform Launch é a ferramenta que você pode usar para inte
 
 ## Pré-requisitos
 
-[Criar um conjunto de relatórios](/help/admin/admin-console/create-report-suite.md): criar um silo para que os dados do Analytics sejam coletados
+[Criar um conjunto de relatórios](/help/admin/admin-console/create-report-suite.md): criar um silo para que os dados do Analytics sejam coletados.
 
 ## Criar uma propriedade e instalar extensões essenciais
 
@@ -30,7 +30,7 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 
 ## Criar elementos de dados do Adobe Analytics
 
-Os elementos de dados são referências a partes específicas do site para coletar valores variáveis.
+Os elementos de dados são referências a partes específicas do site para coletar valores de variável.
 
 1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
 2. Clique na propriedade do Launch que pretende implementar no site.
@@ -61,7 +61,7 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 1. Em Ações, clique em Adicionar e insira as seguintes configurações:
    * Extensão: Adobe Analytics
    * Tipo de ação: definir variáveis
-   * Nome da página: clique no ícone de contêiner e selecione o elemento de dados `Page Name`.
+   * Nome da página: clique no ícone de contêiner e selecione o elemento de dados `Page Name`
    * Campanha: parâmetro de consulta com um valor de `cid`
 1. Clique em Manter alterações.
 1. Clique no sinal de Mais ao lado das ações para adicionar outra ação e insira as seguintes configurações:
@@ -75,8 +75,8 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 ## Documentação e recursos adicionais
 
 * [Documentação de extensão do Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
-* [Introdução ao Launch](https://docs.adobelaunch.com/getting-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado
-* [Canal do Adobe Experience Platform Launch no YouTube](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): saiba como usar o Launch por meio de vídeos
+* [Introdução ao Launch](https://docs.adobelaunch.com/getting-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado.
+* [Canal do Adobe Experience Platform Launch no YouTube](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): saiba como usar o Launch por meio de vídeos
 
 ## Próximas etapas
 
