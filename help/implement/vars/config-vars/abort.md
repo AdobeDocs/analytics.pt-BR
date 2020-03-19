@@ -2,7 +2,7 @@
 title: aborto
 description: A variável abort é um booleano que impede que uma ocorrência seja enviada para os servidores de coleta de dados da Adobe.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,18 +19,18 @@ Não há um campo dedicado no Launch para usar essa variável. Use o editor de c
 
 A `abort` variável é booleana. Its default value is `false`.
 
-* Se definida como `true`, a próxima chamada de rastreamento (`t()` ou `tl()`) não enviará dados para a Adobe.
+* Se definida como `true`, a próxima chamada de rastreamento ([`t()`](../functions/t-method.md) ou [`tl()`](../functions/tl-method.md)) não enviará dados para a Adobe.
 * Se definida como `false` ou não definida, essa variável não fará nada.
 
 ```js
 s.abort = true;
 ```
 
-> [!NOTE] A `abort` variável é redefinida para `false` depois de cada chamada de rastreamento. Se precisar abortar chamadas de rastreamento subsequentes na mesma página, defina `abort` para `true` novamente.
+> [!NOTE] A `abort` variável é redefinida para `false` depois de cada chamada de rastreamento. Se precisar abortar as chamadas de rastreamento subsequentes na mesma página, defina `abort` para `true` novamente.
 
 ## Exemplo
 
-A `abort` variável pode ser definida na `doPlugins()` função, que é a última função a ser executada antes que uma solicitação de imagem seja enviada para a Adobe.
+A `abort` variável pode ser definida na [`doPlugins()`](../functions/doplugins.md) função, que é a última função a ser executada antes que uma solicitação de imagem seja enviada para a Adobe.
 
 ```js
 s.doPlugins = function(s) {
