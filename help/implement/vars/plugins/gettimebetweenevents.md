@@ -1,8 +1,8 @@
 ---
-title: ' getTimeBetweenEvents'
+title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 O `getTimeBetweenEvents` método usa os seguintes argumentos:
 
-* **`ste`**(obrigatório, string): Iniciar eventos de temporizador. Uma string delimitada por vírgulas de eventos do Analytics para &quot;iniciar o timer&quot;.
-* **`rt`**(obrigatório, booleano): Reinicie a opção de temporizador. Defina como`true`se você deseja reiniciar o timer toda vez que a`events`variável contiver um evento de temporizador de início. Defina como`false`se não quiser que o temporizador seja reiniciado quando ele visualizar um evento de temporizador de início.
-* **`stp`**(obrigatório, string): Pare os eventos de temporizador. Uma string delimitada por vírgulas de eventos do Analytics que &quot;interrompem o timer&quot;.
-* **`res`**(obrigatório, booleano): Opção Redefinir temporizador. Defina para`true`se quiser gravar o tempo desde que o timer começou E redefina o timer depois que ele parar. Defina como`false`se você deseja gravar a hora, mas não parar o timer. Se definido como`false`, o temporizador continua sendo executado depois que a variável events registra um evento stop.
+* **`ste`** (obrigatório, string): Iniciar eventos de temporizador. Uma string delimitada por vírgulas de eventos do Analytics para &quot;iniciar o timer&quot;.
+* **`rt`** (obrigatório, booleano): Reinicie a opção de temporizador. Defina como `true` se você deseja reiniciar o timer toda vez que a `events` variável contiver um evento de temporizador de início. Defina como `false` se não quiser que o temporizador seja reiniciado quando ele visualizar um evento de temporizador de início.
+* **`stp`** (obrigatório, string): Pare os eventos de temporizador. Uma string delimitada por vírgulas de eventos do Analytics que &quot;interrompem o timer&quot;.
+* **`res`** (obrigatório, booleano): Opção Redefinir temporizador. Defina para `true` se quiser gravar o tempo desde que o timer começou E redefina o timer depois que ele parar. Defina como `false` se você deseja gravar a hora, mas não parar o timer. Se definido como `false`, o temporizador continua sendo executado depois que a variável events registra um evento stop.
    > [!TIP] Se você definir esse argumento como `false`, é altamente recomendável configurar o `rte` argumento abaixo.
-* **`cn`**(opcional, string): O nome do cookie no qual a hora do primeiro evento é armazenada. O padrão é`"s_tbe"`.
-* **`etd`**(opcional, número inteiro): A hora de expiração do cookie em dias. Defina para`0`expirar no final da sessão do navegador. O padrão é 1 dia quando não está definido.
-* **`fmt`**(opcional, string): O formato do tempo em que o número de segundos é retornado (o padrão é nada)
+* **`cn`** (opcional, string): O nome do cookie no qual a hora do primeiro evento é armazenada. O padrão é `"s_tbe"`.
+* **`etd`** (opcional, número inteiro): A hora de expiração do cookie em dias. Defina para `0` expirar no final da sessão do navegador. O padrão é 1 dia quando não está definido.
+* **`fmt`** (opcional, string): O formato do tempo em que o número de segundos é retornado (o padrão é nada)
    * `"s"` por segundos
    * `"m"` por minutos
    * `"h"` por horas
@@ -78,14 +78,14 @@ O `getTimeBetweenEvents` método usa os seguintes argumentos:
       * Qualquer coisa entre um minuto e uma hora é arredondada para o benchmark de 1/2 minutos mais próximo. Por exemplo, 30,5 minutos, 31 minutos
       * Qualquer coisa entre uma hora e um dia é arredondada para o benchmark de trimestre mais próximo. Por exemplo, 2,25 horas, 3,5 horas
       * Qualquer coisa maior que um dia é arredondada para o valor de referência de dia mais próximo. Por exemplo, 1 dia, 3 dias, 9 dias
-* **`bml`**(opcional, número): A duração do referencial de arredondamento de acordo com o formato do`fmt`argumento. Por exemplo, se o`fmt`argumento for`"s"`e esse argumento for`2`, o valor de retorno será arredondado para o benchmark de 2 segundos mais próximo. Se o`fmt`argumento for`"m"`e esse argumento for`0.5`, o valor de retorno será arredondado para o benchmark de meio minuto mais próximo.
-* **`rte`**(opcional, string): Sequência de caracteres delimitada por vírgulas de eventos do Analytics que removem ou excluem o timer. O padrão é nada.
+* **`bml`** (opcional, número): A duração do referencial de arredondamento de acordo com o formato do `fmt` argumento. Por exemplo, se o `fmt` argumento for `"s"` e esse argumento for `2`, o valor de retorno será arredondado para o benchmark de 2 segundos mais próximo. Se o `fmt` argumento for `"m"` e esse argumento for `0.5`, o valor de retorno será arredondado para o benchmark de meio minuto mais próximo.
+* **`rte`** (opcional, string): Sequência de caracteres delimitada por vírgulas de eventos do Analytics que removem ou excluem o timer. O padrão é nada.
 
 Chamar esse método retorna um número inteiro que representa a quantidade de tempo entre o evento de temporizador de início e o evento de temporizador de parada no formato desejado.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 O seguinte código...
 
@@ -103,7 +103,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * Quando um tempo real entre event1 e event2 for registrado, o plug-in definirá eVar1 igual ao número de segundos entre os dois eventos que estão sendo definidos, arredondado para o benchmark mais próximo de 2 segundos (por exemplo, 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos etc.)
 * Se s.events contiver event2 antes de um timer ser iniciado, a eVar1 não será definida.
 
-### Exemplo #2
+### Exemplo nº 2
 
 O seguinte código...
 
