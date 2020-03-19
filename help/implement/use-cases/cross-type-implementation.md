@@ -1,7 +1,7 @@
 ---
 title: Rastrear em tipos diferentes de implementação
-description: Use diferentes tipos de implementação e rastreie os visitantes perfeitamente entre eles.
-translation-type: tm+mt
+description: Use diferentes tipos de implementação e rastreie os visitantes facilmente entre eles.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -16,6 +16,6 @@ Se você usar mais de um tipo de implementação (como JavaScript e solicitaçõ
 * *`s_account`*
 * *`s.visitorNamespace`*
 * *`s.trackingServer`*
-* *`s.trackingServerSecure`*(se estiver usando SSL)
+* *`s.trackingServerSecure`* (se estiver usando SSL)
 
 Se elas não corresponderem nas implementações, os usuários poderão ser acompanhados como visitantes separados.
