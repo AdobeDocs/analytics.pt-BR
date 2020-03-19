@@ -2,7 +2,7 @@
 title: products
 description: Envie dados sobre quais produtos são exibidos ou no carrinho.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 A `products` variável rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, páginas de carrinho de compras e páginas de confirmação de compra. É uma variável de vários valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor em valores de dimensão separados.
 
-> [!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na `events` variável, a métrica &quot;Exibições do produto&quot; será incrementada em 1. Certifique-se de definir o evento de carrinho de compras apropriado em cada ocorrência.
+> [!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na [`events`](events/events-overview.md) variável, a métrica &quot;Exibições do produto&quot; será incrementada em 1. Certifique-se de definir o evento de carrinho de compras apropriado em cada ocorrência.
 
 ## Produtos no Adobe Experience Platform Launch
 
@@ -19,19 +19,19 @@ Não há um campo dedicado no Launch para definir essa variável; no entanto, ex
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique em [!UICONTROL Catálogo] para ver todas as extensões disponíveis.
+3. Vá para a [!UICONTROL Extensions] guia e clique em [!UICONTROL Catalog] para ver todas as extensões disponíveis.
 4. Procure o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
 
-Você pode usar uma dessas extensões ou usar o editor de código personalizado após a sintaxe do AppMeasurement abaixo.
+Você pode usar uma dessas extensões ou pode usar o editor de código personalizado após a sintaxe do AppMeasurement abaixo.
 
-## s.products no AppMeasurement e no editor de código personalizado Iniciar
+## s.products no AppMeasurement e no editor de código personalizado do Launch
 
 A `s.products` variável é uma string que contém vários campos delimitados por produto. Cada produto individual pode conter até 100 bytes em todos os campos. Delimite cada campo com um ponto-e-vírgula (`;`) na string.
 
 * **Categoria** (opcional): A categoria de produto abrangente. Sua organização decide como agrupar produtos em categorias.
 * **Nome** do produto (obrigatório): O nome do produto.
 * **Quantidade** (opcional): Quantos deste produto estão no carrinho. Esse campo se aplica somente às ocorrências com o evento purchase.
-* **Preço** (opcional): O preço total do produto como uma casa decimal. Se a quantidade for superior a um, defina o preço no total e não o preço individual do produto. Alinhe a moeda desse valor para corresponder à `currencyCode` variável. Não inclua o símbolo de moeda neste campo. Esse campo se aplica somente às ocorrências com o evento purchase.
+* **Preço** (opcional): O preço total do produto como uma casa decimal. Se a quantidade for superior a um, defina o preço no total e não o preço individual do produto. Alinhe a moeda desse valor para corresponder à [`currencyCode`](../config-vars/currencycode.md) variável. Não inclua o símbolo de moeda neste campo. Esse campo se aplica somente às ocorrências com o evento purchase.
 * **Eventos** (opcional): Eventos vinculados ao produto. Delimitar vários eventos com um pipe (`|`). Consulte [eventos](events/events-overview.md) para obter mais informações.
 * **eVars** (opcional): eVars de comercialização ligadas ao produto. Delimitar várias eVars de comercialização com um pipe (`|`). Consulte eVars [de comercialização](../../../components/c-variables/c-merch-variables/var-merchandising.md) para obter mais informações.
 
@@ -47,7 +47,7 @@ Essa variável suporta vários produtos na mesma ocorrência. Ele é valioso par
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Certifique-se de retirar todos os pontos-e-vírgulas, vírgulas e barra vertical dos nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
+> [!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações dos nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
 
 ## Exemplos
 
