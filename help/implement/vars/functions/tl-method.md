@@ -2,26 +2,26 @@
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-O `tl` método é um componente principal importante do Adobe Analytics. Ele pega todas as variáveis do Analytics definidas na página, as compila em uma solicitação de imagem e envia esses dados para os servidores de coleta de dados da Adobe. Funciona de forma semelhante ao `t` método, no entanto, esse método não aumenta as exibições de página. É útil para rastrear links e outros elementos que não seriam considerados um carregamento de página completo.
+O `tl()` método é um componente principal importante do Adobe Analytics. Ele pega todas as variáveis do Analytics definidas na página, as compila em uma solicitação de imagem e envia esses dados para os servidores de coleta de dados da Adobe. Funciona de forma semelhante ao [`t()`](t-method.md) método, no entanto, esse método não aumenta as exibições de página. É útil para rastrear links e outros elementos que não seriam considerados um carregamento de página completo.
 
-Se `trackDownloadLinks` ou `trackExternalLinks` estiver ativado, o AppMeasurement chama automaticamente o `tl` método para enviar dados de rastreamento de link de download e saída. Se sua organização preferir ter mais controle sobre os links para rastrear e seu comportamento, você pode chamar o `tl` método manualmente. Os links personalizados só podem ser acompanhados manualmente.
+Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) estiver ativado, o AppMeasurement chama automaticamente o `tl()` método para enviar dados de rastreamento de link de download e saída. Se sua organização preferir ter mais controle sobre os links para rastrear e seu comportamento, você pode chamar o `tl()` método manualmente. Os links personalizados só podem ser acompanhados manualmente.
 
 ## Chamada de rastreamento de link no Adobe Experience Platform Launch
 
-A inicialização tem um local dedicado definido uma chamada de rastreamento de link.
+O Launch tem um local dedicado definido uma chamada de rastreamento de link.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique no ícone &#39;+&#39;
-1. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como Enviar beacon.
+1. Vá para a [!UICONTROL Rules] guia e clique na regra desejada (ou crie uma regra).
+1. Em [!UICONTROL Actions], clique no ícone &#39;+&#39;
+1. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e a opção [!UICONTROL Action Type] Enviar beacon.
 1. Click the `s.tl()` radio button.
 
 Não é possível definir argumentos opcionais no Launch.
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 O argumento do objeto link determina se o navegador aguarda até 500 ms antes de sair da página. Se uma solicitação de imagem for enviada antes de 500 ms, a página navegará imediatamente para o link clicado.
 
-> [!NOTE] O AppMeasurement ativa automaticamente a `useBeacon` variável para links de saída, tornando esse argumento desnecessário nos navegadores modernos. Esse argumento era usado com mais frequência em versões anteriores do AppMeasurement.
+> [!NOTE] O AppMeasurement ativa automaticamente a [`useBeacon`](../config-vars/usebeacon.md) variável para links de saída, tornando esse argumento desnecessário nos navegadores modernos. Esse argumento era usado com mais frequência em versões anteriores do AppMeasurement.
 
 * `this`: aguarde até 500 ms para dar tempo ao AppMeasurement para enviar uma solicitação de imagem. Valor padrão.
 * `true`: não espere.
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### Tipo de link
 
-O argumento de tipo de link é uma string de letra única que determina o tipo de chamada de rastreamento de link. É o mesmo que definir a `linkType` variável.
+O argumento de tipo de link é uma sequência de caracteres de letra única que determina o tipo de chamada de rastreamento de link. É o mesmo que definir a [`linkType`](../config-vars/linktype.md) variável.
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### Nome do link
 
-O argumento do nome do link é uma string que determina o valor da dimensão de rastreamento do link. É o mesmo que definir a `linkName` variável.
+O argumento do nome do link é uma string que determina o valor da dimensão de rastreamento do link. É o mesmo que definir a [`linkName`](../config-vars/linkname.md) variável.
 
 ```js
 s.tl(true,"d","Example download link");
@@ -137,7 +137,7 @@ Em seguida, você pode chamar a função sempre que quiser rastrear um determina
 
 Se `trackDownloadLinks` ou `trackExternalLinks` estiverem ativados, o AppMeasurement faz automaticamente uma chamada de rastreamento de link se os filtros corretos coincidirem. Se você também chamar manualmente `s.tl()` esses cliques em links, poderá enviar dados duplicados para a Adobe. Dados duplicados aumentam os números de relatórios e os tornam menos precisos.
 
-Por exemplo, a seguinte função enviaria duas chamadas de rastreamento de link para o mesmo clique de link (links de download manuais e automáticos):
+Por exemplo, a função a seguir enviaria duas chamadas de rastreamento de link para o mesmo clique de link (links de download manuais e automáticos):
 
 ```JavaScript
 function trackDownload(obj) {
