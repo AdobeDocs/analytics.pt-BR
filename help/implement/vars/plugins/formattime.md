@@ -2,12 +2,12 @@
 title: formatTime
 description: Converta um número de segundos em seu equivalente em minutos, horas etc.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Plug-in da Adobe:formatTime
+# Plug-in da Adobe: formatTime
 
 > [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,13 +58,13 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 O `formatTime` método usa os seguintes argumentos:
 
-* **`ns`**(obrigatório, número inteiro): O número de segundos para converter ou formatar
-* **`tf`**(opcional, string): O tipo de formato em que os segundos devem ser retornados; padrão para segundos
+* **`ns`** (obrigatório, número inteiro): O número de segundos para converter ou formatar
+* **`tf`** (opcional, string): O tipo de formato em que os segundos devem ser retornados; padrão para segundos
    * Defina como `"d"` se desejar o tempo em dias (arredondado para o benchmark de 1/4 dias mais próximo por padrão)
    * Defina como `"h"` se desejar o tempo em horas (arredondado para o benchmark de 1/4 horas mais próximo por padrão)
    * Defina como `"m"` se desejar o tempo em minutos (arredondado para o benchmark de 1/2 minutos mais próximo por padrão)
    * Defina como `"s"` se desejar o tempo em segundos (arredondado para o benchmark de 5 segundos mais próximo por padrão)
-* **`bml`**(opcional, número): A duração dos referenciais de arredondamento. Padrões para os benchmarks listados no`tf`argumento
+* **`bml`** (opcional, número): A duração dos referenciais de arredondamento. Padrões para os benchmarks listados no `tf` argumento
 
 O método retorna o número de segundos formatados usando a unidade especificada no `tf` argumento. Se o `tf` argumento não estiver definido:
 
@@ -75,7 +75,7 @@ O método retorna o número de segundos formatados usando a unidade especificada
 
 ## Exemplos
 
-### Exemplo #1
+### Exemplo nº 1
 
 O seguinte código...
 
@@ -87,7 +87,7 @@ s.eVar1 = s.formatTime(38242);
 
 O argumento transmitido - 38242 segundos - é igual a 10 horas, 37 minutos e 22 segundos.  Como o argumento tf não está definido nesta chamada e o número de segundos passados está entre uma hora e um dia, o plug-in retornará o número de segundos convertidos para o benchmark de trimestre mais próximo.
 
-### Exemplo #2
+### Exemplo nº 2
 
 O seguinte código...
 
@@ -109,7 +109,7 @@ s.eVar1 = s.formatTime(38242, "m");
 
 Neste caso, o argumento &quot;m&quot; força o plug-in a converter os segundos para o benchmark de ½ minuto mais próximo
 
-### Exemplo #4
+### Exemplo nº 4
 
 O seguinte código...
 
@@ -121,7 +121,7 @@ s.eVar1 = s.formatTime(38242, "m", 20);
 
 O valor do argumento tf (&quot;m&quot;) força o plug-in a converter os segundos em minutos, mas o valor do argumento bml (20) também força o plug-in a arredondar a conversão de minutos para o benchmark de 20 minutos mais próximo.
 
-### Exemplo #5
+### Exemplo nº 5
 
 O seguinte código...
 
@@ -131,7 +131,7 @@ s.eVar1 = s.formatTime(125, "s", 2);
 
 ...definirá s.eVar1 igual a &quot;126 segundos&quot;, que é o benchmark de 2 segundos mais próximo a 125 segundos
 
-### Exemplo #6
+### Exemplo nº 6
 
 O seguinte código...
 
@@ -141,7 +141,7 @@ s.eVar1 = s.formatTime(125, "m", 3);
 
 ...definirá s.eVar1 igual a &quot;3 minutos&quot;, que é o benchmark mais próximo de 3 minutos a 125 segundos
 
-### Exemplo #7
+### Exemplo nº 7
 
 O seguinte código...
 
