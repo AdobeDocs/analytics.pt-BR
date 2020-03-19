@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 Para sites que usam comércio, receita e moeda é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use a `currencyCode` variável para verificar se os atributos de receita estão na moeda correta.
 
-Se não `currencyCode` estiver definido, os valores monetários definidos para a `products` variável e os eventos monetários serão tratados como se fossem a mesma moeda do conjunto de relatórios. Consulte Configurações [](/help/admin/admin/general-acct-settings-admin.md) gerais de conta no guia do usuário Admin para ver a moeda do conjunto de relatórios.
+Se não `currencyCode` estiver definido, os valores monetários definidos para a [`products`](../page-vars/products.md) variável e os eventos monetários serão tratados como se fossem a mesma moeda do conjunto de relatórios. Consulte Configurações [](/help/admin/admin/general-acct-settings-admin.md) gerais de conta no guia do usuário Admin para ver a moeda do conjunto de relatórios.
 
 Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 
@@ -23,12 +23,12 @@ Essa variável não persiste entre ocorrências. Certifique-se de que essa vari�
 
 ## Código monetário no lançamento da plataforma Adobe Experience
 
-O Código de moeda é um campo sob o [!UICONTROL padrão Geral] ao configurar a extensão do Adobe Analytics.
+O Código de moeda é um campo sob o [!UICONTROL General] acordeão ao configurar a extensão do Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] em Adobe Analytics.
-4. Amplie o acordeão [!UICONTROL Geral] , que revela o campo Código [!UICONTROL da] Moeda.
+3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+4. Amplie o [!UICONTROL General] acordeão, que revela o [!UICONTROL Currency Code] campo.
 
 Você pode usar um código de moeda predefinido ou um código de moeda personalizado. Se estiver usando um código de moeda personalizado, verifique se o código é válido.
 
