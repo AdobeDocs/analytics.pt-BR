@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 translation-type: tm+mt
-source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 A `registerPostTrackCallback` variável permite que sua organização conecte uma função JavaScript imediatamente depois que uma ocorrência é enviada com êxito para a Adobe. Se uma chamada de rastreamento falhar, essa função não será executada. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement para um parceiro ou infraestrutura interna, ou limpar valores variáveis em aplicativos de página única.
 
-> [!IMPORTANT] Não chame nenhuma função de rastreamento como `t` ou `tl` dentro da `registerPostTrackCallback` variável. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+> [!IMPORTANT] Não chame nenhuma chamada de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da `registerPostTrackCallback` variável. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que você chama a `registerPostTrackCallback` variável, conecta essa função para ser executada imediatamente depois que uma solicitação de imagem é enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
-> [!NOTE] O tempo e a ordem das funções disparadas entre `registerPreTrackCallback` e não `registerPostTrackCallback` são garantidos. Evite dependências entre essas duas funções.
+> [!NOTE] O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e não `registerPostTrackCallback` são garantidos. Evite dependências entre essas duas funções.
 
 ## Registrar retorno de chamada de rastreamento de postagem no Adobe Experience Platform Launch
 
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Exemplo de caso de uso
 
-O registro da `clearVars()` função no retorno de chamada pós-rastreamento pode ser benéfico para aplicativos de página única. Toda vez que você envia uma ocorrência para a Adobe com êxito, a `clearVars()` função é executada. Sua implementação pode definir variáveis novamente sem se preocupar com valores que persistem incorretamente.
+O registro da [`clearVars()`](clearvars.md) função no retorno de chamada pós-rastreamento pode ser benéfico para aplicativos de página única. Toda vez que você envia uma ocorrência para a Adobe com êxito, a `clearVars()` função é executada. Sua implementação pode definir variáveis novamente sem se preocupar com valores que persistem incorretamente.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
