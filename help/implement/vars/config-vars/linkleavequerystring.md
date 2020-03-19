@@ -2,14 +2,14 @@
 title: linkLeaveQueryString
 description: Permite a preservação de sequências de consulta em dimensões de rastreamento de link.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkLeaveQueryString
 
-Por padrão, o AppMeasurement remove as sequências de caracteres de consulta dos URLs de rastreamento de link. Use a variável linkLeaveQueryString para preservar as sequências de caracteres de consulta nas dimensões de rastreamento de link.
+Por padrão, o AppMeasurement remove as sequências de caracteres de consulta dos URLs de rastreamento de link. Use a `linkLeaveQueryString` variável para preservar as sequências de caracteres de consulta nas dimensões de rastreamento de link.
 
 Para alguns links de saída e links de download, a parte importante do URL pode estar na string de consulta. Por exemplo, um link de download, como `https://example.com/download.asp?filename=myfile.exe` contém informações importantes do link na string de consulta.
 
@@ -21,12 +21,12 @@ A ativação `linkLeaveQueryString` se aplica a todas as dimensões de rastreame
 
 ## Manter parâmetros de URL no Adobe Experience Platform Launch
 
-[!UICONTROL Manter parâmetros] de URL é uma caixa de seleção na opção [!UICONTROL Rastreamento] de link ao configurar a extensão do Adobe Analytics.
+[!UICONTROL Keep URL Parameters] é uma caixa de seleção sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] em Adobe Analytics.
-4. Expanda a opção Rastreamento [!UICONTROL de] link, que revela a caixa de seleção [!UICONTROL Manter parâmetros] de URL.
+3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Keep URL Parameters] caixa de seleção.
 
 Marque essa caixa se desejar incluir sequências de consulta nas dimensões de rastreamento de link.
 
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## Exemplo
 
-Tenha cuidado ao definir essa variável como true, pois ela pode afetar os filtros de rastreamento de link como `linkInternalFilters`, `linkExternalFilters`e `linkDownloadFiletypes`.
+Tenha cuidado ao definir essa variável como true, pois ela pode afetar os filtros de rastreamento de link, como [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Considere o exemplo a seguir como se ele estivesse em `adobe.com`:
 
