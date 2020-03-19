@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Cloud Debugger herdado
 description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade, DTM e Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Adobe Experience Cloud Debugger herdado
 
-> [!IMPORTANT] Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
+> [!IMPORTANT] Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
 
 O [!UICONTROL Depurador herdado] inspeciona as tags da maioria dos serviços da Adobe Experience Cloud. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
 
@@ -31,7 +31,7 @@ Cada navegador tem diferentes maneiras de manipular marcadores, mas o conceito �
 
 #### Chrome
 
-Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
+Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
 
 1. Clique nos três pontos no canto superior direito e acesse Marcadores > Gerenciador de marcadores. Você também pode pressionar `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Na parte superior direita do gerenciador de marcadores, clique nos três pontos e em &#39;Adicionar novo marcador&#39;.
@@ -42,12 +42,12 @@ Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/
 
 1. Clique nas três linhas na parte superior direita e acesse Biblioteca > Marcadores > Mostrar todos os marcadores. Você também pode pressionar `Ctrl` + `Shift` + `B` (Windows) ou `Cmd` + `Shift` + `B` (Mac).
 2. Clique em Organizar > Novo marcador.
-3. No campo Nome, rotule-o como &quot;Adobe Experience Cloud Debugger&quot; e cole o trecho de código no campo Local. Os campos Marcass e Palavra-chave não são obrigatórios.
+3. No campo Nome, rotule-o como &quot;Adobe Experience Cloud Debugger&quot; e cole o trecho de código no campo Local. Os campos Tags e Palavra-chave não são obrigatórios.
 4. Use a janela da biblioteca para colocar seu novo bookmarklet no local desejado.
 
 #### Edge
 
-O Edge não tem a capacidade de criar manualmente um bookmarklet, mas um URL de marcador pode ser editado em um bookmarklet.
+O Edge não tem a capacidade de criar manualmente um bookmarklet, mas um URL do marcador pode ser editado em um bookmarklet.
 
 1. Clique no ícone de estrela no lado direito do campo de URL para marcar a página atual.
 2. Nomeie o marcador &quot;Adobe Experience Cloud Debugger&quot; e salve-o no local desejado.
@@ -57,7 +57,7 @@ O Edge não tem a capacidade de criar manualmente um bookmarklet, mas um URL de 
 
 #### Safari
 
-O Safari não tem a capacidade de criar manualmente um bookmarklet, mas um URL de marcador pode ser editado em um bookmarklet.
+O Safari não tem a capacidade de criar manualmente um bookmarklet, mas um URL do marcador pode ser editado em um bookmarklet.
 
 1. Clique no ícone Compartilhar na parte superior direita, que abre uma janela modal de marcadores.
 2. Nomeie o marcador &quot;Adobe Experience Cloud Debugger&quot; e salve-o no local desejado.
@@ -66,7 +66,7 @@ O Safari não tem a capacidade de criar manualmente um bookmarklet, mas um URL d
 
 ## Usar o depurador herdado
 
-Navegue até a página desejada em seu site e clique no bookmarklet. Uma janela pop-up é exibida mostrando os dados enviados para a Adobe.
+Navegue até a página desejada no site e clique no bookmarklet. Uma janela pop-up é exibida mostrando os dados enviados para a Adobe.
 
 > [!NOTE] Determinados plug-ins de bloqueio de anúncios e de pop-ups podem interferir no carregamento da janela do depurador. Verifique se há pop-ups bloqueados no seu navegador e os ative para que o depurador funcione corretamente.
 
