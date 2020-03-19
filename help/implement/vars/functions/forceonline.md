@@ -2,18 +2,18 @@
 title: forceOnline
 description: Defina manualmente o estado online do AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # forceOnline
 
-O `forceOnline` método permite substituir o estado detectado automaticamente do AppMeasurement.
+O `forceOnline()` método permite substituir o estado detectado automaticamente do AppMeasurement.
 
-> [!IMPORTANT] Use essa função somente quando `trackOffline` estiver ativada. Usar essa função fora do rastreamento offline pode causar perda de dados.
+> [!IMPORTANT] Use este método somente quando [`trackOffline`](../config-vars/trackoffline.md) estiver ativado. Usar essa função fora do rastreamento offline pode causar perda de dados.
 
-O AppMeasurement detecta automaticamente o estado online do dispositivo. Você pode usar o `forceOnline` método para forçar o AppMeasurement a tratar as ocorrências como se o dispositivo estivesse online. Esse método não aceita argumentos e não retorna nenhum valor. Seu único objetivo é substituir o estado online no AppMeasurement.
+O AppMeasurement detecta automaticamente o estado online do dispositivo. Você pode usar o `forceOnline()` método para forçar o AppMeasurement a tratar as ocorrências como se o dispositivo estivesse online. Esse método não aceita argumentos e não retorna nenhum valor. Seu único objetivo é substituir o estado online no AppMeasurement.
 
 ## Forçar on-line no lançamento da plataforma Adobe Experience
 
