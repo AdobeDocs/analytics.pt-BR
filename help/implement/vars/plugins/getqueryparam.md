@@ -2,7 +2,7 @@
 title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 O plug- `getQueryParam` -in permite que você extraia o valor de qualquer parâmetro de string de consulta contido em um URL. É útil para extrair códigos de campanha, internos e externos, de URLs de página inicial. Também é importante ao extrair termos de pesquisa ou outros parâmetros da string de consulta.
 
-Este plug-in fornece recursos robustos na análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você só tiver necessidades de parâmetro de sequência de consulta simples, a Adobe recomenda usar os recursos de parâmetro de URL no Launch ou o `Util.getQueryParam` método incluído no AppMeasurement.
+Este plug-in fornece recursos robustos na análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você só tiver necessidades de parâmetro de sequência de consulta simples, a Adobe recomenda usar os recursos de parâmetro de URL no Launch ou o [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluído no AppMeasurement.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
@@ -21,8 +21,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -37,8 +37,8 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
@@ -56,9 +56,9 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 O `getQueryParam` método usa os seguintes argumentos:
 
-* **`qsp`**(obrigatório): Uma lista delimitada por vírgulas de parâmetros da string de consulta para procurar dentro do URL. Não faz distinção entre maiúsculas e minúsculas.
-* **`de`**(opcional): O delimitador a ser usado se vários parâmetros da string de consulta corresponderem. O padrão é uma string vazia.
-* **`url`**(opcional): Um URL personalizado, uma sequência de caracteres ou uma variável para extrair os valores de parâmetro da string de consulta. O padrão é`window.location`.
+* **`qsp`** (obrigatório): Uma lista delimitada por vírgulas de parâmetros da string de consulta para procurar dentro do URL. Não faz distinção entre maiúsculas e minúsculas.
+* **`de`** (opcional): O delimitador a ser usado se vários parâmetros da string de consulta corresponderem. O padrão é uma string vazia.
+* **`url`** (opcional): Um URL personalizado, uma sequência de caracteres ou uma variável para extrair os valores de parâmetro da string de consulta. O padrão é `window.location`.
 
 Chamar esse método retorna um valor dependendo dos argumentos acima e do URL:
 
@@ -69,7 +69,7 @@ Chamar esse método retorna um valor dependendo dos argumentos acima e do URL:
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Se o URL atual for o seguinte:
 
@@ -83,7 +83,7 @@ O código a seguir definirá s.campaign igual a &quot;trackingcode1&quot;:
 s.campaign=s.getQueryParam('cid');
 ```
 
-### Exemplo #2
+### Exemplo nº 2
 
 Se o URL atual for o seguinte:
 
@@ -111,7 +111,7 @@ O código a seguir definirá s.campaign igual a &quot;trackingcode1123456&quot;:
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### Exemplo #4
+### Exemplo nº 4
 
 Se o URL atual for o seguinte:
 
@@ -125,7 +125,7 @@ O código a seguir definirá s.campaign igual a &quot;123456&quot;:
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### Exemplo #5
+### Exemplo nº 5
 
 Se o URL atual for o seguinte:
 
@@ -139,9 +139,9 @@ O código a seguir definirá s.campaign igual a &quot;123456&quot;
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** Observação: O plug-in substitui o URL ao caractere hash de Check por um ponto de interrogação se um ponto de interrogação não existir.  Se o URL contiver um ponto de interrogação anterior ao caractere de hash, o plug-in substituirá o URL para o caractere de hash de Check por um E comercial;
+**Observação:** O plug-in substitui o URL ao caractere hash de Check por um ponto de interrogação se um ponto de interrogação não existir.  Se o URL contiver um ponto de interrogação que vem antes do caractere de hash, o plug-in substituirá o URL para o caractere de hash de Check por um E comercial;
 
-### Exemplo #6
+### Exemplo nº 6
 
 Se o URL atual for o seguinte...
 
@@ -167,7 +167,7 @@ No entanto, o código a seguir definirá s.campaign igual a &quot;trackingcode1&
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** Observação: o terceiro parâmetro pode ser qualquer string/variável que o código usará para tentar localizar os parâmetros da string de consulta em
+**Observação:** o terceiro parâmetro pode ser qualquer string/variável que o código usará para tentar localizar os parâmetros da string de consulta em
 
 O código a seguir definirá s.eVar2 igual a &quot;123456|trackingcode1|true|300&quot;:
 
