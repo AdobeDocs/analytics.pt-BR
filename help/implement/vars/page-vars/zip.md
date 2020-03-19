@@ -1,7 +1,7 @@
 ---
 title: zip
-description: Preencha manualmente a dimensão 'CEP' se as configurações do conjunto de relatórios permitirem.
-translation-type: tm+mt
+description: Preencha manualmente a dimensão “CEP” se as configurações do conjunto de relatórios permitirem.
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -9,26 +9,26 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 # zip
 
-A `zip` variável permite preencher manualmente a dimensão &#39;CEP&#39; se a opção  CEP nas configurações do conjunto de relatórios permitir. Em versões anteriores do Adobe Analytics, essa variável só podia ser definida manualmente, normalmente ao inserir informações de envio em um site de varejo. Melhorias no Adobe Analytics permitem que essa variável seja definida automaticamente usando dados de localização geográfica. Essa variável não persiste além da ocorrência definida.
+A variável `zip` permite preencher manualmente a dimensão “CEP” se a [!UICONTROL opção CEP] nas configurações do conjunto de relatórios permitir. Em versões anteriores do Adobe Analytics, essa variável só podia ser definida manualmente, geralmente ao inserir informações de envio em um site de varejo. Melhorias no Adobe Analytics permitem que essa variável seja definida automaticamente usando dados de localização geográfica. Essa variável não persiste para além da ocorrência à qual está atrelada.
 
-> [!IMPORTANT] Verifique se a opção  CEP nas configurações do conjunto de relatórios está definida como o valor desejado. Não é possível usar essa variável se o zip [!UICONTROL geográfico] for sempre usado. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+> [!IMPORTANT] Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se o [!UICONTROL CEP] for sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
-## Zip no Adobe Experience Platform Launch
+## CEP no Adobe Experience Platform Launch
 
-Você pode definir o CEP ao configurar a extensão do Analytics (variáveis globais) ou sob as regras.
+Você pode definir o CEP ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone &#39;+&#39;.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como [!UICONTROL Definir variáveis].
-6. Localize a seção [!UICONTROL Zip] .
+4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+6. Localize a seção [!UICONTROL CEP].
 
-É possível definir CEP para qualquer valor de string, incluindo elementos de dados.
+É possível definir o CEP como qualquer valor de string, incluindo elementos de dados.
 
-## s.zip no AppMeasurement e Iniciar editor de código personalizado
+## s.zip no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.zip` variável é uma string que geralmente contém um CEP, mas pode conter qualquer valor desejado de até 50 bytes de comprimento.
+A variável `s.zip` é uma string que geralmente contém um CEP, mas que pode conter qualquer valor desejado de até 50 bytes de tamanho.
 
 ```js
 s.zip = "84043";
