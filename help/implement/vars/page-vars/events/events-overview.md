@@ -1,8 +1,8 @@
 ---
 title: events
-description: Defina a variável events, que governa a maioria das métricas do site.
+description: Defina a variável de eventos, que governa a maioria das métricas do site.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,21 +17,21 @@ Você pode definir eventos ao configurar a extensão do Analytics (variáveis gl
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone &#39;+&#39;.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o Tipo [!UICONTROL de] ação como [!UICONTROL Definir variáveis].
-6. Localize a seção [!UICONTROL Eventos] .
+3. Vá para a [!UICONTROL Rules] guia e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Actions], clique em uma [!UICONTROL Adobe Analytics - Set Variables] ação existente ou no ícone &#39;+&#39;.
+5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e [!UICONTROL Action Type] como [!UICONTROL Set Variables].
+6. Localize a [!UICONTROL Events] seção.
 
 Vários recursos estão disponíveis:
 
 * Uma lista suspensa permite selecionar o evento para incluir
 * Um campo de texto opcional para serialização. See [event serialization](event-serialization.md) for more information.
-* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para aumentá-la várias vezes. Por exemplo, a seleção `event1` na lista suspensa e a inclusão `10` neste campo aumenta `event1` em 10 nos relatórios.
+* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-la várias vezes. Por exemplo, a seleção `event1` na lista suspensa e a inclusão `10` neste campo aumenta `event1` em 10 nos relatórios.
 * Um botão para adicionar outro evento. Não há um limite razoável para o número de eventos que podem ser incluídos em uma ocorrência.
 
 ## s.events no AppMeasurement e no editor de código personalizado Iniciar
 
-A `s.events` variável é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. Não há limite de bytes para essa variável, portanto, ela não é truncada. Os valores válidos incluem:
+A `s.events` variável é uma string que contém uma lista de eventos delimitada por vírgulas a ser incluída na ocorrência. Não há limite de bytes para essa variável, portanto, ela não é truncada. Os valores válidos incluem:
 
 * `event1` - `event1000`: Eventos personalizados, definidos como você desejar. Registre como você usa cada evento no documento [de design de](../../../prepare/solution-design.md)solução da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações em contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com o gerente de conta de sua organização se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 * `purchase`: Aumenta a métrica &quot;Pedidos&quot; em 1 e obtém valores definidos na `products` variável para calcular &quot;Unidades&quot; e &quot;Receita&quot;. Consulte Evento [de](event-purchase.md) compra para obter mais informações.
@@ -40,9 +40,9 @@ A `s.events` variável é uma string que contém uma lista de eventos delimitada
 * `scAdd`: Aumenta a métrica &#39;Adições ao carrinho&#39;.
 * `scRemove`: Aumenta a métrica &#39;Remoções do carrinho&#39;.
 * `scView`: Aumenta a métrica &#39;Exibições do carrinho&#39;.
-* `scCheckout`: Aumenta a métrica &quot;Finalizações&quot;.
+* `scCheckout`: Aumenta a métrica &quot;Check-outs&quot;.
 
-> [!TIP] Essa variável faz distinção entre maiúsculas e minúsculas. Evite usar valores de evento com maiúsculas e minúsculas incorretas para garantir a coleta precisa de dados.
+> [!NOTE] Essa variável faz distinção entre maiúsculas e minúsculas. Evite usar valores de evento com maiúsculas e minúsculas incorretas para garantir a coleta precisa de dados.
 
 ```js
 // Set the events variable to a single value
