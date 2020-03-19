@@ -2,7 +2,7 @@
 title: getVisitNum
 description: Rastrear o número de visita atual de um visitante.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -35,14 +35,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,19 +58,19 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 
 O `getVisitNum` método usa os seguintes argumentos:
 
-* **`rp`**(opcional, número inteiro OU sequência): O número de dias antes da redefinição do contador do número de visitas.  O padrão é`365`quando não está definido.
-   * Quando este argumento é `"w"`reiniciado, o contador é reiniciado no final da semana (neste sábado, às 23:59)
+* **`rp`** (opcional, número inteiro OU sequência): O número de dias antes da redefinição do contador do número de visitas.  O padrão é `365` quando não está definido.
+   * Quando esse argumento é `"w"`reiniciado no final da semana (neste sábado, às 23:59)
    * Quando esse argumento é exibido, `"m"`o contador é redefinido no final do mês (o último dia deste mês)
    * Quando este argumento é apresentado, `"y"`o contador é reiniciado no final do ano (31 de dezembro)
-* **`erp`**(opcional, booleano): Quando o`rp`argumento é um número, esse argumento determina se a expiração do número de visita deve ser estendida. Se definido como`true`, as ocorrências subsequentes do site redefinirão o contador de número de visitas. Se definido como`false`, as ocorrências subsequentes do site não se estendem quando o contador de número de visitas é redefinido. O padrão é`true`. Esse argumento não é válido quando o`rp`argumento é uma string.
+* **`erp`** (opcional, booleano): Quando o `rp` argumento é um número, esse argumento determina se a expiração do número de visita deve ser estendida. Se definido como `true`, as ocorrências subsequentes do site redefinirão o contador de número de visitas. Se definido como `false`, as ocorrências subsequentes do site não se estendem quando o contador de número de visitas é redefinido. O padrão é `true`. Esse argumento não é válido quando o `rp` argumento é uma string.
 
 O número de visitas aumenta sempre que o visitante retorna ao site após 30 minutos de inatividade. Chamar esse método retorna um número inteiro que representa o número de visita atual do visitante.
 
-Este plug-in define um cookie primário chamado `"s_vnc[LENGTH]"` onde `[LENGTH]` é o valor passado para o `rp` argumento. Por exemplo, `"s_vncw"`, `"s_vncm"`ou `"s_vnc365"`. O valor do cookie é uma combinação de um carimbo de data e hora Unix que representa quando o contador de visitas é redefinido, como fim da semana, fim do mês ou após 365 dias de inatividade. Também contém o número de visita atual. Este plug-in define outro cookie chamado `"s_ivc"` que é definido como `true` e expira após 30 minutos de inatividade.
+Este plug-in define um cookie primário chamado `"s_vnc[LENGTH]"` onde `[LENGTH]` é o valor passado para o `rp` argumento. For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. O valor do cookie é uma combinação de um carimbo de data e hora Unix que representa quando o contador de visitas é redefinido, como fim da semana, fim do mês ou após 365 dias de inatividade. Ele também contém o número de visita atual. Este plug-in define outro cookie chamado `"s_ivc"` que é definido como `true` e expira após 30 minutos de inatividade.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Para um visitante que não esteve no site nos últimos 365 dias, o código a seguir definirá s.prop1 igual ao valor de 1:
 
@@ -78,7 +78,7 @@ Para um visitante que não esteve no site nos últimos 365 dias, o código a seg
 s.prop1=s.getVisitNum();
 ```
 
-### Exemplo #2
+### Exemplo nº 2
 
 Para um visitante que retorna ao site dentro de 364 dias após sua primeira visita, o seguinte código definirá s.prop1 igual a 2:
 
@@ -110,15 +110,15 @@ Quando o segundo argumento na chamada for igual a false, a rotina que determina 
 
 Quando o segundo argumento for igual a true (ou não definido), o plug-in redefinirá o número de visita para 1 somente após o número &quot;x&quot; de dias - novamente, neste exemplo, 365 dias - de inatividade do visitante.
 
-### Exemplo #4
+### Exemplo nº 4
 
-Para todos os visitantes que chegam ao site pela primeira vez durante a semana atual - começando no domingo - o seguinte código definirá s.prop1 igual a 1:
+Para todos os visitantes que acessam o site pela primeira vez durante a semana atual - começando no domingo - o código a seguir definirá s.prop1 igual a 1:
 
 ```js
 s.prop1=s.getVisitNum("w");
 ```
 
-### Exemplo #5
+### Exemplo nº 5
 
 Para todos os visitantes que chegam ao site pela primeira vez durante o mês atual - começando no primeiro dia de cada mês - o código a seguir definirá s.prop1 igual a 1:
 
@@ -126,9 +126,9 @@ Para todos os visitantes que chegam ao site pela primeira vez durante o mês atu
 s.prop1=s.getVisitNum("m");
 ```
 
-Lembre-se de que o plug-in getVisitNum não considera calendários baseados em varejo (ou seja, 4-5-4, 4-4-5 etc.)
+Lembre-se de que o plug-in getVisitNum não considera calendários baseados em varejo (ou seja, 4-5-4, 4-4-5, etc.)
 
-### Exemplo #6
+### Exemplo nº 6
 
 Para todos os visitantes que acessam o site pela primeira vez durante o ano atual - começando em 1° de janeiro - o código a seguir definirá s.prop1 igual a 1:
 
@@ -136,7 +136,7 @@ Para todos os visitantes que acessam o site pela primeira vez durante o ano atua
 s.prop1=s.getVisitNum("y");
 ```
 
-### Exemplo #7
+### Exemplo nº 7
 
 Se você deseja rastrear o número de visita de um visitante para a semana, o número de visita de um visitante para o mês e o número de visita de um visitante para o ano - tudo dentro de diferentes variáveis do Analytics - você deve usar um código semelhante ao seguinte:
 
