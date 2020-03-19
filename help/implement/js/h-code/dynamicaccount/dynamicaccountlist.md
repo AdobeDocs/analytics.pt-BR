@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
-description: Estabeleça lógica sobre como sua implementação determina seu conjunto de relatórios.
-translation-type: tm+mt
+description: Estabeleça lógica sobre como a implementação determina o conjunto de relatórios.
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,25 +9,25 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] As contas dinâmicas só são suportadas com implementações JavaScript herdadas (Código H). Essas variáveis não são suportadas nas bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
+> [!IMPORTANT] As contas dinâmicas só compatíveis com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
 
-A `s.dynamicAccountList` variável determina dinamicamente o valor de `s_account`. Se `dynamicAccountSelection` estiver definida como `true`, a `dynamicAccountMatch` variável será comparada com `dynamicAccountList`. Se uma correspondência for encontrada, a ID do conjunto de relatórios correspondente será usada.
+A variável `s.dynamicAccountList` determina dinamicamente o valor de `s_account`. Se `dynamicAccountSelection` estiver definida como `true`, a variável `dynamicAccountMatch` será comparada com `dynamicAccountList`. Se uma correspondência for encontrada, a ID do conjunto de relatórios correspondente será usada.
 
 ## Sintaxe
 
-Essa variável é uma string que é analisada automaticamente pelo arquivo JavaScript.
+Essa variável é uma cadeia de caracteres que é analisada automaticamente pelo arquivo JavaScript.
 
 ```JavaScript
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-A entrada válida é uma lista separada por ponto-e-vírgula de pares de rsid e valor. Cada lista contém os seguintes itens:
+A entrada válida é uma lista separada por ponto e vírgula de pares de rsid e valor. Cada lista contém os seguintes itens:
 
 * Uma ou mais IDs do conjunto de relatórios (separadas por vírgulas)
 * Um sinal de igual
-* Uma ou mais strings para corresponder (separadas por vírgulas)
+* Uma ou mais cadeias de caracteres para corresponder (separadas por vírgulas)
 
-Somente caracteres ASCII padrão devem ser usados na string. Não inclua espaços.
+Somente caracteres ASCII padrão devem ser usados na cadeia de caracteres. Não inclua espaços.
 
 ## Exemplos
 
