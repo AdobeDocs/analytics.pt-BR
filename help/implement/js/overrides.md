@@ -1,7 +1,7 @@
 ---
 title: Substituições de variável
 description: As substituições de variáveis permitem alterar um valor de variável por um único rastreamento ou chamada de link de rastreamento.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 # Substituições de variável
 
-As substituições de variáveis permitem alterar os valores do Analytics para uma única ocorrência sem afetar as variáveis existentes na página.
+As substituições de variáveis permitem alterar os valores do Analytics para uma única ocorrência, sem afetar as variáveis existentes na página.
 
 ## Fluxo de trabalho
 
-1. Crie um novo objeto JavaScript. O nome do objeto pode ser qualquer coisa que você desejar.
+1. Crie um novo objeto JavaScript. O nome do objeto pode ser o que você desejar.
 
    ```js
    var y = new Object();
