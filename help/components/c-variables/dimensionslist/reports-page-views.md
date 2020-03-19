@@ -4,7 +4,7 @@ title: Exibições de página
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ Um relatório de tendências que exibe o número de vezes em que as páginas do 
 
 Uma [Exibição de página](/help/components/c-variables/c-metrics/metrics-page-view.md) é uma solicitação de um documento de página inteira, em vez de um elemento de uma página, como uma imagem ou vídeo. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas.
 
-**Propriedades de relatório**
+## Propriedades do relatório
 
-* Este relatório faz referência ao número de vezes que a função [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) foi utilizada no site.
-* O [rastreamento de link](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) (como links personalizados, downloads de arquivo e links de saída) necessita do uso da função [!DNL s.tl()] () e não é contado neste relatório.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* As chamadas de rastreamento de link que usam o [`tl()`](/help/implement/vars/functions/tl-method.md) método não são contadas neste relatório.
 * Por que as solicitações de imagens são enviadas quando o usuário atualiza a página ou clica no botão voltar, este relatório também inclui essas ações.
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
 * Este relatório não contém itens de linha. Como tal, o relatório pode ser visualizado somente no formato geral.
 * A granularidade de hora, dia, semana, mês, trimestre e ano pode ser aplicada. Essa granularidade está disponível dependendo do intervalo da data do relatório.
 
-**Informações específicas do produto**
+## Informações específicas do produto
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
