@@ -2,7 +2,7 @@
 title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,12 +13,12 @@ A `s_gi()` função instancia ou encontra uma instância do AppMeasurement por I
 
 ## s_gi() no Adobe Experience Platform Launch
 
-A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, também é possível definir um objeto de rastreamento global na opção Gerenciamento [!UICONTROL de] biblioteca ao configurar a extensão do Adobe Analytics.
+A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, você também pode definir um objeto de rastreamento global no [!UICONTROL Library Management] acordeão ao configurar a extensão do Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] em Adobe Analytics.
-4. Expanda a opção Gerenciamento [!UICONTROL da] biblioteca e selecione qualquer botão de opção diferente de [!UICONTROL Gerenciar a biblioteca para mim].
+3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+4. Expanda o [!UICONTROL Library Management] acordeão e selecione qualquer botão de opção diferente de [!UICONTROL Manage the library for me].
 
 O campo de texto da variável global permite definir um objeto de rastreamento personalizado. Its default value is `s`.
 
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] As seções e exemplos a seguir contêm tópicos complexos de implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no documento [de design da](../../prepare/solution-design.md)solução da sua organização.
+> [!CAUTION] As seções e exemplos a seguir contêm tópicos complexos de implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no documento [de design da](../../prepare/solution-design.md)solução da sua organização.
 
 ## Gerenciar várias implementações usando diferentes objetos de rastreamento
 
-Você pode enviar dados diferentes para conjuntos de relatórios diferentes se instanciar vários objetos de rastreamento. Esses dois objetos de rastreamento operam independentemente um do outro.
+É possível enviar dados diferentes para conjuntos de relatórios diferentes se você instanciar vários objetos de rastreamento. Esses dois objetos de rastreamento operam independentemente um do outro.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
