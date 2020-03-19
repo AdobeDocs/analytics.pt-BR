@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: Determine se as solicitações de imagem de localização são enviadas em páginas HTTPS.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,14 +15,14 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 ## Servidor de rastreamento SSL no Adobe Experience Platform Launch
 
-[!UICONTROL O SSL Tracking Server] é um campo sob o [!UICONTROL padrão Geral] ao configurar a extensão do Adobe Analytics.
+[!UICONTROL SSL Tracking Server] é um campo sob o [!UICONTROL General] acordeão ao configurar a extensão do Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] em Adobe Analytics.
-4. Expanda o acordeão [!UICONTROL Geral] , que revela o campo Servidor [!UICONTROL de rastreamento] SSL.
+3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+4. Amplie o [!UICONTROL General] acordeão, que revela o [!UICONTROL SSL Tracking Server] campo.
 
-Se esse campo ficar em branco, o padrão será o valor na `trackingServer` variável.
+Se esse campo ficar em branco, o padrão será o valor na [`trackingServer`](trackingserver.md) variável.
 
 ## s.trackingServerSecure no AppMeasurement e Iniciar editor de código personalizado
 
