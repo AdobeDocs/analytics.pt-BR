@@ -2,7 +2,7 @@
 title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
 
-O `rfl` plug-in permite que você remova com &quot;segurança&quot; valores de strings delimitadas, como `events`, `products`, list vars e outras. Esse plug-in é útil se você deseja remover valores específicos de uma string delimitada sem se preocupar com delimitadores. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
+O `rfl` plug-in permite que você remova com &quot;segurança&quot; valores de strings delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)entre outras. Esse plug-in é útil se você deseja remover valores específicos de uma string delimitada sem se preocupar com delimitadores. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
 
 O plug-in usa a seguinte lógica:
 
@@ -24,8 +24,8 @@ A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequên
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instalar e publicar a extensão de Plug-ins  comuns do Analytics
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhum
    * Evento: Principal - Biblioteca carregada (início da página)
@@ -40,14 +40,14 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Clique na propriedade desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
-1. Expanda a opção [!UICONTROL Configurar rastreamento usando código] personalizado, que revela o botão [!UICONTROL Abrir editor] .
+1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
 1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
 1. Salve e publique as alterações na extensão do Analytics.
 
 ## Instale o plug-in usando o AppMeasurement
 
-Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando `s_gi`). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
+Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,17 +60,17 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 O `rfl` método usa os seguintes argumentos:
 
-* **`lv`**(obrigatório, string): Uma variável (ou string) que contém uma lista de valores delimitados
-* **`vr`**(obrigatório, string): O valor que você deseja remover do`lv`argumento. A Adobe recomenda a remoção de vários valores durante uma única`rfl`chamada.
-* **`d1`**(opcional, string): O delimitador usado pelo`lv`argumento. O padrão é uma vírgula (`,`).
-* **`d2`**(opcional, string): O delimitador que você deseja que a string de retorno use. O padrão é o mesmo valor do`d1`argumento.
-* **`df`**(opcional, booleano): Se`true`, força apenas instâncias duplicadas do`vr`argumento do`lv`argumento em vez de todas as instâncias. O padrão é`false`quando não está definido.
+* **`lv`** (obrigatório, string): Uma variável (ou string) que contém uma lista de valores delimitados
+* **`vr`** (obrigatório, string): O valor que você deseja remover do `lv` argumento. A Adobe recomenda a remoção de vários valores durante uma única `rfl` chamada.
+* **`d1`** (opcional, string): O delimitador usado pelo `lv` argumento. O padrão é uma vírgula (`,`).
+* **`d2`** (opcional, string): O delimitador que você deseja que a string de retorno use. O padrão é o mesmo valor do `d1` argumento.
+* **`df`** (opcional, booleano): Se `true`, força apenas instâncias duplicadas do `vr` argumento do `lv` argumento em vez de todas as instâncias. O padrão é `false` quando não está definido.
 
 Chamar esse método retorna uma string modificada contendo o `lv` argumento, mas sem nenhuma instância (ou instâncias duplicadas) do valor especificado no `vr` argumento.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
+### Exemplo nº 1
 
 Se o status...
 
@@ -84,13 +84,13 @@ s.events = "event22,event24,event25";
 s.events = s.rfl(s.events,"event24");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event25";
 ```
 
-### Exemplo #2
+### Exemplo nº 2
 
 Se o status...
 
@@ -104,7 +104,7 @@ s.events = "event22,event24,event25";
 s.events = s.rfl(s.events,"event26");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event24,event25";
@@ -126,7 +126,7 @@ s.events = "event22,event24,event25";
 s.events = s.rfl(s.events);
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "";
@@ -134,7 +134,7 @@ s.events = "";
 
 Se o argumento lv ou vr estiver em branco em uma chamada s.rfl, o plug-in não retornará nada
 
-### Exemplo #4
+### Exemplo nº 4
 
 Se o status...
 
@@ -148,7 +148,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = s.rfl(s.prop4,"people","|");
 ```
 
-... o valor final de s.prop4 ainda será...
+...o valor final de s.prop4 ainda será...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -162,7 +162,7 @@ s.eVar5 = "hello|today";
 
 Lembre-se de que o plug-in retorna apenas um valor; na verdade, ela não &quot;redefine&quot; a variável transmitida pelo argumento lv.
 
-### Exemplo #5
+### Exemplo nº 5
 
 Se o status...
 
@@ -176,7 +176,7 @@ s.prop4 = "hello|people|today";
 s.prop4 = s.rfl(s.prop4,"people");
 ```
 
-... o valor final de s.prop4 ainda será...
+...o valor final de s.prop4 ainda será...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -184,7 +184,7 @@ s.prop4 = "hello|people|today";
 
 Certifique-se de definir o argumento d1 nos casos em que o valor do argumento lv contém um delimitador diferente do valor padrão (ou seja, vírgula).
 
-### Exemplo #6
+### Exemplo nº 6
 
 Se o status...
 
@@ -198,7 +198,7 @@ s.events = "event22,event23,event25";
 s.events = s.rfl(s.events,"EVenT23");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event23,event25";
@@ -206,7 +206,7 @@ s.events = "event22,event23,event25";
 
 Embora esse exemplo não seja prático, demonstra a necessidade de passar em valores sensíveis a maiúsculas e minúsculas.
 
-### Exemplo #7
+### Exemplo nº 7
 
 Se o status...
 
@@ -220,13 +220,13 @@ s.events = "event22,event23:12345,event25";
 s.events = s.rfl(s.events,"event23");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event25";
 ```
 
-### Exemplo #8
+### Exemplo nº 8
 
 Se o status...
 
@@ -240,7 +240,7 @@ s.events = "event22,event23:12345,event25";
 s.events = s.rfl(s.events,"event23:12345");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event23:12345,event25";
@@ -248,7 +248,7 @@ s.events = "event22,event23:12345,event25";
 
 Quando for necessário remover um evento que use a serialização e/ou a sintaxe numérica/de moeda, você deverá especificar somente o próprio evento (ou seja, sem os valores serialização/numérico/de moeda) na chamada s.rfl.
 
-### Exemplo #9
+### Exemplo nº 9
 
 Se o status...
 
@@ -262,7 +262,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 s.events = s.rfl(s.events,"event23");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event24,event25");
@@ -282,7 +282,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 s.events = s.rfl(s.events,"event23", "", "",true);
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event23,event24,event25");
@@ -302,13 +302,13 @@ s.events = "event22,event23,event23,event23,event24,event25";
 s.events = s.rfl(s.events,"event23", "", "|",true);
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22|event23|event24|event25");
 ```
 
-### Exemplo #12
+### Exemplo nº 12
 
 Se o status...
 
@@ -322,7 +322,7 @@ s.events = "event22,event23,event24,event25";
 s.events = s.rfl(s.events,"event23,event24");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event23,event24,event25";
@@ -345,7 +345,7 @@ s.events = s.rfl(s.events,"event23");
 s.events = s.rfl(s.events,"event24");
 ```
 
-... o valor final de s.events será:
+...o valor final de s.events será:
 
 ```js
 s.events = "event22,event25");
@@ -353,7 +353,7 @@ s.events = "event22,event25");
 
 Cada valor a ser removido da lista deve estar contido em sua própria chamada s.rfl.
 
-### Exemplo #14
+### Exemplo nº 14
 
 Se o status...
 
@@ -367,7 +367,7 @@ s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
-... o valor final de s.linkTrackVars será:
+...o valor final de s.linkTrackVars será:
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar3";
@@ -375,7 +375,7 @@ s.linkTrackVars = "events,eVar1,eVar3";
 
 Os três últimos argumentos (ou seja, &quot;,&quot;,&quot;,&quot;,false) no final desta chamada s.rfl não são necessários, mas também não estão &quot;prejudicando nada&quot; por estarem presentes, pois correspondem às configurações padrão.
 
-### Exemplo #15
+### Exemplo nº 15
 
 Se o status...
 
@@ -389,7 +389,7 @@ s.events = "event22,event23,event24";
 s.rfl(s.events,"event23");
 ```
 
-... o valor final de s.events ainda será:
+...o valor final de s.events ainda será:
 
 ```js
 s.events = "event22,event23,event24";
