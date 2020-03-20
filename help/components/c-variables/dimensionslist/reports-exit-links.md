@@ -1,37 +1,24 @@
 ---
-description: Mostra os links mais comuns que são clicados pelas pessoas e levam a lugares fora de seu site. Normalmente, esses links indicam sites de parceiros ou afiliados. Contudo, podem ser qualquer local em que você tenha implementado um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
-title: 'Links de saída '
-topic: Reports
-uuid: e1452f04-389d-4aa3-8763-732880284302
+title: Links de saída
+description: Relatar os links mais comuns que as pessoas clicam para sair do site.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: be4c3ec95b9e93dda7603c0bdb178c0a54d800a0
 
 ---
 
 
-# Links de saída 
+# Links de saída
 
-Mostra os links mais comuns que são clicados pelas pessoas e levam a lugares fora de seu site. Normalmente, esses links indicam sites de parceiros ou afiliados. Contudo, podem ser qualquer local em que você tenha implementado um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
+Mostra os links mais comuns que as pessoas clicam para sair do site. Normalmente, esses links apontam para sites de parceiros ou afiliados; no entanto, eles podem ser qualquer local onde você tenha um link externo. Você pode usar esse relatório para visualizar os links afiliados mais populares, ou para ajudar a validar o número de referências que seus parceiros afirmam receber de você.
 
 Há vários requisitos que devem ser cumpridos para que a página seja preenchida corretamente:
-
-* Se estiver usando um rastreamento de link personalizado manual, uma solicitação *`s.tl()`* deve ser acionada com o parâmetro intermediário definido como *e*.
-
+* Se estiver usando o rastreamento de link personalizado manual, uma `tl()` solicitação deve ser acionada com o parâmetro intermediário definido como `e`.
 * Se usar o rastreamento de link personalizado automático, todos os requisitos devem ser cumpridos:
-* 
-
-   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) deve ser definido para *verdadeiro*.
-
-   * O usuário do link clicou em não corresponder a quaisquer valores na variável [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html).
-   * Se [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) for implementado, o link externo deve corresponder, no mínimo, a um dos valores definidos nessa variável.
-
-* Se algum dos requisitos acima não for cumprido, a ocorrência não preencherá este relatório.
-
-* 
-* Como em todas as ocorrências de rastreamento de link personalizado, a variável [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) é removida da solicitação de imagem para impedir a inflação da exibição de página.
+   * A variável [trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) deve estar ativada.
+   * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
+   * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
+* Se algum dos requisitos acima não for atendido, a ocorrência não preencherá este relatório.
+* Como em todas as ocorrências de rastreamento de link personalizado, a variável [pageName](/help/implement/vars/page-vars/pagename.md) é removida da solicitação de imagem para evitar inflação para a métrica de exibições de página.
 * É possível visualizar esse relatório nos formatos de tendência e de classificação.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
-* É possível criar [interrupções](/help/analyze/reports-analytics/reports-customize/breakdowns.md) com qualquer outra variável através das Ferramentas administrativas.
-* [As Instâncias](/help/components/c-variables/c-metrics/metrics-instance.md) são as únicas métricas disponíveis por padrão neste relatório, contando o número de vezes em que o link de saída foi acionado.
-* Os visitantes diários, semanais, mensais e trimestrais podem ser ativados para esse relatório. Contudo, somente um representante da Adobe pode habilitá-los, mediante um custo adicional. Ativar visitantes exclusivos para quaisquer variáveis de rastreamento de link personalizado aumenta em muito a latência do conjunto de relatórios.
-
+* É possível criar [detalhamentos](/help/analyze/reports-analytics/reports-customize/breakdowns.md) com qualquer outra variável.
