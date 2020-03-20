@@ -2,8 +2,8 @@
 description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 title: Visão geral do calendário e do intervalos de datas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 
-As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Por padrão, o calendário do Workspace mostra o mês atual e o anterior.
+As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Quando você clica em um intervalo de datas no Workspace, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
 
-O primeiro clique inicia uma seleção de intervalo de datas. Em seguida, destaca o intervalo em qualquer direção até o segundo clique, que seleciona o final do intervalo de datas. Se você pressionar a tecla `Shift` (ou clicar com o botão direito do mouse) ao clicar na primeira data, ela será anexada ao intervalo.
+![Calendário](assets/aw_calendar.png)
+
+O primeiro clique em um calendário inicia uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a `Shift` tecla for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
 
 Você também pode arrastar datas (e dimensões de tempo) em um projeto do Workspace. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
 
-![](assets/aw_calendar.png)
-
-[Vídeo sobre o uso do intervalo de datas e do calendário do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
-
+[Vídeo sobre o uso do intervalo de datas e do calendário do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 | Configuração | Descrição |
 |--- |--- |
