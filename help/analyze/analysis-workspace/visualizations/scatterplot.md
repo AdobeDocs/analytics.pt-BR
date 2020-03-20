@@ -1,20 +1,20 @@
 ---
-description: Mostra impressões emitidas e quantos usuários únicos viram essas impressões.
 title: Gráfico de dispersão
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Uma visualização que mostra a relação entre até três métricas.
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
 
 # Gráfico de dispersão
 
-Mostra impressões emitidas e quantos usuários únicos viram essas impressões.
+A visualização do gráfico de dispersão mostra a relação entre os valores de dimensão e até três métricas. Ela requer três componentes e suporta a visualização de até quatro componentes.
 
-O tamanho de cada ponto de dados oferece uma sugestão visual sobre o número médio de vezes que um visualizador foi exposto a um anúncio. O tamanho e os dados variam de acordo com as dimensões, os intervalos de datas e os filtros selecionados.
+* O componente de linha (geralmente uma dimensão) representa cada ponto no gráfico. Linhas diferentes são exibidas como pontos coloridos diferentes.
+* A coluna mais à esquerda (geralmente uma métrica) representa a posição do ponto no eixo Y (vertical).
+* A segunda coluna representa a posição do ponto no eixo X (horizontal).
+* A terceira coluna determina o raio do ponto.
+* Todas as colunas subsequentes em uma tabela de forma livre são ignoradas pela visualização do gráfico de dispersão.
 
-![](assets/scatter.png)
-
-> [!NOTE] As tabelas associadas a gráficos de dispersão devem ter pelo menos duas colunas. A primeira coluna define o eixo X e a segunda coluna define o eixo Y. Se houver uma terceira coluna disponível, o Gráfico de dispersão a usa para determinar o raio do ponto. Em outras palavras, as colunas *1*, *2* e *3* mapeiam para *X*, *Y* e *raio do ponto*.
-
+![Gráfico de dispersão](assets/scatter.png)
