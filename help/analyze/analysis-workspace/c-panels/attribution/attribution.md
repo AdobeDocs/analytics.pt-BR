@@ -3,7 +3,7 @@ description: 'null'
 title: Visão geral do painel Atribuição
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ A atribuição sempre é executada antes da segmentação e a segmentação é e
 Por exemplo, se você criar um VRS com um segmento “Exibir ocorrências” aplicado, poderá ver outros canais em uma tabela usando alguns modelos de atribuição.
 
 ![Conjunto de relatórios virtuais “somente exibição”](assets/vrs-aiq-example.png)
+
+> [!NOTE] Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente ocultará alguns valores de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento e um filtro com definições comparáveis podem, às vezes, retornar valores mais baixos para o segmento.
