@@ -4,7 +4,7 @@ title: Perguntas frequentes sobre o Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
 
-## Implementação e AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## Implementação e AppMeasurement
 
 **P: Quais são as etapas de implementação para habilitar o novo Activity Map?**
 
@@ -39,7 +39,21 @@ R: O AppMeasurement é implementado no nível de conjunto de relatórios. O nív
 
 R: Não. A funcionalidade do Activity Map não depende da API do visitante.
 
-## Aplicativo do Activity Map {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Aplicativo do Activity Map
+
+**P: Como o Activity Map suporta aplicativos de página única (SPA)?**
+
+A:
+
+* A cada poucos segundos, o Activity Map verifica a página da Web, procurando alterações na página. O Activity Map encontra novo conteúdo na página sem precisar de um novo carregamento de página, mas esse novo conteúdo é sempre atribuído ao primeiro pageName encontrado quando a página é carregada.
+
+* O Activity Map verifica se a visibilidade dos links que ele conhece foi alterada. Se uma alteração na visibilidade for encontrada, a coluna Presente da tabela [Links na página](/help/analyze/activity-map/activitymap-links-report.md) para esse link será atualizada com **[!UICONTROL Displayed]** ou **[!UICONTROL Hidden]**.
+
+* Quando a interação do usuário cria um novo conteúdo, todos os novos elementos encontrados pelo AppMeasurement como um link serão adicionados à **[!UICONTROL Links On Page]** tabela. O Activity Map envia uma nova solicitação de dados que inclui esses novos links. Os novos links devem aparecer na **[!UICONTROL Links On Page]** tabela quando a solicitação de dados for manipulada pela interface do usuário.
+
+**P: O Activity Map fornece dados sobre &quot;visualizações&quot;?**
+
+A: Não, rastrear todos os links exibidos em cada carregamento de página exigiria que coletássemos muito mais dados. Como um complemento gratuito, o Activity Map não fornece essa funcionalidade.
 
 **P: Posso usar o Activity Map se não tiver usado anteriormente o ClickMap do visitante no meu site?**
 
@@ -47,7 +61,7 @@ R: Ter a versão herdada, agora chamada simplesmente de ClickMap, instalada não
 
 **P: Quais navegadores e versões são compatíveis com o Activity Map?**
 
-P: Oferecemos suporte somente para a versão mais recente dos quatro navegadores principais (Chrome, Firefox, Safari e IE).
+A: Oferecemos suporte à versão mais recente dos quatro navegadores principais (Chrome, Firefox, Safari e IE).
 
 **P: Quais são as Configurações de sobreposição padrão?**
 
@@ -68,12 +82,6 @@ R: Alguns links classificados podem estar ocultos na página (links de submenu, 
 
 R: Enquanto o Activity Map estiver em uso, os dados do cliques em links não são coletados pela tag do Analytics. Esse comportamento segue o comportamento do plug-in ClickMap.
 
-**P: Por que o menu suspenso de métrica lista as mesmas métricas várias vezes?**
-
-R: O Activity Map lista as métricas para todos os conjuntos de relatórios. Como resultado, é possível que ocorra uma duplicação se a empresa não tiver passado por um processo de [consolidação de métrica](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
-
-A lista suspensa de Métricas permite que você limite a lista de métricas calculadas para as métricas atribuídas ao conjunto de relatórios da página visitada.
-
 **P: Como o Relatório de todos os links pode ser comparado aos Reports &amp; Analytics do Activity Map?**
 
 R: Para usar o Relatório de todos os links no Activity Map, criamos uma solicitação de detalhamento, como a seguinte: página do Activity Map = “visitedpage”, detalhado pelo Link e Região do Activity Map em `<list of link&regions present in the page at rendering time>`.
@@ -84,9 +92,7 @@ No entanto, é importante observar que o relatório obtido em Relatórios e aná
 
 **P: Como o Activity Map funciona com as páginas que contêm várias tags, listando vários conjuntos de relatórios?**
 
-R: Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag enviada pela página.
-
-É possível selecionar um conjunto de relatórios com tags diferentes na guia Configurações do Activity Map > Outros.
+R: Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag enviada pela página. É possível selecionar um conjunto de relatórios com tags diferentes na guia Configurações do Activity Map > Outros.
 
 **P: Por quanto tempo o Activity Map verifica a tag do Analytics?**
 
@@ -116,27 +122,27 @@ Uma mensagem de aviso é mostrada abaixo da barra de ferramentas, indicando que 
 
 *Página da Web com a tag do Analytics incompatível (AppMeasurement v1.5 ou anterior)*
 
-Uma mensagem de aviso é exibida, indicando que você precisa (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) atualizar o código da página para a v1.6.
+Uma mensagem de aviso é exibida indicando que é necessário atualizar o código da página para v1.6 ou mais.
 
 *Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do Activity Map não foi ativado nas Ferramentas administrativas*
 
-Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do ActivityMap\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
+Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**P: Posso exportar dados do Activity Map (contextData) por meio do[Feed de dados do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
+**P: Posso exportar dados do Activity Map (contextData) por meio do [Feed de dados do Analytics](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)?**
 
 R: Não.
 
-## Segmentação no Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentação no Activity Map
 
-**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Ou são segmentos de nível de administrador compartilhados, disponíveis no Activity Map?**
+**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Are shared segments available in Activity Map?**
 
-R: O Activity Map herda seus segmentos de nível de administrador (segmentos de relatórios) do Analytics.
+A: O Activity Map herda seus segmentos de relatórios do Analytics.
 
 **P: Os segmentos funcionam no modo Online?**
 
 R: Não, os segmentos não funcionam no modo Online. A funcionalidade é equivalente ao dos relatórios em tempo real nos Reports &amp; Analytics.
 
-## Conjuntos de relatórios virtuais {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Conjuntos de relatórios virtuais
 
 **P: O Activity Map é compatível com os conjuntos de relatórios virtuais?**
 
