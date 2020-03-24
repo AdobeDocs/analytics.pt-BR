@@ -2,7 +2,7 @@
 title: Vários conjuntos de relatórios no Workspace
 description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ Esse recurso é útil se você desejar, por exemplo,
 * Comparar dados de duas regiões diferentes, e os dados estão em dois conjuntos de relatórios diferentes. É possível criar tabelas e visualizações para comparar os dados lado a lado.
 
 * Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Agora é possível extrair dados de vários conjuntos de relatórios para o mesmo projeto.
+
+## Aplicar conjunto de relatórios a todos os painéis
+
+Você pode aplicar um conjunto de relatórios a todos os painéis ao mesmo tempo, clicando com o botão direito do mouse em qualquer cabeçalho do painel e selecionando **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
 
 ## Painel ativo
 
