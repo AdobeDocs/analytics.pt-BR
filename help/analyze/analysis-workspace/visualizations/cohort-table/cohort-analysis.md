@@ -3,8 +3,8 @@ keywords: Analysis Workspace
 title: O que é a análise de coorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 ---
 
@@ -13,21 +13,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A análise de coorte é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a análise de coorte disponíveis na Web, por exemplo, em [Análise de coorte 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte  [Preparar e compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md).
+Depois de criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos) e, em seguida, compartilhar o relatório de coorte com qualquer pessoa. See [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Exemplos do que você pode fazer com a análise de coorte:
 
-* Lançar campanhas projetadas para estimular uma ação desejada.
-* Deslocar o orçamento de marketing no momento certo do ciclo de vida do cliente.
-* Reconhecer quando finalizar uma avaliação ou uma oferta para maximizar o valor.
-* Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização, etc.
-* Exibir um relatório de análise de coorte em um relatório de análise orientada.
-* Reconhecer quando finalizar uma avaliação ou uma oferta para maximizar o valor.
-* Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização, etc.
+* Inicie campanhas projetadas para estimular uma ação desejada.
+* Mude o orçamento de marketing no momento certo do ciclo de vida do cliente.
+* Reconhecer quando encerrar uma avaliação ou uma oferta, para maximizar o valor.
+* Obtenha ideias para testes A/B em áreas como preços, caminho de atualização e assim por diante.
+* Visualização um relatório de Análise de coorte em um relatório de Análise guiada.
 
-A Análise de coorte está disponível a todos os clientes do Analytics com direitos de acesso à Analysis Workspace.
+A Análise de coorte está disponível para todos os clientes do Analytics com direitos de acesso à área de trabalho da Análise.
 
-[Análise de coorte no YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Análise de coorte no YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -35,7 +33,7 @@ A Análise de coorte está disponível a todos os clientes do Analytics com dire
 
 ## Recursos da análise de coorte
 
-Em janeiro de 2019, a Adobe lançou uma versão nova e significativamente aprimorada da Análise de coorte. Permite um controle mais refinado sobre os coortes que você cria. Estes são os recursos aprimorados:
+Em janeiro de 2019, a Adobe lançou uma versão nova e significativamente aprimorada da Análise de coorte. Permite um controle muito mais refinado sobre os grupos que você está construindo. Estes são os aprimoramentos em destaque:
 
 ### Tabela de retenção
 
@@ -57,13 +55,13 @@ Permite calcular a retenção ou o abandono com base na coluna anterior em vez d
 
 ### Tabela de latência
 
-Mede o tempo decorrido antes e depois da ocorrência do evento de inclusão. Essa é uma ferramenta excelente para ser usada antes ou depois da análise. Uma coluna “Incluída” encontra-se no centro da tabela e períodos de tempo anteriores e posteriores ao evento de inclusão são exibidos em ambos os lados.
+Mede o tempo decorrido antes e depois do evento de inclusão. Esta é uma excelente ferramenta para análises pré/pós. A coluna &quot;Incluído&quot; está no centro da tabela e os períodos de tempo antes e depois do evento de inclusão são mostrados em ambos os lados.
 
 ![](assets/cohort-latency.png)
 
 ### Coorte de dimensão personalizada
 
-Crie coortes com base em uma dimensão selecionada, em vez de coortes com base em tempo, que são o padrão. Use dimensões como canal de marketing, campanha, produto, página, região ou qualquer outra dimensão no Adobe Analytics para exibir como a retenção é alterada com base nos valores diferentes destas dimensões.
+Crie coortes com base em uma dimensão selecionada, e não em coortes com base em tempo, que são o padrão. Use dimensões como canal de marketing, campanha, produto, página, região ou qualquer outra dimensão no Adobe Analytics para mostrar como a retenção muda com base nos diferentes valores dessas dimensões.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
