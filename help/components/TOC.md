@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Conjuntos de regras de classificação](c-classifications2/crb/classification-rule-set.md)
       + [Regras de classificação](c-classifications2/crb/classification-quickstart-rules.md)
       + [Regras de classificação - definições](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclassificações e o construtor de regras - caso de uso](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Subclassificações e o Construtor de regras](c-classifications2/crb/sub-classification-rule-builder.md)
    + Classificações numéricas 2 {#numeric2-classification}
       + [Visão geral das classificações numéricas 2](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Criar classificações numéricas 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -332,6 +332,6 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
    + [Classificações em Canais de marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Expiração de envolvimento do visitante](c-marketing-channels/visitor-engagement.md)
-   + [Analisar canais de marketing](c-marketing-channels/analyze-mc.md)
+   + [Analisar Canais de marketing](c-marketing-channels/analyze-mc.md)
    + [Permissões para Canais de marketing](c-marketing-channels/c-channel-report-access.md)
-   + [Perguntas frequentes e exemplos de canais de marketing](c-marketing-channels/c-faq.md)
+   + [Perguntas frequentes sobre Canais de marketing e exemplos](c-marketing-channels/c-faq.md)
