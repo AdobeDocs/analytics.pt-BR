@@ -2,52 +2,52 @@
 description: As métricas a seguir são sincronizadas como parte da integração do appFigures.
 title: Métricas e dimensões
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Métricas e dimensões{#metrics-and-dimensions}
+# Métricas e dimensões {#metrics-and-dimensions}
 
 As métricas a seguir são sincronizadas como parte da integração do appFigures.
 
 | Métrica | Descrição |
 |---|---|
 | Downloads da App Store | O número de downloads de aplicativos para dispositivos móveis. |
-| Compras na App Store (no aplicativo) | O número de compras no aplicativo. |
-| Classificação na AppStore | Usado para definir a métrica calculada Média de appFigures. Não usado diretamente. |
-| Divisor de classificação da App Store | Usado para definir a métrica calculada Média de appFigures. Não usado diretamente. |
-| Classificação na App Store | Usado para definir a métrica calculada Média de appFigures. Não usado diretamente. |
-| Divisor de classificação da App Store | Usado para definir a métrica calculada Média de appFigures. Não usado diretamente. |
+| Compras na App Store (no aplicativo) | A quantidade de compras no aplicativo. |
+| Classificação na AppStore | Usado para definir a métrica calculada média do appFigures. Não usado diretamente. |
+| Divisor de classificação da App Store | Usado para definir a métrica calculada média do appFigures. Não usado diretamente. |
+| Classificação na App Store | Usado para definir a métrica calculada média do appFigures. Não usado diretamente. |
+| Divisor de classificação da App Store | Usado para definir a métrica calculada média do appFigures. Não usado diretamente. |
 | Receita da App Store (no aplicativo) | A quantidade de receita do aplicativo. |
 | Receita da App Store (uma vez) | A quantidade de receita associada à compra de um aplicativo. |
 | Royalties da App Store (no aplicativo) | Obsoleto. |
 | Royalties da App Store (uma vez) | Obsoleto. |
 
-As seguintes dimensões de classificação reservadas são criadas pelo assistente de conectores de dados para a eVar reservada da ID de objeto do AppFigures.
+As seguintes dimensões de classificação reservadas são criadas pelo assistente do Data Connectors da eVar reservada da ID de objeto do AppFigures.
 
 | Dimensão de classificação | Descrição |
 |---|---|
-| Nome do país | O nome do país relacionado à atividade da app store. |
-| Nome do dispositivo | O nome do dispositivo móvel relacionado à atividade da app store. |
-| Nome da Appstore | O nome do appstore que reportou a atividade. |
+| Nome do país | O nome do país relacionado à atividade da loja de aplicativos. |
+| Nome do dispositivo | O nome do dispositivo móvel relacionado à atividade da loja de aplicativos. |
+| Nome da AppStore | O nome da loja de aplicativos que reportou a atividade. |
 | Nome do aplicativo | O nome do aplicativo móvel. |
 | Nome no aplicativo | O item adquirido dentro do aplicativo. |
-| Nome da Categoria | Categoria principal do aplicativo na app store. |
+| Nome da Categoria | Categoria principal do aplicativo na AppStore. |
 | Título da avaliação | Título da revisão. |
 | Comentário da avaliação | Comentário da revisão |
 | Versão do aplicativo | Versão do aplicativo que foi usada para gerar a revisão. |
 | Usuários da App Store | Autor (nome de usuário) da revisão. |
 
-A métrica calculada a seguir é criada pelo assistente de conectores de dados:
+A métrica calculada a seguir é criada pelo assistente do Data Connectors:
 
 | Métrica calculada | Descrição |
 |--- |--- |
-| Classificação média da App Store (Numérico) | A classificação média do aplicativo. Essa métrica calculada é definida usando a seguinte fórmula:   `[App Store Rank]` / `[App Store Rank Divisor]` <br> Observação:  O número de aplicativos classificados por categoria e país varia entre as lojas de aplicativos. Se o aplicativo estiver classificado abaixo desse limite, as fileiras do aplicativo não estarão disponíveis. |
+| Classificação média da App Store (Numérico) | A classificação média do aplicativo. Essa métrica calculada é definida usando a seguinte fórmula:   `[App Store Rank]` / `[App Store Rank Divisor]` <br> Observação:  a quantidade de aplicativos classificados por categoria e país varia entre as lojas de aplicativos. Se o aplicativo estiver classificado abaixo desse limite, as classificações dele não estarão disponíveis. |
 | Avaliação geral da App Store | A classificação média do aplicativo. A métrica é calculada e definida usando a seguinte fórmula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
 
-## Dimensões relevantes para cada métrica de AppFigures {#section-cd356d3dce04412893beed345305c247}
+## Dimensões relevantes de cada métrica do AppFigures {#section-cd356d3dce04412893beed345305c247}
 
 A tabela a seguir mostra quais dimensões de relatório estão relacionadas a quais métricas.
 
@@ -93,7 +93,7 @@ A tabela a seguir mostra quais dimensões de relatório estão relacionadas a qu
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Nome da Appstore </td> 
+   <td> Nome da AppStore </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
@@ -145,7 +145,7 @@ A tabela a seguir mostra quais dimensões de relatório estão relacionadas a qu
    <td> <p> <img id="image_0AB07EC4A8DD4D779DE98E9390844C8A" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Nome da categoria da classificação </td> 
+   <td> Nome da categoria de classificação </td> 
    <td> <p> <img id="image_33D8D6D036BF4B909221E39F82C01A21" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_F207CD0E239D4834A4C6F505F036D841" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_FACCCD4BFBA24D9394B4E0040DD18A20" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
