@@ -4,7 +4,7 @@ title: Perguntas frequentes sobre o Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
+source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 ---
 
@@ -53,7 +53,7 @@ A:
 
 **P: O Mapa de Atividades fornece dados sobre &quot;visualização&quot;?**
 
-A: Não, a Adobe não rastreia links exibidos.
+A: Não, a Adobe não rastreia links que foram exibidos.
 
 **P: Posso usar o Mapa de Atividades se não tiver usado o ClickMap do Visitante anteriormente em meu site?**
 
@@ -88,7 +88,7 @@ R: Para usar o Relatório de todos os links no Activity Map, criamos uma solicit
 
 Para obter um relatório equivalente no Relatórios e análises, é necessário primeiro navegar até o relatório de Página do mapa de Atividade. Lá, você filtraria o nome da página visitada no Mapa de Atividades. O nome da página visitada é mostrado na coluna esquerda no painel inferior Detalhes da página do mapa de Atividade. Depois que a página for encontrada, você poderá fazer o detalhamento dessa página e escolher Links e regiões do mapa de Atividade como uma dimensão secundária.
 
-No entanto, é importante observar que o relatório obtido em P&amp;R lista todos os Links e regiões coletados para essa página. Mas o Mapa de Atividades somente informa sobre Links e Regiões que estão presentes na página da Web. Então, se você tem um site de notícias, ele só mostrará os dados da notícia presentes neste momento, e não as notícias que estavam presentes no começo do dia.
+No entanto, é importante observar que o relatório obtido em P&amp;R lista todos os Links e regiões que foram coletados para essa página. Mas o Mapa de Atividades somente informa sobre Links e Regiões que estão presentes na página da Web. Então, se você tem um site de notícias, ele só mostrará os dados da notícia presentes neste momento, e não as notícias que estavam presentes no começo do dia.
 
 **P: Como o Mapa de Atividades funciona com páginas que contêm várias tags que listam vários conjuntos de relatórios?**
 
