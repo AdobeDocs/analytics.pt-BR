@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Referência do arquivo de importação
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,15 +19,15 @@ Utilize o Assistente das Fontes de Dados para gerar um modelo de importação. O
 * Um sinal de número (#) identifica aquela linha como um comentário.
 * É possível inserir comentários adicionais ao arquivo, conforme necessário.
 * Um comentário que apresenta o título do arquivo modelo.
-*  Um comentário que apresenta os nomes da métrica externa e das dimensões dos dados especificados no [!UICONTROL Assistente de ativação da fonte de dados].
+* Um comentário que apresenta os nomes da métrica externa e das dimensões dos dados especificados no [!UICONTROL Assistente de ativação da fonte de dados].
 
 Os títulos das colunas são utilizados para identificar os dados de cada coluna do arquivo da Fonte de Dados. Há três tipos de títulos de coluna:
 
 **Data**: (Obrigatório) Uma marca de tempo para cada linha de dados no arquivo.
 
-**Variáveis**: Os nomes das variáveis de relatório mapeadas para as dimensões de dados da fonte de dados.
+**Variáveis**: os nomes das variáveis de relatório mapeadas para as dimensões de dados da fonte de dados.
 
-**Eventos**: Os nomes dos eventos mapeados para as métricas da fonte de dados.
+**Eventos**: os nomes dos eventos mapeados para as métricas da fonte de dados.
 
 Use o modelo da Fonte de dados para criar um arquivo de Fontes de dados que contenha os dados que você deseja carregar. Ao criar o arquivo da Fonte de Dados, lembre-se que:
 
@@ -60,6 +60,6 @@ Use o modelo da Fonte de dados para criar um arquivo de Fontes de dados que cont
 
 **Arquivo .FIN**
 
-Quando terminar de preencher o arquivo da Fonte de dados, você poderá fazer o FTP do arquivo no Analytics. No entanto, outro arquivo é necessário para que seus dados sejam processados. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Ao terminar de preencher o arquivo de Fontes de dados, coloque o arquivo no FTP do Analytics. No entanto, outro arquivo é necessário para que seus dados sejam processados. Será necessário carregar um arquivo de texto vazio com o mesmo nome do arquivo de dados, mas com uma extensão [!DNL .fin].
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+Por exemplo, se você carregar um arquivo de dados (delimitado por tabulação) chamado [!DNL myproductdata.txt], deverá carregar também um arquivo de texto vazio chamado [!DNL myproductdata.fin]. Sem o arquivo [!DNL .fin], os dados jamais seriam processados.
