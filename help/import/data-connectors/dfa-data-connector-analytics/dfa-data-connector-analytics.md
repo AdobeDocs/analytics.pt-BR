@@ -4,54 +4,54 @@ keywords: DFA
 title: Conector de dados do DFA para Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# DFA Conector de dados do para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+# Conector de dados do DFA para Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
 
-No mercado online cada vez mais complexo e competitivo de hoje em dia, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em publicidade. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
+No mercado online cada vez mais complexo e competitivo dos dias atuais, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em anúncios. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
 
-A integração do DoubleClick for Advertisers (DFA) soluciona esse problema usando os Conectores de dados™ da Adobe® para permitir que o DoubleClick DFA envie dados automaticamente para o Relatórios e análises.
+A integração do DoubleClick for Advertisers (DFA) soluciona esse problema usando os Data Connectors™ da Adobe® para permitir que o DoubleClick DFA envie dados automaticamente para o Reports &amp; Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administrador]** &gt; Conectores **[!UICONTROL de dados]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Data Connectors]**
 
 ![](assets/data-connectors-home.png)
 
-## Principais benefícios{#key-benefits}
+## Principais benefícios {#key-benefits}
 
 Principais benefícios do conector de dados - a integração do DFA inclui:
 
 * **Conversão aumentada**: obtenha insight direcional para otimizar o posicionamento da campanha de anúncio e a conversão no site com base no comportamento e nas preferências do visitante após o clique.
-* **Local compartilhado para dados**: combine os dados de click-through e view-through do DoubleClick DFA com o Relatórios e análises para aumentar a colaboração interorganizacional e as capacidades de tomar decisões objetivas.
-* **Análise de valor agregado**: a integração automatizada entre o DFA e o Relatórios e análises da Adobe permite que anunciantes e agências gastem menos tempo coletando dados e mais tempo analisando relatórios e tomando medidas.
+* **Local compartilhado para dados**: combine os dados de click-through e view-through do DoubleClick DFA com o Reports &amp; Analytics para aumentar a colaboração interorganizacional e as capacidades de tomar decisões objetivas.
+* **Análise de valor agregado**: a integração automatizada entre o DFA e o Reports &amp; Analytics da Adobe permite que anunciantes e agências gastem menos tempo coletando dados e mais tempo analisando relatórios e tomando medidas.
 * **Insight mais detalhado do cliente**: obtenha mais insight a respeito de onde provêm os visitantes e do que eles estão fazendo no site.
 * **Métricas de sucesso vitalícias**: meça a eficácia de suas campanhas de aquisição durante todo o ciclo de vida do visitante.
-* **Relatórios integrados**: sincronize automaticamente os dados entre o DFA e o Relatórios e análises para obter processos e relatórios empresariais simplificados.
+* **Relatórios integrados**: sincronize automaticamente os dados entre o DFA e o Reports &amp; Analytics para obter processos e relatórios empresariais simplificados.
 * **Análise de visitante vitalícia**: meça a eficácia da campanha com vários eventos de sucesso definidos pelo usuário e valor vitalício.
 * **Métricas de custo**: otimize o retorno sobre o investimento comparando o custo do DFA e a receita gerada desses custos em um único sistema.
 
-## Visão geral da integração de veiculação de anúncios{#ad-serving-integration-overview}
+## Visão geral da integração de veiculação de anúncios {#ad-serving-integration-overview}
 
 Essa integração captura dados de diversas maneiras sobre o visitante direcionado por anúncios. A primeira maneira é pelo clique em um anúncio que resulta na chegada a uma página de aterrissagem marcada, chamado de click-through:
 
 ![](assets/Diagram1.png)
 
-O visitante chega ao site de um editor, que hospeda o anúncio. Esse anúncio tem um identificador exclusivo, chamado ID do anúncio. Os anúncios incluem um posicionamento e uma criação, que descrevem onde o anúncio está no site do Editor e qual conteúdo foi exibido ao visitante. Quando o visitante chega ao anúncio, posicionamento ou criação dos servidores de conteúdo do DFA, é enviada uma impressão para os servidores do DFA Floodlight sobre esse visitante (1).
+O visitante é direcionado para o site de um editor, que hospeda o anúncio. Esse anúncio tem um identificador exclusivo, chamado ID do anúncio. Anúncios incluem um posicionamento e uma criação, que descrevem a localização do anúncio no site do editor e qual conteúdo foi exibido ao visitante. Quando o visitante chega ao anúncio, posicionamento ou criação dos servidores de conteúdo do DFA, é enviada uma impressão para os servidores do DFA Floodlight sobre esse visitante (1).
 
-Se o visitante clica no anúncio (2), o servidor Floodlight é consultado, o que conta um clique, e o 302 redireciona (3) o visitante para a página de aterrissagem. A chegada do visitante à página de aterrissagem é chamada de click-through. Essa página contém um código de acompanhamento da Adobe que consulta dados do servidor do DFA Floodlight.
+Se o visitante clica no anúncio (2), o servidor Floodlight é consultado, o que conta um clique, e o 302 redireciona (3) o visitante para a página de aterrissagem. A chegada do visitante à página de aterrissagem é chamada de click-through. Essa página contém um Código de rastreamento da Adobe que consulta dados do servidor do DFA Floodlight.
 
-Se o visitante não chega realmente à página de aterrissagem depois que o servidor Floodlight rastreia um clique, isso não é chamado de click-through. Alguns anúncios e implementações podem não fazer com que o navegador do visitante obedeça ao redirecionamento 302. Para mais discussão sobre este tópico, consulte [Reconciliando discrepâncias](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)de métricas.
+Se o visitante não chega realmente à página de aterrissagem depois que o servidor Floodlight rastreia um clique, isso não é chamado de click-through. Alguns anúncios e implementações podem não fazer com que o navegador do visitante realmente obedeça ao redirecionamento 302. Para mais discussão sobre este tópico, consulte [Reconciliar discrepâncias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
 
 A próxima métrica capturada por essa integração ocorre quando o visitante recebe a impressão do anúncio, não clica nele, mas em algum momento no futuro chega à página de aterrissagem por outros meios.
 
 ![](assets/Viewthrough.png)
 
-Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página inicial no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
+Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página de aterrissagem no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
 
-## Integração da Adobe: coleta de dados em tempo real{#adobe-integration-real-time-data-collection}
+## Integração da Adobe: coleta de dados em tempo real {#adobe-integration-real-time-data-collection}
 
 A figura a seguir mostra como funciona a coleta de dados.
 
@@ -61,9 +61,9 @@ A parte de coleta de dados da integração da Adobe começa quando o visitante c
 
 Quando os dados chegam, ou demoram muito, ele dispara a notificação para os servidores de rastreamento da Adobe (3).
 
-O módulo Integrate é um módulo JavaScript central especial da Adobe que causa o atraso do beacon de imagem da Adobe, aguardando a solicitação de um terceiro por um período específico (`s.maxDelay`). `s.maxDelay` define quanto tempo o módulo Integrate aguardará pelos dados do servidor do DFA Floodlight antes de disparar a tag de imagem para o navegador do visitante. Esse comportamento é importante para que os dados básicos do visitante ainda sejam coletados, mesmo quando os servidores do DFA Floodlight estiverem inativos ou muito sobrecarregados. Se os dados do Floodlight chegarem antes de o `s.maxDelay` expirar, os dados de rastreamento da Adobe serão disparados imediatamente e conterão os dados adicionais do DFA.
+O módulo Integrate é um módulo JavaScript central especial da Adobe que causa o atraso do beacon de imagem da Adobe, aguardando a solicitação de um terceiro por um período específico (`s.maxDelay`). `s.maxDelay` define quanto tempo o módulo Integrar aguardará pelos dados do servidor do DFA Floodlight antes de acionar a tag de imagem para o navegador do visitante. Esse comportamento é importante para que os dados básicos do visitante ainda sejam coletados, mesmo quando os servidores do DFA Floodlight estiverem inativos ou muito sobrecarregados. Se os dados do Floodlight chegarem antes de o `s.maxDelay` expirar, os dados de rastreamento da Adobe serão disparados imediatamente e conterão os dados adicionais do DFA.
 
-Quando o tempo limite é atingido, o código da página pode especificar um evento do Relatórios e análises da Adobe para uso como um evento de tempo limite. Esse evento é útil no diagnóstico de problemas com a integração ou no ajuste do `s.maxDelay`. Em casos de ocorrências de tempos limite em excesso, aumente o `s.maxDelay`. `s.maxDelay` pode ser definido como muito alto, no entanto, em que casos os visitantes podem ter o potencial de sair do site antes que o `s.maxDelay` timer expire..
+Quando o tempo limite é atingido, o código da página pode especificar um evento do Reports &amp; Analytics da Adobe para uso como um evento de tempo limite. Esse evento é útil no diagnóstico de problemas com a integração ou no ajuste do `s.maxDelay`. Em casos de ocorrências de tempos limite em excesso, aumente o `s.maxDelay`. `s.maxDelay` pode ser definido como alto demais. Porém, nesses casos, os visitantes têm a possibilidade de deixar o site antes de o temporizador `s.maxDelay` expirar.
 
 Às vezes, o servidor Floodlight responde com erros sobre o visitante. Isso normalmente ocorre quando o servidor Floodlight não sabe nada sobre o visitante, pois o visitante ainda não viu nenhum anúncio ou não tem um cookie de visitante do DFA. O código da página pode especificar uma variável de conversão personalizada (eVar) que coletará esses erros e poderá ajudar na solução de problemas de implementação ou apontar problemas na transação do Google. Os erros mais comuns são Sem histórico, Sem cookie, Erro de consulta e Cancelou a inscrição, conforme descrito na tabela a seguir:
 
@@ -74,11 +74,11 @@ Quando o tempo limite é atingido, o código da página pode especificar um even
 | qe | Erro de consulta | Houve um erro na consulta de dados do servidor Floodlight. |
 | oo | Cancelou a inscrição | O visitante cancelou a inscrição nas impressões/no rastreamento de cliques do Google. |
 
-## Integração da Adobe: importação de dados noturna{#adobe-integration-nightly-data-import}
+## Integração da Adobe: importação de dados noturna {#adobe-integration-nightly-data-import}
 
 A parte de coleta de dados da integração coleta dados de click-through e view-through sobre os visitantes do site. Para obter as métricas de cliques, impressões e custo do DFA, há um processo noturno coordenado pelo Google e pela Adobe para importar esses dados adicionais para o conjunto de relatórios integrado. Essas métricas são importadas por meio de fontes de dados, o que significa que elas só são disponibilizadas de forma agregada e não estão no nível da visita.
 
-## Diferenças entre versões{#version-differences}
+## Diferenças entre versões {#version-differences}
 
 No momento, há três versões da integração do DFA: 1.0, 1.5 e 2.0.
 
@@ -115,7 +115,7 @@ Um recurso importante do novo código JavaScript é que não há alteração de 
 
 A versão mais recente da integração do DFA traz dados para uma configuração do Floodlight. Antes da versão 2.0, as integrações individuais eram associadas a um único anunciante do DFA. Com essa mudança, as métricas de cliques, impressões e custo de toda a configuração do Floodlight serão incluídas no conjunto de relatórios integrados. Também é possível rastrear view-throughs entre sites, quando os dois sites estão dentro da mesma configuração do Floodlight.
 
-As métricas de custo de mídia também estão disponíveis a partir da versão 2.0 da integração. Para habilitar as métricas de custo de mídia para uma integração, você deve escolher um evento do Relatórios e análises para custo de mídia no assistente do Genesis, bem como especificar a moeda dos números da métrica na interface do DFA.
+As métricas de custo de mídia também estão disponíveis a partir da versão 2.0 da integração. Para habilitar as métricas de custo de mídia para uma integração, você deve escolher um evento do Reports &amp; Analytics para custo de mídia no assistente do Genesis, bem como especificar a moeda dos números da métrica na interface do DFA.
 
 As ocorrências de tempo limite devem diminuir com a integração 2.0, já que os redirecionamentos 302 foram eliminados. A eliminação desses saltos deve diminuir as ocorrências de tempo limite e aumentar a quantidade de dados do DFA que você pode integrar.
 
