@@ -1,18 +1,18 @@
 ---
 description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
-title: Código do Plug-in do Param da String de Consulta
+title: Código do plug-in do parâmetro da string de consulta
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Código do Plug-in do Param da String de Consulta{#query-string-param-plug-in-code}
+# Código do plug-in do parâmetro da string de consulta {#query-string-param-plug-in-code}
 
 Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
 
-Depois de saber as eVars reservadas, substitua a eVarN pela eVar relevante, por exemplo, eVar10.
+Depois de saber que eVars você reservou, substitua a eVarN pela eVar relevante; por exemplo, pela eVar10.
 
 ```
 /* 
