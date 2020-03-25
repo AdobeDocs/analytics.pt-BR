@@ -1,16 +1,16 @@
 ---
-description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
+description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma determinada ferramenta não atender à necessidade, vá para a próxima para consideração.
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+translation-type: tm+mt
+source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 ---
 
 
 # Qual ferramenta do Adobe Analytics devo usar?
 
-Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
+Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma determinada ferramenta não atender à necessidade, vá para a próxima para consideração.
 
 Para mais comparações entre produtos do Adobe Analytics, clique [aqui](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
@@ -21,47 +21,46 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**deve ser usado:
 
 * Por usuários iniciantes que requerem acesso a relatórios pré-criados e fáceis de navegar.
-* Para entender a atividade de Lift e Confidence (Analytics para Target/A4T) do Target.
-* Para acessar dados em tempo real na interface.
-* Para configurar eventos do Calendário.
-* Para configurar Metas.
-* Para visualizar relatórios de Bot.
-* Para visualizar vários conjuntos de relatórios em um único painel na interface.
-* Para acessar visualizações exclusivas de Vídeo referentes a Visualizadores simultâneos, Período de transmissão de vídeo, e Abandono do visualizador.
-* Para aproveitar Listas de publicação em relatórios agendados.
+* Para entender o incentivo e a confiança da atividade do Público alvo (Analytics para Público alvo/A4T).
+* Para acessar dados em tempo real na interface do usuário.
+* Para configurar eventos de calendário.
+* Para configurar Públicos alvos.
+* Para visualização do relatórios Bot.
+* Para acessar visualizações de vídeo exclusivas do Visualizador simultâneo, Faixa de horário do vídeo e Suspensão do visualizador.
+* Para aproveitar Listas de publicação em relatórios programados.
 
-**[Interface do usuário do Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html)**deve ser usada:
+**[Interface do usuário do Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**deve ser usada:
 
-* Se uma exibição agrupada dos dados do aplicativo para dispositivos móveis for necessária.
-* Para gerenciar a implementação do SDK para aplicativos para dispositivos móveis.
-* Para configurar anúncios em dispositivos moveis, como mensagens dentro do aplicativo, mensagens de push e direcionamento por localização.
-* Se mais visualizações interativas forem necessárias para os dados do aplicativo (Sunburst).
+* Se uma visualização siloada de dados do aplicativo móvel for necessária.
+* Para gerenciar a implementação do SDK do seu aplicativo móvel.
+* Para configurar anúncios móveis, como mensagens no aplicativo, mensagens de push e direcionamento de localização.
+* Se desejarem visualizações mais interativas para dados do aplicativo (Sunburst).
 * Para visualizar pontos de interesse em um mapa.
-* Para métricas de valor do ciclo de vida.
+* Para métricas de valor da duração.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**deve ser usada:
 
 * Para exportar 50.000 linhas de dados
-* Se a organização da guia de trabalho do projeto for necessária.
+* Se a organização da guia do trabalho do projeto for desejada.
 * Para usar o relatório de Análise do site (relatório de definição de caminho 3D).
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**deve ser usada:
 
-* Como a opção de ferramenta mais flexível do Analytics (análise de perda a nível de visitantes, a nível de ocorrência).
-* Para criar um conjunto de dados multicanal e interações online e offline de CRM para POS, até a Web.
-* Para atribuição avançada (com base nas regras e modelos algorítmicos).
-* Para modelagem preditiva e estatística (pontuação de propensão, agrupamento, correlações, etc.).
-* Para análise de Latência (tempo antes / depois de um evento).
+* Como a opção de ferramenta mais flexível do Analytics (análise de nível de visitante e de ocorrência).
+* Para criar um conjunto de dados de vários canais de interações online e offline do CRM para o POS para a Web.
+* Para atribuição avançada (com base em regras e modelos algorítmicos).
+* Para modelagem preditiva e estatística (pontuação de propensão, agrupamento, correlações etc.).
+* Para análise de latência (tempo antes / depois de um evento).
 * Para identificação e exportação de segmentos complexos em toda a Adobe Experience Cloud.
 
 ## Importação de dados para o Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[Classificações](/help/components/c-classifications2/c-classifications.md)**devem ser usadas:
 
-* Quando há metadados que você deseja associar a um valor de coleta (eVar, prop, canal de marketing)
+* Quando houver metadados que você deseja associar a um valor de coleta (eVar, prop, canal de marketing)
 * Opções:
 
-   * Construtor de regras: usar quando tiver valores formatados previsíveis sendo coletados para uma variável, por exemplo, valores delimitados. Esta abordagem permite configurar regras uma vez e “defini-las e esquecê-las” de forma global.
+   * Construtor de regras: use quando houver valores formatados previsíveis sendo coletados para uma variável, por exemplo, valores delimitados. Essa abordagem permite que você configure regras uma vez e, em grande parte, &quot;configure e esqueça&quot;.
    * Importador de navegador: use quando não houver valores previsíveis ou quando tiver uma lista finita de valores que exigem uma atualização única. Esta abordagem requer um monitoramento contínuo das classificações para novos valores.
 
 **[Fontes de dados](/help/import/c-data-sources/datasrc-home.md)**devem ser usadas:
@@ -69,13 +68,13 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 * Quando há dados offline que você deseja gravar permanentemente no Adobe Analytics
 * Opções:
 
-   * Resumo: uploads de dados simples, por dia ou dimensões limitadas
-   * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline)
-   * Processamento completo: fontes de dados com data e hora, processadas como se fossem uma ocorrência coletada pelos servidores da Adobe. Isto é, os dados são inseridos diretamente na jornada do visitante.
+   * Resumo: carregamentos de dados simples, por dia ou dimensões limitadas
+   * ID da transação: uploads de dados que conectam um terminal on-line a dados off-line e associam totalmente os dados importados a um instantâneo de visitante capturado on-line (por exemplo, pedidos concluídos on-line e retornados off-line)
+   * Processamento completo: fontes de dados com carimbo de data e hora, processadas como se fosse uma ocorrência coletada pelos servidores da Adobe. Ou seja, os dados são inseridos diretamente na jornada do visitante.
 
 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(conhecidos formalmente como Genesis)**devem ser usados:
 
-* Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os Data Connectors incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, em uma base recorrente.
+* Ao se envolver com um provedor de terceiros que tenha criado uma conexão compatível com o Adobe Analytics. Os Conectores de dados normalmente incorporam dados de nível de resumo ao Adobe Analytics de forma permanente e automática, de forma recorrente.
 
 **[API da inserção de dados](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**deve ser usada:
 
@@ -83,53 +82,53 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 
 **[Atributos do cliente](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**devem ser usados:
 
-* Se você capturar dados de clientes empresariais em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e desejar fazer o upload dos dados para a Experience Cloud.
-* Se você deseja usar os dados de CRM para executar análises mais aprofundadas no Analytics ou como critérios de segmentação no Adobe Target.
+* Se você capturar dados de clientes corporativos em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e quiser fazer upload dos dados para a Experience Cloud.
+* Se você quiser usar dados do CRM para obter uma análise mais profunda no Analytics ou como critérios de definição de metas no Adobe Público alvo.
 
 **[Análise de público-alvo](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**deve ser usada:
 
-* Se você deseja incorporar os dados de público-alvo do Adobe Audience Manager (AAM), como informações demográficas (por exemplo, sexo ou faixa salarial), informações psicográficas (por exemplo, interesses e hobbies), dados de CRM ou dados de impressões do anúncio, em qualquer fluxo de trabalho do Analytics.
-* Se você deseja que os dados de CRM carregados sejam com base no tempo, pois essa integração envia novas informações ao Analytics a cada ocorrência.
+* Se você quiser incorporar dados de audiência do Adobe Audiência Manager (AAM), como informações demográficas (por exemplo, gênero ou nível de renda), informações psicográficas (por exemplo, interesses e hobbies), dados CRM ou dados de impressão de anúncio em qualquer fluxo de trabalho do Analytics.
+* Se você deseja que os dados do CRM carregados tenham por base o tempo, pois essa integração envia novas informações para o Analytics acessadas por ocorrência.
 
 ## Exportação de dados do Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**deve ser usado:
 
 * Se as opções de layout personalizadas do Workspace estiverem com limitações (tudo é possível no Report Builder, dentro dos limites do Excel).
-* Para vincular livremente as entradas do usuário ou as fontes de dados offline (impressões, custo) aos dados da Adobe. As Fontes de dados são uma solução mais permanente para vincular os dados (consulte Importação de dados para o Analytics).
-* Para mesclar os dados em conjunto de diferentes relatórios dimensionais (por exemplo, relatório de impressões promocionais associado ao relatório de clique para conversão promocional).
-* Para exibições de conjunto de relatórios cruzados.
-* Se a automação por meio de agendamento for necessária (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
+* Para vincular livremente as entradas do usuário ou as fontes de dados offline (impressões, custo) aos dados da Adobe. A solução mais permanente para vincular dados é Fontes de dados (consulte Importação de dados para o Analytics).
+* Para unir dados de relatórios dimensionais diferentes (por exemplo, relatório de impressões promocionais unido ao relatório de clique para conversão promocional).
+* Para visualizações entre conjuntos de relatórios.
+* Se a automação por meio da programação for desejada (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[O Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**deve ser usado:
 
 * Para acessar as variáveis ocultas na interface do usuário - endereço IP, Experience Cloud ID, ID de visitante do Analytics, URL da página)
-* Para acessar dados mais granulares do que a interface do usuário (exibição de tabela desnormalizada)
+* Para acessar dados mais granulares do que a interface do usuário (visualização de tabela desnormalizada)
 * Para baixar dados em um formato adequado para uma entrada de Tabela dinâmica
-* Se o cliente quiser inserir dados da Adobe em uma ferramenta de dados de visualização de terceiros (ligeiramente resumida e não a nível de ocorrência)
+* Se o cliente quiser inserir dados da Adobe em uma ferramenta de visualização de dados de terceiros (ligeiramente resumida e não no nível de ocorrência)
 * Para acessar todos os valores de dimensões únicas se estiver executando de forma &quot;Baixo tráfego&quot; no Adobe Analytics
 
 O **[Feed de dados do Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**deve ser usado:
 
 * Para utilizar o feed de dados mais granular que podemos fornecer (ID do visitante, ocorrência).
 * Se o cliente quiser os dados da Adobe armazenados em um banco de dados do lado do cliente, no nível mais granular, eles poderão ser enviados.
-* Se o cliente quiser desenvolver uma ferramenta de Inteligência empresarial (BI, Business Intelligence) ou inserir dados da Adobe a nível de ocorrência em uma ferramenta de terceiros.
+* Se o cliente quiser desenvolver uma ferramenta de Inteligência empresarial (BI) ou inserir dados da Adobe em nível de ocorrência em uma ferramenta de terceiros.
 
 As **[APIs de relatórios](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**devem ser usadas quando outras opções de visualização não atenderem às suas necessidades. As 3 opções de API incluem:
 
-* **Totalmente processada**: quando quiser dados ricos em recursos (inclusive visitas, visitantes e segmentos). Isso são dados resumidos, típicos da interface do usuário do Analytics, disponíveis dentro de 30 a 90 minutos. Podem ser usados por meio do Report Builder.
-* **Em tempo real**: quando quiser visualizar algumas métricas e dimensões com segundos de latência. Isso são dados limitados, parcialmente processados e resumidos, disponíveis dentro de 30 segundos. Inclui algoritmos exclusivos dos mais populares, ganhadores e perdedores. Podem ser usados por meio do Report Builder.
-* **[!UICONTROL Livestream]**: quando quiser um fluxo de dados a nível de ocorrência, parcialmente processado do Analytics em segundos de coleção. Isso são dados parcialmente processados, disponíveis dentro de 30 segundos. Disponível apenas no Analytics Premium. Requer alguma forma de visualizar os dados, geralmente por meio de uma participação nos serviços de engenharia.
+* **Totalmente processado**: quando quiser dados ricos em recursos (incluindo visitas, visitantes e segmentos). Esses são dados resumidos típicos da interface do usuário do Analytics, disponíveis dentro de 30 a 90 minutos. Pode ser usado por meio do Construtor de relatórios.
+* **Tempo** real: quando quiser visualização algumas métricas e dimensões com segundos de latência. Esses dados são limitados, parcialmente processados e resumidos, que estão disponíveis em 30 segundos. Inclui algoritmos exclusivos dos mais populares, ganhadores e perdedores. Pode ser usado por meio do Construtor de relatórios.
+* **[!UICONTROL Live Stream]**: quando quiser um fluxo de dados do Analytics de nível de ocorrência parcialmente processados em segundos de coleta. Isso são dados parcialmente processados, disponíveis dentro de 30 segundos. Disponível somente para o Analytics Premium. Requer uma maneira de visualizar os dados, normalmente por meio de um envolvimento com os Serviços de engenharia.
 
 ## Soluções personalizadas {#section_4A212F26A15947599DFB0399A0440CB6}
 
 Os Serviços de engenharia devem ser usados quando:
 
 * As outras ferramentas da Adobe não atenderem as suas necessidades.
-* Você quiser uma experiência personalizada.
-* Você quiser uma solução totalmente automatizada.
-* Você quiser alcançar vários dispositivos.
-* Você tiver múltiplas fontes de dados.
-* Você possuir requisitos de dados ETL (Extract-Transform-Load) complexos.
-* Você quiser uma marca personalizada.
-* Você desejar visualizar o [!UICONTROL Analytics Live Stream].
+* Você quer uma experiência personalizada.
+* Você quer uma solução totalmente automatizada.
+* Você quer alcançar muitos dispositivos.
+* Você tem várias fontes de dados.
+* Você possui requisitos complexos de dados ETL (Extract-Transform-Load).
+* Você quer marca personalizada.
+* Você quer visualizar [!UICONTROL Analytics Live Stream].
