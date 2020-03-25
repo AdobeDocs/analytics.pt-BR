@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Visão geral dos tipos de dados e categorias
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 As categorias de fonte de dados identificam os diferentes tipos de fonte de dados que oferecem uma funcionalidade semelhante.
 
-As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do usuário. Ao criar uma fonte de dados pela interface de usuário das Fontes de dados, selecione primeiro uma categoria de fonte de dados e, depois, um tipo de fonte de dados específico. Cada categoria contém tipos de fontes de dados que oferecem suporte a tipos semelhantes de dados. As Fontes de Dados têm as seguintes categorias de fonte de dados:
+As categorias proporcionam um meio de agrupar as fontes de dados baseado na perspectiva do usuário. Ao criar uma fonte de dados pela interface de usuário das Fontes de dados, selecione primeiro uma categoria de fonte de dados e, depois, um tipo de fonte de dados específico. Cada categoria contém tipos de fontes de dados que oferecem suporte a tipos semelhantes de dados. As Fontes de Dados têm as seguintes categorias de fonte de dados:
 
 ## Utilização em site {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -35,7 +35,7 @@ As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do 
   <tr> 
    <td colname="col1"> <p>Upload em massa da Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversão </a> </p> </td> 
-   <td colname="col3"> <p>Fornece uploads em massa manuais e automatizados pelo Excel na Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Oferece uploads em massa manuais e automatizados pelo Excel na Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fonte de Dados de Tráfego de Nível de Site </p> </td> 
@@ -69,7 +69,7 @@ As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do 
   <tr> 
    <td colname="col1"> <p>Servidor de Campanha por Email Genérico </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversão </a> </p> </td> 
-   <td colname="col3"> <p>Permite integrar aos relatórios de marketing as métricas do servidor de campanha por email. </p> <p>As métricas frequentemente incorporadas incluem o número de mensagens enviadas, as mensagens entregues e as mensagens lidas. Essa é a fonte de dados da campanha por e-mail genérica e deverá ser usada se o servidor de campanha por email específico não for suportado. </p> </td> 
+   <td colname="col3"> <p>Permite integrar aos relatórios de marketing as métricas do servidor de campanha por email. </p> <p>As métricas frequentemente incorporadas incluem o número de mensagens enviadas, as mensagens entregues e as mensagens lidas. Essa é a fonte de dados da campanha por email genérica e deverá ser usada se o servidor de campanha por email específico não for suportado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serviço Pay-Per-Click Genérico </p> </td> 
@@ -164,7 +164,7 @@ As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Fonte de dados genérica (ID da transação) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID da transação </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID da transação </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > ID de visitante </a> </p> </td> 
    <td colname="col3"> <p>Permite vincular um evento off-line a um evento on-line. A ID de transação atua como uma chave entre os eventos off-line e on-line. </p> </td> 
   </tr> 
  </tbody> 
@@ -184,7 +184,7 @@ As categorias fornecem uma maneira de agrupar fontes de dados da perspectiva do 
   <tr> 
    <td colname="col1"> <p>Devoluções de produto </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversão </a> </p> </td> 
-   <td colname="col3"> <p>Permite importar os dados de devolução do produto para associá-los à ID de compra, de modo que você possa identificar as mecanismos de busca, palavras-chave, campanhas e outros atributos com maior probabilidade de gerar devoluções.  </p> </td> 
+   <td colname="col3"> <p>Permite importar os dados de devolução do produto para associá-los à ID de compra, de modo que você possa identificar as mecanismos de busca, palavras-chave, campanhas e outros atributos com maior probabilidade de gerar devoluções. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custo do produto </p> </td> 
