@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Perguntas frequentes da Fonte de Dados
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,13 +30,13 @@ Todas as linhas que iniciam com um sinal de número (#) em um arquivo das Fontes
 
 Sim. Como muitos relatórios de marketing são marcados pela coluna de datas, as Fontes de dados exigem uma coluna de datas.
 
-## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Posso armazenar dados nas variáveis que já estou utilizando? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 A Adobe recomenda que você selecione variáveis novas, sem uso, para importar os dados por meio das Fontes de dados. Se não estiver seguro com relação à configuração de seu arquivo de dados, ou quiser conhecer melhor os riscos da reutilização de variáveis, entre em contato com o Atendimento ao cliente.
 
 ## Posso excluir dados que foram importados com a Fonte de Dados? {#section_DB73BC06BD774738BF019B347D9DED96}
 
-Não. Os dados carregados nos relatórios por meio das Fontes de dados não poderão ser removidos após a importação, nem mesmo por técnicos da Adobe. Eles são inseridos nos dados existentes de maneira permanente, e se tornam indistinguíveis dos dados inseridos pelos meios tradicionais de coleta de dados (ou seja, JavaScript, ActionSource, API de Inserção de Dados etc.). Por isso, o Adobe recomenda que o upload de dados das Fontes de Dados seja feito primeiro em um relatório de teste, e só depois em um production suite.
+Não. Os dados carregados nos relatórios por meio das Fontes de dados não poderão ser removidos após a importação, nem mesmo por técnicos da Adobe. Eles são inseridos nos dados existentes de maneira permanente, e se tornam indistinguíveis dos dados inseridos pelos meios tradicionais de coleta de dados (ou seja, JavaScript, ActionSource, API de Inserção de Dados etc.). Por isso, o Adobe recomenda que o upload de dados das Fontes de Dados seja feito primeiro em um relatório de teste, e só depois em um conjunto de produção.
 
 ## Quantos dados posso importar de uma vez? {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
@@ -50,7 +50,7 @@ Os dados da Fonte de dados nunca substituirão os dados existentes no relatório
 
 Quando carrega os dados das Fontes de dados, você está carregando as métricas que estarão disponíveis na interface do relatório.
 
-Por exemplo, se estiver carregando a Receita da central de atendimento para os produtos que vende no site, você poderá ter essa Receita da central de atendimento no mesmo relatório da Receita online. No entanto, você não poderá usá-lo juntamente com Visitas, pois não carregou o número de Visitas com ele. A Adobe só consegue gerar relatórios sobre as métricas e os elementos carregados por meio das Fontes de dados (além das métricas comuns do relatório de marketing).
+Por exemplo, se estiver carregando a Receita da central de atendimento para os produtos que vende no site, você poderá ter essa Receita da central de atendimento no mesmo relatório da Receita online. No entanto, você não conseguirá usá-la junto com Visitas, porque você não carregou o total de visitas com ela. A Adobe só consegue gerar relatórios sobre as métricas e os elementos carregados por meio das Fontes de dados (além das métricas comuns do relatório de marketing).
 
 ## O que acontece se eu passar valores negativos por meio das Fontes de dados? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -79,13 +79,13 @@ O exemplo acima cria 553 ocorrências para serem processadas no sistema cache.
 
 ## A Fonte de Dados faz sub-relações, correlações e definições de caminhos na conta? {#section_7ABAE2F3C4DD48E18FB8CB20AE8AFD14}
 
-Como o processo da Fonte de Dados ("para FD Genérica, não Tráfego") cria ocorrências individuais que são processadas por cache, o processo de sub-relação é utilizado, porém não o processo de correlação. A definição de caminhos tem o potencial para ser processada, mas cada ocorrência seria sua própria visita, de modo que nenhuma definição de caminho é criada. Os dados da definição de caminhos são gerados para importações de log da Web.
+Como o processo da Fonte de Dados (&quot;para FD Genérica, não Tráfego&quot;) cria ocorrências individuais que são processadas por cache, o processo de sub-relação é utilizado, porém não o processo de correlação. A definição de caminhos tem o potencial para ser processada, mas cada ocorrência seria sua própria visita, de modo que nenhuma definição de caminho é criada. Os dados da definição de caminhos são gerados para importações de log da Web.
 
 ## Existe diferenciação entre letras maiúsculas e minúsculas nas extensões dos arquivos durante o upload de um arquivo de classificação ou das Fonte de dados? {#section_710787BA4D8C403D8326D666807832B8}
 
-Se as extensões do arquivo de upload das Fontes de dados ou de um arquivo classificação estiverem em letra maiúscula, os arquivos não serão processados. As extensões do arquivo de upload da Fonte de dados devem estar em letra minúscula. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. No entanto, [!DNL .txt] e [!DNL .fin] são processados.
+Se as extensões do arquivo de upload das Fontes de dados ou de um arquivo classificação estiverem em letra maiúscula, os arquivos não serão processados. As extensões do arquivo de upload da Fonte de dados devem estar em letra minúscula. Por exemplo, [!DNL file.TXT] e [!DNL file.FIN] não serão processados. Da mesma maneira, [!DNL .TAB] e [!DNL .FIN] não serão processados. No entanto, [!DNL .txt] e [!DNL .fin] são processados.
 
-##  Posso acrescentar mais eventos no modelo gerado ou estou limitado a três?{#section_F184913926DD43B1872956CED308ADB5}
+## Posso acrescentar mais eventos no modelo gerado ou estou limitado a três? {#section_F184913926DD43B1872956CED308ADB5}
 
 É possível adicionar quantos eventos você desejar. Contudo, o assistente permite apenas três eventos. Após criar o arquivo modelo, você pode adicionar mais eventos, conforme necessário.
 
@@ -108,7 +108,7 @@ As Fontes de Dados não informam dados de hora em hora. Quando você tenta gerar
 
 ## Como são calculados os Visitantes únicos em um upload de Fonte de dados no log do servidor da Web? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-The number of Unique Visitors in a web-server log is calculated as the different distinct combinations of *`IP Address`* and *`User Agent`* in the Web log. Cada combinação exclusiva desses dois itens é calculada como um visitante único. Se a coluna [!UICONTROL Agente de usuário] estiver em branco (ou não estiver incluída no log da Web) não teremos como fazer a contagem de Visitantes únicos, e todos os dados carregados serão contados como apenas um Visitante único (mesmo se houver vários endereços IP).
+A quantidade de Visitantes exclusivos em um registro do servidor da Web é calculada como as diferentes combinações de *`IP Address`* e *`User Agent`* no registro da Web. Cada combinação exclusiva desses dois itens é calculada como um visitante único. Se a coluna [!UICONTROL Agente de usuário] estiver em branco (ou não estiver incluída no log da Web) não teremos como fazer a contagem de Visitantes únicos, e todos os dados carregados serão contados como apenas um Visitante único (mesmo se houver vários endereços IP).
 
 ## Nas Fontes de dados, como sei qual login pertence a qual conjunto de relatórios? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
@@ -127,7 +127,7 @@ O feed de dados contém as métricas de ID de transação que foram recebidas. C
 
 ## As eVars que persistem atualmente no Perfil do visitante são alocadas nas métricas carregadas por meio de fontes de dados? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-Não para o processamento completo, sim para a ID de transação. As fontes de dados de processamento completo são processadas usando perfis de visitantes separados, de modo que, mesmo que as IDs de visitante correspondam, elas não serão vinculadas em conjunto de uma perspectiva de alocação de eVar. Como as fontes de dados de ID de transação são associadas ao perfil do visitante principal, as eVars persistentes são alocadas aos eventos carregados usando a ID de transação.
+Não para o processamento completo, sim para a ID de transação. Como as fontes de dados de processamento completo são processadas usando perfis de visitante diferentes, mesmo que as IDs do visitante correspondam, elas não serão associadas a uma perspectiva de alocação de eVar. Como as fontes de dados de ID de transação são associadas ao perfil do visitante principal, as eVars persistentes são alocadas aos eventos carregados usando a ID de transação.
 
 ## As eVars carregadas com fontes de dados persistem no comportamento online posterior? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
