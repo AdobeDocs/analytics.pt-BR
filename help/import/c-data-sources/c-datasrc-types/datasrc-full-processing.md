@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Processamento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Processamento completo
 
-A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico &gt; Processamento completo).
+A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
 As fontes de dados de processamento completa são processadas como se fossem recebidas pelos servidores da Adobe no tempo especificado (cada ocorrência contém um carimbo de data e hora).
 
@@ -23,7 +23,7 @@ As fontes de dados de processamento completa são processadas como se fossem rec
 
 Como os dados das fontes de dados de processamento completo são processados por meio de perfis do visitante diferentes, mesmo que a ID do visitante nos dados carregados corresponda aos dados coletados com o JavaScript ou outra biblioteca de AppMeasurement, os perfis de visitantes não serão conectados em uma perspectiva de alocação de eVar.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Posteriormente, se você carregar uma transação usando a mesma ID de visitante, a campanha "Liquidação de primavera" não receberá crédito pela receita ou pelos eventos de sucesso carregados por meio de fontes de dados de processamento completo.
+Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu site durante uma campanha de marketing chamada &quot;Liquidação de primavera&quot;, que é armazenada na variável da campanha. Posteriormente, se você carregar uma transação usando a mesma ID de visitante, a campanha &quot;Liquidação de primavera&quot; não receberá crédito pela receita ou pelos eventos de sucesso carregados por meio de fontes de dados de processamento completo.
 
 ## Referência da coluna {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -42,19 +42,19 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>Código de rastreamento de campanha de conversão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>marketing </p> </td> 
-   <td colname="col2"> <p>marketing </p> </td> 
+   <td colname="col1"> <p>canal </p> </td> 
+   <td colname="col2"> <p>canal </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres de canal (por exemplo, seção de esportes). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Observação: essa variável também tem suporte das fontes de dados padrão como <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Código de moeda da receita (por exemplo, US$). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>data </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col1"> <p>carimbo de data e hora </p> </td> 
+   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col3"> <p>Use o formato de data ISO 8601, <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (por exemplo, <code> 2013-09-01T12:00:00-07:00 </code>), ou o formato de hora Unix (o total de segundos decorridos desde 1° de janeiro de 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
@@ -64,7 +64,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Por exemplo: </p> 
+   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por exemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -112,12 +112,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Lista de produtos (por exemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, ou seja &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>	Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Sports Section </span>). </p> </td> 
+   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Seção de Esportes </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -127,7 +127,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>s_account </p> </td> 
    <td colname="col2"> <p>reportSuiteID </p> </td> 
-   <td colname="col3"> <p>ID(s) do report suite para o qual deve ser atribuída a ocorrência. </p> </td> 
+   <td colname="col3"> <p>ID(s) do conjunto de relatórios para o qual deve ser atribuída a ocorrência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>servidor </p> </td> 
@@ -199,7 +199,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Tipo de conexão do visitante (<span class="term">lan </span> ou <span class="term">modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
