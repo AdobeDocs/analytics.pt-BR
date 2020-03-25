@@ -1,16 +1,16 @@
 ---
-description: Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Adobe Analytics em suas páginas.
+description: Se você selecionou o método de coleta de dados do plug-in JavaScript, copie linhas de código a seguir e adicione-as ao código do Adobe Analytics em suas páginas.
 title: Código de plug-in do Adobe Analytics
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Código de plug-in do Adobe Analytics{#adobe-analytics-plug-in-code}
+# Código de plug-in do Adobe Analytics {#adobe-analytics-plug-in-code}
 
-Se você selecionou o método de coleta de dados do plug-in JavaScript, copie as seguintes linhas de código e adicione-as ao código do Adobe Analytics em suas páginas.
+Se você selecionou o método de coleta de dados do plug-in JavaScript, copie linhas de código a seguir e adicione-as ao código do Adobe Analytics em suas páginas.
 
 `/*`
 
