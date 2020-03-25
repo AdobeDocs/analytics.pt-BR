@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Log da Web
 topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Os seguintes tipos de log de servidor da web comuns são suportados:
 
 | Nome da coluna | Descrição |
 |--- |--- |
-| NCSA Common Log | Padrão Apache |
+| Log comum do NCSA | Padrão Apache |
 | NCSA Extended (Combinado) | Apache |
 | W3C Extended Log | Usado com o IIS 4.0 e posterior |
 | Log do Microsoft IIS | Usado com o IIS 3.0 e anterior |
