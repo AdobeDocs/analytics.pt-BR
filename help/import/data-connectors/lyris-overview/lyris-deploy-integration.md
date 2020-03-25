@@ -2,34 +2,34 @@
 description: Descreve o processo de implantação em três etapas.
 title: Implantar a integração
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
 
-# Implantar a integração{#deploying-the-integration}
+# Implantar a integração {#deploying-the-integration}
 
 Descreve o processo de implantação em três etapas.
 
 A implantação dessa integração é um processo simples que requer as seguintes ações:
 
-## Concluindo o Assistente de integração{#completing-the-integration-wizard}
+## Concluir o Assistente de integração {#completing-the-integration-wizard}
 
 Etapas para usar o assistente de integração.
 
-Para ativar a integração, você deve concluir o assistente de integração do Lyris na interface dos Conectores de dados.
+Para ativar a integração, você deve concluir o assistente de integração do Lyris na interface dos Data Connectors.
 
-1. Navegue até a área Conectores de dados (anteriormente Genesis) na Adobe Experience Cloud.
+1. Navegue até a área Data Connectors (anteriormente Genesis) na Adobe Experience Cloud.
 
    ![](assets/data_connectors.png)
 
-1. Em **[!UICONTROL Adicionar integração]**, em Lyris HQ, clique em**[!UICONTROL  Ativar]**.
+1. Em **[!UICONTROL Adicionar integração]**, sob Lyris HQ, clique em **[!UICONTROL Ativar]**.
 
    ![](assets/add_integration.png)
 
-1. Em Configurações ****gerais, escolha o Conjunto de relatórios desejado e forneça um nome para a integração.
-1. Preencha todas as informações relacionadas à conta do Lyris em Valores ****personalizados.
+1. Em **[!UICONTROL Configurações gerais]**, escolha o Conjunto de relatórios desejado e forneça um nome para a integração.
+1. Preencha todas as informações relacionadas à conta do Lyris em **[!UICONTROL Valores personalizados]**.
 
    ![](assets/general_settings.png)
 
@@ -37,26 +37,26 @@ Para ativar a integração, você deve concluir o assistente de integração do 
 
    ![](assets/variable_mapping.png)
 
-1. Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]**- exceto os três segmentos de parceiro automatizados.
-1. Essa integração pode exigir o download de alguns pontos de dados para sua conta do Lyris. Você pode optar por conceder acesso para isso em Solicitação **[!UICONTROL de]**acesso.
-1. Em Coleta **[!UICONTROL de]**dados, você pode optar por ter uma solução automática ou manual (Plug-in JavaScript) para coletar parâmetros de sequência de consulta do URL da página inicial. Se você optar por ter uma solução automatizada, digite o parâmetro da sequência de consulta para ID da mensagem e ID do destinatário. Para obter um plug-in JavaScript, entre em contato com seu consultor da Adobe.
+1. Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]**, exceto no caso dos três segmentos automatizados do Partner.
+1. Essa integração pode exigir o download de alguns pontos de dados para sua conta do Lyris. Você pode optar por conceder esse acesso em **[!UICONTROL Solicitação de acesso]**.
+1. Em **[!UICONTROL Coleta de dados]**, você pode optar por ter uma solução automática ou manual (Plug-in do JavaScript) para coletar parâmetros de string de consulta do URL da página inicial. Se você optar por ter uma solução automatizada, digite os parâmetros ID da mensagem e ID do destinatário da string de consulta. Para obter um plug-in do JavaScript, entre em contato com seu consultor da Adobe.
 
    ![](assets/data_collection.png)
 
-1. Você pode optar por gerar automaticamente o painel Lyris e marcadores para você.
+1. Você pode optar por gerar automaticamente o painel e marcadores do Lyris.
 
    ![](assets/dashboard_generation.png)
 
 1. Revise o resumo da integração e clique em **[!UICONTROL Ativar]**.
 
-## Configuração nos EmailLabs da Lyris{#configuration-within-the-lyris-emaillabs}
+## Configuração no EmailLabs do Lyris {#configuration-within-the-lyris-emaillabs}
 
-Etapas que descrevem o que configurar dentro do Lyris após a conclusão do assistente.
+Etapas que descrevem o que configurar no Lyris após a conclusão do assistente.
 
-1. Após concluir o assistente de integração, você deve trabalhar com a equipe do Lyris Professional para concluir a integração com sua conta do Lyris HQ e facilitar os testes.
-1. Adicionar parâmetros de sequência de consulta de URL: Verifique se a string de anexação do URL está inserida corretamente nas áreas de configurações da Organização da interface do usuário. Isso deve conter a ID do nível da campanha (hq_m) e a ID do nível do destinatário (hq_v).
+1. Após concluir o assistente de integração, você deve trabalhar com a equipe profissional do Lyris para concluir a integração com sua conta do Lyris HQ e facilitar os testes.
+1. Adicionar parâmetros de string de consulta de URL: verifique se a string de anexação do URL está inserida corretamente nas áreas de configuração da seção Organização da interface do usuário. Ela deve conter a ID do nível da campanha (hq_m) e a ID do nível do destinatário (hq_v).
 
-   Um exemplo de uma ID de string é:
+   Um exemplo de ID em string é:
 
    ```
    hq_lid=149&hq_m=96843&hq_l=23&hq_v=7703a51905
@@ -64,29 +64,29 @@ Etapas que descrevem o que configurar dentro do Lyris após a conclusão do assi
 
    >[!NOTE]
    >
-   >Se você estiver aplicando a ferramenta nativa de análise do Lyris, *clique em Rastreamento* marcará todas as variáveis necessárias que foram adicionadas.
+   >Se você estiver aplicando a ferramenta nativa de análise do Lyris, o *Rastreamento de cliques* marcará todas as variáveis necessárias que foram adicionadas.
 
-## Verificar a integração{#verifying-the-integration}
+## Verificar a integração {#verifying-the-integration}
 
-Etapas para verificar se a integração do Lyris/Adobe Analytics foi bem-sucedida.
+Etapas para verificar se a integração Lyris/Adobe Analytics foi bem-sucedida.
 
 Depois que todas as etapas de implantação forem concluídas, você poderá validar se a integração está transferindo dados com êxito.
 
-> [!NOTE] Leva alguns dias para a troca de dados começar. Entre em contato com Lyris depois de ativar a integração.
+> [!NOTE] Leva alguns dias para a troca de dados começar. Entre em contato com a Lyris depois de ativar a integração.
 
-1. Navegue até sua Integração do Lyris nos Conectores de dados. Na guia **[!UICONTROL Suporte]**> Log**[!UICONTROL  de atividade de]**integração, você deve ver eventos como dados **[!UICONTROL de métrica importados com êxito]**e/ou dados de**[!UICONTROL  classificação importados com êxito]**:
+1. Navegue até sua integração do Lyris nos Data Connectors. Na guia **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividade de integração]**, é possível ver eventos como **[!UICONTROL Dados de métrica importados com êxito]** e/ou **[!UICONTROL Dados de classificação importados com êxito]**:
 
    ![](assets/integration_info.png)
 
-1. Agora, visualize seus relatórios de mensagem do Lyris com as métricas apropriadas. Na Adobe Experience Cloud, selecione **[!UICONTROL Relatórios e análises]**.
+1. Agora, visualize seus relatórios de mensagem do Lyris com as métricas apropriadas. Na Adobe Experience Cloud, selecione **[!UICONTROL Reports &amp; Analytics]**.
 1. Selecione o conjunto de relatórios adequados.
-1. Em Conversões ****personalizadas, selecione os Relatórios**[!UICONTROL  de ID da]** mensagem e escolha ID da **[!UICONTROL mensagem/Nome]**da mensagem.
+1. Em **[!UICONTROL Conversões personalizadas]**, selecione os **[!UICONTROL Relatórios de IDs da mensagem]** e escolha **[!UICONTROL ID da mensagem/Nome da mensagem]**.
 
-## Código do plug-in do parâmetro da cadeia de consulta{#query-string-param-plug-in-code}
+## Código do plug-in do parâmetro da string de consulta {#query-string-param-plug-in-code}
 
 Mostra o código do plug-in do Lyris a ser usado com o Adobe Analytics.
 
-> [!NOTE] Certifique-se de reservar as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, eVar10.
+> [!NOTE] Certifique-se de ter reservado as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, pela eVar10.
 
 ```
 /* 
