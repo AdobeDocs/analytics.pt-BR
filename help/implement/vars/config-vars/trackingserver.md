@@ -1,8 +1,8 @@
 ---
 title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
@@ -15,12 +15,12 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 ## Servidor de rastreamento no Adobe Experience Platform Launch
 
-Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics.
+Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
-4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento].
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Amplie o [!UICONTROL General] acordeão, que revela o [!UICONTROL Tracking Server] campo.
 
 Se esse campo ficar em branco, o padrão será `[rsid].112.2o7.net`.
 
@@ -36,7 +36,7 @@ O valor dessa variável depende do uso de cookies próprios ou de cookies de ter
 
 ### Cookies próprios
 
-Se você usar uma implementação com cookies próprios, é provável que alguém em sua organização já tenha concluído o processo de configuração de cookie próprio. Consulte [Cookies próprios na Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html) no guia do usuário dos serviços principais para obter mais informações sobre o processo de configuração de cookies próprios.
+Se você usar uma implementação com cookies próprios, é provável que alguém em sua organização já tenha concluído o processo de configuração de cookie próprio. Consulte [Cookies próprios na Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) no guia do usuário dos serviços principais para obter mais informações sobre o processo de configuração de cookies próprios.
 
 O indivíduo que configura inicialmente a implementação do cookie próprio também define o domínio e o subdomínio que são usados. Por exemplo:
 
@@ -57,3 +57,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Escolha um subdomínio exclusivo da sua organização, um que provavelmente não será escolhido por outra organização que usa o Adobe Analytics. Verifique se todas as implementações em sua organização usam o mesmo servidor de rastreamento. Pode ser útil manter essas informações em um [documento de design da solução](../../prepare/solution-design.md).
+
+> [!NOTE] Não use subdomínios mais profundos do que `example.sc.omtrdc.net`. Por exemplo, não `custom.example.sc.omtrdc.net` é um servidor de rastreamento válido.
