@@ -1,8 +1,8 @@
 ---
 title: Mapear elementos de dados do Launch para variáveis do Analytics
-description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões na Analysis Workspace.
+description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões na área de trabalho da Análise.
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -15,11 +15,11 @@ Depois que você tiver um repositório de elementos de dados no Adobe Experience
 
 [Mapear objetos de camada de dados para elementos](layer-to-elements.md)de dados: Certifique-se de compreender os elementos de dados no Launch e de que você tenha vários para trabalhar.
 
-[Criar um documento](../prepare/solution-design.md)de design de solução: Um documento de design de solução é vital para se manter organizado. Seguir o documento de design da solução simplifica a atribuição de elementos de dados às variáveis do Analytics.
+[Crie um documento](../prepare/solution-design.md)de design de solução: Um documento de design de solução é vital para se manter organizado. O documento de design da solução simplifica a atribuição de elementos de dados às variáveis do Analytics.
 
 ## Atribuir elementos de dados às variáveis do Analytics
 
-Publicar uma biblioteca no Launch após seguir estas etapas permite usar dimensões personalizadas na Analysis Workspace. É possível definir as variáveis do Analytics globalmente ou em regras individuais.
+A publicação de uma biblioteca no Launch após seguir essas etapas permite usar dimensões personalizadas na área de trabalho de Análise. É possível definir as variáveis do Analytics globalmente ou em regras individuais.
 
 ### Definir variáveis globais
 
@@ -38,8 +38,8 @@ As variáveis definidas nas regras são ideais nos casos em que as variáveis n�
 1. Clique na propriedade Launch desejada.
 1. Clique na [!UICONTROL Rules] guia e, em seguida, clique na regra desejada (ou crie uma).
 1. Clique no [!UICONTROL Add] botão em [!UICONTROL Actions].
-1. Defina o [!UICONTROL Extension] menu suspenso como Adobe Analytics e defina [!UICONTROL Action Type] Variáveis.
-1. Clique no ícone do elemento [!Dde](assets/data-element.png) dados à direita da variável do Analytics desejada. O documento [de design de](../prepare/solution-design.md) solução da sua organização determina qual variável do Analytics deve ser usada.
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Clique no ícone do elemento ![](assets/data-element.png) Dados à direita da variável do Analytics desejada. O documento [de design de](../prepare/solution-design.md) solução da sua organização determina qual variável do Analytics usar.
 1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Select].
 1. O nome do elemento de dados é adicionado ao campo de texto rodeado por `%` sinais. Por exemplo, se você nomeasse seu elemento de dados como &quot;Nome da página&quot;, veria a string `%Page name%` ao atribuir um elemento de dados a uma variável.
 
@@ -47,6 +47,6 @@ As variáveis definidas nas regras são ideais nos casos em que as variáveis n�
 
 ## Próximas etapas
 
-[Variáveis](../vars/page-vars/page-variables.md)de página: Saiba quais variáveis de nível de página você pode usar em sua implementação para obter mais das dimensões na Analysis Workspace.
+[Variáveis](../vars/page-vars/page-variables.md)de página: Saiba quais variáveis de nível de página você pode usar na implementação para obter mais das dimensões na Área de trabalho da Análise.
 
 [Variáveis](../vars/config-vars/configuration-variables.md)de configuração: Saiba quais variáveis de configuração você pode usar em sua implementação para desbloquear mais recursos no Adobe Analytics.
