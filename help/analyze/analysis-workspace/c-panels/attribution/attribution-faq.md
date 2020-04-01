@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **O que é o item de linha “Nenhum” na atribuição?**
 
-O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Tente incluir um intervalo de tempo maior na janela de relatórios.
+O item de linha &#39;Nenhum&#39; é um item catch-all que representa todas as conversões que ocorreram sem nenhum ponto de toque na janela de pesquisa. Tente incluir um intervalo de tempo maior na janela de relatórios.
 
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
@@ -45,7 +45,7 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 * Visitas
 * Ocorrências
 * Exibições de página
-* Métricas do A4T
+* Métricas A4T
 * Métricas de tempo gasto
 * Rejeições
 * Taxa de rejeição
@@ -58,7 +58,7 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 
 **Posso usar uma janela de retrospectiva personalizada com meus modelos de atribuição?**
 
-Sim, usando a opção da janela de pesquisa personalizada, as janelas de pesquisa podem ser configuradas para qualquer intervalo de datas até 90 dias antes da janela de relatório. Consulte [Processamento de tempo do relatório](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obter mais informações.
+Sim, usando a opção da janela de pesquisa personalizada, as janelas de pesquisa podem ser configuradas para qualquer intervalo de datas até 90 dias antes da janela do relatórios. Consulte [Processamento de tempo do relatório](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obter mais informações.
 
 **A atribuição funciona com classificações?**
 
