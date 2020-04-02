@@ -1,9 +1,9 @@
 ---
-description: Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
+description: Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do. Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
 title: Seções do site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Seções do site
 
-Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
+Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do. Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
 
 * Este relatório faz referência aos dados diretamente a partir da variável [s.canal](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementada no site.
 * Este relatório pode ser visualizado nos formatos de tendência e classificado.
