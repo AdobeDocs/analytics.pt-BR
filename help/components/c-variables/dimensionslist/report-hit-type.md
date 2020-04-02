@@ -14,4 +14,4 @@ A dimensão de Tipo de ocorrência significa se um aplicativo estava em primeiro
 
 Esta dimensão é coletada automaticamente pelo SDK. É suportada nas versões 4.13.6 e superior do SDK.
 
-Se "Desativar os relatórios herdados e a atribuição para ocorrências em segundo plano" estiver marcado, as ocorrências em segundo plano serão exibidas apenas no nos [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-mobile-visit-processing.md).
+Se &quot;Desativar os relatórios herdados e a atribuição para ocorrências em segundo plano&quot; estiver marcado, as ocorrências em segundo plano serão exibidas apenas no nos [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-mobile-visit-processing.md).
