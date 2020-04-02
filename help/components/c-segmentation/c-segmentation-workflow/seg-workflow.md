@@ -3,7 +3,7 @@ description: Descreve um fluxo de trabalho sugerido para segmentos criados com o
 title: Visão geral do fluxo de trabalho de segmentação
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
