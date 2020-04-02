@@ -3,7 +3,7 @@ description: Agrupa os dispositivos móveis com base nos protocolos de rede (GPR
 title: Protocolos de rede
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
