@@ -3,7 +3,7 @@ description: A métrica de Exibições de caminho é baseada nos dados de defini
 title: Exibições de caminho
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
