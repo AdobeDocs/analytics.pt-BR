@@ -3,7 +3,7 @@ description: Mostra o tempo decorrido entre as visitas de clientes recorrentes e
 title: Frequência de Retorno
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,5 +34,5 @@ Por padrão, esse relatório tem as seguintes durações de tempo:
 ## Notas {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Este relatório não registra nenhum visitante novo, pois não há visita posterior que sirva de comparação.
-* O intervalo de datas deste relatório utiliza a data na qual a visita ocorreu. Por exemplo, um visitante acessa seu site em abril, e retorna duas vezes em um mesmo dia de outubro. Um relatório de Frequência de retorno para o mês de outubro exibiria uma visita em "maior que um mês", e uma visita para "menos de um dia".
+* O intervalo de datas deste relatório utiliza a data na qual a visita ocorreu. Por exemplo, um visitante acessa seu site em abril, e retorna duas vezes em um mesmo dia de outubro. Um relatório de Frequência de retorno para o mês de outubro exibiria uma visita em &quot;maior que um mês&quot;, e uma visita para &quot;menos de um dia&quot;.
 
