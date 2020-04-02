@@ -3,7 +3,7 @@ description: Um grupo de relatórios com base na análise de caminho. Tecnicamen
 title: Definição de caminho
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Um grupo de relatórios com base na análise de caminho. Tecnicamente, definição de caminho significa mover de um nome de página a outro (de um valor a outro).
 
-Use o [Fluxo da Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) para opções de caminho mais flexíveis.
+Use o [Fluxo da Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/flow.html) para opções de caminho mais flexíveis.
 
-> [!NOTE] Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração &gt; Conjuntos de relatórios &gt; Editar configurações &gt; Tráfego &gt; Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
+> [!NOTE] Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração > Conjuntos de relatórios > Editar configurações > Tráfego > Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
 
 Se você deseja saber a ordem em que os valores são coletados, então é necessário ativar a definição de caminho para a variável que coleta esses dados. A definição de caminho é ativada por padrão para as páginas. A definição de caminho não é ativada para quaisquer props por padrão, pois só é adequada em alguns casos. Entre em contato com o atendimento ao cliente para ativar a definição de caminho em uma prop.
 
