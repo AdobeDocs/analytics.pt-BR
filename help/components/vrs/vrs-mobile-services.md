@@ -2,7 +2,7 @@
 description: A interface do usuário do Adobe Mobile Services combina dados de aplicativos móveis dos seus conjuntos de relatórios do Adobe Analytics com recursos para enviar notificações por mensagens de push e gerar mensagens no aplicativo.
 title: Suporte a VRS no Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9193a520b13a0717a3383a32b39936f278c49d49
 
 ---
@@ -18,4 +18,4 @@ A interface do usuário do Adobe Mobile Services combina dados de aplicativos m�
 
 O Adobe Mobile Services oferece suporte a conjuntos de relatórios virtuais. No entanto, se planeja criar um conjunto de relatórios virtual com vários aplicativos e realizar uma atividade com mensagens, será necessário especificar a ID do aplicativo individual como parâmetro. Se estiver criando uma mensagem de push, a ID do aplicativo precisa ser um dos parâmetros do segmento que você está usando. Se estiver criando uma mensagem dentro do aplicativo, a ID do aplicativo precisa ser um dos parâmetros das características que você estabelece para a mensagem. Se isto não for feito, a mensagem será enviada/acionada para todos os usuários de todos os aplicativos que atenderem aos critérios do segmento/disparador.
 
-Para obter mais detalhes, consulte [Conjuntos de relatórios virtuais](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/c-mob-vrs.html) na documentação do Adobe Mobile Services.
+Para obter mais detalhes, consulte [Conjuntos de relatórios virtuais](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/manage-apps-ug/c-mob-vrs.html) na documentação do Adobe Mobile Services.
