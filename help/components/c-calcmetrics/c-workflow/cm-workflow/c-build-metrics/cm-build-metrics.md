@@ -14,12 +14,12 @@ O Criador de métricas calculadas oferece uma tela para arrastar e soltar dimens
 
 Há várias maneiras de acessar o Criador de métricas calculadas:
 
-* Na Analysis Workspace, abra um projeto e clique em **[!UICONTROL + Novo]** &gt; **[!UICONTROL Criar métrica]**.
-* No [!DNL Analytics], vá para **[!UICONTROL Componentes]** &gt; **[!UICONTROL Métricas calculadas]**.
+* Na Analysis Workspace, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar métrica]** .
+* No [!DNL Analytics], vá para **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]**.
 
 * Clique em **[!UICONTROL + Adicionar]** na parte superior do [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) ou
 
-* Vá para **[!UICONTROL Analytics]** &gt; **[!UICONTROL Relatórios]**, abra um relatório e clique no ícone Métricas ![](assets/metrics_icon.png) para mostrar o painel Métricas e clique em **[!UICONTROL Adicionar]**.
+* Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório e clique no ícone Métricas ![](assets/metrics_icon.png) para mostrar o painel Métricas e clique em **[!UICONTROL Adicionar]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -98,7 +98,7 @@ Há várias maneiras de acessar o Criador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> Ícone de engrenagem (<span class="uicontrol">Tipo de métrica</span>, <span class="uicontrol"> Atribuição </span>) </td> 
-   <td colname="col3"> <p>Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o tipo de métrica <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > e os modelos de atribuição </a>. </p> </td> 
+   <td colname="col3"> <p>Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >tipo de métrica e os modelos de atribuição </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Novo </span> </td> 
