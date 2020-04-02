@@ -37,5 +37,5 @@ Quando você deve compartilhar métricas com toda a empresa ou apenas com um gru
 
    O ícone Compartilhado é exibido ao lado da métrica:  ![](assets/share_icon.png)
 
-1. É possível filtrar as métricas compartilhadas com você em **[!UICONTROL Filtros]** &gt; **[!UICONTROL Outros filtros]** &gt; **[!UICONTROL Compartilhados comigo]**.
+1. É possível filtrar as métricas compartilhadas com você em **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhados comigo]**.
 
