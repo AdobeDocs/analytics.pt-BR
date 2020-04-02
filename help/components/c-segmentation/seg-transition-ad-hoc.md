@@ -1,10 +1,10 @@
 ---
-description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
+description: Se você está acostumado a trabalhar com o Construtor de segmentos na Ad Hoc Analysis, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
 keywords: segmentation;segments
 title: Guia de transição para a Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,12 +12,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Guia de transição para a Ad Hoc Analysis
 
-Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
+Se você está acostumado a trabalhar com o Construtor de segmentos na Ad Hoc Analysis, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
 
 ## Recursos {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Os segmentos são universais para todos os conjuntos de relatórios. Anteriormente, os segmentos eram específicos do conjunto de relatórios.
-* A Análise ad hoc inclui a atualização do Construtor de segmentos e uma atualização completa do Gerenciador de segmentos.
+* A Ad Hoc Analysis inclui a atualização do Construtor de segmentos e uma atualização completa do Gerenciador de segmentos.
 * Agora você pode marcar segmentos para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas na [!DNL Ad Hoc Analysis] para organizar os segmentos.
 
 ## O que aconteceu com meus segmentos existentes? {#section_76CF47142D1A4FB6A0718AD9073049FE}
@@ -28,33 +28,33 @@ A maioria dos segmentos de conjunto e pré-definidos mais antigos serão migrado
 
 Os modelos de segmento são marcados com um ícone especial no Construtor de segmentos.
 
-## O que aconteceu com minhas pastas de segmento existentes? {#section_FB04DCF775694E69B761DCA53F301C30}
+## O que aconteceu com minhas pastas de segmento existentes?  {#section_FB04DCF775694E69B761DCA53F301C30}
 
 Em vez de pastas da análise ad hoc, o Gerenciador de segmentos usa tags. Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
 
-## O que aconteceu com os relatórios agendados com segmentos aplicados? {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## O que aconteceu com os relatórios agendados com segmentos aplicados?  {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
 
 Ao excluir um segmento, os relatórios e painéis agendados com esse segmento aplicado continuam a funcionar normalmente, ou seja, o segmento ou painel continua a usar o segmento excluído.
 
-## O que é um Contêiner de ocorrência? Ele é diferente de um Contêiner de exibições da página? {#section_65BBE60A836C4001938830DDA15DC256}
+## O que é um Contêiner de ocorrência? Ele é diferente de um Contêiner de exibições da página?  {#section_65BBE60A836C4001938830DDA15DC256}
 
 O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências.
 
 Observe que não ocorreu uma alteração na forma como esse contêiner funciona; ele foi apenas renomeado.
 
-## Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos? {#section_648DFA3A882146C485A84ED014EEC707}
+## Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?  {#section_648DFA3A882146C485A84ED014EEC707}
 
-Todos os usuários podem criar e editar segmentos pessoais. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics. Usuários da Análise ad hoc podem ver os segmentos criados e compartilhados diretamente com o usuário.
+Todos os usuários podem criar e editar segmentos pessoais. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics. Usuários da Ad Hoc Analysis podem ver os segmentos criados e compartilhados diretamente com o usuário.
 
 No console da Web de Segmentação unificada, os administradores podem editar qualquer segmento e compartilhá-los com grupos ou com as pessoas na organização.
 
-## É possível visualizar todos os segmentos na minha empresa? {#section_AC2D328C7410419E80C7C17971CD95B3}
+## É possível visualizar todos os segmentos na minha empresa?  {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 Todos os segmentos da análise ad hoc que você possui e os segmentos compartilhados com você são exibidos.
 
-## É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 A análise ad hoc só exibe segmentos criados por você ou que tenham sido compartilhados com você. Somente para a análise ad hoc é possível usar o Gerenciador de segmento (Organizar segmentos) para gerenciar os segmentos da análise ad hoc. Use o Gerenciador de segmentos na Segmentação unificada para gerenciar todos os segmentos do Analytics.
 
@@ -65,7 +65,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
 * Exclua os segmentos que não são mais necessários.
 
-## Como a Adobe recomenda que eu limpe os segmentos? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Como a Adobe recomenda que eu limpe os segmentos?  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Marque todos os segmentos com uma tag legada.
 * Analise todos os seus segmentos.
@@ -76,7 +76,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 
 Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo nem editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
 
-## Mais informações sobre o que acontece com os segmentos existentes {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Mais informações sobre o que acontece com os segmentos existentes  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
@@ -87,8 +87,8 @@ Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo ne
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Segmentos favoritos na Análise ad hoc </td> 
-   <td colname="col2">Esses segmentos da análise ad hoc são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
+   <td colname="col1"> Segmentos favoritos na Ad Hoc Analysis </td> 
+   <td colname="col2">Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics. <p>Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos pré-configurados na Ad Hoc Analysis: 
@@ -99,7 +99,7 @@ Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo ne
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visitantes da pesquisa paga </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visitantes com cookie de ID do visitante </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Esses segmentos serão transferidos como  modelos de segmento no construtor de segmentos. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
+   <td colname="col2"> <p>Esses segmentos serão transferidos como modelos de segmento no construtor de segmentos. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos da Experience Cloud (Suite): 
@@ -112,7 +112,7 @@ Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo ne
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visitas com mais de cinco visitas anteriores* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visitas do Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como  modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
+   <td colname="col2"> <p> A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
