@@ -21,5 +21,5 @@ Veja como sinalizar uma métrica calculada como aprovada:
 1. Observe o ícone de aprovação ao lado da métrica calculada:  ![](assets/cm_approve_icon.png)
 
 1. Também é possível clicar em **[!UICONTROL Cancelar aprovação]** para remover esta métrica da lista de métricas aprovadas.
-1. E você pode filtrar as métricas aprovadas clicando em **[!UICONTROL Mostrar filtros]** &gt; **[!UICONTROL Outros filtros]** &gt; **[!UICONTROL Aprovado]**.
+1. E você pode filtrar as métricas aprovadas clicando em **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Aprovado]**.
 
