@@ -16,7 +16,7 @@ Conjuntos de relatórios virtuais podem ser curados para incluir e excluir compo
 
 Para permitir a curadoria de componentes,
 
-1. Acesse **[!UICONTROL Análises]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Conjuntos de relatórios virtuais]** &gt; **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
+1. Acesse **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
 1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **[!UICONTROL Componentes]**.
 
 1. Marque a caixa de seleção **[!UICONTROL Habilitar personalização de componentes de conjuntos de relatórios virtuais]**:
