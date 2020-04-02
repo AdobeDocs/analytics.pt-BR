@@ -3,7 +3,7 @@ description: Relaciona as métricas padrão no Adobe Analytics.
 title: Referência rápida das métricas
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,12 +36,12 @@ Relaciona as métricas padrão no Adobe Analytics.
 | Exibições do carrinho | O número de vezes em que o conteúdo do carrinho de compras foi visualizado pelo cliente. | Conversão |
 | Finalizações | Um evento que ocorre quando clientes chegam ao estágio de finalização de uma compra. O estágio de finalização normalmente ocorre pouco antes da compra ser finalizada e geralmente envolve a digitação de informações pessoais por parte do cliente (como informações de transporte e faturamento). Você tem controle sobre quais eventos do site são qualificados como finalizações. Este valor vem do evento scCheckout. | Conversão |
 | Click-throughs | Os Click-throughs representam o número de vezes que um código de rastreamento de uma campanha específica foi passado ao relatório. Quando um visitante clica em um link afiliado que foi marcado com um desses códigos de rastreamento, o visitante é levado a sua página de aterrissagem e o código de rastreamento é capturado na s.campaign. Os dados são enviados para o relatório e um click-through é registrado. | Conversão |
-| Cliente (Novo, Regresso, Fidelizado) | Categorias do relatório de Fidelidade do cliente: Cliente novo: cliente com 0 compras.  Cliente recorrente: cliente com 1 compra.  Cliente fidelizado: cliente com mais de 1 compra. | Tráfego |
+| Cliente (Novo, Regresso, Fidelizado) | Categorias do relatório de Fidelidade do cliente:  Cliente novo: cliente com 0 compras.  Cliente recorrente: cliente com 1 compra.  Cliente fidelizado: cliente com mais de 1 compra. | Tráfego |
 | Visitas de Retorno Diário | Exibe o número de visitantes ao site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. | Tráfego |
 | Entradas | As entradas representam o número de vezes em que determinado valor é capturado como o primeiro em uma visita. Entradas pode ocorrer somente uma vez por visita. Contudo, não é necessariamente a primeira ocorrência se a variável não estiver definida. | Tráfego |
 | Saídas | O número de vezes que um determinado valor é capturado como o último em uma visita. Saídas podem ocorrer somente uma vez por visita. | Tráfego |
 | Instâncias | O número de vezes que um valor foi definido para uma variável. As instâncias são contabilizadas por todos os tipos de ocorrência, mas não são contabilizadas quando um valor é gravado para uma variável ou uma ocorrência subsequente por motivos de persistência. | Conversão |
-| Exibições para dispositivos móveis | O número de vezes que uma página é visualizada ou que uma dimensão é definida quando acessada através de um dispositivo móvel. Somente Ad Hoc Analysis. Em vez de usar a métrica de visualizações móveis, recomendamos aplicar o segmento "Visitas de dispositivos móveis". | Conversão |
+| Exibições para dispositivos móveis | O número de vezes que uma página é visualizada ou que uma dimensão é definida quando acessada através de um dispositivo móvel. Somente Ad Hoc Analysis. Em vez de usar a métrica de visualizações móveis, recomendamos aplicar o segmento &quot;Visitas de dispositivos móveis&quot;. | Conversão |
 | Novas participações | Novas Participações é uma métrica de relatório do canal de marketing que contabiliza os novos visitantes que chegam através de um canal. Essa métrica também conta os visitantes que não visitaram o seu site nos últimos 30 dias. Uma Nova participação é uma eVar configurada no início de cada visita (alocação original). Canais de primeiro toque também podem ser Novas participações, dependendo das configurações de expiração da participação do visitante. | Conversão |
 | Ocorrências | O número de vezes em que um valor específico é capturado, além do número de exibições de página em que o valor dado persistiu. Em outras palavras, Ocorrências são a soma das exibições de página e dos eventos da página. Ocorrências disponíveis somente em Ad Hoc Analysis. | Não disponível em Reports &amp; Analytics, Serviços da Web 1.4 ou Report Builder |
 | Pedidos | O número de pedidos feitos no site durante o intervalo selecionado. É possível analisar períodos individuais usando outras métricas para mostrar os itens (como produtos ou campanhas) que contribuíram para a maioria das ordens durante esse intervalo de tempo. | Conversão |
