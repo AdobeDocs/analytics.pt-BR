@@ -3,7 +3,7 @@ description: Como aplicar um ou mais segmentos a um relatório a partir do paine
 title: Selecionar e aplicar segmentos
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,13 +22,13 @@ Como aplicar um ou mais segmentos a um relatório a partir do painel de segmento
 
    >[!NOTE]
    >
-   >Você pode aplicar mais de um segmento a um relatório (isso se chama empilhamento de segmentos). Quando vários segmentos são aplicados, os critérios em cada segmento são combinados com um operador "e" e, em seguida, são aplicados. Não há limite para a quantidade de segmentos que podem ser empilhados.
+   >Você pode aplicar mais de um segmento a um relatório (isso se chama empilhamento de segmentos). Quando vários segmentos são aplicados, os critérios em cada segmento são combinados com um operador &quot;e&quot; e, em seguida, são aplicados. Não há limite para a quantidade de segmentos que podem ser empilhados.
 
    >[!NOTE]
    >
    >Clicar no ícone Informações (i) ao lado do nome do segmento permite que você visualize as métricas principais para conferir se você tem um segmento válido e a amplitude deste.
 
-1. Você pode filtrar por conjunto de relatórios ao marcar a caixa de seleção **[!UICONTROL (Somente)`<report suite name>`]**. Isso exibirá somente os segmentos que foram salvos por último no conjunto de relatórios.
+1. Você pode filtrar por conjunto de relatórios ao marcar a caixa de seleção **[!UICONTROL (Somente)`<report suite name>`]**. Isso exibirá somente os segmentos que foram salvos por último no conjunto de relatórios.
 1. Clique em **[!UICONTROL Aplicar segmento]** e o relatório será atualizado. O segmento ou os segmentos que são aplicados agora são exibidos na parte superior do relatório:
 
    ![](assets/applied_segments.png)
