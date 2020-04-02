@@ -2,7 +2,7 @@
 description: Para acessar essas funções, selecione Mostrar avançadas na lista suspensa Funções.
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -16,9 +16,9 @@ Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na l
 
 Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
 
-## O que significa o parâmetro Incluir zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## O que significa o parâmetro Incluir zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-Informa se os zeros devem ou não ser incluídos no cálculo. Muitas vezes, zero significa "nada"; mas em alguns casos, pode ser importante.
+Informa se os zeros devem ou não ser incluídos no cálculo. Muitas vezes, zero significa &quot;nada&quot;; mas em alguns casos, pode ser importante.
 
 Por exemplo, se você possuir uma métrica de Receita e adicionar a métrica de Exibições de página ao relatório, aparecerão mais linhas com valores iguais a zero para sua receita. Você provavelmente não quer que isso afete nenhum cálculo de MÉDIA, MÍN, QUARTIL etc. que você possui na coluna de receita. Neste caso, você deve marcar o parâmetro Incluir zeros.
 
@@ -51,11 +51,11 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | A dimensão cuja contagem distinta de itens você deseja obter. |
 
-## Caso de uso de exemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## Caso de uso de exemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
-Definição de uma nova métrica calculada "Número aproximado de clientes":
+Definição de uma nova métrica calculada &quot;Número aproximado de clientes&quot;:
 
 ![](assets/approx-count-distinct.png)
 
@@ -63,11 +63,11 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ![](assets/approx-customers.png)
 
-## Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
+## Únicos excedidos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
+Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://marketing.adobe.com/resources/help/pt_BR/reference/metrics_uniques_high_numbers.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
-## Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## Comparação de funções de contagem  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() é uma melhoria das funções Count() e RowCount(), pois a métrica criada pode ser usada em qualquer relatório dimensional para renderizar uma contagem aproximada de itens de uma dimensão separada. Por exemplo, a contagem de IDs de clientes usadas em um relatório de Tipo de dispositivo móvel.
 
@@ -437,7 +437,7 @@ NOT(logical)
 |---|---|
 | *logical* | Obrigatório. Um valor ou expressão que pode ser avaliado como VERDADEIRO ou FALSO. |
 
-A utilização do NÃO exige conhecer se as expressões (&lt;, &gt;, =, &lt;&gt; etc.) retornam os valores 0 ou 1.
+A utilização do NÃO exige conhecer se as expressões (&lt;, >, =, &lt;> etc.) retornam os valores 0 ou 1.
 
 ## Diferente de {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -466,7 +466,7 @@ Retorna a constante PI, 3,14159265358979, com precisão de 15 dígitos.
 PI()
 ```
 
-A função [!DNL PI] não tem argumentos.
+A função [!DNL PI]não tem argumentos.
 
 ## Regressão de potência: coeficiente de correlação (Tabela) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
@@ -496,7 +496,7 @@ Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*
 
 ## Regressão de potência: valor previsto de Y (Linha) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os valores de [!DNL x] conhecidos ([!DNL metric_X]) e usando o método dos "quadrados mínimos" para calcular linha de melhor ajuste para [!DNL Y = b*X]a.
+Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os valores de [!DNL x] conhecidos ([!DNL metric_X]) e usando o método dos &quot;quadrados mínimos&quot; para calcular linha de melhor ajuste para [!DNL Y = b*X]a.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -654,7 +654,7 @@ O valor de retorno é a probabilidade de exibição da estatística de teste x, 
 
 **Exemplos:**
 
-1. Use-o para encontrar valores atípicos:
+1. Use-o para encontrar outliers:
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
