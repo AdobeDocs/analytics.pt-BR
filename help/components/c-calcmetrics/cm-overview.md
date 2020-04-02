@@ -17,14 +17,14 @@ Métricas calculadas e calculadas avançadas (ou derivadas) são métricas perso
 >
 >Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Os modelos de alocação "Último contato do canal de marketing" e "Primeiro contato do canal de marketing" foram migrados para os novos modelos de atribuição "Último contato" e "Primeiro contato", respectivamente (Observação: os "Canais de marketing" não serão descontinuados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
->* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação "linear", os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas é refletida nos recursos [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de relatório, Report Builder e Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; foram migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observação: os &quot;Canais de marketing&quot; não serão descontinuados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
+>* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas é refletida nos recursos [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de relatório, Report Builder e Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. Elas permitem que os profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do [!DNL Analytics]. As métricas personalizadas disponíveis em cada pacote do [!DNL Analytics] são:
 
 * Adobe [!DNL Analytics] Foundation: calculadas
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): calculadas + calculadas avançadas
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
@@ -76,7 +76,7 @@ Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calcul
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ferramenta </th> 
-   <th colname="col2" class="entry"> Capacidades </th> 
+   <th colname="col2" class="entry"> Capacidades  </th> 
   </tr>
  </thead>
  <tbody> 
