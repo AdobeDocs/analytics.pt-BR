@@ -4,7 +4,7 @@ keywords: Campaign Views
 title: Click-throughs
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,4 +20,4 @@ b) No contexto dos canais de marketing, os click-throughs são a quantidade de v
 
 *`Click-through rate`* é a maneira de medir a eficiência de um anúncio da Web. O índice de click-through ocorre quando um usuário segue um hiperlink (normalmente um anúncio da Web).
 
-Os click-throughs no data warehouse são chamados de "visualizações da campanha".
+Os click-throughs no data warehouse são chamados de &quot;visualizações da campanha&quot;.
