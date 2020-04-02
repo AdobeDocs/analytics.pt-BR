@@ -3,7 +3,7 @@ description: Ao rastrear e registrar os sites de referência dos visitantes para
 title: Tipo de referenciador
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ A lista abaixo define os diversos tipos de referenciadores:
 
 **Mecanismos de busca**: referenciadores de mecanismo de busca são registrados quando os visitantes usam um mecanismo de pesquisa para acessar site. O valor de referência deve ser considerado pela Adobe como um mecanismo de pesquisa, não podendo ser um subdomínio que não é considerado um mecanismo de pesquisa (por exemplo, [!DNL mail.yahoo.com] não é um mecanismo de pesquisa, visto que seu domínio é usado para email).
 
-**[!UICONTROL Redes sociais]**: o valor de referência deve ser considerado pela Adobe como uma rede social. Ver a [Lista de redes sociais](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
+**[!UICONTROL Redes sociais]**: o valor de referência deve ser considerado pela Adobe como uma rede social. Ver a [Lista de redes sociais](https://helpx.adobe.com/br/analytics/kb/list-social-networks.html).
 
 **Email**: Um domínio de referência é considerado um email quando os visitantes clicam em um link de mensagem por email com o protocolo [!DNL imap://] ou [!DNL mail://] e chegam ao seu site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
 
@@ -72,7 +72,7 @@ A lista abaixo define os diversos tipos de referenciadores:
 * O referenciados, tipo de referenciador e domínio do mesmo estão definidos na primeira ocorrência de uma visita, ou durante uma visita quando o referenciador for externo (por exemplo, se um visitante sair do seu site, usar o mecanismo de busca e retornar ao site antes que a primeira visita expire). Esses valores estão definidos ao mesmo tempo e persistem em toda a visita.
 * Nem todos os tipos de referenciadores estão listados nesse relatório. Isso significa que as Visitas de todo o site não correspondem às visitas neste relatório.
 
-## Histórico de relatórios {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Histórico de relatórios  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Data | Alterar |
 |---|---|
