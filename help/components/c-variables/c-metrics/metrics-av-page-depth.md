@@ -3,7 +3,7 @@ description: Exibe em média em que ponto da visita cada valor foi disparado. Es
 title: Profundidade média da página
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Exibe em média em que ponto da visita cada valor foi disparado. Esta métrica é importante para determinar em que ponto de uma visita o público-alvo alcança uma página ou valor de prop determinado. Profundidade média da página está disponível em qualquer variável com definição de caminho ativada.
 
-Por exemplo: se uma visita contém o seguinte caminho: Página A &gt; Página B &gt; Página C &gt; Página D &gt; Página E &gt; Página F, a profundidade é um índice de onde está a página. Por exemplo: "Página A" tem uma profundidade de 0, enquanto a "Página F." tem uma profundidade de cinco. A média é baseada em uma combinação de todas as visitas. Uma profundidade da página com um valor de menos que um (como 0,9) é o valor médio de todas as páginas visitas antes da página em questão.
+Por exemplo: se uma visita contém o seguinte caminho: Página A > Página B > Página C > Página D > Página E > Página F, a profundidade é um índice de onde está a página. Por exemplo: &quot;Página A&quot; tem uma profundidade de 0, enquanto a &quot;Página F.&quot; tem uma profundidade de cinco. A média é baseada em uma combinação de todas as visitas. Uma profundidade da página com um valor de menos que um (como 0,9) é o valor médio de todas as páginas visitas antes da página em questão.
 
 A [!UICONTROL profundidade da página] ajuda você a entender onde uma determinada página normalmente resulta em um caminho de usuário, independentemente das páginas anteriores ou posteriores neste caminho. Como tal, ajuda a fornecer insight em como a página se encaixa no quadro geral da experiência do usuário do site. Este insight pode ser melhor visto em um relatório de [!UICONTROL Páginas].
 
