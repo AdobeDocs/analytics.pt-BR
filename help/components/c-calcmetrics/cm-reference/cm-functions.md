@@ -2,7 +2,7 @@
 description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 title: 'Referência: funções básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -227,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Contagem de linhas {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Retorna a contagem de linhas de uma determinada coluna (o número de elementos únicos relatados em uma dimensão). Os valores "únicos excedidos" são contados como 1.
+Retorna a contagem de linhas de uma determinada coluna (o número de elementos únicos relatados em uma dimensão). Os valores &quot;únicos excedidos&quot; são contados como 1.
 
 ## Máx. da linha {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
