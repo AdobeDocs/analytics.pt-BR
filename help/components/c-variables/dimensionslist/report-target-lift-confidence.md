@@ -2,7 +2,7 @@
 description: Você poderá medir o sucesso das campanhas no Adobe Analytics da mesma maneira que fazia no Target Classic antigamente.
 title: Target Lift e Confidence
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Você poderá medir o sucesso das campanhas no Adobe Analytics da mesma maneira que fazia no [!DNL Target Classic] antigamente.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Relatórios]** &gt; **[!UICONTROL Exibir todos os relatórios]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; **[!UICONTROL Atividades do Target]**.
+**[!UICONTROL Análises]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Exibir todos os relatórios]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Análises do Target]** > **[!UICONTROL Atividades do Target]** .
 
-Há mais informações sobre [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) e [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html) na documentação do Adobe Target.
+Há mais informações sobre [Lift](https://marketing.adobe.com/resources/help/pt_BR/target/target/c_estimating_lift_in_revenue.html) e [Confidence](https://marketing.adobe.com/resources/help/pt_BR/rec/c_Confidence_Level_and_Confidence_Interval.html) na documentação do Adobe Target.
 
 Para calcular Lift e Confidence:
 
@@ -25,7 +25,7 @@ Para calcular Lift e Confidence:
 
 1. O relatório adicionará essas métricas, incluindo o raio entre a métrica e a métrica de normalização.
 
-## Configurações do relatório {#section_3508439E09CA4E38B2EA309BA477C01D}
+## Configurações do relatório  {#section_3508439E09CA4E38B2EA309BA477C01D}
 
 ![](assets/lift_confidence_ui.png)
 
