@@ -3,7 +3,7 @@ description: Mede a quantia de receita gerada por todos os seus produtos durante
 title: Receita
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 * Existem requisitos que devem ser atendidos para que esse relatório colete dados de forma bem sucedida. Deve ocorrer o seguinte dentro da mesma solicitação de imagem:
 
-   * Um evento de [!UICONTROL compra] deve ser disparado no `s.events`. 
+   * Um evento de [!UICONTROL compra] deve ser disparado no  `s.events`. 
 
    * A variável `products` deve ser definida com um número no campo de preço.
    * Por exemplo, isso passaria US$35.99 para o relatório da receita:
@@ -40,7 +40,7 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 * [!UICONTROL Receita] arredonda a quantia total por um período para o valor monetário mais próximo. Não arredonda cada produto individual ou clique.
 * Como o Analytics arredonda cada dia para o valor inteiro mais próximo, a comparação do montante de cada dia ao total mensal está fora por uma quantia bem pequena. Isso se deve ao fato de o total mensal não ser o montante de cada dia arredondado, é o montante absoluto arredondado para o valor inteiro mais próximo.
-* Você pode criar um relatório que não arredonde receita para o valor inteiro mais próximo usando um [métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* Você pode criar um relatório que não arredonde receita para o valor inteiro mais próximo usando um  [métrica calculada](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/).
 * A menos que a variável `purchaseID` seja usada, os usuários que atualizam a página poderão aumentar a receita enviando estes dados várias vezes para a Adobe.
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
 * Este relatório não contém itens de linha. Só pode ser visualizado no formato padrão.
@@ -62,17 +62,17 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 * Detalhamentos não estão disponíveis por hora.
 
-## Propriedades específicas do produto {#section_ED87FFD020634453AABE86B0248BE69B}
+## Propriedades específicas do produto  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Conversão]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Conversão]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
 
 * Detalhamentos das [!UICONTROL Fontes de tráfego] podem ser encontradas nos [!UICONTROL Métodos de descoberta].
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Métricas do Site]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Métricas do site]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
 
 * Além de todos os detalhamentos listados anteriormente, os detalhamentos do [!UICONTROL Canal de Marketing de First e Last Touch] estão disponíveis.
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Métrica do Site]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Receita]**.
+* Este relatório pode ser acessado indo até **[!UICONTROL Métrica do Site]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
 
 * Além dos detalhamentos mencionados previamente, as variáveis da [!UICONTROL Lista] e as variáveis atuais de [!UICONTROL Vídeo] podem ser usadas.
 
