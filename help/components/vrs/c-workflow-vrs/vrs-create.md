@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Criar conjuntos de relatórios virtuais
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,9 +16,9 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
 
 * Usuários não administradores não podem visualizar o Gerenciador de conjunto de relatórios virtuais.
 * Os conjuntos de relatórios virtuais não podem ser compartilhados. O “Compartilhamento” é efetuado por grupos/permissões.
-* No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em "mostrar tudo" para exibir o restante.
+* No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em &quot;mostrar tudo&quot; para exibir o restante.
 
-1. Navegue até **[!UICONTROL Componentes]** &gt; **[!UICONTROL Conjuntos de relatórios virtuais]**.
+1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
 1. Clique em **[!UICONTROL Adicionar +]**.
 
    ![](assets/new_vrs.png)
@@ -47,7 +47,7 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
   </tr> 
   <tr> 
    <td colname="col1"> Grupos </td> 
-   <td colname="col2"> <p>Selecione os grupos de permissões que você deseja que acessem essa VRS. (Você também pode gerenciar permissões de grupo em <span class="ignoretag"><span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Grupos</span></span>.) </p> </td> 
+   <td colname="col2"> <p>Selecione os grupos de permissões que você deseja que acessem essa VRS. (Você também pode gerenciar permissões de grupo em <span class="ignoretag"><span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Grupos</span></span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Conjunto de relatórios pai </td> 
@@ -59,7 +59,7 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
+   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_stack.html"  >empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
