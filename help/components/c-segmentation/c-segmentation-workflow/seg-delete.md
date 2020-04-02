@@ -3,7 +3,7 @@ description: Lista alguns itens que devem ser considerados antes de excluir segm
 title: Excluir segmentos
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,6 +24,6 @@ Quando você exclui um segmento,
 
 ## Editar segmentos integrados excluídos na Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Agora, a Análise ad hoc permite editar segmentos excluídos no [Construtor de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) e realizar uma operação “Salvar como” no segmento.
+Agora, a Ad Hoc Analysis permite editar segmentos excluídos no [Construtor de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/) e realizar uma operação “Salvar como” no segmento.
 
 Contudo, quaisquer outros segmentos excluídos que referenciem o segmento excluído permanecerão inalterados.
