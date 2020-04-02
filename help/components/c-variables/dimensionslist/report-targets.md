@@ -16,10 +16,10 @@ Os relatórios de metas permitem medir o desempenho do site e acompanhar o progr
 >
 >Esses relatórios não devem ser confundidos com o relatório do Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18).
 
-Para acessar os relatórios de Metas, vá até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Relatórios]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL [o nome da meta]]**
+Para acessar os relatórios de Metas, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Metas]** > **[!UICONTROL [o nome da meta]]**
 
 Ao [criar metas](https://marketing.adobe.com/resources/help/pt_BR/sc/user/targets.html), você seleciona quais métricas de atributo ou eVars você quer medir, ou você pode optar por medir o seu site inteiro junto à métrica selecionada.
 
 O relatório exibe o total cumulativo da métrica especificada e a diferença entre esse total e a meta definida ao configurar o relatório.
 
-Além disso, é possível gerenciar as metas em **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Metas]**.
+Além disso, é possível gerenciar as metas em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
