@@ -3,7 +3,7 @@ description: Dependendo das permissões, você pode compartilhar segmentos com o
 title: Compartilhar segmentos
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,4 +36,4 @@ Quando você deve compartilhar segmentos com a empresa inteira em comparação a
 
    O ícone Compartilhado aparece ao lado do segmento:  ![](assets/share_icon.png)
 
-1. Você pode filtrar por segmentos compartilhados com você ao ir para **[!UICONTROL Filtros]** &gt; **[!UICONTROL Outros filtros]**&gt;**[!UICONTROL Compartilhado comigo]**.
+1. Você pode filtrar por segmentos compartilhados com você, acessando **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhado comigo]**.
