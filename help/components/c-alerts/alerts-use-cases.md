@@ -26,7 +26,7 @@ Nas Tabelas de forma livre, agora você pode criar alertas de contexto, clicando
 
 ![](assets/alert_selection.png)
 
-Isso pré-preenche instantaneamente o Criador de alertas para criar um alerta com as métricas e filtros corretos.
+Essa ação preenche o Criador de alertas automaticamente para criar um alerta com as métricas e os filtros corretos.
 
 ![](assets/prepopulated_alert.png)
 
