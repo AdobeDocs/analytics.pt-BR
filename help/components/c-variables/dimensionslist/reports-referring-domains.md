@@ -3,7 +3,7 @@ description: 'Mostra os domínios que indicaram os clientes que mais tiveram imp
 title: Domínios de referência
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
