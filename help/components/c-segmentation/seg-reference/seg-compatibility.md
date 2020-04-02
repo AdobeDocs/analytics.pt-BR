@@ -3,7 +3,7 @@ description: Nem todos os segmentos criados no Construtor de segmentos são comp
 title: Compatibilidade de segmentos de Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Analysis Workspace, Relatórios e análises, Análise ad hoc </th> 
+   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
    <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -35,7 +35,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   <tr> 
    <td colname="col1"> <b>E e OU podem ser combinados sem limites</b> </td> 
    <td colname="col2"> Suportado </td> 
-   <td colname="col3"> Algumas limitações. Consulte *nota* abaixo da tabela. </td> 
+   <td colname="col3"> Algumas limitações. Consulte *observação* abaixo da tabela. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Contêineres aninhados</b> </td> 
@@ -93,4 +93,4 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  </tbody> 
 </table>
 
-*Observação: O Data Warehouse não oferece suporte a todos os casos de uso de um contêiner`exclusion`ou`without`ao usar`AND/OR`. Ao usar essa combinação, somente os segmentos que podem ser regravados como`A AND NOT B`(ou **incluir essa característica**e **excluir essa característica**) são suportados no Data Warehouse.*
+*Observação: o Data Warehouse não oferece suporte a todos os casos de uso de um contêiner`exclusion`ou`without`ao usar`AND/OR`. Ao usar essa combinação, somente os segmentos que podem ser regravados como `A AND NOT B` (ou **incluir essa característica** e **excluir essa característica**) são compatíveis com o Data Warehouse.*
