@@ -3,7 +3,7 @@ description: Exibe um detalhe das palavras-chave de pesquisa.
 title: Palavras-chave de pesquisa
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Exibe um detalhe das palavras-chave de pesquisa.
 
 >[!IMPORTANT]
 >
->Para as pesquisas paga e natural, os mecanismos de busca pararam de fornecer (na maioria dos casos) as palavras-chave da pesquisa como parte do referenciador. Como resultado, a Adobe classifica sempre o domínio do Google (ou Bing ou Yahoo) como pesquisa. Com base no formato e no conteúdo do referenciador (mesmo sem as palavras-chave), a Adobe geralmente pode determinar que foi o resultado de uma pesquisa, portanto, a pesquisa é contabilizada nas Palavras-chave indisponíveis. [Mais...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Para as pesquisas paga e natural, os mecanismos de busca pararam de fornecer (na maioria dos casos) as palavras-chave da pesquisa como parte do referenciador. Como resultado, a Adobe classifica sempre o domínio do Google (ou Bing ou Yahoo) como pesquisa. Com base no formato e no conteúdo do referenciador (mesmo sem as palavras-chave), a Adobe geralmente pode determinar que foi o resultado de uma pesquisa, portanto, a pesquisa é contabilizada nas Palavras-chave indisponíveis. [Mais...](https://helpx.adobe.com/br/analytics/kb/keyword-unavailable.html)
 
 ## Alocação, expiração e valores especiais {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -62,7 +62,7 @@ Exibe um detalhe das palavras-chave de pesquisa.
  </tbody> 
 </table>
 
-## Histórico de relatórios {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Histórico de relatórios  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Data | Alterar |
 |---|---|
