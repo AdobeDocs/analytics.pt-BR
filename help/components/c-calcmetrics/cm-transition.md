@@ -32,11 +32,11 @@ Essas alterações no funcionamento das métricas calculadas do [!DNL Analytics]
 
 [Os dados atuais suportam todos os tipos de métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[O que significa "Nenhum nome fornecido" quando exibido junto com métricas calculadas migradas?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[O que significa &quot;Nenhum nome fornecido&quot; quando exibido junto com métricas calculadas migradas?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
 [O que acontece com as métricas calculadas de um usuário caso ele seja excluído?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Por que vejo métricas calculadas "desconhecidas" que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Por que vejo métricas calculadas &quot;desconhecidas&quot; que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Por que as alterações que fiz em minhas métricas calculadas herdadas não foram salvas?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
@@ -57,7 +57,7 @@ Essas alterações no funcionamento das métricas calculadas do [!DNL Analytics]
 
 ## Como faço para acessar o Gerenciador de métricas calculadas? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Vá até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** no painel de navegação esquerdo. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
+* Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** no painel de navegação esquerdo. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
 
 * Nos relatórios do [!DNL Analytics], clique no ícone Métricas ![](assets/metrics_icon.png) à esquerda de um relatório para exibir o painel Métricas e clique em **[!UICONTROL Gerenciar]**.
 
@@ -81,9 +81,9 @@ Considere consolidar as métricas calculadas com nomes e definições similares,
 
 ## O que aconteceu com minhas métricas calculadas globais? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
-Anteriormente, um administrador podia criar métricas calculadas (conhecidas como "métricas calculadas globais" ou "métricas calculadas do conjunto de relatórios") em um conjunto de relatórios utilizando as ferramentas administrativas. 
+Anteriormente, um administrador podia criar métricas calculadas (conhecidas como &quot;métricas calculadas globais&quot; ou &quot;métricas calculadas do conjunto de relatórios&quot;) em um conjunto de relatórios utilizando as ferramentas administrativas. 
 
-Agora, as métricas calculadas globais são possuídas pelo primeiro usuário administrativo da lista de usuários administrativos da empresa de logon. Elas serão compartilhadas com "Todos" por padrão. Este padrão segue o mesmo modelo de compartilhamento e planos de migração que os segmentos.
+Agora, as métricas calculadas globais são possuídas pelo primeiro usuário administrativo da lista de usuários administrativos da empresa de logon. Elas serão compartilhadas com &quot;Todos&quot; por padrão. Este padrão segue o mesmo modelo de compartilhamento e planos de migração que os segmentos.
 
 **O que você precisa fazer**
 
@@ -93,12 +93,12 @@ Nada. Contudo, o novo proprietário administrador deve tomar cuidado ao modifica
 
 ## O que aconteceu com as métricas calculadas globais que foram compartilhadas com empresas de logon? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
-Anteriormente, um administrador podia criar métricas calculadas (conhecidas como "métricas calculadas globais" ou "métricas calculadas do conjunto de relatórios") em um conjunto de relatórios utilizando as ferramentas administrativas. Estas métricas podem ser "compartilhadas" pelas empresas de logon, adicionando o conjunto de relatórios a várias empresas de logon.)
+Anteriormente, um administrador podia criar métricas calculadas (conhecidas como &quot;métricas calculadas globais&quot; ou &quot;métricas calculadas do conjunto de relatórios&quot;) em um conjunto de relatórios utilizando as ferramentas administrativas. Estas métricas podem ser &quot;compartilhadas&quot; pelas empresas de logon, adicionando o conjunto de relatórios a várias empresas de logon.)
 
 As métricas calculadas globais não podem mais ser compartilhadas com as empresas de logon. Elas não estão mais vinculadas a um conjunto de relatórios específico, e sim a uma empresa de logon específica. As métricas calculadas que foram compartilhadas com empresas de logon
 
 * Foram migradas para todas as empresas de logon com acesso a esse conjunto de relatórios.
-* Aplicadas ao padrão "compartilhado com todos".
+* Aplicadas ao padrão &quot;compartilhado com todos&quot;.
 * Serão cópias independentes de todas as outras empresas de logon.
 
 > [!NOTE] Caso a métrica calculada tenha sido usada em um marcador, painel, alerta ou relatório programado, a edição de uma nova cópia NÃO afetará a métrica calculada mantida.
@@ -143,17 +143,17 @@ Se precisar usar a API e o Criador de métricas calculadas, será necessário pa
 
 Os dados atuais não suportam métricas calculadas que contêm segmentos ou funções estatísticas. As únicas funções suportadas são as funções matemáticas básicas como adição, exclusão, multiplicação, divisão e negação (-x).
 
-## O que significa "Nenhum nome fornecido" quando exibido junto com as métricas calculadas migradas? {#section_C90CBB72A67644F38D583301981F8D03}
+## O que significa &quot;Nenhum nome fornecido&quot; quando exibido junto com as métricas calculadas migradas? {#section_C90CBB72A67644F38D583301981F8D03}
 
-"Nenhum nome fornecido" significa que nenhum nome de métrica está associado a esta métrica migrada (apenas uma fórmula sem um nome descritivo).
+&quot;Nenhum nome fornecido&quot; significa que nenhum nome de métrica está associado a esta métrica migrada (apenas uma fórmula sem um nome descritivo).
 
 ## O que acontece com as métricas calculadas de um usuário se ele for excluído? {#section_42ED4C15830540879C4A161423690E5A}
 
 As métricas calculadas criadas por este usuário também serão excluídas. Contudo, as métricas calculadas excluídas ainda funcionarão como parte dos marcadores, painéis ou relatórios programados salvos.
 
-## Por que vejo métricas calculadas "desconhecidas" que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos? {#section_6772818EFDED46E9B7095D64C3B77211}
+## Por que vejo métricas calculadas &quot;desconhecidas&quot; que não são válidas para outros conjuntos de relatórios, apesar de terem sido criadas e aplicadas a esses conjuntos? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-A interface do usuário exibe "desconhecido" caso a métrica calculada contenha métricas ou dimensões base que não existem para o conjunto de relatórios selecionado.
+A interface do usuário exibe &quot;desconhecido&quot; caso a métrica calculada contenha métricas ou dimensões base que não existem para o conjunto de relatórios selecionado.
 
 ## Por que as alterações que fiz em minhas métricas calculadas herdadas não foram salvas? {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
