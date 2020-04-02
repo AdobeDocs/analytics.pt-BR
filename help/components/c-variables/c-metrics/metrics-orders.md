@@ -3,7 +3,7 @@ description: O número de pedidos feitos no site durante o intervalo selecionado
 title: Pedidos
 topic: Metrics
 uuid: b20ad038-370b-4343-a394-434d3c4bd111
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,5 +17,5 @@ O número de pedidos feitos no site durante o intervalo selecionado. É possíve
 |---|---|
 | Tráfego | N/D |
 | Conversão | *`Order`* é o número de vezes em que o evento de compra foi definido. |
-| Ad Hoc Analysis | *`Order`* é o número de vezes em que o evento de compra foi definido. |
+| Ad Hoc Analysis  | *`Order`* é o número de vezes em que o evento de compra foi definido. |
 
