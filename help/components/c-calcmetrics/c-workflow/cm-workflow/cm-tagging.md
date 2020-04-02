@@ -20,7 +20,7 @@ Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais ta
 * Tags de **fluxo de trabalho**: para ser aprovado; auxiliar para (uma unidade de negócios específica)
 
 1. No Gerenciador de métricas calculadas, marque a caixa de seleção ao lado da métrica à qual deseja adicionar uma tag. A barra de ferramentas de gerenciamento é exibida:
-1. Clique em **[!UICONTROL Tag]e**
+1. Clique em **[!UICONTROL Tag]** e
 
    * selecione a partir das tags existentes, ou
    * adicione um novo nome da tag na caixa de diálogo Adicionar tags/Pesquisar e pressione **[!UICONTROL Enter]**.
@@ -31,4 +31,4 @@ Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais ta
 
 A tag agora deve aparecer na coluna Tags. (Clique no ícone de engrenagem na parte superior direita para gerenciar suas colunas).
 
-Também é possível filtrar as tags, acessando **[!UICONTROL Mostrar filtros]** &gt; **[!UICONTROL Tags]**.
+Também é possível filtrar as tags, acessando **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Tags]**.
