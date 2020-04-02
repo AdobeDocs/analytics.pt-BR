@@ -17,7 +17,7 @@ Veja um caso de uso simples: um proprietário de conteúdo deseja saber quais p�
 Veja um caso de uso simples: um proprietário de conteúdo deseja saber quais páginas contribuíram para (participaram de) visitas com cadastro via email. Veja como:
 
 1. Crie uma nova métrica no Criador de métricas calculadas.
-1. Arraste o evento bem sucedido "Pedido" para a tela Definição.
+1. Arraste o evento bem sucedido &quot;Pedido&quot; para a tela Definição.
 1. Altere o [modelo de atribuição](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) desse evento para **[!UICONTROL Participação]** na engrenagem **[!UICONTROL Configurações]**. Selecione o lookback **[!UICONTROL Visita]**. A definição deve ficar parecida com isto:
 
    ![](assets/participation.png)
