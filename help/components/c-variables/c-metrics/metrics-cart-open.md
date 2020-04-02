@@ -3,7 +3,7 @@ description: O número de vezes em que um cliente abriu um carrinho de compras a
 title: Abertura do Carrinho
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
