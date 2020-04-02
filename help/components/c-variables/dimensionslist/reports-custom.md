@@ -3,7 +3,7 @@ description: Os administradores podem configurar um relatório com métricas esp
 title: Personalizado
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ Os relatórios personalizados pode aumentar seu valor como analista. Se você pe
 
 Além disso, você pode salvar relatórios que são importantes para você. Esses relatórios são chamados de marcadores. Você também pode colocar diversos relatórios em um único local e obter uma visão rápida dos relatórios mais importantes. Eles são chamados de painéis e são específicos do usuário. A interface do exibe uma barra acima do gráfico que indica seus marcadores e painéis.
 
-Consulte [Marcadores](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) e [Painéis e Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html) para obter mais informações.
+Consulte [Marcadores](https://marketing.adobe.com/resources/help/pt_BR/sc/user/c_bookmarks.html) e [Painéis e Reportlets](https://marketing.adobe.com/resources/help/pt_BR/sc/user/c_dashboard.html) para obter mais informações.
