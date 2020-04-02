@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Perguntas frequentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,8 +18,8 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 
 * Segmentação na Analysis Workspace:
 
-   * Você pode [comparar segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
-   * Use [segmentos como dimensões](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) em uma comparação.
+   * Você pode [comparar segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/segment-comparison.html).
+   * Use [segmentos como dimensões](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/segments_as_dimensions.html) em uma comparação.
    * Use segmentos na [análise de fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
 * É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
@@ -42,9 +42,9 @@ Para acessar o Construtor de segmentos, basta:
 
 * Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
 
-* Clique em **[!UICONTROL Adicionar mais, na parte superior do Gerenciador de segmentos]**.  ![](assets/add_button.png)
+* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![](assets/add_button.png)
 
-   or
+   ou
 
 * Clique em um título de segmento existente no Gerenciador de segmentos para editar o segmento no Construtor de segmentos.
 
@@ -52,7 +52,7 @@ Para acessar o Construtor de segmentos, basta:
 
 Para acessar o Gerenciador de segmentos:
 
-* Vá para **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** na navegação superior. Em seguida, clique em **[!UICONTROL Segmentos]** ou
+* Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
 
 * Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
 
@@ -60,7 +60,7 @@ Para acessar o Gerenciador de segmentos:
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Relatórios e análises foi substituído por uma interface do  [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![](assets/segment_icon.png)
+O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![](assets/segment_icon.png)
 
 no painel de navegação esquerdo e no painel de segmentos.
 
@@ -72,25 +72,25 @@ O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de 
 
 ## Permissões {#section_648DFA3A882146C485A84ED014EEC707}
 
-**Que direitos e privilégios eu preciso para usar, criar e gerenciar segmentos?**
+**Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?**
 
-Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
+Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
 Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
-**É possível exibir todos os segmentos na empresa?**
+**É possível visualizar todos os segmentos na minha empresa?**
 
 Sim, administradores podem visualizar todos os segmentos nas interfaces do usuário do [!DNL Analysis Workspace] e do [!DNL Reports & Analytics].
 
-O Construtor de relatórios e a Análise ad hoc exibem os segmentos que você possui e os segmentos que foram compartilhados com você.
+O Report Builder e a Análise ad hoc exibem os segmentos que você possui e os segmentos que foram compartilhados com você.
 
 **É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?**
 
-Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos do Analysis Workspace, do Relatórios e análises e da Análise ad hoc. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
+Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos do Analysis Workspace, do Reports &amp; Analytics e da Ad Hoc Analysis. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
 
 Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
 
-O Construtor de relatórios e a Análise ad hoc exibem somente os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
+O Report Builder e a Ad Hoc Analysis exibem somente os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
 
 **Por que não posso excluir esse segmento?**
 
@@ -110,7 +110,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Analise todos os seus segmentos.
 * Quando apropriado, adicione-os à biblioteca de segmentos.
 * Aprovar segmentos canônicos.
-* Marcar segmentos de acordo com as  [práticas recomendadas](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Marcar segmentos de acordo com as [práticas recomendadas](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Gerenciamento de segmentos herdados {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -118,17 +118,17 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 
 Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/c-segmentation/seg-transition.md)
 
-A maioria dos segmentos pré-definidos e de conjunto serão migrados como  modelos de segmento no Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
+A maioria dos segmentos pré-definidos e de conjunto serão migrados como modelos de segmento no Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
 
 Os modelos de segmento são marcados com um ícone especial no Construtor de segmentos:
 
 ![](assets/seg_templates.png)
 
-**O que aconteceu com as pastas de segmento existentes?**
+**O que aconteceu com minhas pastas de segmento existentes?**
 
-Em vez de pastas (análise ad hoc), o Gerenciador de segmentos usa  específicos. Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
+Em vez de pastas (Ad Hoc Analysis), o Gerenciador de segmentos usa específicos. Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
 
-**O que aconteceu com os relatórios programados com segmentos aplicados?**
+**O que aconteceu com os relatórios agendados com segmentos aplicados?**
 
 Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
 
@@ -146,9 +146,9 @@ Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria 
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
-**O que acontece com os segmentos favoritos (análise ad hoc)?**
+**O que acontece com os segmentos favoritos (Ad Hoc Analysis)?**
 
-Esses segmentos da análise ad hoc são exibidos como segmentos regulares no Adobe Analytics.
+Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics.
 
 Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos.
 
@@ -160,7 +160,7 @@ Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmen
 * **Visitantes da pesquisa paga**
 * **Visitantes com cookie de ID do visitante**
 
-Esses segmentos serão transferidos como  modelos de segmento no Construtor de segmentos.
+Esses segmentos serão transferidos como modelos de segmento no Construtor de segmentos.
 
 Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
@@ -174,7 +174,7 @@ Os relatórios com esses segmentos aplicados continuarão funcionando da forma c
 * Visitas com mais de cinco visitas anteriores*
 * Visitas do Facebook*
 
-A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como  modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
+A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
 
 Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
@@ -192,7 +192,7 @@ seg_definition.xml
 
  -->
 
-Os segmentos existentes que usam lógica que foi alterada como descrito nesse documento continuam a funcionar corretamente, embora precisem ser atualizados antes de serem salvos novamente. Por exemplo, se você tem um segmento existente, onde Estados dos EUA contém "Nova York", ele continua a funcionar corretamente, embora na próxima vez que você editar o segmento será necessário atualizá-lo para usar o tipo enumerado com uma condição de igual.
+Os segmentos existentes que usam lógica que foi alterada como descrito nesse documento continuam a funcionar corretamente, embora precisem ser atualizados antes de serem salvos novamente. Por exemplo, se você tem um segmento existente, onde Estados dos EUA contém &quot;Nova York&quot;, ele continua a funcionar corretamente, embora na próxima vez que você editar o segmento será necessário atualizá-lo para usar o tipo enumerado com uma condição de igual.
 
 **Dicas de migração**
 
@@ -327,7 +327,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
  </tbody> 
 </table>
 
-## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Dimensões com base em sequência de caracteres com conjunto de valores conhecidos foram alteradas para tipos enumerados. Ao criar um segmento com essas dimensões, a lista é pré-preenchida com todos os valores conhecidos e o único operador suportado é igual. Isso permite que você segmente rapidamente os valores exatos que você estava procurando sem selecionar valores não intencionais ao usar correspondências menos restritivas.
 
@@ -349,9 +349,9 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com " - Classificado" após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
+Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
 ![](assets/seg_browser_dimension.png)
 
