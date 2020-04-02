@@ -3,7 +3,7 @@ description: Mostra o número de visitantes únicos que acessaram site. Cada vis
 title: Visitantes únicos
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,7 +54,7 @@ Consulte a tabela a seguir para obter exemplos nesta página. O mesmo visitante 
  </tbody> 
 </table>
 
-## Relatório de Visitantes únicos - Métrica de tendência {#section_372C08A881D34BBF811C1DE0A1460617}
+## Relatório de Visitantes únicos - Métrica de tendência  {#section_372C08A881D34BBF811C1DE0A1460617}
 
 Os relatórios [!UICONTROL Visitantes únicos] se comportam de forma semelhante na Ad Hoc Analysis. Para cada ocorrência de visita, o visitante é contado nessa ocorrência. Cada página recebe crédito por ter o visitante nessa página.
 
@@ -126,7 +126,7 @@ Além disso, cada data recebe crédito por ter esse visitante naquela data.
  </tbody> 
 </table>
 
-**[!UICONTROL Relatório de Visitantes únicos]dividido por *`Page`*.**
+**[!UICONTROL Relatório de Visitantes únicos] dividido por *`Page`*.**
 
 Você pode selecionar uma página para o [!UICONTROL Relatório de Visitantes únicos]. No relatório a seguir, o visitante visita a página A nessas datas:
 
@@ -161,7 +161,7 @@ Você pode selecionar uma página para o [!UICONTROL Relatório de Visitantes ú
  </tbody> 
 </table>
 
-## Visitantes únicos Baseados em Período (Tendência) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## Visitantes únicos Baseados em Período (Tendência)  {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 Você pode executar [!UICONTROL Relatórios de Visitantes únicos] por hora, por semana, por mês, por trimestre e por ano (tendência).
 
@@ -332,7 +332,7 @@ Para visitantes únicos por semana onde a Página = B, a única data em que ocor
  </tbody> 
 </table>
 
-## Métricas de visitante único baseadas em período em relatórios de tendências {#section_90B784F4E49F4930B3F0923B95958BA2}
+## Métricas de visitante único baseadas em período em relatórios de tendências  {#section_90B784F4E49F4930B3F0923B95958BA2}
 
 Você pode adicionar métricas de visitantes únicos baseadas em período a relatórios de tendências, como uma métrica de Visitantes únicos semanais em um [!UICONTROL Relatório de Páginas].
 
@@ -417,7 +417,7 @@ Uma métrica de Visitantes únicos por dia em um [!UICONTROL Relatório de Pági
  </tbody> 
 </table>
 
-Para dividir um atributo por outro (como *`page`* da *`eVar`*), o Analytics aloca um Visitante Único com base em período para cada instância única do período e da página (ou do atributo sendo correlacionado).
+Para dividir um atributo por outro (como  *`page`* da *`eVar`*), o Analytics aloca um Visitante Único com base em período para cada instância única do período e da página (ou do atributo sendo correlacionado).
 
 Se você dividir a Página A por eVars T, U, o dia 2 de janeiro será excluído, pois a página A foi visualizada no dia 1 de janeiro. Os resultados a seguir mostrariam os Visitantes únicos semanais:
 
@@ -444,8 +444,8 @@ Se você dividir a Página A por eVars T, U, o dia 2 de janeiro será excluído,
  </tbody> 
 </table>
 
-## Cookies persistentes {#section_81E139F08AEB4E30A06472856975EA1E}
+## Cookies persistentes  {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Os cookies persistentes continuam no computador do visitante entre visitas para que a Adobe possa identificar os visitantes de visitas subsequentes. Para visualizar o percentual de usuários que aceitam ou não os cookies persistentes, selecione **[!UICONTROL Filtro]** &gt; **[!UICONTROL Cookies persistentes]**.
+Os cookies persistentes continuam no computador do visitante entre visitas para que a Adobe possa identificar os visitantes de visitas subsequentes. Para visualizar o percentual de usuários que aceitam ou não os cookies persistentes, selecione **[!UICONTROL Filtro]** > **[!UICONTROL Cookies persistentes]**.
 
 O gráfico e a visualização de detalhes mostram visitantes de cookie persistente e não persistente. Frequentemente, a quantidade de visitantes de cookies não persistentes é insignificante.
