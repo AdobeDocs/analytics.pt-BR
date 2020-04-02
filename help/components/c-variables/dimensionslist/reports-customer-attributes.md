@@ -13,22 +13,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Perguntas frequentes do Analytics para os atributos do cliente, e como executar o relatório de atributos do cliente.
 
-**[!UICONTROL Relatórios]** &gt; **[!UICONTROL Perfil do visitante]** &gt; **[!UICONTROL Atributos do cliente]**
+**[!UICONTROL Relatórios]** > **[!UICONTROL Perfil do visitante]** > **[!UICONTROL Atributos do cliente]**
 
 Se você capturar os dados de clientes de empresas em um banco de dados de gerenciamento de relacionamento com o cliente (CRM), poderá fazer upload dos dados em uma fonte de dados do atributo do cliente na Experience Cloud. Após os dados serem carregados, é possível executar o relatório Atributos do cliente no Reports &amp; Analytics.
 
-* [Atributos do cliente e métricas de relatórios no Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
+* [Atributos do cliente e métricas de relatórios no Analytics ](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Perguntas frequentes: atributos do cliente no Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
 Consulte [Atributos do cliente](https://marketing.adobe.com/resources/help/pt_BR/mcloud/attributes.html) na ajuda da Experience Cloud para obter informações sobre o upload de dados de atributo do cliente.
 
 ## Atributos do cliente e métricas de relatórios no Analytics  {#section_EF343662146B460A882D3DF772ADD86D}
 
-Depois de fazer upload dos atributos do cliente e validar o esquema (na Experience Cloud), o sistema cria métricas com base nos nomes amigáveis (como *`age`* ou *`gender`*) que você mapeia para as sequências de caracteres e números inteiros do atributo. Essas métricas são exibidas nos relatórios **[!UICONTROL Perfil do visitante]** &gt; **[!UICONTROL Atributos do cliente]**.
+Depois de fazer upload dos atributos do cliente e validar o esquema (na Experience Cloud), o sistema cria métricas com base nos nomes amigáveis (como *`age`* ou *`gender`*) que você mapeia para as sequências de caracteres e números inteiros do atributo. Essas métricas são exibidas nos relatórios **[!UICONTROL Perfil do visitante]** > **[!UICONTROL Atributos do cliente]**.
 
 Por exemplo:
 
-**[!UICONTROL Perfil do visitante]** &gt; **[!UICONTROL Atributos do cliente]** &gt; **[!UICONTROL Idade]**
+**[!UICONTROL Perfil do visitante]** > **[!UICONTROL Atributos do cliente]** > **[!UICONTROL Idade]**
 
 ![](assets/report_age.png)
 
