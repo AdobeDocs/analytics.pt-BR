@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Importação de navegador
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**
+**[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**
 
 ## Importação do navegador de classificações - Descrições do campo {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -61,7 +61,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Clique em **[!UICONTROL Administração]** &gt; **[!UICONTROL Importador de classificação]**.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 1. Clique em **[!UICONTROL Exportar arquivo]**.
 1. Configure os campos **[!UICONTROL Importação de navegador]**.
 1. Clique em **[!UICONTROL Exportar arquivo]**.
