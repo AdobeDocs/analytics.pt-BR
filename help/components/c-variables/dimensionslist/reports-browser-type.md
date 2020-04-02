@@ -3,7 +3,7 @@ description: Refere-se ao tipo de navegador sendo usado pelo visitante. Por exem
 title: Tipos de navegador
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Refere-se ao tipo de navegador sendo usado pelo visitante. Por exemplo, Internet Explorer, Mozilla Firefox, Google Chrome e assim por diante.
 
-Tipos de navegador ainda não identificados são exibidos como "não especificados".
+Tipos de navegador ainda não identificados são exibidos como &quot;não especificados&quot;.
 
 Por exemplo:
 
@@ -29,7 +29,7 @@ Por exemplo:
 | Outro |
 | Nokia |
 
-## Alterações {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## Alterações  {#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 | Data | Alterar |
 |---|---|
