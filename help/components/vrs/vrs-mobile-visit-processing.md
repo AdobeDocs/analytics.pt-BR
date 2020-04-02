@@ -16,7 +16,7 @@ Você pode definir uma visita da maneira que quiser sem alterar os dados subjace
 
 ## Parâmetro do URL de perspectiva do cliente  {#section_8B298006362341E3AC16A148422D1F65}
 
-O processo de coleta de dados do Adobe Analytics permite que você defina um parâmetro de string de consulta especificando a perspectiva do cliente (denotado como o parâmetro de string de consulta "cp"). Este campo especifica o estado do aplicativo digital do usuário final. Isso ajuda você a saber se uma ocorrência foi gerada enquanto um aplicativo móvel estava em segundo plano.
+O processo de coleta de dados do Adobe Analytics permite que você defina um parâmetro de string de consulta especificando a perspectiva do cliente (denotado como o parâmetro de string de consulta &quot;cp&quot;). Este campo especifica o estado do aplicativo digital do usuário final. Isso ajuda você a saber se uma ocorrência foi gerada enquanto um aplicativo móvel estava em segundo plano.
 
 ## Processamento de ocorrências em segundo plano  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
 
