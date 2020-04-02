@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Segmentação do Analytics
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ A segmentação do Analytics inclui o [Construtor de segmentos](/help/components
 
 ![](assets/seg__overview.png)
 
-Os cientistas de dados e analistas de marketing podem empregar, estender e refinar segmentos para análises específica para suas necessidades, em seguida, salvar o segmento para outros usuários a fim de estender, refinar e salvar como um novo segmento na biblioteca. Depois de executado, é um ciclo de criação e gerenciamento de informações de público-alvo codificado como um [fluxo de trabalho de segmento unificado](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+Os cientistas de dados e analistas de marketing podem empregar, estender e refinar segmentos para análises específica para suas necessidades, em seguida, salvar o segmento para outros usuários a fim de estender, refinar e salvar como um novo segmento na biblioteca. Depois de executado, é um ciclo de criação e gerenciamento de informações de público-alvo codificado como um  [fluxo de trabalho de segmento unificado](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 **Introdução**
 
