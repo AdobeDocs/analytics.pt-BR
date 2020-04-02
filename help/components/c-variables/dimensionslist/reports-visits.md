@@ -3,7 +3,7 @@ description: Exibe o número de visitas realizadas em todo o site durante um per
 title: Visitas
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
