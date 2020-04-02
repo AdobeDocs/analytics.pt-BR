@@ -3,7 +3,7 @@ description: O relatório de fluxo de seção anterior é similar ao relatório 
 title: Fluxo de seção anterior
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
