@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Perguntas frequentes sobre VRS
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -60,11 +60,11 @@ Dicas e práticas recomendadas para novos usuários dos conjuntos de relatórios
   </tr> 
   <tr> 
    <td colname="col1"> <b> Eu marquei “Iniciar nova visita na inicialização”. Por que ainda vejo visitas muito maiores que inicializações?</b> </td> 
-   <td colname="col2"> <p> Quando a opção "Iniciar nova visita na inicialização" estiver marcada, o tempo limite ainda será aplicado. Portanto, se um usuário estiver usando o aplicativo por dez minutos com uma interrupção de um minuto entre cada ação, uma nova visita será iniciada na inicialização e nove visitas adicionais serão criadas quando a visita expirar. Para manter as inicializações e visitas o mais próximas possível ao usar a opção "Iniciar nova visita na inicialização", você deve usar um tempo limite maior que o tempo limite da sessão definido no SDK. </p> </td> 
+   <td colname="col2"> <p> Quando "Iniciar nova visita na inicialização" está marcado, o tempo limite ainda é aplicado. Assim, se um usuário usar o aplicativo por dez minutos com um intervalo de um minuto entre cada ação, uma nova visita será iniciada na inicialização e nove visitas adicionais serão criadas quando a visita atingir o tempo limite. Para manter inicializações e visitas o mais próximo possível ao usar a opção "Iniciar nova visita na inicialização", você deve usar um tempo limite mais longo que o tempo limite da sessão definido no SDK. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Eu defini “Iniciar nova visita na inicialização” e um tempo limite mais longo que meu SDK. Por que minhas inicializações ainda são muito inferiores às visitas?</b> </td> 
-   <td colname="col2"> <p> Se o tempo limite for maior que o valor definido no SDK, provavelmente o seu aplicativo está enviando ocorrências em segundo plano e estas estão sendo registradas como novas visitas. Verifique isso usando a dimensão de tipo de ocorrência no conjunto de relatórios principal para ver se há alguma ocorrência em segundo plano. </p> <p> <p>Observação: ocorrências em primeiro e segundo plano são diferenciadas somente na versão 4.13.6 e superior do SDK. Se estiver em uma versão anterior, todas as ocorrências serão mostradas em primeiro plano. Se você estiver na versão correta do SDK, ative a configuração "Impedir ocorrências em segundo plano de iniciar uma nova visita". </p> </p> <p> <p>Observação: se não tiver desativado o processamento herdado para ocorrências em segundo plano no Admin Console, eles não serão mostrados no conjunto de relatórios principal, mas aparecerão no conjunto de relatórios virtual. </p> </p> </td> 
+   <td colname="col2"> <p> Se o tempo limite for maior que o valor definido no SDK, provavelmente o seu aplicativo está enviando ocorrências em segundo plano e estas estão sendo registradas como novas visitas. Verifique isso usando a dimensão de tipo de ocorrência no conjunto de relatórios principal para ver se há alguma ocorrência em segundo plano. </p> <p> <p>Observação: ocorrências em primeiro e segundo plano são diferenciadas somente na versão 4.13.6 e superior do SDK. Se estiver em uma versão anterior, todas as ocorrências serão mostradas em primeiro plano. Se tiver a versão correta do SDK, você deve ativar a configuração "Impedir ocorrências em segundo plano de iniciar uma nova visita". </p> </p> <p> <p>Observação: se não tiver desativado o processamento herdado para ocorrências em segundo plano no Admin Console, eles não serão mostrados no conjunto de relatórios principal, mas aparecerão no conjunto de relatórios virtual. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Que versão do SDK preciso ter para rastrear ocorrências em segundo plano?</b> </td> 
