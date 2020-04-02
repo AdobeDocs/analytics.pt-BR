@@ -3,7 +3,7 @@ description: Evento no qual o conteúdo do carrinho de compras é visualizado pe
 title: Exibições do carrinho
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
