@@ -3,7 +3,7 @@ description: A funcionalidade do segmento se diferencia entre usuários do níve
 title: Direitos do segmento por função
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
