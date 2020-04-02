@@ -3,7 +3,7 @@ description: Agrupa dispositivos móveis com base nos tipos de imagens que eles 
 title: Suporte de imagem
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
