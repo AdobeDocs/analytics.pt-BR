@@ -3,7 +3,7 @@ description: Mostra exibições de caminho ou o número de vezes e o percentual 
 title: Fluxo da próxima página
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Use esse relatório para:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Clique em <span class="uicontrol">Gráfico</span> para visualizar os dois níveis das páginas mais populares que os seus visitantes visualizam depois da página selecionada. O relatório também destaca quando os visitantes saem do site. </p> <p>Clique em <b>Tabelas</b> para visualizar as próximas páginas em uma lista semelhante ao <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Relatório da próxima página</a>. Contudo, isso também permite navegar para cada <i>Próxima página</i> para visualizar as próximas páginas em cada fluxo de duas páginas. </p> <p>O Reports &amp; Analytics utiliza visualizações de caminho. </p> </td> 
+   <td colname="col2"> <p> Clique em <span class="uicontrol">Gráfico</span> para visualizar os dois níveis das páginas mais populares que os seus visitantes visualizam depois da página selecionada. O relatório também destaca quando os visitantes saem do site. </p> <p>Clique em <b>Tabelas</b> para visualizar as próximas páginas em uma lista semelhante ao  <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Relatório da próxima página</a>. Contudo, isso também permite navegar para cada <i>Próxima página</i> para visualizar as próximas páginas em cada fluxo de duas páginas. </p> <p>O Reports &amp; Analytics utiliza visualizações de caminho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
