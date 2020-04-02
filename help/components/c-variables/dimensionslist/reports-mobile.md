@@ -1,15 +1,15 @@
 ---
 description: Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os conjuntos de relatórios.
-title: Mobile
+title: Dispositivo móvel
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Mobile
+# Dispositivo móvel
 
 Exibe informações sobre acesso a web sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os conjuntos de relatórios.
 
@@ -76,7 +76,7 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no tipo de suporte a Digital Rights Management (DRM). Grupos DRM incluem <span class="term"> Bloqueio de encaminhamento</span>, <span class="term"> Entrega combinada</span>, <span class="term"> Entrega separada</span> e <span class="term"> Desconhecido.</span> </p> </td> 
+   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no tipo de suporte a Digital Rights Management (DRM). Grupos DRM incluem  <span class="term"> Bloqueio de encaminhamento</span>, <span class="term"> Entrega combinada</span>, <span class="term"> Entrega separada</span> e <span class="term"> Desconhecido.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Protocolos de rede </td> 
@@ -108,11 +108,11 @@ Os relatórios móveis a seguir estão disponíveis:
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo grupo <span class="term"> Desconhecido</span> para os dispositivos cujo suporte a PTT não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p> Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo  grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a PTT não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suporte a email de decoração </td> 
-   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo grupo <span class="term"> Desconhecido</span> para os dispositivos cujo suporte a Email de decoração não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p> Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo  grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a Email de decoração não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Serviços de Informações </td> 
