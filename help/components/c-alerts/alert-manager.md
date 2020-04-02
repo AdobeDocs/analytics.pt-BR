@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-O Gerenciador de alertas (**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]**) está estruturado de maneira semelhante ao [Gerenciador de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_manage.html) e ao [Gerenciador de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/cm_manager.html) e permite
+O Gerenciador de alertas (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**) está estruturado de maneira semelhante ao [Gerenciador de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_manage.html) e ao [Gerenciador de métricas calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/cm_manager.html) e permite
 
 ![](assets/alert-manager-tasks.png)
 
