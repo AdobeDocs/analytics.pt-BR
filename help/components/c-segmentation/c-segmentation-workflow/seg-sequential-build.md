@@ -3,7 +3,7 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Construir segmentos sequenciais
 
-Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções "Apenas antes da sequência" e "Apenas após a sequência".
+Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro &quot;Incluir todos&quot;. Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções &quot;Apenas antes da sequência&quot; e &quot;Apenas após a sequência&quot;.
 
 ![](assets/before-after-sequence.png)
 
@@ -19,7 +19,7 @@ Além disso, é possível restringir os segmentos sequenciais a uma duração d
 
 ## Incluir todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Ao criar o segmento usando a definição "Incluir todos", o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
+Ao criar o segmento usando a definição &quot;Incluir todos&quot;, o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
 
 ![](assets/sequence-filter.png)
 
@@ -28,14 +28,14 @@ Ao criar o segmento usando a definição "Incluir todos", o segmento identifica 
 | Corresponde | A então B<br>A então (em uma visita diferente) B<br>A então D então B |
 | Não corresponde | B depois A |
 
-## Apenas antes da sequência ou apenas após a sequência {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Apenas antes da sequência ou apenas após a sequência  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 As opções **[!UICONTROL Apenas antes da sequência]** e **[!UICONTROL Apenas após a sequência]** filtram o segmento em um subconjunto de dados antes e depois da sequência especificada.
 
-* **Apenas antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, "Apenas antes da sequência" inclui a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
-* **Apenas após a sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, "Apenas após" inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências posteriores (consulte o exemplo 2).
+* **Apenas antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Apenas antes da sequência&quot; inclui a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
+* **Apenas após a sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Apenas após&quot; inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências posteriores (consulte o exemplo 2).
 
-Por exemplo,  uma sequência de B -&gt; D. Os três filtros identificariam as ocorrências como se segue:considere 
+Por exemplo, uma sequência de B -> D. Os três filtros identificariam as ocorrências como se segue:considere 
 
 **Exemplo 1: B então D aparece uma vez**
 
@@ -61,16 +61,16 @@ Também vamos modelar este conceito com a dimensão Profundidade da ocorrência.
 
 ## Restrições de dimensão {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão.
+Em uma cláusula &quot;dentro&quot;, entre instruções ENTÃO, é possível adicionar, por exemplo, &quot;dentro de uma instância de palavra-chave de pesquisa&quot;, &quot;dentro de uma instância eVar 47&quot;. Isso restringe o segmento a uma instância de uma dimensão.
 
-Definir uma cláusula "dentro da dimensão" entre regras permite que o segmento restrinja dados a sequências que satisfazem a essa cláusula. Observe o exemplo abaixo, onde a restrição está definida como “Dentro de uma página”:
+Definir uma cláusula &quot;dentro da dimensão&quot; entre regras permite que o segmento restrinja dados a sequências que satisfazem a essa cláusula. Observe o exemplo abaixo, onde a restrição está definida como “Dentro de uma página”:
 
 ![](assets/sequence-filter4.png)
 
 | Se o resultado for... | Sequência |
 |--- |--- |
 | Corresponde | A depois B |
-| Não corresponde | <br> A então C então B (porque B não estava dentro de uma página de A)**** Observação: se a restrição de dimensão for removida, "A então B" e "A então C então B" corresponderão. |
+| Não corresponde |  A então C então B (porque B não estava dentro de uma página de A)<br>**Observação:** se a restrição de dimensão for removida, &quot;A então B&quot; e &quot;A então C então B&quot; corresponderão. |
 
 ## Sequência de visualização de páginas simples
 
@@ -127,7 +127,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 1. Solte duas Dimensões de página dos painéis à esquerda do contêiner de nível superior [!UICONTROL Visitante].
 1. Adicione o operador ENTÃO entre elas.
-1. Clique em **[!UICONTROL Opções]** &gt; **[!UICONTROL Adicionar contêiner]** e adicione o contêiner [!UICONTROL Visita] sob o nível do [!UICONTROL Visitante] e sequenciado com o operador [!UICONTROL ENTÃO].
+1. Clique em **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner]** e adicione o contêiner [!UICONTROL Visita] sob o nível do [!UICONTROL Visitante] e sequenciado com o operador [!UICONTROL ENTÃO].
 
 ![](assets/mixed_level_checkpoints.png)
 
@@ -154,7 +154,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 ![](assets/aggregate_checkpoints2.png)
 
-## "Aninhamento" em segmentos sequenciais
+## &quot;Aninhamento&quot; em segmentos sequenciais
 
 Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e [!UICONTROL Ocorrência], é possível restringir o segmento para que atenda aos requisitos em uma visita específica, bem como em uma ocorrência específica.
 
@@ -163,7 +163,7 @@ Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e 
 **Criar este segmento**
 
 1. Sob o contêiner de nível superior [!UICONTROL Visita], arraste duas dimensões de página.
-1. Faça a seleção múltipla de ambas as regras, clique em **[!UICONTROL Opções]** &gt; **[!UICONTROL Adicionar contêiner da seleção]** e altere para um contêiner de [!UICONTROL Visita].
+1. Faça a seleção múltipla de ambas as regras, clique em **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner da seleção]** e altere para um contêiner de [!UICONTROL Visita].
 1. Una-os com o operador [!UICONTROL ENTÃO].
 1. Crie um contêiner de Ocorrência como um par do contêiner [!UICONTROL Visita] e arraste uma dimensão de página.
 1. Una a sequência aninhada no contêiner de [!UICONTROL Visita] com o contêiner de [!UICONTROL Ocorrência] usando outro operador [!UICONTROL ENTÃO].
@@ -172,15 +172,15 @@ Ao colocar pontos de verificação em ambos os níveis de [!UICONTROL Visita] e 
 
 ## Excluir ocorrências
 
-As regras do segmento incluem todos os dados, a menos que você exclua especificamente os dados de [!UICONTROL Visitante], [!UICONTROL Visita] ou [!UICONTROL Ocorrência] usando a regra [!UICONTROL Excluir]. Isso permite recusar dados comuns e criar segmentos com um foco maior. Ou permite criar segmentos excluindo grupos encontrados para identificar o conjunto de dados restante, como ao criar uma regra que inclui visitantes bem sucedidos que fizeram pedidos e depois os excluíram para identificar os "não compradores". Contudo, na maioria dos casos, é melhor criar regras que excluam valores abrangentes do que tentar usar a regra [!UICONTROL Excluir] para direcionar valores de inclusão específicos.
+As regras do segmento incluem todos os dados, a menos que você exclua especificamente os dados de [!UICONTROL Visitante], [!UICONTROL Visita] ou [!UICONTROL Ocorrência] usando a regra [!UICONTROL Excluir]. Isso permite recusar dados comuns e criar segmentos com um foco maior. Ou permite criar segmentos excluindo grupos encontrados para identificar o conjunto de dados restante, como ao criar uma regra que inclui visitantes bem sucedidos que fizeram pedidos e depois os excluíram para identificar os &quot;não compradores&quot;. Contudo, na maioria dos casos, é melhor criar regras que excluam valores abrangentes do que tentar usar a regra [!UICONTROL Excluir] para direcionar valores de inclusão específicos.
 
 Por exemplo:
 
-* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à "Página inicial" e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
+* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como  *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à &quot;Página inicial&quot; e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
 * **Excluir os domínios de referência**. Use uma regra que inclua somente os domínios de referência do Google.com e exclua todos os outros.
 * **Identificar não compradores**. Identifique quando os pedidos são maiores que zero e, então, exclua o [!UICONTROL Visitante].
 
-O operador [!UICONTROL Excluir] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um [Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+O operador [!UICONTROL Excluir] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um  [Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### Excluir entre pontos de verificação
 
@@ -197,7 +197,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 **Criar este segmento**
 
-Crie um segmento como você faria para um  segmento sequencial simples, de nível variado ou aninhado e em seguida defina o operador [!UICONTROL EXCLUIR] para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL THEN] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
+Crie um segmento como você faria para um segmento sequencial simples, de nível variado ou aninhado e em seguida defina o operador [!UICONTROL EXCLUIR] para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL THEN] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -254,7 +254,7 @@ O contêiner do [!UICONTROL Grupo lógico] foi projetado para tratar *vários po
 Os grupos lógicos podem parecer intimidantes - veja algumas práticas recomendadas sobre como usá-los:
 
 **Grupo lógico ou contêiner de Ocorrência/Visita?**
-Se você quiser agrupar pontos de verificação sequenciais, seu "contêiner" será do Grupo lógico. No entanto, se esses pontos de verificação sequenciais precisarem ocorrer no escopo de uma única ocorrência ou visita, um contêiner de "ocorrência" ou "visita" será necessário. (É claro que a "ocorrência" não faz sentido para um grupo de pontos de verificação sequenciais, quando uma ocorrência não pode creditar mais de um ponto de verificação).
+Se você quiser agrupar pontos de verificação sequenciais, seu &quot;contêiner&quot; será do Grupo lógico. No entanto, se esses pontos de verificação sequenciais precisarem ocorrer no escopo de uma única ocorrência ou visita, um contêiner de &quot;ocorrência&quot; ou &quot;visita&quot; será necessário. (É claro que a &quot;ocorrência&quot; não faz sentido para um grupo de pontos de verificação sequenciais, quando uma ocorrência não pode creditar mais de um ponto de verificação).
 
 **Os Grupos lógicos simplificam a criação de segmentos sequenciais?**
 Sim, eles podem. Suponhamos que você esteja tentando responder esta pergunta: um visitante **visualizou a página B, C ou D após a página A?**
@@ -279,7 +279,7 @@ Como outros contêineres, os contêineres do [!UICONTROL Grupo lógico] podem se
 1. Arraste dimensões, eventos ou segmentos dos painéis à esquerda.
 1. Altere o contêiner superior para um contêiner de [!UICONTROL Visitante].
 1. Altere o operador [!UICONTROL E] ou [!UICONTROL OU] inserido por padrão no operador ENTÃO.
-1. Selecione os contêineres [!UICONTROL Ocorrência] (a Dimensão, o Evento ou Item) e clique em **[!UICONTROL Opções]** &gt; **[!UICONTROL Adicionar contêiner da seleção]**.
+1. Selecione os contêineres [!UICONTROL Ocorrência] (a Dimensão, o Evento ou Item) e clique em **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner da seleção]**.
 1. Clique no ícone do contêiner e selecione **[!UICONTROL Grupo lógico]**.  ![](assets/logic_group_checkpoints.png)
 1. Agora, você pode definir a [!UICONTROL Ocorrência] no contêiner do [!UICONTROL Grupo lógico] independentemente da hierarquia.
 
@@ -351,7 +351,7 @@ Use os operadores [!UICONTROL Dentro] e [!UICONTROL Depois] integrados no cabeç
 
 É possível limitar a correspondência para uma duração de tempo específica por meio dos contêineres [!UICONTROL Dentro] e [!UICONTROL Depois] e especificando uma granularidade e contagem. O operador [!UICONTROL Dentro] é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. O operador [!UICONTROL Depois] é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação.
 
-### Operadores Depois e Dentro {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Operadores Depois e Dentro  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 A duração é especificada por uma única letra maiúscula representando a granularidade seguida por um número representando a contagem de repetição da granularidade.
 
@@ -380,7 +380,7 @@ A duração é especificada por uma única letra maiúscula representando a gran
 
 **Corresponde**
 
-Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° de junho de 2019 às 00:01, a próxima ocorrência na página B corresponderá contanto que seja realizada antes de 00:01 de 15 de junho de 2019 (14 dias depois).
+Ao determinar &quot;Após 2 semanas&quot;, se houver uma ocorrência na página A em 1° de junho de 2019 às 00:01, a próxima ocorrência na página B corresponderá contanto que seja realizada antes de 00:01 de 15 de junho de 2019 (14 dias depois).
 
 | Ocorrência A | Ocorrência B | Correspondência |
 |--- |--- |--- |
@@ -394,7 +394,7 @@ Ao determinar "Após 2 semanas", se houver uma ocorrência na página A em 1° d
 
 >[!IMPORTANT]
 >
->Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão.
+>Em uma cláusula &quot;dentro&quot;, entre instruções ENTÃO, é possível adicionar, por exemplo, &quot;dentro de uma instância de palavra-chave de pesquisa&quot;, &quot;dentro de uma instância eVar 47&quot;. Isso restringe o segmento a uma instância de uma dimensão.
 
 **Exemplo**: os visitantes que visitaram a página A e, em seguida, visitaram a página B dentro de 5 minutos.
 
