@@ -14,7 +14,7 @@ O Gerenciador de métricas calculadas permite cuidar de suas métricas de vária
 
 O Gerenciador de métricas calculadas mostra todos os segmentos que você possui e que foram compartilhados com você. Usuários de nível administrativo podem ver todas as métricas personalizadas da organização. Esta visão geral apresenta a interface do usuário e os recursos do Gerenciador de métricas calculadas. Para acessá-la:
 
-* Vá até **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** no painel de navegação esquerdo. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
+* Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Favoritos]** no painel de navegação esquerdo. Em seguida, clique em **[!UICONTROL Métricas calculadas]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
