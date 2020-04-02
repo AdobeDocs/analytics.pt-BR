@@ -3,7 +3,7 @@ description: O Gerenciador de segmentos oferece várias formas de cuidar de segm
 title: Gerenciar segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,14 +15,14 @@ O Gerenciador de segmentos oferece várias formas de cuidar de segmentos, como c
 
 O Gerenciador de segmentos do Analytics mostra todos os seus segmentos e os compartilhados com você. Os usuários de nível administrativo podem visualizar todos os segmentos na organização. Essa visão geral apresenta a interface do usuário e os recursos do Gerenciador de segmentos. Acesse o Gerenciador de segmentos ao
 
-* Acesse **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]** na navegação superior.
+* Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** na navegação superior.
 * Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]**.
 
 ## Vídeo passo a passo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Este [vídeo do YouTube sobre o Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) proporciona uma breve visão geral sobre como usar o Gerenciador de segmentos.
+Este [vídeo do YouTube sobre o Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) proporciona uma breve visão geral sobre como usar o Gerenciador de segmentos.
 
-## Interface do usuário do Gerenciador de segmentos {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Interface do usuário do Gerenciador de segmentos  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
@@ -39,11 +39,11 @@ Este [vídeo do YouTube sobre o Adobe Analytics](https://www.youtube.com/watch?v
 | 9 | Compartilhado com | Lista indivíduos ou grupos (somente Administrador) ou Todos (somente Administrador) com os quais você compartilhou o segmento. |
 | 10 | Data de modificação | Mostra a data na qual o segmento foi modificado pela última vez. |
 | 11 | Seletor de coluna | Permite que você selecione ou cancele a seleção de coluna no Gerenciador de segmentos. |
-| 12 | Ícone compartilhado | Indica que este segmento foi compartilhado por você ou com você. |
-| 13 | Ícone aprovado | Indica que o segmento foi aprovado pelo Administrador. |
+| 12 | Ícone Compartilhado  | Indica que este segmento foi compartilhado por você ou com você. |
+| 13 | Ícone Aprovado  | Indica que o segmento foi aprovado pelo Administrador. |
 | 14 | Filtros | Permite que você veja e selecione os filtros em Tags, Conjuntos de relatórios, Proprietários e Outros (Exibir tudo, Meus, Compartilhados comigo, Aprovados, Favoritos). |
 
-## Gerenciador de segmentos em Análise Ad Hoc {#section_CC8BDC968EBC4BC1919870869D8443A9}
+## Gerenciador de segmentos em Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 O Organizador de segmentos na análise ad hoc mostra todos seus segmentos e os compartilhados com você.
 
