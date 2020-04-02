@@ -57,7 +57,7 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 | É possível enviar dados para ele (por meio de classificações, feeds de dados etc.) | Não | Sim |
 | Suporta a criação de relatórios DL, marcações, painéis, alvos, alertas, segmentos, métricas calculadas... | Sim | Sim |
 | Pode ser adicionado individualmente aos Grupos de permissões | Sim | Sim |
-| Pode usar funções de Administrador para modificar configurações individuais neste conjunto de relatórios (Administrador &gt; Conjuntos de relatórios) | Não (configurações herdadas do pai) | Sim |
+| Pode usar funções de Administrador para modificar configurações individuais neste conjunto de relatórios (Administrador > Conjuntos de relatórios) | Não (configurações herdadas do pai) | Sim |
 
 ## Combine conjuntos de relatórios virtuais e tags de vários conjuntos {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
