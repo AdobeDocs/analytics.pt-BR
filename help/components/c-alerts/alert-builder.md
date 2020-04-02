@@ -19,9 +19,9 @@ Acesse o Criador de alertas de uma das seguintes formas:
 * Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Acessando **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Novo alerta]**.
+* Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]**.
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
-* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** &gt; **[!UICONTROL Adicionar alerta]**.
+* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
 
 A interface do Criador de alertas é semelhante àquela que cria segmentos ou métricas calculadas no [!DNL Analytics]:
 
@@ -43,7 +43,7 @@ Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um
 
 >[!IMPORTANT]
 >
->O telefone deve ser precedido por um "+" e um [código de país](https://countrycode.org/).
+>O telefone deve ser precedido por um &quot;+&quot; e um [código de país](https://countrycode.org/).
 
 **Data de validade**
 
@@ -55,7 +55,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   Observe que uma mensagem **"componentes incompatíveis"** será exibida se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
+   Observe que uma mensagem **&quot;componentes incompatíveis&quot;** será exibida se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
 
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
