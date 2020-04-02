@@ -3,7 +3,7 @@ description: Descreve como ativar e implementar uma variável de comercializaç�
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implementar uma variável de merchandising
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,15 +15,15 @@ Descreve como ativar e implementar uma variável de comercialização.
 
 ## Ativar uma variável de comercialização
 
-O merchandising pode ser ativado para qualquer eVar personalizada em **[!UICONTROL Ferramentas administrativas]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Variáveis de conversão]**.
+O merchandising pode ser ativado para qualquer eVar personalizada em **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Variáveis de conversão]**.
 
 ![](assets/merch-enable.png)
 
 | Configuração | Descrição |
 |--- |--- |
 | Expirar após | Determina por quanto tempo os valores de comercialização devem persistir. |
-| Merchandising | **Sintaxe do produto**: o valor é definido em `s.products`.<br>**Sintaxe de variável de conversão**: o valor é definido na eVar de merchandising designada. |
-| Evento de vinculação de comercialização (somente sintaxe de variável de conversão) | Indica quando um produto deve ser vinculado à categoria de comercialização atual. Vários eventos podem ser selecionados ao pressionar e segurar Ctrl e clicar em vários itens na lista. Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada. |
+| Merchandising | **Sintaxe do produto**: o valor é definido em `s.products`.<br>**Sintaxe de variável de conversão **: o valor é definido na eVar de merchandising designada. |
+| Evento de vinculação de comercialização (somente sintaxe de variável de conversão) | Indica quando um produto deve ser vinculado à categoria de comercialização atual. Vários eventos podem ser selecionados ao pressionar e segurar Ctrl e clicar em vários itens na lista. Você pode selecionar um evento somente quando a &quot;Sintaxe de variável de conversão&quot; é selecionada. |
 
 ## Como implementar usando a sintaxe de produto
 
@@ -42,7 +42,7 @@ s.events="prodView";
 s.products=";Snow Goggles;;;;eVar1=goggles";
 ```
 
-O valor "óculos" para eVar1 é atribuído ao produto "Óculos de neve". Todos os eventos subsequentes bem-sucedidos (anúncios de produtos, check-outs, compras e assim por diante) que envolvem este produto são creditados a "óculos".
+O valor &quot;óculos&quot; para eVar1 é atribuído ao produto &quot;Óculos de neve&quot;. Todos os eventos subsequentes bem-sucedidos (anúncios de produtos, check-outs, compras e assim por diante) que envolvem este produto são creditados a &quot;óculos&quot;.
 
 ## Como implementar usando uma sintaxe de variável de conversão
 
@@ -80,9 +80,9 @@ s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-O valor "Outdoors" para eVar1 é atribuído ao produto "Snow Goggles". Todos os eventos subsequentes bem-sucedidos (anúncios de produtos, check-outs, compras e assim por diante) que envolvem este produto são creditados a "Snow Goggles". Além disso, o valor atual da variável de comercialização está vinculado a todos os produtos subsequentes até que uma destas condições seja atendida:
+O valor &quot;Outdoors&quot; para eVar1 é atribuído ao produto &quot;Snow Goggles&quot;. Todos os eventos subsequentes bem-sucedidos (anúncios de produtos, check-outs, compras e assim por diante) que envolvem este produto são creditados a &quot;Snow Goggles&quot;. Além disso, o valor atual da variável de comercialização está vinculado a todos os produtos subsequentes até que uma destas condições seja atendida:
 
-* eVar expira (com base na configuração "Expirar após")
+* eVar expira (com base na configuração &quot;Expirar após&quot;)
 * A eVar de comercialização é substituída por um novo valor.
 
 ## Informações adicionais externas
