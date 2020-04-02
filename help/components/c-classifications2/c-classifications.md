@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Sobre as classificações
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Classificação é uma forma de categorização de dados variáveis do Analytics
 
 Visão geral em vídeo de [Classificações do Analytics](https://video.tv.adobe.com/v/16853/?captions=por_br).
 
-**[!UICONTROL Administração]** &gt; **[!UICONTROL Conjuntos de relatórios]** &gt; **[!UICONTROL Editar configurações]** &gt; *`<Traffic or Conversion>`*
+**[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > *`<Traffic or Conversion>`*
 
 Ao classificar, você estabelece uma relação entre a variável e os metadados relacionados a ela. Na maioria das vezes, as classificações são usadas em campanhas. Os dados coletados por meio das informações de variáveis (eVars, props e eventos) podem ser centralizados aplicando os metadados aos valores coletados nas variáveis.
 
@@ -38,9 +38,9 @@ Digamos que, em vez de visualizar campanhas só pelo código de rastreamento, vo
 
 Os relatórios e análises contêm classificações pré-definidas para a variável do código de rastreamento, que oferece relatórios baseados na classificação, chamados Elementos Criativos e Campanhas. É preciso configurar manualmente as classificações para todas as outras variáveis de conversão e de tráfego.
 
-Consulte [Classificações de tráfego](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificações de conversão](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
+Consulte [Classificações de tráfego](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificações de conversão](https://marketing.adobe.com/resources/help/pt_BR/reference/conversion_classifications.html).
 
-A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em [Estrutura de arquivo geral](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) antes do upload dos arquivos de dados.
+A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em  [Estrutura de arquivo geral](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) antes do upload dos arquivos de dados.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
