@@ -60,7 +60,7 @@ Abaixo está uma lista de métricas e dimensões que atualmente não são suport
 
 Abaixo está uma lista das dimensões e métricas afetadas, dependendo das configurações de Processamento de tempo do relatório selecionadas:
 
-* Se "Impedir ocorrências em segundo plano de iniciar uma nova visita" estiver ativado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
+* Se &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; estiver ativado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
    * **Rejeições/taxa de rejeição:** as ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
    * **Tempo gasto em segundos por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
    * **Tempo gasto por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
