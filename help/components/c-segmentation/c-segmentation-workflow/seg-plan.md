@@ -3,7 +3,7 @@ description: Apresenta as etapas e práticas recomendadas que devem ser seguidas
 title: Planejar segmentos
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,5 +25,5 @@ Ao dedicar algum tempo para planejar segmentos melhora a probabilidade de que se
 1. Decida quais **elementos** devem ser incluídos na definição do segmento e quais destes valores. Considere [a persistência variável](/help/components/c-segmentation/seg-overview.md) nessa decisão.
 
 1. Considera como você deseja que o **processo de aprovação** se desenvolva. Uma única pessoa analisará e aprovará segmentos ou será uma decisão de comitê?
-1. Defina seus segmentos com uma visualização para uma **biblioteca de segmentos** que confere aos usuários de negócios a capacidade de [empilhar](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) e reutilizar partes de segmentos ou componentes de forma modular. Quais "módulos" você precisa definir para transformar essa biblioteca em uma realidade?
+1. Defina seus segmentos com uma visualização para uma **biblioteca de segmentos** que confere aos usuários de negócios a capacidade de [empilhar](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) e reutilizar partes de segmentos ou componentes de forma modular. Quais &quot;módulos&quot; você precisa definir para transformar essa biblioteca em uma realidade?
 
