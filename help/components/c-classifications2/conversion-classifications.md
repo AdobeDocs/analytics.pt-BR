@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Classificações de conversão
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 
 As classificações de conversão permitem que você classifique as variáveis de conversão. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com as propriedades de dados associadas.
 
-Depois de habilitar as classificações, utilize o  [Importador de classificações](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
+Depois de habilitar as classificações, utilize o [Importador de classificações](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 ## Descrições de classificações de conversão {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -61,9 +61,9 @@ t_classification_conversion.xml
 
 Etapas que descrevem como adicionar classificações de conversão na Administração.
 
-1. Clique em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]**.
+1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
-1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Classificações de conversão]**.
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Classificações de conversão]**.
 1. Na lista suspensa **[!UICONTROL Selecionar tipo de classificação]**, selecione a variável à qual deseja adicionar uma classificação.
 
    ![Informações da etapa](assets/sub_class_create.png)
@@ -91,9 +91,9 @@ t_classification_delete_conversion.xml
 
 Exclua uma classificação de conversão quando ela não for mais necessária.
 
-1. Abra o Gerenciador de conjunto de relatórios clicando em **[!UICONTROL Admin]** &gt; **[!UICONTROL Conjuntos de relatórios]** no cabeçalho do Conjunto.
+1. Abra o Gerenciador de conjunto de relatórios clicando em **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** no cabeçalho do Suite.
 1. Selecione um conjunto de relatórios.
-1. Clique em **[!UICONTROL Editar configurações]** &gt; **[!UICONTROL Conversão]** &gt; **[!UICONTROL Classificações de conversão]**.
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Classificações de conversão]**.
 1. Na lista suspensa **[!UICONTROL Selecionar tipo de classificação]**, selecione a variável da qual deseja excluir uma classificação.
 1. Passe o mouse sobre o ícone **[!UICONTROL Editar classificação]**, em seguida selecione **[!UICONTROL Excluir classificação]**.
 1. Na caixa de diálogo Excluir classificação, clique em **[!UICONTROL Excluir]**.
