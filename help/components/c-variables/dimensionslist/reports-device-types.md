@@ -3,7 +3,7 @@ description: Agrupa dispositivos móveis em celulares, tablets, e-readers, conso
 title: Tipos de dispositivo
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Agrupa dispositivos móveis em celulares, tablets, e-readers, consoles de vídeo game, televisões, decodificadores, reprodutores de mídia e outras categorias avançadas para permitir a visualização da distribuição entre os tipos de dispositivos móveis.
 
-Esta dimensão também é útil para definir segmentos para usuários de telefone e tablet, pois segmenta o local no qual o Tipo de dispositivo móvel equivale a "tipo de dispositivo".
+Esta dimensão também é útil para definir segmentos para usuários de telefone e tablet, pois segmenta o local no qual o Tipo de dispositivo móvel equivale a &quot;tipo de dispositivo&quot;.
 
 **Dados dinâmicos do dispositivo**
 
