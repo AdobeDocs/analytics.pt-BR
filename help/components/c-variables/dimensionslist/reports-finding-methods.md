@@ -3,7 +3,7 @@ description: Exibe o que recebe créditos por eventos de conversão bem sucedido
 title: Métodos de descoberta
 topic: Reports
 uuid: f748419e-4cea-4868-ae1a-9bd7e6f177c4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
