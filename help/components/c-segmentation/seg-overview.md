@@ -3,7 +3,7 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Os segmentos permitem que você identifique subconjuntos de visitantes com base 
 
 Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Ocorrência] por meio de um modelo de contêiner aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
-Você pode construir e salvar segmentos no Construtor de segmentos, ou gerar segmentos a partir de um relatório de Fallout (na [!DNL ad hoc analysis]). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como  [segmentos empilhados](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+Você pode construir e salvar segmentos no Construtor de segmentos, ou gerar segmentos a partir de um relatório de Fallout (na [!DNL ad hoc analysis]). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -36,7 +36,7 @@ Ao construir segmentos de público-alvo no Construtor de segmentos, você define
 
 Esse tipo de conjunto de dados de filtros de segmento com base em características unidas com operadores [!UICONTROL E] e [!UICONTROL OU].
 
-## Segmentos sequenciais {#section_EE5B14287FC44E0B96E77679A2438948}
+## Segmentos sequenciais  {#section_EE5B14287FC44E0B96E77679A2438948}
 
 Os segmentos sequenciais permitem que você identifique visitantes com base na navegação e visualização de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL ENTÃO] é usado para definir e organizar a navegação do visitante.
 
@@ -61,7 +61,7 @@ Este vídeo do YouTube proporciona uma breve visão geral sobre o que são os co
 
 | Nome do vídeo | Link do vídeo |
 |---|---|
-| Contêineres de segmentos | [Contêineres de segmentos no Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&index=2&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+| Contêineres de segmentos | [Contêineres de segmentos no Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
 
 ## Sobre contêineres {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -131,7 +131,7 @@ Você pode usar o aninhamento entre contêineres, bem como entre regras em um co
 
 **Incluir vários contêineres em uma única definição**
 
-Incluir vários segmentos em um novo segmento composto permite que você refine dados ainda mais. Arrastar dois segmentos existentes juntos atua como uma instrução "OU" ao filtrar visitantes. Todos os contêineres na área são analisados em comparação a todos os dados, e quaisquer dados que correspondem a qualquer um dos contêineres são incluídos no relatório.
+Incluir vários segmentos em um novo segmento composto permite que você refine dados ainda mais. Arrastar dois segmentos existentes juntos atua como uma instrução &quot;OU&quot; ao filtrar visitantes. Todos os contêineres na área são analisados em comparação a todos os dados, e quaisquer dados que correspondem a qualquer um dos contêineres são incluídos no relatório.
 
 Por exemplo, arrastar um contêiner de visita, onde País = Estados Unidos com um contêiner de visita, onde Pedido = Verdadeiro
 
@@ -157,7 +157,7 @@ Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentaç�
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-A única exceção para essa hierarquia de contêineres é ao usar o [contêiner do Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). O contêiner do [!UICONTROL Grupo lógico] permite aninhar uma ocorrência em um contêiner sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
+A única exceção para essa hierarquia de contêineres é ao usar o  [contêiner do Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). O contêiner do [!UICONTROL Grupo lógico] permite aninhar uma ocorrência em um contêiner sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -165,7 +165,7 @@ A única exceção para essa hierarquia de contêineres é ao usar o [contêiner
 
 Os contêineres permitem que você filtre dados de forma diferente com base em valores de relatório ao relatar segmentos e aplicá-los a relatórios.
 
-Dados captados em cada nível da hierarquia de contêineres de Visitante &gt; Visita &gt; Ocorrência afetam como você constrói seus segmentos. Se você considerar o mesmo segmento aplicado ao mesmo relatório com o mesmo conjunto de dados, você obterá valores diferentes com base no contêiner a partir do qual você gera o relatório. Fatores como nível de relatório de contêiner e persistência de valores em ocorrências pode resultar em grandes alterações na precisão do relatório. 
+Dados captados em cada nível da hierarquia de contêineres de Visitante > Visita > Ocorrência afetam como você constrói seus segmentos. Se você considerar o mesmo segmento aplicado ao mesmo relatório com o mesmo conjunto de dados, você obterá valores diferentes com base no contêiner a partir do qual você gera o relatório. Fatores como nível de relatório de contêiner e persistência de valores em ocorrências pode resultar em grandes alterações na precisão do relatório. 
 
 ## Dados básicos de contêiner {#section_9576D970F912450191AFB5B83F7F1656}
 
@@ -225,17 +225,17 @@ Com base no exemplo de segmento *Página = Casacos de inverno* usado anteriormen
 
 A aplicação do contêiner de segmento em comparação ao escopo natural dos dados traz resultados esperados, onde os itens de linha correspondem à regra de segmento.
 
-* **Contêiner de ocorrência onde a página é igual a "Casaco de inverno"**: visualizar um relatório de *página* com esse segmento retorna somente os valores iguais a "Casaco de inverno". Todas as demais páginas são excluídas do relatório.
-* **Contêiner de visitas onde a página de entrada é igual a "Roupas de inverno"**: visualizar um relatório de *Página de entrada* com esse segmento retorna somente a segunda visita, pois a página de entrada corresponde a regra do segmento.
+* **Contêiner de ocorrência onde a página é igual a &quot;Casaco de inverno&quot;**: visualizar um relatório de *página* com esse segmento retorna somente os valores iguais a &quot;Casaco de inverno&quot;. Todas as demais páginas são excluídas do relatório.
+* **Contêiner de visitas onde a página de entrada é igual a &quot;Roupas de inverno&quot;**: visualizar um relatório de *Página de entrada* com esse segmento retorna somente a segunda visita, pois a página de entrada corresponde a regra do segmento.
 * **Contêiner de visita onde o número de visitas é igual a 1**: a visualização da página de Visita tudo da primeira visita está incluída no relatório, pois corresponde à regra de segmento.
 
 **Visualizações de página no nível do contêiner de visita**
 
 Várias regras de segmento identificam visualizações de página por visita. Quando isso ocorre, o contêiner inteiro de Visitante é aplicado, se apenas uma única ocorrência corresponde à regra. Esse relatório de segmento é especialmente valioso porque as visualizações de página com base em visitas fornecem informações com base nas visualizações de página por visita.
 
-* **Contêiner de visita onde a página é igual a página "Casaco de inverno"**: em um relatório de página no nível de contêiner do visitante exibe todas as visualizações de página de visitas de incluíram uma visualização da página "Roupas de inverno". Se a página corresponde à regra de segmento, todas as visualizações de página associadas a essa visita são incluídas no relatório.
-* **Contêiner de visita onde a página é igual à página "Inicial"**: um relatório de página com esse segmento somente exibe dados da primeira visita. Isso ocorre porque na segunda visita o visitante não visualizou uma página "Inicial".
-* **Contêiner de visitante onde página é igual a "Roupas de inverno"**: em um relatório de página, esse segmento recupera todos os dados de ambas as visitas, pois nela o visitante visualizou a página "Roupas de inverno".
+* **Contêiner de visita onde a página é igual a página &quot;Casaco de inverno&quot;**: em um relatório de página no nível de contêiner do visitante exibe todas as visualizações de página de visitas de incluíram uma visualização da página &quot;Roupas de inverno&quot;. Se a página corresponde à regra de segmento, todas as visualizações de página associadas a essa visita são incluídas no relatório.
+* **Contêiner de visita onde a página é igual à página &quot;Inicial&quot;**: um relatório de página com esse segmento somente exibe dados da primeira visita. Isso ocorre porque na segunda visita o visitante não visualizou uma página &quot;Inicial&quot;.
+* **Contêiner de visitante onde página é igual a &quot;Roupas de inverno&quot;**: em um relatório de página, esse segmento recupera todos os dados de ambas as visitas, pois nela o visitante visualizou a página &quot;Roupas de inverno&quot;.
 
 **Contêiner de segmento que identifica Ocorrências inferiores às Visualizações de página**
 
@@ -243,8 +243,8 @@ Usando um segmento com um contêiner menor do que o escopo de detalhamento retor
 
 * **Contêiner de ocorrência onde a página de entrada é igual à página de Produto**: cada página associa à página de entrada da visita, o que transforma isso em um detalhamento com base em visita. O uso desse segmento obtém não apenas a página de entrada da Página de produto, mas também todas as ocorrência nessa visita.
 * **Contêiner de ocorrência onde List Var 1 contém o Valor A**: se vários valores foram definidos na mesma ocorrência como a list var, então todos os valores de variável são incluídos no segmento. Não há uma forma de separar valores que ocorrem na mesma visualização de página, pois o contêiner de Ocorrência é o menor contêiner de segmento para detalhar ocorrências.
-* **Contêiner de ocorrência onde Página é igual a "Compra"**: se estiver usando visualizações de página como uma métrica, somente a página de Compra é exibida (como esperado). Se estiver usando um relatório de Participação de renda, então todas as páginas na primeira visita recebem US$ 100, pois as métricas de participação têm por base visitas.
-* **Contêiner de ocorrência onde a Página é igual a "Casaco de inverno"**: se estiver usando visualizações de página como uma métrica, somente a página Casaco de inverno é exibida (como esperado). Se estiver usando um relatório de Participação de receita, nenhuma página recebe o crédito, pois essa dimensão requer uma dimensão persistente. A visualização de página que resultou na compra (a Página de compra) não está incluída no contêiner de Ocorrência, portanto, nenhuma participação de receita é fornecida para qualquer item. No entanto, executar um relatório a partir de um contêiner de Visita deve incluir todas as visualizações de página nessa visita e devem distribuir a participação de receita (US$ 100) em todas as páginas visualizadas na sessão.
+* **Contêiner de ocorrência onde Página é igual a &quot;Compra&quot;**: se estiver usando visualizações de página como uma métrica, somente a página de Compra é exibida (como esperado). Se estiver usando um relatório de Participação de renda, então todas as páginas na primeira visita recebem US$ 100, pois as métricas de participação têm por base visitas.
+* **Contêiner de ocorrência onde a Página é igual a &quot;Casaco de inverno&quot;**: se estiver usando visualizações de página como uma métrica, somente a página Casaco de inverno é exibida (como esperado). Se estiver usando um relatório de Participação de receita, nenhuma página recebe o crédito, pois essa dimensão requer uma dimensão persistente. A visualização de página que resultou na compra (a Página de compra) não está incluída no contêiner de Ocorrência, portanto, nenhuma participação de receita é fornecida para qualquer item. No entanto, executar um relatório a partir de um contêiner de Visita deve incluir todas as visualizações de página nessa visita e devem distribuir a participação de receita (US$ 100) em todas as páginas visualizadas na sessão.
 
 ## Persistência em contêineres {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
@@ -264,7 +264,7 @@ Em uma nova visita, o visitante é enviado de outro site. Consequentemente, toda
 
 **Relatar a partir do Contêiner de ocorrências**
 
-Como todas as visualizações de página na mesma visita são atribuídas o mesmo valor de Domínio de referência, relatado no nível de contêiner de Ocorrência, onde *Domínio de referência = "aol.com"* retorna todas as páginas listadas na tabela abaixo.
+Como todas as visualizações de página na mesma visita são atribuídas o mesmo valor de Domínio de referência, relatado no nível de contêiner de Ocorrência, onde *Domínio de referência = &quot;aol.com&quot;* retorna todas as páginas listadas na tabela abaixo.
 
 ![](assets/container_overview_persist_Visit.png)
 
@@ -274,7 +274,7 @@ Exibindo dados do contêiner de Ocorrência, um pouco mais de 92.000 visualizaç
 
 **Relatar a partir do Contêiner de visitas**
 
-Se a mesma condição é filtrada no contêiner Visita para um relatório Páginas, então todas as páginas na visita, onde *Domínio de referência = "aol.com"* é verdadeiro. Como o valor do domínio de referência é definido no nível de visita, os relatórios nos níveis de Visualização de página e Visita são os mesmos.
+Se a mesma condição é filtrada no contêiner Visita para um relatório Páginas, então todas as páginas na visita, onde *Domínio de referência = &quot;aol.com&quot;* é verdadeiro. Como o valor do domínio de referência é definido no nível de visita, os relatórios nos níveis de Visualização de página e Visita são os mesmos.
 
 ![](assets/container_overview_persist_Visit.png)
 
@@ -284,9 +284,9 @@ Nesse exemplo, como todas as páginas têm o mesmo valor de domínio de referên
 
 **Relatar a partir do Contêiner de visitantes**
 
-Do contêiner de Visitante, o Relatório de página lista todas as páginas visualizadas por qualquer visitante, onde o *Domínio de referência é igual a "aol.com"* é verdadeiro. Consequentemente, se um visitante tinha *"aol.com"* como um domínio de referência a qualquer momento no histórico (no período de tempo definido), então todas as páginas no contêiner de Visitante, incluindo as visualizações de página em outras visitas, serão listadas. Mesmo páginas que não correspondem à condição primária serão listadas no relatório, pois essas páginas estão incluídas no contêiner de Visitante. Todas as páginas no contêiner de Visitantes serão listadas, mesmo se ocorreram anteriormente ou não atenderam especificamente às condições.
+Do contêiner de Visitante, o Relatório de página lista todas as páginas visualizadas por qualquer visitante, onde o *Domínio de referência é igual a &quot;aol.com&quot;* é verdadeiro. Consequentemente, se um visitante tinha *&quot;aol.com&quot;* como um domínio de referência a qualquer momento no histórico (no período de tempo definido), então todas as páginas no contêiner de Visitante, incluindo as visualizações de página em outras visitas, serão listadas. Mesmo páginas que não correspondem à condição primária serão listadas no relatório, pois essas páginas estão incluídas no contêiner de Visitante. Todas as páginas no contêiner de Visitantes serão listadas, mesmo se ocorreram anteriormente ou não atenderam especificamente às condições.
 
-Em um relatório Domínio de referência, *Domínio de referência = "aol.com"* é verdadeiro em quatro visualizações de página, mas *Domínio de referência = "weather.com"* é verdadeiro em outras páginas com ocorrência do visitante. A partir do contêiner do Visitante, você obtém uma lista de Visitantes, onde "aol.com" é verdadeiro, mas também fornece as páginas nas quais o domínio de referência é "weather.com", não o valor que correspondeu a solicitação inicial no segmento.
+Em um relatório Domínio de referência, *Domínio de referência = &quot;aol.com&quot;* é verdadeiro em quatro visualizações de página, mas *Domínio de referência = &quot;weather.com&quot;* é verdadeiro em outras páginas com ocorrência do visitante. A partir do contêiner do Visitante, você obtém uma lista de Visitantes, onde &quot;aol.com&quot; é verdadeiro, mas também fornece as páginas nas quais o domínio de referência é &quot;weather.com&quot;, não o valor que correspondeu a solicitação inicial no segmento.
 
 ![](assets/container_overview_persist_Visitor.png)
 
@@ -297,5 +297,5 @@ Quando você visualize dados do contêiner de Visitante, observe que as visualiz
 Em resumo,
 
 * O contêiner de Visita retorna todas as páginas visualizadas em uma visita onde pelo menos uma página atende aos critérios. Portanto, se uma página é visualizada somente na visita 1 no dia 1, então todas as páginas visualizadas na visita inteira são incluídas nos dados.
-* Tenha cuidado quando a condição que você está segmentando está em uma eVar ou outro tipo de variável persistente. Por exemplo, você pode usar a condição "onde a campanha contém email" e expira após 7 dias. Portanto, se a campanha é definida na primeira visita, ela persistirá por mais 7 dias. Cada visita será incluída embora a campanha seja definida somente na primeira visita. As outras visitas também serão incluídas (enquanto estiverem no intervalo de datas do relatório). Se você deseja impedir que valores persistentes sejam incluídos, use a "instância de" do evento, ou uma variável Prop equivalente, se disponível.
+* Tenha cuidado quando a condição que você está segmentando está em uma eVar ou outro tipo de variável persistente. Por exemplo, você pode usar a condição &quot;onde a campanha contém email&quot; e expira após 7 dias. Portanto, se a campanha é definida na primeira visita, ela persistirá por mais 7 dias. Cada visita será incluída embora a campanha seja definida somente na primeira visita. As outras visitas também serão incluídas (enquanto estiverem no intervalo de datas do relatório). Se você deseja impedir que valores persistentes sejam incluídos, use a &quot;instância de&quot; do evento, ou uma variável Prop equivalente, se disponível.
 
