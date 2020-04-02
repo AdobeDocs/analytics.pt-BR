@@ -8,16 +8,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ---
 
 
-# Criar uma métrica simples de "Exibições de página por visita"
+# Criar uma métrica simples de &quot;Exibições de página por visita&quot;
 
-Mostra como criar uma métrica simples de "Exibições de página por visita".
+Mostra como criar uma métrica simples de &quot;Exibições de página por visita&quot;.
 
 Para obter uma descrição detalhada dos componentes da interface do usuário, consulte  [Criação de métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-Veja como criar uma métrica simples de "Exibições de página por visita".
+Veja como criar uma métrica simples de &quot;Exibições de página por visita&quot;.
 
 1. Navegue até o Criador de métricas calculadas.
-1. Nomeie a métrica como "Exibições de página por visita" ou algo do tipo.
+1. Nomeie a métrica como &quot;Exibições de página por visita&quot; ou algo do tipo.
 1. Forneça uma **[!UICONTROL Descrição]** simples para mostrar sua utilização.
 1. Selecione o **[!UICONTROL Formato]** certo, que neste caso é Decimal.
 1. Decida quantas casas decimais o relatório deve exibir.
