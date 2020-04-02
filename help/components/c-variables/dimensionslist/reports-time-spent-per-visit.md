@@ -3,7 +3,7 @@ description: 'null'
 title: Tempo gasto por visita
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,6 +37,6 @@ O tempo gasto por visita mede o tempo total decorrido em uma visita. Existem dim
    * 10 a 15 horas
    * 15+ horas
 
-> As [!NOTE] [Visitas](../c-metrics/metrics-visit.md) normalmente terminam após 12 horas de atividade. No entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
+> As [!NOTE][ Visitas](../c-metrics/metrics-visit.md) normalmente terminam após 12 horas de atividade. No entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
 
 Essa dimensão é baseada em visitas. Compare essa dimensão com o [Tempo gasto na página](reports-time-spent-on-page.md), que é uma dimensão baseada em ocorrências.
