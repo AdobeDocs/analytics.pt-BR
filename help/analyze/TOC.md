@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -114,11 +114,11 @@ source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
          + [Gerenciador de Alerta](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes - Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + Perguntas frequentes sobre a área de trabalho {#workspace-faq}
-      + [Perguntas frequentes](analysis-workspace/workspace-faqs/faq.md)
-      + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faqs/optimizing-performance.md)
-      + [A Analysis Workspace comparada à Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
-      + [Limitações da Analysis Workspace](analysis-workspace/workspace-faqs/aw-limitations.md)
-      + [Requisitos de administração](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
+      + [Perguntas frequentes](analysis-workspace/workspace-faq/faq.md)
+      + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [A Analysis Workspace comparada à Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+      + [Limitações da Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Requisitos de administração](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Ajuda do Report Builder da Adobe](report-builder/home.md)
    + [Novidades no Report Builder](report-builder/whats-new-arb.md)
