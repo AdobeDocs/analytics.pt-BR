@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountList
 description: Estabeleça lógica sobre como a implementação determina o conjunto de relatórios.
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] As contas dinâmicas só compatíveis com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
+>[!IMPORTANT] As contas dinâmicas só compatíveis com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
 
 A variável `s.dynamicAccountList` determina dinamicamente o valor de `s_account`. Se `dynamicAccountSelection` estiver definida como `true`, a variável `dynamicAccountMatch` será comparada com `dynamicAccountList`. Se uma correspondência for encontrada, a ID do conjunto de relatórios correspondente será usada.
 
