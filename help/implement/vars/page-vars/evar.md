@@ -2,7 +2,7 @@
 title: eVar
 description: Variáveis personalizadas que podem ser usadas na implementação.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 As eVars são variáveis personalizadas que podem ser usadas da maneira que você desejar.
 
-> [!TIP] A Adobe recomenda usar eVars em vez de props na maioria dos casos. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
+>[!TIP] A Adobe recomenda usar eVars em vez de props na maioria dos casos. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
 
 Certifique-se de registrar a forma como você usa cada eVar e a lógica delas no [documento de design da solução](../../prepare/solution-design.md).
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 Se mais que duas casas decimais forem fornecidas, o contador da eVar é arredondado para duas casas decimais. Um contador eVar não pode conter números negativos.
 
-> [!IMPORTANT] Primeiro, você deve configurar eVars como &quot;Contador&quot; no Admin Console antes de usar eVars de contador. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
+>[!IMPORTANT] Primeiro, você deve configurar eVars como &quot;Contador&quot; no Admin Console antes de usar eVars de contador. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
 ## Vantagens exclusivas de props e eVars
 
