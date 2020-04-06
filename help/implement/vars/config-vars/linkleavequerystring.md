@@ -1,41 +1,41 @@
 ---
 title: linkLeaveQueryString
-description: Permite a preservação de sequências de consulta em dimensões de rastreamento de link.
+description: Permite a preservação de cadeias de caracteres de consulta em dimensões de rastreamento de link.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkLeaveQueryString
 
-Por padrão, o AppMeasurement remove as sequências de caracteres de consulta dos URLs de rastreamento de link. Use a `linkLeaveQueryString` variável para preservar as sequências de caracteres de consulta nas dimensões de rastreamento de link.
+Por padrão, o AppMeasurement remove as cadeias de caracteres de consulta dos URLs de rastreamento de link. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
 
-Para alguns links de saída e links de download, a parte importante do URL pode estar na string de consulta. Por exemplo, um link de download, como `https://example.com/download.asp?filename=myfile.exe` contém informações importantes do link na string de consulta.
+Em alguns links de saída e de downloads, a parte importante do URL pode estar na cadeia de caracteres de consulta. Por exemplo, um link de download como `https://example.com/download.asp?filename=myfile.exe` contém informações importantes do link na cadeia de caracteres de consulta.
 
-Se as informações de rastreamento de link não estiverem nos URLs do site, não é necessário usar essa variável. A remoção de sequências de consulta de URLs de rastreamento de link ajuda a limitar o número de valores únicos que a dimensão contém.
+Se as informações de rastreamento de link não estiverem nos URLs do site, não será necessário usar essa variável. A remoção de cadeias de caracteres de consulta de URLs de rastreamento de link ajuda a limitar o número de valores únicos contidos na dimensão.
 
-A ativação `linkLeaveQueryString` se aplica a todas as dimensões de rastreamento de link (incluindo links personalizados, links de saída e links de download).
+A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastreamento de link (incluindo links personalizados, links de saída e links de download).
 
-> [!TIP] Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
+>[!TIP] Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
 
 ## Manter parâmetros de URL no Adobe Experience Platform Launch
 
 [!UICONTROL Keep URL Parameters] é uma caixa de seleção sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Keep URL Parameters] caixa de seleção.
 
-Marque essa caixa se desejar incluir sequências de consulta nas dimensões de rastreamento de link.
+Marque essa caixa se desejar incluir cadeias de caracteres de consulta nas dimensões de rastreamento de link.
 
-## s.linkLeaveQueryString no AppMeasurement e Iniciar editor de código personalizado
+## s.linkLeaveQueryString no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.linkLeaveQueryString` variável é booleana. Its default value is `false`.
+A variável `s.linkLeaveQueryString` é booleana. O valor padrão é `false`.
 
-* Se essa variável estiver definida como `true`, as sequências de caracteres de consulta serão preservadas nos URLs de rastreamento de link.
-* Se essa variável estiver definida `false` ou não estiver definida, as sequências de caracteres de consulta serão removidas dos URLs de rastreamento de link.
+* Se essa variável estiver definida como `true`, as cadeias de caracteres de consulta serão mantidas nos URLs de rastreamento de link.
+* Se essa variável for definida como `false` ou não estiver definida, as cadeias de caracteres de consulta serão removidas dos URLs de rastreamento de link.
 
 ```js
 s.linkLeaveQueryString = true;
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## Exemplo
 
-Tenha cuidado ao definir essa variável como true, pois ela pode afetar os filtros de rastreamento de link, como [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
+Tenha cuidado ao definir essa variável como true, pois ela pode afetar os filtros de rastreamento de link como [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md) e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Considere o exemplo a seguir como se ele estivesse em `adobe.com`:
 
