@@ -2,49 +2,49 @@
 title: Conjunto de números
 description: Produza e manipule números para uso em outras variáveis JavaScript.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in da Adobe: Conjunto de números
 
-> [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
+>[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-Os Números Suite incluem uma série de funções JavaScript. Inclui os seguintes plug-ins:
+O Numbers Suite inclui uma série de funções JavaScript. Inclui os seguintes plug-ins:
 
-* **`zeroPad`**: Adicione um número específico de zeros ao início de um número. Esse plug-in é útil se uma variável exigir um determinado número de dígitos, como se você trabalhasse com objetos de data JavaScript e quisesse formatar um mês e dia de data com dois dígitos em vez de apenas um dígito. Por exemplo, `01/09/2020` em vez de `1/9/2020`.
-* **`randomNumber`**: Gere um número aleatório com um número específico de dígitos. Esse plug-in é útil se você implantar tags de terceiros e quiser um número aleatório de cache busting.
-* **`twoDecimals`**: Arredondar um número até o centésimo do armário. Esse plug-in é útil para fins monetários, permitindo arredondar um número para um valor monetário válido.
+* **`zeroPad`**: adicione um número específico de zeros ao início de um número. Esse plug-in é útil se uma variável exigir um determinado número de dígitos, como se você trabalhasse com objetos de data JavaScript e quisesse formatar o mês e o dia de uma data com dois dígitos em vez de apenas um dígito. Por exemplo, `01/09/2020` em vez de `1/9/2020`.
+* **`randomNumber`**: gere um número aleatório com um número específico de dígitos. Esse plug-in é útil se você implantar tags de terceiros e quiser um número aleatório para substituição de cache.
+* **`twoDecimals`**: arredonde um número até a centena que estiver mais próxima. Esse plug-in é útil para fins monetários e permite arredondar um número para um valor monetário válido.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
-A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequência.
+A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhum
-   * Evento: Principal - Biblioteca carregada (início da página)
-1. Adicione uma ação à regra acima com a seguinte configuração:
+   * Condição: Nenhuma
+   * Evento: principal – biblioteca carregada (início da página)
+1. Adicione à regra acima uma ação com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Inicializar conjunto de números
+   * Tipo de ação: inicializar Numbers Suite
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado Iniciar
+## Instale o plug-in usando o editor de código personalizado do Launch
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
-1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
+1. Abra o editor de código personalizado e cole na janela de edição o código do plug-in fornecido abaixo.
 1. Salve e publique as alterações na extensão do Analytics.
 
-## Instale o plug-in usando o AppMeasurement
+## Instalar o plug-in usando o AppMeasurement
 
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
@@ -63,24 +63,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Usar os plug-ins
 
-O `zeroPad` método usa os seguintes argumentos:
+O método `zeroPad` aceita os seguintes argumentos:
 
-* **num** (obrigatório, inteiro): O número a ser colado. O método arredonda o valor desse argumento para baixo se contiver decimais.
-* **nod** (obrigatório, inteiro): O número de dígitos no valor final de retorno. Se o número a ser colado tiver menos dígitos do que o número de dígitos a serem colados, o plug-in adicionará zeros ao início do `num` argumento.
+* **num** (obrigatório, inteiro): o número a ser arredondado. O método arredonda o valor desse argumento para baixo se contiver decimais.
+* **nod** (obrigatório, inteiro): o número de dígitos no valor final de retorno. Se o número a ser arredondado tiver menos dígitos do que o número limite de dígitos, o plug-in adicionará zeros no início do argumento `num`.
 
-O `randomNumber` método usa os seguintes argumentos:
+O método `randomNumber` aceita os seguintes argumentos:
 
-* **nod** (opcional, número inteiro): O número de dígitos no número aleatório que você deseja gerar. O valor máximo é 17 dígitos. O valor padrão é 10 dígitos.
+* **nod** (opcional, inteiro): o número de dígitos no número aleatório que você deseja gerar. O valor máximo é 17 dígitos. O valor padrão é 10 dígitos.
 
-O `twoDecimals` método usa os seguintes argumentos:
+O método `twoDecimals` aceita os seguintes argumentos:
 
-* **val** (obrigatório, número): Um número (representado por uma string ou por um objeto numérico) que você deseja arredondar para o centésimo mais próximo.
+* **val** (obrigatório, número): um número (representado por uma string ou por um objeto numérico) que você deseja arredondar para a centena mais próxima.
 
 ## Devoluções
 
-* O método **zeroPad** retorna uma string igual ao `num` argumento, mas com um número específico de zeros adicionados ao início de seu valor, o que garante que o valor de retorno tenha o número correto de dígitos.
+* O método **zeroPad** retorna uma string igual ao argumento `num`, mas com um número específico de zeros adicionados ao início de seu valor, o que garante que o valor de retorno tenha o número correto de dígitos.
 * O método **randomNumber** retorna uma string igual a um número aleatório com o número desejado de dígitos.
-* O método **twoDecimals** retorna um objeto number arredondado para o centésimo mais próximo.
+* O método **twoDecimals** retorna um objeto numérico arredondado para a centena mais próxima.
 
 ## Exemplos de chamadas
 
@@ -104,7 +104,7 @@ randomNumber() //returns a random 10-digit number but is useless since this isn'
 var j = randomNumber(35) //sets a variable named j equal to "15476068651810060" or another random 17-digit number
 ```
 
-### exemplos de duas casas decimais
+### exemplos de twoDecimals
 
 ```js
 s.events = "event10=" + twoDecimals("85.4827128694") //sets s.events="event10=85.48"
