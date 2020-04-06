@@ -2,7 +2,7 @@
 title: Criar um novo conjunto de relatórios
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 
 ## Criar um novo conjunto de relatórios
 
-> [!NOTE] Também há uma maneira de criar um conjunto de relatórios no Adobe Analytics usando o administrador herdado. A Adobe recomenda usar o assistente de configuração de conjunto de relatórios descrito aqui.
+>[!NOTE] Também há uma maneira de criar um conjunto de relatórios no Adobe Analytics usando o administrador herdado. A Adobe recomenda usar o assistente de configuração de conjunto de relatórios descrito aqui.
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
