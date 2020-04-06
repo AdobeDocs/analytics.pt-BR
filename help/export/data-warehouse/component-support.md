@@ -1,8 +1,8 @@
 ---
 title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,12 +31,12 @@ Algumas dimensões e métricas podem ser usadas no Data Warehouse, enquanto não
 
 Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
-> [!NOTE] Se uma dimensão ou métrica não for suportada no Data Warehouse, os segmentos que usam esses componentes também não serão suportados. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
+>[!NOTE] Se uma dimensão ou métrica não for suportada no Data Warehouse, os segmentos que usam esses componentes também não serão suportados. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
 
 ### Dimensões não suportadas
 
 * Algumas dimensões baseadas em tempo, incluindo:
-   * AM/PM
+   *  
    * Dia do mês
    * Dias da semana
    * Dia do ano
@@ -52,8 +52,8 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Profundidade de ocorrência
    * Frequência de Retorno
    * Tempo antes do evento
-   * Tempo gasto na página - No intervalo
-   * Tempo gasto por visita - Em bucket
+   * Tempo gasto na página - Por período
+   * Tempo gasto por visita - Por período
    * Profundidade da Visita
 * Toda a classificação da página de pesquisa
 * Variáveis de hierarquia
@@ -61,8 +61,8 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 * Páginas não encontradas (disponível como uma dimensão; não suportado para segmentação)
 * Pesquisa paga
 * Visitas únicas à página
-* Motivo da desativação do rastreamento
-* Estados dos Estados Unidos
+* Rastreamento de motivos para o cancelamento de adesão
+* Estados Unidos
 
 ### Métricas não suportadas
 
