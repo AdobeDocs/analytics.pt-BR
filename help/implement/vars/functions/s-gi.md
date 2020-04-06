@@ -2,31 +2,31 @@
 title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-A `s_gi()` função instancia ou encontra uma instância do AppMeasurement por ID de conjunto de relatórios. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. Se uma instância não existir, uma nova instância será criada.
+A função `s_gi()` instancia ou encontra uma instância do AppMeasurement pelo ID de conjunto de relatórios. O AppMeasurement acompanha cada instância criada e `s_gi()` retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada.
 
 ## s_gi() no Adobe Experience Platform Launch
 
-A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, você também pode definir um objeto de rastreamento global no [!UICONTROL Library Management] acordeão ao configurar a extensão do Adobe Analytics.
+A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda o [!UICONTROL Library Management] acordeão e selecione qualquer botão de opção diferente de [!UICONTROL Manage the library for me].
 
-O campo de texto da variável global permite definir um objeto de rastreamento personalizado. Its default value is `s`.
+O campo de texto da variável global permite definir um objeto de rastreamento personalizado. O valor padrão é `s`.
 
-## s_gi() no AppMeasurement e Iniciar editor de código personalizado
+## s_gi() no AppMeasurement e no editor de código personalizado do Launch
 
-Chame a `s_gi()` função para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas de IDs de conjunto de relatórios. O argumento ID do conjunto de relatórios é obrigatório.
+Chame a função `s_gi()` para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas com IDs de conjuntos de relatórios. O argumento ID de conjunto de relatórios é obrigatório.
 
-> [!TIP] A Adobe recomenda usar a `s` variável como um objeto de rastreamento. A Adobe usa `s` sua documentação, exemplos de implementação e plug-ins. No entanto, você pode usar qualquer variável desde que seja consistente em todo o site.
+>[!TIP] A Adobe recomenda usar a variável `s` como um objeto de rastreamento. A Adobe usa `s` em sua documentação, em exemplos de implementação e em plug-ins. No entanto, você pode usar qualquer variável desde que seja consistente em todo o site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] As seções e exemplos a seguir contêm tópicos complexos de implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no documento [de design da](../../prepare/solution-design.md)solução da sua organização.
+>[!CAUTION] As seções e exemplos a seguir contêm tópicos complexos sobre implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no [documento de design da solução](../../prepare/solution-design.md) de sua organização.
 
 ## Gerenciar várias implementações usando diferentes objetos de rastreamento
 
-É possível enviar dados diferentes para conjuntos de relatórios diferentes se você instanciar vários objetos de rastreamento. Esses dois objetos de rastreamento operam independentemente um do outro.
+Você pode enviar dados diferentes para conjuntos de relatórios diferentes se instanciar vários objetos de rastreamento. Esses dois objetos de rastreamento operam independentemente um do outro.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -60,7 +60,7 @@ z.t();
 
 ## Restaurar variáveis do AppMeasurement após substituir o objeto s
 
-Algumas ferramentas de terceiros também podem usar o `s` objeto JavaScript. Se você substituir acidentalmente o `s` objeto no site, poderá chamar `s_gi` com o mesmo argumento de string RSID para restaurar todas as variáveis e métodos substituídos.
+Algumas ferramentas de terceiros também podem usar o objeto `s` do JavaScript. Se você substituir acidentalmente o objeto `s` no site, será possível chamar `s_gi` com o mesmo argumento de string RSID para restaurar todas as variáveis e métodos substituídos.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -79,9 +79,9 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## Referência ao mesmo objeto de rastreamento com várias variáveis
+## Referencie o mesmo objeto de rastreamento com várias variáveis
 
-Se duas variáveis referenciarem a mesma `s_gi()` função com o mesmo conjunto de relatórios, você poderá usar as variáveis alternadamente.
+Se duas variáveis referenciarem a mesma função `s_gi()` com o mesmo conjunto de relatórios, você poderá usar as variáveis alternadamente.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
