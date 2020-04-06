@@ -1,19 +1,19 @@
 ---
 title: Classificações em Canais de marketing
-description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
+description: Use classificações para categorizar valores em grupos relacionados e para criar relatórios no nível do grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode relatar o sucesso dessa categoria em relação a métricas como Instâncias (ou click-throughs).
 translation-type: tm+mt
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Classificações em Canais de marketing
 
-Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
+Use classificações para categorizar valores em grupos relacionados e para criar relatórios no nível do grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode relatar o sucesso dessa categoria em relação a métricas como Instâncias (ou click-throughs).
 
 As classificações adicionadas neste procedimento são exibidas no [!UICONTROL Marketing Channel Overview] relatório como [!UICONTROL Channel Values]. Os valores do canal são valores não classificados no detalhe do canal.
 
-> [!NOTE] Familiarize-se com a criação de classificações em [Classificações](/help/components/c-classifications2/c-classifications.md).
+>[!NOTE] Familiarize-se com a criação de classificações em [Classificações](/help/components/c-classifications2/c-classifications.md).
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ As classificações adicionadas neste procedimento são exibidas no [!UICONTROL 
 
 | Termo | Definição |
 |--- |--- |
-| Classificações de texto | Especifica o tipo de categoria de classificação que permite agrupar dados de variável para fins de geração de relatórios. |
+| Classificações de texto | Especifica o tipo de categoria de classificação que permite agrupar dados variáveis para fins de relatórios. |
 | Nome | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing . |
 | Opções | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing . |
 
