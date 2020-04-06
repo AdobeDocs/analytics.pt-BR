@@ -1,8 +1,8 @@
 ---
 title: Relatórios de conversões no Adobe Analytics
 description: Saiba como usar relatórios de conversões no Adobe Analytics.
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Os relatórios de comércio eletrônico no Google Analytics e os relatórios de 
 
 Os relatórios de funil multicanal fornecem dados adicionais de canais de marketing além daqueles que os relatórios de aquisição fornecem. Esses relatórios se concentram em como os visitantes são convertidos, em vez de como os visitantes chegam ao site.
 
-> [!NOTE]
+>[!NOTE]
 >
 > O uso de relatórios multicanal no Adobe Analytics requer a configuração de Canais de marketing e uma implementação personalizada para acomodar a variável de produtos e o evento de compra. A Adobe recomenda trabalhar com um consultor de implementação se esses recursos ainda não estiverem configurados para o seu conjunto de relatórios.
 
