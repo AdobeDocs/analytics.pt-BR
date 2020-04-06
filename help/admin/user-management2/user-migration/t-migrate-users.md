@@ -2,8 +2,8 @@
 description: Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 title: Migrar contas de usuário do Analytics para Adobe IDs
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: ht
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,15 +16,15 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
 
 Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 
-> [!NOTE] Se um Administrador que não tenha feito logon por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
+>[!NOTE] Se um Administrador que não tenha feito logon por meio da Experience Cloud tentar acessar a ferramenta de Migração de IDs de usuários, ele será redirecionado para a página de logon da Experience Cloud.
 
 **Para migrar usuários do Analytics**
 
-1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migração de ID de usuário]**.
+1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 
    ![](assets/migration-progress.png)
 
-   A página de Migração da ID do usuário tem duas seções: *Processo de migração* e *Informações do usuário*.
+   A página Migração de IDs de usuários tem duas seções: Progresso *da* migração e informações ** do usuário.
 
    **Andamento da migração**
 
@@ -37,19 +37,19 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>Migrações concluídas </p> </td> 
+      <td colname="col1"> <p>Migrações Concluídas </p> </td> 
       <td colname="col2"> <p>Os usuários aceitaram o convite. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Logon herdado desabilitado </p> </td> 
-      <td colname="col2"> <p>O logon antigo que usa uma ID da empresa está desativado. Os usuários passarão a acessar a Experience Cloud usando uma Adobe ID ou uma Enterprise ID. Quando todos os usuários atingirem essa fase, você terá concluído a migração. </p> <p>Na migração, o logon antigo é desativado. Os usuários são redirecionados para <span class="filepath"> experiencecloud.adobe.com</span> e devem fazer logon usando a Adobe ID ou Enterprise ID. </p> </td> 
+      <td colname="col1"> <p>Logon herdado desativado </p> </td> 
+      <td colname="col2"> <p>O logon antigo usando uma ID de empresa está desativado. Os usuários agora acessarão a Experience Cloud usando sua Adobe ID ou Enterprise ID. Quando todos os usuários atingirem essa fase, você concluirá a migração. </p> <p>Na migração, o logon antigo é desativado. Os usuários são redirecionados para <span class="filepath"> experiencecloud.adobe.com</span> e devem fazer logon usando a Adobe ID ou Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
    **Informações do usuário**
 
-   As informações do usuário descrevem os usuários em sua organização, separados por nome de domínio.
+   As Informações do usuário descrevem os usuários em sua organização, separados por nome de domínio.
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
@@ -70,10 +70,10 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
    </tbody> 
    </table>
 
-1. Localize o domínio que contém as IDs de usuário que você deseja migrar e, em **[!UICONTROL Migração obrigatória]**, clique em **[!UICONTROL Selecionar usuários]**.
-1. Na página [!DNL Users], selecione os usuários que deseja migrar e clique em **[!UICONTROL Migrar]**.
+1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
+1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
 
-   Ao clicar em **[!UICONTROL Migrar]**, os usuários recebem um convite (Migração iniciada) e devem aceitá-lo. Essa ação mova a ID do usuário para Migração concluída. É possível desativar o acesso herdado para `[!DNL my.omniture.com].`
+   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. Essa ação mova a ID do usuário para Migração concluída. É possível desativar o acesso herdado para `[!DNL my.omniture.com].`
 
    ![](assets/user-info.png)
 
