@@ -1,19 +1,19 @@
 ---
-description: A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
+description: A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito por eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante ao site que realiza uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 title: Métodos de descoberta
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Métodos de descoberta
 
-A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
+A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito por eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante ao site que realiza uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Buscar métodos]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
 
 ## Descrições de métodos de descoberta {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -27,11 +27,11 @@ A página Métodos de descoberta identifica como vários relatórios de métodos
  <tbody> 
   <tr> 
    <td colname="col1"> Nome </td> 
-   <td colname="col2"> O método de descoberta que deseja modificar </td> 
+   <td colname="col2"> O método de descoberta que você deseja modificar </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alocação </td> 
-   <td colname="col2"> Especifica como aplicar crédito a uma referência. As opções de alocação compatíveis são: <p> <span class="uicontrol"> Mais recente (último):</span> Dá todo o crédito ao último referenciador (padrão). </p> <p> <span class="uicontrol"> Valor original:</span> concede todo o crédito ao primeiro referenciador. </p> <p> <span class="uicontrol"> Linear:</span> divide o crédito igualmente entre todos os referenciadores. </p> </td> 
+   <td colname="col2"> Especifica como aplicar crédito para uma referência. As opções de alocação suportadas incluem: <p> <span class="uicontrol"> Mais recente (último):</span> Dá todo o crédito ao último referenciador (padrão). </p> <p> <span class="uicontrol"> Valor original:</span> concede todo o crédito ao primeiro referenciador. </p> <p> <span class="uicontrol"> Linear:</span> divide o crédito igualmente entre todos os referenciadores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Expirar após </td> 
@@ -52,5 +52,5 @@ A página Métodos de descoberta identifica como vários relatórios de métodos
  </tbody> 
 </table>
 
-> [!NOTE] Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando Check-out do carrinho ocorrer durante a visita. Se não ocorrer o Check-out do carrinho durante a visita, o Método de descoberta ainda expirará ao final da visita.
+>[!NOTE] Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando o Check-out do carrinho ocorrer durante a visita. Se um Check-out do carrinho não ocorrer durante a visita, o Método de descoberta ainda expirará quando a visita terminar.
 
