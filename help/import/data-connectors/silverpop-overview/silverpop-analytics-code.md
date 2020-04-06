@@ -2,8 +2,8 @@
 description: 'Se você selecionou o método de coleta de dados do plug-in do JavaScript, copie linhas de código a seguir e adicione-as ao código do Analytics em suas páginas '
 title: Código de plug-in do Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,4 +22,4 @@ Se você selecionou o método de coleta de dados do plug-in do JavaScript, copie
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Analytics, basta substituí-las pelas disponíveis.
+>[!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Analytics, basta substituí-las pelas disponíveis.
