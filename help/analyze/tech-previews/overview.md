@@ -1,7 +1,7 @@
 ---
 title: Guia do usuário do Labs
 description: Visualizar projetos de protótipo do Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
