@@ -1,25 +1,25 @@
 ---
-description: Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
+description: Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você seleciona um conjunto de relatórios para usar (exceto ao usar roll-ups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do site. agregação de soluções do Analytics e relatório sobre esses armazenamentos de dados. O Gerenciador admin Report Suite permite que você defina as regras que regulam como os dados são processados em um conjunto de relatórios.
 title: Gerenciador do Conjunto de relatórios
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Gerenciador do Conjunto de relatórios
 
-Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do seu site. As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
+Um conjunto de relatórios define o relatório completo e independente de um site específico ou subconjuntos de páginas da Web. Geralmente, um conjunto de relatórios representa um site da Web, mas pode ser um segmento global onde você pode combinar diversos números de site para obter totais. Ao fazer logon em qualquer solução do Adobe Analytics, você seleciona um conjunto de relatórios para usar (exceto ao usar roll-ups que combinam conjuntos de relatórios). Além disso, um conjunto de relatórios pode ser menor que um site, se você quiser executar relatórios para uma parte do site. agregação de soluções do Analytics e relatório sobre esses armazenamentos de dados. O Gerenciador admin Report Suite permite que você defina as regras que regulam como os dados são processados em um conjunto de relatórios.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
+>[!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio de **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conjunto de relatórios].
+A tabela a seguir descreve os elementos na [!UICONTROL Report Suite Manager] página.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pesquisar</span> </td> 
-   <td colname="col2"> Permite que você localize um conjunto de relatórios na Lista de conjunto de relatórios. A ferramenta de pesquisa inclui tanto a pesquisa básica baseada em nome quanto uma página de pesquisa avançada para pesquisas aprofundadas. </td> 
+   <td colname="col2"> Permite localizar um conjunto de relatórios específico na Lista Report Suite. A ferramenta de pesquisa inclui pesquisa básica baseada em nome e uma página de pesquisa avançada para pesquisas aprofundadas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Grupos</span> </td> 
-   <td colname="col2"> <p>Permite que você organize seus conjunto de relatórios em grupos personalizados. Você pode acessar rapidamente vários conjunto de relatórios que compartilham configurações similares, ou que normalmente você edita em conjunto. </p> </td> 
+   <td colname="col2"> <p>Permite organizar seus conjuntos de relatórios em grupos personalizados. É possível acessar rapidamente vários conjuntos de relatórios que compartilham configurações semelhantes ou que normalmente você edita juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pesquisas salvas</span> </td> 
@@ -51,7 +51,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Conjuntos de relatórios de rollup</a>. </p> </td> 
+   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjuntos de relatórios. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configurações</span> </td> 
