@@ -2,35 +2,35 @@
 title: linkExternalFilters
 description: Use a variável linkExternalFilters para ajudar no rastreamento automático do link de saída.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkExternalFilters
 
-O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do seu site. Se [`trackExternalLinks`](trackexternallinks.md) estiver ativada, uma solicitação de imagem será enviada para a Adobe logo que um visitante clicar em um link para sair do site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
+O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
 
-Se essa variável contiver um valor, o rastreamento automático de link de saída se comporta de maneira semelhante à lista de permissões. Se um clique em um link não corresponder a nenhum `linkExternalFilters` valor, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativada, a string de consulta também será examinada.
+Se essa variável contiver um valor, o rastreamento automático de link de saída se comportará de maneira semelhante à lista de permissões. Se um clique em um link não corresponder a algum valor `linkExternalFilters`, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
-> [!TIP] Use essa variável somente se você souber exatamente quais domínios deseja considerar como links de saída. Muitas organizações acham que o uso `linkInternalFilters` é suficiente para as necessidades de rastreamento de link de saída e não é usado `linkExternalFilters`.
+>[!TIP] Use essa variável somente se você souber exatamente quais domínios deseja considerar como links de saída. Muitas organizações acham que usar o `linkInternalFilters` é suficiente para as necessidades de rastreamento de link de saída, e não usam `linkExternalFilters`.
 
-Se você usar ao mesmo tempo `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder `linkExternalFilters` e **não corresponder** `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
+Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-## Links de saída - Rastrear no lançamento da plataforma Adobe Experience
+## Links externos - Rastrear no Adobe Experience Platform Launch
 
-O campo Acompanhar é uma lista separada por vírgulas de filtros (geralmente domínios) sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
+The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Amplie o [!UICONTROL Link Tracking] acordeão, que revela o [!UICONTROL Outbound Links - Track] campo.
 
-Coloque filtros que você deseja sempre considerar externos neste campo. Separe vários domínios por vírgula sem espaço.
+Coloque filtros que deseja sempre considerar como externos neste campo. Separe vários domínios por vírgula sem espaço.
 
-## s.linkExternalFilters no AppMeasurement e no editor de código personalizado Iniciar
+## s.linkExternalFilters no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.linkExternalFilters` variável é uma string que contém filtros (como domínios) que você considera como links de saída. Separe vários domínios usando uma vírgula sem espaços.
+A variável `s.linkExternalFilters` é uma cadeia de caracteres que contém filtros (como domínios) tidos como links de saída. Separe vários domínios usando uma vírgula sem espaços.
 
 ```js
 s.linkExternalFilters = "example.com,example.net,example.org";
