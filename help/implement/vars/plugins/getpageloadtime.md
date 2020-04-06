@@ -1,46 +1,46 @@
 ---
 title: getPageLoadTime
-description: Rastreie a quantidade de tempo que uma página leva para carregar.
+description: Rastreie o tempo que uma página leva para ser carregada.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in da Adobe: getPageLoadTime
 
-> [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
+>[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O `getPageLoadTime` plug-in usa o objeto de desempenho JavaScript para permitir que você meça a quantidade de tempo que uma página leva para carregar completamente. A Adobe recomenda usar esse plug-in se você quiser medir quanto tempo as páginas levam para serem carregadas.
+O plug-in `getPageLoadTime` usa o objeto de desempenho JavaScript para permitir que você meça a quantidade de tempo que uma página leva para carregar completamente. A Adobe recomenda usar esse plug-in se você quiser medir quanto tempo as páginas levam para serem carregadas.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
-A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequência.
+A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhum
-   * Evento: Principal - Biblioteca carregada (início da página)
-1. Adicione uma ação à regra acima com a seguinte configuração:
+   * Condição: Nenhuma
+   * Evento: principal – biblioteca carregada (início da página)
+1. Adicione à regra acima uma ação com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Inicializar getPageLoadTime
+   * Tipo de ação: inicializar getPageLoadTime
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado Iniciar
+## Instale o plug-in usando o editor de código personalizado do Launch
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
-1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
+1. Abra o editor de código personalizado e cole na janela de edição o código do plug-in fornecido abaixo.
 1. Salve e publique as alterações na extensão do Analytics.
 
-## Instale o plug-in usando o AppMeasurement
+## Instalar o plug-in usando o AppMeasurement
 
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
@@ -59,21 +59,21 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Usar o plug-in
 
-O `getPageLoadTime` método não usa nenhum argumento. Ao chamar esse método, ele não retorna nada. Em vez disso, ele define as seguintes variáveis:
+O método `getPageLoadTime` não usa nenhum argumento. Quando você chama esse método, ele não retorna nada. Em vez disso, ele define as seguintes variáveis:
 
-* `s._pltPreviousPage`: A página anterior para que você possa correlacionar o tempo de carregamento com a página anterior
-* `s._pltLoadTime`: O tempo em segundos que a página anterior demorou para carregar
+* `s._pltPreviousPage`: a página anterior, para que seja possível correlacioná-la ao tempo de carregamento.
+* `s._pltLoadTime`: o tempo em segundos que demorou para a página anterior ser carregada.
 
-O plug-in getPageLoadTime cria dois cookies primários:
+O plug-in getPageLoadTime cria dois cookies próprios:
 
-* `s_plt`: O tempo, em segundos, que a página anterior demorou para ser carregada. Expira no final da sessão do navegador.
-* `s_pltp` O valor da `s.pageName` variável conforme registrado na solicitação de imagem anterior do Adobe Analytics. Expira no final da sessão do navegador.
+* `s_plt`: o tempo em segundos que demorou para a página anterior ser carregada. Expira no final da sessão do navegador.
+* `s_pltp` O valor da variável `s.pageName` conforme registrado na solicitação de imagem anterior do Adobe Analytics. Expira no final da sessão do navegador.
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
-Executando o seguinte código...
+Executar o código a seguir...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -86,12 +86,12 @@ if(s._pltPreviousPage)
 }
 ```
 
-...fará o seguinte:
+... terá o seguinte resultado: 
 
-* Execute o plug-in getPageLoadTime quando s.pageName estiver definido
-* Defina s.prop10 igual ao tempo de carregamento da página anterior
-* Defina s.prop11 e s.eVar10 igual ao nome da página anterior (como registrado em s.pageName)
-* Defina event100, que seria um evento numérico personalizado, igual ao tempo de carregamento da página anterior.   O uso de um evento personalizado nesse caso permitiria obter a quantidade total de tempo para todas as cargas de página da página anterior (de todos os visitantes/visitas) e, portanto, usar uma métrica calculada para obter o tempo médio de carregamento de página para cada página
+* Execute o plug-in getPageLoadTime quando s.pageName estiver definido.
+* Defina s.prop10 com o tempo de carregamento da página anterior.
+* Defina s.prop11 e s.eVar10 com o nome da página anterior (como registrado em s.pageName).
+* Defina event100, que seria um evento numérico personalizado, com o tempo de carregamento da página anterior.   Usar um evento personalizado nesse caso permitiria obter a quantidade total de tempo de todos os carregamentos de página da página anterior (de todos os visitantes/visitas) e, portanto, permitiria usar uma métrica calculada para obter o tempo médio de carregamento para cada página.
 
 ## Histórico da versão
 
