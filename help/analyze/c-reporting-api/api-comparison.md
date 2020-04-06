@@ -2,7 +2,7 @@
 description: Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 
-> [!NOTE] Em relação à latência, o Analytics for Target (A4T) combina os dados do Analytics e do Target na mesma ocorrência para relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
+> [!NOTE] No que diz respeito à latência, o Analytics para Target (A4T) combina dados do Analytics e do Target na mesma ocorrência, favorecendo a geração de relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -47,7 +47,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col5"> Máximo </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Interfaces de relatórios</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/"  > Interfaces de relatórios</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Relatório em tempo real em Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Somente API </td> 
@@ -86,7 +86,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Serviços Web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Relatórios em tempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Visão geral do Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/pt_BR/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
