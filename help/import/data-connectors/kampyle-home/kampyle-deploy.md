@@ -3,7 +3,7 @@ description: 'null'
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ Para ativar a integração, conclua o assistente de configuração na interface 
 
 Após concluir o assistente de integração, implante o objeto de configuração de integração na propriedade da Web. Em muitos casos, a maneira mais fácil de implantar o objeto de configuração de integração é incluí-lo no código de implantação do Adobe Analytics.
 
-> [!NOTE] Se você usar o Adobe Experience Platform Launch, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
+>[!NOTE] Se você usar o Adobe Experience Platform Launch, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Baixe e salve o **[!UICONTROL Kampyle Integration Code (JS)]** recurso. O código é semelhante a este:
@@ -61,7 +61,7 @@ Valide se a integração transfere dados com êxito, concluindo algumas verifica
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] As entradas de registro normalmente são exibidas dentro de 24 horas após a implantação bem-sucedida.
+>[!NOTE] As entradas de registro normalmente são exibidas dentro de 24 horas após a implantação bem-sucedida.
 
 ![Registro de atividades de integração](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 Visualize seus relatórios de feedback do Kampyle com o Adobe Analytics navegando até os relatórios do Kampyle localizados na estrutura de menu adequada.
 
-> [!NOTE] Os dados de relatório devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que os formulários de feedback integrados estejam recebendo envios ativamente.
+>[!NOTE] Os dados de relatório devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que os formulários de feedback integrados estejam recebendo envios ativamente.
 
 ![Dados de relatórios da Adobe](assets/adobe_reporting_data.png)
