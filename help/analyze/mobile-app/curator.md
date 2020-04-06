@@ -1,8 +1,8 @@
 ---
 description: Instruções para configuração de scorecards para aplicativos móveis.
 title: Guia do curador de aplicativo móvel do Adobe Analytics
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -198,6 +198,7 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
       ![Tela Play Store](assets/play.png)
 
    2. Toque no link **Baixar no Google Play** na tela a seguir:
+
       ![Link de download](assets/playnext.png)
 
    3. Baixe e instale o aplicativo. Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
