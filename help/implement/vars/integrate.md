@@ -1,8 +1,8 @@
 ---
 title: Módulo de integração
 description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa. Essa integração oferece a oportunidade de uma conexão de dados bidirecional. Normalmente, o uso do Módulo de integração é conduzido por um parceiro da Adobe.
 
-> [!NOTE] A solicitação de dados do parceiro na implementação pode aumentar os atrasos entre o carregamento de página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes que os dados sejam enviados, essa página não será registrada.
+>[!NOTE] A solicitação de dados do parceiro na implementação pode aumentar os atrasos entre o carregamento de página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes que os dados sejam enviados, essa página não será registrada.
 
 ## Fluxo de trabalho do Módulo de integração
 
@@ -30,7 +30,7 @@ A obtenção do código do módulo requer um usuário com acesso de Administrado
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-1. Na navegação da parte superior, clique em [!UICONTROL Admin] > [!UICONTROL Gerenciador de código].
+1. No início da navegação, clique em [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. Baixe a biblioteca JavaScript AppMeasurement mais recente.
 1. Após o download, descompacte o arquivo e localize `AppMeasurement_Module_Integrate.js`.
 
