@@ -5,15 +5,15 @@ subtopic: Visitors
 title: Usuários do Connect em vários dispositivos
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Usuários do Connect em vários dispositivos
 
-> [!IMPORTANT] Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análise entre dispositivos](/help/components/cda/cda-home.md) no guia do usuário Componentes.
+>[!IMPORTANT] Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análise entre dispositivos](/help/components/cda/cda-home.md) no guia do usuário Componentes.
 
 A identificação de visitantes em vários dispositivos ajuda você a conectar visitantes em vários dispositivos. A identificação de visitantes entre dispositivos usa a variável `visitorID` para associar um usuário em dispositivos. A variável `visitorID` tem a prioridade mais alta ao identificar visitantes únicos.
 
