@@ -1,35 +1,35 @@
 ---
 title: cookieDomainPeriods
-description: Ajude o AppMeasurement a entender que domínio armazenar cookies se o domínio tiver um período em seu sufixo.
+description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # fpCookieDomainPeriods
 
-A `fpCookieDomainPeriods` variável ajuda o AppMeasurement a determinar onde os cookies do Analytics são definidos, chamando para que o sufixo do domínio tenha um período extra. Essa variável permite que o AppMeasurement acomode o período extra no sufixo do domínio e defina os cookies no local correto. Ele herda o valor de [`cookieDomainPeriods`](cookiedomainperiods.md), mas ainda é uma prática recomendada a ser definida se você usar uma implementação de cookie primário.
+A variável `fpCookieDomainPeriods` ajuda o AppMeasurement a determinar onde os cookies do Analytics são definidos, indicando que o sufixo do domínio tem um ponto extra. Essa variável permite que o AppMeasurement acomode o ponto extra no sufixo do domínio e defina os cookies no local correto. Ela herda o valor de [`cookieDomainPeriods`](cookiedomainperiods.md), mas ainda é uma prática recomendada a ser definida se você usar uma implementação de cookie primário.
 
-* Para domínios como `example.com` ou `www.example.com`, essa variável não precisa ser definida. Se necessário, é possível definir essa variável como `"2"`.
+* Em domínios como `example.com` ou `www.example.com`, essa variável não precisa ser definida. Se necessário, é possível definir essa variável como `"2"`.
 * Para domínios como `example.co.uk` ou `www.example.co.jp`, defina essa variável como `"3"`.
 
-> [!IMPORTANT] Não leve subdomínios em conta para essa variável. Por exemplo, não defina `fpCookieDomainPeriods` o URL de exemplo `store.toys.example.com`. O AppMeasurement por padrão reconhece que os cookies devem ser armazenados `example.com`, mesmo em URLs com vários subdomínios.
+>[!IMPORTANT] Não considere subdomínios para essa variável. Por exemplo, não defina `fpCookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
-## Períodos de domínio primários no lançamento da plataforma Adobe Experience
+## Períodos de domínio primários no Adobe Experience Platform Launch
 
-Períodos de domínio primários é um campo sob o [!UICONTROL Cookies] acordeão ao configurar a extensão do Adobe Analytics.
+Pontos de domínio primários é um campo da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Amplie o [!UICONTROL Cookies] acordeão, que revela o [!UICONTROL First-party Domain Periods] campo.
 
-Defina esse campo como `3` somente em domínios que contenham um período em seu sufixo. Caso contrário, esse campo poderá ser deixado em branco.
+Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
-## s.fpCookieDomainPeriods no AppMeasurement e Iniciar editor de código personalizado
+## s.fpCookieDomainPeriods no AppMeasurement e no editor de código personalizado do Launch
 
-A `fpCookieDomainPeriods` variável é uma string normalmente definida como `"3"`, somente em domínios que contêm um ponto em seu sufixo. Seu valor padrão é `"2"`, que acomoda a maioria dos domínios.
+A variável `fpCookieDomainPeriods` é uma cadeia de caracteres normalmente definida como `"3"`, somente em domínios que contêm um ponto no sufixo. Seu valor padrão é `"2"`, que acomoda a maioria dos domínios.
 
 ```js
 // Manually set fpCookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
