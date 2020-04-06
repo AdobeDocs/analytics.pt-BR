@@ -2,8 +2,8 @@
 description: Descreve o processo de implantação em três etapas.
 title: Implantar a integração
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
-translation-type: ht
-source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,12 +24,12 @@ Para ativar a integração, você deve concluir o assistente de integração do 
 
    ![](assets/data_connectors.png)
 
-1. Em **[!UICONTROL Adicionar integração]**, sob Lyris HQ, clique em **[!UICONTROL Ativar]**.
+1. Em **[!UICONTROL Add Integration]**, em Lyris HQ, clique em **[!UICONTROL Activate]**.
 
    ![](assets/add_integration.png)
 
-1. Em **[!UICONTROL Configurações gerais]**, escolha o Conjunto de relatórios desejado e forneça um nome para a integração.
-1. Preencha todas as informações relacionadas à conta do Lyris em **[!UICONTROL Valores personalizados]**.
+1. Under **[!UICONTROL General Settings]**, choose the desired Report Suite and provide a name for the integration.
+1. Fill in all your Lyris account-related information under **[!UICONTROL Custom Values]**.
 
    ![](assets/general_settings.png)
 
@@ -37,9 +37,9 @@ Para ativar a integração, você deve concluir o assistente de integração do 
 
    ![](assets/variable_mapping.png)
 
-1. Você pode escolher seus próprios segmentos em **[!UICONTROL Seus segmentos]**, exceto no caso dos três segmentos automatizados do Partner.
-1. Essa integração pode exigir o download de alguns pontos de dados para sua conta do Lyris. Você pode optar por conceder esse acesso em **[!UICONTROL Solicitação de acesso]**.
-1. Em **[!UICONTROL Coleta de dados]**, você pode optar por ter uma solução automática ou manual (Plug-in do JavaScript) para coletar parâmetros de string de consulta do URL da página inicial. Se você optar por ter uma solução automatizada, digite os parâmetros ID da mensagem e ID do destinatário da string de consulta. Para obter um plug-in do JavaScript, entre em contato com seu consultor da Adobe.
+1. You may choose your own segments under **[!UICONTROL Your Segments]** - apart from the 3 automated Partner segments.
+1. Essa integração pode exigir o download de alguns pontos de dados para sua conta do Lyris. You may choose to give access for this under **[!UICONTROL Access Request]**.
+1. Under **[!UICONTROL Data Collection]**, you can choose to have an automated or a manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. Se você optar por ter uma solução automatizada, digite os parâmetros ID da mensagem e ID do destinatário da string de consulta. Para obter um plug-in do JavaScript, entre em contato com seu consultor da Adobe.
 
    ![](assets/data_collection.png)
 
@@ -47,7 +47,7 @@ Para ativar a integração, você deve concluir o assistente de integração do 
 
    ![](assets/dashboard_generation.png)
 
-1. Revise o resumo da integração e clique em **[!UICONTROL Ativar]**.
+1. Review the integration summary and click **[!UICONTROL Activate]**.
 
 ## Configuração no EmailLabs do Lyris {#configuration-within-the-lyris-emaillabs}
 
@@ -72,21 +72,21 @@ Etapas para verificar se a integração Lyris/Adobe Analytics foi bem-sucedida.
 
 Depois que todas as etapas de implantação forem concluídas, você poderá validar se a integração está transferindo dados com êxito.
 
-> [!NOTE] Leva alguns dias para a troca de dados começar. Entre em contato com a Lyris depois de ativar a integração.
+>[!NOTE] Leva alguns dias para a troca de dados começar. Entre em contato com a Lyris depois de ativar a integração.
 
-1. Navegue até sua integração do Lyris nos Data Connectors. Na guia **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividade de integração]**, é possível ver eventos como **[!UICONTROL Dados de métrica importados com êxito]** e/ou **[!UICONTROL Dados de classificação importados com êxito]**:
+1. Navegue até sua integração do Lyris nos Data Connectors. Na **[!UICONTROL Support]** guia > **[!UICONTROL Integration Activity Log]**, você deve ver eventos como **[!UICONTROL Metric data imported successfully]** e/ou **[!UICONTROL Classification data imported successfully]**:
 
    ![](assets/integration_info.png)
 
-1. Agora, visualize seus relatórios de mensagem do Lyris com as métricas apropriadas. Na Adobe Experience Cloud, selecione **[!UICONTROL Reports &amp; Analytics]**.
+1. Agora, visualize seus relatórios de mensagem do Lyris com as métricas apropriadas. In the Adobe Experience Cloud, select **[!UICONTROL Reports & Analytics]**.
 1. Selecione o conjunto de relatórios adequados.
-1. Em **[!UICONTROL Conversões personalizadas]**, selecione os **[!UICONTROL Relatórios de IDs da mensagem]** e escolha **[!UICONTROL ID da mensagem/Nome da mensagem]**.
+1. Em **[!UICONTROL Custom Conversions]**, selecione o **[!UICONTROL Message ID Reports]** e escolha **[!UICONTROL Message ID/Message Name]**.
 
 ## Código do plug-in do parâmetro da string de consulta {#query-string-param-plug-in-code}
 
 Mostra o código do plug-in do Lyris a ser usado com o Adobe Analytics.
 
-> [!NOTE] Certifique-se de ter reservado as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, pela eVar10.
+>[!NOTE] Certifique-se de ter reservado as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, pela eVar10.
 
 ```
 /* 
