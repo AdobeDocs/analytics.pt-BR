@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: Desduplicar ocorrências com base em um identificador de compra exclusivo.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Essa variável pode armazenar no máximo 20 bytes; valores maiores que 20 bytes 
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] Não use uma função de geração de valores aleatórios para gerar uma ID de compra. A Adobe recomenda usar uma [camada de dados](../../prepare/data-layer.md) para armazenar uma determinada ID de compra.
+>[!NOTE] Não use uma função de geração de valores aleatórios para gerar uma ID de compra. A Adobe recomenda usar uma [camada de dados](../../prepare/data-layer.md) para armazenar uma determinada ID de compra.
