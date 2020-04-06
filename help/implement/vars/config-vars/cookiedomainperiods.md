@@ -1,8 +1,8 @@
 ---
 title: cookieDomainPeriods
 description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
-translation-type: ht
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ A variável `cookieDomainPeriods` ajuda o AppMeasurement a determinar onde os co
 * Para domínios como `example.com` ou `www.example.com`, essa variável não precisa ser definida. Se necessário, é possível definir essa variável como `"2"`.
 * Para domínios como `example.co.uk` ou `www.example.co.jp`, defina essa variável como `"3"`.
 
-> [!IMPORTANT] Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
+>[!IMPORTANT] Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
 ## Períodos de domínio no Adobe Experience Platform Launch
 
@@ -24,8 +24,8 @@ Pontos de domínio é um campo da opção [!UICONTROL Cookies] ao configurar a e
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
-4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio].
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Amplie o [!UICONTROL Cookies] acordeão, que revela o [!UICONTROL Domain Periods] campo.
 
 Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
