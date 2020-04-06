@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Calcular métricas
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Descreve como calcular métricas comuns usando feeds de dados.
 
-> [!IMPORTANT] As ocorrências normalmente excluídas do Adobe Analytics são incluídas nos feeds de dados. Use `exclude_hit > 0` para remover ocorrências excluídas de consultas em dados brutos. Os dados obtidos também são incluídos nos feeds de dados. Se desejar excluir fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
+>[!IMPORTANT] As ocorrências normalmente excluídas do Adobe Analytics são incluídas nos feeds de dados. Use `exclude_hit > 0` para remover ocorrências excluídas de consultas em dados brutos. Os dados obtidos também são incluídos nos feeds de dados. Se desejar excluir fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
 
 ## Exibições de página
 
@@ -25,7 +25,7 @@ Descreve como calcular métricas comuns usando feeds de dados.
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 1. Conte o número exclusivo de valores.
 
-> [!NOTE] Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos `visit_num` valores para diferentes visitas. Use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
+>[!NOTE] Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos `visit_num` valores para diferentes visitas. Use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
 
 ## Visitantes
 
