@@ -1,8 +1,8 @@
 ---
 title: Conjuntos de relatórios globais no Adobe Analytics
 description: Entenda as vantagens e os requisitos para usar um conjunto de relatórios global.
-translation-type: ht
-source-git-commit: d7c4412feb85f4381d8811b29fc23c9c85d23555
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 * **Atribuição mais precisa entre marcas:** se uma visita começar em um site, em seguida, clicar em outro de seus sites antes de acionar um evento bem-sucedido, a atribuição será coletada com precisão. Por exemplo, um visitante clica em um link de pesquisa paga e chega ao site A. Em seguida, clica em um link para o site B e faz uma compra. Um conjunto de relatórios global atribui corretamente a compra para a pesquisa paga.
 * **Implementação simplificada:** como todas as marcas/sites enviam dados para o mesmo conjunto de relatórios, suas implementações em cada site são alinhadas. Esse controle imposto garante que uma dimensão ou métrica específica seja salva na mesma eVar ou evento. Os administradores, testadores, proprietários do gerenciamento de tags e analistas se beneficiam dessa simplificação.
 
-> [!NOTE] Coordenar a implementação de um conjunto de relatórios global é um projeto grande. A Adobe recomenda trabalhar com um consultor para reduzir complicações e problemas que surgirem.
+>[!NOTE] Coordenar a implementação de um conjunto de relatórios global é um projeto grande. A Adobe recomenda trabalhar com um consultor para reduzir complicações e problemas que surgirem.
 
 ## Iniciar uma nova implementação com um conjunto de relatórios global
 
