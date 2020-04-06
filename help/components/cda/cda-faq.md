@@ -2,14 +2,14 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Perguntas frequentes
 
-> [!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
+>[!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
 
 **Como posso usar o CDA para ver como as pessoas mudam de um tipo de dispositivo para outro?**
 
@@ -51,19 +51,19 @@ Em algumas situações, é possível que várias pessoas façam logon no mesmo d
 
 Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se o indivíduo usar muitos navegadores ou aplicativos e pode ser exacerbado se ele limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador. O gráfico de dispositivos limita o número de ECIDs vinculadas a determinada ID de usuário a 200. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é incluída na blacklist para não ser reagrupada no futuro. O resultado no CDA é que o comportamento da ID do usuário não é compilado em todos os dispositivos.
 
-**Qual é a diferença entre a métrica &quot;Pessoas&quot; no CDA e a métrica &quot;Visitantes únicos&quot; fora do CDA?**
+**Qual é a diferença entre a métrica &#39;Pessoas&#39; no CDA e a métrica &#39;Visitantes únicos fora do CDA?**
 
-A métrica &quot;Pessoas&quot; é semelhante à métrica &quot;Visitantes únicos&quot;, na medida em que relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando são registrados como dois visitantes únicos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-device Analytics está ativado.
+A métrica &quot;Pessoas&quot; é semelhante à métrica &quot;Visitantes únicos&quot;, na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes exclusivos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-device Analytics está ativado.
 
-**Qual é a diferença entre a métrica &#39;Dispositivos únicos&#39; no CDA e a métrica &#39;Visitantes únicos&#39; fora do CDA?**
+**Qual é a diferença entre a métrica &#39;Dispositivos únicos&#39; no CDA e a métrica &#39;Visitantes únicos fora do CDA?**
 
-Essas duas métricas são aproximadamente equivalentes entre si.
+Essas duas métricas são aproximadamente equivalentes umas às outras.
 
 **É possível incluir métricas de CDA usando a API 2.0?**
 
-Sim. A Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da Adobe e você pode exibir chamadas de API que a Adobe usa para criar seus próprios relatórios:
+Sim. A área de trabalho da Análise usa a API 2.0 para solicitar dados dos servidores da Adobe e você pode visualização chamadas de API usadas pela Adobe para criar seus próprios relatórios:
 
-1. Ao fazer logon na Analysis Workspace, abra as ferramentas do desenvolvedor do navegador (F12 para a maioria dos navegadores).
+1. Ao fazer logon na Análise Workspace, abra as ferramentas do desenvolvedor do navegador (F12 para a maioria dos navegadores).
 1. No console do navegador, digite `adobeTools.showDebugger()`. A página é recarregada com ícones de depuração no canto superior direito de cada painel.
 1. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora desejadas da solicitação.
 1. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
@@ -74,4 +74,4 @@ Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro 
 
 **Qual é a ID de visitante mais avançada que o CDA usa? Posso exportá-lo para fora do Adobe Analytics?**
 
-O Cross-Device Analytics calcula dados agrupados usando uma &quot;ID de cluster&quot;. Esse identificador é calculado pela Adobe no momento em que o relatório é executado, também conhecido como Processamento em tempo de relatório. A natureza do processamento do tempo de relatório significa que isso não é compatível com o Data Warehouse, feeds de dados ou outros recursos de exportação oferecidos pela Adobe.
+O Cross-Device Analytics calcula os dados agrupados usando uma &quot;ID de cluster&quot;. Esse identificador é calculado pela Adobe no momento em que o relatório é executado, também conhecido como Processamento em tempo de relatório. A natureza do processamento do tempo de relatório significa que isso não é compatível com o Data Warehouse, feeds de dados ou outros recursos de exportação do Adobe oferta.
