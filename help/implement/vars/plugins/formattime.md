@@ -1,46 +1,46 @@
 ---
 title: formatTime
-description: Converta um número de segundos em seu equivalente em minutos, horas etc.
+description: Converta um número de segundos para seu equivalente em minutos, horas etc.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in da Adobe: formatTime
 
-> [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
+>[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O plug- `formatTime` in permite que você leve qualquer número de segundos e os apresente em um formato segmentado, arredondado para um valor de benchmark desejado. A Adobe recomenda usar esse plug-in se você quiser capturar um valor de tempo em segundos e convertê-lo em um formato de período (como minutos, dias ou semanas). Esse plug-in é desnecessário se você não quiser agrupar valores com base em segundo em um formato arredondado para o tempo.
+O plug-in `formatTime` permite que você trate qualquer número de segundos e o apresente em um formato reduzido, arredondado para um valor referencial desejado. A Adobe recomenda usar esse plug-in se você quiser capturar um valor de tempo em segundos e convertê-lo em um formato simplificado (como minutos, dias ou semanas). Esse plug-in é desnecessário se você não quiser agrupar valores com em segundos em um formato arredondado por tempo.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
-A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequência.
+A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhum
-   * Evento: Principal - Biblioteca carregada (início da página)
-1. Adicione uma ação à regra acima com a seguinte configuração:
+   * Condição: Nenhuma
+   * Evento: principal – biblioteca carregada (início da página)
+1. Adicione à regra acima uma ação com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Initialize formatTime
+   * Tipo de ação: inicializar formatTime
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado Iniciar
+## Instale o plug-in usando o editor de código personalizado do Launch
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
-1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
+1. Abra o editor de código personalizado e cole na janela de edição o código do plug-in fornecido abaixo.
 1. Salve e publique as alterações na extensão do Analytics.
 
-## Instale o plug-in usando o AppMeasurement
+## Instalar o plug-in usando o AppMeasurement
 
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
@@ -56,106 +56,107 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## Usar o plug-in
 
-O `formatTime` método usa os seguintes argumentos:
+O método `formatTime` aceita os seguintes argumentos:
 
-* **`ns`** (obrigatório, número inteiro): O número de segundos para converter ou formatar
-* **`tf`** (opcional, string): O tipo de formato em que os segundos devem ser retornados; padrão para segundos
-   * Defina como `"d"` se desejar o tempo em dias (arredondado para o benchmark de 1/4 dias mais próximo por padrão)
-   * Defina como `"h"` se desejar o tempo em horas (arredondado para o benchmark de 1/4 horas mais próximo por padrão)
-   * Defina como `"m"` se desejar o tempo em minutos (arredondado para o benchmark de 1/2 minutos mais próximo por padrão)
-   * Defina como `"s"` se desejar o tempo em segundos (arredondado para o benchmark de 5 segundos mais próximo por padrão)
-* **`bml`** (opcional, número): A duração dos referenciais de arredondamento. Padrões para os benchmarks listados no `tf` argumento
+* **`ns`** (obrigatório, número inteiro): o número de segundos a ser convertido ou formatado
+* **`tf`** (opcional, string): o tipo de formato em que os segundos devem ser retornados; o padrão é segundos
+   * Defina como `"d"` se desejar tempo em dias (arredondado para o referencial de 1/4 de dia que estiver mais próximo, por padrão)
+   * Defina como `"h"` se desejar tempo em horas (arredondado para o referencial de 1/4 de hora que estiver mais próximo, por padrão)
+   * Defina como `"m"` se desejar tempo em minutos (arredondado para o referencial de 1/2 minuto que estiver mais próximo, por padrão)
+   * Defina como `"s"` se desejar tempo em segundos (arredondado para o referencial de 5 segundos que estiver mais próximo, por padrão)
+* **`bml`** (opcional, número): a quantidade de tempo dos referenciais de arredondamento. Padrões para os referenciais listados no argumento `tf`
 
-O método retorna o número de segundos formatados usando a unidade especificada no `tf` argumento. Se o `tf` argumento não estiver definido:
+O método retorna o número de segundos formatados na unidade especificada no argumento `tf`. Se o argumento `tf` não estiver definido:
 
-* Qualquer coisa menor que um minuto é arredondada para o benchmark de 5 segundos mais próximo
-* Qualquer coisa entre um minuto e uma hora é arredondada para o benchmark de 1/2 minutos mais próximo
-* Qualquer coisa entre uma hora e um dia é arredondada para o benchmark de trimestre mais próximo
-* Qualquer coisa maior que um dia é arredondada para o valor de referência de dia mais próximo
+* Qualquer coisa menor que um minuto é arredondada para o referencial de 5 segundos que estiver mais próximo
+* Qualquer coisa entre um minuto e uma hora é arredondada para o referencial de 1/2 minuto que estiver mais próximo
+* Qualquer coisa entre uma hora e um dia é arredondada para o referencial de 1/4 de hora que estiver mais próximo
+* Qualquer coisa maior que um dia é arredondada para o valor referencial de dia que estiver mais próximo
 
 ## Exemplos
 
-### Exemplo nº 1
+### Exemplo #1
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(38242);
 ```
 
-...definirá s.eVar1 igual a &quot;10,5 horas&quot;
+... definirá s.eVar1 como &quot;10,5 horas&quot;
 
-O argumento transmitido - 38242 segundos - é igual a 10 horas, 37 minutos e 22 segundos.  Como o argumento tf não está definido nesta chamada e o número de segundos passados está entre uma hora e um dia, o plug-in retornará o número de segundos convertidos para o benchmark de trimestre mais próximo.
+O argumento transmitido, 38242 segundos, é igual a 10 horas, 37 minutos e 22 segundos.  Como o argumento tf não está definido nesta chamada e o número de segundos transmitidos está entre uma hora e um dia, o plug-in retornará o número de segundos convertidos para o referencial de 1/4 de hora que estiver mais próximo.
 
-### Exemplo nº 2
+### Exemplo #2
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(38250);
 ```
 
-...definirá s.eVar1 igual a &quot;10,75 horas&quot;O argumento transmitido - 38250 segundos - é igual a 10 horas, 37 minutos e 30 segundos.  Arredondamento do número de segundos passados para o benchmark de trimestre-hora mais próximo nesse caso definirá o valor final como 10,75 horas
+...definirá s.eVar1 como &quot;10,75 horas&quot;
+O argumento transmitido, 38250 segundos, é igual a 10 horas, 37 minutos e 30 segundos.  Nesse caso, arredondar o número de segundos transmitidos para o referencial de 1/4 de hora que estiver mais próximo definirá o valor final como 10,75 horas
 
-### Exemplo 3
+### Exemplo #3
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(38242, "m");
 ```
 
-...definirá s.eVar1 igual a &quot;637,5 minutos&quot;
+... definirá s.eVar1 como &quot;637,5 minutos&quot;
 
-Neste caso, o argumento &quot;m&quot; força o plug-in a converter os segundos para o benchmark de ½ minuto mais próximo
+Nesse caso, o argumento &quot;m&quot; força o plug-in a converter os segundos para o referencial de meio minuto que estiver mais próximo
 
-### Exemplo nº 4
+### Exemplo #4
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(38242, "m", 20);
 ```
 
-...definirá s.eVar1 igual a &quot;640 minutos&quot;
+... definirá s.eVar1 como &quot;640 minutos&quot;
 
-O valor do argumento tf (&quot;m&quot;) força o plug-in a converter os segundos em minutos, mas o valor do argumento bml (20) também força o plug-in a arredondar a conversão de minutos para o benchmark de 20 minutos mais próximo.
+O valor do argumento tf (&quot;m&quot;) força o plug-in a converter os segundos em minutos, mas o valor do argumento bml (20) também força o plug-in a arredondar a conversão de minutos para o referencial de 20 minutos que estiver mais próximo.
 
-### Exemplo nº 5
+### Exemplo #5
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(125, "s", 2);
 ```
 
-...definirá s.eVar1 igual a &quot;126 segundos&quot;, que é o benchmark de 2 segundos mais próximo a 125 segundos
+...definirá s.eVar1 como &quot;126 segundos&quot;, que é o referencial de 2 segundos mais próximo a 125 segundos
 
-### Exemplo nº 6
+### Exemplo #6
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(125, "m", 3);
 ```
 
-...definirá s.eVar1 igual a &quot;3 minutos&quot;, que é o benchmark mais próximo de 3 minutos a 125 segundos
+...definirá s.eVar1 como &quot;3 minutos&quot;, que é o referencial de 3 minutos mais próximo a 125 segundos
 
-### Exemplo nº 7
+### Exemplo #7
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.eVar1 = s.formatTime(145, "m", .4);
 ```
 
-...definirá s.eVar1 igual a &quot;2,4 minutos&quot;, que é o benchmark de 2/5 minutos mais próximo (por exemplo, .4 = 2/5) a 145 segundos
+...definirá s.eVar1 como &quot;2,4 minutos&quot;, que é o referencial de 2/5 minutos mais próximo (por exemplo, .4 = 2/5) a 145 segundos
 
 ## Histórico da versão
 
 ### 1.1 (21 de maio de 2018)
 
-* Adição do `bml` argumento para permitir mais flexibilidade no arredondamento
+* Adição do argumento `bml` para permitir mais flexibilidade no arredondamento
 
 ### 1.0 (15 de abril de 2018)
 
