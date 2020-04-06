@@ -1,8 +1,8 @@
 ---
 title: Implementação com Instant Articles do Facebook
 description: Implementar o Adobe Analytics nas páginas Instant Articles do Facebook.
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ O fluxo de trabalho abrangente para implementar o Adobe Analytics é o seguinte:
 
 ### Etapa 1: criar uma página `stats.html`
 
-O HTML de exemplo abaixo pode ser usado para capturar dados de estatística dos artigos instantâneos. Normalmente, este artigo seria hospedado em um dos servidores da sua empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
+A amostra de HTML abaixo pode ser usada para capturar estatísticas dos artigos instantâneos. Normalmente, esse arquivo seria hospedado em um dos servidores da Web do empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
 
 ```html
 <html>
@@ -83,7 +83,7 @@ O exemplo a seguir mostra diversas variáveis personalizadas incluídas em uma c
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] A dimensão Referenciador não é rastreada automaticamente devido à natureza dos iframes. Certifique-se de incluir essa dimensão como parte da cadeia de caracteres de consulta se desejar rastreá-la.
+>[!NOTE] A dimensão Referenciador não é rastreada automaticamente devido à natureza dos iframes. Certifique-se de incluir essa dimensão como parte da cadeia de caracteres de consulta se desejar rastreá-la.
 
 ## Instant Articles do Facebook e privacidade
 
