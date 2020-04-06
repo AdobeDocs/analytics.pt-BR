@@ -2,14 +2,14 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics altera os dados que passam de focados em dispositivos para focados em pessoas, ao compilar os dados do dispositivo.
 translation-type: tm+mt
-source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Análise entre dispositivos
 
-> [!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
+>[!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
 
 O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada no dispositivo para uma exibição centrada na pessoa. Esse recurso usa o Gráfico cooperativo ou o Gráfico privado do Serviço de identidade da do Adobe Experience Platform para identificar quais dispositivos pertencem a indivíduos e os compila juntos. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. Usando a CDA, você pode responder a perguntas como:
 
@@ -27,7 +27,7 @@ Consulte a página [Journey IQ: Cross-Device Analytics Spark](http://adobe.ly/aa
 
 A partir de setembro de 2019, o Cross-Device Analytics exige o seguinte. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
 
-> [!IMPORTANT] O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
+>[!IMPORTANT] O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Os dados de sua organização devem residir no data center da Adobe do noroeste do Pacífico. Está previsto o suporte a data centers em outras regiões do mundo.
 * Entre em contato com o Gerente de conta de sua organização para estabelecer estes pontos-chave:
@@ -38,8 +38,8 @@ A partir de setembro de 2019, o Cross-Device Analytics exige o seguinte. Trabalh
    * O conjunto de relatórios não pode ter mais de 500 milhões de ocorrências por dia.
    * A Adobe recomenda que um conjunto de relatórios contenha dados entre dispositivos, ou seja, dados de vários tipos de dispositivos (Web, aplicativo, etc). Algumas organizações se referem a esse conceito como um conjunto de relatórios &quot;global&quot;, embora o CDA não precise ser rigorosamente global de uma perspectiva geográfica. O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
 * Sua implementação deve atender os seguintes requisitos:
-   * A versão mais recente do Serviço da Experience Cloud ID deve ser implantada. Consulte a [Página inicial](https://docs.adobe.com/content/help/en/id-service/using/home.html) no guia do usuário do Serviço de identidade da Experience Cloud. Provavelmente, a maioria das implementações que usam o Adobe Experience Platform Launch já implantou a ECID.
-   * Chame a função `setCustomerIDs` sempre que um indivíduo puder ser identificado, como quando um usuário se conecta ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Consulte [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) no guia do usuário do Serviço de identidade da Experience Cloud.
+   * A versão mais recente do Serviço da Experience Cloud ID deve ser implantada. Consulte a [Página inicial](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) no guia do usuário do Serviço de identidade da Experience Cloud. Provavelmente, a maioria das implementações que usam o Adobe Experience Platform Launch já implantou a ECID.
+   * Chame a função `setCustomerIDs` sempre que um indivíduo puder ser identificado, como quando um usuário se conecta ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Consulte [setCustomerIDs](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/methods/setcustomerids.html) no guia do usuário do Serviço de identidade da Experience Cloud.
 
 ## Limitações
 
@@ -50,11 +50,11 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma organização IMS. Como o CDA compila os dispositivos em um conjunto de relatórios específico, o CDA não pode ser usado para compilar dados em várias organizações IMS.
 * No momento, o CDA não é compatível com os Atributos do cliente. Os Atributos do cliente não podem ser usados para criar um conjunto de relatórios virtual do CDA, em segmentos entre dispositivos, ou para relatórios em um projeto da Analysis Workspace baseado em um conjunto de relatórios virtual do CDA.
    > [!TIP] Embora os Atributos do cliente não possam ser usados no CDA, ambos os recursos dependem da `setCustomerIDs` função. Esses dois recursos podem coincidir em conjuntos de relatórios separados (virtuais).
-* O CDA requer o Gráfico cooperativo ou o Gráfico privado. Os gráficos de dispositivos de terceiros não são compatíveis.
+* O CDA requer Gráfico cooperativo ou Gráfico privado. Os gráficos de dispositivos de terceiros não são compatíveis.
 * As IDs herdadas do Analytics não são compatíveis. Somente os visitantes com Experience Cloud IDs são compilados.
 * O Atendimento ao cliente ainda não oferece suporte total a esse recurso. O [fórum do Cross-Device Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) pode ser usado para oferecer suporte a esse recurso, o que inclui o envolvimento ativo e direto dos Gerentes de produto da Adobe.
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Consulte [Conjuntos de relatórios virtuais](../vrs/vrs-about.md) e [Processamento de tempo de relatório](../vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
-* A API 1.4 não é suportada. Os conectores do Power BI e do Construtor de relatórios dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
+* Não há suporte para a API 1.4. Os conectores do Power BI e do Construtor de relatórios dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * Se sua organização usar o Gráfico privado, novos dispositivos levarão até 24 horas para serem costurados.
 * Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas. A Adobe pretende melhorar o gráfico de cooperação para um gráfico atualizado diariamente no futuro.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
