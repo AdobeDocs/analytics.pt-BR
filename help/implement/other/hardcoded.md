@@ -1,8 +1,8 @@
 ---
 title: Implementar com solicitações de imagem codificadas
 description: Implementar o Adobe Analytics usando uma tag de imagem HTML (solicitação de imagem codificada)
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ As bibliotecas do AppMeasurement fornecidas pelas Adobe compilam as variáveis p
 
 Esse método de implementação pode ser usado em qualquer plataforma que exibe imagens de fontes externas. Ele não depende do JavaScript.
 
-> [!NOTE] Embora as solicitações de imagem codificadas sejam fáceis de configurar, elas são difíceis de depurar, manter e dimensionar em projetos maiores. Verifique se as solicitações de imagem codificadas são a melhor opção para você antes de continuar.
+>[!NOTE] Embora as solicitações de imagem codificadas sejam fáceis de configurar, elas são difíceis de depurar, manter e dimensionar em projetos maiores. Verifique se as solicitações de imagem codificadas são a melhor opção para você antes de continuar.
 
 ## Sintaxe de solicitação de imagem
 
