@@ -1,8 +1,8 @@
 ---
 title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ As variáveis de lista são variáveis personalizadas que podem ser usadas da ma
 
 Certifique-se de registrar a forma como você usa cada variável de lista e a lógica delas no [documento de design da solução](../../prepare/solution-design.md).
 
-> [!NOTE] As variáveis de lista armazenam os 250 valores mais recentes por visitante. Se houver mais de 250 valores únicos para um determinado visitante, os valores mais antigos não serão atribuídos a métricas.
+>[!NOTE] As variáveis de lista armazenam os 250 valores mais recentes por visitante. Se houver mais de 250 valores únicos para um determinado visitante, os valores mais antigos não serão atribuídos a métricas.
 
 ## Configurar variáveis de lista nas configurações do conjunto de relatórios
 
@@ -32,7 +32,7 @@ Cada variável de lista é uma string que contém valores personalizados especí
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] Se você definir valores duplicados na mesma ocorrência, a Adobe desduplica todas as instâncias desses valores. Por exemplo, se você definir `s.list1 = "Example,Example";`, uma instância será contada nos relatórios.
+>[!TIP] Se você definir valores duplicados na mesma ocorrência, a Adobe desduplica todas as instâncias desses valores. Por exemplo, se você definir `s.list1 = "Example,Example";`, uma instância será contada nos relatórios.
 
 ## Comparar props de lista a vars de lista
 
