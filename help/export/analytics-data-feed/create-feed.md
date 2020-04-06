@@ -1,8 +1,8 @@
 ---
 title: Criar ou editar um feed de dados
 description: Saiba como criar ou editar um feed de dados.
-translation-type: ht
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -59,7 +59,7 @@ As 11 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * eu-west-1
 * sa-east-1
 
-> [!NOTE] A região cn-north-1 não é compatível.
+>[!NOTE] A região cn-north-1 não é compatível.
 
 ### Azure Blob
 
@@ -67,7 +67,7 @@ Os feeds de dados são compatíveis com destinos do Azure Blob. Requer um contê
 
 ![Informações do Azure](assets/azure.png)
 
-> [!NOTE] Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do feed. A Adobe não exclui dados do servidor.
+>[!NOTE] Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do feed. A Adobe não exclui dados do servidor.
 
 ## Definições da coluna de dados
 
@@ -77,6 +77,6 @@ Todas as colunas, independentemente de terem dados, estão disponíveis. Um feed
 * **Formato de compactação**: o tipo de compactação usado. O Gzip gera arquivos no formato `.tar.gz`. O Zip gera arquivos no formato `.zip`.
 * **Tipo de empacotamento**: um único arquivo gera o arquivo `hit_data.tsv` em um único arquivo potencialmente massivo. Vários arquivos paginam seus dados em blocos de 2 GB (descompactados). Se vários arquivos forem selecionados e os dados descompactados para a janela de relatório forem menores que 2 GB, um arquivo será enviado. A Adobe recomenda usar vários arquivos para a maioria dos feeds de dados.
 * **Modelos de colunas**: ao criar muitos feeds de dados, a Adobe recomenda criar um modelo de coluna. A seleção de um modelo de coluna inclui automaticamente as colunas especificadas no modelo. A Adobe também fornece vários modelos por padrão.
-* **Colunas disponíveis**: todas as colunas de dados disponíveis no Adobe Analytics. Clique em [!UICONTROL Adicionar tudo] para incluir todas as colunas em um feed de dados.
-* **Colunas incluídas**: as colunas a serem incluídas em um feed de dados. Clique em [!UICONTROL Remover tudo] para remover todas as colunas de um feed de dados.
+* **Colunas disponíveis**: todas as colunas de dados disponíveis no Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed.
+* **Colunas incluídas**: as colunas a serem incluídas em um feed de dados. Click [!UICONTROL Remove all] to remove all columns from a data feed.
 * **Baixar CSV**: faz o download de um arquivo CSV contendo todas as colunas incluídas.
