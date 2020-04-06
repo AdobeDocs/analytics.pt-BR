@@ -2,7 +2,7 @@
 title: Mapear elementos de dados do Launch para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões na área de trabalho da Análise.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ As variáveis globais são ideais nos casos em que você deseja definir valores 
 
 ### Definir variáveis em regras
 
-As variáveis definidas nas regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+As variáveis definidas nas regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. See [Rules](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade Launch desejada.
@@ -43,7 +43,7 @@ As variáveis definidas nas regras são ideais nos casos em que as variáveis n�
 1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Select].
 1. O nome do elemento de dados é adicionado ao campo de texto rodeado por `%` sinais. Por exemplo, se você nomeasse seu elemento de dados como &quot;Nome da página&quot;, veria a string `%Page name%` ao atribuir um elemento de dados a uma variável.
 
-> [!TIP] É possível concatenar elementos de dados na mesma variável. Por exemplo, se você tiver um elemento de dados &quot;Nome do host&quot; e um elemento de dados &quot;Nome do caminho&quot;, poderá combinar ambos em uma única variável usando `%Hostname%%Pathname%`.
+>[!TIP] É possível concatenar elementos de dados na mesma variável. Por exemplo, se você tiver um elemento de dados &quot;Nome do host&quot; e um elemento de dados &quot;Nome do caminho&quot;, poderá combinar ambos em uma única variável usando `%Hostname%%Pathname%`.
 
 ## Próximas etapas
 
