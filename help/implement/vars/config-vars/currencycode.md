@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-Para sites que usam comércio, receita e moeda é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use a `currencyCode` variável para verificar se os atributos de receita estão na moeda correta.
+Em sites que usam comércio, receita e moeda, é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use a variável `currencyCode` para verificar se os atributos de receita estão na moeda correta.
 
-Se não `currencyCode` estiver definido, os valores monetários definidos para a [`products`](../page-vars/products.md) variável e os eventos monetários serão tratados como se fossem a mesma moeda do conjunto de relatórios. Consulte Configurações [](/help/admin/admin/general-acct-settings-admin.md) gerais de conta no guia do usuário Admin para ver a moeda do conjunto de relatórios.
+Se `currencyCode` não estiver definido, os valores monetários definidos para a variável [`products`](../page-vars/products.md) e os eventos monetários serão tratados como se fossem a mesma moeda do conjunto de relatórios. Consulte [Configurações gerais de conta](/help/admin/admin/general-acct-settings-admin.md) no guia do usuário Admin para ver a moeda do conjunto de relatórios.
 
 Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 
-Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia atual. A Adobe faz parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados nos servidores de coleta de dados são armazenados na moeda do conjunto de relatórios.
+Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados nos servidores de coleta de dados são armazenados na moeda do conjunto de relatórios.
 
-> [!IMPORTANT] Se `currencyCode` contiver um valor inválido, a ocorrência inteira será descartada, causando perda de dados. Certifique-se de que essa variável esteja definida corretamente se você usá-la em sua implementação.
+>[!IMPORTANT] Se `currencyCode` contiver um valor inválido, a ocorrência inteira será descartada, causando perda de dados. Certifique-se de que essa variável esteja definida corretamente se usá-la na implementação.
 
-Essa variável não persiste entre ocorrências. Certifique-se de que essa variável esteja definida em cada página que envolva eventos de receita ou moeda.
+Essa variável não é mantida entre ocorrências. Certifique-se de que essa variável esteja definida em cada página que envolva eventos de receita ou moeda.
 
-## Código monetário no lançamento da plataforma Adobe Experience
+## Código monetário no Adobe Experience Platform Launch
 
-O Código de moeda é um campo sob o [!UICONTROL General] acordeão ao configurar a extensão do Adobe Analytics.
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Amplie o [!UICONTROL General] acordeão, que revela o [!UICONTROL Currency Code] campo.
 
-Você pode usar um código de moeda predefinido ou um código de moeda personalizado. Se estiver usando um código de moeda personalizado, verifique se o código é válido.
+É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## s.currencyCode no AppMeasurement e Iniciar editor de código personalizado
+## s.currencyCode no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.currencyCode` variável é uma string, que contém um código de 3 letras maiúsculas representando a moeda na página.
+A variável `s.currencyCode` é uma cadeia de caracteres, que contém um código de 3 letras maiúsculas representando a moeda na página.
 
 ```js
 s.currencyCode = "USD";
@@ -57,7 +57,7 @@ Os seguintes códigos monetários são válidos:
 | `BAM` | Marco Conversível da Bósnia e Herzegovina |
 | `BBD` | Barbados - Dólares barbadianos |
 | `BDT` | Bangladesh - Taka |
-| `BGN` | Bulgária - Lev |
+| `BGN` | Bulgária - Leva |
 | `BHD` | Bahrein - Dinar do Bahrein |
 | `BIF` | Burundi - Francos |
 | `BMD` | Bermudas - Dólares das Bermudas |
@@ -123,7 +123,7 @@ Os seguintes códigos monetários são válidos:
 | `KMF` | Comoros - Francos |
 | `KPW` | Coreia do Norte - Won norte-coreano |
 | `KRW` | Coreia do Sul - Won sul-coreano |
-| `KWD` | Kuwait - Dinares kuaitianos |
+| `KWD` | Kuwait - Dinares kuwaitianos |
 | `KYD` | Ilhas Cayman - Dólares das Caimans |
 | `KZT` | Cazaquistão - Tenge |
 | `LAK` | Laos - Kips |
@@ -138,7 +138,7 @@ Os seguintes códigos monetários são válidos:
 | `MDL` | Moldávia - Leu |
 | `MGA` | Madagascar - Ariary |
 | `MKD` | Macedônia - Dinares |
-| `MMK` | Birmânia - Kiats |
+| `MMK` | Mianmar - Quiates |
 | `MNT` | Mongólia - Tugriks |
 | `MOP` | Macau - Patacas |
 | `MRO` | Mauritânia - Ouguiyas |
@@ -151,7 +151,7 @@ Os seguintes códigos monetários são válidos:
 | `MZM` | Moçambique - Meticais |
 | `NAD` | Namíbia - Dólares namibianos |
 | `NGN` | Nigéria - Nairas |
-| `NIO` | Córdobas de Ouro da Nicarágua |
+| `NIO` | Córdoba Ouro da Nicarágua |
 | `NOK` | Noruega - Coroa norueguesa |
 | `NPR` | Nepal - Rúpias nepalesas |
 | `NZD` | Nova Zelândia - Dólares da Nova Zelândia |
@@ -181,7 +181,7 @@ Os seguintes códigos monetários são válidos:
 | `SPL` | Seborga - Luigino |
 | `SRD` | Dólares do Suriname |
 | `SRG` | Suriname - Florins do Suriname |
-| `STD` | Dobras de São Tomé e Príncipe |
+| `STD` | Dobra são-tomense |
 | `SVC` | El Salvador - Colones salvadorenhos |
 | `SYP` | Libras Sírias |
 | `SZL` | Emalangeni da Suazilândia |
@@ -208,7 +208,7 @@ Os seguintes códigos monetários são válidos:
 | `XAG` | Onças de prata |
 | `XAU` | Onças de ouro |
 | `XCD` | Dólares do leste caribenho |
-| `XDR` | Desenho Especial do Fundo Monetário Internacional |
+| `XDR` | Saque Especial do Fundo Monetário Internacional |
 | `XOF` | Communauté Financière Africaine Francs B |
 | `XPD` | Onças de paládio |
 | `XPF` | Comptoirs Français du Pacifique Francs |
@@ -216,4 +216,4 @@ Os seguintes códigos monetários são válidos:
 | `YER` | Rial do Iêmen |
 | `ZAR` | Rand da África do Sul |
 | `ZMK` | Cuacha zambiana |
-| `ZWD` | Zimbábue - Dólar do Zimbábue |
+| `ZWD` | Dólar de Zimbábue |
