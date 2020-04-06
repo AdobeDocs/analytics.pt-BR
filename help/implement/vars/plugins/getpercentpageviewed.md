@@ -2,29 +2,29 @@
 title: getPercentPageViewed
 description: Recupere a porcentagem da página que o visitante visualizou.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in da Adobe: getPercentPageViewed
 
-> [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
+>[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Esse plug-in não é necessário se as páginas tiverem uma altura pequena ou não quiserem medir a atividade de rolagem.
+O plug-in `getPercentPageViewed` mede a atividade de rolagem de um visitante para ver quanto de uma página ele visualiza antes de passar para outra página. Esse plug-in não é necessário se as páginas tiverem uma altura pequena ou se você não quiser medir a atividade de rolagem.
 
-## Instale o plug-in usando o editor de código personalizado Iniciar
+## Instale o plug-in usando o editor de código personalizado do Launch
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
-1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
+1. Abra o editor de código personalizado e cole na janela de edição o código do plug-in fornecido abaixo.
 1. Salve e publique as alterações na extensão do Analytics.
 
-## Instale o plug-in usando o AppMeasurement
+## Instalar o plug-in usando o AppMeasurement
 
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
@@ -43,29 +43,29 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Usar o plug-in
 
-O `getPercentPageViewed` método usa os seguintes argumentos:
+O método `getPercentPageViewed` aceita os seguintes argumentos:
 
-* **`pid`** (opcional, string):  Um identificador baseado em página que você pode correlacionar com as porcentagens fornecidas pelas medidas do plug-in.  O padrão é a `pageName` variável.
-* **`ch`** (opcional, booleano):  Defina como `false` (ou `0`) se você não quiser que o plug-in considere quaisquer alterações feitas no tamanho de uma página após o carregamento inicial. Se omitido, esse argumento assumirá `true`como padrão. A Adobe recomenda omitir esse argumento na maioria dos casos.
+* **`pid`** (opcional, string): um identificador em páginas que você pode correlacionar com as porcentagens fornecidas pelas medições do plug-in.  O padrão é a variável `pageName`.
+* **`ch`** (opcional, booleano): defina como `false` (ou `0`) se você não quiser que o plug-in não ignore quaisquer alterações feitas no tamanho de uma página após o carregamento inicial. Se omitido, esse argumento assumirá `true` como padrão. A Adobe recomenda omitir esse argumento na maioria dos casos.
 
 Chamar esse método não retorna nada; em vez disso, ele define as seguintes variáveis:
 
-* `s._ppvPreviousPage`: O nome da página anterior exibida. As medidas de rolagem finais para a página atual não estão disponíveis até que uma nova página seja carregada.
-* `s._ppvHighestPercentViewed`: a porcentagem mais alta da página anterior que o visitante visualizou (em termos de altura). O ponto mais distante para o qual o visitante rolou para baixo na página anterior.
+* `s._ppvPreviousPage`: o nome da página exibida anteriormente. As medições finais de rolagem da página atual não estarão disponíveis até que uma nova página seja carregada.
+* `s._ppvHighestPercentViewed`: a porcentagem mais alta da página anterior que o visitante visualizou (em termos de altura). O ponto mais distante que o visitante chegou quando rolou para baixo na página anterior.
 * `s._ppvInitialPercentViewed`: a porcentagem da página anterior que estava visível quando a página anterior foi carregada pela primeira vez.
 * `s._ppvHighestPixelsSeen`: o maior número dos pixels totais vistos (em relação à altura) quando o visitante rolou pela página anterior.
-* `s._ppvFoldsSeen`: O maior número de &quot;dobras de página&quot; foi atingido quando o visitante rolou para baixo na página anterior. Essa variável inclui a dobra &quot;top-of-page&quot;.
-* `s._ppvFoldsAvailable`: O número total de &quot;dobras de página&quot; disponíveis para rolar para baixo na página anterior.
+* `s._ppvFoldsSeen`: o maior número de &quot;dobras de página&quot; totais vistas (em relação à altura) quando o visitante rolou pela página anterior. Essa variável inclui a dobra do &quot;início da página&quot;.
+* `s._ppvFoldsAvailable`: o número total de &quot;dobras de página&quot; disponíveis na rolagem para baixo da página anterior.
 
 Atribua uma ou mais dessas variáveis a eVars para ver dados de dimensão em relatórios.
 
-Este plug-in cria um cookie próprio chamado `s_ppv` que contém os valores acima. Ela expira no final da sessão do navegador.
+Este plug-in cria um cookie próprio chamado `s_ppv` que contém os valores acima. Ele expira no final da sessão do navegador.
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
-O seguinte código...
+O código a seguir...
 
 ```js
 if(s.pageName) s.getPercentPageViewed();
@@ -77,18 +77,18 @@ if(s._ppvPreviousPage)
 ```
 
 * Determina se s.pageName foi definido e, nesse caso, o código executará a função getPercentPageViewed
-* Quando a função getPercentPageViewed for executada, ela criará as variáveis descritas na seção &quot;Retornos&quot; acima
-* Se as variáveis &quot;Retorna&quot; tiverem sido definidas com êxito:
-   * O código definirá s.prop1 igual ao valor de s._ppvPreviousPage (ou seja, o valor anterior de s.pageName ou a página anterior)
-   * O código também definirá s.prop2 igual à porcentagem mais alta visualizada da página anterior e a porcentagem inicial visualizada da página anterior, juntamente com o número de dobradiças que o visitante alcançou e o número de dobradiças que estavam disponíveis
+* Quando a função getPercentPageViewed é executada, ela cria as variáveis descritas na seção &quot;Retornos&quot; acima
+* Se as variáveis em &quot;Retornos&quot; foram definidas com êxito:
+   * O código define s.prop1 com o valor de s._ppvPreviousPage (ou seja, o valor anterior de s.pageName ou da página anterior)
+   * O código também definirá s.prop2 como a mais alta porcentagem visualizada e a porcentagem inicial visualizada da página anterior, juntamente com o número de dobras que o visitante visualizou e o número de dobras que estavam disponíveis
 
-**Observação**:  Se uma página inteira estiver visível quando for carregada pela primeira vez, tanto a porcentagem mais alta visualizada quanto as dimensões da porcentagem inicial visualizada serão iguais a 100, e ambas as dimensões Folds Seen e Folds Available serão iguais a 1.   Quando uma página inteira NÃO estiver visível quando for carregada pela primeira vez, mas o visitante nunca terminar rolando para baixo antes de ir para a próxima página, então tanto a porcentagem mais alta visualizada quanto a porcentagem inicial visualizada serão iguais ao mesmo valor.
+**Observação**: se uma página inteira estiver visível quando carregada pela primeira vez, tanto a porcentagem mais alta visualizada quanto as dimensões da porcentagem inicial visualizada serão iguais a 100, e ambas as dimensões Dobras Visualizadas e Dobras Disponíveis serão iguais a 1.   Entretanto, se uma página inteira não estiver visível quando carregada pela primeira vez, mas o visitante acabar não rolando a página antes de ir para a próxima, então as dimensões Porcentagem mais alta visualizada e Porcentagem inicial visualizada terão o mesmo valor.
 
-### Exemplo nº 2
+### Exemplo #2
 
 Suponha que s.prop5 tenha sido reservado para capturar um &quot;tipo de página&quot; acumulado, em vez do nome da página inteira.
 
-O código a seguir determina se s.prop5 foi definido e, em caso afirmativo, armazenará seu valor como a &quot;página anterior&quot; para correlacionar com a porcentagem mais alta visualizada e a porcentagem inicial visualizada.  O valor ainda será armazenado na variável s._ppvPreviousPage, mas pode ser tratado como se fosse o tipo de página anterior em vez do nome de página anterior.
+O código a seguir determina se s.prop5 foi definido e, nesse caso, armazenará seu valor como a &quot;página anterior&quot; para correlacionar-se com as dimensões Porcentagem mais alta visualizada e Porcentagem inicial visualizada.  O valor ainda será armazenado na variável s._ppvPreviousPage, mas pode ser tratado como se fosse o tipo de página anterior, em vez do nome da página anterior.
 
 ```js
 if(s.prop5) s.getPercentPageViewed(s.prop5);
@@ -103,13 +103,13 @@ if(s._ppvPreviousPage)
 
 ### v4.0 (7 de outubro de 2019)
 
-* Adicionadas `s._ppvFoldsSeen` e `s._ppvFoldsAvailable` soluções
+* Adicionadas as soluções `s._ppvFoldsSeen` e `s._ppvFoldsAvailable`
 
 ### v3.01 (13 de agosto de 2018)
 
-* Corrigido um problema para páginas que têm vários objetos AppMeasurement em uma página
+* Corrigido um problema em páginas com vários objetos AppMeasurement
 
 ### v3.0 (13 de abril de 2018)
 
-* Lançamento de ponto (recompilado, tamanho de código menor)
+* Versão pontual (recompilada, menor tamanho de código)
 * O plug-in agora cria variáveis a serem atribuídas às variáveis do Adobe Analytics em vez de valores de retorno
