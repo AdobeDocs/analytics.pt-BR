@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: Ajude o Activity Map a identificar links exclusivos em seu site.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Normalmente, essa variável é definida no evento `onClick` de um link HTML.
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] Sempre inclua o ponto e vírgula que conclui uma instrução JavaScript. O ponto e vírgula é necessário para que o Activity Map funcione.
+>[!NOTE] Sempre inclua o ponto e vírgula que conclui uma instrução JavaScript. O ponto e vírgula é necessário para que o Activity Map funcione.
 
 ## Casos de uso
 
