@@ -3,8 +3,8 @@ description: Os filtros permitem restringir o relatório para incluir ou excluir
 title: Filtro de dados de relatório
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Os filtros permitem restringir o relatório para incluir ou excluir itens de lin
 
 ![](assets/filter.png)
 
-O filtro simples aparece na maioria dos relatórios para permitir que você encontre rapidamente itens de linha específicos. Filtros simples não usam qualquer caractere especial, portanto, `-, ", ', +` e outros caracteres especiais correspondem ao valor literal no relatório. Você pode encontrar itens de linha que contêm vários termos com um espaço.
+O filtro simples aparece na maioria dos relatórios para permitir que você encontre rapidamente itens de linha específicos. Filtros simples não usam qualquer caractere especial, portanto, `-, ", ', +` e outros caracteres especiais correspondem ao valor literal no relatório. Você pode encontrar itens de linha que contêm vários termos usando um espaço.
 
 Por exemplo:
 
@@ -37,28 +37,28 @@ help:Internal Search Term
 
 ## Filtros avançados {#section_E016626C084640E8A066B2FDA5B932BF}
 
-Os filtros avançados permitem que você controle o escopo da pesquisa com uma coleção de filtros. Você pode selecionar para corresponder todos os filtros, ou qualquer filtro.
+filtros avançados permitem controlar o escopo da pesquisa usando uma coleção de filtros. Você pode selecionar para corresponder a todos os filtros ou a qualquer filtros.
 
 ![](assets/advanced_filter.png)
 
 **Contém**
 
-Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso opera a mesma ação que o filtro simples.
+Corresponde se o termo é encontrado em qualquer lugar no item de linha. Isso opera da mesma forma que o filtro simples.
 
-> [!NOTE] Os espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
+>[!NOTE] Os espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
 
 **Não contém**
 
-Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://marketing.adobe.com/resources/help/pt_BR/reference/none-unspecified-unknown-other.html) de relatórios que usam &quot;não contém&quot;.
+Corresponde se o termo não for encontrado em qualquer lugar no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://marketing.adobe.com/resources/help/pt_BR/reference/none-unspecified-unknown-other.html) de relatórios que usam &quot;não contém&quot;.
 
 Não contém: `none`
 
-Para um filtro mais preciso, é possível usar um filtro Avançado (caracteres especiais):
+Para obter um filtro mais exato, você pode usar um filtro Avançado (Caracteres especiais):
 
 * Avançado (Caractere especial): `-^none$`
 * Avançado (Caractere especial): `-"keyword unavailable"`
 
-Por exemplo, o seguinte item de linha é filtrado pelo critério &quot;Não contém&quot;, mais não é filtrado pelo critério &quot;Avançado (caractere especial)&quot;:
+Por exemplo, o seguinte item de linha é filtrado pelo critério &quot;Não contém&quot;, mas não é filtrado pelo critério &quot;Avançado (Caractere Especial)&quot;:
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **Contém um de**
 
-Corresponde se qualquer termo, separado por espaços, são encontrados no item de linha. O seguinte filtro mostra todas as páginas que contêm &quot;masculino&quot; ou &quot;oferta&quot;:
+Corresponde se qualquer termo, separado por espaços, é encontrado no item de linha. O filtro a seguir mostra todas as páginas que contêm &quot;homens&quot; ou &quot;venda&quot;:
 
 Contém um de: `mens sale`
 
@@ -81,7 +81,7 @@ Sale & Values
 
 **Igual**
 
-Corresponde se o item de linha inteiro, incluindo espaços e outros caracteres, correspondem à frase especificada.
+Corresponde se o item de linha inteiro, incluindo espaços e outros caracteres, corresponde à frase especificada.
 
 Igual: `mens:desk & travel`
 
@@ -89,7 +89,7 @@ Igual: `mens:desk & travel`
 
 **Começa com**
 
-Corresponde se o item de linha, incluindo espaços e outros caracteres, inicia com a frase especificada
+Corresponde se o item de linha, incluindo espaços e outros caracteres, start com a frase especificada.
 
 Começa com: `mens`
 
@@ -121,7 +121,7 @@ Ocean Blue Jean
 
 ## Avançado (Caractere especial) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-Avançado permite que você execute um curinga e outras pesquisas complexas.
+Avançado permite que você execute curingas e outras pesquisas complexas.
 
 | Avançado (Caractere especial) | Descrição |
 |--- |--- |
@@ -142,16 +142,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Alguns relatórios contém um filtro específicos para eles. Por exemplo, um [!UICONTROL Relatório de funil de conversão de compra] permite filtrar por páginas da Web. Um [!UICONTROL Relatório de segmentação geográfica] permite filtrar por região geográfica. Relatórios adicionais têm outros filtros específicos para eles.
+Alguns relatórios contêm um filtro específico para esse relatório. Por exemplo, uma opção [!UICONTROL Purchase Conversion Funnel Report] permite filtrar por páginas da Web. Um [!UICONTROL Geosegmentation Report] permite filtrar por região geográfica. Relatórios adicionais têm outros filtros específicos para esses relatórios.
 
-Quando você acessa esses filtros, você pode visualizar as métricas de relatório para os itens especificados na lista.
+Ao acessar esses filtros, você pode ver as métricas de relatório dos itens especificados na lista.
 
-**Para criar filtros específicos de relatório**
+**Para criar filtros específicos de relatórios**
 
-1. Gere um relatório, como um [!UICONTROL Relatório de compras] (**[!UICONTROL Métricas do site]** > **[!UICONTROL Compras]** > **[!UICONTROL Funil de conversão de compra]**).
-1. No cabeçalho do relatório, clique no link **[!UICONTROL Filtro]**.
-1. Na página [!UICONTROL Seletor de filtro], clique em **[!UICONTROL Aplicar um filtro]** e, em seguida, selecione um tipo de filtro.
-1. Para procurar um item, digite uma sequência de caracteres no campo **[!UICONTROL Procurar]**.
+1. Gere um relatório, como um [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
+1. In the report header, click the **[!UICONTROL Filter]** link.
+1. Na [!UICONTROL Filter Selector] página, clique em **[!UICONTROL Apply a Filter]**, em seguida, selecione um tipo de filtro.
+1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
 1. Clique em **[!UICONTROL OK]**.
 
 ## Adicionar um filtro de correlação {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Relatórios específicos permitem adicionar filtros de correlação personalizados. Por exemplo, se você estiver visualizando um [!UICONTROL Relatório de página] de um conjunto de relatórios que tem Seções de site correlacionadas com uma página da seção para Mulheres, você pode criar uma regra de filtro que gera relatórios que exibem as páginas mais populares quando Seções de site = Mulheres.
+Determinados relatórios permitem adicionar filtros de correlação personalizados. Por exemplo, se você estiver visualizando o [!UICONTROL Pages Report] para um conjunto de relatórios que tenha Seções do site correlacionadas a uma página para Mulheres, poderá criar uma regra de filtro que gera um relatório que mostra as páginas mais populares quando Seções do site = Mulheres.
 
-Você pode filtrar os dados mostrados em um relatório de correlação usando quaisquer correlações disponíveis. O exemplo mostra como adicionar um filtro de pesquisa de correlação de mecanismo de pesquisa.
+Você pode filtrar os dados mostrados em um relatório de correlação usando qualquer correlação disponível. O exemplo mostra como você adiciona um filtro de correlação de mecanismo de pesquisa.
 
 **Para adicionar um filtro de correlação**
 
 1. Execute um relatório com suporte a correlações. (Consulte [Executar um relatório de detalhamento](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. No cabeçalho do relatório, clique em links **[!UICONTROL Filtro de correlação]**.
-1. Em [!UICONTROL Criador da regra do filtro], selecione uma categoria para correlacionar com um item.
-1. Clique em **[!UICONTROL OK]**.
+1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
+1. Em [!UICONTROL Filter Rule Creator], selecione uma categoria para correlacionar com um item.
+1. Clique em **[!UICONTROL OK.]**
