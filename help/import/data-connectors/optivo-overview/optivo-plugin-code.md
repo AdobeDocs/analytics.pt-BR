@@ -2,8 +2,8 @@
 description: Se você selecionou o método de coleta de dados do plug-in JavaScript, copie linhas de código a seguir e adicione-as ao código do Adobe Analytics em suas páginas.
 title: Código de plug-in do Adobe Analytics
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
+>[!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
 
