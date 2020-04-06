@@ -1,8 +1,8 @@
 ---
 title: transactionID
 description: Use essa variável para vincular dados online e offline.
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 A variável `transactionID` atribui uma identificação exclusiva a uma transação para que a ocorrência possa se vincular aos dados carregados por meio de Fontes de dados. Essa variável é importante quando você deseja usar dados de outros canais e quer vinculá-los aos dados coletados com o AppMeasurement.
 
-> [!NOTE] Antes de usar essa variável, verifique se o [!UICONTROL Armazenamento da ID de transação] em um conjunto de relatórios está ativado. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
+>[!NOTE] Certifique-se de que isso [!UICONTROL Transaction ID Storage] esteja ativado em um conjunto de relatórios antes de usar essa variável. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
 Quando você configura `transactionID` em uma ocorrência, a Adobe captura uma &quot;imagem&quot; de todas as variáveis do Analytics definidas ou mantidas até o momento. Os dados carregados por meio das Fontes de Dados com um ID de transação correspondente são permanentemente vinculados a esses valores de variáveis.
 
@@ -23,10 +23,10 @@ Você pode definir o ID de transação ao configurar a extensão do Analytics (v
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
-6. Localize a seção [!UICONTROL ID de transação].
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Em [!UICONTROL Actions], clique em uma [!UICONTROL Adobe Analytics - Set Variables] ação existente ou no ícone &#39;+&#39;.
+5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e [!UICONTROL Action Type] como [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Transaction ID] section.
 
 É possível definir o ID da transação como qualquer valor de string, incluindo elementos de dados.
 
@@ -44,4 +44,4 @@ Se você tiver mais de uma ID de transação para uma ocorrência, é possível 
 s.transactionID = "ABC123,XYZ456";
 ```
 
-> [!NOTE] Se você integrar vários canais offline usando essa variável, verifique se canais diferentes não sobrepõem as IDs de transação. Por exemplo, se você tiver um ID de transação da central de atendimento com o valor `1234` e um ID de transação de venda de cliente potencial com o valor `1234`, eles poderão entrar em conflito e causar resultados inesperados. Verifique se os IDs de transação contêm formatos exclusivos para cada canal offline e os diferencie, se necessário. Por exemplo, defina a ID de transação da central de atendimento como `call_1234` e a ID de transação de venda de cliente potencial como `lead_1234` nas Fontes de dados e no AppMeasurement.
+>[!NOTE] Se você integrar vários canais offline usando essa variável, verifique se canais diferentes não sobrepõem as IDs de transação. Por exemplo, se você tiver um ID de transação da central de atendimento com o valor `1234` e um ID de transação de venda de cliente potencial com o valor `1234`, eles poderão entrar em conflito e causar resultados inesperados. Verifique se os IDs de transação contêm formatos exclusivos para cada canal offline e os diferencie, se necessário. Por exemplo, defina a ID de transação da central de atendimento como `call_1234` e a ID de transação de venda de cliente potencial como `lead_1234` nas Fontes de dados e no AppMeasurement.
