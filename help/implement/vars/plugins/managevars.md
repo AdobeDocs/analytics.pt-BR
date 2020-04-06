@@ -2,45 +2,45 @@
 title: manageVars
 description: Altere os valores de mais de uma variável do Analytics de cada vez.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Plug-in da Adobe: manageVars
 
-> [!IMPORTANT] Este plug-in é fornecido pela Adobe Consulting como cortesia para ajudá-lo a obter mais valor do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, incluindo instalação ou solução de problemas. Se precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Eles podem organizar uma reunião com um consultor para obter assistência.
+>[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O `manageVars` plug-in permite manipular os valores de várias variáveis do Analytics de uma só vez. Você também pode definir valores para caracteres em minúsculas ou remover caracteres desnecessários de vários valores variáveis ao mesmo tempo. A Adobe recomenda usar esse plug-in se desejar limpar o valor de várias variáveis de uma só vez.
+O plug-in `manageVars` permite manipular os valores de várias variáveis do Analytics de uma só vez. Você também pode definir valores como minúsculas ou remover caracteres desnecessários de múltiplos valores variáveis ao mesmo tempo. A Adobe recomenda usar esse plug-in se você desejar limpar o valor de múltiplas variáveis de uma só vez.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
-A Adobe oferece uma extensão que permite usar plug-ins usados com mais frequência.
+A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Catalog] botão
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Instalar e publicar a [!UICONTROL Common Analytics Plugins] extensão
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhum
-   * Evento: Principal - Biblioteca carregada (início da página)
-1. Adicione uma ação à regra acima com a seguinte configuração:
+   * Condição: Nenhuma
+   * Evento: principal – biblioteca carregada (início da página)
+1. Adicione à regra acima uma ação com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Inicializar manageVars
+   * Tipo de ação: inicializar manageVars
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado Iniciar
+## Instale o plug-in usando o editor de código personalizado do Launch
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão na extensão do Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Amplie o [!UICONTROL Configure tracking using custom code] acordeão, que revela o [!UICONTROL Open Editor] botão.
-1. Abra o editor de código personalizado e cole o código do plug-in fornecido abaixo na janela de edição.
+1. Abra o editor de código personalizado e cole na janela de edição o código do plug-in fornecido abaixo.
 1. Salve e publique as alterações na extensão do Analytics.
 
-## Instale o plug-in usando o AppMeasurement
+## Instalar o plug-in usando o AppMeasurement
 
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
@@ -65,10 +65,10 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 ## Usar o plug-in
 
-O `manageVars` método usa os seguintes argumentos:
+O método `manageVars` aceita os seguintes argumentos:
 
-* **`cb`** (obrigatório, string): O nome de uma função de retorno de chamada que o plug-in usa para manipular as variáveis do Analytics. Você pode usar uma função da Adobe como `cleanStr` ou sua própria função personalizada.
-* **`l`** (opcional, string): Uma lista delimitada por vírgulas de variáveis do Analytics que você deseja manipular. O padrão é TODAS as variáveis do Adobe Analytics quando não definidas, o que inclui:
+* **`cb`** (obrigatório, string): o nome de uma função de retorno de chamada que o plug-in usa para manipular as variáveis do Analytics. Você pode usar uma função da Adobe como `cleanStr` ou sua própria função personalizada.
+* **`l`** (opcional, string): uma lista delimitada por vírgulas de variáveis do Analytics que você deseja manipular. O padrão é ter TODAS as variáveis do Adobe Analytics quando não definidas, o que inclui:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -85,76 +85,76 @@ O `manageVars` método usa os seguintes argumentos:
    * Todas as variáveis de hierarquia
    * Todas as variáveis de lista
    * Todas as variáveis de dados de contexto
-* **`Il`** (opcional, booleano): Defina como `false` se você deseja *excluir* a lista de variáveis declaradas no `l` argumento em vez de incluí-las. O padrão é `true`.
+* **`Il`** (opcional, booleano): defina como `false` se você deseja *excluir* a lista de variáveis declaradas no argumento `l` em vez de incluí-las. O padrão é `true`.
 
 Chamar esse método não retorna nada. Em vez disso, altera os valores das variáveis do Analytics com base na função de retorno de chamada desejada.
 
 ## Exemplos de chamadas
 
-### Exemplo nº 1
+### Exemplo #1
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.manageVars("lowerCaseVars");
 ```
 
-...altera os valores de todas as variáveis descritas acima para versões em minúsculas.  A única exceção para isso é a variável events, como alguns dos eventos (por exemplo, scAdd, scCheckout etc.) fazem distinção entre maiúsculas e minúsculas e não devem ser minúsculas
+... altera os valores de todas as variáveis descritas acima para versões em minúsculas.  A única exceção a isso é a variável de eventos, pois alguns dos eventos (por exemplo, scAdd, scCheckout etc.) fazem distinção entre maiúsculas e minúsculas e não devem ser convertidos para minúsculas
 
-### Exemplo nº 2
+### Exemplo #2
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.manageVars("lowerCaseVars", "events", false);
 ```
 
-...produz essencialmente o mesmo resultado que o primeiro exemplo, já que a variável events não tem minúsculas por padrão.
+... produz essencialmente o mesmo resultado que o primeiro exemplo, já que a variável de eventos não foi convertida em minúsculas por padrão.
 
-### Exemplo 3
+### Exemplo #3
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
-...alterará (por exemplo, minúsculas) somente os valores de eVar1, eVar2, eVar3 e list2
+... alterará (por exemplo, minúsculas) somente os valores de eVar1, eVar2, eVar3 e list2.
 
-### Exemplo nº 4
+### Exemplo #4
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...alterará (por exemplo, minúsculas) os valores de todas as variáveis descritas acima, EXCETO para eVar1, eVar2, eVar3 e list2
+... alterará (por exemplo, minúsculas) os valores de todas as variáveis descritas acima, EXCETO da eVar1, eVar2, eVar3 e list2.
 
-### Exemplo nº 5
+### Exemplo #5
 
-O seguinte código...
+O código a seguir...
 
 ```js
 s.manageVars("cleanStr");
 ```
 
-...altera os valores de todas as variáveis descritas acima, incluindo as variáveis de eventos.  Especificamente, a função de retorno de chamada cleanStr faz o seguinte para o valor de cada variável:
+... altera os valores de todas as variáveis descritas acima, incluindo as variáveis de eventos.  Especificamente, a função de retorno de chamada cleanStr faz o seguinte com o valor de cada variável:
 
 * Remove a codificação HTML
-* Remove os espaços em branco encontrados no início e no fim do valor
-* Substitui aspas simples esquerda/direita (por exemplo, &quot;) com uma aspa simples reta (&#39;)
-* Substitui caracteres de tabulação, caracteres de nova linha e caracteres de retorno de carro por espaços
-* Substitui todo o duplo (ou triplo, etc.) espaços com espaços únicos
+* Remove espaços em branco encontrados no início e no fim do valor
+* Substitui aspas simples esquerda/direita (por exemplo, &quot;) por uma aspa simples reta (&#39;)
+* Substitui caracteres de tabulação e caracteres de nova linha por espaços
+* Substitui todos os espaços duplos (ou triplos etc.) por espaços únicos
 
 ## Histórico da versão
 
 ### 2.1 (14 de janeiro de 2019)
 
 * Correção de erros para navegadores Internet Explorer 11.
-* Alterações para `s.cleanStr`, que agora usa a `cleanStr` função regular.
+* Alterações na `s.cleanStr`, que agora usa a função regular `cleanStr`.
 
 ### 2.0 (7 de maio de 2018)
 
-* Lançamento pontual (incluindo reanálise/regravação completa do plug-in)
-* Função `cleanStr` de retorno de chamada adicionada
+* Lançamento pontual (incluindo reanálise/reescrita completa do plug-in)
+* Função de retorno de chamada `cleanStr` adicionada
