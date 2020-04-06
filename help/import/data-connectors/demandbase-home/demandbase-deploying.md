@@ -2,8 +2,8 @@
 description: A implantação dessa integração é um processo simples que requer as seguintes ações.
 title: Implantar a integração
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,15 +65,15 @@ Para ativar a integração, você deve concluir o assistente de configuração n
    1. **Não** modifique os nomes das dimensões padrão 8 (ou seja, SID Demandbase, Nome da empresa, Setor etc.).
 
 1. Marque a caixa para que o painel Integração Demandbase seja criado automaticamente para você (recomendado).
-1. Revise todos os itens de configuração e clique em **[!UICONTROL Ativar agora]**.
+1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Implantação do código de integração {#deploying-the-integration-code}
 
 Após concluir o assistente de integração, você deverá implantar o código de integração no código de implantação do Adobe Analytics (s_code).
 
-> [!NOTE] Se você usou o Adobe TagManager ou o Dynamic Tag Management para implantar o Adobe Analytics, é possível adicionar facilmente o código de integração usando uma dessas ferramentas.
+>[!NOTE] Se você usou o Adobe TagManager ou o Dynamic Tag Management para implantar o Adobe Analytics, é possível adicionar facilmente o código de integração usando uma dessas ferramentas.
 
-1. Acesse a guia **[!UICONTROL Suporte]** e baixe e salve o recurso `integration code v2_0_1` da área Recursos da integração.
+1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
 1. Se aplicável, faça as modificações necessárias no código. Para obter mais informações, consulte Modificação do código de integração (nesta página).
 1. Inclua o Módulo de integração se ele ainda não estiver presente no código de implantação do Adobe Analytics.
@@ -155,7 +155,7 @@ Se ainda não tiver o Módulo de integração como parte da implantação, compl
 
 ### No AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Descompacte o arquivo zip do AppMeasurement baixado em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. Abra o arquivo chamado [!DNL AppMeasurement_Module_Integrate.js].
 1. Copie e cole o conteúdo desse arquivo no arquivo [!DNL AppMeasurement.js] principal.
@@ -199,7 +199,7 @@ Consulte os relatórios do Demandbase no Adobe Analytics usando o Painel que foi
 
 Como alternativa, navegue até o relatório do Demandbase na estrutura de menu do Adobe Analytics - consulte as capturas de tela abaixo.
 
-> [!NOTE] Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
+>[!NOTE] Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
 
 ![](assets/reporting1.png)
 
