@@ -1,17 +1,17 @@
 ---
 title: Adobe Experience Cloud Debugger herdado
 description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade, DTM e Launch.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe Experience Cloud Debugger herdado
 
-> [!IMPORTANT] Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
+>[!IMPORTANT] Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
 
-O [!UICONTROL Depurador herdado] inspeciona as tags da maioria dos serviços da Adobe Experience Cloud. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
+The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
 
 ## Instalação do Debugger herdado
 
@@ -68,7 +68,7 @@ O Safari não tem a capacidade de criar manualmente um bookmarklet, mas um URL d
 
 Navegue até a página desejada no site e clique no bookmarklet. Uma janela pop-up é exibida mostrando os dados enviados para a Adobe.
 
-> [!NOTE] Determinados plug-ins de bloqueio de anúncios e de pop-ups podem interferir no carregamento da janela do depurador. Verifique se há pop-ups bloqueados no seu navegador e os ative para que o depurador funcione corretamente.
+>[!NOTE] Determinados plug-ins de bloqueio de anúncios e de pop-ups podem interferir no carregamento da janela do depurador. Verifique se há pop-ups bloqueados no seu navegador e os ative para que o depurador funcione corretamente.
 
 O depurador tem várias opções disponíveis, todas personalizam como os dados são exibidos. Nenhuma dessas opções afeta a coleta de dados.
 
