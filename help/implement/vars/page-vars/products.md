@@ -1,57 +1,57 @@
 ---
 title: products
-description: Envie dados sobre quais produtos são exibidos ou no carrinho.
+description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # products
 
-A `products` variável rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, páginas de carrinho de compras e páginas de confirmação de compra. É uma variável de vários valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor em valores de dimensão separados.
+A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de muitos valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor e o divide em valores de dimensão separados.
 
-> [!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na [`events`](events/events-overview.md) variável, a métrica &quot;Exibições do produto&quot; será incrementada em 1. Certifique-se de definir o evento de carrinho de compras apropriado em cada ocorrência.
+>[!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na variável [`events`](events/events-overview.md), a métrica &quot;Exibições do produto&quot; será incrementada em 1. Certifique-se de definir o evento de carrinho de compras adequado em cada ocorrência.
 
 ## Produtos no Adobe Experience Platform Launch
 
-Não há um campo dedicado no Launch para definir essa variável; no entanto, existem várias extensões de terceiros para ajudar.
+Não há um campo dedicado no Launch para definir essa variável; no entanto, várias extensões de terceiros podem ajudar.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique em [!UICONTROL Catalog] para ver todas as extensões disponíveis.
-4. Procure o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
+3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
+4. Pesquise usando o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
 
-Você pode usar uma dessas extensões ou pode usar o editor de código personalizado após a sintaxe do AppMeasurement abaixo.
+Você pode usar uma dessas extensões ou usar o editor de código personalizado abaixo, que está após a sintaxe do AppMeasurement.
 
 ## s.products no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.products` variável é uma string que contém vários campos delimitados por produto. Cada produto individual pode conter até 100 bytes em todos os campos. Delimite cada campo com um ponto-e-vírgula (`;`) na string.
+A variável `s.products` é uma string que contém vários campos delimitados por produto. Cada produto individual pode conter até 100 bytes em todos os campos. Delimite cada campo com um ponto e vírgula (`;`) na string.
 
-* **Categoria** (opcional): A categoria de produto abrangente. Sua organização decide como agrupar produtos em categorias.
-* **Nome** do produto (obrigatório): O nome do produto.
-* **Quantidade** (opcional): Quantos deste produto estão no carrinho. Esse campo se aplica somente às ocorrências com o evento purchase.
-* **Preço** (opcional): O preço total do produto como uma casa decimal. Se a quantidade for superior a um, defina o preço no total e não o preço individual do produto. Alinhe a moeda desse valor para corresponder à [`currencyCode`](../config-vars/currencycode.md) variável. Não inclua o símbolo de moeda neste campo. Esse campo se aplica somente às ocorrências com o evento purchase.
-* **Eventos** (opcional): Eventos vinculados ao produto. Delimitar vários eventos com um pipe (`|`). Consulte [eventos](events/events-overview.md) para obter mais informações.
-* **eVars** (opcional): eVars de comercialização ligadas ao produto. Delimitar várias eVars de comercialização com um pipe (`|`). Consulte eVars [de comercialização](../../../components/c-variables/c-merch-variables/var-merchandising.md) para obter mais informações.
+* **Categoria** (opcional): a categoria de produto que abrange as outras. Sua organização decide como agrupar produtos em categorias.
+* **Nome do produto** (obrigatório): o nome do produto.
+* **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente às ocorrências com o evento de compra.
+* **Preço** (opcional): o preço total do produto em formato decimal. Se a quantidade for superior a um, defina o preço total e não o preço individual do produto. Ajuste a moeda desse valor para corresponder ao da variável [`currencyCode`](../config-vars/currencycode.md). Não inclua o símbolo da moeda nesse campo. Esse campo se aplica somente às ocorrências com o evento de compra.
+* **Eventos** (opcional): eventos vinculados ao produto. Delimite vários eventos usando uma barra vertical (`|`). Consulte [Eventos](events/events-overview.md) para obter mais informações.
+* **eVars** (opcional): eVars de merchandising ligadas ao produto. Delimite várias eVars de merchandising usando uma barra vertical (`|`). Consulte [eVar de merchandising](../../../components/c-variables/c-merch-variables/var-merchandising.md) para obter mais informações.
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Essa variável suporta vários produtos na mesma ocorrência. Ele é valioso para carrinhos de compras e compras que contêm vários produtos. Embora haja um limite de 100 bytes por produto, o comprimento total da `products` variável é 64 K. Separe cada produto com uma vírgula (`,`) na string.
+Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. Embora haja um limite de 100 bytes por produto, o tamanho total da variável `products` é de 64 K. Separe cada produto usando uma vírgula (`,`) na string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações dos nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
+>[!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações de nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
 
 ## Exemplos
 
-A `products` variável é flexível ao omitir campos e incluir vários produtos. Essa flexibilidade pode facilitar a perda de um delimitador, o que faz com que sua implementação envie dados incorretos para a Adobe.
+A variável `products` é flexível ao omitir campos e incluir vários produtos. Essa flexibilidade pode facilitar a perda de um delimitador, o que faz com que sua implementação envie dados incorretos para a Adobe.
 
 ```js
 // Include only product and category. Common on individual product pages
