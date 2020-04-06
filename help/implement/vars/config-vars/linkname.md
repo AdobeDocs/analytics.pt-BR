@@ -1,34 +1,34 @@
 ---
 title: linkName
-description: Defina o nome da ocorrência do link personalizado.
+description: Defina o nome de ocorrência do link personalizado.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-Use a `linkName` variável para determinar o valor da dimensão de links personalizados, links de download ou links de saída ao executar o próximo [`tl()`](../functions/tl-method.md) método.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-Se essa variável estiver em branco, o AppMeasurement reverterá para a [`linkURL`](linkurl.md) variável.
+Se essa variável estiver em branco, o AppMeasurement reverterá para a variável [`linkURL`](linkurl.md).
 
 ## Nome do link no Adobe Experience Platform Launch
 
-Você pode definir o campo de nome do link ao configurar uma regra para enviar um beacon.
+Você pode definir o campo Nome do link ao configurar uma regra para enviar um beacon.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Rules] guia e clique na regra desejada (ou crie uma regra).
-4. Em [!UICONTROL Actions], clique no ícone &#39;+&#39;
-5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e a opção [!UICONTROL Action Type] Enviar beacon.
-6. Clique no botão de `s.tl()` opção que revela o [!UICONTROL Link Name] campo.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## s.linkName no AppMeasurement e Iniciar editor de código personalizado
+## s.linkName no AppMeasurement e no editor de código personalizado do Launch
 
-A `s.linkName` variável é uma string que determina o valor da dimensão para links personalizados, links de download ou links de saída (dependendo do que [`s.linkType`](linktype.md) está). Pode conter até 100 bytes.
+A variável `s.linkName` é uma cadeia de caracteres que determina o valor da dimensão de links personalizados, links de download ou links de saída (dependendo do que é o [`s.linkType`](linktype.md)). Pode conter até 100 bytes.
 
-> [!TIP] Essa variável é o terceiro parâmetro do `tl()` método e geralmente não precisa ser definida como uma variável independente. No entanto, você pode usar a `linkName` variável se não quiser definir valores como argumentos no `tl()` método.
+>[!TIP] Essa variável é o terceiro parâmetro do `tl()` método e geralmente não precisa ser definida como uma variável independente. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
@@ -36,7 +36,7 @@ s.linkName = "Example custom link";
 
 ## Exemplo
 
-As duas chamadas de rastreamento de link de exemplo a seguir são funcionalmente idênticas. São métodos diferentes para realizar a mesma ocorrência de rastreamento de link.
+As duas chamadas de rastreamento de link de exemplo a seguir são funcionalmente idênticas. São métodos diferentes para disparar a mesma ocorrência de rastreamento de link.
 
 ```js
 // Set link tracking arguments as individual variables
