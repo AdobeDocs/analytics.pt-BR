@@ -1,8 +1,8 @@
 ---
 title: Implementação com AJAX
 description: Saiba como implementar o Adobe Analytics em um site usando o AJAX.
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,13 +24,13 @@ Como as páginas que usam AJAX geralmente não são recarregadas, há várias in
 * Se a resposta for **sim**, considere usar uma chamada de rastreamento de exibição de página (`s.t()`).
 * Se a resposta for **não**, considere rastrear essa interação usando uma chamada de rastreamento de link (`s.tl()`).
 
-> [!NOTE] Nem todas as interações ou cliques precisam ser registrados. Considere cuidadosamente quais ações são mais importantes a serem rastreadas e envie dados para a Adobe.
+>[!NOTE] Nem todas as interações ou cliques precisam ser registrados. Considere cuidadosamente quais ações são mais importantes a serem rastreadas e envie dados para a Adobe.
 
 ## Limpar variáveis em cada página
 
 Os valores da variável persistem nas páginas que usam AJAX, pois a página não é recarregada. Portanto, é necessário acomodar especificamente os valores de variável para que eles não persistam incorretamente nas ocorrências. A Adobe oferece a função [`clearVars`](../vars/functions/clearvars.md) para eliminar facilmente os valores de variáveis. Certifique-se de usar essa função depois de enviar cada ocorrência para a Adobe e antes de definir valores de variável para a próxima ocorrência.
 
-> [!TIP] A função `clearVars()` não está disponível no Código H. Se não tiver atualizado para o AppMeasurement, defina cada valor de variável do Analytics como uma cadeia de caracteres vazia.
+>[!TIP] A função `clearVars()` não está disponível no Código H. Se não tiver atualizado para o AppMeasurement, defina cada valor de variável do Analytics como uma cadeia de caracteres vazia.
 
 ## Exemplos
 
