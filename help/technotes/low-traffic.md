@@ -3,8 +3,8 @@ description: Quando um relatório possuir um grande número de valores únicos, 
 title: Valor de tráfego baixo no Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ Quando um relatório possuir um grande número de valores únicos, a Adobe forne
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
    * Se um valor ainda não estiver no relatório, verifique se esse valor foi visto mais de aproximadamente 100 vezes hoje. Se tiver sido, adicione o valor ao relatório. Se não, deixe-o em Tráfego baixo.
 
-> [!NOTE] Se um valor de variável receber tráfego suficiente para deixar a categoria de tráfego baixo, os primeiros valores coletados não serão movidos para o respectivo item de linha. As primeiras 10-100 instâncias ficam em Tráfego baixo.
+>[!NOTE] Se um valor de variável receber tráfego suficiente para deixar a categoria de tráfego baixo, os primeiros valores coletados não serão movidos para o respectivo item de linha. As primeiras 10-100 instâncias ficam em Tráfego baixo.
 
 ## Alterar limites exclusivos
 
