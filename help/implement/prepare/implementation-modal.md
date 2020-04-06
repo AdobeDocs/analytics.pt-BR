@@ -1,8 +1,8 @@
 ---
 title: Modal de implementação
 description: Saiba mais sobre a experiência dos novos clientes ao executarem a implementação do Adobe Analytics.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ Acesse o modal para criar um conjunto de relatórios usando as etapas a seguir.
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 2. Clique no ícone de 9-grid na parte superior e em [!UICONTROL Adobe Analytics].
-3. Se ainda não tiver criado um conjunto de relatórios, o modal será exibido automaticamente. Se existir um conjunto de relatórios para essa empresa de logon, clique no ícone Ajuda na parte superior direita e em [!UICONTROL Bem-vindo ao Adobe Analytics].
+3. Se ainda não tiver criado um conjunto de relatórios, o modal será exibido automaticamente. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] A opção [!UICONTROL Bem-vindo ao Adobe Analytics] só será exibida se você fizer logon por meio da Adobe Experience Cloud. Se fizer logon por meio de domínios herdados, o modal não estará disponível.
+>[!NOTE] A [!UICONTROL Welcome to Adobe Analytics] opção só será exibida se você fizer logon por meio da Adobe Experience Cloud. Se fizer logon por meio de domínios herdados, o modal não estará disponível.
 
 ## Criar um novo conjunto de relatórios
 
-Clique no botão [!UICONTROL Iniciar configuração] para iniciar o fluxo de trabalho de criação do conjunto de relatórios.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![Assistente RS](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Estime quanto tráfego o site ou aplicativo recebe por dia. Essas informações 
 
 Determine em qual moeda o conjunto de relatórios armazena valores monetários.
 
-> [!IMPORTANT] Certifique-se de indicar a moeda correta, especialmente se você tiver requisitos de relatório sobre a receita. É difícil alterar a moeda padrão após o início da coleta de dados.
+>[!IMPORTANT] Certifique-se de indicar a moeda correta, especialmente se você tiver requisitos de relatório sobre a receita. É difícil alterar a moeda padrão após o início da coleta de dados.
 
 ## Recursos de implementação
 
