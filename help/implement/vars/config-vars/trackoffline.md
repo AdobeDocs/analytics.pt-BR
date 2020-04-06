@@ -1,8 +1,8 @@
 ---
 title: trackOffline
 description: Ative ou desative o rastreamento offline, o que altera a forma como o AppMeasurement coleta dados.
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ O rastreamento offline é uma maneira opcional de coletar dados no Adobe Analyti
 
 A variável `trackOffline` determina se você deseja usar o rastreamento offline na implementação.
 
-> [!IMPORTANT] Você deve configurar seu conjunto de relatórios para aceitar ocorrências com carimbo de data e hora antes de habilitar essa variável. Se um conjunto de relatórios não aceitar ocorrências com carimbo de data e hora e essa variável estiver ativada, esses dados serão perdidos e não poderão ser recuperados.
+>[!IMPORTANT] Você deve configurar seu conjunto de relatórios para aceitar ocorrências com carimbo de data e hora antes de habilitar essa variável. Se um conjunto de relatórios não aceitar ocorrências com carimbo de data e hora e essa variável estiver ativada, esses dados serão perdidos e não poderão ser recuperados.
 
 Quando ativado, o AppMeasurement usa o seguinte processo para enviar dados para a Adobe:
 
