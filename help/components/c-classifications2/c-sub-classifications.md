@@ -5,7 +5,7 @@ title: Sobre as subclassificações
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 O Adobe Analytics oferece suporte a modelos de classificações de nível único e múltiplo. Uma hierarquia de classificação permite aplicar uma classificação a uma classificação.
 
-> [!NOTE] Subclassificação é a capacidade de criar classificações das classificações. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Para obter mais informações sobre hierarquias de Classificação, consulte [Hierarquias de classificação](classification-hierarchies.md).
+>[!NOTE] Subclassificação é a capacidade de criar classificações das classificações. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Para obter mais informações sobre hierarquias de Classificação, consulte [Hierarquias de classificação](classification-hierarchies.md).
 
 Por exemplo:
 
@@ -52,9 +52,9 @@ Por exemplo:
 
 Embora o modelo de arquivo para uma classificação de vários níveis seja mais complexo, o poder das classificações de vários níveis é que níveis separados podem ser carregados como arquivos separados. Essa abordagem pode ser usada para minimizar a quantidade de dados que precisa ser carregada periodicamente (diariamente, semanalmente e assim por diante) ao agrupar dados em níveis de classificação que mudam ao longo do tempo em vez daqueles que não mudam.
 
-> [!NOTE] Se a [!UICONTROL Key] coluna em um arquivo de dados estiver em branco, a Adobe gera automaticamente chaves exclusivas para cada linha de dados. Para evitar possíveis danos no arquivo ao carregar um arquivo de dados com dados de classificação de segundo nível ou superior, preencha cada linha da [!UICONTROL Key] coluna com um asterisco (*).
+>[!NOTE] Se a [!UICONTROL Key] coluna em um arquivo de dados estiver em branco, a Adobe gera automaticamente chaves exclusivas para cada linha de dados. Para evitar possíveis danos no arquivo ao carregar um arquivo de dados com dados de classificação de segundo nível ou superior, preencha cada linha da [!UICONTROL Key] coluna com um asterisco (*).
 
-Consulte [Problemas comuns no upload de classificação](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) para obter ajuda com a resolução de problemas.
+Consulte [Problemas comuns no upload de classificação](https://marketing.adobe.com/resources/help/pt_BR/home/index.html#kb-common-saint-upload-issues) para obter ajuda com a resolução de problemas.
 
 ## Exemplos
 
