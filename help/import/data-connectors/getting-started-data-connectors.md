@@ -80,7 +80,7 @@ Para implementar segmentos de recomercialização com êxito, as seguintes condi
 >[!NOTE] Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
 Caso as exigências acima não sejam atendidas, os segmentos de remarketing correspondentes não serão apresentados corretamente.
 
-[!UICONTROL Cart Abandonment]: é acionado depois que o usuário adiciona um produto ao carrinho de compras:
+[!UICONTROL Cart Abandonment]: lançado depois que o usuário adiciona um produto ao carrinho de compras:
 
 ```
 s.products=";cat";
