@@ -5,12 +5,20 @@ title: Novidades no Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Novidades no Analysis Workspace
+
+## Abril de 2020
+
+Novo recurso lançado em 16 de abril de 2020.
+
+| Recurso | Descrição |
+|--- |--- |
+| Criar automaticamente a [!UICONTROL Freeform Tables] partir de um estado em branco | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco. primeiro você tinha que adicionar uma tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma tabela de forma livre será criada automaticamente para você em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como os tipos de componentes mistos (por exemplo, dimensões e métricas) são tratados quando colocados em branco [!UICONTROL Freeform Table] juntos. |
 
 ## Março de 2020
 
