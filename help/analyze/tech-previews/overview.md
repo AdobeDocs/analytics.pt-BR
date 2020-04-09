@@ -1,8 +1,8 @@
 ---
 title: Guia do usuário do Labs
 description: Visualizar projetos de protótipo do Adobe Analytics
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Para iniciar e avaliar um protótipo:
 
 1. Para experimentar um protótipo diferente ou sair do ambiente do protótipo, clique no botão **Sair do protótipo**, no canto superior direito da tela, e conclua a breve pesquisa do protótipo. As mudanças feitas em um projeto de protótipo são perdidas ao sair do ambiente do protótipo.
 
-   ![nova caixa de comentários](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![nova caixa de comentários](assets/short-survey.png)
 
 1. Clique em **Enviar** para retornar ao portal Visualizações principal.
 
