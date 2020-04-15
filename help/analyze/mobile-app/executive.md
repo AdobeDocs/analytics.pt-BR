@@ -1,21 +1,21 @@
 ---
-description: Instruções para configuração de scorecards para aplicativos móveis.
-title: Guia do curador de aplicativo móvel do Adobe Analytics
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: Instruções para usar os scorecards de painéis.
+title: Guia executivo de painéis do Adobe Analytics
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Aplicativo móvel do Analytics: guia de início rápido do usuário executivo
+# painéis do Adobe Analytics: guia de start rápido do usuário executivo
 
 ## Introdução
 
-O aplicativo móvel do Adobe Analytics fornece informações a qualquer hora e em qualquer lugar no Adobe Analytics.  O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics.  O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Painéis são suportados em sistemas operacionais iOS e Android.
 
 ## Sobre este guia
 
-Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards no aplicativo móvel do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards em painéis do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
 ## Glossário de termos
 
@@ -24,30 +24,30 @@ Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scor
 | Consumidor | Usuário executivo que visualiza as métricas principais e informações do Analytics em um dispositivo móvel |
 | Curador | Usuário com conhecimento de dados que encontra e distribui informações do Analytics e configura os Scorecards para serem visualizados pelo consumidor |
 | Preparação | O ato de criar ou editar um scorecard para dispositivos móveis com métricas, dimensões e outros componentes relevantes para o consumidor |
-| Scorecard | Uma Exibição de aplicativos móveis que contém um ou mais blocos |
+| Scorecard | Uma visualização de painéis contendo um ou mais blocos |
 | Bloco | Uma renderização para uma métrica em uma Exibição de scorecard |
 | Detalhamento | Uma exibição secundária acessível ao tocar em um bloco no Scorecard. Essa exibição é expandida na métrica mostrada no bloco e, opcionalmente, relata as dimensões adicionais de detalhamento. |
-| Intervalo de datas | O intervalo de datas principal dos relatórios de aplicativos móveis |
+| Intervalo de datas | O intervalo de datas principal do relatórios de painéis |
 | Intervalo de datas de comparação | O Intervalo de datas comparado ao intervalo de datas principal |
 
-## Configure o aplicativo no seu dispositivo
+## Obter painéis configurados em seu dispositivo
 
-Para usar o aplicativo de maneira eficaz, você precisará do curador do Scorecard para ajudar a configurar. Esta seção fornece informações para ajudar a configurar com a assistência do curador.
+Para usar os painéis com eficiência, será necessário ter o curador do Scorecard para ajudá-lo a configurá-lo. Esta seção fornece informações para ajudar a configurar com a assistência do curador.
 
 ### Obter acesso
 
-Para acessar os Scorecards no aplicativo, verifique se:
+Para acessar Scorecards em painéis, verifique se:
 
 * Você possui um logon válido no Adobe Analytics
 * O curador criou corretamente os Scorecards para dispositivos móveis e os compartilhou com você
 
-### Baixe e instale o aplicativo
+### painéis de download e instalação
 
 Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema operacional do dispositivo.
 
 **Para dispositivos iOS:**
 
-1. Clique no link público a seguir (ele também está disponível no Analytics em **Ferramentas** > **Aplicativo móvel**):
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [Link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema oper
 
 2. Toque no link **Exibir na loja de aplicativos** na tela para baixar o aplicativo Testflight.
 
-3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
+3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics de dentro do Testflight, como mostrado abaixo:
 
    ![Tela Testflight](assets/testflight2.png)
 
 **Para dispositivos Android:**
 
-1. Toque no seguinte link da Play Store no dispositivo do usuário (também está disponível no Analytics em **Ferramentas** > **Aplicativo móvel**):
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema oper
 
    ![Link de download](assets/playnext.png)
 
-## Usar o aplicativo
+## Usar painéis
 
-Para usar o aplicativo:
+Para usar painéis:
 
-1. Faça logon no aplicativo. A tela de logon será exibida ao iniciar o aplicativo. Siga as instruções usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
+1. Faça logon no aplicativo. A tela de logon será exibida ao iniciar os painéis. Siga as instruções usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
 
    ![Sequência de logon](assets/signseq.png)
 
-2. Escolha uma empresa. Depois que você entrar no aplicativo, a tela **Escolher uma empresa** é exibida. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
+2. Escolha uma empresa. After you sign into dashboards, the **Choose a company** screen appears. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
 
 3. A lista Scorecard mostra todos os Scorecards que foram compartilhados com você. Toque no Scorecard que deseja exibir.
 
@@ -129,7 +129,7 @@ Para usar o aplicativo:
 
 8. Deixar feedback. Para deixar comentários:
 
-   1. Toque no ícone do usuário no canto superior direito da tela do aplicativo.
+   1. Toque no ícone do usuário no canto superior direito da tela painéis.
    2. Na tela **Minha conta**, toque na opção **Comentários**.
    3. Toque para ver as opções para deixar comentários.
    ![Deixar feedback](assets/feedback.png)
