@@ -1,44 +1,44 @@
 ---
-description: Instruções para configuração de scorecards para aplicativos móveis.
-title: Guia do curador de aplicativo móvel do Adobe Analytics
+description: Instruções para configurar os scorecards dos painéis.
+title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# BETA: guia do curador para o aplicativo móvel do Analytics
+# BETA: Guia do curador para painéis do Adobe Analytics
 
 
 ## Introdução
 
-O aplicativo móvel do Adobe Analytics fornece informações a qualquer hora e em qualquer lugar no Adobe Analytics.   O aplicativo permite aos usuários acesso móvel a scorecards intuitivos, criados e compartilhados a partir da interface do usuário de desktop do Adobe Analytics. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos, criados e compartilhados a partir da interface do usuário de desktop do Adobe Analytics. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. Os painéis do Analytics são suportados em sistemas operacionais iOS e Android.
 
 ## Sobre este guia
 
-Este guia tem como objetivo ajudar os curadores de dados do Adobe Analytics a configurar os scorecards para os usuários executivos no aplicativo móvel do Analytics. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais do aplicativo móvel do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de maneira eficaz para esses usuários.
+Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a configurar os Scorecards para seus usuários executivos nos painéis do Analytics. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais dos painéis do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de forma eficiente para esses usuários.
 
 
 ## Glossário de termos
 
-A tabela a seguir descreve os termos para entender o público-alvo, as funções e a operação do aplicativo móvel do Analytics.
+A tabela a seguir descreve os termos para entender a audiência, as funções e a operação dos painéis do Analytics.
 
 | Termo | Definição |
 |--- |--- |
 | Consumidor | Usuário executivo que visualiza as métricas principais e informações do Analytics em um dispositivo móvel |
 | Curador | Usuário com conhecimento de dados que encontra e distribui informações do Analytics e configura os Scorecards para serem visualizados pelo consumidor |
-| Preparação | O ato de criar ou editar um scorecard para dispositivos móveis com métricas, dimensões e outros componentes relevantes para o consumidor |
-| Scorecard | Uma Exibição de aplicativos móveis que contém um ou mais blocos |
+| Preparação | O ato de criar ou editar um Scorecard móvel contendo métricas, dimensões e outros componentes relevantes para o consumidor |
+| Scorecard | Uma visualização de painéis contendo um ou mais blocos |
 | Bloco | Uma renderização para uma métrica em uma Exibição de scorecard |
 | Detalhamento | Uma exibição secundária acessível ao tocar em um bloco no Scorecard. Essa exibição é expandida na métrica mostrada no bloco e, opcionalmente, relata as dimensões adicionais de detalhamento. |
-| Intervalo de datas | O intervalo de datas principal dos relatórios de aplicativos móveis |
+| Intervalo de datas | O intervalo de datas principal do relatórios de painéis |
 | Intervalo de datas de comparação | O Intervalo de datas comparado ao intervalo de datas principal |
 
  
 ## Criar um Scorecard para usuários executivos
 
-Um Scorecard para dispositivos móveis exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
+Um Scorecard exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
 
 
 ![Exemplo de scorecard](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Na tela **Projetos**, na guia **Componentes**, clique no botão **Adicionar** e 
 
 **Usar ferramentas do Analytics**
 
-No Analytics, clique no menu **Ferramentas** e selecione **Aplicativo móvel**. Na tela subsequente, clique no botão **Criar Scorecard**.
+In Analytics, click the **Tools** menu and select **dashboards**. Na tela subsequente, clique no botão **Criar Scorecard**.
 
 ### Configure o Scorecard com os dados e salve
 
@@ -149,7 +149,7 @@ Para compartilhar o Scorecard com um usuário executivo:
 ![Compartilhar_Scorecards](assets/new_share.png)
 
 
-Depois de compartilhar um Scorecard, os destinatários podem acessá-lo no aplicativo móvel do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
+Depois de compartilhar um Scorecard, seus recipient poderão acessá-lo em seus painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
 *Observação: se você atualizar o Scorecard adicionando novos componentes, convém compartilhar o scorecard novamente (e marque a opção **Compartilhar automaticamente os componentes inseridos com os destinatários**) para garantir que os usuários executivos tenham acesso a essas alterações.*
 
@@ -175,7 +175,7 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
 
    **Para usuários executivos no iOS:**
 
-   1. Clique no link público a seguir (ele também está disponível no Analytics em **Ferramentas** > **Aplicativo móvel**):
+   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
       [Link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
 
    2. Toque no link **Exibir na loja de aplicativos** na tela para baixar o aplicativo Testflight.
 
-   3. Após instalar o aplicativo Testflight, localize e instale o aplicativo móvel do Adobe Analytics no Testflight, como mostrado abaixo:
+   3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics de dentro do Testflight, como mostrado abaixo:
 
       ![Tela Testflight](assets/testflight2.png)
-
    **Para usuários executivos no Android:**
 
-   1. Toque no seguinte link da Play Store no dispositivo do usuário (também está disponível no Analytics em **Ferramentas** > **Aplicativo móvel**):
+   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Depois de tocar no link, toque no link Torne-se um testador na tela a seguir:
