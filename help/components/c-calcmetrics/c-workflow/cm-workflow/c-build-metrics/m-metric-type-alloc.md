@@ -1,9 +1,9 @@
 ---
-description: Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o tipo de métrica e o modelo de atribuição.
+description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 * [Modelo de atribuição de coluna](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Como a alocação linear funciona (desde 19 de julho de 2018) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Tipo de métrica {#section_34A86FB402F94E988724232283BF18B7}
+## Tipo de métrica
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 | Padrão | Essas métricas são as mesmas métricas usadas nos relatórios padrão do [!DNL Analytics]. Se uma fórmula consistir em uma única métrica padrão, ela exibirá dados idênticos à sua contrapartida de métricas não calculadas. As métricas padrão são úteis para criar métricas calculadas específicas para cada item de linha individual. Por exemplo, [Pedidos] / [Visitas] pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
 | Total | Use o total do período de relatórios em cada item de linha. Se uma fórmula consistir em uma única métrica total, ela exibirá o mesmo número total em cada item de linha. As métricas totais são úteis para a criação de métricas calculadas que se comparam aos dados totais do site. Por exemplo, [Pedidos] / [Total de visitas] mostra a proporção de pedidos com relação a TODAS as visitas ao site, e não apenas visitas ao item de linha específico. |
 
-## Modelo de atribuição de coluna {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Modelo de atribuição de coluna
 
 >[!IMPORTANT]
 >
@@ -38,70 +38,27 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 
 
 
-## Como a alocação linear funciona (desde 19 de julho de 2018) 
+## Como a alocação linear funciona (a partir de 19 de julho de 2018)
 
-Em julho de 2018, o Adobe alterou a maneira como a alocação linear é reportada para Métricas calculadas. Essa alteração afeta a Analysis Workspace, a Ad Hoc Analysis, o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afetará principalmente as eVars e outras dimensões que sejam persistentes. Observe que essas alterações serão aplicadas apenas às métricas calculadas e não afetarão outros relatórios que usem alocação linear (como o relatório Páginas no Reports &amp; Analytics). Outros relatórios que utilizam a alocação linear continuarão a usar o método existente de alocação linear.
+Em julho de 2018, o Adobe alterou a maneira como a alocação linear é reportada para Métricas calculadas. Essa alteração afeta a Analysis Workspace, a Ad Hoc Analysis, o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afeta principalmente as eVars e outras dimensões que têm persistência. Observe que essas alterações se aplicam somente às métricas calculadas e não afetam outros relatórios usando alocação linear (como o relatório Páginas no Relatórios e análises). Outros relatórios que utilizam a alocação linear continuarão a usar o método existente de alocação linear.
 
 O exemplo a seguir ilustra como as métricas calculadas com alocação linear mudarão no relatórios:
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Ocorrência 1 </th> 
-   <th colname="col3" class="entry"> Ocorrência 2 </th> 
-   <th colname="col4" class="entry"> Ocorrência 3 </th> 
-   <th colname="col5" class="entry"> Ocorrência 4 </th> 
-   <th colname="col6" class="entry"> Ocorrência 5 </th> 
-   <th colname="col7" class="entry"> Ocorrência 6 </th> 
-   <th colname="col8" class="entry"> Ocorrência 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Dados enviados em </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar de último toque </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar de primeiro toque </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Exemplo prop </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Dados enviados em | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| eVar de último toque | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| eVar de primeiro toque | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Exemplo prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de $10 ser realizada na ocorrência 7. Na segunda linha, esses valores persistem entre ocorrências em uma base de visita de último toque. A terceira linha ilustra uma persistência de visita de primeiro toque. Finalmente, a última linha ilustra como os dados seriam registrados para uma prop que não tem persistência.
+
+## Diferenças em como a alocação linear funciona em Relatórios e análises versus Espaço de trabalho
+
+Há algumas diferenças em como a atribuição linear funciona entre essas duas ferramentas:
+
+* Em Relatórios e análises, a atribuição linear (processada) sempre é baseada em visita, enquanto no Workspace, pode ser baseada em visita ou visitante.
+* Em Relatórios e análises, se Nenhum valor fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria na visita anterior. Esse NÃO é o caso no Workspace (QI de atribuição). Se nenhum valor for transmitido na primeira ocorrência de uma visita, então &#39;Nenhum&#39; será o valor inicial.
 
 ## Como funcionou a alocação linear antes de julho de 2018
 
