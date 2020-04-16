@@ -4,16 +4,16 @@ title: Publicar segmentos na Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
+source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
 
 ---
 
 
 # Publicar segmentos na Experience Cloud
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. Atualizações recentes otimizaram significativamente o fluxo de trabalho de publicação. Anteriormente, a publicação de um segmento utilizável levava aproximadamente 48 horas.
+Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. Atualizações recentes otimizaram significativamente o fluxo de trabalho de publicação. Agora você pode publicar segmentos do Analytics na Experience Cloud em menos de 8 horas. Use esses segmentos para ativar as audiências no Gerenciador de Audiências para todos os destinos downstream.
 
-Agora o processamento pode levar até 8 horas, mas dependendo de outro tráfego e do tamanho do segmento, o processamento pode ser ainda mais rápido. (No entanto, não temos uma maneira de informar quando o segmento está disponível, portanto, você terá que verificar manualmente.) Também aumentamos o número máximo de segmentos publicáveis para 75 (de 20). É possível exibir segmentos publicados em Componentes > Segmentos.
+Também aumentamos o número máximo de segmentos do Adobe Analytics publicáveis para 75 (de 20). Você pode visualização segmentos publicados em [!UICONTROL Analytics > Components > Segments].
 
 >[!NOTE] O Adobe Campaign (Classic e Standard) se comporta de forma diferente, pois incorre em uma latência adicional de 24 horas acima da latência de 8 horas.
 
@@ -29,7 +29,7 @@ Agora o processamento pode levar até 8 horas, mas dependendo de outro tráfego 
 ## Considerações
 
 * **Limites do conjunto de relatórios**: você pode publicar até 75 segmentos por conjunto de relatórios. Este limite é aplicado. Se você já tiver 75 segmentos publicados, não poderá publicar segmentos adicionais até cancelar a publicação de segmentos suficientes para ficar abaixo do limite de 75 segmentos.
-* **Limites de associação**: públicos-alvo compartilhados com a [!DNL Experience Cloud] a partir do Analytics não podem exceder 20 milhões de membros únicos.
+* **Limites** de adesão: Audiências compartilhadas com o Adobe Analytics [!DNL Experience Cloud] não podem exceder 20 milhões de membros únicos.
 * **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. Se um visitante consegue navegar em seu site em estados de autenticação e de não autenticação, as ações que ocorrem quando um visitante não está autenticado podem fazer com que um visitante seja incluído em um público-alvo. Revise a [privacidade da Adobe Experience Cloud](https://www.adobe.com/pt/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
 * Para uma discussão sobre as **diferenças entre segmentos em [!DNL Adobe Analytics] e [!DNL Audience Manager]**, acesse [aqui](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
