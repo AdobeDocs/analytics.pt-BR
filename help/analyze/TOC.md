@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Tools Guide
+user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
    + [Hora](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
-+ Aplicativo móvel {#mobapp}
-   + [Visão geral do aplicativo móvel](mobile-app/home.md)
++ dashboards {#mobapp}
+   + [Visão geral dos painéis](mobile-app/home.md)
    + [Guia do Curador](mobile-app/curator.md)
    + [Guia de start rápido do usuário executivo](mobile-app/executive.md)
 + Aplicativos da Web progressivos {#pwa}
