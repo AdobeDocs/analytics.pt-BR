@@ -188,6 +188,7 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
    3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics de dentro do Testflight, como mostrado abaixo:
 
       ![Tela Testflight](assets/testflight2.png)
+   
    **Para usuários executivos no Android:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
