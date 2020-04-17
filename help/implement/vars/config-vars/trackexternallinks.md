@@ -1,33 +1,33 @@
 ---
 title: trackExternalLinks
-description: Ative ou desative o rastreamento automático de link para links de saída.
+description: Ative ou desative o rastreamento automático de links para links de saída.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
 
 
 # trackExternalLinks
 
-A Adobe oferece a capacidade de rastrear links externos sem definir manualmente o [`tl()`](../functions/tl-method.md) método para cada link de saída. Ative essa variável se desejar usar o rastreamento automático de link para links de saída.
+Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. Ative essa variável se desejar usar o rastreamento automático de links para links de saída.
 
 Quando ativado, o AppMeasurement compara qualquer URL de link clicado com valores em [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). Se houver uma correspondência, uma chamada de rastreamento de link de saída será acionada automaticamente.
 
 ## Rastrear links externos no Adobe Experience Platform Launch
 
-Rastrear links externos é uma caixa de seleção sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
+Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Track outbound links] caixa de seleção.
 
-Clique na caixa de seleção para ativar o rastreamento automático de link de saída.
+Clique na caixa de seleção para ativar o rastreamento automático de links de saída.
 
-## s.trackExternalLinks no AppMeasurement e no editor de código personalizado Iniciar
+## s.trackExternalLinks no AppMeasurement e no editor de código personalizado do Launch
 
-O `s.trackExternalLinks` é um booliano que ativa ou desativa o rastreamento automático de link de saída. Se você não quiser rastrear links externos, ou preferir chamar manualmente o `tl()` método para rastrear links de saída, defina essa variável como `false`.
+`s.trackExternalLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de links de saída. If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```
