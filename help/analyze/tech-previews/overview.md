@@ -2,7 +2,7 @@
 title: Guia do usuário do Labs
 description: Visualizar projetos de protótipo do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Para iniciar e avaliar um protótipo:
 
 1. Clique no botão **Fornecer feedback** para fornecer feedback na caixa de mensagem a qualquer momento ao trabalhar com o protótipo.
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. Clique em **Enviar** para enviar seu feedback.
 
