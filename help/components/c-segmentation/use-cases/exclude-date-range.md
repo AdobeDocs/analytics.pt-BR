@@ -2,16 +2,14 @@
 title: Excluir datas específicas na análise
 description: Dicas para excluir datas ou intervalos de datas se você não quiser incluí-las nos relatórios.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Excluir datas específicas na análise
 
-Às vezes, um intervalo de datas contém dados que você não deseja analisar. Por exemplo, um robô envia uma ocorrência de falha contendo uma quantidade incorreta de receita, inflando drasticamente a métrica. Se o site tiver problemas de implementação ou outras lacunas nos dados, você pode excluí-lo do relatórios e impedir a tomada de decisões sobre dados parciais.
-
-Você pode usar um segmento para excluir qualquer intervalo de datas que não deseja incluir em seus relatórios.
+Se você tiver dados [afetados por um evento](/help/technotes/event-impacted.md), poderá usar um segmento para excluir quaisquer intervalos de datas que não deseja incluir em seus relatórios. A segmentação de datas impactadas no evento pode ajudar a impedir que sua organização tome decisões sobre dados parciais.
 
 ## Isole os dias afetados
 
@@ -67,15 +65,3 @@ Você pode usar o segmento em um conjunto [de relatórios](../../vrs/vrs-about.m
 5. Clique **[!UICONTROL Continue]** no canto superior direito e clique em **[!UICONTROL Save]**.
 
 ![Segmento aplicado ao VRS](../assets/exclude_segment_vrs.png)
-
-## Alternativas em outras ferramentas
-
-Se você usar o Relatórios e análises, poderá usar um evento [de](../../t-calendar-event.md) calendário para realçar os dias afetados em qualquer relatório de tendências.
-
->[!NOTE] Este método não se aplica à área de trabalho de Análise.
-
-1. Navegue até **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Insira o título desejado, o intervalo de datas e o texto da nota.
-3. Clique em **[!UICONTROL Save]**.
-
-![evento do calendário](../assets/exclude_calendar_event.jpg)
