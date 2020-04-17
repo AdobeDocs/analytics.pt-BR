@@ -2,7 +2,7 @@
 title: Analisar dados afetados por eventos
 description: Entenda como os dados impactados por um evento contribuem para a qualidade geral dos dados.
 translation-type: tm+mt
-source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
 
 * Um robô enviando dados mais antigos, como milhões de dólares em receita
 * Sua organização enviou uma atualização ao seu site que afetou negativamente a implementação do Analytics
-* Interrupções que afetam a qualidade do servidor, tanto no final de sua organização quanto no final da Adobe
+* Outros problemas que afetam a qualidade ou integridade dos dados
 
 Se o site detectou problemas de qualidade de dados, problemas de implementação ou outras lacunas nos dados, você pode excluí-lo do relatórios para evitar tomar decisões sobre dados parciais. Use essas seções para medir o impacto do evento em seus dados e determinar como você deseja continuar.
 
