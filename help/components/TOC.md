@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + Casos de uso {#use-cases}
       + [Excluir datas específicas](c-segmentation/use-cases/exclude-date-range.md)
    + [Perguntas frequentes](c-segmentation/seg-transition.md)
-   + [Novidades na Segmentação do Analytics](c-segmentation/whats-new-segmentation.md)
+   + [Novidades da segmentação do Analytics](c-segmentation/whats-new-segmentation.md)
    + [Guia de transição para a Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas e calculadas avançadas (derivadas)](c-calcmetrics/cm-overview.md)
-   + [Perguntas frequentes](c-calcmetrics/cm-transition.md)
-   + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
    + Fluxo de trabalho das métricas calculadas {#calcmetric-workflow}
       + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Compatibilidade de métrica](c-calcmetrics/cm-compatibility.md)
       + [Métricas calculadas: direitos baseados em função](c-calcmetrics/cm-role-based-rights.md)
       + [Totais de métricas calculadas](c-calcmetrics/cm-totals.md)
+   + [Derivar dados afetados pelos eventos](c-calcmetrics/cm-events.md)
+   + [Perguntas frequentes](c-calcmetrics/cm-transition.md)
+   + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
 + Conjuntos de relatórios virtuais {#virtual-report-suites}
    + [Visão geral dos conjuntos de relatórios virtuais](vrs/vrs-about.md)
    + [Curadoria do componente de conjunto de relatórios virtual](vrs/vrs-components.md)
