@@ -2,7 +2,7 @@
 title: Analisar dados afetados por eventos
 description: Entenda como os dados impactados por um evento contribuem para a qualidade geral dos dados.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ O Adobe Analytics oferta uma maneira simples e robusta de focar ou excluir dados
 
 Se quiser saber mais sobre o impacto que um evento teve nos seus dados ao longo do tempo, use a comparação de datas na área de trabalho da Análise. Esse recurso permite que você compare os dados dia a dia, semana a semana ou mês a mês para ver a comparação com os intervalos anteriores. Você pode então usar essa comparação para determinar o quanto um evento afeta as tendências. Consulte [Comparar datas afetadas por um evento a intervalos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) anteriores no guia do usuário Analisar.
 
-## Correção de dados de tendência usando métricas calculadas
+## Derivar dados usando métricas calculadas
 
 Depois de criar segmentos e usar a comparação de datas, você pode combinar ambos os conceitos para corrigir dados de tendência usando métricas calculadas. Inclua os segmentos em uma métrica calculada e multiplique os dias afetados pelo deslocamento encontrado ao comparar datas. Consulte [Derivar dados afetados pelos eventos](/help/components/c-calcmetrics/cm-events.md) no guia do usuário Componentes.
 
-## Usar um evento de calendário no Relatórios e análises
+## Comunicar o impacto aos usuários em sua organização
 
-Se você usar o Relatórios e análises, poderá usar um evento [de](/help/components/t-calendar-event.md) calendário para realçar os dias afetados em qualquer relatório de tendências. Este método não se aplica à área de trabalho de Análise.
-
-1. Navegue até **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Insira o título desejado, o intervalo de datas e o texto da nota.
-3. Clique em **[!UICONTROL Save]**.
-
-![evento do calendário](assets/exclude_calendar_event.jpg)
+Quando estiver preparado para lidar com um evento, você poderá [se comunicar com os usuários em sua organização](event/event-communicate.md). A Adobe oferta vários locais no Analytics onde você pode colocar o texto para comunicar aos usuários o que aconteceu e quais componentes eles podem usar.
