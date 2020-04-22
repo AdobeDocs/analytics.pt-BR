@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: 77b126b2add78113c266265f413240f27f89bced
 
 ---
 
@@ -79,6 +79,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + Painéis {#panels}
       + [Visão geral dos painéis](analysis-workspace/c-panels/panels.md)
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
+      + [Criador de insights rápidos](analysis-workspace/c-panels/quickinsight.md)
       + Atribuição {#attribution}
          + [Visão geral da Atribuição](analysis-workspace/c-panels/attribution/attribution.md)
          + [Usar o painel Atribuição](analysis-workspace/c-panels/attribution/use-attribution.md)
