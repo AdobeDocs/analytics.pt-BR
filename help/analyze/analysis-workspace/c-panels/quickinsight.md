@@ -1,25 +1,25 @@
 ---
 description: 'null'
-title: Criador de insights rápidos
+title: Construtor do Quick Insights
 translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
 ---
 
 
-# Criador de insights rápidos
+# Construtor do Quick Insights
 
 >[!IMPORTANT]
 >
->O Quick Insights está atualmente em testes beta e ainda não está disponível para todos os clientes do Adobe Analytics.
+>**[!UICONTROL Quick Insights]** está atualmente em testes beta e ainda não está disponível para todos os clientes do Adobe Analytics.
 
-O Quick Insights fornece orientação para não analistas e novos usuários da área de trabalho da Análise para aprender a responder perguntas comerciais de forma rápida e fácil. É também uma excelente ferramenta para usuários avançados que desejam responder rapidamente a uma pergunta simples sem terem que criar uma tabela eles mesmos.
+[!UICONTROL Quick Insights] fornece orientação para que não analistas e novos usuários da área de trabalho da Análise aprendam a responder perguntas comerciais de forma rápida e fácil. É também uma excelente ferramenta para usuários avançados que desejam responder rapidamente a uma pergunta simples sem terem que criar uma tabela eles mesmos.
 
 Ao usar este espaço de trabalho de Análise pela primeira vez, você pode se perguntar quais visualizações seriam mais úteis, quais dimensões e métricas podem facilitar insights, onde arrastar e soltar itens, onde criar um segmento etc.
 
-Para ajudar nisso, com base no uso dos componentes de dados pela sua própria empresa na área de trabalho da Análise, o Quick Insights aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa.
+Para ajudar nisso, e com base no uso dos componentes de dados pelo seu próprio empresa na Análise Workspace, [!UICONTROL Quick Insights] aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa.
 
-Os insights rápidos ajudam você a
+[!UICONTROL Quick Insights] ajuda você
 
 * Crie corretamente uma tabela de dados e a visualização que a acompanha na área de trabalho da Análise.
 * Conheça a terminologia e o vocabulário para componentes básicos e partes da área de trabalho da Análise.
@@ -28,15 +28,15 @@ Os insights rápidos ajudam você a
 
 ## Terminologia básica
 
-A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de dados consiste em 2 ou mais blocos componentes que você utiliza para contar sua história de dados.
+A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de dados consiste em 2 ou mais blocos componentes (componentes) que você utiliza para contar sua história de dados.
 
-| Bloco de construção | Definição |
+| Bloco de construção (Componente) | Definição |
 |---|---|
-| Dimensão | Dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um projeto. São valores não numéricos e datas que se dividem em itens de dimensão. Por exemplo, &quot;navegador&quot; ou &quot;página&quot; são dimensões. |
-| Item de dimensão | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
-| Métrica | As métricas são informações quantitativas sobre a atividade do visitante, como visualizações, click-throughs, recarregamentos, tempo médio gasto, unidades, pedidos, receita e assim por diante. |
-| Visualização | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) para criar representações visuais dos seus dados. |
-| Segmento | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar segmentos de Visitantes com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
+| [!UICONTROL Dimension] | Dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um projeto. São valores não numéricos e datas que se dividem em itens de dimensão. Por exemplo, &quot;navegador&quot; ou &quot;página&quot; são dimensões. |
+| [!UICONTROL Dimension item] | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
+| [!UICONTROL Metric] | As métricas são informações quantitativas sobre a atividade do visitante, como visualizações, click-throughs, recarregamentos, tempo médio gasto, unidades, pedidos, receita e assim por diante. |
+| Visualização | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) para criar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linha, mapas, gráficos de dispersão e outros. |
+| [!UICONTROL Segment] | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar [!UICONTROL Visitor] segmentos com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
 
 ## Introdução ao Quick Insights
 
@@ -51,19 +51,50 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
    ![](assets/qibuilder2.png)
 
    Você tem três maneiras de selecionar os blocos de construção:
-   * Arraste e solte-os do painel esquerdo
-   * Se você sabe o que está procurando: O Start que digitar o nome e os insights rápidos preencherão os espaços em branco para você
-   * Clique na lista suspensa e pesquise a lista
+   * Arraste e solte-os do painel esquerdo.
+   * Se você sabe o que está procurando: O Start que digitar o nome e os insights rápidos preencherão os espaços em branco para você.
+   * Clique na lista suspensa e pesquise a lista.
 
 1. Quando você tiver adicionado pelo menos uma dimensão e uma métrica, o seguinte será criado para você:
 
-   * Uma tabela de forma livre com a dimensão à esquerda (vertical) e as métricas na parte superior (horizontal). Confira esta tabela:
+   * Uma tabela de forma livre com a dimensão (aqui, Estados dos EUA) verticalmente e a métrica (aqui, Visitas) horizontalmente na parte superior. Confira esta tabela:
+   ![](assets/qibuilder3.png)
+
+
+   * Uma visualização acompanhante, neste caso um gráfico [de](/help/analyze/analysis-workspace/visualizations/bar.md)barras. A visualização gerada baseia-se no tipo de dados que você adicionou à tabela. Você pode alterar o tipo de visualização clicando na seta suspensa ao lado de **[!UICONTROL Bar]**.
+
 
 1. (Opcional) Detalhe as dimensões e veja os itens de dimensão clicando na seta > direita ao lado da dimensão.
 
+1. Tente adicionar mais refinamentos conforme descrito abaixo em &quot;Outras opções úteis&quot;.
 
+## Outras opções úteis
+
+Outras dicas úteis aparecerão no construtor Quick Insights, algumas delas dependendo da última ação.
+
+* **Tente arrastar e soltar**: Por exemplo, se você usou o menu suspenso para selecionar o bloco de construção, isso pode aparecer:
+
+   ![](assets/qibuilder4.png)
+
+* **Altere a visualização**: encoraja você a experimentar diferentes representações visuais dos seus dados até encontrar a que realmente brilha. Este é um exemplo de um gráfico de linha:
+
+   ![](assets/qibuilder8.png)
+
+* **Detalhamento por**: Você pode usar até três níveis de detalhamento em dimensões para detalhar os dados que realmente precisa. Um detalhamento é uma maneira de literalmente dividir a dimensão por outras dimensões. Em nosso exemplo, você pode detalhar os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, por tipos de dispositivos móveis ou por regiões, por Campanhas internas etc.
+
+   ![](assets/qibuilder5.png)
+
+* **Adicionar mais métricas**: Você pode adicionar até mais duas métricas usando o operador E para adicioná-las à tabela.
+
+   ![](assets/qibuilder6.png)
+
+* **Adicionar mais segmentos**: Você pode adicionar até mais 2 segmentos usando os operadores E ou OU para adicioná-los à tabela. Observe o que acontece com a tabela quando você adiciona usuários móveis OU Visitantes leais. Eles estão próximos um do outro, acima das métricas. Se você adicionasse Usuários Móveis E Visitantes Fidelizados, veria os resultados de ambos os segmentos juntos e eles seriam empilhados um sobre o outro na tabela.
+
+   ![](assets/qibuilder7.png)
 
 ## Limitações conhecidas
 
-Se você tentar editar diretamente na tabela, isso fará com que o construtor do Quick Insight (a ferramenta de preenchimento) fique fora de sincronia. Você pode restaurá-la para as configurações anteriores do Quick Insight, mas, se não, a criação direta fará com que a tabela se comporte como uma tabela de forma livre tradicional.
+Se você tentar editar diretamente na tabela, isso fará com que o construtor do Quick Insights (a ferramenta de preenchimento) fique fora de sincronia. Você pode restaurá-la para as configurações anteriores do Quick Insight indo para **[!UICONTROL Help > Tutorials]**, ou pode limpar a tabela clicando **[!UICONTROL Clear]** no canto superior direito do painel Quick Insights.
+
+Caso contrário, criar diretamente fará com que a tabela se comporte agora como uma tabela de forma livre tradicional, sem os recursos úteis para novos usuários.
 
