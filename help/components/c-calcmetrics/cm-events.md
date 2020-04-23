@@ -2,14 +2,14 @@
 title: Derivar dados afetados pelos eventos
 description: Use métricas calculadas para corrigir dados de tendências afetados por um evento.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # Derivar dados afetados pelos eventos
 
-Se os dados forem [afetados por um evento](/help/technotes/event-impacted.md), você poderá usar métricas calculadas para derivar valores de tendência para a duração do evento. Por exemplo, se você tiver um evento que causou uma queda de 25% nos dados, poderá usá-lo como um multiplicador em uma métrica calculada.
+Se os dados forem [afetados por um evento](/help/technotes/event-impacted.md), você poderá usar métricas calculadas para derivar valores de tendência para a duração do evento. Por exemplo, se você tiver um evento que causou uma queda de 25% nos dados, poderá usá-lo como um multiplicador em uma métrica calculada. Esse método é útil se você não tiver tempo ou recursos para inserir dados no Adobe Analytics usando fontes [](/help/import/c-data-sources/datasrc-home.md) de dados ou a API [de inserção de](/help/import/c-data-insertion-api/c-data-insertion-api.md)dados.
 
 >[!NOTE] Essas etapas funcionam melhor quando você entende o impacto de um evento, tanto da perspectiva de segmentação quanto da comparação de datas. Certifique-se de seguir [Comparar datas afetadas por um evento a intervalos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) anteriores e [Excluir datas específicas na análise](../c-segmentation/use-cases/exclude-date-range.md) antes de seguir esta página.
 
