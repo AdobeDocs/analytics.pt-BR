@@ -2,7 +2,7 @@
 description: 'null'
 title: Construtor do Quick Insights
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
 
    * Uma tabela de forma livre com a dimensão (aqui, Estados dos EUA) verticalmente e a métrica (aqui, Visitas) horizontalmente na parte superior. Confira esta tabela:
    ![](assets/qibuilder3.png)
-
 
    * Uma visualização acompanhante, neste caso um gráfico [de](/help/analyze/analysis-workspace/visualizations/bar.md)barras. A visualização gerada baseia-se no tipo de dados que você adicionou à tabela. Você pode alterar o tipo de visualização clicando na seta suspensa ao lado de **[!UICONTROL Bar]**.
 
