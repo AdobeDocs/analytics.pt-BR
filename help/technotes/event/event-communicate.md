@@ -2,7 +2,7 @@
 title: Comunicar impacto aos usuários
 description: Saiba como comunicar o impacto de um evento em sua organização.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ Se você usar o Relatórios e análises, poderá usar um evento [de](/help/compo
 2. Insira o título desejado, o intervalo de datas e o texto da nota.
 3. Clique em **[!UICONTROL Save]**.
 
-![evento do calendário](../assets/exclude_calendar_event.jpg)
+![evento do calendário](../assets/exclude_calendar_event.png)
