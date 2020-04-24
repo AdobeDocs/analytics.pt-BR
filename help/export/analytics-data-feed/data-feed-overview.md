@@ -1,5 +1,5 @@
 ---
-description: Os dados coletados de sites, aplicativos móveis ou carregados por meio de APIs de serviço da Web ou fontes de dados são processados e armazenados no Data Warehouse da Adobe. Esses dados brutos de sequência de cliques formam o conjunto de dados usado pelo Adobe Analytics.
+description: Os dados coletados em sites, aplicativos móveis ou carregados por meio de APIs de serviço da Web ou fontes de dados são processados e armazenados no Data Warehouse da Adobe. Esses dados de sequência de cliques brutos formam o conjunto de dados usado pelo Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Visão geral do feed de dados do Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
