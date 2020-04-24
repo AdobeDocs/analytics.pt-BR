@@ -36,7 +36,7 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 ### Dimensões não suportadas
 
 * Algumas dimensões baseadas em tempo, incluindo:
-   *  
+   * AM/PM
    * Dia do mês
    * Dias da semana
    * Dia do ano
@@ -52,8 +52,8 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Profundidade de ocorrência
    * Frequência de Retorno
    * Tempo antes do evento
-   * Tempo gasto na página - Por período
-   * Tempo gasto por visita - Por período
+   * Tempo gasto na página - No intervalo
+   * Tempo gasto por visita - Em bucket
    * Profundidade da Visita
 * Toda a classificação da página de pesquisa
 * Variáveis de hierarquia
@@ -61,8 +61,8 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 * Páginas não encontradas (disponível como uma dimensão; não suportado para segmentação)
 * Pesquisa paga
 * Visitas únicas à página
-* Rastreamento de motivos para o cancelamento de adesão
-* Estados Unidos
+* Motivo da desativação do rastreamento
+* Estados dos Estados Unidos
 
 ### Métricas não suportadas
 
