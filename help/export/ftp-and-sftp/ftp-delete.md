@@ -3,7 +3,7 @@ description: A política de FTP da Adobe desativa o acesso a contas FTP que perm
 keywords: ftp;sftp
 title: Excluir dados e contas FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
