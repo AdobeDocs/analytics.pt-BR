@@ -2,7 +2,7 @@
 title: Analisar dados afetados por eventos
 description: Entenda como os dados impactados por um evento contribuem para a qualidade geral dos dados.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -32,3 +32,9 @@ Depois de criar segmentos e usar a comparação de datas, você pode combinar am
 ## Comunicar o impacto aos usuários em sua organização
 
 Quando estiver preparado para lidar com um evento, você poderá [se comunicar com os usuários em sua organização](event/event-communicate.md). A Adobe oferta vários locais no Analytics onde você pode colocar o texto para comunicar aos usuários o que aconteceu e quais componentes eles podem usar.
+
+## Vídeo
+
+Este vídeo percorre cada uma das etapas acima.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
