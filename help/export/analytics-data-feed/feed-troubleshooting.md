@@ -3,7 +3,7 @@ description: Essa seção apresenta informações sobre problemas comuns.
 keywords: Data Feed;troubleshooting
 title: Solução de problemas dos feeds de dados
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
