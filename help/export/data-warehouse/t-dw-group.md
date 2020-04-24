@@ -3,7 +3,7 @@ description: Etapas que descrevem como os administradores podem ativar o acesso 
 title: Adicionar grupo de usuários do Data Warehouse
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,22 +13,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para um grupo de usuários.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento de usuários]**.
-1. Clique em **[!UICONTROL Editar grupos]**.
-1. Clique em **[!UICONTROL Adicionar novo grupo de usuários]**.
-1. Na seção **[!UICONTROL Definir grupo de usuários]**, digite um nome no campo Nome do grupo. Fornecer as seguintes informações do grupo:
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Clique em **[!UICONTROL Edit Groups]**.
+1. Clique em **[!UICONTROL Add New User Group]**.
+1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. Fornecer as seguintes informações do grupo:
 
    Por exemplo, `Data Warehouse Access`.
-1. Digite uma descrição no campo **[!UICONTROL Descrição do grupo.]**
-1. Na seção **[!UICONTROL Acesso ao conjunto de relatórios]**, selecione os conjuntos de relatórios aos quais você deseja que os membros do grupo tenham acesso.
-1. Em [!UICONTROL Ferramentas], ative **[!UICONTROL Todas as ferramentas]**.
+1. Digite uma descrição no **[!UICONTROL Group Description]** campo.
+1. In the **[!UICONTROL Report Suite Access]** section, select the report suites that you want group members to be able to access.
+1. Em [!UICONTROL Tools], ative **[!UICONTROL All Tools]**.
 
-   Como opção, clique em **[!UICONTROL Personalizar]** e ative **[!UICONTROL Personalizar o relatório do Data Warehouse]**.
+   Como alternativa, clique em **[!UICONTROL Customize]**, em seguida, ative **[!UICONTROL Custom Data Warehouse Report]**.
 
-1. Em [!UICONTROL Atribuir logons de usuário], adicionar os logons de usuário desejados.
-1. Clique em **[!UICONTROL Salvar grupo]**.
+1. Em [!UICONTROL Assign User Logins], adicione os logons de usuário desejados.
+1. Clique em **[!UICONTROL Save Group]**.
 
-   Na próxima vez em que os usuários adicionarem a esse logon de grupo, será possível visualizar a opção de Data Warehouse adicionada ao menu de [!UICONTROL Reports &amp; Analytics].
+   Na próxima vez em que os usuários adicionarem a esse logon de grupo, será possível visualizar a opção de Data Warehouse adicionada ao menu de [!UICONTROL Reports & Analytics].
 
    >[!NOTE]
    >
