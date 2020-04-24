@@ -3,7 +3,7 @@ description: A conexão sem senha a contas FTP só é possível com uma conexão
 keywords: ftp;sftp
 title: Conexão com a Adobe via SFTP sem uma senha
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
