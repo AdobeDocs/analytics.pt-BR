@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Combine dados com e sem carimbos de data e hora em um único conjunto de relatórios.
 
-Carimbos opcionais de data e hora permitem:
+Os Carimbos opcionais de data e hora permitem que você:
 
-* Combine dados com e sem carimbos de data e hora no mesmo conjunto de relatórios global.
+* Combine dados com e sem carimbos de data e hora em um mesmo conjunto de relatórios global.
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar o rastreamento offline sem precisar criar um novo conjunto de relatórios.
 
@@ -25,18 +25,18 @@ Carimbos opcionais de data e hora permitem:
 
 ## Novos conjuntos de relatórios {#section_095A7CFBD280494593B9BEC1592B73A6}
 
-* Se criado a partir de um modelo, o padrão de um novo conjunto de relatórios é Carimbos opcionais de data e hora.
+* Se criado a partir de um modelo, um novo conjunto de relatórios apresentará por padrão os Carimbos opcionais de data e hora.
 
-   (Você pode criar um novo conjunto de relatórios a partir de um modelo em **Admin > Conjuntos de relatórios > Criar novo > Conjunto** de relatórios.)
-* Se copiado de um conjunto de relatórios existente, o novo conjunto de relatórios herdará a configuração de carimbo de data e hora do original, incluindo:
+   (É possível criar um novo conjunto de relatórios a partir de um modelo em **Admin > Conjuntos de relatórios > Criar novo > Conjunto de relatório**.)
+* Se copiado a partir de um conjunto de relatórios já existente, o novo conjunto de relatórios herdará os ajustes de carimbo de data e hora do original, incluindo:
 
    * **Carimbos de data e hora não permitidos** (a configuração s.visitorID é suportada)
-   * **Carimbos de data e hora necessários** (a configuração s.visitorID não é suportada)
-   * **Carimbos opcionais** de data e hora (a configuração s.visitorID é suportada, mas não em ocorrências com carimbos de data e hora)
+   * **Carimbos obrigatórios de data e hora** (a configuração s.visitorID não é suportada)
+   * **Carimbos opcionais de data e hora** (a configuração s.visitorID é suportada, exceto em ocorrências com carimbos de data e hora)
 
 ## Alterar conjuntos de relatórios existentes para Carimbos opcionais de data e hora {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. Vá até **Admin > Conjuntos de relatórios > Editar configurações > Geral > Configuração** do carimbo de data e hora.
+1. Vá para **Admin > Conjuntos de relatórios > Editar configurações > Geral > Configurações de carimbo de data e hora**.
 1. Selecione a caixa **Converter os conjuntos de relatórios selecionados em Carimbos opcionais de data e hora**.
 
    Isso alterará seu conjunto de relatórios para Carimbos opcionais de data e hora.
