@@ -3,7 +3,7 @@ description: Respostas a perguntas que você pode se fazer ao implantar o Audien
 solution: Experience Cloud
 title: Perguntas frequentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -136,11 +136,11 @@ Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas fre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>P: Por que as contagens de visitantes de segmentos diferem entre o Audience Manager e o Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Diferenças na contagem de visitantes </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Diferenças na contagem de visitantes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre “públicos-alvo” no AAM e “segmentos” no Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Entender os segmentos no Analytics e no Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Entender os segmentos no Analytics e no Audience Manager </a>. </p> <p>Públicos-alvo do AAM são enviados e compartilhados como componentes de “dimensão” para serem usados no Analytics. Eles não são exibidos como segmentos no Construtor de segmentos, por exemplo, mas como dimensões que podem ser usadas para construir segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre Atributos de clientes e os dados de cliente integrados do AAM?</b> </p> </td> 
