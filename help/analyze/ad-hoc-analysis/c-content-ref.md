@@ -3,7 +3,7 @@ description: A Ad Hoc Analysis é integrada ao ambiente de Segmentação de aná
 title: Construir segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 * [O que aconteceu com meus segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [O que aconteceu com minhas pastas de segmento existentes? ](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Posso gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [O que é um Contêiner de ocorrências? Ele é diferente de um Contêiner de exibições da página?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [O que é um Contêiner de ocorrência? Ele é diferente de um Contêiner de exibições da página?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos? ](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
 * [O que devo fazer com segmentos duplicados que têm o...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
 * [Como a Adobe recomenda que eu limpe os segmentos? ](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
