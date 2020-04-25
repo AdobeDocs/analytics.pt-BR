@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Guia de integração do Analytics
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
 source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
@@ -16,7 +16,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
    + [Visão geral do Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Fluxo de trabalho do Audience Analytics {#audience-analytics-workflow}
       + [Visão geral do fluxo de trabalho](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Criar destino do Analytics - Guia do AAM](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Criar destino do Analytics - Guia do AAM](https://docs.adobe.com/help/pt-BR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.translate.html)
       + [Usar os dados de público-alvo no Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso do Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Perguntas frequentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [Gerenciar contas publicitárias](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Solução de problemas do Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Perguntas frequentes](c-advertising-analytics/aa-faq.md)
-+ [Analytics para Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/pt_BR/target/a4t/a4t.html)
 + [Relatórios do Adobe Campaign](adobe-campaign.md)
 + [Relatórios do AEM Assets](aem-assets-reporting.md)
 + [Relatórios do Activity Map](activitmap-reporting.md)
