@@ -3,7 +3,7 @@ description: Exibe em média em que ponto da visita cada valor foi disparado. Es
 title: Profundidade média da página
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
