@@ -3,7 +3,7 @@ description: Um relatório de caminho que fornece a análise detalhada do caminh
 title: Página anterior
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Por exemplo, você pode querer saber de onde as pessoas que visualizaram sua pá
 <table id="table_25A2182ACEC94E2190F21B82249577E8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Produto </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Descrição </th> 
   </tr> 
  </thead>
