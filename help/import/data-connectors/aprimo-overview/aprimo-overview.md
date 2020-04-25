@@ -2,7 +2,7 @@
 description: Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 title: Conector de dados do Aprimo para Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ Essa integração inclui os seguintes benefícios principais:
 
 Essa integração apresenta os seguintes segmentos de marketing dinâmicos:
 
-* **Perfis de compra** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
+* **Perfis de compra:** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **Perfil comportamental de exibição de produto/conteúdo:** alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **Perfil de abandono do carrinho:** ajude os visitantes a converterem-se em clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em concluir os carrinhos.
 * Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades dos usuários.
@@ -42,7 +42,7 @@ Antes de iniciar a integração dos Data Connectors para , atenda aos seguintes 
 * **Específico do Conjunto de relatórios:** observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração.
 * **Variáveis disponíveis e configuradas do Adobe Analytics:** essa integração exige eventos e eVars personalizados, além de eventos e eVars adicionais.
 * **Representante autorizado:** esteja ciente de que ativar essa integração pode gerar tarifas para sua empresa de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da empresa; e, como tal, a empresa concorda em pagar as tarifas, se houver, estabelecidas no contrato de serviço descrito acima.
-* **Data Warehouse™:** essa integração exige que o Data Warehouse seja habilitado para gerar segmentos de remarketing. Se você não tiver ativado o Data Warehouse, entre em contato com a Adobe para obter detalhes.
+* **Data Warehouse™:** essa integração exige que o Data Warehouse esteja habilitado para gerar segmentos de remarketing. Se você não tiver ativado o Data Warehouse, entre em contato com a Adobe para obter detalhes.
 * **[!UICONTROL Parceiro~]:** a integração exige que capturemos e armazenemos um &quot;[!DNL ~Parceiro~]&quot; em uma variável do Adobe Analytics (eVar). Essa ID é uma representação codificada ou numérica de um endereço de email do sistema[!DNL ~Partner~]. Esse &quot;[!DNL ~Partner~]&quot; está associado ao comportamento de downstream do visitante no site (abandonos de carrinho, compras etc.) que é extraído para o sistema[!DNL ~Partner~]e pode ser aproveitado para fins de remarketing. Como parte do processo de configuração, você deve identificar uma eVar para essa finalidade quando solicitado pelo Assistente.
 * **Rastreamento externo:** se, atualmente, você não estiver seguindo a prática recomendada de ativação do rastreamento externo para cada campanha de email enviada, é necessário fazê-lo para garantir uma integração bem-sucedida. Consulte a seção [!DNL ~Parceiro~] abaixo para obter detalhes.
 * **Conformidade com privacidade:** você deve entender que, ao ativar o rastreamento de ID de destinatário ou de visitante, esse recurso pode rastrear informações de identificação pessoal de visitantes do site. Isso tem implicações de privacidade que exigem a implementação de procedimentos apropriados por parte da sua organização, como informar os visitantes do site e dar o consentimento deles.
