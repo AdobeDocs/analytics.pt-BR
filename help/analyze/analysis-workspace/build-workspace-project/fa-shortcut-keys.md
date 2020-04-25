@@ -22,7 +22,7 @@ Interações de teclado, teclas de atalho e comportamentos para apontar e clicar
 |---|---|
 | Limpar tudo | alt + w |
 | Recolher/Expandir todos os painéis | alt + m |
-| Recolher/Expandir o painel Ativo | alt + ctrl + m |
+| Recolher/expandir painel ativo | alt + ctrl + m |
 | Copiar | ctrl (ou cmd) + c |
 | Criar um alerta | ctrl (ou cmd) + shift + a |
 | Criar métrica calculada | ctrl (ou cmd) + shift + c |
@@ -36,7 +36,7 @@ Interações de teclado, teclas de atalho e comportamentos para apontar e clicar
 | Ir para o painel Painéis | alt + shift + 1 |
 | Ir para o painel Visualizações | alt + shift + 2 |
 | Ir para o painel Componentes | alt + shift + 3 |
-| Mover para o próximo painel | alt + Tecla direita |
+| Move para o próximo painel | alt + Chave direita |
 | Mover para o painel anterior | alt + Tecla Esquerda |
 | Novo painel de atribuição | alt + e |
 | Novo gráfico de barras | alt + 3 |
@@ -57,4 +57,4 @@ Interações de teclado, teclas de atalho e comportamentos para apontar e clicar
 | Definir como página de aterrissagem | ctrl (ou cmd) + shift + l |
 | Compartilhar projeto | ctrl (ou cmd) + g |
 | Refazer | ctrl (ou cmd) + shift + z |
-| Desfazer | ctrl (ou cmd) + z |
+| Recurso Desfazer | ctrl (ou cmd) + z |
