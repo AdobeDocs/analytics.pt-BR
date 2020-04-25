@@ -9,22 +9,22 @@ source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 # Fontes de dados de ID de transação
 
-As fontes de dados da ID de transação permitem que você visualize dados online e offline lado a lado, mas vincule os dados juntos. Ela requer o uso da [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variável na implementação do Analytics.
+As fontes de dados da ID de transação permitem não apenas visualização de dados online e offline lado a lado, mas unir os dados. Ela requer o uso da [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variável na implementação do Analytics.
 
 Quando você envia uma ocorrência on-line que contém um `transactionID` valor, a Adobe captura um &quot;instantâneo&quot; de todas as variáveis definidas ou persistentes no momento. Se uma ID de transação correspondente carregada por meio das Fontes de Dados for encontrada, os dados offline e online serão vinculados. Não importa qual fonte de dados é vista primeiro.
 
 ## Fluxo de trabalho geral das fontes de dados da ID de transação
 
-Use o fluxo de trabalho genérico a seguir para começar a usar fontes de dados da ID de transação:
+Use o fluxo de trabalho genérico a seguir para start usando fontes de dados da ID de transação:
 
-1. Crie uma fonte de dados (categoria &quot;Genérica&quot; e tipo &quot;Fonte de Dados Genérica (ID de Transação)&quot;).
+1. Crie uma fonte de dados (tipo de categoria &quot;Genérica&quot; e &quot;Fonte de Dados Genérica (ID de Transação)&quot;).
 1. Siga o assistente de configuração do feed de dados para obter um local FTP para carregar dados e baixar um arquivo de modelo de fontes de dados.
 1. Atualize sua implementação para incluir a `transactionID` variável.
 1. Carregue um arquivo de fontes de dados no site FTP com um `.fin` arquivo.
 
 ## Exemplo de arquivo de upload e código de implementação
 
-Se você carregasse o arquivo de fontes de dados a seguir e implementasse o seguinte código no site, você veria os dados vinculados no relatório. O arquivo de fontes de dados usa eVar1 e event1, enquanto a implementação online usa eVar2 e event2. Como a ID de transação corresponde, você pode ver os dados event2 para eVar1 e event1 para eVar2.
+Se você carregasse o arquivo de fontes de dados a seguir e implementasse o seguinte código no site, você veria os dados vinculados no relatórios. O arquivo de fontes de dados usa eVar1 e evento1, enquanto a implementação online usa eVar2 e evento2. Como a ID de transação corresponde, você pode ver dados do evento2 para eVar1 e dados do evento1 para eVar2.
 
 ### Exemplo de arquivo
 
