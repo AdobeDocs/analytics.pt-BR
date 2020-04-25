@@ -18,7 +18,7 @@ Veja uma lista em ordem alfabética das funções e suas definições.
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Uma função de tabela é aquela em que a saída é a mesma para cada linha da tabela. Uma função de linha é aquela em que a saída é diferente para cada linha da tabela.
+Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
 
 ## Valor absoluto (Linha) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
@@ -30,11 +30,11 @@ ABS(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja o valor absoluto. |
+| *metric* | A métrica para a qual você deseja obter o valor absoluto. |
 
 ## Máximo da coluna {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Retorna o maior valor em um conjunto de elementos de dimensão para uma coluna de métrica. O MAXV avalia verticalmente em uma única coluna (métrica) pelos elementos de dimensão.
+Retorna o maior valor em um conjunto de elementos de dimensão para uma coluna de métrica. MAXV avalia verticalmente em uma única coluna (métrica) nos elementos da dimensão.
 
 ```
 MAXV(metric)
@@ -42,11 +42,11 @@ MAXV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | Uma métrica que você gostaria de avaliar. |
+| *metric* | Uma métrica que você gostaria de avaliar. |
 
 ## Mínimo da coluna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
-Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna de métrica. O MINV avalia verticalmente em uma única coluna (métrica) pelos elementos de dimensão.
+Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna de métrica. MINV avalia verticalmente em uma única coluna (métrica) nos elementos da dimensão.
 
 ```
 MINV(metric)
@@ -54,7 +54,7 @@ MINV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | Uma métrica que você gostaria de avaliar. |
+| *metric* | Uma métrica que você gostaria de avaliar. |
 
 ## Soma da coluna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -66,7 +66,7 @@ SUM(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja obter o valor total ou a soma. |
+| *metric* | A métrica para a qual você deseja obter o valor total ou soma. |
 
 ## Contagem (Tabela) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -78,11 +78,11 @@ COUNT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica que você deseja contar. |
+| *metric* | A métrica que deseja contar. |
 
 ## Expoente (Linha) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
+Retorna *e* elevado à potência de um número especificado. A constante *e* é igual a 2,71828182845904, a base do logaritmo natural. EXP é o inverso de LN, o logaritmo natural de um número.
 
 ```
 EXP(metric)
@@ -90,7 +90,7 @@ EXP(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | The exponent applied to the base *e*. |
+| *metric* | O exponente aplicado à base *e*. |
 
 ## Exponenciação {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -110,7 +110,7 @@ MEAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja a média. |
+| *metric* | A métrica para a qual você deseja obter a média. |
 
 ## Mediana (Tabela) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -122,19 +122,19 @@ MEDIAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja a mediana. |
+| *metric* | A métrica para a qual você deseja obter a mediana. |
 
 ## Módulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
-O restante de col1 / col2, usando a divisão Euclidiana.
+O restante de col1/col2, usado a divisão euclidiana.
 
-Retorna o restante após dividir x por y.
+Retorna o resto da divisão de x por y.
 
 ```
 x = floor(x/y) + modulo(x,y)
 ```
 
-O valor de retorno tem o mesmo sinal que a entrada (ou é zero).
+O valor retornado tem o mesmo sinal que a entrada (ou é zero).
 
 ```
 modulo(4,3) = 1 
@@ -150,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabela) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Retorna o k-ésimo percentil dos valores de uma métrica. É possível usar essa função para estabelecer um limite de aceitação. Por exemplo, é possível analisar elementos de dimensão com pontuação acima do percentil 90.
+Retorna o milésimo percentil dos valores de uma métrica. É possível usar esta função para estabelecer um limite de aceitação. Por exemplo, é possível analisar elementos de dimensão com pontuação acima do percentil 90.
 
 ```
 PERCENTILE(metric,k)
@@ -165,19 +165,19 @@ PERCENTILE(metric,k)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> A coluna métrica que define a posição relativa. </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> A coluna de métrica que define a posição relativa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> O valor percentil no intervalo de 0 a 100, inclusive. </td> 
+   <td colname="col2"> O valor do percentil no intervalo de 0 a 100, inclusive. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Quartil (Tabela) {#concept_BFD37F0F23A24AD181407142233FA151}
 
-Retorna o quartil de valores de uma métrica. Por exemplo, os quartis podem ser usados para encontrar os 25% principais dos produtos que geram a maior parte da receita. MINV, MEDIAN e MAXV retornam o mesmo valor como QUARTIL quando o quartil é igual a 0 (zero), 2 e 4, respectivamente.
+Retorna o quartil de valores de uma métrica. Por exemplo, os quartis podem ser usados para encontrar a porcentagem de 25% dos produtos com maior receita. MINV, MEDIAN, e MAXV retornam o mesmo valor que QUARTIL quando o quartil é igual a 0 (zero), 2 e 4, respectivamente.
 
 ```
 QUARTILE(metric,quart)
@@ -192,21 +192,21 @@ QUARTILE(metric,quart)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> A métrica para a qual você deseja o valor do quartil. </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> A métrica para a qual você deseja obter o valor do quartil. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>quarto </p> </td> 
-   <td colname="col2"> Indica qual *valor retornar. </td> 
+   <td colname="col1"> <p>quart </p> </td> 
+   <td colname="col2"> Indica o *valor a retornar. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*If *quart* = 0, QUARTILE returns the minimum value. Se *quart* = 1, QUARTIL retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTIL retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTIL retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTIL retorna o valor máximo.
+*Se *quart* = 0, QUARTIL retorna o valor mínimo. Se *quart* = 1, QUARTIL retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTIL retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTIL retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTIL retorna o valor máximo.
 
 ## Arredondar {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Arredondar( *Receita*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um relatórios de produto de US$ 569,51 será arredondado para o dólar mais próximo, ou seja, US$ 570.
+Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Arredondar( *Receita*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um produto de US$569,51 será arredondado para o valor inteiro mais próximo, ou seja, US$570.
 
 ```
 ROUND(metric)
@@ -214,9 +214,9 @@ ROUND(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *número* | A métrica que deseja arredondar. |
+| *number* | A métrica que deseja arredondar. |
 
-Um número redondo sem um parâmetro de dígitos é igual a um número redondo com um parâmetro de dígitos igual a 0, arredondado para o número inteiro mais próximo.  Ele retorna, com um parâmetro de dígitos, a quantidade de dígitos à direita do decimal. Se o dígito for negativo, ele retorna os zeros à esquerda do decimal.
+Arredondar sem um parâmetro de dígitos é igual a arredondar com um parâmetro de dígitos de 0; ou seja, arredondar para o número inteiro mais próximo. Com um parâmetro de dígitos, ele retorna o mesmo número de dígitos à direita da casa decimal. Se os dígitos forem negativos, retornará zeros à esquerda da casa decimal.
 
 ```
 round( 314.15, 0) = 314 
@@ -243,7 +243,7 @@ A soma das colunas em cada linha.
 
 ## Raiz quadrada (Linha) {#concept_6460DFA51EC24527A2317970FB76D404}
 
-Retorna a raiz quadrada positiva de um número. A raiz quadrada de um número é o valor dele elevado à potência de 1/2.
+Retorna a raiz quadrada positiva de um número. A raiz quadrada de um número é o valor do número elevado à potência de 1/2.
 
 ```
 SQRT(metric)
@@ -251,17 +251,17 @@ SQRT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *número* | A métrica para a qual você deseja a raiz quadrada. |
+| *number* | A métrica para a qual você deseja obter a raiz quadrada. |
 
 ## Desvio padrão (Tabela) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
 Retorna o desvio padrão, ou a raiz quadrada da variação, baseada em uma amostra da população de dados.
 
-A equação para STDEV é:
+A equação de STDEV é:
 
 ![](assets/std_dev.png)
 
-onde x é a média da amostra (*métrica*) e *n* é o tamanho da amostra.
+onde x é a média da amostra (*métrica*), e *n* é o tamanho da amostra.
 
 ```
 STDEV(metric)
@@ -274,8 +274,8 @@ STDEV(metric)
    <td> <b> Descrição</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> métrica</i></b> </td> 
-   <td> <p> A métrica para a qual você deseja o desvio padrão. </p> </td> 
+   <td> <b> <i> metric</i> </b> </td> 
+   <td> <p> A métrica para a qual você deseja obter o desvio padrão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,11 +284,11 @@ STDEV(metric)
 
 Retorna a variação baseada em uma amostra da população de dados.
 
-A equação para VARIANCE é:
+A equação de VARIAÇÃO é:
 
 ![](assets/variance_eq.png)
 
-onde x é a média da amostra, MEAN(*métrica*) e *n* é o tamanho da amostra.
+onde x é a média da amostra, MÉDIA(*métrica*), e *n* é o tamanho da amostra.
 
 ```
 VARIANCE(metric)
@@ -296,9 +296,9 @@ VARIANCE(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja a variação. |
+| *metric* | A métrica para a qual você deseja obter a variação. |
 
-Para calcular uma variação, você deve observar uma coluna inteira de números. A partir dessa lista de números, calculamos primeiro a média. Depois que você tiver a média, percorra cada entrada e faça o seguinte:
+Para calcular uma variação, considere uma coluna inteira de números. Nessa lista de números, calcule primeiro a média. Após obter a média, faça o seguinte em cada entrada:
 
 1. Subtraia a média do número.
 
@@ -306,7 +306,7 @@ Para calcular uma variação, você deve observar uma coluna inteira de números
 
 3. Adicione-o ao total.
 
-Depois de repetir a coluna inteira, você terá um único total. Em seguida, divida esse total pelo número de itens na coluna. Esse número é a variação da coluna. É um número único. No entanto, é exibido como uma coluna de números.
+Quando você iterar na coluna inteira, terá um total único. Depois, divida o total pelo número de itens na coluna. Esse número é a variação da coluna. É um número único. No entanto, é exibido como uma coluna de números.
 
 Por exemplo, digamos que você tenha uma coluna de três itens:
 
@@ -316,7 +316,7 @@ Por exemplo, digamos que você tenha uma coluna de três itens:
 
 3
 
-A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Na Análise Ad Hoc, isso terá a seguinte aparência:
+A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Na Ad Hoc Analysis, isso terá a seguinte aparência:
 
 1 2/3
 
