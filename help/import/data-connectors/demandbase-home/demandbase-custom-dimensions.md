@@ -2,7 +2,7 @@
 description: Lista identificadores de dimensão opcionais que podem ser fornecidos na Etapa 4 do Assistente de integração da Adobe.
 title: Dimensões personalizadas do Demandbase
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
