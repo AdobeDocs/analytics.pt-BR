@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Armazenamento em cache
 
-O arquivo JavaScript é armazenado em cache no navegador do visitante depois que é carregado inicialmente e geralmente é baixado não mais do que uma vez por sessão. O arquivo não é baixado em cada página, mesmo sendo usado por todas as páginas do site. Na maioria dos sites, os usuários têm em média mais de algumas visualizações de página por sessão, portanto, transferir o JavaScript usado várias vezes neste arquivo pode resultar em menos download de dados em geral.
+O arquivo JavaScript é armazenado em cache no navegador do visitante depois que é carregado inicialmente, e também é feito o download não mais do que uma ver por sessão. O download não ocorre em todas as páginas, embora o arquivo seja usado por todas as páginas do site. Na maioria dos sites, os usuários têm em média mais do que algumas visualizações de página por sessão. Portanto, a transferência do JavaScript usado várias vezes neste arquivo pode resultar em menos download de dados em geral.
 
 ## Compactação do Código H
 
