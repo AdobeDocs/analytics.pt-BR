@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Chaves não classificadas
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,5 +36,5 @@ Etapas que descrevem como renomear uma tecla não classificada que é exibida co
 
    Para seguir o exemplo deste documento, você poderá digitar &quot;campanha não móvel&quot; em uma coluna nomeada [!UICONTROL Nome da campanha móvel].
 
-   Essa entrada renomeia  *`None`* a *`non-mobile campaign`* no relatório de [!UICONTROL Tipo de campanha móvel].
+   Essa entrada é renomeada *`None`* para *`non-mobile campaign`* no relatório Tipo [!UICONTROL de Campanha] móvel.
 1. [Importar os dados](/help/components/c-classifications2/c-classifications-importer/import-file.md) de volta para o sistema.
