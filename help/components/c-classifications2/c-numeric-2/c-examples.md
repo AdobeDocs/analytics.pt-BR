@@ -1,5 +1,5 @@
 ---
-description: Exemplos para fornecer orientação para a importação de classificações numéricas 2.
+description: Exemplo para fornecer orientação para a importação de classificações numéricas 2.
 subtopic: Classifications
 title: Exemplos
 topic: Admin tools
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Exemplos
 
-Exemplos para fornecer orientação para a importação de classificações numéricas 2.
+Exemplo para fornecer orientação para a importação de classificações numéricas 2.
 
 <!-- 
 
@@ -20,7 +20,7 @@ c_example_1__rate.xml
 
  -->
 
-Nesse caso, você criou a classificação no [!UICONTROL Classification Conversion] gerente e deseja importar os valores de janeiro:
+Neste caso, você criou a classificação no gerenciador [!UICONTROL Conversão de Classificação] e deseja importar os valores de janeiro:
 
 | Chave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -38,9 +38,9 @@ Em janeiro, o Produto 1 teve um custo de 20% de sua receita (exibido em `~MyCost
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Jan 2010
+Período: jan 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
@@ -73,27 +73,27 @@ Em fevereiro, o custo do usuário para o Produto 1 reduziu para 15% da receita, 
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Jan 2010
+Período: jan 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
 | Product 1 | $10,000.23 | $2000.05 |
 | Product 2 | $9,000.04 | $2700.01 |
 
-Período: Fev de 2010
+Período: fev 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
 | Product 1 | $15,500.75 | $2325.11 |
 | Product 2 | $12,300.52 | $3075.13 |
 
-Período: 1 de jan de 2010 - 28 de fevereiro de 2010
+Período: 1 de jan de 2010 - 28 de fev de 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
@@ -106,7 +106,7 @@ c_example_3__fixed.xml
 
  -->
 
-Portanto, você importa os seguintes dados:
+Você, portanto, importa os seguintes dados:
 
 | Chave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -122,9 +122,9 @@ Portanto, você importa os seguintes dados:
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Mar 2010
+Período: mar 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
@@ -137,7 +137,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
  -->
 
-Neste exemplo, você adiciona uma taxa de frete de US$ 500 ao Produto 1 para janeiro e uma taxa de frete de US$ 600 para fevereiro.
+Neste exemplo, é possível adicionar uma cobrança de transporte de $500 para o Produto 1 para janeiro, e de $600 para fevereiro.
 
 | Chave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -150,18 +150,18 @@ Neste exemplo, você adiciona uma taxa de frete de US$ 500 ao Produto 1 para jan
 |---|---|---|
 | 2010/01/01 - 2010/01/31 | receita | receita |
 | 2010/01/01 - 2010/01/31 | fixo | nenhum |
-| 2010/02/01 - 2010/01/31 | receita | receita |
-| 2010/02/01 - 2010/01/31 | fixo | nenhum |
+| 01/02/2010 - 31/01/2010 | receita | receita |
+| 01/02/2010 - 31/01/2010 | fixo | nenhum |
 
-As linhas que foram importadas anteriormente têm uma ID, que indica que não são custos novos.
+As linhas que foram anteriormente importadas têm uma ID que indica que elas não são novos custos.
 
 ## Resultado {#section_2096084176614B9AA60F97D5853CB9EA}
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Jan 2010
+Período: jan 2010
 
-Relatório: Produtos
+Relatório: produtos
 
 | Produtos | Receita | MyCost |
 |---|---|---|
@@ -175,7 +175,7 @@ c_example_5__identical_rate_hinge.xml
 
  -->
 
-O exemplo a seguir ilustra este:
+As informações a seguir ilustram este exemplo:
 
 | Chave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -183,15 +183,15 @@ O exemplo a seguir ilustra este:
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | ordem | ordem |
+| 2010/03/01 - 2010/03/31 | pedido | pedido |
 
 ## Resultado {#section_39E24ECCC3B34C9AADC25572662750E5}
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Mar 2010
+Período: mar 2010
 
-Relatório: Produtos por página
+Relatório: produtos por página
 
 | Produtos por página | Pedidos | MyCost |
 |---|---|---|
@@ -219,9 +219,9 @@ c_example_5__fixed_no_hinge.xml
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Mar 2010
+Período: mar 2010
 
-Relatório: Produtos por página
+Relatório: produtos por página
 
 | Produtos por página | Pedidos | MyCost |
 |---|---|---|
@@ -251,9 +251,9 @@ Nesse caso, você importa os seguintes dados:
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Mar 2010
+Período: mar 2010
 
-Relatório: Produtos por página
+Relatório: produtos por página
 
 | Produtos por página | Pedidos | MyCost |
 |---|---|---|
@@ -267,7 +267,7 @@ c_example_7_continued__different_rate_hinge.xml
 
  -->
 
-Nesse caso, você importa os seguintes dados de arquivo:
+Nesse caso, você importa os seguintes arquivo de dados:
 
 | Chave | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
@@ -275,15 +275,15 @@ Nesse caso, você importa os seguintes dados de arquivo:
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
-| 2010/03/01 - 2010/03/31 | ordem | receita |
+| 2010/03/01 - 2010/03/31 | pedido | receita |
 
 ## Resultado {#section_6E2604D9A3B0455585EFF0F80FF54127}
 
 Um exemplo de saída do relatório é mostrado aqui:
 
-Período: Mar 2010
+Período: mar 2010
 
-Relatório: Produtos por página
+Relatório: produtos por página
 
 | Produtos por página | Pedidos | MyCost |
 |---|---|---|
