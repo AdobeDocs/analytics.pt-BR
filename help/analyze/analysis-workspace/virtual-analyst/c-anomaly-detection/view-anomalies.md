@@ -2,7 +2,7 @@
 description: É possível exibir anomalias em uma tabela ou em um gráfico de linhas.
 title: Exibir anomalias no Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,7 +37,7 @@ Se você tiver várias métricas no gráfico de linha, podemos mostrar somente a
 
 O intervalo de confiança da Detecção de anomalias não dimensiona automaticamente o eixo Y de uma visualização para tornar potencialmente o gráfico mais legível.
 
-Você tem a opção de permitir o dimensionamento do intervalo de confiança no gráfico. Clique no ícone Configurações (engrenagem) e marque **[!UICONTROL Permitir que a detecção de anomalias dimensione o eixo Y]**.
+Você tem a opção de permitir o dimensionamento do intervalo de confiança no gráfico. Basta clicar no ícone Configurações (engrenagem) e marcar **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
 
 ![](assets/scale-y-axis.png)
 
