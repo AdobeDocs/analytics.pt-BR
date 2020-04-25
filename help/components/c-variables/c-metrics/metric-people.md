@@ -2,7 +2,7 @@
 description: A métrica de Pessoas é uma métrica de relatório do Adobe Analytics que ajuda a atribuir dispositivos a pessoas.
 title: Pessoas
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
