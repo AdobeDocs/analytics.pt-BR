@@ -3,7 +3,7 @@ description: Exibe, por porcentagem e contagem total, a profundidade de cada vis
 title: Comprimento do caminho
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
