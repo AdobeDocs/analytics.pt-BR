@@ -3,7 +3,7 @@ description: O painel Configuração do Activity Map permite modificar as config
 title: Definir configurações do Activity Map
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
