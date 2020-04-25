@@ -3,7 +3,7 @@ description: Os Downloads de arquivo ajudam você a entender com que frequência
 title: Downloads de Arquivos
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
