@@ -2,7 +2,7 @@
 description: Os relatórios de metas permitem medir o desempenho do site e acompanhar o progresso em relação às metas. Por exemplo, você pode querer aumentar o número de visitantes que vêm de uma região geográfica, a receita por pedido, ou o número de visitas que vêm de uma referência específica.
 title: Metas
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
