@@ -1,7 +1,7 @@
 ---
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -70,7 +70,7 @@ Lembre-se que
 | Domínio de referência original | referringdomainoriginal |
 | Página | página |
 | Páginas não encontradas | pagesnotfound |
-| Produto | produto |
+| Product | produto |
 | Referenciador | referenciador |
 | Tipo de referenciador | referrertype |
 | Domínio de referência | referringdomain |
