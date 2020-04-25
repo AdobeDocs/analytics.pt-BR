@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Perguntas frequentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
