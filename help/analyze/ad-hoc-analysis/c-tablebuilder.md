@@ -2,7 +2,7 @@
 description: Use o Construtor de tabela para criar um relatório com qualquer configuração de métricas, dimensões e segmentos. Por exemplo, você pode adicionar várias métricas ao Construtor de tabela e aplicar o segmento a todos ao mesmo tempo. Você pode aplicar itens pelos painéis de ferramentas como linhas e detalhamentos ou como colunas e facilmente girar a tabela para obter uma visualização diferente. Depois de criar a tabela, você pode interagir diretamente com a tabela de dados resultante para realizar análises mais detalhadas. Lembre-se de que gerar uma tabela de dados pelo Construtor de tabela executa uma consulta e cria uma nova tabela de dados.
 title: Criador de tabela
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -42,7 +42,7 @@ O [!UICONTROL Criador de tabela] não está disponível para determinados relat�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar itens</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Escolha uma lista de dimensões de itens para criar uma lista fixa de análise. Quando você adiciona itens à lista, eles se tornam persistentes em um relatório salvo e não serão recolhidos quando você abrir um relatório salvo ou programando. </p> <p>Consulte  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Analisar os dados da tabela</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Escolha uma lista de dimensões de itens para criar uma lista fixa de análise. Quando você adiciona itens à lista, eles se tornam persistentes em um relatório salvo e não serão recolhidos quando você abrir um relatório salvo ou programando. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Analisar os dados da tabela</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Colunas</span> </td> 
