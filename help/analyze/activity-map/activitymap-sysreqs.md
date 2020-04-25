@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 O Activity Map é compatível com os seguintes navegadores da Web.
 
-| Navegadores suportados | Versões |
+| Navegadores compatíveis | Versões |
 |--- |--- |
 | Internet Explorer | Última versão |
 | Firefox | Última versão |
