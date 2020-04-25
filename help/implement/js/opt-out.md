@@ -23,8 +23,8 @@ A página de opção de não participação da organização depende do valor da
 
 * No Adobe Experience Platform Launch:
    1. Faça logon em [launch.adobe.com](https://launch.adobe.com) e clique na propriedade desejada.
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. Clique no [!UICONTROL General] acordeão e observe o [!UICONTROL Tracking Server] valor.
+   2. Clique na guia [!UICONTROL Extensões] e, em seguida, clique em [!UICONTROL Configurar] no Adobe Analytics.
+   3. Clique na opção [!UICONTROL Geral] e observe o valor do [!UICONTROL Servidor de rastreamento].
 
 * Em uma implementação do JavaScript:
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
@@ -32,8 +32,8 @@ A página de opção de não participação da organização depende do valor da
 
 * Usando o [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html):
    1. Navegue até seu site usando o navegador Chrome.
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
+   3. Observe o valor [!UICONTROL URL de solicitação - Nome do host].
 
 Depois de encontrar o domínio `trackingServer` da implementação, anexe o caminho `/optout.html` ao final. Por exemplo:
 
