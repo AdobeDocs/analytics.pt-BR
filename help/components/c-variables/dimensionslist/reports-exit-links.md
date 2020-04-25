@@ -18,7 +18,7 @@ Há vários requisitos que devem ser cumpridos para que a página seja preenchid
    * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
    * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
 * Se algum dos requisitos acima não for atendido, a ocorrência não preencherá este relatório.
-* Como em todas as ocorrências de rastreamento de link personalizado, a variável [pageName](/help/implement/vars/page-vars/pagename.md) é removida da solicitação de imagem para evitar inflação para a métrica de exibições de página.
+* Como em todas as ocorrências de rastreamento de link personalizado, a variável [pageName](/help/implement/vars/page-vars/pagename.md) é removida da solicitação de imagem para evitar inflação para a métrica de visualizações de página.
 * É possível visualizar esse relatório nos formatos de tendência e de classificação.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
 * É possível criar [detalhamentos](/help/analyze/reports-analytics/reports-customize/breakdowns.md) com qualquer outra variável.
