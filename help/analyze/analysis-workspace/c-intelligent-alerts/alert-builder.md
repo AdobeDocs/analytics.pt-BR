@@ -16,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Acessar o Criador de alertas
 
-Acesse o Criador de alertas de uma das quatro maneiras:
+Acesse o Criador de alertas de uma das seguintes formas:
 
 * Usando o seguinte atalho no Analysis Workspace:
 
@@ -35,7 +35,7 @@ A interface do Criador de alertas é semelhante àquela que cria segmentos ou m�
 
 **Nome do Alerta**
 
-Especifique um nome para o alerta. O nome do alerta pode conter o nome do relatório ou o limite de métricas.
+Especifique um nome para o alerta. O nome do alerta pode conter o nome do relatório ou o limite da métrica.
 
 **Granularidade de tempo**
 
@@ -45,7 +45,7 @@ Especifique quando você deseja verificar a métrica: por hora, dia, semana ou m
 
 **Destinatários**
 
-Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado para um usuário do Analytics, um grupo do Analytics, um endereço de email bruto ou para um número de telefone.
+Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do Analytics, a um grupo do Analytics, a um endereço de email bruto ou a um número de telefone.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Defina a data de expiração do alerta.
 * Arraste e solte métricas na tela que adicionará disparadores.
 
    Será exibida uma mensagem **“componentes incompatíveis”** se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
-* Determine o limite que a métrica deve exceder antes de um alerta ser definido. É possível definir esse valor como um limite e, em seguida, como uma das seguintes condições:
+* Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 
    * a anomalia existe
    * a anomalia está acima do esperado
    * a anomalia está abaixo do esperado
-   * é igual ou superior a
-   * é menor ou igual a
+   * é igual ou maior que
+   * é igual ou menor que
    * alterações por
    * Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.
    Observe que você também pode usar as métricas calculadas.
 
 *... com esses filtros*
 
-* Arraste e solte segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento &quot;Somente dispositivos móveis&quot; significaria que a regra dispara somente para dispositivos móveis.
-* filtros adicionais serão adicionados usando uma instrução E.
+* Arraste e solte os segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento “Somente dispositivos móveis” significaria que a regra dispara somente para dispositivos móveis.
+* Filtros adicionais serão adicionados usando uma declaração AND.
 
 **Adicionar uma regra**
 
@@ -88,10 +88,10 @@ Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.
 
 ## Visualizar alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-A pré-visualização de alerta interativa mostra a frequência com que um alerta será acionado aproximadamente com base na experiência anterior.
+A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.
 
-Por exemplo, se você definir a granularidade de tempo como diária, a pré-visualização poderá informá-lo que o alerta teria sido disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.
+Por exemplo, se você definir a granularidade de tempo para diário, a visualização pode informar se o alarme foi disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.
 
-Se você descobrir que muitos alertas teriam sido disparados, poderá ajustar o limite no Gerenciador de [alertas](/help/components/c-alerts/alert-manager.md).
+Se achar que muitos alertas podem ter sido disparados, você pode ajustar o limite no [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)
