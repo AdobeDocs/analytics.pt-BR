@@ -14,7 +14,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descrições de campo no Dynamic Tag Management para exibições de página e configurações de conteúdo ao implantar o Analytics.
 
-**[!UICONTROL  *`Property`*]** > ![Ícone](assets/settings_gear.png) de engrenagem **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+**[!UICONTROL *`Property`*]** > ![Ícone de engrenagem](assets/settings_gear.png)**[!UICONTROL  Editar ferramenta ]** > **[!UICONTROL  Exibições e conteúdo da página ]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,14 +26,14 @@ Descrições de campo no Dynamic Tag Management para exibições de página e co
  <tbody>
   <tr>
    <td colname="col1"> Nome da página </td>
-   <td colname="col2"> <p>O nome de cada página do site. </p> <p>Consulte <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
+   <td colname="col2"> <p>O nome de cada página do seu site. </p> <p>Consulte <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Substituição do URL da página </td>
    <td colname="col2"> <p> Substitui o URL real da página. </p> <p>Consulte <a href="../../../vars/page-vars/pageurl.md">pageURL</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Canal (Seção do site) </td>
+   <td colname="col1"> Canal (seção do site) </td>
    <td colname="col2"> <p>Identifica uma seção do site. </p> <p>Consulte <a href="../../../vars/page-vars/channel.md">canal</a>. </p> </td>
   </tr>
   <tr>
