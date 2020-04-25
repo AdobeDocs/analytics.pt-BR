@@ -1,7 +1,7 @@
 ---
 title: Personalização de relatórios no Adobe Analytics
 description: Saiba como personalizar relatórios no Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
