@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # Referenciadores
 
-A dimensão &#39;Quem indicou&#39; mostra o URL de onde seus visitantes vieram antes de chegarem ao site. Por exemplo, se um visitante clicar em um link de `example.com/example-page.html` e chegar ao seu site, `example.com/example-page.html` será a quem indicou se não for definida como parte do seu domínio.
+A dimensão &#39;Quem indicou&#39; mostra o URL de onde seus visitantes vieram antes de chegarem ao site. For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 Essa dimensão exige que você configure os filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos do conjunto de relatórios. Se você não configurar filtros internos de URL, o Adobe Analytics considerará todos os domínios como internos do site.
 
