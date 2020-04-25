@@ -3,7 +3,7 @@ description: O recurso Fontes de dados permite importar dados para o Analytics d
 title: Fontes de dados
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
