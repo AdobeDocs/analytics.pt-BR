@@ -30,11 +30,11 @@ Requisitos de sistema para o Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Administradores </td> 
-   <td colname="col2"> <p>Tenha acesso total à área de trabalho da Análise. </p> </td> 
+   <td colname="col2"> <p>Ter acesso completo à Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Usuários </td> 
-   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
+   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html"  >Grupos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferência de projetos </td> 
@@ -44,11 +44,11 @@ Requisitos de sistema para o Analysis Workspace.
    <td colname="col1"> Navegador </td> 
    <td colname="col2"> <p> Navegadores: </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferencial: Versões mais recentes do Firefox, Chrome, Safari ou Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Versão mais recente do Microsoft Internet Explorer 11. <p> Observação: a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou outro navegador compatível, assim que possível.</p> </li> 
+     <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferencial: versões mais recentes do Firefox, Chrome, Safari ou do Edge. </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Versão mais recente do Microsoft Internet Explorer 11. <p> Observação: a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
-     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> Cookies e JavaScript devem estar habilitados. </li> 
+     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> É necessário habilitar os cookies e o JavaScript. </li> 
      <li id="li_AE8D64267EC74C5290CB5793FB0C04D1">Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior). </li> 
     </ul> </td> 
   </tr> 
