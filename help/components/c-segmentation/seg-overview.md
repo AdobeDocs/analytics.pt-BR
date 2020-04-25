@@ -3,7 +3,7 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -126,7 +126,7 @@ Você pode usar o aninhamento entre contêineres, bem como entre regras em um co
 |---|---|
 | Ocorrência | Somente eventos |
 | Visita | Contêiner de ocorrências, Eventos |
-| Visitante | Contêiner de visitas, Contêiner de ocorrências, Eventos |
+| Visitante. | Contêiner de visitas, Contêiner de ocorrências, Eventos |
 | Grupo lógico | Contêiner de visitante, Contêiner de visita, Contêiner de hit |
 
 **Incluir vários contêineres em uma única definição**
