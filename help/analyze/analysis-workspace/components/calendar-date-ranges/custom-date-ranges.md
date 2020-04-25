@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar intervalos de datas personalizados
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Crie intervalos de datas personalizados no Analysis Workspace e salve-os como Componentes de tempo.
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Novo intervalo de datas]**
+**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
 
 Os intervalos de datas são aplicados no nível do painel. Para adicionar um intervalo de datas ao seu projeto, clique em **Painéis** > *`<select panel>`* e especifique um novo intervalo de datas.
 
@@ -24,7 +24,7 @@ O intervalo de datas personalizado a seguir mostra um intervalo de datas para �
 
 ![](assets/date-range-two-months-ago.png)
 
-O intervalo de datas personalizado é exibido na parte superior do painel do componente [!UICONTROL Intervalo de datas] no seu projeto:
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
