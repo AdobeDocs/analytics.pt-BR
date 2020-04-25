@@ -2,7 +2,7 @@
 description: Dependendo das suas permissões, é possível compartilhar métricas com toda a organização, com grupos ou com usuários individuais.
 title: Compartilhar métricas calculadas
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
