@@ -2,7 +2,7 @@
 description: Saiba sobre as várias ações que podem ser realizadas em um relatório, como configuração de gráficos, análise e extração de dados.
 title: Configurar relatórios existentes
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar regressão linear </p> </td> 
-   <td colname="col2"> <p>Para  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráfico de bolhas</a>. Exibe uma aproximação estatística dos seus dados. </p> </td> 
+   <td colname="col2"> <p>Para <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráfico de bolhas</a>. Exibe uma aproximação estatística dos seus dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
