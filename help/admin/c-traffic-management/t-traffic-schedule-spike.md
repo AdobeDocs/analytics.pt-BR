@@ -3,7 +3,7 @@ description: A seção Programar pico permite alertar a Adobe quanto a picos tem
 title: Programar um pico de tráfego
 topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
