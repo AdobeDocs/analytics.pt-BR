@@ -2,7 +2,7 @@
 description: A integração dos Data Connectors para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
 title: Variáveis do Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
