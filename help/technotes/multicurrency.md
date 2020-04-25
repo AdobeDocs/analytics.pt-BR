@@ -3,7 +3,7 @@ description: Descreve como definir códigos monetários de destino para que o su
 title: Suporte a várias moedas
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
