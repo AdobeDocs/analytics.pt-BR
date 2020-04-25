@@ -61,6 +61,6 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inati
 
 1. (Opcional) Você também pode ir para outros construtores de componentes do Analytics e garantir que eles passaram a mostrar um rótulo de conjunto de relatórios que indica
 
-   * Onde um segmento será criado: [Construtor de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Onde uma métrica calculada será criada: [Construtor de métricas calculadas](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Onde um alerta será criado: [Construtor de alertas](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * Onde um segmento será criado: [Construtor de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Onde uma métrica calculada será criada: [Construtor de métricas calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Onde um alerta será criado: [Construtor de alertas](https://docs.adobe.com/content/help/pt-BR/analytics/components/alerts/alert-builder.html).
