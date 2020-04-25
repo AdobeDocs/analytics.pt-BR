@@ -3,7 +3,7 @@ description: Acesse os recursos adicionais de informação do Activity Map da Ad
 title: Recursos de conhecimento
 topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
