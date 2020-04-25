@@ -3,7 +3,7 @@ description: Define configurações comuns para um site que agrega conteúdo, co
 title: Portal agregador
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Define configurações comuns para um site que agrega conteúdo, como um portal 
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Campanha interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Categoria de referência | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
+| Campanha interna | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Categoria de referência | String | Básica | Mais recente (último) | Visita | `evar3` |
 
 | Eventos bem-sucedidos | Tipo | `s_code`variável |
 |---|---|---|
