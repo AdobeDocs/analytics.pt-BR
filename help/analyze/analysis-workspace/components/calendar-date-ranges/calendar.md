@@ -16,11 +16,11 @@ As seleções do calendário se aplicam a nível de painel, mas você pode aplic
 
 ![Calendário](assets/aw_calendar.png)
 
-O primeiro clique em um calendário inicia uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a `Shift` tecla for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
+O primeiro clique em um calendário start uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a `Shift` tecla for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
 
 Você também pode arrastar datas (e dimensões de tempo) em um projeto do Workspace. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
 
-[Vídeo sobre o uso do intervalo de datas e do calendário do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Vídeo sobre o uso do intervalo de datas e do calendário do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | Configuração | Descrição |
 |--- |--- |
