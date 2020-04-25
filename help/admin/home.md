@@ -1,7 +1,7 @@
 ---
 title: Ajuda de administração do Analytics
 description: Ajuda administrativa para administradores do Adobe Analytics, incluindo gerenciamento de usuários e produtos no Admin Console, configuração de conjuntos de relatórios, variáveis, classificações e coleta de dados.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
