@@ -3,7 +3,7 @@ description: Os códigos monetários usados na Experience Cloud.
 title: Códigos monetários
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ Os códigos monetários usados na Experience Cloud.
 | BAM | Marco Conversível da Bósnia e Herzegovina |
 | BBD | Barbados - Dólares barbadianos |
 | BDT | Bangladesh - Taka |
-| BGN | Bulgária - Lev |
+| BGN | Bulgária - Leva |
 | BHD | Bahrein - Dinar do Bahrein |
 | BIF | Burundi - Francos |
 | BMD | Bermudas - Dólares das Bermudas |
@@ -94,7 +94,7 @@ Os códigos monetários usados na Experience Cloud.
 | KMF | Comoros - Francos |
 | KPW | Coreia do Norte - Won norte-coreano |
 | KRW | Coreia do Sul - Won sul-coreano |
-| KWD | Kuwait - Dinares kuaitianos |
+| KWD | Kuwait - Dinares kuwaitianos |
 | KYD | Ilhas Cayman - Dólares das Caimans |
 | KZT | Cazaquistão - Tenge |
 | LAK | Laos - Kips |
@@ -109,7 +109,7 @@ Os códigos monetários usados na Experience Cloud.
 | MDL | Moldávia - Leu |
 | MGA | Madagascar - Ariary |
 | MKD | Macedônia - Dinares |
-| MMK | Birmânia - Kiats |
+| MMK | Mianmar - Quiates |
 | MNT | Mongólia - Tugriks |
 | MOP | Macau - Patacas |
 | MRO | Mauritânia - Ouguiyas |
