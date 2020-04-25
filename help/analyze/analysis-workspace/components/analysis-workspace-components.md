@@ -1,5 +1,5 @@
 ---
-description: Os componentes do Analysis Workspace são métricas, dimensões, segmentos e granularidades que você pode arrastar e soltar em um projeto. Os componentes personalizados que você cria são adicionados a esses painéis, como intervalos de datas personalizados.
+description: Os componentes do Analysis Workspace são métricas, dimensões, segmentos e granularidades que você pode arrastar e soltar em um projeto. Os componentes personalizados que você criou são adicionados a esses painéis, como intervalos de data personalizados.
 title: Visão geral dos componentes
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Visão geral dos componentes
 
-Os componentes do Analysis Workspace são métricas, dimensões, segmentos e granularidades que você pode arrastar e soltar em um projeto. Os componentes personalizados que você cria são adicionados a esses painéis, como intervalos de datas personalizados.
+Os componentes do Analysis Workspace são métricas, dimensões, segmentos e granularidades que você pode arrastar e soltar em um projeto. Os componentes personalizados que você criou são adicionados a esses painéis, como intervalos de data personalizados.
 
 To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. Você pode alternar entre Painéis (Painel em branco, [Painel de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) ou painel [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e Componentes usando os ícones do painel esquerdo ou usando [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
@@ -24,10 +24,10 @@ Há várias maneiras de gerenciar componentes (individualmente ou ao selecionar 
 
 >[!NOTE] Essas ações não se aplicam aos componentes de Tempo.
 
-| Ação do componente | Descrição |
+| Ação de componente | Descrição |
 |--- |--- |
-| Tag | Organize ou gerencie componentes aplicando tags. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos |
-| Favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos |
+| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
 | Aprovar | Aprove o componente para torná-lo canônico. Assim, o componente é exibido no gerenciador de componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos |
 | Compartilhar | Aplica-se somente a segmentos. |
 | Excluir | Aplica-se somente a segmentos. |
