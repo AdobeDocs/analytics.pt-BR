@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Conversão
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 As Fontes de dados oferecem suporte às seguintes dimensões e métricas de dados de conversão para os tipos de dados que são processados como conversão.
 
-## Dimensões e métricas de conversão {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversão Dimensões e métricas {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. O total de eventos personalizados e exibições eVar apoiados por um conjunto de relatórios depende de contrato, e varia de acordo com cada empresa.
 
@@ -27,7 +27,7 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
 | Canal | Nome do canal. |
 | eVarn | Nome da eVarn. Valores válidos para n são inteiros entre 1 - 75. |
-| Produto | Nome do produto. |
+| Product | Nome do produto. |
 | Estado | Nome do estado. |
 | CEP | Nome do CEP. |
 
