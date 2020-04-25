@@ -1,7 +1,7 @@
 ---
 title: Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 description: Saiba mais sobre a duração do fim da vida útil e as implicações para [!UICONTROL Impor restrições de logon de IP]
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
