@@ -1,7 +1,7 @@
 ---
 description: Vários relatórios do Adobe Analytics podem mostrar Não especificado, Outros ou Desconhecido, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
 title: Não especificado, Outro e Desconhecido nos relatórios
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
