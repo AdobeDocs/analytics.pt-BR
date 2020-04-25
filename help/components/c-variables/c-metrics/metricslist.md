@@ -3,7 +3,7 @@ description: As métricas são a base dos relatórios e ajudam a visualizar e co
 title: Visão geral das métricas
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
