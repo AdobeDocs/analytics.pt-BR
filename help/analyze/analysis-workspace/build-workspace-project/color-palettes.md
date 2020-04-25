@@ -8,7 +8,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 ---
 
 
-# Paleta de cores da visualização
+# Paleta de cores de visualização
 
 É possível alterar a paleta de cores da visualização usada no Workspace ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações no Workspace, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
 
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Lembre-se:
 
-* Há cinco paletas de cores pré-definidas para escolha. A paleta padrão e a paleta abaixo foram otimizadas para obter o melhor contraste e são mais acessíveis para daltônicos.
+* Há cinco paletas de cores predefinidas para sua escolha. A paleta padrão e a paleta abaixo foram otimizadas para obter o melhor contraste e são mais acessíveis para daltônicos.
 * A terceira, a quarta e a quinta das paletas de cores abaixo, contando a partir das duas primeiras, foram otimizadas em termos de harmonia de cores.
 
 ## Para alterar a paleta de cores:
@@ -29,5 +29,5 @@ Lembre-se:
    ![](assets/custom_palette.png)
 
 1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
-1. Especifique até 16 valores hexadecimais separados por vírgulas (por exemplo, #00a4e4) para as cores que você pretende usar. Por exemplo, se você quiser usar apenas quatro valores, essas cores serão automaticamente repetidas em visualizações que contêm mais cores.
+1. Especifique até 16 valores hexadecimais separados por vírgula (por exemplo, #00a4e4) para as cores que pretende usar. Caso deseje usar somente quatro valores, por exemplo, essas cores serão repetidas automaticamente nas visualizações que apresentarem mais cores.
 
