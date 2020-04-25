@@ -3,7 +3,7 @@ description: Define as configurações comuns para um site de comércio eletrôn
 title: Comércio
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ Define as configurações comuns para um site de comércio eletrônico.
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Promoções internas | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Categoria de merchandising | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
-| Variável de comércio 4 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar4` |
-| Variável de comércio 5 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar5` |
+| Promoções internas | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Categoria de merchandising | String | Básica | Mais recente (último) | Visita | `evar3` |
+| Variável de comércio 4 | String | Básica | Mais recente (último) | Visita | `evar4` |
+| Variável de comércio 5 | String | Básica | Mais recente (último) | Visita | `evar5` |
 
 | Eventos bem-sucedidos | Tipo | `s_code`variável |
 |---|---|---|
