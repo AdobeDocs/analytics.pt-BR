@@ -28,10 +28,10 @@ Por exemplo, os visitantes muitas vezes clicam em uma campanha de Pesquisa paga 
 
 Especifique a expiração do envolvimento do visitante.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. No [!UICONTROL Gerenciador do conjunto de relatórios], clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Expiração do canal de marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
 1. Configure os campos de expiração de envolvimento do visitante.
-1. Clique em **[!UICONTROL Save.]**
+1. Clique em **[!UICONTROL Salvar.]**
