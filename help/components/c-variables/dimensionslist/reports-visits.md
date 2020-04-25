@@ -3,7 +3,7 @@ description: Exibe o número de visitas realizadas em todo o site durante um per
 title: Visitas
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Consulte [Acesse Métrica](/help/components/c-variables/c-metrics/metrics-visit.
 <table id="table_3138CA443CAC4F55838216E8B8786EE2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Produto </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Navegação </th> 
   </tr> 
  </thead>
