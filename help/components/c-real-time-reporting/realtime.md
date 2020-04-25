@@ -3,7 +3,7 @@ description: Exibe o tráfego da página da Web e classifica as visualizações 
 title: Visão geral do relatório em tempo real
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
