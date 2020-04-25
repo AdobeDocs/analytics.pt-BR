@@ -2,7 +2,7 @@
 description: 'null'
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ A visualização de mapa no Analysis Workspace
 
 ## Criar uma visualização de mapa {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. Na lista de visualizações, solte o **[!UICONTROL Mapa]** em um painel de Forma livre:
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ A visualização de mapa no Analysis Workspace
  </tbody> 
 </table>
 
-1. Clique em **[!UICONTROL Criar]**.
+1. Clique em **[!UICONTROL Build]**.
 
    A primeira exibição será uma exibição do mundo com um mapa de propagação, semelhante a este.
 
