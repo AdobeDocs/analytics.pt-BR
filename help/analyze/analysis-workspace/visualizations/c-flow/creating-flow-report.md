@@ -2,7 +2,7 @@
 description: 'null'
 title: Configurar uma visualização de fluxo
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ O diagrama de fluxo é interativo. Passe o mouse sobre o diagrama para alterar o
 
 Os caminhos no diagrama são proporcionais. Caminhos com maior atividade aparecem mais grossos.
 
-Ao clicar em um nó no diagrama, os detalhes dele são exibidos. Por exemplo, se você clicar em **[!UICONTROL Resultados da pesquisa]** na parte superior direita do diagrama principal acima, o diagrama se expande para mostrar mais detalhes sobre o nó de resultados da pesquisa. Clique em um nó novamente para recolhê-lo.
+Ao clicar em um nó no diagrama, os detalhes dele são exibidos. For example, if you click **[!UICONTROL Search Results]** at the top right in the top diagram above, the diagram expands to show more details about the search results node. Clique em um nó novamente para recolhê-lo.
 
 ![](assets/flow3.jpg)
 
-Por padrão, o diagrama mostra os cinco fluxos principais. Se clicar no nó **[!UICONTROL Mais]** na parte inferior do diagrama, o diagrama se expande para mostrar mais cinco fluxos. Continue a clicar em **[!UICONTROL Mais]** para expandir até não haver mais fluxos adicionais para mostrar.
+Por padrão, o diagrama mostra os cinco fluxos principais. If you click on the **[!UICONTROL More]** node at the bottom of the diagram, the diagram expands down to show five more flows. Continue clicking **[!UICONTROL More]** to expand until there are no additional flows to show.
 
 Não há limites para explorar o diagrama de Fluxo.
 
-Além disso, é possível exportar e analisar posteriormente o diagrama de Fluxo como parte de um arquivo .CSV de um projeto. Basta ir até **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**.
+You can also export and further analyze your Flow diagram as part of a project&#39;s .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
