@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Guia de administração do Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -27,7 +27,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [Variáveis de conversão (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variáveis de conversão](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
-      + [Variáveis de lista](admin/conversion-var-admin/list-var-admin.md)
+      + [Variáveis da Lista](admin/conversion-var-admin/list-var-admin.md)
    + [Códigos monetários](admin/currency.md)
    + [Descrições personalizadas de relatórios](admin/custom-desc-admin.md)
    + [Personalizar calendário](admin/custom-calendar.md)
