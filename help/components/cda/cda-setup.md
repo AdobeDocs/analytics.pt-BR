@@ -51,8 +51,8 @@ A Adobe oferta um modelo para ver dados vitais de desempenho entre dispositivos.
 
 1. Navegue até [experience.adobe.com](https://experiencecloud.adobe.com) e faça logon usando as credenciais da AdobeID.
 1. Clique no ícone de 9-grid na parte superior e clique em Analytics.
-1. Clique [!UICONTROL Workspace] na parte superior e, em seguida, clique em [!UICONTROL Create New Project].
-1. Localize o &quot;IQ da jornada: &quot;Cross-Device Analytics&quot; e, em seguida, clique em [!UICONTROL Create].
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. Localize o &quot;IQ da jornada: &quot;Análise entre dispositivos&quot; e, em seguida, clique em [!UICONTROL Criar].
 1. Se solicitado, altere o conjunto de relatórios para um que suporte CDA.
 
 É criado um projeto da área de trabalho de Análise que contém vários painéis. Na parte superior, um índice e uma introdução são mostrados, permitindo o contexto do relatório e a navegação para relatórios individuais. Clique em um link dentro do sumário ou expanda a tabela de um painel para visualização desses relatórios.
