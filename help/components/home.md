@@ -1,7 +1,7 @@
 ---
 title: Ajuda dos componentes do Analytics
 description: 'null'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
