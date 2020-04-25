@@ -2,7 +2,7 @@
 description: Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® ao marketing de email do Delivra para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
 title: Conector de dados do Delivra para Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -74,7 +74,7 @@ Isso garantirá que as práticas recomendadas ou os pré-requisitos adequados es
 
 ### Adobe Analytics {#adobe-analytics}
 
-Consulte as seguintes informações sobre a integração de Data Connectors, pois ela se relaciona ao Adobe Analytics:
+Analise as seguintes informações sobre a integração dos Data Connectors e de como ela se relaciona com o Adobe Analytics:
 
 * **Específico do Conjunto de relatórios:** observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração.
 * **Representante autorizado:** esteja ciente de que ativar essa integração pode gerar tarifas para sua empresa de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da empresa; e, como tal, a empresa concorda em pagar as tarifas, se houver, estabelecidas no contrato de serviço descrito acima.
