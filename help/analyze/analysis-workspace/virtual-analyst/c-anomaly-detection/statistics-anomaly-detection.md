@@ -2,7 +2,7 @@
 description: A detecção de anomalias no Analysis Workspace usa uma série de técnicas estatísticas avançadas para determinar se uma observação deve ser considerada anômala ou não.
 title: Técnicas estatísticas usadas na Detecção de anomalias
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ O algoritmo testa a adequação de cada uma dessas combinações, selecionando a
 Após a seleção do modelo, o algoritmo ajusta os resultados com base em feriados e sazonalidade ano a ano. Para feriados, o algoritmo verifica se os seguintes feriados estão presentes no intervalo de datas do relatório:
 
 * Memorial Day (somente EUA)
-* 4 de julho (somente EUA)
+* Julho de 4
 * Dia de Ação de Graças (somente EUA)
 * Black Friday (somente EUA)
 * Cyber Monday (somente EUA)
