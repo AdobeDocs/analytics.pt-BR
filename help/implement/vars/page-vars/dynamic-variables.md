@@ -25,9 +25,9 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Em [!UICONTROL Actions], clique em uma [!UICONTROL Adobe Analytics - Set Variables] ação existente ou no ícone &#39;+&#39;.
-5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e [!UICONTROL Action Type] como [!UICONTROL Set Variables].
+3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize o valor de dimensão desejado.
 
 Coloque o prefixo da variável dinâmica no campo de texto, seguido pelo parâmetro da string de consulta ou pelo cabeçalho HTTP que você deseja referenciar. Por padrão, o prefixo da variável dinâmica é `D=`.
