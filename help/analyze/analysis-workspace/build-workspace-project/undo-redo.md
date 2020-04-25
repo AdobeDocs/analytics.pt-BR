@@ -2,7 +2,7 @@
 description: Alterações e aprimoramentos feitas à opção de Desfazer no Analysis Workspace.
 title: Configurações Desfazer e Refazer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Configurações Desfazer e Refazer
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Desfazer/Refazer]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* A opção **[!UICONTROL Refazer]** (para refazer uma ação desfeita) pode ser encontrada no menu **[!UICONTROL Editar]**.
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* Clicar em **[!UICONTROL Salvar]** não limpa a pilha de **[!UICONTROL Desfazer]**.
+* Clicar **[!UICONTROL Save]** não limpa a **[!UICONTROL Undo]** pilha.
 
-* **[!UICONTROL Novo projeto]** ou **[!UICONTROL Abrir projeto existente]** limpa a pilha de **[!UICONTROL Desfazer]**
+* **[!UICONTROL New Project]** ou **[!UICONTROL Open Existing Project]** limpar a **[!UICONTROL Undo]** pilha
 
 * É possível desfazer/refazer uma alteração no conjunto de relatórios.
 * Uma mensagem de desfazer/refazer próxima ao nome do projeto indica quando uma ação de desfazer ou refazer estiver em andamento.
