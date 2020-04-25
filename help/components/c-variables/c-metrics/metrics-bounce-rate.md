@@ -17,8 +17,8 @@ A taxa de rejeição utiliza o  [Rejeita a](/help/components/c-variables/c-metri
 
 `Bounces divided by Entries`
 
-A Taxa de rejeição não inclui visitas nas quais várias ações ocorreram em uma única página. Por exemplo, uma visita com uma visualização de vídeo em uma única página é um Acesso Único, mas não uma Rejeição.
+A Taxa de rejeição não inclui visitas em que ocorrem várias ações em uma mesma página. Por exemplo, uma visita com uma exibição de vídeo em uma única página é um Acesso Único, mas não uma Rejeição.
 
->[!NOTE] Às vezes, as implementações atuais podem conter uma métrica calculada que difere da métrica padrão do Analytics. Verifique a definição da métrica calculada para garantir que não haja diferenças.
+>[!NOTE] Às vezes, as implementações atuais podem conter uma métrica calculada que difere da métrica padrão do Analytics. Verifique a definição de métrica calculada para verificar se não há diferenças.
 
-Consulte este artigo [da](https://marketing.adobe.com/resources/help/pt_BR/home/index.html#kb-analytics-comparing-bounces-and-single-access) Knowledge base para obter mais informações.
+Consulte este [artigo da Knowledge base](https://marketing.adobe.com/resources/help/pt_BR/home/index.html#kb-analytics-comparing-bounces-and-single-access) para obter mais informações.
