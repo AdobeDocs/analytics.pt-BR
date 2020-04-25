@@ -3,7 +3,7 @@ description: Uma Visualização de Página é contada para cada chamada de servi
 title: Exibição da Página
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
