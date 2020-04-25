@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes
 description: Obtenha respostas para perguntas frequentes ao mudar de uma plataforma de terceiros para a Adobe.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
