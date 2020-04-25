@@ -22,8 +22,8 @@ Pontos de domínio primários é um campo da opção [!UICONTROL Cookies] ao con
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Amplie o [!UICONTROL Cookies] acordeão, que revela o [!UICONTROL First-party Domain Periods] campo.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio primários].
 
 Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
