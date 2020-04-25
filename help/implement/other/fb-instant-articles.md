@@ -24,7 +24,7 @@ O fluxo de trabalho abrangente para implementar o Adobe Analytics é o seguinte:
 
 ### Etapa 1: criar uma página `stats.html`
 
-A amostra de HTML abaixo pode ser usada para capturar estatísticas dos artigos instantâneos. Normalmente, esse arquivo seria hospedado em um dos servidores da Web do empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
+O HTML de exemplo abaixo pode ser usado para capturar dados de estatística dos artigos instantâneos. Normalmente, este artigo seria hospedado em um dos servidores da sua empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
 
 ```html
 <html>
