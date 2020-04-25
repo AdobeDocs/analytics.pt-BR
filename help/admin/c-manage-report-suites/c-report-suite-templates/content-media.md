@@ -3,7 +3,7 @@ description: Define configurações comuns de um site que desenvolve conteúdo o
 title: Conteúdo e mídia
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,10 +15,10 @@ Define configurações comuns de um site que desenvolve conteúdo original e exi
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Campanha interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Variável de comércio 3 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
-| Variável de comércio 4 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar4` |
+| Campanha interna | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Variável de comércio 3 | String | Básica | Mais recente (último) | Visita | `evar3` |
+| Variável de comércio 4 | String | Básica | Mais recente (último) | Visita | `evar4` |
 
 | Eventos bem-sucedidos | Tipo | `s_code`variável |
 |---|---|---|
