@@ -2,7 +2,7 @@
 description: Esta integração de email Adobe® Data Connectors combina informações comportamentais do Adobe Analytics® ao marketing de email do Datran para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
 title: Conector de dados do Datran para Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ Essa integração de email do Data Connectors oferece suporte a segmentos de mar
 
 Essa integração apresenta os seguintes segmentos de marketing, prontos para uso:
 
-* **Perfis de compra** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
+* **Perfis de compra:** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **Perfil comportamental de exibição de produto/conteúdo:** alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **Perfil de abandono do carrinho:** ajude os visitantes a converterem-se em clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em concluir os carrinhos.
 * Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades dos usuários.
@@ -79,10 +79,10 @@ Isso garantirá que as práticas recomendadas ou os pré-requisitos adequados es
 
 ### Adobe Analytics {#adobe-analytics}
 
-Consulte as seguintes informações sobre a integração de Data Connectors, pois ela se relaciona ao Adobe Analytics:
+Analise as seguintes informações sobre a integração dos Data Connectors e de como ela se relaciona com o Adobe Analytics:
 
 * **Específico do Conjunto de relatórios:** observe que essa integração é específica do conjunto de relatórios. Verifique se você selecionou o conjunto de relatórios desejado antes de ativar a integração.
-* **Representante autorizado:** saiba que a habilitar essa integração pode fazer com que a empresa tenha tarifas de acordo com o contrato de serviço com a Adobe, Inc. ou com o contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da empresa; e, como tal, a empresa concorda em pagar as tarifas, se houver, estabelecidas no contrato de serviço descrito acima.
+* **Representante autorizado:** esteja ciente de que ativar essa integração pode gerar tarifas para sua empresa de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da empresa; e, como tal, a empresa concorda em pagar as tarifas, se houver, estabelecidas no contrato de serviço descrito acima.
 * **Omniture Data Warehouse™:** essa integração exige que o Data Warehouse seja habilitado para gerar segmentos de remarketing. Se você não tiver ativado o Data Warehouse, entre em contato com a Adobe para obter detalhes.
 * **ID do destinatário:** a integração exige que capturemos e armazenemos uma &quot;ID de visitante&quot; em uma variável do Adobe Analytics (eVar). A ID do visitante (geralmente chamada de &quot;ID do destinatário&quot;) é uma representação codificada ou numérica de um endereço de email do sistema Datran. Essa &quot;ID de destinatário&quot; está associada ao comportamento downstream de visitantes no site (abandonos de carrinho, compras etc.) que é extraída para o sistema Datran e pode ser aproveitada para fins de remarketing. Como parte do processo de configuração, você deve identificar uma eVar para essa finalidade quando solicitado pelo Assistente.
 * **Rastreamento externo:** se, atualmente, você não estiver seguindo a prática recomendada de ativação do rastreamento externo para cada campanha de email enviada, é necessário fazê-lo para garantir uma integração bem-sucedida. Consulte a seção Datran abaixo para obter detalhes.
