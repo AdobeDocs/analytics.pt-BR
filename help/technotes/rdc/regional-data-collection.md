@@ -1,7 +1,7 @@
 ---
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
