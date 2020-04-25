@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics e cookies do navegador
 description: Saiba como o Adobe Analytics lida com os cookies de um navegador.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
 
 ---
