@@ -15,7 +15,7 @@ O item de linha &#39;Nenhum&#39; é um item catch-all que representa todas as co
 
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
-Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
+Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
 
 **Posso usar uma janela de retrospectiva personalizada com meus modelos de atribuição?**
 
@@ -45,7 +45,7 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 * Visitas
 * Ocorrências
 * Exibições de página
-* Métricas A4T
+* Métricas do A4T
 * Métricas de tempo gasto
 * Rejeições
 * Taxa de rejeição
