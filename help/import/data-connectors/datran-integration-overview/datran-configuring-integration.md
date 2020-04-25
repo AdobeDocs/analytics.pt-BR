@@ -2,7 +2,7 @@
 description: Tarefas e informações necessárias antes de executar o assistente de integração do Data Connectors para implementar a integração.
 title: Preparação para a integração de email dos Data Connectors
 uuid: 3cedc6ec-1453-4b1f-879c-972b0238d124
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
