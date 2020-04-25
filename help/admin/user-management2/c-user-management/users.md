@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Visão geral do gerenciamento de usuários
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -57,7 +57,7 @@ Criar um painel padrão para um conjunto de relatórios especificado.
 
 | Elemento | Descrição |
 |---|---|
-| [!UICONTROL Nome do Usuário] | O nome do usuário usado para fazer logon. Essa entrada não pode ter mais de 40 caracteres. Nomes maiores que esse limite são truncados. |
+| [!UICONTROL Nome do usuário] | O nome do usuário usado para fazer logon. Essa entrada não pode ter mais de 40 caracteres. Nomes maiores que esse limite são truncados. |
 | [!UICONTROL Definir senha] | A senha padrão da conta. |
 | [!UICONTROL Confirmar senha] | A senha padrão da conta. |
 | [!UICONTROL Requerer que o usuário altere a senha] | (Opcional) Quando selecionado, o usuário deve alterar a senha no próximo logon. |
