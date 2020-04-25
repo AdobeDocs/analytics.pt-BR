@@ -35,12 +35,12 @@ Essas variáveis de relatórios de privacidade fornecem uma estrutura fácil de 
 É possível ativar as Variáveis de relatórios de privacidade por meio de uma nova configuração de Privacidade disponível no Admin Console do Analytics.
 
 Cada conjunto de relatórios pode ser configurado da seguinte maneira:
-1. Em Relatórios e análises, clique em **[!UICONTROL Admin > Report Suites]**.
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
+1. Em Reports &amp; Analytics, clique em **[!UICONTROL Admin. > Conjuntos de relatórios]**.
+1. Selecione os conjuntos de relatórios dos quais você está coletando dados de mídia e clique em **[!UICONTROL Editar configurações > Gerenciamento de privacidade]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
+1. Clique no botão **[!UICONTROL Ativar relatórios de privacidade de dados]**.
 
    > [!NOTE] Após ativadas, essas variáveis não podem ser desativadas.
 
@@ -58,13 +58,13 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
 Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de relatórios de privacidade.  Cabe a cada engenheiro de implementação determinar como gerenciar e manter a configuração dessas variáveis.
 
-Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)para obter uma orientação geral sobre como implementar variáveis de dados de contexto.
+Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)para obter uma orientação geral sobre como implementar variáveis de dados de contexto.
 
 ### SSF
 
 * Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
-   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0 - Opcional. Use o valor &quot;0&quot; para clientes que consentiram com o marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
 
 ### DMP
