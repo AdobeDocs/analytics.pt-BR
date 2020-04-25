@@ -3,7 +3,7 @@ description: Métricas calculadas e calculadas avançadas (ou derivadas) são m�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -25,7 +25,7 @@ Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais fle
 
 * Adobe [!DNL Analytics] Foundation: calculadas
 * [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + Calculadas avançadas
-* [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calculadas + Calculadas avançadas
+* [Adobe Analytics Prime](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
 Veja uma comparação entre os recursos de Métricas calculadas e Métricas calculadas avançadas:
