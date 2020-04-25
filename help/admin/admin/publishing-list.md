@@ -3,7 +3,7 @@ description: A publicação de listas fornece uma maneira fácil de enviar vári
 title: Listas de publicação
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
