@@ -2,7 +2,7 @@
 description: Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 title: Ativar a integração
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Use o Assistente de configuração do Data Connectors da Adobe para configurar a
 
 | Campo | Descrição |
 |--- |--- |
-| Conjunto de relatórios | O conjunto de relatórios que recebe os dados dessa integração. |
+| Conjunto de relatórios  | O conjunto de relatórios que recebe os dados dessa integração. |
 | Nome da integração | Especifique o nome da integração que o Data Connectors exibe na lista Integração ativa do conjunto de relatórios. |
 | UUID de integração | Especifique sua UUID de integração do DreamMail. |
 | Nome do cliente | Especifique o nome do cliente do DreamMail. |
