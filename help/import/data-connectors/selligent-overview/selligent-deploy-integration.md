@@ -2,7 +2,7 @@
 description: A implantação dessa integração é um processo simples de três etapas.
 title: Implantar a integração
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
