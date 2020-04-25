@@ -2,7 +2,7 @@
 description: Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 title: Ativar a integração
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Use o Assistente de configuração do Data Connectors da Adobe para configurar a
 
 | Campo | Descrição |
 |--- |--- |
-| Conjunto de relatórios | O conjunto de relatórios que recebe os dados dessa integração. |
+| Conjunto de relatórios  | O conjunto de relatórios que recebe os dados dessa integração. |
 | Nome da integração | Especifique o nome da integração que o Data Connectors exibe na lista Integração ativa do conjunto de relatórios. |
 | ID da Conta | Especifique a ID de conta Aprimo. |
 | ID de destinatário | Essa ID é uma representação codificada ou numérica de um endereço de email do sistema Aprimo. Essa &quot;ID do destinatário&quot; está associada ao comportamento de downstream do visitante no site ID do destinatário (abandonos de carrinho, compras etc.) que é extraída para o sistema Aprimo e pode ser aproveitada para fins de remarketing. |
