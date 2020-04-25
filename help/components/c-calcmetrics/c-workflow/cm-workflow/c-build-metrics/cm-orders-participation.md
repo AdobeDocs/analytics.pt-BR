@@ -2,7 +2,7 @@
 description: Explica como criar uma métrica que exibe quais Canais de marketing fornecem assistência em impulsionar pedidos. Isso pode ser adaptado a qualquer dimensão ou evento de sucesso de seu interesse.
 title: Métrica de auxílio de pedidos
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
