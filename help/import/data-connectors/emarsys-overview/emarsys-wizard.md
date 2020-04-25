@@ -2,7 +2,7 @@
 description: O Assistente de integração do Data Connectors guia você durante o processo de integração.
 title: Execução do Assistente de integração do Data Connectors
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
