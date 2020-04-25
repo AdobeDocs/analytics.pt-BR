@@ -1,7 +1,7 @@
 ---
 description: Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 title: Adobe Analytics - Principais conceitos
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,7 +13,7 @@ Esta seção contém os principais conceitos do Adobe Analytics, uma breve descr
 
 ## Ferramentas do Analytics {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-| Produto | Descrição | Link da documentação |
+| Product | Descrição | Link da documentação |
 |--- |--- |--- |
 | Analysis Workspace | Solução de navegador para desenvolver projetos de análise avançados e personalizados, bem como para democratizar informações. Oferece mais flexibilidade de relatórios que os Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reports &amp; Analytics (antigo SiteCatalyst) | Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. | [Página inicial do Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/getting-started.html) |
@@ -82,7 +82,7 @@ Clique [aqui](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/term
 | Opção | Descrição | Link da documentação |
 |---|---|---|
 | Classificação do importador | Importe metadados de dimensões capturadas pelo navegador ou por meio do upload de FTP. Método manual comparado ao Construtor de regras. | [Classificação do importador](https://marketing.adobe.com/resources/help/pt_BR/reference/c_working_with_saint.html) |
-| Construtor de regras | Cria classificações de metadados de dimensões automaticamente, com base nas regras definidas pelo usuário. | [Criador de regras de classificação](https://marketing.adobe.com/resources/help/pt_BR/reference/classification_rule_builder.html) |
+| Construtor de regras  | Cria classificações de metadados de dimensões automaticamente, com base nas regras definidas pelo usuário. | [Criador de regras de classificação](https://marketing.adobe.com/resources/help/pt_BR/reference/classification_rule_builder.html) |
 | Atributos do cliente | Dados do CRM carregados na Experience Cloud para uso no Adobe Analytics e no Adobe Target. | [Atributos do cliente](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html) |
 | Fontes de dados | Importe métricas offline no Analytics em relação a dimensões ou diariamente. | [Fontes de dados](https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html) |
 | Data Connectors do Adobe Exchange | Consulte [Ferramentas do Analytics.](/help/landing/an-key-concepts.md) |  |
