@@ -2,7 +2,7 @@
 description: A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
 title: Visualizar uso do conjunto de relatórios
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ O painel de Uso de conjuntos de relatórios
 
 | Coluna | Definição |
 |--- |--- |
-| Nome do conjunto de relatórios | Nome amigável do conjunto de relatórios |
+| Conjunto de relatórios Nome | Nome amigável do conjunto de relatórios |
 | Todas as chamadas (% do total) | Todas as chamadas do servidor incorridas no período de uso atual. |
 | Chamadas primárias (%) | Todas as chamadas do servidor primárias (e o respectivo percentual do total) incorridas no período de uso atual. |
 | Chamadas secundárias (%) | Todas as chamadas do servidor secundárias (e o respectivo percentual do total) incorridas no período de uso atual. |
