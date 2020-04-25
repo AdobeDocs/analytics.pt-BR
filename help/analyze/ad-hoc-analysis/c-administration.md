@@ -2,7 +2,7 @@
 description: Configure usuários e saiba mais sobre amostra de dados.
 title: Administração
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
