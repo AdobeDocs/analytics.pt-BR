@@ -2,7 +2,7 @@
 description: As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, datas, unidades, ordens, receita, e assim por diante. As métricas e dados associados são exibidos nas colunas dos relatórios.
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -68,7 +68,7 @@ t_add_metrics_dsc.xml
 
    É possível especificar as métricas padrão previamente em [!UICONTROL Configurações], se desejar reduzir a necessidade de adicionar métricas repetidamente no relatório.
 
-   Consulte  [Guia Classificado - Definições](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   Consulte [Guia Classificado - Definições](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Criador de métricas calculada {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
