@@ -3,7 +3,7 @@ description: Mede a quantia de receita gerada por todos os seus produtos durante
 title: Receita
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
