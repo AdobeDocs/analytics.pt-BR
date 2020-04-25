@@ -1,7 +1,7 @@
 ---
 title: Guia de tradução de métricas normalmente usadas em outras plataformas
 description: Entenda como obter dados de métrica para muitos relatórios comuns usando a terminologia mais familiar aos usuários do Google Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
