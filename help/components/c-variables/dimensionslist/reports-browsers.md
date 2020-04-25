@@ -3,7 +3,7 @@ description: Lista as versões de navegadores usadas para visitar seu site como 
 title: Navegador
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
