@@ -2,7 +2,7 @@
 description: O Assistente de integração do Data Connectors guia você durante o processo de integração.
 title: Execução do Assistente de integração do Data Connectors
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -111,7 +111,7 @@ Para configurar a integração:
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Coleta de dados: solução automatizada </p> </td> 
-   <td colname="col3"> <p>Selecione <b>Solução automatizada</b> se desejar usar um modelo de coleta automatizada para essa integração e, depois, especifique os identificadores exclusivos usados nessa integração. </p> <p> <p>Observação: a Solução automatizada é a seleção padrão. </p> </p> <p>Se você selecionar essa opção, especifique os identificadores exclusivos usados nessa integração: </p> <p><b>Parâmetro da cadeia de caracteres de consulta da ID da mensagem:</b> esse valor representa a ID da mensagem anexada ao URL da página de aterrissagem pelo seu parceiro de email. </p> <p><b>Parâmetro da cadeia de caractere de consulta da ID do destinatário:</b> esse valor representa a ID do destinatário anexada ao URL da página de aterrissagem pelo seu parceiro de email. </p> <p>Clique em <b>Avançar</b> para prosseguir para a Etapa 7 do Assistente. </p> </td> 
+   <td colname="col3"> <p>Selecione <b>Solução automatizada</b> se desejar usar um modelo de coleta automatizada para essa integração e, depois, especifique os identificadores exclusivos usados nessa integração. </p> <p> <p>Observação: a Solução automatizada é a seleção padrão. </p> </p> <p>Se você selecionar essa opção, especifique os identificadores exclusivos usados nessa integração: </p> <p><b>Parâmetro da string de consulta da ID da mensagem:</b> esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email. </p> <p><b>Parâmetro da string de consulta da ID do destinatário:</b> esse valor representa a ID do destinatário anexada ao URL da página de aterrissagem pelo seu parceiro de email. </p> <p>Clique em <b>Avançar</b> para prosseguir para a Etapa 7 do Assistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>7 </p> </td> 
