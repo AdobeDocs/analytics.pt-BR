@@ -20,13 +20,13 @@ Conjuntos de relatórios de rollup agregam dados de vários conjuntos de relató
 **Conjunto de relatórios de rollup**: criado na Ferramenta administrativa. Pega a soma de cada métrica no fim de cada dia.
 
 * Os rollups são gratuitos e não aumentam o uso de chamadas do servidor.
-* Os rollups fornecem dados totais, mas não relatam valores individuais nos relatórios. Por exemplo, os valores de eVar1 não estão incluídos, mas seu total de agregações pode ser incluído.
+* Os Rollups fornecem os dados totais, mas não reportam valores individuais nos relatórios. Por exemplo, os valores de eVar1 não estão incluídos, mas o seu total agregado pode ser incluído.
 * Os dados não são desduplicados ao combinar os dados nos conjuntos de relatório.
 * Os rollups são executados à noite.
 * Quando você adiciona um conjunto de relatórios a um rollup existente, os dados históricos não são incluídos no rollup.
-* Todos os conjuntos de relatórios secundários devem ter dados neles para que um rollup funcione. Se novos conjuntos de relatórios forem incluídos em um rollup, certifique-se de enviar pelo menos uma visualização de página para esses conjuntos de relatórios.
-* Os conjuntos de relatórios de rollup estão limitados a um máximo de 40 conjuntos de relatórios secundários.
-* Os conjuntos de relatórios de rollup estão limitados a um máximo de 100 eventos.
+* Todos os conjunto de relatórios secundários precisam conter dados para que um rollup possa funcionar. Se os novos conjunto de relatórios forem incluídos em um rollup, certifique-se de enviar pelo menos uma exibição de página para esses conjunto de relatórios.
+* Os conjuntos de relatórios de rollup são limitados a, no máximo, 40 conjuntos de relatórios secundários.
+* Os conjuntos de relatórios de rollup estão limitados ao máximo de 100 eventos.
 * Os dados contidos nos conjuntos de relatórios de rollup não são compatíveis com detalhamentos ou segmentos.
 * O relatório Página é substituído pelo relatório Sites mais populares, que usa métricas no nível filho.
 
@@ -38,9 +38,9 @@ Conjuntos de relatórios de rollup agregam dados de vários conjuntos de relató
 
 **Alterações de implementação**: os rollups não exigem alterações de implementação, enquanto os conjuntos de relatórios globais exigem que você inclua a ID do conjunto de relatórios global na implementação.
 
-**Duplicação**: Os conjuntos de relatórios globais desduplicam visitantes únicos, mas os rollups não. Por exemplo, se um usuário visitar três de seus domínios no mesmo dia, os rollups contariam três visitantes únicos diários. Os conjuntos de relatórios globais registrariam um visitante exclusivo.
+**Duplicação**: os conjuntos de relatórios globais removem a duplicação de visitantes únicos; os rollups, não. Por exemplo, se um usuário visita três de seus domínios no mesmo dia, os rollups contariam três visitantes únicos diários. Os conjuntos de relatórios globais registrariam um visitante único.
 
-**Período**: Os rollups são processados somente à meia-noite a cada noite, enquanto os conjuntos de relatórios globais relatam dados com latência padrão.
+**Intervalo de tempo**: os rollups são processados somente à meia-noite a cada noite, ao passo que os conjuntos de relatórios globais relatam dados com latência padrão.
 
 **Abrangência**: os rollups não possuem uma forma de comunicação entre os conjuntos de relatórios. Os conjuntos de relatórios globais podem atribuir crédito às variáveis de conversão entre conjuntos de relatórios, bem como fornecer a definição de caminho em conjuntos de relatórios.
 
