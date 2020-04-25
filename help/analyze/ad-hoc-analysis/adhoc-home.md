@@ -17,5 +17,5 @@ A Ad Hoc Analysis ajuda a identificar segmentos de alto valor do cliente com inf
 ## Tópicos novos e populares
 
 * Converta com facilidade seus projetos da Ad Hoc Analysis em projetos da Analysis Workspace. Acesse [Visão geral do Conversor de projeto da Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) para descobrir como!
-* Consulte a seção Análise [ad hoc vs. Área de trabalho](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)de Análise: A área de trabalho de Análise traz grande parte da funcionalidade de Análise ad hoc para o fluxo de trabalho do navegador. Enquanto a terminologia e os recursos continuam os mesmos dentre os produtos, há alguns termos e abordagens novas no Analysis Workspace.
+* Consulte a sessão sobre [Ad Hoc Analysis vs. Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md): a Analysis Workspace traz os recursos da Ad Hoc Analysis para a janela do navegador. Enquanto a terminologia e os recursos continuam os mesmos dentre os produtos, há alguns termos e abordagens novas no Analysis Workspace.
 * [Administração](/help/analyze/ad-hoc-analysis/c-administration.md): saiba como configurar usuários e dados de amostra.
