@@ -17,7 +17,7 @@ Exibe métricas para o tipo de conexão com a Internet, incluindo modem, LAN/Wif
 
 ## Exemplo
 
-O relatório a seguir compara os tipos de conexão das métricas [Visitas](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) e Exibições [](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)de página:
+O relatório a seguir compara os tipos de conexão das métricas [Visitas](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/metrics/metrics-visit.html) e Visualizações [](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)de página:
 
 ![relatório](assets/contype_compare.png)
 
