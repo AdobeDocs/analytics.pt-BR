@@ -26,7 +26,7 @@ Data de lançamento: **5 de março de 2020**
 
 Data de lançamento: **21 de fevereiro de 2020**
 
-* Atualização do módulo Gerenciamento de Audiência para DIL 9.4. (AN-209341)
+* Atualização do módulo Gerenciamento de público-alvo DIL 9.4. (AN-209341)
 
 ## Versão 2.18.0
 
@@ -75,8 +75,8 @@ Data de lançamento:**10 de abril de 2019**
 
 Data de lançamento: **22 de fevereiro de 2019**
 
-* Atualização do módulo Gerenciamento de Audiência para DIL 9.1. (AN-175255)
-* Política de segurança GTM que não permite o módulo de mapa de Atividade. (AN-174679)
+* Atualização do módulo Gerenciamento de público-alvo DIL 9.1. (AN-175255)
+* A Política de segurança GTM não permite o módulo Activity Map. (AN-174679)
 * Aprimoramento do AppMeasurement para dar prioridade à opção de não participação, quando o Serviço de identidade não for aprovado na opção de não participação. (AN-175259)
 
 ## Versão 2.11.0
@@ -84,7 +84,7 @@ Data de lançamento: **22 de fevereiro de 2019**
 Data de lançamento: **11 de fevereiro de 2019**
 
 * Adição de suporte para o novo recurso Serviços de Opt-in da Adobe no AppMeasurement. (AN-163546)
-* Adicionado suporte para armazenar dados de rastreamento de link no armazenamento da sessão. (AN-162272)
+* Adição de suporte para armazenar dados de rastreamento de link no armazenamento de sessão. (AN-162272)
 * Adição de suporte para tipo de transmissão de mídia para Análise de áudio. (AN-173265)
 
 ## Versão 2.10.0
@@ -94,7 +94,7 @@ Data de lançamento: **20 de setembro de 2018**
 Esta versão garante que a biblioteca [!DNL AppMeasurement] envie cookies corretamente para todos os tipos de conexão.
 
 * [!DNL AppMeasurement] bloqueia transmissões de cookies durante a POST. (AN-165538)
-* Solte o suporte para XDomainRequest. (AN-165733)
+* Suporte à ação de soltar para XDomainRequest. (AN-165733)
 * Reduza [!DNL AppMeasurement]o tempo de vida do cookie padrão do de cinco para dois anos. (AN-158572)
 * Remover o Módulo de mídia do Gerenciador de código ([!DNL AppMeasurement]) (AN-166590)
 
@@ -113,7 +113,7 @@ Data de lançamento: **24 de maio de 2018**
 Data de lançamento: **12 de abril de 2018**
 
 * Atualização do [!DNL AppMeasurement] para usar a interface de visitante atualizada para solicitar IDs. (AN-151483)
-* O cookie de rastreamento de link continua sendo gravado assim que o rastreamento de link é desativado. (AN-156332)
+* O cookie de rastreamento de link continua sendo gravado, mesmo com o recurso desativado. (AN-156332)
 * Reduza [!DNL AppMeasurement] o tempo de vida do cookie padrão do de cinco para dois anos. (AN-158572)
 
 ## Versão 2.8.1
@@ -129,16 +129,16 @@ Data de lançamento: **15 de março de 2018**
 Re-compilação da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
 
 * Compilar VAPI v3.1 com [!DNL AppMeasurement] v2.8. (AN-158353)
-* Refatoração que cria o ponto final da coleta de dados para facilitar o compartilhamento. (AN-156647)
+* Refatoração da criação do terminal de coleta de dados para facilitar o compartilhamento. (AN-156647)
 * Adicionar solicitação de métricas de sincronização completa para o [!DNL AppMeasurement]. (AN-158343)
 
 ## Versão 2.7.0
 
 Data de lançamento: **18 de janeiro de 2018**
 
-* Soltando o suporte para o IE 6 a 9
-* Inclusão da API do Visitante v3.0.0
-* Inclusão do DIL v7.00
+* Cessou o suporte para o IE do 6 ao 9
+* Inclusão da API de Visitante v3.0.0
+* Inclusão da DIL v7.00
 
 ## Versão 2.6.0
 
@@ -157,7 +157,7 @@ Data de lançamento: **21 de setembro de 2017**
 
 Data de lançamento: **17 de agosto de 2017**
 
-* Incluir dil.js v6.11
+* Inclui dil.js v6.11
 * Inclui a API de Visitante 2.4.0
 
 ## Versão 2.3.0
@@ -172,7 +172,7 @@ Data de lançamento: **20 de julho de 2017**
 Data de lançamento: **8 de junho de 2017**
 
 * Adição do suporte para várias ordens de instanciação do [!DNL AppMeasurement]. (AN-138237)
-* Inclusão da API do Visitante versão 2.2.0. (AN-144042)
+* Inclusão da API de Visitante versão 2.2.0. (AN-144042)
 
 ## Versão 2.1.0
 
@@ -180,7 +180,7 @@ Data de lançamento: **20 de abril de 2017**
 
 * Foi incluída a versão mais recente de `dil.js` (AN-140396)
 * Foi adicionado o suporte ao parâmetro `adobe_mc_ref` que substitui o referenciador de página. (AN-131920)
-* API de Visitante 2.1.0 reincluída. (AN-140873)
+* Foi incluída novamente a API de Visitante 2.1.0. (AN-140873)
 * Adição do parâmetro `mcorgid`. (AN-139586)
 * Foi adicionado o parâmetro cp (customerPerspective). (AN-140897)
 
@@ -188,15 +188,15 @@ Data de lançamento: **20 de abril de 2017**
 
 Data de lançamento: **9 de março de 2017**
 
-* Movido para um novo processo de compilação que requer uma atualização de número de versão para 2.0.0. (AN-137878)
-* Manuseio de mboxMCSDID movido para o local correto da seção onde a chamada de rastreamento é feita. (AN-138483)
+* Movido para um novo processo de build que requer a atualização da versão para 2.0.0. (AN-137878)
+* A gestão do mboxMCSDID foi movida para o local correto da seção em que as ligação de rastreamento é feita. (AN-138483)
 
 ## Versão 1.8.0
 
 Data de lançamento: **19 de janeiro de 2017**
 
-* Incluir VisitorAPI 2.0.0
-* A função resequenciou chamadas e verificações para que o SDID seja consumido depois que a verificação abortada for concluída. (AN-134364)
+* Inclui VisitorAPI 2.0.0
+* A função faz chamadas e verificações para que a SDID seja consumida após a conclusão da verificação de anulação. (AN-134364)
 * Adição dos ganchos `s.registerPreTrackCallback` e `s.registerPostTrackCallback`. (AN-134567)
 
 ## Versão 1.7.0
@@ -245,7 +245,7 @@ Data de lançamento: **16 de junho de 2016**
 
 Data de lançamento: **21 de abril de 2016**
 
-* O módulo de Activity Map [!DNL AppMeasurement] foi integrado ao módulo padrão [!DNL AppMeasurement], portanto, é necessário consultar apenas um arquivo [!DNL .js]. Além disso, o rastreamento do Mapa de Atividades é ativado por padrão. (AN-112689)
+* O módulo de Activity Map [!DNL AppMeasurement] foi integrado ao módulo padrão [!DNL AppMeasurement], portanto, é necessário consultar apenas um arquivo [!DNL .js]. Além disso, o rastreamento de Activity Map está ativado por padrão. (AN-112689)
 * Correção de um problema de truncamento que ocorria com a ordem das variáveis da cadeia de caracteres de consulta em [!DNL AppMeasurement], para que *`pageURLRest`* fosse o último. (AN-114647)
 
 ## Versão 1.5.4
@@ -267,7 +267,7 @@ Data de lançamento: **21 de janeiro de 2016**
 Data de lançamento: **5 de novembro de 2015**
 
 * Inclusão da API de Visitante 1.5.3.
-* Corrigida a detecção do IE11 para truncamento de URL 2047 (AN-114914)
+* Corrigida a detecção do IE11 for URL Truncation 2047 (AN-114914)
 
 ## Versão 1.5.1
 
@@ -291,7 +291,7 @@ Data de lançamento: **21 de maio de 2015**
 * A partir do iOS SDK versão 4.5, uma nova extensão do iOS permite coletar dados de uso dos aplicativos do Apple Watch, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão iOS. Consulte [Implementação da extensão iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/ios-ext/ios-ext.html) no guia do usuário Mobile Services.
 * A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do aplicativo vestível Android. Consulte [Dispositivos vestíveis Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/wearables-android/android-wearable.html) no guia do usuário do Mobile Services.
 * Inclusão da API de Visitante 1.4.
-* Atualização do módulo AudienceManagement para usar a versão 6.0 do DIL.
+* Foi atualizado o módulo do AudienceManagement para usar o DIL versão 6.0.
 
 >[!NOTE] **Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager], há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
 
@@ -315,7 +315,7 @@ Data de lançamento: **19 de fevereiro de 2015**
 
 Data de lançamento: **15 de janeiro de 2015**
 
-* Corrigido o manuseio de pré-renderização do WebKit para impedir o rastreamento de páginas pré-renderizadas que não são visualizadas.
+* Solucionado o manuseio da pré-renderização do WebKit para evitar o monitoramento de páginas pré-renderizadas que não são visualizadas.
 * O zip de distribuição foi atualizado para incluir a API de visitante 1.3.4 e um módulo atualizado **[!UICONTROL AudienceManagement]** que inclui DIL versão 5.5.
 
 ## Versão 1.4.1
@@ -332,12 +332,12 @@ Data de lançamento: **18 de setembro de 2014**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   Os 4 caracteres estão limitados aos caracteres permitidos nos caminhos de arquivo de URL, como alfanumérico e ponto final.
+   Os 4 caracteres são limitados aos que são permitidos nos caminhos de arquivo URL, como caracteres alfanuméricos e pontos.
 
-* Nas páginas com tags duplas com o Código H, foi corrigido um loop que poderia ocorrer durante o rastreamento automático de link (download e saída) com quando o rastreamento forçado de link está ativado (padrão nos navegadores Webkit). Além disso, foi adicionada uma proteção geral sobre o rastreamento automático de link para evitar loops semelhantes. Essa proteção limita o rastreamento automático de cliques repetidos no *mesmo* objeto a uma vez a cada 10 segundos. Essa proteção se aplica somente ao rastreamento automático de link, de modo que as chamadas de rastreamento manual de link (s.tl) não são limitadas. Os cliques em diferentes objetos também não são afetados por essa proteção e serão rastreados.
-* Corrigido o tratamento do objeto clicado quando um atraso é necessário.
-* Correção de um problema que resultava em uma contagem de visualizações de página de duplo quando s.t era chamado a partir de uma função de link onclick, se a API de Visitante ainda não tivesse os valores necessários.
-* Suporte HTTP POST.
+* Nas páginas que são marcadas duas vezes com o H Code, foi solucionado um loop que poderia ocorrer durante o rastreamento de link automático (fazer download e sair) quando o rastreamento de link forçado está ativado (padrão nos navegadores Webkit). Além disso, foi adicionada uma proteção geral no rastreamento de link automático para impedir loops similares. Essa proteção limita cliques repetidos no rastreamento automático de link no *mesmo* objeto a um clique a cada 10 segundos. Essa proteção é aplicada somente no monitoramento automático de link, sendo assim, as chamadas do monitoramento de link manual (s.tl) não ficam limitadas. Cliques em diferentes objetos também não são afetados por essa proteção e serão rastreados.
+* Solucionado o gerenciamento de objeto clicado quando um atraso é necessário.
+* Solucionado o problema gerava um contagem de visualização de página dupla quando o s.t era chamado a partir de uma função de link clicável, se a API de Visitante não tivesse os valores necessários.
+* Suporte para HTTP POST.
 
    > [!IMPORTANT] Em uma chamada do [!DNL Analytics], para usar o método POST em vez do método GET no [!DNL AppMeasurement] (um método de correção de [URLs truncadas no IE](https://helpx.adobe.com/br/analytics/kb/shortening-image-request-urls.html)), é necessário usar a implantação do Serviço de ID de visitante mais recente da Experience Cloud.
 
@@ -374,13 +374,13 @@ Data de lançamento: **17 de abril de 2014**
 
 Data de lançamento: **13 de março de 2014**
 
-* Correções de erros para vídeo de pulsação.
+* Correções de bugs para vídeo heartbeat.
 
 ## Versão 1.2.3
 
 Data de lançamento: **20 de fevereiro de 2014**
 
-* Correções de erros para vídeo de pulsação.
+* Correções de bugs para vídeo heartbeat.
 
 ## Versão 1.2.2
 
@@ -438,7 +438,7 @@ Data de lançamento: **23 de maio de 2013**
 
 Uma nova biblioteca de [!DNL JavaScript] [!DNL AppMeasurement] está disponível no Gerenciador de código. Essa biblioteca oferece a mesma funcionalidade principal de [!DNL s_code.js], mas é mais leve e rápida de usar em sites móveis e para desktop.
 
-* 3 a 7 vezes mais rápido que o código H.25.
-* Apenas 21k descompactados e 8k gzipados (o código H.25 é 33k descompactado e 13k compactado).
-* Suporte nativo para obter parâmetros de query, cookies de leitura e gravação e executar rastreamento avançado de link.
-* Pequeno e rápido o suficiente para ser usado com sites móveis e robusto o suficiente para ser usado na Web completa do desktop, permitindo que você aproveite uma única biblioteca em todos os ambientes da Web.
+* De 3 a 7 vezes mais rápida do que o código H.25.
+* Somente 21k descompactado e 8k compactado por gzip (o código H.25 pesa 33k descompactado e 13k compactado por gzip).
+* Suporte nativo para obter parâmetros de consulta, cookies de leitura e gravação e executar rastreamento de links avançado.
+* Pequeno e rápido o suficiente para ser usado em sites móveis e robusto o suficiente para ser usado na Web completa para desktop, permitindo que você utilize uma única biblioteca em todos os ambientes da Web.
