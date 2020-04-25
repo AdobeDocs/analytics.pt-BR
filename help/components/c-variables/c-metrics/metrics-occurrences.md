@@ -3,7 +3,7 @@ description: O número de vezes em que um valor específico é capturado, além 
 title: Ocorrências
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
