@@ -9,13 +9,13 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
 
 # Detalhes do canal de marketing - primeiro e último toque
 
-Esses relatórios fornecem um insight sobre as campanhas específicas ou palavras-chave que são mais eficazes em seu site. Esse relatório pode ser usado para alocar métricas de sucesso e receitas em diversos detalhes do canal, independentemente do canal geral em que se encontram. Por exemplo, você pode ver como uma determinada palavra-chave de pesquisa paga se compara a uma campanha por email. Ao contrário do relatório de Visão geral do canal de marketing, este relatório se assemelha a um relatório padrão.
+Esses relatórios fornecem um insight sobre as campanhas específicas ou palavras-chave que são mais eficazes em seu site. Esse relatório pode ser usado para alocar métricas de sucesso e receitas em diversos detalhes do canal, independentemente do canal geral em que se encontram. Por exemplo, você pode ver como uma determinada palavra-chave de pesquisa paga se compara a uma campanha de email. Ao contrário do relatório Visão geral do Canal de marketing, este relatório se assemelha a um relatório padrão.
 
 ## Propriedades do relatório
 
 * Esse relatório é executado em regras definidas nos canais de marketing. Consulte [Canais e Regras](/help/components/c-marketing-channels/c-channels.md).
 
-   Especificamente, o relatório usa a **[!UICONTROL Set the channel's value to]** parte de cada regra. Alterar essas regras ou a forma como o valor dos canais está definido altera a forma como os dados nesse relatório são calculados. Consulte as [Perguntas frequentes](/help/components/c-marketing-channels/c-faq.md) sobre as regras de processamento do canal de marketing para obter mais informações.
+   Especificamente, o relatório usa a parte **[!UICONTROL Definir o valor dos canais para]** de cada regra. Alterar essas regras ou a forma como o valor dos canais está definido altera a forma como os dados nesse relatório são calculados. Consulte as [Perguntas frequentes](/help/components/c-marketing-channels/c-faq.md) sobre as regras de processamento do canal de marketing para obter mais informações.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ Esses relatórios fornecem um insight sobre as campanhas específicas ou palavra
    * Todas as métricas de comércio eletrônico: Receita, Pedidos, Unidades, Carrinhos, Exibição de carrinhos, Adições a carrinhos, Remoções do carrinho.
    * Todos os eventos personalizados: Eventos 1-80, e Eventos 81-100 se em código H22 ou superior.
    * Visitas e Visitantes: a disponibilidade depende da organização e do conjunto de relatórios. Entre em contato com seu Gerente de conta para obter mais informações.
-   See [Metrics](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) in [!UICONTROL Marketing Channel] Help.
+   Consulte [Métricas](https://marketing.adobe.com/resources/help/pt_BR/mchannel/c_overview_metrics.html) na Ajuda do [!UICONTROL Canal de marketing].
