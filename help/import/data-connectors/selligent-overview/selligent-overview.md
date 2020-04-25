@@ -2,7 +2,7 @@
 description: 'null'
 title: Conector de dados do Selligent para Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Essa integração inclui os seguintes benefícios principais:
 
-* Consolidar dados de email marketing e de análise em uma interface de relatório.
+* Consolidar dados de marketing por email e de análise em uma interface de relatório.
 * Otimizar campanhas de email por conversão e por contribuição para a receita e o sucesso do site.
 * Remarketing para visitantes e segmentos de mercado importantes com base em segmentos de marketing dinâmicos.
 
