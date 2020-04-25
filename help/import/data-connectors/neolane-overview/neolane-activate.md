@@ -2,7 +2,7 @@
 description: Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 title: Ativar a integração
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Use o Assistente de configuração do Data Connectors da Adobe para configurar a
 
 | Campo | Descrição |
 |--- |--- |
-| Conjunto de relatórios | O conjunto de relatórios que recebe os dados dessa integração. |
+| Conjunto de relatórios  | O conjunto de relatórios que recebe os dados dessa integração. |
 | Nome da integração | Especifique o nome da integração que o Data Connectors exibe na lista Integração ativa do conjunto de relatórios. |
 | Clicados | Número total de cliques em emails. |
 | ID da campanha | Armazena a ID de mensagem exclusiva. É frequentemente armazenado na variável da campanha. |
