@@ -2,7 +2,7 @@
 description: 'null'
 title: Implantar a integração
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -53,7 +53,7 @@ Etapas para concluir o assistente de integração na interface do Data Connector
 Exiba a configuração de integração do ContactLab na Adobe Experience Cloud
 
 1. Exibir o log de atividades de integração.
-   1. Na Adobe Experience Cloud, navegue até **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividades de integração]**.
+   1. Na Adobe Experience Cloud, navegue até **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividades da integração]**.
 
       ![](assets/integration_activity_log.png)
 
