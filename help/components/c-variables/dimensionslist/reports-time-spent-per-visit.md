@@ -35,7 +35,7 @@ O tempo gasto por visita mede o tempo total decorrido em uma visita. Existem dim
    * 2 a 5 horas
    * 5 a 10 horas
    * 10 a 15 horas
-   * Mais de 15 horas
+   * 15+ horas
 
 >As [!NOTE][ Visitas](../c-metrics/metrics-visit.md) normalmente terminam após 12 horas de atividade. No entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
 
