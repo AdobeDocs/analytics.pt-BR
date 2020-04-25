@@ -17,7 +17,7 @@ Exibe métricas que se baseiam no fato de um dispositivo ter o JavaScript habili
 
 O relatório JavaScript corresponde ao javascript da coluna nos dados brutos.
 
-javascript é um campo de nível de visita, portanto, ele persiste o valor da primeira ocorrência na visita. A coluna javascript se baseia no primeiro valor presente na coluna j_jscript (como uma visit_quem indicou persistirá somente a primeira quem indicou da visita).
+javascript é um campo de nível de visita, portanto, o valor persiste desde a primeira ocorrência na visita. A coluna javascript tem por base o primeiro valor presente na coluna j_jscript (como um visit_referrer persistirá somente o primeiro referenciador da visita).
 
 j_jscript é preenchido a partir do parâmetro j da solicitação de imagem do Adobe Analytics.
 
@@ -29,4 +29,4 @@ Exemplo:
 | 2 | 1.6 | 0 |
 | 3 | 1.6 | 0 |
 
-Como resultado, não importa se você tem uma versão javascript especificada em algum ponto da visita - ela sempre será exibida como não Javascript, pois a primeira ocorrência não continha nenhum valor para j_jscript.
+Como resultado, não importa se você tem uma versão do javascript especificada em algum ponto na visita, ela sempre será exibida como não Javascript, pois a primeira ocorrência não continha o valor de j_jscript.
