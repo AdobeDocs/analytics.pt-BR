@@ -2,7 +2,7 @@
 description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento.
 title: Visão geral dos conjuntos de relatórios virtuais
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
