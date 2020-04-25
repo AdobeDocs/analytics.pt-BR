@@ -17,7 +17,7 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 ## Usar o Adobe Experience Platform Launch para criar elementos de dados
 
-[Os elementos](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) de dados são componentes no Launch que podem ser usados na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
+[Os elementos](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) de dados são componentes no Launch que podem ser usados na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade Launch desejada.
@@ -26,11 +26,11 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
    ![criar elemento de dados](assets/createelement.png)
 
 1. Insira um nome para seu elemento de dados. Pode ser um rótulo simples que corresponde a uma variável JavaScript na camada de dados que você deseja rastrear.
-1. Na lista [!UICONTROL Extension] suspensa, selecione [!UICONTROL Core].
-1. Na lista [!UICONTROL Data Element Type] suspensa, selecione [!UICONTROL JavaScript Variable]. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
+1. Na lista suspensa [!UICONTROL Extensão] , selecione [!UICONTROL Core].
+1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
 1. Insira a variável do Javascript desejada, normalmente em sua camada de dados. Por exemplo, se a camada de dados de sua organização corresponder muito à prática recomendada pela Adobe, um valor pode ser `digitalData.page.pageInfo.pageName`. Você pode usar o console do navegador para validar a sintaxe e os valores da variável JavaScript.
-1. Clique em [!UICONTROL Save].
+1. Clique em [!UICONTROL Salvar].
 
 ## Próximas etapas
 
-[Mapeie elementos de dados para variáveis](elements-to-variable.md)do Analytics: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões na Analysis Workspace.
+[Mapeie elementos de dados para variáveis](elements-to-variable.md)do Analytics: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões na área de trabalho da Análise.
