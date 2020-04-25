@@ -3,7 +3,7 @@ description: Define configurações comuns para bancos e outras instituições q
 title: Serviços financeiros
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Define configurações comuns para bancos e outras instituições que fornecem a
 
 | Variáveis de conversão (eVars) | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Evento tipo self-service | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
+| Promoção interna | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Evento tipo self-service | String | Básica | Mais recente (último) | Visita | `evar3` |
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
