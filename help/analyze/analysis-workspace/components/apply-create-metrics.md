@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Há duas formas de utilizar as métricas no Analysis Workspace.
 
-Você pode arrastar uma métrica padrão, métrica calculada ou modelo de métrica calculada do [!UICONTROL Components] menu para a tabela:
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
