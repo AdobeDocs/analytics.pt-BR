@@ -2,7 +2,7 @@
 description: Esta integração de email do Adobe® Data Connectors™ combina informações comportamentais do Analytics® com marketing de email do Silverpop para criar uma ferramenta poderosa que redefine a medição de sucesso e direciona públicos-alvo com mensagens mais relevantes.
 title: Conector de dados do Silverpop para Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ Essa integração de email do Data Connectors oferece suporte a segmentos de mar
 
 Essa integração apresenta os seguintes segmentos de marketing, prontos para uso:
 
-* **Perfis de compra** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
+* **Perfis de compra:** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **Perfil comportamental de exibição de produto/conteúdo:** alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **Perfil de abandono do carrinho:** ajude os visitantes a converterem-se em clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em concluir os carrinhos.
 * **Perfil de abandono de formulário (opcional):** incentive os visitantes a preencherem um formulário não concluído por meio de campanhas especificamente projetadas para aqueles que iniciaram e não concluíram o preenchimento de um formulário online. Esse segmento só será criado se dois eventos forem criados para inícios e conclusões de formulários.
