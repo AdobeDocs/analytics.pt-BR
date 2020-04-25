@@ -3,7 +3,7 @@ description: Lista as métricas e dimensões suportadas pelos relatórios em tem
 title: Métricas e dimensões em tempo real compatíveis
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,7 +36,7 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Região de GeoSegmentation
 * Cidade de GeoSegmentation
 * DMA dos EUA de GeoSegmentation
-* Produto
+* Product
 * Servidor
 * Seção do site
 * Código de rastreamento
