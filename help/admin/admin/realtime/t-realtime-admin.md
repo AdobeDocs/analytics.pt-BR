@@ -3,7 +3,7 @@ description: Etapas administrativas para configurar relatórios em tempo real.
 title: Configuração de relatórios em tempo real
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
