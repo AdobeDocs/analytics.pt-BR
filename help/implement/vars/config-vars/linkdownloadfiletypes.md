@@ -27,14 +27,14 @@ Se um link clicado corresponder aos critérios do link de saída e do link de do
 
 ## Baixar extensões no Adobe Experience Platform Launch
 
-Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+Baixar extensões é uma lista de extensões de arquivo com um campo para adicionar mais na opção [!UICONTROL Rastreamento de link] ao configurar a extensão Adobe Analytics.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Amplie o [!UICONTROL Link Tracking] acordeão, que revela o [!UICONTROL Download Extensions] campo.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Baixar extensões].
 
-Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. Remova as extensões de arquivo da lista clicando no respectivo ícone &#39;X&#39;.
+Adicione extensões de arquivo à lista inserindo texto no campo e clicando em [!UICONTROL Adicionar]. Remova as extensões de arquivo da lista clicando no respectivo ícone &#39;X&#39;.
 
 ## s.linkDownloadFileTypes no AppMeasurement e no editor de código personalizado do Launch
 
