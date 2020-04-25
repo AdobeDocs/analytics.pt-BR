@@ -3,7 +3,7 @@ description: O Adobe Audience Manager (AAM) é uma plataforma avançada de geren
 solution: Experience Cloud
 title: Visão geral do Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ A integração do Audience Analytics apresenta os seguintes benefícios principa
 ![](assets/mc-aud-dataflow.png)
 
 1. Cada vez que um visitante acessa suas propriedades digitais, ocorrências são coletadas e enviadas ao Analytics.
-1. Com  [o encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md), cada ocorrência recebida pelo Analytics é automaticamente enviada ao AAM em tempo real.
+1. Com [o encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md), cada ocorrência recebida pelo Analytics é automaticamente enviada ao AAM em tempo real.
 1. Por meio da integração do Audience Analytics, para cada ocorrência, a associação de público-alvo de um visitante é pesquisada no AAM e uma lista de IDs de segmentos é retornada ao Analytics para a execução do processamento em tempo real.
 
 Segmentos do AAM são inseridos quando houver ocorrências semelhantes, portanto você pode ter certeza de que os dados disponíveis no AAM sobre um visitante não serão ignorados e estarão sempre atualizados em relação à ocorrência. Isso é melhor do que um plug-in AppMeasurement, pois o plug-in pode disponibilizar esses segmentos somente na próxima ocorrência (em vez da ocorrência atual).
