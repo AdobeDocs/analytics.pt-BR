@@ -11,23 +11,23 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 É possível combinar o Construtor de regras de classificação com subclassificações se você garantir que cada subclassificação tenha um valor pai.
 
-Combinar o Construtor de regras de classificação com subclassificações pode simplificar o gerenciamento de classificação e reduzir o número de regras necessárias. Isso pode ser feito se o código de rastreamento consistir em códigos que você gostaria de classificar separadamente.
+Combinar o Construtor de regras de classificação com subclassificações pode simplificar o gerenciamento de classificação e reduzir o número de regras necessárias. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
 
 Consulte [Subclassificação](/help/components/c-classifications2/c-sub-classifications.md) para informações conceituais sobre subclassificações.
 
 ## Exemplo
 
-Considere o seguinte código de rastreamento:
+Assume o seguinte código de rastreamento:
 
 `channel:broad_campaign:creative`
 
-Uma hierarquia de classificação permite aplicar uma classificação a uma classificação (chamada de *`sub-classification`*). Ou seja, você pode usar o importador como um banco de dados relacional, com várias tabelas. Uma tabela mapeia códigos de rastreamento completos para chaves e outra mapeia essas chaves para outras tabelas.
+Uma hierarquia de classificação permite aplicar uma classificação a uma classificação (chamada de *`sub-classification`*). Ou seja, você pode utilizar o importador como um banco de dados de relações com várias tabelas. Uma tabela mapeia códigos de rastreamento completos e o outro mapeia essas teclas para outras tabelas.
 
 ![](assets/sub_class_table.png)
 
-Depois de colocar essa estrutura no lugar, é possível utilizar  [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode usar o construtor de regras para manter a tabela de classificação principal atualizada.
+Depois de colocar essa estrutura no lugar, é possível utilizar  [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
 
-A tarefa a seguir descreve como fazer isso.
+A seguinte tarefa descreve como fazer isso.
 
 ## Configurar subclassificações usando o Construtor de relatórios {#task_2D9016D8B4E84DBDAF88555E5369546F}
 
@@ -37,7 +37,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 >
 >Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o construtor de regras](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Criar classificações e subclassificação no [Gerenciador de classificações](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Criar classificações e subclassificação no [Gerenciador de classificações](https://marketing.adobe.com/resources/help/pt_BR/reference/classifications.html).
 
    Exemplo:
 
@@ -71,4 +71,4 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma maneira, se você criar uma nova subclassificação (como  *`Creative Theme`* como uma subclassificação de *`Creative code`*), você faz upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
 
-   Para o relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso reduz a carga de gerenciamento necessária para usá-los.-->
+   Em relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las. -->
