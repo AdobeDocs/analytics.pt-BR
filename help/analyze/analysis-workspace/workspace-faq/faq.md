@@ -27,15 +27,15 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Como você implementa o Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Não é necessária nenhuma implementação especial. O Analysis Workspace está disponível para todas as empresas, com o Analytics Standard ou Premium. No entanto, as permissões padrão para o conteúdo (como conjuntos de relatórios e componentes de projeto) se aplicam e para preparar e compartilhar projetos. Consulte <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Requisitos de administração e acesso</a>. </p> </td> 
+   <td colname="col2"> <p>Não é necessária nenhuma implementação específica. O Analysis Workspace está disponível para todas as empresas, com o Analytics Standard ou Premium. No entanto, as permissões padrão de conteúdo (como conjuntos de relatórios e componentes de projeto) se aplicam para preparar e compartilhar projetos. Consulte <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Requisitos de administração e acesso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>O Analysis Workspace altera os relatórios pré-configurados no Adobe Analytics? </p> </td> 
-   <td colname="col2"> <p>Não. Como este é um ambiente separado, não há alterações nos relatórios existentes ou pré-configurados no Adobe Analytics. Você ainda pode utilizar relatórios padrão do Reports &amp; Analytics e relatórios do Report Builder por meio do Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Não. Como este é um ambiente separado, não haverá alterações nos relatórios existentes ou pré-configurados no Adobe Analytics. Você ainda pode utilizar relatórios padrão do Reports &amp; Analytics e relatórios do Report Builder por meio do Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso usar o Analysis Workspace para Data Warehouse? </p> </td> 
-   <td colname="col2"> <p>O Analysis Workspace não é recomendado para a exportação de dados em massa. É uma área de trabalho de visualização que cria projetos de análise semelhantes a painéis. </p> </td> 
+   <td colname="col2"> <p>O Analysis Workspace não é recomendado para a exportação de dados em massa. É um espaço de trabalho de visualização que cria projetos de análise semelhantes ao painel. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Como posso otimizar o desempenho do Analysis Workspace? </p> </td> 
