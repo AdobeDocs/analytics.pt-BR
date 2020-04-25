@@ -2,7 +2,7 @@
 description: 'A comparação de datas no Analysis Workspace permite usar qualquer coluna que contenha um intervalo de datas e criar uma comparação de datas comum, como: ano a ano, trimestre a trimestre, mês a mês, etc.'
 title: Comparação de datas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ A comparação de datas no Analysis Workspace permite pegar qualquer coluna cont
 A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta &quot;Estamos melhor ou pior que nesse mesmo período de tempo no ano passado?&quot; é fundamental para entender seus negócios. A comparação de datas inclui automaticamente uma coluna &quot;diferença&quot;, que mostra a porcentagem de mudança comparada a um período de tempo específico.
 
 1. Crie uma tabela de forma livre, com qualquer dimensão e métrica que desejar comparar em um período.
-1. Clique com o botão direito na linha da tabela e selecione **[!UICONTROL Comparar períodos]**.
+1. Clique com o botão direito do mouse em uma linha de tabela e selecione **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
@@ -29,13 +29,13 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    | Opção | Descrição |
    |---|---|
-   | **[!UICONTROL Semana/mês/trimestre/ano anterior a esse intervalo de datas]** | Compara com a semana/mês/etc. imediatamente antes desse intervalo de data. |
-   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado]** | Compara com o mesmo intervalo de datas no ano passado. |
-   | **[!UICONTROL Selecionar intervalo]** | Permite selecionar um intervalo de datas personalizado. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Compara com a semana/mês/etc. imediatamente antes desse intervalo de data. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Compara com o mesmo intervalo de datas no ano passado. |
+   | **[!UICONTROL Select range]** | Permite selecionar um intervalo de datas personalizado. |
 
    >[!NOTE]
    >
-   >Sendo selecionado um número de dias personalizado, por exemplo, de 7 a 20 de outubro (intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]**, e **[!UICONTROL Selecionar intervalo]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]**, e **[!UICONTROL Select range]**.
 
 1. O resultado da comparação aparece assim:
 
@@ -47,25 +47,25 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    ![](assets/compare-time-barchart.png)
 
-   Observe que para mostrar a mudança de porcentagem no gráfico de barras, você deve ter a configuração [!UICONTROL Porcentagens] selecionada nas [!UICONTROL Configurações de visualização].
+   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
 
 ## Adicionar uma coluna de período de tempo para comparação {#section_93CC2B4F48504125BEC104046A32EB93}
 
 A partir de agora, é possível adicionar um período de tempo a cada coluna de uma tabela, permitindo que você adicione períodos diferentes daqueles definidos no seu calendário. Essa é mais uma forma de comparar datas.
 
-1. Clique com o botão direito na tabela e selecione **[!UICONTROL Adicionar coluna de período]** ![](assets/add-time-period-column.png)
+1. Clique com o botão direito do mouse em uma coluna da tabela e selecione **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
 
 1. Dependendo de como configurou o intervalo de data da tabela, você tem as opções a seguir para comparação:
 
    | Opção | Descrição |
    |---|---|
-   | **[!UICONTROL Semana/mês/trimestre/ano anterior a esse intervalo de datas]** | Adiciona uma coluna com semana/mês/etc. imediatamente antes desse intervalo de data. |
-   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado]** | Adiciona o mesmo intervalo de data no ano passado. |
-   | **[!UICONTROL Selecionar intervalo]** | Permite selecionar um intervalo de datas personalizado. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Adiciona uma coluna com semana/mês/etc. imediatamente antes desse intervalo de data. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Adiciona o mesmo intervalo de data no ano passado. |
+   | **[!UICONTROL Select range]** | Permite selecionar um intervalo de datas personalizado. |
 
    >[!NOTE]
    >
-   >Sendo selecionado um número de dias personalizado, por exemplo, de 7 a 20 de outubro (intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]**, e **[!UICONTROL Selecionar intervalo]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]**, e **[!UICONTROL Select range]**.
 
 1. O período de tempo será inserido no topo da coluna selecionada:
 
@@ -79,7 +79,7 @@ A partir de agora, é possível adicionar um período de tempo a cada coluna de 
 
 ## Alinhar colunas de datas para começarem na mesma linha {#section_5085E200082048CB899C3F355062A733}
 
-Uma nova configuração das tabelas permite **[!UICONTROL Alinhar datas de cada coluna para iniciarem na mesma linha (aplica-se a toda a tabela)]**. “Aplica-se a toda a tabela” significa que se você fizer, por exemplo, um detalhamento na tabela, e alterar essa configuração para o detalhamento, modificará a configuração de toda a tabela.
+Uma nova configuração para todas as tabelas permite **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. “Aplica-se a toda a tabela” significa que se você fizer, por exemplo, um detalhamento na tabela, e alterar essa configuração para o detalhamento, modificará a configuração de toda a tabela.
 
 ![](assets/date-comparison-setting.png)
 
