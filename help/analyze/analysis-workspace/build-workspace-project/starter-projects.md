@@ -20,14 +20,14 @@ Você pode criar um projeto a partir de:
 
 ## Criar um modelo personalizado {#create-custom-template}
 
-Os usuários com direitos de administrador podem transformar qualquer projeto que criarem em um modelo personalizado. Veja como:
+Os usuários com direitos de administrador podem tornar qualquer projeto criado por ele um modelo personalizado. Veja como:
 
-1. Abra o projeto.
+1. Abrir o projeto.
 1. Vá para **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
-   O projeto será salvo com o nome do projeto atual, seguido da palavra (Modelo) entre parênteses. Os administradores podem alterar esse nome editando o modelo.
+   O projeto será salvo com o nome do projeto atual, seguido da palavra (Modelo) entre parênteses. Os administradores podem alterar esse nome ao editar o modelo.
 
    >[!NOTE]
    >
@@ -39,16 +39,16 @@ Os usuários com direitos de administrador podem transformar qualquer projeto qu
 
 | Ação | Descrição |
 |--- |--- |
-| Editar   modelo | Permite que um administrador edite o modelo alterando sua fonte de dados, modificando componentes, visualizações, intervalos de datas etc.  Para editar um modelo personalizado,<ul><li>abra a lista de modelos personalizados do Analysis Workspace, selecione um e clique em Editar modelo, ou</li><li>no Analytics, clique em Componentes > Projetos e filtre por Modelos. Clique no nome do modelo que deseja editar.</li></ul>**Observação:** Depois de editar um modelo, dependendo da situação, você tem duas opções: Salvar, Salvar como. Estas são as diferenças:<ul><li>**Salvar:** Atualiza o modelo personalizado para todos os usuários. Quando outra pessoa criar um projeto a partir desse modelo personalizado, ela verá as alterações que você fez.</li><li>**Salvar como:** Cria uma cópia do modelo personalizado com suas alterações. (Você saberá que está no modo de edição quando o item de menu Compartilhar > Compartilhar projeto estiver desativado.)</li></ul> |
+| Editar   modelo | Permite que um administrador edite o modelo ao alterar a fonte de dados, modificar componentes, exibições, intervalos de data etc.  Para editar um modelo personalizado,<ul><li>abra a lista de modelos personalizados do Analysis Workspace, selecione um e clique em Editar modelo, ou</li><li>no Analytics, clique em Componentes > Projetos e filtre por Modelos. Clique no nome do modelo que deseja editar.</li></ul>**Observação:** após editar um modelo, dependendo da situação, você terá duas opções: Salvar, Salvar como. Elas se diferem da seguinte forma:<ul><li>**Salvar:** Atualiza o modelo personalizado para todos os usuários. Quando outra pessoa cria um projeto a partir deste modelo personalizado, ela verá suas alterações.</li><li>**Salvar como:** Cria uma cópia do modelo personalizado com suas alterações. (Você saberá que está no modo de edição quando o item de menu Compartilhar > Compartilhar projeto estiver desativado.)</li></ul> |
 | Pesquisar nos modelos | Na caixa de diálogo Modelos personalizados, clique em Pesquisar modelos. |
-| Classificar modelos | É possível classificar modelos em ordem alfabética, relevância e por data de criação.  Na caixa de diálogo Modelos personalizados, clique em Classificar:. |
+| Classificar modelos | É possível classificar modelos por ordem alfabética, relevância e data de criação.  Na caixa de diálogo Modelos personalizados, clique em Classificar:. |
 | Aplicar tags ao modelo | Abra o modelo e vá até Projeto > Informações e configurações do projeto. Clique em Adicionar tags. |
 | Modificar descrição do modelo | Abra o modelo e vá até Projeto > Informações e configurações do projeto. Clique duas vezes na descrição e edite-a. |
 
 
 ## Modelos padrão
 
-Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis no painel esquerdo. Os modelos do Analysis Workspace abrangem casos usuais. Eles são agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
+Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis no painel esquerdo. Os modelos do Analysis Workspace abrangem casos usuais. São agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
@@ -108,15 +108,15 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 
 >[!NOTE] O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcdc/mcdc-people.html).
 
-Este modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica de Visitantes únicos. A métrica de Pessoas fornece uma medida da frequência com que os consumidores que usam vários dispositivos interagem com sua marca. O modelo permite
+Este modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica de Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
-* Segmentar seus dados para os EUA/Canadá em relação ao resto do mundo. O Device Co-op está disponível atualmente apenas na América do Norte.
-* Compare as métricas de Pessoas e Visitantes únicos lado a lado.
-* Consulte a &quot;taxa de compactação&quot;, uma métrica calculada que calcula o quão menor a métrica de Pessoas é como uma porcentagem de Visitantes únicos.
-* Compare os totais de tipos de dispositivos que seus clientes usam
-* Veja quantos dispositivos médios por pessoa são usados.
-* Descubra como usar o empilhamento de segmentos com a métrica de Pessoas.
-* Saiba como usar a Experience Cloud ID em seu ambiente melhora a eficácia da métrica de Pessoas.
+* Segmentar seus dados por EUA/Canadá vs. o resto do mundo. No momento, o Device Co-op está disponível somente para a América do Norte.
+* Comparar as métricas de Pessoas e de Visitantes únicos lado a lado.
+* Ver a &quot;taxa de compressão&quot;, uma métrica calculada que calcula o quão menor a métrica de Pessoas é como uma porcentagem de Visitantes únicos.
+* Comparar os totais de tipos de dispositivos que seus clientes usam
+* Ver a média de quantos dispositivos por pessoa são usados.
+* Descobrir como usar o empilhamento de segmentos com a métrica de Pessoas.
+* Saber mais sobre como usar a Experience Cloud ID em seu ambiente melhora a eficácia da métrica Pessoas.
 
 ### QI da jornada: Modelo de análise entre dispositivos
 
