@@ -2,7 +2,7 @@
 description: Como interagir com linhas estáticas em tabelas.
 title: Linhas estáticas x dinâmicas
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
