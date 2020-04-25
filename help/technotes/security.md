@@ -15,4 +15,4 @@ Informações sobre as práticas de segurança em toda a empresa estão disponí
 
 Informações sobre práticas específicas do Adobe Analytics estão disponíveis na visão geral [de segurança do](https://www.adobe.com/content/dam/acom/en/security/pdfs/ADB-AnalyticsSecurity-WP.pdf)Adobe Analytics. Ele descreve os processos seguidos em arquitetura, autenticação, data centers, rede e pessoal.
 
-Consulte o programa [de divulgação de vulnerabilidade dos serviços da Web da](https://hackerone.com/adobe) Adobe no HackerOne se você encontrar uma vulnerabilidade para relatar.
+Consulte o programa [de revelação de vulnerabilidade dos serviços da Web da](https://hackerone.com/adobe) Adobe no HackerOne se você encontrar uma vulnerabilidade para relatar.
