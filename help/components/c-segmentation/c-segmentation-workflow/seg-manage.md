@@ -3,7 +3,7 @@ description: O Gerenciador de segmentos oferece várias formas de cuidar de segm
 title: Gerenciar segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
