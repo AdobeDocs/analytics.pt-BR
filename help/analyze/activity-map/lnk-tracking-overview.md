@@ -13,10 +13,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 O Activity Map rastreia os links com um algoritmo mais avançado:
 
-* Inclui o rastreamento de regiões de página para evitar que casos do mesmo link sejam confundidos em diferentes dispositivos, pois o link aparece em diferentes posições na página;
-* Garante a exclusividade do link, o que significa que links distintos não podem ser confundidos por causa de problemas com a LinkID ou por meio de navegadores diferentes.
+* Inclui o rastreamento de regiões da página para evitar casos em que o mesmo link seja confundido em diferentes dispositivos, pois o link é exibido em diferentes posições na página;
+* Garante a singularidade do link, o que significa que links distintos não podem ser confundidos por causa de problemas com a LinkID ou pela diferença entre os navegadores.
 
-Para obter mais informações sobre o rastreamento de links no Mapa de Atividades, clique [aqui](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
+Para obter mais informações sobre o rastreamento de links no Activity Map, clique [aqui](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
 ## Como o Rastreamento de links do Activity Map pode coletar dados de PII {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
@@ -26,5 +26,5 @@ Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados
 
 * `Mailto` links. Um link mailto é um tipo de link HTML que ativa o cliente de email padrão no computador para enviar um email.
 * `User ID` links que podem ser exibidos no cabeçalho/rodapé de um site depois que o usuário fizer logon.
-* Para instituições financeiras, o número da conta pode ser exibido como um link. Ao clicar nele, o texto do link é coletado.
-* Sites da rede de saúde também podem ter dados de PII exibidos como links. Clicar nesses links coletará o texto do link e, portanto, coletará os dados de PII.
+* Para instituições financeiras, o número da conta pode ser mostrado como um link. Clicar nele coletará o texto do link.
+* Sites de instituições de saúde também podem ter dados de PII mostrados como links. Clicar nesses links coletará o texto do link e, portanto, coletará dados de PII.
