@@ -1,7 +1,7 @@
 ---
 title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
