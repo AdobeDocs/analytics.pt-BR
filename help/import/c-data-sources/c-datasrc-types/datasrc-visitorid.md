@@ -4,7 +4,7 @@ subtopic: Data sources
 title: ID de visitante
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Consulte [Integrar dados offline](/help/import/c-data-sources/datasrc-integratin
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
 | Canal | Nome do canal. |
 | eVarn | Nome da eVarn. Valores válidos para n são inteiros entre 1 - 75. |
-| Produto | Nome do produto. |
+| Product | Nome do produto. |
 | Estado | Nome do estado. |
 | CEP | Nome do CEP. |
 
