@@ -3,7 +3,7 @@ description: Etapas que descrevem como designar qual eVar contém seu identifica
 title: Especificar a Variável de visitante único
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
