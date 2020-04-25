@@ -2,7 +2,7 @@
 description: 'null'
 title: Visão geral dos painéis
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -43,7 +43,7 @@ Lembre-se:
 
    ![](assets/dropdown.png)
 
-1. Selecione uma das opções na lista suspensa para alterar os dados no painel abaixo. (Também é possível optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Nenhum filtro]**.)
+1. Selecione uma das opções na lista suspensa para alterar os dados no painel abaixo. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
 1. Por exemplo, se você também quiser dividir os dados por canal de marketing, você pode adicionar outra lista suspensa chamada “Canal de marketing”:
 
    ![](assets/mc_dropdown.png)
