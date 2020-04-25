@@ -3,7 +3,7 @@ description: Configura diversas variáveis comuns e eventos bem-sucedidos para u
 title: Modelo padrão
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,10 +15,10 @@ Configura diversas variáveis comuns e eventos bem-sucedidos para um site típic
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Campanha interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Variável de comércio 3 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
-| Variável de comércio 4 | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar4` |
+| Campanha interna | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Variável de comércio 3 | String | Básica | Mais recente (último) | Visita | `evar3` |
+| Variável de comércio 4 | String | Básica | Mais recente (último) | Visita | `evar4` |
 
 | Eventos bem-sucedidos | Tipo | `s_code`variável |
 |---|---|---|
