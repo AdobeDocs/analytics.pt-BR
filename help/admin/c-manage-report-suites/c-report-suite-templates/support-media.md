@@ -3,7 +3,7 @@ description: Fornece configurações comuns para um site que oferece artigos e v
 title: Mídia de suporte
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Fornece configurações comuns para um site que oferece artigos e vídeos de sup
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Evento tipo self-service | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
+| Promoção interna | String | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
+| Evento tipo self-service | String | Básica | Mais recente (último) | Visita | `evar3` |
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
