@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar um projeto do Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
 
 1. Especifique a permissão de usuário para criar e preparar os projetos.
 
-   Antes de criar ou preparar um projeto do Analysis Workspace, os administradores devem adicionar você a um grupo com a permissão **[!UICONTROL Criar/preparar projetos no Analysis Workspace]** ativada ou ao grupo de usuários **[!UICONTROL Acesso a todos os relatórios]**. ( **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento do usuário]** > [Grupos](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html)).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Grupos](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html)).
 
-1. Na [!DNL Experience Cloud], clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +30,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
 
    ![](assets/analysis-app-search.png)
 
-1. Clique em **[!UICONTROL Criar novo projeto]**.
+1. Clique em **[!UICONTROL Create New Project]**.
 
    Você pode criar um projeto a partir de
 
@@ -40,10 +40,10 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
 
    ![](assets/start_modal.png)
 
-1. Para criar um projeto a partir de um projeto em branco, clique em **[!UICONTROL Projeto em branco]**.
+1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
-   * Em seguida, clique em **[!UICONTROL Criar]**.
-   * Ou pressione **[!UICONTROL Enter]**.
+   * Em seguida, clique em **[!UICONTROL Create]**, ou
+   * Basta clicar em **[!UICONTROL Enter]**.
    Um projeto em branco é exibido, mostrando um painel de forma livre e uma visualização da tabela de dados.
 
    ![](assets/fa_project_new.png)
@@ -75,7 +75,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
  </tbody> 
 </table>
 
-1. Salve o projeto. Nomeie o projeto, forneça uma descrição (opcional, porém útil) e adicione uma tag ao projeto (opcional), em seguida clique em **[!UICONTROL Salvar projeto]**.
+1. Salve o projeto. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
 
    ![](assets/save_project.png)
 
@@ -113,7 +113,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte  <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
@@ -124,7 +124,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
 
 **[Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-O painel [!UICONTROL Visualizações] oferece gráficos, roscas, tabelas de dados, tabelas de [coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas de Venn padrão do Analytics e assim por diante. Você pode arrastar e soltar várias visualizações em seu projeto.
+The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. Você pode arrastar e soltar várias visualizações em seu projeto.
 
 ![Resultado da etapa](assets/visualizations.png)
 
