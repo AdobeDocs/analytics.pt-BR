@@ -3,7 +3,7 @@ description: Exibe informações sobre a ordem na qual as páginas de seu site s
 title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Os relatórios incluem caminhos padrão em profundidade e relatórios de anális
 
 **[!UICONTROL FallOut]**: esse relatório mostra o desgaste da visita e as taxas de conversão entre cada ponto de verificação definido. As etapas são organizadas de cima para baixo, com números brutos e porcentagens exibidas à esquerda, e porcentagens de conversão e fall-out à direita.
 
-Consulte  [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obter mais informações.
+Consulte [Relatório de fallout](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obter mais informações.
 
 **[!UICONTROL Extensão do caminho]**: mostra o quão profundo os visitantes navegaram do site (tanto por percentagem e por contagem total). Em outras palavras, o relatório indica quantas páginas o visitante médio do site visualiza antes de sair.
 
