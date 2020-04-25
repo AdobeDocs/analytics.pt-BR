@@ -17,9 +17,9 @@ Certos fatores podem influenciar o desempenho de um projeto no Analysis Workspac
 Segmentos intricados podem ter um impacto significativo no desempenho do projeto. Veja a seguir alguns fatores que adicionam complexidade a um segmento (em uma ordem aproximada de impacto):
 
 * Operadores de “contém”, “contém qualquer um de”, “corresponde”, “começa com” ou “termina com”
-* Segmentação sequencial, especialmente quando restrições de dimensão (Dentro/Depois) são usadas
-* O número de itens de dimensão exclusivos dentro das dimensões usadas no segmento (por exemplo, Página = &#39;A&#39; quando a Página tem 10 itens exclusivos será mais rápido que Página = &#39;A&#39; quando a Página tem 10000 itens únicos)
-* Número de diferentes dimensões usadas (por exemplo, Página = &#39;Início&#39; e Página = &#39;Resultados da pesquisa&#39; serão mais rápidos que a eVar 1 = &#39;vermelho&#39; e eVar 2 = &#39;azul&#39;)
+* Segmentação sequencial, especialmente quando restrições de dimensão (Dentro/Depois de) são usadas
+* Número de itens de dimensão exclusivos em dimensões usadas no segmento (por exemplo, Página = &#39;A&#39; quando a Página tem 10 itens exclusivos será mais rápida que a Página = &#39;A&#39; quando a Página tiver 100000 itens exclusivos)
+* O número de diferentes dimensões usadas (por exemplo, Página = &#39;Página inicial&#39; e Página = &#39;Resultados da pesquisa&#39;) será mais rápido que eVar 1 = &#39;vermelho&#39; e eVar 2 = &#39;azul&#39;)
 * Muitos operadores OR (em vez de AND)
 * Contêineres aninhados que variam no escopo (por exemplo, “Ocorrência” dentro de “Visita” dentro de “Visitante”)
 
@@ -27,7 +27,7 @@ Segmentos intricados podem ter um impacto significativo no desempenho do projeto
 
 Embora alguns dos fatores de complexidade não possam ser evitados, pense em oportunidades para reduzir a complexidade de seus segmentos. Em geral, quanto mais específico você puder ser com os critérios do seu segmento, melhor. Por exemplo:
 
-* Com os container, o uso de um único container na parte superior do segmento será mais rápido do que uma série de container aninhados.
+* Com contêineres, usar um só contêiner na parte superior do segmento será mais rápido que uma série de contêineres aninhados.
 * Com operadores, &quot;igual&quot; será mais rápido que &quot;contém&quot; e &quot;igual a qualquer um&quot; será mais rápido que &quot;contém qualquer um&quot;.
 * Com muitos critérios, operadores AND serão mais rápidos que uma série de operadores OR. Além disso, procure oportunidades para reduzir muitas declarações OR em uma única declaração &quot;igual a qualquer uma&quot;.
 
@@ -41,7 +41,7 @@ O intervalo de dados solicitado no decorrer do projeto influenciará o desempenh
 
 Quando possível, não insira mais dados do que o necessário.
 
-Lembre-se de que os intervalos de datas (componentes roxos) substituem o intervalo de datas do painel. Como resultado, se você estiver usando intervalos de datas diferentes como colunas (por exemplo, colunas de mês passado, semana passada e ontem), o intervalo de datas do painel não precisará abranger todos os intervalos de datas da coluna. Ele pode ser definido como ontem, pois os intervalos de dados usados na tabela de forma livre substituirão o painel. Para mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0).
+Lembre-se de que os intervalos de data (componentes em roxo) substituem o painel de intervalo de data. Como resultado, caso esteja utilizando os intervalos de data como colunas (por exemplo, colunas de último mês, última semana e de ontem), o painel de intervalo de data não precisa abranger as colunas de intervalos de data. Pode simplesmente ser definido para ontem, porque os intervalos de data usados na tabela de forma livre substituirão o painel. Para mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0).
 
 Com as [opções de comparação de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) você pode inserir os períodos de dados específicos que deseja comparar. Por exemplo. caso precise mostrar os dados do mês passado comparados aos do mesmo mês do ano passado, ao invés de configurar o painel para os últimos 13 meses de dados, use a opção de comparação de períodos para apresentar o desempenho de ano a ano.
 
@@ -51,18 +51,18 @@ O número de visualizações de gráfico contidas em um projeto afetará a capac
 
 **Prática recomendada para o número de visualizações**
 
-Diminua o número de visualizações no projeto. O Analysis Workspace está fazendo diversas transformações nos bastidores em cada visual que você adiciona, sendo assim, priorize os visuais mais importantes para o consumidor do relatório e separe visuais de suporte em um projeto mais detalhado, caso necessário.
+Diminua o número de visualizações em seu projeto. O Analysis Workspace está fazendo diversas transformações nos bastidores em cada visual que você adiciona, sendo assim, priorize os visuais mais importantes para o consumidor do relatório e separe visuais de suporte em um projeto mais detalhado, caso necessário.
 
 ## Complexidade de visualizações (segmentos, métricas, filtros)
 
-O tipo de visualização (por exemplo, fallout ou tabela de forma livre) adicionado a um projeto não influencia muito o desempenho do projeto. É a complexidade da visualização que aumentará o tempo de processamento. Os fatores que adicionam complexidade a uma visualização incluem:
+O tipo de visualização (por exemplo, fallout ou tabela de forma livre) adicionado a um projeto não influencia muito o desempenho do projeto. É a complexidade da visualização que aumentará o tempo de processamento. Fatores que adicionam complexidade à visualização incluem:
 
-* Intervalo de dados solicitados, conforme mencionado acima
-* Número de segmentos aplicados; por exemplo, segmentos usados como linhas de uma tabela de forma livre
-* Uso de segmentos complexos
-* Linhas ou colunas de itens estáticos em tabelas de forma livre
+* Intervalo de dados solicitados, como mencionado acima
+* Números de segmentos aplicados, por exemplo, segmentos usados como linhas de uma tabela de forma livre
+* Uso de segmentos intricados
+* Linhas ou colunas de itens estáticas em tabelas de forma livre
 * Filtros aplicados a linhas em tabelas de forma livre
-* Número de métricas incluídas, especialmente métricas calculadas que usam segmentos
+* Número de métricas incluídas, métricas especialmente calculadas que usam segmentos
 
 **Prática recomendada para a complexidade da visualização**
 
@@ -76,14 +76,14 @@ Um painel pode conter diversas visualizações e, como resultado, o número de p
 
 **Prática recomendada para o número de painéis**
 
-Não tente adicionar tudo a um só projeto e, sim, criar projetos distintos que atendam a um propósito ou grupo de participantes específico. Use tags para organizar projetos em temas-chave e compartilhar projetos relacionados com grupos de participantes.
+Não tente adicionar tudo a um só projeto e, sim, criar projetos distintos que atendam a um propósito ou grupo de participantes específico. Use as tags para organizar projetos em temas chave e compartilhe projetos relacionados com grupos de participante.
 
-Se desejar mais organização de projetos, lembre-se de que a vinculação [direta](https://www.youtube.com/watch?v=6IOEewflG2U) ao seu projeto é uma opção. Crie um índice interno de projetos de forma que os participantes possam encontrar o que precisam mais facilmente.
+Caso deseje mais organização nos projetos, lembre-se de que a [vinculação direta](https://www.youtube.com/watch?v=6IOEewflG2U) ao seu projeto é uma opção. Crie um índice interno de projetos de forma que os participantes possam encontrar o que precisam mais facilmente.
 
-Caso necessite de muitos painéis em uma Workspace, reduza os painéis antes de salvar e compartilhar. Quando um projeto é carregado, o Analysis Workspace somente carregará o conteúdo dos painéis expandidos. Os painéis reduzidos não serão carregados até que o usuário os expanda. Essa abordagem ajuda de duas formas:
+Caso necessite de muitos painéis em uma Workspace, reduza os painéis antes de salvar e compartilhar. Quando um projeto é carregado, o Analysis Workspace somente carregará o conteúdo dos painéis expandidos. Os painéis reduzidos não serão carregados até que o usuário os expanda. Essa abordagem auxilia de duas formas:
 
-* Os painéis reduzidos são salvos no tempo de carregamento geral de um projeto
-* Os painéis reduzidos são uma excelente maneira de organizar seus projetos de forma lógica para o consumidor do relatório
+* Os painéis reduzidos são salvos em um tempo de carregamento geral de um projeto
+* Os painéis reduzidos são uma boa forma de organizar seus projetos de maneira lógica para o consumidor do relatório
 
 ## Tamanho do conjunto de relatórios
 
