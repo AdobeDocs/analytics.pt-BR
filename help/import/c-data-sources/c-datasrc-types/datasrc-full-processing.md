@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Processamento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -166,7 +166,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
    <td colname="col2"> <p>Largura do navegador em pixels (por exemplo, 1024). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Conjunto de gráficos </p> </td> 
+   <td colname="col1"> <p>charSet </p> </td> 
    <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
   </tr> 
   <tr> 
