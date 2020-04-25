@@ -3,7 +3,7 @@ description: Descreve como ativar e implementar uma variável de comercializaç�
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implementar uma variável de merchandising
 topic: Developer and implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
