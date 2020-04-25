@@ -2,7 +2,7 @@
 description: Explica as três opções de Compatibilidade do produto.
 title: Compatibilidade de métrica
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ Ao criar métricas calculadas ou avançadas no Criador de métricas calculadas, 
    <td colname="col2"> <p>Dados totalmente processados e que incluem segmentos e classificações. Se você preferir exibir todas as métricas depois que os dados são processados, é possível desativar os Dados atuais removendo usuários do grupo Usuários de dados atuais. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Relatórios de Canal de marketing </td> 
+   <td colname="col1"> Relatórios de canal de marketing </td> 
    <td colname="col2"> <p>Métricas com alocação de primeiro contato são compatíveis apenas com os relatórios de Canal de marketing. </p> </td> 
   </tr> 
  </tbody> 
