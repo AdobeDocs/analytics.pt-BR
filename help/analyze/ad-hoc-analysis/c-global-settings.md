@@ -2,7 +2,7 @@
 description: Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
 title: Configurações
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
