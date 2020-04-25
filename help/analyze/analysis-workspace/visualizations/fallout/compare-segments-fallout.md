@@ -25,33 +25,33 @@ Você pode criar segmentos a partir de um ponto de contato, adicionar segmentos 
 
    ![](assets/segment-from-touchpoint.png)
 
-   O Construtor de segmentos é aberto, pré-preenchido com o segmento sequencial pré-construído que corresponde ao ponto de contato selecionado:
+   O Construtor de segmentos abre, pré-preenchido com o segmento sequencial pré-construído que corresponde ao ponto de contato selecionado:
 
    ![](assets/segment-builder.png)
 
-1. Dê um título e uma descrição ao segmento e salve-o.
+1. Atribua um título e uma descrição ao segmento e salve-o.
 
-   Agora você pode usar esse segmento em qualquer relatório que desejar.
+   Agora você pode usar este segmento em qualquer relatório que quiser.
 
 ## Adicionar um segmento como ponto de contato {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Se você quiser ver, por exemplo, como seus usuários dos EUA tendem e afetam o fallout, basta arrastar o segmento de usuários dos EUA para o fallout:
+Se quiser ver, por exemplo, a tendência dos seus usuários dos EUA e como eles afetam o fallout, basta arrastar o segmento de usuários dos EUA ao fallout:
 
 ![](assets/segment-touchpoint.png)
 
-Ou você pode criar um ponto de contato AND arrastando o segmento de usuários dos EUA para outro ponto de verificação.
+Ou, você pode criar um ponto de contato AND, arrastando o segmento de usuários dos EUA ao outro ponto de verificação.
 
 ## Comparar segmentos no fallout {#section_E0B761A69B1545908B52E05379277B56}
 
 É possível comparar um número ilimitado de segmentos na visualização de Fallout.
 
-1. Selecione os segmentos que deseja comparar no [!UICONTROL Segments] painel à esquerda. Em nosso exemplo, selecionamos 2 segmentos: Usuários dos EUA e usuários não pertencentes aos EUA.
-1. Arraste-os para a área de Segmento na parte superior.
+1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. Em nosso exemplo, selecionamos dois segmentos: usuários dos EUA e usuários de fora dos EUA.
+1. Arraste-os à área de Segmento na parte superior.
 
    ![](assets/segment-drop.png)
 
-1. Opcional: Você pode manter &quot;Todas as visitas&quot; como o container padrão ou excluí-lo.
+1. Opcional: você pode manter “Todas as visitas” como contêiner padrão ou excluí-lo.
 
    ![](assets/seg-compare.png)
 
-1. Agora você pode comparar o fallout entre os dois segmentos, como onde um segmento supera outro ou outros insights.
+1. Agora você pode comparar o fallout nos dois segmentos, como onde um segmento supera outro, ou outros insights.
