@@ -2,7 +2,7 @@
 description: Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 title: Conector de dados Neolane Ozon para Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ Essa integração inclui os seguintes benefícios principais:
 
 Essa integração apresenta os seguintes segmentos de marketing dinâmicos:
 
-* **Perfis de compra** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
+* **Perfis de compra:** aumente os pedidos repetidos e o valor médio de pedido por meio de campanhas direcionadas pelos padrões de compra do visitante.
 * **Perfil comportamental de exibição de produto/conteúdo:** alcance clientes em potencial por meio de segmentos de marketing com base em exibições de produtos e criação de perfis de acesso ao conteúdo.
 * **Perfil de abandono do carrinho:** ajude os visitantes a converterem-se em clientes por meio de campanhas ajustadas especificamente projetadas para aqueles que estão hesitantes em concluir os carrinhos.
 * Os clientes também podem criar e agendar segmentos de remarketing personalizados específicos às necessidades dos usuários.
