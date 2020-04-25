@@ -3,7 +3,7 @@ description: A habilitação do gerenciamento móvel ativa as variáveis de solu
 title: Gerenciamento móvel
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,11 +56,11 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 |--- |--- |
 | Data da primeira inicialização | Data da primeira execução após a instalação ou reinstalação.   DD/MM/AAAA |
 | ID do aplicativo | Armazena o nome e a versão do aplicativo no seguinte formato:   `[AppName] [BundleVersion]`  Por exemplo, `myapp 1.1.` |
-| Número de Lançamento | Dispara também quando o aplicativo foi iniciado ou trazido para o plano de fundo. |
+| Número de Lançamento | Número de vezes em que o aplicativo foi iniciado ou trazido para o plano de fundo. |
 | Dias desde a primeira utilização | Número de dias desde a primeira execução. |
-| Dias desde a última utilização | Número de dias desde a última visita. |
+| Dias desde a última utilização | Número de dias desde a última utilização. |
 | Hora do dia | Mede a hora em que o aplicativo foi iniciado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso. |
-| Dias da semana | Número de dias da semana que o aplicativo foi iniciado. |
+| Dias da semana | Número do dia da semana no qual o aplicativo foi iniciado. |
 | Nome do dispositivo | Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo. O primeiro número normalmente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. |
 | Versão do sistema operacional | Versão do sistema operacional. |
 | Resolução | Largura x altura em pixels reais. |
