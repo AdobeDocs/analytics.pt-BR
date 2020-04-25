@@ -3,7 +3,7 @@ description: Classifica as páginas do site com base nas páginas que recebem ma
 title: Páginas
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
