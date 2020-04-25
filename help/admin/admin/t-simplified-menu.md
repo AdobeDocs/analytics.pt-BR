@@ -13,17 +13,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Etapas para implantar o menu de relatórios simplificados no Reports and Analytics.
 
-O menu simplificado do Reports &amp; Analytics da Adobe permite que você opte por aplicar um menu simplificado e alternativo, com pastas reestruturadas logo abaixo. O menu simplificado exibe essas opções por padrão:
+O menu simplificado do Reports &amp; Analytics da Adobe permite que você opte por aplicar um menu simplificado e alternativo, com pastas reestruturadas logo abaixo. O menu simplificado exibe, por padrão, as opções abaixo:
 
 ![](assets/simplified-menu.png)
 
->[!NOTE] Esteja ciente de que a aplicação do menu simplificado remove toda a personalização que você fez na estrutura do menu principal. Ela também implanta a estrutura de menu simplificado para todos os usuários dos Relatórios e análises de marketing em sua empresa. Pense cuidadosamente sobre as ramificações (como o treinamento desenvolvido em torno da sua estrutura de menus existente) antes de implementar este novo menu, pois não é possível reverter para nenhuma personalização na sua estrutura de menus existente.
+>[!NOTE] Esteja ciente de que a aplicação do menu simplificado remove toda a personalização que você fez na estrutura do menu principal. Ela também implanta a estrutura de menu simplificado para todos os usuários dos Relatórios e análises de marketing em sua empresa. Pense bem sobre as ramificações (tais como o treinamento desenvolvido na sua estrutura de menu já existente) antes de implantar esse novo menu, pois não será possível reverter qualquer personalização na estrutura.
 
-1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** para abrir o Gerenciador de conjunto de relatórios.
+1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** para abrir o Gerenciador do Conjunto de relatórios.
 1. Selecione o conjunto de relatórios no qual você deseja implantar a estrutura simplificada de menu.
-1. Vá para **[!UICONTROL Edit settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Menus]**.
-1. Click **[!UICONTROL Restore Simplified]** to implement the simplified menu structure.
+1. Vá até **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Personalizar menus]**.
+1. Clique em **[!UICONTROL Restauração simplificada]** para implantar a estrutura simplificada de menu.
 
    ![](assets/restore-simplified.png)
 
-1. To go back to the (non-customized) default menu, click **[!UICONTROL Restore Defaults]**.
+1. Volte para o menu padrão (não personalizado) e clique em **[!UICONTROL Restaurar padrões]**.
