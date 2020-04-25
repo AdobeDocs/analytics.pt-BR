@@ -2,7 +2,7 @@
 description: Reserve as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo.
 title: Código do plug-in do parâmetro da string de consulta
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
