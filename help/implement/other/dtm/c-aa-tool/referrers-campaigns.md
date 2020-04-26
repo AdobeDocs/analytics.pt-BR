@@ -12,9 +12,9 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 # Referenciadores e campanhas
 
-Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+Descrições de campo no [!UICONTROL Dynamic Tag Management] para referenciadores e opções de campanha ao implantar o [!UICONTROL Dynamic Tag Management] no Adobe [!DNL Analytics].
 
-**[!UICONTROL  *`Property`*]** > ![Ícone](assets/settings_gear.png) de engrenagem **[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
+**[!UICONTROL *`Property`*]** > ![Ícone de engrenagem](assets/settings_gear.png)**[!UICONTROL  Editar ferramenta ]** > **[!UICONTROL  Referenciadores e campanhas ]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -25,8 +25,8 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Substituição de Quem indicou </td>
-   <td colname="col2"> <p>Substitui o valor definido na variável A variável<span class="varname"> s.referrer</span>, que normalmente é preenchida pelo referenciador definido no navegador. </p> <p>Consulte <a href="../../../vars/page-vars/referrer.md">quem indicou</a>. </p> </td>
+   <td colname="col1"> Substituição do referenciador </td>
+   <td colname="col2"> <p>Substitui o valor definido na variável A variável<span class="varname"> s.referrer</span>, que normalmente é preenchida pelo referenciador definido no navegador. </p> <p>Consulte <a href="../../../vars/page-vars/referrer.md">referenciador</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campaign </td>
