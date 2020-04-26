@@ -17,8 +17,8 @@ Parâmetros de string de consulta em um URL do navegador frequentemente contêm 
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. Defina a [!UICONTROL Extension] lista suspensa como [!UICONTROL Core], e a opção [!UICONTROL Data Element Type] como [!UICONTROL Query String Parameter].
+3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
+4. Defina a lista suspensa [!UICONTROL Extensão] como [!UICONTROL Principal] e o [!UICONTROL Tipo de elemento de dados] como [!UICONTROL Parâmetro de string de consulta].
 5. Insira o parâmetro da string de consulta no campo de texto.
 
 O valor do parâmetro da string de consulta é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir variáveis do Analytics.
