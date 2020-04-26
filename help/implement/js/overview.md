@@ -9,17 +9,17 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # AppMeasurement para JavaScript
 
-O AppMeasurement para JavaScript tem sido historicamente um método comum para implementar o Adobe Analytics. No entanto, com a crescente popularidade dos sistemas de gerenciamento de tags, é recomendável usar o [Adobe Experience Platform Launch](../launch/overview.md) .
+O AppMeasurement para JavaScript tem sido um método comum para implementar o Adobe Analytics. No entanto, com a crescente popularidade dos sistemas de gerenciamento de tags, é recomendado usar o [Adobe Experience Platform Launch](../launch/overview.md).
 
-## Fluxo de trabalho geral enviando dados para a Adobe usando JavaScript
+## Fluxo de trabalho geral envia dados para a Adobe usando o JavaScript
 
-1. Carregue o `AppMeasurement.js` arquivo. Esse arquivo contém as bibliotecas necessárias para enviar dados para a Adobe.
+1. Carregue o arquivo `AppMeasurement.js`. Esse arquivo contém as bibliotecas necessárias para enviar dados para a Adobe.
 
    ```html
    <script src="AppMeasurement.js"></script>
    ```
 
-2. Defina as variáveis de configuração em `AppMeasurement.js`. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas. Consulte Variáveis [de](../vars/config-vars/configuration-variables.md) configuração para obter uma lista completa de variáveis que podem ser definidas.
+2. Defina as variáveis de configuração em `AppMeasurement.js`. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas. Consulte [Variáveis de configuração](../vars/config-vars/configuration-variables.md) para obter uma lista completa de variáveis que podem ser definidas.
 
    ```js
    // Instantiate the Analytics tracking object with report suite ID
@@ -29,7 +29,7 @@ O AppMeasurement para JavaScript tem sido historicamente um método comum para i
    s.trackingServer = "example.omtrdc.net";
    ```
 
-3. Defina variáveis de nível de página no código de página do site. Essas variáveis determinam dimensões e métricas específicas enviadas para a Adobe. Consulte Variáveis [de](../vars/page-vars/page-variables.md) página para obter uma lista completa de variáveis que podem ser definidas.
+3. Defina variáveis de nível de página no código de página do site. Essas variáveis determinam dimensões e métricas específicas enviadas para a Adobe. Consulte [Variáveis de página](../vars/page-vars/page-variables.md) para obter uma lista completa de variáveis que podem ser definidas.
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +37,7 @@ O AppMeasurement para JavaScript tem sido historicamente um método comum para i
    s.events = "event1";
    ```
 
-4. Quando todas as variáveis de nível de página forem definidas, envie os dados para a Adobe usando o `t()` método. Consulte [para obter mais informações](../vars/functions/t-method.md) .
+4. When all page-level variables are defined, send the data to Adobe using the `t()` method. Consulte [t](../vars/functions/t-method.md) para obter mais informações.
 
    ```js
    s.t();
