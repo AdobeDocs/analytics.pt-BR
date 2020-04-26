@@ -30,7 +30,7 @@ A obtenção do código do módulo requer um usuário com acesso de Administrado
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-1. No início da navegação, clique em [!UICONTROL Admin] > [!UICONTROL Code Manager].
+1. Na navegação da parte superior, clique em [!UICONTROL Admin] > [!UICONTROL Gerenciador de código].
 1. Baixe a biblioteca JavaScript AppMeasurement mais recente.
 1. Após o download, descompacte o arquivo e localize `AppMeasurement_Module_Integrate.js`.
 
