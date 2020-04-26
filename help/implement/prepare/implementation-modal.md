@@ -25,13 +25,13 @@ Acesse o modal para criar um conjunto de relatórios usando as etapas a seguir.
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 2. Clique no ícone de 9-grid na parte superior e em [!UICONTROL Adobe Analytics].
-3. Se ainda não tiver criado um conjunto de relatórios, o modal será exibido automaticamente. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+3. Se ainda não tiver criado um conjunto de relatórios, o modal será exibido automaticamente. Se existir um conjunto de relatórios para essa empresa de logon, clique no ícone Ajuda na parte superior direita e em [!UICONTROL Bem-vindo ao Adobe Analytics].
 
->[!NOTE] A [!UICONTROL Welcome to Adobe Analytics] opção só será exibida se você fizer logon por meio da Adobe Experience Cloud. Se fizer logon por meio de domínios herdados, o modal não estará disponível.
+>[!NOTE] A opção [!UICONTROL Bem-vindo ao Adobe Analytics] só será exibida se você fizer logon por meio da Adobe Experience Cloud. Se fizer logon por meio de domínios herdados, o modal não estará disponível.
 
 ## Criar um novo conjunto de relatórios
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+Clique no botão [!UICONTROL Iniciar configuração] para iniciar o fluxo de trabalho de criação do conjunto de relatórios.
 
 ![Assistente RS](assets/analytics-implementation-rs-wizard.png)
 
