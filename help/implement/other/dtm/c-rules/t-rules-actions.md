@@ -20,20 +20,20 @@ Além das ferramentas integradas como o [!DNL Adobe Analytics] e o Google Analyt
 
 Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 
->[!NOTE] Como o DTM permite inserir código personalizado em sua página, certifique-se de não criar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em um script requer atenção especial. Sempre suponha que os valores do elemento de dados venham de uma fonte não confiável.
+>[!NOTE] Como o DTM permite inserir código personalizado em sua página, certifique-se de não criar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
 
-**Para configurar ações para a condição ser acionada**
+**Para configurar ações para a condição do disparador**
 
-1. Clique em **[!UICONTROL JavaScript / Third Party Tags]** para adicionar um novo script à sua regra.
+1. Clique em **[!UICONTROL JavaScript / tags de terceiros]** para adicionar um novo script à regra.
 
    ![](assets/scripts-actions.png)
 
-1. Clique em **[!UICONTROL Add New Script]**.
+1. Clique em **[!UICONTROL Adicionar novo script]**.
 
    ![](assets/scripts-actions2.png)
 
 1. Nomeie o script.
 1. Determine como deseja que o script seja acionado e cole o conteúdo desejado na área do texto. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Clique em **[!UICONTROL Salvar código]** e o script será adicionado à fila da regra. ![](assets/scripts-actions4.png)
 
