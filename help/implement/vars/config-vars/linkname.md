@@ -19,10 +19,10 @@ Você pode definir o campo Nome do link ao configurar uma regra para enviar um b
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
+3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Ações], clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon como [!UICONTROL Tipo de ação].
+6. Clique no botão de opção `s.tl()`, que revela o campo [!UICONTROL Nome do link].
 
 ## s.linkName no AppMeasurement e no editor de código personalizado do Launch
 
