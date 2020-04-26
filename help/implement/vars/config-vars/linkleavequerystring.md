@@ -21,12 +21,12 @@ A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastre
 
 ## Manter parâmetros de URL no Adobe Experience Platform Launch
 
-[!UICONTROL Keep URL Parameters] é uma caixa de seleção sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
+[!UICONTROL Manter parâmetros de URL] é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] ao configurar a extensão Adobe Analytics.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Keep URL Parameters] caixa de seleção.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Manter parâmetros de URL].
 
 Marque essa caixa se desejar incluir cadeias de caracteres de consulta nas dimensões de rastreamento de link.
 
