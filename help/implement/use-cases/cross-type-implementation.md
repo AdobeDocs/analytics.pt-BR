@@ -1,7 +1,7 @@
 ---
 title: Rastrear em tipos diferentes de implementação
 description: Use diferentes tipos de implementação e rastreie os visitantes facilmente entre eles.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
