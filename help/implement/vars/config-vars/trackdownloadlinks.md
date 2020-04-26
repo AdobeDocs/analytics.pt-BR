@@ -1,6 +1,6 @@
 ---
 title: trackDownloadLinks
-description: Ative ou desative o rastreamento automático de link para links de download.
+description: Ative ou desative o rastreamento automático de links para links de download.
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,24 +9,24 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # trackDownLoadLinks
 
-A Adobe oferece a capacidade de rastrear links de download sem definir manualmente o [`tl()`](../functions/tl-method.md) método para cada link de download. Ative essa variável se desejar usar o rastreamento automático de link para links de download.
+Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. Ative essa variável se desejar usar o rastreamento automático de links para links de download.
 
-Quando ativado, o AppMeasurement compara qualquer URL de link clicado com valores em [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se houver uma correspondência, uma chamada de rastreamento de link de download será automaticamente acionada.
+Quando ativado, o AppMeasurement compara qualquer URL de link clicado com os valores em [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se houver uma correspondência, uma chamada de rastreamento de link de download será acionada automaticamente.
 
 ## Rastrear links de download no Adobe Experience Platform Launch
 
-Rastrear links de download é uma caixa de seleção sob o [!UICONTROL Link Tracking] acordeão ao configurar a extensão do Adobe Analytics.
+Rastrear links de download é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] que aparece ao configurar a extensão do Adobe Analytics.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá para a [!UICONTROL Extensions] guia e clique no [!UICONTROL Configure] botão em Adobe Analytics.
-4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Track download links] caixa de seleção.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Rastrear links de download].
 
 Clique na caixa de seleção para ativar o rastreamento automático de link de download.
 
-## s.trackDownloadLinks no AppMeasurement e no editor de código personalizado Iniciar
+## s.trackDownloadLinks no AppMeasurement e editor de código personalizado do Launch
 
-O `s.trackDownloadLinks` é um booliano que ativa ou desativa o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou preferir chamar manualmente o `tl()` método para rastrear downloads, defina essa variável como `false`.
+`s.trackDownloadLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de link de download. If you do not want to track download links, or would prefer to manually call the `tl()` method to track downloads, set this variable to `false`.
 
 ```js
 s.trackDownloadLinks = true;
