@@ -17,12 +17,12 @@ Em versões anteriores do Adobe Analytics, o AppMeasurement usava a variável `v
 
 ## Namespace do visitante no Adobe Experience Platform Launch
 
-[!UICONTROL Visitor Namespace] é um campo sob o [!UICONTROL Cookies] acordeão ao configurar a extensão do Adobe Analytics.
+[!UICONTROL Namespace do visitante] é um campo sob a opção [!UICONTROL Cookies] ao configurar a extensão do Adobe Analytics.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Amplie o [!UICONTROL Cookies] acordeão, que revela o [!UICONTROL Visitor Namespace] campo.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Namespace do visitante].
 
 A Adobe recomenda não usar esse campo. Use `trackingServer` e `trackingServerSecure` no lugar dele.
 
