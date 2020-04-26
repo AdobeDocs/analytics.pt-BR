@@ -15,12 +15,12 @@ Quando ativado, o AppMeasurement compara qualquer URL de link clicado com valore
 
 ## Rastrear links externos no Adobe Experience Platform Launch
 
-Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+Rastrear links externos é uma caixa de seleção na opção [!UICONTROL Rastreamento de links] ao configurar a extensão do Adobe Analytics.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda o [!UICONTROL Link Tracking] acordeão, que revela a [!UICONTROL Track outbound links] caixa de seleção.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Rastrear links externos].
 
 Clique na caixa de seleção para ativar o rastreamento automático de links de saída.
 
