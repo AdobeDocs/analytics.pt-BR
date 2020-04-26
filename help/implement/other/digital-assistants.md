@@ -1,5 +1,5 @@
 ---
-title: Analytics para assistentes digitais
+title: Implementar o Analytics para assistentes digitais
 description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon Alexa ou o Google Home.
 translation-type: tm+mt
 source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
@@ -25,13 +25,13 @@ Esta página fornece uma visão geral de como usar melhor o Adobe Analytics para
 
 ## Visão geral da arquitetura de experiência digital
 
-![Fluxo de trabalho do Assistente digital](assets/Digital-Assitants.png)
+![Fluxo de trabalho do assistente digital](assets/Digital-Assitants.png)
 
 A maioria dos assistentes digitais atuais segue uma arquitetura de alto nível semelhante:
 
-1. **Dispositivo**: Há um dispositivo (como um Amazon Echo ou um telefone) com um microfone que permite ao usuário fazer uma pergunta.
-1. **Assistente** digital: Esse dispositivo interage com o serviço que alimenta o assistente digital. É onde o discurso é convertido em intenções compreensíveis por máquina e os detalhes da solicitação são analisados. Quando a intenção do usuário é compreendida, o assistente digital passa a intenção e os detalhes da solicitação para o aplicativo, que a processa.
-1. **&quot;Aplicativo&quot;**: O aplicativo pode ser um aplicativo no telefone ou um aplicativo de voz. O aplicativo é responsável por responder à solicitação. Ele responde ao assistente digital e o assistente digital responde ao usuário.
+1. **Dispositivo**: existe um dispositivo (como um Amazon Echo ou um telefone) com um microfone que permite ao usuário fazer uma pergunta.
+1. **Assistente digital**: esse dispositivo interage com o serviço que possibilita o assistente digital. É onde o discurso é convertido em intenções compreensíveis por máquina e os detalhes da solicitação são analisados. Quando a intenção do usuário é compreendida, o assistente digital passa a intenção e os detalhes da solicitação para o aplicativo, que a processa.
+1. **&quot;Aplicativo&quot;**: pode ser um aplicativo no telefone ou um aplicativo de voz. O aplicativo é responsável por responder à solicitação. Ele responde ao assistente digital e o assistente digital responde ao usuário.
 
 ## Onde implementar o Analytics
 
@@ -77,7 +77,7 @@ Cache-Control: no-cache
 
 ## Identificação de usuário/visitante
 
-O Adobe Analytics usa o [Serviço de identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda executar o hash do identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou Sha1.
+O Adobe Analytics usa o [Serviço de identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda executar o hash do identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou Sha1.
 
 O uso do serviço de ID fornece maior valor ao mapear ECIDs em diferentes dispositivos (por exemplo, assistente da Web para dispositivos digitais). Se o aplicativo for móvel, use os SDKs da Experience Platform como estão e envie a ID do usuário usando o método `setCustomerID`. No entanto, se o aplicativo for um serviço, use a ID de usuário fornecida pelo serviço, como ECID, bem como a configuração na `setCustomerID`.
 
@@ -95,14 +95,14 @@ Como os assistentes digitais são conversacionais, eles geralmente seguem o conc
 
 **Google:** &quot;Claro, a que horas você gostaria?&quot;
 
-**Consumidor:** “20h30”
+**Consumidor:** “20:30”
 
-**** Google: &quot;Parece bom, o motorista estará às 20h30&quot;
+**Google**: “Ótimo, o motorista chegará às 20:30”
 
 As sessões são importantes para manter o contexto e ajudar a coletar mais detalhes, de forma a tornar o assistente digital mais natural. Ao implementar o Analytics em uma conversa, há duas coisas a se fazer quando uma nova sessão for iniciada:
 
-1. **Entre em contato com o Audience Manager**: Obtenha os segmentos relevantes dos quais um usuário faz parte para que você possa personalizar a resposta. (Por exemplo, essa pessoa está qualificada atualmente para o desconto de vários canais.)
-2. **Enviar em uma nova sessão ou iniciar um evento**: Ao enviar a primeira resposta ao Analytics, inclua um evento de inicialização. Normalmente, isso pode ser enviado definindo dados de contexto de `a.LaunchEvent=1`.
+1. **Acessar o Audience Manager**: obtenha os segmentos relevantes dos quais um usuário faz parte para que você possa personalizar a resposta. (Por exemplo, essa pessoa está qualificada atualmente para o desconto de vários canais.)
+2. **Enviar uma nova sessão ou um evento de lançamento**: ao enviar a primeira resposta ao Analytics, inclua um evento de lançamento. Normalmente, isso pode ser enviado definindo dados de contexto de `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
@@ -114,7 +114,7 @@ Cache-Control: no-cache
 
 Cada um dos assistentes digitais possui algoritmos que detectam intenções e a transmitem para o “Aplicativo”, para que o aplicativo saiba o que fazer. Essas intenções são uma representação sucinta da solicitação.
 
-Por exemplo, se um usuário disser: &quot;Siri, transfira $20 para John pelo jantar de ontem à noite através do meu aplicativo bancário&quot;, a intenção pode ser algo como  *sendMoney*.
+Por exemplo, se um usuário disser: &quot;Siri, transfira $20 para John pelo jantar de ontem à noite através do meu aplicativo bancário&quot;, a intenção pode ser algo como *sendMoney*.
 
 Ao enviar cada uma dessas solicitações como uma eVar, você poderá executar relatórios de definição de caminho cada uma das intenções para aplicativos de conversação. Certifique-se de que seu aplicativo possa lidar com solicitações sem um propósito também. A Adobe recomenda transmitir &quot;Nenhum propósito especificado&quot; para a variável de dados de contexto de intenção, em vez de a omitir.
 
