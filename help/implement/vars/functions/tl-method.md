@@ -19,9 +19,9 @@ O Launch tem um local dedicado definido para uma chamada de rastreamento de link
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+1. Em [!UICONTROL Ações], clique no ícone “+”.
+1. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
 1. Clique no botão de opção `s.tl()`.
 
 Não é possível definir argumentos opcionais no Launch.
