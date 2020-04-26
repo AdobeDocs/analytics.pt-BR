@@ -1,7 +1,7 @@
 ---
 title: Parâmetros de consulta para coleta de dados
 description: Lista todos os parâmetros da cadeia de caracteres de consulta usados em solicitações de imagem.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
