@@ -33,8 +33,8 @@ Ao determinar quais dados coletar, é fácil dizer &quot;tudo&quot;, no entanto,
    * Status da implementação: planejado, ativo, inativo, problemas, etc. Isso informará os visualizadores do documento sobre o status da variável, se ela foi implementada ou se há problemas na coleta de dados.
    * Nome da variável: por exemplo, &quot;Termos de pesquisa interna&quot;. Esse valor seria o que os analistas veem ao trabalhar no Analytics.
    * Variável do Analytics mapeada para: a qual variável padrão ou personalizada do Analytics você escolhe para atribuir valores. As dimensões normalmente se enquadram em eVars, enquanto as métricas se enquadram nos eventos.
-   * Lógica: uma descrição de como a variável é definida e o que determina seu valor. Por exemplo, &quot;Definido somente nas páginas de pesquisa internas. Obtém o valor do parâmetro da sequência de consulta q.&quot;
-   * Quaisquer outras observações que você deseja incluir referentes à variável
+   * Lógica: uma descrição de como a variável é definida e o que determina seu valor. Por exemplo, &quot;Definido somente nas páginas de pesquisa internas. Obtém o valor do parâmetro da cadeia de caracteres de consulta q.&quot;
+   * Quaisquer outras observações que você deseja incluir referentes à variável.
 
 ## Recursos adicionais
 
@@ -46,4 +46,4 @@ Também existem vários parceiros da Adobe especializados em ajudar na criação
 
 Implemente as variáveis no documento de design da solução.
 
-[Criar uma camada](data-layer.md)de dados: Traduza variáveis no documento de design para variáveis JavaScript no site.
+[Criar uma camada](data-layer.md)de dados: Traduza variáveis no seu documento de design para variáveis JavaScript no seu site.
