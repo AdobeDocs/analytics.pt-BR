@@ -23,12 +23,12 @@ Essa variável não é mantida entre ocorrências. Certifique-se de que essa var
 
 ## Código monetário no Adobe Experience Platform Launch
 
-Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a extensão Adobe Analytics.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Amplie o [!UICONTROL General] acordeão, que revela o [!UICONTROL Currency Code] campo.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Código monetário].
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
