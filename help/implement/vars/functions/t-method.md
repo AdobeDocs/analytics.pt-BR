@@ -39,9 +39,9 @@ O Launch tem um local dedicado definido para uma chamada de rastreamento de exib
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Ações], clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
 6. Clique no botão de opção `s.t()`.
 
 ## Método s.t() no AppMeasurement e no editor de código personalizado do Launch
