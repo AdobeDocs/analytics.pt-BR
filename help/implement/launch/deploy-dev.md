@@ -1,7 +1,7 @@
 ---
 title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
 description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de desenvolvimento.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
