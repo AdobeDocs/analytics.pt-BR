@@ -15,7 +15,7 @@ A serialização de eventos é um processo de implementação de medidas, usado 
 
 ## Configurar serialização de eventos
 
-Primeiro, defina um evento como [!UICONTROL Unique Event Recording] nas configurações [!UICONTROL Use Event ID] do conjunto de relatórios. Consulte [Evento bem-sucedido](/help/admin/admin/c-success-events/success-event.md) no Guia do usuário de administração.
+Primeiro, defina a [!UICONTROL Gravação de evento único] como [!UICONTROL Usar a ID de evento] nas configurações do conjunto de relatórios. Consulte [Evento bem-sucedido](/help/admin/admin/c-success-events/success-event.md) no Guia do usuário de administração.
 
 Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
@@ -31,10 +31,10 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Em [!UICONTROL Actions], clique em uma [!UICONTROL Adobe Analytics - Set Variables] ação existente ou no ícone &#39;+&#39;.
-5. Defina a [!UICONTROL Extension] lista suspensa como Adobe Analytics e [!UICONTROL Action Type] como [!UICONTROL Set Variables].
-6. Localize a [!UICONTROL Events] seção, onde cada evento contém um [!UICONTROL Event ID] campo.
+3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
+4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
+5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+6. Localize a seção [!UICONTROL Eventos], onde cada evento contém um campo [!UICONTROL ID de evento].
 
 Valores válidos são caracteres alfanuméricos de até 20 bytes de tamanho.
 
