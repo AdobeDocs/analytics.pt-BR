@@ -14,9 +14,9 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descrições de campo no Dynamic Tag Management para rastreamento de links ao implantar o Analytics.
 
-**[!UICONTROL  *`Property`*]**  > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
 
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+Editar ferramenta]** > **[!UICONTROL Rastreamento de link]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -28,15 +28,15 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> Ativar o ClickMap </td>
-   <td colname="col2"> <p>Determina se os dados do mapa de cliques em visitantes são coletados. </p> <p>Consulte <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Determina se os dados do mapa de cliques do visitante estão reunidos. </p> <p>See <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Rastrear os links de download </td>
-   <td colname="col2"> <p>Rastreia links para arquivos baixáveis do site. </p> <p>Consulte <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Rastreia os links até arquivos baixáveis no site. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Baixar de extensões </td> 
-   <td colname="col2"> <p>Se o site contiver links para arquivos com qualquer uma das extensões listadas, os URLs desses links aparecerão no relatórios. </p>Consulte <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
+   <td colname="col2"> <p>Se o site contém links para arquivos com qualquer uma das extensões listadas, as URLs desses links aparecem no relatório. </p>Consulte <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> Rastrear links externos </td>
