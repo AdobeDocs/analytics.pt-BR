@@ -24,12 +24,12 @@ A tabela a seguir compara estes dois métodos:
 
 |  | **modelo &quot;adobeanalytics&quot;** | **modelo &quot;adobeanalytics_nativeConfig&quot;** |
 |---|---|---|
-| Contagem de visitante/visitas no conjunto de relatórios existente | Inflação elevada | Inflação mínima |
-| Usar um conjunto de relatórios separado | Recomendado | Não necessário |
-| visitantes novos vs. retorno | Não suportado | Suportado |
-| serviço de ID do Visitante | Não suportado | Suportado |
-| Rastreamento de vídeo e link | Suporte parcial | Ainda não suportado |
-| Dificuldade de implementação | Um pouco difícil | Relativamente fácil |
+| Contagem de visitante/visitas no conjunto de relatórios existente | Inflação alta | Inflação mínima |
+| Usar um conjunto de relatórios separado | Recomendado | Não é necessário |
+| Visitantes novos vs. retornos | Não suportado | Suportado |
+| Serviço de ID de visitante | Não suportado | Suportado |
+| Rastreamento de vídeo e link | Suporte parcial | Ainda não é suportado |
+| Dificuldade da implementação | Um pouco difícil | Relativamente fácil |
 | Integrações da Adobe Experience Cloud | Não suportado | Suporte parcial |
 
 Considere os prós e os contras na organização para determinar qual método deseja usar. Consulte [exemplos de AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) no repositório GitHub da Adobe para obter o código de amostra.
@@ -161,7 +161,7 @@ Não. O padrão AMP é compatível apenas com acionadores para &quot;visível&qu
 
 **Como posso diferenciar visitantes AMP de outros em meus dados?**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. Também é possível definir uma dimensão personalizada como &quot;AMP&quot; para segmentar esses visitantes.
+Para todas as páginas AMP, a dimensão [!UICONTROL Versão do JavaScript] coleta um valor semelhante ao `AMP vX.X`. Também é possível definir uma dimensão personalizada como &quot;AMP&quot; para segmentar esses visitantes.
 
 **Como esse método de implementação se compara aos Artigos Instantâneos do Facebook?**
 
