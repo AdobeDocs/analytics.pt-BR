@@ -27,8 +27,8 @@ As variáveis globais são ideais nos casos em que você deseja definir valores 
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade Launch desejada.
-1. Clique no [!UICONTROL Extensions tab]e, em seguida, clique [!UICONTROL Configure] na extensão do Adobe Analytics.
-1. Clique no [!UICONTROL Global variables] acordeão, que revela a interface para atribuir variáveis globais.
+1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
+1. Clique na opção Variáveis  globais, que revela a interface para atribuir variáveis globais.
 
 ### Definir variáveis em regras
 
@@ -36,11 +36,11 @@ As variáveis definidas nas regras são ideais nos casos em que as variáveis n�
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade Launch desejada.
-1. Clique na [!UICONTROL Rules] guia e, em seguida, clique na regra desejada (ou crie uma).
-1. Clique no [!UICONTROL Add] botão em [!UICONTROL Actions].
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Clique na guia [!UICONTROL Regras] e, em seguida, clique na regra desejada (ou crie uma).
+1. Clique no botão [!UICONTROL Adicionar] em [!UICONTROL Ações].
+1. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como Definir variáveis.
 1. Clique no ícone do elemento ![](assets/data-element.png) Dados à direita da variável do Analytics desejada. O documento [de design de](../prepare/solution-design.md) solução da sua organização determina qual variável do Analytics usar.
-1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Select].
+1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Selecionar].
 1. O nome do elemento de dados é adicionado ao campo de texto rodeado por `%` sinais. Por exemplo, se você nomeasse seu elemento de dados como &quot;Nome da página&quot;, veria a string `%Page name%` ao atribuir um elemento de dados a uma variável.
 
 >[!TIP] É possível concatenar elementos de dados na mesma variável. Por exemplo, se você tiver um elemento de dados &quot;Nome do host&quot; e um elemento de dados &quot;Nome do caminho&quot;, poderá combinar ambos em uma única variável usando `%Hostname%%Pathname%`.
