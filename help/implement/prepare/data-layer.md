@@ -9,27 +9,27 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # Criar uma camada de dados
 
-Uma camada de dados é uma estrutura de objetos JavaScript no site que contém todos os valores variáveis usados na implementação. Permite maior controle e manutenção mais fácil na implementação.
+Uma camada de dados é uma estrutura de objetos JavaScript no site que contém todos os valores de variável usados na implementação. Permite maior controle e manutenção simplificada na implementação.
 
 ## Pré-requisitos
 
-[Criar um documento](solution-design.md) de design de solução - É importante que sua organização se alinhe aos requisitos de rastreamento. Certifique-se de estar preparado com um documento de design de solução antes de se aproximar das equipes de desenvolvimento em sua organização.
+[Criar um documento de design de solução](solution-design.md) - É importante que sua organização se alinhe aos requisitos de rastreamento. Certifique-se de estar preparado com um documento de design de solução antes de abordar das equipes de desenvolvimento na organização.
 
 ## Fluxo de trabalho
 
 A implementação do Adobe Analytics usando uma camada de dados geralmente segue estas etapas:
 
-1. **Trabalhe com a equipe de desenvolvimento do site para implementar uma camada** de dados: Sua equipe de desenvolvimento do site é responsável principalmente por garantir que o objeto da camada de dados seja preenchido com valores corretos. Revise esta página com a equipe de desenvolvimento do site para garantir que as expectativas estejam alinhadas entre as equipes.
-   > [!NOTE] As especificações recomendadas da camada de dados da Adobe são opcionais. Se você já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha em qual especificação seguir.
-2. **Valide sua camada de dados usando um console** do navegador: Depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Você pode abrir o console do desenvolvedor na maioria dos navegadores usando a `F12` tecla. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
-3. **Use o Adobe Experience Platform Launch para mapear objetos de camada de dados para Iniciar elementos** de dados: Crie elementos de dados no Launch e mapeie-os para os atributos JavaScript descritos em sua camada de dados.
-4. **Use a extensão do Adobe Analytics em Iniciar para mapear elementos de dados para variáveis** do Analytics: Após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
+1. **Trabalhar com a equipe de desenvolvimento do site para implementar uma camada de dados**: a equipe de desenvolvimento do site é responsável principalmente por garantir que o objeto da camada de dados seja preenchido com valores corretos. Consulte esta página com a equipe de desenvolvimento do site para garantir que as expectativas estejam alinhadas entre as equipes.
+   > [!NOTE] As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
+2. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
+3. **Usar o Adobe Experience Platform Launch para mapear objetos de camada de dados a elementos de dados do Launch**: crie elementos de dados no Launch e mapeie-os para os atributos JavaScript descritos na camada de dados.
+4. **Usar a extensão Adobe Analytics no Launch para mapear elementos de dados a variáveis do Analytics**: após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
 
 ## Especificações
 
-A Adobe recomenda seguir a Camada [de Dados Digitais da Experiência do](https://www.w3.org/2013/12/ceddl-201312.pdf) Cliente descrita pelo Grupo [da Comunidade de Dados Digitais da Experiência do](https://www.w3.org/community/custexpdata/)Cliente. Use as seções a seguir para entender como os elementos da camada de dados interagem com o Adobe Analytics.
+A Adobe recomenda seguir a [Camada de dados digitais da Experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) descrita pelo [Grupo da Comunidade de dados digitais da Experiência do cliente](https://www.w3.org/community/custexpdata/). Use as seções a seguir para entender como os elementos da camada de dados interagem com o Adobe Analytics.
 
-O objeto de camada de dados de abrangência recomendado é `digitalData`. O exemplo a seguir lista um objeto JSON de camada de dados um pouco abrangente com valores de exemplo:
+O objeto de camada de dados de abrangência recomendado é `digitalData`. O exemplo a seguir lista um objeto JSON de camada de dados abrangente com valores de exemplo:
 
 ```js
 digitalData = {
@@ -160,13 +160,13 @@ digitalData = {
 }
 ```
 
-Use o relatório de Camada [de Dados Digitais da Experiência do](https://www.w3.org/2013/12/ceddl-201312.pdf) Cliente para obter detalhes sobre cada objeto e subobjeto. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que tenha sido usado para o `digitalData.product` objeto.
+Use o relatório [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obter detalhes sobre cada objeto e objeto secundário. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que tenha sido usado para o objeto `digitalData.product`.
 
-As camadas de dados são extensíveis; se você tiver requisitos específicos da sua organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
+As camadas de dados são extensíveis; se você tiver requisitos específicos da organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
 
 ## Configuração de valores da camada de dados
 
-As camadas de dados normalmente geram no lado do servidor, referenciando os mesmos objetos usados para criar o conteúdo do site. Estabeleça a camada de dados do site com base nos requisitos de rastreamento definidos no documento [de design de](solution-design.md)solução da sua organização.
+As camadas de dados normalmente são geradas no lado do servidor, referenciando os mesmos objetos usados para criar o conteúdo do site. Estabeleça a camada de dados do site com base nos requisitos de rastreamento definidos no [documento de design de solução](solution-design.md) da organização.
 
 ## Próximas etapas
 
