@@ -19,15 +19,15 @@ A Vida útil do cookie é uma lista suspensa da opção [!UICONTROL Cookies] ao 
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Amplie o [!UICONTROL Cookies] acordeão, que revela a [!UICONTROL Cookie Lifetime] lista suspensa.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+4. Expanda a opção [!UICONTROL Cookies], que revela a lista suspensa [!UICONTROL Vida útil do cookie].
 
 Essa lista suspensa contém os seguintes valores:
 
 * **Padrão**: o cookie expira após 2 anos.
 * **Nenhum**: o AppMeasurement não define cookies.
 * **Sessão**: o cookie expira ao final da sessão do visitante.
-* **Segundos**: o cookie expira após o número especificado de segundos decorrido. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
+* **Segundos**: o cookie expira após o número especificado de segundos decorrido. Por exemplo, definir essa lista suspensa como [!UICONTROL Segundos] e colocar `86400` no campo personalizado força os cookies a expirarem após exatamente 24 horas.
 
 ## s.cookieLifetime no AppMeasurement e no editor de código personalizado do Launch
 
