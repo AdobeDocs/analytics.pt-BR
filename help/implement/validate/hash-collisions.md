@@ -1,7 +1,7 @@
 ---
 title: Colisões de hash
 description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
