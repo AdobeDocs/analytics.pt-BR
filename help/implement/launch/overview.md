@@ -1,7 +1,7 @@
 ---
 title: Visão geral da implementação com o Launch
 description: Saiba como implementar o Adobe Analytics usando o Adobe Experience Platform Launch
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
