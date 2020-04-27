@@ -3,7 +3,7 @@ description: Etapas para adicionar métricas e dimensões a uma solicitação.
 title: Adicionar métricas e dimensões
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas para adicionar métricas e dimensões a uma solicitação.
 
-1. [Crie a solicitação de dados](/help/analyze/report-builder/data-requests/data-requests.md) no [!UICONTROL Assistente de solicitações: etapa 1], e então clique em **[!UICONTROL Próximo]**.
-1. No [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas, ou arraste-as para a posição desejada.
+1. [Crie a solicitação](/help/analyze/report-builder/data-requests/data-requests.md) de dados no [!UICONTROL Request Wizard: Step 1]e clique em **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
 
    ![Informações da etapa](assets/adding_metrics.png)
 
-   Quando você adiciona métricas, elas não são removidas da guia [!UICONTROL Métricas], porque você pode exibir as métricas várias vezes em uma solicitação. Por exemplo, você pode exibir o subtotal da métrica além de cada valor. No entanto, a lista de métricas disponíveis muda toda vez que você adiciona ou remove uma dimensão.
+   When you add metrics, they are not removed from the [!UICONTROL Metrics] tab, because you can display metrics multiple times within a request. Por exemplo, você pode exibir o subtotal da métrica além de cada valor. No entanto, a lista de métricas disponíveis muda toda vez que você adiciona ou remove uma dimensão.
 
-   É possível adicionar métricas somente à seção de layout [!UICONTROL Métricas]. As métricas adicionadas ao layout do [!UICONTROL Rótulo de coluna] como [!UICONTROL Cabeçalho de métrica]. Se você transferir um [!UICONTROL Cabeçalho de métrica] de um [!UICONTROL Layout de coluna] para [!UICONTROL Layout de linha], ele é exibido lá e usado como métrica e análise.
+   You can add only metrics to the [!UICONTROL Metrics] layout section. As métricas são adicionadas ao [!UICONTROL Column Label] layout como um [!UICONTROL Metric Header]. If you move a [!UICONTROL Metric Header] from [!UICONTROL Column Layout] to [!UICONTROL Row Layout], it is displayed there and is used as a metric as a breakdown.
 
    Observe que uma barra de pesquisa aparece na guia Métricas, logo acima da lista de Métricas.
 
@@ -50,9 +50,9 @@ Etapas para adicionar métricas e dimensões a uma solicitação.
 1. (Opcional) Para classificar uma solicitação por métrica, apenas clique na etiqueta da métrica.
 1. Adicionar dimensões da mesma maneira que adiciona métricas.
 
-Na guia [!UICONTROL Dimensões], o sistema exibe dimensões que se quebram ou que sejam uma classificação de qualquer relatório básico selecionado na Etapa 1 e na configuração do conjunto de relatórios. Quando você solta uma dimensão nas grades do layout, ela é removida da visualização em árvore e recalcula a lista de dimensões disponíveis restantes.
+On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. Quando você solta uma dimensão nas grades do layout, ela é removida da visualização em árvore e recalcula a lista de dimensões disponíveis restantes.
 
-A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de data disponíveis mudam, dependendo da granularidade selecionada no [!UICONTROL Assistente de solicitações: etapa 1]. (Os valores válidos são:
+The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (Os valores válidos são:
 
     * Hora
     * Dia
@@ -62,7 +62,7 @@ A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de da
     * Intervalo de datas (quando nenhuma granularidade é especificada)
 
 1. Modifique métricas e dimensões configurando opções e filtros de [formato](/help/analyze/report-builder/layout/t-format-display-headers.md).
-1. Clique em **[!UICONTROL Concluir]**. 
-No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. Aqui, a dimensão [!UICONTROL Domínio de referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
+1. Clique em **[!UICONTROL Finish]**.
+In the following example, dimensions relate to the [!UICONTROL Page] metric. Aqui, a [!UICONTROL Referring Domain] dimensão cria um relatório de detalhamento entre [!UICONTROL Page] e [!UICONTROL Referring Domain]. The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report.
 
 ![](assets/page_pageview_02.png)
