@@ -2,7 +2,7 @@
 title: Analisar dados afetados por eventos
 description: Entenda como os dados impactados por um evento contribuem para a qualidade geral dos dados.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Quando estiver preparado para lidar com um evento, você poderá [se comunicar c
 Este vídeo percorre cada uma das etapas acima.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Excluir dados usando a segmentação
+* **14:55**: Comparar um evento a intervalos anteriores
+* **8:42**: Derivar dados usando métricas calculadas
+* **11:46**: Comunicar impacto aos usuários
