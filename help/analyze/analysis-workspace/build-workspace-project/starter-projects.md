@@ -3,7 +3,7 @@ description: 'null'
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 
 ### Treinamento
 
-* **Tutorial** de treinamento: Este modelo padrão orienta você pela terminologia e etapas comuns para criar sua primeira análise no Workspace. Está disponível como modelo padrão no modal Novo projeto e substitui o projeto de amostra atual para novos usuários que não têm outros projetos na lista.
+Esses modelos padrão orientam você pela terminologia e etapas comuns para criar sua primeira análise no Workspace. Eles estão disponíveis como um modelo padrão no modal Novo projeto e substituem o projeto de amostra que existe hoje para novos usuários que não têm outros projetos na lista.
+
+* **Tutorial de treinamento - Análise** de pesquisa interna: O tutorial de Pesquisa interna ajuda você a entender o que seus visitantes estão procurando no site ou aplicativo, mas não localizando. A análise desse tipo de dados pode exibir oportunidades de otimização de conteúdo.
+
+* **Tutorial de treinamento - Análise** de marketing: Este tutorial mostra como montar uma análise de marketing para seus executivos, incluindo quais dimensões e métricas personalizadas são importantes.
 
 ### Publicidade
 
@@ -118,7 +122,7 @@ Este modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da
 * Descobrir como usar o empilhamento de segmentos com a métrica de Pessoas.
 * Saber mais sobre como usar a Experience Cloud ID em seu ambiente melhora a eficácia da métrica Pessoas.
 
-### QI da jornada: Modelo de análise entre dispositivos
+### QI da jornada: Modelo de Análise entre dispositivos
 
 <!-->This content is mirrored in the CDA doc.<-->
 
