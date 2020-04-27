@@ -3,7 +3,7 @@ description: Recomendações do sistema e pré-requisitos.
 title: Requisitos do sistema
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
