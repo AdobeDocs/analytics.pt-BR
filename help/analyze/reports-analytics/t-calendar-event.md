@@ -15,12 +15,12 @@ Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
 
 >[!NOTE] Para garantir o melhor desempenho do relatório, os 20 eventos mais recentes do calendário serão exibidos em gráficos de tendências e de horas extras.
 
-Para relatórios com tendência ao longo do tempo, você pode exibir graficamente eventos e ver se campanhas ou outros eventos afetaram o tráfego do site, a receita ou qualquer outra métrica. O processo de configuração de um evento de calendário envolve nomear o evento, definir as datas, adicionar notas e configurar um ícone. Por exemplo, se você usar o Social, poderá criar um evento de calendário para mostrar que havia uma correlação entre o aumento do tráfego do site e a menção de um produto por uma celebridade usando o Twitter.
+Para relatórios de tendências ao longo de um período, você pode exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita, ou qualquer outra métrica. O processo de criação de um calendário de eventos envolve atribuir um nome ao evento, definir as datas, adicionar notas e definir um ícone. Por exemplo, se você usar o Social, é possível criar um evento de calendário para mostrar que havia uma correlação entre o aumento do tráfego do site e a menção de um produto por uma celebridade usando o Twitter.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Clique em **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
-   1. Especifique o **[!UICONTROL Event Date]**.
+   1. Especifique os **[!UICONTROL Event Date]**.
    1. Choose the **[!UICONTROL Report Suite]** to which this event applies.
    1. (Opcional) Adicione qualquer um **[!UICONTROL Note Text]** para este evento.
    1. Selecione um ícone e a cor de exibição.
@@ -30,7 +30,7 @@ Para relatórios com tendência ao longo do tempo, você pode exibir graficament
    1. Clique em **[!UICONTROL Push To Users]**.
    1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Clique em **[!UICONTROL Save]**.
-   Isso torna os Eventos do Calendário muito mais utilizáveis. Os analistas agora têm a capacidade de forçar uma sobreposição para os relatórios de seus usuários a fornecer mais contexto.
+   Isso torna os Eventos de calendário muito mais úteis. Agora, os analistas são capazes de colocar uma sobreposição nos relatórios dos usuários para oferecer mais contexto.
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Em Eventos de calendário compartilhados, especifique uma dessas opções:
 
