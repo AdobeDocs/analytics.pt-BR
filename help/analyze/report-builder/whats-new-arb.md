@@ -2,7 +2,7 @@
 description: Lista as versões atuais e anteriores e seus recursos.
 title: Novidades no Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Combinar a capacidade de geração de relatórios do Report Builder com os recur
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **Melhor gerenciamento e edição de segmentos em várias solicitações.** Novas opções em [!UICONTROL Editar várias solicitações] permitem adicionar, remover, substituir e substituir todos os segmentos em solicitações com vários alvos. [Mais...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Melhor gerenciamento e edição de segmentos em várias solicitações.** As novas opções em [!UICONTROL Edit Multiple Requests] permitem que você adicione, remova, substitua e substitua todos os segmentos em várias solicitações de público alvo. [Mais...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Novo link para a Comunidade do Report Builder da Adobe** O novo link Adobe Community na Ajuda direciona para o Adobe Community Forum com a pesquisa limitada a dúvidas sobre o Report Builder. O Adobe Community é uma excelente forma de tirar dúvidas com seus colegas usuários do Report Builder sobre o aplicativo e descobrir ou compartilhar práticas recomendadas.
 
