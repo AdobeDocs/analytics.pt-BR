@@ -3,7 +3,7 @@ description: As métricas são a base dos relatórios e ajudam a visualizar e co
 title: Métricas
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,12 +35,12 @@ t_metrics_set_default.xml
 
 1. Executar um relatório.
 1. Adicione as métricas que você gostaria de salvar como as métricas padrão.
-1. Clique na lista suspensa **[!UICONTROL Adicionar métricas]**, em seguida, selecione **[!UICONTROL Definir como padrão]**.
+1. Clique na lista **[!UICONTROL Add Metrics]** suspensa e selecione **[!UICONTROL Set as Default]**.
 
    As métricas selecionadas são salvas como padrão para este relatório. As seguintes informações se aplicam às métricas padrão:
 
 * As métricas padrão se aplicam a todas as contas do usuário, mas por relatório e conjunto de relatórios. Por exemplo, todos os usuários que visualizam um relatório específico no mesmo conjunto de relatórios exibem as métricas definidas usando a procedimento anterior.
-* Se você alternar entre relatórios, as métricas exibidas na maioria dos relatórios exibidos recentemente persistem. Para exibir métricas padrão no novo relatório, clique na lista suspensa [!UICONTROL Adicionar métricas] e, em seguida, clique em [!UICONTROL Mostrar padrões].
+* Se você alternar entre relatórios, as métricas exibidas na maioria dos relatórios exibidos recentemente persistem. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
 
-* Clicar em [!UICONTROL Apagar padrões] remove as métricas padrão do relatório e as reverte para as métricas padrão originais do relatório ([!UICONTROL Exibições de páginas] para props e sempre que você definir em Ferramentas administrativas para eVars).
+* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
 
