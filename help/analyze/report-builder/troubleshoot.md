@@ -15,7 +15,7 @@ Maneiras de otimizar a entrega do Report Builder e uma lista de mensagens de err
 
 ## Usuários do Report Builder 5.0 e abertura das pastas de trabalho 5.1 {#section_C29898775999453FABB5FB0E098415C8}
 
-A Adobe alterou o separador entre dimensões e classificações de um caractere sublinhado (_) para||. Essa mudança tem implicações de compatibilidade para um usuário do Report Builder 5.0 que abre uma pasta de trabalho do Report Builder v5.1 com solicitações de classificação. Sempre que uma pasta de trabalho de uma versão anterior à v5.1 for aberta, todas as solicitações de classificações serializadas serão convertidas nesse formato.
+A Adobe alterou o separador entre as dimensões e as classificações de um caractere sublinhado (_) para ||. Essa mudança tem implicações de compatibilidade para um usuário do Report Builder 5.0 que abre uma pasta de trabalho do Report Builder v5.1 com solicitações de classificação. Sempre que uma pasta de trabalho de uma versão anterior ao v5.1 é aberta, todas as solicitações de classificações serializadas são convertidas nesse formato.
 
 Isso causa um problema de compatibilidade futura: depois de convertido em v5.1, se uma pasta de trabalho for compartilhada com um usuário no Report Builder v5.0, esse usuário não poderá reconhecer a solicitação de classificação (procura &quot;_&quot;, mas o v5.1 procura &quot;||&quot; serializado).
 
@@ -23,9 +23,9 @@ O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de
 
 * Ao abrir uma pasta de trabalho, você receberá o seguinte aviso: &quot;Esta pasta de trabalho foi salva pela última vez com o Report Builder v5.1. Essa versão apresentou alguns recursos incompatíveis com a versão do Report Builder instalada no computador. É recomendado atualizar para a versão mais recente do Report Builder antes de atualizar esta pasta de trabalho&quot;.
 * Se você clicar com o botão direito em uma solicitação de ARB com classificação, os menus de contexto do Report Builder (editar solicitação, adicionar solicitação dependente...) não aparecerão.
-* Se você executar Atualizar tudo, clicando no terceiro botão ou atualizando um conjunto de solicitações do formulário do Gerenciador de solicitações, a solicitação de classificação será executada sem erro. No entanto, os valores de classificações não serão gravados.
-* Você ainda pode editar a solicitação abrindo o Gerenciador de solicitações, indo de linha em linha, até que ela atinja a solicitação correta.
-* Se você editar a solicitação, não alterar os parâmetros e, em seguida, clicar em Concluir, a resposta será expressa apropriadamente. Na verdade, a edição da solicitação resolve o problema à medida que os parâmetros do Layout de resposta são serializados novamente. Então há uma solução, embora seja demorada.
+* Se você executar Atualizar tudo, ao clicar no terceiro botão, ou ao atualizar um conjunto de solicitações do formulário do Gerenciador de solicitação, a solicitação de classificação será executada sem erro. No entanto, os valores de classificação não serão expressos.
+* Você ainda pode editar a solicitação ao abrir o Gerenciador de solicitações, de linha em linha, até atingir a solicitação apropriada.
+* Se você editar a solicitação, não alterar os parâmetros e, em seguida, clicar em Concluir, a resposta será expressa apropriadamente. A edição da solicitação soluciona o problema à medida que os parâmetros do Layout de resposta são serializados novamente. Portanto, há uma solução, embora seja demorada.
 
 ## Problemas de autenticação no Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
@@ -35,12 +35,12 @@ O Report Builder exige autenticação para criar solicitações de dados dos seu
 
 Esse erro geralmente ocorre quando a empresa de logon é inserida incorretamente ou se houver problemas de atividade de rede. Faça o seguinte:
 
-* Verifique a ortografia da empresa de login para garantir que não haja erro de digitação ou de espaço.
+* Verifique a ortografia da empresa de logon para garantir que não haja erro de digitação ou de espaçamento.
 * Faça logon no Analytics com a mesma empresa de logon para garantir que esteja correto. Se não conseguir fazer logon com essas credenciais, entre em contato com um dos administradores do de sua organização para obter a empresa de logon correta.
 
 **Firewall**
 
-O Report Builder usa as portas 80 e 443. Assegure que essas portas estejam permitidas no firewall de sua organização. Consulte também Endereços IP internos da Adobe para obter mais exclusões de firewall.
+O Report Builder usa as portas 80 e 443. Assegure que essas portas estejam permitidas no firewall de sua organização. Veja também os endereços IP internos do Adobe para outras exclusões de firewall.
 
 ## Recomendações para solicitações de otimização {#section_33EF919255BF46CD97105D8ACB43573F}
 
@@ -53,8 +53,8 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 
 **Fatores que podem atrasar o tempo de execução da pasta de trabalho**
 
-* Aumento significativo das classificações.
-* Aumentando o intervalo de datas da solicitação ao longo do tempo.
+* Aumento significativo nas classificações.
+* Aumento do intervalo de solicitação de dados ao longo do tempo.
 
    **Exemplo**: suponha que você crie uma solicitação de tendência usando a configuração Ano atual, discriminada pela granularidade Dia. No fim do ano, a solicitação irá retornar mais períodos que o primeiro criado no início do ano.
 
@@ -66,17 +66,17 @@ Fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que en
 
 **Células que retornam 0s (sem valores)**
 
-Uma apóstrofe ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel.)
+Uma apóstrofe ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
 
 **Desempenho individual de solicitação**
 
-A velocidade de processamento pode ser afetada pelas seguintes configurações:
+A velocidade do processo pode ser afetada pelas seguintes configurações:
 
-| Configuração | Desempenho mais rápido | Desempenho mais lento |
+| Configuração | Desempenho mais rápido | Desempenho mais devagar |
 |--- |--- |--- |
-| Divisões e ordem de detalhamento | Poucas | Muitas |
+| Análises e a ordem da análise | Poucas | Muitas |
 |  | Exemplo: se você analisar A por Z, o número de itens para A deve sempre ser menor que o número de itens para Z. Se for o contrário, o tempo de solicitação pode aumentar significativamente. |
-| Intervalo de data | Intervalo pequeno | Amplo intervalo |
+| Intervalo de data | Intervalo pequeno | Intervalo grande |
 | Filtragem | Filtragem específica | Filtragem mais popular |
 | Granularidade | Agregado | Por hora<ul><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Trimestralmente</li><li>Anualmente</li></ul> |
 | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
@@ -86,15 +86,15 @@ A velocidade de processamento pode ser afetada pelas seguintes configurações:
 
 Programação ordenada durante o período de 24 horas (consulte a tabela abaixo). Favoritos, painéis e pastas de trabalho do Report Builder já existentes que foram agendados muito próximos podem causar atrasos.
 
-Agende solicitações maiores e mais complexas no início da manhã para permitir que as solicitações manuais e a atualização ocorram durante o dia útil.
+Agende as solicitações maiores e mais complexas no início da manhã para permitir que o manual extraia e atualize para ocorrer durante o dia útil.
 
-| Hora de Agendamento | 1 h - 2 h | 2 h - 7 h | 7 h - 18 horas | 18 horas - Meia-noite |
+| Período de agendamento | 1 h - 2 h | 2 h - 7 h | 7 h - 18 h | 18 h - Meia-noite |
 |--- |--- |--- |--- |--- |
-| Uso do Report Builder | Silencioso | Muito ocupado | Uso do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
+| Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
 
-**Tempo limite**
+**Limites de tempo**
 
-Qualquer relatório agendado expira após quatro horas. O sistema tenta agendar mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, mais demorado será a execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
+Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
 
 * [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
@@ -108,7 +108,7 @@ Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do
 
 **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**
 
-Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de ajuda on-line enquanto a barra de ferramentas ainda estiver ativada, sem causar esse erro.
+Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
 
 **É necessário sair do[!UICONTROL Request Wizard]antes de ativar o[!UICONTROL Request Manager].**
 
@@ -116,24 +116,24 @@ Embora o [!UICONTROL Request Manager] e o [!UICONTROL Request Wizard] estejam vi
 
 **Não há solicitações associada a esse intervalo.**
 
-Essa mensagem de erro ocorre se você clicar no [!UICONTROL From Sheet] botão na página [!UICONTROL Request Manager] quando uma célula da planilha não contiver nenhuma solicitação.
+This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
 
-Para identificar quais células na planilha contêm solicitações, clique em solicitações individuais listadas na tabela na [!UICONTROL Request Manager]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
+To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
 
 **O intervalo selecionado não é válido. Selecione outro intervalo.**
 
 Se uma célula da planilha for selecionada e já houver uma solicitação mapeada para ela, este erro ocorrerá. Exclua a solicitação mapeada para as células ou escolha outro intervalo de células para mapear.
 
-Quando quiser excluir células, é importante localizar células que contêm solicitações e excluir a solicitação antes de excluir as células (removendo linhas ou colunas).
+Quando quiser excluir células, é importante localizar as que contenham solicitações e excluir as solicitações antes de excluir as células (removendo linhas ou colunas).
 
 **Saia da célula do Excel onde está o foco antes de usar esse recurso.**
 
-Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na [!UICONTROL Formula] barra ou no [!UICONTROL Name Box] topo do Excel.
+Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
 
 **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**
 
-Se você já mapeou um conjunto de células para a planilha, esse erro será exibido.
+Se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
 
-Uma maneira de determinar quais células estão mapeadas antes de adicionar novas solicitações é fechar [!UICONTROL Request Wizard] e abrir o [!UICONTROL Request Manager]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm mapeamentos de solicitação na planilha serão realçadas.
+One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm os mapeamentos da solicitação são realçadas na planilha.
 
-Esse é um motivo pelo qual você deve considerar marcar células com realce, informações de linha ou coluna ou um estilo de formatação antes de mapear várias células para várias áreas.
+Este é um motivo para você considerar a marcação de células com realce, informações de linha ou coluna ou um estilo de formatação antes de mapear várias células para várias áreas.
