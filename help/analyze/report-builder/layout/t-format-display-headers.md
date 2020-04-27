@@ -3,7 +3,7 @@ description: Você pode dar um nome ao seu relatório e configurar como exibir o
 title: Formatar cabeçalhos de exibição
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
 
-1. Crie uma solicitação no [!UICONTROL Assistente de solicitações: etapa 1].
-1. Clique em **[!UICONTROL Próximo]**.
-1. No formulário [!UICONTROL Assistente de solicitações: etapa 2], adicione dimensões e métricas à solicitação, conforme desejado.
-1. Clique em **[!UICONTROL Opções de Formato]**.
-1. Configure as opções de [!UICONTROL Exibição]:
+1. Crie uma solicitação no [!UICONTROL Request Wizard: Step 1].
+1. Clique em **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
+1. Clique em **[!UICONTROL Format Options]**.
+1. Configure the [!UICONTROL Display] options:
 
    | Elemento | Descrição |
    |--- |--- |
@@ -26,7 +26,7 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
    | Segmento | Exibe o parâmetro do segmento. |
    | Recenticidade dos dados | Exibe os parâmetros de recenticidade dos dados. Por exemplo:    Recenticidade dos dados: Exibições de página (há 1,5 h), Saídas (há 30 minutos) Consulte [Opções](/help/analyze/report-builder/options.md) para obter informações sobre o processamento de dados atual. |
 
-   Quanto à ordem de exibição, se a grade [!UICONTROL Rótulo de linha] (na Etapa 2) contiver um item, ela será exibida primeiro na solicitação. Caso contrário, o sistema usará o primeiro item presente na grade [!UICONTROL Rótulo da coluna]. Se não existir nenhum item de linha ou coluna, o primeiro item na grade [!UICONTROL Métricas] será exibido.
+   Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
 
    **Exibir cabeçalhos de linha e coluna:** Adiciona uma linha e uma coluna para exibir estes itens.
 
@@ -40,6 +40,6 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
 
    **Executar contorno automático:** Transforma a data retornada pelo Report Builder a partir de uma exibição em lista para uma exibição em árvore.
 
-   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma solicitação](/help/analyze/report-builder/layout/name-a-request.md).
+   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Esse nome aparece como o [!UICONTROL Report] nome no [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Clique em **[!UICONTROL OK]**.
