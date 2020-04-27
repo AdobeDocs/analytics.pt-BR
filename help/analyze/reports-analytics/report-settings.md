@@ -3,7 +3,7 @@ description: Configurações que definem como todos os relatórios são exibidos
 title: Configurações e navegação da exibição de relatórios
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Configurações que definem como todos os relatórios são exibidos e as informa
 
 ## Configurações e navegação da exibição de relatórios {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Configurações de relatório]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -108,7 +108,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Tipos de Referenciador | Fontes de tráfego > Tipos de referenciador |
 | **Campanhas** |  |  |
 |  | Funil de Conversão de Campanha | Fontes de tráfego > Campanhas > Funil de conversão da campanha |
-|  | Código de acompanhamento | Fontes de tráfego > Campanhas > Código de rastreamento |
+|  | Código de rastreamento | Fontes de tráfego > Campanhas > Código de rastreamento |
 | **Produtos** |  |  |
 |  | Funil de conversão de produtos | Conversão > Produtos > Funil de conversão de produtos |
 |  | Produtos | Conversão > Produtos > Produtos |
@@ -142,7 +142,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Detalhe de Canal de Primeiro Contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de primeiro toque |
 |  | Canal de Último Contato | Fontes de tráfego > Canais de marketing > Canal de último toque |
 |  | Detalhe de Canal de Último Contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de último toque |
-| **Aplicativo remoto** |  |  |
+| **Aplicativo móvel** |  |  |
 |  | Visão geral dos aplicativos móveis | Conteúdo > Aplicativo móvel > Visão geral do aplicativo móvel |
 |  | Relatórios de ciclo de vida | Conteúdo > Aplicativo móvel > Relatórios de ciclo de vida |
 | **Relatórios personalizados** |  |  |
