@@ -3,7 +3,7 @@ description: Copie uma planilha inteira em uma pasta de trabalho de origem em um
 title: Copiar solicitações e planilhas entre pastas de trabalho
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino.
 
 Para fazê-lo, você deve ter ao menos duas pastas de trabalho abertas na mesma instância do Excel: a primeira pasta de trabalho de origem contém uma planilha com solicitações mapeadas a células, enquanto as pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios como a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
-1. Clique com o botão direito do mouse na planilha na pasta de trabalho de origem e selecione **[!UICONTROL Copiar planilha com solicitações]**.
-1. Na pasta de trabalho de destino, clique com o botão direito do mouse na planilha e selecione **[!UICONTROL Colar planilha com solicitações]**.
+1. Clique com o botão direito do mouse na planilha na pasta de trabalho de origem e selecione **[!UICONTROL Copy Worksheet w/Requests]**.
+1. Na pasta de trabalho de destino, clique com o botão direito do mouse na planilha e selecione **[!UICONTROL Paste Worksheet w/Requests]**.
 
    A mesma instância do Excel significa que apenas um único processo do Excel ([!DNL excel.exe]) está em execução no computador de cada vez. Se você iniciar duas instâncias do Excel e tentar copiar uma planilha de uma pasta de trabalho na primeira instância do Excel para uma pasta de trabalho na segunda instância do Excel, o Report Builder não apresentará a opção de colar a planilha no menu de atalho da segunda instância do Excel.
 
