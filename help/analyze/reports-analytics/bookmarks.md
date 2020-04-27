@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Gerenciador de marcador
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador]**.
+1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
        |Nome|Um nome amigável para este marcador.|
        |---|---|
@@ -34,7 +34,7 @@ t_bookmarks_creating.xml
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
-Após criar marcadores de relatórios, você pode gerenciá-los no [!UICONTROL Gerenciador de marcadores]. Você pode editar, excluir e organizar seus marcadores e pastas a partir de um único local. 
+After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. Você pode editar, excluir e organizar seus marcadores e pastas a partir de um único local. 
 
 <!-- 
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Marcadores]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
 
 **Meus marcadores**
 
