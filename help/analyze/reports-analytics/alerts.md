@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Alertas
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ O Alertas inteligentes é o novo sistema de alertas do Adobe Analytics, e permit
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta.
 
-É possível acessar esse novo sistema de Alertas por meio de **[!UICONTROL Mais]** > **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/intellligent_alerts.html) na documentação da Analysis Workspace.
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-Navegue até o novo Construtor de alertas no menu **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]**. No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. No entanto, é possível acessá-lo a partir dos relatórios em Reports &amp; Analytics:
 
 1. Em Reports &amp; Analytics, abra o relatório no qual deseja definir um alerta.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
+1. Clique em **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. Isso levará você ao [novo Construtor de alertas](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/alert-builder.html).
 
 ## Visualizar ou editar alertas existentes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contexto da tarefa
 
-1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Isso leva você ao novo [Gerenciador de alertas](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/alert-manager.html).
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Isso leva você ao novo [Gerenciador de alertas](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/alert-manager.html).
 
 ## Migração de alertas herdados {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
