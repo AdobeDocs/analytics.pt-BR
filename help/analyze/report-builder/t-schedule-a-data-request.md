@@ -43,13 +43,13 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 | Campo | Descrição |
 |--- |--- |
-| Selecionar Relatório | O nome da pasta de trabalho. Para novos relatórios agendados, esse campo é preenchido com o nome da pasta de trabalho ativa. |
-| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo que a pasta de trabalho atualmente aberta no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado anteriormente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1 e o relatório agendado recém-criado usará a pasta de trabalho copiada. |
-| Personalizar | Permite personalizar o formato de data. |
-| Para | Exibe seu Catálogo de Endereços do Outlook, se aplicável. |
+| Selecionar relatório | O nome da pasta de trabalho. Para novos relatórios agendados, este campo é preenchido com o nome da pasta de trabalho ativa. |
+| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1 e o relatório agendado recém-criado usará a pasta de trabalho copiada. |
+| Personalizar | Permite a personalização do formato de data. |
+| Para | Exibe seu Catálogo de endereços do Outlook, se aplicável. |
 | Enviar para: Email | O destinatário do e-mail da pasta de trabalho. |
-| Enviar para: Lista de publicação | Exibe uma lista de listas de distribuição disponíveis para esta empresa. |
-| Power BI | Consulte [Publicar pasta de trabalho no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para obter mais informações. |
+| Enviar para: Lista de publicação | Exibe uma lista de listas de distribuição disponíveis para essa empresa. |
+| Power BI | Consulte [Publicação de pasta de trabalho no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para mais informações. |
 | Assunto | Uma descrição definida pelo usuário. |
 | Agendamento | Permite especificar quando enviar a pasta de trabalho. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) |
 
@@ -65,14 +65,14 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Intervalo de recorrência | Permite especificar quando começar e parar de receber a pasta de trabalho.   Observação: programar um relatório no primeiro dia de qualquer período corrente (semana, mês, trimestre ou ano) retorna dados somente para o primeiro dia. |
 | Guia **Opções de arquivo** |  |
 | Formato do arquivo | Permite selecionar um formato de entrega do Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt e .xml. |
-| Destino do arquivo | Especifica email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você deve garantir que o host esteja disponível externamente. |
+| Destino do arquivo | Especifica Email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você precisa garantir que o host esteja disponível externamente. |
 | Lista de Publicação | Se você enviar a pasta de trabalho agendada para várias listas de publicação, a pasta de trabalho será executada uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. |
-| Idioma do conteúdo do arquivo | Especifica o idioma que deseja usar para a carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. |
+| Idioma do conteúdo do arquivo | Especifica o idioma a ser usado na carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. |
 | Guia **Opções de publicação** |  |
 | Publicação no Power BI | <ul><li>Publicar pasta de trabalho no Power BI</li><li>Publicar todas as solicitações do Report Builder como conjuntos de dados do Power BI</li><li>Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</li></ul> |
-| Rotule este Relatório do Power BI como | Detalhes da rotulagem |
+| Rotule esse relatório do Power BI como | Detalhes da rotulação |
 
-1. Clique em **[!UICONTROL OK]**, em seguida, clique em **[!UICONTROL Exit]**.
+1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    O Report Builder exibe a pasta de trabalho agendada no [Gerenciador de tarefas agendadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
