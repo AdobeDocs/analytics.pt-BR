@@ -3,7 +3,7 @@ description: É possível alterar várias solicitações ao mesmo tempo, com bas
 title: Editar várias solicitações
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,25 +17,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **Para editar várias solicitações**
 
-1. No Excel, clique em **[!UICONTROL Gerenciar]**.
+1. In Excel, click **[!UICONTROL Manage]**.
 
    >[!NOTE]
    >
-   >Para editar solicitações contidas em células de planilhas individuais, desmarque a opção [!UICONTROL Todas as planilhas] no [!UICONTROL Gerenciador de solicitações]. Por padrão, esta caixa fica marcada se houver solicitações em várias planilhas.
+   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. Por padrão, esta caixa fica marcada se houver solicitações em várias planilhas.
 
-1. No formulário do [!UICONTROL Gerenciador de solicitações], selecione duas ou mais solicitações e, em seguida, clique em **[!UICONTROL Editar várias]**.
+1. No [!UICONTROL Request Manager] formulário, selecione duas ou mais solicitações e clique em **[!UICONTROL Edit Multiple]**.
 
-   O formulário [!UICONTROL Editar várias solicitações] exibe colunas de informações:[!UICONTROL  Por conjunto de relatórios], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de datas e granularidade] e [!UICONTROL Por grupo].
+   O [!UICONTROL Edit Multiple Requests] formulário exibe colunas de informações: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity], e [!UICONTROL By Group].
 1. Para agrupar a exibição de solicitações, clique em qualquer das seguintes opções:
 
    * **Por conjunto de relatórios:** agrupa a exibição de solicitações por conjunto de relatórios.
    * **Por segmento**: agrupa as solicitações de acordo com o nome do segmento.
 
-      * **Escolher segmento**: exibido se não houver nenhum segmento para as solicitações. Para adicionar segmentos, clique em **[!UICONTROL Editar grupo]** e selecione um segmento no painel [!UICONTROL Editar grupo].
+      * **Escolher segmento**: exibido se não houver nenhum segmento para as solicitações. Para adicionar segmentos, clique **[!UICONTROL Edit Group]** e selecione um segmento no [!UICONTROL Edit Group] painel.
    * **Por métrica:** Consulte [Editar métricas em várias solicitações](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de datas e granularidade:** agrupa a exibição de solicitações por intervalo de datas e granularidade de tempo.
    * **Por grupo:** agrupa a exibição de solicitações por conjunto de solicitações agrupadas.
 
 
-1. No formulário [!UICONTROL Editar várias solicitações], clique em **[!UICONTROL OK]**.
+1. No [!UICONTROL Edit Multiple Requests] formulário, clique em **[!UICONTROL OK]**.
