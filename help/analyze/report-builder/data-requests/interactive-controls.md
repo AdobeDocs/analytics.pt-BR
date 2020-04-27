@@ -3,7 +3,7 @@ description: Os Controles interativos permitem que você edite segmentos e inter
 title: Controles interativos
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,8 +33,8 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 
 ## Implementar controle de intervalo de datas interativo {#section_39B228F2D2C44985863D31424C953280}
 
-1. Na Etapa 1 da seleção do Assistente de solicitações, por exemplo, o relatório **[!UICONTROL Página]**.
-1. Ao lado do menu suspenso **[!UICONTROL Datas utilizadas mais comuns]**, clique no ícone **[!UICONTROL Configurações de controle]**:
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
+1. Ao lado do **[!UICONTROL Commonly Used Dates]** menu suspenso, clique no **[!UICONTROL Control Settings]** ícone:
 
    ![](assets/date_range_control.png)
 
@@ -54,9 +54,9 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 1. Agora é possível alterar o intervalo de data e a solicitação será atualizada com esse intervalo de datas.
 1. Também é possível copiar a solicitação e clicar com o botão direito do mouse para usar uma de duas opções de Colar solicitação:
 
-   * **[!UICONTROL Colar solicitação]** > **[!UICONTROL Usar célula de entrada absoluta]**. Isso significa que a solicitação copiada apontará para o mesmo controle de intervalo de datas interativo como a solicitação original.
+   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Isso significa que a solicitação copiada apontará para o mesmo controle de intervalo de datas interativo como a solicitação original.
 
-   * **[!UICONTROL Colar solicitação]** > **[!UICONTROL Usar célula de entrada relativa]**. Isso significa que a solicitação copiada apontará para seu próprio controle.
+   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Isso significa que a solicitação copiada apontará para seu próprio controle.
 
       >[!NOTE]
       >
@@ -66,7 +66,7 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 
 A implementação do controle de segmentos interativos é semelhante à implementação do controle de intervalo de datas.
 
-1. Na Etapa 1 do Assistente de solicitação, ao lado da lista suspensa **[!UICONTROL Segmento]**, selecione o ícone de Configurações de controle do segmento:
+1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
 
    ![](assets/segment_interactive_1.png)
 
