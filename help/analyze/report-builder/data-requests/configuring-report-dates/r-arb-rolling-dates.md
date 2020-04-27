@@ -1,5 +1,5 @@
 ---
-description: Definições de campo para datas do acumulado no Construtor de relatórios.
+description: Definições de campo para datas do acumulado no Report Builder.
 title: Definições do Assistente de solicitações - Datas do acumulado
 topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
