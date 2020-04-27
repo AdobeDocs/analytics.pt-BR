@@ -15,7 +15,7 @@ Da mesma maneira que você copia e cola solicitações, também pode reposiciona
 
 Cutting a request removes it from its original location and places it in the new location after you select [!UICONTROL Paste Request]. Se você mudar de ideia depois de recortar uma determinada solicitação e decidir copiar ou recortar uma solicitação diferente de outra célula, o Report Builder deixará a primeira solicitação em sua célula original e atuará somente na segunda (copiando ou recortando).
 
->[!NOTE] O Report Builder não oferece suporte ao comando Desfazer do Excel para solicitações recortadas ou coladas. Portanto, tenha cuidado ao recortar solicitações.
+>[!NOTE] O Report Builder não oferece suporte ao comando Desfazer do Excel para solicitações recortadas ou coladas. Portanto, tome cuidado ao recortar solicitações.
 
 Você não está limitado a copiar e colar na mesma planilha da pasta de trabalho. É possível copiar uma solicitação em uma planilha e colá-la em um local em outra planilha da mesma pasta de trabalho.
 
