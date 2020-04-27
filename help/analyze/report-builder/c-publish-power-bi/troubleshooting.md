@@ -2,7 +2,7 @@
 description: Essas são algumas armadilhas comuns do uso do Report Builder com o Power BI.
 title: Solução de problemas de integração do Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
