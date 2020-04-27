@@ -15,7 +15,7 @@ Exemplos, observações e notas de sintaxe sobre o uso de intervalos de datas em
 
 A tabela parte do princípio de que a data de hoje é segunda-feira, 10 de novembro de 2011, usando o calendário gregoriano.
 
-| Exemplo | Intervalo de data | Expressão personalizada | Intervalo de datas do relatório |
+| Exemplo | Intervalo de datas | Expressão personalizada | Intervalo de datas do relatório |
 |---|---|---|---|
 |  |  | **De** | **Para** |  |
 | 1 | Duas semanas atrás | cw-2w | cw-1w-1d | 26 de out. a 1º de nov. |
@@ -25,7 +25,7 @@ A tabela parte do princípio de que a data de hoje é segunda-feira, 10 de novem
 | 5 | Um mês, começando dois meses atrás | cm-2m | cm-1m-1d | 1º de set. a 30 de set. |
 | 6 | 12 meses atrás no ano passado | cm-12m | cm-11m-1d | 1º de nov. a 30 de nov. 2010 |
 
-## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Observações sobre os exemplos {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Exemplo 1**
 
@@ -35,7 +35,7 @@ Se hoje for segunda-feira, 10 de novembro de 2011, tome a data atual e subtraia 
 
 Adicione quatro meses ao começo do ano (o mês de janeiro) para obter o mês de maio; adicione dois dias ao primeiro dia do mês para obter o terceiro dia do mês.
 
-## Syntax notes {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Notas de sintaxe {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Expressões personalizadas que abrangem a maioria dos intervalos de datas podem ser criadas vinculando-se dois termos por meio de um operador. Um termo é uma combinação de um multiplicador inteiro e uma abreviação de período. Um exemplo de termo é 18d; um exemplo de operador é +.
 
