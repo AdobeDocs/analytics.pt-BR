@@ -32,8 +32,8 @@ Este é um exemplo de uso **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Ativar **[!UICONTROL Customize Expression]**. Ao selecionar as opções em **[!UICONTROL Rolling Dates]**, você pode ver facilmente a sintaxe das expressões de data personalizadas.
+1. Ativar **[!UICONTROL Customize Expression]**. Ao selecionar as opções em **[!UICONTROL Rolling Dates]**, você pode ver facilmente a sintaxe para expressões de data personalizadas.
 
    ![](assets/rolldatesfor5.png)
 
-   Você pode usar Opções avançadas para combinar e combinar expressões de datas personalizadas. Por exemplo, se você quiser ver os dados do primeiro ano até o final do último mês completo, insira o seguinte: `From: cy` . `To: cm-1d`.. No assistente, essas datas são exibidas como 1/1/2020-1/31/2020.
+   Você pode usar Opções avançadas para combinar expressões de data personalizadas. Por exemplo, se você quiser ver os dados do primeiro ano até o final do último mês completo, insira o seguinte: `From: cy` . `To: cm-1d`.. No assistente, essas datas são exibidas como 1/1/2020-1/31/2020.
