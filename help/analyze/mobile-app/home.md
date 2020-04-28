@@ -1,13 +1,13 @@
 ---
-title: Visão geral dos Painéis
+title: Visão geral dos painéis
 description: Documentação do produto e autoajuda para painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 246093efc32e20f114a81f7ff8bb17131b3aafb2
+source-git-commit: 87355158ed62246d1ef8569383160b1d3ffc9b17
 
 ---
 
 
-# Visão geral dos Painéis
+# Visão geral dos painéis
 
 >[!IMPORTANT]
 >
