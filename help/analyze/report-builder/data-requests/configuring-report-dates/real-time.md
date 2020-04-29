@@ -4,7 +4,7 @@ title: Relatórios em Tempo real
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Para relatórios em tempo real, o Analytics utiliza métricas de alta frequênci
 * Utilizar qualquer evento personalizado, evento de carrinho de compras ou instância.
 * Exibir até 20 horas de dados históricos e em tempo real.
 
-A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
+A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
->[!NOTE] Não [!UICONTROL Real-Time Reports] são iguais ao recurso [Incluir dados](https://marketing.adobe.com/resources/help/pt_BR/arb/options.html) atuais (Idade dos dados) lançado anteriormente, que reduziu a latência do relatórios padrão, exibindo dados antes de serem finalizados.
+>[!NOTE] Não [!UICONTROL Real-Time Reports] são iguais ao recurso [Incluir dados](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) atuais (Idade dos dados) lançado anteriormente, que reduziu a latência do relatórios padrão, exibindo dados antes de serem finalizados.
 
