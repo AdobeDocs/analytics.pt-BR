@@ -3,7 +3,7 @@ description: Uma visão geral do menu Relatórios em Reports & Analytics.
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://marketing.adobe.com/resources/help/pt_BR/reference/reports_descriptions.html).
+Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
 
 ## Pesquisar relatórios {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_build_ui.html"  >Construtor de segmentos</a> e do <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_manage.html"  >Gerenciador de segmentos</a>. </td> 
+   <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Construtor de segmentos</a> e do <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Gerenciador de segmentos</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1">Seletor de Conjunto de relatórios<img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Permite selecionar com base nos <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/report_suites_admin.html"  >conjuntos de relatórios</a> ou <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/virtual-report-suites.html"  >conjuntos de relatórios virtuais</a>. </td> 
+   <td colname="col2">Permite selecionar com base nos <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/manage-report-suites/report-suites-admin.html"  >conjuntos de relatórios</a> ou <a href="https://docs.adobe.com/help/pt-BR/analytics/components/virtual-report-suites/vrs-about.html"  >conjuntos de relatórios virtuais</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendário <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
 
 ## Personalização do menu de todos os relatórios {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/customize-menus.translate.html) na Ajuda do administrador.
+Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) na Ajuda do administrador.
