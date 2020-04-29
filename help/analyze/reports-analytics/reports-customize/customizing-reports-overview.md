@@ -4,7 +4,7 @@ title: Visão geral de Personalizar relatórios
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Somente administradores podem criar um relatório personalizado. Ao criar um rel
 
 >[!MORELIKETHIS]
 >
->* [Personalização do menu](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/customize-menus.translate.html)
+>* [Personalização do menu](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 Não é possível comparar datas entre relatórios de tendências.
 
->[!NOTE] Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Construtor de relatórios](https://marketing.adobe.com/resources/help/pt_BR/arb/) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+>[!NOTE] Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Construtor de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/home.html) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
@@ -218,4 +218,4 @@ A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar 
 
 No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
 
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/).
+Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
