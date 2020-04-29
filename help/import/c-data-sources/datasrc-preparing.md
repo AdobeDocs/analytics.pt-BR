@@ -5,7 +5,7 @@ title: Preparação para usar as Fontes de dados
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Etapas que você pode adotar como preparação para usar as fontes de dados
 
 Depois de determinar os mapeamentos adequados de métrica para eventos para os dados da Fonte de dados, renomeie os eventos com os nomes descritivos adequados à métrica das Fontes de dados associada.
 
-Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/pt_BR/reference/success_event.html) na Ajuda das Ferramentas administrativas.
+Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda das Ferramentas administrativas.
 
 >[!NOTE] A Adobe recomenda utilizar eventos novos e vazios com os dados de Fontes de dados, mas, em raros casos, pode fazer sentido usar um evento preexistente.
 
@@ -44,7 +44,7 @@ Após definir as dimensões dos dados para usar com uma fonte de dados, integre 
 
 No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Após selecionar uma eVar para receber uma dimensão de dados das Fontes de dados, não deixe de nomeá-la adequadamente.
 
-Consulte [Eventos de sucesso](https://marketing.adobe.com/resources/help/pt_BR/reference/success_event.html) na Ajuda do Analytics.
+Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda do Analytics.
 
 ## Código de rastreamento de campanha {#section_468222796FF449ABAA90D88EB3264CB1}
 
