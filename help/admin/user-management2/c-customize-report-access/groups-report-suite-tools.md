@@ -6,7 +6,7 @@ title: Personalizar ferramentas do Conjunto de relatórios
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
+source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 ---
 
@@ -43,27 +43,27 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Resumo da conta](/help/admin/admin/general-acct-settings-admin.md) | Concede permissão para editar configurações da conta de um conjunto de relatórios. |
 | [Filtros do URL](/help/admin/admin/internal-url-filter-admin.md) | Concede permissão para Filtros internos do URL em conjuntos de relatórios. Os Filtros internos do URL são usados para determinar quais referenciadores, ou páginas referenciadoras, são internos ao seu site. |
 | [Calendário personalizado](/help/admin/admin/custom-calendar.md) | Concede permissão para editar o calendário personalizado. |
-| [Pesquisa paga](https://marketing.adobe.com/resources/help/pt_BR/reference/paid_search_detection.html) | A Detecção de pesquisa paga diferencia pesquisas pagas das naturais nos Mecanismos de pesquisa e nos relatórios de Palavras-chave de pesquisa. |
+| [Pesquisa paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | A Detecção de pesquisa paga diferencia pesquisas pagas das naturais nos Mecanismos de pesquisa e nos relatórios de Palavras-chave de pesquisa. |
 | [Personalização de menu](/help/admin/admin/customize-menus.md) | Personalize os menus de relatório que o usuário vê no Reports &amp; Analytics. |
 | [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Permissões para configurar relatórios em tempo real no Analytics. |
 | [Configurações de vídeo](/help/admin/admin/video-management.md) | Permissões para designar um conjunto de Variáveis de conversão (eVars) personalizadas e Eventos personalizados para uso em rastreamento e relatórios em vídeo. |
-| [Classificações de vídeo](https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/video/video_config.html) | Permissões para designar um conjunto de Variáveis de conversão (eVars) personalizadas e Eventos personalizados para uso em rastreamento e relatórios em vídeo. |
+| [Classificações de vídeo](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html) | Permissões para designar um conjunto de Variáveis de conversão (eVars) personalizadas e Eventos personalizados para uso em rastreamento e relatórios em vídeo. |
 | [Variáveis de tráfego](/help/admin/admin/c-traffic-variables/traffic-var.md) | Permissão para correlacionar dados personalizados com eventos específicos relacionados ao tráfego. |
 | [Classificações de tráfego](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
-| [Canais](https://marketing.adobe.com/resources/help/pt_BR/mchannel/index.html) | Concede permissão para configurações de Canal de marketing em Gerenciador de conjunto de relatórios > Editar configurações > Canais de marketing. |
-| [Custos](https://marketing.adobe.com/resources/help/pt_BR/mchannel/c_overview_budget.html) | Ativa a permissão para Canais de marketing > Custos de canal de marketing no Gerenciador de conjunto de relatórios. |
+| [Canais](/help/components/c-marketing-channels/analyze-mc.md) | Concede permissão para configurações de Canal de marketing em Gerenciador de conjunto de relatórios > Editar configurações > Canais de marketing. |
+| [Custos](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/analyze-mc.html) | Ativa a permissão para Canais de marketing > Custos de canal de marketing no Gerenciador de conjunto de relatórios. |
 | [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | A variável de conversão do Custom Insight (ou eVar) é colocada no código da Adobe em páginas da Web selecionadas do site. Seu propósito principal é segmentar métricas de sucesso de conversão em relatórios de marketing personalizados. |
 | [Métodos de descoberta](/help/admin/admin/finding-methods.md) | Permite identificar como os vários relatórios de métodos de descoberta recebem créditos relativos a eventos de sucesso de conversão no seu site. |
 | [Classificações de conversão](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
-| [Visitante único](https://marketing.adobe.com/resources/help/pt_BR/reference/t_unique_visitor_variable.html) | Concede permissão para especificar a variável Visitante único. |
-| [Eventos bem-sucedidos](https://marketing.adobe.com/resources/help/pt_BR/reference/success_event.html) | Ações que podem ser rastreadas, como exibição do produto, check-out e compra. |
+| [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Concede permissão para especificar a variável Visitante único. |
+| [Eventos bem-sucedidos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) | Ações que podem ser rastreadas, como exibição do produto, check-out e compra. |
 | [Hierarquias de classificação](/help/components/c-classifications2/classification-hierarchies.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
-| [Variáveis de lista ](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/listN.html) | Também conhecidas como List Var. Semelhante ao modo de funcionamento de Propriedades de lista, a List Vars permite vários valores na mesma solicitação de imagem. |
+| [Variáveis de lista ](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) | Também conhecidas como List Var. Semelhante ao modo de funcionamento de Propriedades de lista, a List Vars permite vários valores na mesma solicitação de imagem. |
 | [Métricas padrão](/help/admin/admin/default-metrics.md) | O Reports &amp; Analytics exibe um conjunto padrão de métricas em todos os relatórios de conversão, exceto quando um usuário seleciona um conjunto personalizado de métricas. As métricas selecionadas são exibidas para todos os usuários do conjunto de relatórios associado. |
-| [Regras de processamento](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/ref-processing-rules.html) | Concede acesso às Regras de processamento, que simplificam a coleta de dados e gerenciam o conteúdo conforme é enviado para os relatórios. |
+| [Regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acesso às Regras de processamento, que simplificam a coleta de dados e gerenciam o conteúdo conforme é enviado para os relatórios. |
 | **Ferramentas e relatórios** |  |
-| [Detecção de anomalias](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/anomaly_detection.html) | Concede permissão para Detecção de anomalias, que oferece um método estatístico para determinar como determinada métrica foi alterada em relação a dados anteriores. |
-| [Relatório de Canal](https://marketing.adobe.com/resources/help/pt_BR/mchannel/index.html) | Concede permissão para relatórios de Canal de marketing, encontrados em Relatórios > Relatórios do canal de marketing. |
+| [Detecção de anomalias](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permissão para Detecção de anomalias, que oferece um método estatístico para determinar como determinada métrica foi alterada em relação a dados anteriores. |
+| [Relatório de Canal](/help/components/c-marketing-channels/analyze-mc.md) | Concede permissão para relatórios de Canal de marketing, encontrados em Relatórios > Relatórios do canal de marketing. |
 | [Relatório em tempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Concede acesso ao Relatório em tempo real. |
 | [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Páginas de robô são destinadas a relatórios e análises específicos, e não ao gerenciamento de regras de robô. Atualmente, não há permissão para permitir a edição de regras de bot.** As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Os bots são destinados a relatórios e análises específicos, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** Os bots permitem remover o tráfego gerado pelos spiders e bots conhecidos do conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
@@ -74,11 +74,11 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | ClickMap herdado | Concede acesso ao menu para a ferramenta de sobreposição ClickMap herdado. |
 | Instalação do ClickMap herdado | Concede direitos de instalação para a ferramenta ClickMap herdado. |
 | [Visitas de Retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Um relatório que mostra o número de visitas, em que o no número de visitas for maior que 1. O Relatório de visitas de retorno inclui os visitantes sem cookies. |
-| [Importador / exportador de classificações](https://marketing.adobe.com/resources/help/pt_BR/reference/c_working_with_saint.html) e [Construtor de regras](https://marketing.adobe.com/resources/help/pt_BR/reference/classification_rule_builder.html) | Consolidado em classificações (veja abaixo). |
+| [Importador / exportador de classificações](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) e [Construtor de regras](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado em classificações (veja abaixo). |
 | Gerenciador de feeds de dados | Concede direitos a Feed de dados do Analytics. |
 | Classificações | Combina as seguintes permissões: “Classificações de tráfego”, “Classificações de vídeo”, “Classificações de conversão”, “Hierarquias de classificação”, “Gerenciador de classificações” e “Classificações Importador/Exportador e Construtor de regras”.  Observação: com essa permissão, usuários editam classificações para todos os conjuntos de relatórios, não somente os selecionados. |
-| [Análise de contribuição](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/contribution-analysis.html) | Concede direitos de uso à Análise de contribuição na Analysis Workspace. |
+| [Análise de contribuição](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede direitos de uso à Análise de contribuição na Analysis Workspace. |
 | **Itens do painel** |  |
-| As configurações em Itens do painel permitem o acesso a [reportlets](https://marketing.adobe.com/resources/help/pt_BR/sc/user/dashboard.html) no Reports &amp; Analytics:, Meus relatórios recomendados, Reportlet de resumo da empresa, Imagem, Reportlet de medição/KPI, Totais do conjunto de relatórios, Texto, Reportlet, Reportlet de resumo de uso e Recursos da Web |  |
+| As configurações em Itens do painel permitem o acesso a [reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) no Reports &amp; Analytics:, Meus relatórios recomendados, Reportlet de resumo da empresa, Imagem, Reportlet de medição/KPI, Totais do conjunto de relatórios, Texto, Reportlet, Reportlet de resumo de uso e Recursos da Web |  |
 | **Outro** |  |
 | Social | Controla o acesso ao menu Gerenciamento social no Gerenciador de conjunto de relatórios. |
