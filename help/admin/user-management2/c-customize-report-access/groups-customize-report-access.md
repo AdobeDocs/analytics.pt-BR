@@ -6,7 +6,7 @@ title: Personalizar acesso ao relatório - visão geral
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,17 +15,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Personalize a permissão de grupo para ferramentas do Analytics e do conjunto de relatórios, métricas e dimensões.
 
-**[!UICONTROL Adicionar novo grupo]** > **[!UICONTROL Acesso ao Relatório]**
+**[!UICONTROL Add New Group]** > **[!UICONTROL Report Access]**
 
-A seção [!UICONTROL Acesso ao Relatório] da página [!UICONTROL Definir grupo de usuários] fornece categorias de acesso que permitem personalizar permissões em nível detalhado.
+The [!UICONTROL Report Access] section on the [!UICONTROL Define User Group] page provides access categories that enable you to customize permissions at a granular level.
 
 ![](assets/report-access.png)
 
-Por exemplo, você pode criar um grupo com acesso a várias ferramentas do Analytics, ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] e [!UICONTROL Report Builder]), com permissão para métricas e dimensões específicas (inclusive eVars), e também para recursos como criação de segmentos ou métricas calculadas.
+For example, you can create a group with access to multiple Analytics tools ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], and [!UICONTROL Report Builder]), with permission to specific metrics and dimensions (including eVars), and capabilities like segment or calculated metrics creation.
 
 ## O que você deve saber sobre permissões {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -59,12 +59,12 @@ Por exemplo, você pode criar um grupo com acesso a várias ferramentas do Analy
    <td colname="col2"> <p>Personalize permissões para que incluam ou excluam o acesso a dimensões (além das métricas). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/c_classifications.html">variável</a> em que se baseia a classificação. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">variável</a> em que se baseia a classificação. </li> 
     </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Personalizar permissões de dimensão</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/br/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://marketing.adobe.com/resources/help/pt_BR/mcloud/core_services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://marketing.adobe.com/resources/help/pt_BR/experience-cloud/admin-console/analytics-migration/"> Migração de usuários do Analytics para o Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/core-services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migração de usuários do Analytics para o Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sensível a conteúdo </p> </td> 
