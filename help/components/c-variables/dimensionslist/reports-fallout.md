@@ -4,7 +4,7 @@ title: Fallout
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,14 +21,14 @@ Esse relatório é útil para analisar:
 
 **Analysis Workspace**
 
-Consulte [Jornada do cliente - Fallout](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/fallout_flow.html).
+Consulte [Jornada do cliente - Fallout](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Reports and Analytics**
 
-Consulte [Executar um relatório de fallout](https://marketing.adobe.com/resources/help/pt_BR/sc/user/t_reports_fallout.html) na Ajuda para obter informações de configuração.
+Consulte [Executar um relatório de fallout](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html) na Ajuda para obter informações de configuração.
 
 **Ad Hoc Analysis**
 
 Analise os dados de fallout no nível da visita ou do visitante. Também é possível ver um caminho de tendência que mostra um gráfico do seu saída durante determinado período. É possível definir páginas individuais ou grupos de páginas como pontos de verificação do relatório ou adicionar qualquer dimensão ou métrica em qualquer combinação ou sequência. Também é possível usar categorias configuradas em relatórios de marketing como pontos de verificação desse relatório.
 
-Consulte o [Relatório de fallout](https://marketing.adobe.com/resources/help/pt_BR/dsc/c_reports_fallout.html) na Ajuda para obter informações de configurações.
+Consulte o [Relatório de fallout](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html) na Ajuda para obter informações de configurações.
