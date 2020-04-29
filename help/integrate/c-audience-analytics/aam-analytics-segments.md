@@ -3,7 +3,7 @@ description: O Analytics e o Audience Manager usam segmentos. Entretanto, um seg
 title: Entender os segmentos no Analytics e no Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ A associação de segmento do Audience Manager é fluida. Os usuários podem ent
 
 Um segmento do Audience Manager é denotado como um público-alvo no Analytics.
 
-Para obter mais informações, consulte [Dados de características e de preenchimento de segmentos no Construtor de segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Sinais, Características e segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/signal-trait-segment.html).
+Para obter mais informações, consulte [Dados de características e de preenchimento de segmentos no Construtor de segmentos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Sinais, Características e segmentos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segmentos do Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -42,4 +42,4 @@ Um segmento do Analytics é um mecanismo de filtragem para dados em seus relató
 
    Contrariamente, no Analytics, visitantes podem ser incluídos ou excluídos de um segmento com base no intervalo de datas do relatório. Por exemplo, suponhamos que um único visitante fez uma compra no mês anterior. No AAM, esse visitante seria incluído em um segmento “comprador”, independentemente do intervalo de datas. No Analytics, um relatório baseado nesse mês não incluiria o visitante no segmento. Entretanto, um relatório com base nesse mês e no mês anterior incluiria o visitante no segmento.
 
-Consulte o [Guia de segmentação do Analytics](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/) para obter mais informações.
+Consulte o [Guia de segmentação do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) para obter mais informações.
