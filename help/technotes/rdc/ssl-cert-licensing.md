@@ -2,16 +2,16 @@
 title: Licença do certificado SSL
 description: Procedimentos de certificado para certificados gerenciados pelo cliente
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Licenciamento de certificado SSL/TLS
 
-A Adobe recomenda que você gerencie seu certificado sem custo adicional por meio do [Programa de certificados gerenciados da Adobe](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  O programa de certificados gerenciados da Adobe é totalmente automatizado e garante que os certificados sejam renovados em tempo hábil para que não haja impacto por causa aos certificados expirados.
+A Adobe recomenda que você gerencie seu certificado sem custo adicional por meio do [Programa de certificados gerenciados da Adobe](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html). O programa de certificados gerenciados da Adobe é totalmente automatizado e garante que os certificados sejam renovados em tempo hábil para que não haja impacto por causa aos certificados expirados.
 
-Se optar por não usar o [Programa de certificados gerenciados da Adobe](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html), você será responsável por fornecer um certificado SSL/TLS a ser usado para cookies próprios.
+Se optar por não usar o [Programa de certificados gerenciados da Adobe](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html), você será responsável por fornecer um certificado SSL/TLS a ser usado para cookies próprios.
 
 Se você fornece seus próprios certificados, é sua responsabilidade adquirir e mantê-los.  Seu certificado SSL/TLS deve incluir uma licença de servidor ilimitada.
 
