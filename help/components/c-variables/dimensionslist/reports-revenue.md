@@ -4,7 +4,7 @@ title: Receita
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
 
 * Existem requisitos que devem ser atendidos para que esse relatório colete dados de forma bem sucedida. Deve ocorrer o seguinte dentro da mesma solicitação de imagem:
 
-   * Um evento de [!UICONTROL compra] deve ser disparado no  `s.events`. 
+   * Um [!UICONTROL purchase] evento deve ser acionado na `s.events` variável.
 
    * A variável `products` deve ser definida com um número no campo de preço.
    * Por exemplo, isso passaria US$35.99 para o relatório da receita:
@@ -38,48 +38,48 @@ Use Receita para ver o sucesso geral e a tendência do seu site. Você pode tamb
    >
    >A receita não é multiplicada se a quantidade for aumentada em um único produto. Por exemplo, [!DNL s.products="Womens;Socks;5;4.50"] não passa US$ 22,50 para o relatório, mas sim US$ 4,50. Certifique-se de que a sua implementação passa a receita total para a quantidade listada ([!DNL s.products="Womens;Socks;5;22.50"]).
 
-* [!UICONTROL Receita] arredonda a quantia total por um período para o valor monetário mais próximo. Não arredonda cada produto individual ou clique.
+* [!UICONTROL Revenue] arredonda o valor total de um período para o valor monetário mais próximo. Não arredonda cada produto individual ou clique.
 * Como o Analytics arredonda cada dia para o valor inteiro mais próximo, a comparação do montante de cada dia ao total mensal está fora por uma quantia bem pequena. Isso se deve ao fato de o total mensal não ser o montante de cada dia arredondado, é o montante absoluto arredondado para o valor inteiro mais próximo.
-* Você pode criar um relatório que não arredonde receita para o valor inteiro mais próximo usando um  [métrica calculada](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics/).
+* Você pode criar um relatório que não arredonde receita para o valor inteiro mais próximo usando um  [métrica calculada](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html).
 * A menos que a variável `purchaseID` seja usada, os usuários que atualizam a página poderão aumentar a receita enviando estes dados várias vezes para a Adobe.
 * Os detalhamentos por hora são baseados na zona de tempo do conjunto de relatórios.
 * Este relatório não contém itens de linha. Só pode ser visualizado no formato padrão.
 * A granularidade de hora, dia, semana, mês, trimestre e ano pode ser aplicada. Essas granularidades estão disponíveis dependendo do intervalo da data do relatório.
 * Este relatório pode ser detalhado através dos seguintes relatórios (dependendo das configurações de organização e do conjunto de relatórios):
 
-   * Relatório de [!UICONTROL Tempo de permanência por visita].
-   * Relatório de [!UICONTROL Páginas e Seções do Site].
-   * Relatório de [!UICONTROL Vídeo].
-   * Relatório de [!UICONTROL Profundidade da página e das Páginas de entrada].
-   * A maioria dos relatórios das [!UICONTROL Fontes de tráfego], inclusive os relatórios de [!UICONTROL Palavras-chave de pesquisa], [!UICONTROL Mecanismos de pesquisa],e [!UICONTROL Domínios de referência].
+   * [!UICONTROL Time Spent per Visit] relatório.
+   * [!UICONTROL Pages and Site Sections] relatório.
+   * [!UICONTROL Videos] relatório.
+   * [!UICONTROL Page Depth and Entry Pages] relatório.
+   * A maioria dos [!UICONTROL Traffic Sources]relatórios, incluindo [!UICONTROL Search Keywords], [!UICONTROL Search Engines]e [!UICONTROL Referring Domains] .
 
-   * Relatório do [!UICONTROL Código de rastreamento] e todos os relatórios de classificação associados.
-   * O relatório da [!UICONTROL Variável de produtos] e todos os relatórios de classificação associados. Relatórios de [!UICONTROL Categorias] também.
+   * [!UICONTROL Tracking Code] e todos os relatórios de classificações associados.
+   * [!UICONTROL Products variable] e todos os relatórios de classificações associados. Também [!UICONTROL Categories] relatórios.
 
-   * Quase todos os relatórios de [!UICONTROL Perfil do Visitante], salvo os relatórios de [!UICONTROL Segmentação geográfica].
+   * Quase todos os [!UICONTROL Visitor Profile] relatórios, exceto [!UICONTROL GeoSegmentation] os relatórios.
 
-   * Todos os relatórios das variáveis da [!UICONTROL Conversão Personalizada] com sub-relações básicas.
+   * Todos os relatórios de [!UICONTROL Custom Conversion] variáveis com sub-relações básicas.
 
 * Detalhamentos não estão disponíveis por hora.
 
 ## Propriedades específicas do produto  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Conversão]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
+* Este relatório poderá ser acessado indo até **[!UICONTROL Conversion]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
-* Detalhamentos das [!UICONTROL Fontes de tráfego] podem ser encontradas nos [!UICONTROL Métodos de descoberta].
+* [!UICONTROL Traffic Sources] detalhamentos podem ser encontrados em [!UICONTROL Finding Methods].
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Métricas do site]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
+* Este relatório poderá ser acessado indo até **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
-* Além de todos os detalhamentos listados anteriormente, os detalhamentos do [!UICONTROL Canal de Marketing de First e Last Touch] estão disponíveis.
+* Além de todos os detalhamentos listados anteriormente, estão disponíveis [!UICONTROL First and Last Touch Marketing Channel] detalhamentos.
 
-* Este relatório pode ser acessado indo até **[!UICONTROL Métrica do Site]** > **[!UICONTROL Compras]** > **[!UICONTROL Receita]**.
+* Este relatório pode também ser acessado indo até **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
 
-* Além dos detalhamentos mencionados previamente, as variáveis da [!UICONTROL Lista] e as variáveis atuais de [!UICONTROL Vídeo] podem ser usadas.
+* In addition to the previously mentioned breakdowns, [!UICONTROL List]variables and the current [!UICONTROL Video] variables can be used.
 
 * Este relatório pode utilizar segmentos.
 
 * É possível pode detalhar cada item neste relatório por todos os outros relatórios e variáveis, permitindo que você visualize os detalhes através de qualquer granularidade que desejar.
-* Você pode usar todas as métricas de [!UICONTROL conversão] e [!UICONTROL tráfego] junto com a [!UICONTROL Receita]. Você pode usar alocações diferentes para todas as métricas de [!UICONTROL conversão].
+* Você pode usar todas as [!UICONTROL conversion] e [!UICONTROL traffic] métricas ao lado [!UICONTROL Revenue]. You can use different allocation for all [!UICONTROL conversion] metrics.
 
 * Este relatório pode utilizar segmentos múltiplos altamente avançados.
 
