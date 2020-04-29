@@ -4,7 +4,7 @@ title: Fontes de dados
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -21,4 +21,4 @@ Use Fontes de dados para:
 
 Quando as Fontes de dados são ativadas em um conjunto de relatórios, um local de FTP é fornecido para que você possa fazer o upload dos arquivos que serão integrados ao relatório. Depois de carregados, os servidores da Adobe processam automaticamente os dados e integram no seu conjunto de relatórios.
 
-Consulte [Ajuda das Fontes de dados](https://marketing.adobe.com/resources/help/pt_BR/sc/datasources/).
+Consulte [Ajuda das Fontes de dados](https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html).
