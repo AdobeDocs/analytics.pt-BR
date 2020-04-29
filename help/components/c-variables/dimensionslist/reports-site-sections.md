@@ -4,7 +4,7 @@ title: Seções do site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mostra as áreas de site que foram mais acessadas pelos seus visitantes. As Seções do site podem incluir grupos de produtos, semelhante às categorias, que podem ser definidas. Por exemplo, você pode ter um grupo de páginas de Câmeras, um grupo de computadores, etc. Os dados para o relatório de Seções do site de conversão são importados do relatório de Seção do site no grupo de Tráfego, que recebe as informações da variável de canal no código de rastreamento do. Você pode utilizar este relatório para identificar o maior impacto nas estatísticas do site a partir de itens em diferentes seções do site.
 
-* Este relatório faz referência aos dados diretamente a partir da variável [s.canal](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementada no site.
+* Este relatório faz referência aos dados diretamente a partir da variável [s.canal](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) implementada no site.
 * Este relatório pode ser visualizado nos formatos de tendência e classificado.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
 * As Classificações podem ser usadas neste relatório, permitindo que você renomeie e consolide os itens de linha.
 * Correlações podem ser criadas com qualquer outra variável de tráfego através das Ferramentas administrativas.
 * Este relatório pode utilizar as seguintes métricas:
 
-   * **Exibições de página**: o número de vezes que a variável [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) ou o URL foi definido (configurado como a métrica padrão)
+   * **Exibições de página**: o número de vezes que a variável [pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) ou o URL foi definido (configurado como a métrica padrão)
 
    * **Todas as métricas de definição de caminho**: visitas, profundidade média da página, tempo médio gasto na página, entradas, saídas, recargas e único acesso
    * Dependendo das configurações de sua organização e do conjunto de relatórios: visitantes únicos por dia, por semana, por mês e por trimestre podem ser habilitados neste relatório.
    * **Todas as métricas padrão de e-comércio**: receita, pedidos, unidades, carrinhos, visualizações do carrinho, finalizações, adições ao carrinho e remoções do carrinho.
    * **Todos os eventos personalizados**: Eventos 1-80 e Eventos 81-100 no código H22 ou superior.
 
-Todos os eventos de conversão no [!UICONTROL relatório das seções do site] utilizam a última alocação. Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. Isso é diferente do [Relatório de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa alocação linear.
+Todos os eventos de conversão na última alocação [!UICONTROL Site Sections Report] . Você visualizará a conversão dividida nas páginas que não contêm eventos de sucesso durante a sua implementação. Isso é diferente do [Relatório de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa alocação linear.
 
 **Informações específicas do produto**
 
