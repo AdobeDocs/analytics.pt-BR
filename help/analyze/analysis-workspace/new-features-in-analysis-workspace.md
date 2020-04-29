@@ -5,7 +5,7 @@ title: Novidades no Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ Novos recursos e melhorias lançados em 13 de setembro de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Novo modelo: Consumo de áudio</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Análise de áudio</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Análise de áudio</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
    <td colname="col2"> <p>Anteriormente, ao copiar um projeto ou usar o recurso “Salvar como”, todos os links internos salvos no projeto vinculavam o projeto original, não a cópia. </p> <p>Os links internos agora vinculam o projeto em que se encontram, uma vez feita a cópia ou usada a opção “Salvar como”. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Análise de contribuição: <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/contribution/ca_main.html"  >notificação de tokens </a> </p> </td> 
+   <td colname="col1"> <p>Análise de contribuição: <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >notificação de tokens </a> </p> </td> 
    <td colname="col2"> <p>Se a sua empresa tem um número limitado de tokens para análise de contribuição, a interface do usuário do Analysis Workspace agora mostra uma notificação quando você usa um token. Isso permite que você saiba quantos tokens ainda tem.  </p> <p>(Usuários administradores: podem restringir quem pode usar esses tokens editando as permissões do grupo. A permissão se chama “Detecção de anomalias e Análise de contribuição” e fica em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">User Management </span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span>. )  </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ Novos recursos lançados em 20 de abril de 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Modelo Pessoas </a> </p> </td> 
-   <td colname="col2"> <p>Observação: o modelo Pessoas e a respectiva métrica Pessoas estão disponíveis para uso somente como parte do <a href="https://marketing.adobe.com/resources/help/pt_BR/mcdc/mcdc-people.html"  >Device Co-op da Adobe Experience Cloud</a>. </p> <p>O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. </p> </td> 
+   <td colname="col2"> <p>Observação: o modelo Pessoas e a respectiva métrica Pessoas estão disponíveis para uso somente como parte do <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Device Co-op da Adobe Experience Cloud</a>. </p> <p>O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Melhorias na opção Desfazer/Refazer </p> </td> 
@@ -973,7 +973,7 @@ Novos recursos lançados em 20 de outubro de 2016:
 
 Novos recursos lançados em 16 de junho de 2016:
 
-* [Nova permissão](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html) de grupo que permite aos administradores permitir ou negar acesso à guia **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** para usuários. A partir de 16 de junho de 2016, todos os usuários têm permissão para acessar essa aba. Para negar o acesso, basta remover os usuários do grupo Acesso à Analysis Workspace.
+* [Nova permissão](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html) de grupo que permite aos administradores permitir ou negar acesso à guia **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** para usuários. A partir de 16 de junho de 2016, todos os usuários têm permissão para acessar essa aba. Para negar o acesso, basta remover os usuários do grupo Acesso à Analysis Workspace.
 * O [Painel de comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) mostra as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões às quais você tem acesso.
 * Estrutura do menu [Novos projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza o menu principal e o torna mais expansível. Por exemplo, para criar um novo **Painel de coorte**, agora é necessário criar um painel em branco e arrastar uma visualização de Tabela de coorte.
 * [Novo painel à esquerda](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Painéis, Visualizações, Componentes
