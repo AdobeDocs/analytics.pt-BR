@@ -5,7 +5,7 @@ title: Importação de FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
-**[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 Os seguintes limites recomendados são importantes:
 
@@ -49,9 +49,9 @@ Etapas que descrevem como usar uma conta FTP para importar classificações para
 
 Para obter mais informações sobre como criar uma conta FTP, consulte  [Criar uma conta FTP](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
-1. Clique em **[!UICONTROL Importar Arquivo]**, e então clique em **[!UICONTROL Importação de FTP]**.
-1. Ao lado da conta FTP que deseja usar, clique em **[!UICONTROL Exibir]**.
+1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. Use as informações de acesso do FTP (Host, Logon, Senha) para acessar o servidor FTP usando um cliente FTP de sua escolha.
 1. Carregue o arquivo de dados ([!DNL .tab] ou [!DNL .txt]) no servidor FTP.
 1. Após fazer upload do arquivo de dados, carregue um arquivo FIN que indica que o arquivo está pronto para o processamento.
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-Veja [FTP e sFTP](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/ftp/) para detalhes adicionais sobre os servidores Adobe FTP.
+Veja [FTP e sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html) para detalhes adicionais sobre os servidores Adobe FTP.
 
-1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
-1. Clique em **[!UICONTROL Importar Arquivo]**, e então clique em **[!UICONTROL Importação de FTP]**.
-1. Na guia **[!UICONTROL Importar Arquivo]**, clique em **[!UICONTROL Adicionar Novo]**.
+1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Na **[!UICONTROL Import File]** guia, clique em **[!UICONTROL Add New]**.
 1. Especifique os detalhes da conta FTP:
 
    | Elemento | Descrição |
@@ -87,6 +87,6 @@ Veja [FTP e sFTP](https://marketing.adobe.com/resources/help/pt_BR/whitepapers/f
    | Destinatário da notificação | Especifique o endereço de email para receber notificações sobre essa conta FTP. |
    | Autorizar | (Obrigatório) Autoriza a Adobe a importar automaticamente todos os arquivos de dados enviados para a nova conta FTP. |
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 Após sua criação, é possível editar ou excluir as contas FTP clicando no link apropriado ao lado da conta FTP desejada.
