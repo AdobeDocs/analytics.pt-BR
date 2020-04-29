@@ -3,7 +3,7 @@ description: Definir configurações de comportamento global. Por exemplo, é po
 title: Configurações
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Definir configurações de comportamento global. Por exemplo, é possível defin
 
 Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
 
-Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Configurações]** para acessar as [!UICONTROL Configurações Globais].
+Clique em **[!UICONTROL Tools]** > **[!UICONTROL Settings]** para acessar [!UICONTROL Global Settings].
 
 ## Guia Configurações Gerais - Definições {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Configurações de dados </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Contar instâncias repetidas</span>: especifica se as instâncias são contadas nos relatórios. Ou seja, se você tiver vários valores em sequência para a mesma variável, poderá contá-las como uma ou várias instâncias da variável. </p> <p>Por exemplo, você poderá ver recargas de páginas repetidos, que são o número de vezes que as páginas em seu site são recarregadas ou atualizadas durante uma única visita. Esta opção permite que você especifique várias ocorrências na mesma página que são contadas como apenas uma ou várias visualizações de páginas. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad hoc</span></span>: especifica <span class="keyword">Ad hoc</span> como a única fonte de dados para relatório. Esses dados vêm de solicitações de imagem geradas por páginas da Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Fontes de dados</span></span>: especifica se os dados carregados de fontes da Adobe ou fontes de dados personalizados devem ser usados. Os dados são disponibilizados para produtos na <span class="keyword">Experience Cloud</span>. Veja <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/datasources/index.html"  >Fontes de dados</a> para obter mais informações. </p> <p> <span class="uicontrol"> Ambos</span>: (padrão) usa dados de <span class="keyword">Ad Hoc Analysis</span> e outras fontes de dados. </p> <p>Observação: alterar essa opções pode resultar em discrepâncias de relatório entre os dados da <span class="keyword">Ad Hoc Analysis</span> e os dados de <span class="keyword">relatórios e análises de marketing.</span> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Contar instâncias repetidas</span>: especifica se as instâncias são contadas nos relatórios. Ou seja, se você tiver vários valores em sequência para a mesma variável, poderá contá-las como uma ou várias instâncias da variável. </p> <p>Por exemplo, você poderá ver recargas de páginas repetidos, que são o número de vezes que as páginas em seu site são recarregadas ou atualizadas durante uma única visita. Esta opção permite que você especifique várias ocorrências na mesma página que são contadas como apenas uma ou várias visualizações de páginas. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad hoc</span></span>: especifica <span class="keyword">Ad hoc</span> como a única fonte de dados para relatório. Esses dados vêm de solicitações de imagem geradas por páginas da Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Fontes de dados</span></span>: especifica se os dados carregados de fontes da Adobe ou fontes de dados personalizados devem ser usados. Os dados são disponibilizados para produtos na <span class="keyword">Experience Cloud</span>. Veja <a href="https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html"  >Fontes de dados</a> para obter mais informações. </p> <p> <span class="uicontrol"> Ambos</span>: (padrão) usa dados de <span class="keyword">Ad Hoc Analysis</span> e outras fontes de dados. </p> <p>Observação: alterar essa opções pode resultar em discrepâncias de relatório entre os dados da <span class="keyword">Ad Hoc Analysis</span> e os dados de <span class="keyword">relatórios e análises de marketing.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Salvar automaticamente configurações </p> </td> 
