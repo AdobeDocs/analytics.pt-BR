@@ -4,7 +4,7 @@ title: Definição de caminho
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Um grupo de relatórios com base na análise de caminho. Tecnicamente, definição de caminho significa mover de um nome de página a outro (de um valor a outro).
 
-Use o [Fluxo da Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/flow.html) para opções de caminho mais flexíveis.
+Use o [Fluxo da Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) para opções de caminho mais flexíveis.
 
->[!NOTE] Observação: para permitir a definição de caminho, vá para **[!UICONTROL Administração > Conjuntos de relatórios > Editar configurações > Tráfego > Variáveis de tráfego]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
+>[!NOTE] Para ativar a definição de caminho, vá para **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Para habilitar o caminho nos relatórios do Servidor e da Seção do site, entre em contato com o Atendimento ao Cliente.
 
 Se você deseja saber a ordem em que os valores são coletados, então é necessário ativar a definição de caminho para a variável que coleta esses dados. A definição de caminho é ativada por padrão para as páginas. A definição de caminho não é ativada para quaisquer props por padrão, pois só é adequada em alguns casos. Entre em contato com o atendimento ao cliente para ativar a definição de caminho em uma prop.
 
@@ -27,7 +27,7 @@ Ativar a definição de caminho para a variável *`s.channel`* permite que você
 
 ![](assets/path_sections.png)
 
-A definição de caminho fica então disponível em vários relatórios de caminho, como o [!UICONTROL Fluxo de próxima seção do site], que exibe como os visitantes se movem pelos grupos de páginas ou seções de site.
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
