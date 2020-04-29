@@ -2,18 +2,12 @@
 title: Implementar o Analytics para assistentes digitais
 description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon Alexa ou o Google Home.
 translation-type: tm+mt
-source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Implementar o Analytics para assistentes digitais
-
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
 
 Com os recentes avanços na computação em nuvem, aprendizado de máquina e processamento de linguagem natural, os assistentes digitais estão fazendo parte do cotidiano. Os consumidores estão começando a falar com os seus aparelhos e a esperar que eles compreendam e respondam de formas semelhantes às humanas. À medida que essas plataformas vão se consolidando, as marcas podem apresentar seus serviços aos consumidores dessa mesma forma realista. Por exemplo, os consumidores podem perguntar coisas como:
 
