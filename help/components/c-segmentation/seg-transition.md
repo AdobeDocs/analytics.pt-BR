@@ -5,7 +5,7 @@ title: Perguntas frequentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 
 * Segmentação na Analysis Workspace:
 
-   * Você pode [comparar segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/segment-comparison.html).
-   * Use [segmentos como dimensões](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/segments_as_dimensions.html) em uma comparação.
-   * Use segmentos na [análise de fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * Você pode [comparar segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Use [segmentos como dimensões](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html) em uma comparação.
+   * Use segmentos na [análise de fallout](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Os segmentos são universais para todos os conjuntos de relatórios.
@@ -40,9 +40,9 @@ Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://
 
 Para acessar o Construtor de segmentos, basta:
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
+* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    ou
 
@@ -52,9 +52,9 @@ Para acessar o Construtor de segmentos, basta:
 
 Para acessar o Gerenciador de segmentos:
 
-* Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Em seguida, clique em **[!UICONTROL Segments]**, ou
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
+* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Manage]**, ou
 
 * Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
 
@@ -74,7 +74,7 @@ O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de 
 
 **Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?**
 
-Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
+Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
 Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
