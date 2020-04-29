@@ -6,7 +6,7 @@ title: Personalizar ferramentas do Conjunto de relatórios
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
 
-**[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acesso ao Relatório]** > **[!UICONTROL Ferramentas do Conjunto de relatórios]** > **[!UICONTROL Personalizar]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-A página [!UICONTROL Personalizar ferramentas do Conjunto de relatórios] concede aos membros de um grupo acesso aos seguintes itens.
+A [!UICONTROL Customize Report Suite Tools] página concede aos membros de um grupo acesso aos itens a seguir.
 
 ![](assets/report-suite-tools.png)
 
 ## Descrições de campo
 
-As configurações desta página pertencem aos conjuntos de relatórios selecionados na página [!UICONTROL Definir grupos de usuários].
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Elemento | Descrição |
 |--- |--- |
@@ -65,8 +65,8 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Detecção de anomalias](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/anomaly_detection.html) | Concede permissão para Detecção de anomalias, que oferece um método estatístico para determinar como determinada métrica foi alterada em relação a dados anteriores. |
 | [Relatório de Canal](https://marketing.adobe.com/resources/help/pt_BR/mchannel/index.html) | Concede permissão para relatórios de Canal de marketing, encontrados em Relatórios > Relatórios do canal de marketing. |
 | [Relatório em tempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Concede acesso ao Relatório em tempo real. |
-| [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Páginas de robô são destinadas a relatórios e análises específicos, e não ao gerenciamento de regras de robô. Atualmente, não há permissão para permitir a edição de regras de bot.** As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Os bots são destinados a relatórios e análises específicos, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** Os bots permitem remover o tráfego gerado pelos spiders e bots conhecidos do conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Relatório de Data Warehouse Personalizado](/help/export/data-warehouse/data-warehouse.md) | O Data warehouse refere-se à cópia de dados brutos não processados para armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas exclusivas. |
 | [Visitas de Retorno Diário](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Herdado) Relatório que exibe o número de visitantes no seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. |
 | [Gerenciador das fontes de dados](/help/admin/admin/data-sources.md) | O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. |
