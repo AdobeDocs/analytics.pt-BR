@@ -3,7 +3,7 @@ description: 'O Report Builder 5.2 é compatível com as métricas calculadas un
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Ad
 
 >[!NOTE] As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
-Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://marketing.adobe.com/resources/help/pt_BR/analytics/calcmetrics).
+Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html).
 
 Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métricas calculadas.
 
