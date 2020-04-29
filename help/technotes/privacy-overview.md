@@ -4,7 +4,7 @@ keywords: privacy
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/pt_BR/reference/index.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
