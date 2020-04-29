@@ -2,7 +2,7 @@
 title: Configurar uma conta publicitária
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
 
 ![](assets/aa_accounts.png)
 
-1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
+1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. (Somente para primeiro uso) Aceite os termos do Contrato de Licença do Usuário Final.
-1. Clique em **[!UICONTROL + Adicionar]**.
-1. A caixa de diálogo [!UICONTROL Nova conta de mecanismo de pesquisa] é exibida:
+1. Clique em **[!UICONTROL + Add]**.
+1. A caixa de [!UICONTROL New Search Engine Account] diálogo é exibida:
 
    ![](assets/aa_new_se_account.png)
 
-1. Preencha as **[!UICONTROL Configurações do mecanismo de pesquisa]** seguindo as instruções a seguir:
+1. Preencha as **[!UICONTROL Search Engine Settings]** seguintes diretrizes:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,8 +54,8 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
     </tbody> 
     </table>
 
-1. Na seção **[!UICONTROL Rastreamento]**, forneça informações sobre como os dados do Mecanismo de pesquisa são monitorados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
-Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instruções a seguir:
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
+Preencha as **[!UICONTROL Tracking Settings]** seguintes diretrizes:
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -80,13 +80,13 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
     </tbody> 
     </table>
 
-1. Na seção **[!UICONTROL Mapeamento]**, selecione quais conjuntos de relatórios vincular a esta conta de mecanismo de pesquisa. É necessário fornecer pelo menos um conjunto de relatórios antes de poder salvar a conta publicitária. É possível mapear várias contas a diversos conjuntos de relatórios (1:1, 1:Vários, Vários:Vários). Observe que os dados acessados pelo AMO do mecanismo de pesquisa são copiados para qualquer conjunto de relatório, de maneira que não há separação de dados.
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. É necessário fornecer pelo menos um conjunto de relatórios antes de poder salvar a conta publicitária. É possível mapear várias contas a diversos conjuntos de relatórios (1:1, 1:Vários, Vários:Vários). Observe que os dados acessados pelo AMO do mecanismo de pesquisa são copiados para qualquer conjunto de relatório, de maneira que não há separação de dados.
 
    >[!IMPORTANT]
    >
-   >Somente conjuntos de relatórios que foram [mapeados para uma organização da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) estarão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Somente conjuntos de relatórios que foram [mapeados para uma organização da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html) estarão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Para as **[!UICONTROL Configurações de mapeamento]** que seguem essas instruções:
+   Para as **[!UICONTROL Mapping Settings]** seguintes orientações:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -98,12 +98,12 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Conjunto de relatórios  Mapeamento </p> </td> 
-      <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
+      <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 1. Depois de salvar, um aviso de isenção de responsabilidade exibe uma lista de advertências. É solicitado que confirme que leu e entendeu este contrato. Clique na caixa de seleção, em seguida em **[!UICONTROL OK]**.
 
    Agora você é encaminhado para a [interface do usuário de gerenciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) das contas publicitárias, onde sua conta recém-criada deve estar listada.
