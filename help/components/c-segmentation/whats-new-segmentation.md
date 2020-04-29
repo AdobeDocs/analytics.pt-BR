@@ -3,7 +3,7 @@ description: Novos recursos da Segmentação do Adobe Analytics.
 title: Novidades na Segmentação do Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Novos recursos da Segmentação do Adobe Analytics.
    <td colname="col2"> <p>Em uma cláusula "dentro", entre instruções ENTÃO, é possível adicionar, por exemplo, "dentro de uma instância de palavra-chave de pesquisa", "dentro de uma instância eVar 47". Isso restringe o segmento a uma instância de uma dimensão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/fallout_flow.html"  >use segmentos na análise de Fallout </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >use segmentos na análise de Fallout </a> </p> </td> 
    <td colname="col2"> <p>Crie segmentos a partir de um ponto de contato, adicione segmentos como pontos de contato e compare fluxos de trabalho importantes em vários segmentos na Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Comparação de segmentos </p> </td> 
-   <td colname="col2"> <p> O painel <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/segment-comparison.html"  >Comparação de segmentos</a> (QI de segmento) da Analysis Workspace permite aos clientes comparar dois segmentos do Analytics para encontrar as diferenças mais relevantes entre eles em todos os pontos de dados. </p> </td> 
+   <td colname="col2"> <p> O painel <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >Comparação de segmentos</a> (QI de segmento) da Analysis Workspace permite aos clientes comparar dois segmentos do Analytics para encontrar as diferenças mais relevantes entre eles em todos os pontos de dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Permissão <span class="wintitle">Criar segmento</span> </p> </td> 
-   <td colname="col2"> <p>Caso o usuário não tenha a <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html"  >permissão Criar segmento</a>, não será mais capaz de acessar o Construtor de segmentos. </p> </td> 
+   <td colname="col2"> <p>Caso o usuário não tenha a <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html"  >permissão Criar segmento</a>, não será mais capaz de acessar o Construtor de segmentos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Novos recursos da Segmentação do Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alterações de permissão no Criador de segmentos </p> </td> 
-   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html"  > Mais...</a> </p> </td> 
+   <td colname="col2"> <p>O usuário administrador tem poder para limitar quais usuários podem criar novos segmentos. Por padrão, todos os usuários podem criar segmentos. <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html"  > Mais...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
