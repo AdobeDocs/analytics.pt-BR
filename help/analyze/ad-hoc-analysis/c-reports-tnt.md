@@ -4,7 +4,7 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,4 +25,4 @@ São exemplos:
 
 Você pode aproveitar os dados no Reports and Analytics para detalhar as experiências do Target utilizando detalhamentos e detectar segmentos de alto desempenho ideais para testes futuros e campanhas potencialmente direcionadas. Os Reports and Analytics exibem dados de conversão em vez de dados de conversão do Target.
 
-Consulte o sistema de ajuda do [Adobe Target](https://marketing.adobe.com/resources/help/pt_BR/target/) para obter mais informações.
+Consulte o sistema de ajuda do [Adobe Target](https://docs.adobe.com/content/help/pt-BR/target/using/target-home.html) para obter mais informações.
