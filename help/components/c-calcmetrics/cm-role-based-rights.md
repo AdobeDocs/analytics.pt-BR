@@ -3,7 +3,7 @@ description: Os direitos das métricas calculadas são diferentes para usuários
 title: 'Métricas calculadas: direitos baseados em função'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
-   <td colname="col02"> Os administradores podem criar métricas calculadas e <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/groups.html"  >grupos</a> para limitar os direitos do usuário de criar métricas calculadas. </td> 
+   <td colname="col02"> Os administradores podem criar métricas calculadas e <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html"  >grupos</a> para limitar os direitos do usuário de criar métricas calculadas. </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e aquelas compartilhadas com eles. </p> </td> 
    <td colname="col4"> Podem aprovar métricas calculadas como canônicas. </td> 
