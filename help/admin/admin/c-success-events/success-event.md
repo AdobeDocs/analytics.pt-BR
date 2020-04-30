@@ -5,7 +5,7 @@ title: Visão geral dos eventos bem-sucedidos
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ Acesse a página Eventos bem-sucedidos nas configurações do conjunto de relat�
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navegue até [!UICONTROL Admin] > [!UICONTROL Conjuntos de relatórios]
-4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > Eventos [!UICONTROL de]sucesso.
-5. Localize o evento desejado e modifique a lista suspensa Gravação [!UICONTROL de Evento] único para [!UICONTROL Gravar uma vez por visita] ou [!UICONTROL Usar ID]de Evento.
+3. Navegue até [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
+5. Localize o evento desejado e modifique a lista [!UICONTROL Unique Event Recording] suspensa para [!UICONTROL Record Once Per Visit] ou [!UICONTROL Use Event ID].
 
 Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
 
@@ -32,11 +32,11 @@ Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vár
 * **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulário, solicitações de suporte
 * **Automotivo**: submissão de cliente em potencial, solicitação de cotação, download de panfleto
 
-A variável [s.events](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/events.html) define um evento bem-sucedido.
+A variável [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
 
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos bem-sucedidos]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1000 funcionam somente no código H22 ou superior.
 
