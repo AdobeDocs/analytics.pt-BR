@@ -5,7 +5,7 @@ title: Visita
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Uma visita não precisa necessariamente coincidir com uma sessão de navegador. 
 
 Quando uma visita termina, todas as variáveis com uma expiração de visita expiram e não continuam. A métrica de número de visitas sofrerá aumento na próxima visita do visitante.
 
->[!NOTE] Se estiver utilizando o Analytics como fonte de relatório do Adobe, consulte [Redução de visitas aumentadas e contagem de visitantes no A4T](https://marketing.adobe.com/resources/help/pt_BR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) na documentação do [!DNL Target].
+>[!NOTE] Se estiver utilizando o Analytics como fonte de relatório do Adobe, consulte [Redução de visitas aumentadas e contagem de visitantes no A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) na documentação do [!DNL Target].
 
-Para obter mais informações, consulte [Identificação de visitantes únicos](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/visid_overview.html) No Guia de implementação do Adobe Analytics.
+Para obter mais informações, consulte [Identificação de visitantes únicos](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/visitor-identification.html) No Guia de implementação do Adobe Analytics.
 
 **Períodos de tempo**
 
