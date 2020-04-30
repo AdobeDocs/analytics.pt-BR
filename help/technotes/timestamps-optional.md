@@ -5,7 +5,7 @@ title: Usar Carimbos opcionais de data e hora
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Carimbos opcionais de data e hora é uma configuração padrão para todos os co
 
 >[!NOTE] Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
 
-Consulte [Carimbos opcionais de data e hora](https://marketing.adobe.com/resources/help/pt_BR/reference/timestamp-optional.html) para mais informações sobre a configuração.
+Consulte [Carimbos opcionais de data e hora](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/timestamp-optional.html) para mais informações sobre a configuração.
 
 ## Carimbos opcionais de data e hora: integração de dados com e sem carimbos de data e hora {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ A seguir podemos ver práticas recomendadas e alguns requisitos e restrições q
 
    Dados fora de ordem podem gerar um atraso na chegada dos dados da coleta de dados offline, um atraso na chegada das ocorrências ou em relógios mal ajustados em dispositivos móveis offline. Dados fora de ordem podem prejudicar os cálculos de tempo (como os valores de tempo gasto), as atribuições (persistência de eVar), o número/a contagem de visitas e os relatórios de definição de caminho.
 
-* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/visid_custom.html). Eles podem fazer com que os dados fiquem fora de ordem.
+* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/visitor-identification.html). Eles podem fazer com que os dados fiquem fora de ordem.
 
 * Aplicativos híbridos compostos de um aplicativo (com carimbos de data e hora, dados offline) que abrem um navegador da Web (dados ativos, sem carimbos de data e hora) não devem usar carimbos de data e hora. Eles resultam em relatórios imprecisos da sessão.
 
