@@ -4,7 +4,7 @@ title: 'Taxa de rejeição '
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ A Taxa de rejeição não inclui visitas em que ocorrem várias ações em uma m
 
 >[!NOTE] Às vezes, as implementações atuais podem conter uma métrica calculada que difere da métrica padrão do Analytics. Verifique a definição de métrica calculada para verificar se não há diferenças.
 
-Consulte este [artigo da Knowledge base](https://marketing.adobe.com/resources/help/pt_BR/home/index.html#kb-analytics-comparing-bounces-and-single-access) para obter mais informações.
+Consulte este [artigo da Knowledge base](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html) para obter mais informações.
