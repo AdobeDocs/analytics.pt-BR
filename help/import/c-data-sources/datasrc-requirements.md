@@ -5,7 +5,7 @@ title: Requisitos e limites de upload
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ As Fontes de Dados oferecem suporte para codificação de múltiplos bytes. As F
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/new_report_suite.html"  >Novo conjunto de relatórios</a> em Ajuda </p> </td> 
+   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Novo conjunto de relatórios</a> em Ajuda </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 com Byte Order Mark (EF BB BF) </td> 
