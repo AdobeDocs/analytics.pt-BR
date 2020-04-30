@@ -3,7 +3,7 @@ description: 'null'
 title: Executar análise de contribuição
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,9 +35,9 @@ Há duas maneiras de invocar a análise de contribuição em um projeto:
 
    * Uma visualização que mostra o número de **Visitas** no dia.
    * Uma **linha de Tendência de visitas** mensal para contexto.
-   * Os **Itens principais** que contribuíram para esta anomalia, classificados por [pontuação de contribuição](https://marketing.adobe.com/resources/help/pt_BR/analytics/contribution/ca_contribution_score.html), mais a métrica em questão e uma métrica de Visitantes exclusivos para colocar a métrica no contexto de uma perspectiva de dimensionamento.
+   * Os **Itens principais** que contribuíram para esta anomalia, classificados por [pontuação de contribuição](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), mais a métrica em questão e uma métrica de Visitantes exclusivos para colocar a métrica no contexto de uma perspectiva de dimensionamento.
 
-   * A tabela [Segmentos gerados](https://marketing.adobe.com/resources/help/pt_BR/analytics/contribution/ca_workflow_premium.html) (Grupos de itens principais) identifica associações dos itens principais com base na Pontuação de contribuição, nas ocorrências de anomalias e no percentual geral que contribuiu para a métrica anômala. Isso é então capturado como um segmento de público-alvo (Segmento de contribuição 1, Segmento de contribuição 2, etc.). Clicar no botão “i” (informações) fornecerá uma exibição da definição de cada segmento automático, incluindo os itens principais que os constituem:
+   * A tabela [Segmentos gerados](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Grupos de itens principais) identifica associações dos itens principais com base na Pontuação de contribuição, nas ocorrências de anomalias e no percentual geral que contribuiu para a métrica anômala. Isso é então capturado como um segmento de público-alvo (Segmento de contribuição 1, Segmento de contribuição 2, etc.). Clicar no botão “i” (informações) fornecerá uma exibição da definição de cada segmento automático, incluindo os itens principais que os constituem:
 
       ![](assets/auto_segment.png)
 
