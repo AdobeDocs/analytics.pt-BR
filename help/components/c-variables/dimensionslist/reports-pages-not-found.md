@@ -4,7 +4,7 @@ title: Páginas não encontradas
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Ajuda a identificar página com links quebrados e a medir o tráfego de páginas
 
 **Propriedades**
 
-* Esse relatório refere-se aos dados diretamente da variável [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) implementada em seu site.
+* Esse relatório refere-se aos dados diretamente da variável [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) implementada em seu site.
 * Este relatório pode ser visualizado nos formatos de tendência e classificado.
 * Clicar no ícone da lupa mostra os principais referenciadores dessa página específica.
 
