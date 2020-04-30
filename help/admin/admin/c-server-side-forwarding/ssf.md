@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Visão geral do encaminhamento pelo lado do servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -30,12 +30,12 @@ Para entender onde sua organização está em termos de implementação do encam
 
 ## ![step1_icon.png imagem](assets/step1_icon.png) Verificar implementação do serviço ECID
 
-Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://marketing.adobe.com/resources/help/pt_BR/mcvid/mcvid-test-verify.html).
+Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html).
 
 Na guia Solicitação, verifique se um valor de ECID está definido. Isso indica que o Serviço de identidade está implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
 
 * Se você encontrar um valor ECID, avance para a etapa 2.
-* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://marketing.adobe.com/resources/help/pt_BR/mcvid/mcvid-implementation-guides.html) antes de prosseguir para a etapa 2.
+* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) antes de prosseguir para a etapa 2.
 
 ## ![step2_icon.png imagem](assets/step2_icon.png) Verificar a versão de implementação do encaminhamento pelo lado do servidor
 
@@ -49,9 +49,9 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 
    * **Clientes AAM com DIL**: coordene os seguintes 2 itens em uma conjunção próxima:
 
-      1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Ative o encaminhamento pelo lado do servidor na interface do usuário do Analytics, conforme descrito na etapa 3. Habilitar esta configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor cobradas adicionais no Audience Manager.
-   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
+   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 
 ## ![step3_icon.png imagem](assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
@@ -66,5 +66,5 @@ Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (sel
 * **Desabilitada**: você não possui o novo encaminhamento pelo lado do servidor ativado. Leia o conteúdo na página e prossiga com a ativação do recurso.
 * **Habilitada:** você está provisionado para o novo encaminhamento pelo lado do servidor. Você também pode configurar esta integração do Audience Analytics.
 
->[!NOTE] Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/aam-home.translate.html) ou [Públicos-alvo](https://marketing.adobe.com/resources/help/pt_BR/mcloud/audience_library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
+>[!NOTE] Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/aam-home.html) ou [Públicos-alvo](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
 
