@@ -4,7 +4,7 @@ title: Relatórios de métricas do site
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Exibe informações quantitativas sobre o seu site, como quantas vezes os visita
 
 Relatórios de métrica são   tendência ao longo do tempo. Você pode aplicar granularidade de tempo e dia da semana nesses relatórios. Como alternativa, você pode analisar o tempo gasto no seu site, as compras, a receita e métricas similares.
 
-Os relatórios de métricas do site a seguir estão disponíveis no menu [!UICONTROL Métricas do site].
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## Relatório de exibições de página {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). Uma [!UICONTROL Exibição de página] é uma solicitação de um documento de página inteira, em vez de um elemento de uma página, como uma imagem ou vídeo. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas. Este relatório permite que você acompanhe as visualizações de páginas para cada página no seu site, bem como um agregado de exibições de página do site inteiro.
+Um relatório de tendências que exibe o número de vezes em que as páginas do site foram visualizadas durante o intervalo selecionado (hora, dia, semana, mês, trimestre ou ano). A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. Por exemplo, se um único visitante visualiza 15 páginas durante uma visita, isso é contado como 15 exibições de página. Se um usuário visita a mesma página três vezes durante uma visita, três visualizações de páginas são contadas. Este relatório permite que você acompanhe as visualizações de páginas para cada página no seu site, bem como um agregado de exibições de página do site inteiro.
 
 ## Relatório de visitas {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +41,7 @@ c_reports_visits.xml
 
  -->
 
-Em relatórios e análises de marketing, você pode executar um [!UICONTROL Relatório de visitas] em uma página selecionada. Na Ad Hoc Analysis, você pode fazer a segmentação dos dados para visualizar páginas específicas.
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. Na Ad Hoc Analysis, você pode fazer a segmentação dos dados para visualizar páginas específicas.
 
 ## Relatório de visitantes únicos {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +69,7 @@ c_reports_visitors.xml
 
  -->
 
-O valor total apresentado na parte inferior da tabela do relatório é a soma de todas as visitas para o período especificado e nem sempre reflete o número de visitantes únicos. Por exemplo, se você executar um [!UICONTROL relatório de visitantes únicos diários] com um intervalo de vários dias, o total pode incluir visitantes recorrentes, pois o mesmo visitante pode retornar no dia seguinte e ser contado novamente. Entretanto, se você executar um [!UICONTROL relatório de visitantes únicos mensais], o valor da coluna Totais reflete com precisão quantos visitantes únicos acessaram o site durante o mês.
+O valor total apresentado na parte inferior da tabela do relatório é a soma de todas as visitas para o período especificado e nem sempre reflete o número de visitantes únicos. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## Relatório de tempo de permanência por visita {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +112,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-Você pode utilizar o [!UICONTROL Relatório do carrinho de compras] para:
+Você pode usar o [!UICONTROL Carts Report] para:
 
 * Determinar padrões, altos ou baixos no número de carrinhos abertos no site.
 * Examinar períodos de tempo específicos saber mais informações sobre as métricas que, especificamente, contribuíram para a abertura do carrinho.
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. Um relatório de [!UICONTROL Evento personalizado] pode ser usado como um contador que mostrar o número de vezes que um evento ocorre. Por exemplo, se **[!UICONTROL event1]** estiver definido para contar o número de vezes em que um documento é baixado, o relatório de [!UICONTROL eventos personalizados] para o Evento 1 mostra o número total de vezes em que o evento (ou download) ocorreu. Você pode ter diversos relatórios de eventos personalizados.
+Como cada conjunto de relatórios é diferente, este conjunto de relatórios é usado de maneira diferente para cada cliente. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. Você pode ter diversos relatórios de eventos personalizados.
 
 ## Relatórios de conversão {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe as métricas que mostram dados sobre um canal específico de primeiro ou de último contato. Nesses relatórios, é possível decompor canais e mostrar os detalhes de cada um. Se o AdLens estiver ativado, você verá classificações em seus relatórios de canal de relatórios e análises de marketing.
+**[!UICONTROL First or Last Touch Channel Report]**: Exibe as métricas mostrando dados sobre um canal de primeiro ou último toque específico. Nesses relatórios, é possível decompor canais e mostrar os detalhes de cada um. Se o AdLens estiver ativado, você verá classificações em seus relatórios de canal de relatórios e análises de marketing.
 
-**[!UICONTROL Relatório de primeiro ou de último contato]**: exibe detalhes como nomes de páginas e referenciadores, que são coletados dos valores do canal que você configurou na opção &quot;[!UICONTROL Definir o valor do canal para]&quot; ao configurar as regras. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
+**[!UICONTROL First or Last Touch Channel Detail Reports]**: Exibe detalhes como nomes de página e quens indicou, que são obtidos dos valores de canal que você configurou na [!UICONTROL Set the channel's value to] opção ao configurar regras. Os Relatórios de detalhes do canal permitem examinar detalhadamente os valores de detalhes do relatório de visão geral.
 
-Para obter informações mais detalhadas sobre a configuração de canais de marketing em relatórios e análises de marketing, consulte o sistema de [Ajuda de canais de marketing](https://marketing.adobe.com/resources/help/pt_BR/mchannel/index.html).
+Para obter informações mais detalhadas sobre a configuração de canais de marketing em relatórios e análises de marketing, consulte o sistema de [Ajuda de canais de marketing](/help/components/c-marketing-channels/analyze-mc.md).
