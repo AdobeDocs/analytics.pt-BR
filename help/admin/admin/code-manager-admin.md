@@ -4,7 +4,7 @@ title: Gerenciador de código
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciador de código]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
 Após baixar a biblioteca, você deve configurar o código para enviar os dados ao servidor de rastreamento e conjunto de relatórios corretos. Recursos adicionais de implementação estão disponíveis no guia de usuário [Implementar](/help/implement/home.md).
 
@@ -21,7 +21,7 @@ Após baixar a biblioteca, você deve configurar o código para enviar os dados 
 
 | Coluna | Descrição |
 |--- |--- |
-| [!UICONTROL Nome] | O nome é compatível com a plataforma na qual você deseja habilitar a coleção de dados. São oferecidas bibliotecas nativas para todas as plataformas listadas nesta coluna. |
-| [!UICONTROL Tipo] | Tipo de aplicativos que podem ser medidos usando todas as bibliotecas. |
-| [!UICONTROL Versão] | Liste a última versão da biblioteca. Clique no número de versão para exibir o [histórico de versões](https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/release/). |
-| [!UICONTROL Documentação] | Exibir a documentação de consulta da biblioteca. |
+| [!UICONTROL Name] | O nome é compatível com a plataforma na qual você deseja habilitar a coleção de dados. São oferecidas bibliotecas nativas para todas as plataformas listadas nesta coluna. |
+| [!UICONTROL Type] | Tipo de aplicativos que podem ser medidos usando todas as bibliotecas. |
+| [!UICONTROL Version] | Liste a última versão da biblioteca. Clique no número de versão para exibir o [histórico de versões](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Documentation] | Exibir a documentação de consulta da biblioteca. |
