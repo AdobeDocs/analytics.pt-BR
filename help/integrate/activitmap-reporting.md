@@ -4,7 +4,7 @@ title: Relatórios do Activity Map
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Etapas administrativas para ativar os relatórios do Activity Map no Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Relatórios do Activity Map]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
 Permite que o Analytics colete a atividade do usuário obtida do Activity Map (antigo ClickMap). Essa integração
 
 * Ativa os relatórios no Analytics.
-* Adiciona novos relatórios em **[!UICONTROL Exibir todos os relatórios]** > **[!UICONTROL Activity Map:]**
+* Adiciona novos relatórios em **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
 
    | Relatório | Descrição |
    |---|---|
@@ -27,4 +27,4 @@ Permite que o Analytics colete a atividade do usuário obtida do Activity Map (a
    | Links do Activity Map | Lista todos os links coletados em todo o site. |
    | Links e região do Activity Map | Lista todos os links coletados com sua região em todo o site. |
 
-Para que os dados sejam preenchidos, consulte a [documentação do Activity Map](https://marketing.adobe.com/resources/help/pt_BR/analytics/activitymap/) para obter instruções completas de implementação.
+Para que os dados sejam preenchidos, consulte a [documentação do Activity Map](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/activity-map/activity-map.html) para obter instruções completas de implementação.
