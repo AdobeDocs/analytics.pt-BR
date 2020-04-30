@@ -3,7 +3,7 @@ description: Algumas métricas de visitante do Adobe Analytics e do Adobe Audien
 title: Diferenças na contagem de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,11 +23,11 @@ As métricas de visitante são:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento total de segmentos</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento total de segmentos</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento e acessaram suas propriedades durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
