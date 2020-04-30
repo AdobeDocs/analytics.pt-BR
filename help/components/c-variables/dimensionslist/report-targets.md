@@ -3,7 +3,7 @@ description: Os relatórios de metas permitem medir o desempenho do site e acomp
 title: Metas
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,10 +16,10 @@ Os relatórios de metas permitem medir o desempenho do site e acompanhar o progr
 >
 >Esses relatórios não devem ser confundidos com o relatório do Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18).
 
-Para acessar os relatórios de Metas, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Metas]** > **[!UICONTROL [o nome da meta]]**
+To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[your target name]]**
 
-Ao [criar metas](https://marketing.adobe.com/resources/help/pt_BR/sc/user/targets.html), você seleciona quais métricas de atributo ou eVars você quer medir, ou você pode optar por medir o seu site inteiro junto à métrica selecionada.
+Ao [criar metas](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html), você seleciona quais métricas de atributo ou eVars você quer medir, ou você pode optar por medir o seu site inteiro junto à métrica selecionada.
 
 O relatório exibe o total cumulativo da métrica especificada e a diferença entre esse total e a meta definida ao configurar o relatório.
 
-Além disso, é possível gerenciar as metas em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
+Você também pode gerenciar seus públicos alvos em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
