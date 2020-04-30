@@ -5,7 +5,7 @@ title: Visão geral da implementação do DTM
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Use o Dynamic Tag Management para gerenciar tags e coletar e distribuir dados nos sistemas de marketing digital. O Dynamic Tag Management fornece uma única camada de dados que envia dados de várias fontes. O Dynamic Tag Management também permite a entrega responsiva de conteúdo específico para o usuário.
 
-Esta seção de ajuda fornece informações específicas sobre como usar o Dynamic Tag Management para implementar o Adobe Analytics. Para obter informações mais detalhadas sobre o Dynamic Tag Management, consulte [a documentação do produto do Dynamic Tag Management](https://marketing.adobe.com/resources/help/pt_BR/dtm/). Para obter informações sobre como acessar o DTM e sobre tarefas comuns ao começar a usar o DTM, consulte [Introdução](https://marketing.adobe.com/resources/help/pt_BR/dtm/get_started.html) na documentação do produto do Dynamic Tag Management.
+Esta seção de ajuda fornece informações específicas sobre como usar o Dynamic Tag Management para implementar o Adobe Analytics. Para obter informações mais detalhadas sobre o Dynamic Tag Management, consulte [a documentação do produto do Dynamic Tag Management](https://docs.adobe.com/content/help/pt-BR/dtm/using/dtm-home.html). Para obter informações sobre como acessar o DTM e sobre tarefas comuns ao começar a usar o DTM, consulte [Introdução](https://docs.adobe.com/content/help/en/dtm/using/getting-started/get-started.html) na documentação do produto do Dynamic Tag Management.
 
-Para obter um resumo detalhado das etapas de implementação do Dynamic Tag Management, consulte [Implantar o Adobe Analytics usando o Dynamic Tag Management](https://marketing.adobe.com/resources/help/pt_BR/analytics/getting-started/?f=add-adobe-analytics-dtm-tool.html) em Introdução no Adobe Analytics.
+Para obter um resumo detalhado das etapas de implementação do Dynamic Tag Management, consulte [Implantar o Adobe Analytics usando o Dynamic Tag Management](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/dtm-implementation-overview.html) em Introdução no Adobe Analytics.
 
 ## Visão geral das etapas da implementação {#section_D0BBB82486F44699AC7FF5E76E27434C}
 
