@@ -3,7 +3,7 @@ description: A separação de tempo coleta o carimbo de data e hora de ocorrênc
 title: Dimensões de separação de tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ As dimensões de separação de tempo são baseadas no fuso horário do conjunto
 * Como minhas vendas de fim de semana se comparam com as da semana?
 * Determinada campanha de marketing gera conversões maiores pela manhã ou à tarde?
 
->[!NOTE] As dimensões de separação de tempo só estão disponíveis no Analysis Workspace. Para usar dimensões de separação de tempo em outras soluções do Analysis Workspace, é possível implementar o [plug-in getTimeParting](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/getTimeParting.html).
+>[!NOTE] As dimensões de separação de tempo só estão disponíveis no Analysis Workspace. Para usar dimensões de separação de tempo em outras soluções do Analysis Workspace, é possível implementar o [plug-in getTimeParting](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
 
 As dimensões de separação de tempo no Analysis Workspace incluem:
 
