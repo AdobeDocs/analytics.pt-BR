@@ -4,7 +4,7 @@ title: Construir segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,14 +13,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 A Ad Hoc Analysis é integrada ao ambiente de Segmentação de análise, de modo que você possa compartilhar, gerenciar e aplicar os segmentos de visitantes nos produtos da Adobe. A Ad Hoc Analysis oferece uma interface de usuário baseada em Java para o Construtor de segmentos e para o Gerenciador de segmentos que é idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, adaptando-se às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
 
-A Ad Hoc Analysis inclui recursos já conhecidos para a criação de segmentos e novas atualizações de recursos, como o [Gerenciador de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_manage.html), usado para configurar um [fluxo de trabalho](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_workflow.html) do gerenciamento de segmentos. Como sempre, você pode criar e salvar segmentos no [Construtor de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_build.html) ou [gerar segmentos a partir de um relatório de Fallout](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/t_seg_fallout.html) do console de Ad Hoc Analysis e depois salvar os segmentos novos ou estendidos na biblioteca de público-alvo para aplicativos e acessos gerais.  ![](assets/seg__overview_ad_hoc.png)
+A Ad Hoc Analysis inclui recursos já conhecidos para a criação de segmentos e novas atualizações de recursos, como o [Gerenciador de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html), usado para configurar um [fluxo de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) do gerenciamento de segmentos. Como sempre, você pode criar e salvar segmentos no [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ou [gerar segmentos a partir de um relatório de Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) do console de Ad Hoc Analysis e depois salvar os segmentos novos ou estendidos na biblioteca de público-alvo para aplicativos e acessos gerais.  ![](assets/seg__overview_ad_hoc.png)
 
 ## Segmentação Unificada na Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Para obter informações e instruções sobre como criar e gerenciar segmentos no ambiente de Segmentação Unificada, incluindo recursos da análise ad hoc, consulte a documentação da [Segmentação Unificada](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/index.html).
+Para obter informações e instruções sobre como criar e gerenciar segmentos no ambiente de Segmentação Unificada, incluindo recursos da análise ad hoc, consulte a documentação da [Segmentação Unificada](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md).
 
 * [Novos recursos](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [Mudanças na definição dos segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_definition.html)
 * [O que aconteceu com meus segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [O que aconteceu com minhas pastas de segmento existentes? ](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Posso gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
@@ -33,28 +32,25 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 
 ## Recursos {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* Os [segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_overview.html) são universais para todos os conjuntos de relatórios. Anteriormente, os segmentos eram específicos ao conjunto de relatórios.
-* O [Gerenciador de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_manage.html) permite que você configure [fluxos de trabalho](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_workflow.html) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
+* Os [segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) são universais para todos os conjuntos de relatórios. Anteriormente, os segmentos eram específicos ao conjunto de relatórios.
+* O [Gerenciador de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) permite que você configure [fluxos de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
+* O [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) foi atualizado para simplificar a criação de segmentos.
+* Você pode [adicionar tags a segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL ad hoc analysis]) para organizar os segmentos.
+* Você pode criar [Segmentos sequenciais](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) fora da Ad Hoc Analysis.
 
-* O [Construtor de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_build_ui.html) foi atualizado para simplificar a criação de segmentos.
-* Você pode [adicionar tags a segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_tag.html) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL ad hoc analysis]) para organizar os segmentos.
-
-* Você pode criar [Segmentos sequenciais](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_sequential.html) fora da Ad Hoc Analysis.
-* 
-
->[!NOTE]
->
->Na Ad Hoc Analysis, não é possível adicionar intervalos de datas a segmentos. Esse recurso está disponível na Analysis Workspace. Além disso, não é possível usar a sequência Somente Antes/Somente depois na Ad Hoc Analysis.
+   >[!NOTE]
+   >
+   >Na Ad Hoc Analysis, não é possível adicionar intervalos de datas a segmentos. Esse recurso está disponível na Analysis Workspace. Além disso, não é possível usar a sequência Somente Antes/Somente depois na Ad Hoc Analysis.
 
 ## O que aconteceu com meus segmentos existentes? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-Seus segmentos existentes continuarão a funcionar da mesma maneira que faziam antes da introdução da Segmentação do Analytics. Todos os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
+Seus segmentos existentes continuarão a funcionar da mesma maneira que faziam antes da introdução da Segmentação do Analytics. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente.
 
-Os segmentos do conjunto e os pré-definidos mais antigos serão migrados como [modelos de segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_templates.html) no construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
+A maioria dos segmentos de conjunto e pré-definidos mais antigos serão migrados como modelos de segmentos no construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
 
 ## O que aconteceu com minhas pastas de segmento existentes?   {#section_FB04DCF775694E69B761DCA53F301C30}
 
-Em vez de pastas (Ad Hoc Analysis), o Gerenciador de segmentos usa [tags](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_tag.html). Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
+Em vez de pastas (Ad Hoc Analysis), o Gerenciador de segmentos usa [tags](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html). Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
 
 ## É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?   {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
@@ -70,7 +66,7 @@ Observe que não ocorreu uma alteração na forma como esse contêiner funciona;
 
 Todos os usuários podem criar e editar segmentos pessoais. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
-Os administradores podem editar e [compartilhar segmentos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/t_seg_share.html) com grupos e [definir os direitos](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_rights.html) de acesso da organização aos segmentos.
+Os administradores podem editar e [compartilhar segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) com grupos e [definir os direitos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html) de acesso da organização aos segmentos.
 
 ## O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -89,7 +85,7 @@ Uma vez que os segmentos funcionam em vários conjuntos de relatórios, você po
 
 ## Por que não posso excluir esse segmento? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/t_publish_audience_segment.html), você não pode excluí-lo ou editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
+Se o segmento foi [publicado na Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/t-publish-audience-segment.html), você não pode excluí-lo ou editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
 
 ## Mais informações sobre o que acontece com os segmentos existentes   {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -114,7 +110,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visitantes da pesquisa paga </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visitantes com cookie de ID do visitante </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Esses segmentos serão migrados como <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_templates.html"  >modelos de segmentos</a> no construtor de segmentos. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
+   <td colname="col2"> <p>Esses segmentos serão transferidos como modelos de segmento no construtor de segmentos. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos da Experience Cloud (Suite): 
@@ -127,7 +123,7 @@ Se o segmento foi [publicado na Experience Cloud](https://marketing.adobe.com/re
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visitas com mais de cinco visitas anteriores* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visitas do Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> A maioria desses segmentos (exceto os marcados com um asterisco *) será migrada como <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_templates.html"  >modelos de segmentos</a> no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
+   <td colname="col2"> <p> A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados. </p> <p>Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos do administrador <p>(também conhecidos como segmentos "Globais") </p> </td> 
