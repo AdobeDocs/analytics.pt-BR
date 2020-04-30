@@ -4,7 +4,7 @@ title: Configurar uma solicitação em tempo real
 topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Estas etapas descrevem como configurar datas de solicitação em tempo real.
 
-1. Certifique-se de que o relatório em tempo real está habilitado nas [Ferramentas do Administrador](https://marketing.adobe.com/resources/help/en_US/reference/real_time_admin.html) em Relatórios e análises de marketing.
+1. Certifique-se de que o relatório em tempo real está habilitado nas [Ferramentas do Administrador](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) em Relatórios e análises de marketing.
 1. Em [!UICONTROL Request Wizard: Step 1], clique em **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
    Por exemplo, selecione um Relatório de tráfego. When you select a real-time report type, the [!UICONTROL Select Time Range] options display.
