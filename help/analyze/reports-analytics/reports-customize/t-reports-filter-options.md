@@ -4,7 +4,7 @@ title: Filtro de dados de relatório
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso op
 
 **Não contém**
 
-Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://marketing.adobe.com/resources/help/pt_BR/reference/none-unspecified-unknown-other.html) de relatórios que usam &quot;não contém&quot;.
+Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) de relatórios que usam &quot;não contém&quot;.
 
 Não contém: `none`
 
