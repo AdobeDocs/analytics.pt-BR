@@ -3,7 +3,7 @@ description: Use o Assistente de configuração do Data Connectors da Adobe para
 title: Ativar a integração
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 
-1. Inicie o [Data Connectors](https://marketing.adobe.com/resources/help/pt_BR/genesis/c_overview.html) e clique em **[!UICONTROL + Adicionar nova]** para [adicionar uma nova integração](https://marketing.adobe.com/resources/help/pt_BR/genesis/t_add_integration.html).
-1. Na lista **[!UICONTROL Exibir]**, selecione **[!UICONTROL Por nome]** e arraste a integração do [!DNL ~Parceiro~] para um slot de plug-in vazio.
+1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
 1. Complete o Assistente de integração usando as informações na tabela a seguir:
 
 | Campo | Descrição |
