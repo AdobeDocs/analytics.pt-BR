@@ -3,7 +3,7 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-fea
 
 * Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os Data Connectors incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, em uma base recorrente.
 
-**[API da inserção de dados](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**deve ser usada:
+**[API da inserção de dados](/help/import/c-data-insertion-api/c-data-insertion-api.md)**deve ser usada:
 
 * Quando você precisa fazer o upload de dados no Adobe Analytics e não pode usar o código do Adobe App Measurement ou do SDK para dispositivos móveis.
 
@@ -114,11 +114,11 @@ O **[Feed de dados do Analytics](/help/export/analytics-data-feed/c-df-contents/
 * Se o cliente quiser os dados da Adobe armazenados em um banco de dados do lado do cliente, no nível mais granular, eles poderão ser enviados.
 * Se o cliente quiser desenvolver uma ferramenta de Inteligência empresarial (BI, Business Intelligence) ou inserir dados da Adobe a nível de ocorrência em uma ferramenta de terceiros.
 
-As **[APIs de relatórios](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**devem ser usadas quando outras opções de visualização não atenderem às suas necessidades. As 3 opções de API incluem:
+As **[APIs de relatórios](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**devem ser usadas quando outras opções de visualização não atenderem às suas necessidades. As 3 opções de API incluem:
 
 * **Totalmente processada**: quando quiser dados ricos em recursos (inclusive visitas, visitantes e segmentos). Isso são dados resumidos, típicos da interface do usuário do Analytics, disponíveis dentro de 30 a 90 minutos. Podem ser usados por meio do Report Builder.
 * **Em tempo real**: quando quiser visualizar algumas métricas e dimensões com segundos de latência. Isso são dados limitados, parcialmente processados e resumidos, disponíveis dentro de 30 segundos. Inclui algoritmos exclusivos dos mais populares, ganhadores e perdedores. Podem ser usados por meio do Report Builder.
-* **[!UICONTROL Livestream]**: quando quiser um fluxo de dados a nível de ocorrência, parcialmente processado do Analytics em segundos de coleção. Isso são dados parcialmente processados, disponíveis dentro de 30 segundos. Disponível apenas no Analytics Premium. Requer alguma forma de visualizar os dados, geralmente por meio de uma participação nos serviços de engenharia.
+* **[!UICONTROL Live Stream]**: quando quiser um fluxo de dados a nível de ocorrência, parcialmente processados, do Analytics em segundos de coleção. Isso são dados parcialmente processados, disponíveis dentro de 30 segundos. Disponível apenas no Analytics Premium. Requer alguma forma de visualizar os dados, geralmente por meio de uma participação nos serviços de engenharia.
 
 ## Soluções personalizadas {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +131,4 @@ Os Serviços de engenharia devem ser usados quando:
 * Você tiver múltiplas fontes de dados.
 * Você possuir requisitos de dados ETL (Extract-Transform-Load) complexos.
 * Você quiser uma marca personalizada.
-* Você desejar visualizar o [!UICONTROL Analytics Live Stream].
+* Você quiser visualizar o [!UICONTROL Analytics Live Stream].
