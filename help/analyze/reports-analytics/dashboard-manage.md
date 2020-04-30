@@ -5,7 +5,7 @@ title: Gerenciador do painel
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Etapas que descrevem como usar as opções de gerenciamento de painel compartilh
 
 Os painéis legados existentes continuarão em execução, e você ainda poderá editar, baixar e agendar os painéis; entretanto, você não poderá mais criar novos painéis legados. É altamente recomendável atualizar os painéis legados existentes para o formato de painel mais recente.
 
->[!NOTE] Após a migração, considere a utilização de [projetos da Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/) e seus recursos de download e agendamento.
+>[!NOTE] Após a migração, considere a utilização de [projetos da Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) e seus recursos de download e agendamento.
 
 Ao copiar o painel legado, o sistema abre o painel para edição, onde você pode adicionar conteúdo legado ou novo conteúdo. Ao copiar um painel legado, o original é preservado em uma lista de painéis legados.
 
