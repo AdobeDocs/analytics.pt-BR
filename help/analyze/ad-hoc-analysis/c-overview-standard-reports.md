@@ -4,7 +4,7 @@ title: Visão geral dos relatórios
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Se você usar relatórios e análises de marketing, os tipos de relatórios e me
 
 **Relatórios de resumo**
 
-Inclui relatórios como o de [!UICONTROL Totais], que mostra os dados projetados para uma rápida visão geral. Eles são voltados para executivos que desejam ter uma visão geral dos dados.
+Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Eles são voltados para executivos que desejam ter uma visão geral dos dados.
 
 **Relatórios de conversão**
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte o [Gerente de campanha](https://marketing.adobe.com/resources/help/pt_BR/reference/campaign_manager_admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
+Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte a ajuda [do Console de](https://helpx.adobe.com/br/enterprise/using/admin-console.html) administração para obter mais informações.
 
 ## Cálculos estatísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ Os cálculos estatísticos padrão adicionais podem ser adicionados aos relatór
 
 **Para abrir os cálculos estatísticos para Relatórios classificados:**
 
-1. Selecione **[!UICONTROL Ferramentas]** > **[!UICONTROL Classificadas]** no menu.
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. Selecione **[!UICONTROL Configurações]**.
-1. Selecione **[!UICONTROL Estatísticas padrão]**.
+1. Selecionar **[!UICONTROL Settings]**.
+1. Selecionar **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL Ignorar os zeros em cálculos estatísticos]**. Selecione essa opção para ignorar os zeros e garantir que ao adicionar outra métrica, as médias já calculadas não serão alteradas. Todas as estatísticas foram afetadas por essa configuração (embora a soma não tenha sido afetada).
+**[!UICONTROL Ignore zeros in statistical calculations]**. Selecione essa opção para ignorar os zeros e garantir que ao adicionar outra métrica, as médias já calculadas não serão alteradas. Todas as estatísticas foram afetadas por essa configuração (embora a soma não tenha sido afetada).
 
 | Cálculo | Descrição |
 |--- |--- |
@@ -141,7 +141,7 @@ c_overlay_calculations.xml
 
  -->
 
-Em um relatório que identifica dados durante um período de tempo, o botão **[!UICONTROL Estatísticas]** permite que você selecione os cálculos que serão exibidos como sobreposições na linha de tempo do relatório.
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +149,7 @@ Além do padrão  [Nos Cálculos estatísticos](/help/analyze/ad-hoc-analysis/c-
 
 ## Gerenciador do grupo {#concept_E1433974A61144858E87334C006982B2}
 
-Em vez de utilizar uma única página em um relatório, é possível agrupar diversas páginas e usá-las como categorias para local de início, intermediário ou de destino nos relatórios [!UICONTROL Fallout] e de [!UICONTROL Análise do Site]. É possível editar grupos pelo menu principal ou de dentro do relatório. Categorias criadas em relatórios e análises de marketing também aparecem na lista [!UICONTROL Seletor de ponto de verificação].
+Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. É possível editar grupos pelo menu principal ou de dentro do relatório. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Gerenciador de grupos]**.
+Clique em **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
