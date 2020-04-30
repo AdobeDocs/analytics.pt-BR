@@ -3,7 +3,7 @@ description: O novo sistema de Alertas inteligentes permite um controle mais det
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,19 +25,19 @@ O novo Criador de alertas e o Gerenciador de alertas substituem a funcionalidade
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de uma só alerta.
 
-Os componentes do novo sistema de alertas incluem: o Criador de alertas, o Gerenciador de alertas, a Visualização de alertas e um melhor acesso ao contexto para criar alertas. A interface do usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos de alerta de legado [não estarão mais disponíveis](https://marketing.adobe.com/resources/help/pt_BR/sc/user/deprecated_alerts.html).
+Os componentes do novo sistema de alertas incluem: o Criador de alertas, o Gerenciador de alertas, a Visualização de alertas e um melhor acesso ao contexto para criar alertas. A interface do usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos de alerta de legado [não estarão mais disponíveis](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
 
 Há quatro maneiras de acessar o Criador de alertas:
 
 * Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Acessando diretamente o Criador de alertas: **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]** .
-* Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**. Isso abrirá o Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário.
+* Ir diretamente para o Criador de alertas:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
+* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Isso abrirá o Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário.
 
    ![](assets/create-alert-from-selection.png)
 
-* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**. Isso abrirá o novo Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir do relatório. Você pode editar o alerta, se necessário.
+* De dentro de um [!UICONTROL Reports & Analytics] relatório, indo até **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Isso abrirá o novo Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir do relatório. Você pode editar o alerta, se necessário.
 
    ![](assets/add-alert.png)
 
@@ -73,7 +73,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Posso obter uma tabela dos "valores esperados" que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
-   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95% e é semelhante à <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/anomaly.html"  ><span class="uicontrol">Detecção de anomalias do </span>Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95% e é semelhante à <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol">Detecção de anomalias do </span>Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
