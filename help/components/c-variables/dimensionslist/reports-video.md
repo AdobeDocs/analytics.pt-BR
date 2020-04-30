@@ -4,7 +4,7 @@ title: Vídeo
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,4 +44,4 @@ Exibe informações sobre as estatísticas de acesso à mídia online. Exibe dad
  </tbody> 
 </table>
 
-Consulte [Avaliação de áudio e vídeo no Adobe Analytics](https://marketing.adobe.com/resources/help/pt_BR/sc/appmeasurement/hbvideo/).
+Consulte [Avaliação de áudio e vídeo no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
