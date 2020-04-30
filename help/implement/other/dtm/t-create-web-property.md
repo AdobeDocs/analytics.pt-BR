@@ -5,7 +5,7 @@ title: Criar propriedade da Web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e subdomínios com uma biblioteca de regras incluída em um código de incorporação.
 
->[!NOTE] Somente um usuário com direitos de Administrador pode criar uma propriedade. Para obter mais informações sobre funções, consulte [Criar e gerenciar grupos no DTM](https://marketing.adobe.com/resources/help/pt_BR/dtm/groups.html) na Documentação de produto do Dynamic Tag Management.
+>[!NOTE] Somente um usuário com direitos de Administrador pode criar uma propriedade. Para obter mais informações sobre funções, consulte [Criar e gerenciar grupos no DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) na Documentação de produto do Dynamic Tag Management.
 
 É possível gerenciar e rastrear esses ativos da mesma maneira com o DTM. Por exemplo, suponhamos que você tenha vários sites baseados em um só modelo e queira rastrear os mesmos recursos em todos eles. É possível aplicar uma propriedade da Web a vários domínios.
 
-Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte [Propriedades da Web ](https://marketing.adobe.com/resources/help/pt_BR/dtm/web_property.html)na Documentação de produto do Dynamic Tag Management.
+Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte [Propriedades da Web ](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html)na Documentação de produto do Dynamic Tag Management.
 
-1. Navegue para a página da empresa e clique em **[!UICONTROL Adicionar a propriedade]**.
+1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Para obter informações gerais sobre propriedades da Web e práticas recomendad
     </tbody> 
     </table>
 
-1. (Opcional) Defina as [!UICONTROL Configurações avançadas].
+1. (Opcional) Configurar [!UICONTROL Advanced Settings].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -82,4 +82,4 @@ Para obter informações gerais sobre propriedades da Web e práticas recomendad
     </tbody> 
     </table>
 
-1. Clique em **[!UICONTROL Criar propriedade]**.
+1. Clique em **[!UICONTROL Create Property]**.
