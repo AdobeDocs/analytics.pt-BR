@@ -5,7 +5,7 @@ title: Visão geral das regras de processamento
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ Agora, os administradores têm direito de usar as regras de processamento **por 
 
 1. Caso ainda não tenha feito, [crie um grupo](/help/admin/user-management2/c-user-groups/groups.md) que inclua apenas aqueles não administradores que devem ter autorização para usar as regras de processamento.
 1. [Adicione os não administradores a esse grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Em seguida, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL [nome do grupo]]** > **[!UICONTROL Editar]** > **[!UICONTROL Acesso a relatórios]** > **[!UICONTROL Ferramentas do conjunto de relatórios]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Gerenciamento do conjunto de relatórios]**.
-1. Marque a caixa ao lado de [!UICONTROL Regras de processamento] e clique em **[!UICONTROL OK]**.
+1. Em seguida, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
+1. Marque a caixa ao lado de [!UICONTROL Processing Rules] e clique em **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ As variáveis de dados de contexto configuram um novo tipo de variável, dispon�
 
 ![](assets/evar-context-map.png)
 
-Consulte [Variáveis de dados de contexto](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/context_data_variables.html) na Ajuda de implementação.
+Consulte [Variáveis de dados de contexto](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) na Ajuda de implementação.
 
 ## Usar regras de processamento para transformar dados de ocorrência e eventos de acionador {#section_8284E72E999244E091CD7FB1A22342B6}
 
