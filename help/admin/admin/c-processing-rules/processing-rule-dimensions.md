@@ -5,7 +5,7 @@ title: Dimensões disponíveis para as regras de processamento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de dados de contexto </p> </td> 
-   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/context_data_variables.html"> Variáveis de dados de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variáveis de dados de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
