@@ -3,7 +3,7 @@ description: A guia de Uso de conjuntos de relatórios proporciona dados de uso 
 title: Visualizar uso do conjunto de relatórios
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Uso de chamadas do servidor]** > **[!UICONTROL Uso de conjuntos de relatórios]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
 
 >[!IMPORTANT]
 >
->Se um conjunto de relatórios não estiver [vinculado a uma Organização da Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/report-suite-mapping.html), os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de faturamento pode ser vinculada a várias Organizações da Experience Cloud Orgs; nem sempre há uma relação mutuamente exclusiva entre uma organização e uma ID de faturamento.
+>Se um conjunto de relatórios não estiver [vinculado a uma Organização da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html), os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de faturamento pode ser vinculada a várias Organizações da Experience Cloud Orgs; nem sempre há uma relação mutuamente exclusiva entre uma organização e uma ID de faturamento.
 
 O painel de Uso de conjuntos de relatórios
 
@@ -24,7 +24,7 @@ O painel de Uso de conjuntos de relatórios
 * Mostra a porcentagem de uso geral por categoria de chamadas do servidor.
 * É atualizado diariamente.
 * Pode ser baixado.
-* Permite acessar a interface **[!UICONTROL Gerenciar alertas]**.
+* Permite acessar a **[!UICONTROL Manage Alerts]** interface do usuário.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +43,7 @@ O painel de Uso de conjuntos de relatórios
 Esta opção permite baixar os dados de uso atuais, e dados de períodos de tempo anteriores ao atual (até janeiro de 2015). O relatório é baixado como um arquivo .csv.
 
 1. Selecione, pelo menos, um conjunto de relatórios.
-1. Clique em **[!UICONTROL Baixar relatório]**.
+1. Clique em **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)
 
@@ -54,7 +54,7 @@ Esta opção permite baixar os dados de uso atuais, e dados de períodos de temp
 | Tipos de chamadas incluídos | Especifique qualquer combinação destes: Todas as chamadas (padrão), Primárias, Secundárias, Primárias móveis, Secundárias móveis. |
 | Intervalo de tempo | É possível escolher o período de uso atual ou especificar um intervalo personalizado.  Para um intervalo personalizado, especifique o Início do intervalo e o Término do intervalo. <br>**Observação:**não é possível baixar dados de uso anteriores a janeiro de 2015</br>. |
 
-1. Clique em **[!UICONTROL Baixar]**.
+1. Clique em **[!UICONTROL Download]**.
 
 Esta é uma captura de tela da aparência do arquivo .csv baixado. Inclui uma coluna para a ID do conjunto de relatórios. A ID do conjunto de relatórios especifica uma ID exclusiva que pode conter apenas caracteres alfanuméricos. Essa ID não pode ser alterada após a criação de um conjunto de relatórios.
 
