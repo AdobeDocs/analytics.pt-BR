@@ -3,7 +3,7 @@ description: Quando a integração for implantada, você poderá começar a usar
 title: Usar a integração
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Por exemplo, você pode criar um segmento que incluirá somente Visitas de organ
 
 O público-alvo é igual a SMB.
 
-Para obter mais informações sobre como criar segmentos, consulte o [Guia de segmentação do Analytics](https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/).
+Para obter mais informações sobre como criar segmentos, consulte o [Guia de segmentação do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html).
 
 Esse segmento pode ser aplicado a praticamente qualquer relatório - um exemplo é o Relatório de tempo gasto por visita visto aqui: ![](assets/segment_applied_report.png)
