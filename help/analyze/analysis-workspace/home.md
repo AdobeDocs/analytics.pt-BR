@@ -3,7 +3,7 @@ description: Introdução ao Adobe Analytics.
 keywords: Analysis Workspace
 title: Guia de Introdução
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -97,6 +97,6 @@ Há muitas direções a seguir para aprofundar sua compreensão do Analysis Work
 
 ### Para analistas e administradores que buscam melhorar a qualidade do Workspace em sua organização
 
-* [Permissões do Analysis Workspace](https://marketing.adobe.com/resources/help/pt_BR/mcloud/admin_getting_started.html): atribua permissões do Workspace aos usuários com o Admin Console da Adobe.
+* [Permissões do Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html): atribua permissões do Workspace aos usuários com o Admin Console da Adobe.
 * [Modelos no Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): crie modelos para que seus colegas possam começar com um espaço de projeto adaptado às suas necessidades.
 * [Curadoria no Workspace](/help/analyze/analysis-workspace/curate-share/curate.md): crie um projeto e limite os componentes disponíveis, tornando o Workspace mais acessível para os menos familiarizados com a ferramenta.
