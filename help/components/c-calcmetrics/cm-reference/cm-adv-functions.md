@@ -3,14 +3,14 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Referência: funções avançadas
 
-Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na lista suspensa **[!UICONTROL Funções]**.
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ## Únicos excedidos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://marketing.adobe.com/resources/help/pt_BR/reference/metrics_uniques_high_numbers.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
+Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
 ## Comparação de funções de contagem  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
