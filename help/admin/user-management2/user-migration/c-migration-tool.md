@@ -3,7 +3,7 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -73,7 +73,7 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar o Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://marketing.adobe.com/resources/help/pt_BR/arb/t_install_arb.html">Report Builder</a> para a versão mais recente. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> para a versão mais recente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando a migração começa? </p> </td> 
@@ -95,7 +95,7 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_418476105FE341229CE146E730AAB33D">Seus grupos de permissão existentes no Analytics serão replicados automaticamente no Admin Console como Perfis de produtos, incluindo suas descrições e permissões granulares em conjuntos de relatórios, métricas, dimensões, Analytics e ferramentas do conjunto de relatórios. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se um usuário atual do Analytics tiver sido criado no Admin Console (o que significará que tem uma Adobe/Enterprise ID vinculada), ele será adicionado ao Perfil de produto apropriado no Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Google Analytics será definida como <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Admin Console. Consulte <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Recursos do Analytics não suportados no Admin Console</a> para obter mais informações. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você terá acesso à ferramenta <a href="https://marketing.adobe.com/resources/help/pt_BR/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">Migração de ID do usuário</a>. Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você terá acesso à ferramenta <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">Migração de ID do usuário</a>. Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Você terá acesso à guia Permissões no Admin Console, que permite criar Perfis de produtos com todas as opções granulares com as quais você está familiarizado no Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -314,7 +314,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
 
 Você pode comunicar proativamente este plano de migração aos seus usuários atuais. Este é um modelo que você pode personalizar para enviar a todos os usuários atuais do Analytics:
 
-Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > [Enviar email para os usuários](https://marketing.adobe.com/resources/help/pt_BR/reference/t_email_users.html).
+Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > Usuários [](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)de email.
 
 **Assunto:** Em breve - Uma nova forma de fazer logon no Adobe Analytics e na Adobe Experience Cloud.
 
@@ -326,9 +326,7 @@ Nossa empresa começará a migrar todas as contas do Adobe Analytics de [!DNL ht
 
 **Recursos úteis:**
 
-[Fazer logon e gerenciar as configurações do seu perfil](https://marketing.adobe.com/resources/help/pt_BR/mcloud/getting-started-experience-cloud.html).
-
-[Sobre nuvens, serviços principais e soluções](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html) na Experience Cloud
+[Fazer logon e gerenciar as configurações do seu perfil](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 Entre em contato com os administradores do Analytics em caso de dúvidas ou preocupações.
 
