@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,16 +15,16 @@ Métricas calculadas e calculadas avançadas (ou derivadas) são métricas perso
 
 >[!IMPORTANT]
 >
->Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://marketing.adobe.com/resources/help/pt_BR/analytics/analysis-workspace/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
+>Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; foram migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observação: os &quot;Canais de marketing&quot; não serão descontinuados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
->* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas é refletida nos recursos [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de relatório, Report Builder e Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. Elas permitem que os profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do [!DNL Analytics]. As métricas personalizadas disponíveis em cada pacote do [!DNL Analytics] são:
 
 * Adobe [!DNL Analytics] Foundation: calculadas
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + Calculadas avançadas
+* [Adobe Analytics Select](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Prime](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
@@ -44,12 +44,12 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 
 É possível
 
-* Crie métricas entre a [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
+* Crie métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis][!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis].
 * Crie métricas segmentadas derivadas do tempo de execução do relatório, sem precisar [alterar a implementação](https://youtu.be/CuQTm9RaUpY). Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 * Compartilhe métricas em conjuntos de relatórios. Isso significa que todas as métricas recém-criadas se aplicam a todos os conjuntos de relatórios da mesma empresa de logon.
 * (Somente métricas calculadas avançadas) Segmente as métricas. Por exemplo, é possível criar uma métrica para “Novos visitantes”, com uma contagem de pessoas para as quais esta é a primeira sessão.
 * (Somente métricas calculadas avançadas) Incorpore funções estatísticas para ajudar a descrever melhor seus dados. Por exemplo, é possível contar o número de itens em um relatório ou adicionar o número de desvios padrão para cada item.
-* Utilize as métricas criadas na [!UICONTROL Ad Hoc Analysis] em outras ferramentas do [!DNL Analytics], e vice-versa.
+* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
 
    >[!NOTE]
    >
@@ -59,18 +59,18 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 
 Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usar métricas calculadas:
 
-* [!UICONTROL Funis] no [!UICONTROL Reports &amp; Analytics]
-* [!UICONTROL Fallout] na [!UICONTROL Analysis Workspace]
-* [!UICONTROL Análise de coorte] na Analysis Workspace
+* [!UICONTROL Funnels] em [!UICONTROL Reports & Analytics]
+* [!UICONTROL Fallout] em [!UICONTROL Analysis Workspace]
+* [!UICONTROL Cohort Analysis] na área de trabalho da Análise
 * [!UICONTROL Data Warehouse]
-* [!UICONTROL Segmentos]
-* [!UICONTROL Relatórios em Tempo real]
-* [!UICONTROL Relatórios de Dados atuais]
+* [!UICONTROL Segments]
+* [!UICONTROL Real-Time]relatórios 
+* [!UICONTROL Current Data]relatórios 
 * [!DNL Analytics] for [!DNL Target]
 
 ## Ferramentas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calculadas]:
+Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
