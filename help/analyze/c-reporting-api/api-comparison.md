@@ -3,7 +3,7 @@ description: Uma tabela comparativa de APIs em relatórios do Analytics. São fo
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col5"> Dados completamente processados e finalizados, usados para extrair grandes exportações de dados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latência</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latência</a> </p> </td> 
    <td colname="col2"> 30 a 90 minutos </td> 
    <td colname="col3"> * Segundos -10 minutos </td> 
    <td colname="col4"> Segundos -10 minutos </td> 
@@ -47,7 +47,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col5"> Máximo </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/pt_BR/reference/"  > Interfaces de relatórios</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html"  > Interfaces de relatórios</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Relatório em tempo real em Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Somente API </td> 
@@ -86,7 +86,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Serviços Web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Relatórios em tempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Visão geral do Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/pt_BR/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
