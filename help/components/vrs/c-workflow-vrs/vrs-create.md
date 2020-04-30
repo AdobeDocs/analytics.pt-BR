@@ -5,7 +5,7 @@ title: Criar conjuntos de relatórios virtuais
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,8 +18,8 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
 * Os conjuntos de relatórios virtuais não podem ser compartilhados. O “Compartilhamento” é efetuado por grupos/permissões.
 * No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em &quot;mostrar tudo&quot; para exibir o restante.
 
-1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
-1. Clique em **[!UICONTROL Adicionar +]**.
+1. Navegue até **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
+1. Clique em **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)
 
@@ -59,7 +59,7 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://marketing.adobe.com/resources/help/pt_BR/analytics/segment/seg_stack.html"  >empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
+   <td colname="col2"> <p>Você pode adicionar um segmento ou <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >empilhá-los</a>. </p> <p> <p>Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU. </p> </p> <p>Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
