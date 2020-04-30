@@ -3,7 +3,7 @@ description: 'null'
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Você também pode adicionar segmentos em um ponto de contato. Por exemplo, voc�
 
 Não há limite de número de etapas que você pode adicionar ou do número de dimensões usadas.
 
-Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/listN.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
+Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
 1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 
