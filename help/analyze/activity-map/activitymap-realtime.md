@@ -3,7 +3,7 @@ description: A análise de página em tempo real (modo Online) permite obter res
 title: Análise de página em tempo real (Online)
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Se você deseja verificar qual elemento é clicado em geral no modo Online:
 
-1. Selecione o período na linha de tendência do Modo **** Online da barra de ferramentas que deseja analisar.
+1. Selecione o período na linha de tendência da barra de ferramentas que você deseja analisar. **[!UICONTROL Live Mode]**
 1. Clique no ícone &quot;Olho&quot; na barra de ferramentas para acessar a Tabela de relatórios de links.
 1. Ordenar a tabela pelo Link.
 
@@ -39,6 +39,6 @@ Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics
 * Para a transmissão ao vivo, relatórios em tempo real, solicitações de API e dados atualizados para as variáveis de tráfego, somente hits com uma ID de dados adicional são atrasadas.
 * Para os dados atuais sobre as métricas de conversão, dados finalizados e feeds de dados, todos os hits são atrasados de 5 a 7 minutos.
 
-Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://marketing.adobe.com/resources/help/pt_BR/mcvid/), mesmo que essa integração não tenha sido integralmente implementada.
+Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html), mesmo que essa integração não tenha sido integralmente implementada.
 
 Mais informações [aqui](/help/analyze/activity-map/activitymap-standard-live.md).
