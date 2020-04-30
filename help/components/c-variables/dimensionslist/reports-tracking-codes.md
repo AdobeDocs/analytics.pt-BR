@@ -4,7 +4,7 @@ title: Códigos de rastreamento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,11 +17,11 @@ Mede como vários códigos de rastreamento de anúncio afetam eventos de convers
 
 * Este relatório faz referência aos dados diretamente do [s.campaign](/help/implement/vars/page-vars/campaign.md)
 * A variável deste relatório é baseada em  [variável de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Ou seja, pode persistir além da visualização de página e se associar com as métricas dentro de sua expiração especificada.
-* A métrica padrão do relatório é a Receita. Você pode alterar esse valor padrão no [!UICONTROL Gerenciador de conjunto de relatórios] nas [!UICONTROL Ferramentas administrativas]. ( **[!UICONTROL Editar Configurações]** > **[!UICONTROL Configurações Individuais do Relatório]** > **[!UICONTROL Métricas Padrão]**.)
+* A métrica padrão do relatório é a Receita. Você pode alterar esse valor padrão no [!UICONTROL Report Suite Manager] campo em [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.)
 
 * Este relatório pode ser visualizado nos formatos de tendência e classificado.
 * Este relatório pode usar um filtro de pesquisa para localizar itens de linha específicos.
-* Os relatórios de [!UICONTROL Campanhas] e [!UICONTROL Elementos Criativos] são classificações baseadas neste relatório e são automaticamente criados com cada conjunto de relatórios.
+* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
 
 * As Classificações SAINT podem ser usadas neste relatório, permitindo que você renomeie e consolide os itens de linha.
 * Você pode dividir este relatório pelos seguintes relatórios (dependendo das configurações da organização e do conjunto de relatórios):
@@ -43,9 +43,9 @@ Mede como vários códigos de rastreamento de anúncio afetam eventos de convers
 
 **Propriedades do Reports &amp; Analytics**
 
-* Clique em **[!UICONTROL Conversão]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Código de rastreamento]** para localizar este relatório, exceto se o menu for personalizado.
+* Clique em **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** para localizar esse relatório, a menos que o menu seja personalizado.
 
-* Este relatório também pode ser detalhado por todas as [Variáveis da lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
+* Este relatório também pode ser detalhado por todas as [Variáveis da lista](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html).
 * Visualizações de Página, Visitas e Visitantes únicos estão disponíveis como métricas.
 * Este relatório pode utilizar segmentos.
 
