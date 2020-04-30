@@ -4,7 +4,7 @@ title: Metodologia de Rastreamento de links
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os
 
 >[!IMPORTANT]
 >
->Qualquer link cujo texto (não o href) possa conter PII (Informações de identificação pessoal) deve ser implementado de maneira explícita usando [s_objectID](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/s_objectID.html) ou excluindo a coleção de links do ActivityMap por meio de [s.ActivityMap.linkExclusions ou s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Qualquer link cujo texto (não o href) possa conter PII (Informações de identificação pessoal) deve ser implementado de maneira explícita usando [s_objectID](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) ou excluindo a coleção de links do ActivityMap por meio de [s.ActivityMap.linkExclusions ou s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 O Activity Map baseia seu rastreamento de links nessas duas IDs:
 
