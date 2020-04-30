@@ -5,7 +5,7 @@ title: Arquivos de dados de classificação
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -109,19 +109,19 @@ Cada valor deve ser exclusivo em todo o sistema. O valor deste campo corresponde
 
 ### Cabeçalho da coluna de classificação
 
-Por exemplo, os Reports &amp; Analytics incluem automaticamente duas classificações para as variáveis de [!UICONTROL Campanha]: [!UICONTROL Campanhas] e [!UICONTROL Elementos Criativos]. Para adicionar dados à classificação [!UICONTROL Campanhas], o cabeçalho da coluna no arquivo de dados de classificação será [!UICONTROL Campanhas].
+Por exemplo, relatórios e análises incluem automaticamente duas classificações para [!UICONTROL Campaign] variáveis: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
->[!NOTE] Os valores no cabeçalho da coluna [!UICONTROL Classificações] devem corresponder exatamente à convenção de nomenclatura da classificação, ou a importação do não ocorrerá. Por exemplo, se o administrador mudar [!UICONTROL Campanhas] para [!UICONTROL Nomes de Campanha Interna] no [!UICONTROL Gerenciador de Configuração da Campanha], o cabeçalho da coluna do arquivo deve ser alterado para o mesmo nome.
+>[!NOTE] Os valores no cabeçalho da [!UICONTROL Classifications] coluna devem corresponder exatamente à convenção de nomenclatura da classificação, ou a importação falhará. Por exemplo, se o administrador mudar [!UICONTROL Campaigns] para [!UICONTROL Internal Campaign Names] na coluna [!UICONTROL Campaign Set-up Manager], o cabeçalho da coluna do arquivo deve ser alterado para corresponder.
 
 Além disso, o arquivo de dados oferece suporte às seguintes convenções adicionais de cabeçalho para identificar subclassificações e outras colunas de dados especializadas:
 
 ### Cabeçalho de subclassificação
 
-Por exemplo, [!UICONTROL Campanhas^Proprietário] é um cabeçalho de coluna para a coluna que contém valores de [!UICONTROL Proprietário da campanha]. Da mesma forma, [!UICONTROL Elementos Criativos^Tamanho] é um cabeçalho de coluna para a coluna que contém a subclassificação [!UICONTROL Tamanho] da classificação [!UICONTROL Elementos Criativos].
+Por exemplo, [!UICONTROL Campaigns^Owner] é um cabeçalho de coluna para a coluna que contém [!UICONTROL Campaign Owner] valores. Da mesma forma, [!UICONTROL Creative Elements^Size] é um cabeçalho de coluna para a coluna que contém a [!UICONTROL Size] subclassificação da [!UICONTROL Creative Elements] classificação.
 
 ### Cabeçalhos de métrica de classificação
 
-Por exemplo, [!UICONTROL Campanhas^~Custo] refere-se à métrica [!UICONTROL Custo] na classificação [!UICONTROL Campanhas].
+Por exemplo, [!UICONTROL Campaigns^~Cost] se refere à [!UICONTROL Cost] métrica na [!UICONTROL Campaigns] classificação.
 
 ### Cabeçalho PER modifier
 
@@ -141,9 +141,9 @@ Esses caracteres têm um significado especial em um arquivo de dados. Sempre que
 
 **RECEITA:** Multiplica o valor pela receita para o item da linha no relatório.
 
-**SCADD:** Multiplica o valor pelo número de vezes que o evento [!UICONTROL Adição ao carrinho de compras] foi chamado por item da linha no relatório.
+**SCADD:** Multiplica o valor pelo número de vezes que o [!UICONTROL Shopping Cart Add] evento foi chamado por item de linha no relatório.
 
-**SCREMOVE:** Multiplica o valor pelo número de vezes que o evento [!UICONTROL Remoção do carrinho de compras] foi chamado por item da linha no relatório.
+**SCREMOVER:** Multiplica o valor pelo número de vezes que o [!UICONTROL Shopping Cart Remove] evento foi chamado por item de linha no relatório.
 
 **INSTÂNCIA:** Multiplica o valor pelo número de instâncias para o item da linha no relatório.
 
@@ -151,30 +151,30 @@ Esses caracteres têm um significado especial em um arquivo de dados. Sempre que
 
 **EVENTO:** Multiplica o valor pelo número de vezes que um evento personalizado especificado ocorreu por item da linha no relatório.
 
-**Exemplo:** se a Campanha A custa USD$ 10.000, a coluna [!UICONTROL Campanhas^~Custo] contém um valor de 10.000 e a coluna [!UICONTROL Campanhas^~Custo~per] contém [!UICONTROL FIXO]. Ao exibir o custo para a Campanha A nos relatórios, você notará $10.000 como o valor fixo para a Campanha A para o intervalo de datas do relatório.
+**Exemplo:** Se a Campanha A custar US$ 10.000, a [!UICONTROL Campaigns^~Cost] coluna conterá um valor de 10.000 e a coluna [!UICONTROL Campaigns^~~Costper] conterá [!UICONTROL FIXED]. Ao exibir o custo para a Campanha A nos relatórios, você notará $10.000 como o valor fixo para a Campanha A para o intervalo de datas do relatório.
 
-**Exemplo:** Se a Campanha B custa aproximadamente USD$ 2 por clique, a coluna [!UICONTROL Campanhas^~Custo] contém 2 e a coluna **[!UICONTROL Campanhas^~Custo~por]** contém [!UICONTROL CLIQUE]. Ao exibir o custo para a Campanha B nos relatórios, a Adobe calcula (2 * [número de cliques]) como o valor dinâmico para o intervalo de datas do relatório. Isso dá a você um cálculo do custo total com base no número de cliques realizados na Campanha B.
+**Exemplo:** Se a Campanha B custar aproximadamente US$ 2 por clique, a [!UICONTROL Campaigns^~Cost] coluna conterá 2 e a coluna **[!UICONTROL Campaigns^~~Costper]** conterá [!UICONTROL CLICK]. Ao exibir o custo para a Campanha B nos relatórios, a Adobe calcula (2 * [número de cliques]) como o valor dinâmico para o intervalo de datas do relatório. Isso dá a você um cálculo do custo total com base no número de cliques realizados na Campanha B.
 
 ### Data
 
 As datas das campanhas são normalmente intervalos (datas inicial e final) associados a campanhas individuais. As datas devem aparecer no formato AAAA/MM/DD. Por exemplo, 2013/06/15-2013/06/30.
 
-Para obter mais informações, consulte [Classificações de conversão](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
+Para obter mais informações, consulte [Classificações de conversão](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE] Na Versão de manutenção do [!DNL Analytics] de 10 de maio de 2018, a Adobe começou a limitar a funcionalidade de classificações numéricas e habilitadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
 
-## Uso de datas junto a [!UICONTROL classificações] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-As [!UICONTROL classificações] podem ser usadas para atribuir intervalos de datas para suas campanhas ou outras [!UICONTROL classificações] de conversão, o que permite uma medição de campanha mais precisa. Após especificar um intervalo de datas, qualquer valor correspondente que ocorrer fora do intervalo de datas não será classificado. Isso é útil para uma medição de campanha que deseja utilizar as datas exatas em que uma campanha estava Disponível, e não todos os hits que correspondem a campanha propriamente dita. Para classificar com sucesso um valor com intervalo de datas, as seguintes condições devem ser atendidas:
+[!UICONTROL Classifications] pode ser usado para atribuir intervalos de datas às suas campanhas ou outras conversões [!UICONTROL classifications], o que permite uma medição de campanha mais precisa. Após especificar um intervalo de datas, qualquer valor correspondente que ocorrer fora do intervalo de datas não será classificado. Isso é útil para uma medição de campanha que deseja utilizar as datas exatas em que uma campanha estava Disponível, e não todos os hits que correspondem a campanha propriamente dita. Para classificar com sucesso um valor com intervalo de datas, as seguintes condições devem ser atendidas:
 
-* A [!UICONTROL classificação] deve ser baseada em um variável de conversão.
-* A [!UICONTROL classificação] usada deve ser definida como Date-Enabled ou Numeric 2.
+* The [!UICONTROL classification] must be based on a conversion variable.
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * O intervalo de datas envolvido deve conter uma data de início e uma data de término (opcional).
 
 Para classificar campanhas baseadas em intervalo de datas:
 
 1. Faça logon em [!DNL Analytics] Admin > Classificações.
-1. Clique na guia **[!UICONTROL Exportação de navegador]**, certifique-se de que as configurações da sua classificação habilitada para data estão corretas e, em seguida, clique em Exportar arquivo.
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. Abra esse arquivo no Microsoft Excel ou outro editor de planilhas.
 1. Uma das colunas terminará com
 
