@@ -2,7 +2,7 @@
 title: Excluir datas específicas na análise
 description: Dicas para excluir datas ou intervalos de datas se você não quiser incluí-las nos relatórios.
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ Se você não quiser mostrar zeros na tabela ou nas visualizações (causando de
 
 Se você não quiser mostrar zeros na tabela ou nas visualizações (causando declínios), ative **[!UICONTROL Interpret zero as no value]** nas configurações da coluna.
 
-![Interpretar zero](../assets/interpret_zero.png)
+![Interpretar zero](assets/interpret_zero.png)
 
 ### Aplicar o segmento excluído a um projeto
 
