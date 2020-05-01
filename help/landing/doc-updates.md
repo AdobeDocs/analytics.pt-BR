@@ -3,7 +3,7 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no repositório de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
+source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
 
@@ -12,7 +12,8 @@ source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
 
-* Para obter uma lista abrangente dos novos recursos, avisos de administração e correções de erros, consulte [Notas de versão mais recentes da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
+* Para obter informações sobre [!UICONTROL Customer Journey Analytics], vá [aqui](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
 * Para obter detalhes sobre novos recursos, consulte [Novos recursos na área de trabalho](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) da Análise no guia do usuário Ferramentas.
 * Para obter informações sobre o Adobe Analytics para áudio e vídeo, consulte [Medição de áudio e vídeo no Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html).
 
@@ -20,13 +21,16 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 |---|---|
+| 28 de abril de 2020 | Adicionada a documentação para a métrica [Velocidade](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) do conteúdo. |
+| 12 de março de 2020 | Adicionadas atualizações para [Publicar segmentos na Experience Cloud](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-publish.html). |
+| 12 de março de 2020 | Atualizações da latência de costura de CDA. |
 | 27 de fevereiro de 2020 | Documentação adicionada para [Adobe Analytics Labs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/tech-previews/overview.html). |
 | 25 de fevereiro de 2020 | Variável adicionada. [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) |
 | 18 de fevereiro de 2020 | Variável adicionada. [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação dos Canais [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
 | 7 de fevereiro de 2020 | Atualizações para [configurar análises](../components/cda/cda-setup.md) entre dispositivos e [perguntas frequentes](../components/cda/cda-faq.md) |
 | 4 de fevereiro de 2020 | Substituição completa do guia [do usuário da](../implement/home.md)Implementação. |
-| 22 de janeiro de 2020 | Atualização da página Freeform Table que inclui informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22 de janeiro de 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 de janeiro de 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](https://docs.adobe.com/content/help/pt-BR/analytics/admin/company-settings/login-restrictions-eol.html) |
