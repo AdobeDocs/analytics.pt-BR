@@ -4,7 +4,7 @@ title: Visão geral de Personalizar relatórios
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -218,4 +218,4 @@ A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar 
 
 No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
 
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
+Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
