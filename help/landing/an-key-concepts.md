@@ -2,7 +2,7 @@
 description: Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 title: Adobe Analytics - Principais conceitos
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ Esta seção contém os principais conceitos do Adobe Analytics, uma breve descr
 
 | Product | Descrição | Link da documentação |
 |--- |--- |--- |
-| Analysis Workspace | Solução de navegador para desenvolver projetos de análise avançados e personalizados, bem como para democratizar informações. Oferece mais flexibilidade de relatórios que os Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | Solução de navegador para desenvolver projetos de análise avançados e personalizados, bem como para democratizar informações. Oferece mais flexibilidade de relatórios que os Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics (antigo SiteCatalyst) | Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. | [Página inicial do Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Complemento do Excel que permite a criação de solicitações personalizadas de dados do Adobe Analytics e a visualização usando o Microsoft Excel. | [Página inicial do Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (antigo Discover) | Ferramenta baseada em Java para análise digital avançada. | [Página inicial da Ad Hoc Analysis](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
