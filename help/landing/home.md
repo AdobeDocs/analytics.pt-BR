@@ -2,7 +2,7 @@
 title: Guias de documentação técnica do Adobe Analytics
 description: Guias e recursos do usuário do Analytics
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -41,7 +41,7 @@ Bem-vindo à página inicial da documentação técnica e do produto Adobe Analy
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
