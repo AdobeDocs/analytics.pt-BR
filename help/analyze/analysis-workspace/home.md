@@ -1,102 +1,190 @@
 ---
-description: Introdução ao Adobe Analytics.
 keywords: Analysis Workspace
-title: Guia de Introdução
+title: Visão geral do Analysis Workspace
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Analysis Workspace
+# Visão geral do Analysis Workspace
 
-O Analysis Workspace é uma das principais ferramentas da Adobe para que a sua organização tome decisões acionáveis baseadas em dados. A visualização mais comum, a tabela de forma livre, permite que você crie relatórios personalizados usando dimensões, métricas, segmentos e intervalos de datas.
+O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
-## Pré-requisitos
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-[Enviar dados para o Adobe Analytics usando o Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): o uso do Analysis Workspace requer uma implementação em funcionamento. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como o Gerenciamento dinâmico de tags (DTM) ou implementações manuais herdadas, também podem funcionar.
+## Vídeo de visão geral
 
-## Obter um relatório classificado básico no Workspace
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-É possível obter um relatório classificado básico usando o Analysis Workspace. Os relatórios classificados incluem uma exibição total agregada de cada valor de dimensão, mostrando primeiro os maiores valores. Esse tipo de relatório é útil para ver quais componentes do site são mais eficazes, quais páginas recebem mais tráfego ou quais produtos vendem mais.
+Lista de reprodução completa do YouTube disponível [aqui](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-3. Na barra de navegação superior, clique em Workspace.
-4. Clique no botão “Criar novo projeto”.
-5. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
-6. À esquerda, você deve ver uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Páginas (em laranja) e arraste-a para a tela que diz “Solte uma dimensão aqui”.
-7. Observe que, se o conjunto de relatórios tiver dados, você poderá ver um relatório com as principais páginas deste mês. O Analysis Workspace preenche o relatório automaticamente com a métrica [Ocorrências](/help/components/c-variables/c-metrics/metrics-occurrences.md).
-8. Localize a métrica Visitas (em verde), arraste-a e solte **sobre** ou **ao lado** do cabeçalho da métrica Ocorrências (evite colocá-la acima da métrica). Se você arrastar a métrica Visitas e soltá-la acima de Ocorrências, a métrica será substituída no relatório. Se você arrastar a métrica Visitas e soltá-la ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+>[!NOTE]
+>
+>Consulte [Novidades no Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) para obter atualizações sobre recursos.
 
-## Obter relatório de tendências básico no Workspace
+## Controle completo dos elementos e dos componentes do projeto
 
-É possível obter um relatório de tendências básico usando o Analysis Workspace. Os relatórios de tendências incluem uma exibição das métricas ao longo do tempo usando o intervalo de datas selecionado. Esse tipo de relatório é útil para identificar tendências ao longo do tempo e podem ser usados para medir o sucesso ou a falha das decisões comerciais tomadas. Por exemplo, você pode analisar a tendência de um relatório de exibições de página ao longo do tempo para ver se um novo design de site ajudou a aumentar ou diminuir o tráfego.
+O Analysis Workspace oferece liberdade e flexibilidade para:
 
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-3. Na barra de navegação superior, clique em Workspace.
-4. Clique no botão “Criar novo projeto”.
-5. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
-6. À esquerda, você deve ver uma lista de dimensões, métricas, segmentos e intervalos de datas. Localize a dimensão Exibições de página e arraste-a para o pequeno espaço na tela com o rótulo “Solte uma métrica aqui”. Evite soltá-la no espaço reservado para dimensões (pelo menos neste exercício).
-7. Observe que, se o conjunto de relatórios tiver dados, você deve ver as tendências de um relatório básico de exibições de página do mês atual. O Analysis Workspace inclui o intervalo de datas “Dia” de modo automático para que você possa ver a tendência das exibições de página do mês atual.
-8. Localize o intervalo de datas Semana (em roxo) na lista de componentes do intervalo de datas à esquerda. Clique no título do intervalo de datas para expandir e ver todos os componentes do intervalo de datas, ou use a barra de pesquisa.
-9. Arraste o intervalo de datas Semana e solte-o acima do cabeçalho do intervalo de datas Dia na tela para substituí-lo.
-10. Observe que seu relatório de tendências agora é agregado por semana em vez de por dia.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+* Arrastar e soltar os componentes (dimensões, métricas, segmentos e granularidades de tempo)
+* Arrastar e soltar várias visualizações no projeto
+* Mover, redimensionar e empilhar as visualizações onde desejar em um projeto
 
-## Experimentar com a ferramenta
+![](assets/fa_project_new.png)
 
-Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impacto na coleta de dados. Se você arrastar componentes indiscriminadamente para um projeto para ver o que acontece, não haverá nenhuma repercussão. Arraste diferentes combinações de dimensões e métricas para o projeto do seu espaço de trabalho para ver o que está disponível.
+Consulte [Criar um projeto do Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+## Várias visualizações em um projeto
 
-## Solução de problemas
+Arraste e solte muitas visualizações no projeto que desejar.
 
-**Quando eu arrasto uma métrica, vejo “Dados inválidos”.**
+![](assets/visualizations-multiple.png)
 
-Dados inválidos significa que a Adobe não pode retornar dados usando a combinação de dimensões e métricas usadas no relatório. Por exemplo, duas métricas empilhadas uma sobre a outra não podem retornar como dados, pois não há como exibir duas métricas desse modo. Em vez disso, coloque as métricas lado a lado.
+Crie um projeto que mostra a porcentagem de alteração, com várias visualizações correspondendo às células em uma tabela de dados de forma livre.
 
-**Quando arrasto uma métrica, não vejo nenhum dado real, apenas zeros.**
+![](assets/visualizations-multiple02.png)
 
-Se você criar um relatório de espaço de trabalho com êxito, mas não houver dados, você pode realizar as seguintes verificações:
+Consulte [Criar um projeto do Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obter mais informações.
 
-* Verifique novamente o conjunto de relatórios e veja se ele está preenchido com dados.
-* Se você estiver usando um segmento no seu relatório, os critérios do segmento podem não corresponder a nenhum dado. Tente remover o segmento ou ajustar a definição do segmento.
-* Verifique o intervalo de datas no canto superior direito e certifique-se de que esteja definido como um valor que você esperaria.
-* Acesse seu site e use o Depurador para verificar se os dados estão sendo coletados.
+## Intravinculação a painéis e visualizações
 
-## Recursos adicionais
+Juntamente com a [edição de rich text](/help/analyze/analysis-workspace/visualizations/text.md) do Analysis Workspace, é possível criar links internos para painéis e visualizações específicos em um projeto a partir de uma caixa de texto, por exemplo, para criar o índice do projeto. É possível compartilhar esses links da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico de um projeto. Foram adicionadas novas opções ao menu exibido após o clique com o botão direito, chamadas “Obter link do painel” e “Obter link da visualização”. Para adicionar intravinculação ao seu projeto:
 
-* [Notas de versão do Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): leia os recursos mais recentes introduzidos na ferramenta.
-* [Analysis Workspace no YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): saiba mais sobre como usar a maioria dos recursos do Analysis Workspace acessando essa lista de reprodução abrangente.
-* Dicas dentro do produto: dicas do dia, juntamente com vídeos curtos, aparecem ocasionalmente no canto inferior direito do Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
-* [Comunidade do Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): fale sobre o Analysis Workspace com outros usuários e vote nos recursos que você gostaria de ver na ferramenta.
-* Publicações no blog:
-   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+1. Arraste uma visualização de texto ao projeto, talvez próximo a uma visualização ou tabela que precise de contexto.
+1. Preencha a caixa de texto com, por exemplo, uma tabela de conteúdo. Em seguida, destaque um item que deseja vincular ao painel ou à visualização, como Métricas de sucesso, por exemplo.
 
-## Próximas etapas
+   ![](assets/intra-linking1.png)
 
-Há muitas direções a seguir para aprofundar sua compreensão do Analysis Workspace. Estas são algumas das noções básicas recomendadas pela Adobe:
+1. Role para esse painel ou visualização e clique com o botão direito no cabeçalho do painel.
+1. Role para baixo e selecione **[!UICONTROL Get Panel Link]** ou **[!UICONTROL Get Visualization Link]**:
 
-### Para usuários finais que desejam expandir o conhecimento sobre como usar o Analysis Workspace
+   ![](assets/intra-linking2.png)
 
-* [Detalhes da interface do usuário do Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): agora que você criou um relatório básico, familiarize-se com o resto da interface.
-* [Visualizações no Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): as tabelas de forma livre são apenas um tipo de visualização do Analysis Workspace. Saiba como usar outras visualizações, como gráficos de linhas, gráficos de barras e mapas geográficos.
-* [Dimensões no Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): saiba mais sobre as dimensões e como usá-las além dos relatórios classificados.
-* [Métricas no Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): saiba mais sobre as métricas e como usá-las em outras partes das tabelas de forma livre.
-* [Introdução à segmentação](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): saiba mais sobre segmentos e obtenha um relatório básico usando um segmento.
-* [Intervalos de datas no Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): saiba mais sobre datas relativas e datas do acumulado e use-as em projetos do Workspace.
-* Compartilhamento de projetos no Workspace: mostre aos colegas o projeto do Workspace que você criou.
-* [(Avançado) Painéis no Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): use recursos avançados no Workspace, como Atribuição e Comparação de segmentos.
+1. Copie o link e adicione-o ao hiperlink Métricas de sucesso na visualização de texto. Clique na marca de seleção para salvar o texto.
 
-### Para analistas e administradores que buscam melhorar a qualidade do Workspace em sua organização
+Caso tenha painéis ou visualizações recolhidos no projeto, clique no link para expandir o painel/visualização, para que os usuários possam visualizá-lo.
 
-* [Permissões do Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html): atribua permissões do Workspace aos usuários com o Admin Console da Adobe.
-* [Modelos no Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): crie modelos para que seus colegas possam começar com um espaço de projeto adaptado às suas necessidades.
-* [Curadoria no Workspace](/help/analyze/analysis-workspace/curate-share/curate.md): crie um projeto e limite os componentes disponíveis, tornando o Workspace mais acessível para os menos familiarizados com a ferramenta.
+>[!NOTE] Você também pode usar esse recurso na opção de clique com o botão direito do **[!UICONTROL Edit Description]** mouse.
+
+## Vincular a outros projetos
+
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+
+## Visualização dinâmica de células selecionadas
+
+Selecione as células individuais e veja as visualizações mudarem dinamicamente. Sincronize e bloqueie uma visualização com as células selecionadas.
+
+![](assets/visualize-selected-cells.png)
+
+## Bloquear itens ou posições selecionados
+
+O bloqueio de visualizações permite controlar quais fontes da tabela de dados de forma livre correspondem às visualizações.
+
+![](assets/manage-data-source.png)
+
+Consulte [Gerenciar fontes de dados](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+
+## Visualizações de tendências a partir de células selecionadas
+
+Crie uma visualização a partir células selecionadas. (Clique com o botão direito do mouse em > **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+As seleções de tendências agora estão **vinculadas** à tabela abaixo. Dessa forma, se você selecionar uma linha diferente, o gráfico de tendências refletirá essa linha.
+
+![](assets/trend-selection2.png)
+
+## Detalhamentos das dimensões e de itens da dimensão
+
+Como revendedor, você pode se aprofundar mais do que nunca em suas campanhas para entender a melhor forma de envolver os seus clientes. Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades específicas; crie consultas usando métricas, dimensões, segmentos, linhas do tempo e outros valores de detalhamento de análise relevantes.
+
+![Resultado da etapa](assets/fa_data_table_actions.png)
+
+Consulte [Detalhar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
+## Segmentos de seleções de tabela
+
+Selecione as células na tabela de dados de forma livre e crie um segmento da seleção.
+
+Compare vários segmentos, crie e aplique instantaneamente os segmentos. Você pode aplicar vários segmentos para se concentrar em clientes específicos com base no comportamento e interação e, em seguida, compará-los e contrastá-los.
+
+![](assets/segment_inline.png)
+
+Solte um segmento no painel de forma livre, no nível do projeto, e o segmento será aplicado em todo o projeto.
+
+![](assets/segment-panel.png)
+
+Consulte  [Segmentos](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+
+## Marcação de projetos e componentes
+
+Você pode aplicar tags aos projetos e componentes no Analysis Workspace:
+
+* Aplique ou crie tags no nível do projeto, no painel Informações ![](assets/information_icon.png).
+
+* Clique com o botão direito do mouse nos componentes para marcá-los (ou crie tags) no painel Componentes.
+* Use # no campo de Pesquisa para localizar as tags.
+
+## Ações dos componentes
+
+Execute ações no nível dos componentes no menu Ações, na parte superior do painel de componentes à esquerda. Select a component and click **[!UICONTROL Actions]** to view the actions.
+
+| Ação de componente | Descrição |
+|--- |--- |
+| Adicionar tag | Organize ou gerencie componentes aplicando tags. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Marcar como favorito | Adicione o componente à sua lista de favoritos. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Aprovar | Aprove o componente para torná-lo canônico. Assim, ele é exibido no gerenciador do componente respectivo, como Analytics > Componentes > Segmentos, ou Analytics > Componentes > Projetos. |
+| Compartilhar | Aplica-se somente a segmentos. |
+| Excluir | Aplica-se somente a segmentos. |
+
+Consulte [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mais informações.
+
+## Descrições adicionais destacadas
+
+**O que você pode arrastar e empilhar**
+
+Componentes
+
+* Dimensões
+* Segmentos
+* Métricas
+* Intervalos de data
+* Granularidades de tempo (Hora, dia, semana, etc.).
+
+**Várias tabelas de forma livre e visualizações**
+
+Não há limite técnico para o número de tabelas de forma livre e visualizações que você pode adicionar ao painel. Além disso, você pode executar uma nova exibição (ou exportar para CSV) de cada tabela de forma livre ou das linhas selecionadas de uma tabela.
+
+**Organização, classificação e cópia da coluna**
+
+* Classifique as predefinições do intervalo de datas (não inclui os intervalos de datas personalizados).
+* Pressione CTRL (ou Command) + clique, para arrastar uma coluna e copiá-la, e ao arrastar a cópia, ela é colada na nova posição na tabela.
+
+Consulte [Teclas de atalho disponíveis no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obter mais informações.
+
+**Seleções e ações**
+
+Você pode selecionar as linhas e colunas da mesma forma usada no Excel. Em seguida, é possível usar essas seleções. Por exemplo:
+
+* Criar visualizações das seleções
+* Copiar para a área de transferência (CTRL ou Command + C)
+* Analisar várias linhas selecionadas. Selecione as linhas, em seguida, arraste uma dimensão para a seleção. Ou, clique com o botão direito do mouse na seleção e use o menu Detalhamento.
+
+**Alterações salvas automaticamente e não salvas**
+
+Você será solicitado a salvar as alterações, se tentar fechar o navegador (ou usar o botão Voltar) e o projeto não foi salvo. Se o sistema falhar, você receberá um alerta para restaurar para o estado anterior do projeto ao carregá-lo.
+
+Projetos já existentes (e não os novos) serão salvos automaticamente apenas quando o navegador travar ou sob outra circunstância a qual não foi dada a chance de salvá-los.
+
+**Todas as visitas**
+
+Um segmento padrão exclusivo do Analysis Workspace. *`All Visits`* é um recurso que exibe os totais dos componentes adicionados à tabela.
+
+**Métricas calculadas**
+
+Use os cálculos da mesma forma que você usa as métricas padrão.
+
+Consulte [Métricas calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html).
