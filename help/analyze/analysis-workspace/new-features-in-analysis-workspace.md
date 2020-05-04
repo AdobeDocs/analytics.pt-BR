@@ -5,7 +5,7 @@ title: Novidades no Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -682,7 +682,7 @@ Novos recursos lançados em 20 de julho de 2017.
    <td colname="col2"> <p>Permite alterar as configurações da fonte (negrito, itálico, entre outros) e fazer o hyperlink dentro das visualizações da caixa de texto e das descrições do painel ou da visualização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intravinculação (rápida visualização de links) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intravinculação (rápida visualização de links) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Intravinculação</b> permite se vincular a painéis e visualizações específicos em um projeto por meio de uma caixa de texto, como para criar um índice de projeto. É possível compartilhar esses links da mesma maneira usada para compartilhar um link de projeto, a fim de direcionar alguém a uma visualização ou um painel específico de um projeto. Foram adicionadas novas opções ao menu exibido após o clique com o botão direito, chamadas “Obter link do painel” e “Obter link da visualização”. </p> </td> 
   </tr> 
   <tr> 
@@ -978,7 +978,7 @@ Novos recursos lançados em 16 de junho de 2016:
 * Estrutura do menu [Novos projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza o menu principal e o torna mais expansível. Por exemplo, para criar um novo **Painel de coorte**, agora é necessário criar um painel em branco e arrastar uma visualização de Tabela de coorte.
 * [Novo painel à esquerda](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Painéis, Visualizações, Componentes
 * Foi incluído um novo tipo de [visualização de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que permite arrastar até três segmentos e uma métrica e criar um diagrama de Venn.
-* A opção [Colocar seleção em tendência](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (gráfico de linhas) em uma tabela classificada agora é vinculada.
+* A opção [Colocar seleção em tendência](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (gráfico de linhas) em uma tabela classificada agora é vinculada.
 * [Ícone “Criar visual”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): se clicamos nesse ícone, é criada uma visualização inteligente de acordo com nossas ações anteriores (gráfico de barras, de Venn...)
 * Funcionalidade [Linhas do manual](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) ampliada
 * Zona [Adicionar segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
