@@ -3,7 +3,7 @@ title: Ajuda do Report Builder da Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -51,6 +51,6 @@ O Report Builder da [!DNL Adobe]é um suplemento do Microsoft Excel. O Report Bu
 
 ## Ajuda do Reports &amp; Analytics
 
-* [Ajuda da Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Ajuda da Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
 * [Ajuda do Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/getting-started.html)
 * Ajuda da [Referência do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html) sobre Ferramentas administrativas, relatórios e métricas.
