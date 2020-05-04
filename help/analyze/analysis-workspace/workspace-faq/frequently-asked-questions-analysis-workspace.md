@@ -5,7 +5,7 @@ title: Requisitos de administração
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -14,44 +14,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Requisitos de sistema para o Analysis Workspace.
 
-## Requisitos de administração e acesso {#section_FD3737DE452F4F6CA181F13FF3DC668F}
-
-<table id="table_3065772701A64D4EB5F175100A60F284"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requisito </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> SKU do produto </td> 
-   <td colname="col2"> <p> Você deve ter o <span class="keyword">Adobe Analytics Standard</span> ou o <span class="keyword">Adobe Analytics</span> Premium. Caso você tenha acesso ao Reports &amp; Analytics como produto independente, entre em contato com a sua equipe de conta para adquirir a solução <span class="keyword">Adobe Analytics</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Administradores </td> 
-   <td colname="col2"> <p>Ter acesso completo à Analysis Workspace. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Usuários </td> 
-   <td colname="col2"> <p>Para ativar o acesso à guia Workspace no Analytics, os administradores devem adicionar usuários ao grupo <span class="uicontrol">Acesso ao Analysis Workspace</span> em <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html"  >Grupos</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Transferência de projetos </td> 
-   <td colname="col2"> <p>Os administradores podem transferir os projetos do <span class="wintitle">Analysis Workspace</span> de um usuário para outro. </p> <p>Para fazê-lo, acesse <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Transferir</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Navegador </td> 
-   <td colname="col2"> <p> Navegadores: </p> 
-    <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferencial: versões mais recentes do Firefox, Chrome, Safari ou do Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Versão mais recente do Microsoft Internet Explorer 11. <p> Observação: a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.</p> </li> 
-    </ul> 
-    <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
-     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> É necessário habilitar os cookies e o JavaScript. </li> 
-     <li id="li_AE8D64267EC74C5290CB5793FB0C04D1">Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior). </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Requisito | Descrição |
+|--- |--- |
+| SKU do produto | Você deve ter o Adobe Analytics Standard ou o Adobe Analytics Premium. Caso você tenha acesso ao Reports &amp; Analytics como produto independente, entre em contato com a sua equipe de conta para adquirir a solução Adobe Analytics. |
+| Administradores | Ter acesso completo à Analysis Workspace. |
+| Usuários | Para habilitar o acesso à guia Espaço de trabalho no Analytics, os administradores devem criar um perfil de produto com a permissão Acesso à área de trabalho da Análise e adicionar usuários a ele no [Admin Console](/help/admin/admin-console/permissions/product-profile.md). |
+| Navegador | <ul><li>Preferencial: versões mais recentes do Firefox, Chrome, Safari ou do Edge. Versão mais recente do Microsoft Internet Explorer 11. **Observação:** a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.</li><li>É necessário habilitar os cookies e o JavaScript.</li><li>Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).</li></ul> |
