@@ -2,16 +2,16 @@
 title: Visão geral dos painéis
 description: Documentação do produto e autoajuda para painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 87355158ed62246d1ef8569383160b1d3ffc9b17
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
-# Visão geral dos painéis
+# Visão geral dos painéis do Adobe Analytics
 
 >[!IMPORTANT]
 >
->Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Essa documentação se destina somente a usuários beta e não representa a funcionalidade completa do recurso. If you are interested in becoming a beta user for this >feature, please contact Adobe [Customer Care](https://helpx.adobe.com/br/contact/enterprise-support.ec.html).
+>Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Essa documentação se destina somente a usuários beta e não representa a funcionalidade completa do recurso. Se você estiver interessado em se tornar um usuário beta para este recurso >, entre em contato com Ashok Gorreanie (gorrepati@adobe.com).
 
 Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
 
