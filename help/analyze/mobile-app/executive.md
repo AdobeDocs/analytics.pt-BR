@@ -2,12 +2,16 @@
 description: Instruções para usar os scorecards de painéis.
 title: Guia executivo de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 # painéis do Adobe Analytics: guia de start rápido do usuário executivo
+
+>[!IMPORTANT]
+>
+>Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Essa documentação se destina somente a usuários beta e não representa a funcionalidade completa do recurso. Se você estiver interessado em se tornar um usuário beta para este recurso >, entre em contato com Ashok Gorreanie (gorrepati@adobe.com).
 
 ## Introdução
 
