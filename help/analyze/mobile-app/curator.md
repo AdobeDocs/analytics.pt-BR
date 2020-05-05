@@ -2,14 +2,17 @@
 description: Instruções para configurar os scorecards dos painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 
-# BETA: Guia do curador para painéis do Adobe Analytics
+# Guia do curador para painéis do Adobe Analytics
 
+>[!IMPORTANT]
+>
+>Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Essa documentação se destina somente a usuários beta e não representa a funcionalidade completa do recurso. Se você estiver interessado em se tornar um usuário beta para este recurso >, entre em contato com Ashok Gorreanie (gorrepati@adobe.com).
 
 ## Introdução
 
@@ -188,7 +191,6 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
    3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics de dentro do Testflight, como mostrado abaixo:
 
       ![Tela Testflight](assets/testflight2.png)
-
    **Para usuários executivos no Android:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -203,7 +205,6 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
       ![Link de download](assets/playnext.png)
 
    3. Baixe e instale o aplicativo. Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
-
    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
 2. Ajude-os a acessar o Scorecard. Depois que os usuários executivos entram no aplicativo, a tela **Escolher uma empresa** é exibida. Essa tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
@@ -211,7 +212,6 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
    * Toque no nome da empresa de logon ou na Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista do Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
    * Ajude-os a classificar essa lista pela **Modificação mais recente**, se aplicável.
    * Toque no nome do Scorecard para visualizá-lo.
-
    ![Escolha uma empresa](assets/accesscard.png)
 
    Observação: se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi compartilhado:
@@ -220,7 +220,6 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
    * O Scorecard pode não ter sido compartilhado com o usuário executivo
 
       ![Nada compartilhado](assets/nothing.png)
-
    Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 3. Explique ao usuário executivo como os blocos são exibidos nos Scorecards que você compartilha.
