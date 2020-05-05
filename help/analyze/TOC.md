@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
@@ -328,7 +328,7 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
 + painéis do Adobe Analytics {#mobapp}
-   + [Visão geral dos painéis do Adobe Analytics](mobile-app/home.md)
+   + [painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
    + [Guia do Curador](mobile-app/curator.md)
    + [Guia de start rápido do usuário executivo](mobile-app/executive.md)
 + Aplicativos da Web progressivos {#pwa}
