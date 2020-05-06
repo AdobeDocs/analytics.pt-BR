@@ -2,7 +2,10 @@
 description: O Quick Insights Builder é uma ferramenta para novos usuários do Workspace que os guia na criação de tabelas de dados e visualizações
 title: Construtor do Quick Insights
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
@@ -11,19 +14,19 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** está atualmente em testes limitados e ainda não está disponível para todos os clientes do Adobe Analytics.
+>**[!UICONTROL O Quick Insights]** está atualmente em testes limitados e ainda não está disponível para todos os clientes do Adobe Analytics.
 
-[!UICONTROL Quick Insights] fornece orientação para que não analistas e novos usuários aprendam [!UICONTROL Analysis Workspace] a responder perguntas comerciais de forma rápida e fácil. É também uma excelente ferramenta para usuários avançados que desejam responder rapidamente a uma pergunta simples sem precisar criar uma tabela eles mesmos.
+[!UICONTROL O Quick Insights] fornece orientação para não analistas e novos usuários da [!UICONTROL Análise Workspace] para saber como responder perguntas comerciais de forma rápida e fácil. É também uma excelente ferramenta para usuários avançados que desejam responder rapidamente a uma pergunta simples sem precisar criar uma tabela eles mesmos.
 
-Ao usar esse start pela primeira vez, você pode se perguntar quais visualizações seriam mais úteis, quais dimensões e métricas podem facilitar insights, onde arrastar e soltar itens, onde criar um segmento etc. [!UICONTROL Analysis Workspace]
+Ao usar este espaço de trabalho [!UICONTROL de]Análise pela primeira vez, você pode se perguntar quais visualizações seriam mais úteis, quais dimensões e métricas podem facilitar insights, onde arrastar e soltar itens, onde criar um segmento etc.
 
-Para ajudar nisso, e com base no uso dos componentes de dados pelo seu próprio empresa no [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa.
+Para ajudar nisso, e com base na sua própria utilização de componentes de dados na [!UICONTROL Análise Workspace], o [!UICONTROL Quick Insights] aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa.
 
-[!UICONTROL Quick Insights] ajuda você
+[!UICONTROL Os insights] rápidos ajudam você a
 
-* Crie corretamente uma tabela de dados e uma visualização a ela no [!UICONTROL Analysis Workspace].
-* Aprenda a terminologia e o vocabulário para componentes básicos e partes de [!UICONTROL Analysis Workspace].
-* Faça detalhamentos simples de dimensões, adicione várias métricas ou compare segmentos facilmente em uma [!UICONTROL Freeform table].
+* Crie corretamente uma tabela de dados e uma visualização que a acompanha na [!UICONTROL Análise Workspace].
+* Conheça a terminologia e o vocabulário para componentes básicos e partes da [!UICONTROL Análise Workspace].
+* Faça detalhamentos simples de dimensões, adicione várias métricas ou compare segmentos facilmente em uma tabela [!UICONTROL de forma]livre.
 * Altere ou experimente vários tipos de visualização para encontrar a ferramenta localizar para sua análise de forma rápida e intuitiva.
 
 ## Terminologia básica
@@ -32,28 +35,30 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
 
 | Bloco de construção (Componente) | Definição |
 |---|---|
-| [!UICONTROL Dimension] | Dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um projeto. São valores não numéricos e datas que se dividem em itens de dimensão. Por exemplo, &quot;navegador&quot; ou &quot;página&quot; são dimensões. |
-| [!UICONTROL Dimension item] | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
-| [!UICONTROL Metric] | As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante. |
-| [!UICONTROL Visualization] | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para criar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linha, mapas, gráficos de dispersão e outros. |
-| [!UICONTROL Breakdown] | Um detalhamento é uma maneira de literalmente dividir uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
-| [!UICONTROL Segment] | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar [!UICONTROL Visitor] segmentos com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
+| [!UICONTROL Dimensão] | Dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um projeto. São valores não numéricos e datas que se dividem em itens de dimensão. Por exemplo, &quot;navegador&quot; ou &quot;página&quot; são dimensões. |
+| [!UICONTROL Item de dimensão] | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
+| [!UICONTROL Métrica] | As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante. |
+| [!UICONTROL Visualização] | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para criar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linha, mapas, gráficos de dispersão e outros. |
+| [!UICONTROL Detalhamento] | Um detalhamento é uma maneira de literalmente dividir uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
+| [!UICONTROL Segmento] | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar segmentos de [!UICONTROL Visitantes] com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
 
 ## Introdução ao Quick Insights
 
 1. Faça logon no Adobe Analytics usando as credenciais fornecidas.
-1. Vá para [!UICONTROL Workspace] e clique **[!UICONTROL Create New Project]** e clique em **[!UICONTROL Quick Insights]**.
+1. Vá para o [!UICONTROL Workspace] e clique em **[!UICONTROL Criar novo projeto]** e clique em **[!UICONTROL Insights]** rápidos. (Você também pode acessar esse painel no menu **[!UICONTROL Painel]** no painel esquerdo.)
 
    ![](assets/qibuilder.png)
 
-1. Ao sair pela primeira vez do start, percorra o curto tutorial que lhe ensina algumas das [!UICONTROL Quick Insights panel] noções básicas. Ou clique para **[!UICONTROL Skip Tutorial]**.
+   ![](assets/qi-panel.png)
+
+1. Ao sair pela primeira vez do start, passe pelo breve tutorial que ensina algumas das noções básicas do painel [!UICONTROL Insights] rápidos. Ou clique para **[!UICONTROL Ignorar tutorial]**.
 1. Selecione os blocos componentes (também conhecidos como componentes): dimensões (laranja), métricas (verde), segmentos (azul) ou intervalos de datas (roxo) É necessário selecionar pelo menos uma dimensão e uma métrica para que uma tabela seja criada automaticamente.
 
    ![](assets/qibuilder2.png)
 
    Você tem três maneiras de selecionar os blocos de construção:
    * Arraste e solte-os do painel esquerdo.
-   * Se você sabe o que está procurando: Digitação de Start e [!UICONTROL Quick Insights] preencherá os espaços para você.
+   * Se você sabe o que está procurando: Digitação de Start e insights  rápidos preencherão os espaços em branco para você.
    * Clique na lista suspensa e pesquise a lista.
 
 1. Quando você tiver adicionado pelo menos uma dimensão e uma métrica, o seguinte será criado para você:
@@ -61,18 +66,20 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
    * Uma tabela de forma livre com a dimensão (aqui, Estados dos EUA) verticalmente e a métrica (aqui, Visitas) horizontalmente na parte superior. Confira esta tabela:
    ![](assets/qibuilder3.png)
 
-   * Uma visualização acompanhante, neste caso um gráfico [de](/help/analyze/analysis-workspace/visualizations/bar.md)barras. A visualização gerada baseia-se no tipo de dados que você adicionou à tabela. Você pode alterar o tipo de visualização clicando na seta suspensa ao lado de **[!UICONTROL Bar]**.
+   * Uma visualização acompanhante, neste caso um gráfico [de](/help/analyze/analysis-workspace/visualizations/bar.md)barras. A visualização gerada baseia-se no tipo de dados que você adicionou à tabela. Você pode alterar o tipo de visualização clicando na seta suspensa ao lado da **[!UICONTROL Barra]**.
 
 
 1. (Opcional) Detalhe as dimensões e veja os itens de dimensão clicando na seta > direita ao lado da dimensão.
 
-1. Tente adicionar mais refinamentos conforme descrito abaixo em &quot;Outras opções úteis&quot;.
+1. Tente adicionar mais refinamentos conforme descrito abaixo em &quot;Mais dicas&quot;.
 
-## Outras opções úteis
+1. Salve o projeto clicando em **[!UICONTROL Projeto > Salvar]**.
 
-Outras dicas úteis aparecerão no [!UICONTROL Quick Insights Builder], algumas delas dependendo de sua última ação.
+## Mais dicas
 
-* Primeiro, conclua o **[!UICONTROL More tips]** tutorial: Acesse-o por meio da Ajuda (?) ao lado do [!UICONTROL Quick Insights Panel] título.
+Outras dicas úteis aparecerão no Criador [!UICONTROL de insights]rápidos, algumas delas dependendo da última ação.
+
+* Primeiro, preencha o tutorial **[!UICONTROL Mais dicas]** : Acesse-o por meio da Ajuda (?) ícone ao lado do título [!UICONTROL Quick Insights] . Este tutorial é exibido 24 horas após você ter criado um projeto com pelo menos uma dimensão e uma métrica.
 
    ![](assets/qibuilder4.png)
 
@@ -88,9 +95,13 @@ Outras dicas úteis aparecerão no [!UICONTROL Quick Insights Builder], algumas 
 
    ![](assets/qibuilder7.png)
 
+## Abrir/carregar um projeto do Quick Insights
+
+
+
 ## Limitações conhecidas
 
-Se você tentar editar diretamente na tabela, isso fará com que o [!UICONTROL Quick Insights] painel (a ferramenta de preenchimento) fique dessincronizado. Você pode restaurá-la para as [!UICONTROL Quick Insights] configurações anteriores clicando **[!UICONTROL Resync Builder]** na parte superior direita do painel.
+Se você tentar editar diretamente na tabela, isso fará com que o painel [!UICONTROL Quick Insights] (a ferramenta de preenchimento) fique fora de sincronia. Você pode restaurá-lo para as configurações anteriores do [!UICONTROL Quick Insights] clicando em **[!UICONTROL Ressincronizar o Construtor]** na parte superior direita do painel.
 
 ![](assets/qibuilder9.png)
 
