@@ -4,7 +4,10 @@ title: O que é a análise de coorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ A Análise de coorte está disponível a todos os clientes do Analytics com dire
 
 >[!IMPORTANT]
 >
->A Análise de coorte não suporta métricas calculadas.
+>A Análise de coorte não oferece suporte a métricas não segmentáveis, como métricas calculadas, métricas que não sejam inteiros ou [!UICONTROL Ocorrências]. Somente as métricas que podem ser usadas em segmentos podem ser usadas na Análise de coorte e só podem ser incrementadas em 1 de cada vez.
 
 ## Recursos da análise de coorte
 
