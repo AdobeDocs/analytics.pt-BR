@@ -2,14 +2,17 @@
 title: Perguntas frequentes
 description: Obtenha respostas para perguntas frequentes ao mudar de uma plataforma de terceiros para a Adobe.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 75%
 
 ---
 
 
 # Perguntas frequentes
 
-**Como posso migrar meus dados históricos da minha plataforma de terceiros para a Adobe?**
+**Como posso migrar meus dados históricos da plataforma de terceiros para o Adobe Analytics?**
 
 Cada plataforma do Analytics tem diferentes maneiras de coletar, manipular e armazenar dados. Em vez de migrar dados históricos, a Adobe recomenda estabelecer uma data limite clara para começar a coletar e usar dados no Adobe Analytics. As datas limites usadas com frequência são o início de um ano fiscal, o início de um ano civil ou o início de um mês. Se os usuários quiserem exibir dados históricos, eles poderão fazer logon na plataforma de terceiros para obter necessidades específicas de relatórios históricos.
 
@@ -17,15 +20,15 @@ Se a organização estiver convencida de que os dados históricos foram transmit
 
 A Adobe não recomenda a portabilidade de dados históricos, pois é um processo complexo e de alto custo para a organização. A identificação do visitante também é impossível de ser diretamente enviada para a Adobe, já que as informações do visitante são armazenadas em diferentes cookies e formatos entre plataformas.
 
-**Estou acostumado com uma lista suspensa de segmentação em muitos dos meus relatórios. Como posso recriar isso na Analysis Workspace?**
+**Estou acostumado com uma lista suspensa de segmentação em muitos dos meus relatórios. How can I recreate that in[!UICONTROL Analysis Workspace]?**
 
-Os filtros suspensos são um recurso flexível e robusto da Analysis Workspace, que permite uma lista suspensa de segmentação. Em um projeto do espaço de trabalho:
+Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. Em um projeto do espaço de trabalho:
 
 1. Use ctrl+clique (Windows) ou cmd+clique (Mac) nos componentes que deseja incluir na lista suspensa. Você não está limitado a apenas segmentos; qualquer componente pode ser incluído em um filtro suspenso.
 2. Arraste o grupo de componentes para o espaço de trabalho chamado &#39;Solte um segmento aqui&#39;. Antes de soltar, pressione a tecla Shift.
 
-Os usuários que acessam este projeto do espaço de trabalho agora podem usar essa lista suspensa para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia do usuário do Analytics para obter mais informações.
+Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
 **Estou acostumado a clicar em um valor de dimensão para ver um detalhamento. Como posso replicar esse fluxo de trabalho fácil na Analysis Workspace?**
 
-Os valores de dimensão na Analysis Workspace também têm um fluxo de trabalho de detalhamento fácil; é acessado usando o clique com o botão direito do mouse em vez do clique com o botão esquerdo. Clique com o botão direito do mouse em um valor de dimensão, clique em Detalhamento e selecione o componente desejado. Aplique o mesmo detalhamento a vários valores de dimensão usando ctrl+clique (Windows) ou cmd+clique (Mac) em cada valor.
+Os valores de dimensão na área de trabalho da [!UICONTROL Análise] também têm um fluxo de trabalho de detalhamento fácil. Para acessá-la, clique com o botão direito do mouse em vez de clicar com o botão esquerdo do mouse. Right-click on a dimension value, click **[!UICONTROL Breakdown], then select the desired component. Aplique o mesmo detalhamento a vários valores de dimensão usando ctrl+clique (Windows) ou cmd+clique (Mac) em cada valor.
