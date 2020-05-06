@@ -2,76 +2,81 @@
 title: Modal de implementação
 description: Saiba mais sobre a experiência dos novos clientes ao executarem a implementação do Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # Modal de implementação
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Consulte [Criar um conjunto](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de relatórios.
 
-A janela modal &quot;Bem-vindo ao Adobe Analytics&quot; oferece um fluxo de trabalho simplificado para criar um conjunto de relatórios. A Adobe recomenda usar esse fluxo de trabalho sempre que mais conjuntos de relatórios forem necessários na organização.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![Captura de tela modal](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## Pré-requisitos
+![Modal screenshot](assets/implementation-modal.png)
 
-Sua Adobe ID deve ter acesso ao Adobe Analytics e ao Adobe Experience Platform Launch. Se não tiver acesso ao Launch, poderá entrar em um loop de autenticação no qual ele solicita que suas credenciais sejam verificadas indefinidamente. Fale com um administrador de sistema em sua organização para obter acesso ao Launch.
+## Prerequisites
 
-## Acessar o modal
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-Acesse o modal para criar um conjunto de relatórios usando as etapas a seguir.
+## Access the modal
 
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no ícone de 9-grid na parte superior e em [!UICONTROL Adobe Analytics].
-3. Se ainda não tiver criado um conjunto de relatórios, o modal será exibido automaticamente. Se existir um conjunto de relatórios para essa empresa de logon, clique no ícone Ajuda na parte superior direita e em [!UICONTROL Bem-vindo ao Adobe Analytics].
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] A opção [!UICONTROL Bem-vindo ao Adobe Analytics] só será exibida se você fizer logon por meio da Adobe Experience Cloud. Se fizer logon por meio de domínios herdados, o modal não estará disponível.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## Criar um novo conjunto de relatórios
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-Clique no botão [!UICONTROL Iniciar configuração] para iniciar o fluxo de trabalho de criação do conjunto de relatórios.
+## Create a report suite
 
-![Assistente RS](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### Tipo de propriedade
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-O tipo de propriedade ajuda a Adobe a determinar algumas configurações de backend com base em onde você pretende implementar o Analytics.
+### Property type
 
-* **Site**: se você pretende implementar o Adobe Analytics apenas para um site.
-* **Aplicativo móvel nativo**: se você pretende implementar o Adobe Analytics apenas para um aplicativo móvel.
-* **Ambos**: se este conjunto de relatórios contiver dados de um site e um aplicativo móvel.
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### Setores
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-Especifique seu modelo de negócios principal. Essa configuração ajuda a Adobe a pré-configurar alguns nomes e configurações de variável com base no modelo de negócios principal.
+### Industries
 
-### Camada de dados
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-Uma [camada de dados](data-layer.md) é um objeto JavaScript que organiza todas as variáveis usadas na implementação em um único local útil. Consulte [Camadas de dados](data-layer.md) para obter mais informações.
+### Data layer
 
-### Repositório de dados
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-Dê um nome amigável ao conjunto de relatórios. A ID do conjunto de relatórios (RSID) é gerada automaticamente com base no nome amigável e na empresa de logon.
+### Data repository
 
-### Fuso horário
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-Verifique se a Adobe detectou o fuso horário correto para o conjunto de relatórios.
+### Time zone
 
-### Exibições de página estimadas por dia
+Verify that Adobe detected the correct time zone for the report suite.
 
-Estime quanto tráfego o site ou aplicativo recebe por dia. Essas informações permitem que a Adobe aloque a quantidade correta de recursos de processamento no conjunto de relatórios.
+### Estimated page views per day
 
-### Moeda de base
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-Determine em qual moeda o conjunto de relatórios armazena valores monetários.
+### Base currency
 
->[!IMPORTANT] Certifique-se de indicar a moeda correta, especialmente se você tiver requisitos de relatório sobre a receita. É difícil alterar a moeda padrão após o início da coleta de dados.
+Determine what currency the report suite stores monetary values in.
 
-## Recursos de implementação
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-Após criar o conjunto de relatórios, escolha uma das duas opções para continuar com a implementação:
+## Implementation resources
 
-* **Acessar o Adobe Experience Platform Launch**: vincula você ao [launch.adobe.com](https://launch.adobe.com) para configurar a implementação e baixar o código de implantação. Consulte [Implementação com o Launch](../launch/overview.md). A Adobe recomenda usar o Launch na maioria dos casos.
-* **Download do código de implementação**: fornece um link direto para baixar arquivos JavaScript para uma implementação manual do JavaScript. Consulte [AppMeasurement para JavaScript](../js/overview.md).
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
