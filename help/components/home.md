@@ -2,7 +2,10 @@
 title: Ajuda dos componentes do Analytics
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,7 @@ Os componentes do Analytics ajudam você a ajustar e potencializar a análise da
 * **Segmentação:** concentre-se em um subconjunto de seus dados.
 * **Métricas calculadas:** use fórmulas simples para combinar métricas ou funções avançadas para análises estatísticas.
 * **Conjuntos de relatórios virtuais:** crie um silo virtual de dados com base em um conjunto de relatórios. Permite a limpeza ou a segmentação de dados para uma melhor experiência de usuário. Alguns recursos só podem ser usados em conjuntos de relatórios virtuais.
+* **Análises** entre dispositivos: Um tipo especial de conjunto de relatórios virtuais permite configurar o Cross-Device Analytics.
 * **Alertas:** receba notificações sempre que os dados excederem ou estiverem abaixo de um limite.
 * **Classificações:** reorganize e agrupe dimensões de grupo para obter informações adicionais.
 * **Variáveis:** um guia de referência para todas as dimensões e métricas disponíveis nos relatórios.
