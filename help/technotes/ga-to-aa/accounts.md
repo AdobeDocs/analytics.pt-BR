@@ -1,6 +1,9 @@
 ---
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '251'
+ht-degree: 86%
 
 ---
 # Contas e conjuntos de relatórios
@@ -14,4 +17,4 @@ As organizações maiores geralmente têm vários conjuntos de relatórios, um p
 
 Uma diferença importante entre o método de coleta de dados da Adobe e muitas outras ferramentas é que você especifica para quais conjuntos de relatórios enviar dados dentro da implementação. Isso é diferente de outras ferramentas, que normalmente enviam todos os dados para um local de coleta e filtram para exibições ou perfis.
 
-Os conjuntos de relatórios virtuais também estão disponíveis no Adobe Analytics, que fornece uma exibição filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. Por exemplo, você pode usar um conjunto de relatórios virtual para eliminar o tráfego de bot não capturado anteriormente ou excluir a receita fraudulenta/atípica. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes para obter mais informações.
+[!UICONTROL Os conjuntos de relatórios virtuais também estão disponíveis no Adobe Analytics, que fornece uma exibição filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. ] For example, you can use a [!UICONTROL virtual report suite] to eliminate bot traffic not previously caught, or exclude fraudulent/outlier revenue. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes para obter mais informações.
