@@ -2,7 +2,10 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics altera os dados que passam de focados em dispositivos para focados em pessoas, ao compilar os dados do dispositivo.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 90%
 
 ---
 
@@ -56,7 +59,7 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Consulte [Conjuntos de relatórios virtuais](../vrs/vrs-about.md) e [Processamento de tempo de relatório](../vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
 * Não há suporte para a API 1.4. Os conectores do Power BI e do Construtor de relatórios dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * Se sua organização usar o Gráfico privado, novos dispositivos levarão até 24 horas para serem costurados.
-* Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas. A Adobe pretende melhorar o gráfico de cooperação para um gráfico atualizado diariamente no futuro.
+* Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
 
 Assim que sua organização atender a todos os requisitos e entender as limitações, você poderá iniciar a [Configuração do Cross-Device Analytics](cda-setup.md).
