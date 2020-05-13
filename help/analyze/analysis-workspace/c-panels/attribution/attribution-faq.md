@@ -2,7 +2,10 @@
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -16,10 +19,6 @@ O item de linha &#39;Nenhum&#39; é um item catch-all que representa todas as co
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
 Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
-
-**Posso usar uma janela de retrospectiva personalizada com meus modelos de atribuição?**
-
-Os modelos de atribuição dependem atualmente de uma janela de retrospectiva de visitante ou de visita. Ambas as janelas de retrospectiva podem ser ajustadas alterando-se o intervalo de datas do relatório (para retrospectiva de visitante) ou usando uma definição de visita personalizada como parte dos conjuntos de relatórios virtuais. Consulte [Processamento de tempo do relatório](../../../../components/vrs/vrs-report-time-processing.md) para obter mais informações.
 
 **Quando devo usar retrospectiva de atribuição de visita e quando devo usar retrospectiva de atribuição de visitante?**
 
