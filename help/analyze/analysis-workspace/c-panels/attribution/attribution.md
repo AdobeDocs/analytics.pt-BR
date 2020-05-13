@@ -3,7 +3,10 @@ description: 'null'
 title: Visão geral do painel Atribuição
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '1799'
+ht-degree: 91%
 
 ---
 
@@ -31,11 +34,6 @@ O painel de atribuição é um recurso do [Attribution IQ](../../attribution-iq.
 | ![Personalizado](assets/custom.png) | Personalizado | Permite que você especifique os pesos que deseja atribuir ao primeiro, ao último e ao resto de pontos de contato. Os valores especificados são regularizados para 100% mesmo se os números inseridos, quando somados, não resultarem em 100. Para conversões com um só ponto de contato, o crédito é de 100%. Para interações com dois pontos de contato, o parâmetro intermediário é ignorado. O primeiro e o último ponto de contato são normalizados para 100% e o crédito é atribuído em conformidade. | Esse modelo é perfeito para quem quer controle total sobre seu modelo de atribuição e tem necessidades específicas que outros modelos de atribuição não atendem. |
 | ![Declínio de tempo](assets/time_decay.png) | Declínio de tempo | Segue um declínio exponencial com um parâmetro personalizado de meia-vida e padrão de 7 dias. O peso de cada canal depende da quantidade de tempo decorrido entre a iniciação do ponto de contato e a conversão final. A fórmula usada para determinar o crédito é `2^(-t/halflife)`, em que `t` é o tempo entre um ponto de contato e uma conversão. Todos os pontos de contato são normalizados para 100%. | Ideal para equipes que fazem publicidade em vídeos ou marketing para eventos com data predeterminada. Quanto mais tarde ocorrer uma conversão após um evento de marketing, menos crédito será dado. |
 | ![Participação](assets/participation.png) | Participação | Dá 100% de crédito a todos os pontos de contato exclusivos. O número total de conversões aumenta em comparação com outros modelos de atribuição. A participação remove a duplicação de canais que são vistos várias vezes. | Excelente para identificar a quem os clientes são expostos com frequência em uma determinada interação. As organizações de mídia usam esse modelo frequentemente para calcular a velocidade do conteúdo. As varejistas geralmente usam esse modelo para identificar as partes do site que são essenciais para a conversão. |
-
->[!NOTE] O seguinte modelo de atribuição algorítmica está disponível atualmente nos laboratórios [do Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/tech-previews/overview.html) e eventualmente fará parte de uma versão geral.
-
-| Ícone da interface do usuário | Modelos de atribuição | Definição | Quando usar |
-| --- | --- | --- | --- |
 | ![Algorítmico](assets/algorithmic.png) | [Algorítmico](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. | Útil para ajudar a evitar adivinhações ou heurística ao escolher o modelo de atribuição correto para sua empresa. |
 
 ## Janelas de retrospectiva
@@ -45,6 +43,8 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 * **Janela de retrospectiva de visita:** retroage até o início de uma visita em que ocorreu uma conversão. As janelas de retrospectiva de visita são pequenas, pois não consideram nada além da visita. As janelas de retrospectiva de visita respeitam a definição de visita modificada em conjuntos de relatórios virtuais.
 
 * **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
+
+* **Janela de pesquisa personalizada:** Permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
 ## Exemplo
 
