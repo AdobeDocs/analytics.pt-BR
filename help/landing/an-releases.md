@@ -1,24 +1,24 @@
 ---
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
-title: Adobe Analytics - estratégia de lançamento de recursos
+title: Versões de recursos do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics - estratégia de lançamento de recursos
+# Versões de recursos do Adobe Analytics
 
-Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. A partir de abril de 2020, o Adobe Analytics está migrando para um modelo de delivery contínuo que permite uma abordagem mais escalonável e em fases para a implantação de recursos.
+Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. A partir de abril de 2020, o Adobe Analytics foi para um modelo de delivery contínuo que permite uma abordagem mais escalonável e em fases para a implantação de recursos.
 
 ## Estratégia de lançamento
 
 [!UICONTROL A área de trabalho] da Análise usa sinalizadores de recursos (também conhecidos como &quot;alternâncias&quot;) para controlar a visibilidade de novos recursos, permitindo testes de escala controlados antes do lançamento completo. Esta estratégia de lançamento inclui as seguintes fases:
 
-* **Liberação para a Produção (RTP)**: O código é lançado para a produção, com a visibilidade do recurso desativada na área de trabalho da Análise. **Observação**: No momento, o recurso pode estar disponível na API do Analytics 2.0.
+* **Liberação para a Produção (RTP)**: O código é lançado para a produção, com a visibilidade do recurso desativada na área de trabalho da Análise. **Observação**: No RTP, o recurso pode estar disponível na API do Analytics 2.0.
 
 * **Teste** limitado: Uma versão em fases começa com testes por usuários internos da Adobe. A versão é então redimensionada de 0% a 100% de disponibilidade ao longo de dois meses. A implantação em fases ocorre no nível da organização da Experience Cloud, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
 
