@@ -2,16 +2,15 @@
 title: Uso de dados XDM com o Analytics
 description: 'Visão geral do uso de dados XDM da plataforma Experience no Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 4%
 
 ---
 
 
 # Uso de dados de borda da plataforma Adobe Experience com o Analytics
-
 
 Você pode usar o SDK [da Web da plataforma](https://docs.adobe.com/content/help/pt-BR/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience (AEP) para enviar dados ao Adobe Analytics. Isso funciona traduzindo o Modelo de dados de [experiência (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) em um formato usado pelo Analytics.
 
@@ -23,7 +22,7 @@ O Analytics coleta dados XDM por meio de dois métodos:
 
 ## Mapeamento automático
 
-O mapeamento automático depende de um [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do [Analytics que são mapeadas automaticamente do XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) para seus conjuntos de relatórios configurados não exigem suporte para desenvolvedores a serem incorporados.
+[O mapeamento](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) automático depende de um [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do [Analytics que são mapeadas automaticamente do XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) para seus conjuntos de relatórios configurados não exigem suporte para desenvolvedores a serem incorporados.
 
 ## Mapeamento manual
 
