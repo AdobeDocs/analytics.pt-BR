@@ -2,24 +2,26 @@
 description: Instruções para usar os scorecards de painéis.
 title: Guia executivo de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
 
-# painéis do Adobe Analytics: guia de start rápido do usuário executivo
+# Painéis do Adobe Analytics: guia de início rápido do usuário executivo
 
->[!IMPORTANT]
->
->Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Essa documentação se destina somente a usuários beta e não representa a funcionalidade completa do recurso. Se você estiver interessado em se tornar um usuário beta para este recurso >, entre em contato com Ashok Gorreanie (gorrepati@adobe.com).
+As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics.
+
 
 ## Introdução
 
-Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics.  O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Painéis são suportados em sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Os painéis são aceitos em sistemas operacionais iOS e Android.
 
-## Sobre este guia
+## Mais informações sobre este guia
 
-Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards em painéis do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos painéis do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
 ## Glossário de termos
 
@@ -28,30 +30,30 @@ Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scor
 | Consumidor | Usuário executivo que visualiza as métricas principais e informações do Analytics em um dispositivo móvel |
 | Curador | Usuário com conhecimento de dados que encontra e distribui informações do Analytics e configura os Scorecards para serem visualizados pelo consumidor |
 | Preparação | O ato de criar ou editar um scorecard para dispositivos móveis com métricas, dimensões e outros componentes relevantes para o consumidor |
-| Scorecard | Uma visualização de painéis contendo um ou mais blocos |
+| Scorecard | Uma exibição de painéis que contém um ou mais blocos |
 | Bloco | Uma renderização para uma métrica em uma Exibição de scorecard |
-| Detalhamento | Uma exibição secundária acessível ao tocar em um bloco no Scorecard. Essa exibição é expandida na métrica mostrada no bloco e, opcionalmente, relata as dimensões adicionais de detalhamento. |
-| Intervalo de datas | O intervalo de datas principal do relatórios de painéis |
+| Detalhamento | Uma exibição secundária acessível ao tocar em um bloco no Scorecard. Essa exibição é expandida na métrica mostrada no bloco e, opcionalmente, relata as dimensões adicionais de detalhamento |
+| Intervalo de datas | O intervalo de datas principal dos relatórios de painéis |
 | Intervalo de datas de comparação | O Intervalo de datas comparado ao intervalo de datas principal |
 
-## Obter painéis configurados em seu dispositivo
+## Configure os painéis no seu dispositivo
 
-Para usar os painéis com eficiência, será necessário ter o curador do Scorecard para ajudá-lo a configurá-lo. Esta seção fornece informações para ajudar a configurar com a assistência do curador.
+Para usar os painéis de maneira eficaz, você precisará do curador do Scorecard para ajudar a configurar. Esta seção fornece informações para ajudar a configurar com a assistência do curador.
 
 ### Obter acesso
 
-Para acessar Scorecards em painéis, verifique se:
+Para acessar os Scorecards nos painéis, verifique se:
 
 * Você possui um logon válido no Adobe Analytics
 * O curador criou corretamente os Scorecards para dispositivos móveis e os compartilhou com você
 
-### painéis de download e instalação
+### Painéis de download e instalação
 
 Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema operacional do dispositivo.
 
 **Para dispositivos iOS:**
 
-1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
+1. Clique no link público a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**):
 
    [Link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -61,13 +63,13 @@ Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema oper
 
 2. Toque no link **Exibir na loja de aplicativos** na tela para baixar o aplicativo Testflight.
 
-3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics de dentro do Testflight, como mostrado abaixo:
+3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics no Testflight, como mostrado abaixo:
 
    ![Tela Testflight](assets/testflight2.png)
 
 **Para dispositivos Android:**
 
-1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+1. Toque no seguinte link da Play Store no dispositivo do usuário (também está disponível no Analytics em **Ferramentas** > **painéis**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -88,7 +90,7 @@ Para usar painéis:
 
    ![Sequência de logon](assets/signseq.png)
 
-2. Escolha uma empresa. After you sign into dashboards, the **Choose a company** screen appears. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
+2. Escolha uma empresa. Depois que você entrar nos painéis, a tela **Escolher uma empresa** é exibida. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
 
 3. A lista Scorecard mostra todos os Scorecards que foram compartilhados com você. Toque no Scorecard que deseja exibir.
 
@@ -133,7 +135,7 @@ Para usar painéis:
 
 8. Deixar feedback. Para deixar comentários:
 
-   1. Toque no ícone do usuário no canto superior direito da tela painéis.
+   1. Toque no ícone do usuário no canto superior direito da tela dos painéis.
    2. Na tela **Minha conta**, toque na opção **Comentários**.
    3. Toque para ver as opções para deixar comentários.
    ![Deixar feedback](assets/feedback.png)
