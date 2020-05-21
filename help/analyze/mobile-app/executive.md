@@ -2,10 +2,10 @@
 description: Instruções para usar os scorecards de painéis.
 title: Guia executivo de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1228'
+ht-degree: 80%
 
 ---
 
@@ -51,36 +51,21 @@ Para acessar os Scorecards nos painéis, verifique se:
 
 Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema operacional do dispositivo.
 
-**Para dispositivos iOS:**
+**Para usuários executivos no iOS:**
 
-1. Clique no link público a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**):
+* Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-   [Link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+   [Link para iOS](https://apple.co/2zXq0aN)
 
-   Após clicar no link, a seguinte tela Testflight é exibida:
+**Para usuários executivos no Android:**
 
-   ![Tela Testflight](assets/testflight1.png)
+* Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-2. Toque no link **Exibir na loja de aplicativos** na tela para baixar o aplicativo Testflight.
+   [Android](https://bit.ly/2LM38Oo)
 
-3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics no Testflight, como mostrado abaixo:
+Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics.
 
-   ![Tela Testflight](assets/testflight2.png)
-
-**Para dispositivos Android:**
-
-1. Toque no seguinte link da Play Store no dispositivo do usuário (também está disponível no Analytics em **Ferramentas** > **painéis**):
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Depois de tocar no link, toque no link Torne-se um testador na tela a seguir:
-
-   ![Tela Play Store](assets/play.png)
-
-2. Toque no link **Baixar no Google Play** na tela a seguir:
-
-   ![Link de download](assets/playnext.png)
+![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
 ## Usar painéis
 
@@ -94,16 +79,15 @@ Para usar painéis:
 
 3. A lista Scorecard mostra todos os Scorecards que foram compartilhados com você. Toque no Scorecard que deseja exibir.
 
-   ![Escolha uma empresa](assets/accesscard.png)
+   ![Escolha uma empresa](assets/nextseq.png)
 
-   *Observação: se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com o curador:*
+   Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com seu curador:
 
-   * *Você pode fazer logon na instância correta do Analytics*
-   * *O Scorecard foi compartilhado com você*
+   Você pode fazer logon na instância correta do AnalyticsO Scorecard foi compartilhado com você
 
-      ![Nada compartilhado](assets/nothing.png)
+   ![Nada compartilhado](assets/nothing.png)
 
-4. Examine como os blocos são exibidos no Scorecard.
+4. Examine como os blocos aparecem no Scorecard (este Scorecard é mostrado no modo escuro).
 
    ![Explicação dos blocos](assets/newexplain.png)
 
@@ -125,21 +109,27 @@ Para usar painéis:
 
    ![Alterar datas](assets/changedate.png)
 
-   *Observação: você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.*
+   Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
 
    Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
-7. Obter atualizações do Scorecard. Se um Scorecard não incluir todas as métricas ou detalhamentos em que você possa estar interessado, entre em contato com a equipe do Analytics para atualizar o Scorecard. Depois da atualização, puxe o cartão para baixo na tela para atualizá-lo e carregar os dados adicionados recentemente.
+7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo seu curador.
 
+   ![Filtro de segmento](assets/segment_filter.png)
 
+8. Obter atualizações do Scorecard. Se um Scorecard não incluir todas as métricas ou detalhamentos em que você possa estar interessado, entre em contato com a equipe do Analytics para atualizar o Scorecard. Depois da atualização, puxe o cartão para baixo na tela para atualizá-lo e carregar os dados adicionados recentemente.
 
-8. Deixar feedback. Para deixar comentários:
+9. Para deixar comentários sobre este aplicativo:
 
-   1. Toque no ícone do usuário no canto superior direito da tela dos painéis.
-   2. Na tela **Minha conta**, toque na opção **Comentários**.
+   1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Toque para ver as opções para deixar comentários.
-   ![Deixar feedback](assets/feedback.png)
-   ![Opções de comentários](assets/feedback_option.png)
+
+      ![Tela de configurações](assets/settings.png)
+
+10. Para alterar as preferências, toque na opção **Preferências** mostrada acima. Em preferências, você pode ativar o logon biométrico ou pode definir o aplicativo para o modo escuro, como mostrado abaixo:
+
+   ![Modo escuro](assets/darkmode.png)
 
 
 **Para relatar um erro**:
