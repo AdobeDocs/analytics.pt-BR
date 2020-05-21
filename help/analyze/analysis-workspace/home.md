@@ -4,15 +4,19 @@ title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 9ea9beba2a608da66e1f942cc100ebde958a8a10
+source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 33%
+source-wordcount: '275'
+ht-degree: 32%
 
 ---
 
 
 # Visão geral do Analysis Workspace
+
+>[!IMPORTANT]
+>
+>Esta página está atualmente em construção.
 
 O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
