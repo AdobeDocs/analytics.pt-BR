@@ -2,10 +2,10 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Guia do curador para painéis do Adobe Analytics
 
-As seguintes informações instruem os curadores dos dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos.
+As seguintes informações instruem os curadores dos dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para assistir a um vídeo que demonstra essas informações, consulte Experiência [no aplicativo de painéis do](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
 
 ## Introdução
 
@@ -71,10 +71,6 @@ Você pode acessar o modelo de Scorecard para dispositivos móveis em branco de 
 
 ![Modelo de Scorecard](assets/new_template.png)
 
-
-*Observação: se você não vir o modelo de Scorecard para dispositivos móveis em branco, como mostrado abaixo, sua empresa ainda não foi ativada para Beta. Entre em contato com o Gerente de atendimento ao cliente.*
-
-
 **Adicionar um projeto**
 
 Na tela **Projetos**, na guia **Componentes**, clique no botão **Adicionar** e selecione **Scorecard para dispositivos móveis**.
@@ -105,18 +101,17 @@ Para implementar o modelo de Scorecard:
 
    ![Adicionar dimensões](assets/layer_dimensions.png)
 
-   *Observação: também é possível adicionar uma dimensão a todos os blocos, soltando-a na tela Scorecard.*
+   Também é possível adicionar uma dimensão a todos os blocos soltando-os na tela do Scorecard.
 
    Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
-
 
    Além disso, se você clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
 
    ![Detalhamento_exibição](assets/break_view.png)
 
-   *Observe como cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.*
+   Cada dimensão adicionada ao bloco será exibida em uma lista suspensa na visualização detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard.
+4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
 
 5. Da mesma forma, para remover um componente aplicado a todo o Scorecard, clique em qualquer lugar do Scorecard fora dos blocos e remova-o clicando no **x** exibido quando você passa o mouse sobre o componente, como mostrado abaixo para o segmento **Clientes de dispositivos móveis**:
 
@@ -155,7 +150,7 @@ Para compartilhar o Scorecard com um usuário executivo:
 
 Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
-*Observação: se você atualizar o Scorecard adicionando novos componentes, convém compartilhar o scorecard novamente (e marque a opção **Compartilhar automaticamente os componentes inseridos com os destinatários**) para garantir que os usuários executivos tenham acesso a essas alterações.*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## Configure os usuários executivos com o aplicativo
 
@@ -171,42 +166,23 @@ Para ajudar os usuários executivos a acessar os Scorecards no aplicativo, verif
 * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios em o Scorecard se baseia
 * Eles têm acesso aos Componentes incluídos no Scorecard. Observação: é possível selecionar uma opção ao compartilhar os Scorecards para **Compartilhar automaticamente os componentes inseridos com os destinatários**.
 
-### Ajude os usuários executivos a usar o aplicativo
+### Ajuda os usuários executivos com o aplicativo
 
-Durante a fase beta e antes do lançamento do aplicativo ao público, você pode controlar quem tem acesso ao aplicativo.
+Para ajudar usuários executivos:
 
-1. Ajude os usuários executivos a baixar e instalar o aplicativo. Para fazer isso, estabeleça as seguintes etapas para estender o acesso aos usuários executivos, dependendo se eles usam um dispositivo iOS ou Android.
+1. Ajude-os a baixar e instalar o aplicativo. Para fazer isso, estabeleça as seguintes etapas para estender o acesso aos usuários executivos, dependendo se eles usam um dispositivo iOS ou Android.
 
    **Para usuários executivos no iOS:**
 
-   1. Clique no link público a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**):
+   1. Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-      [Link para iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-      Após clicar no link, a seguinte tela Testflight é exibida:
-
-      ![Tela Testflight](assets/testflight1.png)
-
-   2. Toque no link **Exibir na loja de aplicativos** na tela para baixar o aplicativo Testflight.
-
-   3. Após instalar o aplicativo Testflight, localize e instale os painéis do Adobe Analytics no Testflight, como mostrado abaixo:
-
-      ![Tela Testflight](assets/testflight2.png)
-
+      [Link para iOS](https://apple.co/2zXq0aN)
    **Para usuários executivos no Android:**
 
-   1. Toque no seguinte link da Play Store no dispositivo do usuário (também está disponível no Analytics em **Ferramentas** > **painéis**):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-      Depois de tocar no link, toque no link Torne-se um testador na tela a seguir:
-
-      ![Tela Play Store](assets/play.png)
-
-   2. Toque no link **Baixar no Google Play** na tela a seguir:
-
-      ![Link de download](assets/playnext.png)
-
-   3. Baixe e instale o aplicativo. Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
+      [Android](https://bit.ly/2LM38Oo)
+   Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
 
    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
@@ -215,19 +191,15 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
    * Toque no nome da empresa de logon ou na Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista do Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
    * Ajude-os a classificar essa lista pela **Modificação mais recente**, se aplicável.
    * Toque no nome do Scorecard para visualizá-lo.
-
    ![Escolha uma empresa](assets/accesscard.png)
 
-   Observação: se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi compartilhado:
+   Se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi compartilhado:
 
    * O usuário executivo pode ter selecionado a instância incorreta do Analytics
    * O Scorecard pode não ter sido compartilhado com o usuário executivo
-
-      ![Nada compartilhado](assets/nothing.png)
-
    Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
-3. Explique ao usuário executivo como os blocos são exibidos nos Scorecards que você compartilha.
+3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o Scorecard abaixo é definido no modo escuro, que é definido em **Preferências** , como explicado em uma etapa subsequente):
 
    ![Explicar blocos](assets/newexplain.png)
 
@@ -246,24 +218,30 @@ Durante a fase beta e antes do lançamento do aplicativo ao público, você pode
 
    ![Exibição de detalhamento](assets/sparkline.png)
 
+   * Toque em qualquer ponto em um minigráfico para ver os dados associados a esse ponto na linha.
+
+   * Uma tabela é incluída para exibir dados de dimensões adicionadas ao bloco. Toque na seta para baixo para selecionar dimensões. Se nenhuma dimensão tiver sido adicionada ao bloco, a tabela exibirá os dados do gráfico.
+
 
 5. Para alterar os intervalos de datas do Scorecard:
 
    ![Alterar datas](assets/changedate.png)
 
-   *Observação: você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.*
+   Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
 
    Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
 6. Para deixar comentários sobre este aplicativo:
 
-   1. Toque no ícone do usuário no canto superior direito da tela do aplicativo.
-   2. Na tela **Minha conta**, toque na opção **Comentários**.
+   1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Toque para ver as opções para deixar comentários.
 
-   ![Deixar feedback](assets/feedback.png)
-   ![Opções de comentários](assets/feedback_option.png)
+      ![Tela de configurações](assets/settings.png)
 
+7. Para alterar as preferências, toque na opção **Preferências** mostrada acima. Em preferências, você pode ativar o logon biométrico ou pode definir o aplicativo para o modo escuro, como mostrado abaixo:
+
+   ![Modo escuro](assets/darkmode.png)
 
 **Para relatar um erro**:
 
