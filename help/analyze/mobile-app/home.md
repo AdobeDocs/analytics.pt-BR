@@ -2,7 +2,7 @@
 title: painéis do Adobe Analytics - Visão geral
 description: Documentação do produto e autoajuda dos painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 31fa9fc771eb2e8f335c98e97e7e42e0c5c45284
+source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 71%
@@ -18,9 +18,9 @@ Para saber mais sobre os [!UICONTROL painéis]do Adobe Analytics, consulte os se
 
 * [Guia do curador](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/curator.html)[!UICONTROL : este guia tem como objetivo ajudar os curadores de dados a configurar os scorecards para os usuários executivos nos painéis]. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards.
 
-   Para assistir a uma visão geral em vídeo deste guia, consulte Experiência [no aplicativo de painéis do](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
+   Para assistir a uma visão geral em vídeo deste guia, consulte Construtor [de Scorecard de painéis do](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)Adobe Analytics.
 
 
 * [Guia de início rápido do usuário executivo](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/executive.html)[!UICONTROL : este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
-   Para ver um vídeo que destaca essas informações, consulte Construtor [de Scorecard de painéis do](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)Adobe Analytics.
+   Para ver um vídeo que destaca essas informações, consulte Experiência [no aplicativo de painéis do](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
