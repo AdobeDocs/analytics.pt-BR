@@ -2,9 +2,9 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Para implementar o modelo de Scorecard:
 
 4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
 
+   ![Criar segmentos para filtro](assets/segment_ui.png)
+
 5. Da mesma forma, para remover um componente aplicado a todo o Scorecard, clique em qualquer lugar do Scorecard fora dos blocos e remova-o clicando no **x** exibido quando você passa o mouse sobre o componente, como mostrado abaixo para o segmento **Clientes de dispositivos móveis**:
 
    ![Remover_componentes](assets/new_remove.png)
@@ -174,14 +176,14 @@ Para ajudar usuários executivos:
 
    **Para usuários executivos no iOS:**
 
-   1. Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+   * Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
       [Link para iOS](https://apple.co/2zXq0aN)
    **Para usuários executivos no Android:**
 
-   1. Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+   * Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Link do Android](https://bit.ly/2LM38Oo)
    Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
 
    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
