@@ -4,15 +4,15 @@ title: Guia executivo de painéis do Adobe Analytics
 translation-type: tm+mt
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 80%
+source-wordcount: '1287'
+ht-degree: 75%
 
 ---
 
 
 # Painéis do Adobe Analytics: guia de início rápido do usuário executivo
 
-As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics.
+As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics. Para assistir a um vídeo que demonstra essas informações, consulte Experiência [no aplicativo de painéis do](https://youtu.be/QXqQ_PkArbA)Adobe Analytics.
 
 
 ## Introdução
@@ -53,15 +53,15 @@ Para baixar e instalar o aplicativo, siga as etapas de acordo com o sistema oper
 
 **Para usuários executivos no iOS:**
 
-* Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-   [Link para iOS](https://apple.co/2zXq0aN)
+[Link para iOS](https://apple.co/2zXq0aN)
 
 **Para usuários executivos no Android:**
 
-* Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
-   [Android](https://bit.ly/2LM38Oo)
+[Link do Android](https://bit.ly/2LM38Oo)
 
 Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics.
 
@@ -83,24 +83,29 @@ Para usar painéis:
 
    Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com seu curador:
 
-   Você pode fazer logon na instância correta do AnalyticsO Scorecard foi compartilhado com você
-
+   * Você pode fazer logon na instância correta do Analytics
+   * O Scorecard foi compartilhado com você
    ![Nada compartilhado](assets/nothing.png)
 
-4. Examine como os blocos aparecem no Scorecard (este Scorecard é mostrado no modo escuro).
+4. Analisar como os blocos aparecem no Scorecard (o primeiro Scorecard é mostrado no modo escuro; consulte **Preferências** abaixo para obter mais informações).
 
    ![Explicação dos blocos](assets/newexplain.png)
 
    Informações adicionais sobre blocos:
 
    * A granularidade dos minigráficos depende da duração do intervalo de datas:
-   * Um dia mostra uma tendência horária
-   * Mais de um dia e menos de um ano mostra uma tendência diária
-   * Um ano ou mais mostra uma tendência semanal
-   * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
-   * Você pode puxar a tela para baixo para atualizar o Scorecard.
 
-5. Toque em um bloco para mostrar como funciona um detalhamento minucioso do bloco.
+      * Um dia mostra uma tendência horária
+      * Mais de um dia e menos de um ano mostram uma tendência diária
+      * Um ano ou mais mostra uma tendência semanal
+   * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
+
+   * Você pode puxar a tela para baixo para atualizar o Scorecard.
+   O exemplo de Scorecard a seguir é mostrado no modo normal:
+
+   ![Exemplo de Scorecard](assets/intro_scorecard.png)
+
+5. Toque em um bloco para ver como funciona um detalhamento do bloco.
 
    ![Exibição de detalhamento](assets/sparkline.png)
 
@@ -109,11 +114,11 @@ Para usar painéis:
 
    ![Alterar datas](assets/changedate.png)
 
-   Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
+   * Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
 
-   Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
+   * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
-7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo seu curador.
+7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo seu curador. [Os Filtros](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
