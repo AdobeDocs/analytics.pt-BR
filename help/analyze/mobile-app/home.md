@@ -1,25 +1,26 @@
 ---
 title: painéis do Adobe Analytics - Visão geral
-description: Documentação do produto e autoajuda para painéis do Adobe Analytics
+description: Documentação do produto e autoajuda dos painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d4073fcfaabda669d0705e0adf2c911e8029b846
+source-git-commit: 31fa9fc771eb2e8f335c98e97e7e42e0c5c45284
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 46%
+source-wordcount: '224'
+ht-degree: 71%
 
 ---
 
 
 # painéis do Adobe Analytics - Visão geral
 
->[!IMPORTANT]
->
->Os painéis do Adobe Analytics não são lançados e só estão disponíveis para testes beta entre os clientes convidados. Esta documentação destina-se apenas a usuários beta e não representa a funcionalidade completa do recurso. Se você estiver interessado em se tornar um usuário beta para este recurso, entre em contato com Ashok Gorreanie (gorrepat@adobe.com).
+**[!UICONTROL Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics.]** O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
 
-**[!UICONTROL Os painéis]** do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
+Para saber mais sobre os [!UICONTROL painéis]do Adobe Analytics, consulte os seguintes recursos:
 
-A documentação beta a seguir está disponível para [!UICONTROL painéis]:
+* [Guia do curador](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/curator.html)[!UICONTROL : este guia tem como objetivo ajudar os curadores de dados a configurar os scorecards para os usuários executivos nos painéis]. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards.
 
-* [Guia](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/curator.html)do curador: Este guia tem como objetivo ajudar os curadores de dados a configurar Scorecards para seus usuários executivos em [!UICONTROL painéis]. Os curadores podem ser administradores organizacionais ou pessoas que desempenhem outras funções que sejam responsáveis pela criação de Scorecards.
+   Para assistir a uma visão geral em vídeo deste guia, consulte Experiência [no aplicativo de painéis do](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
 
-* [Guia](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/executive.html)de start rápido do usuário executivo: Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards em [!UICONTROL painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+
+* [Guia de início rápido do usuário executivo](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/executive.html)[!UICONTROL : este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+
+   Para ver um vídeo que destaca essas informações, consulte Construtor [de Scorecard de painéis do](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)Adobe Analytics.
