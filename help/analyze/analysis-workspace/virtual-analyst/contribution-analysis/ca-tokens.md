@@ -3,7 +3,10 @@ description: 'null'
 title: Visão geral da análise de contribuição
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +23,9 @@ A [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-a
 
 A Análise de contribuição ajuda a elaborar uma narrativa para descrever por que uma anomalia aconteceu e como reagir, obtendo métricas relevantes e identificando pontos ocultos que apresentam uma razão geral para as interações do público-alvo e as tendências dos interesses dos clientes. Às vezes, é fácil visualizar e corrigir uma anomalia, como um pedido equivocado de 2000 caiaques. Outras vezes é complexo, como identificar uma tendência crescente ao longo de um período em uma região que reage apenas a uma campanha direcionada específica. Reunir os itens de contribuição nas métricas para várias dimensões e suas associações dá uma ideia geral das interações do público-alvo e ajuda a contextualizar os pontos de dados anômalos.
 
-Veja algumas ideias:
+Estes são alguns casos de uso:
 
-* Identificar o potencial de recomercialização, monitorando as alterações na demanda do produto.
+* Identifique o potencial de recomercialização monitorando as alterações na demanda do produto.
 * Melhorar a experiência do cliente, respondendo aos interesses específicos do público.
 * Identificar rápido os pedidos fraudulentos através de um relatório de pedidos fora dos limites.
 * Proteger-se da espionagem corporativa, identificando usos e downloads excessivos.
@@ -52,7 +55,7 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Por que a Adobe apresentou os tokens? </b> </p> </td> 
-   <td colname="col2"> <p>A Análise de contribuição é uma das capacidades mais importantes do Adobe Analytics desde seu lançamento em 2015. Com um pequeno número de execuções completas por mês (em vez de apenas 3 dimensões para alguns produtos do Analytics), você pode ter uma ideia melhor do que a Análise de contribuição completa e ilimitada pode fazer. </p> </td> 
+   <td colname="col2"> <p>A Análise de contribuição tem sido um dos recursos mais ressonantes do Adobe Analytics. Com um pequeno número de execuções completas por mês (em vez de apenas 3 dimensões para alguns produtos do Analytics), você pode ter uma ideia melhor do que a Análise de contribuição completa e ilimitada pode fazer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como a tokenização funciona na Análise de contribuição? Custa um token para carregar um projeto com uma Análise de contribuição já existente ou apenas ao executar uma nova?</b> </p> </td> 
