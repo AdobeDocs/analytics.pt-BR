@@ -1,7 +1,7 @@
 ---
-description: Introdução à Análise Ad Hoc
+description: Introdução à Ad Hoc Analysis
 title: Visão geral da Ad Hoc Analysis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
