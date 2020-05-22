@@ -3,7 +3,7 @@ description: Exibe informações sobre a ordem na qual as páginas de seu site s
 title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -79,12 +79,12 @@ t_fallout.xml
 
  -->
 
-1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Novo relatório]** > **[!UICONTROL Fallout]**. 
+1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Novo relatório]** > **[!UICONTROL Fallout]**.
 
    Outros relatórios Fallout podem ser encontrados em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]**.
 
 1. (Opcional) Arraste um segmento para o campo [!UICONTROL Soltar segmento aqui] se desejar filtrar os dados por um segmento específico.
-1. Arraste qualquer item de dimensão até o campo [!UICONTROL Soltar evento ou itens de dimensão aqui.]
+1. Arraste qualquer item de dimensão até o campo [!UICONTROL Soltar evento ou itens de dimensão aqui].
 1. Clique em **[!UICONTROL Mostrar Fallout em]** nível de Visita ou de Visitante, dependente se você deseja exibir o fallout no nível de visita ou em várias sessões de visitante.
 1. Adicionar itens de dimensão, como páginas, ao relatório.
 
@@ -99,7 +99,7 @@ t_fallout_assign_pages.xml
  -->
 
 1. Clicar em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fallout de páginas]**.
-1. Do painel de [!UICONTROL dimensões], localize as páginas para adicionar e arraste-as para o campo [!UICONTROL Solte evento ou dimensão aqui.]
+1. Do painel de [!UICONTROL dimensões], localize as páginas para adicionar e arraste-as para o campo [!UICONTROL Solte evento ou dimensão aqui].
 
 ## Relatório de fallout - Descrições de campo {#reference_74255CC8D6134F349FEBFEC72934C866}
 
