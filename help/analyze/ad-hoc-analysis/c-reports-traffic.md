@@ -3,7 +3,7 @@ description: Os relatórios de fontes de tráfego fornecem um insight detalhado 
 title: Relatórios de fontes de tráfego
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -26,7 +26,7 @@ Os relatórios de fontes de tráfego permitem:
 
 **Persistência comum**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. Anteriormente, somente Palavras-chave e Domínios de referência persistiam. Por exemplo, se um visitante realizar uma pesquisa no Google por    &quot;DVD,&quot; que os trás até seu site para uma compra de $100, o relatório aloca um crédito de $100 para a palavra-chave &quot;DVD&quot; e também para o mecanismo de pesquisa do Google. Essa funcionalidade é inalterável, independentemente das configurações do [!DNL Admin Console].
+Em [!UICONTROL Fontes de tráfego], todos os valores do relatório persistem e recebem crédito até que sejam substituídos ou que a visita termine, o que ocorrer primeiro. Anteriormente, somente palavras-chave e domínios referenciadores persistiam. Por exemplo, se um visitante realizar uma pesquisa no Google por &quot;DVD,&quot; que os trás até seu site para uma compra de $100, o relatório aloca um crédito de $100 para a palavra-chave &quot;DVD&quot; e também para o mecanismo de pesquisa do Google. Essa funcionalidade é inalterável, independentemente das configurações do [!DNL Admin Console].
 
 ## Palavras-chave de pesquisa {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**: Exibe o detalhamento de cada palavra-chave de pesquisa usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Todas]**: mostra a análise de cada palavra-chave de pesquisa natural usada para encontrar o seu site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
-**[!UICONTROL Search Keywords - Paid]**: Mostra o detalhamento de cada palavra-chave de pesquisa paga usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Pagas]**: mostra o detalhamento de cada palavra-chave de pesquisa paga usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
-**[!UICONTROL Search Keywords - Natural]**: Exibe o detalhamento de cada palavra-chave de pesquisa paga usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
+**[!UICONTROL Palavras-chave de pesquisa - Naturais]**: mostra o detalhamento de cada palavra-chave de pesquisa usada para encontrar o site. É possível classificar esta lista por exibições da página ou palavras-chave de pesquisa, clicando no título da coluna acima da listagem. Clique na lente de aumento ao lado de uma palavra-chave de busca para ver os resultados da pesquisa para o site.
 
 ## Mecanismos de pesquisa {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**: Exibe quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Todos]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
-**[!UICONTROL Search Engines - Paid]**: Exibe quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Pagos]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
-**[!UICONTROL Search Engines - Natural]**: Exibe quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
+**[!UICONTROL Mecanismos de pesquisa - Naturais]**: mostra quais mecanismos de pesquisa as pessoas estão usando para localizar sua página da Web. O gráfico mostra o detalhamento da porcentagem dos mecanismos de pesquisa usados para localizar o site.
 
 ## Domínios de referência {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -70,7 +70,7 @@ c_reports_ref_domains.xml
 
 Mostra os domínios que indicaram os clientes que mais tiveram impacto nas métricas de sucesso do site. Os referenciadores são divididos em duas categorias principais: Domínios e URLs. Domínios referem-se ao nome do domínio e aparecem como o domínio base, sem a sequência de consulta nem subdiretórios anexados. URLs incluem o nome de domínio base, bem como qualquer sequência de consulta ou subdiretórios.
 
-## Domínios de referência originais  {#concept_EB18251DF70343169B46BB59543A579A}
+## Domínios de referência originais {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
@@ -94,7 +94,7 @@ Por exemplo, se um visitante clica em um link do Site A e chega do site, Site A 
 
 Os domínios ou URLs que não façam parte desses domínios e URLs definidos são considerados referenciadores. Por exemplo, se a página da Web A e a página da Web B são adicionadas ao filtro interno de URL, mas a página da Web C não é. Nesse caso, a página da Web C é considerada um referenciador.
 
-Consulte [Filtros internos de URL](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
+Consulte [Filtros internos de URL](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/internal-url-filter-admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
 >[!NOTE] Os relatórios e análises de marketing registram um domínio de referência como um email quando visitantes clicam em um link de mensagem enviado por email contendo o protocolo [!DNL imap://] ou [!DNL mail://] e chegam em seu site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
 
@@ -129,5 +129,5 @@ Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
 **USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com `news://`. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
 
->[!NOTE] A lógica do Tipo de Quem indicou corresponde a outros relatórios de fontes de tráfego (como [!UICONTROL Referrers] e [!UICONTROL Referring Domains]). This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
+>[!NOTE] A lógica de Tipo de referenciador corresponde a outros relatórios de fonte de tráfego (como [!UICONTROL Referenciadores] e [!UICONTROL Domínios de referência]). Isso deve reduzir ou eliminar as ocorrências dos itens de linha Dentro do seu site e Sem JavaScript no relatório de [!UICONTROL Tipo do Referenciador].
 
