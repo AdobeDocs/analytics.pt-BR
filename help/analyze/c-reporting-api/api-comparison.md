@@ -2,7 +2,7 @@
 description: Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,7 +33,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col5"> Dados completamente processados e finalizados, usados para extrair grandes exportações de dados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latência</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/technotes/latency.translate.html"  > Latência</a> </p> </td> 
    <td colname="col2"> 30 a 90 minutos </td> 
    <td colname="col3"> * Segundos -10 minutos </td> 
    <td colname="col4"> Segundos -10 minutos </td> 
@@ -86,13 +86,13 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Serviços Web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Relatórios em tempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Visão geral do Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Ajuda relacionada**
 
-* [Adobe/IO](https://www.adobe.io/) - Aqui você encontra uma ampla documentação técnica e as ferramentas necessárias para integrar as tecnologias Adobe em seus aplicativos.
+* [Adobe I/O](https://www.adobe.io/) - Aqui você encontra uma ampla documentação técnica e as ferramentas necessárias para integrar as tecnologias Adobe em seus aplicativos.
 * [API de consulta da Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
