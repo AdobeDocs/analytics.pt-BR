@@ -3,7 +3,7 @@ description: É possível diferenciar os links com a personalização da ID do l
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
 
-Como exemplo, digamos que você tenha vários links “Comprar”, que são identificados pelo Activity Map sob a mesma ID de link e Região:
+Como exemplo, digamos que você tenha vários links “Buy”, que são identificados pelo Activity Map sob a mesma ID de link e Região:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -39,7 +39,7 @@ Como exemplo, digamos que você tenha vários links “Comprar”, que são iden
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Painel de recomendação <p> </p> <p> </p> <p>Painel de recomendação </p> <p> </p> <p> </p> <p>Painel de recomendação </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,14 +78,14 @@ Ao criar uma ID de objeto única para um link ou um local de link em uma página
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personalizar a região {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Você pode personalizar a região certificando-se de que cada link “comprar” tenha a sua própria Região definida. Para fazer isso, adicione um parâmetro “id” a um dos pais de cada tag de âncora “Comprar”.
+Você pode personalizar a região certificando-se de que cada link “comprar” tenha a sua própria Região definida. Para fazer isso, adicione um parâmetro “id” a um dos pais de cada tag de âncora “Buy”.
 
 >[!NOTE] Você não está estritamente limitado ao parâmetro “id” como um identificador de região. Também é possível definir o seu próprio identificador usando a variável do JavaScript “s.ActivityMap.regionIDAttribute”.
 
@@ -113,7 +113,7 @@ Você pode personalizar a região certificando-se de que cada link “comprar”
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>região a <p> </p> <p> </p> <p>região b </p> <p> </p> <p> </p> <p>região c </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
