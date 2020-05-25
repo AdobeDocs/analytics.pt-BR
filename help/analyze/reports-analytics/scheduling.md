@@ -4,7 +4,7 @@ subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -38,27 +38,27 @@ Essas limitações referem-se a relatórios individuais agendados e baixados; os
 
 Etapas que descrevem como fazer o download e enviar por email relatórios em vários formatos, além de agendar a entrega de um relatório.
 
-1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. Execute um relatório e clique em **[!UICONTROL Mais]** > **[!UICONTROL Enviar]**.
 1. Especifique as opções de entrega:
 
    | Opção | Descrição |
    |--- |--- |
    | Formato | Selecione PDF ou HTML. |
-   | Enviar para | Forneça o endereço de email do destinatário.. |
+   | Enviar para | Forneça o endereço de email do destinatário. |
    | Assunto | Assunto do email. |
    | Agendamento | Selecione para enviar o relatório imediatamente ou em um intervalo diferente. |
 
-1. Clique **[!UICONTROL Advanced Delivery Options]** para especificar um agendamento de delivery.
+1. Clique em **[!UICONTROL Opções avançadas de entrega]** para especificar um cronograma de entrega.
 
 | Opção | Descrição |
 |--- |--- |
-| Nome do arquivo de relatório | Digite o nome do relatório. O formato padrão é `<report name> for <suite> - <report date range>`. To specify a custom name, select [!UICONTROL Custom]. |
+| Nome do arquivo de relatório | Digite o nome do relatório. O formato padrão é `<report name> for <suite> - <report date range>`. Para especificar um nome personalizado, selecione [!UICONTROL Personalizado]. |
 | Formato do Relatório | Permite que você especifique PDF, CSV, Excel, HTML, Word, ou formatos móveis para a entrega. Se você selecionar CSV, você também pode especificar a codificação para CSV:<ul><li>Shift-JIS: codificação de caracteres japoneses.</li><li>EUC-JP: código Unix Extended, principalmente para japonês, coreano e chinês simplificado.</li></ul> |
 | Conteúdos do relatório | <ul><li>Número de linhas na tabela: especifique o número de linhas que devem ficar visíveis na tabela do relatório que você está enviando.</li><li>Idioma para cabeçalho e rodapé: especifique o idioma para o cabeçalho e rodapé.</li><li>comentários: especifique o texto a ser exibido no começo do relatório.</li></ul> |
 | Enviar arquivo de assinatura digital | Quando você solicita um relatório, como um relatório marcado ou solicitações do Data Warehouse, é possível solicitar uma assinatura de dados. A assinatura digital da Adobe não restringe quem tem acesso aos dados, mas a finalidade do Arquivo de assinatura digital (.sig) é verificar a validade do arquivo de relatório fornecido. Usando a assinatura digital, os destinatários do relatório podem se certificar de que o arquivo veio da Adobe e que não foi alterado. |
 | Destino do Relatório | <ul><li>Email: permite definir as configurações de endereço de email, o assunto e notas.</li><li>FTP: permite configurar as definições de FTP, incluindo o host, porta, diretório, nome de usuário e senha.</li></ul> |
 
-1. Clique em **[!UICONTROL Scheduling Options]**.
+1. Clique em **[!UICONTROL Opções de agendamento]**.
 
 | Opção | Descrição |
 |--- |--- |
@@ -73,14 +73,14 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 Etapas que descrevem como imprimir um relatório.
 
 1. Executar um relatório.
-1. Clique em **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
+1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Imprimir]**.  ![](assets/print.png)
 
 ## Baixar um relatório com as opções básicas {#task_43660107A1C9485D92981CD75B562577}
 
 Baixe informações detalhadas sobre um relatório específico nos formatos PDF, CSV, Excel ou Exportação de dados brutos.
 
-1. Em **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** , selecione um relatório para visualização.
-1. Clique em **[!UICONTROL Download]**.
+1. Em **[!UICONTROL Análises]** > **[!UICONTROL Relatórios]**, selecione um relatório a ser exibido.
+1. Clique em **[!UICONTROL Baixar]**.
 
    ![](assets/download_basic.png)
 
@@ -98,11 +98,11 @@ Baixe informações detalhadas sobre um relatório específico nos formatos PDF,
 
 Informações sobre como gerenciar relatórios agendados.
 
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. Você pode criar prazos de entrega, que enviam seus relatórios via email ou FTP para um endereço especificado. Você pode configurar esses horários para enviar automaticamente relatórios em intervalos especificados por um período de tempo ou indefinidamente, ou interromper a entrega de um relatório periódico.
+No [!UICONTROL Gerenciador de agendamento de relatório], é possível editar e excluir entregas de relatório recorrentes. Você pode criar prazos de entrega, que enviam seus relatórios via email ou FTP para um endereço especificado. Você pode configurar esses horários para enviar automaticamente relatórios em intervalos especificados por um período de tempo ou indefinidamente, ou interromper a entrega de um relatório periódico.
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas.
+O [!UICONTROL Gerenciador de agendamento de relatório] mostra os itens criados por um usuários específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas.
 
-1. Para acessar o gerente, clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
+1. Para acessar o gerenciador, clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Relatórios agendados]**.
 
 ## Compartilhar um link de relatório {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -113,7 +113,7 @@ Quando o destinatário clica no link, o sistema solicita ao as credenciais de lo
 **Compartilhamento de um link de relatório**
 
 1. Executar um relatório.
-1. Clique em **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
+1. Clicar em **[!UICONTROL Mais]** > **[!UICONTROL Vincular a este relatório]**.
 
 ## Cancelar inscrição nos relatórios agendados {#concept_6B48360F935740B6851BA85D32DEF637}
 
@@ -129,7 +129,7 @@ Para cancelar a inscrição de um relatório agendado:
 
    ![](assets/unsubscribe-email.png)
 
-1. Clique no **[!UICONTROL click here]** link ao lado de **[!UICONTROL To cancel automatic delivery of this report]**.
+1. Clique no link **[!UICONTROL clique aqui]**, ao lado de **[!UICONTROL Cancelar entrega automática deste relatório]**.
 
 1. Confirme que você deseja cancelar a entrega do relatório.
 
