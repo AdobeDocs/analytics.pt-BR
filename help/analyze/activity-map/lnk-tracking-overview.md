@@ -3,7 +3,7 @@ description: 'O Activity Map rastreia os links com um algoritmo mais avançado '
 title: Rastreamento de links avançado
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
