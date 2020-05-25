@@ -3,7 +3,7 @@ description: O Relatório de links informa sobre os links que foram encontrados 
 title: Relatório de links
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ No modo Padrão, o “Relatório de links na página” mostra os dados do link,
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">A ID primária do link (para obter mais informações sobre como a ID primária é definida pela <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">ova metodologia de rastreamento de links</a>) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliques </td> 
@@ -82,7 +82,7 @@ No modo Online, o Relatório de links na página mostra os dados de tendência q
   </tr> 
   <tr> 
    <td colname="col1"> ID do link </td> 
-   <td colname="col2">ID primária do link. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">ID primária do link. Para obter mais informações sobre como a ID primária é definida pela Nova <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> metodologia de rastreamento de links</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Cliques em links </td> 
