@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre a instalação, configuração e utiliza
 title: Perguntas frequentes sobre o Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ R: Os clientes do Adobe SiteCatalyst não têm acesso à página de Ativação d
 
 **P: O novo código AppMeasurement pode ser configurado por meio do Dynamic Tag Management (DTM)?**
 
-R: Sim, é possível [implementar manualmente](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) o novo código AppMeasurement.
+R: Sim, é possível [implementar manualmente](https://docs.adobe.com/content/help/pt-BR/dtm/using/tools/analytics-dtm.translate.html) o novo código AppMeasurement.
 
 **P: Quais são as grandes mudanças na biblioteca do AppMeasurement v1.6?**
 
@@ -51,7 +51,7 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**P: O Mapa de Atividades fornece dados sobre &quot;visualização&quot;?**
+**P: O Activity Map fornece dados sobre &quot;visualizações&quot;?**
 
 A: Não, a Adobe não rastreia links que foram exibidos.
 
@@ -61,7 +61,7 @@ R: Ter a versão herdada, agora chamada simplesmente de ClickMap, instalada não
 
 **P: Quais navegadores e versões são compatíveis com o Activity Map?**
 
-A: Oferecemos suporte à versão mais recente dos quatro navegadores principais (Chrome, Firefox, Safari e IE).
+P: Oferecemos suporte para a versão mais recente dos quatro navegadores principais (Chrome, Firefox, Safari e IE).
 
 **P: Quais são as Configurações de sobreposição padrão?**
 
@@ -122,21 +122,21 @@ Uma mensagem de aviso é mostrada abaixo da barra de ferramentas, indicando que 
 
 *Página da Web com a tag do Analytics incompatível (AppMeasurement v1.5 ou anterior)*
 
-Uma mensagem de aviso é exibida indicando que é necessário atualizar o código da página para v1.6 ou mais.
+Uma mensagem de aviso é mostrada, indicando a necessidade de atualizar o código de página para v1.6 ou posterior.
 
 *Página da Web com a tag do Analytics compatível (AppMeasurement v1.6 ou posterior), mas o relatório do Activity Map não foi ativado nas Ferramentas administrativas*
 
 Uma mensagem de aviso é mostrada, indicando a necessidade de solicitar ao administrador a \[Ativação do relatório do Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**P: Posso exportar dados do Activity Map (contextData) por meio do [Feed de dados do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/export/analytics-data-feed/data-feed-overview.html)?**
+**P: Posso exportar dados do Activity Map (contextData) por meio do [Feed de dados do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/export/analytics-data-feed/data-feed-overview.translate.html)?**
 
 R: Não.
 
 ## Segmentação no Activity Map
 
-**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Are shared segments available in Activity Map?**
+**P: Os segmentos estão vinculados aos segmentos de usuários individuais? Os segmentos compartilhados estão disponíveis no Activity Map?**
 
-A: O Mapa de Atividades herda seus segmentos de relatórios do Analytics.
+R: O Activity Map herda seus segmentos de relatórios do Analytics.
 
 **P: Os segmentos funcionam no modo Online?**
 
