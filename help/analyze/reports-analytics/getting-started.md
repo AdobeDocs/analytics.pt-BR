@@ -4,7 +4,7 @@ subtopic: Get started
 title: Introdução ao Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -46,7 +46,7 @@ Requisitos do navegador e do sistema necessários para fazer logon na interface 
 * É necessário habilitar os cookies e o JavaScript.
 * Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).
 
-## Fazer logon em Reports &amp; Analytics
+## Fazer logon em Reports and Analytics
 
 Antes de acessar a interface, verifique com seu Gerente de contas ou com o Atendimento ao cliente da Adobe a configuração da conta da sua empresa.
 
@@ -56,14 +56,14 @@ Etapas que descrevem como fazer logon por meio da Experience Cloud.
 
 1. Em um computador com acesso à Internet, inicie o Navegador.
 1. Vá para [!DNL https://login.experiencecloud.adobe.com/].
-1. Na [!UICONTROL Sign In] página, clique em **[!UICONTROL Single Sign-On]**.
-1. Complete the following information, then click **[!UICONTROL Sign In]**.
+1. Na página [!UICONTROL Fazer logon], clique em **[!UICONTROL Logon único]**.
+1. Preencha as informações a seguir e clique em **[!UICONTROL Fazer logon]**.
 
-   **[!UICONTROL Company]**: Especifique a ID da empresa.
+   **[!UICONTROL Empresa]**: especifique a ID da empresa.
 
-   **[!UICONTROL Username]**: Especifique a ID da sua conta.
+   **[!UICONTROL Nome do Usuário]**: especifique a ID da conta.
 
-   **[!UICONTROL Password]**: Especifique a senha da sua conta.
+   **[!UICONTROL Senha]**: especifique a senha da conta.
 1. Na página inicial da Experience Cloud, vá para **Analytics > Relatórios**.
 
    A Experience Cloud encerra a sessão automaticamente após 30 minutos de inatividade.
@@ -72,11 +72,11 @@ Etapas que descrevem como fazer logon por meio da Experience Cloud.
 
 Etapas que descrevem como gerar um relatório.
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. Faça logon em [!UICONTROL Reports &amp; Analytics].
 
    O menu Relatórios é exibido ou um [painel](/help/analyze/reports-analytics/dashboard.md) é exibido, se você tiver configurado um.
 
-1. Clique em **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (por exemplo).
+1. Clique em **[!UICONTROL Conteúdo do Site]** > **[!UICONTROL páginas]** (por exemplo).
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Informações sobre edição de contas de usuários, redefinição de senhas e e
 
 Você pode visualizar e editar informações de contato, especificar uma senha, visualizar informações de serviços da Web e excluir este computador da coleta de dados.
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Clique no ícone Conta,  ![](assets/account.png) na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
 
-All users have access to the [!UICONTROL Account Information] page. As informações a seguir estão disponíveis para visualização ou edição:
+Todos os utilizadores têm acesso à página de [!UICONTROL Informações da conta]. As informações a seguir estão disponíveis para visualização ou edição:
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -102,12 +102,12 @@ All users have access to the [!UICONTROL Account Information] page. As informaç
  <tbody> 
   <tr> 
    <td> <p>Contato </p> </td> 
-   <td> <p>Especifique as seguintes informações pessoais para a sua conta do  </p> 
+   <td> <p>Especifique as seguintes informações pessoais para a sua conta do </p> 
     <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
      <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">Primeiro nome (obrigatório) </li> 
      <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Sobrenome (obrigatório) </li> 
      <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Título </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Endereço(s) de email </li> 
+     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Endereço(s) de email (obrigatório) </li> 
      <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Número de telefone </li> 
     </ul> </td> 
   </tr> 
@@ -130,7 +130,7 @@ All users have access to the [!UICONTROL Account Information] page. As informaç
 
 Etapas que descrevem como alterar o idioma da interface. Você pode exibir a interface do Reports and Analytics no idioma escolhido.
 
-1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
-1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
+1. Faça logon no Analytics e selecione a guia **[!UICONTROL Relatórios]**.
+1. No rodapé da página, clique no idioma ativo no menu **[!UICONTROL Idioma]** e selecione o idioma desejado.
 
-Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. (**[!UICONTROL Ajuda]** > **[!UICONTROL Página inicial da Ajuda]**.)
