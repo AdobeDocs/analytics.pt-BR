@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referência da coluna de dados
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -19,7 +19,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 
 ## Colunas, descrições e tipos de dados
 
->[!NOTE] A maioria das colunas contém uma coluna semelhante com um prefixo `post_`. Colunas de publicação contêm valores após a lógica do lado do servidor,  regras de processamento e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos. Consulte [Perguntas frequentes sobre feeds de dados](../df-faq.md) para obter mais informações.
+>[!NOTE] A maioria das colunas contém uma coluna semelhante com um prefixo `post_`. Colunas de publicação contêm valores após a lógica do lado do servidor, regras de processamento e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos. Consulte [Perguntas frequentes sobre feeds de dados](../df-faq.md) para obter mais informações.
 
 | Nome da coluna | Descrição da coluna | Tipo de dados |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `channel` | Variável usada na dimensão Seções do site. | varchar(100) |
 | `click_action` | Não está mais em uso. Endereço do link clicado na ferramenta herdada ClickMap. | varchar(100) |
 | `click_action_type` | Não está mais em uso. Tipo de link da ferramenta herdada Clickmap.<br>0: HREF URL<br>1: ID Personalizado <br>2: Evento JavaScript onClick<br>3: Elemento de formulário | tinyint unsigned |
-| `click_context` | Não está mais em uso. Nome da página na qual o clique no link ocorreu. Parte da ferramenta herdada Clickmap. | varchar(255) |
+| `click_context` | Não está mais em uso. Nome da página em que ocorreram cliquem em links. Parte da ferramenta herdada Clickmap. | varchar(255) |
 | `click_context_type` | Não está mais em uso. Indica se click_context tinha um nome de página ou se seu padrão era um URL de página.<br>0: URL da página<br>1: Nome da página | tinyint unsigned |
 | `click_sourceid` | Não está mais em uso. ID numérica do local na página onde ocorreu o clique no link. Parte da ferramenta herdada Clickmap. | int unsigned |
 | `click_tag` | Não está mais em uso. Tipo de elemento HTML que foi clicado. | char(10) |
@@ -63,7 +63,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `duplicated_from` | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
 | `ef_id` | A ef_id usada em integrações da Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variáveis personalizadas 1-250. Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter informações sobre como sua organização popula as respectivas eVars seria um documento de design da solução específico da sua organização. | varchar(255) |
-| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Incli tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa event.tsv. | text |
+| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Inclui tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa event.tsv. | text |
 | `exclude_hit` | Sinalizador indicando que a ocorrência está excluída de relatórios. A coluna visit_num não sofre alteração com as ocorrências excluídas.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão do agente usuário<br>4: Exclusão baseada em endereço de IP<br>5: Informações vitais de ocorrência ausentes, como URL de página, nome de página, evento de página ou lista de eventos<br>6: JavaScript não processou a ocorrência corretamente<br>7: Exclusão específica da conta, como nas regras VISTA<br>8: Não usado. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
 | `first_hit_page_url` | O primeiro URL do visitante. | varchar(255) |
 | `first_hit_pagename` | Variável usada na dimensão Página de entrada original. O nome original da página de entrada do visitante. | varchar(100) |
@@ -167,7 +167,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `quarterly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
 | `ref_domain` | Com base na coluna referrer. O domínio de referência da ocorrência. | varchar(100) |
 | `ref_type` | Uma ID numérica que representa o tipo de referência para a ocorrência.<br>1: Dentro do site<br>2: Outros sites da web <br>3: Mecanismos de pesquisa <br>4: Disco rígido <br>5: USENET <br>6: Digitado/Marcado (sem referenciador) <br>7: E-mail <br>8: Sem JavaScript <br>9: Redes sociais | tinyint unsigned |
-| `referrer` | URL da página anterior. Observe que, embora `referrer` use um tipo de dados de varchar(255), `post_referrer` usa um tipo de dados de varchar(244). | varchar(255) |
+| `referrer` | URL da página anterior. Observe que, embora o `referrer` use um tipo de dados de varchar(255), o `post_referrer` usa um tipo de dados de varchar(244). | varchar(255) |
 | `resolution` | ID numérica que representa a resolução do monitor. Preenche a dimensão Resolução do monitor. Usa a tabela de pesquisa resolution.tsv. | smallint unsigned |
 | `s_kwcid` | A ID de palavra-chave usada em integrações da Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valor bruto da resolução da tela. Coletado usando a função screen.width x screen.height do JavaScript. | char(20) |
@@ -269,7 +269,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `visit_referrer` | O primeiro referenciador da visita. | varchar(255) |
 | `visit_search_engine` | ID numérica do primeiro mecanismo de pesquisa da ocorrência. Usa a tabela de pesquisa search_engines.tsv. | smallint unsigned |
 | `visit_start_page_url` | O primeiro URL da visita. | varchar(255) |
-| `visit_start_pagename` | O nome da primeira página da visita. | varchar(100) |
+| `visit_start_pagename` | Nome da primeira página da visita. | varchar(100) |
 | `visit_start_time_gmt` | Carimbo de data e hora (em horário Unix) da primeira ocorrência da visita. | int |
 | `weekly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante semanal. | tinyint unsigned |
 | `yearly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante anual. | tinyint unsigned |
