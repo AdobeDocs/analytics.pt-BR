@@ -4,7 +4,10 @@ title: Visão geral do canal de marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -15,13 +18,13 @@ O Relatório geral do canal de marketing é designado para proporcionar um alto 
 
 ## Propriedades gerais {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* Este relatório depende exclusivamente das [regras de processamento](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) do Canal de marketing. Alterar essas regras mudam como os dados neste relatório são calculados.
+* Este relatório depende exclusivamente das [regras de processamento](/help/components/c-marketing-channels/c-rules.md) do Canal de marketing. Alterar essas regras mudam como os dados neste relatório são calculados.
 * A ordem das regras de processamento é crucial para o funcionamento dos Canais de marketing. Cada clique verifica o critério no topo das suas regras de processamento primeiro, e então filtra a partir daí.
 * Este relatório é detalhado em duas etapas: os canais em si e os detalhes do seu canal. Clicar o botão &#39;+&#39; próxima a cada canal revela os detalhes dele.
 * Somente quatro medidas podem ser adicionadas a cada coluna. No entanto, não há limite quanto ao número de colunas que você pode usar.
 * Uma pequena linha de tendência pode ser vista no final da última coluna. Esta linha de tendência pode deslocar-se ciclicamente entre as medidas ativas.
 * Além de diversos canais coletados pelos métodos padrão, você pode usar fontes de dados offline.
-* As [Classificações](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) podem ser usadas, permitindo que você renomeie e consolide os itens de linha.
+* As [Classificações](/help/components/c-classifications2/c-classifications.md) podem ser usadas, permitindo que você renomeie e consolide os itens de linha.
 * As seguintes medidas podem ser usadas neste relatório (dependendo das configurações de organização e de conjunto de relatórios):
 
    * **Click-throughs**: o número de vezes que a variável *`s.campaign`* é definida.
@@ -35,12 +38,12 @@ O Relatório geral do canal de marketing é designado para proporcionar um alto 
 
 **Versão 14 e 15**
 
-Este relatório pode ser acessado indo até **[!UICONTROL Marketing Channels]** > **[!UICONTROL Channel Overview Report]** (desde que o menu não seja personalizado).
+Este relatório pode ser acessado indo até **[!UICONTROL Canais de marketing]** > **[!UICONTROL Relatório geral do canal]** (se o menu não estiver personalizado).
 
-A segmentação não está disponível neste relatório. Em vez disso, use os relatórios [!UICONTROL First- or Last-Touch Channel] ou [!UICONTROL First- or Last-Touch Details] .
+A segmentação não está disponível neste relatório. Use os relatórios de [!UICONTROL Canal First ou Last-Touch] ou [!UICONTROL Detalhes do First ou Last-Touch] em vez disso.
 
 **Ad Hoc Analysis**
 
-Though the [!UICONTROL Marketing Channel Overview Report] is not available, Marketing Channel reports can be accessed with metrics using different allocation. Isso permite que você recrie de forma eficaz um relatório bastante semelhante.
+Embora o [!UICONTROL Relatório geral do Canal de marketing] não esteja disponível, os relatórios do Canal de marketing podem ser acessados com medidas usando uma alocação diferente. Isso permite que você recrie de forma eficaz um relatório bastante semelhante.
 
 Este relatório pode potencializar múltiplos segmentos avançados.
