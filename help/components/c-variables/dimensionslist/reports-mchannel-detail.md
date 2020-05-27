@@ -2,7 +2,10 @@
 title: Detalhes do canal de marketing - primeiro e último toque
 description: Aloca métricas de sucesso e receita a vários detalhes do canal, independentemente do canal geral em que eles estão.
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +18,7 @@ Esses relatórios fornecem um insight sobre as campanhas específicas ou palavra
 
 * Esse relatório é executado em regras definidas nos canais de marketing. Consulte [Canais e Regras](/help/components/c-marketing-channels/c-channels.md).
 
-   Especificamente, o relatório usa a **[!UICONTROL Set the channel's value to]** parte de cada regra. Alterar essas regras ou a forma como o valor dos canais está definido altera a forma como os dados nesse relatório são calculados. Consulte as [Perguntas frequentes](/help/components/c-marketing-channels/c-faq.md) sobre as regras de processamento do canal de marketing para obter mais informações.
+   Especificamente, o relatório usa a parte **[!UICONTROL Definir o valor dos canais para]** de cada regra. Alterar essas regras ou a forma como o valor dos canais está definido altera a forma como os dados nesse relatório são calculados. Consulte as [Perguntas frequentes](/help/components/c-marketing-channels/c-faq.md) sobre as regras de processamento do canal de marketing para obter mais informações.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +35,4 @@ Esses relatórios fornecem um insight sobre as campanhas específicas ou palavra
    * Todas as métricas de comércio eletrônico: Receita, Pedidos, Unidades, Carrinhos, Exibição de carrinhos, Adições a carrinhos, Remoções do carrinho.
    * Todos os eventos personalizados: Eventos 1-80, e Eventos 81-100 se em código H22 ou superior.
    * Visitas e Visitantes: a disponibilidade depende da organização e do conjunto de relatórios. Entre em contato com seu Gerente de conta para obter mais informações.
-   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
+   Consulte [Métricas](/help/components/c-marketing-channels/c-rules.md) na Ajuda do [!UICONTROL Canal de marketing].
