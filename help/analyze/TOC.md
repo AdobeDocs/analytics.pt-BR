@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -73,18 +76,19 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Gráfico de dispersão](analysis-workspace/visualizations/scatterplot.md)
       + [Número do resumo e Alteração do resumo](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
-      + [Mapas de árvores](analysis-workspace/visualizations/treemap.md)
+      + [Mapa de árvore](analysis-workspace/visualizations/treemap.md)
    + Painéis {#panels}
       + [Visão geral dos painéis](analysis-workspace/c-panels/panels.md)
-      + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
-      + [Construtor do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
-      + Atribuição {#attribution}
+      + [Painel Análises para Públicos alvos (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + Painel de atribuição {#attribution}
          + [Visão geral da Atribuição](analysis-workspace/c-panels/attribution/attribution.md)
          + [Usar o painel Atribuição](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Perguntas frequentes sobre Atribuição](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [Atribuição algorítmica](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + Comparação de segmentos {#segment-comparison}
+      + [Painel Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -108,12 +112,12 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
          + [Visão geral da análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Executar análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [Técnicas estatísticas usadas na Análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-      + Alertas inteligentes{#intelligent-alerts}
+      + Alertas inteligentes {#intelligent-alerts}
          + [Visão geral de alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Criador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gerenciador de Alerta](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes - Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + Perguntas frequentes sobre a área de trabalho {#workspace-faq}
+   + Perguntas frequentes sobre o Workspace {#workspace-faq}
       + [Perguntas frequentes](analysis-workspace/workspace-faq/faq.md)
       + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [A Analysis Workspace comparada à Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
@@ -272,7 +276,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
+      + [Adobe Analytics para iOS](reports-analytics/overview/app-ios.md)
    + [Configurações e navegação da exibição de relatórios](reports-analytics/report-settings.md)
    + [Agendamento e distribuição de relatórios](reports-analytics/scheduling.md)
    + [Tipos de relatórios](reports-analytics/reports.md)
@@ -329,8 +333,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Visão geral dos Labs](tech-previews/overview.md)
 + painéis do Adobe Analytics {#mobapp}
    + [painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
-   + [Guia do Curador](mobile-app/curator.md)
-   + [Guia de start rápido do usuário executivo](mobile-app/executive.md)
+   + [Guia do curador](mobile-app/curator.md)
+   + [Guia de início rápido do usuário executivo](mobile-app/executive.md)
 + Aplicativos da Web progressivos {#pwa}
    + [Aplicativos da Web progressivos](pwa/pwa.md)
 + API em relatórios do Analytics {#analytics-reporting-api}
