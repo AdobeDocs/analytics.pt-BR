@@ -3,7 +3,7 @@ description: Visão geral de quais dados o Adobe Analytics coleta e outras consi
 keywords: privacy
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -89,7 +89,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -126,7 +126,7 @@ Os seguintes centros de dados EMEA servem de host para dados do Adobe Analytics:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Holanda </p> </td> 
    <td colname="col3"> <p>Instalação de posicionamento </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Análises de multicanais, </p> <p>Análises digitais </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.br/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
