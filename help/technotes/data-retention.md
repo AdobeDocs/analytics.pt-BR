@@ -2,7 +2,7 @@
 title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
