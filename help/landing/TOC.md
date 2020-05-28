@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Documentação do Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 77%
+source-wordcount: '146'
+ht-degree: 87%
 
 ---
 
@@ -25,8 +25,9 @@ ht-degree: 77%
 * [Guia de integração](https://docs.adobe.com/content/help/pt-BR/analytics/integration/home.html)
 * [Guia de notas técnicas](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/home.html)
 * [Guia do Media Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html)
-* [Guia Análise de big data](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
-* [Guia de análise de jornada do cliente](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
+* [Guia do Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html)
+* [Guia de análise de jornada do cliente](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-landing.html)
 * [Atualizações de documentação do Analytics](doc-updates.md)
 * [Notas de versão](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html)
 * [Versões de recursos do Adobe Analytics](an-releases.md)
+* [Acessibilidade na área de trabalho da Análise](accessibility.md)
