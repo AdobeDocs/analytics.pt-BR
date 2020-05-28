@@ -1,16 +1,16 @@
 ---
-description: O Quick Insights Builder é uma ferramenta para novos usuários do Workspace que os guia na criação de tabelas de dados e visualizações
-title: Construtor do Quick Insights
+description: O Quick Insights é uma ferramenta para novos usuários do Workspace que os guia na criação de tabelas de dados e visualizações.
+title: Painel Quick Insights
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 
-# Construtor do Quick Insights
+# Painel Quick Insights
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
 | [!UICONTROL Item de dimensão] | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
 | [!UICONTROL Métrica] | As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante. |
 | [!UICONTROL Visualização] | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para criar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linha, mapas, gráficos de dispersão e outros. |
-| [!UICONTROL Detalhamento de dimensão] | Um detalhamento de dimensão é uma forma de dividir literalmente uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
+| [!UICONTROL Detalhamento de dimensão] | Um detalhamento de dimensão é uma forma de detalhar literalmente uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
 | [!UICONTROL Segmento] | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar segmentos de [!UICONTROL Visitantes] com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
 
 ## Introdução ao Quick Insights
@@ -97,7 +97,7 @@ Outras dicas úteis aparecerão no Criador [!UICONTROL de insights]rápidos, alg
 
 ## Limitações conhecidas
 
-Se você tentar editar diretamente na tabela, isso fará com que o painel [!UICONTROL Quick Insights] (a ferramenta de preenchimento) fique fora de sincronia. Você pode restaurá-lo para as configurações anteriores do [!UICONTROL Quick Insights] clicando em **[!UICONTROL Ressincronizar o Construtor]** na parte superior direita do painel.
+Se você tentar editar diretamente na tabela, isso fará com que o painel [!UICONTROL Quick Insights] fique fora de sincronização. Você pode restaurá-lo para as configurações anteriores do [!UICONTROL Quick Insights] clicando em **[!UICONTROL Ressincronizar o Construtor]** na parte superior direita do painel.
 
 ![](assets/qibuilder9.png)
 
