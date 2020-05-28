@@ -3,7 +3,7 @@ description: Maneiras de otimizar a entrega do Report Builder e uma lista de men
 title: Resolução de problemas e práticas recomendadas do Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -48,7 +48,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 
 **Fatores que podem atrasar entregas**
 
-* Muitos favoritos, painéis e pastas de trabalho do Report Builder foram agendados dentro de poucas horas
+* Muitos favoritos, painéis e pastas de trabalho do Report Builder foram agendados dentro de poucas horas.
 * Muitas pastas de trabalho do Report Builder foram agendadas ao mesmo tempo. Quando isso ocorre, a fila de relatórios do API fica lotada.
 
 **Fatores que podem atrasar o tempo de execução da pasta de trabalho**
@@ -98,7 +98,7 @@ Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sis
 
 * [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder: clique em **[!UICONTROL Management]** na guia [!UICONTROL Add-ins] no Excel.
 
 ## Descrições de mensagens de erro {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do
 
 Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
 
-**É necessário sair do[!UICONTROL Request Wizard]antes de ativar o[!UICONTROL Request Manager].**
+**É necessário sair do [!UICONTROL Request Wizard] antes de ativar o [!UICONTROL Request Manager].**
 
-Embora o [!UICONTROL Request Manager] e o [!UICONTROL Request Wizard] estejam vinculados funcionalmente, não é possível start de trabalhar com o [!UICONTROL Request Manager] antes de concluir ou cancelar ações realizadas no [!UICONTROL Request Wizard].
+Embora o [!UICONTROL Request Manager] e o [!UICONTROL Request Wizard] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Request Manager] antes de concluir ou cancelar ações feitas no [!UICONTROL Request Wizard].
 
 **Não há solicitações associada a esse intervalo.**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL From Sheet] no [!UICONTROL Request Manager] quando uma célula da planilha não tiver solicitações.
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
+Para identificar quais células na planilha têm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Request Manager]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
 
 **O intervalo selecionado não é válido. Selecione outro intervalo.**
 
@@ -128,12 +128,12 @@ Quando quiser excluir células, é importante localizar as que contenham solicit
 
 **Saia da célula do Excel onde está o foco antes de usar esse recurso.**
 
-Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra [!UICONTROL Formula] ou na [!UICONTROL Name Box] na parte superior do Excel.
 
 **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**
 
 Se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm os mapeamentos da solicitação são realçadas na planilha.
+Uma maneira de determinar quais células estão mapeadas antes de adicionar novas solicitações é fechar o [!UICONTROL Request Wizard] e abrir o [!UICONTROL Request Manager]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm os mapeamentos da solicitação são realçadas na planilha.
 
 Este é um motivo para você considerar a marcação de células com realce, informações de linha ou coluna ou um estilo de formatação antes de mapear várias células para várias áreas.
