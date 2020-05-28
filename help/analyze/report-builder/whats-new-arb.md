@@ -2,7 +2,7 @@
 description: Lista as versões atuais e anteriores e seus recursos.
 title: Novidades no Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ Combinar a capacidade de geração de relatórios do Report Builder com os recur
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **Melhor gerenciamento e edição de segmentos em várias solicitações.** As novas opções em [!UICONTROL Edit Multiple Requests] permitem que você adicione, remova, substitua e substitua todos os segmentos em várias solicitações de público alvo. [Mais...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Melhor gerenciamento e edição de segmentos em várias solicitações.** Novas opções em [!UICONTROL Edit Multiple Requests] permitem adicionar, remover, substituir e substituir todos os segmentos em solicitações com vários públicos-alvo. [Mais...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Novo link para a Comunidade do Report Builder da Adobe** O novo link Adobe Community na Ajuda direciona para o Adobe Community Forum com a pesquisa limitada a dúvidas sobre o Report Builder. O Adobe Community é uma excelente forma de tirar dúvidas com seus colegas usuários do Report Builder sobre o aplicativo e descobrir ou compartilhar práticas recomendadas.
 
@@ -46,13 +46,13 @@ Combinar a capacidade de geração de relatórios do Report Builder com os recur
 
 * [Conjuntos de relatórios virtuais](https://docs.adobe.com/help/pt-BR/analytics/components/virtual-report-suites/vrs-about.html)
 * [Público-alvo da Experience Cloud no Analytics](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html)
-* [Relatórios do AEM Assets](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+* [Relatórios do AEM Assets](https://docs.adobe.com/content/help/pt-BR/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **Métrica calculada** O Report Builder 5.2 é compatível com as [métricas calculadas unificadas](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md) do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
-* **Pesquisa avançada de relatórios e métricas** Com mais [eVars e eventos](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) adicionados ao Adobe Analytics, o número de relatórios e métricas oferecidos no Report Builder da Adobe está aumentando consideravelmente. Para simplificar a pesquisa, algumas novas barras de pesquisa foram adicionadas ao Assistente de solicitações: uma para [pesquisa de relatório](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) e outra para procurar [métricas](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
+* **Pesquisa avançada de relatórios e métricas** Com mais [eVars e eventos](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/events/event-serialization.html) adicionados ao Adobe Analytics, o número de relatórios e métricas oferecidos no Report Builder da Adobe está aumentando consideravelmente. Para simplificar a pesquisa, algumas novas barras de pesquisa foram adicionadas ao Assistente de solicitações: uma para [pesquisa de relatório](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) e outra para procurar [métricas](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
 * **Atributos do cliente** Os atributos do cliente são armazenados em um novo tipo de elemento chamado VisAttr, que pode ser configurado como uma dimensão ou uma métrica. Para obter informações detalhadas sobre como fazer upload dos atributos do cliente, consulte a ajuda da [Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html).
 
