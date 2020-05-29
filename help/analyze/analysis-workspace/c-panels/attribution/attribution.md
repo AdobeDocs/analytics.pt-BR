@@ -1,21 +1,21 @@
 ---
 description: 'null'
-title: Visão geral do painel Atribuição
+title: Visão geral da Atribuição
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 90%
+source-wordcount: '1809'
+ht-degree: 88%
 
 ---
 
 
-# Visão geral do painel Atribuição
+# Visão geral da Atribuição
 
->[!IMPORTANT] O Painel de atribuição está disponível para todos os clientes nos SKUs do Adobe Analytics Ultimate, Prime, Select e Foundation.
+>[!IMPORTANT] A atribuição está disponível para todos os clientes nos SKUs do Adobe Analytics Ultimate, Prime, Select e Foundation.
 
-O painel de atribuição é um recurso do [Attribution IQ](../../attribution-iq.md) que permite adicionar vários tipos novos de modelo de atribuição às tabelas de forma livre, visualizações e métricas calculadas. Todos os modelos de atribuição têm dois componentes:
+[O QI](../../attribution-iq.md) de atribuição é um conjunto de recursos que permite adicionar muitos novos tipos de modelos de atribuição a tabelas de forma livre, visualizações e métricas calculadas. Todos os modelos de atribuição têm dois componentes:
 
 * **Modelo de atribuição:** o modelo descreve a distribuição de conversões nas ocorrências de um grupo. Por exemplo, primeiro ou último contato.
 * **Janela de retrospectiva de atribuição:** descreve quais agrupamentos de ocorrências são considerados para cada modelo. Por exemplo, visita ou visitante.
@@ -44,7 +44,7 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 
 * **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
 
-* **Janela de pesquisa personalizada:** (Observação: A janela de pesquisa personalizada está atualmente em testes limitados.) Permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
+* **Janela de pesquisa personalizada:** (Observação: A janela de pesquisa personalizada está atualmente em testes limitados.[Saiba mais](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)) Permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
 ## Exemplo
 
