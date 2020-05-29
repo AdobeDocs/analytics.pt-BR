@@ -2,17 +2,19 @@
 title: Atribuição algorítmica
 description: Detalhes sobre o modelo de atribuição algorítmica no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
 # Atribuição algorítmica
 
->[!NOTE] A atribuição algorítmica está atualmente em testes limitados.
+>[!IMPORTANT]
+>
+>**[!UICONTROL A atribuição]** algorítmica está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 O modelo [de](attribution.md) atribuição Algorítmico na Área de trabalho da Análise é diferente de outros modelos, pois usa técnicas estatísticas para alocar crédito entre os valores de dimensão no seu relatório ou tabela de forma livre. Como todos os outros modelos de atribuição na área de trabalho da Análise, ele pode ser usado em qualquer dimensão ou métrica e oferece suporte a segmentação ilimitada e detalhamentos e distribui 100% das conversões para a(s) dimensão(ões) na tabela (também conhecida como atribuição &quot;fracional&quot;).
 
