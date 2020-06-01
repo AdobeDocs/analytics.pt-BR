@@ -2,9 +2,9 @@
 description: Recursos de suporte a acessibilidade na área de trabalho da Análise
 title: Acessibilidade na área de trabalho da Análise
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ Saiba mais sobre o suporte de acessibilidade na [!UICONTROL Análise Workspace],
 
 Acessibilidade refere-se à utilização de produtos para pessoas com deficiências visuais, auditivas, motoras e outras. Exemplos de recursos de acessibilidade para produtos de software incluem suporte a leitores de tela, equivalentes de texto para gráficos, atalhos de teclado, mudança de cores de exibição para alto contraste e assim por diante.
 
-[!UICONTROL A área de trabalho] da Análise fornece algumas ferramentas que a tornam acessível para uso e ferramentas que ajudam a criar conteúdo acessível.
+[!UICONTROL A área de trabalho] da Análise fornece algumas ferramentas que tornam acessível para uso, incluindo:
 
 ## Navegar pelo [!UICONTROL Workspace] usando o teclado
 
@@ -34,7 +34,7 @@ A navegação na área de trabalho da [!UICONTROL Análise] funciona em cima > p
 
 1. Pressione para um componente no painel esquerdo.
 1. Pressione `Enter` para selecionar.
-1. Use uma tecla de seta para navegar até a área onde deseja soltar o componente.
+1. Use as teclas de seta para navegar até a área onde deseja soltar o componente.
 1. Pressione `Enter` para posicionar o componente.
 
 ### Atalhos de teclado (teclas de atalho)
@@ -60,7 +60,7 @@ A navegação na área de trabalho da [!UICONTROL Análise] funciona em cima > p
 | Ctrl + Shift + D | Novo intervalo de datas |
 | Ctrl + Shift + E | Novo segmento |
 | Ctrl + Z | Recurso Desfazer |
-| Deslocamento de retenção (na área de controle do segmento do painel) | Crie um filtro [suspenso](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+| Deslocamento de retenção (na área de controle do segmento do painel) | Criar um filtro [suspenso](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Democratização
 
