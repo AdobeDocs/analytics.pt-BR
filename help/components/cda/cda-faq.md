@@ -2,14 +2,15 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 72%
 
 ---
 
 
 # Perguntas frequentes
-
->[!NOTE] A documentação do Cross-Device Analytics está sujeita a alterações à medida que o recurso for sendo desenvolvido. Verifique regularmente se há atualizações.
 
 **Como posso usar o CDA para ver como as pessoas mudam de um tipo de dispositivo para outro?**
 
