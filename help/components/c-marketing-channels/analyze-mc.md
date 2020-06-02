@@ -2,24 +2,27 @@
 title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 translation-type: tm+mt
-source-git-commit: 57f1f7d11c13fb11ea12404e9a98fad955e48d9b
+source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 3%
 
 ---
 
 
 # Analisar Canais de marketing
 
-Você provavelmente quer saber qual de seus canais de marketing é o mais eficiente, e com quem, para que você possa público alvo seus esforços e receber um melhor retorno sobre seus dólares de marketing. No Adobe Analytics, as dimensões e métricas dos Canais de marketing no Workspace são uma das ferramentas que podem ajudá-lo a rastrear a influência de canais diferentes em seus pedidos, receitas etc. e dar-lhe insights úteis sobre o canal. Estas são as dimensões e métricas que você pode usar relacionadas aos Canais de marketing:
+Você provavelmente quer saber qual de seus canais de marketing é o mais eficiente, e com quem, para que você possa público alvo seus esforços e receber um melhor retorno sobre seus dólares de marketing. No Adobe Analytics, as dimensões e métricas dos Canais de marketing no Workspace são uma das ferramentas que podem ajudá-lo a rastrear a influência de canais diferentes em seus pedidos, receita etc. e dar-lhe insights úteis sobre o canal. Estas são as dimensões e métricas que você pode usar relacionadas aos Canais de marketing:
 
 ![](assets/mc-dims.png)
 
 | Dimensão/métrica | Definição |
 |---|---|
-| Canal de Marketing | Esta é a dimensão Canais de marketing que recomendamos usar. Os modelos de IQ de atribuição podem ser aplicados a ele em tempo de execução. A dimensão Canais de marketing genéricos comporta-se de forma idêntica às dimensões do Canal de último toque, mas é rotulada de forma diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
-| Canal de Último Contato | Dimensão herdada, com modelo de atribuição pré-aplicado e inalterável. |
-| Canal de Primeiro Contato | Dimensão herdada, com modelo de atribuição pré-aplicado e inalterável. |
-| Instâncias do Canal de Marketing | Esta métrica... |
-| Novos envolvimentos | Esta é uma métrica herdada que é aumentada somente quando um canal tem alocação de &#39;primeiro toque&#39; aplicada a ela. |
+| Canal de Marketing | Esta é a dimensão recomendada para uso dos Canais de marketing. Os modelos de IQ de atribuição podem ser aplicados a ele em tempo de execução. Essa dimensão se comporta de forma idêntica à dimensão do Canal de último toque, mas é rotulada de forma diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
+| Canal de Último Contato | Dimensão herdada, com modelo de atribuição de último toque pré-aplicado e inalterável. |
+| Canal de Primeiro Contato | Dimensão herdada, com modelo de atribuição de primeiro toque pré-aplicado e inalterável. |
+| Instâncias do Canal de Marketing | Essa métrica mede o número de vezes que um canal de marketing foi definido em uma solicitação de imagem, incluindo visualizações de página padrão e chamadas de link personalizadas. Não inclui valores persistentes. |
+| Novos envolvimentos | Essa métrica é semelhante a Instâncias, mas só é aumentada quando o canal de marketing de primeiro toque é definido em uma solicitação de imagem. |
 
 ## Análise básica
 
@@ -49,7 +52,7 @@ Você pode usar o IQ [de](https://docs.adobe.com/content/help/en/analytics/analy
 
 Observe como a mesma métrica (Pedidos online) gera resultados diferentes quando você aplica modelos de atribuição diferentes.
 
-Estes são alguns vídeos explicando o QI de atribuição com mais detalhes: Lista de reprodução [do IQ de](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)atribuição.
+Estes são alguns vídeos explicando o QI de atribuição com mais detalhes: [Lista](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)de reprodução de QI de atribuição.
 
 ## análise de marketing entre guias
 
