@@ -5,7 +5,10 @@ title: Gerenciar canais de marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -14,12 +17,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adicionar ou ativar canais de marketing ao Administrador dos Canais de marketing. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
 
+A inclusão de [!UICONTROL Canais de marketing] é feita de forma independente da criação de regras na página [Regras de Processamento de Canal de marketing](/help/components/c-marketing-channels/c-rules.md). Ao criar regras, associe-as aos canais.
+
 A seguir, as orientações para a criação de canais:
 
 * Planeje com antecedência, fazendo uma lista de todos os canais, para que todas ocorrências de visitantes sejam categorizadas para o canal correto.
-* Sempre inclua canais para as categorias de ocorrências [Internas](/help/components/c-marketing-channels/c-faq.md) e [Diretas](/help/components/c-marketing-channels/c-faq.md).
+* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
+* Incluir um canal &quot;Outras Campanhas&quot; catch-all, a ser colocado depois de canais pagos e antes de canais orgânicos.
 
-A inclusão de [!UICONTROL Canais de marketing] é feita de forma independente da criação de regras na página [Regras de Processamento de Canal de marketing](/help/components/c-marketing-channels/c-rules.md). Ao criar regras, associe-as aos canais.
+
+## Pré-requisitos {#prereqs}
+
+Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda com esses pré-requisitos:
+
+* No Admin Console (Configurações gerais da conta), ative a opção **[!UICONTROL Nível de conversão]** (comércio eletrônico) para o conjunto de relatórios.
+
+   Consulte [Configurações gerais da conta](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/general-acct-settings-admin.html) na ajuda do Analytics para obter mais informações.
+
+* Configure o acesso às dimensões do Canal de marketing.
+
+   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
+
+* Confirme se seu gerente de conta ativou os **[!UICONTROL Relatórios de canal]** do seu conjunto de relatórios.
 
 ## Adição de canais de marketing {#add-mktg-channels}
 
@@ -47,9 +66,9 @@ Adicione canais de marketing ao Administrador dos Canais de marketing.
 
    Consulte [Criar regras de processamento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
-## Gerenciador de canal de marketing - definições de interface {#mktg-channel-mgr}
+## Aplicar configurações de canal {#mktg-channel-mgr}
 
-Definições de campo para a página do [!UICONTROL Gerenciador de canal de marketing].
+Há várias configurações que podem ser aplicadas a cada canal na página Gerenciador [!UICONTROL de Canais de] marketing.
 
 | Campo | Definição |
 |--- |--- |
@@ -58,43 +77,23 @@ Definições de campo para a página do [!UICONTROL Gerenciador de canal de mark
 | Substituir canal de último toque | É possível escolher substituir um canal existente e persistente de último toque pelo canal selecionado. Se você marcar esta caixa de seleção, qualquer canal (incluindo canal Direto e Interno) substituirá um canal de último contato existente. O resultado é uma conversão atribuída a um canal que pode não merecer o crédito. Por exemplo, esta opção pode garantir que o Canal direto não receba crédito pela conversão se o usuário for avisado por meio do canal de Pesquisa Natural. |
 | Análise de canal | Permite analisar um canal de acordo com este valor. You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Tipo | Especifica como o usuário chegou ao seu site. É possível selecionar online ou offline. É possível usar canais Online para visitantes que chegam por meio de um mecanismo de busca ou campanha por email. Os canais offline são aplicados a visitantes que localizam seu site por meio de cupons em jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. Consulte [Origens de Dados](https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html). Consulte [Adicionar dados offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Cor do canal | A cor associada a este canal de marketing. Essa cor representa o canal no relatório de Canal de marketing. |
+| Cor do canal | Somente Relatórios e análises: A cor associada a este canal de marketing. Essa cor representa o canal no relatório de Canal de marketing. |
 
-## Definir canais
+### Substituir práticas recomendadas
 
-Antes de ser possível exibir canais e dados de canal no relatório, é preciso criar os canais e as regras subjacentes que processam os dados. Você também pode criar valores de custo e orçamento para os canais associados no relatório, e especificar a duração desejada para o período de envolvimento do visitante. As tarefas de configuração do relatório são realizadas nas Ferramentas de administração.
+É uma prática recomendada desmarcar a opção de substituição de último toque de canais Diretos e Internos, para que eles não possam receber crédito de outros canais de último toque persistentes (ou entre si).
 
-Imagine um canal como um recipiente para as visitas. As regras atribuem as visitas ao recipiente apropriado.
+![](assets/int-channel2.png)
 
-![](assets/buckets_2.png)
+## Definir regras de canal
 
-A Adobe fornece diversos canais predefinidos durante uma  [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que pode ser editada conforme seus requisitos.
+Antes de ser possível exibir canais e dados de canal no relatório, é preciso criar os canais e as regras subjacentes que processam os dados. Você também pode especificar quanto tempo deseja que o período [de envolvimento do](/help/components/c-marketing-channels/visitor-engagement.md) visitante dure.
+
+A Adobe fornece vários canais predefinidos durante uma configuração [](/help/components/c-marketing-channels/c-getting-started-mchannel.md) automática que você pode editar para atender às suas necessidades. Além disso, você pode modificar essa configuração e definir regras personalizadas nas regras [de processamento do](/help/components/c-marketing-channels/c-rules.md)Marketing Canal.
 
 >[!NOTE]
 >
 >A Adobe recomenda configurar seu relatório em um conjunto de relatório que pode ser usado como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
 >
 >Consulte [Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
-### Pré-requisitos {#prereqs}
-
-Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda com esses pré-requisitos:
-
-* No Admin Console (Configurações gerais da conta), ative a opção **[!UICONTROL Nível de conversão]** (comércio eletrônico) para o conjunto de relatórios.
-
-   Consulte [Configurações gerais da conta](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/general-acct-settings-admin.html) na ajuda do Analytics para obter mais informações.
-
-* Configure o acesso às dimensões do Canal de marketing.
-
-   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Confirme se seu gerente de conta ativou os **[!UICONTROL Relatórios de canal]** do seu conjunto de relatórios.
-
-### Observações importantes de processamento {#important-proc-rules}
-
-* O sistema processa as regras na ordem especificada e, quando uma regra é atendida, o sistema para de processar as regras restantes.
-* As regras podem acessar variáveis definidas pelo VISTA, mas não podem acessar dados excluídos pelo VISTA.
-* Os canais só armazenam métricas de conversão. As métricas de tráfego não estão disponíveis.
-* Dois canais de marketing nunca recebem crédito pelo mesmo evento (como compras ou cliques). Dessa forma, os canais de marketing diferem das eVars (já que duas eVars podem receber crédito pelo mesmo evento).
-* O relatório pode processar até 25 canais simultaneamente.
 
