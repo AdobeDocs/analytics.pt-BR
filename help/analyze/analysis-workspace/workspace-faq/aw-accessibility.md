@@ -2,10 +2,10 @@
 description: Recursos de suporte a acessibilidade na área de trabalho da Análise
 title: Acessibilidade na área de trabalho da Análise
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ A navegação na área de trabalho da [!UICONTROL Análise] funciona em cima > p
 * A `Tab` chave se move entre elementos individuais.
 * Nós aplicamos indicadores de foco para que os usuários de teclado com visão tenham uma indicação clara de qual elemento de interface do usuário tem foco no momento. O indicador é uma borda azul em torno do elemento selecionado.
 
-   ![](assets/focus-indicator.png)
+   ![Indicador de foco](assets/focus-indicator.png)
 
 ### Navegação no teclado para interações de arrastar e soltar
 
@@ -75,11 +75,11 @@ A navegação na área de trabalho da [!UICONTROL Análise] funciona em cima > p
 
 ## Suporte para leitores de tela e ampliadores de tela
 
-Um leitor de tela recita o texto que aparece na tela do computador. Ele também lê informações não textuais, como rótulos de botões ou descrições de imagens no aplicativo, fornecidas em tags de acessibilidade ou atributos.
+Um leitor de tela lê o texto que aparece na tela do computador. Ele também lê informações não textuais, como rótulos de botões ou descrições de imagens no aplicativo, fornecidas em tags de acessibilidade ou atributos.
 
 ## Paletas de cores e contraste
 
-[!UICONTROL A área de trabalho] da Análise procura conformidade de contraste de cores WCAG AA.
+[!UICONTROL A área de trabalho] da Análise procura conformidade com WCAG 2.1 AA, incluindo requisitos para contraste de cores.
 
 Além disso, os usuários podem definir sua própria paleta de cores preferencial para um projeto em **[!UICONTROL Projeto]** > Configurações **** do projeto > Paleta [de cores](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)do projeto.
 
@@ -89,8 +89,8 @@ Ao criar um componente, os campos obrigatórios são validados ao salvar. Se um 
 
 Depois que um componente é totalmente validado, pressionar `Save` fecha o construtor.
 
-![](assets/error-validation.png)
+![Validação de erro](assets/error-validation.png)
 
 ## Suporte para recursos de acessibilidade do sistema operacional
 
-A área de trabalho da Análise é compatível com os recursos de acessibilidade do MS Windows e do MacOS incorporados, como modo de alto contraste e leitores de tela (Narrador para MS Windows e VoiceOver para macOS).
+A área de trabalho da Análise suporta recursos de acessibilidade do MS Windows e do MacOS incorporados, como modo de alto contraste, teclas adesivas e teclas lentas/teclas de filtro. Ele também fornece informações sobre a interface do usuário para o sistema operacional para permitir a interação com tecnologias de assistência, incluindo leitores de tela como VoiceOver para macOS e NVDA no Windows.
