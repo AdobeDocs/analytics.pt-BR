@@ -2,9 +2,9 @@
 description: Recursos de suporte a acessibilidade na área de trabalho da Análise
 title: Acessibilidade na área de trabalho da Análise
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Saiba mais sobre o suporte de acessibilidade na [!UICONTROL Análise Workspace], a principal ferramenta de análise do Adobe Analytics.
 
-Acessibilidade refere-se à utilização de produtos para pessoas com deficiências visuais, auditivas, motoras e outras. Exemplos de recursos de acessibilidade para produtos de software incluem suporte a leitores de tela, equivalentes de texto para gráficos, atalhos de teclado, mudança de cores de exibição para alto contraste e assim por diante.
+Acessibilidade refere-se à utilização de produtos para pessoas com deficiências visuais, auditivas, cognitivas, motoras e outras. Exemplos de recursos de acessibilidade para produtos de software incluem suporte a leitores de tela, equivalentes de texto para gráficos, atalhos de teclado, mudança de cores de exibição para alto contraste e assim por diante.
 
 [!UICONTROL A área de trabalho] da Análise fornece algumas ferramentas que tornam acessível para uso, incluindo:
 
