@@ -2,7 +2,10 @@
 title: Configurar uma conta publicitária
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
 
 ![](assets/aa_accounts.png)
 
-1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
 1. (Somente para primeiro uso) Aceite os termos do Contrato de Licença do Usuário Final.
-1. Clique em **[!UICONTROL + Add]**.
-1. A caixa de [!UICONTROL New Search Engine Account] diálogo é exibida:
+1. Clique em **[!UICONTROL + Adicionar]**.
+1. A caixa de diálogo [!UICONTROL Nova conta de mecanismo de pesquisa] é exibida:
 
    ![](assets/aa_new_se_account.png)
 
-1. Preencha as **[!UICONTROL Search Engine Settings]** seguintes diretrizes:
+1. Preencha as **[!UICONTROL Configurações do mecanismo de pesquisa]** seguindo as instruções a seguir:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,39 +57,20 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
-Preencha as **[!UICONTROL Tracking Settings]** seguintes diretrizes:
+1. Na seção **[!UICONTROL Rastreamento]**, forneça informações sobre como os dados do Mecanismo de pesquisa são monitorados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
+Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instruções a seguir:
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Configuração </th> 
-      <th colname="col2" class="entry"> Descrição </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: permite que o mecanismo da Advertising Cloud decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado. <p>Importante: para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">O parâmetro e valor "s_kwcid" será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Como resultado, pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor "s_kwcid". Dessa forma, se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres (um exemplo de um caractere especial é o "+" usado em palavras-chave de “Grande correspondência modificada”). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: permite gerenciar como os parâmetros de rastreamento são adicionados aos URLs de destino/modelos de rastreamento do Mecanismo de pesquisa. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Configuração | Descrição |
+   |--- |--- |
+   | Tipo | <ul><li>**Automático:** Permite que o Advertising Cloud Engine decida como os parâmetros de rastreamento são anexados aos modelos/URLs de destino do Search Engine. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.<br>**Importante:**Para configurar uma conta de mecanismo de pesquisa em &#39;Modo automático&#39;, você é responsável por realizar as seguintes ações:<br>- O parâmetro e o valor &quot;s_kwcid&quot; serão adicionados aos modelos de rastreamento de conta ou URLs de landing page na conta que está sendo adicionada. Ele será inserido ao final do URL. Como resultado, pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL.** Observação:**Saiba mais sobre se você deve adicionar esse parâmetro à sua Política[de segurança de](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)conteúdo.<br>- Além disso, as palavras-chave podem ser inseridas no URL inicial como parte do valor &quot;s_kwcid&quot;, portanto, se contiverem caracteres ou símbolos especiais, confirme se o servidor da Web pode suportar esses caracteres (um exemplo de caracteres especiais comuns é &quot;+&quot;, que é usado em palavras-chave &quot;Ampla correspondência modificada&quot;).</li><li>**Manual:** Permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. É necessário fornecer pelo menos um conjunto de relatórios antes de poder salvar a conta publicitária. É possível mapear várias contas a diversos conjuntos de relatórios (1:1, 1:Vários, Vários:Vários). Observe que os dados acessados pelo AMO do mecanismo de pesquisa são copiados para qualquer conjunto de relatório, de maneira que não há separação de dados.
+1. Na seção **[!UICONTROL Mapeamento]**, selecione quais conjuntos de relatórios vincular a esta conta de mecanismo de pesquisa. É necessário fornecer pelo menos um conjunto de relatórios antes de poder salvar a conta publicitária. É possível mapear várias contas a diversos conjuntos de relatórios (1:1, 1:Vários, Vários:Vários). Observe que os dados acessados pelo AMO do mecanismo de pesquisa são copiados para qualquer conjunto de relatório, de maneira que não há separação de dados.
 
    >[!IMPORTANT]
    >
    >Somente conjuntos de relatórios que foram [mapeados para uma organização da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html) estarão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Para as **[!UICONTROL Mapping Settings]** seguintes orientações:
+   Para as **[!UICONTROL Configurações de mapeamento]** que seguem essas instruções:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -103,7 +87,7 @@ Preencha as **[!UICONTROL Tracking Settings]** seguintes diretrizes:
     </tbody> 
     </table>
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 1. Depois de salvar, um aviso de isenção de responsabilidade exibe uma lista de advertências. É solicitado que confirme que leu e entendeu este contrato. Clique na caixa de seleção, em seguida em **[!UICONTROL OK]**.
 
    Agora você é encaminhado para a [interface do usuário de gerenciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) das contas publicitárias, onde sua conta recém-criada deve estar listada.
