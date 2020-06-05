@@ -1,13 +1,16 @@
 ---
 description: Leia sobre as práticas recomendadas e exemplos de como popular diversas regras que podem ser configuradas para seus canais de marketing.
-title: Perguntas frequentes sobre Canais de marketing e exemplos
+title: Perguntas frequentes sobre Canais de marketing
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '1129'
+ht-degree: 88%
 
 ---
 
 
-# Perguntas frequentes sobre Canais de marketing e exemplos
+# Perguntas frequentes sobre Canais de marketing
 
 Consulte [Criar Regras de Processamento de canal de Marketing](/help/components/c-marketing-channels/c-rules.md) para definições de campos exibidos na página de [!UICONTROL Regras de processamento de canal de marketing].
 
@@ -54,7 +57,15 @@ Verifique se você dispõe de canais para essas três possibilidades. Por exempl
 
 Por último, crie um canal *Outro* para capturar as ocorrências restantes, conforme descrito em [Nenhum canal identificado](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## Nenhum Canal Identificado  {#no-channel-identified}
+## Relação entre primeiro e último contato
+
+Para entender a interação entre as dimensões de primeiro e último toque herdadas e confirmar que as substituições funcionam como esperado, você pode obter um relatório de canal de primeiro toque, sub-relacionado a um relatório de canal de último toque, com sua métrica de sucesso principal adicionada (consulte o exemplo abaixo). O exemplo demonstra a interação entre canais de primeiro e último toque.
+
+![](assets/int-channel3.png)
+
+A interseção onde primeiro é igual ao último toque é a diagonal da tabela. A Atualização direta e a Atualização de sessão recebem crédito de último toque somente se forem canais de primeiro toque, pois não podem receber crédito de outros canais persistentes (linhas destacadas).
+
+## Motivos para Nenhum Canal Identificado {#no-channel-identified}
 
 Quando as regras não capturam dados ou se as regras não estão configuradas corretamente, o relatório exibe os dados na linha [!UICONTROL Nenhum Canal Identificado] do relatório. É possível criar um conjunto de regras chamado *Outros*, por exemplo, no fim da sua ordem de processamento, que também identifica o tráfego interno, como segue.
 
@@ -64,65 +75,31 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 >[!NOTE] Ainda pode haver algum tráfego de canal que caiba na categoria Nenhum canal identificado. Por exemplo: um visitante entra no site, marca uma página e, na mesma visita, retorna à página por meio do marcador. Como não é a primeira página da visita, o tráfego não irá para o canal Direto nem para o canal Outro, pois não há um domínio de referência.
 
-## Pesquisa paga {#paid-search}
+## Motivos para Interno (Atualização da Sessão) {#internal}
 
-Uma pesquisa paga é uma palavra ou frase pela qual o mecanismo de pesquisa é pago a fim de colocá-la entre os resultados da pesquisa. Para corresponder às regras de detecção de pesquisa paga, o canal de marketing usa configurações definidas na página [!UICONTROL Detecção de pesquisa paga]. ( **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerais]** > **[!UICONTROL Detecção de pesquisa com anúncios]**). O URL de destino corresponde à regra de detecção de pesquisa paga existente para o mecanismo de pesquisa.
+A Atualização da sessão de último toque só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relacionamento entre o Primeiro e o Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro toque.
 
-Para a regra de canal de marketing, as configurações de [!UICONTROL Pesquisa Paga] são:
+**Cenário 1: tempo limite da sessão**
 
-![](assets/example_paid_search.png)
+Um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e usam a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
-Consulte [Detecção de pesquisa paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
+**Cenário 2: nem todas as páginas do site estão marcadas**
 
-## Pesquisa natural  {#natural-search}
+Um visitante acessa a Página A, que não está marcada, em seguida se move para a página B, que está marcada. A página A seria vista como o referenciador interno e a visita seria classificada como Atualização de sessão.
 
-A pesquisa natural ocorre quando os visitantes encontram seu Web site por meio de uma pesquisa na Web, onde o mecanismo de pesquisa classifica seu site sem que você pague para entrar na listagem. É possível controlar o URL de destino usado pelo mecanismo de pesquisa para vincular a seu site. Esse URL permite que o Analytics identifique se uma pesquisa é natural.
+**Cenário 3: redirecionamentos**
 
-Não existe detecção de pesquisa natural no Analytics. Após configurar a Detecção de pesquisa paga, o sistema saberá que se um referenciador de pesquisa não for do tipo pago, ele deve ser um referenciador de pesquisa natural. Para uma pesquisa natural, o URL de destino não corresponde à regra de detecção de pesquisa paga existente para esse mecanismo de pesquisa.
+Se um redirecionamento não for configurado para transferir os dados do referenciador até a nova página inicial, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
 
-Para a regra de canal de marketing, as configurações de Pesquisa natural são as seguintes:
+**Cenário 4: tráfego entre domínios**
 
-![](assets/example_natural_search.png)
+Um visitante move de um domínio que é acionado para o Conjunto A, para um segundo domínio que é acionado para o Conjunto B. Se no Conjunto B, os filtros internos de URL incluírem o primeiro domínio, a visita no Conjunto B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
 
-Consulte [Detecção de pesquisa paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
+**Cenário 5: tempos de carregamento de entrada de página longos**
 
-## Afiliados  {#afilliates}
+Um visitante acessa a página A, que é pesada no conteúdo, e o código do Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
 
-Uma regra afiliada identifica os visitantes que se originam de determinado conjunto de domínios de referência. Na regra, você relaciona os domínios de afiliados que gostaria de acompanhar, como segue:
+**Cenário 6: limpar cookies no meio do site**
 
-![](assets/example_affiliates.png)
-
-## Redes sociais {#social-networks}
-
-Esta regra identifica os visitantes que se originam de uma rede social, como o Facebook*. As configurações podem ser as seguintes:
-
-![](assets/example_social.png)
-
-## Exibir {#display}
-
-Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta na URL de destino, neste caso  *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Interno {#internal}
-
-Esta regra identifica visitantes que se originam de um referenciador que corresponde aos filtros de URL interna do conjunto de relatório.
-
-![](assets/example_internal.png)
-
-## Email  {#email}
-
-Para configurar esta regra, forneça o parâmetro de sequência de consulta para sua campanha de email. Neste exemplo, o parâmetro é  *`eml`*:
-
-![](assets/example_email.png)
-
-Se sua regra contém Códigos de acompanhamento, insira um valor por linha, como mostrado aqui:
-
-![](assets/tracking_code.png)
-
-## Direta  {#direct}
-
-Esta regra identifica visitantes que não têm domínio de referência. Essa regra inclui visitantes que vêm ao seu site diretamente, como a partir de um link dos Favoritos ou colando o link no navegador.
-
-![](assets/example_direct.png)
+Um visitante acessa o site e, no meio da sessão, os cookies são limpos. Os canais Primeiro e Último toque seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
 
