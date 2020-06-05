@@ -3,14 +3,17 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+workflow-type: tm+mt
+source-wordcount: '2911'
+ht-degree: 99%
 
 ---
 
 
 # Referência: funções avançadas
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na lista suspensa **[!UICONTROL Funções]**.
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -119,8 +122,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -237,8 +240,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão exponencial: inclinação (Tabela) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +253,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Limite mínimo (Linha) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -307,7 +310,7 @@ TANH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja descobrir a tangente hiperbólica. |
+| *metric* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
 
 ## Se (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -382,8 +385,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão logarítmica: valor previsto de Y (Linha) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +400,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão logarítmica: inclinação (Tabela) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,8 +413,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_A* | Uma métrica que você designaria como um dado dependente. |
-| *metric_B* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_A* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_B* | Uma métrica que você designaria como um dado dependente. |
 
 ## Logaritmo natural {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -491,8 +494,8 @@ Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão de potência: valor previsto de Y (Linha) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +507,8 @@ Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os va
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão de potência: inclinação (Tabela) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +520,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão quadrática: coeficiente de correlação (Tabela) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -543,8 +546,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão quadrática: valor previsto de Y (Linha) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_A* | Uma métrica que você designaria como um dado dependente. |
+| *metric_A* | Uma métrica que você gostaria de designar como um dado independente. |
 | *metric_B* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão quadrática: inclinação (Tabela) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -569,8 +572,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão recíproca: coeficiente de correlação (Tabela) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -595,8 +598,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão recíproca: valor previsto de Y (Linha) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +611,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Regressão recíproca: inclinação (Tabela) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,8 +624,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descrição |
 |---|---|
-| *metric_X* | Uma métrica que você designaria como um dado dependente. |
-| *metric_Y* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_X* | Uma métrica que você gostaria de designar como um dado independente. |
+| *metric_Y* | Uma métrica que você designaria como um dado dependente. |
 
 ## Seno (Linha) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
