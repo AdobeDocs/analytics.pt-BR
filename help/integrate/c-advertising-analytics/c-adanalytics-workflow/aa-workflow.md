@@ -1,22 +1,24 @@
 ---
-description: 'null'
+description: Visão geral do fluxo de trabalho do Advertising Analytics.
 title: Visão geral do fluxo de trabalho
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 75%
 
 ---
 
 
 # Visão geral do fluxo de trabalho
 
-![](assets/step1_icon.png) Mapeie qualquer conjunto de relatórios do Analytics onde deseja visualizar dados de pesquisa do Google/Bing para sua organização da Experience Cloud.
+![](assets/step1_icon.png) Mapeie qualquer conjunto de relatórios do Adobe Analytics no qual você deseja visualização dados de pesquisa do Google/Bing para a organização da Experience Cloud.
 
 Consulte [Mapear conjuntos de relatórios para uma organização](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Habilita os relatórios do Advertising Analytics para conjuntos de relatórios habilitados pela Experience-Cloud.
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [Configurar uma conta do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -28,7 +30,7 @@ Observação: os dados de pesquisa são transferidos dos mecanismos de pesquisa 
 
 Nenhuma forma de geração de relatório está disponível
 
-* Modelo de “Desempenho da pesquisa paga” da Analysis Workspace
+* Analysis Workspace: [!UICONTROL Paid Search Performance] template
 * Reports &amp; Analytics
 * Report Builder
 * API em relatórios do Analytics
