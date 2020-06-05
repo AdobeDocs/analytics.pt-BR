@@ -2,9 +2,9 @@
 description: O painel Análises para Públicos alvos (A4T) permite que você analise suas atividades e experiências do Público alvo da Adobe na área de trabalho da Análise.
 title: Painel Análises para Públicos alvos (A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL O Analytics para o painel]** Público alvo está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL O painel Analytics for Público alvo (A4T)]** está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 O painel Análises para Públicos alvos (A4T) permite que você analise suas atividades e experiências do Público alvo da Adobe na área de trabalho da Análise. Ele também permite que você veja incentivo e confiança para até três métricas de sucesso. Para acessar o painel A4T, navegue até um conjunto de relatórios com os componentes A4T ativados. Em seguida, clique no ícone do painel na extremidade esquerda e arraste o painel Analytics for Público alvo para o Projeto da área de trabalho da Análise.
 
