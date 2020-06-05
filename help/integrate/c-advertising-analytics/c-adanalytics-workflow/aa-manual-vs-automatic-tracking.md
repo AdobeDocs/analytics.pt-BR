@@ -1,9 +1,11 @@
 ---
 description: O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 title: 'Rastreamento: modo manual e modo automático'
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +22,14 @@ No modo automático, o mecanismo da Advertising Cloud fica responsável por deci
 
 Como consequência, é necessário marcar uma caixa de seleção de confirmação ao selecionar o Modo automático, antes que você possa salvar a configuração da conta.
 
-
 Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações:
 
-* O parâmetro e valor &quot;s_kwcid&quot; será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final.**
-* Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor &quot;s_kwcid&quot;. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
+* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final.**
+* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
+
+>[!IMPORTANT]
+>
+>Saiba mais sobre se você deve adicionar o `s_kwcid` parâmetro à sua Política [de segurança de](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)conteúdo.
 
 ## Rastreamento no modo manual  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
