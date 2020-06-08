@@ -2,7 +2,7 @@
 title: Regras de processamento para Canais de marketing
 description: As regras de processamento de Canal de marketing determinam se uma ocorrência de visitante atende aos critérios atribuídos a um canal. As regras processam cada acesso que um visitante faz ao seu site. Quando uma regra não atende aos critérios de um canal, ou se as regras não foram configuradas corretamente, o sistema atribui o acesso a Nenhum canal identificado.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 71%
@@ -150,6 +150,8 @@ Essa regra identifica visitantes que se originam de um conjunto especificado de 
 
 Uma prática recomendada é incluir um canal &quot;Outras campanhas&quot; seguindo todas as regras de canal pagas. Este canal atua como um &quot;catch-all&quot; para o tráfego pago sem categoria.
 
+![](assets/other-campaigns.png)
+
 ### Redes sociais {#social-networks}
 
 Esta regra identifica os visitantes que se originam de uma rede social, como o Facebook*. Muitas vezes, o canal é renomeado para Social orgânico. As configurações podem ser as seguintes:
@@ -174,3 +176,4 @@ Essa regra identifica visitantes que não têm domínio de referência, o que in
 
 O canal Domínios de referência identifica visitantes que têm um domínio de referência. Juntos, os canais dos domínios Interno, Direto e Referenciador atuam como um catch-all para todas as ocorrências restantes que ainda não foram categorizadas em um canal.
 
+![](assets/referring-domains.png)
