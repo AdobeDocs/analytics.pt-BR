@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 72%
+source-wordcount: '1192'
+ht-degree: 71%
 
 ---
 
@@ -50,7 +50,7 @@ Em algumas situações, é possível que várias pessoas façam logon no mesmo d
 
 **Como o gráfico de dispositivos lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?**
 
-Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se o indivíduo usar muitos navegadores ou aplicativos e pode ser exacerbado se ele limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador. O gráfico de dispositivos limita o número de ECIDs vinculadas a determinada ID de usuário a 200. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é incluída na blacklist para não ser reagrupada no futuro. O resultado no CDA é que o comportamento da ID do usuário não é compilado em todos os dispositivos.
+Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se o indivíduo usar muitos navegadores ou aplicativos e pode ser exacerbado se ele limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador. O gráfico de dispositivos limita o número de ECIDs vinculadas a determinada ID de usuário a 200. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é adicionada a uma lista &quot;bloqueada&quot; para evitar que ela seja reagrupada no futuro. O resultado no CDA é que o comportamento da ID do usuário não é compilado em todos os dispositivos.
 
 **Qual é a diferença entre a métrica &#39;Pessoas&#39; no CDA e a métrica &#39;Visitantes únicos fora do CDA?**
 
