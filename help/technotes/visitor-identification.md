@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Identificar visitantes únicos
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ A Adobe usa um cookie para rastrear navegadores/dispositivos únicos.
 
 O Adobe Analytics fornece vários mecanismos para identificar visitantes. A tabela a seguir lista as diferentes maneiras de identificar um visitante no Analytics (na ordem de preferência):
 
-| Ordem utilizada | Parâmetro de consulta (método de coleta) | Presente quando |
+| Pedido usado | Parâmetro do query (método de coleta) | Apresentar quando |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID está definido |
 | 2 | aid (cookie s_vi) | O visitante tinha um cookie s_vi antes da implantação do serviço de ID de visitante ou o período de carência da ID de visitante está configurado. |
@@ -117,7 +119,7 @@ Também é possível aprovar &quot;1&quot; ou &quot;5&quot; em solicitações ma
 
 Em geral, o método de ID do assinante é mais confiável do que um cookie para identificação do usuário devido à exclusão do cookie, a problemas de aceitação de cookie e gerenciamento de cookie de gateway.
 
-Você pode melhorar a probabilidade de identificar um visitante ao ser incluído na lista branca da operadora que seus visitantes móveis usam. Para obter acesso à ID de visitante da operadora, entre em contato com a operadora para adicionar seu domínio à lista branca. Se você está na lista branca da operadora, é possível acessar os cabeçalhos de ID de assinante que, do contrário, não estão acessíveis.
+Você pode melhorar as alterações na identificação de um visitante ao ser adicionado à lista &quot;permitido&quot; para a operadora que seus visitantes móveis usam. Para obter acesso à ID de visitante da operadora, entre em contato com a operadora para adicionar seu domínio à lista &quot;permitida&quot;. Se você estiver na lista permitida de uma operadora, você também terá acesso aos cabeçalhos de ID do assinante que, de outra forma, não poderá acessar.
 
 A lista de cabeçalhos a seguir é usada para identificar dispositivos sem fio. O algoritmo usado para processar os cabeçalhos serve para
 
