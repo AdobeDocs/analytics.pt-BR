@@ -3,7 +3,10 @@ description: Exibe informações sobre acesso a sites a partir de um dispositivo
 title: Relatórios móveis
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Cont
 
 Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os conjuntos de relatórios.
 
-Para melhorar a identificação do visitante para dispositivos móveis, você deve estar na lista do transportador (lista branca) para o envio de IDs assinante a um domínio. (Você pode visualizar a operadora em **[!UICONTROL Perfil do visitante]** > **[!UICONTROL Domínios]**.)
+Para melhorar a identificação do visitante para dispositivos móveis, você deve estar na lista da operadora (&quot;lista permitida&quot;) para enviar IDs de assinante para um domínio. (Você pode visualizar a operadora em **[!UICONTROL Perfil do visitante]** > **[!UICONTROL Domínios]**.)
 
 >[!NOTE] Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
 
