@@ -1,21 +1,24 @@
 ---
 title: Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
-description: Saiba mais sobre o tempo de vida útil e as implicações para [!UICONTROL Impor restrições de logon de IP]
+description: Saiba mais sobre a duração do fim da vida útil e as implicações para [!UICONTROL Impor restrições de logon de IP]
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
 
-# Fim da vida útil para [!UICONTROL Enforce IP login restrictions]
+# Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 
-O recurso **[Impor restrições de logon de IP](/help/admin/company/security-manager.md)**no Adobe Analytics permite incluir endereços IP específicos (considerados seguros) para permitir logons bem-sucedidos e acesso ao ambiente do Adobe Analytics. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
 
 Estamos planejando o fim da vida útil desse recurso em janeiro de 2021.
 
 ## Por que vamos acabar com esse recurso?
 
-Esse recurso é dividido em algumas circunstâncias pela migração de logon da Experience Cloud e/ou pelo logon da Experience Cloud. Sabe-se que há quebra para clientes que usam **[!UICONTROL Customer Attributes]** ou **[!UICONTROL Audience Library]**.
+Esse recurso é dividido em algumas circunstâncias pela migração de logon da Experience Cloud e/ou pelo logon da Experience Cloud. É dividido para clientes que usam **[!UICONTROL Atributos do cliente]** ou **[!UICONTROL Biblioteca de público-alvo]**.
 
 Além disso, se você tiver várias Soluções da Experience Cloud, poderá navegar por esse requisito ao fazer logon na Experience Cloud com uma das outras soluções, pois esse recurso não existe ou não é compatível fora do Analytics. Os usuários também podem contornar isso por meio de falsificação de IP.
 
@@ -23,9 +26,9 @@ Por fim, a Adobe tem uma solução alternativa funcional e superior por meio do 
 
 ## Como a remoção deste recurso afeta você?
 
-Para qualquer cliente que tiver **[!UICONTROL Enforce IP login restrictions]** configurado, este recurso será removido em janeiro de 2021. Nesse momento, as restrições de logon de IP ainda em vigor não serão mais impostas. Se ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. Nesse momento, as restrições de logon de IP ainda em vigor não serão mais impostas. Se ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
+Além disso, a configuração **[!UICONTROL Impor restrições de logon de IP]** será removida de **[!UICONTROLAAdministração > Configurações da empresa > Gerenciador de segurança]** na interface do usuário do Analytics (como mostrado abaixo).
 
 ![](assets/sec-manager2.png)
 
