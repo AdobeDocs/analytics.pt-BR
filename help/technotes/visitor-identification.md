@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Identificar visitantes únicos
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Também é possível aprovar &quot;1&quot; ou &quot;5&quot; em solicitações ma
 
 Em geral, o método de ID do assinante é mais confiável do que um cookie para identificação do usuário devido à exclusão do cookie, a problemas de aceitação de cookie e gerenciamento de cookie de gateway.
 
-Você pode melhorar as alterações na identificação de um visitante ao ser adicionado à lista &quot;permitido&quot; para a operadora que seus visitantes móveis usam. Para obter acesso à ID de visitante da operadora, entre em contato com a operadora para adicionar seu domínio à lista &quot;permitida&quot;. Se você estiver na lista permitida de uma operadora, você também terá acesso aos cabeçalhos de ID do assinante que, de outra forma, não poderá acessar.
+Você pode melhorar as alterações na identificação de um visitante ao ser adicionado à lista de permissões da operadora que seus visitantes móveis usam. Para obter acesso à ID de visitante da operadora, entre em contato com a operadora para adicionar seu domínio à lista de permissões. Se você estiver na lista de permissões de uma operadora, você também terá acesso aos cabeçalhos de ID de assinante que, de outra forma, você não poderá acessar.
 
 A lista de cabeçalhos a seguir é usada para identificar dispositivos sem fio. O algoritmo usado para processar os cabeçalhos serve para
 
