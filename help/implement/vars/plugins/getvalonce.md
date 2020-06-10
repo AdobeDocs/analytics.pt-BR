@@ -2,7 +2,10 @@
 title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -46,8 +49,8 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -85,6 +88,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 Esse código impede que o mesmo valor seja transmitido para s.eVar2 mais de uma vez seguida durante a sessão do usuário.  Ele também ignora o valor &quot;m&quot; no parâmetro (no final da chamada), pois a hora de expiração está definida como 0.   O código também armazena o valor da comparação no cookie s_ev2.
 
 ## Histórico da versão
+
+### 2,01
+
+* Correção de um problema com a gravação de cookies.
 
 ### 2.0
 
