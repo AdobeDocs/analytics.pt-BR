@@ -2,7 +2,10 @@
 title: linkTrackVars
 description: Especifique quais variáveis incluir nas solicitações de imagem de rastreamento de link.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 88%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Algumas implementações não querem incluir todas as variáveis em todas as solicitações de imagem de rastreamento de link. Use as variáveis `linkTrackVars` e [`linkTrackEvents`](linktrackevents.md) para incluir seletivamente dimensões e métricas em chamadas [`tl()`](../functions/tl-method.md).
 
-This variable is not used for page view calls (`t()` method).
+This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
 ## Variáveis em chamadas de rastreamento de link que usam o Adobe Experience Platform Launch
 
@@ -24,7 +27,7 @@ O Launch preenche automaticamente essa variável no backend com base nas variáv
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Ambos os critérios a seguir devem ser atendidos para incluir dimensões nas ocorrências de rastreamento de link:
 
 * Defina o valor da variável desejada. Por exemplo, `s.eVar1 = "Example value";`.
-* Defina a variável desejada na variável `linkTrackVars`. Por exemplo, `s.linkTrackEvents = "eVar1";`.
+* Defina a variável desejada na variável `linkTrackVars`. Por exemplo, `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
