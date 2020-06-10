@@ -5,7 +5,10 @@ title: Referência do arquivo de importação
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Utilize o Assistente das Fontes de Dados para gerar um modelo de importação. O
 
 Os títulos das colunas são utilizados para identificar os dados de cada coluna do arquivo da Fonte de Dados. Há três tipos de títulos de coluna:
 
-**Data**: (Obrigatório) Uma marca de tempo para cada linha de dados no arquivo.
+**Data**: (Obrigatório) Um carimbo de data e hora para cada linha de dados no arquivo, no formato `m/d/yyyy`.
 
 **Variáveis**: os nomes das variáveis de relatório mapeadas para as dimensões de dados da fonte de dados.
 
