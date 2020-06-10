@@ -5,7 +5,10 @@ title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de v
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ Diferentes sites têm necessidades de implementação diversas. Algumas dimensõ
 
 Certifique-se de que o número de dimensões e métricas exclusivas possa se ajustar a um único conjunto de relatórios global. Se você descobrir que existem muitas dimensões ou métricas exclusivas, analise cada dimensão em cada implementação. Há, provavelmente, sobreposição e dimensões que não são essenciais para o sucesso dos negócios. Considere usar as [classificações](/help/components/c-classifications2/c-classifications.md) também. Por exemplo, em vez de capturar &#39;Nome do produto&#39; no eVar5, crie uma classificação &#39;Nome do produto&#39; baseada na dimensão &#39;Produto&#39;. As classificações em um conjunto de relatórios de origem são disponibilizadas automaticamente para qualquer conjunto de relatórios virtual dependente.
 
->[!TIP] Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), agora é possível alterar o nome de uma determinada dimensão ou métrica com base no VRS.
+>[!TIP] Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), agora é possível alterar o nome de uma determinada dimensão ou métrica com base no VRS.
 
 ### Nuances de segmentação
 
