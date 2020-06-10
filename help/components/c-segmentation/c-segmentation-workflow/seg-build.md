@@ -4,10 +4,10 @@ title: Construir segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,6 @@ Há várias maneiras de acessar o Construtor de segmentos:
    * **[!UICONTROL Repetir]** (padrão): Inclui instâncias e valores persistentes para a dimensão.
    * **[!UICONTROL Instância]**: inclui instâncias da dimensão.
    * **[!UICONTROL Instância não repetitiva]**: inclui instâncias exclusivas (não repetitivas) da dimensão. Esse é o modelo aplicado em Fluxo quando instâncias repetidas são excluídas.
-
    ![](assets/attribution-models.jpg)
 
    **Exemplo: Segmento de ocorrência onde eVar1 = A**
@@ -75,19 +74,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 
 Segmentos com intervalos de datas incorporados continuarão a operar de forma diferente na Analysis Workspace com relação ao [!UICONTROL Reports &amp; Analytics]: na Workspace, um segmento com um intervalo de datas inserido substitui o intervalo de datas do painel. Ao contrário, o [!UICONTROL Reports &amp; Analytics] gera a interseção entre intervalo de datas do relatório e o intervalo de datas inserido do segmento.
 
-**[!UICONTROL Publicar na Experience Cloud (para`<report suite name>`)]**: (não exibido na tela) essa opção aparecerá somente se o conjunto de relatórios em que você está salvando este segmento for [habilitado](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Ao publicar um segmento na Experience Cloud, é possível usá-lo em atividades de marketing na [!UICONTROL Biblioteca de público-alvo], no [!DNL Target] e no [!DNL Audience Manager]. É necessário um título de segmento e uma descrição.
-
->[!NOTE]No Analytics, você pode editar ou excluir um segmento publicado. Se o segmento estiver em uso, uma mensagem de aviso será emitida quando um segmento for editado. Não é possível excluir um segmento publicado que esteja sendo usado pelo Adobe [!DNL Target].
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->É preciso limitar para 20 o número de públicos-alvo compartilhados por meio do Analytics para evitar atrasos adicionais de processamento. Os públicos-alvo compartilhados com a Experience Cloud a partir do Analytics não podem exceder 20 milhões de membros exclusivos. Além disso, devido a questões relacionadas ao cache, os conjuntos de relatórios excluídos no Analytics permanecem exibidos na Experience Cloud por 12 horas após a exclusão.
-
->[!IMPORTANT]
->
->Depois que um visitante é qualificado para o público-alvo compartilhado do Analytics, existe um atraso de 24 a 48 horas antes de as informações serem ativadas no [!DNL Target], no [!DNL Advertising Cloud] e no [!DNL Campaign].
+**[!UICONTROL Publicação]** da Experience Cloud: (Não exibido na tela) Essa opção aparece somente se o conjunto de relatórios no qual você está salvando esse segmento estiver [ativado para a Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Ao publicar um segmento na Experience Cloud, é possível usá-lo em atividades de marketing na [!UICONTROL Biblioteca de público-alvo], no [!DNL Target] e no [!DNL Audience Manager]. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sobre a publicação da Experience Cloud.
 
 ## Construir segmentos {#build-segments}
 
