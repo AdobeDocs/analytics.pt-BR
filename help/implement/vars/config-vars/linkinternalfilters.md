@@ -2,9 +2,9 @@
 title: linkInternalFilters
 description: Use a variável linkInternalFilters para ajudar no rastreamento automático do link de saída.
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 85%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. As variáveis [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` determinam quais links são considerados internos/externos.
 
-Se essa variável contiver um valor, o rastreamento automático de link de saída se comporta como uma lista &quot;bloqueada&quot;. Se um clique em um link não corresponder a algum valor `linkInternalFilters`, ele será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+Se essa variável contiver um valor, o rastreamento automático de link de saída se comporta como uma lista de bloqueios. Se um clique em um link não corresponder a algum valor `linkInternalFilters`, ele será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
