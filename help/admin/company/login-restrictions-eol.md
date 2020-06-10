@@ -2,9 +2,9 @@
 title: Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 description: Saiba mais sobre a duração do fim da vida útil e as implicações para [!UICONTROL Impor restrições de logon de IP]
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 85%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
 
 Estamos planejando o fim da vida útil desse recurso em janeiro de 2021.
 
