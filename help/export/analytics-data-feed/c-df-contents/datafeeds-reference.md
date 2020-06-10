@@ -5,8 +5,11 @@ subtopic: data feeds
 title: Referência da coluna de dados
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `videoshow` | Exibição de vídeo | varchar(255) |
 | `videoshowtype` | Tipo de exibição de vídeo | varchar(255) |
 | `videostreamtype` | Tipo de fluxo de vídeo | varchar(255) |
-| `visid_high` | Usado em combinação com visid_low para identificar uma visita de maneira exclusiva. | bigint unsigned |
-| `visid_low` | Usado em combinação com visid_high para identificar uma visita de maneira exclusiva. | bigint unsigned |
+| `visid_high` | Usada em combinação com visid_low para identificar exclusivamente um visitante. | bigint unsigned |
+| `visid_low` | Usada em combinação com visid_high para identificar exclusivamente um visitante. | bigint unsigned |
 | `visid_new` | Sinalizador para identificar se a ocorrência contém uma ID de visitante gerada recentemente. | char(1) |
 | `visid_timestamp` | Se a ID do visitante foi gerada recentemente, fornece o carimbo de data e hora (em horário Unix) de quando ela foi gerada. | int |
 | `visid_type` | ID numérica que representa método usado para identificar o visitante. <br>0: ID de visitante personalizado <br>1: IP e fallback do agente do usuário <br>2: Cabeçalho do assinante do HTTP Mobile <br>3: Valor do cookie herdado (s_vi) <br>4: Valor do cookie de fallback (s_fid) <br>5: Serviço de identidade | tinyint unsigned |
