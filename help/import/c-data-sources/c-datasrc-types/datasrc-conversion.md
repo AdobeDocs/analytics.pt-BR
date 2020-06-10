@@ -5,7 +5,10 @@ title: Conversão
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +28,8 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Código de rastreamento | Nome do Código de rastreamento. |
 | Data | Use o seguinte formato de data: MM/DD/AAAA/HH/mm/SS (por exemplo, 01/01/2015/06/00/00) |
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
-| Canal | Nome do canal. |
-| eVarn | Nome da eVarn. Valores válidos para n são inteiros entre 1 - 75. |
+| Channel | Nome do canal. |
+| eVarn | Nome da eVarn. Valores válidos para n são inteiros entre 1 - 250. |
 | Product | Nome do produto. |
 | Estado | Nome do estado. |
 | CEP | Nome do CEP. |
@@ -42,7 +45,7 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Exibições do carrinho | Total de exibições do carrinho. |
 | Finalizações | Total de finalizações. |
 | Evento n | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 100.  Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
-| Exibições da eVarn | Total de vezes que o eVar n foi visualizado. Valores válidos para n são inteiros entre 1 - 75. |
+| Exibições da eVarn | Total de vezes que o eVar n foi visualizado. Valores válidos para n são inteiros entre 1 - 250. |
 | Preço | Preço do produto. |
 | Pedidos | Total de pedidos feitos. |
 | Exibições do produto | Total de exibições do produto. |
