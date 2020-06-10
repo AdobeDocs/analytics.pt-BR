@@ -4,6 +4,9 @@ title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -12,14 +15,14 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
 
->[!NOTE] As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados da Workspace e em conjuntos de relatórios virtuais preparados (VRSs). Anteriormente, qualquer pessoa podia ver componentes sem curadoria clicando em **[!UICONTROL Show all Components]**. A [experiência atualizada de preparação](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
+>[!NOTE] As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados da Workspace e em conjuntos de relatórios virtuais preparados (VRSs). Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
 
 Para permitir a curadoria de componentes,
 
-1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. Depois de definir o **[!UICONTROL Settings]**, clique na **[!UICONTROL Components]** guia.
+1. Acesse **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
+1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **[!UICONTROL Componentes]**.
 
-1. Marque a caixa de seleção **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Marque a caixa de seleção **[!UICONTROL Habilitar personalização de componentes de conjuntos de relatórios virtuais]**:
 
    ![](assets/vrs-enable.png)
 
@@ -27,7 +30,7 @@ Para permitir a curadoria de componentes,
    >
    >Se a personalização de componentes estiver ativada, o conjunto de relatórios virtuais poderá ser acessado **somente na Analysis Workspace** e não em:
 
-   * [!UICONTROL Reports & Analytics]
+   * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
@@ -42,7 +45,7 @@ Para permitir a curadoria de componentes,
    >
    >Não há necessidade de *compartilhar* componentes com curadoria (segmentos, métricas calculadas, intervalos de datas). Eles sempre estarão visíveis na Analysis Workspace se tiverem curadoria para o conjunto de relatórios virtual, mesmo se não forem compartilhados.
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. Além disso, você pode filtrar ou pesquisar os componentes e adicionar toda a seleção filtrada à coluna incluída clicando em **[!UICONTROL Adicionar tudo]**.
 
    ![](assets/vrs-add-all.png)
 
