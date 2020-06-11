@@ -5,7 +5,10 @@ title: Variáveis de conversão (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 90%
 
 ---
 
@@ -88,7 +91,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento compulsório de merchandising</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>Se Merchandising estiver definido como <span class="uicontrol">Sintaxe de variável de conversão</span>, os eventos selecionados vincularão o valor de eVar atual a um produto. </p> <p>Para usar um evento compulsório, defina <span class="uicontrol">Alocação como Mais recente</span>. Se <span class="uicontrol">Alocação for Valor original</span>, a primeira ligação de produto de eVar permanecerá até que eVar expire. </p> </td> 
+   <td colname="col2"> <p>Se Merchandising estiver definido como <span class="uicontrol">Sintaxe de variável de conversão</span>, os eventos selecionados vincularão o valor de eVar atual a um produto. </p> <p>Para usar um evento compulsório, defina <span class="uicontrol">Alocação como Mais recente</span>. Se <span class="uicontrol">Alocação for Valor original</span>, a primeira ligação de produto de eVar permanecerá até que eVar expire. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +105,7 @@ Existem duas formas de determinar a expiração de uma eVar:
 * É possível definir a eVar para expirar depois de um período ou evento especificado.
 * É possível forçar a expiração de uma eVar redefinindo-a, o que é útil ao redefinir o objetivo de uma variável.
 
-Por exemplo, se você alterar a expiração de uma eVar de 30 para 90 dias, os valores de eVar coletados continuarão a persistir pela duração do novo conjunto de expiração (nesse caso, 90 dias). O sistema simplesmente verifica a configuração de expiração atual e o último carimbo de data e hora definido do valor da eVar coletado para determinar a expiração. Somente a **[!UICONTROL Reset]** opção expira os valores e o faz imediatamente.
+Por exemplo, se você alterar a expiração de uma eVar de 30 para 90 dias, os valores de eVar coletados continuarão a persistir pela duração do novo conjunto de expiração (nesse caso, 90 dias). O sistema simplesmente verifica a configuração de expiração atual e o último carimbo de data e hora definido do valor da eVar coletado para determinar a expiração. Somente a opção **[!UICONTROL Redefinir]** expira os valores e o faz imediatamente.
 
 Outro exemplo: Se uma eVar for usada em maio para refletir promoções internas e expirar após 21 dias, e em junho for usada para capturar palavras-chave de pesquisa interna, em seguida, em 1º de junho, você deverá forçar a expiração ou redefinir a variável. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
 
