@@ -2,21 +2,28 @@
 description: 'null'
 title: Visão geral dos painéis
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 87%
+source-wordcount: '481'
+ht-degree: 82%
 
 ---
 
 
 # Visão geral dos painéis
 
-Um painel é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace. Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos de tempo, unidades comerciais, geografia etc. Esses seis tipos de painéis estão disponíveis na área de trabalho da Análise: [Painel](/help/analyze/analysis-workspace/c-panels/blank-panel.md)em branco, painel [Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) rápidos (em breve), painel [](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Analytics for Público alvo (em breve), painel [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Atribuição, painel [](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)Forma livre e painel Comparação [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)de segmentos.
+Um painel é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace. Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos de tempo, unidades comerciais, geografia etc. Esses seis tipos de painéis estão disponíveis na área de trabalho da Análise:
 
-Insights rápidos, painéis em branco e de forma livre são excelentes locais para start de sua análise, enquanto o Analytics para Público alvo, QI de atribuição e Comparação de segmentos se prestam a análises mais avançadas. Além disso, adicionamos um botão de painel “+”, para que você possa adicionar painéis em branco a qualquer momento.
+* [Painel em branco](blank-panel.md)
+* [Painel Quick Insights](quickinsight.md)
+* [Analytics para o painel](a4t-panel.md) Público alvo (em breve)
+* [Painel de atribuição](attribution.md)
+* [Painel de forma livre](freeform-panel.md)
+* [Painel Comparação de segmentos](c-segment-comparison/segment-comparison.md)
 
-O painel inicial padrão é o Painel de forma livre, mas também é possível definir o [Painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) como o padrão.
+Insights rápidos, painéis em branco e de forma livre são excelentes locais para start de sua análise, enquanto o Analytics para Público alvo, QI de atribuição e Comparação de segmentos se prestam a análises mais avançadas. Um `"+"` botão está disponível em projetos para que você possa adicionar painéis em branco a qualquer momento.
+
+The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Filtros suspensos em painéis   {#section_D2828EEDD52944528E87F470EAB581CF}
 
