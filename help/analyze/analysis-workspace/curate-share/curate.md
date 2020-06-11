@@ -3,10 +3,10 @@ description: A preparação permite limitar os componentes antes de compartilhar
 keywords: Analysis Workspace curation
 title: Preparar projetos da Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 39%
+source-wordcount: '491'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abrir o projeto, ele verá um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
 
 >[!NOTE]
-> Os perfis de produto são o principal mecanismo que controla os componentes que um usuário pode ver. São gerenciados por meio do Admin Console. A Preparação é um filtro secundário.
+> Os perfis de produto são o principal mecanismo que controla os componentes que um usuário pode ver. Eles são gerenciados pelo Admin Console da Adobe Experience Cloud. A Preparação é um filtro secundário.
 
 ## Aplicar curadoria de projeto
 
@@ -26,13 +26,15 @@ Os componentes usados no projeto serão adicionados automaticamente.
 1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para o campo [!UICONTROL Preparar componentes] .
 1. Clique em **[!UICONTROL Concluído]**.
 
+A preparação também pode ser aplicada no menu [!UICONTROL Compartilhar] clicando em **[!UICONTROL Preparar e Compartilhar]**. Essa opção automaticamente organiza o projeto para os componentes em uso no projeto. Você pode adicionar outros componentes seguindo as etapas acima.
+
 ![](assets/curation-field.png)
+
+## visualização de projeto preparado
 
 Quando um recipient abrir um projeto preparado, ele verá apenas o conjunto preparado de componentes que você definiu:
 
 ![](assets/curate-project.png)
-
-A preparação também pode ser aplicada no menu [!UICONTROL Compartilhar] clicando em **[!UICONTROL Preparar e Compartilhar]**. Essa opção automaticamente organiza o projeto para os componentes em uso no projeto. Você pode adicionar outros componentes seguindo as etapas acima.
 
 ## Remover curadoria do projeto
 
@@ -48,15 +50,15 @@ Para aplicar curadoria em um nível de conjunto de relatórios, de modo que se a
 >[!NOTE]
 > A reparação do VRS é sempre aplicada antes da preparação do projeto. Isso significa que, mesmo se o projeto preparado incluir determinados componentes, eles serão filtrados se o VRS não preparado não os incluir.
 
-### Mostrar todos os componentes
+## opção Mostrar todos os componentes
 
 Em um projeto com curadoria de VRS, o recipient terá a opção de **[!UICONTROL Mostrar todos]** os componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo de:
 
-* o nível de permissão do usuário (administrador ou não administrador)
-* função do projeto (proprietário/editor ou não)
-* tipo de curadoria aplicada
+* O nível de permissão do usuário (admin ou non-admin)
+* Função do projeto (proprietário/editor ou não)
+* Tipo de curadoria aplicada (VRS ou projeto)
 
-| Tipo de preparação | Administradores | Proprietários de projeto que não são admistradores | Não administradores |
+| Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função de duplicado ou visualização não administrativo |
 |---|---|---|---|
 | Conjunto de relatórios virtual preparado | Todos os componentes de VRS não preparados | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela |
 | Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
