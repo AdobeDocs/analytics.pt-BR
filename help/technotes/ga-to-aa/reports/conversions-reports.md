@@ -2,7 +2,10 @@
 title: Relatórios de conversões no Adobe Analytics
 description: Saiba como usar relatórios de conversões no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ A visualização Fallout não está limitada apenas à dimensão Páginas. Qualq
 
 Geralmente, os relatórios de comércio eletrônico são usados por sites que vendem produtos ou serviços para medir pedidos e receita de itens comprados. Esse recurso está disponível no Adobe Analytics e é conhecido como Relatórios de produtos.
 
-Os relatórios de comércio eletrônico no Google Analytics e os relatórios de produto no Adobe Analytics exigem alterações de implementação personalizadas para serem usadas. Consulte a dimensão [Produtos](/help/components/c-variables/dimensionslist/reports-products.md) no guia do usuário de Componentes para obter mais informações.
+Os relatórios de comércio eletrônico no Google Analytics e os relatórios de produto no Adobe Analytics exigem alterações de implementação personalizadas para serem usadas. Consulte a dimensão [Produtos](/help/components/dimensions/product.md) no guia do usuário de Componentes para obter mais informações.
 
 ## Relatórios de funil multicanal
 
