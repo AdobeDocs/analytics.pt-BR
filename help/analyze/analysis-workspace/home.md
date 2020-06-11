@@ -4,7 +4,7 @@ title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
-Esta página contém instruções básicas para começar. Ao dominar as noções básicas, você pode seguir para os recursos avançados do Workspace. Eles incluem QI [de](/help/analyze/analysis-workspace/attribution-iq.md)atribuição, Detecção [de](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)anomalias, Análise [de](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)contribuição, QI [do](/help/analyze/analysis-workspace/segment-iq.md)segmento e Alertas [](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)inteligentes.
+Esta página contém instruções básicas para começar. Ao dominar as noções básicas, você pode seguir para os recursos avançados do Workspace. Eles incluem QI [de](/help/analyze/analysis-workspace/attribution/overview.md)atribuição, Detecção [de](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)anomalias, Análise [de](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)contribuição, QI [do](/help/analyze/analysis-workspace/segment-iq.md)segmento e Alertas [](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)inteligentes.
 
 Esta é uma visão geral em vídeo da Workspace:
 
