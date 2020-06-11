@@ -2,7 +2,10 @@
 title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Relatórios de origem e médio mostram os domínios que direcionaram o tráfego 
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre as respectivas dimensões:
 
-* [Domínio de referência](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Tipo de referenciador](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Palavra-chave de pesquisa](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Domínio de referência](/help/components/dimensions/referring-domain.md)
+* [Tipo de referenciador](/help/components/dimensions/referrer-type.md)
+* [Palavra-chave de pesquisa](/help/components/dimensions/search-keyword.md)
 
 ## Todo o tráfego - Referências
 
@@ -65,7 +68,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 1. No menu Componentes, localize a dimensão **Domínio de referência** ou **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-Consulte a dimensão [Domínio de referência](/help/components/c-variables/dimensionslist/reports-referring-domains.md) no guia do usuário Componentes para obter mais informações.
+Consulte a dimensão [Domínio de referência](/help/components/dimensions/referring-domain.md) no guia do usuário Componentes para obter mais informações.
 
 ## Relatórios do Google Ads e do Console de pesquisa
 
