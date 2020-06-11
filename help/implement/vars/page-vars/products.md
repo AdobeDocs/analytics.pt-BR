@@ -2,7 +2,10 @@
 title: products
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 89%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de muitos valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor e o divide em valores de dimensão separados.
 
->[!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na variável [`events`](events/events-overview.md), a métrica &quot;Exibições do produto&quot; será incrementada em 1. Certifique-se de definir o evento de carrinho de compras adequado em cada ocorrência.
+> [!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na [`events`](events/events-overview.md) variável, a métrica [Visualizações](/help/components/metrics/product-views.md) do produto será incrementada em 1. Certifique-se de definir o evento do carrinho de compras apropriado em cada ocorrência com a `products` variável.
 
 ## Produtos no Adobe Experience Platform Launch
 
@@ -33,7 +36,7 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 * **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente às ocorrências com o evento de compra.
 * **Preço** (opcional): o preço total do produto em formato decimal. Se a quantidade for superior a um, defina o preço total e não o preço individual do produto. Ajuste a moeda desse valor para corresponder ao da variável [`currencyCode`](../config-vars/currencycode.md). Não inclua o símbolo da moeda nesse campo. Esse campo se aplica somente às ocorrências com o evento de compra.
 * **Eventos** (opcional): eventos vinculados ao produto. Delimite vários eventos usando uma barra vertical (`|`). Consulte [Eventos](events/events-overview.md) para obter mais informações.
-* **eVars** (opcional): eVars de merchandising ligadas ao produto. Delimite várias eVars de merchandising usando uma barra vertical (`|`). Consulte [eVar de merchandising](../../../components/c-variables/c-merch-variables/var-merchandising.md) para obter mais informações.
+* **eVars** (opcional): eVars de merchandising ligadas ao produto. Delimite várias eVars de merchandising usando uma barra vertical (`|`). Consulte [eVar de merchandising](evar-merchandising.md) para obter mais informações.
 
 ```js
 // Set a single product using all available fields
@@ -47,7 +50,7 @@ Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa par
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações de nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
+> [!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações de nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
 
 ## Exemplos
 
@@ -61,7 +64,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
