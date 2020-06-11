@@ -3,7 +3,10 @@ description: As configurações de coluna permitem que você configure a formata
 title: Configurações de coluna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ As configurações de coluna permitem que você configure a formatação da colu
 
 ## Configurações de coluna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+Para acessar [!UICONTROL Configurações de coluna], arraste uma Tabela de forma livre para o projeto e clique no ícone de engrenagem no cabeçalho da coluna.
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ A formatação condicional aplica formatação a limites superiores, intermediá
 | Gerado automaticamente | Gera automaticamente limites de formatação condicional. O limite superior é o valor mais alto na coluna. O limite inferior é o menor valor e o ponto intermediário é a média entre os limites superior e inferior. |
 | Personalizado | Você pode atribuir os valores manualmente para os campos de limite Superior, Intermediário e Inferior para formatação condicional. Isso oferece a flexibilidade de determinar quando o valor de uma coluna se torna bom, médio ou ruim. |
 | Visualização de célula de tabela | Mostra uma visualização de como cada célula é exibida com a aplicação das opções de formatação atuais selecionadas. |
+
+## Usar modelo de atribuição não-padrão
+
+A Área de trabalho de Análise suporta [atribuição](../../attribution/overview.md) para quase todas as métricas.
+
+1. Clique no ícone de Configurações (engrenagem) em uma coluna de Tabela de forma livre.
+
+   ![Caixa de seleção Atribuição](assets/attribution-checkbox.png)
+
+2. Em **[!UICONTROL Configurações de dados]**, marque a opção **[!UICONTROL Usar modelo de atribuição não padrão]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Selecionar modelo de atribuição](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
