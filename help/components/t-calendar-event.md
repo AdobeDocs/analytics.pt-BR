@@ -4,7 +4,7 @@ title: Eventos de calendário
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -33,13 +33,12 @@ Para relatórios de tendências ao longo de um período, você pode exibir grafi
    1. Clique em **[!UICONTROL Encaminhar para usuários]**.
    1. Clique em **[!UICONTROL Marcar tudo]** ou marque a caixa ao lado do nome do usuário.
    1. Clique em **[!UICONTROL Salvar]**.
-
    Isso torna os Eventos de calendário muito mais úteis. Agora, os analistas são capazes de colocar uma sobreposição nos relatórios dos usuários para oferecer mais contexto.
 1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendário]**.
 1. Em **[!UICONTROL Eventos de calendário compartilhados]**, especifique uma dessas opções:
 
-       | **Me copiar** | Adiciona uma cópia à lista de painéis, com o mesmo nome do original. No entanto, você não pode visualizar qualquer atualização/alteração efetuada pelo proprietário do evento. |
-       |---|---|
-       | **No relatório** | Permite que você visualize alterações/atualizações efetuadas pelo proprietário do evento. |
-       | **Cancelar compartilhamento** | Remove esse evento da lista de eventos compartilhados. |
-   
+   | **Copiar-me** | Adiciona uma cópia à lista de painéis, com o mesmo nome do original. No entanto, você não pode visualizar qualquer atualização/alteração efetuada pelo proprietário do evento. |
+   |---|---|
+   | **No Relatório** | Permite que você visualize alterações/atualizações efetuadas pelo proprietário do evento. |
+   | **Não Compartilhar** | Remove esse evento da lista de eventos compartilhados. |
+
