@@ -2,7 +2,10 @@
 title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ Para obter um gráfico de linhas de visitantes únicos:
 2. Clique no ícone Componentes à esquerda e arraste a métrica **Visitante únicos** até o espaço menor chamado &#39;Solte uma métrica aqui&#39;.
 3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) na parte superior do cabeçalho da dimensão de data existente.
 
-Consulte [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) no guia do usuário Componentes para obter detalhes sobre como a Adobe calcula visitantes únicos.
+Consulte [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes para obter detalhes sobre como a Adobe calcula visitantes únicos.
 
 ## Valor de tempo de vida
 
@@ -69,7 +72,7 @@ Para criar um relatório de idioma:
 1. No menu Componentes, localize a dimensão **Idioma** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-Consulte a dimensão [Idioma](/help/components/c-variables/dimensionslist/reports-languages.md) no guia do usuário Componentes para obter mais informações.
+Consulte a dimensão [Idioma](/help/components/dimensions/language.md) no guia do usuário Componentes para obter mais informações.
 
 ## Geo - Localização
 
@@ -84,9 +87,9 @@ Para criar um relatório de localização geográfica:
 Se desejar a tabela além do mapa:
 
 1. No menu Componentes, localize a dimensão **Países** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-Consulte [Segmentação geográfica](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) no guia do usuário Componentes para obter mais informações.
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## Comportamento - Novo vs Recorrente
 
@@ -111,7 +114,7 @@ O relatório de frequência e recenticidade é aproximadamente igual à dimensã
 1. No menu Componentes, localize a dimensão **Número de visitas** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-Consulte a dimensão [Número da visita](/help/components/c-variables/dimensionslist/reports-visitor-number.md) no guia do usuário Componentes para obter mais informações.
+Consulte a dimensão [Número da visita](/help/components/dimensions/visit-number.md) no guia do usuário Componentes para obter mais informações.
 
 ## Comportamento - Engajamento
 
@@ -120,7 +123,7 @@ O relatório de engajamento é aproximadamente igual à dimensão **Tempo gasto 
 1. No menu Componentes, localize a dimensão **Tempo gasto por visita - Classificado** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-Consulte a dimensão [Tempo gasto por visita](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) no guia do usuário Componentes para obter mais informações.
+Consulte a dimensão [Tempo gasto por visita](/help/components/dimensions/time-spent-per-visit.md) no guia do usuário Componentes para obter mais informações.
 
 ## Tecnologia - Navegador e SO
 
@@ -137,10 +140,10 @@ Há várias dimensões principais disponíveis no relatório Navegador e SO.
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre as respectivas dimensões:
 
-* [Navegador](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [Sistema operacional](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [Resolução do Monitor](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [Intensidade de cor](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [Navegador](/help/components/dimensions/browser.md)
+* [Sistema operacional](/help/components/dimensions/operating-systems.md)
+* [Resolução do Monitor](/help/components/dimensions/monitor-resolution.md)
+* [Intensidade de cor](/help/components/dimensions/color-depth.md)
 
 ## Tecnologia - Rede
 
@@ -149,25 +152,25 @@ O relatório de rede é aproximadamente igual à dimensão **Domínio**.
 1. No menu Componentes, localize a dimensão **Domínio** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-Consulte a dimensão [Domínio](/help/components/c-variables/dimensionslist/reports-domains.md) no guia do usuário Componentes para obter mais informações.
+Consulte a dimensão [Domínio](/help/components/dimensions/domain.md) no guia do usuário Componentes para obter mais informações.
 
 ## Dispositivo móvel - Visão geral
 
 O relatório de visão geral móvel é aproximadamente igual à dimensão **Tipo de dispositivo móvel**. Observe que o valor &quot;Outros&quot; equivale ao tráfego de desktop.
 
 1. No menu Componentes, localize a dimensão **Tipo de dispositivo móvel** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-Consulte a dimensão [Tipo de dispositivo móvel](/help/components/c-variables/dimensionslist/reports-device-types.md) no guia do usuário Componentes para obter mais informações.
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Móvel - Dispositivos
 
 O relatório Dispositivos móveis é aproximadamente igual à dimensão **Dispositivo móvel**.
 
 1. No menu Componentes, localize a dimensão **Dispositivo móvel** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-Consulte a dimensão [Dispositivo móvel](/help/components/c-variables/dimensionslist/reports-devices.md) no guia do usuário Componentes para obter mais informações.
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Personalizado
 
