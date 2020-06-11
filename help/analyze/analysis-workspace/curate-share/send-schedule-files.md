@@ -1,18 +1,21 @@
 ---
-description: É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com uma programação.
-title: Compartilhar e programar arquivos de projeto
+description: É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com um agendamento.
+title: Menu Compartilhar
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# Compartilhar e programar arquivos de projeto
+# Menu Compartilhar
 
-É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com uma programação.
+É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com um agendamento.
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL Espaço de trabalho]** > **[!UICONTROL Compartilhar]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> Compartilhar projeto </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Mais informações</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Mais informações</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Obter link do projeto </td> 
