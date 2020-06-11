@@ -2,10 +2,10 @@
 description: O Quick Insights é uma ferramenta para novos usuários do Workspace que os guia na criação de tabelas de dados e visualizações.
 title: Painel Quick Insights
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL O painel Quick Insights]** está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL O painel Quick Insights]** está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html)
 
 [!UICONTROL O Quick Insights] fornece orientação para não analistas e novos usuários da [!UICONTROL Análise Workspace] para saber como responder perguntas comerciais de forma rápida e fácil. É também uma excelente ferramenta para usuários avançados que desejam responder rapidamente a uma pergunta simples sem precisar criar uma tabela eles mesmos.
 
 Ao usar este espaço de trabalho [!UICONTROL de]Análise pela primeira vez, você pode se perguntar quais visualizações seriam mais úteis, quais dimensões e métricas podem facilitar insights, onde arrastar e soltar itens, onde criar um segmento etc.
 
-Para ajudar nisso, e com base na sua própria utilização de componentes de dados na [!UICONTROL Análise Workspace], o [!UICONTROL Quick Insights] aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa.
+Para ajudar nisso, e com base na sua própria utilização de componentes de dados na [!UICONTROL Análise Workspace], o [!UICONTROL Quick Insights] aproveita um algoritmo que apresentará as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa. Na verdade, você verá dimensões, métricas e segmentos marcados como [!UICONTROL Popular] na lista suspensa, como mostrado aqui:
+
+![](assets/popular-tag.png)
 
 [!UICONTROL Os insights] rápidos ajudam você a
 
@@ -39,7 +41,7 @@ A seguir, alguns dos termos básicos que você precisa conhecer. Cada tabela de 
 | [!UICONTROL Item de dimensão] | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, os itens de dimensão para a dimensão do navegador seriam &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; etc. |
 | [!UICONTROL Métrica] | As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante. |
 | [!UICONTROL Visualização] | O Workspace oferta [várias visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para criar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linha, mapas, gráficos de dispersão e outros. |
-| [!UICONTROL Detalhamento de dimensão] | Um detalhamento de dimensão é uma forma de detalhar literalmente uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
+| [!UICONTROL Detalhamento de dimensão] | Um detalhamento de dimensão é uma forma de dividir literalmente uma dimensão por outras dimensões. Em nosso exemplo, você pode dividir os Estados Unidos por dispositivos móveis para obter as visitas de dispositivos móveis por estado, ou pode dividir os dispositivos móveis por tipos de dispositivos móveis, por regiões, por Campanhas internas, etc. |
 | [!UICONTROL Segmento] | Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Por exemplo, você pode criar segmentos de [!UICONTROL Visitantes] com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou com base em interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou com base em saídas e entradas: visitantes do Facebook, uma landing page definida, um domínio de referência ou com base em variáveis personalizadas: campo de formulário, categorias definidas, ID do cliente. |
 
 ## Introdução ao Quick Insights
