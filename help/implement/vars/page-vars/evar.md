@@ -2,20 +2,21 @@
 title: eVar
 description: Variáveis personalizadas que podem ser usadas na implementação.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 68%
 
 ---
 
 
 # eVar
 
-*Esta página de ajuda descreve como implementar eVars. Para obter informações sobre como as eVars funcionam como uma dimensão, consulte[eVars](../../../components/c-variables/dimensionslist/reports-conversion.md)no guia do usuário Componentes.*
+*Esta página de ajuda descreve como implementar eVars. Para obter informações sobre como as eVars funcionam como uma dimensão, consulte[eVars](/help/components/dimensions/evar.md)no guia do usuário Componentes.*
 
-As eVars são variáveis personalizadas que podem ser usadas da maneira que você desejar.
+As eVars são variáveis personalizadas que podem ser usadas da maneira que você desejar. Se você tiver um documento [de design de](/help/implement/prepare/solution-design.md)solução, a maioria das dimensões específicas da sua organização acabarão como eVars. Por padrão, as eVars persistem além da ocorrência em que estão definidas. Você pode personalizar a expiração e a alocação em Variáveis [de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversão nas configurações do conjunto de relatórios.
 
->[!TIP] A Adobe recomenda usar eVars em vez de props na maioria dos casos. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
-
-Certifique-se de registrar a forma como você usa cada eVar e a lógica delas no [documento de design da solução](../../prepare/solution-design.md).
+O número de eVars disponíveis depende de seu contrato com a Adobe. Até 250 eVars estarão disponíveis se seu contrato com a Adobe oferecer suporte para isso.
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
@@ -32,7 +33,7 @@ Antes de usar eVars na implementação, certifique-se de configurar cada eVar na
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL eVars].
 
-Você pode selecionar uma eVar para definir um valor ou elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
+É possível definir uma eVar como um valor ou elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
 
 ## s.eVar1 e s.eVar250 no AppMeasurement e no editor de código personalizado do Launch
 
@@ -56,13 +57,4 @@ s.eVar1 = "+12.49";
 
 Se mais que duas casas decimais forem fornecidas, o contador da eVar é arredondado para duas casas decimais. Um contador eVar não pode conter números negativos.
 
->[!IMPORTANT] Primeiro, você deve configurar eVars como &quot;Contador&quot; no Admin Console antes de usar eVars de contador. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
-
-## Vantagens exclusivas de props e eVars
-
-Na versão atual do Adobe Analytics, props e eVars são variáveis personalizadas com recursos semelhantes. No entanto, apresentam várias diferenças importantes:
-
-* Os dados em props estão disponíveis nos relatórios em minutos. As eVars podem levar mais de 30 minutos para serem exibidas nos relatórios.
-* As props têm um limite de 100 bytes nos relatórios. As eVars têm um limite de 255 bytes.
-* Props podem se tornar propriedades de lista, que aceitam vários valores na mesma ocorrência. Variáveis de lista são variáveis separadas e há apenas três variáveis de lista disponíveis.
-* As props, por padrão, não persistem além da ocorrência às quais que estão definidas. As eVars têm expiração personalizada, permitindo determinar quando uma eVar não mais recebe incremento por um evento subsequente. No entanto, se você usar o processamento [de tempo do](../../../components/vrs/vrs-report-time-processing.md)relatório, props e eVars poderão usar um modelo de atribuição personalizado.
+> [!IMPORTANT] Primeiro, você deve configurar eVars como &quot;Contador&quot; no Admin Console antes de usar eVars de contador. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
