@@ -3,9 +3,9 @@ description: Projetos somente Visualização no Workspace
 keywords: View-only projects
 title: Projetos da área de trabalho somente para Visualização
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ As interações desativadas em um projeto somente visualização incluem:
 
 * Trilho esquerdo oculto
 * Conjunto de relatórios
-* Intervalo de datas do calendário do painelNota: Se desejar conceder controle de calendário a recipient, adicione um filtro [suspenso com intervalos](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de datas.
+* Intervalo de datas do calendário do painel. Observação: Se desejar conceder controle de calendário a recipient, adicione um filtro [suspenso com intervalos](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de datas.
 * Filtragem de forma livre
 * Número de formas livres de linhas visíveis
 * Configurações de linha, coluna ou visualização de forma livre
 * Segmentos do painel
 * Menus Editar, Inserir e Componente
+* Dicas da área de trabalho
 
 ## Interações ativadas
 
