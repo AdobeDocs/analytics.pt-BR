@@ -5,7 +5,10 @@ title: Visão geral dos eventos bem-sucedidos
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 78%
 
 ---
 
@@ -18,9 +21,9 @@ Acesse a página Eventos bem-sucedidos nas configurações do conjunto de relat�
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navegue até [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
-5. Localize o evento desejado e modifique a lista [!UICONTROL Unique Event Recording] suspensa para [!UICONTROL Record Once Per Visit] ou [!UICONTROL Use Event ID].
+3. Navegue até [!UICONTROL Admin] > [!UICONTROL Conjuntos de relatórios]
+4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > Eventos [!UICONTROL de]sucesso.
+5. Localize o evento desejado e modifique a lista suspensa Gravação [!UICONTROL de Evento] único para [!UICONTROL Gravar uma vez por visita] ou [!UICONTROL Usar ID]de Evento.
 
 Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
 
@@ -32,11 +35,11 @@ Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vár
 * **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulário, solicitações de suporte
 * **Automotivo**: submissão de cliente em potencial, solicitação de cotação, download de panfleto
 
-A variável [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
+A variável [s.events](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
 
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos bem-sucedidos]**
 
 A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1000 funcionam somente no código H22 ou superior.
 
@@ -48,6 +51,6 @@ A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas n
 | Polaridade | A polaridade da métrica permite indicar se o Adobe Analytics deve considerá-la boa ou ruim se um determinado evento personalizado (métrica) aumentar. Isso permitirá que o Adobe Analytics exiba indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa. |
 | Descrição | Uma breve descrição do objetivo e utilização do evento. |
 | Registro exclusivo de evento | **Registrar uma vez por visita**: Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação.<br>**Usar ID **do Evento: Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes para um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. See[Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md)in the Implement user guide. |
-| Participação | Consulte [Participação de métricas](/help/components/c-variables/c-metrics/metrics-participation.md). |
+| Participação | Atribui crédito de atribuição total a todos os valores de dimensão na visita. |
 | Aviso (evento de moeda) | Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem será exibida declarando que os dados históricos não estarão disponíveis no relatório.  Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados ao mesmo tempo. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. Contudo, todos os dados coletados após a alteração inicial não estarão disponíveis. Tome cuidado ao alterar um tipo de evento. |
 
