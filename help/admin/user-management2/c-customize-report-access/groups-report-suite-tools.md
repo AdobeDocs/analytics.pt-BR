@@ -6,7 +6,10 @@ title: Personalizar ferramentas do Conjunto de relatórios
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -15,19 +18,19 @@ source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Ative permissões do usuário para Acesso à API, Gerenciamento de conjuntos de relatórios, Ferramentas e relatórios, além de Itens do painel.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acesso ao Relatório]** > **[!UICONTROL Ferramentas do Conjunto de relatórios]** > **[!UICONTROL Personalizar]**
 
-A [!UICONTROL Customize Report Suite Tools] página concede aos membros de um grupo acesso aos itens a seguir.
+A página [!UICONTROL Personalizar ferramentas do Conjunto de relatórios] concede aos membros de um grupo acesso aos seguintes itens.
 
 ![](assets/report-suite-tools.png)
 
 ## Descrições de campo
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+As configurações desta página pertencem aos conjuntos de relatórios selecionados na página [!UICONTROL Definir grupos de usuários].
 
 | Elemento | Descrição |
 |--- |--- |
@@ -68,13 +71,13 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Páginas de robô são destinadas a relatórios e análises específicos, e não ao gerenciamento de regras de robô. Atualmente, não há permissão para permitir a edição de regras de bot.** As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Os bots são destinados a relatórios e análises específicos, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** Os bots permitem remover o tráfego gerado pelos spiders e bots conhecidos do conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Relatório de Data Warehouse Personalizado](/help/export/data-warehouse/data-warehouse.md) | O Data warehouse refere-se à cópia de dados brutos não processados para armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas exclusivas. |
-| [Visitas de Retorno Diário](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Herdado) Relatório que exibe o número de visitantes no seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. |
+| Visitas de Retorno Diário | (Herdado) Relatório que exibe o número de visitantes no seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. |
 | [Gerenciador das fontes de dados](/help/admin/admin/data-sources.md) | O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. |
 | [Excluir por endereço IP](/help/admin/admin/exclude-ip.md) | É possível excluir dos seus relatórios alguns dados de endereços IP específicos, como atividades internas, testes e uso de sites por funcionário. |
 | ClickMap herdado | Concede acesso ao menu para a ferramenta de sobreposição ClickMap herdado. |
 | Instalação do ClickMap herdado | Concede direitos de instalação para a ferramenta ClickMap herdado. |
-| [Visitas de Retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Um relatório que mostra o número de visitas, em que o no número de visitas for maior que 1. O Relatório de visitas de retorno inclui os visitantes sem cookies. |
-| [Importador / exportador de classificações](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) e [Construtor de regras](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado em classificações (veja abaixo). |
+| Visitas de Retorno | Um relatório que mostra o número de visitas, em que o no número de visitas for maior que 1. O Relatório de visitas de retorno inclui os visitantes sem cookies. |
+| [Importador / exportador de classificações](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/classifications-importer/c-working-with-saint.html) e [Construtor de regras](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado em classificações (veja abaixo). |
 | Gerenciador de feeds de dados | Concede direitos a Feed de dados do Analytics. |
 | Classificações | Combina as seguintes permissões: “Classificações de tráfego”, “Classificações de vídeo”, “Classificações de conversão”, “Hierarquias de classificação”, “Gerenciador de classificações” e “Classificações Importador/Exportador e Construtor de regras”.  Observação: com essa permissão, usuários editam classificações para todos os conjuntos de relatórios, não somente os selecionados. |
 | [Análise de contribuição](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede direitos de uso à Análise de contribuição na Analysis Workspace. |
