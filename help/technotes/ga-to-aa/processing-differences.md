@@ -2,7 +2,7 @@
 title: Diferenças de processamento e arquitetura entre plataformas do Analytics
 description: Saiba como alguns dados são coletados e exibidos de forma diferente entre plataformas como o Adobe Analytics e o Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Em ambas as plataformas, se várias ocorrências forem enviadas na mesma visita 
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-Consulte a métrica [Taxa de devolução](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) no guia do usuário Componentes para obter mais informações.
+Consulte a métrica [Taxa de devolução](/help/components/metrics/bounce-rate.md) no guia do usuário Componentes para obter mais informações.
 
 ## [!UICONTROL Visitas e sessões]
 
@@ -36,4 +36,4 @@ Consulte a métrica [Taxa de devolução](/help/components/c-variables/c-metrics
 * **Substituição manual de sessão:** uma nova sessão no Google Analytics será iniciada se você usar `sessionControl` para iniciar ou encerrar uma sessão manualmente. [!UICONTROL As visitas não podem ser encerradas manualmente no Adobe Analytics.]
 * **Detecção de visitas anteriores no Adobe Analytics:** Uma nova [!UICONTROL Visita] no Adobe Analytics start automaticamente se um usuário atingir 12 horas de atividade contínua, 2500 ocorrências ou 100 ocorrências em 100 segundos. Cada um desses critérios de detecção normalmente é acionado pela atividade do bot.
 
-Consulte a métrica [Visitas](/help/components/c-variables/c-metrics/metrics-visit.md) no guia do usuário Componentes para obter mais informações.
+Consulte a métrica [Visitas](/help/components/metrics/visits.md) no guia do usuário Componentes para obter mais informações.
