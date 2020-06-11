@@ -3,7 +3,7 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 44112013e049e6e76554530ba438c71fee902841
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 97%
@@ -109,7 +109,7 @@ Novos recursos e melhorias lançados em 17 de janeiro de 2019.
 |--- |--- |
 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Os aprimoramentos principais feitos à Análise de coorte permitem:<ul><li>Aplicar uma inclusão de segmento e retornar métricas separadamente. </li><li>Exibir alteração (churn) em vez de retenção.</li><li>Exibir tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar dimensão de coorte (para agrupar visitantes com base em uma eVar, não somente no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicionar várias métricas em campos de inclusão e de resultados, além de aplicar segmentos. (As métricas calculadas não são aceitas)</li></ul> |
 | [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Essa nova configuração permite ver mais dados em uma só tela ao reduzir o preenchimento vertical do painel à esquerda em tabelas de forma livre e de coorte. Acessível em Projeto > Informações e configurações do projeto. |
-| [Compatível com variáveis de vários valores no Attribution IQ](attribution-iq.md) | Algumas dimensões no Analytics podem conter vários valores em uma única ocorrência, como listVars, a variável do produto, propriedades de lista ou eVars de merchandising. O Analysis Workspace permite aplicar o Attribution IQ a qualquer um desses tipos de variáveis no nível de ocorrência. |
+| [Compatível com variáveis de vários valores no Attribution IQ](attribution/overview.md) | Algumas dimensões no Analytics podem conter vários valores em uma única ocorrência, como listVars, a variável do produto, propriedades de lista ou eVars de merchandising. O Analysis Workspace permite aplicar o Attribution IQ a qualquer um desses tipos de variáveis no nível de ocorrência. |
 | Melhorias de desempenho | Melhorias de velocidade a visualizações de detalhamento: projetos com mais detalhamentos serão carregados com mais rapidez. |
 
 ## Novembro de 2018
@@ -210,7 +210,7 @@ Novos recursos e melhorias lançados em 19 de julho de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>O Attribution IQ permite que você realize análises mais sofisticadas e inteligentes do desempenho de marketing. É possível usar os novos modelos de atribuição em métricas do Analysis Workspace (em qualquer tabela ou detalhamento) e em métricas calculadas. Um novo painel Atribuição permite uma melhor visualização e comparação. </p> </td> 
   </tr> 
   <tr> 
