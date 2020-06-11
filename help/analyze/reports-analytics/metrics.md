@@ -4,7 +4,10 @@ title: Métricas
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +24,7 @@ As métricas e dados associados são exibidos nas colunas dos relatórios. Métr
 
 [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) são criadas pela combinação de métricas.
 
-Para obter as definições, consulte [Visão geral das métricas](/help/components/c-variables/c-metrics/metricslist.md)
+Para obter uma lista completa das métricas, consulte Visão geral [das](/help/components/metrics/overview.md) métricas no guia do usuário Componentes.
 
 ## Selecionar métricas de relatório padrão
 
@@ -35,12 +38,12 @@ t_metrics_set_default.xml
 
 1. Executar um relatório.
 1. Adicione as métricas que você gostaria de salvar como as métricas padrão.
-1. Clique na lista **[!UICONTROL Add Metrics]** suspensa e selecione **[!UICONTROL Set as Default]**.
+1. Clique na lista suspensa **[!UICONTROL Adicionar métricas]**, em seguida, selecione **[!UICONTROL Definir como padrão]**.
 
    As métricas selecionadas são salvas como padrão para este relatório. As seguintes informações se aplicam às métricas padrão:
 
 * As métricas padrão se aplicam a todas as contas do usuário, mas por relatório e conjunto de relatórios. Por exemplo, todos os usuários que visualizam um relatório específico no mesmo conjunto de relatórios exibem as métricas definidas usando a procedimento anterior.
-* Se você alternar entre relatórios, as métricas exibidas na maioria dos relatórios exibidos recentemente persistem. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
+* Se você alternar entre relatórios, as métricas exibidas na maioria dos relatórios exibidos recentemente persistem. Para exibir métricas padrão no novo relatório, clique na lista suspensa [!UICONTROL Adicionar métricas] e, em seguida, clique em [!UICONTROL Mostrar padrões].
 
-* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
+* Clicar em [!UICONTROL Apagar padrões] remove as métricas padrão do relatório e as reverte para as métricas padrão originais do relatório ([!UICONTROL Exibições de páginas] para props e sempre que você definir em Ferramentas administrativas para eVars).
 
