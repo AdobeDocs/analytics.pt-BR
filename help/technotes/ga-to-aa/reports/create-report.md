@@ -2,7 +2,10 @@
 title: Criar um relatório básico no Analysis Workspace
 description: Saiba como criar um relatório básico no Analysis Workspace em um formato direcionado a usuários familiarizados com ferramentas de terceiros, como o Google Analytics.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Crie um relatório Todas as páginas (semelhante ao do Google Analytics) arrasta
 1. Clique no botão “Criar novo projeto”.
 1. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
 1. À esquerda, uma lista de dimensões, métricas, segmentos e intervalos de datas é exibida. Localize a dimensão Páginas (em laranja) e arraste-a para a tela rotulada como “Solte uma dimensão aqui”.
-1. Um relatório que mostra as principais páginas deste mês pode ser visto. O Analysis Workspace preenche o relatório automaticamente com a métrica [Ocorrências](/help/components/c-variables/c-metrics/metrics-occurrences.md).
+1. Um relatório que mostra as principais páginas deste mês pode ser visto. O Analysis Workspace preenche o relatório automaticamente com a métrica [Ocorrências](/help/components/metrics/occurrences.md).
 1. Uma tabela no Google Analytics geralmente contém de 7 a 8 métricas. Localize a métrica Taxa de rejeição (verde colorido) e arraste-a ao lado do cabeçalho da métrica Ocorrências. Se você arrastar a métrica Taxa de rejeição e soltá-la ao lado de Ocorrências, ambas as métricas serão exibidas lado a lado.
 1. Muitas métricas podem ser colocadas lado a lado arrastando-as para o lado dos cabeçalhos de métricas existentes. Consulte [Métricas usadas com frequência](common-metrics.md) para obter informações sobre como obter as métricas geralmente usadas no Google Analytics.
 
