@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 97%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 97%
          + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Prepare ou compartilhe projetos {#curate-share}
-      + [Preparar um projeto do Workspace](analysis-workspace/curate-share/curate.md)
+      + [Preparar projetos da Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos da Workspace](analysis-workspace/curate-share/share-projects.md)
       + [Projetos da área de trabalho somente para Visualização](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar arquivos PDF ou CSV](analysis-workspace/curate-share/download-send.md)
