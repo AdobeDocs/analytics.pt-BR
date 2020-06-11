@@ -2,7 +2,10 @@
 title: Guia de tradução de métricas normalmente usadas em outras plataformas
 description: Entenda como obter dados de métrica para muitos relatórios comuns usando a terminologia mais familiar aos usuários do Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Para adicionar várias métricas a uma tabela de forma livre do espaço de traba
 
 ## Métricas de aquisição
 
-**Usuários** é aproximadamente igual a **Visitantes únicos** no Workspace. Consulte a métrica [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) no guia do usuário Componentes para obter mais detalhes.
+**Usuários** é aproximadamente igual a **Visitantes únicos** no Workspace. Consulte a métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes para obter mais detalhes.
 
 **Novos usuários** pode ser obtida fazendo o seguinte:
 
@@ -26,13 +29,13 @@ Para adicionar várias métricas a uma tabela de forma livre do espaço de traba
 
    ![Novas visitas](../assets/first_time_visits.png)
 
-**Sessões** é aproximadamente igual a **Visitas** no Analysis Workspace. Consulte a métrica [Visitantes](/help/components/c-variables/c-metrics/metrics-visit.md) no guia do usuário Componentes para obter mais detalhes.
+**Sessões** é aproximadamente igual a **Visitas** no Analysis Workspace. Consulte a métrica [Visitantes](/help/components/metrics/visits.md) no guia do usuário Componentes para obter mais detalhes.
 
 ![Métricas de aquisição](../assets/acquisition_metrics.png)
 
 ## Métricas de comportamento
 
-**Taxa de rejeição** está prontamente disponível no Analysis Workspace como uma métrica. Consulte a métrica [Taxa de rejeição](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) no guia do usuário Componentes para obter mais informações.
+**Taxa de rejeição** está prontamente disponível no Analysis Workspace como uma métrica. Consulte a métrica [Taxa de rejeição](/help/components/metrics/bounce-rate.md) no guia do usuário Componentes para obter mais informações.
 
 **Páginas/Sessão** é uma métrica calculada. Pode ser obtida do seguinte modo:
 
@@ -48,9 +51,9 @@ Para adicionar várias métricas a uma tabela de forma livre do espaço de traba
 7. Clique em Salvar para voltar ao seu espaço de trabalho.
 8. Arraste a métrica calculada recém-definida para o espaço de trabalho.
 
-   Saiba mais sobre [Métricas calculadas](/help/components/c-variables/c-metrics/calculated-metric.md) no guia do usuário Componentes.
+   Saiba mais sobre [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes.
 
-**Duração média da sessão** é aproximadamente igual a **Tempo gasto por visita (segundos)**. Saiba mais sobre [Tempo gasto](/help/components/c-variables/c-metrics/metrics-time-spent.md) no guia do usuário Componentes.
+**Duração média da sessão** é aproximadamente igual a **Tempo gasto por visita (segundos)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## Métricas de conversões
 
