@@ -2,10 +2,10 @@
 title: Ajuda dos componentes do Analytics
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 92%
+source-wordcount: '202'
+ht-degree: 84%
 
 ---
 
@@ -16,20 +16,21 @@ ht-degree: 92%
 
 Os componentes do Analytics ajudam você a ajustar e potencializar a análise da jornada do cliente. Os componentes incluem:
 
+* **Dimensões:** Referência para dimensões utilizáveis no Adobe Analytics.
+* **Métricas:** Referência para métricas utilizáveis no Adobe Analytics.
 * **Segmentação:** concentre-se em um subconjunto de seus dados.
 * **Métricas calculadas:** use fórmulas simples para combinar métricas ou funções avançadas para análises estatísticas.
 * **Conjuntos de relatórios virtuais:** crie um silo virtual de dados com base em um conjunto de relatórios. Permite a limpeza ou a segmentação de dados para uma melhor experiência de usuário. Alguns recursos só podem ser usados em conjuntos de relatórios virtuais.
 * **Análises** entre dispositivos: Um tipo especial de conjunto de relatórios virtuais permite configurar o Cross-Device Analytics.
 * **Alertas:** receba notificações sempre que os dados excederem ou estiverem abaixo de um limite.
 * **Classificações:** reorganize e agrupe dimensões de grupo para obter informações adicionais.
-* **Variáveis:** um guia de referência para todas as dimensões e métricas disponíveis nos relatórios.
 * **Relatório em tempo real:** obtenha relatórios e tendências no minuto que estiverem disponíveis.
 * **Canais de marketing:** entenda como os visitantes chegam ao site e determinam quais canais são mais bem sucedidos.
 
 ## Artigos principais dos componentes do Analytics
 
-* [Referência de dimensão](c-variables/dimensionslist/reports-descriptions.md)
-* [Referência de métricas](c-variables/c-metrics/metricslist.md)
+* [Dimensões](dimensions/overview.md)
+* [Métricas](metrics/overview.md)
 
 ## Mais guias do usuário do Analytics
 
