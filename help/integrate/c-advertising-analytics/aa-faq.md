@@ -2,7 +2,7 @@
 description: 'null'
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Quais <b>SKUs do Adobe Analytics</b> dão direito ao uso do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html"  >Select</a>, <a href="https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html"  >Prime</a> e <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html"  >Prime</a> e <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: É necessário <b>fazer um pagamento adicional</b> para usar o Advertising Analytics? </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Usar o Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Usar o Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Rastreamento automático vs. manual  {#section_7437C4698A6D482EB7ED94A948390119}
+## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
