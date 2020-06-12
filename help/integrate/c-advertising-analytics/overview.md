@@ -2,7 +2,7 @@
 description: 'null'
 title: Visão geral do Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -25,12 +25,12 @@ Esta integração é destinada para os públicos-alvo a seguir:
 
 ## Pré-requisitos {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* O Advertising Analytics está disponível apenas para os SKUs [Select](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html), [Prime](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html) e [Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html) do Adobe Analytics.
+* O Advertising Analytics está disponível apenas para os SKUs [Select](https://www.adobe.com/br/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html) e [Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html) do Adobe Analytics.
 
 * Esta funcionalidade está disponível para aqueles que não são clientes da Advertising Cloud e AMO.
 * É necessário ser um administrador do Adobe Analytics para ter acesso ao Advertising Analytics. Posteriormente, é possível [conceder permissões de acesso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) a não administradores.
 * Qualquer conjunto de relatórios do Analytics no qual deseja exibir os dados de pesquisa do Google/Bing deve ser [mapeado para sua organização Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* Para qualquer conjunto de relatórios em que você quiser visualizar os dados de pesquisa do Google/Bing, é necessário [habilitar esses conjuntos de relatórios para o Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Você precisa de credenciais de logon para um usuário com permissões de edição das contas de pesquisa que deseja integrar com o Adobe Analytics, como ID e senha da conta do Google.
 * No caso do Bing Ads, também é necessário a ID de cliente do Bing.
@@ -85,14 +85,14 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 | Campanha (AMO ID) | O nome a campanha em sua conta de mecanismo de pesquisa. |
 | Grupo de publicidade (AMO ID) | O nome do grupo de publicidade em suas campanhas do mecanismo de pesquisa. |
 | Publicidade (AMO ID) | O Título do anúncio + Descrição do anúncio usado em seu anúncio. |
-| Palavra-chave (ID do AMO) | O valor de Palavra-chave de sua conta de mecanismo de pesquisa |
+| Palavra-chave (ID do AMO) | O valor de Palavra-chave de sua conta de mecanismo de pesquisa. |
 | Tipo de correspondência (ID do AMO) | O tipo de correspondência da palavra-chave atribuído à sua palavra-chave. Os valores geralmente são amplos, frases, exatos ou sem valor, caso o tipo de publicidade não tenha um tipo de correspondência. |
 | Tipo de anúncio (ID do AMO) | O tipo de anúncio sendo fornecido, que tipicamente é “Anúncio de texto”. |
 | Título do anúncio (ID do AMO) | O objeto de Título usado em seu Anúncio. |
 | Descrição do anúncio (ID do AMO) | O objeto de Descrição do anúncio usado em seu Anúncio. |
 | URL de exibição do anúncio (ID do AMO) | O objeto de URL de exibição do anúncio usado em seu Anúncio. |
 | URL de destino do anúncio (ID do AMO) | O URL da página de aterrissagem ou URL final atribuído a seu Anúncio. |
-| Rede (ID do AMO) | A rede na qual a publicidade é exibida. No Advertising Analytics, esse valor sempre é “Pesquisa“. |
+| Rede (ID do AMO) | A rede na qual a publicidade é exibida. No Advertising Analytics, esse valor sempre é “Pesquisa”. |
 | Posição (ID do AMO) | O site de posição gerenciada (para redes de conteúdo). Somente posições gerenciadas usam essa dimensão. |
 | Direcionamento de produtos (ID do AMO) | O nome de direcionamento do produto usado em anúncios PLA (não o produto comprado). |
 | Otimização (ID do AMO) | Não é usado pelo Advertising Analytics. É usado somente por clientes da Advertising Cloud. |
@@ -114,4 +114,4 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 | Cliques do AMO | O número de cliques em publicidades relatados pelo mecanismo de pesquisa. |
 | Custo do AMO | O custo pago para cada palavra-chave/publicidade conforme relatado pelo mecanismo de pesquisa. |
 | Pos. média | Uma métrica calculada que reflete a posição média das publicidades, conforme reportado pelo mecanismo de pesquisa. |
-| Média Pontuação de qualidade do AMO | Uma métrica calculada que reflete a classificação de qualidade média, conforme reportado pelo mecanismo de pesquisa. |
+| Média Pontuação de qualidade | Uma métrica calculada que reflete a classificação de qualidade média, conforme reportado pelo mecanismo de pesquisa. |
