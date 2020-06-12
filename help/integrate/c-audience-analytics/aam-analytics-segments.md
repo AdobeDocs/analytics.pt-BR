@@ -2,7 +2,7 @@
 description: O Analytics e o Audience Manager usam segmentos. Entretanto, um segmento do Analytics não exatamente a mesma coisa que um segmento do Audience Manager. Tais diferenças contribuem, em parte, com as discrepâncias que você verá em seus relatórios do Analytics e do Audience Manager. Como resultado, é importante e útil entender essas diferenças ao começar a trabalhar com segmentos em ambas as soluções.
 title: Entender os segmentos no Analytics e no Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -19,13 +19,13 @@ Um segmento do Audience Manager é um grupo de visitantes (IDs de usuário) qu
 * Regras definidas nos próprios segmentos e as características que constituem cada segmento. Essas regras definem as condições que uma ID de usuário tem que atender ou exibir para qualificar-se para um segmento.
 * Modelagem algorítmica. Usuários que qualificam-se para um segmento específico podem ser qualificados para outros segmentos com base no modelo e na análise algorítmica.
 * Intervalos de Time-to-live (TTL). A associação de segmento pode expirar depois de um intervalo definido, ou continuar por um tempo indeterminado.
-* Recentidade e frequência. Definir quando e como os usuários têm uma interação (realização de característica) pode ajudar a criar segmentos com base no nível verdadeiro (ou inferido) de interesse em um site, uma sessão ou criação em particular.
+* Recenticidade e frequência. Definir quando e como os usuários têm uma interação (realização de característica) pode ajudar a criar segmentos com base no nível verdadeiro (ou inferido) de interesse em um site, uma sessão ou criação em particular.
 
 A associação de segmento do Audience Manager é fluida. Os usuários podem entrar ou sair de um segmento dependendo de sua qualificação para os critérios do segmento no momento atual. Isso significa que a população de um segmento do Audience Manager pode aumentar ou diminuir ao longo do tempo.
 
 Um segmento do Audience Manager é denotado como um público-alvo no Analytics.
 
-Para obter mais informações, consulte [Dados de características e de preenchimento de segmentos no Construtor de segmentos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Sinais, Características e segmentos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
+Para obter mais informações, consulte [Dados de características e de preenchimento de segmentos no Construtor de segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Sinais, Características e segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segmentos do Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
