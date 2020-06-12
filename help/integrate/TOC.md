@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de integração do Analytics
 user-guide-url: /content/help/en/analytics/integration/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    + [Visão geral do Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Fluxo de trabalho do Audience Analytics {#audience-analytics-workflow}
       + [Visão geral do fluxo de trabalho](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Criar destino do Analytics - Guia do AAM](https://docs.adobe.com/help/pt-BR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.translate.html)
+      + [Criar destino do Analytics - Guia do AAM](https://docs.adobe.com/help/pt-BR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Usar os dados de público-alvo no Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso do Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Perguntas frequentes](c-audience-analytics/mc-audiences-faqs.md)
