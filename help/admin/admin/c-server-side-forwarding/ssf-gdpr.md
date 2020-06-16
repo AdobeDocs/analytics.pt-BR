@@ -2,7 +2,7 @@
 description: 'null'
 title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,8 +27,8 @@ Dependendo do seu método de implementação, siga estas etapas.
 | Método de implementação | Etapas |
 |--- |--- |
 | Adobe Experience Platform Launch | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
-| DTM | Adicione a definição da variável contextdata ao editor de Código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
-| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| DTM | Adicione a definição da variável contextdata ao editor de Código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
@@ -41,8 +41,8 @@ Para configurar esse tipo de relatório, mapeie a nova variável de contexto par
 1. Use regras de processamento para mapear a variável de contexto para a prop.
 
    1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
-   1. Clique em **[!UICONTROL Editar conjunto de relatório]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]** .
-   1. Clique em **[!UICONTROL Adicionar regra.]**
+   1. Clique em **[!UICONTROL Editar conjunto de relatório]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
+   1. Clique em **[!UICONTROL Adicionar regra]**.
    1. Em **[!UICONTROL Sempre executar]**, substitua o valor da prop habilitada anteriormente pela variável de contexto &quot;cm.ssf(Context Data)&quot;.
    1. Clique em **[!UICONTROL Salvar]**.
 
