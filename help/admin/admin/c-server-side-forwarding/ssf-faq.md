@@ -2,7 +2,7 @@
 description: Perguntas frequentes sobre recursos, funcionalidades e problemas relacionados ao encaminhamento pelo lado do servidor.
 title: Perguntas frequentes sobre o encaminhamento pelo lado do servidor
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
