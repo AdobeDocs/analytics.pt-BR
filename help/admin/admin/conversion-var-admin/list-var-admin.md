@@ -1,7 +1,7 @@
 ---
 title: Variáveis da Lista
-description: Crie e configure as variáveis de lista para uso no relatórios.
-translation-type: tm+mt
+description: Crie e configure variáveis de lista para usar em relatórios.
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # Variáveis da Lista
 
-Crie e configure as variáveis de lista para uso no relatórios. Defina seus valores de delimitador, expiração, alocação e máximo aqui.
+Crie e configure variáveis de lista para usar em relatórios. Defina seus valores de delimitador, expiração, alocação e máximo aqui.
 
 Você pode acessar a configuração no Admin Console:
 
-1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 2. Selecione o conjunto de relatórios.
-3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Listar variáveis]** .
+3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Listar variáveis]**.
 
 * **Nome**: cada valor delimitado pode conter um máximo de 255 caracteres (ou menos se estiver usando caracteres multibyte). Esse é o comprimento máximo para cada elemento.
 * **Delimitador de valor**: O caractere usado para separar valores na List Var. Com maior frequência, são caracteres como vírgulas, dois pontos, barras verticais, ou algo parecido.
