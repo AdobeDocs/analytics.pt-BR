@@ -3,7 +3,7 @@ description: É possível excluir dos seus relatórios alguns dados de endereço
 title: Excluir por endereço IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 É possível excluir dos seus relatórios alguns dados de endereços IP específicos, como atividades internas, testes e uso de sites por funcionário. A exclusão de dados melhora a exatidão do relatório, pois exclui os dados do endereço IP. Além disso, você pode remover dados de negação de serviço, além de outros eventos mal-intencionados que podem causar um viés nos dados do relatório. Você pode configurar a exclusão ou usar seu firewall para isso.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Excluir por IP]**
 
 >[!NOTE] As ocorrências excluídas pelo endereço IP são cobradas como [chamadas do servidor](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/terms.html).
 
@@ -25,7 +25,7 @@ Esse recurso permite que você e seus colegas visitem seu site sem distorcer os 
 
 | Elemento | Descrição |
 |--- |--- |
-| [!UICONTROL Add CNAME] | Gera um link para opção de não participação que poderá usar para excluir seu domínio. Para obter ajuda, entre em contato com os Usuários suportados de sua empresa. <br>Para excluir seu tráfego do relatório nos conjuntos de relatórios, acesse a página de opção de não participação de sua empresa e selecione a exclusão de seu navegador da medição. <br>Se sua implementação utiliza cookies de terceiros, sua página de opção de não participação está [aqui](https://democorp.112.2o7.net/optout.html?locale=pt_US&amp;popup=true). |
+| [!UICONTROL Adicionar CNAME] | Gera um link para opção de não participação que poderá usar para excluir seu domínio. Para obter ajuda, entre em contato com os Usuários suportados de sua empresa. <br>Para excluir seu tráfego do relatório nos conjuntos de relatórios, acesse a página de opção de não participação de sua empresa e selecione a exclusão de seu navegador da medição. <br>Se sua implementação utiliza cookies de terceiros, sua página de opção de não participação está [aqui](https://democorp.112.2o7.net/optout.html?locale=pt_BR&amp;popup=true). |
 
 >[!NOTE] A exclusão por computador funciona somente se:
 >
@@ -46,7 +46,7 @@ Você pode usar indicadores curinga (*) para excluir um intervalo de endereços.
 
 Também é possível bloquear a coleção de dados a partir de endereços IP específicos por meio de um Firewall.
 
-Consulte o artigo [Endereços IP usados na Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+Consulte o artigo [Endereços IP usados na Experience Cloud](https://helpx.adobe.com/br/analytics/kb/adobe-ip-addresses.html).
 
 ## Impacto da ofuscação de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
