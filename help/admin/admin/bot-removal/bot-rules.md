@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: Visão geral das regras de bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -16,7 +16,7 @@ As regras de bot permitem remover o tráfego do conjunto de relatórios gerado p
 
 Após a definição das regras de bot, todo o tráfego de entrada é comparado às regras definidas. O tráfego que corresponde a qualquer uma dessas regras não é coletado no conjunto de relatórios e não está incluído nas métricas de tráfego.
 
-Para atualizar ou fazer upload das regras do robô, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Selecione o Conjunto de relatórios correto e vá para **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+Para atualizar ou enviar regras de bot, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**. Selecione o Conjunto de relatórios adequado e, em seguida, vá até **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
 
 Remover o tráfego de bot normalmente reduz o volume do tráfego e as métricas de conversão. Muitos clientes acreditam que a remoção do tráfego de bot resulta em maiores índices de conversão e aumentos em outras métricas de usabilidade. Antes de remover o tráfego de bot, você deve entrar em contato com as partes interessadas para garantir que elas possam fazer os ajustes necessários nos principais indicadores de desempenho, como resultado dessa mudança. Se possível, recomendamos que, antes, seja removido o tráfego de robô de um report suite pequeno, para estimar o potencial impacto.
 
@@ -24,12 +24,12 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 | Tipo de regra | Descrição |
 |--- |--- |
-| Regras de bot IAB padrão | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. A maioria dos clientes seleciona essa opção, no mínimo. |
+| Regras de bot IAB padrão | Selecionar [!UICONTROL Ativar regras de filtragem de bots IAB] usa a Lista internacional de spiders e bots (International Advertising Bureau&#39;s) da [IAB](https://www.iab.com) para remover o tráfego de bot. A maioria dos clientes seleciona essa opção, no mínimo. |
 | Regras de bot personalizadas | Você pode definir e adicionar regras de bot personalizadas com base em agentes de usuário, endereços IP ou intervalos IP. |
 
 ## Regras de bot IAB padrão
 
-As regras de bot IAB padrão podem ser ativadas marcando a [!UICONTROL Enable IAB Bot Filtering Rules] caixa de seleção. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bots. O IAB atualiza essa lista mensalmente.
+As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [!UICONTROL Ativar regras de filtragem de bot IAB]. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bots. O IAB atualiza essa lista mensalmente.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -51,11 +51,11 @@ Várias condições podem ser definidas para uma única regra. Várias condiçõ
 
 ### Agente do usuário
 
-A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
+Uma condição Agente do usuário verifica o valor do agente do usuário para ver se ele **[!UICONTROL começa com]** ou **[!UICONTROL contém]** a string especificada. Caso seja selecionado **[!UICONTROL contém]**, a subsequência é encontrada se houver qualquer ocorrência dela no agente do usuário.
 
-Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. Vários valores podem ser especificados por meio da inclusão de um valor por linha. Se o agente do usuário atender os critérios especificados na string de correspondência, mas também contiver uma string na lista de não contém, não é considerado uma correspondência.
+Valores opcionais podem ser inseridos na lista **[!UICONTROL não contém]** para definir valores que o agente do usuário não deve conter para uma correspondência acertada. Vários valores podem ser especificados por meio da inclusão de um valor por linha. Se o agente do usuário atender os critérios especificados na string de correspondência, mas também contiver uma string na lista de não contém, não é considerado uma correspondência.
 
-The **[!UICONTROL contains]** field is limited to 100 characters. A lista de não contém é limitada a 255 caracteres, menos um caractere separador para cada nova linha. (É igual ao número de strings - 1. Se você especificar 4 sequências *não contém*, 3 caracteres separadores serão necessários.) As correspondências de string não distinguem maiúsculas de minúsculas.
+O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não contém é limitada a 255 caracteres, menos um caractere separador para cada nova linha. (É igual ao número de strings - 1. Se você especificar 4 sequências *não contém*, 3 caracteres separadores serão necessários.) As correspondências de string não distinguem maiúsculas de minúsculas.
 
 ### Endereço IP (inclusive correspondências curingas)
 
@@ -72,9 +72,9 @@ Forneça os valores inicial e final do intervalo de endereços IP que deseja enc
 
 ### Definir uma regra de bot personalizada
 
-1. Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, selecione um ou mais conjuntos de relatórios e clique em **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
-1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
-1. Clique em **[!UICONTROL Save]**. A alteração deve ocorrer em 30 minutos.
+1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administração]**, selecione um ou mais conjuntos de relatórios e clique em **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
+1. Clique em **[!UICONTROL Adicionar regra]** e defina uma ou mais condições de correspondência.
+1. Clique em **[!UICONTROL Salvar]**. A alteração deve ocorrer em 30 minutos.
 
 ## Fazer upload de regras de bot
 
@@ -106,11 +106,11 @@ Para encontrar um bot usando uma combinação de regras juntas a um OU (por exem
 
 ### Substituir todas as regras com um arquivo de upload
 
-Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
+Marque a caixa de seleção **[!UICONTROL Substituir todas as regras]** para excluir todas as regras existentes e substituí-las pelas regras definidas no arquivo de upload.
 
 ### Exportar regras
 
-The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
+O botão **[!UICONTROL Exportar o arquivo de bot carregado]** exporta todas as regras definidas na interface do usuário em um formato CSV.
 
 
 ## Impacto das regras de bot na coleta de dados {#section_F01A3130E7A04A9993371CF26F6586F2}
