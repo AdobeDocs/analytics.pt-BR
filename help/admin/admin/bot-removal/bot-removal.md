@@ -1,7 +1,7 @@
 ---
 title: Remoção de bot no Adobe Analytics
 description: 3 maneiras de remover bots no Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
@@ -28,7 +28,7 @@ Além disso, como os bots estão se modificando rapidamente, a Adobe oferece vá
 
 ### Etapa 1: transmita a Experience Cloud ID dos seus visitantes para uma nova ID declarada
 
-Para iniciar, você deverá criar uma nova ID declarada no [Serviço principal de pessoas](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html). Você precisará transmitir a Experience Cloud ID do visitante para essa nova ID declarada, que pode ser feita rápida e facilmente com o [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/implement/solutions/idservice-save.html). Vamos usar o nome &quot;ECID&quot; para a ID declarada.
+Para iniciar, você deverá criar uma nova ID declarada no [Serviço principal de pessoas](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html). Você precisará transmitir a Experience Cloud ID do visitante para essa nova ID declarada, que pode ser feita rápida e facilmente com o [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Vamos usar o nome &quot;ECID&quot; para a ID declarada.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,7 +36,7 @@ Veja como essa ID pode ser capturada por meio do Elemento de dados. Certifique-s
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Depois que esse elemento de dados for configurado, siga [estas instruções](https://docs.adobe.com/content/help/pt-BR/launch/using/implement/solutions/idservice-save.html) para transmitir as IDs declaradas para a ferramenta ECID no Launch.
+Depois que esse elemento de dados for configurado, siga [estas instruções](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) para transmitir as IDs declaradas para a ferramenta ECID no Launch.
 
 ### Etapa 2: usar segmentação para identificar bots
 
