@@ -2,7 +2,7 @@
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -121,7 +121,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Feedback da Foresee</b> </p> </td> 
-   <td colname="col2"> <p>Lista de resposta da ForeSee </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
+   <td colname="col2"> <p>Lista de resposta da ForeSee </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
