@@ -2,7 +2,7 @@
 description: 'null'
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -208,8 +208,8 @@ Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solici
 
 Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer um dos conjuntos de relatórios na empresa de logon, será possível selecionar um desses namespaces existentes. Reutilize o namespace se essa variável contiver o mesmo tipo de IDs que outras variáveis já rotuladas com esse namespace e você desejar pesquisar todos eles ao enviar uma solicitação.
 
-1. Clique em **[!UICONTROL Selecionar namespace]** e selecione um dos namespace existentes.
-1. Clique em **[!UICONTROL Aplicar]**.
+1. Clique em **[!UICONTROL Select Namespace]** e selecione um dos namespaces.
+1. Clique em **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +217,12 @@ Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer
 
 Você também pode definir um novo namespace. Recomendamos que as sequências de caracteres do namespace sejam limitadas a caracteres alfanuméricos, além de caracteres com sublinhado, traço e espaço. Elas serão inteiramente convertidas para letras minúsculas.
 
-1. Clique em **[!UICONTROL Selecionar namespace]** e digite o título do namespace.
+1. Clique em **[!UICONTROL Select Namespace]** e digite o título do namespace.
 
    ![](assets/namespace2.png)
 
 1. Pressione **[!UICONTROL Enter]** para adicionar este namespace. O botão Aplicar será ativado somente agora.
-1. Clique em **[!UICONTROL Aplicar]**.
+1. Clique em **[!UICONTROL Apply]**.
 
 A sequência de caracteres especificada como namespace é a mesma que deve ser usada ao enviar solicitações por meio da API da Privacidade de dados como o valor do parâmetro “namespace”. A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
 
@@ -353,7 +353,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
 
 ## Lidar com exclusões {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
-O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não-identicáveis no lugar, de forma que os valores relatados permaneçam consistentes.
+O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não identificáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
 A tabela a seguir descreve como as variáveis são &quot;excluídas&quot;. Esta não é uma lista completa.
 
@@ -476,4 +476,4 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
 
 O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
-O arquivo CSV a nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores nesses campos de carimbos de data e hora unix em campos de data e hora no formato AAAA-MM-DD HH:MM:SS (por exemplo, 2018-05-01 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos.
+O arquivo CSV a nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores nesses campos de carimbos de data e hora unix em campos de data e hora no formato DD-MM-AAAA HH:MM:SS (por exemplo, 01-05-2018 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos.
