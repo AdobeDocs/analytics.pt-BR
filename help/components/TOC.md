@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 71%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 71%
    + [canal de primeiro toque](dimensions/first-touch-channel.md)
    + [Detalhes do canal de primeiro toque](dimensions/first-touch-detail.md)
    + [Profundidade da ocorrência](dimensions/hit-depth.md)
+   + [Tipo de ocorrência](dimensions/hit-type.md)
    + [Hora do dia](dimensions/hour-of-day.md)
    + [Hora](dimensions/hour.md)
    + [Java ativado](dimensions/java-enabled.md)
@@ -70,12 +71,12 @@ ht-degree: 71%
    + [Páginas não encontradas](dimensions/pages-not-found.md)
    + [Pesquisa paga](dimensions/paid-search.md)
    + [Suporte a cookies persistentes](dimensions/persistent-cookie-support.md)
-   + [Product](dimensions/product.md)
+   + [Produto](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [Trimestre do ano](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
    + [Tipo de Quem indicou](dimensions/referrer-type.md)
-   + [Referrer](dimensions/referrer.md)
+   + [Referenciador](dimensions/referrer.md)
    + [Domínio de referência](dimensions/referring-domain.md)
    + [Regiões](dimensions/regions.md)
    + [Frequência de retorno](dimensions/return-frequency.md)
