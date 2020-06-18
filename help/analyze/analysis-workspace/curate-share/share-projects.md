@@ -3,30 +3,30 @@ description: Compartilhamento de projetos e funções de projeto no Workspace
 keywords: Analysis Workspace sharing
 title: Compartilhar projetos da Workspace
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
 # Compartilhar projetos da Workspace
 
-O compartilhamento disponibiliza um projeto para outros usuários da área de trabalho da Análise em sua organização. Qualquer [preparação](curate.md) aplicada será refletida quando os recipient abrirem o projeto.
+O compartilhamento disponibiliza um projeto para outros usuários do Analysis Workspace em sua organização. Qualquer [preparação](curate.md) aplicada será refletida quando os recipient abrirem o projeto.
 
 ## Funções do projeto
 
-É possível adicionar recipient a uma das três funções do projeto. As funções do projeto estão vinculadas ao usuário e à ID do projeto específica.
-
->[!NOTE]
-> As funções de projeto são independentes das permissões de usuário gerenciadas no console de administração da Experience Cloud.
+É possível adicionar recipient a uma das três funções do projeto. As funções do projeto estão vinculadas ao usuário e à ID do projeto específica. As funções de projeto são independentes das permissões de usuário gerenciadas no console [de administração de](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud.
 
 | Função | Controle de projeto |
 |---|---|
 | Pode editar | Os destinatários podem Salvar alterações em um projeto e trabalhar como coproprietários.<br>Essa função é útil se você quiser colaborar com colegas em um projeto. |
-| Pode duplicar | Os destinatários podem Salvar como e ter acesso ao painel à esquerda. As interações não são limitadas.<br>Essa função é útil se você deseja compartilhar um projeto com usuários que entendem os dados de sua organização e como usar a área de trabalho da Análise, mas não deseja alterar seu projeto salvo. |
-| Pode exibir | Os Recipient não podem Salvar como e não têm acesso ao painel esquerdo. As interações também são limitadas.<br>Essa função é útil se você quiser compartilhar um projeto com usuários que estejam menos familiarizados com a estrutura de dados de sua organização, a área de trabalho de Análise ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro.<br>Saiba mais sobre a experiência [do projeto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can visualização. |
+| Pode duplicar | Os destinatários podem Salvar como e ter acesso ao painel à esquerda. As interações não são limitadas.<br>Essa função é útil se você deseja compartilhar um projeto com usuários que entendem os dados de sua organização e como usar o Analysis Workspace, mas não deseja alterar seu projeto salvo. |
+| Pode exibir | Os Recipient não podem Salvar como e não têm acesso ao painel esquerdo. As interações também são limitadas.<br>Essa função é útil se você deseja compartilhar um projeto com usuários menos familiarizados com a estrutura de dados de sua organização, o Analysis Workspace ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro.<br>Saiba mais sobre a experiência [do projeto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can visualização. |
+
+>[!IMPORTANT]
+> Os recipient do projeto adicionados antes de 18 de junho de 2020 foram migrados para uma função do projeto. Usuários administradores migraram para a função Pode editar e usuários não administradores migraram para a função Pode visualização. Essas funções fornecem a mesma experiência de projeto que tinham anteriormente.
 
 ### Nenhuma função atribuída
 
