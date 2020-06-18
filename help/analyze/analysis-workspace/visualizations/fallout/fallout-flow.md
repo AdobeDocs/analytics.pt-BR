@@ -2,7 +2,7 @@
 description: 'null'
 title: Visão geral de fallout
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,7 +15,7 @@ As visualizações de Fallout oferecem mais opções para criar relatórios de f
 As visualizações de fallout permitem
 
 * Fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório
-* Arrastar, soltar e reorganizar as etapas do funil (pontos de contato)
+* Arrastar, soltar e reorganizar as etapas do funil (pontos de contato).
 * Combinar valores de diferentes dimensões e métricas
 * Criar um relatório de fallout multidimensional
 * Identificar o que os clientes acessam imediatamente depois de sair
