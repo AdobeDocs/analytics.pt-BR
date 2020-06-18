@@ -2,7 +2,7 @@
 description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 title: Visão geral do calendário e do intervalos de datas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 
-As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Quando você clica em um intervalo de datas no Workspace, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
+As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Ao clicar em um intervalo de datas no Workspace, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
 
 ![Calendário](assets/aw_calendar.png)
 
-O primeiro clique em um calendário start uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a `Shift` tecla for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
+O primeiro clique em um calendário inicia uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a tecla `Shift` for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
 
 Você também pode arrastar datas (e dimensões de tempo) em um projeto do Workspace. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
 
