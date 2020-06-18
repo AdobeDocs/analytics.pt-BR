@@ -2,7 +2,7 @@
 description: 'A comparação de datas no Analysis Workspace permite usar qualquer coluna que contenha um intervalo de datas e criar uma comparação de datas comum, como: ano a ano, trimestre a trimestre, mês a mês, etc.'
 title: Comparação de datas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -35,7 +35,7 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    >[!NOTE]
    >
-   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]**, e **[!UICONTROL Select range]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]** e **[!UICONTROL Select range]**.
 
 1. O resultado da comparação aparece assim:
 
@@ -47,13 +47,13 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    ![](assets/compare-time-barchart.png)
 
-   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
+   Observe que para mostrar a mudança de porcentagem no gráfico de barras, você deve ter a configuração [!UICONTROL Percentages] nas [!UICONTROL Visualization Settings].
 
 ## Adicionar uma coluna de período de tempo para comparação {#section_93CC2B4F48504125BEC104046A32EB93}
 
 A partir de agora, é possível adicionar um período de tempo a cada coluna de uma tabela, permitindo que você adicione períodos diferentes daqueles definidos no seu calendário. Essa é mais uma forma de comparar datas.
 
-1. Clique com o botão direito do mouse em uma coluna da tabela e selecione **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
+1. Clique com o botão direito do mouse em uma coluna da tabela e selecione **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
 
 1. Dependendo de como configurou o intervalo de data da tabela, você tem as opções a seguir para comparação:
 
@@ -65,7 +65,7 @@ A partir de agora, é possível adicionar um período de tempo a cada coluna de 
 
    >[!NOTE]
    >
-   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]**, e **[!UICONTROL Select range]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Prior 14 days before this date range]** e **[!UICONTROL Select range]**.
 
 1. O período de tempo será inserido no topo da coluna selecionada:
 
