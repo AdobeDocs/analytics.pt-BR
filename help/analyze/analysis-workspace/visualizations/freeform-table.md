@@ -1,7 +1,7 @@
 ---
 title: Tabela de forma livre
 description: Saiba mais sobre as Tabelas de forma livre e o Criador de tabela de forma livre
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,7 +25,7 @@ Você pode personalizar a tabela de várias maneiras:
 
 ## Construtor de tabelas de forma livre
 
-Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
+Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Build]**.
 
 O Construtor de tabelas é uma opção que economiza tempo quando você tem uma pergunta complexa para fazer sobre os dados e tem uma ideia da tabela que deseja criar para responder à pergunta. Outras vantagens do construtor de tabela incluem a capacidade de:
 
@@ -43,5 +43,5 @@ Assista ao Construtor de tabelas de forma livre em ação [aqui](https://youtu.b
 Os dados em uma tabela de forma livre podem ser exportados do Analysis Workspace de algumas maneiras:
 
 * Clique com o botão direito do mouse no cabeçalho da tabela e selecione **[!UICONTROL Copy to Clipboard]**. Isso exportará a tabela inteira (visível).
-* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* Selecione células específicas na tabela, clique com o botão direito do mouse e selecione **[!UICONTROL Copy to Clipboard]**, ou use a tecla de atalho Ctrl + C.
 * **[!UICONTROL Project > Download CSV]**. Isso exportará todas as tabelas visíveis no projeto como um CSV.
