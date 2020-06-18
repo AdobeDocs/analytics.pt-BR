@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar intervalos de datas personalizados
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ O intervalo de datas personalizado a seguir mostra um intervalo de datas para �
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+O intervalo de datas personalizado é exibido na parte superior do painel do componente [!UICONTROL Date Range] no seu projeto:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ Por exemplo, você pode criar um intervalo de datas que especifica uma janela de
 
 ![](assets/create_date_range.png)
 
-Use   *`rolling daily`*.
+Use *`rolling daily`*.
 
 * As configurações de Início seriam *`current day minus 14 days`*.
 
