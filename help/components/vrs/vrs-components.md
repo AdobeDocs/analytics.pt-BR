@@ -35,12 +35,14 @@ Para permitir a curadoria de componentes,
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API em relatórios do Analytics
+
    Uma vez verificado, você pode adicionar os componentes que deseja incluir no conjunto de relatórios virtual, arrastando os componentes aplicáveis da coluna “componentes excluídos” para a coluna “componentes incluídos”. Os componentes que podem ser incluídos e excluídos são:
 
    * Dimensões
    * Métricas
    * Segmentos
    * Intervalos de datas
+
    >[!NOTE]
    >
    >Não há necessidade de *compartilhar* componentes com curadoria (segmentos, métricas calculadas, intervalos de datas). Eles sempre estarão visíveis na Analysis Workspace se tiverem curadoria para o conjunto de relatórios virtual, mesmo se não forem compartilhados.
