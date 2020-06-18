@@ -2,7 +2,7 @@
 title: Visão geral do painel de comparação de segmentos
 description: Saiba como usar o painel de comparação de segmentos, parte do Segment IQ no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -14,7 +14,7 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
 ## Criação de um painel de comparação de segmentos
 
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais de sua Adobe ID.
+1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
 1. Na barra de navegação superior, clique em Workspace.
 1. Clique no botão “Criar novo projeto”.
@@ -27,11 +27,11 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
    ![Comparar públicos-alvo](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. É um segmento usado com frequência no painel de comparação, mas você pode removê-lo e comparar um segmento diferente à sua escolha.
+   Depois de arrastar um segmento para o painel, o Analytics cria automaticamente um segmento [!UICONTROL 'Everyone Else'] que inclui todos os que NÃO estão no segmento escolhido. É um segmento usado com frequência no painel de comparação, mas você pode removê-lo e comparar um segmento diferente à sua escolha.
 
    ![Todos os outros](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. Depois de determinar dois segmentos a serem comparados, clique em [!UICONTROL Build].
 
    Essa ação inicia um processo de backend que busca diferenças estatísticas entre os dois segmentos selecionados e todas as dimensões, métricas e outros segmentos. Uma barra de progresso na parte superior do painel indica o tempo restante até que cada métrica e dimensão sejam analisadas. As métricas, as dimensões e os segmentos usados com mais frequência são priorizados e executados primeiro para que os resultados mais relevantes retornem em tempo hábil.
 
@@ -39,12 +39,12 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
 Às vezes, é necessário excluir algumas dimensões, métricas ou segmentos das comparações de segmentos. Suponhamos que você deseja comparar o segmento “Usuários de dispositivos móveis dos EUA” com “Usuários de dispositivos móveis da Alemanha”. A inclusão de dimensões geográficas não faria sentido, já que esses segmentos já implicam essas diferenças.
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. Depois que os dois segmentos desejados estiverem no painel, clique em [!UICONTROL 'Show Advanced Options'].
+1. Arraste e solte os componentes que deseja excluir no painel [!UICONTROL Excluded Components].
 
    ![Componentes excluídos](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. Se quiser editar componentes excluídos, clique em um tipo de componente e, em seguida, clique no “X” ao seu lado para tornar a incluí-lo na análise. Clique em “Limpar tudo” para tornar a incluir todos os componentes na comparação de segmentos.
+Clique em [!UICONTROL 'Set as default'] para excluir esses componentes automaticamente em todas as comparações de segmentos futuras. Se quiser editar componentes excluídos, clique em um tipo de componente e, em seguida, clique no “X” ao seu lado para tornar a incluí-lo na análise. Clique em “Limpar tudo” para tornar a incluir todos os componentes na comparação de segmentos.
 
 ![Dimensões excluídas](assets/excluded-dimensions.png)
 
