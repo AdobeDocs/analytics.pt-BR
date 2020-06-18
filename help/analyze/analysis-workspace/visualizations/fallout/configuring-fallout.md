@@ -2,7 +2,7 @@
 description: 'null'
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -18,9 +18,9 @@ Não há limite de número de etapas que você pode adicionar ou do número de d
 
 Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
-1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
+1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Freeform Table].
 
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
+1. Arraste a Dimensão de página à Tabela de forma livre e arraste uma página de lá (neste caso, Início - JJEsquire) para o campo **[!UICONTROL Add TouchPoint]** como o primeiro ponto de contato.
 
    ![](assets/fallout1.png)
 
@@ -71,6 +71,6 @@ Quando você **clicar com o botão direito em um ponto de contato**, as seguinte
 | Executar tendência do ponto de contato | Veja os dados de tendência para um ponto de contato em um gráfico de linha, com alguns dados de detecção de anomalias pré-construídos. |
 | Executar tendência do ponto de contato (%) | Executa a tendência da porcentagem total de fallout. |
 | Executar tendência de todos os pontos de contato (%) | Executa a tendência de todas as porcentagens de pontos de contato no fallout (exceto “Todas as visitas”, se incluso), no mesmo gráfico. |
-| Analisar fallthrough neste ponto de contato | Visualização o que os visitantes fizeram entre dois pontos de contato (este ponto de contato e o próximo ponto de contato) se continuaram até o próximo ponto de contato. Isso cria uma tabela de forma livre, mostrando suas dimensões. Você pode substituir dimensões e outros elementos da tabela. |
-| Analisar fallout neste ponto de contato | Veja o que as pessoas que não entraram no funil fizeram imediatamente depois da etapa selecionada. |
+| Analisar fallthrough neste ponto de contato | Visualize o que os visitantes fizeram entre dois pontos de contato (este ponto de contato e o próximo ponto de contato), se continuaram até o próximo ponto de contato. Isso cria uma tabela de forma livre, mostrando suas dimensões. Você pode substituir dimensões e outros elementos da tabela. |
+| Analisar o fallout neste ponto de contato | Veja o que as pessoas que não entraram no funil fizeram imediatamente depois da etapa selecionada. |
 | Criar segmentos a partir do ponto de contato | Crie um novo segmento a partir do ponto de contato selecionado. |
