@@ -2,10 +2,10 @@
 description: O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Assim como em qualquer painel no Analysis Workspace, você pode continuar sua an
 | Pergunta | Resposta |
 |---|---|
 | Que tipos de atividade são suportados no A4T? | [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sobre os tipos de atividades suportados. |
-| As métricas calculadas são suportadas no relatórios A4T? | Não. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre por que as métricas calculadas não são suportadas. |
+| As métricas calculadas são suportadas nos cálculos de incentivo e confiança? | Não. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre por que as métricas calculadas não são suportadas no incentivo e na confiança. No entanto, as métricas calculadas podem ser usadas no relatórios A4T fora dessas métricas. |
 | Por que os visitantes únicos variam entre o Público alvo e o Analytics? | [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre as variações de visitantes únicos entre produtos. |
 | Quando eu aplico um segmento de ocorrência para uma atividade de Público alvo específica em minha análise, por que vejo experiências não relacionadas retornadas? | A dimensão A4T é uma variável lista, o que significa que pode conter muitas atividades (e experiências) ao mesmo tempo. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| A métrica de confiança contabiliza pedidos extremos ou aplica uma correção Bonferroni para várias ofertas? | Não. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre como a Analytics calcula a confiança. |
 
 Para obter mais informações sobre o relatórios Analytics para Públicos alvos, visite o relatórios [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
