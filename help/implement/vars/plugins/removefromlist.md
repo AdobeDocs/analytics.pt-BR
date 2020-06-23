@@ -1,7 +1,7 @@
 ---
 title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O pug-in `rfl` permite que você remova com &quot;segurança&quot; valores de strings delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md),  e outras. [`list`](../page-vars/list.md) Esse plug-in é útil se você deseja remover valores específicos de uma string delimitada sem se preocupar com delimitadores. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
+O plug-in `rfl` permite que você remova com &quot;segurança&quot; valores de strings delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) e outras. Esse plug-in é útil se você deseja remover valores específicos de uma string delimitada sem se preocupar com delimitadores. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
 
 O plug-in usa a seguinte lógica:
 
@@ -25,7 +25,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -60,7 +60,7 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 O método `rfl` aceita os seguintes argumentos:
 
-* **`lv`** (obrigatório, string): uma variável (ou string) que contém uma lista de valores delimitados
+* **`lv`** (obrigatório, string): uma variável (ou string) que contém uma lista de valores delimitados.
 * **`vr`** (obrigatório, string): o valor que você deseja remover do argumento `lv`. A Adobe recomenda a remoção de vários valores durante uma única chamada do `rfl`.
 * **`d1`** (opcional, string): o delimitador usado pelo argumento `lv`. O padrão é uma vírgula (`,`).
 * **`d2`** (opcional, string): o delimitador que você deseja que a string de retorno use. O padrão é o mesmo valor do argumento `d1`.
@@ -110,7 +110,7 @@ s.events = s.rfl(s.events,"event26");
 s.events = "event22,event24,event25";
 ```
 
-Neste exemplo, a chamada rfl não fez alterações em s.events, pois s.events não continham &quot;event26&quot;
+Neste exemplo, a chamada rfl não fez alterações em s.events, pois s.events não continham &quot;event26&quot;.
 
 ### Exemplo #3
 
@@ -132,7 +132,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-Se o argumento lv ou vr estiver em branco em uma chamada s.rfl, o plug-in não retornará nada
+Se o argumento lv ou vr estiver em branco em uma chamada s.rfl, o plug-in não retornará nada.
 
 ### Exemplo #4
 
@@ -401,7 +401,7 @@ Novamente, lembre-se de que o plug-in retorna apenas um valor; na verdade, ela n
 
 ### 2.01 (17 de setembro de 2019)
 
-* Correção de pequeno erro no valor padrão do delimitador
+* Correção de pequeno erro no valor padrão do delimitador.
 
 ### 2.0 (16 de abril de 2018)
 
