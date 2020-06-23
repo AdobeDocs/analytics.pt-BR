@@ -1,7 +1,7 @@
 ---
 title: Criar um documento de design de solução
 description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -46,4 +46,4 @@ Também existem vários parceiros da Adobe especializados em ajudar na criação
 
 Implemente as variáveis no documento de design da solução.
 
-[Criar uma camada](data-layer.md)de dados: Traduza variáveis no seu documento de design para variáveis JavaScript no seu site.
+[Criar uma camada de dados](data-layer.md): traduza variáveis no seu documento de design para variáveis JavaScript no seu site.
