@@ -1,7 +1,7 @@
 ---
 title: Util.getQueryParam
 description: Retorna o valor de um parâmetro da string de consulta.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] Um plug-in semelhante nomeado [`s.getQueryParam`](../plugins/getqueryparam.md) está disponível. Esse plug-in contém recursos mais avançados, mas também é mais complexo e não está incluído no AppMeasurement por padrão.
+>[!TIP] Um plug-in semelhante com o nome [`s.getQueryParam`](../plugins/getqueryparam.md) está disponível. Esse plug-in contém recursos mais avançados, mas também é mais complexo e não faz parte do AppMeasurement por padrão.
