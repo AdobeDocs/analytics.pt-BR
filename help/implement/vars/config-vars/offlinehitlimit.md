@@ -1,7 +1,7 @@
 ---
 title: offlineHitLimit
 description: Determine o número máximo de ocorrências a serem colocadas em fila para rastreamento offline.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 O rastreamento offline é uma maneira opcional de coletar dados no Adobe Analytics. Se um visitante se desconecta da Internet, mas continua a navegar em seu site, as ocorrências são armazenadas em uma fila offline até que o dispositivo se conecte novamente à Internet. O rastreamento offline é usado principalmente para aplicativos móveis.
 
-A variável `offlineHitLimit` coloca um limite no número de ocorrências que o dispositivo armazena localmente. This variable only works if [`trackOffline`](trackoffline.md) is enabled.
+A variável `offlineHitLimit` coloca um limite no número de ocorrências que o dispositivo armazena localmente. Essa variável só funciona se o [`trackOffline`](trackoffline.md) estiver ativado.
 
 ## Limite de ocorrências offline no Adobe Experience Platform Launch.
 
