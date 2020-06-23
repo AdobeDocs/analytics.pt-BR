@@ -3,7 +3,7 @@ description: Métricas calculadas e calculadas avançadas (ou derivadas) são m�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -15,17 +15,17 @@ Métricas calculadas e calculadas avançadas (ou derivadas) são métricas perso
 
 >[!IMPORTANT]
 >
->Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
+>Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; foram migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observação: os &quot;Canais de marketing&quot; não serão descontinuados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
->* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas é refletida nos recursos [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de relatório, Report Builder e Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. Elas permitem que os profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do [!DNL Analytics]. As métricas personalizadas disponíveis em cada pacote do [!DNL Analytics] são:
 
 * Adobe [!DNL Analytics] Foundation: calculadas
-* [Adobe Analytics Select](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html): Calculadas + Calculadas avançadas
-* [Adobe Analytics Prime](https://www.adobe.com/br/analytics/compare-adobe-analytics-packages.html): Calculadas + Calculadas avançadas
+* [Adobe Analytics Select](https://www.adobe.com/br/data-analytics-cloud/analytics/select.html): Calculadas + Calculadas avançadas
+* [Adobe Analytics Prime](https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
 Veja uma comparação entre os recursos de Métricas calculadas e Métricas calculadas avançadas:
@@ -40,16 +40,16 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 | [Funções básicas (contagem, valor absoluto, meio etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Não | Sim |
 | [Funções avançadas (regressão, if/then, t-score etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Não | Sim |
 
-## Capacidades  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Capacidades {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 É possível
 
-* Crie métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis][!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis].
+* Crie métricas entre a [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
 * Crie métricas segmentadas derivadas do tempo de execução do relatório, sem precisar [alterar a implementação](https://youtu.be/CuQTm9RaUpY). Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 * Compartilhe métricas em conjuntos de relatórios. Isso significa que todas as métricas recém-criadas se aplicam a todos os conjuntos de relatórios da mesma empresa de logon.
 * (Somente métricas calculadas avançadas) Segmente as métricas. Por exemplo, é possível criar uma métrica para “Novos visitantes”, com uma contagem de pessoas para as quais esta é a primeira sessão.
 * (Somente métricas calculadas avançadas) Incorpore funções estatísticas para ajudar a descrever melhor seus dados. Por exemplo, é possível contar o número de itens em um relatório ou adicionar o número de desvios padrão para cada item.
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* Utilize as métricas criadas na [!UICONTROL Ad Hoc Analysis] em outras ferramentas do [!DNL Analytics], e vice-versa.
 
    >[!NOTE]
    >
@@ -59,24 +59,24 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 
 Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usar métricas calculadas:
 
-* [!UICONTROL Funnels] em [!UICONTROL Reports & Analytics]
-* [!UICONTROL Fallout] em [!UICONTROL Analysis Workspace]
-* [!UICONTROL Cohort Analysis] na área de trabalho da Análise
+* [!UICONTROL Funis] no [!UICONTROL Reports &amp; Analytics]
+* [!UICONTROL Fallout] na [!UICONTROL Analysis Workspace]
+* [!UICONTROL Análise de coorte] na Analysis Workspace
 * [!UICONTROL Data Warehouse]
-* [!UICONTROL Segments]
-* [!UICONTROL Real-Time]relatórios 
-* [!UICONTROL Current Data]relatórios 
+* [!UICONTROL Segmentos]
+* [!UICONTROL Relatórios em Tempo real]
+* [!UICONTROL Relatórios de Dados atuais]
 * [!DNL Analytics] for [!DNL Target]
 
 ## Ferramentas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
+Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calculadas]:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ferramenta </th> 
-   <th colname="col2" class="entry"> Capacidades  </th> 
+   <th colname="col2" class="entry"> Capacidades </th> 
   </tr>
  </thead>
  <tbody> 
@@ -108,7 +108,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> Painel Seletor de métricas </td> 
-   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de  <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API para métricas calculadas</a> </td> 
