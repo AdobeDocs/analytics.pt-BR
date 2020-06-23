@@ -1,7 +1,7 @@
 ---
 title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -20,7 +20,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -95,7 +95,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 
 ... está configurado para se comportar da seguinte maneira:
 
-* O cronômetro será iniciado quando s.events contiver event1.
+* O cronômetro será iniciado quando s.events contiver event1
 * O cronômetro será reiniciado sempre que s.events contiver event1
 * O cronômetro parará quando s.events contiver event2
 * O cronômetro será redefinido (isto é, vai para 0 segundos) sempre que s.events contiver event2
@@ -113,7 +113,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 
 ... está configurado para se comportar da seguinte maneira:
 
-* O cronômetro será iniciado quando s.events contiver event1.
+* O cronômetro será iniciado quando s.events contiver event1
 * O cronômetro NÃO será reiniciado sempre que s.events contiver event1; em vez disso, o cronômetro original continuará em execução
 * O cronômetro NÃO parará quando s.events contiver event2, mas o plug-in registrará o tempo decorrido desde quando a configuração original event1 foi registrada
 * O cronômetro é armazenado em um cookie chamado &quot;s_20&quot;
