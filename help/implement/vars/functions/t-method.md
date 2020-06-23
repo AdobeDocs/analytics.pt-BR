@@ -1,7 +1,7 @@
 ---
 title: t
 description: Envie uma chamada de rastreamento de exibição de página para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
