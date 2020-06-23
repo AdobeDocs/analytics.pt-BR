@@ -1,7 +1,7 @@
 ---
 title: Classificações em Canais de marketing
 description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -24,12 +24,12 @@ As classificações adicionadas nesse procedimento são exibidas no relatório d
 | Termo | Definição |
 |--- |--- |
 | Classificações de texto | Especifica o tipo de categoria de classificação que permite agrupar dados de variável para fins de geração de relatórios. |
-| Nome | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing . |
-| Opções | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing . |
+| Nome | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing. |
+| Opções | O nome da classificação. A classificação adicionada aparece como opção de Análise de Canal no Gerenciador de canal de marketing. |
 
-## Create Marketing Channels classifications {#create-mktg-channel-classifications}
+## Criar classificações de canais de marketing {#create-mktg-channel-classifications}
 
-Crie classificações para Canais [!UICONTROL de]marketing.
+Crie classificações para [!UICONTROL Canais de marketing].
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. No [!UICONTROL Gerenciador de conjunto de relatórios], clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Classificação de canal de marketing]**.
