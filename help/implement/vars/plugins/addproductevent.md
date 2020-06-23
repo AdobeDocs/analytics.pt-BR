@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: Adiciona eventos personalizados às variáveis products e events.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -75,7 +75,7 @@ O plug-in addProductEvent não cria ou usa cookies.
 
 ### Exemplo #1
 
-O código a seguir define a `s.products` variável como `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+O código a seguir define a variável `s.products` como `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -83,22 +83,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-O código acima também define a `s.events` variável como `"purchase,event35"`
+O código acima também define a variável `s.events` como `"purchase,event35"`
 
 ### Exemplo #2
 
-O código a seguir define a `s.products` variável como `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+O código a seguir define a variável `s.products` como `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Quando o terceiro argumento na `addProductEvent` chamada é `true` (ou `1`), cada entrada de produto tem o evento especificado na chamada adicionado ao seu valor.
+Quando o terceiro argumento na chamada `addProductEvent` for `true` (ou `1`), cada entrada de produto tem o evento especificado na chamada adicionado ao seu valor.
 
 ### Exemplo #3
 
-O código a seguir define a `s.products` variável como `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+O código a seguir define a variável `s.products` como `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -108,11 +108,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-O código acima também define a `s.events` variável como `"purchase,event2,event33,event34,event35"`
+O código acima também define a variável `s.events` como `"purchase,event2,event33,event34,event35"`
 
 ### Exemplo #4
 
-O código a seguir define a `s.products` variável como `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+O código a seguir define a variável `s.products` como `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -122,19 +122,19 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-O código acima também define a `s.events` variável como `"purchase,event2,event33,event34,event35"`.
+O código acima também define a variável `s.events` como `"purchase,event2,event33,event34,event35"`.
 
 >[!NOTE] O segundo argumento na chamada pode ser um número inteiro **ou** uma string que representa um número inteiro
 
 ### Exemplo #5
 
-Se ainda `s.products` não estiver definido, o código a seguir o define como `";;;;event35=25"`
+Se o `s.products` ainda não estiver definido, o código a seguir o define como `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-O código acima também anexa `"event35"` ao final do `s.events` ou **, se** ainda não estiver definido, o código acima define `s.events` `s.events` como `"event35"`
+O código acima também anexa o `"event35"` ao final do `s.events` **ou**, se o `s.events` ainda não estiver definido, o código acima define o `s.events` como `"event35"`
 
 ## Histórico da versão
 
