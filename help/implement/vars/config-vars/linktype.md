@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: Use a variável linkType para determinar a dimensão de rastreamento de link à qual a ocorrência pertence.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ Defina o tipo de link ao configurar uma regra para enviar um beacon.
 
 ## s.linkType no AppMeasurement e editor de código personalizado do Launch
 
-A variável `s.linkType` é uma string que aceita um de três valores com um caractere: `o`, `d` ou `e`. If a `tl()` method is called without a link type, it defaults to Custom link.
+A variável `s.linkType` é uma string que aceita um de três valores com um caractere: `o`, `d` ou `e`. Se um método `tl()` for chamado sem um tipo de link, o padrão será Link personalizado.
 
 * `o` - Links personalizados
 * `d` - Links de download
 * `e` - Links de saída
 
->[!TIP] Essa variável é o segundo parâmetro do `tl()` método e geralmente não precisa ser definida como uma variável independente. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] Essa variável é o segundo parâmetro do método `tl()` e geralmente não precisa ser definida como uma variável independente. No entanto, você pode usar a variável `linkType` se não quiser definir valores como argumentos no método `tl()`.
 
 ```js
 s.linkType = "e";
