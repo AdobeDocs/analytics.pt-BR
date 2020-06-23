@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: Permite a preservação de cadeias de caracteres de consulta em dimensões de rastreamento de link.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-Por padrão, o AppMeasurement remove as cadeias de caracteres de consulta dos URLs de rastreamento de link. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+Por padrão, o AppMeasurement remove as cadeias de caracteres de consulta dos URLs de rastreamento de link. Use a variável `linkLeaveQueryString` para manter as sequências de consulta nas dimensões de rastreamento de link.
 
 Em alguns links de saída e de downloads, a parte importante do URL pode estar na cadeia de caracteres de consulta. Por exemplo, um link de download como `https://example.com/download.asp?filename=myfile.exe` contém informações importantes do link na cadeia de caracteres de consulta.
 
