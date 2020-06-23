@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Regras de classificação
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Construtor de regras de classificação]**
 
 O Construtor de regras permite criar um *`classification rule set`*, que é uma lista de *`classification rules`*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
 
@@ -23,7 +23,7 @@ As regras de classificação são úteis para:
 * **Email** e **Anúncios de exibição**: Crie regras de classificação para agrupar campanhas de anúncio de exibição individuais para que seja possível aprender como as campanhas de exibição são realizadas em relação às campanhas de email.
 
 * **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes das sequências nos códigos de rastreamento, e corresponda as regras aos critérios específicos definidos por você.
-* **Termos de pesquisa**: use  [expressões regulares](/help/components/c-classifications2/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
+* **Termos de pesquisa**: use [expressões regulares](/help/components/c-classifications2/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
 
@@ -33,7 +33,7 @@ Você pode configurar três regras em um conjunto de regras que identifiquem as 
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Começa com | em: | Canal | Email  |
+| Começa com | em: | Canal | Email |
 | Termina com | Venda | Tipo | Venda |
 | Contém | 2013 | Ano | 2013 |
 
@@ -51,11 +51,11 @@ about_classification_rules.xml
 * [Quando as regras não classificam as teclas?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Sobre a prioridade das regras](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] O [!UICONTROL Rule Builder] não suporta classificações Numéricas 2.
+>[!NOTE] O [!UICONTROL Construtor de regras] não suporta classificações numéricas 2.
 
 ## Informações importantes sobre as Regras
 
-* Especificar permissões [de](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html) grupo para classificações em [!UICONTROL Admin Tools].
+* Especificar [permissões de grupo](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html) para classificações em [!UICONTROL Ferramentas administrativas].
 
 * **Expressões regulares**: a ajuda está disponível em [Expressões regulares nas regras de classificação](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
@@ -63,7 +63,7 @@ about_classification_rules.xml
 
    Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
 
-* **Prioridade** da regra: Se uma tecla corresponder a várias regras que definem a mesma classificação (na [!UICONTROL Set Classification] coluna), a última regra que corresponde à classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **Prioridade das regras**: se uma tecla corresponde a várias regras que definem a mesma classificação (na coluna [!UICONTROL Definir classificação]), a última regra que corresponde a classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **Limites no número de regras**: não há limite de definição para o número de regras que podem ser criadas. Contudo, um grande número de regras pode afetar o desempenho do navegador.
 * **Processamento**: regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
@@ -74,13 +74,13 @@ about_classification_rules.xml
 
 ## Quando as regras não classificam as teclas?
 
-Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma  [chave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (variável) se:
+Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (variável) se:
 
-* A tecla já estiver classificada e você não selecionar [Substituir classificações](/help/components/c-classifications2/crb/classification-rule-definitions.md).
+* A tecla já estiver classificada e você não selecionar [Substituir classificações de](/help/components/c-classifications2/crb/classification-rule-definitions.md).
 
-   Você pode substituir classificações ao  [adicionar e ativar](/help/components/c-classifications2/crb/classification-quickstart-rules.md) uma regra, e quando ativar uma integração de Data Connectors. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].)
+   Você pode substituir classificações ao [adicionar e ativar](/help/components/c-classifications2/crb/classification-quickstart-rules.md) uma regra, e quando ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
 
-* Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações](/help/components/c-classifications2/crb/classification-rule-definitions.md).
+* Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações de](/help/components/c-classifications2/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
 
    >[!NOTE]
@@ -127,15 +127,15 @@ Como a expressão regular correlaciona-se à ID da campanha:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: Mostra como a expressão regular corresponde aos caracteres de ID da campanha, tornando possível classificar uma posição na ID da campanha.
+[!UICONTROL Corresponder grupos]: Mostra como a expressão regular corresponde aos caracteres da ID da campanha, tornando possível classificar uma posição na ID da campanha.
 
 ![](assets/regex_tracking_code.png)
 
 Esse exemplo diz para a regra que a data da campanha `20140601` está no terceiro grupo `(.+)`, identificada por `$3`.
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Construtor de regras]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
@@ -150,7 +150,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
 
-## Expressão regular - Classificação de um caractere específico  {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Expressão regular - Classificação de um caractere específico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Uma maneira de usar uma expressão regular é para classificar um caractere específico em uma sequência de caracteres. Por exemplo, suponha que o seguinte código de rastreamento possua dois caracteres importantes:
 
@@ -161,9 +161,9 @@ Uma maneira de usar uma expressão regular é para classificar um caractere espe
 
 ![](assets/regex_char_position.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Construtor de regras]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |--- |--- |--- |--- |
@@ -186,9 +186,9 @@ Teclas de amostra:
 
 ![](assets/regex_varying_length.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Construtor de regras]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |--- |--- |--- |--- |
@@ -231,7 +231,7 @@ Neste resultado, `a:b:1313` não indica uma correspondência.
 | Expressão | Descrição |
 |---|---|
 | `(?ms)` | Faz com que toda a expressão regular corresponda à entrada de múltiplas linhas, permitindo que o caractere curinga . corresponda com qualquer caractere de nova linha (newline) |
-| (`?i`) | Toda a expressão regular deixa de distinguir letras maiúsculas de minúsculas |
+| (`?i`) | Toda a expressão regular não distingue letras maiúsculas de minúsculas |
 | [`abc`] | Um caractere único de: a, b ou c |
 | [`^abc`] | Qualquer caractere único exceto: a, b ou c |
 | [`a-z`] | Qualquer caractere único no intervalo a-z |
@@ -261,7 +261,7 @@ Um bom recurso para testar a validade da expressão regular é https://rubular.c
 
 ## Sobre a prioridade das regras
 
-If a key is matched to multiple rules, and it sets the same classification column shown in the [!UICONTROL Set Classification] column, the last rule is used. Dessa forma, você talvez queira classificar o mais importante por último no seu conjunto de regras.
+Se houver correspondência de uma tecla com várias regras e a tecla definir a mesma coluna de classificação mostrada na coluna [!UICONTROL Definir classificação], a última regra será usada. Dessa forma, você talvez queira classificar o mais importante por último no seu conjunto de regras.
 
 <!-- 
 
@@ -279,7 +279,7 @@ O que vem depois de um exemplo de regra de termo de pesquisa que classifica os t
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
 | 3 | Contém | Romo | Tipo de pesquisa | Jogador |
 
-Se um usuário pesquisa por  *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, visto que corresponde à última classificação fornecida mostrada na coluna Definir classificação.
+Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, visto que corresponde à última classificação fornecida mostrada na coluna Definir classificação.
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 
@@ -288,7 +288,7 @@ Da mesma forma, suponha que você configure duas regras em um conjunto para os s
 | 1 | Contém | Cowboys | Cidade | Dallas |
 | 2 | Contém | Broncos | Cidade | Denver |
 
-Um usuário pesquisa por  *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
+Um usuário pesquisa por *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
 
 ## Adicionar uma regra de classificação a um conjunto de regras {#add-classification-to-rule-set}
 
@@ -304,24 +304,24 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
->Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando  [subclassificações](/help/components/c-classifications2/c-sub-classifications.md).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Criar um conjunto de regras de classificação](/help/components/c-classifications2/crb/classification-rule-set.md).
-1. On the rule set page, click **[!UICONTROL Add Rule]**.
+1. Na página do conjunto de regras, clique em **[!UICONTROL Adicionar regra]**.
 
    ![](assets/add_rule.png)
 
-1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
+1. Ao lado de **[!UICONTROL Conjuntos de relatórios]**, clique em **[!UICONTROL Adicionar conjuntos]** para especificar um ou mais conjuntos de relatórios que serão atribuídos a esse conjunto de regras.
 
-   A **[!UICONTROL Select Report Suites]** página é exibida.
+   A página **[!UICONTROL Selecionar Conjuntos de relatórios]** é exibida.
 
    >[!NOTE]
-   Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:        >
+   Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
 
-   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
-   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
+   (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/c-classifications2/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/c-classifications2/crb/classification-rule-set.md) para criar o conjunto de regras.
 
 
 1. Especifique se deseja substituir os valores existentes:
@@ -330,7 +330,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    |---|---|
    | **As regras substituem somente os valores não definidos** | Preencha apenas as células em branco (não definidas). Classificações existentes não serão alteradas. |
 
-1. [Defina a regra ou as regras](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529). 
+1. [Defina a regra ou as regras](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
    ![Resultado da etapa](assets/classification_rules_page.png)
 
@@ -341,7 +341,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >Se uma tecla corresponder a várias regras que definem a mesma classificação (na coluna Definir classificação), a última regra que corresponde à classificação será usada. Consulte **Sobre a prioridade de regras** acima para obter mais informações sobre como ordenar regras.
 
 1. [Teste seu conjunto de regras](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
-1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
+1. Após os testes, clique em **[!UICONTROL Ativo]** para validar e ativar a regra.
 
    Ativar uma regra constrói automaticamente o arquivo e o carrega para você.
 
@@ -358,23 +358,23 @@ t_classifications_test_rule.xml
 Etapas que descrevem como testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
 
 1. [Criar um conjunto de regras de classificação](/help/components/c-classifications2/crb/classification-rule-set.md).
-1. No [!UICONTROL Classification Rule Builder], clique no nome do conjunto de regras.
+1. No [!UICONTROL Construtor de regra de classificação], clique no nome do conjunto de regras.
 1. Assegure que o conjunto de regras esteja associado a um conjunto de relatórios.
-1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
+1. No editor de regras, clique em **[!UICONTROL Testar conjunto de regras]**.
 
    ![Resultado da etapa](assets/classification_test_rule_set.png)
 
-1. Type or paste test keys in the [!UICONTROL Sample Keys] field.
+1. Digite ou cole as teclas de teste no campo [!UICONTROL Teclas de amostra].
 
    As teclas de amostra incluem:
 
    * Códigos de rastreamento
    * Palavras ou frases de pesquisa
    Consulte [Expressões regulares em regras de classificação](/help/components/c-classifications2/crb/classification-quickstart-rules.md) para obter informações sobre o teste de expressões regulares.
-1. Clique em **[!UICONTROL Run Test]**.
+1. Clique em **[!UICONTROL Executar teste]**.
 
-   Rules that match are displayed in the [!UICONTROL Results] table.
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+   As regras que correspondem são exibidas na tabela [!UICONTROL Resultados].
+1. (Opcional) Clique em **[!UICONTROL Ativar]** para ativar a regra e para substituir as classificações existentes.
 
    Consulte para obter mais informações sobre como usar as regras para substituir as classificações existentes.
 
@@ -389,11 +389,11 @@ t_validate_rules.xml
 Etapas que descrevem como validar e ativar regras de classificação.
 
 1. [Crie um Conjunto de regras de classificação](/help/components/c-classifications2/crb/classification-rule-set.md) e [adicione as regras de classificação](/help/components/c-classifications2/crb/classification-quickstart-rules.md) ao conjunto.
-1. On the rule editor, click **[!UICONTROL Activate]**.
+1. No editor de regras, clique em **[!UICONTROL Ativar]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para substituir classificações, ative **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. (Opcional) Para substituir classificações, habilite **[!UICONTROL Substituir classificações de]** *`<selection>`*.
 
    Essa opção permite que você substitua classificações existentes para teclas afetadas.
 
