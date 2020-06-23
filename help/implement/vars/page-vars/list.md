@@ -1,7 +1,7 @@
 ---
 title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
