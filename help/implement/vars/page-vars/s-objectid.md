@@ -1,7 +1,7 @@
 ---
 title: s_objectID
 description: Ajude o Activity Map a identificar links exclusivos em seu site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
