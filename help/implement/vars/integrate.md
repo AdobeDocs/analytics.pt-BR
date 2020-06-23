@@ -1,7 +1,7 @@
 ---
 title: Módulo de integração
 description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -41,7 +41,7 @@ A implementação do Módulo de integração no site requer acesso ao Adobe Expe
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade do Launch que deseja editar.
 3. Clique na guia Extensões e, em seguida, clique em Configurar no Adobe Analytics.
-4. Abra a opção &quot;Configurar rastreador usando código personalizado&quot; e clique em &quot;&lt;/> Abrir editor&quot;.
+4. Abra a opção &quot;Configurar rastreador usando código personalizado&quot; e clique em &quot;Abrir editor&quot;.
 5. Cole o código do Módulo de integração na janela modal do código. Clique em Salvar após a conclusão.
 
 ## Métodos do Módulo de integração
