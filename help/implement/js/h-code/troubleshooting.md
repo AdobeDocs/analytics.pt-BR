@@ -1,7 +1,7 @@
 ---
 title: Solução de problemas de implementações do Código H
 description: Saiba mais sobre alguns problemas comuns com implementações JavaScript herdadas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
