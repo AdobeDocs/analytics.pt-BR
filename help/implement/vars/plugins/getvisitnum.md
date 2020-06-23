@@ -1,7 +1,7 @@
 ---
 title: getVisitNum
 description: Rastreia o número da visita atual de um visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -161,9 +161,9 @@ Nesse caso, o plug-in criará três cookies diferentes - um para cada um dos dif
 ### 4.0 (17 de abril de 2018)
 
 * Versão pontual (recompilada, menor tamanho de código).
-* Argumentos de cookie removidos, pois o plug-in agora gera cookies dinamicamente com base no argumento `rp`)
+* Argumentos de cookie removidos, pois o plug-in agora gera cookies dinamicamente com base no argumento `rp`).
 
 ### 3.0 (5 de junho de 2016)
 
-* Reformulação completa
+* Reformulação completa.
 * Combinadas todas as soluções anteriores disponíveis em várias versões do plug-in `getVisitNum`.
