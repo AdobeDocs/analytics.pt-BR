@@ -1,7 +1,7 @@
 ---
 title: Introdução aos Canais de marketing
-description: Saiba mais sobre o fluxo de trabalho dos Canais de marketing, a configuração automática e como aplicar configurações de conjunto de relatórios de modelo a vários conjuntos de relatórios.
-translation-type: tm+mt
+description: Saiba mais sobre o fluxo de trabalho de Canais de marketing, a configuração automática e como aplicar configurações de conjunto de relatórios de modelo a vários conjuntos de relatórios.
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ Os Canais de marketing são normalmente usados para fornecer informações sobre
 
 Os Canais de marketing giram em torno de métricas de Primeiro e último toque, que são componentes de métricas de conversão padrão.
 
-## Fluxo de trabalho dos Canais de marketing
+## Fluxo de trabalho de Canais de marketing
 
 ![](assets/step1_icon.png) Definir cada canal com base nos requisitos da empresa.
 
@@ -26,7 +26,7 @@ Definir os canais que você usa é um dos componentes mais importantes dos Canai
 * Você deseja reunir todos os sites de redes sociais, ou há algo que deseja acompanhar individualmente?
 * Há outros canais que poderiam afetar a conversão que você deseja acompanhar?
 
-Há uma lista de canais recomendados em  [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a ativação e definição dos canais durante sua criação.
+Há uma lista de canais recomendados em [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a ativação e definição dos canais durante sua criação.
 
 ![](assets/step2_icon.png) Adicione canais de marketing na página [!UICONTROL Gerenciador de canal de marketing].
 
@@ -78,7 +78,7 @@ Como executar a configuração automática para os Canais de marketing.
 
 1. Certifique-se de que o Relatório de canal de marketing esteja ativado para os conjuntos de relatórios selecionados. Seu Gerente de contas deve executar essa etapa.
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
-1.  Na página do **[!UICONTROL Gerenciador de conjunto de relatórios]**, selecione o conjunto de relatórios modelo, bem como um ou mais conjuntos de relatórios de destino.
+1. Na página do **[!UICONTROL Gerenciador de conjunto de relatórios]**, selecione o conjunto de relatórios modelo, bem como um ou mais conjuntos de relatórios de destino.
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Gerenciador de canal de marketing]**.
 1. Na página **[!UICONTROL Selecionar os principais conjuntos de relatórios]**, selecione um conjunto de relatórios modelo.
 1. Clique em **[!UICONTROL Salvar tudo]**.
