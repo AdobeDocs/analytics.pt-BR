@@ -3,7 +3,7 @@ description: Apresenta as etapas e práticas recomendadas que devem ser seguidas
 title: Planejar segmentos
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
