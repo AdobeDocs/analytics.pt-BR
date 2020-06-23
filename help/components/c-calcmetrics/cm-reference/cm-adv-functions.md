@@ -3,10 +3,10 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na l
 
 Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
 
-## O que significa o parâmetro Incluir zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## O que significa o parâmetro Incluir zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Informa se os zeros devem ou não ser incluídos no cálculo. Muitas vezes, zero significa &quot;nada&quot;; mas em alguns casos, pode ser importante.
 
@@ -40,11 +40,11 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descrição |
 |---|---|
 | *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como VERDADEIRO ou FALSO. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
 
 ## Contagem distinta aproximada (dimensão) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Retorna a contagem distinta aproximada de itens de dimensão em referência à dimensão selecionada. A função usa o método HyperLogLog (HLL) de aproximação de contagens distintas.  Está configurada para garantir que o valor fique entre 5% do valor inteiro em 95% das vezes.
+Retorna a contagem distinta aproximada de itens de dimensão em referência à dimensão selecionada. A função usa o método HyperLogLog (HLL) de aproximação de contagens distintas. Está configurada para garantir que o valor fique entre 5% do valor inteiro em 95% das vezes.
 
 ```
 Approximate Count Distinct (dimension)
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | A dimensão cuja contagem distinta de itens você deseja obter. |
 
-## Caso de uso de exemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso de uso de exemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
@@ -66,11 +66,11 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ![](assets/approx-customers.png)
 
-## Únicos excedidos  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
+Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
-## Comparação de funções de contagem  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() é uma melhoria das funções Count() e RowCount(), pois a métrica criada pode ser usada em qualquer relatório dimensional para renderizar uma contagem aproximada de itens de uma dimensão separada. Por exemplo, a contagem de IDs de clientes usadas em um relatório de Tipo de dispositivo móvel.
 
@@ -152,7 +152,7 @@ cdf_z( -3 ) ? 0.0013499
 
 ## Limite máximo (Linha) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
-Retorna o menor número inteiro não inferior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÁXIMO( *Receita*) para arredondar a receita para cima; neste caso, US$570.
+Retorna o menor número inteiro não inferior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÁXIMO(*Receita*) para arredondar a receita para cima; neste caso, US$570.
 
 ```
 CEILING(metric)
@@ -245,7 +245,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Regressão exponencial: inclinação (Tabela) {#concept_230991B0371E44308C52853EFA656F04}
 
-Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para .
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -258,7 +258,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## Limite mínimo (Linha) {#concept_D368150EC3684077B284EE471463FC31}
 
-Retorna o maior número inteiro não superior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÍNIMO( *Receita*) para arredondar a receita para baixo; neste caso, US$569.
+Retorna o maior número inteiro não superior a um valor especificado. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula LIMITE MÍNIMO(*Receita*) para arredondar a receita para baixo; neste caso, US$569.
 
 ```
 FLOOR(metric)
@@ -459,7 +459,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descrição |
 |---|---|
 | *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como VERDADEIRO ou FALSO. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -469,7 +469,7 @@ Retorna a constante PI, 3,14159265358979, com precisão de 15 dígitos.
 PI()
 ```
 
-A função [!DNL PI]não tem argumentos.
+A função [!DNL PI] não tem argumentos.
 
 ## Regressão de potência: coeficiente de correlação (Tabela) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
