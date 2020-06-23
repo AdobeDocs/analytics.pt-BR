@@ -1,7 +1,7 @@
 ---
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ As camadas de dados normalmente são geradas no lado do servidor, referenciando 
 
 ## Próximas etapas
 
-[Mapear objetos de camada de dados para elementos](../launch/layer-to-elements.md)de dados: Use a camada de dados do site no Adobe Experience Platform Launch.
+[Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md): use a camada de dados do site no Adobe Experience Platform Launch.
