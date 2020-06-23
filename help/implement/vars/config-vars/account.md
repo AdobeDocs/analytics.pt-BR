@@ -1,7 +1,7 @@
 ---
 title: account
 description: Use a variável de conta para determinar o conjunto de relatórios para o qual os dados são enviados.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
