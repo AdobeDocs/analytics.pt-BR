@@ -1,7 +1,7 @@
 ---
 title: linkTrackEvents
 description: Determine quais eventos devem ser incluídos nas solicitações de imagem de rastreamento de link.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Algumas implementações não querem incluir todas as variáveis em todas as solicitações de imagem de rastreamento de link. Use as variáveis [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` para incluir seletivamente dimensões e métricas em chamadas [`tl()`](../functions/tl-method.md).
 
-This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
+Essa variável não é usada para chamadas de exibição de página (método [`t()`](../functions/t-method.md)).
 
 ## Eventos em chamadas de rastreamento de link que usam o Adobe Experience Platform Launch
 
@@ -21,7 +21,7 @@ O Launch detecta automaticamente os eventos definidos na interface e os inclui n
 
 ## s.linkTrackEvents no AppMeasurement e no editor de código personalizado do Launch
 
-The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). Os três critérios a seguir devem ser atendidos para incluir métricas nas ocorrências de rastreamento de link:
+A variável `s.linkTrackEvents` é uma cadeia de caracteres quem contém uma lista de eventos delimitada por vírgulas que você deseja incluir nas solicitações de imagem de rastreamento de link (método `tl()`). Os três critérios a seguir devem ser atendidos para incluir métricas nas ocorrências de rastreamento de link:
 
 * Defina o evento desejado na variável [`events`](../page-vars/events/events-overview.md). Por exemplo, `s.events = "event1";`.
 * Defina a variável `events` no `linkTrackVars`. Por exemplo, `s.linkTrackVars = "events";`.
