@@ -1,7 +1,7 @@
 ---
 title: apl (appendToList)
 description: Anexe valores a variáveis que suportam vários valores.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O plug-in `apl` permite adicionar com segurança novos valores a variáveis delimitadas por lista, como [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md),  e outras.[`list`](../page-vars/list.md)
+O plug-in `apl` permite adicionar com segurança novos valores a variáveis delimitadas por lista, como [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md) e outras.[`list`](../page-vars/list.md)
 
 * Se o valor que você deseja adicionar não existir na variável, então o código adiciona o valor ao final da string.
 * Se o valor que você deseja adicionar já existir na variável, esse plug-in não altera o valor. Esses recursos permitem que sua implementação evite valores duplicados.
@@ -25,8 +25,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -294,7 +294,7 @@ s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 ```
 
-Como os dois argumentos delimitadores são diferentes, o valor transmitido será delimitado pelo primeiro argumento delimitador (&quot;|&quot;) e unido pelo segundo argumento delimitador (&quot;-&quot;)
+Como os dois argumentos delimitadores são diferentes, o valor transmitido será delimitado pelo primeiro argumento delimitador (&quot; &quot;) e unido pelo segundo argumento delimitador (&quot;-&quot;).
 
 ## Histórico da versão
 
