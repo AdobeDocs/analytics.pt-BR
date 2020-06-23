@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: Determine as extensões de arquivo que são automaticamente rastreadas como links de download.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. Se o URL do link contiver um tipo de arquivo encontrado no `linkDownloadFileTypes`, uma solicitação de imagem do link de download será enviada automaticamente.
+Quando a [`trackDownloadLinks`](trackdownloadlinks.md) estiver ativada e um visitante clicar em um link, o AppMeasurement verificará o URL do link por extensões do tipo de arquivo. Se o URL do link contiver um tipo de arquivo encontrado no `linkDownloadFileTypes`, uma solicitação de imagem do link de download será enviada automaticamente.
 
 Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja contar como links de download.
 
@@ -21,7 +21,7 @@ Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja
 > * Links que usam JavaScript, como `javascript:openLink()`
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
 
 Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
@@ -34,7 +34,7 @@ Baixar extensões é uma lista de extensões de arquivo com um campo para adicio
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Baixar extensões].
 
-Adicione extensões de arquivo à lista inserindo texto no campo e clicando em [!UICONTROL Adicionar]. Remova as extensões de arquivo da lista clicando no respectivo ícone &#39;X&#39;.
+Adicione extensões de arquivo à lista inserindo texto no campo e clicando em [!UICONTROL Adicionar]. Remova as extensões de arquivo da lista clicando no ícone &#39;X&#39; correspondente.
 
 ## s.linkDownloadFileTypes no AppMeasurement e no editor de código personalizado do Launch
 
