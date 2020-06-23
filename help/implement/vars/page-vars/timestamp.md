@@ -1,7 +1,7 @@
 ---
 title: timestamp
 description: Defina manualmente o carimbo de data e hora da ocorrência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
