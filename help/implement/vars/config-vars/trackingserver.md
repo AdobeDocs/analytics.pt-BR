@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Escolha um subdomínio exclusivo da sua organização, um que provavelmente não será escolhido por outra organização que usa o Adobe Analytics. Verifique se todas as implementações em sua organização usam o mesmo servidor de rastreamento. Pode ser útil manter essas informações em um [documento de design da solução](../../prepare/solution-design.md).
 
->[!NOTE] Não use subdomínios mais profundos do que `example.sc.omtrdc.net`. Por exemplo, não `custom.example.sc.omtrdc.net` é um servidor de rastreamento válido.
+>[!NOTE] Não use subdomínios mais profundos do que `example.sc.omtrdc.net`. Por exemplo, `custom.example.sc.omtrdc.net` não é um servidor de rastreamento válido.
