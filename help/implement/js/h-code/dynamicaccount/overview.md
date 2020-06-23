@@ -1,7 +1,7 @@
 ---
 title: Visão geral das contas dinâmicas
 description: Saiba mais sobre como selecionar dinamicamente um conjunto de relatórios usando o Código H.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
