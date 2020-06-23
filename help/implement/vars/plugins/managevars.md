@@ -1,7 +1,7 @@
 ---
 title: manageVars
 description: Altere os valores de mais de uma variável do Analytics de cada vez.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
@@ -143,7 +143,7 @@ s.manageVars("cleanStr");
 
 * Remove a codificação HTML
 * Remove espaços em branco encontrados no início e no fim do valor
-* Substitui aspas simples esquerda/direita (por exemplo, &quot;) por uma aspa simples reta (&#39;)
+* Substitui aspas simples esquerda/direita (por exemplo, ‘) por uma aspa simples reta (&#39;)
 * Substitui caracteres de tabulação e caracteres de nova linha por espaços
 * Substitui todos os espaços duplos (ou triplos etc.) por espaços únicos
 
