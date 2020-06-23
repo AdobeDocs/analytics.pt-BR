@@ -1,7 +1,7 @@
 ---
 description: Não é possível combinar o Construtor de regras de classificação com subclassificações.
 title: Subclassificações e o Construtor de regras
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 # Subclassificações e o Construtor de regras
 
-É possível combinar o Construtor de regras de classificação com subclassificações se você garantir que cada subclassificação tenha um valor pai.
+É possível combinar o Construtor de regras de classificação com subclassificações se você garantir que cada subclassificação tenha um valor principal.
 
-Combinar o Construtor de regras de classificação com subclassificações pode simplificar o gerenciamento de classificação e reduzir o número de regras necessárias. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
+É possível combinar o Construtor de regras de classificação com subclassificações para simplificar o gerenciamento de classificações e reduzir o número de regras necessário. Você pode querer fazer isso se o código de rastreamento consiste em códigos que você deseja classificar separadamente.
 
 Consulte [Subclassificação](/help/components/c-classifications2/c-sub-classifications.md) para informações conceituais sobre subclassificações.
 
@@ -25,7 +25,7 @@ Uma hierarquia de classificação permite aplicar uma classificação a uma clas
 
 ![](assets/sub_class_table.png)
 
-Depois de colocar essa estrutura no lugar, é possível utilizar  [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
+Depois de colocar essa estrutura no lugar, é possível utilizar [Construtor de regras de classificação](/help/components/c-classifications2/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
 
 A seguinte tarefa descreve como fazer isso.
 
@@ -37,15 +37,15 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 >
 >Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o construtor de regras](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Criar classificações e subclassificação no [Gerenciador de classificações](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
+1. Criar classificações e subclassificação no [Gerenciador de classificações](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html).
 
    Exemplo:
 
    ![Informações da etapa](assets/sub_class_create.png)
 
-1. No [Construtor de regras de classificações](/help/components/c-classifications2/crb/classification-rule-builder.md), classifique a chave de subclassificação do código de rastreamento original. 
+1. No [Construtor de regras de classificações](/help/components/c-classifications2/crb/classification-rule-builder.md), classifique a chave de subclassificação do código de rastreamento original.
 
-   Isso é realizado utilizando uma expressão regular. Nesse exemplo, a regra é preencher  *`Broad Campaign code`* usaria essa expressão regular:
+   Isso é realizado utilizando uma expressão regular. Nesse exemplo, a regra é preencher *`Broad Campaign code`* usaria essa expressão regular:
 
    | `#` | Tipo de regra | Correspondência | Definir a classificação | Para |
    |---|---|---|---|---|
@@ -69,6 +69,6 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
 1. Para manter as tabelas de pesquisa, carregue um pequeno arquivo (como mostrado acima).
 
-   Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma maneira, se você criar uma nova subclassificação (como  *`Creative Theme`* como uma subclassificação de *`Creative code`*), você faz upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
+   Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma maneira, se você criar uma nova subclassificação (como *`Creative Theme`* como uma subclassificação de *`Creative code`*), você faz upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
 
-   Em relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las. -->
+   Em relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las.-->
