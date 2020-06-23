@@ -3,7 +3,7 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,7 +36,7 @@ Ao construir segmentos de público-alvo no Construtor de segmentos, você define
 
 Esse tipo de conjunto de dados de filtros de segmento com base em características unidas com operadores [!UICONTROL E] e [!UICONTROL OU].
 
-## Segmentos sequenciais  {#section_EE5B14287FC44E0B96E77679A2438948}
+## Segmentos sequenciais {#section_EE5B14287FC44E0B96E77679A2438948}
 
 Os segmentos sequenciais permitem que você identifique visitantes com base na navegação e visualização de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL ENTÃO] é usado para definir e organizar a navegação do visitante.
 
@@ -108,7 +108,7 @@ Os contêineres de ocorrência incluem valores com base em detalhamentos de pág
    >
    >Se você usar esse contêiner em um valor que persiste, como uma evar, isso obterá cada ocorrência na qual o valor é persistente. Em caso de um código de rastreamento que expira após uma semana, esse valor pode persistir em várias visitas.
 
-**contêiner do Grupo lógico**
+**Contêiner do Grupo lógico**
 
 O contêiner do Grupo lógico permite que você ofereça um contêiner separado dentro das regras do segmento, para filtrar entidades que não são baseadas hierarquicamente. Por exemplo, você pode oferecer um contêiner aninhado dentro do segmento que faz a filtragem com base no Visitante. Este tipo de lógica requer a quebra da hierarquia (pois que você já possui um contêiner de nível superior) para filtrar somente visitantes selecionados. Isto pode ser realizado usando o contêiner do Grupo lógico. Consulte [Exemplos de Grupos lógicos](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para informações adicionais.
 
@@ -126,7 +126,7 @@ Você pode usar o aninhamento entre contêineres, bem como entre regras em um co
 |---|---|
 | Ocorrência | Somente eventos |
 | Visita | Contêiner de ocorrências, Eventos |
-| Visitante. | Contêiner de visitas, Contêiner de ocorrências, Eventos |
+| Visitante | Contêiner de visitas, Contêiner de ocorrências, Eventos |
 | Grupo lógico | Contêiner de visitante, Contêiner de visita, Contêiner de hit |
 
 **Incluir vários contêineres em uma única definição**
@@ -151,13 +151,13 @@ A segmentação sequencial emprega os mesmos contêineres básico incluindo [!UI
 
 ![](assets/nesting_container.png)
 
-Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa  [hierarquia de contêiner](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
+Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa [hierarquia de contêiner](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
 
 **Para construir segmentos sequenciais**, os contêineres são aninhados e a lógica sequencial é unida por meio do operador [!UICONTROL ENTÃO] que requer que cada contêiner seja verdadeiro com base na sequência do visitante.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-A única exceção para essa hierarquia de contêineres é ao usar o  [contêiner do Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). O contêiner do [!UICONTROL Grupo lógico] permite aninhar uma ocorrência em um contêiner sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
+A única exceção para essa hierarquia de contêineres é ao usar o [Contêiner do Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). O contêiner do [!UICONTROL Grupo lógico] permite aninhar uma ocorrência em um contêiner sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -165,7 +165,7 @@ A única exceção para essa hierarquia de contêineres é ao usar o  [contêine
 
 Os contêineres permitem que você filtre dados de forma diferente com base em valores de relatório ao relatar segmentos e aplicá-los a relatórios.
 
-Dados captados em cada nível da hierarquia de contêineres de Visitante > Visita > Ocorrência afetam como você constrói seus segmentos. Se você considerar o mesmo segmento aplicado ao mesmo relatório com o mesmo conjunto de dados, você obterá valores diferentes com base no contêiner a partir do qual você gera o relatório. Fatores como nível de relatório de contêiner e persistência de valores em ocorrências pode resultar em grandes alterações na precisão do relatório. 
+Dados captados em cada nível da hierarquia de contêineres de Visitante > Visita > Ocorrência afetam como você constrói seus segmentos. Se você considerar o mesmo segmento aplicado ao mesmo relatório com o mesmo conjunto de dados, você obterá valores diferentes com base no contêiner a partir do qual você gera o relatório. Fatores como nível de relatório de contêiner e persistência de valores em ocorrências pode resultar em grandes alterações na precisão do relatório.
 
 ## Dados básicos de contêiner {#section_9576D970F912450191AFB5B83F7F1656}
 
