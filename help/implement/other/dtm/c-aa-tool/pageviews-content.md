@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Exibições e conteúdo de página
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -38,7 +38,7 @@ Descrições de campo no Dynamic Tag Management para exibições de página e co
   </tr>
   <tr>
    <td colname="col1"> Hierarquia </td>
-   <td colname="col2"> <p>Determina a localização de uma página da hierarquia do site. </p> <p>Consulte <a href="../../../vars/page-vars/hier.md">dela</a>. </p> </td>
+   <td colname="col2"> <p>Determina a localização de uma página da hierarquia do site. </p> <p>Consulte <a href="../../../vars/page-vars/hier.md">hierarquia</a>. </p> </td>
   </tr>
  </tbody>
 </table>
