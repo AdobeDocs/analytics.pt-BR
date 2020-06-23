@@ -1,7 +1,7 @@
 ---
 title: cleanStr
 description: Remova ou substitua todos os caracteres desnecessários de uma string.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). A Adobe recomenda usar esse plug-in se você deseja remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; no Launch não atende às suas necessidades de implementação. Esse plug-in não é necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso “Limpar texto” no Launch for suficiente.
+O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita (`‘` e `’`) por aspas simples retas (`'`). A Adobe recomenda usar esse plug-in se você deseja remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; no Launch não atende às suas necessidades de implementação. Esse plug-in não é necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso “Limpar texto” no Launch for suficiente.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
@@ -19,8 +19,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
