@@ -1,9 +1,9 @@
 ---
-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções "Apenas antes da sequência" e "Apenas após a sequência".
+description: Segmentos sequenciais são criados por meio do operador ENTÃO, em vez de E ou OU. ENTÃO implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções "Somente antes da sequência" e "Somente depois da sequência".
 title: Construir segmentos sequenciais
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Construir segmentos sequenciais
 
-Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro &quot;Incluir todos&quot;. Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções &quot;Apenas antes da sequência&quot; e &quot;Apenas após a sequência&quot;.
+Segmentos sequenciais são criados por meio do operador ENTÃO, em vez de E ou OU. ENTÃO implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro &quot;Incluir todos&quot;. Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções &quot;Somente antes da sequência&quot; e &quot;Somente depois da sequência&quot;.
 
 ![](assets/before-after-sequence.png)
 
@@ -28,14 +28,14 @@ Ao criar o segmento usando a definição &quot;Incluir todos&quot;, o segmento i
 | Corresponde | A então B<br>A então (em uma visita diferente) B<br>A então D então B |
 | Não corresponde | B depois A |
 
-## Apenas antes da sequência ou apenas após a sequência  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Somente antes da sequência ou somente depois da sequência {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-As opções **[!UICONTROL Apenas antes da sequência]** e **[!UICONTROL Apenas após a sequência]** filtram o segmento em um subconjunto de dados antes e depois da sequência especificada.
+As opções **[!UICONTROL Somente antes da sequência]** e **[!UICONTROL Somente depois da sequência]** filtram o segmento em um subconjunto de dados antes e depois da sequência especificada.
 
-* **Apenas antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Apenas antes da sequência&quot; inclui a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
-* **Apenas após a sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Apenas após&quot; inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências posteriores (consulte o exemplo 2).
+* **Somente antes da sequência**: inclui todas as ocorrências antes de uma sequência + a primeira ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Somente antes da sequência&quot; inclui a primeira ocorrência da última ocorrência da sequência e todas as ocorrências anteriores (consulte o exemplo 2).
+* **Somente depois da sequência**: inclui todas as ocorrências após uma sequência + a última ocorrência da própria sequência (consulte o exemplo 1, 3). Se uma sequência aparece várias vezes em um caminho, &quot;Apenas após&quot; inclui a última ocorrência da primeira ocorrência da sequência e todas as ocorrências posteriores (consulte o exemplo 2).
 
-Por exemplo, uma sequência de B -> D. Os três filtros identificariam as ocorrências como se segue:considere 
+Por exemplo, uma sequência de B -> D. Os três filtros identificariam as ocorrências como se segue:
 
 **Exemplo 1: B então D aparece uma vez**
 
@@ -70,7 +70,7 @@ Definir uma cláusula &quot;dentro da dimensão&quot; entre regras permite que o
 | Se o resultado for... | Sequência |
 |--- |--- |
 | Corresponde | A depois B |
-| Não corresponde |  A então C então B (porque B não estava dentro de uma página de A)<br>**Observação:** se a restrição de dimensão for removida, &quot;A então B&quot; e &quot;A então C então B&quot; corresponderão. |
+| Não corresponde | A então C então B (porque B não estava dentro de uma página de A)<br>**Observação:** se a restrição de dimensão for removida, &quot;A então B&quot; e &quot;A então C então B&quot; corresponderão. |
 
 ## Sequência de visualização de páginas simples
 
@@ -148,7 +148,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 1. Selecione o contêiner de [!UICONTROL Visitante] como contêiner de nível superior.
 1. Adicione dois contêineres no nível da [!UICONTROL Ocorrência], uma dimensão com uma dimensão numérica adequada unida no mesmo nível de [!UICONTROL Ocorrência] pelo operador [!UICONTROL E] e [!UICONTROL OU].
-1. No contêiner de [!UICONTROL Visita], adicione outro contêiner de [!UICONTROL Ocorrência] e aninhe dois outros contêineres de [!UICONTROL Ocorrência] unidos com um operador [!UICONTROL OR] ou [!UICONTROL AND].
+1. No contêiner de [!UICONTROL Visita], adicione outro contêiner de [!UICONTROL Ocorrência] e aninhe dois outros contêineres de [!UICONTROL Ocorrência] unidos com um operador [!UICONTROL OU] ou [!UICONTROL E].
 
    Coloque esses contêineres de [!UICONTROL Ocorrência] aninhados em sequência com o operador [!UICONTROL ENTÃO].
 
@@ -176,11 +176,11 @@ As regras do segmento incluem todos os dados, a menos que você exclua especific
 
 Por exemplo:
 
-* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como  *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à &quot;Página inicial&quot; e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
+* **Excluir páginas**. Use uma regra de segmento para retirar uma página específica (como *`Home Page`*) de um relatório, criar uma regra de Ocorrência em que a página seja igual à &quot;Página inicial&quot; e, então, excluí-la. Essa regra inclui automaticamente todos os valores, salvo a Página inicial.
 * **Excluir os domínios de referência**. Use uma regra que inclua somente os domínios de referência do Google.com e exclua todos os outros.
 * **Identificar não compradores**. Identifique quando os pedidos são maiores que zero e, então, exclua o [!UICONTROL Visitante].
 
-O operador [!UICONTROL Excluir] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um  [Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+O operador [!UICONTROL Excluir] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um [Grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### Excluir entre pontos de verificação
 
@@ -197,7 +197,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 **Criar este segmento**
 
-Crie um segmento como você faria para um segmento sequencial simples, de nível variado ou aninhado e em seguida defina o operador [!UICONTROL EXCLUIR] para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL THEN] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
+Crie um segmento como você faria para um segmento sequencial simples, de nível variado ou aninhado e em seguida defina o operador [!UICONTROL EXCLUIR] para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL ENTÃO] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -299,7 +299,7 @@ As páginas B e C são aninhadas em um contêiner de [!UICONTROL Grupo lógico] 
 
 ![](assets/logic_group_any_order3.png)
 
-O segmento deve corresponder pelo menos a um dos pontos de verificação do grupo lógico (B ou C). Além disso, as condições do grupo lógico podem ser cumpridas na mesma ocorrência ou em várias ocorrências. 
+O segmento deve corresponder pelo menos a um dos pontos de verificação do grupo lógico (B ou C). Além disso, as condições do grupo lógico podem ser cumpridas na mesma ocorrência ou em várias ocorrências.
 
 ### Primeira correspondência do grupo lógico
 
@@ -351,7 +351,7 @@ Use os operadores [!UICONTROL Dentro] e [!UICONTROL Depois] integrados no cabeç
 
 É possível limitar a correspondência para uma duração de tempo específica por meio dos contêineres [!UICONTROL Dentro] e [!UICONTROL Depois] e especificando uma granularidade e contagem. O operador [!UICONTROL Dentro] é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. O operador [!UICONTROL Depois] é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação.
 
-### Operadores Depois e Dentro  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Operadores Depois e Dentro {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 A duração é especificada por uma única letra maiúscula representando a granularidade seguida por um número representando a contagem de repetição da granularidade.
 
@@ -361,8 +361,8 @@ A duração é especificada por uma única letra maiúscula representando a gran
 
 | Operadores | Descrição |
 |--- |--- |
-| AFTER | O operador Depois é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação. Ao definir os valores de Depois, o limite de tempo começará quando o segmento for aplicado. Por exemplo, se o operador Depois estiver definido em um contêiner para identificar visitantes que visitaram a página A, mas não retornam para visitar a página B depois de um dia, esse dia começará quando o visitante sair da página A. Para que o visitante seja incluído no segmento, no mínimo, 1440 minutos (um dia) devem se passar após sair da página A para visualizar a página B. |
-| WITHIN | O operador Dentro é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. Por exemplo, se o operador Dentro estiver definido em um contêiner para identificar visitantes que visitaram a página A e retornam para visitar a página B dentro de um dia, esse dia começará quando o visitante sair da página A. Para ser incluído no segmento, o visitante terá um tempo máximo de um dia antes de abrir a página B. Para que o visitante seja incluído no segmento, a visita à página B deve ocorrer dentro de no máximo 1440 minutos (um dia) após sair da página A para visualizar a página B. |
+| DEPOIS | O operador Depois é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação. Ao definir os valores de Depois, o limite de tempo começará quando o segmento for aplicado. Por exemplo, se o operador Depois estiver definido em um contêiner para identificar visitantes que visitaram a página A, mas não retornam para visitar a página B depois de um dia, esse dia começará quando o visitante sair da página A. Para que o visitante seja incluído no segmento, no mínimo, 1440 minutos (um dia) devem se passar após sair da página A para visualizar a página B. |
+| DENTRO | O operador Dentro é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. Por exemplo, se o operador Dentro estiver definido em um contêiner para identificar visitantes que visitaram a página A e retornam para visitar a página B dentro de um dia, esse dia começará quando o visitante sair da página A. Para ser incluído no segmento, o visitante terá um tempo máximo de um dia antes de abrir a página B. Para que o visitante seja incluído no segmento, a visita à página B deve ocorrer dentro de no máximo 1440 minutos (um dia) após sair da página A para visualizar a página B. |
 | DEPOIS/DENTRO | Ao usar ambos os operadores Depois e Dentro, é importante compreender que ambos os operadores começarão e terminarão simultaneamente, não em sequência.   Por exemplo, se você construir um segmento com o contêiner definido como: <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, as condições para identificar os visitantes no segmentos serão atendidas somente entre 1 e 2 semanas. As duas condições são aplicadas a partir da primeira ocorrência da página. |
 
 ### Usar o operador Depois
@@ -416,7 +416,7 @@ Use o [!UICONTROL Dentro] e o [!UICONTROL Depois] para fornecer um terminal mín
 
 ![](assets/time_between_using_both_operators.png)
 
-**criar o segmento**: crie o segmento fazendo a sequência de dois contêineres de [!UICONTROL Ocorrência] em um contêiner de [!UICONTROL Visitante]. Em seguida, defina os operadores [!UICONTROL Depois] e [!UICONTROL Dentro].
+**Criar o segmento**: crie o segmento fazendo a sequência de dois contêineres de [!UICONTROL Ocorrência] em um contêiner de [!UICONTROL Visitante]. Em seguida, defina os operadores [!UICONTROL Depois] e [!UICONTROL Dentro].
 
 ![](assets/within_after_together.png)
 
