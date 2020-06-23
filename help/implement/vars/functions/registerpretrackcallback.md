@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A variável `registerPreTrackCallback` permite que sua organização execute uma função JavaScript após um URL de solicitação de imagem ser compilado, mas antes de ser enviado. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement a um parceiro ou infraestrutura interna.
 
->[!IMPORTANT] Não chame nenhuma chamada de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da [`registerPostTrackCallback`](registerposttrackcallback.md) variável. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+>[!IMPORTANT] Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável [`registerPostTrackCallback`](registerposttrackcallback.md). As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPreTrackCallback`, você faz com que essa função seja executada sempre que um URL de solicitação de imagem for compilado. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-É possível incluir argumentos adicionais na `s.registerPreTrackCallback` função, que podem ser usados na função aninhada:
+É possível incluir argumentos adicionais na função `s.registerPreTrackCallback`, que podem ser usados na função aninhada:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] Definir variáveis de página ou alterar a string `requestUrl` dentro dessa função **não** afeta a solicitação de imagem enviada logo após essa chamada de função. Em vez disso, use a [`doPlugins()`](doplugins.md) variável.
+>[!NOTE] Definir variáveis de página ou alterar a string `requestUrl` dentro dessa função **não** afeta a solicitação de imagem enviada logo após essa chamada de função. Em vez disso, use a variável [`doPlugins()`](doplugins.md).
