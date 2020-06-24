@@ -3,9 +3,9 @@ description: Compartilhamento de projetos e funções de projeto no Workspace
 keywords: Analysis Workspace sharing
 title: Compartilhar projetos da Workspace
 translation-type: tm+mt
-source-git-commit: 324460b89adf55c450d68bdb4fdc884e53f86257
+source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1050'
 ht-degree: 6%
 
 ---
@@ -28,13 +28,13 @@ O compartilhamento disponibiliza um projeto para outros usuários do Analysis Wo
 >[!IMPORTANT]
 > Os recipient do projeto adicionados antes de 18 de junho de 2020 foram migrados para uma função do projeto. Usuários administradores migraram para a função **[!UICONTROL Pode editar]** e usuários não administradores migraram para a função **[!UICONTROL Pode duplicado]** . Essas funções fornecem a mesma experiência de projeto que tinham anteriormente. Além disso, todos os grupos (incluindo &quot;Todos&quot;) migraram para a função **[!UICONTROL Can duplicado]** .
 
-### Nenhuma função atribuída
+### Nenhuma função atribuída (recipient de link do projeto)
 
-Se uma função não for atribuída a um recipient e ele receber um link para o projeto (**[!UICONTROL Compartilhar]>[!UICONTROL Obter link]** do projeto), ele será colocado na função **[!UICONTROL Pode visualização]** por padrão.
+Se uma função não for atribuída a um recipient e ele receber um link para o projeto (**[!UICONTROL Compartilhar]>[!UICONTROL Obter link]** do projeto), ele será colocado na função **[!UICONTROL Pode duplicado]** por padrão.
 
 ### Várias funções atribuídas
 
-Se um recipient for colocado em várias funções, ele sempre terá a maior experiência. Isso pode ocorrer se um usuário for adicionado como um indivíduo e como parte de um grupo. Por exemplo, se um usuário receber a função **[!UICONTROL Pode editar]** como um indivíduo e a função **[!UICONTROL Pode visualização]** como membro de um grupo, ele receberá uma experiência **[!UICONTROL Pode editar]** o projeto.
+Se um recipient for colocado em várias funções, ele sempre terá a maior experiência. Isso pode ocorrer se um recipient for adicionado como um indivíduo e como parte de um grupo. Por exemplo, se um recipient receber a função **[!UICONTROL Pode editar]** como um indivíduo e a função **[!UICONTROL Pode visualização]** como membro de um grupo, ele receberá uma experiência **[!UICONTROL Pode editar]** o projeto.
 
 ### Administradores e funções
 
@@ -46,7 +46,7 @@ Para adicionar recipient ao seu projeto compartilhado:
 
 1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar projeto]**.
 Se houver alterações não salvas, você será solicitado a salvar seu projeto primeiro.
-1. Adicionar recipient ou grupos de usuários.
+1. Adicione recipient ou grupos de recipient.
 Consulte o ícone de ajuda na parte superior para obter descrições de cada função.
 1. (Opcional) Compartilhe componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de datas) com todos os recipient.
 Depois de compartilhados, esses componentes aparecerão na lista suspensa Componentes da Workspace do recipient. Observe que essa configuração não persiste - é uma ação singular no momento do compartilhamento.
@@ -64,19 +64,27 @@ Todos os usuários podem compartilhar projetos em grupos, que são uma coleção
 * Os administradores podem compartilhar com qualquer grupo, incluindo &quot;Todos&quot;.
 * Os não administradores podem compartilhar com grupos dos quais são membros, com exceção de &quot;Todos&quot;.
 
+## Share a project link {#Links}
+
+Você pode obter um link para um projeto em **[!UICONTROL Compartilhar]>[!UICONTROL Obter link]** do projeto. Quando clicados, os recipient serão solicitados a fazer logon antes de aterrissar no projeto. Se o recipient não tiver sido colocado em uma função de projeto, ele receberá uma experiência de projeto **[!UICONTROL Can duplicado]** por padrão.
+
+Os projetos também podem ser compartilhados de **[!UICONTROL Componentes]>[!UICONTROL Projetos]**. Um único projeto pode ser compartilhado seguindo as mesmas etapas acima
+
 ## Compartilhar projetos no Gerenciador de projetos {#Manager}
 
-Os projetos também podem ser compartilhados de **[!UICONTROL Componentes]>[!UICONTROL Projetos]**. Um único projeto pode ser compartilhado seguindo as mesmas etapas acima.
+Os projetos também podem ser compartilhados de **[!UICONTROL Componentes]>[!UICONTROL Projetos]**. Um único projeto pode ser compartilhado seguindo as mesmas etapas acima.  Se vários projetos forem selecionados para compartilhamento, os recipient serão adicionados à lista existente de recipient para cada projeto.
 
-Se vários projetos forem selecionados para compartilhamento, os recipient serão adicionados à lista existente de recipient para cada projeto. Por exemplo:
+Por exemplo:
 
-* O projeto A é compartilhado com os usuários 1, 2, 3
-* O projeto B é compartilhado com o usuário 4, 5, 6
-* Com os projetos A e B selecionados, os usuários 4 e 7 são adicionados às listas do recipient. A nova lista de recipient para cada projeto agora é:
-   * Projeto A: 1, 2, 3, 4, 7
-   * Projeto B: 4, 5, 6, 7
+* O projeto A é compartilhado com os recipient 1, 2, 3
+* O projeto B é compartilhado com os recipient 4, 5, 6
 
-   ![](assets/mult-proj-sharing.png)
+Com os projetos A e B selecionados, os recipient 4 e 7 são adicionados às listas de compartilhamento. A nova lista de compartilhamento para cada projeto agora é:
+
+* Projeto A: 1, 2, 3, 4, 7
+* Projeto B: 4, 5, 6, 7
+
+![](assets/mult-proj-sharing.png)
 
 ## Perguntas frequentes {#FAQs}
 
@@ -84,5 +92,5 @@ Se vários projetos forem selecionados para compartilhamento, os recipient serã
 |---|---|
 | O que acontece se dois editores salvam um projeto ao mesmo tempo? | As alterações não são mescladas e a última versão do projeto salva será mantida. Atualmente, o Analysis Workspace não oferece suporte à colaboração em tempo real. |
 | Como administrador, que experiência de projeto irei ver? | Os administradores colocados em uma função **[!UICONTROL Can duplicado]** ou **[!UICONTROL Can visualização]** receberão essas experiências limitadas quando abrirem um projeto. Se desejar, um Administrador pode aumentar sua função para **[!UICONTROL Pode editar]** a qualquer momento por meio de **[!UICONTROL Componentes]>[!UICONTROL Projetos]**. |
-| O que acontece se um usuário for colocado em uma função como indivíduo e outra como membro de um grupo? | Se um recipient for colocado em várias funções, ele sempre receberá a experiência mais alta. Por exemplo, se um usuário receber a função **[!UICONTROL Pode editar]** como um indivíduo e a função **[!UICONTROL Pode visualização]** como membro de um grupo, ele receberá uma experiência **[!UICONTROL Pode editar]** o projeto. |
-| Por que um usuário recebe uma experiência somente de Visualização quando recebe um link de projeto? | Se uma função não for atribuída a um recipient e ele receber um link para o projeto (**[!UICONTROL Compartilhar]>[!UICONTROL Obter link]** do projeto), ele será colocado na função **[!UICONTROL Pode visualização]** por padrão. Se o usuário desejar um aumento na função do projeto, o proprietário ou editor do projeto poderá adicioná-los ao duplicado Can ou Pode editar a função por meio do modal de compartilhamento do projeto. |
+| O que acontece se um recipient é colocado em uma função como indivíduo e outra como membro de um grupo? | Se um recipient for colocado em várias funções, ele sempre receberá a experiência mais alta. Por exemplo, se um recipient receber a função **[!UICONTROL Pode editar]** como um indivíduo e a função **[!UICONTROL Pode visualização]** como membro de um grupo, ele receberá uma experiência **[!UICONTROL Pode editar]** o projeto. |
+| Que experiência um recipient obtém se abrir um link de projeto? | Se uma função não for atribuída a um recipient e ele receber um link para o projeto (**[!UICONTROL Compartilhar]>[!UICONTROL Obter link]** do projeto), ele será colocado na função **[!UICONTROL Pode duplicado]** por padrão. |
