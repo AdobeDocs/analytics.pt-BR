@@ -1,8 +1,11 @@
 ---
 title: hier
 description: Implementar variáveis de hierarquia no Adobe Analytics.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 As variáveis de hierarquia são variáveis personalizadas que permitem visualizar a estrutura de um site.
 
->[!TIP] Essa variável era mais comum em versões anteriores do Adobe Analytics. A Adobe recomenda usar [eVars](evar.md) e classificações.
+>[!TIP]
+>
+>Essa variável era mais comum em versões anteriores do Adobe Analytics. A Adobe recomenda usar [eVars](evar.md) e classificações.
 
 Essa variável é útil para sites com mais de três níveis na estrutura do site. Por exemplo, um site de mídia pode ter quatro níveis para a seção de Esportes: `Sports`, `Local Sports`, `Baseball` e `Team name`. Se alguém visitar a página Beisebol, as páginas Esportes, Esportes locais e Beisebol refletirão essa visita.
 
