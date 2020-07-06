@@ -3,7 +3,10 @@ description: 'null'
 title: Criador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ Acesse o Criador de alertas de uma das seguintes formas:
 * Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Em um relatório de Relatórios e análises, vá até **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]**.
+* Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
+* A partir de um relatório do Reports &amp; Analytics, acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
 
 ## Criar alertas
 
@@ -41,7 +44,9 @@ Especifique um nome para o alerta. O nome do alerta pode conter o nome do relat�
 
 Especifique quando você deseja verificar a métrica: por hora, dia, semana ou mês.
 
->[!NOTE] Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
+>[!NOTE]
+>
+>Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
 
 **Destinatários**
 
@@ -75,6 +80,7 @@ Defina a data de expiração do alerta.
    * é igual ou menor que
    * alterações por
    * Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.
+
    Observe que você também pode usar as métricas calculadas.
 
 *... com esses filtros*
