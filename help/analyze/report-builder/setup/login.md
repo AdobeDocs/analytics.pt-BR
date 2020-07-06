@@ -3,8 +3,11 @@ description: Informações sobre as três formas de fazer logon no Report Builde
 title: Logon no Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ O logon da Experience Cloud permite o uso da Enterprise ID (email e senha) para 
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] O logon da Experience Cloud é baseado em sessões e o token expira após 30 dias.
+>[!NOTE]
+>
+>O logon da Experience Cloud é baseado em sessões e o token expira após 30 dias.
 
