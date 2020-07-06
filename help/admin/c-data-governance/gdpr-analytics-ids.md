@@ -2,15 +2,20 @@
 description: 'null'
 title: Práticas recomendadas de rotulagem
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2689'
+ht-degree: 100%
 
 ---
 
 
 # Práticas recomendadas de rotulagem
 
->[!NOTE] Lembre-se de que a Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+>[!NOTE]
+>
+>Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## IDs direta ou indiretamente identificáveis {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -66,7 +71,9 @@ Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar soli
 
 ## Práticas recomendadas para definir rótulos de exclusão {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Props sempre diferenciam maiúsculas de minúsculas. As eVars não diferenciam maiúsculas de minúsculas por padrão, mas podem ser configuradas pelo Atendimento ao cliente da Adobe para fazer essa diferenciação. Se você tiver uma eVar que diferencie maiúsculas e minúsculas e que contenha uma ID, é sua responsabilidade usar a capitalização adequada ao enviar uma solicitação de Privacidade de dados, de modo que a letra usada na solicitação corresponda à letra usada nas ocorrências que contêm essas IDs.
+>[!NOTE]
+>
+>Props sempre diferenciam maiúsculas de minúsculas. As eVars não diferenciam maiúsculas de minúsculas por padrão, mas podem ser configuradas pelo Atendimento ao cliente da Adobe para fazer essa diferenciação. Se você tiver uma eVar que diferencie maiúsculas e minúsculas e que contenha uma ID, é sua responsabilidade usar a capitalização adequada ao enviar uma solicitação de Privacidade de dados, de modo que a letra usada na solicitação corresponda à letra usada nas ocorrências que contêm essas IDs.
 
 Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderação. Quando aplicada a uma variável que não contém uma ID usada como parte da solicitação de Privacidade de dados, as contagens (métricas) nos relatórios históricos do Analytics quase sempre serão alteradas.
 
