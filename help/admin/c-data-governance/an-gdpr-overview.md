@@ -2,8 +2,11 @@
 description: Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer suporte aos direitos de acesso e de exclusão do GDPR para titulares de dados.
 title: Adobe Analytics e o GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer
 
 ## Visão geral da Adobe {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT] O conteúdo deste documento não é um aconselhamento jurídico e não se destina a substituir tal aconselhamento. Consulte o departamento jurídico da sua empresa para obter aconselhamento a respeito do GDPR.
+>[!IMPORTANT]
+>
+>O conteúdo deste documento não é um aconselhamento jurídico e não se destina a substituir tal aconselhamento. Consulte o departamento jurídico da sua empresa para obter aconselhamento a respeito do GDPR.
 
 Em 25 de maio de 2018, o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia entrou em vigor. Para obter mais informações sobre a resposta da Adobe e o que isso significa para você como cliente da Adobe, consulte [GDPR e a sua empresa.](https://www.adobe.com/br/privacy/general-data-protection-regulation.html)
 
