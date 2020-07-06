@@ -1,8 +1,11 @@
 ---
 title: Variáveis dinâmicas
 description: Copie variáveis sem aumentar a duração da solicitação de imagem.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ As variáveis dinâmicas suportam strings de consulta como parâmetro ou cabeça
 
 Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automaticamente a string de consulta ou o valor do cabeçalho HTTP no conjunto de relatórios. Essa ação ocorre antes de qualquer outro processamento, incluindo regras de processamento e regras VISTA.
 
->[!TIP] Considere os limites máximos de caracteres ao copiar variáveis. Por exemplo, se copiar `eVar1` para `prop1`, `prop1` pode ter um valor truncado, pois tem um limite de 100 bytes (enquanto `eVar1` tem um limite de 255 bytes).
+>[!TIP]
+>
+>Considere os limites máximos de caracteres ao copiar variáveis. Por exemplo, se copiar `eVar1` para `prop1`, `prop1` pode ter um valor truncado, pois tem um limite de 100 bytes (enquanto `eVar1` tem um limite de 255 bytes).
 
 ## Variáveis dinâmicas no Adobe Experience Platform Launch
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] As variáveis dinâmicas aparecem como strings ao depurar sua implementação. No lado do servidor, os valores são copiados pelos servidores de coleta de dados da Adobe.
+>[!NOTE]
+>
+>As variáveis dinâmicas aparecem como strings ao depurar sua implementação. No lado do servidor, os valores são copiados pelos servidores de coleta de dados da Adobe.
