@@ -3,7 +3,10 @@ description: A implantação dessa integração é um processo simples que reque
 title: Implantar a integração
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +74,9 @@ Para ativar a integração, você deve concluir o assistente de configuração n
 
 Após concluir o assistente de integração, você deverá implantar o código de integração no código de implantação do Adobe Analytics (s_code).
 
->[!NOTE] Se você usou o Adobe TagManager ou o Dynamic Tag Management para implantar o Adobe Analytics, é possível adicionar facilmente o código de integração usando uma dessas ferramentas.
+>[!NOTE]
+>
+>Se você usou o Adobe TagManager ou o Dynamic Tag Management para implantar o Adobe Analytics, é possível adicionar facilmente o código de integração usando uma dessas ferramentas.
 
 1. Acesse a guia **[!UICONTROL Suporte]** e baixe e salve o recurso `integration code v2_0_1` da área Recursos da integração.
 
@@ -199,7 +204,9 @@ Consulte os relatórios do Demandbase no Adobe Analytics usando o Painel que foi
 
 Como alternativa, navegue até o relatório do Demandbase na estrutura de menu do Adobe Analytics - consulte as capturas de tela abaixo.
 
->[!NOTE] Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
+>[!NOTE]
+>
+>Esses dados devem aparecer entre 24 e 48 horas após a implantação bem-sucedida.
 
 ![](assets/reporting1.png)
 
