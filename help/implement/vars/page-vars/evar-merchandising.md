@@ -2,7 +2,7 @@
 title: eVar (merchandising)
 description: Variáveis personalizadas que se vinculam a produtos individuais.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -12,13 +12,15 @@ ht-degree: 29%
 
 # eVar (merchandising)
 
-*Esta página de ajuda descreve como implementar eVars de comercialização. Para obter informações sobre como as eVars de comercialização funcionam como uma dimensão, consulte[eVars (Comercialização)](/help/components/dimensions/evar-merchandising.md)no guia do usuário Componentes.*
+*Esta página de ajuda descreve como implementar eVars de comercialização. For information on how merchandising eVars work as a dimension, see[eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md)in the Components user guide.*
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
 Antes de usar eVars na implementação, certifique-se de configurar a eVar para a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
->[!IMPORTANT] Falha ao configurar corretamente eVars de comercialização resulta em valores inesperados ou perda de dados para a variável. Verifique se ele está configurado corretamente para sua implementação.
+>[!IMPORTANT]
+>
+>Falha ao configurar corretamente eVars de comercialização resulta em valores inesperados ou perda de dados para a variável. Verifique se ele está configurado corretamente para sua implementação.
 
 ## Implementar usando a sintaxe do produto
 
