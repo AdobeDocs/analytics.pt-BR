@@ -1,8 +1,11 @@
 ---
 title: linkTrackEvents
 description: Determine quais eventos devem ser incluídos nas solicitações de imagem de rastreamento de link.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Essa variável não é usada para chamadas de exibição de página (método [`t
 
 O Launch detecta automaticamente os eventos definidos na interface e os inclui nas ocorrências de rastreamento de link.
 
->[!IMPORTANT] Se você definir eventos no Launch usando o editor de código personalizado, também deverá incluir o evento no `linkTrackEvents` uso do código personalizado.
+>[!IMPORTANT]
+>
+>Se você definir eventos no Launch usando o editor de código personalizado, também deverá incluir o evento no `linkTrackEvents` uso do código personalizado.
 
 ## s.linkTrackEvents no AppMeasurement e no editor de código personalizado do Launch
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 O valor padrão para essa variável é uma cadeia de caracteres vazia. Se essa variável não estiver definida, todos os eventos serão incluídos nas solicitações de imagem de rastreamento de link. Observe que o Launch preenche automaticamente essa variável com base nos eventos definidos na interface, de modo que seja sempre definido nas implementações usando o Launch.
 
->[!TIP] Evite usar o identificador de objeto do Analytics (`s.`) ao especificar eventos nessa variável. Por exemplo, `s.linkTrackEvents = "event1";` está correto, enquanto `s.linkTrackEvents = "s.event1";` está incorreto.
+>[!TIP]
+>
+>Evite usar o identificador de objeto do Analytics (`s.`) ao especificar eventos nessa variável. Por exemplo, `s.linkTrackEvents = "event1";` está correto, enquanto `s.linkTrackEvents = "s.event1";` está incorreto.
 
 ## Exemplo
 
