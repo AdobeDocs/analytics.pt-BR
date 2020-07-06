@@ -2,7 +2,7 @@
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 Esta página lista dimensões compatíveis com seus respectivos recursos do Analytics.
 
->[!NOTE] Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos desta lista. Esses valores de dimensão são específicos de conjuntos de relatórios individuais.
+>[!NOTE]
+>
+>Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos desta lista. Esses valores de dimensão são específicos de conjuntos de relatórios individuais.
 
->[!NOTE] Há algumas sobreposições nas quais as ferramentas do Analytics usam termos diferentes para dimensões semelhantes. Por exemplo, o Relatórios e análises usa `browserwidth` enquanto a área de trabalho de Análise usa `browserwidthbucketed`.
+>[!NOTE]
+>
+>Há algumas sobreposições nas quais as ferramentas Analytics usam termos diferentes para dimensões semelhantes. Por exemplo, Relatórios e Analytics usam `browserwidth` enquanto o Analysis Workspace usa `browserwidthbucketed`.
 
 ## Dimensões compatíveis com o Reports &amp; Analytics e a Analysis Workspace
 
@@ -71,8 +75,8 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Domínio de referência original | `referringdomainoriginal` |
 | Página | `page` |
 | Páginas não encontradas | `pagesnotfound` |
-| Product | `product` |
-| Referrer | `referrer` |
+| Produto | `product` |
+| Referenciador | `referrer` |
 | Tipo de referenciador | `referrertype` |
 | Domínio de referência | `referringdomain` |
 | Regiões | `georegion` |
@@ -110,7 +114,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Dias da semana | `dayofweek` |
 | Dias da semana | `timepartdayofweek` |
 | Dia do ano | `timepartdayofyear` |
-| Dias desde a última visita  | `dayssincelastvisit` |
+| Dias desde a última visita | `dayssincelastvisit` |
 | Entrada de Insights personalizados | `entryprops` |
 | Entrada de variáveis de lista | `entrylistvariables` |
 | Servidor de entrada | `entryserver` |
@@ -141,7 +145,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Suporte a cookie persistente | `persistentcookie` |
 | Trimestre | `daterangequarter` |
 | Trimestre do ano | `timepartquarterofyear` |
-| Pesquisa | `surveybase` |
+| Survey | `surveybase` |
 | Tempo gasto na página - No intervalo | `averagepagetime` |
 | Tempo gasto na página - Granular | `pagetimeseconds` |
 | Motivo da desativação do rastreamento | `optoutreason` |
