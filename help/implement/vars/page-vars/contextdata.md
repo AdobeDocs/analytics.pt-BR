@@ -1,8 +1,11 @@
 ---
 title: contextData
 description: As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## Use regras de processamento para preencher variáveis do Analytics
 
->[!IMPORTANT] As variáveis de dados de contexto são descartadas após a execução das regras de processamento. Se você não tiver ativadas regras de processamento que colocam valores em variáveis, esses dados serão perdidos permanentemente!
+>[!IMPORTANT]
+>
+>As variáveis de dados de contexto são descartadas após a execução das regras de processamento. Se você não tiver ativadas regras de processamento que colocam valores em variáveis, esses dados serão perdidos permanentemente!
 
 1. Atualize sua implementação para definir os valores e nomes das variáveis de dados de contexto.
 2. Faça logon no Adobe Analytics e vá para Admin > Conjuntos de relatórios.
