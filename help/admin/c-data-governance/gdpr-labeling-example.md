@@ -2,8 +2,11 @@
 description: 'null'
 title: Exemplo de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 | Rótulos | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome da variável**<br>**(Namespace)** | **MyProp1**<br>**(usuário)** | **ID de visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nome da variável **<br>**(Namespace)** | **MyProp1 **<br>**(usuário)** | **ID de visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | S |
 |  | Mary | 99 | C | O | Z |
@@ -65,7 +68,9 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Apenas células em linhas que contêm AAID = 77 e um rótulo DEL-DEVICE são afetadas.
+>[!NOTE]
+>
+>Apenas células em linhas que contêm AAID = 77 e um rótulo DEL-DEVICE são afetadas.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
+>[!NOTE]
+>
+>Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
