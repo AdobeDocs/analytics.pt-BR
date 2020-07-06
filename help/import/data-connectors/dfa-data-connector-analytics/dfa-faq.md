@@ -5,7 +5,10 @@ title: Perguntas frequentes
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Se você não tiver recebido o email de configuração e as métricas não estiv
 
 Por exemplo, suponhamos que há uma integração no conjunto de relatórios A com a ID de anunciante Z que recebe uma CSID. Se outra integração é configurada posteriormente no conjunto de relatórios B com a ID de anunciante Z, essa nova integração NÃO receberá a CSID novamente. Para isso, será necessário um ticket do Google. Por outro lado, se uma integração é configurada no conjunto de relatórios A com a ID de anunciante Z, e posteriormente outra integração é configurada no conjunto de relatórios A, a ID de anunciante Z é configurada. Somente a primeira integração receberá os dados da integração; no entanto, neste caso, a primeira integração poderá ser desativada, e os dados fluirão para a segunda integração.
 
->[!NOTE] As CSIDs não são usadas na versão 2.0 da integração, portanto o processo de negociação da CSID não se aplica.
+>[!NOTE]
+>
+>As CSIDs não são usadas na versão 2.0 da integração, portanto o processo de negociação da CSID não se aplica.
 
 ## Estou usando a versão 2.0 da integração, e as métricas de custo não estão aparecendo para meus anúncios do DFA. O que pode estar acontecendo? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
