@@ -1,8 +1,11 @@
 ---
 title: linkType
 description: Use a variável linkType para determinar a dimensão de rastreamento de link à qual a ocorrência pertence.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,9 @@ A variável `s.linkType` é uma string que aceita um de três valores com um car
 * `d` - Links de download
 * `e` - Links de saída
 
->[!TIP] Essa variável é o segundo parâmetro do método `tl()` e geralmente não precisa ser definida como uma variável independente. No entanto, você pode usar a variável `linkType` se não quiser definir valores como argumentos no método `tl()`.
+>[!TIP]
+>
+>Essa variável é o segundo parâmetro do método `tl()` e geralmente não precisa ser definida como uma variável independente. No entanto, você pode usar a variável `linkType` se não quiser definir valores como argumentos no método `tl()`.
 
 ```js
 s.linkType = "e";
