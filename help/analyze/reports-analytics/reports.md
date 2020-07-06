@@ -1,8 +1,8 @@
 ---
 title: Relatórios
-description: As dimensões e métricas usadas pelo Relatórios e análises para cada relatório.
+description: As dimensões e métricas que o Relatórios e Analytics usa para cada relatório.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Relatórios
 
-Cada relatório no Relatórios e análises usa uma dimensão dedicada e uma métrica padrão. Você pode alterar a métrica em cada relatório e adicionar detalhamentos, se desejar. As listas a seguir fornecem qual dimensão é usada em cada relatório.
+Cada relatório no Relatórios e Analytics usa uma dimensão dedicada e uma métrica padrão. Você pode alterar a métrica em cada relatório e adicionar detalhamentos, se desejar. As listas a seguir fornecem qual dimensão é usada em cada relatório.
 
-> [!NOTE] O menu de relatórios pode parecer diferente dependendo das personalizações feitas por um administrador em sua organização. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>O menu de relatórios pode parecer diferente dependendo das personalizações feitas por um administrador em sua organização. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
-## Métricas de site 
+## Métricas de site
 
 Contém relatórios que geralmente tendem usando um intervalo de datas. Também contém relatórios exclusivos, como Relatórios recomendados e Relatórios em tempo real.
 
@@ -35,7 +37,7 @@ Contém relatórios que geralmente tendem usando um intervalo de datas. Também 
 * Tempo gasto por visita: Usa a dimensão [Tempo gasto por visita - segmentado](/help/components/dimensions/time-spent-per-visit.md) .
 * Tempo antes do evento: Usa o [Tempo antes da dimensão do evento](/help/components/dimensions/time-prior-to-event.md) .
 * Compras: Contém relatórios sobre métricas baseadas em compras.
-   * Funil de conversão de compra: Relatório de [visitas](/help/components/metrics/visits.md), [carrinhos](/help/components/metrics/carts.md), [pedidos](/help/components/metrics/orders.md), [receita](/help/components/metrics/revenue.md)e [unidades](/help/components/metrics/units.md) em um relatório de funil. Uma visualização semelhante é obtida na área de trabalho da Análise usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * Funil de conversão de compra: Relatório de [visitas](/help/components/metrics/visits.md), [carrinhos](/help/components/metrics/carts.md), [pedidos](/help/components/metrics/orders.md), [receita](/help/components/metrics/revenue.md)e [unidades](/help/components/metrics/units.md) em um relatório de funil. Uma visualização semelhante é obtida no Analysis Workspace usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
    * Receita: Executa a tendência da métrica [Receita](/help/components/metrics/revenue.md) ao longo do tempo.
    * Pedidos: Executa a tendência de [Pedidos](/help/components/metrics/orders.md) de métrica ao longo do tempo.
    * Unidades: Executa a tendência das [Unidades](/help/components/metrics/units.md) métricas ao longo do tempo.
@@ -86,13 +88,13 @@ Contém relatórios sobre relatórios móveis herdados. Esses relatórios baseia
 
 Contém relatórios que permitem visualizar os dados de definição de caminho para visitantes.
 
-* Fluxo da próxima página: Usa um relatório de fluxo no valor da dimensão da página superior. visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o valor da dimensão reportada. Um relatório semelhante na área de trabalho da Análise está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
+* Fluxo da próxima página: Usa um relatório de fluxo no valor da dimensão da página superior. visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o valor da dimensão reportada. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
 * Próxima página: Pega o valor da dimensão da página superior e mostra as páginas seguintes para as quais os visitantes foram.
-* Fluxo de página anterior: Usa um relatório de fluxo no valor da dimensão da página superior Um relatório semelhante na área de trabalho de Análise está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
+* Fluxo de página anterior: Usa um relatório de fluxo no valor de dimensão da página superior Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
 * Página anterior: Pega o valor da dimensão da página superior e mostra de onde vieram os visitantes de páginas anteriores.
-* Fallout: Permite selecionar valores de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante na área de trabalho da Análise está disponível usando uma visualização [de Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Caminhos completos: Mostra caminhos individuais como valores de dimensão. Aposentado na área de trabalho da Análise; use a visualização [](../analysis-workspace/visualizations/c-flow/flow.md) de Fluxo.
-* PathFinder: Fornece vários tipos de relatórios que permitem analisar caminhos (desativados na área de trabalho da Análise).
+* Fallout: Permite selecionar valores de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Caminhos completos: Mostra caminhos individuais como valores de dimensão. Aposentado em Analysis Workspace; use a visualização [](../analysis-workspace/visualizations/c-flow/flow.md) de Fluxo.
+* PathFinder: Fornece vários tipos de relatórios que permitem analisar caminhos (desativados no Analysis Workspace).
 * Comprimento do caminho: Usa a dimensão de profundidade [da](/help/components/dimensions/visit-depth.md) Visita.
 * Análise de página
    * Resumo da página: Obtém o valor da dimensão da página superior e mostra uma visualização com tendência. Também mostra pontos de entrada, páginas anteriores, pontos de saída e próximas páginas para o valor da dimensão da página superior.
@@ -105,7 +107,9 @@ Contém relatórios que permitem visualizar os dados de definição de caminho p
    * Visitas únicas à página: Usa a dimensão [Página](/help/components/dimensions/page.md) com o segmento &quot;Visitas únicas à página&quot; fornecido pela Adobe aplicado.
    * Páginas de saída: Usa a dimensão [Sair das páginas](/help/components/dimensions/exit-dimensions.md) .
 
-> [!NOTE] Outros relatórios podem aparecer nesta pasta. São outras dimensões, como props, nas quais a definição de [caminho está ativada](../../admin/admin/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
+>[!NOTE]
+>
+>Outros relatórios podem aparecer nesta pasta. São outras dimensões, como props, nas quais a definição de [caminho está ativada](../../admin/admin/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 
 ## Fontes de tráfego
 
@@ -127,16 +131,16 @@ Contém um relatório que fornece informações de onde os visitantes vieram ant
 
 Contém relatórios principalmente sobre a dimensão do código [de](/help/components/dimensions/tracking-code.md) rastreamento.
 
-* Funil de conversão de Campanha: Relatórios de click-throughs, [Check-outs](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md)e [Receita](/help/components/metrics/revenue.md) em um relatório de funil. A métrica click-throughs é semelhante à métrica [Instâncias](/help/components/metrics/instances.md) no contexto da dimensão do código [de](/help/components/dimensions/tracking-code.md) rastreamento. Uma visualização semelhante é obtida na área de trabalho da Análise usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Funil de conversão de Campanha: Relatórios de click-throughs, [Check-outs](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md)e [Receita](/help/components/metrics/revenue.md) em um relatório de funil. A métrica click-throughs é semelhante à métrica [Instâncias](/help/components/metrics/instances.md) no contexto da dimensão do código [de](/help/components/dimensions/tracking-code.md) rastreamento. Uma visualização semelhante é obtida no Analysis Workspace usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Código de rastreamento: Usa a dimensão do código [de](/help/components/dimensions/tracking-code.md) rastreamento.
 
 ## Produtos
 
 Contém relatórios principalmente em torno da dimensão [Produto](/help/components/dimensions/product.md) .
 
-* Funil de conversão de produtos: Relatórios de visualizações [de](/help/components/metrics/product-views.md)produtos, adições [ao](/help/components/metrics/cart-additions.md)carrinho, [Check-outs](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md), [Unidades](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e Receita, em um relatório de funil. Uma visualização semelhante é obtida na área de trabalho da Análise usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Funil de conversão de produtos: Relatórios de visualizações [de](/help/components/metrics/product-views.md)produtos, adições [ao](/help/components/metrics/cart-additions.md)carrinho, [Check-outs](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md), [Unidades](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e Receita, em um relatório de funil. Uma visualização semelhante é obtida no Analysis Workspace usando a visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Produtos: Usa a dimensão [Produtos](/help/components/dimensions/product.md) .
-* Venda cruzada: Mostra produtos comumente vendidos juntos (desativados na área de trabalho da Análise).
+* Venda cruzada: Mostra produtos comumente vendidos juntos (aposentados em Analysis Workspace).
 * Categorias: Usa a dimensão de [Categoria](/help/components/dimensions/category.md) .
 
 ## Retenção de visitante
@@ -167,9 +171,9 @@ Contém relatórios sobre quem visita seu site.
    * Estados dos EUA: Usa a dimensão de estados [dos](/help/components/dimensions/us-states.md) EUA.
    * DMA EUA: Usa a dimensão [US DMA](/help/components/dimensions/us-dma.md) .
 * Idiomas: Usa a dimensão [Idioma](/help/components/dimensions/language.md) .
-* Fusos horários: Usa a dimensão de fuso horário (desativada na área de trabalho da Análise). Os valores de dimensão são o deslocamento GMT da ocorrência.
+* Fusos horários: Usa a dimensão de fuso horário (retirado no Analysis Workspace). Os valores de dimensão são o deslocamento GMT da ocorrência.
 * Domínio: Usa a dimensão [Domínio](/help/components/dimensions/domain.md) .
-* Domínio de nível superior: Usa a dimensão de domínio de nível superior (removida na área de trabalho de Análise). Ela agrupa a dimensão de [domínios](/help/components/dimensions/domain.md) em categorias de nível superior, normalmente por país do domínio.
+* Domínio de nível superior: Usa a dimensão de domínio de nível superior (removida no Analysis Workspace). Ela agrupa a dimensão de [domínios](/help/components/dimensions/domain.md) em categorias de nível superior, normalmente por país do domínio.
 * Tecnologia: Pasta que contém relatórios sobre o que o visitante usou para acessar seu site.
    * Navegadores: Usa a dimensão [Navegadores](/help/components/dimensions/browser.md) .
    * Tipo de navegador: Usa a dimensão do tipo [](/help/components/dimensions/browser-type.md) Navegador.
@@ -180,12 +184,12 @@ Contém relatórios sobre quem visita seu site.
    * Intensidade de cor do monitor: Usa a dimensão de profundidade [de](/help/components/dimensions/color-depth.md) cor.
    * Resolução do monitor: Usa a dimensão de resolução [do](/help/components/dimensions/monitor-resolution.md) Monitor.
    * Java: Usa a dimensão habilitada [para](/help/components/dimensions/java-enabled.md) Java.
-   * JavaScript: Usa a dimensão habilitada para JavaScript (removida na área de trabalho da Análise). Os valores de dimensão são &#39;Enabled&#39;, &#39;Disabled&#39; ou &#39;Unknown&#39;, dependendo se o navegador tiver o JavaScript ativado.
-   * Versão do JavaScript: usa a dimensão da versão do JavaScript (desativada na área de trabalho da Análise). Os valores de dimensão mostram a versão do JavaScript que o navegador usa.
+   * JavaScript: Usa a dimensão habilitada para JavaScript (removida no Analysis Workspace). Os valores de dimensão são &#39;Enabled&#39;, &#39;Disabled&#39; ou &#39;Unknown&#39;, dependendo se o navegador tiver o JavaScript ativado.
+   * Versão do JavaScript: usa a dimensão da versão do JavaScript (desativada no Analysis Workspace). Os valores de dimensão mostram a versão do JavaScript que o navegador usa.
    * Cookies: Usa a dimensão de suporte [a](/help/components/dimensions/cookie-support.md) cookies.
    * Tipos de conexão: Usa a dimensão Tipo [de](/help/components/dimensions/connection-type.md) conexão.
    * Operadora de celular: Usa a dimensão Operadora [](/help/components/dimensions/mobile-dimensions.md) móvel.
-* Estado do Visitante: Usa a dimensão Estado (desativada na área de trabalho da Análise). Os valores de dimensão são originários da [`state`](../../implement/vars/page-vars/state.md) variável.
+* Estado do Visitante: Usa a dimensão Estado (desativada no Analysis Workspace). Os valores de dimensão são originários da [`state`](../../implement/vars/page-vars/state.md) variável.
 * CEP/código postal do Visitante: Usa a dimensão [CEP](/help/components/dimensions/zip-code.md) .
 
 ## Conversão personalizada
@@ -200,7 +204,7 @@ Contém relatórios específicos para sua implementação. Os relatórios de tr�
 
 Contém relatórios que envolvem canais [de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Relatório de visão geral do Canal: Um relatório personalizado específico para Relatórios e análises. Usa canais de marketing como valores de dimensão, com métricas que usam atribuição de primeiro ou último toque.
+* Relatório de visão geral do Canal: Um relatório personalizado específico para Relatórios e Analytics. Usa canais de marketing como valores de dimensão, com métricas que usam atribuição de primeiro ou último toque.
 * canal de primeiro toque: Usa a dimensão canal [de](/help/components/dimensions/first-touch-channel.md) primeiro toque.
 * Detalhes do canal de primeiro toque: Usa a dimensão de detalhes [do canal de](/help/components/dimensions/first-touch-detail.md) primeiro toque.
 * canal de último toque: Usa a dimensão canal [](/help/components/dimensions/last-touch-channel.md) de último toque.
@@ -208,14 +212,16 @@ Contém relatórios que envolvem canais [de marketing](/help/components/c-market
 
 ## Marcadores
 
-Contém relatórios que você marcou. Consulte [Marcadores](bookmarks.md) para obter mais informações.
+Contém relatórios que você marcou. See [Bookmarks](bookmarks.md) for more information.
 
 ## Painéis
 
-Contém painéis que você criou. Consulte [Painéis](dashboard.md) para obter mais informações.
+Contém painéis que você criou. See [Dashboards](dashboard.md) for more information.
 
 ## Metas
 
-Contém públicos alvos que você criou. Consulte [Públicos alvos](targets.md) para obter mais informações.
+Contém públicos alvos que você criou. See [Targets](targets.md) for more information.
 
-> [!NOTE] Se você não conseguir encontrar seu relatório nesta página de ajuda, é possível que o administrador tenha renomeado ou ajustado as pastas. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>Se você não conseguir encontrar seu relatório nesta página de ajuda, é possível que o administrador tenha renomeado ou ajustado as pastas. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
