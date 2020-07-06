@@ -3,7 +3,10 @@ description: No calendário, você pode especificar datas e intervalos de datas 
 title: Datas e intervalos de datas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Ao selecionar um intervalo de datas durante a criação de um projeto, usar a op
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Se precisar de ajuda para executar relatórios herdados, entre em contato com o Gerente de contas.
+>[!NOTE]
+>
+>Se precisar de ajuda para executar relatórios herdados, entre em contato com o Gerente de contas.
 
 ## Frações de data herdadas {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Criar](/help/analyze/ad-hoc-analysis/c-getting-started.md) ou abrir um projeto.
 1. Abra o [calendário](/help/analyze/ad-hoc-analysis/c-dates.md) e selecione **[!UICONTROL Trimestral]** ou **[!UICONTROL Anual]**.
 
->[!NOTE] As frações de datas históricas permanecem restritas a trimestral ou anual. Não é possível visualizar dados que ultrapassam os limites entre as frações herdadas e a nova plataforma de processamento. As variações de datas podem deixar os dois resultados com erro. Além disso, as variações de data são aplicáveis apenas ao calendário Gregoriano e não ao calendário personalizado.
+>[!NOTE]
+>
+>As frações de datas históricas permanecem restritas a trimestral ou anual. Não é possível visualizar dados que ultrapassam os limites entre as frações herdadas e a nova plataforma de processamento. As variações de datas podem deixar os dois resultados com erro. Além disso, as variações de data são aplicáveis apenas ao calendário Gregoriano e não ao calendário personalizado.
 
