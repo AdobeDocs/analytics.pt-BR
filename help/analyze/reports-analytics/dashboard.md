@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: Painéis e reportlets
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel
 * Relatórios em Tempo real
 * Outros painéis
 
->[!NOTE] O painel **[!UICONTROL Visão geral do site]** não é mais listado em Reports &amp; Analytics. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
+>[!NOTE]
+>
+>O painel **[!UICONTROL Visão geral do site]** não é mais listado em Reports &amp; Analytics. Entretanto, ainda existem algumas circunstâncias nas quais você observará alguns ou todos os reportlets.
 
 * Por exemplo, se você tem apenas três relatórios exibidos frequentemente, os Reports &amp; Analytics utilizam dois relatórios do painel de Visão geral do site para preencher o painel **[!UICONTROL Meus relatórios recomendados]**.
 * Inicialmente, os novos conjuntos de relatórios ainda contarão com os reportlets de Visão geral do site até serem substituídos pelos relatórios exibidos frequentemente. Mesmo assim, o painel será chamado de **[!UICONTROL Meus relatórios recomendados]**.
