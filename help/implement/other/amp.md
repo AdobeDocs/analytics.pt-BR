@@ -2,7 +2,10 @@
 title: Implementação com AMP
 description: Implementar o Adobe Analytics em páginas AMP.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ A tabela a seguir compara estes dois métodos:
 
 Considere os prós e os contras na organização para determinar qual método deseja usar. Consulte [exemplos de AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) no repositório GitHub da Adobe para obter o código de amostra.
 
->[!WARNING] Não use os modelos `"adobeanalytics"` e `"adobeanalytics_nativeConfig"` na mesma página que usa o AMP. Se tentar fazer isso, poderá gerar erros no console do navegador, além de contar os visitantes duas vezes.
+>[!WARNING]
+>
+>Não use os modelos `"adobeanalytics"` e `"adobeanalytics_nativeConfig"` na mesma página que usa o AMP. Se tentar fazer isso, poderá gerar erros no console do navegador, além de contar os visitantes duas vezes.
 
 ## Método 1: usar a tag amp-analytics com o modelo &quot;adobeanalytics&quot;
 
@@ -77,11 +82,15 @@ No acionador `click`, você pode especificar um seletor para garantir que, ao cl
 
 Além disso, o `amp-analytics` suporta uma quantidade de substituições para as variáveis, para que o AMP possa fornecer valores de dados conhecidos. Consulte [variáveis compatíveis com amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) no GitHub para obter mais informações.
 
->[!NOTE] As solicitações de imagem enviadas à Adobe usando esse método não incluem dados para muitos relatórios padrão (por exemplo, navegador, tamanho de tela ou referenciador). Se desejar incluir essas informações nas ocorrências, verifique se elas foram incluídas como parte da cadeia de caracteres de consulta da solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../validate/query-parameters.md) para obter mais informações.
+>[!NOTE]
+>
+>As solicitações de imagem enviadas à Adobe usando esse método não incluem dados para muitos relatórios padrão (por exemplo, navegador, tamanho de tela ou referenciador). Se desejar incluir essas informações nas ocorrências, verifique se elas foram incluídas como parte da cadeia de caracteres de consulta da solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../validate/query-parameters.md) para obter mais informações.
 
 A Adobe identifica visitantes usando uma função AMP integrada e define o cookie `adobe_amp_id`. Essa ID de visitante é exclusiva de qualquer outra ID definida pelo Adobe Analytics (por exemplo, o cookie `s_vi`). O serviço da Adobe Experience Cloud ID não é compatível com esse método de implementação.
 
->[!NOTE] O AMP usa CDNs para fornecer conteúdo. Ele é estruturado para contar um visitante único diferente para cada CDN do qual um visitante recupera o conteúdo, o que pode aumentar a contagem de visitantes únicos.
+>[!NOTE]
+>
+>O AMP usa CDNs para fornecer conteúdo. Ele é estruturado para contar um visitante único diferente para cada CDN do qual um visitante recupera o conteúdo, o que pode aumentar a contagem de visitantes únicos.
 
 Recomendamos o uso de um conjunto de relatórios separado para páginas AMP é por causa da forma de como o AMP identifica visitantes únicos.
 
@@ -147,7 +156,9 @@ Essa abordagem envia dados a uma página da Web de utilitário por meio de parâ
 
 O modelo `"adobeanalytics_nativeConfig"` também adiciona parâmetros da cadeia de caracteres de consulta com base nas variáveis listadas na seção `extraUrlParams` da tag amp-analytics. No exemplo acima, os parâmetros `pageName` e `v1` são incluídos.
 
->[!IMPORTANT] Sua página `stats.html` deve ser hospedada em um subdomínio separado do domínio em que o AMP está hospedado. A estrutura da AMP não permite iframes do mesmo subdomínio no qual a AMP está. Por exemplo, se o AMP estiver hospedado no `amp.example.com`, hospede a página `stats.html` em um subdomínio separado, como o `ampmetrics.example.com`.
+>[!IMPORTANT]
+>
+>Sua página `stats.html` deve ser hospedada em um subdomínio separado do domínio em que o AMP está hospedado. A estrutura da AMP não permite iframes do mesmo subdomínio no qual a AMP está. Por exemplo, se o AMP estiver hospedado no `amp.example.com`, hospede a página `stats.html` em um subdomínio separado, como o `ampmetrics.example.com`.
 
 Usando esse método, se um usuário final optar por não ser rastreado no site primário, ele também deixará de ser rastreado em todos os AMPs sem etapas adicionais. Usar essa página de utilitários também significa que o AMP pode ser compatível com o serviço da Adobe Experience Cloud ID. Não é necessário um conjunto de relatórios separado.
 
