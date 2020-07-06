@@ -2,7 +2,7 @@
 title: Total de segundos gastos
 description: O número total agregado de segundos gastos no valor da dimensão.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ Essa métrica usa as seguintes etapas para medir o cálculo:
 
 Variáveis persistentes, como [eVars](../dimensions/evar.md), contam no total de segundos gastos. As variáveis de tráfego, como [props](../dimensions/prop.md), incluem segundos gastos em chamadas de rastreamento de link subsequentes.
 
->[!TIP] O tempo gasto não é medido para a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido. Esse conceito também se aplica a visitas que consistem em uma única ocorrência (uma rejeição).
+>[!TIP]
+>
+>O tempo gasto não é medido para a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido. Esse conceito também se aplica a visitas que consistem em uma única ocorrência (uma rejeição).
 
 Consulte Visão geral [do](time-spent.md) Tempo gasto para obter mais informações gerais sobre o tempo gasto.
