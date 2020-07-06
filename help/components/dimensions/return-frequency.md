@@ -2,7 +2,7 @@
 title: Frequência de retorno
 description: A quantidade de tempo entre a visita atual e a anterior.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 
 A dimensão de &quot;Frequência de retorno&quot; mostra a duração entre as visitas de visitantes recorrentes. Quando um visitante retorna ao seu site, a Adobe verifica há quanto tempo a visita anterior foi realizada e classifica a ocorrência no valor de dimensão apropriado. Essa dimensão é importante para ajudar a medir o apelo de seu site e a relevância para os visitantes ao longo do tempo. Também pode ajudar a identificar o impacto do conteúdo e das promoções do site nos visitantes.
 
->[!TIP] Essa dimensão não inclui visitantes novos.
+>[!TIP]
+>
+>Essa dimensão não inclui visitantes novos.
 
 ## Preencher esta dimensão com dados
 
