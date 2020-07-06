@@ -2,10 +2,10 @@
 title: Análise entre dispositivos
 description: O Cross-Device Analytics altera os dados que passam de focados em dispositivos para focados em pessoas, ao compilar os dados do dispositivo.
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -26,15 +26,17 @@ Consulte a página [Journey IQ: Cross-Device Analytics Spark](http://adobe.ly/aa
 
 ## Pré-requisitos
 
-O Cross-Device Analytics exige o seguinte. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
+O Analytics entre dispositivos requer o seguinte. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
 
->[!IMPORTANT] O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
+>[!IMPORTANT]
+>
+>O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Os dados de sua organização devem residir no data center da Adobe do noroeste do Pacífico. Está previsto o suporte a data centers em outras regiões do mundo.
 * Entre em contato com o Gerente de conta de sua organização para estabelecer estes pontos-chave:
    * Um contrato deve ser assinado com a Adobe incluindo o Adobe Analytics Ultimate.
-   * Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) no guia do usuário do cooperativo do dispositivo.
-   * De um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Cross-Device Analytics. A Adobe usa o Azure para armazenar dados de gráficos de dispositivos e executar a identificação entre dispositivos. Dessa forma, os dados do Adobe Analytics são passados para frente e para trás entre o data center da Adobe e as instâncias provisionadas pela Adobe do Microsoft Azure.
+   * Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html) no guia do usuário do cooperativo do dispositivo.
+   * Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Cross-Device Analytics. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e as instâncias provisionadas da Adobe do Microsoft Azure.
 * O Cross-Device Analytics é ativada com base no conjunto de relatórios. Os conjuntos de relatórios habilitados para CDA exigem o seguinte:
    * O conjunto de relatórios não pode ter mais de 500 milhões de ocorrências por dia.
    * A Adobe recomenda que um conjunto de relatórios contenha dados entre dispositivos, ou seja, dados de vários tipos de dispositivos (Web, aplicativo, etc). Algumas organizações se referem a esse conceito como um conjunto de relatórios &quot;global&quot;, embora o CDA não precise ser rigorosamente global de uma perspectiva geográfica. O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
@@ -54,9 +56,9 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * O CDA requer Gráfico cooperativo ou Gráfico privado. Os gráficos de dispositivos de terceiros não são compatíveis.
 * As IDs herdadas do Analytics não são compatíveis. Somente os visitantes com Experience Cloud IDs são compilados.
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Consulte [Conjuntos de relatórios virtuais](../vrs/vrs-about.md) e [Processamento de tempo de relatório](../vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
-* Não há suporte para a API 1.4. Os conectores do Power BI e do Construtor de relatórios dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
-* Se sua organização usar o Gráfico privado, novos dispositivos levarão até 24 horas para serem costurados.
-* Os novos dispositivos que visitam site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas.
+* Não há suporte para a API 1.4. Os conectores do Power BI e do Report Builder dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
+* Se sua organização usar o Gráfico privado, novos dispositivos levarão até 24 horas para serem compilados.
+* Os novos dispositivos que visitam seu site podem levar até duas semanas para serem processados pelo Gráfico cooperativo. Normalmente, o nível de compilação no CDA das duas últimas semanas é menor do que para os intervalos de datas com mais de duas semanas.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
 
 Assim que sua organização atender a todos os requisitos e entender as limitações, você poderá iniciar a [Configuração do Cross-Device Analytics](cda-setup.md).
