@@ -5,10 +5,10 @@ title: Variáveis de conversão (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,9 @@ O melhor uso das eVars é para medir causa e efeito, como:
 
 Se desejar a medida de tráfego ou de definição de caminho, é recomendado usar variáveis de tráfego.
 
->[!NOTE] Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variáveis de conversão - descrições {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -87,7 +89,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b>Sintaxe de produtos</b>:</span> associa o valor de eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b>Sintaxe de variável de conversão</b>:</span> associa a eVar a um produto somente se um evento compulsório ocorrer. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">Variáveis de merchandising</a>. </p> </td> 
+   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b>Sintaxe de produtos</b>:</span> associa o valor de eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b>Sintaxe de variável de conversão</b>:</span> associa a eVar a um produto somente se um evento compulsório ocorrer. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/merchandising-variables/var-merchandising.html">Variáveis de merchandising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento compulsório de merchandising</span> </p> <p>(somente eVar) </p> </td> 
@@ -103,15 +105,15 @@ As `eVars` expiram depois de um período definido por você. Depois que a eVar e
 Existem duas formas de determinar a expiração de uma eVar:
 
 * É possível definir a eVar para expirar depois de um período ou evento especificado.
-* É possível forçar a expiração de uma eVar redefinindo-a, o que é útil ao redefinir o objetivo de uma variável.
+* É possível forçar a expiração de uma eVar ao redefini-la, o que é útil quando se estabelece um novo objetivo para uma variável.
 
 Por exemplo, se você alterar a expiração de uma eVar de 30 para 90 dias, os valores de eVar coletados continuarão a persistir pela duração do novo conjunto de expiração (nesse caso, 90 dias). O sistema simplesmente verifica a configuração de expiração atual e o último carimbo de data e hora definido do valor da eVar coletado para determinar a expiração. Somente a opção **[!UICONTROL Redefinir]** expira os valores e o faz imediatamente.
 
-Outro exemplo: Se uma eVar for usada em maio para refletir promoções internas e expirar após 21 dias, e em junho for usada para capturar palavras-chave de pesquisa interna, em seguida, em 1º de junho, você deverá forçar a expiração ou redefinir a variável. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
+Outro exemplo: se uma eVar for usada em maio para refletir promoções internas e expirar depois de 21 dias, e em junho ela for usada para capturar as palavras-chaves da pesquisa interna, no dia 1º de junho você deverá forçar a expiração da variável ou redefini-la. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
 
 **Uso de maiúsculas e minúsculas**
 
-As eVars não fazem distinção de letras maiúsculas e minúsculas, mas são exibidas com essa diferenciação na primeira ocorrência. Por exemplo, se a primeira instância da eVar1 for definida como &quot;Conectado&quot; mas todas as instâncias subsequentes forem transmitidas como &quot;conectado&quot;, os relatórios sempre mostrarão &quot;Conectado&quot; como valor da eVar.
+As eVars não diferenciam maiúsculas de minúsculas, mas são exibidas com essa diferenciação na primeira ocorrência. Por exemplo, se a primeira instância da eVar1 for definida como &quot;Conectado&quot; mas todas as instâncias subsequentes forem transmitidas como &quot;conectado&quot;, os relatórios sempre mostrarão &quot;Conectado&quot; como valor da eVar.
 
 **Contadores**
 
