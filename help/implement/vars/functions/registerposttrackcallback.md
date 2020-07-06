@@ -1,8 +1,11 @@
 ---
 title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +26,7 @@ Não há um campo dedicado no Launch para usar essa variável. Use o editor de c
 
 ## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado do Launch
 
-`s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada antes do envio de uma solicitação de imagem.
+`s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada imediatamente depois que uma solicitação de imagem é enviada com êxito.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
