@@ -2,7 +2,7 @@
 title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 translation-type: tm+mt
-source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 99%
@@ -12,7 +12,9 @@ ht-degree: 99%
 
 # Plug-in da Adobe: getValOnce
 
->[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getValOnce` impede que uma variável seja definida com o mesmo valor mais de uma vez. A Adobe recomenda usar esse plug-in quando você deseja desduplicar ocorrências nas quais um visitante atualiza uma página ou visita uma determinada página várias vezes. Esse plug-in é desnecessário se você não se preocupar com a métrica &quot;Ocorrências&quot; no Analysis Workspace.
 
@@ -22,8 +24,8 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
    * Evento: principal – biblioteca carregada (início da página)
