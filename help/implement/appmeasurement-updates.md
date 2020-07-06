@@ -3,7 +3,10 @@ title: AppMeasurement para notas de versão do Javascript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +105,9 @@ Esta versão garante que a biblioteca [!DNL AppMeasurement] envie cookies corret
 
 Data de lançamento: **24 de maio de 2018**
 
->[!NOTE] A API de visitante 3.0 ou superior é necessária para clientes que usam o serviço de ID [!DNL Experience Cloud]. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( [!DNL at.js], [!DNL AppMeasurement.js], e assim por diante).
+>[!NOTE]
+>
+>A API de visitante 3.0 ou superior é necessária para clientes que usam o serviço de ID [!DNL Experience Cloud]. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( [!DNL at.js], [!DNL AppMeasurement.js], e assim por diante).
 
 * Atualização do [!DNL AppMeasurement] para usar a interface de Visitante atualizada para solicitar IDs. (AN-151483)
 * Correção de um problema que fazia com que o cookie de rastreamento de link continuasse sendo gravado mesmo depois da desativação do rastreamento de link. (AN-156332)
@@ -216,7 +221,9 @@ Atualizado em: **18 de agosto de 2016**
 * Atualização do [!DNL AppMeasurement] para ler e gravar cookies AMCV. (AN-127098)
 * Inclusão da API de Visitante 1.7.0.
 
->[!NOTE] Consulte também as notas de versão a seguir para o [!DNL JavaScript] versão 1.6.3, que inclui requisitos atualizados para o serviço Experience Cloud ID.
+>[!NOTE]
+>
+>Consulte também as notas de versão a seguir para o [!DNL JavaScript] versão 1.6.3, que inclui requisitos atualizados para o serviço Experience Cloud ID.
 
 ## Versão 1.6.3
 
@@ -224,7 +231,9 @@ Atualizado em: **4 de agosto de 2016**
 
 * Correção de um problema em que [!DNL AppMeasurement] encerrava prematuramente as conexões de solicitação. (AN-126448)
 
->[!IMPORTANT] A versão 1.6.0 do serviço da [!DNL Experience Cloud] ID *requer* [!DNL AppMeasurement] o para [!DNL JavaScript] versão 1.6.3 ou superior. Se quiser atualizar para a versão 1.6.0 do serviço Experience Cloud ID, verifique se está usando o código versão [!DNL AppMeasurement] 1.6.3 ou superior.
+>[!IMPORTANT]
+>
+>A versão 1.6.0 do serviço da [!DNL Experience Cloud] ID *requer* [!DNL AppMeasurement] o para [!DNL JavaScript] versão 1.6.3 ou superior. Se quiser atualizar para a versão 1.6.0 do serviço Experience Cloud ID, verifique se está usando o código versão [!DNL AppMeasurement] 1.6.3 ou superior.
 
 ## Versão 1.6.2
 
@@ -293,7 +302,9 @@ Data de lançamento: **21 de maio de 2015**
 * Inclusão da API de Visitante 1.4.
 * Foi atualizado o módulo do AudienceManagement para usar o DIL versão 6.0.
 
->[!NOTE] **Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager], há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager], há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versão 1.4.4
 
@@ -349,7 +360,9 @@ Data de lançamento: **21 de agosto de 2014**
 * Adição do módulo **[!UICONTROL AudienceManagement]** no zip de download.
 * Adicionado suporte para eVars adicionais (76 - 250) e eventos (101-1000).
 
->[!NOTE] O código H não é compatível com eVars e eventos adicionais.
+>[!NOTE]
+>
+>O código H não é compatível com eVars e eventos adicionais.
 
 ## Versão 1.3.2
 
