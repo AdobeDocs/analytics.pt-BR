@@ -1,15 +1,20 @@
 ---
 title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in da Adobe: rfl (Remover da lista)
 
->[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `rfl` permite que você remova com &quot;segurança&quot; valores de strings delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) e outras. Esse plug-in é útil se você deseja remover valores específicos de uma string delimitada sem se preocupar com delimitadores. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
 
@@ -24,7 +29,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
