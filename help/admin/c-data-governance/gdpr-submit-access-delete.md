@@ -2,8 +2,11 @@
 description: 'null'
 title: Enviar solicitações de acesso e de exclusão
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo 
 
 Você pode enviar acesso à Privacidade de dados e excluir solicitações por meio do portal da [interface do usuário da Privacidade de dados](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou por meio da nossa [API da Privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE] A API de Privacidade de dados suporta envios em massa para vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
+>[!NOTE]
+>
+>A API da Privacidade de dados suporta envios em massa de vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
 ## Solicitação JSON de exemplo {#sample-json-request}
 
