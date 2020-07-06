@@ -1,8 +1,11 @@
 ---
 title: Mapear elementos de dados do Launch para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ As variáveis definidas em regras são ideais nos casos em que as variáveis nã
 1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Selecionar].
 1. O nome do elemento de dados é adicionado ao campo de texto rodeado por sinais `%`. Por exemplo, se você nomeasse o elemento de dados como &quot;Nome da página&quot;, veria a string `%Page name%` ao atribuir um elemento de dados a uma variável.
 
->[!TIP] É possível concatenar elementos de dados na mesma variável. Por exemplo, se você tiver um elemento de dados &quot;Nome do host&quot; e um elemento de dados &quot;Nome do caminho&quot;, é possível combinar ambos em uma única variável usando `%Hostname%%Pathname%`.
+>[!TIP]
+>
+>É possível concatenar elementos de dados na mesma variável. Por exemplo, se você tiver um elemento de dados &quot;Nome do host&quot; e um elemento de dados &quot;Nome do caminho&quot;, é possível combinar ambos em uma única variável usando `%Hostname%%Pathname%`.
 
 ## Próximas etapas
 
