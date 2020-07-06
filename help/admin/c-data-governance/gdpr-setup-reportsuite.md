@@ -2,8 +2,11 @@
 description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 title: Rotular dados do conjunto de relatórios
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 100%
 
 ---
 
@@ -12,13 +15,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
 
->[!NOTE] Lembre-se de que a Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+>[!NOTE]
+>
+>Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## Atribuir ou editar rótulos do conjunto de relatórios {#section_39F829F35A274EACA532E2F6FF392996}
 
 **Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
 
-1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]**![](assets/privacy_rs_settings.png)
 
 1. Selecione qual grupo de variáveis você deseja rotular.
 
@@ -37,7 +42,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
    ![](assets/info.png)
 
-1. Selecione uma ou mais variáveis ao clicar na caixa de seleção e, em seguida, selecione o ícone **[!UICONTROL Edit]** (à direita) para editar uma ou mais variáveis.
+1. Selecione uma ou mais variáveis ao clicar na caixa de seleção e, em seguida, selecione o ícone **[!UICONTROL Editar]** (à direita) para editar uma ou mais variáveis.
 
    ![](assets/edit.png)
 
@@ -57,7 +62,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
    ![](assets/privacy_labels.png)
 
-1. Clique em **[!UICONTROL Apply]** após concluir toda a rotulagem.
+1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem.
 
 ## Copiar rótulos para os conjuntos de relatórios {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +70,11 @@ Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a ma
 
 1. Selecione o grupo de variáveis (Dimensões padrão, Dimensões de conversão etc.) contendo a variável que você deseja copiar. Observe que você pode copiar os rótulos apenas para um grupo de variáveis por vez.
 1. Selecione algumas ou todas as variáveis neste grupo.
-1. Clique em **[!UICONTROL Copy Labels to Report Suite(s)]** na parte superior direita da caixa de diálogo Controle de dados.
+1. Clique em **[!UICONTROL Copiar rótulos para os conjuntos de relatórios]** na parte superior direita da caixa de diálogo Governança de dados.
 
    ![](assets/apply_as_template.png)
 
-1. Marque **[!UICONTROL Select All]** para copiar rótulos para as variáveis selecionadas para todos os conjuntos de relatórios ou selecione os conjuntos de relatórios individuais para os quais você deseja copiar os rótulos.
+1. Marque **[!UICONTROL Selecionar todos]** para copiar rótulos para as variáveis selecionadas para todos os conjuntos de relatórios ou selecione os conjuntos de relatórios individuais para os quais você deseja copiar os rótulos.
 
    >[!IMPORTANT]
    >
@@ -87,5 +92,5 @@ Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a ma
    >
    >Você sempre deve verificar os conjuntos de relatórios de destino para garantir que os rótulos sejam copiados corretamente. Isso é especialmente importante para variáveis com rótulos de ID ou DEL.
 
-1. Clique em **[!UICONTROL Apply]**.
+1. Clique em **[!UICONTROL Aplicar]**.
 
