@@ -3,8 +3,11 @@ description: Conjuntos de relatórios de rollup agregam dados de vários conjunt
 title: Conjuntos de relatórios globais e de acumulado
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Conjuntos de relatórios de rollup agregam dados de vários conjuntos de relató
 
 **Chamadas secundárias do servidor**: os rollups não incorrem em chamadas de servidor adicionais além do que um único conjunto de relatórios coleta. Se sua organização usar marcação de vários conjuntos, serão feitas chamadas de servidor secundárias para cada conjunto de relatórios adicional incluído em uma solicitação de imagem.
 
->[!TIP] Se você usar apenas um conjunto de relatórios global com [conjuntos de relatórios virtuais](../../components/vrs/vrs-considerations.md), nenhuma chamada de servidor secundário será necessária.
+>[!TIP]
+>
+>Se você usar apenas um conjunto de relatórios global com [conjuntos de relatórios virtuais](../../components/vrs/vrs-considerations.md), nenhuma chamada de servidor secundário será necessária.
 
 **Alterações de implementação**: os rollups não exigem alterações de implementação, enquanto os conjuntos de relatórios globais exigem que você inclua a ID do conjunto de relatórios global na implementação.
 
