@@ -4,7 +4,10 @@ title: Bloquear/desbloquear pastas de trabalho
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ Você pode proteger todas as solicitações em uma pasta de trabalho em compara�
 
 Como um analista, o bloqueio de uma pasta de trabalho permite que você proteja suas solicitações de pasta de trabalho contra adulterações por outros usuários na organização. Ao mesmo tempo, esses usuários ainda podem atualizar as solicitações na pasta de trabalho.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+Para proteger uma pasta de trabalho contra edição, clique em **[!UICONTROL Bloqueado]** na barra de ferramentas do Report Builder ( ![](assets/locked_icon.png)
 
 ).
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Para desbloquear uma pasta de trabalho, clique em **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)
 
 ).
 
@@ -28,7 +31,9 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * Você é um administrador ou
 * Você é a pessoa que inicialmente bloqueou a pasta de trabalho. Nesse caso, você não precisa ser um administrador.
 
->[!NOTE] Não é possível adicionar uma solicitação a uma pasta de trabalho protegida, exceto com permissões para desbloquear a pasta de trabalho.
+>[!NOTE]
+>
+>Não é possível adicionar uma solicitação a uma pasta de trabalho protegida, exceto com permissões para desbloquear a pasta de trabalho.
 
 Quando uma pasta de trabalho é bloqueada contra edição de solicitação.
 
@@ -39,7 +44,7 @@ Quando uma pasta de trabalho é bloqueada contra edição de solicitação.
 * Os usuários podem atualizar solicitações, de forma individual, ou como parte de um grupo.
 * Se a solicitação usa valores de entrada de células (intervalo de datas, segmento, filtros), os usuários podem alterar esses valores em células e, portanto, editar indiretamente as solicitações ao atualizá-las.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+Se você tentar editar uma pasta de trabalho protegida (por meio de um menu de contexto ou **[!UICONTROL Gerenciador de solicitação]**, ou **[!UICONTROL Editar várias solicitações]**), você pode ou não ter permissão para isso:
 
 * Se você não tem permissões para desbloquear as solicitações, este prompt aparece:
 
