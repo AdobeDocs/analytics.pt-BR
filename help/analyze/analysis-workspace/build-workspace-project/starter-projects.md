@@ -2,8 +2,11 @@
 description: 'null'
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ Você pode criar um projeto a partir de:
 
 * **Projeto em branco (padrão)**: para obter instruções, consulte [Criar um projeto no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * **Modelo padrão**: esses modelos são criados pela Adobe e fornecidos com o produto.
-* **Modelo personalizado**: esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a permissão [!UICONTROL Analysis Workspace: Save as Template] no Admin Console. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-console/permissions/product-profile.html)
+* **Modelo** personalizado: Esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a [!UICONTROL Analysis Workspace: A permissão Salvar como modelo] no Admin Console. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ Você pode criar um projeto a partir de:
 Os usuários com direitos de administrador podem tornar qualquer projeto criado por ele um modelo personalizado. Veja como:
 
 1. Abrir o projeto.
-1. Vá para **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Vá até **[!UICONTROL Projeto]** > **[!UICONTROL Salvar como modelo]**.
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ Os usuários com direitos de administrador podem tornar qualquer projeto criado 
 
    >[!NOTE]
    >
-   >Por padrão, os modelos de projeto estão visíveis para todos em sua organização. Você pode organizá-los aplicando tags. (Vá até **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** para editar tags e descrições.)
+   >Por padrão, os modelos de projeto estão visíveis para todos em sua organização. Você pode organizá-los aplicando tags. (Vá até **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]** para editar tags e descrições.)
 
 ### Ações executáveis nos modelos personalizados
 
@@ -110,7 +113,9 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 ### Pessoas
 
->[!NOTE] O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/data/people.html).
+>[!NOTE]
+>
+>O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/data/people.html).
 
 O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
@@ -129,14 +134,14 @@ O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da m�
 Esse modelo permite que você veja dados essenciais de desempenho entre dispositivos. Ele está disponível somente para clientes que têm acesso ao [Cross-Device Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/cda-home.html) (CDA).
 
 * **Nota especial para os membros do Gráfico cooperativo**: mostra qual parte do conjunto de relatórios contém visitantes em regiões nas quais o gráfico cooperativo é suportado e em regiões nas quais ele não é suportado.
-* **Identificação de usuários**: mostra a frequência com que os visitantes do site são identificados usando métodos com base no Cross-Device Analytics.
-* **Medição do tamanho do público**: mostra uma comparação entre &quot;Dispositivos únicos&quot; e &quot;Pessoas&quot;. A proporção desses dois números é conhecida como &quot;compactação entre dispositivos&quot;, uma métrica calculada visível neste painel. Essa métrica de compactação depende de vários fatores:
+* **Identificação de usuários**: mostra a frequência com que os visitantes do site são identificados usando métodos com base na Análise entre dispositivos.
+* **Medição do tamanho do público-alvo**: mostra uma comparação entre &quot;Dispositivos únicos&quot; e &quot;Pessoas&quot;. A proporção desses dois números é conhecida como &quot;compactação entre dispositivos&quot;, uma métrica calculada visível neste painel. Essa métrica de compactação depende de vários fatores:
    * **Uso do gráfico Cooperativo ou Privado**: em geral, as organizações que usam a cooperação de dispositivos tendem a ver melhores taxas de compactação, em relação às organizações que usam o gráfico privado.
    * **Taxa de logon**: quanto mais usuários entrarem no site, mais a Adobe poderá identificar e compilar visitantes entre dispositivos. Os sites com uma taxa de logon baixa também têm taxas de compactação baixas.
    * **Cobertura da Experience Cloud ID**: somente os visitantes com uma ECID podem ser compilados. Uma porcentagem menor de visitantes do site que usam uma ECID está correlacionada a taxas de compactação mais baixas.
    * **Uso de vários dispositivos**: se os visitantes do site não usarem vários dispositivos, você poderá ver taxas de compactação mais baixas.
    * **Granularidade do relatório**: a compactação por dia geralmente é menor do que a compactação por mês ou ano. As chances de um indivíduo usar vários dispositivos se tornam menores em um único dia do que em mais de um mês inteiro. A segmentação, a filtragem ou o uso de dimensões de detalhamento também podem mostrar uma taxa de compactação menor.
-* **Segmentos com base em pessoas**: contém uma lista suspensa de segmentos que permite visualizar dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
+* **Segmentos com base em pessoas**: contêm uma lista suspensa de segmentos que permitem visualizar dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
 * **Análise da jornada entre dispositivos**: fornece relatórios de fluxo e fallout de acordo com o tipo de dispositivo.
-* **Atribuição entre dispositivos**: combine os recursos de QI de jornada e Attribution IQ.
+* **Atribuição entre dispositivos**: combine os recursos de Journey IQ e Attribution IQ.
 * **Outras dicas e truques**: tópicos úteis sobre o CDA que permitem que você o aproveite ao máximo.
