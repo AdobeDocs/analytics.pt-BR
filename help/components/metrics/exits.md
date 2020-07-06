@@ -2,7 +2,7 @@
 title: Saídas
 description: Uma instância do último valor em uma visita.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -20,4 +20,6 @@ A métrica &quot;Saídas&quot; mostra o número de vezes que um determinado valo
 
 Depois que uma [visita](visits.md) for concluída, registre o valor de dimensão mais recente como uma saída. Existe apenas uma saída por dimensão por visita. Não é necessariamente a última ocorrência da visita se a dimensão foi definida em ocorrências anteriores. É uma métrica baseada em visitas; aplica-se retroativamente a todas as ocorrências na visita.
 
->[!TIP] Se você visualização essa métrica em relação a uma dimensão nem sempre definida em cada visita, poderá ocultar o valor da dimensão &quot;Não especificado&quot; na área de trabalho da Análise. Clique no ícone de filtro e desmarque [!UICONTROL Incluir não especificado (Nenhum)].
+>[!TIP]
+>
+>Se você visualização essa métrica em relação a uma dimensão nem sempre definida em cada visita, é possível ocultar o valor da dimensão &quot;Não especificado&quot; no Analysis Workspace. Clique no ícone de filtro e desmarque [!UICONTROL Incluir não especificado (Nenhum)].
