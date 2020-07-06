@@ -5,10 +5,10 @@ title: Gerenciar canais de marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda c
 
 * Configure o acesso às dimensões do Canal de marketing.
 
-   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
+   Consulte [Permissões de canais de marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
 
 * Confirme se seu gerente de conta ativou os **[!UICONTROL Relatórios de canal]** do seu conjunto de relatórios.
 
@@ -44,7 +44,9 @@ Se necessário, entre em contato com o Atendimento ao cliente para obter ajuda c
 
 Adicione canais de marketing ao Administrador dos Canais de marketing.
 
->[!NOTE] Não é possível excluir um canal. Se não quiser usar um canal, desative-o ou renomeie-o, e guarde-o para uso posterior.
+>[!NOTE]
+>
+>Não é possível excluir um canal. Se não quiser usar um canal, desative-o ou renomeie-o, e guarde-o para uso posterior.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Na página do [!UICONTROL Gerenciador de conjunto de relatórios], selecione um conjunto de relatórios.
@@ -75,9 +77,9 @@ Há várias configurações que podem ser aplicadas a cada canal na página Gere
 | Ativado | Ativa ou desativa este canal de marketing. |
 | ID de canal | O nome amigável do canal de marketing. |
 | Substituir canal de último toque | É possível escolher substituir um canal existente e persistente de último toque pelo canal selecionado. Se você marcar esta caixa de seleção, qualquer canal (incluindo canal Direto e Interno) substituirá um canal de último contato existente. O resultado é uma conversão atribuída a um canal que pode não merecer o crédito. Por exemplo, esta opção pode garantir que o Canal direto não receba crédito pela conversão se o usuário for avisado por meio do canal de Pesquisa Natural. |
-| Análise de canal | Permite analisar um canal de acordo com este valor. You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/components/c-marketing-channels/classifictions-mchannel.md). |
+| Análise de canal | Permite analisar um canal de acordo com este valor. É possível adicionar possíveis detalhamentos de canal (subcanais) ao criar [classificações de canais de marketing](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Tipo | Especifica como o usuário chegou ao seu site. É possível selecionar online ou offline. É possível usar canais Online para visitantes que chegam por meio de um mecanismo de busca ou campanha por email. Os canais offline são aplicados a visitantes que localizam seu site por meio de cupons em jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. Consulte [Origens de Dados](https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html). Consulte [Adicionar dados offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Cor do canal | Somente Relatórios e análises: A cor associada a este canal de marketing. Essa cor representa o canal no relatório de Canal de marketing. |
+| Cor do canal | Somente Relatórios e Analytics: A cor associada a este canal de marketing. Essa cor representa o canal no relatório de Canal de marketing. |
 
 ### Substituir práticas recomendadas
 
