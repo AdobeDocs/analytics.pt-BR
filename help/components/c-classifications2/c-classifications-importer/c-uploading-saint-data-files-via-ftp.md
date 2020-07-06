@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Importação de FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Cada novo valor de chave que você carrega é descontado do total de únicos que
 
 Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. É possível visualizar essas classificações tanto no data warehouse como na Ad Hoc Analysis.
 
->[!NOTE] O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos processados pelos servidores da Adobe. O processamento dos arquivos de dados geralmente não levam mais de 72 horas.
+>[!NOTE]
+>
+>O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos processados pelos servidores da Adobe. O processamento dos arquivos de dados geralmente não levam mais de 72 horas.
 
 Antes de fazer upload dos dados por FTP, crie uma conta FTP. Para obter mais informações, consulte [Criar uma conta FTP](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
