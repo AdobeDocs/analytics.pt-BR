@@ -2,7 +2,7 @@
 title: URL da página
 description: O URL da página.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 A dimensão &#39;URL da página&#39; lista os URLs do site.
 
->[!IMPORTANT] Essa dimensão está disponível somente no Data Warehouse. Se desejar usar uma dimensão de URL em outras soluções do Analytics, use uma [eVar](evar.md).
+>[!IMPORTANT]
+>
+>Essa dimensão só está disponível na Data warehouse. Se quiser usar uma dimensão de URL em outras soluções Analytics, use uma [eVar](evar.md).
 
 ## Preencher esta dimensão com dados
 
@@ -24,7 +26,7 @@ Essa dimensão recupera dados da string [`g` do](/help/implement/validate/query-
 
 A Adobe recomenda configurar uma eVar para a string concatenada `window.location.hostname + window.location.pathname`. Normalmente, essa string funciona melhor do que `window.location.href` porque omite tags de protocolo, sequências de query e âncora.
 
-Se desejar que a eVar corresponda exatamente à dimensão &#39;URL da página&#39; no Data Warehouse, você pode usar variáveis [](/help/implement/vars/page-vars/dynamic-variables.md) dinâmicas e definir a eVar como `D=g` em cada ocorrência. Observe que esse método não funciona para ocorrências de link personalizado, pois o URL da página é removido para todas as [`tl()`](/help/implement/vars/functions/tl-method.md) chamadas.
+Se desejar que a eVar corresponda exatamente à dimensão &#39;URL da página&#39; na Data warehouse, você pode usar variáveis [](/help/implement/vars/page-vars/dynamic-variables.md) dinâmicas e definir a eVar como `D=g` em cada ocorrência. Observe que esse método não funciona para ocorrências de link personalizado, pois o URL da página é removido para todas as [`tl()`](/help/implement/vars/functions/tl-method.md) chamadas.
 
 ## Valores de dimensão
 
