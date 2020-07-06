@@ -6,7 +6,10 @@ title: Mudanças de permissões de usuários e grupos
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## O que mudou? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento do usuário]** > **[!UICONTROL Grupos]**
 
->[!NOTE] Devido ao alto número de combinações de permissões possíveis disponíveis, não podemos oferecer uma documentação que descreva todos os métodos de API que podem ser usados em todas as combinações de permissões. Normalmente, não administradores que permitiram acesso de serviços da Web terão apenas acesso de Leitura aos métodos de API. Eles não terão acesso de Gravação aos métodos.
+>[!NOTE]
+>
+>Devido ao alto número de combinações de permissões possíveis disponíveis, não podemos oferecer uma documentação que descreva todos os métodos de API que podem ser usados em todas as combinações de permissões. Normalmente, não administradores que permitiram acesso de serviços da Web terão apenas acesso de Leitura aos métodos de API. Eles não terão acesso de Gravação aos métodos.
 
 Porque a API e a interface usam o mesmo sistema de permissão, quaisquer permissões garantidas por um administrador a um não administrador específico na interface (Adobe Admin Console) serão as mesmas permissões que o usuário possui na API.
 
@@ -61,7 +66,7 @@ Porque a API e a interface usam o mesmo sistema de permissão, quaisquer permiss
    <td colname="col2"> <p>Personalize permissões para que incluam ou excluam o acesso a dimensões (além das métricas). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">variável</a> em que se baseia a classificação. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html">variável</a> em que se baseia a classificação. </li> 
     </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Personalizar permissões de dimensão</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ Aqui estão informações novas e importantes sobre atualizações novas e plane
 
 A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status da empresa).
 
->[!NOTE] Um *`migrated user`* e *`Experience Cloud user`* se referem a usuários que aceitaram um convite feito por email para se associar à Experience Cloud. Se esse convite não for aceito, os usuários permanecerão no Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
+>[!NOTE]
+>
+>Um *`migrated user`* e *`Experience Cloud user`* se referem a usuários que aceitaram um convite feito por email para se associar à Experience Cloud. Se esse convite não for aceito, os usuários permanecerão no Analytics e não poderão ser gerenciados no Admin Console. (A única exceção é o caso de a migração estar usando [Enterprise IDs ou Federated IDs](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html). Nesse caso, o usuário será migrado quando o administrador migrar os usuários individualmente.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
