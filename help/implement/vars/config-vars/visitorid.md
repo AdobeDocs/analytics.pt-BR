@@ -2,7 +2,7 @@
 title: visitorID
 description: Use uma ID de visitante personalizada.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 71%
@@ -14,7 +14,9 @@ ht-degree: 71%
 
 A Adobe usa vários métodos diferentes para identificar visitantes em seu site. A variável `visitorID` substitui todos os outros métodos de identificação de visitantes.
 
->[!IMPORTANT] A Adobe recomenda não usar essa variável. Em vez disso, use o [Serviço de Identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
+>[!IMPORTANT]
+>
+>A Adobe recomenda não usar essa variável. Em vez disso, use o [Serviço de Identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 ## ID de visitante no Adobe Experience Platform Launch
 
@@ -31,10 +33,14 @@ Atribua esse campo ao elemento de dados que contém sua ID de visitante personal
 
 A variável `s.visitorID` é uma string que contém um identificador exclusivo personalizado para o visitante. Valores válidos incluem caracteres alfanuméricos de até 100 bytes. Evite usar traços, espaços, sublinhados ou símbolos nessa variável.
 
->[!WARNING] Se você definir a variável `visitorID` durante uma visita, os dados resultarão em dois visitantes únicos separados.
+>[!WARNING]
+>
+>Se você definir a variável `visitorID` durante uma visita, os dados resultarão em dois visitantes únicos separados.
 
 ```js
 s.visitorID = "abc123";
 ```
 
->[!CAUTION] Uma implementação inválida de IDs de visitante personalizadas pode levar a dados incorretos e a um desempenho ruim do relatórios. Se essa variável contiver um valor padrão (como `"0"` ou `"NULL"`), a Adobe tratará essas ocorrências como se elas fossem o mesmo visitante. Essa situação resulta em dados incorretos, com contagens baixas de visitantes e segmentos de nível de visitante não funcionando como esperado. As IDs de visitante personalizadas implementadas incorretamente também apresentam grande carga nos servidores de processamento, aumentando a [latência](/help/technotes/latency.md) e diminuindo o desempenho do relatório.
+>[!CAUTION]
+>
+>Uma implementação inválida de IDs de visitante personalizadas pode levar a dados incorretos e a um desempenho ruim do relatórios. Se essa variável contiver um valor padrão (como `"0"` ou `"NULL"`), a Adobe tratará essas ocorrências como se elas fossem o mesmo visitante. Essa situação resulta em dados incorretos, com contagens baixas de visitantes e segmentos de nível de visitante não funcionando como esperado. As IDs de visitante personalizadas implementadas incorretamente também apresentam grande carga nos servidores de processamento, aumentando a [latência](/help/technotes/latency.md) e diminuindo o desempenho do relatório.
