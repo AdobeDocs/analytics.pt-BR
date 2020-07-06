@@ -3,8 +3,11 @@ description: Os relatórios de fontes de tráfego fornecem um insight detalhado 
 title: Relatórios de fontes de tráfego
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,9 @@ Os domínios ou URLs que não façam parte desses domínios e URLs definidos sã
 
 Consulte [Filtros internos de URL](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/internal-url-filter-admin.html) na ajuda do [!DNL Admin Console] para obter mais informações.
 
->[!NOTE] Os relatórios e análises de marketing registram um domínio de referência como um email quando visitantes clicam em um link de mensagem enviado por email contendo o protocolo [!DNL imap://] ou [!DNL mail://] e chegam em seu site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
+>[!NOTE]
+>
+>Os relatórios e análises de marketing registram um domínio de referência como um email quando visitantes clicam em um link de mensagem enviado por email contendo o protocolo [!DNL imap://] ou [!DNL mail://] e chegam em seu site. Por exemplo, qualquer item vindo de [!DNL https://mail.yahoo.com] não é contado como um referenciador de email porque o protocolo é [!DNL https://]. Emails do Outlook são indicados na linha Digitado/Marcado, enquanto qualquer referenciador com um protocolo HTTP, onde o domínio é um mecanismo de pesquisa conhecido, é indicado na linha Mecanismo de pesquisa.
 
 ## Tipo de referenciador {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ Os itens da linha a seguir podem ser exibidos ao executar este relatório:
 
 **USENET (grupo de notícias)**: Isso significa que o URL para o referenciador começava com `news://`. Como tal, o link do referenciador foi postado em um grupo de notícias do Usenet em vez de na página da Web.
 
->[!NOTE] A lógica de Tipo de referenciador corresponde a outros relatórios de fonte de tráfego (como [!UICONTROL Referenciadores] e [!UICONTROL Domínios de referência]). Isso deve reduzir ou eliminar as ocorrências dos itens de linha Dentro do seu site e Sem JavaScript no relatório de [!UICONTROL Tipo do Referenciador].
+>[!NOTE]
+>
+>A lógica de Tipo de referenciador corresponde a outros relatórios de fonte de tráfego (como [!UICONTROL Referenciadores] e [!UICONTROL Domínios de referência]). Isso deve reduzir ou eliminar as ocorrências dos itens de linha Dentro do seu site e Sem JavaScript no relatório de [!UICONTROL Tipo do Referenciador].
 
