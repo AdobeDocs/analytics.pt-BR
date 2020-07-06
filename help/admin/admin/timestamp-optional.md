@@ -4,7 +4,10 @@ title: Carimbos opcionais de data e hora
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +22,13 @@ Os Carimbos opcionais de data e hora permitem que você:
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar o rastreamento offline sem precisar criar um novo conjunto de relatórios.
 
->[!IMPORTANT] Se você usar Carimbos opcionais de data e hora, não defina [s.visitorID](/help/implement/vars/config-vars/visitorid.md) em dados que já tenham carimbo de data e hora. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
+>[!IMPORTANT]
+>
+>If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
 
->[!NOTE] Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. Isso significa que uma visita/sessão será &quot;mantida aberta&quot; por 92 dias, enquanto qualquer ocorrência adicional - que não seja 30 minutos após a ocorrência anterior (em tempo de ocorrência) - ainda pode ser incluída na mesma visita/sessão. Quaisquer ocorrências &quot;antigas&quot; recebidas fora de ordem produzirão resultados &quot;desconhecidos&quot;, uma vez que vários fatores (segmentação, alocação, expiração etc.) influenciam se essas ocorrências serão incluídas no relatório ou não.
+>[!NOTE]
+>
+>Os dados de uma sessão com carimbo de data e hora são mantidos por até 92 dias. Isso significa que uma visita/sessão será &quot;mantida aberta&quot; por 92 dias, enquanto qualquer ocorrência adicional - que não seja 30 minutos após a ocorrência anterior (em tempo de ocorrência) - ainda pode ser incluída na mesma visita/sessão. Quaisquer ocorrências &quot;antigas&quot; recebidas fora de ordem produzirão resultados &quot;desconhecidos&quot;, uma vez que vários fatores (segmentação, alocação, expiração etc.) influenciam se essas ocorrências serão incluídas no relatório ou não.
 
 ## Novos conjuntos de relatórios {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +48,7 @@ Os Carimbos opcionais de data e hora permitem que você:
 
    Isso alterará seu conjunto de relatórios para Carimbos opcionais de data e hora.
 
->[!NOTE] Se um conjunto de relatórios foi definido como **Carimbos opcionais de data e hora**, para alterá-lo para qualquer outra configuração, entre em contato com o Atendimento ao cliente da Adobe.
+>[!NOTE]
+>
+>Se um conjunto de relatórios foi definido como **Carimbos opcionais de data e hora**, para alterá-lo para qualquer outra configuração, entre em contato com o Atendimento ao cliente da Adobe.
 
