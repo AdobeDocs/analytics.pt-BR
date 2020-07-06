@@ -3,7 +3,10 @@ description: 'null'
 title: Paletas de cores
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 É possível alterar a paleta de cores da visualização usada no Workspace ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações no Workspace, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
 
->[!NOTE] O suporte para a paleta de cores não está habilitado para o Internet Explorer 11.
+>[!NOTE]
+>
+>O suporte para a paleta de cores não está habilitado para o Internet Explorer 11.
 
 ![](assets/color_palettes.png)
 
@@ -23,11 +28,11 @@ Lembre-se:
 
 ## Para alterar a paleta de cores:
 
-1. Navegue até **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. From the **[!UICONTROL Project Color Palette]** dropdown, you can pick one of five pre-set color schemes.
+1. Navegue até **[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**.
+1. No menu suspenso **[!UICONTROL Paleta de cores do projeto]** você pode escolher um dos cinco esquemas de cores predefinidos.
 
    ![](assets/custom_palette.png)
 
-1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
+1. Para especificar sua própria paleta, selecione **[!UICONTROL Paleta personalizada]** abaixo das opções predefinidas.
 1. Especifique até 16 valores hexadecimais separados por vírgula (por exemplo, #00a4e4) para as cores que pretende usar. Caso deseje usar somente quatro valores, por exemplo, essas cores serão repetidas automaticamente nas visualizações que apresentarem mais cores.
 
