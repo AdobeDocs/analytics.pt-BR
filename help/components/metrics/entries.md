@@ -2,7 +2,7 @@
 title: Entradas
 description: Uma instância do primeiro valor em uma visita.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -20,4 +20,6 @@ A métrica &#39;Entradas&#39; mostra o número de vezes que um determinado valor
 
 Para uma determinada dimensão, registre o primeiro valor de dimensão visto em uma visita como uma entrada. Há apenas uma entrada por dimensão por visita. Não é necessariamente a primeira ocorrência da visita se a dimensão não estiver definida inicialmente. É uma métrica baseada em visitas; uma vez vinculado a um valor de dimensão, ele persistirá para o restante da visita.
 
->[!TIP] Se você visualização essa métrica em relação a uma dimensão nem sempre definida em cada visita, poderá ocultar o valor da dimensão &quot;Não especificado&quot; na área de trabalho da Análise. Clique no ícone de filtro e desmarque [!UICONTROL Incluir não especificado (Nenhum)].
+>[!TIP]
+>
+>Se você visualização essa métrica em relação a uma dimensão nem sempre definida em cada visita, é possível ocultar o valor da dimensão &quot;Não especificado&quot; no Analysis Workspace. Clique no ícone de filtro e desmarque [!UICONTROL Incluir não especificado (Nenhum)].
