@@ -2,7 +2,10 @@
 title: Analisadores de pacote
 description: Os analisadores de pacote permitem exibir os dados enviados pela implementação para os servidores de coleta de dados da Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Em casos muito raros, o depurador cria um relatório de solicitação de imagem,
 
 Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande variedade deles na internet. Os seguintes são alguns monitores de pacotes que outras pessoas acharam úteis.
 
->[!NOTE] Estas listas não estão completas, mas são informações sobre os monitores usados frequentemente. Se você tiver um monitor de pacote que use e ache útil, sinta-se à vontade para oferecer feedback usando o botão [!UICONTROL Feedback] no lado direito desta janela.
+>[!NOTE]
+>
+>Estas listas não estão completas, mas são informações sobre os monitores usados frequentemente. Se você tiver um monitor de pacote que use e ache útil, sinta-se à vontade para oferecer feedback usando o botão [!UICONTROL Feedback] no lado direito desta janela.
 
 | Firefox | Internet Explorer | Chrome | Programas autônomos |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande varie
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] A Adobe NÃO oferece suporte ou solução de problemas que você possa ter com esses monitores de pacote. Para obter assistência, consulte o site de origem do monitor de pacote.
+>[!NOTE]
+>
+>A Adobe NÃO oferece suporte ou solução de problemas que você possa ter com esses monitores de pacote. Para obter assistência, consulte o site de origem do monitor de pacote.
 
 ## NS_BINDING_ABORTED em códigos de resposta
 
