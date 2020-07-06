@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: Rastreie a localização geográfica de um visitante.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in da Adobe: getGeoCoordinates
 
->[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getGeoCoordinates` permite capturar a latitude e a longitude dos dispositivos dos visitantes. A Adobe recomenda usar esse plug-in se você desejar capturar dados de localização geográfica nas variáveis do Analytics.
 
@@ -59,7 +64,9 @@ O método `getGeoCoordinates` não usa nenhum argumento. Ele retorna um dos valo
 * `"error retrieving geo coordinates"`: quando o plug-in encontra erros ao tentar recuperar o local do dispositivo.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: onde [LATITUDE]/[LONGITUDE] são a latitude e a longitude, respectivamente.
 
->[!NOTE] Os valores de coordenadas são arredondados para a quarta casa decimal que estiver mais próxima. Por exemplo, o valor de `"40.438635333"` é arredondado para `"40.4386"` com o objetivo de limitar o número de valores únicos a serem capturados. Os valores estão próximos o suficiente para apontar o local exato do dispositivo com margem de 6 metros.
+>[!NOTE]
+>
+>Os valores de coordenadas são arredondados para a quarta casa decimal que estiver mais próxima. Por exemplo, o valor de `"40.438635333"` é arredondado para `"40.4386"` com o objetivo de limitar o número de valores únicos a serem capturados. Os valores estão próximos o suficiente para apontar o local exato do dispositivo com margem de 6 metros.
 
 Esse plug-in usa um cookie chamado `"s_ggc"` para armazenar coordenadas entre ocorrências, se necessário.
 
