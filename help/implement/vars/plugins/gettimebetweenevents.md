@@ -1,15 +1,20 @@
 ---
 title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in da Adobe: getTimeBetweenEvents
 
->[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getTimeBetweenEvents` permite rastrear a quantidade de tempo entre dois eventos do Analytics, incluindo o carrinho de compras e eventos personalizados. É útil para rastrear a quantidade de tempo que um processo de finalização leva para ser concluído, ou para qualquer outro processo que você deseja medir o tempo. Este plug-in é desnecessário se não houver nenhum processo de conversão cujo tempo de execução você queira medir.
 
@@ -19,7 +24,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo]
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
 1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
    * Condição: Nenhuma
