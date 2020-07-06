@@ -2,8 +2,11 @@
 description: 'null'
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3641'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos
 
 ## Rótulos de DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE] A estrutura DULE (Data Usage Labeling &amp; Enforcement, Rotulagem e aplicação de uso de dados) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
+>[!NOTE]
+>
+>A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
 
 ## Rótulos de dados de identidade (DULE) {#identity-data-labels}
 
@@ -208,8 +213,8 @@ Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solici
 
 Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer um dos conjuntos de relatórios na empresa de logon, será possível selecionar um desses namespaces existentes. Reutilize o namespace se essa variável contiver o mesmo tipo de IDs que outras variáveis já rotuladas com esse namespace e você desejar pesquisar todos eles ao enviar uma solicitação.
 
-1. Clique em **[!UICONTROL Select Namespace]** e selecione um dos namespaces.
-1. Clique em **[!UICONTROL Apply]**.
+1. Clique em **[!UICONTROL Selecionar namespace]** e selecione um dos namespace existentes.
+1. Clique em **[!UICONTROL Aplicar]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +222,12 @@ Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer
 
 Você também pode definir um novo namespace. Recomendamos que as sequências de caracteres do namespace sejam limitadas a caracteres alfanuméricos, além de caracteres com sublinhado, traço e espaço. Elas serão inteiramente convertidas para letras minúsculas.
 
-1. Clique em **[!UICONTROL Select Namespace]** e digite o título do namespace.
+1. Clique em **[!UICONTROL Selecionar namespace]** e digite o título do namespace.
 
    ![](assets/namespace2.png)
 
 1. Pressione **[!UICONTROL Enter]** para adicionar este namespace. O botão Aplicar será ativado somente agora.
-1. Clique em **[!UICONTROL Apply]**.
+1. Clique em **[!UICONTROL Aplicar]**.
 
 A sequência de caracteres especificada como namespace é a mesma que deve ser usada ao enviar solicitações por meio da API da Privacidade de dados como o valor do parâmetro “namespace”. A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
 
@@ -240,7 +245,9 @@ Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas 
 
 Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela eVar1 e outras pela prop7. Em seguida, você tem uma regra de processamento que copia o valor da eVar1, se existir, para a eVar3. Caso contrário, ela copia o valor da prop7 para a eVar3. Nesse cenário, a eVar3 sempre conterá a ID do CRM, se for conhecida. Portanto, somente a eVar3 exigirá um rótulo de ID-PERSON.
 
->[!CAUTION] Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
+>[!CAUTION]
+>
+>Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
 ## Tipos de variáveis e rótulos Privacidade de dados/DULE compatíveis {#section_CE7C3EDE1344466A98BC45E394B40762}
 
