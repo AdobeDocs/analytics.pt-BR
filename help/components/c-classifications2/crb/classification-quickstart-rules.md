@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Regras de classificação
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [Quando as regras não classificam as teclas?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Sobre a prioridade das regras](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] O [!UICONTROL Construtor de regras] não suporta classificações numéricas 2.
+>[!NOTE]
+>
+>O [!UICONTROL Construtor de regras] não suporta classificações numéricas 2.
 
 ## Informações importantes sobre as Regras
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Expressões regulares - Exemplo &quot;Não contém&quot; ](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Expressões regulares - Tabela de referência](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Como uma prática recomendada, as expressões regulares se encaixam melhor em códigos de rastreamento que usam delimitadores.
+>[!NOTE]
+>
+>Como uma prática recomendada, as expressões regulares se encaixam melhor em códigos de rastreamento que usam delimitadores.
 
 ## Expressão regular - Rastreamento do exemplo de código {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Se o código de rastreamento possuir codificação de URL, **ele não** será classificado pelo Construtor de regras.
+>[!NOTE]
+>
+>Se o código de rastreamento possuir codificação de URL, **ele não** será classificado pelo Construtor de regras.
 
 Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 
