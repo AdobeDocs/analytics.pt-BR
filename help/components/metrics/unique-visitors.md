@@ -2,7 +2,7 @@
 title: Visitantes únicos
 description: O número de indivíduos únicos (ou dispositivos).
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Essa métrica conta o número de IDs de visitante exclusivas para um determinado
 | 4 | `fid` | O Visitante tem um [`s_fid`](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-analytics.html) cookie existente ou se `aid` e não `mid` pôde ser definido por nenhum motivo. |
 | 5 | Endereço IP, Agente do usuário, Endereço IP de gateway | Último recurso para identificar um visitante exclusivo se o navegador do visitante não aceitar cookies. |
 
->[!NOTE] Cada ID de visitante da Analytics está vinculada a um perfil nos servidores da Adobe. Esses perfis de visitante são excluídos após pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie de ID de visitante.
+>[!NOTE]
+>
+>Cada ID de visitante da Analytics está vinculada a um perfil nos servidores da Adobe. Esses perfis de visitante são excluídos após pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie de ID de visitante.
 
 ## Comportamento que afeta a contagem exclusiva de visitantes
 
