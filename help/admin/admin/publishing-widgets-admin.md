@@ -4,7 +4,10 @@ title: Widget de publicação
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Um Widget de publicação é um contêiner que permite incorporar relatórios do
 
 Por exemplo, você poderia fornecer um painel para que os executivos da empresa pudessem exibir o número de visitantes à página, o número de visitantes únicos à página e assim por diante.
 
->[!CAUTION] Não é necessário uma autenticação para visualizar dados publicados pelo Widget de publicação. Devido a isso, você deve considerar os dados publicados como tão seguros quando os dados enviados para um grupo por email ou servidor de lista. Use o widget somente de acordo com os padrões de segurança, requisitos contratuais existentes e legislação aplicável de sua organização. O Widget de publicação fornece a capacidade de restringir, pelo endereço IP ou caminho de domínio, onde você pode publicar dados. Entretanto, esses mecanismos são destinados exclusivamente a impedir a distribuição não intencional de dados e não são uma forma eficaz de proteger o acesso a dados distribuídos através do Widget de publicação.
+>[!CAUTION]
+>
+>Não é necessário uma autenticação para visualizar dados publicados pelo Widget de publicação. Devido a isso, você deve considerar os dados publicados como tão seguros quando os dados enviados para um grupo por email ou servidor de lista. Use o widget somente de acordo com os padrões de segurança, requisitos contratuais existentes e legislação aplicável de sua organização. O Widget de publicação fornece a capacidade de restringir, pelo endereço IP ou caminho de domínio, onde você pode publicar dados. Entretanto, esses mecanismos são destinados exclusivamente a impedir a distribuição não intencional de dados e não são uma forma eficaz de proteger o acesso a dados distribuídos através do Widget de publicação.
 >
 > A Adobe não se responsabiliza por dados expostos através do Widget de publicação.
 
@@ -31,7 +36,9 @@ Se você notar diferenças de dados entre o Widget de publicação e a interface
 1. Clique em **[!UICONTROL Salvar]** no widget.
 1. Execute o widget novamente. (O modo de visualização não utiliza o cache do widget).
 
->[!NOTE] Os widgets de publicação mostram apenas a primeira coluna dos dados de um relatório.
+>[!NOTE]
+>
+>Os widgets de publicação mostram apenas a primeira coluna dos dados de um relatório.
 
 ## Descrições de widgets de publicação {#section_D67478AECCA946B19A3E4C7071EB4871}
 
