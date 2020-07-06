@@ -3,8 +3,11 @@ description: O encaminhamento pelo lado do servidor foi projetado para clientes 
 solution: Audience Manager
 title: Visão geral do encaminhamento pelo lado do servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (sel
 * **Desabilitada**: você não possui o novo encaminhamento pelo lado do servidor ativado. Leia o conteúdo na página e prossiga com a ativação do recurso.
 * **Habilitada:** você está provisionado para o novo encaminhamento pelo lado do servidor. Você também pode configurar esta integração do Audience Analytics.
 
->[!NOTE] Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/aam-home.html) ou [Públicos-alvo](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
+>[!NOTE]
+>
+>Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/aam-home.html) ou [Públicos-alvo](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
 
