@@ -3,7 +3,7 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
@@ -31,7 +31,9 @@ Por outro lado, se você possuir duas métricas de interesse, pode não ser corr
 
 Retorna o valor do seu argumento. Use NÃO para garantir que um valor não seja igual a um determinado valor.
 
->[!NOTE] 0 (zero) significa Falso, e qualquer outro valor é True.
+>[!NOTE]
+>
+>0 (zero) significa Falso, e qualquer outro valor é True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -207,7 +209,9 @@ Retorna a média das últimas N linhas.
 
 Se N &lt;= 0, usa todas as linhas anteriores. Já que é ordenado pela dimensão, é útil somente em dimensões com ordem natural como datas ou comprimento do caminho.
 
->[!NOTE] Isso não funciona conforme o esperado com métricas de taxa como receita/visitante: calcula a média das taxas em vez de dividir a soma da receita dos últimos N e a soma dos visitantes dos últimos N. Em vez disso, use
+>[!NOTE]
+>
+>Isso não funciona conforme o esperado com métricas de taxa como receita/visitante: calcula a média das taxas em vez de dividir a soma da receita dos últimos N e a soma dos visitantes dos últimos N. Em vez disso, use
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -450,7 +454,9 @@ Retorna todos os itens que não contêm a correspondência exata do valor inseri
 
 Retorna TRUE se qualquer argumento for VERDADEIRO, ou FALSE se todos os argumentos forem FALSOS.
 
->[!NOTE] 0 (zero) significa Falso, e qualquer outro valor é True.
+>[!NOTE]
+>
+>0 (zero) significa Falso, e qualquer outro valor é True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -691,7 +697,9 @@ A equação da pontuação Z é:
 
 onde [!DNL x] é a pontuação bruta, [!DNL μ] é a média da população e [!DNL σ] é o desvio padrão da população.
 
->[!NOTE] [!DNL μ] (mu) e [!DNL σ] (sigma) são automaticamente calculados a partir da métrica.
+>[!NOTE]
+>
+>[!DNL μ] (mu) e [!DNL σ] (sigma) são automaticamente calculados a partir da métrica.
 
 Pontuação Z (métrica)
 
@@ -716,5 +724,7 @@ Realiza teste z n-caudal com pontuação Z de A.
 
 Retorna a probabilidade de a linha atual ser vista por acaso na coluna.
 
->[!NOTE] O teste z assume que os valores são distribuídos normalmente.
+>[!NOTE]
+>
+>O teste z assume que os valores são distribuídos normalmente.
 
