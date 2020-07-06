@@ -3,7 +3,10 @@ description: Essas alterações no funcionamento das métricas calculadas do Ana
 title: Perguntas frequentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2148'
+ht-degree: 100%
 
 ---
 
@@ -75,9 +78,13 @@ Você verá várias métricas calculadas com um mesmo nome (mas criadas em conju
 
 Considere consolidar as métricas calculadas com nomes e definições similares, mas tenha cuidado ao fazer isso. Você pode verificar o conjunto de relatórios para uma métrica calculada no Gerenciador de métricas calculadas, de modo a verificar o conjunto de relatórios original. Você também deve verificar as definições das métricas ao excluir possíveis duplicatas, a fim de garantir que está consolidando as métricas corretamente.
 
->[!NOTE] Ainda que as métricas calculadas não estejam mais vinculadas a um conjunto específico de relatórios e possam ser usadas em qualquer conjunto de relatórios visível para a empresa de logon, o conjunto de relatórios no qual a métrica calculada foi criada ou salva pela última vez ainda pode ser visualizado no Gerenciador de métricas calculadas.
+>[!NOTE]
+>
+>Ainda que as métricas calculadas não estejam mais vinculadas a um conjunto específico de relatórios e possam ser usadas em qualquer conjunto de relatórios visível para a empresa de logon, o conjunto de relatórios no qual a métrica calculada foi criada ou salva pela última vez ainda pode ser visualizado no Gerenciador de métricas calculadas.
 
->[!NOTE] Mesmo que uma métrica calculada seja excluída, os marcadores ou relatórios de painel que referenciam a métrica ainda funcionarão.
+>[!NOTE]
+>
+>Mesmo que uma métrica calculada seja excluída, os marcadores ou relatórios de painel que referenciam a métrica ainda funcionarão.
 
 ## O que aconteceu com minhas métricas calculadas globais? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ Agora, as métricas calculadas globais são possuídas pelo primeiro usuário ad
 
 Nada. Contudo, o novo proprietário administrador deve tomar cuidado ao modificar ou excluir estas métricas calculadas; é possível que elas sejam usadas por vários relatórios e painéis marcados.
 
->[!NOTE] Mesmo que uma métrica calculada seja excluída, os marcadores ou relatórios de painel que referenciam a métrica ainda funcionarão.
+>[!NOTE]
+>
+>Mesmo que uma métrica calculada seja excluída, os marcadores ou relatórios de painel que referenciam a métrica ainda funcionarão.
 
 ## O que aconteceu com as métricas calculadas globais que foram compartilhadas com empresas de logon? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ As métricas calculadas globais não podem mais ser compartilhadas com as empres
 * Aplicadas ao padrão &quot;compartilhado com todos&quot;.
 * Serão cópias independentes de todas as outras empresas de logon.
 
->[!NOTE] Caso a métrica calculada tenha sido usada em um marcador, painel, alerta ou relatório programado, a edição de uma nova cópia NÃO afetará a métrica calculada mantida.
+>[!NOTE]
+>
+>Caso a métrica calculada tenha sido usada em um marcador, painel, alerta ou relatório programado, a edição de uma nova cópia NÃO afetará a métrica calculada mantida.
 
 ## O que aconteceu com a métricas calculadas com uma classificação Numérico ou Numérico2? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
