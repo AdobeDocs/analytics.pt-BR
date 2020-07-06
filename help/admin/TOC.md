@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Visão geral de administração do Analytics {#admin-overview}
    + [Qual ferramenta do Adobe Analytics devo usar?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Comparação e requisitos de produtos do Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Requisitos do sistema](c-system-requirements/sys-reqs.md)
++ [Requisitos do sistema](sys-reqs.md)
 + Ferramentas administrativas {#admin-tools}
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
@@ -198,5 +198,5 @@ ht-degree: 99%
    + [Programar um pico de tráfego](c-traffic-management/t-traffic-schedule-spike.md)
    + [Estimar chamadas de servidor antigas e agendar um pico de tráfego](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [Especificar o aumento de tráfego permanente](c-traffic-management/t-traffic-permanent.md)
-   + [Tempo de lead necessário para aumentos de tráfego](c-traffic-management/traffic-lead-time.md)
+   + [Lead time necessário para aumentos de tráfego](c-traffic-management/traffic-lead-time.md)
 + [API de administração](c-admin-api/c-admin-api.md)
