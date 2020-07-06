@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Preparação para usar as Fontes de dados
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Depois de determinar os mapeamentos adequados de métrica para eventos para os d
 
 Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda das Ferramentas administrativas.
 
->[!NOTE] A Adobe recomenda utilizar eventos novos e vazios com os dados de Fontes de dados, mas, em raros casos, pode fazer sentido usar um evento preexistente.
+>[!NOTE]
+>
+>A Adobe recomenda utilizar eventos novos e vazios com os dados de Fontes de dados, mas, em raros casos, pode fazer sentido usar um evento preexistente.
 
 ## Identificação das Dimensões de Dados {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a 
 
 É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados *`Product`* e *`Partner`*, a métrica de vendas offline deverá ser relevante para cada combinação de produto e parceiro (por exemplo, Receita total).
 
->[!NOTE] É possível importar Métricas totais que não podem ser analisadas por qualquer dimensão de dados.
+>[!NOTE]
+>
+>É possível importar Métricas totais que não podem ser analisadas por qualquer dimensão de dados.
 
 Após definir as dimensões dos dados para usar com uma fonte de dados, integre os dados de dimensões aos relatórios de marketing por mapeá-los na variável. Use os relatórios padrão (por exemplo, Produto, Código de rastreamento, Palavra-chave de Pesquisa) ou as variáveis de Tráfego e Conversão (eVars).
 
