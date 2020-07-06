@@ -2,8 +2,11 @@
 description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 title: 'Referência: funções básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ O Criador de métricas calculadas permite aplicar funções matemáticas e estat
 
 Veja uma lista em ordem alfabética das funções e suas definições.
 
->[!NOTE] Sempre que [!DNL metric] for definida como um argumento em uma função, outras expressões de métricas também serão permitidas. Por exemplo, [!DNL MAXV(metrics)] também permite [!DNL MAXV(PageViews + Visits).]
+>[!NOTE]
+>
+>Sempre que [!DNL metric] for definida como um argumento em uma função, outras expressões de métricas também serão permitidas. Por exemplo, [!DNL MAXV(metrics)] também permite [!DNL MAXV(PageViews + Visits).]
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *number* | A métrica que deseja arredondar. |
+| *número* | A métrica que deseja arredondar. |
 
 Arredondar sem um parâmetro de dígitos é igual a arredondar com um parâmetro de dígitos de 0; ou seja, arredondar para o número inteiro mais próximo. Com um parâmetro de dígitos, ele retorna o mesmo número de dígitos à direita da casa decimal. Se os dígitos forem negativos, retornará zeros à esquerda da casa decimal.
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *number* | A métrica para a qual você deseja obter a raiz quadrada. |
+| *número* | A métrica para a qual você deseja obter a raiz quadrada. |
 
 ## Desvio padrão (Tabela) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
