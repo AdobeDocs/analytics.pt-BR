@@ -2,8 +2,11 @@
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Essas informações permitem identificar quaisquer dados direta ou indiretamente
 
 Se estiver usando uma integração de qualquer um dos conectores abaixo, você pode simplesmente verificar quais variáveis/classificações de parceiros na integração podem, possivelmente, conter dados direta ou indiretamente identificáveis.
 
->[!NOTE] Essas informações são fornecidas para ajudar a identificar as variáveis que devem ser [rotuladas](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mas você, como o controlador de dados, é responsável por aplicar os rótulos apropriados ou executar outras ações para [Prontidão da privacidade de dados](/help/admin/c-data-governance/an-gdpr-overview.md) (atualização das classificações etc.).
+>[!NOTE]
+>
+>Essas informações são fornecidas para ajudar a identificar as variáveis que devem ser [rotuladas](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mas você, como o controlador de dados, é responsável por aplicar os rótulos apropriados ou executar outras ações para [prontidão da Privacidade de dados](/help/admin/c-data-governance/an-gdpr-overview.md) (atualização das classificações etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
