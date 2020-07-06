@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 translation-type: tm+mt
-source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 76%
@@ -87,4 +87,6 @@ Por exemplo, se você criar um VRS com um segmento “Exibir ocorrências” apl
 
 ![Conjunto de relatórios virtuais “somente exibição”](assets/vrs-aiq-example.png)
 
->[!NOTE] Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente ocultará alguns valores de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
+>[!NOTE]
+>
+>Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente ocultará alguns valores de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
