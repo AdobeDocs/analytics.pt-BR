@@ -2,7 +2,7 @@
 title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ A variável `s.events` é uma string que contém uma lista de eventos delimitada
 * `scView`: Aumenta a métrica [&#39;Visualizações](/help/components/metrics/cart-views.md) do carrinho.
 * `scCheckout`: Aumenta a métrica [&#39;Check-outs&#39;](/help/components/metrics/checkouts.md) .
 
->[!NOTE] Essa variável diferencia maiúsculas e minúsculas. Evite usar maiúsculas e minúsculas incorretas em valores de evento para garantir uma coleta de dados precisa.
+>[!NOTE]
+>
+>Essa variável diferencia maiúsculas e minúsculas. Evite usar maiúsculas e minúsculas incorretas em valores de evento para garantir uma coleta de dados precisa.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Os eventos contadores não suportam valores decimais ou de moeda. Use eventos de moeda para moedas ou eventos numéricos para valores decimais.
+>[!NOTE]
+>
+>Os eventos contadores não suportam valores decimais ou de moeda. Use eventos de moeda para moedas ou eventos numéricos para valores decimais.
 
 ### Usar eventos de moeda
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Se você definir um valor de moeda na variável `events` e na `products`, o valor de moeda em `events` será usado. Evite definir valores de moeda nas variáveis `events` e `products`.
+>[!NOTE]
+>
+>Se você definir um valor de moeda na variável `events` e na `products`, o valor de moeda em `events` será usado. Evite definir valores de moeda nas variáveis `events` e `products`.
 
 ### Usar eventos numéricos
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Se você definir um valor numérico na variável `events` e na `products`, o valor numérico em `events` será usado. Evite definir valores numéricos nas variáveis `events` e `products`.
+>[!NOTE]
+>
+>Se você definir um valor numérico na variável `events` e na `products`, o valor numérico em `events` será usado. Evite definir valores numéricos nas variáveis `events` e `products`.
