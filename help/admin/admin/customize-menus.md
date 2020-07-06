@@ -4,7 +4,10 @@ title: Personalização do menu
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Este recurso permite que você personalize os menus de relatório que são exibi
 
 As alterações no menu se aplicam a todos os usuários que acessam o conjunto de relatórios. No entanto, os usuários podem restaurar uma configuração padrão do menu enquanto usam o conjunto de relatórios.
 
->[!NOTE] As mudanças feitas na estrutura de menus não afetam o Report Builder nem a Ad Hoc Analysis. Entretanto, a renomeação de um relatório se reflete em ambos.
+>[!NOTE]
+>
+>As mudanças feitas na estrutura de menus não afetam o Report Builder nem a Ad Hoc Analysis. Entretanto, a renomeação de um relatório se reflete em ambos.
 
 ## Descrições de personalização de menu {#section_B0D224DACB914A378902A4E0E1234889}
 
