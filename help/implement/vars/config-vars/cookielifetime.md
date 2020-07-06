@@ -1,8 +1,11 @@
 ---
 title: cookieLifetime
 description: Substituir a expiração dos cookies criados pelo AppMeasurement.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Os cookies definidos pelo AppMeasurement normalmente expiram em 2 anos. Use a variável `cookieLifetime` para substituir a data de expiração dos cookies definidos pelo AppMeasurement.
 
->[!NOTE] Essa variável afeta a contagem e atribuição de visitantes únicos. Tenha cuidado ao definir essa variável.
+>[!NOTE]
+>
+>Essa variável afeta a contagem e atribuição de visitantes únicos. Tenha cuidado ao definir essa variável.
 
 ## Vida útil do cookie no Adobe Experience Platform Launch
 
