@@ -3,8 +3,11 @@ description: É possível diferenciar os links com a personalização da ID do l
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +90,9 @@ Ao criar uma ID de objeto única para um link ou um local de link em uma página
 
 Você pode personalizar a região certificando-se de que cada link “comprar” tenha a sua própria Região definida. Para fazer isso, adicione um parâmetro “id” a um dos pais de cada tag de âncora “Buy”.
 
->[!NOTE] Você não está estritamente limitado ao parâmetro “id” como um identificador de região. Também é possível definir o seu próprio identificador usando a variável do JavaScript “s.ActivityMap.regionIDAttribute”.
+>[!NOTE]
+>
+>Você não está estritamente limitado ao parâmetro “id” como um identificador de região. Também é possível definir o seu próprio identificador usando a variável do JavaScript “s.ActivityMap.regionIDAttribute”.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
