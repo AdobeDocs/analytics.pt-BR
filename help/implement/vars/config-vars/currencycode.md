@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ Se `currencyCode` for definida e corresponder à moeda do conjunto de relatório
 
 Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados nos servidores de coleta de dados são armazenados na moeda do conjunto de relatórios.
 
->[!IMPORTANT] Se `currencyCode` contiver um valor inválido, a ocorrência inteira será descartada, causando perda de dados. Certifique-se de que essa variável esteja definida corretamente se usá-la na implementação.
+>[!IMPORTANT]
+>
+>Se `currencyCode` contiver um valor inválido, a ocorrência inteira será descartada, causando perda de dados. Certifique-se de que essa variável esteja definida corretamente se usá-la na implementação.
 
 Essa variável não é mantida entre ocorrências. Certifique-se de que essa variável esteja definida em cada página que envolva eventos de receita ou moeda.
 
@@ -35,9 +37,9 @@ O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a ext
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## Código de moeda no SDK móvel da Adobe Experience Platform
+## Código de moeda no Adobe Experience Platform Mobile SDK
 
-O código de moeda é passado para os SDKs móveis da Adobe Experience Platform por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
+O código de moeda é passado para os SDKs do Adobe Experience Platform Mobile por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
 
 1. Defina o código de moeda em uma variável de dados de contexto durante `trackState` ou `trackAction`.
 2. Crie uma regra de processamento no console de administração do Adobe Analytics para o conjunto de relatórios. Defina a regra para substituir a variável Código de moeda.
