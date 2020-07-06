@@ -4,7 +4,10 @@ title: Gerenciador de programação
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Você pode personalizar o agendamento da entrega de relatórios. É possível in
 
 Você pode personalizar o agendamento da entrega de relatórios. É possível interromper a entrega em determinado momento ou especificar o número de vezes que você deseja enviar um relatório. Os novos agendamentos usam o intervalo de datas definido no relatório. Por exemplo, se você criar um relatório para os últimos 90 dias e agendar sua execução diariamente, você recebe um relatório dos últimos 90 dias a cada dia. Se você criar um relatório com um intervalo de datas estático do calendário, você verá o mesmo relatório sempre que ele for enviado.
 
->[!NOTE] quando uma conta de usuário é desativada, qualquer entrega agendada de relatório que tenha sido criada por esse usuário é suspensa.
+>[!NOTE]
+>
+>quando uma conta de usuário é desativada, qualquer entrega agendada de relatório que tenha sido criada por esse usuário é suspensa.
 
 Para garantir que os itens de linha em um detalhamento sejam mantidos em relatórios salvos e programados, use o recurso **[!UICONTROL Editar itens]** no [Construtor de tabela](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para criar listas de dimensão fixas em detalhamentos.
 
