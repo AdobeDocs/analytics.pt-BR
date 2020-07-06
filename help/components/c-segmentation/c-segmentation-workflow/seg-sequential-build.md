@@ -3,8 +3,11 @@ description: Segmentos sequenciais são criados por meio do operador ENTÃO, em 
 title: Construir segmentos sequenciais
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +247,9 @@ Criar sequência simples arrastando dois contêineres de [!UICONTROL Ocorrência
 Os contêineres do Grupo lógico são necessários para agrupar as condições em um único ponto de verificação de segmento sequencial. O contêiner especial do Grupo lógico está disponível somente na segmentação sequencial, para garantir que suas condições sejam atendidas após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial posterior. As condições no próprio ponto de verificação do Grupo lógico podem ser cumpridas em qualquer ordem. Por outro lado, os contêineres não sequenciais (ocorrência, visita, visitante) não exigem que suas condições sejam atendidas na sequência geral, produzindo resultados não intuitivos, se usados com um operador ENTÃO.
 O contêiner do [!UICONTROL Grupo lógico] foi projetado para tratar *vários pontos de verificação como um grupo*, *sem qualquer ordem* entre os pontos de verificação agrupados. Em outras palavras, a ordem dos pontos de verificação nesse grupo não é importante. Por exemplo, não é possível aninhar um contêiner de [!UICONTROL Visitante] em um contêiner de [!UICONTROL Visitante]. Mas, em vez disso, você pode aninhar um contêiner do [!UICONTROL Grupo lógico] em um contêiner de [!UICONTROL Visitante] com pontos de verificação de nível de [!UICONTROL Visita] e [!UICONTROL Ocorrência].
 
->[!NOTE] Um [!UICONTROL Grupo lógico] só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL ENTÃO] é usado na expressão.
+>[!NOTE]
+>
+>Um [!UICONTROL Grupo lógico] só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL ENTÃO] é usado na expressão.
 
 | Hierarquia do contêiner | Ilustração | Definição |
 |---|---|---|
