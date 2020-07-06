@@ -1,19 +1,26 @@
 ---
 title: Visão geral da implementação do JavaScript do Código H
 description: Saiba mais sobre o fluxo de trabalho para implementar o Código H no site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
 
 # Visão geral da implementação do JavaScript do Código H
 
->[!IMPORTANT] Essa versão da coleta de dados não é mais compatível. Atualize para o [Adobe Experience Platform Launch](../../launch/overview.md) ou para o [AppMeasurement para JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>Essa versão da coleta de dados não é mais compatível. Atualize para o [Adobe Experience Platform Launch](../../launch/overview.md) ou para o [AppMeasurement para JavaScript](../overview.md).
 
 É necessário ter acesso aos servidores de hospedagem para implementar com êxito uma página com código para coletar dados. As etapas a seguir oferecem orientações para a implementação básica do Código H do Analytics.
 
->[!NOTE] Você já deve ter uma cópia existente do `s_code.js` para seguir essas instruções. A Adobe não oferece mais uma opção para baixar o Código H no Gerenciador de código.
+>[!NOTE]
+>
+>Você já deve ter uma cópia existente do `s_code.js` para seguir essas instruções. A Adobe não oferece mais uma opção para baixar o Código H no Gerenciador de código.
 
 1. **Atualizar variáveis do arquivo JS principal**: edite o arquivo `s_code.js` e verifique se as seguintes variáveis foram atualizadas:
    * `s_account` contém a ID do conjunto de relatórios para a qual você deseja enviar dados. Consulte
