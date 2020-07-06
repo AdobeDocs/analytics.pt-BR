@@ -4,7 +4,10 @@ title: Descrições do relatório personalizado
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Você pode fornecer descrições personalizadas de relatórios para eVars, props
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL *Canais de marketing *]**.
 
->[!NOTE] A adição de descrição está disponível para a maioria das classificações tradicionais, porém não está disponível para classificações móveis.
+>[!NOTE]
+>
+>A adição de descrição está disponível para a maioria das classificações tradicionais, porém não está disponível para classificações móveis.
 
 ![](assets/report_descriptions.png)
 
