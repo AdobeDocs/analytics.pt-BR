@@ -3,7 +3,10 @@ description: 'null'
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +27,7 @@ Para ativar a integração, conclua o assistente de configuração na interface 
    1. **[!UICONTROL Endereço]** de email: O endereço de email do contato principal.
    1. **[!UICONTROL Descrição]** (opcional): Descrição desta configuração de integração.
    1. **[!UICONTROL Chave]** Kampyle: Localize essa chave no aplicativo Kampyle em Formulário **[!UICONTROL de]** feedback > Personalização **[!UICONTROL do formulário de]** feedback.
-   1. **[!UICONTROL Servidor]** de rastreamento: O valor do servidor de rastreamento usado para rastrear os dados do Adobe Analytics.
+   1. **[!UICONTROL Servidor]** de rastreamento: O valor do servidor de rastreamento que você usa para rastrear os dados do Adobe Analytics.
    1. **[!UICONTROL Servidor de rastreamento seguro]**: Se o servidor de rastreamento for diferente para tráfego seguro/https, forneça essa configuração aqui.
 1. Configure os itens de **[!UICONTROL Mapeamentos de variável]** a seguir:
    1. **[!UICONTROL ID]** de feedback do Kampyle: Selecione uma variável eVar disponível em seu conjunto de relatórios
@@ -38,7 +41,9 @@ Para ativar a integração, conclua o assistente de configuração na interface 
 
 Após concluir o assistente de integração, implante o objeto de configuração de integração na propriedade da Web. Em muitos casos, a maneira mais fácil de implantar o objeto de configuração de integração é incluí-lo no código de implantação do Adobe Analytics.
 
->[!NOTE] Se você usar o Adobe Experience Platform Launch, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
+>[!NOTE]
+>
+>Se você usar o Adobe Experience Platform Launch, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
 
 1. Navegue até a guia **[!UICONTROL Recursos]** > **[!UICONTROL Suporte da integração]**.
 1. Baixe e salve o recurso **[!UICONTROL Código de integração do Kampyle (JS)]**. O código é semelhante a este:
@@ -51,7 +56,7 @@ Após concluir o assistente de integração, implante o objeto de configuração
 1. Implante o código usando um dos seguintes métodos:
 
    * Use o Adobe Experience Platform Launch.
-   * Forneça o código ao recurso organizacional que mantém a implantação do Adobe Analytics.
+   * Forneça o código ao recurso organizacional que mantém sua implantação do Adobe Analytics.
 
 ## Verificar a integração {#verify-the-integration}
 
@@ -61,7 +66,9 @@ Valide se a integração transfere dados com êxito, concluindo algumas verifica
 
 Visualize sua configuração de integração do Kampyle na Adobe Experience Cloud navegando até **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividade de integração]**. Na guia **[!UICONTROL Entrada de dados]**, você deve ver entradas declarando que os dados de classificação foram importados com êxito.
 
->[!NOTE] As entradas de registro normalmente são exibidas dentro de 24 horas após a implantação bem-sucedida.
+>[!NOTE]
+>
+>As entradas de registro normalmente são exibidas dentro de 24 horas após a implantação bem-sucedida.
 
 ![Registro de atividades de integração](assets/integration_activity_log.png)
 
@@ -69,6 +76,8 @@ Visualize sua configuração de integração do Kampyle na Adobe Experience Clou
 
 Visualize seus relatórios de feedback do Kampyle com o Adobe Analytics navegando até os relatórios do Kampyle localizados na estrutura de menu adequada.
 
->[!NOTE] Os dados de relatório devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que os formulários de feedback integrados estejam recebendo envios ativamente.
+>[!NOTE]
+>
+>Os dados de relatório devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que os formulários de feedback integrados estejam recebendo envios ativamente.
 
 ![Dados de relatórios da Adobe](assets/adobe_reporting_data.png)
