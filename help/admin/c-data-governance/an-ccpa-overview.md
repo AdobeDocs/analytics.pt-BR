@@ -2,8 +2,11 @@
 description: Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer suporte aos direitos de acesso e de exclusão da CCPA para titulares de dados.
 title: Adobe Analytics e a CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer
 
 ## Visão geral da Adobe
 
->[!IMPORTANT] O conteúdo deste documento não é um aconselhamento jurídico e não se destina a substituir tal aconselhamento. Consulte o departamento jurídico da sua empresa para obter aconselhamento a respeito da CCPA.
+>[!IMPORTANT]
+>
+>O conteúdo deste documento não é um aconselhamento jurídico e não se destina a substituir tal aconselhamento. Consulte o departamento jurídico da sua empresa para obter aconselhamento a respeito da CCPA.
 
 Em 1º de janeiro de 2020, a lei de Privacidade do consumidor da Califórnia (CCPA) entra em vigor. Para obter mais informações sobre a resposta da Adobe e o que isso significa para você como cliente da Adobe, consulte [Centro de privacidade da Adobe.](https://www.adobe.com/br/privacy.html)
 
