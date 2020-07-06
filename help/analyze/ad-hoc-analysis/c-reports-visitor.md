@@ -4,7 +4,10 @@ title: Relatórios de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '870'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,9 @@ Você pode dividir o relatório de acordo com qualquer variável para determinar
 * Quantas visitas normalmente são necessárias para que um usuário que clicou na campanha XYZ realize uma compra.
 * Se os usuários de Tóquio, por exemplo, fazem mais visitas antes de gerar uma perspectiva de venda em comparação aos usuários de Londres.
 
->[!NOTE] Se o mesmo visitante acessar o site várias vezes no mesmo período, cada número de visita especificado é incrementado para cada visita.
+>[!NOTE]
+>
+>Se o mesmo visitante acessar o site várias vezes no mesmo período, cada número de visita especificado é incrementado para cada visita.
 
 Esse relatório é baseado nos dados de ID do visitante passados para a Adobe a cada acesso dos visitantes. Conforme esses dados são recebidos, a Adobe os compara aos dados históricos de ID de visitantes para determinar se o acesso é:
 
@@ -68,7 +73,9 @@ Esse relatório é baseado nos dados de ID do visitante passados para a Adobe a 
 * Um visitante anterior continuando uma visita (o número de visitas não aumenta).
 * Um visitante anterior fazendo uma nova visita (o número de visitas é incrementado em um).
 
->[!NOTE] Cada ID de visitante do Analytics está associada a um perfil de visitante nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
+>[!NOTE]
+>
+>Cada ID de visitante do Analytics está associada a um perfil de visitante nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
 
 ## Fidelidade do Cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -87,7 +94,9 @@ O relatório de [!UICONTROL Fidelidade do cliente] exibe padrões de compras de 
 * **Cliente antigo** clientes que efetuaram 2 compras
 * **Cliente fiel** clientes que efetuaram 3 ou mais compras
 
->[!NOTE] Ao usar essas métricas, todas as visitas de usuários (ou todos os visitantes) são representados nesse relatório, independentemente da realização de compras.
+>[!NOTE]
+>
+>Ao usar essas métricas, todas as visitas de usuários (ou todos os visitantes) são representados nesse relatório, independentemente da realização de compras.
 
 O estado da fidelidade muda após a conclusão da visita na qual ocorre um evento de compra. Por exemplo, um novo cliente (1 compra) realiza uma compra e se registra em um boletim informativo na mesma visita após a compra. O evento de registro no boletim informativo ainda é considerado uma interação de cliente novo, pois o estado da Fidelidade do cliente não será alterado até a próxima visita.
 
