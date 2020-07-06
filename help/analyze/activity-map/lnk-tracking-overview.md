@@ -3,8 +3,11 @@ description: 'O Activity Map rastreia os links com um algoritmo mais avançado '
 title: Rastreamento de links avançado
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Para obter mais informações sobre o rastreamento de links no Activity Map, cli
 
 ## Como o Rastreamento de links do Activity Map pode coletar dados de PII {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] Ao ativar o rastreamento do Activity Map, você poderá coletar dados de informações pessoalmente identificáveis (PII). Tais dados podem ser usados isoladamente ou junto a outras informações para identificar, contactar ou localizar uma pessoa, ou para identificar um indivíduo em um contexto.
+>[!CAUTION]
+>
+>Ao ativar o rastreamento do Activity Map, você poderá coletar dados de informações pessoalmente identificáveis (PII). Tais dados podem ser usados isoladamente ou junto a outras informações para identificar, contactar ou localizar uma pessoa, ou para identificar um indivíduo em um contexto.
 
 Veja a seguir alguns casos conhecidos nos quais dados de PII podem ser coletados usando o Rastreamento do Activity Map:
 
