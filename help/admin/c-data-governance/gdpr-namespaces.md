@@ -2,8 +2,11 @@
 description: A cada ID para a qual você deseja poder pesquisar, é atribuído um namespace, que é uma sequência de caracteres personalizada que identifica essa ID em qualquer variável em que for usada em todos os conjuntos de relatórios.
 title: Namespaces
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,9 @@ O valor deve ser especificado como um número decimal de 38 dígitos. Se você e
 
 Também é aceitável usar `"namespaceId": 4` em vez de ou além de `"namespace": "ECID"`, e você pode ver outros produtos da Adobe usarem esse formulário.
 
->[!NOTE] A Experience Cloud ID (ECID) era conhecida anteriormente como Marketing Cloud ID (MCID) e ainda é chamada por esse nome em algumas documentações existentes.
+>[!NOTE]
+>
+>A Experience Cloud ID (ECID) era conhecida anteriormente como Marketing Cloud ID (MCID) e ainda é referida por esse nome em algumas documentações existentes.
 >
 >Essas IDs são as únicas IDs compatíveis com o Analytics que usam um valor “type” em vez de “analytics”.
 
@@ -104,8 +109,12 @@ Para IDs em variáveis de conversão ou de tráfego personalizadas (props ou eVa
 
 Também é possível ver os namespaces definidos anteriormente para outras variáveis ou conjuntos de relatórios e reutilizá-los, para que um mesmo namespace possa ser facilmente usado em todos os conjuntos de relatórios que armazenam esse tipo de ID. Também é possível atribuir o mesmo namespace a várias variáveis em um conjunto de relatórios. Por exemplo, alguns clientes armazenam uma ID do CRM em uma variável de tráfego e em uma variável de conversão (dependendo da página, às vezes, somente em uma delas ou em ambas) e podem atribuir o namespace “ID do CRM” às duas variáveis.
 
->[!TIP] Evite usar o nome amigável de uma variável (o nome exibido na interface do usuário dos relatórios) ou o número da variável (como eVar12) ao especificar o namespace para a API de Privacidade de dados, a menos que também seja o namespace especificado ao aplicar o rótulo de ID-DEVICE ou ID-PERSON a essa variável. Usar um namespace, em vez de um nome amigável, permite que o mesmo bloco de identidade do usuário especifique a variável correta para vários conjuntos de relatórios. Por exemplo, se a ID estiver em diferentes eVars em alguns conjuntos de relatórios ou se os nomes amigáveis não corresponderem (como quando o nome amigável foi localizado para um conjunto de relatórios específico).
+>[!TIP]
+>
+>Evite usar o nome amigável de uma variável (o nome exibido na interface do usuário dos relatórios) ou o número da variável (como eVar12) ao especificar o namespace para a API de Privacidade de dados, a menos que também seja o namespace especificado ao aplicar o rótulo de ID-DEVICE ou ID-PERSON a essa variável. Usar um namespace, em vez de um nome amigável, permite que o mesmo bloco de identidade do usuário especifique a variável correta para vários conjuntos de relatórios. Por exemplo, se a ID estiver em diferentes eVars em alguns conjuntos de relatórios ou se os nomes amigáveis não corresponderem (como quando o nome amigável foi localizado para um conjunto de relatórios específico).
 
->[!CAUTION] Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
+>[!CAUTION]
+>
+>Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
 Para obter mais informações, consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
