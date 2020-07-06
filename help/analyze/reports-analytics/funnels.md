@@ -4,7 +4,7 @@ title: Funil de conversão
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -32,5 +32,7 @@ Este relatório também é personalizável para que você possa adicionar Evento
 
 A tabela mostra as estatísticas de vendas médias por click-through e a média de unidades vendidas por click-through. Você pode adicionar métricas e eventos personalizados de outros grupos de relatórios a estes relatórios. Esses funis têm muitas similaridades, mas são baseados em diferentes variáveis e eventos. Você pode usar esses relatórios para ver quais percentuais e tendências gerais de usuários ativam eventos especificados. Você pode ver onde os usuários não estão gerando eventos, o que oferece um insight sobre o ponto específico no processo de conversão.
 
->[!NOTE] As instâncias no contexto desses relatórios equivale ao total de visitas, nas quais uma eVar ou um evento foi definido.
+>[!NOTE]
+>
+>As instâncias no contexto desses relatórios equivale ao total de visitas, nas quais uma eVar ou um evento foi definido.
 
