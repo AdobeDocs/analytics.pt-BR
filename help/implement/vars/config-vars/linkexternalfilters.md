@@ -2,21 +2,23 @@
 title: linkExternalFilters
 description: Use a variável linkExternalFilters para ajudar no rastreamento automático do link de saída.
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
 
 # linkExternalFilters
 
-O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
+O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. Se o [`trackExternalLinks`](trackexternallinks.md) estiver ativado, uma solicitação de imagem será enviada para a Adobe logo que um visitante clicar em um link para sair do site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
 
-Se essa variável contiver um valor, o rastreamento automático de link de saída se comporta como uma lista permitida. Se um clique em um link não corresponder a algum valor `linkExternalFilters`, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+Se essa variável contiver um valor, o rastreamento automático de link de saída se comporta como uma lista de permissões. Se um clique em um link não corresponder a algum valor `linkExternalFilters`, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativado, a sequência de consulta também será examinada.
 
->[!TIP] Use essa variável somente se você souber exatamente quais domínios deseja considerar como links de saída. Muitas organizações acham que usar o `linkInternalFilters` é suficiente para as necessidades de rastreamento de link de saída, e não usam `linkExternalFilters`.
+>[!TIP]
+>
+>Use essa variável somente se você souber exatamente quais domínios deseja considerar como links de saída. Muitas organizações acham que usar o `linkInternalFilters` é suficiente para as necessidades de rastreamento de link de saída, e não usam `linkExternalFilters`.
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
