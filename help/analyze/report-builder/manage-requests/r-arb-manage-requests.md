@@ -4,7 +4,10 @@ title: Gerenciar solicitações - definições
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,13 @@ Descrições dos campos para gerenciar solicitações no Report Builder.
 
 ## Visão geral {#section_75C288C945FA4781A4EDF806711A5660}
 
-The [!UICONTROL Request Manager] provides a detailed view of the status of all requests you have built for all sheets or just one sheet of the active workbook. You can also add, edit, refresh, and delete a request (functions typically associated with the [!UICONTROL Request Wizard] and [!UICONTROL Request Manager]) by right-clicking on an available cell in the Excel spreadsheet that contains previous requests.
+O [!UICONTROL Gerenciador de solicitações] fornece uma visualização detalhada do status de todas as solicitações que você tiver criado para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação (funções normalmente associadas ao [!UICONTROL Assistente de solicitações] e ao [!UICONTROL Gerenciador de solicitações]) clicando com o botão direito do mouse em uma célula disponível na planilha do Excel que contenha solicitações anteriores.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+O [!UICONTROL Gerenciador de solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]** ( ![](assets/edit_request.gif) na barra de ferramentas do Report Builder.
 
->[!NOTE] O Adobe Report Builder aplica as dependências de solicitação somente na mesma planilha, não entre planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
+>[!NOTE]
+>
+>O Adobe Report Builder aplica as dependências de solicitação somente na mesma planilha, não entre planilhas. Restringir às dependências em uma única planilha garante a oportunidade da execução.
 
 ## Definições {#section_FD29D8614DE74F32A0027FA130F40304}
 
