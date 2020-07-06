@@ -5,7 +5,10 @@ title: Recursos da integração
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Depois de ativada, a integração do DFA dos Data Connectors oferece as seguinte
 * (opcional) Dados de custo do DFA
 * (opcional) Erros de consulta do DFA, tempos limite
 
->[!NOTE] Essa integração não é compatível com rastreadores de cliques (antigos comandos de cliques). Os rastreadores de cliques são usados para registrar o número de cliques em links de texto, links em mensagens de email ou outros elementos de código fixo em um site.
+>[!NOTE]
+>
+>Essa integração não é compatível com rastreadores de cliques (antigos comandos de cliques). Os rastreadores de cliques são usados para registrar o número de cliques em links de texto, links em mensagens de email ou outros elementos de código fixo em um site.
 
 A integração do DFA dos Data Connectors automaticamente constrói códigos de rastreamento do DFA com os dados apresentados pelo DFA. Esses códigos de rastreamento são construídos para identificar exclusivamente um anúncio juntamente com o posicionamento e a criação associados. A seguir temos a descrição da estrutura do código de rastreamento, dependendo da versão da integração. A versão 1.5 é desta forma:
 
@@ -55,5 +60,7 @@ Se **[!UICONTROL SearchCenter]** > **[!UICONTROL Desduplicação do DFA]** é se
 
 * No caso de um view-through do DFA, a integração preencherá a cadeia de caracteres “DFA Viewthrough” na eVar SCM.
 
->[!NOTE] Se SearchCenter > Desduplicação DFA for habilitado e o parâmetro de cadeia de caracteres de consulta do SearchCenter for definido, a visita não será considerada para processamento no DFA. Isso significa que o parâmetro de cadeia de caracteres de consulta do SearchCenter deve ser diferente do parâmetro de click-through do DFA, e nenhum anúncio de exibição deve definir o parâmetro de cadeia de caracteres de consulta do SearchCenter.
+>[!NOTE]
+>
+>Se SearchCenter > Desduplicação DFA for habilitado e o parâmetro de cadeia de caracteres de consulta do SearchCenter for definido, a visita não será considerada para processamento no DFA. Isso significa que o parâmetro de cadeia de caracteres de consulta do SearchCenter deve ser diferente do parâmetro de click-through do DFA, e nenhum anúncio de exibição deve definir o parâmetro de cadeia de caracteres de consulta do SearchCenter.
 
