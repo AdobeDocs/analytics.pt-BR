@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Modelo de classificação
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 O modelo inclui as classificações atualmente definidas (cabeçalhos de coluna) de um conjunto de dados específico, sem incluir os dados associados a cada classificação.
 
->[!NOTE] O método Modelo limita o download de dados de classificação para um único conjunto de relatórios.
+>[!NOTE]
+>
+>O método Modelo limita o download de dados de classificação para um único conjunto de relatórios.
 
 Para obter mais informações sobre a estrutura do arquivo de dados, consulte [Sobre arquivos de dados de classificação](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
@@ -38,7 +43,9 @@ Para obter mais informações sobre a estrutura do arquivo de dados, consulte [S
 
 O modelo fornece o formato de arquivo que deve ser seguido para as classificações.
 
->[!NOTE] O método Modelo limita o download de dados a um único conjunto de relatórios.
+>[!NOTE]
+>
+>O método Modelo limita o download de dados a um único conjunto de relatórios.
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 1. Na guia **[!UICONTROL Download de modelo]**, especifique a [configuração do modelo de dados](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
