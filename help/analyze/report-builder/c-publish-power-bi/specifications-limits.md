@@ -3,7 +3,10 @@ description: 'null'
 title: Limitações e especificações
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Restrições de publicação do Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Essas restrições se aplicam apenas à opção &quot;Publicar solicitações do Report Builder como tabelas de conjunto de dados do Power BI&quot;.
+>[!NOTE]
+>
+>Essas restrições se aplicam apenas à opção &quot;Publicar solicitações do Report Builder como tabelas de conjunto de dados do Power BI&quot;.
 
 * Um máximo de 100 solicitações do Report Builder pode ser exportado para o Power BI por pasta de trabalho.
 * O processo de agendamento interromperá a exportação das solicitações quando a 101a solicitação for atingida.
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Editar uma solicitação do Report Builder após a publicação no Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Essa especificação se aplica às opções &quot;Publicar todas as solicitações do Report Builder como tabelas de conjunto de dados do Power BI&quot; e &quot;Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI&quot;.
+>[!NOTE]
+>
+>Essa especificação se aplica às opções &quot;Publicar todas as solicitações do Report Builder como tabelas de conjunto de dados do Power BI&quot; e &quot;Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI&quot;.
 
 Editar uma solicitação do Report Builder após a sua publicação no Power BI pode causar problemas.
 
@@ -38,6 +45,7 @@ Editar uma solicitação do Report Builder após a sua publicação no Power BI 
       1. Verifique se ela sobrescreveu o conjunto de dados existente criado quando da primeira publicação.
       1. Verifique se a tabela da página_1 está atualizada de forma apropriada na Página e nas Colunas de visitas.
       1. Verifique se a sua visualização está quebrada, já que ela faz referência à coluna da Exibição de página que não está mais presente na tabela da página_1.
+
    **Este é um exemplo de como a visualização NÃO se quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
@@ -62,5 +70,5 @@ Lembre-se
 
 * O rótulo não pode ser uma combinação de letras e números que possa ser confundida com um endereço de linha e coluna. Por exemplo, A100 não pode ser um rótulo porque é o endereço de uma célula na planilha.
 * Os seguintes caracteres não são válidos para rótulos: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39; . Eles serão substituídos por um caractere underscore.
-* Quando um nome inválido é inserido, uma mensagem de aviso será mostrada que sugerirá um nome autogerado. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* Quando um nome inválido é inserido, uma mensagem de aviso será mostrada que sugerirá um nome autogerado. Se clicar em **[!UICONTROL Sim]**, esse nome será usado. Se clicar em **[!UICONTROL Não]**, a interface do usuário do Assistente avançado permitirá que um novo nome seja inserido.
 
