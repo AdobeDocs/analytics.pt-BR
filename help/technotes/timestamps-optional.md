@@ -5,7 +5,10 @@ title: Usar Carimbos opcionais de data e hora
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Carimbos opcionais de data e hora é uma configuração padrão para todos os co
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar carimbos sem precisar criar um novo conjunto de relatórios.
 
->[!NOTE] Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
+>[!NOTE]
+>
+>Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
 
 Consulte [Carimbos opcionais de data e hora](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/timestamp-optional.html) para mais informações sobre a configuração.
 
@@ -52,7 +57,9 @@ Os carimbos opcionais de data e hora permitem que você integre e faça relatór
 
 A combinação de dados em um conjunto de relatórios global pode ser feita de várias formas, incluindo a inserção de tags em vários conjuntos, regras do Vista e arquivos em lote de fontes offline.
 
->[!IMPORTANT] Planeje cuidadosamente o design de cada conjunto de dados do componente para que a combinação faça sentido no conjunto de relatórios global.
+>[!IMPORTANT]
+>
+>Planeje cuidadosamente o design de cada conjunto de dados do componente para que a combinação faça sentido no conjunto de relatórios global.
 
 ## Práticas recomendadas para uso de carimbos de data e hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
