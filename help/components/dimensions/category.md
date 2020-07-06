@@ -2,7 +2,7 @@
 title: Categoria
 description: A categoria do produto da ocorrência.
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -22,4 +22,6 @@ Essa dimensão faz referência à primeira parte da string na [`products`](/help
 
 Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais são os valores da dimensão. A Adobe recomenda que você agrupe produtos individuais em categorias significativas, usando as dimensões &#39;Produto&#39; e &#39;Categoria&#39;.
 
-> [!TIP] Em versões anteriores do Adobe Analytics, algumas limitações à dimensão &quot;Categoria&quot; eram impostas devido à sua arquitetura de processamento. Essas limitações foram removidas desde então, permitindo que você use qualquer métrica e qualquer detalhamento.
+>[!TIP]
+>
+>Em versões anteriores do Adobe Analytics, algumas limitações à dimensão &quot;Categoria&quot; foram impostas devido à sua arquitetura de processamento. Essas limitações foram removidas desde então, permitindo que você use qualquer métrica e qualquer detalhamento.
