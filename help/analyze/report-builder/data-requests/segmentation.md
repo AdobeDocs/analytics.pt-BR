@@ -4,7 +4,10 @@ title: Gerenciar segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,10 +22,12 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
 ## Adicionar ou editar segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Para adicionar ou editar segmentos, a interface de segmentos do Report Builder inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do Report Builder continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
+>[!NOTE]
+>
+>Para adicionar ou editar segmentos, a interface de segmentos do Report Builder inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do Report Builder continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para obter informações sobre como criar segmentos, consulte a segmentação [do](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html)Analytics.
+1. No painel de segmentos da Etapa 1 do Assistente de solicitação, clique em **[!UICONTROL Adicionar]**.
+1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para obter informações sobre como criar segmentos, consulte a segmentação [da](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html)Analytics.
 1. Depois de definir e salvar o segmento, volte para o Assistente de solicitação.
 1. Clique no ícone Atualizar para atualizar a lista de segmentos.
 
@@ -35,7 +40,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 É possível ter combinações específicas de dimensões de relatórios que você deseja transformar em um segmento. É possível criar esses segmentos na interface do Report Builder. Por exemplo, selecione algumas páginas de uma saída de solicitação de Página e crie um segmento com base nesses calores.
 
 1. Selecione os itens de saída do relatório que você deseja transformar em um segmento.
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. Clique com o botão direito para selecionar **[!UICONTROL Criar segmento no contexto em]** e especifique o contêiner apropriado (Contêiner de ocorrências, Contêiner de visitas, Contêiner de visitantes).
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Qualquer segmento criado em Reports &amp; Analytics, Ad Hoc Analysis, Report Bui
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. Vá até a lista suspensa **[!UICONTROL Segmento]** e clique na seta pequena para baixo na caixa **[!UICONTROL Escolher segmento]** para exibir todos os segmentos.
 
    ![](assets/seg_list.png)
 
 1. Marque quais segmentos você deseja aplicar.
 
->[!NOTE] Caso seja o Administrador ou não, no Report Builder é possível visualizar apenas os segmentos de sua propriedade e aqueles que foram compartilhados com você. (na interface do usuário dos Reports &amp; Analytics de marketing, o Administrador pode visualizar todos os segmentos da organização).
+>[!NOTE]
+>
+>Caso seja o Administrador ou não, no Report Builder é possível visualizar apenas os segmentos de sua propriedade e aqueles que foram compartilhados com você. (na interface do usuário dos Reports &amp; Analytics de marketing, o Administrador pode visualizar todos os segmentos da organização).
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -84,8 +91,8 @@ Adicionar um controle de segmento permite você alternar segmentos de uma pasta 
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. Observe a opção **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+1. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
+1. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
 
    * Se marcadas, todas as solicitações que usam esse controle são atualizadas.
    * Se não for marcada, os parâmetros de solicitação associados são atualizados, mas as solicitações não são atualizadas.
@@ -106,7 +113,7 @@ Antes do v5.4, o Report Builder permitia que os usuários alterassem segmentos e
 O Report Builder 5.4 permite adicionar, remover, substituir e substituir todos os segmentos em várias solicitações:
 
 1. Selecione várias solicitações em uma pasta de trabalho.
-1. Clique com o botão direito do mouse e selecione **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.
+1. Clique com o botão direito do mouse e selecione **[!UICONTROL Editar solicitações]** > **[!UICONTROL Por segmento]**.
 
    ![](assets/edit_by_segment.png)
 
