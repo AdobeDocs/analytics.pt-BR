@@ -1,8 +1,11 @@
 ---
 title: zip
 description: Preencha manualmente a dimensão “CEP” se as configurações do conjunto de relatórios permitirem.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A variável `zip` permite preencher manualmente a dimensão “CEP” se a [!UICONTROL opção CEP] nas configurações do conjunto de relatórios permitir. Em versões anteriores do Adobe Analytics, essa variável só podia ser definida manualmente, geralmente ao inserir informações de envio em um site de varejo. Melhorias no Adobe Analytics permitem que essa variável seja definida automaticamente usando dados de localização geográfica. Essa variável não persiste para além da ocorrência à qual está atrelada.
 
->[!IMPORTANT] Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se o [!UICONTROL CEP] for sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
+>[!IMPORTANT]
+>
+>Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se o [!UICONTROL CEP] for sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
 ## CEP no Adobe Experience Platform Launch
 
