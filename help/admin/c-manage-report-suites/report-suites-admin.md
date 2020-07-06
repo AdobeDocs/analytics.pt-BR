@@ -3,8 +3,11 @@ description: Um conjunto de relatórios define o relatório completo e independe
 title: Gerenciador do Conjunto de relatórios
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Um conjunto de relatórios define o relatório completo e independente de um sit
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**
 
->[!NOTE] Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
+>[!NOTE]
+>
+>Os Conjuntos de relatórios virtuais são gerenciados por meio do **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a documentação [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md).
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
