@@ -3,7 +3,10 @@ description: Detalhes sobre o modelo da Analysis Workspace e relatórios nos Rep
 title: Relatório sobre dados de publicidade no Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Detalhes sobre o modelo da Analysis Workspace e relatórios nos Reports &amp; Analytics e no Report Builder.
 
->[!NOTE] É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Além disso, observe que os relatórios do Analytics não retornarão dados de granularidade por hora, pois os dados do AMO não são compatíveis com granularidade por hora.
+>[!NOTE]
+>
+> É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Além disso, observe que os relatórios do Analytics não retornarão dados de granularidade por hora, pois os dados do AMO não são compatíveis com granularidade por hora.
 
 ## Analysis Workspace: mecanismos de pesquisa {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
