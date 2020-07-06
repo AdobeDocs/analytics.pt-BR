@@ -2,10 +2,10 @@
 title: Modelos de atribuição e janelas de pesquisa
 description: Como diferentes tipos de atribuição dividem crédito entre valores de dimensão.
 translation-type: tm+mt
-source-git-commit: d12ea12ffbf54e1af091ceff6ec671e6a09d0db3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,9 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 
 * **Janela de pesquisa personalizada:** Permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
->[!NOTE] **[!UICONTROL As janelas]** de pesquisa personalizadas estão atualmente em testes limitados. Consulte Versões [de recursos do](/help/landing/an-releases.md) Adobe Analytics para obter mais informações.
+>[!NOTE]
+>
+>**[!UICONTROL As janelas]** de pesquisa personalizadas estão atualmente em testes limitados. Consulte Versões [de recursos do](/help/landing/an-releases.md) Adobe Analytics para obter mais informações.
 
 ## Exemplo
 
@@ -74,4 +76,6 @@ Dependendo da janela de retrospectiva e do modelo de atribuição, os canais rec
       * Redes sociais: 18,6%, crédito de US$ 9,32
       * Pesquisa paga: 13,8%, crédito de US$ 6,92
 
->[!TIP] Outros eventos de conversão, como pedidos ou eventos personalizados, também são divididos se o crédito pertencer a mais de um canal. Por exemplo, se dois canais contribuem para um evento personalizado usando um modelo de atribuição Linear, ambos os canais obtêm 0,5 do evento personalizado. Essas frações de evento são somadas em todas as visitas e em seguida arredondadas para o número inteiro mais próximo para o relatório.
+>[!TIP]
+>
+>Outros eventos de conversão, como pedidos ou eventos personalizados, também são divididos se o crédito pertencer a mais de um canal. Por exemplo, se dois canais contribuem para um evento personalizado usando um modelo de atribuição Linear, ambos os canais obtêm 0,5 do evento personalizado. Essas frações de evento são somadas em todas as visitas e em seguida arredondadas para o número inteiro mais próximo para o relatório.
