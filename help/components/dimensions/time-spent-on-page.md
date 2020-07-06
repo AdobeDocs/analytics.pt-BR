@@ -2,7 +2,7 @@
 title: Tempo gasto na página
 description: A quantidade de tempo que um visitante gastou na página.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -20,7 +20,9 @@ A dimensão &#39;Tempo gasto na página&#39; registra a quantidade de tempo que 
 
 Essa dimensão é importante quando você deseja entender por quanto tempo os visitantes interagem com uma determinada métrica em seu site.
 
->[!TIP] O tempo gasto não é medido para a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido. Esse conceito também se aplica a visitas que consistem em uma única ocorrência (uma rejeição).
+>[!TIP]
+>
+>O tempo gasto não é medido para a última ocorrência da visita, pois não há solicitação de imagem subsequente para medir o tempo decorrido. Esse conceito também se aplica a visitas que consistem em uma única ocorrência (uma rejeição).
 
 Essa dimensão é baseada em ocorrências, o que significa que o valor é diferente para cada ocorrência. Compare essa dimensão com o [Tempo gasto por visita](time-spent-per-visit.md), que é uma dimensão baseada em visita. Tempo gasto mais alto significa que um visitante ficou mais tempo em uma página (ocorrência).
 
