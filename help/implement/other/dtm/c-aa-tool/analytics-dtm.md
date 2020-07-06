@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adicionar a ferramenta Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Management, criando a ferramenta Adobe Analytics e configurando o código da página de forma automática ou manual. Recomendamos o método automático para a maioria dos usuários.
 
->[!NOTE] Para melhorar o rastreamento de visitantes, recomendamos que você ative o [Serviço de identidade](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
+>[!NOTE]
+>
+>Para melhorar o rastreamento de visitantes, recomendamos que você ative o [Serviço de identidade](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 ## Adicionar uma ferramenta Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
