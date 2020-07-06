@@ -2,7 +2,7 @@
 title: Tipo de referenciador
 description: O tipo de quem indicou, dependendo de onde o visitante veio.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ Os valores de dimensão incluem o tipo de quem indicou da ocorrência. Os valore
 
 ### Redes sociais
 
-A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot; que a Adobe usa. A Adobe oferece essa lista como cortesia para os clientes do Adobe Analytics. Se você quiser recomendar que a Adobe adicione um domínio a essa lista, peça a um representante de suporte em sua organização para entrar em contato com o Atendimento ao cliente.
+A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot; que a Adobe usa. A Adobe oferece essa lista como cortesia para os clientes da Adobe Analytics. Se você quiser recomendar que a Adobe adicione um domínio a essa lista, peça a um representante de suporte em sua organização para entrar em contato com o Atendimento ao cliente.
 
->[!NOTE] Essa lista é diferente da lista padrão das redes sociais nas regras [de processamento do](../c-marketing-channels/c-rules.md)canal de marketing.
+>[!NOTE]
+>
+>Essa lista é diferente da lista padrão das redes sociais nas regras [de processamento do](../c-marketing-channels/c-rules.md)canal de marketing.
 
 * `12seconds.tv`
 * `t.163.com`
