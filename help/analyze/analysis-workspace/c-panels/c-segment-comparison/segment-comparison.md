@@ -2,8 +2,11 @@
 title: Visão geral do painel de comparação de segmentos
 description: Saiba como usar o painel de comparação de segmentos, parte do Segment IQ no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +30,11 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
    ![Comparar públicos-alvo](assets/compare-audiences.png)
 
-   Depois de arrastar um segmento para o painel, o Analytics cria automaticamente um segmento [!UICONTROL 'Everyone Else'] que inclui todos os que NÃO estão no segmento escolhido. É um segmento usado com frequência no painel de comparação, mas você pode removê-lo e comparar um segmento diferente à sua escolha.
+   Uma vez arrastado um segmento para o painel, o Analytics cria automaticamente um segmento [!UICONTROL “Todos os outros”] que inclui todos os que NÃO estão no segmento escolhido. É um segmento usado com frequência no painel de comparação, mas você pode removê-lo e comparar um segmento diferente à sua escolha.
 
    ![Todos os outros](assets/everyone-else.png)
 
-1. Depois de determinar dois segmentos a serem comparados, clique em [!UICONTROL Build].
+1. Depois de determinar dois segmentos a serem comparados, clique em [!UICONTROL Criar].
 
    Essa ação inicia um processo de backend que busca diferenças estatísticas entre os dois segmentos selecionados e todas as dimensões, métricas e outros segmentos. Uma barra de progresso na parte superior do painel indica o tempo restante até que cada métrica e dimensão sejam analisadas. As métricas, as dimensões e os segmentos usados com mais frequência são priorizados e executados primeiro para que os resultados mais relevantes retornem em tempo hábil.
 
@@ -39,12 +42,12 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
 Às vezes, é necessário excluir algumas dimensões, métricas ou segmentos das comparações de segmentos. Suponhamos que você deseja comparar o segmento “Usuários de dispositivos móveis dos EUA” com “Usuários de dispositivos móveis da Alemanha”. A inclusão de dimensões geográficas não faria sentido, já que esses segmentos já implicam essas diferenças.
 
-1. Depois que os dois segmentos desejados estiverem no painel, clique em [!UICONTROL 'Show Advanced Options'].
-1. Arraste e solte os componentes que deseja excluir no painel [!UICONTROL Excluded Components].
+1. Depois que os dois segmentos desejados estiverem no painel, clique em [!UICONTROL “Mostrar opções avançadas”].
+1. Arraste e solte os componentes que deseja excluir no painel [!UICONTROL Componentes excluídos].
 
    ![Componentes excluídos](assets/excluded-components.png)
 
-Clique em [!UICONTROL 'Set as default'] para excluir esses componentes automaticamente em todas as comparações de segmentos futuras. Se quiser editar componentes excluídos, clique em um tipo de componente e, em seguida, clique no “X” ao seu lado para tornar a incluí-lo na análise. Clique em “Limpar tudo” para tornar a incluir todos os componentes na comparação de segmentos.
+Clique em [!UICONTROL “Definir como padrão”] para excluir esses componentes automaticamente em todas as comparações de segmentos futuras. Se quiser editar componentes excluídos, clique em um tipo de componente e, em seguida, clique no “X” ao seu lado para tornar a incluí-lo na análise. Clique em “Limpar tudo” para tornar a incluir todos os componentes na comparação de segmentos.
 
 ![Dimensões excluídas](assets/excluded-dimensions.png)
 
@@ -74,7 +77,9 @@ Exibe as métricas estatisticamente mais significativas entre os dois segmentos.
 
 Essa visualização é semelhante às tabelas de forma livre no Analysis Workspace. Para uma análise mais profunda de uma métrica específica, passe o mouse sobre um item da linha e clique em “Criar visual”: será criada uma nova tabela para analisar essa métrica específica. Se alguma das métricas for irrelevante para sua análise, passe o mouse sobre o item da linha e clique no X para removê-la.
 
->[!NOTE] As métricas adicionadas a essa tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
+>[!NOTE]
+>
+>As métricas adicionadas a essa tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
 
 ![Principais métricas](assets/top-metrics.png)
 
@@ -90,7 +95,9 @@ Mostra os valores de dimensão com mais significância estatística entre todas 
 
 Essa visualização é semelhante às tabelas de forma livre no Analysis Workspace. Para uma análise mais profunda de uma métrica específica, passe o mouse sobre um item da linha e clique em “Criar visual”. Assim será criada uma nova tabela para analisar esse valor de dimensão específico. Se algum dos valores de dimensão for irrelevante para sua análise, passe o mouse sobre o item da linha e clique no X para removê-lo.
 
->[!NOTE] Os valores de dimensão adicionados a esta tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
+>[!NOTE]
+>
+>Os valores de dimensão adicionados a esta tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
 
 ![Principais dimensões](assets/top-dimension-item1.png)
 
@@ -106,7 +113,9 @@ Mostra quais outros segmentos (diferentes dos dois segmentos selecionados para c
 
 Essa visualização é semelhante às tabelas de forma livre no Analysis Workspace. Para uma análise mais profunda de um segmento específico, passe o mouse sobre um item da linha e clique em “Criar visual”. Assim será criada uma nova tabela para analisar esse segmento específico. Se algum dos segmentos for irrelevante para sua análise, passe o mouse sobre o item da linha e clique no X para removê-lo.
 
->[!NOTE] Os segmentos adicionados a esta tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
+>[!NOTE]
+>
+>Os segmentos adicionados a esta tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
 
 ![Principais segmentos](assets/top-segments.png)
 
