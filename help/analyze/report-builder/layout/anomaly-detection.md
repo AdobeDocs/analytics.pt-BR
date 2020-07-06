@@ -4,7 +4,10 @@ title: Detecção de anomalias
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Exemplos de anomalias que você pode investigar incluem:
 * Junções em eventos de buffer de vídeo
 * Picos em taxas de vídeo baixas
 
->[!NOTE] A detecção de anomalias só estará disponível depois da seleção da granularidade do dia.
+>[!NOTE]
+>
+>A detecção de anomalias só estará disponível depois da seleção da granularidade do dia.
 
 <p class="head"> <b>Métricas para a detecção de anomalias</b> </p>
 
