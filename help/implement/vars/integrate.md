@@ -1,8 +1,11 @@
 ---
 title: Módulo de integração
 description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa. Essa integração oferece a oportunidade de uma conexão de dados bidirecional. Normalmente, o uso do Módulo de integração é conduzido por um parceiro da Adobe.
 
->[!NOTE] A solicitação de dados do parceiro na implementação pode aumentar os atrasos entre o carregamento de página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes que os dados sejam enviados, essa página não será registrada.
+>[!NOTE]
+>
+>A solicitação de dados do parceiro na implementação pode aumentar os atrasos entre o carregamento de página e os dados enviados para os servidores de coleta de dados da Adobe. Se um visitante carregar uma nova página antes que os dados sejam enviados, essa página não será registrada.
 
 ## Fluxo de trabalho do Módulo de integração
 
