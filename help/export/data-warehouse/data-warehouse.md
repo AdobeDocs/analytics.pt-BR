@@ -3,8 +3,11 @@ description: El Data Warehouse hace referencia a la copia de datos de Analytics 
 title: Visão geral do Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,9 @@ O Data Warehouse compacta automaticamente todos os arquivos com mais de 1 MB. O 
 
 O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única solicitação para relatórios agendados e baixados.
 
->[!NOTE] O Data Warehouse relata o primeiro valor encontrado no período do relatório.
+>[!NOTE]
+>
+>O Data Warehouse relata o primeiro valor encontrado no período do relatório.
 
 >[!IMPORTANT]
 >
