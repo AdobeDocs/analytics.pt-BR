@@ -2,8 +2,11 @@
 description: 'null'
 title: Publicar no Power BI - Visão geral
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -55,13 +58,15 @@ Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados
 
    ![](assets/workbooks-power-bi.png)
 
-1. Agora você pode exibir os dados no painel da pasta de trabalho. ![](assets/view-data-pbi.png)
+1. Agora você pode exibir os dados no painel da pasta de trabalho.  ![](assets/view-data-pbi.png)
 
 1. Então é possível recortar uma área dessa pasta de trabalho de forma a incluí-la em qualquer um de seus painéis do Power BI.
 
 ## Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] Se a pasta de trabalho contiver uma macro, a opção &quot;Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI&quot; estará desativada.
+>[!NOTE]
+>
+>Se a pasta de trabalho contiver uma macro, a opção &quot;Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI&quot; estará desativada.
 
 Ao invés de importar toda a pasta de trabalho, é possível importar apenas o conteúdo de todas as tabelas formatadas dentro dela.
 
