@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: Meça a quantidade de tempo decorrido entre duas visitas.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in da Adobe: getTimeSinceLastVisit
 
->[!IMPORTANT] Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getTimeSinceLastVisit` permite rastrear quanto tempo um visitante levou para retornar ao site após sua última visita.
 
@@ -66,7 +71,9 @@ O método `getTimeSinceLastVisit` não usa nenhum argumento. Ele retorna o tempo
 * O tempo maior que um dia é arredondado para o valor referencial de dia que estiver mais próximo. Por exemplo, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
 * Se um visitante não tiver visitado antes ou o se tempo decorrido for superior a dois anos, o valor será definido como `"New Visitor"`.
 
->[!NOTE] Esse plug-in retorna apenas um valor na primeira ocorrência de uma visita.
+>[!NOTE]
+>
+>Esse plug-in retorna apenas um valor na primeira ocorrência de uma visita.
 
 Esse plug-in cria um cookie primário chamado `"s_tslv"`, definido como um carimbo de data e hora de Unix com a hora atual. O cookie expira após dois anos de inatividade.
 
