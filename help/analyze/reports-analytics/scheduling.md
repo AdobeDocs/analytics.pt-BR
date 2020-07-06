@@ -4,8 +4,11 @@ subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1661'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Devido às diferenças entre os mecanismos e plataformas de processamento, os di
 
 Essas limitações referem-se a relatórios individuais agendados e baixados; os painéis são limitados à quantidade de espaço disponível em um reportlet.
 
->[!NOTE] O &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, e não o horário em que ele será realmente entregue. O horário real em que o relatório será entregue baseia-se principalmente no tempo necessário para o processamento (relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples). Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; especificado originalmente.
+>[!NOTE]
+>
+>O &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, e não o horário em que ele será realmente entregue. O horário real em que o relatório será entregue baseia-se principalmente no tempo necessário para o processamento (relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples). Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; especificado originalmente.
 >Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes que o relatório seja efetivamente entregue:
 >
 > * **Execução de vários agendamentos diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis, etc.) pode sobrecarregar o sistema. O sistema de Agendamento permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Portanto, quando mais de 5-10 forem agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos alternados ao longo do dia ou da hora, em vez de simultaneamente.
@@ -90,6 +95,7 @@ Baixe informações detalhadas sobre um relatório específico nos formatos PDF,
    * **[!UICONTROL CSV]**: especifica que o relatório será baixado em [!DNL .csv] (formato de valores separados por vírgula).
    * **[!UICONTROL Excel]**: especifica que o relatório será baixado no formato do Microsoft Excel e permite compartilhar o relatório com outras pessoas que podem abri-lo em um programa de planilhas.
    * **[!UICONTROL Word]**: especifica que o relatório será baixado no formato do Microsoft Word.
+
    >[!NOTE]
    >
    >Se você usar um dos formatos de exportação básicos para baixar um relatório e o nome da página estiver em branco, o Adobe Analytics não terá tempo suficiente para processar os dados. Baixe o relatório posteriormente.
