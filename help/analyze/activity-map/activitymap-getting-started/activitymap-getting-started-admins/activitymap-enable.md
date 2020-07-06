@@ -3,8 +3,11 @@ description: Explica as etapas que o Administrador do Analytics precisa completa
 title: Habilitar o Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -55,4 +58,6 @@ Primeiro, você precisa ativar os Relatórios do Activity Map a um nível de con
 
 1. Isso permite que os usuários Administradores baixem o Activity Map em **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Ferramentas]** > **[!UICONTROL Activity Map]** .
 
->[!NOTE] Se você quiser que usuários não administradores baixem o Activity Map, crie um novo grupo de usuários que forneça permissão de acesso a &quot;Ferramentas&quot; e &quot;Instalação herdada do ClickMap&quot;. Este nível de permissão, combinado ao Acesso ao Activity Map, fornece permissões as para baixar e usar a ferramenta.
+>[!NOTE]
+>
+> Se você quiser que usuários não administradores baixem o Activity Map, crie um novo grupo de usuários que forneça permissão de acesso a &quot;Ferramentas&quot; e &quot;Instalação herdada do ClickMap&quot;. Este nível de permissão, combinado ao Acesso ao Activity Map, fornece permissões as para baixar e usar a ferramenta.
