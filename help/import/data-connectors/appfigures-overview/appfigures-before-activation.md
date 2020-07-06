@@ -3,7 +3,10 @@ description: Antes de ativar essa integração, analise os itens a seguir compar
 title: Antes de ativar essa integração
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ A tabela a seguir descreve as variáveis do Analytics ativadas automaticamente p
 
 ### Variáveis obrigatórias {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] Essa integração usa variáveis dedicadas para os dados da loja de aplicativos, de modo que não é necessário atribuir variáveis e eventos de comércio personalizados.
+>[!NOTE]
+>
+>Essa integração usa variáveis dedicadas para os dados da loja de aplicativos, de modo que não é necessário atribuir variáveis e eventos de comércio personalizados.
 
 | Tipo de variável | Nome | Método de preenchimento | Descrição |
 |---|---|---|---|
