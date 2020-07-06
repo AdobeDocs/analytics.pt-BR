@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 78%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 78%
 
 **O que é o item de linha “Nenhum” na atribuição?**
 
-O item de linha &#39;Nenhum&#39; é um item catch-all que representa todas as conversões que ocorreram sem nenhum ponto de toque na janela de pesquisa. Tente incluir um intervalo de tempo maior na janela de relatórios.
+O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha &#39;Nenhum&#39;, tente usar uma janela de pesquisa personalizada com um período de pesquisa posterior mais longo.
 
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
-Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações. O Adobe excluirá essas linhas adicionais nas próximas versões.
+Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações.
 
-**Quando devo usar retrospectiva de atribuição de visita e quando devo usar retrospectiva de atribuição de visitante?**
+**Quando devo usar uma visita, visitante ou pesquisa de atribuição personalizada?**
 
-A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante. Criar um conjunto de relatórios virtual com uma definição de visita mais longa também é uma solução possível.
+A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões tipicamente levarem mais tempo do que uma única visita, um visitante ou uma pesquisa personalizada é recomendada. Para ciclos de conversão mais longos, as janelas de pesquisa personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela do relatórios
 
 **Como funciona a comparação de props e eVars na atribuição?**
 
