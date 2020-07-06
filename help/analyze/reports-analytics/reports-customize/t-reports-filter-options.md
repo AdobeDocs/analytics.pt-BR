@@ -3,8 +3,11 @@ description: Os filtros permitem restringir o relatório para incluir ou excluir
 title: Filtro de dados de relatório
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ Os filtros avançados permitem que você controle o escopo da pesquisa com uma c
 
 Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso opera a mesma ação que o filtro simples.
 
->[!NOTE] Os espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
+>[!NOTE]
+>
+>Os espaços não podem ser usados em filtros, pois os espaços são delimitadores em pesquisas
 
 **Não contém**
 
