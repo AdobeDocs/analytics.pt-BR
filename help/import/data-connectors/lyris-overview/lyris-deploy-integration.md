@@ -3,7 +3,10 @@ description: Descreve o processo de implantação em três etapas.
 title: Implantar a integração
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,9 @@ Etapas para verificar se a integração Lyris/Adobe Analytics foi bem-sucedida.
 
 Depois que todas as etapas de implantação forem concluídas, você poderá validar se a integração está transferindo dados com êxito.
 
->[!NOTE] Leva alguns dias para a troca de dados começar. Entre em contato com a Lyris depois de ativar a integração.
+>[!NOTE]
+>
+>Leva alguns dias para a troca de dados começar. Entre em contato com a Lyris depois de ativar a integração.
 
 1. Navegue até sua integração do Lyris nos Data Connectors. Na guia **[!UICONTROL Suporte]** > **[!UICONTROL Log de atividade de integração]**, é possível ver eventos como **[!UICONTROL Dados de métrica importados com êxito]** e/ou **[!UICONTROL Dados de classificação importados com êxito]**:
 
@@ -86,7 +91,9 @@ Depois que todas as etapas de implantação forem concluídas, você poderá val
 
 Mostra o código do plug-in do Lyris a ser usado com o Adobe Analytics.
 
->[!NOTE] Certifique-se de ter reservado as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, pela eVar10.
+>[!NOTE]
+>
+>Certifique-se de ter reservado as eVars necessárias na Ferramenta de administração do Adobe Analytics antes de trabalhar com o código abaixo. Depois de saber quais eVars você reservou, substitua eVarN pela eVar relevante. Por exemplo, pela eVar10.
 
 ```
 /* 
