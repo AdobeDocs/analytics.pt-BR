@@ -4,7 +4,10 @@ title: Tempo de lead necessário para aumentos de tráfego
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ A Adobe exige um aviso prévio para novas configurações da conta, picos e aume
 
 A alocação de hardware é realizada por alertas emitidos pela interface do usuário do Relatórios e análises.
 
->[!IMPORTANT] A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo. Consulte [Agendar um pico de tráfego](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Especificar aumento permanente de tráfego](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>[!IMPORTANT]
+>
+> A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo. Consulte [Agendar um pico de tráfego](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Especificar aumento permanente de tráfego](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Use as diretrizes a seguir para determinar com quanta antecedência você deve enviar um alerta de tráfego:
 
