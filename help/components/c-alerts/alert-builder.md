@@ -3,7 +3,10 @@ description: 'null'
 title: Criador de alertas
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,9 @@ Especifique um nome para o alerta. O nome do alerta pode conter o nome do relat�
 
 Especifique quando você deseja verificar a métrica: por hora, dia, semana ou mês.
 
->[!NOTE] Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
+>[!NOTE]
+>
+>Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
 
 **Destinatários**
 
