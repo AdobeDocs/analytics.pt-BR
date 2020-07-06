@@ -2,7 +2,7 @@
 title: CEP
 description: O CEP do visitante.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Essa dimensão é exclusiva, pois contém várias maneiras de preenchê-la com d
 
 A opção  Zip em Configurações [de conta](/help/admin/admin/general-acct-settings-admin.md) gerais controla como você deseja preencher essa dimensão.
 
->[!IMPORTANT] A configuração do conjunto de relatórios é vital se você quiser ter controle total sobre como preencher essa dimensão.
+>[!IMPORTANT]
+>
+>A configuração do conjunto de relatórios é vital se você quiser ter controle total sobre como preencher essa dimensão.
 
 ## Valores de dimensão
 
