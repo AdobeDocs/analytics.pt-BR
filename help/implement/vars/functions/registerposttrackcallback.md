@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 95%
@@ -14,11 +14,15 @@ ht-degree: 95%
 
 A variável `registerPostTrackCallback` permite que sua organização conecte uma função JavaScript imediatamente após uma ocorrência ser enviada com êxito para a Adobe. Se uma chamada de rastreamento falhar, essa função não será executada. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement a um parceiro ou infraestrutura interna, ou para limpar valores variáveis em aplicativos de página única.
 
->[!IMPORTANT] Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+>[!IMPORTANT]
+>
+> Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPostTrackCallback`, você faz com que essa função seja executada imediatamente após uma solicitação de imagem ser enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
->[!NOTE] O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
+>[!NOTE]
+>
+>O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
 ## Registrar retorno de chamada pós-rastreamento no Adobe Experience Platform Launch
 
