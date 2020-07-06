@@ -2,7 +2,7 @@
 title: Dimensões móveis
 description: Dimensões com base na sequência agente-usuário do dispositivo.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -18,11 +18,13 @@ As dimensões móveis fornecem informações sobre as propriedades de dispositiv
 
 ## Preencher essas dimensões com dados
 
-Essas dimensões fazem referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no cabeçalho `User-Agent` HTTP enviado com a ocorrência. A Adobe faz parceria com o [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente do usuário e as dimensões móveis. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), todas as dimensões móveis funcionarão da caixa.
+Essas dimensões fazem referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no cabeçalho `User-Agent` HTTP enviado com a ocorrência. A Adobe faz parceria com o [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente do usuário e as dimensões móveis. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), todas as dimensões móveis funcionarão imediatamente.
 
 ## Descrições de dimensões móveis
 
->[!NOTE] Os valores de dimensão rotulados `"None"` são dispositivos não móveis. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão &#39;Dispositivo móvel&#39; para a área de segmento da tela do Workspace.
+>[!NOTE]
+>
+>Os valores de dimensão rotulados `"None"` são dispositivos não móveis. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão &#39;Dispositivo móvel&#39; para a área de segmento da tela do Workspace.
 
 * **Suporte** para áudio móvel: Determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"`e `"MIDI Monophonic"`. Os valores nesta dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários valores de dimensão.
 * **Operadora** móvel: Se o agente do usuário contiver um dispositivo específico para a operadora, a operadora será um valor de dimensão. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`e `"Verizon"`.
