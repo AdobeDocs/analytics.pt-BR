@@ -1,8 +1,11 @@
 ---
 title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A serialização de eventos é um processo de implementação de medidas, usado para evitar que eventos duplicados sejam inseridos nos relatórios do Analytics. A desduplicação de eventos é importante nos casos em que você não deseja que métricas sejam infladas pelos visitantes que atualizam a página.
 
->[!NOTE] As fontes de dados não são compatíveis com serialização de eventos ou com desduplicação.
+>[!NOTE]
+>
+>As fontes de dados não são compatíveis com a serialização de eventos ou a eliminação da duplicação.
 
 ## Configurar serialização de eventos
 
@@ -23,7 +28,9 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 * A desduplicação ocorre globalmente, para todos os visitantes. Se o visitante A enviar `event1:ABC` e o visitante B também enviar `event1:ABC`, a Adobe ignorará a segunda instância do visitante B.
 * A desduplicação não expira. Se um visitante enviar `event1:ABC` voltar 2 anos depois e enviar `event1:ABC` novamente, a Adobe ignorará a segunda instância.
 
->[!TIP] Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
+>[!TIP]
+>
+> Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
 
 ## Usar IDs de evento no Adobe Experience Platform Launch
 
