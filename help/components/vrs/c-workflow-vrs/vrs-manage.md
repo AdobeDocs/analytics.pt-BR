@@ -5,7 +5,10 @@ title: Gerenciar conjuntos de relatórios virtuais
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ O Gerenciador de conjuntos de relatórios virtuais permite aos administradores e
 
 ![](assets/vrs-manage.png)
 
->[!NOTE] No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em **[!UICONTROL Mostrar tudo]** para exibir o restante.
+>[!NOTE]
+>
+>No Gerenciador de conjunto de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em **[!UICONTROL Mostrar tudo]** para exibir o restante.
 
 | Tarefa | Descrição |
 |--- |--- |
