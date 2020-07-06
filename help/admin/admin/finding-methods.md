@@ -4,7 +4,10 @@ title: Métodos de descoberta
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ A página Métodos de descoberta identifica como vários relatórios de métodos
  </tbody> 
 </table>
 
->[!NOTE] Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando Check-out do carrinho ocorrer durante a visita. Se não ocorrer o Check-out do carrinho durante a visita, o Método de descoberta ainda expirará ao final da visita.
+>[!NOTE]
+>
+>Todos os Métodos de descoberta expiram quando a visita termina. Se você optar por Expirar após um evento diferente (por exemplo, Check-out do carrinho), o Método de descoberta expirará quando Check-out do carrinho ocorrer durante a visita. Se não ocorrer o Check-out do carrinho durante a visita, o Método de descoberta ainda expirará ao final da visita.
 
