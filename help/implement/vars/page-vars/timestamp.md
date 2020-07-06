@@ -1,8 +1,11 @@
 ---
 title: timestamp
 description: Defina manualmente o carimbo de data e hora da ocorrência.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A variável `timestamp` define manualmente o carimbo de data e hora da ocorrência para conjuntos de relatórios com carimbo de data e hora ativado.
 
->[!WARNING] Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar ocorrências com carimbo de data e hora. O AppMeasurement define automaticamente a hora de uma ocorrência para conjuntos de relatórios que não suportam ocorrências com carimbo de data e hora. Se você enviar uma ocorrência com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
+>[!WARNING]
+>
+>Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar ocorrências com carimbo de data e hora. O AppMeasurement define automaticamente a hora de uma ocorrência para conjuntos de relatórios que não suportam ocorrências com carimbo de data e hora. Se você enviar uma ocorrência com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
 
 ## Carimbo de data e hora no Adobe Experience Platform Launch
 
