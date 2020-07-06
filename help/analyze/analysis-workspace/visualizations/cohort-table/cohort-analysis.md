@@ -1,11 +1,11 @@
 ---
 title: O que é a análise de coorte?
-description: Saiba mais sobre a análise de coorte na Análise Workspace
+description: Saiba mais sobre a análise de coorte no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização, etc.
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL A Análise] de coorte está disponível para todos os clientes do Adobe Analytics com direitos de acesso à [!UICONTROL Análise Workspace].
+[!UICONTROL A Análise] de coorte está disponível para todos os clientes da Adobe Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
 
 [Análise de coorte no YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL A Análise] de coorte não oferece suporte a métricas não segmentáveis (incluindo métricas calculadas), métricas que não sejam inteiros (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em segmentos podem ser usadas em
+>[!UICONTROL Análise de coorte]
+>
+>não suporta métricas não segmentáveis (incluindo métricas calculadas), métricas não-inteiras (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em segmentos podem ser usadas em
 >[!UICONTROL Análise]de coorte, que só pode ser aumentada em 1 de cada vez.
 
 ## Recursos da análise de coorte
@@ -67,5 +69,5 @@ Crie coortes com base em uma dimensão selecionada, em vez de coortes com base e
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Para obter instruções sobre como configurar e executar um relatório de coorte, acesse   [Configurar um relatório de análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Para obter instruções sobre como configurar e executar um relatório de coorte, acesse [Configurar um relatório de análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
