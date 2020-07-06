@@ -1,8 +1,11 @@
 ---
 title: linkLeaveQueryString
 description: Permite a preservação de cadeias de caracteres de consulta em dimensões de rastreamento de link.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Se as informações de rastreamento de link não estiverem nos URLs do site, nã
 
 A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastreamento de link (incluindo links personalizados, links de saída e links de download).
 
->[!TIP] Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
+>[!TIP]
+>
+>Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
 
 ## Manter parâmetros de URL no Adobe Experience Platform Launch
 
