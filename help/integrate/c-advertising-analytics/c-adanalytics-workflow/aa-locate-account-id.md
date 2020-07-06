@@ -2,7 +2,7 @@
 description: A seguir estão algumas instruções para auxiliá-lo a localizar suas IDs de conta do Google e do Bing.
 title: Localizar IDs de conta
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 65%
@@ -18,7 +18,7 @@ A seguir estão algumas instruções para auxiliá-lo a localizar suas IDs de co
 
 >[!IMPORTANT]
 >
->O Google AdWords usa dois tipos de conta: a) Conta MCC (Meu centro do cliente) e b) Conta padrão. Para esta integração com o Adobe Analytics, **é necessário usar um logon de Conta padrão, não um logon de Conta MCC**. O motivo é que as contas MCC agem como uma conta “guarda-chuva” que pode acessar várias contas do AdWords com um único logon, enquanto que o logon de Conta padrão pode acessar apenas uma conta do AdWords por logon. Enquanto o Google suporta a vinculação de um email para gerenciar 5 contas, o Advertising Analytics ainda não é compatível com esse recurso. Um e-mail pode ser vinculado somente a uma conta Adwords.
+>O Google AdWords usa dois tipos de conta: a) Conta MCC (Meu centro do cliente) e b) Conta padrão. Para esta integração com o Adobe Analytics, **é necessário usar um logon de Conta padrão, não um logon de Conta MCC**. O motivo é que as contas MCC agem como uma conta “guarda-chuva” que pode acessar várias contas do AdWords com um único logon, enquanto que o logon de Conta padrão pode acessar apenas uma conta do AdWords por logon. Enquanto o Google suporta a vinculação de um email para gerenciar 5 contas, a Publicidade Analytics ainda não é compatível com esse recurso. Um e-mail pode ser vinculado somente a uma conta Adwords.
 
 Clique no ícone de conta na parte superior para exibir o número de conta do AdWords (ID de cliente).
 
@@ -32,6 +32,8 @@ Clique no ícone de conta na parte superior para exibir o número de conta do Ad
 
 Ambas as ID de conta e ID de cliente são obrigatórias. Elas estão listadas na guia Contas.
 
->[!NOTE] O número de conta não é o mesmo que a ID de conta.
+>[!NOTE]
+>
+>O número de conta não é o mesmo que a ID de conta.
 
 ![](assets/bing_id.png)
