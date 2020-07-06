@@ -3,7 +3,10 @@ description: Tempo de processamento de relatórios é uma configuração de conj
 title: Processamento de tempo do relatório
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Tempo de processamento de relatórios é uma configuração de conjunto de relatórios virtual que permite o processamento de dados de forma não destrutiva e retroativa.
 
->[!NOTE] O Relatório de processamento de tempo está disponível apenas para a Analysis Workspace.
+>[!NOTE]
+>
+>O Relatório de processamento de tempo está disponível apenas para a Analysis Workspace.
 
 O Processamento de tempo do relatório somente afeta os dados no conjunto de relatórios virtual e não afeta nenhum dado ou coleta de dados no conjunto de relatórios base. A diferença entre o Processamento de tempo do relatório e o processamento analítico tradicional é melhor entendida usando o seguinte diagrama:
 
