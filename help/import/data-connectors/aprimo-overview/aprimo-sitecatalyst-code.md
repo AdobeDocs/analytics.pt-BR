@@ -3,7 +3,10 @@ description: Se você selecionou o método de coleta de dados do plug-in JavaScr
 title: Código de plug-in do Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -26,5 +29,7 @@ Se você selecionou o método de coleta de dados do plug-in JavaScript, copie li
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE] O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
+>[!NOTE]
+>
+>O plug-in acima presume que determinadas Variáveis de comércio personalizadas (eVars) estejam disponíveis. Se as variáveis especificadas no plug-in acima não estiverem disponíveis na implantação do Adobe Analytics, basta substituí-las pelas disponíveis.
 
