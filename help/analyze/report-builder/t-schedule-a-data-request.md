@@ -4,7 +4,10 @@ title: Programar uma solicitação de dados
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ Você pode programar pastas de trabalho, especificar opções avançadas de entr
 
 Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou com uma programação recorrente e especificar o formato do arquivo nas [!DNL Advanced Delivery Options]. O limite de tamanho do arquivo de uma pasta de trabalho ser carregada é de 5 MB.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (Consulte [Agendamento e distribuição de relatórios](/help/analyze/reports-analytics/scheduling.md) na ajuda do Reports &amp; Analytics).
+Além disso, depois de criar uma programação de pastas de trabalho no Report Builder, você poderá visualizar e editar a programação em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**. (Consulte [Agendamento e distribuição de relatórios](/help/analyze/reports-analytics/scheduling.md) na ajuda do Reports &amp; Analytics).
 
->[!NOTE] Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para fazer isso, vá para **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
+>[!NOTE]
+>
+>Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para isso, acesse **[!UICONTROL Admin]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Relatórios do Report Builder]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
 
->[!NOTE] A &quot;Hora de entrega&quot;/&quot;Hora do dia&quot; inserida pelo usuário especifica a hora em que a pasta de trabalho deve começar a ser processada, não a hora em que ela será realmente entregue. O tempo real em que a pasta de trabalho será entregue baseia-se principalmente no tempo necessário para o processamento (pastas de trabalho complexas e grandes demoram mais para serem processadas do que pastas de trabalho mais simples). Por exemplo, se uma pasta de trabalho levar 15 minutos para ser processada, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Hora do dia&quot; especificado originalmente.
+>[!NOTE]
+>
+>A &quot;Hora de entrega&quot;/&quot;Hora do dia&quot; inserida pelo usuário especifica a hora em que a pasta de trabalho deve começar a ser processada, não a hora em que ela será realmente entregue. O tempo real em que a pasta de trabalho será entregue baseia-se principalmente no tempo necessário para o processamento (pastas de trabalho complexas e grandes demoram mais para serem processadas do que pastas de trabalho mais simples). Por exemplo, se uma pasta de trabalho levar 15 minutos para ser processada, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Hora do dia&quot; especificado originalmente.
 >Além disso, há vários outros fatores que podem aumentar ainda mais o atraso, antes que a pasta de trabalho seja realmente entregue:
 >
 > * **A execução de várias programações diferentes do mesmo tipo ao mesmo tempo** pode sobrecarregar o sistema. O sistema de programação permite que algumas (5-10) pastas de trabalho de qualquer tipo sejam executadas simultaneamente, de modo que, quando mais de 5-10 estiverem programadas ao mesmo tempo, algumas precisarão aguardar a conclusão de outras pastas de trabalho na fila para que possam começar a processar. Esse problema pode ser atenuado pela programação de pastas de trabalho de uma empresa em horários escalonados ao longo do dia ou da hora, e não simultaneamente.
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## Agendar uma pasta de trabalho
 
 1. Gere e salve uma pasta de trabalho.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Agendamento]**.
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. Na **[!UICONTROL Scheduled Reports]** guia, clique em **[!UICONTROL New]**.
+   A guia [!UICONTROL Relatórios agendados] resume todas as tarefas que você tiver criado, bem como o número de tarefas restantes.
+1. Na guia **[!UICONTROL Relatórios agendados]**, clique em **[!UICONTROL Novo]**.
 1. O assistente básico de agendamento mostrará:
 
    ![](assets/simple-schedule-wizard.png)
 
-1. Na página [!UICONTROL Basic Scheduling Wizard], configure as seguintes opções:
+1. No [!UICONTROL Assistente básico de agendamento], configure as seguintes opções:
 
 | Campo | Descrição |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## Opções avançadas de entrega
 
-1. Clique **[!UICONTROL Advanced Delivery Options]** para configurar as opções de arquivo e publicação:
+1. Clique em **[!UICONTROL Opções de entrega avançada]** para configurar as opções do arquivo e da publicação:
 
 | Campo | Descrição |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Publicação no Power BI | <ul><li>Publicar pasta de trabalho no Power BI</li><li>Publicar todas as solicitações do Report Builder como conjuntos de dados do Power BI</li><li>Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</li></ul> |
 | Rotule esse relatório do Power BI como | Detalhes da rotulação |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. Clique em **[!UICONTROL OK]** e, em seguida, clique em **[!UICONTROL Sair]**.
 
    O Report Builder exibe a pasta de trabalho agendada no [Gerenciador de tarefas agendadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
