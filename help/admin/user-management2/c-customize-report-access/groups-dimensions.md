@@ -6,24 +6,31 @@ title: Personalizar permissões de dimensões
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
 
 # Personalizar permissões de dimensões
 
->[!IMPORTANT] O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Personalize detalhadamente o acesso dos usuários, inclusive a eVars e relatórios de tráfego, de soluções e de definição de caminho.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acesso ao Relatório]** > **[!UICONTROL Dimensões]** > **[!UICONTROL Personalizar]**
 
->[!IMPORTANT] Não é possível atribuir permissões a algumas dimensões neste momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
+>[!IMPORTANT]
+>
+>Não é possível atribuir permissões a algumas dimensões neste momento. Tais dimensões são: Comprimento do Mobile Bookmark; Número do Mobile Device, DRM do Mobile; Serviços de informações do Mobile; VM de Java Mobile; Decoração de email do Mobile; Protocolos de rede do Mobile; Mobile OS; Aperte para falar do Mobile.
 >
 >Essas dimensões estão disponíveis para todos os usuários, independentemente de outras permissões.
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+As configurações desta página pertencem aos conjuntos de relatórios selecionados na página [!UICONTROL Definir grupos de usuários].
 
 ![](assets/permissions-dimensions.png)
 
@@ -34,7 +41,7 @@ Entenda as informações a seguir sobre a categoria Dimensão para permissões.
 * Os relatórios de Vídeo e Mobile são dimensões, como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e outros.)
 * Há relatórios de definição de caminho disponíveis, se o usuário tiver acesso à dimensão principal.
 * Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis.
-* Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) em que se baseia a classificação.
+* Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html) em que se baseia a classificação.
 
 Para obter mais informações, consulte Alterações [de permissão de](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/permissions-changes.html)usuário e grupo.
 
