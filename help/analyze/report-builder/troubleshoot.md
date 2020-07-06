@@ -3,8 +3,11 @@ description: Maneiras de otimizar a entrega do Report Builder e uma lista de men
 title: Resolução de problemas e práticas recomendadas do Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1371'
+ht-degree: 100%
 
 ---
 
@@ -96,29 +99,31 @@ Agende as solicitações maiores e mais complexas no início da manhã para perm
 
 Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]: **[!UICONTROL Favoritos]** > **[!UICONTROL Relatórios agendados]**
 
-* Report Builder: clique em **[!UICONTROL Management]** na guia [!UICONTROL Add-ins] no Excel.
+* Report Builder: clique em **[!UICONTROL Gerenciamento]** na guia [!UICONTROL Suplementos] no Excel.
 
 ## Descrições de mensagens de erro {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
 Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do Report Builder.
 
->[!NOTE] Esta é apenas uma seleção de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
+>[!NOTE]
+>
+>Esta é apenas uma seleção de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
 
 **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**
 
 Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
 
-**É necessário sair do [!UICONTROL Request Wizard] antes de ativar o [!UICONTROL Request Manager].**
+**Saia primeiro do[!UICONTROL Assistente de solicitações]antes de ativar o[!UICONTROL Gerenciador de solicitações].**
 
-Embora o [!UICONTROL Request Manager] e o [!UICONTROL Request Wizard] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Request Manager] antes de concluir ou cancelar ações feitas no [!UICONTROL Request Wizard].
+Embora o [!UICONTROL Gerenciador de solicitações] e o [!UICONTROL Assistente de solicitações] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Gerenciador de solicitações] antes de concluir ou cancelar as ações iniciadas no [!UICONTROL Assistente de solicitações].
 
 **Não há solicitações associada a esse intervalo.**
 
-Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL From Sheet] no [!UICONTROL Request Manager] quando uma célula da planilha não tiver solicitações.
+Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL Da planilha] no [!UICONTROL Gerenciador de solicitações] quando uma célula da planilha não contiver nenhuma solicitação.
 
-Para identificar quais células na planilha têm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Request Manager]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
+Para identificar quais células na planilha contêm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Gerenciador de solicitações]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
 
 **O intervalo selecionado não é válido. Selecione outro intervalo.**
 
@@ -128,12 +133,12 @@ Quando quiser excluir células, é importante localizar as que contenham solicit
 
 **Saia da célula do Excel onde está o foco antes de usar esse recurso.**
 
-Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra [!UICONTROL Formula] ou na [!UICONTROL Name Box] na parte superior do Excel.
+Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra de [!UICONTROL Fórmula] ou na [!UICONTROL Caixa de nome] na parte superior do Excel.
 
 **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**
 
 Se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
 
-Uma maneira de determinar quais células estão mapeadas antes de adicionar novas solicitações é fechar o [!UICONTROL Request Wizard] e abrir o [!UICONTROL Request Manager]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm os mapeamentos da solicitação são realçadas na planilha.
+Uma maneira de determinar quais células estão mapeadas antes de adicionar novas solicitações é fechar o [!UICONTROL Assistente de solicitações] e abrir o [!UICONTROL Gerenciador de solicitações]. Em seguida, selecione, um por um, os itens listados na tabela de resumo de solicitações. Sempre que você selecionar uma solicitação na lista, as células correspondentes que contêm os mapeamentos da solicitação são realçadas na planilha.
 
 Este é um motivo para você considerar a marcação de células com realce, informações de linha ou coluna ou um estilo de formatação antes de mapear várias células para várias áreas.
