@@ -1,8 +1,11 @@
 ---
 title: cookieDomainPeriods
 description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ A variável `fpCookieDomainPeriods` ajuda o AppMeasurement a determinar onde os 
 * Em domínios como `example.com` ou `www.example.com`, essa variável não precisa ser definida. Se necessário, é possível definir essa variável como `"2"`.
 * Para domínios como `example.co.uk` ou `www.example.co.jp`, defina essa variável como `"3"`.
 
->[!IMPORTANT] Não considere subdomínios para essa variável. Por exemplo, não defina `fpCookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
+>[!IMPORTANT]
+>
+>Não considere subdomínios para essa variável. Por exemplo, não defina `fpCookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
 ## Períodos de domínio primários no Adobe Experience Platform Launch
 
