@@ -1,8 +1,8 @@
 ---
 title: Prop
-description: Uma dimensão personalizada que você pode usar no relatórios.
+description: Uma dimensão personalizada que você pode usar nos relatórios.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -12,11 +12,13 @@ ht-degree: 26%
 
 # Prop
 
-*Esta página de ajuda descreve como as props funcionam como uma dimensão. Para obter informações sobre como implementar props, consulte[props](/help/implement/vars/page-vars/prop.md)no guia Implementar usuário.*
+*Esta página de ajuda descreve como as props funcionam como uma dimensão. For information on how to implement props, see[props](/help/implement/vars/page-vars/prop.md)in the Implement user guide.*
 
 As props são variáveis personalizadas que podem ser usadas da maneira que você desejar. Eles não persistem além da ocorrência que estão definidos.
 
-> [!TIP][ A Adobe recomenda usar eVars na maioria dos casos. ](evar.md) Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
 
 Se você tiver um documento [de design de](/help/implement/prepare/solution-design.md)solução, poderá alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende de seu contrato com a Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe oferecer suporte para isso.
 
