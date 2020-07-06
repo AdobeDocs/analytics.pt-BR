@@ -3,7 +3,10 @@ description: 'null'
 title: Usar a integração
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Após a implantação, você pode começar a usar os recursos adicionais que essa integração oferece. A seguir estão ações a serem realizadas para tirar maior proveito dessa integração de dentro do Adobe Analytics.
 
->[!NOTE] Pode levar de 24 a 48 horas para você começar a ver os dados de resposta do Kampyle nos relatórios do Adobe Analytics.
+>[!NOTE]
+>
+>Pode levar de 24 a 48 horas para você começar a ver os dados de resposta do Kampyle nos relatórios do Adobe Analytics.
 
 ## Misturar dados de feedback e de comportamento no site {#mix-feedback-and-onsite-behavior-data}
 
