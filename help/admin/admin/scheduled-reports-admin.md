@@ -4,7 +4,10 @@ title: Relação de relatórios agendados
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Os recursos de nível administrativo no Gerenciador de relatórios agendados inc
 
 Na guia **[!UICONTROL Lista de relatórios]**, você pode **[!UICONTROL Mostrar todos os relatórios agendados]** na organização, além daqueles que você agendou pessoalmente.
 
->[!NOTE] A coluna **[!UICONTROL Nome do relatório]** exibe o nome do relatório que está sendo agendado, e a coluna **[!UICONTROL Nome do arquivo]** exibe qualquer nome de arquivo personalizado definido por você nas Opções de entrega avançadas. Como resultado, se você agendar vários relatórios de um mesmo tipo de relatório e especificar nomes personalizados para cada um, o Gerente de relatórios agendados exibe várias entradas com o mesmo Nome de relatório, mas com nomes de arquivo diferentes. Isso ocorre porque o relatório de back end agendado é o mesmo. Por esse motivo, a coluna Nome do relatório teria os mesmos nomes de relatório para todos os nomes de arquivo personalizados (como definido).
+>[!NOTE]
+>
+>A coluna **[!UICONTROL Nome do relatório]** exibe o nome do relatório que está sendo agendado, e a coluna **[!UICONTROL Nome do arquivo]** exibe qualquer nome de arquivo personalizado definido por você nas Opções de entrega avançadas. Como resultado, se você agendar vários relatórios de um mesmo tipo de relatório e especificar nomes personalizados para cada um, o Gerente de relatórios agendados exibe várias entradas com o mesmo Nome de relatório, mas com nomes de arquivo diferentes. Isso ocorre porque o relatório de back end agendado é o mesmo. Por esse motivo, a coluna Nome do relatório teria os mesmos nomes de relatório para todos os nomes de arquivo personalizados (como definido).
 
 ![](assets/show_all_scheduled_reports.png)
 
