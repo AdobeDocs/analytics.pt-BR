@@ -2,8 +2,11 @@
 description: 'null'
 title: Segmentos
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,14 @@ Lembre-se:
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] Segmentos criados desse modo são internos no projeto.
+>[!NOTE]
+>
+>Segmentos criados desse modo são internos no projeto.
 
 Você pode escolher se deseja tornar os segmentos públicos (globais) seguindo estas etapas:
 
 1. Passe o mouse sobre o segmento no local onde os segmentos são colocados e clique no ícone “i”.
-1. No painel de informações que é exibido, clique em **[!UICONTROL Make public]**.
+1. No painel de informações que é exibido, clique em **[!UICONTROL Tornar público]**.
 
    ![](assets/segment-info.png)
 
