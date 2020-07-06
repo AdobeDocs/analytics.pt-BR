@@ -1,21 +1,28 @@
 ---
 title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # Implementar links para opção de não participação
 
->[!IMPORTANT] A Adobe recomenda usar o serviço de opção de participação, especialmente em organizações que se preocupam com as regulamentações do GDPR. Consulte [Visão geral do serviço de participação](https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/opt-in-service/optin-overview.html) no guia do usuário do Serviço de identidade da Experience Cloud.
+>[!IMPORTANT]
+>
+>A Adobe recomenda usar o serviço de opção de participação, especialmente em organizações que se preocupam com as regulamentações do GDPR. Consulte [Visão geral do serviço de participação](https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/opt-in-service/optin-overview.html) no guia do usuário do Serviço de identidade da Experience Cloud.
 
 Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. A Adobe oferece a capacidade de fornecer aos visitantes do site uma maneira de optar ou não pela coleta de suas informações. Todos os tipos de implementação são acomodados; sua organização é responsável pela própria política de privacidade e por manter-se em conformidade com os termos assinados.
 
 Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser monitorado e um cookie de opção de não participação for definido, o arquivo JavaScript continuará enviando dados para os servidores da Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
 
->[!TIP] A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](../../admin/admin/privacy-settings.md) no guia do usuário Administração.
+>[!TIP]
+>
+>A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](../../admin/admin/privacy-settings.md) no guia do usuário Administração.
 
 ## URL de não participação
 
@@ -73,7 +80,9 @@ Alterne automaticamente o idioma da página de opção, incluindo o parâmetro d
 
 Por exemplo, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carrega a página de não participação em coreano.
 
->[!TIP] O valor da cadeia de caracteres de consulta `en_US` não é necessário, pois a página é carregada em inglês por padrão.
+>[!TIP]
+>
+>O valor da cadeia de caracteres de consulta `en_US` não é necessário, pois a página é carregada em inglês por padrão.
 
 ### Pop-up
 
@@ -81,7 +90,9 @@ Adiciona um botão &quot;Fechar janela&quot; à página, permitindo que a págin
 
 Por exemplo, `https://example.sc.omtrdc.net/optout.html?popup=1` carrega a página de opção de não participação com um botão &#39;Fechar janela&#39;.
 
->[!NOTE] Historicamente, esse parâmetro da cadeia de caracteres de consulta forçou uma janela pop-up. Entretanto, a maioria dos navegadores modernos fornece controle sobre pop-ups para o usuário final.
+>[!NOTE]
+>
+>Historicamente, esse parâmetro da cadeia de caracteres de consulta forçou uma janela pop-up. Entretanto, a maioria dos navegadores modernos fornece controle sobre pop-ups para o usuário final.
 
 ### Cancelamento de clique único
 
