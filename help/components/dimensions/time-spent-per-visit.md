@@ -2,7 +2,7 @@
 title: Tempo gasto por visita
 description: A quantidade total de tempo que a visita levou.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -22,7 +22,9 @@ As dimensões &quot;Tempo gasto por visita&quot; registram o tempo que um visita
 
 Essas dimensões são importantes quando você deseja entender por quanto tempo os visitantes interagem com o site em geral.
 
->[!TIP] O tempo gasto requer pelo menos duas ocorrências em uma visita para medir o tempo. Visitas que consistem em uma única ocorrência não aparecem nesta dimensão.
+>[!TIP]
+>
+>O tempo gasto requer pelo menos duas ocorrências em uma visita para medir o tempo. Visitas que consistem em uma única ocorrência não aparecem nesta dimensão.
 
 Essa dimensão é baseada em visitas, o que significa que o valor se aplica a cada ocorrência na visita e não é alterado. Compare essa dimensão com o [Tempo gasto na página](time-spent-on-page.md), que é uma dimensão baseada em ocorrências.
 
@@ -37,6 +39,6 @@ Essas dimensões funcionam da caixa para todas as implementações. Se um conjun
 Existem várias dimensões para o tempo gasto por visita:
 
 * **Tempo gasto por visita - segmentado**: A quantidade de tempo é armazenada por período. Os valores de dimensão variam de `"Less than 1 minute"` a `"More than 15 hours"`. As visitas normalmente não duram mais de 12 horas; no entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
-* **Tempo gasto por visita - granular**: Cada número de segundos é um valor de dimensão exclusivo. Essa dimensão não está disponível no Relatórios e análises ou no Data Warehouse.
+* **Tempo gasto por visita - granular**: Cada número de segundos é um valor de dimensão exclusivo. Essa dimensão não está disponível em Relatórios e Analytics ou Data warehouse.
 
 Consulte Visão geral [do](../metrics/time-spent.md) Tempo gasto para obter mais informações gerais sobre o tempo gasto.
