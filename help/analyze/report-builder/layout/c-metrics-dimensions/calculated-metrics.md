@@ -3,7 +3,10 @@ description: 'O Report Builder 5.2 é compatível com as métricas calculadas un
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
->[!NOTE] As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
+>[!NOTE]
+>
+>As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
 Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html).
 
@@ -40,7 +45,7 @@ Os filtros disponíveis incluem:
 
 ## Aplicação de métricas calculadas {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. As métricas selecionadas serão adicionadas ao layout do relatório.
+Após selecionar os filtros, clique em **[!UICONTROL Aplicar]** para aplicá-las à solicitação. As métricas selecionadas serão adicionadas ao layout do relatório.
 
 ![](assets/filtering_for_metric.png)
 
