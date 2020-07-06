@@ -4,7 +4,10 @@ title: Faturamento
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A página Faturamento permite acessar informações de faturamento, inclusive detalhes de tráfego de cada conjunto de relatórios. Somente um administrador autorizado tem acesso a essa página.
 
->[!NOTE] Se o acesso à guia de faturamento estiver desativado em sua empresa, entre em contato com o Gerente de conta.
+>[!NOTE]
+>
+>Se o acesso à guia de faturamento estiver desativado em sua empresa, entre em contato com o Gerente de conta.
 
 Os dados de visão geral do tráfego da página de faturamento permite correlacionar os dados de exibição da página nos relatórios com chamadas cobráveis do servidor em sua fatura. A página [!UICONTROL Faturamento] permite fazer o seguinte:
 
@@ -39,7 +44,9 @@ O relatório [!UICONTROL Faturamento mensal] resultante inclui as seguintes info
 | Links personalizados | Totais de link personalizado para cada conjunto de relatórios. É possível confirmar os valores do link personalizado em Conteúdo do site > Links > Links personalizados. |
 | Links de saída | Totais de link de saída para cada conjunto de relatórios. É possível confirmar os valores do link de saída em Conteúdo do site > Links > Links de saída. |
 
->[!NOTE] Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel*.
+>[!NOTE]
+>
+>Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel*.
 
 ## Data do relatório x data de processamento {#section_51A48C2F223F4904BE1407C13333C457}
 
