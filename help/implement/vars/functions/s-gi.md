@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ O campo de texto da variável global permite definir um objeto de rastreamento p
 
 Chame a função `s_gi()` para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas com IDs de conjuntos de relatórios. O argumento ID de conjunto de relatórios é obrigatório.
 
->[!TIP] A Adobe recomenda usar a variável `s` como um objeto de rastreamento. A Adobe usa `s` em sua documentação, em exemplos de implementação e em plug-ins. No entanto, você pode usar qualquer variável desde que seja consistente em todo o site.
+>[!TIP]
+>
+>A Adobe recomenda usar a variável `s` como um objeto de rastreamento. A Adobe usa `s` em sua documentação, em exemplos de implementação e em plug-ins. No entanto, você pode usar qualquer variável desde que seja consistente em todo o site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] As seções e exemplos a seguir contêm tópicos complexos sobre implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no [documento de design da solução](../../prepare/solution-design.md) de sua organização.
+>[!CAUTION]
+>
+>As seções e exemplos a seguir contêm tópicos complexos sobre implementação. Teste sua implementação minuciosamente e rastreie personalizações importantes no [documento de design da solução](../../prepare/solution-design.md) de sua organização.
 
 ## Gerenciar várias implementações usando diferentes objetos de rastreamento
 
