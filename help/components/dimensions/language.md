@@ -2,7 +2,7 @@
 title: Idioma
 description: A configuração de idioma preferencial no navegador.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 A dimensão &#39;Idioma&#39; mostra os principais idiomas nos quais os visitantes preferem ver o conteúdo. Essa dimensão é valiosa quando você quer entender os idiomas preferenciais mais frequentes dos visitantes para auxiliar nos esforços de localização.
 
-> [!NOTE] Essa dimensão não coleta o idioma do site. Se você quiser coletar o idioma do site em uma dimensão, a Adobe recomenda usar uma variável personalizada, como uma [eVar](evar.md).
+>[!NOTE]
+>
+>Essa dimensão não coleta o idioma do site. Se você quiser coletar o idioma do site em uma dimensão, a Adobe recomenda usar uma variável personalizada, como uma [eVar](evar.md).
 
 ## Preencher esta dimensão com dados
 
@@ -22,4 +24,4 @@ Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valo
 
 ## Valores de dimensão
 
-Os valores de dimensão incluem nomes amigáveis dos idiomas preferidos dos visitantes. Os exemplos incluem `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`e `"Spanish (Spain)"`. Se uma solicitação de imagem não contiver um idioma válido no cabeçalho HTTP, o valor da dimensão será `"None"`.
+Os valores de dimensão incluem nomes amigáveis dos idiomas preferidos dos visitantes. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Se uma solicitação de imagem não contiver um idioma válido no cabeçalho HTTP, o valor da dimensão será `"None"`.
