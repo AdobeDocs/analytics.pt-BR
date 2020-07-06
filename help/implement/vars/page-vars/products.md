@@ -2,10 +2,10 @@
 title: products
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 89%
 
 A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de muitos valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor e o divide em valores de dimensão separados.
 
-> [!NOTE] Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na [`events`](events/events-overview.md) variável, a métrica [Visualizações](/help/components/metrics/product-views.md) do produto será incrementada em 1. Certifique-se de definir o evento do carrinho de compras apropriado em cada ocorrência com a `products` variável.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Certifique-se de definir o evento do carrinho de compras apropriado em cada ocorrência com a `products` variável.
 
 ## Produtos no Adobe Experience Platform Launch
 
@@ -50,7 +52,9 @@ Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa par
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Retire todos os pontos-e-vírgulas, vírgulas e tubulações de nomes de produtos, categorias e valores de eVar de comercialização. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
+>[!IMPORTANT]
+>
+>Retire todos os pontos e vírgulas, vírgulas e barra vertical dos nomes de produtos, categorias e valores de eVar de merchandising. Se o nome de um produto incluir uma vírgula, o AppMeasurement a analisa como o início de um novo produto. Essa análise incorreta descarta o restante da string do produto, causando dados incorretos em dimensões e relatórios.
 
 ## Exemplos
 
