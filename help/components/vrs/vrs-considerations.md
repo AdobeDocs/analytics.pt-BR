@@ -5,7 +5,7 @@ title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de v
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Os Conjuntos de relatórios virtuais (VRS) permitem exibir dados de um conjunto 
 
 Em muitos casos, você pode usar conjuntos de relatórios virtuais para substituir a marcação de vários conjuntos. Alternar para conjuntos de relatórios virtuais pode efetivamente remover a necessidade de [chamadas de servidor secundárias](/help/admin/c-server-call-usage/overage-overview.md). Por exemplo, sua organização tem 6 sites diferentes, cada um enviando dados para seu próprio conjunto de relatórios, bem como um conjunto de relatórios global combinado. Cada site recebe uma chamada de servidor secundária; um para o conjunto de relatórios de marca individual e um segundo para o conjunto de relatórios global. Em vez disso, você pode enviar dados de todos os sites exclusivamente para o conjunto de relatórios global e, em seguida, usar vários conjuntos de relatórios virtuais para separar cada marca.
 
-Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e os VRS permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é recomendado. No entanto, há algumas limitações importantes do VRS a serem consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
+Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e os VRS permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes do VRS a serem consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
 
 ## Diretrizes
 
@@ -55,7 +55,9 @@ Diferentes sites têm necessidades de implementação diversas. Algumas dimensõ
 
 Certifique-se de que o número de dimensões e métricas exclusivas possa se ajustar a um único conjunto de relatórios global. Se você descobrir que existem muitas dimensões ou métricas exclusivas, analise cada dimensão em cada implementação. Há, provavelmente, sobreposição e dimensões que não são essenciais para o sucesso dos negócios. Considere usar as [classificações](/help/components/c-classifications2/c-classifications.md) também. Por exemplo, em vez de capturar &#39;Nome do produto&#39; no eVar5, crie uma classificação &#39;Nome do produto&#39; baseada na dimensão &#39;Produto&#39;. As classificações em um conjunto de relatórios de origem são disponibilizadas automaticamente para qualquer conjunto de relatórios virtual dependente.
 
->[!TIP] Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), agora é possível alterar o nome de uma determinada dimensão ou métrica com base no VRS.
+>[!TIP]
+>
+>Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), agora é possível alterar o nome de uma determinada dimensão ou métrica com base no VRS.
 
 ### Nuances de segmentação
 
@@ -85,7 +87,9 @@ Por exemplo, somente um DCM do Google é permitido por conjunto de relatórios. 
 
 As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das Fontes de dados de resumo contêm métricas agregadas, eles não podem ser segmentados. Como o VRS opera usando a segmentação, todos os dados importados usando fontes de dados de resumo não estão disponíveis nos conjuntos de relatórios virtuais. As fontes de dados de resumo estão visíveis somente no conjunto de relatórios de origem.
 
->[!TIP] As fontes de dados de processamento completo oferecem suporte à segmentação e podem ser usadas em conjuntos de relatórios virtuais.
+>[!TIP]
+>
+>As fontes de dados de processamento completo oferecem suporte à segmentação e podem ser usadas em conjuntos de relatórios virtuais.
 
 ## Etapas a serem seguidas se tiver decidido usar o VRS
 
