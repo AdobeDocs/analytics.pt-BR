@@ -4,7 +4,7 @@ title: Construir segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2037'
 ht-degree: 90%
@@ -22,7 +22,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 * **[!UICONTROL Analysis Workspace]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar segmento]**.
 * **[!UICONTROL Reports &amp; Analytics]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone de Segmentos ![](assets/segment_icon.png) na navegação à esquerda e, em seguida, clique em **[!UICONTROL Adicionar]**.
 * **[!UICONTROL Ad Hoc Analysis]**: [criar segmentos na Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Critérios do construtor {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -44,7 +44,8 @@ Há várias maneiras de acessar o Construtor de segmentos:
 
    * **[!UICONTROL Repetir]** (padrão): Inclui instâncias e valores persistentes para a dimensão.
    * **[!UICONTROL Instância]**: inclui instâncias da dimensão.
-   * **[!UICONTROL Instância não repetitiva]**: inclui instâncias exclusivas (não repetitivas) da dimensão. Esse é o modelo aplicado em Fluxo quando instâncias repetidas são excluídas.
+   * **[!UICONTROL Instância de não repetição]**: inclui instâncias exclusivas (não repetitivas) da dimensão. Esse é o modelo aplicado em Fluxo quando instâncias repetidas são excluídas.
+
    ![](assets/attribution-models.jpg)
 
    **Exemplo: Segmento de ocorrência onde eVar1 = A**
@@ -70,11 +71,11 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Segmentos]**: clique no cabeçalho para expandir.
 1. **[!UICONTROL Seletor do conjunto de relatórios]**: permite selecionar os conjuntos de relatórios em que esse segmento será salvo. Você ainda pode utilizar o segmento em todos os conjuntos de relatórios.
 1. **[!UICONTROL Visualização de segmento]**: permite que você visualize as métricas principais para conferir se você tem um segmento válido e a amplitude deste. Represente o detalhamento do conjunto de dados que você pode esperar ao aplicar esse segmento. Mostra 3 círculos concêntricos e uma lista para mostrar o número e o percentual de correspondências para [!UICONTROL Ocorrências], [!UICONTROL Visitas] e [!UICONTROL Visitantes] para uma execução de segmentos em comparação ao conjunto de dados. Esse gráfico é atualizado imediatamente depois de criar ou efetuar alterações para sua definição de segmento.
-1. **[!UICONTROL Compatibilidade de produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. Contudo, nem todos os operadores e dimensões são compatíveis com todos os produtos Analytics, especialmente o  [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente depois de efetuar alterações na definição do segmento.
+1. **[!UICONTROL Compatibilidade de produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. Contudo, nem todos os operadores e dimensões são compatíveis com todos os produtos Analytics, especialmente o [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente depois de efetuar alterações na definição do segmento.
 
 Segmentos com intervalos de datas incorporados continuarão a operar de forma diferente na Analysis Workspace com relação ao [!UICONTROL Reports &amp; Analytics]: na Workspace, um segmento com um intervalo de datas inserido substitui o intervalo de datas do painel. Ao contrário, o [!UICONTROL Reports &amp; Analytics] gera a interseção entre intervalo de datas do relatório e o intervalo de datas inserido do segmento.
 
-**[!UICONTROL Publicação]** da Experience Cloud: (Não exibido na tela) Essa opção aparece somente se o conjunto de relatórios no qual você está salvando esse segmento estiver [ativado para a Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Ao publicar um segmento na Experience Cloud, é possível usá-lo em atividades de marketing na [!UICONTROL Biblioteca de público-alvo], no [!DNL Target] e no [!DNL Audience Manager]. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sobre a publicação da Experience Cloud.
+**[!UICONTROL Publicação]** de Experience Cloud: (Não exibido na tela) Essa opção aparece somente se o conjunto de relatórios no qual você está salvando esse segmento estiver [ativado para o Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Ao publicar um segmento na Experience Cloud, é possível usá-lo em atividades de marketing na [!UICONTROL Biblioteca de público-alvo], no [!DNL Target] e no [!DNL Audience Manager]. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sobre a publicação de Experience Cloud.
 
 ## Construir segmentos {#build-segments}
 
@@ -107,11 +108,11 @@ Agora você é levado ao [Gerenciador de segmentos](/help/components/c-segmentat
 
 1. Altere o tipo de contêiner como necessário.
 1. Arraste uma Dimensão, um Segmento ou Evento do painel esquerdo até o contêiner.
-1. Continue a adicionar novos contêineres com o botão **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêineres]** na parte superior da definição, ou adicione contêineres de um contêiner para aninhar a lógica.
+1. Continue a adicionar novos contêineres com o botão **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner]** na parte superior da definição, ou adicione contêineres de um contêiner para aninhar a lógica.
 
    **OU**
 
-   Selecione uma ou mais regras, em seguida, clique em **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner a partir de uma seleção]**. Isso transforma sua seleção em um contêiner separado.
+   Selecione uma ou mais regras, em seguida, clique em **[!UICONTROL Opções]** > **[!UICONTROL Adicionar contêiner da seleção]**. Isso transforma sua seleção em um contêiner separado.
 
 ## Usar intervalos de datas {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
@@ -140,7 +141,9 @@ Ao usar o empilhamento de segmentos, você pode reduzir a contagem de segmentos 
 * um segmento para usuários de tablets
 * 20 segmentos para localidades geográficas diferentes
 
->[!NOTE] Ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU.
+>[!NOTE]
+>
+>Ao empilhar dois segmentos, eles são unidos por padrão por uma instrução E. Isso não pode ser alterado para uma instrução OU.
 
 1. Vá para o Construtor de segmentos.
 1. Forneça um título e uma descrição para o segmento.
