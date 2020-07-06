@@ -2,7 +2,7 @@
 title: Tempo gasto
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos p
 
 O Adobe Analytics usa valores explícitos (incluindo eventos de link e exibições de vídeo) para calcular o [!UICONTROL Tempo gasto].
 
->[!NOTE] Sem eventos de link como [!UICONTROL Exibições de vídeo] ou [!UICONTROL Links de saída], não é possível saber o tempo gasto na última ocorrência de uma visita. Por motivos similares, as [!UICONTROL Visitas rejeitadas] (ou seja Visitas com uma única ocorrência) não terão um Tempo gasto associado.
+>[!NOTE]
+>
+>Sem eventos de link como [!UICONTROL Exibições de vídeo] ou [!UICONTROL Links de saída], não é possível saber o tempo gasto na última ocorrência de uma visita. Por motivos similares, as [!UICONTROL Visitas rejeitadas] (ou seja Visitas com uma única ocorrência) não terão um Tempo gasto associado.
 
 O **numerador** em todos os cálculos de tempo gasto é o total de segundos gastos.
 
@@ -95,7 +97,7 @@ Por exemplo, considere a seguinte visita.
 | ocorrência# | 1 | 2 | 3 |
 |---|---|---|---|
 | **Segundos gastos** | 30 | 100 | 10 |
-| **Nome da página** | Início | Product | Início |
+| **Nome da página** | Início | Produto | Início |
 | **date** | Jan 1 | Jan 1 | Jan 1 |
 
 Ao calcular o tempo gasto para a página inicial, seria (30+10)/2=20, mas detalhar isso por dia daria (30+10)/1=40, já que o dia tem uma única execução ininterrupta de 1º de janeiro.
@@ -111,7 +113,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tempo decorrido da visita** (segundos) | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
-| **Nome da página** | Início | - | Product | Início | Início  (recarga) | Carrinho | Confirmação de pedido |
+| **Nome da página** | Início | - | Produto | Início | Início  (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
