@@ -3,8 +3,11 @@ description: Permite usar o segmento em atividades de marketing na biblioteca de
 title: Publicar segmentos na Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ A publicação de um segmento do Adobe Analytics na Experience Cloud permite que
 
 Também aumentamos o número máximo de segmentos do Adobe Analytics publicáveis para 75 (de 20). É possível visualizar segmentos publicados em [!UICONTROL Analytics > Componentes > Segmentos].
 
->[!NOTE] O Adobe Campaign (Classic e Standard) se comporta de forma diferente, pois incorre em uma latência adicional de 24 horas acima da latência de 8 horas.
+>[!NOTE]
+>
+>O Adobe Campaign (Classic e Standard) se comporta de forma diferente, pois incorre em uma latência adicional de 24 horas acima da latência de 8 horas.
 
 
 ## Pré-requisitos
@@ -70,7 +75,9 @@ Também aumentamos o número máximo de segmentos do Adobe Analytics publicávei
 
 Para excluir um segmento publicado na Experience Cloud, é necessário cancelar a publicação primeiro. Para cancelar a publicação de um segmento, basta **desmarcar** a caixa de seleção usada para publicá-lo.
 
->[!NOTE] **Não é possível** cancelar a publicação de um segmento que está em uso por qualquer uma das seguintes soluções da Adobe: [!DNL Analytics] (no [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (para cliente do [!DNL Core Service] e [!DNL Audience Manager]) e todos os outros parceiros externos (para clientes do [!DNL Audience Manager]). Você **pode** cancelar a publicação de um segmento em uso pelo [!DNL Target].
+>[!NOTE]
+>
+> **Não é possível** cancelar a publicação de um segmento que está em uso por qualquer uma das seguintes soluções da Adobe: [!DNL Analytics] (no [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (para cliente do [!DNL Core Service] e [!DNL Audience Manager]) e todos os outros parceiros externos (para clientes do [!DNL Audience Manager]). Você **pode** cancelar a publicação de um segmento em uso pelo [!DNL Target].
 
 ## Exibir o status de publicação do segmento no [!UICONTROL Gerenciador de segmentos]
 
