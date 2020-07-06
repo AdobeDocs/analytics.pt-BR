@@ -3,7 +3,10 @@ description: Antes de ativar essa integração, analise os itens a seguir compar
 title: Antes de ativar essa integração
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Analise as seguintes informações sobre a integração do Conector de dados e d
 * **Conta Silverpop válida**: para usar a integração de email dos Data Connectors, um cliente deve ter uma conta do Silverpop ativa com email ativado e credenciais de usuário ativas.
 * **Entre em contato com seu representante Silverpop**. Essa integração não é ativada automaticamente pelo Silverpop. Você deve entrar em contato com seu representante do Silverpop para iniciar a configuração do Silverpop antes que os dados sejam importados ou exportados do Analytics.
 
->[!NOTE] Essa integração funciona somente com empresas Engage (não Transact).
+>[!NOTE]
+>
+>Essa integração funciona somente com empresas Engage (não Transact).
 
 ## Preços {#pricing}
 
