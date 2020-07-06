@@ -2,7 +2,7 @@
 title: Profundidade média da página
 description: Quantas páginas em média a dimensão existe em.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] Se quiser ver a profundidade média da página com uma casa decimal, crie uma métrica calculada usando essa métrica como o único elemento dentro da fórmula. Aumente as casas decimais na métrica calculada para a casa decimal desejada.
+>[!TIP]
+>
+>Se quiser ver a profundidade média da página com uma casa decimal, crie uma métrica calculada usando essa métrica como o único elemento dentro da fórmula. Aumente as casas decimais na métrica calculada para a casa decimal desejada.
 
 ## Porcentagens acima de 100%
 
