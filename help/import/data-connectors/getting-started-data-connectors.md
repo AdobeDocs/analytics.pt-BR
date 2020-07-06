@@ -1,8 +1,11 @@
 ---
 description: Importe dados de rastreamento de aplicativos de terceiros para o Analytics.
 title: Introdução aos conectores de dados do Analytics
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Para implementar segmentos de recomercialização com sucesso, é preciso atende
    * Compras: evento `purchase`
    * Exibições de produto: evento `prodView`
 
->[!NOTE] Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
+>[!NOTE]
+>
+>Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
 Caso as exigências acima não sejam atendidas, os segmentos de remarketing correspondentes não serão apresentados corretamente.
 
 [!UICONTROL Abandono do carrinho]: lançado quando o usuário adiciona um produto ao carrinho:
@@ -104,4 +109,6 @@ s.events="purchase";
 | Os arquivos de segmento de recomercialização não foram recebidos. | Caso não esteja recebendo os arquivos, um dos usuários com suporte da empresa deve entrar em contato com o ClientCare para investigar a causa da falha no recebimento. |
 
 
->[!IMPORTANT] É comum que os consultores também configurem uma solicitação de data warehouse como relatório diário agendado além do arquivo de segmento de remarketing da integração dos conectores de dados. Essa solicitação de data warehouse deve incluir as variáveis de conectores de dados e as variáveis de não conectores. Além disso, ela pode ser agendada apenas com base na solicitação específica da sua empresa. Para evitar confusões ao solucionar problemas, defina se o arquivo em questão é o arquivo do segmento de recomercialização ou uma solicitação de data warehouse com variáveis que não são de origem.
+>[!IMPORTANT]
+>
+>É comum que os consultores também configurem uma solicitação de data warehouse como relatório diário agendado além do arquivo de segmento de remarketing da integração dos conectores de dados. Essa solicitação de data warehouse deve incluir as variáveis de conectores de dados e as variáveis de não conectores. Além disso, ela pode ser agendada apenas com base na solicitação específica da sua empresa. Para evitar confusões ao solucionar problemas, defina se o arquivo em questão é o arquivo do segmento de recomercialização ou uma solicitação de data warehouse com variáveis que não são de origem.
