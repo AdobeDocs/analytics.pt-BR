@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Importador de classificações - visão geral
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Use o importador para enviar suas classificações para o Adobe Analytics. Você
 
 Os dados importados por meio da ferramenta de importação devem estar em um formato específico. A Adobe oferece a opção de fazer download de um modelo de dados com todas as devidas informações de cabeçalho em um arquivo de dados delimitado por tabulação. É possível adicionar seus novos dados a esse modelo e, então, importar o arquivo de dados no navegador, usando FTP.
 
->[!NOTE] A Adobe recomenda que você limite a quantidade de colunas de importações e exportações para 30.
+>[!NOTE]
+>
+>A Adobe recomenda que você limite a quantidade de colunas de importações e exportações para 30.
 
 Consulte [Classificações numéricas 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) para obter mais informações sobre como fazer upload de dados usando as classificações numéricas 2.
 
