@@ -5,7 +5,10 @@ title: Testes estatísticos usados na comparação entre segmentos
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
@@ -24,4 +27,6 @@ No gráfico Principais métricas, a Ferramenta comparação entre segmentos usa 
 
 Para computar a pontuação de diferença nos gráficos Principais itens de dimensão e Principais diferenças entre segmentos, é usado um algoritmo de diferenciação de risco relativo (similar à taxa de risco, embora use uma diferença em vez de uma taxa). Uma diferença de risco é calculada subtraindo as incidências cumulativas de um item de dimensão (ou sobreposição com um segmento do gráfico de segmentos) de um segmento selecionado a partir de outro. Uma pontuação de diferença alta (próxima a 1) significa que o item de dimensão particular ou o segmento terciário era muito importante em apenas um dos segmentos selecionados.
 
->[!NOTE] Nos três gráficos, a estatística de diferença é baseada em uma amostra adequada de visitantes para fazer com que o processo seja executado da maneira mais rápida possível e se mantenha estatisticamente preciso. Embora a pontuação de diferença seja baseada em uma amostra, os resultados apresentados no gráfico não são amostras. Para garantir significância estatística, cada teste estatístico depende de um algoritmo de alocação dinâmico de maneira que o segmento menor contenha um tamanho de amostra que possua menos de 3% de margem de erro. Se um segmento contém pouco visitantes (menos de 1.000), nós usamos todos os dados disponíveis e não criamos uma amostra para computar a pontuação de diferença.
+>[!NOTE]
+>
+>Nos três gráficos, a estatística de diferença é baseada em uma amostra adequada de visitantes para fazer com que o processo seja executado da maneira mais rápida possível e se mantenha estatisticamente preciso. Embora a pontuação de diferença seja baseada em uma amostra, os resultados apresentados no gráfico não são amostras. Para garantir significância estatística, cada teste estatístico depende de um algoritmo de alocação dinâmico de maneira que o segmento menor contenha um tamanho de amostra que possua menos de 3% de margem de erro. Se um segmento contém pouco visitantes (menos de 1.000), nós usamos todos os dados disponíveis e não criamos uma amostra para computar a pontuação de diferença.
