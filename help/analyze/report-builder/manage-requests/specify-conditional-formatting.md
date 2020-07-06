@@ -4,7 +4,10 @@ title: Especificar formatação condicional
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Depois de criar relatórios com solicitações incorporadas, você pode aplicar formatação condicional a células da pasta de trabalho.
 
-On the report builder Toolbar, click **[!UICONTROL Format]**.
+Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Formato]**.
 
 A formatação condicional permite identificar células que contêm resultados ou valores que você deseja monitorar. Por exemplo, você pode aplicar sombreado vermelho (ou realce) a uma determinada célula se a receita estiver abaixo do esperado, e sombreado azul se a receita exceder os valores previstos. Se uma alteração nos intervalos de datas para solicitações remover as condições que fazem com que a formatação condicional seja aplicada aos valores das células, os formatos que realçam essa condição são desativados temporariamente. Embora os formatos condicionais especificados não resultem em alteração na exibição do formato da célula, porque nenhuma condição é atendida, eles continuam a ser aplicados às células até que você os remova.
 
 Por motivos de segurança, as macros que você programar para a pasta de trabalho usando a linguagem Visual Basic for Applications (VBA) do Excel serão desativadas.
 
->[!NOTE] A formatação condicional é um recurso do Excel. Para obter informações sobre como criar regras de formatação, consulte a documentação do Excel.
+>[!NOTE]
+>
+>A formatação condicional é um recurso do Excel. Para obter informações sobre como criar regras de formatação, consulte a documentação do Excel.
 
