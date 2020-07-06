@@ -2,21 +2,23 @@
 title: prop
 description: Variáveis personalizadas que podem ser usadas na implementação.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
 
 # prop
 
-*Esta página de ajuda descreve como implementar props. Para obter informações sobre como as props funcionam como uma dimensão, consulte[prop](/help/components/dimensions/prop.md)no guia do usuário Componentes.*
+*Esta página de ajuda descreve como implementar props. For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
 
 As props são variáveis personalizadas que podem ser usadas da maneira que você desejar. Eles não persistem além da ocorrência que estão definidos.
 
-> [!TIP][ A Adobe recomenda usar eVars na maioria dos casos. ](evar.md) Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
 
 Se você tiver um documento [de design de](/help/implement/prepare/solution-design.md)solução, poderá alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende de seu contrato com a Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe oferecer suporte para isso.
 
@@ -49,7 +51,9 @@ Props de lista são uma configuração aplicada a props que permitem que a vari�
 
 Ative props de lista nas configurações do conjunto de relatórios. Consulte [Variáveis de tráfego](/help/admin/admin/c-traffic-variables/traffic-var.md) no Guia do usuário de administração. Verifique se o delimitador desejado está configurado corretamente. A Adobe não fornece um delimitador padrão.
 
-> [!TIP] Os delimitadores comuns usados em implementações são vírgula (`,`), dois pontos (`:`), ponto e vírgula (`;`) ou barra vertical (`|`). Você pode usar qualquer delimitador que melhor se ajuste à sua implementação.
+>[!TIP]
+>
+>Os delimitadores comuns usados em implementações são vírgula (`,`), dois pontos (`:`), ponto e vírgula (`;`) ou barra vertical (`|`). Você pode usar qualquer delimitador que melhor se ajuste à sua implementação.
 
 ### Definir props de lista
 
@@ -60,6 +64,8 @@ Depois de configurar as props de lista nas configurações do conjunto de relat�
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] Propriedades de lista ainda estão sujeitas ao tamanho máximo de 100 bytes. Propriedades de lista atingem mais facilmente esse limite e ficam truncados, pois podem conter vários valores. Considere o uso de abreviações ou a redução de valores for possível atingir o limite de 100 bytes.
+>[!IMPORTANT]
+>
+>Propriedades de lista ainda estão sujeitas ao tamanho máximo de 100 bytes. Propriedades de lista atingem mais facilmente esse limite e ficam truncados, pois podem conter vários valores. Considere o uso de abreviações ou a redução de valores for possível atingir o limite de 100 bytes.
 
-Se você definir o mesmo valor mais de uma vez em uma prop de lista, eles serão deduplicados no relatórios. A Área de trabalho de Análise conta o número de ocorrências em que um valor é visto, e não o número de vezes em que um valor existe nos dados.
+Se você definir o mesmo valor mais de uma vez em uma prop de lista, eles serão deduplicados no relatórios. O Analysis Workspace conta o número de ocorrências em que um valor é visto, e não o número de vezes em que um valor existe nos dados.
