@@ -3,7 +3,7 @@ description: Exibe informações sobre acesso a sites a partir de um dispositivo
 title: Relatórios móveis
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 98%
@@ -21,7 +21,9 @@ Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Cont
 
 Para melhorar a identificação do visitante para dispositivos móveis, você deve estar na lista da operadora (lista de permissões) para enviar IDs de assinante para um domínio. (Você pode visualizar a operadora em **[!UICONTROL Perfil do visitante]** > **[!UICONTROL Domínios]**.)
 
->[!NOTE] Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
+>[!NOTE]
+>
+>Para exibir relatórios em um dispositivo móvel, faça logon na [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 Para obter mais informações sobre o rastreamento de dispositivos móveis, consulte o site [Análise de dispositivos móveis](https://www.adobe.com/br/experience-cloud/topics/mobile-analytics.html).
 
@@ -34,7 +36,7 @@ Para obter mais informações sobre o rastreamento de dispositivos móveis, cons
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Dispositivos  Relatório </p> </td> 
+   <td colname="col1"> <p>Relatório de dispositivos </p> </td> 
    <td colname="col2"> <p>Mostra o número de visitantes que acessaram o site usando dispositivos móveis, como dispositivos com iOS ou Android. Isso pode ajudá-lo a entender o impacto das iniciativas móveis para que você possa se planejar adequadamente. </p> <p>É possível usar esse relatório para: </p> 
     <ul id="ul_76899F0390C64BF7BC8B3763E5E77CE9"> 
      <li id="li_0DB05A8459634EE59833540F67773298"> Desenvolver estratégias que envolvam usuários remotos </li> 
@@ -43,7 +45,7 @@ Para obter mais informações sobre o rastreamento de dispositivos móveis, cons
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fabricante  Relatório </p> </td> 
+   <td colname="col1"> <p>Relatório de fabricante </p> </td> 
    <td colname="col2"> <p>Agrupa acessos ao site com dispositivos móveis de acordo com seus fabricantes. O relatório exibe o tipo do fabricante, o número de visualizações de cada fabricante e as porcentagens correspondentes. </p> </td> 
   </tr> 
   <tr> 
@@ -112,11 +114,11 @@ Para obter mais informações sobre o rastreamento de dispositivos móveis, cons
   </tr> 
   <tr> 
    <td colname="col1"> Relatório de PTT </td> 
-   <td colname="col2"> <p>Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo   grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a PTT não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p>Agrupa dispositivos móveis com base em seu suporte a Push To Talk (PTT). O relatório também inclui um grupo grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a PTT não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Relatório de suporte de email de decoração </td> 
-   <td colname="col2"> <p>Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo   grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a Email de decoração não pode ser determinado. </p> </td> 
+   <td colname="col2"> <p>Agrupa os dispositivos móveis com base no suporte a DecoMail, que permite que um usuário decore seus emails com gráficos e animações. O relatório também inclui um grupo grupo <span class="term">Desconhecido</span> para os dispositivos cujo suporte a Email de decoração não pode ser determinado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Serviços de Informações  Relatório </td> 
