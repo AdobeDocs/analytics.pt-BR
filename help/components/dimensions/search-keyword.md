@@ -2,7 +2,7 @@
 title: Palavra-chave de pesquisa
 description: A palavra-chave de pesquisa que o visitante usou para acessar seu site.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 A dimensão &#39;Palavra-chave de pesquisa&#39; relata as palavras-chave de pesquisa que os visitantes usam para acessar seu site.
 
->[!IMPORTANT] A maioria dos mecanismos de pesquisa não passa mais pela palavra-chave de pesquisa devido ao aumento das práticas de privacidade. Ocorrências nas quais a Adobe reconhece um mecanismo de pesquisa, mas não possui grupos de palavras-chave no valor da dimensão `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>A maioria dos mecanismos de pesquisa não passa mais pela palavra-chave de pesquisa devido ao aumento das práticas de privacidade. Ocorrências nas quais a Adobe reconhece um mecanismo de pesquisa, mas não possui grupos de palavras-chave no valor da dimensão `"Keyword unavailable"`.
 
 Uma quem indicou deve atender a ambas as seguintes opções para classificar como uma palavra-chave de pesquisa:
 
