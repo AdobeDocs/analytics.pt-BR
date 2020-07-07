@@ -3,10 +3,10 @@ title: AppMeasurement para notas de versão do Javascript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 98%
+source-wordcount: '2123'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,12 @@ Notas de versão cumulativas do [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help/admin/admin/code-manager-admin.md).
+
+## Versão 2.21.0
+
+Data de lançamento: **24 de junho de 2020**
+
+* Correção de um problema em que o filtro Activity Map linkExclusions nem sempre era aplicado ao Firefox.
 
 ## Versão 2.20.0
 
