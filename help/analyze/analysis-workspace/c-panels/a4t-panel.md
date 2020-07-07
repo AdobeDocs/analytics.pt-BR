@@ -2,19 +2,15 @@
 description: O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
+source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 
 ---
 
 
 # Painel Analytics for Target (A4T)
-
->[!IMPORTANT]
->
->**[!UICONTROL O painel Analytics for Target (A4T)]** está atualmente em testes limitados. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html)
 
 O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências do Adobe Target no Analysis Workspace. Ele também permite que você veja incentivo e confiança para até três métricas de sucesso. Para acessar o painel A4T, navegue até um conjunto de relatórios com os componentes A4T ativados. Em seguida, clique no ícone do painel na extremidade esquerda e arraste o painel Analytics for Target para o Projeto do Analysis Workspace.
 
