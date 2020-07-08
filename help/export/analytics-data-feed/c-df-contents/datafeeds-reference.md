@@ -6,10 +6,10 @@ title: Referência da coluna de dados
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `visid_low` | Usada em combinação com visid_high para identificar exclusivamente um visitante. | bigint unsigned |
 | `visid_new` | Sinalizador para identificar se a ocorrência contém uma ID de visitante gerada recentemente. | char(1) |
 | `visid_timestamp` | Se a ID do visitante foi gerada recentemente, fornece o carimbo de data e hora (em horário Unix) de quando ela foi gerada. | int |
-| `visid_type` | ID numérica que representa método usado para identificar o visitante. <br>0: ID de visitante personalizado <br>1: IP e fallback do agente do usuário <br>2: Cabeçalho do assinante do HTTP Mobile <br>3: Valor do cookie herdado (s_vi) <br>4: Valor do cookie de fallback (s_fid) <br>5: Serviço de identidade | tinyint unsigned |
+| `visid_type` | Não destinado a uso externo; usado internamente pela Adobe para otimizar o processamento. ID numérica que representa o método usado para identificar o visitante.<br>0: VisitorID personalizado ou Desconhecido/não aplicável<br>1: IP e fallback do agente do usuário <br>2: Cabeçalho do assinante do HTTP Mobile <br>3: Valor do cookie herdado (s_vi) <br>4: Valor do cookie de fallback (s_fid) <br>5: Serviço de identidade | tinyint unsigned |
 | `visit_keywords` | Variável usada na dimensão Palavra-chave de pesquisa. Essa coluna usa um limite de caracteres não padrão para acomodar a lógica de back-end usada pela Adobe. | varchar(244) |
 | `visit_num` | Variável usada na dimensão Número de visitas. Começa em 1, e incrementa a cada início de nova visita por visitante. | int unsigned |
 | `visit_page_num` | Variável usada na dimensão Profundidade da ocorrência. Aumenta em 1 para cada ocorrência gerada pelo usuário. Redefine cada visita. | int unsigned |
