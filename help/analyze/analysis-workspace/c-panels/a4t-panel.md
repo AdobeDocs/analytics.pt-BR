@@ -2,7 +2,7 @@
 description: O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Você pode configurar o painel A4T usando estas configurações de entrada:
 | Métricas de sucesso | Selecione até 3 eventos bem-sucedidos padrão (não calculados) nos menus suspensos ou arraste e solte métricas do painel esquerdo. Cada métrica terá uma tabela e uma visualização dedicadas no painel renderizado. |
 | Intervalo de datas do calendário | Isso será preenchido automaticamente com base no intervalo de datas da Atividade. Você pode alterá-la se necessário. |
 
-![Construtor de painéis](assets/a4t-panel-builder.png)
+![Construtor de painéis](assets/a4t-panel-builder2.png)
 
 ## Saída do painel {#Output}
 
