@@ -2,9 +2,9 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Guia do curador para painéis do Adobe Analytics
 
-As seguintes informações instruem os curadores dos dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para assistir a um vídeo que demonstra essas informações, consulte Construtor [de Scorecard de painéis do](https://youtu.be/tnnl6hrcP94)Adobe Analytics.
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para ver um vídeo demonstrando essas informações, consulte [Adobe Analytics painel Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Introdução
 
-Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite que os usuários tenham acesso móvel a scorecards intuitivos que você cria e compartilha da interface do usuário do Adobe Analytics para desktop. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. Os painéis do Analytics são aceitos em sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite que os usuários tenham acesso móvel a scorecards intuitivos que você cria e compartilha da interface do usuário do desktop da Adobe Analytics. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. Os painéis do Analytics são aceitos em sistemas operacionais iOS e Android.
 
 ## Mais informações sobre este guia
 
-Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a configurar os Scorecards para seus usuários executivos em painéis. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais dos painéis do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de maneira eficaz para esses usuários.
+Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a configurar Scorecards para seus usuários executivos em painéis. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais dos painéis do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de maneira eficaz para esses usuários.
 
 ## Glossário de termos
 
@@ -142,12 +142,10 @@ Para compartilhar o Scorecard com um usuário executivo:
    * Fornecer uma descrição do Scorecard
    * Adicionar tags relevantes
    * Especificar os destinatários do Scorecard
-   * Selecione a opção **Compartilhar os componentes inseridos com os destinatários** para garantir que o usuário executivo tenha acesso a todos os componentes no Scorecard.
 
 3. Clique em **Compartilhar**.
 
 ![Compartilhar_Scorecards](assets/new_share.png)
-
 
 Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
@@ -192,6 +190,7 @@ Para ajudar usuários executivos:
    * Toque no nome da empresa de logon ou na Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista do Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
    * Ajude-os a classificar essa lista pela **Modificação mais recente**, se aplicável.
    * Toque no nome do Scorecard para visualizá-lo.
+
    ![Escolha uma empresa](assets/accesscard.png)
 
    Se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi compartilhado:
