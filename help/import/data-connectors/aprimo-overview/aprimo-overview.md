@@ -3,12 +3,19 @@ description: Esta integração de e-mail Adobe® Data Connectors™ combina info
 title: Conector de dados do Aprimo para Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 98%
 
 ---
 
 
 # Conector de dados do Aprimo para Adobe Analytics {#aprimo-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 
