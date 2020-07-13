@@ -2,9 +2,9 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Para compartilhar o Scorecard com um usuário executivo:
 
 Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## Configure os usuários executivos com o aplicativo
 
@@ -163,7 +163,7 @@ Para ajudar os usuários executivos a acessar os Scorecards no aplicativo, verif
 * Eles possuem um logon válido no Adobe Analytics
 * Você criou corretamente os Scorecards móveis para eles e compartilhou esses Scorecards com eles
 * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios em o Scorecard se baseia
-* Eles têm acesso aos Componentes incluídos no Scorecard. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* Eles têm acesso aos Componentes incluídos no Scorecard. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### Ajuda os usuários executivos com o aplicativo
 
