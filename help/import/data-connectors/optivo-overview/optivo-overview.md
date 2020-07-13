@@ -3,12 +3,19 @@ description: Essa integração combina o poder do sistema de feedback integrado 
 title: Conector de dados optivo® broadmail para Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 98%
 
 ---
 
 
 # Conector de dados optivo® broadmail para Adobe Analytics {#optivo-broadmail-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Essa integração combina o poder do sistema de feedback integrado do software de marketing por email e os relatórios comportamentais do Adobe Analytics para criar análises poderosas e oportunidades de otimização para sua organização.
 
