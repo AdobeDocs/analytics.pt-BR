@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de importação do Analytics
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: 61da40f8b2c95b0ce34543ac0ff8b4cf598adb2f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 + [API de inserção de dados](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Introdução aos Data Connectors do Analytics](data-connectors/getting-started-data-connectors.md)
+   + [Fim da vida útil dos Conectores de dados Analytics](data-connectors/data-connectors-eol.md)
    + Conector de dados do appFigures para Adobe Analytics {#appfigures}
       + [Visão geral do appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Antes de ativar essa integração](data-connectors/appfigures-overview/appfigures-before-activation.md)
