@@ -3,12 +3,19 @@ description: Esta integração de email Adobe® Data Connectors™ combina infor
 title: Conector de dados do DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
 
 # Conector de dados do DreamMail para Adobe Analytics {#dreammail-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de email Adobe® Data Connectors™ combina informações comportamentais do Analytics® com marketing por email para criar uma poderosa ferramenta que redefine a medição de sucesso e direciona públicos-alvo com mensagens mais relevantes.
 
