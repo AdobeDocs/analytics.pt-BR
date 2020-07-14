@@ -1,8 +1,11 @@
 ---
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -10,6 +13,10 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 # Coleta de dados regionais
 
 A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as interações entre os usuários finais e a Adobe Experience Cloud ocorram o mais próximo possível dos usuários finais. Isso melhora o desempenho do seu site/aplicativo e garante que os dados sejam coletados o mais rápido possível para otimizar a experiência do usuário final. Uma vez que os dados das propriedades digitais forem coletados regionalmente em um Centro de coleta de dados (DCC), eles serão transferidos por uma conexão segura para um Centro de processamento de dados (DPC), onde serão processados e disponibilizados para os produtos na Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>O Pacote complementar RDC da China (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. Entre em contato com seu representante de vendas da Adobe para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
