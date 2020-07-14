@@ -2,10 +2,10 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 94%
+source-wordcount: '471'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as inter
 
 >[!IMPORTANT]
 >
->O Pacote complementar RDC da China (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. Entre em contato com seu representante de vendas da Adobe para obter mais informações.
+>O Pacote complementar RDC da China (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. A Otimização do Desempenho da Adobe na China continental permite que os clientes na China enviem dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora o tempo de carregamento da página e a precisão dos dados ao enviar os dados para nós fora da China. Entre em contato com seu representante de vendas da Adobe para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
