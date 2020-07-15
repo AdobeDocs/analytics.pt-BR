@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -79,19 +79,19 @@ ht-degree: 96%
       + [Mapa de árvore](analysis-workspace/visualizations/treemap.md)
    + Painéis {#panels}
       + [Visão geral dos painéis](analysis-workspace/c-panels/panels.md)
-      + [Painel Análises para Públicos alvos (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Painel Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Painel de atribuição](analysis-workspace/c-panels/attribution.md)
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Painel Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Prepare ou compartilhe projetos {#curate-share}
-      + [Preparar projetos da Workspace](analysis-workspace/curate-share/curate.md)
-      + [Compartilhar projetos da Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Projetos da área de trabalho somente para Visualização](analysis-workspace/curate-share/view-only-projects.md)
+      + [Preparar projetos do Workspace](analysis-workspace/curate-share/curate.md)
+      + [Compartilhar projetos do Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Projetos do Workspace somente para visualização](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar arquivos PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Compartilhar e programar arquivos de projeto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envio de arquivo - Agendamento do envio de um projeto](analysis-workspace/curate-share/t-schedule-report.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [A Analysis Workspace comparada à Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limitações da Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administração](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Acessibilidade na área de trabalho da Análise](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Acessibilidade no Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Ajuda do Report Builder da Adobe](report-builder/home.md)
    + [Novidades no Report Builder](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [Metas](reports-analytics/targets.md)
    + [Alertas](reports-analytics/alerts.md)
    + [Eventos de calendário](reports-analytics/t-calendar-event.md)
-   + [Solicitações do Data Warehouse](reports-analytics/data-warehouse.md)
    + [Perguntas frequentes](reports-analytics/frequently-asked-questions.md)
    + [Solução de problemas](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
@@ -336,7 +335,7 @@ ht-degree: 96%
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
 + Painéis do Adobe Analytics {#mobapp}
-   + [painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
+   + [painéis Analytics da Adobe - Visão geral](mobile-app/home.md)
    + [Guia do curador](mobile-app/curator.md)
    + [Guia de início rápido do usuário executivo](mobile-app/executive.md)
 + Aplicativos da Web progressivos {#pwa}
