@@ -4,10 +4,10 @@ title: Construir segmentos sequenciais
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ Os grupos lógicos podem parecer intimidantes - veja algumas práticas recomenda
 Se você quiser agrupar pontos de verificação sequenciais, seu &quot;contêiner&quot; será do Grupo lógico. No entanto, se esses pontos de verificação sequenciais precisarem ocorrer no escopo de uma única ocorrência ou visita, um contêiner de &quot;ocorrência&quot; ou &quot;visita&quot; será necessário. (É claro que a &quot;ocorrência&quot; não faz sentido para um grupo de pontos de verificação sequenciais, quando uma ocorrência não pode creditar mais de um ponto de verificação).
 
 **Os Grupos lógicos simplificam a criação de segmentos sequenciais?**
-Sim, eles podem. Suponhamos que você esteja tentando responder esta pergunta: um visitante **visualizou a página B, C ou D após a página A?**
+Sim, eles podem. Suponhamos que você esteja tentando identificar este segmento de visitantes: **Visitantes que visualizaram a página A e, em seguida, visualizaram cada uma das páginas de B, C e D**
 
-Você pode criar esse segmento sem um contêiner do Grupo lógico, mas ele é complexo e trabalhoso:
+Você pode criar esse segmento sem um contêiner do Grupo lógico, mas ele é complexo e trabalhoso. Você deve especificar cada sequência de páginas que o visitante poderia visualização:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
