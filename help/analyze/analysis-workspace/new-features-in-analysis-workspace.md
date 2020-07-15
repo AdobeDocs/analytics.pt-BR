@@ -3,15 +3,48 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
 workflow-type: tm+mt
-source-wordcount: '7261'
-ht-degree: 99%
+source-wordcount: '7820'
+ht-degree: 98%
 
 ---
 
 
 # Novidades no Analysis Workspace
+
+## Julho de 2020
+
+Novo recurso lançado em 16 de julho de 2020.
+
+| Recurso | Descrição |
+|--- |--- |
+| Novas predefinições de intervalo de datas | Foram adicionados 4 novos intervalos de datas: ([!UICONTROL Esta semana/mês/trimestre/ano (excluindo hoje)]). Isso permite escolher entre intervalos de datas que não incluem dados de dia parcial de hoje. |
+
+## Junho de 2020
+
+Novos recursos lançados em 18 de junho de 2020.
+
+| Recurso | Descrição |
+|--- |--- |
+| Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Funções de projeto para projetos compartilhados do Workspace | Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como “Pode visualizar”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Capacidade de co-editar projetos do Workspace | Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
+| Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Painel do Público alvo Analytics para o Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Sobre a página do Workspace | A página Sobre o Workspace fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Adobe Analytics (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ela pode ser encontrado em Workspace > Ajuda > Sobre o Workspace. |
+
+## Maio de 2020
+
+Novos recursos lançados em 21 de maio de 2020.
+
+| Recurso | Descrição |
+|--- |--- |
+| Criar tabelas de forma livre automaticamente a partir de um estado em branco | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma Tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma Tabela de forma livre será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (como dimensões e métricas) são tratados quando colocados em uma tabela de forma livre em branco. |
+| Melhorias de acessibilidade | A equipe do Adobe Analytics fez várias melhorias de acessibilidade no Analysis Workspace, incluindo a navegação aprimorada do teclado, o contraste de cores e o suporte ao leitor de tela. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## Abril de 2020
 
