@@ -2,10 +2,10 @@
 description: O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -61,5 +61,7 @@ Assim como em qualquer painel no Analysis Workspace, você pode continuar sua an
 | Por que os visitantes únicos variam entre o Público alvo e o Analytics? | [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre as variações de visitantes únicos entre produtos. |
 | Quando eu aplico um segmento de ocorrência para uma atividade de Público alvo específica em minha análise, por que vejo experiências não relacionadas retornadas? | A dimensão A4T é uma variável lista, o que significa que pode conter muitas atividades (e experiências) ao mesmo tempo. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | A métrica de confiança contabiliza pedidos extremos ou aplica uma correção Bonferroni para várias ofertas? | Não. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre como a Analytics calcula a confiança. |
+| As métricas de incentivo e confiança podem ser usadas com outras dimensões ou detalhamentos? | O incentivo e a confiança são &quot;métricas bloqueadas&quot; para a dimensão Experiências do Público alvo, pois exigem um controle e uma variante para calcular. Como tal, não podem ser divididas nem utilizadas com outras dimensões. |
+| Quando elevar e recalcular a confiança? | O aumento e a confiança serão calculados novamente sempre que o painel for executado (ou executado novamente), o intervalo de datas do painel mudar ou um segmento for aplicado ao painel ou tabela. |
 
 Para obter mais informações sobre o relatórios Analytics para Públicos alvos, visite o relatórios [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
