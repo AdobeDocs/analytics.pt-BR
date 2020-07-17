@@ -3,9 +3,9 @@ description: Conjuntos de relatórios virtuais podem ser curados para incluir e 
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,7 @@ Para permitir a curadoria de componentes,
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * API em relatórios do Analytics
 
    Uma vez verificado, você pode adicionar os componentes que deseja incluir no conjunto de relatórios virtual, arrastando os componentes aplicáveis da coluna “componentes excluídos” para a coluna “componentes incluídos”. Os componentes que podem ser incluídos e excluídos são:
