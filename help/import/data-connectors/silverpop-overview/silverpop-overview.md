@@ -3,9 +3,9 @@ description: Esta integração de email do Adobe® Data Connectors™ combina in
 title: Conector de dados do Silverpop para Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '490'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>Terminaremos a vida útil da tecnologia Adobe Data Connector em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de email do Adobe® Data Connectors™ combina informações comportamentais do Analytics® com marketing de email do Silverpop para criar uma ferramenta poderosa que redefine a medição de sucesso e direciona públicos-alvo com mensagens mais relevantes.
 
