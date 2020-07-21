@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 71%
+source-wordcount: '632'
+ht-degree: 74%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 71%
    + [Saídas](metrics/exits.md)
    + [Instâncias](metrics/instances.md)
    + [visualizações móveis](metrics/mobile-views.md)
-   + [Novos envolvimentos](metrics/new-engagements.md)
+   + [Novos engajamentos](metrics/new-engagements.md)
    + [Ocorrências](metrics/occurrences.md)
    + [Pedidos por visita](metrics/orders-per-visit.md)
    + [Pedidos](metrics/orders.md)
@@ -205,9 +205,13 @@ ht-degree: 71%
       + [Gerenciar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-manage.md)
       + [Exibir informações do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-view.md)
 + Análise entre dispositivos {#cda}
-   + [Visão geral da Análise entre dispositivos](cda/cda-home.md)
-   + [Configuração da Análise entre dispositivos](cda/cda-setup.md)
-   + [Perguntas frequentes sobre a Análise entre dispositivos](cda/cda-faq.md)
+   + [Visão geral da Análise entre dispositivos](cda/overview.md)
+   + [Arranque em campo](cda/field-based-stitching.md)
+   + [Gráfico de dispositivos](cda/device-graph.md)
+   + [Configurar Analytics entre dispositivos](cda/setup.md)
+   + [Como as réplicas funcionam](cda/replay.md)
+   + [Modelo do CDA Workspace](cda/workspace-template.md)
+   + [Perguntas frequentes sobre a Análise entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
    + [Criador de alertas](c-alerts/alert-builder.md)
