@@ -2,14 +2,20 @@
 description: Ao criar uma integração com um parceiro Adobe usando conectores de dados, a Adobe pode jogar os dados de remarketing ou outros dados para uma conta FTP para que você ou o parceiro possam baixá-los.
 keywords: ftp;sftp
 title: Conectores de dados
-uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 91%
 
 ---
 
 
 # Conectores de dados
+
+>[!IMPORTANT]
+>
+>Terminaremos a vida útil da tecnologia Adobe Data Connector em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Ao criar uma integração com um parceiro Adobe usando[ conectores de dados](https://www.adobeexchange.com/experiencecloud.html), a Adobe pode jogar os dados de remarketing ou outros dados para uma conta FTP para que você ou o parceiro possam baixá-los.
 
