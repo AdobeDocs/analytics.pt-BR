@@ -1,8 +1,8 @@
 ---
 title: Visão geral da Atribuição
-description: O conceito de atribuição de crédito de um evento bem-sucedido a vários valores de dimensão.
+description: O conceito de atribuição de crédito de um evento bem-sucedido a vários itens de dimensão.
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # Visão geral da Atribuição
 
-A atribuição oferece aos analistas a capacidade de personalizar como os valores de dimensão recebem crédito por eventos bem-sucedidos. Por exemplo:
+A atribuição oferece aos analistas a capacidade de personalizar como os itens de dimensão recebem crédito por eventos bem-sucedidos. Por exemplo:
 
 1. Um visitante do site clica em um link de pesquisa pago para uma de suas páginas de produtos. O usuário adiciona o produto ao carrinho, mas não o compra.
 2. No dia seguinte, veja uma publicação de mídia social de um de seus amigos, clique no link e conclua a compra.
