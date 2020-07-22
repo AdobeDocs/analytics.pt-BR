@@ -3,7 +3,7 @@ description: Introdução ao Adobe Analytics.
 keywords: Analysis Workspace
 title: Guia de Introdução
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 98%
@@ -21,7 +21,7 @@ O Analysis Workspace é uma das principais ferramentas da Adobe para que a sua o
 
 ## Obter um relatório classificado básico no Workspace
 
-É possível obter um relatório classificado básico usando o Analysis Workspace. Os relatórios classificados incluem uma exibição total agregada de cada valor de dimensão, mostrando primeiro os maiores valores. Esse tipo de relatório é útil para ver quais componentes do site são mais eficazes, quais páginas recebem mais tráfego ou quais produtos vendem mais.
+É possível obter um relatório classificado básico usando o Analysis Workspace. Um relatório classificado mostra uma visualização total agregada de cada item de dimensão, mostrando primeiro os maiores valores. Esse tipo de relatório é útil para ver quais componentes do site são mais eficazes, quais páginas recebem mais tráfego ou quais produtos vendem mais.
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
