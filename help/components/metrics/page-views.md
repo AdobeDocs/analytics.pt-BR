@@ -2,7 +2,7 @@
 title: Exibições de página
 description: O número de vezes que uma página foi visualizada.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Exibições de página
 
-A métrica &#39;visualizações de página&#39; mostra o número de vezes que um determinado valor de dimensão foi definido ou persistiu em uma página. É uma das métricas mais comuns e básicas nos relatórios.
+A métrica &#39;visualizações de página&#39; mostra o número de vezes que um determinado item de dimensão foi definido ou persistiu em uma página. É uma das métricas mais comuns e básicas nos relatórios.
 
 ## Como essa métrica é calculada
 
-Essa métrica conta todas as chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)) em um conjunto de relatórios. Para dimensões, inclui ocorrências em que um valor de dimensão é definido ou persistente. Ela não inclui chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Essa métrica conta todas as chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)) em um conjunto de relatórios. Para dimensões, inclui ocorrências em que um item de dimensão é definido ou persistente. Ela não inclui chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Comparar a métricas semelhantes
 
