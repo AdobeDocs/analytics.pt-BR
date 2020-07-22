@@ -5,10 +5,10 @@ title: Calcular métricas
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ As ocorrências devem primeiro ser agrupadas por visita e, em seguida, ordenadas
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 2. Classifique por esse valor concatenado e aplique uma classificação secundária por `visit_page_num`.
 3. Se uma ocorrência não for a última em uma visita, subtraia o `post_cust_hit_time` valor do `post_cust_hit_time` valor da ocorrência subsequente.
-4. Esse número é a quantidade de tempo gasto (em segundos) para a ocorrência. Os filtros podem ser aplicados para focalizar valores de dimensão ou eventos.
+4. Esse número é a quantidade de tempo gasto (em segundos) para a ocorrência. Filtros podem ser aplicados para focar em itens de dimensão ou eventos.
 
 ## Pedidos, unidades e receita
 
