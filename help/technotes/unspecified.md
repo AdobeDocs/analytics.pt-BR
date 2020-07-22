@@ -1,8 +1,11 @@
 ---
 description: Vários relatórios do Adobe Analytics podem mostrar Não especificado, Outros ou Desconhecido, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
 title: Não especificado, Outros e Desconhecido nos relatórios
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +20,7 @@ Vários relatórios do Adobe Analytics podem mostrar “Não especificado”, �
 
 * **Um evento é acionado sem uma variável de conversão:** por exemplo, um usuário entra em seu site e efetua uma compra sem nenhum valor em eVar1. Se você exibir os pedidos usando a dimensão eVar1, não há um valor para ao pedido. Portanto, é atribuído automaticamente a “Não especificado”.
 * **Dados não classificados nos relatórios de classificação:** ao exibir dados de classificação, qualquer valor sem dados associados à classificação específica retorna “Não especificado”. Para resolver esse problema, classifique o valor da variável pai.
-* **Relatórios de detalhamento nos quais somente uma variável foi acionada:** quando você aplica um detalhamento a uma variável, cada instância dessa variável deve ser contabilizada. Se a segunda variável não foi vista ou se persistiu em um hit anterior, o valor da dimensão é &quot;Não especificado&quot;.
+* **Relatórios de detalhamento nos quais somente uma variável foi acionada:** quando você aplica um detalhamento a uma variável, cada instância dessa variável deve ser contabilizada. Se a segunda variável não foi vista ou se persistiu em uma ocorrência anterior, o item de dimensão é &quot;Não especificado&quot;.
 * **Ocorrências não móveis em relatórios móveis:** quaisquer hits não móveis em relatórios para dispositivos móveis são listadas como “Não especificado” (“Não móvel” no Reports and Analytics).
 
 ## “Outros” em relatórios
