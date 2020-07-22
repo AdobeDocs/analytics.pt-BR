@@ -2,7 +2,7 @@
 title: Altura do navegador - segmentado
 description: A altura da janela do navegador em pixels.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Essa dimensão recupera dados da string [`bh` do](/help/implement/validate/query
 
 A Adobe persiste na altura do navegador para uma visita. Se a altura do navegador for ajustada no meio da visita, o ajuste não será registrado.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem todas as alturas coletadas do navegador, classificadas em grupos de 100 pixels. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no valor da dimensão `700 to 799`.
+Os itens de dimensão incluem todas as alturas coletadas do navegador, classificadas em grupos de 100 pixels. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.
