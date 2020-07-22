@@ -2,7 +2,7 @@
 title: Domínio de referência
 description: O domínio abrangente no qual um visitante estava ativado antes de clicar até o site.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Domínio de referência
 
-A dimensão &#39;Domínio de referência&#39; relata quais domínios os visitantes clicam para chegar ao site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu. Um link deve existir no site externo e um visitante deve clicar nele para que o valor da dimensão seja exibido.
+A dimensão &#39;Domínio de referência&#39; relata quais domínios os visitantes clicam para chegar ao site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu. Um link deve existir no site externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >
@@ -27,6 +27,6 @@ Essa dimensão requer configuração na interface do Analytics e dados em solici
 
 A Adobe persiste no domínio de referência para uma visita. Se um visitante sair e clicar em um link em um domínio diferente em uma única visita, o novo valor será atualizado e persistirá pelo restante da visita. Se quiser ver apenas o valor original, consulte Domínio [de referência](original-referring-domain.md)original.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem domínios que os visitantes clicam até o site. Se uma ocorrência não tiver dados quens indicou (definidos ou persistentes), ela será agrupada sob o valor da dimensão `"Typed/Bookmarked"`. Esse valor de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador.
+Os itens de dimensão incluem domínios nos quais os visitantes clicam até o site. Se uma ocorrência não tiver dados de quem indicou (definidos ou persistentes), ela será agrupada no item de dimensão `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador.
