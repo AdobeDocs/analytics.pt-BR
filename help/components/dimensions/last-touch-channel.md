@@ -2,7 +2,7 @@
 title: canal de último toque
 description: O canal de marketing mais recente dentro da expiração do envolvimento do visitante.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -22,10 +22,10 @@ Cada ocorrência enviada para os servidores de coleta de dados da Adobe é execu
 
 Se você quiser definir essa dimensão para um valor específico, as seguintes etapas serão necessárias:
 
-* Defina o valor de dimensão desejado como um canal no Gerenciador de canais de marketing em Configurações do conjunto de relatórios.
+* Defina o item de dimensão desejado como um canal no Gerenciador de canais de marketing em Configurações do conjunto de relatórios.
 * Defina uma regra de processamento de canais de marketing que contenha os critérios desejados para a ocorrência.
 * A ocorrência do visitante em seu site deve corresponder aos critérios descritos na regra de processamento do canal de marketing.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem qualquer nome de canal no Gerenciador de canais de marketing. Por padrão, os valores incluem `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`e `"Referring domains"`. Você pode adicionar ou excluir canais no Gerenciador de canais de marketing, que afetam os valores dessa dimensão.
+Os itens de dimensão incluem qualquer nome de canal no Gerenciador de canais de marketing. Por padrão, os valores incluem `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`e `"Referring domains"`. Você pode adicionar ou excluir canais no Gerenciador de canais de marketing, que afetam os valores dessa dimensão.
