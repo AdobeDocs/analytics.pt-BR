@@ -2,7 +2,7 @@
 title: Link de download
 description: O nome do link de download.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 17%
@@ -28,6 +28,6 @@ Se desejar enviar dados para essa dimensão usando o AppMeasurement:
 * Defina a variável [`linkType`](/help/implement/vars/config-vars/linktype.md) como `"d"`.
 * Envie uma solicitação de [`tl()`](/help/implement/vars/functions/tl-method.md) imagem.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais são os valores da dimensão. A Adobe recomenda que você agrupe links em categorias significativas com base nas suas necessidades de relatórios.
+Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais itens de dimensão são. A Adobe recomenda que você agrupe links em categorias significativas com base nas suas necessidades de relatórios.
