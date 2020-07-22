@@ -2,7 +2,7 @@
 title: URL da página
 description: O URL da página.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ A Adobe recomenda configurar uma eVar para a string concatenada `window.location
 
 Se desejar que a eVar corresponda exatamente à dimensão &#39;URL da página&#39; na Data warehouse, você pode usar variáveis [](/help/implement/vars/page-vars/dynamic-variables.md) dinâmicas e definir a eVar como `D=g` em cada ocorrência. Observe que esse método não funciona para ocorrências de link personalizado, pois o URL da página é removido para todas as [`tl()`](/help/implement/vars/functions/tl-method.md) chamadas.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem os URLs das páginas do site.
+Os itens de dimensão incluem os URLs das páginas do site.
