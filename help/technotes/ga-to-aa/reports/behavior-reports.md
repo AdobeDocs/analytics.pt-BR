@@ -2,7 +2,10 @@
 title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +21,7 @@ Esta página supõe que o usuário tenha um conhecimento básico sobre o uso do 
 O relatório de fluxo de comportamento pode ser recriado usando a exibição Fluxo.
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
-2. Localize a dimensão **Página** e clique no ícone Seta para revelar os valores da página. Os valores de dimensão têm cor amarela.
+2. Localize a dimensão **Página** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm a cor amarela.
 3. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
