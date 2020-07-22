@@ -2,7 +2,7 @@
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -16,7 +16,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 
 >[!NOTE]
 >
->Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos desta lista. Esses valores de dimensão são específicos de conjuntos de relatórios individuais.
+>Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos desta lista. Esses itens de dimensão são específicos de conjuntos de relatórios individuais.
 
 >[!NOTE]
 >
