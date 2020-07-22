@@ -2,7 +2,7 @@
 title: eVar (merchandising)
 description: Variáveis personalizadas que se vinculam à dimensão de produtos.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # eVar (merchandising)
 
-*Esta página de ajuda descreve como as eVars de comercialização funcionam como uma dimensão. Para obter informações sobre como implementar eVars de comercialização, consulte[eVars](/help/implement/vars/page-vars/evar.md)no guia Implementar usuário.*
+*Esta página de ajuda descreve como as eVars de comercialização funcionam como uma dimensão. For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
 
 Ao medir o êxito de campanhas externas ou termos de pesquisa externos, normalmente você deseja um único valor para receber crédito por qualquer evento bem-sucedido que possa ocorrer. Por exemplo, se um cliente clica em um link de uma campanha de email para visitar seu site, todas as compras efetuadas como resultado devem ser creditadas à campanha.
 
@@ -48,7 +48,7 @@ Consulte eVars [de comercialização](/help/implement/vars/page-vars/evar-mercha
 A métrica [Instâncias](../metrics/instances.md) não é recomendada para uso em variáveis de comercialização.
 
 * Para variáveis de comercialização que usam sintaxe de produto, as instâncias não são aumentadas.
-* Para variáveis de comercialização que usam a sintaxe de variável de conversão, as instâncias são contadas cada vez que a eVar é definida. No entanto, ele atribui ao valor da dimensão, a menos `"None"` que tudo o seguinte ocorra na mesma ocorrência:
+* Para variáveis de comercialização que usam a sintaxe de variável de conversão, as instâncias são contadas cada vez que a eVar é definida. No entanto, ele atribui ao item de dimensão, a menos `"None"` que tudo o seguinte ocorra na mesma ocorrência:
    * A eVar de comercialização é definida com um valor.
    * A `products` variável é definida com um valor.
    * Um evento de vinculação está configurado.
