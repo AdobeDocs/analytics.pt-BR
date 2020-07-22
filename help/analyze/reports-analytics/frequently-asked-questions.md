@@ -3,8 +3,11 @@ description: Fornecem sugestões para a solução de problemas e respostas a alg
 keywords: Troubleshooting Analytics
 title: Perguntas frequentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +46,7 @@ Os dispositivos da Apple relatam a versão do firmware na sequência de agente d
 
 **Por que os totais na parte inferior do meu relatório não correspondem quando eu somo os valores?**
 
-Muitas vezes, os valores de dimensão podem ser aplicados em vários lugares, por exemplo, visitas que abrangem meia-noite ou vários produtos pertencentes a um único pedido. O valor da dimensão é reportado em todos os itens de linha aplicáveis, mas é desduplicado no total do relatório. Consulte [Comparar a soma dos itens de linha ao total do relatório](https://helpx.adobe.com/br/analytics/kb/sum-line-items-different-from-total.html) na Base de conhecimento do Analytics para obter mais informações.
+Os itens de dimensão podem muitas vezes se aplicar em vários lugares; por exemplo, visitas que abrangem meia-noite ou vários produtos pertencentes a um único pedido. O item de dimensão é reportado em todos os itens de linha aplicáveis, mas é desduplicado no total do relatório. Consulte [Comparar a soma dos itens de linha ao total do relatório](https://helpx.adobe.com/br/analytics/kb/sum-line-items-different-from-total.html) na Base de conhecimento do Analytics para obter mais informações.
 
 **Como posso excluir dados de um endereço IP específico no conjunto de relatórios?**
 
