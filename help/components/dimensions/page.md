@@ -2,7 +2,7 @@
 title: Página
 description: O nome da página.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ Essa dimensão está relacionada à seção [](site-section.md) Site e às dimen
 
 Essa dimensão recupera dados da string [`pageName` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a `pageName` variável. Se a `pageName` variável não estiver definida, ela voltará para o uso do URL da página.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem os nomes das páginas do site. Sua organização determina quais valores de dimensão específicos você deseja usar. Algumas organizações usam diretamente `document.title`, enquanto outras formulam uma navegação estrutural personalizada. Qualquer que seja o método usado, verifique se ele é consistente e se você o registra em um documento [de design de](/help/implement/prepare/solution-design.md)solução.
+Os itens de dimensão incluem os nomes das páginas do site. Sua organização determina quais itens de dimensão você deseja usar. Algumas organizações usam diretamente `document.title`, enquanto outras formulam uma navegação estrutural personalizada. Qualquer que seja o método usado, verifique se ele é consistente e se você o registra em um documento [de design de](/help/implement/prepare/solution-design.md)solução.
 
 >[!NOTE]
 >
