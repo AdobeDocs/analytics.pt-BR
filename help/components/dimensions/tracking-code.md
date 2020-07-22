@@ -2,7 +2,7 @@
 title: Código de rastreamento
 description: O nome do código de rastreamento ou da campanha.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ A dimensão &#39;Código de rastreamento&#39; lista os nomes dos códigos de ras
 
 Essa dimensão recupera dados da string [`v0` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a [`campaign`](/help/implement/vars/page-vars/campaign.md) variável.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem os nomes dos códigos de rastreamento no site. Sua organização determina quais valores de dimensão específicos você deseja usar.
+Os itens de dimensão incluem os nomes dos códigos de rastreamento no site. Sua organização determina quais itens de dimensão você deseja usar.
