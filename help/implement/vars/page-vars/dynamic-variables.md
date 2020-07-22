@@ -2,10 +2,10 @@
 title: Variáveis dinâmicas
 description: Copie variáveis sem aumentar a duração da solicitação de imagem.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,14 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 
 ## Variáveis dinâmicas no Adobe Experience Platform Launch
 
-É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. Os valores de dimensão normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou em Regras.
+É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. Os itens de dimensão normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou em regras.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
-6. Localize o valor de dimensão desejado.
+6. Localize o item de dimensão desejado.
 
 Coloque o prefixo da variável dinâmica no campo de texto, seguido pelo parâmetro da string de consulta ou pelo cabeçalho HTTP que você deseja referenciar. Por padrão, o prefixo da variável dinâmica é `D=`.
 
