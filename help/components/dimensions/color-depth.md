@@ -2,7 +2,7 @@
 title: Intensidade de cor
 description: A intensidade de cor do dispositivo.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ A dimensão &quot;Intensidade de cor&quot; relata quantas cores o dispositivo su
 
 Essa dimensão faz referência a uma tabela de pesquisa, traduzindo o valor de bit em um formato mais legível. Ele coleta dados da string [`c` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement usa a `screen.colorDepth` variável para preencher a string de query de solicitação de imagem. Se você usar o AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `c` query em cada ocorrência com um valor de bit válido.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o número de cores suportadas pelo dispositivo. Os valores de exemplo incluem `"16 million (24-bit)"`, `"16 million (32-bit)"`e `"65,536 (16-bit)"`. Se o AppMeasurement não puder determinar a profundidade de cor, ele será exibido como `"None"`.
+Os itens de dimensão incluem o número de cores suportadas pelo dispositivo. Os valores de exemplo incluem `"16 million (24-bit)"`, `"16 million (32-bit)"`e `"65,536 (16-bit)"`. Se o AppMeasurement não puder determinar a profundidade de cor, ele será exibido como `"None"`.
 
 >[!TIP]
 >
