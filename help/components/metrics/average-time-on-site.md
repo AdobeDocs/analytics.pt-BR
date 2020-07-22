@@ -1,8 +1,8 @@
 ---
 title: Tempo médio no site
-description: A quantidade média de tempo que um determinado valor de dimensão existia entre ocorrências.
+description: A quantidade média de tempo que um determinado item de dimensão existiu entre as ocorrências.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Tempo médio no site
 
-A métrica &#39;Tempo médio no site&#39; mostra a quantidade de tempo decorrido entre as ocorrências de um determinado valor de dimensão. Essa métrica é útil quando você deseja ver o tempo médio gasto para valores de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no `HH:MM:SS` formato.
+A métrica &#39;Tempo médio no site&#39; mostra o tempo decorrido entre as ocorrências de um determinado item de dimensão. Essa métrica é útil quando você deseja ver o tempo médio gasto para itens de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no `HH:MM:SS` formato.
 
 Essa métrica está relacionada à dimensão [Tempo gasto por visita](../dimensions/time-spent-per-visit.md) .
 
 ## Como essa métrica é calculada
 
-Para um determinado valor de dimensão, use o carimbo de data e hora de cada ocorrência em que esse valor de dimensão existe. Compare-o com o carimbo de data e hora da próxima ocorrência na visita. Se a ocorrência não tiver uma ocorrência subsequente, não a inclua nessa métrica. De todo o tempo gasto para o valor da dimensão, divida-os todos pelo número de &quot;sequências&quot; para esse valor de dimensão. Uma &quot;sequência&quot; é onde um valor de dimensão é o mesmo para uma ou mais ocorrências consecutivas. Esse número resultante é a métrica exibida nos relatórios.
+Para um determinado item de dimensão, use o carimbo de data e hora de cada ocorrência em que o item de dimensão existe. Compare-o com o carimbo de data e hora da próxima ocorrência na visita. Se a ocorrência não tiver uma ocorrência subsequente, não a inclua nessa métrica. De todo o tempo gasto para o item de dimensão, divida-os todos pelo número de &quot;sequências&quot; para esse item de dimensão. Uma &quot;sequência&quot; é onde um item de dimensão é o mesmo para uma ou mais ocorrências consecutivas. Esse número resultante é a métrica exibida nos relatórios.
 
 Por exemplo, considere a seguinte visita:
 
@@ -35,7 +35,7 @@ Por exemplo, considere a seguinte visita:
 | `12:25:40` | `Product page A` |
 
 
-Se desejar tempo médio no site para o valor da dimensão `Product page A`, considere primeiro a quantidade de tempo decorrido entre as ocorrências para essa dimensão:
+Se desejar tempo médio no site para o item de dimensão `Product page A`, considere primeiro a quantidade de tempo decorrido entre as ocorrências para essa dimensão:
 
 * **12:04:20 - 12:05:30** - 1 minuto 10 segundos
 * **12:05:30 - 12:07:00** - 1 minuto 30 segundos
@@ -61,7 +61,7 @@ A métrica &#39;Tempo médio no site&#39; usa sequências não quebradas de uma 
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-O cálculo do tempo médio no site para o valor da dimensão `Home` usaria o seguinte cálculo:
+O cálculo do tempo médio no site para o item de dimensão `Home` usaria o seguinte cálculo:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -77,6 +77,6 @@ Como havia uma única sequência na dimensão de detalhamento, ela usa um denomi
 
 ## Porcentagens acima de 100%
 
-Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio da dimensão inteira no site, e o numerador é o tempo médio do valor da dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um dado valor de dimensão no site, você verá percentuais acima de 100%. A classificação de relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é valioso. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
+Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio de toda a dimensão no site, e o numerador é o tempo médio do item de dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um determinado item de dimensão no site, você verá percentuais acima de 100%. A classificação de relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é valioso. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
 
 Consulte Visão geral [do](time-spent.md) Tempo gasto para obter mais informações gerais sobre o tempo gasto.
