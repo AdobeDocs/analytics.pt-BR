@@ -2,10 +2,10 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Canal:** pode se referir a:
    * A variável Canal, que preenche a dimensão Seções do site. Consulte [Variáveis de página](/help/implement/vars/page-vars/page-variables.md) no guia do usuário Implementar.
    * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
-* **Classificação:** um recurso no Adobe Analytics que permite o agrupamento de valores de dimensão. Consulte [Classificações](/help/components/c-classifications2/c-classifications.md) no guia do usuário Componentes.
+* **Classificação:** Um recurso no Adobe Analytics que permite o agrupamento de itens de dimensão. Consulte [Classificações](/help/components/c-classifications2/c-classifications.md) no guia do usuário Componentes.
 * **Clickmap:** não é mais usado. Um plug-in de navegador herdado que mostra quais áreas do site foram mais clicadas. Esta ferramenta foi removida em favor do Activity Map.
 * **Feed de sequência de cliques:** consulte Feed de dados.
 * **Coorte:** um grupo de pessoas que compartilham características comuns em um determinado período. Consulte [O que é a Análise de coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) no guia do usuário Analisar.
@@ -75,7 +75,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Métrica:** um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
 * **Marcação de vários relatórios:** a prática de enviar a mesma ocorrência para vários conjuntos de relatórios. Com a introdução aos conjuntos de relatórios virtuais, essa prática não é mais necessária. A maioria dos esforços de marcação de vários relatórios ajuda a acomodar um conjunto de relatórios global.
 * **Normalização:** uma maneira de organizar uma visualização que utiliza todas as métricas e as força a proporções iguais, permitindo uma comparação mais fácil das tendências.
-* **Ocorrências:** um tipo de métrica que mostra quantos hits um valor de dimensão foi definido ou persistiu. Consulte a métrica [Ocorrências](/help/components/metrics/occurrences.md) no guia do usuário Componentes.
+* **Ocorrências:** Um tipo de métrica que mostra quantas ocorrências um item de dimensão foi definido ou persistiu. Consulte a métrica [Ocorrências](/help/components/metrics/occurrences.md) no guia do usuário Componentes.
 * **Omniture:** não é mais usado como termo. Organização que era proprietária do Adobe Analytics antes de ser adquirida pela Adobe em 2009.
 * **Definição de caminho:** consulte Fluxo.
 * **Exibição de página:** um tipo de hit que aumenta as exibições de página. Consulte a métrica [visualizações](/help/components/metrics/page-views.md) de página no guia do usuário Componentes. Consulte também Hit.
