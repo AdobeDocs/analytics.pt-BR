@@ -2,7 +2,7 @@
 title: Tipo de referenciador
 description: O tipo de quem indicou, dependendo de onde o visitante veio.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Tipo de referenciador
 
-A dimensão &#39;Tipo de Quem indicou&#39; relata quais visitantes genéricos de canais clicaram para chegar ao site. A Adobe mantém as regras para cada valor de dimensão, ao contrário dos canais [de](marketing-channel.md)marketing, onde sua organização mantém regras para cada canal.
+A dimensão &#39;Tipo de Quem indicou&#39; relata quais visitantes genéricos de canais clicaram para chegar ao site. A Adobe mantém as regras para cada item de dimensão, ao contrário dos canais [de](marketing-channel.md)marketing, onde sua organização mantém regras para cada canal.
 
 ## Preencher esta dimensão com dados
 
 Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor é baseado na [quem indicou](referrer.md) da ocorrência, que depende dos filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Verifique se a dimensão de quem indicou e os filtros internos de URL estão configurados corretamente.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o tipo de quem indicou da ocorrência. Os valores específicos incluem:
+Os itens de dimensão incluem o tipo de quem indicou da ocorrência. Os valores específicos incluem:
 
 * **Digitado/Marcado**: Não existem dados de quem indicou para a ocorrência.
 * **Mecanismos** de pesquisa: A quem indicou veio de um mecanismo de pesquisa reconhecido que inclui uma string de query de palavra-chave.
@@ -195,9 +195,9 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot;
 * `zooomr.com`
 * `zhihu.com`
 
-### Mecanismos de pesquisa no valor da dimensão &quot;Outros sites&quot;
+### Mecanismos de pesquisa no item de dimensão &quot;Outros sites&quot;
 
 Quando você visualização domínios específicos na dimensão &#39;Tipo de Quem indicou&#39;, pode haver domínios que você esperaria em &#39;Mecanismos de pesquisa&#39; listados em vez de &#39;Outros sites&#39;. Por exemplo, você pode ver `'google.com'` em &#39;Outros sites&#39;.
 
-* **Domínios do mecanismo de pesquisa no valor** da dimensão &#39;Mecanismos de pesquisa&#39;: A quem indicou atendeu a todos os critérios para classificar como um mecanismo de pesquisa pela Adobe. O domínio de referência é um mecanismo de pesquisa válido *e* o URL de referência contém um parâmetro de string de query de palavra-chave.
-* **Domínios do mecanismo de pesquisa no valor** da dimensão &quot;Outros sites&quot;: O URL de referência não atendia a todos os critérios para classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou não `autos.yahoo.com` são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de query de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
+* **Domínios de mecanismo de pesquisa no item** de dimensão &#39;Mecanismos de pesquisa&#39;: A quem indicou atendeu a todos os critérios para classificar como um mecanismo de pesquisa pela Adobe. O domínio de referência é um mecanismo de pesquisa válido *e* o URL de referência contém um parâmetro de string de query de palavra-chave.
+* **Domínios do mecanismo de pesquisa no item** de dimensão &quot;Outros sites&quot;: O URL de referência não atendia a todos os critérios para classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou não `autos.yahoo.com` são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de query de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
