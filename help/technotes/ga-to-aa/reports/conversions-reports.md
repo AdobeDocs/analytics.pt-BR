@@ -2,10 +2,10 @@
 title: Relatórios de conversões no Adobe Analytics
 description: Saiba como usar relatórios de conversões no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ No Analysis Workspace, esses dados podem ser exibidos usando a visualização Fa
 
 1. Clique no ícone de visualizações à esquerda e arraste uma visualização Fallout para o espaço de trabalho acima da tabela de forma livre
 2. Clique no ícone Componentes à esquerda e localize a dimensão **Páginas**.
-3. Clique no ícone de seta ao lado da dimensão Páginas para revelar os valores da página. Os valores de dimensão têm cor amarela.
+3. Clique no ícone de seta ao lado da dimensão Páginas para revelar os valores da página. Os itens de dimensão têm a cor amarela.
 4. Localize a página desejada para agir como o primeiro ponto de contato e arraste-a para o espaço chamado “Adicionar ponto de contato” na visualização.
 5. Continue adicionando os pontos de contato desejados arrastando os valores da página para a visualização.
 
