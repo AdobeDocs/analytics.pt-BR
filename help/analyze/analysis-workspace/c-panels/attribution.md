@@ -1,8 +1,8 @@
 ---
 title: Painel de atribuição
-description: Como usar e interpretar o painel de atribuição na área de trabalho da Análise.
+description: Como usar e interpretar o painel de atribuição no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 13%
@@ -36,7 +36,7 @@ O painel de atribuição é uma maneira fácil para criar uma análise comparand
 * **Métrica** total: O número total de conversões que ocorreram na janela de tempo do relatórios. Essas são as conversões atribuídas pela dimensão selecionada.
 * **Gráfico** de barras de comparação de atribuição de métrica: Compara visualmente as conversões atribuídas em cada um dos itens de dimensão da dimensão selecionada. Cada cor da barra representa um modelo de atribuição distinto.
 * **Tabela** de forma livre de atribuição de métrica: Mostra os mesmos dados que o gráfico de barras, representado como uma tabela. Selecionar diferentes colunas ou linhas nesta tabela filtros o gráfico de barras, bem como várias outras visualizações no painel. Esta tabela atua de forma semelhante a qualquer outra Tabela de forma livre no Workspace - permitindo que você adicione componentes como métricas, segmentos ou detalhamentos.
-* **Gráfico** de sobreposição de dimensão: Um diagrama Venn mostrando os três principais valores de dimensão e a frequência com que eles participam em conjunto em uma conversão. Por exemplo, o tamanho da sobreposição de bolha indica a frequência com que as conversões ocorreram quando um visitante foi exposto a ambos os valores de dimensão. Selecionar outras linhas na tabela de forma livre adjacente atualiza a visualização para refletir sua seleção.
+* **Gráfico** de sobreposição de dimensão: Um diagrama Venn mostrando os três principais itens de dimensão e a frequência com que eles participam em conjunto em uma conversão. Por exemplo, o tamanho da sobreposição de bolha indica a frequência com que as conversões ocorreram quando um visitante foi exposto a ambos os itens de dimensão. Selecionar outras linhas na tabela de forma livre adjacente atualiza a visualização para refletir sua seleção.
 * **Pontos de contato de marketing por jornada**: Um histograma que indica o número de pontos de contato que um visitante teve na janela de pesquisa. Isso é útil para descobrir o impacto da atribuição de multi toque em seu conjunto de dados. Se quase todos os visitantes tiverem apenas um único ponto de contato, modelos de atribuição diferentes provavelmente mostrarão dados semelhantes.
 * **Detalhes** de desempenho do Canal de marketing: Permite comparar até três modelos de atribuição visualmente usando um gráfico de dispersão.
 * **Fluxo** do Canal de marketing: Permite que você veja com quais canais interagem mais comumente, e em que ordem, ao longo de uma jornada de visitantes.
