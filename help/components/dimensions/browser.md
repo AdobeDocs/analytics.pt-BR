@@ -2,7 +2,7 @@
 title: Navegador
 description: O nome e a versão do navegador usado.
 translation-type: tm+mt
-source-git-commit: 4a7b3a00bdbf557c219de530e3e692c2b2db4a84
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
@@ -18,8 +18,8 @@ A dimensão &#39;Navegador&#39; relata o nome e a versão do navegador que está
 
 Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho `User-Agent` HTTP nas solicitações de imagem. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem os nomes e as versões do navegador usadas. Diferentes versões do mesmo navegador são valores de dimensão separados.
+Os itens de dimensão incluem os nomes e as versões do navegador usadas. Diferentes versões do mesmo navegador são itens de dimensão separados.
 
-Alguns valores de dimensão contêm `"(unknown version)"` em vez de seu número de versão. Esse valor de dimensão faz referência a uma versão recente do navegador que a Adobe não adicionou às tabelas de pesquisa. Como os navegadores são atualizados com frequência, o `"(unknown version)"` para um determinado navegador é comum e temporário. A Adobe normalmente atualiza as tabelas de pesquisa durante as versões de manutenção mensais.
+Alguns itens de dimensão contêm `"(unknown version)"` em vez de seu número de versão. Este item de dimensão faz referência a uma versão recente do navegador que a Adobe não adicionou às tabelas de pesquisa. Como os navegadores são atualizados com frequência, o `"(unknown version)"` para um determinado navegador é comum e temporário. A Adobe normalmente atualiza as tabelas de pesquisa durante as versões de manutenção mensais.
