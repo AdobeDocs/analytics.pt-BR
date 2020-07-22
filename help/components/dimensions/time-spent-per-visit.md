@@ -2,7 +2,7 @@
 title: Tempo gasto por visita
 description: A quantidade total de tempo que a visita levou.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -34,11 +34,11 @@ Essa dimensão está relacionada ao tempo [médio gasto no site](../metrics/aver
 
 Essas dimensões funcionam da caixa para todas as implementações. Se um conjunto de relatórios contém dados, essas dimensões funcionam.
 
-## Valores de dimensão
+## Itens de dimensão
 
 Existem várias dimensões para o tempo gasto por visita:
 
-* **Tempo gasto por visita - segmentado**: A quantidade de tempo é armazenada por período. Os valores de dimensão variam de `"Less than 1 minute"` a `"More than 15 hours"`. As visitas normalmente não duram mais de 12 horas; no entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
-* **Tempo gasto por visita - granular**: Cada número de segundos é um valor de dimensão exclusivo. Essa dimensão não está disponível em Relatórios e Analytics ou Data warehouse.
+* **Tempo gasto por visita - segmentado**: A quantidade de tempo é armazenada por período. Os itens de dimensão variam de `"Less than 1 minute"` a `"More than 15 hours"`. As visitas normalmente não duram mais de 12 horas; no entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
+* **Tempo gasto por visita - granular**: Cada número de segundos é um item de dimensão exclusivo. Essa dimensão não está disponível em Relatórios e Analytics ou Data warehouse.
 
 Consulte Visão geral [do](../metrics/time-spent.md) Tempo gasto para obter mais informações gerais sobre o tempo gasto.
