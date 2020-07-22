@@ -2,7 +2,7 @@
 title: Relatórios
 description: As dimensões e métricas que o Relatórios e Analytics usa para cada relatório.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -88,19 +88,19 @@ Contém relatórios sobre relatórios móveis herdados. Esses relatórios baseia
 
 Contém relatórios que permitem visualizar os dados de definição de caminho para visitantes.
 
-* Fluxo da próxima página: Usa um relatório de fluxo no valor da dimensão da página superior. visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o valor da dimensão reportada. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
-* Próxima página: Pega o valor da dimensão da página superior e mostra as páginas seguintes para as quais os visitantes foram.
-* Fluxo de página anterior: Usa um relatório de fluxo no valor de dimensão da página superior Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
-* Página anterior: Pega o valor da dimensão da página superior e mostra de onde vieram os visitantes de páginas anteriores.
-* Fallout: Permite selecionar valores de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Caminhos completos: Mostra caminhos individuais como valores de dimensão. Aposentado em Analysis Workspace; use a visualização [](../analysis-workspace/visualizations/c-flow/flow.md) de Fluxo.
+* Fluxo da próxima página: Usa um relatório de fluxo no item de dimensão da página superior. visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o item de dimensão relatado. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
+* Próxima página: Pega o item de dimensão da página superior e mostra as páginas seguintes para as quais os visitantes foram.
+* Fluxo de página anterior: Usa um relatório de fluxo no item de dimensão da página superior Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [de](../analysis-workspace/visualizations/c-flow/flow.md)Fluxo.
+* Página anterior: Pega o item de dimensão da página superior e mostra de onde vieram os visitantes de páginas anteriores.
+* Fallout: Permite que você selecione itens de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante no Analysis Workspace está disponível usando uma visualização [Fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Caminhos completos: Mostra caminhos individuais como itens de dimensão. Aposentado em Analysis Workspace; use a visualização [](../analysis-workspace/visualizations/c-flow/flow.md) de Fluxo.
 * PathFinder: Fornece vários tipos de relatórios que permitem analisar caminhos (desativados no Analysis Workspace).
 * Comprimento do caminho: Usa a dimensão de profundidade [da](/help/components/dimensions/visit-depth.md) Visita.
 * Análise de página
-   * Resumo da página: Obtém o valor da dimensão da página superior e mostra uma visualização com tendência. Também mostra pontos de entrada, páginas anteriores, pontos de saída e próximas páginas para o valor da dimensão da página superior.
+   * Resumo da página: Pega o item de dimensão da página superior e mostra uma visualização de tendência. Também mostra pontos de entrada, páginas anteriores, pontos de saída e próximas páginas para o item de dimensão da página superior.
    * Recarregamentos: Usa a dimensão [Página](/help/components/dimensions/page.md) com a métrica [Recarregamentos](/help/components/metrics/reloads.md) .
    * Tempo gasto na página: Usa o [Tempo gasto na dimensão segmentada](/help/components/dimensions/time-spent-on-page.md) da página.
-   * Cliques na página: Obtém o valor da dimensão da página superior e mostra o número de cliques necessários para chegar a essa página em uma determinada visita.
+   * Cliques na página: Pega o item de dimensão da página superior e mostra o número de cliques necessários para chegar a essa página em uma determinada visita.
 * Entradas e saídas
    * Páginas de entrada: Usa a dimensão de páginas [de](/help/components/dimensions/entry-dimensions.md) entrada.
    * Páginas de entrada originais: Usa a dimensão original [da página](/help/components/dimensions/entry-dimensions.md) Entrada.
@@ -171,7 +171,7 @@ Contém relatórios sobre quem visita seu site.
    * Estados dos EUA: Usa a dimensão de estados [dos](/help/components/dimensions/us-states.md) EUA.
    * DMA EUA: Usa a dimensão [US DMA](/help/components/dimensions/us-dma.md) .
 * Idiomas: Usa a dimensão [Idioma](/help/components/dimensions/language.md) .
-* Fusos horários: Usa a dimensão de fuso horário (retirado no Analysis Workspace). Os valores de dimensão são o deslocamento GMT da ocorrência.
+* Fusos horários: Usa a dimensão de fuso horário (retirado no Analysis Workspace). Os itens de dimensão são o deslocamento GMT da ocorrência.
 * Domínio: Usa a dimensão [Domínio](/help/components/dimensions/domain.md) .
 * Domínio de nível superior: Usa a dimensão de domínio de nível superior (removida no Analysis Workspace). Ela agrupa a dimensão de [domínios](/help/components/dimensions/domain.md) em categorias de nível superior, normalmente por país do domínio.
 * Tecnologia: Pasta que contém relatórios sobre o que o visitante usou para acessar seu site.
@@ -184,12 +184,12 @@ Contém relatórios sobre quem visita seu site.
    * Intensidade de cor do monitor: Usa a dimensão de profundidade [de](/help/components/dimensions/color-depth.md) cor.
    * Resolução do monitor: Usa a dimensão de resolução [do](/help/components/dimensions/monitor-resolution.md) Monitor.
    * Java: Usa a dimensão habilitada [para](/help/components/dimensions/java-enabled.md) Java.
-   * JavaScript: Usa a dimensão habilitada para JavaScript (removida no Analysis Workspace). Os valores de dimensão são &#39;Enabled&#39;, &#39;Disabled&#39; ou &#39;Unknown&#39;, dependendo se o navegador tiver o JavaScript ativado.
-   * Versão do JavaScript: usa a dimensão da versão do JavaScript (desativada no Analysis Workspace). Os valores de dimensão mostram a versão do JavaScript que o navegador usa.
+   * JavaScript: Usa a dimensão habilitada para JavaScript (removida no Analysis Workspace). Os itens de dimensão são &quot;Ativado&quot;, &quot;Desativado&quot; ou &quot;Desconhecido&quot;, dependendo se o navegador tiver o JavaScript ativado.
+   * Versão do JavaScript: usa a dimensão da versão do JavaScript (desativada no Analysis Workspace). Os itens de dimensão mostram a versão do JavaScript que o navegador usa.
    * Cookies: Usa a dimensão de suporte [a](/help/components/dimensions/cookie-support.md) cookies.
    * Tipos de conexão: Usa a dimensão Tipo [de](/help/components/dimensions/connection-type.md) conexão.
    * Operadora de celular: Usa a dimensão Operadora [](/help/components/dimensions/mobile-dimensions.md) móvel.
-* Estado do Visitante: Usa a dimensão Estado (desativada no Analysis Workspace). Os valores de dimensão são originários da [`state`](../../implement/vars/page-vars/state.md) variável.
+* Estado do Visitante: Usa a dimensão Estado (desativada no Analysis Workspace). Os itens de dimensão são originados da [`state`](../../implement/vars/page-vars/state.md) variável.
 * CEP/código postal do Visitante: Usa a dimensão [CEP](/help/components/dimensions/zip-code.md) .
 
 ## Conversão personalizada
@@ -204,7 +204,7 @@ Contém relatórios específicos para sua implementação. Os relatórios de tr�
 
 Contém relatórios que envolvem canais [de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Relatório de visão geral do Canal: Um relatório personalizado específico para Relatórios e Analytics. Usa canais de marketing como valores de dimensão, com métricas que usam atribuição de primeiro ou último toque.
+* Relatório de visão geral do Canal: Um relatório personalizado específico para Relatórios e Analytics. Usa canais de marketing como itens de dimensão, com métricas que usam atribuição de primeiro ou último toque.
 * canal de primeiro toque: Usa a dimensão canal [de](/help/components/dimensions/first-touch-channel.md) primeiro toque.
 * Detalhes do canal de primeiro toque: Usa a dimensão de detalhes [do canal de](/help/components/dimensions/first-touch-detail.md) primeiro toque.
 * canal de último toque: Usa a dimensão canal [](/help/components/dimensions/last-touch-channel.md) de último toque.
