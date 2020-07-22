@@ -2,7 +2,7 @@
 title: Páginas não encontradas
 description: URLs que retornaram um erro em seu site.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ A dimensão &#39;Páginas não encontradas&#39; mostra URLs que continham um err
 
 Essa dimensão recupera dados das sequências de caracteres [`pageType` e `g` query](/help/implement/validate/query-parameters.md) em solicitações de imagem. Se a string do `pageType` query for igual `errorPage`, a string do `g` query (URL da página) será registrada. O AppMeasurement coleta esses dados usando a [`pageType`](/help/implement/vars/page-vars/pagetype.md) variável. Se a `pageType` variável não estiver definida ou definida como algo diferente de `errorPage`, nenhum dado para essa dimensão será coletado.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem os URLs das páginas do site em que ocorreu um erro.
+Os itens de dimensão incluem os URLs das páginas do site em que ocorreu um erro.
