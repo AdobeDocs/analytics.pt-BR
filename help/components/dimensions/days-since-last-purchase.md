@@ -2,7 +2,7 @@
 title: Dias desde a última compra
 description: O número de dias entre a ocorrência atual e a última compra realizada.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ Visitantes que nunca compraram algo não estão incluídos nessa dimensão. Alé
 
 A Adobe preenche automaticamente essa dimensão com base no [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) evento em sua implementação. Se você implementar o `purchase` evento em seu site, essa dimensão sempre funcionará.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o número de dias entre uma compra mais recente do visitante e a ocorrência atual. Cada número de dias é um valor de dimensão separado, com &quot;Mesmo dia&quot; ocorrendo em que uma compra mais recente do visitante e a ocorrência atual ocorreram no mesmo dia.
+Os itens de dimensão incluem o número de dias entre uma compra mais recente do visitante e a ocorrência atual. Cada número de dias é um item de dimensão separado, com &quot;Mesmo dia&quot; ocorrendo em que uma compra mais recente do visitante e a ocorrência atual ocorreram no mesmo dia.
