@@ -2,8 +2,11 @@
 description: Saiba mais sobre visualizações e configurações de exibição no Analysis Workspace.
 keywords: Analysis Workspace
 title: Visão geral das visualizações
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Vídeo do YouTube: [Tipos de visualização no Analysis Workspace](https://www.y
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barras horizontais que representam vários valores de uma ou mais métricas. |
 | [Linha](/help/analyze/analysis-workspace/visualizations/line.md) | Representa as métricas que usam uma linha para mostrar como os valores são alterados durante um período. Um gráfico de linha pode ser usado apenas quando o horário for usado como uma dimensão. |
 | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite criar um mapa visual de qualquer métrica (incluindo métricas calculadas). |
-| [Gráfico de dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra a relação entre valores de dimensão e até três métricas. |
+| [Gráfico de dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra a relação entre itens de dimensão e até três métricas. |
 | [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Dependendo da célula selecionada, essa visualização mostra os totais e os resumos. |
 | [Alteração de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Dependendo das células selecionadas, essa visualização compara as células umas às outras. |
 | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Permite adicionar texto definido pelo usuário à Workspace. |
@@ -37,7 +40,7 @@ Vídeo do YouTube: [Tipos de visualização no Analysis Workspace](https://www.y
 
 ## Painel Visualizações {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Para exibir o painel Visualizações, clique em **[!UICONTROL Visualizations]** no painel lateral.
+Para exibir o painel Visualizações, clique em **[!UICONTROL Visualizações]** no painel lateral.
 
 ![Resultado da etapa](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ A maioria dos tipos de visualização (como gráficos de área, em barras, de ro
 
 ## Configurações de visualização {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Para acessar [!UICONTROL Visualization Settings], arraste uma visualização para [!UICONTROL Freeform Panel] e clique no [!UICONTROL Visualization Settings] ícone de engrenagem.
+Para acessar as [!UICONTROL Configurações de visualização], arraste uma visualização ao [!UICONTROL Painel de forma livre] e clique no ícone de engrenagem das [!UICONTROL Configurações de visualização].
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Para acessar [!UICONTROL Visualization Settings], arraste uma visualização par
 
 ## Ícone “Criar visual” {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[!UICONTROL Create Visual]** em qualquer linha da tabela. Este ícone será exibido quando você passar o mouse sobre a linha do gráfico. Ao clicar no ícone, o Analysis Workspace é exibido e recomenda uma visualização que se adequaria ao seus dados. Por exemplo, se você tem até três segmentos selecionados, criará um diagrama Venn. Para mais de três segmentos, criará um gráfico de barras. Para outros tipos de dados, ele pode criar um gráfico de linhas, etc.
+Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[!UICONTROL Criar visual]** em qualquer linha da tabela. Este ícone será exibido quando você passar o mouse sobre a linha do gráfico. Ao clicar no ícone, o Analysis Workspace é exibido e recomenda uma visualização que se adequaria ao seus dados. Por exemplo, se você tem até três segmentos selecionados, criará um diagrama Venn. Para mais de três segmentos, criará um gráfico de barras. Para outros tipos de dados, ele pode criar um gráfico de linhas, etc.
 
 ![](assets/create-visual.png)
 
@@ -99,7 +102,7 @@ A edição de legenda **não** se aplica a: Treemap, Marcador, Alteração ou N�
 Para editar uma etiqueta de legenda em um gráfico de Linha, por exemplo,
 
 1. Clique com o botão direito do mouse em uma das etiquetas de legenda.
-1. Clique em **[!UICONTROL Edit Label]**.
+1. Clique em **[!UICONTROL Editar rótulo]**.
 
    ![](assets/edit-label.png)
 
