@@ -2,7 +2,7 @@
 title: Largura do navegador - segmentado
 description: A largura da janela do navegador em pixels.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Essa dimensão recupera dados da string [`bw` do](/help/implement/validate/query
 
 A Adobe persiste na largura do navegador para uma visita. Se a largura do navegador for ajustada no meio da visita, o ajuste não será registrado.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem todas as larguras coletadas do navegador, classificadas em grupos de 100 pixels. Por exemplo, se a largura de um navegador de uma ocorrência for `1280`, ele será agrupado no valor da dimensão `1200 to 1299`.
+Os itens de dimensão incluem todas as larguras coletadas do navegador, classificadas em grupos de 100 pixels. Por exemplo, se a largura de um navegador de uma ocorrência for `1280`, ele será agrupado no item de dimensão `1200 to 1299`.
