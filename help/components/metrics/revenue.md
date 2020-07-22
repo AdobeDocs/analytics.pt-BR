@@ -2,7 +2,7 @@
 title: Receita
 description: A quantidade monetária de produtos comprados em todos os pedidos.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Receita
 
-A métrica &#39;Receita&#39; mostra a quantidade monetária de produtos comprados em todos os pedidos. Essa métrica é vital para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais valores de dimensão contribuíram para a receita. Por exemplo, você pode ver as campanhas principais (usando a dimensão do código [de](../dimensions/tracking-code.md) rastreamento) ou os termos de pesquisa internos principais (usando uma [eVar](../dimensions/evar.md)).
+A métrica &#39;Receita&#39; mostra a quantidade monetária de produtos comprados em todos os pedidos. Essa métrica é vital para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais itens de dimensão contribuíram para a receita. Por exemplo, você pode ver as campanhas principais (usando a dimensão do código [de](../dimensions/tracking-code.md) rastreamento) ou os termos de pesquisa internos principais (usando uma [eVar](../dimensions/evar.md)).
 
 ## Como essa métrica é calculada
 
