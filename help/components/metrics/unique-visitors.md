@@ -2,7 +2,7 @@
 title: Visitantes únicos
 description: O número de indivíduos únicos (ou dispositivos).
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Visitantes únicos
 
-A métrica &#39;visitantes únicos&#39; mostra o número de IDs de visitante para o valor da dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um valor de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda contam como um único visitante exclusivo.
+A métrica &#39;visitantes únicos&#39; mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda contam como um único visitante exclusivo.
 
 Se você usar análises [](../cda/overview.md)entre dispositivos, essa métrica será renomeada para &quot;Dispositivos exclusivos&quot;.
 
@@ -20,11 +20,11 @@ Se você usar análises [](../cda/overview.md)entre dispositivos, essa métrica 
 
 O Relatórios e Analytics fornece opções para visitantes únicos diários, semanais, mensais, trimestrais e anuais. Em vez de contar um único visitante exclusivo para todo o período de tempo, visitantes únicos contam com base na métrica selecionada. Por exemplo, você deseja observar visitantes únicos diários do site. Se um visitante chegar ao seu site de manhã e de noite, ele contará como um único visitante diário. Se um visitante vier ao seu site na segunda-feira e novamente na terça-feira, ele contará como dois visitantes únicos diários.
 
-Analysis Workspace trata visitantes únicos com base na granularidade do relatório. Por exemplo, se você usar a dimensão [Dia](../dimensions/day.md) , verá visitantes únicos diários para cada valor de dimensão. No entanto, para o total do relatório, ele é desduplicado em visitantes exclusivos para o intervalo de datas da tabela de forma livre.
+Analysis Workspace trata visitantes únicos com base na granularidade do relatório. Por exemplo, se você usar a dimensão [Dia](../dimensions/day.md) , verá visitantes exclusivos diários para cada item de dimensão. No entanto, para o total do relatório, ele é desduplicado em visitantes exclusivos para o intervalo de datas da tabela de forma livre.
 
 ## Como essa métrica é calculada
 
-Essa métrica conta o número de IDs de visitante exclusivas para um determinado valor de dimensão. Ele usa vários mecanismos avançados para identificar visitantes únicos, já que há várias maneiras de identificá-los. A tabela a seguir lista a forma como um visitante é identificado, juntamente com sua prioridade. Algumas ocorrências podem ter vários métodos de identificação de visitantes; nestes casos, é utilizado o método de prioridade mais elevada.
+Essa métrica conta o número de IDs de visitante exclusivas para um determinado item de dimensão. Ele usa vários mecanismos avançados para identificar visitantes únicos, já que há várias maneiras de identificá-los. A tabela a seguir lista a forma como um visitante é identificado, juntamente com sua prioridade. Algumas ocorrências podem ter vários métodos de identificação de visitantes; nestes casos, é utilizado o método de prioridade mais elevada.
 
 | Pedido usado | Parâmetro do query (método de coleta) | Apresentar quando |
 | --- | --- | --- |
