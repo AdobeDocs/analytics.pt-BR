@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ Se você quiser trocar os métodos de identificação de CDA, entre em contato c
 
 ## Como a Adobe lida com limites exclusivos para uma eVar usada na identificação baseada em campo?
 
-O CDA extrai valores de dimensão de eVar antes de serem otimizados para o relatórios. Você não precisa se preocupar com limites únicos para fins de CDA. No entanto, se você tentou usar essa prop/eVar em um projeto do Workspace, ainda é possível ver o valor da dimensão [(tráfego baixo)](/help/technotes/low-traffic.md) .
+O CDA extrai itens de dimensão eVar antes de serem otimizados para o relatórios. Você não precisa se preocupar com limites únicos para fins de CDA. No entanto, se você tentou usar essa prop/eVar em um projeto do Workspace, ainda é possível ver o item de dimensão [(tráfego baixo)](/help/technotes/low-traffic.md) .
