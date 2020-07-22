@@ -2,7 +2,7 @@
 title: CEP
 description: O CEP do visitante.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ A opção  Zip em Configurações [de conta](/help/admin/admin/general-acct-sett
 >
 >A configuração do conjunto de relatórios é vital se você quiser ter controle total sobre como preencher essa dimensão.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o CEP ou código postal do visitante.
+Os itens de dimensão incluem o CEP ou código postal do visitante.
