@@ -2,7 +2,7 @@
 title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 97%
@@ -185,6 +185,6 @@ Os relatórios Avaliação de desempenho permitem ver como os aspectos dos dados
 O relatório de fluxo está disponível em ambas as plataformas. Para criar um relatório de fluxo:
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
-2. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os valores de dimensão têm cor amarela.
+2. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm a cor amarela.
 3. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
