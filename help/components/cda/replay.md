@@ -2,7 +2,7 @@
 title: Como as réplicas funcionam
 description: Entenda o conceito de "reprodução" no Analytics entre dispositivos
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Assim que uma ocorrência é coletada, o CDA tenta costurá-la em dispositivos c
 *Dados como aparecem no dia em que são coletados:*
 
 | Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica de pessoas (cumulativa) usando o Gráfico de dispositivos | Métrica de pessoas (cumulativa) usando a costura baseada em campo |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob faz logon em seu desktop | `1` (246) | `2` (246 e Bob) |
 | `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `2` (246 e 3579) | `3` (246, Bob e 3579) |
@@ -56,7 +56,7 @@ Aproximadamente uma vez por semana, o CDA recalcula os dados históricos com bas
 *Os mesmos dados após a reprodução:*
 
 | Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica de pessoas (cumulativa) usando o Gráfico de dispositivos | Métrica de pessoas (cumulativa) usando a costura baseada em campo |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob faz logon em seu desktop | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `1` (Cluster1) | `1` (Bob) |
