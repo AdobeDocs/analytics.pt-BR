@@ -2,7 +2,7 @@
 title: Resolução do monitor
 description: A resolução do monitor do visitante em pixels.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 1%
@@ -26,6 +26,6 @@ As dimensões do navegador são sempre menores que a resolução do monitor, já
 
 Essa dimensão recupera dados da string [`s` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `screen.width` e `screen.height` no navegador. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `s` query em solicitações de imagem.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem todas as resoluções de monitor coletadas. Os valores de exemplo incluem `1920 x 1080`, `1366 x 768`e `1280 x 720`.
+Os itens de dimensão incluem todas as resoluções de monitor coletadas. Os valores de exemplo incluem `1920 x 1080`, `1366 x 768`e `1280 x 720`.
