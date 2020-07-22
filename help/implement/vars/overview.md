@@ -2,8 +2,11 @@
 title: Visão geral sobre variáveis, funções, métodos e plug-ins
 description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 O Analytics oferece diversas variáveis para coletar dados do Analytics. As variáveis nesta seção são divididas em várias seções:
 
 * **As variáveis** de página são valores normalmente usados diretamente nos relatórios. São ariáveis de página comuns `props`, `eVars` e `events`.
-* **As variáveis** de configuração são valores de configurações que ajudam a garantir que os dados corretos cheguem à Adobe. São variáveis de configuração comuns `trackingServerSecure`, `charSet` e `linkTrackVars`. As variáveis de configuração normalmente não preenchem valores de dimensão.
+* **As variáveis** de configuração são valores de configurações que ajudam a garantir que os dados corretos cheguem à Adobe. São variáveis de configuração comuns `trackingServerSecure`, `charSet` e `linkTrackVars`. As variáveis de configuração normalmente não preenchem itens de dimensão.
 * **Funções e métodos** são pedaços de código que executam uma tarefa específica quando referenciados. São funções comuns `t()`, `tl()` e `clearVars()`.
 
 ## Variáveis e métodos de implementação
