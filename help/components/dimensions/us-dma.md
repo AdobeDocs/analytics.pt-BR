@@ -2,7 +2,7 @@
 title: DMA dos EUA
 description: A área de mercado designada do hit.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -22,9 +22,9 @@ Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor
 >
 >Se a sua organização seguir normas rigorosas de privacidade onde [ofuscar endereços](/help/admin/admin/general-acct-settings-admin.md) IP não for suficiente, você poderá solicitar a desativação total dos dados de geolocalização. Entre em contato com o Atendimento ao cliente com a ID do conjunto de relatórios e solicite a desativação de &quot;Geografia&quot; para o conjunto de relatórios.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o código DMA e DMA do visitante. O código de 3 dígitos não é um CEP, mas sim o código DMA da Nielsen. Os valores de exemplo incluem `"Dallas-Ft. Worth (623)"`, `"New York (501)"`ou `"Los Angeles (803)"`. O valor da dimensão `"No Metro (0)"` inclui todo o tráfego internacional fora dos Estados Unidos.
+Os itens de dimensão incluem o código DMA e DMA do visitante. O código de 3 dígitos não é um CEP, mas sim o código DMA da Nielsen. Os valores de exemplo incluem `"Dallas-Ft. Worth (623)"`, `"New York (501)"`ou `"Los Angeles (803)"`. O item de dimensão `"No Metro (0)"` inclui todo o tráfego internacional fora dos Estados Unidos.
 
 ## Diferenças entre a localização reportada e a real
 
