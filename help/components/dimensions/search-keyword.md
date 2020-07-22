@@ -2,7 +2,7 @@
 title: Palavra-chave de pesquisa
 description: A palavra-chave de pesquisa que o visitante usou para acessar seu site.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -16,12 +16,12 @@ A dimensão &#39;Palavra-chave de pesquisa&#39; relata as palavras-chave de pesq
 
 >[!IMPORTANT]
 >
->A maioria dos mecanismos de pesquisa não passa mais pela palavra-chave de pesquisa devido ao aumento das práticas de privacidade. Ocorrências nas quais a Adobe reconhece um mecanismo de pesquisa, mas não possui grupos de palavras-chave no valor da dimensão `"Keyword unavailable"`.
+>A maioria dos mecanismos de pesquisa não passa mais pela palavra-chave de pesquisa devido ao aumento das práticas de privacidade. Ocorrências nas quais a Adobe reconhece um mecanismo de pesquisa, mas não possui grupos de palavras-chave no item de dimensão `"Keyword unavailable"`.
 
 Uma quem indicou deve atender a ambas as seguintes opções para classificar como uma palavra-chave de pesquisa:
 
 * O domínio de referência é reconhecido pela Adobe como um mecanismo [de](search-engine.md)pesquisa válido;
-* Existe um parâmetro de string de query de palavra-chave no URL de referência. Se a string de query de palavra-chave existir, mas não contiver um valor, ela se agrupará sob o valor da dimensão `"Keyword unavailable"`.
+* Existe um parâmetro de string de query de palavra-chave no URL de referência. Se a string de query de palavra-chave existir, mas não contiver um valor, ela se agrupará no item de dimensão `"Keyword unavailable"`.
 
 Se você quiser distinguir a pesquisa paga e a pesquisa natural, a detecção [de pesquisa](/help/admin/admin/paid-search-detection/paid-search-detection.md) paga é necessária. Várias dimensões estão disponíveis para palavras-chave de pesquisa:
 
@@ -33,6 +33,6 @@ Se você quiser distinguir a pesquisa paga e a pesquisa natural, a detecção [d
 
 Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor é baseado na [quem indicou](referrer.md) da ocorrência, que depende dos filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Verifique se a dimensão de quem indicou e os filtros internos de URL estão configurados corretamente.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem palavras-chave de pesquisa usadas para acessar seu site. O valor da `"Unspecified"` dimensão é todo o tráfego não pesquisado.
+Os itens de dimensão incluem palavras-chave de pesquisa usadas para acessar seu site. O item de `"Unspecified"` dimensão é todo o tráfego não pesquisado.
