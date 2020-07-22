@@ -2,7 +2,7 @@
 title: Mecanismo de Pesquisa
 description: O mecanismo de pesquisa que o visitante usou para acessar seu site.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ Se você quiser distinguir a pesquisa paga e a pesquisa natural, a detecção [d
 
 Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor é baseado na [quem indicou](referrer.md) da ocorrência, que depende dos filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Verifique se a dimensão de quem indicou e os filtros internos de URL estão configurados corretamente.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem mecanismos de pesquisa usados para acessar seu site. Os valores de exemplo incluem `"Google"`, `"Microsoft Bing"`e `"DuckDuckGo"`. O valor da `"Unspecified"` dimensão é todo o tráfego não pesquisado.
+Os itens de dimensão incluem mecanismos de pesquisa usados para acessar seu site. Os valores de exemplo incluem `"Google"`, `"Microsoft Bing"`e `"DuckDuckGo"`. O item de `"Unspecified"` dimensão é todo o tráfego não pesquisado.
