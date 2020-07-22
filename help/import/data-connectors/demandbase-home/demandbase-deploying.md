@@ -3,10 +3,10 @@ description: A implantação dessa integração é um processo simples que reque
 title: Implantar a integração
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ No entanto, se você precisar fazer ajustes, algumas das configurações de cód
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> O delimitador usado para separar os valores de dimensão do Demandbase quando são enviados para o Adobe Analytics. Alterar essa configuração pode fazer com que as Regras de classificação padrão não funcionem corretamente. </td> 
+   <td colname="col2"> O delimitador usado para separar os itens de dimensão Demandbase quando eles são enviados para o Adobe Analytics. Alterar essa configuração pode fazer com que as Regras de classificação padrão não funcionem corretamente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
