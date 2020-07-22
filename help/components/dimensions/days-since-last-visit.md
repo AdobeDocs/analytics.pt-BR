@@ -2,7 +2,7 @@
 title: Dias desde a última visita
 description: O número de dias entre a ocorrência atual e a última vez que visitaram.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 14%
@@ -24,6 +24,6 @@ visitantes pela primeira vez não são incluídos nesta dimensão.
 
 Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios contiver dados, essa dimensão funcionará.
 
-## Valores de dimensão
+## Itens de dimensão
 
-Os valores de dimensão incluem o número de dias entre a última visita de um visitante e a ocorrência atual. Cada número de dias é um valor de dimensão separado, com `"Same day"` ocorrência em que uma última visita do visitante e a ocorrência atual ocorreram no mesmo dia.
+Os itens de dimensão incluem o número de dias entre a última visita de um visitante e a ocorrência atual. Cada número de dias é um item de dimensão separado, com `"Same day"` ocorrência em que uma última visita do visitante e a ocorrência atual ocorreram no mesmo dia.
