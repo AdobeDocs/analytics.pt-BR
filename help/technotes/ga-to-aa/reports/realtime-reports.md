@@ -2,10 +2,10 @@
 title: Relatórios em tempo real no Adobe Analytics
 description: Saiba como obter relatórios em tempo real no Adobe Analytics direcionados para usuários mais familiarizados com o Google Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Os eventos em tempo real informam quais eventos estão ocorrendo mais em seu sit
 
 >[!NOTE]
 >
->Ao usar eventos personalizados em relatórios em tempo real, o valor da dimensão deve ser definido na mesma ocorrência do evento personalizado. Por exemplo, se estiver exibindo um evento personalizado “Registros” para a dimensão “Domínio de referência”, nenhum dado será retornado sem implementação adicional. Como o domínio de referência aparece somente na primeira ocorrência e um evento personalizado normalmente aparece mais tarde na visita, os dados não podem ser associados em relatórios em tempo real. Esses dados estão disponíveis no Analysis Workspace usando a latência de processamento padrão, que normalmente é de 30 a 90 minutos.
+>Ao usar eventos personalizados em relatórios em tempo real, o item de dimensão deve ser definido na mesma ocorrência que o evento personalizado. Por exemplo, se estiver exibindo um evento personalizado “Registros” para a dimensão “Domínio de referência”, nenhum dado será retornado sem implementação adicional. Como o domínio de referência aparece somente na primeira ocorrência e um evento personalizado normalmente aparece mais tarde na visita, os dados não podem ser associados em relatórios em tempo real. Esses dados estão disponíveis no Analysis Workspace usando a latência de processamento padrão, que normalmente é de 30 a 90 minutos.
 
 ## Conversões em tempo real
 
