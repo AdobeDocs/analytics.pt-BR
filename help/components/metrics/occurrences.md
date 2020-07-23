@@ -2,9 +2,9 @@
 title: Ocorrências
 description: O número de ocorrências que uma variável foi definida ou persistiu.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ A métrica &#39;Ocorrências&#39; mostra o número de ocorrências em que uma de
 
 ## Como essa métrica é calculada
 
-De todas as ocorrências em um conjunto de relatórios, inclua ocorrências nas quais um item de dimensão é definido ou persistente. Algumas dimensões, como [eVars](../dimensions/evar.md), persistem além da ocorrência em que estão definidas. Métricas como visualizações [de](page-views.md) página e [Ocorrências](occurrences.md) contam valores iniciais e persistentes. Essa métrica não conta valores persistentes.
+De todas as ocorrências em um conjunto de relatórios, inclua ocorrências nas quais um item de dimensão é definido ou persistente. Algumas dimensões, como [eVars](../dimensions/evar.md), persistem além da ocorrência em que estão definidas. Métricas como visualizações [de](page-views.md) página e [Ocorrências](occurrences.md) contam valores iniciais e persistentes.
 
 ## Comparar a métricas semelhantes
 
