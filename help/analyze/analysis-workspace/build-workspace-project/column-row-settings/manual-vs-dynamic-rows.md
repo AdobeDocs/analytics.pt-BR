@@ -1,10 +1,10 @@
 ---
-title: Itens de dimensão dinâmicos vs estáticos
+title: Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre
 description: Como interagir com itens de dimensão dinâmicos e estáticos em tabelas.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Por exemplo, quando você arrasta a dimensão Tipo de navegador para a tabela, o
 
 Os itens de dimensão dinâmica têm a opção de filtro de linha e **não** têm ícones de bloqueio e X presentes.
 
+![](assets/dynamic-items.png)
+
 ## Itens de dimensão estática
 
 Os itens de dimensão estática não mudam com o tempo; são componentes fixos que são sempre retornados em uma tabela de forma livre. Os itens de dimensão estática são preferidos quando você deseja sempre analisar o mesmo item, sejam campanhas específicas ou dias específicos da semana.
@@ -37,9 +39,13 @@ Por exemplo, ao arrastar sobre itens específicos do Tipo de navegador, como Mic
 
 Os itens de dimensão estática **não** têm a opção de filtro de linha. Em vez disso, os ícones de bloqueio e X estão presentes em cada item. Clique no ícone X para remover esse item de dimensão da tabela.
 
+![](assets/static-items.png)
+
 ## Itens de dimensão mistos
 
 Itens de dimensão de diferentes dimensões podem ser adicionados à mesma tabela. O cabeçalho da linha indica &quot;Dimensões mistas&quot; nesses casos. Esses itens de dimensão são estáticos. Por exemplo, adicionar itens de dimensão específicos da dimensão Tipo de navegador e outros itens de dimensão da dimensão Navegador.
+
+![](assets/mixed-dimensions.png)
 
 ## Total de linhas de forma livre
 
