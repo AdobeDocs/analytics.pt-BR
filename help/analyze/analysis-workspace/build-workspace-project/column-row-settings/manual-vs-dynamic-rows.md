@@ -2,9 +2,9 @@
 title: Itens de dimensão dinâmicos vs estáticos
 description: Como interagir com itens de dimensão dinâmicos e estáticos em tabelas.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ Itens de dimensão de diferentes dimensões podem ser adicionados à mesma tabel
 As linhas dinâmicas e estáticas se comportam de forma diferente na linha de total de forma livre. Por padrão:
 
 * As linhas dinâmicas são somadas nas métricas do lado do servidor e de remoção de duplicados, como visitas ou visitantes
-* As linhas estáticas são somadas do lado do cliente e **não** anulam as métricas de duplicado.
-
-[Saiba mais sobre as opções de total](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) do Workspace para linhas dinâmicas e estáticas.
+* As linhas estáticas são somadas do lado do cliente e **não** anulam as métricas de duplicado. Para calcular o lado total do servidor da linha, altere a configuração Linha para **Mostrar total** geral. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
