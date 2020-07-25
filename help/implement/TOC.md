@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Guia de implementação do Analytics
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +156,7 @@ ht-degree: 92%
    + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)
    + [Validar e publicar no prod](launch/validate-publish-prod.md)
    + [Mapear objetos de camada de dados para elementos de dados](launch/layer-to-elements.md)
-   + [Mapear elementos de dados do Launch para variáveis Analytics](launch/elements-to-variable.md)
+   + [Mapear elementos de dados do Launch para variáveis do Analytics](launch/elements-to-variable.md)
 + Implementar o Analytics em outras plataformas {#other}
    + [Implementar o Analytics usando solicitações de imagem codificadas](other/hardcoded.md)
    + Implementar o Analytics usando o DTM {#dtm}
@@ -201,6 +202,6 @@ ht-degree: 92%
    + [Monitores de pacote](validate/packet-monitor.md)
    + [Colisões de hash](validate/hash-collisions.md)
 + [Perguntas frequentes](faq.md)
-+ Usar dados XDM com a Analytics {#aep-edge}
-   + [Usar o AEP Web SDK](aep-edge/xdmoverview.md)
++ Usar dados XDM com o Analytics {#aep-edge}
+   + [Usar o SDK da Web da AEP](aep-edge/xdmoverview.md)
    + [Mapear dados XDM para a Analytics manualmente](aep-edge/xdm-manual.md)
