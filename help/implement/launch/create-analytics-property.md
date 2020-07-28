@@ -1,8 +1,11 @@
 ---
 title: Criar uma propriedade do Analytics no Launch
 description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,8 @@ Os elementos de dados são referências a partes específicas do site para colet
    * Extensão: principal
    * Tipo de elemento de dados: variável JavaScript
    * Caminho para a variável: `window.document.title`
-      > [!NOTE] Observação: este é um exemplo de valor para ajudar a começar. Se sua empresa definir um valor melhor para o nome da página, como um valor de camada de dados, você pode inseri-lo aqui.
+
+      >[!NOTE] Observação: este é um exemplo de valor para ajudar a começar. Se sua empresa definir um valor melhor para o nome da página, como um valor de camada de dados, você pode inseri-lo aqui.
    * Limpar texto marcado
    * Duração: Pageview
 5. Clique em Salvar.
