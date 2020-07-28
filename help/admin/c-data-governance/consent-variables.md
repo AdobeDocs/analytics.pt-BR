@@ -2,8 +2,11 @@
 description: Variáveis dos relatórios de privacidade na Privacidade de dados.
 title: Variáveis dos relatórios de privacidade
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ Essas variáveis de relatórios de privacidade fornecem uma estrutura fácil de 
 É possível ativar as Variáveis de relatórios de privacidade por meio de uma nova configuração de Privacidade disponível no Admin Console do Analytics.
 
 Cada conjunto de relatórios pode ser configurado da seguinte maneira:
-1. No Reports &amp; Analytics, clique em **[!UICONTROL Admin > Report Suites]**.
-1. Selecione os conjuntos de relatórios dos quais você está coletando dados de mídia e clique em **[!UICONTROL Edit Settings > Privacy Management]**.
+1. Em Reports &amp; Analytics, clique em **[!UICONTROL Admin. > Conjuntos de relatórios]**.
+1. Selecione os conjuntos de relatórios dos quais você está coletando dados de mídia e clique em **[!UICONTROL Editar configurações > Gerenciamento de privacidade]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Clique no botão **[!UICONTROL Enable Data Privacy Reports]**.
+1. Clique no botão **[!UICONTROL Ativar relatórios de privacidade de dados]**.
 
-   > [!NOTE] Após ativadas, essas variáveis não podem ser desativadas.
+   >[!NOTE] Após ativadas, essas variáveis não podem ser desativadas.
 
    ![](assets/rsm-privacy-enable.png)
 
