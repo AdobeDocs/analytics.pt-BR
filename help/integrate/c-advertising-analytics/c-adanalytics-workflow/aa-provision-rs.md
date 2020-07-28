@@ -3,7 +3,10 @@ description: 'null'
 title: Habilitar conjunto de relatórios para o Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Para visualizar qualquer dado de pesquisa do Advertising Analytics no Analytics,
 
    ![Relatórios](assets/aa_reporting.png)
 
-   > [!IMPORTANT] A ID do AMO faz referência à variável do Adobe Advertising Cloud na qual os dados de pesquisa serão inseridos.
+   >[!IMPORTANT] A ID do AMO faz referência à variável do Adobe Advertising Cloud na qual os dados de pesquisa serão inseridos.
 
 1. Defina a alocação e expiração da variável que deseja que a variável da ID do AMO ID utilize. As variáveis de conversão (eVars) permitem que o Adobe Analytics atribua eventos bem-sucedidos a valores de variáveis específicas. Às vezes, as variáveis encontram mais de um valor antes da ocorrência de um evento bem-sucedido. Nesses casos, a alocação determina qual valor de variável deve receber o crédito pelo evento.
 
