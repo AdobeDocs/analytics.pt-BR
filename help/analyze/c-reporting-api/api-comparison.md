@@ -3,10 +3,10 @@ description: Uma tabela comparativa de APIs em relatórios do Analytics. São fo
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -53,8 +53,8 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html"  > Interfaces de relatórios</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
-   <td colname="col3"> Relatório em tempo real em Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col2"> Analysis Workspace, Relatórios e Analytics, Report Builder, API </td> 
+   <td colname="col3"> Relatório em tempo real em Relatórios e Analytics, Report Builder, 1.4 API </td> 
    <td colname="col4"> Somente API </td> 
    <td colname="col5"> Data Warehouse e API </td> 
   </tr> 
@@ -79,18 +79,11 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col4"> Não </td> 
    <td colname="col5"> Sim (mas somente se compatíveis com o Data Warehouse) </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <b>SKU do Analytics</b> </td> 
-   <td colname="col2"> Padrão+ </td> 
-   <td colname="col3"> Padrão+ </td> 
-   <td colname="col4"> Premium Complete ou Predictive Intelligence </td> 
-   <td colname="col5"> Padrão+ </td> 
-  </tr> 
-  <tr> 
+   <tr> 
    <td colname="col1"> <b>Documentação</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Serviços Web</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Relatórios em tempo real</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Visão geral do Livestream</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > API do Analytics</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Relatórios em tempo real</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Visão geral do Livestream</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
