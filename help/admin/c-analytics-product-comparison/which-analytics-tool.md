@@ -3,7 +3,7 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 ## Importação de dados para o Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classificações](/help/components/c-classifications2/c-classifications.md)** devem ser usadas:
+**[Classificações](/help/components/classifications/c-classifications.md)** devem ser usadas:
 
 * Quando há metadados que você deseja associar a um valor de coleta (eVar, prop, canal de marketing).
 * Opções:
