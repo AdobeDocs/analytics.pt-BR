@@ -4,7 +4,10 @@ title: Configuração de relatórios em tempo real
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
-   Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** e selecione o conjunto de relatórios no menu suspenso na parte superior:
+   Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Exibir todos os relatórios > Métricas do site]** > **[!UICONTROL Tempo real]** e selecione o conjunto de relatórios do menu suspenso no início da página:
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +28,11 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Clique **[!UICONTROL Configure]** (ícone de engrenagem) para executar o [!UICONTROL Report Suite Manager].
+1. Clique em **[!UICONTROL Configurar]** (ícone de engrenagem) para executar o [!UICONTROL Gerenciador de conjunto de relatórios].
 
-   (Também disponível em **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
+   (Também disponível em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador > Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Tempo real]**.)
 
-1. Ative a **[!UICONTROL Enable Real-Time]** configuração.
+1. Ative a configuração **[!UICONTROL Ativar tempo real]**.
 1. Configure a coleção de dados em tempo real para até três relatórios, com uma métrica e três dimensões ou classificações por relatório.
 
    ![](assets/real_time_admin.png)
@@ -44,7 +47,7 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
    >
    >No momento, não oferecemos suporte para habilitar dimensões duplicadas para um relatório em tempo real, mesmo que uma classificação diferente seja selecionada para cada dimensão.
 
-   Para obter mais informações sobre classificações, consulte [Sobre classificações](/help/components/c-classifications2/c-classifications.md).
+   Para obter mais informações sobre classificações, consulte [Sobre classificações](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -52,8 +55,8 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
 
-   Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Por padrão, todos os usuários possuem acesso aos Relatórios em tempo real.
