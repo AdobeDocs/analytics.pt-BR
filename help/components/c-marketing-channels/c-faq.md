@@ -1,43 +1,39 @@
 ---
-description: Leia sobre as práticas recomendadas e exemplos de como popular diversas regras que podem ser configuradas para seus canais de marketing.
 title: Perguntas frequentes sobre Canais de marketing
+description: Perguntas frequentes sobre canais de marketing.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 88%
+source-wordcount: '1348'
+ht-degree: 49%
 
 ---
 
 
 # Perguntas frequentes sobre Canais de marketing
 
-Consulte [Criar Regras de Processamento de canal de Marketing](/help/components/c-marketing-channels/c-rules.md) para definições de campos exibidos na página de [!UICONTROL Regras de processamento de canal de marketing].
+Perguntas frequentes sobre canais de marketing.
 
-## Perguntas frequentes {#faq}
-
-Cada implementação das regras de canal de marketing pode ser diferente, dependendo dos códigos de acompanhamento. Configurar regras que forneçam os resultados que você procura pode exigir pensamento criativo para solucionar problemas.
-
-**Pergunta:** Meus códigos de acompanhamento não seguem um padrão, e existem milhares deles a serem especificados para meu canal Afiliados.
+## Meus códigos de rastreamento não seguem um padrão, e eu tenho milhares que devem ser especificados para meu canal de afiliados.
 
 * Use o processo de eliminação. Se os seus canais Email e Afiliados usam o mesmo parâmetro de sequência de consulta, mas você dispõe de apenas alguns códigos de acompanhamento de email, especifique os códigos de acompanhamento de email em um conjunto de regras que definam email. Em seguida, classifique todos os outros códigos de acompanhamento com *`affiliates.`*
 * Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página inicial, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. Se não contiver *`eml`*, será um afiliado.
 
-**Pergunta**: os domínios de referência contêm mais dados que eu esperava.
+## Os domínios de referência contêm mais dados do que eu esperava.
 
 * Os domínios de referência podem estar próximos demais do topo da lista de regras de processamento. Eles devem ser um dos últimos (ou os últimos) conjuntos de regras, porque a ordem de processamento é importante.
 
-**Pergunta**: Criei uma regra que corresponde a um parâmetro de sequência de consulta e que não está funcionando.
+## Criei uma regra que corresponde a um parâmetro de string de query e não está funcionando.
 
 * Certifique-se de que o nome do parâmetro esteja especificado nos campos de parâmetro da sequência de consulta (normalmente um valor alfanumérico). Além disso, certifique-se de que o valor de parâmetro está especificado após o operador, conforme mostrado no exemplo a seguir em uma regra de email.
 
    ![](assets/example_email.png)
 
-**Pergunta**: Por que todo o meu tráfego de último toque é atribuído a um domínio interno?
+## Por que todo o meu tráfego de último toque é atribuído a um domínio interno?
 
 * Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
 
-**Pergunta**: Como faço para depurar o tráfego exibido em Nenhum Canal Identificado no relatório?
+## Como faço para depurar o tráfego exibido em Nenhum Canal identificado no relatório?
 
 * As regras são processadas em ordem. Se não houver correspondência com critérios específicos, as ocorrências são incluídas em uma de três categorias:
 
@@ -81,27 +77,37 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 A Atualização da sessão de último toque só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relacionamento entre o Primeiro e o Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro toque.
 
-**Cenário 1: tempo limite da sessão**
+* **Tempo limite** da sessão: Um visitante acessa o site e deixa a guia aberta em seu navegador para ser usada em uma data posterior. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e usam a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
-Um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e usam a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
+* **Nem todas as páginas do site estão marcadas**: Um visitante aterrissa na Página A, que não está marcada, e então se move para a página B, que está marcada. A página A seria vista como o referenciador interno e a visita seria classificada como Atualização de sessão.
 
-**Cenário 2: nem todas as páginas do site estão marcadas**
+* **Redirecionamentos**: Se um redirecionamento não for configurado para passar os dados da quem indicou para a nova landing page, os dados da quem indicou de entrada verdadeira serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
 
-Um visitante acessa a Página A, que não está marcada, em seguida se move para a página B, que está marcada. A página A seria vista como o referenciador interno e a visita seria classificada como Atualização de sessão.
+* **Tráfego** entre domínios: Um visitante é movido de um domínio que é acionado para o Suite A, para um segundo domínio que é acionado para o Suite B. Se no Suite B, os filtros internos de URL incluírem o primeiro domínio, a visita no Suite B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
 
-**Cenário 3: redirecionamentos**
+( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
 
-Se um redirecionamento não for configurado para transferir os dados do referenciador até a nova página inicial, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
+* **Limpando cookies no meio do site**: Um visitante chega ao site, e a meia-sessão apaga seus cookies. Os canais Primeiro e Último toque seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
 
-**Cenário 4: tráfego entre domínios**
+## Por que alguns canais permanecem inalterados após alterar as regras de processamento do canal de Marketing?
 
-Um visitante move de um domínio que é acionado para o Conjunto A, para um segundo domínio que é acionado para o Conjunto B. Se no Conjunto B, os filtros internos de URL incluírem o primeiro domínio, a visita no Conjunto B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
+Às vezes, as regras de processamento de Canais de marketing são configuradas incorretamente, tornando necessário alterar as regras de processamento. Depois de aplicar as alterações, você pode ver algumas métricas ainda atribuindo dados a um canal incorreto. Há vários aspectos a serem considerados:
 
-**Cenário 5: tempos de carregamento de entrada de página longos**
+* **Os dados do Canal de marketing são coletados em tempo** real: Os dados do canal de marketing são processados após a coleta de dados e são 100% permanentes. A alteração das regras de processamento não afeta os dados retroativamente.
+* **A alteração das regras de processamento não afeta imediatamente os dados** de Primeiro Contato: Por exemplo:
+   1. Um usuário entra por meio de seu canal de email porque ele foi configurado incorretamente e, em seguida, sai do site.
+   2. No dia seguinte, você altera sua regra de processamento de email para corrigi-la.
+   3. Esse usuário volta vários dias depois por meio de uma pesquisa natural e faz uma compra.
+   4. O canal de e-mail recebe o crédito de Primeiro Contato e a pesquisa natural recebe o crédito de Último Contato.
 
-Um visitante acessa a página A, que é pesada no conteúdo, e o código do Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
+   Mesmo vários dias depois de alterar suas regras de processamento, os dados ainda poderão ser coletados no canal de primeiro toque incorreto. Os dados de primeiro toque coletam continuamente no canal incorreto até que o envolvimento de todos os usuários no visitante expire.
 
-**Cenário 6: limpar cookies no meio do site**
+A melhor maneira de corrigir essas discrepâncias é realizar uma ou ambas as ações a seguir:
 
-Um visitante acessa o site e, no meio da sessão, os cookies são limpos. Os canais Primeiro e Último toque seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
+* **Expira manualmente todos os períodos** de envolvimento do visitante: Essa configuração expira instantaneamente todos os canais de primeiro e último toque em todos os visitantes:
+   1. Vá até Ferramentas administrativas > Report Suites.
+   2. Passe o mouse sobre a imagem Editar configurações > Canais de marketing > Expiração do envolvimento do Visitante
+   3. Clique em Expirar tudo.
+   4. Clique em OK na janela pop-up de aviso, reconhecendo que você entende o que ele fará.
 
+* **Somente visualização métricas de último contato a partir do momento em que você corrigiu suas regras para frente**: As métricas de Último contato sempre seguem o conjunto de regras atual. A exibição do tempo a partir do qual as regras de processamento foram alteradas reflete corretamente as regras de processamento mais atuais.
