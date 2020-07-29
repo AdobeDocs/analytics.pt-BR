@@ -2,10 +2,10 @@
 title: Prop
 description: Uma dimensão personalizada que você pode usar nos relatórios.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 26%
+source-wordcount: '467'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ As props são variáveis personalizadas que podem ser usadas da maneira que voc�
 >
 >Adobe recommends using [eVars](evar.md) in most cases. Em versões anteriores do Adobe Analytics, props e eVars tinham vantagens e desvantagens entre si. No entanto, a Adobe melhorou as eVars de modo que elas atendem a quase todos os casos de uso de props.
 
-Se você tiver um documento [de design de](/help/implement/prepare/solution-design.md)solução, poderá alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende de seu contrato com a Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe oferecer suporte para isso.
+Se você tiver um documento [de design de](/help/implement/prepare/solution-design.md)solução, poderá alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende do seu contrato com o Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe suportar.
 
 ## Preencher props com dados
 
@@ -28,9 +28,19 @@ Cada prop coleta dados da string [`c1` - `c75` query string](/help/implement/val
 
 O AppMeasurement, que compila variáveis JavaScript em uma solicitação de imagem para coleta de dados, usa as variáveis `prop1` - `prop75`. Consulte [prop](/help/implement/vars/page-vars/prop.md) no guia Implementar usuário para obter diretrizes de implementação.
 
-## Itens de dimensão
+## itens de Dimension
 
 Como as props contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada prop. Certifique-se de registrar a finalidade de cada prop e os itens de dimensão típicos em um documento [de design de](/help/implement/prepare/solution-design.md)solução.
+
+## Diferenciação entre maiúsculas e minúsculas
+
+As props, por padrão, não distinguem maiúsculas de minúsculas. Se você enviar o mesmo valor em casos diferentes (por exemplo, `"DOG"` e `"Dog"`), o Analysis Workspace agrupará-los no mesmo item de dimensão. É utilizado o caso do primeiro valor observado no início do mês do relatórios. A Data warehouse mostra o primeiro valor encontrado durante o período de solicitação.
+
+É possível tornar qualquer prop sensível a maiúsculas e minúsculas. Você também pode desativar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver ativada. Entre em contato com o Atendimento ao cliente do Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alternar a diferenciação entre maiúsculas e minúsculas.
+
+>[!IMPORTANT]
+>
+>Alternar distinção entre maiúsculas e minúsculas pode cortar itens de dimensão, causar resultados inesperados com segmentos e causar problemas com filtros. A Adobe recomenda que essa configuração seja alternada entre dois períodos principais, como o início de um mês ou ano.
 
 ## Valor de props em eVars
 
