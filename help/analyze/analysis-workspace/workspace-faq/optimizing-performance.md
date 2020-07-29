@@ -3,7 +3,7 @@ description: 'null'
 title: Otimizar o desempenho do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -30,11 +30,11 @@ Segmentos intricados podem ter um impacto significativo no desempenho do projeto
 
 Embora alguns dos fatores de complexidade não possam ser evitados, pense em oportunidades para reduzir a complexidade de seus segmentos. Em geral, quanto mais específico você puder ser com os critérios do seu segmento, melhor. Por exemplo:
 
-* Com contêineres, usar um só contêiner na parte superior do segmento será mais rápido que uma série de contêineres aninhados.
-* Com operadores, &quot;igual&quot; será mais rápido que &quot;contém&quot; e &quot;igual a qualquer um&quot; será mais rápido que &quot;contém qualquer um&quot;.
-* Com muitos critérios, operadores AND serão mais rápidos que uma série de operadores OR. Além disso, procure oportunidades para reduzir muitas declarações OR em uma única declaração &quot;igual a qualquer uma&quot;.
+* Com contêineres, usar um só contêiner na parte superior do segmento será mais rápido que uma série de contêineres aninhados
+* Com operadores, &quot;igual&quot; será mais rápido que &quot;contém&quot; e &quot;igual a qualquer um&quot; será mais rápido que &quot;contém qualquer um&quot;
+* Com muitos critérios, operadores AND serão mais rápidos que uma série de operadores OR. Além disso, procure oportunidades para reduzir muitas declarações OR em uma única declaração &quot;igual a qualquer uma&quot;
 
-Além disso, as [classificações](/help/components/c-classifications2/c-classifications.md) podem ajudar a consolidar muitos valores em grupos concisos a partir dos quais você pode criar segmentos. A segmentação nos grupos de classificação oferece benefícios de desempenho em segmentos com muitas instruções OR ou com o critério “contém”.
+Além disso, as [classificações](/help/components/classifications/c-classifications.md) podem ajudar a consolidar muitos valores em grupos concisos a partir dos quais você pode criar segmentos. A segmentação nos grupos de classificação oferece benefícios de desempenho em segmentos com muitas instruções OR ou com o critério “contém”.
 
 ## Intervalo de dados solicitado
 
