@@ -5,10 +5,10 @@ user-guide-title: Notas técnicas do Analytics
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
    + [Diferenças de processamento entre plataformas](ga-to-aa/processing-differences.md)
 + Analisar dados afetados por eventos {#event}
    + [Analisar dados afetados pela visão geral dos eventos](event/overview.md)
+   + [Solução de problemas de picos/quedas nos dados](event/spikes-drops.md)
    + [Excluir datas específicas na análise](event/segments.md)
    + [Comparar datas a intervalos anteriores](event/compare-dates.md)
    + [Derivar dados afetados pelos eventos](event/calcmetrics.md)
