@@ -1,19 +1,19 @@
 ---
-description: Habilitar o gerenciamento de aplicativos ativa as variáveis da solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
-title: Gerenciamento de aplicativo
+description: A habilitação do gerenciamento de aplicativos ativa as variáveis de solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
+title: Gerenciamento de aplicativos
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Gerenciamento de aplicativo
+# Gerenciamento de aplicativos
 
-Habilitar o gerenciamento de aplicativos ativa as variáveis da solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
+A habilitação do gerenciamento de aplicativos ativa as variáveis de solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
 
 Esta integração entre o Adobe Analytics e Mobile Services:
 
@@ -25,7 +25,7 @@ Esta integração entre o Adobe Analytics e Mobile Services:
 * Adiciona novas dimensões do Adobe Mobile.
 * Sincroniza dados com o Analytics a cada 15 minutos
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > Conjuntos **[!UICONTROL de]** relatórios > **[!UICONTROL Editar configurações]** > Gerenciamento **** do aplicativo > Relatórios **** do aplicativo.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de aplicativos]** > **[!UICONTROL Relatórios de aplicativos]**.
 
 ## Etapa 1. Ativar o App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,9 +50,9 @@ Habilitar o rastreamento de localização permite:
 Ocorrências em segundo planto ativadas (ocorrências geradas quando o aplicativo está em segundo plano) significam que são tratadas como ocorrências em primeiro plano de fundo comuns. Agora eles aparecem em relatórios comuns e isso também afeta a atribuição. Esta configuração geralmente é desejável para manter a consistência com as implementações herdadas.
 
 Em vez disso, recomendamos que você “inclua ocorrências em segundo plano” em um [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md). Isso permite ver as ocorrências, mas elas não afetarão negativamente a visita e a contagem de visitantes.
-Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
+As classificações móveis serão ativadas após habilitar **[!UICONTROL Gerenciamento de aplicativos]** > **[!UICONTROL Relatório de aplicativos]**.
 
-Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como “termos de música pop” e relatar o sucesso dessa categoria com relação a métricas como Instâncias (também conhecidas como Click-throughs), e conversão para eventos bem-sucedidos.
+Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como termos de música pop e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e conversão para eventos bem-sucedidos.
 
 | Classificação | Definição |
 |--- |--- |
