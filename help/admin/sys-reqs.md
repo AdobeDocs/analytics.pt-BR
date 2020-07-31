@@ -1,11 +1,11 @@
 ---
 title: Requisitos do sistema
 description: Os requisitos do sistema para usar o Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 25%
 
 Lista os requisitos do sistema para usar várias soluções de produto no Adobe Analytics.
 
-## Requisitos de sistema para soluções baseadas em navegador
+## Requisitos de sistema para soluções em navegador
 
-A maioria das soluções da Adobe Analytics, incluindo o Analysis Workspace, são baseadas em navegadores. Portanto, o requisito mais importante para usar o Adobe Analytics é um navegador da Web moderno. A Adobe oferece suporte à versão estável mais recente desses navegadores:
+A maioria das soluções da Adobe Analytics, incluindo o Analysis Workspace, são usadas em navegadores. Portanto, o requisito mais importante para usar o Adobe Analytics é um navegador da Web moderno. A Adobe aceita a versão principal mais recente destes navegadores:
 
 * Microsoft Edge
 * Google Chrome
