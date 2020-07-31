@@ -1,11 +1,11 @@
 ---
 title: Criar um novo conjunto de relatórios
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 Nomeie este conjunto de relatórios da mesma forma, exceto com o final &quot;- DEV&quot;. Como esse conjunto de relatórios receberá apenas tráfego interno, o tamanho estimado pode ser o menor.
 1. Clique em Avançar para concluir a criação do conjunto de relatórios dev.
 
-Para obter mais informações sobre as etapas nesta janela modal, consulte [Implementação modal](/help/implement/prepare/implementation-modal.md) no guia Implementação do usuário.
+Para obter mais informações sobre as etapas nesta janela modal, consulte [Implementação modal](/help/implement/prepare/implementation-modal.md) no guia Implementação do usuário.
 
 ## Solução de problemas
 
