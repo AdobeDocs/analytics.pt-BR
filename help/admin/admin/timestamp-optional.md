@@ -3,11 +3,11 @@ description: Combine dados com e sem carimbos de data e hora em um único conjun
 title: Carimbos opcionais de data e hora
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Os Carimbos opcionais de data e hora permitem que você:
 
 >[!IMPORTANT]
 >
->If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
+>Se você estiver usando os Carimbos opcionais de data e hora, não defina [s.visitorID](/help/implement/vars/config-vars/visitorid.md) para os dados que já apresentarem carimbos de data e hora. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
 
 >[!NOTE]
 >
