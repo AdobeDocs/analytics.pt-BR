@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: Painéis e reportlets
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1819'
 ht-degree: 100%
 
@@ -149,6 +149,7 @@ t_dashboard_content.xml
    * Resumo de Conjunto de relatórios: exibe uma métrica selecionada e seu valor total ou valores alto e baixo de um conjunto de ferramentas de relatório.
    * Resumo de uso: mostra dados sobre o acesso da interface por pessoais em sua organização. Este reportlet pode mostrar dados de acesso por nome de usuário, acesso de relatório ou acesso ao conjunto de relatórios.
 Você pode criar os seguintes reportlets de Conteúdo do usuário fornecendo URLs. Se um URL ou outro recurso de imagem não começar com https://, os usuários do Internet Explorer pode receber um aviso sobre conteúdo misto. Você pode desativar o aviso para conteúdo misto nas configurações de segurança do navegador.
+
    *Conteúdo do usuário*
 
    * Relatório externo: permite adicionar um relatório externo nos formatos .xml e .csv.
@@ -156,6 +157,7 @@ Você pode criar os seguintes reportlets de Conteúdo do usuário fornecendo URL
    * Imagem: permite criar um painel a partir de um URL da imagem. Se o URL usa o protocolo HTTP, o Internet Explorer emite um aviso de conteúdo misto. Usar um URL com HTTPS remove o aviso. Todos os outros protocolos emitem um erro `Specified URL could not be retrieved`.
    * RSS: permite adicionar um feed RSS. Deve utilizar HTTP ou HTTPS. Caso contrário, você verá um erro `Specified URL could not be retrieved`.
    * Texto: permite que você use o código XHTML para criar seus próprios dados. Use HTTP ou HTTPS para um URL. Imagens usadas no conteúdo do reportlet de texto que têm o protocolo HTTP farão com que os usuários do IE recebam um aviso sobre conteúdo misto. Imagens incluídas usando outros protocolos não serão exibidos no reportlet.
+
    **Meus painéis**
 
    Lista de seus painéis atualizados a partir da qual você pode mover o conteúdo para o novo painel.
