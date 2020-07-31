@@ -38,7 +38,7 @@ Esses recursos lhe permitem responder a perguntas sobre o tráfego do site, demo
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crie um projeto. </p> </td> 
-   <td colname="col2"> <p>Na página de início, selecione um conjunto de relatórios e depois clique em <span class="uicontrol">Criar projeto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projetos e espaços de trabalho</a>. </p> </td> 
+   <td colname="col2"> <p>Na página de início, selecione um conjunto de relatórios e depois clique em <span class="uicontrol">Criar projeto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Projetos e espaços de trabalho</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Abra um relatório. </p> </td> 
@@ -49,7 +49,7 @@ Esses recursos lhe permitem responder a perguntas sobre o tráfego do site, demo
    <td colname="col2"> <p>Configure relatórios por meio da realização de tarefas, como: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Criar segmentos para pesquisar mais a fundo nos dados </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Adição de métricas, dimensões e segmentos à  <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Criador de tabela</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Adição de métricas, dimensões e segmentos à <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Criador de tabela</a> </li> 
      <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuração <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > de intervalos de datas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Programação</a> de entrega de relatório </li> 
     </ul> <p>Busque no sistema de ajuda para localizar a assistência que necessita. </p> </td> 
@@ -78,11 +78,11 @@ c_sys_reqs.xml
 * Resolução do Monitor: 800x600 (1024x768 recomendado)
 * Profundidade de cor: 16 bit ou superior
 * JavaScript: ativado
-* Versão do Java:    Java 1.7 ou posterior    (Veja a Observação acima)
+* Versão do Java: Java 1.7 ou posterior (Veja a Observação acima)
 
    Se não tiver a versão correta do Java instalada, ela será instalada para você. Se você tiver uma versão não compatível do Java instalada, a Ad Hoc Analysis baixará as atualizações e enviará um prompt para que você as instale.
 
-## Instruções de atualização do Java  {#section_E4C0C6492FF24636A0FF71A59331111D}
+## Instruções de atualização do Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
 A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Ad Hoc Analysis no Java 7 após a versão de manutenção de julho de 2018, a Adobe deixará de oferecer suporte a sua implementação da Ad Hoc Analysis.
 
@@ -188,7 +188,7 @@ t_share_projects.xml
  -->
 
 1. Acesse **[!UICONTROL Arquivo]** > **[!UICONTROL Salvar como]**.
-1. Selecione **[!UICONTROL Projetos compartilhados]** no menu suspenso **[!UICONTROL Salvar em:]**. 
+1. Selecione **[!UICONTROL Projetos compartilhados]** no menu suspenso **[!UICONTROL Salvar em:]**.
 
    ![](assets/shared_projects.png)
 
@@ -264,4 +264,4 @@ Há várias maneiras disponíveis para abrir um relatório:
 
 * Na página [!UICONTROL Novo relatório], pesquise um relatório ou escolha um modelo.
 * Clique em **[!UICONTROL Relatórios]** no menu e selecione um relatório ou modelo de relatório.
-* Inicie um relatório de uma dimensão: clique com o botão da direita em um nome de dimensão e selecione **[!UICONTROL Executar relatório]** >    **`report name`**.
+* Inicie um relatório de uma dimensão: clique com o botão da direita em um nome de dimensão e selecione **[!UICONTROL Executar relatório]** > **`report name`**.
