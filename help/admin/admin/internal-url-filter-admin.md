@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 
-Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do [Dimensão do Quem indicou](/help/components/dimensions/referrer.md) , dimensão dos domínios [de](/help/components/dimensions/referring-domain.md) referência e outras dimensões de fonte de tráfego.
+Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do Dimensão [Referenciadores](/help/components/dimensions/referrer.md), a dimensão [Domínios do referenciador](/help/components/dimensions/referring-domain.md) e outras dimensões de fonte de tráfego.
 
 O motivo mais comum para a falha de cálculo dos relatórios de fontes de tráfego é o Filtro de URL interno não definido. Para verificar quais Filtros de URL interno foram configurados em um conjunto de relatórios, siga essas etapas. Para evitar que isso aconteça, remova a regra que lista um ponto (.) como filtro e adicione seu próprio site.
 
