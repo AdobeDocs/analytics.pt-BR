@@ -3,9 +3,9 @@ description: Exibe informações sobre os visitantes, incluindo contagem de visi
 title: Relatórios de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ c_reports_visitor_profile.xml
 
 **[!UICONTROL Código postal/CEP do visitante]**: mostra os códigos postais e o CEP dos clientes de maior efeito nas métricas de sucesso de compras.
 
-## GeoSegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
+## Geossegmentação {#concept_7C1B930F90F945B49205D3855CAE1813}
 
 <!-- 
 
