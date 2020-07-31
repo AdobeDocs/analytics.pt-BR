@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: Mudanças de permissões de usuários e grupos
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
