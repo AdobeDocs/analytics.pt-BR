@@ -3,11 +3,11 @@ description: Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analyt
 title: Gerenciar segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 >Para adicionar ou editar segmentos, a interface de segmentos do Report Builder inicia o construtor de segmentos do Analytics em uma janela do Microsoft Internet Explorer. Sua sessão do Report Builder continuará ativa. Navegadores diferentes do Internet Explorer não são suportados nessa operação.
 
 1. No painel de segmentos da Etapa 1 do Assistente de solicitação, clique em **[!UICONTROL Adicionar]**.
-1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para obter informações sobre como criar segmentos, consulte a segmentação [da](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html)Analytics.
+1. Uma janela do Internet Explorer aparece e abre a interface do Analytics Segment Builder. Para obter informações sobre como criar segmentos, consulte a [segmentação do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html).
 1. Depois de definir e salvar o segmento, volte para o Assistente de solicitação.
 1. Clique no ícone Atualizar para atualizar a lista de segmentos.
 
@@ -53,7 +53,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
 ## Pesquisar por e aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Qualquer segmento criado em Reports &amp; Analytics, Ad Hoc Analysis, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar ( ![](assets/refresh_icon.png).
+Qualquer segmento criado em Reports &amp; Analytics, Ad Hoc Analysis, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar (![](assets/refresh_icon.png)).
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
