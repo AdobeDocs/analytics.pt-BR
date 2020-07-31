@@ -3,9 +3,9 @@ description: É possível excluir dos seus relatórios alguns dados de endereço
 title: Excluir por endereço IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Um endereço IP for um endereço da Internet. Todos os usuários da Internet for
 
 As exibições de página são contadas e os visitantes de página únicos são identificados através do endereço IP. Ao excluir endereços IP da contagem é possível impedir que a Adobe rastreie visitantes frequentes. Esse recurso pode permitir que você e seus colegas visitem seu site sem distorcer seus dados de tráfego. É possível excluir até 50 endereços IP diferentes.
 
-Você pode usar indicadores curinga (*) para excluir um intervalo de endereços. Por exemplo, `[!DNL 0.0.*.0]`excluiria todos os endereços IP entre `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. É possível excluir até 50 endereços IP diferentes.
+Você pode usar indicadores curinga (*) para excluir um intervalo de endereços. Por exemplo, `[!DNL 0.0.*.0]` excluiria todos os endereços IP entre `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. É possível excluir até 50 endereços IP diferentes.
 
 ## Excluir por firewall {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 
