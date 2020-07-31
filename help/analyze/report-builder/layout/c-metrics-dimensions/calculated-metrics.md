@@ -2,9 +2,9 @@
 description: 'O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.'
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métr
 
 Para **filtrar** as métricas calculadas, clique no ícone Filtrar:  ![](assets/segment_filter.png)
 
-. A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
+  A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
 
 Os filtros disponíveis incluem:
 
