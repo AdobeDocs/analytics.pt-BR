@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 71%
 
 **O que é o item de linha “Nenhum” na atribuição?**
 
-O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha &#39;Nenhum&#39;, tente usar uma janela de pesquisa personalizada com um período de pesquisa posterior mais longo.
+O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha “Nenhum”, tente usar uma janela de pesquisa personalizada com um período de pesquisa posterior mais longo.
 
 **Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?**
 
 Essas datas extras aparecem devido à janela de retrospectiva do visitante. Consulte [Dados que aparecem fora da janela de relatórios](https://helpx.adobe.com/br/analytics/kb/data-appearing-outside-reporting-window.html) na base de conhecimento (KB) do Analytics para obter mais informações.
 
-**Quando devo usar uma visita, visitante ou pesquisa de atribuição personalizada?**
+**Quando devo usar retrospectiva de visita, visitante ou atribuição personalizada?**
 
-A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões tipicamente levarem mais tempo do que uma única visita, um visitante ou uma pesquisa personalizada é recomendada. Para ciclos de conversão mais longos, as janelas de pesquisa personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela do relatórios
+A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. Para ciclos de conversão mais longos, as janelas de retrospectiva personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela de relatórios
 
 **Como funciona a comparação de props e eVars na atribuição?**
 
@@ -69,7 +69,7 @@ As dimensões de metadados, como tipo de correspondência e palavra-chave, funci
 
 **Como a atribuição funciona com canais de marketing?**
 
-Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. A Adobe fornece dimensões genéricas de &quot;Canal de marketing&quot; e &quot;Detalhes do Canal de marketing&quot; para que você possa usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica às dimensões do Canal de último toque, mas são rotuladas de forma diferente para evitar confusão ao usar canais de marketing com um modelo de atribuição diferente.
+Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. A Adobe fornece dimensões genéricas de &quot;Canal de marketing&quot; e &quot;Detalhes do canal de marketing&quot; para que você possa usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica às dimensões do Canal de último contato, mas são rotuladas de forma diferente para evitar confusão em caso de uso de canais de marketing com um modelo de atribuição diferente.
 
 Como as dimensões do canal de marketing dependem de uma definição de visita tradicional (conforme definido por suas regras de processamento), a definição de visita não pode ser alterada usando conjuntos de relatórios virtuais.
 
