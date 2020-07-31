@@ -2,8 +2,11 @@
 description: 'null'
 title: Perguntas frequentes do Conversor de projetos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | Problema | Descrição |
 |--- |--- |
-| Granularidade de minuto com detalhamentos ou em colunas | Quando a granularidade de minutos tem detalhamentos aplicados a ela ou se a granularidade de minutos estiver presente em colunas, o projeto não poderá ser convertido para a Analysis Workspace. Uma solução alternativa é remover o detalhamento em granularidade de minutos, removê-lo das colunas e, em seguida, converter o projeto. Em seguida, você pode aplicar detalhamentos em granularidade de minutos na Analysis Workspace. |
+| Granularidade de minuto com detalhamentos ou em colunas | Quando a granularidade de minutos tem detalhamentos aplicados a ela ou se a granularidade de minutos estiver presente em colunas, o projeto não poderá ser convertido para a Analysis Workspace.  Uma solução alternativa é remover o detalhamento em granularidade de minutos, removê-lo das colunas e, em seguida, converter o projeto. Em seguida, você pode aplicar detalhamentos em granularidade de minutos na Analysis Workspace. |
 | Métrica calculada interna usada junto com um segmento de coluna | Se estiver usando uma métrica calculada interna junto com um segmento de coluna, o projeto não poderá ser convertido para a Analysis Workspace. Para contornar esse problema, remova as métricas calculadas internas do projeto antes da conversão e adicione-as novamente na Analysis Workspace. |
 
 
@@ -50,9 +53,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>R: Observe que os gráficos são chamados de “visualizações” na Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Configurações</b>: as configurações de visualização como “Número de itens” ou “Número de barras” não são suportadas pela Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico de pizza</b>: exportado como uma visualização <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Rosca</a>. Esta visualização é limitada a 19 seções na Workspace. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de bolhas</b>: exportado como uma visualização <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >Gráfico de dispersão</a>. Por padrão, o gráfico de dispersão desenha a primeira métrica no eixo x e a segunda no eixo y. Se houver apenas uma métrica, os gráficos de bolhas serão convertidos em visualizações em Linha. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: suporta uma lógica de particionamento diferente na Workspace em comparação com a Ad Hoc Analysis. Sendo assim, é convertido em uma visualização <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >Barra</a>. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico de pizza</b>: exportado como uma visualização <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Rosca</a>. Esta visualização é limitada a 19 seções na Workspace. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de bolhas</b>: exportado como uma visualização <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >Gráfico de dispersão</a>. Por padrão, o gráfico de dispersão desenha a primeira métrica no eixo x e a segunda no eixo y. Se houver apenas uma métrica, os gráficos de bolhas serão convertidos em visualizações em Linha. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: suporta uma lógica de particionamento diferente na Workspace em comparação com a Ad Hoc Analysis. Sendo assim, é convertido em uma visualização <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/bar.html"  >Barra</a>. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Gráfico de dispersão</b>: em projetos exportados na Analysis Workspace, o eixo Y é definido como a primeira coluna, o eixo X como a segunda e o diâmetro como a terceira. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tabelas de fallout</b>: para mostrar tabelas de fallthrough ou de fallout, clique com o botão direito do mouse no ponto de verificação e selecione uma opção de detalhamento. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalos de data de fallout a nível de relatório</b>: os intervalos de data de relatório personalizados ainda não foram aplicados a visualizações Fallout. </li> 
