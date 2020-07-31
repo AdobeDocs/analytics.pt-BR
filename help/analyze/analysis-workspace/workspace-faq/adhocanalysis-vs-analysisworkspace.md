@@ -100,7 +100,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> no Analysis Workspace permite que você adicione vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. Inclui mais de 10 modelos baseados em regras e algorítmicos. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: IQ de atribuição em tabelas de forma livre</a> </p> </td> 
+   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> no Analysis Workspace permite que você adicione vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. Inclui mais de 10 modelos baseados em regras e algorítmicos. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ em tabelas de forma livre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
