@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Guia do curador para painéis do Adobe Analytics
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para ver um vídeo demonstrando essas informações, consulte [Adobe Analytics painel Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para ver um vídeo demonstrando essas informações, consulte [Construtor de scorecard dos painéis do Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Introdução
 
-Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite que os usuários tenham acesso móvel a scorecards intuitivos que você cria e compartilha da interface do usuário do desktop da Adobe Analytics. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. Os painéis do Analytics são aceitos em sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos criados e compartilhados a partir da interface do usuário de desktop do Adobe Analytics. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Você pode adaptar os Scorecards de acordo com os dados mais importantes para você. Os painéis do Analytics são aceitos em sistemas operacionais iOS e Android.
 
 ## Mais informações sobre este guia
 
-Este guia tem como objetivo ajudar os curadores dos dados do Adobe Analytics a configurar Scorecards para seus usuários executivos em painéis. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais dos painéis do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de maneira eficaz para esses usuários.
+Este guia tem como objetivo ajudar os curadores de dados do Adobe Analytics a configurar os scorecards para os usuários executivos nos painéis. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards para aplicativos, que permitem aos usuários executivos visualizar uma ampla renderização de dados sumários importantes de maneira rápida e fácil em seus próprios dispositivos móveis. Embora os usuários executivos sejam os usuários finais dos painéis do Analytics, este guia ajudará os curadores de dados a configurar o aplicativo de maneira eficaz para esses usuários.
 
 ## Glossário de termos
 
@@ -100,7 +100,7 @@ Para implementar o modelo de Scorecard:
 
    ![Adicionar dimensões](assets/layer_dimensions.png)
 
-   Também é possível adicionar uma dimensão a todos os blocos soltando-os na tela do Scorecard.
+   Também é possível adicionar uma dimensão a todos os blocos, soltando-a na tela Scorecard.
 
    Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
@@ -108,7 +108,7 @@ Para implementar o modelo de Scorecard:
 
    ![Detalhamento_exibição](assets/break_view.png)
 
-   Cada dimensão adicionada ao bloco será exibida em uma lista suspensa na visualização detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
+   Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
 4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
 
@@ -161,11 +161,11 @@ Para ajudar os usuários executivos a acessar os Scorecards no aplicativo, verif
 
 * Os requisitos mínimos do sistema operacional móvel dos dispositivos são iOS versão 10 ou superior ou Android versão 4.4 (KitKat) ou superior
 * Eles possuem um logon válido no Adobe Analytics
-* Você criou corretamente os Scorecards móveis para eles e compartilhou esses Scorecards com eles
+* Você criou corretamente os Scorecards para dispositivos móveis para eles e compartilhou esses Scorecards com eles
 * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios em o Scorecard se baseia
 * Eles têm acesso aos Componentes incluídos no Scorecard. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### Ajuda os usuários executivos com o aplicativo
+### Ajudar os usuários executivos com o aplicativo
 
 Para ajudar usuários executivos:
 
@@ -205,17 +205,17 @@ Para ajudar usuários executivos:
    * Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 
-3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o primeiro Scorecard abaixo é definido no modo escuro; consulte **Preferências** abaixo se você acha que o usuário executivo prefere esta opção de visualização):
+3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o primeiro Scorecard abaixo é definido no modo escuro; consulte **Preferências** abaixo se você achar que o usuário executivo prefere esta opção de visualização):
 
    ![Explicar blocos](assets/newexplain.png)
 
-   ![Exemplo de Scorecard](assets/intro_scorecard.png)
+   ![Exemplo de scorecard](assets/intro_scorecard.png)
 
    Informações adicionais sobre blocos:
 
    * A granularidade dos minigráficos depende da duração do intervalo de datas:
       * Um dia mostra uma tendência horária
-      * Mais de um dia e menos de um ano mostram uma tendência diária
+      * Mais de um dia e menos de um ano mostra uma tendência diária
       * Um ano ou mais mostra uma tendência semanal
    * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
    * Você pode puxar a tela para baixo para atualizar o Scorecard.
@@ -233,14 +233,14 @@ Para ajudar usuários executivos:
 
    ![Alterar datas](assets/changedate.png)
 
-   * Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
+   * Você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.
 
    * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
 6. Para deixar comentários sobre este aplicativo:
 
    1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   2. Na tela **Configurações**, toque na opção **Feedback**.
    3. Toque para ver as opções para deixar comentários.
 
       ![Tela de configurações](assets/settings.png)
