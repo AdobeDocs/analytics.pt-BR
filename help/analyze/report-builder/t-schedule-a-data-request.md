@@ -3,9 +3,9 @@ description: Você pode agendar relatórios para envio de acordo com a hora e o 
 title: Programar uma solicitação de dados
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 >Além disso, há vários outros fatores que podem aumentar ainda mais o atraso, antes que a pasta de trabalho seja realmente entregue:
 >
 > * **A execução de várias programações diferentes do mesmo tipo ao mesmo tempo** pode sobrecarregar o sistema. O sistema de programação permite que algumas (5-10) pastas de trabalho de qualquer tipo sejam executadas simultaneamente, de modo que, quando mais de 5-10 estiverem programadas ao mesmo tempo, algumas precisarão aguardar a conclusão de outras pastas de trabalho na fila para que possam começar a processar. Esse problema pode ser atenuado pela programação de pastas de trabalho de uma empresa em horários escalonados ao longo do dia ou da hora, e não simultaneamente.
-> * Além do tipo de pasta de trabalho específico, as pastas de trabalho também aguardarão na fila, se a empresa tiver **mais de 15 a 20 de qualquer tipo de pasta de trabalho programadas ao mesmo tempo (em todos os tipos diferentes de pasta de trabalho)**. Isso pode ser atenuado por horários de programação escalonados, em vez de muitas pastas de trabalho serem executadas ao mesmo tempo.
+> * Além do tipo de pasta de trabalho específico, as pastas de trabalho também aguardarão na fila, se a empresa tiver **mais de 15 a 20 de qualquer tipo de pasta de trabalho programadas ao mesmo tempo (em todos os tipos diferentes de pasta de trabalho)**. Esse problema pode ser resolvido alternando os horários de agendamento, em vez de executar muitos exatamente ao mesmo tempo.
 > * **Problemas em serviços downstream** nos quais o Agendador depende também podem afetar a entrega de pastas de trabalho. Por exemplo, se você estiver usando independentemente as APIs para executar pastas de trabalho e preencher a fila de solicitações da API, suas pastas de trabalho agendadas podem ser entregues lentamente enquanto você compete por esse recurso.
 > * A **latência do conjunto de relatórios** (um atraso na coleta de dados) também pode atrasar algumas pastas de trabalho programadas.
 
