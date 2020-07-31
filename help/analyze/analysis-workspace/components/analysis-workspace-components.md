@@ -2,9 +2,9 @@
 description: Os componentes do Analysis Workspace são métricas, dimensões, segmentos e granularidades que você pode arrastar e soltar em um projeto. Os componentes personalizados que você criou são adicionados a esses painéis, como intervalos de data personalizados.
 title: Visão geral dos componentes
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
