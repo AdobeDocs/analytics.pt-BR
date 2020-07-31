@@ -4,11 +4,11 @@ keywords: eVar
 title: Variáveis de conversão (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento compulsório de merchandising</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>Se Merchandising estiver definido como <span class="uicontrol">Sintaxe de variável de conversão</span>, os eventos selecionados vincularão o valor de eVar atual a um produto. </p> <p>Para usar um evento compulsório, defina <span class="uicontrol">Alocação como Mais recente</span>. Se <span class="uicontrol">Alocação for Valor original</span>, a primeira ligação de produto de eVar permanecerá até que eVar expire. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada.</p> </td> 
+   <td colname="col2"> <p>Se Merchandising estiver definido como <span class="uicontrol">Sintaxe de variável de conversão</span>, os eventos selecionados vincularão o valor de eVar atual a um produto. </p> <p>Para usar um evento compulsório, defina <span class="uicontrol">Alocação como Mais recente</span>. Se <span class="uicontrol">Alocação for Valor original</span>, a primeira ligação de produto de eVar permanecerá até que eVar expire. Vários eventos podem ser selecionados ao pressionar e segurar e clicar em vários itens na lista no <code>ctrl</code> (Windows) ou <code>cmd</code> (Mac). Você pode selecionar um evento somente quando a "Sintaxe de variável de conversão" é selecionada.</p> </td> 
   </tr> 
  </tbody> 
 </table>
