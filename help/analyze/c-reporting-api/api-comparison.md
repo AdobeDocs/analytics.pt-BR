@@ -17,7 +17,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
 
 >[!NOTE]
 >
->No que diz respeito à latência, o Analytics para Target (A4T) combina dados do Analytics e do Target na mesma ocorrência, favorecendo a geração de relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
+>No que diz respeito à latência, o Analytics for Target (A4T) combina dados do Analytics e do Target na mesma ocorrência, favorecendo a geração de relatórios integrados. Como as chamadas do Analytics e do Target ocorrem em momentos diferentes, as ocorrências são armazenadas antes de qualquer processamento para a coleta de dados de ambas as soluções. Este processo adiciona de **7 a 10 minutos** à latência para todos os pontos de verificação.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -38,7 +38,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col5"> Dados completamente processados e finalizados, usados para extrair grandes exportações de dados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/technotes/latency.translate.html"  > Latência</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/technotes/latency.html"  > Latência</a> </p> </td> 
    <td colname="col2"> 30 a 90 minutos </td> 
    <td colname="col3"> * Segundos -10 minutos </td> 
    <td colname="col4"> Segundos -10 minutos </td> 
@@ -84,7 +84,7 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > API do Analytics</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Relatórios em tempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Visão geral do Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
