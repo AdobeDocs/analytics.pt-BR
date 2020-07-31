@@ -2,11 +2,11 @@
 description: As configurações de coluna permitem que você configure a formatação da coluna; alguns elementos podem ser condicionais.
 title: Configurações de coluna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ A formatação condicional aplica formatação a limites superiores, intermediá
 
 ## Usar modelo de atribuição não-padrão
 
-A Área de trabalho de Análise suporta [atribuição](../../attribution/overview.md) para quase todas as métricas.
+O Analysis Workspace aceita a [atribuição](../../attribution/overview.md) para quase qualquer métrica.
 
 1. Clique no ícone de Configurações (engrenagem) em uma coluna de Tabela de forma livre.
 
    ![Caixa de seleção Atribuição](assets/attribution-checkbox.png)
 
-2. Em **[!UICONTROL Configurações de dados]**, marque a opção **[!UICONTROL Usar modelo de atribuição não padrão]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. Em **[!UICONTROL Configurações de dados]**, marque a opção **[!UICONTROL Usar modelo de atribuição não padrão]**. Para obter mais informações sobre os diferentes modelos de atribuição, consulte [Modelos de atribuição](../../attribution/models.md).
 
    ![Selecionar modelo de atribuição](assets/attribution-select.png)
 
