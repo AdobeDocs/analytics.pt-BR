@@ -2,9 +2,9 @@
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
    <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Aprimo Enterprise Experience Management</b> </p> </td> 
@@ -74,7 +74,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DREAMmail 2.0</b> </p> </td> 
@@ -84,7 +84,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   <tr> 
    <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
    <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
@@ -103,7 +103,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
@@ -122,12 +122,12 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Feedback da Foresee</b> </p> </td> 
-   <td colname="col2"> <p>Lista de resposta da ForeSee </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
@@ -166,7 +166,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col2"> <p>ID de destinatário -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Classificações </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
