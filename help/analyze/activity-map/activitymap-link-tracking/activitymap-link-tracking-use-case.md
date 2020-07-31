@@ -1,11 +1,11 @@
 ---
-description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
+description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Diferenciar links que fazem referência à mesma ID e Região do link
 
-É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
+É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
 
 Como exemplo, digamos que você tenha vários links “Buy”, que são identificados pelo Activity Map sob a mesma ID de link e Região:
 
@@ -47,7 +47,7 @@ Como exemplo, digamos que você tenha vários links “Buy”, que são identifi
  </tbody> 
 </table>
 
-Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement ActivityMap.
+Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement Activity Map.
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
@@ -123,7 +123,7 @@ Você pode personalizar a região certificando-se de que cada link “comprar”
  </tbody> 
 </table>
 
-## Personalizar o arquivo de módulo AppMeasurement ActivityMap {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar o arquivo de módulo AppMeasurement Activity Map {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
