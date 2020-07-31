@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 98%
 + [Guia de ferramentas do Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
-   + [Casos de uso da Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
-   + [Novidades na Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Criar um projeto da Workspace {#build-workspace-project}
+   + [Casos de uso do Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
+   + [Novidades no Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
+   + Criar um projeto do Workspace {#build-workspace-project}
       + [Criar projeto - visão geral](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Criar um projeto da Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modelos de projeto](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Criar um projeto do Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Vários conjuntos de relatórios no Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Configurações de coluna e linha {#column-row-settings}
          + [Configurações de coluna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
@@ -46,7 +46,7 @@ ht-degree: 98%
       + Calendário e intervalos de datas {#calendar-date-ranges}
          + [Visão geral do calendário e de intervalos de data](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Criar intervalos de datas personalizados](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
-         + [Comparação de data](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Comparação de datas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualizações {#visualizations}
       + [Visão geral das visualizações](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gerenciar fontes de dados](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -64,7 +64,7 @@ ht-degree: 98%
          + [Visão geral do fluxo](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [Configurações de fluxo](analysis-workspace/visualizations/c-flow/flow-settings.md)
-         + [Fluxos inter dimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+         + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
@@ -85,7 +85,7 @@ ht-degree: 98%
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
       + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + Painel de comparação de segmentos {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -104,8 +104,8 @@ ht-degree: 98%
       + [Perguntas frequentes](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
-   + Analista virtual {#virtual-analyst}
-      + [Visão geral do Analista virtual](analysis-workspace/virtual-analyst/overview.md)
+   + Virtual Analyst {#virtual-analyst}
+      + [Visão geral do Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Detecção de anomalias {#anomaly-detection}
          + [Visão geral da Detecção de anomalias](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Exibir anomalias na Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -123,7 +123,7 @@ ht-degree: 98%
    + Perguntas frequentes sobre o Workspace {#workspace-faq}
       + [Perguntas frequentes](analysis-workspace/workspace-faq/faq.md)
       + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [A Analysis Workspace comparada à Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+      + [Comparação entre Analysis Workspace e Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limitações da Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administração](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Acessibilidade no Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
 + Painéis do Adobe Analytics {#mobapp}
-   + [painéis Analytics da Adobe - Visão geral](mobile-app/home.md)
+   + [Painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
    + [Guia do curador](mobile-app/curator.md)
    + [Guia de início rápido do usuário executivo](mobile-app/executive.md)
 + Aplicativos da Web progressivos {#pwa}
