@@ -3,9 +3,9 @@ description: Maneiras de otimizar a entrega do Report Builder e uma lista de men
 title: Resolução de problemas e práticas recomendadas do Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ A velocidade do processo pode ser afetada pelas seguintes configurações:
 |--- |--- |--- |
 | Análises e a ordem da análise | Poucas | Muitas |
 |  | Exemplo: se você analisar A por Z, o número de itens para A deve sempre ser menor que o número de itens para Z. Se for o contrário, o tempo de solicitação pode aumentar significativamente. |
-| Intervalo de data | Intervalo pequeno | Intervalo grande |
+| Intervalo de datas | Intervalo pequeno | Intervalo grande |
 | Filtragem | Filtragem específica | Filtragem mais popular |
 | Granularidade | Agregado | Por hora<ul><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Trimestralmente</li><li>Anualmente</li></ul> |
 | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
