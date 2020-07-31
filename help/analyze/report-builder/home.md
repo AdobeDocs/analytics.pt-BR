@@ -2,15 +2,18 @@
 title: Ajuda do Report Builder da Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
 
 # Ajuda do Report Builder da Adobe {#adobe-report-builder-help}
 
-O Report Builder da [!DNL Adobe]é um suplemento do Microsoft Excel. O Report Builder permite construir solicitações personalizadas a partir de dados de relatórios e análises que você pode inserir nas planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O Report Builder da [!DNL Adobe] é um suplemento do Microsoft Excel. O Report Builder permite construir solicitações personalizadas a partir de dados de relatórios e análises que você pode inserir nas planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
 <!-- >>[!IMPORTANT]
 >
@@ -51,6 +54,6 @@ O Report Builder da [!DNL Adobe]é um suplemento do Microsoft Excel. O Report Bu
 
 ## Ajuda do Reports &amp; Analytics
 
-* [Ajuda da Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Ajuda da Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html)
 * [Ajuda do Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/getting-started.html)
 * Ajuda da [Referência do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html) sobre Ferramentas administrativas, relatórios e métricas.
