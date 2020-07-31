@@ -1,23 +1,23 @@
 ---
 description: Instruções para usar os scorecards de painéis.
 title: Guia executivo de painéis do Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Painéis do Adobe Analytics: guia de início rápido do usuário executivo
 
-As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics. Para assistir a um vídeo que demonstra essas informações, consulte Experiência [no aplicativo de painéis do](https://youtu.be/QXqQ_PkArbA)Adobe Analytics.
+As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics. Para ver um vídeo demonstrando essas informações, consulte [painéis do Adobe Analytics na experiência no aplicativo](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Introdução
 
-Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics. O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Os painéis são aceitos em sistemas operacionais iOS e Android.
+Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics.  O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Os painéis são aceitos em sistemas operacionais iOS e Android.
 
 ## Mais informações sobre este guia
 
@@ -63,7 +63,7 @@ Clique no link a seguir (ele também está disponível no Analytics em **Ferrame
 
 [Link do Android](https://bit.ly/2LM38Oo)
 
-Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais existentes do Adobe Analytics.
+Depois de baixados e instalados, os usuários executivos podem fazer logon no aplicativo usando suas credenciais do Adobe Analytics.
 
 ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
@@ -81,10 +81,11 @@ Para usar painéis:
 
    ![Escolha uma empresa](assets/nextseq.png)
 
-   Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com seu curador:
+   Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com o curador:
 
    * Você pode fazer logon na instância correta do Analytics
    * O Scorecard foi compartilhado com você
+
    ![Nada compartilhado](assets/nothing.png)
 
 4. Analisar como os blocos aparecem no Scorecard (o primeiro Scorecard é mostrado no modo escuro; consulte **Preferências** abaixo para obter mais informações).
@@ -96,16 +97,17 @@ Para usar painéis:
    * A granularidade dos minigráficos depende da duração do intervalo de datas:
 
       * Um dia mostra uma tendência horária
-      * Mais de um dia e menos de um ano mostram uma tendência diária
+      * Mais de um dia e menos de um ano mostra uma tendência diária
       * Um ano ou mais mostra uma tendência semanal
    * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
 
    * Você pode puxar a tela para baixo para atualizar o Scorecard.
+
    O exemplo de Scorecard a seguir é mostrado no modo normal:
 
-   ![Exemplo de Scorecard](assets/intro_scorecard.png)
+   ![Exemplo de scorecard](assets/intro_scorecard.png)
 
-5. Toque em um bloco para ver como funciona um detalhamento do bloco.
+5. Toque em um bloco para mostrar como funciona um detalhamento minucioso do bloco.
 
    ![Exibição de detalhamento](assets/sparkline.png)
 
@@ -114,20 +116,20 @@ Para usar painéis:
 
    ![Alterar datas](assets/changedate.png)
 
-   * Você também pode alterar os intervalos de datas na visualização de Detalhamento mostrada acima da mesma maneira.
+   * Você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.
 
    * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
-7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo seu curador. [Os Filtros](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) no aplicativo funcionam da mesma forma que no Analytics Workspace.
+7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
-   ![Filtro de segmento](assets/segment_filter.png)
+   ![Filtro de segmentos](assets/segment_filter.png)
 
 8. Obter atualizações do Scorecard. Se um Scorecard não incluir todas as métricas ou detalhamentos em que você possa estar interessado, entre em contato com a equipe do Analytics para atualizar o Scorecard. Depois da atualização, puxe o cartão para baixo na tela para atualizá-lo e carregar os dados adicionados recentemente.
 
 9. Para deixar comentários sobre este aplicativo:
 
    1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   2. Na tela **Configurações**, toque na opção **Feedback**.
    3. Toque para ver as opções para deixar comentários.
 
       ![Tela de configurações](assets/settings.png)
