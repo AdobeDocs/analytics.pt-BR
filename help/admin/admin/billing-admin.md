@@ -3,9 +3,9 @@ description: A página Faturamento permite acessar informações de faturamento,
 title: Faturamento
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
