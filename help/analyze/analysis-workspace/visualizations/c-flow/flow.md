@@ -2,9 +2,9 @@
 description: 'null'
 title: Visão geral do Fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Ele permite:
 
 [Visualização do Fluxo no YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:56)
 
-## Fluxo interdimensional {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Fluxos interdimensionais {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
 É possível mostrar o [fluxo entre dimensões](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por exemplo, você pode combinar páginas e departamentos em um diagrama. Neste caso, seu fluxo pode ir da página inicial à página Masculino e, então, para o departamento de Sapatos.
 
