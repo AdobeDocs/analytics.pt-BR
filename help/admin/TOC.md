@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 99%
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
       + [Variáveis da Lista](admin/conversion-var-admin/list-var-admin.md)
    + [Códigos monetários](admin/currency.md)
-   + [Descrições personalizadas de relatórios](admin/custom-desc-admin.md)
+   + [Descrições do relatório personalizado](admin/custom-desc-admin.md)
    + [Personalizar calendário](admin/custom-calendar.md)
    + [Fontes de dados](admin/data-sources.md)
    + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Métodos de descoberta](admin/finding-methods.md)
-   + [Configurações gerais de conta](admin/general-acct-settings-admin.md)
+   + [Configurações gerais da conta](admin/general-acct-settings-admin.md)
    + [Gerenciamento de grupos](admin/group.md)
    + [Filtros internos do URL](admin/internal-url-filter-admin.md)
    + [Logs](admin/logs.md)
    + [Canais de marketing](admin/marketing-channels-admin.md)
-   + [Personalização de menu](admin/customize-menus.md)
+   + [Personalização do menu](admin/customize-menus.md)
    + [Visibilidade da métrica](admin/metric-visibility.md)
    + [Gerenciamento de aplicativos](admin/mobile-management.md)
    + Detecção de pesquisa paga {#paid-search-detection}
