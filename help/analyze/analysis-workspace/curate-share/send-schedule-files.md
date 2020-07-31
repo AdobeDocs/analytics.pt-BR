@@ -2,11 +2,11 @@
 description: É possível compartilhar e preparar projetos e enviar arquivos de projeto (em formatos PDF ou CSV) imediatamente ou de acordo com um agendamento.
 title: Menu Compartilhar
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
