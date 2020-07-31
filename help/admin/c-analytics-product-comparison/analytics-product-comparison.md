@@ -2,7 +2,7 @@
 description: Requisitos de sistema e comparação da Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder Data Warehouse e Data Workbench
 title: Comparação e requisitos de produtos do Analytics
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -17,7 +17,7 @@ Esta página contém uma comparação de vários produtos Adobe Analytics: Analy
 Para obter informações sobre qual produto Adobe Analytics usar, acesse [aqui](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 | Nome do produto e link de ajuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html) | [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|---|---|---|
 | **Método de acesso** | [Navegador](/help/admin/sys-reqs.md) | [Navegador](/help/admin/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configure pelo navegador. [Saiba mais](/help/admin/sys-reqs.md) | [Windows de 64 bits](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/install/c-data-workbench-client-install.html) | Configure pelo navegador. [Saiba mais](/help/export/analytics-data-feed/data-feed-overview.md) | Ferramentas RESTful API. Faça logon com as credenciais de E/S do Adobe. [Saiba mais](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularidade de dados** | Agregado | Agregado | Agregado | Agregado | Ocorrência | Ocorrência | Agregado |
 | **Experience Cloud ID (ECID) disponível** | Não | Não | Não | Sim | Sim | Sim | Não |
