@@ -2,16 +2,16 @@
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Menu de relatórios{#reports-menu}
+# Menu de relatórios {#reports-menu}
 
 Uma visão geral do menu Relatórios em Reports &amp; Analytics.
 
@@ -30,7 +30,7 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/c-variables.html).
+Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/overview.html).
 
 ## Pesquisar relatórios {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -64,7 +64,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Construtor de segmentos</a> e do <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Gerenciador de segmentos</a>. </td> 
+   <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Construtor de segmentos</a> e do <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Gerenciador de segmentos</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
