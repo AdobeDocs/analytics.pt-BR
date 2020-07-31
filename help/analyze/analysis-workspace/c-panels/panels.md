@@ -1,31 +1,31 @@
 ---
 description: 'null'
 title: Visão geral dos painéis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Visão geral dos painéis
 
-Um painel é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace. Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos de tempo, unidades comerciais, geografia etc. Esses seis tipos de painéis estão disponíveis na área de trabalho da Análise:
+Um painel é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace. Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos de tempo, unidades comerciais, geografia etc. Há três tipos de painéis disponíveis no Analysis Workspace:
 
 * [Painel em branco](blank-panel.md)
-* [Painel Quick Insights](quickinsight.md)
-* [Analytics para o painel](a4t-panel.md) Público alvo (em breve)
+* [Painel do Quick Insights](quickinsight.md)
+* [Painel Analytics for Target](a4t-panel.md) (em breve)
 * [Painel de atribuição](attribution.md)
 * [Painel de forma livre](freeform-panel.md)
-* [Painel Comparação de segmentos](c-segment-comparison/segment-comparison.md)
+* [Painel de comparação de segmentos](c-segment-comparison/segment-comparison.md)
 
-Insights rápidos, painéis em branco e de forma livre são excelentes locais para start de sua análise, enquanto o Analytics para Público alvo, QI de atribuição e Comparação de segmentos se prestam a análises mais avançadas. Um `"+"` botão está disponível em projetos para que você possa adicionar painéis em branco a qualquer momento.
+Insights rápidos, painéis em branco e de forma livre são excelentes locais para iniciar a análise, enquanto o Analytics for Target, Attribution IQ e Comparação de segmentos são para análises mais avançadas. Um botão `"+"` está disponível nos projetos para que você possa adicionar painéis em branco a qualquer momento.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+O painel inicial padrão é o Painel de forma livre, mas também é possível definir o [Painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) como o padrão.
 
-## Filtros suspensos em painéis   {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtros suspensos em painéis {#section_D2828EEDD52944528E87F470EAB581CF}
 
 A área de soltar do painel agora tem recursos suspensos de filtragem. Esses filtros permitem interagir com os dados do projeto de forma controlada para fazer análises mais detalhadas, simplificar seus projetos e/ou compartilhar insights com outras pessoas.
 
