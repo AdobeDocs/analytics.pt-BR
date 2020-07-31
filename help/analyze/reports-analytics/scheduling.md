@@ -4,9 +4,9 @@ subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1661'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 | Agendar para mais tarde | Exibe opções para especificar um período de tempo e opções de entrega. |
 | Intervalo de tempo dos relatórios | **Fixo**: impede que a data avance com o passar do tempo. **Em andamento**: permite que a data avance com o passar do tempo. Algumas considerações:<ul><li>Se você selecionar Em andamento para as datas de início e fim, e selecionar um relatório diário para o dia anterior, você receberá um email diariamente com um relatório do dia anterior.</li><li>Se você selecionar Fixo como data de início e Em andamento como data de término, você receberá no primeiro dia um relatório do dia anterior. O segundo dia você receberá um relatório dos dois dias anteriores, no terceiro dia você receberá um relatório dos últimos três dias, e assim por diante.</li><li>Se você selecionar Fixo como datas de início e término, cada dia você receberá um relatório idêntico dos dias especificados.</li><li>Você não pode selecionar uma data de início em andamento e uma data de término fixa.</li></ul> |
 | Frequência de entrega | <ul><li>**Por hora**: envia um email a cada hora, ou qualquer outro intervalo de horas.</li><li>**Diariamente**: envia um email todos os dias, em dias alternados, a cada três dias, ou qualquer outro intervalo de dias. Você também pode enviá-lo a cada dia da semana.</li><li>**Semanalmente**: envia o email toda semana, a cada duas semanas, a cada três semanas, ou qualquer outro intervalo de semanas. Você também pode especificar em qual dia da semana ele é enviado.</li><li>**Mensalmente**: especifica o intervalo em número de meses, e você também pode selecionar o dia do mês em que será enviado, ou o dia da semana em uma semana específica do mês.</li><li>**Anualmente**: especifica o dia do ano em que o relatório é enviado, ou você pode enviar em um dia específico da semana em qualquer semana do ano.</li><li>**Hora do dia**: aplica-se ao fuso horário anexado ao conjunto de relatórios selecionado.</li></ul> |
-| Opções de finalização de entrega | <ul><li>**Nunca finalizar**: sem prazo final.</li><li>**Terminar após`value`ocorrências**: especifica o número de ocorrências antes de terminar a entrega.</li><li>**Finalizar em**: permite especificar uma data específica. Se você desejar processar os dados na mesma data dos dados do relatório, o relatório conterá somente os dados que foram inseridos no banco de dados do no momento em que o relatório for enviado. Como o processamento completo para um dia pode demorar até 24 horas, os dados completos podem não estar disponíveis no momento em que o relatório é enviado. Para obter os dados completos, sempre defina o tempo de processamento durante 24 horas após o término do período do relatório.</li></ul> |
+| Opções de finalização de entrega | <ul><li>**Nunca finalizar**: sem prazo final.</li><li>**Terminar após `value` ocorrências**: especifica o número de ocorrências antes de terminar a entrega.</li><li>**Finalizar em**: permite especificar uma data específica. Se você desejar processar os dados na mesma data dos dados do relatório, o relatório conterá somente os dados que foram inseridos no banco de dados do no momento em que o relatório for enviado. Como o processamento completo para um dia pode demorar até 24 horas, os dados completos podem não estar disponíveis no momento em que o relatório é enviado. Para obter os dados completos, sempre defina o tempo de processamento durante 24 horas após o término do período do relatório.</li></ul> |
 
 ## Imprimir um relatório {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
