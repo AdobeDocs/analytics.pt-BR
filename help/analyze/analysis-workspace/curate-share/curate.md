@@ -2,9 +2,9 @@
 description: A preparação permite limitar os componentes antes de compartilhar um projeto.
 keywords: Analysis Workspace curation
 title: Preparar projetos do Workspace
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Quando um recipient abrir um projeto preparado, ele verá apenas o conjunto prep
 ## Remover preparação do projeto
 
 Para remover a preparação do projeto e restaurar o conjunto completo de componentes no painel esquerdo:
+
 1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
 1. Clique em **[!UICONTROL Remover preparação]**
 1. Clique em **[!UICONTROL Concluído]**.
