@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,8 +33,8 @@ Novos recursos lançados em 18 de junho de 2020.
 | Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como “Pode visualizar”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Capacidade de co-editar projetos do Workspace | Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
-| Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Painel do Público alvo Analytics para o Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Painel Quick Insights (25 de junho de 2020) | O painel do Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Sobre a página do Workspace | A página Sobre o Workspace fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Adobe Analytics (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ela pode ser encontrado em Workspace > Ajuda > Sobre o Workspace. |
 
 ## Maio de 2020
@@ -43,7 +43,7 @@ Novos recursos lançados em 21 de maio de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Criar tabelas de forma livre automaticamente a partir de um estado em branco | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma Tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma Tabela de forma livre será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (como dimensões e métricas) são tratados quando colocados em uma tabela de forma livre em branco. |
+| Criar automaticamente tabelas de forma livre de um estado em branco | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma Tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma Tabela de forma livre será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (como dimensões e métricas) são tratados quando colocados em uma tabela de forma livre em branco. |
 | Melhorias de acessibilidade | A equipe do Adobe Analytics fez várias melhorias de acessibilidade no Analysis Workspace, incluindo a navegação aprimorada do teclado, o contraste de cores e o suporte ao leitor de tela. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## Abril de 2020
@@ -52,7 +52,7 @@ Novo recurso lançado em 16 de abril de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma tabela de forma livre será criada automaticamente em um formato recomendado. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| Criar automaticamente [!UICONTROL tabelas de forma livre] de um estado em branco | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma tabela de forma livre será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (por exemplo, dimensões e métricas) são tratados quando colocados em uma [!UICONTROL tabela de forma livre] em branco. |
 
 ## Março de 2020
 
@@ -261,7 +261,7 @@ Novos recursos e melhorias lançados em 19 de julho de 2018.
    <td colname="col2"> <p>Quando possível, agora exibimos os totais das métricas calculadas, inclusive de porcentagens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nova predefinição de <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >intervalo de datas</a></b> </p> </td> 
+   <td colname="col1"> <p><b>Nova  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > predefinição de </a>intervalo de datas </b> </p> </td> 
    <td colname="col2"> <p>Adicionado 'Últimas 13 semanas completas' às predefinições de intervalo de datas no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -883,7 +883,7 @@ Novo recurso lançado em 19 de janeiro de 2017:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Compartilhar os componentes do projeto automaticamente</a> </p> </td> 
-   <td colname="col2"> <p>Agora há a opção de compartilhar componentes do projeto automaticamente (segmentos, métricas calculadas e intervalos de datas) com todos os destinatários. Após compartilhados, esses componentes aparecem no menu suspenso de componentes do Workspace do destinatário. </p> </td> 
+   <td colname="col2"> <p>Agora há a opção de compartilhar componentes do projeto automaticamente (segmentos, métricas calculadas e intervalos de datas) com todos os destinatários. Após compartilhados, esses componentes aparecem no menu suspenso de componentes do Workspace do recipient. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualização do fallout no formato CSV </p> </td> 
@@ -1143,7 +1143,7 @@ O botão **[!UICONTROL Adicionar novo segmento]** foi adicionado ao local para o
 
 Este aprimoramento será útil caso queira criar segmentos ao trabalhar em um projeto, e não por meio do painel [!UICONTROL Segmentos].
 
-## Formatação condicional   {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formatação condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Nas Configurações de coluna, é possível aplicar formatação condicional a dados de célula.
 
@@ -1183,7 +1183,7 @@ No painel do componente [!UICONTROL Dimensões], é possível passar o mouse sob
 
 ![](assets/dimension-preview.png)
 
-## Legenda visível   {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legenda visível {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 Nas [!UICONTROL Configurações de visualização], a opção **[!UICONTROL Legenda visível]** mostra ou oculta a legenda da visualização.
 
