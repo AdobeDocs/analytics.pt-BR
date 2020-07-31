@@ -4,9 +4,9 @@ subtopic: Bot rules
 title: Visão geral das regras de bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
 ht-degree: 100%
 
