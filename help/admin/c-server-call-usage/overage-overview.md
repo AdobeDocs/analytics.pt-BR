@@ -2,9 +2,9 @@
 description: 'null'
 title: Visão geral do uso de chamadas do servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Dentre as principais vantagens do Uso de chamadas do servidor, encontram-se:
 * **Visibilidade** para seus dados de consumo e de compromisso de chamadas do servidor, incluindo consumo móvel de acordo com seu limite contratual de uso de chamadas do servidor.
 * **Alertas** para notificá-lo sobre o risco ou a ocorrência de um excedente e prepará-lo para executar uma ação no caso de possíveis excedentes incorrentes.
 
-Anteriormente, apesar de poder acessar dados mensais de consumo de chamadas do servidor em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Faturamento]**, esses dados eram atualizados somente seis dias depois do fechamento do faturamento do mês. Além disso, os dados não incluíam consumo móvel. Esse recurso substituirá o relatório **[!UICONTROL Informações de faturamento]** atual em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** .
+Anteriormente, apesar de poder acessar dados mensais de consumo de chamadas do servidor em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Faturamento]**, esses dados eram atualizados somente seis dias depois do fechamento do faturamento do mês. Além disso, os dados não incluíam consumo móvel. Esse recurso substituirá o relatório **[!UICONTROL Informações de faturamento]** atual em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**.
 
 ## Pré-requisitos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
