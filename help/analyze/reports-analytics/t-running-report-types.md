@@ -3,9 +3,9 @@ description: Etapas para executar os diferentes tipos de relatório.
 title: Executar tipos de relatórios diferentes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Para executar esse relatório, selecione um relatório, como o relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Código de rastreamento]** > **[!UICONTROL Funil de conversão de campanha]**).
 
-Consulte [Relatórios de conversão](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-conversion.html) para uma descrição.
+Consulte [Relatórios de conversão](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/evar.html) para uma descrição.
 
 ## Executar um relatório de fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Dê uma olhada no novo painel [Análise de fallout](https://docs.adobe.com/conte
 
 >[!MORELIKETHIS]
 >
->* [Descrição do relatório de fallout](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Descrição do relatório de fallout](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
 
 
 ## Executar um relatório de fluxo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ Relatórios de fluxo de página exibem a ordem na qual seus visitantes acessam a
 
 Dê uma olhada na nova [Visualização de fluxo](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
 
-Execute um relatório [Caminhos](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-paths.html).
+Execute um relatório [Caminhos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
 
 Por exemplo, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fluxo da próxima página]**.
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Produtos]** > [Funil de conversão de produtos](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Produtos]** > [Funil de conversão de produtos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -149,7 +149,7 @@ t_anomaly_view.xml
 
 Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) na Analysis Workspace!
 
-**[!UICONTROL Relatórios]** > **[!UICONTROL Métricas do site]** > **[!UICONTROL Detecção de anomalias]** .
+**[!UICONTROL Relatórios]** > **[!UICONTROL Métricas do site]** > **[!UICONTROL Detecção de anomalias]**.
 
 >[!NOTE]
 >
@@ -216,7 +216,7 @@ t_anomaly_config.xml
 
 Você configura uma Detecção de anomalias independentemente para cada conjunto de relatórios.
 
-1. Navegue até **[!UICONTROL Análises > Relatórios > Métricas do site > Detecção de anomalias]** .
+1. Navegue até **[!UICONTROL Análises > Relatórios > Métricas do site > Detecção de anomalias]**.
 1. Selecione o conjunto de relatórios para o qual você deseja rastrear a detecção diária de anomalias. Para exibir uma lista de conjuntos de relatórios, clique no menu suspenso do seletor do Conjunto de relatórios.
 1. Para selecionar as métricas e/ou definir as métricas filtradas, clique em **[!UICONTROL Editar métricas]** na parte superior direta da tela:  ![](assets/metrics_icon.png).
 
