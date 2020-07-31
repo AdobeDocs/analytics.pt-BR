@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # Visão geral do painel de comparação de segmentos
 
-O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../segment-iq.md) que descobre as diferenças estatisticamente mais significativas entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja o nível de sobreposição entre quaisquer segmentos.
+O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../segment-iq.md) que descobre as diferenças estatisticamente mais significativas entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja o nível de sobreposição entre quaisquer segmentos.
 
 ## Criação de um painel de comparação de segmentos
 
@@ -89,7 +89,7 @@ Essa visualização é semelhante às tabelas de forma livre no Analysis Workspa
 
 ![Linha de métricas principais](assets/linked-viz.png)
 
-### Dimensões principais
+### Principais dimensões
 
 Mostra os itens de dimensão mais significativos estatisticamente em todas as suas dimensões. Cada linha mostra a porcentagem de cada segmento que exibe este item de dimensão. Por exemplo, essa tabela pode revelar que 100% dos visitantes do “Segmento A” tinham o item de dimensão “Tipo de navegador: Google”, enquanto apenas 19,6% do “Segmento B” tinha esse item de dimensão. Se a pontuação de diferenças for 1, há significância estatística. Se for 0, não há significância estatística.
 
@@ -97,7 +97,7 @@ Essa visualização é semelhante às tabelas de forma livre no Analysis Workspa
 
 >[!NOTE]
 >
->Os itens de dimensão adicionados a esta tabela após a conclusão da comparação de segmentos não recebem uma Pontuação de diferença.
+>Os itens de Dimension adicionados a esta tabela após a conclusão da comparação de segmentos não recebem uma Pontuação de diferença.
 
 ![Principais dimensões](assets/top-dimension-item1.png)
 
