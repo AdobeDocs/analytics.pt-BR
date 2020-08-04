@@ -2,8 +2,11 @@
 description: 'null'
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Não há limite de número de etapas que você pode adicionar ou do número de d
 
 Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
-1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Freeform Table].
+1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Tabela de forma livre].
 
-1. Arraste a Dimensão de página à Tabela de forma livre e arraste uma página de lá (neste caso, Início - JJEsquire) para o campo **[!UICONTROL Add TouchPoint]** como o primeiro ponto de contato.
+1. Arraste a dimensão de Página à Tabela de forma livre e arraste uma página de lá (neste caso, Início - JJEsquire) para o campo **[!UICONTROL Adicionar ponto de contato]** como o primeiro ponto de contato.
 
    ![](assets/fallout1.png)
 
@@ -62,7 +65,6 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
 | Configuração | Descrição |
 |--- |--- |
 | Contêiner de fallout <ul><li>Visita</li><li>Visitante.</li></ul> | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante.  Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
-| Mostrar “Todos os visitantes” como primeiro ponto de contato | Você pode desmarcar isso se não quiser ter “Todos os visitantes” como primeiro ponto de contato. |
 
 Quando você **clicar com o botão direito em um ponto de contato**, as seguintes opções são exibidas:
 
