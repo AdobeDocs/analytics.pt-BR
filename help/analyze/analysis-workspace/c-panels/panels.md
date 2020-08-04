@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: Visão geral dos painéis
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Um painel é uma coleção de tabelas e visualizações. Você pode acessar pain
 
 * [Painel em branco](blank-panel.md)
 * [Painel do Quick Insights](quickinsight.md)
-* [Painel Analytics for Target](a4t-panel.md) (em breve)
+* [Painel do Analytics for Target](a4t-panel.md)
 * [Painel de atribuição](attribution.md)
 * [Painel de forma livre](freeform-panel.md)
 * [Painel de comparação de segmentos](c-segment-comparison/segment-comparison.md)
