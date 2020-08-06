@@ -3,7 +3,7 @@ description: Variáveis dos relatórios de privacidade na Privacidade de dados.
 title: Variáveis dos relatórios de privacidade
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
 1. Clique no botão **[!UICONTROL Ativar relatórios de privacidade de dados]**.
 
-   >[!NOTE] Após ativadas, essas variáveis não podem ser desativadas.
+   >[!NOTE]
+   >
+   >Após ativadas, essas variáveis não podem ser desativadas.
 
    ![](assets/rsm-privacy-enable.png)
 
