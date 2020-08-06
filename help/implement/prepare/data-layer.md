@@ -2,7 +2,7 @@
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -23,10 +23,13 @@ Uma camada de dados é uma estrutura de objetos JavaScript no site que contém t
 A implementação do Adobe Analytics usando uma camada de dados geralmente segue estas etapas:
 
 1. **Trabalhar com a equipe de desenvolvimento do site para implementar uma camada de dados**: a equipe de desenvolvimento do site é responsável principalmente por garantir que o objeto da camada de dados seja preenchido com valores corretos. Consulte esta página com a equipe de desenvolvimento do site para garantir que as expectativas estejam alinhadas entre as equipes.
-   >[!NOTE] As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
-2. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
-3. **Usar o Adobe Experience Platform Launch para mapear objetos de camada de dados a elementos de dados do Launch**: crie elementos de dados no Launch e mapeie-os para os atributos JavaScript descritos na camada de dados.
-4. **Usar a extensão Adobe Analytics no Launch para mapear elementos de dados a variáveis do Analytics**: após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
+
+   >[!NOTE]
+   >
+   >As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
+1. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
+1. **Usar o Adobe Experience Platform Launch para mapear objetos de camada de dados a elementos de dados do Launch**: crie elementos de dados no Launch e mapeie-os para os atributos JavaScript descritos na camada de dados.
+1. **Usar a extensão Adobe Analytics no Launch para mapear elementos de dados a variáveis do Analytics**: após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
 
 ## Especificações
 
