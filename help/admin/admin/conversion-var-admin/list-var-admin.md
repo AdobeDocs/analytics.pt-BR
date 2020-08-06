@@ -2,7 +2,7 @@
 title: Variáveis da Lista
 description: Crie e configure variáveis de lista para usar em relatórios.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
@@ -23,7 +23,9 @@ Você pode acessar a configuração no Admin Console:
 * **Nome**: cada valor delimitado pode conter um máximo de 255 caracteres (ou menos se estiver usando caracteres multibyte). Esse é o comprimento máximo para cada elemento.
 * **Delimitador de valor**: O caractere usado para separar valores na List Var. Com maior frequência, são caracteres como vírgulas, dois pontos, barras verticais, ou algo parecido.
 
-   >[!NOTE] Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
+   >[!NOTE]
+   >
+   >Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
 
 * **Expiração**: Parecida com a expiração de eVar, determina a quantidade de tempo que pode ocorrer entre a List Var e o evento de conversão para que sejam relacionados.
    * **Em uma exibição de página ou nível de visita**: Eventos bem-sucedidos além de exibição de página ou visita não vinculariam a qualquer valor na List Var.
