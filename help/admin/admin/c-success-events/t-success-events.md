@@ -3,9 +3,9 @@ description: Etapas que descrevem como configurar eventos bem-sucedidos.
 title: Configurar os eventos bem-sucedidos
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ Etapas que descrevem como configurar eventos bem-sucedidos.
 1. Na coluna **[!UICONTROL Nome]**, marque a caixa de seleção ao lado de cada item para ativar a edição e, em seguida, especifique o nome desejado.
 1. Na coluna **[!UICONTROL Tipo]**, marque a caixa de seleção ao lado de cada item para ativar a lista suspensa e, em seguida, selecione o tipo desejado.
 
-   >[!NOTE] Antes de alterar um tipo de evento, consulte [Alterar tipo de evento](/help/admin/admin/c-success-events/event-type.md).
+   >[!NOTE]
+   >
+   >Antes de alterar um tipo de evento, consulte [Alterar tipo de evento](/help/admin/admin/c-success-events/event-type.md).
 
    Consulte [Página de eventos bem-sucedidos - Descrições](/help/admin/admin/c-success-events/success-event.md) para obter mais informações sobre esses elementos.
 
@@ -37,7 +39,9 @@ Etapas que descrevem como configurar eventos bem-sucedidos.
 1. Verifique se o evento sempre deve ser gravado.
 1. Ative ou desative as métricas de participação.
 
-   >[!NOTE] Você pode ativar a participação de até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
+   >[!NOTE]
+   >
+   >Você pode ativar a participação de até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Clique em **[!UICONTROL Salvar]**.
 
