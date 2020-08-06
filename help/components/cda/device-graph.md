@@ -2,7 +2,7 @@
 title: Gráfico de dispositivos
 description: Entenda os pré-requisitos e as limitações da sutura de dados usando o gráfico de dispositivos.
 translation-type: tm+mt
-source-git-commit: eb2bee26dd58dcff13b4ddf41c6f6ab337d8d374
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 41%
@@ -12,20 +12,22 @@ ht-degree: 41%
 
 # Gráfico de dispositivos
 
-O Analytics entre dispositivos fornece dois métodos distintos para unir dados. Esse método usa o Gráfico cooperativo do Serviço de identidade do Adobe Experience Platform ou o Gráfico privado para unir dados. O CDA se comunica regularmente com o gráfico do dispositivo para vincular dispositivos.
+O Analytics entre dispositivos fornece dois métodos distintos para unir dados. Este método usa o Gráfico cooperativo do Adobe Experience Platform Identity Service ou o Gráfico privado para unir dados. O CDA se comunica regularmente com o gráfico do dispositivo para vincular dispositivos.
 
 ## Diferenças entre o gráfico cooperativo e o gráfico privado
 
-A Adobe oferta dois tipos de gráficos de dispositivos como parte do serviço de ID:
+Adobe oferta dois tipos de gráficos de dispositivos como parte do serviço de ID:
 
 * **Gráfico** cooperativo: Um repositório de IDs de dispositivos com hash que qualquer cliente pode contribuir e fazer referência. Como esse tipo de gráfico de dispositivo é colaborativo, geralmente corresponde a mais dispositivos do que um gráfico privado.
 * **Gráfico** privado: Um repositório de IDs de dispositivo com hash que somente a sua organização faz referência.
 
 ## Pré-requisitos específicos do gráfico de dispositivos
 
-Se você pretende implementar o Analytics entre dispositivos usando o método de gráfico de dispositivos, as seguintes opções são obrigatórias. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
+Se você pretende implementar o Cross-Device Analytics usando o método de gráfico de dispositivo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
 
->[!IMPORTANT] O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
+>[!IMPORTANT]
+>
+>O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Todos os pré-requisitos listados na página [de](overview.md)visão geral.
 * Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html) no guia do usuário do cooperativo do dispositivo.
