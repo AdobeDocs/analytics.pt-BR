@@ -2,7 +2,7 @@
 title: Visão geral da implementação do JavaScript do Código H
 description: Saiba mais sobre o fluxo de trabalho para implementar o Código H no site.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -25,12 +25,14 @@ ht-degree: 100%
 1. **Atualizar variáveis do arquivo JS principal**: edite o arquivo `s_code.js` e verifique se as seguintes variáveis foram atualizadas:
    * `s_account` contém a ID do conjunto de relatórios para a qual você deseja enviar dados. Consulte
    * `s.trackingServer` contém os cookies de localização armazenados. Consulte [trackingServer](../../vars/config-vars/trackingserver.md).
-2. **Hospede o arquivo`s_code.js`no site**: geralmente, esse arquivo reside em outros scripts no servidor da Web.
-3. **Referência`s_code.js`em todas as páginas**: verifique se todas as páginas individuais chamam o arquivo JavaScript principal, e faça isso dentro da tag HTML `<body>` (não na tag `<head>`).
+1. **Hospede o arquivo`s_code.js`no site**: geralmente, esse arquivo reside em outros scripts no servidor da Web.
+1. **Referência`s_code.js`em todas as páginas**: verifique se todas as páginas individuais chamam o arquivo JavaScript principal, e faça isso dentro da tag HTML `<body>` (não na tag `<head>`).
 
-   >[!TIP] O código H exige que o script `s_code.js` seja chamado dentro da tag `<body>`. Isso é diferente de outros métodos de implementação, a maioria dos quais requer referências de script na tag `<head>`.
-4. **Definir variáveis específicas da página em cada página**: cada página deve ter variáveis individuais definidas, como nome de página ou eVars. As variáveis individuais geralmente são definidas com uma tag `<script>` em linha em cada página.
-5. **Usar o depurador para verificar a coleta de dados**: baixe e instale o [Experience Cloud Debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para a Adobe e que as variáveis de página sejam definidas corretamente.
+   >[!TIP]
+   >
+   > O código H exige que o script `s_code.js` seja chamado dentro da tag `<body>`. Isso é diferente de outros métodos de implementação, a maioria dos quais requer referências de script na tag `<head>`.
+1. **Definir variáveis específicas da página em cada página**: cada página deve ter variáveis individuais definidas, como nome de página ou eVars. As variáveis individuais geralmente são definidas com uma tag `<script>` em linha em cada página.
+1. **Usar o depurador para verificar a coleta de dados**: baixe e instale o [Experience Cloud Debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para a Adobe e que as variáveis de página sejam definidas corretamente.
 
 ## Armazenamento em cache
 
