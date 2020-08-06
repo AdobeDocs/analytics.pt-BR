@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 100%
@@ -70,7 +70,10 @@ O método `getTimeBetweenEvents` aceita os seguintes argumentos:
 * **`rt`** (obrigatório, booleano): reinicie a opção de cronômetro. Defina como `true` se você deseja reiniciar o cronômetro toda vez que a variável `events` contiver um evento de início de cronômetro. Defina como `false` se não quiser que o cronômetro seja reiniciado quando detectar um evento de início de cronômetro.
 * **`stp`** (obrigatório, string): eventos de parada de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;Parar o cronômetro&quot;.
 * **`res`** (obrigatório, booleano): opção para reiniciar o cronômetro. Defina para `true` se quiser gravar o tempo corrido pelo cronômetro e reiniciá-lo depois que ele parar. Defina como `false` se você deseja gravar a hora, mas não deseja parar o cronômetro. Se estiver definido como `false`, o cronômetro continua sendo executado depois que a variável de eventos registra um evento stop.
-   >[!TIP] Se você definir esse argumento como `false`, é altamente recomendável configurar o argumento `rte` abaixo.
+
+   >[!TIP]
+   >
+   >Se você definir esse argumento como `false`, é altamente recomendável configurar o argumento `rte` abaixo.
 * **`cn`** (opcional, string): o nome do cookie no qual a hora do primeiro evento é armazenada. O padrão é `"s_tbe"`.
 * **`etd`** (opcional, número inteiro): a expiração do cookie em dias. Defina como `0` para que expire no final da sessão do navegador. O padrão é 1 dia quando não está definido.
 * **`fmt`** (opcional, string): o formato de tempo em que o número de segundos é retornado (o padrão é não ter valor)
