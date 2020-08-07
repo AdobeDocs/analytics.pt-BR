@@ -2,7 +2,7 @@
 title: Modelo do CDA Workspace
 description: Descreve cada campo no modelo CDA dentro do Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ A Adobe oferece um modelo para ver dados essenciais de desempenho entre disposit
 
 É criado um projeto do Analysis Workspace com vários painéis. Na parte superior, um índice e uma introdução são mostrados, permitindo o contexto do relatório e a navegação para relatórios individuais. Clique em um link dentro do índice ou expanda a tabela de um painel para visualizar esses relatórios.
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **Nota especial para os membros do Gráfico de cooperação**: mostra qual parte do conjunto de relatórios contém visitantes em regiões onde o gráfico cooperativo é aceito e em regiões onde ele não é aceito.
 * **Identificação de usuários**: mostra a frequência com que os visitantes do site são identificados usando métodos com base na Análise entre dispositivos.
