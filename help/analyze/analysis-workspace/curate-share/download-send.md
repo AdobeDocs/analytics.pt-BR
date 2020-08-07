@@ -2,10 +2,10 @@
 description: É possível baixar projetos salvos ou não salvos em formatos PDF e CSV.
 title: Baixar arquivos PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ Desde 11 de abril de 2019, várias alterações foram feitas aos **[!UICONTROL 
 * Se um número for inválido, é exibida uma célula vazia.
 * Nenhum arredondamento é aplicado (mesmo se especificado na métrica calculada). Os valores brutos são mostrados.
 
->[!NObservação:]
+>[!NOTE]
 >
-> os valores numéricos que usam vírgula como separador decimal continuarão a ser incluídos entre aspas no CSV exportado.
+>os valores numéricos que usam vírgula como separador decimal continuarão a ser incluídos entre aspas no CSV exportado.
