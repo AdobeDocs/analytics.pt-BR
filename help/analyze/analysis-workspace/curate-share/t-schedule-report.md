@@ -1,28 +1,60 @@
 ---
-description: Envie um projeto do Analysis Workspace por email ou agende o seu envio.
+description: Envie um projeto da Analysis Workspace por email ou agende-o para delivery.
 keywords: Analysis Workspace
-title: Envio de arquivo - agendamento do envio de um projeto
+title: Projetos agendados
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 8%
 
 ---
 
 
-# Envio de arquivo - agendamento do envio de um projeto
+# Projetos agendados
 
-Envie um projeto do Analysis Workspace por email ou agende o seu envio.
+No menu **** Compartilhamento de espaço de trabalho, você pode enviar projetos da Analysis Workspace por email para recipient selecionados. Os arquivos podem ser enviados no formato CSV ou PDF.
 
-1. [Crie um projeto do Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) e salve-o.
-1. Clique em **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
+## Enviar arquivo agora
 
-   ![Resultado da etapa](assets/send-file.png)
+Para enviar um arquivo imediatamente aos recipient por email:
 
-1. On the [!UICONTROL Send File] page, specify the file type (CSV or PDF).
+1. Click **Share > Send File Now**.
+1. Especifique o tipo de arquivo (CSV ou PDF).
+1. (Opcional) Adicione uma descrição que será incluída no email para explicar o arquivo que está sendo recebido.
+1. Adicione recipient ou grupos. Endereços de email também podem ser inseridos.
+1. Clique em **Enviar agora**.
+1. (Opcional) Clique em **Mostrar opções** de agendamento para especificar um agendamento de delivery.
 
-   ![Resultado da etapa](assets/send-file-pop-up.png)
+## Enviar arquivo agendado
 
-1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
-1. (Opcional) Clique em **[!UICONTROL Show Scheduling Options]** para especificar um agendamento de delivery e, em seguida, clique em **[!UICONTROL Send on Schedule]**.
-1. Manage scheduled projects in **[!UICONTROL Components]** > [Scheduled Projects](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
+Para enviar um arquivo de acordo com uma programação recorrente para recipient por email:
+
+1. Click **Share > Send File on Schedule**.
+1. Especifique o tipo de arquivo (CSV ou PDF).
+1. (Opcional) Adicione uma descrição que será incluída no email para explicar o arquivo que está sendo recebido.
+1. Adicione recipient ou grupos. Endereços de email também podem ser inseridos.
+1. Especifique o intervalo no qual o agendamento deve ser entregue modificando Iniciando e Finalizando em entradas. A data de término deve estar dentro de um ano a partir do dia em que a programação for criada ou modificada.
+1. Especifique a frequência do delivery. Cada frequência permite personalizações diferentes.
+1. Clique em **Enviar de acordo com a programação**.
+
+## Gerenciador de projetos agendados
+
+Os projetos agendados da Analysis Workspace podem ser gerenciados em **Analytics > Componentes > Projetos** agendados.
+
+No Gerenciador de projetos agendados, é possível editar e excluir agendamentos de projetos recorrentes. Procure um agendamento na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por tag, programação aprovada, proprietários e muito mais.
+
+As ações a seguir são comuns no Gerenciador de projetos agendados:
+
+| Ação | Descrição |
+|---|---|
+| **Editar agendamento** | Clique no título do agendamento para atualizar suas configurações de delivery. |
+| **Excluir agendamento** | Selecione o projeto agendado na lista e clique em Excluir no menu. Isto eliminará o calendário selecionado para o projeto; o projeto em si não será excluído. |
+| **Adicionar tags** | Selecione o projeto agendado na lista e escolha &quot;Tag&quot; ou &quot;Aprovar&quot; para organizar seus agendamentos e facilitar a pesquisa. |
+| **programações com falha de visualização** | Navegue até o painel esquerdo > Outros filtros > Falha ao visualizar programações que falharam. |
+| **Visualização de agendamentos expirados** | Navegue até o painel esquerdo > Outros filtros > Expirado para ver as programações que expiraram. Clique no título do agendamento para configurar um novo agendamento de entrega. |
+| **ID de agendamento de visualização** | Navegue até as opções de coluna na parte superior direita e adicione a coluna ID da programação à tabela. A ID agendada geralmente é útil para depuração. |
+
+O Gerenciador de agendamento de projetos mostra os itens criados por um usuário específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas. A propriedade do projeto agendado pode ser **transferida** para um novo usuário em **Admin > Usuários e ativos do Analytics > Transferir ativos**.
