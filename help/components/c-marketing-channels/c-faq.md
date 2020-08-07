@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre Canais de marketing
 description: Perguntas frequentes sobre canais de marketing.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 49%
+source-wordcount: '1465'
+ht-degree: 52%
 
 ---
 
@@ -75,7 +75,7 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 ## Motivos para Interno (Atualização da Sessão) {#internal}
 
-A Atualização da sessão de último toque só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relacionamento entre o Primeiro e o Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro toque.
+Interno de último toque (Atualização da sessão) só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relação entre Primeiro e Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro toque.
 
 * **Tempo limite** da sessão: Um visitante acessa o site e deixa a guia aberta em seu navegador para ser usada em uma data posterior. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e usam a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
@@ -85,9 +85,15 @@ A Atualização da sessão de último toque só pode ocorrer se também tiver si
 
 * **Tráfego** entre domínios: Um visitante é movido de um domínio que é acionado para o Suite A, para um segundo domínio que é acionado para o Suite B. Se no Suite B, os filtros internos de URL incluírem o primeiro domínio, a visita no Suite B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
 
-( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
+* **Longo tempo** de carregamento de entrada de página: Um visitante chega na página A, que tem muito conteúdo, e o código Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
 
 * **Limpando cookies no meio do site**: Um visitante chega ao site, e a meia-sessão apaga seus cookies. Os canais Primeiro e Último toque seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
+
+Abaixo está um exemplo de Internal (Atualização de sessão) sendo definido como canais de primeiro e último toque:
+
+* Dia 1: o usuário acessa o site em Exibir. Os canais de primeiro e último toque serão definidos como Exibir.
+* Dia 2: o usuário acessa o site em Pesquisa natural. O primeiro toque permanece como Exibir e o Último toque é definido como Pesquisa natural.
+* Dia 35: o usuário não visitou o site há 33 dias e retorna usando a guia que havia aberto em seu navegador. Presumindo uma janela de envolvimento de 30 dias, a janela teria fechado e os cookies do Canal de marketing estariam expirados. O canal de primeiro e último toque será redefinido e definido como Atualização da sessão desde que o usuário tenha vindo de um URL interno.
 
 ## Por que alguns canais permanecem inalterados após alterar as regras de processamento do canal de Marketing?
 
