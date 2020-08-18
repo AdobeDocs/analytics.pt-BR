@@ -1,35 +1,35 @@
 ---
 title: Referenciador
-description: O URL no qual um visitante estava antes de clicar até o site.
+description: O URL no qual um visitante estava antes de clicar para acessar seu site.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '438'
+ht-degree: 49%
 
 ---
 
 
 # Referenciador
 
-A dimensão &quot;Quem indicou&quot; relata quais URLs os visitantes estavam ativados ao clicar para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
+A dimensão &quot;Referenciador&quot; informa em quais URLs os visitantes estavam quando clicaram para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >
->Você deve configurar os filtros [de URL](/help/admin/admin/internal-url-filter-admin.md) internos do conjunto de relatórios para usar essa dimensão. A falha ao configurar filtros internos de URL pode incluir URLs internos ou impedir que URLs externos apareçam.
+>Você deve configurar os [filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
-O mesmo relatório pode mostrar resultados diferentes entre Analysis Workspace e Data warehouse. Analysis Workspace relata a quem indicou de cada página individual, excluindo valores que correspondem a filtros internos de URL. A Data warehouse relata somente a primeira quem indicou da visita e ignora filtros internos de URL.
+O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e a Data Warehouse. A Analysis Workspace relata a quem indicou de cada página individual, excluindo valores que correspondem a filtros internos de URL. A Data Warehouse relata somente a primeira quem indicou da visita e ignora filtros internos de URL.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão requer configuração na interface do Analytics e dados em solicitações de imagem.
+Essa dimensão precisa ser configurada na interface do Analytics e os dados em solicitações de imagem.
 
-* Em sua implementação, essa dimensão recupera dados da sequência de caracteres [`r` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você usar uma biblioteca do AppMeasurement (por exemplo, pelo Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `r` query em solicitações de imagem.
-* Na interface do Analytics, você deve configurar os filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos do conjunto de relatórios. A falha ao configurar filtros internos de URL pode incluir URLs internos ou impedir que URLs externos apareçam.
+* Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
+* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
 ## itens de Dimension
 
-Os itens de Dimension incluem URLs nos quais os visitantes clicam até o site. Se uma ocorrência não tiver dados de quem indicou, ela será agrupada no item de dimensão `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador.
+Os itens de Dimension incluem URLs nos quais os visitantes clicam até o site. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador. O item de `"Typed/Bookmarked"` dimensão também aparece para redirecionamentos que não acomodam o Analytics. Consulte [Redirecionamentos e aliases](/help/technotes/redirects.md) no guia do usuário do Technotes.
 
 ### itens Dimension que contenham `googleusercontent.com`
 
