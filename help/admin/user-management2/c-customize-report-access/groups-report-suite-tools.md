@@ -6,7 +6,7 @@ title: Personalizar ferramentas do Conjunto de relatórios
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 93%
@@ -60,7 +60,7 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Classificações de conversão](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
 | [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Concede permissão para especificar a variável Visitante único. |
 | [Eventos bem-sucedidos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) | Ações que podem ser rastreadas, como exibição do produto, check-out e compra. |
-| [Hierarquias de classificação](/help/components/classifications/classification-hierarchies.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
+| [Hierarquias de classificação](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Consolidado em Classificações (em Ferramentas e Relatórios). |
 | [Variáveis de lista ](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) | Também conhecidas como List Var. Semelhante ao modo de funcionamento de Propriedades de lista, a List Vars permite vários valores na mesma solicitação de imagem. |
 | [Métricas padrão](/help/admin/admin/default-metrics.md) | O Reports &amp; Analytics exibe um conjunto padrão de métricas em todos os relatórios de conversão, exceto quando um usuário seleciona um conjunto personalizado de métricas. As métricas selecionadas são exibidas para todos os usuários do conjunto de relatórios associado. |
 | [Regras de processamento](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acesso às Regras de processamento, que simplificam a coleta de dados e gerenciam o conteúdo conforme é enviado para os relatórios. |
@@ -68,8 +68,8 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Detecção de anomalias](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permissão para Detecção de anomalias, que oferece um método estatístico para determinar como determinada métrica foi alterada em relação a dados anteriores. |
 | [Relatório de Canal](/help/components/c-marketing-channels/analyze-mc.md) | Concede permissão para relatórios de Canal de marketing, encontrados em Relatórios > Relatórios do canal de marketing. |
 | [Relatório em tempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Concede acesso ao Relatório em tempo real. |
-| [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Páginas de robô são destinadas a relatórios específicos do Relatórios e Analytics, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Os bots são destinados a relatórios específicos do Relatórios e Analytics, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** Os bots permitem remover o tráfego gerado pelos spiders e bots conhecidos do conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Páginas de bot](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Páginas de robô são destinadas a relatórios e análises específicos, e não ao gerenciamento de regras de robô. Atualmente, não há permissão para permitir a edição de regras de bot.** As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Observação: Os bots são destinados a relatórios e análises específicos, e não ao gerenciamento de regras de bot. Atualmente, não há permissão para permitir a edição de regras de bot.** Os bots permitem remover o tráfego gerado pelos spiders e bots conhecidos do conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site. |
 | [Relatório de Data Warehouse Personalizado](/help/export/data-warehouse/data-warehouse.md) | O Data warehouse refere-se à cópia de dados brutos não processados para armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas exclusivas. |
 | Visitas de Retorno Diário | (Herdado) Relatório que exibe o número de visitantes no seu site mais de uma vez em um dia específico. Um dia é definido como o último período de 24 horas. |
 | [Gerenciador das fontes de dados](/help/admin/admin/data-sources.md) | O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. |
