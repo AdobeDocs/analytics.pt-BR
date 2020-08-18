@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: Perguntas frequentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Os dispositivos da Apple relatam a versão do firmware na sequência de agente d
 
 **Por que os totais na parte inferior do meu relatório não correspondem quando eu somo os valores?**
 
-Os itens de dimensão podem muitas vezes se aplicar em vários lugares; por exemplo, visitas que abrangem meia-noite ou vários produtos pertencentes a um único pedido. O item de dimensão é reportado em todos os itens de linha aplicáveis, mas é desduplicado no total do relatório. Consulte [Comparar a soma dos itens de linha ao total do relatório](https://helpx.adobe.com/br/analytics/kb/sum-line-items-different-from-total.html) na Base de conhecimento do Analytics para obter mais informações.
+Os itens de Dimension podem ser aplicados frequentemente em vários lugares; por exemplo, visitas que abrangem meia-noite ou vários produtos pertencentes a um único pedido. O item de dimensão é reportado em todos os itens de linha aplicáveis, mas é desduplicado no total do relatório. Consulte [Comparar a soma dos itens de linha ao total do relatório](https://helpx.adobe.com/br/analytics/kb/sum-line-items-different-from-total.html) na Base de conhecimento do Analytics para obter mais informações.
 
 **Como posso excluir dados de um endereço IP específico no conjunto de relatórios?**
 
@@ -58,8 +58,8 @@ Não é possível excluir um conjunto de relatórios. No entanto, um conjunto de
 
 **Ao usar a segmentação, qual contêiner devo usar? Exibição de página, visita ou visitante?**
 
-O contêiner de segmento usado depende da amplitude com que você deseja capturar os dados. Os contêineres de exibição de página trazem somente ocorrências que correspondem aos critérios de segmento, úteis para filtrar as partes irrelevantes das visitas. Os contêineres de visita trazem todas as ocorrências de uma visita em que uma ou mais ocorrências corresponderam aos critérios de segmento, úteis para analisar as sessões em geral. Os contêineres de visitante trazem todas as visitas em que uma ocorrência correspondeu aos critérios do segmento, úteis para analisar as pessoas. Como analista, você determina qual contêiner de segmento é a melhor escolha. Consulte [Visão geral de segmentação](/help/components/c-segmentation/seg-overview.md) no guia do usuário de Componentes para obter mais informações.
+O contêiner de segmento usado depende da amplitude com que você deseja capturar os dados. Os contêineres de exibição de página trazem somente ocorrências que correspondem aos critérios de segmento, úteis para filtrar as partes irrelevantes das visitas. Os contêineres de visita trazem todas as ocorrências de uma visita em que uma ou mais ocorrências corresponderam aos critérios de segmento, úteis para analisar as sessões em geral. Os contêineres de visitante trazem todas as visitas em que uma ocorrência correspondeu aos critérios do segmento, úteis para analisar as pessoas. Como analista, você determina qual contêiner de segmento é a melhor escolha. Consulte [Visão geral de segmentação](/help/components/segmentation/seg-overview.md) no guia do usuário de Componentes para obter mais informações.
 
 **Por que meu segmento não está aparecendo no Data Warehouse?**
 
-Devido à arquitetura de processamento exclusiva do Data Warehouse, a plataforma não é otimizada para lidar com alguns tipos de dados, como definição de caminho. Consulte [Compatibilidade de segmentos do Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md) no guia do usuário de Componentes para obter mais informações.
+Devido à arquitetura de processamento exclusiva do Data Warehouse, a plataforma não é otimizada para lidar com alguns tipos de dados, como definição de caminho. Consulte [Compatibilidade de segmentos do Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) no guia do usuário de Componentes para obter mais informações.
