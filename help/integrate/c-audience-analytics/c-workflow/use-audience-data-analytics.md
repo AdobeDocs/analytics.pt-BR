@@ -3,8 +3,11 @@ description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics
 solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ Públicos-alvo também podem ser usados em [visualizações de Fallout](https://
 
 ## Construtor de segmentos {#section_2AA81852A1404AB894472CA8959461B6}
 
-É possível incorporar as dimensões de Públicos-alvo no [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) do Analytics, junto às informações de comportamento coletadas pelo Analytics.
+É possível incorporar as dimensões de Públicos-alvo no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) do Analytics, junto às informações de comportamento coletadas pelo Analytics.
 
 1. Acesse **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 1. Clique em **[!UICONTROL Adicionar]** para criar um novo segmento.
