@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Executar um relatório de análise de coorte
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
-source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Crie uma coorte e execute um relatório de [!UICONTROL Análise de coorte] no An
 
    Selecione as células (adjacentes ou não adjacentes), depois clique com o botão direito do mouse em > **[!UICONTROL Criar segmento a partir da seleção]**.
 
-1. No [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), faça mais edições no segmento, depois clique em **[!UICONTROL Salvar]**.
+1. No [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), faça mais edições no segmento, depois clique em **[!UICONTROL Salvar]**.
 
    O segmento salvo está disponível para uso no painel [!UICONTROL Segmento] no [!UICONTROL Analysis Workspace].
 1. Nomeie e salve seu projeto de coorte.
