@@ -1,8 +1,11 @@
 ---
 title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,30 @@ s.pageName = "        Home Page";
 ```
 
 Esses dois valores de variável são considerados separados no Adobe Analytics. Entretanto, o espaço em branco é removido automaticamente para fins de exibição. O resultado é um relatório que exibe dois itens de linha aparentemente idênticos da &quot;Página inicial&quot;. Certifique-se de que os valores de variável não contenham espaços em branco antes ou depois do valor desejado.
+
+## Solicitações de imagem truncadas
+
+As implementações que preenchem muitas variáveis com valores longos às vezes podem ser executadas em solicitações de imagem truncadas. Alguns navegadores mais antigos, como o Internet Explorer, impõem um limite de 2083 caracteres em URLs de solicitação de imagem. Se sua organização encarar solicitações de imagem muito longas, tente o seguinte:
+
+* **Use o serviço** de ID de Experience Cloud: As bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte Serviço [de ID da](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) Adobe Experience Cloud para obter mais informações.
+* **Usar regras** de processamento: [As regras](/help/admin/admin/c-processing-rules/processing-rules.md) de processamento podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
+
+   Sempre executar:<br>
+Substituir valor de prop1 por eVar1<br>Substituir valor de eVar2 por eVar1<br>Substituir valor de prop2 por eVar1<br>
+
+   Em seguida, defina o eVar 1 na sua implementação:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **Usar variáveis** dinâmicas: Se sua implementação preencher muitas variáveis com o mesmo valor, você poderá usar variáveis [](/help/implement/vars/page-vars/dynamic-variables.md) dinâmicas para encurtar o URL da solicitação:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **Usar classificações**: Se os nomes de produtos ou páginas forem invulgarmente longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/c-classifications.md) para exibir um nome mais amigável.
