@@ -5,10 +5,10 @@ title: Fluxo de trabalho do criador de regras de classificação
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Veja as etapas de alto nível que você deve seguir para implementar as regras d
 
 | Etapa | Local de execução | Descrição |
 |--- |--- |--- |
-| Etapa 1 (pré-requisito): [definir seu esquema de classificação](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > &lt;Classificações de tráfego ou Classificações de conversão> | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
+| Etapa 1 (pré-requisito): [definir seu esquema de classificação](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html). | [!UICONTROL Administração] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > &lt;Classificações de tráfego ou Classificações de conversão> | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
 | Etapa 2: [criar um conjunto de regras](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Administração] > [!UICONTROL Construtor de regras de classificação] > [!UICONTROL Adicionar conjunto de regras] | Um conjunto de regras é um grupo de regras de classificação para uma variável específica. |
 | Etapa 3: configurar conjuntos de relatórios e variáveis. | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Aplique o conjunto de regras a conjuntos de relatórios e variáveis. |
 | Etapa 4: [adicionar as regras de classificação ao conjunto](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Corresponda uma condição a uma classificação e especificar a ação que aplicará à regra.  Familiarize-se com as informações em [Como as regras são processadas](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Etapa 5: [testar um conjunto de regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Você desejará testar a validação das regras editando-as no modo de Rascunho. No modo de Rascunho, não é possível executar regras.<br>Essa etapa é importante ao usar [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Etapa 6: [ativar regras válidas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Depois que as regras estiverem válidas, ative o conjunto de regras.  É possível substituir teclas existentes, se necessário. Consulte [Como as regras são processadas](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Etapa 7 (opcional): [excluir regras indesejadas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Excluir regras indesejadas de um conjunto.<br>Observação: a exclusão de regras não exclui dados classificados e carregados.  Consulte [Excluir dados de classificação](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md) se precisar excluir dados classificados. |
+| Etapa 7 (opcional): [excluir regras indesejadas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Excluir regras indesejadas de um conjunto.<br>Observação: a exclusão de regras não exclui dados classificados e carregados.  Consulte [Excluir dados de classificação](/help/components/classifications/importer/t-delete-classification-data.md) se precisar excluir dados classificados. |
 
 >[!NOTE]
 >
