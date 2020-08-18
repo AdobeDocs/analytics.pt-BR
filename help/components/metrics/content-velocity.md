@@ -1,25 +1,21 @@
 ---
 title: Velocidade do conteúdo
-description: A Velocidade do conteúdo mede o impacto do conteúdo no conteúdo downstream.
+description: A velocidade do conteúdo mede seu impacto no conteúdo downstream.
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 59%
 
 ---
 
 
-# [!UICONTROL Velocidade do conteúdo]
+# Velocidade do conteúdo
 
-[!UICONTROL A Velocidade] do conteúdo é um modelo de métrica padrão do Adobe Analytics. [!UICONTROL A Velocidade] do conteúdo é definida como [Visualizações[!UICONTROL da página]] | Participação [!UICONTROL da]visita] / [[!UICONTROL Visitas]] e ajuda a medir o impacto de um conteúdo específico (Página, seção do site etc.) estava em conteúdo downstream. Ele pode ajudá-lo a entender qual conteúdo está ou não retendo usuários no site ou no aplicativo móvel.
+&#39;Velocidade do conteúdo&#39; é um modelo de métrica calculada que ajuda a medir o impacto de uma dimensão no conteúdo de downstream. Usa a fórmula `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 
-[!UICONTROL A Velocidade] do conteúdo pode ser encontrada na Área de trabalho da Análise filtrando o painel esquerdo, pesquisando ou usando tags (#Adobe Template).
-
-![](assets/cont-velo-2.png)
-
-[!UICONTROL A Velocidade] do conteúdo é normalmente usada na análise do conteúdo juntamente com outras métricas principais, como Visualizações [!UICONTROL de]página, [!UICONTROL Visitas]e Taxa de [!UICONTROL rejeição].
+[!UICONTROL A velocidade do conteúdo] é normalmente utilizada na análise do conteúdo juntamente com outras métricas principais, como [!UICONTROL Visualizações de página], [!UICONTROL Visitas] e [!UICONTROL Taxa de rejeição].
 
 ![](assets/cont-velo-3.png)
