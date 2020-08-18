@@ -3,10 +3,10 @@ description: Introdução à Ad Hoc Analysis.
 title: Introdução
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Ad Hoc Analysis no Java 7 após a versão de manutenção de julho de 2018, a Adobe deixará de oferecer suporte a sua implementação da Ad Hoc Analysis.
+>A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. O Adobe não suporta a execução do Ad Hoc Analysis no Java 7 ou inferior.
 
 * Cartão de vídeo compatível com o OpenGL 2.0.
 * Cookies: obrigatório
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript: ativado
 * Versão do Java: Java 1.7 ou posterior (Veja a Observação acima)
 
-   Se não tiver a versão correta do Java instalada, ela será instalada para você. Se você tiver uma versão não compatível do Java instalada, a Ad Hoc Analysis baixará as atualizações e enviará um prompt para que você as instale.
+   Se não tiver a versão correta do Java instalada, ela será instalada para você. Se você tiver uma versão incompatível do Java instalada, a Ad Hoc Analysis baixa e solicita que você instale as atualizações.
 
 ## Instruções de atualização do Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. Se você optar por executar a Ad Hoc Analysis no Java 7 após a versão de manutenção de julho de 2018, a Adobe deixará de oferecer suporte a sua implementação da Ad Hoc Analysis.
-
-Nossos arquivos .jar são assinados com uma criptografia de segurança de 256 bits que não é compatível com versões Java anteriores à 1.7.0_76. Esse certificado de 256 bits nos permite proporcionar segurança avançada.
+Os arquivos .jar Adobe são assinados com uma criptografia segura de 256 bits que não é suportada pelas versões Java anteriores a 1.7.0_76. Esse certificado de 256 bits nos permite proporcionar segurança avançada.
 
 Se você ainda possuir o Java 7 instalado, faça a atualização antes da versão de manutenção de julho de 2018. Veja como:
 
