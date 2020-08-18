@@ -3,7 +3,7 @@ title: Visão geral sobre variáveis, funções, métodos e plug-ins
 description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Os caracteres e strings a seguir nunca são permitidos em variáveis JavaScript.
 * Nova linha (`0x0A`)
 * Marcas HTML (por exemplo, `<b></b>` ou `&#153`)
 
-Algumas variáveis têm limitações adicionais ou requisitos de sintaxe. Por exemplo, a variável `products` reserva sinais de ponto e vírgula e vírgulas para delimitar produtos e categorias separados.
+Algumas variáveis têm limitações adicionais ou requisitos de sintaxe. Por exemplo, a variável [`products`](page-vars/products.md) reserva sinais de ponto e vírgula e vírgulas para delimitar produtos e categorias separados.
