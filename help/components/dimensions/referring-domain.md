@@ -1,37 +1,37 @@
 ---
 title: Domínio de referência
-description: O domínio abrangente no qual um visitante estava ativado antes de clicar até o site.
+description: O domínio global no qual um visitante estava antes de clicar para acessar o site.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '492'
+ht-degree: 53%
 
 ---
 
 
 # Domínio de referência
 
-A dimensão &#39;Domínio de referência&#39; relata quais domínios os visitantes clicam para chegar ao site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu. Um link deve existir no site externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
+A dimensão “Domínio de referência” informa em quais domínios os visitantes clicam para acessar seu site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu site. Um link deve existir no site externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >
->Você deve configurar os filtros [de URL](/help/admin/admin/internal-url-filter-admin.md) internos do conjunto de relatórios para usar essa dimensão. A falha ao configurar filtros internos de URL pode incluir domínios internos ou impedir que domínios externos apareçam.
+>Você deve configurar os [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
-O mesmo relatório pode mostrar resultados diferentes entre Analysis Workspace e Data warehouse. Analysis Workspace relata o domínio de referência para cada página individual, excluindo valores que correspondem a filtros internos de URL. A Data warehouse relata somente o primeiro domínio de referência da visita e ignora filtros internos de URL.
+O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e a Data Warehouse. A Analysis Workspace relata o domínio de referência para cada página individual, excluindo valores que correspondem a filtros internos de URL. A Data Warehouse relata somente o primeiro domínio de referência da visita e ignora filtros internos de URL.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão requer configuração na interface do Analytics e dados em solicitações de imagem.
+Essa dimensão precisa ser configurada na interface do Analytics e os dados em solicitações de imagem.
 
-* Em sua implementação, essa dimensão recupera dados da sequência de caracteres [`r` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você usar uma biblioteca do AppMeasurement (por exemplo, pelo Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `r` query em solicitações de imagem.
-* Na interface do Analytics, você deve configurar os filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos do conjunto de relatórios. A falha ao configurar filtros internos de URL pode incluir domínios internos ou impedir que domínios externos apareçam.
+* Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
+* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
-Adobe persiste no domínio de referência para uma visita. Se um visitante sair e clicar em um link em um domínio diferente em uma única visita, o novo valor será atualizado e persistirá pelo restante da visita. Se quiser ver apenas o valor original, consulte Domínio [de referência](original-referring-domain.md)original.
+A Adobe mantém o domínio referenciador para uma visita. Se um visitante sair e clicar em um link para acessar o site por um domínio diferente em uma única visita, o novo valor será atualizado e persistirá no restante da visita. Se desejar ver apenas o valor original, consulte [Domínio de Referência Original](original-referring-domain.md).
 
 ## itens de Dimension
 
-Os itens de Dimension incluem domínios que os visitantes clicam até o site. Se uma ocorrência não tiver dados de quem indicou (definidos ou persistentes), ela será agrupada no item de dimensão `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador.
+Os itens de Dimension incluem domínios que os visitantes clicam até o site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador. O item de `"Typed/Bookmarked"` dimensão também aparece para redirecionamentos que não acomodam o Analytics. Consulte [Redirecionamentos e aliases](/help/technotes/redirects.md) no guia do usuário do Technotes.
 
 ### itens Dimension que contenham `googleusercontent.com`
 
