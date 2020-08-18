@@ -3,7 +3,10 @@ description: Segmentar métricas individuais permite comparar métricas em um me
 title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ Vamos explorar a primeira pergunta: qual é a diferença no comportamento de nav
 
    >[!NOTE]
    >
-   >Também é possível fazer isso no [Construtor de relatórios](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas.
+   >Também é possível fazer isso no [Construtor de relatórios](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas.
 
    >[!NOTE]
    >
-   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
+   >&quot;Interno&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
 
 1. Caso não possua um segmento comparável, crie um segmento chamado “Visitantes internacionais” no qual &quot;Países” seja diferente de &quot;Alemanha”.
 1. Crie e salve uma métrica chamada “Visitantes alemães”. Para fazer isso, arraste o segmento Alemanha para a tela Definição e, em seguida, arraste a métrica Visitantes únicos dentro dele:
@@ -40,11 +43,11 @@ Vamos explorar a primeira pergunta: qual é a diferença no comportamento de nav
    ![](assets/german-visitors.png)
 
 1. Repita a Etapa 3 com o segmento de Visitantes internacionais e a métrica Visitantes únicos, e crie uma métrica Visitantes internacionais.
-1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
+1. Na Analysis Workspace, arraste a dimensão **[!UICONTROL Página]** para uma Tabela de forma livre e arraste as 2 novas métricas calculadas para ficarem próximas na parte superior:
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. Ou, em [!UICONTROL Reports &amp; Analytics], abra o relatório [!UICONTROL Páginas] e clique em **[!UICONTROL Mostrar métricas]**; em seguida, aplique as novas métricas segmentadas Visitantes internacionais e Visitantes dos EUA e compare seus comportamentos de navegação pelo conteúdo.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +68,7 @@ Vamos explorar a primeira pergunta: qual é a diferença no comportamento de nav
 
 Caso queira ver imediatamente as maiores diferenças ente o comportamento de navegação de visitantes dos EUA e de visitantes internacionais, você pode criar uma métrica que subtraia as porcentagens das duas navegações. Para fazer isso, é possível usar a funcionalidade de contêiner, que funciona como parênteses ao redor dos dois conjuntos de métricas.
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
+1. Na tela [!UICONTROL Definição], clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Contêiner]**:
 
    ![](assets/cm_add_container.png)
 
