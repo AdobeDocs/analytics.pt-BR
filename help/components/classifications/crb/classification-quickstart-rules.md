@@ -5,7 +5,7 @@ title: Regras de classificação
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
@@ -26,7 +26,7 @@ As regras de classificação são úteis para:
 * **Email** e **Anúncios de exibição**: Crie regras de classificação para agrupar campanhas de anúncio de exibição individuais para que seja possível aprender como as campanhas de exibição são realizadas em relação às campanhas de email.
 
 * **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes das sequências nos códigos de rastreamento, e corresponda as regras aos critérios específicos definidos por você.
-* **Termos de pesquisa**: use [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
+* **Termos de pesquisa**: use  [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
 
@@ -56,7 +56,7 @@ about_classification_rules.xml
 
 >[!NOTE]
 >
->O [!UICONTROL Construtor de regras] não suporta classificações numéricas 2.
+>O [!UICONTROL Construtor de regras] não aceita classificações numéricas 2.
 
 ## Informações importantes sobre as Regras
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
 
-   Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
+   Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
 
 * **Prioridade das regras**: se uma tecla corresponde a várias regras que definem a mesma classificação (na coluna [!UICONTROL Definir classificação]), a última regra que corresponde a classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -79,11 +79,11 @@ about_classification_rules.xml
 
 ## Quando as regras não classificam as teclas?
 
-Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) (variável) se:
+Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma  [chave](/help/components/classifications/importer/c-saint-data-files.md) (variável) se:
 
 * A tecla já estiver classificada e você não selecionar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 
-   Você pode substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra, e quando ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
+   Você pode substituir classificações ao  [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra, e quando ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
 
 * Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
@@ -112,13 +112,13 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Como uma prática recomendada, as expressões regulares se encaixam melhor em códigos de rastreamento que usam delimitadores.
+>Como prática recomendada, as expressões regulares se encaixam melhor em códigos de rastreamento que usam delimitadores.
 
 ## Expressão regular - Rastreamento do exemplo de código {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
 >[!NOTE]
 >
->Se o código de rastreamento possuir codificação de URL, **ele não** será classificado pelo Construtor de regras.
+>Se o código de rastreamento tiver codificação de URL, ele **não** será classificado pelo Construtor de regras.
 
 Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 
@@ -159,7 +159,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
 
-## Expressão regular - Classificação de um caractere específico {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Expressão regular - Classificação de um caractere específico  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Uma maneira de usar uma expressão regular é para classificar um caractere específico em uma sequência de caracteres. Por exemplo, suponha que o seguinte código de rastreamento possua dois caracteres importantes:
 
@@ -288,7 +288,7 @@ O que vem depois de um exemplo de regra de termo de pesquisa que classifica os t
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
 | 3 | Contém | Romo | Tipo de pesquisa | Jogador |
 
-Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, visto que corresponde à última classificação fornecida mostrada na coluna Definir classificação.
+Se um usuário pesquisa por  *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, visto que corresponde à última classificação fornecida mostrada na coluna Definir classificação.
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 
@@ -297,7 +297,7 @@ Da mesma forma, suponha que você configure duas regras em um conjunto para os s
 | 1 | Contém | Cowboys | Cidade | Dallas |
 | 2 | Contém | Broncos | Cidade | Denver |
 
-Um usuário pesquisa por *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
+Um usuário pesquisa por  *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
 
 ## Adicionar uma regra de classificação a um conjunto de regras {#add-classification-to-rule-set}
 
@@ -313,7 +313,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
->Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/c-sub-classifications.md).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando  [subclassificações](/help/components/classifications/c-sub-classifications.md).
 
 1. [Criar um conjunto de regras de classificação](/help/components/classifications/crb/classification-rule-set.md).
 1. Na página do conjunto de regras, clique em **[!UICONTROL Adicionar regra]**.
