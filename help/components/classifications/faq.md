@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre classificações
 description: Perguntas frequentes sobre o uso de classificações.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,24 @@ Os arquivos de classificação carregados com um valor chave ou um valor de clas
 
 * **Solicite uma regra** VISTA: Um consultor dos Serviços de engenharia configura uma regra do lado do servidor para você com um custo extra. Entre em contato com o Gerente de conta de sua organização para solicitar uma regra VISTA.
 
-## Posso usar o carregador para classificar itens de dimensão que ainda não existem?
+## Posso usar o importador de classificação para classificar itens de dimensão que ainda não existem?
 
 Sim, *entretanto, isso conta cada item de dimensão como uma chamada de servidor faturável.*
 
 * Os itens de Dimension que já existem não incorrem em nenhum custo extra.
 * O uso do construtor de regras de classificação não classifica itens inexistentes e, portanto, não implica nenhum custo extra.
+
+## Como posso classificar valores que contêm caracteres especiais?
+
+Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou aspas de duplo no relatórios. No entanto, em alguns casos, a sua utilização é necessária. Se os valores do relatórios contiverem os caracteres que você escolher classificar, use as seguintes etapas:
+
+1. Faça logon no Adobe Analytics e navegue até **[!UICONTROL Admin]** > Importador **** de classificação.
+2. Click the **[!UICONTROL Browser export]** tab.
+3. Defina as configurações de exportação e certifique-se de que &#39;Saída de cotação&#39; NÃO esteja selecionado.
+4. Clique em **[!UICONTROL Exportar arquivo]** e abra o arquivo baixado em um editor de planilhas.
+5. Na linha 1, localize a célula C1, que contém o valor `v:2.0`. Altere o valor para `v:2.1` e aplique as classificações desejadas à pasta de trabalho.
+6. Carregue o arquivo como faria com qualquer outra classificação.
+
+## O que são classificações numéricas 2?
+
+As classificações numéricas 2 permitem classificar itens de dimensão como métricas baseadas em tempo. Eles foram removidos da interface do usuário do Analytics em julho de 2019.
