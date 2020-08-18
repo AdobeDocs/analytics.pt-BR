@@ -1,19 +1,16 @@
 ---
-description: Classificação é uma forma de categorização de dados variáveis do Analytics, que exibe os dados de diferentes maneiras quando você gera os relatórios.
-subtopic: Classifications
-title: Sobre as classificações
-topic: Admin tools
-uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
+title: Visão geral das classificações
+description: Personalize o agrupamento de itens de dimensão.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
 
-# Sobre as classificações
+# Visão geral das classificações
 
 Classificação é uma forma de categorização de dados variáveis do Analytics, que exibe os dados de diferentes maneiras quando você gera os relatórios.
 
@@ -27,17 +24,9 @@ Ao classificar, você estabelece uma relação entre a variável e os metadados 
 
 Depois de classificado, qualquer relatório que você puder gerar usando a variável-chave também poderá ser gerado com os atributos associados. Por exemplo, é possível classificar [!UICONTROL IDs de produto] com outros atributos de produto, como nome do produto, cor, tamanho, descrição e SKU. O aumento dos dados de relatórios e análises com outros atributos oferece oportunidades de relatórios mais profundos e complexos.
 
->[!IMPORTANT]
->
->A capacidade de importar classificações Numérico 2 e Ativadas por data foi removida da base de código. Essa alteração será aplicada na Versão de manutenção de junho de 2019. Se você tiver colunas Numéricas ou Ativadas por data no arquivo de importação, essas células serão ignoradas silenciosamente e todos os outros dados nesse arquivo serão importados normalmente. As classificações existentes ainda podem ser exportadas por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
-
->[!NOTE]
->
->Na versão de manutenção do Analytics de 10 de maio de 2018, a Adobe começou a limitar a funcionalidade de classificações numéricas e habilitadas por data. Esses tipos de classificações foram removidos das interfaces Admin e Importador de classificações. Nenhuma classificação numérica ou habilitada por data pode ser adicionada. As classificações existentes ainda podem ser gerenciadas (atualizadas, excluídas) por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios.
-
 Após criar as classificações, você pode aproveitar os novos atributos de dados em todo o Adobe Analytics.
 
-**Exemplo de códigos de rastreamento**
+## Exemplo de códigos de rastreamento
 
 Digamos que, em vez de visualizar campanhas só pelo código de rastreamento, você queira ver os resultados da campanha pelo mecanismo de pesquisa, palavras-chave e canal de campanha. Em vez de dedicar variáveis de conversão a cada um deles, você poderá criar três classificações da variável de campanha para representar o mecanismo de pesquisa, palavras-chave e canal de campanha. Essa estratégia permite ver os eventos bem-sucedidos do site por todas as quatro variáveis, sem outra marcação.
 
