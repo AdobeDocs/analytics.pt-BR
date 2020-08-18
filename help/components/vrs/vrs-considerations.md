@@ -5,7 +5,7 @@ title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de v
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de
 
 1. Crie conjuntos de relatórios virtuais que correspondam aos dados dos conjuntos de relatórios secundários. Segmentar em uma dimensão personalizada que distingue seus sites uns dos outros.
    * Se migrar de uma implementação com tags de vários conjuntos, compare os segmentos do conjunto de relatórios virtual com os conjuntos de relatórios secundários existentes. Certifique-se de que os dados sejam comparáveis antes de mover os usuários para o conjunto de relatórios virtual.
-   * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
+   * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
    * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
    * No Adobe Experience Platform Launch, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que você não queira mais usar.
