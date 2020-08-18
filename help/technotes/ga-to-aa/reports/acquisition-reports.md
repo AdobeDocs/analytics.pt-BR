@@ -2,7 +2,7 @@
 title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -80,7 +80,7 @@ O recurso de análise de publicidade exige configuração para retornar dados. C
 
 Os relatórios sociais fornecem informações semelhantes ao relatório Comportamento respectivo, exceto no contexto das redes sociais. Esses dados estão disponíveis na Analysis Workspace ao combinar uma dimensão a um segmento.
 
-Às vezes, os visitantes chegam ao site por meio de vários canais na mesma sessão. Por exemplo, um visitante clica em uma página de mídia social e alguns minutos depois visita um mecanismo de pesquisa para acessar o site. Nesses casos, os domínios não sociais podem aparecer neste relatório. Se desejar excluir domínios não sociais, classifique o relatório por visitas ou crie uma cópia do segmento a ser baseada em ocorrências em vez de visitas. Consulte [Contêiners de segmentação](/help/components/c-segmentation/seg-overview.md) no guia do usuário Componentes para obter mais informações.
+Às vezes, os visitantes chegam ao site por meio de vários canais na mesma sessão. Por exemplo, um visitante clica em uma página de mídia social e alguns minutos depois visita um mecanismo de pesquisa para acessar o site. Nesses casos, os domínios não sociais podem aparecer neste relatório. Se desejar excluir domínios não sociais, classifique o relatório por visitas ou crie uma cópia do segmento a ser baseada em ocorrências em vez de visitas. Consulte [Contêiners de segmentação](/help/components/segmentation/seg-overview.md) no guia do usuário Componentes para obter mais informações.
 
 ### Social - Referências de rede
 
@@ -112,7 +112,7 @@ O relatório Fluxo de usuários mostra os dados de definição de caminho no con
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
 2. Clique no ícone Componentes à esquerda e arraste o segmento **Visitas de sites sociais** até a pequena área logo acima da exibição de fluxo chamada &#39;Solte um segmento aqui&#39;.
-3. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm a cor amarela.
+3. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de Dimension têm cor amarela.
 4. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 5. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
