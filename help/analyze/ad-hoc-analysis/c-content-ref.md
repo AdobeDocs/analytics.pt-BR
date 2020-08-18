@@ -4,7 +4,10 @@ title: Construir segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 A Ad Hoc Analysis é integrada ao ambiente de Segmentação de análise, de modo que você possa compartilhar, gerenciar e aplicar os segmentos de visitantes nos produtos da Adobe. A Ad Hoc Analysis oferece uma interface de usuário baseada em Java para o Construtor de segmentos e para o Gerenciador de segmentos que é idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, adaptando-se às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
 
-A Ad Hoc Analysis inclui recursos já conhecidos para a criação de segmentos e novas atualizações de recursos, como o [Gerenciador de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html), usado para configurar um [fluxo de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) do gerenciamento de segmentos. Como sempre, você pode criar e salvar segmentos no [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ou [gerar segmentos a partir de um relatório de Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) do console de Ad Hoc Analysis e depois salvar os segmentos novos ou estendidos na biblioteca de público-alvo para aplicativos e acessos gerais.  ![](assets/seg__overview_ad_hoc.png)
+A Ad Hoc Analysis inclui recursos já conhecidos para a criação de segmentos e novas atualizações de recursos, como o [Gerenciador de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-manage.html), usado para configurar um [fluxo de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) do gerenciamento de segmentos. Como sempre, você pode criar e salvar segmentos no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) ou [gerar segmentos a partir de um relatório de Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) do console de Ad Hoc Analysis e depois salvar os segmentos novos ou estendidos na biblioteca de público-alvo para aplicativos e acessos gerais.  ![](assets/seg__overview_ad_hoc.png)
 
 ## Segmentação Unificada na Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Para obter informações e instruções sobre como criar e gerenciar segmentos no ambiente de Segmentação Unificada, incluindo recursos da análise ad hoc, consulte a documentação da [Segmentação Unificada](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md).
+Para obter informações e instruções sobre como criar e gerenciar segmentos no ambiente de Segmentação Unificada, incluindo recursos da análise ad hoc, consulte a documentação da [Segmentação Unificada](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 * [Novos recursos](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [O que aconteceu com meus segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -33,8 +36,8 @@ Para obter informações e instruções sobre como criar e gerenciar segmentos n
 ## Recursos {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Os [segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) são universais para todos os conjuntos de relatórios. Anteriormente, os segmentos eram específicos ao conjunto de relatórios.
-* O [Gerenciador de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) permite que você configure [fluxos de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
-* O [Construtor de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) foi atualizado para simplificar a criação de segmentos.
+* O [Gerenciador de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) permite que você configure [fluxos de trabalho](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
+* O [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) foi atualizado para simplificar a criação de segmentos.
 * Você pode [adicionar tags a segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL ad hoc analysis]) para organizar os segmentos.
 * Você pode criar [Segmentos sequenciais](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) fora da Ad Hoc Analysis.
 
@@ -66,7 +69,7 @@ Observe que não ocorreu uma alteração na forma como esse contêiner funciona;
 
 Todos os usuários podem criar e editar segmentos pessoais. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
-Os administradores podem editar e [compartilhar segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) com grupos e [definir os direitos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html) de acesso da organização aos segmentos.
+Os administradores podem editar e [compartilhar segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) com grupos e [definir os direitos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segment-reference/seg-rights.html) de acesso da organização aos segmentos.
 
 ## O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
