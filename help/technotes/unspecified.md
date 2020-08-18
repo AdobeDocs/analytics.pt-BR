@@ -1,22 +1,22 @@
 ---
-description: Vários relatórios do Adobe Analytics podem mostrar Não especificado, Outros ou Desconhecido, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
-title: Não especificado, Outros e Desconhecido nos relatórios
+description: Vários relatórios no Adobe Analytics podem mostrar Não especificado, Nenhum, Outro ou Desconhecido, dependendo do relatório específico exibido. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
+title: Não especificado, Nenhum, Outro e Desconhecido no relatórios
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 87%
 
 ---
 
 
-# “Não especificado”, “Outros” e “Desconhecido” nos relatórios
+# &quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outro&quot; e &quot;Desconhecido&quot; no relatórios
 
 Vários relatórios do Adobe Analytics podem mostrar “Não especificado”, “Outros” ou “Desconhecido”, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível. A lista a seguir mostra como cada relatório pode ter um destes itens de linha.
 
-## “Não especificado” nos relatórios
+## &quot;Não especificado&quot; (ou &quot;Nenhum&quot;) no relatórios
 
-“Não especificado” é um item de linha bastante comum nos relatórios.
+“Não especificado” é um item de linha bastante comum nos relatórios. Também é frequentemente chamada de &quot;Nenhum&quot;.
 
 * **Um evento é acionado sem uma variável de conversão:** por exemplo, um usuário entra em seu site e efetua uma compra sem nenhum valor em eVar1. Se você exibir os pedidos usando a dimensão eVar1, não há um valor para ao pedido. Portanto, é atribuído automaticamente a “Não especificado”.
 * **Dados não classificados nos relatórios de classificação:** ao exibir dados de classificação, qualquer valor sem dados associados à classificação específica retorna “Não especificado”. Para resolver esse problema, classifique o valor da variável pai.
