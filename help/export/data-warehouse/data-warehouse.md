@@ -4,7 +4,7 @@ title: Visão geral do Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -24,7 +24,7 @@ O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única
 
 >[!NOTE]
 >
->O Data Warehouse relata o primeiro valor encontrado no período do relatório.
+>O Data Warehouse informa o primeiro valor encontrado no período do relatório.
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ Essa tabela descreve os campos e opções da guia [!UICONTROL Solicitação do D
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segmentos disponíveis</span> </td> 
-   <td colname="col2"> <p>Permite selecionar a parte da população de visitantes que deseja examinar e gerar segmentos complexos. Você pode fazer upload de segmentos pré-configurados, criar novos segmentos e armazenar componentes de segmento em uma biblioteca para uso na construção de segmentos adicionais. </p> <p>Agora, é possível empilhar segmentos. Ao selecionar vários segmentos, a área de visualização, o Gerenciador de solicitação e o pop-up Detalhes da solicitação mostram uma lista de nomes separada por vírgulas (ex: Segmento1, Segmento2). </p> <p>Consulte o <a href="/help/components/c-segmentation/seg-home.md">Guia de segmentação do </a> para obter mais informações. </p> <p>Observação: não é possível incluir um filtro de segmentos e um detalhamento no mesmo segmento, no mesmo relatório de Data Warehouse. Essa ação resultará em um erro. </p> </td> 
+   <td colname="col2"> <p>Permite selecionar a parte da população de visitantes que deseja examinar e gerar segmentos complexos. Você pode fazer upload de segmentos pré-configurados, criar novos segmentos e armazenar componentes de segmento em uma biblioteca para uso na construção de segmentos adicionais. </p> <p>Agora, é possível empilhar segmentos. Ao selecionar vários segmentos, a área de visualização, o Gerenciador de solicitação e o pop-up Detalhes da solicitação mostram uma lista de nomes separada por vírgulas (ex: Segmento1, Segmento2). </p> <p>Consulte o <a href="/help/components/segmentation/seg-home.md">Guia de segmentação do </a> para obter mais informações. </p> <p>Observação: não é possível incluir um filtro de segmentos e um detalhamento no mesmo segmento, no mesmo relatório de Data Warehouse. Essa ação resultará em um erro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Detalhamentos</span> </td> 
