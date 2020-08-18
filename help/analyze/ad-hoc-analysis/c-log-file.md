@@ -1,29 +1,39 @@
 ---
-description: O arquivo de log é um arquivo de texto que o servidor usa para armazenar dados relacionados ao momento em que os arquivos são recuperados de um site. Algumas informações coletadas incluem data e hora, URL servido, endereços IP, status de solicitação, entre outros.
 title: Arquivo de log
-topic: Ad hoc analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
+description: Obtenha um arquivo de log para fins de solução de problemas.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 
 # Arquivo de log
 
-O arquivo de log é um arquivo de texto que o servidor usa para armazenar dados relacionados ao momento em que os arquivos são recuperados de um site. Algumas informações coletadas incluem data e hora, URL servido, endereços IP, status de solicitação, entre outros.
+Ao solucionar problemas com o Ad Hoc Analysis, às vezes é necessário obter seu arquivo de log. O Adobe pode usar o arquivo de log para localizar a causa raiz do problema e fornecer uma resolução. O `discover.log` arquivo contém todas as interações do usuário, informações de carregamento de relatório e mensagens de erro Java em todas as sessões. Ele contém informações protegidas como, por exemplo, a senha do usuário. Arquivos de log grandes são divididos em incrementos de 10 MB. Ao fornecer Adobe com os arquivos de registro, verifique se todos os arquivos estão selecionados.
 
-Uma maneira rápida de salvar e exibir um arquivo de log é:
+## Windows
 
-1. Clicar em **[!UICONTROL Ajuda]** > **[!UICONTROL Sobre a Ad Hoc Analysis]**
+Obtenha o `discover.log` arquivo para Windows:
 
-1. Clicar no logotipo da **[!UICONTROL Ad Hoc Analysis]**.
-1. Clicar em **[!UICONTROL Salvar arquivo de log]**.
+1. Clique no menu start e selecione **Executar** ou pressione `[Win]` + `[R]`.
+2. Cole o seguinte no campo de texto e clique em **OK**:
 
->[!NOTE]
->
->O registro salvo utilizando este procedimento é da sessão atual.
+   ```text
+   %appdata%/../Local/Adobe/Discover/log
+   ```
 
+3. Realce todos os arquivos na pasta, em seguida, clique com o botão direito do mouse e escolha **Enviar para > Pasta** compactada (zipada).
+4. Forneça ao representante do Adobe o arquivo .zip.
+
+## Mac
+
+Para obter o `discover.log` arquivo para Mac OS, faça o seguinte:
+
+1. Abra o Finder e navegue até `/Users/your-user/.adobe/Discover/log`
+2. Realce todos os arquivos na pasta e clique com o botão direito do mouse e escolha **Compactar**.
+3. Forneça ao representante do Adobe o arquivo .zip.
+
+Se o tamanho total de arquivos compactados exceder 10 MB, um representante de Adobe pode fornecer um local FTP temporário.
