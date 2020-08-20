@@ -4,7 +4,10 @@ title: Listas de publicação
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 100%
 
 ---
 
@@ -20,6 +23,6 @@ Várias listas de publicação podem ser especificadas ao agendar um relatório.
 | Elemento | Descrição |
 |--- |--- |
 | [!UICONTROL Procurar por] | Permite filtrar a tabela para pesquisar uma lista de publicação. |
-| !UICONTROL Conjuntos de relatórios a serem incluídos] | Substitui o conjunto de relatórios por um relatório agendado ou todos os reportlets em um painel. Não há limite técnico para o número de entradas de conjunto de relatórios separadas, mas é recomendado limitá-lo a aproximadamente 50. Não há limite estabelecido para o número de emails que podem ser incluídos. |
-| !UICONTROL Endereços de email] | Uma lista delimitada por vírgulas de todos os emails que receberão o relatório com o novo conjunto de relatórios.  Clique em **!UICONTROL Clicar para editar]**para especificar os endereços de email para recebimento. Insira cada endereço de email, separando vários endereços com um ponto-e-vírgula (;). Pressione`<Enter>`quando terminar de inserir os endereços de email.<br>O campo Contagem de email exibe o número de endereços de email associados à entrada de conjunto de relatórios no momento. |
-| !UICONTROL Duplicado] | Cria uma cópia da lista de publicação. |
+| [!UICONTROL Conjuntos de relatórios a serem incluídos] | Substitui o conjunto de relatórios por um relatório agendado ou todos os reportlets em um painel. Não há limite técnico para o número de entradas de conjunto de relatórios separadas, mas é recomendado limitá-lo a aproximadamente 50. Não há limite estabelecido para o número de emails que podem ser incluídos. |
+| [!UICONTROL Endereços de email] | Uma lista delimitada por vírgulas de todos os emails que receberão o relatório com o novo conjunto de relatórios.  Clique em **[!UICONTROL Clicar para editar]** para especificar os endereços de email para recebimento. Insira cada endereço de email, separando vários endereços com um ponto-e-vírgula (;). Pressione `<Enter>` quando terminar de inserir os endereços de email. <br>O campo Contagem de email exibe o número de endereços de email associados à entrada de conjunto de relatórios no momento. |
+| [!UICONTROL Duplicar] | Cria uma cópia da lista de publicação. |
