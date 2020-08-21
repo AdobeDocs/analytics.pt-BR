@@ -4,9 +4,9 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar as ações que serão acionadas pela condição
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Cada regra pode acionar quantos scripts ou introduções de HTML que desejar.
 
 >[!NOTE]
 >
->Como o DTM permite inserir código personalizado em sua página, certifique-se de não criar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
+>Como o DTM permite inserir código personalizado em sua página, tenha cuidado para não gerar vulnerabilidades de criação de script entre sites (XSS) (consulte o [guia da OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obter mais informações). O uso de elementos de dados em scripts requer atenção especial. Presuma sempre que a origem dos valores de elementos de dados não seja confiável.
 
 **Para configurar ações para a condição do disparador**
 
