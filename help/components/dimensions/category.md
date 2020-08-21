@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 1%
+ht-degree: 85%
 
 ---
 
 
 # Categoria
 
-A dimensão &#39;Categoria&#39; relata a categoria do produto da ocorrência. É útil para implementações que usam a `products` variável e desejam ver métricas em torno da categoria do produto, como os mais vendidos ou os mais vistos. Esta dimensão pode estar intencionalmente em branco se você não tiver nenhum produto em seu site.
+A dimensão “Categoria” relata a categoria do produto da ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre categorias do produto, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência à primeira parte da string na [`products`](/help/implement/vars/page-vars/products.md) variável. Tudo antes do primeiro ponto e vírgula (`;`) preenche essa dimensão.
+Essa dimensão faz referência à primeira parte da sequência de caracteres da variável [`products`](/help/implement/vars/page-vars/products.md). Tudo que aparece antes do primeiro ponto e vírgula (`;`) faz parte dessa dimensão.
 
-## Itens de dimensão
+## itens de Dimension
 
-Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais itens de dimensão são. A Adobe recomenda que você agrupe produtos individuais em categorias significativas, usando as dimensões &#39;Produto&#39; e &#39;Categoria&#39;.
+Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais itens de dimensão são. A Adobe recomenda agrupar cada produto em categorias relevantes, utilizando as dimensões “Produto” e “Categoria”.
 
 >[!TIP]
 >
->Em versões anteriores do Adobe Analytics, algumas limitações à dimensão &quot;Categoria&quot; foram impostas devido à sua arquitetura de processamento. Essas limitações foram removidas desde então, permitindo que você use qualquer métrica e qualquer detalhamento.
+>Nas versões anteriores do Adobe Analytics, a dimensão “Categoria” apresentava algumas limitações devido à sua arquitetura de processamento. Essas limitações foram removidas e, desde então, é possível utilizar qualquer métrica e fazer detalhamentos.
