@@ -2,9 +2,9 @@
 description: Para acessar essas funções, selecione Mostrar avançadas na lista suspensa Funções.
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na l
 
 Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
 
-## O que significa o parâmetro Incluir zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## O que significa o parâmetro Incluir zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Informa se os zeros devem ou não ser incluídos no cálculo. Muitas vezes, zero significa &quot;nada&quot;; mas em alguns casos, pode ser importante.
 
@@ -27,13 +27,13 @@ Por exemplo, se você possuir uma métrica de Receita e adicionar a métrica de 
 
 Por outro lado, se você possuir duas métricas de interesse, pode não ser correto dizer que uma tem uma média ou valor mínimo maior que a outra por causa dos zeros de algumas linhas. Neste caso, é melhor não marcar o parâmetro Incluir zeros.
 
-## E {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-Retorna o valor do seu argumento. Use NÃO para garantir que um valor não seja igual a um determinado valor.
+Retorna o valor do seu argumento. Use NOT para garantir que um valor não seja igual a um determinado valor.
 
 >[!NOTE]
 >
->0 (zero) significa Falso, e qualquer outro valor é True.
+>0 (zero) significa False, e qualquer outro valor é True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -41,8 +41,8 @@ AND(logical_test1,[logical_test2],...)
 
 | Argumento | Descrição |
 |---|---|
-| *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como VERDADEIRO ou FALSO. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
+| *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como TRUE ou FALSE. |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como TRUE ou FALSE. |
 
 ## Contagem distinta aproximada (dimensão) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | A dimensão cuja contagem distinta de itens você deseja obter. |
 
-### Caso de uso de exemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso de uso de exemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
@@ -68,11 +68,11 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ![](assets/approx-customers.png)
 
-### Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Únicos excedidos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
-### Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparação de funções de contagem  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() é uma melhoria das funções Count() e RowCount(), pois a métrica criada pode ser usada em qualquer relatório dimensional para renderizar uma contagem aproximada de itens de uma dimensão separada. Por exemplo, a contagem de IDs de clientes usadas em um relatório de Tipo de dispositivo móvel.
 
@@ -316,9 +316,9 @@ TANH(metric)
 |---|---|
 | *metric* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
 
-## Se (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## IF (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-A função SE retorna um valor se uma condição especificada for considerada VERDADEIRO, e outro valor se a condição for considerada FALSO.
+A função IF retorna um valor se uma condição especificada for considerada TRUE, e outro valor se a condição for considerada FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -326,9 +326,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argumento | Descrição |
 |---|---|
-| *logical_test* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como VERDADEIRO ou FALSO. |
-| *[value_if_true]* | O valor que você deseja retornar se o argumento *logical_test* for considerado VERDADEIRO. (Caso não tenha sido incluído, o padrão para este argumento é 0.) |
-| *[value_if_false]* | O valor que você deseja retornar se o argumento *logical_test* for considerado FALSO. (Caso não tenha sido incluído, o padrão para este argumento é 0.) |
+| *logical_test* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como TRUE ou FALSE. |
+| *[value_if_true]* | O valor que você deseja retornar se o argumento *logical_test* for considerado TRUE. (Caso não tenha sido incluído, o padrão para este argumento é 0.) |
+| *[value_if_false]* | O valor que você deseja retornar se o argumento *logical_test* for considerado FALSE. (Caso não tenha sido incluído, o padrão para este argumento é 0.) |
 
 ## Menor que {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -381,7 +381,7 @@ CORREL.LOG(metric_X,metric_Y)
 
 ## Regressão logarítmica: intercepto (Tabela) {#concept_75A3282EDF54417897063DC26D4FA363}
 
-Retorna o intercepto *b* como a regressão dos quadrados mínimos entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de INTERCEPTO.
+Retorna o intercepto *b* como a regressão dos quadrados mínimos entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de INTERCEPT.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -394,7 +394,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Regressão logarítmica: valor previsto de Y (Linha) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calcula os valores previstos de [!DNL y] (metric_Y), tendo em conta os valores de [!DNL x] conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste, com base em [!DNL Y = a ln(X) + b]. É calculada usando a equação de ESTIMATIVA.
+Calcula os valores previstos de [!DNL y] (metric_Y), tendo em conta os valores de [!DNL x] conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste, com base em [!DNL Y = a ln(X) + b]. É calculada usando a equação de ESTIMATE.
 
 Em análises de regressão, esta função calcula os valores previstos de [!DNL y] (*metric_Y*), conhecidos os valores de [!DNL x] (*metric_X*) e usando o logaritmo para calcular a linha de melhor ajuste para a equação de regressão [!DNL Y = a ln(X) + b]. O valor de [!DNL a] corresponde a cada valor de x, e [!DNL b] refere-se a um valor constante.
 
@@ -409,7 +409,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Regressão logarítmica: inclinação (Tabela) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de INCLINAÇÃO.
+Retorna a inclinação *a* entre duas colunas de métrica (*metric_X* e *metric_Y*) para a equação de regressão [!DNL Y = a ln(X) + b]. É calculada usando a equação de SLOPE.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -432,7 +432,7 @@ LN(metric)
 |---|---|
 | *metric* | O número real positivo para o qual você deseja obter o logaritmo natural. |
 
-## NÃO {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Retorna 1 se o número for 0, ou retorna 0 se for qualquer outro número.
 
@@ -442,9 +442,9 @@ NOT(logical)
 
 | Argumento | Descrição |
 |---|---|
-| *logical* | Obrigatório. Um valor ou expressão que pode ser avaliado como VERDADEIRO ou FALSO. |
+| *logical* | Obrigatório. Um valor ou expressão que pode ser avaliado como TRUE ou FALSE. |
 
-A utilização do NÃO exige conhecer se as expressões (&lt;, >, =, &lt;> etc.) retornam os valores 0 ou 1.
+A utilização do NOT exige conhecer se as expressões (&lt;, >, =, &lt;> etc.) retornam os valores 0 ou 1.
 
 ## Diferente de {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -452,11 +452,11 @@ Retorna todos os itens que não contêm a correspondência exata do valor inseri
 
 ## Ou (Linha) {#concept_AF81A33A376C4849A4C14F3A380639D2}
 
-Retorna TRUE se qualquer argumento for VERDADEIRO, ou FALSE se todos os argumentos forem FALSOS.
+Retorna TRUE se qualquer argumento for TRUE, ou FALSE se todos os argumentos forem FALSE.
 
 >[!NOTE]
 >
->0 (zero) significa Falso, e qualquer outro valor é True.
+>0 (zero) significa False, e qualquer outro valor é True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -464,8 +464,8 @@ OR(logical_test1,[logical_test2],...)
 
 | Argumento | Descrição |
 |---|---|
-| *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como VERDADEIRO ou FALSO. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
+| *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como TRUE ou FALSE. |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como TRUE ou FALSE. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
