@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
 
 # Código de rastreamento
 
-A dimensão &#39;Código de rastreamento&#39; lista os nomes dos códigos de rastreamento no site. Normalmente, essa dimensão é coletada usando parâmetros de string de query. Você pode colocar links com diferentes valores de parâmetro de string de query em diferentes lugares na Internet. Esta dimensão relata quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
+A dimensão “Código de rastreamento” lista os nomes dos códigos de rastreamento no site. Normalmente, essa dimensão é coletada usando parâmetros de sequência de consulta. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Esta dimensão relata quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da string [`v0` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement coleta esses dados usando a [`campaign`](/help/implement/vars/page-vars/campaign.md) variável.
+Essa dimensão recupera dados da [`v0` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável [`campaign`](/help/implement/vars/page-vars/campaign.md).
 
 ## itens de Dimension
 
@@ -26,7 +26,7 @@ Os itens de Dimension incluem os nomes dos códigos de rastreamento no site. Sua
 
 Alguns usuários que configuram regras de processamento de canais de marketing configuram uma regra que utiliza todos os valores usados na dimensão de código de rastreamento. Embora excelente, são diferentes por causa das diferenças inerentes ao processamento e à arquitetura. A lista a seguir explica por que essas duas dimensões, embora semelhantes num relance, não podem ser comparadas entre si.
 
-* **canais anteriores nas regras** de processamento: As regras de processamento de canais de marketing mais altas na lista podem impedir que as ocorrências sejam atribuídas ao canal de marketing de Códigos de rastreamento. Por exemplo:
+* **Canais anteriores nas regras** de processamento: As regras de processamento de canais de marketing mais altas na lista podem impedir que as ocorrências sejam atribuídas ao canal de marketing de Códigos de rastreamento. Por exemplo:
 
    1. Você tem &quot;Redes sociais&quot; configuradas como sua primeira regra e &quot;Códigos de rastreamento&quot; como sua segunda.
    2. Um usuário publica um link para seu site contendo um código de rastreamento em um site de mídia social, e vários de seus amigos clicam nesse link para seu site.
