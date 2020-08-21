@@ -2,9 +2,9 @@
 description: As funções permitem filtrar/classificar seus dados e realizar análises estatísticas.
 title: Usar funções
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 As funções permitem filtrar/classificar seus dados e realizar análises estatísticas.
 
-Para obter uma lista com todas as funções, consulte  [Funções básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) e [Funções avançadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Para obter uma lista com todas as funções, consulte   [Funções básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) e [Funções avançadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >
