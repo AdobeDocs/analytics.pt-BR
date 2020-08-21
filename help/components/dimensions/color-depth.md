@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
 # Intensidade de cor
 
-A dimensão &quot;Intensidade de cor&quot; relata quantas cores o dispositivo suporta. Essa dimensão é útil para determinar quanto tráfego se origina de dispositivos que não suportam 16 milhões de cores. Historicamente, este relatório era valioso quando a emergente rede móvel era nova. no entanto, a maioria dos dispositivos na idade atual suporta 16 milhões de cores (0-255 para vermelho, verde e azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+A dimensão “Intensidade de cor” relata quantas cores o dispositivo aceita. Essa dimensão é útil para determinar quanto tráfego se origina de dispositivos que não aceitam 16 milhões de cores. Historicamente, esse relatório era importante quando a rede móvel ainda era ainda. No entanto, a maioria dos dispositivos atuais aceita 16 milhões de cores (0 a 255 para vermelho, verde e azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa, traduzindo o valor de bit em um formato mais legível. Ele coleta dados da string [`c` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement usa a `screen.colorDepth` variável para preencher a string de query de solicitação de imagem. Se você usar o AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `c` query em cada ocorrência com um valor de bit válido.
+Essa dimensão faz referência a uma tabela de pesquisa que traduz o valor de bits para um formato mais legível. Ele coleta dados da [`c` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement usa a variável `screen.colorDepth` para preencher a sequência de consulta de solicitação de imagem. Se você utilizar o AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `c` em cada ocorrência com um valor de bits válido.
 
-## Itens de dimensão
+## itens de Dimension
 
-Os itens de dimensão incluem o número de cores suportadas pelo dispositivo. Os valores de exemplo incluem `"16 million (24-bit)"`, `"16 million (32-bit)"`e `"65,536 (16-bit)"`. Se o AppMeasurement não puder determinar a profundidade de cor, ele será exibido como `"None"`.
+Os itens de Dimension incluem o número de cores suportadas pelo dispositivo. Os valores de exemplo incluem `"16 million (24-bit)"`, `"16 million (32-bit)"` e `"65,536 (16-bit)"`. Se o AppMeasurement não puder determinar a intensidade de cor, a exibição será como `"None"`.
 
 >[!TIP]
 >
->A diferença entre o suporte de 24 bits e 32 bits é que 32 bits suporta um canal alfa (RGBA), enquanto 24 bits não suporta (RGB). Consulte Profundidade [](https://en.wikipedia.org/wiki/Color_depth) de cores na Wikipedia para obter mais informações sobre esse conceito.
+>A diferença entre a compatibilidade com 24 e 32 bits é que 32 bits é compatível com um canal alfa (RGBA), enquanto o de 24 bits não (RGB). Consulte [Intensidade de cor](https://pt.wikipedia.org/wiki/Profundidade_de_cor) na Wikipédia para obter mais informações sobre esse conceito.
