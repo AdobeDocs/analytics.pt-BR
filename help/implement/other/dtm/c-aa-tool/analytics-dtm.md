@@ -4,9 +4,9 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adicionar a ferramenta Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Manageme
 
 >[!NOTE]
 >
->Para melhorar o rastreamento de visitantes, recomendamos que você ative o [Serviço de identidade](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
+>Para melhorar o rastreamento de visitantes, recomendamos ativar o [Serviço de identidade](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 ## Adicionar uma ferramenta Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -54,7 +54,7 @@ Implante o Adobe Analytics (Standard e Premium) por meio do Dynamic Tag Manageme
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manual</b>: gerencie manualmente o código do AppMeasurement. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol">Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Clique em <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/migrate-from-hcode.html">JavaScript (novo)</a> para obter informações sobre como baixar o código localmente para copiar e colar no campo <span class="wintitle">Editar código</span> no <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Gerenciamento de biblioteca</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
+   <td colname="col2"> <p> <b>Manual</b>: gerencie manualmente o código do AppMeasurement. É possível baixar o código de <span class="keyword">AppMeasurement</span> do <span class="keyword">Analytics</span> em <span class="ignoretag"><span class="uicontrol"> Ferramentas Administrativas</span> &gt; <span class="uicontrol">Gerenciador de código</span></span>. </p> <p>Clique em <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/migrate-from-hcode.html">JavaScript (novo)</a> para obter informações sobre como baixar o código localmente para copiar e colar no campo <span class="wintitle">Editar código</span> no <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Gerenciamento de biblioteca</a>. </p> <p>Preencha os campos específicos da configuração manual: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID da conta de produção:</b> (obrigatório) sua conta de produção para a coleta de dados. Para o Analytics, essa é a ID do conjunto de relatórios. O Dynamic Tag Management instala automaticamente a conta correta no ambiente de produção e preparo. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID da conta de armazenamento temporário:</b> (obrigatório) usada no ambiente de desenvolvimento e teste. Para o Analytics, essa é a ID do conjunto de relatórios. Uma conta de preparo mantém os dados de teste separados da produção. </p> </li> 
