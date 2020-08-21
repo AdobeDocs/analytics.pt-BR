@@ -1,22 +1,22 @@
 ---
-title: products
+title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
-# products
+# produtos
 
-A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de vários valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor em itens de dimensão separados.
+A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas de produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de vários valores, o que significa que você pode enviar vários produtos na mesma ocorrência e o Adobe analisa o valor em itens de dimensão separados.
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Certifique-se de definir o evento do carrinho de compras apropriado em cada ocorrência com a `products` variável.
+>Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na variável [`events`](events/events-overview.md), a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina o evento do carrinho de compras apropriado em cada ocorrência com a variável `products`.
 
 ## Produtos no Adobe Experience Platform Launch
 
