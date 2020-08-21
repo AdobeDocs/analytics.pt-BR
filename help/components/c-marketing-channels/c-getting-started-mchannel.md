@@ -1,9 +1,9 @@
 ---
 title: Introdução aos Canais de marketing
 description: Saiba mais sobre o fluxo de trabalho de Canais de marketing, a configuração automática e como aplicar configurações de conjunto de relatórios de modelo a vários conjuntos de relatórios.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Definir os canais que você usa é um dos componentes mais importantes dos Canai
 * Você deseja reunir todos os sites de redes sociais, ou há algo que deseja acompanhar individualmente?
 * Há outros canais que poderiam afetar a conversão que você deseja acompanhar?
 
-Há uma lista de canais recomendados em [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a ativação e definição dos canais durante sua criação.
+Há uma lista de canais recomendados em  [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a ativação e definição dos canais durante sua criação.
 
 ![](assets/step2_icon.png) Adicione canais de marketing na página [!UICONTROL Gerenciador de canal de marketing].
 
@@ -47,7 +47,7 @@ Consulte [Adicionar canais de marketing](/help/components/c-marketing-channels/c
 
 Após criar os canais na página [!UICONTROL Gerenciador de Canal de marketing], configure as regras para que os canais possam recuperar e relatar dados.
 
-Consulte [Regras de processamento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
+Consulte  [Regras de processamento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
 Se os canais tiverem sido criados na configuração automática, as regras nesses canais são definidas. É possível modificá-las de acordo com suas necessidades.
 
