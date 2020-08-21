@@ -1,18 +1,18 @@
 ---
-title: Devoluções
+title: Rejeições
 description: O número de visitas com exatamente uma ocorrência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Devoluções
+# Rejeições
 
-A métrica &#39;Rejeições&#39; mostra o número de visitas que continham exatamente uma ocorrência. Você pode usar essa métrica para entender a relação entre o tráfego de rejeição e o tráfego de não rejeição obtido, para ver as principais páginas de entrada que fazem com que os visitantes pulem ou para ver a tendência do número total de rejeições ao longo do tempo.
+A métrica “Rejeições” mostra o número de visitas que continham exatamente uma ocorrência. Essa métrica pode ser utilizada para entender a proporção obtida entre o tráfego de rejeição e não rejeição, para ver as principais páginas de entrada que fazem com que os visitantes abandonem a página ou para ver a tendência do número total de rejeições ao longo do tempo.
 
 ## Como essa métrica é calculada
 
@@ -20,4 +20,4 @@ Se uma visita consiste em exatamente uma ocorrência, a ocorrência é considera
 
 >[!NOTE]
 >
->Se um visitante dispara uma visualização de página e uma chamada de rastreamento de link, a visita não é considerada uma rejeição. Considere usar visitas [de página](single-page-visits.md) única.
+>Se um visitante acionar uma visualização da página e um chamada de rastreamento de link, a visita não é considerada uma rejeição. Considere utilizar [Visitas em única página](single-page-visits.md).
