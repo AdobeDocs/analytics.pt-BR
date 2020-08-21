@@ -1,9 +1,9 @@
 ---
 title: doPlugins
 description: Configure a lógica antes de uma ocorrência ser compilada e enviada para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->As versões anteriores do AppMeasurement tinham um código da `doPlugins()` ligeiramente diferente. A Adobe indica usar o formato acima como prática recomendada.
+>As versões anteriores do AppMeasurement tinham um código de `doPlugins()` ligeiramente diferente. A Adobe recomenda usar o formato acima como prática recomendada.
