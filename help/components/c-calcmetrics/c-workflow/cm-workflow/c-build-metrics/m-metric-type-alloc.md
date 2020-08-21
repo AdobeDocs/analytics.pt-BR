@@ -2,11 +2,11 @@
 description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,19 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 
 >[!IMPORTANT]
 >
->Em julho de 2018, o [!DNL Analytics] introduziu o [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
+>Em julho de 2018, o [!DNL Analytics] introduziu o [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
->* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida na Analysis Workspace, Reports &amp; Analytics, na API de relatório, no Report Builder e na Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
+>* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, Reports &amp; Analytics, na API de relatório, no Report Builder e na Ad Hoc Analysis. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
+
 >
 
 
 
-## Como a alocação linear funciona (a partir de 19 de julho de 2018)
+## Como a alocação linear funciona (desde 19 de julho de 2018)
 
-Em julho de 2018, o Adobe alterou a maneira como a alocação linear é reportada para Métricas calculadas. Essa alteração afeta a Analysis Workspace, a Ad Hoc Analysis, o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afeta principalmente as eVars e outras dimensões que têm persistência. Observe que essas alterações se aplicam somente às métricas calculadas e não afetam outros relatórios usando alocação linear (como o relatório Páginas no Relatórios e análises). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
+Em julho de 2018, o Adobe alterou a maneira como a alocação linear é informada para Métricas calculadas. Essa alteração afeta o Analysis Workspace, a Ad Hoc Analysis, o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afetará principalmente as eVars e outras dimensões persistentes. Observe que essas alterações serão aplicadas apenas às métricas calculadas e não afetarão outros relatórios que usem alocação linear (como o relatório Páginas no Reports &amp; Analytics). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
 
 O seguinte exemplo ilustra como as métricas calculadas com alocação linear serão alteradas nos relatórios:
 
@@ -52,14 +53,14 @@ O seguinte exemplo ilustra como as métricas calculadas com alocação linear se
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
 
-## Diferenças em como a alocação linear funciona em Relatórios e análises versus Espaço de trabalho
+## Diferenças em como a alocação linear funciona no Reports &amp; Analytics e no Workspace
 
-Há algumas diferenças em como a atribuição linear funciona entre essas duas ferramentas:
+Há algumas diferenças em como a atribuição linear funciona nessas duas ferramentas:
 
-* Em Relatórios e análises, a atribuição linear (processada) sempre é baseada em visita, enquanto no Workspace, pode ser baseada em visita ou visitante.
-* Em Relatórios e análises, se Nenhum valor fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria na visita anterior. Esse NÃO é o caso no Workspace (QI de atribuição). Se nenhum valor for transmitido na primeira ocorrência de uma visita, então &#39;Nenhum&#39; será o valor inicial.
+* No Reports &amp; Analytics, a atribuição linear (processada) sempre é baseada em visitas, e no Workspace pode ser baseada em visitas ou visitantes.
+* No Reports &amp; Analytics, se o valor Nenhum fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria da visita anterior. Esse NÃO é o caso no Workspace (Attribution IQ). Se nenhum valor for transmitido na primeira ocorrência de uma visita, “Nenhum” será o valor inicial.
 
-## Como funcionou a alocação linear antes de julho de 2018
+## Como a alocação linear funcionava antes de julho de 2018
 
 Antes de 19 de julho de 2018, a atribuição linear era calculada após a persistência do primeiro contato ou do último contato já ter ocorrido. Isso significava que para a eVar último contato acima, os US$10 seriam distribuídos da seguinte maneira: A = 10 * (3/6) = US$5, B = 10 * (2/6) = US$3,33, C = 10 * (1/6) = US$1,67.
 
