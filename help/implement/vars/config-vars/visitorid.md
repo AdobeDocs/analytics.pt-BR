@@ -1,11 +1,11 @@
 ---
 title: visitorID
 description: Use uma ID de visitante personalizada.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ A Adobe usa vários métodos diferentes para identificar visitantes em seu site.
 
 >[!IMPORTANT]
 >
->A Adobe recomenda não usar essa variável. Em vez disso, use o [Serviço de Identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
+>A Adobe recomenda não usar essa variável. Em vez disso, use o [Serviço de identidade da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 ## ID de visitante no Adobe Experience Platform Launch
 
@@ -43,4 +43,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Uma implementação inválida de IDs de visitante personalizadas pode levar a dados incorretos e a um desempenho ruim do relatórios. Se essa variável contiver um valor padrão (como `"0"` ou `"NULL"`), a Adobe tratará essas ocorrências como se elas fossem o mesmo visitante. Essa situação resulta em dados incorretos, com contagens baixas de visitantes e segmentos de nível de visitante não funcionando como esperado. As IDs de visitante personalizadas implementadas incorretamente também apresentam grande carga nos servidores de processamento, aumentando a [latência](/help/technotes/latency.md) e diminuindo o desempenho do relatório.
+>Uma implementação inválida de IDs de visitantes personalizadas pode gerar dados incorretos e relatórios com desempenho inadequado. Se essa variável tiver um valor padrão (como `"0"` ou `"NULL"`), a Adobe tratará essas ocorrências como se elas fossem o mesmo visitante. Essa situação resulta em dados incorretos, com contagens baixas de visitantes e em segmentos de nível de visitante que não funcionam como esperado. As IDs de visitante personalizadas implementadas incorretamente também apresentam grande carga nos servidores de processamento, aumentando a [latência](/help/technotes/latency.md) e diminuindo o desempenho do relatório.
