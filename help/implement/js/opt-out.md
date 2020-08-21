@@ -1,9 +1,9 @@
 ---
 title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Por exemplo, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carrega a 
 
 >[!TIP]
 >
->O valor da cadeia de caracteres de consulta `en_US` não é necessário, pois a página é carregada em inglês por padrão.
+>O valor da sequência de consulta `en_US` não é necessário, pois a página é carregada em inglês por padrão.
 
 ### Pop-up
 
