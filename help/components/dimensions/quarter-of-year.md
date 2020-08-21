@@ -1,11 +1,11 @@
 ---
 title: Trimestre do ano
-description: O trimestre numérico do ano, independentemente do ano.
+description: O trimestre numérico, independentemente do ano.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 
@@ -16,8 +16,8 @@ A dimensão &#39;Trimestre do ano&#39; relata o trimestre de um determinado ano 
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios contiver dados, essa dimensão funcionará.
+Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
 
-## Itens de dimensão
+## itens de Dimension
 
-Os itens de dimensão incluem trimestres numéricos do ano (`1` para `4`), representando o trimestre do ano em que a ocorrência ocorreu.
+Dimension items include numeric quarters of the year (`1` to `4`), representing the quarter of the year that the hit occurred on.
