@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 2%
+ht-degree: 78%
 
 ---
 
@@ -20,5 +20,5 @@ Essa métrica conta todas as chamadas de rastreamento de visualização de pági
 
 ## Comparar a métricas semelhantes
 
-* **visualizações de página versus[visitas](visits.md)**: As visualizações de página contam o número de vezes que uma página é visualizada. Visitas conta o número de sessões para visitantes. Uma visita consiste em uma ou mais páginas.
-* **visualizações de página x eventos[de](page-events.md)**página: As visualizações de página contam o número de chamadas de rastreamento de visualização de página (`t()`) e excluem chamadas de rastreamento de link (`tl()`). eventos de página é o oposto; conta o número de chamadas de rastreamento de link e exclui visualizações de página.
+* **Visualizações de página versus[visitas](visits.md)**: as visualizações de página contam o número de vezes que uma página é visualizada. A métrica Visitas conta o número de sessões para visitantes. Uma visita consiste em uma ou mais páginas.
+* **Visualizações de página versus[Eventos de página](page-events.md)**: as visualizações de página contam o número de chamadas de rastreamento de visualização de página (`t()`) e excluem chamadas de rastreamento de link (`tl()`). Eventos de página é o oposto; conta o número de chamadas de rastreamento de link e exclui visualizações de página.
