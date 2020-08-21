@@ -17,7 +17,7 @@ Conjuntos de relatórios virtuais podem ser curados para incluir e excluir compo
 
 >[!NOTE]
 >
->As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados do Workspace e em conjuntos de relatórios virtuais (VRS) preparados. Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
+>As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados do Workspace e em conjuntos de relatórios virtuais (VRS) preparados. Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
 
 Para permitir a curadoria de componentes,
 
@@ -64,7 +64,7 @@ Na Analysis Workspace, clique no ícone de informações de qualquer componente 
 
 ![](assets/vrs-aw-renamed.png)
 
-## Grupos de componentes  {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Grupos de componentes   {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Use grupos de componentes para criar adições de componentes em massa ao seu conjunto de relatórios virtual. Por exemplo, se você quiser importar um conjunto padrão de componentes específicos da análise de aplicativos móveis, selecione o grupo de aplicativos móveis. Um conjunto correspondente de dimensões e métricas (já renomeadas) é adicionado automaticamente à lista de Incluídos do conjunto de relatórios virtual.
 
