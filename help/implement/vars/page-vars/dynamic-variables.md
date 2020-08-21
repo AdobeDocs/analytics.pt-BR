@@ -26,7 +26,7 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 
 ## Variáveis dinâmicas no Adobe Experience Platform Launch
 
-É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. Os itens de dimensão normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou em regras.
+É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. itens de Dimension normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou sob as regras.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
