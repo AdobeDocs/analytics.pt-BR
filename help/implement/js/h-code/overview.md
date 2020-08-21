@@ -25,8 +25,8 @@ ht-degree: 100%
 1. **Atualizar variáveis do arquivo JS principal**: edite o arquivo `s_code.js` e verifique se as seguintes variáveis foram atualizadas:
    * `s_account` contém a ID do conjunto de relatórios para a qual você deseja enviar dados. Consulte
    * `s.trackingServer` contém os cookies de localização armazenados. Consulte [trackingServer](../../vars/config-vars/trackingserver.md).
-1. **Hospede o arquivo`s_code.js`no site**: geralmente, esse arquivo reside em outros scripts no servidor da Web.
-1. **Referência`s_code.js`em todas as páginas**: verifique se todas as páginas individuais chamam o arquivo JavaScript principal, e faça isso dentro da tag HTML `<body>` (não na tag `<head>`).
+1. **Hospede o arquivo `s_code.js` no site**: geralmente, esse arquivo reside em outros scripts no servidor da Web.
+1. **Referência `s_code.js` em todas as páginas**: verifique se todas as páginas individuais chamam o arquivo JavaScript principal, e faça isso dentro da tag HTML `<body>` (não na tag `<head>`).
 
    >[!TIP]
    >
