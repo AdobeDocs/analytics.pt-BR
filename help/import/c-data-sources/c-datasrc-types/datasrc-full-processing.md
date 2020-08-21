@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Processamento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->A Adobe recomenda que os clientes usem a API de inserção de dados em [massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. As fontes de dados de processamento completo serão substituídas no futuro.
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. As fontes de dados de processamento completo serão substituídas no futuro.
 
-A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
+A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
 As fontes de dados de processamento completa são processadas como se fossem recebidas pelos servidores da Adobe no tempo especificado (cada ocorrência contém um carimbo de data e hora).
 
@@ -60,13 +60,13 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   </tr> 
   <tr> 
    <td colname="col1"> <p>carimbo de data e hora </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>data </p> </td> 
    <td colname="col3"> <p>Use o formato de data ISO 8601, <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (por exemplo, <code> 2013-09-01T12:00:00-07:00 </code>), ou o formato de hora Unix (o total de segundos decorridos desde 1° de janeiro de 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, ou seja &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
+   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, ou seja &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome da hierarquia. É possível ter até 5 hierarquias ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Você pode especificar o nome de hierarquia padrão (<span class="varname">hier2</span>) ou um nome amigável (<span class="term">Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nome da hierarquia. É possível ter até 5 hierarquias (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Você pode especificar o nome de hierarquia padrão (<span class="varname">hier2</span>) ou um nome amigável (<span class="term">Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -117,14 +117,14 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
    <td colname="col3"> <p>URL da página (por exemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col1"> <p>produtos </p> </td> 
+   <td colname="col2"> <p>produtos </p> </td> 
    <td colname="col3"> <p>Lista de produtos (por exemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, ou seja &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Seção de Esportes </span>). </p> </td> 
+   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo,  <span class="term"> Seção de Esportes </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -142,13 +142,13 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
    <td colname="col3"> <p>Sequência de caracteres do servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col1"> <p>Estado </p> </td> 
+   <td colname="col2"> <p>Estado </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres do estado de conversão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>zip </p> </td> 
+   <td colname="col1"> <p>CEP </p> </td> 
+   <td colname="col2"> <p>CEP </p> </td> 
    <td colname="col3"> <p>CEP de conversão. </p> </td> 
   </tr> 
  </tbody> 
@@ -174,7 +174,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
+   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
