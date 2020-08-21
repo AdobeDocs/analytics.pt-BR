@@ -3,9 +3,9 @@ description: O Gerenciador de solicitações permite que você visualize, dupliq
 title: Gerenciar solicitações do Data Warehouse
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
