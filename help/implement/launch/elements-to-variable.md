@@ -1,9 +1,9 @@
 ---
 title: Mapear elementos de dados do Launch para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
