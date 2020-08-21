@@ -3,9 +3,9 @@ description: Etapas para adicionar eventos de calendário e gerenciar eventos co
 title: Eventos de calendário
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -35,12 +35,13 @@ Para relatórios de tendências ao longo de um período, você pode exibir grafi
    1. Clique em **[!UICONTROL Encaminhar para usuários]**.
    1. Clique em **[!UICONTROL Marcar tudo]** ou marque a caixa ao lado do nome do usuário.
    1. Clique em **[!UICONTROL Salvar]**.
+
    Isso torna os Eventos de calendário muito mais úteis. Agora, os analistas são capazes de colocar uma sobreposição nos relatórios dos usuários para oferecer mais contexto.
 1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendário]**.
 1. Em **[!UICONTROL Eventos de calendário compartilhados]**, especifique uma dessas opções:
 
-   | **Copiar-me** | Adiciona uma cópia à lista de painéis, com o mesmo nome do original. No entanto, você não pode visualizar qualquer atualização/alteração efetuada pelo proprietário do evento. |
+   | **Copiar-me** | Adiciona uma cópia à lista de painéis, com o mesmo nome do original. No entanto, você não pode visualizar qualquer atualização/alteração feita pelo proprietário do evento. |
    |---|---|
    | **No Relatório** | Permite que você visualize alterações/atualizações efetuadas pelo proprietário do evento. |
-   | **Não Compartilhar** | Remove esse evento da lista de eventos compartilhados. |
+   | **Não compartilhar** | Remove esse evento da lista de eventos compartilhados. |
 
