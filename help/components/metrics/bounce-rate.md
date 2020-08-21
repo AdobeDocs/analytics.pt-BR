@@ -1,11 +1,11 @@
 ---
 title: Taxa de rejeição
-description: A proporção de visitas com exatamente uma ocorrência sobre entradas.
+description: A proporção de visitas com exatamente uma ocorrência pelo número de entradas.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 5%
+ht-degree: 63%
 
 ---
 
