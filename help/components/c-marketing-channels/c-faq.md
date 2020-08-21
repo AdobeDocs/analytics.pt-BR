@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ Perguntas frequentes sobre canais de marketing.
 
 ## Meus códigos de rastreamento não seguem um padrão, e eu tenho milhares que devem ser especificados para meu canal de afiliados.
 
-* Use o processo de eliminação. Se os seus canais Email e Afiliados usam o mesmo parâmetro de sequência de consulta, mas você dispõe de apenas alguns códigos de acompanhamento de email, especifique os códigos de acompanhamento de email em um conjunto de regras que definam email. Em seguida, classifique todos os outros códigos de acompanhamento com *`affiliates.`*
+* Use o processo de eliminação. Se os seus canais Email e Afiliados usam o mesmo parâmetro de sequência de consulta, mas você dispõe de apenas alguns códigos de acompanhamento de email, especifique os códigos de acompanhamento de email em um conjunto de regras que definam email. Em seguida, classifique todos os outros códigos de acompanhamento com  *`affiliates.`*
 * Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página inicial, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. Se não contiver *`eml`*, será um afiliado.
 
 ## Os domínios de referência contêm mais dados do que eu esperava.
@@ -31,7 +31,7 @@ Perguntas frequentes sobre canais de marketing.
 
 ## Por que todo o meu tráfego de último toque é atribuído a um domínio interno?
 
-* Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
+* Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a  *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
 
 ## Como faço para depurar o tráfego exibido em Nenhum Canal identificado no relatório?
 
@@ -55,13 +55,13 @@ Por último, crie um canal *Outro* para capturar as ocorrências restantes, conf
 
 ## Relação entre primeiro e último contato
 
-Para entender a interação entre as dimensões de primeiro e último toque herdadas e confirmar que as substituições funcionam como esperado, você pode obter um relatório de canal de primeiro toque, sub-relacionado a um relatório de canal de último toque, com sua métrica de sucesso principal adicionada (consulte o exemplo abaixo). O exemplo demonstra a interação entre canais de primeiro e último toque.
+Para entender a interação entre as dimensões de primeiro e último toque e confirmar que as substituições funcionam como esperado, você pode obter um relatório de canal de primeiro toque, sub-relacionado a um relatório de canal de último toque, com a métrica de sucesso principal adicionada (consulte o exemplo abaixo). O exemplo demonstra a interação entre canais de primeiro e último toque.
 
 ![](assets/int-channel3.png)
 
-A interseção onde primeiro é igual ao último toque é a diagonal da tabela. A Atualização direta e a Atualização de sessão recebem crédito de último toque somente se forem canais de primeiro toque, pois não podem receber crédito de outros canais persistentes (linhas destacadas).
+A intersecção onde primeiro é igual ao último toque é a diagonal da tabela. A Atualização direta e a Atualização de sessão recebem crédito de último toque somente se forem canais de primeiro toque, pois não podem receber crédito de outros canais persistentes (linhas destacadas).
 
-## Motivos para Nenhum Canal Identificado {#no-channel-identified}
+## Motivos para Nenhum canal identificado {#no-channel-identified}
 
 Quando as regras não capturam dados ou se as regras não estão configuradas corretamente, o relatório exibe os dados na linha [!UICONTROL Nenhum Canal Identificado] do relatório. É possível criar um conjunto de regras chamado *Outros*, por exemplo, no fim da sua ordem de processamento, que também identifica o tráfego interno, como segue.
 
@@ -73,9 +73,9 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 >
 >Ainda pode haver algum tráfego de canal que caiba na categoria Nenhum canal identificado. Por exemplo: um visitante entra no site, marca uma página e, na mesma visita, retorna à página por meio do marcador. Como não é a primeira página da visita, o tráfego não irá para o canal Direto nem para o canal Outro, pois não há um domínio de referência.
 
-## Motivos para Interno (Atualização da Sessão) {#internal}
+## Motivos para interno (Atualização da sessão) {#internal}
 
-Interno de último toque (Atualização da sessão) só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relação entre Primeiro e Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro toque.
+Interno de último toque (Atualização da sessão) só pode ocorrer se também tiver sido o primeiro toque - consulte &quot;Relação entre Primeiro e Último contato&quot; acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro contato.
 
 * **Tempo limite** da sessão: Um visitante acessa o site e deixa a guia aberta em seu navegador para ser usada em uma data posterior. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e usam a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
