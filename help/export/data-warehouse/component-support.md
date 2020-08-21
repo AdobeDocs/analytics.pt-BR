@@ -1,9 +1,9 @@
 ---
 title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -36,14 +36,14 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
 >[!NOTE]
 >
->Se uma dimensão ou métrica não for suportada no Data Warehouse, os segmentos que usam esses componentes também não serão suportados. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
+>Se uma dimensão ou métrica não for aceita no Data Warehouse, os segmentos que usam esses componentes também não serão aceitos. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
 
 ### Dimensões não suportadas
 
 * Algumas dimensões baseadas em tempo, incluindo:
    * AM/PM
    * Dia do mês
-   * Dias da semana
+   * Dia da semana
    * Dia do ano
    * Hora do dia
    * Minuto
@@ -54,27 +54,27 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 * Algumas dimensões baseadas em definição de caminho, incluindo:
    * Todas as dimensões de entrada, exceto Página de entrada
    * Todas as dimensões de saída, exceto Página de saída e Link de saída
-   * Profundidade de ocorrência
+   * Profundidade da ocorrência
    * Frequência de Retorno
    * Tempo antes do evento
-   * Tempo gasto na página - No intervalo
-   * Tempo gasto por visita - Em bucket
+   * Tempo gasto na página - Classificado
+   * Tempo gasto por visita - Classificado
    * Profundidade da Visita
 * Toda a classificação da página de pesquisa
 * Variáveis de hierarquia
 * Tipo de ocorrência
 * Páginas não encontradas (disponível como uma dimensão; não suportado para segmentação)
 * Pesquisa paga
-* Visitas únicas à página
+* Visitas em única página
 * Motivo da desativação do rastreamento
 * Estados dos Estados Unidos
 
 ### Métricas não suportadas
 
 * Algumas métricas baseadas em definição de caminho, incluindo:
-   * Devoluções
+   * Rejeições
    * Entradas
    * Saídas
    * Recargas
-   * Único Acesso
+   * Acesso único
    * Métricas de ‘tempo gasto’
