@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | Nome da coluna | Descrição da coluna | Tipo de dados |
 | --- | --- | --- |
 | `accept_language` | Lista todas as linguagens aceitas, conforme indicado no cabeçalho Linguagem aceita de HTTP em uma solicitação de imagem. | char(20) |
-| `aemassetid` | Uma variável multivalor correspondente a IDs de ativos (GUID&#39;s) de um conjunto de ativos do Adobe Experience Manager. Incrementa eventos de impressão. | text |
+| `aemassetid` | Uma variável multivalor correspondente a IDs de ativos (GUID&#39;s) de um conjunto de ativos do Adobe Experience Manager. Incrementa eventos de impressão. | texto |
 | `aemassetsource` | Identifica a origem do evento do ativo. Usado no Adobe Experience Manager. | varchar(255) |
 | `aemclickedassetid` | ID de ativo referente a um ativo do Adobe Experience Manager. Incrementa eventos de clique. | varchar(255) |
 | `browser` | ID numérica do navegador. Faz referência à tabela de pesquisa browser.tsv. | int unsigned |
@@ -70,7 +70,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `duplicated_from` | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
 | `ef_id` | A ef_id usada em integrações da Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variáveis personalizadas 1-250. Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter informações sobre como sua organização popula as respectivas eVars seria um documento de design da solução específico da sua organização. | varchar(255) |
-| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Inclui tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa event.tsv. | text |
+| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Inclui tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa event.tsv. | texto |
 | `exclude_hit` | Sinalizador indicando que a ocorrência está excluída de relatórios. A coluna visit_num não sofre alteração com as ocorrências excluídas.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão do agente usuário<br>4: Exclusão baseada em endereço de IP<br>5: Informações vitais de ocorrência ausentes, como URL de página, nome de página, evento de página ou lista de eventos<br>6: JavaScript não processou a ocorrência corretamente<br>7: Exclusão específica da conta, como nas regras VISTA<br>8: Não usado. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
 | `first_hit_page_url` | O primeiro URL do visitante. | varchar(255) |
 | `first_hit_pagename` | Variável usada na dimensão Página de entrada original. O nome original da página de entrada do visitante. | varchar(100) |
@@ -102,7 +102,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `latlon1` | Localização (abaixo de 10 km) | varchar(255) |
 | `latlon23` | Localização (abaixo de 100 m) | varchar(255) |
 | `latlon45` | Localização (abaixo de 1 m) | varchar(255) |
-| `mc_audiences` | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. | text |
+| `mc_audiences` | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. | texto |
 | `mcvisid` | ID de visitante da Experience Cloud. Número de 128 bits que consiste em dois números concatenados de 64 bits arredondados para 19 dígitos. | varchar(255) |
 | `mobile_id` | Se o visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. | int |
 | `mobileaction` | Ação em dispositivo móvel. Coletado automaticamente quando trackAction é chamado no Mobile Services. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
@@ -147,15 +147,15 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `mobilerelaunchcampaigntrackingcode` | Coletada da variável de dados de contexto a.launch.campaign.trackingcode. Usado na aquisição como o código de rastreamento para a campanha de lançamento. | varchar(255) |
 | `mobileresolution` | Resolução do dispositivo móvel. Largura x altura em pixels. | varchar(255) |
 | `monthly_visitor` | Sinalizador indicando que o visitante é exclusivo no mês atual. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | Lista de valores de variáveis. Contém uma lista delimitada de valores personalizados dependendo da implementação. | text |
+| `mvvar1` - `mvvar3` | Lista de valores de variáveis. Contém uma lista delimitada de valores personalizados dependendo da implementação. | texto |
 | `namespace` | Não usado. Parte de um recurso removido anos atrás. | varchar(50) |
 | `new_visit` | Um sinalizador que determina se ocorrência atual é uma nova visita. Definido por servidores da Adobe depois de 30 minutos de inatividade da visita. | tinyint unsigned |
 | `os` | ID numérica que representa o sistema operacional do visitante. Com base na coluna user_agent. Usa pesquisa de sistema operacional. | int unsigned |
-| `p_plugins` | Não está mais em uso. Lista de plug-ins disponíveis para o navegador. Usado na função navigator.plugins() do JavaScript. | text |
+| `p_plugins` | Não está mais em uso. Lista de plug-ins disponíveis para o navegador. Usado na função navigator.plugins() do JavaScript. | texto |
 | `page_event` | O tipo de ocorrência que é enviado na solicitação da imagem (ocorrência padrão, link de download, link personalizado, link de saída). [Pesquisa de evento da página](datafeeds-page-event.md). | tinyint unsigned |
-| `page_event_var1` | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | text |
+| `page_event_var1` | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | texto |
 | `page_event_var2` | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. | varchar(100) |
-| `page_event_var3` | Não está mais em uso. Continha dados de módulo de Pesquisa e de Mídia. Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | text |
+| `page_event_var3` | Não está mais em uso. Continha dados de módulo de Pesquisa e de Mídia. Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | texto |
 | `page_type` | Usado para preencher a dimensão Páginas não encontradas, usada exclusivamente para páginas 404. Esta variável deve estar vazia ou conter “ErrorPage”. | char(20) |
 | `page_url` | O URL da ocorrência. Não usada em solicitações de imagem de rastreamento de link. | varchar(255) |
 | `pagename` | Usado para preencher a dimensão Páginas. Se a variável de nome de página estiver vazia, o Analytics usa page_url. | varchar(100) |
@@ -167,8 +167,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `pointofinterestdistance` | Centro de distância do Mobile Services ao ponto de interesse | varchar(255) |
 | `post_ columns` | Contém o valor usado por último em relatórios. Cada coluna de publicação contém valores após a lógica do lado do servidor, regras de processamento e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos. | Consulte a respectiva coluna de não-publicação |
 | `prev_page` | Não usado. Identificador da Adobe da página anterior. | int unsigned |
-| `product_list` | Lista de produto conforme enviado por meio da variável de produtos. Produtos são delimitados por vírgulas, propriedades de produtos individuais são delimitados por ponto e vírgula. | text |
-| `product_merchandising` | Não usado. Em vez disso, use product_list. | text |
+| `product_list` | Lista de produto conforme enviado por meio da variável de produtos. Produtos são delimitados por vírgulas, propriedades de produtos individuais são delimitados por ponto e vírgula. | texto |
+| `product_merchandising` | Não usado. Em vez disso, use product_list. | texto |
 | `prop1` - `prop75` | Variáveis de tráfego personalizadas 1 - 75. | varchar(100) |
 | `purchaseid` | Identificador exclusivo de uma compra, definido usando a variável s_purchaseID. Usado pela coluna duplicate_purchase. | char(20) |
 | `quarterly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
@@ -200,20 +200,20 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `socialownedpropertypropertyvsapp` | Não está mais em uso. Propriedade social vs aplicativo | varchar(255) |
 | `state` | Variável de estado. | varchar(50) |
 | `stats_server` | Não está em uso. Servidor interno da Adobe que processou o hit. | char(30) |
-| `t_time_info` | Horário local do visitante. O formato é: M/D/AAAA HH:MM:SS Mês (0-11, 0=Janeiro) Deslocamento do fuso horário (em minutos) | varchar(100) |
-| `tnt` | Usado em integrações do Adobe Target. | text |
-| `tnt_action` | Usado em integrações do Adobe Target. | text |
-| `tnt_post_vista` | Não está mais em uso. Em vez disso, use post_tnt. | text |
-| `transactionid` | Um identificador exclusivo, em que vários pontos de dados podem ser carregados posteriormente via fontes de dados. | text |
+| `t_time_info` | Horário local do visitante. O formato é:  M/D/AAAA HH:MM:SS Mês (0-11, 0=Janeiro) Deslocamento do fuso horário (em minutos) | varchar(100) |
+| `tnt` | Usado em integrações do Adobe Target. | texto |
+| `tnt_action` | Usado em integrações do Adobe Target. | texto |
+| `tnt_post_vista` | Não está mais em uso. Em vez disso, use post_tnt. | texto |
+| `transactionid` | Um identificador exclusivo, em que vários pontos de dados podem ser carregados posteriormente via fontes de dados. | texto |
 | `truncated_hit` | Um sinalizador que indica que a solicitação de imagem estava truncada. Indica que uma ocorrência parcial foi recebida. <br>Y: Ocorrência truncada; ocorrência parcial recebida <br>N: Ocorrência não truncada; ocorrência total recebida | char(1) |
 | `ua_color` | Não está mais em uso. Anteriormente usado como um fallback de intensidade de cor. | char(20) |
 | `ua_os` | Não está mais em uso. Anteriormente usado como um fallback de sistema operacional. | char(80) |
 | `ua_pixels` | Não está mais em uso. Anteriormente usado como um fallback de altura e largura do navegador. | char(20) |
-| `user_agent` | Sequência de caracteres do agente do usuário enviada no cabeçalho HTTP da solicitação de imagem. | text |
+| `user_agent` | Sequência de caracteres do agente do usuário enviada no cabeçalho HTTP da solicitação de imagem. | texto |
 | `user_hash` | Não está em uso. Hash na ID do report suite. Em vez disso, use username. | int unsigned |
 | `user_server` | Variável usada na dimensão Servidor. | varchar(100) |
 | `userid` | Não está em uso. A ID numérica da ID do conjunto de relatórios. Em vez disso, use username. | int unsigned |
-| `username` | A ID do conjunto de relatórios para a ocorrência. | char(40) |
+| `username` | A ID do conjunto de relatórios  para a ocorrência. | char(40) |
 | `va_closer_detail` | Variável usada na dimensão Detalhes do último contato. | varchar(255) |
 | `va_closer_id` | ID numérica que identifica a dimensão Canal de último contato. A pesquisa desta ID pode ser encontrada no Gerenciador de canais de marketing. | tinyint unsigned |
 | `va_finder_detail` | Variável usada na dimensão Detalhes do primeiro contato. | varchar(255) |
@@ -242,7 +242,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `videodaypart` | Parte do dia do vídeo | varchar(255) |
 | `videoepisode` | Episódio de vídeo | varchar(255) |
 | `videofeedtype` | Tipo de feed do vídeo | varchar(255) |
-| `videogenre` | Gênero de vídeo | text |
+| `videogenre` | Gênero de vídeo | texto |
 | `videolength` | Duração do vídeo | varchar(255) |
 | `videomvpd` | Vídeo MVPD | varchar(255) |
 | `videoname` | Nome do vídeo | varchar(255) |
@@ -255,19 +255,19 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `videoqoebuffertimeevar` | Tempo de buffer de qualidade do vídeo | varchar(255) |
 | `videoqoedroppedframecountevar` | Contagem de redução de qualidade do vídeo em quadros | varchar(255) |
 | `videoqoeerrorcountevar` | Contagem de erros de qualidade do vídeo | varchar(255) |
-| `videoqoeextneralerrors` | Erros externos de qualidade de vídeo | text |
-| `videoqoeplayersdkerrors` | Erros de SDK de qualidade de vídeo | text |
+| `videoqoeextneralerrors` | Erros externos de qualidade de vídeo | texto |
+| `videoqoeplayersdkerrors` | Erros de SDK de qualidade de vídeo | texto |
 | `videoqoetimetostartevar` | Tempo para o início da qualidade do vídeo | varchar(255) |
 | `videoseason` | Temporada de vídeo | varchar(255) |
 | `videosegment` | Segmento de vídeo | varchar(255) |
 | `videoshow` | Exibição de vídeo | varchar(255) |
 | `videoshowtype` | Tipo de exibição de vídeo | varchar(255) |
 | `videostreamtype` | Tipo de fluxo de vídeo | varchar(255) |
-| `visid_high` | Usada em combinação com visid_low para identificar exclusivamente um visitante. | bigint unsigned |
-| `visid_low` | Usada em combinação com visid_high para identificar exclusivamente um visitante. | bigint unsigned |
+| `visid_high` | Usado em combinação com visid_low para identificar um visitante de maneira exclusiva. | bigint unsigned |
+| `visid_low` | Usado em combinação com visid_high para identificar um visitante de maneira exclusiva. | bigint unsigned |
 | `visid_new` | Sinalizador para identificar se a ocorrência contém uma ID de visitante gerada recentemente. | char(1) |
 | `visid_timestamp` | Se a ID do visitante foi gerada recentemente, fornece o carimbo de data e hora (em horário Unix) de quando ela foi gerada. | int |
-| `visid_type` | Não destinado a uso externo; usado internamente pelo Adobe para otimizar o processamento. ID numérica que representa o método usado para identificar o visitante.<br>0: VisitorID personalizado ou Desconhecido/não aplicável<br>1: IP e fallback do agente do usuário <br>2: Cabeçalho do assinante do HTTP Mobile <br>3: Valor do cookie herdado (s_vi) <br>4: Valor do cookie de fallback (s_fid) <br>5: Serviço de identidade | tinyint unsigned |
+| `visid_type` | Não destinado a uso externo; usado internamente pela Adobe para otimizar o processamento. ID numérica que representa o método usado para identificar o visitante.<br>0: ID de visitante personalizado ou desconhecido/não aplicável<br>1: IP e fallback do agente do usuário <br>2: Cabeçalho do assinante do HTTP Mobile <br>3: Valor do cookie herdado (s_vi) <br>4: Valor do cookie de fallback (s_fid) <br>5: Serviço de identidade | tinyint unsigned |
 | `visit_keywords` | Variável usada na dimensão Palavra-chave de pesquisa. Essa coluna usa um limite de caracteres não padrão para acomodar a lógica de back-end usada pela Adobe. | varchar(244) |
 | `visit_num` | Variável usada na dimensão Número de visitas. Começa em 1, e incrementa a cada início de nova visita por visitante. | int unsigned |
 | `visit_page_num` | Variável usada na dimensão Profundidade da ocorrência. Aumenta em 1 para cada ocorrência gerada pelo usuário. Redefine cada visita. | int unsigned |
