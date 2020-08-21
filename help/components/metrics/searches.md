@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ A métrica &quot;Pesquisas&quot; mostra o número de ocorrências que correspond
 
 ## Como essa métrica é calculada
 
-Essa métrica conta o número de ocorrências que correspondem à detecção de pesquisa externa da Adobe. Deve corresponder a ambos os seguintes:
+Essa métrica conta o número de ocorrências que correspondem à detecção de pesquisa externa da Adobe. Ela deve corresponder ao seguinte:
 
-* O valor de quem indicou da ocorrência é um domínio de pesquisa reconhecido pela Adobe
-* O URL de referência da ocorrência contém um parâmetro de string de query de palavra-chave. Devido às práticas modernas de privacidade, esse valor da sequência de caracteres de query geralmente fica em branco. A Adobe reconhece strings de query de palavra-chave em branco como parte da detecção de pesquisa.
+* O valor do referenciador da ocorrência é um domínio de pesquisa reconhecido pela Adobe
+* O URL do referenciador da ocorrência contém um parâmetro de sequência de consulta de palavra-chave. Devido às práticas modernas de privacidade, esse valor da sequência de consulta geralmente fica em branco. A Adobe reconhece sequências de consulta em branco como parte da detecção de pesquisa.
