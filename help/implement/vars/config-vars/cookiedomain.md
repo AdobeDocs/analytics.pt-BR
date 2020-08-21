@@ -1,9 +1,9 @@
 ---
 title: cookieDomain
 description: A variável cookieDomain ajuda a determinar o domínio no qual os cookies serão definidos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
