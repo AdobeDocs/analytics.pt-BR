@@ -1,9 +1,9 @@
 ---
 title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ A serialização de eventos é um processo de implementação de medidas, usado 
 
 >[!NOTE]
 >
->As fontes de dados não são compatíveis com a serialização de eventos ou a eliminação da duplicação.
+>As fontes de dados não são compatíveis com a serialização de eventos ou a desduplicação.
 
 ## Configurar serialização de eventos
 
