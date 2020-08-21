@@ -3,9 +3,9 @@ description: Quando um relatório possuir um grande número de valores únicos, 
 title: Valor de tráfego baixo no Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
