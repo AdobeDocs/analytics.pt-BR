@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Como consequência, é necessário marcar uma caixa de seleção de confirmaçã
 
 Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações:
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final.**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
+* O parâmetro e valor `s_kwcid` será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final.**
+* Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
 
 >[!IMPORTANT]
 >
->Saiba mais sobre se você deve adicionar o `s_kwcid` parâmetro à sua Política [de segurança de](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)conteúdo.
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://docs.adobe.com/content/help/pt-BR/id-service/using/reference/csp.html).
 
-## Rastreamento no modo manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Rastreamento no modo manual  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
 No modo Manual, é necessário especificar como os dados do mecanismo de pesquisa devem ser tratados pelo processo de integração de dados do Advertising Analytics.
 
@@ -60,7 +60,7 @@ Exemplos de códigos de rastreamento em vários formatos de modelo de rastreamen
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`com parâmetro de URL adicional **
+**`{lpurl}`com parâmetro de URL adicional**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ Exemplos de códigos de rastreamento em vários formatos de sufixos de URL final
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`com parâmetro de URL adicional **
+**`{lpurl}`com parâmetro de URL adicional**
 
 ```
 {lpurl}?campaign=PPC&
