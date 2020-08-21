@@ -50,7 +50,7 @@ Quando o AppMeasurement envia dados para os servidores de coleta de dados do Ado
 * **302 ENCONTRADO**: Há algumas razões possíveis para receber esta resposta:
    * A primeira solicitação de imagem de um visitante: Um redirecionamento ocorre se um usuário visitar seu site pela primeira vez. Esse redirecionamento é para obter um cookie de visitante. Isso não afeta a coleta de dados.
    * Integração entre Comscore e Adobe: Se sua organização usar uma integração Comscore/Analytics, cada solicitação de imagem sempre resultará em uma resposta 302.
-* **404 NÃO ENCONTRADO**: Essa resposta significa que a solicitação de imagem não foi encontrada e os dados não são enviados para os servidores de coleta de dados do Adobe. Essa resposta também é possível quando solicitações de imagem codificadas não estão formatadas corretamente. Trabalhe com o indivíduo ou a equipe que implementou a Analytics para resolver esse problema.
+* **404 NÃO ENCONTRADO**: Essa resposta significa que a solicitação de imagem não foi encontrada e os dados não são enviados para os servidores de coleta de dados do Adobe. Essa resposta também é possível quando solicitações de imagem codificadas não estão formatadas corretamente. Trabalhe com o indivíduo ou a equipe que implementou o Analytics para resolver esse problema.
 
 ## NS_BINDING_ABORTED em códigos de resposta
 
