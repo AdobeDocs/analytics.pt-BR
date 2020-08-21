@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -39,13 +39,13 @@ Vários recursos estão disponíveis:
 A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. Não há limite de bytes para essa variável, portanto, ela não é truncada. Os valores válidos incluem:
 
 * `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com o gerente de conta de sua organização se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
-* `purchase`: Aumenta a métrica [&#39;Pedidos&#39;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na `products` variável para calcular [&#39;Unidades&#39;](/help/components/metrics/units.md) e [&#39;Receita&#39;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.
-* `prodView`: Aumenta a métrica [&#39;Visualizações](/help/components/metrics/product-views.md) do produto.
-* `scOpen`: Aumenta a métrica [&#39;Carrinhos&#39;](/help/components/metrics/carts.md) .
-* `scAdd`: Aumenta a métrica [&#39;Adições ao carrinho&#39;](/help/components/metrics/cart-additions.md) .
-* `scRemove`: Aumenta a métrica [&#39;Remoções do carrinho&#39;](/help/components/metrics/cart-removals.md) .
-* `scView`: Aumenta a métrica [&#39;Visualizações](/help/components/metrics/cart-views.md) do carrinho.
-* `scCheckout`: Aumenta a métrica [&#39;Check-outs&#39;](/help/components/metrics/checkouts.md) .
+* `purchase`: incrementa a métrica [&quot;Pedidos&quot;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na variável `products` para calcular [&quot;Unidades&quot;](/help/components/metrics/units.md) e [&quot;Receita&quot;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.
+* `prodView`: incrementa a métrica [“Visualizações de produto”](/help/components/metrics/product-views.md).
+* `scOpen`: incrementa a métrica [“Carrinhos”](/help/components/metrics/carts.md).
+* `scAdd`: incrementa a métrica [“Adições ao carrinho”](/help/components/metrics/cart-additions.md).
+* `scRemove`: incrementa a métrica [“Remoções do carrinho”](/help/components/metrics/cart-removals.md).
+* `scView`: incrementa a métrica [“Visualizações do carrinho”](/help/components/metrics/cart-views.md).
+* `scCheckout`: incrementa a métrica [“Check-outs”](/help/components/metrics/checkouts.md).
 
 >[!NOTE]
 >
