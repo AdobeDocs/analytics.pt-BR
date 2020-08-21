@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics e cookies do navegador
 description: Saiba como o Adobe Analytics lida com os cookies de um navegador.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ Para medir o impacto nos relatórios e testes, é importante saber que tipo de v
 
 ## Quais navegadores meus visitantes estão usando mais?
 
-Se estiver interessado em saber mais sobre os navegadores usados pelos visitantes, poderá usar a [Dimensão do navegador](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-browsers.html) do Analytics para determinar quais navegadores são mais usados nos sites. Você também pode usar as Dimensões do Analytics para ver quais navegadores são mais usados de acordo com as regiões geográficas. Para obter mais informações, consulte [Segmentação geográfica](https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+Se estiver interessado em saber mais sobre os navegadores usados pelos visitantes, poderá usar a [Dimensão do navegador](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/browser.html) do Analytics para determinar quais navegadores são mais usados nos sites. Você também pode usar as Dimensões do Analytics para ver quais navegadores são mais usados de acordo com as regiões geográficas. Para obter mais informações, consulte [Segmentação geográfica](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/countries.html).
 
 De acordo com o [comunicado](https://gs.statcounter.com/browser-market-share/all), no final de 2019, a quota de mercado mundial de cada navegador era a seguinte:
 
