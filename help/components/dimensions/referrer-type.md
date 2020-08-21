@@ -1,41 +1,41 @@
 ---
 title: Tipo de referenciador
-description: O tipo de quem indicou, dependendo de onde o visitante veio.
+description: O tipo de referenciador dependendo a origem do visitante.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 # Tipo de referenciador
 
-A dimensão &#39;Tipo de Quem indicou&#39; relata quais visitantes genéricos de canais clicaram para chegar ao site. A Adobe mantém as regras para cada item de dimensão, ao contrário dos canais [de](marketing-channel.md)marketing, onde sua organização mantém regras para cada canal.
+A dimensão “Tipo de referenciador” informa em quais canais genéricos os visitantes clicaram para acessar seu site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor é baseado na [quem indicou](referrer.md) da ocorrência, que depende dos filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Verifique se a dimensão de quem indicou e os filtros internos de URL estão configurados corretamente.
+Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor se baseia no [referenciador](referrer.md) da ocorrência, que depende dos [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md). Verifique se a dimensão do referenciador e os filtros de URL internos estão configurados corretamente.
 
-## Itens de dimensão
+## itens de Dimension
 
-Os itens de dimensão incluem o tipo de quem indicou da ocorrência. Os valores específicos incluem:
+Os itens de Dimension incluem o tipo de quem indicou da ocorrência. Valores específicos incluem:
 
-* **Digitado/Marcado**: Não existem dados de quem indicou para a ocorrência.
-* **Mecanismos** de pesquisa: A quem indicou veio de um mecanismo de pesquisa reconhecido que inclui uma string de query de palavra-chave.
-* **Redes sociais:**: Os dados de Quem indicou pertenciam a uma rede social reconhecida pela Adobe.
-* **Outros sites**: Os dados de Quem indicou não pertenciam a um mecanismo de pesquisa ou rede social reconhecida pela Adobe.
-* **Disco rígido**: Quem indicou originada de uma cópia local de uma página da Web no disco rígido do visitante.
-* **Email**: Quem indicou originada de um URL com um protocolo de `imap://` ou `mail://`. Não inclui serviços de e-mail online, pois eles normalmente usam `https://` protocolo.
+* **Digitado/Marcado**: não existem dados do referenciador para a ocorrência.
+* **Mecanismos de pesquisa**: o referenciador veio de um mecanismo de pesquisa reconhecido que inclui uma sequência de consulta de palavra-chave.
+* **Redes sociais:**: os dados do referenciador pertenciam a uma rede social reconhecida pela Adobe.
+* **Outros sites**: os dados do referenciador não pertenciam a um mecanismo de pesquisa ou rede social reconhecida pela Adobe.
+* **Disco rígido**: o referenciador é originado de uma cópia local de uma página da Web no disco rígido do visitante.
+* **Email**: o referenciador é originado de um URL com um protocolo de `imap://` ou `mail://`. Não inclui serviços de email online, pois eles normalmente utilizam o protocolo `https://`.
 
 ### Redes sociais
 
-A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot; que a Adobe usa. A Adobe oferece essa lista como cortesia para os clientes da Adobe Analytics. Se você quiser recomendar que a Adobe adicione um domínio a essa lista, peça a um representante de suporte em sua organização para entrar em contato com o Atendimento ao cliente.
+A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot; que a Adobe utiliza. A Adobe oferece essa lista como cortesia para os clientes do Adobe Analytics. Se você quiser que a Adobe adicione um domínio a esta lista, peça para um representante de suporte da sua organização entrar em contato com o Atendimento ao cliente.
 
 >[!NOTE]
 >
->Essa lista é diferente da lista padrão das redes sociais nas regras [de processamento do](../c-marketing-channels/c-rules.md)canal de marketing.
+>Essa lista é diferente da lista padrão de redes sociais nas [Regras de processamento de canal de marketing](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -197,7 +197,7 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot;
 
 ### Mecanismos de pesquisa no item de dimensão &quot;Outros sites&quot;
 
-Quando você visualização domínios específicos na dimensão &#39;Tipo de Quem indicou&#39;, pode haver domínios que você esperaria em &#39;Mecanismos de pesquisa&#39; listados em vez de &#39;Outros sites&#39;. Por exemplo, você pode ver `'google.com'` em &#39;Outros sites&#39;.
+Ao visualizar domínios específicos na dimensão “Tipo do referenciador”, é possível encontrar domínios que seriam esperados em &#39;”Mecanismos de pesquisa” em vez de “Outros sites”. Por exemplo, você pode ver `'google.com'` em “Outros sites”.
 
-* **Domínios de mecanismo de pesquisa no item** de dimensão &#39;Mecanismos de pesquisa&#39;: A quem indicou atendeu a todos os critérios para classificar como um mecanismo de pesquisa pela Adobe. O domínio de referência é um mecanismo de pesquisa válido *e* o URL de referência contém um parâmetro de string de query de palavra-chave.
-* **Domínios do mecanismo de pesquisa no item** de dimensão &quot;Outros sites&quot;: O URL de referência não atendia a todos os critérios para classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou não `autos.yahoo.com` são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de query de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
+* **Domínios de mecanismo de pesquisa no item** de dimensão &#39;Mecanismos de pesquisa&#39;: A quem indicou atendeu a todos os critérios para classificar como um mecanismo de pesquisa por Adobe. O domínio referenciador é um mecanismo de pesquisa válido, *e* o URL de referência contém um parâmetro da sequência de consulta de palavras-chave.
+* **Domínios do mecanismo de pesquisa no item** de dimensão &quot;Outros sites&quot;: O URL de referência não atendia a todos os critérios para classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou `autos.yahoo.com` não são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de consulta de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
