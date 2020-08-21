@@ -2,9 +2,9 @@
 description: 'null'
 title: Visão geral do Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Go
 
 >[!NOTE]
 >
->O Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.
+>O Yahoo Gemini foi incorporado pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.
 
-Ao trazer esses dados desses mecanismos de pesquisa juntos para o Adobe Analytics, é possível analisar os mesmos dados usando a Analysis Workspace. Um novo [modelo de Desempenho de pesquisa paga](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) no Workspace facilita essa análise.
+Ao trazer esses dados desses mecanismos de pesquisa juntos para o Adobe Analytics, é possível analisar os mesmos dados usando a Analysis Workspace. Um novo  [modelo de Desempenho de pesquisa paga](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) no Workspace facilita essa análise.
 
 ![](assets/aa_aw.png)
 
