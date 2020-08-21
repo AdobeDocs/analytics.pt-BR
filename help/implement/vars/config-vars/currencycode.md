@@ -1,11 +1,11 @@
 ---
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -32,18 +32,18 @@ O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a ext
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Código monetário].
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## Código de moeda no Adobe Experience Platform Mobile SDK
+## Código monetário no SDK móvel da Adobe Experience Platform 
 
-O código de moeda é passado para os SDKs do Adobe Experience Platform Mobile por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
+O código monetário é passado para os SDKs do Adobe Experience Platform Mobile por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
 
-1. Defina o código de moeda em uma variável de dados de contexto durante `trackState` ou `trackAction`.
-2. Crie uma regra de processamento no console de administração do Adobe Analytics para o conjunto de relatórios. Defina a regra para substituir a variável Código de moeda.
-3. Transmita o código de moeda para a `products` variável na sua chamada para `trackState` ou `trackAction`.
+1. Defina o código monetário em uma variável de dados de contexto durante `trackState` ou `trackAction`.
+2. Crie uma regra de processamento no Admin Console do Adobe Analytics para o conjunto de relatórios. Defina a regra para substituir a variável Código monetário.
+3. Transmita o código monetário para a variável `products` na sua chamada para `trackState` ou `trackAction`.
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
