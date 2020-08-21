@@ -1,18 +1,18 @@
 ---
 title: Idioma
-description: A configuração de idioma preferencial no navegador.
+description: A configuração de idioma preferencial do navegador.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 1%
+ht-degree: 80%
 
 ---
 
 
 # Idioma
 
-A dimensão &#39;Idioma&#39; mostra os principais idiomas nos quais os visitantes preferem ver o conteúdo. Essa dimensão é valiosa quando você quer entender os idiomas preferenciais mais frequentes dos visitantes para auxiliar nos esforços de localização.
+A dimensão “Idioma” mostra os principais idiomas em que os visitantes preferem ver o conteúdo. Essa dimensão é importante quando você quer entender os idiomas preferenciais mais frequentes dos visitantes para auxiliar nas tarefas de localização.
 
 >[!NOTE]
 >
@@ -20,8 +20,8 @@ A dimensão &#39;Idioma&#39; mostra os principais idiomas nos quais os visitante
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho `Accept-Language` HTTP nas solicitações de imagem. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente.
+Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `Accept-Language` nas solicitações de imagem. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente.
 
-## Itens de dimensão
+## itens de Dimension
 
-Os itens de dimensão incluem nomes amigáveis dos idiomas preferidos dos visitantes. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Se uma solicitação de imagem não contiver um idioma válido no cabeçalho HTTP, o item de dimensão será `"None"`.
+Os itens de Dimension incluem nomes amigáveis dos idiomas preferenciais dos visitantes. Os exemplos incluem `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"` e `"Spanish (Spain)"`. If an image request does not contain a valid language in the HTTP header, the dimension item is `"None"`.
