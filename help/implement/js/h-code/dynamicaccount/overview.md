@@ -1,9 +1,9 @@
 ---
 title: Visão geral das contas dinâmicas
 description: Saiba mais sobre como selecionar dinamicamente um conjunto de relatórios usando o Código H.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->As contas dinâmicas só compatíveis com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
+>As contas dinâmicas são compatíveis apenas com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas atuais do AppMeasurement nem no Adobe Experience Platform Launch.
 
 As contas dinâmicas são um recurso de implementação que permite determinar qual conjunto de relatórios usar com base nos critérios definidos. Se sua organização exigir mais de um conjunto de relatórios, mas desejar usar a mesma implementação entre os sites, as contas dinâmicas são uma boa solução.
 
