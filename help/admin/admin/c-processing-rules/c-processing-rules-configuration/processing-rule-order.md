@@ -5,7 +5,10 @@ title: Ordem de processamento
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ As tabelas a seguir apresentam os dados que normalmente estão disponíveis ante
 |--- |--- |
 | Pesquisa de variável dinâmica | As variáveis são preenchidas de maneira dinâmica, puxando informações de cabeçalhos HTTP ou outras variáveis. Por exemplo, `s.eVar5="D=c1"` colocará o valor de prop1 na eVar5. |
 | AppMeasurement | As funções e os plug-ins usados no AppMeasurement são executados no navegador ou no aplicativo cliente. |
-| Dynamic Tag Management | As regras definidas no Dynamic Tag Management são executadas conforme definido. |
+| Gerenciamento de tags | As regras definidas em Adobe Launch ou Gerenciamento dinâmico de tags são executadas conforme definido. |
 | Regras de bot | As [regras de bot](/help/admin/admin/bot-removal/bot-rules.md) permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. |
 
 ## Após as regras de processamento
@@ -40,6 +43,6 @@ As tabelas a seguir apresentam os dados que normalmente estão disponíveis ante
 
 ## Como as regras de processamento são aplicadas quando se copiam ocorrências usando o VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Se você tem uma regra VISTA configurada para copiar ocorrências para outro conjunto de relatórios, as ocorrências são enviadas por meio de quaisquer regras de processamento definidas em outro conjunto de relatórios.
+Se você tiver uma regra VISTA configurada para copiar ocorrências para outro conjunto de relatórios, as ocorrências serão enviadas por meio de quaisquer regras de processamento definidas em outro conjunto de relatórios.
 
 Se você tem regras de processamento definidas no conjunto de relatórios original, elas podem ou não ser aplicadas com base em como a regra VISTA foi configurada pelos Serviços de Engenharia. Para saber, você pode perguntar a seu especialista de implementação se a regra VISTA copia os valores &quot;pré&quot; e &quot;pós&quot; para o conjunto de relatórios adicional. Se o valor &quot;pré&quot; é copiado, as regras de processamento definidas no conjunto de relatórios original não são aplicadas. Se o valor &quot;pós&quot; é copiado, as regras de processamento são aplicadas antes de a ocorrência ser copiada.
