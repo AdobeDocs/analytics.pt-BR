@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Preparação para usar as Fontes de dados
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Etapas que você pode adotar como preparação para usar as fontes de dados
 * [ID da transação](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Identificação de um Intervalo de Datas Válido para Dados da Fonte de Dados](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## Identificar e nomear as métricas {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## Identificar e nomear as métricas  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 É importante conhecer as métricas ou medidas contidas nas fontes de dados, como *`Off-line Sales Revenue by Product`*, *`Returns by Product`* ou *`Ad Impressions by Campaign`*. Esses são os nomes que você associará às métricas do relatório (events, props e eVars).
 
@@ -37,11 +37,11 @@ Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/pt-BR/analytic
 
 ## Identificação das Dimensões de Dados {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identifique e colete os dados (relatórios) que deseja usar para analisar as métricas importadas por meio das Fontes de dados. Esses dados são conhecidos como *`data dimensions`*.
+Identifique e colete os dados (relatórios) que deseja usar para analisar as métricas importadas por meio das Fontes de dados. Esses dados são conhecidos como  *`data dimensions`*.
 
 Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a dimensão de dados provavelmente será um Código de rastreamento da campanha. Se você estiver medindo vendas off-line, convém usar o código do produto (ou SKU) como sua dimensão de dados.
 
-É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados *`Product`* e *`Partner`*, a métrica de vendas offline deverá ser relevante para cada combinação de produto e parceiro (por exemplo, Receita total).
+É possível definir diversas dimensões de dados para uma métrica, mas cada métrica deve fornecer um valor relevante, ou combinação de valores, para cada dimensão de dados associada. Por exemplo, se você importar uma métrica de Vendas offline e associá-la a dimensões de dados  *`Product`* e *`Partner`*, a métrica de vendas offline deverá ser relevante para cada combinação de produto e parceiro (por exemplo, Receita total).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Se você não importar métricas das Fontes de dados com um valor eVar associado
 
 A ID de transação é utilizada para conectar um evento on-line a um evento off-line.
 
-## Identificação de um Intervalo de Datas Válido para Dados da Fonte de Dados {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identificação de um Intervalo de Datas Válido para Dados da Fonte de Dados  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Depois de definir as métricas das suas Fontes de dados (Eventos personalizados) e dimensões de dados (eVars), reveja o intervalo de datas dos dados da Fonte de dados que deseja importar. Não é possível importar fontes de dados que não estejam no intervalo dos dados existentes no relatório.
 
