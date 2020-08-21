@@ -1,16 +1,16 @@
 ---
-title: timestamp
+title: carimbo de data e hora
 description: Defina manualmente o carimbo de data e hora da ocorrência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
 
 
-# timestamp
+# carimbo de data e hora
 
 A variável `timestamp` define manualmente o carimbo de data e hora da ocorrência para conjuntos de relatórios com carimbo de data e hora ativado.
 
