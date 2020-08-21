@@ -1,11 +1,11 @@
 ---
 title: Tempo gasto
 description: Uma página agregada de dimensões e métricas de tempo gasto.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 93%
 
 Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos produtos do Adobe Analytics.
 
-## Métricas de tempo gasto
+## Métricas de ‘tempo gasto’
 
 | Métrica | Definição | Disponível em |
 |---|---|---|
 | [!UICONTROL Total de segundos gastos] | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico. Inclui a instância de um valor e persiste em todas as ocorrências subsequentes. No caso de props, o tempo gasto também é contado em relação a eventos de link subsequentes. | Analysis Workspace, Reports &amp; Analytics, Report Builder (chamado de &quot;tempo total gasto&quot;), Data Warehouse, Ad Hoc Analysis |
-| [!UICONTROL Tempo gasto por visita] (segundos) | *Tempo total gasto / (rejeições de visita)*<br>Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
-| [!UICONTROL Tempo gasto por visitante] (segundos) | *Segundos totais gastos / visitante único *<br>Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
-| [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não está limitado a médias de “site” como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação **: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Reports &amp; Analytics (mostrado em minutos), Report Builder (mostrado em minutos), Ad Hoc Analysis |
+| [!UICONTROL Tempo gasto por visita] (segundos) | *Tempo total gasto / (rejeições de visita)*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Tempo gasto por visitante] (segundos) | *Segundos totais gastos / visitante único*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não está limitado a médias de “site” como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Reports &amp; Analytics (mostrado em minutos), Report Builder (mostrado em minutos), Ad Hoc Analysis |
 | [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, é recomendado usar &quot;Tempo médio gasto no site&quot; se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
 | [!UICONTROL Duração total da sessão], também chamado de [!UICONTROL Duração da sessão anterior] | Somente SDK do aplicativo para dispositivo móvel. <br>Determinada na próxima vez que o aplicativo for inicializado, para a sessão anterior. Calculado em segundos, esta métrica não contabiliza quando o aplicativo está em segundo plano, somente quando está em uso. Esta é uma métrica em nível de sessão.<br>Exemplo: você instala o aplicativo ABC e o inicializa; em seguida, usa o aplicativo por 2 minutos e o fecha. Nenhum dado é enviado sobre este tempo de sessão. Na próxima vez que inicializarmos o aplicativo, a [!UICONTROL Duração da sessão anterior] será enviada com um valor de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Interface do usuário do Mobile Services |
-| [!UICONTROL Duração média da sessão] (dispositivos móveis) | *Duração total da sessão / (Inicializações - Primeiras inicializações)*<br>Somente SDK do aplicativo móvel. Esta é uma métrica em nível de sessão. | Report Builder, interface do usuário do Mobile Services, Ad Hoc Analysis |
+| [!UICONTROL Duração média da sessão] (dispositivos móveis) | *Duração total da sessão / (Inicializações - Primeiras inicializações)*<br> Somente SDK do aplicativo móvel. Esta é uma métrica em nível de sessão. | Report Builder, interface do usuário do Mobile Services, Ad Hoc Analysis |
 
 ## Dimensões de tempo gasto
 
@@ -88,19 +88,19 @@ R: A diferença é o denominador na métrica:
 
 Como resultado, essas métricas também podem fornecer resultados semelhantes em nível de visita, mas serão diferentes em nível de ocorrência.
 
-**P5: Por que os totais de detalhamento com o Tempo[!UICONTROL médio gasto no site]não correspondem ao item de linha pai?**
+**P5: Por que os totais de detalhamento com o [!UICONTROL Tempo médio gasto no site] não correspondem ao item de linha principal?**
 
-A: Como o Tempo [!UICONTROL médio gasto no site] depende de sequências não quebradas de uma dimensão, e o relatório interno não depende do relatório externo ao calcular essas execuções.
+A: Porque o [!UICONTROL Tempo médio gasto no site] depende de sequências ininterruptas de uma dimensão, e o relatório interno não depende do relatório externo ao calcular essas execuções.
 
-Por exemplo, considere a seguinte visita.
+Por exemplo, considere esta visita.
 
 | ocorrência# | 1 | 2 | 3 |
 |---|---|---|---|
 | **Segundos gastos** | 30 | 100 | 10 |
 | **Nome da página** | Início | Produto | Início |
-| **date** | Jan 1 | Jan 1 | Jan 1 |
+| **data** | Jan 1 | Jan 1 | Jan 1 |
 
-Ao calcular o tempo gasto para a página inicial, seria (30+10)/2=20, mas detalhar isso por dia daria (30+10)/1=40, já que o dia tem uma única execução ininterrupta de 1º de janeiro.
+Ao calcular o tempo gasto na página inicial, seria (30+10)/2=20, mas se detalharmos por dia daria (30+10)/1=40, já que o dia tem uma única execução ininterrupta de 1º de janeiro.
 
 Como resultado, essas métricas também podem fornecer resultados semelhantes em nível de visita, mas serão diferentes em nível de ocorrência.
 
@@ -113,7 +113,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tempo decorrido da visita** (segundos) | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
-| **Nome da página** | Início | - | Produto | Início | Início  (recarga) | Carrinho | Confirmação de pedido |
+| **Nome da página** | Início | - | Produto | Início | Início   (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
@@ -145,7 +145,7 @@ Algumas observações adicionais em apoio ao exemplo:
 
 * “Segundos gastos” é a diferença entre o registro de data e hora da ocorrência atual e o registro de data e hora da próxima ocorrência. Como resultado, a última ocorrência da visita (e rejeições) não tem tempo gasto.
 
-* Uma “sequência” é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 “A” tem duas sequencias: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tinha tempo gasto. Tempo médio gasto no site usa as sequências no denominador.
+* Uma “sequência” é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 “A” tem duas sequências: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tinha tempo gasto. Tempo médio gasto no site usa as sequências no denominador.
 
    * Para calcular apenas o Tempo gasto, as props são “expandidas para a frente” a partir das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 (“A”) acumule o tempo gasto na ocorrência 2.
 
