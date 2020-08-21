@@ -2,9 +2,9 @@
 description: Essas alterações no funcionamento das métricas calculadas do Analytics podem afetar você.
 title: Perguntas frequentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2148'
 ht-degree: 100%
 
