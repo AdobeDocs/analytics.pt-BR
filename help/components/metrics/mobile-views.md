@@ -1,19 +1,19 @@
 ---
-title: visualizações móveis
-description: Métrica desativada; não é mais usado.
-translation-type: tm+mt
+title: Exibições para dispositivos móveis
+description: Métrica desativada; não é mais usada.
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# visualizações móveis
+# Exibições para dispositivos móveis
 
 >[!IMPORTANT]
 >
->Esta métrica foi desativada em setembro de 2017. Ele não retorna dados.
+>Essa métrica foi desativada em setembro de 2017. Ela não retorna dados.
 
 Se você quiser uma métrica que mede o tráfego de dispositivos móveis, a Adobe recomenda usar o segmento &quot;Visitas de dispositivos móveis&quot; em um projeto ou métrica calculada.
