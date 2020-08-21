@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Data de lançamento: **21 de fevereiro de 2020**
 
 Data de lançamento: **13 de fevereiro de 2020**
 
-* O AppMeasurement agora pode forçar os cookies a incluírem o atributo Protegido ao configurar a [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variável. O requisito para essa variável é que todo o site do cliente seja atendido com segurança (HTTPS). (AN-204604)
+* O AppMeasurement agora pode forçar os cookies a incluírem o atributo Protegido ao configurar a variável [`writeSecureCookies`](vars/config-vars/writesecurecookies.md). O requisito para essa variável é que todo o site do cliente seja atendido com segurança (HTTPS). (AN-204604)
 
 ## Versão 2.17.0
 
@@ -295,7 +295,7 @@ Data de lançamento: **17 de setembro de 2015**
 
 Data de lançamento: **18 de junho de 2015**
 
-* Suporte para API de Visitante 1.5, que usa o método *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
+* Suporte para API de Visitante 1.5, que usa o método  *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
 * Correção da criação de iframe de destino duplicado no módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Solucionado o problema conhecido descrito na versão 1.4.5.
 
@@ -310,7 +310,7 @@ Data de lançamento: **21 de maio de 2015**
 
 >[!NOTE]
 >
->**Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager], há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
+>**Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager] há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versão 1.4.4
 
@@ -325,7 +325,7 @@ Data de lançamento: **16 de abril de 2015**
 Data de lançamento: **19 de fevereiro de 2015**
 
 * Tornou o gerenciamento do rastreio tardio de chamadas consistente, o que corrigiu problemas com as variáveis revertidas durante o atraso, como por exemplo o objeto clicado.
-* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente nos rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento.
+* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente nos rastreamentos em cadeia) não contarão o referenciador duas vezes quando  *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento.
 * O zip de distribuição foi atualizado para incluir a API de Visitante 1.3.5.
 
 ## Versão 1.4.2
