@@ -5,21 +5,21 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
 
 # Unidades
 
-A métrica &#39;Unidades&#39; mostra o número total de produtos comprados em todos os pedidos. Essa métrica é vital para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais itens de dimensão contribuíram para quantos produtos foram comprados. Por exemplo, você pode ver as campanhas principais (usando a dimensão do código [de](../dimensions/tracking-code.md) rastreamento) ou os termos de pesquisa internos principais (usando uma [eVar](../dimensions/evar.md)) que contribuíram para os produtos comprados.
+A métrica “Unidades” exibe o número total de produtos comprados em todos os pedidos. Essa métrica é essencial para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais itens de dimensão contribuíram para quantos produtos foram comprados. Por exemplo, é possível ver as campanhas principais (utilizando a dimensão [Código de rastreamento](../dimensions/tracking-code.md)) ou os principais termos internos de pesquisa (utilizando uma [eVar](../dimensions/evar.md)) que contribuíram para a compra dos produtos.
 
 ## Como essa métrica é calculada
 
-Para cada ocorrência em que `purchase` existe na [`events`](/help/implement/vars/page-vars/events/events-overview.md) variável, soma o campo &#39;Quantidade&#39; dentro da [`products`](/help/implement/vars/page-vars/products.md) variável.
+Para cada ocorrência em que `purchase` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md), adicione o campo “Quantidade” dentro da variável [`products`](/help/implement/vars/page-vars/products.md).
 
 ## Comparar pedidos e unidades
 
-A métrica [Pedidos](orders.md) registra apenas o número de eventos de compra. A métrica &quot;Unidades&quot; normalmente é maior que &quot;Pedidos&quot;, pois os clientes podem comprar mais de um produto. Nesses casos, existe um único pedido com várias unidades.
+A métrica [Pedidos](orders.md) registra apenas o número de eventos de compra. A métrica &quot;Unidades&quot; geralmente é maior que &quot;Pedidos&quot;, pois os clientes podem comprar mais de um produto. Nesses casos, existe um único pedido com várias unidades.
 
-Se você tiver pedidos maiores que as unidades, a Adobe recomenda verificar a integridade de sua implementação. É provável que sua `products` variável não esteja definida corretamente em compras, o que normalmente é um comportamento indesejado.
+Se você tiver os pedidos maiores que as unidades, a Adobe recomenda verificar a integridade de sua implementação. É provável que sua variável `products` não esteja definida corretamente nas compras, o que geralmente é um comportamento indesejado.
