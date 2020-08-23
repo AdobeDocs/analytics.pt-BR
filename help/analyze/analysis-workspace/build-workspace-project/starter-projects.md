@@ -3,7 +3,7 @@ description: 'null'
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
@@ -77,7 +77,9 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 ### Comércio
 
-* **Magento: marketing e comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: marketing e comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Mídia
 
