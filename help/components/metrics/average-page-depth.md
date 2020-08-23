@@ -2,10 +2,10 @@
 title: Profundidade média da página
 description: Em quantas páginas a dimensão existe em média.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 A métrica &quot;Profundidade média de página&quot; mostra o quão distante em uma determinada visita o item de dimensão está. Por exemplo, geralmente, a página inicial mostraria uma profundidade média de página menor do que a página de confirmação de compra, que normalmente seria mais distante em uma visita. Essa métrica é útil quando você deseja entender quantas páginas em um determinado item de dimensão se situam em média. É possível utilizar essas informações para otimizar determinadas páginas para visitantes novos se a página tiver em média uma baixa profundidade.
 
->[DICA] Use essa métrica junto com outra métrica (como [Visitas](visits.md)) para obter melhores insights. Se você usar essa métrica sozinho, você obterá itens de dimensão que contêm profundidades de página de anomalias, o que normalmente não é valioso.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Se você usar essa métrica sozinho, você obterá itens de dimensão que contêm profundidades de página de anomalias, o que normalmente não é valioso.
 
 ## Como essa métrica é calculada
 
