@@ -3,10 +3,10 @@ title: Analisadores de pacote
 description: Os analisadores de pacote permitem exibir os dados enviados pela implementação para os servidores de coleta de dados da Adobe.
 keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -33,8 +33,8 @@ Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande varie
 | Firefox | Internet Explorer | Chrome | Programas autônomos |
 |---|---|---|---|
 | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [HttpWatch](https://www.httpwatch.com/) | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
