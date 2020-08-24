@@ -3,9 +3,9 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no repositório de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '397'
 ht-degree: 97%
 
 ---
@@ -28,28 +28,26 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 28 de abril de 2020 | Adição de documentação para a métrica [Content Velocity](/help/components/metrics/content-velocity.md). |
 | 12 de março de 2020 | Adição de atualizações para [Publicar segmentos na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de março de 2020 | Atualizações da latência de montagem da CDA. |
-| 27 de fevereiro de 2020 | Adição de documentação para o [Adobe Analytics Labs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/tech-previews/overview.html). |
+| 27 de fevereiro de 2020 | Adição de documentação para o [Adobe Analytics Labs](/help/analyze/tech-previews/overview.md). |
 | 25 de fevereiro de 2020 | Adição da variável [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
 | 18 de fevereiro de 2020 | Variável adicionada. [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação de [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 7 de fevereiro de 2020 | Atualizações da [Configuração de análise entre dispositivos](../components/cda/setup.md) e [Perguntas frequentes](../components/cda/faq.md). |
-| 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](../implement/home.md). |
+| 7 de fevereiro de 2020 | Atualizações da [Configuração de análise entre dispositivos](/help/components/cda/setup.md) e [Perguntas frequentes](/help/components/cda/faq.md). |
+| 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](/help/implement/home.md). |
 | 22 de janeiro de 2020 | Atualização da página Freeform Table para incluir informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 13 de janeiro de 2020 | Adição de [cookies do Adobe Analytics e do navegador](../technotes/cookies.md). |
+| 13 de janeiro de 2020 | Adição de [cookies do Adobe Analytics e do navegador](/help/technotes/cookies.md). |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md). |
-| 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](https://docs.adobe.com/content/help/pt-BR/analytics/admin/company-settings/login-restrictions-eol.html). |
-| 25 de novembro de 2019 | Novo tópico sobre [canal de marketing Interno (atualização de sessão)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html). |
-| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-landing.html). |
-| 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/configuration-variables.html). |
-| 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/cda-home.html). |
-| 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/pwa/pwa.html). |
+| 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](/help/admin/company/login-restrictions-eol.md). |
+| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
+| 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](/help/components/cda/overview.md). |
+| 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/analyze/pwa/pwa.md). |
 | 8 de agosto de 2019 | Novo artigo em [Totais de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
 | 8 de agosto de 2019 | Esclarecimento sobre os [dados de sessão com carimbo de data e hora habilitado](/help/admin/admin/timestamp-optional.md). |
 | 5 de agosto de 2019 | Atualizações dos [Conceitos principais](/help/analyze/reports-analytics/key-concepts.md). |
 | 2 de agosto de 2019 | Atualização importante do [glossário do Analytics](/help/technotes/terms.md). |
 | 22 de julho de 2019 | Adição do Magento: modelo de marketing e comércio para a documentação dos [modelos da Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 de julho de 2019 | Atualização das [Configurações da tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
-| 10 de junho de 2019 | Novo artigo sobre a [Coleta de dados regionais (RDC) da China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html). |
 | 4 de junho de 2019 | Novo guia criado, chamado [Transição de uma plataforma de análise de terceiros para o Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 de maio de 2019 | Reformulação da [Referência da coluna de Feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 11 de abril de 2019 | Atualizações em [Otimizar o desempenho do Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
