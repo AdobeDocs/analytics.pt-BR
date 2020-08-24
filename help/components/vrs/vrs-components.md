@@ -3,9 +3,9 @@ description: Conjuntos de relatórios virtuais podem ser curados para incluir e 
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
+source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Conjuntos de relatórios virtuais podem ser curados para incluir e excluir compo
 
 >[!NOTE]
 >
->As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados do Workspace e em conjuntos de relatórios virtuais (VRS) preparados. Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite um controle mais polido sobre quais componentes ficam visíveis.
+>As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados do Workspace e em conjuntos de relatórios virtuais (VRS) preparados. Anteriormente, qualquer pessoa podia ver componentes não preparados ao clicar no botão **[!UICONTROL Mostrar todos os componentes]**. A [experiência atualizada de preparação](/help/analyze/analysis-workspace/curate-share/curate.md) permite um controle mais polido sobre quais componentes ficam visíveis.
 
 Para permitir a curadoria de componentes,
 
