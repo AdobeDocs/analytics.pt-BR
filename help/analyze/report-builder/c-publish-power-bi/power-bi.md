@@ -2,10 +2,10 @@
 description: 'null'
 title: Publicar no Power BI - Visão geral
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Anteriormente você, como um analista, agendaria pastas de trabalho do Report Bu
 Combinar a capacidade de geração de relatórios do Report Builder com os recursos de visualização do Power BI torna as informações mais acessíveis para todos na organização. Com o Power BI, você também pode integrar o Adobe Analytics com outras fontes de dados (como pontos de venda, CRM) para descobrir percepções, associações e oportunidades de clientes únicos.
 
 ![](assets/aaplusbi.png)
-
-A integração com o Report Builder da Adobe permite
-
-* [Publicar pastas de trabalho agendadas do Report Builder no Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publicar todas as tabelas formatadas na pasta de trabalho como tabelas de conjuntos de dados do Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publicar todas as solicitações do Report Builder como tabelas de conjuntos de dados do Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Requisitos do sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
