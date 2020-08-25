@@ -5,10 +5,10 @@ user-guide-title: Notas técnicas do Analytics
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 93%
+source-wordcount: '147'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 93%
    + [Comunicar eventos aos usuários](event/communicate.md)
 + [Cookies do navegador](cookies.md)
 + [Retenção de dados](data-retention.md)
++ [Excluir dados](exclude-data.md)
 + [Latência](latency.md)
 + [Valor de tráfego baixo](low-traffic.md)
 + [Visão geral de privacidade](privacy-overview.md)
