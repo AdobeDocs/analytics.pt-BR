@@ -2,10 +2,10 @@
 title: Solução de problemas de logon no Adobe Analytics
 description: Etapas a serem executadas quando não for possível fazer logon no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Solucione problemas com o logon no Adobe Analytics usando o Experience Cloud.
 
 ## ID antiga do Analytics
 
-Ocasionalmente, um usuário em sua organização recebe a seguinte mensagem de erro ao fazer logon:
+Um usuário em sua organização pode receber o seguinte erro ao tentar fazer logon:
 
 *Como precaução de segurança, esta conta foi bloqueada devido a muitas tentativas de login com falha.*
 
@@ -53,6 +53,14 @@ Se a limpeza dos cookies/cache do navegador não resolver o problema, entre em c
 ## Logon único
 
 Entre em contato com um administrador em sua organização para resolver problemas de logon único.
+
+## Logons expirados
+
+Um usuário em sua organização pode receber o seguinte erro ao tentar fazer logon:
+
+*Erro: Este logon expirou.*
+
+Este erro funciona conforme desejado. A Adobe Analytics fornece aos administradores a capacidade de definir um intervalo de datas em que uma conta de usuário é válida. Se a data atual estiver fora do intervalo de datas válido para a conta, não será possível fazer logon. Trabalhe com um administrador do Analytics em sua organização para estender o intervalo de datas válido do logon. O Atendimento ao cliente do Adobe não está autorizado a alterar intervalos de datas de login válidos para contas de usuário.
 
 ## Outros problemas de login
 
