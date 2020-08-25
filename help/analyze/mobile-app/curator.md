@@ -2,7 +2,7 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
+source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 97%
@@ -145,7 +145,7 @@ Para compartilhar o Scorecard com um usuário executivo:
 
 3. Clique em **Compartilhar**.
 
-![Compartilhar_Scorecards](assets/new_share2.png)
+![Compartilhar_Scorecards](assets/new_share.png)
 
 Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
