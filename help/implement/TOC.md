@@ -5,10 +5,10 @@ user-guide-title: Guia de implementação do Analytics
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 100%
    + [Implementar o Analytics nos Artigos Instantâneos do Facebook](other/fb-instant-articles.md)
 + [Implementar o Analytics em dispositivos móveis](mobile-device-sdk.md)
 + Casos de uso da implementação {#use-cases}
+   + [Usar o AppMeasurement com iFrames](use-cases/iframe.md)
    + [Rastrear em tipos diferentes de implementação](use-cases/cross-type-implementation.md)
    + [Acompanhamento de email externo](use-cases/email-external.md)
 + Validar sua implementação {#validate}
