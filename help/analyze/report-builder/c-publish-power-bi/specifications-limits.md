@@ -3,10 +3,10 @@ description: 'null'
 title: Limitações e especificações
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 98%
 
 ---
 
@@ -36,28 +36,28 @@ Editar uma solicitação do Report Builder após a sua publicação no Power BI 
    **Este é um exemplo de como a visualização quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   1. [Agende essa solicitação](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para publicação no Power BI.
-   1. No Power BI, crie uma visualização para a Página e as Exibições da página.
-   1. Agora edite a pasta de trabalho através da remoção das Exibições de página da solicitação.
-   1. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
-   1. Uma vez que a nova pasta de trabalho é enviada para o Power BI
+   2. Agende essa solicitação para ser publicada no Power BI.
+   3. No Power BI, crie uma visualização para a Página e as Exibições da página.
+   4. Agora edite a pasta de trabalho através da remoção das Exibições de página da solicitação.
+   5. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
+   6. Uma vez que a nova pasta de trabalho é enviada para o Power BI
 
       1. Verifique se ela sobrescreveu o conjunto de dados existente criado quando da primeira publicação.
-      1. Verifique se a tabela da página_1 está atualizada de forma apropriada na Página e nas Colunas de visitas.
-      1. Verifique se a sua visualização está quebrada, já que ela faz referência à coluna da Exibição de página que não está mais presente na tabela da página_1.
+      2. Verifique se a tabela da página_1 está atualizada de forma apropriada na Página e nas Colunas de visitas.
+      3. Verifique se a sua visualização está quebrada, já que ela faz referência à coluna da Exibição de página que não está mais presente na tabela da página_1.
 
    **Este é um exemplo de como a visualização NÃO se quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   1. [Agende essa solicitação](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para publicação no Power BI.
-   1. No Power BI, crie uma visualização para a Página e as Exibições da página.
-   1. Agora edite a pasta de trabalho no Report Builder, adicionando a métrica Visita enquanto se mantém Página e Exibições de página.
-   1. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
-   1. Uma vez que a nova pasta de trabalho é enviada para o Power BI
+   2. Agende essa solicitação para publicação no Power BI.
+   3. No Power BI, crie uma visualização para a Página e as Exibições da página.
+   4. Agora edite a pasta de trabalho no Report Builder, adicionando a métrica Visita enquanto se mantém Página e Exibições de página.
+   5. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
+   6. Uma vez que a nova pasta de trabalho é enviada para o Power BI
 
       1. Verifique se ela sobrescreveu o conjunto de dados existente criado quando da primeira publicação.
-      1. Verifique se a tabela da página_1 foi devidamente atualizada com as colunas Página, Exibições da página e Visitas.
-      1. Verifique se a sua visualização continua a funcionar apropriadamente já que ela faz referência a duas colunas que ainda estão presentes na tabela página_1.
+      2. Verifique se a tabela da página_1 foi devidamente atualizada com as colunas Página, Exibições da página e Visitas.
+      3. Verifique se a sua visualização continua a funcionar apropriadamente já que ela faz referência a duas colunas que ainda estão presentes na tabela página_1.
 
 
 * **Caso 2**: você coloca uma seção da sua pasta de trabalho em um painel do Power BI e depois remove essa seção (tal como um gráfico ou uma tabela) dela. Isso quebrará a visualização.
