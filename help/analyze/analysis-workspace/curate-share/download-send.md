@@ -3,9 +3,9 @@ description: É possível baixar dados da Analysis Workspace copiando-os ou nos 
 title: Baixar arquivos PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: ab5d2be12100306410486fea31bacc6ee9756738
+source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1028'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,9 @@ Existem várias maneiras diferentes de exportar dados da Analysis Workspace, dep
 
 ## Baixar projeto como CSV ou PDF {#download-project}
 
-Você pode baixar um projeto completo indo até Projeto > **Baixar como PDF (ou como CSV)**. O arquivo baixado conterá todas as tabelas e visualizações exibidas (visíveis) no projeto. Geralmente, um PDF é preferido se você quiser que as visualizações sejam incluídas no arquivo, enquanto um CSV é preferido se você quiser apenas dados de texto simples.
+Você pode baixar um projeto completo indo até **[!UICONTROL Projeto > Baixar como PDF (ou como CSV)]**. O arquivo baixado contém todas as tabelas e visualizações exibidas (visíveis) no projeto. Geralmente, um PDF é preferido se você quiser que as visualizações sejam incluídas no arquivo, enquanto um CSV é preferido se você quiser apenas dados de texto simples.
+
+![](assets/download-project.png)
 
 Para downloads de projetos, lembre-se:
 
@@ -32,20 +34,24 @@ Para downloads de projetos, lembre-se:
 
 ## Copiar dados para a área de transferência (tecla de atalho: Ctrl+C) {#copy-data}
 
-Clique com o botão direito do mouse em > Opções de cópia para a área de transferência para permitir que você copie dados rapidamente do Workspace e cole-os em outro lugar.
+A opção de clique com o botão direito do mouse **[!UICONTROL Copiar para a área de transferência]** permite copiar dados rapidamente do Workspace e colá-los em outro lugar.
 
 * Se desejar que a tabela exibida seja copiada, clique com o botão direito do mouse no cabeçalho da tabela e escolha **Copiar os dados exibidos para a área de transferência**.
 * Se desejar que um subconjunto de dados seja copiado, faça uma seleção na tabela e clique com o botão direito do mouse em > **Copiar seleção para a área de transferência**.
 
-Além disso, a tecla de atalho **Ctrl+C** copiará sua seleção para a área de transferência. Depois de copiada, você pode entrar em outra ferramenta e colar as informações (ou pressionar Ctrl+V).
+Além disso, a tecla de atalho `Ctrl+C` copia sua seleção para a área de transferência. Depois de copiada, você pode acessar outra ferramenta e colar as informações (ou pressionar `Ctrl+V`).
+
+![](assets/copy-selection.png)
 
 ## Baixar dados como CSV {#download-data}
 
-Clique com o botão direito do mouse em > Fazer download como opções CSV que permitem baixar uma tabela de dados ou a fonte de dados de qualquer visualização como CSV.
+A opção de clique com o botão direito **[!UICONTROL Baixar dados como CSV]** permite baixar uma tabela de dados ou a fonte de dados de qualquer visualização como CSV.
 
-* No cabeçalho de qualquer tabela, clique com o botão direito do mouse em > **Baixar os dados exibidos como CSV**. Isso fará o download dos dados exibidos na tabela como um CSV.
-* Se uma seleção for feita na tabela, a opção indicará **Baixar seleção como CSV**. Somente a seleção será baixada com essa opção, em vez da tabela exibida completa.
-* No cabeçalho de qualquer visualização, clique com o botão direito do mouse em > **Baixar dados como CSV**. Isso baixará a tabela da fonte de dados para uma visualização como CSV. Observação: a visualização do mapa não suporta essa opção.
+* No cabeçalho de qualquer tabela, clique com o botão direito do mouse em **[!UICONTROL Download dos dados exibidos como CSV]**. Isso baixa os dados exibidos na tabela como um CSV.
+* Se uma seleção for feita na tabela, a opção indicará **[!UICONTROL Baixar seleção como CSV]**. Somente a seleção é baixada com essa opção, em vez da tabela exibida completa.
+* No cabeçalho de qualquer visualização, clique com o botão direito do mouse em **[!UICONTROL Download de dados como CSV]**. Isso baixa a tabela da fonte de dados para uma visualização como CSV. Observação: a visualização do mapa não suporta essa opção.
+
+![](assets/download-data-viz.png)
 
 ## Download items as CSV {#download-items}
 
@@ -57,23 +63,29 @@ Se desejar analisar mais que as 400 linhas de dados visíveis em uma tabela, cli
 
 Você pode fazer várias tarefas dentro do projeto e até mesmo navegar até um novo projeto da Workspace na mesma guia enquanto o download está em andamento. O download será pausado se você abrir uma nova guia do navegador. O download será cancelado se você sair do Workspace completamente ou fechar a guia do navegador.
 
+![](assets/download-items.png)
+
 ### Arquivo de itens baixados
 
 Os recursos da tabela serão aplicados ao arquivo baixado da seguinte forma:
 
-* Todos os segmentos do painel serão aplicados como filtros.
-* Os detalhamentos **acima** da dimensão selecionada na tabela serão aplicados como filtros acima de cada coluna.
-* Os detalhamentos **abaixo** da dimensão selecionada na tabela serão removidos.
+* Todos os segmentos do painel são aplicados como filtros.
+* Os detalhamentos **acima** da dimensão selecionada na tabela são aplicados como filtros acima de cada coluna.
+* Os detalhamentos **abaixo** da dimensão selecionada na tabela são removidos.
 
-No exemplo acima, os itens de página serão baixados com o segmento do painel (Clientes de novos Visitantes) e os componentes acima (Canal de marketing = e-mail) aplicados como filtros, e os componentes abaixo (Tipo de dispositivo móvel) serão removidos do CSV baixado.
+No exemplo acima, os itens de página são baixados com o segmento do painel (Clientes de novos Visitantes) e os componentes acima (Canal de marketing = e-mail) aplicados como filtros, e os componentes abaixo (Tipo de dispositivo móvel) são removidos do CSV baixado.
+
+![](assets/downloaded-file.png)
 
 ### Notificações de download
 
-À medida que o arquivo é baixado, você verá uma notificação informativa com o andamento. A qualquer momento, você pode cancelar o download clicando em &quot;Cancelar download&quot;. Fechar o sistema não **** cancelará o download.
+À medida que o arquivo é baixado, você verá uma notificação informativa com o andamento. A qualquer momento, você pode cancelar o download clicando em **[!UICONTROL Cancelar download]**. Fechar o sistema não **** cancelará o download.
 
 Quando o arquivo for concluído, você verá uma notificação de conclusão e o arquivo será baixado no seu navegador.
 
 Se você solicitar mais de um download por vez, receberá uma notificação de que cada download adicional será colocado em fila até que o download anterior seja concluído.
+
+![](assets/toast.png)
 
 ## Perguntas frequentes {#faq}
 
@@ -81,5 +93,5 @@ Se você solicitar mais de um download por vez, receberá uma notificação de q
 | --- | --- |
 | Por que meu PDF baixado é uma página? | O Workspace não pagina os PDFs baixados no momento. |
 | É possível exportar mais de 50.000 itens com a opção &quot;Baixar itens como CSV&quot;? | Embora cada download possa conter até 50.000 itens de dimensão, você pode alterar a classificação da tabela para recuperar itens de cauda mais longos ou aplicar um filtro para baixar itens mais específicos. |
-| O que &quot;Copiar visualização&quot; faz? | A visualização de cópia não é uma opção de exportação. Permite copiar uma visualização ou painel de um local no Workspace para outro. Por exemplo, de um painel para outro no mesmo projeto ou de um projeto para outro. [Assista ao vídeo](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| O que a visualização **** Copiar faz? | **[!UICONTROL A visualização]** de cópia não é uma opção de exportação. Permite copiar uma visualização ou painel de um local no Workspace para outro. Por exemplo, de um painel para outro no mesmo projeto ou de um projeto para outro. [Assista ao vídeo](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
 
