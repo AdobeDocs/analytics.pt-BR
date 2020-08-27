@@ -3,7 +3,7 @@ description: Use o Número do resumo e as visualizações de Alteração para ex
 title: Número do resumo e alteração do resumo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: cffcceae49fe51558aab0044281156e2c2d1027d
+source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 52%
@@ -21,6 +21,8 @@ Use a visualização Número do resumo para realçar um grande número que é im
 * Se alguma célula estiver selecionada, mostra o resumo dessa célula.
 * Se mais de uma célula estiver selecionada, mostra a primeira célula selecionada.
 * Se a coluna estiver selecionada, escolhe o primeiro valor de célula na coluna.
+
+![](assets/summary-number.png)
 
 Clique na engrenagem de configurações **de** visualização na parte superior direita para definir as configurações de Número do resumo:
 
@@ -43,6 +45,8 @@ Essa visualização se comporta das seguintes maneiras:
 * Se mais de duas células estiverem selecionadas, considera apenas as duas primeiras para comparação.
 * Se um intervalo de células estiver selecionado, compara a primeira com a última célula selecionada no intervalo.
 * Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
+
+![](assets/summary-change.png)
 
 Clique na engrenagem de configurações **de** visualização na parte superior direita para definir as configurações de Alteração de resumo:
 
