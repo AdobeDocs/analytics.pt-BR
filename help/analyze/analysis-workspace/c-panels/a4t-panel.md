@@ -2,7 +2,7 @@
 description: O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
+source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
@@ -44,11 +44,11 @@ Cada tabela de forma livre mostra as seguintes colunas de métrica:
 | Normalização de métricas | Visitantes únicos, visitas ou Impressões de atividade. |
 | Métrica de sucesso | A métrica selecionada no construtor |
 | Índice de conversão | Métrica de sucesso/Métrica de normalização |
-| Aumento | Compara o índice de conversão de cada experiência com a experiência de controle.<br>**Observação:**O incentivo é uma &quot;métrica bloqueada&quot; para as experiências do Público alvo; não pode ser desmembrada nem usada com outras dimensões. |
+| Aumento | Compara o índice de conversão de cada experiência com a experiência de controle.<br>**Observação:** O incentivo é uma &quot;métrica bloqueada&quot; para as experiências do Público alvo; não pode ser desmembrada nem usada com outras dimensões. |
 | Lift (inferior) | Representa o pior aumento que uma experiência de variante poderia ter sobre o controle. |
 | Lift (médio) | Representa o aumento do ponto médio que uma experiência de variante poderia ter sobre o controle, em um intervalo de confiança de 95%. Este é o &quot;Lift&quot; em Reports &amp; Analytics. |
 | Lift (superior) | Representa o melhor aumento que uma experiência de variante poderia ter sobre o controle. |
-| Confiança | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. <br>**Observação:**A confiança é uma &quot;métrica bloqueada&quot; para as experiências do Público alvo; não pode ser desmembrada nem usada com outras dimensões. |
+| Confiança | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. <br>**Observação:** A confiança é uma &quot;métrica bloqueada&quot; para as experiências do Público alvo; não pode ser desmembrada nem usada com outras dimensões. |
 
 Assim como em qualquer painel no Analysis Workspace, você pode continuar sua análise adicionando tabelas e [visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionais que ajudarão a analisar suas atividades do Adobe Target.
 
