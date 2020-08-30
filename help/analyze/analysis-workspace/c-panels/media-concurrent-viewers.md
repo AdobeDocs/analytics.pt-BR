@@ -1,16 +1,16 @@
 ---
-title: Painel Visualizadores simultâneos
-description: Como usar e interpretar o painel Visualizadores simultâneos no Analysis Workspace.
+title: Painel Visualizadores simultâneos de mídia
+description: Como usar e interpretar o painel Visualizadores simultâneos de mídia no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# Painel Visualizadores simultâneos
+# Painel Visualizadores simultâneos de mídia
 
 >[!IMPORTANT]
 >
