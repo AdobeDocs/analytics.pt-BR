@@ -3,10 +3,10 @@ description: Use o Número do resumo e as visualizações de Alteração para ex
 title: Número do resumo e alteração do resumo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
+source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 52%
+source-wordcount: '462'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,15 @@ Use a visualização Número do resumo para realçar um grande número que é im
 * Se mais de uma célula estiver selecionada, mostra a primeira célula selecionada.
 * Se a coluna estiver selecionada, escolhe o primeiro valor de célula na coluna.
 
-![](assets/summary-number.png)
+Clique na engrenagem de configurações **de** visualização na parte superior direita para definir as configurações de Número do resumo:
+
+| Configuração | Definição |
+|--- |--- |
+| Porcentagens | Exibe porcentagens em vez de números brutos. |
+| Legenda visível | Exibe informações sobre a métrica exibida. |
+| Abreviar valor | Escolha abreviar valores e mostrar até 3 casas decimais. |
+| Resumir valor por | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
+
 
 Clique na engrenagem de configurações **de** visualização na parte superior direita para definir as configurações de Número do resumo:
 
@@ -32,6 +40,7 @@ Clique na engrenagem de configurações **de** visualização na parte superior 
 | Legenda visível | Exibe informações sobre a métrica exibida. |
 | Abreviar valor | Escolha abreviar valores e mostrar até 3 casas decimais. |
 | Resumir valor por | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
+
 
 ## Visualização da alteração do resumo {#summary-change}
 
@@ -46,7 +55,9 @@ Essa visualização se comporta das seguintes maneiras:
 * Se um intervalo de células estiver selecionado, compara a primeira com a última célula selecionada no intervalo.
 * Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
 
+
 ![](assets/summary-change.png)
+
 
 Clique na engrenagem de configurações **de** visualização na parte superior direita para definir as configurações de Alteração de resumo:
 
