@@ -2,10 +2,10 @@
 title: Painel Visualizadores simultâneos de mídia
 description: Como usar e interpretar o painel Visualizadores simultâneos de mídia no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Esse recurso está em uma implementação em fases para clientes do Media Analytics.
+>Este recurso está em Teste limitado para clientes de análise de mídia. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html)
 
 Os clientes do Media Analytics podem analisar visualizadores simultâneos para entender onde ocorreu o pico de simultaneidade ou onde as suspensões ocorreram para fornecer insight valioso sobre a qualidade do conteúdo e o envolvimento do visualizador, e para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
