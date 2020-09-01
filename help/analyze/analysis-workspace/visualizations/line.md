@@ -3,9 +3,9 @@ description: Use a visualização de linha para descrever conjuntos de dados com
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
+source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '400'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Uma opção suspensa de granularidade nas [configurações de visualização](fr
 
 ## Mostrar mín. ou máx.
 
-Em Configurações **[!UICONTROL de]** visualização > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar mín/máx]**, você pode sobrepor um rótulo de valor mínimo e máximo para realçar rapidamente os picos e vales em uma métrica.
+Em Configurações **[!UICONTROL de]** visualização > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar mín/máx]**, você pode sobrepor um rótulo de valor mínimo e máximo para realçar rapidamente os picos e vales em uma métrica. Observação: Os valores min/max são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores dentro de uma dimensão.
 
 ![Mostrar mín/máx](assets/min-max-labels.png)
 
@@ -52,5 +52,5 @@ Todos os modelos são adequados usando quadrados mínimos comuns:
 | Linear | Cria uma linha reta de melhor ajuste para conjuntos de dados lineares simples e é útil quando os dados aumentam ou diminuem a uma taxa estável. Equação: `y = a + b * x` |
 | Logarítmico | Cria uma linha curva de melhor ajuste e é útil quando a taxa de alteração nos dados aumenta ou diminui rapidamente e, em seguida, atinge o nível limite. Uma linha de tendência logarítmica pode usar valores negativos e positivos. Equação: `y = a + b * log(x)` |
 | Exponencial | Cria uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
-| Alimentação | Cria uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam em uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
-| Quadrado | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
+| Potência | Cria uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam em uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
+| Quadrático | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
