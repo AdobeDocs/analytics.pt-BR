@@ -1,8 +1,11 @@
 ---
 title: Mapear objetos de camada de dados para elementos de dados
 description: Configure o Launch para ler a partir da camada de dados.
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 100%
 
 ---
 
@@ -21,15 +24,15 @@ Os [elementos de dados](https://docs.adobe.com/content/help/pt-BR/launch/using/r
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade do Launch desejada.
-1. Clique na guia [!UICONTROL Elementos de dados] e, em seguida, clique em [!UICONTROL Adicionar elemento de dados].
+1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Adicionar elemento de dados]**.
 
    ![criar elemento de dados](assets/createelement.png)
 
 1. Insira um nome para o elemento de dados. Pode ser um rótulo simples que corresponde a uma variável JavaScript na camada de dados que você deseja rastrear.
-1. Na lista suspensa [!UICONTROL Extensão], selecione [!UICONTROL Principal].
-1. Na lista suspensa [!UICONTROL Tipo de elemento de dados], selecione [!UICONTROL Variável JavaScript]. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
+1. Na lista suspensa **[!UICONTROL Extensão]**, selecione **[!UICONTROL Principal]**.
+1. Na lista suspensa **[!UICONTROL Tipo de elemento de dados]**, selecione **[!UICONTROL Variável JavaScript]**. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
 1. Insira a variável Javascript desejada, normalmente na camada de dados. Por exemplo, se a camada de dados da sua organização corresponder muito à prática recomendada pela Adobe, um valor pode ser `digitalData.page.pageInfo.pageName`. Você pode usar o console do navegador para validar a sintaxe e os valores da variável JavaScript.
-1. Clique em [!UICONTROL Salvar].
+1. Clique em **[!UICONTROL Salvar]**.
 
 ## Próximas etapas
 
