@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 # Perfis de produto no Adobe Analytics
@@ -13,10 +16,10 @@ Consulte [Gerenciar produtos e perfis](https://helpx.adobe.com/br/enterprise/usi
 
 Os administradores de perfil de produto são um grupo opcional que pode adicionar ou remover usuários desse perfil de produto. Observe que um administrador de perfil de produto não é o mesmo que um administrador de produto:
 
-* Os administradores de perfil de produto são responsáveis apenas pela lista de usuários de um perfil de produto.
 * Os administradores de perfil de produto não têm acesso total ao Adobe Analytics. O acesso total ao Adobe Analytics é reservado a administradores de produtos.
-* Os administradores de perfil de produto não podem ajustar os itens de permissões em seu perfil de produto; um administrador do produto deve fazer ajustes de item de permissão.
-* Os administradores de perfil de produto são ideais para líderes ou gerentes de equipes que precisam apenas conceder e gerenciar acesso ao Adobe Analytics para sua equipe. Eles não precisariam incomodar administradores de sistema ou administradores de produtos para conceder acesso ao Adobe Analytics.
+* Os administradores de perfis de produtos podem ajustar itens de permissões em seus perfis de produtos.
+* Os administradores de perfis de produtos podem atribuir ou remover perfis de produtos para grupos de usuários.
+* Os administradores de perfis de produtos são ideais para os clientes em potencial ou gerentes da equipe que precisam conceder e gerenciar o acesso à Adobe Analytics para sua equipe. Eles não precisariam incomodar administradores de sistema ou administradores de produtos para conceder acesso ao Adobe Analytics.
 
 ## Itens de permissão do Adobe Analytics
 
