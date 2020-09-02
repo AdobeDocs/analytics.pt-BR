@@ -1,11 +1,11 @@
 ---
 title: referenciador
 description: Substitua o referenciador coletado automaticamente em uma ocorrência.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ A variável `s.referrer` é uma string que contém o URL da página anterior. Es
 s.referrer = "https://example.com";
 ```
 
-Evite definir essa variável para valores que não são URLs.
+Se estiver usando a camada `digitalData` de [](../../prepare/data-layer.md)dados:
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Evite definir essa variável para valores que não são URLs.
 
 ## Exemplo
 
