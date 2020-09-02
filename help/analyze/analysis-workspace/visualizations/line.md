@@ -3,7 +3,7 @@ description: Use a visualização de linha para descrever conjuntos de dados com
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Em Configurações **[!UICONTROL de]** visualização > **[!UICONTROL Sobreposi�
 Todos os modelos são adequados usando quadrados mínimos comuns:
 
 | Modelo | Descrição |
-|---|---|
+| --- | --- |
 | Linear | Cria uma linha reta de melhor ajuste para conjuntos de dados lineares simples e é útil quando os dados aumentam ou diminuem a uma taxa estável. Equação: `y = a + b * x` |
 | Logarítmico | Cria uma linha curva de melhor ajuste e é útil quando a taxa de alteração nos dados aumenta ou diminui rapidamente e, em seguida, atinge o nível limite. Uma linha de tendência logarítmica pode usar valores negativos e positivos. Equação: `y = a + b * log(x)` |
 | Exponencial | Cria uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
