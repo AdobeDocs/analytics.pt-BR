@@ -2,10 +2,10 @@
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ Uma camada de dados é uma estrutura de objetos JavaScript no site que contém t
 
 ## Pré-requisitos
 
-[Criar um documento de design de solução](solution-design.md) - É importante que sua organização se alinhe aos requisitos de rastreamento. Certifique-se de estar preparado com um documento de design de solução antes de abordar das equipes de desenvolvimento na organização.
+[Criar um documento de design de solução](solution-design.md) - É importante que sua organização se alinhe aos requisitos de rastreamento. Certifique-se de estar preparado com um documento de design de solução antes de se aproximar das equipes de desenvolvimento em sua organização.
 
 ## Fluxo de trabalho
 
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Use o relatório [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obter detalhes sobre cada objeto e objeto secundário. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que tenha sido usado para o objeto `digitalData.product`.
+Use o relatório [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obter detalhes sobre cada objeto e objeto secundário. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 As camadas de dados são extensíveis; se você tiver requisitos específicos da organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
 
