@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome da página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação: uma visualização de página é considerada em todas as ocorrências nas quais o nome da página não está vazio. Quando um link é rastreado, o servidor da coleção de dados remove o nome da página da ocorrência para que as visualizações de página não sejam contadas. Se você inserir novamente um nome de página nessas chamadas utilizando as regras de processamento, uma visualização de página será contada. Recomendamos verificar se o nome da página já está definido antes de modificá-lo. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação:  As chamadas de rastreamento de link removem a <code>pageName</code> variável antes de atingirem as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma visualização de página em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o nome da página já está definido antes de modificá-lo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL da página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. </td> 
+   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação:  As chamadas de rastreamento de link removem a <code>pageURL</code> variável antes de atingirem as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma visualização de página em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
