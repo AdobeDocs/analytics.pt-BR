@@ -1,8 +1,11 @@
 ---
 title: marketing
 description: Preencha a dimensão “Seções do site”.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -30,4 +33,10 @@ A variável `s.channel` é uma string que normalmente contém a seção do site 
 
 ```js
 s.channel = "Example site section";
+```
+
+Se estiver usando a camada `digitalData` de [](../../prepare/data-layer.md)dados:
+
+```js
+s.channel = digitalData.page.category.primaryCategory;
 ```
