@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ Os modelos de atribuição estão disponíveis fora dos conjuntos de relatórios
 
 O painel de atribuição é compatível com todas as dimensões. As métricas não compatíveis incluem as seguintes:
 
+* Todas as métricas calculadas
 * Visitantes únicos
 * Visitas
 * Ocorrências
