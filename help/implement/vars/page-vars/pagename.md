@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: O nome da página do seu site.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 81%
 
 ---
 
 
 # pageName
 
-A variável `pageName` geralmente armazena o nome de uma determinada página. É útil para determinar quais páginas individuais são mais populares. Essa variável preenche a dimensão “Nome da página”.
+A variável `pageName` geralmente armazena o nome de uma determinada página. É útil para determinar quais páginas individuais são mais populares. This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+
+Se essa variável não for definida em uma chamada de rastreamento de página específica, a variável [`pageURL`](pageurl.md) será usada.
 
 >[!NOTE]
 >
->Essa dimensão sempre é removida das chamadas de rastreamento de link. Se você quiser ver o nome da página onde um link foi rastreado, considere copiar essa variável em uma eVar.
-
-Se essa variável não for definida em uma chamada de rastreamento de página específica, a variável [`pageURL`](pageurl.md) será usada.
+>Os servidores de coleta de dados de Adobe removem essa dimensão de todas as solicitações de imagem de rastreamento [de](/help/implement/vars/functions/tl-method.md) link. Se desejar que essa dimensão apareça nas ocorrências de rastreamento de link, considere copiar essa dimensão em um [eVar](evar.md).
 
 ## Nome da página no Adobe Experience Platform Launch
 
@@ -43,4 +43,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+Se estiver usando a camada `digitalData` de [](../../prepare/data-layer.md)dados:
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```
