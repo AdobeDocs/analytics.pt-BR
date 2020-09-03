@@ -3,9 +3,9 @@ keywords: Analysis Workspace
 title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
-source-git-commit: bf4dd4938491b4841f77b31389dcdbd5e0b16cba
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2c2cb617f1041a81f6e17585f5786a7a042fd2ad
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -18,12 +18,13 @@ ht-degree: 100%
 >
 >Esta página está atualmente em construção.
 
+
 O Analysis Workspace remove todas as limitações típicas de um único relatório do Analytics. Ela oferece uma tela robusta e flexível para criar projetos de análise personalizados. Arraste e solte qualquer número de tabelas de dados, visualizações e componentes (dimensões, métricas, segmentos e granularidades de tempo) em um projeto. Crie detalhamentos e segmentos instantaneamente, crie coortes para análise, crie alertas, compare segmentos, faça análises de fluxo e de fallout e prepare e programe relatórios para compartilhamento com qualquer pessoa na sua empresa.
 
 Inicie com PAGE para obter instruções básicas sobre como começar a usar o Workspace. Quando dominar as noções básicas, você pode seguir para os recursos avançados do Workspace, que incluem [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segmento IQ](/help/analyze/analysis-workspace/segment-iq.md) e [Alertas de inteligência](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 Assista a uma visão geral em vídeo do Workspace, abaixo. A lista de reprodução completa do YouTube para os recursos do Analysis Workspace está disponível [aqui](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7).
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 
 ## Criar um projeto simples
