@@ -1,10 +1,10 @@
 ---
 title: Configurar uma conta publicitária
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
       </tr> 
       <tr> 
       <td colname="col1"> <p>Token de OAuth </p> </td> 
-      <td colname="col2"> <p>Observação: OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer as senhas. </p> <p>Observação: você perceberá que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para potencializar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. </p> <p>Observação: se você usar o Internet Explorer 11 (ou anterior), não será possível recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web. </p> <p>Clicar em <span class="uicontrol">Recuperar token</span> inicia o processo de autenticação do OAuth2. Isso significa que você será solicitado a fazer logon em sua conta de pequisa do Google/Bing usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
-        </ul> <p>Consulte  <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois de fazer logon, o campo Token de OAuth exibirá  
-        <systemoutput>
-          Recuperado
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Observação: OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer as senhas. </p> <p>Observação: você perceberá que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para potencializar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. </p> <p>Observação: se você usar o Internet Explorer 11 (ou anterior), não será possível recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web. </p> <p>Clicar em <span class="uicontrol">Recuperar token</span> inicia o processo de autenticação do OAuth2. Isso significa que você será solicitado a fazer logon em sua conta de pequisa do Google/Bing usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
+       </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois de fazer logon, o campo Token de OAuth exibirá  <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
