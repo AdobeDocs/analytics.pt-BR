@@ -3,10 +3,10 @@ description: É possível baixar dados da Analysis Workspace copiando-os ou nos 
 title: Baixar arquivos PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 8%
 
 ---
 
@@ -36,7 +36,7 @@ Para downloads de projetos, lembre-se:
 
 A opção de clique com o botão direito do mouse **[!UICONTROL Copiar para a área de transferência]** permite copiar dados rapidamente do Workspace e colá-los em outro lugar.
 
-* Se desejar que a tabela exibida seja copiada, clique com o botão direito do mouse no cabeçalho da tabela e escolha **Copiar os dados exibidos para a área de transferência**.
+* Se desejar que a tabela exibida seja copiada, clique com o botão direito do mouse no cabeçalho da tabela e escolha **Copiar dados para a área de transferência**.
 * Se desejar que um subconjunto de dados seja copiado, faça uma seleção na tabela e clique com o botão direito do mouse em > **Copiar seleção para a área de transferência**.
 
 Além disso, a tecla de atalho `Ctrl+C` copia sua seleção para a área de transferência. Depois de copiada, você pode acessar outra ferramenta e colar as informações (ou pressionar `Ctrl+V`).
@@ -47,13 +47,12 @@ Além disso, a tecla de atalho `Ctrl+C` copia sua seleção para a área de tran
 
 A opção de clique com o botão direito **[!UICONTROL Baixar dados como CSV]** permite baixar uma tabela de dados ou a fonte de dados de qualquer visualização como CSV.
 
-* No cabeçalho de qualquer tabela, clique com o botão direito do mouse em **[!UICONTROL Download dos dados exibidos como CSV]**. Isso baixa os dados exibidos na tabela como um CSV.
+* No cabeçalho de qualquer tabela ou visualização, clique com o botão direito do mouse em **[!UICONTROL Download de dados como CSV]**. Isso baixa os dados exibidos na tabela ou na fonte de dados subjacente para uma visualização como CSV. Observação: a visualização do mapa não suporta essa opção.
 * Se uma seleção for feita na tabela, a opção indicará **[!UICONTROL Baixar seleção como CSV]**. Somente a seleção é baixada com essa opção, em vez da tabela exibida completa.
-* No cabeçalho de qualquer visualização, clique com o botão direito do mouse em **[!UICONTROL Download de dados como CSV]**. Isso baixa a tabela da fonte de dados para uma visualização como CSV. Observação: a visualização do mapa não suporta essa opção.
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Baixar itens como CSV {#download-items}
 
 Se desejar analisar mais que as 400 linhas de dados visíveis em uma tabela, clique com o botão direito do mouse no cabeçalho da tabela ou em qualquer linha e selecione **Download de itens como CSV (nome do Dimension)**. Essa opção exportará até 50.000 itens de dimensão (com base na classificação da tabela) para a dimensão selecionada, com filtros e segmentos aplicados. Se você escolher essa opção na parte superior da tabela, a primeira dimensão da tabela será exportada. Embora nenhum limite seja aplicado na tabela de forma livre, recomenda-se que a opção Download de itens seja usada em tabelas com menos de 20 colunas para garantir o desempenho ideal.
 
