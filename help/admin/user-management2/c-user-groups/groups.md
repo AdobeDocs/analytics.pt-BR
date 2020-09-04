@@ -5,7 +5,10 @@ title: Configurações do grupo de usuários
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Descrições de elementos na página Definir grupo de usuários.
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
+**[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Adicionar novo grupo de usuários]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -57,7 +60,6 @@ Descrições de elementos na página Definir grupo de usuários.
   <tr> 
    <td colname="col1"> <p><b>Acesso ao Relatório</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios de tráfego</b>: concede acesso a todos os relatórios baseados em tráfego, como exibições de página, visitas e visitantes únicos. </li> 
@@ -76,7 +78,7 @@ Descrições de elementos na página Definir grupo de usuários.
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (permite acessar relatórios gerados a partir de dados do Adobe Social.) </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>(permite aos usuários criar, atualizar e excluir Data Connectors). </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
