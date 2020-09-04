@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adicionar o código do cabeçalho e do rodapé
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ O Dynamic Tag Management cria códigos de incorporação para preparo e produç�
 
    ![](assets/dtm-embed.png)
 
-   Coloque o código o mais próximo da [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] tag possível. Esse trecho de código deve ser colocado em cada página do site de produção ativo.
+   Coloque o código o mais próximo da `<head>` possível. Esse trecho de código deve ser colocado em cada página do site de produção ativo.
 
    >[!NOTE]
    >
