@@ -3,9 +3,9 @@ description: É possível diferenciar os links com a personalização da ID do l
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
