@@ -3,7 +3,10 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3131'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +76,7 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar o Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> para a versão mais recente. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> para a versão mais recente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando a migração começa? </p> </td> 
@@ -126,17 +129,12 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso adiar a data de início da migração? </p> </td> 
-   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p> 
-    <draft-comment> 
-     <p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p><p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agora que minha empresa está migrando para o Admin Console, onde posso criar novos usuários e grupos de permissão antes da data de início da migração? </p> </td> 
-   <td colname="col2"> <p>Antes da data de início da migração, você poderá criar usuários no Admin Console ou em Analytics &gt; Gerenciamento de usuários. </p> <p>Após a migração, você poderá criar usuários e grupos de permissões somente no Admin Console. </p> 
-    <draft-comment> 
-     <p>Consulte a seção Migração abaixo para obter mais detalhes sobre o que acontece na data de início da migração). </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Antes da data de início da migração, você poderá criar usuários no Admin Console ou em Analytics &gt; Gerenciamento de usuários. </p> <p>Após a migração, você poderá criar usuários e grupos de permissões somente no Admin Console. </p><p>Consulte a seção Migração abaixo para obter mais detalhes sobre o que acontece na data de início da migração. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Quando posso implementar o logon único usando Federated IDs? </p> </td> 
@@ -167,10 +165,8 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso atualizar a associação de grupos de permissões para usuários não migrados? </p> </td> 
-   <td colname="col2"> <p>Sim. Você pode alterar a associação de grupos de usuários não migrados na seção Gerenciamento de usuários do Analytics. </p> 
-    <draft-comment> 
-     <p>Aguardando esclarecimentos de Ashok sobre o que é feito. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Sim. Você pode alterar a associação de grupos de usuários não migrados na seção Gerenciamento de usuários do Analytics. </p><p>Aguardando esclarecimentos de Ashok sobre o que é feito. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso criar usuários e grupos de permissões no Analytics após o início da migração e, em seguida, usar a ferramenta de migração para movê-los para o Admin Console? </p> </td> 
@@ -314,7 +310,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
 
 Você pode comunicar proativamente este plano de migração aos seus usuários atuais. Este é um modelo que você pode personalizar para enviar a todos os usuários atuais do Analytics:
 
-Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > Usuários [](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)de email.
+Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > [Enviar email para os usuários](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
 
 **Assunto:** Em breve - Uma nova forma de fazer logon no Adobe Analytics e na Adobe Experience Cloud.
 
