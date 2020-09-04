@@ -2,8 +2,11 @@
 description: 'null'
 title: Relatórios do Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ Esta integração entre o Adobe Analytics e o Adobe Campaign
 
 * Permite compartilhar seus dados de KPI (Indicador-chave de desempenho) do Adobe Campaign Standard para o Adobe Analytics.
 * Enriquece fórmulas de rastreamento com parâmetros do Adobe Analytics.
-* Adiciona um novo relatório em **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]**
+* Adiciona um novo relatório em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Adobe Campaign.]**
 * Adiciona 5 novas classificações do Adobe Campaign.
 * Adiciona 10 novas métricas do Adobe Campaign.
 * Adiciona 6 novas dimensões do Adobe Campaign.
@@ -26,14 +29,14 @@ Esta integração entre o Adobe Analytics e o Adobe Campaign
 
 Para visualizar os dados do Campaign no Analytics, primeiro você deve habilitar os relatórios do Campaign.
 
-1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
-1. Clique em **[!UICONTROL Enable Campaign Reporting]**.
+1. Navegue até  **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **`<select report suite>`** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Relatórios do Adobe Campaign]** .
+1. Clique em **[!UICONTROL Ativar relatórios do Campaign]**.
 
    ![](assets/enable-campaign.png)
 
 ## Etapa 2. Exibir os relatórios do Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-A integração entre o Adobe Campaign Standard e o Adobe Analytics adiciona o seguinte relatório em  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
+A integração entre o Adobe Campaign Standard e o Adobe Analytics adiciona o seguinte relatório em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**
 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
@@ -52,7 +55,7 @@ A integração entre o Adobe Campaign Standard e o Adobe Analytics adiciona o se
 
 ## Etapa 3. Usar as classificações do Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjunto de relatórios]** > **`<select report suite>`** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Classificações do Adobe Campaign]**
 
 Quando seu conjunto de relatórios está habilitado para o Adobe Campaign, as seguintes classificações ficam disponíveis:
 
