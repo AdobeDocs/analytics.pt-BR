@@ -4,7 +4,10 @@ title: Logs
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 97%
 
 ---
 
@@ -29,9 +32,50 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Logon | Filtre o log por nome de usuário. |
 | IP | filtrar o log por endereço IP. |
 | Conjunto de relatórios | filtre o log segundo uma ID de conjunto de relatórios específica. |
-| Tipo de evento | Filtre o log segundo um tipo de evento. Selecione um tipo de evento na lista suspensa. |
+| Tipo de evento | Filtre o log segundo um tipo de evento. Selecione um tipo de evento na lista suspensa. Veja a lista completa dos tipos de evento abaixo. |
 | Evento | Filtre o log por uma palavra ou frase na descrição do evento. |
 | Baixar relatório | Exporta o conteúdo do [!UICONTROL Log de uso e acesso] para o arquivo com tabulações. |
+
+### Tipos de evento
+
+| Tipo de evento | Descrição |
+| --- |--- |
+| Sem categoria |  |
+| Falha no logon |  |
+| Logon realizado com sucesso |  |
+| Ação Administrativa |  |
+| Alteração da configuração de segurança |  |
+| Relatório exibido |  |
+| Relatório transferido por download |  |
+| Alerta enviado |  |
+| Ação do usuário |  |
+| Ferramenta exibida |  |
+| Ação da Omniture |  |
+| Recuperação de senha |  |
+| Marcadores |  |
+| Painéis |  |
+| Alertas |  |
+| Eventos de calendário |  |
+| Metas |  |
+| Configurações do relatório |  |
+| Relatórios agendados |  |
+| Excluir por IP |  |
+| Nomear páginas |  |
+| Classificações |  |
+| Fontes de dados |  |
+| Projeto do espaço de trabalho |  |
+| Segmento |  |
+| Métrica calculada |  |
+| Intervalo de datas |  |
+| Conjunto de relatórios virtuais |  |
+| Análise de contribuição |  |
+| Solicitação de bloco de dados do Excel |  |
+| Falha ao fazer logon no Excel |  |
+| Logon feito com sucesso no Excel |  |
+| Falha ao fazer logon em um dispositivo móvel |  |
+| Logon feito com sucesso em um dispositivo móvel |  |
+| Método de API |  |
+
 
 ## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}
 
