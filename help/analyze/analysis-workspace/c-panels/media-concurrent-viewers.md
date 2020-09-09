@@ -2,10 +2,10 @@
 title: Painel Visualizadores simultâneos de mídia
 description: Como usar e interpretar o painel Visualizadores simultâneos de mídia no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
+source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 9%
+source-wordcount: '1080'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ Você pode configurar o painel Media Concurrent Viewers usando estas configuraç
 
 | Configuração | Descrição |
 |---|---|
-| Intervalo de datas do painel | O padrão do intervalo de datas do painel é Hoje.  Você pode editá-lo para visualização dia ou meses de cada vez. <br> <br> Essa visualização é limitada a 1440 linhas de dados (por exemplo, 24 horas na granularidade no nível de minuto).  Se uma combinação de intervalo de datas e granularidade resultar em mais de 1440 linhas, a granularidade será automaticamente atualizada para acomodar o intervalo de datas completo. |
+| Intervalo de datas do painel | O padrão do intervalo de datas do painel é Hoje.  Você pode editá-lo para visualização dia ou meses de cada vez. <br> <br>Essa visualização é limitada a 1440 linhas de dados (por exemplo, 24 horas na granularidade no nível de minuto).  Se uma combinação de intervalo de datas e granularidade resultar em mais de 1440 linhas, a granularidade será automaticamente atualizada para acomodar o intervalo de datas completo. |
 | Granularidade | O padrão de granularidade é Minuto. <br> <br>Essa visualização é limitada a 1440 linhas de dados (por exemplo, 24 horas na granularidade no nível de minuto).  Se uma combinação de intervalo de datas e granularidade resultar em mais de 1440 linhas, a granularidade será automaticamente atualizada para acomodar o intervalo de datas completo. |
 | Números de resumo do painel | Para ver os detalhes de data ou hora dos visualizadores simultâneos, um número de resumo está disponível. O Máximo mostra detalhes da simultaneidade de pico. O Mínimo mostra detalhes do vale.  O painel padrão mostra Somente máximo, mas é possível alterá-lo para mostrar Mínimo ou Máximo e Mínimo.<br><br>Se você estiver usando detalhamentos, um número de resumo será exibido para cada um. |
 | Desagregação por séries | Opcionalmente, você pode detalhar sua visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. <br><br>- Você pode visualização até 10 linhas de cada vez. Os detalhamentos são limitados a um único nível.<br><br>- Ao arrastar uma dimensão, os itens de dimensão principais serão selecionados automaticamente com base no intervalo de datas do painel selecionado.<br><br>- Para comparar intervalos de datas, arraste 2 ou mais intervalos de datas para o filtro de detalhamento de séries. |
@@ -77,7 +77,7 @@ Uma tabela de forma livre não está disponível nesta visualização.  Para vis
 | Posso executar a detecção de anomalias? | Não.  A detecção de anomalias não está disponível para este painel. |
 | Por que usar visitantes únicos em vez de sessões ativas? | O uso de visitantes exclusivos permite a remoção de picos indesejados em limites de exibição (onde as sessões estão terminando e iniciando ao mesmo tempo). |
 | O que significa ter visualizadores simultâneos com granularidade superior a um minuto? | Com uma granularidade maior que um minuto, visualizadores simultâneos são a soma de visualizadores simultâneos exclusivos para todos os minutos dentro desse intervalo de tempo.  Por exemplo, visualizadores simultâneos de granularidade em nível de hora é a soma de visualizadores simultâneos exclusivos para todos os minutos dentro da hora. |
-| E se eu quiser ver mais de 1 dia na granularidade de nível minuto? | Para acessar dados em granularidade de nível minuto por até 1 mês de cada vez, você pode usar as APIs do Analytics 2.0. Para obter mais informações, consulte APIs [do](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)Analytics 2.0. |
-| O painel Área de trabalho mostra as mesmas informações do Relatório de visualizadores simultâneos? | Não.  No Analysis Workspace, os visualizadores simultâneos são definidos como o número de visitantes únicos que visualizam seu fluxo de mídia em um ponto específico do tempo, independentemente do número de sessões.<br></br>Isso é diferente do relatórios do Visualizador simultâneo na seção Relatórios, que usa Sessões ativas simultâneas.  Usar contas de visitantes únicos para remover picos indesejados em mostrar limites, onde as sessões estão terminando e iniciando ao mesmo tempo. |
+| E se eu quiser ver mais de 1 dia na granularidade de nível minuto? | Para acessar dados em granularidade de nível minuto por até 1 mês de cada vez, você pode usar as APIs do Analytics 2.0. Para obter mais informações, consulte [Obter dados de relatório JSON de visualizadores simultâneos com APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)do Analytics 2.0. |
+| O painel Área de trabalho mostra as mesmas informações do Relatório de visualizadores simultâneos? | Não.  No Analysis Workspace, os visualizadores simultâneos são definidos como o número de visitantes únicos que visualizam seu fluxo de mídia em um ponto específico do tempo, independentemente do número de sessões.<br><br>Isso é diferente do relatórios do Visualizador simultâneo na seção Relatórios, que usa Sessões ativas simultâneas.  Usar contas de visitantes únicos para remover picos indesejados em mostrar limites, onde as sessões estão terminando e iniciando ao mesmo tempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
