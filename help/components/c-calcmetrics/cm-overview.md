@@ -3,10 +3,10 @@ description: Métricas calculadas e calculadas avançadas (ou derivadas) são m�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # Métricas calculadas e calculadas avançadas (derivadas)
 
 Métricas calculadas e calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas existentes.
-
->[!IMPORTANT]
->
->Em julho de 2018, o Adobe introduziu o [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
->
->* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; foram migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observação: os &quot;Canais de marketing&quot; não serão descontinuados - apenas os dois modelos de alocação que aparecem nas métricas calculadas foram).
->* Além disso, corrigimos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas é refletida nos recursos [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de relatório, Report Builder e Ad Hoc Analysis. Para obter mais informações, consulte [Como a alocação linear funcionará a partir de 19 de julho de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
-
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. Elas permitem que os profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do [!DNL Analytics]. As métricas personalizadas disponíveis em cada pacote do [!DNL Analytics] são:
 
