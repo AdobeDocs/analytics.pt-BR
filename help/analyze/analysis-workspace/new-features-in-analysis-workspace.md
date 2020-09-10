@@ -3,7 +3,7 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -515,7 +515,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alterações a Nenhum/Não especificado </p> </td> 
-   <td colname="col2"> <p>Alteração de como Nenhum/Não especificado funciona no Analysis Workspace para que seja consistente com Relatórios e Analytics, o Construtor de segmentos e o menu de itens de dimensão no Analysis Workspace. </p> <p>Isso significa que o valor será exibido como “Não especificado” em vez de “Nenhum” na maioria dos projetos no Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Alteração de como Nenhum/Não especificado funciona no Analysis Workspace para que seja consistente com Relatórios e análises, o Construtor de segmentos e o menu de itens de dimensão no Analysis Workspace. </p> <p>Isso significa que o valor será exibido como “Não especificado” em vez de “Nenhum” na maioria dos projetos no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ Novos recursos lançados em 20 de julho de 2017.
    <td colname="col2"> <p>Antes, se você fizesse logon com as credenciais da Experience Cloud e navegasse até o Analytics, não era possível usar o recurso <span class="ignoretag"> <span class="uicontrol">Compartilhar</span> &gt; <span class="uicontrol">Obter link do projeto</span></span>. Resolvemos esse problema. Porém, continua sendo necessário salvar o projeto antes que essa opção seja clicável. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >Filtro “Projetos expirados” no Gerenciador de projetos agendados</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Filtro “Projetos expirados” no Gerenciador de projetos agendados</a></b> </p> </td> 
    <td colname="col2"> <p>Agora é possível filtrar os projetos expirados no Gerenciador de projetos agendados. Você pode decidir reiniciar ou excluir esses projetos. </p> </td> 
   </tr> 
  </tbody> 
