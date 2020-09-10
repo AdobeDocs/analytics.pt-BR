@@ -5,9 +5,9 @@ title: Projetos agendados
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 8%
 
 ---
@@ -28,6 +28,8 @@ Para enviar um arquivo imediatamente aos recipient por email:
 1. Clique em **Enviar agora**.
 1. (Opcional) Clique em **Mostrar opções** de agendamento para especificar um agendamento de delivery.
 
+![Enviar arquivo agora](assets/send-file-now.png)
+
 ## Enviar arquivo agendado
 
 Para enviar um arquivo de acordo com uma programação recorrente para recipient por email:
@@ -40,11 +42,15 @@ Para enviar um arquivo de acordo com uma programação recorrente para recipient
 1. Especifique a frequência do delivery. Cada frequência permite personalizações diferentes.
 1. Clique em **Enviar de acordo com a programação**.
 
+![](assets/send-on-schedule.png)
+
 ## Gerenciador de projetos agendados
 
 Os projetos agendados da Analysis Workspace podem ser gerenciados em **Analytics > Componentes > Projetos** agendados.
 
 No Gerenciador de projetos agendados, é possível editar e excluir agendamentos de projetos recorrentes. Procure um agendamento na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por tag, programação aprovada, proprietários e muito mais.
+
+![](assets/scheduled-project-manager.png)
 
 As ações a seguir são comuns no Gerenciador de projetos agendados:
 
