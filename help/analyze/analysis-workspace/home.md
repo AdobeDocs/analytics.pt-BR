@@ -4,10 +4,10 @@ title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 3fa9053bd9f9bec6e169230c3b9416cbe2284b54
+source-git-commit: a4e50c13ea8f567a38b0912ce7dc06d457c684a1
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -20,19 +20,25 @@ Se você tiver apenas alguns minutos, assista a esta breve visão geral para ver
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-## Logon no Adobe Analytics {#login}
+## Faça logon no Adobe Analytics {#login}
 
-Para fazer start usando o Analysis Workspace, entre no Adobe Analytics indo para [experience.adobe.com/analytics](http://experience.adobe.com/analytics). Você será direcionado para a página inicial de lista do projeto do Workspace se um projeto específico não tiver sido selecionado anteriormente para você.
+Para fazer o start usando o Analysis Workspace, faça logon no Adobe Analytics indo para [experience.adobe.com/analytics](http://experience.adobe.com/analytics). Você será direcionado para a página inicial de lista do projeto do Workspace se um projeto específico não tiver sido selecionado anteriormente para você.
+
+![](assets/login-analytics.png)
 
 ## Usar o tutorial de treinamento {#training-tutorial}
 
-Depois de conectado, sua primeira parada deve ser o Tutorial de treinamento da Analysis Workspace, que orienta você pela terminologia e etapas comuns para a criação da sua primeira análise no Workspace. Para iniciar o tutorial, clique em **Criar novo projeto** e selecione Tutorial **de** treinamento no novo modal do projeto.
+Depois de conectado, sua primeira parada deve ser o Tutorial de treinamento da Analysis Workspace, que orienta você pela terminologia e etapas comuns para a criação da sua primeira análise no Workspace. Para iniciar o tutorial, clique em **[!UICONTROL Criar novo projeto]** e selecione Tutorial **de** treinamento no novo modal do projeto.
+
+![](assets/training-tutorial.png)
 
 ## Criar um novo projeto {#new-project}
 
-Com o tutorial concluído, você está pronto para começar a criar seu primeiro projeto. O **novo modal** do projeto fornecerá opções diferentes para iniciar sua análise. Você pode optar por start a partir de um projeto em branco ou de um scorecard [móvel em](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/curator.html)branco, dependendo se planeja compartilhar sua análise do navegador ou do aplicativo móvel painéis Adobe Analytics.
+Com o tutorial concluído, você está pronto para começar a criar seu primeiro projeto. O **novo modal** de projeto fornece opções diferentes para iniciar sua análise. Você pode optar por start a partir de um projeto em branco ou de um scorecard [móvel em](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/curator.html)branco, dependendo se planeja compartilhar sua análise do navegador ou do aplicativo móvel painéis Adobe Analytics.
 
-Além disso, você pode começar sua análise de **modelos** pré-criados, modelos padrão fornecidos pelo Adobe ou modelos personalizados criados pela sua organização. Há vários modelos diferentes disponíveis, dependendo da análise ou caso de uso que você tenha em mente. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) sobre as diferentes opções de modelo disponíveis.
+![](assets/create-new-project.png)
+
+Você também pode iniciar sua análise de **modelos** pré-criados, modelos padrão fornecidos pelo Adobe ou modelos personalizados criados pela sua organização. Há vários modelos diferentes disponíveis, dependendo da análise ou caso de uso que você tenha em mente. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) sobre as diferentes opções de modelo disponíveis.
 
 ## Crie sua análise {#analysis}
 
@@ -40,15 +46,21 @@ No projeto da Workspace, **painéis, tabelas, visualizações e componentes** s�
 
 ### Componentes
 
-**Os componentes** são dimensões, métricas, segmentos ou intervalos de datas, todos os quais podem ser combinados em uma tabela **de forma** livre para o start que responde às suas perguntas comerciais. Familiarize-se com cada tipo [de](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) componente antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para [criar sua análise](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma tabela de forma livre.
+**Os componentes** são dimensões, métricas, segmentos ou intervalos de datas, todos os quais podem ser combinados em uma tabela **[!UICONTROL de forma]** livre para o start que responde às suas perguntas comerciais. Familiarize-se com cada tipo [de](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) componente antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para [criar sua análise](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma tabela **[!UICONTROL de]** forma livre.
+
+![](assets/build-components.png)
 
 ### Visualizações
 
-**As visualizações**, como um gráfico de barras ou de linhas, são então adicionadas sobre os dados para torná-los visualmente vivos no seu projeto. No painel à esquerda, selecione o ícone do meio de Visualizações para ver uma lista completa de [visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) disponíveis.
+**As visualizações**, como um gráfico de barras ou de linhas, são então adicionadas sobre os dados para dar vida visualmente a eles. No painel à esquerda, selecione o ícone do meio de **[!UICONTROL Visualizações]** para ver a lista completa de [visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) disponíveis.
+
+![](assets/build-visualizations.png)
 
 ### Painéis
 
-**Os painéis** são usados para organizar sua análise em um projeto e podem conter muitas tabelas e visualizações. Muitos dos painéis fornecidos no Analysis Workspace geram um conjunto completo de análises com base em algumas entradas do usuário. No painel da extrema esquerda, selecione o ícone de Painéis superior para ver uma lista completa de [painéis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) disponíveis.
+**Os painéis** são usados para organizar sua análise em um projeto e podem conter muitas tabelas e visualizações. Muitos dos painéis fornecidos no Analysis Workspace geram um conjunto completo de análises com base em algumas entradas do usuário. No painel da extrema esquerda, selecione o ícone **[!UICONTROL Painéis]** superior para ver uma lista completa de [painéis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) disponíveis.
+
+![](assets/build-panels.png)
 
 ## Recursos adicionais {#resources}
 
