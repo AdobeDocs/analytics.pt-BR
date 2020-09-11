@@ -1,8 +1,11 @@
 ---
 title: Tabela de forma livre
 description: Saiba mais sobre as Tabelas de forma livre e o Criador de tabela de forma livre
-translation-type: ht
-source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
+translation-type: tm+mt
+source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 100%
 
 ---
 
@@ -25,14 +28,14 @@ Você pode personalizar a tabela de várias maneiras:
 
 ## Construtor de tabelas de forma livre
 
-Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Build]**.
+Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Criar]**.
 
 O Construtor de tabelas é uma opção que economiza tempo quando você tem uma pergunta complexa para fazer sobre os dados e tem uma ideia da tabela que deseja criar para responder à pergunta. Outras vantagens do construtor de tabela incluem a capacidade de:
 
 * Organizar a tabela no formato exato necessário sem precisar aguardar a renderização de cada ação.
 * Executar rapidamente até quatro níveis de detalhamento.
 * Definir as configurações de Linha e de Detalhamento para cada linha de tabela e coluna de dimensão.
-* **[!UICONTROL Breakdown by Position]** para cada nível da tabela por padrão (nas Tabelas de forma livre tradicionais, o padrão é **[!UICONTROL Breakdown by Item]**.)
+* **[!UICONTROL Detalhamento por posição]** por padrão para cada nível da tabela (nas tabelas de forma livre tradicionais, o padrão é **[!UICONTROL Detalhamento por item]**.)
 * Ordenar manualmente linhas estáticas na tabela. Por exemplo, se você deseja que linhas de métrica apareçam em uma determinada ordem.
 * Visualizar o formato da tabela antes de renderizar dados reais.
 
@@ -42,6 +45,6 @@ Assista ao Construtor de tabelas de forma livre em ação [aqui](https://youtu.b
 
 Os dados em uma tabela de forma livre podem ser exportados do Analysis Workspace de algumas maneiras:
 
-* Clique com o botão direito do mouse no cabeçalho da tabela e selecione **[!UICONTROL Copy to Clipboard]**. Isso exportará a tabela inteira (visível).
-* Selecione células específicas na tabela, clique com o botão direito do mouse e selecione **[!UICONTROL Copy to Clipboard]**, ou use a tecla de atalho Ctrl + C.
-* **[!UICONTROL Project > Download CSV]**. Isso exportará todas as tabelas visíveis no projeto como um CSV.
+* Clique com o botão direito do mouse no cabeçalho da tabela e selecione **[!UICONTROL Copiar para a área de transferência]**. Isso exportará a tabela inteira (visível).
+* Selecione células específicas na tabela, clique com o botão direito do mouse e selecione **[!UICONTROL Copiar para a área de transferência]**, ou use a tecla de atalho Ctrl + C.
+* **[!UICONTROL Projeto > Baixar CSV]**. Isso exportará todas as tabelas visíveis no projeto como um CSV.
