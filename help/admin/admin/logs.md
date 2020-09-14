@@ -4,10 +4,10 @@ title: Logs
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 97%
+source-wordcount: '613'
+ht-degree: 72%
 
 ---
 
@@ -40,41 +40,41 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 
 | Tipo de evento | Descrição |
 | --- |--- |
-| Sem categoria |  |
-| Falha no logon |  |
-| Logon realizado com sucesso |  |
-| Ação Administrativa |  |
-| Alteração da configuração de segurança |  |
-| Relatório exibido |  |
-| Relatório transferido por download |  |
-| Alerta enviado |  |
-| Ação do usuário |  |
-| Ferramenta exibida |  |
-| Ação da Omniture |  |
-| Recuperação de senha |  |
-| Marcadores |  |
-| Painéis |  |
-| Alertas |  |
-| Eventos de calendário |  |
-| Metas |  |
-| Configurações do relatório |  |
-| Relatórios agendados |  |
-| Excluir por IP |  |
-| Nomear páginas |  |
-| Classificações |  |
-| Fontes de dados |  |
-| Projeto do espaço de trabalho |  |
-| Segmento |  |
-| Métrica calculada |  |
-| Intervalo de datas |  |
-| Conjunto de relatórios virtuais |  |
-| Análise de contribuição |  |
+| Sem categoria | Pode ser qualquer tipo de evento. |
+| Falha no logon | Falha no processo de logon do usuário. |
+| Logon realizado com sucesso | Usuário conectado com êxito. |
+| Ação Administrativa | Ocorreu uma ação de administrador, como editar um conjunto de relatórios, alterar configurações de empresa, criar um usuário etc. |
+| Alteração da configuração de segurança | Uma configuração de segurança foi alterada. |
+| Relatório exibido | Um relatório de Relatórios e análises foi exibido. |
+| Relatório transferido por download | Um relatório de Relatórios e análises foi baixado. |
+| Alerta enviado | Um alerta foi enviado. |
+| Ação do usuário | As informações do usuário foram editadas. |
+| Ferramenta exibida | Uma ferramenta foi visualizada. |
+| Ação da Omniture | Uma ação foi executada pelo Adobe. |
+| Recuperação de senha | Uma senha foi recuperada. |
+| Marcadores | Um marcador foi gerenciado. |
+| Painéis | Um painel foi gerenciado. |
+| Alertas | Um alerta foi gerenciado. |
+| Eventos de calendário | Um evento de calendário foi gerenciado. |
+| Metas | Um público alvo foi gerenciado. |
+| Configurações do relatório | Uma configuração de relatório foi gerenciada. |
+| Relatórios agendados | Um relatório agendado foi gerenciado. |
+| Excluir por IP | A configuração de IP foi alterada. |
+| Nomear páginas | Obsoleto. |
+| Classificações | Uma classificação foi gerenciada. |
+| Fontes de dados | Uma fonte de dados foi gerenciada. |
+| Projeto do espaço de trabalho | Um projeto do Workspace foi exibido ou editado. |
+| Segmento | Um segmento foi criado/editado. |
+| Métrica calculada | Uma métrica calculada foi criada/editada. |
+| Intervalo de datas | Um intervalo de datas foi criado/editado. |
+| Conjunto de relatórios virtuais | Um conjunto de relatórios virtual foi criado/editado. |
+| Análise de contribuição | Um trabalho de análise de contribuição foi executado. |
 | Solicitação de bloco de dados do Excel |  |
 | Falha ao fazer logon no Excel |  |
 | Logon feito com sucesso no Excel |  |
 | Falha ao fazer logon em um dispositivo móvel |  |
 | Logon feito com sucesso em um dispositivo móvel |  |
-| Método de API |  |
+| Método de API | Foi feita uma chamada de API. |
 
 
 ## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}
