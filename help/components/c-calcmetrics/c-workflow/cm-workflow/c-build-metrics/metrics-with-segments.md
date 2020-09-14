@@ -1,41 +1,37 @@
 ---
-description: Segmentar métricas individuais permite comparar métricas em um mesmo relatório. (Somente métricas derivadas)
+description: 'Segmentar métricas individuais permite comparar métricas em um mesmo relatório. '
 title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 234a2eadfe02322daa886d2edbea042f8ad99e1e
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 59%
 
 ---
 
 
 # Métricas segmentadas
 
-Segmentar métricas individuais permite comparar métricas em um mesmo relatório. (Somente métricas derivadas)
+No construtor de métricas calculadas, você pode aplicar segmentos na definição de métricas. Isso é útil se você quiser derivar novas métricas para usar na sua análise. Lembre-se de que as definições de segmentos podem ser atualizadas pelo construtor de segmentos. Se forem feitas alterações, o segmento será atualizado automaticamente em qualquer lugar em que for aplicado, incluindo se fizer parte de uma definição de métrica calculada.
 
-## Comparação de segmentos {#section_29A6E0070F084BFDB6228FA9CE106F48}
+![](assets/german-visitors.png)
 
-Suponha que você deseja comparar diferentes aspectos dos segmentos de &quot;Visitantes dos EUA&quot; com os dos segmentos de &quot;Visitantes internacionais&quot;. É possível criar métricas para obter insights como:
+## Criar uma métrica segmentada {#create}
+
+Digamos que você queira comparar diferentes aspectos de um segmento &quot;Visitantes alemães&quot; com os de um segmento &quot;Visitantes internacionais&quot;. É possível criar métricas para obter insights como:
 
 * Qual é a diferença de comportamento de navegação no conteúdo entre os dois grupos? (Outro exemplo seria: qual é a diferença da taxa de conversão entre os dois segmentos?)
-* Como uma porcentagem do total de visitantes, quantos visitantes dos EUA navegam por determinadas páginas em relação aos visitantes internacionais?
+* Como uma porcentagem do total de visitantes, quantos visitantes alemães navegam em determinadas páginas, em relação aos visitantes internacionais?
 * Quais são as maiores diferenças em termos de conteúdo acessado por esses diferentes segmentos?
 
-Vamos explorar a primeira pergunta: qual é a diferença no comportamento de navegação no conteúdo entre os dois grupos?
-
-1. Se você não tiver um segmento para comparação, crie um segmento interno no Criador de métricas calculadas chamado “Visitantes alemães”, onde “Países” corresponda a “Alemanha”. Basta arrastar a dimensão Países para a tela Definição e selecionar Alemanha como o valor:
+1. Se você não tiver um segmento comparável, crie um segmento adhoc diretamente no Criador de métricas calculadas chamado &quot;Visitantes alemães&quot;, onde &quot;Países&quot; seja igual a &quot;Alemanha&quot;. Basta arrastar a dimensão Países para a tela Definição e selecionar Alemanha como o valor:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Também é possível fazer isso no [Construtor de relatórios](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas.
-
-   >[!NOTE]
-   >
-   >&quot;Interno&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
+   >Também é possível fazer isso no [Construtor de relatórios](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas. &quot;Adhoc&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
 
 1. Caso não possua um segmento comparável, crie um segmento chamado “Visitantes internacionais” no qual &quot;Países” seja diferente de &quot;Alemanha”.
 1. Crie e salve uma métrica chamada “Visitantes alemães”. Para fazer isso, arraste o segmento Alemanha para a tela Definição e, em seguida, arraste a métrica Visitantes únicos dentro dele:
@@ -47,13 +43,9 @@ Vamos explorar a primeira pergunta: qual é a diferença no comportamento de nav
 
    ![](assets/workspace-pages.png)
 
-1. Ou, em [!UICONTROL Reports &amp; Analytics], abra o relatório [!UICONTROL Páginas] e clique em **[!UICONTROL Mostrar métricas]**; em seguida, aplique as novas métricas segmentadas Visitantes internacionais e Visitantes dos EUA e compare seus comportamentos de navegação pelo conteúdo.
+## Porcentagem do total de métricas {#percent-total}
 
-   ![](assets/pages-report.png)
-
-## Comparação das porcentagens dos totais {#section_846CB89725F04388AE0352DB20189EE8}
-
-É possível adicionar outro nível de apuramento por meio da comparação entre o comportamento de navegação dos visitantes em porcentagens normalizadas. Para fazer isso, crie duas novas métricas, “% do total de visitantes alemães” e “% do total de visitantes internacionais”:
+Você pode levar o exemplo acima um passo adiante comparando seu segmento a uma população total. Para fazer isso, crie duas novas métricas, &quot;% do total de Visitantes alemães&quot; e &quot;% do total de Visitantes internacionais&quot;:
 
 1. Solte o segmento Visitantes alemães (ou internacionais) na tela.
 1. Solte outro segmento Visitantes alemães (ou internacionais) abaixo. Mas, desta vez, clique no ícone de configurações (engrenagem) e selecione o Tipo de métrica &quot;Total&quot;. O Formato deve ser &quot;Porcentagem&quot;. O operador deve ser &quot;dividido por&quot;. No final, você terá a seguinte definição de métrica:
@@ -63,26 +55,4 @@ Vamos explorar a primeira pergunta: qual é a diferença no comportamento de nav
 1. Aplique esta métrica ao seu projeto:
 
    ![](assets/cm_percent_total.png)
-
-## Comparação de diferenças nas porcentagens (usando contêineres) {#section_13D6353259B74C09B37BA6378A501938}
-
-Caso queira ver imediatamente as maiores diferenças ente o comportamento de navegação de visitantes dos EUA e de visitantes internacionais, você pode criar uma métrica que subtraia as porcentagens das duas navegações. Para fazer isso, é possível usar a funcionalidade de contêiner, que funciona como parênteses ao redor dos dois conjuntos de métricas.
-
-1. Na tela [!UICONTROL Definição], clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Contêiner]**:
-
-   ![](assets/cm_add_container.png)
-
-1. Solte a métrica &quot;% do total de visitantes dos EUA&quot; criada anteriormente no primeiro contêiner. Ele será expandido para sua definição completa:
-
-   ![](assets/cm_container_us.png)
-
-1. Crie outro contêiner abaixo e solte nele a métrica &quot;% do total de visitantes internacionais&quot;.
-1. Altere o operador entre os dois contêineres para um sinal de menos (-).
-
-   ![](assets/cm_container_intl.png)
-
-1. Salve a métrica (certifique-se de nomeá-la como &quot;Diferença de % entre visitantes dos EUA e visitantes internacionais&quot;, por exemplo).
-1. Quando aplicada ao relatório, é possível ver as principais diferenças nas porcentagens, bem como classificar o relatório apropriadamente.
-
-   ![](assets/cm_diff_percent.png)
 
