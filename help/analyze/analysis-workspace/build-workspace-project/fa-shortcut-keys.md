@@ -5,10 +5,10 @@ title: Teclas de atalho (atalhos) disponíveis no Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 77%
+source-wordcount: '285'
+ht-degree: 58%
 
 ---
 
@@ -17,38 +17,40 @@ ht-degree: 77%
 
 Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise e democratização ininterruptas.
 
-Observação: `CTRL` = Windows e `command` = Mac
+Observação:
+* `Ctrl` = Windows e `Command` = Mac
+* `Alt` = Windows e `Option` = Mac
 
 ## Ações de navegação
 
 | Ação | Atalho |
 |---|---|
-| Criar novo projeto | ctrl (ou cmd) + shift + p |
-| Abrir projeto existente | ctrl (ou cmd) + o |
+| Criar novo projeto | ctrl + shift + p |
+| Abrir projeto existente | ctrl + o |
 | Ir para o painel Painéis | alt + shift + 1 |
 | Ir para o painel Visualizações | alt + shift + 2 |
 | Ir para o painel Componentes | alt + shift + 3 |
 | Recolher/Expandir todos os painéis | alt + m |
 | Recolher/expandir painel ativo | alt + ctrl + m |
-| Move para o próximo painel | alt + Chave direita |
+| Move para o próximo painel | alt + Tecla direita |
 | Mover para o painel anterior | alt + Tecla Esquerda |
 
-## ações de Análise
+## ações de análise
 
 | Ação | Atalho |
 |---|---|
 | Pesquisar painel esquerdo | ctrl + / |
-| Criar um alerta | ctrl (ou cmd) + shift + a |
-| Criar métrica calculada | ctrl (ou cmd) + shift + c |
-| Criar um intervalo de datas | ctrl (ou cmd) + shift + d |
-| Criar um segmento | ctrl (ou cmd) + shift + e |
+| Criar um alerta | ctrl + shift + a |
+| Criar métrica calculada | ctrl + shift + c |
+| Criar um intervalo de datas | ctrl + shift + d |
+| Criar um segmento | ctrl + shift + e |
 | Limpar tudo | alt + w |
-| Copiar | ctrl (ou cmd) + c |
-| Refazer | ctrl (ou cmd) + shift + z |
-| Desfazer | ctrl (ou cmd) + z |
+| Copiar | ctrl + c |
+| Refazer | ctrl + shift + z |
+| Desfazer | ctrl + z |
 | Atualizar componentes | alt + shift + r |
 | Atualizar projeto | alt + r |
-| Definir como página de aterrissagem | ctrl (ou cmd) + shift + l |
+| Definir como página de aterrissagem | ctrl + shift + l |
 
 ## Adicionar painéis e ações de visualização
 
@@ -69,13 +71,13 @@ Observação: `CTRL` = Windows e `command` = Mac
 
 | Ação | Atalho |
 |---|---|
-| Salvar projeto | ctrl (ou cmd) + s |
-| Salvar projeto como | ctrl (ou cmd) + shift + s |
+| Salvar projeto | ctrl + s |
+| Salvar projeto como | ctrl + shift + s |
 | Salvar como modelo | alt + t |
-| Baixar como CSV | ctrl (ou cmd) + shift + v |
-| Baixar como PDF | ctrl (ou cmd) + shift + b |
-| Preparar dados do projeto | ctrl (ou cmd) + shift + g |
-| Compartilhar projeto | ctrl (ou cmd) + g |
+| Baixar como CSV | ctrl + shift + v |
+| Baixar como PDF | ctrl + shift + b |
+| Preparar dados do projeto | ctrl + shift + g |
+| Compartilhar projeto | ctrl + g |
 | Obter link do projeto | alt + l |
 | Enviar arquivo agora | alt + s |
 | Enviar arquivo agendado | shift + alt + s |
