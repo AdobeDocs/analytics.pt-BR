@@ -4,7 +4,7 @@ title: Logs
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
@@ -39,7 +39,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 ### Tipos de evento
 
 | Tipo de evento | Descrição |
-| --- |--- |
+| --- | --- |
 | Sem categoria | Pode ser qualquer tipo de evento. |
 | Falha no logon | Falha no processo de logon do usuário. |
 | Logon realizado com sucesso | Usuário conectado com êxito. |
