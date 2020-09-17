@@ -3,12 +3,19 @@ description: Saiba sobre as várias ações que podem ser realizadas em um relat
 title: Configurar relatórios existentes
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
 
 # Configurar relatórios existentes
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Saiba sobre as várias ações que podem ser realizadas em um relatório, como configuração de gráficos, análise e extração de dados.
 
