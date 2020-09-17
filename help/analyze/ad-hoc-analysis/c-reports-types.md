@@ -4,12 +4,19 @@ title: Tipos de relatórios
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 99%
 
 ---
 
 
 # Tipos de relatórios
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Descrições dos tipos de relatórios usados na Experience Cloud.
 
@@ -218,7 +225,7 @@ Clique nos cilindros com o botão direito do mouse para editá-los ou removê-lo
 
 | Opção | Descrição |
 |--- |--- |
-| Editar   | Permite adicionar ou remover páginas de um cilindro. |
+| Editar | Permite adicionar ou remover páginas de um cilindro. |
 | Remover | Permite remover um cilindro. |
 | Relatórios | Permite inicializar outro relatório pelo cilindro. |
 | Salvar gráfico como | Permite salvar o gráfico como um arquivo .png ou .jpg. Se você alterar os controles do gráfico (ângulo, tamanho) antes de salvar, as alterações são preservadas na saída. |
