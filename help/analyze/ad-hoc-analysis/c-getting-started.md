@@ -3,10 +3,10 @@ description: Introdução à Ad Hoc Analysis.
 title: Introdução
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 94%
+source-wordcount: '1305'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Em 6 de agosto de 2018, a Adobe anunciou a intenção de encerrar a vida útil da Ad Hoc Analysis. Uma data para o fim da vida útil será compartilhada assim que estiver disponível. Para obter mais informações, incluindo quais versões do Java serão compatíveis durante esse período, visite [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 É possível executar análises avançadas e instantâneas sobre a atividade do site. É possível visualizar vários relatórios simultaneamente e aplicar segmentos em diversas dimensões. Você pode analisar os dados das perspectivas micro e macro para visualizar seu impacto nas suas métricas de negócios importantes.
 
