@@ -3,9 +3,9 @@ description: Exibe informações sobre quais páginas e áreas do site são mais
 title: Relatórios de conteúdo do site
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '545'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados.
 
