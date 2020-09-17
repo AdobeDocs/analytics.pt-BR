@@ -3,10 +3,10 @@ description: Use a visualização de linha para descrever conjuntos de dados com
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 A visualização de Linha representa as métricas que usam uma linha para mostrar como os valores mudam ao longo de um período de tempo. Um gráfico de linha pode ser usado apenas quando o horário for usado como uma dimensão.
 
 ![Visualização de linha](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Algumas configurações de visualização de Linha, como [!UICONTROL Mostrar linha de tendência], estão atualmente em testes limitados. [Saiba mais](/help/landing/an-releases.md)
 
 Clique no ícone de engrenagem na parte superior direita da visualização de Linha para acessar as configurações [**de**](freeform-analysis-visualizations.md) Visualização disponíveis. As configurações são categorizadas em:
 
@@ -42,6 +38,10 @@ Em Configurações **[!UICONTROL de]** visualização > **[!UICONTROL Sobreposi�
 ## Mostrar sobreposição de linha de tendência
 
 Em Configurações **[!UICONTROL de]** visualização > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar linha de tendência]**, você pode optar por adicionar uma linha de tendência de regressão à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
+
+>[!TIP]
+>
+>Recomendamos que as linhas de tendência sejam aplicadas aos dados que não incluem hoje (dados parciais) ou datas futuras, já que isso distorcerá a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar inclinações para esses dias. Para fazer isso, vá para a tabela de fonte de dados da visualização e escolha sua coluna de métrica. Em seguida, vá para Configurações [!UICONTROL de] coluna e marque **[!UICONTROL Interpretar zero como nenhum valor]**.)
 
 ![Linha de tendência linear](assets/show-linear-trendline.png)
 
