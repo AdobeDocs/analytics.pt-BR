@@ -3,12 +3,19 @@ description: O Tempo é uma dimensão de relatório que é útil para a tendênc
 title: Hora
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
 
 # Hora
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 O Tempo é uma dimensão de relatório que é útil para a tendência em horas, dias, semanas e intervalos de datas. Por exemplo, um Relatório de produtos mostra quanta receita um produto criou durante um intervalo de datas selecionado. Você pode adicionar uma dimensão de Dia para ver a tendência em cada dia do período do relatório. O Tempo oferece configurações de granularidade para Hora, Dia, Semana, Mês, Trimestre e Ano. As predefinições de intervalos de data incluem configurações como Hoje, Ontem e Últimos 7 dias.
 
