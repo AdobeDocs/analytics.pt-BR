@@ -4,12 +4,19 @@ title: Relatórios de produtos
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 95%
 
 ---
 
 
 # Relatórios de produtos
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Exibe informações sobre produtos que estão sendo vendidos, distribuídos ou exibidos em seu site. Você pode ver dados em pedidos ou downloads de produtos, aplicativos ou conteúdo.
 
