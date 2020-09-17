@@ -2,16 +2,20 @@
 description: 'null'
 title: Visão geral do Conversor de projeto da Ad Hoc Analysis
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 93%
 
 ---
 
 
 # Visão geral do Conversor de projeto da Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 O Conversor de projetos da Ad Hoc Analysis pode converter facilmente todos os seus projetos da Ad Hoc para a Analysis Workspace.
 
