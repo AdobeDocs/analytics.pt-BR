@@ -4,10 +4,10 @@ title: Visão geral dos relatórios
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 98%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
 
