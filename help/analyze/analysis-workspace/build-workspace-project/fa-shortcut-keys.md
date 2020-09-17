@@ -5,7 +5,7 @@ title: Teclas de atalho (atalhos) disponíveis no Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 58%
@@ -24,7 +24,7 @@ Observação:
 ## Ações de navegação
 
 | Ação | Atalho |
-|---|---|
+| --- | --- |
 | Criar novo projeto | ctrl + shift + p |
 | Abrir projeto existente | ctrl + o |
 | Ir para o painel Painéis | alt + shift + 1 |
@@ -38,7 +38,7 @@ Observação:
 ## ações de análise
 
 | Ação | Atalho |
-|---|---|
+| --- | --- |
 | Pesquisar painel esquerdo | ctrl + / |
 | Criar um alerta | ctrl + shift + a |
 | Criar métrica calculada | ctrl + shift + c |
@@ -55,7 +55,7 @@ Observação:
 ## Adicionar painéis e ações de visualização
 
 | Ação | Atalho |
-|---|---|
+| ---|---|
 | Novo Analytics para o painel Públicos alvos | alt + g |
 | Novo painel de atribuição | alt + e |
 | Novo painel em branco | alt + b |
@@ -70,7 +70,7 @@ Observação:
 ## Ações de democratização
 
 | Ação | Atalho |
-|---|---|
+| --- | --- |
 | Salvar projeto | ctrl + s |
 | Salvar projeto como | ctrl + shift + s |
 | Salvar como modelo | alt + t |
