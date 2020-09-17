@@ -4,9 +4,9 @@ title: Relatórios de métricas do site
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1413'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
