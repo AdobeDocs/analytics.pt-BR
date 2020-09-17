@@ -3,15 +3,19 @@ description: No calendário, você pode especificar datas e intervalos de datas 
 title: Datas e intervalos de datas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
 
 # Datas e intervalos de datas
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição. É possível fazer seleções no calendário em níveis de projeto, espaço de trabalho e relatório. O intervalo de datas de um projeto é a data padrão. No entanto, um intervalo de datas de um espaço de trabalho sobrescreve o intervalo de datas do projeto. Da mesma maneira, um intervalo de datas de um relatório sobrescreve as configurações de data de um espaço de trabalho ou projeto. Não é possível selecionar um intervalo de datas fora do seu intervalo de disponibilidade de dados.
 
