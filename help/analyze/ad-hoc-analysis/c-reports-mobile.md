@@ -3,9 +3,9 @@ description: Exibe informações sobre acesso a sites a partir de um dispositivo
 title: Relatórios móveis
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Exibe informações sobre acesso a sites a partir de um dispositivo móvel. Contém relatórios móveis que melhoram a identificação do visitante ao coletar dados sobre os dispositivos móveis utilizados para visualizar site. Os relatórios de dispositivos móveis podem identificar o fabricante e os recursos de um dispositivo, como o tamanho da tela, suporte a áudio, vídeo e cookies, além de outras métricas. Relatórios de dispositivos móveis também estão disponíveis para todos os conjuntos de relatórios.
 
