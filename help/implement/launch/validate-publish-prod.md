@@ -1,8 +1,11 @@
 ---
-title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
-description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de desenvolvimento.
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+title: Validar uma implementação de desenvolvimento e publicar na produção
+description: Saiba como usar o Adobe Experience Platform Launch para implantar o Adobe Analytics no ambiente de produção.
+translation-type: tm+mt
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 93%
 
 ---
 
@@ -61,7 +64,7 @@ Enquanto estiver no site, abra o console de desenvolvedor do navegador (normalme
 
 ## Próximas etapas
 
-Agora que uma implementação básica foi configurada, sua função na empresa pode influenciar o caminho sobre o qual você deseja saber mais:
+Agora que uma implementação básica está configurada, sua função dentro da organização pode influenciar em qual caminho você deseja saber mais sobre:
 
 * [Criar um documento de design da solução](../prepare/solution-design.md): elabore um plano sobre como você deseja usar as variáveis personalizadas e, em seguida, inclua na implementação
 * [Introdução ao uso do Analysis Workspace](/help/analyze/analysis-workspace/home.md): mergulhe diretamente no Adobe Analytics usando o recurso principal da ferramenta.
