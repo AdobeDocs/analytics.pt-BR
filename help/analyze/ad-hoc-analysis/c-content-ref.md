@@ -4,15 +4,19 @@ title: Construir segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 93%
 
 ---
 
 
 # Construir segmentos
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 A Ad Hoc Analysis é integrada ao ambiente de Segmentação de análise, de modo que você possa compartilhar, gerenciar e aplicar os segmentos de visitantes nos produtos da Adobe. A Ad Hoc Analysis oferece uma interface de usuário baseada em Java para o Construtor de segmentos e para o Gerenciador de segmentos que é idêntica às ferramentas baseadas na Web usadas por outras ferramentas do Analytics, adaptando-se às chamadas do servidor e fornecendo os mesmos recursos e funcionalidades de um console baseado em Java.
 
