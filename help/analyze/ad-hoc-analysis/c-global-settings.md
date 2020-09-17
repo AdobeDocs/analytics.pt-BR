@@ -3,12 +3,19 @@ description: Definir configurações de comportamento global. Por exemplo, é po
 title: Configurações
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # Configurações
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
 
@@ -16,7 +23,7 @@ Definir configurações de comportamento global. Por exemplo, é possível defin
 
 Definir configurações de comportamento global. Por exemplo, é possível definir as configurações de Salvamento automático, gráfico e tabela e especificar a fonte e o local.
 
-Clique em **[!UICONTROL Tools]** > **[!UICONTROL Settings]** para acessar [!UICONTROL Global Settings].
+Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Configurações]** para acessar as [!UICONTROL Configurações Globais].
 
 ## Guia Configurações Gerais - Definições {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
