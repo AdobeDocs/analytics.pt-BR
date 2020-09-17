@@ -4,12 +4,19 @@ title: Visão geral dos relatórios
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
 
 # Visão geral dos relatórios
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Os relatórios padrão exibem dados de atividades do site e de visitante, padrões de tráfego, dados de referências, campanhas publicitárias, retenção de visitante, dados de produto e muito mais. É possível executar relatórios e então acessar as ferramentas para configurar segmentos, métricas e comparações de relatório.
 
@@ -27,13 +34,13 @@ O conjunto de relatórios padrão cobre temas comuns a qualquer site. Os relató
 * Dados de referências
 * Campanhas publicitárias
 * Retenção de visitante
-* Informações do produto
+* Informações sobre o produto
 
 Se você usar relatórios e análises de marketing, os tipos de relatórios e menus serão familiares. A Ad Hoc Analysis categoriza relatórios com base nos seguintes tipos:
 
 **Relatórios de resumo**
 
-Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Eles são voltados para executivos que desejam ter uma visão geral dos dados.
+Inclui relatórios como o de [!UICONTROL Totais], que mostra os dados projetados para uma rápida visão geral. Eles são voltados para executivos que desejam ter uma visão geral dos dados.
 
 **Relatórios de conversão**
 
@@ -58,7 +65,7 @@ c_reports_campaigns.xml
 
  -->
 
-Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. Consulte a ajuda [do Console de](https://helpx.adobe.com/br/enterprise/using/admin-console.html) administração para obter mais informações.
+Esses relatórios geralmente são personalizados e, por consequência, diferentes para cada análise. See the [Admin Console help](https://helpx.adobe.com/br/enterprise/using/admin-console.html) for more information.
 
 ## Cálculos estatísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +81,12 @@ Os cálculos estatísticos padrão adicionais podem ser adicionados aos relatór
 
 **Para abrir os cálculos estatísticos para Relatórios classificados:**
 
-1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
+1. Selecione **[!UICONTROL Ferramentas]** > **[!UICONTROL Classificadas]** no menu.
 
-1. Selecionar **[!UICONTROL Settings]**.
-1. Selecionar **[!UICONTROL Default Statistics]**.
+1. Selecione **[!UICONTROL Configurações]**.
+1. Selecione **[!UICONTROL Estatísticas padrão]**.
 
-**[!UICONTROL Ignore zeros in statistical calculations]**. Selecione essa opção para ignorar os zeros e garantir que ao adicionar outra métrica, as médias já calculadas não serão alteradas. Todas as estatísticas foram afetadas por essa configuração (embora a soma não tenha sido afetada).
+**[!UICONTROL Ignorar os zeros em cálculos estatísticos]**. Selecione essa opção para ignorar os zeros e garantir que ao adicionar outra métrica, as médias já calculadas não serão alteradas. Todas as estatísticas foram afetadas por essa configuração (embora a soma não tenha sido afetada).
 
 | Cálculo | Descrição |
 |--- |--- |
@@ -141,7 +148,7 @@ c_overlay_calculations.xml
 
  -->
 
-In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
+Em um relatório que identifica dados durante um período de tempo, o botão **[!UICONTROL Estatísticas]** permite que você selecione os cálculos que serão exibidos como sobreposições na linha de tempo do relatório.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +156,7 @@ Além do padrão  [Nos Cálculos estatísticos](/help/analyze/ad-hoc-analysis/c-
 
 ## Gerenciador do grupo {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. É possível editar grupos pelo menu principal ou de dentro do relatório. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
+Em vez de utilizar uma única página em um relatório, é possível agrupar diversas páginas e usá-las como categorias para local de início, intermediário ou de destino nos relatórios [!UICONTROL Fallout] e de [!UICONTROL Análise do Site]. É possível editar grupos pelo menu principal ou de dentro do relatório. Categorias criadas em relatórios e análises de marketing também aparecem na lista [!UICONTROL Seletor de ponto de verificação].
 
 <!-- 
 
@@ -157,4 +164,4 @@ c_groups.xml
 
  -->
 
-Clique em **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
+Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Gerenciador de grupos]**.
