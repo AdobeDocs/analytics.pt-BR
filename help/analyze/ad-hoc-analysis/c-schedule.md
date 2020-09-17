@@ -4,15 +4,19 @@ title: Gerenciador de programação
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
 
 # Gerenciador de programação
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Você pode personalizar o agendamento da entrega de relatórios. É possível interromper a entrega em determinado momento ou especificar o número de vezes que você deseja enviar um relatório. Os novos agendamentos usam o intervalo de datas definido no relatório. Por exemplo, se você criar um relatório para os últimos 90 dias e agendar sua execução diariamente, você recebe um relatório dos últimos 90 dias a cada dia. Se você criar um relatório com um intervalo de datas estático do calendário, você verá o mesmo relatório sempre que ele for enviado.
 
