@@ -2,9 +2,9 @@
 description: Introdução à Ad Hoc Analysis
 title: Visão geral da Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ A Ad Hoc Analysis ajuda a identificar segmentos de alto valor do cliente com inf
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 ## Tópicos novos e populares
 
