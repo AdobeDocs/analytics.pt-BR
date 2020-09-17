@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre feeds de dados
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Perguntas frequentes sobre feeds de dados
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ Se você vir variações de maiúsculas e minúsculas diferentes do mesmo valor 
 ## Os bots são filtrados pelas regras de bot do Admin Console nos feeds de dados?
 
 Os feeds de dados não incluem bots filtrados pelas regras [do robô do console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)de administração.
+
+## Por que vejo vários `000` valores na coluna do feed de dados `event_list` ou `post_event_list` ?
+
+Alguns editores de planilhas, especialmente o Microsoft Excel, arredondam automaticamente números muito grandes. A `event_list` coluna contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel a trate como um grande número. Ele arredonda os últimos dígitos para `000`.
+
+O Adobe recomenda não abrir `hit_data.tsv` arquivos automaticamente no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
