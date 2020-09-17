@@ -3,13 +3,20 @@ description: Exibe informações sobre a ordem na qual as páginas de seu site s
 title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
 
 # Relatórios de caminhos
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
 
@@ -116,7 +123,7 @@ r_dsc_fallout.xml
 | Mostrar fallout no nível de Visita ou Visitante | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. Essas configurações ajudam você a entender a participação do visitante no nível do visitante e em várias visitas. Os relatórios de análise do site, de fluxo e de saída são ativados para a definição do caminho do visitante. Alterar essa configuração executa o relatório novamente, limitando os dados de acordo com a seleção. |
 | Sucesso total | Um indicador do total de sucesso. Este valor reflete o valor no último ponto de verificação do caminho. |
 | Sucesso total % | Um total cumulativo da porcentagem de visitantes chegando em cada ponto de verificação. |
-| Ponto de Verificação % | A porcentagem de sucesso entre ponto de verificação. (Não cumulativo.) |
+| Ponto de verificação % | A porcentagem de sucesso entre ponto de verificação. (Não cumulativo.) |
 | Inclui todas as visitas | Adiciona todas as visitas ao ponto de verificação inicial. |
 | Fallout | Permite que você veja as páginas visualizadas depois que o visitante saiu do caminho de ponto de verificação especificado. |
 | Falha | Permite que você veja as páginas visualizadas na próxima etapa do caminho de ponto de verificação especificado. |
