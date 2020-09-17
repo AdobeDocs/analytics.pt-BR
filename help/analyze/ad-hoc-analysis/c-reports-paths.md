@@ -4,9 +4,9 @@ title: Relatórios de caminhos
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1265'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Exibe informações sobre a ordem na qual as páginas de seu site são acessadas. Você pode coletar informações sobre onde o visitante vai antes e após visitar qualquer página em seu site.
 
