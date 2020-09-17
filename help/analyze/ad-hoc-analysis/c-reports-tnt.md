@@ -4,12 +4,19 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
 
 # Adobe Target
+
+>[!IMPORTANT]
+>
+>A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
 
 Exiba e segmente seus dados de tráfego do Adobe Target em um relatório do Analytics.
 
