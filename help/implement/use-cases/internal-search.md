@@ -2,7 +2,7 @@
 title: Capturar termos de pesquisa interna
 description: Use uma variável personalizada para capturar termos de pesquisa interna.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Depois de confirmar que está funcionando no ambiente dev, é possível [Validar uma implementação de desenvolvimento e publicar na produção](../launch/validate-publish-prod.md).
 
-## Relatórios no Workspace.
+## Relatórios no Workspace
 
 Dê à sua implementação algum tempo para coletar dados e, em seguida, você poderá fazer start usando a dimensão no Analysis Workspace.
 
