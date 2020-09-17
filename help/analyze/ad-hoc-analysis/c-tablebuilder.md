@@ -3,9 +3,9 @@ description: Use o Construtor de tabela para criar um relatório com qualquer co
 title: Criador de tabela
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o status do Ad Hoc Analysis para o fim da vida útil em 1º de março de 2021. [Saiba mais...](https://adobe.ly/discoverworkspace).
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 Use o Construtor de tabela para criar um relatório com qualquer configuração de métricas, dimensões e segmentos. Por exemplo, você pode adicionar várias métricas ao Construtor de tabela e aplicar o segmento a todos ao mesmo tempo. Você pode aplicar itens pelos painéis de ferramentas como linhas e detalhamentos ou como colunas e facilmente girar a tabela para obter uma visualização diferente. Depois de criar a tabela, você pode interagir diretamente com a tabela de dados resultante para realizar análises mais detalhadas. Lembre-se de que gerar uma tabela de dados pelo Construtor de tabela executa uma consulta e cria uma nova tabela de dados.
 
