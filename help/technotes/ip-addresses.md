@@ -99,9 +99,9 @@ Se sua organização preferir permitir intervalos de endereço IP específicos, 
 | San Jose | `208.91.169.0/24` |
 | Sydney | `216.104.216.0/23` |
 | Tóquio | `66.235.159.0/24` |
-| rios | `66.117.21.0/24` |
+| Tóquio | `66.117.21.0/24` |
 | Tóquio | `63.140.52.0/24` |
-| rios | `63.140.50.0/23` |
+| Tóquio | `63.140.50.0/23` |
 | Virgínia | `66.235.144.0/22` |
 | Virgínia | `208.77.138.0/23` |
 | Virgínia | `208.77.136.0/23` |
