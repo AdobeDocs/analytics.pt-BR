@@ -4,7 +4,7 @@ title: Tipos de relatórios
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `https://www.mysite.com` para `https://info.mysite.com`ou `https://sales.mysite.com`.
+Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `https://www.example.com` para `https://info.example.com`ou `https://sales.example.com`.
 
 ## Fluxo de próxima seção {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `www.mysite.com` para `info.mysite.com`ou `sales.mysite.com`.
+Por exemplo, se você tem dados específicos sobre diferentes servidores ou dados espelhados em servidores separados, o relatório mostra o caminho entre os servidores que os usuários acessaram. Isso também ocorre com domínios dentro do site. Por exemplo, é possível ver quantos usuários passaram de `www.example.com` para `info.example.com`ou `sales.example.com`.
 
 ## Relatórios de funil de conversão {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
