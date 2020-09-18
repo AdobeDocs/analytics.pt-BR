@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: Use a variável linkInternalFilters para ajudar no rastreamento automático do link de saída.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ O AppMeasurement oferece a capacidade de rastrear automaticamente links que apon
 Se essa variável tiver um valor, o rastreamento automático do link de saída se comportará como uma lista de bloqueios. Se um clique em um link não corresponder a algum valor `linkInternalFilters`, ele será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativado, a sequência de consulta também será examinada.
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
+
+O mapa de atividades usa essa variável para ajudar a determinar quais links são internos do site. O Adobe recomenda configurar essa variável para implementações que usam o mapa de Atividades.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Coloque os filtros que deseja que nunca sejam rastreados como links de saída ne
 A variável `s.linkInternalFilters` é uma cadeia de caracteres que contém filtros (como domínios) tidos como internos no site. Separe vários filtros usando uma vírgula sem espaços.
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 Considere o exemplo de implementação a seguir como se ele estivesse em `adobe.com`:
@@ -50,5 +52,5 @@ Considere o exemplo de implementação a seguir como se ele estivesse em `adobe.
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
