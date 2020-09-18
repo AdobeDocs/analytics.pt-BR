@@ -3,11 +3,11 @@ description: O Gerenciador de solicitações permite que você visualize, dupliq
 title: Gerenciar solicitações do Data Warehouse
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,6 @@ Esta tabela permite
 * Priorize novamente os relatórios; basta arrastá-los e soltá-los em um novo local na fila.
 * Para ver quando um uma solicitação começou a ser processada, clique em uma ID de solicitação agendada e verifique o pop-up aberto.
 
->[!NOTE]
->
->Para cancelar uma solicitação do Data Warehouse, [siga essas etapas](https://helpx.adobe.com/br/analytics/kb/cancel-data-warehouse-requests.html).
+Clique em um trabalho para ver solicitações individuais para esse trabalho.
 
+* Taxa limitada: Sua organização tem muitas solicitações de Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.
