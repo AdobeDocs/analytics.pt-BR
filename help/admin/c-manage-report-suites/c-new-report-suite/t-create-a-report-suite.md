@@ -3,8 +3,11 @@ description: Etapas que descrevem como criar um conjunto de relatórios e copiar
 title: Criar um novo conjunto de relatórios
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +28,4 @@ Etapas que descrevem como criar um conjunto de relatórios e copiar as configura
 1. Preencha os campos descritos em [Novo conjunto de relatórios.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Clique em **[!UICONTROL Criar conjunto de relatórios]**.
 
->[!MORELIKETHIS]
->
->* [Criação de conjuntos de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+Uma ID de conjunto de relatórios tem um comprimento máximo de 40 bytes. Um nome amigável ao conjunto de relatórios tem um comprimento máximo de 255 bytes.
