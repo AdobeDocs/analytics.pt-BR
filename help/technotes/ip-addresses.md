@@ -2,10 +2,10 @@
 title: IPs e domínios usados pela Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados do Adobe, use esta lista para atualizar as configurações do firewall.
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '386'
+ht-degree: 15%
 
 ---
 
@@ -101,7 +101,7 @@ Se sua organização preferir permitir intervalos de endereço IP específicos, 
 | Tóquio | `66.235.159.0/24` |
 | Tóquio | `66.117.21.0/24` |
 | rios | `63.140.52.0/24` |
-| rios | `63.140.50.0/23` |
+| Tóquio | `63.140.50.0/23` |
 | Virgínia | `66.235.144.0/22` |
 | Virgínia | `208.77.138.0/23` |
 | Virgínia | `208.77.136.0/23` |
@@ -129,53 +129,18 @@ A Adobe Analytics usa os Amazon Web Services como parte de seu processo de colet
 | Irlanda | `52.17.94.37` |
 | Irlanda | `52.49.253.16` |
 | Irlanda | `52.51.63.15` |
-| Londres | `172.82.228.19` |
 | Oregon | `52.42.60.49` |
 | Oregon | `54.212.169.56` |
 | Oregon | `54.214.170.191` |
 | Singapura | `13.228.34.224` |
 | Singapura | `18.136.20.161` |
 | Singapura | `52.74.162.152` |
-| rios | `13.112.72.86` |
+| Tóquio | `13.112.72.86` |
 | Tóquio | `18.178.74.225` |
 | Tóquio | `18.179.88.228` |
+| Virgínia | `3.220.129.153` |
+| Virgínia | `18.211.197.67` |
+| Virgínia | `34.228.124.176` |
 | Virgínia | `34.234.106.101` |
 | Virgínia | `52.22.231.198` |
 | Virgínia | `54.157.65.136` |
-| Virgínia | `107.23.142.4` |
-| Virgínia | `34.192.14.184` |
-| Virgínia | `34.192.146.173` |
-| Virgínia | `34.192.229.76` |
-| Virgínia | `34.196.183.216` |
-| Virgínia | `34.196.219.120` |
-| Virgínia | `34.196.54.55` |
-| Virgínia | `34.197.179.21` |
-| Virgínia | `34.197.45.49` |
-| Virgínia | `34.197.93.163` |
-| Virgínia | `34.198.80.27` |
-| Virgínia | `34.199.102.192` |
-| Virgínia | `34.199.46.40` |
-| Virgínia | `34.199.99.62` |
-| Virgínia | `34.200.67.35` |
-| Virgínia | `34.204.146.235` |
-| Virgínia | `34.204.164.1` |
-| Virgínia | `34.204.27.249` |
-| Virgínia | `34.205.224.111` |
-| Virgínia | `34.206.69.71` |
-| Virgínia | `52.193.88.44` |
-| Virgínia | `52.200.108.250` |
-| Virgínia | `52.200.171.156` |
-| Virgínia | `52.201.49.195` |
-| Virgínia | `52.205.244.105` |
-| Virgínia | `52.207.161.156` |
-| Virgínia | `52.22.148.55` |
-| Virgínia | `52.4.155.255` |
-| Virgínia | `52.72.182.205` |
-| Virgínia | `52.72.185.111` |
-| Virgínia | `54.152.218.194` |
-| Virgínia | `54.173.37.66` |
-| Virgínia | `54.173.69.38` |
-| Virgínia | `54.236.180.248` |
-| Virgínia | `54.236.71.218` |
-| Virgínia | `54.80.103.29` |
-| Virgínia | `54.88.180.124` |
