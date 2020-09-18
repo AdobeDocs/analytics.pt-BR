@@ -4,20 +4,20 @@ subtopic: Data sources
 title: Processamento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 97%
 
 ---
 
 
 # Processamento completo
 
->[!NOTE]
+>[!IMPORTANT]
 >
->A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. As fontes de dados de processamento completo serão substituídas no futuro.
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe planeja desaprovar as fontes de dados de processamento completo no futuro.
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -114,12 +114,12 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>URL da página (por exemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>URL da página (por exemplo, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>produtos </p> </td> 
    <td colname="col2"> <p>produtos </p> </td> 
-   <td colname="col3"> <p>Lista de produtos (por exemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Lista de produtos (por exemplo, <code> "Sports;Ball;1;5.95"</code>). Pode conter um valor máximo de 4096 bytes por linha.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
