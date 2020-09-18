@@ -3,11 +3,11 @@ description: Quando um relatório possuir um grande número de valores únicos, 
 title: Valor de tráfego baixo no Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 94%
 
 ---
 
@@ -50,4 +50,5 @@ Recursos diferentes tratam valores de tráfego baixo de maneiras diferentes.
    * Em alguns cenários limitados, valores de tráfego baixo ainda podem aparecer. Os exemplos incluem vars de lista, props de lista, eVars de merchandising e dimensões detalhadas de canal de marketing.
 * **Segmentação:** se os critérios do segmento incluírem uma variável com um número elevado de valores únicos, os valores capturados em Tráfego baixo não serão incluídos.
 * **Classificações:** os relatórios de classificação também estão sujeitos a limites únicos. Se o valor da variável pai de uma classificação for incluído em Tráfego baixo, o valor não será classificado.
-   * Se você classificar os valores antes de serem vistos nos dados, esses valores serão contados de acordo com o limite exclusivo para esse mês.
+   * Os valores de classificação de baixo tráfego obtidos pelo importador podem ser visualizados na Data Warehouse. <!-- AN-115871 -->
+   * Valores de classificação de baixo tráfego obtidos pelo construtor de regras *não podem* ser exibidos na Data Warehouse. <!-- AN-122872 -->
