@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Perguntas frequentes da Fonte de Dados
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -133,3 +136,14 @@ Não para o processamento completo, sim para a ID de transação. Como as fontes
 
 Não. As eVars carregadas pelas fontes de dados da ID de Transação serão lidas somente nas informações de perfil armazenadas, não atualizarão o perfil.
 Não. As eVars são as únicas variáveis salvas no instantâneo do perfil do visitante.
+
+## Como os eventos numéricos e de moeda funcionam com as fontes de dados?
+
+O processamento completo suporta apenas formatos de lista de evento herdados, excluindo o valor de evento numérico/currency/Counter (mais de 1) diretamente na lista de eventos, ou seja, `"eventNN,eventKK"` não é `"eventNN=#.##"`. Isso significa que ele só oferece suporte a um evento de contador se for passado na coluna eventos no arquivo de fonte de dados e incrementado em 1.
+
+Se forem necessários eventos numéricos, de moeda ou de contador (mais de 1), use a lista do produto:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
