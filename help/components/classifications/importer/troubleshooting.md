@@ -2,10 +2,10 @@
 title: Solução de problemas do importador de classificação
 description: Problemas comuns de upload ao usar o importador de classificação.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 14%
+source-wordcount: '855'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Os problemas mais comuns ao carregar dados de classificação para o Adobe.
 
 As classificações exigem um tipo e formato de arquivo específicos para serem carregadas com êxito. Caso tenha sido salvo incorretamente, retornará um erro e nenhuma linha será processada. O erro retornado é frequentemente *&quot;A primeira coluna deve ser a chave&quot;*, mas pode ser qualquer número de erros. Verifique o seguinte:
 
-* **Carregando uma planilha (.xlsx) em vez de um arquivo**.tab ou .txt: O importador de classificação não sabe lidar com arquivos .xls ou .xlsx. Quando na caixa de diálogo &quot;Salvar como&quot; no Excel, defina o tipo Salvar como correto:
+* **Carregando uma planilha (.xlsx) em vez de um arquivo**.tab ou .txt: Você pode receber a mensagem de erro *&quot;A primeira coluna deve ser a chave&quot;* ao carregar arquivos de classificação em um formato incorreto. O importador de classificação não sabe lidar com arquivos .xls ou .xlsx. Quando na caixa de diálogo &quot;Salvar como&quot; no Excel, defina o tipo Salvar como correto:
    * No Windows, use o formato de arquivo `Text (Tab delimited) (*.txt)`
    * No Mac, use o formato de arquivo `Windows Formatted Text`.
 * **Alteração da extensão do nome de arquivo após salvá-la como uma pasta de trabalho**: A tentativa de renomear diretamente uma extensão de arquivo gera uma pasta de trabalho inválida. Use apenas a função Salvar como do Excel ou edite classificações em um editor de texto, como o Bloco de notas+.
@@ -38,6 +38,7 @@ Se o arquivo de upload estiver formatado corretamente, o carregador tentará imp
 * **As subclassificações existem e estão configuradas** incorretamente: Se houver subclassificações, verifique o seguinte:
    * Todos os valores de subclassificações possuem um valor de classificação principal
    * Duas classificações não fazem referência ao mesmo valor de classificação principal
+* **Incompatibilidade** de colunas: Você pode obter a mensagem de erro *&quot;A chave na linha tem muitas colunas&quot;* se houver um número inválido de colunas em uma determinada linha. Por exemplo, você tem 3 colunas no upload de sua classificação e a variável tem apenas uma única classificação. Valide seu arquivo de upload para garantir que o número de colunas não seja maior que o número de classificações configuradas para essa variável.
 
 ## Solução de problemas de importações FTP
 
