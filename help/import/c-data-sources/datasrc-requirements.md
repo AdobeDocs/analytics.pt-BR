@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Requisitos e limites de upload
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ Se você enviar um arquivo UTF-8 ou ISO-8859-1 e seu conjunto de relatórios nã
 * Os relatórios mais úteis para exibir os dados de log da Web são os relatórios de tráfego, como exibições de página.
 * Os nomes das páginas são exibidos como URL inteiro, incluindo a sequência de consulta.
 * Cada solicitação de arquivo aparece como uma exibição separada da página, incluindo folhas de estilo e arquivos de imagem.
-* Se você acrescentar informações no URL, os arquivos poderão ser gravados como páginas separadas. Por exemplo, os relatórios de marketing gravam os seguintes URLs como duas páginas separadas:
+* Se você acrescentar informações no URL, os arquivos poderão ser gravados como páginas separadas. Por exemplo, o Adobe registra os seguintes URLs como duas páginas separadas:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
