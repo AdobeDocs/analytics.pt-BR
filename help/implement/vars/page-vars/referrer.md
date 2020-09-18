@@ -2,10 +2,10 @@
 title: referenciador
 description: Substitua o referenciador coletado automaticamente em uma ocorrência.
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '258'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->Evite definir essa variável para valores que não são URLs.
+>Evite definir essa variável para valores que não são URLs. Não tire o protocolo do URL.
 
 ## Exemplo
 
