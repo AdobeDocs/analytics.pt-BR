@@ -2,10 +2,10 @@
 title: Tempo médio no site
 description: A quantidade média de tempo que um determinado item de dimensão existiu entre as ocorrências.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 O tempo total gasto para `Product page A` é `00:03:10`. Houve duas sequências nessa visita; a primeira sequência para os dois valores consecutivos e a segunda antes do check-out. A última ocorrência da visita não é uma sequência, pois não há carimbo de data e hora final.
 
 O tempo médio no site para `Product page A` é `00:01:35`.
+
+>[!NOTE]
+>
+>Essa métrica mostra um valor de `"Invalid"` se o item de dimensão contém somente ocorrências que foram as últimas em uma visita. Essa métrica requer uma ocorrência subsequente para rastrear o tempo gasto.
 
 ## Tempo médio gasto no site (segundos)
 
