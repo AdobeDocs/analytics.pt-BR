@@ -5,10 +5,10 @@ title: Importação de FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ Veja [FTP e sFTP](https://docs.adobe.com/content/help/pt-BR/analytics/export/ftp
 1. Clique em **[!UICONTROL Salvar]**.
 
 Após sua criação, é possível editar ou excluir as contas FTP clicando no link apropriado ao lado da conta FTP desejada.
+
+>[!NOTE]
+>
+>As notificações não são enviadas se uma importação não introduzir alterações em uma classificação. Um email só será enviado se for bem-sucedido e resultar em alterações em uma classificação.
