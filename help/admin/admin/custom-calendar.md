@@ -4,10 +4,10 @@ title: Personalizar calendário
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ As opções de calendário diferentes do modelo gregoriano. As opções incluem 
 
 >[!CAUTION]
 >
->Alterar o calendário resulta em alterações na maneira como os dados são processados (ou seja, a definição semanal e mensal de visitantes únicos). Quando a definição do calendário de semanas e meses muda, os dados históricos não são alterados.
+>Alterar o calendário resulta em alterações na maneira como os dados são processados (ou seja, a definição semanal e mensal de visitantes únicos). Quando a definição do calendário de semanas e meses muda, os dados históricos não são alterados. Essa configuração também afeta segmentos com base em intervalos de datas.
 
 Você pode usar o calendário para definir o primeiro dia da semana e ano, ou usar um estilo de calendário de varejo diferente. Os formatos de calendário são usados para várias finalidades, inclusive comparações de vendas e padronização de previsões, análise de custos com folha de pagamento ou regulamento de contagem de inventário físico. Por exemplo, o setor de varejo usa o calendário contábil 4-5-4 em suporte à temporada de vendas característica do setor de varejo. Cada um dos formatos de calendário é descrito abaixo.
 
