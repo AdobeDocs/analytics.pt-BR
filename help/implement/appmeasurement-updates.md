@@ -301,7 +301,7 @@ Data de lançamento: **17 de setembro de 2015**
 
 Data de lançamento: **18 de junho de 2015**
 
-* Suporte para API de Visitante 1.5, que usa o método  *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
+* Suporte para API de Visitante 1.5, que usa o método *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
 * Correção da criação de iframe de destino duplicado no módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Solucionado o problema conhecido descrito na versão 1.4.5.
 
@@ -331,7 +331,7 @@ Data de lançamento: **16 de abril de 2015**
 Data de lançamento: **19 de fevereiro de 2015**
 
 * Tornou o gerenciamento do rastreio tardio de chamadas consistente, o que corrigiu problemas com as variáveis revertidas durante o atraso, como por exemplo o objeto clicado.
-* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente nos rastreamentos em cadeia) não contarão o referenciador duas vezes quando  *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento.
+* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente nos rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento.
 * O zip de distribuição foi atualizado para incluir a API de Visitante 1.3.5.
 
 ## Versão 1.4.2
@@ -431,7 +431,7 @@ Data de lançamento: **14 de novembro de 2013**
 ## Versão 1.1.1
 
 * Impossibilitava o envio de uma chamada de rastreamento de link de navegadores Opera para links que começavam com &quot;opera:&quot; (&quot;opera:&quot; é similar a &quot;sobre:&quot; e &quot;chrome:&quot; em outros navegadores).
-* `alt=""` =&quot;&quot;A serialização de eventos é um processo de implementação de medidas, usado para evitar que eventos duplicados sejam inseridos nos relatórios do Analytics.
+* Adição de `alt=""` a todos os objetos de imagem para estar em conformidade com a Lei de Acessibilidade de Vídeo e Comunicações.
 
 ## Versão 1.1
 
