@@ -32,7 +32,7 @@ Há dois métodos disponíveis para enviar dados:
 
 É possível criar e gerenciar fontes de dados baseadas em FTP por meio dos relatórios de marketing, que aproveitam a transferência de arquivos FTP para importar arquivos de dados para a Fonte de dados. Após criar uma fonte de dados, o Adobe oferece a você um local FTP que você pode usar para carregar arquivos da Fonte de Dados. Após serem carregados, as Fontes de Dados automaticamente os localiza e processa. Após serem processados, os dados estão disponíveis nos relatórios de marketing.
 
-## API  {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
+## API {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
 
 A Adobe oferece uma API de Fontes de dados que permite que você vincule, de maneira programática, seus aplicativos nas Fontes de dados. Isso elimina a necessidade de um servidor FTP intermediário, e transfere os dados via HTTP, SOAP e REST.
 
