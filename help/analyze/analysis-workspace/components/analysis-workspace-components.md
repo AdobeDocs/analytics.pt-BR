@@ -53,7 +53,7 @@ Você pode gerenciar componentes (individualmente ou selecionando mais de um) di
 
 | Ação de componente | Descrição |
 |--- |--- |
-| Adicionar tag | Organize ou gerencie componentes aplicando tags. Você pode pesquisar por tag no painel esquerdo clicando no filtro ou digitando #. As tags também atuam como filtros nos gerenciadores de componentes. |
+| Tag | Organize ou gerencie componentes aplicando tags. Você pode pesquisar por tag no painel esquerdo clicando no filtro ou digitando #. As tags também atuam como filtros nos gerenciadores de componentes. |
 | Marcar como favorito | Adicione o componente à sua lista de favoritos. Como tags, você pode pesquisar por Favoritos no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |
 | Aprovar | Marque os componentes como Aprovado para avisar aos usuários que o componente foi aprovado pela organização. Como tags, você pode pesquisar por Aprovado no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |
 | Compartilhar | Compartilhe componentes para usuários em sua organização. Essa opção está disponível somente para componentes personalizados, como segmentos ou métricas calculadas. |
