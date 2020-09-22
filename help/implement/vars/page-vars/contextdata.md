@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## Aumentar eventos usando variáveis de dados de contexto
+## Incrementar eventos usando variáveis de dados de contexto
 
 Ao criar regras de processamento, você pode atribuir variáveis de dados de contexto a eventos.
 
