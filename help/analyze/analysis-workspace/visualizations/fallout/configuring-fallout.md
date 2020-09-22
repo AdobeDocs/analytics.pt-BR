@@ -2,9 +2,9 @@
 description: 'null'
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
 
 | Configuração | Descrição |
 |--- |--- |
-| Contêiner de fallout <ul><li>Visita</li><li>Visitante.</li></ul> | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante.  Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
+| Contêiner de fallout <ul><li>Visita</li><li>Visitante</li></ul> | Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante.  Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
 
 Quando você **clicar com o botão direito em um ponto de contato**, as seguintes opções são exibidas:
 
