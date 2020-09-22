@@ -3,9 +3,9 @@ description: O Construtor de segmentos permite que você compare e restrinja val
 title: Operadores de comparação para segmentos
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | é menor que ou igual a | Retorna itens cuja contagem numérica é inferior ou igual ao valor inserido. |
 | é maior que | Retorna itens cuja contagem numérica é superior ao valor inserido. |
 | é maior que ou igual a | Retorna itens cuja contagem numérica é superior ou igual ao valor inserido. |
-| **Contagem distinta** | É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.”  |
+| **Contagem distinta** | É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.” |
 | igual a | Retorna itens de dimensão cuja contagem única é igual ao valor inserido. |
 | não é igual | Retorna itens de dimensão cuja contagem única não é igual ao valor inserido. |
 | é maior que | Retorna itens de dimensão cuja contagem única é superior ao valor inserido. |
