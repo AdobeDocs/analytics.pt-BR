@@ -3,7 +3,7 @@ description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: ht
-source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
