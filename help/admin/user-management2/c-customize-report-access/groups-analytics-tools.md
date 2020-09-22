@@ -67,5 +67,5 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-key-concepts.html) | Concede aos usuários acesso ao Reports &amp; Analytics. |
 | [Criação de métricas calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html) | Concede aos usuários permissão para criar métricas calculadas. |
 | [Criação de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) | Concede aos usuários permissão para criar segmentos. |
-| **Conextores de dados** |  |
+| **Data Connectors** |  |
 | Integrações (Criar, Atualizar ou Excluir) | Concede permissão para criar, atualizar e excluir integrações do Conector de dados. |
