@@ -1,11 +1,11 @@
 ---
 title: AM/PM
 description: Determina se a ocorrência aconteceu durante as horas AM ou PM.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ A dimensão “AM/PM” fornece informações sobre se a ocorrência aconteceu d
 
 Essa dimensão funciona imediatamente. Nenhuma configuração precisa ser alterada. Sua única dependência está no fuso horário do conjunto de relatórios, que determina quais horas são AM e quais são PM.
 
-## itens de Dimension
+## Itens de dimensão
 
-This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+Essa dimensão sempre contém exatamente dois itens de dimensão: `"AM"` e `"PM"`. O item de dimensão `"AM"` se aplica a todas as ocorrências de 12:00 AM às 11:59 AM, enquanto o item de dimensão `"PM"` se aplica a todas as ocorrências de 12:00 PM às 11:59 PM.
