@@ -3,6 +3,9 @@ title: Vários conjuntos de relatórios no Workspace
 description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Esse recurso é útil se você desejar, por exemplo,
 
 ## Aplicar o conjunto de relatórios a todos os painéis
 
-Você pode aplicar um conjunto de relatórios a todos os painéis ao mesmo tempo clicando com o botão direito do mouse em qualquer cabeçalho do painel e selecionando **[!UICONTROL Apply Report Suite to All Panels]**.
+Você pode aplicar um conjunto de relatórios a todos os painéis ao mesmo tempo clicando com o botão direito do mouse em qualquer cabeçalho do painel e selecionando **[!UICONTROL Aplicar o conjunto de relatórios a todos os painéis]**.
 
 ![](assets/apply-rs-all-panels.png)
 
