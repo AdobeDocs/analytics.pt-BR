@@ -3,8 +3,11 @@ description: Configurações que definem como todos os relatórios são exibidos
 title: Configurações e navegação da exibição de relatórios
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Configurações que definem como todos os relatórios são exibidos e as informa
 
 ## Configurações e navegação da exibição de relatórios {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Configurações de relatório]**
 
 | Elemento | Descrição |
 |--- |--- |
@@ -86,8 +89,8 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Suporte a cookies | Público-alvo > Dispositivo móvel > Suporte a cookies |
 |  | Suporte de imagem | Público-alvo > Dispositivo móvel > Suporte da imagem |
 |  | Intensidade de cor | Público-alvo > Dispositivo móvel > Intensidade de cor |
-|  | Suporte de áudio | Público-alvo > Dispositivo móvel > Suporte de áudio  |
-|  | Suporte de vídeo | Público-alvo > Dispositivo móvel > Suporte de vídeo  |
+|  | Suporte de áudio | Público-alvo > Dispositivo móvel > Suporte de áudio |
+|  | Suporte de vídeo | Público-alvo > Dispositivo móvel > Suporte de vídeo |
 |  | Sistema operacional | Público-alvo > Dispositivo móvel > Sistema operacional |
 | **Caminhos** |  |  |
 |  | Páginas | Navegação > Caminhos > Páginas |
@@ -119,7 +122,7 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 |  | Número da visita | Público-alvo > Retenção de visitantes > Número de visitas |
 |  | Ciclo de Vendas | Público-alvo > Retenção de visitantes > Ciclo de vendas |
 | **Perfil do visitante** |  |  |
-|  | GeoSegmentation | Público-alvo > Perfil do visitante > Segmentação geográfica |
+|  | Geossegmentação | Público-alvo > Perfil do visitante > Segmentação geográfica |
 |  | Idiomas | Público-alvo > Perfil do visitante > Idiomas |
 |  | Fusos horários | Público-alvo > Perfil do visitante > Fusos horários |
 |  | Domínios | Público-alvo > Perfil do visitante > Domínios |
@@ -133,13 +136,13 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 | **Tráfego personalizado** |  |  |
 |  | Tráfego personalizado 1-10 | Conteúdo > Tráfego personalizado > Tráfego personalizado 1-10 |
 | **Test&amp;Target** |  | Conversão > Test&amp;Target |
-| **Survey** |  | Público-alvo > Survey |
+| **Pesquisa** |  | Público-alvo > Pesquisa |
 | **Canais de marketing** |  |  |
 |  | Relatório de Visão Geral de Canal | Fontes de tráfego > Canais de marketing > Relatório de visão geral do canal |
-|  | Canal de Primeiro Contato | Fontes de tráfego > Canais de marketing > Canal de primeiro toque |
-|  | Detalhe de Canal de Primeiro Contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de primeiro toque |
-|  | Canal de Último Contato | Fontes de tráfego > Canais de marketing > Canal de último toque |
-|  | Detalhe de Canal de Último Contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de último toque |
+|  | Canal de primeiro contato | Fontes de tráfego > Canais de marketing > Canal de primeiro toque |
+|  | Detalhes do canal de primeiro contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de primeiro toque |
+|  | Canal de último contato | Fontes de tráfego > Canais de marketing > Canal de último toque |
+|  | Detalhes do canal de último contato | Fontes de tráfego > Canais de marketing > Detalhe do canal de último toque |
 | **Aplicativo móvel** |  |  |
 |  | Visão geral dos aplicativos móveis | Conteúdo > Aplicativo móvel > Visão geral do aplicativo móvel |
 |  | Relatórios de ciclo de vida | Conteúdo > Aplicativo móvel > Relatórios de ciclo de vida |
