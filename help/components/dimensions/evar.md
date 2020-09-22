@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: Uma dimensão personalizada que você pode usar nos relatórios.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ As eVars são variáveis personalizadas que podem ser usadas da maneira que voc�
 
 O número de eVars disponíveis depende do seu contrato com a Adobe. Até 250 eVars estarão disponíveis se seu contrato com a Adobe permitir.
 
-As eVars não distinguem maiúsculas de minúsculas. Se você enviar o mesmo valor em casos diferentes (por exemplo, `"DOG"` e `"Dog"`), a Analysis Workspace os agrupará no mesmo item de dimensão. É utilizado o caso do primeiro valor observado no início do mês do relatórios. A Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
+As eVars não diferenciam letras maiúsculas e minúsculas. Se você enviar o mesmo valor em letra maiúscula ou minúscula (por exemplo, `"DOG"` e `"Dog"`), o Analysis Workspace os agrupará no mesmo item de dimensão. É utilizada a forma do primeiro valor observado no início do mês do relatórios. O Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
 
 ## Preencher eVars com dados
 
@@ -26,9 +26,9 @@ Cada eVar coleta dados da [`v1` - `v250` sequência de consulta](/help/implement
 
 O AppMeasurement, que compila variáveis JavaScript em uma solicitação de imagem para coleta de dados, usa as variáveis `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) no guia Implementar usuário para obter diretrizes de implementação.
 
-## itens de Dimension
+## Itens de dimensão
 
-Como as eVars contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Como as eVars contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada eVar. Registre a finalidade de cada eVar e os itens de dimensão típicos em um [documento de design de solução](/help/implement/prepare/solution-design.md).
 
 ## Como funcionam as eVars
 
