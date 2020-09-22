@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Analisar dimensões
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
 
    ![Resultado da etapa](assets/fa_data_table_actions.png)
 
-   É possível detalhar métricas por itens de dimensão ou segmentos de audiência nos períodos selecionados. É possível especificar ainda mais para um nível mais granular.
+   Você pode analisar métricas por itens de dimensão ou segmentos de público-alvo em todos os períodos selecionados. É possível especificar ainda mais para um nível mais granular.
 
    >[!NOTE]
    >
