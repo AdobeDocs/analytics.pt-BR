@@ -1,11 +1,11 @@
 ---
 title: Profundidade da ocorrência
 description: O número de ocorrências na visita.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ A dimensão &quot;Profundidade da ocorrência&quot; informa a distância que uma
 
 Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
 
-## itens de Dimension
+## Itens de dimensão
 
-Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
+Os itens de dimensão incluem a string `"Hit Depth"` seguida por um número que representa o número de ocorrências na visita. O item de dimensão `"Hit Depth 1"` representa a primeira ocorrência da visita, enquanto o item de dimensão `"Hit Depth 8"` representa a 8ª ocorrência da visita.
 
 ## Comparação com a profundidade da visita
 
-A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualização de página e ocorrências de rastreamento de link. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. A profundidade da visita também é uma dimensão que se baseia nas visitas, o que significa que é o mesmo valor para todas as ocorrências na visita. A tabela a seguir descreve um exemplo de visita e como ela considera a profundidade da ocorrência + profundidade da visita:
+A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualização de página e ocorrências de rastreamento de link. A profundidade da visita somente aumenta para ocorrências de visualização de página, _e_ o item de dimensão [Página](page.md) não é o mesmo que o valor na página anterior. A profundidade da visita também é uma dimensão que se baseia nas visitas, o que significa que é o mesmo valor para todas as ocorrências na visita. A tabela a seguir descreve um exemplo de visita e como ela considera a profundidade da ocorrência + profundidade da visita:
 
 | Sequência de páginas | Profundidade da ocorrência | Conta para a profundidade da visita? | Profundidade da visita |
 | --- | --- | --- | --- |
