@@ -1,8 +1,11 @@
 ---
 title: Acompanhamento de email externo
 description: Use o Adobe Analytics para rastrear conteúdo de email.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
    * sc_cid=A1123A321 > &quot;A&quot; sinaliza uma campanha afiliada
    * sc_cid=EM033007 > &quot;EM&quot; sinaliza uma campanha por email
    * sc_cid=GG987123 > &quot;GG&quot; significa Google e é uma campanha de pesquisa paga
+
    Entre em contato com o Adobe [!DNL Customer Care] para obter detalhes sobre a configuração e o uso de códigos de rastreamento.
 
 1. Adicione parâmetros da cadeia de caracteres de consulta aos links de email HTML.
