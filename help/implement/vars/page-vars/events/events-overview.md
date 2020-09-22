@@ -1,11 +1,11 @@
 ---
 title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 Dimensões e métricas são componentes vitais para os relatórios. A variável `events` é responsável pela coleta de dados de muitas métricas do site. Eventos normalmente incrementam [métricas](/help/components/metrics/overview.md) em relatórios.
 
-Antes de implementar eventos, certifique-se de criá-los e configurá-los em eventos [de](/help/admin/admin/c-success-events/success-event.md) sucesso nas configurações do conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
+Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
 
 ## Eventos no Adobe Experience Platform Launch
 
@@ -79,7 +79,7 @@ s.events = "event1=2,event2";
 
 Você pode alterar um evento personalizado para usar moeda em vez de números inteiros. Os eventos de moeda são convertidos automaticamente para a moeda do conjunto de relatórios se ela e a variável `currencyCode` não coincidirem. Eles são úteis para ajudar a calcular custos de envio, descontos ou reembolsos. Você pode definir eventos de moeda na variável `products` se quiser atribuir o evento somente a esse produto.
 
-Antes de implementar eventos de moeda, certifique-se de definir o evento desejado como &quot;Moeda&quot; em eventos [de](/help/admin/admin/c-success-events/success-event.md) sucesso nas configurações do Conjunto de relatórios.
+Antes de implementar eventos de moeda, defina o evento desejado como “Moeda” em [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -100,7 +100,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 É possível alterar um evento personalizado para aceitar valores decimais em vez de números inteiros. Os eventos numéricos se comportam de forma semelhante aos eventos de moeda, exceto por não usarem a conversão de moeda. Você pode definir eventos numéricos na variável `products` se quiser atribuir o evento somente a esse produto.
 
-Antes de implementar eventos numéricos, certifique-se de definir o evento desejado como &quot;Numérico&quot; em eventos [de](/help/admin/admin/c-success-events/success-event.md) sucesso nas configurações do conjunto de relatórios.
+Antes de implementar eventos numéricos, defina o evento desejado como “Numérico” em [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
