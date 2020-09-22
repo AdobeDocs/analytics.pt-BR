@@ -90,7 +90,7 @@ Clique [aqui](/help/technotes/terms.md) para obter um glossário expandido com o
 | Atributos do cliente | Dados do CRM carregados na Experience Cloud para uso no Adobe Analytics e no Adobe Target. | [Atributos do cliente](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html) |
 | Fontes de dados | Importe métricas offline no Analytics em relação a dimensões ou diariamente. | [Fontes de dados](/help/import/c-data-sources/datasrc-home.md) |
 | Data Connectors do Adobe Exchange | Consulte [Ferramentas do Analytics.](/help/import/data-connectors/data-connectors-eol.md) |  |
-| Integrações nativas | Análise de público-alvo e Advertising Analytics. | Consulte a seção &quot;Relatórios principais&quot;. |
+| Integrações nativas | Audience Analytics e Advertising Analytics. | Consulte a seção &quot;Relatórios principais&quot;. |
 
 ## Opções de exportação {#concept_C62B688E259141CF92C048E8110464BE}
 
