@@ -1,26 +1,26 @@
 ---
 title: Tipo de referenciador
 description: O tipo de referenciador dependendo a origem do visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # Tipo de referenciador
 
-A dimensão “Tipo de referenciador” informa em quais canais genéricos os visitantes clicaram para acessar seu site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+A dimensão “Tipo de referenciador” informa em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
 
 ## Preencher esta dimensão com dados
 
 Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor se baseia no [referenciador](referrer.md) da ocorrência, que depende dos [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md). Verifique se a dimensão do referenciador e os filtros de URL internos estão configurados corretamente.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem o tipo de quem indicou da ocorrência. Valores específicos incluem:
+Os itens de dimensão incluem o tipo de referenciador da ocorrência. Valores específicos incluem:
 
 * **Digitado/Marcado**: não existem dados do referenciador para a ocorrência.
 * **Mecanismos de pesquisa**: o referenciador veio de um mecanismo de pesquisa reconhecido que inclui uma sequência de consulta de palavra-chave.
@@ -195,9 +195,9 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot;
 * `zooomr.com`
 * `zhihu.com`
 
-### Mecanismos de pesquisa no item de dimensão &quot;Outros sites&quot;
+### Mecanismos de pesquisa no item de dimensão “Outros sites”
 
 Ao visualizar domínios específicos na dimensão “Tipo do referenciador”, é possível encontrar domínios que seriam esperados em &#39;”Mecanismos de pesquisa” em vez de “Outros sites”. Por exemplo, você pode ver `'google.com'` em “Outros sites”.
 
-* **Domínios de mecanismo de pesquisa no item** de dimensão &#39;Mecanismos de pesquisa&#39;: A quem indicou atendeu a todos os critérios para classificar como um mecanismo de pesquisa por Adobe. O domínio referenciador é um mecanismo de pesquisa válido, *e* o URL de referência contém um parâmetro da sequência de consulta de palavras-chave.
-* **Domínios do mecanismo de pesquisa no item** de dimensão &quot;Outros sites&quot;: O URL de referência não atendia a todos os critérios para classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou `autos.yahoo.com` não são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de consulta de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
+* **Domínios de mecanismo de pesquisa no item de dimensão “Mecanismos de pesquisa”**: o referenciador atendeu a todos os critérios para se classificar como um mecanismo de pesquisa pela Adobe. O domínio referenciador é um mecanismo de pesquisa válido, *e* o URL de referência contém um parâmetro da sequência de consulta de palavras-chave.
+* **Domínios do mecanismo de pesquisa no item de dimensão “Outros sites”**: o URL de referência não atendia a todos os critérios para se classificar como um mecanismo de pesquisa. Exemplos comuns incluem subdomínios dedicados a outros recursos além da pesquisa. Por exemplo, `mail.google.com` ou `autos.yahoo.com` não são mecanismos de pesquisa, mas residem em um domínio de nível superior normalmente associado à pesquisa. Esses subdomínios não incluem uma sequência de consulta de palavra-chave, razão pela qual são incluídos em &quot;Outros sites&quot; em vez de &quot;Mecanismos de pesquisa&quot;.
