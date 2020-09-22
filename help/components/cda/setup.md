@@ -1,22 +1,22 @@
 ---
-title: Configurar análises entre dispositivos
+title: Configurar o Cross-device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Configurar análises entre dispositivos
+# Configurar o Cross-device Analytics
 
 Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas para ativar o Cross-Device Analytics. Você deve pertencer a um grupo de Administrador do perfil de produto ou ter privilégios de administrador no Adobe Analytics para seguir essas etapas.
 
 >[!IMPORTANT]
 >
->Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a página [de](overview.md) visão geral e o método de sutura desejado (costura[baseada em](field-based-stitching.md) campo ou gráfico [](device-graph.md)de dispositivo, respectivamente) para obter os pré-requisitos e as limitações.
+>Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de união desejado ([União com base em arquivo](field-based-stitching.md) ou [gráfico de dispositivos](device-graph.md), respectivamente) para ver os pré-requisitos e as limitações.
 
 ## Escolha o conjunto de relatórios entre dispositivos que será ativado para o CDA
 
