@@ -66,7 +66,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, ou seja &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
+   <td colname="col3"> <p>Nome do eVar de conversão. É possível ter até 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, ou seja &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome da hierarquia. É possível ter até 5 hierarquias (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Você pode especificar o nome de hierarquia padrão (<span class="varname">hier2</span>) ou um nome amigável (<span class="term">Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nome da hierarquia. É possível ter até 5 hierarquias ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Você pode especificar o nome de hierarquia padrão (<span class="varname">hier2</span>) ou um nome amigável (<span class="term">Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -124,7 +124,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, ou seja &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo,  <span class="term"> Seção de Esportes </span>). </p> </td> 
+   <td colname="col3"> <p>Sequência de caracteres de número de variável de propriedade (por exemplo, <span class="term"> Seção de Esportes </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -142,8 +142,8 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
    <td colname="col3"> <p>Sequência de caracteres do servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Estado </p> </td> 
-   <td colname="col2"> <p>Estado </p> </td> 
+   <td colname="col1"> <p>estado </p> </td> 
+   <td colname="col2"> <p>estado </p> </td> 
    <td colname="col3"> <p>Sequência de caracteres do estado de conversão. </p> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
    <td colname="col2"> <p>URL para o referenciador da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>resolution </p> </td> 
+   <td colname="col1"> <p>resolução </p> </td> 
    <td colname="col2"> <p>Resolução do monitor (por exemplo, 1024x768). </p> </td> 
   </tr> 
   <tr> 
