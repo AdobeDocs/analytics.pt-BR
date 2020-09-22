@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Nome do link
 
-O argumento do nome do link é uma string que determina o item da dimensão de rastreamento de link. É o mesmo que definir a variável [`linkName`](../config-vars/linkname.md).
+O argumento do nome do link é uma string que determina o item de dimensão do rastreamento do link. É o mesmo que definir a variável [`linkName`](../config-vars/linkname.md).
 
 ```js
 s.tl(true,"d","Example download link");
