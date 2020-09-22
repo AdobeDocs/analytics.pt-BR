@@ -3,9 +3,9 @@ description: Apresenta as etapas e práticas recomendadas que devem ser seguidas
 title: Planejar segmentos
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Apresenta as etapas e práticas recomendadas que devem ser seguidas ao planejar seus segmentos.
 
-Ao dedicar algum tempo para planejar segmentos melhora a probabilidade de que serão úteis para a organização e seus números serão mantidos sob controle.
+Dedicar algum tempo para planejar segmentos aumenta a probabilidade de eles serem úteis para a organização e seus números serão mantidos sob controle.
 
 1. Considere o **público-alvo**: quem consumirá? Com quem você compartilhará? Quais grupos de pessoas usarão esse segmento e como devo marcar apropriadamente? Isso também significa fornecer uma boa descrição de segmento. No mínimo, a descrição deve responder a estas perguntas:
 
