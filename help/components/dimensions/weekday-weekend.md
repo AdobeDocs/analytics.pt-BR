@@ -1,11 +1,11 @@
 ---
 title: Dia da semana/Fim de semana
 description: Determina se a ocorrência ocorreu durante um dia da semana ou um fim de semana.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ A dimensão “Dia da semana/Fim de semana” fornece insight sobre o período e
 
 Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
 
-## itens de Dimension
+## Itens de dimensão
 
-This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
+Essa dimensão sempre contém exatamente dois itens de dimensão: `"Weekday"` e `"Weekend"`. O item de dimensão `"Weekday"` se aplica a todas as ocorrências de segunda a sexta-feira, enquanto o item de dimensão `"Weekend"` se aplica a todas as ocorrências de sábado e domingo.
