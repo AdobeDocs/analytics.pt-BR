@@ -3,11 +3,11 @@ description: Explica as etapas que o Administrador do Analytics precisa completa
 title: Habilitar o Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Os dados do Activity Map não podem ser coletados, a menos que você atualize pa
 
 Primeiro, você precisa ativar os Relatórios do Activity Map a um nível de conjunto de relatórios.
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
+1. Faça logon no Adobe Analytics e acesse  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > Selecionar conjunto de relatórios > **[!UICONTROL Editar configurações]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Relatórios do Activity Map]**.
 1. O Activity Map coleta os dados do link nos Relatórios do Activity Map. Para ocorrer a ativação, você deve primeiro ativar as variáveis, &#x200B;&#x200B;clicando em **[!UICONTROL Ativar os Relatórios do Activity Map]**.
 
    Essa etapa adiciona todas as dimensões do Analytics necessárias para coletar os dados.
