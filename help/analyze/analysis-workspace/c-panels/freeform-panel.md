@@ -1,8 +1,11 @@
 ---
 description: Saiba mais sobre os painéis de forma livre
 title: Painel de forma livre
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+workflow-type: ht
+source-wordcount: '24'
+ht-degree: 100%
 
 ---
 
