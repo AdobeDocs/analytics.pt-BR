@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Páginas não encontradas
 
-*Esta página de ajuda descreve como a dimensão &quot;Páginas não encontradas&quot; funciona como uma métrica. Consulte a dimensão[Páginas não encontradas](../dimensions/pages-not-found.md)para obter mais informações.*
+*Esta página de ajuda descreve como a dimensão &quot;Páginas não encontradas&quot; funciona como uma métrica. Consulte a dimensão [Páginas não encontradas](../dimensions/pages-not-found.md) para obter mais informações.*
 
 A métrica “Páginas não encontradas” mostra o número de ocorrências em que a página continha um erro. Essa métrica é importante quando você quer ver quais páginas ou URLs contêm mensagens de erro (como 404), para que você possa determinar a causa do erro e corrigi-lo.
 
