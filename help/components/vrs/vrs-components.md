@@ -64,7 +64,7 @@ Na Analysis Workspace, clique no ícone de informações de qualquer componente 
 
 ![](assets/vrs-aw-renamed.png)
 
-## Grupos de componentes   {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Grupos de componentes {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Use grupos de componentes para criar adições de componentes em massa ao seu conjunto de relatórios virtual. Por exemplo, se você quiser importar um conjunto padrão de componentes específicos da análise de aplicativos móveis, selecione o grupo de aplicativos móveis. Um conjunto correspondente de dimensões e métricas (já renomeadas) é adicionado automaticamente à lista de Incluídos do conjunto de relatórios virtual.
 
