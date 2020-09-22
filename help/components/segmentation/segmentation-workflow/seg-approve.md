@@ -3,9 +3,9 @@ description: No Gerenciador de segmentos você pode configurar um fluxo de traba
 title: Aprovar segmentos
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
