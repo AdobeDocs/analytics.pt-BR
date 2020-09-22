@@ -1,22 +1,22 @@
 ---
-title: Tipo de Navegador
+title: Tipo de navegador
 description: A organização que fez o navegador.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Tipo de Navegador
+# Tipo de navegador
 
-A dimensão &#39;Tipo de navegador&#39; lista organizações que fizeram o navegador que o visitante usa. Essa dimensão é útil quando você deseja ver quais navegadores principais os visitantes usam. Ele fornece valor sobre a dimensão &quot;Navegadores&quot;, na medida em que não lista versões diferentes do mesmo navegador como itens de dimensão separados.
+A dimensão “Tipo de navegador” lista as organizações que fizeram o navegador que o visitante usa. Essa dimensão é útil quando você deseja ver quais navegadores principais os visitantes usam. Ela fornece valor sobre a dimensão “Navegadores”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho `User-Agent` HTTP nas solicitações de imagem. Se você usar uma biblioteca do AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente.
+Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `User-Agent` nas solicitações de imagem. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente.
 
 ## Itens de dimensão
 
