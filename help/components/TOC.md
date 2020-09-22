@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -208,10 +208,10 @@ ht-degree: 96%
       + [Exibir informações do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-view.md)
 + Análise entre dispositivos {#cda}
    + [Visão geral da Análise entre dispositivos](cda/overview.md)
-   + [Arranque em campo](cda/field-based-stitching.md)
+   + [Compilação em campo](cda/field-based-stitching.md)
    + [Gráfico de dispositivos](cda/device-graph.md)
-   + [Configurar análises entre dispositivos](cda/setup.md)
-   + [Como as réplicas funcionam](cda/replay.md)
+   + [Configurar o Cross-Device Analytics](cda/setup.md)
+   + [Como funcionam as repetições](cda/replay.md)
    + [Modelo do CDA Workspace](cda/workspace-template.md)
    + [Perguntas frequentes sobre a Análise entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
@@ -221,7 +221,7 @@ ht-degree: 96%
    + [Alertas inteligentes - Casos de uso](c-alerts/alerts-use-cases.md)
 + Classificações {#classifications}
    + [Visão geral das classificações](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + Importador de classificações {#classifications-importer}
       + [Importador de classificações - visão geral](classifications/importer/c-working-with-saint.md)
       + [Arquivos de dados de classificação](classifications/importer/c-saint-data-files.md)
       + [Excluir dados de classificação](classifications/importer/t-delete-classification-data.md)
