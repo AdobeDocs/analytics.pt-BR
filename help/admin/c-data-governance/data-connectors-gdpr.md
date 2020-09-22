@@ -3,7 +3,7 @@ description: Esta página lista todas as variáveis do Parceiro nos Data Connect
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Alset</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -185,17 +185,17 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID de visitante </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
