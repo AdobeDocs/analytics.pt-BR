@@ -58,7 +58,7 @@ ht-degree: 99%
    + Variáveis de página {page-vars}
       + [Visão geral das variáveis de página](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [marketing](vars/page-vars/channel.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variáveis dinâmicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
