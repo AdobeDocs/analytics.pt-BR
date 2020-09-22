@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Visão geral do Modelo das Fontes de dados
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Informações sobre o modelo das Fontes de dados que fornece uma estrutura de dados adequada para enviar um conjunto específico de dados externos para as Fontes de dados.
 
-O arquivo modelo gerado por esse Assistente foi desenvolvido para você começar a importação. Não é preciso se limitar às colunas definidas no modelo. É possível inserir mais colunas, conforme necessário, desde que a métrica ou a definição seja suportada pelo tipo de processamento de dados selecionado.
+O arquivo modelo gerado por esse Assistente foi desenvolvido para você começar a importação. Não é preciso se limitar às colunas definidas no modelo. É possível inserir mais colunas, conforme necessário, desde que a métrica ou a definição seja aceita pelo tipo de processamento de dados selecionado.
 
 É possível exibir as métricas e dimensões de cada tipo nas seguintes seções:
 
