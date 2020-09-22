@@ -2,8 +2,11 @@
 description: Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos HTTP e sinais de dados nas chamadas de encaminhamento pelo lado do servidor.
 title: Referência de dados e de código do encaminhamento pelo lado do servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '610'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos
 
 ## Variáveis de configuração {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em nível de sistema usados pelos [servidores de coleta de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em nível de sistema usados pelos [servidores de coleta de dados](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parâmetro | Descrição |
 |--- |--- |
@@ -40,7 +43,7 @@ Esses cabeçalhos são campos que contêm informações como solicitações de d
 
 ## Sinais definidos pelo cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Sinal | Descrição |
 |--- |--- |
