@@ -19,7 +19,7 @@ Para acessar essas funções, selecione **[!UICONTROL Mostrar avançadas]** na l
 
 Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
 
-## O que significa o parâmetro Incluir zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## O que significa o parâmetro Incluir zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Informa se os zeros devem ou não ser incluídos no cálculo. Muitas vezes, zero significa &quot;nada&quot;; mas em alguns casos, pode ser importante.
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | A dimensão cuja contagem distinta de itens você deseja obter. |
 
-### Caso de uso de exemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso de uso de exemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 A Contagem distinta aproximada (eVar de ID de cliente) é um caso de uso comum para essa função.
 
@@ -68,11 +68,11 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ![](assets/approx-customers.png)
 
-### Únicos excedidos  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
-### Comparação de funções de contagem  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() é uma melhoria das funções Count() e RowCount(), pois a métrica criada pode ser usada em qualquer relatório dimensional para renderizar uma contagem aproximada de itens de uma dimensão separada. Por exemplo, a contagem de IDs de clientes usadas em um relatório de Tipo de dispositivo móvel.
 
@@ -223,7 +223,7 @@ Retorna itens que possuem o mesmo valor numérico ou de sequência.
 
 ## Regressão exponencial_ Coeficiente de correlação (Tabela) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_A* e *metric_B*) para a equação de regressão .
+Retorna o coeficiente de correlação *r* entre duas colunas de métrica (*metric_A* e *metric_B*) para a equação de regressão.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -505,7 +505,7 @@ Retorna o intercepto *b* entre duas colunas de métrica (*metric_X* e *metric_Y*
 
 ## Regressão de potência: valor previsto de Y (Linha) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os valores de [!DNL x] conhecidos ([!DNL metric_X]) e usando o método dos &quot;quadrados mínimos&quot; para calcular linha de melhor ajuste para [!DNL Y = b*X]a.
+Calcula os valores previstos de [!DNL y] ([!DNL metric_Y]), tendo em conta os valores de [!DNL x] conhecidos ([!DNL metric_X]) e usando o método dos &quot;quadrados mínimos&quot; para calcular linha de melhor ajuste para [!DNL Y = b*X] a.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
