@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,6 @@ A Adobe recomenda configurar uma eVar para a sequência de caracteres associada 
 
 Para a eVar corresponder exatamente à dimensão “URL da página&#39;” no Data Warehouse, é possível utilizar [variáveis dinâmicas](/help/implement/vars/page-vars/dynamic-variables.md) e definir a eVar como `D=g` em cada ocorrência.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem os URLs das páginas do site.
+Os itens de dimensão incluem os URLs das páginas no site.
