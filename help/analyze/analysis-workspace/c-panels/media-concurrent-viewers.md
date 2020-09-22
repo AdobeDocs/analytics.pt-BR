@@ -2,19 +2,15 @@
 title: Painel Visualizadores simultâneos de mídia
 description: Como usar e interpretar o painel Visualizadores simultâneos de mídia no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
+source-git-commit: aea820324da5153c85ab1c12110c756748aedec9
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 11%
 
 ---
 
 
 # Painel Visualizadores simultâneos de mídia
-
->[!IMPORTANT]
->
->Este recurso está em Teste limitado para clientes de análise de mídia. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html)
 
 Os clientes do Media Analytics podem analisar visualizadores simultâneos para entender onde ocorreu o pico de simultaneidade ou onde as suspensões ocorreram para fornecer insight valioso sobre a qualidade do conteúdo e o envolvimento do visualizador, e para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
@@ -77,7 +73,7 @@ Uma tabela de forma livre não está disponível nesta visualização.  Para vis
 | Posso executar a detecção de anomalias? | Não.  A detecção de anomalias não está disponível para este painel. |
 | Por que usar visitantes únicos em vez de sessões ativas? | O uso de visitantes exclusivos permite a remoção de picos indesejados em limites de exibição (onde as sessões estão terminando e iniciando ao mesmo tempo). |
 | O que significa ter visualizadores simultâneos com granularidade superior a um minuto? | Com uma granularidade maior que um minuto, visualizadores simultâneos são a soma de visualizadores simultâneos exclusivos para todos os minutos dentro desse intervalo de tempo.  Por exemplo, visualizadores simultâneos de granularidade em nível de hora é a soma de visualizadores simultâneos exclusivos para todos os minutos dentro da hora. |
-| E se eu quiser ver mais de 1 dia na granularidade de nível minuto? | Para acessar dados em granularidade de nível minuto por até 1 mês de cada vez, você pode usar as APIs do Analytics 2.0. Para obter mais informações, consulte [Obter dados de relatório JSON de visualizadores simultâneos com APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)do Analytics 2.0. |
+| E se eu quiser ver mais de 1 dia na granularidade de nível minuto? | Para acessar dados em granularidade de nível minuto por até 1 mês de cada vez, você pode usar as APIs do Analytics 2.0. For more information, see [Get Concurrent Viewers JSON report data with Analytics 2.0 APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | O painel Área de trabalho mostra as mesmas informações do Relatório de visualizadores simultâneos? | Não.  No Analysis Workspace, os visualizadores simultâneos são definidos como o número de visitantes únicos que visualizam seu fluxo de mídia em um ponto específico do tempo, independentemente do número de sessões.<br><br>Isso é diferente do relatórios do Visualizador simultâneo na seção Relatórios, que usa Sessões ativas simultâneas.  Usar contas de visitantes únicos para remover picos indesejados em mostrar limites, onde as sessões estão terminando e iniciando ao mesmo tempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
