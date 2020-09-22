@@ -3,9 +3,9 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3709'
 ht-degree: 100%
 
@@ -33,15 +33,15 @@ Os segmentos podem ter por base os seguintes valores:
 * Visitantes com base em saídas e entradas: visitantes do Facebook, uma página de aterrissagem definida e um domínio de referência.
 * Visitantes com base em variáveis personalizadas: campos do formulário, categorias definidas, ID do cliente.
 
-Ao construir segmentos de público-alvo no Construtor de segmentos, você define condições com os operadores [!UICONTROL E] e [!UICONTROL OU] entre os contêineres.
+Ao construir segmentos de público-alvo no Construtor de segmentos, você define condições com os operadores [!UICONTROL AND] e [!UICONTROL OR] entre os contêineres.
 
 ![](assets/standard_segment_containers.png)
 
-Esse tipo de conjunto de dados de filtros de segmento com base em características unidas com operadores [!UICONTROL E] e [!UICONTROL OU].
+Esse tipo de conjunto de dados de filtros de segmento com base em características unidas com operadores [!UICONTROL AND] e [!UICONTROL OR].
 
 ## Segmentos sequenciais {#section_EE5B14287FC44E0B96E77679A2438948}
 
-Os segmentos sequenciais permitem que você identifique visitantes com base na navegação e visualização de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL ENTÃO] é usado para definir e organizar a navegação do visitante.
+Os segmentos sequenciais permitem que você identifique visitantes com base na navegação e visualização de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL THEN] é usado para definir e organizar a navegação do visitante.
 
 ![](assets/sequential_seg.png)
 
@@ -56,7 +56,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-Um segmento sequencial filtra conjuntos de dados com base nas ações do usuário com o operador [!UICONTROL ENTÃO].
+Um segmento sequencial filtra conjuntos de dados com base nas ações do usuário com o operador [!UICONTROL THEN].
 
 ## Vídeo passo a passo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
@@ -103,7 +103,7 @@ O contêiner de Ocorrências define quais ocorrências de página você deseja i
 Os contêineres de ocorrência incluem valores com base em detalhamentos de páginas únicas:
 
 * Produtos
-* Propriedades de lista
+* Props de lista
 * eVars de lista
 * eVars de comércio (no contexto de eventos)
 
@@ -154,9 +154,9 @@ A segmentação sequencial emprega os mesmos contêineres básico incluindo [!UI
 
 ![](assets/nesting_container.png)
 
-Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa  [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
+Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
 
-**Para construir segmentos sequenciais**, os contêineres são aninhados e a lógica sequencial é unida por meio do operador [!UICONTROL ENTÃO] que requer que cada contêiner seja verdadeiro com base na sequência do visitante.
+**Para construir segmentos sequenciais**, os contêineres são aninhados e a lógica sequencial é unida por meio do operador [!UICONTROL THEN] que requer que cada contêiner seja verdadeiro com base na sequência do visitante.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
@@ -281,7 +281,7 @@ Se a mesma condição é filtrada no contêiner Visita para um relatório Págin
 
 ![](assets/container_overview_persist_Visit.png)
 
-Nesse exemplo, como todas as páginas têm o mesmo valor de domínio de referência com base na visita, o relatório do nível do contêiner de Visita é (quase) o mesmo do relatório do contêiner de Visualização de página (com um pequeno deslocamento—98, 234 a 98.248—devido a anomalias de dados).
+Nesse exemplo, como todas as páginas têm o mesmo valor de domínio de referência com base na visita, o relatório do nível do contêiner de Visita é (quase) o mesmo do relatório do contêiner de Visualização de página (com um pequeno deslocamento—98.234 a 98.248—devido a anomalias de dados).
 
 ![](assets/container_report_persist_Visit.png)
 
