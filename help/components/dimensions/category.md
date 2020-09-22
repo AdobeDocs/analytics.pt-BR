@@ -1,11 +1,11 @@
 ---
 title: Categoria
 description: A categoria do produto da ocorrência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ A dimensão “Categoria” relata a categoria do produto da ocorrência. Essa d
 
 Essa dimensão faz referência à primeira parte da sequência de caracteres da variável [`products`](/help/implement/vars/page-vars/products.md). Tudo que aparece antes do primeiro ponto e vírgula (`;`) faz parte dessa dimensão.
 
-## itens de Dimension
+## Itens de dimensão
 
-Como essa variável se baseia em uma sequência de caracteres personalizada na implementação, sua organização determina quais itens de dimensão são. A Adobe recomenda agrupar cada produto em categorias relevantes, utilizando as dimensões “Produto” e “Categoria”.
+Como essa variável se baseia em uma sequência personalizada na implementação, sua organização determina quais são os itens de dimensão. A Adobe recomenda agrupar cada produto em categorias relevantes, utilizando as dimensões “Produto” e “Categoria”.
 
 >[!TIP]
 >
