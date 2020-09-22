@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Arquivos de dados de classificação
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 * As classificações não podem ter 0 (zero) como valor.
 * A Adobe recomenda limitar a quantidade de colunas de importações e exportações para 30.
 * Os arquivos enviados devem usar UTF-8 sem a codificação de caracteres BOM.
-* Caracteres especiais, como tecla tab, quebras de linha e aspas podem ser incorporados a uma célula, contanto que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente   [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
+* Caracteres especiais, como tecla tab, quebras de linha e aspas podem ser incorporados a uma célula, contanto que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
 
    ```
    \t     tab character 
@@ -76,11 +76,11 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Exige que a Adobe gere automaticamente uma id exclusiva para este elemento. </p> <p>No contexto de campanha, este valor de controle instrui a Adobe a atribuir um identificador para cada elemento criativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Chave </a>. </p> </td> 
+   <td colname="col2"> <p>Exige que a Adobe gere automaticamente uma id exclusiva para este elemento. </p> <p>No contexto de campanha, este valor de controle instrui a Adobe a atribuir um identificador para cada elemento criativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Chave</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Determina que a coluna de dados representa o intervalo de dias associado ao item. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Data </a>. </p> </td> 
+   <td colname="col2"> <p>Determina que a coluna de dados representa o intervalo de dias associado ao item. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campo vazio </p> </td> 
