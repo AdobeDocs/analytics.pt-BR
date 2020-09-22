@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Sobre as subclassificações
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Cada classificação neste modelo é independente e corresponde a um novo sub-re
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Para obter mais informações sobre o arquivo de dados, consulte  [Arquivos de dados de classificação](/help/components/classifications/importer/c-saint-data-files.md).
+Para obter mais informações sobre o arquivo de dados, consulte [Arquivos de dados de classificação](/help/components/classifications/importer/c-saint-data-files.md).
 
 As classificações de múltiplos níveis são compostas de classificações principais e secundárias. Por exemplo:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classificações principais:** uma classificação principal é qualquer classificação que tem uma classificação secundária associada. Uma classificação pode ser tanto principal como secundária. As classificações principais de nível superior correspondem a classificações de nível único.
+**Classificações principais:** uma classificação principal é qualquer classificação que tem uma classificação secundária associada. Uma classificação pode ser tanto principal como secundária. As classificações principais de nível superior correspondem às classificações de nível único.
 
 **Classificações secundárias:** uma classificação secundária é qualquer classificação que tem outra classificação como principal em vez da variável. As classificações secundárias fornecem informações adicionais sobre sua classificação principal. Por exemplo, uma classificação [!UICONTROL Campanhas] pode ter uma classificação secundária Proprietário da campanha. Classificações [!UICONTROL numéricas] também funcionam como métricas nos relatórios de classificação.
 
@@ -76,18 +76,18 @@ Ao fazer upload dos arquivos de dados para essa classificação de produto, é p
 | CHAVE | NOME DO PRODUTO | DETALHES DO PRODUTO | GÊNERO | TAMANHO | CÓDIGO | CÓDIGO^COR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-MC | Camisa polo masculina, manga curta (M,01) | M | M | 01 | Pedra |
-| 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | G | 03 | Urze |
+| 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | L | 03 | Urze |
 | 410390015 | Polo-ML | Camisa polo feminina, manga longa (S,23) | F | S | 23 | Aqua |
 
-### Classificação do produto - Vários arquivos (Arquivo 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Classificação do produto - Vários arquivos (Arquivo 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | CHAVE | NOME DO PRODUTO | DETALHES DO PRODUTO | GÊNERO | TAMANHO | CÓDIGO |
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Camisa polo masculina, manga curta (M,01) | M | M | 01 |
-| 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | G | 03 |
+| 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | L | 03 |
 | 410390015 | Polo-ML | Camisa polo feminina, manga longa (S,23) | F | S | 23 |
 
-### Classificação do produto - Vários arquivos (Arquivo 2)  {#section_19ED95C33B174A9687E81714568D56A3}
+### Classificação do produto - Vários arquivos (Arquivo 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CHAVE | CÓDIGO | CÓDIGO^COR |
 |---|---|---|
