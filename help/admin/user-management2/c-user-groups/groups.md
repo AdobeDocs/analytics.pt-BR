@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Descrições de elementos na página Definir grupo de usuários.
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Relatórios de tráfego</b>: concede acesso a todos os relatórios baseados em tráfego, como exibições de página, visitas e visitantes únicos. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Ferramentas</b> (concede acesso às ferramentas usadas nos Reports &amp; Analytics, como Excluir por IP, Classificações e Clickmap herdado.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Relatórios de vídeo e dispositivos móveis</b> </li> 
-       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Relatórios de trajetória</b> (concede acesso a relatórios de rastreamento como Próxima página, Fallout e Tempo gasto na página). </li> 
+       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Relatórios de trajetória</b> (concede acesso a relatórios de definição de caminho como Próxima página, Fallout e Tempo gasto na página). </li> 
        <li id="li_D0B1B964C071441EAEC919DD7CC08E3D"><b>Relatórios de caminho personalizados</b> </li> 
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test e Target </b>(concede acesso aos relatórios do Target se a organização usar o Analytics e o Target). </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
@@ -116,7 +116,7 @@ Descrições de elementos na página Definir grupo de usuários.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Todos os acessos, Personalizar, Sem acesso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>As permissões são suportadas para clientes que possuem contêineres ativos do <span class="keyword">TagManager</span>. Não disponíveis para novos usuários. </p> <p>A Adobe recomenda o <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para implantação. </p> </td> 
+   <td colname="col2"> <p>As permissões são suportadas para clientes que possuem contêineres ativos do <span class="keyword">TagManager</span>. Não disponíveis para novos usuários. </p> <p>A Adobe recomenda o <a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para implantação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Atribuir logons de usuário</b> </td> 
