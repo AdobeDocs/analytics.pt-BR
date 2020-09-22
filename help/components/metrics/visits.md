@@ -1,11 +1,11 @@
 ---
 title: Visitas
 description: Uma sequência de exibições da página em uma sessão.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita **não** s
 
 Uma visita conta para cada período envolvido. Por exemplo, se você tiver um visitante que começa a navegar no seu site na segunda-feira às 11h45, em seguida, envia sua última solicitação de imagem na terça-feira às 12h10, você verá uma visita atribuída tanto à segunda quanto à terça-feira. No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
 
-## Visitas em uma dimensão em relação ao total de visitas
+## Visitas em uma dimensão em relação ao total de visita
 
-Visitas no contexto de uma dimensão (por exemplo, canal [de](../dimensions/marketing-channel.md)marketing) mostram o número de visitas que continham um item de dimensão específico a qualquer momento. Vários itens de dimensão frequentemente existem em diferentes ocorrências na mesma visita. Tentar somar visitas que relatam em itens de dimensão normalmente não faz sentido.
+Visitas no contexto de uma dimensão (por exemplo, [canal de marketing](../dimensions/marketing-channel.md)) mostram o número de visitas que continham um item de dimensão específico a qualquer momento. Vários itens de dimensão frequentemente existem em diferentes ocorrências na mesma visita. Tentar somar visitas que informam itens de dimensão normalmente não faz sentido.
