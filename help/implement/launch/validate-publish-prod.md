@@ -22,7 +22,7 @@ Assim que a biblioteca do Adobe Experience Platform Launch for enviada para prod
 
 O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
 
-1. Abra o [navegador da Web Chrome](https://www.google.com/intl/pt/chrome/) e acesse o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
+1. Abra o [navegador da Web Chrome](https://www.google.com/intl/pt-BR/chrome/) e acesse o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
 2. Navegue até o site de desenvolvimento em que você implementou o Launch.
 3. Clique no ícone do Adobe Experience Cloud Debugger na parte superior direita do Chrome.
 4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, no Adobe Experience Platform Launch e no serviço de ID de visitante da Adobe Experience Cloud:
