@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. O Adobe não suporta a execução do Ad Hoc Analysis no Java 7 ou inferior.
+>A partir de julho de 2018, a Ad Hoc Analysis oferecerá suporte somente ao Java 8 ou superior. A Adobe não é compatível com a execução da Ad Hoc Analysis no Java 7 ou inferior.
 
 * Cartão de vídeo compatível com o OpenGL 2.0.
 * Cookies: obrigatório
@@ -81,19 +81,19 @@ c_sys_reqs.xml
 * JavaScript: ativado
 * Versão do Java: Java 1.7 ou posterior (Veja a Observação acima)
 
-   Se não tiver a versão correta do Java instalada, ela será instalada para você. Se você tiver uma versão incompatível do Java instalada, a Ad Hoc Analysis baixa e solicita que você instale as atualizações.
+   Se não tiver a versão correta do Java instalada, ela será instalada para você. Se você tiver uma versão não compatível do Java instalada, a Ad Hoc Analysis baixará as atualizações e enviará um prompt para que você as instale.
 
 ## Instruções de atualização do Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Os arquivos .jar Adobe são assinados com uma criptografia segura de 256 bits que não é suportada pelas versões Java anteriores a 1.7.0_76. Esse certificado de 256 bits nos permite proporcionar segurança avançada.
+Os arquivos .jar da Adobe são assinados com uma criptografia de segurança de 256 bits que não é compatível com versões Java anteriores à 1.7.0_76. Esse certificado de 256 bits nos permite proporcionar segurança avançada.
 
 Se você ainda possuir o Java 7 instalado, faça a atualização antes da versão de manutenção de julho de 2018. Veja como:
 
 * Se você possuir permissão para instalar programas na máquina:
 
    1. Acesse https://www.java.com.
-   1. Click **[!UICONTROL Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Download]**.
+   1. Clique em **[!UICONTROL Baixar o Java]**.
+   1. Clique em **[!UICONTROL Concordar e iniciar o download]**.
    1. Instale a versão mais recente do Java, compatível com o seu sistema operacional.
 
 * Se você **não** possuir permissão para instalar programas na máquina:
