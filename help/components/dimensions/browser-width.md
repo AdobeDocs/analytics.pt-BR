@@ -1,16 +1,16 @@
 ---
 title: Largura do navegador - Classificada
 description: A largura da janela do navegador em pixels.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Largura do navegador
+# Largura da janela do navegador
 
 A dimensão “Largura do navegador - Classificada” mostra a largura da janela do navegador classificada em grupos de 100 pixels. Essa dimensão é útil quando você quer entender como os visitantes veem seu conteúdo. Compreender a largura em que seu conteúdo é tipicamente exibido pode permitir otimizar o conteúdo para exibição.
 
@@ -28,6 +28,6 @@ Essa dimensão recupera dados da [`bw` sequência de consulta](/help/implement/v
 
 A Adobe mantém a largura do navegador para uma visita. Se a largura do navegador for ajustada no meio da visita, o ajuste não será registrado.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem todas as larguras coletadas do navegador, classificadas em grupos de 100 pixels. For example, if the browser width of a hit is `1280`, then it is grouped in the dimension item `1200 to 1299`.
+Os itens de dimensão incluem todas as larguras do navegador coletadas, classificadas em grupos de 100 pixels. Por exemplo, se a largura do navegador de uma ocorrência for `1280`, então ela será agrupada no item de dimensão `1200 to 1299`.
