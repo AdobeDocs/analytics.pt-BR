@@ -37,7 +37,7 @@ O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a ext
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## Código monetário no SDK móvel da Adobe Experience Platform 
+## Código monetário no SDK móvel da Adobe Experience Platform
 
 O código monetário é passado para os SDKs do Adobe Experience Platform Mobile por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
 
