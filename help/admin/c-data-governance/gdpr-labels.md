@@ -416,7 +416,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
    <td colname="col2"> <p>A ID de novo visitante é um Booliano marcado como true na primeira vez que vemos uma certa ID de visitante. Não é necessário excluí-la quando a ID do visitante for tornar-se anônima. Depois da anonimização, ela corresponde à primeira vez que vimos essa ID anonimizada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Código Postal </p> <p>Código postal geográfico (Zip codes) </p> </td> 
+   <td colname="col1"> <p>Código postal </p> <p>Código postal geográfico (Zip codes) </p> </td> 
    <td colname="col2"> <p>Os códigos postais (Zip codes) são definidos somente para ocorrências originadas nos EUA. Eles não são definidos para ocorrências provenientes da UE. Mesmo quando definidos, eles só fornecem uma área geográfica ampla que dificulta a re-identificação dos dados. </p> </td> 
   </tr> 
   <tr> 
