@@ -6,6 +6,9 @@ title: Variáveis globais
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+workflow-type: ht
+source-wordcount: '136'
+ht-degree: 100%
 
 ---
 
