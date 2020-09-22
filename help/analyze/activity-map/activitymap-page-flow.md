@@ -3,8 +3,11 @@ description: A guia Detalhes da página exibe o Relatório de página como uma t
 title: Detalhes da página
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
