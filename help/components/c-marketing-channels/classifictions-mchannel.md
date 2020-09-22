@@ -1,9 +1,9 @@
 ---
 title: Classificações em Canais de marketing
 description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
