@@ -113,7 +113,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tempo decorrido da visita** (segundos) | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
-| **Nome da página** | Início | - | Produto | Início | Início   (recarga) | Carrinho | Confirmação de pedido |
+| **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
@@ -132,8 +132,8 @@ Com base na tabela acima, as métricas de Tempo gasto são calculadas da seguint
 
 | eVar1 | Total de segundos gastos | Tempo gasto por visita | Tempo gasto por visitante | Contagem de sequências | Tempo médio gasto no site |
 |---|---|---|---|---|---|
-| Vermelho  | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
-| Azul  | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
+| Vermelho | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
+| Azul | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
 | Tempo não atribuído | 100 | - | - | - | - |
 
 Tempo gasto por visita (granular): 290
