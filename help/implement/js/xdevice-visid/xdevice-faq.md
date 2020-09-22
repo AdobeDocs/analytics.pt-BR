@@ -3,6 +3,9 @@ title: Perguntas frequentes sobre a identificação de visitantes entre disposit
 description: Perguntas frequentes sobre identificação de visitantes entre dispositivos
 translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+workflow-type: ht
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
