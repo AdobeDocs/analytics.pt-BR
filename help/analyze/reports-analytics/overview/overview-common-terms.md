@@ -3,8 +3,11 @@ description: Uma introdução a termos de análise Web comuns usados em relatór
 title: Termos comuns
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,7 @@ Uma introdução aos termos comuns usados no Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>A sequência de exibições de página em uma sessão. A visita termina somente após 30 minutos de inatividade ou após 12 horas de atividade contínua. (Essa medida de tempo é o padrão do setor de análises web.) As visitas são acompanhadas por cookies. Uma visita é iniciada quando o visualizador acessa uma página. Por vezes, uma visita também é conhecida por <span class="term"> sessão</span>, mas não é uma sessão do navegador. Acessar um site diferente, fechar um navegador ou até mesmo reiniciar o computador não encerra uma visita. </p> <p> Se o tempo limite de inatividade ocorrer enquanto o visitante está lendo uma página, a visita é encerrada e é processada, Uma nova visita é iniciada quando o visitante navega até outra página. </p> <p>Se a data mudar durante uma vista como, por exemplo, ao visitar um site à meia-noite, a visita é atribuída ao dia no qual a visita foi iniciada. </p> </td> 
+   <td> <p>Uma sequência de exibições da página em uma sessão. A visita termina somente após 30 minutos de inatividade ou após 12 horas de atividade contínua. (Essa medida de tempo é o padrão do setor de análises web.) As visitas são acompanhadas por cookies. Uma visita é iniciada quando o visualizador acessa uma página. Por vezes, uma visita também é conhecida por <span class="term"> sessão</span>, mas não é uma sessão do navegador. Acessar um site diferente, fechar um navegador ou até mesmo reiniciar o computador não encerra uma visita. </p> <p> Se o tempo limite de inatividade ocorrer enquanto o visitante está lendo uma página, a visita é encerrada e é processada, Uma nova visita é iniciada quando o visitante navega até outra página. </p> <p>Se a data mudar durante uma vista como, por exemplo, ao visitar um site à meia-noite, a visita é atribuída ao dia no qual a visita foi iniciada. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
@@ -59,11 +62,11 @@ Uma introdução aos termos comuns usados no Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Eventos (sucesso) de conversão </p> </td> 
-   <td> <p>Eventos de conversão são atividades sem seu site que você deseja que seus visitantes façam (indicadores chave de desempenho) Para um site de comércio eletrônico, os eventos de conversão podem ser uma visualização detalhada do produto, uma finalização ou uma compra. Para um site de geração de lead, o evento pode ser o preenchimento de um formulário. Eventos de conversão são contados no site e têm relatórios próprios que exibem quantas delas ocorreram. Esses eventos também tornam-se métricas que podem ser inseridas em outros relatórios e podem mostrar como os eventos de conversão ocorreram, ou o que contribui para que eles ocorressem. </p> <p>A exceção à regra de um evento tornar-se uma métrica é o evento de Compra, que cria três métricas: Receita, Pedidos e Unidades.  </p> <p>Existem mais métricas de conversão que não estão descritas aqui, mas as métricas de conversão formam a fundação de suas análises da Web, na qual as outras métricas e relatórios tem base. </p> </td> 
+   <td> <p>Eventos de conversão são atividades sem seu site que você deseja que seus visitantes façam (indicadores chave de desempenho) Para um site de comércio eletrônico, os eventos de conversão podem ser uma visualização detalhada do produto, uma finalização ou uma compra. Para um site de geração de lead, o evento pode ser o preenchimento de um formulário. Eventos de conversão são contados no site e têm relatórios próprios que exibem quantas delas ocorreram. Esses eventos também tornam-se métricas que podem ser inseridas em outros relatórios e podem mostrar como os eventos de conversão ocorreram, ou o que contribui para que eles ocorressem. </p> <p>A exceção à regra de um evento tornar-se uma métrica é o evento de Compra, que cria três métricas: Receita, Pedidos e Unidades. </p> <p>Existem mais métricas de conversão que não estão descritas aqui, mas as métricas de conversão formam a fundação de suas análises da Web, na qual as outras métricas e relatórios tem base. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
-   <td> <p> Seções definidas ou categorias de seu site. Sites da web que possuem duas categorias principais como, por exemplo,  <span class="term"> tempo</span> e <span class="term"> notícias</span>, têm dois canais. É possível agrupar estatísticas para todas as visualizações de páginas que ocorrem em qualquer canal no seu site. </p> </td> 
+   <td> <p> Seções definidas ou categorias de seu site. Sites da web que possuem duas categorias principais como, por exemplo, <span class="term">tempo</span> e <span class="term">notícias</span>, têm dois canais. É possível agrupar estatísticas para todas as visualizações de páginas que ocorrem em qualquer canal no seu site. </p> </td> 
   </tr> 
  </tbody> 
 </table>
