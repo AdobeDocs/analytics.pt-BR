@@ -6,6 +6,9 @@ title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +28,12 @@ Descrições de campo para as configurações globais de Cookies usadas para imp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Visitor ID </td> 
-   <td colname="col2"> <p>Valor exclusivo que representa um cliente nos sistemas online e offline. </p> </td> 
+   <td colname="col1"> ID de visitante </td> 
+   <td colname="col2"> <p>Valor exclusivo que representa um cliente tanto no sistema online como no offline. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Espaço do nome do visitante </td> 
-   <td colname="col2"> <p>Variável usada para identificar o domínio com o qual os cookies são definidos. </p> </td>
+   <td colname="col1"> Namespace do visitante </td> 
+   <td colname="col2"> <p>Variável para identificar o domínio com o qual os cookies são definidos. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Períodos de domínio </td> 
@@ -38,15 +41,15 @@ Descrições de campo para as configurações globais de Cookies usadas para imp
   </tr> 
   <tr> 
    <td colname="col1"> Períodos de domínio FP </td> 
-   <td colname="col2"> <p>A variável A variável <span class="term"> fpCookieDomainPeriods</span> é para cookies definidos pelo JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) que são inerentemente cookies próprios, mesmo se a implementação usar os domínios <span class="filepath"> 2o7.net</span> ou <span class="filepath"> omtrdc.net</span> de terceiros. </p> <p>Consulte <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>O a variável <span class="term"> fpCookieDomainPeriods</span> é para cookies definidos pelo JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) que são inerentemente cookies próprios, mesmo se a implementação usar os domínios <span class="filepath"> 2o7.net</span> ou <span class="filepath"> omtrdc.net</span> de terceiros. </p> <p>Consulte <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID da transação </td> 
    <td colname="col2"> <p>Valor exclusivo que representa uma transação online que resultou na atividade offline. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Vida do cookie </td> 
-   <td colname="col2"> <p>Determina o tempo de vida de um cookie. </p> </td> 
+   <td colname="col1"> Duração do cookie </td> 
+   <td colname="col2"> <p>Determina a duração de um cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
