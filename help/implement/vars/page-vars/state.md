@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# Estado
+# estado
 
 >[!IMPORTANT]
 >
