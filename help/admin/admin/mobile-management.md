@@ -3,7 +3,7 @@ description: A habilitação do gerenciamento de aplicativos ativa as variáveis
 title: Gerenciamento de aplicativos
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 | Dias desde a primeira utilização | Número de dias desde a primeira execução. |
 | Dias desde a última utilização | Número de dias desde a última utilização. |
 | Hora do dia | Mede a hora em que o aplicativo foi iniciado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso. |
-| Dias da semana | Número do dia da semana no qual o aplicativo foi iniciado. |
+| Dia da semana | Número do dia da semana no qual o aplicativo foi iniciado. |
 | Nome do dispositivo | Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo. O primeiro número normalmente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. |
 | Versão do sistema operacional | Versão do sistema operacional. |
 | Resolução | Largura x altura em pixels reais. |
