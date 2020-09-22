@@ -49,7 +49,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
-       </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois de fazer logon, o campo Token de OAuth exibirá  <code>Retrieved</code>. </p> </td> 
+       </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois de fazer logon, o campo Token de OAuth exibirá <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -78,7 +78,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Conjunto de relatórios   Mapeamento </p> </td> 
+      <td colname="col1"> <p>Conjunto de relatórios Mapeamento </p> </td> 
       <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
       </tr> 
     </tbody> 
