@@ -30,7 +30,7 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
 >[!TIP]
 >
-> Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
+>Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
 
 ## Usar IDs de evento no Adobe Experience Platform Launch
 
