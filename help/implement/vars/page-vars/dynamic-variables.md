@@ -1,11 +1,11 @@
 ---
 title: Variáveis dinâmicas
 description: Copie variáveis sem aumentar a duração da solicitação de imagem.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ As variáveis dinâmicas permitem copiar valores de uma variável para outra sem
 
 Nas versões anteriores do Analytics, a duração da solicitação de imagem era importante para evitar dados truncados. As melhorias no AppMeasurement permitem strings de consulta de solicitação de imagem muito mais longas, de modo que as variáveis dinâmicas normalmente não são necessárias.
 
-As variáveis dinâmicas suportam strings de consulta como parâmetro ou cabeçalhos HTTP em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../../validate/query-parameters.md) para obter uma lista completa dos parâmetros disponíveis para referência. Consulte [Campos padrão de solicitação](https://pt.wikipedia.org/wiki/Lista_de_campos_de_cabe%C3%A7alho_HTTP) na Wikipedia para obter uma lista completa dos campos de solicitação HTTP disponíveis para referência.
+As variáveis dinâmicas suportam strings de consulta como parâmetro ou cabeçalhos HTTP em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../../validate/query-parameters.md) para obter uma lista completa dos parâmetros disponíveis para referência. Consulte [Campos padrão de solicitação](https://pt.wikipedia.org/wiki/Lista_de_campos_de_cabeçalho_HTTP) na Wikipedia para obter uma lista completa dos campos de solicitação HTTP disponíveis para referência.
 
 Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automaticamente a string de consulta ou o valor do cabeçalho HTTP no conjunto de relatórios. Essa ação ocorre antes de qualquer outro processamento, incluindo regras de processamento e regras VISTA.
 
@@ -26,7 +26,7 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 
 ## Variáveis dinâmicas no Adobe Experience Platform Launch
 
-É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. itens de Dimension normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou sob as regras.
+É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. Os itens de dimensão normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou em regras.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
