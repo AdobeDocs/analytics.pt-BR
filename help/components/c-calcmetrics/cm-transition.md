@@ -88,7 +88,7 @@ Considere consolidar as métricas calculadas com nomes e definições similares,
 
 ## O que aconteceu com minhas métricas calculadas globais? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
-Anteriormente, um administrador podia criar métricas calculadas (conhecidas como &quot;métricas calculadas globais&quot; ou &quot;métricas calculadas do conjunto de relatórios&quot;) em um conjunto de relatórios utilizando as ferramentas administrativas. 
+Anteriormente, um administrador podia criar métricas calculadas (conhecidas como &quot;métricas calculadas globais&quot; ou &quot;métricas calculadas do conjunto de relatórios&quot;) em um conjunto de relatórios utilizando as ferramentas administrativas.
 
 Agora, as métricas calculadas globais são possuídas pelo primeiro usuário administrativo da lista de usuários administrativos da empresa de logon. Elas serão compartilhadas com &quot;Todos&quot; por padrão. Este padrão segue o mesmo modelo de compartilhamento e planos de migração que os segmentos.
 
