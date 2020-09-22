@@ -2,7 +2,7 @@
 title: Mapear dados do XDM para o Analytics manualmente
 description: 'Mapear manualmente dados do XDM da Experience Platform para o Adobe Analytics '
 translation-type: ht
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
