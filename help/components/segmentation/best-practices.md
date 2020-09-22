@@ -1,11 +1,11 @@
 ---
 title: Práticas recomendadas de segmentação
 description: Crie segmentos ideais que retornam dados com eficiência.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Segmentos complexos geralmente são necessários para obter os dados desejados. Se os segmentos complexos forem ineficientes e usados em um conjunto de relatórios grande, a execução dos relatórios levará consideravelmente mais tempo. Considere os seguintes recursos ao criar ou editar um segmento para minimizar a complexidade.
 
-## Usar somente o operador &#39;Contém&#39; como último recurso
+## Usar somente o operador “Contém” como último recurso
 
-O operador &quot;Contém&quot; é um dos recursos de processamento mais intenso na segmentação, pois precisa analisar todo o conteúdo de cada valor. Considere o uso de outros operadores, como &quot;Start com&quot; ou &quot;Termina com&quot;, se os valores desejados estiverem no início ou no fim de uma string.
+O operador “Contém” é um dos recursos de processamento mais intensos na segmentação, pois precisa analisar todo o conteúdo de cada valor. Considere o uso de outros operadores, como “Inicia com” ou “Termina com”, se os valores desejados estiverem no início ou no fim de uma string.
 
-Se um operador &quot;Contém&quot; em um segmento retornar um grande número de resultados, o tempo limite do relatório normalmente é excedido. Por exemplo, se você criou um segmento em que `Referrer equals "."`, o segmento pesquisa o conteúdo de cada valor. Considere usar o operador &quot;Existe&quot;.
+Se um operador “Contém” em um segmento retornar um grande número de resultados, o tempo limite do relatório normalmente é excedido. Por exemplo, se você criou um segmento em que `Referrer equals "."`, o segmento pesquisa o conteúdo de cada valor. Considere usar o operador “Existe”.
 
 ## Usar classificações para agrupar itens de dimensão
 
@@ -30,4 +30,4 @@ Se você tiver muitas condições de segmento, elas podem degradar rapidamente o
 4. Use o importador de classificação para importar a planilha de volta para o Adobe Analytics
 5. Quando a classificação terminar de processar, crie um segmento usando o valor classificado.
 
-Esse método aumenta drasticamente o desempenho e fornece uma maneira fácil de modificar as condições do segmento. Em vez de editar o segmento com valores diferentes, você pode adicionar ou remover itens de dimensão da classificação.
+Esse método aumenta bastante o desempenho e fornece uma maneira fácil de modificar as condições do segmento. Em vez de editar o segmento com valores diferentes, você pode adicionar ou remover itens de dimensão da classificação.
