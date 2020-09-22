@@ -1,8 +1,11 @@
 ---
 title: Implementar o Analytics para assistentes digitais
 description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon Alexa ou o Google Home.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1266'
+ht-degree: 100%
 
 ---
 
@@ -170,7 +173,7 @@ Dois pontos anteriores e posteriores ajudam a criar segmentos. Por exemplo, most
 | Pessoa | Resposta do dispositivo | Ação/intenção | Solicitação Get |
 |---|---|---|---|
 | Instalar Spoofify | Sem resposta | Instalar | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Reproduzir o Spoofify | &quot;Ok reproduzindo o Spoofify&quot; | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Reproduzir o Spoofify | &quot;Ok reproduzindo o Spoofify&quot; | Reproduzir | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Trocar música | “Ok, que música você deseja?” | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Tocar &quot;Baby Shark&quot; | &quot;Ok, tocando &#39;Baby Shark&#39; de PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Alterar lista de reprodução | “Ok, que lista de reprodução você deseja?” | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
