@@ -3,9 +3,9 @@ description: A funcionalidade do segmento se diferencia entre usuários do níve
 title: Direitos do segmento por função
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ A funcionalidade do segmento se diferencia entre usuários do nível administrat
   <tr> 
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: pode visualizar/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. segmentos próprios e os compartilhados. </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: pode visualizar/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Ad Hoc Analysis</span> e <span class="keyword">Report Builder</span>: podem exibir/editar/excluir/etc. segmentos próprios e os compartilhados. </p> </td> 
    <td colname="col4"> Pode aprovar segmentos como canônicos. </td> 
    <td colname="col5"> Pode aplicar qualquer segmento na organização inteira. </td> 
   </tr> 
