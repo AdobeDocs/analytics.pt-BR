@@ -5,7 +5,7 @@ title: Conversão
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 As Fontes de dados oferecem suporte às seguintes dimensões e métricas de dados de conversão para os tipos de dados que são processados como conversão.
 
-## Conversão  Dimensões e métricas {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversão Dimensões e métricas {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. O total de eventos personalizados e exibições eVar apoiados por um conjunto de relatórios depende de contrato, e varia de acordo com cada empresa.
 
