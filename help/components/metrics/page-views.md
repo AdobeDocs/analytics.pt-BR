@@ -1,18 +1,18 @@
 ---
 title: Exibições de página
 description: O número de vezes que uma página foi visualizada.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Exibições de página
 
-A métrica &#39;visualizações de página&#39; mostra o número de vezes que um determinado item de dimensão foi definido ou persistiu em uma página. É uma das métricas mais comuns e básicas nos relatórios.
+A métrica “Visualizações de página” mostra o número de vezes que um determinado item de dimensão foi definido ou persistiu em uma página. É uma das métricas mais comuns e básicas nos relatórios.
 
 ## Como essa métrica é calculada
 
