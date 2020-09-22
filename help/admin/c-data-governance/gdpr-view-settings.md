@@ -4,6 +4,9 @@ title: Exibir/gerenciar as configurações de governança de dados do conjunto d
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '555'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece uma visão geral de quais conjuntos de relatórios foram configurados para a governança de dados, se foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
+1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]**.
 
    Você verá todos os conjuntos de relatórios que fazem parte da empresa de logon:
 
