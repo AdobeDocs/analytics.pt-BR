@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 
    * Você pode [comparar segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Use [segmentos como dimensões](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html) em uma comparação.
-   * Use segmentos na [análise de fallout](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Use segmentos na [análise de fallout](https://docs.adobe.com/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Os segmentos são universais para todos os conjuntos de relatórios.
@@ -297,7 +297,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Sistema operacional móvel (obsoleto) </td> 
+   <td colname="col1"> sistema operacional do dispositivo móvel (obsoleto) </td> 
    <td colname="col2"> Sistema operacional móvel </td> 
    <td colname="col3"> Use a dimensão do Sistema operacional e, em vez disso, aplique a visitas de segmentos de dispositivos móveis. </td> 
   </tr> 
@@ -329,29 +329,29 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
  </tbody> 
 </table>
 
-## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Dimensões com base em sequência de caracteres com conjunto de valores conhecidos foram alteradas para tipos enumerados. Ao criar um segmento com essas dimensões, a lista é pré-preenchida com todos os valores conhecidos e o único operador suportado é igual. Isso permite que você segmente rapidamente os valores exatos que você estava procurando sem selecionar valores não intencionais ao usar correspondências menos restritivas.
 
 As seguintes dimensões foram alteradas para listas enumeradas:
 
-| fabricante remoto | comprimento de email remoto | intensidade de cor |
+| fabricante do dispositivo móvel | comprimento de email remoto | intensidade de cor |
 |---|---|---|
-| tamanho da tela remota | número do dispositivo remoto | resolução do monitor |
-| altura da tela remota | push móvel para falar | plugin |
-| Suporte a cookie em dispositivo móvel | decoração de correio móvel | sistema operacional |
-| Suporte a imagem em dispositivo móvel | serviços de informações Remotos | tipo de referenciador |
-| intensidade de cor remota | tipo de dispositivo móvel | mecanismo de pesquisa |
-| suporte a áudio remoto | tipo de navegador | state |
-| suporte a vídeo remoto | navegador | país geográfico |
-| drm remoto | tipo de conexão | região geográfica |
-| protocolos de rede remota | operadora de celular | cidade geográfica |
+| tamanho da tela do dispositivo móvel | número do dispositivo móvel | resolução do monitor |
+| altura da tela do dispositivo móvel | Push To Talk para dispositivo móvel | plugin |
+| Suporte a cookie em dispositivo móvel | Decoração de correio para dispositivo móvel | sistema operacional |
+| Suporte a imagem em dispositivo móvel | serviços de informação para dispositivos móveis | tipo de referenciador |
+| intensidade de cor de dispositivo móvel | tipo de dispositivo móvel | mecanismo de pesquisa |
+| suporte a áudio remoto | tipo de navegador | estado |
+| suporte a vídeo em dispositivo móvel | navegador | país geográfico |
+| drm móvel | tipo de conexão | região geográfica |
+| protocolos de rede para dispositivo móvel | operadora de celular | cidade geográfica |
 | sistema operacional móvel | cookie | dma geográfico |
-| java vm móvel | fidelidade do cliente | cookie persistente |
+| java VM para dispositivo móvel | fidelização do cliente | cookie persistente |
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
