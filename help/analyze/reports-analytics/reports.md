@@ -1,11 +1,11 @@
 ---
 title: Relatórios
 description: As dimensões e métricas que o Reports & Analytics usa para cada relatório.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Contém relatórios sobre dimensões que normalmente exibem o conteúdo do site.
    * Links personalizados: usa a dimensão [Link personalizado](/help/components/dimensions/custom-link.md).
    * Páginas não encontradas: usa a dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md).
 
-## Dispositivos móveis
+## Dispositivo móvel
 
 Contém relatórios sobre relatórios móveis herdados. Esses relatórios baseiam seus dados na sequência do agente do usuário. Eles usam várias [dimensões móveis](/help/components/dimensions/mobile-dimensions.md) para seus respectivos relatórios.
 
@@ -88,19 +88,19 @@ Contém relatórios sobre relatórios móveis herdados. Esses relatórios baseia
 
 Contém relatórios que permitem visualizar os dados de definição de caminho para visitantes.
 
-* Fluxo da próxima página: Usa um relatório de fluxo no item de dimensão da página superior. Visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o item de dimensão relatado. Um relatório semelhante no Analysis Workspace está disponível usando uma [Visualização de fluxo](../analysis-workspace/visualizations/c-flow/flow.md).
-* Próxima página: Pega o item de dimensão da página superior e mostra as páginas seguintes para as quais os visitantes foram.
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Página anterior: Pega o item de dimensão da página superior e mostra de onde vieram os visitantes de páginas anteriores.
-* Fallout: Permite que você selecione itens de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante no Analysis Workspace está disponível usando uma [Visualização de fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Caminhos completos: Mostra caminhos individuais como itens de dimensão. Descontinuado no Analysis Workspace; use a [Visualização de fluxo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Fluxo da próxima página: usa um relatório de fluxo no item de dimensão da página superior. Visualizações de caminho são semelhantes a [Instâncias](/help/components/metrics/instances.md). Você pode alterar o item de dimensão reportado. Um relatório semelhante no Analysis Workspace está disponível usando uma [Visualização de fluxo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Próxima página: pega o item de dimensão da página superior e mostra as páginas seguintes que os visitantes acessaram.
+* Fluxo de página anterior: usa um relatório de fluxo no item de dimensão da página superior. Um relatório semelhante no Analysis Workspace está disponível usando uma [Visualização de fluxo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Página anterior: pega o item de dimensão da página superior e mostra de onde vieram os visitantes de páginas anteriores.
+* Fallout: permite selecionar itens de dimensão de página em etapas e mostra a proporção de pessoas que seguiram ou não esse caminho. Um relatório semelhante no Analysis Workspace está disponível usando uma [Visualização de fallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Caminhos completos: mostra caminhos individuais como itens de dimensão. Descontinuado no Analysis Workspace; use a [Visualização de fluxo](../analysis-workspace/visualizations/c-flow/flow.md).
 * PathFinder: fornece vários tipos de relatórios que permitem analisar caminhos (descontinuado no Analysis Workspace).
 * Comprimento do caminho: usa a dimensão [Profundidade da visita](/help/components/dimensions/visit-depth.md).
 * Análise de página
-   * Resumo da página: Pega o item de dimensão da página superior e mostra uma visualização de tendência. Também mostra pontos de entrada, páginas anteriores, pontos de saída e próximas páginas para o item de dimensão da página superior.
+   * Resumo da página: obtém o item de dimensão da página superior e mostra uma visualização com tendência. Também mostra pontos de entrada, páginas anteriores, pontos de saída e próximas páginas para o item de dimensão da página superior.
    * Recarregamentos: usa a dimensão [Página](/help/components/dimensions/page.md) com a métrica [Recarregamentos](/help/components/metrics/reloads.md).
    * Tempo gasto na página: usa a dimensão [Tempo gasto na página - segmentado](/help/components/dimensions/time-spent-on-page.md).
-   * Cliques na página: Pega o item de dimensão da página superior e mostra o número de cliques necessários para chegar a essa página em uma determinada visita.
+   * Cliques na página: obtém o item de dimensão da página superior e mostra o número de cliques necessários para chegar a essa página em uma determinada visita.
 * Entradas e saídas
    * Páginas de entrada: usa a dimensão [Páginas de entrada](/help/components/dimensions/entry-dimensions.md).
    * Páginas de entrada originais: usa a dimensão [Página de entrada original](/help/components/dimensions/entry-dimensions.md).
@@ -171,7 +171,7 @@ Contém relatórios sobre quem visita seu site.
    * Estados dos EUA: usa a dimensão [Estados dos EUA](/help/components/dimensions/us-states.md).
    * DMA dos EUA: usa a dimensão [DMA dos EUA](/help/components/dimensions/us-dma.md).
 * Idiomas: usa a dimensão [Idioma](/help/components/dimensions/language.md).
-* Fusos horários: usa a dimensão fuso horário (descontinuado no Analysis Workspace). Os itens de Dimension são o deslocamento GMT da ocorrência.
+* Fusos horários: usa a dimensão fuso horário (descontinuado no Analysis Workspace). Os itens de dimensão são o deslocamento GMT da ocorrência.
 * Domínio: usa a dimensão [Domínio](/help/components/dimensions/domain.md).
 * Domínio de nível superior: usa a dimensão Domínio de nível superior (descontinuado no Analysis Workspace). Ele agrupa a dimensão [domínios](/help/components/dimensions/domain.md) em categorias de nível superior, normalmente por país do domínio.
 * Tecnologia: pasta que contém relatórios sobre o que o visitante usou para acessar seu site.
@@ -184,12 +184,12 @@ Contém relatórios sobre quem visita seu site.
    * Intensidade de cor do monitor: usa a dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md).
    * Resolução do monitor: usa a dimensão [Resolução do monitor](/help/components/dimensions/monitor-resolution.md).
    * Java: usa a dimensão [Habilitado para Java](/help/components/dimensions/java-enabled.md).
-   * JavaScript: usa a dimensão Habilitado para JavaScript (descontinuado no Analysis Workspace). Os itens de Dimension são &#39;Enabled&#39;, &#39;Disabled&#39; ou &#39;Unknown&#39;, dependendo se o navegador tiver o JavaScript ativado.
-   * Versão do JavaScript: usa a dimensão Versão do JavaScript (descontinuado no Analysis Workspace). Os itens de Dimension mostram a versão do JavaScript que o navegador usa.
+   * JavaScript: usa a dimensão Habilitado para JavaScript (descontinuado no Analysis Workspace). Os itens de dimensão são “Enabled”, “Disabled” ou “Unknown”, dependendo se o navegador tiver o JavaScript ativado.
+   * Versão do JavaScript: usa a dimensão Versão do JavaScript (descontinuado no Analysis Workspace). Os itens de dimensão mostram a versão do JavaScript que o navegador usa.
    * Cookies: Usa a dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).
    * Tipos de conexão: usa a dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md).
    * Operadora de celular: usa a dimensão [Operadora de celular](/help/components/dimensions/mobile-dimensions.md).
-* Estado do visitante: usa a dimensão Estado (descontinuado no Analysis Workspace). Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Estado do visitante: usa a dimensão Estado (descontinuado no Analysis Workspace). Os itens de dimensão são originários da variável [`state`](../../implement/vars/page-vars/state.md).
 * CEP/código postal do visitante: usa a dimensão [CEP](/help/components/dimensions/zip-code.md).
 
 ## Conversão personalizada
