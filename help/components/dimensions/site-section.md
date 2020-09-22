@@ -1,11 +1,11 @@
 ---
 title: Seção do site
 description: O nome da seção do site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ Essa dimensão está relacionada às dimensões [Página](page.md) e [Servidor](
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`ch` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável [`channel`](/help/implement/vars/page-vars/channel.md).
+Essa dimensão recupera dados da [`ch` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável [`channel`](/help/implement/vars/page-vars/channel.md).
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem os nomes das seções do site. Sua organização determina quais itens de dimensão você deseja usar. Independentemente do método usado, verifique se ele é consistente e registre-o em um [documento de design de solução](/help/implement/prepare/solution-design.md).
+Os itens de dimensão incluem os nomes das seções do site. A organização escolhe quais itens de dimensão específicos quer utilizar. Independentemente do método usado, verifique se ele é consistente e registre-o em um [documento de design de solução](/help/implement/prepare/solution-design.md).
