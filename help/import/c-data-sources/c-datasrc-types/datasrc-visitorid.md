@@ -4,8 +4,11 @@ subtopic: Data sources
 title: ID de visitante
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Consulte [Integrar dados offline](/help/import/c-data-sources/datasrc-integratin
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
 | Canal | Nome do canal. |
 | eVarn | Nome da eVarn. Valores válidos para n são inteiros entre 1 - 75. |
-| Product | Nome do produto. |
+| Produto | Nome do produto. |
 | Estado | Nome do estado. |
 | CEP | Nome do CEP. |
 
@@ -38,11 +41,11 @@ Consulte [Integrar dados offline](/help/import/c-data-sources/datasrc-integratin
 | Adições ao Carrinho | Total de adições ao carrinho. |
 | Aberturas do Carrinho | Total de aberturas do carrinho. |
 | Remoções do Carrinho | Total de remoções do carrinho. |
-| Exibições do carrinho | Total de exibições do carrinho. |
-| Finalizações | Total de finalizações. |
+| Visualizações do carrinho | Total de exibições do carrinho. |
+| Check-outs | Total de finalizações. |
 | Evento n | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 100.  Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
 | Exibições da eVarn | Total de vezes que o eVar n foi visualizado. Valores válidos para n são inteiros entre 1 - 75. |
 | Preço | Preço do produto. |
 | Pedidos | Total de pedidos feitos. |
-| Exibições do produto | Total de exibições do produto. |
+| Visualizações de produto | Total de exibições do produto. |
 | Quantidade | Total de unidades vendidas. |
