@@ -1,27 +1,27 @@
 ---
 title: Suporte a cookies
-description: Determina se o navegador suporta cookies.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: Determina se o navegador aceita cookies.
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Suporte a cookies
 
-A dimensão &#39;Suporte a cookies&#39; relata se o navegador oferece suporte a cookies para uma determinada ocorrência. É útil determinar a proporção de visitantes que usam navegadores que suportam cookies e aqueles que os desabilitam intencionalmente.
+A dimensão “Suporte a cookies” informa se o navegador aceita cookies para uma determinada ocorrência. É útil determinar a proporção de visitantes que usam navegadores que aceitam cookies e aqueles que os desabilitam intencionalmente.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão coleta dados da string [`k` do](/help/implement/validate/query-parameters.md) query em solicitações de imagem. O AppMeasurement tenta definir um cookie chamado `s_cc`, e então detecta se o cookie existe. O resultado é o valor do parâmetro da string de query `Y` (se o navegador suportar e tiver cookies ativados) ou `N` (se o navegador tiver cookies desativados). Se você usar o AppMeasurement (por exemplo, por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), certifique-se de incluir o parâmetro da string de `k` query em cada ocorrência com o valor `Y` ou `N`.
+Essa dimensão coleta dados da [`k`sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement tenta definir um cookie chamado `s_cc`, e então detecta se o cookie existe. O resultado é o valor do parâmetro da sequência de consulta `Y` (se o navegador aceitar e tiver cookies ativados) ou `N` (se o navegador tiver cookies desativados). Se você utilizar o AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o `k` parâmetro da sequência de consulta em cada ocorrência com um valor de `Y` ou `N`.
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem `Enabled`, `Disabled`e `Unknown`.
+Os itens de dimensão incluem `Enabled`, `Disabled` e `Unknown`.
 
-* **`Enabled`**: O navegador oferece suporte a cookies e os habilita.
-* **`Disabled`**: O navegador não oferece suporte a cookies ou o visitante os desabilitou.
-* **`Unknown`**: O AppMeasurement não pôde determinar o suporte a cookies. A cadeia de caracteres do `k` query não estava presente na solicitação de imagem.
+* **`Enabled`**: o navegador aceita cookies e os habilita.
+* **`Disabled`**: o navegador não aceita cookies ou o visitante os desabilitou.
+* **`Unknown`**: o AppMeasurement não pôde determinar o suporte a cookies. A sequência de consulta `k` não estava presente na solicitação de imagem.
