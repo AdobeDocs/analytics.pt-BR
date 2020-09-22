@@ -2,11 +2,11 @@
 description: Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html"  > Interfaces de relatórios</a> </td> 
-   <td colname="col2"> Analysis Workspace, Relatórios e Analytics, Report Builder, API </td> 
-   <td colname="col3"> Relatório em tempo real em Relatórios e Analytics, Report Builder, 1.4 API </td> 
+   <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col3"> Relatório em tempo real no Reports &amp; Analytics, Report Builder, 1.4 API </td> 
    <td colname="col4"> Somente API </td> 
    <td colname="col5"> Data Warehouse e API </td> 
   </tr> 
@@ -91,6 +91,6 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
 
 **Ajuda relacionada**
 
-* [Adobe I/O](https://www.adobe.io/) - Aqui você encontra uma ampla documentação técnica e as ferramentas necessárias para integrar as tecnologias Adobe em seus aplicativos.
+* [Adobe/IO](https://www.adobe.io/) - Aqui você encontra uma ampla documentação técnica e as ferramentas necessárias para integrar as tecnologias Adobe em seus aplicativos.
 * [API de consulta da Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
