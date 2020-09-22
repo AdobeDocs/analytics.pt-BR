@@ -3,9 +3,9 @@ description: Como aplicar um ou mais segmentos a um relatório a partir do paine
 title: Selecionar e aplicar segmentos
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Como aplicar um ou mais segmentos a um relatório a partir do painel de segmento
 
    >[!NOTE]
    >
-   >Você pode aplicar mais de um segmento a um relatório (isso se chama empilhamento de segmentos). Quando vários segmentos são aplicados, os critérios em cada segmento são combinados com um operador &quot;e&quot; e, em seguida, são aplicados. Não há limite para a quantidade de segmentos que podem ser empilhados.
+   >Você pode aplicar mais de um segmento a um relatório (isso se chama empilhamento de segmentos). Quando vários segmentos são aplicados, os critérios em cada segmento são combinados com um operador &quot;and&quot; e, em seguida, são aplicados. Não há limite para a quantidade de segmentos que podem ser empilhados.
 
    >[!NOTE]
    >
