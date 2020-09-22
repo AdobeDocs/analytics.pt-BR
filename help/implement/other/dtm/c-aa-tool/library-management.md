@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Descrições dos campos e opções nas configurações de Gerenciamento de biblioteca no Dynamic Tag Management.
 
-**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Editar ferramenta ]** > **[!UICONTROL  Gerenciamento de biblioteca ]** 
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Editar ferramenta ]** > **[!UICONTROL  Gerenciamento de biblioteca ]**
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Descrições dos campos e opções nas configurações de Gerenciamento de bibli
   </tr> 
   <tr> 
    <td colname="col1"> <p> Personalizado </p> </td> 
-   <td colname="col2"> <p>Você pode configurar o código da biblioteca. </p> <p>Se você selecionar essa opção, serão disponibilizados os seguintes itens: </p> <p> <b>Definir conjuntos de relatórios utilizando o código personalizado abaixo:</b> quando esta caixa é marcada, o Dynamic Tag Management busca uma variável no seu código personalizado, chamada  <span class="varname"> s_account</span>. Esta variável deve conter uma lista separada por vírgulas dos conjuntos de relatórios para os quais você deseja enviar dados. </p> <p> <b>Código hospedado:</b> escolha uma opção para hospedar o <span class="filepath">s_code</span>: </p> 
+   <td colname="col2"> <p>Você pode configurar o código da biblioteca. </p> <p>Se você selecionar essa opção, serão disponibilizados os seguintes itens: </p> <p> <b>Definir conjuntos de relatórios utilizando o código personalizado abaixo:</b> quando esta caixa é marcada, o Dynamic Tag Management busca uma variável no seu código personalizado, chamada <span class="varname"> s_account</span>. Esta variável deve conter uma lista separada por vírgulas dos conjuntos de relatórios para os quais você deseja enviar dados. </p> <p> <b>Código hospedado:</b> escolha uma opção para hospedar o <span class="filepath">s_code</span>: </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>No DTM</b>: você pode hospedar o <span class="filepath">s_code</span> no Dynamic Tag Management. Clique em <span class="uicontrol">Editar código</span> para cortar e colar o arquivo diretamente no editor. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: se você tiver um bom arquivo <span class="filepath">s_code</span> e estiver satisfeito com o processo de atualização dele, poderá fornecer o URL para o arquivo aqui. O Dynamic Tag Management consume o arquivo <span class="filepath">s_code</span> para sua implementação do <span class="keyword">Adobe Analytics</span>. </li> 
