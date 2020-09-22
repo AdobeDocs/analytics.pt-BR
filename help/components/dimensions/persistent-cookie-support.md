@@ -1,15 +1,15 @@
 ---
-title: Suporte a cookies persistentes
-description: Determina se o visitante tem a capacidade de suportar cookies persistentes.
-translation-type: tm+mt
+title: Suporte a cookie persistente
+description: Determina se o visitante pode aceitar cookies persistentes.
+translation-type: ht
 source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 
-# Suporte a cookies persistentes
+# Suporte a cookie persistente
 
-Conteúdo em breve!
+Conteúdo em breve.
