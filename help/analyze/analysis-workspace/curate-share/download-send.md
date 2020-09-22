@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Você pode baixar um projeto completo indo até **[!UICONTROL Projeto > Baixar c
 
 Para downloads de projetos, lembre-se:
 
-* O projeto pode ser salvo ou não quando você solicita um download do projeto. No entanto, somente projetos salvos podem ser [agendados](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* O projeto pode ser salvo ou não quando você solicita um download do projeto. No entanto, somente projetos salvos podem ser [agendados](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * Os PDFs baixados no navegador podem levar vários minutos para serem exportados porque o projeto é executado novamente em servidores Adobe antes da renderização no formato PDF. Recomendamos não sair do projeto até que o PDF seja baixado no navegador. No entanto, você pode continuar fazendo alterações no projeto enquanto espera. Se um PDF demorar mais de 5 minutos para ser renderizado, você será solicitado a enviá-lo por email.
 * Os downloads de PDF são renderizados como uma única página sem paginação aplicada.
 * Quando um projeto é renderizado para PDF, nós renderizamos o que está na página. Se um projeto tiver visualizações e painéis com tamanhos personalizados, é necessário alterá-los para terem tamanhos automáticos (botão no canto superior direito) para que não haja truncamento de conteúdo.
