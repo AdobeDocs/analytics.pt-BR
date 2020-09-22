@@ -3,8 +3,11 @@ description: Uma introdução aos recursos de um relatório, incluindo a barra d
 title: Recursos do relatório
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, o calendários e a tabela de detalhes.
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+Este exemplo mostra um [!UICONTROL Relatório de páginas]. As opções de configuração podem variar, dependendo do relatório que você está executando. Por exemplo, em vez de selecionar Com Tendência ou Classificado em um [!UICONTROL Relatório de conteúdo do sie], você pode especificar a granularidade e o nome da página para um relatório de [!UICONTROL Métricas do site].
 
 ## Exemplo de relatório de páginas {#section_288CC85536684C2DB184141358481EF0}
 
-Um exemplo de um Relatório de páginas ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Veja a seguir um exemplo de um relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Relatórios de páginas]** > **[!UICONTROL Páginas]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -31,7 +34,7 @@ Consulte também [Personalização de um relatório](/help/analyze/reports-analy
 
 ## Cabeçalho e configurações do relatório {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
-Exibe as configurações de relatório e permite que você configure o tipo de relatório, selecione métricas e muito mais. As opções disponíveis nesse grupo variam de acordo com o relatório que você está executando. 
+Exibe as configurações de relatório e permite que você configure o tipo de relatório, selecione métricas e muito mais. As opções disponíveis nesse grupo variam de acordo com o relatório que você está executando.
 
 ![](assets/settings_header.png){width=&quot;672px&quot;}
 
@@ -39,7 +42,7 @@ Consulte [Personalização de um relatório](/help/analyze/reports-analytics/rep
 
 ## Calendário {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
-Especifique a data clicando no botão de calendário e selecionando um intervalo de datas. Você também pode selecionar dois intervalos de tempo para comparar o desempenho. 
+Especifique a data clicando no botão de calendário e selecionando um intervalo de datas. Você também pode selecionar dois intervalos de tempo para comparar o desempenho.
 
 ![](assets/calendar_large.png){width=&quot;672px&quot;}
 
