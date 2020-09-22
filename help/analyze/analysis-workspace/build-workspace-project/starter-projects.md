@@ -86,7 +86,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 * **Consumo de áudio**: que conteúdo está sendo mais consumido pelos usuários, resultando em interações?
 * **Recenticidade - Frequência - Fidelidade**: quem são meus leitores fiéis?
 
-### Dispositivos móveis
+### Dispositivo móvel
 
 >[!IMPORTANT]
 >
