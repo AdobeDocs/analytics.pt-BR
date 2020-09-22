@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes
 description: Obtenha respostas para perguntas frequentes ao mudar de uma plataforma de terceiros para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ Os filtros suspensos são um recurso flexível e robusto do [!UICONTROL Analysis
 
 Os usuários que acessam este projeto do [!UICONTROL Workspace] agora podem usar essa lista suspensa para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia Ferramentas do Adobe Analytics para obter mais informações.
 
-**Estou acostumado a clicar em um item de dimensão para ver uma análise. Como posso replicar esse fluxo de trabalho fácil na Analysis Workspace?**
+**Estou acostumado a clicar em um item de dimensão para ver um detalhamento. Como posso replicar esse fluxo de trabalho fácil no Analysis Workspace?**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Para acessá-lo, clique com o botão direito do mouse. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Você pode aplicar o mesmo detalhamento a vários itens de dimensão usando ctrl+clique (Windows) ou cmd+clique (Mac) em cada valor.
+Os itens de dimensão no [!UICONTROL Analysis Workspace] também têm um fluxo de trabalho de detalhamento simples. Para acessá-lo, clique com o botão direito do mouse. Clique com o botão direito do mouse em um item de dimensão, clique em **[!UICONTROL Detalhamento] e selecione o componente desejado. Aplique o mesmo detalhamento a vários itens de dimensão usando ctrl+clique (Windows) ou cmd+clique (Mac) em cada valor.
