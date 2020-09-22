@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Criar um modelo de arquivo de importação
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 O arquivo modelo para importação foi projetado para ajudar você com a importação.
 
-Não é preciso se limitar às colunas definidas no modelo. É possível inserir mais colunas, conforme necessário, desde que a métrica ou a definição seja suportada pelo tipo de processamento de dados selecionado. É possível exibir as métricas e dimensões de cada tipo nas seguintes seções: [Registro da Web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Tráfego](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversão](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [ID de transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [ID do visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Processamento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Por exemplo, em um tipo de dados de tráfego, é possível adicionar uma coluna a qualquer métrica ou dimensão descrita em [Tráfego](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
+Não é preciso se limitar às colunas definidas no modelo. É possível inserir mais colunas, conforme necessário, desde que a métrica ou a definição seja aceita pelo tipo de processamento de dados selecionado. É possível exibir as métricas e dimensões de cada tipo nas seguintes seções: [Registro da Web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Tráfego](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversão](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [ID de transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [ID do visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Processamento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Por exemplo, em um tipo de dados de tráfego, é possível adicionar uma coluna a qualquer métrica ou dimensão descrita em [Tráfego](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 Após sua criação, é possível baixar o modelo, inserir seus dados nele, e então carregar os dados no local FTP das Fontes de Dados. Depois de processados pelo servidor das Fontes de Dados, os dados importados são disponibilizados para o uso nos relatórios do Analytics.
 
