@@ -23,7 +23,7 @@ Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e s
 
 É possível gerenciar e rastrear esses ativos da mesma maneira com o DTM. Por exemplo, suponhamos que você tenha vários sites baseados em um só modelo e queira rastrear os mesmos recursos em todos eles. É possível aplicar uma propriedade da Web a vários domínios.
 
-Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte  [Propriedades da Web ](https://docs.adobe.com/content/help/pt-BR/dtm/using/admin/web-property.html)na Documentação de produto do Dynamic Tag Management.
+Para obter informações gerais sobre propriedades da Web e práticas recomendadas, consulte [Propriedades da Web ](https://docs.adobe.com/content/help/pt-BR/dtm/using/admin/web-property.html)na Documentação de produto do Dynamic Tag Management.
 
 1. Navegue para a página da empresa e clique em **[!UICONTROL Adicionar a propriedade]**.
 
