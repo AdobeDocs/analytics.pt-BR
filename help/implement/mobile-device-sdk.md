@@ -2,7 +2,7 @@
 title: Implementação do Analytics para dispositivos móveis
 description: Determine qual biblioteca do AppMeasurement para dispositivos móveis deve ser usada.
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
