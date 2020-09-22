@@ -1,19 +1,19 @@
 ---
-description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
+description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar em comportamentos disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de atalho (atalhos) disponíveis no Analysis Workspace
+title: Teclas de atalho disponíveis no Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
 source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 58%
+ht-degree: 82%
 
 ---
 
 
-# Teclas de atalho (atalhos) disponíveis no Analysis Workspace
+# Teclas de atalho disponíveis no Analysis Workspace
 
 Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise e democratização ininterruptas.
 
@@ -30,12 +30,12 @@ Observação:
 | Ir para o painel Painéis | alt + shift + 1 |
 | Ir para o painel Visualizações | alt + shift + 2 |
 | Ir para o painel Componentes | alt + shift + 3 |
-| Recolher/Expandir todos os painéis | alt + m |
+| Recolher/expandir todos os painéis | alt + m |
 | Recolher/expandir painel ativo | alt + ctrl + m |
-| Move para o próximo painel | alt + Tecla direita |
-| Mover para o painel anterior | alt + Tecla Esquerda |
+| Mover para o próximo painel | alt + Seta direita |
+| Mover para o painel anterior | alt + Seta esquerda |
 
-## ações de análise
+## Ações de análise
 
 | Ação | Atalho |
 | --- | --- |
@@ -56,12 +56,12 @@ Observação:
 
 | Ação | Atalho |
 | ---|---|
-| Novo Analytics para o painel Públicos alvos | alt + g |
+| Novo painel Analytics for Target | alt + g |
 | Novo painel de atribuição | alt + e |
 | Novo painel em branco | alt + b |
 | Novo painel de forma livre | alt + a |
 | Painel de visualizadores simultâneos de novas mídias | alt + h |
-| Novo Painel Quick Insights | alt + f |
+| Novo painel Quick Insights | alt + f |
 | Novo painel de Comparação de segmentos | alt + c |
 | Nova tabela de forma livre | alt + 1 |
 | Novo gráfico de linha | alt + 2 |
