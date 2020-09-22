@@ -1,18 +1,18 @@
 ---
 title: Visão geral das métricas
-description: Quantidades visualizações de itens de dimensão ou dados ao longo do tempo.
-translation-type: tm+mt
+description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Visão geral das métricas
 
-As métricas permitem quantificar itens de dimensão, como para ver quais páginas do site têm mais visualizações de página. Também é possível analisar as métricas ao longo do tempo para ver quantos pedidos os visitantes fazem no site a cada dia. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
+As métricas permitem quantificar os itens de dimensão para, por exemplo, ver quais páginas do site têm mais visualizações de página. Também é possível analisar as métricas ao longo do tempo para ver quantos pedidos os visitantes fazem no site a cada dia. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
 
 Por exemplo, ao combinar a dimensão &quot;Página&quot; com a métrica &quot;Visitas&quot;, é possível obter um relatório classificado que mostra as páginas mais visitadas:
 
