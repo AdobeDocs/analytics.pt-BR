@@ -1,11 +1,11 @@
 ---
 title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -84,21 +84,21 @@ Esses dois valores de variável são considerados separados no Adobe Analytics. 
 
 ## Solicitações de imagem truncadas
 
-As implementações que preenchem muitas variáveis com valores longos às vezes podem ser executadas em solicitações de imagem truncadas. Alguns navegadores mais antigos, como o Internet Explorer, impõem um limite de 2083 caracteres em URLs de solicitação de imagem. Se sua organização encarar solicitações de imagem muito longas, tente o seguinte:
+As implementações que preenchem muitas variáveis com valores longos às vezes podem ser executadas em solicitações de imagem truncadas. Alguns navegadores mais antigos, como o Internet Explorer, impõem um limite de 2083 caracteres em URLs de solicitação de imagem. Se sua organização lidar com solicitações de imagem muito longas, tente o seguinte:
 
-* **Use o serviço** de ID de Experience Cloud: As bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte Serviço [de ID da](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) Adobe Experience Cloud para obter mais informações.
-* **Usar regras** de processamento: [As regras](/help/admin/admin/c-processing-rules/processing-rules.md) de processamento podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
+* **Usar o serviço da Experience Cloud ID**: as bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte [Serviço da Adobe Experience Cloud ID](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) para obter mais informações.
+* **Usar regras de processamento**: as [as regras de processamento](/help/admin/admin/c-processing-rules/processing-rules.md) podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
 
    Sempre executar:<br>
-Substituir valor de prop1 por eVar1<br>Substituir valor de eVar2 por eVar1<br>Substituir valor de prop2 por eVar1<br>
+Substituir valor de prop1 por eVar1<br> Substituir valor de eVar2 por eVar1<br> Substituir valor de prop2 por eVar1<br>
 
-   Em seguida, defina o eVar 1 na sua implementação:
+   Em seguida, defina a eVar 1 na sua implementação:
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
    ```
 
-* **Usar variáveis** dinâmicas: Se sua implementação preencher muitas variáveis com o mesmo valor, você poderá usar variáveis [](/help/implement/vars/page-vars/dynamic-variables.md) dinâmicas para encurtar o URL da solicitação:
+* **Usar variáveis dinâmicas**: se a sua implementação preencher muitas variáveis com o mesmo valor, você poderá usar [variáveis dinâmicas](/help/implement/vars/page-vars/dynamic-variables.md) para encurtar o URL da solicitação:
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -107,4 +107,4 @@ Substituir valor de prop1 por eVar1<br>Substituir valor de eVar2 por eVar1<br>Su
    s.prop2 = "D=v1";
    ```
 
-* **Usar classificações**: Se os nomes de produtos ou páginas forem invulgarmente longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/c-classifications.md) para exibir um nome mais amigável.
+* **Usar classificações**: se os nomes de produtos ou páginas forem longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/c-classifications.md) para exibir um nome mais simples.
