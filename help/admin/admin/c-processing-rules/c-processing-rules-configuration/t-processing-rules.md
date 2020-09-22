@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Criar regras de processamento
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 As regras de processamento são definidas nos conjuntos de relatórios.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
-1. Selecionar um conjunto de relatórios.
+1. Selecione um conjunto de relatórios.
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
 1. Na página **[!UICONTROL Regras de processamento]**, clique em **[!UICONTROL Adicionar regra]**.
 1. Clique em **[!UICONTROL Adicionar condição]** e então selecione quando a regra se aplica.
