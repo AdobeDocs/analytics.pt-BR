@@ -1,11 +1,11 @@
 ---
 title: Visão geral das classificações
-description: Personalize o agrupamento de itens de dimensão.
-translation-type: tm+mt
+description: Personalizar o agrupamento de itens de dimensão.
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Os relatórios e análises contêm classificações pré-definidas para a variá
 
 Consulte [Classificações de tráfego](/help/admin/admin/c-traffic-variables/traffic-classifications.md) e [Classificações de conversão](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em   [Estrutura de arquivo geral](/help/components/classifications/importer/c-saint-data-files.md) antes do upload dos arquivos de dados.
+A tabela a seguir descreve os diferentes tipos de classificação disponíveis e os tipos de variáveis que os suportam. Revise as informações em [Estrutura de arquivo geral](/help/components/classifications/importer/c-saint-data-files.md) antes do upload dos arquivos de dados.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
