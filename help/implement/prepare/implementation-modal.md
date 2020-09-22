@@ -1,18 +1,18 @@
 ---
 title: Modal de implementação
 description: Saiba mais sobre a experiência dos novos clientes ao executarem a implementação do Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # Modal de implementação
 
-Consulte [Criar um conjunto](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de relatórios.
+Consulte [Criar um conjunto de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-console/create-report-suite.html).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
