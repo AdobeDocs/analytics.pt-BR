@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ Se você vir variações de maiúsculas e minúsculas diferentes do mesmo valor 
 
 ## Os bots são filtrados pelas regras de bot do Admin Console nos feeds de dados?
 
-Os feeds de dados não incluem bots filtrados pelas regras [do robô do console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)de administração.
+Os feeds de dados não incluem bots filtrados pelas [regras de bot do Admin Console](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
 ## Por que vejo vários `000` valores na coluna do feed de dados `event_list` ou `post_event_list` ?
 
