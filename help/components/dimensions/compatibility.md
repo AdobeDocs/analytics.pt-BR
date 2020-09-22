@@ -1,11 +1,11 @@
 ---
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Suporte a vídeo em dispositivo móvel | `mobilevideosupport` |
 | Resolução do monitor | `monitorresolution` |
 | Sistemas operacionais | `operatingsystem` |
-| Domínio de referência original | `referringdomainoriginal` |
+| Domínio referenciador original | `referringdomainoriginal` |
 | Página | `page` |
 | Páginas não encontradas | `pagesnotfound` |
 | Produto | `product` |
@@ -84,7 +84,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | SC-TnT | `tntbase` |
 | Mecanismo de pesquisa | `searchengine` |
 | Palavra-chave de pesquisa | `searchenginekeyword` |
-| Mecanismo de pesquisa  - Natural | `searchenginenatural` |
+| Mecanismo de pesquisa - Natural | `searchenginenatural` |
 | Mecanismo de pesquisa - Pago | `searchenginepaid` |
 | Palavra-chave de pesquisa - Natural | `searchenginenaturalkeyword` |
 | Palavra-chave de pesquisa - Paga | `searchenginepaidkeyword` |
@@ -168,8 +168,8 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
-| Altura do navegador | `browserheight` |
-| Largura do navegador | `browserwidth` |
+| Altura da janela do navegador | `browserheight` |
+| Largura da janela do navegador | `browserwidth` |
 | Clientes únicos diários | `dailyuniquecustomers` |
 | JavaScript | `javascriptsupport` |
 | Versão do JavaScript | `javascriptversion` |
