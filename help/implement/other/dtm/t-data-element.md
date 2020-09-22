@@ -6,6 +6,9 @@ title: Criar um elemento de dados
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,7 @@ Crie um elemento de dados no Dynamic Tag Management.
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
         <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Sessão: o cronograma baseado na sessão pode variar dependendo da implementação. Os elementos de dados da sessão são definidos para o cookie da sessão. Contudo, essa configuração pode basear-se em um servidor da Web ou no navegador. Ela não se relaciona com a sessão usada no Reports &amp; Analytics de marketing. </p> </li> 
         <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Pageview. </p> </li> 
-        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitante. </p> </li> 
+        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitante </p> </li> 
       </ul> </td> 
     </tr> 
    </table>
