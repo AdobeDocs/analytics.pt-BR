@@ -1,11 +1,11 @@
 ---
 title: Prop
 description: Uma dimensão personalizada que você pode usar nos relatórios.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ Cada prop coleta dados da [`c1` - `c75` sequência de consulta](/help/implement/
 
 O AppMeasurement, que compila variáveis JavaScript em uma solicitação de imagem para coleta de dados, usa as variáveis `prop1` - `prop75`. Consulte [prop](/help/implement/vars/page-vars/prop.md) no guia de usuário Implementar para obter diretrizes de implementação.
 
-## itens de Dimension
+## Itens de dimensão
 
-Como as props contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada prop. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Como as props contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada prop. Registre a finalidade de cada prop e os itens de dimensão típicos em um [documento de design de solução](/help/implement/prepare/solution-design.md).
 
-## Diferenciação entre maiúsculas e minúsculas
+## Diferencia maiúsculas de minúsculas
 
-As props, por padrão, não distinguem maiúsculas de minúsculas. Se você enviar o mesmo valor em casos diferentes (por exemplo, `"DOG"` e `"Dog"`), a Analysis Workspace os agrupará no mesmo item de dimensão. É utilizado o caso do primeiro valor observado no início do mês do relatórios. A Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
+As props, por padrão, não diferenciam maiúsculas de minúsculas. Se você enviar o mesmo valor em letra maiúscula ou minúscula (por exemplo, `"DOG"` e `"Dog"`), o Analysis Workspace os agrupará no mesmo item de dimensão. É utilizada a forma do primeiro valor observado no início do mês do relatórios. O Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
 
-É possível tornar qualquer prop sensível a maiúsculas e minúsculas. Você também pode desativar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver ativada. Entre em contato com o Atendimento ao cliente do Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alternar a diferenciação entre maiúsculas e minúsculas.
+É possível fazer com que qualquer prop diferencie maiúsculas e minúsculas. Você também pode desativar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver ativada. Entre em contato com o Atendimento ao cliente da Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alterar a diferenciação entre maiúsculas e minúsculas.
 
 >[!IMPORTANT]
 >
->Alternar distinção entre maiúsculas e minúsculas pode cortar itens de dimensão, causar resultados inesperados com segmentos e causar problemas com filtros. A Adobe recomenda que essa configuração seja alternada entre dois períodos principais, como o início de um mês ou ano.
+>Alterar a diferenciação entre maiúsculas e minúsculas pode cortar itens de dimensão, causar resultados inesperados com segmentos e causar problemas com filtros. A Adobe recomenda que essa configuração seja alterada entre dois períodos principais, como o início de um mês ou ano.
 
 ## Valor de props em relação a eVars
 
