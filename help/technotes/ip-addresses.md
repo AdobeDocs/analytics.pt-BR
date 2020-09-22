@@ -1,36 +1,36 @@
 ---
 title: IPs e domínios usados pela Adobe Analytics
-description: Se o firewall da sua organização bloquear endereços IP originados do Adobe, use esta lista para atualizar as configurações do firewall.
+description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 translation-type: tm+mt
 source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 15%
+ht-degree: 87%
 
 ---
 
 
 # IPs e domínios usados pela Adobe Analytics
 
-Alguns endereços IP de firewall provenientes de configurações de dados do Adobe bloqueiam servidores ou servidores responsáveis pelo acesso aos dados. Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização.
+Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização.
 
 >[!IMPORTANT]
 >
->Embora a Adobe faça o melhor para manter esse documento atualizado, ela não pode garantir que a lista de intervalos IP permaneça a mesma. As possíveis mudanças no registro comercial, a expansão do registro da Internet requer mudanças no espaço de endereço IP do Adobe ou paradas de funcionamento do provedor de serviço da Internet.
+>Enquanto a Adobe faz o melhor para manter esse documento atualizado, não é possível garantir que a lista de intervalos IP permanecerá a mesma. As possíveis alterações incluem o crescimento e a expansão dos negócios, um registro da Internet exige alterações no espaço de endereço IP da Adobe ou um provedor de serviços de Internet deixa de funcionar.
 
 ## Permitir domínios de tecnologia dependentes
 
-A Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. O Adobe recomenda adicionar esses domínios à lista de permissões do firewall para obter uma experiência ideal com o Adobe Analytics.
+O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. A Adobe recomenda adicionar esses domínios à lista de permissões do firewall para obter uma experiência ideal com o Adobe Analytics.
 
 | Tecnologia | Domínio |
 | --- | --- |
-| Domínio Adobe Analytics | `adobe.com` |
+| Domínio do Adobe Analytics | `adobe.com` |
 | Domínio herdado do Adobe Analytics | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Armazenamento Blob do Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
+| Armazenamento Microsoft Azure Blob | `awaascicdprodva7.blob.core.windows.net` |
 | CDN do Microsoft Azure | `aauicdnva7.azureedge.net` |
 
 ## Todos os blocos de endereço IP da Adobe Analytics
@@ -50,9 +50,9 @@ A tabela a seguir abrange todos os servidores de coleta de dados padrão e os se
 | `208.67.40.0/22` |
 | `208.77.136.0/22` |
 
-## Coleta de dados e blocos de endereço IP FTP
+## Coleta de dados e blocos de endereço IP de FTP
 
-Se sua organização preferir permitir intervalos de endereço IP específicos, você poderá usar a tabela a seguir. Todos os intervalos desta seção estão incluídos na tabela acima.
+Se sua organização preferir permitir intervalos de endereços IP específicos, você pode usar a tabela a seguir. Todos os intervalos desta seção estão incluídos na tabela acima.
 
 | Localização | Intervalo IP (Notação CIDR) |
 | --- | --- |
@@ -113,7 +113,7 @@ Se sua organização preferir permitir intervalos de endereço IP específicos, 
 
 ## Hosts AWS
 
-A Adobe Analytics usa os Amazon Web Services como parte de seu processo de coleta de dados. A tabela a seguir inclui hosts AWS reservados para o Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
+A Adobe Analytics usa os Amazon Web Services como parte de seu processo de coleta de dados. A tabela a seguir inclui hosts AWS reservados para a Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
 
 | Localização | Host |
 | --- | --- |
