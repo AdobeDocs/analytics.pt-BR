@@ -1,9 +1,9 @@
 ---
 title: Variáveis da Lista
 description: Crie e configure variáveis de lista para usar em relatórios.
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
