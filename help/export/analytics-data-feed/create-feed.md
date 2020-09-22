@@ -44,7 +44,7 @@ O suporte SFTP para feeds de dados está disponível. Exige que um host SFTP, no
 
 ### S3
 
-Você pode enviar feeds diretamente para buckets do Amazon S3. Requer um nome de bucket, uma ID de chave de acesso e uma chave secreta. Consulte [Requisitos de nomenclatura de bucket do Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nos documentos do Amazon S3 para obter mais informações.
+Você pode enviar feeds diretamente para buckets do Amazon S3. Requer um nome de bucket, uma ID de chave de acesso e uma chave secreta. Consulte [Requisitos de nomenclatura de bucket do Amazon S3](https://docs.aws.amazon.com/pt_br/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nos documentos do Amazon S3 para obter mais informações.
 
 ![Informações de S3](assets/dest-s3.jpg)
 
