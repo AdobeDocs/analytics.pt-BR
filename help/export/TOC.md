@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [Visão geral dos conteúdos do feed de dados](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Pesquisa de evento de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Pesquisa de atributos móveis](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
@@ -38,7 +38,7 @@ ht-degree: 94%
    + [Visão geral do Data Warehouse](data-warehouse/data-warehouse.md)
    + [Adicionar grupo de usuários do Data Warehouse](data-warehouse/t-dw-group.md)
    + [Criar uma solicitação do Data Warehouse](data-warehouse/t-dw-create-request.md)
-   + [Tempo de delivery da solicitação](data-warehouse/delivery-time.md)
+   + [Solicitar tempo de delivery](data-warehouse/delivery-time.md)
    + [Arquivo de dados Tableau](data-warehouse/t-tableau.md)
    + [Classificar por métrica](data-warehouse/sorting-by-metric.md)
    + [Agendar uma solicitação recorrente](data-warehouse/dw-schedule-recurring.md)
@@ -71,6 +71,6 @@ ht-degree: 94%
       + [Enviar dados da Adobe para uma conta FTP externa com SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Enviar solicitações de Data Warehouse para servidores SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Conexão com a Adobe via SFTP sem uma senha](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Downloads da Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Downloads do Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [API do Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/home.html)
