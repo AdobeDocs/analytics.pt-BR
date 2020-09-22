@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '7821'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Novo recurso lançado em 16 de julho de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Novas predefinições de intervalo de datas | Foram adicionados 4 novos intervalos de datas: ([!UICONTROL Esta semana/mês/trimestre/ano (excluindo hoje)]). Isso permite escolher entre intervalos de datas que não incluem dados de dia parcial de hoje. |
+| Novas predefinições de intervalo de datas | Foram adicionados 4 novos intervalos de datas: ([!UICONTROL Esta semana/mês/trimestre/ano (exceto hoje)]). Agora, é possível escolher entre intervalos de datas que não incluem dados parciais do dia de hoje. |
 
 ## Junho de 2020
 
@@ -27,15 +27,15 @@ Novos recursos lançados em 18 de junho de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Funções de projeto para projetos compartilhados do Workspace | Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como “Pode visualizar”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Capacidade de co-editar projetos do Workspace | Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
-| Painel Quick Insights (25 de junho de 2020) | O painel do Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
-| Sobre a página do Workspace | A página Sobre o Workspace fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Adobe Analytics (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ela pode ser encontrado em Workspace > Ajuda > Sobre o Workspace. |
+| Sobre a página do Workspace | A página Sobre o Workspace fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Adobe Analytics (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ela pode ser encontrada em Workspace > Ajuda > Sobre o Workspace. |
 
 ## Maio de 2020
 
@@ -70,7 +70,7 @@ Novos recursos lançados em 20 de fevereiro de 2020.
 | Recurso | Descrição |
 |--- |--- |
 | Novo modelo do Workspace para organizações que usam o Cross-Device Analytics | Esse modelo mostra como o CDA é eficaz ao unir visitas e informa você sobre dimensões e métricas exclusivas do CDA. É necessário um conjunto de relatórios que use o CDA. Consulte [Configuração de análises entre dispositivos](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/cda-setup.html) para obter mais informações. |
-| Novas teclas de atalho no Workspace | <ul><li>Recolher/expandir todos os painéis: `alt + m`</li><li>Recolher/expandir painel ativo: `alt + ctrl + m`</li><li>Pesquisar painel esquerdo: `ctrl + /`</li><li>Move para o próximo painel: `alt + Right Key`</li><li>Mover para o painel anterior: `alt + Left Key`</li></ul>[Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Novas teclas de atalho no Workspace | <ul><li>Recolher/expandir todos os painéis: `alt + m`</li><li>Recolher/expandir painel ativo: `alt + ctrl + m`</li><li>Pesquisar painel esquerdo: `ctrl + /`</li><li>Mover para o próximo painel: `alt + Right Key`</li><li>Mover para o painel anterior: `alt + Left Key`</li></ul>[Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Outras melhorias na Workspace | <ul><li>Quando um painel ou uma visualização é colocada no Workspace, o painel esquerdo muda automaticamente para componentes a fim de oferecer um fluxo de trabalho mais simples.</li><li>Os componentes do modelo agora podem ser ativados (por exemplo, marcados com tags, marcados como favoritos, aprovados).</li><li>As listas de segmentos e métricas filtradas oferecem o botão + para adicionar um novo componente se você não encontrar o que precisa.</li></ul> |
 | Depurador do Workspace | O depurador de espaço de trabalho foi adicionado ao menu Ajuda, fornecendo uma maneira mais simples de habilitá-lo para depurar solicitações de Workspace. [Saiba mais...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -261,7 +261,7 @@ Novos recursos e melhorias lançados em 19 de julho de 2018.
    <td colname="col2"> <p>Quando possível, agora exibimos os totais das métricas calculadas, inclusive de porcentagens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nova  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > predefinição de </a>intervalo de datas </b> </p> </td> 
+   <td colname="col1"> <p><b>Nova <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > predefinição de </a>intervalo de datas </b> </p> </td> 
    <td colname="col2"> <p>Adicionado 'Últimas 13 semanas completas' às predefinições de intervalo de datas no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -345,7 +345,7 @@ Novos recursos e melhorias lançados em 12 de abril de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Nova configuração de linha</a> </p> </td> 
-   <td colname="col2"> <p>A nova configuração <span class="uicontrol">Calcular porcentagem por linha</span> força a tabela de forma livre a calcular as porcentagens de célula na linha, e não na coluna. Isso é especialmente útil para as porcentagens de tendência, como a tendência de como um item de dimensão é exibido em relação ao restante ao longo do tempo. Está ativada por padrão se clicamos no ícone <span class="uicontrol">Visualizar</span>. </p> </td> 
+   <td colname="col2"> <p>A nova configuração <span class="uicontrol">Calcular porcentagem por linha</span> força a tabela de forma livre a calcular as porcentagens de célula na linha, e não na coluna. Essa configuração é útil para porcentagens de tendência como a tendência de um item de dimensão em relação ao restante ao longo do tempo. Está ativada por padrão se clicamos no ícone <span class="uicontrol">Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuração da visualização “100% empilhada”</a> </p> </td> 
@@ -467,7 +467,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">Contém a frase </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">Não contém nenhum termo </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">Não contém a frase </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Igual </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Igual a </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">Não é igual </li> 
      <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">Começa com </li> 
      <li id="li_A73F54DFBAAB44D4A4134342A3124E47">Termina com </li> 
@@ -515,7 +515,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alterações a Nenhum/Não especificado </p> </td> 
-   <td colname="col2"> <p>Alteração de como Nenhum/Não especificado funciona no Analysis Workspace para que seja consistente com Relatórios e análises, o Construtor de segmentos e o menu de itens de dimensão no Analysis Workspace. </p> <p>Isso significa que o valor será exibido como “Não especificado” em vez de “Nenhum” na maioria dos projetos no Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Alteração de como Nenhum/Não especificado funciona no Analysis Workspace para que seja consistente com o Reports &amp; Analytics, o Construtor de segmentos e o menu de itens de dimensão no Analysis Workspace. </p> <p>Isso significa que o valor será exibido como “Não especificado” em vez de “Nenhum” na maioria dos projetos no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1047,7 +1047,7 @@ Novos recursos lançados em 21 de abril de 2016:
 
 ## Janeiro de 2016
 
-Novos recursos lançados em 21 de janeiro de 2016.
+Novos recursos lançados em 21 de janeiro de 2016:
 
 * [Desfazer ações](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [Link para o projeto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
