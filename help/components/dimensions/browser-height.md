@@ -1,16 +1,16 @@
 ---
 title: Altura do navegador - Classificada
 description: A altura da janela do navegador em pixels.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Altura do navegador
+# Altura da janela do navegador
 
 A dimensão “Altura do navegador - classificada” exibe a altura da janela do navegador, classificada em grupos de 100 pixels. Essa dimensão é útil para entender onde está a &quot;dobra&quot; no site para os visitantes. Entender onde a dobra está pode permitir a otimização do conteúdo para exibição.
 
@@ -28,6 +28,6 @@ Essa dimensão recupera dados da [`bh` sequência de consulta](/help/implement/v
 
 A Adobe mantém a altura do navegador por uma visita. Se a altura do navegador for ajustada no meio da visita, o ajuste não será registrado.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem todas as alturas coletadas do navegador, classificadas em grupos de 100 pixels. For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
+Os itens de dimensão incluem todas as alturas do navegador coletadas, classificadas em grupos de 100 pixels. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.
