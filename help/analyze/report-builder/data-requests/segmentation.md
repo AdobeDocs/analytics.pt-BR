@@ -75,8 +75,8 @@ Os filtros disponíveis incluem:
 
 | Nome do filtro | Descrição |
 |---|---|
-| Tags | Permite que você filtre por segmentos com tags específicos. Observe que os filtros de tags usam o operador E. Se você verificar duas tags, o painel direito mostra segmentos que foram marcados com **ambas** as tags. |
-| Proprietários | Permite que você filtre segmentos por proprietário. Observe que os filtros Proprietários usam o operador OU. Se você marcar dois proprietários, o painel direito mostra segmentos de propriedade de **qualquer** proprietário. |
+| Tags | Permite que você filtre por segmentos com tags específicos. Observe que os filtros de tags usam o operador AND. Se você verificar duas tags, o painel direito mostra segmentos que foram marcados com **ambas** as tags. |
+| Proprietários | Permite que você filtre segmentos por proprietário. Observe que os filtros Proprietários usam o operador OR. Se você marcar dois proprietários, o painel direito mostra segmentos de propriedade de **qualquer** proprietário. |
 | Outros filtros > Somente o *nome do conjunto de relatórios* | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de segmentos em [!DNL marketing reports & analytics] e, em seguida, exibir o filtro Avançado no [!DNL report builder], o filtro Avançado exibirá o segmento somente para o conjunto de relatórios selecionados. |
 | Outros filtros > Meus | Mostra todos os seus segmentos. |
 | Outros filtros > Compartilhados comigo | Mostra todos os segmentos que outros compartilharam com você. |
