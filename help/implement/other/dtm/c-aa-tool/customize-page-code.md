@@ -1,12 +1,12 @@
 ---
 description: Use descrições de campo no Dynamic Tag Management para personalizar o código da página ao implantar o Analytics.
 keywords: Dynamic Tag Management;customize page code;open editor;execute
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Personalizar código de página
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
 
