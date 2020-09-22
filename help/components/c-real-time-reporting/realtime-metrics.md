@@ -3,8 +3,11 @@ description: Lista as métricas e dimensões suportadas pelos relatórios em tem
 title: Métricas e dimensões em tempo real compatíveis
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -19,8 +22,8 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Pedidos
 * Unidades
 * Carrinhos
-* Exibições do carrinho
-* Finalizações
+* Visualizações do carrinho
+* Check-outs
 * Adições ao carrinho
 * Remoções do carrinho
 * Instâncias
@@ -36,7 +39,7 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Região de GeoSegmentation
 * Cidade de GeoSegmentation
 * DMA dos EUA de GeoSegmentation
-* Product
+* Produto
 * Servidor
 * Seção do site
 * Código de rastreamento
