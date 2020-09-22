@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 48%
+ht-degree: 71%
 
 ---
 
@@ -32,10 +32,10 @@ O AppMeasurement cria um objeto de imagem na página HTML e, em seguida, o naveg
 
 ## Como invalidar ou remover uma implementação do Analytics?
 
-Às vezes, uma organização gostaria de remover uma implementação devido à expiração do contrato ou reduzir o número de chamadas do servidor.
+Às vezes, uma organização quer remover uma implementação devido à expiração do contrato ou reduzir o número de chamadas do servidor.
 
-* **Implementações usando o Launch**: Desative ou desinstale a extensão do Adobe Analytics na guia [!UICONTROL Extensões] e, em seguida, publique.
-* **Implementações** herdadas do AppMeasurement: Substitua todo o conteúdo do `s_code.js` arquivo pela seguinte linha de código:
+* **Implementações usando o Launch**: desative ou desinstale a extensão do Adobe Analytics na guia [!UICONTROL Extensões] e, em seguida, publique.
+* **Implementações herdadas do AppMeasurement**: substitua todo o conteúdo do arquivo `s_code.js` pela seguinte linha de código:
 
 ```js
 var s = new Object();
@@ -45,9 +45,9 @@ var s = new Object();
 >
 >Não:
 >
->* Altere o conjunto de relatórios para um valor inválido, pois isso cria carga desnecessária nos servidores do Adobe.
->* Remova o `s_code.js` arquivo completamente, a menos que você também remova todas as referências ao arquivo em cada página.
->* Altere a `trackingServer` variável para apontar para longe de Adobe. O AppMeasurement ainda envia solicitações de imagem, que retornam 404 erros.
+>* Altere o conjunto de relatórios para um valor inválido, pois uma carga desnecessária será criada nos servidores da Adobe.
+>* Remova o arquivo `s_code.js` completamente, a menos que você também remova todas as referências ao arquivo em cada página.
+>* Altere a variável `trackingServer` para apontar para longe da Adobe. O AppMeasurement ainda envia solicitações de imagem, que retornam erros 404.
 
 
 ## Executei o AppMeasurement por meio de um analisador de código, e ele sinalizou seu uso como `Math.random()` um risco potencial de segurança. É `Math.random()` usado com dados confidenciais?
