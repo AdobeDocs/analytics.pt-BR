@@ -6,6 +6,9 @@ title: Implementação manual do Adobe Analytics (herdado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '423'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Para obter informações sobre o gerenciamento da implementação automática, c
 Se você deseja alterar uma configuração manual para automática, edite uma ferramenta e clique em **[!UICONTROL Habilitar a configuração automática]**.
 
 1. Baixe o código de medição do Analytics:
-   1. No Analytics, clique em **[!UICONTROL Admin**[!UICONTROL  > ]**Gerenciador de código]**.
+   1. No Analytics, clique em **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de código]**.
    1. Clique no **[!UICONTROL JavaScript (novo)]** para baixar o código localmente.
 1. No [!UICONTROL Dynamic Tag Management], [crie uma propriedade da Web](/help/implement/other/dtm/t-create-web-property.md).
 
