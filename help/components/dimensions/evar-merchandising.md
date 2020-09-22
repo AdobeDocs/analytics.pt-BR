@@ -1,11 +1,11 @@
 ---
 title: eVar (merchandising)
 description: Variáveis personalizadas que se vinculam à dimensão de produtos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Consulte [eVars de merchandising](/help/implement/vars/page-vars/evar-merchandis
 A métrica [Instâncias](../metrics/instances.md) não é recomendada para usar em variáveis de merchandising.
 
 * Para variáveis de merchandising que utilizam sintaxe de produto, as instâncias não são aumentadas.
-* Para variáveis de merchandising que utilizam a sintaxe de variável de conversão, as instâncias são contabilizadas cada vez que a eVar é definida. However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* Para variáveis de merchandising que utilizam a sintaxe de variável de conversão, as instâncias são contabilizadas cada vez que a eVar é definida. No entanto, ela atribui ao item de dimensão `"None"` a menos que os seguintes casos aconteçam na mesma ocorrência:
    * A eVar de merchandising é definida com um valor.
    * A variável `products` é definida com um valor.
    * Um evento de vinculação é configurado.
