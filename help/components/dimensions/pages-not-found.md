@@ -1,18 +1,18 @@
 ---
 title: Páginas não encontradas
 description: URLs que retornaram um erro ao site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Páginas não encontradas
 
-*Esta página de ajuda descreve como a métrica &quot;Páginas não encontradas&quot; funciona como uma dimensão. Consulte a métrica[Páginas não encontradas](../metrics/pages-not-found.md)para obter mais informações.*
+*Esta página de ajuda descreve como a métrica &quot;Páginas não encontradas&quot; funciona como uma dimensão. Consulte a métrica [Páginas não encontradas](../metrics/pages-not-found.md) para obter mais informações.*
 
 A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Essa dimensão é útil para diminuir o número de erros que o visitante recebe no site.
 
@@ -21,8 +21,8 @@ A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Es
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados de [`pageType` e das `g` sequências de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. Se a sequência de consulta `pageType` for igual a `errorPage`, a sequência de consulta `g` (URL da página) será registrada. O AppMeasurement coleta esses dados usando a variável [`pageType`](/help/implement/vars/page-vars/pagetype.md). Se a variável `pageType` não estiver definida ou programada como algo diferente de `errorPage`, nenhum dado para essa dimensão será coletado.
+Essa dimensão recupera dados de [`pageType` e das `g` sequências de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. Se a sequência de consulta `pageType` for igual a `errorPage`, a sequência de consulta `g` (URL da página) será registrada. O AppMeasurement coleta esses dados usando a variável [`pageType`](/help/implement/vars/page-vars/pagetype.md). Se a variável `pageType` não estiver definida ou programada como algo diferente de `errorPage`, nenhum dado para essa dimensão será coletado.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem os URLs das páginas do site em que ocorreu um erro.
+Os itens de dimensão incluem os URLs das páginas do site em que ocorreu um erro.
