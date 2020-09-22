@@ -3,8 +3,11 @@ description: Uma introdução ao aplicativo para iPad.
 title: Adobe Analytics for iOS
 topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
