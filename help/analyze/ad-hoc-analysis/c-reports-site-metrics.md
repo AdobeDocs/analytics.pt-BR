@@ -24,7 +24,7 @@ Exibe informações quantitativas sobre o seu site, como quantas vezes os visita
 
 Exibe informações quantitativas sobre o seu site, como quantas vezes os visitantes exibiram determinadas páginas, o número de compras gerais realizadas em páginas específicas, quando as visitas ocorreram e outros dados quantitativos similares. Cada um desses relatórios é uma métrica que pode ser colocada em outros relatórios baseados em itens.
 
-Relatórios de métrica são   tendência ao longo do tempo. Você pode aplicar granularidade de tempo e dia da semana nesses relatórios. Como alternativa, você pode analisar o tempo gasto no seu site, as compras, a receita e métricas similares.
+Relatórios de métrica são tendência ao longo do tempo. Você pode aplicar granularidade de tempo e dia da semana nesses relatórios. Como alternativa, você pode analisar o tempo gasto no seu site, as compras, a receita e métricas similares.
 
 Os relatórios de métricas do site a seguir estão disponíveis no menu [!UICONTROL Métricas do site].
 
@@ -107,7 +107,7 @@ c_reports_purchases.xml
 * **Receita**: permite visualizar o lucro bruto por períodos selecionados. Os exemplos podem incluir receitas durante o mês de março, as compras feitas na semana passada, ou a receita de hoje.
 * **Pedidos**: esse relatório mostra o número de pedidos feitos no site durante o intervalo selecionado. Os pedidos podem conter diversos produtos.
 * **Unidades**: mostra todas as unidades pedidas para o intervalo selecionado.
-* **Funil de conversão de compra**: ideal para mostrar eventos de conversão no site se eles ocorrem em uma ordem específica, como em um ambiente de varejo. Um relatório de funil mostra as métricas de conversão para cada etapa do processo de conversão, assim como os pedidos, a receita e as unidades. 
+* **Funil de conversão de compra**: ideal para mostrar eventos de conversão no site se eles ocorrem em uma ordem específica, como em um ambiente de varejo. Um relatório de funil mostra as métricas de conversão para cada etapa do processo de conversão, assim como os pedidos, a receita e as unidades.
 
 ## Relatório de carrinho de compras {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -126,7 +126,7 @@ Você pode utilizar o [!UICONTROL Relatório do carrinho de compras] para:
 
 ## Relatório de eventos personalizados {#concept_9337B2FB8A3F417BA8689FE7FD64629F}
 
-As ações de conversão do site que você deseja que os visitantes executem. Essas ações podem ser um registro, uma assinatura, o preenchimento de um formulário de perspectiva de venda, um chat, uma compra, uma reserva ou uma pesquisa concluída. 
+As ações de conversão do site que você deseja que os visitantes executem. Essas ações podem ser um registro, uma assinatura, o preenchimento de um formulário de perspectiva de venda, um chat, uma compra, uma reserva ou uma pesquisa concluída.
 
 <!-- 
 
