@@ -27,7 +27,7 @@ Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métr
 
 Para **filtrar** as métricas calculadas, clique no ícone Filtrar:  ![](assets/segment_filter.png)
 
-  A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
+. A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
 
 Os filtros disponíveis incluem:
 
@@ -35,9 +35,9 @@ Os filtros disponíveis incluem:
 
 | Nome do filtro | Descrição |
 |---|---|
-| Tags | Permite aplicar os filtros nas métricas calculadas com tags específicas. Observe que os filtros de tags usam o operador E. Caso você verifique as duas tags, o painel direito mostrará as métricas que foram marcadas com **ambas** as tags. |
+| Tags | Permite aplicar os filtros nas métricas calculadas com tags específicas. Observe que os filtros de tags usam o operador AND. Caso você verifique as duas tags, o painel direito mostrará as métricas que foram marcadas com **ambas** as tags. |
 | Conjuntos de relatórios | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de métricas calculadas em [!DNL Reports & Analytics] e, em seguida, exibir o filtro Avançado no [!DNL Report Builder], o filtro Avançado exibirá as métricas calculadas somente para o conjunto de relatórios selecionados. |
-| Proprietários | Permite que filtrar métricas por proprietário. Observe que os filtros Proprietários usam o operador OU. Se você marcar dois proprietários, o painel direito exibe as métricas de propriedade de **qualquer** proprietário. |
+| Proprietários | Permite que filtrar métricas por proprietário. Observe que os filtros Proprietários usam o operador OR. Se você marcar dois proprietários, o painel direito exibe as métricas de propriedade de **qualquer** proprietário. |
 | Outros filtros > Aprovado | Mostra todos os segmentos métricas aprovadas. |
 | Outros filtros > Favoritos | Mostra todas as métricas que você marcou como Favoritos. |
 | Outros filtros > Meus | Mostra todas as suas métricas. |
