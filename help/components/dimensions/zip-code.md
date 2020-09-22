@@ -1,11 +1,11 @@
 ---
 title: Código postal
 description: O código postal do visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ A [!UICONTROL Opção código postal] em [Configurações gerais da Conta](/help
 >
 >A configuração do conjunto de relatórios é essencial se você quiser ter controle total sobre como preencher essa dimensão.
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem o CEP ou código postal do visitante.
+Os itens de dimensão incluem o CEP ou código postal do visitante.
