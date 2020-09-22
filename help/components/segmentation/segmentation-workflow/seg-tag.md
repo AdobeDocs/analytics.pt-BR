@@ -3,9 +3,9 @@ description: No Gerenciador de segmentos, a marcação de segmentos permite que 
 title: Marcar segmentos
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Todos os usuários podem criar tags para segmentos e aplicar uma ou mais tags a 
 * Tags com base em **nomes de equipe**, como Marketing social, Marketing móvel.
 * Tags de **projeto** (tags de análise), como análises de página de entrada.
 * Tags de **categoria**: masculino; geografia.
-* **Tags de fluxo de trabalho: para ser aprovado; auxiliar para (uma unidade de negócios específica).**
+* Tags de **fluxo de trabalho**: para ser aprovado; preparado para (uma unidade de negócios específica).
 
 1. No Gerenciamento de segmentos, marque a caixa de seleção ao lado do segmento que você deseja marcar. A barra de ferramentas de gerenciamento do segmento aparece:
 
@@ -37,6 +37,5 @@ Todos os usuários podem criar tags para segmentos e aplicar uma ou mais tags a 
 1. Clique em **[!UICONTROL Tag]** novamente e marque o segmento.
 
 A tag agora deve aparecer na coluna Tags. (Clique no ícone de engrenagem na parte superior direita para gerenciar suas colunas).
-
 
 Também é possível filtrar tags em **[!UICONTROL Filtros]** > **[!UICONTROL Tags]**.
