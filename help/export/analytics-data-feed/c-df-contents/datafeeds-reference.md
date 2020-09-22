@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '3667'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `geo_region` | Nome do estado ou região de origem da ocorrência, com base no IP. A Adobe formou uma parceria com a Digital Envoy para corresponder o endereço IP ao estado/região. | char(32) |
 | `geo_zip` | O código postal de origem da ocorrência, com base no IP. A Adobe formou uma parceria com a Digital Envoy para corresponder o endereço IP ao código postal. | varchar(16) |
 | `hier1 - hier5` | Usado em variáveis de hierarquia. Contém uma lista delimitada de valores. O delimitador é escolhido nas configurações do conjunto de relatórios. | varchar(255) |
-| `hit_source` | Indica a origem da ocorrência. As fontes de ocorrência 1, 2 e 6 são faturadas. <br>1: Solicitação de imagem padrão sem carimbo de data e hora <br>2: Solicitação de imagem padrão com carimbo de data e hora <br>3: Carregamento de fonte de dados ao vivo com carimbos de data e hora <br>4: Não utilizado <br>5: Upload de fonte de dados genérica <br>6: Carregamento completo da fonte de dados de processamento <br>7: Carregamento da fonte de dados TransactionID <br>8: Deixar de ser utilizado; Versões anteriores das fontes de dados Adobe Advertising Cloud <br>9: Deixar de ser utilizado; Métricas de resumo da Adobe Social <br>10: encaminhamento pelo lado do servidor Audience Manager usado | tinyint unsigned |
+| `hit_source` | Indica a origem da ocorrência. As fontes de ocorrência 1, 2 e 6 são faturadas. <br>1: Solicitação de imagem padrão sem carimbo de data e hora <br>2: Solicitação de imagem padrão com carimbo de data e hora <br>3: Carregamento de fonte de dados ao vivo com carimbos de data e hora <br>4: Não utilizado <br>5: Upload de fonte de dados genérica <br>6: Carregamento completo da fonte de dados de processamento <br>7: Carregamento da fonte de dados TransactionID <br>8: Deixar de ser utilizado; Versões anteriores das fontes de dados da Adobe Advertising Cloud <br>9: Deixar de ser utilizado; Métricas de resumo do Adobe Social <br>10: Encaminhamento do lado do servidor do Audience Manager usado | tinyint unsigned |
 | `hit_time_gmt` | O carimbo de data e hora dos servidores de coleta de dados da Adobe de ocorrência recebeu a ocorrência, com base no horário Unix. | int |
 | `hitid_high` | Usado em combinação com hitid_low para identificar uma ocorrência de maneira exclusiva. | bigint unsigned |
 | `hitid_low` | Usado em combinação com hitid_high para identificar uma ocorrência de maneira exclusiva. | bigint unsigned |
@@ -132,7 +132,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `mobileltv` | Não está mais em uso. Preenchido pelos métodos trackLifetimeValue. | varchar(255) |
 | `mobilemessagebuttonname` | Coletada da variável de dados de contexto a.<span>message</span>.button.id. Usado para mensagens no aplicativo para identificar o botão que fechou a mensagem. | varchar(100) |
 | `mobilemessageid` | ID da mensagem no aplicativo | varchar(255) |
-| `mobilemessageonline` | Mensagens no aplicativo on-line | varchar(255) |
+| `mobilemessageonline` | Mensagens no aplicativo online | varchar(255) |
 | `mobilemessagepushoptin` | Coletada da variável de dados de contexto a.push.optin. Defina como &quot;true&quot; quando o usuário optar por enviar mensagens de push; caso contrário, o valor será &quot;false&quot;. | varchar(255) |
 | `mobilemessagepushpayloadid` | Coletada da variável de dados de contexto a.push.payloadid. Usado em mensagens de push como o identificador de carga. | varchar(255) |
 | `mobileosenvironment` | Coletada da variável de dados de contexto a.OSEnvironment. Aponta o ambiente do SO, como Android ou iOS. | varchar(255) |
@@ -200,7 +200,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `socialownedpropertypropertyvsapp` | Não está mais em uso. Propriedade social vs aplicativo | varchar(255) |
 | `state` | Variável de estado. | varchar(50) |
 | `stats_server` | Não está em uso. Servidor interno da Adobe que processou o hit. | char(30) |
-| `t_time_info` | Horário local do visitante. O formato é:  M/D/AAAA HH:MM:SS Mês (0-11, 0=Janeiro) Deslocamento do fuso horário (em minutos) | varchar(100) |
+| `t_time_info` | Horário local do visitante. O formato é: M/D/AAAA HH:MM:SS Mês (0-11, 0=Janeiro) Deslocamento do fuso horário (em minutos) | varchar(100) |
 | `tnt` | Usado em integrações do Adobe Target. | texto |
 | `tnt_action` | Usado em integrações do Adobe Target. | texto |
 | `tnt_post_vista` | Não está mais em uso. Em vez disso, use post_tnt. | texto |
@@ -213,7 +213,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `user_hash` | Não está em uso. Hash na ID do report suite. Em vez disso, use username. | int unsigned |
 | `user_server` | Variável usada na dimensão Servidor. | varchar(100) |
 | `userid` | Não está em uso. A ID numérica da ID do conjunto de relatórios. Em vez disso, use username. | int unsigned |
-| `username` | A ID do conjunto de relatórios  para a ocorrência. | char(40) |
+| `username` | A ID do conjunto de relatórios para a ocorrência. | char(40) |
 | `va_closer_detail` | Variável usada na dimensão Detalhes do último contato. | varchar(255) |
 | `va_closer_id` | ID numérica que identifica a dimensão Canal de último contato. A pesquisa desta ID pode ser encontrada no Gerenciador de canais de marketing. | tinyint unsigned |
 | `va_finder_detail` | Variável usada na dimensão Detalhes do primeiro contato. | varchar(255) |
