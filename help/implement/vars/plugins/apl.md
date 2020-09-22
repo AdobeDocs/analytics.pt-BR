@@ -299,7 +299,7 @@ s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 ```
 
-Como os dois argumentos delimitadores são diferentes, o valor transmitido será delimitado pelo primeiro argumento delimitador (&quot; &quot;) e unido pelo segundo argumento delimitador (&quot;-&quot;).
+Como os dois argumentos delimitadores são diferentes, o valor transmitido será delimitado pelo primeiro argumento delimitador (&quot;|&quot;) e unido pelo segundo argumento delimitador (&quot;-&quot;).
 
 ## Histórico da versão
 
