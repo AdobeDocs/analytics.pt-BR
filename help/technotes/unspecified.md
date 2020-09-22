@@ -1,26 +1,26 @@
 ---
-description: Vários relatórios no Adobe Analytics podem mostrar Não especificado, Nenhum, Outro ou Desconhecido, dependendo do relatório específico exibido. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
-title: Não especificado, Nenhum, Outro e Desconhecido no relatórios
-translation-type: tm+mt
+description: Vários relatórios do Adobe Analytics podem mostrar Não especificado, Nenhum, Outros ou Desconhecido, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível.
+title: Não especificado, Nenhum, Outros e Desconhecido nos relatórios
+translation-type: ht
 source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# &quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outro&quot; e &quot;Desconhecido&quot; no relatórios
+# “Não especificado”, “Nenhum”, “Outros” e “Desconhecido” nos relatórios
 
 Vários relatórios do Adobe Analytics podem mostrar “Não especificado”, “Outros” ou “Desconhecido”, dependendo do relatório específico visualizado. Em geral, esse item da linha significa que a variável não foi definida ou não está disponível. A lista a seguir mostra como cada relatório pode ter um destes itens de linha.
 
-## &quot;Não especificado&quot; (ou &quot;Nenhum&quot;) no relatórios
+## “Não especificado” (ou “Nenhum”) nos relatórios
 
-“Não especificado” é um item de linha bastante comum nos relatórios. Também é frequentemente chamada de &quot;Nenhum&quot;.
+“Não especificado” é um item de linha bastante comum nos relatórios. Também é frequentemente chamada de “Nenhum”.
 
 * **Um evento é acionado sem uma variável de conversão:** por exemplo, um usuário entra em seu site e efetua uma compra sem nenhum valor em eVar1. Se você exibir os pedidos usando a dimensão eVar1, não há um valor para ao pedido. Portanto, é atribuído automaticamente a “Não especificado”.
 * **Dados não classificados nos relatórios de classificação:** ao exibir dados de classificação, qualquer valor sem dados associados à classificação específica retorna “Não especificado”. Para resolver esse problema, classifique o valor da variável pai.
-* **Relatórios de detalhamento nos quais somente uma variável foi acionada:** quando você aplica um detalhamento a uma variável, cada instância dessa variável deve ser contabilizada. Se a segunda variável não foi vista ou se persistiu em uma ocorrência anterior, o item de dimensão é &quot;Não especificado&quot;.
+* **Relatórios de detalhamento nos quais somente uma variável foi acionada:** quando você aplica um detalhamento a uma variável, cada instância dessa variável deve ser contabilizada. Se a segunda variável não foi vista ou se persistiu em uma ocorrência anterior, o item de dimensão é “Não especificado”.
 * **Ocorrências não móveis em relatórios móveis:** quaisquer hits não móveis em relatórios para dispositivos móveis são listadas como “Não especificado” (“Não móvel” no Reports and Analytics).
 
 ## “Outros” em relatórios
