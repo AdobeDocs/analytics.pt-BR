@@ -2,11 +2,11 @@
 description: 'null'
 title: Otimizar o desempenho do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ O intervalo de dados solicitado no decorrer do projeto influenciará o desempenh
 
 **Práticas recomendadas para intervalos de datas**
 
-Quando possível, não insira mais dados do que o necessário. Restrinja o calendário do painel às datas relevantes para a sua análise ou use componentes de intervalo de datas (componentes roxos) nas tabelas de forma livre. Os intervalos de datas usados em uma tabela substituem o intervalo de datas do painel. Por exemplo, você pode adicionar mês passado, semana passada e ontem às colunas da tabela para solicitar esses intervalos de dados específicos. Para mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Quando possível, não insira mais dados do que o necessário. Restrinja o calendário do painel às datas relevantes para a sua análise ou use componentes de intervalo de datas (componentes roxos) nas tabelas de forma livre. Os intervalos de datas usados em uma tabela substituem o intervalo de datas do painel. Por exemplo, você pode adicionar mês passado, semana passada e ontem às colunas da tabela para solicitar esses intervalos de dados específicos. Para obter mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
 
-Minimize o número de comparações ano a ano usadas no projeto. Quando uma comparação ano após ano é calculada, ela analisa os 13 meses completos de dados entre os meses de juros. Isso tem o mesmo impacto que alterar o intervalo de datas do painel para durar 13 meses.
+Minimize o número de comparações ano a ano usadas no projeto. Quando uma comparação ano a ano é calculada, ela analisa os 13 meses completos de dados entre os meses de interesse. Essa ação tem o mesmo impacto que alterar o intervalo de datas do painel para durar 13 meses.
 
 ## Número de visualizações
 
-O número de visualizações contidas em um projeto afetará a resposta geral do Analysis Workspace. Isso ocorre porque cada visualização, seja uma tabela ou gráfico, tem uma fonte de dados que precisa ser solicitada.
+O número de visualizações contidas em um projeto afetará a capacidade geral de resposta do Analysis Workspace. Isso ocorre porque cada visualização, seja uma tabela ou gráfico, tem uma fonte de dados que precisa ser solicitada.
 
 **Prática recomendada para o número de visualizações**
 
@@ -81,14 +81,14 @@ Não tente adicionar tudo a um só projeto e, sim, criar projetos distintos que 
 
 Caso deseje mais organização nos projetos, lembre-se de que a [vinculação direta](https://www.youtube.com/watch?v=6IOEewflG2U) ao seu projeto é uma opção. Crie um índice interno de projetos de forma que os participantes possam encontrar o que precisam mais facilmente.
 
-Se vários painéis forem necessários em um projeto, recolha os painéis antes de salvar e compartilhar. Quando um projeto é carregado, o Analysis Workspace somente carregará o conteúdo dos painéis expandidos. Os painéis reduzidos não serão carregados até que o usuário os expanda. Essa abordagem auxilia de duas formas:
+Caso necessite de muitos painéis em um projeto, reduza os painéis antes de salvar e compartilhar. Quando um projeto é carregado, o Analysis Workspace somente carregará o conteúdo dos painéis expandidos. Os painéis reduzidos não serão carregados até que o usuário os expanda. Essa abordagem auxilia de duas formas:
 
 * Os painéis reduzidos são salvos em um tempo de carregamento geral de um projeto
 * Os painéis reduzidos são uma boa forma de organizar seus projetos de maneira lógica para o consumidor do relatório
 
 ## Tamanho do conjunto de relatórios
 
-O tamanho do conjunto de relatórios pode parecer um fator determinante, mas na verdade ele representa um pequeno papel no desempenho do projeto, devido ao processamento de dados da Adobe.  Pode haver exceções a esta regra; consulte sua equipe de implementação ou um especialista em Adobe para determinar se há melhorias de implementação que podem ser feitas para melhorar a experiência geral no Adobe Analytics.
+O tamanho do conjunto de relatórios pode parecer um fator determinante, mas na verdade ele representa um pequeno papel no desempenho do projeto, devido ao processamento de dados da Adobe.. Pode haver exceções a esta regra; consulte sua equipe de implementação ou um especialista em Adobe para determinar se há melhorias de implementação que podem ser feitas para melhorar a experiência geral no Adobe Analytics.
 
 ## Número de usuários simultâneos do Analysis Workspace
 
