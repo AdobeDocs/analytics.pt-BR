@@ -1,28 +1,28 @@
 ---
 title: Macros do Visual Basic no Report Builder
-description: Expanda a funcionalidade de pastas de trabalho e Report Builder do Excel usando o VBA.
-translation-type: tm+mt
+description: Expanda a funcionalidade de pastas de trabalho do Excel e do Report Builder usando VBA.
+translation-type: ht
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Macros do Visual Basic no Report Builder
 
-As macros VBA, também conhecidas como macros do Visual Basic, permitem manipular pastas de trabalho de maneiras que o Microsoft Excel não pode usar sozinho. O Visual Basic tem acesso à pasta de trabalho, ao Excel e até mesmo ao Windows.
+As macros VBA, também conhecidas como macros do Visual Basic, permitem manipular pastas de trabalho de maneiras que o Microsoft Excel não é capaz. O Visual Basic tem acesso à pasta de trabalho, ao Excel e até mesmo ao Windows.
 
-Adobe suporta três métodos de API de Report Builder. Verifique se a versão mais recente do Construtor de relatórios está instalada e faça logon antes de executar qualquer macros.
+A Adobe aceita três métodos de API do Report Builder. Verifique se a versão mais recente do Report Builder está instalada e faça logon antes de executar uma macro.
 
 >[!IMPORTANT]
 >
->Por motivos de segurança, não é possível agendar uma pasta de trabalho que contenha uma macro.
+>Por motivos de segurança, não é possível agendar uma pasta de trabalho que contenha uma macro
 
 ## `RefreshAllReportBuilderRequests()`
 
-The `RefreshAllReportBuilderRequests()` macro refreshes all Report Builder requests in the active workbook. Ele é start chamando o Report Builder COM Add-in por meio de sua ID de produto e, em seguida, chama o comando da `RefreshAllRequests()` API:
+A macro `RefreshAllReportBuilderRequests()` atualiza todas as solicitações do Report Builder na pasta de trabalho ativa. Ela é iniciada chamando o suplemento COM do Report Builder por meio de sua ID de produto e, em seguida, chama o comando da API `RefreshAllRequests()`:
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -39,7 +39,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-The `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro refreshes all Report Builder requests in the active worksheet. A chamada de `RefreshWorksheetRequests()` API usa um objeto de planilha como argumento. Você pode usar esta chamada para qualquer planilha que contenha solicitações de Report Builder:
+A macro `RefreshAllReportBuilderRequestsInActiveWorksheet()` atualiza todas as solicitações do Report Builder na planilha ativa. A chamada de API `RefreshWorksheetRequests()` usa um objeto de planilha como argumento. Você pode usar esta chamada para qualquer planilha que contenha solicitações do Report Builder:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -56,7 +56,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-The `RefreshAllReportBuilderRequestsInCellsRange()` macro refreshes all Report Builder requests whose cell outputs intersect the specified range of cells. O intervalo de células usado neste exemplo aponta para o intervalo `B1:B54` da planilha &quot;Dados&quot; na pasta de trabalho ativa. A expressão de intervalo suporta todas as expressões de intervalo do Excel suportadas:
+A macro `RefreshAllReportBuilderRequestsInCellsRange()` atualiza todas as solicitações do Report Builder cujos resultados da célula se cruzam com o intervalo de células especificado. O intervalo de células usado neste exemplo aponta para o intervalo `B1:B54` da planilha “Dados” na pasta de trabalho ativa. A expressão de intervalo aceita todas as expressões de intervalo do Excel compatíveis:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()
