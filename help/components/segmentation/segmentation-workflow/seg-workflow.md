@@ -3,9 +3,9 @@ description: Descreve um fluxo de trabalho sugerido para segmentos criados com o
 title: Visão geral do fluxo de trabalho de segmentação
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ seg_workflow.xml
 
 Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento com a finalidade pretendida e uso distinto em mente?
 
-Consulte a  Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
+Consulte a Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
 
 ![](assets/step2_icon.png) [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
