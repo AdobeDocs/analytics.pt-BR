@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 42%
+ht-degree: 61%
 
 ---
 
@@ -18,7 +18,7 @@ A dimensão “Semana” informa a semana em que uma determinada métrica ocorre
 
 Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
 
-## itens de Dimension
+## Itens de dimensão
 
 No Analysis Workspace, os itens de dimensão incluem a data (mês, dia e ano) do primeiro dia da semana.
 
