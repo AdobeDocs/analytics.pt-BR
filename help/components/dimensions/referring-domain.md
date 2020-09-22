@@ -1,11 +1,11 @@
 ---
 title: Domínio de referência
 description: O domínio global no qual um visitante estava antes de clicar para acessar o site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ A dimensão “Domínio de referência” informa em quais domínios os visitant
 >
 >Você deve configurar os [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
-O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e a Data Warehouse. A Analysis Workspace relata o domínio de referência para cada página individual, excluindo valores que correspondem a filtros internos de URL. A Data Warehouse relata somente o primeiro domínio de referência da visita e ignora filtros internos de URL.
+O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e o Data Warehouse. O Analysis Workspace informa o domínio de referência para cada página individual, excluindo valores que correspondem a filtros internos de URL. O Data Warehouse informa somente o primeiro domínio de referência da visita e ignora filtros internos de URL.
 
 ## Preencher esta dimensão com dados
 
@@ -29,13 +29,13 @@ Essa dimensão precisa ser configurada na interface do Analytics e os dados em s
 
 A Adobe mantém o domínio referenciador para uma visita. Se um visitante sair e clicar em um link para acessar o site por um domínio diferente em uma única visita, o novo valor será atualizado e persistirá no restante da visita. Se desejar ver apenas o valor original, consulte [Domínio de Referência Original](original-referring-domain.md).
 
-## itens de Dimension
+## Itens de dimensão
 
-Os itens de Dimension incluem domínios que os visitantes clicam até o site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de quem indicou, como se o visitante digitasse manualmente o endereço do navegador na barra de endereços, ou clicasse em um marcador. O item de `"Typed/Bookmarked"` dimensão também aparece para redirecionamentos que não acomodam o Analytics. Consulte [Redirecionamentos e aliases](/help/technotes/redirects.md) no guia do usuário do Technotes.
+Os itens de dimensão incluem os domínios nos quais os visitantes clicam para acessar seu site. Se uma ocorrência não tiver dados de referenciador (definidos ou persistentes), ela será agrupada sob o item de dimensão `"Typed/Bookmarked"`. Esse item de dimensão significa que não havia valor de referenciador, como se o visitante tivesse digitado manualmente o endereço do navegador na barra de endereços ou clicado em um marcador. O item de dimensão `"Typed/Bookmarked"` também aparece para redirecionamentos que não são hospedados no Analytics. Consulte [Redirecionamentos e aliases](/help/technotes/redirects.md) no guia do usuário Technotes.
 
-### itens Dimension que contenham `googleusercontent.com`
+### Itens de dimensão que contenham `googleusercontent.com`
 
 Os usuários podem ver itens de dimensão com o domínio `googleusercontent.com`.
 
-* **Páginas** em cache: As aranhas do Google rastreiam constantemente a web e armazenam cópias de páginas caso elas sejam tiradas offline. Essas páginas em cache estão disponíveis ao lado da maioria dos resultados da pesquisa clicando no link &quot;Em cache&quot;. Quando um usuário clica nesse link e visualização o conteúdo que o Google armazena em cache, `googleusercontent.com` é o item de dimensão.
+* **Páginas em cache**: as aranhas do Google rastreiam constantemente a web e armazenam cópias de páginas caso elas estejam offline. Essas páginas em cache estão disponíveis ao lado da maioria dos resultados da pesquisa clicando no link “Em cache”. Quando um usuário clica nesse link e visualiza o conteúdo que o Google armazena em cache, `googleusercontent.com` é um item de dimensão.
 * **Páginas traduzidas**: o Google oferece um serviço de tradução robusto e prático. Ao visualizar um site usando este serviço, ele é originário do `googleusercontent.com`. Esse item de dimensão será exibido se o usuário clicar em um link para retornar ao conteúdo original.
