@@ -1,9 +1,9 @@
 ---
 description: Não é possível combinar o Construtor de regras de classificação com subclassificações.
 title: Subclassificações e o Construtor de regras
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de campanha &amp;Hat;Tipo de campanha | Código de campanha &amp;Hat;Diretor de campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de campanha&amp;Hat;Tipo de campanha | Código de campanha&amp;Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marca | Suzanne |  |
    | * |  | 222 | Marca | Frank |  |
