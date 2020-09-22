@@ -3,7 +3,10 @@ description: 'null'
 title: Perguntas frequentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '1802'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +58,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p><b>Um cliente pode reduzir ou estender um período de retenção de dados padrão?</b> </p> </td> 
    <td colname="col2"> <p>Os clientes podem solicitar que seus dados sejam excluídos antes de 25 meses, ligando para o atendimento ao cliente. Os clientes podem estender a retenção de dados além de 25 meses, comprando uma extensão.</p><p>
-   As extensões estão disponíveis em incrementos de 1 (um) ano adicional até no máximo 8 (oito) anos adicionais. Essas extensões podem exigir termos de contrato atualizados e taxas adicionais.
+   As extensões estão disponíveis em incrementos de 1 (um) ano adicional até no máximo 8 (oito) anos adicionais (10 anos no total). Essas extensões podem exigir termos de contrato atualizados e taxas adicionais.
  </p> </td> 
   </tr> 
   <tr> 
