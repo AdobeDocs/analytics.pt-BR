@@ -1,20 +1,20 @@
 ---
 title: Visitas em única página
 description: Um sinalizador que indica que a visita consistiu de uma única página.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Visitas em única página
 
-*Esta página de ajuda descreve como &quot;Visitas em única página&quot; funciona como uma dimensão. Consulte a métrica[Visitas em única página](../metrics/single-page-visits.md)para obter mais informações.*
+*Esta página de ajuda descreve como &quot;Visitas em única página&quot; funciona como uma dimensão. Consulte a métrica [Visitas em única página](../metrics/single-page-visits.md) para obter mais informações.*
 
-The &#39;Single page visits&#39; dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. É o formato da dimensão da métrica [Visitas em única página](../metrics/single-page-visits.md).
+A dimensão “Visitas em única página” informa o número de visitas que consistiam de um único item de dimensão [Página](page.md). É o formato da dimensão da métrica [Visitas em única página](../metrics/single-page-visits.md).
 
 Essa dimensão é utilizada mais frequentemente como um componente dentro da [segmentação](../segmentation/seg-home.md). Ela geralmente não é utilizada como uma dimensão em relatórios.
 
@@ -22,6 +22,6 @@ Essa dimensão é utilizada mais frequentemente como um componente dentro da [se
 
 Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
 
-## itens de Dimension
+## Itens de dimensão
 
-The only dimension item is `"Enabled"`. Se uma visita consistir de uma única página, a ocorrência é definida como esse valor. Todas as outras ocorrências são omitidas deste relatório.
+O único item de dimensão é `"Enabled"`. Se uma visita consistir de uma única página, a ocorrência é definida como esse valor. Todas as outras ocorrências são omitidas deste relatório.
