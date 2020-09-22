@@ -2,11 +2,11 @@
 title: Visão geral do painel de comparação de segmentos
 description: Saiba como usar o painel de comparação de segmentos, parte do Segment IQ no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,19 +91,19 @@ Essa visualização é semelhante às tabelas de forma livre no Analysis Workspa
 
 ### Principais dimensões
 
-Mostra os itens de dimensão mais significativos estatisticamente em todas as suas dimensões. Cada linha mostra a porcentagem de cada segmento que exibe este item de dimensão. Por exemplo, essa tabela pode revelar que 100% dos visitantes do “Segmento A” tinham o item de dimensão “Tipo de navegador: Google”, enquanto apenas 19,6% do “Segmento B” tinha esse item de dimensão. Se a pontuação de diferenças for 1, há significância estatística. Se for 0, não há significância estatística.
+Mostra os itens de dimensão com mais significância estatística entre todas as suas dimensões. Cada linha mostra a porcentagem de cada segmento que exibe este item de dimensão. Por exemplo, essa tabela pode revelar que 100% dos visitantes do “Segmento A” tinham o item de dimensão “Tipo de navegador: Google”, enquanto apenas 19,6% do “Segmento B” tinha esse item de dimensão. Se a pontuação de diferenças for 1, há significância estatística. Se for 0, não há significância estatística.
 
-Essa visualização é semelhante às tabelas de forma livre no Analysis Workspace. Se desejar análise mais profunda em um item de dimensão específico, passe o mouse sobre um item de linha e clique em &#39;Criar visual&#39;. Uma nova tabela é criada para analisar esse item de dimensão específico. Se um item de dimensão for irrelevante para a sua análise, passe o mouse sobre o item de linha e clique no &#39;X&#39; para removê-lo.
+Essa visualização é semelhante às tabelas de forma livre no Analysis Workspace. Para uma análise mais profunda de um item de dimensão específico, passe o mouse sobre um item da linha e clique em “Criar visual”. Uma nova tabela é criada para analisar esse item de dimensão específico. Se algum dos itens de dimensão for irrelevante para sua análise, passe o mouse sobre o item da linha e clique no X para removê-lo.
 
 >[!NOTE]
 >
->Os itens de Dimension adicionados a esta tabela após a conclusão da comparação de segmentos não recebem uma Pontuação de diferença.
+>Os itens de dimensão adicionados a esta tabela após a conclusão da comparação de segmentos não recebem Pontuação de diferenças.
 
 ![Principais dimensões](assets/top-dimension-item1.png)
 
 ### Itens de dimensão por segmento
 
-À direita do gráfico de dimensões há uma visualização vinculada de gráfico de barras. Mostra todos os itens de dimensão exibidos em um gráfico de barras. Clicar em uma linha na tabela à esquerda atualiza a visualização à direita.
+À direita do gráfico de dimensões há uma visualização vinculada de gráfico de barras. Ela mostra todos os itens de dimensão exibidos em um gráfico de barras. Clicar em uma linha na tabela à esquerda atualiza a visualização à direita.
 
 ![Gráfico de barras das principais dimensões](assets/top-dimension-item.png)
 
