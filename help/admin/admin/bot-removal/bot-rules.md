@@ -105,9 +105,9 @@ Cada linha no arquivo de importação pode conter apenas uma das seguintes defin
 
 * **Correspondência de intervalo de IP**: Defina um intervalo de endereços IP usando as colunas IP início e IP fim. Os curingas podem ser usados para a correspondência dos intervalos de IP, por exemplo de `10.10.10.*` para `10.10.20.*`. Regra de correspondência, Incluir agente e Excluir agente devem estar vazios.
 
-### Vária regras combinadas com OU
+### Vária regras combinadas com OR
 
-Para encontrar um bot usando uma combinação de regras juntas a um OU (por exemplo, agente do usuário ou endereço IP), forneça um nome idêntico para todas as regras que deseja combinar no campo de nome do bot. Correspondências E não são suportadas.
+Para encontrar um bot usando uma combinação de regras juntas a um OU (por exemplo, agente do usuário ou endereço IP), forneça um nome idêntico para todas as regras que deseja combinar no campo de nome do bot. Correspondências AND não são suportadas.
 
 ### Substituir todas as regras com um arquivo de upload
 
