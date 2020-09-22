@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+workflow-type: ht
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 É possível preencher uma variável usando um parâmetro da string de consulta.
 
-Na maioria dos casos, você usa um plug-in para preencher variáveis da string de query. Se um erro de digitação ou problema semelhante impedir o preenchimento do valor, a variável poderá ser preenchida por regras de processamento.
+Na maioria dos casos, você usa um plug-in para preencher variáveis a partir da sequência de consulta. Se um erro de digitação ou problema semelhante impedir o preenchimento do valor, a variável poderá ser preenchida por regras de processamento.
 
 Você deve sempre conferir se um valor está vazio ou se contém o valor esperado antes de sobrescrevê-lo.
 
