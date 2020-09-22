@@ -1,11 +1,11 @@
 ---
 title: Países
 description: O país de onde a ocorrência se originou.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ A dimensão &quot;Países&quot; informa o país de onde a ocorrência se origino
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/?lang=pt-pt) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/?lang=pt-br) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
 
 >[!TIP]
 >
 >Se a sua organização seguir normas rigorosas de privacidade em que [ofuscar endereços IP](/help/admin/admin/general-acct-settings-admin.md) não for suficiente, você poderá solicitar a desativação total dos dados de geolocalização. Entre em contato com o Atendimento ao cliente com a ID do conjunto de relatórios e solicite a desativação de &quot;Geografia&quot; para o conjunto de relatórios.
 
-## itens de Dimension
+## Itens de dimensão
 
-Itens de Dimension incluem países em todo o mundo. Os valores de exemplo incluem `"United States"`, `"United Kingdom"` ou `"India"`.
+Os itens de dimensão incluem países em todo o mundo. Os valores de exemplo incluem `"United States"`, `"United Kingdom"` ou `"India"`.
 
 ## Diferenças entre a localização informada e a real
 
