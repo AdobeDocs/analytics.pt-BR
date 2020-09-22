@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Vídeo: usar segmentos no Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Vídeo: aplicar segmentos a um painel</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Criar segmentos temporários ("ad-hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Além disso, filtros Suspensos podem ser adicionados na zona suspensa do painel para criar muitos segmentos temporários ao mesmo tempo, permitindo interações controladas do projeto. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: segmentos ad hoc no Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: Filtros suspensos no Analysis Workspace</a> </p> </td> 
+   <td colname="col1"> <p>Criar segmentos temporários (“ad-hoc”) </p> </td> 
+   <td colname="col2"> <p>Você pode <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >criar segmentos instantâneos (“ad-hoc”)</a> no Analysis Workspace ao arrastar os itens de dimensão até a área de soltar segmentos no topo do painel. Além disso, filtros suspensos podem ser adicionados na zona suspensa do painel para criar muitos segmentos temporários ao mesmo tempo, permitindo interações controladas do projeto. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: segmentos ad hoc no Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: Filtros suspensos no Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Escolher intervalos de data e granularidades </p> </td> 
@@ -87,7 +87,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">O fluxo pode abranger uma visita ou visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">As principais estatísticas são apresentadas em termos de % de visualizações de caminho. </li> 
-    </ul> <p>Além disso, o fluxo permite <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensões variadas</a> e a capacidade de clicar com o botão direito do mouse e criar um segmento, uma melhoria em relação à Ad Hoc Analysis. </p> <p>Atualmente, o Fluxo no Analysis Workspace <b>não pode</b> permitir que os usuários escolham um evento bem-sucedido. </li> 
+    </ul> <p>Além disso, o fluxo permite <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensões variadas</a> e a capacidade de clicar com o botão direito do mouse e criar um segmento, uma melhoria em relação à Ad Hoc Analysis. </p> <p>Atualmente, o fluxo no Analysis Workspace <b>não</b> permite que os usuários escolham um evento bem-sucedido. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Vídeo: visão geral da visualização do Fluxo</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Vídeo: Fluxo multidimensional</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Vídeo: criar segmentos do Fluxo</a> </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Para uma comparação técnica dos principais recursos e requisitos de sistema e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> no Analysis Workspace permite que você adicione vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. Inclui mais de 10 modelos baseados em regras e algorítmicos. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ em tabelas de forma livre</a> </p> </td> 
+   <td colname="col2"> <p>O <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> no Analysis Workspace permite adicionar vários tipos novos de modelos de atribuição a Tabelas de forma livre, Visualizações e Métricas calculadas. Ele inclui mais de 10 modelos algorítmicos e baseados em regras. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ em tabelas de forma livre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
