@@ -20,4 +20,4 @@ Essa métrica conta todas as chamadas de rastreamento de link ([`tl()`](/help/im
 
 ## Comparar a métricas semelhantes
 
-* **Eventos de página versus[Visualizações de página](page-views.md)**: a métrica Eventos de página conta o número de chamadas de rastreamento de link (`tl()`) e excluem chamadas de rastreamento de visualização de página (`t()`). A métrica Visualizações de página é o oposto; ela conta o número de chamadas de rastreamento de visualização da página e exclui as de links.
+* **Eventos de página versus [Visualizações de página](page-views.md)**: a métrica Eventos de página conta o número de chamadas de rastreamento de link (`tl()`) e excluem chamadas de rastreamento de visualização de página (`t()`). A métrica Visualizações de página é o oposto; ela conta o número de chamadas de rastreamento de visualização da página e exclui as de links.
