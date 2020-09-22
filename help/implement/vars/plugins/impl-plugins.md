@@ -1,11 +1,11 @@
 ---
 title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cada organização tem necessidades de implementação diferentes, de modo que v
    * Implementações que usam `AppMeasurement.js` geralmente inicializam o objeto de rastreamento na parte superior do arquivo JavaScript.
 2. Como segundo passo, inclua o código do plug-in.
    * A extensão &quot;Plug-ins comuns do Analytics&quot; tem uma configuração de ação com a qual você pode inicializar plug-ins.
-   * Se não quiser usar a extensão, cole o código do plug-in no editor de código personalizado ao configurar a extensão do Analytics.
+   * Se você não quiser usar a extensão, é possível colar o código do plug-in no editor de código personalizado ao configurar a extensão do Analytics.
    * Se sua implementação não usar o Launch, você poderá colar o código do plug-in no `AppMeasurement.js` em qualquer lugar depois de instanciar o objeto de rastreamento.
 3. Como terceiro passo, chame o plug-in.
    * Todas as implementações, dentro e fora do Launch, usam JavaScript para chamar plug-ins. Chame o plug-in usando o formato documentado na página desse plug-in.
@@ -41,4 +41,4 @@ Muitas organizações chamam plug-ins usando a função [`doPlugins`](../functio
 
 ## Usar plug-ins com objetos de rastreamento não padrão
 
-Por padrão, os plug-ins não funcionam com outros objetos de rastreamento além `s`. Entretanto, é possível modificar o código do plug-in para acomodar o objeto de rastreamento personalizado. Em um determinado plug-in, substitua todas as referências `s` pelo objeto de rastreamento desejado.
+Por padrão, os plug-ins não funcionam com outros objetos de rastreamento além do `s`. Entretanto, é possível modificar o código do plug-in para acomodar o objeto de rastreamento personalizado. Em um determinado plug-in, substitua todas as referências ao `s` pelo objeto de rastreamento desejado.
