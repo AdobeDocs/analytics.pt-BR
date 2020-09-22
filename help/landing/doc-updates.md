@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 |---|---|
-| 21 de julho de 2020 | Principais atualizações e revisões do [Cross-Device Analytics](/help/components/cda/overview.md). Adicionada a identificação baseada em [campo](/help/components/cda/field-based-stitching.md). |
+| 21 de julho de 2020 | Principais atualizações e revisões do [Cross-Device Analytics](/help/components/cda/overview.md). Adição da [Compilação em campo](/help/components/cda/field-based-stitching.md). |
 | 28 de abril de 2020 | Adição de documentação para a métrica [Content Velocity](/help/components/metrics/content-velocity.md). |
 | 12 de março de 2020 | Adição de atualizações para [Publicar segmentos na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de março de 2020 | Atualizações da latência de montagem da CDA. |
