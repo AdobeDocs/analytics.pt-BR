@@ -1,5 +1,5 @@
 ---
-title: marketing
+title: canal
 description: Preencha a dimensão “Seções do site”.
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
@@ -10,7 +10,7 @@ ht-degree: 97%
 ---
 
 
-# marketing
+# canal
 
 A variável `channel` geralmente armazena a seção do site em que uma determinada página está. É útil determinar quais grupos do site são mais populares. Essa variável preenche a dimensão &quot;Seções do site&quot;.
 
