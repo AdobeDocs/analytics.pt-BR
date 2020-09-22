@@ -3,9 +3,9 @@ description: Se você tiver copiado configurações de um conjunto de relatório
 title: Configurações não copiadas do conjunto de relatórios de origem
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
