@@ -2,23 +2,26 @@
 description: As Sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 title: Sessões sensíveis ao contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+workflow-type: ht
+source-wordcount: '1556'
+ht-degree: 100%
 
 ---
 
 
 # Sessões sensíveis ao contexto
 
-As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de qualquer dispositivo. Este artigo também descreve as implicações de processamento das ocorrências em segundo plano e dos eventos de inicialização do aplicativo (ambos definidos pelo SDK móvel) em como as visitas móveis são definidas.
+As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos. Este artigo também descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 
-Você pode definir uma visita da maneira que desejar sem alterar os dados subjacentes, para corresponder à forma como seus visitantes interagem com suas experiências digitais.
+Você pode definir uma visita da maneira que quiser sem alterar os dados subjacentes, para corresponder a como seus visitantes interagem com suas experiências digitais.
 
-## Parâmetro do URL de perspectiva do cliente 
+## Parâmetro do URL de perspectiva do cliente
 
 O processo de coleta de dados do Adobe Analytics permite que você defina um parâmetro de string de consulta especificando a perspectiva do cliente (denotado como o parâmetro de string de consulta &quot;cp&quot;). Este campo especifica o estado do aplicativo digital do usuário final. Isso ajuda você a saber se uma ocorrência foi gerada enquanto um aplicativo móvel estava em segundo plano.
 
-## Processamento de ocorrências em segundo plano 
+## Processamento de ocorrências em segundo plano
 
 Uma ocorrência em segundo plano é um tipo de ocorrência enviada para o Analytics a partir do SDK do Adobe Mobile versão 4.13.6 e superior quando o aplicativo faz uma solicitação de rastreamento em segundo plano. Exemplos típicos disso incluem:
 
@@ -115,15 +118,15 @@ Da mesma forma, se uma série de ocorrências em segundo plano ocorressem antes 
 
 As ocorrências em segundo plano se comportam desta maneira para preservar os efeitos de atribuição das eVars ou de outras variáveis definidas durante as ocorrências em segundo plano. Isso permite que os eventos de conversão em primeiro plano em downstream sejam atribuídos a ações tomadas enquanto um aplicativo estava em segundo plano. Também permite que um contêiner do segmento de visita inclua ocorrências em segundo plano que resultaram em uma sessão em primeiro plano em downstream, o que é útil para mensurar a eficácia da mensagem de push.
 
-## Comportamento da métrica de visitas 
+## Comportamento da métrica de visitas
 
 A contagem de visitas baseia-se unicamente no número de visitas que inclui, pelo menos, uma ocorrência em primeiro plano. Isso significa que quaisquer ocorrências em segundo plano órfãs ou “visitas em segundo plano” não são contabilizadas na métrica Visita.
 
-## Comportamento métrico de tempo gasto por visita 
+## Comportamento métrico de tempo gasto por visita
 
 O tempo gasto ainda é calculado de forma análoga ao cálculo sem ocorrências em segundo plano usando o tempo entre as ocorrências. Contudo, se uma visita incluir ocorrências em segundo plano (porque ocorreram perto o suficiente das ocorrências em primeiro plano), essas ocorrências serão incluídas no cálculo do tempo gasto por visita, como se fossem uma ocorrência em primeiro plano.
 
-## Configurações de processamento de ocorrências em segundo plano 
+## Configurações de processamento de ocorrências em segundo plano
 
 Como o processamento de ocorrências em segundo plano está disponível apenas para conjuntos de relatórios virtuais usando Processamento de tempo de relatório, o Adobe Analytics oferece suporte a duas formas de processamento de ocorrências em segundo plano para preservar as contagens de visitas no conjunto de relatórios base que não usa o Processamento de tempo de relatório. Para acessar esta configuração, navegue até o Admin Console do Adobe Analytics, vá para as configurações do conjunto de relatórios base aplicável, navegue até o menu “Gerenciamento de dispositivos móveis” e, em seguida, para o submenu “Relatórios de aplicativos móveis”.
 
@@ -134,6 +137,6 @@ Como o processamento de ocorrências em segundo plano está disponível apenas p
 
 Em ambos os casos, as ocorrências em segundo plano serão faturadas ao mesmo custo de qualquer outra ocorrência enviada ao Analytics.
 
-## Iniciar novas visitas em cada inicialização de aplicativo 
+## Iniciar novas visitas em cada inicialização de aplicativo
 
 Além do processamento de ocorrências em segundo plano, os conjuntos de relatórios virtuais podem forçar a inicialização de uma nova visita sempre que o SDK móvel envia um evento de inicialização de aplicativo. Com esta configuração ativada, sempre que um evento de lançamento de aplicativo for enviado do SDK, ele forçará a inicialização de uma nova visita, independentemente de uma visita aberta ter atingido seu tempo limite. A ocorrência que contém o evento de inicialização de aplicativo é incluída como a primeira ocorrência da próxima visita e incrementa a contagem de visitas e cria um contêiner de visitas distinto para segmentação.
