@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Integração de transição e de clientes
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Essas integrações associam dados offline a uma transação online específica 
 
 A ID de transação pode ser habilitada/desabilitada na IU, sem participação do ClientCare:
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Acesse **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatório]** > Selecionar conjunto de relatório > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Configurações gerais da conta]**.
 
 <!-- 
 
