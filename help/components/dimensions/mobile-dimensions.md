@@ -1,11 +1,11 @@
 ---
 title: Dimensões móveis
 description: Dimensões com base na sequência agente-usuário do dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ Essas dimensões se referem às regras de pesquisa internas da Adobe. O valor da
 
 >[!NOTE]
 >
->Dimension items labeled `"None"` are non-mobile devices. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão “Dispositivo móvel” para a área de segmento da tela do Workspace.
+>Os itens de dimensão rotulados `"None"` são dispositivos não móveis. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão “Dispositivo móvel” para a área de segmento da tela do Workspace.
 
-* **Suporte de áudio para dispositivo móvel**: determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. Os valores nesta dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
-* **Operadora** móvel: Se o agente do usuário contiver um dispositivo específico para a operadora, a operadora será um item de dimensão. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
+* **Suporte de áudio para dispositivo móvel**: determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **Operadora de celular**: se o agente de usuário tiver um dispositivo específico de uma operadora, a operadora será um item de dimensão. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
 * **Intensidade de cor do dispositivo móvel**: a profundidade de cor do dispositivo móvel, em bits.
-* **Suporte a cookies para dispositivo móvel**: determina se o dispositivo móvel aceita cookies. Este relatório não indica se o navegador aceita cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Suporte a cookies para dispositivo móvel**: determina se o dispositivo móvel aceita cookies. Este relatório não indica se o navegador aceita cookies. Os itens de dimensão incluem `"Supported"`, `"Not supported"` e `"Unknown"`.
 * **Dispositivo móvel**: o dispositivo móvel que o visitante usa.
-* **Número do dispositivo móvel**: determina se o dispositivo móvel transmite seu número. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Número do dispositivo móvel**: determina se o dispositivo móvel transmite seu número. Os itens de dimensão incluem `"Supported"`, `"Not supported"` e `"Unknown"`.
 * **Tipo de dispositivo móvel**: o tipo do dispositivo móvel. Os valores de exemplo incluem `"Mobile phone"`, `"Tablet"`, `"Media player"` e `"Gaming console"`.
 * **DRM móvel**: o tipo de DRM que o dispositivo móvel aceita. Os valores de exemplo incluem `"DRM OMA forward"`, `"DRM OMA combined delivery"` e `"DRM OMA separate delivery"`.
-* **Suporte a imagens para dispositivo móvel**: os tipos de imagens que um dispositivo móvel aceita. Os valores de exemplo incluem `"PNG"`, `"JPEG"` e `"GIF 87"`. Os valores nesta dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **Suporte a imagens para dispositivo móvel**: os tipos de imagens que um dispositivo móvel aceita. Os valores de exemplo incluem `"PNG"`, `"JPEG"` e `"GIF 87"`. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
 * **Serviços de informações para dispositivo móvel**: os tipos de serviços de notícias aceitos pelo dispositivo. Dispositivos recentes normalmente não reportam essas informações.
 * **VM Java para dispositivo móvel**: as versões do Java compatíveis com o dispositivo.
 * **Decoração de correio para dispositivo móvel**: determina se o dispositivo aceita o “Decomail”, um recurso conhecido em dispositivos japoneses.
@@ -48,7 +48,7 @@ Essas dimensões se referem às regras de pesquisa internas da Adobe. O valor da
 * **Altura da tela do dispositivo móvel**: a altura da tela, em pixels. Observe que os iPhones sempre reportam `"480"` devido à incapacidade de determinar a versão do iPhone. Consulte a seção abaixo sobre como determinar a versão do iPhone.
 * **Tamanho da tela do dispositivo móvel**: as dimensões completas do dispositivo móvel em pixels. O tamanho de tela relatado não indica a orientação do dispositivo. Independentemente da orientação da tela, cada dispositivo possui uma resolução de tela fixa no relatório. O tamanho baseia-se na pesquisa que determina qual orientação é mais provável. É possível ver tamanhos como `"768x1024"` e `"1024x768"` no mesmo relatório, onde cada tamanho representa um ou mais dispositivos diferentes.
 * **Largura da tela do dispositivo móvel**: a largura da tela, em pixels.
-* **Suporte de vídeo para dispositivo móvel**: os formatos de arquivo de vídeo e os codecs aceitos pelo dispositivo móvel. Existem vários itens de dimensão para diferentes codecs de arquivos MP4 e 3GPP. Os valores nesta dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **Suporte de vídeo para dispositivo móvel**: os formatos de arquivo de vídeo e os codecs aceitos pelo dispositivo móvel. Existem vários itens de dimensão para diferentes codecs de arquivos MP4 e 3GPP. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
 
 ## Separação do iPhone por modelo ou versão
 
