@@ -2,9 +2,9 @@
 title: Assinaturas comuns do robô
 description: Reconhecer os identificadores comuns de bots.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Os usuários modernos têm monitores de resolução muito mais alta do que em an
 
 ## País + Fuso horário incompatível
 
-Haverá um desencontro entre o país de origem e o fuso horário. Por exemplo, um local do Estado Unidos, mas com um fuso horário GMT.
+Você notaria um desencontro entre o país de origem e o fuso horário. Por exemplo, o local pode ser os Estados Unidos, mas o fuso horário pode ser GMT.
 
 ![](assets/bots-country-time-zone.png)
 
