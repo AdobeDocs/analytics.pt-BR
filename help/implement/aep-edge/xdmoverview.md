@@ -1,11 +1,11 @@
 ---
 title: Uso de dados XDM com o Analytics
 description: 'Visão geral do uso de dados XDM da Experience Platform no Adobe Analytics '
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
