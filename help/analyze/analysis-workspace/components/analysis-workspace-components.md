@@ -2,9 +2,9 @@
 description: 'Os componentes no Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto. '
 title: Visão geral dos componentes
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ Exemplos de itens de dimensão incluem [!UICONTROL Página inicial] (na dimensã
 
 [**As métricas**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) são medidas quantitativas sobre o comportamento do visitante. Eles podem ser encontrados no painel Componente esquerdo (seção verde) e são normalmente aplicados como colunas de uma tabela.
 
-Exemplos de métricas incluem [!UICONTROL Page visualizações, [!UICONTROL Visitas], [!UICONTROL Pedidos], Tempo [!UICONTROL Médio Gasto]e [!UICONTROL Receita/Pedido]. As métricas são fornecidas pelo Adobe ou capturadas por meio de sua implementação personalizada (eventosbem-sucedidos) ou criadas usando o construtor [de métricas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)calculadas.
+Exemplos de métricas incluem visualizações [!UICONTROL de]página, [!UICONTROL visitas], [!UICONTROL pedidos], tempo [!UICONTROL médio gasto]e [!UICONTROL receita/pedido]. As métricas são fornecidas pelo Adobe ou capturadas por meio de sua implementação personalizada (eventosbem-sucedidos) ou criadas usando o construtor [de métricas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)calculadas.
 
 ![](assets/metrics.png)
 
