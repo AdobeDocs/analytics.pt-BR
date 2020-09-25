@@ -1,18 +1,18 @@
 ---
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Versões de recursos do Adobe Analytics
-translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Versões de recursos do Adobe Analytics
 
-Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. A partir de abril de 2020, a Adobe Analytics migrou para um modelo de delivery contínuo que permite uma abordagem mais escalável e em fases para a implantação de recursos.
+Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. A partir de abril de 2020, a Adobe Analytics mudou-se para um modelo de delivery contínuo que permite uma abordagem mais escalonável e em fases para a implantação de recursos.
 
 ## Estratégia de lançamento
 
@@ -25,6 +25,12 @@ O [!UICONTROL Analysis Workspace] usa sinalizadores de recursos (também conheci
 * **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações da Experience Cloud autorizadas e a versão do recurso está concluída.
 
 Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O objetivo é manter as versões curtas, para que, dentro de 2 meses do início do lançamento (RTP), um recurso tenha GA.
+
+## Sinalizadores de recurso
+
+Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante a versão. A Adobe recomenda adicionar app.launch.darkly.com à [lista de permissões](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) do firewall para obter uma experiência ideal durante o lançamento. Logo após o GA ser atingido, o sinalizador é removido.
+
+Você pode visualização seus sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre a Workspace > Sinalizadores** de recursos ativos.
 
 ## Benefícios
 
