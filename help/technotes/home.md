@@ -1,15 +1,16 @@
 ---
-title: Página inicial das notas técnicas
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '75'
+title: Notas técnicas do Analytics
+description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
 
-# Página inicial das notas técnicas
+# Notas técnicas do Analytics
 
 Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 
