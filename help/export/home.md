@@ -1,11 +1,11 @@
 ---
-title: Ajuda para exportação do Analytics
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+title: Guia de exportação do Analytics
+description: Este guia descreve como obter dados do Adobe Analytics usando feeds de dados e Data Warehouse.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 88%
 
 ---
 
