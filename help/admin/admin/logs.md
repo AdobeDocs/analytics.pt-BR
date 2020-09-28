@@ -3,9 +3,9 @@ description: Os arquivos de log ajudam a identificar quando os usuários fazem l
 title: Logs
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 72%
 
 ---
@@ -68,11 +68,6 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Intervalo de datas | Um intervalo de datas foi criado/editado. |
 | Conjunto de relatórios virtuais | Um conjunto de relatórios virtual foi criado/editado. |
 | Análise de contribuição | Um trabalho de análise de contribuição foi executado. |
-| Solicitação de bloco de dados do Excel |  |
-| Falha ao fazer logon no Excel |  |
-| Logon feito com sucesso no Excel |  |
-| Falha ao fazer logon em um dispositivo móvel |  |
-| Logon feito com sucesso em um dispositivo móvel |  |
 | Método de API | Foi feita uma chamada de API. |
 
 
