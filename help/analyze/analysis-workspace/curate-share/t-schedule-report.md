@@ -1,17 +1,17 @@
 ---
 description: Envie um projeto do Analysis Workspace por email ou agende o seu envio.
 keywords: Analysis Workspace
-title: Projetos programados
+title: Agendar projetos
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
-# Projetos programados
+# Agendar projetos
 
 No **menu Compartilhar**, do Workspace, você pode enviar projetos do Analysis Workspace por email para recipient selecionados. Os arquivos podem ser enviados no formato CSV ou PDF.
 
