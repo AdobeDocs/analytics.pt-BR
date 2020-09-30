@@ -3,10 +3,10 @@ description: Há duas formas de utilizar as métricas no Analysis Workspace.
 title: Métricas
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 79032645028af6e782a89867057fc9a1726ca27c
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 91%
+source-wordcount: '252'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ Para facilitar a criação rápida de métricas calculadas, a opção **[!UICONT
 
 ![](assets/calc_metrics.png)
 
-[Uso de métricas de participação no YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+[Métricas calculadas: Métricas](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) sem implementação (3:42)
 
 ## Comparar métricas com diferentes modelos de atribuição
 
