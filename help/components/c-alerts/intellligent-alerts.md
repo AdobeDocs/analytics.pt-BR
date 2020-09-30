@@ -2,11 +2,11 @@
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Posso obter uma tabela dos "valores esperados" que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
-   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95% e é semelhante à <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol">Detecção de anomalias do </span>Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, intervalo fixo de 95%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
