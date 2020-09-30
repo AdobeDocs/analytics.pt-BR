@@ -2,11 +2,11 @@
 description: 'null'
 title: Otimizar o desempenho do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: ht
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
-workflow-type: ht
-source-wordcount: '1306'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ O intervalo de dados solicitado no decorrer do projeto influenciará o desempenh
 
 **Práticas recomendadas para intervalos de datas**
 
-Quando possível, não insira mais dados do que o necessário. Restrinja o calendário do painel às datas relevantes para a sua análise ou use componentes de intervalo de datas (componentes roxos) nas tabelas de forma livre. Os intervalos de datas usados em uma tabela substituem o intervalo de datas do painel. Por exemplo, você pode adicionar mês passado, semana passada e ontem às colunas da tabela para solicitar esses intervalos de dados específicos. Para obter mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Quando possível, não insira mais dados do que o necessário. Restrinja o calendário do painel às datas relevantes para a sua análise ou use componentes de intervalo de datas (componentes roxos) nas tabelas de forma livre. Os intervalos de datas usados em uma tabela substituem o intervalo de datas do painel. Por exemplo, você pode adicionar mês passado, semana passada e ontem às colunas da tabela para solicitar esses intervalos de dados específicos. Para obter mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html).
 
 Minimize o número de comparações ano a ano usadas no projeto. Quando uma comparação ano a ano é calculada, ela analisa os 13 meses completos de dados entre os meses de interesse. Essa ação tem o mesmo impacto que alterar o intervalo de datas do painel para durar 13 meses.
 
@@ -79,7 +79,7 @@ Um painel pode conter diversas visualizações e, como resultado, o número de p
 
 Não tente adicionar tudo a um só projeto e, sim, criar projetos distintos que atendam a um propósito ou grupo de participantes específico. Use as tags para organizar projetos em temas chave e compartilhe projetos relacionados com grupos de participante.
 
-Caso deseje mais organização nos projetos, lembre-se de que a [vinculação direta](https://www.youtube.com/watch?v=6IOEewflG2U) ao seu projeto é uma opção. Crie um índice interno de projetos de forma que os participantes possam encontrar o que precisam mais facilmente.
+Caso deseje mais organização nos projetos, lembre-se de que a [vinculação direta](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) ao seu projeto é uma opção. Crie um índice interno de projetos de forma que os participantes possam encontrar o que precisam mais facilmente.
 
 Caso necessite de muitos painéis em um projeto, reduza os painéis antes de salvar e compartilhar. Quando um projeto é carregado, o Analysis Workspace somente carregará o conteúdo dos painéis expandidos. Os painéis reduzidos não serão carregados até que o usuário os expanda. Essa abordagem auxilia de duas formas:
 
