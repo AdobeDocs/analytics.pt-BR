@@ -2,10 +2,10 @@
 description: Um painel é uma coleção de tabelas e visualizações
 title: Visão geral dos painéis
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 17%
 
 ---
 
@@ -78,4 +78,4 @@ Filtros suspensos também podem ser usados para consolidar vários projetos em u
 1. Para criar um filtro suspenso usando outro componente, como métricas, segmentos ou intervalos de datas, selecione de um tipo de componente no painel esquerdo e solte na área suspensa do painel **enquanto mantém pressionada a tecla** Shift.
 1. Selecione uma das opções na lista suspensa para alterar os dados no painel. Também é possível optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Nenhum filtro]**.
 
-[Assista ao vídeo](https://www.youtube.com/watch?v=vpJywtsFVPI) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
+[Assista ao vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
