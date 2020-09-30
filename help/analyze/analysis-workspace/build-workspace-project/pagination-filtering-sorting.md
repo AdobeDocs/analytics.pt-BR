@@ -3,16 +3,19 @@ description: 'null'
 title: Paginação, filtragem e classificação de tabelas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # Paginação, filtragem e classificação de tabelas
 
-Para ter uma visão geral, assista a este vídeo no YouTube:
+Para obter uma visão geral, assista a este tutorial em vídeo:
 
-[Paginação, filtragem e classificação de tabelas no Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Paginação, filtragem e classificação de tabelas no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Opções de filtragem avançadas {#section_36E92E31442B4EBCB052073590C1F025}
 
@@ -25,7 +28,7 @@ Clicar no ícone de filtro e, em seguida, em Mostrar avançadas próximo a uma d
 * Contém a frase
 * Não contém nenhum termo
 * Não contém a frase
-* Igual
+* Igual a
 * Não é igual
 * Começa com
 * Termina com
