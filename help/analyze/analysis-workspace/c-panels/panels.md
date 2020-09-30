@@ -2,10 +2,10 @@
 description: Um painel é uma coleção de tabelas e visualizações
 title: Visão geral dos painéis
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 17%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## Conjunto de relatórios do painel {#report-suite}
 
 Tabelas e visualizações em um painel derivam dados do conjunto [!UICONTROL de] relatórios selecionado na parte superior direita do painel. O conjunto de relatórios também determina quais componentes estão disponíveis no painel esquerdo. Em um projeto, você pode usar um ou [vários conjuntos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de relatórios, dependendo de seus casos de uso de análise.
+
+A lista dos conjuntos de relatórios é classificada na relevância, que é definida pela Adobe com base na frequência e na recentemente usada pelo usuário atual e na frequência com que o conjunto é usado na organização.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ Filtros suspensos também podem ser usados para consolidar vários projetos em u
 
 **Criar e usar filtros suspensos:**
 
-![](assets/create-dropdown.png)
-
 1. Para criar um filtro suspenso usando itens [!UICONTROL de]Dimension, como valores na dimensão [!UICONTROL do Canal] de marketing, clique no ícone de seta para a direita ao lado da dimensão no painel esquerdo. Isso exporá todos os itens disponíveis. Selecione um ou vários itens do componente no painel esquerdo e solte-os na área de depósito do painel **enquanto mantém pressionada a tecla** Shift. Isso transformará os componentes em um filtro suspenso, em vez de em um único segmento.
 1. Para criar um filtro suspenso usando outro componente, como métricas, segmentos ou intervalos de datas, selecione de um tipo de componente no painel esquerdo e solte na área suspensa do painel **enquanto mantém pressionada a tecla** Shift.
 1. Selecione uma das opções na lista suspensa para alterar os dados no painel. Também é possível optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Nenhum filtro]**.
 
+![](assets/create-dropdown.png)
+
 [Assista ao vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
+
