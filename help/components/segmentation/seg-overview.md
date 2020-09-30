@@ -3,11 +3,11 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '3709'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '3697'
+ht-degree: 99%
 
 ---
 
@@ -60,11 +60,7 @@ Um segmento sequencial filtra conjuntos de dados com base nas ações do usuári
 
 ## Vídeo passo a passo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Este vídeo do YouTube proporciona uma breve visão geral sobre o que são os contêineres de segmentos e como usá-los.
-
-| Nome do vídeo | Link do vídeo |
-|---|---|
-| Contêineres de segmentos | [Contêineres de segmentos no Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+Este vídeo oferece uma breve visão geral sobre quais são os container de segmento e como usá-los: [Container de segmento no Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Sobre contêineres {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -154,7 +150,7 @@ A segmentação sequencial emprega os mesmos contêineres básico incluindo [!UI
 
 ![](assets/nesting_container.png)
 
-Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
+Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa  [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
 
 **Para construir segmentos sequenciais**, os contêineres são aninhados e a lógica sequencial é unida por meio do operador [!UICONTROL THEN] que requer que cada contêiner seja verdadeiro com base na sequência do visitante.
 
