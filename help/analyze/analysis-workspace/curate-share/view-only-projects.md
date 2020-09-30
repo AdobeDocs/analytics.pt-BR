@@ -1,17 +1,17 @@
 ---
 description: Projetos somente visualização no Workspace
 keywords: View-only projects
-title: Projetos do Workspace somente para visualização
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: projetos somente visualização
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 98%
 
 ---
 
 
-# Projetos do Workspace somente para visualização
+# projetos somente visualização
 
 Você pode compartilhar projetos &quot;somente para visualização&quot; com os recipients por meio do [Fluxo de trabalho de compartilhamento do projeto](/help/analyze/analysis-workspace/curate-share/share-projects.md). Os recipient colocados na função Pode visualizar terão uma experiência de projeto mais limitada. Essa opção pode ser útil se você estiver compartilhando um projeto com usuários menos familiarizados com a estrutura de dados da sua organização, com o Analysis Workspace ou o Adobe Analytics em geral, mas ainda assim quiser que eles consumam dados e insights em um ambiente seguro.
 
@@ -36,7 +36,7 @@ As interações desativadas em um projeto somente visualização incluem:
 Algumas das interações ativadas mais importantes em um projeto somente visualização incluem:
 
 | Área | Interações ativadas |
-|---|---|
+| --- | --- |
 | Tabela de forma livre | <ul><li>Paginação e classificação</li><li>Passagem</li><li>Seleções de células que atualizam visualizações vinculadas</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Clique com o botão direito do mouse em > Copiar para a área de transferência</li></ul> |
 | Visualizações | <ul><li>Clicar para ativar/desativar legenda</li><li>Passagem</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Recolher/expandir</li><li>Fluxo - expandir nós de fluxo</li><li>Mapa - zoom</li></ul> |
 | Painéis | <ul><li>Filtros suspensos interativos</li><li>Clique com o botão direito do mouse em > Obter link do painel</li><li>Recolher/expandir</li></ul> |
