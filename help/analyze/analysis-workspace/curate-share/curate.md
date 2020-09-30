@@ -1,17 +1,17 @@
 ---
 description: A preparação permite limitar os componentes antes de compartilhar um projeto.
 keywords: Analysis Workspace curation
-title: Preparar projetos do Workspace
-translation-type: ht
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+title: Preparar projetos
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
 
-# Preparar projetos do Workspace
+# Preparar projetos
 
 A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abrir o projeto, ele verá um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
 
