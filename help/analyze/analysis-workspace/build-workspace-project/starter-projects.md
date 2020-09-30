@@ -3,10 +3,10 @@ description: 'null'
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis 
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
-[Modelos padrão do Analysis Workspace no YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+Este é um tutorial em vídeo sobre Modelos [padrão no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder.
 
@@ -65,7 +65,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 * **Tutorial de treinamento - Análise de pesquisa interna**: o tutorial de Pesquisa interna ajuda você a entender o que seus visitantes estão procurando no site ou aplicativo, mas não estão achando. A análise desse tipo de dados pode exibir oportunidades de otimização de conteúdo.
 
-* **Tutorial de treinamento - Análise de marketing**: este tutorial mostra como fazer uma análise de marketing para seus executivos, incluindo quais dimensões e métricas personalizadas são importantes.
+* **Tutorial de treinamento - Análise** de marketing: Este tutorial mostra como criar uma análise de marketing para seus executivos, incluindo quais dimensões e métricas personalizadas são importantes.
 
 ### Publicidade
 
@@ -77,9 +77,9 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 ### Comércio
 
-* **Magento: marketing e comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo:
+* **Magento: Marketing e Comércio**: Este modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, landing page, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Mídia
 
