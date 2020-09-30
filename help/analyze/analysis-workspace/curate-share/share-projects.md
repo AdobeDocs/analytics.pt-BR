@@ -1,17 +1,17 @@
 ---
 description: Compartilhamento de projetos e funções de projeto no Workspace
 keywords: Analysis Workspace sharing
-title: Compartilhar projetos do Workspace
-translation-type: ht
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+title: Compartilhar projetos
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 99%
 
 ---
 
 
-# Compartilhar projetos do Workspace
+# Compartilhar projetos
 
 O compartilhamento disponibiliza um projeto para outros usuários do Analysis Workspace em sua organização. Qualquer [preparação](curate.md) aplicada será refletida quando os recipients abrirem o projeto.
 
