@@ -3,10 +3,10 @@ description: Use a visualização de linha para descrever conjuntos de dados com
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 79%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposi�
 
 ## Mostrar sobreposição de linha de tendência
 
-Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar linha de tendência]**, você pode optar por adicionar uma linha de tendência de regressão à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposi�
 
 ![Linha de tendência linear](assets/show-linear-trendline.png)
 
-Todos os modelos são adequados usando quadrados mínimos comuns:
+Todas as tendências do modelo de regressão são são ajustadas usando quadrados mínimos normais:
 
 | Modelo | Descrição |
 | --- | --- |
@@ -54,3 +54,4 @@ Todos os modelos são adequados usando quadrados mínimos comuns:
 | Exponencial | Cria uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
 | Potência | Cria uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam a uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
 | Quadrático | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
+| Média móvel | Cria uma linha de tendência suave com base em um conjunto de médias. Os exemplos incluem média móvel de 7 dias ou média móvel de 4 semanas. Também conhecida como uma média móvel, uma média móvel calcula a média de um intervalo anterior, usa isso como ponto de dados da linha de tendência e, em seguida, move para o próximo período para repetir. A entrada &#39;Períodos&#39; define o intervalo para calcular a média. |
