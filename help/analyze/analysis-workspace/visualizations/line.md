@@ -3,10 +3,10 @@ description: Use a visualização de linha para descrever conjuntos de dados com
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
+source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 64%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
@@ -41,7 +41,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->Recomendamos que as linhas de tendência sejam aplicadas aos dados que não incluem hoje (dados parciais) ou datas futuras, já que isso distorcerá a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar inclinações para esses dias. Para fazer isso, vá para a tabela de fonte de dados da visualização e escolha sua coluna de métrica. Em seguida, vá para Configurações [!UICONTROL de] coluna e marque **[!UICONTROL Interpretar zero como nenhum valor]**.)
+>Recomenda-se que as linhas de tendência sejam aplicadas aos dados que não incluem datas atuais (dados parciais) ou futuras, já que isso distorcerá a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar inclinações para esses dias. Para fazer isso, vá para a tabela de fonte de dados da visualização, escolha sua coluna de métrica e ative Configurações **[!UICONTROL de]** coluna > **[!UICONTROL Interpretar zero como nenhum valor]**.
 
 ![Linha de tendência linear](assets/show-linear-trendline.png)
 
@@ -54,4 +54,4 @@ Todas as tendências do modelo de regressão são são ajustadas usando quadrado
 | Exponencial | Cria uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
 | Potência | Cria uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam a uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
 | Quadrático | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
-| Média móvel | Cria uma linha de tendência suave com base em um conjunto de médias. Os exemplos incluem média móvel de 7 dias ou média móvel de 4 semanas. Também conhecida como uma média móvel, uma média móvel calcula a média de um intervalo anterior, usa isso como ponto de dados da linha de tendência e, em seguida, move para o próximo período para repetir. A entrada &#39;Períodos&#39; define o intervalo para calcular a média. |
+| Média móvel | Cria uma linha de tendência suave com base em um conjunto de médias. Também conhecida como média móvel, uma média móvel usa um número específico de pontos de dados (determinado pela seleção de &quot;Períodos&quot;), faz a média deles e usa a média como um ponto na linha. Os exemplos incluem média móvel de 7 dias ou média móvel de 4 semanas. |
