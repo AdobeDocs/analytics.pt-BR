@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Criar um projeto do Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) ao painel de forma livre.
 
-Esse artigo explica os elementos da interface do Analysis Workspace e mostra como criar um projeto. Para casos de uso específicos, consulte os [Casos de uso para o Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Esse artigo explica os elementos da interface do Analysis Workspace e mostra como criar um projeto.
 
 ## Crie um projeto
 
@@ -117,7 +117,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso do Analysis Workspace</a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
