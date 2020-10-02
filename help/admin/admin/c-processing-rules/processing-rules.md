@@ -5,10 +5,10 @@ title: Visão geral das regras de processamento
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ O processamento de regras simplifica a coleta de dados e o gerenciamento do cont
 * Limpar seções do site com erros de ortografia
 * Puxar termos de pesquisa internos ou uma ID de campanha da string de consulta para uma eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Assista à visão geral das Regras de processamento e o treinamento do Adobe Summit para saber por que você deve utilizar as regras de processamento.*
+## Permissões de regras de processamento {#section_8A4846688050453784DAE4D89355169A}
 
-## Receber autorização para utilizar as regras de processamento {#section_8A4846688050453784DAE4D89355169A}
-
-Antes de 20 de abril de 2017, todos os usuários (incluindo administradores) tinham que ser aprovados em uma prova e receber autorização do Atendimento ao cliente da Adobe para usar as regras de processamento.
-
-Agora, os administradores têm direito de usar as regras de processamento **por padrão**. A prova não é mais necessária. Os administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Veja como:
-
-1. Caso ainda não tenha feito, [crie um grupo](/help/admin/user-management2/c-user-groups/groups.md) que inclua apenas aqueles não administradores que devem ter autorização para usar as regras de processamento.
-1. [Adicione os não administradores a esse grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Em seguida, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL `group name`]** > **[!UICONTROL Editar]** > **[!UICONTROL Acesso a relatórios]** > **[!UICONTROL Ferramentas do conjunto de relatórios]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Gerenciamento do conjunto de relatórios]**.
-1. Marque a caixa ao lado de [!UICONTROL Regras de processamento] e clique em **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Os administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Para obter instruções, consulte []
 
 ![](assets/processing-rules.png)
 
