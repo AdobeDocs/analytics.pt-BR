@@ -1,11 +1,11 @@
 ---
 title: Configurar o Cross-device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ Os administradores com acesso para criar conjuntos de relatórios virtuais podem
 Quando o Cross-Device Analytics estiver ativado em um conjunto de relatórios virtual, observe as seguintes alterações:
 
 * Um novo ícone entre dispositivos é exibido ao lado do nome do conjunto de relatórios virtual. Esse ícone é exclusivo para conjuntos de relatórios virtuais entre dispositivos.
-* Uma nova dimensão chamada &quot;Estado identificado&quot; está disponível. Essa dimensão determina se a Experience Cloud ID dessa ocorrência é conhecida pelo gráfico do dispositivo nesse momento.
-* Novas métricas chamadas &quot;Pessoas&quot; e &quot;Dispositivos únicos&quot; estão disponíveis.
-* A métrica &quot;Visitantes únicos&quot; não está disponível, pois foi substituída por &quot;Pessoas&quot; e &quot;Dispositivos únicos&quot;.
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Essa dimensão determina se a Experience Cloud ID dessa ocorrência é conhecida pelo gráfico do dispositivo nesse momento.
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * Ao criar segmentos, o contêiner de segmento &quot;Visitante&quot; é substituído pelo contêiner &quot;Pessoa&quot;.
