@@ -1,11 +1,11 @@
 ---
 title: Visitantes únicos
-description: O número de indivíduos únicos (ou dispositivos).
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+description: O número de IDs de visitante exclusivas.
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 A métrica “Visitantes únicos” mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda assim contam como um único visitante exclusivo.
 
-Se você usar a [Análise entre dispositivos](../cda/overview.md), essa métrica será renomeada para &quot;Dispositivos exclusivos&quot;.
+Se você usar análises [](../cda/overview.md)entre dispositivos, essa métrica será substituída pela métrica de dispositivos [](unique-devices.md) únicos.
 
 ## Visitantes únicos diários, semanais, mensais, trimestrais e anuais
 
