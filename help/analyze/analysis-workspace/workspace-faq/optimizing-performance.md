@@ -3,10 +3,10 @@ description: 'null'
 title: Otimizar o desempenho do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ O tipo de visualização (por exemplo, fallout ou tabela de forma livre) adicion
 * Intervalo de dados solicitados, como mencionado acima
 * Números de segmentos aplicados, por exemplo, segmentos usados como linhas de uma tabela de forma livre
 * Uso de segmentos intricados
-* [Linhas ou colunas de itens estáticas em tabelas de forma livre](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [Linhas ou colunas de itens estáticas em tabelas de forma livre](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * Filtros aplicados a linhas em tabelas de forma livre
 * Número de métricas incluídas, métricas especialmente calculadas que usam segmentos
 
@@ -99,10 +99,10 @@ O número de usuários simultâneos do Analysis Workspace ou de projetos especí
 Você pode encontrar erros ao interagir com o Analysis Workspace. Os erros podem ocorrer por vários motivos. Veja abaixo os mais comuns.
 
 | Mensagem de erro | Por que isso ocorre? |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Os fatores que contribuem para esse erro são solicitações de API, projetos agendados, relatórios agendados, alertas agendados e usuários simultâneos que fazem solicitações de relatórios. Recomendamos que suas solicitações e agendamentos para o conjunto de relatórios sejam distribuídos de forma mais uniforme ao longo do dia. |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | A Adobe está enfrentando um problema que precisa ser resolvido. Recomendamos que você envie o código de erro por meio de uma solicitação do Atendimento ao cliente. |
-| `The request is too complex.` | Sua solicitação de relatório é muito grande e não pode ser executada. Os fatores que contribuem para esse erro são o tamanho da solicitação (provocando expiração do tempo), muitos itens correspondentes em um segmento ou filtro de pesquisa, muitas métricas incluídas, combinações de dimensão e métrica incompatíveis etc. Recomendamos que você simplifique sua solicitação. |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Recomendamos restringir seus critérios de texto de pesquisa e tentar a solicitação novamente. |
-| `This dimension does not currently support non-default attribution models.` | Recomendamos a substituição da dimensão na tabela por uma que seja compatível com o [Attribution IQ](../attribution/overview.md). |
-| `Your request failed as a result of too many columns or pre-configured rows.` | Recomendamos remover algumas colunas ou linhas, ou dividir em visualizações separadas. |
+| --- | --- |
+| [!UICONTROL O conjunto de relatórios está apresentando um volume excessivo anormal. Tente novamente mais tarde.] | Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Os fatores que contribuem para esse erro são solicitações de API, projetos agendados, relatórios agendados, alertas agendados e usuários simultâneos que fazem solicitações de relatórios. Recomendamos que suas solicitações e agendamentos para o conjunto de relatórios sejam distribuídos de forma mais uniforme ao longo do dia. |
+| [!UICONTROL Ocorreu um erro de sistema. Registre uma solicitação de Atendimento ao cliente em Ajuda > Enviar tíquete de suporte e inclua seu código de erro.] | A Adobe está enfrentando um problema que precisa ser resolvido. Recomendamos que você envie o código de erro por meio de uma solicitação do Atendimento ao cliente. |
+| [!UICONTROL A solicitação é muito complexa.] | Sua solicitação de relatório é muito grande e não pode ser executada. Os fatores que contribuem para esse erro são o tamanho da solicitação (provocando expiração do tempo), muitos itens correspondentes em um segmento ou filtro de pesquisa, muitas métricas incluídas, combinações de dimensão e métrica incompatíveis etc. Recomendamos que você simplifique sua solicitação. |
+| [!UICONTROL Um dos segmentos ou a pesquisa nesta visualização contém uma pesquisa de texto que retornou muitos resultados.] | Recomendamos restringir seus critérios de texto de pesquisa e tentar a solicitação novamente. |
+| [!UICONTROL No momento, esta dimensão não oferece suporte a modelos de atribuição não-padrão.] | Recomendamos a substituição da dimensão na tabela por uma que seja compatível com o [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL Sua solicitação falhou como resultado de muitas colunas ou linhas pré-configuradas.] | Recomendamos remover algumas colunas ou linhas, ou dividir em visualizações separadas. |
