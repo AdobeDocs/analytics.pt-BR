@@ -2,7 +2,7 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 94%
@@ -11,10 +11,6 @@ ht-degree: 94%
 
 
 # Guia do curador para painéis do Adobe Analytics
-
->[!IMPORTANT]
->
->A partir de outubro de 2020, o Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;painéis Adobe Analytics&quot;. Esses aprimoramentos centralizam-se no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se desejar opt out esses recursos de melhoria de desempenho.
 
 As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para assistir a um vídeo que demonstra essas informações, consulte o vídeo do Adobe Analytics painel Scorecard Builder:
 
@@ -263,3 +259,7 @@ Toque na opção e escolha uma subcategoria para a sugestão. No formulário de 
 **Para fazer uma pergunta**:
 
 Toque na opção e informe o endereço de email no campo superior e a pergunta no campo abaixo. Uma captura de tela é anexada automaticamente à mensagem, mas você pode excluí-la se desejar tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a pergunta, toque no ícone de plano de papel na parte superior direita do formulário.
+
+>[!IMPORTANT]
+>
+>A partir de outubro de 2020, o Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;painéis Adobe Analytics&quot;. Esses aprimoramentos centralizam-se no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se desejar opt out esses recursos de melhoria de desempenho.
