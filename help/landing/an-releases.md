@@ -1,18 +1,18 @@
 ---
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Versões de recursos do Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Versões de recursos do Adobe Analytics
 
-Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. A partir de abril de 2020, a Adobe Analytics mudou-se para um modelo de delivery contínuo que permite uma abordagem mais escalonável e em fases para a implantação de recursos.
+Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. Em abril de 2020, o Adobe Analytics migrou para um modelo de delivery contínuo que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
 ## Estratégia de lançamento
 
@@ -28,9 +28,9 @@ Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O obje
 
 ## Sinalizadores de recurso
 
-Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante a versão. A Adobe recomenda adicionar app.launch.darkly.com à [lista de permissões](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) do firewall para obter uma experiência ideal durante o lançamento. Logo após o GA ser atingido, o sinalizador é removido.
+Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. A Adobe recomenda adicionar app.launch.darkly.com à [lista de permissões](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/ip-addresses.html) do firewall para obter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
 
-Você pode visualização seus sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre a Workspace > Sinalizadores** de recursos ativos.
+Você pode visualizar os sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre o Workspace > Sinalizadores de recursos ativos**.
 
 ## Benefícios
 
