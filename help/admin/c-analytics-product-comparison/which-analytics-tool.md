@@ -2,11 +2,11 @@
 description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -28,12 +28,15 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Para configurar eventos do Calendário.
 * Para configurar Metas.
 * Para visualizar relatórios de Bot.
-* Para acessar visualizações exclusivas de Vídeo referentes a Visualizadores simultâneos, Período de transmissão de vídeo, e Abandono do visualizador.
+* Para acessar visualizações de vídeo exclusivas do Disparo de horário e do visualizador.
 * Para aproveitar Listas de publicação em relatórios agendados.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** deve ser usada:
 
-* Para exportar 50.000 linhas de dados
+>[!IMPORTANT]
+>
+>A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
+
 * Se a organização da guia de trabalho do projeto for necessária.
 * Para usar o relatório de Análise do site (relatório de definição de caminho 3D).
 
