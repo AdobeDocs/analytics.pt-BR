@@ -2,18 +2,23 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 100%
+source-wordcount: '2376'
+ht-degree: 94%
 
 ---
 
 
-
 # Guia do curador para painéis do Adobe Analytics
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para ver um vídeo demonstrando essas informações, consulte [Construtor de scorecard dos painéis do Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>A partir de outubro de 2020, o Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;painéis Adobe Analytics&quot;. Esses aprimoramentos centralizam-se no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se desejar opt out esses recursos de melhoria de desempenho.
+
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para assistir a um vídeo que demonstra essas informações, consulte o vídeo do Adobe Analytics painel Scorecard Builder:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introdução
 
@@ -38,25 +43,20 @@ A tabela a seguir descreve os termos para entender o público-alvo, as funções
 | Intervalo de datas | O intervalo de datas principal dos relatórios de painéis |
 | Intervalo de datas de comparação | O Intervalo de datas comparado ao intervalo de datas principal |
 
- 
 ## Criar um Scorecard para usuários executivos
 
 Um Scorecard exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
 
-
 ![Exemplo de scorecard](assets/intro_scorecard.png)
-
 
 Como curador deste Scorecard, você pode usar o Construtor de scorecards para configurar quais blocos são exibidos no Scorecard para o consumidor. Você também configura como as exibições detalhadas ou os Detalhamentos podem ser ajustados quando os blocos forem tocados. A interface do Construtor de scorecards é mostrada abaixo:
 
 ![Construtor de scorecards](assets/scorecard_builder.png)
 
-
 Para criar o Scorecard, é necessário fazer o seguinte:
 
 1. Acesse o modelo de Scorecard para dispositivos móveis em branco.
 2. Configure o Scorecard com os dados e salve.
-
 
 ### Acesse o modelo de Scorecard para dispositivos móveis em branco
 
@@ -151,7 +151,7 @@ Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos pain
 
 Se você atualizar o Scorecard adicionando novos componentes, convém compartilhar o scorecard novamente (e marcar a opção **Compartilhar componentes inseridos**) para garantir que os usuários executivos tenham acesso a essas alterações.
 
-## Configure os usuários executivos com o aplicativo
+## Configurar usuários executivos com o aplicativo
 
 Em alguns casos, os usuários executivos podem precisar de assistência adicional para acessar e usar o aplicativo. Esta seção fornece informações para ajudá-lo a prestar essa assistência.
 
@@ -205,7 +205,7 @@ Para ajudar usuários executivos:
    * Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 
-3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o primeiro Scorecard abaixo é definido no modo escuro; consulte **Preferências** abaixo se você achar que o usuário executivo prefere esta opção de visualização):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![Explicar blocos](assets/newexplain.png)
 
