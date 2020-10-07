@@ -1,11 +1,11 @@
 ---
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
-translation-type: ht
-source-git-commit: eb2bee26dd58dcff13b4ddf41c6f6ab337d8d374
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
