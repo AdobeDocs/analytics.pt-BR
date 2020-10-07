@@ -1,11 +1,11 @@
 ---
 description: Importe dados de rastreamento de aplicativos de terceiros para o Analytics.
 title: Introdução aos conectores de dados do Analytics
-translation-type: ht
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 98%
 
 ---
 
@@ -86,8 +86,9 @@ Para implementar segmentos de recomercialização com sucesso, é preciso atende
 
 >[!NOTE]
 >
->Se o produto for definido sem um evento associado, o evento prodView será acionado automaticamente.
-Caso as exigências acima não sejam atendidas, os segmentos de remarketing correspondentes não serão apresentados corretamente.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>Caso as exigências acima não sejam atendidas, os segmentos de remarketing correspondentes não serão apresentados corretamente.
 
 [!UICONTROL Abandono do carrinho]: lançado quando o usuário adiciona um produto ao carrinho:
 
