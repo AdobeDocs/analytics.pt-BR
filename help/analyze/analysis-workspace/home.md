@@ -4,10 +4,10 @@ title: Visão geral do Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ A Analysis Workspace é uma ferramenta de navegador flexível que permite criar 
 
 Se você tiver apenas alguns minutos, assista a esta breve visão geral para ver o que é possível.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Faça logon no Adobe Analytics {#login}
 
@@ -46,7 +46,7 @@ No projeto da Workspace, **painéis, tabelas, visualizações e componentes** s�
 
 ### Componentes
 
-**Os componentes** são dimensões, métricas, segmentos ou intervalos de datas, todos os quais podem ser combinados em uma tabela **[!UICONTROL de forma]** livre para o start que responde às suas perguntas comerciais. Familiarize-se com cada tipo [de](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) componente antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para [criar sua análise](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma tabela **[!UICONTROL de]** forma livre.
+**Os componentes** são dimensões, métricas, segmentos ou intervalos de datas, todos os quais podem ser combinados em uma tabela **[!UICONTROL de forma]** livre para o start que responde às suas perguntas comerciais. Familiarize-se com cada tipo [de](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) componente antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para [criar sua análise](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma tabela **[!UICONTROL de]** forma livre.
 
 ![](assets/build-components.png)
 
