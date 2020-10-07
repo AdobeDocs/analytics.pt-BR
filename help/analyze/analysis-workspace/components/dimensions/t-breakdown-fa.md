@@ -5,7 +5,7 @@ title: Analisar dimensões
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 83%
@@ -19,7 +19,7 @@ Analise dimensões e itens de dimensão no Analysis Workspace.
 
 Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades específicas; crie consultas usando métricas, dimensões, segmentos, linhas do tempo e outros valores de detalhamento de análise relevantes.
 
-1. [Crie um projeto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) com uma tabela de dados.
+1. [Crie um projeto](/help/analyze/analysis-workspace/home.md) com uma tabela de dados.
 1. Na tabela de dados, clique com o botão direito em um item da linha e selecione **[!UICONTROL Detalhamento]** > *`<item>`*.
 
    ![Resultado da etapa](assets/fa_data_table_actions.png)
