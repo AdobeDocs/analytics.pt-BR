@@ -3,9 +3,9 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 99%
 
 ---
@@ -414,8 +414,7 @@ Novo recurso e melhorias lançados em 8 de fevereiro de 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Modelos personalizados do Workspace </a> </p> </td> 
    <td colname="col2"> <p>Agora é possível criar seus próprios modelos do Workspace e salvá-los para que outros usuários da organização possam começar com dados relevantes. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Inicialização modal de Novo projeto </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Clicar em “novo projeto” abre uma nova tela com a opção de começar com um </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">projeto em branco ou </li> 
@@ -498,7 +497,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
    <td colname="col2"> <p>A visualização de mapas, introduzida em outubro de 2017, agora pode ser renderizada em PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Links internos relativos</a> ao copiar/salvar como projeto </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Links internos relativos</a> ao copiar/salvar como projeto </p> </td> 
    <td colname="col2"> <p>Anteriormente, ao copiar um projeto ou usar o recurso “Salvar como”, todos os links internos salvos no projeto vinculavam o projeto original, não a cópia. </p> <p>Os links internos agora vinculam o projeto em que se encontram, uma vez feita a cópia ou usada a opção “Salvar como”. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Novos recursos lançados em 26 de outubro de 2017.
    <td colname="col2"> <p>Se houver visualizações conectadas a uma tabela de forma livre ou de coorte, o ponto mais à esquerda (Configurações de fonte de dados) agora listará as visualizações conectadas. Passar o mouse destacará a visualização vinculada e clicar nela levará você para o link especificado. </p> <p>Além disso, há uma caixa de seleção “Mostrar/ocultar tabela de dados” que permite mostrar ou ocultar a tabela de dados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Adição do número do evento aos nomes de evento no painel esquerdo </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Adição do número do evento aos nomes de evento no painel esquerdo </a> </p> </td> 
    <td colname="col2"> <p>Antes de outubro de 2017, evar# e prop# eram adicionados aos nomes das dimensões e você podia pesquisar por tais números. A mesma funcionalidade agora está disponível para eventos. </p> <p>Exemplo: “Assinaturas” agora é exibido no trilho esquerdo como “Assinaturas (evento1)”. </p> <p>Lembre-se: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">O número do evento não é mostrado na tabela (para manter os títulos curtos). </li> 
@@ -576,7 +575,7 @@ Novos recursos lançados em 26 de outubro de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Dimensões prontas para uso classificadas em ordem lógica (por padrão) </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Dimensões prontas para uso classificadas em ordem lógica (por padrão) </a> </p> </td> 
    <td colname="col2"> <p>A ordem de classificação padrão de algumas dimensões não incluídas foi atualizada nos seguintes casos: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Quando são arrastados a uma tabela de forma livre. </li> 
@@ -677,7 +676,7 @@ Novos recursos lançados em 17 de agosto de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Adicionar tag a um projeto ao salvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Adicionar tag a um projeto ao salvar </a> </p> </td> 
    <td colname="col2"> <p>Agora, é possível adicionar uma tag a um projeto ao salvá-lo. </p> </td> 
   </tr> 
   <tr> 
