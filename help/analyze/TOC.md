@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
    + [Novidades no Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Criar projetos da Workspace {#build-workspace-project}
+   + Criar projetos no Workspace {#build-workspace-project}
       + [Criar projeto - visão geral](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [Painel de atribuição](analysis-workspace/c-panels/attribution.md)
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Painel Visualizadores simultâneos de mídia](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Painel de visualizadores simultâneos de mídia](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Painel de comparação de segmentos {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -91,10 +91,10 @@ ht-degree: 97%
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Prepare ou compartilhe projetos {#curate-share}
       + [Menu Compartilhar](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Preparar projetos](analysis-workspace/curate-share/curate.md)
+      + [Preparar projetos do ](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos](analysis-workspace/curate-share/share-projects.md)
       + [Criar links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
-      + [projetos somente visualização](analysis-workspace/curate-share/view-only-projects.md)
+      + [Projetos do somente para visualização](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar arquivos PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Agendar projetos](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
@@ -239,7 +239,7 @@ ht-degree: 97%
       + [Solução de problemas de integração do Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Pacotes de conteúdo do Adobe Analytics para o Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Macros do Visual Basic](report-builder/vba.md)
-   + [solução de problemas de Report Builder](report-builder/troubleshoot.md)
+   + [Solução de problemas do Report Builder](report-builder/troubleshoot.md)
    + [Perguntas frequentes sobre o Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Visão geral do Activity Map](activity-map/activity-map.md)
@@ -271,7 +271,7 @@ ht-degree: 97%
    + [Definir configurações do Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interface do usuário do Activity Map](activity-map/activitymap-user-interface.md)
    + [Relatórios do Activity Map no Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Solução de problemas de extensão do navegador](activity-map/troubleshooting-browser-extensions.md)
+   + [Solução de problemas da extensão do navegador](activity-map/troubleshooting-browser-extensions.md)
    + [Solução de problemas de coleta de dados](activity-map/troubleshoot-data-collection.md)
    + [Recursos de conhecimento](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
