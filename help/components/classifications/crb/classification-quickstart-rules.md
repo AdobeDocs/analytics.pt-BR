@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Regras de classificação
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
 
@@ -327,10 +327,13 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >[!NOTE]
    >
    >Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
-
-   * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
-
+   >
+   >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
+      >
+      >   
+      (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >
    * Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
 
