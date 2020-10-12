@@ -325,7 +325,8 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    A página **[!UICONTROL Selecionar Conjuntos de relatórios]** é exibida.
 
    >[!NOTE]
-   Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
+   >
+   >Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
 
    * Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
    (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
