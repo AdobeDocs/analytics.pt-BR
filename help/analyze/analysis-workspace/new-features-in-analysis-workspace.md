@@ -3,22 +3,48 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 99%
+source-wordcount: '8103'
+ht-degree: 98%
 
 ---
 
 
 # Novidades no Analysis Workspace
 
+Para obter acesso às Notas de versão da Adobe Experience Cloud como um todo, vá [aqui](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html).
+
+## Outubro de 2020
+
+Novos recursos lançados em outubro de 2020.
+
+| Recurso | Descrição |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha.]** Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado por uma seleção de **[!UICONTROL Períodos]** ), faz a média deles e usa a média como um ponto na linha. |
+| [Página de ajuda para desempenho](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. |
+
+## Setembro de 2020
+
+Novos recursos lançados em setembro de 2020.
+
+| Recurso | Descrição |
+| --- | --- |
+| [baixe 50 mil itens para uma única dimensão](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Agora é possível baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
+| [Melhorias na visualização de linha](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de Linha. Pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> |
+| Novos intervalos de datas | Adicionamos 5 novos intervalos de datas para que você possa escolher entre os intervalos de datas que não incluem dados de dia parcial de hoje: Últimos 7 dias completos, Últimos 14 dias completos, Últimos 30 dias completos, Últimos 60 dias completos, Últimos 90 dias completos |
+
+
+## Agosto de 2020
+
+Nenhum recurso novo lançado em agosto de 2020.
+
 ## Julho de 2020
 
 Novo recurso lançado em 16 de julho de 2020.
 
 | Recurso | Descrição |
-|--- |--- |
+| --- | --- |
 | Novas predefinições de intervalo de datas | Foram adicionados 4 novos intervalos de datas: ([!UICONTROL Esta semana/mês/trimestre/ano (exceto hoje)]). Agora, é possível escolher entre intervalos de datas que não incluem dados parciais do dia de hoje. |
 
 ## Junho de 2020
@@ -115,7 +141,7 @@ Melhorias lançadas em 18 de julho de 2019.
 Melhorias lançadas em 13 de junho de 2019.
 
 | Aprimoramento | Descrição |
-|--- |--- |
+| --- |--- |
 | Novos filtros prontos para uso | Adição de novos filtros prontos para uso na pesquisa do painel à esquerda. Além do que você vê hoje (Dimensões, Métricas, Aprovado etc.), novos filtros como Métricas calculadas, Atributos do cliente, eVars, Props, Vídeo etc. foram adicionados para facilitar a localização dos componentes necessários. |
 
 ## Maio de 2019
@@ -207,6 +233,7 @@ Novos recursos e melhorias lançados em 13 de setembro de 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## Agosto de 2018
 
 Novos recursos e melhorias lançados em 9 de agosto de 2018.
