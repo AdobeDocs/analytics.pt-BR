@@ -3,7 +3,7 @@ description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 98%
@@ -30,10 +30,9 @@ Novos recursos lançados em setembro de 2020.
 
 | Recurso | Descrição |
 | --- | --- |
-| [baixe 50 mil itens para uma única dimensão](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Agora é possível baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
+| [Baixe 50 mil itens para uma única dimensão](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Agora é possível baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
 | [Melhorias na visualização de linha](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de Linha. Pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> |
 | Novos intervalos de datas | Adicionamos 5 novos intervalos de datas para que você possa escolher entre os intervalos de datas que não incluem dados de dia parcial de hoje: Últimos 7 dias completos, Últimos 14 dias completos, Últimos 30 dias completos, Últimos 60 dias completos, Últimos 90 dias completos |
-
 
 ## Agosto de 2020
 
