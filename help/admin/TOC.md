@@ -2,12 +2,12 @@
 product: analytics
 audience: admin
 user-guide-title: Guia de administração do Analytics
-breadcrumb-title: Admin Guide
-user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
+breadcrumb-title: Guia de administração
+user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '721'
 ht-degree: 99%
 
 ---
