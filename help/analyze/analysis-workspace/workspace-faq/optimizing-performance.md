@@ -3,15 +3,15 @@ description: Fatores que afetarão o desempenho e as otimizações do Workspace 
 title: Fatores de desempenho e otimização da Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
 
-# Otimizar o desempenho do Analysis Workspace
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 Vários fatores podem influenciar o desempenho de um projeto dentro da Analysis Workspace. É importante saber quais são os contribuidores antes de você start construir um projeto para que você possa planejar e construir o projeto da maneira mais ideal. Esta página inclui uma lista de fatores que afetarão o desempenho e as otimizações que você pode fazer para garantir o desempenho máximo no Analysis Workspace.
 
@@ -19,9 +19,10 @@ Vários fatores podem influenciar o desempenho de um projeto dentro da Analysis 
 >
 >A página Desempenho no Analysis Workspace está em versão limitada. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html)
 
-## Ajuda > Desempenho no Analysis Workspace
+## [!UICONTROL Ajuda] > [!UICONTROL Desempenho] no Analysis Workspace
 
-Em **[!UICONTROL Analysis Workspace > Ajuda > Desempenho]**, você pode ver fatores que afetam o desempenho do seu projeto, incluindo fatores de rede, navegador e projeto. Para obter os resultados mais precisos, permita que o projeto seja totalmente carregado antes de abrir a página Desempenho.
+Em **Analysis Workspace > [!UICONTROL Ajuda] > [!UICONTROL Desempenho]**, você pode ver fatores que afetam o desempenho do seu projeto, incluindo fatores de rede, navegador e projeto. Para obter os resultados mais precisos, permita que o projeto seja totalmente carregado antes de abrir a página Desempenho.
+
 * A coluna Projeto atual exibe os resultados do seu projeto atual e do ambiente do usuário.
 * A coluna Orientação exibe o limite recomendado de Adobe para cada fator.
 
@@ -35,7 +36,7 @@ Além disso, você pode **Baixar como CSV** o conteúdo de desempenho para compa
 
 ## Fatores de rede
 
-Ajuda > Os fatores de desempenho da rede incluem:
+[!UICONTROL Ajuda] > Fatores de rede [!UICONTROL de desempenho] incluem:
 
 | Fator | Definição | Influenciado por | Otimização |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Ajuda > Os fatores de desempenho da rede incluem:
 
 ## Fatores do navegador
 
-Ajuda > Os fatores do navegador de desempenho incluem:
+[!UICONTROL Ajuda] > Fatores [!UICONTROL de desempenho] do navegador incluem:
 
 | Fator | Definição | Influenciado por | Otimização |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Ajuda > Os fatores do navegador de desempenho incluem:
 
 ## Fatores de projeto
 
-Ajuda > Fatores de projeto de desempenho incluem:
+[!UICONTROL Ajuda] > Fatores de projeto [!UICONTROL de desempenho] incluem:
 
 | Fator | Definição | Otimização |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Você pode encontrar erros ao interagir com a Analysis Workspace que também inf
 | [!UICONTROL Ocorreu um erro de sistema. Registre uma solicitação de Atendimento ao cliente em Ajuda > Enviar tíquete de suporte e inclua seu código de erro.] | A Adobe está enfrentando um problema que precisa ser resolvido. | Envie o código de erro ao Atendimento ao cliente. |
 | [!UICONTROL A solicitação é muito complexa.] | Sua solicitação de relatório é muito grande e não pode ser executada. Os fatores que contribuem para esse erro são o tamanho da solicitação (provocando expiração do tempo), muitos itens correspondentes em um segmento ou filtro de pesquisa, muitas métricas incluídas, combinações de dimensão e métrica incompatíveis etc. | Simplifique sua solicitação removendo algumas colunas ou linhas na tabela ou considere dividir a tabela em solicitações separadas. |
 | [!UICONTROL Um dos segmentos ou a pesquisa nesta visualização contém uma pesquisa de texto que retornou muitos resultados.] | O critério do segmento ou o filtro de relatório é muito amplo. | Restrinja seus critérios de texto de pesquisa e tente a solicitação novamente. |
-| [!UICONTROL No momento, esta dimensão não oferece suporte a modelos de atribuição não-padrão.] | Não há suporte para atribuição não padrão para a dimensão que você está usando. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL No momento, esta dimensão não oferece suporte a modelos de atribuição não-padrão.] | Não há suporte para atribuição não padrão para a dimensão que você está usando. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Sua solicitação falhou como resultado de muitas colunas ou linhas pré-configuradas.] | Sua tabela tem muitas células de forma livre (linha * colunas). | Remova colunas ou linhas na tabela ou considere dividir a tabela em solicitações separadas. |
