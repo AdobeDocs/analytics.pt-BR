@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: Gerenciador do painel
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar 
 >[!IMPORTANT]
 >
 >A prática recomendada ao usar o Gerenciador de painel é ter no máximo 300 painéis para qualquer usuário. Além disso, observe que o gerenciador carrega todos os painéis compartilhados abaixo, portanto, seja criterioso em compartilhar painéis.
-
-## Gerenciador do painel
-
-Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar a entrega de painéis.
 
 Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Painéis]**.
 
