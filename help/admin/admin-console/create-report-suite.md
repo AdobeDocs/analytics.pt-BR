@@ -1,9 +1,9 @@
 ---
 title: Criar um novo conjunto de relatórios
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 
 [Guia do primeiro administrador do Adobe Analytics](first-admin-guide.md): verifique se um administrador de nível de sistema concedeu acesso ao Adobe Analytics por meio do Admin Console da Experience Cloud
 
-## Criar um novo conjunto de relatórios
+## Criar um novo conjunto de relatórios {#create-report-suite}
 
 >[!NOTE]
 >
