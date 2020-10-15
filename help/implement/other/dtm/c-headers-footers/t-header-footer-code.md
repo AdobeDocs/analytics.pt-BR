@@ -5,7 +5,7 @@ title: Adicionar o código do cabeçalho e do rodapé
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ O Dynamic Tag Management cria códigos de incorporação para preparo e produç�
 
 1. Copie o código do rodapé de produção e coloque-o na seção [!DNL BODY] do HTML do site.
 
-   Coloque o código o mais próximo possível da [!DNL </body>] tag possível.
+   Coloque o código o mais próximo possível da `</body>` possível.
 1. Copie o código do cabeçalho e do rodapé de armazenamento temporário e repita as etapas acima no site de armazenamento temporário.
 
    >[!NOTE]
