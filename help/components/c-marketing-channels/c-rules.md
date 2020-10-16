@@ -1,11 +1,11 @@
 ---
 title: Regras de processamento de canais de marketing
 description: As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal. As regras processam cada ocorrência que um visitante faz ao seu site. Se uma regra não atender aos critérios de um canal, ou se elas não forem configuradas corretamente, o sistema atribui a ocorrência a Nenhum canal identificado.
-translation-type: ht
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+workflow-type: tm+mt
+source-wordcount: '2138'
+ht-degree: 90%
 
 ---
 
@@ -32,8 +32,6 @@ Observações adicionais sobre o processamento:
 
 Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorrência de visitante atende aos critérios atribuídos a um canal.
 
-Este procedimento utiliza uma regra de email como exemplo. O exemplo assume que você adicionou um canal de email à lista de canais na página do Gerenciador de canal marketing.
-
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 2. Selecione um conjunto de relatórios.
 
@@ -41,17 +39,15 @@ Este procedimento utiliza uma regra de email como exemplo. O exemplo assume que 
 
    Consulte [Executar a configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**.
+3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**. Se você executou a configuração automática, um conjunto de canais e regras foram automaticamente definidos para você.
 
    ![Resultado da etapa](assets/marketing_channel_rules.png)
 
-4. Em **[!UICONTROL Adicionar novo conjunto de regras]**, selecione **[!UICONTROL Email]**.
-
-   Ao fazer isso, você não está selecionando o canal, mas um modelo que preenche a regra com alguns dos parâmetros necessários. Você pode modificar esse modelo conforme necessário.
+4. Se desejar adicionar uma nova regra, selecione no menu **[!UICONTROL Adicionar novo conjunto]** de regras. Se você selecionar um canal, você receberá um modelo de regra e, se selecionar Personalizado, um start de uma barra em branco. Ambas as opções permitem modificar o conjunto de regras conforme necessário.
 
    ![Resultado da etapa](assets/example_email.png)
 
-5. Para continuar criando regras, clique em **[!UICONTROL Adicionar regra]**.
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. Para criar prioridades de regras, arraste-as e solte-as na posição desejada.
 7. Clique em **[!UICONTROL Salvar]**.
 
@@ -59,13 +55,17 @@ Continue nesta página para ver as recomendações para a ordem das regras do ca
 
 ### Definir o valor do canal de marketing
 
-**[!UICONTROL Adicionar regra]****Definir o valor do canal** define a dimensão de detalhes do canal de marketing que está disponível para esse canal. Essa ação permite detalhar as dimensões do canal de marketing e ver informações mais detalhadas sobre o canal.
+**[!UICONTROL Defina o valor]** do canal para definir a dimensão de detalhes do canal de marketing que está disponível para esse canal. Essa ação permite detalhar as dimensões do canal de marketing e ver informações mais detalhadas sobre o canal.
 
 Recomenda-se que o valor do canal seja definido com os mesmos critérios utilizados para definir o próprio canal. Por exemplo, se o parâmetro da sequência de consulta for utilizado para definir o canal, defina também o parâmetro da sequência de consulta como o valor do canal.
 
 ### Critérios da regra
 
 Essa tabela de referência define os campos, as opções e os atributos de ocorrência que podem ser utilizados para definir as Regras de processamento de canal de marketing.
+
+>[!NOTE]
+>
+>Qualquer campo de texto definido, como parâmetro de string de query ou listas de valores para correspondência, são avaliados como valores que não diferenciam **maiúsculas de minúsculas** . Por exemplo, se você tiver uma regra na qual o parâmetro de string de query cmp = abc123, todas as versões de &#39;cmp&#39; e &#39;abc123&#39; corresponderão à regra. Não é necessário lista de várias versões em maiúsculas e minúsculas desses valores.
 
 | Termo | Definição |
 |--- |--- |
@@ -88,7 +88,7 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 | Domínio raiz da página (TLD+1) | O domínio raiz da página onde o visitante chega como, por exemplo, example.co.uk . |
 | URL da página | O URL da página da Web de seu site. |
 | Domínio de referência | O domínio de onde seus visitantes vieram antes visitarem seu site, por exemplo, referenciadores vindos de `abcsite.com` x `xyzsite.com`. |
-| Parâmetro da sequência de caracteres de consulta | Se uma URL de página no seu site se parece com `https://example.com/?page=12345&cat=1`, page e cat serão os parâmetros da sequência de caracteres de consulta. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use `ANY` como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. |
+| Parâmetro da sequência de caracteres de consulta | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use `ANY` como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. Os parâmetros da string de query são avaliados como não diferenciando maiúsculas de minúsculas; por exemplo, &quot;cat&quot; e &quot;CAT&quot; serão avaliados da mesma forma. |
 | Referenciador | O local da página da Web (URL completo) onde seus visitantes estavam antes de chegarem ao seu site. O referenciador existe fora do seu domínio definido. |
 | Domínio e caminho de referência | A concatenação de domínio de referência e caminho de URL. Os exemplos incluem:    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Parâmetro de referência | Um parâmetro da sequência de consulta no URL do referenciador. Por exemplo, se seus visitantes vêm de `example.com/?page=12345&cat=1`, page e cat são os parâmetros de referência. |
@@ -130,7 +130,7 @@ Para a regra de canal de marketing, as configurações de Pesquisa natural são 
 
 ### Exibir {#display}
 
-Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta na URL de destino, neste caso *`Ad_01`*.
+Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta na URL de destino, neste caso *`Ad_01`*. O parâmetro de string de query e os valores que ele procura são avaliados como valores que não diferenciam maiúsculas de minúsculas.
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ Uma prática recomendada é incluir um canal de &quot;Outras campanhas&quot; seg
 
 ### Redes sociais {#social-networks}
 
-Esta regra identifica os visitantes que se originam de uma rede social, como o Facebook*. Muitas vezes, o canal é renomeado para Social orgânico. As configurações podem ser as seguintes:
+Esta regra identifica os visitantes que se originam de uma rede social, como o Facebook;. Muitas vezes, o canal é renomeado para Social orgânico. As configurações podem ser as seguintes:
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ Essa regra identifica os visitantes cujo URL de referência corresponde à confi
 
 ![](assets/int-channel1.png)
 
-Consulte [Motivos para interno (Atualização de sessão)](https://docs.adobe.com/content/help/pt-BR/analytics/components/marketing-channels/c-faq.html) para obter mais informações sobre por que esse canal ocorre.
+Consulte [Motivos para interno (Atualização de sessão)](https://docs.adobe.com/content/help/pt-BR/analytics/components/marketing-channels/c-faq.html#internal) para obter mais informações sobre por que esse canal ocorre.
 
 ### Direta {#direct}
 
