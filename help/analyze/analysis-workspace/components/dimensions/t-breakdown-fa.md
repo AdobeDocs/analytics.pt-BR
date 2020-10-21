@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Analisar dimensões
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
    >
    >O número de detalhamentos exibidos na tabela é limitado a 200. Esse limite vai aumentar para a exportação de detalhamentos.
 
-[Adicionar Dimension e métricas ao seu projeto no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Adicionar dimensões e métricas ao seu projeto no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Trabalhar com Dimension em uma Tabela](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) de forma livre (15:35)
+[Trabalhar com dimensões em uma tabela de forma livre](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Aplicar modelos de atribuição a detalhamentos
 
