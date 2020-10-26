@@ -1,11 +1,11 @@
 ---
 title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 91%
 
 ---
 
@@ -51,22 +51,22 @@ O indivíduo que configura inicialmente a implementação do cookie próprio tam
 s.trackingServer = "data.example.com";
 ```
 
-Normalmente, os registros CNAME já estão configurados e apontam para `sc.omtrdc.net`. O domínio `2o7.net` também é um destino CNAME válido, usado principalmente em versões anteriores do Adobe Analytics.
-
 ### Cookies de terceiros
 
 >[!TIP]
 >
 >O aumento do uso das práticas de privacidade em navegadores modernos torna os cookies de terceiros menos confiáveis. A Adobe recomenda seguir o fluxo de trabalho do cookie próprio.
 
-Se você usar uma implementação com cookies de terceiros, o valor de `trackingServer` será um subdomínio de `sc.omtrdc.net`. Por exemplo:
+Se você usar uma implementação com cookies de terceiros, o valor de `trackingServer` será um subdomínio de `data.adobedc.net`. Por exemplo:
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Escolha um subdomínio exclusivo da sua organização, um que provavelmente não será escolhido por outra organização que usa o Adobe Analytics. Verifique se todas as implementações em sua organização usam o mesmo servidor de rastreamento. Pode ser útil manter essas informações em um [documento de design da solução](../../prepare/solution-design.md).
+Escolha um subdomínio exclusivo da sua organização, um que provavelmente não será escolhido por outra organização que usa o Adobe Analytics.  A namespace de visitante atribuída à sua organização é recomendada.  Verifique se todas as implementações em sua organização usam o mesmo servidor de rastreamento. Pode ser útil manter essas informações em um [documento de design da solução](../../prepare/solution-design.md).
+
+Sua organização pode já estar usando um servidor de rastreamento de terceiros nos domínios `sc.omtrdc.net` ou `2o7.net` .  Eles foram usados principalmente em versões anteriores do Adobe Analytics e ainda são válidos.
 
 >[!NOTE]
 >
->Não use subdomínios mais profundos do que `example.sc.omtrdc.net`. Por exemplo, `custom.example.sc.omtrdc.net` não é um servidor de rastreamento válido.
+>Não use subdomínios mais profundos do que `example.data.adobedc.net`. Por exemplo, `custom.example.data.adobedc.net` não é um servidor de rastreamento válido.
