@@ -2,7 +2,7 @@
 title: IPs e domínios usados pela Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 translation-type: tm+mt
-source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
+source-git-commit: 891bc69f924b95cfe0bba2797319b59e1874dfd1
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 86%
@@ -120,30 +120,30 @@ A Adobe Analytics usa os Amazon Web Services como parte de seu processo de colet
 | Austrália | `13.238.77.77` |
 | Austrália | `52.62.21.192` |
 | Austrália | `54.66.152.159` |
-| França | `15.188.154.177` |
-| França | `15.236.175.233` |
-| França | `15.236.9.100` |
+| França | `15.237.76.117` |
+| França | `15.237.136.106` |
+| França | `35.181.18.61` |
 | Índia | `13.232.177.101` |
 | Índia | `13.235.4.163` |
 | Índia | `3.6.119.69` |
 | Irlanda | `52.17.94.37` |
 | Irlanda | `52.49.253.16` |
 | Irlanda | `52.51.63.15` |
-| Oregon | `52.42.60.49` |
-| Oregon | `54.212.169.56` |
-| Oregon | `54.214.170.191` |
+| Oregon | `44.233.255.254` |
+| Oregon | `44.237.54.118` |
+| Oregon | `44.238.157.95` |
 | Singapura | `13.228.34.224` |
 | Singapura | `18.136.20.161` |
 | Singapura | `52.74.162.152` |
 | Tóquio | `13.112.72.86` |
 | Tóquio | `18.178.74.225` |
 | Tóquio | `18.179.88.228` |
-| Virgínia | `3.220.129.153` |
-| Virgínia | `18.211.197.67` |
-| Virgínia | `34.228.124.176` |
-| Virgínia | `34.234.106.101` |
-| Virgínia | `52.22.231.198` |
-| Virgínia | `54.157.65.136` |
 | Virgínia | `3.213.168.181` |
 | Virgínia | `3.219.249.186` |
+| Virgínia | `3.220.129.153` |
+| Virgínia | `18.206.109.10` |
+| Virgínia | `18.211.197.67` |
 | Virgínia | `34.227.41.189` |
+| Virgínia | `34.228.124.176` |
+| Virgínia | `54.90.190.103` |
+| Virgínia | `54.174.149.161` |
