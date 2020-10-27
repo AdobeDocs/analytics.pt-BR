@@ -2,11 +2,11 @@
 description: As configurações de coluna permitem que você configure a formatação da coluna; alguns elementos podem ser condicionais.
 title: Configurações de coluna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Para acessar [!UICONTROL Configurações de coluna], arraste uma Tabela de forma
 | Elemento | Descrição |
 | --- | --- |
 | **Total de células** |  |
-| Exibir totais | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Ele reflete todos os filtros de tabela aplicados na tabela de forma livre, incluindo a opção [!UICONTROL Não incluir]. |
-| Exibir total geral | Esse total representa todas as ocorrências que foram coletadas, às vezes chamadas de &quot;total do conjunto de relatórios&quot;. Quando um segmento é aplicado no nível do painel ou na tabela de forma livre, esse total é ajustado para refletir todas as ocorrências que correspondem aos critérios do segmento. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| Exibir totais | Normalmente esse total é uma parte do [!UICONTROL Total geral] ou igual a ele. Ele reflete todos os filtros de tabela aplicados na tabela de forma livre, incluindo a opção [!UICONTROL Não incluir]. |
+| Exibir total geral | Esse total representa todas as ocorrências que foram coletadas, às vezes chamadas de &quot;total do conjunto de relatórios&quot;. Quando um segmento é aplicado no nível do painel ou na tabela de forma livre, esse total é ajustado para refletir todas as ocorrências que correspondem aos critérios do segmento. O total geral não é compatível com tabelas e detalhamentos com [linhas estáticas](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
 | **Células da tabela** |  |
 | Número | Determina se uma célula exibe ou oculta o valor numérico para a métrica. Por exemplo, se a métrica for Exibições de página, o valor numérico será o número de exibições de página para o item da linha. |
 | Porcentagem | Determina se uma célula exibe ou oculta o valor percentual para a métrica. Por exemplo, se a métrica for Exibições de página, o valor percentual será o número de exibições de página para o item da linha dividido pelo total de exibições de página para a coluna.  Observação: podemos apresentar percentuais maiores que 100%, para maior precisão. Também fixamos o limite superior como 1.000% para garantir que as colunas possam aumentar em largura. |
