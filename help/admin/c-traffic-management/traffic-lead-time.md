@@ -4,9 +4,9 @@ title: Tempo de lead necessário para aumentos de tráfego
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Até 1.000.000 </td>
+   <td colname="col1"> Até 1,000,000 </td>
    <td colname="col2"> Não requer lead time </td>
    <td colname="col3"> Não requer lead time </td>
   </tr>
@@ -69,7 +69,7 @@ Outros itens que devem ser considerados:
    * Estimativa de ocorrências por dia
    * Data de ativação
 
-* Os Alertas do cliente também são necessários quando o tráfego é reduzido ou um conjunto de relatórios fica obsoleto.
+* Os Alertas do cliente também são necessários quando o tráfego é reduzido ou um conjunto de relatórios é substituído.
 
 ## Cancelamento da alocação de hardware devido ao tráfego não realizado
 
