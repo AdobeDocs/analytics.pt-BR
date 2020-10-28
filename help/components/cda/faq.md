@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 2. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora da solicitação.
 3. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
 
-## O Cross-Device Analytics pode unir visitantes únicos. É possível unir as visitas?
+## O Cross-Device Analytics pode unir visitantes únicos. Consegue juntar visitas?
 
 Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
