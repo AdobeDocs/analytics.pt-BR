@@ -2,7 +2,7 @@
 title: IPs e domínios usados pela Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 translation-type: tm+mt
-source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
+source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 86%
@@ -123,9 +123,9 @@ A Adobe Analytics usa os Amazon Web Services como parte de seu processo de colet
 | França | `15.237.76.117` |
 | França | `15.237.136.106` |
 | França | `35.181.18.61` |
-| Índia | `13.232.177.101` |
-| Índia | `13.235.4.163` |
-| Índia | `3.6.119.69` |
+| Índia | `65.0.114.116` |
+| Índia | `65.0.115.179` |
+| Índia | `65.0.25.111` |
 | Irlanda | `18.202.158.78` |
 | Irlanda | `54.72.205.114` |
 | Irlanda | `54.78.36.71` |
@@ -135,9 +135,9 @@ A Adobe Analytics usa os Amazon Web Services como parte de seu processo de colet
 | Singapura | `52.220.116.94` |
 | Singapura | `52.76.68.91` |
 | Singapura | `54.179.114.68` |
-| Tóquio | `13.112.72.86` |
-| Tóquio | `18.178.74.225` |
-| Tóquio | `18.179.88.228` |
+| Tóquio | `18.182.161.178` |
+| Tóquio | `54.168.58.167` |
+| Tóquio | `54.178.61.109` |
 | Virgínia | `3.213.168.181` |
 | Virgínia | `3.219.249.186` |
 | Virgínia | `3.220.129.153` |
