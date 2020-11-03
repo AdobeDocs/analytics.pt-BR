@@ -2,10 +2,10 @@
 description: O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Você pode configurar o painel A4T usando estas configurações de entrada:
 
 | Configuração | Descrição |
 |---|---|
-| Atividade do Target | Selecione de uma lista de Atividades de Públicos alvos ou arraste e solte uma atividade do painel esquerdo.<br>**Observação:** a lista é preenchida com os últimos 6 meses de atividades que tiveram pelo menos 1 ocorrência. Se não vir uma atividade na lista, ela pode ter mais de 6 meses. Ela também pode ser adicionada pelo painel esquerdo, que tem um período de retrospectiva de até 18 meses. |
+| Atividade do Target | Selecione de uma lista de Atividades de Públicos alvos ou arraste e solte uma atividade do painel esquerdo. Observação: a lista é preenchida com os últimos 6 meses de atividades que tiveram pelo menos 1 ocorrência. Se não vir uma atividade na lista, ela pode ter mais de 6 meses. Ela também pode ser adicionada pelo painel esquerdo, que tem um período de retrospectiva de até 18 meses. |
 | Experiência de controle | Selecione sua experiência de controle. Você pode alterá-la, se necessário, na lista suspensa. |
 | Métrica de normalização | Escolha entre Visitantes únicos, Visitas ou Impressões de Atividade. Visitantes únicos são recomendados para a maioria dos casos de uso de análise. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”. |
 | Métricas de sucesso | Selecione até 3 eventos bem-sucedidos padrão (não calculados) nos menus suspensos ou arraste e solte métricas do painel esquerdo. Cada métrica terá uma tabela e uma visualização dedicadas no painel renderizado. |
@@ -44,11 +44,11 @@ Cada tabela de forma livre mostra as seguintes colunas de métrica:
 | Normalização de métricas | Visitantes únicos, visitas ou Impressões de atividade. |
 | Métrica de sucesso | A métrica selecionada no construtor |
 | Índice de conversão | Métrica de sucesso/Métrica de normalização |
-| Aumento | Compara o índice de conversão de cada experiência com a experiência de controle.<br>**Observação:** o incentivo é uma “métrica bloqueada” para as experiências do Target; não pode ser desmembrada nem usada com outras dimensões. |
-| Lift (inferior) | Representa o pior aumento que uma experiência de variante poderia ter sobre o controle. |
-| Lift (médio) | Representa o aumento do ponto médio que uma experiência de variante poderia ter sobre o controle, em um intervalo de confiança de 95%. Este é o &quot;Lift&quot; em Reports &amp; Analytics. |
-| Lift (superior) | Representa o melhor aumento que uma experiência de variante poderia ter sobre o controle. |
-| Confiança | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. <br>**Observação:** a confiança é uma “métrica bloqueada” para as experiências do Target; ela não pode ser desmembrada nem usada com outras dimensões. |
+| Aumento | Compara o índice de conversão de cada experiência com a experiência de controle. Observação: o incentivo é uma “métrica bloqueada” para as experiências do Target; não pode ser desmembrada nem usada com outras dimensões. |
+| Lift (inferior) | Representa o pior incentivo que uma experiência variante poderia ter sobre o controle, em um intervalo de confiança de 95%.<br>Cálculo: (x/y ± 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)). Aqui std_err(x,y) é sqrt(xx/y - (x/y)^2), onde xx indica a soma dos quadrados. |
+| Lift (médio) | Representa o aumento do ponto médio que uma experiência de variante poderia ter sobre o controle, em um intervalo de confiança de 95%. Este é o &quot;Lift&quot; em Reports &amp; Analytics.<br>Cálculo: (x/y)/(x_control/y_control) - 1 |
+| Lift (superior) | Representa o melhor incentivo que uma experiência variante pode ter sobre o controle, em um intervalo de confiança de 95%.<br>Cálculo: consulte Levantar (Inferior). |
+| Confiança | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. Observação: a confiança é uma “métrica bloqueada” para as experiências do Target; ela não pode ser desmembrada nem usada com outras dimensões.<br>Cálculo: Aplique um teste t de 2 caudas com y+y_control-2 graus de liberdade para encontrar o valor p, seja x/y igual a x_control/y_control. Calcule a pontuação t, onde stderr é sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Devolva 1-p como a confiança de que são diferentes. |
 
 Assim como em qualquer painel no Analysis Workspace, você pode continuar sua análise adicionando tabelas e [visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionais que ajudarão a analisar suas atividades do Adobe Target.
 
