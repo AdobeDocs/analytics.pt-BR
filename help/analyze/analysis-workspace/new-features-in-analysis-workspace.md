@@ -2,11 +2,11 @@
 description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
-translation-type: ht
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
-workflow-type: ht
-source-wordcount: '8103'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '8106'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Novo recurso lançado em 16 de janeiro de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| [Construtor de tabelas de forma livre](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Com o Construtor de tabela ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Workspace impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
+| [Construtor de tabelas de forma livre](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Com o Construtor de tabela ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Workspace impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
 
 ## Outubro de 2019
 
@@ -113,7 +113,7 @@ Melhorias lançadas em 10 de outubro de 2019.
 
 | Aprimoramento | Descrição |
 |--- |--- |
-| Atualização dos totais das tabelas de forma livre | As tabelas de forma livre agora incluem dois totais, um **[!UICONTROL total da tabela]** e um **[!UICONTROL total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
+| Atualização dos totais das tabelas de forma livre | As tabelas de forma livre agora incluem dois totais, um **[!UICONTROL total da tabela]** e um **[!UICONTROL total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
 | Opção para remover Não especificado/Nenhum | A capacidade de remover facilmente &quot;Não especificado (Nenhum)&quot; foi adicionada como uma opção de filtro de relatório. |
 | Substituição de componentes com granularidade violeta | Os componentes de tempo com granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. Os componentes de tempo violeta sempre se comportaram exatamente como seus equivalentes na dimensão laranja, então essa alteração simplificará a experiência. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
 
@@ -366,11 +366,11 @@ Novos recursos e melhorias lançados em 12 de abril de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Quebra de texto de cabeçalho habilitada por padrão </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Quebra de texto de cabeçalho habilitada por padrão </a> </p> </td> 
    <td colname="col2"> <p>A configuração de <span class="uicontrol"> Quebra de texto de cabeçalho </span> agora está habilitada por padrão nas tabelas de forma livre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nova configuração de linha</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nova configuração de linha</a> </p> </td> 
    <td colname="col2"> <p>A nova configuração <span class="uicontrol"> Calcular porcentagem por linha </span> força a tabela de forma livre a calcular as porcentagens de célula na linha, e não na coluna. Essa configuração é útil para porcentagens de tendência como a tendência de um item de dimensão em relação ao restante ao longo do tempo. Está ativada por padrão se clicamos no ícone <span class="uicontrol"> Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Novos recursos e melhorias lançados em 8 de março de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Quebra do texto do cabeçalho </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Quebra do texto do cabeçalho </a> </p> </td> 
    <td colname="col2"> <p>Agora é possível quebrar o texto de cabeçalho em tabelas de forma livre para tornar os cabeçalhos mais legíveis e as tabelas mais compartilháveis. Adicionamos uma opção nas configurações de coluna chamada “Quebrar texto do cabeçalho”. Essa opção é especialmente útil para renderização de .pdf e para métricas com nomes compridos. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Novo recurso e melhorias lançados em 8 de fevereiro de 2018.
    <td colname="col2"> <p>Adicionamos uma opção “Copiar para a área de transferência” (ao clicar com o botão direito do mouse) para permitir copiar de forma consistente as células/tabelas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Melhoria na % da coluna </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Melhoria na % da coluna </a> </p> </td> 
    <td colname="col2"> <p>O “percentual do total” exibido em colunas foi fixado em 100%, mesmo no caso das linhas que representam mais do que 100% do total (como em médias). </p> <p>Agora compartilhamos percentuais maiores que 100%, para maior precisão. Também fixamos o limite superior para 1.000% para garantir que as colunas possam aumentar em largura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Formatação condicional ativada nos detalhamentos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Formatação condicional ativada nos detalhamentos </a> </p> </td> 
    <td colname="col2"> <p>A aplicação de formatação condicional (cores, etc.) nas tabelas de forma livre agora é ativada automaticamente nos detalhamentos, a menos que sejam selecionados limites “Personalizados”. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Mais <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > opções de filtragem </a> de itens de dimensão em tabelas de forma livre </p> </td> 
+   <td colname="col1"> <p>Mais <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > opções de filtragem </a> de itens de dimensão em tabelas de forma livre </p> </td> 
    <td colname="col2"> <p>Estas opções de filtragem (avançadas) para itens de dimensão foram adicionadas (além das opções atuais “contém” e “não contém”): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contém todos os termos </li> 
@@ -515,7 +515,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
    <td colname="col2"> <p>Ao redimensionar a coluna mais à esquerda, o Workspace agora mantém as porcentagens de largura do resto das colunas (não ajusta apenas a largura da próxima coluna à direita). Essa mudança acelera a criação da tabela para análise e compartilhamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exibir <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 linhas </a> em uma tabela </p> </td> 
+   <td colname="col1"> <p>Exibir <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 linhas </a> em uma tabela </p> </td> 
    <td colname="col2"> <p>Agora é possível exibir 400 linhas em uma tabela (antes 200), o que permite verificar tendências por 365 dias. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Novos recursos lançados em 21 de setembro de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Gerenciar várias colunas ao mesmo tempo nas tabelas de forma livre </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Gerenciar várias colunas ao mesmo tempo nas tabelas de forma livre </a> </p> </td> 
    <td colname="col2"> <p>Agora você pode alterar as configurações em várias colunas ao mesmo tempo. Basta selecionar várias colunas e clicar no ícone de configurações de qualquer uma dessas colunas. Todas as alterações feitas serão aplicadas a todas as colunas com as células selecionadas. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Caixa de seleção Usar limites de porcentagem </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Caixa de seleção Usar limites de porcentagem </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Adição de uma caixa de seleção para indicar limites de porcentagem, especialmente para métricas com base em porcentagem (também funciona para métricas que não são baseadas em porcentagem). </li> 
@@ -866,7 +866,7 @@ Novos recursos lançados em 20 de abril de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Melhorias na opção Desfazer/Refazer </p> </td> 
-   <td colname="col2"> <p>Estas listas exibem o que pode ou não ser <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > desfeito ou refeito no Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Estas listas exibem o que pode ou não ser desfeito ou refeito no Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Novo recurso lançado em 16 de fevereiro de 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Detalhamento por posição </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Detalhamento por posição </a> </p> </td> 
    <td colname="col2"> <p>Permite detalhamento por posição de tabela. Exemplo: “Quero que as 7 primeiras linhas da tabela de forma livre sejam sempre detalhadas”. Agora há uma caixa de seleção ao criar uma tabela de forma livre que permite habilitar o "Detalhamento por posição." Essa configuração é desativada pelo padrão. </p> <p>Anteriormente, a lista de valores no detalhamento era “bloqueada”. Por isso, se você fizesse um detalhamento de <span class="wintitle"> Data </span> por <span class="wintitle"> Página </span>, receberia uma lista das 50 primeiras páginas para o intervalo de data selecionado. </p> <p>Se salvasse o relatório e o executasse um mês depois, seria provável que as 50 páginas tivessem mudado. Entretanto, o Analysis Workspace "confiaria" os resultados do detalhamento original e retornaria as mesmas páginas, porém com o mês atual como intervalo de data. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Novos recursos lançados em 16 de junho de 2016:
 * Foi incluído um novo tipo de [visualização de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que permite arrastar até três segmentos e uma métrica e criar um diagrama de Venn.
 * A opção [Colocar seleção em tendência](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (gráfico de linhas) em uma tabela classificada agora é vinculada.
 * [Ícone “Criar visual”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): se clicamos nesse ícone, é criada uma visualização inteligente de acordo com nossas ações anteriores (gráfico de barras, de Venn...).
-* Funcionalidade [Linhas do manual](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) ampliada.
+* Funcionalidade [Linhas do manual](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) ampliada.
 * Zona [Adicionar segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 * Atualizações secundárias:
 
