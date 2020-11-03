@@ -1,21 +1,19 @@
 ---
 description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar em comportamentos disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de atalho disponíveis no Analysis Workspace
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Teclas de atalho (atalhos)
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Teclas de atalho disponíveis no Analysis Workspace
+# Teclas de atalho (atalhos)
 
-Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise e democratização ininterruptas.
+Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação contínua, análise, adição de painéis e visualizações e democratização (compartilhamento).
 
 Observação:
 * `Ctrl` = Windows e `Command` = Mac
