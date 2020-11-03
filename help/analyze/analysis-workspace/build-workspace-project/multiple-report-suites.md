@@ -1,16 +1,16 @@
 ---
-title: Vários conjuntos de relatórios no Workspace
+title: Vários conjuntos de relatórios
 description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
-translation-type: ht
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
-workflow-type: ht
-source-wordcount: '527'
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
 
 
-# Vários conjuntos de relatórios no Workspace
+# Vários conjuntos de relatórios
 
 Agora você pode criar projetos no Analysis Workspace usando dados de mais de um conjunto de relatórios. Os conjuntos de relatórios agora são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
 
