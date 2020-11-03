@@ -3,7 +3,7 @@ description: Saiba mais sobre visualizações e configurações de exibição no
 keywords: Analysis Workspace
 title: Visão geral das visualizações
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 | [Rosca](/help/analyze/analysis-workspace/visualizations/donut.md) | Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. |
 | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. |
 | [Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra os caminhos do cliente pelos sites e aplicativos. |
-| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. |
+| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. |
 | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Um histograma é semelhante a um gráfico de barras, mas agrupa os números em intervalos (grupos). |
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barras horizontais que representam vários valores de uma ou mais métricas. |
 | [Linha](/help/analyze/analysis-workspace/visualizations/line.md) | Representa as métricas que usam uma linha para mostrar como os valores são alterados durante um período. Um gráfico de linha pode ser usado apenas quando o horário for usado como uma dimensão. |
