@@ -2,7 +2,7 @@
 title: Uso de dados XDM com o Analytics
 description: 'Visão geral do uso de dados XDM da Experience Platform no Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 96%
@@ -21,11 +21,11 @@ O Analytics coleta dados XDM por meio de dois métodos:
 
 ## Mapeamento automático
 
-O [mapeamento automático](xdm-manual.md) depende de um [esquema](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/schema/composition.html) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do Analytics que são mapeadas automaticamente do XDM para seus conjuntos de relatórios configurados não exigem suporte de desenvolvedor para serem incorporadas.
+O mapeamento automático depende de um [esquema](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/schema/composition.html) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do Analytics que são mapeadas automaticamente do XDM para seus conjuntos de relatórios configurados não exigem suporte de desenvolvedor para serem incorporadas.
 
 ## Mapeamento manual
 
-O mapeamento manual de dados XDM para o Analytics depende das variáveis de [dados de contexto do Analytics](../vars/page-vars/contextdata.md). Essas variáveis são colocadas em objetos JSON que correspondem aos esquemas aplicáveis. Normalmente, sua equipe de desenvolvimento adiciona dados de contexto após a implementação e, em seguida, os administradores definem [regras de processamento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esses dados a conjuntos de relatórios especificados.
+[](xdm-manual.md)O mapeamento manual de dados XDM para o Analytics depende das variáveis de [dados de contexto do Analytics](../vars/page-vars/contextdata.md). Essas variáveis são colocadas em objetos JSON que correspondem aos esquemas aplicáveis. Normalmente, sua equipe de desenvolvimento adiciona dados de contexto após a implementação e, em seguida, os administradores definem [regras de processamento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esses dados a conjuntos de relatórios especificados.
 
 ## Configuração
 
