@@ -1,11 +1,11 @@
 ---
 description: Lista de limitações conhecidas do Adobe Analysis Workspace e dos componentes relacionados a ele
 title: Limitações conhecidas do Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Veja a seguir uma lista de limitações conhecidas do Analysis Workspace e seus 
 ## Componentes > Segmentos
 
 * Determinadas métricas e dimensões não são segmentáveis, como [!UICONTROL Ocorrências], [!UICONTROL Visitantes únicos], etc.
-* Segmentos adhoc criados na área de [painel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) não aparecerão no painel esquerdo do Workspace ou no Gerenciador de componentes do segmento, a menos que sejam tornados públicos. Isso pode ser feito editando o segmento e selecionando **[!UICONTROL Tornar esse segmento público]**.
+* Segmentos adhoc criados no [ponto de largada do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) não aparecerão no painel esquerdo do Workspace ou no gerenciador de componentes do segmento, a menos que sejam tornados públicos. Isso pode ser feito editando o segmento e selecionando **[!UICONTROL Tornar esse segmento público]**.
 
 ## Componentes > Métricas calculadas
 
@@ -57,4 +57,4 @@ Veja a seguir uma lista de limitações conhecidas do Analysis Workspace e seus 
 
 ## Attribution IQ
 
-* Não há suporte para subconjunto de métricas no [!UICONTROL Attribution IQ]. Para obter uma lista completa, consulte as Perguntas frequentes sobre [Attribution IQ](../attribution/faq.md).
+* Não há suporte para subconjunto de métricas no [!UICONTROL Attribution IQ]. Para obter uma lista completa, consulte as [Perguntas frequentes sobre Attribution IQ](../attribution/faq.md).
