@@ -1,11 +1,11 @@
 ---
 title: Guias de documentação técnica do Adobe Analytics
 description: Guias e recursos do usuário do Analytics
-translation-type: ht
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Bem-vindo à página inicial da documentação técnica e do produto Adobe Analy
 
 [![Integração](assets/integrate_50px.png)](/help/integrate/home.md) [Guia de integração](/help/integrate/home.md) – configure as integrações com outras soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html) [Guia do Media Analytics](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html) – Implementar o Analytics em fontes de áudio ou vídeo. Inclui o SDK de mídia e a API de coleta de mídia.
+[![Guia](assets/media_50px.png)](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html)do Streaming Media Analytics[](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html) Streaming Media Analytics - Implementação do Adobe Analytics para Streaming Media. Inclui o SDK de mídia e a API de coleta de mídia.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html) [Guias da Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html) – saiba mais sobre os recursos altamente flexíveis, eficientes e de vários canais da [!UICONTROL Data Workbench]. Inclui [!UICONTROL Cliente da Data Workbench], Instalação, guias de [!UICONTROL Configuração de conjuntos de dados] e muito mais.
 
