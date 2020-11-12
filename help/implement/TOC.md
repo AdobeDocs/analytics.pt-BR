@@ -5,10 +5,10 @@ user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [Considerações sobre o conjunto de relatórios global](prepare/global-rs.md)
    + [Modal de implementação](prepare/implementation-modal.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
+   + [Assumir o controle de uma implementação Adobe Analytics existente](prepare/existing-implementation.md)
 + Implementar o Analytics usando JavaScript {#js}
    + [Visão geral do JavaScript](js/overview.md)
    + [Implementar links para opção de não participação](js/opt-out.md)
