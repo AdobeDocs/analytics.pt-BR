@@ -2,22 +2,22 @@
 title: Painel de atribuição
 description: Como usar e interpretar o painel de atribuição no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # Painel de atribuição
 
-O painel de atribuição é uma maneira fácil para criar uma análise comparando vários modelos de atribuição. É um recurso no [Attribution IQ](../attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. É um recurso no [Attribution IQ](../attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
 
 ## Criar um painel de atribuição
 
 1. Clique no ícone do painel à esquerda.
-1. Arraste o Painel de atribuição para seu projeto do Analysis Workspace.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![Novo painel de atribuição](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ O painel de atribuição é uma maneira fácil para criar uma análise comparand
 * **Detalhes** do desempenho: Permite comparar até três modelos de atribuição visualmente usando um gráfico de dispersão.
 * **Desempenho** com tendência: Mostra a tendência de conversões atribuídas para o item de dimensão superior. Selecionar outras linhas na tabela de Forma livre adjacente atualizará a visualização para refletir a seleção.
 * **Fluxo**: Permite que você veja com quais canais interagem mais comumente, e em que ordem, ao longo de uma jornada de visitantes.
+
