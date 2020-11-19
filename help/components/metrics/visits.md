@@ -1,11 +1,11 @@
 ---
 title: Visitas
 description: Uma sequência de exibições da página em uma sessão.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 89%
 
 ---
 
@@ -55,3 +55,7 @@ Uma visita conta para cada período envolvido. Por exemplo, se você tiver um vi
 ## Visitas em uma dimensão em relação ao total de visita
 
 Visitas no contexto de uma dimensão (por exemplo, [canal de marketing](../dimensions/marketing-channel.md)) mostram o número de visitas que continham um item de dimensão específico a qualquer momento. Vários itens de dimensão frequentemente existem em diferentes ocorrências na mesma visita. Tentar somar visitas que informam itens de dimensão normalmente não faz sentido.
+
+## Visita todos os Visitantes na Data Warehouse
+
+A métrica &quot;Visitas - Todos os Visitantes&quot; está disponível na Data Warehouse, além da métrica &quot;Visitas&quot;. A métrica &quot;Visitas - Todos os Visitantes&quot; é comparável à métrica &quot;Visitas&quot; em outras ferramentas do Analytics. A métrica &quot;Visitas&quot; na Data Warehouse exclui visitantes que não têm cookies persistentes. O Adobe recomenda usar &quot;Visitas - todos os Visitantes em solicitações de Data Warehouse nas quais as visitas são desejadas como uma métrica.
