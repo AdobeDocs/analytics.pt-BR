@@ -1,11 +1,11 @@
 ---
 description: Recursos de suporte para acessibilidade no Analysis Workspace
 title: Acessibilidade no Analysis Workspace
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ O [!UICONTROL Analysis Workspace] fornece algumas ferramentas que o tornam acess
 
 A navegação no [!UICONTROL Analysis Workspace] funciona de cima > para baixo e da esquerda > à direita. Os seguintes elementos de navegação facilitam a acessibilidade:
 
-* A tecla `F6` ativa atalhos de marcos
-* A chave `Tab` se move entre elementos individuais.
+* A tecla `Tab` ativa atalhos de marcos, alternando entre seções maiores dentro do Workspace. No painel esquerdo, `Tab` também permite que você se mova de uma opção arrastável para a próxima.
+* A `left/right arrows` movimentação entre elementos individuais depois `Tab` de realçá-la.
+* O `F6` navega até o primeiro painel do projeto e se move entre as visualizações dentro desse painel. Em seguida, ele se move para o próximo painel do projeto e se repete.
 * Nós aplicamos indicadores de foco para que os usuários de teclado com visão tenham uma indicação clara de qual elemento de interface do usuário tem foco no momento. O indicador é uma borda azul em torno do elemento selecionado.
 
    ![Indicador de foco](assets/focus-indicator.png)
+
+### Navegação no teclado para a barra de menus
+
+1. Pressione a tecla até acessar a barra de menus.
+1. Use as teclas de seta para a esquerda/direita para navegar até o menu desejado.
+1. Pressione `Enter` para selecionar o menu e mostrar suas opções.
+1. Use as teclas de seta para cima/para baixo para navegar até a opção de menu desejada.
+1. Pressione `Enter` para selecionar a opção.
 
 ### Navegação no teclado para interações de arrastar e soltar
 
