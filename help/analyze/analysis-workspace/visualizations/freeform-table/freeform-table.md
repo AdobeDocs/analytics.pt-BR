@@ -2,10 +2,10 @@
 title: Tabela de forma livre
 description: As tabelas de forma livre são a base para a análise de dados no Workspace
 translation-type: tm+mt
-source-git-commit: ae04b10edb35f15e552527948b5b7d57c175f562
+source-git-commit: b91d3c732a0683f63c46dbefb4092d296c569e9d
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 59%
+source-wordcount: '861'
+ht-degree: 50%
 
 ---
 
@@ -20,16 +20,9 @@ A maneira mais rápida de criar uma tabela é soltar os componentes diretamente 
 
 ## Criador de tabela de forma livre
 
-Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Criar]**. Assista ao tutorial [do Criador de tabela de forma](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace.html)livre.
+Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Criar]**.
 
-O Construtor de tabelas é uma opção que economiza tempo quando você tem uma pergunta complexa para fazer sobre os dados e tem uma ideia da tabela que deseja criar para responder à pergunta. Outras vantagens do construtor de tabela incluem a capacidade de:
-
-* Organizar a tabela no formato exato necessário sem precisar aguardar a renderização de cada ação.
-* Executar rapidamente até quatro níveis de detalhamento.
-* Definir as configurações de Linha e de Detalhamento para cada linha de tabela e coluna de dimensão.
-* **[!UICONTROL Detalhamento por posição]** por padrão para cada nível da tabela (nas tabelas de forma livre tradicionais, o padrão é **[!UICONTROL Detalhamento por item]**.)
-* Ordenar manualmente linhas estáticas na tabela. Por exemplo, se você deseja que linhas de métrica apareçam em uma determinada ordem.
-* Visualizar o formato da tabela antes de renderizar dados reais.
+![](assets/table-builder.png)
 
 ## Interações de tabela
 
@@ -48,10 +41,36 @@ O Construtor de tabelas é uma opção que economiza tempo quando você tem uma 
 
 ## Exportar dados da tabela de forma livre
 
-Os dados em uma tabela de forma livre podem ser exportados do Analysis Workspace de algumas maneiras:
+Os dados em uma tabela de forma livre podem ser copiados do Analysis Workspace de algumas maneiras:
+
+* Clique com o botão direito do mouse em > **[!UICONTROL Copiar dados para a área de transferência]** exporta os dados da tabela exibidos. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Copiar seleção para a área de transferência]**. A tecla de atalho **Ctrl+C** também copia os dados selecionados.
+* Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados à medida que o CSV]** baixa os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Fazer download da seleção como CSV]**.
+* Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** exportará até 50.000 itens de dimensão para a dimensão selecionada.
+
+## Interações de tabela
+
+É possível interagir e personalizar uma tabela de forma livre de várias maneiras:
+
+* **Linhas**
+   * Você pode ajustar mais linhas em uma única tela ajustando a [densidade de visualização](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) do projeto.
+   * Cada linha da dimensão pode exibir até 400 linhas antes que ocorra paginação. Clique no número ao lado de &quot;Linhas&quot; para mostrar mais linhas em uma página. Navegue até uma página diferente usando a seta de página no cabeçalho.
+   * As linhas podem ser detalhadas por componentes adicionais. Para detalhar várias linhas ao mesmo tempo, basta selecionar várias linhas e arrastar o próximo componente na parte superior das linhas selecionadas. Saiba mais sobre [detalhamentos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
+   * As linhas podem ser [filtradas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) para mostrar um conjunto reduzido de itens. Configurações adicionais estão disponíveis em [Configurações de linha](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+
+* **Colunas**
+   * Os componentes podem ser empilhados dentro de colunas para criar métricas segmentadas, análise entre guias e muito mais.
+   * A exibição de cada coluna pode ser ajustada nas [configurações de coluna](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
+   * Várias ações estão disponíveis no [menu acionado via clique com o botão direito do mouse](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). O menu fornece ações diferentes a depender se você clicar no cabeçalho da tabela, nas linhas ou nas colunas.
+
+## Exportar dados da tabela de forma livre
+
+
+Saiba mais sobre todas as opções [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) exportação de dados para Analysis Workspace.
 
 * Clique com o botão direito do mouse em > **[!UICONTROL Copiar dados para a área de transferência]** exporta os dados da tabela exibidos. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Copiar seleção para a área de transferência]**. A tecla de atalho **Ctrl+C** também copia os dados selecionados.
 * Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados à medida que o CSV]** baixa os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Fazer download da seleção como CSV]**.
 * Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** exportará até 50.000 itens de dimensão para a dimensão selecionada.
 
 Saiba mais sobre todas as opções [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) exportação de dados para Analysis Workspace.
+
+![](assets/export-options.png)
