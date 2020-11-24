@@ -3,9 +3,9 @@ description: Representar visualmente seus dados com visualizações.
 keywords: Analysis Workspace
 title: Visão geral das visualizações
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 O Workspace oferece várias visualizações que permitem gerar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linhas, mapas, gráficos de dispersão e outros. A maioria dos tipos de visualização serão familiares se você usar o Adobe Analytics. Contudo, o Analysis Workspace fornece configurações de visualização e muitos tipos de visualizações exclusivos ou novos com recursos interativos.
 
-Você pode acessar visualizações do ícone superior esquerdo no Workspace, em um painel [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)em branco ou pelo menu de clique com o botão direito do mouse no seu fluxo de trabalho. Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
+Você pode acessar visualizações do ícone superior esquerdo no Workspace, em um painel [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)em branco ou pelo menu de clique com o botão direito do mouse no seu fluxo de trabalho.
+
+![](assets/viz-rail.png)
+
+Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
 | Nome da visualização | Descrição |
 | --- | --- |
@@ -40,20 +44,22 @@ Você pode acessar visualizações do ícone superior esquerdo no Workspace, em 
 
 ## Configurações {#settings}
 
-Cada visualização tem suas próprias configurações que podem ser gerenciadas. Para acessar Configurações [!UICONTROL de]visualização, clique no ícone de engrenagem Configurações [!UICONTROL de] visualização. Algumas configurações incluem:
+Cada visualização tem suas próprias configurações que podem ser gerenciadas. Para acessar Configurações [!UICONTROL de]visualização, clique no ícone de engrenagem Configurações [!UICONTROL de] visualização.
+
+![](assets/settings.png)
 
 | Configuração | Descrição |
 | --- | --- |
 | Tipo de visualização | Altere o tipo de visual usado para retratar os dados. |
 | Granularidade | Para visualizações de tendências, é possível alterar a granularidade de tempo (dia, semana, mês etc.) desta lista suspensa. Essa alteração também se aplica à tabela da fonte de dados. |
 | Porcentagens | Exibe os valores em porcentagens. |
-| 100% empilhada | Essa configuração em visualizações empilhadas em barra ou em barra horizontal transforma o gráfico em uma visualização &quot;100% empilhada&quot;. Exemplo: ![](assets/stacked_100_percent.png) |
+| 100% empilhada | Essa configuração em visualizações empilhadas em barra ou em barra horizontal transforma o gráfico em uma visualização &quot;100% empilhada&quot;. Exemplo: ![100% empilhados](assets/stacked_100_percent.png) |
 | Legenda visível | Permite ocultar o texto detalhado da legenda para a visualização Número do resumo/Alteração do resumo. |
 | Limite máximo de itens | Permite limitar o número de itens exibidos em uma visualização. |
 | Ancorar eixo Y no zero | Se todos os valores exibidos no gráfico forem consideravelmente superiores a zero, o padrão do gráfico tornará a parte inferior do eixo y DIFERENTE DE ZERO. Se marcar esta caixa, o eixo y será forçado a zero (e o gráfico será redesenhado). |
 | Normalização | Força as métricas para proporções iguais. Isso é útil quando as métricas traçadas têm dimensões muito diferentes. |
 | Exibir eixo duplo | Somente se aplica se você tiver duas métricas. Você pode ter um eixo Y à esquerda (para uma métrica) e outro à direta (para a outra métrica). Isso é útil quando as métricas traçadas têm dimensões muito diferentes. |
-| Mostrar anomalias | Melhora os gráficos de linha e as tabelas de forma livre exibindo a decisão de anomalia. A detecção de anomalias em visualizações de linha inclui um valor esperado (linha tracejada) e um intervalo esperado (banda sombreada). |
+| Mostrar anomalias | Aprimora gráficos de linha e tabelas de forma livre exibindo a detecção de anomalias. A detecção de anomalias em visualizações de linha inclui um valor esperado (linha tracejada) e um intervalo esperado (banda sombreada). |
 
 ## Legenda {#legend}
 
@@ -77,7 +83,7 @@ Temos um [vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutoria
 
 A funcionalidade adicional para uma visualização está disponível ao clicar com o botão direito do mouse no cabeçalho da visualização. As configurações variam de acordo com a visualização. Algumas das configurações disponíveis são:
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Configuração | Descrição |
 | --- | --- |
@@ -94,4 +100,4 @@ A funcionalidade adicional para uma visualização está disponível ao clicar c
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Essa é a maneira mais rápida de adicionar uma visualização. Ao clicar no ícone, o Analysis Workspace é exibido e recomenda uma visualização que se adequaria ao seus dados. Por exemplo, se você tiver 1 linha selecionada, ela criará um gráfico de linhas de tendência. Se você tiver três linhas de segmento selecionadas, ele criará um diagrama Venn.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
