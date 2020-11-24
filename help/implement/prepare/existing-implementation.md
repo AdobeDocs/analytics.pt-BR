@@ -2,10 +2,10 @@
 title: Assumir o controle de uma implementação Adobe Analytics existente
 description: Instruções para administradores que são novos em uma implementação existente do Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
+source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -21,3 +21,9 @@ Você está assumindo uma implementação da Adobe Analytics do proprietário t�
 Veja essas dicas de sua colega, Sarah Owen. Sarah é uma campeã [da](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) Adobe Analytics e compartilha ideias sobre como usar o Playbook de implementação herdada para cuidar de uma implementação existente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+Consulte também:
+
+* [Lista de verificação da &quot;Revisão secundária&quot; para análise da implementação após cada lançamento de site](/help/implement/review/minor-review.md)
+* [Lista de verificação da &quot;Revisão principal&quot; para revisar sua implementação a cada 6 meses](/help/implement/review/major-review.md)
+* [Defina os 5 KPIs principais](/help/implement/review/define-kpis.md)
