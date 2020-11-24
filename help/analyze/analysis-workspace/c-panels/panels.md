@@ -2,7 +2,7 @@
 description: Um painel é uma coleção de tabelas e visualizações
 title: Visão geral dos painéis
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 13%
@@ -84,7 +84,11 @@ Para criar filtros suspensos:
 
 ## Menu de clique com o botão direito {#right-click}
 
-A funcionalidade adicional para um painel está disponível ao clicar com o botão direito do mouse no cabeçalho do painel. As seguintes configurações estão disponíveis:
+A funcionalidade adicional para um painel está disponível ao clicar com o botão direito do mouse no cabeçalho do painel.
+
+![](assets/right-click-menu.png)
+
+As seguintes configurações estão disponíveis:
 
 | Configuração | Descrição |
 | --- | --- |
