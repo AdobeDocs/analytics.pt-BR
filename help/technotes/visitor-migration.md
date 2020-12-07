@@ -5,7 +5,10 @@ title: Migração de visitante
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ A migração do visitante é um processo no qual o cookie da ID de visitante é 
 
 A migração do visitante permite que você preserve cookies de identificação do visitante ao alterar domínios de coleção de dados. Os domínios de coleta dos dados podem ser alterados pelos seguintes motivos:
 
-* Transferência de `2o7.net` para `omtrdc.net` ([Coleta de dados regional](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Transferência de `2o7.net` para `adobedc.net` ([Coleta de dados regional](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Você está implementando o [Serviço de ID de visitante da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) e migrando de um domínio de coleta de dados primários/CNAME para `2o7.net` ou `omtrdc.net` ([Coleta de dados regional](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/rdc/regional-data-collection.html))
 
-* Transferência de `2o7.net` ou `omtrdc.net` para uma coleta da dados cname/primários ([Cookies primários)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Transferência de `2o7.net` ou `adobedc.net` para uma coleta da dados cname/primários ([Cookies primários)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Transferência de um CNAME para outro (alterando domínios).
 
@@ -48,7 +51,7 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Mais de 6 horas depois da alteração de configuração</b>: atualize as variáveis <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> no código JavaScript do Analytics para usar os novos servidores de coleta de dados. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Depois de atualizar o código do Analytics</b>: teste o site para verificar se o redirecionamento do domínio de coleta dos dados anterior está ocorrendo. </p> </td> 
