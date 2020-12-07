@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics e cookies do navegador
 description: Saiba como o Adobe Analytics lida com os cookies de um navegador.
-translation-type: ht
-source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
-workflow-type: ht
-source-wordcount: '2286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
+workflow-type: tm+mt
+source-wordcount: '2285'
+ht-degree: 93%
 
 ---
 
@@ -103,7 +103,7 @@ Os cookies primários criados por meio do `document.cookie` são afetados. Se es
 * Cookies AMCV definidos pela biblioteca do serviço ECID (Experience Cloud ID)
 * Cookie de fallback herdado do Analytics `s_fid`
 
-O cookie `s_vi` herdado do Analytics como um cookie de terceiros, incluindo destinos de coleta de 2o7.net ou omtrdc.net, continua sendo bloqueado com base em versões anteriores do ITP.
+Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
 
 Resumindo:
 
@@ -111,7 +111,7 @@ Resumindo:
 
 * Se usar um CNAME primário no contexto primário e não usar o serviço de ID de visitante — sua implementação não será afetada.
 
-* Se usar um domínio de cookie primário no contexto de terceiros, ou com os nomes de domínio padrão de terceiros (por exemplo, 2o7.net, omtrdc.net etc), o Safari continuará o bloqueando.
+* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
 
 * Se você usar uma ID de visitante personalizada — Isso dependerá de como a ID de visitante será armazenada. Se você armazenar a ID em um cookie primário &quot;do lado do cliente&quot;, estará sujeito à expiração de sete dias. Se você usar outros meios para armazenar a ID personalizada, será necessário avaliar se você será afetado.
 
@@ -133,11 +133,11 @@ Para medir o impacto nos relatórios e testes, é importante saber que tipo de v
 
 * Abra o console do desenvolvedor no navegador Safari mais recente. Se você vir algum dos cookies listados acima definidos no domínio primário, poderá ser afetado por essas alterações.
 
-* Se vir um cookie `s_vi`, mas não um cookie `AMCV` definido no contexto de um CNAME, você está usando um CNAME para identificação de visitantes e o uso do Analytics não é afetado por essas alterações. Se você vir um cookie `s_vi` e um `AMCV` definidos no contexto de um CNAME, você está usando no momento o período de carência, e alguma parte do tráfego do Analytics pode ser afetada.
+* Se vir um cookie `s_vi`, mas não um cookie `AMCV` definido no contexto de um CNAME, você está usando um CNAME para identificação de visitantes e o uso do Analytics não é afetado por essas alterações. If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
 
-* Use o Analytics para medir a porcentagem de visitantes que não retornam dentro de sete dias. Se os visitantes retornarem repetidamente em sete dias, o tráfego pode não ser significativamente afetado. Para obter instruções sobre como usar o Analytics para descobrir isso, consulte [Impacto do Safari ITP 2.1 em cliente da Adobe Experience Cloud e da Experience Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Use o Analytics para medir a porcentagem de visitantes que não retornam dentro de sete dias. Se os visitantes retornarem repetidamente em sete dias, o tráfego pode não ser significativamente afetado. For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
-* Meça a porcentagem de tráfego dos navegadores Safari para determinar se qualquer alteração é justificada. Para obter instruções sobre como usar o Analytics para descobrir a porcentagem de tráfego do Safari dos sites, consulte [Impacto do Safari ITP 2.1 em clientes da Adobe Experience Cloud e da Experience Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Meça a porcentagem de tráfego dos navegadores Safari para determinar se qualquer alteração é justificada. For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## Quais navegadores meus visitantes estão usando mais?
 
