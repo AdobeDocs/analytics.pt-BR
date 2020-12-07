@@ -1,9 +1,9 @@
 ---
 title: Migrar para o AppMeasurement para JavaScript
 description: Determine o que é necessário para migrar a implementação do Código H.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ As seguintes alterações notáveis estão presentes no AppMeasurement quando co
 As etapas a seguir descrevem um fluxo de trabalho de migração típico.
 
 1. **Baixar o novo arquivo AppMeasurement**: acesse o novo arquivo ao fazer logon no Adobe Analytics e navegue até Admin > Gerenciador de código. O arquivo compactado baixado contém um arquivo `AppMeasurement.js` minificado, juntamente com os módulos de mídia e integração.
-1. **Copiar as personalizações do`s_code.js`para`AppMeasurement.js`**: mova todo o código antes da seção `DO NOT ALTER ANYTHING BELOW THIS LINE` no `s_code.js` para o início do `AppMeasurement.js`.
+1. **Copiar as personalizações do `s_code.js` para`AppMeasurement.js`**: mova todo o código antes da seção `DO NOT ALTER ANYTHING BELOW THIS LINE` no `s_code.js` para o início do `AppMeasurement.js`.
 1. **Atualizar todos os plug-ins**: verifique se está usando a versão mais recente de cada plug-in listado no arquivo `s_code.js`. Isso inclui os módulos Mídia e Integração.
 1. **Implantar o arquivo AppMeasurement.js**: carregue o arquivo `AppMeasurement.js` no servidor da Web.
 1. **Atualizar referências de script para apontar para`AppMeasurement.js`**: verifique se todas as páginas fazem referência a `AppMeasurement.js` em vez de `s_code.js`.
@@ -62,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
