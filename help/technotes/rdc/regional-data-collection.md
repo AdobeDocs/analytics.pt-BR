@@ -2,10 +2,10 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as inter
 
 >[!IMPORTANT]
 >
->O Pacote complementar RDC da China (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. A Otimização do Desempenho da Adobe na China continental permite que os clientes na China enviem dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora o tempo de carregamento da página e a precisão dos dados ao enviar os dados para nós fora da China. Entre em contato com seu representante de vendas da Adobe para obter mais informações.
+>O Pacote Complemento RDC (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. A Otimização do Desempenho do Adobe na China continental permite que os clientes na China enviem dados diretamente para o nó de fronteira da China, em vez de outros locais globalmente. Isso melhora o tempo de carregamento da página e a precisão dos dados ao enviar os dados para nós fora da China. Entre em contato com seu representante de vendas de Adobe para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
@@ -26,7 +26,7 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 |---------------------|-------------------|
 | Padrão | Oregon, Virgínia, Irlanda, Paris, Mumbai, Singapura, Tóquio, Sydney |
 
-Observação: se sua solicitação de imagem do Analytics for enviada para os endpoints `2o7.net` ou `omtdrc.net`, então você terá coleta de dados de terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
 
 ## Coleta de dados HTTPS de terceiros
 
