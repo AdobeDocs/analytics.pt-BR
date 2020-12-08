@@ -5,7 +5,7 @@ title: Visão geral dos Projetos
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 27%
@@ -44,6 +44,8 @@ A página da lista de projeto do Workspace contém as informações a seguir:
 
 Em um projeto, o menu fornece opções para gerenciar o projeto, adicionar componentes, encontrar ajuda e muito mais. Cada opção de menu também pode ser acessada por [atalhos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)do teclado.
 
+![](assets/menu.png)
+
 | Item de menu | Descrição |
 |---|---|
 | Projeto  | Inclui ações comuns para o gerenciamento de projetos, incluindo modelo Novo, Abrir, Salvar, Salvar como e [Salvar como](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). Você também pode atualizar o projeto inteiro para recuperar os dados e as definições mais recentes clicando em Atualizar projeto. [As opções de download de CSV e PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) permitem exportar dados do Workspace. [Informações e configurações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) do projeto oferta muitas opções para gerenciar seu projeto. |
@@ -81,6 +83,8 @@ Você também pode acessar visualizações e painéis do Painel em [branco](http
 
 Os componentes (Dimension, Métricas, Segmentos, Intervalos de datas) no painel esquerdo estão relacionados ao conjunto de relatórios do painel ativo. O painel ativo terá uma borda azul ao seu redor e o conjunto de relatórios ativo será listado na parte superior do painel do componente.
 
+![](assets/left-rail.png)
+
 ## Tela do projeto {#canvas}
 
 A tela do projeto é onde você reúne painéis, tabelas, visualizações e componentes para criar sua análise. Um projeto pode conter muitos painéis e cada painel pode conter muitas tabelas e visualizações.
@@ -89,11 +93,15 @@ Os painéis são úteis quando você deseja organizar seus projetos de acordo co
 
 Dependendo do ponto de partida escolhido para seus projetos, você terá uma tabela [de forma](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) livre ou um painel [em](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) branco na tela para começar. A maneira mais rápida de analisar o start é selecionar um ou vários componentes e simplesmente arrastá-los e soltá-los na tela do projeto. Uma tabela de dados será automaticamente renderizada para você. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sobre as diferentes opções para criar uma tabela ou utilize nosso tutorial [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) treinamento para obter mais orientações sobre como criar seu primeiro projeto.
 
+![](assets/canvas.png)
+
 ## Gerente de projetos {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. O Gerenciador de projetos mostra os itens que um usuário específico criou. A propriedade do projeto pode ser transferida para um novo usuário em Admin > Usuários e ativos do Analytics > Transferir ativos.
 
 No Gerenciador de projetos, você pode adicionar, marcar, compartilhar, duplicado/copiar e muito mais. Procure um projeto na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por tag, proprietários, tipo de projeto e muito mais.
+
+![](assets/project-manager.png)
 
 As ações a seguir são comuns no Gerenciador de projetos e podem ser executadas em um ou vários projetos ao mesmo tempo:
 
