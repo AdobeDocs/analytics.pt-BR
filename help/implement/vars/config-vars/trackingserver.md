@@ -2,10 +2,10 @@
 title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,11 @@ Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configu
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento].
 
-Se esse campo ficar em branco, o padrão será `[rsid]sc.adobedc.net`.
+Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
 ## s.trackingServer no AppMeasurement e no editor de código personalizado do Launch
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
-
->[!TIP]
->
->Algumas implementações apontam os dados para `2o7.net`. Embora esse seja um domínio válido para coleta de dados, ele não usa coleta de dados regional. Implementações que usam o `2o7.net` observam tempos de resposta de solicitação de imagem ligeiramente mais rápidos.
 
 ## Determine o valor de trackingServer
 
@@ -65,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Escolha um subdomínio exclusivo da sua organização, um que provavelmente não será escolhido por outra organização que usa o Adobe Analytics.  A namespace de visitante atribuída à sua organização é recomendada.  Verifique se todas as implementações em sua organização usam o mesmo servidor de rastreamento. Pode ser útil manter essas informações em um [documento de design da solução](../../prepare/solution-design.md).
 
-Sua organização pode já estar usando um servidor de rastreamento de terceiros nos domínios `sc.adobedc.net` ou `2o7.net` .  Eles foram usados principalmente em versões anteriores do Adobe Analytics e ainda são válidos.
+Sua organização pode já estar usando um servidor de rastreamento de terceiros nos domínios `sc.omtrdc.net` ou `2o7.net` .  Eles foram usados principalmente em versões anteriores do Adobe Analytics e ainda são válidos.
 
 >[!NOTE]
 >
