@@ -2,7 +2,7 @@
 title: Implementar com solicitações de imagem codificadas
 description: Implementar o Adobe Analytics usando uma tag de imagem HTML (solicitação de imagem codificada)
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Esse método de implementação pode ser usado em qualquer plataforma que exibe 
 Veja a seguir um exemplo de solicitação de imagem codificada usando HTML:
 
 ```html
-<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` designa o protocolo Faça a correspondência do protocolo usado na solicitação de imagem com o protocolo que o resto do site usa.
-* `example.sc.adobedc.net` é o valor contido na variável [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* `example.data.adobedc.net` é o valor contido na variável [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` está incluído em todas as solicitações de imagem. Ele faz parte da estrutura de arquivos de imagens armazenadas nos servidores de coleta de dados da Adobe.
 * `examplersid` é a ID do conjunto de relatórios para a qual você deseja enviar dados.
 * `/1/` é a origem da ocorrência. Consulte `hit_source` em [Referência da coluna de dados](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) no guia do usuário Exportar. Controla a ordem usada por cookies e outros métodos para identificar visitantes.
