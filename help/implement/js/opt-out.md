@@ -2,7 +2,7 @@
 title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
@@ -44,7 +44,7 @@ A página de opção de não participação da organização depende do valor da
 
 Depois de encontrar o domínio `trackingServer` da implementação, anexe o caminho `/optout.html` ao final. Por exemplo:
 
-* Cookies de terceiros: `https://example.sc.adobedc.net/optout.html`
+* Cookies de terceiros: `https://example.data.adobedc.net/optout.html`
 * Cookies primários: `https://stats.example.com/optout.html`
 
 ## Parâmetros da cadeia de caracteres de consulta de não participação
@@ -78,7 +78,7 @@ Alterne automaticamente o idioma da página de opção, incluindo o parâmetro d
 * sk_SK (Eslovaco)
 * es_ES (Espanhol)
 
-Por exemplo, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` carrega a página de não participação em coreano.
+Por exemplo, `https://example.data.adobedc.net/optout.html?locale=ko_KR` carrega a página de não participação em coreano.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Por exemplo, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` carrega a
 
 Adiciona um botão &quot;Fechar janela&quot; à página, permitindo que a página de opção de não participação seja convertida em uma janela pop-up. Use o parâmetro da cadeia de caracteres de consulta `popup` e atribua a ele um valor `1`.
 
-Por exemplo, `https://example.sc.adobedc.net/optout.html?popup=1` carrega a página de opção de não participação com um botão &#39;Fechar janela&#39;.
+Por exemplo, `https://example.data.adobedc.net/optout.html?popup=1` carrega a página de opção de não participação com um botão &#39;Fechar janela&#39;.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Por exemplo, `https://example.sc.adobedc.net/optout.html?popup=1` carrega a pág
 
 Permite que o usuário desative imediatamente o monitoramento. Adicione os dois parâmetros da cadeia de caracteres de consulta `opt_out` e `confirm_change`, dando a cada um o valor de `1`.
 
-Por exemplo, o `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` instala imediatamente o cookie de não participação na página do visitante.
+Por exemplo, o `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` instala imediatamente o cookie de não participação na página do visitante.
 
 ### Aceitação de clique único
 
 Permite que o usuário recue imediatamente no rastreamento ao excluir o cookie de opção. Adicione os dois parâmetros da cadeia de caracteres de consulta `opt_in` e `confirm_change`, dando a cada um o valor de `1`.
 
-Por exemplo, o `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` exclui imediatamente o cookie de não participação do visitante.
+Por exemplo, o `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` exclui imediatamente o cookie de não participação do visitante.
