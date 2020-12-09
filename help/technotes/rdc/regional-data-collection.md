@@ -2,10 +2,10 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ A lista a seguir descreve o processo de coleta de dados usado pela Adobe:
 1. A DNS corrige automaticamente o nome de host da coleta para o endereço IP do Centro de coleta de dados mais próximo do visitante.
 1. O visitante envia os dados para o local.
 1. Os dados são encaminhados imediatamente por meio de uma conexão segura para o Centro de processamento de dados, onde é processado e disponibilizado para os produtos na Adobe Experience Cloud.
-
-## Benefícios da RDC
-
-| Benefícios | Descrição |
-|---------|-----------|
-| Desempenho | Com a RDC, seus visitantes se conectarão ao DCC mais próximo. Isso significa que os tempos de resposta da sua página diminuirão (quanto menor, melhor), resultando em um rastreamento mais preciso e em tempos de carregamento mais rápidos. |
-| Redundância | No caso de uma interrupção na comunicação com um DCC, a coleta de dados é encaminhada diretamente ao DCC mais próximo, garantindo a continuidade do serviço. |
-| Redundância | No caso de uma interrupção na comunicação entre o DCC e sua DPC, a infraestrutura da RDC da Adobe salva os dados localmente e, em seguida, os encaminha para a DPC quando as comunicações são restauradas. |
-
-## Histórico de revisão da documentação
-
-| atualização | Descrição |
-|--------|---------|
-| 4 de fevereiro de 2020 | Atualizar locais da RDC |
-| 20 de fevereiro de 2019 | Reescrita completa. Adicionadas informações da rede RDC. |
