@@ -2,10 +2,10 @@
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Como curador deste Scorecard, você pode usar o Construtor de scorecards para co
 
 Para criar o Scorecard, é necessário fazer o seguinte:
 
-1. Acesse o modelo de Scorecard para dispositivos móveis em branco.
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Configure o Scorecard com os dados e salve.
 
-### Acesse o modelo de Scorecard para dispositivos móveis em branco
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-Você pode acessar o modelo de Scorecard para dispositivos móveis em branco de uma das seguintes maneiras:
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **Criar um novo projeto**
 
-1. Abra o Adobe Analytics e clique na guia **Workspace**.
-2. Clique no botão **Criar novo projeto** e selecione o modelo de projeto de **Scorecard para dispositivos móveis em branco**.
-3. Clique no botão **Criar**.
+1. Abra o Adobe Analytics e clique na guia **[!UICONTROL Workspace]**.
+2. Clique no botão **[!UICONTROL Criar novo projeto]** e selecione o modelo de projeto de **[!UICONTROL Scorecard para dispositivos móveis em branco]**.
+3. Clique no botão **[!UICONTROL Criar]**.
 
 ![Modelo de Scorecard](assets/new_template.png)
 
 **Adicionar um projeto**
 
-Na tela **Projetos**, na guia **Componentes**, clique no botão **Adicionar** e selecione **Scorecard para dispositivos móveis**.
+Na tela **[!UICONTROL Projetos]**, na guia **[!UICONTROL Componentes]**, clique no botão **[!UICONTROL Adicionar]** e selecione **[!UICONTROL Scorecard para dispositivos móveis]**.
 
 ![Adicionar projetos](assets/add_project.png)
 
-**Usar ferramentas do Analytics**
+**Usar [!DNL Analytics] ferramentas**
 
-No Analytics, clique no menu **Ferramentas** e selecione **painéis**. Na tela subsequente, clique no botão **Criar Scorecard**.
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### Configure o Scorecard com os dados e salve
 
 Para implementar o modelo de Scorecard:
 
-1. Em **Propriedades** (no painel direito), especifique um **Conjunto de relatórios de projeto** cujos dados você deseja usar.
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![Seleção de conjunto de relatórios](assets/properties_save.png)
 
-2. Para adicionar um novo bloco ao Scorecard, arraste uma métrica do painel esquerdo e solte-a na Zona **Arrastar e soltar métricas aqui**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
 
    ![Adicionar blocos](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Para implementar o modelo de Scorecard:
    *Em cada bloco, é possível acessar uma exibição detalhada que mostra informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.*
 
 
-3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, é possível adicionar as dimensões apropriadas (como **Região de DMA**, neste exemplo) à métrica **Visitantes únicos**, arrastando-as e soltando-as no bloco. As dimensões adicionadas serão exibidas na seção de detalhamento das **Propriedades** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
+3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. É possível adicionar várias dimensões a cada bloco.
 
    ![Adicionar dimensões](assets/layer_dimensions.png)
 
    Também é possível adicionar uma dimensão a todos os blocos, soltando-a na tela Scorecard.
 
-   Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
+   Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
    Além disso, se você clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
 
@@ -106,21 +106,21 @@ Para implementar o modelo de Scorecard:
 
    Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
+4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
 
    ![Criar segmentos para filtro](assets/segment_ui.png)
 
-5. Da mesma forma, para remover um componente aplicado a todo o Scorecard, clique em qualquer lugar do Scorecard fora dos blocos e remova-o clicando no **x** exibido quando você passa o mouse sobre o componente, como mostrado abaixo para o segmento **Clientes de dispositivos móveis**:
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remover_componentes](assets/new_remove.png)
 
-6. Nas **Propriedades** do Scorecard, você também pode especificar o seguinte opcionalmente:
+6. Nas **[!UICONTROL Propriedades]** do Scorecard, você também pode especificar o seguinte opcionalmente:
 
-   * Um **Intervalo de datas padrão**. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
+   * A **[!UICONTROL Default date range]**. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
 
-   * Um **Intervalo de datas de comparação**
+   * A **[!UICONTROL Comparison date range]**
 
-   * Quaisquer **segmentos** a serem aplicados a todo o Scorecard
+   * Quaisquer **[!UICONTROL segmentos]** a serem aplicados a todo o Scorecard
 
 7. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
@@ -130,22 +130,22 @@ Para implementar o modelo de Scorecard:
 
 Para compartilhar o Scorecard com um usuário executivo:
 
-1. Clique no menu **Compartilhar** e selecione **Compartilhar scorecard**.
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. No formulário **Compartilhar**, preencha os campos ao:
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * Fornecer o nome do Scorecard
    * Fornecer uma descrição do Scorecard
    * Adicionar tags relevantes
    * Especificar os destinatários do Scorecard
 
-3. Clique em **Compartilhar**.
+3. Clique em **[!UICONTROL Compartilhar]**.
 
 ![Compartilhar_Scorecards](assets/new_share.png)
 
 Depois de compartilhar um Scorecard, os destinatários podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no Scorecard usando o Construtor de scorecards, elas serão atualizadas automaticamente no Scorecard compartilhado. Os usuários executivos verão as alterações depois de atualizar o Scorecard no aplicativo.
 
-Se você atualizar o Scorecard adicionando novos componentes, convém compartilhar o scorecard novamente (e marcar a opção **Compartilhar componentes inseridos**) para garantir que os usuários executivos tenham acesso a essas alterações.
+Se você atualizar o Scorecard adicionando novos componentes, convém compartilhar o scorecard novamente (e marcar a opção **[!UICONTROL Compartilhar componentes inseridos]**) para garantir que os usuários executivos tenham acesso a essas alterações.
 
 ## Configurar usuários executivos com o aplicativo
 
@@ -159,7 +159,7 @@ Para ajudar os usuários executivos a acessar os Scorecards no aplicativo, verif
 * Eles possuem um logon válido no Adobe Analytics
 * Você criou corretamente os Scorecards para dispositivos móveis para eles e compartilhou esses Scorecards com eles
 * Eles têm acesso à Analysis Workspace e ao conjunto de relatórios em o Scorecard se baseia
-* Eles têm acesso aos Componentes incluídos no Scorecard. Observe que é possível selecionar uma opção ao compartilhar os Scorecards para **Compartilhar componentes inseridos**.
+* Eles têm acesso aos Componentes incluídos no Scorecard. Observe que é possível selecionar uma opção ao compartilhar os Scorecards para **[!UICONTROL Compartilhar componentes inseridos]**.
 
 ### Ajudar os usuários executivos com o aplicativo
 
@@ -169,22 +169,22 @@ Para ajudar usuários executivos:
 
    **Para usuários executivos no iOS:**
 
-   * Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Link para iOS](https://apple.co/2zXq0aN)
    **Para usuários executivos no Android:**
 
-   * Clique no link a seguir (ele também está disponível no Analytics em **Ferramentas** > **painéis**) e siga as instruções para baixar, instalar e abrir o aplicativo:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Link do Android](https://bit.ly/2LM38Oo)
    Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
 
    ![Tela de boas-vindas do aplicativo](assets/welcome.png)
 
-2. Ajude-os a acessar o Scorecard. Depois que os usuários executivos entram no aplicativo, a tela **Escolher uma empresa** é exibida. Essa tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
+2. Ajude-os a acessar o Scorecard. Depois que os usuários executivos entram no aplicativo, a tela **[!UICONTROL Escolher uma empresa]** é exibida. Essa tela lista as empresas de logon às quais o usuário executivo pertence. Para ajudá-los a chegar ao Scorecard:
 
    * Toque no nome da empresa de logon ou na Experience Cloud Org que se aplica ao Scorecard que você compartilhou. A lista do Scorecard mostra todos os Scorecards que foram compartilhados com o executivo na empresa de logon.
-   * Ajude-os a classificar essa lista pela **Modificação mais recente**, se aplicável.
+   * Ajude-os a classificar essa lista pela **[!UICONTROL Modificação mais recente]**, se aplicável.
    * Toque no nome do Scorecard para visualizá-lo.
 
    ![Escolha uma empresa](assets/accesscard.png)
@@ -201,7 +201,7 @@ Para ajudar usuários executivos:
    * Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![Explicar blocos](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Para ajudar usuários executivos:
 
    * Você também pode alterar os intervalos de datas na exibição de Detalhamento mostrada acima da mesma maneira.
 
-   * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **COMPARAR COM**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **Concluído** no canto superior direito da tela. O campo **Intervalos de datas** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
+   * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **[!UICONTROL COMPARAR COM]**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **[!UICONTROL Concluído]** no canto superior direito da tela. O campo **[!UICONTROL Intervalos de datas]** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
 6. Para deixar comentários sobre este aplicativo:
 
    1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
-   2. Na tela **Configurações**, toque na opção **Feedback**.
+   2. Na tela **[!UICONTROL Configurações]**, toque na opção **[!UICONTROL Feedback]**.
    3. Toque para ver as opções para deixar comentários.
 
       ![Tela de configurações](assets/settings.png)
 
-7. Para alterar as preferências, toque na opção **Preferências** mostrada acima. Em preferências, você pode ativar o logon biométrico ou pode definir o aplicativo para o modo escuro, como mostrado abaixo:
+7. Para alterar as preferências, toque na opção **[!UICONTROL Preferências]** mostrada acima. Em preferências, você pode ativar o logon biométrico ou pode definir o aplicativo para o modo escuro, como mostrado abaixo:
 
    ![Modo escuro](assets/darkmode.png)
 
