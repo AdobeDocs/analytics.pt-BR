@@ -2,10 +2,10 @@
 title: Configurar o Cross-device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas par
 >
 >Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de união desejado ([União com base em arquivo](field-based-stitching.md) ou [gráfico de dispositivos](device-graph.md), respectivamente) para ver os pré-requisitos e as limitações.
 
-## Escolha o conjunto de relatórios entre dispositivos que será ativado para o CDA
+## Entre em contato com o gerente de sucesso do cliente para fornecer o CDA em seu conjunto de relatórios entre dispositivos
 
-Quando sua organização é provisionada para usar o CDA, você escolhe qual conjunto de relatórios usar. Essa opção pode ser comunicada por meio do Gerente de conta da Adobe. A Adobe ativa o conjunto de relatórios escolhido para o processamento do CDA.
+O CDA é provisionado em seu conjunto de relatórios entre dispositivos por engenharia de Adobe. Entre em contato com o gerente de sucesso do cliente com as seguintes informações:
+
+* Sua ID organizacional do Adobe Experience Cloud (uma sequência alfanumérica terminando com @AdobeOrg)
+* A ID do conjunto de relatórios para o conjunto de relatórios entre dispositivos que você deseja ativar com o CDA
+* Qual método de CDA você deseja usar (costura baseada em campo, gráfico Adobe particular ou gráfico cooperativo de Adobe)
+* Se você pretende usar a sutura baseada em campo, o prop ou eVar que contém a ID do usuário
+
+Depois de fornecer essas informações ao CSM, ele trabalhará com a engenharia de Adobe para habilitar o conjunto de relatórios escolhido para processamento de CDA.
 
 ## Crie um conjunto de relatórios virtuais entre dispositivos para ver a exibição entre dispositivos
 
@@ -43,7 +50,7 @@ Os administradores com acesso para criar conjuntos de relatórios virtuais podem
 Quando o Cross-Device Analytics estiver ativado em um conjunto de relatórios virtual, observe as seguintes alterações:
 
 * Um novo ícone entre dispositivos é exibido ao lado do nome do conjunto de relatórios virtual. Esse ícone é exclusivo para conjuntos de relatórios virtuais entre dispositivos.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Essa dimensão determina se a Experience Cloud ID dessa ocorrência é conhecida pelo gráfico do dispositivo nesse momento.
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* Uma nova dimensão chamada [Estado identificado](../dimensions/identified-state.md) está disponível. Essa dimensão determina se a Experience Cloud ID dessa ocorrência é conhecida pelo gráfico do dispositivo nesse momento.
+* Novas métricas rotuladas como [Pessoas](../metrics/people.md) e [Dispositivos exclusivos](../metrics/unique-devices.md) estão disponíveis.
+* A métrica [Visitantes únicos](../metrics/unique-visitors.md) não está disponível, pois é substituída por &#39;Pessoas&#39; e &#39;Dispositivos únicos&#39;.
 * Ao criar segmentos, o contêiner de segmento &quot;Visitante&quot; é substituído pelo contêiner &quot;Pessoa&quot;.
