@@ -2,9 +2,9 @@
 title: Integrar dados do Google Display Ad ao Adobe Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: ef9e012628b6e2b2ffc4b41c0f01e29b30f7a327
+source-git-commit: dd75ce60481baad6222bf6da3af970aca0672e42
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Essa integração permite associar o comportamento do cliente aos dados de campanha e custo do Google AdWords.
 
-1. Vá para o Google Campaign Manager.
+1. Faça logon no Google Campaign Manager.
 2. Configure uma exportação recorrente de sua publicidade para que você possa fazer upload de deltas de suas métricas de exibição (impressões, cliques, custo), divididas pela ID mais granular (ID de anúncio).
 3. Faça upload do conjunto completo de metadados da ID do anúncio, como campanha, site etc.
 4. Classifique a ID do anúncio usando todos os metadados.
