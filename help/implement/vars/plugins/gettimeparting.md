@@ -4,8 +4,8 @@ description: Meça o tempo em que uma ação específica ocorre.
 translation-type: tm+mt
 source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
