@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Meça o tempo em que uma ação específica ocorre.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +23,6 @@ O Analysis Workspace fornece dimensões semelhantes e predefinidas formatadas de
 >[!IMPORTANT]
 >
 >A versão 4.0+ desse plug-in é significativamente diferente das versões anteriores. A Adobe recomenda implementar esse plug-in &quot;do zero&quot;. O código que faz referência ao plug-in antes da versão 4.0 não é compatível com a versão atual desse plug-in.
-
->[!IMPORTANT]
->
->As versões anteriores deste plug-in não acomodaram todos os anos no futuro. Se você usar uma versão anterior desse plug-in, o Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro. Essa variável não está presente ou é necessária na versão mais recente do plug-in.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Versão pontual (recompilada, menor tamanho de código)
 * Foi removida a necessidade do parâmetro `tpDST`, já que as datas de início/término do horário de verão agora são detectadas automaticamente
+
+>[!CAUTION]
+>
+>As versões anteriores deste plug-in não acomodaram todos os anos no futuro. Se você usar uma versão anterior desse plug-in, o Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro.
 
 ### 4.0 (22 de agosto de 2016)
 
