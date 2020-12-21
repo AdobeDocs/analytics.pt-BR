@@ -2,11 +2,11 @@
 description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 title: 'Referência: funções básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Veja uma lista em ordem alfabética das funções e suas definições.
 
 >[!NOTE]
 >
->Sempre que [!DNL metric] for definida como um argumento em uma função, outras expressões de métricas também serão permitidas. Por exemplo, [!DNL MAXV(metrics)] também permite [!DNL MAXV(PageViews + Visits).]
+>Sempre que [!DNL metric] for definida como um argumento em uma função, outras expressões de métricas também serão permitidas. Por exemplo, [!DNL MAXV(metrics)] também permite [!DNL MAXV(PageViews + Visits)].
 
 ## Funções de tabela versus Funções de linha {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | Uma métrica que você gostaria de avaliar. |
+| *métrica* | Uma métrica que você gostaria de avaliar. |
 
 ## Mínimo da coluna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | Uma métrica que você gostaria de avaliar. |
+| *métrica* | Uma métrica que você gostaria de avaliar. |
 
 ## Soma da coluna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter o valor total ou soma. |
+| *métrica* | A métrica para a qual você deseja obter o valor total ou soma. |
 
 ## Contagem (Tabela) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica que deseja contar. |
+| *métrica* | A métrica que deseja contar. |
 
 ## Expoente (Linha) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,15 +95,15 @@ EXP(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O exponente aplicado à base *e*. |
+| *métrica* | O exponente aplicado à base *e*. |
 
 ## Exponenciação {#concept_941578534F1E4583B1BEB067C8113A21}
 
 Operador de potência
 
-<pre>
-pow(x,y) = x <sup>y</sup> = x*x*x*... (y vezes)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## Média (Tabela) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter a média. |
+| *métrica* | A métrica para a qual você deseja obter a média. |
 
 ## Mediana (Tabela) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter a mediana. |
+| *métrica* | A métrica para a qual você deseja obter a mediana. |
 
 ## Módulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -161,24 +161,10 @@ Retorna o milésimo percentil dos valores de uma métrica. É possível usar est
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argumento </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> A coluna de métrica que define a posição relativa. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> O valor do percentil no intervalo de 0 a 100, inclusive. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descrição |
+| --- | --- |
+| *métrica* | A coluna de métrica que define a posição relativa. |
+| *k* | O valor do percentil no intervalo de 0 a 100, inclusive. |
 
 ## Quartil (Tabela) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ Retorna o quartil de valores de uma métrica. Por exemplo, os quartis podem ser 
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argumento </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> A métrica para a qual você deseja obter o valor do quartil. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> Indica o *valor a retornar. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descrição |
+| --- | --- |
+| *métrica* | A métrica para a qual você deseja obter o valor do quartil. |
+| *quart* | Indica o *valor a retornar. |
 
 *Se *quart* = 0, QUARTIL retorna o valor mínimo. Se *quart* = 1, QUARTIL retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTIL retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTIL retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTIL retorna o valor máximo.
 
@@ -224,9 +196,9 @@ ROUND(metric)
 Arredondar sem um parâmetro de dígitos é igual a arredondar com um parâmetro de dígitos de 0; ou seja, arredondar para o número inteiro mais próximo. Com um parâmetro de dígitos, ele retorna o mesmo número de dígitos à direita da casa decimal. Se os dígitos forem negativos, retornará zeros à esquerda da casa decimal.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | Argumento | Descrição |
-|---|---|
+| --- | --- |
 | *número* | A métrica para a qual você deseja obter a raiz quadrada. |
 
 ## Desvio padrão (Tabela) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ A equação de STDEV é:
 
 ![](assets/std_dev.png)
 
-onde x é a média da amostra (*métrica*), e *n* é o tamanho da amostra.
+Onde *x* é o valor de cada amostra (*metric*), *x̄* é a média da população e *n* é o tamanho da população.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> Argumento</b> </td> 
-   <td> <b> Descrição</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> A métrica para a qual você deseja obter o desvio padrão. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descrição |
+| --- | --- |
+| *métrica* | A métrica para a qual você deseja obter o desvio padrão. |
 
 ## Variação (Tabela) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ A equação de VARIAÇÃO é:
 
 ![](assets/variance_eq.png)
 
-onde x é a média da amostra, MÉDIA(*métrica*), e *n* é o tamanho da amostra.
+Onde *x* é o valor de cada amostra (*metric*), *x̄* é a média da população e *n* é o tamanho da população.
 
 ```
 VARIANCE(metric)
 ```
 
 | Argumento | Descrição |
-|---|---|
-| *metric* | A métrica para a qual você deseja obter a variação. |
+| --- | --- |
+| *métrica* | A métrica para a qual você deseja obter a variação. |
 
 Para calcular uma variação, considere uma coluna inteira de números. Nessa lista de números, calcule primeiro a média. Após obter a média, faça o seguinte em cada entrada:
 
 1. Subtraia a média do número.
-
-2. Eleve o resultado ao quadrado.
-
-3. Adicione-o ao total.
+1. Eleve o resultado ao quadrado.
+1. Adicione-o ao total.
 
 Quando você iterar na coluna inteira, terá um total único. Depois, divida o total pelo número de itens na coluna. Esse número é a variação da coluna. É um número único. No entanto, é exibido como uma coluna de números.
 
@@ -321,10 +282,4 @@ Por exemplo, digamos que você tenha uma coluna de três itens:
 
 3
 
-A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Na Ad Hoc Analysis, isso terá a seguinte aparência:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
