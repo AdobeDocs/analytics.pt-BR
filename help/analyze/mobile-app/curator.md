@@ -1,20 +1,20 @@
 ---
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Guia do curador para painéis do Adobe Analytics
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para assistir a um vídeo que demonstra essas informações, consulte o vídeo do Adobe Analytics painel Scorecard Builder:
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para ver um vídeo que demonstra essas informações, consulte o vídeo do Construtor de scorecard dos painéis do Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=por_br)
 
 ## Introdução
 
@@ -51,12 +51,12 @@ Como curador deste Scorecard, você pode usar o Construtor de scorecards para co
 
 Para criar o Scorecard, é necessário fazer o seguinte:
 
-1. Access the [!UICONTROL Blank Mobile Scorecard] template.
+1. Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco].
 2. Configure o Scorecard com os dados e salve.
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+### Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco]
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+Você pode acessar o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco] de uma das seguintes maneiras:
 
 **Criar um novo projeto**
 
@@ -74,17 +74,17 @@ Na tela **[!UICONTROL Projetos]**, na guia **[!UICONTROL Componentes]**, clique 
 
 **Usar [!DNL Analytics] ferramentas**
 
-In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+No [!DNL Analytics], clique no menu **[!UICONTROL Ferramentas]** e selecione **[!UICONTROL Painéis do Analytics (Aplicativo móvel)]**. Na tela seguinte, clique no botão **[!UICONTROL Criar novo scorecard]**.
 
 ### Configure o Scorecard com os dados e salve
 
 Para implementar o modelo de Scorecard:
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. Em **[!UICONTROL Propriedades]** (no painel direito), especifique um **[!UICONTROL Conjunto de relatórios do projeto]** cujos dados você deseja usar.
 
    ![Seleção de conjunto de relatórios](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
+2. Para adicionar um novo bloco ao Scorecard, arraste uma métrica do painel esquerdo e solte-a na zona **[!UICONTROL Arrastar e soltar métricas aqui]**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
 
    ![Adicionar blocos](assets/build_list.png)
 
@@ -92,7 +92,7 @@ Para implementar o modelo de Scorecard:
    *Em cada bloco, é possível acessar uma exibição detalhada que mostra informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.*
 
 
-3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. É possível adicionar várias dimensões a cada bloco.
+3. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, você pode adicionar dimensões apropriadas (como **[!DNL DMA Region]**, neste exemplo) às métricas **[!UICONTROL Visitantes únicos]** arrastando e soltando no bloco; as dimensões que você adicionar aparecerão na seção de detalhamento das **[!UICONTROL Propriedades]** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
 
    ![Adicionar dimensões](assets/layer_dimensions.png)
 
@@ -106,19 +106,19 @@ Para implementar o modelo de Scorecard:
 
    Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) da mesma forma que faria no Adobe Analytics Workspace.
+4. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) da mesma forma que faria no Adobe Analytics Workspace.
 
    ![Criar segmentos para filtro](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
+5. Da mesma forma, para remover um componente aplicado a todo o Scorecard, clique em qualquer lugar do Scorecard fora dos blocos e remova-o clicando no **x** que aparece quando você passa o mouse sobre o componente, conforme mostrado abaixo para o segmento do **[!DNL Mobile Customers]**:
 
    ![Remover_componentes](assets/new_remove.png)
 
 6. Nas **[!UICONTROL Propriedades]** do Scorecard, você também pode especificar o seguinte opcionalmente:
 
-   * A **[!UICONTROL Default date range]**. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
+   * Um **[!UICONTROL Intervalo de datas padrão]**. Os intervalos especificados aqui serão os mesmos aplicados ao primeiro acesso do usuário executivo ao Scorecard em seu aplicativo.
 
-   * A **[!UICONTROL Comparison date range]**
+   * Um **[!UICONTROL Intervalo de datas de comparação]**
 
    * Quaisquer **[!UICONTROL segmentos]** a serem aplicados a todo o Scorecard
 
@@ -130,9 +130,9 @@ Para implementar o modelo de Scorecard:
 
 Para compartilhar o Scorecard com um usuário executivo:
 
-1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+1. Clique no menu **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Compartilhar scorecard]**.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. No formulário **[!UICONTROL Compartilhar scorecard para dispositivos móveis]**, preencha os campos da seguinte forma:
 
    * Fornecer o nome do Scorecard
    * Fornecer uma descrição do Scorecard
@@ -169,12 +169,12 @@ Para ajudar usuários executivos:
 
    **Para usuários executivos no iOS:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Clique no link a seguir (ele também está disponível no Analytics em **[!UICONTROL Ferramentas]** > **[!UICONTROL Painéis do Analytics (Aplicativo móvel)]**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
       [Link para iOS](https://apple.co/2zXq0aN)
    **Para usuários executivos no Android:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Clique no link a seguir (ele também está disponível no Analytics em **[!UICONTROL Ferramentas]** > **[!UICONTROL Painéis do Analytics (Aplicativo móvel)]**) e siga as instruções para baixar, instalar e abrir o aplicativo:
 
       [Link do Android](https://bit.ly/2LM38Oo)
    Após o download e a instalação, os usuários executivos podem fazer logon no aplicativo usando suas credenciais atuais do Adobe Analytics. Oferecemos suporte para Adobe ID e Enterprise/Federated ID.
@@ -201,7 +201,7 @@ Para ajudar usuários executivos:
    * Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o primeiro Scorecard abaixo é definido no modo escuro; consulte **[!UICONTROL Preferências]** abaixo se você achar que seu usuário executivo prefere essa opção de visualização):
 
    ![Explicar blocos](assets/newexplain.png)
 
@@ -262,4 +262,4 @@ Toque na opção e informe o endereço de email no campo superior e a pergunta n
 
 >[!IMPORTANT]
 >
->A partir de outubro de 2020, o Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;painéis Adobe Analytics&quot;. Esses aprimoramentos centralizam-se no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se desejar opt out esses recursos de melhoria de desempenho.
+>A partir de outubro de 2020, a Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;Painéis do Adobe Analytics&quot;. Essas melhorias se concentram no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se não quiser aceitar esses recursos de melhoria de desempenho.
