@@ -1,17 +1,17 @@
 ---
 description: A preparação permite limitar os componentes antes de compartilhar um projeto.
 keywords: Analysis Workspace curation
-title: Preparar projetos
+title: 'Preparar projetos do '
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '542'
+ht-degree: 89%
 
 ---
 
 
-# Preparar projetos
+# Preparar projetos do 
 
 A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abrir o projeto, ele verá um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
 
@@ -58,8 +58,11 @@ Em um projeto com curadoria de VRS, o recipient terá a opção de **[!UICONTROL
 * Nível de permissão do usuário (admin ou non-admin)
 * Função do projeto (proprietário/editor ou não)
 * Tipo de preparação aplicada (VRS ou projeto)
+* Componentes de propriedade ou compartilhados com o usuário. Os componentes proprietários/compartilhados incluem segmentos, métricas calculadas e intervalos de datas. Eles não incluem componentes implementados, como eVars, props e eventos personalizados.
 
-| Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função de duplicação ou visualização não administrativo |
+Observação: As funções de visualização que não são de administração não têm acesso ao painel esquerdo em um projeto, por isso foram omitidas da tabela abaixo.
+
+| Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função de duplicado não administrador |
 |---|---|---|---|
 | Conjunto de relatórios virtual preparado | Todos os componentes de VRS não preparados | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela |
 | Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
