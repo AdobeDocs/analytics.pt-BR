@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre classificações
 description: Perguntas frequentes sobre o uso de classificações.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Os arquivos de classificação carregados com um valor chave ou um valor de clas
 
 * **Usar regras de processamento**: você pode modificar itens de dimensão entre a coleta de dados e seus armazenamentos em um conjunto de relatórios. Crie a seguinte regra de processamento:
 
-   *Se a[dimensão]for igual a`0`, substitua o valor da[dimensão]pelo valor personalizado`Zero`.*
+   *Se a [dimensão] for igual a `0`, substitua o valor da [dimensão] pelo valor personalizado `Zero`.*
 
 * **Solicitar uma regra VISTA**: um consultor dos Serviços de engenharia configura uma regra do lado do servidor para você com um custo extra. Entre em contato com o Gerente de conta de sua organização para solicitar uma regra VISTA.
 
@@ -35,7 +35,7 @@ Sim, *entretanto, cada item de dimensão será contado como uma chamada de servi
 
 ## Como posso classificar valores que contêm caracteres especiais?
 
-Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou aspas duplas nos relatórios. No entanto, em alguns casos, a sua utilização é necessária. Se os valores do relatório tiverem os caracteres que você quiser classificar, siga as seguintes etapas:
+Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou aspas de duplo no relatórios. No entanto, em alguns casos, a sua utilização é necessária. Se os valores do relatórios contiverem caracteres que você escolher classificar, use as seguintes etapas:
 
 1. Faça logon no Adobe Analytics e acesse **[!UICONTROL Admin]** > **[!UICONTROL Importador de classificação]**.
 2. Clique na guia **[!UICONTROL Exportação de navegador]**.
@@ -46,4 +46,4 @@ Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou asp
 
 ## O que são classificações numéricas 2?
 
-As classificações numéricas 2 permitem classificar itens de dimensão como métricas que se baseiam em tempo. Eles foram removidos da interface do usuário do Analytics em julho de 2019.
+As classificações numéricas 2 permitem classificar itens de dimensão como métricas que se baseiam em tempo. Eles foram aposentados da interface do usuário do Adobe Analytics em julho de 2019.
