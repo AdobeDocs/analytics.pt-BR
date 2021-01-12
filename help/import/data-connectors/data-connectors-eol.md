@@ -2,9 +2,9 @@
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 Por mais de uma década, a Adobe Analytics tem o objetivo de oferecer a melhor solução de análise de marketing e Web da classe para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para oferecer continuamente e atender aos mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna de tecnologia Adobe Analytics.
 
-A partir de 1º de agosto de 2021, a Adobe pretende descontinuar as integrações dos conectores de dados. O fim da vida é parte do ciclo de vida de qualquer produto tecnológico e o Adobe pretende tornar a transição o mais ininterrupta possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar a ser utilizadas.
+**A partir de 1º de agosto de 2021**, a Adobe pretende descontinuar as integrações dos conectores de dados. O Fim da vida útil é parte do ciclo de vida de qualquer produto tecnológico e o Adobe visa tornar a transição o mais ininterrupta possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar a ser utilizadas.
 
 ## Por que vamos acabar com esse recurso?
 
@@ -41,7 +41,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Appfigures | Migração para o Adobe Exchange |
 | Appsee | Disponível no Adobe Exchange |
 | AppsFlyer | Migração para o Adobe Exchange |
-| Aprimo do envolvimento de marketing corporativo |
+| Aprimo do envolvimento de marketing corporativo | Substituição |
 | Apteligent | Disponível no Exchange |
 | BlueHornet eMarketing Suite | Substituição |
 | Ramificação | Migração para o Exchange |
