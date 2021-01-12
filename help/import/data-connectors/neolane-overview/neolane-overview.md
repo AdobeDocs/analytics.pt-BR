@@ -3,9 +3,9 @@ description: Esta integração de e-mail Adobe® Data Connectors™ combina info
 title: Conector de dados Neolane Ozon para Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '776'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>Estaremos terminando a vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 
@@ -50,7 +50,7 @@ Antes de iniciar a integração dos Data Connectors para , atenda aos seguintes 
 * **Variáveis disponíveis e configuradas do Adobe Analytics:** essa integração exige eventos e eVars personalizados, além de eventos e eVars adicionais.
 * **Representante autorizado:** esteja ciente de que ativar essa integração pode gerar tarifas para sua empresa de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável. Ao ativar essa integração, você declara que é um representante autorizado da empresa; e, como tal, a empresa concorda em pagar as tarifas, se houver, estabelecidas no contrato de serviço descrito acima.
 * **Data Warehouse™:** essa integração exige que o Data Warehouse esteja habilitado para gerar segmentos de remarketing. Se você não tiver ativado o Data Warehouse, entre em contato com a Adobe para obter detalhes.
-* **`[~Partner~]`:** a integração exige a captura e o armazenamento de um “`[~Partner~]`” em uma variável do Adobe Analytics (eVar). Essa ID é uma representação codificada ou numérica de um endereço de email do`[~Partner~]`. Esse “[!DNL ~Partner~]” está associado ao comportamento downstream de visitantes no site (abandonos de carrinho, compras etc.) que é extraído para o sistema`[~Partner~]`e pode ser aproveitado para fins de remarketing. Como parte do processo de configuração, você deve identificar uma eVar para essa finalidade quando solicitado pelo Assistente.
+* **`[~Partner~]`:** a integração exige a captura e o armazenamento de um “`[~Partner~]`” em uma variável do Adobe Analytics (eVar). Essa ID é uma representação codificada ou numérica de um endereço de email do `[~Partner~]`. Esse “[!DNL ~Partner~]” está associado ao comportamento downstream de visitantes no site (abandonos de carrinho, compras etc.) que é extraído para o sistema `[~Partner~]` e pode ser aproveitado para fins de remarketing. Como parte do processo de configuração, você deve identificar uma eVar para essa finalidade quando solicitado pelo Assistente.
 * **Rastreamento externo:** se, atualmente, você não estiver seguindo a prática recomendada de ativação do rastreamento externo para cada campanha de email enviada, é necessário fazê-lo para garantir uma integração bem-sucedida. Consulte a seção `[~Partner~]` abaixo para obter detalhes.
 * **Conformidade com privacidade:** você deve entender que, ao ativar o rastreamento de ID de destinatário ou de visitante, esse recurso pode rastrear informações de identificação pessoal de visitantes do site. Isso tem implicações de privacidade que exigem a implementação de procedimentos apropriados por parte da sua organização, como informar os visitantes do site e dar o consentimento deles.
 
