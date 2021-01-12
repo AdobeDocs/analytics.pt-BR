@@ -3,9 +3,9 @@ description: Esta integração de email Adobe® Data Connectors combina informa�
 title: Conector de dados do Datran para Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '952'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->A tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>Estaremos terminando a vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de email Adobe® Data Connectors combina informações comportamentais do Adobe Analytics® ao marketing de email do Datran para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e direcionar públicos-alvo com mensagens mais relevantes.
 
