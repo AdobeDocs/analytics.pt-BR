@@ -2,10 +2,10 @@
 description: Importe dados de rastreamento de aplicativos de terceiros para o Analytics.
 title: Introdução aos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Por exemplo, uma integração de email pode querer usar um parceiro de email par
 
 >[!IMPORTANT]
 >
->A vida útil da tecnologia Adobe Data Connector será encerrada em meados de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>Teremos o fim da vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos do sistema**
 
@@ -86,7 +86,7 @@ Para implementar segmentos de recomercialização com sucesso, é preciso atende
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>Se o produto for definido sem um evento associado, o evento `prodView` será acionado automaticamente.
 >
 >Caso as exigências acima não sejam atendidas, os segmentos de remarketing correspondentes não serão apresentados corretamente.
 
