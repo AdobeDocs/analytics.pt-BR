@@ -2,10 +2,10 @@
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 
 | Parceiro | Status |
 | --- | --- |
-| Acxiom | Disponível no Adobe Exchange |
-| Adform | Disponível no Adobe Exchange |
+| Acxiom | Substituição |
+| Adform | Substituição |
 | Ajustar | Migração para o Adobe Exchange |
 | Adobe Campaign | Migração para o Adobe Exchange |
 | Appfigures | Migração para o Adobe Exchange |
-| Appsee | Disponível no Adobe Exchange |
+| Appsee | Substituição |
 | AppsFlyer | Migração para o Adobe Exchange |
 | Aprimo do envolvimento de marketing corporativo | Substituição |
-| Apteligent | Disponível no Exchange |
+| Apteligent | Substituição |
 | BlueHornet eMarketing Suite | Substituição |
 | Ramificação | Migração para o Exchange |
-| BrightEdge 2.0 | Disponível no Exchange |
+| BrightEdge 2.0 | Substituição |
 | Software da marca | Substituição |
 | CheetahMail da Experian | Migração para o Exchange |
-| ClickTale | Disponível no Exchange |
+| ClickTale | Substituição |
 | CA do Clicktale | Substituição |
-| Condutor 2.0 | Disponível no Exchange |
-| ContactLab 2.0 (Conector de envio de contato) | Disponível no Exchange |
-| TrueSight do Coradiant | Disponível no Exchange |
-| Inteligência do Visitante D&amp;B | Disponível no Exchange |
+| Condutor 2.0 | Substituição |
+| ContactLab 2.0 (Conector de envio de contato) | Substituição |
+| TrueSight do Coradiant | Substituição |
+| Inteligência do Visitante D&amp;B | Substituição |
 | Datran Media | Substituição |
-| Decibel Insight | Disponível no Exchange |
-| Decifrador | Disponível no Exchange |
+| Decibel Insight | Substituição |
+| Decifrador | Substituição |
 | Delivra | Substituição |
-| CA Demandbase | Disponível no Exchange |
+| CA Demandbase | Substituição |
 | Demandbase v3 | Substituição |
-| DialogTech | Disponível no Exchange |
+| DialogTech | Substituição |
 | DoubleClick for Advertisers (DFA) | Descontinuando (Mais informações aqui **Vincular à PÁGINA EOL do DFA**) |
 | SONHO | Substituição |
 | DREAMmail 2.0 | Substituição |
 | Sinal dinâmico (Vora Nital) | Migração para o Exchange |
 | eDialog Precision Central | Substituição |
 | eC-messenger | Substituição |
-| Emailvision Campaign Commander | Disponível no Exchange |
+| Emailvision Campaign Commander | Substituição |
 | emarsys xpress | Substituição |
 | Epsilon Harmony | Migração para o Exchange |
-| TodosSocial para Adobe Analytics | Disponível no Exchange |
+| TodosSocial para Adobe Analytics | Substituição |
 | Fiksu | Substituição |
 | Foresee (v2.0) | Substituição |
-| Feedback da Foresee | Disponível no Exchange |
-| Gigya | Disponível no Exchange |
+| Feedback da Foresee | Substituição |
+| Gigya | Substituição |
 | suborno | Substituição |
 | Kampyle (agora Medallia) Feedback Analytics (1.1) | Substituição |
 | Listrak | Migração para o Exchange |
 | Lyris HQ | Substituição |
-| MaritzCX (V 2.0) | Disponível no Exchange |
-| Merkle | Disponível no Exchange |
+| MaritzCX (V 2.0) | Substituição |
+| Merkle | Substituição |
 | Integração oficial do Oracle Eloqua | Substituição |
 | optivo Broadmail (Episerver) | Migração para o Exchange |
 | Qualtrics v2 | Migração para o Exchange |
 | Responsys 2.0 | Substituição |
-| Selligent | Disponível no Exchange |
-| seoClarity 2.0 | Disponível no Exchange |
+| Selligent | Substituição |
+| seoClarity 2.0 | Substituição |
 | Silverpop Engage (v2.0) | Substituição |
-| Sizmek | Disponível no Exchange |
-| SpotEffects | Disponível no Exchange |
+| Sizmek | Substituição |
+| SpotEffects | Substituição |
 | StrongMail Systems, Inc | Substituição |
 | Singergy!360 | Substituição |
 | ThinData EMS | Substituição |
-| TUNE | Disponível no Exchange |
+| TUNE | Substituição |
 | Urban Airship | Substituição |
-| Ferramenta Pesquisa UserZoom | Disponível no Exchange |
-| WhatCounts Email | Disponível no Exchange |
+| Ferramenta Pesquisa UserZoom | Substituição |
+| WhatCounts Email | Substituição |
 | wywy | Substituição |
-| Yesmail Enterprise | Disponível no Exchange |
+| Yesmail Enterprise | Substituição |
