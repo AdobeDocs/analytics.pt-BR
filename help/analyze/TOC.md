@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
-user-guide-description: Fornece instruções passo a passo para a Analysis Workspace, a primeira ferramenta de análise e de visualização para o Analytics, bem como ferramentas como o Report Builder e o Activity Map.
+user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a primeira ferramenta de análise e de visualização para o Analytics, bem como ferramentas como o Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 99%
 
 ---
@@ -135,7 +135,6 @@ ht-degree: 99%
       + [Instalar o Report Builder](report-builder/setup/t-install-arb.md)
       + [Atualizar o Report Builder](report-builder/setup/upgrade-arb.md)
       + [Logon no Report Builder](report-builder/setup/login.md)
-      + [Fazer logon no Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Desinstalar o Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra de ferramentas do Report Builder](report-builder/reportbuilder-toolbar.md)
