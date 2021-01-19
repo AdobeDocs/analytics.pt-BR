@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre classificações
 description: Perguntas frequentes sobre o uso de classificações.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Sim, *entretanto, cada item de dimensão será contado como uma chamada de servi
 
 ## Como posso classificar valores que contêm caracteres especiais?
 
-Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou aspas de duplo no relatórios. No entanto, em alguns casos, a sua utilização é necessária. Se os valores do relatórios contiverem caracteres que você escolher classificar, use as seguintes etapas:
+Geralmente, não é recomendado usar caracteres especiais nos relatórios, como vírgulas ou aspas duplas. No entanto, em alguns casos, a sua utilização é necessária. Se os valores dos relatórios tiverem tais caracteres que você optar por classificar, siga estas etapas:
 
 1. Faça logon no Adobe Analytics e acesse **[!UICONTROL Admin]** > **[!UICONTROL Importador de classificação]**.
 2. Clique na guia **[!UICONTROL Exportação de navegador]**.
@@ -46,4 +46,4 @@ Geralmente, não é recomendado usar caracteres especiais, como vírgulas ou asp
 
 ## O que são classificações numéricas 2?
 
-As classificações numéricas 2 permitem classificar itens de dimensão como métricas que se baseiam em tempo. Eles foram aposentados da interface do usuário do Adobe Analytics em julho de 2019.
+As classificações numéricas 2 permitem classificar itens de dimensão como métricas que se baseiam em tempo. Eles foram removidos da interface do Adobe Analytics em julho de 2019.
