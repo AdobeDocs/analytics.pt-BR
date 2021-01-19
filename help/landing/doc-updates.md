@@ -2,11 +2,11 @@
 title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no repositório de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 |---|---|
-| Novembro de 2020 | Novos documentos de revisão de implementação: <ul><li>[Revisão completa da implementação](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Análise da implementação focada](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| Novembro de 2020 | Novos documentos de análise de implementação: <ul><li>[Análise completa da implementação](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=pt-BR)</li><li>[Análise focada da implementação](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=pt-BR)</li></ul> |
 | 21 de julho de 2020 | Principais atualizações e revisões do [Cross-Device Analytics](/help/components/cda/overview.md). Adição da [Compilação em campo](/help/components/cda/field-based-stitching.md). |
 | 28 de abril de 2020 | Adição de documentação para a métrica [Content Velocity](/help/components/metrics/content-velocity.md). |
 | 12 de março de 2020 | Adição de atualizações para [Publicar segmentos na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de março de 2020 | Atualizações da latência de montagem da CDA. |
 | 27 de fevereiro de 2020 | Adição de documentação para o [Adobe Analytics Labs](/help/analyze/tech-previews/overview.md). |
 | 25 de fevereiro de 2020 | Adição da variável [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
-| 18 de fevereiro de 2020 | Variável adicionada. [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) |
+| 18 de fevereiro de 2020 | Variável adicionada [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação de [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 7 de fevereiro de 2020 | Atualizações da [Configuração de análise entre dispositivos](/help/components/cda/setup.md) e [Perguntas frequentes](/help/components/cda/faq.md). |
 | 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](/help/implement/home.md). |
@@ -39,7 +39,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 13 de janeiro de 2020 | Adição de [cookies do Adobe Analytics e do navegador](/help/technotes/cookies.md). |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](/help/admin/company/login-restrictions-eol.md). |
-| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-landing.html). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](/help/components/cda/overview.md). |
 | 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/analyze/pwa/pwa.md). |
