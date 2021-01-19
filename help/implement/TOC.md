@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 94%
    + [Considerações sobre o conjunto de relatórios global](prepare/global-rs.md)
    + [Modal de implementação](prepare/implementation-modal.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
-   + [Assumir o controle de uma implementação Adobe Analytics existente](prepare/existing-implementation.md)
+   + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
 + Implementar o Analytics usando JavaScript {#js}
    + [Visão geral do JavaScript](js/overview.md)
    + [Implementar links para opção de não participação](js/opt-out.md)
@@ -203,9 +203,9 @@ ht-degree: 94%
    + [Monitores de pacote](validate/packet-monitor.md)
    + [Colisões de hash](validate/hash-collisions.md)
 + [Perguntas frequentes](faq.md)
-+ Revise sua implementação {#review}
-   + [Revisão focada (após cada lançamento do site)](review/focused-review.md)
-   + [Revisão completa (a cada 6 meses)](review/full-review.md)
++ Analisar a implementação {#review}
+   + [Análise focada (após cada lançamento do site)](review/focused-review.md)
+   + [Análise completa (a cada 6 meses)](review/full-review.md)
    + [Defina os 5 KPIs principais](review/define-kpis.md)
 + Usar dados XDM com o Analytics {#aep-edge}
    + [Usar o SDK da Web da AEP](aep-edge/xdmoverview.md)
