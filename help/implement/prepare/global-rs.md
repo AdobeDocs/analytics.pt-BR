@@ -1,11 +1,11 @@
 ---
 title: Conjuntos de relatórios globais no Adobe Analytics
 description: Entenda as vantagens e os requisitos para usar um conjunto de relatórios global.
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Um conjunto de relatórios global é um conjunto de relatórios que coleta dados
 A Adobe recomenda implementar um conjunto de relatórios global na maioria dos casos.
 
 * **Dados agregados:** os conjuntos de relatórios globais permitem que você veja os eventos de KPI e de sucesso nos sites. A segmentação e os conjuntos de relatórios virtuais podem ser usados para exibir dados específicos do site.
-* **Suporte para análises entre dispositivos:** o CDA requer um conjunto de relatórios que coleta dados de vários locais, como seu site e aplicativo móvel. Dispositivos separados podem unir dados se implementados corretamente. Consulte [Análises entre dispositivos](../../components/cda/overview.md) no guia do usuário Componentes para obter mais informações.
+* **Suporte para análise entre dispositivos:O** CDA requer um conjunto de relatórios que coleta dados de vários locais, como seu site e aplicativo móvel. Dispositivos separados podem unir dados se implementados corretamente. Consulte [Análises entre dispositivos](../../components/cda/overview.md) no guia do usuário Componentes para obter mais informações.
 * **Não há necessidade de mais de um conjunto de relatórios:** todos os dados podem ser coletados em um único conjunto de relatórios, portanto, é menos provável que um desenvolvedor envie dados erroneamente para o conjunto de relatórios incorreto.
 * **Não há necessidade de rollups:** os rollups são um recurso bastante antigo que agrega dados individuais do conjunto de relatórios diariamente. Os rollups não cancelam a duplicação de dados de visita ou de visitante, o que pode resultar em números maiores. Consulte [Rollups](../../admin/c-manage-report-suites/rollup-report-suite.md) no Guia do usuário de administração para obter mais informações.
 * **Poupe tempo**: os projetos da Workspace, as classificações, os segmentos e as métricas calculadas são vinculados ao mesmo conjunto de relatórios global. Os administradores gastam menos tempo gerenciando esses componentes e o controle de dados.
