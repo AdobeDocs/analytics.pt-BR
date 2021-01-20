@@ -2,17 +2,17 @@
 title: Gráfico de dispositivos
 description: Entenda os pré-requisitos e as limitações da costura de dados usando o gráfico de dispositivos.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # Gráfico de dispositivos
 
-O Cross-device Analytics fornece dois métodos distintos para compilar dados. Este método usa o gráfico cooperativo ou o gráfico privado do Adobe Experience Platform Identity Service para unir os dados. O CDA se comunica regularmente com o gráfico do dispositivo para vincular dispositivos.
+O Cross-Device Analytics fornece dois métodos distintos para unir dados. Este método usa o gráfico cooperativo ou o gráfico privado do Adobe Experience Platform Identity Service para unir os dados. O CDA se comunica regularmente com o gráfico do dispositivo para vincular dispositivos.
 
 ## Diferenças entre o gráfico cooperativo e o gráfico privado
 
