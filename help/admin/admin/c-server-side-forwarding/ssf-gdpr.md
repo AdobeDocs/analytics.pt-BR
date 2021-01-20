@@ -1,20 +1,23 @@
 ---
-description: 'null'
+description: Explica as melhorias no encaminhamento pelo lado do servidor que foram solicitadas pelo regulamento de conformidade de cookies da UE.
 title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 91%
 
 ---
 
 
 # Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 
-Esta seção explica as melhorias recentes feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entrou em vigor em 30 de setembro de 2017.
+Esta seção explica os aprimoramentos no encaminhamento pelo lado do servidor que foram solicitados pelo [EU cookie Compliance Regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entrou em vigor em 30 de setembro de 2017.
 
 O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras [!DNL Experience Cloud Solutions], como o Audience Manager, em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
-Até recentemente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1 de novembro de 2018, você, como o controlador de dados (cliente do Adobe Analytics) tem a opção de restringir o pré-consentimento a dados do Adobe Analytics, e evitar que sejam encaminhados para o AAM. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que tais ocorrências sejam enviadas para o AAM até que o consentimento seja recebido.
+Anteriormente, o encaminhamento pelo lado do servidor não tinha uma forma de delinear entre o consentimento e eventos/ocorrências de pré-consentimento. A partir de 1 de novembro de 2018, você, como o controlador de dados (cliente do Adobe Analytics) tem a opção de restringir o pré-consentimento a dados do Adobe Analytics, e evitar que sejam encaminhados para o AAM. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que tais ocorrências sejam enviadas para o AAM até que o consentimento seja recebido.
 
 Quando esta nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, tal ocorrência é sinalizada e não é encaminhada pelo lado do servidor ao AAM. Caso contrário, se essa sequência de caracteres não for exibida em uma ocorrência, a ocorrência é encaminhada ao AAM.
 
