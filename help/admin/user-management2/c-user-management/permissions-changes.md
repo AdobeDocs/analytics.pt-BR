@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: Conteúdo de permissões herdadas
 keywords: groups;permissions
 subtopic: Users and groups
 title: Mudanças de permissões de usuários e grupos
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1564'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos foi movido para [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## O que mudou? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -169,8 +169,8 @@ A tabela a seguir lista tarefas e onde elas podem ocorrer (dependendo do status 
   <tr> 
    <td colname="col1"> Criar um grupo </td> 
    <td colname="col2"> <p>Admin Console - Quando um grupo é criado no Admin Console, as Ferramentas administrativas exibem um grupo mapeado no Analytics, mas esse grupo não pode ter seu nome alterado nas Ferramentas administrativas nem ser excluído dali. </p> <p>Ferramentas administrativas. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html">criar configuração de produto</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html">criar configuração de produto</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">criar configuração de produto</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">criar configuração de produto</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar usuários em um grupo </td> 
