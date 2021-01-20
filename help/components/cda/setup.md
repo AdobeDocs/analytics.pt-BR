@@ -1,16 +1,16 @@
 ---
-title: Configurar o Cross-device Analytics
+title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
-translation-type: ht
-source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
 ---
 
 
-# Configurar o Cross-device Analytics
+# Configurar o Cross-Device Analytics
 
 Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas para ativar o Cross-Device Analytics. Você deve pertencer a um grupo de Administrador do perfil de produto ou ter privilégios de administrador no Adobe Analytics para seguir essas etapas.
 
