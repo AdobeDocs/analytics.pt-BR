@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Mostra exemplos de como rotular dados de ocorrência, solicitações de acesso, solicitações de exclusão
 title: Exemplo de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Observe que a configuração de expandIDs não faz diferença para a saída quan
 
 Com uma solicitação de exclusão usando os valores da API na primeira linha da tabela, a tabela de ocorrências será atualizada para ser semelhante a esta:
 
-| AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter |
+| AAID=77 expandIDs value <br> does not matter | AAID=77, o valor <br> de ExpansionIDs não importa | AAID=77, o valor <br> de ExpansionIDs não importa | AAID=77, o valor <br> de ExpansionIDs não importa | AAID=77, o valor <br> de ExpansionIDs não importa |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | Privacy-7398 | Privacy-9152 |
@@ -72,12 +72,12 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 >
 >Apenas células em linhas que contêm AAID = 77 e um rótulo DEL-DEVICE são afetadas.
 
-| user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false |
+| user=Mary <br> expandIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
+| **MyProp1** | **AJUDA** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| Privacy-0523 | 77 | Privacidade-1866 | Privacy-3681 | X |
+| Privacidade-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| Privacidade-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
@@ -88,14 +88,14 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 >
 >Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
 
-| user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true |
+| user=Mary <br> expandIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
-| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
-| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
-| John | 09 | D | Privacy-8454 | Privacy-8216 |
-| John | 16 | E | Privacy-2911 | Privacy-2930 |
+| **MyProp1** | **AJUDA** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacidade-9152 |
+| Privacidade-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| Privacidade-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | Privacidade-8216 |
+| John | 16 | E | Privacidade-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
