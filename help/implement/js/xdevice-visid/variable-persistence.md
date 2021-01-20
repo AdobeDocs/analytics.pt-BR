@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: Atribuição e persistência
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análise entre dispositivos](/help/components/cda/overview.md) no guia do usuário Componentes.
+>Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análises entre dispositivos](/help/components/cda/overview.md) no guia do usuário Componentes.
 
 Quando os perfis do visitante forem combinados depois de serem associados com a mesma variável de ID do visitante, a atribuição não será alterada no conjunto de dados histórico.
 
