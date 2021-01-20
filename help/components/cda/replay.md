@@ -2,17 +2,17 @@
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
 
 # Como funcionam as repetições
 
-O Cross-device Analytics faz duas passagens de dados em um conjunto de relatórios virtual:
+O Cross-Device Analytics envia dois dados em um conjunto de relatórios virtual:
 
 * **Compilação em tempo real**: o CDA tenta compilar cada ocorrência à medida que elas chegam. Geralmente, novos dispositivos de rede para o conjunto de relatórios que nunca fizeram logon não são costurados neste nível. Os dispositivos já reconhecidos são imediatamente compilados.
 * **Repetições**: aproximadamente uma vez por semana, o CDA “repete” dados com base em identificadores exclusivos que aprendeu. É nesse estágio que os novos dispositivos do conjunto de relatórios são compilados.
