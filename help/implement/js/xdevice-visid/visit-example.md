@@ -5,11 +5,11 @@ subtopic: Visitors
 title: Exemplo de identificação de visitante entre dispositivos
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análise entre dispositivos](/help/components/cda/overview.md) no guia do usuário Componentes.
+>Esse método de identificação de visitantes entre dispositivos não é mais recomendado. Consulte [Análises entre dispositivos](/help/components/cda/overview.md) no guia do usuário Componentes.
 
 O exemplo a seguir ilustra como a identificação de visitantes entre dispositivos funciona usando uma amostra de chamadas de servidor enviadas em uma interação comum com o cliente.
 
 | Chamada do servidor | Ação | Cookie da ID do visitante | Variável da ID do visitante | ID efetiva do visitante | Número de página da visita | Número da visita |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 1 | - | 1 | 1 | 8 |
+| 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 1 | - | 3 | 1 | 8 |
 | 2-8 | Visita 7 páginas adicionais no seu site. | 1 | - | 1 | 2-8 | 8 |
 | 9 | Autentifica no computador pessoal. | 1 | CID1 | CID1 | 9 <br>(Este é o primeiro hit do CID1, por isso ele assume o controle e continua no perfil do visitante a partir da ID de visitante 1.) | 8 |
 | 10 | Visita uma página adicional. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 1 |
-| 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 3 |
+| 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 3 | 9 |
 | 13 | Visualiza 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Contagem de visitas
