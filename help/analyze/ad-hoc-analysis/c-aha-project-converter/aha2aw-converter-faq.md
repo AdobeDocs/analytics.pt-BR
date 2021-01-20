@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Perguntas frequentes sobre o conversor de projetos Ad Hoc Analysis para Analysis Workspace
 title: Perguntas frequentes do Conversor de projetos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->A Adobe está mudando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
+>A Adobe está encaminhando o Ad Hoc Analysis para o fim da sua vida útil em 1º de março de 2021. [Saiba mais](https://adobe.ly/discoverworkspace)
 
 ## Perguntas frequentes do Conversor de projetos {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>P: Como os intervalos de data são convertidos?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Os intervalos de data do tipo “Último dia X” na Ad Hoc Analysis <i>excluem</i> hoje, enquanto na Analysis Workspace <i>incluem</i> hoje. Assim, intervalos de datas como "Últimos 90 dias" podem não corresponder exatamente entre as ferramentas. Em vez disso, aplique intervalos de "Últimos X dias <b></b> completos" no Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Os intervalos de data do tipo “Último dia X” na Ad Hoc Analysis <i>excluem</i> hoje, enquanto na Analysis Workspace <i>incluem</i> hoje. Assim, intervalos de datas como "Últimos 90 dias" podem não corresponder exatamente entre as ferramentas. Em vez disso, aplique os intervalos 'Últimos X <b>dias completos' no Analysis Workspace.</b> </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">O intervalo de datas no nível do espaço de trabalho da Ad Hoc Analysis é aplicado no nível do projeto/espaço de trabalho na Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">O intervalo de datas no nível de relatório da Ad Hoc Analysis é aplicado no nível de coluna de tabela na Workspace. </li> 
     </ul> <p>É possível editar os intervalos de data personalizados em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de data</span>. </p> </td> 
