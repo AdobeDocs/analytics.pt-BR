@@ -1,11 +1,11 @@
 ---
 description: Importe dados de rastreamento de aplicativos de terceiros para o Analytics.
 title: Introdução aos conectores de dados do Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '973'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Por exemplo, uma integração de email pode querer usar um parceiro de email par
 
 >[!IMPORTANT]
 >
->Teremos o fim da vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>Encerraremos a vida útil da tecnologia de Conectores de dados da Adobe em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos do sistema**
 
