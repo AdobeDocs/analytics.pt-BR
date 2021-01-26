@@ -5,9 +5,9 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a primeira ferramenta de análise e de visualização para o Analytics, bem como ferramentas como o Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos de uso da análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Casos de uso da [análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [Instalar o Report Builder](report-builder/setup/t-install-arb.md)
       + [Atualizar o Report Builder](report-builder/setup/upgrade-arb.md)
       + [Logon no Report Builder](report-builder/setup/login.md)
-      + [Fazer logon no Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Desinstalar o Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra de ferramentas do Report Builder](report-builder/reportbuilder-toolbar.md)
