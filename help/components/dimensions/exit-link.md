@@ -1,11 +1,11 @@
 ---
 title: Link de saída
 description: O nome do link de saída.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,7 @@ A dimensão “Link de saída” informa os nomes dos links de saída implementa
 
 Essa dimensão coleta dados da [`pev2`sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem para ocorrências que também têm a sequência de consulta `pe` com o valor de `lnk_e`. Se a sequência de consulta `pe` tiver um valor diferente na ocorrência, essa dimensão não coletará dados.
 
-Se desejar enviar dados para essa dimensão usando o AppMeasurement:
-
-* Preencha a variável [`linkName`](/help/implement/vars/config-vars/linkname.md) com o valor desejado.
-* Defina a variável [`linkType`](/help/implement/vars/config-vars/linktype.md) como `"e"`.
-* Envie uma solicitação de imagem [`tl()`](/help/implement/vars/functions/tl-method.md).
+Se desejar enviar dados para essa dimensão usando o AppMeasurement, envie uma solicitação de imagem [`tl()`](/help/implement/vars/functions/tl-method.md) com um argumento de tipo de link de `"e"`. Preencha o argumento do nome do link com o valor desejado.
 
 ## Itens de dimensão
 
