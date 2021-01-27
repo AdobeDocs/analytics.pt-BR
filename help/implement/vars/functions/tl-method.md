@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Não é possível definir argumentos opcionais no Launch.
 Chame o método `s.tl()` quando quiser enviar uma chamada de rastreamento para a Adobe.
 
 ```js
-s.tl();
-```
-
-Como opção, esse método aceita vários argumentos:
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objeto Link
+### Objeto de link (obrigatório)
 
 O argumento do objeto Link determina se o navegador aguarda até 500 ms antes de sair da página. Se uma solicitação de imagem for enviada antes de 500 ms, a página navegará imediatamente para o link clicado.
 
@@ -55,37 +49,42 @@ O argumento do objeto Link determina se o navegador aguarda até 500 ms antes de
 * `true`: não espere.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Tipo de link
+### Tipo de link (obrigatório)
 
-O argumento do tipo de link é uma string com uma letra que determina o tipo de chamada de rastreamento de link. É o mesmo que definir a variável [`linkType`](../config-vars/linktype.md).
+O argumento de tipo de link é uma string de caractere único que determina o tipo de chamada de rastreamento de link. Há três valores válidos.
+
+* `o`: O link é um link [ ](/help/components/dimensions/custom-link.md)Personalizado.
+* `d`: O link é um link [ ](/help/components/dimensions/download-link.md)Download.
+* `e`: O link é um link [ de ](/help/components/dimensions/exit-link.md)saída.
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Nome do link
+### Nome do link (recomendado)
 
-O argumento do nome do link é uma string que determina o item de dimensão do rastreamento do link. É o mesmo que definir a variável [`linkName`](../config-vars/linkname.md).
+O argumento do nome do link é uma string que determina o item de dimensão do rastreamento do link. Ao usar as dimensões [Link personalizado](/help/components/dimensions/custom-link.md), [Link de download](/help/components/dimensions/download-link.md) ou [Link de saída](/help/components/dimensions/exit-link.md) no relatórios, esta cadeia de caracteres contém o item de dimensão. Se esse argumento não for definido, a variável [linkURL](../config-vars/linkurl.md) será usada.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Substituições de variável
+### Substituições de variáveis (opcional)
 
 Permite alterar os valores de variáveis para uma única chamada. Consulte [substituições de variáveis](../../js/overrides.md) para obter mais informações.
 
@@ -108,14 +107,6 @@ Use o JavaScript para fazer uma chamada básica de rastreamento de link usando a
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Use o JavaScript para fazer a mesma chamada básica de rastreamento de link usando variáveis separadas:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Efetuar chamadas de rastreamento de link em uma função personalizada
