@@ -1,9 +1,9 @@
 ---
 title: Parâmetros de consulta para coleta de dados
 description: Lista todos os parâmetros da cadeia de caracteres de consulta usados em solicitações de imagem.
-translation-type: ht
-source-git-commit: edf3ac3ebc99444b86bcd9239cef9ed84d797565
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `c` | Nenhum | Qualidade de cor (em bits). Usada na dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | Indica o início das variáveis de dados de contexto. Nunca contém um valor. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | Indica o fim das variáveis de dados de contexto. Nunca contém um valor. |
-| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) ou variáveis de tráfego personalizadas. |
+| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) ou variáveis de tráfego personalizadas. |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | A moeda utilizada na ocorrência. |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | O número de períodos em um domínio. Usado para ajudar a armazenar cookies corretamente. |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | A codificação de caracteres da solicitação de imagem. |
@@ -41,11 +41,11 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Os URLs maiores que 255 bytes são divididos. Os primeiros 255 bytes aparecem no parâmetro `g` e todos os bytes restantes aparecem no parâmetro `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Encurtar para a cadeia de caracteres de consulta `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Encurtar para a cadeia de caracteres de consulta `pageType`. |
-| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensões de hierarquia. |
+| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | Dimensões de hierarquia. |
 | `hp` | Nenhum | Não está mais em uso. Em versões anteriores do Adobe Analytics, determinava se o URL atual era a página inicial do navegador. |
 | `j` | Nenhum | A versão do JavaScript instalada no navegador. |
 | `k` | Nenhum | Usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md). |
-| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variáveis da Lista. |
+| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Variáveis da Lista. |
 | `mid` | Nenhum | ID de visitante da Experience Cloud. |
 | `ndh` | Nenhum | Sinalizador que indica se a solicitação de imagem se originou no AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Ajuda a determinar onde os cookies são definidos. |
@@ -55,9 +55,9 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Usado na dimensão [Página](/help/components/dimensions/page.md). |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Usada na dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md). |
 | `pccr` | Nenhum | Definido somente para novos visitantes e sempre definido como `true`. Ajuda a evitar redirecionamentos infinitos. |
-| `pe` | [`linkType`](../vars/config-vars/linktype.md) | Determina o tipo de link personalizado. Necessário para [Links personalizados](/help/components/dimensions/custom-link.md), [Links de download](/help/components/dimensions/download-link.md) e [Links da saída](/help/components/dimensions/exit-link.md). |
+| `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina o tipo de link personalizado. Necessário para [Links personalizados](/help/components/dimensions/custom-link.md), [Links de download](/help/components/dimensions/download-link.md) e [Links da saída](/help/components/dimensions/exit-link.md). |
 | `pev1` | Nenhum | O URL no qual o link personalizado ocorreu. |
-| `pev2` | [`linkName`](../vars/config-vars/linkname.md) | Nome amigável do link personalizado. |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nome amigável do link personalizado. |
 | `pev3` | Nenhum | Não está mais em uso. Marcos rastreados em versões anteriores do relatório de vídeo. |
 | `pf` | Nenhum | Sinalizador da plataforma; somente para uso da Adobe. Não alterar. |
 | `pid` | Nenhum | Identificador de página da última página. Usado em versões anteriores do Activity Map. |
@@ -74,7 +74,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | O carimbo de data e hora personalizado definido com a ocorrência. Normalmente é usado para rastreamento offline. |
 | `v` | Nenhum | Usada na dimensão [Habilitada para Java](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
-| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensões de conversão personalizadas. |
+| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensões de conversão personalizadas. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variável da ID do visitante. |
 | `vmk` | `vmk` | Não está mais em uso. Chave de migração de visitante, que ajudou a migrar implementações de cookies de terceiros para cookies próprios. |
 | `vvp` | `variableProvider` | Usado em Data Connectors. |
