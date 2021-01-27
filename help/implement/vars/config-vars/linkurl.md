@@ -1,8 +1,11 @@
 ---
 title: linkURL
 description: Substitua o URL de link gerado automaticamente que o AppMeasurement usa nas chamadas de rastreamento de link.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 86%
 
 ---
 
@@ -23,4 +26,4 @@ A variável `s.linkURL` é uma string que contém o URL do navegador de quando o
 s.linkURL = "https://example.com";
 ```
 
-Se a variável [`linkName`](linkname.md) não estiver definida como uma chamada de rastreamento de link, a variável `linkURL` será usada.
+Se o terceiro argumento do método [tl()](../functions/tl-method.md) não estiver definido, a variável `linkURL` será usada.
