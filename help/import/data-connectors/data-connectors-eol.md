@@ -1,11 +1,11 @@
 ---
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
-translation-type: ht
-source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Delivra | Substituição |
 | Demandbase CA | Substituição |
 | Demandbase v3 | Substituição |
-| DialogTech | Substituição |
+| DialogTech | Disponível no Adobe Exchange |
 | DoubleClick for Advertisers (DFA) | Substituição |
 | DREAM | Substituição |
 | DREAMmail 2.0 | Substituição |
