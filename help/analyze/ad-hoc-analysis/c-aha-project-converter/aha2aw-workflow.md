@@ -1,12 +1,12 @@
 ---
-description: Fluxo de trabalho do Ad Hoc Analysis Project Converter
+description: Fluxo de trabalho do conversor de projetos da Ad Hoc Analysis
 title: Converter projetos na Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
