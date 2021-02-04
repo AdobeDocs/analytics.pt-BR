@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Em algumas situações, um usuário individual pode ser associado a um grande n�
 
 ## Qual é a diferença entre a métrica Pessoas no CDA e a métrica “Visitantes únicos” fora do CDA?
 
-A métrica [Pessoas](/help/components/metrics/people.md) é semelhante à métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes exclusivos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando a Análise entre dispositivos está ativada. Uma nova métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), está disponível e é aproximadamente igual aos Visitantes únicos fora do Cross-Device Analytics.
+A métrica [Pessoas](/help/components/metrics/people.md) é semelhante à métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes exclusivos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-Device Analytics está ativado. Uma nova métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), está disponível e é aproximadamente igual aos Visitantes únicos fora do Cross-Device Analytics.
 
 ## Qual é a diferença entre a métrica “Dispositivos únicos” no CDA e a métrica “Visitantes únicos” fora do CDA?
 
@@ -75,7 +75,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 2. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora da solicitação.
 3. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
 
-## O Cross-Device Analytics pode unir visitantes únicos. Consegue juntar visitas?
+## O Cross-Device Analytics pode unir visitantes únicos. É possível compilar visitas?
 
 Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
