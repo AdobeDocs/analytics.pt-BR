@@ -1,16 +1,16 @@
 ---
 description: Como usar a paleta de cores de visualização no Analysis Workspace
 title: O que são Paletas de cores de visualização e como elas funcionam?
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Paletas de cores da visualização
+# Paletas de cores de visualização
 
 É possível alterar a paleta de cores da visualização usada no Workspace ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações no Workspace, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
 
