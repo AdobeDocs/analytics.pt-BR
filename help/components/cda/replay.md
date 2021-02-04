@@ -1,20 +1,20 @@
 ---
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Como funcionam as repetições
 
-O Cross-Device Analytics envia dois dados em um conjunto de relatórios virtual:
+O Cross-Device Analytics faz duas passagens de dados em um conjunto de relatórios virtual:
 
-* **Compilação em tempo real**: o CDA tenta compilar cada ocorrência à medida que elas chegam. Geralmente, novos dispositivos de rede para o conjunto de relatórios que nunca fizeram logon não são costurados neste nível. Os dispositivos já reconhecidos são imediatamente compilados.
+* **Compilação em tempo real**: o CDA tenta compilar cada ocorrência à medida que elas chegam. Os novos dispositivos de rede para o conjunto de relatórios que nunca se conectaram normalmente não são compilados neste nível. Os dispositivos já reconhecidos são imediatamente compilados.
 * **Repetições**: aproximadamente uma vez por semana, o CDA “repete” dados com base em identificadores exclusivos que aprendeu. É nesse estágio que os novos dispositivos do conjunto de relatórios são compilados.
 
 ## Tabela de exemplo
@@ -40,7 +40,7 @@ Assim que uma ocorrência é coletada, o CDA tenta compilá-la em dispositivos c
 
 As ocorrências não autenticadas e autenticadas em novos dispositivos são contadas como pessoas separadas (temporariamente).
 
-* **Se estiver usando o gráfico de dispositivos,** as ocorrências não autenticadas em dispositivos reconhecidos serão colocadas em ponto ativo depois que um cluster for publicado pelo gráfico de dispositivos. A publicação em cluster leva de três horas a duas semanas.
+* **Se estiver usando o gráfico de dispositivos**, as ocorrências não autenticadas em dispositivos reconhecidos serão colocadas em ponto ativo depois que um cluster for publicado pelo gráfico de dispositivos. A publicação em cluster leva de três horas a duas semanas.
 
    Uma terceira pessoa cumulativa também é adicionada quando um cluster é publicado. Essa terceira pessoa representa o próprio cluster, além dos dispositivos individuais. Este terceiro “indivíduo” permanece até que os dados sejam repetidos.
 
@@ -68,6 +68,6 @@ Aproximadamente uma vez por semana, o CDA recalcula os dados históricos com bas
 
 ## Recapitulação
 
-* **Se estiver usando um Gráfico de dispositivos,** os dados são compilados quando um cluster é publicado (normalmente de 3 horas a 2 semanas).
+* **Se estiver usando um Gráfico de dispositivos**, os dados são compilados quando um cluster é publicado (normalmente de 3 horas a 2 semanas).
 * **Se estiver usando a Compilação em campo,** os dados com menos de uma semana compilarão os dispositivos conhecidos, mas não compilarão imediatamente dispositivos novos ou não reconhecidos.
 * Os dados são repetidos uma vez por semana e alteram os dados históricos no conjunto de relatórios virtual com base nos dispositivos que eles aprenderam a identificar.
