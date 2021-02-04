@@ -1,12 +1,12 @@
 ---
-description: Exemplos de rótulos de privacidade de dados para variáveis Adobe Analytics
+description: Exemplos de rótulos de privacidade de dados para variáveis do Adobe Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3649'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos
 >
 >A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
 
-## Rótulos de dados de identidade (DULE)  {#identity-data-labels}
+## Rótulos de dados de identidade (DULE) {#identity-data-labels}
 
 Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica.
 
@@ -63,7 +63,7 @@ Os rótulos “I” de dados de identidade são usados para classificar dados qu
  </tbody> 
 </table>
 
-## Rótulos de dados sensíveis (DULE)  {#sensitive-data-labels}
+## Rótulos de dados sensíveis (DULE) {#sensitive-data-labels}
 
 Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais.
 
@@ -205,7 +205,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
  </tbody> 
 </table>
 
-## Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo.
 
@@ -276,7 +276,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
   <tr> 
    <td colname="col1"> <p>Classificações </p> </td> 
    <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PESSOA </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -290,12 +290,12 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
   <tr> 
    <td colname="col1"> <p>Maioria das outras variáveis </p> <p><i>(Consulte as exceções na tabela abaixo)</i> </p> </td> 
    <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PESSOA </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Variáveis às quais podem ser atribuídos outros rótulos além de ACC-ALL/ACC-PERSON/modificados  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variáveis às quais podem ser atribuídos outros rótulos além de ACC-ALL/ACC-PERSON/modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -331,13 +331,13 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
   <tr> 
    <td colname="col1"> <p>Dimensões e eventos da solução </p> </td> 
    <td colname="col2"> <p>Link para o Activity Map, </p> <p>Página do Activity Map </p> </td> 
-   <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum / DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se a sua implementação não coletar dados direta ou indiretamente identificáveis nessas variáveis, elas não precisarão de rótulos de identidade ou de exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensões de processamento de dados </p> </td> 
    <td colname="col2"> <p>ID de visitante personalizada </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Não é possível remover os rótulos de ID ou DEL (definidos como Nenhum), mas você pode alterá-los para as variantes DEVICE ou PERSON, dependendo da implementação da ID personalizada. </p> <p>Se você não usar a ID de visitante personalizada, a configuração não será importante. </p> </td> 
   </tr> 
   <tr> 
@@ -347,18 +347,18 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
      <li id="li_6046764B19FF4679B51E55671C2C0ADB">Dimensões de processamento de dados </li> 
     </ul> </td> 
    <td colname="col2"> <p>Endereço IP </p> <p>Endereço IP 2 </p> </td> 
-   <td colname="col3"> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Você não pode remover o rótulo de DEL, mas pode alterá-lo para DEL-DEVICE ou DEL-PERSON, ou ambos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Ação ClickMap (herdado), </p> <p>Contexto do ClickMap (herdado), </p> <p>Página, </p> <p>URL da página, </p> <p>URL da página de entrada original, </p> <p>Referenciador, </p> <p>URL da página de início da visita </p> </td> 
-   <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum / DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se a sua implementação não coletar dados direta ou indiretamente identificáveis nessas variáveis, elas não precisarão de rótulos de identidade ou de exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Lidar com exclusões  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Lidar com exclusões {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não identificáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
@@ -446,7 +446,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
  </tbody> 
 </table>
 
-## Campos de data para solicitações de acesso  {#section_6678FB4FF42B481C9B78E64F61782397}
+## Campos de data para solicitações de acesso {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Há cinco variáveis padrão que contêm carimbos de data e hora:
 
@@ -483,4 +483,4 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
 
 O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
-O arquivo CSV a nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores nesses campos de carimbos de data e hora unix em campos de data e hora no formato DD-MM-AAAA HH:MM:SS (por exemplo, 01-05-2018 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos.
+O arquivo CSV a nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores nesses campos de carimbos de data e hora unix em campos de data e hora no formato AAAA-MM-DD HH:MM:SS (por exemplo, 2018-05-01 13:49:22). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, AAAA-MM-DD, para reduzir o número de valores únicos que ocorrem para tais campos.
