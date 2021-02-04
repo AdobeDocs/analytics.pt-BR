@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,27 @@ O item de linha “Nenhum” é um item “catch-all” (global) que representa 
 
 ## Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?
 
-Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período antes do intervalo de datas do start da janela do relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas se estendem por meia-noite. Por exemplo:
+Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior ao intervalo de datas de início da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
 
-1. Um usuário visita seu home page às 23:55 do dia 7 de setembro.
-1. Visitam várias páginas, a última das quais ocorreu às 12h05, 8 de setembro.
-1. Uma semana depois, você executa um relatório de tendências diárias com o intervalo de datas de 8 de setembro a 14 de setembro.
+1. Um usuário visita sua página inicial às 23h55 do dia 7 de setembro.
+1. Eles visitam várias páginas, a última às 12h05 em 8 de setembro.
+1. Uma semana depois, você executa um relatório de tendências diárias com o intervalo de datas de 8 a 14 de setembro.
 
-Métricas baseadas em ocorrências, como [visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 de setembro a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é 1 de setembro a 31 de setembro.
+Métricas baseadas em ocorrências, como [Visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é de 1° a 31 de setembro.
 
-A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métrica é definida como `Bounces divided by Entries`, uma métrica baseada em ocorrência dividida por uma métrica baseada em visita. Rejeições consistem em uma única solicitação de imagem, de modo que não podem se estender por vários dias, Qualquer rejeição ocorrida em 7 de setembro ocorreu fora da janela do relatórios, causando a taxa de rejeição garantida de 0% para esse dia. Outras métricas baseadas em ocorrências também mostrariam 0 para 7 de setembro neste relatório, já que essas ocorrências também não estão na janela do relatórios.
+A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métrica é definida como `Bounces divided by Entries`, uma métrica baseada em ocorrência dividida por uma métrica baseada em visita. Rejeições consistem em uma única solicitação de imagem, de modo que não podem se estender por vários dias, Qualquer rejeição ocorrida em 7 de setembro ocorreu fora da janela de relatórios, causando a taxa de rejeição garantida de 0% para esse dia. Outras métricas baseadas em ocorrências também mostrariam 0 para 7 de setembro neste relatório, já que essas ocorrências também não estão na janela de relatórios.
 
 Considere outro exemplo semelhante. A única diferença entre o exemplo a seguir e o acima são as datas:
 
-1. Um usuário visita seu home page às 23:55 em 31 de agosto.
-1. Visitam várias páginas, a última delas ocorrida às 12h05 do dia 1º de setembro.
-1. Uma semana depois, você executa um relatório de tendência diária com intervalo de datas de 1º de setembro a 7º de setembro.
+1. Um usuário visita sua página inicial às 23h55 em 31 de agosto.
+1. Eles visitam várias páginas, a última às 12h05 do dia 1° de setembro.
+1. Uma semana depois, você executa um relatório de tendência diária com intervalo de datas de 1° a 7 de setembro.
 
-Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agosto. A janela de pesquisa e a janela do relatórios são ambas start no dia 1 de setembro, portanto os dados não podem ser atribuídos a partir do dia 31 de agosto.
+Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agosto. A janela de pesquisa e a janela de relatórios iniciam no dia 1° de setembro, portanto os dados não podem ser atribuídos a partir do dia 31 de agosto.
 
 ## Quando devo usar retrospectiva de visita, visitante ou atribuição personalizada?
 
-A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. Para ciclos de conversão mais longos, as janelas de retrospectiva personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela de relatórios
+A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. Para ciclos de conversão mais longos, as janelas de retrospectiva personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela de relatórios.
 
 ## Como funciona a comparação de props e eVars na atribuição?
 
