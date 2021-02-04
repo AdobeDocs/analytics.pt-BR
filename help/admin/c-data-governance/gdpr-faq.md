@@ -1,12 +1,12 @@
 ---
-description: Perguntas frequentes sobre o controle de dados da Adobe Analytics
+description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
