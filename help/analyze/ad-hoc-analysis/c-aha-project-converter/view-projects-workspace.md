@@ -1,11 +1,11 @@
 ---
-description: Como visualização projetos convertidos no Analysis Workspace
+description: Como visualizar projetos convertidos no Analysis Workspace
 title: Visualizar projetos convertidos na Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
