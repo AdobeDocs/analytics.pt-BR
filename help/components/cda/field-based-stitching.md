@@ -1,18 +1,18 @@
 ---
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Compilação em campo
 
-O Cross-Device Analytics fornece dois métodos distintos para unir dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos.
+O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos.
 
 ## Pré-requisitos específicos da compilação em campo
 
