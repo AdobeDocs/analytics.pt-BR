@@ -1,11 +1,11 @@
 ---
-description: Perguntas frequentes sobre o conversor de projetos Ad Hoc Analysis para Analysis Workspace
-title: Perguntas frequentes sobre o Ad Hoc Analysis-to-Analysis Workspace Project Converter
-translation-type: tm+mt
+description: Perguntas frequentes sobre o conversor de projetos da Ad Hoc Analysis para o Analysis Workspace
+title: Perguntas frequentes sobre o conversor de projetos da Ad Hoc Analysis para o Analysis Workspace
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 92%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Gráfico de dispersão</b>: em projetos exportados na Analysis Workspace, o eixo Y é definido como a primeira coluna, o eixo X como a segunda e o diâmetro como a terceira. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tabelas de fallout</b>: para mostrar tabelas de fallthrough ou de fallout, clique com o botão direito do mouse no ponto de verificação e selecione uma opção de detalhamento. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalos de data de fallout a nível de relatório</b>: os intervalos de data de relatório personalizados ainda não foram aplicados a visualizações Fallout. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Relatório de fluxo</b>: o fluxo será movido para um painel separado para preservar intervalos de data e segmentação. As instâncias repetidas podem ser incluídas ou excluídas nas configurações de Fluxo. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Relatório de fluxo</b>: o fluxo será movido para um painel separado para preservar intervalos de data e segmentação. Instâncias repetidas podem ser incluídas ou excluídas em Configurações de fluxo. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Funil de conversão</b>: será convertido em uma tabela de forma livre pois não é suportado pela Analysis Workspace. A visualização Fallout é uma substituição recomendada para o Funil de conversão, mas se comportará de maneira um pouco diferente. </li> 
     </ul> </td> 
   </tr> 
@@ -73,14 +73,14 @@ ht-degree: 92%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Os segmentos são internos ao projeto convertido (não públicos). É possível escolher torná-los públicos, como mostrado abaixo: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Os segmentos no nível do espaço de trabalho da Ad Hoc Analysis são aplicados no nível do projeto/espaço de trabalho na Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Os segmentos no nível de relatório da Ad Hoc Analysis são aplicados no nível de coluna de tabela na Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Os segmentos de tabela do Ad Hoc Analysis são aplicados no nível de coluna da tabela no Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Segmentos de tabela da Ad Hoc Analysis são aplicados no nível da coluna da tabela no Workspace. </li> 
     </ul> <p>É possível editar segmentos no <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html"  >Construtor de segmentos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Como os intervalos de data são convertidos?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Os intervalos de data do tipo “Último dia X” na Ad Hoc Analysis <i>excluem</i> hoje, enquanto na Analysis Workspace <i>incluem</i> hoje. Assim, intervalos de datas como "Últimos 90 dias" podem não corresponder exatamente entre as ferramentas. Em vez disso, aplique os intervalos 'Últimos X <b>dias completos' no Analysis Workspace.</b> </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Os intervalos de data do tipo “Último dia X” na Ad Hoc Analysis <i>excluem</i> hoje, enquanto na Analysis Workspace <i>incluem</i> hoje. Dessa forma, os intervalos de data como “últimos 90 dias” podem não corresponder exatamente entre as ferramentas. Em vez disso, aplique os intervalos "Últimos X <b>dias completos</b>" no Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">O intervalo de datas no nível do espaço de trabalho da Ad Hoc Analysis é aplicado no nível do projeto/espaço de trabalho na Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">O intervalo de datas no nível de relatório da Ad Hoc Analysis é aplicado no nível de coluna de tabela na Workspace. </li> 
     </ul> <p>É possível editar os intervalos de data personalizados em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de data</span>. </p> </td> 
