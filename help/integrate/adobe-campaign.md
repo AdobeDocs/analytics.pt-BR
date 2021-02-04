@@ -1,11 +1,11 @@
 ---
-description: Saiba como ativar o relatórios Adobe Campaign no Adobe Analytics
-title: Como integrar o Relatórios Adobe Campaign ao Adobe Analytics?
-translation-type: tm+mt
+description: Saiba como habilitar relatórios do Adobe Campaign no Adobe Analytics
+title: Como integrar Relatórios do Adobe Campaign ao Adobe Analytics?
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
