@@ -2,11 +2,11 @@
 description: Entenda as IDs capturadas nos dados do Analytics e decida quais serão usadas para as solicitações de Privacidade de dados.
 title: Práticas recomendadas de rotulagem
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2706'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
