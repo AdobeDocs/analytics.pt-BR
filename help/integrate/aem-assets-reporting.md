@@ -1,11 +1,11 @@
 ---
 description: Etapas administrativas para ativar relatórios do AEM Assets no Analytics.
-title: Como criar relatórios sobre o AEM Assets no Adobe Analytics
-translation-type: tm+mt
+title: Como criar relatórios do AEM Assets no Adobe Analytics
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
