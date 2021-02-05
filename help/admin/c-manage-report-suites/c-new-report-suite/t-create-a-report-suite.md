@@ -1,23 +1,29 @@
 ---
-description: Etapas que descrevem como criar um conjunto de relatórios e copiar as configurações de um conjunto de relatórios para um novo conjunto.
+description: Criar um contêiner básico para a coleta de dados no Adobe Analytics
 title: Criar um novo conjunto de relatórios
 topic: Admin tools
-uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 87%
+source-wordcount: '375'
+ht-degree: 77%
 
 ---
 
 
 # Criar um novo conjunto de relatórios
 
-Etapas que descrevem como criar um conjunto de relatórios e copiar as configurações de um conjunto de relatórios para um novo conjunto.
+Um conjunto de relatórios é um silo de dados que o Adobe Analytics usa para extrair relatórios. Uma organização pode ter vários conjuntos de relatórios, cada um contendo diferentes conjuntos de dados. Embora os conjuntos de relatórios separados tenham sido importantes no passado, ter um único conjunto de relatórios se tornou mais vantajoso. A introdução de [conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) e o processamento de tempo do relatório permitem que os administradores criem seus próprios subconjuntos de dados, permitindo a flexibilidade para obter dados globais e específicos do site.
+
+Este artigo foi projetado para administradores de nível de sistema ou administradores de análises para preparar a coleta de dados.
+
+## Pré-requisitos
+
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Certifique-se de que um administrador de nível de sistema tenha concedido acesso à Adobe Analytics via Admin Console de Experience Cloud.
+
+## Criar um novo conjunto de relatórios {#create-report-suite}
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
-1. Selecione um conjunto de relatórios.
 1. Clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Conjunto de relatórios]**.
 1. Para copiar as configurações de um conjunto de relatórios, na lista de modelos, selecione um modelo predefinido ou um conjunto de relatórios existente para usar como um [modelo.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
@@ -29,3 +35,17 @@ Etapas que descrevem como criar um conjunto de relatórios e copiar as configura
 1. Clique em **[!UICONTROL Criar conjunto de relatórios]**.
 
 Uma ID de conjunto de relatórios tem um comprimento máximo de 40 bytes. Um nome amigável ao conjunto de relatórios tem um comprimento máximo de 255 bytes.
+
+## Solução de problemas
+
+**Depois de fazer logon na Experience Cloud, o ícone do Analytics fica esmaecido.**
+
+Isso significa que sua conta não recebeu as permissões corretas para o Analytics. Trabalhe com um administrador de nível de sistema da organização para garantir que você pertença a um perfil com permissões adequadas para acessar o Adobe Analytics.
+
+**Depois de fazer logon no Adobe Analytics, a pop-up e a lista suspensa &quot;Bem-vindo ao Adobe Analytics&quot; estão ausentes.**
+
+Certifique-se de ter feito logon por meio da Experience Cloud, e não por my.omniture.com. O usuário que faz logon por my.omniture.com não tem o assistente de configuração de conjunto de relatórios disponível.
+
+## Próximas etapas
+
+[Criar e configurar uma propriedade para o Adobe Analytics no Launch](/help/implement/launch/create-analytics-property.md): crie uma área para gerenciar a implementação do Analytics
