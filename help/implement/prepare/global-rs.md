@@ -1,9 +1,9 @@
 ---
 title: Conjuntos de relatórios globais no Adobe Analytics
 description: Entenda as vantagens e os requisitos para usar um conjunto de relatórios global.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 
 Use as diretrizes gerais a seguir para entender o processo de implementação de um conjunto de relatórios global.
 
-1. Criar o conjunto de relatórios global no Adobe Analytics. Consulte [Criar um conjunto de relatórios](../../admin/admin-console/create-report-suite.md) no Guia do usuário de administração para obter mais informações.
+1. Criar o conjunto de relatórios global no Adobe Analytics. Consulte [Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) no Guia do usuário de administração para obter mais informações.
 1. Trabalhe com equipes em sua organização responsáveis por cada domínio. Muitas equipes têm requisitos de relatórios específicos para a área de negócios.
 1. Registre e agregue todos esses requisitos em um [documento de design da solução](solution-design.md). Se as equipes tiverem requisitos semelhantes para uma dimensão, poderão usar a mesma variável personalizada. Por exemplo, se o site A e B exigirem uma dimensão de navegação estrutural, as implementações de ambos os sites podem enviar esses dados por meio da eVar1.
 
