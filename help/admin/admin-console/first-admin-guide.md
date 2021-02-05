@@ -1,9 +1,9 @@
 ---
 title: Guia do primeiro administrador do Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, os tipos de função gerais e como fazer logon na interface do usuário.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ O acesso do administrador de produto para o Experience Platform Launch é quase 
 
 ## Próximas etapas
 
-[Criar um conjunto de relatórios](create-report-suite.md): faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleta de dados
+[Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleta de dados
 
 [Criar uma propriedade no Experience Platform Launch](/help/implement/launch/create-analytics-property.md): faça com que o administrador do Experience Platform Launch faça logon na ferramenta e crie uma propriedade a ser implementada no site
