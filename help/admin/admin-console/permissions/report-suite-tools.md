@@ -1,12 +1,12 @@
 ---
-source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: ht
-translation-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
-# Ferramentas do conjunto de relatórios listadas nas permissões de perfil do produto
+# Permissões de perfil do produto para ferramentas de conjunto de relatórios
 
 Use esta página para entender cada item de permissão em Ferramentas de conjunto de relatórios.
 
