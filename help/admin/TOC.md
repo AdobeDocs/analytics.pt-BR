@@ -5,10 +5,10 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 99%
       + [Especificar a Variável de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso de uso - Extração de IDs de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
-+ Admin Console da Experience Cloud {#admin-console}
-   + [Ajuda do Admin Console da Experience Cloud](admin-console/home.md)
++ Analytics no Adobe Admin Console {#admin-console}
+   + [Analytics no Adobe Admin Console](admin-console/home.md)
    + Permissões {#permissions}
-      + [Ajuda do Perfil do produto](admin-console/permissions/product-profile.md)
-      + [Itens de permissão das Ferramentas do Conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
-      + [Itens de permissão das Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
+      + [Perfis de produto para Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Permissões de perfil do produto para ferramentas de conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
+      + [Permissões de perfil do produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
 + Configurações da empresa {#company-settings}
    + [Visão geral das Configurações da empresa](company/c-company-settings.md)
