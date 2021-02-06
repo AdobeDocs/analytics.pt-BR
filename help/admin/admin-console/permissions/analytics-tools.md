@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Itens de permissão das Ferramentas do Analytics
+# Permissões de perfil do produto para as Ferramentas do Analytics
 
 Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos no Adobe Analytics. Os itens de permissão das Ferramentas do Analytics não se aplicam a um conjunto de relatórios, mas ao Adobe Analytics como um todo.
 
