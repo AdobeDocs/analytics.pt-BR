@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Perfis de produto no Adobe Analytics
+# Perfis de produto para Adobe Analytics
 
-Os perfis de produtos são uma predefinição de permissão que os administradores de produtos podem atribuir aos usuários em uma organização. Se você criar um perfil de produto e atribuir um usuário da Experience Cloud a esse perfil, ele herdará os itens de permissão contidos no perfil do produto.
+Perfis de produtos são predefinições de permissão que os administradores de produtos podem atribuir a usuários em uma organização. Se você criar um perfil de produto e atribuir um usuário da Experience Cloud a esse perfil, ele herdará os itens de permissão contidos no perfil do produto.
 
 Consulte [Gerenciar produtos e perfis](https://helpx.adobe.com/br/enterprise/using/manage-products-and-profiles.html) no Guia do usuário do Enterprise para obter informações gerais sobre perfis de produtos.
 
@@ -50,7 +50,7 @@ Os itens de permissão das Ferramentas do conjunto de relatórios concedem acess
 
 ### Ferramentas do Analytics
 
-Os itens de permissão das ferramentas do Analytics concedem acesso a recursos que não dependem das configurações do conjunto de relatórios. Consulte [Ferramentas do Analytics](analytics-tools.md) para obter uma lista completa dos itens de permissão e descrições.
+Os itens de permissão das ferramentas do Analytics concedem acesso a recursos que não dependem das configurações do conjunto de relatórios. Consulte [Permissões de perfil do produto para Ferramentas do Analytics](analytics-tools.md) para obter uma lista completa de itens de permissão e descrições.
 
 ## Desenvolvedores de perfil do produto
 
