@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 # Permissões de perfil do produto para as Ferramentas do Analytics
@@ -39,7 +39,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Acesso à Analysis Workspace | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar o Adobe Analytics. |
 | Acesso aos Reports &amp; Analytics | Concede acesso ao Reports &amp; Analytics. Os usuários devem pertencer a esse grupo ou ao Acesso à Analysis Workspace (preferencial) para usar o Adobe Analytics. |
 | Analysis Workspace: Salvar como modelo | Concede acesso a Projeto > Salvar como modelo na Analysis Workspace. |
-| Acesso ao Labs | Atualmente em desenvolvimento. Quando lançado, concederá acesso aos Labs. |
+| Acesso ao Labs | Dê aos usuários acesso aos laboratórios e aos protótipos dentro dos laboratórios. |
 | Criação de métricas calculadas | Concede a capacidade de criar métricas calculadas em todos os recursos do Analytics. |
 | Criação de segmentos | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
 | Gerenciamento do Advertising Analytics | Não usado. |
