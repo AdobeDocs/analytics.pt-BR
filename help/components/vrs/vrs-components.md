@@ -3,7 +3,7 @@ description: Conjuntos de relatórios virtuais podem ser curados para incluir e 
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
+source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -31,13 +31,14 @@ Para permitir a curadoria de componentes,
    >[!NOTE]
    >
    >Se a personalização de componentes estiver ativada, o conjunto de relatórios virtuais poderá ser acessado **somente na Analysis Workspace** e não em:
+   >
+   >* [!UICONTROL Reports &amp; Analytics]
+   >* [!UICONTROL Ad Hoc Analysis]
+   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Report Builder]
+   >* [!UICONTROL Activity Map]
+   >* API em relatórios do Analytics
 
-   * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Data Warehouse]
-   * [!UICONTROL Report Builder]
-   * [!UICONTROL Activity Map]
-   * API em relatórios do Analytics
 
    Uma vez verificado, você pode adicionar os componentes que deseja incluir no conjunto de relatórios virtual, arrastando os componentes aplicáveis da coluna “componentes excluídos” para a coluna “componentes incluídos”. Os componentes que podem ser incluídos e excluídos são:
 
