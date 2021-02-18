@@ -1,11 +1,11 @@
 ---
 title: Link de download
 description: O nome do link de download.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
