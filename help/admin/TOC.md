@@ -26,7 +26,7 @@ ht-degree: 96%
    + Remoção de bot {#bot-removal}
       + [Remoção de bot](admin/bot-removal/bot-removal.md)
       + [Visão geral das regras de bot](admin/bot-removal/bot-rules.md)
-      + [Assinaturas comuns do robô](admin/bot-removal/bot-signatures.md)
+      + [Assinaturas comuns do bot](admin/bot-removal/bot-signatures.md)
       + [Métodos de exclusão de bot](admin/bot-removal/bot-exclusion-methods.md)
    + [Gerenciador de código](admin/code-manager-admin.md)
    + Variáveis de conversão {#conversion-variables}
