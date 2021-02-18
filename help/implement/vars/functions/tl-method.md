@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Chame o método `s.tl()` quando quiser enviar uma chamada de rastreamento para a
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objeto de link (obrigatório)
+### Objeto Link (obrigatório)
 
 O argumento do objeto Link determina se o navegador aguarda até 500 ms antes de sair da página. Se uma solicitação de imagem for enviada antes de 500 ms, a página navegará imediatamente para o link clicado.
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### Tipo de link (obrigatório)
 
-O argumento de tipo de link é uma string de caractere único que determina o tipo de chamada de rastreamento de link. Há três valores válidos.
+O argumento tipo de link é uma sequência com apenas um caractere que determina o tipo de chamada de rastreamento de link. Há três valores válidos.
 
-* `o`: O link é um link [ ](/help/components/dimensions/custom-link.md)Personalizado.
-* `d`: O link é um link [ ](/help/components/dimensions/download-link.md)Download.
-* `e`: O link é um link [ de ](/help/components/dimensions/exit-link.md)saída.
+* `o`: o link é um [Link personalizado](/help/components/dimensions/custom-link.md).
+* `d`: o link é um [Link de download](/help/components/dimensions/download-link.md).
+* `e`: o link é um [Link de saída](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### Nome do link (recomendado)
 
-O argumento do nome do link é uma string que determina o item de dimensão do rastreamento do link. Ao usar as dimensões [Link personalizado](/help/components/dimensions/custom-link.md), [Link de download](/help/components/dimensions/download-link.md) ou [Link de saída](/help/components/dimensions/exit-link.md) no relatórios, esta cadeia de caracteres contém o item de dimensão. Se esse argumento não for definido, a variável [linkURL](../config-vars/linkurl.md) será usada.
+O argumento do nome do link é uma string que determina o item de dimensão do rastreamento do link. Ao usar as dimensões [Link personalizado](/help/components/dimensions/custom-link.md), [Link de download](/help/components/dimensions/download-link.md) ou [Link de saída](/help/components/dimensions/exit-link.md) nos relatórios, esta cadeia de caracteres contém o item de dimensão. Se esse argumento não for definido, a variável [linkURL](../config-vars/linkurl.md) será usada.
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
