@@ -1,36 +1,36 @@
 ---
 title: websiteBot
 description: Identifique os bots dinamicamente usando o movimento do mouse.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Plug-in de Adobe: websiteBot
+# Plug-in Adobe: websiteBot
 
 >[!IMPORTANT]
 >
 >Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
-O plug-in `websiteBot` permite identificar dinamicamente se os visitantes de desktop são bots. Você pode usar esses dados para direcionar maior precisão em todos os tipos de relatórios, o que oferece uma maneira melhor de medir o tráfego legítimo do site.
+O plug-in `websiteBot` permite identificar dinamicamente se os visitantes em desktops são bots. Você pode usar esses dados para impulsionar uma maior precisão em todos os tipos de relatórios, o que oferece uma maneira melhor de medir o tráfego real no site.
 
-Este plug-in executa duas verificações:
+Esse plug-in executa duas verificações:
 
-* Primeiro, determina se o dispositivo é um desktop ou dispositivo móvel usando a variável `navigator.UserAgent`. Dispositivos móveis são ignorados.
+* Primeiro, determina se o dispositivo é um desktop ou um dispositivo móvel usando a variável `navigator.UserAgent`. Dispositivos móveis são ignorados.
 * Se for um dispositivo desktop, ele adiciona um ouvinte de evento para movimento do mouse.
 
-Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in definirá a variável `websiteBot` como `true`. Se o agente do usuário for um dispositivo móvel ou se o movimento do mouse for detectado, o plug-in definirá a variável `websiteBot` como `false`.
+Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in definirá a variável `websiteBot` como `true`. Se o agente do usuário for um dispositivo móvel ou se for detectado movimento do mouse, o plug-in definirá a variável `websiteBot` como `false`.
 
 ## Pré-requisitos
 
-O Adobe recomenda o seguinte antes de usar este plug-in:
+A Adobe recomenda o seguinte antes de usar este plug-in:
 
-* **Definir configurações** de eVar: Configure um eVar em Variáveis  [de conversão ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nas configurações do conjunto de relatórios. Defina a expiração para **&quot;Visitante&quot;** e a alocação para **&quot;Valor original (primeiro)&quot;**.
-* **Coletar agente de usuário em uma variável** separada: Colete a sequência do agente do usuário em uma variável separada para monitorar a eficácia deste plug-in. Defina um eVar como `navigator.UserAgent` em cada ocorrência para coletar esses dados.
+* **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Defina a expiração como **“Visitante”** e a alocação como **“Valor original (primeiro)”**.
+* **Coletar agente do usuário em uma variável separada**: colete a sequência de agente do usuário em uma variável separada para monitorar a eficácia desse plug-in. Configure uma eVar como `navigator.UserAgent` em cada hit para coletar esses dados.
 
 ## Instale o plug-in usando o editor de código personalizado do Launch
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## Usar o plug-in
 
-A variável `websiteBot` é booleana. Retorna `true` se o plug-in detectar um bot; caso contrário, retorna `false`.
+A variável `websiteBot` é booleana. Ela retorna `true` se o plug-in detectar um bot; caso contrário, retorna `false`.
 
 ## Exemplos
 
