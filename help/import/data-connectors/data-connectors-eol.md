@@ -1,11 +1,11 @@
 ---
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
