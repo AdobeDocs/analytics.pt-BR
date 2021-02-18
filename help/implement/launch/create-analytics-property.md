@@ -1,11 +1,11 @@
 ---
 title: Criar uma propriedade do Analytics no Launch
 description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 1. Dê um nome à Propriedade, como o título do site, e insira o domínio em que você pretende implementar o Analytics. Clique em **[!UICONTROL Salvar]**.
 1. Clique na propriedade recém-criada para inserir as configurações.
 1. Clique na guia **[!UICONTROL Extensões]** e, em seguida, clique em **[!UICONTROL Catálogo]**.
-1. Localize Identity Service (Serviço de identidade) e clique em **[!UICONTROL Install]**.
+1. Localize o Serviço de identidade e clique em **[!UICONTROL Instalar]**.
 1. Todas as configurações, incluindo a Experience Cloud Organization ID, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
-1. De volta ao catálogo de extensões, localize Adobe Analytics e clique em **[!UICONTROL Instalar]**.
+1. De volta ao catálogo de extensões, localize o Adobe Analytics e clique em **[!UICONTROL Instalar]**.
 
 ## Criar elementos de dados do Adobe Analytics
 
@@ -58,7 +58,7 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade do Launch que pretende implementar no site.
-1. Clique em **[!UICONTROL Criar nova regra]** e nomeie-a `Global Rule`.
+1. Clique em **[!UICONTROL Criar nova regra]** e a nomeie como `Global Rule`.
 1. Clique em **[!UICONTROL Adicionar]** ao lado dos eventos e insira as seguintes configurações:
    * Extensão: principal
    * Tipo de evento: biblioteca carregada (início da página)
@@ -77,13 +77,13 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
    * Nome: Adobe Analytics - enviar beacon
    * Rastreamento: s.t()
 1. Clique em **[!UICONTROL Manter alterações]**.
-1. Verifique se o evento e duas ações estão definidos e clique em **[!UICONTROL Salvar]**.
+1. Verifique se o evento e as duas ações estão configurados e clique em **[!UICONTROL Salvar]**.
 
 ## Documentação e recursos adicionais
 
 * [Documentação de extensão do Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
 * [Introdução ao Launch](https://docs.adobelaunch.com/getting-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado.
-* [Canal do Adobe Experience Platform Launch no ](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): saiba como usar o Launch por meio de vídeos
+* [Canal do Adobe Experience Platform Launch no](https://experienceleague.adobe.com?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform): saiba como usar o Launch por meio de vídeos
 
 ## Próximas etapas
 
