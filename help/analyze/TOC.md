@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + Casos de uso da [análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casos de uso da análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
