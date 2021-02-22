@@ -2,10 +2,10 @@
 description: O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target no Analysis Workspace.
 title: Painel Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Assim como em qualquer painel no Analysis Workspace, você pode continuar sua an
 | Quando aplicar um segmento de ocorrência para uma atividade do Target específica em minha análise, por que vejo experiências não relacionadas retornadas? | A dimensão A4T é uma variável de lista, o que significa que pode conter muitas atividades (e experiências) ao mesmo tempo. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | A métrica de confiança contabiliza pedidos extremos ou aplica uma correção Bonferroni para várias ofertas? | Não. [Saiba mais](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre como o Analytics calcula a confiança. |
 | As métricas de incentivo e confiança podem ser usadas com outras dimensões ou detalhamentos? | O incentivo e a confiança são “métricas bloqueadas” para a dimensão Experiências do Target, pois exigem um controle e uma variação para calcular. Sendo assim, não podem ser divididas nem utilizadas com outras dimensões. |
-| Quando recalcular o incentivo e a confiança? | O incentivo e a confiança serão calculados novamente sempre que o painel for executado (ou executado novamente), o intervalo de datas do painel mudar ou um segmento for aplicado ao painel ou tabela. |
+| Quando recalcular o incentivo e a confiança? | O aumento e a confiança são recalculados sempre que o painel é executado (ou executado novamente), o intervalo de datas do painel muda ou um segmento é aplicado ao painel ou tabela. Ao aplicar um filtro de segmento à tabela de forma livre, ele deve ser aplicado em todas as colunas ou o incentivo e a confiança não será atualizada corretamente. Os segmentos de nível de coluna não são suportados no momento. |
 
 Para obter mais informações sobre os relatórios do Analytics for Target, acesse [relatórios do A4T](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/reporting.html)
