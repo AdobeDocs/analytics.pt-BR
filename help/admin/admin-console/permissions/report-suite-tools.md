@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 97%
 
 ---
 # Permissões de perfil do produto para ferramentas de conjunto de relatórios
@@ -62,4 +62,4 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Reportlet de Resumo de Uso | Não usado. |
 | Recursos da Web | Não usado. |
 | Social | Não usado. |
-| API de reparo de dados | Concede acesso à API de reparo de dados (versão futura) |
+| API de reparo de dados | Concede acesso à API de reparo de dados |
