@@ -1,16 +1,16 @@
 ---
-title: O que é a análise de coorte?
-description: Saiba mais sobre a análise de coorte no Analysis Workspace
+title: O que é a Análise Cohort e como ela funciona?
+description: Saiba mais sobre os dados em torno da sua audiência e divida-se em grupos relacionados com a Análise de coorte. Saiba mais sobre a análise de coorte no Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
 
-# O que é a [!UICONTROL análise de coorte]?
+# Saiba mais sobre [!UICONTROL Análise de coorte] no Adobe Analytics
 
 A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A [!UICONTROL análise de coorte] é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a [!UICONTROL análise de coorte] disponíveis na Web, por exemplo, em [Análise de coorte 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -26,7 +26,7 @@ Exemplos do que você pode fazer com a [!UICONTROL análise de coorte]:
 
 A [!UICONTROL Análise de coorte] está disponível a todos os clientes do Adobe Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) em vídeo de Análise de coorte (4:36)
+[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  em vídeo de Análise de coorte (4:36)
 
 >[!IMPORTANT]
 >
