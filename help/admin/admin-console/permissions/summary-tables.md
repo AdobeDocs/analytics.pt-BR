@@ -2,9 +2,9 @@
 title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Admin Console.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Custos | x |  |  |  | Concede acesso aos Canais de marketing > Custos de canal de marketing no Gerenciador de conjunto de relatórios. |
 | Calendário personalizado | x |  |  |  | Concede acesso a Geral > Personalizar calendário no Gerenciador de conjunto de relatórios. |
 | Gerenciador de feeds de dados | x |  |  |  | Concede acesso a Administração > Feeds de dados na navegação superior do Analytics. |
-| API de reparo de dados | x |  |  |  | Novo (em Beta) - concede acesso à API de reparo de dados |
+| API de reparo de dados | x |  |  |  | Concede acesso à API de reparo de dados |
 | Gerenciador das fontes de dados | x |  |  |  | Concede acesso a Administração > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Métricas padrão | x |  |  |  | Concede acesso a Configurações de conjuntos de relatórios individuais > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | Excluir por endereço IP | x |  |  |  | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
