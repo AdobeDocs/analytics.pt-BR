@@ -5,7 +5,7 @@ title: Visão geral das regras de processamento
 topic: Ferramentas administrativas
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ Regras de processamento podem monitorar valores recebidos para transformar erros
 
 Após definir os dados de contexto na implementação, é necessário copiá-los para variáveis, como eVars para uso em relatórios.
 
-Consulte [Copiar uma variável de dados de contexto para um eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) para obter mais informações.
+Consulte [Copiar uma variável de dados de contexto para um eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obter mais informações.
