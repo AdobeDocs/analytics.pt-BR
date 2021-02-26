@@ -2,11 +2,11 @@
 description: Essas alterações no funcionamento das métricas calculadas do Analytics podem afetar você.
 title: Perguntas frequentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2148'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ Essas alterações no funcionamento das métricas calculadas do [!DNL Analytics]
 [Porque minhas métricas calculadas não são exibidas no Relatório de canais de marketing?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Por que algumas métricas calculadas mostram fórmulas sem o parênteses que adicionei?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[(Somente Ad Hoc Analysis) As métricas calculadas com definições de segmentos em linha ou integrados ainda são suportadas?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Somente Report Builder) Por que as métricas calculadas desapareceram das minhas solicitações?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ As métricas calculadas globais não podem mais ser compartilhadas com as empres
 
 Agora, as métricas calculadas com uma classificação Numérico ou Numérico2 permanecerão visíveis no [!UICONTROL Reports &amp; Analytics], no [!UICONTROL Report Builder] e nas APIs. Contudo, elas não serão mais suportadas em nenhum relatório com um segmento aplicado.
 
-Além disso, métricas calculadas com uma classificação de Numérico ou Numérico2 não serão suportadas nos seguintes componentes: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Relatórios em tempo real], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição]. Ao criar ou editar uma métrica calculada com uma classificação de Numérico ou Numérico2, você verá um aviso de compatibilidade informando que a métrica calculada não é compatível com determinadas áreas do produto.
+Além disso, as métricas calculadas com uma classificação Numérico ou Numérico2 não serão suportadas nos seguintes componentes: [!UICONTROL Relatórios Analysis Workspace], [!UICONTROL Tempo real], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição]. Ao criar ou editar uma métrica calculada com uma classificação de Numérico ou Numérico2, você verá um aviso de compatibilidade informando que a métrica calculada não é compatível com determinadas áreas do produto.
 
 **O que você precisa fazer**
 
@@ -183,14 +181,6 @@ Agora, somente as métricas calculadas que apresentarem um tipo de alocação es
 ## Por que algumas métricas calculadas mostram fórmulas sem o parênteses que adicionei? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 Durante a migração, a Adobe removeu os parênteses desnecessários de algumas fórmulas. Foram removidos apenas os parênteses que não afetam o modo como a métrica é calculada. Isso não modifica os dados; apenas simplifica a fórmula.
-
-## (Somente Ad Hoc Analysis) As métricas calculadas com definições de segmentos em linha ou integrados ainda são suportadas? {#section_B25C924A282F49388AB604E3D826F44C}
-
-Antes, as métricas calculadas criadas na Ad Hoc Analysis podiam conter definições de segmentos em linha. Isso não é mais possível.
-
-**O que você precisa fazer**
-
-É necessário salvar o segmento explicitamente. As métricas calculadas existentes com definições de segmento em linha continuarão a ser executadas corretamente e poderão ser exibidas na Ad Hoc Analysis, mas não poderão ser salvas sem que você salve explicitamente o segmento.
 
 ## (Somente Report Builder) Por que as métricas calculadas desapareceram das minhas solicitações? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
