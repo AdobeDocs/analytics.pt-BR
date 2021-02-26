@@ -5,9 +5,9 @@ user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [Fontes de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Feeds de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Relatórios entregues de Ad Hoc Analysis](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Relatórios entregues do Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Relatórios entregues do Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Envolvimentos de serviços de engenharia com FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
