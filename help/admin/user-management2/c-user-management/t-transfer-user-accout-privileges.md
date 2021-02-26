@@ -2,12 +2,12 @@
 description: Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
 subtopic: Users and groups
 title: Transferir itens da conta do usuário
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '233'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ Etapas que descrevem como atribuir itens da conta do usuário (painéis, métric
 1. Clique em **[!UICONTROL OK]** para confirmar que deseja transferir os recursos de conta selecionados.
 
    O usuário destinatário recebe todos os direitos para os recursos da conta selecionados de propriedade do usuário original, exceto os direitos aos relatórios agendados.
-
-   >[!NOTE]
-   >
-   >Os recursos da Ad Hoc Analysis não podem ser transferidos. Se a organização utiliza várias empresas de logon, você não pode transferir itens entre elas.
-
