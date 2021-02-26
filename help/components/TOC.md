@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '637'
 ht-degree: 99%
 
 ---
@@ -168,7 +168,6 @@ ht-degree: 99%
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Perguntas frequentes](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
-   + [Guia de transição para a Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas e calculadas avançadas (derivadas)](c-calcmetrics/cm-overview.md)
    + [Perguntas frequentes](c-calcmetrics/cm-transition.md)
