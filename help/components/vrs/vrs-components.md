@@ -2,10 +2,10 @@
 description: Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: ht
-source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
-workflow-type: ht
-source-wordcount: '422'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,6 @@ Para permitir a curadoria de componentes,
    >Se a personalização de componentes estiver ativada, o conjunto de relatórios virtuais poderá ser acessado **somente na Analysis Workspace** e não em:
    >
    >* [!UICONTROL Reports &amp; Analytics]
-   >* [!UICONTROL Ad Hoc Analysis]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
