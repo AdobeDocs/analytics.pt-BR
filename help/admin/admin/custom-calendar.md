@@ -1,13 +1,13 @@
 ---
 description: As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
 title: Personalizar calendário
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ Você pode usar o calendário para definir o primeiro dia da semana e ano, ou us
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>: janeiro tem cinco semanas, fevereiro tem quatro, março tem quatro, e assim em diante. </li> 
-    </ul> <p>Observação: essa opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis) exceto para Data Warehouse, que não tem suporte a calendários personalizados. </p> </td> 
+    </ul> <p>Observação:  Essa opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Relatórios e análises, Report Builder, Activity Map, etc.), exceto para Data Warehouse, que não suporta calendários personalizados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
