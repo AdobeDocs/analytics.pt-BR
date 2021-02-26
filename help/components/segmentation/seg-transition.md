@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: Perguntas frequentes
-topic: Segments
+topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 * Os segmentos são universais para todos os conjuntos de relatórios.
 * O [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifica a criação de segmentos.
 * O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permite que você configure [fluxos de trabalho](/help/components/segmentation/segmentation-workflow/seg-workflow.md) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
-
-* Você pode [adicionar tags a segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas. Anteriormente, as pastas eram usadas (na [!DNL Ad Hoc Analysis]) para organizar os segmentos.
-
-* Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) fora da Ad Hoc Analysis.
+* Você pode [adicionar tags a segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas.
+* Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
 
 Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) no Blog de marketing digital para obter mais detalhes.
@@ -88,11 +86,11 @@ O Report Builder e a Análise ad hoc exibem os segmentos que você possui e os s
 
 **É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?**
 
-Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos do Analysis Workspace, do Reports &amp; Analytics e da Ad Hoc Analysis. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
+Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
 
 Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
 
-O Report Builder e a Ad Hoc Analysis exibem somente os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
+O Report Builder exibe apenas os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
 
 **Por que não posso excluir esse segmento?**
 
@@ -126,10 +124,6 @@ Os modelos de segmento são marcados com um ícone especial no Construtor de seg
 
 ![](assets/seg_templates.png)
 
-**O que aconteceu com minhas pastas de segmento existentes?**
-
-Em vez de pastas (Ad Hoc Analysis), o Gerenciador de segmentos usa específicos. Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
-
 **O que aconteceu com os relatórios agendados com segmentos aplicados?**
 
 Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
@@ -144,15 +138,9 @@ Você tem um marcador que faz referência ao segmento para o conjunto de relató
 
 **O que acontece com os segmentos de Data Warehouse?**
 
-Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como a Analysis Workspace, a Ad Hoc Analysis e o Reports &amp; Analytics.
+Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos de Data Warehouse também funcionarão em outros componentes, como Analysis Workspace e Relatórios e análises.
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
-
-**O que acontece com os segmentos favoritos (Ad Hoc Analysis)?**
-
-Esses segmentos da Ad Hoc Analysis são exibidos como segmentos regulares no Adobe Analytics.
-
-Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmentos, que permite que você marque os segmentos como favoritos.
 
 **O que acontece com os segmentos pré-configurados?**
 
@@ -162,9 +150,7 @@ Eles não devem ser confundidos com o recurso Favoritos no Gerenciador de segmen
 * **Visitantes da pesquisa paga**
 * **Visitantes com cookie de ID do visitante**
 
-Esses segmentos serão transferidos como modelos de segmento no Construtor de segmentos.
-
-Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
+Esses segmentos serão transferidos como modelos de segmento no Construtor de segmentos. Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
 **O que acontece com os segmentos da Experience Cloud (Suite):**
 
@@ -351,7 +337,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
