@@ -2,10 +2,10 @@
 description: Tempo de processamento de relatórios é uma configuração de conjunto de relatórios virtual que permite o processamento de dados de forma não destrutiva e retroativa.
 title: Processamento de tempo do relatório
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1426'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ As seguintes opções de configuração estão disponíveis atualmente para conj
 * **Iniciar uma nova visita a cada inicialização do aplicativo:** além do tempo limite de visita, você pode forçar o início de uma visita sempre que um evento de inicialização de aplicativo for gravado dos SDKs móveis, independentemente da janela de inatividade. Essa configuração afeta a métrica de visitas e o contêiner do segmento de visitas, bem como a lógica de expiração de visita nas eVars.
 * **Iniciar nova visita com evento:** uma nova sessão começa quando um evento é acionado, independente do fato de uma sessão ter ultrapassado o tempo limite. A sessão recentemente criada inclui o evento que a iniciou. Além disso, é possível usar vários eventos para começar uma sessão e uma nova sessão é acionada se qualquer um desses eventos for observado nos dados. Esta configuração afetará a contagem de visitas, o contêiner de segmentação de visitas e a lógica de expiração de visitas nas eVars.
 
-O Processamento de tempo do relatório não suporta todas as métricas e dimensões disponíveis nos relatórios tradicionais do Analytics. Os conjuntos de relatórios virtuais que utilizam o Processamento de tempo do relatório só podem ser acessados na Analysis Workspace e não estão acessíveis no [!UICONTROL Reports &amp; Analytics], na Ad Hoc Analysis, no Data Warehouse, no Report Builder, nos Feeds de dados ou na API de relatórios.
+O Processamento de tempo do relatório não suporta todas as métricas e dimensões disponíveis nos relatórios tradicionais do Analytics. Os conjuntos de relatórios virtuais que utilizam o Processamento de tempo do relatório só podem ser acessados na Analysis Workspace e não estão acessíveis no [!UICONTROL Reports &amp; Analytics], na , no Data Warehouse, no Report Builder, nos Feeds de dados ou na API de relatórios.
 
 Além disso, o Processamento de tempo do relatório somente processa os dados provenientes do intervalo de datas do relatório (referido como “janela de datas” abaixo). Isso significa que os valores de eVar configurados como “nunca expiram” para um visitante antes do intervalo de datas do relatório não persistem nas janelas de relatórios e não aparecem nos relatórios. Isso também significa que as medições de lealdade do cliente são baseadas exclusivamente nos dados presentes no intervalo de datas do relatório e não em todo o histórico antes do intervalo de datas do relatório.
 
