@@ -3,17 +3,17 @@ source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '647'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
-# Permissões de perfil do produto para ferramentas de conjunto de relatórios
+# Permissões de perfil de produto para Ferramentas de conjunto de relatórios
 
 Use esta página para entender cada item de permissão em Ferramentas de conjunto de relatórios.
 
 | Item de permissão das Ferramentas do conjunto de relatórios | Descrição |
 |------|------|
 | Data Warehouse | Não usado. Em vez disso, use &#39;Relatório personalizado do Data Warehouse&#39;. |
-| Site Catalyst | Não usado. Em vez disso, use &#39;Acesso à Analysis Workspace&#39;. |
+| SiteCatalyst | Não usado. Em vez disso, use &#39;Acesso à Analysis Workspace&#39;. |
 | Conjuntos de relatórios (Leitura) | Não usado. |
 | Conjuntos de relatórios (Gravação) | Não usado. |
 | Gerenciamento de tráfego | Não usado. |
@@ -38,7 +38,7 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Configuração do Advertising Analytics | Não usado. |
 | Detecção de anomalias | Concede acesso à Detecção de anomalias na Analysis Workspace. |
 | Análise de contribuição | Concede acesso ao menu de clique com o botão direito do mouse &quot;Executar Análise de contribuição&quot; na Analysis Workspace. |
-| Relatório de Canal | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics |
+| Relatório de Canal | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics. |
 | Relatório Tempo real | Concede acesso a Métricas do site > Tempo real no Reports &amp; Analytics. Use o item de permissão &#39;Configuração do Relatório em tempo real&#39; para conceder acesso para configurar este relatório. |
 | Páginas de bot | Concede acesso a Métricas do site > Bots > Relatório de páginas de bot no Reports &amp; Analytics. |
 | Bots | Concede acesso a Métricas do site > Bots > Relatórios de bots no Reports &amp; Analytics. |
