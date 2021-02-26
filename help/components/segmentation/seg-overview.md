@@ -1,13 +1,13 @@
 ---
 description: Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Os segmentos são criados como informações de público-alvo codificadas que você pode criar de acordo com necessidades específicas e, em seguida, verificar, editar e compartilhar com outros membros da equipe, ou usar em outros produtos da Adobe e recursos do Analytics.
 title: Sobre os segmentos e contêineres
-topic: Segments
+topic: Segmentos
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 99%
+source-wordcount: '3700'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Os segmentos permitem que você identifique subconjuntos de visitantes com base 
 
 Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Ocorrência] por meio de um modelo de contêiner aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
-Você pode construir e salvar segmentos no Construtor de segmentos, ou gerar segmentos a partir de um relatório de Fallout (na [!DNL ad hoc analysis]). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos a partir de um relatório de Fallout (em  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -30,7 +30,7 @@ Os segmentos podem ter por base os seguintes valores:
 
 * Visitantes com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero.
 * Visitantes com base em interações: campanhas, pesquisa por palavras-chave, mecanismo de pesquisa.
-* Visitantes com base em saídas e entradas: visitantes do Facebook, uma página de aterrissagem definida e um domínio de referência.
+* Visitantes com base em saídas e entradas: visitantes do Facebook, uma página inicial definida e um domínio de referência.
 * Visitantes com base em variáveis personalizadas: campos do formulário, categorias definidas, ID do cliente.
 
 Ao construir segmentos de público-alvo no Construtor de segmentos, você define condições com os operadores [!UICONTROL AND] e [!UICONTROL OR] entre os contêineres.
