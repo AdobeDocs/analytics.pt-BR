@@ -1,12 +1,12 @@
 ---
 description: Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analytics no Report Builder.
 title: Gerenciar segmentos
-topic: Report builder
+topic: Construtor de relatórios
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '919'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
    ![](assets/seg_in_context.png)
 
-   Para obter mais informações sobre contêineres, consulte o [Guia de segmentação](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html).
+   Para obter mais informações sobre contêineres, consulte o [Guia de segmentação](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 1. A Interface do usuário do construtor de segmentos agora será inicializada no Internet Explorer. A Interface do usuário do construtor será inicializada com o contêiner e o filtro especificado.
 1. Depois de adicionar um nome e a descrição ao segmento, salve-o.
@@ -53,7 +53,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
 ## Pesquisar por e aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Qualquer segmento criado em Reports &amp; Analytics, Ad Hoc Analysis, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar (![](assets/refresh_icon.png)).
+Qualquer segmento criado em Reports &amp; Analytics, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar (![](assets/refresh_icon.png)).
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
@@ -102,7 +102,7 @@ Adicionar um controle de segmento permite você alternar segmentos de uma pasta 
 
    ![](assets/seg_control2.png)
 
-## Atualizar a lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
+## Atualizar a lista de segmentos  {#section_22E4A86789444B4A998532396B476EFB}
 
 Sempre que você adicionar um novo segmento ou editar um já existente, você deve clicar no ícone Atualizar (![](assets/refresh_icon.png) para atualizar a lista de segmentos em cache).
 
