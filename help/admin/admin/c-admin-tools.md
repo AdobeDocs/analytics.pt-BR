@@ -2,10 +2,10 @@
 description: Índice de ferramentas do administrador no Adobe Analytics.
 title: Ferramentas administrativas
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
-source-wordcount: '159'
+translation-type: tm+mt
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [Excluir por endereço IP](exclude-ip.md)
 + [Métodos de descoberta](finding-methods.md)
 + [Configurações gerais da conta](general-acct-settings-admin.md)
-+ [Gerenciamento de grupos](group.md)
 + [Filtros internos do URL](internal-url-filter-admin.md)
 + [Logs](logs.md)
 + [Canais de marketing](marketing-channels-admin.md)
