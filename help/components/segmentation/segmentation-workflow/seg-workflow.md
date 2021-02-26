@@ -1,12 +1,12 @@
 ---
 description: Descreve um fluxo de trabalho sugerido para segmentos criados com o Construtor de segmentos e gerenciado pelo Gerenciador de segmentos.
 title: Visão geral do fluxo de trabalho de segmentação
-topic: Segments
+topic: Segmentos
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Consulte [Criar os segmentos sequenciais](/help/components/segmentation/segmenta
 
 ![](assets/step3_icon.png) [ Marcar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Marque segmentos para facilitar a organização e o compartilhamento. A marcação substitui as hierarquias da pasta na análise ad hoc. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada.
+Marque segmentos para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada.
 
 ![](assets/step4_icon.png) [ Aprovar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
