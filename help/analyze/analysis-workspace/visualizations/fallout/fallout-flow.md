@@ -3,10 +3,10 @@ description: 'null'
 title: Visão geral de fallout
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -33,11 +33,11 @@ Uma visualização de fallout é útil para analisar:
 * Fluxos gerais de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantas fizeram uma pesquisa e quantas delas eventualmente acessaram um item específico.
 * Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que acessaram sua política de privacidade e que fizeram uma compra.
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) em vídeo de Visualização de fallout (4:15)
+[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=pt-BR)  em vídeo de Visualização de fallout (4:15)
 
 ## Segmentação como base para fluxo e fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Os segmentos aplicados a painéis do Workspace funcionam de uma forma um pouco diferente que os segmentos aplicados a relatórios de fallout e de fluxo no Reports &amp; Analytics e na Ad Hoc Analysis. Na maior parte do tempo, eles fornecem os mesmos resultados. A principal diferença é que o Reports &amp; Analytics e a Ad Hoc Analysis aplicam o segmento em cada etapa da sequência. Isso pode ter resultados um pouco diferentes.
+Os segmentos aplicados aos painéis do Workspace funcionam de forma ligeiramente diferente dos segmentos aplicados aos relatórios de fallout e fluxo no Relatórios e análises. Na maior parte do tempo, eles fornecem os mesmos resultados. A principal diferença é que o Relatórios e análises aplica o segmento em cada etapa da sequência. Isso pode ter resultados um pouco diferentes.
 
 Veja um exemplo de fallout de duas etapas:
 
@@ -47,13 +47,13 @@ Se você aplicar um segmento no nível do painel do Workspace, o segmento é com
 
 ![](assets/fallout_seg.png)
 
-Por contraste, quando o Reports &amp; Analytics e a Ad Hoc Analysis calculam o segmento, ele é combinado da seguinte forma:
+Por outro lado, quando o Relatórios e análises calcula o segmento, ele é combinado da seguinte maneira:
 
 ![](assets/fallout_segments3.png)
 
-O Reports &amp; Analytics e a Ad Hoc Analysis combinam o segmento a cada etapa. Quando os contêineres estão no mesmo nível que o fallout (nível de visita ou de visitante, por exemplo), isso resultará na correspondência do nome de visitas ou de visitantes.
+O Relatórios e análises combina o segmento a cada etapa. Quando os contêineres estão no mesmo nível que o fallout (nível de visita ou de visitante, por exemplo), isso resultará na correspondência do nome de visitas ou de visitantes.
 
-Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias o número no Analysis Workspace corresponde àqueles no Reports &amp; Analytics e na Ad Hoc Analysis. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
+Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias, os números no Analysis Workspace correspondem aos do Relatórios e análises. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
 
 * O segmento não está no mesmo nível do fallout.
 * O segmento possui uma variável na qual o visitante/visita pode ter vários valores durante uma visita/visitante.
