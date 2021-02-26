@@ -1,13 +1,13 @@
 ---
 description: Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Essa tabela lista as funções suportadas.
 title: Compatibilidade de segmentos de Data Warehouse
-topic: Segments
+topic: Segmentos
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, Relatórios e análises </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   </tr> 
   <tr> 
    <td> <b>Dimensões</b> </td> 
-   <td>Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente na Analysis Workspace, no Reports &amp; Analytics e na Ad Hoc Analysis: 
+   <td>Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Analysis Workspace, Relatórios e análises: 
     <ul> 
      <li>Servidor de entrada </li> 
      <li>Categoria de entrada </li> 
@@ -101,4 +101,4 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  </tbody> 
 </table>
 
-*Observação: o Data Warehouse não oferece suporte a todos os casos de uso de um contêiner`exclusion`ou`without`ao usar`AND/OR`. Ao usar essa combinação, somente os segmentos que podem ser regravados como `A AND NOT B` (ou **incluir essa característica** e **excluir essa característica**) são compatíveis com o Data Warehouse.*
+*Observação: o Data Warehouse não oferece suporte a todos os casos de uso de um contêiner `exclusion` ou `without` ao usar `AND/OR`. Ao usar essa combinação, somente os segmentos que podem ser regravados como `A AND NOT B` (ou **incluir essa característica** e **excluir essa característica**) são compatíveis com o Data Warehouse.*
