@@ -3,12 +3,12 @@ description: Habilite permissões do usuário para obter integração a itens Ge
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar permissões de ferramentas do Analytics
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Ocultar conjuntos de relatórios](/help/admin/company/c-hide-report-suites.md) | Concede permissão para ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics. |
 | **Ferramentas** | Essas configurações concedem acesso a ferramentas do Analytics (interfaces e aplicativos) e a recursos avançados, como segmentação e métricas calculadas. |
 | [Dados atuais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/current-data.html) | Concede permissão para uso do recurso Dados atuais nos relatórios. |
-| Usuários da licença de [Ad Hoc Analysis](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Concede permissão para acesso à [!UICONTROL Ad Hoc Analysis]. |
 | Acesso aos serviços da Web | Permite o acesso aos Serviços da Web para usuários não administradores. Gera credenciais de Serviços da Web. |
 | [Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Concede aos membros deste grupo acesso a licenças do [!UICONTROL Report Builder]. |
 | Acesso à [Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html) | Concede aos usuários acesso à Analysis Workspace, a interface de relatórios recomendada para o [!DNL Adobe Analytics]. |
