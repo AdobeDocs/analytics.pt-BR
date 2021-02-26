@@ -2,11 +2,11 @@
 description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Para configurar eventos do Calendário.
 * Para configurar Metas.
 * Para visualizar relatórios de Bot.
-* Para acessar visualizações de vídeo exclusivas do Disparo de horário e do visualizador.
+* Para acessar visualizações exclusivas de faixa horária de exibição de vídeos e de saída de espectadores de vídeos.
 * Para aproveitar Listas de publicação em relatórios agendados.
 
 **[Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html)** deve ser usada:
@@ -59,7 +59,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
    * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline).
    * Processamento completo: fontes de dados com data e hora, processadas como se fossem uma ocorrência coletada pelos servidores da Adobe. Isto é, os dados são inseridos diretamente na jornada do visitante.
 
-**[Os ](https://www.adobeexchange.com/experiencecloud.html)** conectores de dados devem ser usados:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** devem ser usados:
 
 * Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os Data Connectors incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, em uma base recorrente.
 
@@ -69,7 +69,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 **[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* A API de inserção de dados e a API de inserção de dados em massa são ambos métodos para enviar dados de coleta do lado do servidor para a Adobe Analytics. As chamadas da API de inserção de dados são feitas um evento de cada vez. A API de inserção de dados em massa aceita arquivos formatados CSV contendo dados de evento, um evento por linha. Se você estiver trabalhando em uma nova implementação da coleção do lado do servidor, recomendamos usar a API de inserção de dados em massa.
+* A API de inserção de dados e a API de inserção de dados em massa são métodos usados para enviar dados de coleção do lado do servidor para o Adobe Analytics. As chamadas da API de inserção de dados aceitam um evento por vez. A API de inserção de dados em massa aceita arquivos formatados CSV contendo dados do evento, um evento por linha. Se você estiver trabalhando em uma nova implementação da coleção do lado do servidor, recomendamos usar a API de inserção de dados em massa.
 
 **[Atributos do cliente](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html)** devem ser usados:
 
@@ -81,14 +81,14 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Se você deseja incorporar os dados de público-alvo do Adobe Audience Manager (AAM), como informações demográficas (por exemplo, sexo ou faixa salarial), informações psicográficas (por exemplo, interesses e hobbies), dados de CRM ou dados de impressões do anúncio, em qualquer fluxo de trabalho do Analytics.
 * Se você deseja que os dados de CRM carregados sejam com base no tempo, pois essa integração envia novas informações ao Analytics a cada ocorrência.
 
-## Exportação de dados do Adobe Analytics  {#export}
+## Exportação de dados do Adobe Analytics {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** deve ser usado:
 
 * Se as opções de layout personalizadas do Workspace estiverem com limitações (tudo é possível no Report Builder, dentro dos limites do Excel).
 * Para vincular livremente as entradas do usuário ou as fontes de dados offline (impressões, custo) aos dados da Adobe. As Fontes de dados são uma solução mais permanente para vincular os dados (consulte Importação de dados para o Analytics).
 * Para mesclar os dados em conjunto de diferentes relatórios dimensionais (por exemplo, relatório de impressões promocionais associado ao relatório de clique para conversão promocional).
-* Para unir dados de conjuntos de relatórios diferentes, resumindo ou exibindo na mesma tabela lado a lado.
+* Para mesclar dados de conjuntos de relatórios diferentes, resumindo ou exibindo na mesma tabela lado a lado.
 * Se a automação por meio de agendamento for necessária (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[O Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** deve ser usado:
