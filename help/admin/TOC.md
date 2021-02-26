@@ -5,9 +5,9 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '727'
 ht-degree: 99%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 99%
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Métodos de descoberta](admin/finding-methods.md)
    + [Configurações gerais da conta](admin/general-acct-settings-admin.md)
-   + [Gerenciamento de grupos](admin/group.md)
    + [Filtros internos do URL](admin/internal-url-filter-admin.md)
    + [Logs](admin/logs.md)
    + [Canais de marketing](admin/marketing-channels-admin.md)
@@ -164,7 +163,6 @@ ht-degree: 99%
          + [Migrar contas de usuário do Analytics para Enterprise e Federated IDs](user-management2/user-migration/migrate-enterprise.md)
          + [Desabilitar logons herdados](user-management2/user-migration/t-disable-legacy-login.md)
          + [APIs afetadas pela migração](user-management2/user-migration/developer.md)
-      + [Gerenciar usuários da Ad Hoc Analysis](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + Grupos de usuários {#user-groups}
       + [Adicionar um grupo de usuários](user-management2/c-user-groups/t-user-group.md)
       + [Configurações do grupo de usuários](user-management2/c-user-groups/groups.md)
