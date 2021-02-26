@@ -2,10 +2,10 @@
 title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Admin Console.
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 99%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Gerenciamento de tráfego | x |  |  |  | Concede acesso a Administração > Gerenciamento de tráfego. |
 | Serviços Web | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Serviços da Web. |
 | Activity Map |  | x |  |  | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
-| Usuários da licença de Ad Hoc Analysis |  | x |  |  | Ativa o botão de download em Ferramentas > Ad Hoc Analysis e permite que o usuário se autentique com a ferramenta. [Mais informações](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Usuários da licença de Ad Hoc Analysis |  | x |  |  | A Ad Hoc Analysis foi encerrada. [Mais informações](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acesso à Analysis Workspace |  | x |  |  | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar o Adobe Analytics. |
 | Analysis Workspace: Salvar como modelo |  | x |  |  | Concede acesso a Projeto > Salvar como modelo na Analysis Workspace. |
 | Criação de métricas calculadas |  | x |  |  | Concede a capacidade de criar métricas calculadas em todos os recursos do Analytics. |
