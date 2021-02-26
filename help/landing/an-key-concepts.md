@@ -1,10 +1,10 @@
 ---
 description: Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 title: Adobe Analytics - Principais conceitos
-translation-type: ht
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: ht
-source-wordcount: '1876'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1858'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ Esta seção contém os principais conceitos do Adobe Analytics, uma breve descr
 | Analysis Workspace | Solução de navegador para desenvolver projetos de análise avançados e personalizados, bem como para democratizar informações. Oferece mais flexibilidade de relatórios que o Reports and Analytics. | [Página inicial do Analysis Workspace](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (antigo SiteCatalyst) | Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. | [Página inicial do Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Complemento do Excel que permite a criação de solicitações personalizadas de dados do Adobe Analytics e a visualização usando o Microsoft Excel. | [Página inicial do Report Builder](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis (antigo Discover) | Ferramenta baseada em Java para análise digital avançada. Data de descontinuação do produto: 1º de março de 2021. | [Página inicial da Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (antigo Insight) | Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais. | [Cliente do Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Dados brutos e não processados para armazenamento e relatórios personalizados, que podem ser executados por meio da filtragem de dados. Sem nível de ocorrências. | [Página inicial do Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com seus aplicativos. | [Página inicial do Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html) |
@@ -61,7 +60,7 @@ Clique [aqui](/help/technotes/terms.md) para obter um glossário expandido com o
 | Relatórios de jornada do cliente | Exibe informações sobre o caminho que seus usuários tomam em seu site ou aplicativo. Prop, eVars e eventos podem ser usados nessa análise na Analysis Workspace. | [Fallout do Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Fluxo do Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Definição de caminho do Reports and Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Canais de marketing | Relatórios que ajudam você a entender quais canais externos levam os usuários ao seu site e o que é mais eficaz para impulsionar a conversão. As exibições da atribuição de Primeiro e Último contato são fornecidas. Esse é o relatório de fonte de tráfego externo preferido no Adobe Analytics (em vez de Campanhas ou Fontes de tráfego) por ser o olhar mais abrangente nos canais pagos e orgânicos. | [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Dispositivo móvel | Exibe informações sobre os sites acessados em um dispositivo móvel ou tablet. | [Relatório móvel](/help/components/dimensions/mobile-dimensions.md) |
-| Aplicativo móvel | Exibe informações de uso básico relacionadas aos seus aplicativos móveis. Esses relatórios são disponibilizados depois que o SDK é implementado e os relatórios ativados.  O Adobe Mobile Services também criou uma interface de aplicativo móvel diferente, que oferece dados mais abrangentes do aplicativo e permite entender e melhorar a participação do usuário nos seus aplicativos.  Acesse a interface [aqui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html) |
+| Aplicativo móvel | Exibe informações de uso básico relacionadas aos seus aplicativos móveis. Esses relatórios são disponibilizados depois que o SDK é implementado e os relatórios ativados.  O Adobe Mobile Services também criou uma interface de aplicativo móvel diferente, que oferece dados mais abrangentes do aplicativo e permite entender e melhorar a participação do usuário nos seus aplicativos.  Acesse a interface [aqui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | Produtos | Identifica como os produtos individuais e grupos de produtos (categorias) contribuem para diversas métricas de conversão, tais como Receita ou Finalizações. | [Relatório de Produtos](/help/components/dimensions/product.md) |
 | Comparação de segmentos | Mostra as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões as quais você tem acesso. | [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Relatório de conteúdo do site | Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados. | [Relatório de conteúdo do site](/help/components/dimensions/page.md) |
