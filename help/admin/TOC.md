@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -112,9 +112,9 @@ ht-degree: 96%
    + [Analytics no Adobe Admin Console](admin-console/home.md)
    + Permissões {#permissions}
       + [Permissões do Analytics no Admin Console](admin-console/permissions/summary-tables.md)
-      + [Perfis de produto para Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Permissões de perfil do produto para ferramentas de conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
-      + [Permissões de perfil do produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
+      + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Permissões de perfil de produto para Ferramentas de conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
+      + [Permissões de perfil de produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
 + Configurações da empresa {#company-settings}
    + [Visão geral das Configurações da empresa](company/c-company-settings.md)
