@@ -1,13 +1,13 @@
 ---
 description: Descrições de campo das Configurações gerais de conta em Administração do conjunto de relatórios.
 title: Configurações gerais da conta
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: d4ecb31e7a79546c97207772e9df3eb4d673c35f
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 89%
+source-wordcount: '672'
+ht-degree: 88%
 
 ---
 
@@ -29,5 +29,4 @@ Essas configurações contêm opções de edição para a funcionalidade básica
 | Substituir o último octeto de endereços IP por 0 | A remoção do último octeto é feita antes de qualquer processamento ser feito na ocorrência, inclusive antes da filtragem/exclusão de IP, antes de verificar as regras do robô, antes de pesquisas de Geosegmentation etc. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. A correspondência de * deve corresponder a 0. Por exemplo, o endereço de IP 11.22.33.44 é alterado para 11.22.33.0. Os dados de segmentação geográfica não serão tão exatos como seriam se o endereço inteiro de IP fosse usado. Especificamente, a precisão da cidade será mais afetada que a precisão do país ou da região. Tanto as regras de bot como as regras VISTA são afetadas, pois elas não podem acessar o endereço inteiro de IP. Além disso, qualquer regra de processamento que seja baseada em um IP (incluindo regrais de canais de marketing e regras de processamento de conjuntos de relatórios), será afetada por essa configuração. <br> **Observação**: essa configuração fica habilitada por padrão para qualquer conjunto de relatórios criado no Data Center de Londres depois de janeiro de 2019, mas somente se as configurações desse conjunto de relatórios tiverem sido copiadas de um modelo listado no Admin Console. Os conjuntos de relatórios cujas configurações estiverem duplicadas de outros conjuntos de relatórios herdarão todas as configurações do conjunto selecionado. |
 | Ofuscação de IP | Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente.  <br> **Observação**: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target.<br> Se a ofuscação de IP estiver ativada, todo o processamento necessário, incluindo filtragem/exclusão de IP, regras de bot e pesquisas de Geosegmentation, será feito antes que o endereço IP seja ofuscado. Não é necessário alterar nada ao ativar a ofuscação de IP.<ul><li>Marcar **Desativado** deixa o endereço IP nos dados.</li><li>Marcar **Ofuscar endereço IP** altera o IP para dois pontos seguidos de um valor com hash (por exemplo, `::1932023538`).</li><li>Marcar **Remover endereço IP**`::X.X.X.X` substitui o endereço IP por nos dados após a pesquisa geográfica.</li></ul>**Observação**: essa configuração pode exigir alterações nas [regras de bot](/help/admin/admin/bot-removal/bot-rules.md) personalizadas ou [exclusões de IP](/help/admin/admin/exclude-ip.md). |
 | Armazenamento de ID de transação | Permite usar fontes de dados da [ID de transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
-| Ativar Ad Hoc Analysis | Indica se o conjunto de relatórios em questão é exibido como um conjunto de relatórios disponível na Ad Hoc Analysis. Use essa configuração para limitar quais conjuntos de relatórios serão exibidos como uma opção para a Ad Hoc Analysis. Por exemplo, é possível desativar a Ad Hoc Analysis para desenvolvimento e conjuntos de relatórios de QA. |
 | Habilitar o Data Warehouse | Habilita a interface do usuário do Data Warehouse em Analytics > Ferramentas > Data Warehouse. |
