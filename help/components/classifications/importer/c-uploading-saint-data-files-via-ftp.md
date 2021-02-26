@@ -2,13 +2,13 @@
 description: Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 subtopic: Classifications
 title: Importação de FTP
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '723'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Após um upload inicial em um conjunto de relatórios (para determinada variáve
 
 Cada novo valor de chave que você carrega é descontado do total de únicos que você tem disponível para aquela variável no mês.
 
-Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. É possível visualizar essas classificações tanto no data warehouse como na Ad Hoc Analysis.
+Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. Você pode ver essas classificações na Data Warehouse.
 
 >[!NOTE]
 >
