@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
 # Permissões do Adobe Analytics - tabelas de resumo
 
-Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytics no Admin Console, por agrupamentos lógicos.
+Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytics no Admin Console por agrupamentos lógicos.
 
 ## Ferramentas do conjunto de relatórios
 
-| Ferramenta Report Suite | Administração | controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
+| Ferramenta de conjunto de relatórios | Administração | Controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
 | --- | --- | --- | --- | --- | --- |
 | Resumo da conta | x |  |  |  | Concede acesso a Geral > Configurações gerais de conta no Gerenciador de conjunto de relatórios. |
 | Canais | x |  |  |  | Concede acesso aos Canais de marketing, incluindo: Gerenciador de canais de marketing, Regras de processamento de canal de marketing e Expiração de canal de marketing no Gerenciador de conjunto de relatórios. |
@@ -45,7 +45,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Relatório de Data Warehouse Personalizado |  | x |  |  | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
 | Páginas de bot |  |  | x |  | Concede acesso a Métricas do site > Bots > Relatório de páginas de bot no Reports &amp; Analytics. |
 | Bots |  |  | x |  | Concede acesso a Métricas do site > Bots > Relatórios de bots no Reports &amp; Analytics. |
-| Relatório de Canal |  |  | x |  | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics |
+| Relatório de Canal |  |  | x |  | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics. |
 | Visitas de Retorno Diário |  |  | x |  | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
 | Meus relatórios recomendados |  |  | x |  | Concede acesso a Métricas do site > Meus relatórios recomendados no Reports &amp; Analytics. |
 | Relatório Tempo real |  |  | x |  | Concede acesso a Métricas do site > Tempo real no Reports &amp; Analytics. Use o item de permissão &#39;Configuração do Relatório em tempo real&#39; para conceder acesso para configurar este relatório. |
@@ -62,7 +62,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Totais do Conjunto de relatórios |  |  |  | x | Não usado. |
 | Conjuntos de relatórios (Leitura) |  |  |  | x | Não usado. |
 | Conjuntos de relatórios (Gravação) |  |  |  | x | Não usado. |
-| Site Catalyst |  |  |  | x | Não usado. Em vez disso, use &#39;Acesso à Analysis Workspace&#39;. |
+| SiteCatalyst |  |  |  | x | Não usado. Em vez disso, use &#39;Acesso à Analysis Workspace&#39;. |
 | Social |  |  |  | x | Não usado. |
 | Reportlet de Texto |  |  |  | x | Não usado. |
 | Gerenciamento de tráfego |  |  |  | x | Não usado. |
@@ -72,7 +72,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 
 ## Ferramentas do Analytics
 
-| Ferramenta do Analytics | Administração | controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
+| Ferramenta do Analytics | Administração | Controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
 | --- | --- | --- | --- | --- | --- |
 | Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administração > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
 | Gerenciador de código - Serviços da Web | x |  |  |  | Concede acesso ao Gerenciador de código por meio da API 1.4. |
