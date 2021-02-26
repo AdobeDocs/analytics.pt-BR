@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a primeira ferramenta de análise e de visualização para o Analytics, bem como ferramentas como o Report Builder e Activity Map.
-translation-type: ht
-source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
-workflow-type: ht
-source-wordcount: '1099'
+translation-type: tm+mt
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos de uso da análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Casos de uso da [análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -313,29 +313,6 @@ ht-degree: 100%
       + [Visualizar projetos convertidos na Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Perguntas frequentes do Conversor de projetos](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Visão geral da Ad Hoc Analysis](ad-hoc-analysis/adhoc-home.md)
-   + [Introdução](ad-hoc-analysis/c-getting-started.md)
-   + [Administração](ad-hoc-analysis/c-administration.md)
-   + [Executar Ad Hoc Analysis no Java 11](ad-hoc-analysis/adhoc-java.md)
-   + [Configurar relatórios existentes](ad-hoc-analysis/c-reports-configure.md)
-   + [Datas e intervalos de datas](ad-hoc-analysis/c-dates.md)
-   + [Dimensões](ad-hoc-analysis/c-dimensions.md)
-   + [Arquivo de log](ad-hoc-analysis/c-log-file.md)
-   + [Métricas](ad-hoc-analysis/c-metrics.md)
-   + [Visão geral dos relatórios](ad-hoc-analysis/c-overview-standard-reports.md)
-   + [Tipos de relatórios](ad-hoc-analysis/c-reports-types.md)
-   + [Relatórios de métricas do site](ad-hoc-analysis/c-reports-site-metrics.md)
-   + [Relatórios de conteúdo do site](ad-hoc-analysis/c-reports-site-content.md)
-   + [Relatórios móveis](ad-hoc-analysis/c-reports-mobile.md)
-   + [Relatórios de fontes de tráfego](ad-hoc-analysis/c-reports-traffic.md)
-   + [Relatórios de caminhos](ad-hoc-analysis/c-reports-paths.md)
-   + [Relatórios de produtos](ad-hoc-analysis/c-reports-product.md)
-   + [Relatórios de visitante](ad-hoc-analysis/c-reports-visitor.md)
-   + [Adobe Target](ad-hoc-analysis/c-reports-tnt.md)
-   + [Construir segmentos](ad-hoc-analysis/c-content-ref.md)
-   + [Configurações](ad-hoc-analysis/c-global-settings.md)
-   + [Gerenciador de programação](ad-hoc-analysis/c-schedule.md)
-   + [Criador de tabela](ad-hoc-analysis/c-tablebuilder.md)
-   + [Hora](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Visão geral dos Labs](tech-previews/overview.md)
 + Painéis do Adobe Analytics {#mobapp}
