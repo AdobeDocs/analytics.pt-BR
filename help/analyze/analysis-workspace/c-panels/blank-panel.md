@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Crie um painel em branco como ponto de partida para qualquer visualização.
 title: Painel em branco
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '47'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 80%
 
 ---
 
