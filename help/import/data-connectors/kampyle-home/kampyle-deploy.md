@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Implante o conector de dados do Kampyle no Adobe Analytics.
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 46%
 
 ---
 
@@ -17,23 +17,23 @@ A implantação dessa integração é um processo simples que consiste em conclu
 
 ## Concluir o Assistente de integração da Adobe {#complete-the-adobe-integration-wizard}
 
-Para ativar a integração, conclua o assistente de configuração na interface dos Conectores de dados.
+Para ativar a integração, conclua o assistente de configuração na interface do Data Connectors.
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navegue até Conectores **[!UICONTROL de dados]**.
+1. Navegue até **[!UICONTROL Data Connectors]**.
 1. Inicie o assistente de integração do Kampyle.
 1. Selecione o conjunto de relatórios desejado e forneça um nome para a integração.
 1. Configure os seguintes itens:
    1. **[!UICONTROL Endereço]** de email: O endereço de email do contato principal.
-   1. **[!UICONTROL Descrição]** (opcional): Descrição desta configuração de integração.
-   1. **[!UICONTROL Chave]** Kampyle: Localize essa chave no aplicativo Kampyle em Formulário **[!UICONTROL de]** feedback > Personalização **[!UICONTROL do formulário de]** feedback.
-   1. **[!UICONTROL Servidor]** de rastreamento: O valor do servidor de rastreamento que você usa para rastrear os dados do Adobe Analytics.
+   1. **[!UICONTROL Descrição]**  (opcional): Descrição dessa configuração de integração.
+   1. **[!UICONTROL Chave]** Kampyle: Localize essa chave no aplicativo Kampyle, em  **[!UICONTROL Formulário de feedback]**  > Personalização do formulário de  **[!UICONTROL feedback]**.
+   1. **[!UICONTROL Servidor]** de rastreamento: O valor do servidor de rastreamento usado para rastrear os dados do Adobe Analytics.
    1. **[!UICONTROL Servidor de rastreamento seguro]**: Se o servidor de rastreamento for diferente para tráfego seguro/https, forneça essa configuração aqui.
 1. Configure os itens de **[!UICONTROL Mapeamentos de variável]** a seguir:
-   1. **[!UICONTROL ID]** de feedback do Kampyle: Selecione uma variável eVar disponível em seu conjunto de relatórios
-   1. **[!UICONTROL Feedback Grade]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
+   1. **[!UICONTROL ID]** de feedback do Kampyle: Selecione uma variável eVar disponível no conjunto de relatórios
+   1. **[!UICONTROL Nota de feedback]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
    1. **[!UICONTROL Itens]** de feedback: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
-   1. **[!UICONTROL Comentários com Grau]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
+   1. **[!UICONTROL Feedback com nota]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
 1. Marque a caixa para que o painel Integração do Kampyle seja criado automaticamente (recomendado).
 1. Revise todos os itens de configuração e clique em **[!UICONTROL Ativar agora]**.
 
@@ -56,11 +56,11 @@ Após concluir o assistente de integração, implante o objeto de configuração
 1. Implante o código usando um dos seguintes métodos:
 
    * Use o Adobe Experience Platform Launch.
-   * Forneça o código ao recurso organizacional que mantém sua implantação do Adobe Analytics.
+   * Forneça o código ao recurso organizacional que mantém a implantação do Adobe Analytics.
 
 ## Verificar a integração {#verify-the-integration}
 
-Valide se a integração transfere dados com êxito, concluindo algumas verificações.
+Valide se a integração transfere dados com êxito concluindo algumas verificações.
 
 ### Log de atividade de integração {#section-0472df9180db4f218db5f6040cab07af}
 
@@ -68,9 +68,9 @@ Visualize sua configuração de integração do Kampyle na Adobe Experience Clou
 
 >[!NOTE]
 >
->As entradas de registro normalmente são exibidas dentro de 24 horas após a implantação bem-sucedida.
+>As entradas de log normalmente são exibidas dentro de 24 horas após o sucesso da implantação.
 
-![Registro de atividades de integração](assets/integration_activity_log.png)
+![Log de atividades de integração](assets/integration_activity_log.png)
 
 ### Dados de relatórios da Adobe {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
