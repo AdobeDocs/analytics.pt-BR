@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Use a visualização de fluxo em um projeto do Workspace.
 title: Visão geral do Fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 84%
+source-wordcount: '211'
+ht-degree: 81%
 
 ---
 
@@ -23,9 +23,9 @@ Ele permite:
 
 >[!NOTE]
 >
->Para obter informações sobre como os resultados da aplicação de segmentos ao Fluxo podem diferir entre o Analysis Workspace e o Relatórios e análises, consulte [Segmentação como uma base para Fluxo e Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Para obter informações sobre como os resultados da aplicação de segmentos ao Fluxo podem diferir entre a Analysis Workspace e o Reports &amp; Analytics, consulte [Segmentação como base para Fluxo e Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=pt-BR) em vídeo de Visualização de fluxo (4:56)
+[Tutorial em vídeo de Visualização de fluxo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=pt-BR) (4:56)
 
 ## Fluxos interdimensionais {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
