@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: Perguntas frequentes sobre o conector de dados do DFA.
 keywords: DFA
 title: Perguntas frequentes
-topic: Data connectors
+topic: Conectores de dados
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -31,11 +31,11 @@ Por exemplo, suponhamos que há uma integração no conjunto de relatórios A co
 >
 >As CSIDs não são usadas na versão 2.0 da integração, portanto o processo de negociação da CSID não se aplica.
 
-## Estou usando a versão 2.0 da integração, e as métricas de custo não estão aparecendo para meus anúncios do DFA. O que pode estar acontecendo? {#section-805748111bbe4bbf918d6dbbb2641fff}
+## Estou usando a versão 2.0 da integração, e as métricas de custo não estão aparecendo para meus anúncios do DFA. O que pode estar acontecendo?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 As métricas de custo devem ser ativadas no DFA do Google e fornecidas na interface do DFA, bem como ativadas no assistente dos Data Connectors. A primeira coisa a verificar é se você mapeou um evento do Analytics para o custo de mídia do DFA e informou um código de moeda. Se você mapeou o evento de custo de média e concluiu e salvou o assistente, o indicador omnitureCostData do DFA será ativado na API do DFA. Isso avisará o Google de que as métricas devem ser enviadas no arquivo noturno. Você pode verificar novamente na interface do DFA se o omnitureCostData está habilitado por meio das propriedades no Floodlight integrado. Por fim, após verificar esses dois lugares, verifique se os anúncios que fazem parte do Floodlight integrado especificam dados de custo e estruturas de custo. Se os dados de custo não forem fornecidos na interface do DFA, eles não serão exibidos no Analytics.
 
-## Por que alguns anúncios não mostram nenhuma impressão do DFA ou view-throughs, mas mostram cliques e click-throughs? {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## Por que alguns anúncios não mostram nenhuma impressão do DFA ou view-throughs, mas mostram cliques e click-throughs?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 Há alguns anúncios que só registram dados de cliques, chamados rastreadores de cliques. Esse tipo de anúncio não informa dados de última impressão a partir do momento em que o servidor Floodlight é consultado. Para verificar se um determinado anúncio é um anúncio rastreador de cliques ou anúncio somente de cliques, entre em contato com o órgão do DFA ou com o representante do Suporte do Google.
 
@@ -45,7 +45,7 @@ Pode haver muitas respostas para essa pergunta.
 
 Primeiro, verifique se o anúncio em questão tem um URL de página de aterrissagem que (a) está marcado com o código da Adobe para o mesmo conjunto de relatórios no qual você está vendo a discrepância e (b) contém o parâmetro de sequência de consulta *`clickThroughParam`*.
 
-Em segundo lugar, verifique se possui uma integração funcional seguindo as etapas em [Confirmar uma integração do DFA bem-sucedida](../dfa-data-connector-analytics/dfa-integration.md). Se aparecer um código de rastreamento do DFA com o hit da Adobe na página de aterrissagem, esse click-through deverá aparecer no relatório de campanhas do DFA. Se não estiver visualizando o relatório, verifique se os conjuntos de relatórios correspondem entre a variável *`s.account`* da página inicial e o conjunto de relatórios que está sendo visualizado no Reports &amp; Analytics. Se eles coincidirem, busque por códigos de rastreamento no relatório da eVar de View Through no formato DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
+Em segundo lugar, verifique se possui uma integração funcional seguindo as etapas em [Confirmar uma integração do DFA bem-sucedida](../dfa-data-connector-analytics/dfa-integration.md). Se aparecer um código de rastreamento do DFA com o hit da Adobe na página inicial, esse click-through deverá aparecer no relatório de campanhas do DFA. Se não estiver visualizando o relatório, verifique se os conjuntos de relatórios correspondem entre a variável *`s.account`* da página inicial e o conjunto de relatórios que está sendo visualizado no Reports &amp; Analytics. Se eles coincidirem, busque por códigos de rastreamento no relatório da eVar de View Through no formato DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
 Eles indicam falhas da regra do VISTA do DFA em processar os dados brutos do DFA. É possível solucionar esse problema abrindo um ticket de suporte com o representante de sua conta da Adobe.
 
