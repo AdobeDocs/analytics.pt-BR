@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Solucione problemas e corrija problemas relacionados a segmentos.
 title: Solução de problemas de segmentação
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Possíveis motivos:
 * O relatório não oferece suporte para a segmentação.
 * Nenhum dado corresponde ao critério de segmentação.
 
-## Por que não consigo ver o segmento que criei no Gerenciador de segmentos? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Por que não consigo ver o segmento que criei no Gerenciador de segmentos?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Possíveis motivos:
 
@@ -40,7 +40,7 @@ Possíveis motivos:
 * O segmento não foi salvo.
 * O endereço IP pode estar bloqueado na extremidade do usuário.
 
-## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Possíveis motivos:
 
