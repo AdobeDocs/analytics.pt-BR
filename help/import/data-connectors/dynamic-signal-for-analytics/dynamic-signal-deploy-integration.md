@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Implante o conector de dados do Dynamic Signal para uso no Adobe Analytics.
 title: Implantar a integração
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 96%
 
 ---
 
