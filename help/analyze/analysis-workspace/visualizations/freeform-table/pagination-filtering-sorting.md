@@ -1,25 +1,25 @@
 ---
-description: 'null'
+description: Vídeo que discute paginação, filtragem e classificação.
 title: Paginação, filtragem e classificação de tabelas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 82%
+source-wordcount: '96'
+ht-degree: 93%
 
 ---
 
 
 # Paginação, filtragem e classificação de tabelas
 
-Para obter uma visão geral, assista a este tutorial em vídeo:
+Para ter uma visão geral, assista a este tutorial em vídeo:
 
-[Paginação, filtragem e classificação de tabelas no Analysis Workspace](https://docs.adobe.com/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
+[Paginação, filtragem e classificação de tabelas no Analysis Workspace](https://docs.adobe.com/help/pt-BR/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Opções de filtragem avançadas {#section_36E92E31442B4EBCB052073590C1F025}
 
-Clicar no ícone de filtro e, em seguida, em Mostrar avançadas próximo a uma dimensão em uma tabela de forma livre permite filtrar usando o critério a seguir:
+Clicar no ícone de filtro e, em seguida, em Mostrar avançado próximo a uma dimensão em uma tabela de forma livre permite filtrar usando os critérios a seguir:
 
 * Contém
 * Não contém
