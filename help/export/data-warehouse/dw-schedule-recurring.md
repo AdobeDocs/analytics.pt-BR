@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Agendar solicitações no Data Warehouse para serem executadas de forma repetitiva.
 title: Agendar uma solicitação recorrente
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 85%
 
 ---
 
@@ -14,14 +17,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Para agendar solicitações do Data Warehouse como diárias/mensais/anuais, certifique-se de que *Predefinição* esteja selecionado da maneira correta.
 
-1. Em [!UICONTROL Reporting Date], selecione **[!UICONTROL Preset]**.
+1. Em [!UICONTROL Data de relatório], selecione **[!UICONTROL Predefinição]**.
 
-1. Em [!UICONTROL Schedule Delivery], clique em **[!UICONTROL Advanced Delivery Options]**.
+1. Em [!UICONTROL Agendar entrega], clique em **[!UICONTROL Opções avançadas de entrega]**.
 
-1. Vá até a guia Opções de agendamento e selecione **[!UICONTROL Schedule for later]**.
-1. Selecione as configurações desejadas para [!UICONTROL Delivery Frequency] e [!UICONTROL End Delivery Options].
+1. Acesse a guia Opções de agendamento e selecione **[!UICONTROL Agendar para mais tarde]**.
+1. Selecione as configurações desejadas para [!UICONTROL Frequência da entrega] e [!UICONTROL Opções de entrega final].
 
    ![](assets/dw_schedule.png)
 
-1. Clique em **[!UICONTROL Schedule]**.
+1. Clique em **[!UICONTROL Agendamento]**.
 
