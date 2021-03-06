@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Solucione problemas e corrija problemas relacionados ao Advertising Analytics.
 title: Solução de problemas do Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. Há dois motivos possíveis:
+Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios]**. Há dois motivos possíveis:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
