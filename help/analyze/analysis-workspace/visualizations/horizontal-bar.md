@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Use a visualização de barra horizontal em um projeto do Workspace.
 title: Barra horizontal e Barra horizontal empilhada
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +21,11 @@ Esta visualização mostra barras horizontais que representam vários valores de
 
 ## Barra horizontal empilhada   {#section_50C08E9E20A94024A6553BC352ADB597}
 
-This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
+Esta visualização se parece com o [!UICONTROL Gráfico de barra horizontal], mas as barras de série aparecem empilhadas.
 
 ![](assets/horizontal-bar-stacked.png)
 
-The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a &quot;100% stacked&quot; visualization:
+A configuração de visualização [!UICONTROL Barra horizontal empilhada] nas visualizações de barra empilhada transforma o gráfico em uma visualização 100% empilhada:
 
 ![](assets/horizstacked100.png)
 
