@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Use o conector de dados do Kampyle com o Adobe Analytics.
 title: Conector de dados do Kampyle para Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 95%
+source-wordcount: '274'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Estaremos terminando a vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>A vida útil da tecnologia Adobe Data Connector será encerrada em 1 de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 O Conector de dados do Kampyle para Adobe Analytics combina o sistema de feedback integrado do Kampyle com os relatórios comportamentais do Adobe Analytics® para criar poderosas oportunidades de análise e otimização para sua organização.
 
