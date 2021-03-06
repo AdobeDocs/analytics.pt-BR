@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +129,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
+## Rastreamento automático vs. manual  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
