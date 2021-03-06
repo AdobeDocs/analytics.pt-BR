@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: Use o DoubleClick para integração de anunciantes com o Adobe Analytics.
 keywords: DFA
 title: Conector de dados do DFA para Adobe Analytics
-topic: Data connectors
+topic: Conectores de dados
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 99%
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Estaremos terminando a vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>A vida útil da tecnologia Adobe Data Connector será encerrada em 1 de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 No mercado online cada vez mais complexo e competitivo dos dias atuais, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em anúncios. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
 
@@ -56,7 +56,7 @@ A próxima métrica capturada por essa integração ocorre quando o visitante re
 
 ![](assets/Viewthrough.png)
 
-Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página de aterrissagem no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
+Esse cenário é chamado de view-through. A diferença entre esse cenário e o cenário de click-through é que o visitante não clica no anúncio, mas dá continuidade a outras atividades antes de chegar à página de aterrissagem (2). No caso mais simples, o visitante digita o URL da página inicial no navegador. Em outros casos, o visitante continua navegando, mas usa depois um mecanismo de pesquisa, que o leva para a página de aterrissagem. Em todo caso, o usuário chega à página de aterrissagem.
 
 ## Integração da Adobe: coleta de dados em tempo real {#adobe-integration-real-time-data-collection}
 
