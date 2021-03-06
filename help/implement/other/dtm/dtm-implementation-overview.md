@@ -1,14 +1,14 @@
 ---
-description: 'null'
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
+description: Implemente o Adobe Analytics usando o Dynamic Tag Management.
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm
 title: Visão geral da implementação do DTM
-topic: Developer and implementation
+topic: Desenvolvedor e implementação
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 96%
 
 ---
 
