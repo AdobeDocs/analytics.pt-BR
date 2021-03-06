@@ -1,10 +1,13 @@
 ---
-description: 'null'
+description: Use a ID de transação em fontes de dados para vincular dados online e offline.
 title: ID de transição e perfis de visitante
-topic: Developer and implementation
+topic: Desenvolvedor e implementação
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
