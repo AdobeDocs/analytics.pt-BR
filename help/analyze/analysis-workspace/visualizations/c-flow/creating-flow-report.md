@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Use a visualização de fluxo em um projeto do Workspace.
 title: Configurar uma visualização de fluxo
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -32,12 +35,12 @@ O diagrama de fluxo é interativo. Passe o mouse sobre o diagrama para alterar o
 
 Os caminhos no diagrama são proporcionais. Caminhos com maior atividade aparecem mais grossos.
 
-Ao clicar em um nó no diagrama, os detalhes dele são exibidos. Por exemplo, se você clicar em **[!UICONTROL Search Results]** na parte superior direita do diagrama principal acima, o diagrama se expande para mostrar mais detalhes sobre o nó de resultados da pesquisa. Clique em um nó novamente para recolhê-lo.
+Ao clicar em um nó no diagrama, os detalhes dele são exibidos. Por exemplo, se você clicar em **[!UICONTROL Resultados da pesquisa]** na parte superior direita do diagrama principal acima, o diagrama se expande para mostrar mais detalhes sobre o nó de resultados da pesquisa. Clique em um nó novamente para recolhê-lo.
 
 ![](assets/flow3.jpg)
 
-Por padrão, o diagrama mostra os cinco fluxos principais. Se você clicar no nó **[!UICONTROL More]**, o diagrama se expande para mostrar mais cinco fluxos. Continue clicando em **[!UICONTROL More]** para expandir até não haver mais fluxos adicionais para mostrar.
+Por padrão, o diagrama mostra os cinco fluxos principais. Se clicar no nó **[!UICONTROL Mais]** na parte inferior do diagrama, o diagrama se expande para mostrar mais cinco fluxos. Continue a clicar em **[!UICONTROL Mais]** para expandir até não haver mais fluxos adicionais para mostrar.
 
 Não há limites para explorar o diagrama de Fluxo.
 
-Além disso, é possível exportar e analisar posteriormente o diagrama de Fluxo como parte de um arquivo .CSV de um projeto. Basta ir até **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
+Além disso, é possível exportar e analisar posteriormente o diagrama de Fluxo como parte de um arquivo .CSV de um projeto. Basta ir até **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**.
