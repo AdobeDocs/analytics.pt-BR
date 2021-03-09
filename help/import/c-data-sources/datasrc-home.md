@@ -1,14 +1,11 @@
 ---
 description: As fontes de dados do Adobe Analytics permitem importar manualmente outros dados online e offline para os relatórios.
-subtopic: Data sources
-title: Visão geral das fontes de dados
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: O que são Fontes de dados e como elas me beneficiam?
+translation-type: tm+mt
+source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -39,4 +36,4 @@ As Fontes de dados podem ser usadas para ajudá-lo a entender os dados pré-cliq
 >
 >Para fontes de dados de ID da transação que vinculam dados offline a eventos online, é necessário ativar a Gravação da ID de transação no Atendimento ao cliente. Consulte [Gravação da ID de transação](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obter mais informações.
 
-Após a importação, a maioria dos dados das Fontes de dados é disponibilizada no Digital Marketing Suite.
+Após a importação, a maioria dos dados das Fontes de dados fica disponível em toda a Adobe Experience Cloud.
