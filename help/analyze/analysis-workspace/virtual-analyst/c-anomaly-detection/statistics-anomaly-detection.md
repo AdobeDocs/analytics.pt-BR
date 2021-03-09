@@ -1,11 +1,11 @@
 ---
-description: As inconsistências de dados podem causar grandes problemas. Saiba como identificar anomalias estatísticas com técnicas de detecção de anomalias do Adobe. Comece hoje mesmo.
+description: Inconsistências de dados podem causar grandes problemas. Saiba como identificar anomalias estatísticas com técnicas de detecção de anomalias da Adobe. Comece hoje mesmo.
 title: Técnicas estatísticas usadas na Detecção de anomalias
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dependendo da granularidade de data usada no relatório, três diferentes técni
 
 Para os relatórios de granularidade diária, o algoritmo considera vários fatores importantes para fornecer os resultados mais precisos possíveis. Primeiro, o algoritmo determina o tipo de modelo a aplicar com base nos dados disponíveis, dos quais selecionamos uma de duas classes: um modelo baseado em séries de tempo ou um modelo de detecção de valores anômalos (chamado de filtragem funcional).
 
-A seleção do modelo da série de tempo se baseia nas seguintes combinações para tipo de erro, tendência e sazonalidade (ETS), conforme descrito por [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Especificamente, o algoritmo tenta as seguintes combinações:
+A seleção do modelo da série de tempo se baseia nas seguintes combinações para tipo de erro, tendência e sazonalidade (ETS), conforme descrito por [Hyndman et al. (2008)](https://www.springer.com/br/book/9783540719168). Especificamente, o algoritmo tenta as seguintes combinações:
 
 1. ANA (erro aditivo, nenhuma tendência, sazonalidade aditiva)
 1. AAA (erro aditivo, tendência aditiva, sazonalidade aditiva)
