@@ -1,11 +1,11 @@
 ---
 title: 'Métrica de Visualizações de página explicada | Adobe Analytics '
-description: Saiba como a métrica de visualizações de página é trabalhada no Adobe Analytics e também entenda a diferença entre visualizações de página e visitas.
-translation-type: tm+mt
+description: Saiba como a métrica de visualizações de página é trabalhada no Adobe Analytics e também entenda a diferença entre visitas e visualizações de página.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
