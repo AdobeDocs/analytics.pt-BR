@@ -1,10 +1,10 @@
 ---
-title: Report Builder para Adobe Analytics
-description: Use a Report Builder para trazer dados do Adobe Analytics diretamente para o Microsoft Excel. Descubra como a instalação e o uso do Report Builder podem impulsionar sua empresa.
+title: Construtor de relatórios para Adobe Analytics
+description: Use o Construtor de relatórios para trazer os dados do Adobe Analytics diretamente para o Microsoft Excel. Descubra como instalar e usar o Report Builder pode impulsionar sua empresa.
 translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 9edb2224b711cb41552488c8d73cbce1a9577a61
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '133'
 ht-degree: 61%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 61%
 
 # O que é o Report Builder?
 
-O Construtor de relatórios da Adobe é um suplemento do Microsoft Excel. Ele permite que você crie solicitações personalizadas a partir de dados de relatórios e análises, que podem ser inseridas em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O Construtor de relatórios da Adobe é um suplemento do Microsoft Excel. Ele permite criar solicitações personalizadas a partir de dados do Adobe Analytics, que podem ser inseridas em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
 ## Tópicos populares da Ajuda
 
