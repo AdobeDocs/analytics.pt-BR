@@ -1,12 +1,10 @@
 ---
 description: Conjuntos de relatórios de rollup agregam dados de vários conjuntos de relatórios secundários e os exibem em um conjunto de dados resumido.
 title: Conjuntos de relatórios globais e de acumulado
-topic: Ferramentas administrativas
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 98%
 
 ---
@@ -53,6 +51,6 @@ Conjuntos de relatórios de rollup agregam dados de vários conjuntos de relató
 
 **Relatórios**: todos os conjuntos de relatórios globais fornecem informações adicionais sobre todas as dimensões; os rollups fornecem dados agregados em relatórios de alto nível.
 
-**Produtos compatíveis**: os rollups só podem ser usados no Reports &amp; Analytics. Eles não são suportados no Analysis Workspace nem na Data Warehouse. Os conjuntos de relatórios globais podem ser usados em todos os produtos.
+**Produtos compatíveis**: os rollups só podem ser usados no Reports &amp; Analytics. Eles não são compatíveis com a Analysis Workspace ou com o Data Warehouse. Os conjuntos de relatórios globais podem ser usados em todos os produtos.
 
 **Número de conjuntos de relatórios agregados**: oos rollups suportam apenas um máximo de 40 conjuntos de relatórios secundários. Os conjuntos de relatórios globais podem ser implementados em qualquer número de domínios ou aplicativos de sua propriedade.
