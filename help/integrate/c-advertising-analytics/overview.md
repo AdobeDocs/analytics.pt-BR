@@ -1,16 +1,16 @@
 ---
-description: Descubra tudo o que você pode fazer com a Advertising Analytics neste guia detalhado, incluindo permissões necessárias e dimensões e métricas disponíveis.
-title: Um guia para o Advertising Analytics
-translation-type: tm+mt
+description: Descubra tudo o que você pode fazer com o Advertising Analytics neste manual detalhado, incluindo permissões necessárias e dimensões e métricas disponíveis.
+title: Um manual para o Advertising Analytics
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Um guia para a Advertising Analytics
+# Um manual para o Advertising Analytics
 
 O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Antes, quaisquer dados do Google AdWords/DFA ou do Microsoft Bing Ads teriam que ser visualizados no Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você tem os dados a seguir no Adobe Analytics: Impressões, Cliques, Custos, Pontuação de qualidade e Posição média diretamente de todos os mecanismos de pesquisa, assim como Instâncias de ID do AMO (Instâncias de clique).
 
