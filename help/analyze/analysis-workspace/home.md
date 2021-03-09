@@ -1,13 +1,11 @@
 ---
-keywords: Analysis Workspace
-title: Visão geral do Analysis Workspace
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+title: O que é a Analysis Workspace e como usá-la?
+description: O Analysis Workspace é a principal ferramenta de análise do Adobe Analytics. Ele permite usar painéis, tabelas, visualizações e outros componentes para dar vida aos dados, preparar um conjunto de dados, compartilhar e agendar projetos, entre outros recursos.
+translation-type: tm+mt
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +16,7 @@ O Analysis Workspace é uma ferramenta de navegador flexível que permite criar 
 
 Se você tiver apenas alguns minutos, assista a esta breve visão geral para ver o que é possível.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Faça logon no Adobe Analytics {#login}
 
@@ -46,7 +44,7 @@ No projeto do Workspace, **painéis, tabelas, visualizações e componentes** s�
 
 ### Componentes
 
-**Componentes** são dimensões, métricas, segmentos ou intervalos de datas que podem ser combinados em uma **[!UICONTROL tabela de forma livre]** para começar a responde às suas perguntas empresariais. Familiarize-se com cada [tipo de componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para[criar a análise](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma **[!UICONTROL tabela de forma livre]**.
+**Componentes** são dimensões, métricas, segmentos ou intervalos de datas que podem ser combinados em uma **[!UICONTROL tabela de forma livre]** para começar a responde às suas perguntas empresariais. Familiarize-se com cada [tipo de componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) antes de mergulhar na análise. Depois de dominar a terminologia do componente, você pode começar a arrastar e soltar para [criar a análise](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) em uma **[!UICONTROL tabela de forma livre]**.
 
 ![](assets/build-components.png)
 
