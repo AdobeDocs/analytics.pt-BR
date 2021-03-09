@@ -1,13 +1,13 @@
 ---
 description: Etapas que descrevem como criar um conjunto de relatórios de roll-up.
 title: Criar um conjunto de relatório de rollup
-topic: Admin tools
+topic: Ferramentas administrativas
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 42cdbdafdafb94b336253ff49dfa2fb77ed9f339
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 92%
+source-wordcount: '121'
+ht-degree: 76%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 92%
 # Criar um conjunto de relatório de rollup
 
 Etapas que descrevem como criar um conjunto de relatórios de roll-up.
+
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] é a única ferramenta que oferece suporte a relatórios de rollup, e a Adobe não recomenda mais usar rollups. Consulte &quot;[Abordagens do conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot; para obter alternativas.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Em [!UICONTROL grupos de conjuntos de relatórios], clique em **[!UICONTROL Adicionar]** ao lado do título **[!UICONTROL Rollups]**.
@@ -26,7 +30,3 @@ Etapas que descrevem como criar um conjunto de relatórios de roll-up.
 
    **[!UICONTROL Fuso horário:]** o fuso horário onde os dados são relatados.
 1. Clique em **[!UICONTROL Criar rollup]**.
-
->[!NOTE]
->
->Os rollups não são suportados no Analysis Workspace.
