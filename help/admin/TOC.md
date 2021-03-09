@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 99%
 + Governança de dados {#data-governance}
    + [Adobe Analytics e o GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics e a CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Isenção de Consentimento CNIL](c-data-governance/cnil-consent-exemption.md)
+   + [Isenção de Consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
    + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios](c-data-governance/gdpr-view-settings.md)
