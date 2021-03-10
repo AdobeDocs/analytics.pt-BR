@@ -5,10 +5,10 @@ user-guide-title: Guia de importação do Analytics
 breadcrumb-title: Guia de importação
 user-guide-description: 'Traga dados para o Analytics a partir de fontes externas, em massa ou em tempo real. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 98%
       + [Dimensões padrão do Demandbase](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Dimensões personalizadas do Demandbase](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Conector de dados do DFA para Adobe Analytics {#dfa}
+      + [Informações de fim de vida útil da integração do DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Conector de dados do DFA para Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Pré-requisitos](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Recursos da integração](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -128,5 +129,5 @@ ht-degree: 98%
       + [Variáveis de integração do Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Integração do Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Código de plug-in do Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ Importar casos de uso {#use-cases}
++ Importar Casos de Uso {#use-cases}
    + [Importar métricas de pesquisa paga usando fontes de dados](use-cases/paid-search-metrics.md)
