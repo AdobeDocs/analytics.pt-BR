@@ -5,10 +5,10 @@ title: Perguntas frequentes
 topic: Conectores de dados
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,6 @@ Primeiro, verifique se o anúncio em questão tem um URL de página de aterrissa
 
 Em segundo lugar, verifique se possui uma integração funcional seguindo as etapas em [Confirmar uma integração do DFA bem-sucedida](../dfa-data-connector-analytics/dfa-integration.md). Se aparecer um código de rastreamento do DFA com o hit da Adobe na página inicial, esse click-through deverá aparecer no relatório de campanhas do DFA. Se não estiver visualizando o relatório, verifique se os conjuntos de relatórios correspondem entre a variável *`s.account`* da página inicial e o conjunto de relatórios que está sendo visualizado no Reports &amp; Analytics. Se eles coincidirem, busque por códigos de rastreamento no relatório da eVar de View Through no formato DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
-Eles indicam falhas da regra do VISTA do DFA em processar os dados brutos do DFA. É possível solucionar esse problema abrindo um ticket de suporte com o representante de sua conta da Adobe.
+Eles indicam falhas da regra do VISTA do DFA em processar os dados brutos do DFA. Esse problema pode ser resolvido abrindo um tíquete de suporte por meio do Representante de conta do Adobe.
 
 Se nenhuma das soluções acima explicar o problema, consulte [Comparação de discrepâncias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) para explorar outras possibilidades.
