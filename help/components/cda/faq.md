@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '1319'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,11 @@ Usar o Tipo de dispositivo móvel como ilustrado acima permite ver como as pesso
 
 ## Até que ponto o CDA compila os visitantes?
 
-A Adobe mantém os dados de identificação do dispositivo por aproximadamente 30 dias. Se um dispositivo não for identificado inicialmente, mas for identificado em até 30 dias, o CDA retorna e reafirma esse dispositivo como pertencente à pessoa identificada até 30 dias retroativamente. Se algum comportamento não identificado de um usuário sair da janela de lookback de 30 dias, essa parte da jornada do usuário não é compilada.
+A compilação entre dispositivos do CDA ocorre em dois processos simultâneos.
+
+* O primeiro processo é chamado de &quot;compilação em tempo real&quot;, que ocorre à medida que os dados fluem para o Adobe Analytics. Durante a compilação ao vivo, o CDA faz o melhor que pode para reafirmar os dados no nível da pessoa. No entanto, se a pessoa for desconhecida no momento da compilação ao vivo, o CDA voltará para a ID do visitante para representar a pessoa.
+
+* O segundo processo é chamado de &quot;repetição&quot;. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de lookback é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
 
 * **Se estiver usando um gráfico de dispositivos**, a Adobe mantém os mapeamentos de dispositivo no Gráfico cooperativo e no Gráfico privado por aproximadamente 6 meses. Uma ECID que não tem atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados, mas as ocorrências subsequentes dessa ECID são tratadas como uma nova pessoa.
 
