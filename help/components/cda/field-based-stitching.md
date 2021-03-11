@@ -1,11 +1,11 @@
 ---
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,6 +28,7 @@ Se você pretende implementar o Cross-Device Analytics usando a compilação em 
 ## Limitações específicas da compilação em campo
 
 * A compilação em campo funciona melhor em conjuntos de relatórios que têm uma alta taxa de identificação do usuário. Se o conjunto de relatórios tiver uma baixa taxa de identificação ou logon, considere usar o [Gráfico cooperativo](device-graph.md).
+* Embora props e eVars tenham regras para como caracteres em maiúsculas e minúsculas são tratados para fins de relatório, a compilação em campo não transforma a prop ou o eVar usado para compilação de qualquer maneira. A compilação em campo usa o valor no campo especificado, pois ele existe após as regras VISTA e as regras de pós-processamento. Por exemplo, se às vezes a palavra &quot;Bob&quot; aparecer na propriedade/eVar e, às vezes, a palavra &quot;BOB&quot; aparecer, elas serão tratadas como duas pessoas separadas.
 
 ## Próximas etapas
 
