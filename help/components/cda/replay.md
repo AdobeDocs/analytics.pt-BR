@@ -1,11 +1,11 @@
 ---
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -51,7 +51,12 @@ As ocorrências não autenticadas e autenticadas em novos dispositivos são cont
 
 ### Repetir a compilação
 
-Aproximadamente uma vez por semana, o CDA recalcula os dados históricos com base nos dispositivos que agora reconhece. Se um dispositivo enviar dados inicialmente sem autenticação e fizer logon, o CDA vinculará essas ocorrências não autenticadas à pessoa correta. A tabela a seguir representa os mesmos dados acima, mas mostra números diferentes com base na repetição dos dados.
+A repetição ocorre diariamente ou semanalmente, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar os dados históricos em uma janela de pesquisa definida:
+
+* A repetição diária usa uma janela de lookback de 1 dia
+* A repetição semanal usa uma janela de retrospectiva de 7 dias.
+
+Se um dispositivo enviar dados inicialmente sem autenticação e fizer logon, o CDA vinculará essas ocorrências não autenticadas à pessoa correta. A tabela a seguir representa os mesmos dados acima, mas mostra números diferentes com base na repetição dos dados.
 
 *Os mesmos dados após a repetição:*
 
@@ -65,9 +70,3 @@ Aproximadamente uma vez por semana, o CDA recalcula os dados históricos com bas
 | `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `1` (Cluster1) | `1` (Bob) |
 | `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `1` (Cluster1) | `1` (Bob) |
 | `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `1` (Cluster1) | `1` (Bob) |
-
-## Recapitulação
-
-* **Se estiver usando um Gráfico de dispositivos**, os dados são compilados quando um cluster é publicado (normalmente de 3 horas a 2 semanas).
-* **Se estiver usando a Compilação em campo,** os dados com menos de uma semana compilarão os dispositivos conhecidos, mas não compilarão imediatamente dispositivos novos ou não reconhecidos.
-* Os dados são repetidos uma vez por semana e alteram os dados históricos no conjunto de relatórios virtual com base nos dispositivos que eles aprenderam a identificar.
