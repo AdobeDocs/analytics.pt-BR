@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
-user-guide-description: Fornece instruções passo a passo para a Analysis Workspace, a principal ferramenta de análise e visualização do Analytics, bem como ferramentas como Painéis do Adobe Analytics, Report Builder e Activity Map.
+user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e visualização do Analytics, bem como ferramentas como Painéis Adobe Analytics, Report Builder e Activity Map.
 translation-type: tm+mt
 source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
 workflow-type: tm+mt
