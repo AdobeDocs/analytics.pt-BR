@@ -1,11 +1,11 @@
 ---
 title: Dimensões móveis
-description: Dimensões com base na sequência agente-usuário do dispositivo.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+description: Dimension com base no endereço IP do dispositivo.
+translation-type: tm+mt
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,8 @@ As dimensões móveis fornecem insight sobre as propriedades dos dispositivos m�
 
 ## Preencher essas dimensões com dados
 
-Essas dimensões se referem às regras de pesquisa internas da Adobe. O valor da pesquisa se baseia no cabeçalho HTTP `User-Agent` enviado com a ocorrência. A Adobe faz parceria com o [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente de usuário e as dimensões móveis. Se você utilizar uma biblioteca do AppMeasurement (como por meio do Adobe Experience Platform Launch), todas as dimensões móveis funcionarão imediatamente.
+Essas dimensões se referem às regras de pesquisa internas da Adobe. [!UICONTROL As ] pesquisas de operadoras de celular são determinadas pelo endereço IP, usando dados obtidos do NetAcuity (um produto de Elemento Digital).
+Se você utilizar uma biblioteca do AppMeasurement (como por meio do Adobe Experience Platform Launch), todas as dimensões móveis funcionarão imediatamente.
 
 ## Descrições de dimensões móveis
 
