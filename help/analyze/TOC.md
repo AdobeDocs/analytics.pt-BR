@@ -5,10 +5,10 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e visualização do Analytics, bem como ferramentas como Painéis Adobe Analytics, Report Builder e Activity Map.
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + Casos de uso da [análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casos de uso da análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -120,6 +120,7 @@ ht-degree: 97%
          + [Criador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gerenciador de Alerta](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes - Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [Preferências do usuário](analysis-workspace/user-preferences.md)
    + Perguntas frequentes sobre o Workspace {#workspace-faq}
       + [Perguntas frequentes](analysis-workspace/workspace-faq/faq.md)
       + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
