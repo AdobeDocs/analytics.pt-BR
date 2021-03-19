@@ -2,10 +2,10 @@
 title: Como definir as preferências do usuário no Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ As preferências gerais se aplicam à experiência do Adobe Analytics no navegad
 
 ## Preferências do projeto
 
-As preferências do projeto se aplicam a novos projetos e painéis criados no Analysis Workspace. As preferências também podem ser gerenciadas de acordo com o projeto, em Workspace > Projeto > Informações e configurações do projeto.
+As preferências do projeto se aplicam a novos projetos e painéis criados no Analysis Workspace. As preferências também podem ser gerenciadas com base no projeto em [!UICONTROL Workspace] > [!UICONTROL Projeto] > [!UICONTROL Informações e configurações do projeto].
 
 | Seção | Preferência | Opções |
 | --- | --- | --- |
@@ -42,5 +42,5 @@ As preferências do projeto se aplicam a novos projetos e painéis criados no An
 |  | [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>Mais recente (padrão)</li><li>Específico - escolhido de uma lista</li></ul> |
 |  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Lista de intervalos de datas prontos para uso, incluindo **[!UICONTROL Este mês]** (padrão) |
 |  | [Tipo de painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
-|  | Formato do número | <ul><li>1.000.00 (padrão)</li><li>1.000,00</li><li>1.000,00</li></ul> |
+|  | Formato de número | <ul><li>1.000.00 (padrão)</li><li>1.000,00</li><li>1.000,00</li></ul> |
 |  | Separador CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
