@@ -5,10 +5,10 @@ user-guide-title: Guia de importação do Analytics
 breadcrumb-title: Guia de importação
 user-guide-description: 'Traga dados para o Analytics a partir de fontes externas, em massa ou em tempo real. '
 translation-type: tm+mt
-source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 97%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 97%
       + [ID da transação](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [ID de visitante](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Processamento completo](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+      + [Fim da vida útil do processamento completo](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Integração de transição e de clientes](c-data-sources/datasrc-integrating-offline-data.md)
    + [ID de transição e perfis de visitante](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Perguntas frequentes da Fonte de Dados](c-data-sources/datasrc-faq.md)
