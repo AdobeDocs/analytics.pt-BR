@@ -1,13 +1,10 @@
 ---
-description: A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
-subtopic: Data sources
-title: Processamento completo
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+description: A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
+title: Opção de processamento completo para fontes de dados
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 97%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe planeja desaprovar as fontes de dados de processamento completo no futuro.
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. A Adobe planeja descontinuar as fontes de dados de processamento completo no futuro. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -45,7 +42,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campanha </p> </td> 
    <td colname="col3"> <p>Código de rastreamento de campanha de conversão. </p> </td> 
   </tr> 
   <tr> 
