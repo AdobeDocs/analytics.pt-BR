@@ -1,10 +1,10 @@
 ---
-title: null
-description: null
+title: Término da vida útil das fontes de dados de processamento completo
+description: Motivos para o fim da vida útil e comparações entre a API de inserção de dados em massa e as fontes de dados de processamento completo.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 13%
 
 ---
