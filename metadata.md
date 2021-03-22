@@ -10,13 +10,14 @@ getting-started-url: https://helpx.adobe.com/br/analytics/get-started.html
 tutorials-title: Tutoriais
 tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.pt-BR
-type: Documentation
+type: Documentação
 index: true
+description: Inclui metadados de nível de acordo de recompra que passam para arquivos TOC.md do guia do usuário no acordo de recompra.
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
