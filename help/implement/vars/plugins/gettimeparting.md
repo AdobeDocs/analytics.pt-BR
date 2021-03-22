@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Meça o tempo em que uma ação específica ocorre.
 translation-type: tm+mt
-source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
+source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 84%
+source-wordcount: '821'
+ht-degree: 83%
 
 ---
 
@@ -57,8 +57,8 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getTimeParting v6.2 */
-var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
+/* Adobe Consulting Plugin: getTimeParting v6.3 (No Prerequisites Needed) */
+function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",version:"6.3"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getTimeParting="6.3");c=document.documentMode?void 0:c||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:c,minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -109,7 +109,7 @@ Gana está no fuso horário UTC/GMT. Este exemplo mostra que nenhum argumento de
 
 ### Contabilização para navegadores Internet Explorer
 
-Use a amostra a seguir se desejar excluir o tempo de separação de dados de Visitantes do Internet Explorer. O valor retornado dos navegadores IE é somente no horário local do visitante.
+Use o exemplo a seguir se desejar excluir dados de hora do visitante do Internet Explorer. O valor retornado de navegadores IE é apenas no horário local do visitante.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -136,6 +136,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ## Histórico da versão
 
+### 6.3 (19 de março de 2021)
+
+* Adição do número da versão como dados de contexto.
+
 ### 6.2 (5 de novembro de 2019)
 
 * Correções de pequenos erros
@@ -156,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->As versões anteriores deste plug-in não acomodaram todos os anos no futuro. Se você usar uma versão anterior desse plug-in, o Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro.
+>As versões anteriores desse plug-in não acomodavam todos os anos no futuro. Se você usar uma versão anterior desse plug-in, o Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro.
 
 ### 4.0 (22 de agosto de 2016)
 
