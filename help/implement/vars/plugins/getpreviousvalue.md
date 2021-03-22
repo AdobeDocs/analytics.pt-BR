@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: Obtenha o último valor transmitido a uma variável.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 99%
 
 ---
 
@@ -50,9 +50,8 @@ Se você não quiser usar a extensão do plug-in, poderá usar o editor de códi
 Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depois que o objeto de rastreamento do Analytics for instanciado (usando [`s_gi`](../functions/s-gi.md)). A preservação de comentários e números de versão do código na sua implementação ajuda a Adobe a solucionar possíveis problemas.
 
 ```js
-/******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPreviousValue v2.0 */
-s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
+/* Adobe Consulting Plugin: getPreviousValue v3.0 */
+function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviousValue",version:"3.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getPreviousValue="3.0");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};var l;d=d||"s_gpv";a=new Date;a.setTime(a.getTime()+18E5);window.cookieRead(d)&&(l=window.cookieRead(d));k?window.cookieWrite(d,k,a):window.cookieWrite(d,l,a);return l};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -134,6 +133,10 @@ s.t();
 Quando a função de chamada s.t() é executada, ela cria uma solicitação de imagem onde s.pageName = &quot;page 2&quot; e s.prop7 é igual a &quot;valor feliz&quot;, que era o valor de s.pageName quando a última chamada para getPreviousValue ocorreu.   O valor &quot;inicial&quot; de s.prop7 nunca esteve contido em uma solicitação de imagem real, embora &quot;inicial&quot; tenha sido o primeiro valor passado para s.pageName.
 
 ## Histórico da versão
+
+### 3.0 (19 de março de 2021)
+
+* Adição do número da versão como dados de contexto.
 
 ### v2.0 (7 de outubro de 2019)
 
