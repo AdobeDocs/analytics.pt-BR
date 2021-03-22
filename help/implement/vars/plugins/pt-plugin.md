@@ -2,10 +2,10 @@
 title: pt
 description: Executa uma função em uma lista de variáveis.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '602'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -74,7 +74,7 @@ Chamar esse método retornará um valor se a função de retorno de chamada (no 
 O código a seguir faz parte do plug-in getQueryParam.  Ela executa a função auxiliar getParameterValue para cada um dos pares de valor-chave contidos na string de consulta do URL (fullQueryString).  Em outro lugar, para extrair cada par de valor-chave, fullQueryString deve ser delimitado e dividido por um caractere “e” comercial (&amp;). O parameterKey se refere ao parâmetro da string de consulta que o plug-in está tentando extrair especificamente da string de consulta.
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 A linha acima é um atalho para executar código que se assemelha ao seguinte:
@@ -91,6 +91,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## Histórico da versão
+
+### 3.0 (19 de março de 2021)
+
+* Adição do número da versão como dados de contexto.
 
 ### 2.01 (24 de setembro de 2019)
 
