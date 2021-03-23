@@ -2,11 +2,11 @@
 description: Use a visualização de barra horizontal em um projeto do Workspace.
 title: Barra horizontal e Barra horizontal empilhada
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta visualização mostra barras horizontais que representam vários valores de
 
 ![](assets/horizontal_bar.png)
 
-## Barra horizontal empilhada   {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barra horizontal empilhada {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Esta visualização se parece com o [!UICONTROL Gráfico de barra horizontal], mas as barras de série aparecem empilhadas.
 
