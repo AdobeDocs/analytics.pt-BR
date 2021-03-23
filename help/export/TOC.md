@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [Agendar uma solicitação recorrente](data-warehouse/dw-schedule-recurring.md)
    + [Gerenciar solicitações do Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componentes compatíveis com o Data Warehouse](data-warehouse/component-support.md)
-   + [Perguntas frequentes sobre Data Warehouse](data-warehouse/faq.md)
+   + [Perguntas frequentes sobre o Data Warehouse](data-warehouse/faq.md)
    + [Práticas recomendadas do Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
    + [Usar o FTP e SFTP com a Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
