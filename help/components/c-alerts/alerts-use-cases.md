@@ -2,11 +2,11 @@
 description: Casos de uso para criar e gerenciar alertas inteligentes.
 title: Alertas inteligentes - Casos de uso
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Essa ação preenche o Criador de alertas automaticamente para criar um alerta c
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidar (empilhar) alertas em vez de criar vários alertas  {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidar (empilhar) alertas em vez de criar vários alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 O empilhamento de alertas garante que os alertas sejam combinados e você não receba vários alertas separados.
 
