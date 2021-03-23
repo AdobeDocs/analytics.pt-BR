@@ -1,11 +1,11 @@
 ---
 title: Guia de ferramentas do Analytics
-description: Documentação do produto e autoajuda para Analysis Workspace, painéis Adobe Analytics, Activity Map, Report Builder, API do Relatórios e Relatórios e análises.
-translation-type: tm+mt
+description: Documentação do produto e autoajuda do Analysis Workspace, painéis do Adobe Analytics, Activity Map, Report Builder, API de relatórios e Reports & Analytics.
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 Este guia fornece documentação de produto e autoajuda para as seguintes ferramentas de análise e relatório do Adobe Analytics:
 
 * **[!UICONTROL Analysis Workspace]:** o recurso principal do Adobe Analytics. O Workspace fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
-* **[!UICONTROL painéis] Adobe Analytics:** Este aplicativo móvel permite que os usuários acessem dispositivos móveis a scorecards intuitivos com métricas principais e a capacidade de realizar detalhamentos mais detalhados e relatórios de tendências.
+* **[!UICONTROL Painéis do Adobe Analytics]:** esse aplicativo móvel permite aos usuários acesso móvel a scorecards intuitivos com métricas principais e a capacidade de fazer detalhamentos mais profundos e relatórios de tendências.
 * **[!UICONTROL Activity Map]:** um plug-in do navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
 * **[!UICONTROL Report Builder]:** um complemento do Excel que permite recuperar os dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
 * **[!UICONTROL API de relatórios]:** faça consultas de relatórios diretamente aos servidores da Adobe e obtenha respostas para uso em suas ferramentas de relatório de clientes.
@@ -27,7 +27,7 @@ Este guia fornece documentação de produto e autoajuda para as seguintes ferram
 
 * [Painéis do Adobe Analytics - Visão geral](/help/analyze/mobile-app/home.md)
 * [Introdução ao Analysis Workspace](analysis-workspace/home.md)
-* [Aplicativos Web progressivos para Adobe Analytics](/help/analyze/pwa/pwa.md)
+* [Progressive Web Apps para Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Qual ferramenta do Adobe Analytics devo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Introdução ao Report Builder](report-builder/home.md)
 * [Introdução ao Activity Map](activity-map/activity-map.md)
