@@ -1,13 +1,13 @@
 ---
-description: Perguntas frequentes sobre a segmentação.
+description: Perguntas frequentes sobre segmentação.
 title: Perguntas frequentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos. O Ger
 
 Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
 
-O Report Builder exibe somente os segmentos criados por você ou os segmentos que foram compartilhados especificamente com você.
+O Report Builder só exibe segmentos criados por você ou que tenham sido compartilhados especificamente com você.
 
 **Por que não posso excluir esse segmento?**
 
@@ -138,7 +138,7 @@ Você tem um marcador que faz referência ao segmento para o conjunto de relató
 
 **O que acontece com os segmentos de Data Warehouse?**
 
-Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como a Analysis Workspace e o Reports &amp; Analytics.
+Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como o Analysis Workspace, a e o Reports &amp; Analytics.
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
@@ -337,7 +337,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
