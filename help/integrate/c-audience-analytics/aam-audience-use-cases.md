@@ -2,11 +2,11 @@
 description: Casos de uso do Advertising Analytics.
 title: Casos de uso do Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Como uma Empresa de turismo, é possível sobrescrever com rapidez preferências
 
 Como um Editor de multimídia, é possível comparar públicos de terceiros usando a ferramenta de [Comparação de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) para compreender características que causam as principais diferenças. Isso ajuda a construir segmentos originais de alto valor para serem usados em direcionamentos.
 
-## Análise de potencial  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
+## Análise de potencial {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
 Como um vendedor B2B, agora é possível analisar o comportamento de seu possível público-alvo pouco antes de realizarem uma compra, usando a [segmentação sequencial](https://docs.adobe.com/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), que ajuda a compreender quais ações impulsionam a conversão.
 
-## Direcionamento demográfico  {#section_F034DB721A06419283DBD29D4A1B444B}
+## Direcionamento demográfico {#section_F034DB721A06419283DBD29D4A1B444B}
 
 Como um Resort de turismo, é possível usar [Histogramas na Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/histogram.html) para ver compras separadas por faixa etária. Isso ajuda a encontrar o público-alvo correto para direcionar cada uma de suas propriedades de resort.
