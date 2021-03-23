@@ -2,11 +2,11 @@
 description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 >
 >Em julho de 2018, o [!DNL Analytics] introduziu o [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
->* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, no Relatórios e análises, na API do Relatórios e no Report Builder. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
+>* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, Reports &amp; Analytics, na API de relatórios e no Report Builder. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
 
 >
 
@@ -40,7 +40,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 
 ## Como a alocação linear funciona (desde 19 de julho de 2018)
 
-Em julho de 2018, o Adobe alterou a maneira como a alocação linear é informada para Métricas calculadas. Essa alteração afeta o Analysis Workspace, a , o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afetará principalmente as eVars e outras dimensões persistentes. Observe que essas alterações serão aplicadas apenas às métricas calculadas e não afetarão outros relatórios que usem alocação linear (como o relatório Páginas no Reports &amp; Analytics). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
+Em julho de 2018, o Adobe alterou a maneira como a alocação linear é informada para Métricas calculadas. Essa alteração afeta o Analysis Workspace, o Reports &amp; Analytics, o Report Builder, o Activity Map e as APIs de relatórios. A alteração afetará principalmente as eVars e outras dimensões persistentes. Observe que essas alterações serão aplicadas apenas às métricas calculadas e não afetarão outros relatórios que usem alocação linear (como o relatório Páginas no Reports &amp; Analytics). Os outros relatórios que usam alocação linear continuarão a usar o método existente de alocação linear.
 
 O seguinte exemplo ilustra como as métricas calculadas com alocação linear serão alteradas nos relatórios:
 
