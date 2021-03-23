@@ -3,11 +3,11 @@ description: Métricas calculadas e calculadas avançadas (ou derivadas) são m�
 keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avançadas
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 
 É possível
 
-* Crie métricas em [!UICONTROL Analysis Workspace], [!UICONTROL Relatórios e análises], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
+* Crie métricas no [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
 * Crie métricas segmentadas derivadas do tempo de execução do relatório, sem precisar [alterar a implementação](https://youtu.be/CuQTm9RaUpY). Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 * Compartilhe métricas em conjuntos de relatórios. Isso significa que todas as métricas recém-criadas se aplicam a todos os conjuntos de relatórios da mesma empresa de logon.
 * (Somente métricas calculadas avançadas) Segmente as métricas. Por exemplo, é possível criar uma métrica para “Novos visitantes”, com uma contagem de pessoas para as quais esta é a primeira sessão.
