@@ -3,9 +3,9 @@ description: Descreve um fluxo de trabalho sugerido para segmentos criados com o
 title: Visão geral do fluxo de trabalho de segmentação
 topic: Segmentos
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ seg_workflow.xml
 
 Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento com a finalidade pretendida e uso distinto em mente?
 
-Consulte a  Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
+Consulte a Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
 
 ![](assets/step2_icon.png) [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
 Construa e edite segmentos para uso em todos os recursos do Analytics.
 
-Consulte [Criar os segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como construir segmentos com o operador ENTÃO.
+Consulte [Criar os segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como construir segmentos com o operador THEN.
 
 ![](assets/step3_icon.png) [ Marcar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
