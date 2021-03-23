@@ -1,16 +1,16 @@
 ---
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Análise entre dispositivos
+# Cross-Device Analytics
 
 O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 
