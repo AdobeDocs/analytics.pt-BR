@@ -3,11 +3,11 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre os segmentos e contêineres
 topic: Segmentos
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Os segmentos permitem que você identifique subconjuntos de visitantes com base 
 
 Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Ocorrência] por meio de um modelo de contêiner aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
-Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos a partir de um relatório de Fallout (em  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos de um relatório de fallout (no  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ Um segmento sequencial filtra conjuntos de dados com base nas ações do usuári
 
 ## Vídeo passo a passo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Este vídeo oferece uma breve visão geral sobre quais são os container de segmento e como usá-los: [Container de segmento no Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los: [Contêineres de segmentos no Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Sobre contêineres {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -150,7 +150,7 @@ A segmentação sequencial emprega os mesmos contêineres básico incluindo [!UI
 
 ![](assets/nesting_container.png)
 
-Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa  [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
+Os [!UICONTROL Visitantes] constituem o contêiner de maior ordem na segmentação sequencial, com as [!UICONTROL Visitas] contidas no contêiner de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos contêineres de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Essa [hierarquia de contêiner](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) deve ser mantida para construir segmentos sequenciais bem ordenados.
 
 **Para construir segmentos sequenciais**, os contêineres são aninhados e a lógica sequencial é unida por meio do operador [!UICONTROL THEN] que requer que cada contêiner seja verdadeiro com base na sequência do visitante.
 
