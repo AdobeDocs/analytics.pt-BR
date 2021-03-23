@@ -3,11 +3,11 @@ description: Nem todos os segmentos criados no Construtor de segmentos são comp
 title: Compatibilidade de segmentos de Data Warehouse
 topic: Segmentos
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Relatórios e análises </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   </tr> 
   <tr> 
    <td> <b>Dimensões</b> </td> 
-   <td>Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Analysis Workspace, Relatórios e análises: 
+   <td>Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, há suporte para essas dimensões somente no Analysis Workspace, no Reports &amp; Analytics: 
     <ul> 
      <li>Servidor de entrada </li> 
      <li>Categoria de entrada </li> 
