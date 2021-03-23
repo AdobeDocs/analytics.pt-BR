@@ -2,11 +2,11 @@
 description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento.
 title: Visão geral dos conjuntos de relatórios virtuais
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Os conjuntos de relatórios virtuais ajudam a:
 * Uma visão de um único cliente dos dados (no futuro)
 * A capacidade de criar conjuntos de relatórios virtuais ilimitados para segmentar dados
 
-## Limitações dos conjuntos de relatórios virtuais  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitações dos conjuntos de relatórios virtuais {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Os conjuntos de relatórios virtuais têm as seguintes limitações:
 
@@ -51,7 +51,7 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 * Relatório em tempo real
 * Configurações e nomes de variáveis não podem ser personalizados como em um conjunto de relatórios completo
 
-## Conjuntos de relatórios virtuais versus tags de vários conjuntos  {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Conjuntos de relatórios virtuais versus tags de vários conjuntos {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Recurso | Conjunto de relatórios virtuais | Tags de vários conjuntos |
 |--- |--- |--- |
