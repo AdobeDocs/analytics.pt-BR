@@ -2,11 +2,11 @@
 description: Essas alterações no funcionamento das métricas calculadas do Analytics podem afetar você.
 title: Perguntas frequentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ As métricas calculadas globais não podem mais ser compartilhadas com as empres
 
 Agora, as métricas calculadas com uma classificação Numérico ou Numérico2 permanecerão visíveis no [!UICONTROL Reports &amp; Analytics], no [!UICONTROL Report Builder] e nas APIs. Contudo, elas não serão mais suportadas em nenhum relatório com um segmento aplicado.
 
-Além disso, as métricas calculadas com uma classificação Numérico ou Numérico2 não serão suportadas nos seguintes componentes: [!UICONTROL Relatórios Analysis Workspace], [!UICONTROL Tempo real], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição]. Ao criar ou editar uma métrica calculada com uma classificação de Numérico ou Numérico2, você verá um aviso de compatibilidade informando que a métrica calculada não é compatível com determinadas áreas do produto.
+Além disso, métricas calculadas com uma classificação de Numérico ou Numérico2 não serão suportadas nos seguintes componentes: [!UICONTROL Analysis Workspace], [!UICONTROL Relatórios em tempo] real, [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição]. Ao criar ou editar uma métrica calculada com uma classificação de Numérico ou Numérico2, você verá um aviso de compatibilidade informando que a métrica calculada não é compatível com determinadas áreas do produto.
 
 **O que você precisa fazer**
 
