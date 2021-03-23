@@ -2,11 +2,11 @@
 description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Capturamos apenas o google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também? </p> </td> 
-   <td colname="col2"> <p>A: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
+   <td colname="col2"> <p>R: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: A métrica “Custo do AMO” é o custo pago para cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? </p> </td> 
@@ -129,7 +129,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## Rastreamento automático vs. manual  {#section_7437C4698A6D482EB7ED94A948390119}
+## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -141,7 +141,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>P: Ao configurar a conta publicitária, aparece que o <b>Rastreamento automático</b> pode levar a consequências não intencionais. Que tipos de consequências pode ocorrer? </p> </td> 
-   <td colname="col2"> <p>A: 
+   <td colname="col2"> <p>R: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">O modo automático tentará anexar os parâmetros de URL ao final dos URLs de modelo/destino de rastreamento no formato adequado. <b>Contudo, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais. </li> 
