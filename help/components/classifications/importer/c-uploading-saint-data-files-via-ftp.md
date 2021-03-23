@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Importação de FTP
 topic: Ferramentas administrativas
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Após um upload inicial em um conjunto de relatórios (para determinada variáve
 
 Cada novo valor de chave que você carrega é descontado do total de únicos que você tem disponível para aquela variável no mês.
 
-Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. Você pode ver essas classificações na Data Warehouse.
+Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. É possível ver essas classificações no Data Warehouse.
 
 >[!NOTE]
 >
@@ -98,4 +98,4 @@ Após sua criação, é possível editar ou excluir as contas FTP clicando no li
 
 >[!NOTE]
 >
->As notificações não são enviadas se uma importação não introduzir alterações em uma classificação. Um email só será enviado se for bem-sucedido e resultar em alterações em uma classificação.
+>As notificações não serão enviadas se uma importação não introduzir alterações em uma classificação. Um email só será enviado se for bem-sucedido e resultar em alterações em uma classificação.
