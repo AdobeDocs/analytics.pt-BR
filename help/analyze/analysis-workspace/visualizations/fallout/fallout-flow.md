@@ -2,11 +2,11 @@
 description: Use a visualização de fallout em um projeto do Workspace.
 title: Visão geral de fallout
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Uma visualização de fallout é útil para analisar:
 * Fluxos gerais de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantas fizeram uma pesquisa e quantas delas eventualmente acessaram um item específico.
 * Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que acessaram sua política de privacidade e que fizeram uma compra.
 
-[Tutorial em vídeo de Visualização de fallout](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=pt-BR)  (4:15)
+[Tutorial em vídeo de Visualização de fallout](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## Segmentação como base para fluxo e fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
@@ -53,7 +53,7 @@ Por outro lado, quando o Reports &amp; Analytics calcula o segmento, ele é comb
 
 O Reports &amp; Analytics combina o segmento a cada etapa. Quando os contêineres estão no mesmo nível que o fallout (nível de visita ou de visitante, por exemplo), isso resultará na correspondência do nome de visitas ou de visitantes.
 
-Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias o número no Analysis Workspace corresponde àqueles no Reports &amp; Analytics. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
+Contudo, se o segmento aplicado ao painel for menor que o nível do fallout (nível de ocorrência, por exemplo), o segmento mostrará resultados diferentes devido a como ele é combinado pelo relatório. Para reiterar, na maioria das circunstâncias os números no Analysis Workspace correspondem àqueles no Reports &amp; Analytics. Eles **não** corresponderão somente se todos os casos abaixo forem verdadeiros:
 
 * O segmento não está no mesmo nível do fallout.
 * O segmento possui uma variável na qual o visitante/visita pode ter vários valores durante uma visita/visitante.
