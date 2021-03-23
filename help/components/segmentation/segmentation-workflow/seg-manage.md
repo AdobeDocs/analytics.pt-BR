@@ -3,11 +3,11 @@ description: O Gerenciador de segmentos oferece várias formas de cuidar de segm
 title: Gerenciar segmentos
 topic: Segmentos
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ O Gerenciador de segmentos do Analytics mostra todos os seus segmentos e os comp
 
 ## Vídeo passo a passo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Este [vídeo do sobre o Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) proporciona uma breve visão geral sobre como usar o Gerenciador de segmentos.
+Este [vídeo do sobre o Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) proporciona uma breve visão geral sobre como usar o Gerenciador de segmentos.
 
 ## Interface do usuário do Gerenciador de segmentos {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
