@@ -3,11 +3,11 @@ description: A funcionalidade do segmento se diferencia entre usuários do níve
 title: Direitos do segmento por função
 topic: Segmentos
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ A funcionalidade do segmento se diferencia entre usuários do nível administrat
    <th colname="col2" class="entry"> Compartilhar segmentos </th> 
    <th colname="col3" class="entry"> Visualizar/Gerenciar segmentos </th> 
    <th colname="col4" class="entry"> Aprovação de segmentos </th> 
-   <th colname="col5" class="entry"> Aplicar segmentos </th> 
+   <th colname="col5" class="entry"> Aplicação de segmentos </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: pode visualizar/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Report Builder  </span>: Pode visualização/editar/excluir/etc. seus próprios segmentos e aqueles compartilhados com ele. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: pode visualizar/editar/excluir/etc. segmentos próprios e de outros usuários. <p> <span class="keyword"> Report Builder </span>: pode exibir/editar/excluir/etc. seus próprios segmentos e os compartilhados. </p> </td> 
    <td colname="col4"> Pode aprovar segmentos como canônicos. </td> 
    <td colname="col5"> Pode aplicar qualquer segmento na organização inteira. </td> 
   </tr> 
