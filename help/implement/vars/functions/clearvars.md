@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: Apaga os valores a seguir do objeto da instância. Essa função remove os elementos (define-os como "indefinidos").
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+description: Limpar valores de variável do objeto de rastreamento.
+translation-type: tm+mt
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ Algumas implementações, como aquelas em aplicativos de página única, exigem 
 Esse método não aceita argumentos e não retorna nenhum valor. Sua única finalidade é apagar valores de variáveis do objeto instanciado. Esse método define os seguintes elementos como `undefined`:
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
