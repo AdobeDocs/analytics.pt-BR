@@ -1,10 +1,12 @@
 ---
 description: Como usar a paleta de cores de visualização no Analysis Workspace
 title: O que são Paletas de cores de visualização e como elas funcionam?
-translation-type: ht
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
-workflow-type: ht
-source-wordcount: '214'
+feature: Fundamentos do Workspace
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
