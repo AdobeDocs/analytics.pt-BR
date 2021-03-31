@@ -1,12 +1,13 @@
 ---
 description: O Report Builder usa o calendário personalizado do Analytics. Você pode usar o calendário para definir o primeiro dia da semana e ano, ou usar um estilo de calendário de varejo diferente. Os formatos de calendário são usados para várias finalidades, inclusive comparações de vendas e padronização de previsões, análise de custos com folha de pagamento ou regulamento de contagem de inventário físico.
 title: Calendário personalizado
-topic: Construtor de relatórios
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 91%
 
 ---
@@ -45,7 +46,7 @@ Cada um dos formatos de calendário é descrito abaixo.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: janeiro possui cinco semanas, fevereiro cinco, março quatro e assim por diante. </li> 
-    </ul> <p>Observação:  Essa opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Relatórios e análises, Report Builder e Activity Map. A exceção é Data Warehouse, que não suporta calendários personalizados. </p> </td> 
+    </ul> <p>Observação:  Esta opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder e Activity Map). A exceção é o Data Warehouse, que não suporta calendários personalizados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
