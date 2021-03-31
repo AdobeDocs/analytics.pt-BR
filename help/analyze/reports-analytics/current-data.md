@@ -2,13 +2,14 @@
 description: A opção Incluir dados atuais do Reports & Analytics permite exibir os dados mais recentes do Analytics, geralmente antes que sejam totalmente processados e finalizados. Os dados atuais exibem a maioria das métricas comuns em minutos, fornecendo dados acionáveis para proporcionar uma tomada de decisão rápida.
 subtopic: Current Data
 title: Dados atuais
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +26,7 @@ Os dados atuais são ativados por padrão em todos os relatórios que os suporta
 
 * Use a Analysis Workspace, que utiliza dados totalmente processados.
 * Clique em &quot;Não&quot; na configuração atual do relatório de dados para usar apenas dados totalmente processados.
-* Remova o item de permissão &quot;Dados atuais&quot; de um perfil de produto no Admin Console para impedir que usuários não administradores vejam essa opção. Consulte [Permissões de perfil do produto para Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md) no Guia do usuário administrativo para obter mais informações.
+* Remova o item de permissão &quot;Dados atuais&quot; de um perfil de produto no Admin Console para impedir que usuários não administradores vejam essa opção. Consulte [Permissões de perfil de produto para Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md) no Guia do usuário de administração para obter mais informações.
 
 Devido à priorização da disponibilidade de dados, os dados atuais não podem ser usados no momento com segmentos, classificações, detalhamentos, definições de caminho e algumas métricas. Se um desses recursos for usado, os dados atuais serão forçados a &quot;Não&quot; no relatório e um aviso amarelo será mostrado explicando por que os dados atuais não estão disponíveis.
 
