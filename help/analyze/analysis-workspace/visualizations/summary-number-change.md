@@ -2,11 +2,13 @@
 description: Use o Número do resumo e as Visualizações de alteração para exibir pontos de dados importantes em um projeto.
 title: Número do resumo e alteração do resumo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
+feature: Visualizações
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 99%
 
 ---
 
