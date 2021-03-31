@@ -2,12 +2,13 @@
 description: Aprenda o básico para trabalhar em um projeto do Workspace.
 keywords: Analysis Workspace
 title: Visão geral dos Projetos
-topic: Reports and Analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1371'
+feature: Fundamentos do Workspace
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1373'
 ht-degree: 100%
 
 ---
@@ -77,7 +78,7 @@ As configurações incluem:
 
 ## Painel esquerdo {#left-rail}
 
-Em um projeto, [painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), tabelas, [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) são acessados pelo painel esquerdo. Estes são os componentes do projeto.
+Em um projeto, [painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), tabelas, [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) são acessados pelo painel esquerdo. Estes são os componentes do projeto.
 
 Também é possível acessar visualizações e painéis no [Painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR).
 
@@ -91,7 +92,7 @@ A tela do projeto é onde você reúne painéis, tabelas, visualizações e comp
 
 Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise. O painel principal terá uma borda azul ao seu redor e determina quais componentes estão disponíveis no painel esquerdo.
 
-Dependendo do ponto de partida escolhido para seus projetos, você terá uma [tabela de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) ou um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR) na tela para começar. A maneira mais rápida de começar a analisar é selecionar um ou vários componentes e simplesmente arrastá-los e soltá-los na tela do projeto. Uma tabela de dados será renderizada automaticamente para você. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) sobre as diferentes opções para criar uma tabela ou utilize nosso [tutorial de treinamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR#training-tutorial) para obter mais orientações sobre como criar seu primeiro projeto.
+Dependendo do ponto de partida escolhido para seus projetos, você terá uma [tabela de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) ou um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) na tela para começar. A maneira mais rápida de começar a analisar é selecionar um ou vários componentes e simplesmente arrastá-los e soltá-los na tela do projeto. Uma tabela de dados será renderizada automaticamente para você. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sobre as diferentes opções para criar uma tabela ou utilize nosso [tutorial de treinamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR#training-tutorial) para obter mais orientações sobre como criar seu primeiro projeto.
 
 ![](assets/canvas.png)
 
@@ -107,9 +108,9 @@ As ações a seguir são comuns no Gerenciador de projetos e podem ser executada
 
 | Ação | Descrição |
 |---|---|
-| Adicionar | Crie um novo projeto do zero ou inicie com um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR). |
+| Adicionar | Crie um novo projeto do zero ou inicie com um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
 | Marcar ou aprovar | Escolha &quot;Marcar&quot; ou &quot;Aprovar&quot; para organizar os projetos e facilitar a pesquisa. |
-| [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
+| [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
 | Excluir | Exclua o projeto. |
 | Renomear | Edite o nome do projeto. |
 | Copiar | Crie um duplicado do projeto. Isso cria uma nova ID de projeto. Qualquer compartilhamento ou programação vinculada ao projeto original não será copiada. |
