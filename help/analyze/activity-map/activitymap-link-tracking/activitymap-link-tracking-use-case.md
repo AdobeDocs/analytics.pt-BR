@@ -1,13 +1,14 @@
 ---
 description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
 title: Diferenciar links que fazem referência à mesma ID e Região do link
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +42,7 @@ Como exemplo, digamos que você tenha vários links “Buy”, que são identifi
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
   </tr> 
  </tbody> 
@@ -81,12 +82,12 @@ Ao criar uma ID de objeto única para um link ou um local de link em uma página
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> <p> </p> <p>painel de recomendação </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalizar a região {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personalizar a região  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 Você pode personalizar a região certificando-se de que cada link “comprar” tenha a sua própria Região definida. Para fazer isso, adicione um parâmetro “id” a um dos pais de cada tag de âncora “Buy”.
 
@@ -117,13 +118,13 @@ Você pode personalizar a região certificando-se de que cada link “comprar”
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalizar o arquivo de módulo AppMeasurement Activity Map {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar o arquivo de módulo AppMeasurement Activity Map  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
