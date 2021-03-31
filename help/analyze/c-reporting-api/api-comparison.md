@@ -2,10 +2,12 @@
 description: Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos links para a documentação de apoio.
 title: Comparação de APIs em relatórios do Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: ht
-source-wordcount: '282'
+feature: API
+role: Desenvolvedor
+translation-type: tm+mt
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
