@@ -1,11 +1,13 @@
 ---
 title: Painéis do Adobe Analytics - Visão geral
 description: Documentação do produto e autoajuda dos painéis do Adobe Analytics
-translation-type: ht
-source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+feature: Painéis do Analytics
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
