@@ -1,10 +1,12 @@
 ---
 description: Descreve como definir códigos monetários de destino para que o suporte a várias moedas funcione.
 title: Suporte a várias moedas
-topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 100%
 
 ---
 
