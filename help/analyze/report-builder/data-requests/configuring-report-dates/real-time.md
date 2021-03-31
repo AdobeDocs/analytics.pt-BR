@@ -1,13 +1,14 @@
 ---
 description: Exibe o tráfego da página da Web e classifica as exibições dela em tempo real, para que você possa entender rapidamente aquilo que está em alta no seu site.
 title: Relatórios em Tempo real
-topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 96%
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
