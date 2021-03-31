@@ -1,11 +1,13 @@
 ---
 title: Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre
 description: Como interagir com itens de dimensão dinâmicos e estáticos em tabelas.
+feature: Tabelas de forma livre
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 97%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -52,4 +54,4 @@ Itens de dimensão de diferentes dimensões podem ser adicionados à mesma tabel
 As linhas dinâmicas e estáticas se comportam de maneira diferente na linha total de forma livre. Por padrão:
 
 * As linhas dinâmicas são somadas no lado do servidor e deduplicam métricas como visitas ou visitantes
-* As linhas estáticas são somadas no lado do cliente e **não** deduplicam as métricas. Para calcular o total de linhas do lado do servidor, altere a configuração de linha para **Mostrar total geral**. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* As linhas estáticas são somadas no lado do cliente e **não** deduplicam as métricas. Para calcular o total de linhas do lado do servidor, altere a configuração de linha para **Mostrar total geral**. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
