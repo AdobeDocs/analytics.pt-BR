@@ -1,12 +1,14 @@
 ---
 description: A preparação permite limitar os componentes antes de compartilhar um projeto.
-keywords: Analysis Workspace curation
+keywords: Preparação do Analysis Workspace
 title: Preparar projetos do
-translation-type: ht
-source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
-workflow-type: ht
-source-wordcount: '542'
-ht-degree: 100%
+feature: Preparar e compartilhar
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 98%
 
 ---
 
