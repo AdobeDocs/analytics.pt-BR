@@ -1,11 +1,13 @@
 ---
 title: Modelos de atribuição e janelas de pesquisa
 description: Como diferentes tipos de atribuição dividem crédito entre itens de dimensão.
-translation-type: ht
-source-git-commit: 1da5f5d0d82f8a84c28df3ed635502cbee1fd2db
-workflow-type: ht
-source-wordcount: '1484'
-ht-degree: 100%
+feature: Atribuição
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1488'
+ht-degree: 99%
 
 ---
 
