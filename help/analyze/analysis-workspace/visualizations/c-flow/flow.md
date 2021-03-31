@@ -2,16 +2,18 @@
 description: Use a visualização de fluxo em um projeto do Workspace.
 title: Visão geral do Fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+feature: Visualizações
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 98%
 
 ---
 
 
-# Visão geral do fluxo
+# Visão geral do Fluxo
 
 O recurso Fluxo mostra os caminhos do cliente pelos seus sites e aplicativos.
 
