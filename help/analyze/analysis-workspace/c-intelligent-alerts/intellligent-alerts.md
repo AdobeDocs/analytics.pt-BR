@@ -2,11 +2,13 @@
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 title: Visão geral de Alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
+feature: Ferramentas AI
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 95%
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 95%
 
 Os Alertas inteligentes permitem um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 
-Veja um tutorial em vídeo sobre Alertas [](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) inteligentes (5:34)
+Tutorial em vídeo sobre [Alertas inteligentes](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Visão geral
 
