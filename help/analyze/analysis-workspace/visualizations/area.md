@@ -2,11 +2,13 @@
 description: Esta visualização do Workspace se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha.
 title: Área e área empilhada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
-source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: ht
-source-wordcount: '99'
-ht-degree: 100%
+feature: Visualizações
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 ## Área {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
-Esta visualização se parece com um gráfico de linha, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas.
+Esta visualização do se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas.
 
 ![](assets/area.png)
 
