@@ -1,13 +1,14 @@
 ---
 description: Fornecem sugestões para a solução de problemas e respostas a algumas das perguntas mais frequentes sobre o Analytics.
-keywords: Troubleshooting Analytics
+keywords: Solução de problemas do Analytics
 title: Perguntas frequentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '751'
-ht-degree: 100%
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
