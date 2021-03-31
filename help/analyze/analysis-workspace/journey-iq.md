@@ -1,16 +1,18 @@
 ---
 title: Journey IQ
 description: Entenda os recursos que compõem Journey IQ, um conjunto de recursos que fazem parte do Adobe Analytics.
-translation-type: ht
-source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+feature: Ferramentas AI
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 97%
 
 ---
 
 
-# Journey IQ
+# Jornada IQ
 
 O Journey IQ é um conjunto de recursos que fornecem visualizações e configurações fáceis de usar e totalmente personalizáveis para entender melhor a experiência do cliente. Ele permite medir cada ponto de contato da jornada do cliente, inclusive entre canais. Use esses recursos para entender melhor onde reconectar com os clientes, mantê-los fiéis e personalizar sua experiência ao longo do caminho.
 
