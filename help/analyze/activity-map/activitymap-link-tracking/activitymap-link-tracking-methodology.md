@@ -1,13 +1,14 @@
 ---
 description: Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os novos parâmetros de rastreamento de links e como eles garantem a singularidade do link e a consistência entre navegadores e dispositivos, além de melhorar a manipulação do reposicionamento do link em uma página.
 title: Metodologia de Rastreamento de links
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+feature: Activity Map
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +36,7 @@ Se o HTML tiver uma função s_objectid, então a ID primária é padronizada pa
 * Src
 * Ação
 
-## Usar o InnerText, em vez da Ação do link (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Usar o InnerText, em vez da Ação do link (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 A ação do link é a medida tomada pela página da Web quando o link é clicado, geralmente o URL que é visitado depois de clicar no link. Alguns dos problemas que você pode enfrentar ao usar a Ação do link são:
 
@@ -62,7 +63,7 @@ O uso da Região do link tem os seguintes benefícios:
 * Ajuda a diferenciar os links com a mesma ID primária.
 * As tendências em uma região são menos afetadas pelo aspecto dinâmico da página da Web.
 * Os usuários podem ver os links com melhor desempenho dentro de uma região. Com Região como uma âncora, podemos mostrar as sobreposições de links que não estão visíveis atualmente na página (Ajax, Direcionamento).
-* A Região pode substituir páginas, já que uma determinada região pode ser usada em várias páginas da Web. Ela ajuda a responder a perguntas como: &quot;A região de Ofertas de produtos tem um melhor desempenho na Página de aterrissagem para mulheres ou para homens?&quot;
+* A Região pode substituir páginas, já que uma determinada região pode ser usada em várias páginas da Web. Ela ajuda a responder a perguntas como: &quot;A região de &quot;Ofertas de produtos&quot; tem um melhor desempenho na página inicial para mulheres ou para homens?&quot;
 * A Região é uma dimensão relevante para analisar as páginas da Web altamente dinâmicas. Isso ocorre porque ela remove o ruído, devido aos links em mudança contínua: uma Região de “Notícias recentes” na página de aterrissagem CNN pode conter vários links dinâmicos. Mas a região vai estar sempre lá. Dessa forma, pode ser interessante direcionar a nível de Região durante muitos dias.
 
 **Rastreamento de região personalizada**
