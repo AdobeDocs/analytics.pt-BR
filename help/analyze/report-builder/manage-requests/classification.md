@@ -1,13 +1,14 @@
 ---
 description: Análises classificação são usadas para mapear dados de relatórios para propriedades relacionadas. Classificações podem ser usadas para uma variedade de finalidades, mas são usadas mais comumente para classificar códigos de controle de campanha (tanto internos quanto externos) e IDs de produtos.
 title: Classificação
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
