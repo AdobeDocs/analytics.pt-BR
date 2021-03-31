@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: Limpar valores de variável do objeto de rastreamento.
+description: Apaga os valores a seguir do objeto da instância. Essa função remove os elementos (define-os como "indefinidos").
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
