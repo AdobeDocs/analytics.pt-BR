@@ -1,13 +1,14 @@
 ---
 description: 'É possível adicionar métricas e dimensões ao Assistente de solicitações: etapa 2 para definir o layout de análise dos dados em sua solicitação. A lista de métricas e dimensões no Report Builder segue o layout do menu exibido em Reports and Analytics.'
 title: Visão geral de Métricas e dimensões
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+feature: Report Builder
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
