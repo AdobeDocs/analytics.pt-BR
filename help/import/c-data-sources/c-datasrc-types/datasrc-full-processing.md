@@ -1,11 +1,12 @@
 ---
-description: A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
-title: Opção de processamento completo para fontes de dados
+description: A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
+title: Processamento completo
+topic: Desenvolvedor e implementação
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 97%
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
