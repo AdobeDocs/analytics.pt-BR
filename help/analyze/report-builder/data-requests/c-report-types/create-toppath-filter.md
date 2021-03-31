@@ -1,10 +1,14 @@
 ---
 description: Descreve como criar relatórios de caminho com filtros predefinidos.
 title: Filtrar relatórios de caminho ao adicionar solicitações dependentes
-topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Descreve como criar relatórios de caminho com filtros predefinidos.
 
-Relatórios e análises de marketing oferta alguns relatórios independentes que são relatórios de caminho superior com filtros predefinidos, como [!UICONTROL Next] e [!UICONTROL Previous Site Section] relatórios, Entradas e [!UICONTROL Exit Site Section] relatórios e [!UICONTROL Single Site Section] relatórios.
+Reports &amp; Analytics de marketing oferece poucos relatórios independentes que são relatórios de caminho superior com filtros predefinidos, tais como relatórios [!UICONTROL Próxima] e [!UICONTROL Seção anterior], de sessão de site de Entrada e de [!UICONTROL Saída] e de [!UICONTROL Seção única do site].
 
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. Os relatórios a seguir estão disponíveis:
+O Report Builder não oferece isso como relatórios independentes, mas você pode criá-los por meio dos menus de contexto **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Os relatórios a seguir estão disponíveis:
 
 * Caminho > Fallout da página
 * Caminho > Caminho de entrada
@@ -27,12 +31,12 @@ Report Builder does not offer these as standalone reports, but you can create th
 * Caminho > Caminho de entrada > Como página de entrada
 * Caminho > Caminho de saída > Como página de saída
 
-1. Selecione várias linhas de uma solicitação existente e clique com o botão direito do mouse em **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Selecione várias linhas de uma solicitação existente, em seguida, clique com o botão direito em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   (Observe que você deve selecionar pelo menos 3 linhas se desejar visualizar o item de menu **[!UICONTROL Fallout de página]**).
 
    ![](assets/dependen_request.png)
 
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+1. Selecione o filtro predefinido, por exemplo **[!UICONTROL Página anterior]**.
 
    O Assistente de solicitações aparece com a métrica Página anterior já selecionada. 1. Continue a refinar sua solicitação no Assistente de solicitações para gerar sua solicitação.
