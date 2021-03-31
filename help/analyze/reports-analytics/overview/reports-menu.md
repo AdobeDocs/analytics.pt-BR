@@ -2,11 +2,13 @@
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 99%
 
 ---
 
