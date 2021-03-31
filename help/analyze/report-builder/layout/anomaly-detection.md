@@ -1,13 +1,14 @@
 ---
 description: A Detecção de anomalias utiliza um modelo estatístico para encontrar automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina o intervalo de valores de limite inferior, limite superior e intervalo de valores. Quando ocorrer um pico ou uma queda inesperada, o sistema irá alertá-lo no relatório.
 title: Detecção de anomalias
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+feature: Report Builder
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 99%
 
 ---
 
