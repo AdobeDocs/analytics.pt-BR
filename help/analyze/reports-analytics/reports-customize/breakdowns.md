@@ -1,10 +1,14 @@
 ---
 description: Use detalhamentos quando você deseja saber mais sobre como um item ou segmento do relatório se relaciona a outros relatórios. Geralmente, isso é chamado de "detalhar" um relatório por outro relatório.
 title: Detalhamentos
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ Um exemplo é um detalhamento de um relatório de tráfego personalizado chamado
 
 Se você fizer o detalhamento de um relatório por *`Referrer Type`*, você poderá ver um ponto de dados para *`Inside Your Site`*. Este valor indica uma página de referência que está na lista de Filtros de URL internos. Consulte [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) na Referência de administração.
 
-É possível detalhar qualquer variável do Analytics (eVar ou prop) por qualquer outra variável. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+É possível detalhar qualquer variável do Analytics (eVar ou prop) por qualquer outra variável. O menu **[!UICONTROL Detalhar por]** na tabela de relatórios corresponde ao menu de relatórios padrão do Analytics, mantendo as seleções consistentes
 
 ## Executar um relatório de detalhamento {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +33,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. Abra o relatório, como **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. Abra o relatório, como **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Páginas]**.
+1. Na tabela do relatório, clique no ícone **[!UICONTROL Detalhamento por:]**. 
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   Se o ícone **[!UICONTROL Detalhamento por:]** não estiver visível, o recurso não está disponível ou não está habilitado.
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   O menu **[!UICONTROL Detalhamento por]** apresenta todas as opções de detalhamento disponíveis para o relatório atual.
