@@ -2,11 +2,13 @@
 description: Você pode ver e analisar anomalias de dados de forma contextual no Analysis Workspace.
 title: Visão geral da Detecção de anomalias
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
+feature: Ferramentas AI
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 90%
+source-wordcount: '291'
+ht-degree: 89%
 
 ---
 
@@ -15,9 +17,9 @@ ht-degree: 90%
 
 Você pode ver e analisar anomalias de dados de forma contextual no Analysis Workspace.
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) em vídeo da Detecção de anomalias (4:53)
+[Tutorial em vídeo sobre a Detecção de anomalias](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  (4:53)
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) em vídeo Análise de contribuição (3:20)
+[Tutorial em vídeo da Análise de contribuição](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  (3:20)
 
 >[!IMPORTANT]
 >
