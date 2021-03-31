@@ -1,13 +1,14 @@
 ---
 description: Descrições dos campos para gerenciar solicitações no Report Builder.
 title: Gerenciar solicitações - definições
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
