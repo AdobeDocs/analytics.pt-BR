@@ -1,13 +1,14 @@
 ---
 description: Os filtros permitem restringir o relatório para incluir ou excluir itens de linha correspondentes a um filtro.
 title: Filtro de dados de relatório
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 99%
 
 ---
 
@@ -84,11 +85,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**Igual**
+**Igual a**
 
 Corresponde se o item de linha inteiro, incluindo espaços e outros caracteres, correspondem à frase especificada.
 
-Igual: `mens:desk & travel`
+Igual a: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
