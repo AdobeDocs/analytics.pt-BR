@@ -2,22 +2,15 @@
 cloud: experience-cloud
 product: analytics
 solution: Analytics
-solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/br/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/br/analytics/get-started.html
-tutorials-title: Tutoriais
-tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.pt-BR
 type: Documentação
 index: true
-description: Inclui metadados de nível de acordo de recompra que passam para arquivos TOC.md do guia do usuário no acordo de recompra.
+feature-set: Analytics
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 90%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
