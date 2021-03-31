@@ -1,11 +1,12 @@
 ---
 title: PWAs para Analytics
 description: Progressive Web Apps para Adobe Analytics
-translation-type: ht
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 99%
 
 ---
 
