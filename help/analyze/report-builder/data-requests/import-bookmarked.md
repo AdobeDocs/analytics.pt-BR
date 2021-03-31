@@ -1,13 +1,14 @@
 ---
 description: Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitação e podem ser importados como solicitações do Report Builder.
 title: Importar relatórios marcados e reportlets de painel
-topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 99%
 
 ---
 
