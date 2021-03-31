@@ -1,10 +1,14 @@
 ---
 description: O modo offline retorna dados de espaço reservado para acelerar o processo de criação e edição de solicitações.
 title: Modo offline para criação e edição de solicitações
-topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -17,12 +21,12 @@ Ao criar ou editar uma nova solicitação, são efetuadas chamadas da API de rel
 
 Para habilitar o modo offline:
 
-1. Click **[!UICONTROL Options]** in the Report Builder menu.
+1. Clique em **[!UICONTROL Opções]** no menu do Report Builder.
 
    ![](assets/offline_mode.png)
 
-1. Marque a caixa de seleção ao lado de **[!UICONTROL Turn on offline mode for creating and editing requests]**.
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. Por exemplo, digite &quot;1&quot;.
+1. Marque a caixa de seleção ao lado de **[!UICONTROL Ativar o modo offline para criar e editar solicitações]**.
+1. No campo **[!UICONTROL Exibir dados de métrica como]**, insira os dados de espaço reservado os quais você deseja que retornem na solicitação. Por exemplo, digite &quot;1&quot;.
 1. Clique em **[!UICONTROL OK]**.
 1. Agora, crie e execute sua solicitação (no modo offline) com o Assistente de solicitação.
 1. Sua solicitação com &quot;1&quot; como dados de espaço reservado são semelhantes a isto:
@@ -31,5 +35,5 @@ Para habilitar o modo offline:
 
    >[!IMPORTANT]
    >
-   >Certifique-se de desativar o Modo offline ao executar suas solicitações com dados reais. To do so, just go back to **[!UICONTROL Options]** and remove the checkmark.
+   >Certifique-se de desativar o Modo offline ao executar suas solicitações com dados reais. Para fazer isso, retorne às **[!UICONTROL Opções]** e remova a marca de seleção.
 
