@@ -2,13 +2,14 @@
 description: Exemplos de casos de uso da análise de coorte.
 keywords: Analysis Workspace
 title: Casos de uso da análise de coorte
-topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: ht
-source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+feature: Visualizações
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 99%
 
 ---
 
