@@ -1,10 +1,14 @@
 ---
 description: No painel Opções, é possível especificar as configurações de datas, as configurações de latência (Dados atuais), as informações de log, e configurar as atualizações.
 title: Opções do Report Builder
-topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -13,16 +17,16 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 No painel Opções, é possível especificar as configurações de datas, as configurações de latência (Dados atuais), as informações de log, e configurar as atualizações.
 
-1. In the Add-Ins toolbar, click **[!UICONTROL Options]** ![](assets/options_icon.png):
+1. Na barra de ferramentas de Suplementos, clique em **[!UICONTROL Opções]** ![](assets/options_icon.png)
 
 | Elemento | Descrição |
 |--- |--- |
-| [!UICONTROL As Of Date] |  |
-| Definir com a data atual | Lets you specify or reset the  [!UICONTROL As Of Date] so that report builder uses the current date or asks you which date to use upon refresh. |
-| Solicitar a definição ao atualizar | Permite definir o [!UICONTROL As Of Date] ao atualizar uma solicitação. |
-| [!UICONTROL Data Recency] |  |
-| [!UICONTROL Include Current Data] | Lets you view data latency (also known as  [!UICONTROL Data Recency]) down to the minute in reporting, occasionally even before this data has been processed by  Adobe Analytics.<br>Quando você não usa essa opção, o modo finalizado (processado) é usado, o que geralmente é mais [latente](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html).<br>Essa configuração se aplica a todas as solicitações na pasta de trabalho de dados atuais compatíveis. Se a solicitação não for compatível, o modo finalizado é aplicado.<br>Observe as seguintes situações para usar o [!UICONTROL Include Current Data] modo:Opções<br>****de formato: Você pode especificar se deseja exibir essas informações ([!UICONTROL Data Recency]) ao[formatar cabeçalhos](/help/analyze/report-builder/layout/t-format-display-headers.md)de exibição.<br>**Divisões**: Não suportado. If the  [!UICONTROL Data Recency] mode is set to the Current Data, and one of the requests contains a break-down element, this request reverts to non-current data mode. Contudo, as demais solicitações continuam usando o modo de Dados atuais.<br>**Gerenciador de solicitação **: Você pode visualizar uma coluna de Dados atuais no Gerenciador de solicitação para conseguir ver se a configuração foi aplicada a uma solicitação programada.<br>**Pastas de trabalho programadas**: Esse modo é armazenado durante o processo de programação no nível da pasta de trabalho. If you open a scheduled workbook that is using finalized data, and apply [!UICONTROL Include Current Data], current mode is used thereafter.<br>**Permissões **: Essa opção fica omitida para usuários que não tenham acesso aos dados atuais.  Ao ativar essa opção, se uma ou mais solicitações não puderem ser aplicadas, um aviso será emitido. |
-| Desativar avisos de solicitação de dados atuais incompatível | Displays warnings if the  [!UICONTROL Include Current Data] mode is selected but the data mode cannot be applied to the edited request.  For example, if you set [!UICONTROL Include Current Data], and then edit a request that has a segment selected, a warning is issued. |
+| [!UICONTROL Data de início] |  |
+| Definir com a data atual | Você pode especificar ou redefinir a [!UICONTROL Data de início], de forma que o Report Builder use a data atual ou solicite a data a ser usada na atualização. |
+| Solicitar a definição ao atualizar | Permite definir a [!UICONTROL Data de início] ao atualizar uma solicitação. |
+| [!UICONTROL Recenticidade dos dados] |  |
+| [!UICONTROL Incluir os dados atuais] | Permite ver a latência de dados (também conhecida como [!UICONTROL Recenticidade dos dados]) até o minuto no relatório, por vezes até mesmo antes dos dados serem processados pelo Adobe Analytics.<br>Quando você não usa essa opção, o modo finalizado (processado) é usado, o que geralmente é mais [latente](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/current-data.html).<br>Essa configuração se aplica a todas as solicitações na pasta de trabalho de dados atuais compatíveis. Se a solicitação não for compatível, o modo finalizado é aplicado.<br>Observe as seguintes situações para usar o [!UICONTROL modo Incluir dados] atuais:<br>**Opções de formato**: Você pode especificar se essa informação deverá ser exibida ([!UICONTROL Recenticidade de dados]) ao [formatar cabeçalhos de exibição](/help/analyze/report-builder/layout/t-format-display-headers.md).<br>**Divisões**: Não suportado. Se o modo [!UICONTROL Recenticidade dos dados] estiver definido para os Dados atuais e uma das solicitações tiver um elemento de divisão, essa solicitação será revertida para o modo de dados não atuais. Contudo, as demais solicitações continuam usando o modo de Dados atuais.<br>**Gerenciador de solicitação**: Você pode visualizar uma coluna de Dados atuais no Gerenciador de solicitação para conseguir ver se a configuração foi aplicada a uma solicitação programada.<br>**Pastas de trabalho programadas**: Esse modo é armazenado durante o processo de programação no nível da pasta de trabalho. Se você abrir uma pasta de trabalho programada que estiver usando dados finalizados e aplicar [!UICONTROL Incluir dados atuais], o modo atual será usado a partir de então.<br>**Permissões**: Essa opção fica omitida para usuários que não tenham acesso aos dados atuais.  Ao ativar essa opção, se uma ou mais solicitações não puderem ser aplicadas, um aviso será emitido. |
+| Desativar avisos de solicitação de dados atuais incompatível | Exibe avisos se o modo [!UICONTROL Incluir os dados atuais] estiver selecionado, mas o modo de dados não puder ser aplicado à solicitação editada.  Por exemplo, se você definir [!UICONTROL Incluir os dados atuais] e, em seguida, editar uma solicitação que possua um segmento selecionado, um aviso será emitido. |
 | Registrar solicitações do Report Builder no arquivo local (para resolução de problemas) | Permite registrar solicitações em um arquivo local. Use esse arquivo de log para resolução de problemas. |
 | Interpretar o valor digitado... | Interprete o valor digitado no controle de filtro como um local de célula antes de considerá-lo uma expressão de filtro.<br>Por exemplo, se você criar uma solicitação As 10 páginas principais, usando um filtro Sapatos, a solicitação exibiria uma célula contendo algo semelhante a:   Filtro: 1 a 10 páginas principais, Página contém Sapatos |
 | Atualizar quando uma nova versão estiver disponível | Faz o sistema informar se uma nova versão estiver disponível para instalação. |
