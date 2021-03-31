@@ -1,12 +1,14 @@
 ---
 description: Saiba como criar links compartilháveis para projetos ou visualizações
-keywords: Analysis Workspace sharing
+keywords: Compartilhamento Analysis Workspace
 title: Criar links compartilháveis
+feature: Preparar e compartilhar
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 93%
+source-wordcount: '305'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +30,7 @@ Você também pode compartilhar um link para uma parte específica de um projeto
 * Em qualquer cabeçalho do painel, clique com o botão direito do mouse no link **[!UICONTROL Obter painel]**
 * Em qualquer tabela ou cabeçalho de visualização, clique com o botão direito do mouse em **[!UICONTROL Obter link de visualização]**
 
-[Assista ao vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sobre como criar links e usá-los para direcionar recipients para partes específicas do seu projeto.
+[Assista ao vídeo](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sobre como criar links e usá-los para direcionar recipients para partes específicas do seu projeto.
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +38,6 @@ Você também pode compartilhar um link para uma parte específica de um projeto
 
 Uma dica para aproveitar as várias opções de link é sempre incluir um índice na parte superior do projeto do Workspace. No índice, você pode vincular a outros projetos relevantes, painéis específicos e visualizações específicas. Dessa forma, o recipient do projeto consegue navegar com mais facilidade.
 
-[Assista ao vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sobre como construir um índice usando links e o editor de rich text do Workspace.
+[Assista ao vídeo](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sobre como construir um índice usando links e o editor de rich text do Workspace.
 
 ![](assets/toc.png)
