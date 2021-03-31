@@ -1,11 +1,13 @@
 ---
 title: Relatórios
 description: As dimensões e métricas que o Reports & Analytics usa para cada relatório.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+feature: Relatórios & Noções básicas do Analytics
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +32,7 @@ Contém relatórios que geralmente usam um intervalo de datas. Também contém r
    * Visitantes únicos: conta visitantes somente uma vez em todo o intervalo de datas selecionado.
    * Visitantes únicos por hora: conta visitantes várias vezes se visitarem durante horas diferentes do intervalo de datas selecionado.
    * Visitantes únicos diários: conta visitantes várias vezes se visitarem durante dias diferentes do intervalo de datas selecionado.
-   * Visitantes únicos por semana: conta visitantes várias vezes se visitarem durante semanas diferentes do intervalo de datas selecionado.
+   * Visitantes únicos semanais: conta visitantes várias vezes se visitarem durante semanas diferentes do intervalo de datas selecionado.
    * Visitantes únicos mensais: conta visitantes várias vezes se visitarem durante meses diferentes do intervalo de datas selecionado.
    * Visitantes únicos trimestrais: conta visitantes várias vezes se visitarem durante diferentes trimestres do intervalo de datas selecionado. Os trimestres são janeiro a março, abril a junho, julho a setembro e outubro a dezembro.
    * Visitantes únicos anuais: conta visitantes várias vezes se visitarem durante anos diferentes do intervalo de datas selecionado.
@@ -155,7 +157,7 @@ Contém relatórios sobre visitantes que retornam ao site.
    * Dias antes da primeira compra: usa a dimensão [Dias antes da primeira compra](/help/components/dimensions/days-before-first-purchase.md).
    * Dias desde a última compra: usa a dimensão [Dias desde a última compra](/help/components/dimensions/days-since-last-purchase.md).
    * Clientes únicos diários: exibe a tendência de [Visitantes únicos diários](/help/components/metrics/unique-visitors.md) ao longo do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado.
-   * Clientes únicos por semana: exibe a tendência de [Visitantes únicos por semana](/help/components/metrics/unique-visitors.md) com o passar do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado.
+   * Clientes únicos semanais: exibe a tendência de [Visitantes únicos semanais](/help/components/metrics/unique-visitors.md) com o passar do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado.
    * Clientes únicos mensais: exibe a tendência de [Visitantes únicos mensais](/help/components/metrics/unique-visitors.md) ao longo do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado.
    * Clientes únicos trimestrais: exibe a tendências de [Visitantes únicos trimestrais](/help/components/metrics/unique-visitors.md) ao longo do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado. Os trimestres são janeiro a março, abril a junho, julho a setembro e outubro a dezembro.
    * Clientes únicos anuais: exibe a tendências de [Visitantes únicos anuais](/help/components/metrics/unique-visitors.md) com o passar do tempo com o segmento &quot;compradores&quot; fornecido pela Adobe aplicado.
