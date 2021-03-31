@@ -2,11 +2,13 @@
 description: Use a visualização de fluxo em um projeto do Workspace.
 title: Configurações de fluxo
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+feature: Visualizações
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 98%
 
 ---
 
