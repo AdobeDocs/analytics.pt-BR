@@ -2,11 +2,13 @@
 description: Limitações ao usar o Report Builder e o Microsoft Power BI.
 title: Limitações e especificações
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 97%
+source-wordcount: '629'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +38,7 @@ Editar uma solicitação do Report Builder após a sua publicação no Power BI 
    **Este é um exemplo de como a visualização quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   2. Agende essa solicitação para ser publicada no Power BI.
+   2. Agende esta solicitação para ser publicada no Power BI.
    3. No Power BI, crie uma visualização para a Página e as Exibições da página.
    4. Agora edite a pasta de trabalho através da remoção das Exibições de página da solicitação.
    5. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
