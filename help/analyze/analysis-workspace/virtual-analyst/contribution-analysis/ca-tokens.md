@@ -2,11 +2,13 @@
 description: Use a Análise de contribuição para identificar anomalias e correlações estatísticas nos dados.
 title: Visão geral da análise de contribuição
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+feature: Ferramentas AI
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1161'
+ht-degree: 99%
 
 ---
 
