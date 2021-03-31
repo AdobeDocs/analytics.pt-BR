@@ -1,11 +1,12 @@
 ---
 title: Como definir as preferências do usuário no Analysis Workspace
-description: Você pode definir referências de página de aterrissagem e projeto em um local central.
+feature: Fundamentos do Workspace
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 28%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
