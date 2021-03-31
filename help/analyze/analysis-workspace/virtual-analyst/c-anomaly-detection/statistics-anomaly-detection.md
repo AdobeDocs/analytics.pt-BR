@@ -1,11 +1,13 @@
 ---
 description: Inconsistências de dados podem causar grandes problemas. Saiba como identificar anomalias estatísticas com técnicas de detecção de anomalias da Adobe. Comece hoje mesmo.
 title: Técnicas estatísticas usadas na Detecção de anomalias
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+feature: Ferramentas AI
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 99%
 
 ---
 
