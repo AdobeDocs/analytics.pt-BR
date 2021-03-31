@@ -1,10 +1,14 @@
 ---
 description: Você pode filtrar pelas dimensões que adiciona à grade de rótulos de linhas. Os filtros restringem os dados retornados pelas solicitações e podem ser aplicados a partir de layouts pivô ou personalizados. Quando você configura a filtragem de dimensões a partir do layout dinâmico, pode especificar, adicionalmente, o número de entradas da célula.
 title: Filtrar visão geral das dimensões
-topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +21,7 @@ O formulário de filtro selecionado agora é preenchido com base no elemento e n
 
 ## Definir filtro - valores e caracteres especiais {#section_15840216A4044C40974945FAA435AD93}
 
-Informações sobre filtros no painel **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
+Informações sobre filtros no painel **[!UICONTROL Filtro mais popular]** > **[!UICONTROL Definir filtro]**.
 
 ![](assets/define_filter.png)
 
@@ -64,7 +68,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col3"> <p>Exclui <span class="term"> abc</span>, <span class="term"> abc def</span> e corresponde a <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Igual </p> </td> 
+   <td colname="col1"> <p>Igual a </p> </td> 
    <td colname="col02"> <p>Retorna uma correspondência exata. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
    <td colname="col3"> <p> <span class="term"> abc</span> é retornado e nada mais. </p> </td> 
@@ -85,7 +89,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Termina com </p> </td> 
    <td colname="col02"> <p>Retorna os resultados que terminam com um valor específico. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Corresponde a <span class="term"> wxyz</span> mas não a <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avançado (caracteres especiais) </p> </td> 
@@ -114,8 +118,8 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
-   <td colname="col2"> Igual </td> 
+   <td colname="col1"> " </td> 
+   <td colname="col2"> Igual a </td> 
    <td colname="col3"> <p>Sem espaço a não ser quando emparelhado com outra citação. Por exemplo, <span class="term"> Monitor de 17 pol.</span> não é uma frase. </p> </td> 
   </tr> 
   <tr> 
