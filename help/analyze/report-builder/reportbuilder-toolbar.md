@@ -1,13 +1,14 @@
 ---
 description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Report Builder.
 title: Barra de ferramentas do Report Builder
-topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 92%
+source-wordcount: '306'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +21,7 @@ Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suple
 
 ![](assets/report_builder_toolbar.png)
 
-**Fazer logon:** exibe o   LogInformar para que você possa fazer logon com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/report-builder/setup/login.md).
+**Fazer logon:** exibe o   Loginformation, para que você possa fazer logon com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Criar:** Inicia o [!UICONTROL Assistente de solicitações]. Se você não tiver feito logon, será solicitado a fazê-lo. Consulte [Solicitações de dados](/help/analyze/report-builder/data-requests/data-requests.md).
 
