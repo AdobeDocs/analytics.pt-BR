@@ -1,13 +1,14 @@
 ---
 description: Você pode proteger todas as solicitações em uma pasta de trabalho em comparação a adicionar e editar solicitações ao bloquear a pasta de trabalho. Isso permite editar pastas de trabalho offline, pausando todas as solicitações de relatório para obter uma edição mais eficiente.
 title: Bloquear/desbloquear pastas de trabalho
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
