@@ -1,11 +1,13 @@
 ---
 title: Gráfico de dispersão
 description: Uma visualização que mostra a relação entre até três métricas.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+feature: Visualizações
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
