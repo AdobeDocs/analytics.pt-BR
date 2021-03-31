@@ -1,11 +1,13 @@
 ---
 description: Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 title: Introdução ao Reports and Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '701'
-ht-degree: 100%
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 99%
 
 ---
 
