@@ -1,13 +1,14 @@
 ---
 description: Você pode agendar relatórios para envio de acordo com a hora e o formato de arquivo definidos.
 title: Programar uma solicitação de dados
-topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1025'
-ht-degree: 100%
+feature: Report Builder
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
