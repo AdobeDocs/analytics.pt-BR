@@ -1,11 +1,13 @@
 ---
 description: Crie um painel em branco como ponto de partida para qualquer visualização.
 title: Painel em branco
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '57'
-ht-degree: 100%
+feature: Painéis
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 95%
 
 ---
 
