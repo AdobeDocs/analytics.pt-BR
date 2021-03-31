@@ -1,12 +1,13 @@
 ---
 title: Relatório de práticas recomendadas e solução de problemas
 description: Práticas recomendadas e dicas de solução de problemas ao gerar relatórios.
-keywords: best practices;failure;timeout;troubleshooting;slow
-translation-type: ht
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+keywords: práticas recomendadas, falha, tempo limite, solução de problemas, lento
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +29,7 @@ Os fatores a seguir contribuem para o aumento do tempo de geração dos relatór
 
 * **Intervalo de tempo do relatório**: o fator mais importante que afeta o tempo de geração de relatório é o número de solicitações mensais. A redução do número de meses de três para um diminui bastante o tempo de geração, mas a redução do intervalo de tempo de um mês para uma semana não tem um grande impacto no tempo de geração do relatório.
 * **Quantidade de métricas**: Quando a quantidade de métricas aumenta, o tempo de execução do relatório também aumenta. A remoção das métricas pode melhorar o tempo de geração de relatórios.
-* **Quantidade de interrupções**: Dentro de um relatório, cada interrupção representa uma solicitação diferente. Enquanto solicitações individuais podem ser concluídas rapidamente, a execução de milhares de interrupções em um único relatório pode retardar o tempo de geração de um relatório e afetar a relação do conjunto de relatórios.
+* **Número de detalhamentos**: Dentro de um relatório, cada detalhamento representa uma solicitação separada. Enquanto solicitações individuais podem ser concluídas rapidamente, a execução de milhares de interrupções em um único relatório pode retardar o tempo de geração de um relatório e afetar a relação do conjunto de relatórios.
 * **Complexidade do segmento**: Segmentos que consideram várias dimensões ou têm muitas (mais de 24) regras aumentam o impacto do processo e aumentam o tempo de geração de relatório.
 * **Número de valores únicos**: relatórios que contêm centenas de milhares de valores únicos são gerados mais lentamente do que relatórios que contém poucos valores únicos, mesmo que o segmento ou filtro reduza o número de valores que aparecem em um relatório. Por exemplo, normalmente um relatório que exibe os termos é gerado mais lentamente do que outros relatórios, mesmo que se aplique um filtro para exibir somente os termos de pesquisa que contêm um valor específico.
 
