@@ -1,10 +1,14 @@
 ---
 description: Metas permitem medir o desempenho do site e acompanhar o progresso em relação às metas-alvo. Por exemplo, você pode querer aumentar o número de visitantes que vêm de uma região geográfica, a receita por pedido, ou o número de visitas que vêm de uma referência específica.
 title: Metas
-topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +25,11 @@ Quando você cria metas, você seleciona quais métricas de atributo ou eVars vo
 
 Por exemplo, você pode medir o número de visitantes únicos para o seu site, e usá-lo como meta. Neste caso, escolha o site inteiro. No entanto, se você desejar definir como meta o número de visitantes únicos no seu site a partir de Chicago, você pode especificar este eVar em vez de visualizar o seu site inteiro.
 
-## Descrições do campo de destino {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Descrições do campo de destino  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
 
-Descrições dos campos e opções na [!UICONTROL Add/Edit Target] página.
+As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar destino].
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +40,7 @@ Descrições dos campos e opções na [!UICONTROL Add/Edit Target] página.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Nome da Meta </td> 
+   <td colname="col1"> Target Nome </td> 
    <td colname="col2">Atribua um nome para a meta, exibida na página <span class="wintitle">Gerenciamento de metas</span>. </td> 
   </tr> 
   <tr> 
@@ -72,14 +76,14 @@ t_add_a_target.xml
 
  -->
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. Na [!UICONTROL Target Manager] página, clique em **[!UICONTROL Add New]**.
+1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
+1. Na página [!UICONTROL Gerenciador de metas], clique em **[!UICONTROL Adicionar novo]**.
 1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
 ## Editar uma meta {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Metas]**.
+1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
 1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
