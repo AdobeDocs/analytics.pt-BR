@@ -2,13 +2,14 @@
 description: Saiba mais sobre como os dados são coletados no Adobe Analytics.
 subtopic: Get started
 title: Sobre a coleta de dados
-topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 96%
 
 ---
 
