@@ -1,23 +1,25 @@
 ---
-description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar em comportamentos disponíveis no Analysis Workspace.
+description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de atalho (atalhos)
+title: Teclas de atalho
+feature: Fundamentos do Workspace
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 74%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 
-# Teclas de atalho (atalhos)
+# Teclas de atalho
 
-Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação contínua, análise, adição de painéis e visualizações e democratização (compartilhamento).
+Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise, adição de painéis e visualizações e democratização (compartilhamento).
 
 Observação:
-* `Ctrl` = Windows e `Command` = Mac
-* `Alt` = Windows e `Option` = Mac
+* `Ctrl` = Windows e  `Command` = Mac
+* `Alt` = Windows e  `Option` = Mac
 
 ## Ações de navegação
 
@@ -48,7 +50,7 @@ Observação:
 | Desfazer | ctrl + z |
 | Atualizar componentes | alt + shift + r |
 | Atualizar projeto | alt + r |
-| Definir como página de aterrissagem | ctrl + shift + l |
+| Definir como página inicial | ctrl + shift + l |
 
 ## Adicionar painéis e ações de visualização
 
