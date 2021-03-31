@@ -2,13 +2,13 @@
 description: Um painel é uma coleção de relatórios miniatura chamados de reportlets. Um painel é mais útil quando contém reportlets relacionados que completam as visões gerais de aspectos específicos de seu site como, por exemplo, localizar métodos, perfis de visitantes, etc.
 subtopic: Dashboards
 title: Painéis e reportlets
-topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1819'
-ht-degree: 100%
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
@@ -91,7 +91,7 @@ Antes de adicionar um relatório (como um reportlet) a um painel, defina o layou
 
    Salvar um painel o torna disponível no menu **[!UICONTROL painel]**. O novo painel também está disponível em [!UICONTROL Gerenciador do painel] (**[!UICONTROL Favoritos]** > **[!UICONTROL Painéis]** > **[!UICONTROL Gerenciador]**), onde você pode editar, organizar, compartilhar, arquivar painéis e muito mais. (Consulte [Gerenciamento de painéis](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Opcional) Para configurar o painel como página inicial, clique em **[!UICONTROL Mais opções]** > **[!UICONTROL Definir Como Página Inicial]**.
+1. (Opcional) Para configurar o painel como página inicial, clique em **[!UICONTROL Mais opções]** > **[!UICONTROL Definir como página inicial]**.
 
 ## Criar um reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -201,7 +201,7 @@ t_dashboard_edit.xml
 | Mudar uma data de relatório | Para um painel, clique no calendário. (todos os reportlets no painel refletem a alteração de data.)<br>Para uma reportlet, clique no link da data e, em seguida, configure o calendário. |
 | Dar um nome a um painel | Abra um painel e clique em [!UICONTROL Mais] > [!UICONTROL Renomear]. |
 | Visualizar um arquivo de painel | Clique em [!UICONTROL Mais] > [!UICONTROL Visualizar arquivo]. |
-| Definir o painel como uma página de aterrissagem | Em um painel, clique em [!UICONTROL Mais] > [!UICONTROL Definir como página de aterrissagem]. |
+| Definir o painel como página inicial | Em um painel, clique em [!UICONTROL Mais] > [!UICONTROL Definir como página inicial]. |
 | Fazer o download de um painel | No painel, clique em [!UICONTROL Mais] > Baixar. |
 | Imprimir um painel | No painel, clique em [!UICONTROL Mais] > Imprimir. |
 | Salvar um painel | Em um painel, clique em Salvar como e, em seguida, especifique um nome. |
