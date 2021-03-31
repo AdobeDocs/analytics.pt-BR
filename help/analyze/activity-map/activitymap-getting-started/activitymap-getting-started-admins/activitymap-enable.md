@@ -1,13 +1,14 @@
 ---
 description: Explica as etapas que o Administrador do Analytics precisa completar para ativar a coleta de links e o download do usuário no Activity Map.
 title: Habilitar o Activity Map
-topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+feature: Activity Map
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 99%
 
 ---
 
