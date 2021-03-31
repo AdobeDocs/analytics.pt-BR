@@ -1,11 +1,13 @@
 ---
 description: Como os totais do Workspace são calculados.
 title: Totais do Workspace
+feature: Tabelas de forma livre
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +27,9 @@ Em **[!UICONTROL Configurações da coluna]**, há opções para **[!UICONTROL M
 
 ![](assets/column-settings-total.png)
 
-## Configurações do Total de linhas estáticas {#static-row-total}
+## Configurações do Total de linhas estáticas  {#static-row-total}
 
-Os totais de [linhas estáticas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) se comportam de maneira diferente e são controlados em **[!UICONTROL Configurações da linha]**.
+Os totais de [linhas estáticas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=pt-BR) se comportam de maneira diferente e são controlados em **[!UICONTROL Configurações da linha]**.
 
 * **[!UICONTROL Mostrar a soma das linhas atuais como total]**: mostra uma soma das linhas da tabela do lado do cliente, o que significa que o total **não** removerá a duplicação de métricas como visitas ou visitantes.
 * **[!UICONTROL Mostrar total geral]**: mostra uma soma do lado do servidor, o que significa que o total removerá a duplicação de métricas como visitas ou visitantes.
