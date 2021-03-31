@@ -2,10 +2,12 @@
 description: A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como "Horas do dia" ou "Dias de semana".
 title: Dimensões de separação de tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '232'
+feature: Fundamentos do Workspace
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
