@@ -2,13 +2,14 @@
 description: Cada um dos principais gráficos de comparação mostra uma pontuação de diferenças que é calculada de acordo com diversos testes estatísticos, dependendo da comparação que é feita. No entanto, independentemente do teste que for usado, a pontuação de diferenças é exibida como um valor entre 0 e 1.
 keywords: Analysis Workspace;Segment IQ
 title: Testes estatísticos usados na comparação entre segmentos
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
