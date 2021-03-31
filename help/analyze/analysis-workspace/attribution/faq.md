@@ -1,11 +1,13 @@
 ---
 title: Perguntas frequentes sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
-translation-type: ht
-source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+feature: Atribuição
+role: Profissional de negócios, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
