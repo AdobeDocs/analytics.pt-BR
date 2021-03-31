@@ -1,10 +1,14 @@
 ---
 description: Este procedimento descreve como ocultar ou mostrar cabeçalhos.
 title: Ocultar ou mostrar cabeçalhos
-topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
+feature: Report Builder
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 93%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Este procedimento descreve como ocultar ou mostrar cabeçalhos.
 
-Clique **[!UICONTROL Hide/Show]** na saída [!UICONTROL Pivot Layout] ou [!UICONTROL Custom Layout] na saída do [!UICONTROL Request Wizard: Step 2] formulário.
+Clique em **[!UICONTROL Ocultar/Exibir]** na saída do [!UICONTROL Layout dinâmico] ou do [!UICONTROL Layout personalizado] no formulário [!UICONTROL Assistente de solicitações: etapa 2].
 
 ![](assets/hide_show_header.png)
 
