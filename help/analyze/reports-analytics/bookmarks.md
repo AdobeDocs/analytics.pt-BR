@@ -2,10 +2,14 @@
 description: Os marcadores concedem acesso aos relatórios que você mais usa. Os marcadores criados são adicionados à Experience Cloud e estão disponíveis em recursos integrados como conectores de dados.
 subtopic: Bookmarks
 title: Gerenciador de marcador
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Noções básicas do Reports & Analytics
+role: Profissional de negócios, Administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +28,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador]**.
 
        |Nome|Um nome amigável para este marcador.|
        |---|---|
@@ -34,7 +38,7 @@ t_bookmarks_creating.xml
    
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
-After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. Você pode editar, excluir e organizar seus marcadores e pastas a partir de um único local. 
+Após criar marcadores de relatórios, você pode gerenciá-los no [!UICONTROL Gerenciador de marcadores]. Você pode editar, excluir e organizar seus marcadores e pastas a partir de um único local. 
 
 <!-- 
 
@@ -42,7 +46,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Marcadores]**.
 
 **Meus marcadores**
 
