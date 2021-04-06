@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
 feature: Fundamentos do Workspace
 role: Profissional de negócios, Administrador
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
-ht-degree: 99%
+source-wordcount: '8326'
+ht-degree: 98%
 
 ---
-
 
 # Novidades no Analysis Workspace
 
 Para obter acesso às Notas de versão da Adobe Experience Cloud como um todo, acesse [aqui](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR).
+
+## Março de 2021
+
+| Recurso | Data alvo | Descrição |
+| --- | --- | --- |
+| [!UICONTROL Componentes]  > Preferências  [!UICONTROL do usuário] | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações [!UICONTROL Analysis Workspace] e seus componentes relacionados para o usuário. [!UICONTROL As ] preferências do usuário se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para o   User preferencespage:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Number format_)</li><li>Configurações do relatório: Separador CSV</li><li>Projetos do Workspace: Ajuda > Ativar dicas</li><li>Projetos do Workspace: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
+| [!UICONTROL Previsão do bucket inteligente do histograma] | 25 de março de 2021 | [!UICONTROL O Histograma ] Predição de bucket inteligente ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de buckets para sua propagação de dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
+
 
 ## Fevereiro de 2021
 
