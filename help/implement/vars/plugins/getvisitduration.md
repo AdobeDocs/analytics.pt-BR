@@ -1,11 +1,11 @@
 ---
 title: getVisitDuration
 description: Rastreia por quanto tempo um visitante esteve no site até o momento.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
