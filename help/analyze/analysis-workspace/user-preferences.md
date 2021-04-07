@@ -1,19 +1,19 @@
 ---
 title: Como definir as preferências do usuário no Analysis Workspace
 feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
+exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 31%
+source-wordcount: '214'
+ht-degree: 65%
 
 ---
 
-
 # Preferências do usuário
 
-A página [!UICONTROL Components] > [!UICONTROL User preferences] permite gerenciar configurações para o Analysis Workspace e seus componentes relacionados no nível do usuário. As preferências do usuário se aplicam a todos os *novos* projetos ou painéis.
+A página [!UICONTROL Components] > [!UICONTROL User preferences] permite gerenciar configurações para o Analysis Workspace e seus componentes relacionados no nível do usuário. As preferências do usuário se aplicam a todos ** novos projetos ou painéis.
 
 ![Preferências do usuário](assets/user-preferences.png)
 
@@ -34,10 +34,10 @@ As preferências do projeto se aplicam a novos projetos e painéis criados no An
 | --- | --- | --- |
 | **Exibir** |  |  |
 |  | [Densidade da exibição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) | <ul><li>Compacto</li><li>Confortável</li><li>Expandido (padrão)</li></ul> |
-|  | [Paleta de cores](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | <ul><li>paletas fornecidas por Adobe (padrão)</li><li>Paletas definidas pelo cliente</li></ul> |
+|  | [Paleta de cores](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | <ul><li>Paletas fornecidas pela Adobe (padrão)</li><li>Paletas definidas pelo cliente</li></ul> |
 | **Dados** |  |  |
-|  | [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
-|  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pelo Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
-|  | [Tipo de painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
-|  | Formato de número | <ul><li>1.000.00 (padrão)</li><li>1.000,00</li><li>1.000,00</li></ul> |
-|  | Caractere separador de CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
+|  | [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#report-suite) | <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
+|  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#calendar) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pelo Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
+|  | [Tipo de painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
+|  | Formato de número | <ul><li>1.000,00 (padrão)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | Separador CSV caractere | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
