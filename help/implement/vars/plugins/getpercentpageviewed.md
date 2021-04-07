@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: Recupere a porcentagem da página que o visitante visualizou.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
    * Evento: principal – biblioteca carregada (início da página)
 1. Adicione à regra acima uma ação com a seguinte configuração:
    * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: Inicializar getPercentPageViewed
+   * Tipo de ação: inicializar getPercentPageViewed
 1. Salve e publique as alterações na regra.
 
 ## Instale o plug-in usando o editor de código personalizado do Launch
