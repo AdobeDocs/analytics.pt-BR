@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
