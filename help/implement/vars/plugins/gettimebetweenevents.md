@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
