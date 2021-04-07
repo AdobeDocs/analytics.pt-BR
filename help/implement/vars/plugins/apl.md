@@ -1,11 +1,11 @@
 ---
 title: apl (appendToList)
 description: Anexe valores a variáveis que suportam vários valores.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
