@@ -1,11 +1,11 @@
 ---
 title: getVisitNum
 description: Rastreia o número da visita atual de um visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb1cdcb53732be46037a79587fc2541e629496e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
