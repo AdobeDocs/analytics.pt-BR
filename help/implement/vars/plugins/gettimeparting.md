@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Meça o tempo em que uma ação específica ocorre.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ O Analysis Workspace fornece dimensões semelhantes e predefinidas formatadas de
 
 >[!IMPORTANT]
 >
->A versão 4.0+ desse plug-in é significativamente diferente das versões anteriores. A Adobe recomenda implementar esse plug-in &quot;do zero&quot;. O código que faz referência ao plug-in antes da versão 4.0 não é compatível com a versão atual desse plug-in.
+>A versão 4.0+ desse plug-in é bem diferente das versões anteriores. A Adobe recomenda implementar esse plug-in &quot;do zero&quot;. O código que faz referência ao plug-in antes da versão 4.0 não é compatível com a versão atual desse plug-in.
 
 ## Instale o plug-in usando a extensão Adobe Experience Platform Launch
 
@@ -109,7 +109,7 @@ Gana está no fuso horário UTC/GMT. Este exemplo mostra que nenhum argumento de
 
 ### Contabilização para navegadores Internet Explorer
 
-Use o exemplo a seguir se desejar excluir dados de hora do visitante do Internet Explorer. O valor retornado de navegadores IE é apenas no horário local do visitante.
+Use o exemplo a seguir se quiser excluir dados de divisão de tempo dos visitantes do Internet Explorer. O valor retornado de navegadores IE está apenas no horário local do visitante.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Resultados de chamadas
 
-Considere um cenário em que um visitante de Denver Colorado visita um site em 31 de agosto de 2020 às 9h15.
+Se um visitante de Denver, Colorado, acessar um site em 31 de agosto de 2020 às 9h15.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->As versões anteriores desse plug-in não acomodavam todos os anos no futuro. Se você usar uma versão anterior desse plug-in, o Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro.
+>As versões anteriores desse plug-in não acomodavam todos os anos no futuro. Se você usar uma versão anterior desse plug-in, a Adobe recomenda que você atualize para a versão mais recente para evitar erros de JavaScript e perda de dados. Se a atualização desse plug-in não for viável, verifique se a variável `s._tpdst` no código do plug-in contém os anos apropriados no futuro.
 
 ### 4.0 (22 de agosto de 2016)
 
