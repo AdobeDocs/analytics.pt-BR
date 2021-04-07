@@ -1,11 +1,11 @@
 ---
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ Se você pretende implementar o Cross-Device Analytics usando a compilação em 
 ## Limitações específicas da compilação em campo
 
 * A compilação em campo funciona melhor em conjuntos de relatórios que têm uma alta taxa de identificação/autenticação do usuário.
-* Embora props e eVars tenham regras para como caracteres em maiúsculas e minúsculas são tratados para fins de relatório, a compilação em campo não transforma a prop ou o eVar usado para compilação de qualquer maneira. A compilação em campo usa o valor no campo especificado, pois ele existe após as regras VISTA e as regras de pós-processamento. O processo de compilação diferencia maiúsculas de minúsculas. Por exemplo, se às vezes a palavra &quot;Bob&quot; aparecer na propriedade/eVar e, às vezes, a palavra &quot;BOB&quot; aparecer, eles serão tratados como duas pessoas separadas pelo processo de compilação.
-* Como a compilação em campo diferencia maiúsculas de minúsculas, o Adobe recomenda revisar quaisquer regras VISTA ou regras de processamento que se aplicam à propriedade ou ao eVar usado para a compilação em campo. Eles precisam ser revistos para garantir que nenhuma dessas regras esteja introduzindo novas formas da mesma ID. Por exemplo, você deve garantir que nenhuma VISTA ou regra de processamento esteja introduzindo letras minúsculas na propriedade ou no eVar em apenas uma parte das ocorrências.
-* A compilação em campo não suporta o uso de mais de uma prop ou eVar para fins de compilação. Por exemplo, se o eVar 12 contiver ID de login e o eVar 20 contiver ID de email, você deverá escolher uma delas.
+* Embora props e eVars tenham regras para como caracteres em maiúsculas e minúsculas são tratados para fins de relatório, a compilação em campo não transforma a prop ou eVar usada para compilação de maneira alguma. A compilação em campo usa o valor no campo especificado, pois ele existe após as regras VISTA e as regras de pós-processamento. O processo de compilação diferencia maiúsculas de minúsculas. Por exemplo, se às vezes aparecer a palavra &quot;Bob&quot; na prop/eVar e, às vezes, a palavra &quot;BOB&quot;, elas serão tratadas como duas pessoas separadas pelo processo de compilação.
+* Como a compilação em campo diferencia maiúsculas de minúsculas, a Adobe recomenda revisar quaisquer regras VISTA ou regras de processamento que se aplicam à prop ou eVar usada para a compilação em campo. Elas precisam ser revistas para garantir que nenhuma dessas regras introduza novas formas da mesma ID. Por exemplo, você deve garantir que nenhuma regra VISTA ou de processamento introduza letras minúsculas na prop ou eVar em apenas uma parte das ocorrências.
+* A compilação em campo não aceita o uso de mais de uma prop ou eVar para fins de compilação. Por exemplo, se a eVar 12 contiver ID de logon e a eVar 20 contiver ID de email, você deverá escolher uma delas.
 * A compilação em campo não combina nem concatena campos (por exemplo, eVar10 + prop5).
-* A prop ou eVar deve conter um único tipo de ID. Por exemplo, o prop ou eVar não deve conter uma combinação de IDs de logon e IDs de email.
-* Se várias ocorrências ocorrerem com o mesmo carimbo de data e hora para o mesmo visitante, mas com valores diferentes na prop de identificação ou eVar, o CDA escolherá com base na ordem alfabética. Portanto, se o visitante A tiver duas ocorrências com o mesmo carimbo de data e hora e uma das ocorrências especificar Bob e a outra especificar Ann, o CDA escolherá Ann.
+* A prop ou eVar deve conter um único tipo de ID. Por exemplo, a prop ou eVar não deve conter uma combinação de IDs de logon e IDs de email.
+* Se houver várias ocorrências com o mesmo carimbo de data e hora para o mesmo visitante, mas com valores diferentes na prop ou eVar de compilação, o CDA escolherá por ordem alfabética. Portanto, se o visitante A tiver duas ocorrências com o mesmo carimbo de data e hora e uma das ocorrências especificar Bob e a outra especificar Ann, o CDA escolherá Ann.
 
 
 ## Próximas etapas
 
-Assim que sua organização atender a todos os requisitos e entender as limitações, você poderá iniciar a [Configuração do Cross-Device Analytics](setup.md).
+Assim que a sua organização atender a todos os requisitos e compreender as limitações, você poderá começar a [Configurar o Cross-Device Analytics](setup.md).
