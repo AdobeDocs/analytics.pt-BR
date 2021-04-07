@@ -1,11 +1,11 @@
 ---
 title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
