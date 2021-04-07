@@ -1,11 +1,11 @@
 ---
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ As ocorrências não autenticadas e autenticadas em novos dispositivos são cont
 
 A repetição ocorre diariamente ou semanalmente, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar os dados históricos em uma janela de pesquisa definida:
 
-* A repetição diária usa uma janela de lookback de 1 dia
-* A repetição semanal usa uma janela de retrospectiva de 7 dias.
+* A repetição diária usa uma janela de pesquisa de 1 dia
+* A repetição semanal usa uma janela de pesquisa de 7 dias.
 
 Se um dispositivo enviar dados inicialmente sem autenticação e fizer logon, o CDA vinculará essas ocorrências não autenticadas à pessoa correta. A tabela a seguir representa os mesmos dados acima, mas mostra números diferentes com base na repetição dos dados.
 
