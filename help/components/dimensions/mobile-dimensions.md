@@ -1,11 +1,11 @@
 ---
 title: Dimensões móveis
-description: Dimension com base no endereço IP do dispositivo.
-translation-type: tm+mt
+description: Dimensões com base no endereço IP do dispositivo.
+translation-type: ht
 source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ As dimensões móveis fornecem insight sobre as propriedades dos dispositivos m�
 
 ## Preencher essas dimensões com dados
 
-Essas dimensões fazem referência a regras de pesquisa internas do Adobe. [!UICONTROL As ] pesquisas em operadoras de celular são determinadas pelo endereço IP, usando dados obtidos do NetAcuity (um produto de Elementos Digitais).
+Essas dimensões se referem às regras de pesquisa internas da Adobe. As pesquisas em [!UICONTROL Operadoras de celular] são determinadas pelo endereço IP, usando dados que recebemos do NetAcuity (um produto da Digital Elements).
 Se você utilizar uma biblioteca do AppMeasurement (como por meio do Adobe Experience Platform Launch), todas as dimensões móveis funcionarão imediatamente.
 
 ## Descrições de dimensões móveis
@@ -28,7 +28,7 @@ Se você utilizar uma biblioteca do AppMeasurement (como por meio do Adobe Exper
 >Os itens de dimensão rotulados `"None"` são dispositivos não móveis. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão “Dispositivo móvel” para a área de segmento da tela do Workspace.
 
 * **Suporte de áudio para dispositivo móvel**: determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
-* **Operadora** de celular: Os valores dessa dimensão são preenchidos pesquisando dados de terceiros (Elementos digitais) com base nos endereços IP capturados pelo Analytics. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
+* **Operadora de celular**: os valores dessa dimensão são preenchidos procurando dados de terceiros (Digital Elements) com base nos endereços IP que o Analytics capturou. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
 * **Intensidade de cor do dispositivo móvel**: a profundidade de cor do dispositivo móvel, em bits.
 * **Suporte a cookies para dispositivo móvel**: determina se o dispositivo móvel aceita cookies. Este relatório não indica se o navegador aceita cookies. Os itens de dimensão incluem `"Supported"`, `"Not supported"` e `"Unknown"`.
 * **Dispositivo móvel**: o dispositivo móvel que o visitante usa.
