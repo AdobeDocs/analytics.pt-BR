@@ -1,11 +1,11 @@
 ---
 title: p_fo (uma vez na página)
 description: Garanta que determinadas rotinas sejam acionadas apenas uma vez por página.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
