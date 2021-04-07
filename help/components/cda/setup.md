@@ -1,9 +1,9 @@
 ---
 title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
