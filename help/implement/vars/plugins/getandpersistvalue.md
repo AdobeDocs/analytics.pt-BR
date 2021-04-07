@@ -1,11 +1,11 @@
 ---
 title: getAndPersistValue
 description: Armazene um valor que pode ser recuperado posteriormente a qualquer momento.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2970e05abf0d1f963175db6e3554aa0e3034a70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
