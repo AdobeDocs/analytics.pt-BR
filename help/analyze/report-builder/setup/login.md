@@ -3,21 +3,21 @@ description: Saiba como fazer logon no Report Builder usando a conta de logon do
 title: Como fazer logon no Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Logon no Report Builder
 
 >[!IMPORTANT]
 >
->O Report Builder versão 5.6.47 e posterior é compatível somente com o login do Experience Cloud e não é compatível com logons herdados, como o Logon único do Site Catalyst ou o Logon Padrão. Até 30 de abril de 2021, todos os usuários do Report Builder devem atualizar o Suplemento do Report Builder para a versão 5.6.47 ou posterior, que inclui uma atualização crítica para o processo de logon.
+>O Report Builder versão 5.6.47 e posterior é compatível somente com o login do Experience Cloud e não é compatível com logons herdados, como o Logon único do Site Catalyst ou o Logon Padrão. **Até 22 de julho de 2021, todos os usuários do Report Builder devem atualizar o Suplemento do Report Builder para a versão 5.6.47 ou posterior, que inclui uma atualização crítica para o processo de logon.**
 
 Para fazer logon no Report Builder, use sua conta de login do Experience Cloud.
 
@@ -43,4 +43,3 @@ Para iniciar sessão no Report Builder
    * Clique duas vezes em uma solicitação no Excel.
 
 1. Complete os campos na página de [!UICONTROL Logon], e depois clique em **[!UICONTROL OK]**.
-
