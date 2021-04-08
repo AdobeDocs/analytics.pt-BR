@@ -1,16 +1,16 @@
 ---
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
-translation-type: ht
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+translation-type: tm+mt
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 86%
 
 ---
 
-
-# Cross-Device Analytics
+# Análise entre dispositivos
 
 O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 
@@ -45,8 +45,9 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * O CDA está disponível somente no Analysis Workspace.
 * O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
 * Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma organização IMS. Como o CDA compila os dispositivos em um conjunto de relatórios específico, o CDA não pode ser usado para compilar dados em várias organizações IMS.
-* No momento, o CDA não é compatível com os Atributos do cliente. Esses dois recursos podem coincidir em conjuntos de relatórios virtuais separados que fazem referência ao mesmo conjunto de relatórios de origem.
+* O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) encontrado no Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais CDA (baseados em gráfico privado ou em compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Ou seja, as dimensões baseadas em Atributos do cliente não estão disponíveis para uso nos conjuntos de relatórios virtuais CDA.
 * No momento, o CDA não é compatível com o A4T.
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Consulte [Conjuntos de relatórios virtuais](../vrs/vrs-about.md) e [Processamento de tempo de relatório](../vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
 * Não há suporte para a API 1.4. Os conectores do Power BI e do Report Builder dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
+* O monitoramento ativo do processo de compilação do CDA por Adobe está limitado apenas aos conjuntos de relatórios de produção.
