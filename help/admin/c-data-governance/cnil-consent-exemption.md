@@ -1,14 +1,14 @@
 ---
 description: Saiba mais sobre as diretrizes e recomendações para o consentimento dos usuários ao armazenamento ou à leitura de cookies não essenciais em dispositivos ou navegadores.
 title: Quais são as diretrizes da CNIL para consentimento e cookies do usuário?
-translation-type: ht
-source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
+translation-type: tm+mt
+source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 90%
 
 ---
-
 
 # Isenção de consentimento da CNIL
 
@@ -18,7 +18,7 @@ As Diretrizes preveem uma isenção limitada do requisito de consentimento (&quo
 
 * 25 meses de retenção máxima.  Você pode examinar suas configurações atuais de retenção de dados em Analytics > Admin > Governança de dados.  [Retenção de dados](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=pt-BR)
 * Desative cookies de terceiros na ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=pt-BR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=pt-BR#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=pt-BR#id-service-api)
-* Limite de 13 meses para cookies definido como uma data estática, não cumulativa.  Você pode substituir a expiração do cookie do Analytics usando a variável `cookieLifetime`.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=pt-BR)
+* Limite de cookies de 13 meses.  Você pode substituir a expiração do cookie do Analytics usando a variável `cookieLifetime`.  Os cookies do Experience Cloud, incluindo o Analytics e a ECID, estendem a data de expiração do cookie com cada visita.  Para definir uma expiração de cookie estática e não cumulativa, é possível: (1) grave o código personalizado para definir uma data na qual excluir o cookie ou (2) use sua CMP para controlar a data da redefinição do cookie.   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=pt-BR) cookieLifetimeand  [Experience Cloud Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
 * Escopo limitado. O escopo do cookie deve ser limitado a um único site ou aplicativo. [Cookies do navegador](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=pt-BR&quot;\l&quot;third-party-cookie-implementations)
 * Anonimização. Torne anônimo o último octeto do endereço IP. [Configurações gerais da conta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=pt-BR)
 * Oculte a ID de visitante dos relatórios.  Por padrão, as IDs de visitante não estão visíveis no Adobe Workspace e no Adobe Reports and Analytics.  As IDs de visitante estão disponíveis nos Feeds de dados e no Data Warehouse.  O acesso aos Feeds de dados e ao Data Warehouse pode ser limitado pelas [Permissões de acesso no Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) e [Referência da coluna Feed de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=pt-BR#columns%2C-descriptions%2C-and-data-types)
