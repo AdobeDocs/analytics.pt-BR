@@ -1,14 +1,14 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # Perguntas frequentes
 
@@ -65,7 +65,7 @@ Em algumas situações, um usuário individual pode ser associado a um grande n�
 
 ## Qual é a diferença entre a métrica Pessoas no CDA e a métrica “Visitantes únicos” fora do CDA?
 
-A métrica [Pessoas](/help/components/metrics/people.md) é semelhante à métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes exclusivos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-Device Analytics está ativado. Uma nova métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), está disponível e é aproximadamente igual aos Visitantes únicos fora do Cross-Device Analytics.
+A métrica [Pessoas](/help/components/metrics/people.md) é semelhante à métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes únicos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-Device Analytics está ativado. Uma nova métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), está disponível e é aproximadamente igual aos Visitantes únicos fora do Cross-Device Analytics.
 
 ## Qual é a diferença entre a métrica “Dispositivos únicos” no CDA e a métrica “Visitantes únicos” fora do CDA?
 
@@ -97,3 +97,11 @@ Se você quiser trocar os métodos de identificação do CDA, entre em contato c
 ## Como a Adobe manipula limites exclusivos para uma eVar usada na compilação em campo?
 
 O CDA extrai itens de dimensão de eVar antes de serem otimizados para o relatórios. Você não precisa se preocupar com limites únicos para fins de CDA. No entanto, se você tentou usar essa prop/eVar em um projeto do Workspace, ainda é possível ver o item de dimensão [(tráfego baixo)](/help/technotes/low-traffic.md).
+
+## Quantos conjuntos de relatórios da minha empresa podem ser habilitados para o CDA?
+
+Vários conjuntos de relatórios podem estar ativados, no entanto, cada conjunto de relatórios adicional aumentará o tempo de provisionamento geral se vários conjuntos de relatórios forem solicitados ao mesmo tempo. O CDA não mescla conjuntos de relatórios. Cada conjunto de relatórios habilitado para o CDA precisa ser de natureza entre dispositivos (contendo dados de várias superfícies, como Web para desktop, Web móvel, aplicativo móvel etc.)
+
+## Se minha organização de Experience Cloud (também conhecida como organização IMS) tem várias empresas em diferentes regiões, posso habilitar o CDA para todas elas?
+
+Não. Para a mesma organização, somente uma região pode ter o CDA ativado.
