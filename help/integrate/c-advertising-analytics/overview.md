@@ -1,18 +1,18 @@
 ---
 description: Descubra tudo o que você pode fazer com o Advertising Analytics neste manual detalhado, incluindo permissões necessárias e dimensões e métricas disponíveis.
 title: Um manual para o Advertising Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Um manual para o Advertising Analytics
 
-O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Antes, quaisquer dados do Google AdWords/DFA ou do Microsoft Bing Ads teriam que ser visualizados no Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você tem os dados a seguir no Adobe Analytics: Impressões, Cliques, Custos, Pontuação de qualidade e Posição média diretamente de todos os mecanismos de pesquisa, assim como Instâncias de ID do AMO (Instâncias de clique).
+O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Antes, quaisquer dados do Google AdWords/DFA ou do Microsoft Bing Ads teriam que ser visualizados no Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você obterá os seguintes dados no Adobe Analytics: Impressões, cliques, Custos de dados diretamente dos mecanismos de pesquisa, bem como Instâncias de ID do AMO (Instâncias de clique). A Pontuação de qualidade e as Posições médias não serão mais coletadas, pois o Google descontinuou essas métricas em setembro de 2019.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ O Advertising Analytics adiciona as dimensões e métricas a seguir ao Analysis 
 | Impressões do AMO | O número de impressões de publicidade relatadas pelo mecanismo de pesquisa. |
 | Cliques do AMO | O número de cliques em publicidades relatados pelo mecanismo de pesquisa. |
 | Custo do AMO | O custo pago para cada palavra-chave/publicidade conforme relatado pelo mecanismo de pesquisa. |
-| Pos. média | Uma métrica calculada que reflete a posição média das publicidades, conforme reportado pelo mecanismo de pesquisa. |
-| Média Pontuação de qualidade | Uma métrica calculada que reflete a classificação de qualidade média, conforme reportado pelo mecanismo de pesquisa. |
