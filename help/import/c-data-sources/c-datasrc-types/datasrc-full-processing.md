@@ -2,20 +2,20 @@
 description: A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 title: Processamento completo
 topic: Desenvolvedor e implementação
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 97%
 
 ---
-
 
 # Processamento completo
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. A Adobe planeja descontinuar as fontes de dados de processamento completo no futuro. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe planeja descontinuar as fontes de dados de processamento completo em 31 de julho de 2021. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -256,4 +256,3 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
  </tbody> 
 </table>
-
