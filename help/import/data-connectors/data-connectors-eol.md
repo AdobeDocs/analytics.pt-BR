@@ -1,14 +1,14 @@
 ---
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Fim da vida útil do Adobe Data Connectors
 
@@ -81,7 +81,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Lyris HQ | Substituição |
 | MaritzCX (V 2.0) | Substituição |
 | Merkle | Substituição |
-| Integração oficial do Oracle Eloqua | Substituição |
+| Integração oficial do Oracle Eloqua | Migração para o Exchange |
 | optivo broadmail (Episerver) | Migração para o Exchange |
 | Qualtrics v2 | Migração para o Exchange |
 | Responsys 2.0 | Substituição |
