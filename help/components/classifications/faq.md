@@ -1,14 +1,14 @@
 ---
 title: Perguntas frequentes sobre classificações
 description: Perguntas frequentes sobre o uso de classificações.
-translation-type: ht
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
+translation-type: tm+mt
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 92%
 
 ---
-
 
 # Perguntas frequentes sobre classificações
 
@@ -34,6 +34,8 @@ Sim, *entretanto, cada item de dimensão será contado como uma chamada de servi
 * O uso do construtor de regras de classificação não classifica itens inexistentes e, portanto, não implica nenhum custo extra.
 
 ## Como posso classificar valores que contêm caracteres especiais?
+
+Não há suporte para o uso de espaços em branco à esquerda e à direita nos dados de classificação e de ocorrência, pois o Adobe Analytics truncará os caracteres em branco desses dados.
 
 Geralmente, não é recomendado usar caracteres especiais nos relatórios, como vírgulas ou aspas duplas. No entanto, em alguns casos, a sua utilização é necessária. Se os valores dos relatórios tiverem tais caracteres que você optar por classificar, siga estas etapas:
 
