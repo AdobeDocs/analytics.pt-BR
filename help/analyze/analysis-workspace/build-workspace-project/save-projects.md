@@ -1,20 +1,20 @@
 ---
-description: Saiba mais sobre as diferentes opções de salvar, incluindo salvar automaticamente, salvar como e salvar como modelo.
+description: Saiba mais sobre as diferentes opções de gravação, incluindo salvar automaticamente, salvar como, salvar como modelo e abrir versões anteriores.
 title: Salvar projetos
 feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 69%
+ht-degree: 54%
 
 ---
 
 # Salvar projetos
 
-Para salvar as alterações em um projeto, acesse o menu **[!UICONTROL Projeto]** do Workspace. Além disso, a Adobe salva automaticamente projetos em determinados casos.
+Para salvar as alterações em um projeto, acesse o menu **[!UICONTROL Projeto]** do Workspace. O Workspace também salva automaticamente projetos em determinados casos.
 
 ## Salvar opções do projeto {#Save}
 
@@ -22,8 +22,8 @@ Há diferentes ações de salvamento que podem ser feitas no menu **[!UICONTROL 
 
 | Ação | Descrição |
 |---|---| 
-| **[!UICONTROL Salvar]** | Salve as alterações no seu projeto. Se o projeto for compartilhado, os recipients do projeto também verão as alterações. Ao salvar seu projeto pela primeira vez, você será solicitado a fornecer um nome, uma descrição (opcional) e adicionar tags (opcional). |
-| **[!UICONTROL Salvar com notas]** | Antes de salvar o projeto, adicione observações sobre o que foi alterado no projeto. As notas serão armazenadas com a versão do projeto e estarão disponíveis para todos os editores em Projeto > Abrir versão anterior. |
+| **[!UICONTROL Salvar]** | Salve as alterações no seu projeto. Se o projeto for compartilhado, os recipients do projeto também verão as alterações. Ao salvar seu projeto pela primeira vez, você será solicitado a fornecer um nome, uma descrição (opcional) e adicionar tags (opcional) ao projeto. |
+| **[!UICONTROL Salvar com notas]** | Antes de salvar o projeto, adicione observações sobre o que foi alterado no projeto. As notas são armazenadas com a versão do projeto e estão disponíveis para todos os editores em [!UICONTROL Project] > [!UICONTROL Abrir versão anterior]. |
 | **[!UICONTROL Salvar como]** | Crie um duplicado do seu projeto. O projeto original não será afetado. |
 | **[!UICONTROL Salvar como modelo]** | Salve seu projeto como um [modelo personalizado](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que fica disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
 
@@ -49,7 +49,7 @@ O navegador avisa que as alterações não salvas serão perdidas. Você pode op
 
 ### Falha do navegador ou tempo limite da sessão
 
-Para projetos **existentes**, após retornar ao Workspace, o usuário visualizará um modal **Recuperação do projeto**. Selecionar “Sim” restaurará o projeto a partir da cópia local salva automaticamente. “Não” exclui a cópia local salva automaticamente e abre a última versão salva pelo usuário do projeto.
+Para projetos **existentes**, ao retornar ao Workspace, você verá um modal **Recuperação do projeto**. Selecionar &quot;Sim&quot; restaura o projeto da cópia local salva automaticamente. “Não” exclui a cópia local salva automaticamente e abre a última versão salva pelo usuário do projeto.
 
 ![](assets/project-recovery.png)
 
