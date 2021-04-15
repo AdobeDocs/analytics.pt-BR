@@ -2,12 +2,13 @@
 description: Saiba mais sobre as diferentes opções de salvar, incluindo salvar automaticamente, salvar como e salvar como modelo.
 title: Salvar projetos
 feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +23,7 @@ Há diferentes ações de salvamento que podem ser feitas no menu **[!UICONTROL 
 | Ação | Descrição |
 |---|---| 
 | **[!UICONTROL Salvar]** | Salve as alterações no seu projeto. Se o projeto for compartilhado, os recipients do projeto também verão as alterações. Ao salvar seu projeto pela primeira vez, você será solicitado a fornecer um nome, uma descrição (opcional) e adicionar tags (opcional). |
+| **[!UICONTROL Salvar com notas]** | Antes de salvar o projeto, adicione observações sobre o que foi alterado no projeto. As notas serão armazenadas com a versão do projeto e estarão disponíveis para todos os editores em Projeto > Abrir versão anterior. |
 | **[!UICONTROL Salvar como]** | Crie um duplicado do seu projeto. O projeto original não será afetado. |
 | **[!UICONTROL Salvar como modelo]** | Salve seu projeto como um [modelo personalizado](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que fica disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
 
@@ -52,3 +54,12 @@ Para projetos **existentes**, após retornar ao Workspace, o usuário visualizar
 ![](assets/project-recovery.png)
 
 Para **novos** projetos que nunca foram salvos, as alterações não salvas não são recuperáveis.
+
+## Abrir versão anterior {#previous-version}
+
+Para abrir uma versão anterior de um projeto:
+
+1. Ir para Projeto > Abrir versão anterior
+1. Revise a lista de versões anteriores disponíveis. O carimbo de data e hora e o editor são fornecidos, além de notas se foram adicionadas quando o editor foi salvo. As versões sem notas são armazenadas por 90 dias; versões com notas são armazenadas por 1 ano.
+1. Selecione uma versão anterior e clique em Carregar.
+1. A versão anterior será carregada com uma notificação. A versão anterior não se tornará a versão salva atual do projeto até você clicar em Salvar. Ao sair da versão carregada, ao retornar, você verá a última versão salva do projeto.
