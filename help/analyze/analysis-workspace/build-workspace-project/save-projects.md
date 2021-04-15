@@ -5,10 +5,10 @@ feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 70%
+source-wordcount: '465'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Para **novos** projetos que nunca foram salvos, as alterações não salvas não
 
 ## Abrir versão anterior {#previous-version}
 
+>[!NOTE]
+>
+>As versões anteriores do projeto estão atualmente na versão limitada.
+
 Para abrir uma versão anterior de um projeto:
 
-1. Ir para Projeto > Abrir versão anterior
-1. Revise a lista de versões anteriores disponíveis. O carimbo de data e hora e o editor são fornecidos, além de notas se foram adicionadas quando o editor foi salvo. As versões sem notas são armazenadas por 90 dias; versões com notas são armazenadas por 1 ano.
-1. Selecione uma versão anterior e clique em Carregar.
-1. A versão anterior será carregada com uma notificação. A versão anterior não se tornará a versão salva atual do projeto até você clicar em Salvar. Ao sair da versão carregada, ao retornar, você verá a última versão salva do projeto.
+1. Vá para **[!UICONTROL Projeto]** > **[!UICONTROL Abrir versão anterior]**
+1. Revise a lista de versões anteriores disponíveis.
+    Os carimbos de data e hora e   o editor são exibidos, além de   Notas, se foram adicionados quando o   Editor foi salvo. As versões sem notas são armazenadas por 90 dias; versões com notas são armazenadas por 1 ano.
+1. Selecione uma versão anterior e clique em **[!UICONTROL Carregar]**.
+A versão anterior é carregada com uma notificação. A versão anterior não se torna a versão salva atual do projeto até que você clique em **[!UICONTROL Salvar]**. Ao sair da versão carregada, ao retornar, você verá a última versão salva do projeto.
