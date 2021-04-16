@@ -3,16 +3,16 @@ description: Personalize detalhadamente o acesso dos usuários, inclusive a eVar
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar permissões de dimensões
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # Personalizar permissões de dimensões
 
@@ -43,7 +43,7 @@ Entenda as informações a seguir sobre a categoria Dimensão para permissões.
 * Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis.
 * Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html) em que se baseia a classificação.
 
-Para obter mais informações, consulte Alterações [de permissão de](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/permissions-changes.html)usuário e grupo.
+Para obter mais informações, consulte [Alterações nas permissões de usuários e grupos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Personalizar dimensões**
 
@@ -63,14 +63,14 @@ Os itens a seguir são dimensões que você pode permitir.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
-   <td colname="col2"> <p>As props são variáveis de tráfego personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/evar.html">Props de tráfego e eVars de conversão</a> em Implementação do Analytics. </p> </td> 
+   <td colname="col2"> <p>As props são variáveis de tráfego personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Props de tráfego e eVars de conversão</a> em Implementação do Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html"> Hierarquia </a> </p> </td> 
    <td colname="col2"> <p> A variável de hierarquia (hierN) determina a localização de uma página da hierarquia do site ou na estrutura da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Com funcionamento semelhante ao das Propriedades de lista, as variáveis de lista permitem vários valores na mesma solicitação de imagem. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Os itens a seguir são dimensões que você pode permitir.
    <td colname="col2"> <p>Esta Integração de parceiro não está mais ativa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Esta Integração de parceiro não está mais ativa. </p> </td> 
   </tr> 
   <tr> 
