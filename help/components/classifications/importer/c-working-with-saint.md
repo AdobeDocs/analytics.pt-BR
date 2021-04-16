@@ -2,16 +2,16 @@
 description: Use o importador para enviar suas classificações para o Adobe Analytics. Você também pode exportar os dados para atualização antes de uma importação.
 subtopic: Classifications
 title: Importador de classificações - visão geral
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '145'
+exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
-
 
 # Importador de classificações - visão geral
 
