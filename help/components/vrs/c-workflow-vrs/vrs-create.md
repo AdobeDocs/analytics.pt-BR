@@ -1,17 +1,17 @@
 ---
 description: Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das informações a seguir.
-keywords: Virtual Report Suite
+keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
-topic: Reports and analytics
+feature: Noções básicas do Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 99%
 
 ---
-
 
 # Criar conjuntos de relatórios virtuais
 
@@ -66,4 +66,3 @@ Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das infor
   </tr> 
  </tbody> 
 </table>
-
