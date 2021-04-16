@@ -2,16 +2,16 @@
 description: As fontes de dados fornecem duas outras formas de integrar os eventos que ocorrem offline a seus dados online.
 subtopic: Data sources
 title: Integração de transição e de clientes
-topic: Desenvolvedor e implementação
+topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 84%
 
 ---
-
 
 # Integração de transição e de clientes
 
@@ -64,6 +64,6 @@ As IDs de transação são utilizadas para registrar o estado de um visitante em
 
 O cliente geralmente é anônimo quando muda de online para offline.
 
-Os eventos de ID de transação não são incluídos nas métricas de Participação de visita (exibidas nos relatórios de marketing). Isso ocorre porque os dados da ID de transação não estão associados a uma visita (porque o evento offline normalmente não faz parte do evento online), mas estão associados ao visitante.
+Os eventos de ID de transação não são incluídos nas métricas de Participação de visita (exibidas nos relatórios de marketing). Isso ocorre porque os dados da ID de transação não estão associados a uma visita (porque o evento offline geralmente não faz parte do evento online), mas são associados ao visitante.
 
 Consulte [ID da transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
