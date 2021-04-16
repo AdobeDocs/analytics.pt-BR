@@ -1,16 +1,16 @@
 ---
 description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
 title: Métricas e dimensões em tempo real compatíveis
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # Métricas e dimensões em tempo real compatíveis
 
@@ -29,7 +29,7 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Instâncias
 * Eventos personalizados de 1-100 (caso habilitados no conjunto de relatórios)
 
-## Dimensões suportadas {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensões suportadas  {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Página
 * Palavra-chave de pesquisa
@@ -47,4 +47,3 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Download de arquivo
 * Link de saída
 * Variáveis de Insight Personalizado (props) 1-75 (se habilitado no conjunto de relatórios)
-
