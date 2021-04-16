@@ -2,16 +2,16 @@
 description: As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode proporcionar uma medida mais precisa da atividade do usuário em seu site.
 subtopic: Bot rules
 title: Visão geral das regras de bot
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
+exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1358'
 ht-degree: 99%
 
 ---
-
 
 # Visão geral das regras de bot
 
@@ -32,7 +32,7 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 ## Regras de bot IAB padrão
 
-As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [!UICONTROL Ativar regras de filtragem de bot IAB]. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bots. O Adobe atualiza essa lista do IAB mensalmente.
+As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [!UICONTROL Ativar regras de filtragem de bot IAB]. Esta seleção removerá bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bots. O Adobe atualiza essa lista mensalmente do IAB.
 
 ![](assets/bot-iab-checkbox.png)
 
