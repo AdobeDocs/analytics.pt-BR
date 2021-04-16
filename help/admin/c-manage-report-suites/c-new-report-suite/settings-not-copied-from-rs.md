@@ -1,16 +1,16 @@
 ---
 description: Se você tiver copiado configurações de um conjunto de relatórios existente, uma mensagem do sistema identificará quaisquer configurações não copiadas no novo conjunto de relatórios.
 title: Configurações não copiadas do conjunto de relatórios de origem
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: ht
-source-wordcount: '207'
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Configurações não copiadas do conjunto de relatórios de origem
 
@@ -70,4 +70,3 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
   </tr> 
  </tbody> 
 </table>
-
