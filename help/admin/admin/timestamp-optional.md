@@ -1,16 +1,16 @@
 ---
 description: Combine dados com e sem carimbos de data e hora em um único conjunto de relatórios.
 title: Carimbos opcionais de data e hora
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '319'
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # Carimbos opcionais de data e hora
 
@@ -51,4 +51,3 @@ Os Carimbos opcionais de data e hora permitem que você:
 >[!NOTE]
 >
 >Se um conjunto de relatórios foi definido como **Carimbos opcionais de data e hora**, para alterá-lo para qualquer outra configuração, entre em contato com o Atendimento ao cliente da Adobe.
-
