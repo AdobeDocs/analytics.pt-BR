@@ -2,13 +2,16 @@
 description: A implantação dessa integração é um processo simples que requer as seguintes ações.
 subtopic: Qualtrics
 title: Implantar a integração
-topic: Data connectors
+feature: Conectores de dados
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 98%
 
 ---
-
 
 # Implantar a integração {#deploying-the-integration}
 
@@ -32,7 +35,8 @@ Para ativar a integração você deve concluir o assistente de integração do Q
 1. **Etapa 2 do assistente - Mapeamentos de variáveis** | Lista de respostas do Qualtrics | Selecione uma variável de lista disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
 |---|---|
 | ID de resposta do Qualtrics | Selecione uma eVar ou prop disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
-|  Servidor de rastreamento  |Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use o servidor de rastreamento `trackingServerSecure` se ele for diferente da sua configuração padrão de servidor de rastreamento.  |
+|  Servidor de rastreamento  |Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use a variável 
+`trackingServerSecure` servidor de rastreamento se ele for diferente da configuração padrão do servidor de rastreamento.  |
 | Envios de pesquisas do Qualtrics | Selecione um evento disponível em seu conjunto de relatórios (talvez seja necessário ativar um novo evento no Gerenciador de conjunto de relatórios).  |
 
 1. **Etapa 3 do Assistente**: nada necessário, apenas informativo.
@@ -60,6 +64,7 @@ Após concluir o assistente de integração, você deve ativar a integração pa
 1. Selecione a Configuração do Adobe Analytics e clique em **[!UICONTROL Salvar]**. Se nenhuma configuração estiver disponível, você provavelmente ainda não concluiu o Assistente de integração da Adobe.
    1. A caixa de seleção **[!UICONTROL Incluir respostas parciais]** pode ser usada para indicar que você gostaria de capturar dados no Adobe Analytics depois que cada tela parcial da pesquisa for concluída. Se não estiver marcada, os dados serão transferidos somente para pesquisas totalmente concluídas.
    1. A caixa de seleção **[!UICONTROL Enviar carimbo de data e hora com beacon]** deve ser usada somente durante a integração com um conjunto de relatórios configurado para receber dados com carimbo de data e hora (não comum).
+
    ![](assets/integration_config.png)
 
 ## Verificar a integração {#verifying-the-integration}
@@ -81,5 +86,3 @@ Depois que todas as etapas de implantação forem concluídas você poderá vali
    >Esses dados devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que a pesquisa integrada esteja recebendo respostas ativamente.
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
