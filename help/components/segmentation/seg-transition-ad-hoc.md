@@ -1,13 +1,13 @@
 ---
-description: Se você está acostumado a trabalhar com o Construtor de segmentos na Ad Hoc Analysis, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
-keywords: segmentation;segments
+description: Se você está acostumado a trabalhar com o Construtor de segmentos na Análise ad hoc, estas Perguntas frequentes explicam o que acontece aos segmentos e pastas existentes, e quais ações são necessárias.
+keywords: segmentação, segmentos
 title: Guia de transição para a Ad Hoc Analysis
-topic: Segments
+feature: Segmentos
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '829'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
@@ -35,29 +35,29 @@ Os modelos de segmento são marcados com um ícone especial no Construtor de seg
 
 Em vez de pastas da análise ad hoc, o Gerenciador de segmentos usa tags. Os nomes das pastas são convertidos automaticamente em tags e estas são aplicadas aos respectivos segmentos.
 
-## O que aconteceu com os relatórios agendados com segmentos aplicados? {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## O que aconteceu com os relatórios agendados com segmentos aplicados?  {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
 
 Ao excluir um segmento, os relatórios e painéis agendados com esse segmento aplicado continuam a funcionar normalmente, ou seja, o segmento ou painel continua a usar o segmento excluído.
 
-## O que é um Contêiner de ocorrência? Ele é diferente de um Contêiner de exibições da página? {#section_65BBE60A836C4001938830DDA15DC256}
+## O que é um Contêiner de ocorrência? Ele é diferente de um Contêiner de exibições da página?  {#section_65BBE60A836C4001938830DDA15DC256}
 
 O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências.
 
 Observe que não ocorreu uma alteração na forma como esse contêiner funciona; ele foi apenas renomeado.
 
-## Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos? {#section_648DFA3A882146C485A84ED014EEC707}
+## Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?  {#section_648DFA3A882146C485A84ED014EEC707}
 
 Todos os usuários podem criar e editar segmentos pessoais. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics. Usuários da Ad Hoc Analysis podem ver os segmentos criados e compartilhados diretamente com o usuário.
 
 No console da Web de Segmentação unificada, os administradores podem editar qualquer segmento e compartilhá-los com grupos ou com as pessoas na organização.
 
-## É possível visualizar todos os segmentos na minha empresa? {#section_AC2D328C7410419E80C7C17971CD95B3}
+## É possível visualizar todos os segmentos na minha empresa?  {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 Todos os segmentos da análise ad hoc que você possui e os segmentos compartilhados com você são exibidos.
 
-## É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 A análise ad hoc só exibe segmentos criados por você ou que tenham sido compartilhados com você. Somente para a análise ad hoc é possível usar o Gerenciador de segmento (Organizar segmentos) para gerenciar os segmentos da análise ad hoc. Use o Gerenciador de segmentos na Segmentação unificada para gerenciar todos os segmentos do Analytics.
 
@@ -68,7 +68,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
 * Exclua os segmentos que não são mais necessários.
 
-## Como a Adobe recomenda que eu limpe os segmentos? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Como a Adobe recomenda que eu limpe os segmentos?  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Marque todos os segmentos com uma tag legada.
 * Analise todos os seus segmentos.
@@ -79,7 +79,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 
 Se o segmento foi publicado na Experience Cloud, não é possível excluí-lo nem editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
 
-## Mais informações sobre o que acontece com os segmentos existentes {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Mais informações sobre o que acontece com os segmentos existentes  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
