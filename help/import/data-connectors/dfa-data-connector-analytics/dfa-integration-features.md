@@ -2,16 +2,16 @@
 description: 'Depois de ativada, a integração do DFA do Data Connectors oferece as seguintes métricas para seus relatórios do Adobe Analytics '
 keywords: DFA
 title: Recursos da integração
-topic: Data connectors
+feature: Conectores de dados
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # Recursos da integração {#integration-features}
 
@@ -63,4 +63,3 @@ Se **[!UICONTROL SearchCenter]** > **[!UICONTROL Desduplicação do DFA]** é se
 >[!NOTE]
 >
 >Se SearchCenter > Desduplicação DFA for habilitado e o parâmetro de cadeia de caracteres de consulta do SearchCenter for definido, a visita não será considerada para processamento no DFA. Isso significa que o parâmetro de cadeia de caracteres de consulta do SearchCenter deve ser diferente do parâmetro de click-through do DFA, e nenhum anúncio de exibição deve definir o parâmetro de cadeia de caracteres de consulta do SearchCenter.
-
