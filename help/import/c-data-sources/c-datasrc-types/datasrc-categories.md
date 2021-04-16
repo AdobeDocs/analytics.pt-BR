@@ -2,16 +2,16 @@
 description: As categorias de fonte de dados identificam os diferentes tipos de fonte de dados que oferecem uma funcionalidade semelhante.
 subtopic: Data sources
 title: Visão geral dos tipos de dados e categorias
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral dos tipos de dados e categorias
 
@@ -82,7 +82,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
  </tbody> 
 </table>
 
-## Gerenciamento de Relacionamento com o Cliente (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## Gerenciamento de Relacionamento com o Cliente (CRM)  {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -106,7 +106,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
  </tbody> 
 </table>
 
-## Satisfação do Cliente {#section_1058CA3860044630B0B06EEDA261DBA2}
+## Satisfação do Cliente  {#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -125,7 +125,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
  </tbody> 
 </table>
 
-## Desempenho do Site {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## Desempenho do Site  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -144,7 +144,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
  </tbody> 
 </table>
 
-## Genérico {#section_9B9A2A9871894B6491032AE1E961629A}
+## Genérico  {#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -202,7 +202,7 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
  </tbody> 
 </table>
 
-## Informações privilegiadas e cotas {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## Informações privilegiadas e cotas  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
@@ -230,4 +230,3 @@ As categorias proporcionam um meio de agrupar as fontes de dados baseado na pers
   </tr> 
  </tbody> 
 </table>
-
