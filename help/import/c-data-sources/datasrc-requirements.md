@@ -2,16 +2,16 @@
 description: Informações sobre os requisitos do conjunto de relatórios antes de usar as Fontes de dados.
 subtopic: Data sources
 title: Requisitos e limites de upload
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 98%
 
 ---
-
 
 # Requisitos e limites de upload
 
@@ -29,7 +29,7 @@ As seções a seguir apresentam as limitações aplicáveis às Fontes de dados 
 
 * Cada conta FTP é limitada a 50 MB de dados totais para todos os arquivos. O processamento é interrompido se o tamanho exceder 50 MB, e não reinicia até que o total seja inferior a 50 MB.
 
-## Datas {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Datas  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * Por dia, é possível carregar dados referentes a 90 dias. Se você exceder o limite, o upload será cancelado com uma mensagem de erro informando sobre o excesso do número máximo de dias.
 * É possível importar apenas dados com datas atuais ou passadas. Não tente usar datas futuras nos dados de Fontes de dados.
@@ -90,7 +90,7 @@ Se você enviar um arquivo UTF-8 ou ISO-8859-1 e seu conjunto de relatórios nã
 * O erro é identificado durante a conversão, e, nesse caso, você receberá a seguinte mensagem: &quot;Caractere defeituoso identificado no arquivo na posição 18 durante a conversão de UTF-8 para ISO-8859-1&quot;.
 * O arquivo é processado sem erros, mas você verá dados ilegíveis no relatório.
 
-## Upload de arquivos de log da Web {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Upload de arquivos de log da Web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Os relatórios mais úteis para exibir os dados de log da Web são os relatórios de tráfego, como exibições de página.
 * Os nomes das páginas são exibidos como URL inteiro, incluindo a sequência de consulta.
