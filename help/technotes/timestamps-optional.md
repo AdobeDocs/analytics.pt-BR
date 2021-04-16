@@ -1,17 +1,17 @@
 ---
 description: Saiba mais sobre as vantagens e desvantagens de usar a configuração Carimbos opcionais de data e hora.
-keywords: Analytics Implementation
+keywords: Implementação do Analytics
 title: Usar Carimbos opcionais de data e hora
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # Usar Carimbos opcionais de data e hora
 
@@ -69,7 +69,7 @@ A seguir podemos ver práticas recomendadas e alguns requisitos e restrições q
 
    Dados fora de ordem podem gerar um atraso na chegada dos dados da coleta de dados offline, um atraso na chegada das ocorrências ou em relógios mal ajustados em dispositivos móveis offline. Dados fora de ordem podem prejudicar os cálculos de tempo (como os valores de tempo gasto), as atribuições (persistência de eVar), o número/a contagem de visitas e os relatórios de definição de caminho.
 
-* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/visitor-identification.html). Eles podem fazer com que os dados fiquem fora de ordem.
+* Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](https://docs.adobe.com/content/help/pt-BR/analytics/components/metrics/unique-visitors.html). Eles podem fazer com que os dados fiquem fora de ordem.
 
 * Aplicativos híbridos compostos de um aplicativo (com carimbos de data e hora, dados offline) que abrem um navegador da Web (dados ativos, sem carimbos de data e hora) não devem usar carimbos de data e hora. Eles resultam em relatórios imprecisos da sessão.
 
