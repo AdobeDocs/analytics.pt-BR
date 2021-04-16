@@ -1,16 +1,16 @@
 ---
 description: O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
 title: Gerenciador de código
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '137'
+exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciador de código
 
