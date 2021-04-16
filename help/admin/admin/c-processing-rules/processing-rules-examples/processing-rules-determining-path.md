@@ -2,16 +2,16 @@
 description: Você pode copiar o valor de uma eVar em um prop para ativar a definição de caminho.
 subtopic: Processing rules
 title: Determinar um caminho copiando um valor de eVar em uma propriedade
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '128'
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # Determinar um caminho copiando um valor de eVar em uma propriedade
 
@@ -34,4 +34,3 @@ Quando valores são definidos, a variável à esquerda recebe o valor da variáv
 Por exemplo:
 
 ![](assets/overwrite-empty-prop.png)
-
