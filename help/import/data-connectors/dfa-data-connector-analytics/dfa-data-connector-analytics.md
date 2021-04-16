@@ -2,22 +2,22 @@
 description: Use o DoubleClick para integração de anunciantes com o Adobe Analytics.
 keywords: DFA
 title: Conector de dados do DFA para Adobe Analytics
-topic: Conectores de dados
+feature: Conectores de dados
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
+exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
 
 ---
 
-
 # Conector de dados do DFA para Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->A vida útil da tecnologia Adobe Data Connector será encerrada em 1 de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>A vida útil da tecnologia Adobe Data Connector será encerrada em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 No mercado online cada vez mais complexo e competitivo dos dias atuais, os anunciantes e as agências online devem melhorar continuamente sua compreensão do ambiente de marketing online e do retorno sobre o investimento em anúncios. Apesar de os anunciantes, as agências e os editores possuírem ferramentas individuais que os ajudam a alcançar esses objetivos, a agregação manual de dados de sistemas de dados e processos diferentes pode atrapalhar seriamente a eficácia de campanhas de marketing online, resultando em desempenho da campanha insatisfatório, discrepâncias de dados e confusão.
 
