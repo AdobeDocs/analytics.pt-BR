@@ -2,16 +2,16 @@
 description: O processamento de regras simplifica a coleta de dados e o gerenciamento do conteúdo conforme é enviado para os relatórios.
 subtopic: Processing rules
 title: Visão geral das regras de processamento
-topic: Ferramentas administrativas
+feature: Ferramentas administrativas
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt
-source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
 
 ---
-
 
 # Visão geral das regras de processamento
 
@@ -26,7 +26,7 @@ O processamento de regras simplifica a coleta de dados e o gerenciamento do cont
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-## Permissões de regras de processamento {#section_8A4846688050453784DAE4D89355169A}
+## Permissões das regras de processamento {#section_8A4846688050453784DAE4D89355169A}
 
 Os administradores têm direitos para usar as regras de processamento **por padrão**. Os administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Para obter instruções, consulte []
 
@@ -34,11 +34,11 @@ Os administradores têm direitos para usar as regras de processamento **por padr
 
 >[!IMPORTANT]
 >
->Como as regras de processamento afetam permanentemente os dados do Analytics, o Adobe recomenda que os administradores de regras de processamento recebam treinamento de certificação no Adobe Analytics e se familiarizem com todas as fontes de dados para seus conjuntos de relatórios (sites padrão, sites móveis, aplicativos móveis, API de inserção de dados etc). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
+>Como as regras de processamento afetam permanentemente os dados do Analytics, o Adobe recomenda que os administradores recebam treinamentos certificados no Adobe Analytics e se familiarizem com todas as fontes de dados dos conjuntos de relatórios (sites padrão, sites móveis, aplicativos móveis, API de inserção de dados etc). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
 
 ## Usar dados de contexto para simplificar a coleção de dados {#section_09EEA03612D24C15839631AA9E9668D8}
 
-As variáveis de dados de contexto são um tipo de variável que está disponível somente para as regras de processamento. Para utilizar as variáveis de dados de contexto, os pares de dados chave/valor são enviados por meio da sua implementação e as regras de processamento são utilizadas para capturar esses valores nas variáveis padrão do Analytics. Isso dispensa os programadores de compreender exatamente qual prop e/ou eVar deve conter qual valor.
+As variáveis de dados de contexto são um tipo de variável que está disponível apenas para as regras de processamento. Para utilizar as variáveis de dados de contexto, os pares de dados chave/valor são enviados por meio da sua implementação e as regras de processamento são utilizadas para capturar esses valores nas variáveis padrão do Analytics. Isso dispensa os programadores de compreender exatamente qual prop e/ou eVar deve conter qual valor.
 
 ```js
 s.contextData['author'] = "Robert Munch";
@@ -46,13 +46,13 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-Depois de definidas no código, você pode definir regras de processamento para atribuir valores a variáveis. Por exemplo:
+Depois de definido no código, você pode definir regras de processamento para atribuir valores a variáveis. Por exemplo:
 
 1. Mapear `author` para `eVar2`
 2. Mapear `section` para `prop1` e `eVar3`
 3. Se `author` e `section` existirem, defina `event5`
 
-Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) no guia Implementar usuário para obter mais informações.
+Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) no guia do usuário Implementar para obter mais informações.
 
 ## Usar regras de processamento para transformar dados de ocorrência e eventos de acionador  {#section_8284E72E999244E091CD7FB1A22342B6}
 
