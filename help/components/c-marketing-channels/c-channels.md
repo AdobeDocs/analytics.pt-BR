@@ -2,16 +2,16 @@
 description: Adicionar ou ativar canais de marketing ao Administrador dos Canais de marketing. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
 subtopic: Marketing channels
 title: Gerenciar canais de marketing
-topic: Reports and analytics
+feature: Noções básicas do Reports & Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # Gerenciar canais de marketing
 
@@ -90,4 +90,3 @@ A Adobe fornece vários canais predefinidos durante uma [configuração automát
 >A Adobe recomenda configurar seu relatório em um conjunto de relatório que pode ser usado como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
 >
 >Consulte [Aplicar configurações de conjuntos de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
