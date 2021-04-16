@@ -1,13 +1,16 @@
 ---
 description: Define as configurações comuns para um site de comércio eletrônico.
 title: Comércio
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
-
 
 # Comércio
 
@@ -45,6 +48,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
