@@ -1,16 +1,16 @@
 ---
 description: A funcionalidade do segmento se diferencia entre usuários do nível administrativo e não Administradores.
 title: Direitos do segmento por função
-topic: Segmentos
+feature: Segmentos
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 
 ---
-
 
 # Direitos do segmento por função
 
@@ -43,5 +43,3 @@ A funcionalidade do segmento se diferencia entre usuários do nível administrat
   </tr> 
  </tbody> 
 </table>
-
-
