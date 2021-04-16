@@ -1,15 +1,15 @@
 ---
 description: Perguntas frequentes sobre feeds de dados
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: Feed de dados, tarefa, coluna anterior, coluna posterior, distinção entre maiúsculas e minúsculas
 title: Perguntas frequentes sobre feeds de dados
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # Perguntas frequentes sobre feeds de dados
 
@@ -31,8 +31,14 @@ Se você vir variações de maiúsculas e minúsculas diferentes do mesmo valor 
 
 Os feeds de dados não incluem bots filtrados pelas [regras de bot do Admin Console](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## Por que vejo vários `000` valores na coluna do feed de dados `event_list` ou `post_event_list` ?
+## Por que vejo vários valores `000` na coluna `event_list` ou `post_event_list` do feed de dados?
 
-Alguns editores de planilhas, especialmente o Microsoft Excel, arredondam automaticamente números muito grandes. A `event_list` coluna contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel a trate como um grande número. Ele arredonda os últimos dígitos para `000`.
+Alguns editores de planilhas, especialmente o Microsoft Excel, arredondam automaticamente números muito grandes. A coluna `event_list` contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel a trate como um número grande. Ele arredonda os últimos vários dígitos para `000`.
 
-O Adobe recomenda não abrir `hit_data.tsv` arquivos automaticamente no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
+O Adobe recomenda não abrir automaticamente arquivos `hit_data.tsv` no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
+
+## Por que não posso extrair arquivos &quot;por hora&quot; de dados que têm mais de 7 dias?
+
+Para dados com mais de 7 dias, os arquivos &quot;Por hora&quot; de um dia são combinados em um único arquivo &quot;Diariamente&quot;.
+
+Exemplo: Um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1º de janeiro de 2021 a 9 de março são entregues como &quot;Por hora&quot;. No entanto, os arquivos &quot;por hora&quot; anteriores a 2 de março de 2021 são combinados em um único arquivo &quot;diário&quot;. Você pode extrair arquivos &quot;por hora&quot; somente de dados com menos de 7 dias a partir da data de criação. Nesse caso, de 2 de março a 9 de março.
