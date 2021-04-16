@@ -1,17 +1,17 @@
 ---
 description: Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
-keywords: Virtual Report Suite
+keywords: Conjunto de relatórios virtuais
 title: Exibir informações do conjunto de relatórios virtual
-topic: Reports and analytics
+feature: Noções básicas do Reports & Analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
-
 
 # Exibir informações do conjunto de relatórios virtual
 
@@ -27,4 +27,3 @@ Ao clicar no ícone Informações ao lado do conjunto de relatórios virtual no 
 * Contagem total de visitantes únicos.
 
 ![](assets/vrs-info.png)
-
