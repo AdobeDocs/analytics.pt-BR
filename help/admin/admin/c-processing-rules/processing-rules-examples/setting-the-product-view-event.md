@@ -2,16 +2,16 @@
 description: Eventos podem ser definidos com base em valores de página ou baseados em valores específicos em uma variável.
 subtopic: Processing rules
 title: Definir o evento de exibição de produto na página Visão geral do produto
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '74'
+exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # Definir o evento de exibição de produto na página Visão geral do produto
 
@@ -25,4 +25,3 @@ Eventos podem ser definidos com base em valores de página ou baseados em valore
 Por exemplo:
 
 ![](assets/set-product-view-event.png)
-
