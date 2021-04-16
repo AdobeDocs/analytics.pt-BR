@@ -1,16 +1,16 @@
 ---
 description: O Gerenciador de solicitações permite que você visualize, duplique e priorize novamente as solicitações.
 title: Gerenciar solicitações do Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
+exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 80%
 
 ---
-
 
 # Gerenciar solicitações do Data Warehouse
 
@@ -33,4 +33,4 @@ Esta tabela permite
 
 Clique em um trabalho para ver solicitações individuais para esse trabalho.
 
-* Taxa limitada: Sua organização tem muitas solicitações de Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.
+* Taxa limitada: Sua organização tem muitas solicitações do Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.
