@@ -1,17 +1,17 @@
 ---
 description: O Gerenciador de conjuntos de relatórios virtuais permite aos administradores editar, adicionar, marcar, excluir, renomear, aprovar, copiar, exportar e filtrar conjuntos de relatórios virtuais. Não é visível para usuários não administrativos.
-keywords: Virtual Report Suite
+keywords: Conjunto de relatórios virtuais
 title: Gerenciar conjuntos de relatórios virtuais
-topic: Reports and analytics
+feature: Noções básicas do Reports & Analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 99%
 
 ---
-
 
 # Gerenciar conjuntos de relatórios virtuais
 
