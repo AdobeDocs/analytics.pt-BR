@@ -1,19 +1,22 @@
 ---
 description: O Data Warehouse fornece um recurso que permite a extração de uma lista de IDs do visitante. Essas IDs não são IDs de cookie, mas IDs capturadas em uma de suas variáveis de conversão. Embora existam outras maneiras de obter essas informações, o exemplo a seguir é um atalho para gerar uma solicitação de Data Warehouse.
 title: Caso de uso - Extraindo IDs de visitantes
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
+exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
-
 
 # Caso de uso - Extraindo IDs de visitantes
 
 O Data Warehouse fornece um recurso que permite a extração de uma lista de IDs do visitante. Essas IDs não são IDs de cookie, mas IDs capturadas em uma de suas variáveis de conversão. Embora existam outras maneiras de obter essas informações, o exemplo a seguir é um atalho para gerar uma solicitação de Data Warehouse.
 
-Por exemplo, considera que seus negócios enviam emails de marketing a clientes e compradores em potencial. Cada um desses destinatários de email tem uma ID exclusiva em seu sistema de email (como *`EMAIL Contact ID`*). Você configura seus emails para que um contato ao receber um email e clicar em um de seus links, o visitante possa chegar no site com uma ID da campanha e uma ID de contato de EMAIL exclusiva. Por exemplo, seu link de email pode resolver:
+Por exemplo, considera que seus negócios enviam emails de marketing a clientes e compradores em potencial. Cada um desses destinatários de email tem uma ID exclusiva em seu sistema de email (como *`EMAIL Contact ID`*). Você configura seus emails para que um contato ao receber um email e clicar em um de seus links, o visitante possa chegar no site com uma ID da campanha e uma ID de contato de EMAIL única. Por exemplo, seu link de email pode resolver:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158
