@@ -1,15 +1,15 @@
 ---
 description: Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 title: Logs
-topic: Admin tools
+feature: Ferramentas administrativas
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
-source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
-
 
 # Logs
 
@@ -31,7 +31,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Logon | Filtre o log por nome de usuário. |
 | IP | filtrar o log por endereço IP. |
 | Conjunto de relatórios | filtre o log segundo uma ID de conjunto de relatórios específica. |
-| Tipo de evento | Filtre o log segundo um tipo de evento. Selecione um tipo de evento na lista suspensa. Veja a lista completa dos tipos de evento abaixo. |
+| Tipo de evento | Filtre o log segundo um tipo de evento. Selecione um tipo de evento na lista suspensa. Consulte a lista completa de tipos de evento abaixo. |
 | Evento | Filtre o log por uma palavra ou frase na descrição do evento. |
 | Baixar relatório | Exporta o conteúdo do [!UICONTROL Log de uso e acesso] para o arquivo com tabulações. |
 
@@ -42,10 +42,10 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Sem categoria | Pode ser qualquer tipo de evento. |
 | Falha no logon | Falha no processo de logon do usuário. |
 | Logon realizado com sucesso | Usuário conectado com êxito. |
-| Ação Administrativa | Ocorreu uma ação de administrador, como editar um conjunto de relatórios, alterar configurações de empresa, criar um usuário etc. |
+| Ação Administrativa | Ocorreu uma ação de administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário, etc. |
 | Alteração da configuração de segurança | Uma configuração de segurança foi alterada. |
-| Relatório exibido | Um relatório de Relatórios e análises foi exibido. |
-| Relatório transferido por download | Um relatório de Relatórios e análises foi baixado. |
+| Relatório exibido | Um relatório do Reports &amp; Analytics foi visualizado. |
+| Relatório transferido por download | Foi baixado um relatório do Reports &amp; Analytics. |
 | Alerta enviado | Um alerta foi enviado. |
 | Ação do usuário | As informações do usuário foram editadas. |
 | Ferramenta exibida | Uma ferramenta foi visualizada. |
@@ -55,23 +55,23 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Painéis | Um painel foi gerenciado. |
 | Alertas | Um alerta foi gerenciado. |
 | Eventos de calendário | Um evento de calendário foi gerenciado. |
-| Metas | Um público alvo foi gerenciado. |
+| Metas | Um destino foi gerenciado. |
 | Configurações do relatório | Uma configuração de relatório foi gerenciada. |
 | Relatórios agendados | Um relatório agendado foi gerenciado. |
 | Excluir por IP | A configuração de IP foi alterada. |
 | Nomear páginas | Obsoleto. |
 | Classificações | Uma classificação foi gerenciada. |
 | Fontes de dados | Uma fonte de dados foi gerenciada. |
-| Projeto do espaço de trabalho | Um projeto do Workspace foi exibido ou editado. |
+| Projeto do espaço de trabalho | Um projeto do Workspace foi visualizado ou editado. |
 | Segmento | Um segmento foi criado/editado. |
 | Métrica calculada | Uma métrica calculada foi criada/editada. |
 | Intervalo de datas | Um intervalo de datas foi criado/editado. |
 | Conjunto de relatórios virtuais | Um conjunto de relatórios virtual foi criado/editado. |
 | Análise de contribuição | Um trabalho de análise de contribuição foi executado. |
-| Método de API | Foi feita uma chamada de API. |
+| Método de API | Foi feita uma chamada à API . |
 
 
-## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}
+## Log de alterações do conjunto de relatórios  {#section_3864966639414BBEA871F4D0352F56B6}
 
 O log Alterações do conjunto de relatórios exibe as alterações feitas em seus conjuntos de relatório, fora do de administração.
 
@@ -89,4 +89,3 @@ Ferramentas que podem modificar um conjunto de relatórios fora das [!UICONTROL 
 | IP | filtrar o log por endereço IP. |
 | Evento | Filtre o log por uma palavra ou frase na descrição do evento. |
 | Baixar relatório | Exporta o conteúdo do [!UICONTROL Log de uso e acesso] para o arquivo com tabulações. |
-
