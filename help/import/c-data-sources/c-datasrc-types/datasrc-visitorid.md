@@ -2,16 +2,16 @@
 description: As IDs de visitante podem ser integradas selecionando a categoria Genérica (ID de transação).
 subtopic: Data sources
 title: ID de visitante
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # ID de visitante
 
@@ -23,7 +23,7 @@ Consulte [Integrar dados offline](/help/import/c-data-sources/datasrc-integratin
 
 | Nome da coluna | Descrição |
 |--- |--- |
-| ID de visitante | (Obrigatório) Valor exclusivo que representa um cliente tanto no sistema online como no offline. |
+| ID de visitante | (Obrigatório) Valor único que representa um cliente tanto no sistema online como no offline. |
 | Data | Use o seguinte formato de data: MM/DD/AAAA/HH/mm/SS (por exemplo, 07/14/2017/06/00/00) |
 | Código de rastreamento | Nome do Código de rastreamento. |
 | Categoria | Nome da categoria.  Se você especificar uma categoria, você também deve selecionar um produto. |
