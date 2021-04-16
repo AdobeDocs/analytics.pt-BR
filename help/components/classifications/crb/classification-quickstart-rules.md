@@ -2,12 +2,12 @@
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 subtopic: Classifications
 title: Regras de classificação
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 100%
 
 ---
@@ -294,7 +294,7 @@ Da mesma forma, suponha que você configure duas regras em um conjunto para os s
 
 | Número da regra | Tipo de regra | Correspondência | Definir a classificação | Para |
 |---|---|---|---|---|
-| 1 | Contém | Cowboys | Cidade | Dallas |
+| 3 | Contém | Cowboys | Cidade | Dallas |
 | 2 | Contém | Broncos | Cidade | Denver |
 
 Um usuário pesquisa por *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
@@ -329,10 +329,12 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
-   >
-   >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
+      >
+      >   
+      (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >
+   * Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
 
 1. Especifique se deseja substituir os valores existentes:
