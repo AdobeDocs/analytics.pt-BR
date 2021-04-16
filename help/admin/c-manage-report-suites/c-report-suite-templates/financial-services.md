@@ -1,13 +1,16 @@
 ---
 description: Define configurações comuns para bancos e outras instituições que fornecem acesso a serviços online.
 title: Serviços financeiros
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
+exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
-
 
 # Serviços financeiros
 
@@ -41,6 +44,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
