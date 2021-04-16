@@ -2,16 +2,16 @@
 description: O gerenciamento de usuários e grupos de relatório na página Gerenciamento de usuários permite gerenciar usuários e grupos, além de controlar o acesso a relatórios, ferramentas e conjuntos de relatórios.
 subtopic: Users and groups
 title: Visão geral do gerenciamento de usuários
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '407'
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral do gerenciamento de usuários
 
@@ -66,7 +66,7 @@ Criar um painel padrão para um conjunto de relatórios especificado.
 | [!UICONTROL Requerer que o usuário altere a senha] | (Opcional) Quando selecionado, o usuário deve alterar a senha no próximo logon. |
 | [!UICONTROL Logon Válido a Partir de] | (Opcional) o período de validade de uma conta temporária. |
 
-**Acesso**
+**Access**
 
 <table id="table_5CAF9AAAE7E648B4887CEB7D682292F2"> 
  <thead> 
@@ -95,4 +95,3 @@ Criar um painel padrão para um conjunto de relatórios especificado.
 | [!UICONTROL Mensagem personalizada] | Adiciona conteúdo adicional à mensagem de boas-vindas. O campo de mensagem personalizada oferece suporte a HTML, mas não é possível incluir anexos. |
 | [!UICONTROL Visualizar Email] | Exibe o email de boas-vindas em uma janela separada do navegador. |
 | [!UICONTROL Definir como mensagem de boas-vindas padrão] | Modifica a mensagem de boas-vindas padrão para incluir o conteúdo personalizado especificado no painel Mensagem personalizada. |
-
