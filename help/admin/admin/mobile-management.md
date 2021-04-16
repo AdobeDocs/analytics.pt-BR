@@ -1,15 +1,15 @@
 ---
 description: A habilitação do gerenciamento de aplicativos ativa as variáveis de solução móvel que capturam o ciclo de vida e outras métricas de aplicativos móveis.
 title: Gerenciamento de aplicativos
-topic: Admin tools
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '623'
+feature: Ferramentas administrativas
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciamento de aplicativos
 
@@ -61,9 +61,9 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 | Número de Lançamento | Número de vezes em que o aplicativo foi iniciado ou trazido para o plano de fundo. |
 | Dias desde a primeira utilização | Número de dias desde a primeira execução. |
 | Dias desde a última utilização | Número de dias desde a última utilização. |
-| Hora do dia | Mede a hora em que o aplicativo foi iniciado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso. |
+| Hora do dia | Mede a hora em que o aplicativo foi inicializado e usa o formato numérico de 24 horas. Utilizado para hora do visitante para determinar os tempos de pico de uso. |
 | Dia da semana | Número do dia da semana no qual o aplicativo foi iniciado. |
-| Nome do dispositivo | Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo. O primeiro número normalmente representa a geração do dispositivo e o segundo, versões dos diferentes membros da família do dispositivo. |
+| Nome do dispositivo | Armazena o nome do dispositivo.  Cadeia de caracteres de dígitos separados por vírgulas que identifica o dispositivo. O primeiro número representa a geração do dispositivo e o segundo representa versões dos diferentes membros da família do dispositivo. |
 | Versão do sistema operacional | Versão do sistema operacional. |
 | Resolução | Largura x altura em pixels reais. |
 | Valor da duração (eVar) | Preenchido pelos métodos trackLifetimeValue. |
@@ -81,4 +81,3 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 | Mensagens no aplicativo online |  |
 | Enviar adesão |  |
 | ID da carga útil |  |
-
