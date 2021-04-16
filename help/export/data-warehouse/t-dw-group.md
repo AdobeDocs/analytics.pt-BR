@@ -1,16 +1,16 @@
 ---
 description: Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para um grupo de usuários.
 title: Adicionar grupo de usuários do Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '205'
+exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # Adicionar grupo de usuários do Data Warehouse
 
