@@ -1,16 +1,16 @@
 ---
 description: Permite usar o segmento em atividades de marketing na biblioteca de público-alvo, no Target e no Audience Manager.
 title: Publicar segmentos na Experience Cloud
-topic: Segments
+feature: Segmentos
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
+exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1346'
 ht-degree: 100%
 
 ---
-
 
 # Publicar segmentos na Experience Cloud
 
@@ -51,7 +51,7 @@ Também aumentamos o número máximo de segmentos do Adobe Analytics publicávei
 
 ## Publicar segmentos no [!UICONTROL Construtor de segmentos]
 
-1. Navegue até **[!UICONTROL Analytics > Workspace > Componentes > Segmentos]> +**
+1. Navegue até **[!UICONTROL Analytics > Workspace > Componentes > Segmentos] > +**
 1. Crie um segmento no [!UICONTROL Construtor de segmentos].
 1. Forneça um título e uma descrição para o segmento - caso contrário, você não poderá salvá-lo.
 1. Marque **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
