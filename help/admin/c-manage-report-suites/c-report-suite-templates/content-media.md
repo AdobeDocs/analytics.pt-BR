@@ -1,13 +1,16 @@
 ---
 description: Define configurações comuns de um site que desenvolve conteúdo original e exibe artigos e vídeos.
 title: Conteúdo e mídia
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
-
 
 # Conteúdo e mídia
 
@@ -48,6 +51,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
