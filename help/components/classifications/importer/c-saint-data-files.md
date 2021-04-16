@@ -2,12 +2,12 @@
 description: O importador permite que você faça upload em massa de dados de classificação para relatórios de análise em um arquivo. A importação exige um formato de arquivo específico para fazer upload de dados de maneira bem-sucedida.
 subtopic: Classifications
 title: Arquivos de dados de classificação
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
-source-wordcount: '1771'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1773'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Exige que a Adobe gere automaticamente uma id exclusiva para este elemento. </p> <p>No contexto de campanha, este valor de controle instrui a Adobe a atribuir um identificador para cada elemento criativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Chave</a>. </p> </td> 
+   <td colname="col2"> <p>Exige que a Adobe gere automaticamente uma id única para este elemento. </p> <p>No contexto de campanha, este valor de controle instrui a Adobe a atribuir um identificador para cada elemento criativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Chave</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
@@ -204,5 +204,5 @@ que é a coluna em que o intervalo de datas deve ser inserido.
 
 ## Resolução de problemas envolvendo classificações
 
-* [Problemas comuns com o Upload](https://helpx.adobe.com/br/analytics/kb/common-saint-upload-issues.html): artigo de base de conhecimento que descreve problemas resultantes de formatos de arquivos incorretos e conteúdos de arquivos.
+* [Problemas comuns com o Upload](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): artigo de base de conhecimento que descreve problemas resultantes de formatos de arquivos incorretos e conteúdos de arquivos.
 
