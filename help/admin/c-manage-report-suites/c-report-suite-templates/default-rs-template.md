@@ -1,13 +1,16 @@
 ---
 description: Configura diversas variáveis comuns e eventos bem-sucedidos para um site típico.
 title: Modelo padrão
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
+exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
-
 
 # Modelo padrão
 
@@ -48,6 +51,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
