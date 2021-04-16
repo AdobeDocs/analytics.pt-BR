@@ -2,16 +2,16 @@
 description: Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
 subtopic: Users and groups
 title: Transferir itens da conta do usuário
-topic: Ferramentas administrativas
+feature: Ferramentas administrativas
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
+exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Transferir itens da conta do usuário
 
