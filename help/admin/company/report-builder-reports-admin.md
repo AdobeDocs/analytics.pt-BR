@@ -1,13 +1,16 @@
 ---
 description: Gerencia a licença atribuída aos usuários do Report Builder.
 title: Relatórios do Report Builder
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
+exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
-
 
 # Relatórios do Report Builder
 
