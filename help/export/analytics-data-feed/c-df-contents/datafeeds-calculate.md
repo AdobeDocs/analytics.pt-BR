@@ -1,17 +1,17 @@
 ---
 description: Descreve como calcular métricas comuns usando feeds de dados.
-keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
+keywords: Feed de dados, tarefa, métricas, coluna pré, coluna pós, bots, filtragem de datas, sequência de eventos, comum, fórmulas
 title: Calcular métricas
-topic: Reports and analytics
+feature: Noções básicas do Reports & Analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
-
 
 # Usar feeds de dados para calcular métricas comuns
 
