@@ -1,17 +1,17 @@
 ---
 description: Use o Dynamic Tag Management para adicionar o código de cabeçalho e rodapé que determina o carregamento do JavaScript e do conteúdo da página no site. Você deve instalar o código do cabeçalho e do rodapé em cada página do site, independentemente do método de hospedagem usado.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, código, código de página, código de cabeçalho, código de rodapé, código de incorporação, guia incorporar, incorporar
 title: Adicionar o código do cabeçalho e do rodapé
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
+exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
-
 
 # Adicionar o código do cabeçalho e do rodapé
 
@@ -47,4 +47,3 @@ O Dynamic Tag Management cria códigos de incorporação para preparo e produç�
    >[!NOTE]
    >
    >A diferença entre os trechos de código de preparo e produção é a adição de [!DNL -staging] ao nome do arquivo na versão de preparo. O código do rodapé permanece o mesmo no armazenamento temporário e na produção.
-
