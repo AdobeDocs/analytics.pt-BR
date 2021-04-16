@@ -2,16 +2,16 @@
 description: É possível importar (upload) dados de classificações por meio do navegador. Esse método restringe o upload de seus dados de classificação a um único conjunto de relatórios
 subtopic: Classifications
 title: Importação de navegador
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '305'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # Importação de navegador
 
@@ -51,7 +51,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> Fazer download automático do arquivo de classificação após a importação ser concluída </td> 
-   <td colname="col2"> <p>Faz o download automático de um arquivo delimitado por tabulação que representa o conjunto de dados com os dados de classificações carregados recentemente. A Adobe gera este arquivo automaticamente para você se a importação criar IDs exclusivas ou se ocorrerem erros. </p> </td> 
+   <td colname="col2"> <p>Faz o download automático de um arquivo delimitado por tabulação que representa o conjunto de dados com os dados de classificações carregados recentemente. A Adobe gera este arquivo automaticamente para você se a importação criar IDs únicas ou se ocorrerem erros. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Observe as mensagens de processamento na janela de status.
 1. (Condicional) Se você selecionou **[!UICONTROL Baixar automaticamente o arquivo de classificação quando a importação estiver concluída]**, especifique onde deseja armazenar o arquivo resultante depois que o processamento terminar.
 >Uma importação bem-sucedida exibe imediatamente as alterações apropriadas em uma exportação. No entanto, as alterações de dados nos relatórios levam até quatro horas quando se usa uma importação de navegador e até 24 horas quando se usa uma importação FTP.
-
