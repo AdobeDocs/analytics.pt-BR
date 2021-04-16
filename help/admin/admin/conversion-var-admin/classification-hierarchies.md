@@ -2,16 +2,16 @@
 description: A página Hierarquias de classificação permite definir hierarquias de classificação que você pode usar para criar relatórios de Hierarquia com o mesmo nome.
 subtopic: Classifications
 title: Hierarquias de classificação
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
-source-wordcount: '297'
+exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
-
 
 # Hierarquias de classificação
 
