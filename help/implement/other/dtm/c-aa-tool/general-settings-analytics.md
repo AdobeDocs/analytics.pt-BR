@@ -1,17 +1,17 @@
 ---
 description: Descrições dos campos de configurações gerais no gerenciador dinâmico de tags para implantar o Adobe Analytics.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, configurações gerais, conformidade na ue, conjunto de caracteres, código da moeda, servidor de rastreamento, servidor de rastreamento ssl
 title: Geral
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
+exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 translation-type: tm+mt
-source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
-
 
 # Geral
 
@@ -63,4 +63,3 @@ Descrições de campo das Configurações gerais no DTM para implantar o Adobe A
   </tr> 
  </tbody> 
 </table>
-
