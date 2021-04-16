@@ -2,16 +2,16 @@
 description: As regras de processamento ativas são exibidas na administração.
 subtopic: Processing rules
 title: Exibir as regras de processamento ativas
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '51'
+exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '53'
 ht-degree: 100%
 
 ---
-
 
 # Exibir as regras de processamento ativas
 
