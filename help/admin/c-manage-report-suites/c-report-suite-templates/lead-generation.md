@@ -1,13 +1,16 @@
 ---
 description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais engajamento.
 title: Geração de leads
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
-
 
 # Geração de leads
 
@@ -41,6 +44,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
