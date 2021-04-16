@@ -1,18 +1,18 @@
 ---
 description: A identificação de visitantes em vários dispositivos ajuda você a conectar visitantes em vários dispositivos. A identificação de visitantes entre dispositivos usa a variável de ID de visitante, s.visitorID, para associar um usuário em dispositivos.
-keywords: Analytics Implementation
+keywords: Implementação do Analytics
 subtopic: Visitors
 title: Usuários do Connect em vários dispositivos
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # Usuários do Connect em vários dispositivos
 
