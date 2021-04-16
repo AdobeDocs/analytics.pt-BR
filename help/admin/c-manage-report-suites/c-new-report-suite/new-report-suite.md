@@ -1,16 +1,16 @@
 ---
 description: Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
 title: Configurações do novo conjunto de relatórios
-topic: Ferramentas administrativas
+feature: Ferramentas administrativas
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # Configurações do novo conjunto de relatórios
 
@@ -48,7 +48,7 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/ad
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Página Padrão</span> </td> 
-   <td colname="col2"> <p>(Opcional) elimina dos URLs encontrados as ocorrências do valor <span class="wintitle">Página padrão</span>. Se seu relatório <span class="wintitle">Páginas mais populares</span> contiver URLs em vez de nomes de páginas, esta configuração impedirá que haja vários URLs para a mesma página da Web. </p> <p>Por exemplo, os URLs<span class="filepath"> https://example.com</span> e <span class="filepath"> https://example.com/index.html</span> são normalmente a mesma página. Você pode remover nomes de arquivo irrelevantes para que ambos os URLs sejam exibidos como <span class="filepath"> https://example.com</span> em seus relatórios. </p> <p>Se você não definir esse valor, o Analytics remove automaticamente os seguintes nomes de arquivos dos URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> e <span class="filepath">home.asp</span>. </p> <p>Para desativar a eliminação dos nomes de arquivo, especifique um valor para Página padrão que nunca ocorra em seus URLs. </p> </td> 
+   <td colname="col2"> <p>(Opcional) elimina dos URLs encontrados as ocorrências do valor <span class="wintitle">Página padrão</span>. Se seu relatório <span class="wintitle">Páginas mais populares</span> contiver URLs em vez de nomes de páginas, esta configuração impedirá que haja vários URLs para a mesma página da Web. </p> <p>Por exemplo, os URLs<span class="filepath"> https://example.com</span> e <span class="filepath"> https://example.com/index.html</span> normalmente são a mesma página. Você pode remover nomes de arquivo irrelevantes, de modo que esses dois URLs sejam exibidos como <span class="filepath"> https://example.com</span> em seus relatórios. </p> <p>Se você não definir esse valor, o Analytics remove automaticamente os seguintes nomes de arquivos dos URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> e <span class="filepath">home.asp</span>. </p> <p>Para desativar a eliminação dos nomes de arquivo, especifique um valor para Página padrão que nunca ocorra em seus URLs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data de ativação </p> </td> 
@@ -68,4 +68,3 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/ad
   </tr>  
  </tbody> 
 </table>
-
