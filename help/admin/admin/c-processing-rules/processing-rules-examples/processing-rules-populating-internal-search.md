@@ -2,16 +2,16 @@
 description: Se você usar uma variável comum, como q, para preencher termos de pesquisa, poderá usar regras de processamento para preencher o eVar de termos de pesquisa interna com esses valores.
 subtopic: Processing rules
 title: Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '115'
+exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta
 
@@ -27,4 +27,3 @@ Os valores de sequência de consulta precisam estar codificados em unicode ou UT
 Por exemplo:
 
 ![](assets/populate-internal-search-terms.png)
-
