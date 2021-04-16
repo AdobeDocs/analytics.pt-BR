@@ -2,16 +2,16 @@
 description: Etapas que descrevem como copiar regras de um conjunto de relatórios e substituir ou anexar essas regras a outro conjunto de relatórios.
 subtopic: Processing rules
 title: Cópia das regras de processamento para outro conjunto de relatórios
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '116'
+exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
-
 
 # Cópia das regras de processamento para outro conjunto de relatórios
 
