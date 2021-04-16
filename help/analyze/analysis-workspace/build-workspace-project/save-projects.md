@@ -5,7 +5,7 @@ feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ Para **novos** projetos que nunca foram salvos, as alterações não salvas não
 Para abrir uma versão anterior de um projeto:
 
 1. Vá para **[!UICONTROL Projeto]** > **[!UICONTROL Abrir versão anterior]**
+
+   ![](assets/previous-versions.png)
+
 1. Revise a lista de versões anteriores disponíveis.
     Os carimbos de data e hora e   o editor são exibidos, além de   Notas, se foram adicionados quando o   Editor foi salvo. As versões sem notas são armazenadas por 90 dias; versões com notas são armazenadas por 1 ano.
 1. Selecione uma versão anterior e clique em **[!UICONTROL Carregar]**.
