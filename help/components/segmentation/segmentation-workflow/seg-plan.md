@@ -1,16 +1,16 @@
 ---
 description: Apresenta as etapas e práticas recomendadas que devem ser seguidas ao planejar seus segmentos.
 title: Planejar segmentos
-topic: Segments
+feature: Segmentos
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '208'
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Planejar segmentos
 
@@ -29,4 +29,3 @@ Dedicar algum tempo para planejar segmentos aumenta a probabilidade de eles sere
 
 1. Considera como você deseja que o **processo de aprovação** se desenvolva. Uma única pessoa analisará e aprovará segmentos ou será uma decisão de comitê?
 1. Defina seus segmentos com uma visualização para uma **biblioteca de segmentos** que confere aos usuários de negócios a capacidade de [empilhar](/help/components/segmentation/segmentation-workflow/seg-build.md) e reutilizar partes de segmentos ou componentes de forma modular. Quais &quot;módulos&quot; você precisa definir para transformar essa biblioteca em uma realidade?
-
