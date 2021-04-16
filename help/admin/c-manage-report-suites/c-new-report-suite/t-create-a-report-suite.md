@@ -1,15 +1,15 @@
 ---
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics
 title: Criar um novo conjunto de relatórios
-topic: Admin tools
+feature: Ferramentas administrativas
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
-source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 77%
 
 ---
-
 
 # Criar um novo conjunto de relatórios
 
@@ -19,7 +19,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 
 ## Pré-requisitos
 
-[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Certifique-se de que um administrador de nível de sistema tenha concedido acesso à Adobe Analytics via Admin Console de Experience Cloud.
+[Guia](/help/admin/admin-console/first-admin-guide.md) do primeiro administrador do Adobe Analytics: Certifique-se de que um administrador de nível de sistema tenha concedido acesso ao Adobe Analytics por meio do Admin Console de Experience Cloud.
 
 ## Criar um novo conjunto de relatórios {#create-report-suite}
 
@@ -34,7 +34,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 1. Preencha os campos descritos em [Novo conjunto de relatórios.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Clique em **[!UICONTROL Criar conjunto de relatórios]**.
 
-Uma ID de conjunto de relatórios tem um comprimento máximo de 40 bytes. Um nome amigável ao conjunto de relatórios tem um comprimento máximo de 255 bytes.
+Uma ID de conjunto de relatórios tem um comprimento máximo de 40 bytes. Um nome amigável do conjunto de relatórios tem um comprimento máximo de 255 bytes.
 
 ## Solução de problemas
 
