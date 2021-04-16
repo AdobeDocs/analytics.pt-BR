@@ -2,16 +2,16 @@
 description: 'A configuração da integração do DFA envolve as seguintes tarefas '
 keywords: DFA
 title: Integração do DFA
-topic: Data connectors
+feature: Conectores de dados
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2601'
 ht-degree: 100%
 
 ---
-
 
 # Integração do DFA {#dfa-integration}
 
@@ -49,7 +49,7 @@ As páginas de configuração contêm uma visão geral da integração, além de
    <td colname="col3"> O nome da integração que o Genesis exibe na lista Integração ativa do conjunto de relatórios. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 1 </td> 
+   <td colname="col1"> 3 </td> 
    <td colname="col2"> Endereço de email de integração </td> 
    <td colname="col3"> O endereço de email que recebe todas as notificações relacionadas a essa integração. </td> 
   </tr> 
@@ -131,7 +131,7 @@ Apesar de raro, alguns domínios atingiram a capacidade máxima de cookies para 
 
 Se você já esteve monitorando campanhas de anúncios com o Adobe Analytics antes da integração do DFA, é possível que todas as campanhas (email, pesquisa ou banner) usem o mesmo parâmetro de sequência de consulta para identificar a ID da campanha de referência na página de aterrissagem.
 
-Para entender quando solicitar dados de view-through e de click-through dos dados do DFA para suas campanhas de anúncios do DFA, os Data Connectors precisam identificar quando um visitante clicou em um anúncio de banner de campanha do DFA. Para tornar isso possível, adicione um parâmetro de string de consulta diferenciado ao URL da página de aterrissagem da campanha do anúncio do DFA para que os Data Connectors possam distinguir entre as páginas de campanha de anúncios do DFA e outras páginas de campanhas de anúncios que possam existir em seu site. O plug-in `dfa_overrideParam` do JavaScript usado para o DFA.
+Para entender quando solicitar dados de view-through e de click-through dos dados do DFA para suas campanhas de anúncios do DFA, os Data Connectors precisam identificar quando um visitante clicou em um anúncio de banner de campanha do DFA. Para tornar isso possível, adicione um parâmetro de string de consulta diferenciado ao URL da página de conversão da campanha do anúncio do DFA para que os Data Connectors possam distinguir entre as páginas de campanha de anúncios do DFA e outras páginas de campanhas de anúncios que possam existir em seu site. O plug-in `dfa_overrideParam` do JavaScript usado para o DFA.
 
 >[!CAUTION]
 >
@@ -249,7 +249,7 @@ Em geral, a decisão de aumentar ou diminuir o *`s.maxDelay`* envolve uma compen
 
 *`s.maxDelay`* envolve mais do que apenas o tempo em comunicação de rede para contatar o DFA; também representa atrasos no navegador para disparar e avaliar o JavaScript no qual essas comunicações se baseiam. Isso ocorre porque o módulo Integrate inicia o temporizador *`s.maxDelay`* depois de ter inserido o elemento HTML no DOM que extrai os dados do servidor do DFA Floodlight. O tempo necessário para que o navegador realmente inicie a solicitação HTTP com base nesse novo elemento HTML varia de acordo com outras imagens ou arquivos JavaScript que estão sendo carregados simultaneamente, da velocidade do computador do visitante e de implementações específicas do navegador. Além disso, quando os dados do JSON são recuperados do servidor DFA Floodlight, o JavaScript deve ser avaliado pelo navegador. Isso novamente é controlado completamente pelo navegador e pode ser atrasado se há grandes quantidades de códigos JavaScript em execução simultânea ou muitas solicitações de JavaScript assíncronas.
 
-Tendo isso em mente, o *`s.maxDelay`* precisa ser definido dependendo da complexidade da página de aterrissagem, além da quantidade de atraso de rede com o DFA. Em alguns sites, uma possível forma de diminuir a complexidade é disparar o código de coleta da Adobe no início do carregamento da página, para que haja menos processos em execução no navegador no momento em que o servidor Floodlight estiver sendo solicitado.
+Tendo isso em mente, o *`s.maxDelay`* precisa ser definido dependendo da complexidade da página de destino, além da quantidade de atraso de rede com o DFA. Em alguns sites, uma possível forma de diminuir a complexidade é disparar o código de coleta da Adobe no início do carregamento da página, para que haja menos processos em execução no navegador no momento em que o servidor Floodlight estiver sendo solicitado.
 
 A variável Timeout é absolutamente necessária no ajuste do *`s.maxDelay`*, pois aumenta cada vez que o tempo limite do s.maxDelay é atingido. Ao decidir se aumenta ou diminui o *`s.maxDelay`*, recomendamos seguir este processo:
 
@@ -263,7 +263,7 @@ Agora, com os números em mãos, calcule
 Timeout Percentage = [Step 3] / [Step 2] * 100
 ```
 
-Observe que a porcentagem de tempo limite realmente considera todos os visitantes do site. Alguns desses visitantes não seriam associados ao DFA de maneira alguma, portanto o tempo limite excedido é incorreto. Para melhorar esse cálculo, outra análise pode considerar somente visitantes exclusivos a páginas com o parâmetro `clickThroughParam` definido (por exemplo, `?CID=1`). Isso proporcionará maior precisão.
+Observe que a porcentagem de tempo limite realmente considera todos os visitantes do site. Alguns desses visitantes não seriam associados ao DFA de maneira alguma, portanto o tempo limite excedido é incorreto. Para melhorar esse cálculo, outra análise pode considerar somente visitantes únicos a páginas com o parâmetro `clickThroughParam` definido (por exemplo, `?CID=1`). Isso proporcionará maior precisão.
 
 Se a porcentagem de tempo limite estiver muito baixa, considere diminuir o *`s.maxDelay`*. Se estiver muito alta, aumente o *`s.maxDelay`*. Ao diminuir o *`s.maxDelay`*, execute novamente o [!DNL Timeout Report] para garantir que as ocorrências de excedência do tempo limite não tenham aumentado drasticamente. Ao aumentar o *`s.maxDelay`*, você executará um [!DNL Page Views Report] para garantir que as exibições de página não estejam desaparecendo por causa de dados perdidos. Cada vez que alterar o *`s.maxDelay`*, observe os dados por vários dias para garantir que eles representem uma tendência e não apenas uma flutuação dia após dia.
 
