@@ -1,15 +1,18 @@
 ---
 description: Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
-keywords: Analytics Implementation
+keywords: Implementação do Analytics
 subtopic: Redirects
 title: Redirecionamentos e aliases
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 100%
 
 ---
-
 
 # Redirecionamentos e aliases
 
@@ -31,18 +34,18 @@ O [!DNL Analytics] reúne alguns de seus dados por meio do navegador e depende d
 
 Considere a seguinte situação hipotética na qual o usuário não encontra um redirecionamento:
 
-1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. O usuário aponta seu navegador para `www.google.com`, digita &quot;passagens aéreas com desconto&quot; no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
 1. O navegador exibe os resultados da pesquisa, incluindo um link para seu site, [!DNL https://www.example.com/]. Após exibir os resultados da pesquisa, barra de endereços do navegador exibe os termos de pesquisa que o usuário inseriu no campo de pesquisa ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`.
 1. O usuário clica no link de seu site hipotético [!DNL https://www.example.com/]. Quando o usuário clica nesse link e chega ao site [!DNL example.com], o [!DNL Analytics] usa o JavaScript para coletar o URL de referência (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) e o URL atual (`https://www.example.com/`).
-1. [!DNL Analytics] relata as informações coletadas durante essa interação em vários relatórios, como [!UICONTROL Referring Domains], [!UICONTROL Search Engines]e [!DNL Search Keywords].
+1. O [!DNL Analytics] relata as informações coletadas durante essa interação em diversos relatórios, como [!UICONTROL Domínios de referência], [!UICONTROL Mecanismos de pesquisa] e [!DNL Search Keywords].
 
 ## Exemplo: navegação com redirecionamentos {#section_921DDD32932847848C4A901ACEF06248}
 
 Redirecionamentos podem fazer com que o navegador apague a URL de referência verdadeira. Considere a seguinte situação
 
-1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. O usuário aponta seu navegador para `https://www.google.com`, digita *passagens aéreas com desconto* no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
 1. A barra de endereços da janela do navegador exibe os termos de pesquisa que o usuário digitou no campo de pesquisa `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`. O navegador também exibe uma página que contém os resultados da pesquisa, incluindo um link para um de seus nomes de domínio, [!DNL https://www.flytohawaiiforfree.com/]. Esse domínio *personalizado* é configurado para direcionar o usuário para `https://www.example.com/`.
-1. O usuário clica no link `https://www.flytohawaiiforfree.com/` e é redirecionado pelo servidor para o site principal, `https://www.example.com`. Quando o redirecionamento acontece, os dados que são importantes para a coleta de dados do [!DNL Analytics] são perdidos, porque o navegador apaga a URL de referência. Assim, as informações de pesquisa originais usadas nos [!DNL Analytics] relatórios (por exemplo, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) são perdidas.
+1. O usuário clica no link `https://www.flytohawaiiforfree.com/` e é redirecionado pelo servidor para o site principal, `https://www.example.com`. Quando o redirecionamento acontece, os dados que são importantes para a coleta de dados do [!DNL Analytics] são perdidos, porque o navegador apaga a URL de referência. Assim, as informações da pesquisa original usadas nos relatórios do [!DNL Analytics] (por exemplo, [!UICONTROL Domínios de Referência], [!UICONTROL Mecanismos de Busca] e [!UICONTROL Palavras-chave de Pesquisa]) são perdidas.
 
 ## Implementar redirecionamentos {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
@@ -64,7 +67,7 @@ redirects_js_override.xml
 
  -->
 
-O trecho de código abaixo mostra duas variáveis do JavaScript, *`s_referrer`* e *`s_pageURL`*. Este código está localizado na página de aterrissagem final do redirecionamento.
+O trecho de código abaixo mostra duas variáveis do JavaScript, *`s_referrer`* e *`s_pageURL`*. Este código é colocado na página inicial final do redirecionamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -108,7 +111,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página de aterrissagem final. Use a variável *`s_pageURL`* para substituir a URL atual.
+Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página inicial final. Use a variável *`s_pageURL`* para substituir a URL atual.
 
 Como há muitas maneiras de implementar um redirecionamento, você precisará verificar com seu grupo de operações Web ou parceiro de publicidade on-line para identificar os mecanismos específicos que executam redirecionamentos em seu site.
 
@@ -169,7 +172,7 @@ Essas variáveis serão representadas como os parâmetros a seguir no [Experienc
    <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Esse valor será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>URL da página de aterrissagem final </p> </td> 
+   <td> <p>URL da página inicial final </p> </td> 
    <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Esse valor NÃO será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 
