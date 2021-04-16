@@ -2,16 +2,16 @@
 description: Definições de elementos de interface nas páginas no Construtor de regras de classificação.
 subtopic: Classifications
 title: Regras de classificação - definições
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
-workflow-type: ht
-source-wordcount: '878'
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # Regras de classificação - definições
 
@@ -144,4 +144,3 @@ Essa página permite testar as regras em um conjunto.
 |---|---|
 | Executar teste | Ao testar o conjunto de regras, use as teclas do relatório para ver como serão impactadas pelo conjunto de regras. |
 | Filtro | Filtra os valores no painel [!UICONTROL Resultados]. |
-
