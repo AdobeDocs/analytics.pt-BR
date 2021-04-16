@@ -1,13 +1,16 @@
 ---
 description: Define configurações comuns para um portal de empregos ou site de busca de carreira.
 title: Portal de trabalho
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
-
 
 # Portal de trabalho
 
@@ -41,6 +44,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
