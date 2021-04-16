@@ -2,16 +2,16 @@
 description: Perguntas frequentes sobre o conector de dados do DFA.
 keywords: DFA
 title: Perguntas frequentes
-topic: Conectores de dados
+feature: Conectores de dados
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
+exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 translation-type: tm+mt
-source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 97%
 
 ---
-
 
 # Perguntas frequentes {#frequently-asked-questions}
 
