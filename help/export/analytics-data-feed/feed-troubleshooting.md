@@ -1,16 +1,16 @@
 ---
 description: Essa seção apresenta informações sobre problemas comuns.
-keywords: Data Feed;troubleshooting
+keywords: Feed de dados, solução de problemas
 title: Solução de problemas dos feeds de dados
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
+translation-type: tm+mt
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # Solução de problemas dos feeds de dados
 
@@ -28,7 +28,7 @@ Se receber essa mensagem de erro, considere as seguintes soluções alternativas
 * Alterar as datas, se possível
 * Alterar o conjunto de relatórios, se possível
 
-## Configuração BucketOwnerFullControl para feeds de dados da Amazon S3 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Configuração BucketOwnerFullControl para feeds de dados da Amazon S3  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 O caso de uso comum da Amazon S3 é que o proprietário da conta da Amazon Web Services (AWS) cria um bucket e, em seguida, cria um usuário com permissões para criar objetos nele, além de fornecer credenciais para esse usuário. Nesse caso, os objetos de um usuário pertencem à mesma conta, e o proprietário dela tem o controle total do objeto (ler, excluir etc.). Isso é semelhante ao modo como a entrega por FTP funciona.
 
@@ -54,7 +54,7 @@ Ao fazer as transições de horário padrão -> horário de verão (“Spring Fo
 
 Ao fazer as transições de horário de verão -> horário padrão, (“Fall Back”, outono para trás), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a 2 horas de dados. Por exemplo, se a transição ocorrer às 2:00, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 1:00 às 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O arquivo a seguir começará às 2:00 do horário padrão.
 
-## Sem dados por um período de tempo {#section_72510794694D42A9A75C966B812AEB0F}
+## Sem dados por um período de tempo  {#section_72510794694D42A9A75C966B812AEB0F}
 
 É possível optar por configurar o feed de dados para entregar um arquivo de manifesto se não houver dados coletados por um período específico. Se ativar essa opção, você receberá um arquivo de manifesto semelhante ao seguinte:
 
@@ -65,10 +65,16 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## Não há informações de domínio para relatório de domínio {#section_B7508D65370442C7A314EAED711A2C75}
+## Não há informações de domínio para relatório de domínio  {#section_B7508D65370442C7A314EAED711A2C75}
 
 Algumas operadoras de celular (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Sendo assim, os dados não estão disponíveis para relatório de domínio.
 
 ## Visão geral do processamento de dados {#section_6346328F8D8848A7B81474229481D404}
 
 Antes de processar dados por dia ou por hora, os feeds de dados aguardam até que todas os hits inseridos na coleta de dados no período (dia ou hora) tenham sido gravados no data warehouse. Depois que isso ocorrer, os feeds de dados coletam os dados com carimbos de data e hora que correspondem ao período, compactando-os e reenviando-os via FTP. Nos feeds por hora, os arquivos são normalmente gravados no data warehouse dentro de 15 a 30 minutos depois da hora, mas não há um período de tempo definido. Se não houver dados com carimbos de data e hora correspondentes ao período, o processo tenta novamente o próximo período. O processo do feed de dados atual usa o campo `date_time` para determinar quais hits pertencem à hora. Esse campo se baseia no fuso horário do conjunto de relatórios.
+
+## Formatos de feed de dados &quot;por hora&quot; vs &quot;por dia&quot;
+
+Para dados com mais de 7 dias, os arquivos &quot;Por hora&quot; de um dia são combinados em um único arquivo &quot;Diariamente&quot;.
+
+Exemplo: Um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1º de janeiro de 2021 a 9 de março são entregues como &quot;Por hora&quot;. No entanto, os arquivos &quot;por hora&quot; anteriores a 2 de março de 2021 são combinados em um único arquivo &quot;diário&quot;. Você pode extrair arquivos &quot;por hora&quot; somente de dados com menos de 7 dias a partir da data de criação. Nesse caso, de 2 de março a 9 de março.
