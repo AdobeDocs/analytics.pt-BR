@@ -1,13 +1,16 @@
 ---
 description: A página Gerenciamento de tráfego permite que você especifique as alterações no volume de tráfego esperado. Essas configurações permitem à Adobe alocar os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil.
 title: Gerenciar tráfego
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
+exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciar tráfego
 
