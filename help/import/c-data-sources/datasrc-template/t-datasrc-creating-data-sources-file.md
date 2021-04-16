@@ -2,16 +2,16 @@
 description: O arquivo modelo para importação foi projetado para ajudar você com a importação.
 subtopic: Data sources
 title: Criar um modelo de arquivo de importação
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # Criar um modelo de arquivo de importação
 
@@ -35,8 +35,8 @@ Consulte [Referência do arquivo de importação](/help/import/c-data-sources/da
    | Página do Assistente | Campo | Descrição |
    |--- |--- |--- |
    | 1 | Nome | O nome do modelo que o Analytics exibe no Gerenciador da fonte de dados. |
-   | 1 | Email | O endereço de email que recebe todas as notificações relacionadas ao uso desse modelo de Fonte de Dados. |
-   | 1 | Caixa de seleção das tarifas associadas | Marque a caixa de seleção para indicar que aceita as tarifas associadas à utilização desse modelo de Fonte de Dados. |
+   | 3 | Email | O endereço de email que recebe todas as notificações relacionadas ao uso desse modelo de Fonte de Dados. |
+   | 3 | Caixa de seleção das tarifas associadas | Marque a caixa de seleção para indicar que aceita as tarifas associadas à utilização desse modelo de Fonte de Dados. |
    | 2 | Escolher Métricas | Selecione as métricas para importar usando esta Fonte de Dados. O Analytics recomenda determinadas métricas com base na Categoria e no Tipo de fonte de dados selecionadas na etapa 3.  Para especificar uma métrica diferente, digite o nome em um campo em branco e marque a caixa de seleção para habilitá-la. |
    | 3 | Mapear Métricas | Selecione um evento do Analytics para receber cada métrica importada selecionada na página 2 do Assistente.  Esses eventos (que você nomeou de modo a corresponder aos dados métricos importados que receberão pelas Fontes de Dados) devem ser novos e não devem estar atribuídos.  Se uma variável eVar, Produto ou Código de rastreamento for uma variável de destino, e os valores carregados coincidirem com os valores obtidos, os eventos carregados basicamente adicionam métricas aos valores existentes. Por exemplo, você pode criar uma métrica &quot;Pedidos offline&quot; em uma dimensão de dados de Produtos que já tem Exibições de produto, Check-outs e Pedidos como métricas existentes. |
    | 4 | Escolher Dimensão de Dados | Selecione as dimensões de dados para analisar as métricas importadas nesta Fonte de Dados. O Analytics recomenda determinadas dimensões de dados com base no Tipo de fonte de dados selecionado na etapa 3.  Para especificar uma dimensão de dados diferente, digite o nome em um campo em branco e marque a caixa de seleção para habilitá-la. |
@@ -45,4 +45,3 @@ Consulte [Referência do arquivo de importação](/help/import/c-data-sources/da
 1. Após a criação do modelo, copie os dados nas colunas apropriadas do modelo de Fontes de dados, respeitando o formato dos dados exigido para a coluna de dados.
 
    Resultado da etapa 1. Salve o arquivo de Fontes de dados, usando uma convenção de nomenclatura de sua escolha. O Adobe recomenda usar uma convenção de nomenclatura consistente para todos os arquivos de Fontes de Dados. Use uma extensão de arquivo comum, como .txt ou .tsv (ou não use uma extensão).
-
