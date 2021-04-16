@@ -3,16 +3,16 @@ description: Personalize a permissão de grupo para ferramentas do Analytics e d
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar acesso ao relatório - visão geral
-topic: Ferramentas administrativas
+feature: Ferramentas administrativas
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
+exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 96%
 
 ---
-
 
 # Personalizar acesso ao relatório - visão geral
 
@@ -42,7 +42,7 @@ Por exemplo, você pode criar um grupo com acesso a várias ferramentas do Analy
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Acesso de administradores / grupos predefinidos </p> </td> 
-   <td colname="col2"> <p> Os grupos predefinidos não são mais exigidos para os administradores. Os administradores agora têm acesso a todos os itens (ferramentas, métricas, dimensões), bem como acesso ao serviço da Web, Report Builder e Activity Map. </p> <p>A finalidade dos grupos é conceder ou restringir o acesso de usuários não administrativos. </p> </td> 
+   <td colname="col2"> <p> Os grupos predefinidos não são mais exigidos para os administradores. Agora, os administradores têm acesso a todos os itens (ferramentas, métricas, dimensões) e também ao Serviço da Web, Report Builder e Activity Map. </p> <p>A finalidade dos grupos é conceder ou restringir o acesso de usuários não administrativos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos personalizados </p> </td> 
@@ -102,4 +102,3 @@ Por exemplo, você pode criar um grupo com acesso a várias ferramentas do Analy
   </tr> 
  </tbody> 
 </table>
-
