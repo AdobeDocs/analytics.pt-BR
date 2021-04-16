@@ -1,16 +1,16 @@
 ---
 description: Este recurso permite que você personalize os menus de relatório que são exibidos para um usuário no Reports & Analytics. É possível exibir ou ocultar relatórios, bem como movê-los em pastas diferentes para todos os usuários. Esse recurso é útil se a sua organização utiliza apenas determinados relatórios e não deseja encher o menu esquerdo com dados não utilizados ou irrelevantes.
 title: Personalização do menu
-topic: Ferramentas administrativas
+feature: Ferramentas administrativas
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
+exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
 
 ---
-
 
 # Personalização do menu
 
@@ -20,7 +20,7 @@ As alterações no menu se aplicam a todos os usuários que acessam o conjunto d
 
 >[!NOTE]
 >
->Qualquer alteração na estrutura do menu não afeta a Report Builder. No entanto, a renomeação de um relatório será refletida nessa ferramenta.
+>Qualquer alteração na estrutura do menu não afeta o Report Builder. Entretanto, a renomeação de um relatório se reflete nessa ferramenta.
 
 ## Descrições de personalização de menu {#section_B0D224DACB914A378902A4E0E1234889}
 
@@ -58,4 +58,3 @@ As alterações no menu se aplicam a todos os usuários que acessam o conjunto d
   </tr> 
  </tbody> 
 </table>
-
