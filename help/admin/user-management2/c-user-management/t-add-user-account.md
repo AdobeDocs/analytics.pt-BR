@@ -2,16 +2,16 @@
 description: Etapas que descrevem como adicionar uma conta do usuário.
 subtopic: Users and groups
 title: Adicionar uma conta do usuário
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '85'
+exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
-
 
 # Adicionar uma conta do usuário
 
