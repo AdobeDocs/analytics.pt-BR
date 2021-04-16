@@ -1,13 +1,16 @@
 ---
 description: Caso tenha o Adobe Social habilitado, essa opção permite que você classifique as variáveis Social.
 title: Gerenciamento Social
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
+exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciamento Social
 
