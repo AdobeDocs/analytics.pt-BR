@@ -7,9 +7,9 @@ feature: Noções básicas do Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3405'
 ht-degree: 99%
 
 ---
@@ -157,7 +157,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `page_event_var2` | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. | varchar(100) |
 | `page_event_var3` | Não está mais em uso. Continha dados de módulo de Pesquisa e de Mídia. Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | texto |
 | `page_type` | Usado para preencher a dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md). Usado exclusivamente para páginas 404. Essa variável deve estar vazia ou conter o valor `ErrorPage`. | char(20) |
-| `page_url` | O URL da ocorrência. Removido das solicitações de imagem de rastreamento de link. | varchar(255) |
+| `page_url` | O URL da ocorrência. Em sua pós-variante (post_page_url), o valor é removido para solicitações de imagem de rastreamento de link. | varchar(255) |
 | `pagename` | Usado para preencher a dimensão [Página](/help/components/dimensions/page.md). Se a variável [`pagename`](/help/implement/vars/page-vars/pagename.md) estiver vazia, o Analytics usa `page_url`. | varchar(100) |
 | `paid_search` | Sinalizador que é definido se a ocorrência corresponder à detecção de pesquisa paga. | tinyint unsigned |
 | `partner_plugins` | Não usado. Parte de um recurso raspado. | varchar(255) |
