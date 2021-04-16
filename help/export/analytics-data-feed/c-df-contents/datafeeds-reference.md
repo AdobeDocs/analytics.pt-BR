@@ -3,16 +3,16 @@ description: Dados da tabela que descrevem as colunas no feed de dados.
 keywords: Feed de dados;colunas
 subtopic: data feeds
 title: Referência da coluna de dados
-topic: Reports and Analytics
+feature: Noções básicas do Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3396'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Referência da coluna de dados
 
@@ -70,7 +70,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `duplicated_from` | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
 | `ef_id` | A `ef_id` usada em integrações da Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter informações sobre como sua organização popula as respectivas eVars seria um documento de design da solução específico da sua organização. | varchar(255) |
-| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Incli tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa `event.tsv`. | texto |
+| `event_list` | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Inclui tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa `event.tsv`. | texto |
 | `exclude_hit` | Sinalizador indicando que o hit está excluído dos relatórios. A coluna `visit_num` não é incrementada para hits excluídos.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão de agente usuário<br>4: exclusão com base no endereço IP<br>5: faltam informações essenciais do hit, como `page_url`, `pagename`, `page_event` ou `event_list`<br>6: o JavaScript não processou corretamente o hit<br>7: exclusão específica da conta, como em regras VISTA<br>8: não usada. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
 | `first_hit_page_url` | O primeiro URL do visitante. | varchar(255) |
 | `first_hit_pagename` | Variável usada na dimensão [Original da página de entrada](/help/components/dimensions/entry-dimensions.md). O nome original da página de entrada do visitante. | varchar(100) |
@@ -169,7 +169,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `prev_page` | Não usado. Identificador proprietário da Adobe da página anterior. | int unsigned |
 | `product_list` | Lista de produtos conforme enviado por meio da variável [`products`](/help/implement/vars/page-vars/products.md). Produtos são delimitados por vírgulas, propriedades de produtos individuais são delimitados por ponto e vírgula. | texto |
 | `product_merchandising` | Não usado. Use `product_list` no lugar dela. | texto |
-| `prop1` - `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` -  `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador exclusivo de uma compra, definido usando a variável [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Usado pela coluna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
 | `ref_domain` | Com base na coluna referrer. O domínio de referência da ocorrência. Usado na dimensão [Domínio referenciador](/help/components/dimensions/referring-domain.md). | varchar(100) |
