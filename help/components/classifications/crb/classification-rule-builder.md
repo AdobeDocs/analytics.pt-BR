@@ -2,16 +2,16 @@
 description: Em vez de manter e fazer upload das classificações sempre que seus códigos de acompanhamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. As regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
 subtopic: Classifications
 title: Fluxo de trabalho do criador de regras de classificação
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 97%
 
 ---
-
 
 # Fluxo de trabalho do criador de regras de classificação
 
@@ -52,4 +52,4 @@ Veja as etapas de alto nível que você deve seguir para implementar as regras d
 
 **Blog**: para obter mais informações sobre esse recurso, consulte o Blog de marketing digital: [Classificações com base em regras](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vídeo**: Visualização do vídeo Visão geral [de](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) classificações.
+**Vídeo**: Assista ao vídeo  [Visão geral ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) de classificações .
