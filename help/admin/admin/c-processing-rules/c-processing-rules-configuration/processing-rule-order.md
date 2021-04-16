@@ -2,16 +2,16 @@
 description: Para usar regras de processamento com eficácia, é essencial compreender quando elas são aplicadas durante a coleta dos dados.
 subtopic: Processing rules
 title: Ordem de processamento
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
-translation-type: ht
-source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
-workflow-type: ht
-source-wordcount: '505'
+exl-id: c7143527-017c-4550-b55e-09ea437d7c85
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
-
 
 # Ordem de processamento
 
