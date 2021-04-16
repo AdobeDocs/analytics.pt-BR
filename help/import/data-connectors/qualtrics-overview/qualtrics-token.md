@@ -2,13 +2,16 @@
 description: É necessário usar um token para concluir o assistente de integração. Para localizar essa ID, complete os passos a seguir.
 subtopic: Qualtrics
 title: Geração do token Qualtrics do Adobe Analytics
-topic: Data connectors
+feature: Conectores de dados
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
-
 
 # Geração do token Qualtrics do Adobe Analytics {#generating-your-qualtrics-adobe-analytics-token}
 
@@ -30,4 +33,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >Se você não vir a opção de gerar um token do Adobe Analytics, entre em contato com o administrador da conta do Qualtrics para ativar as permissões apropriadas em sua conta.
-
