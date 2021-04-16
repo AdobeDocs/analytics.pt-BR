@@ -1,13 +1,16 @@
 ---
 description: As seções Tráfego permanente permitem alterar os níveis de tráfego esperados, de modo que a Adobe possa reatribuir recursos de modo a lidar com o novo nível de tráfego.
 title: Especificar o aumento de tráfego permanente
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
-
 
 # Especificar o aumento de tráfego permanente
 
@@ -26,4 +29,3 @@ Leia as informações sobre [Lead time necessário para aumentos de tráfego](/h
    >[!NOTE]
    >
    >Para programar um aumento permanente no tráfego, inclua um número de telefone nas informações de contato do usuário, para que a Adobe possa contatá-lo caso tenha alguma pergunta.
-
