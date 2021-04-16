@@ -1,18 +1,18 @@
 ---
 description: Exemplo contendo as chamadas do servidor enviadas em uma interação com cliente comum.
-keywords: Analytics Implementation
+keywords: Implementação do Analytics
 subtopic: Visitors
 title: Exemplo de identificação de visitante entre dispositivos
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '361'
+exl-id: c68bb745-29de-48e3-8731-d714503a2447
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
-
 
 # Exemplo de identificação de visitante entre dispositivos
 
@@ -24,12 +24,12 @@ O exemplo a seguir ilustra como a identificação de visitantes entre dispositiv
 
 | Chamada do servidor | Ação | Cookie da ID do visitante | Variável da ID do visitante | ID efetiva do visitante | Número de página da visita | Número da visita |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 1 | - | 1 | 1 | 8 |
-| 2-8 | Visita 7 páginas adicionais no seu site. | 1 | - | 1 | 2-8 | 8 |
+| 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 3 | - | 3 | 3 | 8 |
+| 2-8 | Visita 7 páginas adicionais no seu site. | 3 | - | 3 | 2-8 | 8 |
 | 9 | Autentifica no computador pessoal. | 1 | CID1 | CID1 | 9 <br>(Este é o primeiro hit do CID1, por isso ele assume o controle e continua no perfil do visitante a partir da ID de visitante 1.) | 8 |
-| 10 | Visita uma página adicional. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 1 |
-| 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 10 | Visita uma página adicional. | 3 | CID1 | CID1 | 10º | 8 |
+| 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 3 |
+| 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 3 | 9 |
 | 13 | Visualiza 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Contagem de visitas
