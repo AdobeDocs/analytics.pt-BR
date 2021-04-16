@@ -2,16 +2,16 @@
 description: As regras de processamento podem acionar eventos com base em variáveis de Dados de contexto.
 subtopic: Processing rules
 title: Definir um evento usando uma variável de dados de contexto
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
-source-wordcount: '165'
+exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # Definir um evento usando uma variável de dados de contexto
 
