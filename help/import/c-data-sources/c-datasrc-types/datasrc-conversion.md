@@ -2,16 +2,16 @@
 description: As Fontes de dados oferecem suporte às seguintes dimensões e métricas de dados de conversão para os tipos de dados que são processados como conversão.
 subtopic: Data sources
 title: Conversão
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
 
 # Conversão
 
