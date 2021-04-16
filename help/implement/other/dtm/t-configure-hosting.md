@@ -1,17 +1,17 @@
 ---
 description: É possível implantar o Dynamic Tag Management usando uma ou mais das opções de hospedagem disponíveis.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
+keywords: Implementação do Analytics, método de implementação, Dynamic Tag Management, dtm, hospedagem, opções de hospedagem, akamai, auto-hospedagem, auto-hospedagem, entrega de ftp, hospedagem de ftp, download de biblioteca
 title: Configurar opções de hospedagem
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '515'
+exl-id: cef5205e-bb21-4d8d-862b-33dc800e1118
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---
-
 
 # Configurar opções de hospedagem
 
