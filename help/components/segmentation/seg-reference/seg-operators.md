@@ -1,16 +1,16 @@
 ---
 description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
 title: Operadores de comparação para segmentos
-topic: Segments
+feature: Segmentos
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '1021'
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Operadores de comparação para segmentos
 
@@ -49,10 +49,9 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | é maior que | Retorna itens cuja contagem numérica é superior ao valor inserido. |
 | é maior que ou igual a | Retorna itens cuja contagem numérica é superior ou igual ao valor inserido. |
 | **Contagem distinta** | É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.” |
-| igual a | Retorna itens de dimensão cuja contagem única é igual ao valor inserido. |
-| não é igual | Retorna itens de dimensão cuja contagem única não é igual ao valor inserido. |
-| é maior que | Retorna itens de dimensão cuja contagem única é superior ao valor inserido. |
-| é menor que | Retorna itens de dimensão cuja contagem única é inferior ao valor inserido. |
-| é maior que ou igual a | Retorna itens de dimensão cuja contagem única é superior ou igual ao valor inserido. |
-| é menor que ou igual a | Retorna itens de dimensão cuja contagem única é inferior ou igual ao valor inserido. |
-
+| igual a | Retorna itens de dimensão cuja contagem específica é igual ao valor inserido. |
+| não é igual | Retorna itens de dimensão cuja contagem específica não é igual ao valor inserido. |
+| é maior que | Retorna itens de dimensão cuja contagem específica é superior ao valor inserido. |
+| é menor que | Retorna itens de dimensão cuja contagem específica é inferior ao valor inserido. |
+| é maior que ou igual a | Retorna itens de dimensão cuja contagem específica é superior ou igual ao valor inserido. |
+| é menor que ou igual a | Retorna itens de dimensão cuja contagem específica é inferior ou igual ao valor inserido. |
