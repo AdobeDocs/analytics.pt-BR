@@ -1,13 +1,16 @@
 ---
 description: Define configurações comuns para um site que agrega conteúdo, como um portal de notícias.
 title: Portal agregador
-topic: Admin tools
+feature: Ferramentas administrativas
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
+exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
-
 
 # Portal agregador
 
@@ -44,6 +47,5 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
 | Exibições de página | Contador (sem sub-relações) | N/D |
-| Visitantes únicos por dia | Contador (sem sub-relações) | N/D |
+| Visitantes únicos diários | Contador (sem sub-relações) | N/D |
 | Visitantes únicos | Contador (sem sub-relações) | N/D |
-
