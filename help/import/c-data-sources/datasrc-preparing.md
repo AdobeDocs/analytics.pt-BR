@@ -2,16 +2,16 @@
 description: Etapas que você pode adotar como preparação para usar as fontes de dados
 subtopic: Data sources
 title: Preparação para usar as Fontes de dados
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
 ---
-
 
 # Preparação para usar as Fontes de dados
 
@@ -51,7 +51,7 @@ Após definir as dimensões dos dados para usar com uma fonte de dados, integre 
 
 No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Após selecionar uma eVar para receber uma dimensão de dados das Fontes de dados, não deixe de nomeá-la adequadamente.
 
-Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda do Analytics.
+Consulte [Eventos de sucesso](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda do Analytics.
 
 ## Código de rastreamento de campanha {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +63,7 @@ Se você não importar métricas das Fontes de dados com um valor eVar associado
 
 A ID de transação é utilizada para conectar um evento on-line a um evento off-line.
 
-## Identificação de um Intervalo de Datas Válido para Dados da Fonte de Dados {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identificação de um Intervalo de Datas Válido para Dados da Fonte de Dados  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Depois de definir as métricas das suas Fontes de dados (Eventos personalizados) e dimensões de dados (eVars), reveja o intervalo de datas dos dados da Fonte de dados que deseja importar. Não é possível importar fontes de dados que não estejam no intervalo dos dados existentes no relatório.
 
