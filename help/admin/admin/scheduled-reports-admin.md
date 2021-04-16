@@ -1,16 +1,16 @@
 ---
 description: Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 title: Relação de relatórios agendados
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # Relação de relatórios agendados
 
@@ -35,7 +35,7 @@ Na guia **[!UICONTROL Lista de relatórios]**, você pode **[!UICONTROL Mostrar 
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Recursos de filtragem avançada {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Recursos de filtragem avançada  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Por exemplo, se você deseja filtrar em todos os relatórios agendados por hora, você deve especificar a **[!UICONTROL Frequência de hora em hora]** no filtro **[!UICONTROL Avançado]** e clicar em **[!UICONTROL Aplicar]**:
 
