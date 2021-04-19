@@ -1,11 +1,15 @@
 ---
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: ht
-translation-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+title: Perfis de produto para o Adobe Analytics
+description: Saiba como os perfis de produtos podem ser usados como predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização.
+exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 97%
 
 ---
+
 # Perfis de produto para o Adobe Analytics
 
 Os perfis de produtos são predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização. Se você criar um perfil de produto e atribuir um usuário da Experience Cloud a esse perfil, ele herdará os itens de permissão contidos no perfil do produto.
