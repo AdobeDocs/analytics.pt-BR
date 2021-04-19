@@ -1,11 +1,15 @@
 ---
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-translation-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+title: Permissões de perfil de produto para as Ferramentas do Analytics
+description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso aos recursos no Adobe Analytics.
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
+
 # Permissões de perfil de produto para as Ferramentas do Analytics
 
 Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos no Adobe Analytics. Os itens de permissão das Ferramentas do Analytics não se aplicam a um conjunto de relatórios, mas ao Adobe Analytics como um todo.
