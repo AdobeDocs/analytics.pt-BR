@@ -1,11 +1,15 @@
 ---
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
+title: Permissões de perfil de produto para Ferramentas de conjunto de relatórios
+description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
+exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 translation-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 98%
 
 ---
+
 # Permissões de perfil de produto para Ferramentas de conjunto de relatórios
 
 Use esta página para entender cada item de permissão em Ferramentas de conjunto de relatórios.
