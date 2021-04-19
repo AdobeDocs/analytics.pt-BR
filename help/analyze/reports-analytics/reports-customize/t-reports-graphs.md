@@ -2,16 +2,16 @@
 description: Etapas que descrevem como personalizar o gráfico a fim de que seja mais útil para o público-alvo desejado.
 title: Alterar gráficos de relatórios
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Noções básicas do Reports & Analytics
-role: Profissional de negócios, Administrador
+feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # Alterar gráficos de relatórios
 
@@ -68,4 +68,3 @@ Os tipos de gráfico disponíveis dependem do tipo de relatório que você está
    **[!UICONTROL Bolha]**: o Gráfico de dispersão mostra uma exibição dispersa das métricas que você selecionou em relação umas às outras. A localização das bolhas mostra o relacionamento entre as métricas no eixo horizontal e vertical, enquanto o tamanho da bolha retrata a métrica do relatório principal. Esses gráficos permitem que você visualize dados em duas dimensões, de forma que você possa identificar quais itens são outliers.
 
    ![](assets/graph_bubble.png)
-
