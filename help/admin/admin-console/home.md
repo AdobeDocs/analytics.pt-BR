@@ -1,11 +1,15 @@
 ---
-source-git-commit: 0912f05e64eccc068f86aead145c5c06e38b0f37
-workflow-type: ht
-translation-type: ht
-source-wordcount: '69'
-ht-degree: 100%
+title: Analytics no Adobe Admin Console
+description: Saiba como usar o Adobe Admin Console para gerenciar produtos e usuários do Analytics.
+exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 85%
 
 ---
+
 # Analytics no Adobe Admin Console
 
 Use o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para gerenciar produtos e usuários do Analytics. O Adobe Admin Console está localizado em [adminconsole.adobe.com](https://adminconsole.adobe.com/).
