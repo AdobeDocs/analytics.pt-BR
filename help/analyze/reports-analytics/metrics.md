@@ -2,16 +2,16 @@
 description: As métricas são a base dos relatórios e ajudam a visualizar e compreender os relacionamentos de dados e habilitar comparações lado-a-lado de diferentes conjuntos de dados sobre seu site da Web. As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante.
 title: Métricas
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Noções básicas do Reports & Analytics
-role: Profissional de negócios, Administrador
+feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 98%
 
 ---
-
 
 # Métricas
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * Se você alternar entre relatórios, as métricas exibidas na maioria dos relatórios exibidos recentemente persistem. Para exibir métricas padrão no novo relatório, clique na lista suspensa [!UICONTROL Adicionar métricas] e, em seguida, clique em [!UICONTROL Mostrar padrões].
 
 * Clicar em [!UICONTROL Apagar padrões] remove as métricas padrão do relatório e as reverte para as métricas padrão originais do relatório ([!UICONTROL Exibições de páginas] para props e sempre que você definir em Ferramentas administrativas para eVars).
-
