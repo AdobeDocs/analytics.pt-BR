@@ -3,16 +3,16 @@ description: Informações sobre agendamento, download e distribuição de relat
 subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Relatórios, Reports and Analytics
-role: Profissional de negócios, Administrador
+feature: Noções básicas do Reports & Analytics, Relatórios e análises
+role: Business Practitioner, Administrator
+exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1667'
 ht-degree: 99%
 
 ---
-
 
 # Agendamento e distribuição de relatórios
 
