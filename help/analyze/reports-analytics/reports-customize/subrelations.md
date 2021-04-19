@@ -2,16 +2,16 @@
 description: As sub-relações completas são ativadas em todos os relatórios de conversão, dessa forma, você pode dividir qualquer eVar por outra eVar. O menu Detalhar por na tabela de relatórios corresponde ao menu de relatório do Analytics, mantendo as seleções consistentes
 title: Sub-relações
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Noções básicas do Reports & Analytics
-role: Profissional de negócios, Administrador
+feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # Sub-relações
 
@@ -56,4 +56,3 @@ Essencialmente, as sub-relações seguem estas etapas para preencher o relatóri
 * Isolam as solicitações de imagens contendo os eventos bem-sucedidos exibidos no relatório.
 * Retornam os valores persistentes de cada variável de conversão usada na sub-relação.
 * Organizam os valores com base na ordem da sub-relação. Se uma variável não tiver um valor persistente (por exemplo, se uma eVar não tiver sido definido nem tiver expirado), ela será categorizada como &quot;Nenhum&quot;.
-
