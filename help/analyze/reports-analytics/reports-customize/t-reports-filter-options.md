@@ -2,16 +2,16 @@
 description: Os filtros permitem restringir o relatório para incluir ou excluir itens de linha correspondentes a um filtro.
 title: Filtro de dados de relatório
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Noções básicas do Reports & Analytics
-role: Profissional de negócios, Administrador
+feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+role: Business Practitioner, Administrator
+exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 99%
 
 ---
-
 
 # Filtrar dados de relatório {#concept_09DC5B986A644738B12204DAC76A90E1}
 
