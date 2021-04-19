@@ -32,12 +32,12 @@ Para ativar a integração você deve concluir o assistente de integração do Q
    | ID da organização Qualtrics | [Procure a ID da organização do Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Token do Adobe SiteCatalyst | [Geração do token Qualtrics do Adobe Analytics ](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Etapa 2 do assistente - Mapeamentos de variáveis** | Lista de respostas do Qualtrics | Selecione uma variável de lista disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
-|---|---|
-| ID de resposta do Qualtrics | Selecione uma eVar ou prop disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
-|  Servidor de rastreamento  |Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use a variável 
-`trackingServerSecure` servidor de rastreamento se ele for diferente da configuração padrão do servidor de rastreamento.  |
-| Envios de pesquisas do Qualtrics | Selecione um evento disponível em seu conjunto de relatórios (talvez seja necessário ativar um novo evento no Gerenciador de conjunto de relatórios).  |
+1. **Etapa 2 do assistente - Mapeamentos de variáveis**
+   | Lista de respostas do Qualtrics | Selecione uma variável de lista disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
+   |---|---|
+   | ID de resposta do Qualtrics | Selecione uma eVar ou prop disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
+   |  Servidor de rastreamento  |Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use a variável `trackingServerSecure` servidor de rastreamento se ele for diferente da configuração padrão do servidor de rastreamento.  |
+   | Envios de pesquisas do Qualtrics | Selecione um evento disponível em seu conjunto de relatórios (talvez seja necessário ativar um novo evento no Gerenciador de conjunto de relatórios).  |
 
 1. **Etapa 3 do Assistente**: nada necessário, apenas informativo.
 
