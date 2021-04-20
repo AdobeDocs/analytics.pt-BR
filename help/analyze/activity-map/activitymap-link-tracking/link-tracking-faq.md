@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre o rastreamento de links no Activity Map.
 title: Perguntas frequentes sobre o Rastreamento de links
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

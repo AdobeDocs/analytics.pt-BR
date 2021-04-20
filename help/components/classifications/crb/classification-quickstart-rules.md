@@ -2,7 +2,7 @@
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 subtopic: Classifications
 title: Regras de classificação
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

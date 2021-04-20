@@ -2,8 +2,8 @@
 description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
 title: Teclas de atalho
-feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

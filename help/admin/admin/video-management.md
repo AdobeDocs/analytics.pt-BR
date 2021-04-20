@@ -1,7 +1,7 @@
 ---
 description: Você pode designar um conjunto de Variáveis de conversão personalizadas (eVars) e Eventos personalizados para usar no rastreamento e nos relatórios em vídeo.
 title: Gerenciamento de vídeo
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

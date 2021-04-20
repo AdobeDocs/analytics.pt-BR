@@ -1,7 +1,7 @@
 ---
 description: A página Gerenciador de preferências permite configurar como renderizar saídas de relatórios do Excel e com valores separados por vírgula (CSV).
 title: Gerenciador de preferências
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
 translation-type: tm+mt

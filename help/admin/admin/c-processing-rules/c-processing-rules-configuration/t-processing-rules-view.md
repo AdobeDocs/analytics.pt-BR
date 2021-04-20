@@ -2,7 +2,7 @@
 description: As regras de processamento ativas são exibidas na administração.
 subtopic: Processing rules
 title: Exibir as regras de processamento ativas
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt

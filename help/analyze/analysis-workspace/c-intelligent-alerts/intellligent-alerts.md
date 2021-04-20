@@ -2,8 +2,8 @@
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 title: Visão geral de Alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: Ferramentas AI
-role: Profissional de negócios, Administrador
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

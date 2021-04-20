@@ -3,7 +3,7 @@ description: 'É possível adicionar métricas e dimensões ao Assistente de sol
 title: Visão geral de Métricas e dimensões
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

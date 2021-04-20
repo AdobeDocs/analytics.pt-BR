@@ -1,7 +1,7 @@
 ---
 description: Dependendo das permissões, você pode compartilhar segmentos com organizações, grupos ou usuários individuais.
 title: Compartilhar segmentos
-feature: Segmentação
+feature: Segmentation
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 translation-type: tm+mt

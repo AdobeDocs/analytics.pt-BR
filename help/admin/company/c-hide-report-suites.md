@@ -2,7 +2,7 @@
 description: Permite ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics.
 keywords: excluir conjunto de relatórios
 title: Ocultar conjuntos de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 translation-type: tm+mt

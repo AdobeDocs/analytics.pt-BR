@@ -1,7 +1,7 @@
 ---
 description: A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 title: Métodos de descoberta
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: As extrações de dados permitem que você escolha os parâmetros exibidos nos eixos X e Y do relatório, bem como o item pelo qual o relatório é filtrado.
 subtopic: Schedule
 title: Extração de dados
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt

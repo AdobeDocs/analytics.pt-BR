@@ -2,7 +2,7 @@
 description: Em vez de manter e fazer upload das classificações sempre que seus códigos de acompanhamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. As regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
 subtopic: Classifications
 title: Fluxo de trabalho do criador de regras de classificação
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt

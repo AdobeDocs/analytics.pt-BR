@@ -3,8 +3,8 @@ description: Crie intervalos de datas personalizados no Analysis Workspace e sal
 keywords: Analysis Workspace
 title: Criar intervalos de datas personalizados
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

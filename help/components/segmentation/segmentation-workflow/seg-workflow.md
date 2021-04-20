@@ -1,7 +1,7 @@
 ---
 description: Descreve um fluxo de trabalho sugerido para segmentos criados com o Construtor de segmentos e gerenciado pelo Gerenciador de segmentos.
 title: Visão geral do fluxo de trabalho de segmentação
-feature: Segmentação
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

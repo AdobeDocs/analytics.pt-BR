@@ -2,7 +2,7 @@
 description: O processamento de regras simplifica a coleta de dados e o gerenciamento do conteúdo conforme é enviado para os relatórios.
 subtopic: Processing rules
 title: Visão geral das regras de processamento
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

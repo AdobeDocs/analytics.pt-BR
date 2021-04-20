@@ -2,8 +2,8 @@
 description: A sincronização de visualizações permite que você controle qual tabela de dados ou fonte de dados corresponde a uma visualização.
 keywords: Analysis Workspace;Sincronizar visualização com a fonte de dados
 title: Gerenciar fontes de dados
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

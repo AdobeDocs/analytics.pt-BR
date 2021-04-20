@@ -3,7 +3,7 @@ description: Análises classificação são usadas para mapear dados de relatór
 title: Classificação
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

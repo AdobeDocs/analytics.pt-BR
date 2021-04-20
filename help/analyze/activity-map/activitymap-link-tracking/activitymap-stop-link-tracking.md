@@ -3,7 +3,7 @@ description: Etapas para interromper o rastreamento de links no Activity Map ou 
 title: Interromper o rastreamento de links
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

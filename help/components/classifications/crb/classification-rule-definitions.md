@@ -2,7 +2,7 @@
 description: Definições de elementos de interface nas páginas no Construtor de regras de classificação.
 subtopic: Classifications
 title: Regras de classificação - definições
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

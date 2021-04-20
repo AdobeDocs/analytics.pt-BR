@@ -2,7 +2,7 @@
 description: Etapas que podem descrever como evitar os dados de classificação no arquivo de classificação.
 subtopic: Classifications
 title: Evitar os dados de classificação
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt

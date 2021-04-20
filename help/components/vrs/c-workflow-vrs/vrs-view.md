@@ -2,7 +2,7 @@
 description: Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
 keywords: Conjunto de relatórios virtuais
 title: Exibir informações do conjunto de relatórios virtual
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

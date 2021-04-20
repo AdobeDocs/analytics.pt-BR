@@ -1,7 +1,7 @@
 ---
 description: Etapas que descrevem como criar um conjunto de relatórios de roll-up.
 title: Criar um conjunto de relatório de rollup
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 translation-type: tm+mt

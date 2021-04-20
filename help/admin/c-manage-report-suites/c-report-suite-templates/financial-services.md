@@ -1,7 +1,7 @@
 ---
 description: Define configurações comuns para bancos e outras instituições que fornecem acesso a serviços online.
 title: Serviços financeiros
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt

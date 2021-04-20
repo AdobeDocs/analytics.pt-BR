@@ -1,7 +1,7 @@
 ---
 description: As Configurações individuais de conjunto de relatórios permitem alterar as configurações padrão de seus conjunto de relatórios. As ferramentas incluem um modo de remover registros de páginas indesejadas ou obsoletas, definir métricas padrão e configurar segmentos de conjunto de relatórios.
 title: Configurações de Conjunto de relatórios individual
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 exl-id: 1d4cff11-f2e6-4c09-878a-763f3419ff38
 translation-type: tm+mt

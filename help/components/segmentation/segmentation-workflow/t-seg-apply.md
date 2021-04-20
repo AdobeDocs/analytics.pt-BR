@@ -1,7 +1,7 @@
 ---
 description: Como aplicar um ou mais segmentos a um relatório a partir do painel de segmentos.
 title: Selecionar e aplicar segmentos
-feature: Segmentação
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

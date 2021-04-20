@@ -2,7 +2,7 @@
 description: Use o DoubleClick para integração de anunciantes com o Adobe Analytics.
 keywords: DFA
 title: Conector de dados do DFA para Adobe Analytics
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
 translation-type: tm+mt

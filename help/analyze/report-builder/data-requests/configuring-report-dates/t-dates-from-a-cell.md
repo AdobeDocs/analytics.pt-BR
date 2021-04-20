@@ -3,7 +3,7 @@ description: Você pode especificar um intervalo de datas selecionando células 
 title: Datas de uma célula
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

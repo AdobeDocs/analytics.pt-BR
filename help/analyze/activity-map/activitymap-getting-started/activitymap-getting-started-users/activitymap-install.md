@@ -3,7 +3,7 @@ description: O processo de instalação varia de acordo com o navegador usado.
 title: Instalar os plug-ins do navegador do Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Se você usar uma variável comum, como q, para preencher termos de pesquisa, poderá usar regras de processamento para preencher o eVar de termos de pesquisa interna com esses valores.
 subtopic: Processing rules
 title: Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

@@ -3,8 +3,8 @@ description: Crie uma coorte e execute um relatório de análise de coorte no An
 keywords: Analysis Workspace
 title: Executar um relatório de análise de coorte
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

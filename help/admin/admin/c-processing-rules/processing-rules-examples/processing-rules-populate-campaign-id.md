@@ -2,7 +2,7 @@
 description: É possível preencher uma variável usando um parâmetro da string de consulta.
 subtopic: Processing rules
 title: Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

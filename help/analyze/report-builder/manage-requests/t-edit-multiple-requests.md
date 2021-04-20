@@ -3,7 +3,7 @@ description: É possível alterar várias solicitações ao mesmo tempo, com bas
 title: Editar várias solicitações
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

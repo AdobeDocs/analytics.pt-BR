@@ -1,8 +1,8 @@
 ---
 title: Visão geral da atribuição
 description: O conceito de atribuição de crédito de um evento bem-sucedido a vários itens de dimensão.
-feature: Atribuição
-role: Profissional de negócios, Administrador
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

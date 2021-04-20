@@ -2,7 +2,7 @@
 description: Etapas que descrevem como copiar regras de um conjunto de relatórios e substituir ou anexar essas regras a outro conjunto de relatórios.
 subtopic: Processing rules
 title: Cópia das regras de processamento para outro conjunto de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

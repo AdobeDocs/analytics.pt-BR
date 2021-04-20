@@ -3,7 +3,7 @@ description: Você pode proteger todas as solicitações em uma pasta de trabalh
 title: Bloquear/desbloquear pastas de trabalho
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

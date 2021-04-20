@@ -3,7 +3,7 @@ description: É possível selecionar o tipo de relatório base para sua solicita
 title: Visão geral dos tipos de relatórios
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

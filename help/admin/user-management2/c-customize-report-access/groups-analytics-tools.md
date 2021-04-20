@@ -3,7 +3,7 @@ description: Habilite permissões do usuário para obter integração a itens Ge
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar permissões de ferramentas do Analytics
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 description: 'Os componentes no Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto. '
 title: Visão geral dos componentes
-feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

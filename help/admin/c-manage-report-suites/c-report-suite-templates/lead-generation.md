@@ -1,7 +1,7 @@
 ---
 description: Define configurações comuns para um site que fornece informações sobre serviços e produtos que normalmente são vendidos por meio de mais engajamento.
 title: Geração de leads
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

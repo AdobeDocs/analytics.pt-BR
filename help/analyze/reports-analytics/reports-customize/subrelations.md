@@ -2,7 +2,7 @@
 description: As sub-relações completas são ativadas em todos os relatórios de conversão, dessa forma, você pode dividir qualquer eVar por outra eVar. O menu Detalhar por na tabela de relatórios corresponde ao menu de relatório do Analytics, mantendo as seleções consistentes
 title: Sub-relações
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 title: O que é a Análise de coorte e como ela funciona?
 description: Saiba mais sobre os dados do seu público-alvo e os divida em grupos relacionados com a Análise de coorte. Saiba mais sobre a análise de coorte no Analysis Workspace.
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

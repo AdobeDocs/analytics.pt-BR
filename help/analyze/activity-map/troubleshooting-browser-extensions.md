@@ -3,7 +3,7 @@ description: Lista os parâmetros do navegador que não são compatíveis com a 
 title: Solução de problemas nas extensões do navegador
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

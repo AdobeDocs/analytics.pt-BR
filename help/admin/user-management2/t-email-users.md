@@ -2,7 +2,7 @@
 description: Etapas que descrevem como enviar uma mensagem de email para todos os usuários em sua empresa.
 subtopic: Users and groups
 title: Usuários de email
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt

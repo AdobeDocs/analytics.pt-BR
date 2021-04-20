@@ -3,7 +3,7 @@ description: Você pode dar um nome ao seu relatório e configurar como exibir o
 title: Formatar cabeçalhos de exibição
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

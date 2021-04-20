@@ -1,7 +1,7 @@
 ---
 description: Etapas que descrevem como designar qual eVar contém seu identificador de visitante.
 title: Especificar a Variável de visitante único
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt

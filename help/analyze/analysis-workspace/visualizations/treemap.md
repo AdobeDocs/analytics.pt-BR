@@ -2,8 +2,8 @@
 description: Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto de retângulos aninhados.
 title: Mapas de árvore
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, o calendários e a tabela de detalhes.
 title: Recursos do relatório
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt

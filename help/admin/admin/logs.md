@@ -1,7 +1,7 @@
 ---
 description: Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 title: Logs
-feature: Ferramentas administrativas
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -2,8 +2,8 @@
 description: Esta visualização do Workspace se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha.
 title: Área e área empilhada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

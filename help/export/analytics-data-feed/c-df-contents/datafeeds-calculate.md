@@ -2,7 +2,7 @@
 description: Descreve como calcular métricas comuns usando feeds de dados.
 keywords: Feed de dados, tarefa, métricas, coluna pré, coluna pós, bots, filtragem de datas, sequência de eventos, comum, fórmulas
 title: Calcular métricas
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt

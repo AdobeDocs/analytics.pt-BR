@@ -2,8 +2,8 @@
 description: Obtenha alertas quando os componentes do projeto atingirem determinados limites.
 title: Criador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: Ferramentas AI
-role: Profissional de negócios, Administrador
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

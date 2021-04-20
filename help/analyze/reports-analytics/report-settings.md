@@ -2,7 +2,7 @@
 description: Configurações que definem como todos os relatórios são exibidos e as informações que mapeiam as opções de menu padrão para o local no menu simplificado.
 title: Configurações e navegação da exibição de relatórios
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

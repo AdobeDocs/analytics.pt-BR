@@ -2,7 +2,7 @@
 description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
 subtopic: Processing rules
 title: Dicas e truques para regras de processamento
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

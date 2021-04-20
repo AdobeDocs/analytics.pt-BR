@@ -2,8 +2,8 @@
 title: Visão geral do painel de comparação de segmentos
 description: Saiba como usar o painel de comparação de segmentos, parte do Segment IQ no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-feature: Painéis
-role: Profissional de negócios, Administrador
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

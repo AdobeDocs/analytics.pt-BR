@@ -3,7 +3,7 @@ description: Esta seção descreve os arquivos encontrados na entrega do feed de
 keywords: Feed de dados, tarefa, conteúdo, manifesto, arquivo, pesquisa, dados de ocorrência, conteúdo do delivery
 subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt

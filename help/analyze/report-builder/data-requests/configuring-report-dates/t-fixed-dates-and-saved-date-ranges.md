@@ -3,7 +3,7 @@ description: Quando você especifica uma data fixa ou intervalo de datas, o Repo
 title: Datas fixas e intervalos de datas salvos
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

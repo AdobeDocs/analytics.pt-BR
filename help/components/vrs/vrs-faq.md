@@ -2,7 +2,7 @@
 description: Dicas e práticas recomendadas para novos usuários dos conjuntos de relatórios virtuais.
 keywords: Conjunto de relatórios virtuais
 title: Perguntas frequentes sobre VRS
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt

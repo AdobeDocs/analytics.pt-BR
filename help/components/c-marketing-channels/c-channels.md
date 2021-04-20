@@ -2,7 +2,7 @@
 description: Adicionar ou ativar canais de marketing ao Administrador dos Canais de marketing. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
 subtopic: Marketing channels
 title: Gerenciar canais de marketing
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt

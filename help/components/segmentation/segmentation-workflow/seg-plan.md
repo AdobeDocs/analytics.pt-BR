@@ -1,7 +1,7 @@
 ---
 description: Apresenta as etapas e práticas recomendadas que devem ser seguidas ao planejar seus segmentos.
 title: Planejar segmentos
-feature: Segmentação
+feature: Segmentation
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt

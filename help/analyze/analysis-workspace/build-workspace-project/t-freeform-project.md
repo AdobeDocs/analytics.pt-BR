@@ -2,7 +2,7 @@
 description: Crie um projeto e adicione componentes (dimensões, métricas, segmentos, intervalos de data) ao painel de forma livre.
 keywords: Analysis Workspace
 title: Criar um projeto do Workspace
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

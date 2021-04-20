@@ -3,7 +3,7 @@ description: Informações sobre agendamento, download e distribuição de relat
 subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Noções básicas do Reports & Analytics, Relatórios e análises
+feature: Reports & Analytics Basics,Reports and analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 translation-type: tm+mt

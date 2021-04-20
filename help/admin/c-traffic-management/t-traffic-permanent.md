@@ -1,7 +1,7 @@
 ---
 description: As seções Tráfego permanente permitem alterar os níveis de tráfego esperados, de modo que a Adobe possa reatribuir recursos de modo a lidar com o novo nível de tráfego.
 title: Especificar o aumento de tráfego permanente
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Uma solicitação referencial usa valores de células como entrada 
 title: Copiar solicitações referenciais
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

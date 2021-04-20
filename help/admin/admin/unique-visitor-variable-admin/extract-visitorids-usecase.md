@@ -1,7 +1,7 @@
 ---
 description: O Data Warehouse fornece um recurso que permite a extração de uma lista de IDs do visitante. Essas IDs não são IDs de cookie, mas IDs capturadas em uma de suas variáveis de conversão. Embora existam outras maneiras de obter essas informações, o exemplo a seguir é um atalho para gerar uma solicitação de Data Warehouse.
 title: Caso de uso - Extraindo IDs de visitantes
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 translation-type: tm+mt

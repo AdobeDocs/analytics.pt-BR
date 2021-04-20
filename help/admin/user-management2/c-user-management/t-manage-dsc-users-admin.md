@@ -2,7 +2,7 @@
 description: Etapas que descrevem como adicionar, editar ou excluir os usuários da Ad Hoc Analysis.
 subtopic: Users and groups
 title: Gerenciar usuários da Ad Hoc Analysis
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

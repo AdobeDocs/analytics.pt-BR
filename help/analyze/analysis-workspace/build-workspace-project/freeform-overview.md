@@ -3,8 +3,8 @@ description: Aprenda o básico para trabalhar em um projeto do Workspace.
 keywords: Analysis Workspace
 title: Visão geral dos Projetos
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Fundamentos do Workspace
-role: Profissional de negócios, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

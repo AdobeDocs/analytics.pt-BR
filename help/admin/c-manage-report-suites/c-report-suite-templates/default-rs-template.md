@@ -1,7 +1,7 @@
 ---
 description: Configura diversas variáveis comuns e eventos bem-sucedidos para um site típico.
 title: Modelo padrão
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt

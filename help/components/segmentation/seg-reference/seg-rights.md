@@ -1,7 +1,7 @@
 ---
 description: A funcionalidade do segmento se diferencia entre usuários do nível administrativo e não Administradores.
 title: Direitos do segmento por função
-feature: Segmentação
+feature: Segmentation
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt

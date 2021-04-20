@@ -2,7 +2,7 @@
 description: As teclas não classificadas são reunidas nos relatórios de classificação como um único item de linha identificado como Nenhum. Pode ser útil para renomear Nenhum para algo mais descritivo.
 subtopic: Classifications
 title: Chaves não classificadas
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 translation-type: tm+mt

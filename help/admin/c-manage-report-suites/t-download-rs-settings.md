@@ -1,7 +1,7 @@
 ---
 description: Etapas que descrevem como gerar uma planilha do Excel contendo todas as configurações do conjunto de relatórios selecionado.
 title: Fazer download das configurações do conjunto de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt

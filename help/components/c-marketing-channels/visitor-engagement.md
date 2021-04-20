@@ -2,7 +2,7 @@
 description: Saiba como especificar a expiração do engajamento do visitante nos Canais de marketing.
 subtopic: Marketing channels
 title: Expiração de canal de marketing
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt

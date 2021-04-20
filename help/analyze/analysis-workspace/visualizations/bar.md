@@ -2,8 +2,8 @@
 description: Use a visualização de barra em um projeto do Workspace.
 title: Barra e barra empilhada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

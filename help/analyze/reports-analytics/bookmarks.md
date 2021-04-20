@@ -3,7 +3,7 @@ description: Os marcadores concedem acesso aos relatórios que você mais usa. O
 subtopic: Bookmarks
 title: Gerenciador de marcador
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 translation-type: tm+mt

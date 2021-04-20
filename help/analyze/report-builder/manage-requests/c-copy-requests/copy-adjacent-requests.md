@@ -3,7 +3,7 @@ description: Da mesma maneira que você copia e cola solicitações, também pod
 title: Copiar solicitações adjacentes
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

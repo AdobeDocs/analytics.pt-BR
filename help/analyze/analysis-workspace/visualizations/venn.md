@@ -2,8 +2,8 @@
 description: A visualização Venn permite que você arraste até três segmentos (de Componentes) e uma métrica para criar um diagrama Venn.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

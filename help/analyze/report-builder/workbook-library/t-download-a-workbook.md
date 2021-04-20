@@ -3,7 +3,7 @@ description: Fazer download e editar pastas de trabalho compartilhadas.
 title: Baixar uma pasta de trabalho
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

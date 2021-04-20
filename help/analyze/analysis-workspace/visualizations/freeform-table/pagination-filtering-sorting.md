@@ -2,8 +2,8 @@
 description: Vídeo que discute paginação, filtragem e classificação.
 title: Paginação, filtragem e classificação de tabelas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: Tabelas de forma livre
-role: Profissional de negócios, Administrador
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

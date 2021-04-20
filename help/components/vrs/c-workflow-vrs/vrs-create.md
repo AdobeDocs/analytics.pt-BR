@@ -2,7 +2,7 @@
 description: Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das informações a seguir.
 keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt

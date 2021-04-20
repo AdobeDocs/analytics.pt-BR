@@ -3,7 +3,7 @@ description: No painel Opções, é possível especificar as configurações de 
 title: Opções do Report Builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

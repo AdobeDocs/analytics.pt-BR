@@ -2,7 +2,7 @@
 description: Regras de processamento permitem alterar os dados com base em condições definidas. Quando atributos ou valores corresponderem às condições definidas, os valores poderão ser definidos e excluídos e os eventos poderão ser definidos.
 subtopic: Processing rules
 title: Como as regras de processamento funcionam
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 translation-type: tm+mt

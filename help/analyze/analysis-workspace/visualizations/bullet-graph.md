@@ -2,8 +2,8 @@
 description: Permite ver a comparação ou a medição de um valor em relação a outros intervalos de desempenho (metas).
 title: Gráfico de marcadores
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

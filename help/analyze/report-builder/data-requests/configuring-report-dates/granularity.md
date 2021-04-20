@@ -3,7 +3,7 @@ description: 'No Assistente de solicitações: etapa 1, você pode aplicar um n�
 title: Granularidade
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

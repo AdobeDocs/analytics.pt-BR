@@ -2,7 +2,7 @@
 description: Eventos bem-sucedidos são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 keywords: evento
 title: Visão geral dos eventos bem-sucedidos
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 translation-type: tm+mt

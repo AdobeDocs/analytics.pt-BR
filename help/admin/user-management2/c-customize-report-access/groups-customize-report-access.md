@@ -3,7 +3,7 @@ description: Personalize a permissão de grupo para ferramentas do Analytics e d
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar acesso ao relatório - visão geral
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt

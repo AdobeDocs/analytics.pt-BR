@@ -1,7 +1,7 @@
 ---
 description: Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
 title: Eventos de calendário
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt

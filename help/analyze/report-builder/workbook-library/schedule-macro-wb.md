@@ -3,7 +3,7 @@ description: O Report Builder da Adobe suporta o formato .xlsm que permite agend
 title: Agendar pastas de trabalho com macros habilitados
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

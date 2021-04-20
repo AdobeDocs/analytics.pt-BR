@@ -3,7 +3,7 @@ description: Filtros de classificação e condicionais que você configura usand
 title: Filtragem mais popular
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

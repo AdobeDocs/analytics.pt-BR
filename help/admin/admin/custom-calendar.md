@@ -1,7 +1,7 @@
 ---
 description: As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
 title: Personalizar calendário
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 title: Relatórios
 description: As dimensões e métricas que o Reports & Analytics usa para cada relatório.
-feature: Relatórios Noções básicas do & Analytics & Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

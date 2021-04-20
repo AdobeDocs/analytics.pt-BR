@@ -1,7 +1,7 @@
 ---
 description: As variáveis de tráfego de Insight personalizado (ou prop) permitem que você correlacione dados personalizados com eventos relacionados a tráfego. As variáveis de prop estão incluídas no código de implementação de cada página do site.
 title: Visão geral da variável de tráfego (prop)
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
 translation-type: tm+mt

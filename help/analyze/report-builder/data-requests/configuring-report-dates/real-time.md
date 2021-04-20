@@ -3,7 +3,7 @@ description: Exibe o tráfego da página da Web e classifica as exibições dela
 title: Relatórios em Tempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

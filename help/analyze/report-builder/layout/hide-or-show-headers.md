@@ -3,7 +3,7 @@ description: Este procedimento descreve como ocultar ou mostrar cabeçalhos.
 title: Ocultar ou mostrar cabeçalhos
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

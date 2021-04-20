@@ -2,8 +2,8 @@
 title: Visão geral do Segment IQ
 description: Saiba mais sobre o Segment IQ do Adobe Analytics e como ele pode ajudar sua organização.
 keywords: Analysis Workspace;Segment IQ
-feature: Ferramentas AI
-role: Profissional de negócios, Administrador
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

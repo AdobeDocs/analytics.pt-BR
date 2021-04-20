@@ -2,7 +2,7 @@
 description: Você pode copiar o valor de uma eVar em um prop para ativar a definição de caminho.
 subtopic: Processing rules
 title: Determinar um caminho copiando um valor de eVar em uma propriedade
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt

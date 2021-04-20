@@ -3,7 +3,7 @@ description: Se não souber a ID de um conjunto de relatórios, você pode arras
 title: Usar o Excel para localizar uma ID de conjunto de relatórios
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

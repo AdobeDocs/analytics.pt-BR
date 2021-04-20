@@ -2,7 +2,7 @@
 description: A integração do Data Connectors para DFA usa variáveis do Analytics para monitorar os resultados de campanha do DFA.
 keywords: DFA
 title: Variáveis e eventos do Analytics
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 exl-id: 8c3df2e8-84cd-4a14-b15b-42233d874c19
 translation-type: tm+mt

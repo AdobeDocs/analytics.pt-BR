@@ -3,7 +3,7 @@ description: Informações sobre caracteres especiais usados no feed de dados.
 keywords: Feed de dados, tarefa, caracteres especiais, hit_data, variáveis de vários valores, events_list, products_list, mvvars
 subtopic: data feeds
 title: Caracteres especiais em feeds de dados
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

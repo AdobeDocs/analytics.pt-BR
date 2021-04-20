@@ -3,7 +3,7 @@ description: Copie uma planilha para outra na mesma pasta de trabalho.
 title: Copiar planilhas
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

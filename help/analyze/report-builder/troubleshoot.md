@@ -3,7 +3,7 @@ description: Maneiras de otimizar a entrega do Report Builder e uma lista de men
 title: Resolução de problemas e práticas recomendadas do Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

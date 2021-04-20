@@ -1,7 +1,7 @@
 ---
 description: Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 title: Filtros internos do URL
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 translation-type: tm+mt

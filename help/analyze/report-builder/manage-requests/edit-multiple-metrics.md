@@ -2,7 +2,7 @@
 description: O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
 title: Editar métricas em várias solicitações
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

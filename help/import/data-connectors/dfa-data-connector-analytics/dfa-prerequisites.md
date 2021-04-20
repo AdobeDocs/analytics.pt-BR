@@ -2,7 +2,7 @@
 description: Pré-requisitos para usar o conector de dados do DFA com o Adobe Analytics.
 keywords: DFA
 title: Pré-requisitos
-feature: Conectores de dados
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt

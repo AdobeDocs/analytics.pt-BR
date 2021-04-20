@@ -2,8 +2,8 @@
 description: Compartilhamento de projetos e funções de projeto no Workspace
 keywords: Compartilhamento Analysis Workspace
 title: Compartilhar projetos
-feature: Preparar e compartilhar
-role: Profissional de negócios, Administrador
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

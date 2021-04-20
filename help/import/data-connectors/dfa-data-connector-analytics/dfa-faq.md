@@ -2,7 +2,7 @@
 description: Perguntas frequentes sobre o conector de dados do DFA.
 keywords: DFA
 title: Perguntas frequentes
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 translation-type: tm+mt

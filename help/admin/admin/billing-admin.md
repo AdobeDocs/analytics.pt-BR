@@ -1,7 +1,7 @@
 ---
 description: A página Faturamento permite acessar informações de faturamento, inclusive detalhes de tráfego de cada conjunto de relatórios. Somente um administrador autorizado tem acesso a essa página.
 title: Faturamento
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Essa seção destina-se aos Administradores do Adobe Analytics. Tem
 title: Metodologia de Rastreamento de links
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

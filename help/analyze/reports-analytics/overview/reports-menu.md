@@ -2,7 +2,7 @@
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 translation-type: tm+mt

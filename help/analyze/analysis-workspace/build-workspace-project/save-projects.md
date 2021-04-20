@@ -1,7 +1,7 @@
 ---
 description: Saiba mais sobre as diferentes opções de gravação, incluindo salvar automaticamente, salvar como, salvar como modelo e abrir versões anteriores.
 title: Salvar projetos
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

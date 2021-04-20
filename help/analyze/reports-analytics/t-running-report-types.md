@@ -2,7 +2,7 @@
 description: Etapas para executar os diferentes tipos de relatório.
 title: Executar tipos de relatórios diferentes
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt

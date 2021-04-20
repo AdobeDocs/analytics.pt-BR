@@ -3,7 +3,7 @@ description: Personalize detalhadamente o acesso dos usuários, inclusive a eVar
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar permissões de dimensões
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

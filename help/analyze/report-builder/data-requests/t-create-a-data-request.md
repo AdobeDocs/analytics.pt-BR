@@ -3,7 +3,7 @@ description: Etapas para criar uma solicitação básica de dados do Report Buil
 title: Criar uma solicitação de dados
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

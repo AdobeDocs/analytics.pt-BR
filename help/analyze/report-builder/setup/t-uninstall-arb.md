@@ -3,7 +3,7 @@ description: Etapas que descrevem como desinstalar o Report Builder da Adobe.
 title: Desinstalar o Report Builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

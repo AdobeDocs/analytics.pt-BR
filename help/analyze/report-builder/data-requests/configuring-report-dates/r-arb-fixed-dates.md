@@ -3,7 +3,7 @@ description: Definições para datas fixas no Report Builder.
 title: Definições do Assistente de solicitações - datas fixas
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

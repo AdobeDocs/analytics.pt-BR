@@ -2,7 +2,7 @@
 description: 'A ID da organização é necessária para concluir o assistente de integração. Para localizar essa ID, faça o seguinte:'
 subtopic: Qualtrics
 title: Procure a ID da organização do Qualtrics
-feature: Conectores de dados
+feature: Data Connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 exl-id: 52078b10-0067-468f-9ec6-05ca91aeb8fd
 translation-type: tm+mt

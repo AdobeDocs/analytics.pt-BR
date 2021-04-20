@@ -3,7 +3,7 @@ description: Ative permissões para métricas de tráfego e de conversão, event
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar permissões de métricas
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt

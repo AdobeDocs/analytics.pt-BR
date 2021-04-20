@@ -3,7 +3,7 @@ description: Abreviações para datas inicial e final.
 title: Datas inicial ou final individuais
 uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

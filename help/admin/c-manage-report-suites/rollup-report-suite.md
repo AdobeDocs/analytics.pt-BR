@@ -1,7 +1,7 @@
 ---
 description: Descrições dos tipos de conjunto de relatórios e comparação de conjuntos de relatórios globais e conjuntos de relatórios de rollup.
 title: Abordagens do conjunto de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt

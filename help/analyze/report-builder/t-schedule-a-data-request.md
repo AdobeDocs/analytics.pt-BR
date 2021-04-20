@@ -3,7 +3,7 @@ description: Você pode agendar relatórios para envio de acordo com a hora e o 
 title: Programar uma solicitação de dados
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 'Depois de ativada, a integração do DFA do Data Connectors oferece as seguintes métricas para seus relatórios do Adobe Analytics '
 keywords: DFA
 title: Recursos da integração
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt

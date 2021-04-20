@@ -1,7 +1,7 @@
 ---
 description: Este recurso permite que você personalize os menus de relatório que são exibidos para um usuário no Reports & Analytics. É possível exibir ou ocultar relatórios, bem como movê-los em pastas diferentes para todos os usuários. Esse recurso é útil se a sua organização utiliza apenas determinados relatórios e não deseja encher o menu esquerdo com dados não utilizados ou irrelevantes.
 title: Personalização do menu
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt

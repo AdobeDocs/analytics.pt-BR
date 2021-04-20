@@ -3,7 +3,7 @@ description: 'A janela Assistente de solicitações: etapa 2 permite configurar 
 title: Layout - Etapa 2 do assistente de solicitações
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

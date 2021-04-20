@@ -3,7 +3,7 @@ description: Descreve as etapas envolvidas na aplicação de filtros para um rel
 title: Filtrar relatório de caminho com o Assistente de solicitação
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

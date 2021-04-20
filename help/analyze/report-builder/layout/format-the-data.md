@@ -3,7 +3,7 @@ description: Além das opções padrão de formatação de células disponíveis
 title: Formatar a data
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

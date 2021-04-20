@@ -2,7 +2,7 @@
 description: 'A configuração da integração do DFA envolve as seguintes tarefas '
 keywords: DFA
 title: Integração do DFA
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt

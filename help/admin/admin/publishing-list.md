@@ -1,7 +1,7 @@
 ---
 description: A publicação de listas fornece uma maneira fácil de enviar vários relatórios específicos de grupos diferentes de sua organização sem criar vários relatórios agendados. As listas de publicação são úteis se você possui conjuntos de relatórios específicos de local e gostaria de oferecer a cada departamento uma cópia de um painel específico. Como alternativa, é possível usar listas de publicação para enviar dados a várias pessoas sem precisar digitar separadamente os endereços de email, se estiver trabalhando com um único conjunto de relatórios.
 title: Listas de publicação
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt

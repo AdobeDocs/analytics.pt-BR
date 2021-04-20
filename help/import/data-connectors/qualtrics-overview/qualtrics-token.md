@@ -2,7 +2,7 @@
 description: É necessário usar um token para concluir o assistente de integração. Para localizar essa ID, complete os passos a seguir.
 subtopic: Qualtrics
 title: Geração do token Qualtrics do Adobe Analytics
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt

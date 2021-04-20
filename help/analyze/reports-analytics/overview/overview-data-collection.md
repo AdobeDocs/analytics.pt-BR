@@ -3,7 +3,7 @@ description: Saiba mais sobre como os dados são coletados no Adobe Analytics.
 subtopic: Get started
 title: Sobre a coleta de dados
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt

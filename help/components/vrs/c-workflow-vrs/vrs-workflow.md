@@ -2,7 +2,7 @@
 description: Uma visão geral das etapas necessárias para planejar e implementar conjuntos de relatórios virtuais.
 keywords: Conjunto de relatórios virtuais
 title: Fluxo de trabalho do Conjunto de relatórios virtuais
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt

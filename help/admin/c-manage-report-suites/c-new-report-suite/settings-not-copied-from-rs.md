@@ -1,7 +1,7 @@
 ---
 description: Se você tiver copiado configurações de um conjunto de relatórios existente, uma mensagem do sistema identificará quaisquer configurações não copiadas no novo conjunto de relatórios.
 title: Configurações não copiadas do conjunto de relatórios de origem
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

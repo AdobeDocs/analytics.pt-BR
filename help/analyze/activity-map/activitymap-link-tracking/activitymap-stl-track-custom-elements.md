@@ -2,7 +2,7 @@
 title: Use o método tl() com Activity Map
 description: Você pode usar o método tl() para rastrear elementos personalizados e configurar a renderização de sobreposição para o conteúdo dinâmico.
 feature: Activity Map
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

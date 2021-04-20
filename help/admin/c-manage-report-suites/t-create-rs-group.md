@@ -1,7 +1,7 @@
 ---
 description: Etapas que descrevem como criar um grupo de conjunto de relatórios.
 title: Criar um grupo de conjunto de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Você pode criar um novo conjunto de relatórios selecionando um modelo predefinido ou usando um de seus conjunto de relatórios existentes para servir como modelo geral.
 title: Configurações do novo conjunto de relatórios
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

@@ -3,8 +3,8 @@ description: Você pode criar segmentos a partir de um ponto de contato, adicion
 keywords: fallout e segmentação;segmentos na análise de fallout;comparar segmentos no fallout
 title: Aplicar segmentos na análise de fallout
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizações
-role: Profissional de negócios, Administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

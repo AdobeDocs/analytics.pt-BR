@@ -2,7 +2,7 @@
 description: A implantação dessa integração é um processo simples que requer as seguintes ações.
 subtopic: Qualtrics
 title: Implantar a integração
-feature: Conectores de dados
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt

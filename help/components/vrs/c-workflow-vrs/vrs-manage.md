@@ -2,7 +2,7 @@
 description: O Gerenciador de conjuntos de relatórios virtuais permite aos administradores editar, adicionar, marcar, excluir, renomear, aprovar, copiar, exportar e filtrar conjuntos de relatórios virtuais. Não é visível para usuários não administrativos.
 keywords: Conjunto de relatórios virtuais
 title: Gerenciar conjuntos de relatórios virtuais
-feature: Noções básicas do Reports & Analytics e Noções básicas do Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt
