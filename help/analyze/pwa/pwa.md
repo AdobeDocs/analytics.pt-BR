@@ -1,15 +1,15 @@
 ---
 title: PWAs para Analytics
 description: Progressive Web Apps para Adobe Analytics
-role: Profissional de negócios, Administrador
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # PWAs para o Adobe Analytics
 
@@ -27,7 +27,7 @@ Para coletar e analisar os dados do PWA com o [!UICONTROL Analytics] é necessá
 
 ## Adicione o rastreamento offline para aumentar a eficácia do PWA
 
-Você pode aumentar a eficácia do PWA usando os [recursos de rastreamento offline](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/functions/forceoffline.html) do Adobe Analytics. Por padrão, esse recurso está desativado, mas é possível adicionar a seguinte propriedade ao arquivo AppMeasurement.js para ativá-lo: `s.trackOffline=true;`.
+Você pode aumentar a eficácia do PWA usando os [recursos de rastreamento offline](/help/implement/vars/config-vars/trackoffline.md) do Adobe Analytics. Por padrão, esse recurso está desativado, mas é possível adicionar a seguinte propriedade ao arquivo AppMeasurement.js para ativá-lo: `s.trackOffline=true;`.
 
 Por exemplo, no arquivo AppMeasurement.js a seguir, a propriedade é adicionada ao final do `CONFIG SECTION`:
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-Para obter mais informações sobre como editar o arquivo AppMeasurement.js, consulte [Inserir código no arquivo AppMeasurement.js](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html).
+Para obter mais informações sobre como editar o arquivo AppMeasurement.js, consulte [Inserir o código principal do AppMeasurement](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md).
 
-Para exemplos de configurações no arquivo AppMeasurement.js, consulte [Configuração do arquivo AppMeasurement.js](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/overview.html#section_042412C29CC249E298F19B2BC2F43CE7).
+Para obter mais informações sobre como configurar o arquivo AppMeasurement.js, consulte a [Visão geral das variáveis de configuração](/help/implement/vars/config-vars/configuration-variables.md) e as páginas individuais específicas da variável no mesmo subcapítulo.
 
-Para obter mais informações sobre as características do arquivo AppMeasurement.js, consulte a [Visão geral da implementação do Javascript](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/migrate-from-hcode.html).
+Para obter mais informações sobre as características do arquivo AppMeasurement.js, consulte a [Visão geral da implementação do Javascript](/help/implement/js/overview.md).
