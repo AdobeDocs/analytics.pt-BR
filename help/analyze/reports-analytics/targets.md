@@ -6,10 +6,10 @@ feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar de
 | [!UICONTROL Selecionar item] | Exibe a forma de seleção para o atributo selecionado ou eVar, de modo que você possa executar uma [!UICONTROL Pesquisa avançada de itens relacionados. ] Por exemplo, se você selecionar os [!UICONTROL Países] de eVar, a lista de itens permite que você especifique o país. Se você selecionar os [!UICONTROL Produtos] de eVar, a lista de itens permite que você especifique o produto. Variáveis &#x200B;&#x200B;de insight personalizada também estão presentes no menu. Se você tiver uma variável de insight personalizada configurada para medir as faixas etárias dos visitantes, a lista de item exibe os intervalos das idades, tais como 18-24, 25-35, e assim por diante. |
 | [!UICONTROL Métrica] | Permite aplicar a meta a uma métrica. Este menu exibe somente as métricas que se aplicam a uma eVar específica. Por exemplo, se você selecionar [!UICONTROL Produtos] como a eVar, uma métrica como [!UICONTROL Saídas da página] não se aplica a ela. A métrica [!UICONTROL Saídas da página] pode ser aplicada a uma eVar de página da Web. |
 | [!UICONTROL Ponto] | Permite definir o [!UICONTROL Intervalo de datas] e as configurações de [!UICONTROL Granularidade] da meta. Dependendo das suas especificações de intervalo de datas, algumas opções de granularidade não se aplicam. Ao digitar os valores para as métricas, digite um valor para cada  definição de granularidade. Por exemplo, se o intervalo de datas for o mês de fevereiro, e sua seleção de granularidade é semanal, digite um valor para cada semana do mês de fevereiro. [!UICONTROL Relatórios de meta exibidos para cada configuração de granularidade.] |
-| [!UICONTROL Valores] | Permite que você especifique valores de meta para o período de tempo e a métrica selecionada. Este valor representa os números de meta que você está tentando alcançar. Por exemplo, se a meta tiver base na receita, e você estava estimando 10.000 dólares de receita para um determinado mês, você deve digitar 10000 no campo de valor para o mês. |
+| [!UICONTROL Valores] | Permite que você especifique valores de meta para o período de tempo e a métrica selecionada. Esses valores são os números de destino que você está tentando alcançar. Por exemplo, se a meta tiver base na receita, e você estava estimando 10.000 dólares de receita para um determinado mês, você deve digitar 10000 no campo de valor para o mês. |
 
 ## Adicionar um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
