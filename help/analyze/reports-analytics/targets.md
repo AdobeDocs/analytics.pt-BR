@@ -38,7 +38,7 @@ As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar Me
 
 ## Adicionar um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Etapas que descrevem como adicionar um direcionamento.
+Etapas que descrevem como adicionar uma meta.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
 1. Na página [!UICONTROL Gerenciar Alvos], clique em **[!UICONTROL Adicionar Novo...]**.
