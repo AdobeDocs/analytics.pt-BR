@@ -3,10 +3,10 @@ title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ Não. Para a mesma organização, somente uma região pode ter o CDA ativado.
 A vantagem da janela de lookback de reprodução de 7 dias é que o CDA pode voltar mais a tempo para tentar associar eventos anônimos anteriores a uma pessoa que fez logon posteriormente nesses 7 dias. As desvantagens da janela de lookback de 7 dias são 1) a repetição é executada somente uma vez por semana e 2) os 7 dias mais recentes estão sujeitos a alterações.
 
 As vantagens de usar a janela de lookback de reprodução de 1 dia são 1) as execuções de repetição todos os dias e 2) somente ontem estão sujeitas a alterações. A desvantagem da janela de lookback de 1 dia é que o CDA só pode voltar 1 dia para tentar associar eventos anônimos anteriores a uma pessoa que fez logon ontem.
+
+## O que acontece com os dados compilados em meus conjuntos de relatórios virtuais do CDA se minha empresa decidir fazer o download do Analytics Ultimate?
+
+Se um cliente fizer o download do Ultimate, ele não terá mais acesso aos dados compilados. Todos os dados compilados anteriormente serão removidos. Isso significa que os conjuntos de relatórios virtuais do CDA agora não refletirão compilações entre dispositivos. Os dados serão semelhantes ao conjunto de relatórios não corrigido original.
