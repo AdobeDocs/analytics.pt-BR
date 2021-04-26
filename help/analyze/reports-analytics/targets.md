@@ -21,11 +21,11 @@ Quando você cria metas, você seleciona quais métricas de atributo ou eVars vo
 
 Por exemplo, você pode medir o número de visitantes únicos para o seu site, e usá-lo como meta. Neste caso, escolha o site inteiro. No entanto, se você desejar definir como meta o número de visitantes únicos no seu site a partir de Chicago, você pode especificar este eVar em vez de visualizar o seu site inteiro.
 
-## Descrições do campo de destino {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Descrições dos campos de Metas {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  >  **[!UICONTROL Metas]**
 
-As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar destino].
+As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar Meta].
 
 | Elemento | Descrição |
 | --- | --- |
@@ -42,12 +42,12 @@ Etapas que descrevem como adicionar um direcionamento.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
 1. Na página [!UICONTROL Gerenciar Alvos], clique em **[!UICONTROL Adicionar Novo...]**.
-1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
 ## Editar um [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
 1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
-1. Configure as opções descritas em [Descrições do campo de destino](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
