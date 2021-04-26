@@ -3,10 +3,10 @@ title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 93%
+source-wordcount: '1605'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## Como posso usar o CDA para ver como as pessoas mudam de um tipo de dispositivo para outro?
 
-Você pode usar uma visualização de Fluxo com a dimensão Tipo de dispositivo móvel.
+Você pode usar uma visualização [!UICONTROL Fluxo] com a dimensão Tipo de dispositivo móvel.
 
 1. Faça logon no Adobe Analytics e crie um novo projeto em branco da Workspace.
 2. Clique na guia Visualizações à esquerda e arraste uma visualização de Fluxo para a tela à direita.
@@ -105,3 +105,9 @@ Vários conjuntos de relatórios podem estar ativados, no entanto, cada conjunto
 ## Se minha organização de Experience Cloud (também conhecida como organização IMS) tem várias empresas em diferentes regiões, posso habilitar o CDA para todas elas?
 
 Não. Para a mesma organização, somente uma região pode ter o CDA ativado.
+
+## Quais são as vantagens e desvantagens de uma repetição de 7 dias versus uma repetição de 1 dia?
+
+A vantagem da janela de lookback de reprodução de 7 dias é que o CDA pode voltar mais a tempo para tentar associar eventos anônimos anteriores a uma pessoa que fez logon posteriormente nesses 7 dias. As desvantagens da janela de lookback de 7 dias são 1) a repetição é executada somente uma vez por semana e 2) os 7 dias mais recentes estão sujeitos a alterações.
+
+As vantagens de usar a janela de lookback de reprodução de 1 dia são 1) as execuções de repetição todos os dias e 2) somente ontem estão sujeitas a alterações. A desvantagem da janela de lookback de 1 dia é que o CDA só pode voltar 1 dia para tentar associar eventos anônimos anteriores a uma pessoa que fez logon ontem.
