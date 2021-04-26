@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [Tempo gasto por visitante](metrics/time-spent-per-visitor.md)
    + [Visão geral do tempo gasto](metrics/time-spent.md)
    + [Total de segundos gastos](metrics/total-seconds-spent.md)
-   + [Dispositivos exclusivos](metrics/unique-devices.md)
+   + [Dispositivos únicos](metrics/unique-devices.md)
    + [Visitantes únicos](metrics/unique-visitors.md)
    + [Unidades](metrics/units.md)
    + [Visitantes com Experience Cloud ID](metrics/visitors-with-ecid.md)
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [Práticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas e calculadas avançadas (derivadas)](c-calcmetrics/cm-overview.md)
-   + [Perguntas frequentes](c-calcmetrics/cm-transition.md)
    + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
    + Fluxo de trabalho das métricas calculadas {#calcmetric-workflow}
       + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
