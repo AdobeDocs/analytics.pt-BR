@@ -1,14 +1,14 @@
 ---
 title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
-translation-type: ht
-source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
+translation-type: tm+mt
+source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
-
 
 # Configurar o Cross-Device Analytics
 
@@ -18,9 +18,9 @@ Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas par
 >
 >Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de união desejado ([União com base em arquivo](field-based-stitching.md) ou [gráfico de dispositivos](device-graph.md), respectivamente) para ver os pré-requisitos e as limitações.
 
-## Entre em contato com o gerente de sucesso do cliente para fornecer o CDA em seu conjunto de relatórios entre dispositivos
+## Abra um ticket no Atendimento ao cliente para provisionar o CDA em seu conjunto de relatórios entre dispositivos
 
-O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela engenharia da Adobe. Entre em contato com o gerente de sucesso do cliente com as seguintes informações:
+O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela engenharia da Adobe. Para iniciar esse processo, entre em contato com o Atendimento ao cliente e esteja preparado para fornecer as seguintes informações:
 
 * Sua ID organizacional da Adobe Experience Cloud (uma sequência alfanumérica terminando em @AdobeOrg)
 * A ID de conjunto de relatórios para o conjunto de relatórios entre dispositivos que você deseja ativar com o CDA
@@ -28,7 +28,7 @@ O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela eng
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
 * Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
 
-Depois que você fornecer essas informações ao CSM, ele trabalhará com a engenharia da Adobe para ativar o conjunto de relatórios escolhido para processamento do CDA.
+Após fornecer essas informações ao Atendimento ao cliente, ele trabalhará com a engenharia de Adobe para ativar o conjunto de relatórios escolhido para o processamento do CDA.
 
 ## Crie um conjunto de relatórios virtuais entre dispositivos para ver a exibição entre dispositivos
 
