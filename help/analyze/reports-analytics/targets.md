@@ -36,18 +36,18 @@ As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar Me
 | [!UICONTROL Ponto] | Permite definir o [!UICONTROL Intervalo de datas] e as configurações de [!UICONTROL Granularidade] da meta. Dependendo das suas especificações de intervalo de datas, algumas opções de granularidade não se aplicam. Ao digitar os valores para as métricas, digite um valor para cada  definição de granularidade. Por exemplo, se o intervalo de datas for o mês de fevereiro, e sua seleção de granularidade é semanal, digite um valor para cada semana do mês de fevereiro. [!UICONTROL Relatórios de meta exibidos para cada configuração de granularidade.] |
 | [!UICONTROL Valores] | Permite que você especifique valores de meta para o período de tempo e a métrica selecionada. Esses valores são os números de destino que você está tentando alcançar. Por exemplo, se a meta tiver base na receita, e você estava estimando 10.000 dólares de receita para um determinado mês, você deve digitar 10000 no campo de valor para o mês. |
 
-## Adicionar um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
+## Adicionar uma [!UICONTROL meta] {#task_94915391E26E4F808F2538AA92BC7E71}
 
 Etapas que descrevem como adicionar uma meta.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
 1. Na página [!UICONTROL Gerenciar Alvos], clique em **[!UICONTROL Adicionar Novo...]**.
 1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
-## Editar um [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
+## Editar uma [!UICONTROL meta] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
 1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
 1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
