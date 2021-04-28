@@ -1,14 +1,14 @@
 ---
 title: IPs e domínios usados pela Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 86%
 
 ---
-
 
 # IPs e domínios usados pela Adobe Analytics
 
@@ -33,9 +33,9 @@ O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiê
 | Armazenamento Microsoft Azure Blob | `awaascicdprodva7.blob.core.windows.net` |
 | CDN do Microsoft Azure | `aauicdnva7.azureedge.net` |
 
-## Todos os blocos de endereço IP da Adobe Analytics
+## Todos os blocos de endereço IP da coleção de dados do Adobe Analytics
 
-A tabela a seguir abrange todos os servidores de coleta de dados padrão e os servidores de coleta de dados regionais para a Adobe Analytics. Eles não incluem hosts AWS individuais.
+A tabela a seguir cobre todos os servidores de coleta de dados padrão e os servidores de coleta de dados regionais para o Adobe Analytics. Eles não incluem hosts AWS individuais.
 
 | Bloco IP (Notação CIDR) |
 | --- |
@@ -113,7 +113,7 @@ Se sua organização preferir permitir intervalos de endereços IP específicos,
 
 ## Hosts AWS
 
-A Adobe Analytics usa os Amazon Web Services como parte de seu processo de coleta de dados. A tabela a seguir inclui hosts AWS reservados para a Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
+O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de coleta de dados. A tabela a seguir inclui hosts AWS reservados para a Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
 
 | Localização | Host |
 | --- | --- |
