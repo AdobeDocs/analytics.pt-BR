@@ -1,14 +1,14 @@
 ---
 title: Criar ou editar um feed de dados
 description: Saiba como criar ou editar um feed de dados.
+exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 translation-type: tm+mt
-source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
+source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '833'
+ht-degree: 95%
 
 ---
-
 
 # Criar ou editar um feed de dados
 
@@ -21,9 +21,9 @@ A criação de um feed de dados permite que a Adobe saiba onde enviar arquivos d
 * **Nome**: o nome do feed de dados. Deve ser único dentre o conjunto de relatórios e deve ter, no máximo, 255 caracteres.
 * **Conjunto de relatórios**: o conjunto de relatórios no qual o feed de dados se baseia. Se vários feeds de dados forem criados para o mesmo conjunto de relatórios, eles deverão ter definições de colunas diferentes. Somente conjuntos de relatórios de origem são compatíveis com feeds de dados; os conjuntos de relatórios virtuais não são compatíveis.
 * **Enviar email ao concluir**: o endereço de email a ser notificado quando um feed terminar o processamento. O endereço de email deve estar formatado corretamente.
-* **Intervalo do feed**: os feeds por hora contêm dados de uma hora. Os feeds diários contêm dados de um dia inteiro.
+* **Intervalo do feed**: os feeds por hora contêm dados de uma hora. Os feeds diários contêm dados de um dia inteiro; eles incluem dados da meia-noite para a meia-noite no fuso horário do conjunto de relatórios.
 * **Atraso no processamento**: aguarde um algum tempo antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. Um feed pode ser atrasado em até 120 minutos.
-* **Datas de início e término**: a data de início indica a primeira data em que você deseja um feed de dados. Defina essa data no passado para iniciar imediatamente o processamento do feeds de dados para dados históricos. Os feeds continuam a ser processados até atingirem a data de término.
+* **Datas de início e término**: a data de início indica a primeira data em que você deseja um feed de dados. Defina essa data no passado para iniciar imediatamente o processamento do feeds de dados para dados históricos. Os feeds continuam a ser processados até atingirem a data de término. As datas de início e término são baseadas no fuso horário do conjunto de relatórios.
 * **Alimentação contínua**: essa caixa de seleção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado.
 
 ## Campos de destino
@@ -64,7 +64,7 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * eu-west-1
 * eu-west-2
 * eu-west-3
-* eu-Norte-1
+* eu-north-1
 * sa-east-1
 
 >[!NOTE]
