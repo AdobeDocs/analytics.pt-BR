@@ -1,8 +1,8 @@
 ---
 title: Práticas recomendadas para implementar os Canais de marketing do Adobe Analytics
-description: Práticas recomendadas atualizadas para usar canais de marketing com o Attribution IQ e o Customer Journey Analytics
+description: Práticas recomendadas atualizadas para usar os Canais de marketing com o Attribution IQ e o Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Use o Attribution IQ com Canais de marketing - Práticas recomendadas
+# Attribution IQ com Canais de marketing - Práticas recomendadas
 
 [Os ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Canais de marketing são um recurso valioso e poderoso do Adobe Analytics. As orientações atuais sobre a implementação do Marketing Channel foram formuladas em um momento em que não existia [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) nem [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=pt-BR#cja-usecases).
 
@@ -38,6 +38,6 @@ Modelos de atribuição personalizados usados com a dimensão Canal de marketing
 
 Definir o período de Envolvimento do Visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de retrospectiva flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
 
-## Prática recomendada nº 5: As Regras de processamento de canais de marketing existem apenas para canais ativados
+## Prática recomendada nº 5: As Regras de processamento de canais de marketing devem existir somente para canais ativados
 
 Remova quaisquer Regras de processamento de canal de marketing para canais desativados. As regras devem existir somente para Canais de marketing que estejam marcados como ativados.
