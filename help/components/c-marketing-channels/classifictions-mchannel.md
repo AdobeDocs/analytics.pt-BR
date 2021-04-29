@@ -1,16 +1,20 @@
 ---
 title: Classificações em Canais de marketing
 description: Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 93%
 
 ---
 
-
 # Classificações em Canais de marketing
+
+>[!NOTE]
+>
+>Para maximizar a eficácia dos Canais de marketing para Attribution IQ e Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
 
