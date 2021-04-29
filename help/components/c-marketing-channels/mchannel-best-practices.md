@@ -2,10 +2,10 @@
 title: Práticas recomendadas para implementar os Canais de marketing do Adobe Analytics
 description: Práticas recomendadas atualizadas para usar os Canais de marketing com o Attribution IQ e o Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +24,31 @@ Como as dimensões do Canal de marketing dependem de uma definição de Visita t
 
 Recomendamos usar [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) em vez da atribuição existente do Canal de marketing para ajustar a análise do Canal de marketing. Siga as outras práticas recomendadas para garantir a consistência e os controles robustos da sua análise com o Attribution IQ.
 
+![](assets/attribution.png)
+
+* A configuração das dimensões Canal de marketing e Detalhe de canal de marketing estabelece pontos de contato a serem avaliados, de acordo com cada Instância de canal de marketing.
+* Para análise de métrica, sua organização deve se alinhar em um ou mais modelos de atribuição. Salve métricas personalizadas com este modelo para reutilização fácil.
+* Por padrão, os dados são alocados usando Último contato e a configuração do Período de envolvimento do visitante. Os modelos de métricas de Attribution IQ oferecem maior controle sobre as janelas de retrospectiva e mais variedade, incluindo [atribuição algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+
 ## Prática recomendada nº 2: Nenhuma definição de canal de Atualização direta e de Sessão
 
 Os canais de Atualização direta e interna/sessão não são recomendados para uso com modelos de atribuição personalizados (Attribution IQ).
 
 E se sua organização já tiver as opções Direct e Session Refresh configuradas? Nesse caso, recomendamos que você crie uma classificação para seus Canais de marketing e deixe esses dois canais não classificados. A dimensão classificada produzirá os mesmos resultados de Attribution IQ que se esses canais nunca tivessem sido configurados.
 
+![](assets/direct-session-refresh.png)
+
 ## Prática recomendada nº 3: Habilitar Substituir canal de último toque para todos os canais
 
 Modelos de atribuição personalizados usados com a dimensão Canal de marketing no Workspace funcionam melhor quando essa configuração é ativada. Habilitar essa configuração faz com que uma Instância de Canal de marketing seja contabilizada quando um novo canal/detalhe for encontrado. Você deve ativar isso para todos os canais, exceto para Atualização direta ou interna/sessão, que não é mais recomendado para uso com modelos de atribuição personalizados (Attribution IQ).
 
+![](assets/override.png)
+
 ## Prática recomendada nº 4: Minimizar o período de envolvimento do visitante
 
 Definir o período de Envolvimento do Visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de retrospectiva flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
+
+![](assets/expiration.png)
 
 ## Prática recomendada nº 5: As Regras de processamento de canais de marketing devem existir somente para canais ativados
 
