@@ -1,14 +1,14 @@
 ---
 title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 94%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
-
 
 # Analisar Canais de marketing
 
@@ -17,12 +17,12 @@ Você provavelmente quer saber qual de seus canais de marketing é o mais eficie
 ![](assets/mc-dims.png)
 
 | Dimensão/métrica | Definição |
-|---|---|
+| --- | --- |
 | Canal de Marketing | Esta é a dimensão recomendada para usar nos canais de marketing. Os modelos de Attribution IQ podem ser aplicados a ele no tempo de execução. Essa dimensão se comporta de forma idêntica à dimensão Canal de último contato, mas é rotulada de maneira diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
 | Canal de último contato | Dimensão herdada, com modelo de atribuição de último contato pré-aplicado e inalterável. |
 | Canal de primeiro contato | Dimensão herdada, com modelo de atribuição de primeiro contato pré-aplicado e inalterável. |
 | Instâncias do canal de marketing | Essa métrica mede o número de vezes que um canal de marketing foi definido em uma solicitação de imagem, incluindo visualizações de página padrão e chamadas de link personalizadas. Não inclui valores persistentes. |
-| Novos engajamentos | Essa métrica é semelhante a Instâncias, mas só é aumentada quando o canal de marketing de primeiro contato é definido em uma solicitação de imagem. |
+| Novos engajamentos | Essa métrica é semelhante a Instâncias, mas só é aumentada quando o canal de marketing de primeiro toque é definido em uma solicitação de imagem. |
 
 ## Análise básica
 
@@ -54,8 +54,8 @@ Observe como a mesma métrica (Pedidos online) gera resultados diferentes quando
 
 ## Análise de marketing entre guias
 
-Usando o Canal de primeiro contato e o Canal de último contato herdados, você pode obter uma visualização útil nas interações do canal:
+Usando o Canal de primeiro toque e o Canal de último toque herdados, você pode obter uma visualização útil nas interações do canal:
 
 ![](assets/mc-viz6.png)
 
-Saiba mais sobre a análise de marketing entre guias neste vídeo: [Usando Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Saiba mais sobre a análise de marketing entre guias neste vídeo: [Usando a Análise entre guias para Explorar a atribuição básica de marketing no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
