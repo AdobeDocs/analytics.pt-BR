@@ -1,14 +1,14 @@
 ---
 title: Regras de processamento de canais de marketing
 description: As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal. As regras processam cada ocorrência que um visitante faz ao seu site. Se uma regra não atender aos critérios de um canal, ou se elas não forem configuradas corretamente, o sistema atribui a ocorrência a Nenhum canal identificado.
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 89%
 
 ---
-
 
 # Regras de processamento de canais de marketing
 
@@ -17,7 +17,8 @@ As regras de processamento de canal de marketing determinam se uma ocorrência d
 ![](assets/buckets_2.png)
 
 Observações adicionais sobre o processamento:
-* Os dados coletados com essas regras são totalmente permanentes, e as regras alteradas após a coleta dos dados não são retroativas. É altamente recomendado analisar e considerar todas as circunstâncias antes de salvar as [!UICONTROL Regras de processamento de canal de marketing] para reduzir a coleta de dados nos canais errados.
+
+* Os dados coletados com essas regras são totalmente permanentes, e as regras alteradas após a coleta dos dados não são retroativas. Recomendamos que você analise e considere todas as circunstâncias antes de salvar [!UICONTROL Regras de processamento de canal de marketing] para reduzir a coleta de dados nos canais errados.
 * O relatório pode processar até 25 canais simultaneamente.
 * As regras podem acessar variáveis definidas pelo VISTA, mas não podem acessar dados excluídos pelo VISTA.
 * Dois canais de marketing nunca recebem crédito pelo mesmo evento (como compras ou cliques). Dessa forma, os canais de marketing diferem das eVars (já que duas eVars podem receber crédito pelo mesmo evento).
@@ -27,6 +28,7 @@ Observações adicionais sobre o processamento:
 
 * Revise as informações conceituais em [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adicionar canais de marketing.](/help/components/c-marketing-channels/c-channels.md)
+* Revise as práticas recomendadas para usar [!UICONTROL Canais de marketing] com [!UICONTROL Attribution IQ].
 
 ## Criar regras de processamento de Canal de marketing
 
