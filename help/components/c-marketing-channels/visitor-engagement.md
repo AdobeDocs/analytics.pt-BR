@@ -6,14 +6,18 @@ feature: Noções básicas do Reports & Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 99%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
 # Expiração de canal de marketing
+
+>[!NOTE]
+>
+>Para maximizar a eficácia dos Canais de marketing para Attribution IQ e Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Saiba como especificar a expiração ou o período de engajamento do visitante para Canais de marketing.
 
