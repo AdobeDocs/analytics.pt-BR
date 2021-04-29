@@ -1,16 +1,20 @@
 ---
 title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
-translation-type: ht
-source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
-workflow-type: ht
-source-wordcount: '1465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '1485'
+ht-degree: 98%
 
 ---
 
 
 # Perguntas frequentes sobre canais de marketing
+
+>[!NOTE]
+>
+>Para maximizar a eficácia dos Canais de marketing para Attribution IQ e Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Perguntas frequentes para canais de marketing.
 
