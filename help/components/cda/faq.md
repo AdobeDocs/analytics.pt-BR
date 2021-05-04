@@ -3,10 +3,10 @@ title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 81%
+source-wordcount: '1674'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Ambos os identificadores são calculados pela Adobe no momento em que o relatór
 
 ## Como posso migrar do gráfico de dispositivos para a compilação em campo, ou vice-versa?
 
-Se você quiser trocar os métodos de identificação do CDA, entre em contato com o Gerente de conta da sua organização. O Gerente de conta pode provisionar seu conjunto de relatórios para o método desejado para identificar pessoas. *Os dados históricos compilados do método anterior são perdidos.*
+A alternância do gráfico de dispositivos para a compilação em campo ou vice-versa pode ser solicitada por meio do Atendimento ao cliente. No entanto, essa alteração pode levar algumas semanas ou mais para ser concluída e *dados históricos compilados do método anterior são perdidos.*
 
 ## Como a Adobe manipula limites exclusivos para uma eVar usada na compilação em campo?
 
