@@ -1,30 +1,30 @@
 ---
 description: Quando um relatório possuir um grande número de valores únicos, a Adobe fornece funcionalidades para assegurar que os valores mais importantes apareçam em seu relatório.
 title: Valor de tráfego baixo no Adobe Analytics
-feature: Metrics
+feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 94%
+source-wordcount: '485'
+ht-degree: 79%
 
 ---
 
 # Valor de tráfego baixo no Adobe Analytics
 
-Quando um relatório possuir um grande número de valores únicos, a Adobe fornece funcionalidades para assegurar que os valores mais importantes apareçam em seu relatório. Valores de variável únicos coletados após aproximadamente 500.000 valores existentes são listados em um item de linha intitulado **(Tráfego baixo)**.
+Quando um relatório tem muitos valores únicos, o Adobe fornece funcionalidades para garantir que os valores mais importantes apareçam em seu relatório. Valores de variável únicos coletados após aproximadamente 500.000 valores existentes são listados em um item de linha intitulado **(Tráfego baixo)**.
 
 ## Como o tráfego baixo funciona
 
 * O relatório não é afetado se a variável não atingir 500.000 valores únicos em um determinado mês.
 * Quando uma variável atinge esse primeiro limite de 500.000, os dados começam a ser classificados em Tráfego baixo. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
-   * Se um valor ainda não estiver no relatório, verifique se esse valor foi visto mais de aproximadamente dez vezes hoje. Se tiver sido, adicione esse valor ao relatório. Se não tiver sido contado mais de dez vezes, deixe-o em Tráfego baixo.
+   * Se um valor ainda não estiver no relatório, os limites de &quot;valores numéricos vistos&quot; dependerão das configurações de back-end. Elas não constituem &quot;10&quot; precisas ou &quot;100&quot; vezes vistas.
 * Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
-   * Se um valor ainda não estiver no relatório, verifique se esse valor foi visto mais de aproximadamente 100 vezes hoje. Se tiver sido, adicione o valor ao relatório. Se não, deixe-o em Tráfego baixo.
+   * Se um valor ainda não estiver no relatório, os limites de &quot;valores numéricos vistos&quot; dependerão das configurações de back-end. Elas não constituem &quot;10&quot; precisas ou &quot;100&quot; vezes vistas.
 
 >[!NOTE]
 >
