@@ -5,30 +5,28 @@ feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
+source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 79%
+source-wordcount: '641'
+ht-degree: 48%
 
 ---
 
 # Valor de tráfego baixo no Adobe Analytics
 
-Quando um relatório tem muitos valores únicos, o Adobe fornece funcionalidades para garantir que os valores mais importantes apareçam em seu relatório. Valores de variável únicos coletados após aproximadamente 500.000 valores existentes são listados em um item de linha intitulado **(Tráfego baixo)**.
+Quando um relatório tem muitos valores únicos, o Adobe fornece funcionalidades para garantir que os valores mais importantes apareçam em seu relatório. Valores de variável únicos coletados após aproximadamente 500.000 valores existentes são listados em um item de linha intitulado **[!UICONTROL Tráfego baixo]**.
 
-## Como o tráfego baixo funciona
+## Como o [!UICONTROL Tráfego baixo] funciona
 
 * O relatório não é afetado se a variável não atingir 500.000 valores únicos em um determinado mês.
 * Quando uma variável atinge esse primeiro limite de 500.000, os dados começam a ser classificados em Tráfego baixo. Cada valor além desse limite passa pela seguinte lógica:
-   * Se um valor já estiver nos relatórios, adicione-o como de costume.
-   * Se um valor ainda não estiver no relatório, os limites de &quot;valores numéricos vistos&quot; dependerão das configurações de back-end. Elas não constituem &quot;10&quot; precisas ou &quot;100&quot; vezes vistas.
+   * Se um valor já estiver visível nos relatórios, adicione-o como de costume.
+   * Se um valor ainda não for visualizado nos relatórios, ele aparecerá no item de linha [!UICONTROL Tráfego baixo]. Se um valor que foi incluído no item de linha [!UICONTROL Tráfego baixo] for visto um número significativo de vezes em um curto período, ele começará a ser reconhecido como seu próprio item de linha. O número significativo de vezes que um item deve ser visualizado tem muitas dependências, como o número de servidores de processamento e daemons que estão processando dados para esse conjunto de relatórios específico.
 * Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada:
-   * Se um valor já estiver nos relatórios, adicione-o como de costume.
-   * Se um valor ainda não estiver no relatório, os limites de &quot;valores numéricos vistos&quot; dependerão das configurações de back-end. Elas não constituem &quot;10&quot; precisas ou &quot;100&quot; vezes vistas.
+   * Se um valor já estiver visível nos relatórios, adicione-o como de costume.
+   * Se um valor ainda não for visualizado nos relatórios, ele aparecerá no item de linha [!UICONTROL Tráfego baixo]. Se um valor que foi incluído no item de linha [!UICONTROL Tráfego baixo] for visto um número significativo de vezes em um curto período, ele começará a ser reconhecido como seu próprio item de linha. O número significativo de vezes que um item deve ser visualizado tem muitas dependências, como o número de servidores de processamento e daemons que estão processando dados para esse conjunto de relatórios específico.
 
->[!NOTE]
->
->Se um valor de variável receber tráfego suficiente para deixar a categoria de tráfego baixo, os primeiros valores coletados não serão movidos para o respectivo item de linha. As primeiras 10-100 instâncias ficam em Tráfego baixo.
+Por que o Adobe move um item da linha [!UICONTROL Tráfego baixo] para seu próprio item de linha? Por exemplo, esse movimento pode reconhecer uma nova página popular ou um novo item que foi adicionado posteriormente no mês (depois que únicos foram excedidos) e que recebe muitas ocorrências/exibições. A movimentação não tem como objetivo capturar tudo o que recebe um determinado número de ocorrências/exibições por dia ou por mês.
 
 ## Alterar limites exclusivos
 
