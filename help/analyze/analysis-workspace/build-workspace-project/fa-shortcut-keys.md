@@ -18,6 +18,7 @@ ht-degree: 75%
 Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise, adição de painéis e visualizações e democratização (compartilhamento).
 
 Observação:
+
 * `Ctrl` = Windows e  `Command` = Mac
 * `Alt` = Windows e  `Option` = Mac
 
