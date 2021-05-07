@@ -1,14 +1,14 @@
 ---
 title: Remoção de bot no Adobe Analytics
 description: 3 maneiras de remover bots no Adobe Analytics
-translation-type: ht
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
+translation-type: tm+mt
+source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
-
 
 # Remoção de bot no Adobe Analytics
 
@@ -24,6 +24,17 @@ Os métodos padrão e personalizados de filtragem de bots são compatíveis em *
 | Regras de bot personalizadas | Você pode definir e adicionar regras de bot personalizadas com base em agentes de usuário, endereços IP ou intervalos IP. |
 
 Para obter mais detalhes, consulte [Visão geral das regras de bot](/help/admin/admin/bot-removal/bot-rules.md).
+
+## Use o plug-in [!UICONTROL siteBot] para identificar bots
+
+O plug-in websiteBot permite identificar dinamicamente se os visitantes do desktop são bots. Você pode usar esses dados para impulsionar uma maior precisão em todos os tipos de relatórios, o que oferece uma maneira melhor de medir o tráfego real no site.
+
+Esse plug-in executa duas verificações:
+
+* Primeiro, determina se o dispositivo é um desktop ou dispositivo móvel usando a variável navigator.UserAgent . Dispositivos móveis são ignorados.
+* Se for um dispositivo desktop, ele adiciona um ouvinte de evento para movimento do mouse.
+
+Para obter mais informações, consulte o [Guia de Implementação do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
 
 ## Usar uma combinação de ferramentas da Adobe
 
