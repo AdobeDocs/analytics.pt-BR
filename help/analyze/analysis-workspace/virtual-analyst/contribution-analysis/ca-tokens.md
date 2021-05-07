@@ -2,16 +2,16 @@
 description: Use a Análise de contribuição para identificar anomalias e correlações estatísticas nos dados.
 title: Visão geral da análise de contribuição
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: Ferramentas AI
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 99%
+source-wordcount: '1164'
+ht-degree: 91%
 
 ---
-
 
 # Visão geral da análise de contribuição
 
@@ -47,41 +47,14 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
 
 ## Perguntas frequentes {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Por que a Adobe apresentou os tokens? </b> </p> </td> 
-   <td colname="col2"> <p>A Análise de contribuição é um dos recursos mais importantes do Adobe Analytics. Com um pequeno número de execuções completas por mês (em vez de apenas 3 dimensões para alguns produtos do Analytics), você pode ter uma ideia melhor do que a Análise de contribuição completa e ilimitada pode fazer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como a tokenização funciona na Análise de contribuição? Custa um token para carregar um projeto com uma Análise de contribuição já existente ou apenas ao executar uma nova?</b> </p> </td> 
-   <td colname="col2"> <p>Cada logon da empresa (não de cada usuário) recebe um certo número de tokens por mês, que permitem executar Análises de contribuição completas no Analysis Workspace. </p> <p>Cada vez que uma nova Análise de contribuição for gerada, um token é pago. Carregar projetos com Análises de contribuição pré-executadas não custa um token. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Os tokens se aplicam à Análise de contribuição no Reports &amp; Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Não. A Análise de contribuição não é mais oferecida no Reports &amp; Analytics a partir da versão de abril de 2018. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Se os tokens da minha empresa acabaram e ainda queremos executar Análises de contribuição adicionais, o que podemos fazer?</b> </p> </td> 
-   <td colname="col2"> <p>É possível atualizar para outro produto do Adobe Analytics, por exemplo do Standard (2 tokens mensais) para o Ultimate (20 tokens mensais). Não é possível apenas comprar mais tokens, é necessário atualizar dentro da estrutura de pacotes existente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como restringir o acesso à Análise de contribuição?</b> </p> </td> 
-   <td colname="col2"> <p>Por padrão, somente os administradores têm acesso para executar Análises de contribuição, mas os administradores podem conceder acesso a outros usuários criando um grupo de permissões no <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a>. É importante dar permissão de uso para a Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. </p> <p>A permissão se chama “Análise de contribuição” e está em <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acessos a relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span></span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como posso saber a quantos tokens minha empresa tem direito por mês e quantos já usamos no mês atual?</b> </p> </td> 
-   <td colname="col2"> <p>Acesse <span class="ignoretag"><span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Configurações da empresa</span> &gt; <span class="uicontrol">Exibir níveis de acesso a recursos</span></span>. Existem 2 itens novos nesta página: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Pergunta | Resposta |
+| --- | --- |
+| Por que a Adobe apresentou os tokens? | A Análise de contribuição é um dos recursos mais importantes do Adobe Analytics. Com um pequeno número de execuções completas por mês (em vez de apenas 3 dimensões para alguns produtos do Analytics), você pode ter uma ideia melhor do que a Análise de contribuição completa e ilimitada pode fazer. |
+| Como a tokenização funciona na Análise de contribuição? Custa um token para carregar um projeto com uma Análise de contribuição já existente ou apenas ao executar uma nova? | Cada logon da empresa (não de cada usuário) recebe um certo número de tokens por mês, que permitem executar Análises de contribuição completas no Analysis Workspace.  Cada vez que uma nova Análise de contribuição for gerada, um token é pago. Carregar projetos com Análises de contribuição pré-executadas não custa um token. |
+| Os tokens se aplicam à Análise de contribuição no Reports &amp; Analytics? | Não. A Análise de contribuição não é mais oferecida no Reports &amp; Analytics a partir de abril de 2018. |
+| Se os tokens da minha empresa acabaram e ainda queremos executar Análises de contribuição adicionais, o que podemos fazer? | É possível atualizar para outro produto do Adobe Analytics, por exemplo do Standard (2 tokens mensais) para o Ultimate (20 tokens mensais). Não é possível apenas comprar mais tokens, é necessário atualizar dentro da estrutura de pacotes existente. |
+| Como restringir o acesso à Análise de contribuição? | Por padrão, somente os administradores têm acesso para executar Análises de contribuição. No entanto, os administradores podem conceder acesso a outros usuários criando um grupo de permissões no [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). É importante dar permissão de uso para a Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. A permissão é chamada [!UICONTROL Análise de contribuição] em [!UICONTROL Ferramentas do conjunto de relatórios]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| Como posso saber a quantos tokens minha empresa tem direito por mês e quantos já usamos no mês atual? | Vá para [!UICONTROL Admin] > [!UICONTROL Todos os Admin] >[!UICONTROL Página inicial das configurações da empresa] >[!UICONTROL Exibir níveis de acesso a recursos]. Procure debaixo<ul><li>Análise de contribuição: número de tokens de uso mensais</li><li>Análise de contribuição: número de tokens de uso usados neste mês</li></ul> |
 
 ## Direitos de Detecção de anomalias e Análise de contribuição {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
 
 >[!IMPORTANT]
 >
->A Detecção de anomalias e a Análise de contribuição foram removidas do conjunto de recursos do Reports &amp; Analytics e agora estão disponíveis somente no Analysis Workspace. Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation só têm acesso à Detecção de anomalias de “granularidade diária” no Workspace.
+>A Detecção de anomalias e a Análise de contribuição foram removidas do conjunto de recursos do Reports &amp; Analytics e agora estão disponíveis apenas por meio da Analysis Workspace. Observe que os clientes do Adobe Analytics Select e do Adobe Analytics Foundation só têm acesso à Detecção de anomalias de “granularidade diária” no Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
