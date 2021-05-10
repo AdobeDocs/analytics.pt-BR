@@ -1,14 +1,14 @@
 ---
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '2458'
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
-
 
 # Termos usados no Adobe Analytics
 
@@ -50,7 +50,6 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Fontes de dados](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
 * **Data Warehouse:** um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
 * **Dimensão:** um tipo de componente que contém valores variáveis, como texto. Os exemplos incluem Nome da página, Código de rastreamento ou Domínio de referência. Normalmente, uma métrica é sua contrapartida.
-* **Dynamic Tag Management:** a antiga solução de gerenciamento de tags da Adobe. Consulte [Visão geral da implementação do DTM](/help/implement/other/dtm/dtm-implementation-overview.md) no guia de usuário Implementar. A Adobe recomenda usar o Adobe Experience Platform Launch.
 * **Serialização de eventos:** o processo de implementação de medidas para impedir a coleta de eventos duplicados. Consulte [Serialização de eventos](../implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar.
 * **eVar:** consulte Variável de conversão.
 * **Evento:** consulte Evento bem-sucedido.
@@ -99,13 +98,13 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Contêiner de segmento:** a parte de um segmento que determina a quantidade de dados a serem trazidos. Os contêineres podem se basear na exibição de página, visita ou visitante. Consulte [Segmentação](/help/components/segmentation/seg-overview.md) no guia do usuário Componentes.
 * **Serialização:** consulte Serialização de eventos.
 * **Chamada de servidor:** nome alternativo para uma solicitação de imagem ou hit, usado principalmente no contexto da cobrança.
-* **Acesso único:** uma visita em que uma dimensão tinha apenas um único valor exclusivo. A visita pode ter vários hits, desde que não haja vários valores únicos. Consulte a métrica [Acesso único](/help/components/metrics/single-access.md) no guia do usuário Componentes. Consulte também Rejeição.
+* **Acesso único:** uma visita em que uma dimensão tinha apenas um único valor único. A visita pode ter vários hits, desde que não haja vários valores únicos. Consulte a métrica [Acesso único](/help/components/metrics/single-access.md) no guia do usuário Componentes. Consulte também Rejeição.
 * **SiteCatalyst:** não é mais usado como termo. Antigo nome de produto do Adobe Analytics.
 * **Documento de design da solução:** também conhecido como referência de design de solução, ou SDR Um documento interno mantido por uma organização que descreve como as variáveis personalizadas são usadas e a lógica usada para preenchê-las. Consulte [Criar um documento de design de solução](/help/implement/prepare/solution-design.md) no guia do usuário Implementar.
 * **Sub-relação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as sub-relações permitiam detalhar as variáveis de conversão. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **Evento bem-sucedido:** uma ação rastreada feita por um usuário. Sua organização determina quais eventos rastrear e quais variáveis de evento de sucesso você usa para rastreá-los. Consulte [Eventos personalizados](/help/components/metrics/custom-events.md) no guia do usuário Componentes.
 * **Usuário suportado:** consulte Delegado de suporte ao cliente.
-* **Variável de tráfego:** também conhecida como props. Armazena um valor personalizado para um único hit. As versões anteriores do Adobe Analytics davam valor exclusivo às props, mas as melhorias na plataforma tornam as variáveis de tráfego personalizadas amplamente desnecessárias. A Adobe recomenda usar variáveis de conversão personalizadas (eVars) na maioria dos casos. Consulte a dimensão [Prop](/help/components/dimensions/prop.md) no guia do usuário Componentes.
+* **Variável de tráfego:** também conhecida como props. Armazena um valor personalizado para um único hit. As versões anteriores do Adobe Analytics davam valor único às props, mas as melhorias na plataforma tornam as variáveis de tráfego personalizadas amplamente desnecessárias. A Adobe recomenda usar variáveis de conversão personalizadas (eVars) na maioria dos casos. Consulte a dimensão [Prop](/help/components/dimensions/prop.md) no guia do usuário Componentes.
 * **Relatório de tendências:** um formato de relatório que normalmente mostra vários intervalos de datas com uma métrica. Esse tipo de relatório permite que você veja como uma métrica é executada ao longo do tempo. Consulte também Relatório classificado.
 * **Visitante único**: representa o número de indivíduos únicos que visitaram seu site. Um visitante único pode ter várias visitas. Consulte a métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes.
 * **Conjunto de relatórios virtuais:** um contêiner virtual de dados que faz referência a um conjunto de relatórios normal e permite o refinamento de dados. Os dados não são enviados a um conjunto de relatórios virtual; em vez disso, os dados são enviados a um conjunto de relatórios normal e um conjunto de relatórios virtual é construído a partir desses dados coletados. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes.
