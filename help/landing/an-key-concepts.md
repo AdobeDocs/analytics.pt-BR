@@ -1,14 +1,14 @@
 ---
 description: Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 title: Adobe Analytics - Principais conceitos
+exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1834'
+ht-degree: 99%
 
 ---
-
 
 # Adobe Analytics - Principais conceitos
 
@@ -25,8 +25,7 @@ Esta seção contém os principais conceitos do Adobe Analytics, uma breve descr
 | Data Warehouse | Dados brutos e não processados para armazenamento e relatórios personalizados, que podem ser executados por meio da filtragem de dados. Sem nível de ocorrências. | [Página inicial do Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore a participação do usuário com seus aplicativos. | [Página inicial do Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html) |
 | Data Connectors do Adobe Exchange (antigo Genesis) | Importe dados de rastreamento de aplicativos de terceiros para o Analytics, oferecendo visibilidade completa ao desempenho em um local central. A partir de 1º de agosto de 2021, a Adobe pretende descontinuar as integrações dos Data Connectors. | [Página inicial dos Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
-| Dynamic Tag Management (DTM) | Ajuda a gerenciar suas tags do Analytics, do Target e de outras soluções em todos os seus sites, independentemente do número de domínios. | [Página inicial do DTM](/help/implement/other/dtm/dtm-implementation-overview.md) |
-| Adobe Launch | A próxima geração de recursos de Gerenciamento de tags de site e de SDKs móveis da Adobe. | [Página inicial do Adobe Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/overview.html) |
+| Adobe Experience Platform Launch | A próxima geração de recursos de Gerenciamento de tags de site e de SDKs móveis da Adobe. | [Página inicial do Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Terminologia principal {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -109,7 +108,7 @@ Clique [aqui](/help/technotes/terms.md) para obter um glossário expandido com o
 | Guia de Implementação | Uma descrição das variáveis de coleta de dados e detalhes sobre a implementação do código da coleta de dados em JavaScript. | [Guia de Implementação](/help/implement/home.md) |
 | AppMeasurement (s_code) | Gerenciamento global de variáveis. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | SDKs do aplicativo | Pacote personalizado que inclui uma versão pré-preenchida do arquivo de configuração para aplicativos. | <ul><li>[iOS](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| DTM e Adobe Launch | Consulte Ferramentas do Analytics. |  |
+| Adobe Experience Platform Launch | Consulte Ferramentas do Analytics. |  |
 | VISTA | Permite aplicar a lógica do lado do servidor para alterar ou segmentar dados conforme são coletados. | [Regras VISTA](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Regras de processamento | Capacidade de definir, modificar e copiar variáveis na interface do usuário do Analytics para alterar os dados coletados. | [Regras de processamento](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Opções de depuração | Há vários depuradores e analisadores de pacotes disponíveis para ajudar a validar sua implementação, incluindo o Adobe Experience Cloud Debugger. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=pt) |
