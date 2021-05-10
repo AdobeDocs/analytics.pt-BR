@@ -1,22 +1,22 @@
 ---
 description: Perguntas frequentes sobre o Workspace
 title: Perguntas frequentes e solução de problemas no Workspace
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
+exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 97%
 
 ---
-
 
 # Perguntas frequentes
 
 | Pergunta | Resposta |
 |--- |--- |
-| Quais são os pré-requisitos para usar o Analysis Workspace? | [Enviar dados para o Adobe Analytics usando o Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): o uso do Analysis Workspace requer uma implementação em funcionamento. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como o DTM ou implementações manuais herdadas, também podem funcionar. |
+| Quais são os pré-requisitos para usar o Analysis Workspace? | [Enviar dados para o Adobe Analytics usando o Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): o uso do Analysis Workspace requer uma implementação em funcionamento. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como implementações manuais herdadas, também podem funcionar. |
 | Quais são os requisitos de administração e acesso para o Analysis Workspace? | Consulte [Requisitos de administração](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | O uso do Analysis Workspace afetará a coleta de dados? | Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impacto na coleta de dados. Se você arrastar componentes indiscriminadamente para um projeto para ver o que acontece, não haverá nenhuma repercussão. Arraste diferentes combinações de dimensões e métricas para o projeto do seu espaço de trabalho para ver o que está disponível. Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto] > [!UICONTROL Novo]* no menu superior esquerdo. |
 | Quantos conjuntos de relatórios podem ser exibidos em um projeto do Analysis Workspace? | Agora você pode criar projetos no Analysis Workspace usando dados de [vários conjuntos de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html). |
