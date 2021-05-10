@@ -1,30 +1,29 @@
 ---
 description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
 title: Operadores de comparação para segmentos
-feature: Segmentation
+feature: Segmentação
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Operadores de comparação para segmentos
 
-O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
-
-Existem três categorias de operadores: Padrão, Data Warehouse e Contagem distinta.
+O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados. Existem três categorias de operadores: Padrão, Data Warehouse e Contagem distinta.
 
 O único caractere genérico compatível é o asterisco: *. Caso seja necessário pesquisar por *, você pode isolá-lo com barras invertidas.
 
 **Exemplo**: imagine que você possui uma página com o nome de &quot;Meu produto divertido&quot;. A regra do segmento &quot;O nome da página corresponde a Meu*produto&quot; corresponderá ao nome da página acima. No entanto, a regra &quot;O nome da página corresponde a Meu\\*produto&quot; será correspondente somente com o nome da página &quot;Meu*produto&quot;.
 
+## Operadores padrão
+
 | Operador | A dimensão, o segmento ou o evento de métrica selecionado... |
 |--- |--- |
-| **Padrão** |  |
 | igual a | Retorna itens que possuem o mesmo valor numérico ou de sequência. Observação: se estiver usando caracteres curingas, use operador &quot;corresponde&quot;. |
 | não é igual | Retorna todos os itens que não contêm a correspondência exata do valor inserido.  Observação: se estiver usando caracteres curingas, use operador &quot;não correspondente&quot;. |
 | equivale a qualquer | Retorna itens que correspondem exatamente a qualquer valor no campo de entrada (até 500 itens). Por exemplo, inserir &quot;Resultados de pesquisa, Página inicial&quot; com esse operador corresponderia a &quot;Resultados de pesquisa&quot; e &quot;Página inicial&quot; e contaria como 2 itens. O campo de entrada desse operador é delimitado por vírgulas. |
@@ -43,12 +42,22 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | não corresponde | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga. |
 | existe | Retorna o número de itens que existem. Por exemplo, se você avaliar a dimensão Páginas não encontradas usando o operador &quot;existe&quot;, o número de páginas de erro que existe é retornado. |
 | não existe | Retorna todos os itens que não existem. Por exemplo, se você avaliar a dimensão Páginas não encontradas usando o operador &quot;não existe&quot;, o número de páginas nas quais esse erro não existia é retornado. |
-| **Data Warehouse** |  |
+
+## Operadores de Data Warehouse
+
+| Operador | A dimensão, o segmento ou o evento de métrica selecionado... |
+| --- | --- |
 | é menor que | Retorna itens cuja contagem numérica é inferior ao valor inserido. |
 | é menor que ou igual a | Retorna itens cuja contagem numérica é inferior ou igual ao valor inserido. |
 | é maior que | Retorna itens cuja contagem numérica é superior ao valor inserido. |
 | é maior que ou igual a | Retorna itens cuja contagem numérica é superior ou igual ao valor inserido. |
-| **Contagem distinta** | É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.” |
+
+## Operadores de Contagem distinta
+
+É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.”
+
+| Operador | A dimensão, o segmento ou o evento de métrica selecionado... |
+| --- | --- |
 | igual a | Retorna itens de dimensão cuja contagem específica é igual ao valor inserido. |
 | não é igual | Retorna itens de dimensão cuja contagem específica não é igual ao valor inserido. |
 | é maior que | Retorna itens de dimensão cuja contagem específica é superior ao valor inserido. |
