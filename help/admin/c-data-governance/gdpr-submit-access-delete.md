@@ -2,19 +2,16 @@
 description: Como enviar acesso aos dados e excluir solicitações no Adobe Analytics.
 title: Enviar solicitações de acesso e de exclusão
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
-
 # Enviar solicitações de acesso e de exclusão
-
-
-## Visão geral {#section_BD70882995894C1CA19C205C49FEC23C}
 
 Se seus clientes (consumidores/titulares de dados) quiserem saber quais dados você mantém sobre eles ou decidirem que desejam ser excluídos de suas propriedades do Analytics, você, como o controlador dos dados, é responsável por responder a essas solicitações. O controlador de dados determina como sua organização interage com titulares de dados (por exemplo, por meio de um portal de usuário do titular dos dados) e gerencia as interações com eles. Também é responsabilidade do controlador fechar o ciclo com o titular dos dados quando a solicitação for atendida. Em outras palavras, a Adobe Experience Cloud, como processador de dados, não aceitará solicitações diretamente dos titulares dos dados nem retornará dados diretamente para eles. Em vez disso, a Adobe receberá solicitações e retornará dados somente para você, o controlador dos dados.
 
@@ -22,9 +19,9 @@ Você também pode querer garantir que seus aplicativos e sites para dispositivo
 
 ## Gerenciar o consentimento do consumidor {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por [implementar um mecanismo de recusa](https://docs.adobe.com/content/help/pt-BR/dtm/using/tools/opt-in.html) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
+Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) em seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
 
-## Validar usuários e seus dados {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Validar usuários e seus dados  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 Você, como controlador de dados, é responsável por verificar se o titular dos dados é quem diz ser e se tem direito aos dados que está solicitando. Além disso, é sua responsabilidade garantir que os dados corretos sejam retornados ao titular dos dados e que ele não receba, inadvertidamente, dados sobre outros titulares.
 
@@ -32,7 +29,7 @@ Isso inclui revisar os dados retornados pelo Adobe Analytics como parte de uma s
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
 
-## Enviar solicitações {#submit-requests}
+## Enviar solicitações  {#submit-requests}
 
 Você pode enviar acesso à Privacidade de dados e excluir solicitações por meio do portal da [interface do usuário da Privacidade de dados](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou por meio da nossa [API da Privacidade de dados.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -40,7 +37,7 @@ Você pode enviar acesso à Privacidade de dados e excluir solicitações por me
 >
 >A API da Privacidade de dados suporta envios em massa de vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
-## Solicitação JSON de exemplo {#sample-json-request}
+## Solicitação JSON de exemplo  {#sample-json-request}
 
 Este é o JSON que pode ser enviado por meio da API da Privacidade de dados ou da interface do usuário, solicitando o processamento da Privacidade de dados para três usuários.
 
@@ -126,12 +123,12 @@ Os dados retornados em uma solicitação de acesso fornecem a você, o controlad
 * Arquivos de pessoas - derivados de ocorrências que contêm um rótulo ID-PERSON correspondente
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL ou ACC-PERSON, classificado por carimbo de data e hora.
-   * Um arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL ou ACC-PERSON. Cada entrada lista todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
+   * Um arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL ou ACC-PERSON. Cada entrada lista todos os valores únicos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias únicos.
 
 * Arquivos de dispositivo - derivados de ocorrências em que um dos campos correspondia a um ID-DEVICE especificado, mas nenhum correspondia a um ID-PERSON especificado
 
    * Um arquivo CSV com uma linha para cada ocorrência correspondente e uma coluna para cada campo com um rótulo de ACC-ALL, classificado por carimbo de data e hora.
-   * Arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL. Cada entrada listará todos os valores exclusivos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias exclusivos.
+   * Arquivo HTML de resumo com uma entrada para cada rótulo de ACC-ALL. Cada entrada listará todos os valores únicos para esse campo e o número de vezes que cada um ocorreu. Os campos que contêm os carimbos de data e hora são arredondados para especificar apenas dias únicos.
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas.
 
