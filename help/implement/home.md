@@ -1,14 +1,14 @@
 ---
 title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 translation-type: tm+mt
-source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '366'
 ht-degree: 97%
 
 ---
-
 
 # Implementação do Adobe Analytics
 
@@ -30,13 +30,13 @@ O código JavaScript envia uma solicitação de imagem para os servidores de col
 O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicativo para enviar dados aos servidores de coleta de dados. Há vários métodos para implementar esse código, dependendo da plataforma e das necessidades da organização.
 
 * **Adobe Experience Platform Launch:** o método padrão e recomendado para implementar o Adobe Analytics. Coloque uma tag de carregamento em cada página e use a interface do Launch para determinar como cada variável é definida.
-* **Dynamic Tag Management:** o antecessor do Launch. O DTM usa uma interface semelhante para implementar o Analytics, mas não é mais atualizada e não é tão flexível. A Adobe recomenda usar o Launch para implementar o Adobe Analytics.
+* **Dynamic Tag Management**: O Dynamic Tag Management foi encerrado.
 * **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações do Launch usando regras com código personalizado.
 * **SDK móvel**: bibliotecas dedicadas para enviar dados facilmente à Adobe a partir do aplicativo móvel.
 
 ## Artigos principais de implementação do Analytics
 
-* [Assumir o controle de uma implementação Adobe Analytics existente](/help/implement/prepare/existing-implementation.md)
+* [Assumir o controle de uma implementação existente do Adobe Analytics](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Criar uma propriedade na Experience Platform Launch](launch/create-analytics-property.md)
 * [Atualizações do AppMeasurement](appmeasurement-updates.md)
