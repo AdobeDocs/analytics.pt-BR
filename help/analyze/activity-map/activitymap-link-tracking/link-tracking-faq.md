@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 47%
+source-wordcount: '513'
+ht-degree: 44%
 
 ---
 
@@ -43,10 +43,14 @@ Se um evento de clique ocorrer em um elemento, ele precisará passar por algumas
 * Isso é um `BUTTON`?
 
 Se a resposta for Sim para qualquer uma das perguntas acima, então o elemento é tratado como um link e será rastreado.
- 
-Importante: tags de botão com o atributo type=&quot;button&quot; não são consideradas links por AppMeasurement. Considere remover type=&quot;button&quot; nas tags de botão e, em vez disso, adicione role=&quot;button&quot; ou submit=&quot;button&quot;.
- 
-Importante: Uma tag de âncora com um &quot;href&quot; que começa com &quot;#&quot; é considerada um local de destino interno pelo AppMeasurement, não um link (já que você não sai da página). Por padrão, o Activity Map não rastreia esses locais de destino internos. Ele rastreia somente links que levam o usuário a uma nova página.
+
+>[!IMPORTANT]
+>
+>Tags de botão com o atributo type=&quot;button&quot; não são consideradas links por AppMeasurement. Considere remover type=&quot;button&quot; nas tags de botão e, em vez disso, adicione role=&quot;button&quot; ou submit=&quot;button&quot;.
+
+>[!IMPORTANT]
+>
+>Uma tag de âncora com um &quot;href&quot; que começa com &quot;#&quot; é considerada um local de destino interno pelo AppMeasurement, não um link (já que você não sai da página). Por padrão, o Activity Map não rastreia esses locais de destino internos. Ele rastreia somente links que levam o usuário a uma nova página.
 
 ## Como o Activity Map rastreia outros elementos visuais em HTML?
 
@@ -55,7 +59,6 @@ a. Por meio da função `s.tl()` .
 Se o clique ocorreu por meio de uma invocação `s.tl()`, o Activity Map também receberá esse evento de clique e determinará se uma variável de sequência de caracteres `linkName` foi encontrada. Durante a execução de `s.tl()`, o linkName será definido como a ID do link Activity Map. O elemento clicado que originou a chamada `s.tl()` será usado para determinar a região. Exemplo:
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b. Com a variável `s_objectID` . Exemplo:
     
     &quot;
 
-Importante:  Observe que é necessário um ponto e vírgula (;) ao usar `s_objectID` no Activity Map.
+>[!IMPORTANT]
+>
+>É necessário um ponto e vírgula (;) ao usar `s_objectID` no Activity Map.
 
 ## Você pode me dar alguns exemplos de links que serão rastreados?
 
