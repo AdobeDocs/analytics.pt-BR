@@ -2,7 +2,7 @@
 title: Práticas recomendadas para implementar os Canais de marketing do Adobe Analytics
 description: Práticas recomendadas atualizadas para usar os Canais de marketing com o Attribution IQ e o Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Attribution IQ com Canais de marketing - Práticas recomendadas
 
-[Os ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Canais de marketing são um recurso valioso e poderoso do Adobe Analytics. As orientações atuais sobre a implementação do Marketing Channel foram formuladas em um momento em que não existia [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) nem [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=pt-BR#cja-usecases).
+[Os ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Canais de marketing são um recurso valioso e poderoso do Adobe Analytics. As orientações atuais sobre a implementação do Marketing Channel foram formuladas em um momento em que não existia [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) nem [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=pt-BR#cja-usecases).
 
 Para garantir a sua implementação de Canais de marketing e a consistência dos relatórios com o Attribution IQ e o Customer Journey Analytics, estamos emitindo um conjunto de práticas recomendadas atualizadas. Se você já estiver usando os Canais de marketing, poderá escolher as melhores opções entre essas novas diretrizes. Se você nunca usou os Canais de marketing, recomendamos que siga todas as novas práticas recomendadas.
 
@@ -22,7 +22,7 @@ Como as dimensões do Canal de marketing dependem de uma definição de Visita t
 
 ## Prática recomendada nº 1: Aproveite o Attribution IQ para análise controlada
 
-Recomendamos usar [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) em vez da atribuição existente do Canal de marketing para ajustar a análise do Canal de marketing. Siga as outras práticas recomendadas para garantir a consistência e os controles robustos da sua análise com o Attribution IQ.
+Recomendamos usar [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) em vez da atribuição existente do Canal de marketing para ajustar a análise do Canal de marketing. Siga as outras práticas recomendadas para garantir a consistência e os controles robustos da sua análise com o Attribution IQ.
 
 ![](assets/attribution.png)
 
