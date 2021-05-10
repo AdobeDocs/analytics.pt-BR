@@ -2,13 +2,13 @@
 description: Descrições de elementos na página Definir grupo de usuários.
 subtopic: Users and groups
 title: Configurações do grupo de usuários
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e produtos foi movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Descrições de elementos na página Definir grupo de usuários.
 
@@ -110,14 +110,7 @@ Descrições de elementos na página Definir grupo de usuários.
   <tr> 
    <td colname="col1"><b>Todos os Conjuntos de relatórios</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Todos os acessos, Personalizar, Sem acesso) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>As permissões são suportadas para clientes que possuem contêineres ativos do <span class="keyword">TagManager</span>. Não disponíveis para novos usuários. </p> <p>A Adobe recomenda o <a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para implantação. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>Atribuir logons de usuário</b> </td> 
    <td colname="col2"> </td> 
