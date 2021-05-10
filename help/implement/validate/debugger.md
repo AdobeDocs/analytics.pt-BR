@@ -1,14 +1,14 @@
 ---
 title: Adobe Experience Cloud Debugger herdado
-description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade, DTM e Launch.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade e Launch.
+exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 98%
 
 ---
-
 
 # Adobe Experience Cloud Debugger herdado
 
@@ -36,7 +36,7 @@ Cada navegador tem diferentes maneiras de manipular marcadores, mas o conceito �
 
 #### Chrome
 
-Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
+Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
 
 1. Clique nos três pontos no canto superior direito e acesse Marcadores > Gerenciador de marcadores. Você também pode pressionar `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Na parte superior direita do gerenciador de marcadores, clique nos três pontos e em &#39;Adicionar novo marcador&#39;.
