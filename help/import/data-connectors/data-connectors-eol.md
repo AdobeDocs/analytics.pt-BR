@@ -3,10 +3,10 @@ description: Saiba quando e por que os conectores de dados do Analytics serão e
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | MaritzCX (V 2.0) | Substituição |
 | Merkle | Substituição |
 | Integração oficial do Oracle Eloqua | Migração para o Exchange |
-| optivo broadmail (Episerver) | Migração para o Exchange |
+| optivo broadmail (Episerver) | Substituição |
 | Qualtrics v2 | Migração para o Exchange |
 | Responsys 2.0 | Substituição |
 | Selligent | Substituição |
