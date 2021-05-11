@@ -1,84 +1,83 @@
 ---
 description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de atalho
-feature: Workspace Basics
+title: Teclas de atalho (atalhos)
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 75%
+exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '286'
+ht-degree: 100%
 
 ---
 
-
-# Teclas de atalho
+# Teclas de atalho (atalhos)
 
 Teclas de atalho (atalhos do teclado) estão disponíveis no Analysis Workspace para navegação, análise, adição de painéis e visualizações e democratização (compartilhamento).
 
 Observação:
-
-* `Ctrl` = Windows e  `Command` = Mac
-* `Alt` = Windows e  `Option` = Mac
+* `Ctrl` = Windows e `Command` = Mac
+* `Alt` = Windows e `Option` = Mac
 
 ## Ações de navegação
 
 | Ação | Atalho |
 | --- | --- |
-| Criar novo projeto | ctrl + shift + p |
-| Abrir projeto existente | ctrl + o |
-| Ir para o painel Painéis | alt + shift + 1 |
-| Ir para o painel Visualizações | alt + shift + 2 |
-| Ir para o painel Componentes | alt + shift + 3 |
-| Recolher/expandir todos os painéis | alt + m |
-| Recolher/expandir painel ativo | alt + ctrl + m |
-| Mover para o próximo painel | alt + Seta direita |
-| Mover para o painel anterior | alt + Seta esquerda |
+| Criar novo projeto | Ctrl+Shift+P |
+| Abrir projeto existente | Ctrl+O |
+| Ir para o painel Painéis | Alt+Shift+1 |
+| Ir para o painel Visualizações | Alt+Shift+2 |
+| Ir para o painel Componentes | Alt+Shift+3 |
+| Recolher/expandir todos os painéis | Alt+M |
+| Recolher/expandir painel ativo | Alt+Ctrl+M |
+| Mover para o próximo painel | Alt+Seta para a direita |
+| Mover para o painel anterior | Alt+Seta para a esquerda |
 
 ## Ações de análise
 
 | Ação | Atalho |
 | --- | --- |
-| Pesquisar painel esquerdo | ctrl + / |
-| Criar um alerta | ctrl + shift + a |
-| Criar métrica calculada | ctrl + shift + c |
-| Criar um intervalo de datas | ctrl + shift + d |
-| Criar um segmento | ctrl + shift + e |
-| Limpar tudo | alt + w |
-| Copiar | ctrl + c |
-| Refazer | ctrl + shift + z |
-| Desfazer | ctrl + z |
-| Atualizar componentes | alt + shift + r |
-| Atualizar projeto | alt + r |
-| Definir como página inicial | ctrl + shift + l |
+| Pesquisar painel esquerdo | Ctrl+/ |
+| Criar um alerta | Ctrl+Shift+A |
+| Criar métrica calculada | Ctrl+Shift+C |
+| Criar um intervalo de datas | Ctrl+Shift+D |
+| Criar um segmento | Ctrl+Shift+E |
+| Limpar tudo | Alt+W |
+| Copiar | Ctrl+C |
+| Refazer | Ctrl+Shift+Z |
+| Desfazer | Ctrl+Z |
+| Atualizar componentes | Alt+Shift+R |
+| Atualizar projeto | Alt+R |
+| Definir como página inicial | Ctrl+Shift+L |
 
 ## Adicionar painéis e ações de visualização
 
 | Ação | Atalho |
 | ---|---|
-| Novo painel Analytics for Target | alt + g |
-| Novo painel de atribuição | alt + e |
-| Novo painel em branco | alt + b |
-| Novo painel de forma livre | alt + a |
-| Painel de visualizadores simultâneos de novas mídias | alt + h |
-| Novo painel Quick Insights | alt + f |
-| Novo painel de Comparação de segmentos | alt + c |
-| Nova tabela de forma livre | alt + 1 |
-| Novo gráfico de linha | alt + 2 |
-| Novo gráfico de barras | alt + 3 |
+| Novo painel Analytics for Target | Alt+G |
+| Novo painel de atribuição | Alt+E |
+| Novo painel em branco | Alt+B |
+| Novo painel de forma livre | Alt+A |
+| Painel de visualizadores simultâneos de novas mídias | Alt+H |
+| Novo painel Quick Insights | Alt+F |
+| Novo painel de Comparação de segmentos | Alt+C |
+| Nova tabela de forma livre | Alt+1 |
+| Novo gráfico de linha | Alt+2 |
+| Novo gráfico de barras | Alt+3 |
 
 ## Ações de democratização
 
 | Ação | Atalho |
 | --- | --- |
-| Salvar projeto | ctrl + s |
-| Salvar projeto como | ctrl + shift + s |
-| Salvar como modelo | alt + t |
-| Baixar como CSV | ctrl + shift + v |
-| Baixar como PDF | ctrl + shift + b |
-| Preparar dados do projeto | ctrl + shift + g |
-| Compartilhar projeto | ctrl + g |
-| Obter link do projeto | alt + l |
-| Enviar arquivo agora | alt + s |
-| Enviar arquivo agendado | shift + alt + s |
+| Salvar projeto | Ctrl+S |
+| Salvar projeto como | Ctrl+Shift+S |
+| Salvar como modelo | Alt+T |
+| Baixar como CSV | Ctrl+Shift+V |
+| Baixar como PDF | Ctrl+Shift+B |
+| Preparar dados do projeto | Ctrl+Shift+G |
+| Compartilhar projeto | Ctrl+G |
+| Obter link do projeto | Alt+L |
+| Enviar arquivo agora | Alt+S |
+| Enviar arquivo agendado | Shift+Alt+S |
