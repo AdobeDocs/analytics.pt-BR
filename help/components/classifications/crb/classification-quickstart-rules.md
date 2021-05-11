@@ -2,13 +2,13 @@
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 subtopic: Classifications
 title: Regras de classificação
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ As regras de classificação buscam regularmente termos não classificados. Se u
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Construtor de regras de classificação]**
 
-O Construtor de regras permite criar um *`classification rule set`*, que é uma lista de *`classification rules`*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
+O Construtor de regras permite criar um *conjunto de regras de classificação*, que é uma lista de *regras de classificação*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
 
 As regras de classificação são úteis para:
 
@@ -266,7 +266,7 @@ Neste resultado, `a:b:1313` não indica uma correspondência.
 | `a{3,}` | 3 ou mais de a |
 | `a{3,6}` | Entre 3 e 6 de a |
 
-Um bom recurso para testar a validade da expressão regular é https://rubular.com/.
+Um bom recurso para testar a validade da expressão regular é [https://rubular.com/](https://rubular.com/).
 
 ## Sobre a prioridade das regras
 
@@ -282,7 +282,7 @@ Se você criar várias regras que não compartilhem a mesma classificação, a o
 
 O que vem depois de um exemplo de regra de termo de pesquisa que classifica os tipos de pesquisa de um atleta:
 
-| Número da regra | Tipo de regra | Correspondência | Definir a classificação | Para |
+| Número da regra | Tipo de regra | Corresponder | Definir a classificação | Para |
 |---|---|---|---|---|
 | 1 | Contém | Cowboys | Tipo de pesquisa | Equipe |
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
@@ -292,9 +292,9 @@ Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 
-| Número da regra | Tipo de regra | Correspondência | Definir a classificação | Para |
+| Número da regra | Tipo de regra | Corresponder | Definir a classificação | Para |
 |---|---|---|---|---|
-| 3 | Contém | Cowboys | Cidade | Dallas |
+| 1 | Contém | Cowboys | Cidade | Dallas |
 | 2 | Contém | Broncos | Cidade | Denver |
 
 Um usuário pesquisa por *`Cowboys vs. Broncos`*. Se o construtor de regras encontrar um conflito na correspondência da regra, a classificação da segunda regra (Denver) aplica-se a essa pesquisa.
@@ -326,13 +326,15 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
    >[!NOTE]
    >
-   >Os conjuntos de relatórios são exibidos nesta página *`only`*, quando as seguintes condições são atendidas:
+   >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *`Variable`* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
-   >
-   >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
+      >
+      >   
+      (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >
+   * Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
 
 1. Especifique se deseja substituir os valores existentes:
@@ -405,7 +407,7 @@ Etapas que descrevem como validar e ativar regras de classificação.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para substituir classificações, habilite **[!UICONTROL Substituir classificações de]** *`<selection>`*.
+1. (Opcional) Para substituir classificações, habilite **[!UICONTROL Substituir classificações para]** &lt;*seleção*>.
 
    Essa opção permite que você substitua classificações existentes para teclas afetadas.
 
