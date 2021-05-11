@@ -1,14 +1,14 @@
 ---
 title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
+translation-type: tm+mt
+source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 94%
 
 ---
-
 
 # Serialização da ID do evento
 
@@ -43,7 +43,7 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos], onde cada evento contém um campo [!UICONTROL ID de evento].
 
-Valores válidos são caracteres alfanuméricos de até 20 bytes de tamanho.
+Valores válidos são caracteres alfanuméricos de até 20 bytes de tamanho. Se você inserir um valor com mais de 20 bytes, o sistema o truncará para os primeiros 20 bytes.
 
 ## Usar IDs de evento no AppMeasurement e no editor de código personalizado do Launch
 
