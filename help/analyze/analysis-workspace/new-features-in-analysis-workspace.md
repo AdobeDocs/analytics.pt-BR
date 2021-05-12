@@ -2,11 +2,10 @@
 description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Para obter acesso às Notas de versão da Adobe Experience Cloud como um todo, a
 | [!UICONTROL Componentes]  > Preferências  [!UICONTROL do usuário] | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações do [!UICONTROL Analysis Workspace] e seus componentes relacionados para o seu usuário. [!UICONTROL As preferências do usuário] se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para a página [!UICONTROL Preferências do usuário]:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Formato de número_)</li><li>Configurações do relatório: separador CSV</li><li>Projetos do Workspace: Ajuda > Ativar dicas</li><li>Projetos do Workspace: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
 | [!UICONTROL Previsão do bucket inteligente do histograma] | 25 de março de 2021 | [!UICONTROL A Previsão do bucket inteligente do histograma] ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de intervalos para a disseminação de seus dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
 
-
 ## Fevereiro de 2021
 
 | Recurso | Data alvo | Descrição |
 | --- | --- | --- |
 | Seleção de componente | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado no [!UICONTROL Quick Insights] será adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
-
 
 ## Janeiro de 2021
 
@@ -1168,7 +1165,7 @@ Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto 
 
 Quando as dimensões de cor e tamanho estão correlacionadas de alguma forma com a estrutura de árvore, é possível, frequentemente, ver padrões que seriam difíceis de enxergar de outras formas, como se determinada cor é particularmente relevante. Uma segunda vantagem dos mapas de árvore é que, por padrão, eles fazem uso eficaz do espaço.
 
-## Salvar como para Segmentos, Métricas e Datas  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## Salvar como para Segmentos, Métricas e Datas {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Ao editar um segmento existente (salvo) no Criador de segmentos do Analysis Workspace, clique em **[!UICONTROL Salvar como]** para fazer uma cópia.
 
@@ -1186,7 +1183,7 @@ A área **[!UICONTROL Soltar um segmento aqui]** foi adicionada para que você p
 
 Este aprimoramento será útil caso queira criar segmentos ao trabalhar em um projeto, e não por meio do painel [!UICONTROL Segmentos].
 
-## Formatação condicional  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formatação condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Nas Configurações de coluna, é possível aplicar formatação condicional a dados de célula.
 
@@ -1220,13 +1217,13 @@ Nas Configurações de coluna, é possível aplicar formatação condicional a d
  </tbody> 
 </table>
 
-## Visualização da dimensão  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Visualização da dimensão {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 No painel do componente [!UICONTROL Dimensões], é possível passar o mouse sobre o ícone de informações perto de uma dimensão e pré-visualizar as cinco principais.
 
 ![](assets/dimension-preview.png)
 
-## Legenda visível  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legenda visível {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 Nas [!UICONTROL Configurações de visualização], a opção **[!UICONTROL Legenda visível]** mostra ou oculta a legenda da visualização.
 
@@ -1244,11 +1241,11 @@ Dependendo de quais sejam os números dos gráficos de linhas e de área, a part
 
 ![](assets/anchor_Y_axis.png)
 
-## Nome do projeto no título da guia  {#section_497C61A030984BCCA2CEA553312C3226}
+## Nome do projeto no título da guia {#section_497C61A030984BCCA2CEA553312C3226}
 
 Ao salvar um projeto, o título exibido na guia do navegador será “`<Project Name>` - Analysis Workspace”. Este aprimoramento é útil em casos nos quais você precisa abrir vários projetos em várias guias do navegador.
 
-## Transferir propriedade de projeto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transferir propriedade de projeto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Os administradores podem transferir os projetos do [!UICONTROL Analysis Workspace] de um usuário para outro.
 
