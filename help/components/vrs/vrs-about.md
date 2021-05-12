@@ -2,14 +2,13 @@
 description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento.
 title: Visão geral dos conjuntos de relatórios virtuais
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
+source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
+workflow-type: tm+mt
+source-wordcount: '790'
+ht-degree: 89%
 
 ---
-
 
 # Visão geral dos conjuntos de relatórios virtuais
 
@@ -45,15 +44,15 @@ Os conjuntos de relatórios virtuais ajudam a:
 
 Os conjuntos de relatórios virtuais têm as seguintes limitações:
 
-* Quaisquer limitações de segmentos aplicam-se aos conjuntos de relatórios virtuais
+* Quaisquer limitações de segmentos também se aplicam a conjuntos de relatórios virtuais
 
-   Um conjunto de relatórios virtual nada mais é do que um segmento aplicado a um conjunto de relatórios. Como cada conjunto de relatórios possui seu próprio data warehouse e seu próprio feed de dados, o uso de vários conjuntos de relatórios resulta em alguns benefícios que os segmentos não fornecem.
+   Um conjunto de relatórios virtual nada mais é do que um segmento aplicado a um conjunto de relatórios. Como cada conjunto de relatórios tem sua própria Data Warehouse e seu próprio Feed de dados, usar vários conjuntos de relatórios resulta em alguns benefícios que os segmentos não fornecem.
 * Relatório em tempo real
 * Configurações e nomes de variáveis não podem ser personalizados como em um conjunto de relatórios completo
 
-## Conjuntos de relatórios virtuais versus tags de vários conjuntos {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Conjuntos de relatórios virtuais versus Marcação de vários conjuntos {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Recurso | Conjunto de relatórios virtuais | Tags de vários conjuntos |
+| Recurso | Conjunto de relatórios virtuais | Marcação de vários relatórios |
 |--- |--- |--- |
 | Oferece relatório de “Dados atuais” ou em tempo real | Não | Sim |
 | Funciona em todas as ferramentas do Analytics (Analysis Workspace, Report Builder etc.) | Sim. **Observação:** você pode editá-los e identificá-los como conjuntos de relatórios virtuais somente no Reports &amp; Analytics. Entretanto, é possível selecioná-los nos menus suspensos do conjunto de relatórios nas outras ferramentas. | Sim |
@@ -62,8 +61,8 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 | Pode ser adicionado individualmente aos Grupos de permissões | Sim | Sim |
 | Pode usar funções de Administrador para modificar configurações individuais neste conjunto de relatórios (Administrador > Conjuntos de relatórios) | Não (configurações herdadas do pai) | Sim |
 
-## Combine conjuntos de relatórios virtuais e tags de vários conjuntos {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combinar conjuntos de relatórios virtuais e marcação de vários conjuntos {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
-Em alguns casos, existem benefícios para o uso de conjuntos de relatórios virtuais e tags de vários conjuntos.
+Em alguns casos, há benefícios em usar conjuntos de relatórios virtuais e marcação de vários conjuntos.
 
 Por exemplo, um varejista pode usar um conjunto de relatórios para cada marca, e conjuntos de relatórios virtuais para cada marca para segmentar dados por região. Da mesma forma, uma organização atlética pode usar um conjunto de relatórios para cada equipe e, em seguida, usar conjuntos de relatórios virtuais para dividir os fãs na região da equipe daqueles que estão fora da região.
