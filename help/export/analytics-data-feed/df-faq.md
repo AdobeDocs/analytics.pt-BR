@@ -3,11 +3,10 @@ description: Perguntas frequentes sobre feeds de dados
 keywords: Feed de dados, tarefa, coluna anterior, coluna posterior, distinção entre maiúsculas e minúsculas
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 50%
+source-wordcount: '1324'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 50%
 
 Perguntas frequentes sobre feeds de dados.
 
-## Os nomes de feed devem ser exclusivos?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Os nomes dos feeds devem ser exclusivos?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 Os nomes de arquivos do feed de dados são criados a partir da ID do conjunto de relatórios e data. Qualquer par de feeds configurados para a mesma RSID (ID do conjunto de relatórios) e data(s) terá o mesmo nome de arquivo. Se esses arquivos forem entregues na mesma localização, um arquivo irá sobrepor o outro. Para evitar uma sobreposição de arquivos, não é possível criar um feed com potencial para sobrepor um feed já existente na mesma localização.
 
@@ -70,17 +69,6 @@ Para certos fusos horários, o tempo muda duas vezes por ano devido às definiç
 Ao fazer as transições de horário padrão -> horário de verão (&quot;Spring Forward&quot;, primavera em diante), o cliente recebe apenas 23 arquivos. A hora ignorada na transição do horário de verão é omitida. Por exemplo, se a transição ocorrer às 2:00, eles receberão um arquivo pela 1:00 hora e um arquivo pela 3:00 hora. Não há arquivo 2:00 porque, às 2:00 do horário padrão, ele se torna 3:00 do horário de verão.
 
 Ao fazer as transições de horário de verão -> horário padrão, (&quot;Fall Back&quot;, outono para trás), o cliente recebe 24 arquivos. No entanto, o horário de transição realmente inclui o equivalente a duas horas de dados. Por exemplo, se a transição ocorrer às 2:00, o arquivo para 1:00 será atrasado em uma hora, mas conterá dados para duas horas. Ele contém dados do horário de verão de 1:00 às 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O próximo arquivo começa às 2:00 do horário padrão.
-
-## Receberá arquivos de manifesto quando nenhum dado for coletado? {#section_72510794694D42A9A75C966B812AEB0F}
-
-É possível optar por configurar o feed de dados para entregar um arquivo de manifesto se não houver dados coletados por um período específico. Se ativar essa opção, você receberá um arquivo de manifesto semelhante ao seguinte:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## Como o Analytics lida com falhas de transferência de FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
