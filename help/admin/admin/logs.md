@@ -1,13 +1,12 @@
 ---
 description: Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 title: Logs
-feature: Admin Tools
+feature: Ferramentas administrativas
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  >  **[!UICONTROL Logs]**
 
 ## Log de administração {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -71,7 +70,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Método de API | Foi feita uma chamada à API . |
 
 
-## Log de alterações do conjunto de relatórios  {#section_3864966639414BBEA871F4D0352F56B6}
+## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}
 
 O log Alterações do conjunto de relatórios exibe as alterações feitas em seus conjuntos de relatório, fora do de administração.
 
