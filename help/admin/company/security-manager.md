@@ -1,14 +1,13 @@
 ---
 description: Permite que você controle o acesso aos dados de relatório. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email.
 title: Gerenciador de segurança
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +17,7 @@ O Gerenciador de segurança permite controlar o acesso aos dados de relatório. 
 
 ## Configurações
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Segurança]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  > Configurações  **[!UICONTROL da empresa]**  >  **[!UICONTROL Segurança]**
 
 | Configuração | Descrição |
 |--- |--- |
