@@ -2,25 +2,24 @@
 description: Implante o conector de dados do Kampyle no Adobe Analytics.
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 46%
 
 ---
 
-
 # Implantar a integração {#deploying-the-integration}
 
-A implantação dessa integração é um processo simples que consiste em concluir o Assistente de integração da Adobe, implantar o código do plug-in (JavaScript) e verificar a integração.
+A implantação dessa integração é um processo simples que consiste em concluir o Assistente de integração do Adobe, implantar o código do plug-in (JavaScript) e verificar a integração.
 
 ## Concluir o Assistente de integração da Adobe {#complete-the-adobe-integration-wizard}
 
 Para ativar a integração, conclua o assistente de configuração na interface do Data Connectors.
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navegue até **[!UICONTROL Data Connectors]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Data connectors]**.
 1. Inicie o assistente de integração do Kampyle.
 1. Selecione o conjunto de relatórios desejado e forneça um nome para a integração.
 1. Configure os seguintes itens:
@@ -30,7 +29,7 @@ Para ativar a integração, conclua o assistente de configuração na interface 
    1. **[!UICONTROL Servidor]** de rastreamento: O valor do servidor de rastreamento usado para rastrear os dados do Adobe Analytics.
    1. **[!UICONTROL Servidor de rastreamento seguro]**: Se o servidor de rastreamento for diferente para tráfego seguro/https, forneça essa configuração aqui.
 1. Configure os itens de **[!UICONTROL Mapeamentos de variável]** a seguir:
-   1. **[!UICONTROL ID]** de feedback do Kampyle: Selecione uma variável eVar disponível no conjunto de relatórios
+   1. **[!UICONTROL ID]** de feedback do Kampyle: Selecione uma variável de eVar disponível em seu conjunto de relatórios
    1. **[!UICONTROL Nota de feedback]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
    1. **[!UICONTROL Itens]** de feedback: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
    1. **[!UICONTROL Feedback com nota]**: Selecione um evento bem-sucedido disponível (digite &quot;contador&quot;) no conjunto de relatórios.
@@ -80,4 +79,4 @@ Visualize seus relatórios de feedback do Kampyle com o Adobe Analytics navegand
 >
 >Os dados de relatório devem aparecer dentro de 24 a 48 horas após o sucesso da implantação, supondo que os formulários de feedback integrados estejam recebendo envios ativamente.
 
-![Dados de relatórios da Adobe](assets/adobe_reporting_data.png)
+![Dados de relatório de Adobe](assets/adobe_reporting_data.png)
