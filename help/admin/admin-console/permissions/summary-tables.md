@@ -1,14 +1,13 @@
 ---
 title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Admin Console.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 86%
 
 ---
-
 
 # Permissões do Adobe Analytics - tabelas de resumo
 
@@ -26,7 +25,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Calendário personalizado | x |  |  |  | Concede acesso a Geral > Personalizar calendário no Gerenciador de conjunto de relatórios. |
 | Gerenciador de feeds de dados | x |  |  |  | Concede acesso a Administração > Feeds de dados na navegação superior do Analytics. |
 | API de reparo de dados | x |  |  |  | Concede acesso à API de reparo de dados |
-| Gerenciador das fontes de dados | x |  |  |  | Concede acesso a Administração > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
+| Gerenciador das fontes de dados | x |  |  |  | Concede acesso a Administração > Todos os administradores > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Métricas padrão | x |  |  |  | Concede acesso a Configurações de conjuntos de relatórios individuais > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | Excluir por endereço IP | x |  |  |  | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | Métodos de descoberta | x |  |  |  | Concede acesso a Conversão > Métodos de descoberta no Gerenciador de conjunto de relatórios. |
@@ -74,20 +73,20 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 
 | Ferramenta do Analytics | Administração | Controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
 | --- | --- | --- | --- | --- | --- |
-| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administração > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
+| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administração > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
 | Gerenciador de código - Serviços da Web | x |  |  |  | Concede acesso ao Gerenciador de código por meio da API 1.4. |
-| Ocultar conjunto de relatórios | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
-| Integrações (Criar) | x |  |  |  | Concede acesso a Administração > Data Connectors e permite que o usuário crie conectores de dados. |
-| Integrações (Excluir) | x |  |  |  | Concede acesso a Administração > Data Connectors e permite que o usuário exclua os conectores de dados. |
-| Integrações (Atualizar) | x |  |  |  | Concede acesso a Administração > Data Connectors e permite que o usuário modifique configurações de conector existentes. |
-| Logs | x |  |  |  | Concede acesso a Administração > Logs. |
+| Ocultar conjunto de relatórios | x |  |  |  | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
+| Integrações (Criar) | x |  |  |  | Concede acesso a Administração > Todos os administradores > Conectores de dados e permite que o usuário crie conectores de dados. |
+| Integrações (Excluir) | x |  |  |  | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário exclua os Data Connectors. |
+| Integrações (Atualizar) | x |  |  |  | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário modifique as configurações de conector existentes. |
+| Logs | x |  |  |  | Concede acesso a Administração > Todos os administradores > Logs. |
 | Logs - Serviços da Web | x |  |  |  | Concede acesso a registros de extração por meio da API 1.4. |
-| Ações pendentes | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Ações pendentes. |
-| Segurança | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Gerenciador de segurança. |
-| Uso de chamadas do servidor | x |  |  |  | Concede acesso a Administração > Uso de chamada do servidor. |
-| Suporte | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Informações de suporte. |
-| Gerenciamento de tráfego | x |  |  |  | Concede acesso a Administração > Gerenciamento de tráfego. |
-| Serviços Web | x |  |  |  | Concede acesso a Administração > Configurações da empresa > Serviços da Web. |
+| Ações pendentes | x |  |  |  | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ações pendentes. |
+| Segurança | x |  |  |  | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Gerenciador de segurança. |
+| Uso de chamadas do servidor | x |  |  |  | Concede acesso a Administração > Uso de chamadas do servidor. |
+| Suporte | x |  |  |  | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Informações de suporte. |
+| Gerenciamento de tráfego | x |  |  |  | Concede acesso a Administração > Todos os administradores > Gerenciamento de tráfego. |
+| Serviços Web | x |  |  |  | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Serviços da Web. |
 | Activity Map |  | x |  |  | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
 | Usuários da licença de Ad Hoc Analysis |  | x |  |  | A Ad Hoc Analysis foi encerrada. [Mais informações](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acesso à Analysis Workspace |  | x |  |  | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar o Adobe Analytics. |
@@ -101,10 +100,10 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Dados atuais |  |  | x |  | Ativa a opção para ver os dados atuais nos relatórios do Reports &amp; Analytics. |
 | Acesso aos Reports &amp; Analytics |  |  | x |  | Concede acesso ao Reports &amp; Analytics. Os usuários devem pertencer a esse grupo ou ao Acesso à Analysis Workspace (preferencial) para usar o Adobe Analytics. |
 | Gerenciamento do Advertising Analytics |  |  |  | x | Não usado. |
-| Compartilhamento de marcas |  |  |  | x | Não está mais em uso. Concede acesso a Administração > Configurações da empresa > Compartilhamento de marcas. |
+| Compartilhamento de marcas |  |  |  | x | Não está mais em uso. Concede acesso a Administração > Todos os administradores > Configurações da empresa > Compartilhamento de marcas. |
 | Usuários da licença do Excel |  |  |  | x | Não usado. |
 | Administrador de aplicativos para dispositivos móveis |  |  |  | x | Não usado. |
-| Gerenciamento de permissões |  |  |  | x | Não está mais em uso. Concede acesso à interface herdada de gerenciamento de usuários em Administração > Gerenciamento de usuários. |
+| Gerenciamento de permissões |  |  |  | x | Não está mais em uso. Concede acesso à interface herdada de gerenciamento de usuários em Administração > Todos os administradores > Gerenciamento de usuários. |
 | Permissões (Leitura) - Serviços da Web |  |  |  | x | Não está mais em uso. Permite que o usuário visualize permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
 | Permissões (Gravação) - Serviços da Web |  |  |  | x | Não está mais em uso. Permite que o usuário edite permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
 | Preferências |  |  |  | x | Não usado. |
