@@ -1,18 +1,17 @@
 ---
 title: Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 description: Saiba mais sobre a duração do fim da vida útil e as implicações para [!UICONTROL Impor restrições de logon de IP]
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 80%
 
 ---
 
-
 # Fim da vida útil para [!UICONTROL Impor restrições de logon de IP]
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
+O recurso **[Impor restrições de logon de IP](/help/admin/company/security-manager.md)** no Adobe Analytics permite adicionar endereços IP específicos (considerados seguros) a uma  lista de permissões, para permitir logons bem-sucedidos e acesso ao ambiente do Adobe Analytics. Em muitos casos, esse recurso é usado para configurar um endereço IP corporativo como o único endereço IP seguro do qual os usuários podem fazer logon. Portanto, para usar o Adobe Analytics, isso requer que os usuários estejam em um escritório corporativo ou façam logon na rede via VPN.
 
 Estamos planejando o fim da vida útil desse recurso em janeiro de 2021.
 
@@ -26,15 +25,15 @@ Por fim, a Adobe tem uma solução alternativa funcional e superior por meio do 
 
 ## Como a remoção deste recurso afeta você?
 
-For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. Nesse momento, as restrições de logon de IP ainda em vigor não serão mais impostas. Se ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
+Para qualquer cliente que tenha **[!UICONTROL Impor restrições de logon de IP]** configurado, esse recurso será removido em janeiro de 2021. Nesse momento, as restrições de logon de IP ainda em vigor não serão mais impostas. Se ainda precisar restringir o logon por endereço IP, deverá revisar e implementar a solução recomendada de Logon único e Federated IDs (mais informações e recursos abaixo).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in the Analytics UI (as shown below).
+Além disso, a configuração **[!UICONTROL Impor restrições de logon de IP]** será removida do **[!UICONTROL Administrador] > [!UICONTROL Todos os administradores] > [!UICONTROL Configurações da empresa] > [!UICONTROL Gerenciador de segurança]** na interface do usuário do Analytics (conforme mostrado abaixo).
 
 ![](assets/sec-manager2.png)
 
 ## Quais são suas outras opções?
 
-Como mencionado acima, esse recurso do Analytics será encerrado. Para dar a você tempo para implementar SSO e Federated IDs, adiamos a data EOL para janeiro de 2021.
+Como mencionado acima, esse recurso do Analytics será encerrado. Para lhe dar tempo para implementar SSO e Federated IDs, adiamos a data EOL para janeiro de 2021.
 
 O SSO e as Federated IDs são soluções superiores ao recurso Restrição de logon de IP que temos em vigor hoje e fornecerão mais controle, segurança e recursos. Para obter informações sobre como configurar SSO/Federated IDs, temos a seguinte documentação de ajuda disponível. Recomendamos ler minuciosamente e trabalhar com o departamento de TI para implementá-los:
 
