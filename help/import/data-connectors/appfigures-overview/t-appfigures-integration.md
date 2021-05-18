@@ -2,11 +2,13 @@
 description: O Assistente de integração do Data Connectors guia você durante o processo de integração.
 title: Configurar a integração
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # Configurar a integração {#configure-the-integration}
 
@@ -15,7 +17,7 @@ O Assistente de integração do Data Connectors guia você durante o processo de
 Para configurar a integração:
 
 1. [Gere](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) a chave da conta de integração a partir do AppFigures.
-1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** como um usuário administrador e clique em **[!UICONTROL + Adicionar nova]** para adicionar uma nova integração.
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]** como um usuário Admin e clique em **[!UICONTROL + Adicionar novo]** para adicionar uma nova integração.
 1. Na lista **[!UICONTROL Exibir]**, selecione por nome e arraste a integração **appFigures** para um slot de plug-in vazio.
 1. Na página de introdução da Integração do AppFigures, veja o texto, marque a caixa de seleção para aceitar as tarifas associadas à integração e clique em **Avançar**.
 1. Selecione o Conjunto de relatórios que deseja usar nessa integração.
