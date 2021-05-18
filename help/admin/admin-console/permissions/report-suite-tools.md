@@ -2,11 +2,10 @@
 title: Permissões de perfil de produto para Ferramentas de conjunto de relatórios
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 98%
+source-wordcount: '664'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +48,7 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Gerenciador de feeds de dados | Concede acesso a Administração > Feeds de dados na navegação superior do Analytics. |
 | Relatório de Data Warehouse Personalizado | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
 | Visitas de Retorno Diário | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
-| Gerenciador das fontes de dados | Concede acesso a Administração > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
+| Gerenciador das fontes de dados | Concede acesso a Administração > Todos os administradores > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Excluir por endereço IP | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | Últimos 100 visitantes | Não usado. |
 | ClickMap herdado | Não usado. Em vez disso, use o Activity Map em Ferramentas do Analytics. |
