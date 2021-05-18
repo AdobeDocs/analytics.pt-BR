@@ -2,14 +2,13 @@
 description: 'A configuração da integração do DFA envolve as seguintes tarefas '
 keywords: DFA
 title: Integração do DFA
-feature: Data Connectors
+feature: Conectores de dados
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2601'
-ht-degree: 100%
+source-wordcount: '2602'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +23,7 @@ Siga as etapas da integração dos Data Connectors do DFA.
 As páginas de configuração contêm uma visão geral da integração, além de links úteis para mais informações. Há tarifas da Adobe e do DoubleClick associadas a essa integração. Entre em contato com os representantes de vendas apropriados para ambas as organizações e certifique-se de entender a estrutura de tarifas.
 
 1. Faça logon no [!DNL Adobe Analytics].
-1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Data connectors]**.
 
    ![](assets/data_connectors.png)
 
@@ -49,7 +48,7 @@ As páginas de configuração contêm uma visão geral da integração, além de
    <td colname="col3"> O nome da integração que o Genesis exibe na lista Integração ativa do conjunto de relatórios. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 3 </td> 
+   <td colname="col1"> 1 </td> 
    <td colname="col2"> Endereço de email de integração </td> 
    <td colname="col3"> O endereço de email que recebe todas as notificações relacionadas a essa integração. </td> 
   </tr> 
