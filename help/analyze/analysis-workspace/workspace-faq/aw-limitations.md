@@ -1,16 +1,15 @@
 ---
 description: Lista de limitações conhecidas do Adobe Analysis Workspace e dos componentes relacionados a ele
 title: Limitações conhecidas do Analysis Workspace
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
-
 
 # Limitações conhecidas do Analysis Workspace
 
@@ -53,7 +52,7 @@ Veja a seguir uma lista de limitações conhecidas do Analysis Workspace e seus 
 
 * Quando o processamento de tempo do relatório está ativado, determinados componentes não são compatíveis. Para obter uma lista completa, consulte [Processamento de tempo do relatório](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componentes > Configurações de relatório
+## Componentes > Todos os componentes > Configurações de relatório
 
 * Algumas das configurações na página [!UICONTROL Configurações do relatório] não se aplicam. O Analysis Workspace usa somente as configurações [!UICONTROL Idioma/Moeda/Codificação] na parte inferior: [!UICONTROL Separador de milhares], [!UICONTROL Codificação do relatório agendado] e [!UICONTROL Caractere separador CSV].
 
