@@ -5,11 +5,10 @@ title: Fluxo de trabalho do Conjunto de relatórios virtuais
 feature: Noções básicas do Reports & Analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 98%
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +28,8 @@ Depois de criado, um conjunto de relatórios virtuais é tratado como um conjunt
 
 Clique no ícone Informações ao lado do nome do conjunto de relatórios para [exibir informações sobre ele](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Configure [Permissões de grupo](/help/components/vrs/c-workflow-vrs/vrs-create.md) para ele.
+![](assets/step3_icon.png) Abra um projeto ou relatório e selecione um conjunto de relatórios virtuais para fornecer uma exibição segmentada dos dados.
 
-Você adiciona permissões de grupo como parte da criação do conjunto de relatórios virtuais.
-
-Você pode editar permissões de grupo de duas formas:
-
-* Edite o conjunto de relatórios no Gerenciador de conjuntos de relatórios virtuais.
-* Acesse Administração > Gerenciamento de usuários > Grupos, selecione o grupo que tem permissões para o conjunto de relatórios virtual e clique em Editar.
-
-![](assets/step4_icon.png) Abra um projeto ou relatório e selecione um conjunto de relatórios virtuais para fornecer uma exibição segmentada dos dados.
-
-![](assets/step5_icon.png) [Gerencie](/help/components/vrs/c-workflow-vrs/vrs-manage.md) o conjunto de relatórios virtual.
+![](assets/step4_icon.png) [Gerencie](/help/components/vrs/c-workflow-vrs/vrs-manage.md) o conjunto de relatórios virtual.
 
 O Gerenciador de conjuntos de relatórios virtuais permite editar, adicionar, marcar, excluir, renomear, aprovar, copiar, exportar e filtrar conjuntos de relatórios virtuais. Não é visível para usuários não administrativos.
