@@ -3,14 +3,13 @@ description: Informações sobre agendamento, download e distribuição de relat
 subtopic: Schedule
 title: Agendamento e distribuição de relatórios
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Noções básicas do Reports & Analytics, Relatórios e análises
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1669'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +108,7 @@ No [!UICONTROL Gerenciador de agendamento de relatório], é possível editar e 
 
 O [!UICONTROL Gerenciador de agendamento de relatório] mostra os itens criados por um usuários específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas.
 
-1. Para acessar o gerenciador, clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Relatórios agendados]**.
+1. Para acessar o gerenciador, clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Relatórios agendados]**.
 
 ## Compartilhar um link de relatório {#task_9711DDE9E140451B8C914EC5513E21EC}
 
