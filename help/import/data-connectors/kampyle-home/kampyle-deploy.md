@@ -3,10 +3,10 @@ description: Implante o conector de dados do Kampyle no Adobe Analytics.
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 46%
+source-wordcount: '446'
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ A implantação dessa integração é um processo simples que consiste em conclu
 
 Para ativar a integração, conclua o assistente de configuração na interface do Data Connectors.
 
-1. Faça logon na Adobe Experience Cloud.
+1. Faça logon no [!DNL Adobe Experience Cloud].
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Data connectors]**.
 1. Inicie o assistente de integração do Kampyle.
 1. Selecione o conjunto de relatórios desejado e forneça um nome para a integração.
