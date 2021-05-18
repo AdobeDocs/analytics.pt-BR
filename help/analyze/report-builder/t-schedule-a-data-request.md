@@ -4,14 +4,13 @@ title: Programar uma solicitação de dados
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # Programar pastas de trabalho
 
@@ -23,7 +22,7 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 
 >[!NOTE]
 >
->Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para isso, acesse **[!UICONTROL Admin]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Relatórios do Report Builder]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
+>Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para fazer isso, vá para **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 1. Clique em **[!UICONTROL OK]** e, em seguida, clique em **[!UICONTROL Sair]**.
 
    O Report Builder exibe a pasta de trabalho agendada no [Gerenciador de tarefas agendadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-
