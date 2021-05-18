@@ -3,14 +3,13 @@ description: Utilize o Gerenciador de painéis para copiar, compartilhar, arquiv
 subtopic: Dashboards
 title: Gerenciador do painel
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 99%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ Utilize o Gerenciador de painéis para copiar, compartilhar, arquivar e agendar 
 >
 >A prática recomendada ao usar o Gerenciador de painel é ter no máximo 300 painéis para qualquer usuário. Além disso, observe que o gerenciador carrega todos os painéis compartilhados abaixo, portanto, seja criterioso em compartilhar painéis.
 
-Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Painéis]**.
+Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Painéis]**.
 
 | Elemento | Descrição |
 |--- |--- |
@@ -36,7 +35,7 @@ Clique em **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONT
 
 Etapas que descrevem como usar as opções de gerenciamento de painel compartilhadas.
 
-1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Painéis]**.
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Painéis]**.
 1. Em [!UICONTROL Painéis compartilhados], encontre o painel compartilhado (ou painel herdado) você deseja gerenciar e escolher um ou mais das seguintes opções:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
