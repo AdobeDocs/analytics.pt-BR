@@ -2,11 +2,10 @@
 title: Permissões de perfil de produto para as Ferramentas do Analytics
 description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso aos recursos no Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 73%
 
 ---
 
@@ -17,22 +16,22 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Item de permissão das Ferramentas do Analytics | Descrição |
 |----|----|
 | Uso de chamadas do servidor | Concede acesso a Administração > Uso de chamada do servidor. |
-| Gerenciador de código | Mantido para fins herdados. Concede acesso a Administração > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
+| Gerenciador de código | Mantido para fins herdados. Concede acesso a Administração > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
 | Gerenciador de código - Serviços da Web | Concede acesso ao Gerenciador de código por meio da API 1.4. |
-| Logs | Concede acesso a Administração > Logs. |
+| Logs | Concede acesso a Administração > Todos os administradores > Logs. |
 | Logs - Serviços da Web | Concede acesso a registros de extração por meio da API 1.4. |
-| Gerenciamento de tráfego | Concede acesso a Administração > Gerenciamento de tráfego. |
-| Gerenciamento de permissões | Não está mais em uso. Concede acesso à interface herdada de gerenciamento de usuários em Administração > Gerenciamento de usuários. |
+| Gerenciamento de tráfego | Concede acesso a Administração > Todos os administradores > Gerenciamento de tráfego. |
+| Gerenciamento de permissões | Não está mais em uso. Concede acesso à interface herdada de gerenciamento de usuários em Administração > Todos os administradores > Gerenciamento de usuários. |
 | Permissões (Leitura) - Serviços da Web | Não está mais em uso. Permite que o usuário visualize permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
 | Permissões (Gravação) - Serviços da Web | Não está mais em uso. Permite que o usuário edite permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
-| Segurança | Concede acesso a Administração > Configurações da empresa > Gerenciador de segurança. |
-| Suporte | Concede acesso a Administração > Configurações da empresa > Informações de suporte. |
-| Serviços Web | Concede acesso a Administração > Configurações da empresa > Serviços da Web. |
+| Segurança | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Gerenciador de segurança. |
+| Suporte | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Informações de suporte. |
+| Serviços Web | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Serviços da Web. |
 | Logon único | Não está mais em uso. Concede acesso ao Serviço de logon único obsoleto. |
-| Ações pendentes | Concede acesso a Administração > Configurações da empresa > Ações pendentes. |
-| Compartilhamento de marcas | Não está mais em uso. Concede acesso a Administração > Configurações da empresa > Compartilhamento de marcas. |
+| Ações pendentes | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ações pendentes. |
+| Compartilhamento de marcas | Não está mais em uso. Concede acesso a Administração > Todos os administradores > Configurações da empresa > Compartilhamento de marcas. |
 | Preferências | Não usado. |
-| Ocultar conjunto de relatórios | Concede acesso a Administração > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
+| Ocultar conjunto de relatórios | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
 | Usuários da licença do Excel | Não usado. |
 | Activity Map | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
 | Dados atuais | Ativa a opção para ver os dados atuais nos relatórios do Reports &amp; Analytics. |
@@ -48,6 +47,6 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Criação de segmentos | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
 | Gerenciamento do Advertising Analytics | Não usado. |
 | Publicação de segmento | Concede a capacidade de tornar um segmento um público-alvo da Experience Cloud ao criar ou editar um segmento. |
-| Integrações (Criar) | Concede acesso a Administração > Data Connectors e permite que o usuário crie conectores de dados. |
-| Integrações (Atualizar) | Concede acesso a Administração > Data Connectors e permite que o usuário modifique configurações de conector existentes. |
-| Integrações (Excluir) | Concede acesso a Administração > Data Connectors e permite que o usuário exclua os conectores de dados. |
+| Integrações (Criar) | Concede acesso a Administração > Todos os administradores > Conectores de dados e permite que o usuário crie conectores de dados. |
+| Integrações (Atualizar) | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário modifique as configurações de conector existentes. |
+| Integrações (Excluir) | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário exclua os Data Connectors. |
