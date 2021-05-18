@@ -3,14 +3,13 @@ description: Personalize a permissão de grupo para ferramentas do Analytics e d
 keywords: groups;permissions
 subtopic: Users and groups
 title: Personalizar acesso ao relatório - visão geral
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e produtos foi movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e produtos foi movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Depois que todos os clientes tiverem migrado, o conteúdo da ajuda para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Personalize a permissão de grupo para ferramentas do Analytics e do conjunto de relatórios, métricas e dimensões.
 
