@@ -1,20 +1,19 @@
 ---
 title: Excluir por endereço IP
 description: Impedir que os dados gerados por determinados endereços IP apareçam nos relatórios.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 85%
+source-wordcount: '223'
+ht-degree: 82%
 
 ---
-
 
 # Excluir por endereço IP
 
 É possível excluir dos seus relatórios alguns dados de endereços IP específicos, como atividades internas, testes e uso de sites por funcionário. A exclusão de dados melhora a exatidão do relatório, pois exclui os dados do endereço IP. Além disso, você pode remover dados de negação de serviço, além de outros eventos mal-intencionados que podem causar um viés nos dados do relatório. Você pode configurar a exclusão ou usar seu firewall para isso.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Excluir por IP]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  >  **[!UICONTROL Excluir por IP]**
 
 >[!NOTE]
 >
@@ -24,7 +23,7 @@ Você pode usar indicadores curinga (*) para excluir um intervalo de endereços.
 
 >[!TIP]
 >
->Os endereços IP privados não precisam ser excluídos. Somente endereços IP externos chegam aos servidores de coleta de dados de Adobe. Os endereços privados incluem `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`e `169.254.*.*`.
+>Endereços IP privados não precisam ser excluídos. Somente endereços IP externos chegam aos servidores de coleta de dados do Adobe. Os endereços privados incluem `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` e `169.254.*.*`.
 
 ## Impacto da ofuscação de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
