@@ -4,14 +4,13 @@ title: Relatórios do Activity Map no Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Relatórios do Activity Map no Analytics
 
@@ -22,7 +21,7 @@ Descreve como definir permissões e quais dimensões estão disponíveis no Anal
 Para que os usuários possam gerar relatórios sobre dimensões do Activity Map, como Administrador, você precisa
 
 * [Adicionar usuários ao grupo de acesso do Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Adicionar conjuntos de relatórios que você deseja que tenham acesso a este grupo. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acesso ao Activity Map]** > **[!UICONTROL Editar]**.
+* Adicionar conjuntos de relatórios que você deseja que tenham acesso a este grupo. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acesso ao Activity Map]** > **[!UICONTROL Editar]**.
 * Personalizar o acesso de usuários a dimensões. Consulte a seção abaixo.
 
 ## Dimensões do Activity Map no Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Você pode [personalizar o acesso dos usuários a dimensões](https://docs.adobe
 * Em Reports &amp; Analytics, navegue até **[!UICONTROL Exibir todos os relatórios]** > **[!UICONTROL Activity Map]**.
 
 * Para visualizar um link e uma região de uma página específica, tudo o que você precisa fazer é criar um relatório de decomposição da página desejada do Activity Map em Links e região do Activity Map.
-
