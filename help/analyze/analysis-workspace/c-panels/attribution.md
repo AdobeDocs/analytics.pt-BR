@@ -1,16 +1,15 @@
 ---
 title: Painel de atribuição
 description: Como usar e interpretar o painel de atribuição no Analysis Workspace.
-feature: Attribution
+feature: Atribuição
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
+source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 65%
+source-wordcount: '442'
+ht-degree: 52%
 
 ---
-
 
 # Painel de atribuição
 
@@ -40,6 +39,5 @@ O painel [!UICONTROL Attribution] é uma maneira fácil de criar uma análise co
 * **Tabela** de comparação de atribuição: Mostra os mesmos dados que o gráfico de barras, representado como uma tabela. Selecionar diferentes colunas ou linhas nesta tabela filtra o gráfico de barras, bem como várias outras visualizações no painel. Esta tabela atua de forma semelhante a qualquer outra Tabela de forma livre no Workspace - permitindo adicionar componentes como métricas, segmentos ou detalhamentos.
 * **Diagrama** de sobreposição: Um diagrama Venn mostrando os três principais itens de dimensão e a frequência com que eles participam em conjunto em uma conversão. Por exemplo, o tamanho da sobreposição entre as bolhas indica com que frequência as conversões ocorreram quando um visitante foi exposto a ambos os itens de dimensão. Selecionar outras linhas na tabela de Forma livre adjacente atualizará a visualização para refletir a seleção.
 * **Detalhes** de desempenho: Permite comparar até três modelos de atribuição visualmente usando um gráfico de dispersão
-* **Desempenho** com tendência: Mostra a tendência das conversões atribuídas para o item de dimensão principal. Selecionar outras linhas na tabela de Forma livre adjacente atualizará a visualização para refletir a seleção.
+* **Desempenho** com tendência: Por padrão, mostra a tendência do desempenho de conversão por modelo de atribuição para a primeira dimensão listada na tabela de Forma livre adjacente. É possível selecionar diferentes linhas de dimensão na tabela de Forma livre para mostrar a tendência das dimensões selecionadas (como Receita total para cada modelo de atribuição para Campanhas sociais e Pesquisa paga). Como alternativa, você pode selecionar células nas colunas para qualquer combinação de métrica e tipo de atribuição na tabela de Forma livre para ver a tendência do desempenho por valor de dimensão para os modelos de atribuição especificados (como Receita total por canal de marketing usando atribuição de Último contato e Primeiro contato).
 * **Fluxo**: Permite ver em quais canais há mais interação e em que ordem isso ocorre na jornada de um visitante.
-
