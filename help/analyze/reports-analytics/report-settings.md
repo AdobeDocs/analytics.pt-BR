@@ -3,14 +3,13 @@ description: Configurações que definem como todos os relatórios são exibidos
 title: Configurações e navegação da exibição de relatórios
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # Configurações e navegação da exibição de relatórios
 
@@ -18,7 +17,7 @@ Configurações que definem como todos os relatórios são exibidos e as informa
 
 ## Configurações e navegação da exibição de relatórios {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Configurações de relatório]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  > Configurações  **[!UICONTROL do relatório]**
 
 | Elemento | Descrição |
 |--- |--- |
@@ -149,4 +148,3 @@ Se você estiver acostumado ao menu padrão, a seguinte tabela facilita a locali
 | **Relatórios personalizados** |  |  |
 |  | Os relatórios personalizados aparecem somente se você tem qualquer configuração. | Relatórios personalizados |
 |  |  |  |
-
