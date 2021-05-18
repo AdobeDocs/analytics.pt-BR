@@ -2,14 +2,13 @@
 description: Etapas que descrevem como atribuir grupos de usuários a um conjunto de relatórios.
 subtopic: Users and groups
 title: Atribuir grupos de usuários a um conjunto de relatórios
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 88%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Etapas que descrevem como atribuir grupos de usuários a um conjunto de relatórios.
 
 A página [!UICONTROL conjunto de relatórios] permite exibir e configurar conjunto de relatórios da empresa. O Analytics gerencia o acesso ao conjunto de relatórios por meio da associação aos grupos. Ao fazer a primeira configuração, crie os grupos necessários (atribuindo conjunto de relatórios a cada grupo) e, em seguida, atribua contas de usuários aos grupos apropriados [os grupos](/help/admin/user-management2/c-user-groups/groups.md).
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]**.
 1. Clique em **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
 1. Na página **[!UICONTROL Gerenciamento de permissões do conjunto de relatórios]**, selecione os grupos a serem atribuídos ao conjunto de relatórios:
