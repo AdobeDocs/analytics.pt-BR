@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: Painéis e reportlets
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1827'
+ht-degree: 98%
 
 ---
-
 
 # Painéis e reportlets
 
@@ -43,11 +42,11 @@ Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel
 
 Além dos painéis criados, os seguintes painéis pré-integrados são incluídos para cada usuário:
 
-**[!UICONTROL Componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Sites locais]**
+**[!UICONTROL Componentes]  >  [!UICONTROL Todos os componentes]  >  [!UICONTROL Painéis]  > Painéis  [!UICONTROL compartilhados]  > Sites  [!UICONTROL locais]**
 
 Esse painel personalizável oferece uma maneira de colocar reportlets no modelo fornecido.
 
-**[!UICONTROL Componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Painel de operações do site]**
+**[!UICONTROL Componentes]  >  [!UICONTROL Todos os componentes]  >  [!UICONTROL Painéis]  > Painéis  [!UICONTROL compartilhados]  > Painel de operações  [!UICONTROL do site]**
 
 Esse painel fornece uma visão geral de métricas principais relacionadas às operações de seu site. Os relatórios nesse painel incluem:
 
@@ -74,7 +73,7 @@ t_dashboard_add.xml
 
 Antes de adicionar um relatório (como um reportlet) a um painel, defina o layout do painel.
 
-1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Gerenciar painéis]**.
+1. Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Gerenciar painéis]**.
 1. Clique em **[!UICONTROL Adicionar painel]**.
 1. Digite um nome para o painel.
 1. Clique em **[!UICONTROL 3 x 2]** ou **[!UICONTROL 2 x 2]** para especificar quantos reportlets você deseja incluir na página do painel.
@@ -188,7 +187,7 @@ t_dashboard_edit.xml
 
 **Para editar um painel de dados de reportlet**
 
-1. Clique em **[!UICONTROL Componentes]** > **[!UICONTROL Painéis]** > *nome do painel* para abrir um painel.
+1. Clique em **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Painéis]** > *nome do painel* para abrir um painel.
 1. Clique em **[!UICONTROL Layout]**.
 
 | Para | Fazer isso |
@@ -216,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Configurações da empresa]**.
+1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  > Configurações  **[!UICONTROL da empresa]**.
 1. Na página [!UICONTROL Configurações da empresa], clique em **[!UICONTROL Co-Brand da Adobe Experience Cloud]**.
 1. Clique em **[!UICONTROL Ativar compartilhamento de marcas]**.
 1. Localize a imagem que será carregada e clique em **[!UICONTROL Salvar]**.
