@@ -2,11 +2,10 @@
 description: O que você precisa saber sobre a migração de IDs de usuários do Analytics para o Admin Console na Adobe Experience Cloud.
 title: Migração de usuários do Analytics para o Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 99%
+source-wordcount: '3133'
+ht-degree: 98%
 
 ---
 
@@ -121,15 +120,15 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verificar se você é um administrador de produto do Analytics no Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Comunicar a sua base de usuários de que a experiência de logon mudará quando a migração for iniciada. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Auditar seus usuários e permissões atuais e realizar atividades de limpeza. </li> 
-    </ul> <p>Para acelerar sua migração, entre em contato com o Gerente de sucesso do cliente pelo <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
+    </ul> <p>Para acelerar sua migração, entre em contato com o Gerente de sucesso do cliente pelo <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Sou um administrador do Analytics e não tenho acesso ao Admin Console. Quem pode me ajudar a obter acesso ao Admin Console? </p> </td> 
-   <td colname="col2"> <p>Qualquer administrador de sistema ou de produto que tenha acesso ao Admin Console na sua organização pode conceder o acesso a você. Se você não tem certeza de quem dentro da organização possui privilégios de administrador no Console, entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p> </td> 
+   <td colname="col2"> <p>Qualquer administrador de sistema ou de produto que tenha acesso ao Admin Console na sua organização pode conceder o acesso a você. Se você não tem certeza de quem dentro da organização possui privilégios de administrador no Console, entre em contato com o <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso adiar a data de início da migração? </p> </td> 
-   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p><p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> </td> 
+   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p><p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agora que minha empresa está migrando para o Admin Console, onde posso criar novos usuários e grupos de permissão antes da data de início da migração? </p> </td> 
@@ -143,7 +142,7 @@ Respostas às perguntas que você pode ter antes da migração.
  </tbody> 
 </table>
 
-## O que você deve saber durante a migração (Perguntas frequentes) {#section-d394524aa6d046d79025bbd7499792bc}
+## O que você deve saber durante a migração (Perguntas frequentes)  {#section-d394524aa6d046d79025bbd7499792bc}
 
 Informações importantes sobre o processo de migração e como ele afeta o gerenciamento atual de usuários.
 
@@ -232,7 +231,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
  </tbody> 
 </table>
 
-## O que você deve saber após a migração (FAQ) {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## O que você deve saber após a migração (FAQ)  {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -289,7 +288,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logon único </p> </td> 
-   <td colname="col2"> <p> As configurações de logon único do Analytics serão removidas ao concluir a migração. Elas permanecerão ativas durante a migração. Os clientes que usam o logon único do Analytics devem atualizar para a <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">Adobe Federated ID</a>. </p> <p>O Analytics recomenda primeiro migrar os usuários como Adobe IDs para facilitar a criação das contas da Experience Cloud e, em seguida, converter essas contas em usuários de logon único Federados. </p> </td> 
+   <td colname="col2"> <p> As configurações de logon único do Analytics serão removidas ao concluir a migração. Elas permanecerão ativas durante a migração. Os clientes que usam o logon único do Analytics devem atualizar para a <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>. </p> <p>O Analytics recomenda primeiro migrar os usuários como Adobe IDs para facilitar a criação das contas da Experience Cloud e, em seguida, converter essas contas em usuários de logon único Federados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Download de grupos de permissões </p> </td> 
@@ -310,7 +309,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
 
 Você pode comunicar proativamente este plano de migração aos seus usuários atuais. Este é um modelo que você pode personalizar para enviar a todos os usuários atuais do Analytics:
 
-Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários]** > [Enviar email para os usuários](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
+Para enviar um email para todos os usuários, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** > [Usuários de email](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
 
 **Assunto:** Em breve - Uma nova forma de fazer logon no Adobe Analytics e na Adobe Experience Cloud.
 
