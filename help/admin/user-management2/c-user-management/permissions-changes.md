@@ -3,13 +3,12 @@ description: Conteúdo de permissões herdadas
 keywords: groups;permissions
 subtopic: Users and groups
 title: Mudanças de permissões de usuários e grupos
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e produtos foi movido para [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e produtos foi movido para [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 ## O que mudou? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
