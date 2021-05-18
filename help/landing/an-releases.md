@@ -1,14 +1,13 @@
 ---
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Versões de recursos do Adobe Analytics
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Versões de recursos do Adobe Analytics
 
@@ -41,4 +40,4 @@ As versões por fases permitem que a Adobe dimensione melhor o processo de impla
 | Pergunta | Resposta |
 |---|---|
 | Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/tech-previews/overview.html) para fornecer feedback sobre as inovações líderes do setor. |
-| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [!UICONTROL Admin] > [!UICONTROL Configurações da empresa] > [Níveis de acesso ao recurso](https://docs.adobe.com/content/help/pt-BR/analytics/admin/company-settings/feature-access-levels.html). |
+| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode visualizar detalhes do seu pacote do Analytics em  [!UICONTROL Admin]  >  [!UICONTROL Todos os administradores]  > Configurações  [!UICONTROL da empresa]  > Níveis de acesso a  [recursos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/company-settings/feature-access-levels.html). |
