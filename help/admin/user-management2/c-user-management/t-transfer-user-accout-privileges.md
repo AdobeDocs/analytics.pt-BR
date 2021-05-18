@@ -2,14 +2,13 @@
 description: Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
 subtopic: Users and groups
 title: Transferir itens da conta do usuário
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda em **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas administrativas]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
+>O gerenciamento de usuários e de produtos está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). A Adobe enviará uma notificação quando for a sua vez de migrar os usuários. Depois que todos os clientes tiverem migrado, o conteúdo da ajuda para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** será removido.
 
 Etapas que descrevem como atribuir itens da conta do usuário (painéis, métricas calculadas, eventos de calendário, alertas, marcadores, segmentos, e projetos da Analysis Workspace e projetos agendados) da conta de um usuário para a de outro.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Gerenciamento de usuários]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]**.
 1. Clique em **[!UICONTROL Editar usuários]**.
 1. Localize o usuário do qual você deseja transferir ativos e marque a caixa de seleção ao lado da linha do usuário.
 1. Selecione **[!UICONTROL Transferir ativos]** na barra de ações na parte superior.
