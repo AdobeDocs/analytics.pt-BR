@@ -4,14 +4,13 @@ title: Habilitar o Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
-
 
 # Habilitar o Activity Map {#enable-activity-map}
 
@@ -23,7 +22,7 @@ O módulo do Activity Map é parte do arquivo AppMeasurement.js (localizado na p
 
 Os dados do Activity Map não podem ser coletados, a menos que você atualize para essa versão (ou posterior) do AppMeasurement.
 
-1. Baixe o código AppMeasurement mais recente (AppMeasurement_Javascript-1.6.zip), acessando **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de código]** e [implemente-o](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/overview.html).
+1. Baixe o código AppMeasurement mais recente (AppMeasurement_Javascript-1.6.zip) acessando **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** e [implemente-o](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/js/overview.html).
 
    Incluímos alguns [códigos de implementação de exemplo](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para ajudar a visualizar as alterações feitas no código, incluindo o módulo Activity Map.
 
