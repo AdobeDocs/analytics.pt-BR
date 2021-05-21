@@ -1,14 +1,14 @@
 ---
 title: Colisões de hash
 description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
+exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
-
 
 # Colisões de hash
 
@@ -79,4 +79,4 @@ Se você criar um segmento que procura por visitas onde eVar62=&quot;valor 500&q
 
 Quando o mesmo segmento é executado novamente, ele procura pelo hash de &quot;valor 500&quot;, encontra 123, e o relatório retorna todas as visitas que contêm o hash 123. Agora, as visitas que ocorreram em 18 de fevereiro serão incluídas nos resultados.
 
-Essa situação pode causar problemas ao usar o Analytics. A Adobe continua procurando por soluções que para reduzir a probabilidade das colisões de hash no futuro. Para evitar essa situação sugerimos que você encontre maneiras de espalhar os valores exclusivos entre as variáveis, remova valores desnecessários com regras de processamento ou reduza o número de valores por variável.
+Essa situação pode causar problemas ao usar o Analytics. A Adobe continua procurando por soluções que para reduzir a probabilidade das colisões de hash no futuro. Para evitar essa situação sugerimos que você encontre maneiras de espalhar os valores únicos entre as variáveis, remova valores desnecessários com regras de processamento ou reduza o número de valores por variável.
