@@ -2,14 +2,14 @@
 description: Solucione e corrija problemas relacionados a segmentos.
 title: Solução de problemas de segmentação
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '227'
 ht-degree: 100%
 
 ---
-
 
 # Solução de problemas de segmentação
 
@@ -47,4 +47,3 @@ Possíveis motivos:
 * As regras/operadores estão incorretos para o resultado exigido.
 * Aplicação incorreta dos contêineres ao segmento.
 * As variáveis de tráfego usadas para segmentar não estão definidas corretamente ou expiraram.
-
