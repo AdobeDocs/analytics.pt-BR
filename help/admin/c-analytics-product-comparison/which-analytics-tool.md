@@ -2,14 +2,14 @@
 description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 translation-type: ht
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
-
 
 # Qual ferramenta do Adobe Analytics devo usar?
 
@@ -65,7 +65,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 **[API da inserção de dados](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
 
-* Quando você precisa fazer o upload de dados no Adobe Analytics e não pode usar o código do Adobe App Measurement ou do SDK para dispositivos móveis.
+* Quando você precisa fazer o upload de dados no Adobe Analytics e não pode usar o código do Adobe AppMeasurement ou do SDK para dispositivos móveis.
 
 **[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
