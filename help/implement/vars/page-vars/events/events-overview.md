@@ -1,14 +1,14 @@
 ---
 title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
+exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 translation-type: ht
-source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '676'
 ht-degree: 100%
 
 ---
-
 
 # events
 
