@@ -2,16 +2,16 @@
 description: Execute um relatório de Análise de contribuição em um projeto do Workspace.
 title: Executar análise de contribuição
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: Ferramentas de IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 99%
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
-
 
 # Executar análise de contribuição
 
@@ -74,4 +74,3 @@ Certas vezes, você pode querer excluir algumas dimensões da Análise de contri
    ![](assets/excluded-dimensions.png)
 
 1. Exclua qualquer dimensão não desejada ao clicar no x próximo a ela. Em seguida, salve a lista ao clicar em **[!UICONTROL Definir como padrão]**.
-
