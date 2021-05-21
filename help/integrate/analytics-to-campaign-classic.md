@@ -1,14 +1,14 @@
 ---
 description: Informações sobre a arquitetura de referência, diretrizes, etapas de configuração e testes que os especialistas em implementação precisam seguir ao integrar o Adobe Analytics ao Adobe Campaign.
 title: Como integrar o Analytics ao Adobe Campaign
+exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # Integrar o Adobe Analytics ao Campaign Classic
 
