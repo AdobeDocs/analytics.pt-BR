@@ -2,14 +2,14 @@
 description: A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece uma visão geral de quais conjuntos de relatórios foram configurados para a governança de dados, se foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
 ---
-
 
 # Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 
@@ -65,4 +65,3 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
   </tr> 
  </tbody> 
 </table>
-
