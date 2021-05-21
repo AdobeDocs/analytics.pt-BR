@@ -2,14 +2,14 @@
 description: Exemplos de rótulos de privacidade de dados para variáveis do Adobe Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '3649'
 ht-degree: 100%
 
 ---
-
 
 # Rótulos de privacidade de dados para variáveis do Analytics
 
