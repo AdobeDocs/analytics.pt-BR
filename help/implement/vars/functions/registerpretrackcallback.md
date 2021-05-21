@@ -1,14 +1,14 @@
 ---
 title: registerPreTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # registerPreTrackCallback
 
@@ -16,7 +16,7 @@ A variável `registerPreTrackCallback` permite que sua organização execute uma
 
 >[!IMPORTANT]
 >
-> Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável [`registerPostTrackCallback`](registerposttrackcallback.md). As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+>Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável [`registerPostTrackCallback`](registerposttrackcallback.md). As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPreTrackCallback`, você faz com que essa função seja executada sempre que um URL de solicitação de imagem for compilado. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
