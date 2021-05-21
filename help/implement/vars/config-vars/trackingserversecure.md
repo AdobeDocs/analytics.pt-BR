@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: Defina para que local as solicitações de imagem são enviadas em páginas HTTPS.
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -24,7 +24,7 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento SSL].
 
 Se esse campo ficar em branco, o padrão será o valor na variável [`trackingServer`](trackingserver.md).
@@ -41,4 +41,4 @@ O indivíduo que configura inicialmente a implementação do cookie próprio tam
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+Os registros CNAME normalmente apontam para um subdomínio em `data.adobedc.net`, `sc.adobedc.net` ou `2o7.net`.
