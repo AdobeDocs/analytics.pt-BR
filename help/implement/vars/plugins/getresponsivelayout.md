@@ -1,14 +1,14 @@
 ---
 title: getResponsiveLayout
 description: Determine qual layout de um site está sendo exibido no momento.
+exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 translation-type: ht
-source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '674'
 ht-degree: 100%
 
 ---
-
 
 # Plug-in da Adobe: getResponsiveLayout
 
