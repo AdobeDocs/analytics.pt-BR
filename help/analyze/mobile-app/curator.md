@@ -1,16 +1,16 @@
 ---
 description: Instruções para configuração de scorecards para painéis.
 title: Guia do curador de painéis do Adobe Analytics
-feature: Analytics Dashboards
+feature: Painéis do Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 87%
+exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '2401'
+ht-degree: 100%
 
 ---
-
 
 # Guia do curador para painéis do Adobe Analytics
 
@@ -100,7 +100,7 @@ Para implementar o modelo de Scorecard:
 
    Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
-   ![Mosaico de propriedades](assets/properties_tile.png)
+   ![Bloco de propriedades](assets/properties_tile.png)
 
    Além disso, se você clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
 
@@ -112,19 +112,19 @@ Para implementar o modelo de Scorecard:
 
    ![Criar segmentos para filtro](assets/segment_ui.png)
 
-5. Da mesma forma, para remover um componente aplicado a todo o Scorecard, clique em qualquer lugar do Scorecard fora dos blocos e remova-o clicando no **x** exibido quando você passa o mouse sobre o componente, conforme mostrado abaixo para o segmento **Novas Visitas**:
+5. Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
 
    ![Remover_componentes](assets/new_remove.png)
 
-6. Adicione e remova combinações de intervalo de datas que podem ser selecionadas no scorecard selecionando o menu suspenso Intervalo de datas.
+6. Adicione e remova combinações de intervalo de datas que podem ser selecionadas no cartão de pontuação selecionando o menu suspenso Intervalo de datas.
 
    ![Novo cartão de pontuação](assets/new_score_card.png)
 
-   Cada novo scorecard começa com 6 combinações de intervalo de datas focadas nos dados de hoje e ontem. Você pode remover intervalos de datas desnecessários clicando no x ou editar cada combinação de intervalo de datas clicando no lápis.
+   Cada novo cartão de pontuação começa com seis combinações de intervalo de datas, com foco nos dados de hoje e ontem. Você pode remover intervalos de datas desnecessários clicando no x ou editar cada combinação de intervalo de datas clicando no lápis.
 
    ![Novo cartão de pontuação2](assets/new_score_card2.png)
 
-   Para criar ou alterar uma data primária, use o menu suspenso para selecionar a partir de intervalos de datas disponíveis ou arraste e solte um componente de data do painel direito na área designada.
+   Para criar ou alterar uma data principal, use o menu suspenso para selecionar intervalos de datas disponíveis ou arraste e solte um componente de data do painel direito na área designada.
 
    ![Novo cartão de pontuação3](assets/new_score_card3.png)
 
@@ -132,11 +132,11 @@ Para implementar o modelo de Scorecard:
 
    ![Novo cartão de pontuação4](assets/new_score_card4.png)
 
-   Se o intervalo de datas desejado ainda não tiver sido criado, é possível criar um novo clicando no ícone do calendário.
+   Se o intervalo de datas desejado ainda não tiver sido criado, será possível criar um novo clicando no ícone do calendário.
 
    ![Novo cartão de pontuação4](assets/new_score_card5.png)
 
-7. Isso o levará ao construtor de intervalo de datas, onde é possível criar e salvar um novo componente de intervalo de datas. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
+7. Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
    ![Nomeação_Scorecards](assets/new_name.png)
 
@@ -215,7 +215,7 @@ Para ajudar usuários executivos:
    * Verifique se o usuário executivo pode fazer logon na instância correta do Analytics e se o Scorecard foi compartilhado.
 
 
-3. Explique ao usuário executivo como os blocos aparecem nos Scorecards que você compartilha (o primeiro Scorecard abaixo é definido no modo escuro; consulte **[!UICONTROL Preferências]** abaixo se você achar que o usuário executivo prefere esta opção de visualização):
+3. Explique ao usuário executivo como os blocos aparecem nos cartões de pontuação que você compartilha (o primeiro cartão de pontuação abaixo é definido no modo escuro; consulte **[!UICONTROL Preferências]** se você achar que o usuário executivo prefere essa opção de visualização):
 
    ![Explicar blocos](assets/newexplain.png)
 
@@ -239,7 +239,7 @@ Para ajudar usuários executivos:
 
    * Uma tabela é incluída para exibir dados de dimensões adicionadas ao bloco. Toque na seta para baixo para selecionar dimensões. Se nenhuma dimensão tiver sido adicionada ao bloco, a tabela exibirá os dados do gráfico.
 
-5. Para alterar os intervalos de datas do Scorecard, toque no cabeçalho Data e selecione a combinação de intervalo de datas principal e de comparação que deseja visualizar.
+5. Para alterar os intervalos de datas do cartão de pontuação, toque no cabeçalho Data e selecione a combinação de intervalo de datas principal e de comparação que você deseja visualizar.
 
    ![Alterar datas](assets/changedate.png)
 
