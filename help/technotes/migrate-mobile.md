@@ -1,37 +1,37 @@
 ---
-description: Saiba como migrar regras de processamento do Mobile Services para a Adobe Analytics
+description: Saiba como migrar regras de processamento do Mobile Services para o Adobe Analytics
 title: Migrar regras de processamento do Mobile Services para o Adobe Analytics
-translation-type: tm+mt
-source-git-commit: d6601640d06f65dd1ddd09cb9bde0267df20eec3
-workflow-type: tm+mt
+exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Migrar regras de processamento do Mobile Services para o Adobe Analytics
 
-Este documento fornece instruções sobre como migrar quaisquer regras de processamento adicionais - além das Medições de ciclo de vida - que você criou na interface do usuário do Mobile Services para a Adobe Analytics.
+Este documento fornece instruções sobre como migrar regras de processamento adicionais, além das Métricas de ciclo de vida, que você criou na interface do usuário do Mobile Services para o Adobe Analytics.
 
-As regras de processamento são usadas para mover valores das variáveis de Dados de contexto para props e eVars. Por exemplo, você pode colocar o valor de uma variável de dados de contexto de &quot;termo de pesquisa&quot; no valor de um eVar de variável de comércio e substituir esse valor em cada ocorrência. Sem as regras de processamento, as variáveis de dados de contexto não têm significado e não preenchem nenhum relatório no Analytics.
+As regras de processamento são usadas para mover valores das variáveis de Dados de contexto para props e eVars. Por exemplo, você pode colocar o valor de uma variável de dados de contexto de &quot;termo de pesquisa&quot; no valor de uma eVar de variável de comércio e substituir esse valor em cada ocorrência. Sem as regras de processamento, as variáveis de dados de contexto não têm significado e não preenchem nenhum relatório no Analytics.
 
 Este documento também mostra como fazer relatórios de uso móvel no Analysis Workspace.
 
 ## Migrar regras de processamento
 
-Se você estiver aproveitando o Mobile Services para obter funcionalidades complementares, como regras de processamento e recursos de uso do relatórios, poderá alternar para a interface do usuário do Analytics (regras de processamento, interface do usuário ou Analysis Workspace) para realizar essas funções. Para Medições de ciclo de vida, ou regras que foram configuradas na interface do usuário das regras de processamento AA, você não precisa fazer nenhuma migração. As Medições de ciclo de vida são métricas &quot;predefinidas&quot; que são automaticamente coletadas quando o SDK móvel é implementado pela primeira vez no aplicativo.
+Se você estiver usando o Mobile Services para obter funcionalidades complementares, como regras de processamento e recursos de relatório de uso, será possível migrar facilmente para a interface do Analytics (interface de regras de processamento ou Analysis Workspace) para realizar essas funções. Para Métricas de ciclo de vida, ou regras configuradas na interface das regras de processamento do AA, não é necessário fazer nenhuma migração. As Métricas de ciclo de vida são métricas “predefinidas” que são automaticamente coletadas quando o SDK móvel é implementado pela primeira vez no aplicativo.
 
-No entanto, se você configurar quaisquer regras de processamento adicionais na interface do usuário do Mobile Services (além das Medições de ciclo de vida), deverá migrá-las para que você possa editá-las ou excluí-las no Analytics depois de perder o acesso ao Mobile Services.
+No entanto, se você configurar regras de processamento adicionais na interface do Mobile Services (além das Métricas de ciclo de vida), migre-as para poder editá-las/excluí-las no Analytics depois de perder o acesso ao Mobile Services.
 
-1. Log in to `experience.adobe.com` and go to Mobile Services.
+1. Faça logon em `experience.adobe.com` e acesse o Mobile Services.
 1. Clique no ícone de engrenagem de um aplicativo móvel cujos mapeamentos de variável de contexto você deseja migrar para o Adobe Analytics.
-1. Clique no item de menu **[!UICONTROL Gerenciar variáveis e métricas]** e clique na guia Variáveis **** personalizadas. Aqui, você pode ver quais mapeamentos de Variável de contexto (dados de contexto) foram adicionados à configuração. Anote essas configurações (ou faça uma captura de tela). Exemplo:
+1. Clique no item de menu **[!UICONTROL Gerenciar variáveis e métricas]** e, em seguida, clique na guia **[!UICONTROL Variáveis personalizadas]**. Aqui, você pode ver quais mapeamentos de variável de contexto (dados de contexto) foram adicionados à configuração. Anote essas configurações (ou faça uma captura de tela). Exemplo:
 
    ![Variável de contexto](assets/context-var.png)
 
-1. No Experience Cloud, alterne para a Adobe Analytics e verifique se você está no mesmo conjunto de relatórios móvel que estava procurando no Mobile Services.
-1. Vá até **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > Regras **[!UICONTROL de]** processamento.
+1. Na Experience Cloud, mude para o Adobe Analytics e verifique se você está no mesmo conjunto de relatórios móveis que estava visualizando no Mobile Services.
+1. Acesse **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
 1. Clique em **[!UICONTROL Adicionar regra]**.
 1. Ignore as condições e prossiga para adicionar as mesmas variáveis de contexto que existem no Mobile Services.
 
@@ -41,40 +41,40 @@ No entanto, se você configurar quaisquer regras de processamento adicionais na 
 
 ## Relatórios de uso de dispositivos móveis no Analysis Workspace
 
-Além das métricas e dimensões móveis (se o conjunto de relatórios estiver habilitado para o Mobile Services), a Analysis Workspace contém vários modelos de projeto do Mobile que podem facilitar a análise:
+Além das métricas e dimensões móveis (se o conjunto de relatórios está habilitado para Mobile Services), o Analysis Workspace contém vários modelos de projeto para dispositivos móveis que podem facilitar a análise:
 
-* **[!UICONTROL Mensagens]**: Concentra-se no desempenho de mensagens de push e no aplicativo.
-* **[!UICONTROL Localização]**: Inclui um mapa que mostra os dados de localização.
-* **[!UICONTROL Principais métricas]**: Mantenha o controle das métricas principais do seu aplicativo.
-* **[!UICONTROL Uso]** do aplicativo: Quantos usuários, inicializações e primeiras inicializações do aplicativo tiveram e qual foi a duração média da sessão?
-* **[!UICONTROL Aquisição]**: Como os links de aquisição móvel estão se saindo?
-* **[!UICONTROL Desempenho]**: Como o aplicativo está funcionando e onde os usuários estão tendo problemas?
-* **[!UICONTROL Retenção]**: Quem são meus usuários leais e o que eles fazem?
-* **[!UICONTROL Viagens]**: Quais são os padrões de uso proeminentes do meu aplicativo?
+* **[!UICONTROL Mensagens]**: concentra-se no desempenho de mensagens no aplicativo e por push.
+* **[!UICONTROL Localização]**: inclui um mapa que exibe os dados de localização.
+* **[!UICONTROL Métricas principais]**: controla as métricas principais do seu aplicativo.
+* **[!UICONTROL Uso do aplicativo]**: quantos usuários, inicializações e primeiras inicializações o aplicativo teve e qual foi a duração média das sessões?
+* **[!UICONTROL Aquisição]**: como os links de aquisição móvel estão se saindo?
+* **[!UICONTROL Desempenho]**: como está o desempenho do aplicativo e onde os usuários estão tendo problemas?
+* **[!UICONTROL Retenção]**: quem são meus usuários fiéis e o que eles fazem?
+* **[!UICONTROL Jornadas]**: quais são os principais padrões de uso do meu aplicativo?
 
-Este é um trecho do modelo de uso do aplicativo móvel:
+Este é um trecho do modelo de Utilização de aplicativos móveis:
 
-![Uso do aplicativo móvel](assets/mobile-app-usage.png)
+![Uso de aplicativos móveis](assets/mobile-app-usage.png)
 
 Para acessar os modelos:
 
-1. Log in to `experience.adobe.com` and select Analytics.
+1. Faça logon em `experience.adobe.com` e selecione Analytics.
 1. Verifique se você está em um conjunto de relatórios habilitado para o Mobile Services.
-1. Click the **[!UICONTROL Workspace]** tab.
+1. Clique na guia **[!UICONTROL Workspace]**.
 1. Clique em **[!UICONTROL Criar novo projeto]**.
-1. Selecione qualquer um dos modelos de dispositivos móveis e clique em **[!UICONTROL Criar]**.
+1. Selecione qualquer um dos modelos do Mobile e clique em **[!UICONTROL Criar]**.
 
-## Migrar outros recursos do Mobile Services
+## Migrar outra funcionalidade do Mobile Services
 
-A seguinte funcionalidade do Mobile Services também tem vínculos com o Adobe Analytics, mas requer um SKU Adobe Analytics adquirido:
+A seguinte funcionalidade do Mobile Services também tem vínculos com o Adobe Analytics, mas requer uma SKU adquirida do Adobe Analytics:
 
 * Links de aquisição
 * Mensagens por push
 * Mensagens no aplicativo
 * Gerenciamento de pontos de interesse de localização
 
-Se você estiver aproveitando o Mobile Services para a funcionalidade paga, não terá um caminho de migração viável para outras ferramentas internas/externas:
+Se estiver aproveitando o Mobile Services para a funcionalidade paga, você não terá um caminho de migração viável para outras ferramentas internas/externas:
 
-* Para links de aquisição, podemos direcioná-lo para parceiros de Adobe para atender às suas necessidades.
-* As mensagens de push e as mensagens no aplicativo estão disponíveis no Adobe Campaign Standard e no Adobe Campaign Classic (somente push). No entanto, o conjunto de dados subjacente usado para definição de metas é diferente. Sugerimos trabalhar com sua equipe de conta do Adobe para determinar as opções de migração para dados de mensagens.
-* Para a funcionalidade Local, é recomendável adotar o novo Serviço [de Localização da](https://www.adobe.com/experience-platform/location-service.html)Adobe Experience Platform, que é gratuito para todos os clientes do AEP.
+* Para Links de aquisição, podemos direcionar você aos Parceiros da Adobe para atender às suas necessidades.
+* As mensagens de push e as mensagens no aplicativo estão disponíveis no Adobe Campaign Standard e no Adobe Campaign Classic (somente para push). No entanto, o conjunto de dados subjacente usado para o direcionamento é diferente. Sugerimos trabalhar com sua equipe de conta da Adobe para determinar as opções de migração para dados de mensagens.
+* Para a funcionalidade Localização, é recomendável adotar o novo [Serviço de localização da Adobe Experience Platform](https://www.adobe.com/br/experience-platform/location-service.html), que é gratuito para todos os clientes da AEP.
