@@ -2,14 +2,14 @@
 title: AppMeasurement para notas de versão do Javascript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # AppMeasurement para notas de versão do Javascript
 
@@ -23,7 +23,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 Data de lançamento: **4 de agosto de 2020**
 
-* Correção para quem indicou ausente quando a primeira ocorrência não foi enviada devido às preferências de não participação do usuário.
+* Correção de referenciador ausente quando a primeira ocorrência não foi enviada devido às preferências de recusa do usuário.
 
 ## Versão 2.21.0
 
@@ -322,7 +322,7 @@ Data de lançamento: **21 de maio de 2015**
 
 Data de lançamento: **16 de abril de 2015**
 
-* Agora é possível incluir variáveis de dados de contexto personalizados com medições de ciclo de vida.
+* Agora é possível incluir variáveis de dados de contexto personalizados com métricas de ciclo de vida.
 * As chamadas `trackBeacon` e `clearCurrentBeacon` agora estão disponíveis no PhoneGap.
 * Uma pequena correção foi feita para limpar a ID de perfil de chamada do light-server após a chamada `trackLight`.
 
