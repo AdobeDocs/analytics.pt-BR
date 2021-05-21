@@ -1,14 +1,14 @@
 ---
 title: Variáveis da Lista
 description: Crie e configure variáveis de lista para usar em relatórios.
+exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # Variáveis da Lista
 
