@@ -1,14 +1,14 @@
 ---
 title: contextData
 description: As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento.
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
 ---
-
 
 # contextData
 
