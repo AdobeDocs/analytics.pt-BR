@@ -2,14 +2,14 @@
 description: Esta página lista todas as variáveis do Parceiro nos Data Connectors (anteriormente conhecidos como Genesis) que poderiam conter dados direta ou indiretamente identificáveis de titulares de dados.
 title: Privacidade de dados e Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
 ---
-
 
 # Privacidade de dados e Data Connectors (Genesis)
 
@@ -200,4 +200,3 @@ Se estiver usando uma integração de qualquer um dos conectores abaixo, você p
   </tr> 
  </tbody> 
 </table>
-
