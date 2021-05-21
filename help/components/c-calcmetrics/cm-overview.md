@@ -3,14 +3,14 @@ description: Métricas calculadas e calculadas avançadas (ou derivadas) são m�
 keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avançadas
 title: Métricas calculadas e calculadas avançadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Métricas calculadas e calculadas avançadas (derivadas)
 
@@ -106,4 +106,3 @@ Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calcul
   </tr> 
  </tbody> 
 </table>
-
