@@ -1,14 +1,14 @@
 ---
 title: Como configurar uma conta publicitária no Advertising Analytics
 description: Permite criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '869'
 ht-degree: 100%
 
 ---
-
 
 # Configurar uma conta publicitária
 
@@ -92,4 +92,3 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
 >[!NOTE]
 >
 >É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics.
-
