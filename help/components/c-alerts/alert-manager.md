@@ -2,14 +2,14 @@
 description: Gerenciar alertas.
 title: Gerenciador de Alerta
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
-
 
 # Gerenciador de Alerta
 
@@ -34,4 +34,3 @@ O Gerenciador de alertas (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes
 * Especificar/alterar o proprietário de um alerta.
 * Adicionar outros filtros.
 * Definir uma **data de expiração** para o alerta.
-
