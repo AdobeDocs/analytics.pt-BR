@@ -3,16 +3,16 @@ description: Analise dimensões e itens de dimensão no Analysis Workspace.
 keywords: Analysis Workspace
 title: Analisar dimensões
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '233'
+exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Analisar dimensões
 
@@ -33,7 +33,7 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
 
 [Adicionar dimensões e métricas ao seu projeto no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Trabalhar com dimensões em uma tabela de forma livre](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[Trabalhar com dimensões em uma tabela de forma livre](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Aplicar modelos de atribuição a detalhamentos
 
