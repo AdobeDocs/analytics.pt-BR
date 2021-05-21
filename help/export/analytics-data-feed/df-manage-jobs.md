@@ -1,11 +1,14 @@
 ---
 title: Gerenciar trabalhos do feed de dados
 description: Saiba como gerenciar trabalhos individuais em feeds de dados.
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciar trabalhos do feed de dados
 
@@ -15,7 +18,7 @@ Acesse o gerenciamento de trabalhos do feed de dados seguindo estas etapas:
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Clique no menu de 9 linhas na parte superior direita e em [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. No menu superior, clique em [!UICONTROL Administração] > [!UICONTROL Feeds de dados].
 4. Clique na guia Trabalhos perto da parte superior.
 
 ![Menu do feed de dados](assets/AdminMenu.png)
