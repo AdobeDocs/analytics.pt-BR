@@ -2,16 +2,16 @@
 description: O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
 title: Fallout interdimensional
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizations
+feature: Visualizações
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 98%
+exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
-
 
 # Fallout interdimensional
 
@@ -30,4 +30,3 @@ Você também pode adicionar métricas a esta combinação. Neste exemplo, adici
 Além disso, você pode combinar diferentes dimensões e métricas em pontos de verificação AND. Basta arrastar outra dimensão ou métrica sobre uma existente:
 
 ![](assets/interdimensional-fallout3.png)
-
