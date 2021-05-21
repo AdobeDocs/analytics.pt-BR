@@ -2,14 +2,14 @@
 description: Como visualizar o uso atual de chamada de servidor no Adobe Analytics.
 title: Visualizar uso de chamadas do servidor atual
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
+exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '288'
 ht-degree: 100%
 
 ---
-
 
 # Visualizar uso de chamadas do servidor atual
 
