@@ -1,18 +1,18 @@
 ---
 title: eVar (merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
+exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
-
 # eVar (merchandising)
 
-*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte[eVars (merchandising)](/help/components/dimensions/evar-merchandising.md)no guia Componentes do usuário.*
+*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (merchandising)](/help/components/dimensions/evar-merchandising.md) no guia Componentes do usuário.*
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
