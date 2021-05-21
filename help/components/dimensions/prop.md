@@ -1,18 +1,18 @@
 ---
 title: Prop
 description: Uma dimensão personalizada que você pode usar nos relatórios.
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 translation-type: ht
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
-
 # Prop
 
-*Esta página de ajuda descreve como as props funcionam como uma dimensão. Para obter informações sobre como implementar props, consulte[props](/help/implement/vars/page-vars/prop.md)no guia de usuário Implementar.*
+*Esta página de ajuda descreve como as props funcionam como uma dimensão. Para obter informações sobre como implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) no guia de usuário Implementar.*
 
 As props são variáveis personalizadas que podem ser usadas da maneira que você desejar. Elas não persistem além da ocorrência definida.
 
