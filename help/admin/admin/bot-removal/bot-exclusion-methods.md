@@ -1,27 +1,27 @@
 ---
 title: Comparação de diferentes métodos de exclusão de bots
 description: Permite comparar diferentes métodos de exclusão de bots.
-translation-type: tm+mt
-source-git-commit: 76ee4a8db49765590e7cca864d6d4b152d7ba112
-workflow-type: tm+mt
+exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
-
 # Comparação de diferentes métodos de exclusão de bots
 
-A tabela a seguir mostra métodos diferentes de excluir bots e como eles se empilham uns contra os outros.
+A tabela a seguir mostra diferentes métodos de exclusão de bots e como eles se comparam.
 
-| Método | Regras de bot | Excluir por endereço IP | Atributos do cliente | Segmentação | Pontuação de terceiros + Segmentação | Suprimir &#x200B; de Chamada do Servidor para Bots em Tempo de Execução | Regra VISTA personalizada do DB |
+| Método | Regras de bot | Excluir por endereço IP | Atributos do cliente | Segmentação | Pontuação de terceiros + Segmentação | Suprimir Chamada de servidor para bots no tempo de execução | Regra VISTA DB personalizada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Descrição do método de exclusão dos dados** | &#x200B; Excluir com base no agente do usuário, endereço IP ou intervalo de endereços IP | Endereço IP | &#x200B; Um sinalizador nos atributos do cliente que identifica o ECID como um bot | Critérios de &#x200B; em um segmento do Analytics que identifica bots conhecidos com base no comportamento do bot | &#x200B; Um terceiro, como o [Perimeter X](https://www.perimeterx.com) ou o [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp) , atribui a cada visualização de página uma pontuação sobre a probabilidade de ser um robô. A pontuação é enviada para o Analytics e os segmentos podem ser usados para filtrar os dados com base na pontuação. | &#x200B; lógica do cliente impede que a chamada do servidor do Analytics seja executada para bots. | &#x200B; uma regra VISTA moverá o tráfego de bots que atendem a determinados critérios para um conjunto de relatórios separado. |
-| **Os nomes dos bots &#x200B; estão disponíveis para o relatórios?** | Sim | Não | Não | Não | Não | Não | Sim |
-| **&#x200B; consegue ver quais páginas estão sendo visitadas por bots?** | Sim | Não | Não | Não | Sim | Não | Sim |
-| &#x200B;**Incurs server call cost for bots?** | Sim | Sim | Sim | Sim | Sim | Não | Sim |
-| **Dados de robô disponíveis em feeds de dados?** | Não | Não | Sim | Sim | Sim | Não | Sim |
-| **Pode &#x200B; relatórios sobre o tráfego de robô como se fossem chamadas reais do servidor?** | Não | Não | Sim | Sim | Sim | Sim | Não |
-| **É possível remover dados retroativamente de um conjunto de dados?** | Não | Não | &#x200B; Sim, depois que as IDs declaradas forem implementadas | Sim | Sim, uma vez que as pontuações são implementadas | Não | Não |
-| **Os critérios estão sujeitos a limites únicos?** | Não | Não | Não | Sim | Não | Não | Não |
-| **O &#x200B; está sujeito a custos adicionais?** | Não | Não | &#x200B; possível, dependendo do SKU do Analytics | Não | Sim | Não | &#x200B; Sim - custo para implementar e manter uma regra VISTA |
+| **Descrição do método de exclusão de dados** | Excluir com base no agente do usuário, endereço IP ou intervalo de endereços IP | Endereço IP | Um sinalizador nos atributos do cliente que identifica a ECID como um bot | Critérios em um segmento do Analytics que identifica bots conhecidos com base no comportamento do bot | Terceiros, como [Perímetro X](https://www.perimeterx.com) ou [Akamai Bot Manager](https://www.akamai.com/br/pt/products/security/bot-manager.jsp) atribuem a cada exibição de página uma pontuação em relação à probabilidade de ser um bot. A pontuação é enviada para o Analytics e os segmentos podem ser usados para filtrar dados com base na pontuação. | A lógica do lado do cliente impede que a chamada de servidor do Analytics seja executada para bots. | Uma regra VISTA moverá o tráfego de bots que atendem a determinados critérios para um conjunto de relatórios separado. |
+| **Os nomes de bot estão disponíveis para relatórios?** | Sim | Não | Não | Não | Não | Não | Sim |
+| **É possível ver quais páginas estão sendo visitadas por bots?** | Sim | Não | Não | Não | Sim | Não | Sim |
+| **Representa o custo de chamada de servidor para bots?** | Sim | Sim | Sim | Sim | Sim | Não | Sim |
+| **Dados de bot disponíveis nos feeds de dados?** | Não | Não | Sim | Sim | Sim | Não | Sim |
+| **É possível relatar o tráfego de bots como se fossem chamadas de servidor reais?** | Não | Não | Sim | Sim | Sim | Sim | Não |
+| **É possível remover dados retroativamente de um conjunto de dados?** | Não | Não | Sim, depois que as IDs declaradas são implementadas | Sim | Sim, depois que as pontuações são implementadas | Não | Não |
+| **Está sujeito a limites únicos nos critérios?** | Não | Não | Não | Sim | Não | Não | Não |
+| **Está sujeito a custo adicional?** | Não | Não | Possivelmente, dependendo da SKU do Analytics | Não | Sim | Não | Sim, custo para implementar e manter uma regra VISTA |
