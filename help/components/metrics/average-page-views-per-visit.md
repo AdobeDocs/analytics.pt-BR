@@ -1,14 +1,14 @@
 ---
 title: Média de exibições de página por visita
 description: O número médio de vezes que um determinado item de dimensão apareceu em uma visita.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Média de exibições de página por visita
 
@@ -16,7 +16,7 @@ A dimensão “Média de visualizações de página por visita” exibe quantas 
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Se essa métrica for utilizada sozinha, serão obtidos itens de dimensão que contém exibições de página por visita com anomalias, o que geralmente não é útil.
+>Use essa métrica junto com outra métrica (como [Visitas](visits.md)) para obter melhores insights. Se essa métrica for utilizada sozinha, serão obtidos itens de dimensão que contém exibições de página por visita com anomalias, o que geralmente não é útil.
 
 ## Como essa métrica é calculada
 
