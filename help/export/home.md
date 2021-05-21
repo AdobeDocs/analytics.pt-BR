@@ -1,14 +1,14 @@
 ---
 title: Guia de exportação do Analytics
-description: Este guia descreve como obter dados do Adobe Analytics usando feeds de dados e Data Warehouse.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: Este manual descreve maneiras de retirar dados do Adobe Analytics usando feeds de dados e o Data Warehouse.
+exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # Guia de exportação do Analytics
 
