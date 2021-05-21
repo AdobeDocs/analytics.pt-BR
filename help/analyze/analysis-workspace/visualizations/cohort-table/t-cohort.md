@@ -3,16 +3,16 @@ description: Crie uma coorte e execute um relatório de análise de coorte no An
 keywords: Analysis Workspace
 title: Executar um relatório de análise de coorte
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizations
+feature: Visualizações
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '953'
+ht-degree: 100%
 
 ---
-
 
 # Configurar um relatório de [!UICONTROL análise de coorte]
 
@@ -56,4 +56,3 @@ Crie uma coorte e execute um relatório de [!UICONTROL Análise de coorte] no An
    >[!NOTE]
    >
    >É necessário salvar o projeto antes que a preparação esteja disponível.
-
