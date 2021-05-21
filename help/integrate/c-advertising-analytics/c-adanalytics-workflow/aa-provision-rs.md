@@ -2,14 +2,14 @@
 description: Configure um conjunto de relatórios mapeados da Experience Cloud para uso no Advertising Analytics.
 title: Habilitar conjunto de relatórios para o Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Habilitar conjunto de relatórios para o Advertising Analytics
 
@@ -36,4 +36,3 @@ Para visualizar qualquer dado de pesquisa do Advertising Analytics no Analytics,
    | Expirar após | Permite especificar o período ou evento após o qual o valor do eVar expira (ou seja, não recebe mais crédito por eventos bem-sucedidos).  Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). |
 
 1. Clique em **[!UICONTROL Habilitar Relatórios do Advertising Analytics]** (primeiro momento) ou **[!UICONTROL Atualizar Relatórios do Advertising Analytics]** (momentos subsequentes). Seu conjunto de relatórios está pronto para receber dados de pesquisa do Advertising Analytics. Você está pronto para [criar contas publicitárias](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
-
