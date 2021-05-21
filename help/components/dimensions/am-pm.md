@@ -1,14 +1,14 @@
 ---
 title: AM/PM
 description: Determina se a ocorrência aconteceu durante as horas AM ou PM.
+exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # AM/PM
 
