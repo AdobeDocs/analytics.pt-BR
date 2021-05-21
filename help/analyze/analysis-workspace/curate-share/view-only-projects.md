@@ -2,16 +2,16 @@
 description: Projetos somente visualização no Workspace
 keywords: Projetos do somente para visualização
 title: Projetos do somente para visualização
-feature: Curate and Share
+feature: Preparar e compartilhar
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 98%
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
-
 
 # Projetos do somente para visualização
 
@@ -25,7 +25,7 @@ As interações desativadas em um projeto somente visualização incluem:
 
 * Painel esquerdo oculto
 * Conjunto de relatórios
-* Intervalo de datas do calendário do painel. Observação: se quiser conceder o controle do calendário aos recipients, adicione um [filtro suspenso com intervalo de datas](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Intervalo de datas do calendário do painel. Observação: se quiser conceder o controle do calendário aos recipients, adicione um [filtro suspenso com intervalo de datas](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * Filtragem de forma livre
 * Número de formas livres de linhas visíveis
 * Configurações de linha, coluna ou visualização de forma livre
@@ -39,7 +39,7 @@ Algumas das interações ativadas mais importantes em um projeto somente visuali
 
 | Área | Interações ativadas |
 | --- | --- |
-| Tabela de forma livre | <ul><li>Paginação e classificação</li><li>Passagem</li><li>Seleções de células que atualizam visualizações vinculadas</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Clique com o botão direito do mouse em > Copiar para a área de transferência</li></ul> |
+| Tabelas de forma livre | <ul><li>Paginação e classificação</li><li>Passagem</li><li>Seleções de células que atualizam visualizações vinculadas</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Clique com o botão direito do mouse em > Copiar para a área de transferência</li></ul> |
 | Visualizações | <ul><li>Clicar para ativar/desativar legenda</li><li>Passagem</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Recolher/expandir</li><li>Fluxo - expandir nós de fluxo</li><li>Mapa - zoom</li></ul> |
 | Painéis | <ul><li>Filtros suspensos interativos</li><li>Clique com o botão direito do mouse em > Obter link do painel</li><li>Recolher/expandir</li></ul> |
 | Projeto | <ul><li>Como inspecionar todos os ícones de informações</li><li>Menu Projeto - Novo, Abrir, Definir como página inicial, Atualizar, Baixar CSV/PDF, Informações e configurações limitadas do projeto</li><li>Menu Compartilhar - Obter link do projeto, Enviar arquivo agora</li><li>Menu Ajuda - Todas as ações, exceto as opções de Dicas e Depurador</li></ul> |
