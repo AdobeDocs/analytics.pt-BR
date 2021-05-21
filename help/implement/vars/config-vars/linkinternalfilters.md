@@ -1,14 +1,14 @@
 ---
 title: linkInternalFilters
 description: Use a variável linkInternalFilters para ajudar no rastreamento automático do link de saída.
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # linkInternalFilters
 
@@ -18,7 +18,7 @@ Se essa variável tiver um valor, o rastreamento automático do link de saída s
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-O mapa de atividades usa essa variável para ajudar a determinar quais links são internos do site. O Adobe recomenda configurar essa variável para implementações que usam o mapa de Atividades.
+O Activity Map usa essa variável para ajudar a determinar quais links são internos ao site. A Adobe recomenda definir essa variável para implementações que usam o Activity Map.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ O campo Nunca rastrear é uma lista de filtros separados por vírgulas (geralmen
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Links de saída - Nunca rastrear].
 
 Coloque os filtros que deseja que nunca sejam rastreados como links de saída neste campo. Separe vários domínios por vírgula sem espaço.
