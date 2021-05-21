@@ -1,14 +1,14 @@
 ---
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
-workflow-type: tm+mt
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
-
 
 # Coleta de dados regionais
 
@@ -16,7 +16,7 @@ A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as inter
 
 >[!IMPORTANT]
 >
->O Pacote Complemento RDC (Otimização do Desempenho da China) é um complemento cobrado da Adobe Analytics. A Otimização do Desempenho do Adobe na China continental permite que os clientes na China enviem dados diretamente para o nó de fronteira da China, em vez de outros locais globalmente. Isso melhora o tempo de carregamento da página e a precisão dos dados ao enviar os dados para nós fora da China. Entre em contato com seu representante de vendas de Adobe para obter mais informações.
+>O pacote de complemento RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A Otimização do desempenho da Adobe na China continental permite que os clientes da China enviem dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora os tempos de carregamento de páginas e a precisão dos dados em comparação ao envio de dados para nós fora da China. Entre em contato com o representante da Adobe Sales para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
@@ -26,9 +26,9 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 |---------------------|-------------------|
 | Padrão | Oregon, Virgínia, Irlanda, Paris, Mumbai, Singapura, Tóquio, Sydney, China* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
+Observação: se sua solicitação de imagem do Analytics é enviada para os endpoints `adobedc` `2o7.net` ou `omtrdc.net`, você tem a coleção de dados de terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
 
-*A RDC da China requer o pacote adicional da China. Consulte a observação &quot;Importante&quot; acima.
+*O RDC da China exige o pacote do complemento da China. Consulte a nota &quot;Importante&quot; acima.
 
 ## Coleta de dados HTTPS de terceiros
 
@@ -40,17 +40,17 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | Somente Pacífico Asiático | Mumbai, Singapura, Tóquio, Sidney |
 | Somente China* | Pequim |
 
-*A RDC da China requer o pacote adicional da China. Consulte a observação &quot;Importante&quot; acima.
+*O RDC da China exige o pacote do complemento da China. Consulte a nota &quot;Importante&quot; acima.
 
-Observação: a Experience Edge Global oferece o melhor desempenho aos usuários finais.  Se quiser usar um tipo RDC alternativo, entre em contato com o Atendimento ao cliente da Adobe para obter assistência.
+Observação: a Experience Edge Global oferece o melhor desempenho aos usuários finais.  Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao cliente da Adobe para obter assistência.
 
 ## Benefícios da RDC
 
 | Benefícios | Descrição |
 | --- | --- |
-| Desempenho | Com a RDC, seus visitantes se conectarão ao DCC mais próximo. Isso proporciona o tempo de resposta mais rápido, resultando em um rastreamento mais preciso e tempos de carregamento mais rápidos. |
-| Redundância | Em caso de interrupção na comunicação com um DCC, a coleta de dados é roteada automaticamente para o próximo DCC mais próximo, garantindo a continuidade do serviço. |
-| Redundância | Em caso de interrupção na comunicação entre o DCC e seu DPC, a infraestrutura RDC do Adobe salva os dados localmente e, em seguida, os encaminha para o DPC quando as comunicações forem restauradas. |
+| Desempenho | Com o RDC, seus visitantes se conectam ao DCC mais próximo. Isso fornece o tempo de resposta mais rápido, resultando em rastreamento mais preciso e em tempos de carregamento mais rápidos. |
+| Redundância | No caso de uma interrupção na comunicação com um DCC, a coleção de dados é encaminhada diretamente ao DCC mais próximo, garantindo a continuidade do serviço. |
+| Redundância | No caso de uma interrupção na comunicação entre o DCC e a DPC, a infraestrutura da RDC da Adobe salva os dados localmente e, em seguida, os encaminha para a DPC quando as comunicações forem restauradas. |
 
 ## Como a RDC funciona
 
