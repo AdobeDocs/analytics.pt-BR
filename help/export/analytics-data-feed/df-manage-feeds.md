@@ -1,11 +1,14 @@
 ---
 title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciar feeds de dados
 
@@ -15,7 +18,7 @@ Acesse o gerenciamento do feed de dados seguindo estas etapas:
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Clique no menu de 9 linhas na parte superior direita e em [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. No menu superior, clique em [!UICONTROL Administração] > [!UICONTROL Feeds de dados].
 
 ![Menu do feed de dados](assets/AdminMenu.png)
 
@@ -25,7 +28,7 @@ Ao chegar à página do gerenciador do feed de dados, a interface é semelhante 
 
 ![Feeds de dados](assets/feeds.png)
 
-Se nenhum feed tiver sido configurado, a página mostrará um [!UICONTROL Create New Data Feed] botão.
+Se nenhum feed for configurado, a página exibe um botão [!UICONTROL Criar novo feed de dados].
 
 ### Filtros e pesquisa
 
@@ -45,7 +48,7 @@ Clique na guia Trabalhos para ver os trabalhos individuais criados por cada um d
 
 ### Adicionar
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. Consulte [Adicionar um feed](create-feed.md) para obter mais informações.
+Próximo às guias de feeds e trabalhos, clique no botão + [!UICONTROL Adicionar] para criar um novo feed. Consulte [Adicionar um feed](create-feed.md) para obter mais informações.
 
 ### Colunas
 
@@ -78,7 +81,7 @@ Cada feed criado mostra várias colunas fornecendo informações sobre ele. Cliq
 Clique na caixa de seleção ao lado de um feed de dados para revelar as ações disponíveis.
 
 * **Histórico de tarefas**: exibir todos os trabalhos vinculados a esses feeds de dados. Direciona automaticamente para a [interface de gerenciamento de trabalhos](df-manage-jobs.md).
-* **Excluir**: Exclui o feed de dados, definindo seu status como [!UICONTROL Deleted].
+* **Excluir**: exclui o feed de dados, definindo o status como [!UICONTROL Excluído].
 * **Copiar**: é necessário [criar um novo feed](create-feed.md) com todas as configurações do feed atual. Não é possível copiar um feed de dados se mais de um estiver selecionado.
-* **Pausar**: Interrompe o processamento do feed, definindo seu status como [!UICONTROL Inactive].
+* **Pausar**: interrompe o processamento do feed, definindo seu status como [!UICONTROL Inativo].
 * **Ativar**: disponível somente para feeds inativos. Seleciona os dados de processamento exatamente onde pararam, preenchendo as datas retroativas, se necessário.
