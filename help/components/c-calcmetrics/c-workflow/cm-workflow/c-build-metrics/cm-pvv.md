@@ -2,14 +2,14 @@
 description: Mostra como criar uma métrica simples de "Exibições de página por visita".
 title: Criar uma métrica simples de "Exibições de página por visita"
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
+exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
-
 
 # Criar uma métrica simples de &quot;Exibições de página por visita&quot;
 
@@ -33,4 +33,3 @@ Veja como criar uma métrica simples de &quot;Exibições de página por visita&
 1. Clique em **[!UICONTROL Salvar]**.
 1. Observe que a fórmula **[!UICONTROL Resumo]** é atualizada sempre que você faz uma alteração na definição da métrica.
 1. Agora você é levado automaticamente para o [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), que é semelhante ao Gerenciador de segmentos. Permite compartilhar, aprovar, adicionar ou remover tags, renomear e excluir métricas.
-
