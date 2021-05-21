@@ -1,14 +1,14 @@
 ---
 title: Criar um relatório básico no Analysis Workspace
 description: Saiba como criar um relatório básico no Analysis Workspace em um formato direcionado a usuários familiarizados com ferramentas de terceiros, como o Google Analytics.
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
-
 
 # Criar um relatório básico na Analysis Workspace para usuários do Google Analytics
 
