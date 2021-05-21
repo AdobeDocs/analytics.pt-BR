@@ -3,11 +3,14 @@ description: A política de FTP da Adobe desativa o acesso a contas FTP que perm
 keywords: ftp;sftp
 title: Excluir dados e contas FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
-
 
 # Excluir dados e contas FTP
 
@@ -25,4 +28,3 @@ Para nos ajudar neste processo e garantir que o ambiente FTP aprimorado continue
 
 * Remova os dados enviados do sistema FTP depois que os dados tenham sido transferidos com sucesso para seu ambiente interno. A Adobe identifica e remove qualquer arquivo remanescente após 90 dias.
 * Informe à Adobe quando as contas FTP não forem mais necessárias para que elas possam ser desativadas e removidas.
-
