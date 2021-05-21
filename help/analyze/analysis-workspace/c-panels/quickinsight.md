@@ -1,16 +1,16 @@
 ---
 description: O Quick Insights é uma ferramenta para novos usuários do Workspace que os orienta na criação de tabelas e visualizações de dados
 title: Painel do Quick Insights
-feature: Panels
+feature: Painéis
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 99%
+exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
-
 
 # Painel do Quick Insights
 
@@ -107,4 +107,3 @@ Você receberá um aviso antes de adicionar algo diretamente à tabela:
 ![](assets/qibuilder8.png)
 
 Caso contrário, criar diretamente fará com que a tabela se comporte como uma tabela de forma livre tradicional, sem os recursos úteis para novos usuários.
-
