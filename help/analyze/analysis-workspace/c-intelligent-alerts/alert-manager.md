@@ -2,16 +2,16 @@
 description: Criar, editar ou excluir alertas.
 title: Gerenciador de Alerta
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: Ferramentas de IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # Gerenciador de Alerta
 
@@ -36,4 +36,3 @@ O Gerenciador de alertas (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes
 * Especificar/alterar o proprietário de um alerta.
 * Adicionar outros filtros.
 * Definir uma **data de expiração** para o alerta.
-
