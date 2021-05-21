@@ -2,14 +2,14 @@
 description: Com o Criador de métricas calculadas, qualquer um pode criar uma métrica de participação.
 title: Métrica de participação
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
+exl-id: bef185d6-72c0-4068-80f8-57261369573f
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # Métrica de participação
 
@@ -33,4 +33,3 @@ Veja um caso de uso simples: um proprietário de conteúdo deseja saber quais p�
    ![](assets/participation-pages.png)
 
 1. (Opcional) Compartilhe a métrica com outros usuários em sua organização.
-
