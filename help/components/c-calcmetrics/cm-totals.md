@@ -1,14 +1,14 @@
 ---
 title: Totais de métricas calculadas
 description: Saiba como os totais de métricas calculadas diferem nas ferramentas do Analytics
-translation-type: tm+mt
-source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
-workflow-type: tm+mt
+exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # Totais de métricas calculadas
 
@@ -41,5 +41,4 @@ Quando os totais são exibidos, geralmente são calculados no lado do servidor, 
 * Quando [linhas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) são usadas em tabelas de forma livre e a opção (padrão) **[!UICONTROL Mostrar como soma das linhas atuais]** é selecionada.
 * Na [visualização de Donut](/help/analyze/analysis-workspace/visualizations/donut.md), para que os números somem até 100%.
 
-Para obter mais informações sobre os totais no Analysis Workspace, visite os totais [da](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total)Workspace.
-
+Para obter mais informações sobre totais no Analysis Workspace, acesse [Totais do Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#static-row-total).
