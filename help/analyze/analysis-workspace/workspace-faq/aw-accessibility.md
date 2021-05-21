@@ -1,16 +1,16 @@
 ---
 description: Recursos de suporte para acessibilidade no Analysis Workspace
 title: Acessibilidade no Analysis Workspace
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 83%
+exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '663'
+ht-degree: 100%
 
 ---
-
 
 # Acessibilidade no Analysis Workspace
 
@@ -26,18 +26,18 @@ A navegação no [!UICONTROL Analysis Workspace] funciona de cima > para baixo e
 
 * A tecla `Tab` ativa atalhos de marcos, alternando entre seções maiores no Workspace. No painel à esquerda, `Tab` também permite mover de uma opção arrastável para a próxima.
 * A movimentação `left/right arrows` entre elementos individuais depois de `Tab` realçá-la.
-* O `F6` navega até o primeiro painel no projeto e se move entre as visualizações nesse painel. Em seguida, ele é movido para o próximo painel no projeto e repete.
+* O `F6` navega até o primeiro painel no projeto e se move entre as visualizações nesse painel. Em seguida, ele é movido para o próximo painel no projeto e é repetido.
 * Nós aplicamos indicadores de foco para que os usuários de teclado com visão tenham uma indicação clara de qual elemento de interface do usuário tem foco no momento. O indicador é uma borda azul em torno do elemento selecionado.
 
    ![Indicador de foco](assets/focus-indicator.png)
 
-### Navegação do teclado para a barra de menus
+### Navegação do teclado para a barra de menu
 
-1. Pressione até que a barra de menu seja atingida.
+1. Pressione até alcançar a barra de menu.
 1. Use as teclas de seta para a esquerda/direita para navegar até o menu desejado.
-1. Pressione `Enter` para selecionar o menu e mostrar suas opções.
+1. Pressione `Enter` para selecionar o menu e mostrar as opções dele.
 1. Use as teclas de seta para cima/para baixo para navegar até a opção de menu desejada.
-1. Pressione `Enter` para selecionar a opção .
+1. Pressione `Enter` para selecionar a opção.
 
 ### Navegação no teclado para interações de arrastar e soltar
 
@@ -50,7 +50,7 @@ O [!UICONTROL Analysis Workspace] é uma interface de usuário de arrastar e sol
 
 ### Atalhos de teclado (teclas de atalho)
 
-O [!UICONTROL Analysis Workspace] oferece um conjunto avançado de [atalhos de teclado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=pt-BR) para um fluxo de trabalho mais simples. Alguns atalhos comuns para navegação, criação de análises e democratização do insight estão listados abaixo.
+O [!UICONTROL Analysis Workspace] oferece um conjunto avançado de [atalhos de teclado](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) para um fluxo de trabalho mais simples. Alguns atalhos comuns para navegação, criação de análises e democratização do insight estão listados abaixo.
 
 #### Navegação
 
@@ -71,7 +71,7 @@ O [!UICONTROL Analysis Workspace] oferece um conjunto avançado de [atalhos de t
 | Ctrl + Shift + D | Novo intervalo de datas |
 | Ctrl + Shift + E | Novo segmento |
 | Ctrl + Z | Desfazer |
-| Manter shift pressionado (na área do segmento) | Criar um [filtro suspenso](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) |
+| Manter shift pressionado (na área do segmento) | Criar um [filtro suspenso](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Democratização
 
@@ -92,7 +92,7 @@ Um leitor de tela lê o texto que aparece na tela do computador. Ele também lê
 
 O [!UICONTROL Analysis Workspace] se esforça para obter a conformidade WCAG 2.1 AA, incluindo os requisitos para contraste de cores.
 
-Além disso, os usuários podem definir sua própria paleta de cores preferencial para um projeto em **[!UICONTROL Projeto]** > **[!UICONTROL Configurações do projeto]** > [Paleta de cores do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR).
+Além disso, os usuários podem definir sua própria paleta de cores preferencial para um projeto em **[!UICONTROL Projeto]** > **[!UICONTROL Configurações do projeto]** > [Paleta de cores do projeto](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
 
 ## Validação de campo necessária nos construtores de componentes
 
