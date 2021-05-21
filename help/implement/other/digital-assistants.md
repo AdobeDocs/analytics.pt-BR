@@ -1,14 +1,14 @@
 ---
 title: Implementar o Analytics para assistentes digitais
 description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon Alexa ou o Google Home.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Implementar o Analytics para assistentes digitais
 
@@ -22,7 +22,7 @@ Esta página fornece uma visão geral de como usar melhor o Adobe Analytics para
 
 ## Visão geral da arquitetura de experiência digital
 
-![Fluxo de trabalho do Assistente digital](assets/Digital-Assitants.png)
+![Fluxo de trabalho do assistente digital](assets/Digital-Assitants.png)
 
 A maioria dos assistentes digitais atuais segue uma arquitetura de alto nível semelhante:
 
@@ -113,7 +113,7 @@ Cada um dos assistentes digitais possui algoritmos que detectam intenções e a 
 
 Por exemplo, se um usuário disser: &quot;Siri, transfira $20 para John pelo jantar de ontem à noite através do meu aplicativo bancário&quot;, a intenção pode ser algo como *sendMoney*.
 
-Ao enviar cada uma dessas solicitações como uma eVar, você poderá executar relatórios de definição de caminho cada uma das intenções para aplicativos de conversação. Certifique-se de que seu aplicativo possa lidar com solicitações sem um propósito também. O Adobe recomenda transmitir &quot;Nenhum propósito especificado&quot; para a variável de dados de contexto de intenção, em vez de omitir a variável.
+Ao enviar cada uma dessas solicitações como uma eVar, você poderá executar relatórios de definição de caminho cada uma das intenções para aplicativos de conversação. Certifique-se de que seu aplicativo possa lidar com solicitações sem um propósito também. A Adobe recomenda transmitir &quot;Nenhum propósito especificado&quot; para a variável de dados de contexto de intenção em vez de a omitir.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
