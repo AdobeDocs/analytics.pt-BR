@@ -2,16 +2,16 @@
 description: Use a visualização de linha para descrever conjuntos de dados com tendência (de acordo com o tempo)
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualizations
+feature: Visualizações
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 65%
+exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '512'
+ht-degree: 100%
 
 ---
-
 
 # Linha
 
@@ -33,21 +33,21 @@ Uma opção suspensa de granularidade nas [configurações de visualização](fr
 
 ## Mostrar mín. ou máx.
 
-Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar mín/máx]**, você pode sobrepor um rótulo de valor mínimo e máximo para realçar rapidamente os picos e vales em uma métrica. Observação: Os valores mín/máx são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores em uma dimensão.
+Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar mín/máx]**, você pode sobrepor um rótulo de valor mínimo e máximo para realçar rapidamente os picos e vales em uma métrica. Observação: os valores mín./máx. são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores em uma dimensão.
 
 ![Mostrar mín/máx](assets/min-max-labels.png)
 
 ## Mostrar sobreposição de linha de tendência
 
-Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar linha de tendência]**, você pode optar por adicionar uma regressão ou uma linha de tendência média móvel à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
+Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar linha de tendências]**, você pode adicionar uma regressão ou linha de tendência de média móvel à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
 
 >[!TIP]
 >
->Recomenda-se que as linhas de tendência sejam aplicadas aos dados que não incluem hoje (dados parciais) ou datas futuras, pois elas distorcerão a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar o desvio desses dias. Para fazer isso, vá para a tabela de fonte de dados da visualização, escolha a coluna de métrica e ative **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.
+>Recomenda-se que linhas de tendência sejam aplicadas a dados que não incluem hoje (dados parciais) ou datas futuras, pois elas distorcerão a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar distorções nesses dias. Para fazer isso, vá para a tabela de fonte de dados da visualização, escolha a coluna de métrica e ative **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.
 
 ![Linha de tendência linear](assets/show-linear-trendline.png)
 
-Todas as tendências do modelo de regressão são se ajustam usando quadrados mínimos comuns:
+Todas as linhas de tendência do modelo de regressão são ajustadas usando mínimos quadrados comuns:
 
 | Modelo | Descrição |
 | --- | --- |
@@ -56,4 +56,4 @@ Todas as tendências do modelo de regressão são se ajustam usando quadrados m�
 | Exponencial | Cria uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
 | Potência | Cria uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam a uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
 | Quadrático | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
-| Média móvel | Cria uma linha de tendência suave com base em um conjunto de médias. Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado pela seleção de &quot;Períodos&quot;), faz a média deles e usa a média como um ponto na linha. Os exemplos incluem média móvel de 7 dias ou média móvel de 4 semanas. |
+| Média móvel | Cria uma linha de tendências suave com base em um conjunto de médias. Também conhecida como média variável, a média móvel usa um número específico de pontos de dados (determinado por sua seleção de &#39;Períodos&#39;), calcula a média deles e usa a média como um ponto na linha. Os exemplos incluem média móvel de sete dias ou média móvel de quatro semanas. |
