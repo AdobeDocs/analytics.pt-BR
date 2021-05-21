@@ -2,17 +2,20 @@
 description: Descreve as duas principais maneiras de encontrar suas métricas por classificação e por filtragem.
 title: Localizar métricas
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
-
 
 # Localizar métricas
 
 Descreve as duas principais maneiras de encontrar suas métricas: por classificação e por filtragem.
 
-## Classificação  {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Classificação {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 Ao abrir um relatório e clicar no ícone Métricas ![](assets/metrics_icon.png) à esquerda de um relatório para exibir o painel Métricas, a lista suspensa **[!UICONTROL Classificar por]** do Seletor de métricas exibirá quatro opções de classificação:
 
@@ -25,7 +28,7 @@ Ao abrir um relatório e clicar no ícone Métricas ![](assets/metrics_icon.png)
 | Usado com frequência | Útil se você for um usuário novo e precisar ver o que costuma ser usado no relatório. |
 | Usado recentemente | É útil ao trabalhar em um projeto com um mesmo conjunto de métricas repetidamente. |
 
-## Filtragem - Seleção avançada  {#section_33818CC048C04F098703AC229693F8CA}
+## Filtragem - Seleção avançada {#section_33818CC048C04F098703AC229693F8CA}
 
 Ao abrir um relatório, clique no ícone Métricas e em **[!UICONTROL Gerenciar]**. Em seguida, clique no ícone Filtro. É possível filtrar de diversas formas.
 
@@ -61,4 +64,3 @@ Ao abrir um relatório, clique no ícone Métricas e em **[!UICONTROL Gerenciar]
   </tr> 
  </tbody> 
 </table>
-
