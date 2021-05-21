@@ -1,14 +1,14 @@
 ---
 title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Relatórios de aquisição
 
@@ -63,7 +63,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 ## Todo o tráfego - Referências
 
 * A dimensão principal **Origem** está disponível na Analysis Workspace como a dimensão **Domínio de referência**.
-* A dimensão principal **Página de aterrissagem** está disponível na Analysis Workspace como a dimensão **Página de entrada**.
+* A dimensão principal **Página inicial** está disponível na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Domínio de referência** ou **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
@@ -90,9 +90,9 @@ O relatório Referências de rede mostra quais domínios de rede social direcion
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
 3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-### Social - Páginas de aterrissagem
+### Social - Páginas iniciais
 
-O relatório Páginas de aterrissagem mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
+O relatório de páginas iniciais mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
@@ -112,7 +112,7 @@ O relatório Fluxo de usuários mostra os dados de definição de caminho no con
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
 2. Clique no ícone Componentes à esquerda e arraste o segmento **Visitas de sites sociais** até a pequena área logo acima da exibição de fluxo chamada &#39;Solte um segmento aqui&#39;.
-3. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de Dimension têm cor amarela.
+3. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm cor amarela.
 4. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 5. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
