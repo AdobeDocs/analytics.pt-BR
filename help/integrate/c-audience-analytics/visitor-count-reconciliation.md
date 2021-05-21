@@ -2,11 +2,14 @@
 description: Algumas métricas de visitante do Adobe Analytics e do Adobe Audience Manager apresentam definições semelhantes, mas não são 100% alinhadas por vários motivos.
 title: Diferenças na contagem de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
-
 
 # Diferenças na contagem de visitantes
 
