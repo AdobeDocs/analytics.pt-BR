@@ -1,15 +1,15 @@
 ---
 title: Visão geral sobre variáveis, funções, métodos e plug-ins
 description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
-keywords: appmeasurement,variables,vars,configuration,page,implementation
+keywords: appmeasurement,variáveis,vars,configuração,página,implementação
+exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '318'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral sobre variáveis, funções, métodos e plug-ins
 
