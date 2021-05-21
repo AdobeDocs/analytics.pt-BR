@@ -1,14 +1,14 @@
 ---
 title: Toda a classificação da página de pesquisa
 description: Determine em qual página de um mecanismo de pesquisa um visitante clicou para acessar seu site.
+exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # Toda a classificação da página de pesquisa
 
