@@ -1,14 +1,14 @@
 ---
 title: visitorID
 description: Use uma ID de visitante personalizada.
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # visitorID
 
@@ -24,7 +24,7 @@ A Adobe usa vários métodos diferentes para identificar visitantes em seu site.
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL ID de visitante].
 
 Atribua esse campo ao elemento de dados que contém sua ID de visitante personalizada. Não defina esse campo como um valor estático.
