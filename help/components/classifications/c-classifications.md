@@ -1,20 +1,20 @@
 ---
 title: Visão geral das classificações
 description: Personalizar o agrupamento de itens de dimensão.
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
-
 # Visão geral das classificações
 
 Classificação é uma forma de categorização de dados variáveis do Analytics, que exibe os dados de diferentes maneiras quando você gera os relatórios.
 
-Visão geral em vídeo de [Classificações do Analytics](https://video.tv.adobe.com/v/16853/?captions=por_br).
+Visão geral em vídeo de [Classificações do Analytics](https://video.tv.adobe.com/v/16853/).
 
 **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > *`<Traffic or Conversion>`*
 
@@ -62,4 +62,3 @@ A tabela a seguir descreve os diferentes tipos de classificação disponíveis e
   </tr> 
  </tbody> 
 </table>
-
