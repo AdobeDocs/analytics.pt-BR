@@ -1,14 +1,14 @@
 ---
 title: Acompanhamento de email externo
 description: Use o Adobe Analytics para rastrear conteúdo de email.
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # Acompanhamento de email externo
 
@@ -81,7 +81,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
       É importante ter em mente os pontos a seguir ao atualizar a biblioteca de JavaScript. Esses pontos são listados abaixo.
 
-      * O parâmetro da cadeia de caracteres de consulta [!UICONTROL _cid] deve estar visível no URL da página inicial final, caso contrário não haverá registros de conversão de click-throughs.
+      * O parâmetro da string de consulta [!UICONTROL sc_cid] deve estar visível no URL da página inicial final, caso contrário não haverá registros de conversão de click-throughs.
       * O parâmetro [!UICONTROL sc_cid] é um exemplo de parâmetro da cadeia de caracteres de consulta. É possível usar e capturar qualquer parâmetro de cadeia de caracteres de consulta por meio do plug-in [!UICONTROL getQueryParam]. Verifique se os parâmetros da cadeia de caracteres de consulta são usados apenas para o rastreamento da campanha. Sempre que os parâmetros forem exibidos em uma cadeia de caracteres de consulta, seus valores serão copiados em *`campaign`*.
 
 1. Use [!UICONTROL SAINT] para classificar os códigos de rastreamento de campanha.
@@ -101,5 +101,4 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
       s.prop1="Home Page : 123456"
       ```
 
-      Quando a definição do caminho é ativada para a variável [!UICONTROL Custom Insight], você pode usar os relatórios [!UICONTROL Caminho] (como [!UICONTROL Fluxo da próxima página] ou [!UICONTROL Fallout]) para ver a navegação do visitante a partir da página de aterrissagem.
-
+      Quando a definição do caminho é ativada para a variável [!UICONTROL Custom Insight], você pode usar os relatórios [!UICONTROL Caminho] (como [!UICONTROL Fluxo da próxima página] ou [!UICONTROL Fallout]) para ver a navegação do visitante a partir da página de conversão.
