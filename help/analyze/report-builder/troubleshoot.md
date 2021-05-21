@@ -4,14 +4,14 @@ title: Resolução de problemas e práticas recomendadas do Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 81%
+exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
-
 
 # Resolução de problemas e práticas recomendadas do Report Builder
 
@@ -44,10 +44,10 @@ O Report Builder exige autenticação para criar solicitações de dados dos seu
 
 Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um processamento mais lento.
 
-* **Fatores que podem atrasar entregas**: Muitos marcadores, painéis e pastas de trabalho do Report Builder foram agendados dentro de poucas horas. Além disso, considere que muitas pastas de trabalho do Report Builder foram agendadas ao mesmo tempo. Quando isso ocorre, a fila de relatórios do API fica lotada.
-* **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: Aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
-* **Causas que resultam na falha** de entrega da pasta de trabalho: Fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
-* **Células que retornam 0s (sem valores)**: Uma apóstrofe ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
+* **Fatores que podem atrasar deliveries**: muitos marcadores, painéis e pastas de trabalho do Report Builder foram agendados em poucas horas. Considere também que muitas pastas de trabalho do Report Builder foram agendadas ao mesmo tempo. Quando isso ocorre, a fila de relatórios do API fica lotada.
+* **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
+* **Causas que resultam na falha de entrega da pasta de trabalho**: fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
+* **Células retornando 0s (sem valor)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
 * **Desempenho individual de solicitação**: A velocidade do processo pode ser afetada pelas seguintes configurações:
 
    | Configuração | Desempenho mais rápido | Desempenho mais devagar |
@@ -59,7 +59,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
    | Granularidade | Agregado | Por hora<ul><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Trimestralmente</li><li>Anualmente</li></ul> |
    | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
 
-* **Período** de agendamento: Programação ordenada durante o período de 24 horas (consulte a tabela abaixo). Favoritos, painéis e pastas de trabalho do Report Builder já existentes que foram agendados muito próximos podem causar atrasos. Agende as solicitações maiores e mais complexas no início da manhã para permitir que o manual extraia e atualize para ocorrer durante o dia útil.
+* **Horário de agendamento**: agendamento ordenado durante o período de 24 horas (consulte a tabela abaixo). Favoritos, painéis e pastas de trabalho do Report Builder já existentes que foram agendados muito próximos podem causar atrasos. Agende as solicitações maiores e mais complexas no início da manhã para permitir que o manual extraia e atualize para ocorrer durante o dia útil.
 
    | Período de agendamento | 1 h - 2 h | 2 h - 7 h | 7 h - 18 h | 18 h - Meia-noite |
    |--- |--- |--- |--- |--- |
@@ -81,10 +81,10 @@ Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do
 * **O intervalo selecionado não é válido. Selecione outro intervalo.**: Se uma célula da planilha for selecionada e já houver uma solicitação mapeada para ela, este erro ocorrerá. Exclua a solicitação mapeada para as células ou escolha outro intervalo de células para mapear. Quando quiser excluir células, é importante localizar as que contenham solicitações e excluir as solicitações antes de excluir as células (removendo linhas ou colunas).
 * **Saia da célula do Excel onde está o foco antes de usar esse recurso.**: Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra de [!UICONTROL Fórmula] ou na [!UICONTROL Caixa de nome] na parte superior do Excel.
 * **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**: Se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
-* **Reparos para a pasta de trabalho (Registros removidos: Fórmula de /xl/calcChain.xml (parte)**: Às vezes, as fórmulas de uma pasta de trabalho são corrompidas ao salvar ou transferir. Quando o arquivo é aberto, o Excel tenta executar essas fórmulas e falha. Você pode resolver esse problema removendo `calcChain.xml` da planilha, forçando o Excel a atualizar seus cálculos de fórmula.
+* **Reparos na pasta de trabalho (Registros removidos: Fórmula de /xl/calcChain.xml parte)**: às vezes, as fórmulas de uma pasta de trabalho são corrompidas ao salvar ou transferir. Quando o arquivo é aberto, o Excel tenta executar essas fórmulas e falha. Você pode resolver esse problema removendo `calcChain.xml` da planilha, forçando o Excel a atualizar seus cálculos de fórmula.
    1. Renomeie a extensão de arquivo da pasta de trabalho de `.xlsx` para `.zip`.
    2. Descompacte o conteúdo e abra a pasta `/xl/`.
    3. Excluir `calcChain.xml`.
    4. Volte a compactar o conteúdo e altere a extensão de arquivo para `.xlsx`.
    5. Abra a pasta de trabalho no Excel e atualize todas as solicitações do Report Builder.
-* **As células do Excel associadas aos filtros de entrada ou ao intervalo de saída podem ter sido excluídas**: O Report Builder usa Nomes do Excel para anexar solicitações de dados a células. Caso exclua Nomes do Excel do Gerenciador de Nomes, esse erro poderá ser exibido. As solicitações não podem ser recuperadas se os Nomes do Excel forem excluídos. Se a pasta de trabalho foi programada, você pode baixar uma cópia do Gerenciador de programação ou abrir cópias entregues anteriormente da pasta de trabalho.
+* **As células do Excel associadas aos filtros de entrada ou ao intervalo de saída podem ter sido excluídas**: o Report Builder usa Nomes do Excel para anexar solicitações de dados a células. Se você excluir Nomes do Excel do Gerenciador de nomes, esse erro poderá ser exibido. As solicitações não poderão ser recuperadas se os Nomes do Excel forem excluídos. Se a pasta de trabalho foi agendada, você pode baixar uma cópia do Gerenciador de programação ou abrir cópias entregues anteriormente da pasta de trabalho.
