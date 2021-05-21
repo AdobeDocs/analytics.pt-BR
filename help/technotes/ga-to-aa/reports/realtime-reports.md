@@ -1,14 +1,14 @@
 ---
 title: Relatórios em tempo real no Adobe Analytics
 description: Saiba como obter relatórios em tempo real no Adobe Analytics direcionados para usuários mais familiarizados com o Google Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Relatórios em Tempo real
 
