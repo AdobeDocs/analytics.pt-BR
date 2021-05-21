@@ -1,14 +1,14 @@
 ---
 title: Modelo do CDA Workspace
 description: Descreve cada campo no modelo CDA no Analysis Workspace.
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 translation-type: ht
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # Modelo do CDA Workspace
 
