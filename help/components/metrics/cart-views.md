@@ -1,14 +1,14 @@
 ---
 title: Visualizações do carrinho
 description: O número de ocorrências em que um visitante visualizou seu carrinho.
+exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
-
 
 # Visualizações do carrinho
 
