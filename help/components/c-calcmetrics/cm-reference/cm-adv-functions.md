@@ -2,14 +2,14 @@
 description: Para acessar essas funções, selecione Mostrar avançadas na lista suspensa Funções.
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
 ---
-
 
 # Referência: funções avançadas
 
@@ -727,4 +727,3 @@ Retorna a probabilidade de a linha atual ser vista por acaso na coluna.
 >[!NOTE]
 >
 >O teste z assume que os valores são distribuídos normalmente.
-
