@@ -1,14 +1,14 @@
 ---
 title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
-
 
 # Compatibilidade de dimensões do Analytics
 
@@ -26,7 +26,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |---|---|
-| Analytics para o Target | `targetraw` |
+| Analytics for Target | `targetraw` |
 | ID de públicos-alvo | `mcaudiences` |
 | Navegador | `browser` |
 | Tipo de navegador | `browsertype` |
@@ -38,7 +38,7 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Países | `geocountry` |
 | Fidelização do cliente | `customerloyalty` |
 | Vars de conversão personalizada | `evar1`, `evar2`, etc. |
-| Vars de Insight personalizado | `prop1`, `prop2`, etc. |
+| Vars de Custom Insights | `prop1`, `prop2`, etc. |
 | Link personalizado | `customlink` |
 | Dias antes da primeira compra | `daysbeforefirstpurchase` |
 | Dias desde a última compra | `dayssincelastpurchase` |
@@ -115,11 +115,11 @@ Esta página lista dimensões compatíveis com seus respectivos recursos do Anal
 | Dia da semana | `timepartdayofweek` |
 | Dia do ano | `timepartdayofyear` |
 | Dias desde a última visita | `dayssincelastvisit` |
-| Insights personalizados de entrada | `entryprops` |
+| Custom Insights de entrada | `entryprops` |
 | Variáveis de lista de entrada | `entrylistvariables` |
 | Servidor de entrada | `entryserver` |
 | Seção de entrada no site | `entrysitesections` |
-| Insights personalizados de saída | `exitprops` |
+| Custom Insights de saída | `exitprops` |
 | Variáveis de lista de saída | `exitlistvariables` |
 | Página de saída | `exitpage` |
 | Saída do servidor | `exitserver` |
