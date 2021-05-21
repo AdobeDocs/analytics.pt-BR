@@ -1,14 +1,14 @@
 ---
 title: visitorNameSpace
 description: Variável removida que determinava o domínio do cookie.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
 
 # visitorNamespace
 
@@ -28,14 +28,14 @@ Em versões anteriores do Adobe Analytics, o AppMeasurement usava a variável `v
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Namespace do visitante].
 
 A Adobe recomenda não usar esse campo. Use `trackingServer` e `trackingServerSecure` no lugar dele.
 
 ## s.visitorNamespace no AppMeasurement e no editor de código personalizado do Launch
 
-A variável `s.visitorNamespace` é uma string que contém um valor exclusivo por organização. As bibliotecas antigas do AppMeasurement incluíam automaticamente esse valor único quando baixadas de versões anteriores do Adobe Analytics. As bibliotecas atuais do AppMeasurement não usam essa variável, a menos que `trackingServer` e `trackingServerSecure` não estejam definidas.
+A variável `s.visitorNamespace` é uma string que contém um valor único por organização. As bibliotecas antigas do AppMeasurement incluíam automaticamente esse valor único quando baixadas de versões anteriores do Adobe Analytics. As bibliotecas atuais do AppMeasurement não usam essa variável, a menos que `trackingServer` e `trackingServerSecure` não estejam definidas.
 
 Se sua organização ainda exigir essa variável, escolha um valor que represente sua organização. Você pode armazenar esse valor em um [documento de design da solução](../../prepare/solution-design.md).
 
