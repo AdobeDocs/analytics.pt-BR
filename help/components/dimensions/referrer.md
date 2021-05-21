@@ -1,14 +1,14 @@
 ---
 title: Referenciador
 description: O URL no qual um visitante estava antes de clicar para acessar seu site.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Referenciador
 
@@ -24,7 +24,7 @@ O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace
 
 Essa dimensão precisa ser configurada na interface do Analytics e os dados em solicitações de imagem.
 
-* Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Você pode usar a substituição da [`referrer`](/help/implement/vars/page-vars/referrer.md) variável para defini-la manualmente. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
+* Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Você pode usar a substituição da variável [`referrer`](/help/implement/vars/page-vars/referrer.md) para configurá-la manualmente. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
 * Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
 ## Itens de dimensão
