@@ -1,11 +1,14 @@
 ---
 title: trackExternalLinks
 description: Ative ou desative o rastreamento automático de links para links de saída.
+exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 translation-type: ht
-source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
-
 
 # trackExternalLinks
 
@@ -19,7 +22,7 @@ Rastrear links externos é uma caixa de seleção na opção [!UICONTROL Rastrea
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Rastrear links externos].
 
 Clique na caixa de seleção para ativar o rastreamento automático de links de saída.
