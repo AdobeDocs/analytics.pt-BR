@@ -1,14 +1,14 @@
 ---
 title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
-
 
 # listar
 
