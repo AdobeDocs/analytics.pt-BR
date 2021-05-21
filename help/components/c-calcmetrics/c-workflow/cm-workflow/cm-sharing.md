@@ -2,11 +2,14 @@
 description: Dependendo das suas permissões, é possível compartilhar métricas com toda a organização, com grupos ou com usuários individuais.
 title: Compartilhar métricas calculadas
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
-
 
 # Compartilhar métricas calculadas
 
@@ -38,4 +41,3 @@ Quando você deve compartilhar métricas com toda a empresa ou apenas com um gru
    O ícone Compartilhado é exibido ao lado da métrica:  ![](assets/share_icon.png)
 
 1. É possível filtrar as métricas compartilhadas com você em **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhados comigo]**.
-
