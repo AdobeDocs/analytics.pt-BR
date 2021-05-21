@@ -1,14 +1,14 @@
 ---
 title: Visitas em única página
 description: Um sinalizador que indica que a visita consistiu de uma única página.
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Visitas em única página
 
