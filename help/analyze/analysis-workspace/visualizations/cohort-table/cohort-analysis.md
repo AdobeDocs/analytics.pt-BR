@@ -1,16 +1,16 @@
 ---
 title: O que é a Análise de coorte e como ela funciona?
 description: Saiba mais sobre os dados do seu público-alvo e os divida em grupos relacionados com a Análise de coorte. Saiba mais sobre a análise de coorte no Analysis Workspace.
-feature: Visualizations
+feature: Visualizações
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '493'
+ht-degree: 100%
 
 ---
-
 
 # Saiba mais sobre [!UICONTROL Análise de coorte] no Adobe Analytics
 
@@ -72,4 +72,3 @@ Crie coortes com base em uma dimensão selecionada, em vez de coortes com base e
 ![](assets/cohort-customizable-cohort-row.png)
 
 Para obter instruções sobre como configurar e executar um relatório de coorte, acesse [Configurar um relatório de análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-
