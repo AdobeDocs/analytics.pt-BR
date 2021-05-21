@@ -1,14 +1,14 @@
 ---
 title: eVar (merchandising)
 description: Variáveis personalizadas que se vinculam à dimensão de produtos.
+exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # eVar (merchandising)
 
