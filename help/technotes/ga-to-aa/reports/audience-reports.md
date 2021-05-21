@@ -1,14 +1,14 @@
 ---
 title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Relatórios de público-alvo
 
@@ -52,7 +52,7 @@ O relatório de Públicos-alvo no Google Analytics requer a configuração de p�
 
 O relatório Explorador de usuários permite que um analista visualize visitas individuais por meio de identificadores anônimos. A Adobe não exibe os identificadores de backend fora dos feeds de dados, que são exportações brutas de dados no nível de ocorrência.
 
-* Se desejar esses dados na Analysis Workspace, é possível trabalhar com um consultor de implementação para transmitir o valor do cookie identificador único anônimo para uma eVar. Observe que isso só funciona com implementações menores, consistindo em menos de 1 milhão de visitantes únicos por mês.
+* Se desejar esses dados na Analysis Workspace, é possível trabalhar com um consultor de implementação para transmitir o valor do cookie identificador exclusivo anônimo para uma eVar. Observe que isso só funciona com implementações menores, consistindo em menos de 1 milhão de visitantes únicos mensais.
 * Se desejar esses dados nos feeds de dados, as colunas concatenadas `visid_high` e `visid_low` são a maneira mais comum de identificar visitantes únicos. Saiba mais sobre os [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
 
 ## Relatórios de demografia e interesses
@@ -89,7 +89,7 @@ Se desejar a tabela além do mapa:
 1. No menu Componentes, localize a dimensão **Países** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
+Consulte as dimensões [Países](/help/components/dimensions/countries.md) no guia do usuário de Componentes para obter mais informações.
 
 ## Comportamento - Novo vs Recorrente
 
@@ -161,7 +161,7 @@ O relatório de visão geral móvel é aproximadamente igual à dimensão **Tipo
 1. No menu Componentes, localize a dimensão **Tipo de dispositivo móvel** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Consulte a dimensão [Tipo de dispositivo móvel](/help/components/dimensions/mobile-dimensions.md) no guia do usuário Componentes para obter mais informações.
 
 ## Móvel - Dispositivos
 
@@ -170,7 +170,7 @@ O relatório Dispositivos móveis é aproximadamente igual à dimensão **Dispos
 1. No menu Componentes, localize a dimensão **Dispositivo móvel** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
-See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Consulte a dimensão [Dispositivo móvel](/help/components/dimensions/mobile-dimensions.md) no guia do usuário Componentes para obter mais informações.
 
 ## Personalizado
 
@@ -185,6 +185,6 @@ Os relatórios Avaliação de desempenho permitem ver como os aspectos dos dados
 O relatório de fluxo está disponível em ambas as plataformas. Para criar um relatório de fluxo:
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
-2. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm a cor amarela.
+2. Localize a dimensão **Páginas** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm cor amarela.
 3. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
