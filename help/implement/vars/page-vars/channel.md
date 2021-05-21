@@ -1,14 +1,14 @@
 ---
 title: canal
 description: Preencha a dimensão “Seções do site”.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # canal
 
@@ -35,7 +35,7 @@ A variável `s.channel` é uma string que normalmente contém a seção do site 
 s.channel = "Example site section";
 ```
 
-Se estiver usando a camada `digitalData` de [](../../prepare/data-layer.md)dados:
+Se estiver usando a `digitalData` [camada de dados](../../prepare/data-layer.md):
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
