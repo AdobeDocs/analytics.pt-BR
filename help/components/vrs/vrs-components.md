@@ -2,14 +2,14 @@
 description: Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # Curadoria do componente de conjunto de relatórios virtual
 
