@@ -1,14 +1,14 @@
 ---
 title: Visão geral das dimensões
 description: Variáveis que contêm valores de string.
+exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral das dimensões
 
