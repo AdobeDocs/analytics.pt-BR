@@ -1,14 +1,14 @@
 ---
 title: Código postal
 description: O código postal do visitante.
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Código postal
 
@@ -31,7 +31,7 @@ A [!UICONTROL Opção código postal] em [Configurações gerais da Conta](/help
 
 Os itens de dimensão incluem o CEP ou código postal do visitante.
 
-## Quais códigos postais de países você pode reportar no Adobe Analytics?
+## Códigos postais de quais países você pode informar no Adobe Analytics?
 
 * Ilhas Aland
 * Albânia
@@ -81,7 +81,7 @@ Os itens de dimensão incluem o CEP ou código postal do visitante.
 * Luxemburgo
 * Malásia
 * Malta
-* Maurício
+* Ilhas Maurício
 * México
 * Marrocos
 * Moçambique
