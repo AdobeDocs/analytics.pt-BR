@@ -1,14 +1,14 @@
 ---
 title: Análise focada (após cada lançamento do site)
 description: Siga estas etapas para garantir que sua implementação permaneça sem erros e em conformidade com seus KPIs.
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
-
 
 # Análise focada (após cada lançamento do site)
 
@@ -20,10 +20,10 @@ Conhecer os cinco principais indicadores de desempenho (KPIs) ajudará a determi
 
 ## 2. Verifique se suas métricas e variáveis de KPI ainda estão funcionando bem
 
-Lembre-se: as atualizações de código ao longo do tempo podem ter ramificações não intencionais. Certifique-se de que todas as métricas e dimensões associadas aos seus [5 KPIs principais](/help/implement/review/define-kpis.md) ainda estejam funcionando corretamente. Idealmente, isso deve ser feito logo após um lançamento no site; se você não tiver feito isso nos últimos meses, faça-o *agora*. Para fazer isso:
+Lembre-se: as atualizações de código ao longo do tempo podem ter ramificações não intencionais. Verifique se todas as métricas e dimensões associadas aos seus [5 KPIs principais](/help/implement/review/define-kpis.md) ainda estão funcionando corretamente. Idealmente, isso deve ser feito logo após um lançamento no site; se você não tiver feito isso nos últimos meses, faça-o *agora*. Para fazer isso:
 
-* Crie painéis para ver visualizações de tendência por hora dessas métricas e variáveis críticas (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) para cada métrica). Em seguida, monitore-os por um ou dois dias para garantir que você esteja obtendo os dados esperados e que os dados estejam corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
-* Execute novamente o [Painel de integridade do Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorar as grandes tendências de suas métricas e variáveis de KPI.
+* Crie painéis para ver as tendências de hora em hora dessas métricas e variáveis críticas (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR#analysis-workspace) para cada métrica). Em seguida, monitore-as por um ou dois dias para garantir que você está obtendo os dados esperados e que os dados estão corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
+* Execute novamente o [Painel de integridade do Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorar tendências gerais de suas métricas e variáveis de KPI.
 
 *Para obter mais detalhes sobre como verificar se suas métricas e variáveis estão funcionando corretamente, [leia estas dicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, Adobe Analytics Champion.*
 
