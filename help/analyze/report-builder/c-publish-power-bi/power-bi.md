@@ -4,14 +4,14 @@ title: Publicar no Power BI - Visão geral
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # Publicar no Power BI - Visão geral
 
@@ -137,4 +137,3 @@ Cada solicitação agendada do Report Builder será publicada como uma tabela no
 1. Também note que existe uma tabela adicional chamada **[!UICONTROL Legenda]**. Caso retire uma solicitação do contexto do Report Builder, pode ser difícil se lembrar o que cada solicitação significa. O propósito da tabela Legenda é, por exemplo, mostrar o nome de cada solicitação na ID da tabela. Também é possível adicionar as outras colunas da Legenda para obter uma perspectiva completa da solicitação.
 
    ![](assets/legend-table.png)
-
