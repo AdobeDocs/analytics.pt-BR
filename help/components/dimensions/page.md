@@ -1,14 +1,14 @@
 ---
 title: Página
 description: O nome da página.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # Página
 
@@ -18,9 +18,9 @@ Essa dimensão está relacionada à [Seção do site](site-section.md) e às dim
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da string [`pageName` de](/help/implement/validate/query-parameters.md) query em chamadas de visualização de [página (`t()`)](/help/implement/vars/functions/t-method.md). [As chamadas de rastreamento de link (`tl()`)](/help/implement/vars/functions/tl-method.md) sempre removem essa dimensão, mesmo se a sequência de caracteres do `pageName` query existir.
+Essa dimensão recupera dados da [`pageName`sequência de consulta](/help/implement/validate/query-parameters.md) em [Chamadas de exibição de página (`t()`)](/help/implement/vars/functions/t-method.md). [As chamadas de rastreamento de link (`tl()`)](/help/implement/vars/functions/tl-method.md) sempre removem essa dimensão, mesmo se a sequência de consulta `pageName` existir.
 
-O AppMeasurement coleta esses dados usando a variável [`pageName`](/help/implement/vars/page-vars/pagename.md). If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+O AppMeasurement coleta esses dados usando a variável [`pageName`](/help/implement/vars/page-vars/pagename.md). Se a variável `pageName` não estiver definida, ela voltará a usar a variável [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
 
 ## Itens de dimensão
 
