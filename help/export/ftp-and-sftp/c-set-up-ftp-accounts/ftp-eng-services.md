@@ -3,23 +3,26 @@ description: Muitos dos envolvimentos dos serviços de engenharia da Adobe estã
 keywords: ftp;sftp
 title: Envolvimentos de serviços de engenharia com FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
-
 
 # Envolvimentos de serviços de engenharia com FTP
 
 Muitos dos envolvimentos dos serviços de engenharia da Adobe estão relacionados à troca de dados, o que geralmente requer um FTP.
 
-These engagements include [!UICONTROL DB VISTA] and custom projects.
+Esses envolvimentos incluem [!UICONTROL DB VISTA] e projetos personalizados.
 
 Para mais informações sobre os limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
-Similar ao upload do SAINT via FTP, o [!UICONTROL DB VISTA] recebe dados por meio de um upload do FTP. For more information on file formats and the [!UICONTROL DB VISTA] upload process, refer to the [!UICONTROL DB VISTA] Introduction to [!UICONTROL DB VISTA]white paper, which can be found in the Adobe Suite Help site by going to **[!UICONTROL Supporting Docs]** > **[!UICONTROL White Papers]**.
+Similar ao upload do SAINT via FTP, o [!UICONTROL DB VISTA] recebe dados por meio de um upload do FTP. Para mais informações sobre formatos de arquivos e sobre o processo de upload do [!UICONTROL DB VISTA], consulte a introdução do [!UICONTROL DB VISTA] ao white paper [!UICONTROL DB VISTA], que pode ser encontrada no site Ajuda do Adobe Suite. Para isso, acesse **[!UICONTROL Documentos de suporte]** > **[!UICONTROL White Papers]**.
 
 ## Envolvimentos personalizados {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
