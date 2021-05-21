@@ -1,17 +1,17 @@
 ---
 description: Saiba como criar links compartilháveis para projetos ou visualizações
-keywords: Compartilhamento Analysis Workspace
+keywords: Compartilhamento no Analysis Workspace
 title: Criar links compartilháveis
-feature: Curate and Share
+feature: Preparar e compartilhar
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 98%
+exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
-
 
 # Criar links compartilháveis
 
