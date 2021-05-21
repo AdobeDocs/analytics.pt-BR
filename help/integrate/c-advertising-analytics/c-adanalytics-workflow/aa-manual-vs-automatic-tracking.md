@@ -1,14 +1,14 @@
 ---
 description: O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 title: 'Rastreamento: modo manual e modo automático'
+exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 translation-type: ht
-source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
 ---
-
 
 # Rastreamento: modo manual e modo automático
 
@@ -24,8 +24,8 @@ Como consequência, é necessário marcar uma caixa de seleção de confirmaçã
 
 Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações:
 
-* O parâmetro e valor `s_kwcid` será adicionado aos modelos de rastreamento da conta ou aos URLs de página de aterrissagem na conta que está sendo adicionada. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final.**
-* Além disso, palavras-chave podem ser inseridas no URL de aterrissagem como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
+* O parâmetro `s_kwcid` e valor serão adicionados aos modelos de rastreamento da conta ou aos URLs da página inicial na conta que está sendo adicionada. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final.**
+* Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
 
 >[!IMPORTANT]
 >
@@ -74,7 +74,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceiros (DoubleClick)`{lpurl}`**
 
-Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a sequência de caracteres tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página de aterrissagem final.
+Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a string tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página inicial final.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -119,7 +119,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceiros (DoubleClick)`{lpurl}`**
 
-Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a sequência de caracteres tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página de aterrissagem final.
+Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a string tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página inicial final.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
