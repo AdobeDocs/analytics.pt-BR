@@ -3,14 +3,14 @@ description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics
 solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Usar os dados de público-alvo no Analytics
 
@@ -88,4 +88,3 @@ Públicos-alvo também podem ser usados em [visualizações de Fallout](https://
 1. Nessa pasta, é possível acessar as dimensões ID de público-alvo e Nome de público-alvo.
 
    ![](assets/mc-audiences.png)
-
