@@ -2,16 +2,16 @@
 description: 'A comparação de datas no Analysis Workspace permite usar qualquer coluna que contenha um intervalo de datas e criar uma comparação de datas comum, como: ano a ano, trimestre a trimestre, mês a mês, etc.'
 title: Comparação de datas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '643'
+exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
-
 
 # Comparação de datas
 
@@ -101,4 +101,3 @@ Exemplo: ao escolher alinhar as datas em uma comparação de mês a mês de outu
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
