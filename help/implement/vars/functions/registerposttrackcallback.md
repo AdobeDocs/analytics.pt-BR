@@ -1,14 +1,14 @@
 ---
 title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # registerPostTrackCallback
 
@@ -16,7 +16,7 @@ A variável `registerPostTrackCallback` permite que sua organização conecte um
 
 >[!IMPORTANT]
 >
-> Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+>Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPostTrackCallback`, você faz com que essa função seja executada imediatamente após uma solicitação de imagem ser enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
@@ -30,7 +30,7 @@ Não há um campo dedicado no Launch para usar essa variável. Use o editor de c
 
 ## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado do Launch
 
-`s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada imediatamente depois que uma solicitação de imagem é enviada com êxito.
+`s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada imediatamente após o envio bem-sucedido de uma solicitação de imagem.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
