@@ -1,18 +1,18 @@
 ---
 title: Comparar dados do Adobe Analytics com produtos de terceiros
 description: Entenda suas opções ao comparar diretamente os dados no Adobe Analytics com os dados coletados por outras soluções do Analytics.
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
 ---
 
-
 # Comparar dados do Adobe Analytics com produtos de terceiros
 
-Há muitas soluções de análise disponíveis online. Cada uma dessas soluções usa seus próprios métodos para implementar o código e coletar dados. Diferentes produtos têm sua própria definição sobre o que constitui uma visualização de página, uma visita, um visitante exclusivo e outras métricas usadas em cada produto.
+Há muitas soluções de análise disponíveis online. Cada uma dessas soluções usa seus próprios métodos para implementar o código e coletar dados. Diferentes produtos têm sua própria definição sobre o que constitui uma visualização de página, uma visita, um visitante único e outras métricas usadas em cada produto.
 
 Devido a essas definições, estrutura de dados e implementação extremamente diferentes, o **Atendimento ao cliente da Adobe não soluciona discrepâncias com ferramentas de análise de terceiros.**
 
