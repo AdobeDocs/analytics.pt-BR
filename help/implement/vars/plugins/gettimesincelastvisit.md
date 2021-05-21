@@ -1,14 +1,14 @@
 ---
 title: getTimeSinceLastVisit
 description: Meça a quantidade de tempo decorrido entre duas visitas.
+exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 translation-type: ht
-source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '582'
 ht-degree: 100%
 
 ---
-
 
 # Plug-in da Adobe: getTimeSinceLastVisit
 
