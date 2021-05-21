@@ -1,14 +1,14 @@
 ---
 title: Uso de dados XDM com o Analytics
-description: 'Visão geral do uso de dados XDM da Experience Platform no Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Visão geral do uso de dados XDM da Experience Platform no Adobe Analytics
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Uso de dados da borda da Adobe Experience Platform com o Analytics
 
@@ -25,7 +25,7 @@ O mapeamento automático depende de um [esquema](https://docs.adobe.com/content/
 
 ## Mapeamento manual
 
-[](xdm-manual.md)O mapeamento manual de dados XDM para o Analytics depende das variáveis de [dados de contexto do Analytics](../vars/page-vars/contextdata.md). Essas variáveis são colocadas em objetos JSON que correspondem aos esquemas aplicáveis. Normalmente, sua equipe de desenvolvimento adiciona dados de contexto após a implementação e, em seguida, os administradores definem [regras de processamento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esses dados a conjuntos de relatórios especificados.
+[O mapeamento manual de dados XDM para o Analytics](xdm-manual.md) depende das variáveis de [dados de contexto do Analytics](../vars/page-vars/contextdata.md). Essas variáveis são colocadas em objetos JSON que correspondem aos esquemas aplicáveis. Normalmente, sua equipe de desenvolvimento adiciona dados de contexto após a implementação e, em seguida, os administradores definem [regras de processamento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esses dados a conjuntos de relatórios especificados.
 
 ## Configuração
 
