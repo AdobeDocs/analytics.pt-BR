@@ -1,14 +1,14 @@
 ---
 description: Este procedimento descreve como executar o Relatório de canal de marketing, fornecer direitos de administrador e permissões de grupo de usuário ao relatório.
 title: Permissões para Canal de marketing
+exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 translation-type: ht
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '220'
 ht-degree: 100%
 
 ---
-
 
 # Permissões para Canal de marketing
 
@@ -18,7 +18,7 @@ Estas são as permissões das Ferramentas do conjunto de relatórios necessária
 |---|---|---|
 | Ferramentas do conjunto de relatórios | Canais | Concede acesso aos Canais de marketing, incluindo: Gerenciador de canais de marketing, Regras de processamento de canal de marketing e Expiração de canal de marketing no Gerenciador de conjunto de relatórios. |
 | Ferramentas do conjunto de relatórios | Custos | Concede acesso aos Canais de marketing > Custos de canal de marketing no Gerenciador de conjunto de relatórios. |
-| Ferramentas do conjunto de relatórios | Relatório de Canal | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics |
+| Ferramentas do conjunto de relatórios | Relatório de Canal | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics. |
 | Ferramentas do conjunto de relatórios | Classificações | Concede acesso a todas as configurações de classificação no Gerenciador de conjunto de relatórios, incluindo Canais de marketing > Classificações de canal de marketing. |
 | Ferramentas do Analytics | Acesso à Analysis Workspace | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar as dimensões dos Canais de marketing no Workspace. |
 | Ferramentas do Analytics | Acesso ao Reports and Analytics | Concede acesso ao Reports and Analytics. Os usuários devem pertencer a esse grupo ou ao Acesso à Analysis Workspace (preferencial) para usar o Adobe Analytics. |
