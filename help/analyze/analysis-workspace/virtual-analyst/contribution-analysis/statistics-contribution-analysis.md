@@ -2,16 +2,16 @@
 description: A Análise de contribuição é um processo intensivo de aprendizado de máquina projetado para descobrir contribuintes para uma anomalia observada no Adobe Analytics. O objetivo é auxiliar o usuário a encontrar áreas de foco ou oportunidades para análises adicionais de maneira muito mais rápida do que seria possível de outra forma.
 title: Técnicas estatísticas usadas na Análise de contribuição
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: Ferramentas de IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # Técnicas estatísticas usadas na Análise de contribuição
 
@@ -40,4 +40,3 @@ A Análise de contribuição consegue isso através da execução de um algoritm
    (Uma fórmula semelhante pode ser obtida para o período 1.)
 
    Para os resultados finais, a pontuação para cada item de dimensão é ponderada pela medida V de Cramer e ajustada para um número entre 0 e 1 para fornecer sua pontuação de contribuição.
-
