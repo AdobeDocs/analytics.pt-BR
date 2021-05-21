@@ -1,14 +1,14 @@
 ---
 title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
+exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '694'
 ht-degree: 100%
 
 ---
-
 
 # Solução de problemas de implementação do JavaScript
 
