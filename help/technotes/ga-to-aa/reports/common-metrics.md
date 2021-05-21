@@ -1,14 +1,14 @@
 ---
 title: Guia de tradução de métricas normalmente usadas em outras plataformas
 description: Entenda como obter dados de métrica para muitos relatórios comuns usando a terminologia mais familiar aos usuários do Google Analytics.
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Guia de tradução de métricas normalmente usadas em outras plataformas
 
@@ -53,7 +53,7 @@ Para adicionar várias métricas a uma tabela de forma livre do espaço de traba
 
    Saiba mais sobre [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes.
 
-**Duração média da sessão** é aproximadamente igual a **Tempo gasto por visita (segundos)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**Duração média da sessão** é aproximadamente igual a **Tempo gasto por visita (segundos)**. Saiba mais sobre a métrica [Tempo gasto por visita](/help/components/metrics/time-spent-per-visit.md) no guia do usuário Componentes.
 
 ## Métricas de conversões
 
