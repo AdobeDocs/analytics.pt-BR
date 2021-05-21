@@ -1,14 +1,14 @@
 ---
 title: Criar um documento de design de solução
 description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # Criar um documento de design de solução
 
