@@ -1,14 +1,14 @@
 ---
 title: Profundidade média da página
 description: Em quantas páginas a dimensão existe em média.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Profundidade média da página
 
@@ -16,7 +16,7 @@ A métrica “Profundidade média da página” mostra a que distância de uma d
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Se essa métrica for utilizada sozinha, são obtidos itens de dimensão que contêm profundidades de página com anomalias, o que geralmente não é útil.
+>Use essa métrica junto com outra métrica (como [Visitas](visits.md)) para obter melhores insights. Se essa métrica for utilizada sozinha, são obtidos itens de dimensão que contêm profundidades de página com anomalias, o que geralmente não é útil.
 
 ## Como essa métrica é calculada
 
