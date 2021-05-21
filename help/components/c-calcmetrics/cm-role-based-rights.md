@@ -2,14 +2,14 @@
 description: Os direitos das métricas calculadas são diferentes para usuários de nível administrativo e não administrativos.
 title: 'Métricas calculadas: direitos baseados em função'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # Métricas calculadas: direitos baseados em função
 
@@ -31,7 +31,7 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
    <td colname="col02"> Os administradores podem criar métricas calculadas e <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html"  >grupos</a> para limitar os direitos do usuário de criar métricas calculadas. </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
-   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics </span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Report Builder </span>: pode exibir/editar/excluir/etc. suas próprias métricas calculadas e as compartilhadas. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Report Builder </span>: pode exibir/editar/excluir/etc. suas próprias métricas calculadas e as compartilhadas. </p> </td> 
    <td colname="col4"> Podem aprovar métricas calculadas como canônicas. </td> 
    <td colname="col5"> Podem aplicar métricas calculadas em toda a organização. </td> 
   </tr> 
@@ -45,4 +45,3 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
   </tr> 
  </tbody> 
 </table>
-
