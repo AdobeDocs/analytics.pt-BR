@@ -3,14 +3,14 @@ description: O SFTP é um protocolo seguro para transferência de dados, e garan
 keywords: ftp;sftp
 title: Protocolo de transferência segura de arquivo - visão geral
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '235'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
-
 
 # Protocolo de transferência segura de arquivo - visão geral
 
@@ -35,4 +35,3 @@ Isto significa que o arquivo é enviado para um dos servidores da Adobe usando u
 * [Conexão com a Adobe via SFTP sem uma senha.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [Conexão com uma conta FTP da Adobe com SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * É possível enviar qualquer relatório para o FTP da Adobe, como por exemplo, feeds de dados/R&amp;A/Ad Hoc, e depois realizar o envio. A Adobe não poderá enviar esses relatórios para o servidor SFTP caso você já tenha ajustado as configurações.
-
