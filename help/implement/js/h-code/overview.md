@@ -1,14 +1,14 @@
 ---
 title: Visão geral da implementação do JavaScript do Código H
 description: Saiba mais sobre o fluxo de trabalho para implementar o Código H no site.
+exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # Visão geral da implementação do JavaScript do Código H
 
