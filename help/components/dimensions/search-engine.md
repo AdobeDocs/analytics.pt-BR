@@ -1,14 +1,14 @@
 ---
 title: Mecanismo de pesquisa
 description: O mecanismo de pesquisa que o visitante utilizou para acessar seu site.
+exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # Mecanismo de pesquisa
 
