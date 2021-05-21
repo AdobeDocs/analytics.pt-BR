@@ -1,14 +1,14 @@
 ---
 title: Perguntas frequentes sobre implementação
 description: Perguntas frequentes sobre a implantação e links para mais informações.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
-
 
 # Perguntas frequentes sobre a implementação do Analytics
 
@@ -50,12 +50,12 @@ var s = new Object();
 >* Altere a variável `trackingServer` para apontar para longe da Adobe. O AppMeasurement ainda envia solicitações de imagem, que retornam erros 404.
 
 
-## Executei o AppMeasurement por meio de um analisador de código, e ele sinalizou seu uso como `Math.random()` um risco potencial de segurança. É `Math.random()` usado com dados confidenciais?
+## Executei o AppMeasurement por meio de um analisador de código, e ele sinalizou seu uso de `Math.random()` como um possível risco de segurança. O `Math.random()` é usado com algum dado confidencial?
 
-Não. Os números que usam não `Math.random()` são usados para mascarar, enviar ou receber dados confidenciais. Os dados enviados para os servidores de coleta de dados do Adobe dependem da segurança da conexão HTTPS subjacente. <!-- AN-173590 -->
+Não. Os números que usam `Math.random()` não são usados para mascarar, enviar ou receber dados confidenciais. Os dados enviados para os servidores de coleção de dados da Adobe dependem da segurança da conexão HTTPS subjacente. <!-- AN-173590 -->
 
-O AppMeasurement usa `Math.random()` três áreas principais:
+O AppMeasurement usa `Math.random()` em três áreas principais:
 
-* **Amostragem**: Dependendo da implementação, algumas informações podem ser coletadas para apenas uma pequena porcentagem de visitantes do site. `Math.random()` é usada para determinar se um determinado visitante deve enviar dados. A maioria das implementações não usa amostragem.
-* **ID** do visitante de fallback: Se a ID do visitante não puder ser recuperada de cookies, uma ID de visitante aleatória será gerada. Esta parte do AppMeasurement usa duas chamadas para `Math.random()`.
-* **Quebra** de cache: Um número aleatório é adicionado ao final dos URLs de solicitação de imagem para ajudar a impedir o cache do navegador.
+* **Amostragem**: dependendo da sua implementação, algumas informações podem ser coletadas apenas para uma pequena porcentagem de visitantes do site. `Math.random()` é usado para determinar se determinado visitante deve enviar dados. A maioria das implementações não usa a amostragem.
+* **ID de visitante de fallback**: se a ID de visitante não puder ser recuperada dos cookies, uma ID de visitante aleatória será gerada. Essa parte do AppMeasurement usa duas chamadas para `Math.random()`.
+* **Interrupção de cache**: um número aleatório é adicionado ao final dos URLs de solicitação de imagem para ajudar a impedir o armazenamento em cache do navegador.
