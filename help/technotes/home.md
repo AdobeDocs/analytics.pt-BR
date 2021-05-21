@@ -1,14 +1,14 @@
 ---
 title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Notas técnicas do Analytics
 
