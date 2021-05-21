@@ -1,14 +1,14 @@
 ---
 title: p_fo (uma vez na página)
 description: Garanta que determinadas rotinas sejam acionadas apenas uma vez por página.
+exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 translation-type: ht
-source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
-
 
 # Plug-in da Adobe: p_fo (uma vez na página)
 
