@@ -1,14 +1,14 @@
 ---
 title: Implementação com AMP
 description: Implementar o Adobe Analytics em páginas AMP.
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 translation-type: ht
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
 ---
-
 
 # Implementação com AMP
 
@@ -18,7 +18,7 @@ Como o Adobe Analytics usa uma biblioteca JavaScript para compilar e enviar uma 
 
 ## Determine que método deve ser implementado no Adobe Analytics em páginas que usam o AMP
 
-A Adobe criou dois métodos para implementar o Adobe Analytics em páginas que usam o AMP. Ambos usam a tag HTML `<amp-analytics>`. Consulte a [tag amp-analytics](https://amp.dev/documentation/components/amp-analytics) na documentação da AMP para obter mais informações.
+A Adobe criou dois métodos para implementar o Adobe Analytics em páginas que usam o AMP. Ambos usam a tag HTML `<amp-analytics>`. Consulte a [tag amp-analytics](https://amp.dev/pt_br/documentation/components/amp-analytics) na documentação da AMP para obter mais informações.
 
 * **Usar o `"adobeanalytics"`modelo de rastreamento**: construa a solicitação do Analytics diretamente na página
 * **Usar o `"analytics_nativeConfig"` modelo de rastreamento**: use um iframe que contenha o mesmo código do AppMeasurement implantado no site normal
@@ -158,7 +158,7 @@ O modelo `"adobeanalytics_nativeConfig"` também adiciona parâmetros da cadeia 
 
 >[!IMPORTANT]
 >
->Sua página `stats.html` deve ser hospedada em um subdomínio separado do domínio em que o AMP está hospedado. A estrutura da AMP não permite iframes do mesmo subdomínio no qual a AMP está. Por exemplo, se o AMP estiver hospedado no `amp.example.com`, hospede a página `stats.html` em um subdomínio separado, como o `ampmetrics.example.com`.
+>Sua página `stats.html` deve ser hospedada em um subdomínio separado do domínio em que o AMP está hospedado. A estrutura da AMP não permite iFrames do mesmo subdomínio no qual a AMP está. Por exemplo, se o AMP estiver hospedado no `amp.example.com`, hospede a página `stats.html` em um subdomínio separado, como o `ampmetrics.example.com`.
 
 Usando esse método, se um usuário final optar por não ser rastreado no site primário, ele também deixará de ser rastreado em todos os AMPs sem etapas adicionais. Usar essa página de utilitários também significa que o AMP pode ser compatível com o serviço da Adobe Experience Cloud ID. Não é necessário um conjunto de relatórios separado.
 
