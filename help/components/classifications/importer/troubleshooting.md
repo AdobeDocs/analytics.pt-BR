@@ -1,14 +1,14 @@
 ---
 title: Solução de problemas do importador de classificação
 description: Problemas comuns de upload ao usar o importador de classificação.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # Solução de problemas do importador de classificação
 
@@ -18,7 +18,7 @@ Os problemas mais comuns ao fazer upload de dados de classificação para a Adob
 
 As classificações requerem um tipo e um formato específicos de arquivo para que o upload seja feito com êxito. Caso tenha sido salvo incorretamente, retornará um erro e nenhuma linha será processada. O erro retornado frequentemente é *“A primeira coluna deve ser a chave”*, mas podem ocorrer vários outros erros. Verifique o seguinte:
 
-* **Carregando uma planilha (.xlsx) em vez de um arquivo**.tab ou .txt: Você pode receber a mensagem de erro *&quot;A primeira coluna deve ser a chave&quot;* ao carregar arquivos de classificação em um formato incorreto. O importador de classificação não sabe lidar com arquivos .xls ou .xlsx. Na caixa de diálogo “Salvar como” no Excel, defina o tipo correto de Salvar como:
+* **Fazer upload de uma planilha (.xlsx) em vez de um arquivo .tab ou .txt**: você pode receber a mensagem de erro *&quot;A primeira coluna deve ser a chave&quot;* ao fazer upload de arquivos de classificação em um formato incorreto. O importador de classificação não sabe como lidar com arquivos .xls ou .xlsx. Na caixa de diálogo “Salvar como” no Excel, defina o tipo correto de Salvar como:
    * No Windows, use o formato de arquivo `Text (Tab delimited) (*.txt)`
    * No Mac, use o formato de arquivo `Windows Formatted Text`.
 * **Alteração da extensão do nome do arquivo após salvá-lo como uma pasta de trabalho**: a tentativa de renomear diretamente uma extensão de arquivo gera uma pasta de trabalho inválida. Use apenas a função Salvar como do Excel ou edite as classificações em um editor de texto como o Notepad ++.
@@ -38,7 +38,7 @@ Se o arquivo de upload estiver formatado corretamente, o carregador tentará imp
 * **Existem subclassificações configuradas incorretamente**: se houver subclassificações, verifique o seguinte:
    * Todos os valores de subclassificações possuem um valor de classificação principal
    * Duas classificações não fazem referência ao mesmo valor de classificação principal
-* **Incompatibilidade** de colunas: Você pode obter a mensagem de erro *&quot;A chave na linha tem muitas colunas&quot;* se houver um número inválido de colunas em uma determinada linha. Por exemplo, você tem 3 colunas no upload de sua classificação e a variável tem apenas uma única classificação. Valide seu arquivo de upload para garantir que o número de colunas não seja maior que o número de classificações configuradas para essa variável.
+* **Incompatibilidade de coluna**: você poderá receber a mensagem de erro *&quot;A chave na linha tem muitas colunas&quot;* se houver um número inválido de colunas em uma linha específica. Por exemplo, você tem três colunas em seu upload de classificação e a variável tem apenas uma única classificação. Valide o arquivo de upload para garantir que o número de colunas não seja maior do que o número de classificações configuradas para essa variável.
 
 ## Solução de problemas de importações de FTP
 
