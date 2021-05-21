@@ -1,14 +1,14 @@
 ---
 title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Relatórios de comportamento
 
@@ -21,7 +21,7 @@ Esta página supõe que o usuário tenha um conhecimento básico sobre o uso do 
 O relatório de fluxo de comportamento pode ser recriado usando a exibição Fluxo.
 
 1. Clique no ícone Exibições à esquerda e arraste uma exibição Fluxo até o espaço de trabalho acima da tabela de forma livre
-2. Localize a dimensão **Página** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm a cor amarela.
+2. Localize a dimensão **Página** e clique no ícone Seta para revelar os valores da página. Os itens de dimensão têm cor amarela.
 3. Localize o valor da página desejada para começar e arraste-o para o espaço chamado &#39;Dimensão ou item&#39; no centro
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
@@ -36,16 +36,16 @@ O relatório de páginas mostra o desempenho de páginas individuais no site.
 
 Como alternativa, a Adobe fornece vários espaços de trabalho pré-criados chamados de modelos. O modelo Consumo de conteúdo (Web) fornece um valor semelhante ao relatório de todas as páginas.
 
-1. Clique em *[!UICONTROL Projeto]>[!UICONTROL Novo]*, que abre uma janela modal com opções de projeto.
+1. Clique em *[!UICONTROL Projeto] > [!UICONTROL Novo]*, que abre uma janela modal com opções de projeto.
 2. Clique no modelo Consumo de conteúdo (Web) e em Criar.
 
 ## Conteúdo do site - Detalhamento do conteúdo
 
 O relatório de detalhamento de conteúdo permite observar o tráfego da página por estrutura de URL. É necessária uma implementação adicional para uso na Analysis Workspace. A Adobe recomenda trabalhar com um consultor de implementação para garantir que esses dados sejam coletados com precisão.
 
-## Conteúdo do site - Páginas de aterrissagem
+## Conteúdo do site - Páginas iniciais
 
-O relatório de páginas de aterrissagem mostra as principais páginas de aterrissagem do site. As páginas de aterrissagem estão disponíveis na Analysis Workspace como a dimensão **Página de entrada**.
+O relatório de páginas iniciais mostra as principais páginas iniciais do site. As páginas iniciais estão disponíveis na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
