@@ -1,16 +1,15 @@
 ---
 description: As informações a seguir podem ajudar a resolver problemas de latência dos conjuntos de relatórios em dados do Analytics.
-keywords: dados ausentes; lento
+keywords: ausência de dados;lento
 subtopic: Current data
 title: Disponibilidade e latência de dados
 topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
