@@ -24,10 +24,8 @@ Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja
 > * Downloads acionados após um redirecionamento
 > * Clicar com o botão direito do mouse e selecionar &#39;Salvar destino como...&#39;
 > * Links que usam JavaScript, como `javascript:openLink()`
-
 >
-> 
-Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
+> Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
 
 Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
