@@ -1,12 +1,12 @@
 ---
 description: Perguntas frequentes sobre feeds de dados
-keywords: Feed de dados, tarefa, coluna anterior, coluna posterior, distinção entre maiúsculas e minúsculas
+keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minúsculas
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 49%
+ht-degree: 54%
 
 ---
 
@@ -48,9 +48,9 @@ Os feeds de dados não incluem bots filtrados pelas [regras de bot do Admin Cons
 
 ## Por que vejo vários valores `000` na coluna `event_list` ou `post_event_list` do feed de dados?
 
-Alguns editores de planilha, especialmente o Microsoft Excel, arredondam automaticamente grandes números. A coluna `event_list` contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel a trate como um número grande. Ele arredonda os últimos vários dígitos para `000`.
+Alguns editores de planilha, especialmente o Microsoft Excel, arredondam automaticamente grandes números. A coluna `event_list` contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel os considere números grandes. Ele arredonda os últimos vários dígitos para `000`.
 
-O Adobe recomenda não abrir automaticamente arquivos `hit_data.tsv` no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
+A Adobe recomenda não abrir automaticamente arquivos `hit_data.tsv` no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
 
 ## Por que as informações estão faltando na coluna de domínio para algumas operadoras? {#section_B7508D65370442C7A314EAED711A2C75}
 
