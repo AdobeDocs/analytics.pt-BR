@@ -3,7 +3,6 @@ description: Descreve como definir códigos monetários de destino para que o su
 title: Suporte a várias moedas
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1358'
