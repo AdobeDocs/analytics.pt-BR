@@ -2,7 +2,6 @@
 title: Remoção de bot no Adobe Analytics
 description: Como remover bots no Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: tm+mt
 source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
 workflow-type: tm+mt
 source-wordcount: '790'
