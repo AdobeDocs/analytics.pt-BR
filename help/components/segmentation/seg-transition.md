@@ -1,10 +1,9 @@
 ---
 description: Perguntas frequentes sobre segmentação.
 title: Perguntas frequentes
-feature: Segmentation
+feature: Segmentação
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '2078'
@@ -337,7 +336,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
