@@ -1,10 +1,9 @@
 ---
 description: Etapas administrativas para configurar relatórios em tempo real.
 title: Configurar relatórios em tempo real
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '302'
