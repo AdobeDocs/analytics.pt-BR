@@ -1,15 +1,15 @@
 ---
 title: trackInlineStats
 description: Ativar ou desativar o Activity Map na implementação.
-keywords: disable activity map
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
-source-wordcount: '189'
+keywords: desativar o activity map
+exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
-
 
 # trackInlineStats
 
@@ -23,7 +23,7 @@ Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses
 
 1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] no Adobe Analytics.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Ativar Clickmap].
 
 Clique na caixa de seleção para ativar o rastreamento do Activity Map.
