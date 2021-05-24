@@ -5,11 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: tm+mt
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 20%
+ht-degree: 77%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 20%
 
 Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
 
-## Todos os clientes do Analytics têm acesso à página de Ativação das Ferramentas administrativas no Activity Map?
+## Todos os clientes do Analytics têm acesso à página de Ativação das ferramentas administrativas no Activity Map?
 
-Organizações com um contrato para o Adobe Analytics Standard, Premium e Ultimate têm acesso ao Activity Map.
+Organizações com um contrato do Adobe Analytics Standard, Premium e Ultimate têm acesso ao Activity Map.
 
 ## Como o Activity Map suporta Aplicativos de página única (SPA)?
 
@@ -34,22 +33,22 @@ A cada poucos segundos, o Activity Map verifica a página da Web, procurando por
 
 Não, a Adobe não rastreia links que foram exibidos.
 
-## Quais navegadores e versões o Activity Map suporta?
+## Quais navegadores e versões são compatíveis com o Activity Map?
 
-O Activity Map suporta a versão mais recente da maioria dos navegadores modernos.
+O Activity Map é compatível com a versão mais recente da maioria dos navegadores modernos.
 
 ## O Activity Map aumenta as chamadas do servidor?
 
-O Activity Map não envia chamadas de servidor por si só. Em vez disso, as variáveis de dados de contexto do Activity Map são incluídas com chamadas de exibição de página do Analytics na página subsequente.
+O Activity Map não envia chamadas de servidor sozinho. Em vez disso, as variáveis de dados de contexto do Activity Map são incluídas com chamadas de exibição de página do Analytics na página subsequente.
 
-## Por que algumas sobreposições de item classificado estão ausentes?**
+## Por que algumas sobreposições de itens classificados estão ausentes?**
 
-Alguns links classificados, como links de submenu, estão ocultos na página. Como consequência, as sobreposições de link correspondentes não são exibidas. A classificação é calculada para todos os links na página, incluindo links ocultos.
+Alguns links classificados, como links de submenu, estão ocultos na página. Como consequência, as sobreposições do link correspondente não serão exibidas. A classificação é calculada para todos os links na página, incluindo links ocultos.
 
-## Como a classificação de links é determinada no relatório Todos os links?**
+## Como a classificação de links é determinada no Relatório de todos os links?**
 
-* **No modo** Gradiente e Bolha : A classificação é determinada pela coluna de métrica. Para os links com o mesmo valor métrico, a classificação é ainda baseada na ordem alfabética da ID do link.
-* **No modo** Ganhador e perdedor: A classificação é determinada principalmente pela coluna % Ganho. Para links com o mesmo ganho, a classificação é ainda baseada na ordem alfabética da ID do link.
+* **No modo gradiente e bolha**: a classificação é determinada pela coluna de métricas. Para os links com o mesmo valor métrico, a classificação é ainda baseada na ordem alfabética da ID do link.
+* **No modo ganhador e perdedor**: a classificação é determinada principalmente pela coluna % de ganho. Para os links com o mesmo ganho, a classificação ainda é baseada na ordem alfabética da ID do link.
 
 ## Como o Activity Map funciona com páginas que usam vários conjuntos de relatórios?
 
@@ -57,25 +56,25 @@ Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira 
 
 ## Por quanto tempo o Activity Map verifica o Adobe Analytics na página?
 
-O Activity Map verifica a presença do Adobe Analytics por até 20 segundos após a conclusão de um evento de página.
+O Activity Map verifica a presença do Adobe Analytics por até 20 segundos após um evento de conclusão de página.
 
-## Como o Activity Map trata o conteúdo dinâmico?
+## Como o Activity Map lida com o conteúdo dinâmico?
 
-O Activity Map verifica a cada 2 segundos para ver se encontrou alterações no estado da página da Web, como:
+O Activity Map verifica se ocorreram alterações no estado da página da Web a cada dois segundos, como:
 
 * Conteúdo HTML que se tornou visível
 * Conteúdo HTML que está oculto
 * Novo conteúdo HTML que foi inserido
 
-Se o conteúdo estiver oculto ou exibido, o aplicativo altera automaticamente o estado dos links afetados (e, portanto, as sobreposições), de oculto para exibido ou vice-versa. Se o novo conteúdo for inserido, o aplicativo recuperará os links associados, extrairá dados de análise e adicionará sobreposições para esses links.
+Se o conteúdo estiver oculto ou exibido, o aplicativo altera automaticamente o estado dos links afetados (e, portanto, as sobreposições), de oculto para exibido ou vice-versa. Se novo conteúdo for inserido, o aplicativo recuperará os links associados, extrairá os dados de análise e adicionará sobreposições para esses links.
 
-## Em qual métrica é baseada o Relatório de fluxo de página?
+## Em qual métrica se baseia o Relatório de fluxo de página?
 
-Todos os dados mostrados são baseados nas exibições de página.
+Todos os dados mostrados se baseiam nas exibições de página.
 
 ## Posso exportar variáveis de dados de contexto do Activity Map por meio de feeds de dados?
 
-As variáveis de dados de contexto do Activity Map não estão disponíveis nos feeds de dados.
+As variáveis de dados de contexto do Activity Map não estão disponíveis em feeds de dados.
 
 ## Os segmentos funcionam no modo Online?
 
