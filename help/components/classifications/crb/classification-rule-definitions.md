@@ -2,10 +2,9 @@
 description: Definições de elementos de interface nas páginas no Construtor de regras de classificação.
 subtopic: Classifications
 title: Regras de classificação - definições
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '880'
