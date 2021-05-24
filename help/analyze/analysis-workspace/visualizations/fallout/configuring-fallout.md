@@ -5,17 +5,16 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 96%
 
 ---
 
 # Configurar uma visualização de fallout
 
-Você pode especificar os pontos de contato para criar uma sequência de fallout multidimensional. Geralmente, um ponto de contato é uma página no seu site. Contudo, pontos de contato não estão limitados a páginas. Por exemplo, você pode adicionar eventos, como unidades, bem como visitantes exclusivos e visitantes que retornam. Você também pode adicionar dimensões, como uma categoria, tipo de navegador ou termo de pesquisa interno.
+Você pode especificar os pontos de contato para criar uma sequência de fallout multidimensional. Geralmente, um ponto de contato é uma página no seu site. Contudo, pontos de contato não estão limitados a páginas. Por exemplo, você pode adicionar eventos, como unidades, bem como visitante únicos e visitantes que retornam. Você também pode adicionar dimensões, como uma categoria, tipo de navegador ou termo de pesquisa interno.
 
 Você também pode adicionar segmentos em um ponto de contato. Por exemplo, você pode querer comparar segmentos, como usuários de iOS e Android. Arraste os segmentos desejados para o topo do fallout e as informações sobre os segmentos são adicionadas ao relatório de fallout. Se quiser exibir somente esses segmentos, você pode remover a linha de base de Todas as visitas.
 
@@ -53,7 +52,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Caminho eventual </p> <p>(Padrão) </p> </td> 
-   <td colname="col2"> <p>Visitantes contados que “eventualmente” serão direcionados para a próxima página no caminho, mas não necessariamente na próxima ocorrência. </p> </td> 
+   <td colname="col2"> <p>Visitantes contados que "eventualmente" serão direcionados para a próxima página no caminho nessa sessão, mas não necessariamente na próxima ocorrência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Próxima ocorrência </p> </td> 
