@@ -2,11 +2,10 @@
 title: Regras de processamento de canais de marketing
 description: As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal. As regras processam cada ocorrência que um visitante faz ao seu site. Se uma regra não atender aos critérios de um canal, ou se elas não forem configuradas corretamente, o sistema atribui a ocorrência a Nenhum canal identificado.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '2169'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -49,11 +48,11 @@ Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorr
 
    ![Resultado da etapa](assets/marketing_channel_rules.png)
 
-4. Se quiser adicionar uma nova regra, selecione no menu **[!UICONTROL Adicionar novo conjunto de regras]**. Se você selecionar um canal, receberá um modelo de regra e, se selecionar Personalizado, começará com uma tabulação em branco. Ambas as opções permitem modificar o conjunto de regras, conforme necessário.
+4. Se quiser adicionar uma nova regra, selecione no menu **[!UICONTROL Adicionar novo conjunto de regras]**. Se selecionar um canal, você receberá um modelo de regra e, se selecionar Personalizado, começará com uma folha em branco. Ambas as opções permitem modificar o conjunto de regras conforme a necessidade.
 
    ![Resultado da etapa](assets/example_email.png)
 
-5. Para continuar criando regras, clique em **[!UICONTROL Adicionar nova regra setRule]**.
+5. Para continuar criando regras, clique em **[!UICONTROL Adicionar novo conjunto de regras]**.
 6. Para criar prioridades de regras, arraste-as e solte-as na posição desejada.
 7. Clique em **[!UICONTROL Salvar]**.
 
@@ -61,7 +60,7 @@ Continue nesta página para ver as recomendações para a ordem das regras do ca
 
 ### Definir o valor do canal de marketing
 
-**[!UICONTROL Definir o]** valor do canal define a dimensão de detalhes do canal de marketing que está disponível para esse canal. Essa ação permite detalhar as dimensões do canal de marketing e ver informações mais detalhadas sobre o canal.
+**[!UICONTROL Definir o valor do canal]** define a dimensão de detalhes do canal de marketing que está disponível para esse canal. Essa ação permite detalhar as dimensões do canal de marketing e ver informações mais detalhadas sobre o canal.
 
 Recomenda-se que o valor do canal seja definido com os mesmos critérios utilizados para definir o próprio canal. Por exemplo, se o parâmetro da sequência de consulta for utilizado para definir o canal, defina também o parâmetro da sequência de consulta como o valor do canal.
 
@@ -71,7 +70,7 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 
 >[!NOTE]
 >
->Qualquer campo de texto definido, como parâmetro de sequência de consulta ou listas de valores para correspondência, é avaliado como valores **que não diferenciam maiúsculas de minúsculas**. Por exemplo, se você tiver uma regra em que o parâmetro da string de consulta cmp = abc123, todas as versões de &#39;cmp&#39; e &#39;abc123&#39; corresponderão à regra. Não é necessário listar várias versões de maiúsculas e minúsculas desses valores.
+>Qualquer campo de texto definido, como parâmetro de sequência de consulta ou listas de valores para correspondência, é avaliado como valores **que não diferenciam maiúsculas de minúsculas**. Por exemplo, se você tiver uma regra em que o parâmetro da sequência de consulta cmp = abc123, todas as versões de &quot;cmp&quot; e &quot;abc123&quot; corresponderão à regra. Não é necessário listar várias versões de maiúsculas e minúsculas desses valores.
 
 | Termo | Definição |
 |--- |--- |
@@ -94,7 +93,7 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 | Domínio raiz da página (TLD+1) | O domínio raiz da página onde o visitante chega como, por exemplo, example.co.uk . |
 | URL da página | O URL da página da Web de seu site. |
 | Domínio de referência | O domínio de onde seus visitantes vieram antes visitarem seu site, por exemplo, referenciadores vindos de `abcsite.com` x `xyzsite.com`. |
-| Parâmetro da sequência de caracteres de consulta | Se uma URL de página no seu site se parece com `https://example.com/?page=12345&cat=1`, &#39;page&#39; e &#39;cat&#39; serão os parâmetros da sequência de consulta. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use `ANY` como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. Os parâmetros da string de consulta são avaliados como não diferencia maiúsculas de minúsculas; por exemplo, &quot;gato&quot; e &quot;CAT&quot; serão avaliados da mesma forma. |
+| Parâmetro da sequência de caracteres de consulta | Se um URL de página no seu site é semelhante a `https://example.com/?page=12345&cat=1`, &quot;página&quot; e &quot;gato&quot; são parâmetros de sequência de consulta. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  É possível especificar apenas um parâmetro da sequência de consulta por conjunto de regras. Para adicionar mais parâmetros da sequência de consulta, use `ANY` como operador e acrescente novos parâmetros da sequência de caracteres de consulta à regra. Os parâmetros da sequência de consulta são avaliados como valores que não diferenciam maiúsculas de minúsculas; por exemplo, &quot;gato&quot; e &quot;GATO&quot; serão avaliados da mesma forma. |
 | Referenciador | O local da página da Web (URL completo) onde seus visitantes estavam antes de chegarem ao seu site. O referenciador existe fora do seu domínio definido. |
 | Domínio e caminho de referência | A concatenação de domínio de referência e caminho de URL. Os exemplos incluem:    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Parâmetro de referência | Um parâmetro da sequência de consulta no URL do referenciador. Por exemplo, se seus visitantes vêm de `example.com/?page=12345&cat=1`, page e cat são os parâmetros de referência. |
@@ -136,17 +135,17 @@ Para a regra de canal de marketing, as configurações de Pesquisa natural são 
 
 ### Exibir {#display}
 
-Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta na URL de destino, neste caso *`Ad_01`*. O parâmetro da string de consulta e os valores procurados são avaliados como valores que não diferenciam maiúsculas de minúsculas.
+Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta na URL de destino, neste caso *`Ad_01`*. O parâmetro da sequência de consulta e os valores procurados são avaliados como valores que não diferenciam maiúsculas de minúsculas.
 
 ![](assets/example_display.png)
 
-### Email  {#email}
+### Email {#email}
 
 Essa regra identifica visitantes que se originam de campanhas de email. Ela é identificada por um parâmetro de sequência de consulta no URL de destino, neste caso *`eml`*:
 
 ![](assets/example_email.png)
 
-### Afiliados  {#afilliates}
+### Afiliados {#afilliates}
 
 Essa regra identifica visitantes que se originam de determinado conjunto de domínios referenciadores. Na regra, você relaciona os domínios de afiliados que gostaria de acompanhar, como segue:
 
@@ -170,9 +169,9 @@ Essa regra identifica os visitantes cujo URL de referência corresponde à confi
 
 ![](assets/int-channel1.png)
 
-Consulte [Motivos para interno (Atualização de sessão)](https://docs.adobe.com/content/help/pt-BR/analytics/components/marketing-channels/c-faq.html#internal) para obter mais informações sobre por que esse canal ocorre.
+Consulte [Motivos para interno (Atualização de sessão)](https://docs.adobe.com/content/help/pt-BR/analytics/components/marketing-channels/c-faq.html#interno) para obter mais informações sobre por que esse canal ocorre.
 
-### Direta  {#direct}
+### Direta {#direct}
 
 Essa regra inclui visitantes que não têm domínio referenciador, ou seja, que vêm ao site diretamente, como a partir de um link de favoritos ou colando o link no navegador. Esse canal geralmente é renomeado para Digitado/Marcado diretamente.
 
