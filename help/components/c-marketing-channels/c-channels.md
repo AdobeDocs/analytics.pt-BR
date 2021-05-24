@@ -4,11 +4,10 @@ subtopic: Marketing channels
 title: Gerenciar canais de marketing
 feature: Noções básicas do Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
