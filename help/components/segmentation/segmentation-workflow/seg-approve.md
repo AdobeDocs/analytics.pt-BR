@@ -1,10 +1,9 @@
 ---
 description: No Gerenciador de segmentos você pode configurar um fluxo de trabalho que inclui a aprovação de segmentos para vários níveis do aplicativo, para departamentos ou grupos específicos, e que seja consistente com políticas de relatórios.
 title: Aprovar segmentos
-feature: Segmentation
+feature: Segmentação
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '125'
