@@ -4,11 +4,10 @@ title: Valor de tráfego baixo no Adobe Analytics
 feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: tm+mt
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -49,4 +48,4 @@ Recursos diferentes tratam valores de tráfego baixo de maneiras diferentes.
 * **Segmentação:** se os critérios do segmento incluírem uma variável com um número elevado de valores únicos, os valores capturados em Tráfego baixo não serão incluídos.
 * **Classificações:** os relatórios de classificação também estão sujeitos a limites únicos. Se o valor da variável pai de uma classificação for incluído em Tráfego baixo, o valor não será classificado.
    * Valores de classificação de tráfego baixo obtidos por meio do importador podem ser visualizados no Data Warehouse. <!-- AN-115871 -->
-   * Valores de classificação de tráfego baixo obtidos pelo construtor de regras *não podem* ser exibidos no Data Warehouse. <!-- AN-122872 -->
+   * Valores de classificação de tráfego baixo obtidos pelo construtor de regras *não podem* ser visualizados no Data Warehouse. <!-- AN-122872 -->
