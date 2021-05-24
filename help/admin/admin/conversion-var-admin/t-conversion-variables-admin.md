@@ -1,10 +1,9 @@
 ---
 description: Etapas que descrevem como adicionar ou editar variáveis de conversão.
 title: Editar variáveis de conversão
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '109'
