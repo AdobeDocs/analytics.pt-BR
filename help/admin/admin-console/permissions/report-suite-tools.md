@@ -2,10 +2,10 @@
 title: Permissões de perfil de produto para Ferramentas de conjunto de relatórios
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 96%
+source-wordcount: '623'
+ht-degree: 86%
 
 ---
 
@@ -15,10 +15,6 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 
 | Item de permissão das Ferramentas do conjunto de relatórios | Descrição |
 |------|------|
-| Data Warehouse | Não usado. Em vez disso, use &#39;Relatório personalizado do Data Warehouse&#39;. |
-| SiteCatalyst | Não usado. Em vez disso, use &#39;Acesso à Analysis Workspace&#39;. |
-| Conjuntos de relatórios (Leitura) | Não usado. |
-| Conjuntos de relatórios (Gravação) | Não usado. |
 | Gerenciamento de tráfego | Não usado. |
 | Gerenciamento de conjuntos de relatórios | Concede acesso ao Gerenciador de conjunto de relatórios, mas não permite alterações. |
 | Resumo da conta | Concede acesso a Geral > Configurações gerais de conta no Gerenciador de conjunto de relatórios. |
@@ -27,7 +23,6 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Pesquisa paga | Concede acesso a Geral > Detecção de pesquisa paga no Gerenciador de conjunto de relatórios. |
 | Personalização de menu | Concede acesso a Geral > Personalizar menus no Gerenciador de conjunto de relatórios. |
 | Configuração de relatório em tempo real | Concede acesso ao Tempo real no Gerenciador de conjunto de relatórios. Use o item de permissão &#39;Relatório em tempo real&#39; para conceder acesso ao relatório em si. |
-| Configurações de vídeo | Não usado. |
 | Variáveis de tráfego | Concede acesso a Tráfego > Variáveis de tráfego no Gerenciador de conjunto de relatórios. |
 | Canais | Concede acesso aos Canais de marketing, incluindo: Gerenciador de canais de marketing, Regras de processamento de canal de marketing e Expiração de canal de marketing no Gerenciador de conjunto de relatórios. |
 | Custos | Concede acesso aos Canais de marketing > Custos de canal de marketing no Gerenciador de conjunto de relatórios. |
@@ -38,7 +33,6 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Variáveis da Lista | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
 | Métricas padrão | Concede acesso a Configurações de conjuntos de relatórios individuais > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | Regras de processamento | Concede acesso a Geral > Regras de processamento e Gerais > Regras de bot no Gerenciador de conjunto de relatórios. |
-| Configuração do Advertising Analytics | Não usado. |
 | Detecção de anomalias | Concede acesso à Detecção de anomalias na Analysis Workspace. |
 | Análise de contribuição | Concede acesso ao menu de clique com o botão direito do mouse &quot;Executar Análise de contribuição&quot; na Analysis Workspace. |
 | Relatório de Canal | Concede acesso a Canais de marketing > Relatório de visão geral do canal no Reports &amp; Analytics. |
@@ -50,19 +44,13 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Visitas de Retorno Diário | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
 | Gerenciador das fontes de dados | Concede acesso a Administração > Todos os administradores > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Excluir por endereço IP | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
-| Últimos 100 visitantes | Não usado. |
-| ClickMap herdado | Não usado. Em vez disso, use o Activity Map em Ferramentas do Analytics. |
-| Instalação do ClickMap herdado | Não usado. Em vez disso, use o Activity Map em Ferramentas do Analytics. |
 | Visitas de Retorno | Concede acesso a Retenção de visitantes > Visitas de retorno no Reports &amp; Analytics. |
-| Relatório de visão geral do aplicativo para dispositivos móveis | Não usado. |
 | Classificações | Concede acesso a todas as configurações de classificação no Gerenciador de conjunto de relatórios. Este item de permissão inclui: <br>Tráfego > Classificações de tráfego<br>Conversão > Classificações de conversão<br>Conversão > Hierarquias de classificação<br>Canais de marketing > Classificações de canal de marketing<br>Gerenciamento de aplicativos > Classificações de aplicativos<br>Gerenciamento de mídia > Classificações de mídia<br>AEM > Classificações do AEM Assets<br>Adobe Campaign > Classificações da Adobe |
 | Meus relatórios recomendados | Concede acesso a Métricas do site > Meus relatórios recomendados no Reports &amp; Analytics. |
-| Reportlet de Resumo da Empresa | Não usado. |
-| Imagem | Não usado. |
-| Reportlet de medição/KPI | Não usado. |
-| Totais do Conjunto de relatórios | Não usado. |
-| Reportlet de Texto | Não usado. |
-| Reportlet de Resumo de Uso | Não usado. |
-| Recursos da Web | Não usado. |
-| Social | Não usado. |
+| Reportlet de imagem do painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
+| Reportlet de medição de painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
+| Reportlet de resumo do conjunto de relatórios do Reports &amp; Analytics Dashboard | Concede acesso aos Reportlets do painel. |
+| Reportlet de texto do painel de Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
+| Reportlet de resumo do conjunto de relatórios do Reports &amp; Analytics Dashboard | Concede acesso aos Reportlets do painel. |
+| Reportlet externo do painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
 | API de reparo de dados | Concede acesso à API de reparo de dados |
