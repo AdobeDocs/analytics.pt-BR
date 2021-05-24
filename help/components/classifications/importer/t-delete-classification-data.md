@@ -2,10 +2,9 @@
 description: Etapas que descrevem como excluir ou remover dados da classificação.
 subtopic: Classifications
 title: Excluir dados de classificação
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '365'
