@@ -2,14 +2,13 @@
 description: A variável de conversão do Custom Insight (ou eVar) é colocada no código da Adobe em páginas da Web selecionadas do site. Seu propósito principal é segmentar métricas de sucesso de conversão em relatórios de marketing personalizados. Uma eVar pode ter por base visitas e funcionar de forma semelhante aos cookies. Os valores passados para variáveis eVar seguem o usuário por um período predeterminado.
 keywords: eVar
 title: Variáveis de conversão (eVar)
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +52,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Alocação </span> </p> </td> 
-   <td colname="col2"> <p>Determina como o Analytics atribuirá crédito por um evento bem-sucedido se uma variável receber vários valores antes do evento. Os valores para os quais existe suporte incluem: </p> <p> <b>Mais recente</b>: o último valor de eVar sempre recebe crédito por eventos bem-sucedidos até que esse eVar expire. </p> <p> <b>Valor original</b>: a primeira eVar sempre recebe crédito por eventos bem-sucedidos até que essa eVar expire. </p> <p> <b> Linear</b>: aloca eventos bem-sucedidos igualmente entre todos os valores de eVar. Como a alocação Linear distribui com precisão os valores somente em uma visita, use essa alocação com Visita como expiração de eVar. </p> <p>Observação: a alternância da alocação de ou para Linear impede que os dados históricos sejam exibidos. A mistura tipos de alocação na interface de relatório pode resultar em dados informados incorretamente em relatórios. Por exemplo, a alocação Linear pode dividir a receita entre vários valores diferentes de eVar. Depois de voltar para a alocação Mais recente, 100% dessa receita será associada ao valor único mais recente. Essa associação pode levar os usuários a conclusões incorretas. </p> <p>Para evitar a probabilidade de confusão nos relatórios, o Analytics não disponibiliza os dados históricos para a interface. Podem ser exibidos se decidir alterar a eVar de volta para a configuração de alocação inicial, embora não seja recomendável alterar as configurações de alocação de eVar simplesmente para acessar os dados históricos. A Adobe recomenda usar uma nova eVar quando há preferência por novas configurações de alocação de dados registradas, em vez de alterar as configurações de alocação em uma eVar que já tem uma quantidade significativa de dados históricos acumulada. </p> </td> 
+   <td colname="col2"> <p>Determina como o Analytics atribuirá crédito por um evento bem-sucedido se uma variável receber vários valores antes do evento. Os valores compatíveis incluem: </p> <p> <b>Mais recente</b>: o último valor de eVar sempre recebe crédito por eventos bem-sucedidos até que esse eVar expire. </p> <p> <b>Valor original</b>: a primeira eVar sempre recebe crédito por eventos bem-sucedidos até que essa eVar expire. </p> <p> <b> Linear</b>: aloca eventos bem-sucedidos igualmente entre todos os valores de eVar. Como a alocação Linear distribui com precisão os valores somente em uma visita, use essa alocação com Visita como expiração de eVar. </p> <p>Observação: a alternância da alocação de ou para Linear impede que os dados históricos sejam exibidos. A mistura tipos de alocação na interface de relatório pode resultar em dados informados incorretamente em relatórios. Por exemplo, a alocação Linear pode dividir a receita entre vários valores diferentes de eVar. Depois de voltar para a alocação Mais recente, 100% dessa receita será associada ao valor único mais recente. Essa associação pode levar os usuários a conclusões incorretas. </p> <p>Para evitar a probabilidade de confusão nos relatórios, o Analytics não disponibiliza os dados históricos para a interface. Podem ser exibidos se decidir alterar a eVar de volta para a configuração de alocação inicial, embora não seja recomendável alterar as configurações de alocação de eVar simplesmente para acessar os dados históricos. A Adobe recomenda usar uma nova eVar quando há preferência por novas configurações de alocação de dados registradas, em vez de alterar as configurações de alocação em uma eVar que já tem uma quantidade significativa de dados históricos acumulada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Expirar após</span> </p> </td> 
@@ -76,7 +75,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Expiração mensal: eVar expira 31 dias após a segunda-feira, às 7h15. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Eventos de conversão específicos.</b> Quaisquer eventos de conversão ativados depois de um evento específico designado estão associados à eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nunca.</b> Contanto que o cookie Se o cookie <span class="varname">visitorID</span> estiver intacto, a passagem do tempo será indiferente entre o eVar e o evento. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nunca.</b> Desde que o cookie  <span class="varname"> </span> visitorID esteja intacto, qualquer período pode ser transcorrido entre o eVar e o evento. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
