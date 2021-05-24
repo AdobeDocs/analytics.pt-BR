@@ -1,20 +1,19 @@
 ---
 title: Como definir as preferências do usuário no Analysis Workspace
 description: É possível definir preferências gerais e de projeto para usuários.
-feature: Workspace Basics
+feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-translation-type: tm+mt
 source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
 # Preferências do usuário
 
-A página [!UICONTROL Components] > [!UICONTROL User preferences] permite gerenciar configurações para o Analysis Workspace e seus componentes relacionados no nível do usuário. As preferências do usuário se aplicam a todos ** novos projetos ou painéis.
+A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar configurações do Analysis Workspace e seus componentes relacionados no nível do usuário. As preferências do usuário se aplicam a todos *novos* projetos ou painéis.
 
 ![Preferências do usuário](assets/user-preferences.png)
 
@@ -38,7 +37,7 @@ As preferências do projeto se aplicam a novos projetos e painéis criados no An
 |  | [Paleta de cores](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | <ul><li>Paletas fornecidas pela Adobe (padrão)</li><li>Paletas definidas pelo cliente</li></ul> |
 | **Dados** |  |  |
 |  | [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#report-suite) | <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
-|  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#calendar) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pelo Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
+|  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#calendar) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pela Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
 |  | [Tipo de painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
 |  | Formato de número | <ul><li>1.000,00 (padrão)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV caractere | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
