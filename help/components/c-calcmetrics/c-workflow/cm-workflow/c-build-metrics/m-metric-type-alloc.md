@@ -2,14 +2,14 @@
 description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # Atribuição e tipo de métrica
 
@@ -33,6 +33,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 >* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
 >* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, Reports &amp; Analytics, na API de relatórios e no Report Builder. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
+
 >
 
 
@@ -82,4 +83,3 @@ Em 19 de julho de 2018, corrigimos este comportamento nas métricas calculadas. 
 | PROMOÇÃO B | US$2,50 | US$2,50 | US$2,50 |
 | PROMOÇÃO C | US$2,50 | US$2,50 | US$2,50 |
 | Total | US$10,00 | US$10,00 | US$10,00 |
-
