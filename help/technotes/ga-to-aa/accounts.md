@@ -2,11 +2,10 @@
 title: Contas e conjuntos de relatórios
 description: Saiba como usar uma empresa de logon e um conjunto de relatórios para manter os silos de dados organizados no Adobe Analytics.
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -21,4 +20,4 @@ As organizações maiores geralmente têm vários conjuntos de relatórios, um p
 
 Uma diferença importante entre o método de coleta de dados da Adobe e muitas outras ferramentas é que você especifica para quais conjuntos de relatórios enviar dados dentro da implementação. Isso é diferente de outras ferramentas, que normalmente enviam todos os dados para um local de coleta e filtram para exibições ou perfis.
 
-[!UICONTROL Os conjuntos de relatórios virtuais também estão disponíveis no Adobe Analytics, que fornece uma exibição filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. ] Por exemplo, você pode usar um [!UICONTROL conjunto de relatórios virtual] para eliminar o tráfego de bot não capturado anteriormente ou excluir a receita fraudulenta/atípica. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes para obter mais informações.
+Os [!UICONTROL conjuntos de relatórios virtuais] também estão disponíveis no Adobe Analytics, que fornece uma exibição filtrada de um conjunto de relatórios sem alterar a coleta de dados ou os dados históricos. Por exemplo, você pode usar um [!UICONTROL conjunto de relatórios virtual] para eliminar o tráfego de bot não capturado anteriormente ou excluir a receita fraudulenta/atípica. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes para obter mais informações.
