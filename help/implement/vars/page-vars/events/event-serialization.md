@@ -2,7 +2,6 @@
 title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-translation-type: tm+mt
 source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
 workflow-type: tm+mt
 source-wordcount: '337'
