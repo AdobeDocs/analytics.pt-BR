@@ -1,15 +1,15 @@
 ---
-title: IPs e domínios usados pela Adobe Analytics
+title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 97%
 
 ---
 
-# IPs e domínios usados pela Adobe Analytics
+# IPs e domínios usados pelo Adobe Analytics
 
 Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização.
 
@@ -23,7 +23,7 @@ O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiê
 
 | Tecnologia | Domínio |
 | --- | --- |
-| Domínios Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
+| Domínios do Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
 | Domínio herdado do Adobe Analytics | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -34,7 +34,7 @@ O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiê
 
 ## Todos os blocos de endereço IP da coleção de dados do Adobe Analytics
 
-A tabela a seguir cobre todos os servidores de coleta de dados padrão e os servidores de coleta de dados regionais para o Adobe Analytics. Eles não incluem hosts AWS individuais.
+A tabela a seguir abrange todos os servidores de coleção de dados padrão e os servidores de coleção de dados regionais para o Adobe Analytics. Eles não incluem hosts AWS individuais.
 
 | Bloco IP (Notação CIDR) |
 | --- |
@@ -112,7 +112,7 @@ Se sua organização preferir permitir intervalos de endereços IP específicos,
 
 ## Hosts AWS
 
-O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de coleta de dados. A tabela a seguir inclui hosts AWS reservados para a Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
+O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de coleção de dados. A tabela a seguir inclui hosts AWS reservados para a Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
 
 | Localização | Host |
 | --- | --- |
