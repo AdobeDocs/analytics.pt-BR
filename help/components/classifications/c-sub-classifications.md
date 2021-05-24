@@ -2,10 +2,9 @@
 description: O Adobe Analytics suporta modelos de classificação de nível único e múltiplo. Uma hierarquia de classificação permite aplicar uma classificação a uma classificação.
 subtopic: Classifications
 title: Sobre as subclassificações
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -87,7 +86,7 @@ Ao fazer upload dos arquivos de dados para essa classificação de produto, é p
 | 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | L | 03 |
 | 410390015 | Polo-ML | Camisa polo feminina, manga longa (S,23) | F | S | 23º |
 
-### Classificação do produto - Vários arquivos (Arquivo 2)  {#section_19ED95C33B174A9687E81714568D56A3}
+### Classificação do produto - Vários arquivos (Arquivo 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CHAVE | CÓDIGO | CÓDIGO^COR |
 |---|---|---|
