@@ -1,10 +1,9 @@
 ---
 description: O Gerenciador de segmentos oferece várias formas de cuidar de segmentos, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
 title: Gerenciar segmentos
-feature: Segmentation
+feature: Segmentação
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '428'
