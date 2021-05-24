@@ -2,11 +2,10 @@
 title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -62,4 +61,4 @@ Usando o Canal de primeiro toque e o Canal de último toque herdados, você pode
 
 ![](assets/mc-viz6.png)
 
-Saiba mais sobre a análise de marketing entre guias neste vídeo: [Usando a Análise entre guias para Explorar a atribuição básica de marketing no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Saiba mais sobre a análise de marketing entre guias neste vídeo: [Utilização da Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
