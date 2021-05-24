@@ -2,7 +2,6 @@
 title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: tm+mt
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
 workflow-type: tm+mt
 source-wordcount: '918'
