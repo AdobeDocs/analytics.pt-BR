@@ -5,11 +5,10 @@ title: Migração de visitante
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +20,9 @@ A migração do visitante permite que você preserve cookies de identificação 
 
 * Transferência de `2o7.net` para `adobedc.net`.
 
-* Você está implementando o [Serviço de ID de visitante do Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) e migrando de um CNAME/domínio de coleta de dados primários para `adobedc.net`, `2o7.net` ou `omtrdc.net`
+* Você está implementando o [Serviço de ID de visitante da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) e migrando de um domínio de coleção de dados primários/CNAME para `adobedc.net`, `2o7.net` ou `omtrdc.net`
 
-* Migração para um cname/coleta de dados primários ( [Cookies primários)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Migração para uma coleção de dados cname/primários ([Cookies primários)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Transferência de um CNAME para outro (alterando domínios).
 
@@ -51,11 +50,11 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Mais de 6 horas depois da alteração de configuração</b>: atualize as variáveis <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> no código JavaScript do Analytics para usar os novos servidores de coleta de dados. </p> </td> 
-   <td colname="col3"> <p>Depois de fazer essa alteração, use o <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> para verificar se a solicitação de imagem do Analytics vai para o servidor de coleta de dados atualizado. </p> </td> 
+   <td colname="col3"> <p>Depois de fazer essa alteração, use o <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR"> Experience Cloud Debugger</a> para verificar se a solicitação de imagem do Analytics vai para o servidor de coleção de dados atualizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Depois de atualizar o código do Analytics</b>: teste o site para verificar se o redirecionamento do domínio de coleta dos dados anterior está ocorrendo. </p> </td> 
-   <td colname="col3"> <p>Use um  <a href="../implement/validate/packet-monitor.md"> monitoramento de pacote </a> para verificar se, quando você acessar o site pela primeira vez ou após apagar os cookies, é possível visualizar dois códigos de status HTTP 302 (redirecionar) antes do código do status HTTP 200 (OK). Em caso de falha de qualquer um dos redirecionamentos, entre em contato imediatamente com o Atendimento ao cliente para verificar se a migração está configurada corretamente. </p> </td> 
+   <td colname="col3"> <p>Use um <a href="../implement/validate/packet-monitor.md"> monitor de pacotes</a> para verificar se, quando você acessa o site pela primeira vez ou após apagar os cookies, é possível visualizar dois códigos de status HTTP 302 (redirecionar) antes do código do status HTTP 200 (OK). Em caso de falha de qualquer um dos redirecionamentos, entre em contato imediatamente com o Atendimento ao cliente para verificar se a migração está configurada corretamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Para o período de migração inteiro</b>: mantenha o registro de DNS do nome de host anterior ativado. </p> </td> 
