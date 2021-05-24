@@ -5,11 +5,10 @@ title: Exibir informações do conjunto de relatórios virtual
 feature: Noções básicas do Reports & Analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
