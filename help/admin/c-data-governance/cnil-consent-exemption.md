@@ -2,7 +2,6 @@
 description: Saiba mais sobre as diretrizes e recomendações para o consentimento dos usuários ao armazenamento ou à leitura de cookies não essenciais em dispositivos ou navegadores.
 title: Quais são as diretrizes da CNIL para consentimento e cookies do usuário?
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: tm+mt
 source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
 workflow-type: tm+mt
 source-wordcount: '694'
