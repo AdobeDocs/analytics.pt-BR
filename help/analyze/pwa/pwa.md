@@ -3,7 +3,6 @@ title: PWAs para Analytics
 description: Progressive Web Apps para Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '277'
