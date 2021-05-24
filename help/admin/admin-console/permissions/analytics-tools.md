@@ -2,10 +2,10 @@
 title: Permissões de perfil de produto para as Ferramentas do Analytics
 description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso aos recursos no Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 72%
 
 ---
 
@@ -21,16 +21,10 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Logs | Concede acesso a Administração > Todos os administradores > Logs. |
 | Logs - Serviços da Web | Concede acesso a registros de extração por meio da API 1.4. |
 | Gerenciamento de tráfego | Concede acesso a Administração > Todos os administradores > Gerenciamento de tráfego. |
-| Gerenciamento de permissões | Não está mais em uso. Concede acesso à interface herdada de gerenciamento de usuários em Administração > Todos os administradores > Gerenciamento de usuários. |
-| Permissões (Leitura) - Serviços da Web | Não está mais em uso. Permite que o usuário visualize permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
-| Permissões (Gravação) - Serviços da Web | Não está mais em uso. Permite que o usuário edite permissões herdadas do Analytics usando a API de administração. Em vez disso, use o Adobe Admin Console. |
 | Segurança | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Gerenciador de segurança. |
 | Suporte | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Informações de suporte. |
 | Serviços Web | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Serviços da Web. |
-| Logon único | Não está mais em uso. Concede acesso ao Serviço de logon único obsoleto. |
 | Ações pendentes | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ações pendentes. |
-| Compartilhamento de marcas | Não está mais em uso. Concede acesso a Administração > Todos os administradores > Configurações da empresa > Compartilhamento de marcas. |
-| Preferências | Não usado. |
 | Ocultar conjunto de relatórios | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
 | Usuários da licença do Excel | Não usado. |
 | Activity Map | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
