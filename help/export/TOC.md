@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Pesquisa de atributos móveis](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [Pesquisa de instâncias de eVar de merchandising em post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Pesquisa de eVar de merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Perguntas frequentes sobre o feed de dados](analytics-data-feed/df-faq.md)
