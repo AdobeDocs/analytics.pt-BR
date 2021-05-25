@@ -2,11 +2,10 @@
 title: eVar
 description: Uma dimensão personalizada que você pode usar nos relatórios.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ As eVars são variáveis personalizadas que podem ser usadas da maneira que voc�
 
 O número de eVars disponíveis depende do seu contrato com a Adobe. Até 250 eVars estarão disponíveis se seu contrato com a Adobe permitir.
 
-As eVars não diferenciam letras maiúsculas e minúsculas. Se você enviar o mesmo valor em letra maiúscula ou minúscula (por exemplo, `"DOG"` e `"Dog"`), o Analysis Workspace os agrupará no mesmo item de dimensão. É utilizada a forma do primeiro valor observado no início do mês do relatórios. O Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
+O caso (superior ou inferior) usado no relatório é baseado no primeiro valor registrado pelo sistema de back-end. Esse valor pode ser a primeira instância jamais vista ou variar em um período de tempo (por exemplo, mensal), dependendo da variedade e da quantidade de dados associados ao conjunto de relatórios.
 
 ## Preencher eVars com dados
 
