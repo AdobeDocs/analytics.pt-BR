@@ -5,11 +5,10 @@ title: Visão geral das visualizações
 feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1092'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +78,7 @@ Para editar um rótulo de legenda:
 1. Digite o texto do novo rótulo.
 1. Pressione **[!UICONTROL Enter]** para salvar.
 
-Temos um [vídeo](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre esse tópico.
+Temos um [vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre esse tópico.
 
 ## Clique com o botão direito do mouse no menu {#right-click}
 
