@@ -2,14 +2,13 @@
 description: Eventos bem-sucedidos são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 keywords: evento
 title: Visão geral dos eventos bem-sucedidos
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vár
 * **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulário, solicitações de suporte
 * **Automotivo**: submissão de cliente em potencial, solicitação de cotação, download de panfleto
 
-A variável [s.events](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
+A variável [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
 
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 
