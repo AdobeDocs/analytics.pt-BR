@@ -1,14 +1,13 @@
 ---
 description: O recurso Fontes de dados permite importar dados para o Analytics de fontes offline. Depois de importados, esses dados podem ser tratados e manipulados de forma semelhante aos dados coletados nativamente.
 title: Fontes de dados
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -24,4 +23,4 @@ Use Fontes de dados para:
 
 Quando as Fontes de dados são ativadas em um conjunto de relatórios, um local de FTP é fornecido para que você possa fazer o upload dos arquivos que serão integrados ao relatório. Depois de carregados, os servidores da Adobe processam automaticamente os dados e integram no seu conjunto de relatórios.
 
-Consulte [Ajuda das Fontes de dados](https://docs.adobe.com/content/help/pt-BR/analytics/import/data-sources/datasrc-home.html).
+Consulte [Ajuda das Fontes de dados](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
