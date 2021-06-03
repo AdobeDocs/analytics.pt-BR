@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Regras de classificação
 feature: Ferramentas administrativas
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Informações importantes sobre as Regras
 
-* Especificar [permissões de grupo](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-groups/groups.html) para classificações em [!UICONTROL Ferramentas administrativas].
+* Especificar [permissões de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) para classificações em [!UICONTROL Ferramentas administrativas].
 
 * **Expressões regulares**: a ajuda está disponível em [Expressões regulares nas regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -208,7 +207,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 | Expressão regular Para sequências de correspondência a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Expressão regular Para sequências de correspondência a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Expressões regulares - Exemplo &quot;Não contém&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Expressões regulares - Exemplo &quot;Não contém&quot;  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Esse exemplo fornece uma expressão regular que corresponde a qualquer sequência que não contenha caracteres específicos, nesse caso `13`.
 
