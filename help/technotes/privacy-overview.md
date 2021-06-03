@@ -4,11 +4,10 @@ keywords: privacidade
 title: Visão geral de privacidade
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '844'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +71,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Caso esteja usando cookies primários, a opção de não participação do Analytics é exclusiva para um cliente; você não deve depender de uma opção de não participação no Adobe.com. </td> 
+   <td colname="col2"> Caso esteja usando cookies primários, a opção de não participação do Analytics é única para um cliente; você não deve depender de uma opção de não participação no Adobe.com. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -92,7 +91,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP exclusivo. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> A Adobe habilitou a configuração Obscurecimento de IP: ativo - IP removido (x.x.x.x) por padrão para todos os clientes com um conjunto de relatórios definido em EMEA. Com esta configuração, o endereço de IP será totalmente substituído pelo valor (x.x.x.x) após a busca geográfica e não estará mais disponível como um ponto de dados. <p>Esse método básico de substituição não pode ser revertido para um Endereço IP único. Nem o cliente nem a Adobe não podem acessar o endereço IP; ele é convertido em anônimo de maneira irreversível. Para mais informações sobre outras configurações de obscurecimento de IP, consulte </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
