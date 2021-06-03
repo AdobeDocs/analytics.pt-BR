@@ -3,14 +3,13 @@ title: Solução de problemas de coleta de dados do Activity Map
 description: Determine por que você não pode ver dados do Activity Map em solicitações de imagem
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
-
 
 # Solução de problemas de coleta de dados do Activity Map
 
@@ -20,7 +19,7 @@ Se você não vir dados para dimensões do Activity Map, use esta página para a
 
 Primeiro, verifique se o AppMeasurement coleta os dados de Activity Map corretamente.
 
-1. Baixe e instale a [Extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
+1. Baixe e instale a [Extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html).
 2. Navegue até a página da Web e clique em um link.
 3. Quando a página subsequente for carregada, abra o depurador da . Valide se você vê variáveis de dados de contexto de Activity Map entre `activitymap.` e `.activitymap`:
 
