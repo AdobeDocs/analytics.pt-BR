@@ -3,11 +3,10 @@ description: A guia de Uso de conjuntos de relatórios proporciona dados de uso 
 title: Visualizar uso do conjunto de relatórios
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +18,7 @@ A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor r
 
 >[!IMPORTANT]
 >
->Se um conjunto de relatórios não estiver [vinculado a uma Organização da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html), os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de faturamento pode ser vinculada a várias Organizações da Experience Cloud Orgs; nem sempre há uma relação mutuamente exclusiva entre uma organização e uma ID de faturamento.
+>Se um conjunto de relatórios não estiver [vinculado a uma Organização da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de faturamento pode ser vinculada a várias Organizações da Experience Cloud Orgs; nem sempre há uma relação mutuamente exclusiva entre uma organização e uma ID de faturamento.
 
 O painel de Uso de conjuntos de relatórios
 
@@ -33,7 +32,7 @@ O painel de Uso de conjuntos de relatórios
 
 | Coluna | Definição |
 |--- |--- |
-| Conjunto de relatórios Nome | Nome amigável do conjunto de relatórios |
+| Nome do conjunto de relatórios | Nome amigável do conjunto de relatórios |
 | Todas as chamadas (% do total) | Todas as chamadas do servidor incorridas no período de uso atual. |
 | Chamadas primárias (%) | Todas as chamadas do servidor primárias (e o respectivo percentual do total) incorridas no período de uso atual. |
 | Chamadas secundárias (%) | Todas as chamadas do servidor secundárias (e o respectivo percentual do total) incorridas no período de uso atual. |
