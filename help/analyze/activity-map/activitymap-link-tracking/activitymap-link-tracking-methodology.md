@@ -4,14 +4,13 @@ title: Metodologia de Rastreamento de links
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 99%
 
 ---
-
 
 # Metodologia de Rastreamento de links
 
@@ -19,7 +18,7 @@ Essa seção destina-se aos Administradores do Adobe Analytics. Tem como foco os
 
 >[!IMPORTANT]
 >
->Qualquer link cujo texto (não o href) possa conter PII (Informações de identificação pessoal) deve ser implementado de maneira explícita usando [s_objectID](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) ou excluindo a coleção de links do ActivityMap por meio de [s.ActivityMap.linkExclusions ou s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Qualquer link cujo texto (não o href) possa conter PII (Informações de identificação pessoal) deve ser implementado de maneira explícita usando [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) ou excluindo a coleção de links do ActivityMap por meio de [s.ActivityMap.linkExclusions ou s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obter mais informações sobre como o Activity Map pode coletar dados de PII, acesse [aqui](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 O Activity Map baseia seu rastreamento de links nessas duas IDs:
 
@@ -36,7 +35,7 @@ Se o HTML tiver uma função s_objectid, então a ID primária é padronizada pa
 * Src
 * Ação
 
-## Usar o InnerText, em vez da Ação do link (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Usar o InnerText, em vez da Ação do link (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 A ação do link é a medida tomada pela página da Web quando o link é clicado, geralmente o URL que é visitado depois de clicar no link. Alguns dos problemas que você pode enfrentar ao usar a Ação do link são:
 
