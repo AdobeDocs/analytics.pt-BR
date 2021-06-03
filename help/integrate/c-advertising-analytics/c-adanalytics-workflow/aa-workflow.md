@@ -2,11 +2,10 @@
 description: Visão geral do fluxo de trabalho do Advertising Analytics.
 title: Visão geral do fluxo de trabalho
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 ![](assets/step1_icon.png) Mapeie qualquer conjunto de relatórios do Adobe Analytics em que deseja visualizar dados de pesquisa do Google/Bing para sua organização da Experience Cloud.
 
-Consulte [Mapear conjuntos de relatórios para uma organização](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html).
+Consulte [Mapear conjuntos de relatórios para uma organização](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
