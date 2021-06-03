@@ -3,11 +3,10 @@ description: Solucione e corrija problemas relacionados ao Advertising Analytics
 title: Solução de problemas do Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +29,7 @@ Você está tentando [configurar uma nova conta publicitária](/help/integrate/c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon de usuário. </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html"  >Mapear conjuntos de relatórios para uma organização</a> para obter instruções. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >Mapear conjuntos de relatórios para uma organização</a> para obter instruções. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. O conjunto de relatórios não está provisionado para os relatórios do Advertising Analytics. </p> </td> 
