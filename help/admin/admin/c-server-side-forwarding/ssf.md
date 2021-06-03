@@ -3,14 +3,13 @@ description: O encaminhamento pelo lado do servidor foi projetado para clientes 
 solution: Audience Manager
 title: Visão geral do encaminhamento pelo lado do servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 94%
 
 ---
-
 
 # Visão geral do encaminhamento pelo lado do servidor
 
@@ -33,12 +32,12 @@ Para entender onde sua organização está em termos de implementação do encam
 
 ## ![step1_icon.png imagem](assets/step1_icon.png) Verificar implementação do serviço ECID
 
-Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/test-verify.html).
+Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
 
 Na guia Solicitação, verifique se um valor de ECID está definido. Isso indica que o Serviço de identidade está implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
 
 * Se você encontrar um valor ECID, avance para a etapa 2.
-* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/implementation-guides.html) antes de prosseguir para a etapa 2.
+* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) antes de prosseguir para a etapa 2.
 
 ## ![step2_icon.png imagem](assets/step2_icon.png) Verificar a versão de implementação do encaminhamento pelo lado do servidor
 
@@ -52,9 +51,9 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 
    * **Clientes AAM com DIL**: coordene os seguintes 2 itens em uma conjunção próxima:
 
-      1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Ative o encaminhamento pelo lado do servidor na interface do usuário do Analytics, conforme descrito na etapa 3. Habilitar esta configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor cobradas adicionais no Audience Manager.
-   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
+   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 
 ## ![step3_icon.png imagem](assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
@@ -65,11 +64,10 @@ O encaminhamento pelo lado do servidor no nível do conjunto de relatórios é r
 
 Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (selecione o **conjunto de relatórios**) > **Editar configurações** > **Geral** > **Encaminhamento pelo lado do servidor**. Se a caixa de seleção estiver:
 
-* **Inativa** (Você não pode fazer uma seleção ou o menu não existe): você não possui os conjuntos de relatórios selecionados mapeados para a sua Organização IMS. Certifique-se de que os seus conjuntos de relatórios aplicáveis sejam mapeados à Organização da Experience Cloud adequada usando a [Interface do usuário de mapeamento de conjuntos de relatórios](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inativa** (Você não pode fazer uma seleção ou o menu não existe): você não possui os conjuntos de relatórios selecionados mapeados para a sua Organização IMS. Certifique-se de que os seus conjuntos de relatórios aplicáveis sejam mapeados à Organização da Experience Cloud adequada usando a [Interface do usuário de mapeamento de conjuntos de relatórios](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * **Desabilitada**: você não possui o novo encaminhamento pelo lado do servidor ativado. Leia o conteúdo na página e prossiga com a ativação do recurso.
 * **Habilitada:** você está provisionado para o novo encaminhamento pelo lado do servidor. Você também pode configurar esta integração do Audience Analytics.
 
 >[!NOTE]
 >
->Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/aam-home.html) ou [Públicos-alvo](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
-
+>Os dados não serão exibidos em outras soluções da Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) ou [Públicos-alvo](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html), até que todas as 3 etapas sejam concluídas. Uma vez ativado, levará várias horas para que essas configurações entrem em vigor.
