@@ -5,10 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Você também pode adicionar segmentos em um ponto de contato. Por exemplo, voc�
 
 Não há limite de número de etapas que você pode adicionar ou do número de dimensões usadas.
 
-Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
+Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
 1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Tabela de forma livre].
 
