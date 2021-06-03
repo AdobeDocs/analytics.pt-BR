@@ -6,10 +6,10 @@ title: Personalizar permissões de ferramentas do Analytics
 feature: Ferramentas administrativas
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 89%
 
 ---
 
@@ -52,18 +52,18 @@ As configurações desta página pertencem aos conjuntos de relatórios selecion
 | [Segurança](/help/admin/company/security-manager.md) | Concede permissão para que a página Gerenciador de segurança controle o acesso a dados dos relatórios. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email. |
 | Informações de suporte | Concede permissão para as Informações de suporte em Configurações da empresa. |
 | [Serviços Web](/help/admin/company/web-services-admin.md) | Permite o acesso à página Serviços da Web na interface das Ferramentas Administrativas ([!UICONTROL Configurações da empresa] > [!UICONTROL Serviços da Web]).<br>A API de Serviços da Web fornece acesso programático a serviços do Adobe Analytics que permitem duplicar e aumentar a funcionalidade disponível por meio da interface do usuário. |
-| Logon único (Herdado) | Concede acesso à página de logon único nas Ferramentas administrativas.<br>**Observação:** o Logon único na Adobe Experience Cloud é implementado com o uso da [vinculação de contas](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/organizations.html) entre a Experience Cloud e as demais soluções. |
+| Logon único (Herdado) | Concede acesso à página de logon único nas Ferramentas administrativas.<br>**Observação:** o Logon único na Adobe Experience Cloud é implementado com o uso da [vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) entre a Experience Cloud e as demais soluções. |
 | [Ações pendentes](/help/admin/company/pending-actions-admin.md) | Concede permissão para o gerenciamento de ações pendentes em [!UICONTROL Configurações da empresa]. |
 | [Compartilhamento de marcas](/help/admin/company/co-branding-admin.md) | Concede permissão para o compartilhamento de marcas no Analytics. |
 | [Preferências](/help/admin/admin/preferences-manager.md) | Concede permissão para o [!UICONTROL Gerenciador de preferências]. |
 | [Ocultar conjuntos de relatórios](/help/admin/company/c-hide-report-suites.md) | Concede permissão para ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics. |
 | **Ferramentas** | Essas configurações concedem acesso a ferramentas do Analytics (interfaces e aplicativos) e a recursos avançados, como segmentação e métricas calculadas. |
-| [Dados atuais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/current-data.html) | Concede permissão para uso do recurso Dados atuais nos relatórios. |
+| [Dados atuais](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | Concede permissão para uso do recurso Dados atuais nos relatórios. |
 | Acesso aos serviços da Web | Permite o acesso aos Serviços da Web para usuários não administradores. Gera credenciais de Serviços da Web. |
-| [Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Concede aos membros deste grupo acesso a licenças do [!UICONTROL Report Builder]. |
-| Acesso à [Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html) | Concede aos usuários acesso à Analysis Workspace, a interface de relatórios recomendada para o [!DNL Adobe Analytics]. |
-| [Reports &amp; Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-key-concepts.html) | Concede aos usuários acesso ao Reports &amp; Analytics. |
-| [Criação de métricas calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html) | Concede aos usuários permissão para criar métricas calculadas. |
-| [Criação de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) | Concede aos usuários permissão para criar segmentos. |
+| [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Concede aos membros deste grupo acesso a licenças do [!UICONTROL Report Builder]. |
+| Acesso à [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) | Concede aos usuários acesso à Analysis Workspace, a interface de relatórios recomendada para o [!DNL Adobe Analytics]. |
+| [Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | Concede aos usuários acesso ao Reports &amp; Analytics. |
+| [Criação de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | Concede aos usuários permissão para criar métricas calculadas. |
+| [Criação de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | Concede aos usuários permissão para criar segmentos. |
 | **Data Connectors** |  |
 | Integrações (Criar, Atualizar ou Excluir) | Concede permissão para criar, atualizar e excluir integrações do Conector de dados. |
