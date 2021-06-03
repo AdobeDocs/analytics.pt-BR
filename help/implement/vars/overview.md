@@ -3,11 +3,10 @@ title: Visão geral sobre variáveis, funções, métodos e plug-ins
 description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
 keywords: appmeasurement,variáveis,vars,configuração,página,implementação
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página 
 As bibliotecas do AppMeasurement publicadas pelo Adobe Analytics seguem uma ordem específica ao enviar dados à Adobe. Se você executar essas tarefas fora de ordem, os dados poderão ficar incompletos.
 
 1. Se o site usar uma camada de dados, verifique se todas as variáveis aplicáveis foram preenchidas primeiro. Consulte [Camada de dados](../prepare/data-layer.md) para obter mais informações.
-2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar o Launch, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. Consulte [Elementos de dados](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/manage-resources/data-elements.html) no guia do usuário do Launch.
+2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar o Launch, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. Consulte [Elementos de dados](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html) no guia do usuário do Launch.
 3. Chame a função de rastreamento. A maioria das bibliotecas do AppMeasurement usam o método `t()`, no entanto, alguns SDKs móveis usam `track()`. Quando a função de rastreamento é chamada, todas as variáveis compatíveis definidas no objeto do Analytics são enviadas à Adobe na forma de uma solicitação de imagem.
 
 ## Caracteres inválidos
