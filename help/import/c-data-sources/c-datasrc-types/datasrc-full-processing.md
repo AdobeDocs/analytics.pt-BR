@@ -3,11 +3,10 @@ description: A Fonte de Dados oferece suporte às seguintes variáveis no proces
 title: Processamento completo
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 97%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe planeja descontinuar as fontes de dados de processamento completo em 31 de julho de 2021. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. A Adobe planeja descontinuar o processamento completo de fontes de dados em 31 de julho de 2021. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -69,7 +68,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por exemplo: </p> 
+   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por exemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -87,7 +86,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
    <td colname="col2"> <p>linkType </p> </td> 
-   <td colname="col3"> <p>Tipo de link. Os valores para os quais existe suporte incluem: </p> 
+   <td colname="col3"> <p>Tipo de link. Os valores compatíveis incluem: </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: Link de download </li> 
      <li id="li_182F695AA2D044DAB036BAFE38BC3915"> <b>e</b>: Link de saída </li> 
@@ -172,7 +171,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
+   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
