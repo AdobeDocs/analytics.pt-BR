@@ -2,23 +2,25 @@
 description: Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 title: Ativar a integração
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 18fb2f55-f1fb-4d97-bd1e-8c5e74dbde69
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # Ativar a integração {#activate-the-integration}
 
 Use o Assistente de configuração do Data Connectors da Adobe para configurar a integração.
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. Inicie o [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) e clique em **[!UICONTROL + Adicionar nova]** para [adicionar uma nova integração](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Na lista **[!UICONTROL Exibir]**, selecione **[!UICONTROL Por nome]** e arraste a integração do [!DNL ~Parceiro~] para um slot de plug-in vazio.
 1. Complete o Assistente de integração usando as informações na tabela a seguir:
 
 | Campo | Descrição |
 |--- |--- |
-| Conjunto de relatórios  | O conjunto de relatórios que recebe os dados dessa integração. |
+| Conjunto de relatórios | O conjunto de relatórios que recebe os dados dessa integração. |
 | Nome da integração | Especifique o nome da integração que o Data Connectors exibe na lista Integração ativa do conjunto de relatórios. |
 | Endereço de email | Forneça o endereço de email para receber informações sobre integração. |
 | ID da Conta | Esse é o identificador exclusivo atribuído à sua organização pelo provedor de serviços de email. Ele será usado na solicitação de dados de campanha de email (por exemplo, Nº Enviado, Nº Abertos, Nº Clicados etc.) e ao enviar segmentos de visitantes para seu provedor de serviços de email. |
@@ -35,5 +37,5 @@ Use o Assistente de configuração do Data Connectors da Adobe para configurar a
 | Inscrições canceladas | (Obrigatório) Especifica o evento do Adobe Analytics que armazena os dados de cancelamento de inscrição importados do sistema de email. O evento Inscrições canceladas permite ver quantos visitantes abriram a mensagem de email, mas clicaram no link Cancelar inscrição para recusar futuras mensagens de email de sua organização. |
 | Segmentos | Habilitar segmentos existentes para serem usados junto com essa integração (opcional). |
 | Solicitações de acesso | Ative os privilégios de acesso recomendados. |
-| Coleta de dados | Selecione **Plug-in do JavaScript** se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração. Selecione **Solução automatizada** se desejar usar um modelo de coleta automatizada para essa integração e, depois, especifique os identificadores exclusivos usados nessa integração. Se você selecionar essa opção, especifique os identificadores exclusivos usados nessa integração:<ul><li>Parâmetro da string de consulta da ID de mensagem: esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email.</li><li>Parâmetro da string de consulta da ID do destinatário: esse valor representa a ID do destinatário anexada ao URL da página de aterrissagem pelo seu parceiro de email.</li></ul> |
+| Coleta de dados | Selecione **Plug-in do JavaScript** se desejar usar o plug-in s_code.js como o modelo de coleção para essa integração. Selecione **Solução automatizada** se desejar usar um modelo de coleta automatizada para essa integração e, depois, especifique os identificadores exclusivos usados nessa integração. Se você selecionar essa opção, especifique os identificadores exclusivos usados nessa integração:<ul><li>Parâmetro da string de consulta da ID da mensagem: esse valor representa a ID da mensagem anexada ao URL da página inicial pelo seu parceiro de email.</li><li>Parâmetro da string de consulta da ID do destinatário: esse valor representa a ID do destinatário anexada ao URL da página inicial pelo seu parceiro de email.</li></ul> |
 | Geração de painel e marcador | Gera automaticamente um painel e marcadores para a integração. |
