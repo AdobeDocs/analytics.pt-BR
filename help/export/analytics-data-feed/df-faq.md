@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre feeds de dados
 keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minúsculas
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 54%
+source-wordcount: '1375'
+ht-degree: 41%
 
 ---
 
@@ -16,7 +16,7 @@ Perguntas frequentes sobre feeds de dados.
 
 ## Os nomes dos feeds devem ser exclusivos?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Os nomes de arquivos do feed de dados são criados a partir da ID do conjunto de relatórios e data. Qualquer par de feeds configurados para a mesma RSID (ID do conjunto de relatórios) e data(s) terá o mesmo nome de arquivo. Se esses arquivos forem entregues na mesma localização, um arquivo irá sobrepor o outro. Para evitar uma sobreposição de arquivos, não é possível criar um feed com potencial para sobrepor um feed já existente na mesma localização.
+Os nomes de arquivos do feed de dados são criados a partir da ID do conjunto de relatórios e data. Todos os dois feeds configurados para o mesmo RSID e data(s) têm o mesmo nome de arquivo. Se esses feeds forem entregues no mesmo local, um arquivo substituirá o outro. Para evitar uma sobreposição de arquivos, não é possível criar um feed com potencial para sobrepor um feed já existente na mesma localização.
 
 Tentar criar um feed quando já existe outro com o mesmo nome de arquivo resulta na seguinte mensagem:
 
@@ -28,7 +28,7 @@ Se receber essa mensagem de erro, considere as seguintes soluções alternativas
 
 ## Quando os dados são processados? {#section_6346328F8D8848A7B81474229481D404}
 
-Antes de processar dados por dia ou por hora, os feeds de dados aguardam até que todas os hits inseridos na coleta de dados no período (dia ou hora) tenham sido gravados no data warehouse. Depois que isso ocorrer, os feeds de dados coletam os dados com carimbos de data e hora que correspondem ao período, compactando-os e reenviando-os via FTP. Nos feeds por hora, os arquivos são normalmente gravados no data warehouse dentro de 15 a 30 minutos depois da hora, mas não há um período de tempo definido. Se não houver dados com carimbos de data e hora correspondentes ao período, o processo tenta novamente o próximo período. O processo do feed de dados atual usa o campo `date_time` para determinar quais hits pertencem à hora. Esse campo se baseia no fuso horário do conjunto de relatórios.
+Antes de processar dados por dia ou por hora, os feeds de dados aguardam até que todas os hits inseridos na coleta de dados no período (dia ou hora) tenham sido gravados no data warehouse. Depois que isso ocorrer, os feeds de dados coletam os dados com carimbos de data e hora que correspondem ao período, compactando-os e enviando-os via FTP. Nos feeds por hora, os arquivos são normalmente gravados no data warehouse dentro de 15 a 30 minutos depois da hora, mas não há um período de tempo definido. Se não houver dados com carimbos de data e hora correspondentes ao período, o processo tenta novamente o próximo período. O processo do feed de dados atual usa o campo `date_time` para determinar quais hits pertencem à hora. Esse campo se baseia no fuso horário do conjunto de relatórios.
 
 ## Qual é a diferença entre colunas com um prefixo `post_` e colunas sem um prefixo `post_`?
 
@@ -40,7 +40,7 @@ Se uma coluna não tiver uma versão `post_` (por exemplo, `visit_num`), ela pod
 
 No Adobe Analytics, a maioria das variáveis não diferencia maiúsculas de minúsculas para fins de relatório. Por exemplo, &#39;neve&#39;, &#39;Neve&#39;, &#39;NEVE&#39; e &#39;nEve&#39; são considerados o mesmo valor. A diferenciação entre maiúsculas e minúsculas é mantida nos feeds de dados.
 
-Se você vir variações de maiúsculas e minúsculas diferentes do mesmo valor entre colunas que sejam ou não de publicação (por exemplo, &quot;neve&quot; na coluna anterior e &quot;Neve&quot; na coluna posterior), sua implementação usa valores em maiúsculas e minúsculas no site. A diferenciação entre maiúsculas e minúsculas na coluna posterior foi transmitida e armazenada no cookie virtual ou processada ao mesmo tempo que o conjunto de relatórios.
+Se você vir variações de maiúsculas e minúsculas diferentes do mesmo valor entre colunas que não sejam de publicação e posterior (por exemplo, &quot;neve&quot; na coluna anterior e &quot;Neve&quot; na coluna posterior), sua implementação usa valores em maiúsculas e minúsculas no site. A diferenciação entre maiúsculas e minúsculas na coluna posterior foi transmitida e armazenada no cookie virtual ou processada ao mesmo tempo que o conjunto de relatórios.
 
 ## Os bots são filtrados pelas regras de bot do Admin Console nos feeds de dados?
 
@@ -60,7 +60,7 @@ Algumas operadoras de celular (tais como T-Mobile e O1) não fornecem mais infor
 
 Para dados com mais de 7 dias, os arquivos &quot;Por hora&quot; de um dia são combinados em um único arquivo &quot;Diariamente&quot;.
 
-Exemplo: Um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1º de janeiro de 2021 a 9 de março são entregues como &quot;Por hora&quot;. No entanto, os arquivos &quot;por hora&quot; anteriores a 2 de março de 2021 são combinados em um único arquivo &quot;diário&quot;. Você pode extrair arquivos &quot;por hora&quot; somente de dados com menos de 7 dias a partir da data de criação. Nesse caso, de 2 de março a 9 de março.
+Exemplo: Um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1º de janeiro de 2021 a 9 de março são entregues como &quot;Por hora&quot;. No entanto, os arquivos &quot;por hora&quot; antes de 2 de março de 2021 são combinados em um único arquivo &quot;diário&quot;. Você pode extrair arquivos &quot;por hora&quot; somente de dados com menos de 7 dias a partir da data de criação. Nesse caso, de 2 de março a 9 de março.
 
 ## Qual é o impacto do horário de verão nos feeds de dados por hora? {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -72,7 +72,7 @@ Ao fazer as transições de horário de verão -> horário padrão, (&quot;Fall 
 
 ## Como o Analytics lida com falhas de transferência de FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Caso haja uma falha de transferência no FTP (logon negado, conexão perdida, fora da cota etc.), o Adobe tenta automaticamente se conectar e envia os dados até três vezes. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
+Se uma transferência de FTP falhar (devido a um logon negado, conexão perdida, erro de fora da cota ou outro problema), o Adobe tenta automaticamente se conectar e envia os dados até três vezes. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
 
 Se uma transferência falhar, você poderá executar uma tarefa novamente até que seja concluída com sucesso.
 
@@ -82,13 +82,19 @@ Se tiver problemas para que um feed de dados apareça no site FTP, consulte [Sol
 
 Depois de verificar/corrigir o problema de entrega, execute novamente o trabalho para obter os arquivos.
 
-## Qual é a configuração BucketOwnerFullControl para feeds de dados do Amazon S3? {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Qual é a configuração BucketOwnerFullControl para feeds de dados do Amazon S3? {#BucketOwnerFullControl}
 
-O caso de uso comum da Amazon S3 é que o proprietário da conta da Amazon Web Services (AWS) cria um bucket e, em seguida, cria um usuário com permissões para criar objetos nele, além de fornecer credenciais para esse usuário. Nesse caso, os objetos de um usuário pertencem à mesma conta, e o proprietário da conta tem implicitamente total controle do objeto (ler, excluir etc.). Esse processo é semelhante à forma como a entrega por FTP funciona.
+**BucketOwnerFullControl** fornece direitos entre contas para criar objetos em outros buckets.
 
-O AWS também possibilita que um usuário crie objetos em um compartimento que pertence a uma conta de usuário diferente. Por exemplo, se dois usuários do AWS, o usuárioA e o usuárioB, não pertencem à mesma conta do AWS, mas desejam criar objetos em outros buckets. Se o usuárioA cria um bucket, por exemplo, bucketA, ele ou ela pode criar uma política de bucket que permite explicitamente que o usuárioB crie objetos no bucketA, mesmo se o usuário não for o proprietário do bucket. Essa política pode ser vantajosa porque não exige que o usuárioA e o usuárioB troquem credenciais. Em vez disso, o usuárioB fornece ao usuárioA o número da conta, e o usuárioA cria uma política de bucket que essencialmente diz “permitir que o usuárioB crie objetos do bucketA”.
+O caso de uso comum da Amazon S3 é que o proprietário da conta da Amazon Web Services (AWS) cria um bucket e, em seguida, cria um usuário com permissões para criar objetos nele, além de fornecer credenciais para esse usuário. Nesse caso, os objetos de um usuário pertencem à mesma conta, e o proprietário da conta tem o controle total do objeto (ler, excluir e assim por diante). Esse processo é semelhante à forma como a entrega por FTP funciona.
 
-**BucketOwnerFullControl** fornece direitos entre contas para criar objetos em outros buckets. Se o usuárioB carregar um objeto no bucket do usuárioA, o usuárioB ainda será &quot;proprietário&quot; desse objeto e, por padrão, o usuárioA não receberá permissões para esse objeto, mesmo que o usuárioA seja proprietário do bucket. Isso ocorre porque os objetos não herdam permissões do bucket pai. O usuárioB deve conceder permissões para o usuárioA, pois o primeiro ainda é o proprietário do objeto. Para conceder essa permissão, o usuárioB deve fazer upload do objeto com uma ACL BucketOwnerFullControl , que especifica que o proprietário do bucket (usuárioA) recebe permissões completas para o objeto (ler, gravar, excluir etc.), mesmo que o objeto seja &quot;de propriedade&quot; do usuárioB.
+O AWS também possibilita que um usuário crie objetos em um compartimento que pertence a uma conta de usuário diferente. Por exemplo, digamos que dois usuários do AWS, o usuárioA e o usuárioB, não pertençam à mesma conta do AWS, mas desejam criar objetos em outros buckets. Se o usuárioA criar um bucket chamado &quot;bucketA&quot;, ele poderá criar uma política de bucket que permita explicitamente que o usuárioB crie objetos no bucketA, mesmo que o usuário não seja o proprietário do bucket. Essa política pode ser vantajosa porque não requer que o usuárioA e o usuárioB troquem credenciais. Em vez disso, o usuárioB fornece ao usuárioA o número da conta, e o usuárioA cria uma política de bucket que essencialmente diz “permitir que o usuárioB crie objetos do bucketA”.
+
+No entanto, objetos não herdam permissões do bucket pai. Portanto, se o usuárioB carregar um objeto no bucket do usuárioA, o usuárioB ainda será &quot;proprietário&quot; desse objeto e, por padrão, o usuárioA não receberá permissões para esse objeto, mesmo que o usuárioA seja proprietário do bucket. O usuárioB deve conceder permissões para o usuárioA, pois o primeiro ainda é o proprietário do objeto. Para conceder essa permissão, o usuárioB deve carregar o objeto com uma ACL BucketOwnerFullControl, que especifica que o proprietário do bucket (usuárioA) recebe permissões completas para o objeto (ler, gravar, excluir e assim por diante), mesmo que o objeto seja &quot;de propriedade&quot; do usuárioB.
+
+>[!NOTE]
+>
+>[!DNL Analytics] não determina se o bucket tem uma política que requer que o proprietário do bucket tenha total controle de novos objetos, ou mesmo se o proprietário do bucket estiver em uma conta diferente da do usuário que está gravando os dados. Em vez disso, [!DNL Analytics] adiciona automaticamente o proprietário do bucket à ACL BucketOwnerFullControl com cada upload de feed.
 
 >[!MORELIKETHIS]
 >
