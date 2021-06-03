@@ -2,17 +2,19 @@
 description: A integração dos Data Connectors para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
 title: Variáveis do Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: a59216f2-047b-429b-8714-a2bdaa271911
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
-
 
 # Variáveis do Analytics {#analytics-variables}
 
 A integração dos Data Connectors para o emarsys usa variáveis do Analytics para rastrear várias métricas do emarsys.
 
-Depois de identificar o evento e as eVars a serem usadas na integração com o emarsys, ative-as no [Admin Console](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/c-admin-tools.html).
+Depois de identificar o evento e as eVars a serem usadas na integração com o emarsys, ative-as no [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html).
 
 **Variáveis obrigatórias**
 
@@ -70,4 +72,3 @@ Depois de identificar o evento e as eVars a serem usadas na integração com o e
   </tr> 
  </tbody> 
 </table>
-
