@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: Perguntas frequentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Se você tiver emails/endereços/etc em uma prop ou eVar, considere fazer o hash dos dados durante a coleta. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Se seu país considera endereços IP como PII, <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/exclude-ip.html"  >ative a ofuscação de IP </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Se seu país considera endereços IP como PII, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >ative a ofuscação de IP </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Entre em contato com o Administrador do Analytics para descobrir o que está sendo coletado. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Entre em contato com o departamento jurídico para descobrir o que é considerado como PII. </li> 
     </ul> </td> 
@@ -48,7 +47,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: Como faço para criar um destino do Analytics no Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Consulte <a href="https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurar um destino do Analytics no AAM </a>. </td> 
+   <td colname="col2"> Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurar um destino do Analytics no AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Depois de criar e salvar um destino do Analytics, quanto leva até que os dados apareçam em meus conjuntos de relatórios selecionados?</b> </p> </td> 
