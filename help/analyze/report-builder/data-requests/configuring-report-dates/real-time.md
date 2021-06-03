@@ -4,14 +4,13 @@ title: Relatórios em Tempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 95%
+source-wordcount: '261'
+ht-degree: 94%
 
 ---
-
 
 # Relatórios em Tempo real
 
@@ -26,8 +25,8 @@ Para relatórios em tempo real, o Analytics utiliza métricas de alta frequênci
 * Utilizar qualquer evento personalizado, evento de carrinho de compras ou instância.
 * Exibir até 20 horas de dados históricos e em tempo real.
 
-A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL   Os relatórios em tempo real] não são a mesma coisa que o recurso [Incluir dados recorrentes](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Recenticidade dos dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padronizados ao exibir os dados antes da finalização.
+>[!UICONTROL   Os relatórios em tempo real] não são a mesma coisa que o recurso [Incluir dados recorrentes](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recenticidade dos dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padronizados ao exibir os dados antes da finalização.
