@@ -3,11 +3,10 @@ description: Conjuntos de relatórios virtuais podem ser curados para incluir e 
 title: Curadoria do componente de conjunto de relatórios virtual
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ Conjuntos de relatórios virtuais podem ser curados para incluir e excluir compo
 
 Para permitir a curadoria de componentes,
 
-1. Acesse **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
+1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
 1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **[!UICONTROL Componentes]**.
 
 1. Marque a caixa de seleção **[!UICONTROL Habilitar personalização de componentes de conjuntos de relatórios virtuais]**:
@@ -72,4 +71,4 @@ Use grupos de componentes para criar adições de componentes em massa ao seu co
 
 ## Comportamento do Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Para obter mais informações sobre a preparação na Analysis Workspace, consulte [Preparar e compartilhar um projeto](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Para obter mais informações sobre a preparação na Analysis Workspace, consulte [Preparar e compartilhar um projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
