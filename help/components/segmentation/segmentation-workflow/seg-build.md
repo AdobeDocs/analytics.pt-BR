@@ -4,10 +4,10 @@ title: Construir segmentos
 feature: Segmentação
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 * **Navegação superior do Analytics**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar segmento]**.
 * **[!UICONTROL Reports &amp; Analytics]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone de Segmentos ![](assets/segment_icon.png) na navegação à esquerda e, em seguida, clique em **[!UICONTROL Adicionar]**.
-* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Critérios do construtor {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -62,7 +62,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Valor]**: o valor inserido ou selecionado para a dimensão, segmento ou métrica.
 1. **[!UICONTROL X]**: (excluir) permite que você exclua essa parte da definição de segmentos.
 1. **[!UICONTROL Publicação na Experience Cloud]**: A publicação de um segmento do Adobe Analytics na Experience Cloud permite que você use o segmento para atividade de marketing no [!DNL Audience Manager] e em outros canais de ativação. [Saiba mais...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Biblioteca de público-alvo]**: Os serviços de público-alvo da Adobe gerenciam a conversão dos dados do visitante em segmentação do público-alvo. Assim, criar e gerenciar públicos-alvo é como criar e usar segmentos, com a capacidade adicional de compartilhar o segmento do público-alvo com a Experience Cloud. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Biblioteca de público-alvo]**: Os serviços de público-alvo da Adobe gerenciam a conversão dos dados do visitante em segmentação do público-alvo. Assim, criar e gerenciar públicos-alvo é como criar e usar segmentos, com a capacidade adicional de compartilhar o segmento do público-alvo com a Experience Cloud. [Saiba mais...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Pesquisa]**: pesquisa a lista de dimensões, segmentos ou métricas.
 1. **[!UICONTROL Dimensões]**: (Lista) clique no cabeçalho para expandir.
 1. **[!UICONTROL Métrica]**: clique no cabeçalho para expandir.
