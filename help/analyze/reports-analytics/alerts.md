@@ -3,16 +3,15 @@ description: Use alertas no Reports & Analytics.
 subtopic: Alerts
 title: Alertas
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Alerts
+feature: Alertas
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 99%
+source-wordcount: '876'
+ht-degree: 94%
 
 ---
-
 
 # Alertas
 
@@ -27,7 +26,7 @@ O Alertas inteligentes é o novo sistema de alertas do Adobe Analytics, e permit
 
 É possível acessar esse novo sistema de Alertas por meio de **[!UICONTROL Mais]** > **[!UICONTROL Alertas]** em qualquer relatório no Reports &amp; Analytics.
 
-Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) na documentação da Analysis Workspace.
+Para obter mais informações, acesse a seção sobre [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) na documentação da Analysis Workspace.
 
 ## Adicionar um alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -43,13 +42,13 @@ Navegue até o novo Construtor de alertas no menu **[!UICONTROL Analytics]** > *
 
 1. Em Reports &amp; Analytics, abra o relatório no qual deseja definir um alerta.
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
-1. Isso levará você ao [novo Construtor de alertas](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
+1. Isso levará você ao [novo Construtor de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
 ## Visualizar ou editar alertas existentes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contexto da tarefa
 
-1. Vá até **[!UICONTROL Análises]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Isso leva você ao novo [Gerenciador de alertas](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Isso leva você ao novo [Gerenciador de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migração de alertas herdados {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -83,7 +82,7 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Alertas de visitantes únicos com base em tempo (Visitantes únicos diários, semanais, mensais etc. Visitantes únicos) </p> <p> </p> </td> 
    <td colname="col2"> <p>Crie alertas para relatórios de visitantes únicos diários, semanais, mensais e por hora. </p> </td> 
-   <td colname="col3"> <p>No novo Gerenciador de alertas, não haverá mais suporte para alguns alertas de visitantes únicos com base em tempo. Por exemplo, onde você definiu um alerta semanal para visitantes únicos diários, pode definir um alerta diário, mensal etc. na métrica Visitantes únicos mais adiante. (A Analysis Workspace é compatível com uma métrica Visitantes exclusivos, mas é incompatível com métricas de Visitantes únicos diários/semanais/mensais/etc.) </p> <p> </p> </td> 
+   <td colname="col3"> <p>No novo Gerenciador de alertas, não haverá mais suporte para alguns alertas de visitantes únicos com base em tempo. Por exemplo, onde você definiu um alerta semanal para visitantes únicos diários, pode definir um alerta diário, mensal etc. na métrica Visitantes únicos mais adiante. (A Analysis Workspace é compatível com uma métrica visitante únicos, mas é incompatível com métricas de Visitantes únicos diários/semanais/mensais/etc.) </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pesquisar </p> </td> 
@@ -109,12 +108,12 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas que usam métricas de participação </p> </td> 
-   <td colname="col2"> <p> As <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/attribution/overview.html"  >Métricas de participação</a> estão disponíveis em Reports &amp; Analytics e indisponíveis no novo sistema de alertas na Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> As <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >Métricas de participação</a> estão disponíveis em Reports &amp; Analytics e indisponíveis no novo sistema de alertas na Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas mensais para conjuntos de relatórios de calendário personalizado </p> </td> 
-   <td colname="col2"> <p>Isso afeta apenas os clientes com alertas configurados para conjuntos de relatórios que têm <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >datas personalizadas de início de mês</a> (Federação Nacional de Varejo/NRF e tipos de calendários personalizados). </p> <p>Não afeta alertas em conjuntos de relatórios do calendário gregoriano ou gregoriano modificado. Anteriormente, esses alertas eram enviados no primeiro dia do mês gregoriano (por exemplo, 1º de janeiro, 1º de fevereiro etc). Isso não funcionará com o novo recurso de alertas Detecção de anomalias, que considera dados de meses anteriores ao detectar anomalias. No futuro, adicionaremos suporte ao sistema de programação para calendários personalizados de modo que os Alertas e os Projetos programados possam ser programados para envio no primeiro dia do mês do calendário personalizado em vez do primeiro dia do mês gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Isso afeta apenas os clientes com alertas configurados para conjuntos de relatórios que têm <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >datas personalizadas de início de mês</a> (Federação Nacional de Varejo/NRF e tipos de calendários personalizados). </p> <p>Não afeta alertas em conjuntos de relatórios do calendário gregoriano ou gregoriano modificado. Anteriormente, esses alertas eram enviados no primeiro dia do mês gregoriano (por exemplo, 1º de janeiro, 1º de fevereiro etc). Isso não funcionará com o novo recurso de alertas Detecção de anomalias, que considera dados de meses anteriores ao detectar anomalias. No futuro, adicionaremos suporte ao sistema de programação para calendários personalizados de modo que os Alertas e os Projetos programados possam ser programados para envio no primeiro dia do mês do calendário personalizado em vez do primeiro dia do mês gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Ainda não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ deprecated_alerts.xml
   </tr> 
  </tbody> 
 </table>
-
