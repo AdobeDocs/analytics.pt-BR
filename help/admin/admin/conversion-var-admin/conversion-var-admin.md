@@ -5,10 +5,10 @@ title: Variáveis de conversão (eVar)
 feature: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 98%
+source-wordcount: '1578'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Se desejar a medida de tráfego ou de definição de caminho, é recomendado usa
 
 >[!NOTE]
 >
->Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html).
+>Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variáveis de conversão - descrições {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -88,7 +88,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(somente eVar) </p> </td> 
-   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b>Sintaxe de produtos</b>:</span> associa o valor de eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b>Sintaxe de variável de conversão</b>:</span> associa a eVar a um produto somente se um evento compulsório ocorrer. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/variables/merchandising-variables/var-merchandising.html">Variáveis de merchandising</a>. </p> </td> 
+   <td colname="col2"> <p>As variáveis de merchandising podem seguir uma das duas sintaxes: </p> <p> <b>Sintaxe de produtos</b>:</span> associa o valor de eVar a um produto. Observação: se a Sintaxe de produtos estiver selecionada, a seção Evento de vinculação de merchandising é desativada e não pode ser selecionada para edição. Os Eventos de vinculação não se aplicam a essa sintaxe. </p> </p> <p> <b>Sintaxe de variável de conversão</b>:</span> associa a eVar a um produto somente se um evento compulsório ocorrer. Nesse caso, você seleciona os eventos que atuam como Eventos de ligação. </p> <p>Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">Variáveis de merchandising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento compulsório de merchandising</span> </p> <p>(somente eVar) </p> </td> 
