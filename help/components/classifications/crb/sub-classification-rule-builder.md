@@ -1,11 +1,10 @@
 ---
 description: Não é possível combinar o Construtor de regras de classificação com subclassificações.
 title: Subclassificações e o Construtor de regras
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 >
 >Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o construtor de regras](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Criar classificações e subclassificação no [Gerenciador de classificações](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html).
+1. Criar classificações e subclassificação no [Gerenciador de classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Exemplo:
 
@@ -50,7 +49,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Isso é realizado utilizando uma expressão regular. Nesse exemplo, a regra é preencher *`Broad Campaign code`* usaria essa expressão regular:
 
-   | `#` | Tipo de regra | Correspondência | Definir a classificação | Para |
+   | `#` | Tipo de regra | Corresponder | Definir a classificação | Para |
    |---|---|---|---|---|
    |  | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código de campanha ampla | `$1` |
    |  | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código criativo | `$2` |
