@@ -2,17 +2,19 @@
 description: A integração dos Data Connectors para o Silverpop usa variáveis do Analytics para rastrear várias métricas do Silverpop.
 title: Variáveis de integração do Analytics
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 98%
 
 ---
-
 
 # Variáveis de integração do Analytics {#analytics-integration-variables}
 
 A integração dos Data Connectors para o Silverpop usa variáveis do Analytics para rastrear várias métricas do Silverpop.
 
-Após identificar o evento e as eVars a serem usadas na integração do Silverpop, use o Admin Console do Adobe Analytics para ativá-los (consulte [Conjuntos de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Após identificar o evento e as eVars a serem usadas na integração do Silverpop, use o Admin Console do Adobe Analytics para ativá-los (consulte [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)).
 
 A tabela a seguir descreve as variáveis do Analytics necessárias para a integração do Silverpop.
 
@@ -38,4 +40,3 @@ A tabela a seguir descreve as variáveis do Analytics necessárias para a integr
 | eVar | Endereço de email | Coletado manualmente por meio de tags do Analytics. | A variável Endereço de email serve para coletar manualmente o endereço de email ao assinar, fazer logon ou em outras páginas nas quais o endereço de email é coletado. Essa variável é usada para o remarketing para usuários que aceitaram receber email, mas que talvez ainda não tenham clicado em um email no passado. |
 | eVar | Arquivo baixado | Coletado manualmente por meio de tags do Analytics. | Arquivo baixado identifica qual arquivo o visitante baixou. |
 | eVar | Nome do formulário | Coletado manualmente por meio de tags do Analytics. | Nome do formulário identifica que formulário um visitante abandonou. |
-
