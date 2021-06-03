@@ -4,10 +4,9 @@ title: Guia executivo de painéis do Adobe Analytics
 feature: Painéis do Analytics
 role: Business Practitioner, Administrator
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1295'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
 
 ---
@@ -122,7 +121,7 @@ Para usar painéis:
 
    * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **[!UICONTROL COMPARAR COM]**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **[!UICONTROL Concluído]** no canto superior direito da tela. O campo **[!UICONTROL Intervalos de datas]** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
-7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) no aplicativo funcionam da mesma forma que no Analytics Workspace.
+7. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
    ![Filtro de segmentos](assets/segment_filter.png)
 
