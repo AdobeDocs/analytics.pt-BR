@@ -5,11 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1399'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ Você pode criar um projeto a partir de:
 
 * **Projeto em branco (padrão)**: para obter instruções, consulte [Criar um projeto no Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * **Modelo padrão**: esses modelos são criados pela Adobe e fornecidos com o produto.
-* **Modelo personalizado**: esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a permissão [!UICONTROL Analysis Workspace: salvar como modelo] no Admin Console. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-console/permissions/product-profile.html)
+* **Modelo personalizado**: esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a permissão [!UICONTROL Analysis Workspace: salvar como modelo] no Admin Console. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -57,7 +56,7 @@ Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis 
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
-Tutorial em vídeo sobre [Modelos padrão no Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Tutorial em vídeo sobre [Modelos padrão no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder.
 
@@ -81,7 +80,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 * **Magento: Marketing e Comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo:
 
->[!VIDEO](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Mídia
 
@@ -119,7 +118,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 >[!NOTE]
 >
->O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/data/people.html).
+>O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
 
 O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
@@ -135,7 +134,7 @@ O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da m�
 
 <!--This content is mirrored in the CDA doc.-->
 
-Esse modelo permite que você veja dados essenciais de desempenho entre dispositivos. Ele está disponível somente para clientes que têm acesso ao [Cross-Device Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/cda-home.html) (CDA).
+Esse modelo permite que você veja dados essenciais de desempenho entre dispositivos. Ele está disponível somente para clientes que têm acesso ao [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA).
 
 * **Nota especial para os membros do Gráfico cooperativo**: mostra qual parte do conjunto de relatórios contém visitantes em regiões nas quais o gráfico cooperativo é suportado e em regiões nas quais ele não é suportado.
 * **Identificação de usuários**: mostra a frequência com que os visitantes do site são identificados usando métodos com base na Análise entre dispositivos.
