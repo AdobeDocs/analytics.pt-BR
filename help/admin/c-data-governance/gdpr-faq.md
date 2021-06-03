@@ -3,11 +3,10 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1806'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como os controladores de dados devem lidar com a retenção de dados relacionada à Privacidade de dados?</b> </p> </td> 
-   <td colname="col2"> <p>A Privacidade de dados geralmente determina que os dados pessoais não devem ser retidos por mais tempo do que o necessário para atingir o propósito para o qual foram coletados. </p> <p>Como a Adobe detalhou em sua comunicação com o cliente em fevereiro, um plano de retenção de dados de 25 meses será aplicado para a maioria dos clientes, a menos que outros acordos tenham sido feitos (sujeito à notificação e autorização do cliente). Os clientes precisarão definir sua política de retenção de dados para que a Adobe processe a solicitação de Privacidade de dados. </p> <p>O Adobe Analytics exige que os clientes definam sua retenção de dados para processar suas solicitações de Privacidade de dados. A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do usuário do administrador da Governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Consulte as <a href="https://docs.adobe.com/content/help/pt-BR/analytics/technotes/latency.html">Perguntas frequentes sobre a retenção de dados do Adobe Analytics. </a> </p> </td> 
+   <td colname="col2"> <p>A Privacidade de dados geralmente determina que os dados pessoais não devem ser retidos por mais tempo do que o necessário para atingir o propósito para o qual foram coletados. </p> <p>Como a Adobe detalhou em sua comunicação com o cliente em fevereiro, um plano de retenção de dados de 25 meses será aplicado para a maioria dos clientes, a menos que outros acordos tenham sido feitos (sujeito à notificação e autorização do cliente). Os clientes precisarão definir sua política de retenção de dados para que a Adobe processe a solicitação de Privacidade de dados. </p> <p>O Adobe Analytics exige que os clientes definam sua retenção de dados para processar suas solicitações de Privacidade de dados. A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do usuário do administrador da Governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Consulte as <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html">Perguntas frequentes sobre a retenção de dados do Adobe Analytics. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Um cliente pode reduzir ou estender um período de retenção de dados padrão?</b> </p> </td> 
