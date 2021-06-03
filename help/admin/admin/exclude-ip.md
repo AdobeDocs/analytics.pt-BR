@@ -2,10 +2,10 @@
 title: Excluir por endereço IP
 description: Impedir que os dados gerados por determinados endereços IP apareçam nos relatórios.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 82%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->As ocorrências excluídas pelo endereço IP são cobradas como [chamadas do servidor](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/terms.html).
+>As ocorrências excluídas pelo endereço IP são cobradas como [chamadas do servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
 Você pode usar indicadores curinga (*) para excluir um intervalo de endereços. Por exemplo, `[!DNL 0.0.*.0]` excluiria todos os endereços IP entre `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. É possível excluir até 50 endereços IP diferentes.
 
