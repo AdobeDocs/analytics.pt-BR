@@ -4,11 +4,10 @@ title: Painel Analytics for Target (A4T)
 feature: Painéis
 role: Business Practitioner, Administrator
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 93%
 
 ---
 
@@ -52,18 +51,18 @@ Cada tabela de forma livre mostra as seguintes colunas de métrica:
 | Lift (superior) | Representa o melhor aumento que uma experiência variante poderia ter sobre o controle, em um intervalo de confiança de 95%.<br>Cálculo: consulte Aumento (Inferior). |
 | Confiança | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. Observação: a confiança é uma “métrica bloqueada” para as experiências do Target; ela não pode ser desmembrada nem usada com outras dimensões.<br>Cálculo: aplique um teste t de 2 caudas com y+y_control-2 graus de liberdade para encontrar o valor p, seja x/y igual a x_control/y_control. Calcule a pontuação t, em que stderr é sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Retorne 1-p como a confiança de que são diferentes. |
 
-Assim como em qualquer painel no Analysis Workspace, você pode continuar sua análise adicionando tabelas e [visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionais que ajudarão a analisar suas atividades do Adobe Target. Também é possível aplicar um segmento no nível do painel ou na tabela de forma livre. Observe que, se o adicionar à tabela de forma livre, você deverá sobrepô-lo na tabela inteira para preservar os cálculos de aumento e confiança. Os segmentos de nível de coluna não são suportados no momento.
+Assim como em qualquer painel no Analysis Workspace, você pode continuar sua análise adicionando tabelas e [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) adicionais que ajudarão a analisar suas atividades do Adobe Target. Também é possível aplicar um segmento no nível do painel ou na tabela de forma livre. Observe que, se o adicionar à tabela de forma livre, você deverá sobrepô-lo na tabela inteira para preservar os cálculos de aumento e confiança. Os segmentos de nível de coluna não são suportados no momento.
 
 ## Perguntas frequentes {#FAQ}
 
 | Pergunta | Resposta |
 |---|---|
-| Que tipos de atividade são aceitas no A4T? | [Saiba mais](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sobre os tipos de atividades aceitos. |
-| As métricas calculadas são aceitas nos cálculos de incentivo e confiança? | Não. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre por que as métricas calculadas não são aceitas no incentivo e na confiança. No entanto, as métricas calculadas podem ser usadas no relatórios do A4T fora dessas métricas. |
-| Por que os visitantes únicos variam entre o Target e o Analytics? | [Saiba mais](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre as variações de visitantes únicos entre produtos. |
-| Quando aplicar um segmento de ocorrência para uma atividade do Target específica em minha análise, por que vejo experiências não relacionadas retornadas? | A dimensão A4T é uma variável de lista, o que significa que pode conter muitas atividades (e experiências) ao mesmo tempo. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| A métrica de confiança contabiliza pedidos extremos ou aplica uma correção Bonferroni para várias ofertas? | Não. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre como o Analytics calcula a confiança. |
+| Que tipos de atividade são aceitas no A4T? | [Saiba mais](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sobre os tipos de atividades aceitos. |
+| As métricas calculadas são aceitas nos cálculos de incentivo e confiança? | Não. [Saiba mais](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre por que as métricas calculadas não são aceitas no incentivo e na confiança. No entanto, as métricas calculadas podem ser usadas no relatórios do A4T fora dessas métricas. |
+| Por que os visitantes únicos variam entre o Target e o Analytics? | [Saiba mais](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre as variações de visitantes únicos entre produtos. |
+| Quando aplicar um segmento de ocorrência para uma atividade do Target específica em minha análise, por que vejo experiências não relacionadas retornadas? | A dimensão A4T é uma variável de lista, o que significa que pode conter muitas atividades (e experiências) ao mesmo tempo. [Saiba mais](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| A métrica de confiança contabiliza pedidos extremos ou aplica uma correção Bonferroni para várias ofertas? | Não. [Saiba mais](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre como o Analytics calcula a confiança. |
 | As métricas de incentivo e confiança podem ser usadas com outras dimensões ou detalhamentos? | O incentivo e a confiança são “métricas bloqueadas” para a dimensão Experiências do Target, pois exigem um controle e uma variação para calcular. Sendo assim, não podem ser divididas nem utilizadas com outras dimensões. |
 | Quando recalcular o incentivo e a confiança? | O aumento e a confiança serão calculados novamente sempre que o painel for executado (ou executado novamente), o intervalo de datas do painel mudar ou um segmento for aplicado ao painel ou à tabela. Ao ser aplicado um filtro de segmento à tabela de forma livre, ele deve ser aplicado em todas as colunas, caso contrário, o aumento e a confiança não serão atualizados corretamente. Os segmentos de nível de coluna não são suportados no momento. |
 
-Para obter mais informações sobre os relatórios do Analytics for Target, acesse [relatórios do A4T](https://docs.adobe.com/content/help/pt-BR/target/using/integrate/a4t/reporting.html)
+Para obter mais informações sobre os relatórios do Analytics for Target, acesse [relatórios do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/reporting.html)
