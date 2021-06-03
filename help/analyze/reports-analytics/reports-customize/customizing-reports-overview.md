@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +38,7 @@ Somente administradores podem criar um relatório personalizado. Ao criar um rel
 
 >[!MORELIKETHIS]
 >
->* [Personalização do menu](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/customize-menus.html)
+>* [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ Não é possível comparar datas entre relatórios de tendências.
 
 >[!NOTE]
 >
->Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Report Builder](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/report-builder/home.html) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+>Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
@@ -210,7 +209,7 @@ Este recurso aplica-se somente a relatórios de tendências filtrados com um int
 1. Execute um relatório de tendência em um intervalo de datas especificado.
 1. Clique no link **[!UICONTROL Dias da semana]** e, em seguida, clique no dia.
 
-## Botão “Testar na Workspace” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Botão “Testar na Workspace”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Se você clicar no botão **[!UICONTROL Testar na Workspace]** na parte superior de um relatório, isso carregará o mesmo relatório na Analysis Workspace.
 
@@ -224,4 +223,4 @@ A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar 
 
 No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
 
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/home.html).
+Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
