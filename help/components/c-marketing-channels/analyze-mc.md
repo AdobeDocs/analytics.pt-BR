@@ -2,10 +2,10 @@
 title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 86%
+source-wordcount: '410'
+ht-degree: 81%
 
 ---
 
@@ -49,7 +49,7 @@ Os Detalhes dos canais de marketing aprofundam-se em cada canal para mostrar cam
 
 ## Aplicar modelos de atribuição
 
-Você pode usar o [Attribution IQ](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/attribution.html) para aplicar modelos de atribuição diferentes instantaneamente:
+Você pode usar o [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) para aplicar modelos de atribuição diferentes instantaneamente:
 
 ![](assets/mc-viz5.png)
 
@@ -61,4 +61,4 @@ Usando o Canal de primeiro toque e o Canal de último toque herdados, você pode
 
 ![](assets/mc-viz6.png)
 
-Saiba mais sobre a análise de marketing entre guias neste vídeo: [Utilização da Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Saiba mais sobre a análise de marketing entre guias neste vídeo: [Utilização da Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
