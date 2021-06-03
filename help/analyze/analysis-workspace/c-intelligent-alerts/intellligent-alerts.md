@@ -5,11 +5,10 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 feature: Ferramentas de IA
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Os Alertas inteligentes permitem um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 
-Tutorial em vídeo sobre [Alertas inteligentes](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Tutorial em vídeo sobre [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Visão geral
 
