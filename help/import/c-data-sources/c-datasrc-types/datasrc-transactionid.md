@@ -1,14 +1,13 @@
 ---
 title: Fontes de dados de ID de transação
 description: Saiba mais sobre o fluxo de trabalho geral do uso de fontes de dados de ID de transação.
-translation-type: ht
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # Fontes de dados de ID de transação
 
@@ -21,7 +20,7 @@ Ao enviar uma ocorrência online que contém um valor `transactionID`, a Adobe c
 Use o fluxo de trabalho genérico a seguir para começar a usar fontes de dados de ID de transação:
 
 1. Crie uma fonte de dados (categoria &quot;Genérica&quot; e tipo de &quot;Fonte de dados genérica (ID de transação)&quot;).
-1. Siga o assistente de configuração do feed de dados para obter um local FTP para carregar dados e baixar um arquivo de modelo de fontes de dados.
+1. Siga o assistente de configuração da fonte de dados para obter um local FTP para carregar dados e baixar um arquivo de modelo de fontes de dados.
 1. Atualize a implementação para incluir a variável `transactionID`.
 1. Faça o upload de um arquivo de fontes de dados no site FTP com um arquivo `.fin`.
 
