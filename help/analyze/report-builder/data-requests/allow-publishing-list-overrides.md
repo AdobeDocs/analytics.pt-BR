@@ -4,14 +4,13 @@ title: Permitir substituições da lista de publicação
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 92%
+source-wordcount: '164'
+ht-degree: 95%
 
 ---
-
 
 # Permitir substituições da lista de publicação
 
@@ -19,7 +18,7 @@ Quando você agenda um relatório, pode escolher uma lista de publicação para 
 
 A publicação de listas é configurada nas ferramentas administrativas do Analytics.
 
-Consulte [Publicação do gerenciador de lista](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) na referência do Analytics.
+Consulte [Publicação do gerenciador de lista](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) na referência do Analytics.
 
 Para ativar esse recurso, navegue até a janela [!UICONTROL Assistente de solicitações: etapa 1].
 
@@ -30,4 +29,3 @@ Esta opção não está disponível para conjuntos de relatórios selecionados a
 >[!NOTE]
 >
 >Se você enviar o relatório agendado para várias listas de publicação, o relatório será executado uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação.
-
