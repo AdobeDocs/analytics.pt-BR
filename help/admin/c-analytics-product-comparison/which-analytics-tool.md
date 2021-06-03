@@ -3,11 +3,10 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Para acessar visualizações exclusivas de faixa horária de exibição de vídeos e de saída de espectadores de vídeos.
 * Para aproveitar Listas de publicação em relatórios agendados.
 
-**[Data Workbench](https://docs.adobe.com/content/help/pt-BR/data-workbench/using/home.html)** deve ser usada:
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** deve ser usada:
 
 * Como a opção de ferramenta mais flexível do Analytics (análise de perda a nível de visitantes, a nível de ocorrência).
 * Para criar um conjunto de dados multicanal e interações online e offline de CRM para POS, até a Web.
@@ -71,7 +70,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 * A API de inserção de dados e a API de inserção de dados em massa são métodos usados para enviar dados de coleção do lado do servidor para o Adobe Analytics. As chamadas da API de inserção de dados aceitam um evento por vez. A API de inserção de dados em massa aceita arquivos formatados CSV contendo dados do evento, um evento por linha. Se você estiver trabalhando em uma nova implementação da coleção do lado do servidor, recomendamos usar a API de inserção de dados em massa.
 
-**[Atributos do cliente](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html)** devem ser usados:
+**[Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** devem ser usados:
 
 * Se você capturar dados de clientes empresariais em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e desejar fazer o upload dos dados para a Experience Cloud.
 * Se você deseja usar os dados de CRM para executar análises mais aprofundadas no Analytics ou como critérios de segmentação no Adobe Target.
@@ -108,7 +107,7 @@ O **[Feed de dados do Analytics](/help/export/analytics-data-feed/c-df-contents/
 As **[APIs de relatórios](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** devem ser usadas quando outras opções de visualização não atenderem às suas necessidades. As 3 opções de API incluem:
 
 * **Totalmente processada**: quando quiser dados ricos em recursos (inclusive visitas, visitantes e segmentos). Isso são dados resumidos, típicos da interface do usuário do Analytics, disponíveis dentro de 30 a 90 minutos. Podem ser usados por meio do Report Builder.
-* **Em tempo real**: quando quiser visualizar algumas métricas e dimensões com segundos de latência. Isso são dados limitados, parcialmente processados e resumidos, disponíveis dentro de 30 segundos. Inclui algoritmos exclusivos dos mais populares, ganhadores e perdedores. Podem ser usados por meio do Report Builder.
+* **Em tempo real**: quando quiser visualizar algumas métricas e dimensões com segundos de latência. Isso são dados limitados, parcialmente processados e resumidos, disponíveis dentro de 30 segundos. Inclui algoritmos únicos dos mais populares, ganhadores e perdedores. Podem ser usados por meio do Report Builder.
 * **[!UICONTROL Livestream]**: quando quiser um fluxo de dados a nível de ocorrência, parcialmente processado do Analytics em segundos de coleção. Isso são dados parcialmente processados, disponíveis dentro de 30 segundos. Disponível apenas no Analytics Premium. Requer alguma forma de visualizar os dados, geralmente por meio de uma participação nos serviços de engenharia.
 
 ## Soluções personalizadas {#custom-solutions}
