@@ -3,14 +3,13 @@ description: 'O Report Builder 5.2 é compatível com as métricas calculadas un
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 99%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
-
 
 # Métricas calculadas
 
@@ -20,7 +19,7 @@ O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Ad
 >
 >As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
-Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/cm-overview.html).
+Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html).
 
 Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métricas calculadas.
 
@@ -49,4 +48,3 @@ Os filtros disponíveis incluem:
 Após selecionar os filtros, clique em **[!UICONTROL Aplicar]** para aplicá-las à solicitação. As métricas selecionadas serão adicionadas ao layout do relatório.
 
 ![](assets/filtering_for_metric.png)
-
