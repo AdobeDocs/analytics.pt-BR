@@ -2,10 +2,10 @@
 title: Regras de processamento de canais de marketing
 description: As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal. As regras processam cada ocorrência que um visitante faz ao seu site. Se uma regra não atender aos critérios de um canal, ou se elas não forem configuradas corretamente, o sistema atribui a ocorrência a Nenhum canal identificado.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 97%
+source-wordcount: '2163'
+ht-degree: 96%
 
 ---
 
@@ -121,13 +121,13 @@ Para a regra de canal de marketing, as configurações de [!UICONTROL Pesquisa P
 
 ![](assets/example_paid_search.png)
 
-Consulte [Detecção de pesquisa paga](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
+Consulte [Detecção de pesquisa paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
 
 ### Pesquisa natural {#natural-search}
 
 A pesquisa natural ocorre quando os visitantes encontram seu Web site por meio de uma pesquisa na Web, onde o mecanismo de pesquisa classifica seu site sem que você pague para entrar na listagem.
 
-Não existe detecção de pesquisa natural no Analytics. Após configurar a Detecção de pesquisa paga, o sistema saberá que se um referenciador de pesquisa não for do tipo pago, ele deve ser um referenciador de pesquisa natural. Consulte [Detecção de pesquisa paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
+Não existe detecção de pesquisa natural no Analytics. Após configurar a Detecção de pesquisa paga, o sistema saberá que se um referenciador de pesquisa não for do tipo pago, ele deve ser um referenciador de pesquisa natural. Consulte [Detecção de pesquisa paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
 
 Para a regra de canal de marketing, as configurações de Pesquisa natural são as seguintes:
 
@@ -169,7 +169,7 @@ Essa regra identifica os visitantes cujo URL de referência corresponde à confi
 
 ![](assets/int-channel1.png)
 
-Consulte [Motivos para interno (Atualização de sessão)](https://docs.adobe.com/content/help/pt-BR/analytics/components/marketing-channels/c-faq.html#interno) para obter mais informações sobre por que esse canal ocorre.
+Consulte [Motivos para interno (Atualização de sessão)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) para obter mais informações sobre por que esse canal ocorre.
 
 ### Direta {#direct}
 
