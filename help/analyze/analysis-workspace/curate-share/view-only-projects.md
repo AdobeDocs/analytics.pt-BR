@@ -5,10 +5,9 @@ title: Projetos do somente para visualização
 feature: Preparar e compartilhar
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ As interações desativadas em um projeto somente visualização incluem:
 
 * Painel esquerdo oculto
 * Conjunto de relatórios
-* Intervalo de datas do calendário do painel. Observação: se quiser conceder o controle do calendário aos recipients, adicione um [filtro suspenso com intervalo de datas](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Intervalo de datas do calendário do painel. Observação: se quiser conceder o controle do calendário aos recipients, adicione um [filtro suspenso com intervalo de datas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR).
 * Filtragem de forma livre
 * Número de formas livres de linhas visíveis
 * Configurações de linha, coluna ou visualização de forma livre
