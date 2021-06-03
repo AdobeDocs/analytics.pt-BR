@@ -3,11 +3,10 @@ description: Para acessar essas funções, selecione Mostrar avançadas na lista
 title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +26,7 @@ Por exemplo, se você possuir uma métrica de Receita e adicionar a métrica de 
 
 Por outro lado, se você possuir duas métricas de interesse, pode não ser correto dizer que uma tem uma média ou valor mínimo maior que a outra por causa dos zeros de algumas linhas. Neste caso, é melhor não marcar o parâmetro Incluir zeros.
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## E {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Retorna o valor do seu argumento. Use NOT para garantir que um valor não seja igual a um determinado valor.
 
@@ -42,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descrição |
 |---|---|
 | *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como TRUE ou FALSE. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como TRUE ou FALSE. |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
 
 ## Contagem distinta aproximada (dimensão) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -70,7 +69,7 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ### Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
+Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
 ### Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -100,7 +99,7 @@ ASIN(metric)
 
 | Argumento |  |
 |---|---|
-| *metric* | O cosseno do ângulo que você deseja de -1 a 1. |
+| *métrica* | O cosseno do ângulo que você deseja de -1 a 1. |
 
 ## Arco tangente (Linha) {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -112,11 +111,11 @@ ATAN(metric)
 
 | Argumento |  |
 |---|---|
-| *metric* | O cosseno do ângulo que você deseja de -1 a 1. |
+| *métrica* | O cosseno do ângulo que você deseja de -1 a 1. |
 
 ## Regressão exponencial: valor previsto de Y (Linha) {#concept_25615693312B4A7AB09A2921083502AD}
 
-Calcula os valores previstos de y (metric_Y), levando em conta os valores de x conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste baseada em .
+Calcula os valores previstos de y (metric_Y), levando em conta os valores de x conhecidos (metric_X) e usando o método dos quadrados mínimos para calcular a linha de melhor ajuste baseada em.
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -162,7 +161,7 @@ CEILING(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica que deseja arredondar. |
+| *métrica* | A métrica que deseja arredondar. |
 
 ## Cosseno (Linha) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -174,7 +173,7 @@ COS(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja obter o cosseno. |
+| *métrica* | O ângulo, em radianos, para o qual você deseja obter o cosseno. |
 
 ## Raiz cúbica {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -186,7 +185,7 @@ CBRT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter a raiz cúbica. |
+| *métrica* | A métrica para a qual você deseja obter a raiz cúbica. |
 
 ## Cumulativo {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -270,7 +269,7 @@ FLOOR(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica que deseja arredondar. |
+| *métrica* | A métrica que deseja arredondar. |
 
 ## Maior que {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -290,7 +289,7 @@ COSH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja descobrir o cosseno hiperbólico. |
+| *métrica* | O ângulo, em radianos, para o qual você deseja descobrir o cosseno hiperbólico. |
 
 ## Seno hiperbólico (Linha) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -302,7 +301,7 @@ SINH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja descobrir o seno hiperbólico. |
+| *métrica* | O ângulo, em radianos, para o qual você deseja descobrir o seno hiperbólico. |
 
 ## Tangente hiperbólica (Linha) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -314,9 +313,9 @@ TANH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
+| *métrica* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
 
-## IF (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## Se (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
 A função IF retorna um valor se uma condição especificada for considerada TRUE, e outro valor se a condição for considerada FALSE.
 
@@ -340,7 +339,7 @@ Retorna itens cuja contagem numérica é inferior ou igual ao valor inserido.
 
 ## Regressão linear: Coeficiente de correlação {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
 
-Y = a X + b. Retorna o coeficiente de correlação
+Y = a X + b. Retorna o coeficiente de correlação.
 
 ## Regressão linear: Intercepto {#concept_E44A8D78B802442DB855A07609FC7E99}
 
@@ -364,7 +363,7 @@ LOG10(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O número real positivo para o qual você deseja obter o logaritmo de base 10. |
+| *métrica* | O número real positivo para o qual você deseja obter o logaritmo de base 10. |
 
 ## Regressão logarítmica: coeficiente de correlação (Tabela) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -430,9 +429,9 @@ LN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O número real positivo para o qual você deseja obter o logaritmo natural. |
+| *métrica* | O número real positivo para o qual você deseja obter o logaritmo natural. |
 
-## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NÃO {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Retorna 1 se o número for 0, ou retorna 0 se for qualquer outro número.
 
@@ -465,7 +464,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descrição |
 |---|---|
 | *logical_test1* | Obrigatório. Qualquer valor ou expressão que possa ser avaliado como TRUE ou FALSE. |
-| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como TRUE ou FALSE. |
+| *logical_test2* | Opcional. Condições adicionais que você deseja avaliar como VERDADEIRO ou FALSO. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -643,11 +642,11 @@ SIN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja obter o seno. |
+| *métrica* | O ângulo, em radianos, para o qual você deseja obter o seno. |
 
 ## Pontuação T {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
-Alias da pontuação Z; mais especificamente, é o desvio da média dividido pelo desvio padrão
+Alias da pontuação Z; mais especificamente, é o desvio da média dividido pelo desvio padrão.
 
 ## Teste t {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
@@ -685,7 +684,7 @@ TAN (metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O ângulo, em radianos, para o qual você deseja obter a tangente. |
+| *métrica* | O ângulo, em radianos, para o qual você deseja obter a tangente. |
 
 ## Pontuação Z (Linha) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -712,7 +711,7 @@ Pontuação Z (métrica)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i>métrica</i> </td> 
    <td colname="col2"> <p> Retorna o valor do seu primeiro argumento diferente de zero. </p> </td> 
   </tr> 
  </tbody> 
