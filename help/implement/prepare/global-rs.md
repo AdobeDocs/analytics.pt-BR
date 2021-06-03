@@ -2,11 +2,10 @@
 title: Conjuntos de relatórios globais no Adobe Analytics
 description: Entenda as vantagens e os requisitos para usar um conjunto de relatórios global.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 98%
 
 ---
 
@@ -42,8 +41,8 @@ Use as diretrizes gerais a seguir para entender o processo de implementação de
    >
    >Verifique se determinada variável personalizada é usada de forma semelhante nos domínios. Não use a mesma eVar ou evento para fins diferentes em seus sites.
 1. Verifique se cada domínio tem uma camada de dados para simplificar a coleta de dados. Os dados ainda podem ser coletados sem uma camada de dados, mas a confiabilidade e a longevidade de sua implementação diminuem, especialmente quando o site passa por reformulações.
-1. Use o Adobe Experience Platform Launch para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte [Visão geral do Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/overview.html) no guia do usuário do Adobe Experience Platform Launch.
-1. Inclua o [Serviço da Adobe Experience Cloud ID](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) e use a função [appendVisitorIDsTo](https://docs.adobe.com/content/help/pt-BR/id-service/using/id-service-api/methods/appendvisitorid.html). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
+1. Use o Adobe Experience Platform Launch para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte [Visão geral do Launch](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) no guia do usuário do Adobe Experience Platform Launch.
+1. Inclua o [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) e use a função [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
 
 ## Modificar uma implementação existente com um conjunto de relatórios global
 
