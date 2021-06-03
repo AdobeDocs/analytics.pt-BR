@@ -1,17 +1,16 @@
 ---
-description: APIs do Lista afetadas pela migração do usuário
-title: APIs afetadas pela migração do usuário
+description: Lista as APIs afetadas pela migração de usuário
+title: APIs afetadas pela migração de usuário
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 88%
 
 ---
 
-
-# APIs afetadas pela migração do usuário{#apis-affected-by-the-migration}
+# APIs afetadas pela migração de usuário{#apis-affected-by-the-migration}
 
 A Adobe está migrando todas as empresas de login do Analytics do [!DNL my.omniture.com] para a autenticação pela Adobe Experience Cloud. Depois que uma empresa inicia a migração, a criação de usuários programática e o gerenciamento pelas permissões específicas do Analytics e os métodos `GetLoginKey` disponíveis pela v1.3 e v1.4 da API de administração do Analytics não serão mais suportadas. Essas ações serão habilitadas na Experience Cloud pelo [!DNL adobe.io].
 
@@ -45,5 +44,4 @@ Para obter mais informações:
 * [Informações gerais de gerenciamento de usuário](https://helpx.adobe.com/br/enterprise/help/users.html)
 * [APIs de gerenciamento de usuário pelo adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Fórum de API de gerenciamento de usuário](https://forums.adobe.com/community/umapi/overview)
-* [Migração do acesso do usuário do Analytics e gerenciamento para a Experience Cloud](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
-
+* [Migração do acesso do usuário do Analytics e gerenciamento para a Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
