@@ -2,10 +2,10 @@
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Versões de recursos do Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O obje
 
 ## Sinalizadores de recurso
 
-Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. A Adobe recomenda adicionar app.launch.darkly.com à [lista de permissões](https://docs.adobe.com/content/help/pt-BR/analytics/technotes/ip-addresses.html) do firewall para obter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
+Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. A Adobe recomenda adicionar app.launch.darkly.com à [lista de permissões](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=pt-BR) do firewall para obter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
 
 Você pode visualizar os sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre o Workspace > Sinalizadores de recursos ativos**.
 
@@ -39,5 +39,5 @@ As versões por fases permitem que a Adobe dimensione melhor o processo de impla
 
 | Pergunta | Resposta |
 |---|---|
-| Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/tech-previews/overview.html) para fornecer feedback sobre as inovações líderes do setor. |
-| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode visualizar detalhes do seu pacote do Analytics em  [!UICONTROL Admin]  >  [!UICONTROL Todos os administradores]  > Configurações  [!UICONTROL da empresa]  > Níveis de acesso a  [recursos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/company-settings/feature-access-levels.html). |
+| Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) para fornecer feedback sobre as inovações líderes do setor. |
+| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode visualizar detalhes do seu pacote do Analytics em  [!UICONTROL Admin]  >  [!UICONTROL Todos os administradores]  > Configurações  [!UICONTROL da empresa]  > Níveis de acesso a  [recursos](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
