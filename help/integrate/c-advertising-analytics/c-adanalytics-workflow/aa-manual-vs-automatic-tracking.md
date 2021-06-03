@@ -2,11 +2,10 @@
 description: O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 title: 'Rastreamento: modo manual e modo automático'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +28,7 @@ Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo autom
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://docs.adobe.com/content/help/pt-BR/id-service/using/reference/csp.html).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
 
 ## Rastreamento no modo manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
