@@ -6,10 +6,10 @@ title: Personalizar acesso ao relatório - visão geral
 feature: Ferramentas administrativas
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '585'
+ht-degree: 89%
 
 ---
 
@@ -61,12 +61,12 @@ Por exemplo, você pode criar um grupo com acesso a várias ferramentas do Analy
    <td colname="col2"> <p>Personalize permissões para que incluam ou excluam o acesso a dimensões (além das métricas). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html">variável</a> em que se baseia a classificação. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">variável</a> em que se baseia a classificação. </li> 
     </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Personalizar permissões de dimensão</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/core-services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migração de usuários do Analytics para o Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Recomendado somente para clientes novos ou com empresas <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">provisionadas na Experience Cloud</a>. Há planos para a migração dos atuais clientes do <span class="keyword">Analytics</span> para o sistema de gerenciamento de identidade da <span class="keyword">Experience Cloud</span>. </p> <p>Mais informações disponíveis em <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migração de usuários do Analytics para o Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sensível a conteúdo </p> </td> 
