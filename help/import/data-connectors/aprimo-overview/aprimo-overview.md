@@ -2,20 +2,19 @@
 description: Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 title: Conector de dados do Aprimo para Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
-
 
 # Conector de dados do Aprimo para Adobe Analytics {#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Estaremos terminando a vida útil da tecnologia Adobe Data Connector em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>A vida útil da tecnologia Adobe Data Connector será encerrada em 1º de agosto de 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integração de e-mail Adobe® Data Connectors™ combina informações comportamentais do Adobe Analytics® com email marketing para criar uma ferramenta avançada de forma a redefinir a medição de sucesso e os públicos-alvo com mensagens mais relevantes.
 
@@ -54,7 +53,7 @@ Antes de iniciar a integração dos Data Connectors para , atenda aos seguintes 
 * **Rastreamento externo:** se, atualmente, você não estiver seguindo a prática recomendada de ativação do rastreamento externo para cada campanha de email enviada, é necessário fazê-lo para garantir uma integração bem-sucedida. Consulte a seção [!DNL ~Parceiro~] abaixo para obter detalhes.
 * **Conformidade com privacidade:** você deve entender que, ao ativar o rastreamento de ID de destinatário ou de visitante, esse recurso pode rastrear informações de identificação pessoal de visitantes do site. Isso tem implicações de privacidade que exigem a implementação de procedimentos apropriados por parte da sua organização, como informar os visitantes do site e dar o consentimento deles.
 
-## Preços {#pricing}
+## Preços{#pricing}
 
 Esteja ciente de que ativar essa integração pode gerar tarifas para sua empresa de acordo com seu contrato de serviço com a Adobe, Inc. ou com seu contrato de serviço com um dos parceiros confiáveis da Adobe, conforme aplicável.
 
@@ -72,4 +71,4 @@ Pode haver tarifas recorrentes e de implementação associadas a essa integraç�
 
 Essa integração requer variáveis do Adobe Analytics para rastrear métricas.
 
-Depois de identificar o Evento e as eVars a serem usados com essa integração, eles devem ser ativadas no Admin Console do Adobe Analytics (consulte [Conjuntos de relatórios](https://docs.adobe.com/content/help/pt-BR/analytics/admin/manage-report-suites/report-suites-admin.html) para obter instruções).
+Depois de identificar o Evento e as eVars a serem usados com essa integração, eles devem ser ativadas no Admin Console do Adobe Analytics (consulte [Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) para obter instruções).
