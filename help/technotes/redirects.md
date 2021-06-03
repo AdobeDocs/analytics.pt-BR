@@ -6,9 +6,9 @@ title: Redirecionamentos e aliases
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 Faça um teste para verificar se o referenciador, o URL de origem (*`s_server`*) e as variáveis de campanha estão sendo capturados.
 
-Essas variáveis serão representadas como os parâmetros a seguir no [Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
+Essas variáveis serão representadas como os parâmetros a seguir no [Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
