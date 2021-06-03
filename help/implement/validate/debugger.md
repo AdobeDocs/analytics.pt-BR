@@ -2,9 +2,9 @@
 title: Adobe Experience Cloud Debugger herdado
 description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade e Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '684'
 ht-degree: 98%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html).
+>Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [extensão do Chrome do Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html).
 
 O [!UICONTROL Depurador herdado] inspeciona as tags da maioria dos serviços da Adobe Experience Cloud. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
 
@@ -35,7 +35,7 @@ Cada navegador tem diferentes maneiras de manipular marcadores, mas o conceito �
 
 #### Chrome
 
-Se não quiser usar a [extensão do Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
+Se não quiser usar a [extensão do Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), o bookmarklet do depurador herdado poderá ser usado.
 
 1. Clique nos três pontos no canto superior direito e acesse Marcadores > Gerenciador de marcadores. Você também pode pressionar `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Na parte superior direita do gerenciador de marcadores, clique nos três pontos e em &#39;Adicionar novo marcador&#39;.
