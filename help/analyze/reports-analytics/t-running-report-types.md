@@ -5,11 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 99%
+source-wordcount: '2335'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 99%
 Etapas para executar os diferentes tipos de relatório.
 
 
-## Executar um relatório classificado {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+## Execute um relatório classificado {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 Em um relatório classificado, a tabela mostra a classificação das páginas do relatório em relação à métrica, de acordo com o número ou a porcentagem. Os relatórios classificados podem exibir diversas métricas em um mesmo relatório.
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Para executar esse relatório, selecione um relatório, como o relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Código de rastreamento]** > **[!UICONTROL Funil de conversão de campanha]**).
 
-Consulte [Relatórios de conversão](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/evar.html) para uma descrição.
+Consulte [Relatórios de conversão](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) para uma descrição.
 
 ## Executar um relatório de fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Dê uma olhada no novo painel [Análise de fallout](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
+Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
 
 1. No [!UICONTROL Adobe Analytics], clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Desistências]**.
 1. Na página do [!UICONTROL Relatório de desistências], clique em **[!UICONTROL Executar o Report Builder de desistências]**.
@@ -89,16 +88,16 @@ Dê uma olhada no novo painel [Análise de fallout](https://docs.adobe.com/conte
 
 >[!MORELIKETHIS]
 >
->* [Descrição do relatório de fallout](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
+>* [Descrição do relatório de fallout](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## Executar um relatório de fluxo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Relatórios de fluxo de página exibem a ordem na qual seus visitantes acessam as páginas e navegam pelo seu site. Este relatório ajuda a descobrir essas respostas
 
-Dê uma olhada na nova [Visualização de fluxo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
+Dê uma olhada na nova [Visualização de fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
 
-Execute um relatório [Caminhos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
+Execute um relatório [Caminhos](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
 
 Por exemplo, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fluxo da próxima página]**.
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Produtos]** > [Funil de conversão de produtos](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/t-running-report-types.html).
+1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Produtos]** > [Funil de conversão de produtos](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) na Analysis Workspace!
+Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) na Analysis Workspace!
 
 **[!UICONTROL Relatórios]** > **[!UICONTROL Métricas do site]** > **[!UICONTROL Detecção de anomalias]**.
 
 >[!NOTE]
 >
->Também é possível executar a Detecção de anomalias a partir de projetos da Analysis Workspace. [Mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Também é possível executar a Detecção de anomalias a partir de projetos da Analysis Workspace. [Mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Para obter informações sobre como configurar uma Detecção de anomalias, consulte o [Guia de referência](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+Para obter informações sobre como configurar uma Detecção de anomalias, consulte o [Guia de referência](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 A Detecção de anomalias mostra dois tipos de gráficos: um gráficos resumidos e de métricas individuais. Os gráficos de métricas individuais são mostrados somente se pelo menos uma anomalia foi detectada para essa métrica.
 
@@ -183,7 +182,7 @@ A Detecção de anomalias mostra dois tipos de gráficos: um gráficos resumidos
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Se os limites inferiores e o valor esperado são os mesmos, o % de desvio é -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Do contrário, o % de desvio é ((valor limite inferior - valor real) / (valor esperado - valor limite inferior)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Mais</a> sobre a segmentação. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicar em <span class="uicontrol">Exibir segmentos</span> exibe o painel de segmentos, que permite aplicar segmentos a um relatório de detecção de anomalias. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Mais</a> sobre a segmentação. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicar em <span class="uicontrol">Editar métricas</span> permite selecionar e desmarcar as métricas nas quais deseja detectar anomalias. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ Você configura uma Detecção de anomalias independentemente para cada conjunto
 
    ![](assets/ad_top_menu.png)
 
-   Consulte o [Guia de Segmentação do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/seg-home.html) para obter mais informações sobre a criação e o gerenciamento de segmentos. 1. (Opcional) Marque como favorito ou insira um marcador no relatório.
+   Consulte o [Guia de Segmentação do Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) para obter mais informações sobre a criação e o gerenciamento de segmentos. 1. (Opcional) Marque como favorito ou insira um marcador no relatório.
 1. (Opcional) Altere a data final do Período de visualização. O padrão é ontem.
 1. Você pode começar a interpretar o relatório. [Exibição dos gráficos da Detecção de anomalias](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 Os relatórios em tempo real oferecem dois relatórios principais - um relatório de visão geral e um relatório detalhado. Cada um consiste em vários reportlets.
 
-Para obter informações sobre como configurar relatórios em tempo real, consulte o [Guia de referência do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html#RealTime_Reports_Configuration).
+Para obter informações sobre como configurar relatórios em tempo real, consulte o [Guia de referência do Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Consulte o relatório **[!UICONTROL Visão geral]** e seus componentes:  ![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Selecione o Conjunto de relatórios</strong></td> 
-   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuração dos relatórios em tempo real </a>. </td> 
+   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuração dos relatórios em tempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Alternar entre relatórios</strong></td> 
