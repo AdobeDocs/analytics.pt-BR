@@ -4,11 +4,10 @@ title: Visão geral dos componentes
 feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 92%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 Os componentes do Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto.
 
-Para acessar o menu Componentes, clique no ícone **[!UICONTROL Componentes]** no painel esquerdo. Você pode alternar entre [Painéis](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/panels.html), [Visualizações](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) e Componentes nos ícones do painel esquerdo ou usando [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Para acessar o menu Componentes, clique no ícone **[!UICONTROL Componentes]** no painel esquerdo. Você pode alternar entre [Painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), [Visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e Componentes nos ícones do painel esquerdo ou usando [teclas de atalho](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-Você também pode ajustar a opção [Exibir configurações de densidade](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) para que o projeto veja mais valores no painel à esquerda ao mesmo tempo em **[!UICONTROL Projeto > Informações e configurações do projeto > Exibir densidade]**.
+Você também pode ajustar a opção [Exibir configurações de densidade](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) para que o projeto veja mais valores no painel à esquerda ao mesmo tempo em **[!UICONTROL Projeto > Informações e configurações do projeto > Exibir densidade]**.
 
 ## Dimensões {#dimensions}
 
-[**Dimensões**](https://docs.adobe.com/content/help/pt-BR/analytics/components/dimensions/overview.html) são atributos de texto que descrevem o comportamento do visitante e podem ser visualizadas, analisadas e comparadas na análise. Elas podem ser encontradas no painel Componente à esquerda (seção laranja) e normalmente são aplicadas como linhas de uma tabela.
+[**Dimensões**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) são atributos de texto que descrevem o comportamento do visitante e podem ser visualizadas, analisadas e comparadas na análise. Elas podem ser encontradas no painel Componente à esquerda (seção laranja) e normalmente são aplicadas como linhas de uma tabela.
 
 Os exemplos de dimensões incluem [!UICONTROL Nome da página], [!UICONTROL Canais de marketing], [!UICONTROL Tipo de dispositivo] e [!UICONTROL Produtos]. As dimensões são fornecidas pela Adobe e são capturadas por meio de implementação personalizada (eVar, Props, classificações etc.).
 
@@ -36,25 +35,25 @@ Os exemplos de itens de dimensão incluem [!UICONTROL Página inicial] (dentro d
 
 ## Métricas {#metrics}
 
-[**Métricas**](https://docs.adobe.com/content/help/pt-BR/analytics/components/metrics/overview.html) são medidas quantitativas sobre o comportamento do visitante. Elas podem ser encontradas no painel Componente à esquerda (seção verde) e normalmente são aplicadas como colunas de uma tabela.
+[**Métricas**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) são medidas quantitativas sobre o comportamento do visitante. Elas podem ser encontradas no painel Componente à esquerda (seção verde) e normalmente são aplicadas como colunas de uma tabela.
 
-Os exemplos de métricas incluem [!UICONTROL Visualizações de página], [!UICONTROL Visitas], [!UICONTROL Pedidos], [!UICONTROL Tempo médio gasto] e [!UICONTROL Receita/Pedido]. As métricas são fornecidas pela Adobe ou capturadas por meio de implementação personalizada ([!UICONTROL Eventos bem-sucedidos]), ou criadas usando o [Criador de métrica calculada](https://docs.adobe.com/content/help/pt-BR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Os exemplos de métricas incluem [!UICONTROL Visualizações de página], [!UICONTROL Visitas], [!UICONTROL Pedidos], [!UICONTROL Tempo médio gasto] e [!UICONTROL Receita/Pedido]. As métricas são fornecidas pela Adobe ou capturadas por meio de implementação personalizada ([!UICONTROL Eventos bem-sucedidos]), ou criadas usando o [Criador de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segmentos {#segments}
 
-[**Segmentos**](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) são filtros de audiência aplicados à análise. Eles podem ser encontrados no painel Componente à esquerda (seção azul) e normalmente são aplicados na parte superior de um painel ou nas colunas de métrica acima em uma tabela.
+[**Segmentos**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) são filtros de audiência aplicados à análise. Eles podem ser encontrados no painel Componente à esquerda (seção azul) e normalmente são aplicados na parte superior de um painel ou nas colunas de métrica acima em uma tabela.
 
-Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], [!UICONTROL Visitas de email] e [!UICONTROL Ocorrências autenticadas]. Os segmentos são fornecidos pela Adobe, criados no [painel suspenso](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/panels.html) ou criados usando o [Construtor de segmentos](https://docs.adobe.com/content/help/pt-BR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], [!UICONTROL Visitas de email] e [!UICONTROL Ocorrências autenticadas]. Os segmentos são fornecidos pela Adobe, criados no [painel suspenso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) ou criados usando o [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
 ## Intervalos de datas {#date-ranges}
 
-[**Intervalos de datas**](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
+[**Intervalos de datas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
 
-Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/panels.html) ou são criados usando o [Criador de intervalo de datas](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) ou são criados usando o [Criador de intervalo de datas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
