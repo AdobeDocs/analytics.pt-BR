@@ -2,11 +2,10 @@
 description: Este procedimento descreve como executar o Relatório de canal de marketing, fornecer direitos de administrador e permissões de grupo de usuário ao relatório.
 title: Permissões para Canal de marketing
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 96%
 
 ---
 
@@ -23,4 +22,4 @@ Estas são as permissões das Ferramentas do conjunto de relatórios necessária
 | Ferramentas do Analytics | Acesso à Analysis Workspace | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar as dimensões dos Canais de marketing no Workspace. |
 | Ferramentas do Analytics | Acesso ao Reports and Analytics | Concede acesso ao Reports and Analytics. Os usuários devem pertencer a esse grupo ou ao Acesso à Analysis Workspace (preferencial) para usar o Adobe Analytics. |
 
-Para obter mais informações sobre perfis de produtos e permissões do Adobe Analytics no Admin Console, clique [aqui](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-console/permissions/product-profile.html).
+Para obter mais informações sobre perfis de produtos e permissões do Adobe Analytics no Admin Console, clique [aqui](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
