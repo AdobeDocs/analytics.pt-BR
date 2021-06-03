@@ -3,11 +3,10 @@ description: Configure um conjunto de relatórios mapeados da Experience Cloud p
 title: Habilitar conjunto de relatórios para o Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Para visualizar qualquer dado de pesquisa do Advertising Analytics no Analytics, é necessário configurar cada conjunto de relatórios mapeados para Experience Cloud para os relatórios do Advertising Analytics.
 
-1. [Mapear seu conjunto de relatórios para uma organização](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html).
+1. [Mapear seu conjunto de relatórios para uma organização](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 
 1. Selecione o conjunto de relatórios que está mapeado à sua organização Experience Cloud.
