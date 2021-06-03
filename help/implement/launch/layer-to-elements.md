@@ -2,11 +2,10 @@
 title: Mapear objetos de camada de dados para elementos de dados
 description: Configure o Launch para ler a partir da camada de dados.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +19,7 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 ## Usar o Adobe Experience Platform Launch para criar elementos de dados
 
-Os [elementos de dados](https://docs.adobe.com/content/help/pt-BR/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) são componentes no Launch que podem ser usados na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
+Os [elementos de dados](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) são componentes no Launch que podem ser usados na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade do Launch desejada.
