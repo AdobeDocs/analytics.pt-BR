@@ -6,10 +6,10 @@ title: Personalizar permissões de dimensões
 feature: Ferramentas administrativas
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 94%
+source-wordcount: '499'
+ht-degree: 83%
 
 ---
 
@@ -40,9 +40,9 @@ Entenda as informações a seguir sobre a categoria Dimensão para permissões.
 * Os relatórios de Vídeo e Mobile são dimensões, como outros relatórios de soluções do Analytics (Experience Manager, Advertising Cloud, Social e outros.)
 * Há relatórios de definição de caminho disponíveis, se o usuário tiver acesso à dimensão principal.
 * Todas as dimensões e métricas atuais dos grupos personalizados foram automaticamente migradas para as novas categorias. Se um grupo tiver métricas ativadas, receberá por padrão todas as novas dimensões (eVars e com sensível a conteúdo) e métricas permissíveis.
-* Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html) em que se baseia a classificação.
+* Permissões do Importador de classificações (antigo SAINT): o acesso a classificações é determinado pelo acesso à [variável](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) em que se baseia a classificação.
 
-Para obter mais informações, consulte [Alterações nas permissões de usuários e grupos](https://docs.adobe.com/content/help/pt-BR/analytics/admin/user-product-management/user-management/permissions-changes.html).
+Para obter mais informações, consulte [Alterações nas permissões de usuários e grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Personalizar dimensões**
 
@@ -61,15 +61,15 @@ Os itens a seguir são dimensões que você pode permitir.
    <td colname="col2"> <p>eVars 1-250 autorizados individualmente. As eVars são variáveis de conversão personalizadas, usadas para segmentar métricas de sucesso em relatórios personalizados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
-   <td colname="col2"> <p>As props são variáveis de tráfego personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Props de tráfego e eVars de conversão</a> em Implementação do Analytics. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
+   <td colname="col2"> <p>As props são variáveis de tráfego personalizadas. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">Props de tráfego e eVars de conversão</a> em Implementação do Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html"> Hierarquia </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Hierarquia </a> </p> </td> 
    <td colname="col2"> <p> A variável de hierarquia (hierN) determina a localização de uma página da hierarquia do site ou na estrutura da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Com funcionamento semelhante ao das Propriedades de lista, as variáveis de lista permitem vários valores na mesma solicitação de imagem. </p> </td> 
   </tr> 
   <tr> 
@@ -85,11 +85,11 @@ Os itens a seguir são dimensões que você pode permitir.
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Dimensões do relatório do Activity Map: página do Activity Map; link do Activity Map; região do Activity Map; link por região do Activity Map; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html"> Mobile </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html"> Mobile </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Os itens a seguir são dimensões que você pode permitir.
    <td colname="col2"> <p>Esta Integração de parceiro não está mais ativa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Esta Integração de parceiro não está mais ativa. </p> </td> 
   </tr> 
   <tr> 
