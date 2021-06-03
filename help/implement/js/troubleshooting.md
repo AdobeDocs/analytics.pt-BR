@@ -2,11 +2,10 @@
 title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +85,7 @@ Esses dois valores de variável são considerados separados no Adobe Analytics. 
 
 As implementações que preenchem muitas variáveis com valores longos às vezes podem ser executadas em solicitações de imagem truncadas. Alguns navegadores mais antigos, como o Internet Explorer, impõem um limite de 2083 caracteres em URLs de solicitação de imagem. Se sua organização lidar com solicitações de imagem muito longas, tente o seguinte:
 
-* **Usar o serviço da Experience Cloud ID**: as bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte [Serviço da Adobe Experience Cloud ID](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html) para obter mais informações.
+* **Usar o serviço da Experience Cloud ID**: as bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) para obter mais informações.
 * **Usar regras de processamento**: as [as regras de processamento](/help/admin/admin/c-processing-rules/processing-rules.md) podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
 
    Sempre executar:<br>
