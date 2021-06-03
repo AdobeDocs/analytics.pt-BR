@@ -4,14 +4,13 @@ title: Diferenciar links que fazem referência à mesma ID e Região do link
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # Diferenciar links que fazem referência à mesma ID e Região do link
 
@@ -76,7 +75,7 @@ Como é possível personalizar a página da Web e usar tags para diferenciar os 
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou um local de link em uma página, é possível melhorar o rastreamento de Activity Map ou usar o Activity Map para relatar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/page-variables.html) para obter mais informações sobre a variável `s_objectID`
+Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou um local de link em uma página, é possível melhorar o rastreamento de Activity Map ou usar o Activity Map para relatar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) para obter mais informações sobre a variável `s_objectID`
 
 >[!IMPORTANT]
 >
@@ -134,7 +133,7 @@ Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou um local de l
  </tbody>
 </table>
 
-## Personalizar a região  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personalizar a região {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; tenha sua própria Região definida. Para fazer isso, adicione um parâmetro `"id"` a um dos pais de cada tag de âncora &quot;Comprar&quot;.
 
@@ -195,7 +194,7 @@ Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; 
  </tbody>
 </table>
 
-## Personalizar o arquivo de módulo AppMeasurement Activity Map  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar o arquivo de módulo AppMeasurement Activity Map {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 Certifique-se de testar o código modificado para garantir seu funcionamento. A Adobe não é responsável pela forma como o código modificado se comporta.
