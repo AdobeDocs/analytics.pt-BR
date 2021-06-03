@@ -1,14 +1,13 @@
 ---
 description: Se você tiver copiado configurações de um conjunto de relatórios existente, uma mensagem do sistema identificará quaisquer configurações não copiadas no novo conjunto de relatórios.
 title: Configurações não copiadas do conjunto de relatórios de origem
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +27,7 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dados de classificação (a estrutura de classificação é copiada) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Documentação do Importador de classificações (Upload)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Documentação do Importador de classificações (Upload)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ativação do registro de IDs de transação </p> </td> 
@@ -62,7 +61,7 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gerente do ClickMap de visitante </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Atualizar para o Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Atualizar para o Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras VISTA </p> </td> 
