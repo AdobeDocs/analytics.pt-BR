@@ -5,10 +5,10 @@ title: Fluxo de trabalho do criador de regras de classificação
 feature: Ferramentas administrativas
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Veja as etapas de alto nível que você deve seguir para implementar as regras d
 
 | Etapa | Local de execução | Descrição |
 |--- |--- |--- |
-| Etapa 1 (pré-requisito): [definir seu esquema de classificação](https://docs.adobe.com/content/help/pt-BR/analytics/components/classifications/c-classifications.html). | [!UICONTROL Administração] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > &lt;Classificações de tráfego ou Classificações de conversão> | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
+| Etapa 1 (pré-requisito): [definir seu esquema de classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL Administração] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > &lt;Classificações de tráfego ou Classificações de conversão> | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
 | Etapa 2: [criar um conjunto de regras](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Administração] > [!UICONTROL Construtor de regras de classificação] > [!UICONTROL Adicionar conjunto de regras] | Um conjunto de regras é um grupo de regras de classificação para uma variável específica. |
 | Etapa 3: configurar conjuntos de relatórios e variáveis. | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Aplique o conjunto de regras a conjuntos de relatórios e variáveis. |
 | Etapa 4: [adicionar as regras de classificação ao conjunto](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Corresponda uma condição a uma classificação e especificar a ação que aplicará à regra.  Familiarize-se com as informações em [Como as regras são processadas](/help/components/classifications/crb/classification-quickstart-rules.md). |
@@ -51,4 +51,4 @@ Veja as etapas de alto nível que você deve seguir para implementar as regras d
 
 **Blog**: para obter mais informações sobre esse recurso, consulte o Blog de marketing digital: [Classificações com base em regras](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vídeo**: assista ao vídeo [Visão geral de classificações](https://docs.adobe.com/content/help/pt-BR/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+**Vídeo**: assista ao vídeo [Visão geral de classificações](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
