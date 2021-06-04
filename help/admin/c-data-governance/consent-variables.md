@@ -3,10 +3,10 @@ description: Variáveis dos relatórios de privacidade na Privacidade de dados.
 title: Variáveis dos relatórios de privacidade
 feature: Ferramentas administrativas
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -62,13 +62,13 @@ Cada conjunto de relatórios pode ser configurado da seguinte maneira:
 
 Três variáveis de dados de contexto foram predefinidas para funcionar com as variáveis reservadas do gerenciamento de relatórios de privacidade.  Cabe a cada engenheiro de implementação determinar como gerenciar e manter a configuração dessas variáveis.
 
-Consulte [Variáveis de dados de contexto ](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/vars/page-vars/contextdata.html)para obter uma orientação geral sobre como implementar variáveis de dados de contexto.
+Consulte [Variáveis de dados de contexto ](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)para obter uma orientação geral sobre como implementar variáveis de dados de contexto.
 
 ### SSF
 
 * Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
-   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0 - Opcional. Use o valor &quot;0&quot; para clientes que consentiram com o marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
 
 ### DMP
