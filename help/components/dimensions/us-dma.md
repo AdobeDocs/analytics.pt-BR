@@ -2,10 +2,9 @@
 title: DMA dos EUA
 description: A área de mercado designada da ocorrência.
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ A dimensão “DMA dos EUA” informa a área de mercado designada (DMA) do visi
 ## Preencher esta dimensão com dados
 
 Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a Nielsen para manter pesquisas entre o endereço IP e o DMA. Essa dimensão funciona imediatamente em todas as implementações.
-
->[!TIP]
->
->Se a sua organização seguir normas rigorosas de privacidade em que [ofuscar endereços IP](/help/admin/admin/general-acct-settings-admin.md) não for suficiente, você poderá solicitar a desativação total dos dados de geolocalização. Entre em contato com o Atendimento ao cliente com a ID do conjunto de relatórios e solicite a desativação de &quot;Geografia&quot; para o conjunto de relatórios.
 
 ## Itens de dimensão
 
