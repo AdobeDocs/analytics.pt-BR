@@ -2,11 +2,10 @@
 description: Etapas administrativas para ativar relatórios do AEM Assets no Analytics.
 title: Como criar relatórios do AEM Assets no Adobe Analytics
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
+workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -22,4 +21,4 @@ Permite que o Analytics colete impressões e cliques em ativos no AEM Asset Insi
 * Adiciona novas dimensões às Variáveis de ativos no Analysis Workspace: ID de ativo, origem de ativo e ID de ativo clicado
 * Adiciona novas dimensões aos Eventos de ativo: Cliques em ativos e Impressões de ativos
 
-Para que os dados sejam preenchidos, consulte a [documentação do AEM Asset Insights](https://helpx.adobe.com/br/experience-manager/6-2/assets/using/touch-ui-asset-insights.html) para obter instruções completas de implementação.
+Para que os dados sejam preenchidos, consulte a [documentação do AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=en) para obter instruções completas de implementação.
