@@ -1,13 +1,12 @@
 ---
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics
 title: Criar um novo conjunto de relatórios
-feature: Admin Tools
+feature: Ferramentas administrativas
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 77%
+source-wordcount: '383'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 77%
 
 Um conjunto de relatórios é um silo de dados que o Adobe Analytics usa para extrair relatórios. Uma organização pode ter vários conjuntos de relatórios, cada um contendo diferentes conjuntos de dados. Embora os conjuntos de relatórios separados tenham sido importantes no passado, ter um único conjunto de relatórios se tornou mais vantajoso. A introdução de [conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) e o processamento de tempo do relatório permitem que os administradores criem seus próprios subconjuntos de dados, permitindo a flexibilidade para obter dados globais e específicos do site.
 
-Este artigo foi projetado para administradores de nível de sistema ou administradores de análises para preparar a coleta de dados.
+Este artigo foi projetado para administradores de nível de sistema ou administradores do Adobe Analytics para preparar a coleta de dados.
 
 ## Pré-requisitos
 
@@ -44,8 +43,8 @@ Isso significa que sua conta não recebeu as permissões corretas para o Analyti
 
 **Depois de fazer logon no Adobe Analytics, a pop-up e a lista suspensa &quot;Bem-vindo ao Adobe Analytics&quot; estão ausentes.**
 
-Certifique-se de ter feito logon por meio da Experience Cloud, e não por my.omniture.com. O usuário que faz logon por my.omniture.com não tem o assistente de configuração de conjunto de relatórios disponível.
+Certifique-se de ter feito logon por meio do [Experience Cloud](https://experience.adobe.com), e não por my.omniture.com. O usuário que faz logon por my.omniture.com não tem o assistente de configuração de conjunto de relatórios disponível.
 
 ## Próximas etapas
 
-[Criar e configurar uma propriedade para o Adobe Analytics no Launch](/help/implement/launch/create-analytics-property.md): crie uma área para gerenciar a implementação do Analytics
+[Crie e configure uma propriedade para o Adobe Analytics no Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Criar uma área para gerenciar a implementação do Analytics
