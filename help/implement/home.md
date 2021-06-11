@@ -2,10 +2,10 @@
 title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 97%
+source-wordcount: '368'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ A Adobe requer código no seu site ou aplicativo para enviar dados aos servidore
 O código JavaScript envia uma solicitação de imagem para os servidores de coleta de dados da Adobe. Os dados da página definidos na implementação são enviados como parte de uma cadeia de caracteres de consulta nesta solicitação de imagem.
 
 4. A Adobe retorna uma imagem pixelada transparente.
-5. Os servidores da Adobe armazenam dados coletados em um *conjunto de relatórios*.
+5. Os servidores do Adobe armazenam dados coletados em um ou mais *conjuntos de relatórios*.
 6. Os dados do conjunto de relatórios preenchem os relatórios que você pode acessar por um navegador.
 
    A execução do código JavaScript ocorre rapidamente e a maneira que os tempos de carregamento de uma página são afetados não é visível. Essa abordagem permite que você conte as páginas que foram exibidas quando um visitante clicou em **[!UICONTROL Recarregar]** ou **[!UICONTROL Voltar]** para acessar uma página, já que o JavaScript é executado mesmo quando a página é recuperada do cache.
