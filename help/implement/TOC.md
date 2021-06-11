@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -54,11 +53,11 @@ ht-degree: 100%
    + Variáveis de página {page-vars}
       + [Visão geral das variáveis de página](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [canal](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variáveis dinâmicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Visão geral de Eventos](vars/page-vars/events/events-overview.md)
          + [Evento de compra](vars/page-vars/events/event-purchase.md)
@@ -68,16 +67,16 @@ ht-degree: 100%
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [products](vars/page-vars/products.md)
+      + [produtos](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referenciador](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [servidor](vars/page-vars/server.md)
-      + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [estado](vars/page-vars/state.md)
+      + [carimbo de data e hora](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
-      + [zip](vars/page-vars/zip.md)
+      + [CEP](vars/page-vars/zip.md)
    + Funções e métodos {#functions}
       + [Visão geral das funções](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Preparação para implementar o Adobe Analytics {#prepare}
    + [Criar uma camada de dados](prepare/data-layer.md)
    + [Considerações sobre o conjunto de relatórios global](prepare/global-rs.md)
+   + [Implementação de marcação de vários relatórios](prepare/multi-suite-tagging.md)
    + [Modal de implementação](prepare/implementation-modal.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
    + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
@@ -177,7 +177,7 @@ ht-degree: 100%
 + Analisar a implementação {#review}
    + [Análise focada (após cada lançamento do site)](review/focused-review.md)
    + [Análise completa (a cada 6 meses)](review/full-review.md)
-   + [Defina os 5 KPIs principais](review/define-kpis.md)
+   + [Defina os cinco KPIs principais](review/define-kpis.md)
 + Usar dados XDM com o Analytics {#aep-edge}
    + [Usar o SDK da Web da AEP](aep-edge/xdmoverview.md)
    + [Mapear dados do XDM para o Analytics manualmente](aep-edge/xdm-manual.md)
