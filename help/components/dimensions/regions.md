@@ -2,10 +2,9 @@
 title: Regiões
 description: A região geográfica do visitante.
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '381'
+source-git-commit: 4e09df2631626376f9351512afed7a9e4241e7d6
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ A dimensão “Regiões” informa a região geográfica do visitante. É uma á
 ## Preencher esta dimensão com dados
 
 Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-br) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
-
->[!TIP]
->
->Se a sua organização seguir normas rigorosas de privacidade em que [ofuscar endereços IP](/help/admin/admin/general-acct-settings-admin.md) não for suficiente, você poderá solicitar a desativação total dos dados de geolocalização. Entre em contato com o Atendimento ao cliente com a ID do conjunto de relatórios e solicite a desativação de &quot;Geografia&quot; para o conjunto de relatórios.
 
 ## Itens de dimensão
 
