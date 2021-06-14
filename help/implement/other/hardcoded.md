@@ -2,11 +2,10 @@
 title: Implementar com solicitações de imagem codificadas
 description: Implementar o Adobe Analytics usando uma tag de imagem HTML (solicitação de imagem codificada)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Veja a seguir um exemplo de solicitação de imagem codificada usando HTML:
 * `https://` designa o protocolo Faça a correspondência do protocolo usado na solicitação de imagem com o protocolo que o resto do site usa.
 * `example.data.adobedc.net` é o valor contido na variável [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` está incluído em todas as solicitações de imagem. Ele faz parte da estrutura de arquivos de imagens armazenadas nos servidores de coleta de dados da Adobe.
-* `examplersid` é a ID do conjunto de relatórios para a qual você deseja enviar dados.
+* `examplersid` é a ID do conjunto de relatórios para a qual você deseja enviar dados. Para vários conjuntos de relatórios, separe as IDs com vírgulas e sem espaços (como `examplersid1,examplersid2` e assim por diante).
 * `/1/` é a origem da ocorrência. Consulte `hit_source` em [Referência da coluna de dados](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) no guia do usuário Exportar. Controla a ordem usada por cookies e outros métodos para identificar visitantes.
 * Todos os dados após o delimitador da cadeia de caracteres de consulta (`?`) são os que você deseja incluir nos relatórios. Consulte [Parâmetros de consulta de coleta de dados](../validate/query-parameters.md) para obter a lista completa de parâmetros que podem ser incluídos em uma solicitação de imagem.
 
