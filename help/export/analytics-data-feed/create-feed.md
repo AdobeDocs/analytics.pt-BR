@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ A criação de um feed de dados permite que a Adobe saiba onde enviar arquivos d
 * **Nome**: o nome do feed de dados. Deve ser único dentre o conjunto de relatórios e deve ter, no máximo, 255 caracteres.
 * **Conjunto de relatórios**: o conjunto de relatórios no qual o feed de dados se baseia. Se vários feeds de dados forem criados para o mesmo conjunto de relatórios, eles deverão ter definições de colunas diferentes. Somente conjuntos de relatórios de origem são compatíveis com feeds de dados; os conjuntos de relatórios virtuais não são compatíveis.
 * **Enviar email ao concluir**: o endereço de email a ser notificado quando um feed terminar o processamento. O endereço de email deve estar formatado corretamente.
-* **Intervalo do feed**: os feeds por hora contêm dados de uma hora. Os feeds diários contêm dados de um dia inteiro; eles incluem dados da meia-noite para a meia-noite no fuso horário do conjunto de relatórios.
+* **Intervalo do feed**: os feeds por hora contêm dados de uma hora. Os feeds diários contêm dados de um dia inteiro; eles incluem dados da meia-noite a meia-noite no fuso horário do conjunto de relatórios.
 * **Atraso no processamento**: aguarde um algum tempo antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. Um feed pode ser atrasado em até 120 minutos.
 * **Datas de início e término**: a data de início indica a primeira data em que você deseja um feed de dados. Defina essa data no passado para iniciar imediatamente o processamento do feeds de dados para dados históricos. Os feeds continuam a ser processados até atingirem a data de término. As datas de início e término são baseadas no fuso horário do conjunto de relatórios.
 * **Alimentação contínua**: essa caixa de seleção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado.
@@ -97,7 +97,7 @@ Todas as colunas, independentemente de terem dados, estão disponíveis. Um feed
 * **Remover caracteres de escape**: ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Marque essa caixa se desejar que esses caracteres sejam removidos dos arquivos de feed.
 * **Formato de compactação**: o tipo de compactação usado. O Gzip gera arquivos no formato `.tar.gz`. O Zip gera arquivos no formato `.zip`.
 * **Tipo de empacotamento**: um único arquivo gera o arquivo `hit_data.tsv` em um único arquivo potencialmente massivo. Vários arquivos paginam seus dados em blocos de 2 GB (descompactados). Se vários arquivos forem selecionados e os dados descompactados para a janela de relatório forem menores que 2 GB, um arquivo será enviado. A Adobe recomenda usar vários arquivos para a maioria dos feeds de dados.
-* **Manifesto**: Se o Adobe deve ou não fornecer um arquivo  [de manifesto ](c-df-contents/datafeeds-contents.md#feed-manifest) ao destino quando nenhum dado for coletado para um intervalo de feed. Se selecionar Arquivo de manifesto, você receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:
+* **Manifesto**: se a Adobe deverá ou não fornecer um [arquivo de manifesto](c-df-contents/datafeeds-contents.md#feed-manifest) ao destino quando nenhum dado for coletado para um intervalo de feed. Se selecionar Arquivo de manifesto, você receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:
 
 ```text
    Datafeed-Manifest-Version: 1.0
