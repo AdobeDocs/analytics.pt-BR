@@ -5,13 +5,13 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 # Um manual para o Advertising Analytics
 
-O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Antes, quaisquer dados do Google AdWords/DFA ou do Microsoft Bing Ads teriam que ser visualizados no Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você obterá os seguintes dados no Adobe Analytics: Impressões, cliques, Custos de dados diretamente dos mecanismos de pesquisa, bem como Instâncias de ID do AMO (Instâncias de clique). A Pontuação de qualidade e as Posições médias não serão mais coletadas, pois o Google descontinuou essas métricas em setembro de 2019.
+O Advertising Analytics permite visualizar todos os dados de pesquisa paga do Google e do Bing lado a lado, dentro do Adobe Analytics. Antes, quaisquer dados do Google AdWords/DFA ou do Microsoft Bing Ads teriam que ser visualizados no Adobe Advertising Cloud (AMO) ou no Google/Bing. Agora você obterá os seguintes dados no Adobe Analytics: dados de impressões, cliques, custos diretamente dos mecanismos de pesquisa, bem como instâncias de ID AMO (instâncias de clique). A Pontuação de qualidade e as Posições médias não serão mais coletadas, pois o Google descontinuou essas métricas em setembro de 2019.
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ O Analytics possui duas permissões que são concedidas automaticamente para os 
   <tr> 
    <td colname="col1"> <p>Gerenciamento do Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permite que os usuários configurem/editem/exibam contas de pesquisa publicitárias. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span>  &gt;  <span class="uicontrol"> Todos os administradores  </span>  &gt; Gerenciamento de  <span class="uicontrol"> usuários</span>  &gt;  <span class="uicontrol"> Grupos</span>  &gt;  <span class="uicontrol"> Editar acesso a todos os relatórios</span>  &gt;  <span class="uicontrol"> Personalizar ferramentas do Analytics</span>  &gt;  <span class="uicontrol"> Gerenciamento do Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do Analytics</span> &gt; <span class="uicontrol">Gerenciamento do Advertising Analytics</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Faça logon em adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produtos</span> &gt; <span class="uicontrol">Perfil do produto</span> &gt; <span class="uicontrol">guia Permissões</span> &gt; <span class="uicontrol">Ferramentas do Analytics</span> &gt; <span class="uicontrol">Gerenciamento do Advertising Analytics</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuração do Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permite que os usuários configurem conjuntos de relatórios que serão provisionados para o Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span>  &gt;  <span class="uicontrol"> Todos os administradores  </span>  &gt; Gerenciamento de  <span class="uicontrol"> usuários</span>  &gt;  <span class="uicontrol"> Grupos</span>  &gt;  <span class="uicontrol"> Editar acesso a todos os relatórios</span>  &gt;  <span class="uicontrol"> Personalizar ferramentas do conjunto de relatórios</span>  &gt;  <span class="uicontrol"> Configuração do Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol"> Configuração do Advertising Analytics</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Faça logon em adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produtos</span> &gt; <span class="uicontrol">Perfil do produto</span> &gt; <span class="uicontrol">guia Permissões</span> &gt; <span class="uicontrol">Ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Configuração do Advertising Analytics</span></span> </td> 
   </tr> 
  </tbody> 
