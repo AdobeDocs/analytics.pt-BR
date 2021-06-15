@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +20,9 @@ ht-degree: 99%
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Altura do navegador](dimensions/browser-height.md)
+   + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
-   + [Largura do navegador](dimensions/browser-width.md)
+   + [Largura da janela do navegador](dimensions/browser-width.md)
    + [Navegador](dimensions/browser.md)
    + [Campanhas](dimensions/campaigns.md)
    + [Categoria](dimensions/category.md)
@@ -68,7 +67,7 @@ ht-degree: 99%
    + [Mês](dimensions/month.md)
    + [Tipos de sistema operacional](dimensions/operating-system-types.md)
    + [Sistemas operacionais](dimensions/operating-systems.md)
-   + [Domínio de referência original](dimensions/original-referring-domain.md)
+   + [Domínio referenciador original](dimensions/original-referring-domain.md)
    + [URL da página](dimensions/page-url.md)
    + [Página](dimensions/page.md)
    + [Páginas não encontradas](dimensions/pages-not-found.md)
@@ -251,7 +250,7 @@ ht-degree: 99%
    + [Introdução aos Canais de marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ com Canais de marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Gerenciar canais de marketing](c-marketing-channels/c-channels.md)
-   + [Regras de processamento para Canais de marketing](c-marketing-channels/c-rules.md)
+   + [Regras de processamento de canais de marketing](c-marketing-channels/c-rules.md)
    + [Classificações em Canais de marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Expiração de envolvimento do visitante](c-marketing-channels/visitor-engagement.md)
    + [Analisar Canais de marketing](c-marketing-channels/analyze-mc.md)
