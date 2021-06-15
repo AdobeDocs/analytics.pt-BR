@@ -7,7 +7,7 @@ topic-fix: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ O exemplo a seguir ilustra como a identificação de visitantes entre dispositiv
 | 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Visita 7 páginas adicionais no seu site. | 1 | - | 1 | 2-8 | 8 |
 | 9 | Autentifica no computador pessoal. | 1 | CID1 | CID1 | 9 <br>(Este é o primeiro hit do CID1, por isso ele assume o controle e continua no perfil do visitante a partir da ID de visitante 1.) | 8 |
-| 10 | Visita uma página adicional. | 1 | CID1 | CID1 | 10º | 8 |
+| 10 | Visita uma página adicional. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 1 |
 | 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 1 | 9 |
 | 13 | Visualiza 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
