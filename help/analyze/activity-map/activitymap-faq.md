@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ Perguntas frequentes sobre a instalação, configuração e utilização dos rec
 
 Organizações com um contrato do Adobe Analytics Standard, Premium e Ultimate têm acesso ao Activity Map.
 
-## Como o Activity Map suporta Aplicativos de página única (SPA)?
+## Como o Activity Map oferece suporte a Aplicativos de página única (SPA)?
 
 A cada poucos segundos, o Activity Map verifica a página da Web, procurando por alterações na página. O ActivityMap encontra novo conteúdo na página sem precisar de um novo carregamento, mas esse novo conteúdo é sempre atribuído ao primeiro pageName encontrado quando a página é carregada.
 
 * O Activity Map verifica se a visibilidade dos links que ele conhece foi alterada. Se uma alteração na visibilidade for encontrada, a coluna Presente da tabela de Links na página para esse link será atualizada com [!UICONTROL Exibido] ou [!UICONTROL Oculto].
 
-* Quando a interação do usuário cria novo conteúdo, qualquer novo elemento encontrado pelo AppMeasurement como um link será adicionado à tabela [!UICONTROL Links na página]. O Activity Map envia uma nova solicitação de dados que inclui esses novos links. Os novos links devem aparecer na tabela [!UICONTROL Links na página] quando a solicitação de dados for tratada pela interface do usuário.
+* Quando a interação do usuário cria novo conteúdo, qualquer novo elemento encontrado pelo AppMeasurement como um link será adicionado à tabela [!UICONTROL Links na página]. O Activity Map envia uma nova solicitação de dados que inclui esses novos links. Os novos links deverão aparecer na tabela [!UICONTROL Links na página] quando a solicitação de dados for tratada pela interface do usuário.
 
 
 ## O Activity Map fornece dados sobre &quot;visualizações&quot;?
