@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -435,7 +435,7 @@ Novos recursos e melhorias lançados em 8 de março de 2018.
    <td colname="col2"> <p>Nos modelos personalizados lançados recentemente, nós </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Adicionamos um ícone de modelo na parte superior do projeto (próximo ao título) para ajudar na diferenciação do modo de edição de modelo para o uso de um modelo como o ponto inicial de um projeto. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Permite que não administradores criem (salvar como) e editem modelos de projeto do Workspace, previsto que tenham a permissão para Criar/Preparar projetos no Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Administrador </span> &gt; <span class="uicontrol"> Todos os administradores </span> &gt; <span class="uicontrol"> Gerenciamento de usuários </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acesso a todos os relatórios </span> &gt; <span class="uicontrol"> Personalizar ferramentas do Analytics </span> &gt; &lt;a 13/&gt; Criar/preparar projetos no Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Permite que não administradores criem (salvar como) e editem modelos de projeto do Workspace, previsto que tenham a permissão para Criar/Preparar projetos no Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">Gerenciamento de usuários</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Personalizar ferramentas do Analytics</span> &gt; <span class="uicontrol">Criar/preparar projetos no Analysis Workspace</span></span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Análise de contribuição: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notificação de tokens </a> </p> </td> 
-   <td colname="col2"> <p>Se a sua empresa tem um número limitado de tokens para análise de contribuição, a interface do usuário do Analysis Workspace agora mostra uma notificação quando você usa um token. Isso permite que você saiba quantos tokens ainda tem.  </p> <p>(Usuários administradores: podem restringir quem pode usar esses tokens editando as permissões do grupo. A permissão se chama "Detecção de anomalias e Análise de contribuição" e fica em <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Todos os administradores </span> &gt; <span class="uicontrol"> Gerenciamento de usuários </span> <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar todo o acesso a relatórios &lt;a1 1/&gt; &gt; <span class="uicontrol"> Personalizar ferramentas do conjunto de relatórios </span> &gt; <span class="uicontrol"> Ferramentas e relatórios </span>. ) </span> </p> </td> 
+   <td colname="col2"> <p>Se a sua empresa tem um número limitado de tokens para análise de contribuição, a interface do usuário do Analysis Workspace agora mostra uma notificação quando você usa um token. Isso permite que você saiba quantos tokens ainda tem.  </p> <p>(Usuários administradores: podem restringir quem pode usar esses tokens editando as permissões do grupo. A permissão é chamada de "Detecção de anomalias e análise de contribuição" em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administrador </span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Personalizar as ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span>.)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Arquivos CSV com caracteres de vários bytes </p> </td> 
@@ -797,7 +797,7 @@ Novos recursos lançados em 8 de junho de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Melhorias de <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > fallout </a></b> </td> 
+   <td colname="col1"> Melhorias de <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  >fallout</a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Segmentos ilimitados para comparação. </li> 
@@ -1249,4 +1249,4 @@ Ao salvar um projeto, o título exibido na guia do navegador será “`<Project 
 
 Os administradores podem transferir os projetos do [!UICONTROL Analysis Workspace] de um usuário para outro.
 
-Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]** > **[!UICONTROL Transferir]** para transferir projetos.
+Acesse **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL User management]** > **[!UICONTROL Transferir]** para transferir projetos.
