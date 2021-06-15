@@ -3,9 +3,9 @@ title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -186,12 +186,12 @@ O valor “300” vem do valor do parâmetro pos da variável s.testURL
 
 ### 4.0.1 (26 de março de 2021)
 
-* Atualização do problema em que indefinido era retornado em vez de &quot;&quot; se o parâmetro de consulta não estivesse presente na string de consulta.
+* Atualização do problema em que indefinido era retornado em vez de &quot;&quot; se o parâmetro de consulta não estivesse presente na sequência de consulta.
 
 ### 4.0 (19 de março de 2021)
 
 * Adição do número da versão como dados de contexto.
-* As dependências no plug-in pt foram removidas.
+* Remoção de dependências no plug-in pt.
 
 ### 3.3 (24 de setembro de 2019)
 
