@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Uma base de conhecimento que contém artigos úteis que não pertencem a uma ferramenta ou componente de análise específico.
-translation-type: tm+mt
 source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +43,7 @@ ht-degree: 84%
    + [Opções para atenuar o efeito das limitações de cookies do navegador](cookies/cookieless.md)
 + [Retenção de dados](data-retention.md)
 + [Excluir dados](exclude-data.md)
-+ [IPs e domínios usados pela Adobe Analytics](ip-addresses.md)
++ [IPs e domínios usados pelo Adobe Analytics](ip-addresses.md)
 + [Latência](latency.md)
 + [Valor de tráfego baixo](low-traffic.md)
 + [Migrar regras de processamento do Mobile Services para o Adobe Analytics](migrate-mobile.md)
