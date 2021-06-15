@@ -5,7 +5,7 @@ exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -39,10 +39,10 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Relatório Tempo real | Concede acesso a Métricas do site > Tempo real no Reports &amp; Analytics. Use o item de permissão &#39;Configuração do Relatório em tempo real&#39; para conceder acesso para configurar este relatório. |
 | Páginas de bot | Concede acesso a Métricas do site > Bots > Relatório de páginas de bot no Reports &amp; Analytics. |
 | Bots | Concede acesso a Métricas do site > Bots > Relatórios de bots no Reports &amp; Analytics. |
-| Gerenciador de feeds de dados | Concede acesso a Administração > Feeds de dados na navegação superior do Analytics. |
+| Gerenciador de feeds de dados | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
 | Relatório de Data Warehouse Personalizado | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
 | Visitas de Retorno Diário | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
-| Gerenciador das fontes de dados | Concede acesso a Administração > Todos os administradores > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
+| Gerenciador das fontes de dados | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Excluir por endereço IP | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | Visitas de Retorno | Concede acesso a Retenção de visitantes > Visitas de retorno no Reports &amp; Analytics. |
 | Classificações | Concede acesso a todas as configurações de classificação no Gerenciador de conjunto de relatórios. Este item de permissão inclui: <br>Tráfego > Classificações de tráfego<br>Conversão > Classificações de conversão<br>Conversão > Hierarquias de classificação<br>Canais de marketing > Classificações de canal de marketing<br>Gerenciamento de aplicativos > Classificações de aplicativos<br>Gerenciamento de mídia > Classificações de mídia<br>AEM > Classificações do AEM Assets<br>Adobe Campaign > Classificações da Adobe |
