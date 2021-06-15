@@ -3,9 +3,9 @@ title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
