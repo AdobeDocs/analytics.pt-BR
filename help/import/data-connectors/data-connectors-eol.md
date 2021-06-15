@@ -3,9 +3,9 @@ description: Saiba quando e por que os conectores de dados do Analytics serão e
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -101,6 +101,6 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 
 ## Exceção: Adobe Campaign Classic
 
-A exceção ONE para a data de 1º de agosto de 2021 é a integração do Adobe Campaign Classic. Essa integração será oficialmente substituída em 1º de março de 2022.
+A ÚNICA exceção para a data de 1º de agosto de 2021 é a integração do Adobe Campaign Classic. Essa integração será oficialmente descontinuada em 1º de março de 2022.
 
-Em 1º de agosto de 2021, a Adobe Campaign Classic será removida da interface do usuário dos Data Connectors junto com todas as outras integrações; no entanto, as integrações existentes do Campaign continuarão a coletar e transmitir dados para o Adobe Analytics até 1º de março de 2022. Em 1º de março de 2022, a integração deixará de coletar e transmitir dados para a Adobe Analytics. A Adobe Campaign está criando uma nova integração no Adobe Exchange para substituir a integração atual dos Data Connectors. A Adobe Campaign prevê a conclusão dessa nova integração a tempo de fornecer aos clientes para migrar para a nova integração antes da data de desativação, em março de 2022.
+Em 1º de agosto de 2021, a Adobe Campaign Classic será removido da interface do usuário dos Data Connectors junto com todas as outras integrações. No entanto, as integrações existentes do Campaign continuarão a coletar e transmitir dados para o Adobe Analytics até 1º de março de 2022. Em 1º de março de 2022, a integração deixará de coletar e transmitir dados para o Adobe Analytics. O Adobe Campaign está criando uma nova integração no Adobe Exchange para substituir a integração atual dos Data Connectors. O Adobe Campaign prevê a conclusão dessa nova integração a tempo de oferecer aos clientes a opção de migrar para a nova integração antes da data de desativação, em março de 2022.
