@@ -3,9 +3,9 @@ description: Importe dados de rastreamento de aplicativos de terceiros para o An
 title: Introdução aos conectores de dados do Analytics
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Antes de configurar uma integração dos conectores de dados para seu produto, f
 É necessário ter uma conta atual para acessar a página inicial dos [!UICONTROL Data Connectors] (console). Também recomenda-se que você esteja familiarizado com o Adobe Analytics.
 
 1. Faça logon na Adobe Experience Cloud.
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Data connectors]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Conectores de dados]**.
 1. Clique em **[!UICONTROL Adicionar novo]**.
 1. Percorra a interface **[!UICONTROL Adicionar integração]**.
 
