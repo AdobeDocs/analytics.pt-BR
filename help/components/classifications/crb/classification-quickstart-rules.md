@@ -7,7 +7,7 @@ uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2028'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -406,7 +406,7 @@ Etapas que descrevem como validar e ativar regras de classificação.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para substituir classificações, habilite **[!UICONTROL Substituir classificações para]** &lt;*seleção*>.
+1. (Opcional) Para substituir as classificações, ative a seleção **[!UICONTROL Substituir classificações de]** &lt;**>.
 
    Essa opção permite que você substitua classificações existentes para teclas afetadas.
 
