@@ -4,9 +4,9 @@ title: Enviar solicitações de acesso e de exclusão
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Você também pode querer garantir que seus aplicativos e sites para dispositivo
 
 ## Gerenciar o consentimento do consumidor {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Você, como o controlador de dados, é responsável por obter consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) em seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
+Você, como controlador de dados, é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
 
 ## Validar usuários e seus dados {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -36,7 +36,7 @@ Você pode enviar acesso à Privacidade de dados e excluir solicitações por me
 >
 >A API da Privacidade de dados suporta envios em massa de vários usuários em uma única solicitação. O limite suportado atualmente é de 1.000 usuários separados (podem ter várias IDs por usuário) em um único arquivo JSON de solicitação.
 
-## Solicitação JSON de exemplo  {#sample-json-request}
+## Solicitação JSON de exemplo {#sample-json-request}
 
 Este é o JSON que pode ser enviado por meio da API da Privacidade de dados ou da interface do usuário, solicitando o processamento da Privacidade de dados para três usuários.
 
