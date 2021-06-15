@@ -105,7 +105,7 @@ As capturas de tela a seguir mostram como recuperar a UUID do AAM no navegador e
 **Método 2: usar as ferramentas de desenvolvedor do Chrome (ou as ferramentas de desenvolvedor de outro navegador)**
 
 1. Inicie as Ferramentas de desenvolvedor do Chrome antes de carregar uma página
-1. Carregue a página e marque Aplicativos > Cookies. A UUID do AAM deve ser definida no cookie Demdex de terceiros ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) no exemplo abaixo). O demdex de campo é a configuração de UUID do AAM no navegador (`50814298273775797762943354787774730612` no exemplo abaixo).
+1. Carregue a página e marque Aplicativos > Cookies. A UUID do AAM deve ser definida no cookie Demdex de terceiros ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR) no exemplo abaixo). O demdex de campo é a configuração de UUID do AAM no navegador (`50814298273775797762943354787774730612` no exemplo abaixo).
 
 ![Ferramentas de desenvolvedor do Google Chrome](assets/ggogle-uuid.png)
 
