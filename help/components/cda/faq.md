@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 ## Como posso usar o CDA para ver como as pessoas mudam de um tipo de dispositivo para outro?
 
-Você pode usar uma visualização [!UICONTROL Fluxo] com a dimensão Tipo de dispositivo móvel.
+Você pode usar uma visualização de [!UICONTROL Fluxo] com a dimensão Tipo de dispositivo móvel.
 
 1. Faça logon no Adobe Analytics e crie um novo projeto em branco da Workspace.
 2. Clique na guia Visualizações à esquerda e arraste uma visualização de Fluxo para a tela à direita.
@@ -91,7 +91,7 @@ Ambos os identificadores são calculados pela Adobe no momento em que o relatór
 
 ## Como posso migrar do gráfico de dispositivos para a compilação em campo, ou vice-versa?
 
-A alternância do gráfico de dispositivos para a compilação em campo ou vice-versa pode ser solicitada por meio do Atendimento ao cliente. No entanto, essa alteração pode levar algumas semanas ou mais para ser concluída e *dados históricos compilados do método anterior são perdidos.*
+A mudança do gráfico de dispositivos para a compilação em campo ou vice-versa pode ser solicitada por meio do Atendimento ao cliente. No entanto, essa alteração pode levar algumas semanas ou mais para ser concluída e *dados históricos compilados do método anterior são perdidos.*
 
 ## Como a Adobe manipula limites exclusivos para uma eVar usada na compilação em campo?
 
@@ -101,16 +101,16 @@ O CDA extrai itens de dimensão de eVar antes de serem otimizados para o relató
 
 Vários conjuntos de relatórios podem estar ativados, no entanto, cada conjunto de relatórios adicional aumentará o tempo de provisionamento geral se vários conjuntos de relatórios forem solicitados ao mesmo tempo. O CDA não mescla conjuntos de relatórios. Cada conjunto de relatórios habilitado para o CDA precisa ser de natureza entre dispositivos (contendo dados de várias superfícies, como Web para desktop, Web móvel, aplicativo móvel etc.)
 
-## Se minha organização de Experience Cloud (também conhecida como organização IMS) tem várias empresas em diferentes regiões, posso habilitar o CDA para todas elas?
+## Se minha organização da Experience Cloud (também conhecida como organização IMS) tem várias empresas em diferentes regiões, posso habilitar o CDA para todas elas?
 
 Não. Para a mesma organização, somente uma região pode ter o CDA ativado.
 
-## Quais são as vantagens e desvantagens de uma repetição de 7 dias versus uma repetição de 1 dia?
+## Quais são as vantagens e desvantagens de uma repetição de 7 dias em relação a uma repetição de 1 dia?
 
-A vantagem da janela de lookback de reprodução de 7 dias é que o CDA pode voltar mais a tempo para tentar associar eventos anônimos anteriores a uma pessoa que fez logon posteriormente nesses 7 dias. As desvantagens da janela de lookback de 7 dias são 1) a repetição é executada somente uma vez por semana e 2) os 7 dias mais recentes estão sujeitos a alterações.
+A vantagem da janela de lookback de reprodução de 7 dias é que o CDA pode voltar mais a tempo para tentar associar eventos anônimos anteriores a uma pessoa que fez logon posteriormente nesses 7 dias. As desvantagens da janela de lookback de sete dias são 1) a repetição é executada somente uma vez por semana e 2) os sete dias mais recentes estão sujeitos a alterações.
 
-As vantagens de usar a janela de lookback de reprodução de 1 dia são 1) as execuções de repetição todos os dias e 2) somente ontem estão sujeitas a alterações. A desvantagem da janela de lookback de 1 dia é que o CDA só pode voltar 1 dia para tentar associar eventos anônimos anteriores a uma pessoa que fez logon ontem.
+As vantagens de usar a janela de lookback de reprodução de um dia são 1) as execuções de repetição acontecem todos os dias e 2) somente o dia de ontem está sujeito a alterações. A desvantagem da janela de lookback de 1 dia é que o CDA só pode voltar 1 dia para tentar associar eventos anônimos anteriores a uma pessoa que fez logon ontem.
 
-## O que acontece com os dados compilados em meus conjuntos de relatórios virtuais do CDA se minha empresa decidir fazer o download do Analytics Ultimate?
+## O que acontecerá com os dados compilados em meus conjuntos de relatórios virtuais do CDA se minha empresa decidir fazer downgrade do Analytics Ultimate?
 
-Se um cliente fizer o download do Ultimate, ele não terá mais acesso aos dados compilados. Todos os dados compilados anteriormente serão removidos. Isso significa que os conjuntos de relatórios virtuais do CDA agora não refletirão compilações entre dispositivos. Os dados serão semelhantes ao conjunto de relatórios não corrigido original.
+Se um cliente fizer o downgrade do Ultimate, ele não terá mais acesso aos dados compilados. Todos os dados compilados anteriormente serão removidos. Isso significa que os conjuntos de relatórios virtuais do CDA agora não refletirão compilações entre dispositivos. Os dados serão semelhantes ao conjunto de relatórios não compilado original.
