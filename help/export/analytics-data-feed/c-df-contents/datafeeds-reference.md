@@ -7,9 +7,9 @@ feature: Noções básicas do Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `prev_page` | Não usado. Identificador proprietário da Adobe da página anterior. | int unsigned |
 | `product_list` | Lista de produtos conforme enviado por meio da variável [`products`](/help/implement/vars/page-vars/products.md). Produtos são delimitados por vírgulas, propriedades de produtos individuais são delimitados por ponto e vírgula. | texto |
 | `product_merchandising` | Não usado. Use `product_list` no lugar dela. | texto |
-| `prop1` -  `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` - `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador exclusivo de uma compra, definido usando a variável [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Usado pela coluna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
 | `ref_domain` | Com base na coluna referrer. O domínio de referência da ocorrência. Usado na dimensão [Domínio referenciador](/help/components/dimensions/referring-domain.md). | varchar(100) |
