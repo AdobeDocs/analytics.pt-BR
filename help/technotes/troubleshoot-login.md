@@ -3,9 +3,9 @@ title: Solucionar problemas de logon no Adobe Analytics
 description: Etapas a serem seguidas quando não for possível fazer logon no Adobe Analytics.
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Se a limpeza dos cookies/cache do navegador não resolver o problema, peça a um
 >As etapas a seguir para redefinir a senha de um usuário se aplicam apenas às IDs do Analytics herdadas, não à Adobe ID. Se sua organização usar a Adobe ID, você poderá gerenciar contas de usuário em [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Faça logon no Adobe Analytics com uma conta que tenha direitos administrativos.
-2. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]**.
+2. Navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL User Management]**.
 3. Clique na guia **[!UICONTROL Usuários]** e depois clique em **[!UICONTROL Editar]** próximo ao usuário desejado.
 4. Altere a senha para qualquer valor e marque a caixa **[!UICONTROL Exigir que o usuário altere a senha no próximo logon]**.
 5. Informe o usuário sobre a nova senha.
