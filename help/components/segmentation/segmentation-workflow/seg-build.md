@@ -62,7 +62,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Valor]**: o valor inserido ou selecionado para a dimensão, segmento ou métrica.
 1. **[!UICONTROL X]**: (excluir) permite que você exclua essa parte da definição de segmentos.
 1. **[!UICONTROL Publicação na Experience Cloud]**: A publicação de um segmento do Adobe Analytics na Experience Cloud permite que você use o segmento para atividade de marketing no [!DNL Audience Manager] e em outros canais de ativação. [Saiba mais...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Biblioteca de público-alvo]**: Os serviços de público-alvo da Adobe gerenciam a conversão dos dados do visitante em segmentação do público-alvo. Assim, criar e gerenciar públicos-alvo é como criar e usar segmentos, com a capacidade adicional de compartilhar o segmento do público-alvo com a Experience Cloud. [Saiba mais...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Biblioteca de público-alvo]**: Os serviços de público-alvo da Adobe gerenciam a conversão dos dados do visitante em segmentação do público-alvo. Assim, criar e gerenciar públicos-alvo é como criar e usar segmentos, com a capacidade adicional de compartilhar o segmento do público-alvo com a Experience Cloud. [Saiba mais...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 1. **[!UICONTROL Pesquisa]**: pesquisa a lista de dimensões, segmentos ou métricas.
 1. **[!UICONTROL Dimensões]**: (Lista) clique no cabeçalho para expandir.
 1. **[!UICONTROL Métrica]**: clique no cabeçalho para expandir.
