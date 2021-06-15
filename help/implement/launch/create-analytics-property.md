@@ -3,9 +3,9 @@ title: Criar uma propriedade do Analytics no Launch
 description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -80,8 +80,8 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 ## Documentação e recursos adicionais
 
-* [Documentação de extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
-* [Introdução ao Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado.
+* [Documentação de extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=pt-BR#extensions-ref): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
+* [Introdução ao Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=pt-BR#get-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado.
 * [Canal do Adobe Experience Platform Launch no](https://experienceleague.adobe.com?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform): saiba como usar o Launch por meio de vídeos
 
 ## Próximas etapas
