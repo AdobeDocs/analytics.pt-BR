@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Cloud Debugger herdado
-description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, Target, Advertising Cloud, Serviço de identidade e Launch.
+description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador inspeciona as tags do Analytics, do Target, do Advertising Cloud, do Identity Service e do Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
