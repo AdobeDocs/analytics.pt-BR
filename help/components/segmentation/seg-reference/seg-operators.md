@@ -7,7 +7,7 @@ exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | é maior que | Retorna itens cuja contagem numérica é superior ao valor inserido. |
 | é maior que ou igual a | Retorna itens cuja contagem numérica é superior ou igual ao valor inserido. |
 
-## Operadores de Contagem distinta
+## Operadores de contagem distinta
 
 É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.”
 
