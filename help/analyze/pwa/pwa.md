@@ -4,9 +4,9 @@ description: Progressive Web Apps para Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página descreve como usar o Adobe Analytics com Progressive Web Apps (PWAs
 
 Os PWAs podem proporcionar uma experiência de aplicativo nativa, bem como recursos offline para um site. Geralmente, os PWAs incluem um funcionário de serviço, provisões de armazenamento em cache e um arquivo de manifesto, os quais podem ajudar com tempos de carregamento mais rápidos, navegação mais fácil e comportamento responsivo.
 
-O Adobe Analytics funciona perfeitamente com PWA, assim como com sites tradicionais. Embora os PWAs tenham mais alguns requisitos para se comportar progressivamente, eles não criam barreiras ou limitações sobre como o Analytics coleta ou relata dados de maneira diferente dos sites tradicionais. Na verdade, como o Analytics já inclui recursos de rastreamento offline, os PWAs podem ajudar a aproveitar esse recurso integrado com maior facilidade do que os sites tradicionais.
+O Adobe Analytics funciona perfeitamente com PWAs e com sites tradicionais. Embora os PWAs tenham mais alguns requisitos para se comportar progressivamente, eles não criam barreiras ou limitações sobre como o Analytics coleta ou relata dados de maneira diferente dos sites tradicionais. Na verdade, como o Analytics já inclui recursos de rastreamento offline, os PWAs podem ajudar a aproveitar esse recurso integrado com maior facilidade do que os sites tradicionais.
 
 ## Obtenção de dados do PWA Analytics
 
@@ -48,4 +48,4 @@ s.trackOffline=true
 
 Para obter mais informações sobre como configurar o arquivo AppMeasurement.js, consulte a [Visão geral das variáveis de configuração](/help/implement/vars/config-vars/configuration-variables.md) e as páginas individuais específicas da variável no mesmo subcapítulo.
 
-Para obter mais informações sobre as características do arquivo AppMeasurement.js, consulte a [Visão geral da implementação do JavaScript](/help/implement/js/overview.md).
+Para obter mais informações sobre as características do arquivo AppMeasurement.js, consulte a [Visão geral de implementação do JavaScript](/help/implement/js/overview.md).
