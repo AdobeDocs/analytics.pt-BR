@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização do Analytics, bem como ferramentas como painéis do Adobe Analytics, Report Builder e Activity Map.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 99%
       + [Métricas](analysis-workspace/components/apply-create-metrics.md)
       + [Segmentos](analysis-workspace/components/t-freeform-project-segment.md)
       + Calendário e intervalos de datas {#calendar-date-ranges}
-         + [Visão geral do calendário e de intervalos de data](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Visão geral do calendário e do intervalos de datas](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Criar intervalos de datas personalizados](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparação de datas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualizações {#visualizations}
@@ -60,21 +59,21 @@ ht-degree: 99%
          + [Fallout interdimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicar segmentos na análise de fallout](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Fluxo {#flow}
-         + [Visão geral do fluxo](analysis-workspace/visualizations/c-flow/flow.md)
+         + [Visão geral do Fluxo](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [Configurações de fluxo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
-      + [Área e Área empilhada](analysis-workspace/visualizations/area.md)
-      + [Barra e Barra empilhada](analysis-workspace/visualizations/bar.md)
-      + [Gráfico em marcadores](analysis-workspace/visualizations/bullet-graph.md)
+      + [Área e área empilhada](analysis-workspace/visualizations/area.md)
+      + [Barra e barra empilhada](analysis-workspace/visualizations/bar.md)
+      + [Gráfico de marcadores](analysis-workspace/visualizations/bullet-graph.md)
       + [Rosca](analysis-workspace/visualizations/donut.md)
       + [Barra horizontal e Barra horizontal empilhada](analysis-workspace/visualizations/horizontal-bar.md)
       + [Linha](analysis-workspace/visualizations/line.md)
       + [Gráfico de dispersão](analysis-workspace/visualizations/scatterplot.md)
-      + [Número do resumo e Alteração do resumo](analysis-workspace/visualizations/summary-number-change.md)
+      + [Número do resumo e alteração do resumo](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
       + [Mapa de árvore](analysis-workspace/visualizations/treemap.md)
    + Painéis {#panels}
@@ -91,14 +90,14 @@ ht-degree: 99%
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Prepare ou compartilhe projetos {#curate-share}
       + [Menu Compartilhar](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Preparar projetos do ](analysis-workspace/curate-share/curate.md)
+      + [Preparar projetos do](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos](analysis-workspace/curate-share/share-projects.md)
       + [Criar links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
       + [Projetos do somente para visualização](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar arquivos PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Agendar projetos](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
-      + [Visão geral da Atribuição](analysis-workspace/attribution/overview.md)
+      + [Visão geral da atribuição](analysis-workspace/attribution/overview.md)
       + [Modelos de atribuição e janelas de pesquisa](analysis-workspace/attribution/models.md)
       + [Atribuição algorítmica](analysis-workspace/attribution/algorithmic.md)
       + [Perguntas frequentes](analysis-workspace/attribution/faq.md)
@@ -108,15 +107,15 @@ ht-degree: 99%
       + [Visão geral do Analista virtual](analysis-workspace/virtual-analyst/overview.md)
       + Detecção de anomalias {#anomaly-detection}
          + [Visão geral da Detecção de anomalias](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Exibir anomalias na Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Desativar a Detecção de anomalias](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
+         + [Exibir anomalias no Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
+         + [Desativar a detecção de anomalias](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
          + [Técnicas estatísticas usadas na Detecção de anomalias](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
       + Análise de contribuição {#contribution-analysis}
          + [Visão geral da análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Executar análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [Técnicas estatísticas usadas na Análise de contribuição](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
       + Alertas inteligentes {#intelligent-alerts}
-         + [Visão geral de alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+         + [Visão geral de Alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Criador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gerenciador de Alerta](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes - Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
@@ -143,7 +142,7 @@ ht-degree: 99%
       + [Criar uma solicitação de dados](report-builder/data-requests/t-create-a-data-request.md)
       + Conjuntos de relatórios {#report-suites}
          + [Selecione um conjunto de relatórios](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Seleção de um conjunto de relatórios a partir de uma solicitação existente no Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Selecione um conjunto de relatórios de uma solicitação existente no Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Usar o Excel para localizar uma ID de conjunto de relatórios](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gerenciar segmentos](report-builder/data-requests/segmentation.md)
       + [Permitir substituições na lista de publicação](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -161,7 +160,7 @@ ht-degree: 99%
          + [Definições do Assistente de solicitações - datas fixas](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
          + [Datas do acumulado](report-builder/data-requests/configuring-report-dates/t-rolling-dates.md)
          + [Definições do Assistente de solicitações - Datas do acumulado](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
-         + [Relatórios em tempo real](report-builder/data-requests/configuring-report-dates/real-time.md)
+         + [Relatórios em Tempo real](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [Configurar uma solicitação em tempo real](report-builder/data-requests/configuring-report-dates/t-real-time.md)
          + Expressões de datas personalizadas {#customized-date-expressions}
             + [Visão geral das Expressões de datas personalizadas](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
@@ -282,7 +281,7 @@ ht-degree: 99%
       + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics para iOS](reports-analytics/overview/app-ios.md)
+      + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
    + [Configurações e navegação da exibição de relatórios](reports-analytics/report-settings.md)
    + [Agendamento e distribuição de relatórios](reports-analytics/scheduling.md)
    + [Tipos de relatórios](reports-analytics/reports.md)
