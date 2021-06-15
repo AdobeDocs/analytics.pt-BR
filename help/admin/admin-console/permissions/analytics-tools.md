@@ -1,11 +1,11 @@
 ---
 title: Permissões de perfil de produto para as Ferramentas do Analytics
-description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso aos recursos no Adobe Analytics.
+description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso a recursos no Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Item de permissão das Ferramentas do Analytics | Descrição |
 |----|----|
 | Uso de chamadas do servidor | Concede acesso a Administração > Uso de chamada do servidor. |
-| Gerenciador de código | Mantido para fins herdados. Concede acesso a Administração > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
+| Gerenciador de código | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas no Adobe Experience Platform Launch em vez disso. |
 | Gerenciador de código - Serviços da Web | Concede acesso ao Gerenciador de código por meio da API 1.4. |
-| Logs | Concede acesso a Administração > Todos os administradores > Logs. |
+| Logs | Concede acesso a Administrador > Todos os administradores > Logs. |
 | Logs - Serviços da Web | Concede acesso a registros de extração por meio da API 1.4. |
-| Gerenciamento de tráfego | Concede acesso a Administração > Todos os administradores > Gerenciamento de tráfego. |
-| Segurança | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Gerenciador de segurança. |
-| Suporte | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Informações de suporte. |
-| Serviços Web | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Serviços da Web. |
-| Ações pendentes | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ações pendentes. |
-| Ocultar conjunto de relatórios | Concede acesso a Administração > Todos os administradores > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
+| Gerenciamento de tráfego | Concede acesso a Administrador > Todos os administradores > Gerenciamento de tráfego. |
+| Segurança | Concede acesso a Administrador > Configurações da empresa > Gerenciador de segurança. |
+| Suporte | Concede acesso a Administrador > Configurações da empresa > Informações de suporte. |
+| Serviços Web | Concede acesso a Administrador > Configurações da empresa > Serviços da Web. |
+| Ações pendentes | Concede acesso a Administrador > Configurações da empresa > Ações pendentes. |
+| Ocultar conjunto de relatórios | Concede acesso a Administrador > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
 | Usuários da licença do Excel | Não usado. |
 | Activity Map | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
 | Dados atuais | Ativa a opção para ver os dados atuais nos relatórios do Reports &amp; Analytics. |
@@ -41,6 +41,6 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Criação de segmentos | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
 | Gerenciamento do Advertising Analytics | Não usado. |
 | Publicação de segmento | Concede a capacidade de tornar um segmento um público-alvo da Experience Cloud ao criar ou editar um segmento. |
-| Integrações (Criar) | Concede acesso a Administração > Todos os administradores > Conectores de dados e permite que o usuário crie conectores de dados. |
-| Integrações (Atualizar) | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário modifique as configurações de conector existentes. |
-| Integrações (Excluir) | Concede acesso a Administração > Todos os administradores > Data connectors e permite que o usuário exclua os Data Connectors. |
+| Integrações (Criar) | Concede acesso a Administrador > Conectores de dados e permite que o usuário crie conectores de dados. |
+| Integrações (Atualizar) | Concede acesso a Administrador > Conectores de dados e permite que o usuário modifique configurações de conector existentes. |
+| Integrações (Excluir) | Concede acesso a Administrador > Conectores de dados e permite que o usuário exclua os conectores de dados. |
