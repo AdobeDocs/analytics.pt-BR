@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Para maximizar a eficácia dos Canais de marketing para Attribution IQ e Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal através do processamento de cada ocorrência que um visitante faz no site. As regras são processadas na ordem especificada e, quando uma regra é atendida, o sistema para de processar as regras restantes.
 
@@ -21,7 +21,7 @@ As regras de processamento de canal de marketing determinam se uma ocorrência d
 
 Observações adicionais sobre o processamento:
 
-* Os dados coletados com essas regras são totalmente permanentes, e as regras alteradas após a coleta dos dados não são retroativas. Recomendamos que você analise e considere todas as circunstâncias antes de salvar [!UICONTROL Regras de processamento de canal de marketing] para reduzir a coleta de dados nos canais errados.
+* Os dados coletados com essas regras são totalmente permanentes, e as regras alteradas após a coleta dos dados não são retroativas. É altamente recomendado analisar e considerar todas as circunstâncias antes de salvar as [!UICONTROL Regras de processamento do canal de marketing] para mitigar a coleta de dados nos canais errados.
 * O relatório pode processar até 25 canais simultaneamente.
 * As regras podem acessar variáveis definidas pelo VISTA, mas não podem acessar dados excluídos pelo VISTA.
 * Dois canais de marketing nunca recebem crédito pelo mesmo evento (como compras ou cliques). Dessa forma, os canais de marketing diferem das eVars (já que duas eVars podem receber crédito pelo mesmo evento).
@@ -31,7 +31,7 @@ Observações adicionais sobre o processamento:
 
 * Revise as informações conceituais em [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adicionar canais de marketing.](/help/components/c-marketing-channels/c-channels.md)
-* Revise as práticas recomendadas para usar [!UICONTROL Canais de marketing] com [!UICONTROL Attribution IQ].
+* Examine as práticas recomendadas para usar [!UICONTROL Canais de marketing] com o [!UICONTROL Attribution IQ].
 
 ## Criar regras de processamento de Canal de marketing
 
