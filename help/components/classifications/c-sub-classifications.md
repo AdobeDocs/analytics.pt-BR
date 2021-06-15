@@ -6,7 +6,7 @@ feature: Ferramentas administrativas
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Por exemplo:
 
 | CHAVE | PROPRIEDADE 1 | Propriedade 1^Propriedade 1-1 | Propriedade 1^Propriedade 1-2 | Propriedade 2 |
 |---|---|---|---|---|
-| 123º | ABC | Verde | Pequena | A12B |
+| 123 | ABC | Verde | Pequena | A12B |
 | 456 | DEF | Vermelho | Grande | C3D4 |
 
 Embora o modelo de arquivo para uma classificação de diversos níveis seja mais complexo, a vantagem desse tipo de classificação é que níveis separados podem ser carregados como arquivos separados. Essa abordagem pode ser usada para minimizar a quantidade de dados que precisa ser carregada periodicamente (diariamente, semanalmente, e assim por diante) agrupando os dados em níveis de classificação que mudam ao longo do tempo em contrate com aqueles que não mudam.
@@ -84,7 +84,7 @@ Ao fazer upload dos arquivos de dados para essa classificação de produto, é p
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Camisa polo masculina, manga curta (M,01) | M | M | 01 |
 | 410390014 | Polo-MC | Camisa polo masculina, manga curta (G,03) | M | L | 03 |
-| 410390015 | Polo-ML | Camisa polo feminina, manga longa (S,23) | F | S | 23º |
+| 410390015 | Polo-ML | Camisa polo feminina, manga longa (S,23) | F | S | 23 |
 
 ### Classificação do produto - Vários arquivos (Arquivo 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
@@ -92,4 +92,4 @@ Ao fazer upload dos arquivos de dados para essa classificação de produto, é p
 |---|---|---|
 | * | 01 | Pedra |
 | * | 03 | Urze |
-| * | 23º | Aqua |
+| * | 23 | Aqua |
