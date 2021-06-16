@@ -36,5 +36,6 @@ Você pode enviar dados para o lado do servidor do Analytics usando a [API de in
 Para obter etapas práticas, sua empresa pode realizar a transição de cookies de terceiros. Consulte [Adquirir e manter os clientes em um mundo sem cookies com a Adobe](https://business.adobe.com/pt/solutions/cookieless.html) e o detalhado [Pensamento além do cookie de terceiros: o manual completo para um mundo sem cookies de terceiros](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).&quot;
 
 >[!MORELIKETHIS]
-[Adobe Analytics e cookies do navegador](cookies.md)>
 >
+>[Adobe Analytics e cookies do navegador](cookies.md)>
+
