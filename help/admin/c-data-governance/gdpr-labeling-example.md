@@ -1,16 +1,16 @@
 ---
 description: Mostra exemplos de como rotular dados de hit, solicitações de acesso, solicitações de exclusão
-title: Exemplo de rotulagem
+title: Exemplos de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: fe277bea867dc67e8693673a547adecccf169332
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 87%
+source-wordcount: '770'
+ht-degree: 69%
 
 ---
 
-# Exemplo de rotulagem
+# Exemplos de rotulagem
 
 ## Dados de ocorrência de exemplo
 
@@ -289,7 +289,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar e seu valor de substituição seria uma sequência de caracteres iniciada com &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um diferente e aleatório.
+>Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou um eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>
@@ -364,6 +364,6 @@ Observe o seguinte:
 
 * As células em linhas que contêm `user=Mary` e um rótulo `DEL-DEVICE` ou `DEL-PERSON` são afetadas, bem como as células com um rótulo `DEL-DEVICE` em linhas que contêm qualquer ID de visitante (AAID) que ocorreu em uma linha que contém `user=Mary`.
 * A configuração expandIDs não expande a chamada para incluir valores presentes em MyEvar3, que tem um rótulo ID-DEVICE, quando `user=Mary`. Expandir IDs só se expande para incluir IDs de visitante (AAIDs neste exemplo, mas também a ECID) em linhas nas quais `user=Mary`.
-* `MyEvar2`A na quarta e na quinta linha é atualizada, pois essas linhas contêm os mesmos valores de ID de visitante que os da primeira e da segunda linha, portanto, a expansão de ID inclui esses valores para as exclusões a nível de dispositivo.
-* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão, mas após a exclusão, eles não corresponderão mais ao valor N existente na última linha, pois tal linha não foi atualizada como parte da solicitação de exclusão.
+* `MyEvar2` A na quarta e na quinta linha é atualizada, pois essas linhas contêm os mesmos valores de ID de visitante que os da primeira e da segunda linha. Como resultado, a expansão de ID os inclui para exclusões a nível de dispositivo.
+* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão. No entanto, após a exclusão, elas não correspondem mais ao valor N que ocorre na última linha, pois essa linha não foi atualizada como parte da solicitação de exclusão.
 * `MyEvar3`O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES`. Agora, `AAID` corresponde nas cinco primeiras linhas.
