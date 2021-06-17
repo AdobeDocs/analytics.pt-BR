@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 Etapas para executar os diferentes tipos de relatório.
 
-
 ## Execute um relatório classificado {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 Em um relatório classificado, a tabela mostra a classificação das páginas do relatório em relação à métrica, de acordo com o número ou a porcentagem. Os relatórios classificados podem exibir diversas métricas em um mesmo relatório.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Gere um relatório, como, por exemplo, um [!UICONTROL relatório de Páginas] (**[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Páginas]**).
 1. No cabeçalho do relatório, clique em **[!UICONTROL Classificado]**.
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 Os relatórios de tendência exibem as métricas ao longo do tempo. Você usa este tipo de relatório quando deseja ver como um segmento se comporta de um período de tempo para o seguinte.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 A maioria dos relatórios de Conversão e Tráfego tem uma exibição com Tendência disponível. Usando o [!UICONTROL Calendário], você pode mostrar a melhora de qualquer análise de período, inclusive dias de um mês, semanas de um ano, semanas de um trimestre, meses de um ano, etc. Relatórios de tendência mostram tendências para uma única métrica (receitas, pedidos, opiniões, etc.) para até cinco itens (como produtos, categorias, páginas da Web, etc.).
 
 **Para executar um relatório de tendências**
@@ -50,29 +37,9 @@ A maioria dos relatórios de Conversão e Tráfego tem uma exibição com Tendê
 1. Execute um relatório de conversão ou tráfego como, por exemplo, **[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Páginas]**.
 1. Em **[!UICONTROL Tipo de relatório]**, clique em **[!UICONTROL Tendência]**.
 
-## Executar um relatório de funil de conversão {#task_B926A74AA6A641138C2986C1635120CB}
-
-Os relatórios de Funil de conversão exibem a porcentagem dos visitantes que avançaram por um conjunto de eventos para executar a ação desejada. Por exemplo, você pode visualizar quantos visitantes avançaram da visita inicial à sua página da Web à adicionar itens ao carrinho e, em seguida, à compra dos itens. Este relatório também mostra o número de visitantes que desistiram no meio do processo.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Para executar esse relatório, selecione um relatório, como o relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Código de rastreamento]** > **[!UICONTROL Funil de conversão de campanha]**).
-
-Consulte [Relatórios de conversão](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) para uma descrição.
-
 ## Executar um relatório de fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 O [!UICONTROL Relatório de desistências] exibe o número de visitantes que visitaram uma sequência pré-especificada de páginas. Ele também mostra as taxas de conversão e desistência entre cada etapa.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
 
@@ -85,11 +52,6 @@ Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.ado
 1. Clique em **[!UICONTROL Executar relatório]**.
 
    ![Resultado da etapa](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Descrição do relatório de fallout](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Executar um relatório de fluxo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ Por exemplo, a página Política de privacidade pode ter o total de 10.000 exibi
 
 A porcentagem relativa é representada pela largura relativa da linha. Por padrão, esse relatório mostra cinco ramificações de segundo nível e cinco ramificações de terceiro nível. É possível expandir o número de ramificações para exibir até dez ramificações de segundo nível e cinco de terceiro. Isso aumentará a altura do relatório e muito provavelmente será necessário rolar a página para visualizar todo o gráfico.
 
-## Executar um relatório de funil {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-Você pode selecionar eventos de sucesso e adicioná-los ao relatório [!UICONTROL Funil de conversão de compra] ou ao [!UICONTROL Funil de conversão de produto].
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Produtos]** > [Funil de conversão de produtos](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
 O relatório do canal de marketing fornece uma visão geral do relatório da alocação de canal de última hora, com métricas de relatório padrão, como receita, pedidos e custo. Este relatório permite analisar quanta receita foi gerada por cada canal.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Consulte o sistema de ajuda do [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) para obter mais informações.
 
 ## Executar um relatório de Detecção de anomalias {#task_4808C96327354D789C075823F5C3A049}
 
 Descreve como interpretar os gráficos de Resumo e Métrica individual na Detecção de anomalias.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Dê uma olhada nos novos recursos [Detecção de anomalias e Análise de contribuições](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) na Analysis Workspace!
 
