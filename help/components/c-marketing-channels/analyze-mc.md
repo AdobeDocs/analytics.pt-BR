@@ -2,10 +2,10 @@
 title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Os Detalhes dos canais de marketing aprofundam-se em cada canal para mostrar cam
 
 ## Aplicar modelos de atribuição
 
-Você pode usar o [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) para aplicar modelos de atribuição diferentes instantaneamente:
+Você pode usar o [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) para aplicar modelos de atribuição diferentes instantaneamente:
 
 ![](assets/mc-viz5.png)
 
