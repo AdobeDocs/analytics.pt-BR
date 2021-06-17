@@ -3,10 +3,10 @@ description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 
 >[!IMPORTANT]
 >
->Em julho de 2018, o [!DNL Analytics] introduziu o [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que reimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
+>[O Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQreimaginou a maneira que modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
 >* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
@@ -72,9 +72,9 @@ Para a eVar primeiro contato acima, todos os US$10 seriam dados a A. Para a prop
 | PROMOÇÃO C | US$1,67 | US$ 0 | US$2,50 |
 | Total | US$10,00 | US$10,00 | US$10,00 |
 
-**Resumo de como a alocação linear funciona desde 19 de julho de 2018**
+**Resumo de como a alocação linear funciona agora**
 
-Em 19 de julho de 2018, corrigimos este comportamento nas métricas calculadas. Em vez de usar os valores persistentes com base no último contato ou no primeiro contato, o [!DNL Analytics] usa apenas os valores que foram passados (a primeira linha da tabela superior). Sendo assim, as configurações de alocação de dimensão não afetam mais a maneira como a alocação linear é calculada (isso significa que propriedades e eVars serão tratadas da mesma maneira) e os resultados reflete o que foi originalmente passado em vez dos valores do primeiro ou do último contato que possam ter persistido. Então, em todos os três casos, A = 10 * (2/4) = US$5, B = 10 * (1/4) = US$2,50 e C = 10 * (1/4) = US$2,50.
+Em vez de usar os valores persistentes com base no último contato ou no primeiro contato, o [!DNL Analytics] usa apenas os valores que foram passados (a primeira linha da tabela superior). Sendo assim, as configurações de alocação de dimensão não afetam mais a maneira como a alocação linear é calculada (isso significa que propriedades e eVars serão tratadas da mesma maneira) e os resultados reflete o que foi originalmente passado em vez dos valores do primeiro ou do último contato que possam ter persistido. Então, em todos os três casos, A = 10 * (2/4) = US$5, B = 10 * (1/4) = US$2,50 e C = 10 * (1/4) = US$2,50.
 
 | Valores | Nova eVar de último contato | Nova eVar de primeiro contato | Nova propriedade |
 |---|---|---|---|
