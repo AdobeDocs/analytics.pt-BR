@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alertas
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 94%
+source-wordcount: '838'
+ht-degree: 95%
 
 ---
 
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Alertas com um slot ASI como o conjunto de relatórios </p> </td> 
    <td colname="col2"> <p>Não é possível criar ou editar slots ASI e não estão disponíveis para uso no Analysis Workspace. Portanto, não são compatíveis com os novos alertas. </p> <p> </p> </td> 
-   <td colname="col3"> <p>Não disponíveis no novo Gerenciador de alertas. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Alertas que usam métricas de participação </p> </td> 
-   <td colname="col2"> <p> As <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >Métricas de participação</a> estão disponíveis em Reports &amp; Analytics e indisponíveis no novo sistema de alertas na Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Não disponíveis no novo Gerenciador de alertas. </p> </td> 
   </tr> 
   <tr> 
