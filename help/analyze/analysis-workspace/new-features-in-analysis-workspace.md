@@ -5,9 +5,9 @@ title: Novidades no Analysis Workspace
 feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ Novos recursos lançados em 20 de fevereiro de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Novo modelo do Workspace para organizações que usam o Cross-Device Analytics | Esse modelo mostra como o CDA é eficaz ao unir visitas e informa você sobre dimensões e métricas exclusivas do CDA. É necessário um conjunto de relatórios que use o CDA. Consulte [Configuração de análises entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html) para obter mais informações. |
+| Novo modelo do Workspace para organizações que usam o Cross-Device Analytics | Esse modelo mostra como o CDA é eficaz ao unir visitas e informa você sobre dimensões e métricas exclusivas do CDA. É necessário um conjunto de relatórios que use o CDA. Consulte [Configurar Análise entre dispositivos](/help/components/cda/setup.md) para obter mais informações. |
 | Novas teclas de atalho no Workspace | <ul><li>Recolher/expandir todos os painéis: `alt + m`</li><li>Recolher/expandir painel ativo: `alt + ctrl + m`</li><li>Pesquisar painel esquerdo: `ctrl + /`</li><li>Mover para o próximo painel: `alt + Right Key`</li><li>Mover para o painel anterior: `alt + Left Key`</li></ul>[Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Outras melhorias na Workspace | <ul><li>Quando um painel ou uma visualização é colocada no Workspace, o painel esquerdo muda automaticamente para componentes a fim de oferecer um fluxo de trabalho mais simples.</li><li>Os componentes do modelo agora podem ser ativados (por exemplo, marcados com tags, marcados como favoritos, aprovados).</li><li>As listas de segmentos e métricas filtradas oferecem o botão + para adicionar um novo componente se você não encontrar o que precisa.</li></ul> |
 | Depurador do Workspace | O depurador de espaço de trabalho foi adicionado ao menu Ajuda, fornecendo uma maneira mais simples de habilitá-lo para depurar solicitações de Workspace. [Saiba mais...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
