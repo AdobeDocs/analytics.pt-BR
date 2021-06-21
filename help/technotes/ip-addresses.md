@@ -2,10 +2,10 @@
 title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 4460850971fe822ff8a0ebf3e3269d0e573fa1db
+source-git-commit: 31fa03e0d8bba457953e10aa537d22b2d69b84c1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -127,9 +127,9 @@ O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de c
 | Índia | `65.0.114.116` |
 | Índia | `65.0.115.179` |
 | Índia | `65.0.25.111` |
-| Índia | `13.233.180.137` |
-| Índia | `65.0.111.130` |
-| Índia | `52.66.172.181` |
+| Índia | `3.7.24.204` |
+| Índia | `3.108.50.194` |
+| Índia | `3.108.177.136` |
 | Irlanda | `18.202.158.78` |
 | Irlanda | `54.72.205.114` |
 | Irlanda | `54.78.36.71` |
