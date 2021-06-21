@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Noções básicas do Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '771'
 ht-degree: 95%
 
 ---
@@ -31,7 +31,7 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obter detalhes sobre relatórios individuais, consulte as [Descrições de relatórios](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
+Para obter detalhes sobre relatórios individuais, consulte [Dimension](/help/components/dimensions/overview.md).
 
 ## Pesquisar relatórios {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
