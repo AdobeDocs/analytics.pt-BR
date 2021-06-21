@@ -2,7 +2,7 @@
 description: O que você precisa saber sobre a migração de IDs de usuários do Analytics para o Admin Console na Adobe Experience Cloud.
 title: Migração de usuários do Analytics para o Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 98%
@@ -321,7 +321,7 @@ Nossa empresa começará a migrar todas as contas do Adobe Analytics de [!DNL ht
 
 **Recursos úteis:**
 
-[Fazer logon e gerenciar as configurações do seu perfil](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[Fazer logon e gerenciar as configurações do seu perfil](https://helpx.adobe.com/br/enterprise/admin-guide.html/br/enterprise/using/manage-products.ug.html).
 
 Entre em contato com os administradores do Analytics em caso de dúvidas ou preocupações.
 
