@@ -4,10 +4,10 @@ keywords: Feed de dados;práticas recomendadas;pico de tráfego;por hora;ftp
 title: Práticas recomendadas e informações gerais
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 8f6c6aabf1e41cfd4b143a5d4cf14e73cdcbb603
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '277'
+ht-degree: 67%
 
 ---
 
@@ -27,4 +27,4 @@ A seguir você encontra algumas das práticas recomendadas para processamento e 
 
 * Se você automatizar o processo de ingestão de feed, considere a possibilidade de as ocorrências e os arquivos serem transferidos mais de uma vez. O processo de ingestão de feed precisa lidar com ocorrências duplicadas e arquivos duplicados sem ancorar ou duplicar dados. Recomendamos usar a combinação das colunas `hitid_high` e `hitid_low` para identificar uma ocorrência de maneira exclusiva.
 
-   Em casos raros, você pode ver valores `hitid_high` e `hitid_low` duplicados. Se isso acontecer, confirme se o arquivo não foi enviado e processado anteriormente. Se apenas algumas linhas em um arquivo forem duplicadas, considere adicionar `visit_num` e visit_page_num` para ajudar a determinar a exclusividade.
+   Em casos raros, você pode ver valores `hitid_high` e `hitid_low` duplicados. Se isso acontecer, confirme se o arquivo não foi enviado e processado anteriormente. Se apenas algumas linhas em um arquivo forem duplicadas, considere adicionar `visit_num` e `visit_page_num` para ajudar a determinar a exclusividade.
