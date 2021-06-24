@@ -2,10 +2,10 @@
 title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 31fa03e0d8bba457953e10aa537d22b2d69b84c1
+source-git-commit: 9a43b69bbb7d5a1c331740fff00242e4b1eb2b25
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 100%
 
 ---
 
@@ -124,27 +124,15 @@ O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de c
 | França | `13.36.218.177` |
 | França | `15.188.95.229` |
 | França | `15.236.176.210` |
-| Índia | `65.0.114.116` |
-| Índia | `65.0.115.179` |
-| Índia | `65.0.25.111` |
 | Índia | `3.7.24.204` |
 | Índia | `3.108.50.194` |
 | Índia | `3.108.177.136` |
-| Irlanda | `18.202.158.78` |
-| Irlanda | `54.72.205.114` |
-| Irlanda | `54.78.36.71` |
 | Irlanda | `54.220.133.225` |
 | Irlanda | `54.74.170.177` |
 | Irlanda | `54.195.254.128` |
-| Oregon | `44.233.255.254` |
-| Oregon | `44.237.54.118` |
-| Oregon | `44.238.157.95` |
 | Oregon | `54.212.155.93` |
 | Oregon | `52.10.149.115` |
 | Oregon | `52.40.172.46` |
-| Singapura | `52.220.116.94` |
-| Singapura | `52.76.68.91` |
-| Singapura | `54.179.114.68` |
 | Singapura | `54.255.88.178` |
 | Singapura | `52.220.235.10` |
 | Singapura | `3.1.237.132` |
@@ -154,12 +142,12 @@ O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de c
 | Tóquio | `3.113.78.189` |
 | Tóquio | `13.115.137.161` |
 | Tóquio | `54.178.162.114` |
-| Virgínia | `3.213.168.181` |
-| Virgínia | `3.219.249.186` |
+| Virgínia | `18.205.241.19` |
+| Virgínia | `44.194.25.77` |
 | Virgínia | `3.220.129.153` |
 | Virgínia | `18.206.109.10` |
 | Virgínia | `18.211.197.67` |
-| Virgínia | `34.227.41.189` |
+| Virgínia | `52.0.93.32` |
 | Virgínia | `34.228.124.176` |
 | Virgínia | `54.90.190.103` |
 | Virgínia | `54.174.149.161` |
