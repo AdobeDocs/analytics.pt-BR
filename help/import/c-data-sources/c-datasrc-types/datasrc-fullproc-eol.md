@@ -2,10 +2,9 @@
 title: Término da vida útil das fontes de dados de processamento completo
 description: Motivos para o fim da vida útil e comparações entre a API de inserção de dados em massa e as fontes de dados de processamento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-translation-type: tm+mt
-source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
+source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1233'
 ht-degree: 31%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 31%
 
 Por vários anos, as Fontes de dados de processamento completo permitiram enviar dados a nível de ocorrência para a Adobe Analytics. Esses dados foram processados da mesma forma que os dados coletados por meio das bibliotecas JavaScript e do SDK do aplicativo móvel. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que executa as mesmas funções que as Fontes de dados de processamento completo, mas com recursos adicionais. Este tópico fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
 
-A partir de 25 de março de 2021, o Adobe impedirá a criação de novas conexões das Fontes de dados de processamento completo. As conexões existentes continuarão a ser compatíveis até que o serviço seja totalmente descontinuado em 31 de julho de 2021.
+A partir de 25 de março de 2021, o Adobe impedirá a criação de novas conexões das Fontes de dados de processamento completo. As conexões existentes continuarão a ser compatíveis até que o serviço seja totalmente descontinuado em 31 de julho de 2021. Além de nossa documentação padrão, estamos fornecendo uma apresentação das etapas [necessárias para enviar dados por meio da API de inserção de dados em massa](http://adobe.ly/aabdia).
 
 ## Por que vamos acabar com esse recurso?
 
@@ -63,7 +62,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | javaScriptVersion | javaScriptVersion | Versão do JavaScript (por exemplo, 1.3) |
 | idioma | Não suportado | O idioma suportado do navegador. Por exemplo, `en-us`. |
 | linkName | linkName | Nome do link. |
-| linkType | linkType | Tipo de link. Os valores para os quais existe suporte incluem: `d: Download link`, `e: Exit link`, `o: Custom link`. |
+| linkType | linkType | Tipo de link. Os valores compatíveis incluem: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF do link. |
 | listar Por exemplo, list2. | Não suportado | Uma lista delimitada de valores passados para uma variável e, em seguida, reportados como itens de linha individuais para relatório |
 | marketingCloudVisitorID | Não suportado | Marketing Cloud ID. Consulte [Identificação do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) e o Serviço de ID do visitante do Marketing Cloud |
@@ -89,7 +88,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | resolução | resolução | Resolução do monitor (por exemplo, 1024x768). |
 | servidor | servidor | Sequência de caracteres do servidor. |
 | estado | estado | Sequência de caracteres do estado de conversão. |
-| carimbo de data e hora | data | Use o formato de data ISO 8601, YYY-MM-DDThh:mm:ss±UTC_offset (por exemplo, 2021-09-01T12:00:00-07:00 ) ou o Formato de hora Unix (o número de segundos decorridos desde 1° de janeiro de 1970). |
+| carimbo de data e hora | data | Use o formato de data ISO 8601, YYY-MM-DDThh:mm:ss±UTC_offset (por exemplo, 2021-09-01T12:00:00-07:00 ), ou o Formato de hora Unix (o número de segundos decorridos desde 1 de janeiro de 19970 ). |
 | trackingServer | Não suportado | Só pode ser fornecido por meio do cabeçalho da coluna. |
 | transactionID | Não suportado | Valor comum usado para vincular as atividades de usuário multicanal juntamente com fins de relatório. Para obter mais informações, consulte o [Guia do Usuário das Fontes de Dados](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
 | userAgent | Não suportado | Sequência de agente do usuário |
