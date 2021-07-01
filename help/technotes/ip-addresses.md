@@ -2,9 +2,9 @@
 title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 9a43b69bbb7d5a1c331740fff00242e4b1eb2b25
+source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '390'
 ht-degree: 100%
 
 ---
@@ -136,18 +136,12 @@ O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de c
 | Singapura | `54.255.88.178` |
 | Singapura | `52.220.235.10` |
 | Singapura | `3.1.237.132` |
-| Tóquio | `18.182.161.178` |
-| Tóquio | `54.168.58.167` |
-| Tóquio | `54.178.61.109` |
 | Tóquio | `3.113.78.189` |
 | Tóquio | `13.115.137.161` |
 | Tóquio | `54.178.162.114` |
 | Virgínia | `18.205.241.19` |
 | Virgínia | `44.194.25.77` |
-| Virgínia | `3.220.129.153` |
-| Virgínia | `18.206.109.10` |
-| Virgínia | `18.211.197.67` |
 | Virgínia | `52.0.93.32` |
-| Virgínia | `34.228.124.176` |
-| Virgínia | `54.90.190.103` |
-| Virgínia | `54.174.149.161` |
+| Virgínia | `3.216.131.23` |
+| Virgínia | `34.204.237.47` |
+| Virgínia | `54.163.234.74` |
