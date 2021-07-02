@@ -6,9 +6,9 @@ feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ A comparação de datas no Analysis Workspace permite pegar qualquer coluna cont
 ## Comparar períodos de tempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL Comparar períodos] utiliza métricas calculadas avançadas. Como resultado, ele está disponível somente para clientes com as SKUs Select, Prime e Ultimate do Analytics.
+>[!UICONTROL Comparar períodos de tempo] utiliza métricas calculadas avançadas. Como resultado, ele está disponível somente para clientes com SKUs do Analytics Select, Prime e Ultimate.
 
 A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta &quot;Estamos melhor ou pior que nesse mesmo período de tempo no ano passado?&quot; é fundamental para entender seus negócios. A comparação de datas inclui automaticamente uma coluna &quot;diferença&quot;, que mostra a porcentagem de mudança comparada a um período de tempo específico.
 
