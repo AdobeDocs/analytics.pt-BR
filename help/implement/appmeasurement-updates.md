@@ -1,16 +1,16 @@
 ---
-title: AppMeasurement para notas de versão do Javascript
+title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AppMeasurement para notas de versão do Javascript
+# AppMeasurement para notas de versão do JavaScript
 
 Notas de versão cumulativas do [!DNL AppMeasurement] para JavaScript.
 
@@ -308,8 +308,8 @@ Data de lançamento: **18 de junho de 2015**
 
 Data de lançamento: **21 de maio de 2015**
 
-* A partir do iOS SDK versão 4.5, uma nova extensão do iOS permite coletar dados de uso dos aplicativos do Apple Watch, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão iOS. Consulte [Implementação da extensão iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) no guia do usuário Mobile Services.
-* A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do aplicativo vestível Android. Consulte [Dispositivos vestíveis Android](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) no guia do usuário do Mobile Services.
+* A partir do iOS SDK versão 4.5, uma nova extensão do iOS permite coletar dados de uso dos aplicativos do Apple Watch, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão iOS. Consulte [Implementação da extensão iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=pt-BR) no guia do usuário Mobile Services.
+* A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do aplicativo vestível Android. Consulte [Dispositivos vestíveis Android](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=pt-BR) no guia do usuário do Mobile Services.
 * Inclusão da API de Visitante 1.4.
 * Foi atualizado o módulo do AudienceManagement para usar o DIL versão 6.0.
 
@@ -394,7 +394,7 @@ Data de lançamento: **22 de maio de 2014**
 
 Data de lançamento: **17 de abril de 2014**
 
-* Suporte para [Serviço de ID de visitante da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Suporte para [Serviço de ID de visitante da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Versão 1.2.4
 
@@ -424,8 +424,8 @@ Data de lançamento: **15 de novembro de 2013**
 
 Data de lançamento: **14 de novembro de 2013**
 
-* Adição de suporte para [medição de vídeo de heartbeat](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html).
-* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Adição de suporte para [medição de vídeo de heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
+* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Versão 1.1.1
 
