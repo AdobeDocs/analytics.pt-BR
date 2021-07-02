@@ -7,7 +7,7 @@ exl-id: e1d3f894-b769-4294-b550-f46869b812be
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Permite que o Analytics colete a atividade do usuário obtida do Activity Map (a
    | Links do Activity Map | Lista todos os links coletados em todo o site. |
    | Links e região do Activity Map | Lista todos os links coletados com sua região em todo o site. |
 
-Para que os dados sejam preenchidos, consulte a [documentação do Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) para obter instruções completas de implementação.
+Para que os dados sejam preenchidos, consulte a [documentação do Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=pt-BR) para obter instruções completas de implementação.
