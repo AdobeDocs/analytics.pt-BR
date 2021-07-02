@@ -2,9 +2,9 @@
 description: Não é possível combinar o Construtor de regras de classificação com subclassificações.
 title: Subclassificações e o Construtor de regras
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Depois de colocar essa estrutura no lugar, é possível utilizar [Construtor de 
 
 A seguinte tarefa descreve como fazer isso.
 
-## Configurar subclassificações usando o Construtor de relatórios {#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Configurar subclassificações usando o Construtor de relatórios{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 Exemplo de etapas que descrevem como você pode fazer upload de subclassificações usando o Construtor de regras.
 
@@ -39,7 +39,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 >
 >Essas etapas descrevem como realizar o caso de uso descrito em [Subclassificações e o construtor de regras](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Criar classificações e subclassificação no [Gerenciador de classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Criar classificações e subclassificação no [Gerenciador de classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR).
 
    Exemplo:
 
