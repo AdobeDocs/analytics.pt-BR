@@ -5,7 +5,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,5 +39,5 @@ As versões por fases permitem que a Adobe dimensione melhor o processo de impla
 
 | Pergunta | Resposta |
 | --- | --- |
-| Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) para fornecer feedback sobre as inovações líderes do setor. |
-| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [!UICONTROL Administrador] > [!UICONTROL Todos os administradores] > [!UICONTROL Configurações da empresa] > [Níveis de acesso a recursos](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
+| Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html?lang=pt-BR) para fornecer feedback sobre as inovações líderes do setor. |
+| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [!UICONTROL Administrador] > [!UICONTROL Todos os administradores] > [!UICONTROL Configurações da empresa] > [Níveis de acesso a recursos](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html?lang=pt-BR). |
