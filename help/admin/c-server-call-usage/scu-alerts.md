@@ -3,9 +3,9 @@ description: Adicione ou gerencie todos os alertas de uso de chamadas do servido
 title: Alertas de uso de chamadas do servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em tod
 
 ## Visão geral
 
-Uma nova categoria chamada **[!UICONTROL Alerta de uso de chamadas do servidor]** será adicionada à interface do usuário de [Gerenciamento de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) atual.
+Uma nova categoria chamada **[!UICONTROL Alerta de uso de chamadas do servidor]** será adicionada à interface do usuário de [Gerenciamento de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR) atual.
 
 Ela é pré-preenchida com **1 alerta padrão** que é exibido em qualquer empresa de logon que tem acesso ao recurso de Uso de chamadas do servidor. Esses alertas acionarão uma notificação direcionada a todos os administradores caso um dos seguintes critérios seja atendido:
 
