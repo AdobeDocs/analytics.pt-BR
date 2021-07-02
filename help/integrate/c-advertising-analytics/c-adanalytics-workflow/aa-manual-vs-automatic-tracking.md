@@ -3,9 +3,9 @@ description: O rastreamento determina como os dados do mecanismo de pesquisa sã
 title: 'Rastreamento: modo manual e modo automático'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo autom
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=pt-BR).
 
 ## Rastreamento no modo manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
