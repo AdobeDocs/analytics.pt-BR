@@ -6,9 +6,9 @@ feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Para editar um rótulo de legenda:
 1. Digite o texto do novo rótulo.
 1. Pressione **[!UICONTROL Enter]** para salvar.
 
-Temos um [vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre esse tópico.
+Temos um [vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=pt-BR) sobre esse tópico.
 
 ## Clique com o botão direito do mouse no menu {#right-click}
 
@@ -90,7 +90,7 @@ A funcionalidade adicional para uma visualização está disponível clicando co
 | --- | --- |
 | Inserir visualização/painel copiado | Permite colar (“inserir”) um painel ou visualização copiada em outro lugar no projeto ou em outro projeto completamente diferente. |
 | Copiar visualização | Permite clicar com o botão direito do mouse e copiar uma visualização para que você possa inseri-la em outro lugar no projeto ou em um projeto completamente diferente. |
-| [Baixar itens como CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR#download-data) | Baixe até 50.000 itens de dimensão para a dimensão selecionada como um CSV. |
+| [Baixar itens como CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR#download-items) | Baixe até 50.000 itens de dimensão para a dimensão selecionada como um CSV. |
 | [Baixar dados como CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR#download-data) | Baixe a fonte de dados da visualização como CSV. |
 | Duplicar visualização | Faz uma réplica exata da visualização atual, que você pode modificar. |
 | Editar descrição | Adicione (ou edite) uma descrição de texto para a visualização. |
