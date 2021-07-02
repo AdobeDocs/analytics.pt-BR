@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Usando o Canal de primeiro contato e o Canal de último contato herdados, você 
 
 ![](assets/mc-viz6.png)
 
-Saiba mais sobre a análise de marketing entre guias neste vídeo: [Utilização da Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Saiba mais sobre a análise de marketing entre guias neste vídeo: [Utilização da Análise entre guias para explorar a atribuição básica de marketing no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=pt-BR).
