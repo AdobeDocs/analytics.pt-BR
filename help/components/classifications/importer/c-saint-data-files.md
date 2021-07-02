@@ -7,7 +7,7 @@ uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1771'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Esses caracteres têm um significado especial em um arquivo de dados. Sempre que
 
 As datas das campanhas são normalmente intervalos (datas inicial e final) associados a campanhas individuais. As datas devem aparecer no formato AAAA/MM/DD. Por exemplo, 2013/06/15-2013/06/30.
 
-Para obter mais informações, consulte [Classificações de conversão](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Para obter mais informações, consulte [Classificações de conversão](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=pt-BR).
 
 >[!NOTE]
 >
