@@ -3,9 +3,9 @@ title: Visitantes únicos
 description: O número do identificador de visitante único.
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Essa métrica conta o número de IDs de visitante exclusivas para um determinado
 | Pedido usado | Parâmetro do query (método de coleta) | Apresentar quando |
 | --- | --- | --- |
 | 1 | `vid` | A variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) está definida. |
-| 2 | `aid` | O Visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
-| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
+| 2 | `aid` | O Visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
+| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
+| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
 | 5 | Endereço IP, Agente do usuário, Endereço IP de gateway | Último recurso para identificar um visitante único se o navegador do visitante não aceitar cookies. |
 
 >[!NOTE]
