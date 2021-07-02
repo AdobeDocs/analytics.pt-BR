@@ -4,9 +4,9 @@ title: 'Referência: funções avançadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ A métrica “Número aproximado de clientes” deve ser usada em relatórios da
 
 ### Únicos excedidos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
+Como Count() e RowCount(), Approximate Count Distinct() está sujeita a [limites “únicos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=pt-BR). Se o limite “únicos excedidos” for atingido dentro de um mês específico relativo a uma dimensão, o valor será contado como 1 item de dimensão.
 
 ### Comparação de funções de contagem {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | Argumento |  |
 |---|---|
-| *métrica* | O cosseno do ângulo que você deseja de -1 a 1. |
+| *metric* | O cosseno do ângulo que você deseja de -1 a 1. |
 
 ## Arco tangente (Linha) {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 | Argumento |  |
 |---|---|
-| *métrica* | O cosseno do ângulo que você deseja de -1 a 1. |
+| *metric* | O cosseno do ângulo que você deseja de -1 a 1. |
 
 ## Regressão exponencial: valor previsto de Y (Linha) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -161,7 +161,7 @@ CEILING(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica que deseja arredondar. |
+| *metric* | A métrica que deseja arredondar. |
 
 ## Cosseno (Linha) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -173,7 +173,7 @@ COS(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo, em radianos, para o qual você deseja obter o cosseno. |
+| *metric* | O ângulo, em radianos, para o qual você deseja obter o cosseno. |
 
 ## Raiz cúbica {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -185,7 +185,7 @@ CBRT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja obter a raiz cúbica. |
+| *metric* | A métrica para a qual você deseja obter a raiz cúbica. |
 
 ## Cumulativo {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -269,7 +269,7 @@ FLOOR(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica que deseja arredondar. |
+| *metric* | A métrica que deseja arredondar. |
 
 ## Maior que {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -289,7 +289,7 @@ COSH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo, em radianos, para o qual você deseja descobrir o cosseno hiperbólico. |
+| *metric* | O ângulo, em radianos, para o qual você deseja descobrir o cosseno hiperbólico. |
 
 ## Seno hiperbólico (Linha) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -301,7 +301,7 @@ SINH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo, em radianos, para o qual você deseja descobrir o seno hiperbólico. |
+| *metric* | O ângulo, em radianos, para o qual você deseja descobrir o seno hiperbólico. |
 
 ## Tangente hiperbólica (Linha) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -313,7 +313,7 @@ TANH(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
+| *metric* | O ângulo em radianos para o qual você deseja encontrar a tangente hiperbólica. |
 
 ## Se (Linha) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -363,7 +363,7 @@ LOG10(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O número real positivo para o qual você deseja obter o logaritmo de base 10. |
+| *metric* | O número real positivo para o qual você deseja obter o logaritmo de base 10. |
 
 ## Regressão logarítmica: coeficiente de correlação (Tabela) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -429,7 +429,7 @@ LN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O número real positivo para o qual você deseja obter o logaritmo natural. |
+| *metric* | O número real positivo para o qual você deseja obter o logaritmo natural. |
 
 ## NÃO {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -642,7 +642,7 @@ SIN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo, em radianos, para o qual você deseja obter o seno. |
+| *metric* | O ângulo, em radianos, para o qual você deseja obter o seno. |
 
 ## Pontuação T {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -684,7 +684,7 @@ TAN (metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O ângulo, em radianos, para o qual você deseja obter a tangente. |
+| *metric* | O ângulo, em radianos, para o qual você deseja obter a tangente. |
 
 ## Pontuação Z (Linha) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -711,7 +711,7 @@ Pontuação Z (métrica)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>métrica</i> </td> 
+   <td colname="col1"> <i>metric</i> </td> 
    <td colname="col2"> <p> Retorna o valor do seu primeiro argumento diferente de zero. </p> </td> 
   </tr> 
  </tbody> 
