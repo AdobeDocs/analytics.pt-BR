@@ -7,7 +7,7 @@ uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Atribua um nome ao conjunto de regras de classificação, aplique a variável e 
 
 1. (Pré-requisito) Defina a estrutura de classificação em **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]**.
 
-   (Consulte [Classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) na página de ajuda das Ferramentas administrativas para ver como adicionar classificações.)
+   (Consulte [Classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) na página de ajuda das Ferramentas administrativas para ver como adicionar classificações.)
 
    As variáveis serão exibidas no painel [!UICONTROL Novo conjunto de regras] somente após terem pelo menos uma classificação definida para aquelas variáveis.
 
