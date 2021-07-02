@@ -4,9 +4,9 @@ title: Suporte a várias moedas
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ Os códigos monetários de destino são definidos em três níveis:
 
 ## Nível da página
 
-É possível definir uma variável JavaScript para a moeda de destino no nível da página. O proprietário do site define essa variável com o código monetário ISO 4217 de três letras (conforme listado abaixo neste documento). Se a variável [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) não estiver definida nesse nível, a moeda padrão será a mesma especificada no conjunto de relatórios. Se a variável no nível da página estiver em conflito com a variável especificada no conjunto de relatórios, a variável no conjunto de relatórios terá prioridade.
+É possível definir uma variável JavaScript para a moeda de destino no nível da página. O proprietário do site define essa variável com o código monetário ISO 4217 de três letras (conforme listado abaixo neste documento). Se a variável [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=pt-BR) não estiver definida nesse nível, a moeda padrão será a mesma especificada no conjunto de relatórios. Se a variável no nível da página estiver em conflito com a variável especificada no conjunto de relatórios, a variável no conjunto de relatórios terá prioridade.
 
 
 ## Nível do conjunto de relatórios
 
-A **moeda base** é especificada ao [criar conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Essa é a configuração padrão para moeda e tem prioridade sobre os códigos monetários definidos no nível da página. Assim, se um conjunto de relatórios tem pedidos que aceitam Dólar americano, Euro e Libra esterlina, e se o conjunto de relatórios tem um código monetário padrão definido como &quot;Dólar americano&quot;, então o banco de dados de relatórios do back-end converte todas as transações para dólares americanos.
+A **moeda base** é especificada ao [criar conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=pt-BR). Essa é a configuração padrão para moeda e tem prioridade sobre os códigos monetários definidos no nível da página. Assim, se um conjunto de relatórios tem pedidos que aceitam Dólar americano, Euro e Libra esterlina, e se o conjunto de relatórios tem um código monetário padrão definido como &quot;Dólar americano&quot;, então o banco de dados de relatórios do back-end converte todas as transações para dólares americanos.
 
 Relatórios de marketing usam a taxa de câmbio do momento da solicitação de imagem para converter os valores monetários no nível da página para os valores monetários padrão do conjunto de relatórios. Todos os conjuntos de relatórios usarão &quot;Dólar americano&quot; como moeda padrão.
 
