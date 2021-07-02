@@ -1,28 +1,28 @@
 ---
-title: Pesquisa de instâncias de eVar de merchandising em post_product_list
-description: Localize a instância do eVar Merchandising para cada valor de pesquisa na coluna post_product_list em um feed de dados.
+title: Pesquisa de instâncias de eVar de merchandising no post_product_list
+description: Localize a instância do eVar de merchandising para cada valor de pesquisa na coluna post_product_list em um feed de dados.
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Pesquisa de instâncias de eVar de merchandising em post_product_list
+# Pesquisa de instâncias de eVar de merchandising no post_product_list
 
-Nos Feeds de dados, a coluna [post_product_list](datafeeds-reference.md) pode conter as instâncias de eVar de merchandising. Cada eVar é representado por um número.
+Nos feeds de dados, a coluna [post_product_list](datafeeds-reference.md) pode conter as instâncias de eVar de merchandising. Cada eVar é representado por um número.
 
-A pesquisa de instância de eVar de Merchandising para post_product_list é diferente da coluna de pesquisa event_list no Feed de dados.
+A pesquisa de instância de eVar de Merchandising para post_product_list é diferente da coluna de pesquisa event_list no feed de dados.
 
 | Valor da pesquisa | Instância de merchandising |
 |--- |--- |
 | 101 | eVar1 |
 | 102 | eVar2 |
 | 103 | eVar3 |
-| 104 | eVar 4 |
-| 105 | eVar 5 |
-| 106 | eVar 6 |
+| 104 | eVar4 |
+| 105 | eVar5 |
+| 106 | eVar6 |
 | 107 | eVar7 |
 | 108 | eVar8 |
 | 109 | eVar9 |
@@ -98,7 +98,7 @@ A pesquisa de instância de eVar de Merchandising para post_product_list é dife
 | 278 | eVar79 |
 | 279 | eVar80 |
 | 280 | eVar81 |
-| 281º | eVar82 |
+| 281 | eVar82 |
 | 282 | eVar83 |
 | 283 | eVar84 |
 | 284 | eVar85 |
@@ -108,9 +108,9 @@ A pesquisa de instância de eVar de Merchandising para post_product_list é dife
 | 288 | eVar89 |
 | 289 | eVar90 |
 | 290 | eVar91 |
-| 291º | eVar92 |
+| 291 | eVar92 |
 | 292 | eVar93 |
-| 293º | eVar94 |
+| 293 | eVar94 |
 | 294 | eVar95 |
 | 295 | eVar96 |
 | 296 | eVar97 |
