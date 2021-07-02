@@ -3,7 +3,7 @@ title: Estados dos Estados Unidos
 description: O estado do visitante nos EUA.
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ A dimensão &quot;estado dos EUA&quot; informa o estado do visitante nos Estados
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/?pt-br) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
 
 ## Itens de dimensão
 
