@@ -3,7 +3,7 @@ title: Cidades
 description: A cidade de onde a ocorrência se originou.
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ A dimensão &quot;Cidades&quot; informa a cidade de onde a ocorrência se origin
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-br) para manter pesquisas entre o endereço IP e a cidade. Essa dimensão funciona imediatamente em todas as implementações.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/) para manter pesquisas entre o endereço IP e a cidade. Essa dimensão funciona imediatamente em todas as implementações.
 
 ## Itens de dimensão
 
