@@ -4,9 +4,9 @@ title: Práticas recomendadas de rotulagem
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2700'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,14 +47,14 @@ Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar soli
   <tr> 
    <td colname="col1"> <p>IDs de cookies </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">Cookie do Analytics (herdado)</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html"> Cookie do serviço de identidade </a> (ECID), anteriormente conhecido como Marketing Cloud ID (MCID) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=pt-BR">Cookie do Analytics (herdado)</a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR"> Cookie do serviço de identidade </a> (ECID), anteriormente conhecido como Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Esses cookies identificam um dispositivo ou, mais especificamente, um navegador para um usuário de um dispositivo. Em um dispositivo compartilhado no qual um logon comum é usado, essa ID pode se aplicar a qualquer/todos os usuários do dispositivo. A Adobe criou alguns <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">JavaScript unificados</a> que você pode colocar no site para coletar esses cookies se quiser permitir que eles sejam usados nas solicitações de Privacidade de dados. </p> <p>Os usuários do SDK móvel do Adobe Analytics também têm uma Experience Cloud ID (ECID). Existem chamadas de API no SDK para ler essa ID, de forma que possa otimizar o aplicativo para coletá-la durante uma solicitação de Privacidade de dados. </p> <p>Muitas empresas consideram as IDs de cookies do navegador como IDs de dispositivos compartilhados. Como resultado, após consultarem suas equipes jurídicas, eles podem optar por não oferecer suporte ao uso delas como IDs aceitáveis nas solicitações de Privacidade de dados ou por retornar apenas uma quantidade bastante limitada de dados quando essas IDs forem usadas, caso contrário poderão aceitá-los somente para solicitações de exclusão. </p> <p>Esses cookies têm um rótulo ID-DEVICE que não pode ser alterado (assim como os rótulos I2 e DEL-DEVICE). A configuração padrão do Adobe Analytics retornará apenas informações genéricas sobre o dispositivo, como o tipo de dispositivo, o sistema operacional, o navegador, entre outros, bem como a hora/data em que o site foi visitado ao usar essas IDs. No entanto, se optar por oferecer suporte a essas IDs nas solicitações de Privacidade de dados, conforme discutido abaixo, é possível adicionar ou remover os rótulos de ACC-ALL para configurar o conjunto exato de campos que deseja retornar em uma solicitação de acesso da Privacidade de dados. </p> <p>Principalmente se o conjunto de relatórios corresponder a um aplicativo para dispositivos móveis que exige logon, você pode decidir que a Experience Cloud ID do dispositivo corresponde a um usuário específico e, por isso, desejará rotular mais campos com o rótulo de ACC-ALL, inclusive os nomes das páginas visitadas, os produtos visualizados, entre outros. </p> <p>Observação: se você especificar a opção “expandIds” em solicitações de Privacidade de dados, elas sempre incluirão as IDs de cookie, além de todas as outras IDs especificadas. Consulte <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">Expansão de ID</a> para obter mais detalhes. Nesses casos, as ocorrências com apenas uma ID de cookies, mas não outra ID, retornarão apenas dados rotulados como ACC-ALL como parte da solicitação de acesso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs nas variáveis personalizadas </p> </td> 
-   <td colname="col2"> <p>Alguns clientes adicionam IDs em <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">variáveis de tráfego personalizadas (props) ou em variáveis de conversão personalizadas (eVars)</a>. Embora o mais comum seja um ID de CRM, outros incluem endereços de email, nomes de usuário para logon, números de fidelidade do cliente ou hashes desses valores. </p> 
+   <td colname="col2"> <p>Alguns clientes adicionam IDs em <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=pt-BR">variáveis de tráfego personalizadas (props) ou em variáveis de conversão personalizadas (eVars)</a>. Embora o mais comum seja um ID de CRM, outros incluem endereços de email, nomes de usuário para logon, números de fidelidade do cliente ou hashes desses valores. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Se quiser usar uma dessas IDs nas solicitações de Privacidade de dados, deverá fornecer um rótulo ID-PERSON ao campo que a contém. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Muito menos comum) Se uma ID em uma dessas variáveis personalizadas identificar apenas um dispositivo que pode ser compartilhado por várias pessoas, será possível usar um rótulo ID-DEVICE. </li> 
