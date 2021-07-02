@@ -3,9 +3,9 @@ title: Implementar o Analytics para assistentes digitais
 description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon Alexa ou o Google Home.
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Cache-Control: no-cache
 
 ## Identificação de usuário/visitante
 
-O Adobe Analytics usa o [Serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda executar o hash do identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou Sha1.
+O Adobe Analytics usa o [Serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda executar o hash do identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou Sha1.
 
 O uso do serviço de ID fornece maior valor ao mapear ECIDs em diferentes dispositivos (por exemplo, assistente da Web para dispositivos digitais). Se o aplicativo for móvel, use os SDKs da Experience Platform como estão e envie a ID do usuário usando o método `setCustomerID`. No entanto, se o aplicativo for um serviço, use a ID de usuário fornecida pelo serviço, como ECID, bem como a configuração na `setCustomerID`.
 
