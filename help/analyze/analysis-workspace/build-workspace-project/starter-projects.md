@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Você pode criar um projeto a partir de:
 
 * **Projeto em branco (padrão)**: para obter instruções, consulte [Criar um projeto no Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * **Modelo padrão**: esses modelos são criados pela Adobe e fornecidos com o produto.
-* **Modelo personalizado**: esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a permissão [!UICONTROL Analysis Workspace: salvar como modelo] no Admin Console. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
+* **Modelo personalizado**: esses modelos podem ser criados, compartilhados ou excluídos por usuários com direitos de administrador ou por não administradores, desde que tenham recebido a permissão [!UICONTROL Analysis Workspace: salvar como modelo] no Admin Console. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR)
 
 ![](assets/start_modal.png)
 
@@ -56,7 +56,7 @@ Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis 
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
-Tutorial em vídeo sobre [Modelos padrão no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Tutorial em vídeo sobre [Modelos padrão no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html?lang=pt-BR) (2:46)
 
 Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a responder.
 
@@ -80,7 +80,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 * **Magento: Marketing e Comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Para ter uma visão geral, assista ao vídeo:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=pt-BR)
 
 ### Mídia
 
@@ -118,7 +118,7 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 
 >[!NOTE]
 >
->O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
+>O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=pt-BR).
 
 O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 
