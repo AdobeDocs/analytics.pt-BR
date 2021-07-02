@@ -3,9 +3,9 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2429'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Correlação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **Dados atuais:** uma opção em alguns relatórios que permite a inclusão de dados coletados recentemente que ainda não foram totalmente processados. Consulte [Dados atuais](/help/analyze/reports-analytics/current-data.md) no guia do usuário Analisar.
 * **Link personalizado:** um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a [função s.tl()](../implement/vars/functions/tl-method.md) no guia do usuário Implementar. Consulte também Hit.
-* **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) no guia do usuário dos Serviços principais.
+* **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
 * **Representante de suporte ao cliente:** um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte [Delegados de suporte ao cliente](https://helpx.adobe.com/br/experience-cloud/supported-users.html) na Base de conhecimento da Experience Cloud.
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
 * **Conectores de dados:** uma solução completa de desenvolvimento que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. A maioria dos conectores de dados usa um fluxo de trabalho semelhante usado nas Fontes de dados. Consulte Data Connectors no guia do usuário Importar.
@@ -65,7 +65,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
    * Custom Insight, um nome histórico para variável de tráfego personalizada.
 * **KPI:** abreviação do indicador principal de desempenho. Métricas que ajudam uma empresa a entender o desempenho de seu site. Cada organização tem KPIs diferentes que medem diferentes aspectos de seus negócios. Consulte [Criar um documento de design de solução](/help/implement/prepare/solution-design.md) no guia do usuário Implementar.
 * **Latência:** o atraso entre quando os dados são coletados e quando estão disponíveis nos relatórios. A latência típica em um conjunto de relatórios é de 30 a 90 minutos. Consulte [Latência](/help/technotes/latency.md) no guia do usuário do Technotes.
-* **Iniciar:** abreviação de Adobe Experience Platform Launch, a solução de implementação atual da Adobe. Consulte [Visão geral](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) no guia do usuário do Adobe Experience Platform Launch.
+* **Iniciar:** abreviação de Adobe Experience Platform Launch, a solução de implementação atual da Adobe. Consulte [Visão geral](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=pt-BR) no guia do usuário do Adobe Experience Platform Launch.
 * **Prop de lista:** uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma propriedade de lista se a configuração estiver ativada. Consulte [prop](../implement/vars/page-vars/prop.md) no guia de usuário Implementar.
 * **Var de lista:** uma variável distinta separada para variáveis de conversão. Vars de lista suportam vários valores no mesmo hit, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três variável de lista estão disponíveis para uma organização. Consulte [Lista](/help/implement/vars/page-vars/list.md) no guia de usuário Implementar.
 * **Empresa de logon:** uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização.
