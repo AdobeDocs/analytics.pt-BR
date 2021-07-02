@@ -6,9 +6,9 @@ feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Você também pode adicionar segmentos em um ponto de contato. Por exemplo, voc�
 
 Não há limite de número de etapas que você pode adicionar ou do número de dimensões usadas.
 
-Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
+Você pode definir o caminho das eVars, incluindo eVars de comercialização e [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=pt-BR) (variáveis que podem ter vários valores por clique, como produtos, listVars, eVars de comercialização e apoios de listas). Por exemplo, suponha que alguém esteja pesquisando sapatos e camisetas em uma página e camisetas e meias em outra. O próximo relatório de fluxo do produto para sapatos será camisetas e meias, e NÃO camisetas.
 
 1. Arraste uma visualização de [!UICONTROL Fallout] do menu suspenso Visualizações em uma [!UICONTROL Tabela de forma livre].
 
@@ -52,7 +52,7 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Caminho eventual </p> <p>(Padrão) </p> </td> 
-   <td colname="col2"> <p>Visitantes contados que "eventualmente" serão direcionados para a próxima página no caminho nessa sessão, mas não necessariamente na próxima ocorrência. </p> </td> 
+   <td colname="col2"> <p>São contados os visitantes que serão “eventualmente” direcionados à próxima página do caminho naquela sessão, mas não necessariamente na próxima ocorrência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Próxima ocorrência </p> </td> 
