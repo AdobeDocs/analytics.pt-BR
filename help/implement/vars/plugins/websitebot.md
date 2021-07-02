@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifique os bots dinamicamente usando o movimento do mouse.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ O plug-in `websiteBot` permite identificar dinamicamente se os visitantes em des
 
 Esse plug-in executa duas verificações:
 
-* Primeiro, no caso de um dispositivo de desktop, ele adiciona um ouvinte de evento para o movimento do mouse.
-* Em seguida, determina se o dispositivo é um desktop ou dispositivo móvel usando a variável `navigator.UserAgent`. Dispositivos móveis são ignorados.
+* Primeiro, no caso de um dispositivo desktop, ele adiciona um ouvinte de eventos para o movimento do mouse.
+* Em seguida, determina se o dispositivo é um desktop ou um dispositivo móvel usando a variável `navigator.UserAgent`. Dispositivos móveis são ignorados.
 
 Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in poderá
 
-* Faça uma chamada de regra [!UICONTROL Chamada direta] (para Adobe Experience Platform Launch) ou
-* faça uma chamada `s.tl` para indicar que o visitante não é um bot.
+* fazer uma chamada de [!UICONTROL Regra de chamada direta] (para Adobe Experience Platform Launch) ou
+* fazer uma chamada `s.tl` para indicar que o visitante não é um bot.
 
 ## Pré-requisitos
 
 A Adobe recomenda o seguinte antes de usar este plug-in:
 
-* **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Defina a expiração para **Never** ou **Visit** e a alocação para **&quot;Original Value (First)&quot;**. Esse eVar deve ser definido em ambas as circunstâncias: quando a regra [!UICONTROL Chamada direta] ou a chamada `s.tl` for acionada.
+* **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Definir a expiração como **Nunca** ou **Visitar** e a alocação como **&quot;Valor original (primeiro)&quot;**. Esse eVar deverá ser definido em ambas as circunstâncias: quando a regra de chamada direta [!UICONTROL prevalecer] ou quando a chamada `s.tl` for efetuada.
 * **Coletar agente do usuário em uma variável separada**: colete a sequência de agente do usuário em uma variável separada para monitorar a eficácia desse plug-in. Configure uma eVar como `navigator.UserAgent` em cada hit para coletar esses dados.
 
 ## Instale o plug-in usando o editor de código personalizado do Launch
@@ -72,13 +72,13 @@ A Adobe recomenda o seguinte antes de usar este plug-in:
       }))
    ```
 
-1. Adicione uma regra [!UICONTROL Chamada direta] que aciona um beacon do Analytics usando `websiteBot` como o identificador. Neste exemplo, ele usa uma chamada `s.tl`:
+1. Adicione uma regra  de [!UICONTROL Chamada direta] que aciona um beacon do Analytics usando `websiteBot` como o identificador. Neste exemplo, ele usa uma chamada `s.tl`:
 
-   ![identificador do siteBot](assets/websitebot.png)
+   ![identificador websiteBot](assets/websitebot.png)
 
-1. Acione as ações Adobe Analytics - Definir variáveis e Adobe Analytics - Enviar beacon na regra [!UICONTROL Chamada direta].  Uma maneira de fazer isso é mostrada no exemplo a seguir:
+1. Acionar o Adobe Analytics – Definir variáveis e Adobe Analytics – Enviar ações por beacon na [!UICONTROL regra de Chamada direta].  Uma maneira de fazer isso é mostrada no seguinte exemplo:
 
-   ![Enviar ações do sinal](assets/websitebot2.png)
+   ![Enviar ações por beacon](assets/websitebot2.png)
 
 
 ## Instalar o plug-in usando o AppMeasurement
@@ -94,7 +94,7 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ## Usar o plug-in
 
-O plug-in `websiteBot` dispara uma chamada `s.tl` se o tráfego não-bot for detectado.
+O plug-in `websiteBot` dispara uma chamada `s.tl` caso não sejam detectados bots no tráfego.
 
 ## Exemplos
 
@@ -114,6 +114,6 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ### 0.11 (3 de junho de 2021)
 
-* Código atualizado do plug-in do AppMeasurement
-* Atualização da seção Launch com instruções expandidas.
-* Atualização da seção &quot;Usar o plug-in&quot;.
+* Código de plug-in do AppMeasurement atualizado
+* Seção Inicialização atualizada com instruções expandidas.
+* Seção &quot;Usar o plug-in&quot; atualizada.
