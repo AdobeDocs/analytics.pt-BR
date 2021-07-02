@@ -6,9 +6,9 @@ feature: Fundamentos do Workspace
 role: Business Practitioner, Administrator
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para facilitar a criação rápida de métricas calculadas, a opção **[!UICONT
 
 ![](assets/calc_metrics.png)
 
-[Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=pt-BR) (3:42)
 
 ## Comparar métricas com diferentes modelos de atribuição
 
