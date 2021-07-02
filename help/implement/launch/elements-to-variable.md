@@ -3,9 +3,9 @@ title: Mapear elementos de dados do Launch para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ As variáveis globais são ideais nos casos em que você deseja definir valores 
 
 ### Definir variáveis em regras
 
-As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) no guia do usuário do Adobe Experience Platform Launch.
+As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=pt-BR) no guia do usuário do Adobe Experience Platform Launch.
 
 1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
 1. Clique na propriedade do Launch desejada.
