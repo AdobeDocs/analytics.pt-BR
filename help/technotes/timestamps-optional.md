@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Carimbos opcionais de data e hora é uma configuração padrão para todos os co
 >
 >Os carimbos opcionais de data e hora são a configuração padrão para todos os novos conjuntos de relatórios gerados a partir de um modelo. Os conjuntos de relatórios copiados de um conjunto existente herdarão as configurações do original.
 
-Consulte [Carimbos opcionais de data e hora](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) para mais informações sobre a configuração.
+Consulte [Carimbos opcionais de data e hora](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=pt-BR) para mais informações sobre a configuração.
 
 ## Carimbos opcionais de data e hora: integração de dados com e sem carimbos de data e hora {#section_BF17CB593044462B993FD0D28EA56518}
 
