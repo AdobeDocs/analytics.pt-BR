@@ -5,9 +5,9 @@ user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 99%
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Solução de problemas do Código H](js/h-code/troubleshooting.md)
    + Identificação entre dispositivos herdada {#xdevice-visid}
-      + [Visão geral de Conectar usuários em vários dispositivos ](js/xdevice-visid/xdevice-connecting.md)
+      + [Visão geral de Conectar usuários em vários dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistência da variável](js/xdevice-visid/variable-persistence.md)
       + [Exemplo de visita](js/xdevice-visid/visit-example.md)
       + [Perguntas frequentes sobre hereditariedade entre dispositivos](js/xdevice-visid/xdevice-faq.md)
