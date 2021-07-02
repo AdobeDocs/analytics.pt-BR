@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Para a regra de canal de marketing, as configurações de [!UICONTROL Pesquisa P
 
 ![](assets/example_paid_search.png)
 
-Consulte [Detecção de pesquisa paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) em Admin para obter mais informações.
+Consulte [Detecção de pesquisa paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=pt-BR) em Admin para obter mais informações.
 
 ### Pesquisa natural {#natural-search}
 
@@ -169,7 +169,7 @@ Essa regra identifica os visitantes cujo URL de referência corresponde à confi
 
 ![](assets/int-channel1.png)
 
-Consulte [Motivos para interno (Atualização de sessão)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) para obter mais informações sobre por que esse canal ocorre.
+Consulte [Motivos para interno (Atualização de sessão)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=pt-BR#internal) para obter mais informações sobre por que esse canal ocorre.
 
 ### Direta {#direct}
 
