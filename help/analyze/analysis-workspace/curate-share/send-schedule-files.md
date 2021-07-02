@@ -6,9 +6,9 @@ feature: Preparar e compartilhar
 role: Business Practitioner, Administrator
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ Você pode preparar, compartilhar e agendar projetos em PDF/CSV para recipients 
 | Compartilhar projeto | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
 | Obter link do projeto | Crie um link compartilhável para acesso rápido a um projeto. Os usuários serão solicitados a fazer logon. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) |
 | Enviar arquivo agora | Envie um projeto como CSV ou PDF imediatamente para recipients especificados. |
-| Enviar arquivo agendado | Envie um projeto como CSV ou PDF em um agendamento para recipients especificados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
-| Preparar dados do projeto | Limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) disponíveis em um projeto. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html) |
+| Enviar arquivo agendado | Envie um projeto como CSV ou PDF em um agendamento para recipients especificados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=pt-BR) |
+| Preparar dados do projeto | Limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) disponíveis em um projeto. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR) |
