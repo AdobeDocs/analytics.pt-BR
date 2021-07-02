@@ -3,9 +3,9 @@ title: eVar
 description: Uma dimensão personalizada que você pode usar nos relatórios.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ As eVars são variáveis personalizadas que podem ser usadas da maneira que voc�
 
 O número de eVars disponíveis depende do seu contrato com a Adobe. Até 250 eVars estarão disponíveis se seu contrato com a Adobe permitir.
 
-O caso (superior ou inferior) usado no relatório é baseado no primeiro valor registrado pelo sistema de back-end. Esse valor pode ser a primeira instância jamais vista ou variar em um período de tempo (por exemplo, mensal), dependendo da variedade e da quantidade de dados associados ao conjunto de relatórios.
+A caixa (alta ou baixa) usada nos relatórios é baseada no primeiro valor registrado pelo sistema de back-end. Esse valor pode ser a primeira instância vista ou pode variar em determinado período (por exemplo, mensal), dependendo da variedade e da quantidade de dados associados ao conjunto de relatórios.
 
 ## Preencher eVars com dados
 
