@@ -8,7 +8,7 @@ exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Essa página exibe as regras em um conjunto de regras.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecionar Conjuntos de relatórios e variáveis </p> </td> 
-   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios ao quais o conjunto de regras é aplicado. </p> <p><b>Variável</b> </p> <p>É possível aplicar somente uma variável ao criar um conjunto de regras de classificação. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >Classificações de tráfego</a> e <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Classificações de conversão</a> na Ajuda de administração. </p> </td> 
+   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios ao quais o conjunto de regras é aplicado. </p> <p><b>Variável</b> </p> <p>É possível aplicar somente uma variável ao criar um conjunto de regras de classificação. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=pt-BR"  >Classificações de tráfego</a> e <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=pt-BR"  >Classificações de conversão</a> na Ajuda de administração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ativar</span> </p> </td> 
