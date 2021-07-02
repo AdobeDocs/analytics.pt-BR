@@ -3,15 +3,15 @@ title: Visitantes com Experience Cloud ID
 description: O número de visitantes únicos que usam o serviço da Adobe Experience Cloud ID.
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Visitantes com Experience Cloud ID
 
-A métrica “Visitantes com Experience Cloud ID” mostra o número de visitantes únicos identificados pela Adobe que usam a [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). Essa dimensão pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usam o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
+A métrica “Visitantes com Experience Cloud ID” mostra o número de visitantes únicos identificados pela Adobe que usam a [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Essa dimensão pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usam o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ A métrica “Visitantes com Experience Cloud ID” mostra o número de visitant
 
 ## Como essa métrica é calculada
 
-Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente indivíduos identificados utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)).
+Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente indivíduos identificados utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR)).
 
 ## Depurar a configuração da Experience Cloud ID
 
