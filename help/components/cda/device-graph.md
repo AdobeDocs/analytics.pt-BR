@@ -3,9 +3,9 @@ title: Gráfico de dispositivos
 description: Entenda os pré-requisitos e as limitações da costura de dados usando o gráfico de dispositivos.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Se você pretende implementar o Cross-Device Analytics usando o método de gráf
 >O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Todos os pré-requisitos estão listados na [página de visão geral](overview.md).
-* Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) no guia do usuário do cooperativo do dispositivo.
-* Sua implementação deve usar a versão mais recente do serviço da Experience Cloud ID. Consulte a [Página inicial](https://experienceleague.adobe.com/docs/id-service/using/home.html) no guia do usuário do Serviço de identidade da Experience Cloud. Provavelmente, a maioria das implementações que usam o Adobe Experience Platform Launch já implantou a ECID.
-* Sua implementação deve chamar a função `setCustomerIDs` (ou SDK equivalente) sempre que um indivíduo puder ser identificado, como quando um usuário se conecta ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Consulte [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) no guia do usuário do Serviço de identidade da Experience Cloud.
+* Sua organização deve usar o Gráfico cooperativo ou Gráfico privado do Serviço de Identidade da Adobe Experience Platform. Consulte a [Página inicial](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=pt-BR) no guia do usuário do cooperativo do dispositivo.
+* Sua implementação deve usar a versão mais recente do serviço da Experience Cloud ID. Consulte a [Página inicial](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) no guia do usuário do Serviço de identidade da Experience Cloud. Provavelmente, a maioria das implementações que usam o Adobe Experience Platform Launch já implantou a ECID.
+* Sua implementação deve chamar a função `setCustomerIDs` (ou SDK equivalente) sempre que um indivíduo puder ser identificado, como quando um usuário se conecta ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Consulte [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=pt-BR) no guia do usuário do Serviço de identidade da Experience Cloud.
 
 ## Limitações específicas ao gráfico de dispositivos
 
