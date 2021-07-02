@@ -6,9 +6,9 @@ feature: Visualizações
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Uma visualização de fallout é útil para analisar:
 * Fluxos gerais de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantas fizeram uma pesquisa e quantas delas eventualmente acessaram um item específico.
 * Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que acessaram sua política de privacidade e que fizeram uma compra.
 
-[Tutorial em vídeo de Visualização de fallout](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[Tutorial em vídeo de Visualização de fallout](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=pt-BR) (4:15)
 
 ## Segmentação como base para fluxo e fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
