@@ -3,9 +3,9 @@ title: Permissões de perfil de produto para Ferramentas de conjunto de relatór
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Visitas de Retorno | Concede acesso a Retenção de visitantes > Visitas de retorno no Reports &amp; Analytics. |
 | Classificações | Concede acesso a todas as configurações de classificação no Gerenciador de conjunto de relatórios. Este item de permissão inclui: <br>Tráfego > Classificações de tráfego<br>Conversão > Classificações de conversão<br>Conversão > Hierarquias de classificação<br>Canais de marketing > Classificações de canal de marketing<br>Gerenciamento de aplicativos > Classificações de aplicativos<br>Gerenciamento de mídia > Classificações de mídia<br>AEM > Classificações do AEM Assets<br>Adobe Campaign > Classificações da Adobe |
 | Meus relatórios recomendados | Concede acesso a Métricas do site > Meus relatórios recomendados no Reports &amp; Analytics. |
-| Reportlet de imagem do painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
-| Reportlet de medição de painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
-| Reportlet de resumo do conjunto de relatórios do Reports &amp; Analytics Dashboard | Concede acesso aos Reportlets do painel. |
-| Reportlet de texto do painel de Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
-| Reportlet de resumo do conjunto de relatórios do Reports &amp; Analytics Dashboard | Concede acesso aos Reportlets do painel. |
-| Reportlet externo do painel do Reports &amp; Analytics | Concede acesso aos Reportlets do painel. |
+| Reportlet de imagem do painel de Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
+| Reportlet do painel de medição de métricas do Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
+| Reportlet do painel de resumo do conjunto de relatórios do Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
+| Reportlet do painel de texto do Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
+| Reportlet do painel de resumo do conjunto de relatórios do Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
+| Reportlet externo do painel do Reports &amp; Analytics | Concede acesso aos reportlets de painel. |
 | API de reparo de dados | Concede acesso à API de reparo de dados |
