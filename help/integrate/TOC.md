@@ -5,9 +5,9 @@ user-guide-title: Guia de integração do Analytics
 breadcrumb-title: Guia de integração
 user-guide-description: Configure integrações com outras soluções da Adobe Experience Cloud, como o Audience Manager, a Advertising Cloud e o Target.
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
    + [Visão geral do Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Fluxo de trabalho do Audience Analytics {#audience-analytics-workflow}
       + [Visão geral do fluxo de trabalho](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Criar destino do Analytics - Guia do AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Criar destino do Analytics - Guia do AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=pt-BR)
       + [Usar os dados de público-alvo no Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso do Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Perguntas frequentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -37,7 +37,7 @@ ht-degree: 88%
       + [Gerenciar contas publicitárias](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Solução de problemas do Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Perguntas frequentes](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR)
 + [Relatórios do Adobe Campaign no Analytics](adobe-campaign.md)
 + [Integrar dados do Analytics ao Campaign Classic](analytics-to-campaign-classic.md)
 + [Relatórios do AEM Assets](aem-assets-reporting.md)
