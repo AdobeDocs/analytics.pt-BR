@@ -4,9 +4,9 @@ title: Qual ferramenta do Adobe Analytics devo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Para acessar visualizações exclusivas de faixa horária de exibição de vídeos e de saída de espectadores de vídeos.
 * Para aproveitar Listas de publicação em relatórios agendados.
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** deve ser usada:
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=pt-BR)** deve ser usada:
 
 * Como a opção de ferramenta mais flexível do Analytics (análise de perda a nível de visitantes, a nível de ocorrência).
 * Para criar um conjunto de dados multicanal e interações online e offline de CRM para POS, até a Web.
@@ -70,7 +70,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 * A API de inserção de dados e a API de inserção de dados em massa são métodos usados para enviar dados de coleção do lado do servidor para o Adobe Analytics. As chamadas da API de inserção de dados aceitam um evento por vez. A API de inserção de dados em massa aceita arquivos formatados CSV contendo dados do evento, um evento por linha. Se você estiver trabalhando em uma nova implementação da coleção do lado do servidor, recomendamos usar a API de inserção de dados em massa.
 
-**[Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** devem ser usados:
+**[Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR)** devem ser usados:
 
 * Se você capturar dados de clientes empresariais em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e desejar fazer o upload dos dados para a Experience Cloud.
 * Se você deseja usar os dados de CRM para executar análises mais aprofundadas no Analytics ou como critérios de segmentação no Adobe Target.
