@@ -5,9 +5,9 @@ title: Visão geral do Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ O Adobe Audience Manager (AAM) é uma plataforma avançada de gerenciamento de d
 
 Com a integração do Audience Analytics corretamente configurada, é possível incorporar dados de público-alvo do AAM como informações demográficas (ex. gênero ou nível de renda), informações psicográficas (ex. interesses e hobbies), dados CRM e dados de impressão de anúncios a qualquer fluxo de trabalho do Analytics.
 
-## Principais benefícios  {#section_94816D17283349E0BA28521BE55BB868}
+## Principais benefícios {#section_94816D17283349E0BA28521BE55BB868}
 
 A integração do Audience Analytics apresenta os seguintes benefícios principais:
 
@@ -47,6 +47,6 @@ Verifique se você atende a estes pré-requisitos:
 * Você é um administrador do Audience Manager.
 * Você está usando o Serviço de identidade v1.5 ou posterior.
 * Conjuntos de relatórios do AAM e do Adobe Analytics são [mapeados para a mesma organização da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
-* Você usa [encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) e implantou o [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (sem código DIL) - AppMeasurement 1.5 ou posterior.
+* Você usa [encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) e implantou o [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) (sem código DIL) - AppMeasurement 1.5 ou posterior.
 
 Esses pré-requisitos estão descritos no [Fluxo de trabalho do Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
