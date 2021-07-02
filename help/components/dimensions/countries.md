@@ -3,7 +3,7 @@ title: Países
 description: O país de onde a ocorrência se originou.
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ A dimensão &quot;Países&quot; informa o país de onde a ocorrência se origino
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-br) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/) para manter pesquisas entre o endereço IP e o país. Essa dimensão funciona imediatamente em todas as implementações.
 
 ## Itens de dimensão
 
