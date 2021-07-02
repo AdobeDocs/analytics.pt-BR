@@ -5,7 +5,7 @@ exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 Você pode fazer referência às variáveis do AppMeasurement de iFrames filhos e pais. É necessário definir todas as variáveis no mesmo local em que a biblioteca do AppMeasurement existe. Os exemplos a seguir explicam como definir variáveis e métodos básicos do AppMeasurement dentro e fora de um iframe.
 
-Se você usar o Adobe Experience Platform Launch, verifique se o objeto do rastreador está acessível globalmente. Consulte [Visão geral da extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) no guia do usuário do Launch.
+Se você usar o Adobe Experience Platform Launch, verifique se o objeto do rastreador está acessível globalmente. Consulte [Visão geral da extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=pt-BR) no guia do usuário do Launch.
 
 >[!CAUTION]
 >
@@ -65,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Assim como em outro código JavaScript, os iFrames só podem se comunicar quando os domínios e o protocolo são correspondentes. Esses exemplos não funcionam se o conteúdo do iframe estiver em um domínio diferente do principal.
 * Se o AppMeasurement estiver em um iframe, a variável [`referrer`](../vars/page-vars/referrer.md) será definida como o URL principal, não como o URL de referência real. Você pode definir manualmente a variável `referrer` para resolver esse problema.
-* O [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html) não reconhece solicitações de imagem acionadas em iFrames.
+* O [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) não reconhece solicitações de imagem acionadas em iFrames.
 * O Activity Map não exibe o mapa de calor em links clicados em iFrames. Em vez disso, o iframe inteiro é realçado.
