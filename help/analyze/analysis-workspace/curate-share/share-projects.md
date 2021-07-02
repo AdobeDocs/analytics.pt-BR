@@ -6,9 +6,9 @@ feature: Preparar e compartilhar
 role: Business Practitioner, Administrator
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ O compartilhamento disponibiliza um projeto para outros usuários do Analysis Wo
 
 ## Funções do projeto {#Roles}
 
-É possível adicionar recipients a uma das três funções do projeto. As funções do projeto estão vinculadas ao usuário e à ID do projeto específica. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+É possível adicionar recipients a uma das três funções do projeto. As funções do projeto estão vinculadas ao usuário e à ID do projeto específica. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
 
 | Função | Controle de projeto |
 |---|---|
@@ -54,20 +54,20 @@ Após compartilhados, esses componentes aparecem no menu suspenso de componentes
 1. (Opcional) Defina esta página como a página inicial para recipients.
 Essa configuração não persiste: é uma ação única no momento do compartilhamento.
 1. Clique em Compartilhar.
-Você também pode clicar em **[!UICONTROL Preparar e compartilhar]** para aplicar automaticamente a preparação do projeto. Se um projeto já tiver sido compartilhado, esses botões dirão **[!UICONTROL Atualizar]** e **[!UICONTROL Preparar e atualizar]**. Saiba mais sobre [Preparação de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Você também pode clicar em **[!UICONTROL Preparar e compartilhar]** para aplicar automaticamente a preparação do projeto. Se um projeto já tiver sido compartilhado, esses botões dirão **[!UICONTROL Atualizar]** e **[!UICONTROL Preparar e atualizar]**. Saiba mais sobre [Preparação de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR).
 
 ![](assets/share-proj-modal.png)
 
 ## Compartilhar em grupos de recipients {#Groups}
 
-Todos os usuários podem compartilhar projetos em grupos, que são uma coleção de recipients. No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Todos os usuários podem compartilhar projetos em grupos, que são uma coleção de recipients. No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
 
 * Os administradores podem compartilhar com qualquer grupo, incluindo &quot;Todos&quot;.
 * Os não administradores podem compartilhar com grupos dos quais são membros, com exceção de &quot;Todos&quot;.
 
 ## Compartilhar um link de projeto {#Links}
 
-Você pode obter um link para um projeto em **[!UICONTROL Compartilhar] > [!UICONTROL Obter link de projeto]**. Quando clicados, os recipients deverão fazer logon antes de acessar o projeto. Se o recipient não tiver sido colocado em uma função, ele receberá uma função padrão. Os administradores recebem a função **[!UICONTROL Pode editar]** e os não administradores recebem a função **[!UICONTROL Pode duplicar]**. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sobre como criar links compartilháveis para projetos do Workspace.
+Você pode obter um link para um projeto em **[!UICONTROL Compartilhar] > [!UICONTROL Obter link de projeto]**. Quando clicados, os recipients deverão fazer logon antes de acessar o projeto. Se o recipient não tiver sido colocado em uma função, ele receberá uma função padrão. Os administradores recebem a função **[!UICONTROL Pode editar]** e os não administradores recebem a função **[!UICONTROL Pode duplicar]**. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) sobre como criar links compartilháveis para projetos do Workspace.
 
 ## Compartilhar projetos no Gerenciador de projetos {#Manager}
 
