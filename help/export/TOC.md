@@ -7,7 +7,7 @@ user-guide-description: Use os Feeds de dados para receber uma exportação de d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,4 +69,4 @@ ht-degree: 96%
       + [Conexão com a Adobe via SFTP sem uma senha](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Downloads do Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR)
 + [API do Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR)
