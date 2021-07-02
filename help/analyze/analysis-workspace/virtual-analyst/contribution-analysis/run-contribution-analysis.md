@@ -6,9 +6,9 @@ feature: Ferramentas de IA
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Há duas maneiras de invocar a análise de contribuição em um projeto:
 
    * Uma visualização que mostra o número de **Visitas** no dia.
    * Uma **linha de Tendência de visitas** mensal para contexto.
-   * Os **Itens principais** que contribuíram para esta anomalia, classificados por [pontuação de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), mais a métrica em questão e uma métrica de visitante únicos para colocar a métrica no contexto de uma perspectiva de dimensionamento.
+   * Os **Itens principais** que contribuíram para esta anomalia, classificados por [pontuação de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=pt-BR), mais a métrica em questão e uma métrica de visitante únicos para colocar a métrica no contexto de uma perspectiva de dimensionamento.
 
-   * A tabela [Segmentos gerados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Grupos de itens principais) identifica associações dos itens principais com base na Pontuação de contribuição, nas ocorrências de anomalias e no percentual geral que contribuiu para a métrica anômala. Isso é então capturado como um segmento de público-alvo (Segmento de contribuição 1, Segmento de contribuição 2, etc.). Clicar no botão “i” (informações) fornecerá uma exibição da definição de cada segmento automático, incluindo os itens principais que os constituem:
+   * A tabela [Segmentos gerados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) (Grupos de itens principais) identifica associações dos itens principais com base na Pontuação de contribuição, nas ocorrências de anomalias e no percentual geral que contribuiu para a métrica anômala. Isso é então capturado como um segmento de público-alvo (Segmento de contribuição 1, Segmento de contribuição 2, etc.). Clicar no botão “i” (informações) fornecerá uma exibição da definição de cada segmento automático, incluindo os itens principais que os constituem:
 
       ![](assets/auto_segment.png)
 
