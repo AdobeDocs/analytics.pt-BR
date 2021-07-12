@@ -2,7 +2,7 @@
 description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Nova página de aterrissagem do Adobe Analytics
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 A nova página inicial da Análise de Adobe reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva da Workspace. Ele apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado e relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz.
 
-A nova página melhora a descoberta e orienta os usuários do Reports &amp; Analytics para uma experiência de relatório aprimorada no Workspace.
+A nova página melhora a capacidade de descoberta e orienta os usuários do Reports &amp; Analytics para uma experiência de relatório aprimorada no Workspace.
 
 >[!NOTE]
 >
