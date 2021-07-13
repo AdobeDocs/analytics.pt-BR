@@ -3,15 +3,14 @@ description: Depois de criar relatórios com solicitações incorporadas, você 
 title: Especificar formatação condicional
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 98%
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
-
 
 # Especificar formatação condicional
 
@@ -26,4 +25,3 @@ Por motivos de segurança, as macros que você programar para a pasta de trabalh
 >[!NOTE]
 >
 >A formatação condicional é um recurso do Excel. Para obter informações sobre como criar regras de formatação, consulte a documentação do Excel.
-
