@@ -3,10 +3,10 @@ description: A separação de tempo coleta o carimbo de data e hora de ocorrênc
 title: Dimensões de separação de tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Fundamentos do Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
