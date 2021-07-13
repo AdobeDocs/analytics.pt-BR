@@ -3,15 +3,14 @@ description: A guia Detalhes da página exibe o Relatório de página como uma t
 title: Detalhes da página
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # Detalhes da página
 
@@ -39,4 +38,3 @@ O Relatório de fluxo de página está disponível apenas no modo Padrão.
 | Páginas anteriores | Nomes da página interna no conjunto de relatórios antes da página atual. |
 | Próximas páginas | A página visitada depois de sair da página atual. |
 | Saídas do site | Número de visitantes que saíram do site completamente após a exibição da página. |
-
