@@ -3,13 +3,12 @@ description: As extrações de dados permitem que você escolha os parâmetros e
 subtopic: Schedule
 title: Extração de dados
 feature: Noções básicas do Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
