@@ -3,12 +3,12 @@ description: É possível diferenciar os links com a personalização da ID do l
 title: Diferenciar links que fazem referência à mesma ID e Região do link
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -75,7 +75,7 @@ Como é possível personalizar a página da Web e usar tags para diferenciar os 
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou um local de link em uma página, é possível melhorar o rastreamento de Activity Map ou usar o Activity Map para relatar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) para obter mais informações sobre a variável `s_objectID`
+Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou um local de link em uma página, é possível melhorar o rastreamento de Activity Map ou usar o Activity Map para relatar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=pt-BR) para obter mais informações sobre a variável `s_objectID`
 
 >[!IMPORTANT]
 >
