@@ -3,15 +3,14 @@ description: Você pode proteger todas as solicitações em uma pasta de trabalh
 title: Bloquear/desbloquear pastas de trabalho
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
-
 
 # Bloquear/desbloquear pastas de trabalho
 
@@ -70,4 +69,3 @@ Considere que a pasta de trabalho A tem uma solicitação que está em um estado
 1. O usuário entra no Report Builder e abre uma pasta de trabalho.
 1. O usuário não pode adicionar/editar a solicitação.
 1. O usuário não pode desbloquear a pasta de trabalho.
-
