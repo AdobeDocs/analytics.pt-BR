@@ -3,12 +3,12 @@ description: Após executar um relatório, você pode personalizá-lo para visua
 title: Visão geral de Personalizar relatórios
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Noções básicas do Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Não é possível comparar datas entre relatórios de tendências.
 
 >[!NOTE]
 >
->Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+>Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
@@ -223,4 +223,4 @@ A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar 
 
 No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
 
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR).
