@@ -3,13 +3,12 @@ description: Maneiras de otimizar a entrega do Report Builder e uma lista de men
 title: Resolução de problemas e práticas recomendadas do Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +47,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 * **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
 * **Causas que resultam na falha de entrega da pasta de trabalho**: fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
 * **Células retornando 0s (sem valor)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
-* **Desempenho individual de solicitação**: A velocidade do processo pode ser afetada pelas seguintes configurações:
+* **Desempenho** de solicitação individual: A velocidade de processamento pode ser afetada pelas seguintes configurações:
 
    | Configuração | Desempenho mais rápido | Desempenho mais devagar |
    |--- |--- |--- |
