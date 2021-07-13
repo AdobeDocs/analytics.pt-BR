@@ -2,10 +2,10 @@
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Apteligent | Substituição |
 | BlueHornet eMarketing Suite | Substituição |
 | Ramificação | Migração para o Exchange |
-| BrightEdge 2.0 | Substituição |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Substituição |
 | Bronto Software | Substituição |
 | CheetahMail da Experian | Migração para o Exchange |
 | ClickTale | Substituição |
 | Clicktale CA | Substituição |
-| Conductor 2.0 | Substituição |
+| Conductor 2.0, Condutor, Condutor de métricas orgânicas | Substituição |
 | ContactLab 2.0 (Conector de envio de contato) | Substituição |
 | Coradiant TrueSight | Substituição |
 | D&amp;B Visitor Intelligence | Substituição |
@@ -62,7 +62,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | DialogTech | Disponível no Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Substituição |
 | DREAM | Substituição |
-| DREAMmail 2.0 | Substituição |
+| DREAMmail 1.0, DREAMmail 2.0 | Substituição |
 | Dynamic Signal (Nital Vora) | Migração para o Exchange |
 | eDialog Precision Central | Substituição |
 | eC-messenger | Substituição |
@@ -70,10 +70,11 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | emarsys xpress | Substituição |
 | Epsilon Harmony | Migração para o Exchange |
 | EveryoneSocial for Adobe Analytics | Substituição |
+| ExactTarget, ExactTarget 2.0 | Substituição |
 | Fiksu | Substituição |
-| ForeSee (v2.0) | Substituição |
-| Feedback da Foresee | Substituição |
+| ForeSee (v2.0), Prever Feedback, Prever Resultados | Substituição |
 | Gigya | Substituição |
+| Hootsuite | Substituição |
 | hybris | Substituição |
 | Kampyle (agora Medallia) Feedback Analytics (1.1) | Substituição |
 | Listrak | Migração para o Exchange |
@@ -83,11 +84,13 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Integração oficial do Oracle Eloqua | Migração para o Exchange |
 | optivo broadmail (Episerver) | Substituição |
 | Qualtrics v2 | Migração para o Exchange |
-| Responsys 2.0 | Substituição |
+| Responsys 1.0, Responsys 2.0 | Substituição |
+| Salesforce.com | Substituição |
 | Selligent | Substituição |
-| seoClarity 2.0 | Substituição |
+| seoClarity, seoClarity 2.0 | Substituição |
 | Silverpop Engage (v2.0) | Substituição |
 | Sizmek | Substituição |
+| SmartFOCUS Digital | Substituição |
 | SpotEffects | Substituição |
 | StrongMail Systems, Inc | Substituição |
 | Singergy!360 | Substituição |
@@ -98,6 +101,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | WhatCounts Email | Substituição |
 | wywy | Substituição |
 | Yesmail Enterprise | Substituição |
+| Zeta Interativo | Substituição |
 
 ## Exceção: Adobe Campaign Classic
 
