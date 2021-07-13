@@ -5,15 +5,14 @@ title: Implantar a integração
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
-# Implantar a integração {#deploying-the-integration}
+# Implantar a integração{#deploying-the-integration}
 
 A implantação dessa integração é um processo simples que requer as seguintes ações.
 
@@ -32,12 +31,13 @@ Para ativar a integração você deve concluir o assistente de integração do Q
    | ID da organização Qualtrics | [Procure a ID da organização do Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Token do Adobe SiteCatalyst | [Geração do token Qualtrics do Adobe Analytics ](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Etapa 2 do assistente - Mapeamentos de variáveis**
-   | Lista de respostas do Qualtrics | Selecione uma variável de lista disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
+1. **Etapa 2 do assistente - Mapeamentos de variável**
+
+   | Lista de resposta do Qualtrics | Selecione uma variável de lista disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.) |
    |---|---|
-   | ID de resposta do Qualtrics | Selecione uma eVar ou prop disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.)  |
-   |  Servidor de rastreamento  |Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use a variável `trackingServerSecure` servidor de rastreamento se ele for diferente da configuração padrão do servidor de rastreamento.  |
-   | Envios de pesquisas do Qualtrics | Selecione um evento disponível em seu conjunto de relatórios (talvez seja necessário ativar um novo evento no Gerenciador de conjunto de relatórios).  |
+   | ID de resposta do Qualtrics | Selecione um eVar ou prop disponível em seu conjunto de relatórios. (Talvez seja necessário ativar uma nova listVar no Gerenciador de conjunto de relatórios.) |
+   | Servidor de rastreamento | Forneça a configuração do servidor de rastreamento (domínio) usada para rastrear os dados do Adobe Analytics. Use o servidor de rastreamento `trackingServerSecure` se ele for diferente da sua configuração padrão de servidor de rastreamento. |
+   | Envio de Pesquisa do Qualtrics | Selecione um evento disponível em seu conjunto de relatórios (talvez seja necessário ativar um novo evento no Gerenciador de conjunto de relatórios). |
 
 1. **Etapa 3 do Assistente**: nada necessário, apenas informativo.
 
@@ -67,7 +67,7 @@ Após concluir o assistente de integração, você deve ativar a integração pa
 
    ![](assets/integration_config.png)
 
-## Verificar a integração {#verifying-the-integration}
+## Verificar a integração{#verifying-the-integration}
 
 Depois que todas as etapas de implantação forem concluídas você poderá validar se a integração está transferindo dados com êxito.
 
