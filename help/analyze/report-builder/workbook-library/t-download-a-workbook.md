@@ -24,7 +24,6 @@ Fazer download e editar pastas de trabalho compartilhadas.
 >
 >* **Editar:** baixa e abre uma pasta de trabalho para edição. Se você desejar fazer upload de uma pasta de trabalho que tiver baixado para edição, precisará fazer isso manualmente.
 >* **Excluir:** permite excluir uma pasta de trabalho que você tenha carregado. Você precisa ser o proprietário da pasta de trabalho para poder excluí-la.
-
 >
 
 
