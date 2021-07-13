@@ -3,15 +3,14 @@ description: Descrições dos campos para o Gerenciador de tarefas agendadas.
 title: Gerenciador de tarefa agendada
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '397'
 ht-degree: 97%
 
 ---
-
 
 # Gerenciador de tarefa agendada
 
@@ -36,4 +35,3 @@ O Gerenciador de tarefas agendadas permite que você visualize uma lista de rela
 | Status | O status indica se o relatório foi enviado ou não. |
 | Email/FTP | O endereço de email ou FTP do destinatário do relatório. |
 | Formato do arquivo | O formato de entrega do relatório, como Excel, PDF, HTML, etc. |
-
