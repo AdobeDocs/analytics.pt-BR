@@ -3,15 +3,14 @@ description: Etapas e considerações relacionadas à atualização do Report Bu
 title: Atualizar o Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 98%
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
-
 
 # Atualizar o Report Builder
 
@@ -59,4 +58,3 @@ Você sempre pode obter a versão mais recente do Report Builder do Adobe Analyt
 1. Clique em **[!UICONTROL Report Builder]**.
 1. Na tela **[!UICONTROL Visão geral]**, selecione a versão de 32 bits ou 64 bits.
 1. Clique em **[!UICONTROL Baixar agora]**.
-
