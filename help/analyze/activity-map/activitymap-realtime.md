@@ -2,12 +2,12 @@
 description: A análise de página em tempo real (modo Online) permite obter resultados com granularidade mínima em tempo real.
 title: Análise de página em tempo real (Online)
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Se você quiser verificar qual elemento é mais clicado no modo Online:
 
 ## Latência dos dados como resultado da configuração A4T
 
-Depois que a [A4T integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) for ativada no Adobe Target, haverá de 5 a 10 minutos adicionais de latência no Adobe Analytics. O aumento dessa latência permite que os dados do Analytics e Target sejam armazenados no mesmo hit, permitindo dividir os testes por página e seção do site.
+Depois que a [A4T integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR) for ativada no Adobe Target, haverá de 5 a 10 minutos adicionais de latência no Adobe Analytics. O aumento dessa latência permite que os dados do Analytics e Target sejam armazenados no mesmo hit, permitindo dividir os testes por página e seção do site.
 
 Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics, incluindo a transmissão ao vivo e os relatórios em tempo real e aplicam-se nas seguintes situações:
 
 * Para a transmissão ao vivo, relatórios em tempo real, solicitações de API e dados atualizados para as variáveis de tráfego, somente hits com uma ID de dados adicional são atrasadas.
 * Para os dados atuais sobre as métricas de conversão, dados finalizados e feeds de dados, todos os hits são atrasados de 5 a 7 minutos.
 
-Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), mesmo que essa integração não tenha sido integralmente implementada.
+Esteja ciente de que o aumento da latência começa após a implementação do [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR), mesmo que essa integração não tenha sido integralmente implementada.
 
 Mais informações [aqui](/help/analyze/activity-map/activitymap-standard-live.md).
