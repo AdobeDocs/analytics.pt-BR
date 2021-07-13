@@ -4,12 +4,12 @@ subtopic: Dashboards
 title: Gerenciador do painel
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Noções básicas do Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Os painéis legados existentes continuarão em execução, e você ainda poderá
 
 >[!NOTE]
 >
->Após a migração, considere a utilização de [projetos da Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e seus recursos de download e agendamento.
+>Após a migração, considere a utilização de [projetos da Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) e seus recursos de download e agendamento.
 
 Ao copiar o painel legado, o sistema abre o painel para edição, onde você pode adicionar conteúdo legado ou novo conteúdo. Ao copiar um painel legado, o original é preservado em uma lista de painéis legados.
 
