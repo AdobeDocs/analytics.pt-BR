@@ -3,11 +3,10 @@ title: Casos de uso de comparação de segmentos
 description: Conheça casos de uso reais para saber como o painel de comparação de segmentos pode ser usado para obter insights sobre a estratégia de marketing.
 keywords: Segment IQ
 feature: Painéis
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
 
