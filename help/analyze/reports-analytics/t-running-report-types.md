@@ -3,12 +3,12 @@ description: Etapas para executar os diferentes tipos de relatório.
 title: Executar tipos de relatórios diferentes
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Noções básicas do Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ A maioria dos relatórios de Conversão e Tráfego tem uma exibição com Tendê
 
 O [!UICONTROL Relatório de desistências] exibe o número de visitantes que visitaram uma sequência pré-especificada de páginas. Ele também mostra as taxas de conversão e desistência entre cada etapa.
 
-Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) da Analysis Workspace!
+Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR) da Analysis Workspace!
 
 1. No [!UICONTROL Adobe Analytics], clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Desistências]**.
 1. Na página do [!UICONTROL Relatório de desistências], clique em **[!UICONTROL Executar o Report Builder de desistências]**.
@@ -69,7 +69,7 @@ Consulte o sistema de ajuda do [Marketing Channel](/help/components/c-marketing-
 
 ## Executar um relatório de Detecção de anomalias {#task_4808C96327354D789C075823F5C3A049}
 
-Você pode executar a [Detecção de anomalias e a Análise de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) somente no Analysis Workspace.
+Você pode executar a [Detecção de anomalias e a Análise de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=pt-BR) somente no Analysis Workspace.
 
 ## Executar um relatório em tempo real {#task_5D25929C918E40B18965222FA94176B0}
 
