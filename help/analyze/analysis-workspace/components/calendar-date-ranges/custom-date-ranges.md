@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Criar intervalos de datas personalizados
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Fundamentos do Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Crie intervalos de datas personalizados no Analysis Workspace e salve-os como Co
 
 Os intervalos de datas são aplicados no nível do painel. Para adicionar um intervalo de datas ao seu projeto, clique em **Painéis** > *`<select panel>`* e especifique um novo intervalo de datas.
 
-## Intervalo de datas para “dois meses atrás” {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervalo de datas para “dois meses atrás”  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 O intervalo de datas personalizado a seguir mostra um intervalo de datas para “dois meses atrás” com uma visualização de Alteração do resumo, que mostra a alteração direcional.
 
