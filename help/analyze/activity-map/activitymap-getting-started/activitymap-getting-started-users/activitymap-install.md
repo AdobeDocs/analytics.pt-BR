@@ -3,17 +3,16 @@ description: O processo de instalação varia de acordo com o navegador usado.
 title: Instalar os plug-ins do navegador do Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
 
-# Instalar os plug-ins do navegador do Activity Map {#install-activity-map-browser-plug-ins}
+# Instalar os plug-ins do navegador do Activity Map{#install-activity-map-browser-plug-ins}
 
 O processo de instalação varia de acordo com o navegador usado.
 
