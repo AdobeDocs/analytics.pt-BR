@@ -3,15 +3,14 @@ description: Você pode filtrar pelas dimensões que adiciona à grade de rótul
 title: Filtrar visão geral das dimensões
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # Filtrar visão geral das dimensões
 
