@@ -3,15 +3,14 @@ description: Práticas recomendadas do Power BI.
 title: Práticas recomendadas
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
-
 
 # Práticas recomendadas
 
@@ -24,4 +23,3 @@ Caso exclua uma solicitação da sua pasta de trabalho, tenha certeza de que nã
 * Se for possível, não exclua solicitações que você tenha criado no Report Builder
 * Caso exclua solicitações no Report Builder, certifique-se também de excluir a visualização correspondente no Power BI.
 * Caso não tenha certeza: exclua solicitações que não serão mais necessárias, republique-as e acesse o Power BI para ver quais visualizações foram quebradas
-
