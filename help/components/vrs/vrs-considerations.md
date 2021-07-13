@@ -5,10 +5,10 @@ title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de v
 feature: Configurações do Conjunto de relatórios
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+workflow-type: tm+mt
+source-wordcount: '1752'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,9 @@ Por exemplo, somente um DCM do Google é permitido por conjunto de relatórios. 
 
 ### Fontes de dados de resumo
 
-As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das Fontes de dados de resumo contêm métricas agregadas, eles não podem ser segmentados. Como o VRS opera usando a segmentação, todos os dados importados usando fontes de dados de resumo não estão disponíveis nos conjuntos de relatórios virtuais. As fontes de dados de resumo estão visíveis somente no conjunto de relatórios de origem.
+As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das fontes de dados de resumo contêm métricas agregadas *sem uma ID de visitante*, eles não podem ser segmentados nos contêineres [!UICONTROL Visita] e [!UICONTROL Visitante]. Como o VRS opera usando a segmentação, os dados importados usando fontes de dados de resumo não estarão disponíveis nos conjuntos de relatórios virtuais se o segmento for criado usando um contêiner de Visita ou Visitante.
+
+As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se um contêiner de Ocorrência for usado e se esse contêiner de Ocorrência tiver regras condicionadas para incluir as informações da fonte de dados.
 
 >[!TIP]
 >
