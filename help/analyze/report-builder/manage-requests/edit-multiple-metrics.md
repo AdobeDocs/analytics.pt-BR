@@ -2,15 +2,14 @@
 description: O recurso Editar métricas em várias solicitações permite adicionar, remover ou substituir facilmente as métricas em uma solicitação pré-existente ou em um grupo de solicitações.
 title: Editar métricas em várias solicitações
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 99%
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
-
 
 # Editar métricas em várias solicitações
 
@@ -77,4 +76,3 @@ Para remover métricas:
 
 1. Selecione uma ou mais métricas para remover da solicitação.
 1. Atualize a solicitação. Serão exibidos dados offline até que você atualize.
-
