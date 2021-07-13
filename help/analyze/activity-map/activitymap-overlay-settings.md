@@ -3,10 +3,9 @@ description: O painel Configuração do Activity Map permite modificar as config
 title: Definir configurações do Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-translation-type: tm+mt
-source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 50%
@@ -46,7 +45,7 @@ Essas configurações se aplicam à sobreposição do modo padrão.
 | **[!UICONTROL Filtragem dinâmica de dados]** | Essa lista suspensa permite exibir as sobreposições para<ul><li>(padrão) Todos os links na página</li><li>O número superior (mais alto) ou inferior (mais baixo) dos links classificados na página, onde # pode ser uma opção de 1, 10, 50 ou 100.</li></ul> |
 | **[!UICONTROL Ocultar as sobreposições para links que não receberam visitas]**. | Uma caixa de seleção que alterna a visibilidade das sobreposições para links que não têm dados.<ul><li>(padrão) Se a caixa de seleção estiver marcada, nenhuma sobreposição será mostrada quando um link não tiver dados de link do Activity Map.</li><li>Se a caixa de seleção estiver desmarcada, então se um link não tiver dados de link do ActivityMap, uma sobreposição será exibida e terá um rótulo de &quot;-&quot;, o que significa N/A (não aplicável). |
 
-## Configurações ativas {#section_D30F6E62FB5D404090B588F396A460AF}
+## Configurações ao vivo {#section_D30F6E62FB5D404090B588F396A460AF}
 
 Essas configurações se aplicam à sobreposição do modo Online.
 
