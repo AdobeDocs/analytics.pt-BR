@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizações
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ Clique na engrenagem **Configurações de visualização** no canto superior dir
 | Legenda visível | Exiba informações sobre a métrica mostrada. |
 | Abreviar valor | Escolha abreviar valores e mostrar até 3 casas decimais. |
 | Resumir valor por | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
-
-
-Clique na engrenagem **Configurações de visualização** no canto superior direito para definir as configurações de Número do resumo:
-
-| Configuração | Definição |
-|--- |--- |
-| Porcentagens | Exiba porcentagens em vez de números brutos. |
-| Legenda visível | Exiba informações sobre a métrica mostrada. |
-| Abreviar valor | Escolha abreviar valores e mostrar até 3 casas decimais. |
-| Resumir valor por | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
-
 
 ## Visualização da alteração do resumo {#summary-change}
 
