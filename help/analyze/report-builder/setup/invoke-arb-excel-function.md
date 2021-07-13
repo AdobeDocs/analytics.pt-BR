@@ -3,15 +3,14 @@ description: Essa capacidade integra ainda mais o uso do Report Builder no fluxo
 title: Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 99%
 
 ---
-
 
 # Invocar a funcionalidade do Report Builder a partir de funções do Microsoft Excel
 
@@ -78,4 +77,3 @@ As duas funções que captam um parâmetro podem ser usadas com Controle de form
 1. Abra a lista de parâmetros do Report Builder em [!UICONTROL Fórmulas] > [!UICONTROL Inserir função] > [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Selecione uma das duas funções que terminam com AltTextParam e clique em **[!UICONTROL OK]**.
-
