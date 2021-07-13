@@ -3,13 +3,12 @@ description: Metas permitem medir o desempenho do site e acompanhar o progresso 
 title: Metas
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Noções básicas do Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-translation-type: tm+mt
-source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +20,7 @@ Quando você cria metas, você seleciona quais métricas de atributo ou eVars vo
 
 Por exemplo, você pode medir o número de visitantes únicos para o seu site, e usá-lo como meta. Neste caso, escolha o site inteiro. No entanto, se você desejar definir como meta o número de visitantes únicos no seu site a partir de Chicago, você pode especificar este eVar em vez de visualizar o seu site inteiro.
 
-## Descrições dos campos de Metas {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## [!UICONTROL Descrições dos campos de Metas] {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  >  **[!UICONTROL Metas]**
 
@@ -36,18 +35,18 @@ As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar Me
 | [!UICONTROL Ponto] | Permite definir o [!UICONTROL Intervalo de datas] e as configurações de [!UICONTROL Granularidade] da meta. Dependendo das suas especificações de intervalo de datas, algumas opções de granularidade não se aplicam. Ao digitar os valores para as métricas, digite um valor para cada  definição de granularidade. Por exemplo, se o intervalo de datas for o mês de fevereiro, e sua seleção de granularidade é semanal, digite um valor para cada semana do mês de fevereiro. [!UICONTROL Relatórios de meta exibidos para cada configuração de granularidade.] |
 | [!UICONTROL Valores] | Permite que você especifique valores de meta para o período de tempo e a métrica selecionada. Esses valores são os números de destino que você está tentando alcançar. Por exemplo, se a meta tiver base na receita, e você estava estimando 10.000 dólares de receita para um determinado mês, você deve digitar 10000 no campo de valor para o mês. |
 
-## Adicionar uma [!UICONTROL meta] {#task_94915391E26E4F808F2538AA92BC7E71}
+## Adicionar um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
 Etapas que descrevem como adicionar uma meta.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
 1. Na página [!UICONTROL Gerenciar Alvos], clique em **[!UICONTROL Adicionar Novo...]**.
 1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
-## Editar uma [!UICONTROL meta] {#task_946C558D2ECC4922ABD4A5A6183A095A}
+## Editar um [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Destinos]**.
 1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
 1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
