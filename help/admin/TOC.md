@@ -4,11 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [Classificações de conversão](admin/conversion-var-admin/conversion-classifications.md)
       + [Hierarquias de classificação](admin/conversion-var-admin/classification-hierarchies.md)
       + [Variáveis da Lista](admin/conversion-var-admin/list-var-admin.md)
+      + [eVar de merchandising](admin/conversion-var-admin/merchandising-evars.md)
    + [Códigos monetários](admin/currency.md)
    + [Descrições do relatório personalizado](admin/custom-desc-admin.md)
    + [Personalizar calendário](admin/custom-calendar.md)
@@ -176,7 +176,7 @@ ht-degree: 100%
 + Governança de dados {#data-governance}
    + [Adobe Analytics e o GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics e a CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Isenção de Consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
+   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
    + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios](c-data-governance/gdpr-view-settings.md)
@@ -201,5 +201,5 @@ ht-degree: 100%
    + [Programar um pico de tráfego](c-traffic-management/t-traffic-schedule-spike.md)
    + [Estimar chamadas de servidor antigas e agendar um pico de tráfego](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [Especificar o aumento de tráfego permanente](c-traffic-management/t-traffic-permanent.md)
-   + [Lead time necessário para aumentos de tráfego](c-traffic-management/traffic-lead-time.md)
+   + [Tempo de lead necessário para aumentos de tráfego](c-traffic-management/traffic-lead-time.md)
 + [API de administração](c-admin-api/c-admin-api.md)
