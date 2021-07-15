@@ -1,11 +1,10 @@
 ---
 description: Este recurso permite que você personalize os menus de relatório que são exibidos para um usuário no Reports & Analytics. É possível exibir ou ocultar relatórios, bem como movê-los em pastas diferentes para todos os usuários. Esse recurso é útil se a sua organização utiliza apenas determinados relatórios e não deseja encher o menu esquerdo com dados não utilizados ou irrelevantes.
 title: Personalização do menu
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
@@ -24,37 +23,11 @@ As alterações no menu se aplicam a todos os usuários que acessam o conjunto d
 
 ## Descrições de personalização de menu {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Calendário </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Nova pasta</span> </td> 
-   <td colname="col2"> <p> Adiciona uma nova pasta acima do item selecionado no momento. Observe que você deve adicionar ao menos um relatório antes que a pasta fique visível. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Renomear</span> </td> 
-   <td colname="col2"> <p> Permite alterar o nome do item selecionado no momento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Nome padrão</span> </td> 
-   <td colname="col2"> <p> Restaura o nome padrão do item selecionado no momento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Alternar visibilidade</span> </td> 
-   <td colname="col2"> <p> Oculta (exibe) o item selecionado no momento. Itens ocultos são exibidos com um padrão de linha cinza na página Personalização do menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Excluir</span> </td> 
-   <td colname="col2"> <p> Remove o item selecionado no momento do menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Restaurar padrões</span> </td> 
-   <td colname="col2"> <p> Restaura o menu ao seu estado original. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Calendário | Descrição |
+|--- |--- |
+| Nova pasta | Adiciona uma nova pasta acima do item selecionado no momento. Observe que você deve adicionar ao menos um relatório antes que a pasta fique visível. |
+| Renomear | Permite alterar o nome do item selecionado no momento. |
+| Nome padrão | Restaura o nome padrão do item selecionado no momento. |
+| Alternar visibilidade | Oculta (exibe) o item selecionado no momento. Itens ocultos são exibidos com um padrão de linha cinza na página Personalização do menu. |
+| Excluir | Remove o item selecionado no momento do menu. |
+| Restaurar padrões | Restaura o menu ao seu estado original. |
