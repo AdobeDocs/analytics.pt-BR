@@ -5,7 +5,7 @@ title: Variáveis de conversão (eVar)
 feature: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Descrições de campos usados ao [editar variáveis de conversão](/help/admin/a
 | [!UICONTROL Merchandising]  (somente eVar) | As variáveis de merchandising podem seguir uma das duas sintaxes:<ul><li>**[!UICONTROL Sintaxe de produtos]**: associa o valor de eVar a um produto. **Observação**: se a [!UICONTROL Sintaxe de produtos] estiver selecionada, a seção [!UICONTROL Evento compulsório de merchandising] será desativada e não poderá ser selecionada para edição. Os [!UICONTROL Eventos compulsórios] não se aplicam a essa sintaxe.</li><li>**[!UICONTROL Sintaxe de variável de conversão]**: associa a eVar a um produto somente se um [!UICONTROL evento compulsório] ocorre. Nesse caso, você seleciona os eventos que atuam como [!UICONTROL Eventos compulsórios].  Alterar essa configuração sem atualizar seu código JavaScript de acordo resultará na perda de dados. Ver [Variáveis de merchandising](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Evento compulsório de merchandising] (somente eVar) | Se Merchandising estiver definido como [!UICONTROL Sintaxe de variável de conversão], os eventos selecionados vincularão o valor de eVar atual a um produto. Para usar um [!UICONTROL Evento compulsório], defina a [!UICONTROL Alocação] como [!UICONTROL Mais recente]. Se a [!UICONTROL Alocação] for definida como [!UICONTROL Valor original], a primeira ligação de produto de eVar permanecerá até que a eVar expire. Você pode selecionar vários eventos pressionando e segurando Ctrl (no Windows) ou cmd (no Mac) e clicando em vários itens na lista. Você pode selecionar um evento somente quando a [!UICONTROL Sintaxe de variável de conversão] está selecionada. |
 
-**Expiração**
+### Expiração
 
 As `eVars` expiram depois de um período definido por você. Depois que a eVar expira, ela não recebe mais crédito por eventos bem-sucedidos. As eVars também podem ser configuradas para expirar em eventos bem-sucedidos. Por exemplo, se você tiver uma promoção interna que expira no fim de uma visita, a promoção interna recebe crédito apenas pelas compras ou registros ocorridos durante a visita em que foi ativada.
 
@@ -58,10 +58,10 @@ Por exemplo, se você alterar a expiração de uma eVar de 30 para 90 dias, os v
 
 Outro exemplo: se uma eVar for usada em maio para refletir promoções internas e expirar depois de 21 dias, e em junho ela for usada para capturar as palavras-chaves da pesquisa interna, no dia 1º de junho você deverá forçar a expiração da variável ou redefini-la. Com isso, você ajudará a manter os valores da promoção interna fora dos relatórios de junho.
 
-**Uso de maiúsculas e minúsculas**
+### Uso de maiúsculas e minúsculas
 
 As eVars não diferenciam maiúsculas de minúsculas. A caixa alta ou baixa usada nos relatórios se baseia no primeiro valor registrado pelo sistema de back-end. Esse valor pode ser a primeira instância vista ou pode variar em determinado período (por exemplo, mensal), dependendo da variedade e da quantidade de dados associados ao conjunto de relatórios.
 
-**Contadores**
+### Contadores
 
 Embora as eVars sejam usadas com mais frequência para reter valores da string, elas também podem ser configuradas para atuar como contadores. As eVars são úteis como contadores quando você está tentando contar o número de ações adotadas por um usuário antes de um evento. Por exemplo, você pode usar uma eVar para capturar o número de pesquisas internas antes da compra. Sempre que um visitante pesquisar, a eVar deverá conter um valor de &quot;+1&quot;. Se um visitante pesquisar quatro vezes antes de uma compra, você verá uma instância para cada contagem total: 1,00, 2,00, 3,00 e 4,00. No entanto, somente a 4,00 receberá crédito pelo evento da compra (Pedidos e métricas de receita). Somente números positivos são permitidos como valores de um contador eVar.
