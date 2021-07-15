@@ -2,22 +2,22 @@
 description: Explica como a nova landing page reúne a Analysis Workspace e o Reports & Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace.
 title: Nova página de aterrissagem do Adobe Analytics
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3046'
 ht-degree: 6%
 
 ---
 
 # Nova página de aterrissagem do Adobe Analytics
 
-A nova página inicial da Análise de Adobe reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva da Workspace. Ele apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado, relatórios modernizados e uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz.
+A nova página de aterrissagem do Adobe Analytics reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace. Ele apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado, relatórios modernizados e uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz.
 
 A nova página melhora a capacidade de descoberta e orienta os usuários do Reports &amp; Analytics para uma experiência de relatório aprimorada no Workspace.
 
 >[!IMPORTANT]
 >
->Essa landing page estará em versão beta pública em breve. É um ponto de partida opcional. Se preferir, você pode usar sua landing page existente, seja Workspace ou Relatórios. Se você decidir aderir ao programa beta, acesse a página e clique em **[!UICONTROL Fornecer feedback]** na parte superior da tela para registrar seu feedback e quaisquer bugs que você possa encontrar. Você pode recusar e voltar ao programa beta a qualquer momento. Qualquer trabalho feito na interface do usuário beta é transferido para a experiência atual/atual do Workspace.
+>Essa landing page estará na Open Beta a partir de 21 de julho de 2021. É um ponto de partida opcional. Se preferir, você pode usar sua landing page existente, seja Workspace ou Relatórios. Se você decidir aderir ao programa beta, acesse a página e clique em **[!UICONTROL Fornecer feedback]** na parte superior da tela para registrar seu feedback e quaisquer bugs que você possa encontrar. Você pode recusar e voltar ao programa beta a qualquer momento. Qualquer trabalho feito na interface do usuário beta é transferido para a experiência atual/atual do Workspace.
 
 ## Acessar a nova landing page {#access-landing}
 
