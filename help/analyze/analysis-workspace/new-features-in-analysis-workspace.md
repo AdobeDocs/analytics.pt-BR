@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '8276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Novos recursos lançados em 20 de fevereiro de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| Novo modelo do Workspace para organizações que usam o Cross-Device Analytics | Esse modelo mostra como o CDA é eficaz ao unir visitas e informa você sobre dimensões e métricas exclusivas do CDA. É necessário um conjunto de relatórios que use o CDA. Consulte [Configurar Análise entre dispositivos](/help/components/cda/setup.md) para obter mais informações. |
+| Novo modelo do Workspace para organizações que usam o Cross-Device Analytics | Esse modelo mostra como o CDA é eficaz ao unir visitas e informa você sobre dimensões e métricas exclusivas do CDA. É necessário um conjunto de relatórios que use o CDA. Consulte [Configuração do Cross-Device Analytics](/help/components/cda/setup.md) para obter mais informações. |
 | Novas teclas de atalho no Workspace | <ul><li>Recolher/expandir todos os painéis: `alt + m`</li><li>Recolher/expandir painel ativo: `alt + ctrl + m`</li><li>Pesquisar painel esquerdo: `ctrl + /`</li><li>Mover para o próximo painel: `alt + Right Key`</li><li>Mover para o painel anterior: `alt + Left Key`</li></ul>[Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=pt-BR) |
 | Outras melhorias na Workspace | <ul><li>Quando um painel ou uma visualização é colocada no Workspace, o painel esquerdo muda automaticamente para componentes a fim de oferecer um fluxo de trabalho mais simples.</li><li>Os componentes do modelo agora podem ser ativados (por exemplo, marcados com tags, marcados como favoritos, aprovados).</li><li>As listas de segmentos e métricas filtradas oferecem o botão + para adicionar um novo componente se você não encontrar o que precisa.</li></ul> |
 | Depurador do Workspace | O depurador de espaço de trabalho foi adicionado ao menu Ajuda, fornecendo uma maneira mais simples de habilitá-lo para depurar solicitações de Workspace. [Saiba mais...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -304,7 +304,7 @@ Novos recursos e melhorias lançados em 19 de julho de 2018.
    <td colname="col2"> <p>Quando possível, agora exibimos os totais das métricas calculadas, inclusive de porcentagens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nova predefinição de <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  ></a>intervalo de datas </b> </p> </td> 
+   <td colname="col1"> <p><b>Nova predefinição de <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  ></a>intervalo de datas</b> </p> </td> 
    <td colname="col2"> <p>Adicionado 'Últimas 13 semanas completas' às predefinições de intervalo de datas no Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -775,7 +775,7 @@ Novos recursos lançados em 20 de julho de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Obter link do projeto” para logons da Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Antes, se você fizesse logon com as credenciais da Experience Cloud e navegasse até o Analytics, não era possível usar o recurso <span class="ignoretag"> <span class="uicontrol"> Compartilhar </span> &gt; <span class="uicontrol"> Obter link do projeto</span></span>. Resolvemos esse problema. Porém, continua sendo necessário salvar o projeto antes que essa opção seja clicável. </p> </td> 
+   <td colname="col2"> <p>Antes, se você fizesse logon com as credenciais da Experience Cloud e navegasse até o Analytics, não era possível usar o recurso <span class="ignoretag"> <span class="uicontrol"> Compartilhar</span> &gt; <span class="uicontrol"> Obter link do projeto</span></span>. Resolvemos esse problema. Porém, continua sendo necessário salvar o projeto antes que essa opção seja clicável. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Projetos expirados” no Gerenciador de projetos agendados</a></b> </p> </td> 
@@ -845,7 +845,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Melhorias no <b><a href="/help/components/c-alerts/alert-manager.md"  > Gerenciador de alertas </a></b> </p> </td> 
+   <td colname="col1"> <p>Melhorias no <b><a href="/help/components/c-alerts/alert-manager.md"  >Gerenciador de alerta</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Adicionada a capacidade de ativar ou desativar alertas. </li> 
