@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ O SDK da Web da Adobe Experience Platform (AEP) fornece assistência para mapear
 
 Para dados XDM que não são mapeados automaticamente para o Analytics, é possível adicionar [dados de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=pt-BR) para corresponder ao [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR). Assim, ele pode ser utilizado pelas [regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=pt-BR) para preencher as variáveis do Analytics.
 
-Além disso, você pode usar um conjunto padrão de ações e listas de produtos para enviar ou recuperar dados com o [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+Além disso, é possível usar um conjunto padrão de ações e listas de produtos para enviar ou recuperar dados com o [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
 
 ## Dados de contexto
 
