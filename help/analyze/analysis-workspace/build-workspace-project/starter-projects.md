@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da m�
 
 <!--This content is mirrored in the CDA doc.-->
 
-Esse modelo permite que você veja dados essenciais de desempenho entre dispositivos. Ele está disponível somente para clientes que têm acesso ao [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
+Esse modelo permite que você veja dados essenciais de desempenho entre dispositivos. Ele está disponível somente para clientes que têm acesso ao [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=pt-BR) (CDA).
 
 * **Nota especial para os membros do Gráfico cooperativo**: mostra qual parte do conjunto de relatórios contém visitantes em regiões nas quais o gráfico cooperativo é suportado e em regiões nas quais ele não é suportado.
 * **Identificação de usuários**: mostra a frequência com que os visitantes do site são identificados usando métodos com base na Análise entre dispositivos.
