@@ -5,7 +5,7 @@ exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ if(s._ppvPreviousPage)
 
 ### 5.0.1 (22 de junho de 2021)
 
-* Correção de um problema em que determinados caracteres especiais resultavam na quebra do plug-in
+* Correção de um problema em que determinados caracteres especiais resultavam em falha do plug-in
 
 ### 5.0 (19 de março de 2021)
 
