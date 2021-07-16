@@ -7,7 +7,7 @@ exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ A seguir você encontra algumas das práticas recomendadas para processamento e 
 
 * Se você automatizar o processo de ingestão de feed, considere que as ocorrências e os arquivos poderão ser transferidos mais de uma vez. O processo de ingestão de feed precisa lidar com ocorrências e arquivos duplicados sem causar erros nem duplicar dados. Recomendamos usar a combinação das colunas `hitid_high` e `hitid_low` para identificar uma ocorrência de maneira exclusiva.
 
-   Em casos raros, você pode ver valores `hitid_high` e `hitid_low` duplicados. Se isso acontecer, confirme se o arquivo não foi enviado e processado anteriormente. Se apenas algumas linhas em um arquivo forem duplicadas, considere adicionar `visit_num` e `visit_page_num` para ajudar a determinar a exclusividade.
+   Em casos raros, você pode ver valores `hitid_high` e `hitid_low` duplicados. Se isso acontecer, confirme se o arquivo não foi enviado e processado anteriormente. Se apenas algumas linhas em um arquivo estiverem duplicadas, considere adicionar `visit_num` e `visit_page_num` para ajudar a determinar a exclusividade.
