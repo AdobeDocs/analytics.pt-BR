@@ -6,7 +6,7 @@ exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Consulte [Variáveis de dados de contexto ](/help/implement/vars/page-vars/conte
 
 * Dados de contexto: `contextData.['cm.ssf']`
 * Valores aceitos:
-   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
+   * 1 - Ao enviar o valor &quot;1&quot;, isso indica que o encaminhamento pelo lado do servidor está em um estado de não participação. O valor &quot;1&quot; emparelhado com essa variável bloqueará o compartilhamento dessa ocorrência com o Adobe Audience Manager. Consulte [Conformidade com a privacidade eletrônica do AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=pt-BR).
    * 0 - Opcional. Use o valor &quot;0&quot; para clientes que consentiram com o marketing direcionado. Se você não definir a variável, os mesmos resultados também serão gerados.
 
 ### DMP
