@@ -1,15 +1,15 @@
 ---
 description: Explica como a nova landing page reúne a Analysis Workspace e o Reports & Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace.
-title: Nova página de aterrissagem do Adobe Analytics
+title: Nova página de aterrissagem padrão do Adobe Analytics
 role: User, Admin
 source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '3046'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# Nova página de aterrissagem do Adobe Analytics
+# Nova página de aterrissagem padrão do Adobe Analytics
 
 A nova página de aterrissagem do Adobe Analytics reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace. Ele apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado, relatórios modernizados e uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz.
 
@@ -17,9 +17,9 @@ A nova página melhora a capacidade de descoberta e orienta os usuários do Repo
 
 >[!IMPORTANT]
 >
->Essa landing page estará na Open Beta a partir de 21 de julho de 2021. É um ponto de partida opcional. Se preferir, você pode usar sua landing page existente, seja Workspace ou Relatórios. Se você decidir aderir ao programa beta, acesse a página e clique em **[!UICONTROL Fornecer feedback]** na parte superior da tela para registrar seu feedback e quaisquer bugs que você possa encontrar. Você pode recusar e voltar ao programa beta a qualquer momento. Qualquer trabalho feito na interface do usuário beta é transferido para a experiência atual/atual do Workspace.
+>Essa landing page estará na Open Beta a partir de 21 de julho de 2021. É um ponto de partida opcional. Se preferir, você poderá usar sua página de aterrissagem existente: Workspace ou Reports. Se você decidir aderir ao programa beta, acesse a página e clique em **[!UICONTROL Fornecer feedback]** na parte superior da tela para registrar seu feedback e quaisquer bugs que você possa encontrar. Você pode recusar e voltar ao programa beta a qualquer momento. Qualquer trabalho feito na interface do usuário beta é transferido para a experiência atual/atual do Workspace.
 
-## Acessar a nova landing page {#access-landing}
+## Acessar a nova página de aterrissagem {#access-landing}
 
 Depois de fazer logon no Adobe Experience Cloud e no Analytics, ative o botão de alternância [!UICONTROL New landing page - Beta] no canto inferior esquerdo. O acesso ao botão de alternância é específico do usuário por Organização, não específico da empresa.
 
@@ -142,7 +142,7 @@ A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de 
 
 * O botão **[!UICONTROL Saiba mais]** no modal de vídeo leva você a uma página de documentação do Adobe Experience League com mais conteúdo de ajuda relacionado ao vídeo que você acabou de assistir.  **[!UICONTROL Ver mais]** vídeos leva você à lista de reprodução completa do Analysis Workspace YouTube.
 
-## Perguntas frequentes sobre novas páginas de aterrissagem {#landing-faq}
+## Perguntas frequentes sobre a nova página de aterrissagem {#landing-faq}
 
 | Pergunta | Resposta |
 | --- | --- |
@@ -152,4 +152,4 @@ A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de 
 | Meus favoritos atuais do Reports &amp; Analytics são transferidos? | Não, eles NÃO são levados adiante. No entanto, todos os favoritos de Projeto do Workspace são transferidos. |
 | Há um número máximo de projetos que eu possa fixar? | Não, não há limite para o número de projetos que você pode fixar. |
 | Os administradores podem designar essa nova landing page para os usuários? | Não, os administradores não podem designar a nova página de aterrissagem em nome dos usuários. Os usuários individuais devem ativar a alternância. |
-| Todos os relatórios que existem atualmente no Reports &amp; Analytics ainda estão disponíveis? | Não, os seguintes relatórios foram eliminados gradualmente, com base nos dados de utilização geral: <ul><li>Quaisquer eVars/props/events/classification personalizados<li>Meus relatórios recomendados</li><li>Visitantes únicos por hora/por dia/por semana/por mês/por trimestre/por ano</li><li>Clientes únicos diários semanais/mensais/trimestrais/anuais</li><li>Profundidade do nome da ação</li><li>Resumo do nome da ação</li><li>Adicionar painel</li><li>Idade</li><li>Suporte de áudio</li><li>Informações de faturamento</li><li>Cliques para a página</li><li>Intensidade de cor</li><li>Suporte a cookies</li><li>Cookies</li><li>Tipos de conexão</li><li>Elementos criativos</li><li>Tipo de cartão de crédito</li><li>Venda cruzada</li><li>Funis de evento personalizados</li><li>links personalizados</li><li>Customer ID</li><li>Dia da semana</li><li>Nome da ação de entrada</li><li>Sair do nome da ação</li><li>Links de saída</li><li>Fallout</li><li>Downloads de arquivos</li><li>Localizar na loja</li><li>Caminhos completos</li><li>Gênero</li><li>Regra VISTA do tipo de ocorrência</li><li>Suporte de imagem</li><li>Java</li><li>JavaScript</li><li>Versão do JavaScript</li><li>Gerenciar marcadores</li><li>Gerenciar painéis</li><li>Intensidade de cor do monitor</li><li>Resoluções do monitor</li><li>Assinaturas do boletim informativo</li><li>Nome da próxima ação</li><li>Fluxo do nome da próxima ação</li><li>Pesquisas nulas</li><li>Sistema operacional</li><li>Revisão do pedido</li><li>Página do dia</li><li>Páginas não encontradas</li><li>Pathfinder</li><li>Comprimento do caminho</li><li>Nome da ação anterior</li><li>Fluxo do nome da ação anterior</li><li>Atividade do produto</li><li>Custo do produto</li><li>Departamento de produto</li><li>Categoria de inventário de produtos</li><li>Nome do produto</li><li>Resenhas do produto</li><li>Temporada de produtos</li><li>Compartilhamentos de produtos</li><li>Zoom do produto</li><li>Recarga</li><li>Pesquisas</li><li>Servidores</li><li>Visitas em única página</li><li>Informações sobre envio</li><li>Hierarquia do site</li><li>Menções em redes sociais</li><li>Hora do dia</li><li>Tempo gasto no nome da ação</li><li>Suporte de vídeo</li><li>Estado do visitante</li></ul> |
+| Todos os relatórios atualmente existentes no Reports &amp; Analytics ainda estão disponíveis? | Não. Os seguintes relatórios foram eliminados, com base nos dados de utilização geral: <ul><li>Quaisquer eVars/props/events/classification personalizados<li>Meus relatórios recomendados</li><li>Visitantes únicos por hora/por dia/por semana/por mês/por trimestre/por ano</li><li>Clientes únicos diários semanais/mensais/trimestrais/anuais</li><li>Profundidade do nome da ação</li><li>Resumo do nome da ação</li><li>Adicionar painel</li><li>Idade</li><li>Suporte de áudio</li><li>Informações de faturamento</li><li>Cliques para a página</li><li>Intensidade de cor</li><li>Suporte a cookies</li><li>Cookies</li><li>Tipos de conexão</li><li>Elementos criativos</li><li>Tipo de cartão de crédito</li><li>Venda cruzada</li><li>Funis de evento personalizados</li><li>links personalizados</li><li>Customer ID</li><li>Dia da semana</li><li>Nome da ação de entrada</li><li>Sair do nome da ação</li><li>Links de saída</li><li>Fallout</li><li>Downloads de arquivos</li><li>Localizar na loja</li><li>Caminhos completos</li><li>Gênero</li><li>Regra VISTA do tipo de ocorrência</li><li>Suporte de imagem</li><li>Java</li><li>JavaScript</li><li>Versão do JavaScript</li><li>Gerenciar marcadores</li><li>Gerenciar painéis</li><li>Intensidade de cor do monitor</li><li>Resoluções do monitor</li><li>Assinaturas do boletim informativo</li><li>Nome da próxima ação</li><li>Fluxo do nome da próxima ação</li><li>Pesquisas nulas</li><li>Sistema operacional</li><li>Revisão do pedido</li><li>Página do dia</li><li>Páginas não encontradas</li><li>Pathfinder</li><li>Comprimento do caminho</li><li>Nome da ação anterior</li><li>Fluxo do nome da ação anterior</li><li>Atividade do produto</li><li>Custo do produto</li><li>Departamento de produto</li><li>Categoria de inventário de produtos</li><li>Nome do produto</li><li>Resenhas do produto</li><li>Temporada de produtos</li><li>Compartilhamentos de produtos</li><li>Zoom do produto</li><li>Recarga</li><li>Pesquisas</li><li>Servidores</li><li>Visitas em única página</li><li>Informações sobre envio</li><li>Hierarquia do site</li><li>Menções em redes sociais</li><li>Hora do dia</li><li>Tempo gasto no nome da ação</li><li>Suporte de vídeo</li><li>Estado do visitante</li></ul> |
