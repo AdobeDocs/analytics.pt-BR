@@ -2,9 +2,9 @@
 description: Esta seção contém os principais conceitos do Adobe Analytics, uma breve descrição do conceito e um link de documentação específica com detalhes adicionais sobre o tópico.
 title: Adobe Analytics - Principais conceitos
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1822'
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '1816'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Clique [aqui](/help/technotes/terms.md) para obter um glossário expandido com o
 | Relatórios de jornada do cliente | Exibe informações sobre o caminho que seus usuários tomam em seu site ou aplicativo. Prop, eVars e eventos podem ser usados nessa análise na Analysis Workspace. | [Fallout do Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Fluxo do Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Definição de caminho do Reports and Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Canais de marketing | Relatórios que ajudam você a entender quais canais externos levam os usuários ao seu site e o que é mais eficaz para impulsionar a conversão. As exibições da atribuição de Primeiro e Último contato são fornecidas. Esse é o relatório de fonte de tráfego externo preferido no Adobe Analytics (em vez de Campanhas ou Fontes de tráfego) por ser o olhar mais abrangente nos canais pagos e orgânicos. | [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Dispositivo móvel | Exibe informações sobre os sites acessados em um dispositivo móvel ou tablet. | [Relatório móvel](/help/components/dimensions/mobile-dimensions.md) |
-| Aplicativo móvel | Exibe informações de uso básico relacionadas aos seus aplicativos móveis. Esses relatórios são disponibilizados depois que o SDK é implementado e os relatórios ativados.  O Adobe Mobile Services também criou uma interface de aplicativo móvel diferente, que oferece dados mais abrangentes do aplicativo e permite entender e melhorar a participação do usuário nos seus aplicativos.  Acesse a interface [aqui](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=pt-BR) |
+| Aplicativo móvel | Exibe informações de uso básico relacionadas aos seus aplicativos móveis. Esses relatórios são disponibilizados depois que o SDK é implementado e os relatórios ativados.  O Adobe Mobile Services também criou uma interface de aplicativo móvel diferente, que oferece dados mais abrangentes do aplicativo e permite entender e melhorar a participação do usuário nos seus aplicativos. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Produtos | Identifica como os produtos individuais e grupos de produtos (categorias) contribuem para diversas métricas de conversão, tais como Receita ou Finalizações. | [Relatório de Produtos](/help/components/dimensions/product.md) |
 | Comparação de segmentos | Mostra as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões as quais você tem acesso. | [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Relatório de conteúdo do site | Exibe informações sobre quais páginas e áreas do site são mais ativas e quais servidores estão sendo mais usados. | [Relatório de conteúdo do site](/help/components/dimensions/page.md) |
