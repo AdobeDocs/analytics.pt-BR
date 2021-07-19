@@ -1,7 +1,7 @@
 ---
 title: eVars de merchandising e métodos de descoberta de produtos
 description: Um aprofundamento dos conceitos por trás das eVars de comercialização e como elas processam e alocam dados.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Por exemplo, definir `s.eVar1="Internal Keyword Search"` por si só não dá cr�
 
 Em resumo, sem configuração adicional, a métrica Instâncias prontas para uso de um eVar de merchandising é menor do que útil. Felizmente, o Adobe lançou [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Ele permite aplicar vários modelos de atribuição para qualquer métrica personalizada que o Adobe Analytics coleta. As métricas que aplicam esses modelos de atribuição não usam os valores contidos nas colunas post_evar ou os valores que estão vinculados a um produto específico. Em vez disso, essas métricas usam apenas os valores que são transmitidos por meio das próprias solicitações de imagem (ou valores capturados por meio das regras de processamento do Adobe Analytics). Você pode usar os recursos no Attribution IQ para obter uma métrica de instâncias atribuída com precisão para todas as eVars de merchandising que usam a Sintaxe de variável de conversão.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Ao adicionar uma métrica de instância para um eVar de comercialização a um relatório, o modelo de Attribution IQ adequado seria o modelo &quot;Último contato&quot;. Nesse caso, a configuração da Janela de pesquisa do modelo não importa. O motivo é que um modelo de atribuição de Último contato &quot;forçado&quot; sempre dá crédito de instância para cada valor individual passado por uma solicitação. Isso ocorre independentemente das configurações de atribuição/vínculo reais do eVar serem definidas como &quot;Mais recente (último)&quot; como &quot;Valor original (primeiro)&quot;.
