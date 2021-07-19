@@ -5,9 +5,9 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -93,4 +93,3 @@ Uma tabela comparativa de APIs em relatórios do Analytics. São fornecidos link
 **Ajuda relacionada**
 
 * [Adobe/IO](https://www.adobe.io/) - Aqui você encontra uma ampla documentação técnica e as ferramentas necessárias para integrar as tecnologias Adobe em seus aplicativos.
-* [API de consulta da Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
