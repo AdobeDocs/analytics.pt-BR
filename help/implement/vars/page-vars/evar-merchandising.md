@@ -2,17 +2,18 @@
 title: eVar (merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 93%
 
 ---
 
 # eVar (merchandising)
 
 *Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (merchandising)](/help/components/dimensions/evar-merchandising.md) no guia Componentes do usuário.*
+
+Para obter uma discussão detalhada sobre como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
