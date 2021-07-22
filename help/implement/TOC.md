@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 100%
       + [Exemplo de visita](js/xdevice-visid/visit-example.md)
       + [Perguntas frequentes sobre hereditariedade entre dispositivos](js/xdevice-visid/xdevice-faq.md)
    + [Solução de problemas do AppMeasurement](js/troubleshooting.md)
-+ Implementar o Analytics usando a Adobe Experience Platform Launch {#launch}
-   + [Resumo do Launch](launch/overview.md)
-   + [Criar uma propriedade do Analytics](launch/create-analytics-property.md)
++ Implementar o Analytics usando tags no Adobe Experience Platform {#launch}
+   + [Visão geral das tags](launch/overview.md)
+   + [Criar uma propriedade de tag do Analytics](launch/create-analytics-property.md)
    + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)
    + [Validar e publicar no prod](launch/validate-publish-prod.md)
    + [Mapear objetos de camada de dados para elementos de dados](launch/layer-to-elements.md)
-   + [Mapear elementos de dados do Launch para variáveis do Analytics](launch/elements-to-variable.md)
+   + [Mapear elementos de dados de tag para variáveis do Analytics](launch/elements-to-variable.md)
 + Implementar o Analytics em outras plataformas {#other}
    + [Implementar o Analytics usando solicitações de imagem codificadas](other/hardcoded.md)
    + [Implementar o Analytics usando o DTM](other/dtm-implementation-overview.md)
