@@ -1,30 +1,35 @@
 ---
-title: Criar uma propriedade do Analytics no Launch
-description: Crie um espaço para personalizar como os dados são coletados, usando o Adobe Experience Platform Launch.
+title: Criar uma propriedade do Analytics nas tags
+description: Crie um espaço para personalizar como os dados são coletados, usando tags .
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 59%
 
 ---
 
-# Criar uma propriedade do Analytics no Adobe Experience Platform Launch
+# Criar uma propriedade de tag do Analytics
 
-O Adobe Experience Platform Launch é a ferramenta que você pode usar para integrar soluções da Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador do Launch pode configurar uma implementação básica do Adobe Analytics corretamente.
+As tags no Adobe Experience Platform permitem integrar soluções do Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
+
+>[!NOTE]
+>A Adobe Experience Platform Launch foi reformulada como um conjunto de tecnologias de coleta de dados no Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obter uma referência consolidada das alterações de terminologia.
 
 ## Pré-requisitos
 
-[Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados.
+[Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados..
 
-## Criar uma propriedade e instalar extensões essenciais
+## Criar uma propriedade de tag e instalar extensões essenciais
 
 As propriedades são contêineres abrangentes que você usa para gerenciar tags. As extensões permitem instalar tags específicas do produto e configurá-las.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
+1. Vá para [experience.adobe.com](https://experience.adobe.com) e faça logon quando solicitado.
+1. Selecione **[!UICONTROL Launch / Data Collection]**.
+1. Clique em **[!UICONTROL Ir para Iniciar/Coleta de dados]** e selecione **[!UICONTROL Tags]**.
 1. Clique em **[!UICONTROL Nova propriedade]**.
 1. Dê um nome à Propriedade, como o título do site, e insira o domínio em que você pretende implementar o Analytics. Clique em **[!UICONTROL Salvar]**.
-1. Clique na propriedade recém-criada para inserir as configurações.
+1. Clique na propriedade de tag recém-criada para inserir as configurações.
 1. Clique na guia **[!UICONTROL Extensões]** e, em seguida, clique em **[!UICONTROL Catálogo]**.
 1. Localize o Serviço de identidade e clique em **[!UICONTROL Instalar]**.
 1. Todas as configurações, incluindo a Experience Cloud Organization ID, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
@@ -34,8 +39,10 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 
 Os elementos de dados são referências a partes específicas do site para coletar valores de variável.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
-1. Clique na propriedade do Launch que pretende implementar no site.
+1. Vá para [experience.adobe.com](https://experience.adobe.com) e faça logon quando solicitado.
+1. Selecione **[!UICONTROL Launch / Data Collection]**.
+1. Clique em **[!UICONTROL Ir para Iniciar/Coleta de dados]** e selecione **[!UICONTROL Tags]**.
+1. Clique na propriedade de tag que você pretende implementar em seu site.
 1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Criar novo elemento de dados]**.
 1. Atribua ao elemento de dados as seguintes configurações:
 
@@ -55,8 +62,10 @@ Os elementos de dados são referências a partes específicas do site para colet
 
 As regras mapeiam os elementos de dados para os valores de variáveis do Analytics e determinam quando esses valores são enviados para os servidores da Adobe.
 
-1. Vá para [launch.adobe.com](https://launch.adobe.com) e faça logon, se solicitado.
-1. Clique na propriedade do Launch que pretende implementar no site.
+1. Vá para [experience.adobe.com](https://experience.adobe.com) e faça logon quando solicitado.
+1. Selecione **[!UICONTROL Launch / Data Collection]**.
+1. Clique em **[!UICONTROL Ir para Iniciar/Coleta de dados]** e selecione **[!UICONTROL Tags]**.
+1. Clique na propriedade de tag que você pretende implementar em seu site.
 1. Clique em **[!UICONTROL Criar nova regra]** e a nomeie como `Global Rule`.
 1. Clique em **[!UICONTROL Adicionar]** ao lado dos eventos e insira as seguintes configurações:
    * Extensão: principal
@@ -80,9 +89,9 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 ## Documentação e recursos adicionais
 
-* [Documentação de extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=pt-BR#extensions-ref): documentação completa específica para a extensão do Adobe Analytics no Adobe Experience Platform Launch.
-* [Introdução ao Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=pt-BR#get-started): documentação completa do Launch, incluindo um guia de introdução mais detalhado.
-* [Canal do Adobe Experience Platform Launch no](https://experienceleague.adobe.com?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform): saiba como usar o Launch por meio de vídeos
+* [Documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) da extensão do Adobe Analytics: Documentação completa específica para a extensão do Adobe Analytics nas tags.
+* [Introdução às tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Documentação completa para tags, incluindo um guia de introdução mais detalhado
+* [Canal](https://experienceleague.adobe.com?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform) Adobe Experience Platform Launch: Saiba como usar tags por meio de vídeos
 
 ## Próximas etapas
 
