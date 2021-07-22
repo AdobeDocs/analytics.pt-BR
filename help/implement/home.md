@@ -2,10 +2,10 @@
 title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 83%
 
 ---
 
@@ -28,16 +28,15 @@ O código JavaScript envia uma solicitação de imagem para os servidores de col
 
 O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicativo para enviar dados aos servidores de coleta de dados. Há vários métodos para implementar esse código, dependendo da plataforma e das necessidades da organização.
 
-* **Adobe Experience Platform Launch:** o método padrão e recomendado para implementar o Adobe Analytics. Coloque uma tag de carregamento em cada página e use a interface do Launch para determinar como cada variável é definida.
-* **Dynamic Tag Management**: o Dynamic Tag Management foi encerrado.
-* **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações do Launch usando regras com código personalizado.
+* **Tags Adobe Experience Platform**: O método padronizado e recomendado para implementar o Adobe Analytics. Coloque uma tag loader em cada página e use a interface do usuário da coleta de dados para determinar como cada variável é definida.
+* **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações de tags usando regras com código personalizado.
 * **SDK móvel**: bibliotecas dedicadas para enviar dados facilmente à Adobe a partir do aplicativo móvel.
 
 ## Artigos principais de implementação do Analytics
 
 * [Assumir o controle de uma implementação existente do Adobe Analytics](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Criar uma propriedade na Experience Platform Launch](launch/create-analytics-property.md)
+* [Criar uma propriedade de tag no Experience Platform](launch/create-analytics-property.md)
 * [Atualizações do AppMeasurement](appmeasurement-updates.md)
 
 ## Mais guias do usuário do Analytics
