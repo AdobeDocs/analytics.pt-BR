@@ -2,11 +2,10 @@
 title: Intensidade de cor
 description: A intensidade de cor do dispositivo.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ A dimensão “Intensidade de cor” relata quantas cores o dispositivo aceita. 
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa que traduz o valor de bits para um formato mais legível. Ele coleta dados da [`c` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement usa a variável `screen.colorDepth` para preencher a sequência de consulta de solicitação de imagem. Se você utilizar o AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `c` em cada ocorrência com um valor de bits válido.
+Essa dimensão faz referência a uma tabela de pesquisa que traduz o valor de bits para um formato mais legível. Ele coleta dados da [`c` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement usa a variável `screen.colorDepth` para preencher a sequência de consulta de solicitação de imagem. Se você usar o AppMeasurement (por exemplo, por meio de tags no Adobe Experience Platform), essa dimensão funcionará imediatamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `c` em cada ocorrência com um valor de bits válido.
 
 ## Itens de dimensão
 
