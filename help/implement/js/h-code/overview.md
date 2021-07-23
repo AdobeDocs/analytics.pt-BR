@@ -2,11 +2,10 @@
 title: Visão geral da implementação do JavaScript do Código H
 description: Saiba mais sobre o fluxo de trabalho para implementar o Código H no site.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Essa versão da coleta de dados não é mais compatível. Atualize para o [Adobe Experience Platform Launch](../../launch/overview.md) ou para o [AppMeasurement para JavaScript](../overview.md).
+>Essa versão da coleta de dados não é mais compatível. Atualize para [tags no Adobe Experience Platform](../../launch/overview.md) ou [AppMeasurement para JavaScript](../overview.md).
 
 É necessário ter acesso aos servidores de hospedagem para implementar com êxito uma página com código para coletar dados. As etapas a seguir oferecem orientações para a implementação básica do Código H do Analytics.
 
