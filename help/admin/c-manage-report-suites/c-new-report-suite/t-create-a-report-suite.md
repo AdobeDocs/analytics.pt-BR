@@ -3,10 +3,10 @@ description: Criar um contêiner básico para a coleta de dados no Adobe Analyti
 title: Criar um novo conjunto de relatórios
 feature: Ferramentas administrativas
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 65%
+source-wordcount: '376'
+ht-degree: 66%
 
 ---
 
@@ -47,4 +47,4 @@ Certifique-se de ter feito logon por meio do [Experience Cloud](https://experien
 
 ## Próximas etapas
 
-[Crie e configure uma propriedade para o Adobe Analytics no Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Criar uma área para gerenciar a implementação do Analytics
+[Criar uma propriedade de tag do Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Criar uma área para gerenciar a implementação do Analytics
