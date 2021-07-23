@@ -2,10 +2,10 @@
 description: Saiba como implementar a marcação de vários relatórios a fim de enviar uma solicitação de imagem para vários conjuntos de relatórios.
 title: Implementação de marcação de vários relatórios
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ A [marcação de vários relatórios](/help/admin/c-manage-report-suites/rollup-
 
 Para implementar a marcação de vários relatórios, você deve incluir a ID de conjunto de relatórios (RSID) para o conjunto de relatórios global e também as RSIDs para os conjuntos de relatórios secundários aplicáveis no código de rastreamento de suas páginas da web e aplicativos.
 
-* Para implementações do Adobe Experience Platform Launch, especifique cada um dos conjuntos de relatórios para a [[!DNL Analytics] extensão](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=pt-BR).
+* Para implementações de tags Adobe Experience Platform , especifique cada um dos conjuntos de relatórios para a [[!DNL Analytics] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 * Para implementações do JavaScript legado e do Mobile SDK, separe as RSIDs com vírgulas e sem espaços (`rsid1,rsid2,rsid3` e assim por diante).
 
