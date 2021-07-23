@@ -2,11 +2,10 @@
 title: Solução de problemas de implementações do Código H
 description: Saiba mais sobre alguns problemas comuns com implementações JavaScript herdadas.
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +17,7 @@ Veja a seguir as etapas de solução de problemas específicas das implementaç�
 
 >[!NOTE]
 >
->Embora as implementações do Código H exijam a referência ao código na tag `<body>`, outras implementações (como o uso do Adobe Experience Platform Launch) exigem a referência do código na tag `<head>`.
+>Embora as implementações do Código H exijam a referência ao código na tag `<body>` , outras implementações (como o uso de tags no Adobe Experience Platform) exigem a referência do código na tag `<head>` .
 
 O código do Analytics cria uma imagem invisível de 1x1 pixels. Anteriormente, uma prática comum de implementação era colocar a referência `s_code.js` na `<head>` tag. Colocar o código aqui impedia que a imagem afetasse o layout da página de qualquer forma. Além disso, ele é executado antes, permitindo a contagem de exibições de página para carregamentos parciais de página com mais eficiência.
 
