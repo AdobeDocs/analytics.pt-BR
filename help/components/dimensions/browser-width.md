@@ -2,11 +2,10 @@
 title: Largura do navegador - Classificada
 description: A largura da janela do navegador em pixels.
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +23,7 @@ A largura do navegador é sempre menor ou igual à largura da tela, já que a la
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`bw` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `window.innerWidth` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você utilizar um método de coleta de dados diferente do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `bw` na primeira ocorrência de cada visita.
+Essa dimensão recupera dados da [`bw` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `window.innerWidth` no navegador. Se você usar uma biblioteca do AppMeasurement (por meio de tags no Adobe Experience Platform), essa dimensão funcionará imediatamente. Se você utilizar um método de coleta de dados diferente do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `bw` na primeira ocorrência de cada visita.
 
 A Adobe mantém a largura do navegador para uma visita. Se a largura do navegador for ajustada no meio da visita, o ajuste não será registrado.
 
