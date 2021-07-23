@@ -2,10 +2,10 @@
 title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ Quando um visitante atinge um URL de opção de não participação, ele é soli
 
 A página de opção de não participação da organização depende do valor da variável [`trackingServer`](../vars/config-vars/trackingserver.md) na implementação.
 
-* No Adobe Experience Platform Launch:
-   1. Faça logon em [launch.adobe.com](https://launch.adobe.com) e clique na propriedade desejada.
-   2. Clique na guia [!UICONTROL Extensões] e, em seguida, clique em [!UICONTROL Configurar] no Adobe Analytics.
-   3. Clique na opção [!UICONTROL Geral] e observe o valor do [!UICONTROL Servidor de rastreamento].
+* Na interface do usuário da coleta de dados do Adobe Experience Platform:
+   1. Vá para `experience.adobe.com` e faça logon quando solicitado.
+   1. Selecione [!UICONTROL Launch / Data Collection].
+   1. Clique em [!UICONTROL Ir para Iniciar/Coleta de dados] e selecione [!UICONTROL Tags].
+   1. Clique na propriedade desejada.
+   1. Clique na guia [!UICONTROL Extensões] e, em seguida, clique em [!UICONTROL Configurar] no Adobe Analytics.
+   1. Clique na opção [!UICONTROL Geral] e observe o valor do [!UICONTROL Servidor de rastreamento].
 
 * Em uma implementação do JavaScript:
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
-   2. Observe o valor da variável `trackingServer`.
+   1. Observe o valor da variável `trackingServer`.
 
 * Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR):
    1. Navegue até seu site usando o navegador Chrome.
-   2. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
-   3. Observe o valor [!UICONTROL URL de solicitação - Nome do host].
+   1. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
+   1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].
 
 Depois de encontrar o domínio `trackingServer` da implementação, anexe o caminho `/optout.html` ao final. Por exemplo:
 
