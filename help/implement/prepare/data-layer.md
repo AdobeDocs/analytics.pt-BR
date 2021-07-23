@@ -2,11 +2,10 @@
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 86%
 
 ---
 
@@ -28,8 +27,8 @@ A implementação do Adobe Analytics usando uma camada de dados geralmente segue
    >
    >As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
 1. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
-1. **Usar o Adobe Experience Platform Launch para mapear objetos de camada de dados a elementos de dados do Launch**: crie elementos de dados no Launch e mapeie-os para os atributos JavaScript descritos na camada de dados.
-1. **Usar a extensão Adobe Analytics no Launch para mapear elementos de dados a variáveis do Analytics**: após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
+1. **Use tags Adobe Experience Platform para mapear objetos de camada de dados a elementos** de dados: Crie elementos de dados na interface do usuário da Coleta de dados no Adobe Experience Platform e mapeie-os para os atributos JavaScript descritos na camada de dados.
+1. **Use a extensão de tag do Adobe Analytics para mapear elementos de dados para variáveis** do Analytics: Após o documento de design da solução, atribua cada elemento de dados à variável adequada do Analytics.
 
 ## Especificações
 
@@ -177,4 +176,4 @@ As camadas de dados normalmente são geradas no lado do servidor, referenciando 
 
 ## Próximas etapas
 
-[Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md): use a camada de dados do site no Adobe Experience Platform Launch.
+[Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md): use a camada de dados do site no Adobe Experience Platform.
