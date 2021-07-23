@@ -5,10 +5,10 @@ title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de v
 feature: Configurações do Conjunto de relatórios
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 95%
+source-wordcount: '1756'
+ht-degree: 93%
 
 ---
 
@@ -101,7 +101,7 @@ Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de
    * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
    * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
-   * No Adobe Experience Platform Launch, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que você não queira mais usar.
+   * Na interface do usuário da Coleta de dados no Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que não deseja mais usar.
    * Em implementações JavaScript herdadas, localize a variável `s.account` e remova as IDs de conjunto de relatórios que você não deseja mais usar.
    * Em todos os casos, deixe apenas a ID do conjunto de relatórios global/principal para coletar dados para seus sites e aplicativos.
    * Navegue até Administração > Conjuntos de relatórios e oculte todos os conjuntos de relatórios secundários que não forem mais usados.
