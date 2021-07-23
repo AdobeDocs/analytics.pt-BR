@@ -2,11 +2,10 @@
 title: Java ativado
 description: Determina se o Java está ativado no navegador.
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +15,7 @@ A dimensão “Java ativado” determina se o navegador tem o Java ativado no mo
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`v` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados detectando se o Java está ativado no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `v` que contém “Y” ou “N” se quiser usar essa dimensão.
+Essa dimensão recupera dados da [`v` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados detectando se o Java está ativado no navegador. Se você usar uma biblioteca do AppMeasurement (por meio de tags no Adobe Experience Platform), essa dimensão funcionará imediatamente. Se você usar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `v` que contém “Y” ou “N” se quiser usar essa dimensão.
 
 ## Itens de dimensão
 
