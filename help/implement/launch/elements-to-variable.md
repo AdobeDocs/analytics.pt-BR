@@ -2,10 +2,10 @@
 title: Mapear elementos de dados de tag para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 76%
+source-wordcount: '505'
+ht-degree: 65%
 
 ---
 
@@ -30,16 +30,20 @@ Publicar uma biblioteca de tags após seguir essas etapas permite usar dimensõe
 
 As variáveis globais são ideais nos casos em que você deseja definir valores variáveis em todas as páginas em que o elemento de dados existe.
 
-1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
+1. Vá para `experience.adobe.com` e faça logon quando solicitado.
+1. Selecione [!UICONTROL Launch / Data Collection].
+1. Clique em [!UICONTROL Ir para Iniciar/Coleta de dados] e selecione [!UICONTROL Tags].
 1. Clique na propriedade de tag desejada.
 1. Clique na [!UICONTROL guia Extensões] e, em seguida, clique em [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Clique na opção [!UICONTROL Variáveis globais], que revela a interface para atribuir variáveis globais.
 
 ### Definir variáveis em regras
 
-As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=pt-BR) no guia do usuário do Adobe Experience Platform Launch.
+As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) na documentação da Coleta de dados do Adobe Experience Platform.
 
-1. Vá para [Adobe Experience Platform Launch](https://launch.adobe.com) e faça logon, se solicitado.
+1. Vá para `experience.adobe.com` e faça logon quando solicitado.
+1. Selecione [!UICONTROL Launch / Data Collection].
+1. Clique em [!UICONTROL Ir para Iniciar/Coleta de dados] e selecione [!UICONTROL Tags].
 1. Clique na propriedade de tag desejada.
 1. Clique na guia [!UICONTROL Regras] e, em seguida, clique na regra desejada (ou crie uma).
 1. Clique no botão [!UICONTROL Adicionar] em [!UICONTROL Ações].
