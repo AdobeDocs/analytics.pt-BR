@@ -2,11 +2,10 @@
 title: Resolução do monitor
 description: A resolução do monitor do visitante em pixels.
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +23,7 @@ As dimensões do navegador são sempre menores que a resolução do monitor, já
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`s` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `screen.width` e `screen.height` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio do Adobe Experience Platform Launch), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `s` em solicitações de imagem.
+Essa dimensão recupera dados da [`s` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `screen.width` e `screen.height` no navegador. Se você usar uma biblioteca do AppMeasurement (por meio de tags no Adobe Experience Platform), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `s` em solicitações de imagem.
 
 ## Itens de dimensão
 
