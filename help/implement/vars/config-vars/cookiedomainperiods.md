@@ -2,11 +2,10 @@
 title: cookieDomainPeriods
 description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 93%
 
 ---
 
@@ -27,14 +26,16 @@ A variável `cookieDomainPeriods` ajuda o AppMeasurement a determinar onde os co
 
 Pontos de domínio é um campo da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
-4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio].
+1. Vá para `experience.adobe.com` e faça logon quando solicitado.
+1. Selecione [!UICONTROL Launch / Data Collection].
+1. Clique em [!UICONTROL Ir para Iniciar/Coleta de dados] e selecione [!UICONTROL Tags].
+1. Clique na propriedade desejada.
+1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+1. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio].
 
 Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
-## s.cookieDomainPeriods no AppMeasurement e no editor de código personalizado do Launch
+## s.cookieDomainPeriods no AppMeasurement e no editor de código personalizado do 
 
 A variável `cookieDomainPeriods` é uma cadeia de caracteres normalmente definida como `"3"`, somente em domínios que contêm um ponto no sufixo. Seu valor padrão é `"2"`, que acomoda a maioria dos domínios.
 
