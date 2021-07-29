@@ -3,14 +3,14 @@ description: Implante o conector de dados do Kampyle no Adobe Analytics.
 title: Implantar a integração
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 45%
+source-wordcount: '448'
+ht-degree: 47%
 
 ---
 
-# Implantar a integração {#deploying-the-integration}
+# Implantar a integração{#deploying-the-integration}
 
 A implantação dessa integração é um processo simples que consiste em concluir o Assistente de integração do Adobe, implantar o código do plug-in (JavaScript) e verificar a integração.
 
@@ -19,7 +19,7 @@ A implantação dessa integração é um processo simples que consiste em conclu
 Para ativar a integração, conclua o assistente de configuração na interface do Data Connectors.
 
 1. Faça logon no [!DNL Adobe Experience Cloud].
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Data connectors]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Conectores de dados]**.
 1. Inicie o assistente de integração do Kampyle.
 1. Selecione o conjunto de relatórios desejado e forneça um nome para a integração.
 1. Configure os seguintes itens:
@@ -42,19 +42,19 @@ Após concluir o assistente de integração, implante o objeto de configuração
 
 >[!NOTE]
 >
->Se você usar o Adobe Experience Platform Launch, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
+>Se você usar tags no Adobe Experience Platform, poderá adicionar facilmente o objeto de configuração de integração por meio dessa ferramenta.
 
 1. Navegue até a guia **[!UICONTROL Recursos]** > **[!UICONTROL Suporte da integração]**.
-1. Baixe e salve o recurso **[!UICONTROL Código de integração do Kampyle (JS)]**. O código é semelhante a este:
+2. Baixe e salve o recurso **[!UICONTROL Código de integração do Kampyle (JS)]**. O código é semelhante a este:
 
    ```
    /* Kampyle:  Integration configuration settings */
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Implante o código usando um dos seguintes métodos:
+3. Implante o código usando um dos seguintes métodos:
 
-   * Use o Adobe Experience Platform Launch.
+   * Use tags no Adobe Experience Platform.
    * Forneça o código ao recurso organizacional que mantém a implantação do Adobe Analytics.
 
 ## Verificar a integração {#verify-the-integration}
