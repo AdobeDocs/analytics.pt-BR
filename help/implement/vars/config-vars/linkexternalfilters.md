@@ -2,11 +2,10 @@
 title: linkExternalFilters
 description: Use a variável linkExternalFilters para ajudar no rastreamento automático do link de saída.
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -22,18 +21,18 @@ Se essa variável tiver um valor, o rastreamento automático do link de saída s
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-## Links externos - Rastrear no Adobe Experience Platform Launch
+## Links de saída - Rastrear usando tags no Adobe Experience Platform
 
 O campo Rastrear é uma lista de filtros separados por vírgulas (geralmente domínios) da opção [!UICONTROL Rastreamento de links] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Links de saída - Rastrear].
 
 Coloque filtros que deseja sempre considerar como externos neste campo. Separe vários domínios por vírgula sem espaço.
 
-## s.linkExternalFilters no AppMeasurement e no editor de código personalizado do Launch
+## s.linkExternalFilters no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.linkExternalFilters` é uma cadeia de caracteres que contém filtros (como domínios) tidos como links de saída. Separe vários domínios usando uma vírgula sem espaços.
 
