@@ -2,11 +2,10 @@
 title: registerPreTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 90%
 
 ---
 
@@ -24,11 +23,11 @@ Cada vez que chama a variável `registerPreTrackCallback`, você faz com que ess
 >
 >O tempo e a ordem das funções disparadas entre `registerPreTrackCallback` e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Registrar retorno de chamada pré-rastreamento no Adobe Experience Platform Launch
+## Registrar retorno de chamada pré-rastreamento usando tags no Adobe Experience Platform
 
-Não há um campo dedicado no Launch para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado do Launch
+## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado do 
 
 `s.registerPreTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada antes do envio de uma solicitação de imagem.
 
