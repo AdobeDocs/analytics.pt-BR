@@ -2,10 +2,10 @@
 title: Mapear objetos de camada de dados para elementos de dados
 description: Configure tags para ler a partir da camada de dados.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 60%
+source-wordcount: '357'
+ht-degree: 61%
 
 ---
 
@@ -24,9 +24,7 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 [Os ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) elementos de dados são componentes na interface do usuário da Coleta de dados que você pode usar na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
-1. Vá para [experience.adobe.com](https://experience.adobe.com) e faça logon quando solicitado.
-1. Selecione **[!UICONTROL Launch / Data Collection]**.
-1. Clique em **[!UICONTROL Ir para Iniciar/Coleta de dados]** e selecione **[!UICONTROL Tags]**.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Adicionar elemento de dados]**.
 
