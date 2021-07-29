@@ -2,10 +2,10 @@
 title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -17,18 +17,18 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 >
 >Alterar esse valor faz com que o AppMeasurement procure cookies em um local diferente. A contagem de visitantes únicos pode aumentar temporariamente no relatório, já que os cookies de visitantes estão definidos para serem enviados ao novo local.
 
-## Servidor de rastreamento no Adobe Experience Platform Launch
+## Servidor de rastreamento usando tags no Adobe Experience Platform
 
 Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento].
 
 Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
-## s.trackingServer no AppMeasurement e no editor de código personalizado do Launch
+## s.trackingServer no AppMeasurement e no editor de código personalizado do 
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 
