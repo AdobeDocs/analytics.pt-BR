@@ -2,11 +2,10 @@
 title: Util.getQueryParam
 description: Retorna o valor de um parâmetro da string de consulta.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 Parâmetros de string de consulta em um URL do navegador frequentemente contêm dados importantes para o Analytics. Use o método `Util.getQueryParam()` para recuperar dados da string de consulta.
 
-## Obter dados de parâmetro da string de consulta no Adobe Experience Platform Launch
+## Obter dados de parâmetro da string de consulta usando tags no Adobe Experience Platform
 
 É possível obter dados de parâmetro da string de consulta definindo valores em elementos de dados.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
 4. Defina a lista suspensa [!UICONTROL Extensão] como [!UICONTROL Principal] e o [!UICONTROL Tipo de elemento de dados] como [!UICONTROL Parâmetro de string de consulta].
@@ -26,7 +25,7 @@ Parâmetros de string de consulta em um URL do navegador frequentemente contêm 
 
 O valor do parâmetro da string de consulta é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir variáveis do Analytics.
 
-## s.Util.getQueryParam() no AppMeasurement e no editor de código personalizado do Launch
+## s.Util.getQueryParam() no AppMeasurement e no editor de código personalizado do 
 
 Chame o método `s.Util.getQueryParam()` para recuperar um valor de string de consulta do URL do navegador. O argumento de string que contém um parâmetro de string de consulta é obrigatório. Esse método retorna uma string, que pode ser atribuída às variáveis do Analytics:
 
