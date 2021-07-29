@@ -2,11 +2,10 @@
 title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
 
@@ -14,18 +13,18 @@ ht-degree: 100%
 
 A função `s_gi()` instancia ou encontra uma instância do AppMeasurement pelo ID de conjunto de relatórios. O AppMeasurement acompanha cada instância criada e `s_gi()` retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada.
 
-## s_gi() no Adobe Experience Platform Launch
+## s_gi() usando tags no Adobe Experience Platform
 
 A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, também é possível definir um objeto de rastreamento global na opção [!UICONTROL Gerenciamento de biblioteca] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Gerenciamento de biblioteca] e selecione qualquer botão de opção diferente de [!UICONTROL Gerenciar a biblioteca para mim].
 
 O campo de texto da variável global permite definir um objeto de rastreamento personalizado. O valor padrão é `s`.
 
-## s_gi() no AppMeasurement e no editor de código personalizado do Launch
+## s_gi() no AppMeasurement e no editor de código personalizado do 
 
 Chame a função `s_gi()` para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas com IDs de conjuntos de relatórios. O argumento ID de conjunto de relatórios é obrigatório.
 
