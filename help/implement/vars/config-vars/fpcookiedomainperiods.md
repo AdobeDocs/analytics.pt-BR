@@ -2,11 +2,10 @@
 title: cookieDomainPeriods
 description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 91%
 
 ---
 
@@ -21,18 +20,18 @@ A variável `fpCookieDomainPeriods` ajuda o AppMeasurement a determinar onde os 
 >
 >Não considere subdomínios para essa variável. Por exemplo, não defina `fpCookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
-## Períodos de domínio primários no Adobe Experience Platform Launch
+## Períodos de domínio primários usando tags no Adobe Experience Platform
 
 Pontos de domínio primários é um campo da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio primários].
 
 Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
-## s.fpCookieDomainPeriods no AppMeasurement e no editor de código personalizado do Launch
+## s.fpCookieDomainPeriods no AppMeasurement e no editor de código personalizado do 
 
 A variável `fpCookieDomainPeriods` é uma cadeia de caracteres normalmente definida como `"3"`, somente em domínios que contêm um ponto no sufixo. Seu valor padrão é `"2"`, que acomoda a maioria dos domínios.
 
