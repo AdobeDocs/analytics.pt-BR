@@ -2,10 +2,10 @@
 title: visitorID
 description: Use uma ID de visitante personalizada.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 91%
 
 ---
 
@@ -17,18 +17,18 @@ A Adobe usa vários métodos diferentes para identificar visitantes em seu site.
 >
 >A Adobe recomenda não usar essa variável. Em vez disso, use o [Serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
-## ID de visitante no Adobe Experience Platform Launch
+## ID de visitante usando tags no Adobe Experience Platform
 
 [!UICONTROL ID de visitante] é um campo da opção [!UICONTROL Cookies] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL ID de visitante].
 
 Atribua esse campo ao elemento de dados que contém sua ID de visitante personalizada. Não defina esse campo como um valor estático.
 
-## s.visitorID no AppMeasurement e no editor de código personalizado do Launch
+## s.visitorID no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.visitorID` é uma string que contém um identificador exclusivo personalizado para o visitante. Valores válidos incluem caracteres alfanuméricos de até 100 bytes. Evite usar traços, espaços, sublinhados ou símbolos nessa variável.
 
