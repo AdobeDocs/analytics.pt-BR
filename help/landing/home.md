@@ -2,10 +2,10 @@
 title: Guias de documentação técnica do Adobe Analytics
 description: Guias e recursos do usuário do Analytics
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Bem-vindo à página inicial da documentação técnica e do produto Adobe Analy
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md) [Guia de administração](/help/admin/home.md) – saiba mais sobre gerenciamento de usuários e produtos no Experience Cloud Admin Console, configuração de conjuntos de relatórios, configurações da empresa, governança de dados, uso de chamadas do servidor, gerenciamento de tráfego e muito mais.
 
-[![Implementação](assets/implement_50px.png)](/help/implement/home.md) [Guia de Implementação](/help/implement/home.md) – Personalize quais dados são coletados e obtenha mais do Adobe Analytics. Inclui conteúdo das implementações do [!UICONTROL Adobe Experience Platform Launch] e do JavaScript.
+[![Implementação](assets/implement_50px.png)](/help/implement/home.md) [Guia de Implementação](/help/implement/home.md) – Personalize quais dados são coletados e obtenha mais do Adobe Analytics. Inclui o uso de tags em implementações de Adobe Experience Platform e JavaScript.
 
 [![Componentes](assets/components_50px.png)](/help/components/home.md) [Guia de Componentes](/help/components/home.md) – Entenda os recursos que ajudam a organizar seus dados. Os componente incluem segmentos, métricas calculadas, conjuntos de relatório virtuais, alertas e mais. Este guia também inclui uma referência variável, explicando todas as dimensões e métricas disponíveis.
 
@@ -27,9 +27,9 @@ Bem-vindo à página inicial da documentação técnica e do produto Adobe Analy
 
 [![Integração](assets/integrate_50px.png)](/help/integrate/home.md) [Guia de integração](/help/integrate/home.md) – configure as integrações com outras soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) [Guia do Streaming Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) – Implementar Adobe Analytics para streaming de mídia. Inclui o SDK de mídia e a API de coleta de mídia.
+[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) [Guia do Streaming Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – Implementar Adobe Analytics para streaming de mídia. Inclui o SDK de mídia e a API de coleta de mídia.
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=pt-BR) [Guias da Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=pt-BR) – saiba mais sobre os recursos altamente flexíveis, eficientes e de vários canais da [!UICONTROL Data Workbench]. Inclui [!UICONTROL Cliente da Data Workbench], Instalação, guias de [!UICONTROL Configuração de conjuntos de dados] e muito mais.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=pt-BR) [Guias da Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – saiba mais sobre os recursos altamente flexíveis, eficientes e de vários canais da [!UICONTROL Data Workbench]. Inclui [!UICONTROL Cliente da Data Workbench], Instalação, guias de [!UICONTROL Configuração de conjuntos de dados] e muito mais.
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas do Analytics](/help/technotes/home.md) – Uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou a um componente de análise específico.
 
