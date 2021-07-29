@@ -5,10 +5,10 @@ uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
 role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 61%
+source-wordcount: '111'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ O Activity Map é compatível com os seguintes navegadores da Web.
 |--- |--- |
 | Internet Explorer | Última versão |
 | Firefox | Última versão |
-| Chrome | Última versão. Observação:  O Activity Map Chrome plug-in é um plug-in de &quot;modo desenvolvedor&quot; somente neste momento. Ao iniciar esse plug-in, você receberá uma mensagem que incentiva a desativar as extensões do modo desenvolvedor. Essa mensagem será exibida sempre que o plug-in for iniciado. |
+| Chrome | Última versão. Observação:  O Activity Map Chrome plug-in é um plug-in de &quot;modo desenvolvedor&quot; somente neste momento. Ao iniciar esse plug-in, você recebe uma mensagem que incentiva a desativar as extensões do modo desenvolvedor. Essa mensagem é exibida sempre que o plug-in é iniciado. |
 
 >[!NOTE]
 >
