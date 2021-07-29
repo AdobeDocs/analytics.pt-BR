@@ -2,11 +2,10 @@
 title: prop
 description: Variáveis personalizadas que podem ser usadas na implementação.
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -22,11 +21,11 @@ As props são variáveis personalizadas que podem ser usadas da maneira que voc�
 
 Se você tiver um [documento de design de solução](/help/implement/prepare/solution-design.md), será possível alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende de seu contrato com a Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe permitir.
 
-## Props no Adobe Experience Platform Launch
+## Props que usam tags no Adobe Experience Platform
 
 Você pode definir props ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
@@ -35,7 +34,7 @@ Você pode definir props ao configurar a extensão do Analytics (variáveis glob
 
 Você pode definir uma prop a um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
 
-## s.prop1 e s.prop75 no AppMeasurement e no editor de código personalizado do Launch
+## s.prop1 e s.prop75 no AppMeasurement e no editor de código personalizado do 
 
 Cada variável de prop é uma string que contém valores personalizados específicos para sua organização. O comprimento máximo delas é de 100 bytes; valores com mais de 100 bytes são truncados automaticamente quando enviados para a Adobe.
 
