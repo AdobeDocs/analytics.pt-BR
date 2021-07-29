@@ -2,11 +2,10 @@
 title: eVar
 description: Variáveis personalizadas que podem ser usadas na implementação.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ O número de eVars disponíveis depende do seu contrato com a Adobe. Até 250 eV
 
 Antes de usar eVars na implementação, certifique-se de configurar cada eVar nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
-## eVars no Adobe Experience Platform Launch
+## eVars usando tags no Adobe Experience Platform
 
 É possível definir eVars ao configurar a extensão do Analytics (variáveis globais) ou em regras.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
@@ -35,7 +34,7 @@ Antes de usar eVars na implementação, certifique-se de configurar cada eVar na
 
 Você pode definir uma eVar para um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
 
-## s.eVar1 e s.eVar250 no AppMeasurement e no editor de código personalizado do Launch
+## s.eVar1 e s.eVar250 no AppMeasurement e no editor de código personalizado do 
 
 Cada eVar é uma string que contém valores personalizados específicos para sua organização. O comprimento máximo delas é de 255 bytes; valores com mais de 255 bytes são truncados automaticamente quando enviados para a Adobe.
 
