@@ -2,9 +2,9 @@
 title: Permissões de perfil de produto para as Ferramentas do Analytics
 description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso a recursos no Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Item de permissão das Ferramentas do Analytics | Descrição |
 |----|----|
 | [!UICONTROL Uso de chamadas do servidor] | Concede acesso a Administração > Uso de chamada do servidor. |
-| [!UICONTROL Gerenciador de código] | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na Coleta de dados do Adobe Experience Platform. |
+| [!UICONTROL Gerenciador de código] | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na interface do usuário da coleção de dados. |
 | [!UICONTROL Gerenciador de código - Serviços da Web] | Concede acesso ao Gerenciador de código por meio da API 1.4. |
 | [!UICONTROL Logs] | Concede acesso a Administrador > Todos os administradores > Logs. |
 | [!UICONTROL Logs - Serviços da Web] | Concede acesso a registros de extração por meio da API 1.4. |
