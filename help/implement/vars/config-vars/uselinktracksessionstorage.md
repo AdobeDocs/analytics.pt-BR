@@ -2,11 +2,10 @@
 title: useLinkTrackSessionStorage
 description: Armazene dados de rastreamento de link no armazenamento da sessão em vez de um cookie.
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +24,11 @@ O uso do armazenamento de sessão de um navegador para o rastreamento de link ap
 
 O AppMeasurement remove os dados de rastreamento do link do armazenamento da sessão após enviar uma ocorrência para a Adobe. Ela também expira automaticamente quando a guia do navegador é fechada.
 
-## Usar o armazenamento de sessão de rastreamento de link no Adobe Experience Platform Launch
+## Usar o armazenamento de sessão de rastreamento de link usando tags no Adobe Experience Platform
 
-Não há um campo dedicado no Launch para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado do Launch
+## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.useLinkTrackSessionStorage` é um booleano que determina se o AppMeasurement usa o armazenamento de sessão para dados de rastreamento de link em vez do cookie `s_sq`. O valor padrão é `false`. Defina essa variável como `true` se você deseja que o AppMeasurement use o armazenamento de sessão em vez do cookie `s_sq` para rastreamento de link e Activity Map.
 
