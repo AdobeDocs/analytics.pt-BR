@@ -2,11 +2,10 @@
 title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 84%
 
 ---
 
@@ -20,21 +19,21 @@ Plug-ins são trechos de código que executam várias funções avançadas que a
 
 A Adobe oferece várias maneiras de instalar um determinado plug-in:
 
-1. Usar a extensão &quot;Plug-ins comuns do Analytics&quot; do Adobe Experience Platform Launch.
-2. Colar o código do plug-in usando o editor de código personalizado do Launch.
+1. Usar a extensão &quot;Plug-ins comuns do Analytics&quot; com tags no Adobe Experience Platform
+2. Colar o código do plug-in usando o editor de código personalizado do 
 3. Colar o código do plug-in no seu arquivo `AppMeasurement.js`.
 
 Cada organização tem necessidades de implementação diferentes, de modo que você pode decidir como deseja incluí-los na implementação. Certifique-se de atender aos seguintes critérios ao incluir o código em seu site:
 
 1. Instancie o objeto de rastreamento do Analytics (usando [`s_gi`](../functions/s-gi.md)) primeiro.
-   * O Launch instancia automaticamente o objeto de rastreamento quando o Adobe Analytics é carregado.
+   * Seu site habilitado para tags instancia automaticamente o objeto de rastreamento quando o Adobe Analytics é carregado.
    * Implementações que usam `AppMeasurement.js` geralmente inicializam o objeto de rastreamento na parte superior do arquivo JavaScript.
 2. Como segundo passo, inclua o código do plug-in.
    * A extensão &quot;Plug-ins comuns do Analytics&quot; tem uma configuração de ação com a qual você pode inicializar plug-ins.
    * Se você não quiser usar a extensão, é possível colar o código do plug-in no editor de código personalizado ao configurar a extensão do Analytics.
-   * Se sua implementação não usar o Launch, você poderá colar o código do plug-in no `AppMeasurement.js` em qualquer lugar depois de instanciar o objeto de rastreamento.
+   * Se sua implementação não usar tags no Adobe Experience Platform, você poderá colar o código do plug-in em `AppMeasurement.js` em qualquer lugar depois de instanciar o objeto de rastreamento.
 3. Como terceiro passo, chame o plug-in.
-   * Todas as implementações, dentro e fora do Launch, usam JavaScript para chamar plug-ins. Chame o plug-in usando o formato documentado na página desse plug-in.
+   * Todas as implementações, dentro e fora de um site habilitado para tags, usam o JavaScript para chamar plug-ins. Chame o plug-in usando o formato documentado na página desse plug-in.
 4. Valide sua implementação e publique.
 
 Muitas organizações chamam plug-ins usando a função [`doPlugins`](../functions/doplugins.md). Embora essa função não seja necessária, a Adobe considera usá-la uma prática recomendada. O AppMeasurement chama essa função antes de compilar e enviar uma solicitação de imagem, o que é ideal, pois vários plug-ins dependem de outras variáveis do Analytics.
