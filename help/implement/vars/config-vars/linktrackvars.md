@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: Especifique quais variáveis incluir nas solicitações de imagem de rastreamento de link.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ Algumas implementações não querem incluir todas as variáveis em todas as sol
 
 Essa variável não é usada para chamadas de exibição de página (método [`t()`](../functions/t-method.md)).
 
-## Variáveis em chamadas de rastreamento de link que usam o Adobe Experience Platform Launch
+## Variáveis em chamadas de rastreamento de link usando tags no Adobe Experience Platform
 
-O Launch preenche automaticamente essa variável no backend com base nas variáveis definidas na interface, de modo que ela seja sempre definida nas implementações usando o Launch.
+O Adobe Experience Platform preenche automaticamente essa variável no backend com base nas variáveis definidas na interface, de modo que ela sempre seja definida nas implementações usando tags no Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Se você definir variáveis no Launch usando o editor de código personalizado, também deverá incluir a variável no `linkTrackVars` usando o código personalizado.
+>Se você definir variáveis usando o editor de código personalizado, também deverá incluir a variável em `linkTrackVars` usando o código personalizado.
 
-## s.linkTrackVars no AppMeasurement e no editor de código personalizado do Launch
+## s.linkTrackVars no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.linkTrackVars` é uma cadeia de caracteres quem contém uma lista de variáveis delimitada por vírgulas que você deseja incluir nas solicitações de imagem de rastreamento de link (método `tl()`). Ambos os critérios a seguir devem ser atendidos para incluir dimensões nas ocorrências de rastreamento de link:
 
