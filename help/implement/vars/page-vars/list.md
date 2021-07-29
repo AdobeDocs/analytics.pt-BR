@@ -2,11 +2,10 @@
 title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -24,11 +23,11 @@ Certifique-se de registrar a forma como você usa cada variável de lista e a l�
 
 Certifique-se de configurar cada variável de lista nas configurações do conjunto de relatórios antes de usá-las na implementação. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/list-var-admin.md) no Guia de administração.
 
-## Variáveis de lista no Adobe Experience Platform Launch
+## Variáveis de lista usando tags no Adobe Experience Platform
 
-Não há um campo dedicado no Launch para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do Launch
+## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do 
 
 Cada variável de lista é uma string que contém valores personalizados específicos para sua organização. Elas não têm uma contagem máxima de bytes; no entanto, cada valor individual tem no máximo 255 bytes. O delimitador usado é determinado quando se configura a variável nas configurações do conjunto de relatórios. Não use espaços ao delimitar vários itens.
 
