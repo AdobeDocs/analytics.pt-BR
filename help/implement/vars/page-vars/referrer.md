@@ -2,11 +2,10 @@
 title: referenciador
 description: Substitua o referenciador coletado automaticamente em uma ocorrência.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 A variável `referrer` substitui o referenciador coletado automaticamente nos relatórios. Essa variável é útil em situações em que o referenciador pode ser perdido, como durante redirecionamentos ou no encaminhamento temporário do visitante a um processador de pagamento. Essa variável ajuda a preencher as dimensões &quot;Referenciador&quot; e &quot;Domínio de referência&quot;.
 
-## Referenciador no Adobe Experience Platform Launch
+## Referenciador que usa tags no Adobe Experience Platform
 
 Você pode definir o referenciador ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
@@ -27,7 +26,7 @@ Você pode definir o referenciador ao configurar a extensão do Analytics (vari�
 
 É possível atribuir ao referenciador qualquer valor de string, incluindo elementos de dados.
 
-## s.referrer no AppMeasurement e no editor de código personalizado do Launch
+## s.referrer no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.referrer` é uma string que contém o URL da página anterior. Essa variável pode armazenar no máximo 255 bytes; valores maiores que 255 bytes são truncados. O AppMeasurement define essa variável automaticamente como `document.referrer`; não é necessário definir essa variável, a menos que você deseje substituir o valor coletado automaticamente.
 
