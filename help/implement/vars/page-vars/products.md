@@ -2,11 +2,10 @@
 title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +17,18 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 >
 >Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na variável [`events`](events/events-overview.md), a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina o evento do carrinho de compras apropriado em cada ocorrência com a variável `products`.
 
-## Produtos no Adobe Experience Platform Launch
+## Produtos que usam tags no Adobe Experience Platform
 
-Não há um campo dedicado no Launch para definir essa variável; no entanto, várias extensões de terceiros podem ajudar.
+Não há um campo dedicado na interface do usuário da coleta de dados para definir essa variável; no entanto, existem várias extensões de terceiros para ajudar.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique em [!UICONTROL Catálogo] para ver todas as extensões disponíveis.
 4. Pesquise usando o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
 
 Você pode usar uma dessas extensões ou usar o editor de código personalizado abaixo, que está após a sintaxe do AppMeasurement.
 
-## s.products no AppMeasurement e no editor de código personalizado do Launch
+## s.products no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.products` é uma string que contém vários campos delimitados por produto. Cada produto individual pode conter até 100 bytes em todos os campos. Delimite cada campo com um ponto e vírgula (`;`) na string.
 
