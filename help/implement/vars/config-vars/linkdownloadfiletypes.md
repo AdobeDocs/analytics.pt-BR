@@ -2,11 +2,10 @@
 title: linkDownloadFileTypes
 description: Determine as extensões de arquivo que são automaticamente rastreadas como links de download.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -24,23 +23,25 @@ Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja
 > * Downloads acionados após um redirecionamento
 > * Clicar com o botão direito do mouse e selecionar &#39;Salvar destino como...&#39;
 > * Links que usam JavaScript, como `javascript:openLink()`
+
 >
-> Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
+> 
+Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
 
 Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-## Baixar extensões no Adobe Experience Platform Launch
+## Baixar extensões usando tags no Adobe Experience Platform
 
 Baixar extensões é uma lista de extensões de arquivo com um campo para adicionar mais na opção [!UICONTROL Rastreamento de link] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Baixar extensões].
 
 Adicione extensões de arquivo à lista inserindo texto no campo e clicando em [!UICONTROL Adicionar]. Remova as extensões de arquivo da lista clicando no ícone &#39;X&#39; correspondente.
 
-## s.linkDownloadFileTypes no AppMeasurement e no editor de código personalizado do Launch
+## s.linkDownloadFileTypes no AppMeasurement e no editor de código personalizado do 
 
 A variável `s.linkDownloadFileTypes` é uma cadeia de caracteres de extensões de arquivo separadas por vírgulas. Não use espaços.
 
