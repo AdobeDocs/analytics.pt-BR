@@ -2,10 +2,10 @@
 title: websiteBot
 description: Identifique os bots dinamicamente usando o movimento do mouse.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 91%
 
 ---
 
@@ -24,8 +24,8 @@ Esse plug-in executa duas verificações:
 
 Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in poderá
 
-* fazer uma chamada de [!UICONTROL Regra de chamada direta] (para Adobe Experience Platform Launch) ou
-* fazer uma chamada `s.tl` para indicar que o visitante não é um bot.
+* Faça uma chamada de regra de chamada direta usando tags no Adobe Experience Platform ou
+* Faça uma chamada de rastreamento de link para indicar que o visitante não é um bot.
 
 ## Pré-requisitos
 
@@ -34,12 +34,12 @@ A Adobe recomenda o seguinte antes de usar este plug-in:
 * **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Definir a expiração como **Nunca** ou **Visitar** e a alocação como **&quot;Valor original (primeiro)&quot;**. Esse eVar deverá ser definido em ambas as circunstâncias: quando a regra de chamada direta [!UICONTROL prevalecer] ou quando a chamada `s.tl` for efetuada.
 * **Coletar agente do usuário em uma variável separada**: colete a sequência de agente do usuário em uma variável separada para monitorar a eficácia desse plug-in. Configure uma eVar como `navigator.UserAgent` em cada hit para coletar esses dados.
 
-## Instale o plug-in usando o editor de código personalizado do Launch
+## Instale o plug-in usando o editor de código personalizado do 
 
 1. Adicione uma nova regra `websiteBot`.
 1. Adicione um evento **Ouvinte de movimentação do mouse** à regra `websiteBot`, com este código personalizado:
 
-   ```
+   ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
     document.removeEventListener('mousemove', detectMouseMove, false);   
     if (!
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3 de junho de 2021)
 
 * Código de plug-in do AppMeasurement atualizado
-* Seção Inicialização atualizada com instruções expandidas.
+* Atualização da seção do editor de código personalizado com instruções expandidas.
 * Seção &quot;Usar o plug-in&quot; atualizada.
