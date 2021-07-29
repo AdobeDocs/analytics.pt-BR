@@ -2,9 +2,9 @@
 title: Validar uma implementação de desenvolvimento e publicar na produção
 description: Saiba como usar tags Adobe Experience Platform para implantar o Adobe Analytics no ambiente de produção.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 64%
 
 ---
@@ -35,9 +35,7 @@ O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da 
 
 Após a validação dos dados, você pode enviar a implementação para a versão ao vivo do site.
 
-1. Vá para [experience.adobe.com](https://experience.adobe.com) e faça logon quando solicitado.
-1. Selecione **[!UICONTROL Launch / Data Collection]**.
-1. Clique em **[!UICONTROL Ir para Iniciar/Coleta de dados]** e selecione **[!UICONTROL Tags]**.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade de tag que você pretende implementar em seu site.
 1. Clique na guia **[!UICONTROL Publishing]** e localize a biblioteca na coluna de desenvolvimento.
 1. Clique na lista suspensa da biblioteca e selecione **[!UICONTROL Enviar para aprovação]**. Clique em **[!UICONTROL Enviar]** na janela modal.
