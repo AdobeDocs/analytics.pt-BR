@@ -2,11 +2,10 @@
 title: t
 description: Envie uma chamada de rastreamento de exibição de página para a Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 A Adobe recebe a solicitação de imagem e analisa o cabeçalho da solicitação, o URL e os parâmetros da string de consulta. Os servidores de coleta de dados retornam uma imagem transparente com 1x1 pixels, exibida de maneira invisível em seu site.
 
-## Chamada de rastreamento de exibição de página no Adobe Experience Platform Launch
+## Chamada de rastreamento de exibição de página usando tags no Adobe Experience Platform
 
-O Launch tem um local dedicado definido para uma chamada de rastreamento de exibição de página.
+A interface do usuário da Coleta de dados tem um local dedicado definido para uma chamada de rastreamento de exibição de página.
 
-1. Faça logon em [launch.adobe.com](https://launch.adobe.com) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”.
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
 6. Clique no botão de opção `s.t()`.
 
-## Método s.t() no AppMeasurement e no editor de código personalizado do Launch
+## Método s.t() no AppMeasurement e no editor de código personalizado do 
 
 Chame o método `s.t()` quando quiser enviar uma chamada de rastreamento para a Adobe.
 
