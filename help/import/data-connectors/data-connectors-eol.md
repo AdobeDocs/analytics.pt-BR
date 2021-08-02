@@ -2,10 +2,10 @@
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor solução analítica de marketing na Web para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para fornecer e atender continuamente os mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna da tecnologia do Adobe Analytics.
 
-**A partir de 1º de agosto de 2021**, a Adobe pretende descontinuar as integrações dos Data Connectors. O fim da vida útil faz parte do ciclo de vida de qualquer produto tecnológico, e a Adobe visa tornar a transição o mais simples possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar sendo usadas.
+**A partir de 1º de agosto de 2021**, o Adobe descontinuou as Integrações dos Data Connectors. O fim da vida útil faz parte do ciclo de vida de qualquer produto tecnológico, e a Adobe visa tornar a transição o mais simples possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar sendo usadas.
 
 ## Por que vamos acabar com esse recurso?
 
@@ -30,6 +30,8 @@ A cada empresa que oferecia uma integração foi dada a opção de migrar sua in
 Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao cliente da Adobe.
 
 ## Status do parceiro do conector de dados
+
+*Última atualização: 2 de agosto de 2021 (Hootsuite)*
 
 | Parceiro | Status |
 | --- | --- |
@@ -74,7 +76,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Fiksu | Substituição |
 | ForeSee (v2.0), Prever Feedback, Prever Resultados | Substituição |
 | Gigya | Substituição |
-| Hootsuite | Substituição |
+| Hootsuite | Migração para o Exchange |
 | hybris | Substituição |
 | Kampyle (agora Medallia) Feedback Analytics (1.1) | Substituição |
 | Listrak | Migração para o Exchange |
