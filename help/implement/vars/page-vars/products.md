@@ -2,10 +2,10 @@
 title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 
 >[!NOTE]
 >
->Se essa variável for definida em uma ocorrência sem um evento de carrinho de compras na variável [`events`](events/events-overview.md), a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina o evento do carrinho de compras apropriado em cada ocorrência com a variável `products`.
+>Se essa variável for definida em uma ocorrência sem a variável [`events`](events/events-overview.md), a métrica [Exibições do produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products` .
 
 ## Produtos que usam tags no Adobe Experience Platform
 
