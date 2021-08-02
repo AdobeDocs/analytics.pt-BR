@@ -6,10 +6,10 @@ title: Referência da coluna de dados
 feature: Noções básicas do Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '3405'
-ht-degree: 100%
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+workflow-type: tm+mt
+source-wordcount: '3409'
+ht-degree: 99%
 
 ---
 
@@ -168,7 +168,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `prev_page` | Não usado. Identificador proprietário da Adobe da página anterior. | int unsigned |
 | `product_list` | Lista de produtos conforme enviado por meio da variável [`products`](/help/implement/vars/page-vars/products.md). Produtos são delimitados por vírgulas, propriedades de produtos individuais são delimitados por ponto e vírgula. | texto |
 | `product_merchandising` | Não usado. Use `product_list` no lugar dela. | texto |
-| `prop1` - `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` -  `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador exclusivo de uma compra, definido usando a variável [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Usado pela coluna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
 | `ref_domain` | Com base na coluna referrer. O domínio de referência da ocorrência. Usado na dimensão [Domínio referenciador](/help/components/dimensions/referring-domain.md). | varchar(100) |
@@ -274,7 +274,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `visit_referrer` | O primeiro referenciador da visita. | varchar(255) |
 | `visit_search_engine` | ID numérica do primeiro mecanismo de pesquisa da ocorrência. Usa a pesquisa `search_engines.tsv`. | smallint unsigned |
 | `visit_start_page_url` | O primeiro URL da visita. | varchar(255) |
-| `visit_start_pagename` | Nome da primeira página da visita. | varchar(100) |
+| `visit_start_pagename` | O valor do Nome da página na primeira ocorrência da visita. | varchar(100) |
 | `visit_start_time_gmt` | Carimbo de data e hora (em horário Unix) da primeira ocorrência da visita. | int |
 | `weekly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante semanal. | tinyint unsigned |
 | `yearly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante anual. | tinyint unsigned |
