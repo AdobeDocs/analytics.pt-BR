@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -102,6 +102,7 @@ ht-degree: 100%
    + [Código postal](dimensions/zip-code.md)
 + Métricas {#metrics}
    + [Visão geral das métricas](metrics/overview.md)
+   + [Contar instâncias repetidas](metrics/count-repeat-instances.md)
    + [Profundidade média da página](metrics/average-page-depth.md)
    + [Média de exibições de página por visita](metrics/average-page-views-per-visit.md)
    + [Duração média da sessão](metrics/average-session-length.md)
