@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Arquivos de dados de classificação
 feature: Ferramentas administrativas
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -178,6 +178,9 @@ As [!UICONTROL classificações] podem ser usadas para atribuir intervalos de d
 * O intervalo de datas envolvido deve conter uma data de início e uma data de término (opcional).
 
 Para classificar campanhas baseadas em intervalo de datas:
+
+>[!IMPORTANT]
+>Essa opção não está disponível para conjuntos de relatórios habilitados para a Nova arquitetura de classificação.
 
 1. Faça logon em [!DNL Analytics] Admin > Classificações.
 1. Clique na guia **[!UICONTROL Exportação de navegador]**, certifique-se de que as configurações da sua classificação habilitada para data estão corretas e, em seguida, clique em Exportar arquivo.
