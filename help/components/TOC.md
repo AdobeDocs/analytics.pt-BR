@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
-source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 99%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 99%
       + [Importação de navegador](classifications/importer/browser-import.md)
       + [Exportação de navegador](classifications/importer/browser-export.md)
       + [Importação de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [Exportação de FTP](classifications/importer/ftp-export.md)
       + [Tempo de processamento](classifications/importer/processing-time.md)
       + [Solução de problemas](classifications/importer/troubleshooting.md)
    + Criador de regras de classificação {#classifications-rulebuilder}
