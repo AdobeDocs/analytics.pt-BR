@@ -2,11 +2,10 @@
 title: Como o Tempo gasto é calculado no Adobe Analytics
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1557'
-ht-degree: 100%
+source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
+workflow-type: tm+mt
+source-wordcount: '1581'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +21,7 @@ Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos p
 | [!UICONTROL Tempo gasto por visita] (segundos) | *Tempo total gasto / (rejeições de visita)*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Tempo gasto por visitante] (segundos) | *Segundos totais gastos / visitante único*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não está limitado a médias de “site” como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Reports &amp; Analytics (mostrado em minutos), Report Builder (mostrado em minutos) |
+| [!UICONTROL Tempo médio no site] | Essa é a mesma métrica que *Tempo médio gasto no site (Segundos)*, exceto formatada como Tempo (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, é recomendado usar &quot;Tempo médio gasto no site&quot; se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
 | [!UICONTROL Duração total da sessão], também chamado de [!UICONTROL Duração da sessão anterior] | Somente SDK do aplicativo para dispositivo móvel. <br>Determinada na próxima vez que o aplicativo for inicializado, para a sessão anterior. Calculado em segundos, esta métrica não contabiliza quando o aplicativo está em segundo plano, somente quando está em uso. Esta é uma métrica em nível de sessão.<br>Exemplo: você instala o aplicativo ABC e o inicializa; em seguida, usa o aplicativo por 2 minutos e o fecha. Nenhum dado é enviado sobre este tempo de sessão. Na próxima vez que inicializarmos o aplicativo, a [!UICONTROL Duração da sessão anterior] será enviada com um valor de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Interface do usuário do Mobile Services |
 | [!UICONTROL Duração média da sessão] (dispositivos móveis) | *Duração total da sessão / (Inicializações - Primeiras inicializações)*<br> Somente SDK do aplicativo móvel. Esta é uma métrica em nível de sessão. | Report Builder, interface do usuário do Mobile Services |
@@ -108,18 +108,18 @@ Como resultado, essas métricas também podem fornecer resultados semelhantes em
 
 Suponha que o seguinte conjunto de chamadas de servidor seja para um único visitante em uma única visita:
 
-| Ocorrência de visita nº | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Ocorrência de visita nº | 1 | 2 | 1 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
-| **Tempo decorrido da visita (segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
-| **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
+| **Tempo decorrido da visita (segundos)** | 0 | 30º | 80 | 180 | 190 | 230 | 290 |
+| **Segundos gastos** | 30º | 50 | 100 | 10º | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
 | **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
-| **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
+| **segundos gastos da prop1** | 30º | 50º | - | 10º | 40º | 60º | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Vermelho (definido) | Vermelho (persistente) | (expirado) | Azul (definido) | Azul (definido) | Azul (persistente) | Vermelho (definido) |
-| **Segundos gastos da eVar1** | 30 | 50 | - | 10 | 40 | 60 | - |
+| **Segundos gastos da eVar1** | 30º | 50º | - | 10º | 40º | 60º | - |
 
 Com base na tabela acima, as métricas de Tempo gasto são calculadas da seguinte maneira:
 
