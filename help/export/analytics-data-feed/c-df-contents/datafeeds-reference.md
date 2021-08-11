@@ -6,9 +6,9 @@ title: Referência da coluna de dados
 feature: Noções básicas do Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `hier1 - hier5` | Usado em variáveis de hierarquia. Contém uma lista delimitada de valores. O delimitador é escolhido nas configurações do conjunto de relatórios. | varchar(255) |
 | `hit_source` | Indica a origem da ocorrência. As fontes de ocorrência 1, 2 e 6 são faturadas. <br>1: Solicitação de imagem padrão sem carimbo de data e hora <br>2: Solicitação de imagem padrão com carimbo de data e hora <br>3: Carregamento de fonte de dados ao vivo com carimbos de data e hora <br>4: Não utilizado <br>5: Upload de fonte de dados genérica <br>6: Carregamento completo da fonte de dados de processamento <br>7: Carregamento da fonte de dados TransactionID <br>8: Deixar de ser utilizado; Versões anteriores das fontes de dados da Adobe Advertising Cloud <br>9: Deixar de ser utilizado; Métricas de resumo do Adobe Social <br>10: Encaminhamento do lado do servidor do Audience Manager usado | tinyint unsigned |
 | `hit_time_gmt` | O carimbo de data e hora dos servidores de coleta de dados da Adobe de ocorrência recebeu a ocorrência, com base no horário Unix. | int |
-| `hitid_high` | Usado em combinação com `hitid_low` para identificar exclusivamente um hit. | bigint unsigned |
-| `hitid_low` | Usado em combinação com `hitid_high` para identificar exclusivamente um hit. | bigint unsigned |
+| `hitid_high` | Usado em combinação com `hitid_low` para identificar uma ocorrência. | bigint unsigned |
+| `hitid_low` | Usado em combinação com `hitid_high` para identificar uma ocorrência. | bigint unsigned |
 | `homepage` | Não está mais em uso. Indica se o URL atual é a página inicial do navegador. | char(1) |
 | `hourly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante por hora. | tinyint unsigned |
 | `ip` | Endereço IP, com base no cabeçalho HTTP da solicitação de imagem. | char(20) |
