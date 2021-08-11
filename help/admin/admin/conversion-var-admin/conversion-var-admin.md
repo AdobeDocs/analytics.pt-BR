@@ -6,7 +6,7 @@ feature: Ferramentas administrativas
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
 ht-degree: 100%
 
