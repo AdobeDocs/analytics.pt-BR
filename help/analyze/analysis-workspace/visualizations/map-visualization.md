@@ -6,7 +6,7 @@ feature: Visualizações
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ A visualização de mapa no Analysis Workspace
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat/long móveis</b> </p> </td> 
-   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização</span></span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
+   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização</span> </span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensão geográfica</b> </p> </td> 
