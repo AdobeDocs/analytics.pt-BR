@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 * **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
 * **Causas que resultam na falha de entrega da pasta de trabalho**: fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
 * **Células retornando 0s (sem valor)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
-* **Desempenho** de solicitação individual: A velocidade de processamento pode ser afetada pelas seguintes configurações:
+* **Desempenho de solicitação individual**: a velocidade de processamento pode ser afetada pelas seguintes configurações:
 
    | Configuração | Desempenho mais rápido | Desempenho mais devagar |
    |--- |--- |--- |
