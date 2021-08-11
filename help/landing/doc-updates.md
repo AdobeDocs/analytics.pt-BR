@@ -3,10 +3,10 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no repositório de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
+source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 69%
+source-wordcount: '2845'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,6 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 * Para obter informações sobre o [!UICONTROL Customer Journey Analytics], acesse [aqui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR).
 * Para obter uma lista abrangente dos novos recursos do Adobe Analytics, avisos de administração e correções de erros, consulte as [Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR).
-* Para obter mais informações sobre novos recursos, consulte [Novos recursos no Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) na guia de usuário Ferramentas.
 * Para obter informações sobre o Adobe Analytics para áudio e vídeo, consulte [Medição de áudio e vídeo no Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
 
 ## Detalhes sobre as principais atualizações de documentação
@@ -101,7 +100,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 20 de fevereiro de 2020 | O depurador de espaço de trabalho foi adicionado ao menu Ajuda, fornecendo uma maneira mais simples de habilitá-lo para depurar solicitações de espaço de trabalho. [Saiba mais...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 de fevereiro de 2020 | Variável adicionada [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação de [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 12 de fevereiro de 2020 | Novas teclas de atalho adicionadas a [esta página do Espaço de trabalho](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 12 de fevereiro de 2020 | Novas teclas de atalho adicionadas a [esta página do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=en) |
 | 7 de fevereiro de 2020 | Atualizações da [Configuração de análise entre dispositivos](/help/components/cda/setup.md) e [Perguntas frequentes](/help/components/cda/faq.md). |
 | 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](/help/implement/home.md). |
 | 22 de janeiro de 2020 | Atualização da página Freeform Table para incluir informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
@@ -109,7 +108,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 24 de janeiro de 2020 | Atualizações para a página [Configurações de linha](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) no Workspace. |
 | 16 de janeiro de 2020 | Nova documentação em [Construtor de tabela de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR). Com o Construtor de tabela ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Workspace impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
 | 13 de janeiro de 2020 | Adição de [cookies do Adobe Analytics e do navegador](/help/technotes/cookies/cookies.md). |
-| 13 de janeiro de 2020 | Modificada a página [Qual ferramenta devo usar](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-overview/which-analytics-tool.html). |
+| 13 de janeiro de 2020 | Modificada a página [Qual ferramenta do Adobe Analytics devo usar](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en). |
 | **2019** |  |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de novembro de 2019 | Novo tópico sobre [Fim da vida útil para aplicar restrições de logon de IP](/help/admin/company/login-restrictions-eol.md). |
