@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre feeds de dados
 keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minúsculas
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ Os feeds de dados não incluem bots filtrados pelas [regras de bot do Admin Cons
 Alguns editores de planilhas, especialmente o Microsoft Excel, arredondam automaticamente números grandes. A coluna `event_list` contém muitos números delimitados por vírgulas, às vezes fazendo com que o Excel os considere números grandes. Ele arredonda os últimos vários dígitos para `000`.
 
 A Adobe recomenda não abrir automaticamente arquivos `hit_data.tsv` no Microsoft Excel. Em vez disso, use a caixa de diálogo Importar dados do Excel e verifique se todos os campos são tratados como texto.
+
+## Colunas como `hitid_high`, `hitid_low`, `visid_high` e `visid_low` são garantidas como exclusivas para a ocorrência ou visita?
+
+Em quase todos os casos, a concatenação de `hitid_high` e `hitid_low` identifica exclusivamente uma ocorrência. O mesmo conceito se aplica à concatenação de `visid_high` e `visid_low` para visitas. No entanto, o processamento de anomalias raramente pode fazer com que duas ocorrências compartilhem a mesma ID de ocorrência. O Adobe recomenda não criar workflows do feed de dados que dependam de forma inflexível de cada ocorrência ser exclusiva.
 
 ## Por que as informações estão faltando na coluna de domínio para algumas operadoras? {#section_B7508D65370442C7A314EAED711A2C75}
 
