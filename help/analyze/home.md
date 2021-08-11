@@ -5,7 +5,7 @@ feature: Fundamentos do Workspace
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -40,6 +40,6 @@ Este guia fornece documentação de produto e autoajuda para as seguintes ferram
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Fórum do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
+* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
