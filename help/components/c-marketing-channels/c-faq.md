@@ -1,8 +1,8 @@
 ---
 title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%
 
@@ -24,21 +24,21 @@ Perguntas frequentes para canais de marketing.
 
 ## Os domínios referenciadores contêm mais dados que eu esperava.
 
-* Os domínios de referência podem estar próximos demais do topo da lista de regras de processamento. Eles devem ser um dos últimos (ou os últimos) conjuntos de regras, porque a ordem de processamento é importante.
+Os domínios de referência podem estar próximos demais do topo da lista de regras de processamento. Eles devem ser um dos últimos (ou os últimos) conjuntos de regras, porque a ordem de processamento é importante.
 
 ## Criei uma regra que corresponde a um parâmetro de sequência de consulta e que não está funcionando.
 
-* Certifique-se de que o nome do parâmetro esteja especificado nos campos de parâmetro da sequência de consulta (normalmente um valor alfanumérico). Além disso, certifique-se de que o valor de parâmetro está especificado após o operador, conforme mostrado no exemplo a seguir em uma regra de email.
+Certifique-se de que o nome do parâmetro esteja especificado nos campos de parâmetro da sequência de consulta (normalmente um valor alfanumérico). Além disso, certifique-se de que o valor de parâmetro está especificado após o operador, conforme mostrado no exemplo a seguir em uma regra de email.
 
-   ![](assets/example_email.png)
+![](assets/example_email.png)
 
 ## Por que todo o meu tráfego de último contato é atribuído a um domínio interno?
 
-* Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
+Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
 
 ## Como faço para depurar o tráfego exibido em Nenhum canal identificado no relatório?
 
-* As regras são processadas em ordem. Se não houver correspondência com critérios específicos, as ocorrências são incluídas em uma de três categorias:
+As regras são processadas em ordem. Se não houver correspondência com critérios específicos, as ocorrências são incluídas em uma de três categorias:
 
 1. Nenhum referenciador (visita direta).
 
