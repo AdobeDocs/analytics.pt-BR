@@ -3,15 +3,15 @@ description: Classificações são usadas para categorizar valores em grupos e r
 title: Classificações de conversão
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Classificações de conversão
 
-Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de [!UICONTROL Pesquisa paga] em uma categoria como *termos de música pop* e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e conversão para eventos bem-sucedidos. É possível adicionar até 255 classificações a uma variável.
+Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de [!UICONTROL Pesquisa paga] em uma categoria como *termos de música pop* e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e a conversão para eventos bem-sucedidos. É possível adicionar até 255 classificações a uma variável.
 
 As classificações de conversão permitem que você classifique as variáveis de conversão. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com as propriedades de dados associadas.
 
