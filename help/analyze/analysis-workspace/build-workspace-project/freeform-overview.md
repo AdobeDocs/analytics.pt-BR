@@ -7,9 +7,9 @@ feature: Fundamentos do Workspace
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1405'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,12 +53,12 @@ Em um projeto, o menu fornece opções para gerenciar o projeto, adicionar compo
 | Inserir | Insira novos painéis ou visualizações nesse menu. Você também pode inserir novos painéis e visualizações no painel esquerdo. |
 | [Componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) | Crie novos segmentos, métricas calculadas, intervalo de datas ou componentes de alerta do seu projeto. Você também pode criar novos componentes no painel esquerdo. Se as definições de componente foram alteradas recentemente, Atualizar componentes recuperará as definições mais recentes. |
 | [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html?lang=pt-BR) | Você pode preparar, compartilhar e agendar projetos em PDF/CSV para recipients em sua organização. |
-| Ajuda | Acesse a documentação de ajuda, os vídeos e a comunidade da Experience League [do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Gerencie a visibilidade das dicas do Workspace, bem como do [depurador](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Encontre detalhes sobre o Workspace e fatores que afetam o [desempenho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=pt-BR) do projeto. |
+| Ajuda | Acesse a documentação de ajuda, os vídeos e a comunidade da Experience League [do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt). Gerencie a visibilidade das dicas do Workspace, bem como do [depurador](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Encontre detalhes sobre o Workspace e fatores que afetam o [desempenho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=pt-BR) do projeto. |
 | Botão Compartilhar ou Proprietário | Se você estiver em um projeto Próprio ou Editar, o botão Compartilhar na parte superior direita oferecerá acesso com um clique para gerenciar os recipients do projeto. Se você estiver em uma função Duplicar ou Exibir do projeto, verá o nome do proprietário do projeto. |
 
 ### Informações e configurações do projeto {#info-settings}
 
-**[!UICONTROL Workspace]**  >  **[!UICONTROL Projeto]**  > Informações e  **[!UICONTROL configurações do]** projeto fornecem informações a nível de projeto sobre o projeto ativo no momento.
+**[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Configurações &amp; informações do projeto]** fornecem informações sobre o projeto ativo no momento.
 
 ![](assets/projectinfo.png)
 
@@ -71,13 +71,13 @@ As configurações incluem:
 | Última modificação | Data da última modificação do projeto. |
 | Tags | Lista qualquer tag aplicada a um projeto para classificar com mais facilidade. |
 | Descrição | Uma descrição é útil para esclarecer a finalidade de um projeto. Você pode clicar duas vezes na descrição para editá-la. |
-| Contagem de instâncias repetidas no projeto | Especifica se as instâncias repetidas devem ser contadas nos relatórios. Por exemplo, essa configuração (quando ativada) trata várias exibições de página consecutivas para a mesma página como várias exibições de página. Com ela desativada, eles contam como uma única visualização de página (isso afeta apenas determinadas métricas, como Visitas de página única). **Observação**: Essa configuração não se aplica às visualizações de Fluxo ou Fallout. |
+| Contagem de instâncias repetidas no projeto | Especifica se as instâncias repetidas devem ser contadas nos relatórios. Por exemplo, essa configuração (quando ativada) trata várias exibições de página consecutivas para a mesma página como várias exibições de página. Com ela desativada, eles contam como uma única visualização de página (isso afeta apenas determinadas métricas, como Visitas de página única). **Observação**: essa configuração não se aplica às visualizações de Fluxo ou Fallout. |
 | [Paleta de cores do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | É possível alterar a paleta de cores categórica usada no Workspace escolhendo entre paletas predefinidas que foram otimizadas para a cegueira de cores ou especificando a paleta personalizada. Esse recurso afeta muitas coisas no Workspace, incluindo a maioria das visualizações. |
 | [Exibir densidade](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) | Permite ver mais dados na tela, ao reduzir o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. |
 
 ## Painel esquerdo {#left-rail}
 
-Em um projeto, [painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), tabelas, [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) são acessados pelo painel esquerdo. Estes são os componentes do projeto.
+Em um projeto, [painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), tabelas, [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) são acessados pelo painel esquerdo. Estes são os componentes do projeto.
 
 Também é possível acessar visualizações e painéis no [Painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR).
 
@@ -91,7 +91,7 @@ A tela do projeto é onde você reúne painéis, tabelas, visualizações e comp
 
 Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise. O painel principal terá uma borda azul ao seu redor e determina quais componentes estão disponíveis no painel esquerdo.
 
-Dependendo do ponto de partida escolhido para seus projetos, você terá uma [tabela de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) ou um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) na tela para começar. A maneira mais rápida de começar a analisar é selecionar um ou vários componentes e simplesmente arrastá-los e soltá-los na tela do projeto. Uma tabela de dados será renderizada automaticamente para você. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sobre as diferentes opções para criar uma tabela ou utilize nosso [tutorial de treinamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR#training-tutorial) para obter mais orientações sobre como criar seu primeiro projeto.
+Dependendo do ponto de partida escolhido para seus projetos, você terá uma [tabela de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) ou um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR) na tela para começar. A maneira mais rápida de começar a analisar é selecionar um ou vários componentes e simplesmente arrastá-los e soltá-los na tela do projeto. Uma tabela de dados será renderizada automaticamente para você. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) sobre as diferentes opções para criar uma tabela ou utilize nosso [tutorial de treinamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR#training-tutorial) para obter mais orientações sobre como criar seu primeiro projeto.
 
 ![](assets/canvas.png)
 
@@ -107,9 +107,9 @@ As ações a seguir são comuns no Gerenciador de projetos e podem ser executada
 
 | Ação | Descrição |
 |---|---|
-| Adicionar | Crie um novo projeto do zero ou inicie com um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Adicionar | Crie um novo projeto do zero ou inicie com um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR). |
 | Marcar ou aprovar | Escolha &quot;Marcar&quot; ou &quot;Aprovar&quot; para organizar os projetos e facilitar a pesquisa. |
-| [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
+| [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
 | Excluir | Exclua o projeto. |
 | Renomear | Edite o nome do projeto. |
 | Copiar | Crie um duplicado do projeto. Isso cria uma nova ID de projeto. Qualquer compartilhamento ou programação vinculada ao projeto original não será copiada. |
