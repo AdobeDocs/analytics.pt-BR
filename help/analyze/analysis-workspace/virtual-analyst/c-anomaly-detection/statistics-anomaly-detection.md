@@ -5,7 +5,7 @@ feature: Ferramentas de IA
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Após a seleção do modelo, o algoritmo ajusta os resultados com base em feriad
 * Cyber Monday (somente EUA)
 * 24-26 de dezembro
 * Janeiro de 1
-* 31 de dezembro
+* Dezembro de 31
 
 Esses feriados foram selecionados com base em análises estatísticas extensivas em vários pontos de dados do cliente para identificar os feriados mais significativos para o maior número de tendências dos clientes. Embora a lista não seja exaustiva para todos os clientes ou ciclos comerciais, descobrimos que aplicar esses feriados melhorou significativamente o desempenho geral do algoritmo para praticamente todos os conjuntos de dados dos clientes.
 
