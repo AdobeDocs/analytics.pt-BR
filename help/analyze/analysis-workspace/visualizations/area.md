@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizações
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '100'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 93%
 
 ---
 
@@ -29,3 +29,7 @@ Esta visualização se parece com um Gráfico de área, mas cada série se inici
 Uma nova configuração de visualização nas visualizações empilhadas por área transforma o gráfico em uma visualização 100% empilhada.
 
 ![](assets/areastacked100.png)
+
+Aqui está um vídeo sobre &quot;Visualizações 100% empilhadas&quot;:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
