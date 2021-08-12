@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Fundamentos do Workspace
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -57,3 +57,9 @@ Existem vários outros métodos para aplicar os segmentos em um projeto de forma
 | Componentes > Novo segmento | Exibe o Construtor de segmentos. Consulte [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) para mais informações sobre segmentação. |
 | Compartilhar > Compartilhar projeto ou compartilhar > Preparar dados do projeto | Veja em [Preparar e compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR#concept_4A9726927E7C44AFA260E2BB2721AFC6) como os segmentos aplicados ao projeto ficam disponíveis para o destinatário em análise compartilhada. |
 | Usar segmentos como Dimensões | Vídeo: [Usar segmentos como Dimensões no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=pt-BR) |
+
+## Segmentos ad hoc (temporários) no Analysis Workspace
+
+Este é um vídeo sobre segmentos ad hoc:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
