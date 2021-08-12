@@ -2,10 +2,9 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -49,7 +48,6 @@ Observação: a Experience Edge Global oferece o melhor desempenho aos usuários
 | Benefícios | Descrição |
 | --- | --- |
 | Desempenho | Com o RDC, seus visitantes se conectam ao DCC mais próximo. Isso fornece o tempo de resposta mais rápido, resultando em rastreamento mais preciso e em tempos de carregamento mais rápidos. |
-| Redundância | No caso de uma interrupção na comunicação com um DCC, a coleção de dados é encaminhada diretamente ao DCC mais próximo, garantindo a continuidade do serviço. |
 | Redundância | No caso de uma interrupção na comunicação entre o DCC e a DPC, a infraestrutura da RDC da Adobe salva os dados localmente e, em seguida, os encaminha para a DPC quando as comunicações forem restauradas. |
 
 ## Como a RDC funciona
