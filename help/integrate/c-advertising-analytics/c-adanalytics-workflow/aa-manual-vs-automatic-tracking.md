@@ -2,16 +2,20 @@
 description: O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 title: 'Rastreamento: modo manual e modo automático'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 97%
 
 ---
 
 # Rastreamento: modo manual e modo automático
 
 O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
+
+Esta é uma visão geral em vídeo de como implementar o modelo de rastreamento do Advertising Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 Dois modos de rastreamento são compatíveis: Modo automático e Modo manual.
 
