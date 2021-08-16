@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizações
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
 # Linha
 
-A visualização de linha representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico de linha pode ser usado apenas quando o horário for usado como uma dimensão.
+A visualização de [!UICONTROL Linha] representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico [!UICONTROL Line] só pode ser usado quando o tempo for usado como uma dimensão.
 
 ![Visualização de linha](assets/line-viz.png)
 
-Clique no ícone de engrenagem na parte superior direita da visualização de linha para acessar as [**Configurações de visualização**](freeform-analysis-visualizations.md) disponíveis. As configurações são categorizadas em:
+Clique no ícone de engrenagem na parte superior direita da visualização [!UICONTROL Line] para acessar [**Configurações de visualização**](freeform-analysis-visualizations.md) disponíveis. As configurações são categorizadas em:
 
 * **Geral**: configurações comuns em tipos de visualização
 * **Eixo**: configurações que afetam o eixo x ou y da visualização de linha
@@ -39,6 +39,10 @@ Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposi�
 ## Mostrar sobreposição de linha de tendência
 
 Em **[!UICONTROL Configurações de visualização]** > **[!UICONTROL Sobreposições]** > **[!UICONTROL Mostrar linha de tendências]**, você pode adicionar uma regressão ou linha de tendência de média móvel à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados.
+
+Este é um vídeo sobre como adicionar linhas de tendência às visualizações de linha:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
