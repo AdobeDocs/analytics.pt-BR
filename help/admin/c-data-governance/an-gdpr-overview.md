@@ -3,10 +3,10 @@ description: Este documento descreve o que precisa ser feito no Adobe Analytics 
 title: Adobe Analytics e o GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -54,3 +54,9 @@ Consulte [Rotular dados do conjunto de relatórios](/help/admin/c-data-governanc
    >O Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API do GDPR, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido no Adobe Analytics. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados.
 
 * Verifique suas permissões: para usar a interface de Gerenciamento de governança de dados no Adobe Analytics, você deve ser um administrador do Adobe Analytics.
+
+## AdobePrivacyJS: Resolução de identidade do lado do cliente para solicitações do GDPR
+
+Esta é uma visão geral em vídeo sobre este tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
