@@ -3,7 +3,7 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 98%
@@ -20,7 +20,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 ## Versão 2.22.1
 
-Data de lançamento: **12 de agosto de 2021**
+Data de lançamento: **17 de agosto de 2021**
 
 * Clientes que usam opt-out podem ter visto os parâmetros de opt-out de encaminhamento do lado do servidor não serem respeitados durante o rastreamento de links. As correções nesta versão fazem com que os sinalizadores de opt-out sejam enviados se estiverem presentes durante o rastreamento de links.
 
