@@ -3,9 +3,9 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações importantes no conjunto de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
+source-git-commit: 3da800f4f1a2f30032cd7b1554c082526f8cf9e0
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2903'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Agosto de 2021** |  |
+| 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
+| 18 de agosto de 2021 | Novo tópico em [Práticas recomendadas de atribuição](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Novo tópico em [Contar instâncias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | 5 de agosto de 2021 | Atualização da documentação de classificações em [templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) e [exportação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar opções indisponíveis para conjuntos de relatórios que estão habilitados para a Nova Arquitetura de Classificação. |
 | 2 de agosto de 2021 | Atualização de várias páginas para refletir a reformulação da marca de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
