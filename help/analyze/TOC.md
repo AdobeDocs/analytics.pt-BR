@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização do Analytics, bem como ferramentas como painéis do Adobe Analytics, Report Builder e Activity Map.
-source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1016'
 ht-degree: 99%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 99%
       + [Visão geral da atribuição](analysis-workspace/attribution/overview.md)
       + [Modelos de atribuição e janelas de pesquisa](analysis-workspace/attribution/models.md)
       + [Atribuição algorítmica](analysis-workspace/attribution/algorithmic.md)
+      + [Práticas recomendadas de atribuição](analysis-workspace/attribution/best-practices.md)
       + [Perguntas frequentes](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
