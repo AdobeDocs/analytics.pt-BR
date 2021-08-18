@@ -1,14 +1,13 @@
 ---
 description: As opções de calendário diferentes do modelo gregoriano. As opções incluem os modelos de calendário 4-4-5, 4-5-4 e 5-4-4, que são usados como padrões para o setor de varejo. Além disso, o relatório oferece uma opção de calendário totalmente personalizável que você mesmo pode configurar.
 title: Personalizar calendário
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 16d762e9d327153737ab25a4a56cf4830c777479
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 92%
+source-wordcount: '516'
+ht-degree: 84%
 
 ---
 
@@ -26,34 +25,12 @@ Você pode usar o calendário para definir o primeiro dia da semana e ano, ou us
 
 ## Personalizar descrições de calendário {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Calendário </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Calendário Gregoriano </p> </td> 
-   <td colname="col2"> <p> Use o formato de calendário tradicional (janeiro a dezembro com 30 ou 31 dias e um número variável de semanas em cada mês). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Calendário Gregoriano Modificado </p> </td> 
-   <td colname="col2"> <p> Usa o calendário gregoriano tradicional, mas permite que você selecione o primeiro mês do ano e o primeiro dia da semana. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Calendário de varejo 4-5-4 </p> </td> 
-   <td colname="col2"> <p> Desmembra cada mês pelo número de semanas no mês. Isto é, janeiro tem quatro semanas, e assim por diante. A Federação Nacional do Varejo nos Estados Unidos usa o formato de calendário 4-5-4. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Calendário personalizado </p> </td> 
-   <td colname="col2"> <p> Oferece três formatos baseados no número de semanas em cada mês. O número de semanas em cada mês depende do primeiro dia do ano selecionado. </p> <p>Um ano possui 52 semanas. Divida esse valor por 4 trimestres e você terá 13 semanas por trimestre. Mas há 3 meses em um trimestre. O número 13 não é divisível por três, dessa forma você acaba colocando uma semana extra em um dos meses, de forma que seja sempre consistente. 5/4/4 significa que o primeiro mês do trimestre recebe a semana extra. 4/5/4 significa que o segundo mês do trimestre recebe a semana extra, etc. No calendário 5-4-4, a 53ª semana é adicionada ao último trimestre do ano. </p> 
-    <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
-     <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante. </li> 
-     <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante. </li> 
-     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>: janeiro tem cinco semanas, fevereiro tem quatro, março tem quatro, e assim em diante. </li> 
-    </ul> <p>Observação:  Esta opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map) exceto para Data Warehouse, que não suporta calendários personalizados. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Calendário | Descrição |
+|--- |--- |
+| Calendário Gregoriano | Use o formato de calendário tradicional (janeiro a dezembro com 30 ou 31 dias e um número variável de semanas em cada mês). |
+| Calendário Gregoriano Modificado | Usa o calendário gregoriano tradicional, mas permite que você selecione o primeiro mês do ano e o primeiro dia da semana. |
+| Calendário de varejo 4-5-4 | Desmembra cada mês pelo número de semanas no mês. Isto é, janeiro tem quatro semanas, e assim por diante. A Federação Nacional do Varejo nos Estados Unidos usa o formato de calendário 4-5-4. |
+| Calendário personalizado | Oferece três formatos baseados no número de semanas em cada mês. O número de semanas em cada mês depende do primeiro dia do ano selecionado.  Um ano possui 52 semanas. Divida esse valor por 4 trimestres e você terá 13 semanas por trimestre. Mas há 3 meses em um trimestre. O número 13 não é divisível por três, dessa forma você acaba colocando uma semana extra em um dos meses, de forma que seja sempre consistente.<ul><li>5/4/4 significa que o primeiro mês do trimestre recebe a semana extra. 4/5/4 significa que o segundo mês do trimestre recebe a semana extra, etc. No calendário 5-4-4, a 53ª semana é adicionada ao último trimestre do ano.</li><li>4-5-4: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante.</li><li>4-4-5: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante.</li><li>5-4-4: janeiro tem cinco semanas, fevereiro tem quatro, março tem quatro, e assim em diante.</li></ul> |
+
+>[!NOTE]
+>Essas opções de calendário são compatíveis com todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map), exceto o Data Warehouse. A Data Warehouse suporta totalmente apenas o calendário gregoriano. Ao escolher um calendário não gregoriano, o Data Warehouse usará o intervalo de datas esperado do calendário não gregoriano, no entanto, os detalhamentos de dia/semana/mês nas linhas do relatório podem não ser o esperado de um calendário não gregoriano.
