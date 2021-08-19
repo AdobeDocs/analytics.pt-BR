@@ -4,9 +4,9 @@ description: Documentação do produto e autoajuda do Analysis Workspace, painé
 feature: Fundamentos do Workspace
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '237'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,13 @@ Este guia fornece documentação de produto e autoajuda para as seguintes ferram
 
 * [Painéis do Adobe Analytics - Visão geral](/help/analyze/mobile-app/home.md)
 * [Introdução ao Analysis Workspace](analysis-workspace/home.md)
-* [Progressive Web Apps para Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Qual ferramenta do Adobe Analytics devo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Introdução ao Report Builder](report-builder/home.md)
 * [Introdução ao Activity Map](activity-map/activity-map.md)
 
 ## Mais guias do usuário do Analytics
 
-[Guias do usuário do Analytics](/help/landing/home.md)
+[Guias do usuário do Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR)
 
 ## Principais recursos do Analytics
 
