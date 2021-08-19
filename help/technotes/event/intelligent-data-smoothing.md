@@ -3,7 +3,7 @@ title: Suavização inteligente de dados
 description: Saiba como a Suavização de dados inteligente analisa as tendências históricas para prever o valor de qualquer métrica dentro de um período de tempo afetado.
 feature: Ferramentas de IA
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 Em raras ocasiões, alguns fatores podem afetar a qualidade dos dados. O tráfego de bot, as alterações de implementação ou as interrupções do serviço podem afetar a integridade dos dados coletados. Eles também complicam a análise de como o evento pode ter afetado a integridade dos dados.
 
-A Suavização de dados inteligente é um protótipo em [Analytics Labs](/help/analyze/tech-previews/overview.md) que pode ajudar a concluir essa visualização ao analisar tendências históricas para prever o valor de qualquer métrica dentro do período afetado. O protótipo aplica algoritmos avançados de aprendizado de máquina para traçar os valores esperados para as métricas durante o período de tempo que está sendo analisado.
+A Suavização de dados inteligente é um protótipo em [Analytics Labs](/help/analyze/labs.md) que pode ajudar a concluir essa visualização ao analisar tendências históricas para prever o valor de qualquer métrica dentro do período afetado. O protótipo aplica algoritmos avançados de aprendizado de máquina para traçar os valores esperados para as métricas durante o período de tempo que está sendo analisado.
 
 ## Executar Suavização de Dados Inteligente
 
