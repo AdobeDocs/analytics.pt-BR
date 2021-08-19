@@ -5,19 +5,19 @@ title: Novidades no Analysis Workspace
 feature: Fundamentos do Workspace
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8288'
+ht-degree: 99%
 
 ---
 
 # Novidades no Analysis Workspace
 
 >[!IMPORTANT]
->Outras atualizações do Analysis Workspace foram inseridas na página [Adobe Analytics Documentation Updates](/help/landing/doc-updates.md).
+>Outras atualizações do Analysis Workspace foram inseridas na página [Adobe Analytics Documentation Updates](/help/technotes/doc-updates.md).
 
-Para obter acesso às Notas de versão da Adobe Experience Cloud como um todo, acesse [aqui](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR).
+Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR) para obter atualizações para o produto abrangente.
 
 ## Março de 2021
 
