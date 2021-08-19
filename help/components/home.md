@@ -2,10 +2,9 @@
 title: Guia de componentes do Analytics
 description: Saiba mais sobre os diferentes componentes que o Adobe Analytics oferece.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -34,11 +33,11 @@ Os componentes do Analytics ajudam você a ajustar e potencializar a análise da
 
 ## Mais guias do usuário do Analytics
 
-[Guias do usuário do Analytics](/help/landing/home.md)
+[Guias do usuário do Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR)
 
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Recursos do Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Fórum do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
+* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
