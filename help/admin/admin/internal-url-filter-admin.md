@@ -1,22 +1,22 @@
 ---
 description: Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 title: Filtros internos do URL
-feature: Admin Tools
+feature: Ferramentas administrativas
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 95%
 
 ---
 
+
 # Filtros internos do URL
 
-**[!UICONTROL Admin > Conjuntos de relatórios > Editar configurações > Geral > Filtros internos de URL > Adicionar filtro]**
-
 Os Filtros internos do URL identificam referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
+
+**[!UICONTROL Admin]**  > Conjuntos  **[!UICONTROL de relatórios]**  >  **[!UICONTROL Editar configurações]**  >  **[!UICONTROL Geral]**  > Filtros  **[!UICONTROL internos de URL]**
 
 Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do Dimensão [Referenciadores](/help/components/dimensions/referrer.md), a dimensão [Domínios do referenciador](/help/components/dimensions/referring-domain.md) e outras dimensões de fonte de tráfego.
 
