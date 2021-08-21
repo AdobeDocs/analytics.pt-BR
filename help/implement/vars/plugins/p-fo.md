@@ -2,10 +2,10 @@
 title: p_fo (uma vez na página)
 description: Garanta que determinadas rotinas sejam acionadas apenas uma vez por página.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 82%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Usar o plug-in
 
-O método `p_fo` aceita os seguintes argumentos:
+A função `p_fo` usa os seguintes argumentos:
 
 * **on** (obrigatório, string): o nome do objeto JavaScript que o plug-in cria se o objeto ainda não existir na página.
 
-Se o objeto ainda não existir, esse método retornará `true` e criará o objeto. Se o objeto já existir, esse método retornará `false`.
+Se o objeto ainda não existir, essa função retornará `true` e criará o objeto. Se o objeto já existir, essa função retornará `false`.
 
 ## Exemplos de chamadas
 
@@ -71,14 +71,14 @@ O código a seguir verificará a existência do objeto &quot;myobject&quot; na p
 
 Por outro lado, se o objeto &quot;myobject&quot; já existir quando a chamada p_fo ocorrer, a função p_fo retornará o valor false e, portanto, a declaração condicional será considerada falsa.  Nesse caso, o código dentro da declaração condicional não será executado.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**NOTA**: sempre que um novo objeto de página/DOM é carregado (ou sempre que a página atual é recarregada), o objeto especificado no argumento on não existirá mais e, portanto, o plug-in p_fo retornará true na primeira vez que for executado depois que a página terminar de ser carregada.
+**OBSERVAÇÃO:** sempre que um novo objeto de página/DOM é carregado (ou sempre que a página atual é recarregada), o objeto especificado no argumento on não existirá mais e, portanto, o plug-in p_fo retornará true na primeira vez que for executado depois que a página terminar de ser carregada.
 
 ## Histórico da versão
 
