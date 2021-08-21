@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Meça o tempo em que uma ação específica ocorre.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Usar o plug-in
 
-O método `getTimeParting` aceita o seguinte argumento:
+A função `getTimeParting` usa o seguinte argumento:
 
 **`t`** (opcional, mas recomendado, string): o nome do fuso horário para conversão da hora local do visitante.  O padrão é UTC/GMT. Consulte [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) na Wikipédia para obter uma lista completa de valores válidos.
 
@@ -74,7 +74,7 @@ Valores válidos comuns incluem:
 * `"America/Denver"` para Mountain Time (horário das montanhas)
 * `"America/Los_Angeles"` para Pacific Time (horário do pacífico)
 
-Chamar esse método retorna uma string que contém os itens a seguir delimitados por uma barra vertical (`|`):
+Chamar essa função retorna uma string que contém o seguinte delimitado por uma barra vertical (`|`):
 
 * O ano atual
 * O mês atual
@@ -82,55 +82,35 @@ Chamar esse método retorna uma string que contém os itens a seguir delimitados
 * O dia da semana
 * A hora atual (AM/PM)
 
-## Exemplos de chamadas
-
-### Exemplos para fusos horários específicos
-
-Use o código de amostra a seguir se o cliente estiver em Paris, França:
+## Exemplos
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-Se o cliente estiver em San Jose, Califórnia:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-Se o cliente estiver no país africano de Gana:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-Gana está no fuso horário UTC/GMT. Este exemplo mostra que nenhum argumento de plug-in é necessário para UTC/GMT.
-
-### Contabilização para navegadores Internet Explorer
-
-Use o exemplo a seguir se quiser excluir dados de divisão de tempo dos visitantes do Internet Explorer. O valor retornado de navegadores IE está apenas no horário local do visitante.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### Resultados de chamadas
-
-Se um visitante de Denver, Colorado, acessar um site em 31 de agosto de 2020 às 9h15.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Histórico da versão
