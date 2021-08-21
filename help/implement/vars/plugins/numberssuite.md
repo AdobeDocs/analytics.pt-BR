@@ -2,10 +2,10 @@
 title: Conjunto de números
 description: Produza e manipule números para uso em outras variáveis JavaScript.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 79%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Usar os plug-ins
 
-O método `zeroPad` aceita os seguintes argumentos:
+A função `zeroPad` usa os seguintes argumentos:
 
-* **num** (obrigatório, inteiro): o número a ser arredondado. O método arredonda o valor desse argumento para baixo se contiver decimais.
+* **num** (obrigatório, inteiro): o número a ser arredondado. A função arredonda o valor desse argumento para baixo se contiver decimais.
 * **nod** (obrigatório, inteiro): o número de dígitos no valor final de retorno. Se o número a ser arredondado tiver menos dígitos do que o número limite de dígitos, o plug-in adicionará zeros no início do argumento `num`.
 
-O método `randomNumber` aceita os seguintes argumentos:
+A função `randomNumber` usa os seguintes argumentos:
 
 * **nod** (opcional, inteiro): o número de dígitos no número aleatório que você deseja gerar. O valor máximo é 17 dígitos. O valor padrão é 10 dígitos.
 
-O método `twoDecimals` aceita os seguintes argumentos:
+A função `twoDecimals` usa os seguintes argumentos:
 
 * **val** (obrigatório, número): um número (representado por uma string ou por um objeto numérico) que você deseja arredondar para a centena mais próxima.
 
 ## Devoluções
 
-* O método **zeroPad** retorna uma string igual ao argumento `num`, mas com um número específico de zeros adicionados ao início de seu valor, o que garante que o valor de retorno tenha o número correto de dígitos.
-* O método **randomNumber** retorna uma string igual a um número aleatório com o número desejado de dígitos.
-* O método **twoDecimals** retorna um objeto numérico arredondado para a centena mais próxima.
+* A função **zeroPad** retorna uma string igual ao argumento `num`, mas com um número específico de zeros adicionados ao início de seu valor, o que garante que o valor de retorno tenha o número correto de dígitos.
+* A função **randomNumber** retorna uma string igual a um número aleatório com o número desejado de dígitos.
+* A função **twoDecimals** retorna um objeto numérico arredondado para a centena mais próxima.
 
 ## Exemplos de chamadas
 
