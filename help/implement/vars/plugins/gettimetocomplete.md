@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: Meça o tempo gasto para concluir uma tarefa.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 95%
+source-wordcount: '571'
+ht-degree: 88%
 
 ---
 
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Usar o plug-in
 
-O método `getTimeToComplete` aceita os seguintes argumentos:
+A função `getTimeToComplete` usa os seguintes argumentos:
 
 * **`sos`** (opcional, string): defina como `"start"` quando quiser iniciar o cronômetro. Defina como `"stop"` quando quiser parar o cronômetro. O padrão é `"start"`.
 * **`cn`** (opcional, string): o nome do cookie que armazenará o tempo inicial. O padrão é `"s_gttc"`.
 * **`exp`** (opcional, número inteiro): o número de dias que dura o cookie (e o cronômetro). O padrão é `0`, que representa o fim da sessão do navegador.
 
-Chamar esse método retorna uma string que contém o número de dias, horas, minutos e/ou segundos decorridos entre a ação `"start"` e a ação `"stop"`.
+Chamar essa função retorna uma string que contém o número de dias, horas, minutos e/ou segundos decorridos entre a ação `"start"` e `"stop"`.
 
-## Exemplos de chamadas
-
-### Exemplo #1
-
-Use essas chamadas para determinar o tempo decorrido entre o momento em que um visitante inicia o processo de finalização e o momento em que realiza uma compra.
-
-Inicie o cronômetro quando o visitante iniciar a finalização:
+## Exemplos
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-Pare o cronômetro quando o visitante fizer a compra e defina prop1 como a diferença de tempo entre a parada e o início:
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 capturará o tempo necessário para concluir o processo de compra
-
-### Exemplo #2
-
-Se você quiser ter vários cronômetros em execução ao mesmo tempo (para medir processos diferentes), será necessário definir manualmente o argumento de cookie cn.  Por exemplo, se você quiser medir a quantidade de tempo necessária para que uma compra seja concluída, defina o código a seguir...
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-... mas se você também quiser medir (ao mesmo tempo) o tempo necessário para preencher um formulário de inscrição, execute também seguinte código:
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-No segundo exemplo, event1 deve capturar o início de um processo de registro que pode levar até 7 dias para ser concluído (por qualquer motivo), e event2 deve capturar a conclusão do registro.  s.prop2 capturará o tempo necessário para concluir o processo de registro
 
 ## Histórico da versão
 
