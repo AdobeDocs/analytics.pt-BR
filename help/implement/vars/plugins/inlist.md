@@ -2,10 +2,10 @@
 title: inList
 description: Verifique se um valor está contido em outro valor delimitado por caracteres.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Usar o plug-in
 
-O método `inList` aceita os seguintes argumentos:
+A função `inList` retorna um booleano dependendo de suas entradas. Ele usa os seguintes argumentos:
 
 * **`lv`** (obrigatório, string ou array): uma lista delimitada de valores ou um objeto de matriz JavaScript que passará por pesquisa
 * **`vtc`** (obrigatório, string): o valor a ser pesquisado
 * **`d`** (opcional, string): o delimitador usado para separar valores individuais no argumento `lv`. O padrão é uma vírgula (`,`) quando um valor não está definido.
-* **`cc`** (opcional, booleano): se definido como `true`, é feita uma verificação que diferencia maiúsculas de minúsculas. Se definido como `false` ou omitido, então é feita uma verificação que não diferencia maiúsculas de minúsculas. O padrão é `false`.
+* **`cc`** (opcional, booleano): Se definido como  `true` ou  `1`, é feita uma verificação que diferencia maiúsculas de minúsculas. Se definido como `false` ou omitido, então é feita uma verificação que não diferencia maiúsculas de minúsculas. O padrão é `false`.
 
-Chamar esse método retornará `true` se encontrar uma correspondência e `false` se não encontrar uma correspondência.
+Chamar essa função retornará `true` se encontrar uma correspondência e `false` se não encontrar uma correspondência.
 
-## Exemplos de chamadas
-
-### Exemplo #1
-
-Se...
+## Exemplos
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-... e o código a seguir for executado...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...a declaração condicional if será verdadeira
-
-### Exemplo #2
-
-Se...
-
-```js
-s.events="event22,event24";
-```
-
-... e o código a seguir for executado...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...a declaração condicional if será falsa porque a chamada do inList não fez uma correspondência exata entre event2 e qualquer um dos valores delimitados em s.events
-
-### Exemplo #3
-
-Se...
-
-```js
-s.events="event22,event24";
-```
-
-... e o código a seguir for executado...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...a declaração condicional if será verdadeira porque a chamada do inList não fez uma correspondência exata entre event23 e qualquer um dos valores delimitados em s.events (observe o operador &quot;NOT&quot; no início da chamada de variáveis do inList).
-
-### Exemplo #4
-
-Se...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-... e o código a seguir for executado...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-... a declaração condicional if será falsa.  Embora esse exemplo não seja prático, ele demonstra a necessidade de ter cautela ao usar o sinalizador que diferencia maiúsculas de minúsculas.
-
-### Exemplo #5
-
-Se...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-... e o código a seguir for executado...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-... a declaração condicional if será falsa.  O valor do argumento d transmitido para a chamada (ou seja, &quot;|&quot;) presume que os valores individuais em s.linkTrackVars são delimitados por um caractere de barra vertical, enquanto na realidade, os valores são delimitados por uma vírgula.  Nesse caso, o plug-in tentará fazer uma correspondência entre o valor inteiro de s.linkTrackVars (ou seja, &quot;events,eVar1&quot;) e o valor a ser procurado (ou seja, &quot;eVar1&quot;).
 
 ## Histórico da versão
 
