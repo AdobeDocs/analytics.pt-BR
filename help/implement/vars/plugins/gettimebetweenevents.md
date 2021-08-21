@@ -2,10 +2,10 @@
 title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 96%
+source-wordcount: '800'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Usar o plug-in
 
-O método `getTimeBetweenEvents` aceita os seguintes argumentos:
+A função `getTimeBetweenEvents` usa os seguintes argumentos:
 
 * **`ste`** (obrigatório, string): iniciar eventos de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;iniciar o cronômetro&quot;.
 * **`rt`** (obrigatório, booleano): reinicie a opção de cronômetro. Defina como `true` se você deseja reiniciar o cronômetro toda vez que a variável `events` contiver um evento de início de cronômetro. Defina como `false` se não quiser que o cronômetro seja reiniciado quando detectar um evento de início de cronômetro.
@@ -81,54 +81,28 @@ O método `getTimeBetweenEvents` aceita os seguintes argumentos:
 * **`bml`** (opcional, número): a quantidade de tempo do referencial de arredondamento de acordo com o formato do argumento `fmt`. Por exemplo, se o argumento `fmt` for `"s"` e esse argumento for `2`, o valor de retorno será arredondado para o referencial de 2 segundos que estiver mais próximo. Se o argumento `fmt` for `"m"` e esse argumento for `0.5`, o valor de retorno será arredondado para o referencial de meio minuto que estiver mais próximo.
 * **`rte`** (opcional, string): string delimitada por vírgulas com eventos do Analytics que removem ou excluem o cronômetro. O padrão é não ter valor.
 
-Chamar esse método retorna um número inteiro que representa a quantidade de tempo entre o evento de início de cronômetro e o evento de parada de cronômetro no formato desejado.
+Chamar essa função retorna um número inteiro que representa a quantidade de tempo entre o evento de início de cronômetro e o evento de parada de cronômetro no formato desejado.
 
 ## Exemplos de chamadas
 
-### Exemplo #1
-
-O código a seguir...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-... está configurado para se comportar da seguinte maneira:
-
-* O cronômetro será iniciado quando s.events contiver event1
-* O cronômetro será reiniciado sempre que s.events contiver event1
-* O cronômetro parará quando s.events contiver event2
-* O cronômetro será redefinido (isto é, vai para 0 segundos) sempre que s.events contiver event2
-* O cronômetro também será redefinido quando s.events contiver event3 OU se o visitante fechar o navegador
-* Quando um tempo real entre event1 e event2 for registrado, o plug-in definirá eVar1 como o número de segundos decorridos entre os dois eventos que estão sendo definidos, arredondado para o referencial de 2 segundos que estiver mais próximo (por exemplo, 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos etc.)
-* Se s.events contiver event2 antes de um cronômetro ser iniciado, a eVar1 não será definida.
-
-### Exemplo #2
-
-O código a seguir...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-... está configurado para se comportar da seguinte maneira:
-
-* O cronômetro será iniciado quando s.events contiver event1
-* O cronômetro NÃO será reiniciado sempre que s.events contiver event1; em vez disso, o cronômetro original continuará em execução
-* O cronômetro NÃO parará quando s.events contiver event2, mas o plug-in registrará o tempo decorrido desde quando a configuração original event1 foi registrada
-* O cronômetro é armazenado em um cookie chamado &quot;s_20&quot;
-* O cronômetro só será redefinido quando s.events contiver event3 OU se 20 dias tiverem passado desde que o cronômetro foi iniciado
-* Quando um tempo decorrido entre event1 (o original) e event2 for registrado, o plug-in definirá eVar1 como o número de horas decorridas entre os dois eventos que estão sendo definidos, arredondado para o referencial de uma hora e meia que estiver mais próximo (por exemplo, 0 horas, 1,5 hora, 3 horas, 7,5 horas, 478,5 horas etc.)
-
-### Exemplo #3
-
-O código a seguir...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-... produzirá resultados semelhantes ao do primeiro exemplo acima; no entanto, o valor da eVar1 é retornado em segundos, minutos, horas ou dias, dependendo do tamanho final do cronômetro.  Além disso, o cronômetro expirará 1 dia após ter sido definido pela primeira vez em vez de no momento em que o visitante fechar o navegador.
 
 ## Histórico da versão
 
