@@ -2,10 +2,10 @@
 title: cleanStr
 description: Remova ou substitua todos os caracteres desnecessários de uma string.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Usar o plug-in
 
-O método `cleanStr` aceita os seguintes argumentos:
+A função `cleanStr` usa os seguintes argumentos:
 
 * **`str`** (obrigatório, string): o valor que você deseja limpar da codificação HTML, o espaço em branco extra, tabulações ou outros caracteres desnecessários.
 
-O método retorna o valor do argumento `str` com todos os caracteres desnecessários removidos.
+A função retorna o valor do argumento `str` com todos os caracteres desnecessários removidos.
 
 ## Exemplos
 
-### Exemplo #1
-
-Considere o seguinte (os pontos representam espaços e as setas representam caracteres de tabulação)
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Quando você executa o seguinte código...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-... eVar1 será definida como &quot;this is a messystring&quot; (com todos os espaços extras e todos os caracteres de tabulação removidos)
-
-### Exemplo #2
-
-Se...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-... e o código a seguir for executado...
-
-```js
-cleanStr(s.eVar1)
-```
-
-...o valor final de s.eVar1 ainda será:
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Executar o plug-in por si só (sem atribuir o valor de retorno a uma variável) não &quot;redefine&quot; a variável transmitida pelo argumento str.
 
 ## Histórico da versão
 
