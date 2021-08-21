@@ -2,10 +2,10 @@
 title: getVisitDuration
 description: Rastreia por quanto tempo um visitante esteve no site até o momento.
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## Usar o plug-in
 
-O método `getVisitDuration` não usa nenhum argumento. Ele retorna um dos valores a seguir:
+A função `getVisitDuration` não usa nenhum argumento. Ele retorna um dos valores a seguir:
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -66,37 +66,16 @@ O método `getVisitDuration` não usa nenhum argumento. Ele retorna um dos valor
 
 Esse plug-in cria um cookie próprio chamado `"s_dur"`, que é o número de milissegundos decorridos desde que o visitante chegou ao site. O cookie expira após 30 minutos de inatividade.
 
-## Exemplos de chamadas
-
-### Exemplo #1
-
-O código a seguir...
+## Exemplos
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-...sempre definirá a eVar10 como o número de minutos passados desde que o visitante chegou ao site.
-
-### Exemplo #2
-
-O código a seguir...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-...usa o plug-in inList para verificar se a variável de eventos contém o evento de compra.  Em caso positivo, a eVar10 será definida como o número de minutos entre o início da visita do visitante e o momento da compra.
-
-### Exemplo #3
-
-O código a seguir...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-...sempre definirá a prop10 como o número de minutos passados desde que o visitante chegou ao site.  Isso será útil se prop10 tiver a definição de caminho ativada.  Adicionar a métrica &quot;saídas&quot; ao relatório prop10 mostrará um relatório granular e dispersivo da duração de uma visita em minutos antes de um visitante sair do site.
 
 ## Histórico da versão
 
