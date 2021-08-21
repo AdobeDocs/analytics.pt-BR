@@ -2,10 +2,10 @@
 title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 84%
+source-wordcount: '366'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,3 @@ Cada organização tem necessidades de implementação diferentes, de modo que v
 4. Valide sua implementação e publique.
 
 Muitas organizações chamam plug-ins usando a função [`doPlugins`](../functions/doplugins.md). Embora essa função não seja necessária, a Adobe considera usá-la uma prática recomendada. O AppMeasurement chama essa função antes de compilar e enviar uma solicitação de imagem, o que é ideal, pois vários plug-ins dependem de outras variáveis do Analytics.
-
-## Usar plug-ins com objetos de rastreamento não padrão
-
-Por padrão, os plug-ins não funcionam com outros objetos de rastreamento além do `s`. Entretanto, é possível modificar o código do plug-in para acomodar o objeto de rastreamento personalizado. Em um determinado plug-in, substitua todas as referências ao `s` pelo objeto de rastreamento desejado.
