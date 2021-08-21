@@ -2,10 +2,10 @@
 title: formatTime
 description: Converta um número de segundos para seu equivalente em minutos, horas etc.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Usar o plug-in
 
-O método `formatTime` aceita os seguintes argumentos:
+A função `formatTime` usa os seguintes argumentos:
 
 * **`ns`** (obrigatório, número inteiro): o número de segundos a ser convertido ou formatado
 * **`tf`** (opcional, string): o tipo de formato em que os segundos devem ser retornados; o padrão é segundos
@@ -67,7 +67,7 @@ O método `formatTime` aceita os seguintes argumentos:
    * Defina como `"s"` se desejar tempo em segundos (arredondado para o referencial de 5 segundos que estiver mais próximo, por padrão)
 * **`bml`** (opcional, número): a quantidade de tempo dos referenciais de arredondamento. Padrões para os referenciais listados no argumento `tf`
 
-O método retorna o número de segundos formatados na unidade especificada no argumento `tf`. Se o argumento `tf` não estiver definido:
+A função retorna o número de segundos formatados na unidade especificada no argumento `tf`. Se o argumento `tf` não estiver definido:
 
 * Qualquer coisa menor que um minuto é arredondada para o referencial de 5 segundos que estiver mais próximo
 * Qualquer coisa entre um minuto e uma hora é arredondada para o referencial de 1/2 minuto que estiver mais próximo
@@ -76,82 +76,31 @@ O método retorna o número de segundos formatados na unidade especificada no ar
 
 ## Exemplos
 
-### Exemplo #1
-
-O código a seguir...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-... definirá s.eVar1 como &quot;10,5 horas&quot;
-
-O argumento transmitido, 38242 segundos, é igual a 10 horas, 37 minutos e 22 segundos.  Como o argumento tf não está definido nesta chamada e o número de segundos transmitidos está entre uma hora e um dia, o plug-in retornará o número de segundos convertidos para o referencial de 1/4 de hora que estiver mais próximo.
-
-### Exemplo #2
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-...definirá s.eVar1 como &quot;10,75 horas&quot;
-O argumento transmitido, 38250 segundos, é igual a 10 horas, 37 minutos e 30 segundos.  Nesse caso, arredondar o número de segundos transmitidos para o referencial de 1/4 de hora que estiver mais próximo definirá o valor final como 10,75 horas
-
-### Exemplo #3
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-... definirá s.eVar1 como &quot;637,5 minutos&quot;
-
-Nesse caso, o argumento &quot;m&quot; força o plug-in a converter os segundos para o referencial de meio minuto que estiver mais próximo
-
-### Exemplo #4
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-... definirá s.eVar1 como &quot;640 minutos&quot;
-
-O valor do argumento tf (&quot;m&quot;) força o plug-in a converter os segundos em minutos, mas o valor do argumento bml (20) também força o plug-in a arredondar a conversão de minutos para o referencial de 20 minutos que estiver mais próximo.
-
-### Exemplo #5
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-...definirá s.eVar1 como &quot;126 segundos&quot;, que é o referencial de 2 segundos mais próximo a 125 segundos
-
-### Exemplo #6
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-...definirá s.eVar1 como &quot;3 minutos&quot;, que é o referencial de 3 minutos mais próximo a 125 segundos
-
-### Exemplo #7
-
-O código a seguir...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-...definirá s.eVar1 como &quot;2,4 minutos&quot;, que é o referencial de 2/5 minutos mais próximo (por exemplo, .4 = 2/5) a 145 segundos
 
 ## Histórico da versão
 
