@@ -2,10 +2,10 @@
 title: getVisitNum
 description: Rastreia o número da visita atual de um visitante.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 96%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Usar o plug-in
 
-O método `getVisitNum` aceita os seguintes argumentos:
+A função `getVisitNum` usa os seguintes argumentos:
 
 * **`rp`** (opcional, número inteiro OU string): o número de dias antes da redefinição do contador do número de visitas.  O valor padrão é `365` quando um valor não está definido.
    * Quando esse argumento é `"w"`, o contador é reiniciado no final da semana (neste sábado, às 23:59)
@@ -65,89 +65,31 @@ O método `getVisitNum` aceita os seguintes argumentos:
    * Quando esse argumento é `"y"`, o contador é reiniciado no final do ano (31 de dezembro)
 * **`erp`** (opcional, booleano): Quando o argumento `rp` é um número, esse argumento determina se a expiração do número de visitas deve ser estendida. Se definido como `true`, as ocorrências subsequentes do site redefinirão o contador de número de visitas. Se definido como `false`, as ocorrências subsequentes do site serão estendidas quando o contador de número de visitas é redefinido. O padrão é `true`. Esse argumento não é válido quando o argumento `rp` é uma string.
 
-O número de visitas aumenta sempre que o visitante retorna ao site após 30 minutos de inatividade. Chamar esse método retorna um número inteiro que representa o número de visita atual do visitante.
+O número de visitas aumenta sempre que o visitante retorna ao site após 30 minutos de inatividade. Chamar essa função retorna um número inteiro que representa o número de visita atual do visitante.
 
 Este plug-in define um cookie próprio chamado `"s_vnc[LENGTH]"`, onde `[LENGTH]` é o valor transmitido para o argumento `rp`. Por exemplo, `"s_vncw"`, `"s_vncm"` ou `"s_vnc365"`. O valor do cookie é uma combinação de um carimbo de data e hora de Unix que representa o momento quando o contador de visitas é redefinido, como um fim da semana, fim do mês ou após 365 dias de inatividade. Também contém o número de visitas atual. Este plug-in define outro cookie chamado `"s_ivc"`, que está definido como `true` e expira após 30 minutos de inatividade.
 
-## Exemplos de chamadas
-
-### Exemplo #1
-
-Para um visitante que não esteve no site nos últimos 365 dias, o código a seguir definirá s.prop1 como 1:
+## Exemplos
 
 ```js
-s.prop1=s.getVisitNum();
+// Sets prop4 to the visit number, storing the value in a cookie that expires in 365 days
+// The cookie value is reset only if there are 365+ days of inactivity or the visitor clears their cookies.
+s.prop4 = getVisitNum();
+
+// Sets eVar4 to the visit number, storing the value in a cookie that expires in 200 days
+// The cookie value is reset only if there are 200+ days of inactivity or the visitor clears their cookies.
+s.eVar4 = getVisitNum(200);
+
+// Sets eVar16 to the visit number, storing the value in a cookie that expires in 90 days.
+// The cookie value is reset after 90 days, regardless of how many visits that happen in those 90 days.
+s.eVar16 = getVisitNum(90,false);
+
+// Track the visit number unique to the week, month, and year, all in separate variables
+// The plug-in automatically creates three separate cookies to track these values
+s.prop1 = getVisitNum("w");
+s.prop2 = getVisitNum("m");
+s.prop3 = getVisitNum("y");
 ```
-
-### Exemplo #2
-
-Para um visitante que retorna ao site dentro de 364 dias após sua primeira visita, o seguinte código definirá s.prop1 como 2:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-Se esse visitante retornar ao site dentro de 364 dias após sua segunda visita, o código a seguir definirá s.prop1 como 3:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-### Exemplo #3
-
-Para um visitante que retorna ao site dentro de 179 dias após sua primeira visita, o seguinte código definirá s.prop1 como 2:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-No entanto, se esse visitante retornar ao site um ou mais dias após sua segunda visita, o código a seguir definirá s.prop1 como 1:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-Quando o segundo argumento na chamada for igual a false, a rotina que determina quando o número de visitas deve ser &quot;redefinido&quot; para 1 fará isso durante um número &quot;x&quot; de dias - neste exemplo, 365 dias - após a primeira visita do visitante ao site.
-
-Quando o segundo argumento for igual a true (ou não for definido), o plug-in redefinirá o número de visita para 1 somente após um número &quot;x&quot; de dias - novamente, neste exemplo, 365 dias - de inatividade do visitante.
-
-### Exemplo #4
-
-Para todos os visitantes que chegam ao site pela primeira vez durante a semana atual - começando no domingo - o código a seguir definirá s.prop1 como 1:
-
-```js
-s.prop1=s.getVisitNum("w");
-```
-
-### Exemplo #5
-
-Para todos os visitantes que chegam ao site pela primeira vez durante o mês atual - começando no primeiro dia de cada mês - o código a seguir definirá s.prop1 como 1:
-
-```js
-s.prop1=s.getVisitNum("m");
-```
-
-Lembre-se que o plug-in getVisitNum não considera calendários de varejo (ou seja, 4-5-4, 4-4-5 etc.)
-
-### Exemplo #6
-
-Para todos os visitantes que chegam ao site pela primeira vez durante o ano atual - começando em 1º de janeiro - o código a seguir definirá s.prop1 como 1:
-
-```js
-s.prop1=s.getVisitNum("y");
-```
-
-### Exemplo #7
-
-Se você deseja rastrear o número de visitas de um visitante naquela semana, mês e ano - tudo dentro de diferentes variáveis do Analytics - você deve usar um código semelhante ao seguinte:
-
-```js
-s.prop1=s.getVisitNum("w");
-s.prop2=s.getVisitNum("m");
-s.prop3=s.getVisitNum("y");
-```
-
-Nesse caso, o plug-in criará três cookies diferentes - um para cada um dos diferentes períodos - para rastrear o número de visitas individuais por período.
 
 ## Histórico da versão
 
