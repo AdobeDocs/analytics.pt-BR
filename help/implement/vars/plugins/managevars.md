@@ -2,10 +2,10 @@
 title: manageVars
 description: Altere os valores de mais de uma variável do Analytics de cada vez.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Usar o plug-in
 
-O método `manageVars` aceita os seguintes argumentos:
+A função `manageVars` usa os seguintes argumentos:
 
 * **`cb`** (obrigatório, string): o nome de uma função de retorno de chamada que o plug-in usa para manipular as variáveis do Analytics. Você pode usar uma função da Adobe como `cleanStr` ou sua própria função personalizada.
 * **`l`** (opcional, string): uma lista delimitada por vírgulas de variáveis do Analytics que você deseja manipular. O padrão é ter TODAS as variáveis do Adobe Analytics quando não definidas, o que inclui:
@@ -79,7 +79,7 @@ O método `manageVars` aceita os seguintes argumentos:
    * Todas as variáveis de dados de contexto
 * **`Il`** (opcional, booleano): defina como `false` se você deseja *excluir* a lista de variáveis declaradas no argumento `l` em vez de incluí-las. O padrão é `true`.
 
-Chamar esse método não retorna nada. Em vez disso, altera os valores das variáveis do Analytics com base na função de retorno de chamada desejada.
+Chamar essa função não retorna nada. Em vez disso, altera os valores das variáveis do Analytics com base na função de retorno de chamada desejada.
 
 ## Exemplos de chamadas
 
@@ -88,7 +88,7 @@ Chamar esse método não retorna nada. Em vez disso, altera os valores das vari�
 O código a seguir...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ... altera os valores de todas as variáveis descritas acima para versões em minúsculas.  A única exceção a isso é a variável de eventos, pois alguns dos eventos (por exemplo, scAdd, scCheckout etc.) fazem distinção entre maiúsculas e minúsculas e não devem ser convertidos para minúsculas
@@ -98,7 +98,7 @@ s.manageVars("lowerCaseVars");
 O código a seguir...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ... produz essencialmente o mesmo resultado que o primeiro exemplo, já que a variável de eventos não foi convertida em minúsculas por padrão.
@@ -108,7 +108,7 @@ s.manageVars("lowerCaseVars", "events", false);
 O código a seguir...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ... alterará (por exemplo, minúsculas) somente os valores de eVar1, eVar2, eVar3 e list2.
@@ -118,7 +118,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 O código a seguir...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ... alterará (por exemplo, minúsculas) os valores de todas as variáveis descritas acima, EXCETO da eVar1, eVar2, eVar3 e list2.
@@ -128,7 +128,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 O código a seguir...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ... altera os valores de todas as variáveis descritas acima, incluindo as variáveis de eventos.  Especificamente, a função de retorno de chamada cleanStr faz o seguinte com o valor de cada variável:
